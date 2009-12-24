@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "countries"
     gem.summary = 'All sorts of useful information about every country.'
-    gem.description = 'All sorts of useful information about every country.'
+    gem.description = 'All sorts of useful information about every country. It includes data from ISO3166-1, ISO3166-2 and E.164'
     gem.email = "hexorx@gmail.com"
     gem.homepage = "http://github.com/hexorx/countries"
     gem.authors = ["hexorx"]
