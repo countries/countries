@@ -22,10 +22,19 @@ class Country
     @national_prefix = data['e164_national_prefix']
   end
   
-  def self.[](search)
-    Country.new(Data[search])
+  def self.search(query)
+    Country.new(Data[query])
   end
-end
-
-class State
+  
+  def self.[](query)
+    self.search(query)
+  end
+  
+  def subdivisions
+    @subdivisions ||= subdivisions? ? File.open("lib/data/subdivisions/#{alpha2}.yaml") {|yaml| YAML::load( yaml )} : {}
+  end
+  
+  def subdivisions?
+    File.exist?("lib/data/subdivisions/#{alpha2}.yaml")
+  end
 end

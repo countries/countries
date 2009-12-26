@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Country do
   before(:all) do
-    @country = Country['US']
+    @country = Country.search('US')
   end
   
   it 'should return 3166 number' do
@@ -63,9 +63,19 @@ describe Country do
     end
   end
   
-  describe '[]' do
-    it 'should return new country object when a alpha2 is passed' do
-      Country['US'].should be_a(Country)
+  describe '.subdivisions' do
+    it 'should return an empty hash for a country with no ISO3166-2' do
+      Country.search('VA').subdivisions.should have(0).subdivisions
+    end
+    
+    it 'should return a hash with all sub divisions' do
+      @country.subdivisions.should have(57).states
+    end
+  end
+  
+  describe '.search' do
+    it 'should return new country object when a valid alpha2 is passed' do
+      Country.search('US').should be_a(Country)
     end
   end
 end

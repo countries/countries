@@ -40,11 +40,11 @@ Then you have all sorts of methods on the Country object to give you info about 
     c.national_number_lengths # E.164 length of the national number
     c.international_prefix # E.164 code for dialing international from country
     c.national_prefix # E164 code for dialing within the country
+    c.subdivisions # All ISO3166-2 for that country with there codes
 
 ToDo
 ----
 
-* subdivisions (States/Providences ISO 3166-2)
 * currency (ISO 4217)
 * search/indexing
 
