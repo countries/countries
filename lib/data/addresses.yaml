@@ -1,0 +1,473 @@
+# Avaible placeholders:
+#   * recipient
+#   * street
+#   * zip
+#   * city
+#   * state
+#   * country
+#
+--- 
+ae: 
+  name: United Arab Emirates
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+ar: 
+  name: Argentina
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{state}}
+    {{country}}
+at: 
+  name: Austria
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+au: 
+  name: Australia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}} {{zip}}
+    {{country}}
+ba: 
+  name: Bosnia and Herzegovina
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+be: 
+  name: Belgium
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+bg: 
+  name: Bulgaria
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+bh: 
+  name: Bahrain
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+br: 
+  name: Brazil
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+ca: 
+  name: Canada
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}} {{zip}}
+    {{country}}
+ch: 
+  name: Switzerland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+cn: 
+  name: China
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+cz: 
+  name: Czech
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+de: 
+  name: Germany
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+dk: 
+  name: Denmark
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{state}}
+    {{country}}
+eg: 
+  name: Egypt
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+es: 
+  name: Spain
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+fi: 
+  name: Finland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+fr: 
+  name: France
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+gb: 
+  name: United Kingdom
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{state}}
+    {{zip}}
+    {{country}}
+gl: 
+  name: Greenland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+gr: 
+  name: Greece
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+hk: 
+  name: Hong Kong
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+hr: 
+  name: Croatia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+hu: 
+  name: Hungary
+  format: |-
+    {{recipient}}
+    {{city}}
+    {{street}}
+    {{zip}}
+    {{country}}
+id: 
+  name: Indonesia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{state}} {{zip}}
+    {{country}}
+ie: 
+  name: Ireland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}} {{zip}}
+    {{country}}
+il: 
+  name: Israel
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+in: 
+  name: India
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{state}}
+    {{city}} {{zip}}
+    {{country}}
+is: 
+  name: Iceland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+it: 
+  name: Italy
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+jo: 
+  name: Jordan
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+# Here is a sample of Japanese formatted addresses (Apple Japan HQ).
+# Usually they have "Postal mark" before zip (postal) code,
+# and parts of an address are not separated with space.
+#  Biggs::Formatter.new(:blank_country_on => "jp").format(
+#    "jp",
+#    :recipient => "アップルジャパン株式会社 本社",
+#    :street => "西新宿3-20-2",
+#    :city => "新宿区",
+#    :state => "東京都",
+#    :zip => "163-1480")
+#  〒163-1480
+#  東京都新宿区西新宿3-20-2
+#  アップルジャパン株式会社 本社
+jp: 
+  name: Japan
+  format: |-
+    〒{{zip}}
+    {{state}}{{city}}{{street}}
+    {{recipient}}
+    {{country}}
+kr: 
+  name: South Korea
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}}
+    {{zip}}
+    {{country}}
+kw: 
+  name: Kuwait
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{state}}
+    {{country}}
+lb: 
+  name: Lebanon
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+lu: 
+  name: Luxembourg
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+mk: 
+  name: Macedonia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{zip}}
+    {{country}}
+mx: 
+  name: Mexico
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+nl: 
+  name: Netherlands
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+no: 
+  name: Norway
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+nz: 
+  name: New Zealand
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{state}}
+    {{city}} {{zip}}
+    {{country}}
+om: 
+  name: Oman
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{state}}
+    {{country}}
+ph: 
+  name: Philippines
+  format: |-
+    {{recipient}}
+    {{street}} {{state}}
+    {{zip}} {{city}}
+    {{country}}
+pl: 
+  name: Poland
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{state}}
+    {{country}}
+pt: 
+  name: Portugal
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}} {{state}}
+    {{country}}
+qa: 
+  name: Qatar
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+ro: 
+  name: Romania
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+ru: 
+  name: Russian Federation
+  format: |-
+    {{recipient}}
+    {{zip}} {{city}}
+    {{street}}
+    {{country}}
+sa: 
+  name: Saudi Arabia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+se: 
+  name: Sweden
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+sg: 
+  name: Singapore
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{zip}}
+    {{country}}
+si: 
+  name: Slovenia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+sk: 
+  name: Slovakia
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+sy: 
+  name: Syrian Arab Republic
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+tr: 
+  name: Turkey
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+tw: 
+  name: Taiwan
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}} {{zip}}
+    {{country}}
+ua: 
+  name: Ukraine
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}}
+    {{zip}}
+    {{country}}
+us: 
+  name: United States
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{state}} {{zip}}
+    {{country}}
+ye: 
+  name: Yemen
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    {{country}}
+yu: 
+  name: Serbia and Montenegro
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{zip}} {{city}}
+    
+    {{state}}
+    {{country}}
+za: 
+  name: South Africa
+  format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{state}}
+    {{zip}}
+    {{country}}
