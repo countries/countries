@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{countries}
-  s.version = "0.1.8"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx"]
   s.date = %q{2009-12-30}
-  s.description = %q{All sorts of useful information about every country. It includes data from ISO3166-1, ISO3166-2 and E.164}
+  s.description = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.}
   s.email = %q{hexorx@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -26,11 +26,7 @@ Gem::Specification.new do |s|
      "countries.gemspec",
      "lib/countries.rb",
      "lib/countries/select_helper.rb",
-     "lib/data/addresses.yaml",
      "lib/data/countries.yaml",
-     "lib/data/import.rb",
-     "lib/data/iso3166-1.csv",
-     "lib/data/iso3166-2.csv",
      "lib/data/subdivisions/AD.yaml",
      "lib/data/subdivisions/AE.yaml",
      "lib/data/subdivisions/AF.yaml",
@@ -233,7 +229,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{All sorts of useful information about every country.}
+  s.summary = %q{Gives you a country object full of all sorts of useful information.}
   s.test_files = [
     "spec/countries_spec.rb",
      "spec/spec_helper.rb"
@@ -244,13 +240,16 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<algorithms>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<yard>, [">= 0"])
     else
+      s.add_dependency(%q<algorithms>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<yard>, [">= 0"])
     end
   else
+    s.add_dependency(%q<algorithms>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<yard>, [">= 0"])
   end
