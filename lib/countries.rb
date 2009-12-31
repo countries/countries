@@ -1,5 +1,6 @@
 class Country
-  Data = File.open( 'lib/data/countries.yaml' ) {|yaml| YAML::load( yaml )}
+  #Data = File.open( 'lib/data/countries.yaml' ) {|yaml| YAML::load( yaml )}
+  Data = YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'countries.yaml')) || {}
   Names = Data.map {|code,data| data[:name]}
   
   attr_reader :number, :alpha2, :alpha3, :name, :names, :latitude, :longitude, :region, :subregion, :country_code, :national_destination_code_lengths, :national_number_lengths, :international_prefix, :national_prefix
@@ -32,11 +33,11 @@ class Country
   end
   
   def subdivisions
-    @subdivisions ||= subdivisions? ? File.open("lib/data/subdivisions/#{alpha2}.yaml") {|yaml| YAML::load( yaml )} : {}
+    @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end
   
   def subdivisions?
-    File.exist?("lib/data/subdivisions/#{alpha2}.yaml")
+    File.exist?(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml"))
   end
 end
 
