@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "countries"
-    gem.summary = 'All sorts of useful information about every country.'
-    gem.description = 'All sorts of useful information about every country. It includes data from ISO3166-1, ISO3166-2 and E.164'
+    gem.summary = 'Gives you a country object full of all sorts of useful information.'
+    gem.description = 'All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.'
     gem.email = "hexorx@gmail.com"
     gem.homepage = "http://github.com/hexorx/countries"
     gem.authors = ["hexorx"]
+    gem.add_dependency "algorithms"
     gem.add_development_dependency "rspec"
     gem.add_development_dependency "yard"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
