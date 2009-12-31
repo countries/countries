@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{countries}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx"]
-  s.date = %q{2009-12-26}
+  s.date = %q{2009-12-30}
   s.description = %q{All sorts of useful information about every country. It includes data from ISO3166-1, ISO3166-2 and E.164}
   s.email = %q{hexorx@gmail.com}
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "countries.gemspec",
      "lib/countries.rb",
+     "lib/data/addresses.yaml",
      "lib/data/countries.yaml",
      "lib/data/import.rb",
      "lib/data/iso3166-1.csv",
