@@ -1,7 +1,7 @@
 Countries
 =========
 
-Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 and E.164. Next release will contain ISO3166-2 and ISO4217. I will add any country based data I can get access to. I hope this to be a repository for all country based information.
+Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). The gem also adds a country_select helper. I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
 Warning!
 --------
@@ -19,7 +19,7 @@ Countries is hosted on GemCutter, so simply run the following:
 Use It!
 -------
 
-Simply load a new country object using Country.new(iso 3166 alph2 code) or the shortcut Country[iso 3166 alph2 code]. An example  works best.
+Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example  works best.
 
     c = Country.new('US')
     c = Country['US']
@@ -41,11 +41,26 @@ Then you have all sorts of methods on the Country object to give you info about 
     c.international_prefix # E.164 code for dialing international from country
     c.national_prefix # E164 code for dialing within the country
     c.subdivisions # All ISO3166-2 for that country with there codes
+    
+The currency method returns a hash of ISO4217 information.
+
+    c.currency['code'] => 'USD'
+    c.currency['name'] => 'Dollars'
+    c.currency['symbol'] => '$'
+    c.currency['unicode_hex'] => 36 # Returns a FixNum. Do .to_s(16) to get hex value
+    c.currency['unicode_hex'].to_s(16) => '24'
+    c.currency['alt_currency'] => nil # Will return a second currency hash for countries with an alternate currency.
+    
+A template for formatting addresses is available through the address_format method.
+
+    c.address_format => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+
+As a bonus if you add the gem to a rails project it automatically gives you a country_select form helper. Unlike the normal country select it will store the alpha2 country code not the country name.
+
 
 ToDo
 ----
 
-* currency (ISO 4217)
 * search/indexing
 
 Sponsored By

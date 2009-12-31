@@ -1,78 +1,103 @@
 --- 
 VA: 
-  e164_country_code: "39"
-  region: Europe
-  number: "336"
-  alpha2: VA
+  national_prefix: None
   name: Holy See (Vatican City State)
-  latitude: 41 54 N
+  alpha2: VA
+  number: "336"
+  region: Europe
   alpha3: VAT
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 41 54 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 12 27 E
+  country_code: "39"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 3
+  currency: &id002 
+    name: Euro
+    symbol: !binary |
+      4oKs
+
+    code: EUR
+    unicode_hex: 8364
   names: 
   - Vatican City
   - Vatikan
   - "Cit\xC3\xA9 du Vatican"
   - Ciudad del Vaticano
-CC: 
-  e164_country_code: "61"
-  region: Oceania
-  number: "166"
-  alpha2: CC
-  name: Cocos (Keeling) Islands
-  latitude: 12 30 S
-  alpha3: CCK
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Australia and New Zealand
-  e164_international_prefix: "0011"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 12 27 E
+  national_number_lengths: 
   - 9
-  longitude: 96 50 E
+CC: 
+  national_prefix: "0"
+  name: Cocos (Keeling) Islands
+  alpha2: CC
+  number: "166"
+  region: Oceania
+  alpha3: CCK
+  latitude: 12 30 S
+  subregion: Australia and New Zealand
+  country_code: "61"
+  international_prefix: "0011"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id008 
+    name: Dollars
+    symbol: $
+    code: AUD
+    unicode_hex: 36
   names: 
   - Cocos (Keeling) Islands
+  longitude: 96 50 E
+  national_number_lengths: 
+  - 9
 GT: 
-  e164_country_code: "502"
-  region: Americas
-  number: "320"
-  alpha2: GT
+  national_prefix: None
   name: Guatemala
-  latitude: 15 30 N
+  alpha2: GT
+  number: "320"
+  region: Americas
   alpha3: GTM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 15 30 N
   subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 90 15 W
+  country_code: "502"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Quetzales
+    symbol: Q
+    code: GTQ
+    unicode_hex: 81
   names: 
   - Guatemala
+  longitude: 90 15 W
+  national_number_lengths: 
+  - 8
 JP: 
-  e164_country_code: "81"
-  region: Asia
-  number: "392"
-  alpha2: JP
+  national_prefix: "0"
   name: Japan
-  latitude: 36 00 N
+  alpha2: JP
+  number: "392"
+  region: Asia
   alpha3: JPN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 36 00 N
   subregion: Eastern Asia
-  e164_international_prefix: "010"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  - 10
-  longitude: 138 00 E
+  country_code: "81"
+  international_prefix: "010"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    〒{{postalcode}}
+    {{region}}{{city}}{{street}}
+    {{recipient}}
+    {{country}}
+  currency: 
+    name: Yen
+    symbol: !binary |
+      wqU=
+
+    code: JPY
+    unicode_hex: 165
   names: 
   - Japan
   - Japan
@@ -80,22 +105,35 @@ JP:
   - !binary |
     SmFww7Nu
 
-SE: 
-  e164_country_code: "46"
-  region: Europe
-  number: "752"
-  alpha2: SE
-  name: Sweden
-  latitude: 62 00 N
-  alpha3: SWE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 138 00 E
+  national_number_lengths: 
   - 9
-  longitude: 15 00 E
+  - 10
+SE: 
+  national_prefix: "0"
+  name: Sweden
+  alpha2: SE
+  number: "752"
+  region: Europe
+  alpha3: SWE
+  latitude: 62 00 N
+  subregion: Northern Europe
+  country_code: "46"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Kronor
+    symbol: kr
+    code: SEK
+    unicode_hex: 
+    - 107
+    - 114
   names: 
   - Sweden
   - Schweden
@@ -103,1335 +141,1646 @@ SE:
     U3XDqGRl
 
   - Suecia
-TZ: 
-  e164_country_code: "255"
-  region: Africa
-  number: "834"
-  alpha2: TZ
-  name: Tanzania, United Republic of
-  latitude: 6 00 S
-  alpha3: TZA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "000"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 15 00 E
+  national_number_lengths: 
   - 9
-  longitude: 35 00 E
+TZ: 
+  national_prefix: "0"
+  name: Tanzania, United Republic of
+  alpha2: TZ
+  number: "834"
+  region: Africa
+  alpha3: TZA
+  latitude: 6 00 S
+  subregion: Eastern Africa
+  country_code: "255"
+  international_prefix: "000"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Shillings
+    code: TZS
   names: 
   - Tanzania
   - Tansania
   - Tanzanie
+  longitude: 35 00 E
+  national_number_lengths: 
+  - 9
 CD: 
-  e164_country_code: "243"
-  region: Africa
-  number: "180"
-  alpha2: CD
+  national_prefix: None
   name: Congo, The Democratic Republic Of The
-  latitude: 0 00 N
+  alpha2: CD
+  number: "180"
+  region: Africa
   alpha3: COD
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 0 00 N
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 25 00 E
+  country_code: "243"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Congo (Dem. Rep.)
   - Kongo (Dem. Rep.)
   - Congo (Rep. Dem.)
   - Congo (Rep. Dem.)
+  longitude: 25 00 E
+  national_number_lengths: 
+  - 8
 GU: 
-  e164_country_code: "1"
-  region: Oceania
-  number: "316"
-  alpha2: GU
+  national_prefix: "1"
   name: Guam
-  latitude: 13 28 N
+  alpha2: GU
+  number: "316"
+  region: Oceania
   alpha3: GUM
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 13 28 N
   subregion: Micronesia
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 144 47 E
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: &id001 
+    name: Dollars
+    symbol: $
+    code: USD
+    unicode_hex: 36
   names: 
   - Guam
+  longitude: 144 47 E
+  national_number_lengths: 
+  - 10
 MM: 
-  e164_country_code: "95"
-  region: Asia
-  number: "104"
-  alpha2: MM
+  national_prefix: None
   name: Myanmar
-  latitude: 22 00 N
+  alpha2: MM
+  number: "104"
+  region: Asia
   alpha3: MMR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 22 00 N
   subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  - 8
-  longitude: 98 00 E
+  country_code: "95"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Kyats
+    code: MNK
   names: 
   - Myanmar
   - Myanmar
   - Myanmar
   - Myanmar
-DZ: 
-  e164_country_code: "213"
-  region: Africa
-  number: "012"
-  alpha2: DZ
-  name: Algeria
-  latitude: 28 00 N
-  alpha3: DZA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "7"
-  e164_national_number_lengths: 
+  longitude: 98 00 E
+  national_number_lengths: 
+  - 7
   - 8
-  longitude: 3 00 E
+DZ: 
+  national_prefix: "7"
+  name: Algeria
+  alpha2: DZ
+  number: "012"
+  region: Africa
+  alpha3: DZA
+  latitude: 28 00 N
+  subregion: Northern Africa
+  country_code: "213"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dinars
+    code: DZD
   names: 
   - Algeria
   - Algerien
   - "Alg\xC3\xA9rie"
   - Argelia
-MN: 
-  e164_country_code: "976"
-  region: Asia
-  number: "496"
-  alpha2: MN
-  name: Mongolia
-  latitude: 46 00 N
-  alpha3: MNG
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
+  longitude: 3 00 E
+  national_number_lengths: 
   - 8
-  - 9
-  - 10
-  longitude: 105 00 E
+MN: 
+  national_prefix: "0"
+  name: Mongolia
+  alpha2: MN
+  number: "496"
+  region: Asia
+  alpha3: MNG
+  latitude: 46 00 N
+  subregion: Eastern Asia
+  country_code: "976"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Tugriks
+    symbol: !binary |
+      4oKu
+
+    code: MNT
+    unicode_hex: 8366
   names: 
   - Mongolei
   - Mongolie
   - Mongolia
-PK: 
-  e164_country_code: "92"
-  region: Asia
-  number: "586"
-  alpha2: PK
-  name: Pakistan
-  latitude: 30 00 N
-  alpha3: PAK
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 105 00 E
+  national_number_lengths: 
+  - 7
+  - 8
   - 9
   - 10
-  longitude: 70 00 E
+PK: 
+  national_prefix: "0"
+  name: Pakistan
+  alpha2: PK
+  number: "586"
+  region: Asia
+  alpha3: PAK
+  latitude: 30 00 N
+  subregion: Southern Asia
+  country_code: "92"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: PKR
+    unicode_hex: 8360
   names: 
   - Pakistan
   - "Paquist\xC3\xA1n"
-SG: 
-  e164_country_code: "65"
-  region: Asia
-  number: "702"
-  alpha2: SG
-  name: Singapore
-  latitude: 1 22 N
-  alpha3: SGP
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
+  longitude: 70 00 E
+  national_number_lengths: 
   - 9
-  longitude: 103 48 E
+  - 10
+SG: 
+  national_prefix: None
+  name: Singapore
+  alpha2: SG
+  number: "702"
+  region: Asia
+  alpha3: SGP
+  latitude: 1 22 N
+  subregion: South-Eastern Asia
+  country_code: "65"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{postalcode}}
+    {{country}}
+  currency: 
+    name: Dollars
+    symbol: $
+    code: SGD
+    unicode_hex: 36
   names: 
   - Singapore
   - Singapur
   - Singapour
   - Singapur
+  longitude: 103 48 E
+  national_number_lengths: 
+  - 8
+  - 9
 VC: 
-  e164_country_code: "1"
-  region: Americas
-  number: "670"
-  alpha2: VC
+  national_prefix: "1"
   name: Saint Vincent And The Grenedines
-  latitude: 13 15 N
+  alpha2: VC
+  number: "670"
+  region: Americas
   alpha3: VCT
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 13 15 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 61 12 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: &id004 
+    name: East Caribbean Dollars
+    symbol: $
+    code: XCD
+    unicode_hex: 36
   names: 
   - Saint Vincent and the Grenadines
   - Saint Vincent und die Grenadinen
   - Saint-Vincent et les Grenadines
   - San Vicente y Granadinas
+  longitude: 61 12 W
+  national_number_lengths: 
+  - 10
 CF: 
-  e164_country_code: "236"
-  region: Africa
-  number: "140"
-  alpha2: CF
+  national_prefix: None
   name: Central African Republic
-  latitude: 7 00 N
+  alpha2: CF
+  number: "140"
+  region: Africa
   alpha3: CAF
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 7 00 N
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 21 00 E
+  country_code: "236"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id006 
+    name: "Communaut\xC3\xA9 Financi\xC3\xA8re Africaine Francs"
+    code: XAF
   names: 
   - Central African Republic
   - Zentralafrikanische Republik
   - "R\xC3\xA9publique Centrafricaine"
   - "Rep\xC3\xBAblica Centroafricana"
+  longitude: 21 00 E
+  national_number_lengths: 
+  - 8
 GW: 
-  e164_country_code: "245"
-  region: Africa
-  number: "624"
-  alpha2: GW
+  national_prefix: None
   name: Guinea-Bissau
-  latitude: 12 00 N
+  alpha2: GW
+  number: "624"
+  region: Africa
   alpha3: GNB
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 12 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 15 00 W
+  country_code: "245"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id003 
+    name: "Communaut\xC3\xA9 Financi\xC3\xA8re Africaine Francs"
+    code: XOF
   names: 
   - Guinea-Bissau
   - "Guin\xC3\xA9e-Bissau"
+  longitude: 15 00 W
+  national_number_lengths: 
+  - 7
 MO: 
-  e164_country_code: "853"
-  region: Asia
-  number: "446"
-  alpha2: MO
+  national_prefix: "0"
   name: Macao
-  latitude: 22 10 N
+  alpha2: MO
+  number: "446"
+  region: Asia
   alpha3: MAC
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 22 10 N
   subregion: Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 113 33 E
+  country_code: "853"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Macao
+  longitude: 113 33 E
+  national_number_lengths: 
+  - 8
 PL: 
-  e164_country_code: "48"
-  region: Europe
-  number: "616"
-  alpha2: PL
+  national_prefix: "0"
   name: Poland
-  latitude: 52 00 N
+  alpha2: PL
+  number: "616"
+  region: Europe
   alpha3: POL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 52 00 N
   subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 20 00 E
+  country_code: "48"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  currency: 
+    name: Zlotych
+    symbol: !binary |
+      esWC
+
+    code: PLN
+    unicode_hex: 
+    - 122
+    - 322
   names: 
   - Poland
   - Polen
   - Pologne
   - Polonia
+  longitude: 20 00 E
+  national_number_lengths: 
+  - 9
 SH: 
-  e164_country_code: "290"
-  region: Africa
-  number: "654"
-  alpha2: SH
+  national_prefix: None
   name: Saint Helena
-  latitude: "Saint Helena: 15 57 "
+  alpha2: SH
+  number: "654"
+  region: Africa
   alpha3: SHN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: "Saint Helena: 15 57 "
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 4
-  longitude: "Saint Helena: 5 42 W"
+  country_code: "290"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: SHP
+    unicode_hex: 163
   names: 
   - Saint Helena
   - Sankt Helena
   - "Sainte H\xC3\xA9l\xC3\xA8ne"
   - Santa Helena
-VE: 
-  e164_country_code: "58"
-  region: Americas
-  number: "862"
-  alpha2: VE
-  name: Venezuela, Bolivarian Republic of
-  latitude: 8 00 N
-  alpha3: VEN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 66 00 W
-  names: 
-  - Venezuela
+  longitude: "Saint Helena: 5 42 W"
+  national_number_lengths: 
+  - 4
 CG: 
-  e164_country_code: "242"
-  region: Africa
-  number: "178"
-  alpha2: CG
+  national_prefix: None
   name: Congo
-  latitude: 1 00 S
+  alpha2: CG
+  number: "178"
+  region: Africa
   alpha3: COG
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 1 00 S
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 15 00 E
+  country_code: "242"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Congo
   - Kongo
+  longitude: 15 00 E
+  national_number_lengths: 
+  - 7
 MP: 
-  e164_country_code: "1"
-  region: Oceania
-  number: "580"
-  alpha2: MP
+  national_prefix: "1"
   name: Northern Mariana Islands
-  latitude: 15 12 N
+  alpha2: MP
+  number: "580"
+  region: Oceania
   alpha3: MNP
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 15 12 N
   subregion: Micronesia
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 145 45 E
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
   names: 
   - Northern Mariana Islands
   - "N\xC3\xB6rdliche Marianen"
   - Mariannes du Nord
   - Islas Marianas del Norte
+  longitude: 145 45 E
+  national_number_lengths: 
+  - 10
 PM: 
-  e164_country_code: "508"
-  region: Americas
-  number: "666"
-  alpha2: PM
+  national_prefix: "0"
   name: Saint Pierre And Miquelon
-  latitude: 46 50 N
+  alpha2: PM
+  number: "666"
+  region: Americas
   alpha3: SPM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 46 50 N
   subregion: Northern America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 6
-  longitude: 56 20 W
+  country_code: "508"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
   names: 
   - Saint Pierre and Miquelon
   - Saint-Pierre-et-Miquelon
   - Saint-Pierre-et-Miquelon
   - "San Pedro y Miquel\xC3\xB3n"
+  longitude: 56 20 W
+  national_number_lengths: 
+  - 6
 SI: 
-  e164_country_code: "386"
-  region: Europe
-  number: "705"
-  alpha2: SI
+  national_prefix: "0"
   name: Slovenia
-  latitude: 46 07 N
+  alpha2: SI
+  number: "705"
+  region: Europe
   alpha3: SVN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 46 07 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 14 49 E
+  country_code: "386"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Slovenia
   - Slowenien
   - "Slov\xC3\xA9nie"
   - Eslovenia
-ZW: 
-  e164_country_code: "263"
-  region: Africa
-  number: "716"
-  alpha2: ZW
-  name: Zimbabwe
-  latitude: 20 00 S
-  alpha3: ZWE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 14 49 E
+  national_number_lengths: 
   - 8
-  - 9
+VE: 
+  national_prefix: "0"
+  name: Venezuela, Bolivarian Republic of
+  alpha2: VE
+  number: "862"
+  region: Americas
+  alpha3: VEN
+  latitude: 8 00 N
+  subregion: South America
+  country_code: "58"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Bolivares Fuertes
+    symbol: Bs
+    code: VEF
+    unicode_hex: 
+    - 1083
+    - 1074
+  names: 
+  - Venezuela
+  longitude: 66 00 W
+  national_number_lengths: 
   - 10
-  - 11
-  longitude: 30 00 E
+ZW: 
+  national_prefix: "0"
+  name: Zimbabwe
+  alpha2: ZW
+  number: "716"
+  region: Africa
+  alpha3: ZWE
+  latitude: 20 00 S
+  subregion: Eastern Africa
+  country_code: "263"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Zimbabwe Dollars
+    symbol: Z$
+    code: ZWD
+    unicode_hex: 
+    - 90
+    - 36
   names: 
   - Zimbabwe
   - Simbabwe
   - Zimbabue
-CH: 
-  e164_country_code: "41"
-  region: Europe
-  number: "756"
-  alpha2: CH
-  name: Switzerland
-  latitude: 47 00 N
-  alpha3: CHE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 30 00 E
+  national_number_lengths: 
+  - 8
   - 9
   - 10
-  longitude: 8 00 E
+  - 11
+CH: 
+  national_prefix: "0"
+  name: Switzerland
+  alpha2: CH
+  number: "756"
+  region: Europe
+  alpha3: CHE
+  latitude: 47 00 N
+  subregion: Western Europe
+  country_code: "41"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: &id007 
+    name: Switzerland Francs
+    symbol: CHF
+    code: CHF
+    unicode_hex: 
+    - 67
+    - 72
+    - 70
   names: 
   - Switzerland
   - Schweiz
   - Suisse
   - Suiza
+  longitude: 8 00 E
+  national_number_lengths: 
+  - 9
+  - 10
 GY: 
-  e164_country_code: "592"
-  region: Americas
-  number: "328"
-  alpha2: GY
+  national_prefix: None
   name: Guyana
-  latitude: 5 00 N
+  alpha2: GY
+  number: "328"
+  region: Americas
   alpha3: GUY
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 5 00 N
   subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  - 7
-  longitude: 59 00 W
+  country_code: "592"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    code: GYD
   names: 
   - Guyana
+  longitude: 59 00 W
+  national_number_lengths: 
+  - 6
+  - 7
 MQ: 
-  e164_country_code: "596"
-  region: Americas
-  number: "474"
-  alpha2: MQ
+  national_prefix: None
   name: Martinique
-  latitude: ""
+  alpha2: MQ
+  number: "474"
+  region: Americas
   alpha3: MTQ
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: ""
   subregion: Caribbean
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 10
-  longitude: ""
+  country_code: "596"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id002
   names: 
   - Martinique
   - Martinique
   - Martinique
   - Martinica
+  longitude: ""
+  national_number_lengths: 
+  - 10
 PN: 
-  e164_country_code: "872"
-  region: Oceania
-  number: "612"
-  alpha2: PN
+  national_prefix: "0"
   name: Pitcairn
-  latitude: 25 04 S
+  alpha2: PN
+  number: "612"
+  region: Oceania
   alpha3: PCN
-  e164_national_destination_code_lengths: []
-
+  latitude: 25 04 S
   subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 130 06 W
+  country_code: "872"
+  international_prefix: "00"
+  national_destination_code_lengths: []
+
+  currency: &id005 
+    name: New Zealand Dollars
+    symbol: $
+    code: NZD
+    unicode_hex: 36
   names: 
   - Pitcairn
+  longitude: 130 06 W
+  national_number_lengths: 
+  - 9
 SJ: 
-  e164_country_code: "47"
-  region: Europe
-  number: "744"
-  alpha2: SJ
+  national_prefix: None
   name: Svalbard And Jan Mayen
-  latitude: 78 00 N
+  alpha2: SJ
+  number: "744"
+  region: Europe
   alpha3: SJM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 78 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 20 00 E
+  country_code: "47"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id010 
+    name: Kroner
+    symbol: kr
+    code: NOK
+    unicode_hex: 
+    - 123
+    - 114
   names: 
   - Svalbard and Jan Mayen
   - Svalbard und Jan Mayen
   - "\xC3\x8Eles Svalbard et Jan Mayen"
   - Islas Svalbard y Jan Mayen
-VG: 
-  e164_country_code: "1"
-  region: Americas
-  number: 092
-  alpha2: VG
-  name: Virgin Islands, British
-  latitude: ""
-  alpha3: VGB
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: ""
-  names: 
-  - British Virgin Islands
-  - Britische Jungferninseln
-  - "\xC3\x8Eles Vierges britanniques"
-  - "Islas V\xC3\xADrgenes del Reino Unido"
-CI: 
-  e164_country_code: "225"
-  region: Africa
-  number: "384"
-  alpha2: CI
-  name: "C\xC3\xB4te D\\'Ivoire"
-  latitude: 8 00 N
-  alpha3: CIV
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 20 00 E
+  national_number_lengths: 
   - 8
-  longitude: 5 00 W
+CI: 
+  national_prefix: "0"
+  name: "C\xC3\xB4te D\\'Ivoire"
+  alpha2: CI
+  number: "384"
+  region: Africa
+  alpha3: CIV
+  latitude: 8 00 N
+  subregion: Western Africa
+  country_code: "225"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
   names: 
   - "C\xC3\xB4te D\\'Ivoire"
+  longitude: 5 00 W
+  national_number_lengths: 
+  - 8
 MR: 
-  e164_country_code: "222"
-  region: Africa
-  number: "478"
-  alpha2: MR
+  national_prefix: "0"
   name: Mauritania
-  latitude: 20 00 N
+  alpha2: MR
+  number: "478"
+  region: Africa
   alpha3: MRT
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 20 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  longitude: 12 00 W
+  country_code: "222"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Ouguiyas
+    code: MRO
   names: 
   - Mauritania
   - Mauretanien
   - Mauritanie
   - Mauritania
+  longitude: 12 00 W
+  national_number_lengths: 
+  - 7
 SK: 
-  e164_country_code: "421"
-  region: Europe
-  number: "703"
-  alpha2: SK
+  national_prefix: "0"
   name: Slovakia
-  latitude: 48 40 N
+  alpha2: SK
+  number: "703"
+  region: Europe
   alpha3: SVK
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 48 40 N
   subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 19 30 E
+  country_code: "421"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Slovakia
   - Slowakei
   - Slovaquie
   - "Rep\xC3\xBAblica Eslovaca"
-MS: 
-  e164_country_code: "1"
+  longitude: 19 30 E
+  national_number_lengths: 
+  - 9
+VG: 
+  national_prefix: "1"
+  name: Virgin Islands, British
+  alpha2: VG
+  number: 092
   region: Americas
-  number: "500"
-  alpha2: MS
-  name: Montserrat
-  latitude: 16 45 N
-  alpha3: MSR
-  e164_national_destination_code_lengths: 
-  - 3
+  alpha3: VGB
+  latitude: ""
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
+  names: 
+  - British Virgin Islands
+  - Britische Jungferninseln
+  - "\xC3\x8Eles Vierges britanniques"
+  - "Islas V\xC3\xADrgenes del Reino Unido"
+  longitude: ""
+  national_number_lengths: 
   - 10
-  longitude: 62 12 W
+MS: 
+  national_prefix: "1"
+  name: Montserrat
+  alpha2: MS
+  number: "500"
+  region: Americas
+  alpha3: MSR
+  latitude: 16 45 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Montserrat
   - Montserrat
   - Montserrat
   - Montserrat
+  longitude: 62 12 W
+  national_number_lengths: 
+  - 10
 SL: 
-  e164_country_code: "232"
-  region: Africa
-  number: "694"
-  alpha2: SL
+  national_prefix: "0"
   name: Sierra Leone
-  latitude: 8 30 N
+  alpha2: SL
+  number: "694"
+  region: Africa
   alpha3: SLE
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 8 30 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 11 30 W
+  country_code: "232"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Leones
+    code: SLL
   names: 
   - Sierra Leone
-YE: 
-  e164_country_code: "967"
-  region: Asia
-  number: "887"
-  alpha2: YE
-  name: Yemen
-  latitude: 15 00 N
-  alpha3: YEM
-  e164_national_destination_code_lengths: 
+  longitude: 11 30 W
+  national_number_lengths: 
+  - 8
+CK: 
+  national_prefix: "00"
+  name: Cook Islands
+  alpha2: CK
+  number: "184"
+  region: Oceania
+  alpha3: COK
+  latitude: 21 14 S
+  subregion: Polynesia
+  country_code: "682"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
+  currency: *id005
+  names: 
+  - Cook Islands
+  - Cookinseln
+  - "\xC3\x8Eles Cook"
+  - Islas Cook
+  longitude: 159 46 W
+  national_number_lengths: 
+  - 5
+ID: 
+  national_prefix: "0"
+  name: Indonesia
+  alpha2: ID
+  number: "360"
+  region: Asia
+  alpha3: IDN
+  latitude: 5 00 S
+  subregion: South-Eastern Asia
+  country_code: "62"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}} {{postalcode}}
+    {{country}}
+  currency: &id013 
+    name: Indonesian Rupiahs
+    symbol: Rp
+    code: IDR
+    unicode_hex: 
+    - 82
+    - 112
+  names: 
+  - Indonesia
+  - Indonesien
+  - "Indon\xC3\xA9sie"
+  longitude: 120 00 E
+  national_number_lengths: 
   - 8
   - 9
-  longitude: 48 00 E
+  - 10
+  - 11
+MT: 
+  national_prefix: "21"
+  name: Malta
+  alpha2: MT
+  number: "470"
+  region: Europe
+  alpha3: MLT
+  latitude: 35 50 N
+  subregion: Southern Europe
+  country_code: "356"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
+  names: 
+  - Malta
+  - Malta
+  - Malte
+  - Malta
+  longitude: 14 35 E
+  national_number_lengths: 
+  - 8
+SM: 
+  national_prefix: None
+  name: San Marino
+  alpha2: SM
+  number: "674"
+  region: Europe
+  alpha3: SMR
+  latitude: 43 46 N
+  subregion: Southern Europe
+  country_code: "378"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
+  names: 
+  - San Marino
+  - Saint-Marin
+  longitude: 12 25 E
+  national_number_lengths: 
+  - 9
+  - 10
+  - 11
+  - 12
+VI: 
+  national_prefix: "1"
+  name: Virgin Islands, U.S.
+  alpha2: VI
+  number: "850"
+  region: Americas
+  alpha3: VIR
+  latitude: ""
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
+  names: 
+  - Virgin Islands of the United States
+  - Amerikanische Jungferninseln
+  - "\xC3\x8Eles Vierges am\xC3\xA9ricaines"
+  - "Islas V\xC3\xADrgenes de los Estados Unidos"
+  longitude: ""
+  national_number_lengths: 
+  - 10
+YE: 
+  national_prefix: "0"
+  name: Yemen
+  alpha2: YE
+  number: "887"
+  region: Asia
+  alpha3: YEM
+  latitude: 15 00 N
+  subregion: Western Asia
+  country_code: "967"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Rials
+    symbol: !binary |
+      77e8
+
+    code: YER
+    unicode_hex: 65020
   names: 
   - Yemen
   - Jemen
   - !binary |
     WcOpbWVu
 
-VI: 
-  e164_country_code: "1"
-  region: Americas
-  number: "850"
-  alpha2: VI
-  name: Virgin Islands, U.S.
-  latitude: ""
-  alpha3: VIR
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: ""
-  names: 
-  - Virgin Islands of the United States
-  - Amerikanische Jungferninseln
-  - "\xC3\x8Eles Vierges am\xC3\xA9ricaines"
-  - "Islas V\xC3\xADrgenes de los Estados Unidos"
-CK: 
-  e164_country_code: "682"
-  region: Oceania
-  number: "184"
-  alpha2: CK
-  name: Cook Islands
-  latitude: 21 14 S
-  alpha3: COK
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: "00"
-  e164_national_number_lengths: 
-  - 5
-  longitude: 159 46 W
-  names: 
-  - Cook Islands
-  - Cookinseln
-  - "\xC3\x8Eles Cook"
-  - Islas Cook
-ID: 
-  e164_country_code: "62"
-  region: Asia
-  number: "360"
-  alpha2: ID
-  name: Indonesia
-  latitude: 5 00 S
-  alpha3: IDN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 48 00 E
+  national_number_lengths: 
+  - 7
   - 8
   - 9
-  - 10
-  - 11
-  longitude: 120 00 E
-  names: 
-  - Indonesia
-  - Indonesien
-  - "Indon\xC3\xA9sie"
-MT: 
-  e164_country_code: "356"
-  region: Europe
-  number: "470"
-  alpha2: MT
-  name: Malta
-  latitude: 35 50 N
-  alpha3: MLT
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "21"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 14 35 E
-  names: 
-  - Malta
-  - Malta
-  - Malte
-  - Malta
-SM: 
-  e164_country_code: "378"
-  region: Europe
-  number: "674"
-  alpha2: SM
-  name: San Marino
-  latitude: 43 46 N
-  alpha3: SMR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  - 10
-  - 11
-  - 12
-  longitude: 12 25 E
-  names: 
-  - San Marino
-  - Saint-Marin
 CL: 
-  e164_country_code: "56"
-  region: Americas
-  number: "152"
-  alpha2: CL
+  national_prefix: "0"
   name: Chile
-  latitude: 30 00 S
+  alpha2: CL
+  number: "152"
+  region: Americas
   alpha3: CHL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 30 00 S
   subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 71 00 W
+  country_code: "56"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pesos
+    symbol: $
+    code: CLP
+    unicode_hex: 36
   names: 
   - Chile
-IE: 
-  e164_country_code: "353"
-  region: Europe
-  number: "372"
-  alpha2: IE
-  name: Ireland
-  latitude: 53 00 N
-  alpha3: IRL
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 71 00 W
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 8 00 W
+IE: 
+  national_prefix: "0"
+  name: Ireland
+  alpha2: IE
+  number: "372"
+  region: Europe
+  alpha3: IRL
+  latitude: 53 00 N
+  subregion: Northern Europe
+  country_code: "353"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  currency: *id002
   names: 
   - Ireland
   - Irland
   - Irlande
   - Irlanda
+  longitude: 8 00 W
+  national_number_lengths: 
+  - 9
 LA: 
-  e164_country_code: "856"
-  region: Asia
-  number: "418"
-  alpha2: LA
+  national_prefix: "0"
   name: Lao People\'s Democratic Republic
-  latitude: 18 00 N
+  alpha2: LA
+  number: "418"
+  region: Asia
   alpha3: LAO
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 18 00 N
   subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 105 00 E
+  country_code: "856"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Kips
+    symbol: !binary |
+      4oKt
+
+    code: LAK
+    unicode_hex: 8365
   names: 
   - Laos
   - Laos
   - Laos
   - Laos
+  longitude: 105 00 E
+  national_number_lengths: 
+  - 8
 MU: 
-  e164_country_code: "230"
-  region: Africa
-  number: "480"
-  alpha2: MU
+  national_prefix: None
   name: Mauritius
-  latitude: 20 17 S
+  alpha2: MU
+  number: "480"
+  region: Africa
   alpha3: MUS
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 20 17 S
   subregion: Eastern Africa
-  e164_international_prefix: "020"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 57 33 E
+  country_code: "230"
+  international_prefix: "020"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: MUR
+    unicode_hex: 8360
   names: 
   - Mauritius
   - Mauritius
   - "\xC3\x8Ele Maurice"
   - Mauricio
-SN: 
-  e164_country_code: "221"
-  region: Africa
-  number: "686"
-  alpha2: SN
-  name: Senegal
-  latitude: 14 00 N
-  alpha3: SEN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 57 33 E
+  national_number_lengths: 
   - 7
-  longitude: 14 00 W
+SN: 
+  national_prefix: None
+  name: Senegal
+  alpha2: SN
+  number: "686"
+  region: Africa
+  alpha3: SEN
+  latitude: 14 00 N
+  subregion: Western Africa
+  country_code: "221"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
   names: 
   - Senegal
   - !binary |
     U8OpbsOpZ2Fs
 
+  longitude: 14 00 W
+  national_number_lengths: 
+  - 7
 CM: 
-  e164_country_code: "237"
-  region: Africa
-  number: "120"
-  alpha2: CM
+  national_prefix: None
   name: Cameroon
-  latitude: 6 00 N
+  alpha2: CM
+  number: "120"
+  region: Africa
   alpha3: CMR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 6 00 N
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 12 00 E
+  country_code: "237"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id006
   names: 
   - Cameroon
   - Kamerun
   - Cameroun
   - "Camer\xC3\xBAn"
+  longitude: 12 00 E
+  national_number_lengths: 
+  - 8
 FI: 
-  e164_country_code: "358"
-  region: Europe
-  number: "246"
-  alpha2: FI
+  national_prefix: "0"
   name: Finland
-  latitude: 64 00 N
+  alpha2: FI
+  number: "246"
+  region: Europe
   alpha3: FIN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 64 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 26 00 E
+  country_code: "358"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Finland
   - Finnland
   - Finlande
   - Finlandia
+  longitude: 26 00 E
+  national_number_lengths: 
+  - 9
 LB: 
-  e164_country_code: "961"
-  region: Asia
-  number: "422"
-  alpha2: LB
+  national_prefix: "0"
   name: Lebanon
-  latitude: 33 50 N
+  alpha2: LB
+  number: "422"
+  region: Asia
   alpha3: LBN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 33 50 N
   subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 35 50 E
+  country_code: "961"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: LBP
+    unicode_hex: 163
   names: 
   - Lebanon
   - Libanon
   - Liban
   - "L\xC3\xADbano"
+  longitude: 35 50 E
+  national_number_lengths: 
+  - 8
 MV: 
-  e164_country_code: "960"
-  region: Asia
-  number: "462"
-  alpha2: MV
+  national_prefix: None
   name: Maldives
-  latitude: 3 15 N
+  alpha2: MV
+  number: "462"
+  region: Asia
   alpha3: MDV
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 3 15 N
   subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 73 00 E
+  country_code: "960"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rufiyaa
+    code: MVR
   names: 
   - Maldives
   - Malediven
   - Maldivas
+  longitude: 73 00 E
+  national_number_lengths: 
+  - 7
 PR: 
-  e164_country_code: "1"
-  region: Americas
-  number: "630"
-  alpha2: PR
+  national_prefix: "1"
   name: Puerto Rico
-  latitude: 18 15 N
+  alpha2: PR
+  number: "630"
+  region: Americas
   alpha3: PRI
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 18 15 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 66 30 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
   names: 
   - Puerto Rico
+  longitude: 66 30 W
+  national_number_lengths: 
+  - 10
 SO: 
-  e164_country_code: "252"
-  region: Africa
-  number: "706"
-  alpha2: SO
+  national_prefix: None
   name: Somalia
-  latitude: 10 00 N
+  alpha2: SO
+  number: "706"
+  region: Africa
   alpha3: SOM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 10 00 N
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  - 8
-  longitude: 49 00 E
+  country_code: "252"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Shillings
+    symbol: S
+    code: SOS
+    unicode_hex: 83
   names: 
   - Somalia
+  longitude: 49 00 E
+  national_number_lengths: 
+  - 7
+  - 8
 CN: 
-  e164_country_code: "86"
-  region: Asia
-  number: "156"
-  alpha2: CN
+  national_prefix: "0"
   name: China
-  latitude: 35 00 N
+  alpha2: CN
+  number: "156"
+  region: Asia
   alpha3: CHN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 35 00 N
   subregion: Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  country_code: "86"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: 
+    name: Yuan Renminbi
+    symbol: !binary |
+      wqU=
+
+    code: CNY
+    unicode_hex: 165
+  names: 
+  - China
+  - Chine
+  longitude: 105 00 E
+  national_number_lengths: 
   - 7
   - 8
   - 9
   - 10
   - 11
-  longitude: 105 00 E
-  names: 
-  - China
-  - Chine
 FJ: 
-  e164_country_code: "679"
-  region: Oceania
-  number: "242"
-  alpha2: FJ
+  national_prefix: None
   name: Fiji
-  latitude: 18 00 S
+  alpha2: FJ
+  number: "242"
+  region: Oceania
   alpha3: FJI
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 18 00 S
   subregion: Melanesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 175 00 E
+  country_code: "679"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - Fiji
   - Fidschi
   - Fidji
+  longitude: 175 00 E
+  national_number_lengths: 
+  - 7
 LC: 
-  e164_country_code: "1"
-  region: Americas
-  number: "662"
-  alpha2: LC
+  national_prefix: "1"
   name: Saint Lucia
-  latitude: 13 53 N
+  alpha2: LC
+  number: "662"
+  region: Americas
   alpha3: LCA
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 13 53 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 60 58 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Saint Lucia
   - Saint-Lucie
   - "Santa Luc\xC3\xADa"
+  longitude: 60 58 W
+  national_number_lengths: 
+  - 10
 MW: 
-  e164_country_code: "265"
-  region: Africa
-  number: "454"
-  alpha2: MW
+  national_prefix: None
   name: Malawi
-  latitude: 13 30 S
+  alpha2: MW
+  number: "454"
+  region: Africa
   alpha3: MWI
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 13 30 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 34 00 E
+  country_code: "265"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Kwachas
+    code: MWK
   names: 
   - Malawi
-PS: 
-  e164_country_code: "970"
-  region: Asia
-  number: "275"
-  alpha2: PS
-  name: Palestinian Territory, Occupied
-  latitude: ""
-  alpha3: PSE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 34 00 E
+  national_number_lengths: 
   - 8
-  longitude: ""
+PS: 
+  national_prefix: "0"
+  name: Palestinian Territory, Occupied
+  alpha2: PS
+  number: "275"
+  region: Asia
+  alpha3: PSE
+  latitude: ""
+  subregion: Western Asia
+  country_code: "970"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Palestine
   - "Pal\xC3\xA4stina"
   - Palestine
   - Palestina
   - the Occupied Palestinian Territory
+  longitude: ""
+  national_number_lengths: 
+  - 8
 CO: 
-  e164_country_code: "57"
-  region: Americas
-  number: "170"
-  alpha2: CO
+  national_prefix: "05"
   name: Colombia
-  latitude: 4 00 N
+  alpha2: CO
+  number: "170"
+  region: Americas
   alpha3: COL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 4 00 N
   subregion: South America
-  e164_international_prefix: "005"
-  e164_national_prefix: "05"
-  e164_national_number_lengths: 
-  - 9
-  - 10
-  longitude: 72 00 W
+  country_code: "57"
+  international_prefix: "005"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pesos
+    symbol: $
+    code: COP
+    unicode_hex: 36
   names: 
   - Colombia
   - Kolumbien
   - Colombie
+  longitude: 72 00 W
+  national_number_lengths: 
+  - 9
+  - 10
 FK: 
-  e164_country_code: "500"
-  region: Americas
-  number: "238"
-  alpha2: FK
+  national_prefix: None
   name: Falkland Islands  (Malvinas)
-  latitude: 51 45 S
+  alpha2: FK
+  number: "238"
+  region: Americas
   alpha3: FLK
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 51 45 S
   subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  longitude: 59 00 W
+  country_code: "500"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: FKP
+    unicode_hex: 163
   names: 
   - Falkland Islands
   - Falklandinseln
   - "\xC3\x8Eles Malouines"
   - Islas Malvinas
+  longitude: 59 00 W
+  national_number_lengths: 
+  - 5
 MX: 
-  e164_country_code: "52"
-  region: Americas
-  number: "484"
-  alpha2: MX
+  national_prefix: "01"
   name: Mexico
-  latitude: 23 00 N
+  alpha2: MX
+  number: "484"
+  region: Americas
   alpha3: MEX
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 23 00 N
   subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: "01"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  - 10
-  longitude: 102 00 W
+  country_code: "52"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: 
+    name: Pesos
+    symbol: $
+    code: MXN
+    unicode_hex: 36
   names: 
   - Mexico
   - Mexiko
   - Mexique
   - "M\xC3\xA9xico"
-PT: 
-  e164_country_code: "351"
-  region: Europe
-  number: "620"
-  alpha2: PT
-  name: Portugal
-  latitude: 39 30 N
-  alpha3: PRT
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 8 00 W
-  names: 
-  - Portugal
-VN: 
-  e164_country_code: "84"
-  region: Asia
-  number: "704"
-  alpha2: VN
-  name: Viet Nam
-  latitude: 16 10 N
-  alpha3: VNM
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
+  longitude: 102 00 W
+  national_number_lengths: 
   - 8
   - 9
   - 10
-  longitude: 107 50 E
-  names: 
-  - Vietnam
-MY: 
-  e164_country_code: "60"
-  region: Asia
-  number: "458"
-  alpha2: MY
-  name: Malaysia
-  latitude: 2 30 N
-  alpha3: MYS
-  e164_national_destination_code_lengths: 
+PT: 
+  national_prefix: None
+  name: Portugal
+  alpha2: PT
+  number: "620"
+  region: Europe
+  alpha3: PRT
+  latitude: 39 30 N
+  subregion: Southern Europe
+  country_code: "351"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: *id002
+  names: 
+  - Portugal
+  longitude: 8 00 W
+  national_number_lengths: 
   - 9
-  - 10
-  longitude: 112 30 E
+MY: 
+  national_prefix: "0"
+  name: Malaysia
+  alpha2: MY
+  number: "458"
+  region: Asia
+  alpha3: MYS
+  latitude: 2 30 N
+  subregion: South-Eastern Asia
+  country_code: "60"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Ringgits
+    symbol: RM
+    code: MYR
+    unicode_hex: 
+    - 82
+    - 77
   names: 
   - Malaysia
   - Malaisie
   - Malasia
+  longitude: 112 30 E
+  national_number_lengths: 
+  - 9
+  - 10
 SR: 
-  e164_country_code: "597"
-  region: Americas
-  number: "740"
-  alpha2: SR
+  national_prefix: "0"
   name: Suriname
-  latitude: 4 00 N
+  alpha2: SR
+  number: "740"
+  region: Americas
   alpha3: SUR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 4 00 N
   subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 6
-  longitude: 56 00 W
+  country_code: "597"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: $
+    code: SRD
+    unicode_hex: 36
   names: 
   - Suriname
   - Surinam
-FM: 
-  e164_country_code: "691"
-  region: Oceania
-  number: "583"
-  alpha2: FM
-  name: Micronesia, Federated States Of
-  latitude: 6 55 N
-  alpha3: FSM
-  e164_national_destination_code_lengths: 
+  longitude: 56 00 W
+  national_number_lengths: 
+  - 6
+VN: 
+  national_prefix: "0"
+  name: Viet Nam
+  alpha2: VN
+  number: "704"
+  region: Asia
+  alpha3: VNM
+  latitude: 16 10 N
+  subregion: South-Eastern Asia
+  country_code: "84"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Micronesia
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  currency: 
+    name: Dong
+    symbol: !binary |
+      4oKr
+
+    code: VND
+    unicode_hex: 8363
+  names: 
+  - Vietnam
+  longitude: 107 50 E
+  national_number_lengths: 
   - 7
-  longitude: 158 15 E
+  - 8
+  - 9
+  - 10
+FM: 
+  national_prefix: "1"
+  name: Micronesia, Federated States Of
+  alpha2: FM
+  number: "583"
+  region: Oceania
+  alpha3: FSM
+  latitude: 6 55 N
+  subregion: Micronesia
+  country_code: "691"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - Micronesia
   - Mikronesien
   - "Micron\xC3\xA9sie"
   - Micronesia
+  longitude: 158 15 E
+  national_number_lengths: 
+  - 7
 MZ: 
-  e164_country_code: "258"
-  region: Africa
-  number: "508"
-  alpha2: MZ
+  national_prefix: "0"
   name: Mozambique
-  latitude: 18 15 S
+  alpha2: MZ
+  number: "508"
+  region: Africa
   alpha3: MOZ
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 18 15 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 35 00 E
+  country_code: "258"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Meticals
+    symbol: MT
+    code: MZN
+    unicode_hex: 
+    - 77
+    - 84
   names: 
   - Mozambique
   - Mosambik
   - Mozambique
   - Mozambique
-CR: 
-  e164_country_code: "506"
-  region: Americas
-  number: "188"
-  alpha2: CR
-  name: Costa Rica
-  latitude: 10 00 N
-  alpha3: CRI
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 35 00 E
+  national_number_lengths: 
   - 8
-  longitude: 84 00 W
+  - 9
+CR: 
+  national_prefix: None
+  name: Costa Rica
+  alpha2: CR
+  number: "188"
+  region: Americas
+  alpha3: CRI
+  latitude: 10 00 N
+  subregion: Central America
+  country_code: "506"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Colones
+    symbol: !binary |
+      4oKh
+
+    code: CRC
+    unicode_hex: 8353
   names: 
   - Costa Rica
+  longitude: 84 00 W
+  national_number_lengths: 
+  - 8
 PW: 
-  e164_country_code: "680"
-  region: Oceania
-  number: "585"
-  alpha2: PW
+  national_prefix: None
   name: Palau
-  latitude: 7 30 N
+  alpha2: PW
+  number: "585"
+  region: Oceania
   alpha3: PLW
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 7 30 N
   subregion: Micronesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 134 30 E
+  country_code: "680"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - Palau
+  longitude: 134 30 E
+  national_number_lengths: 
+  - 7
 FO: 
-  e164_country_code: "298"
-  region: Europe
-  number: "234"
-  alpha2: FO
+  national_prefix: None
   name: Faroe Islands
-  latitude: 62 00 N
+  alpha2: FO
+  number: "234"
+  region: Europe
   alpha3: FRO
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 62 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 7 00 W
+  country_code: "298"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id014 
+    name: Kroner
+    symbol: kr
+    code: DKK
+    unicode_hex: 
+    - 107
+    - 114
   names: 
   - Faroe Islands
   - "F\xC3\xA4r\xC3\xB6er-Inseln"
@@ -1439,2008 +1788,2610 @@ FO:
     w45sZXMgRsOpcm/DqQ==
 
   - Islas Faroe
-ST: 
-  e164_country_code: "239"
-  region: Africa
-  number: "678"
-  alpha2: ST
-  name: Sao Tome and Principe
-  latitude: 1 00 N
-  alpha3: STP
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 7 00 W
+  national_number_lengths: 
   - 6
-  - 7
-  longitude: 7 00 E
+ST: 
+  national_prefix: "0"
+  name: Sao Tome and Principe
+  alpha2: ST
+  number: "678"
+  region: Africa
+  alpha3: STP
+  latitude: 1 00 N
+  subregion: Middle Africa
+  country_code: "239"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dobras
+    code: STD
   names: 
   - "S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
   - "S\xC3\xA3o Tom\xC3\xA9 und Pr\xC3\xADncipe"
   - "S\xC3\xA3o Tom\xC3\xA9 et Pr\xC3\xADncipe"
   - "Santo Tom\xC3\xA9 y Pr\xC3\xADncipe"
-IL: 
-  e164_country_code: "972"
-  region: Asia
-  number: "376"
-  alpha2: IL
-  name: Israel
-  latitude: 31 30 N
-  alpha3: ISR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 7 00 E
+  national_number_lengths: 
+  - 6
   - 7
-  - 8
-  - 9
-  longitude: 34 45 E
+IL: 
+  national_prefix: "0"
+  name: Israel
+  alpha2: IL
+  number: "376"
+  region: Asia
+  alpha3: ISR
+  latitude: 31 30 N
+  subregion: Western Asia
+  country_code: "972"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: New Shekels
+    symbol: !binary |
+      4oKq
+
+    code: ILS
+    unicode_hex: 8362
   names: 
   - "Isra\xC3\xABl"
   - Israel
-LI: 
-  e164_country_code: "423"
-  region: Europe
-  number: "438"
-  alpha2: LI
-  name: Liechtenstein
-  latitude: 47 16 N
-  alpha3: LIE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 34 45 E
+  national_number_lengths: 
   - 7
-  longitude: 9 32 E
+  - 8
+  - 9
+LI: 
+  national_prefix: None
+  name: Liechtenstein
+  alpha2: LI
+  number: "438"
+  region: Europe
+  alpha3: LIE
+  latitude: 47 16 N
+  subregion: Western Europe
+  country_code: "423"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id007
   names: 
   - Liechtenstein
+  longitude: 9 32 E
+  national_number_lengths: 
+  - 7
 PY: 
-  e164_country_code: "595"
-  region: Americas
-  number: "600"
-  alpha2: PY
+  national_prefix: "0"
   name: Paraguay
-  latitude: 23 00 S
+  alpha2: PY
+  number: "600"
+  region: Americas
   alpha3: PRY
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 23 00 S
   subregion: South America
-  e164_international_prefix: "002"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 58 00 W
+  country_code: "595"
+  international_prefix: "002"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Guarani
+    symbol: Gs
+    code: PYG
+    unicode_hex: 
+    - 71
+    - 115
   names: 
   - Paraguay
+  longitude: 58 00 W
+  national_number_lengths: 
+  - 9
 BA: 
-  e164_country_code: "387"
-  region: Europe
-  number: "070"
-  alpha2: BA
+  national_prefix: "0"
   name: Bosnia and Herzegovina
-  latitude: 44 00 N
+  alpha2: BA
+  number: "070"
+  region: Europe
   alpha3: BIH
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 44 00 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 18 00 E
+  country_code: "387"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Convertible Marka
+    symbol: KM
+    code: BAM
+    unicode_hex: 
+    - 75
+    - 77
   names: 
   - Bosnia and Herzegovina
   - Bosnien und Herzegowina
   - "Bosnie et Herz\xC3\xA9govine"
   - Bosnia y Herzegovina
-CU: 
-  e164_country_code: "53"
-  region: Americas
-  number: "192"
-  alpha2: CU
-  name: Cuba
-  latitude: 21 30 N
-  alpha3: CUB
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Caribbean
-  e164_international_prefix: "119"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 18 00 E
+  national_number_lengths: 
   - 8
-  longitude: 80 00 W
+CU: 
+  national_prefix: "0"
+  name: Cuba
+  alpha2: CU
+  number: "192"
+  region: Americas
+  alpha3: CUB
+  latitude: 21 30 N
+  subregion: Caribbean
+  country_code: "53"
+  international_prefix: "119"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pesos
+    symbol: !binary |
+      4oKx
+
+    code: CUP
+    unicode_hex: 8369
   names: 
   - Cuba
   - Kuba
+  longitude: 80 00 W
+  national_number_lengths: 
+  - 8
 IM: 
-  e164_country_code: ""
-  region: Europe
-  number: "833"
-  alpha2: IM
+  national_prefix: ""
   name: Isle of Man
-  latitude: 54 15 N
+  alpha2: IM
+  number: "833"
+  region: Europe
   alpha3: IMN
-  e164_national_destination_code_lengths: []
-
+  latitude: 54 15 N
   subregion: Northern Europe
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 4 30 W
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: IMP
+    unicode_hex: 163
   names: 
   - Isle of Man
   - Man
   - "\xC3\x8Ele de Man"
   - Isla de Man
+  longitude: 4 30 W
+  national_number_lengths: []
+
 SV: 
-  e164_country_code: "503"
-  region: Americas
-  number: "222"
-  alpha2: SV
+  national_prefix: None
   name: El Salvador
-  latitude: 13 50 N
+  alpha2: SV
+  number: "222"
+  region: Americas
   alpha3: SLV
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 13 50 N
   subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 88 55 W
+  country_code: "503"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - Salvador
   - El Salvador
+  longitude: 88 55 W
+  national_number_lengths: 
+  - 8
 CV: 
-  e164_country_code: "238"
-  region: Africa
-  number: "132"
-  alpha2: CV
+  national_prefix: None
   name: Cape Verde
-  latitude: 16 00 N
+  alpha2: CV
+  number: "132"
+  region: Africa
   alpha3: CPV
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 16 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 24 00 W
+  country_code: "238"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Escudos
+    code: CVE
   names: 
   - Cape Verde
   - Kap Verde
   - Cap Vert
   - Cabo Verde
+  longitude: 24 00 W
+  national_number_lengths: 
+  - 7
 FR: 
-  e164_country_code: "33"
-  region: Europe
-  number: "250"
-  alpha2: FR
+  national_prefix: "0"
   name: France
-  latitude: 46 00 N
+  alpha2: FR
+  number: "250"
+  region: Europe
   alpha3: FRA
-  e164_national_destination_code_lengths: 
-  - 1
+  latitude: 46 00 N
   subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  - 10
-  longitude: "2 00 E "
+  country_code: "33"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 1
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - France
   - Frankreich
   - Francia
   - the French Republic
-IN: 
-  e164_country_code: "91"
-  region: Asia
-  number: "356"
-  alpha2: IN
-  name: India
-  latitude: 20 00 N
-  alpha3: IND
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: "2 00 E "
+  national_number_lengths: 
+  - 9
   - 10
-  longitude: 77 00 E
+IN: 
+  national_prefix: "0"
+  name: India
+  alpha2: IN
+  number: "356"
+  region: Asia
+  alpha3: IND
+  latitude: 20 00 N
+  subregion: Southern Asia
+  country_code: "91"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{region}}
+    {{city}} {{postalcode}}
+    {{country}}
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: INR
+    unicode_hex: 8360
   names: 
   - India
   - Indien
   - Inde
-LK: 
-  e164_country_code: "94"
-  region: Asia
-  number: "144"
-  alpha2: LK
-  name: Sri Lanka
-  latitude: 7 00 N
-  alpha3: LKA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 77 00 E
+  national_number_lengths: 
   - 10
-  longitude: 81 00 E
+LK: 
+  national_prefix: "0"
+  name: Sri Lanka
+  alpha2: LK
+  number: "144"
+  region: Asia
+  alpha3: LKA
+  latitude: 7 00 N
+  subregion: Southern Asia
+  country_code: "94"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: LKR
+    unicode_hex: 8360
   names: 
   - Sri Lanka
-VU: 
-  e164_country_code: "678"
-  region: Oceania
-  number: "548"
-  alpha2: VU
-  name: Vanuatu
-  latitude: 16 00 S
-  alpha3: VUT
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Melanesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  - 6
-  - 7
-  longitude: 167 00 E
-  names: 
-  - Vanuatu
-BB: 
-  e164_country_code: "1"
-  region: Americas
-  number: "052"
-  alpha2: BB
-  name: Barbados
-  latitude: 13 10 N
-  alpha3: BRB
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  longitude: 81 00 E
+  national_number_lengths: 
   - 10
-  longitude: 59 32 W
+BB: 
+  national_prefix: "1"
+  name: Barbados
+  alpha2: BB
+  number: "052"
+  region: Americas
+  alpha3: BRB
+  latitude: 13 10 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Dollars
+    symbol: $
+    code: BBD
+    unicode_hex: 36
   names: 
   - Barbade
   - Barbados
+  longitude: 59 32 W
+  national_number_lengths: 
+  - 10
 IO: 
-  e164_country_code: ""
-  region: Africa
-  number: 086
-  alpha2: IO
+  national_prefix: ""
   name: British Indian Ocean Territory
-  latitude: 6 00 S
+  alpha2: IO
+  number: 086
+  region: Africa
   alpha3: IOT
-  e164_national_destination_code_lengths: []
-
+  latitude: 6 00 S
   subregion: Eastern Africa
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 71 30 E
+  currency: *id001
   names: 
   - British Indian Ocean Territory
-UA: 
-  e164_country_code: "380"
-  region: Europe
-  number: "804"
-  alpha2: UA
-  name: Ukraine
-  latitude: 49 00 N
-  alpha3: UKR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Europe
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 32 00 E
-  names: 
-  - Ukraine
-  - Ukraine
-  - Ukraine
-  - Ucrania
-CX: 
-  e164_country_code: "618"
+  longitude: 71 30 E
+  national_number_lengths: []
+
+VU: 
+  national_prefix: None
+  name: Vanuatu
+  alpha2: VU
+  number: "548"
   region: Oceania
-  number: "162"
-  alpha2: CX
+  alpha3: VUT
+  latitude: 16 00 S
+  subregion: Melanesia
+  country_code: "678"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+  names: 
+  - Vanuatu
+  longitude: 167 00 E
+  national_number_lengths: 
+  - 5
+  - 6
+  - 7
+CX: 
+  national_prefix: "0"
   name: Christmas Island
-  latitude: 10 30 S
+  alpha2: CX
+  number: "162"
+  region: Oceania
   alpha3: CXR
-  e164_national_destination_code_lengths: []
-
+  latitude: 10 30 S
   subregion: Australia and New Zealand
-  e164_international_prefix: "0011"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: []
+  country_code: "618"
+  international_prefix: "0011"
+  national_destination_code_lengths: []
 
-  longitude: 105 40 E
+  currency: *id008
   names: 
   - Christmas Island
+  longitude: 105 40 E
+  national_number_lengths: []
+
 RE: 
-  e164_country_code: "262"
-  region: Africa
-  number: "638"
-  alpha2: RE
+  national_prefix: None
   name: "R\xC3\xA9union"
-  latitude: ""
+  alpha2: RE
+  number: "638"
+  region: Africa
   alpha3: REU
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: ""
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 10
-  longitude: ""
+  country_code: "262"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
   names: 
   - "R\xC3\xA9union"
   - "R\xC3\xA9union"
   - "R\xC3\xA9union"
   - "Reuni\xC3\xB3n"
-SY: 
-  e164_country_code: "963"
-  region: Asia
-  number: "760"
-  alpha2: SY
-  name: Syrian Arab Republic
-  latitude: 35 00 N
-  alpha3: SYR
-  e164_national_destination_code_lengths: 
+  longitude: ""
+  national_number_lengths: 
+  - 10
+UA: 
+  national_prefix: "8"
+  name: Ukraine
+  alpha2: UA
+  number: "804"
+  region: Europe
+  alpha3: UKR
+  latitude: 49 00 N
+  subregion: Eastern Europe
+  country_code: "380"
+  international_prefix: "810"
+  national_destination_code_lengths: 
   - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}}
+    {{postalcode}}
+    {{country}}
+  currency: 
+    name: Hryvnia
+    symbol: !binary |
+      4oK0
+
+    code: UAH
+    unicode_hex: 8372
+  names: 
+  - Ukraine
+  - Ukraine
+  - Ukraine
+  - Ucrania
+  longitude: 32 00 E
+  national_number_lengths: 
   - 8
-  longitude: 38 00 E
+  - 9
+SY: 
+  national_prefix: "0"
+  name: Syrian Arab Republic
+  alpha2: SY
+  number: "760"
+  region: Asia
+  alpha3: SYR
+  latitude: 35 00 N
+  subregion: Western Asia
+  country_code: "963"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: SYP
+    unicode_hex: 163
   names: 
   - Syria
   - Syrien
   - Syrie
   - Siria
-CY: 
-  e164_country_code: "357"
-  region: Asia
-  number: "196"
-  alpha2: CY
-  name: Cyprus
-  latitude: 35 00 N
-  alpha3: CYP
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 38 00 E
+  national_number_lengths: 
+  - 7
   - 8
-  longitude: 33 00 E
+CY: 
+  national_prefix: None
+  name: Cyprus
+  alpha2: CY
+  number: "196"
+  region: Asia
+  alpha3: CYP
+  latitude: 35 00 N
+  subregion: Western Asia
+  country_code: "357"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
   names: 
   - Cyprus
   - Zypern
   - Chypre
   - Chipre
-IQ: 
-  e164_country_code: "964"
-  region: Asia
-  number: "368"
-  alpha2: IQ
-  name: Iraq
-  latitude: 33 00 N
-  alpha3: IRQ
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 33 00 E
+  national_number_lengths: 
   - 8
-  - 9
-  - 10
-  longitude: 44 00 E
+IQ: 
+  national_prefix: None
+  name: Iraq
+  alpha2: IQ
+  number: "368"
+  region: Asia
+  alpha3: IRQ
+  latitude: 33 00 N
+  subregion: Western Asia
+  country_code: "964"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dinars
+    code: IQD
   names: 
   - Iraq
   - Irak
+  longitude: 44 00 E
+  national_number_lengths: 
+  - 8
+  - 9
+  - 10
 SZ: 
-  e164_country_code: "268"
-  region: Africa
-  number: "748"
-  alpha2: SZ
+  national_prefix: None
   name: Swaziland
-  latitude: 26 30 S
+  alpha2: SZ
+  number: "748"
+  region: Africa
   alpha3: SWZ
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 26 30 S
   subregion: Southern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 31 30 E
+  country_code: "268"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Emalangeni
+    code: SZL
   names: 
   - Swaziland
   - Swasiland
   - Swaziland
   - Suazilandia
+  longitude: 31 30 E
+  national_number_lengths: 
+  - 7
 BD: 
-  e164_country_code: "880"
-  region: Asia
-  number: "050"
-  alpha2: BD
+  national_prefix: "0"
   name: Bangladesh
-  latitude: 24 00 N
+  alpha2: BD
+  number: "050"
+  region: Asia
   alpha3: BGD
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 24 00 N
   subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 90 00 E
+  country_code: "880"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Taka
+    code: BTD
   names: 
   - Bangladesh
   - Bangladesch
+  longitude: 90 00 E
+  national_number_lengths: 
+  - 10
 CZ: 
-  e164_country_code: "420"
-  region: Europe
-  number: "203"
-  alpha2: CZ
+  national_prefix: None
   name: Czech Republic
-  latitude: 49 45 N
+  alpha2: CZ
+  number: "203"
+  region: Europe
   alpha3: CZE
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 49 45 N
   subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 15 30 E
+  country_code: "420"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Koruny
+    symbol: !binary |
+      S8SN
+
+    code: CZK
+    unicode_hex: 
+    - 75
+    - 269
   names: 
   - Czech Republic
   - Tschechische Republik
   - "R\xC3\xA9publique Tch\xC3\xA8que"
   - "Rep\xC3\xBAblica Checa"
+  longitude: 15 30 E
+  national_number_lengths: 
+  - 9
 IR: 
-  e164_country_code: "98"
-  region: Asia
-  number: "364"
-  alpha2: IR
+  national_prefix: "0"
   name: Iran, Islamic Republic Of
-  latitude: 32 00 N
+  alpha2: IR
+  number: "364"
+  region: Asia
   alpha3: IRN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 32 00 N
   subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 53 00 E
+  country_code: "98"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Riais
+    symbol: !binary |
+      77e8
+
+    code: IRR
+    unicode_hex: 65020
   names: 
   - Iran
   - !binary |
     SXLDoW4=
 
+  longitude: 53 00 E
+  national_number_lengths: 
+  - 10
 YT: 
-  e164_country_code: "269"
-  region: Africa
-  number: "175"
-  alpha2: YT
+  national_prefix: None
   name: Mayotte
-  latitude: 12 50 S
+  alpha2: YT
+  number: "175"
+  region: Africa
   alpha3: MYT
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 12 50 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 45 10 E
+  country_code: "269"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
   names: 
   - Mayotte
   - Mayotte
   - Mayotte
   - Mayotte
+  longitude: 45 10 E
+  national_number_lengths: 
+  - 7
 BE: 
-  e164_country_code: "32"
-  region: Europe
-  number: "056"
-  alpha2: BE
+  national_prefix: "0"
   name: Belgium
-  latitude: 50 50 N
+  alpha2: BE
+  number: "056"
+  region: Europe
   alpha3: BEL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 50 50 N
   subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 4 00 E
+  country_code: "32"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Belgium
   - Belgien
   - Belgique
   - "B\xC3\xA9lgica"
-IS: 
-  e164_country_code: "354"
-  region: Europe
-  number: "352"
-  alpha2: IS
-  name: Iceland
-  latitude: 65 00 N
-  alpha3: ISL
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
+  longitude: 4 00 E
+  national_number_lengths: 
   - 8
   - 9
-  longitude: 18 00 W
+IS: 
+  national_prefix: "0"
+  name: Iceland
+  alpha2: IS
+  number: "352"
+  region: Europe
+  alpha3: ISL
+  latitude: 65 00 N
+  subregion: Northern Europe
+  country_code: "354"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Kronur
+    symbol: kr
+    code: ISK
+    unicode_hex: 
+    - 107
+    - 114
   names: 
   - Iceland
   - Island
   - Islande
   - Islandia
-BF: 
-  e164_country_code: "226"
-  region: Africa
-  number: "854"
-  alpha2: BF
-  name: Burkina Faso
-  latitude: 13 00 N
-  alpha3: BFA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 2 00 W
-  names: 
-  - Burkina Faso
-EC: 
-  e164_country_code: "593"
-  region: Americas
-  number: "218"
-  alpha2: EC
-  name: Ecuador
-  latitude: 2 00 S
-  alpha3: ECU
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 18 00 W
+  national_number_lengths: 
+  - 7
   - 8
   - 9
-  longitude: 77 30 W
+BF: 
+  national_prefix: None
+  name: Burkina Faso
+  alpha2: BF
+  number: "854"
+  region: Africa
+  alpha3: BFA
+  latitude: 13 00 N
+  subregion: Western Africa
+  country_code: "226"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
+  names: 
+  - Burkina Faso
+  longitude: 2 00 W
+  national_number_lengths: 
+  - 8
+EC: 
+  national_prefix: "0"
+  name: Ecuador
+  alpha2: EC
+  number: "218"
+  region: Americas
+  alpha3: ECU
+  latitude: 2 00 S
+  subregion: South America
+  country_code: "593"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - "\xC3\x89quateur"
   - Ecuador
-IT: 
-  e164_country_code: "39"
-  region: Europe
-  number: "380"
-  alpha2: IT
-  name: Italy
-  latitude: 42 50 N
-  alpha3: ITA
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 77 30 W
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 12 50 E
+IT: 
+  national_prefix: None
+  name: Italy
+  alpha2: IT
+  number: "380"
+  region: Europe
+  alpha3: ITA
+  latitude: 42 50 N
+  subregion: Southern Europe
+  country_code: "39"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 3
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: *id002
   names: 
   - Italy
   - Italien
   - Italie
   - Italia
+  longitude: 12 50 E
+  national_number_lengths: 
+  - 9
 OM: 
-  e164_country_code: "968"
-  region: Asia
-  number: "512"
-  alpha2: OM
+  national_prefix: None
   name: Oman
-  latitude: 21 00 N
+  alpha2: OM
+  number: "512"
+  region: Asia
   alpha3: OMN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 21 00 N
   subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 57 00 E
+  country_code: "968"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  currency: 
+    name: Riais
+    symbol: !binary |
+      77e8
+
+    code: OMR
+    unicode_hex: 65020
   names: 
   - Oman
   - !binary |
     T23DoW4=
 
-BG: 
-  e164_country_code: "359"
-  region: Europe
-  number: "100"
-  alpha2: BG
-  name: Bulgaria
-  latitude: 43 00 N
-  alpha3: BGR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 57 00 E
+  national_number_lengths: 
   - 8
-  - 9
-  - 10
-  longitude: 25 00 E
+BG: 
+  national_prefix: "0"
+  name: Bulgaria
+  alpha2: BG
+  number: "100"
+  region: Europe
+  alpha3: BGR
+  latitude: 43 00 N
+  subregion: Eastern Europe
+  country_code: "359"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Leva
+    symbol: !binary |
+      0LvQsg==
+
+    code: BGN
+    unicode_hex: 
+    - 82
+    - 1074
   names: 
   - Bulgaria
   - Bulgarien
   - Bulgarie
-BH: 
-  e164_country_code: "973"
-  region: Asia
-  number: 048
-  alpha2: BH
-  name: Bahrain
-  latitude: 26 00 N
-  alpha3: BHR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 25 00 E
+  national_number_lengths: 
   - 8
-  longitude: 50 33 E
+  - 9
+  - 10
+BH: 
+  national_prefix: None
+  name: Bahrain
+  alpha2: BH
+  number: 048
+  region: Asia
+  alpha3: BHR
+  latitude: 26 00 N
+  subregion: Western Asia
+  country_code: "973"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Dinars
+    code: BHD
   names: 
   - Bahrain
   - "Bahre\xC3\xAFn"
   - Bahrein
-UG: 
-  e164_country_code: "256"
-  region: Africa
-  number: "800"
-  alpha2: UG
-  name: Uganda
-  latitude: 1 00 N
-  alpha3: UGA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "000"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 32 00 E
-  names: 
-  - Uganda
+  longitude: 50 33 E
+  national_number_lengths: 
+  - 8
 LR: 
-  e164_country_code: "231"
-  region: Africa
-  number: "430"
-  alpha2: LR
+  national_prefix: "22"
   name: Liberia
-  latitude: 6 30 N
+  alpha2: LR
+  number: "430"
+  region: Africa
   alpha3: LBR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 6 30 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "22"
-  e164_national_number_lengths: 
+  country_code: "231"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: $
+    code: LRD
+    unicode_hex: 36
+  names: 
+  - Liberia
+  - Liberia
+  - Liberia
+  - Liberia
+  longitude: 9 30 W
+  national_number_lengths: 
   - 6
   - 7
   - 8
-  longitude: 9 30 W
-  names: 
-  - Liberia
-  - Liberia
-  - Liberia
-  - Liberia
-BI: 
-  e164_country_code: "257"
+UG: 
+  national_prefix: "0"
+  name: Uganda
+  alpha2: UG
+  number: "800"
   region: Africa
-  number: "108"
-  alpha2: BI
-  name: Burundi
-  latitude: 3 30 S
-  alpha3: BDI
-  e164_national_destination_code_lengths: 
-  - 2
+  alpha3: UGA
+  latitude: 1 00 N
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 30 00 E
+  country_code: "256"
+  international_prefix: "000"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Shillings
+    code: UGX
+  names: 
+  - Uganda
+  longitude: 32 00 E
+  national_number_lengths: 
+  - 9
+BI: 
+  national_prefix: None
+  name: Burundi
+  alpha2: BI
+  number: "108"
+  region: Africa
+  alpha3: BDI
+  latitude: 3 30 S
+  subregion: Eastern Africa
+  country_code: "257"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Francs
+    code: BIF
   names: 
   - Burundi
-EE: 
-  e164_country_code: "372"
-  region: Europe
-  number: "233"
-  alpha2: EE
-  name: Estonia
-  latitude: 59 00 N
-  alpha3: EST
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
+  longitude: 30 00 E
+  national_number_lengths: 
   - 8
-  longitude: 26 00 E
+EE: 
+  national_prefix: None
+  name: Estonia
+  alpha2: EE
+  number: "233"
+  region: Europe
+  alpha3: EST
+  latitude: 59 00 N
+  subregion: Northern Europe
+  country_code: "372"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Krooni
+    symbol: kr
+    code: EEK
+    unicode_hex: 
+    - 107
+    - 114
   names: 
   - Estland
   - Estonie
   - Estonia
-LS: 
-  e164_country_code: "266"
-  region: Africa
-  number: "426"
-  alpha2: LS
-  name: Lesotho
-  latitude: 29 30 S
-  alpha3: LSO
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 26 00 E
+  national_number_lengths: 
+  - 7
   - 8
-  longitude: 28 30 E
+LS: 
+  national_prefix: None
+  name: Lesotho
+  alpha2: LS
+  number: "426"
+  region: Africa
+  alpha3: LSO
+  latitude: 29 30 S
+  subregion: Southern Africa
+  country_code: "266"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Maloti
+    code: LSL
+    alt_currency: &id009 
+      name: Rand
+      symbol: R
+      code: ZAR
+      unicode_hex: 82
   names: 
   - Lesotho
   - Lesotho
   - Lesotho
   - Lesotho
-BJ: 
-  e164_country_code: "229"
-  region: Africa
-  number: "204"
-  alpha2: BJ
-  name: Benin
-  latitude: 9 30 N
-  alpha3: BEN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 28 30 E
+  national_number_lengths: 
   - 8
-  longitude: 2 15 E
+BJ: 
+  national_prefix: None
+  name: Benin
+  alpha2: BJ
+  number: "204"
+  region: Africa
+  alpha3: BEN
+  latitude: 9 30 N
+  subregion: Western Africa
+  country_code: "229"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
   names: 
   - Benin
   - !binary |
     QsOpbmlu
 
-LT: 
-  e164_country_code: "370"
-  region: Europe
-  number: "440"
-  alpha2: LT
-  name: Lithuania
-  latitude: 56 00 N
-  alpha3: LTU
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
+  longitude: 2 15 E
+  national_number_lengths: 
   - 8
-  longitude: 24 00 E
+LT: 
+  national_prefix: "8"
+  name: Lithuania
+  alpha2: LT
+  number: "440"
+  region: Europe
+  alpha3: LTU
+  latitude: 56 00 N
+  subregion: Northern Europe
+  country_code: "370"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Litai
+    symbol: Lt
+    code: LTL
+    unicode_hex: 
+    - 76
+    - 116
   names: 
   - Lithuania
   - Litauen
   - Lituanie
   - Lituania
+  longitude: 24 00 E
+  national_number_lengths: 
+  - 8
 EG: 
-  e164_country_code: "20"
-  region: Africa
-  number: "818"
-  alpha2: EG
+  national_prefix: "0"
   name: Egypt
-  latitude: 27 00 N
+  alpha2: EG
+  number: "818"
+  region: Africa
   alpha3: EGY
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 27 00 N
   subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 30 00 E
+  country_code: "20"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: EGP
+    unicode_hex: 163
   names: 
   - Egypt
   - "\xC3\x84gypten"
   - "\xC3\x89gypte"
   - Egipto
+  longitude: 30 00 E
+  national_number_lengths: 
+  - 9
+BL: 
+  national_prefix: ""
+  name: "Saint Barth\xC3\xA9lemy"
+  alpha2: BL
+  number: "652"
+  region: Americas
+  alpha3: BLM
+  latitude: 17 90 N
+  subregion: Caribbean
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
+
+  currency: 
+  names: 
+  - "Saint Barth\xC3\xA9lemy"
+  longitude: 62 85 W
+  national_number_lengths: []
+
 EH: 
-  e164_country_code: ""
-  region: Africa
-  number: "732"
-  alpha2: EH
+  national_prefix: ""
   name: Western Sahara
-  latitude: 24 30 N
+  alpha2: EH
+  number: "732"
+  region: Africa
   alpha3: ESH
-  e164_national_destination_code_lengths: []
-
+  latitude: 24 30 N
   subregion: Northern Africa
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 13 00 W
+  currency: &id015 
+    name: Dirhams
+    code: MAD
   names: 
   - Western Sahara
   - Westsahara
   - Sahara Occidental
   - Sahara Occidental
-BL: 
-  e164_country_code: ""
-  region: Americas
-  number: "652"
-  alpha2: BL
-  name: "Saint Barth\xC3\xA9lemy"
-  latitude: 17 90 N
-  alpha3: BLM
-  e164_national_destination_code_lengths: []
+  longitude: 13 00 W
+  national_number_lengths: []
 
-  subregion: Caribbean
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
-
-  longitude: 62 85 W
-  names: 
-  - "Saint Barth\xC3\xA9lemy"
 LU: 
-  e164_country_code: "352"
-  region: Europe
-  number: "442"
-  alpha2: LU
+  national_prefix: None
   name: Luxembourg
-  latitude: 49 45 N
+  alpha2: LU
+  number: "442"
+  region: Europe
   alpha3: LUX
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 49 45 N
   subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 6 10 E
+  country_code: "352"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Luxembourg
   - Luxemburg
   - Luxembourg
   - Luxemburgo
-RO: 
-  e164_country_code: "40"
-  region: Europe
-  number: "642"
-  alpha2: RO
-  name: Romania
-  latitude: 46 00 N
-  alpha3: ROU
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 6 10 E
+  national_number_lengths: 
   - 9
-  longitude: 25 00 E
+RO: 
+  national_prefix: "0"
+  name: Romania
+  alpha2: RO
+  number: "642"
+  region: Europe
+  alpha3: ROU
+  latitude: 46 00 N
+  subregion: Eastern Europe
+  country_code: "40"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: New Lei
+    symbol: lei
+    code: RON
+    unicode_hex: 
+    - 108
+    - 101
+    - 105
   names: 
   - Romania
   - "Rum\xC3\xA4nien"
   - Roumanie
   - Rumania
+  longitude: 25 00 E
+  national_number_lengths: 
+  - 9
 BM: 
-  e164_country_code: "1"
-  region: Americas
-  number: "060"
-  alpha2: BM
+  national_prefix: "1"
   name: Bermuda
-  latitude: 32 20 N
+  alpha2: BM
+  number: "060"
+  region: Americas
   alpha3: BMU
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 32 20 N
   subregion: Northern America
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 64 45 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Dollars
+    symbol: $
+    code: BMD
+    unicode_hex: 36
   names: 
   - Bermuda
   - Bermudes
   - Bermudas
+  longitude: 64 45 W
+  national_number_lengths: 
+  - 10
 LV: 
-  e164_country_code: "371"
-  region: Europe
-  number: "428"
-  alpha2: LV
+  national_prefix: "8"
   name: Latvia
-  latitude: 57 00 N
+  alpha2: LV
+  number: "428"
+  region: Europe
   alpha3: LVA
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 57 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 25 00 E
+  country_code: "371"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Lati
+    symbol: Ls
+    code: LVL
+    unicode_hex: 
+    - 76
+    - 115
   names: 
   - Latvia
   - Lettland
   - Lettonie
   - Letonia
+  longitude: 25 00 E
+  national_number_lengths: 
+  - 8
 BN: 
-  e164_country_code: "673"
-  region: Asia
-  number: 096
-  alpha2: BN
+  national_prefix: "0"
   name: Brunei Darussalam
-  latitude: 4 30 N
+  alpha2: BN
+  number: 096
+  region: Asia
   alpha3: BRN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 4 30 N
   subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  longitude: 114 40 E
+  country_code: "673"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: $
+    code: BND
+    unicode_hex: 36
   names: 
   - Brunei
+  longitude: 114 40 E
+  national_number_lengths: 
+  - 7
 UM: 
-  e164_country_code: ""
-  region: Americas
-  number: "581"
-  alpha2: UM
+  national_prefix: ""
   name: United States Minor Outlying Islands
-  latitude: ""
+  alpha2: UM
+  number: "581"
+  region: Americas
   alpha3: UMI
-  e164_national_destination_code_lengths: []
-
+  latitude: ""
   subregion: Northern America
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: ""
+  currency: *id001
   names: 
   - United States Minor Outlying Islands
   - US-Amerikanische Hoheitsgebiete
   - "D\xC3\xA9pendances am\xC3\xA9ricaines"
   - Islas menores de Estados Unidos
+  longitude: ""
+  national_number_lengths: []
+
 BO: 
-  e164_country_code: "591"
-  region: Americas
-  number: 068
-  alpha2: BO
+  national_prefix: "010"
   name: Bolivia
-  latitude: 17 00 S
+  alpha2: BO
+  number: 068
+  region: Americas
   alpha3: BOL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 17 00 S
   subregion: South America
-  e164_international_prefix: "0010"
-  e164_national_prefix: "010"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 65 00 W
+  country_code: "591"
+  international_prefix: "0010"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Bolivianos
+    symbol: $b
+    code: BOB
+    unicode_hex: 
+    - 36
+    - 98
   names: 
   - Bolivia
   - Bolivien
   - Bolivie
+  longitude: 65 00 W
+  national_number_lengths: 
+  - 8
 KE: 
-  e164_country_code: "254"
-  region: Africa
-  number: "404"
-  alpha2: KE
+  national_prefix: "0"
   name: Kenya
-  latitude: 1 00 N
+  alpha2: KE
+  number: "404"
+  region: Africa
   alpha3: KEN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 1 00 N
   subregion: Eastern Africa
-  e164_international_prefix: "000"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 38 00 E
+  country_code: "254"
+  international_prefix: "000"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Shillings
+    code: KES
   names: 
   - Kenya
   - Kenia
   - Kenya
   - Kenia
+  longitude: 38 00 E
+  national_number_lengths: 
+  - 9
 NA: 
-  e164_country_code: "264"
-  region: Africa
-  number: "516"
-  alpha2: NA
+  national_prefix: "0"
   name: Namibia
-  latitude: 22 00 S
+  alpha2: NA
+  number: "516"
+  region: Africa
   alpha3: NAM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 22 00 S
   subregion: Southern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 6
-  - 7
-  longitude: 17 00 E
+  country_code: "264"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: $
+    code: NAD
+    unicode_hex: 36
+    alt_currency: *id009
   names: 
   - Namibia
   - Namibia
   - Namibie
   - Namibia
-LY: 
-  e164_country_code: "218"
-  region: Africa
-  number: "434"
-  alpha2: LY
-  name: Libyan Arab Jamahiriya
-  latitude: 25 00 N
-  alpha3: LBY
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
   longitude: 17 00 E
+  national_number_lengths: 
+  - 6
+  - 7
+LY: 
+  national_prefix: "0"
+  name: Libyan Arab Jamahiriya
+  alpha2: LY
+  number: "434"
+  region: Africa
+  alpha3: LBY
+  latitude: 25 00 N
+  subregion: Northern Africa
+  country_code: "218"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dinars
+    code: LYD
   names: 
   - Libya
   - Libyen
   - Libye
   - Libia
+  longitude: 17 00 E
+  national_number_lengths: 
+  - 8
+  - 9
 BR: 
-  e164_country_code: "55"
-  region: Americas
-  number: "076"
-  alpha2: BR
+  national_prefix: "014"
   name: Brazil
-  latitude: 10 00 S
+  alpha2: BR
+  number: "076"
+  region: Americas
   alpha3: BRA
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 10 00 S
   subregion: South America
-  e164_international_prefix: "0014"
-  e164_national_prefix: "014"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 55 00 W
+  country_code: "55"
+  international_prefix: "0014"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: 
+    name: Real
+    symbol: R$
+    code: BRL
+    unicode_hex: 
+    - 82
+    - 36
   names: 
   - Brazil
   - Brasilien
   - "Br\xC3\xA9sil"
   - Brasil
+  longitude: 55 00 W
+  national_number_lengths: 
+  - 10
 KG: 
-  e164_country_code: "996"
-  region: Asia
-  number: "417"
-  alpha2: KG
+  national_prefix: "0"
   name: Kyrgyzstan
-  latitude: 41 00 N
+  alpha2: KG
+  number: "417"
+  region: Asia
   alpha3: KGZ
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 41 00 N
   subregion: Central Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 75 00 E
+  country_code: "996"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Soms
+    symbol: !binary |
+      0LvQsg==
+
+    code: KGS
+    unicode_hex: 
+    - 1083
+    - 1074
   names: 
   - Kyrgyzstan
   - Kirgisistan
   - Kirghizistan
   - "Kirguizist\xC3\xA1n"
+  longitude: 75 00 E
+  national_number_lengths: 
+  - 9
 NC: 
-  e164_country_code: "687"
-  region: Oceania
-  number: "540"
-  alpha2: NC
+  national_prefix: None
   name: New Caledonia
-  latitude: 21 30 S
+  alpha2: NC
+  number: "540"
+  region: Oceania
   alpha3: NCL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 21 30 S
   subregion: Melanesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 165 30 E
+  country_code: "687"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: "Comptoirs Fran\xC3\xA7ais du Pacifique Francs"
+    code: XPF
   names: 
   - New Caledonia
   - Neukaledonien
   - "Nouvelle Cal\xC3\xA9donie"
   - Nueva Caledonia
+  longitude: 165 30 E
+  national_number_lengths: 
+  - 6
 RS: 
-  e164_country_code: "381"
-  region: Europe
-  number: "688"
-  alpha2: RS
+  national_prefix: "0"
   name: Serbia
-  latitude: 44 00 N
+  alpha2: RS
+  number: "688"
+  region: Europe
   alpha3: SRB
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 44 00 N
   subregion: Southern Europe
-  e164_international_prefix: "99"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 21 00 E
+  country_code: "381"
+  international_prefix: "99"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dinars
+    symbol: !binary |
+      0JTQuNC9Lg==
+
+    code: RSD
+    unicode_hex: 
+    - 1044
+    - 1080
+    - 1085
+    - 46
   names: 
   - Serbia
   - Serbien
   - Serbie
   - Serbia
+  longitude: 21 00 E
+  national_number_lengths: 
+  - 9
 BS: 
-  e164_country_code: "1"
-  region: Americas
-  number: "044"
-  alpha2: BS
+  national_prefix: "1"
   name: Bahamas
-  latitude: 24 15 N
+  alpha2: BS
+  number: "044"
+  region: Americas
   alpha3: BHS
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 24 15 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 76 00 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Dollars
+    symbol: $
+    code: BSD
+    unicode_hex: 36
   names: 
   - Bahamas
+  longitude: 76 00 W
+  national_number_lengths: 
+  - 10
 HK: 
-  e164_country_code: "852"
-  region: Asia
-  number: "344"
-  alpha2: HK
+  national_prefix: None
   name: Hong Kong
-  latitude: 22 15 N
+  alpha2: HK
+  number: "344"
+  region: Asia
   alpha3: HKG
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 22 15 N
   subregion: Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 114 10 E
+  country_code: "852"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: 
+    name: Dollars
+    symbol: $
+    code: HKD
+    unicode_hex: 36
   names: 
   - Hong Kong
-KH: 
-  e164_country_code: "855"
-  region: Asia
-  number: "116"
-  alpha2: KH
-  name: Cambodia
-  latitude: 13 00 N
-  alpha3: KHM
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 114 10 E
+  national_number_lengths: 
   - 8
-  longitude: 105 00 E
+KH: 
+  national_prefix: "0"
+  name: Cambodia
+  alpha2: KH
+  number: "116"
+  region: Asia
+  alpha3: KHM
+  latitude: 13 00 N
+  subregion: South-Eastern Asia
+  country_code: "855"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rieis
+    code: KHR
   names: 
   - Cambodia
   - Kambodscha
   - Cambodge
   - Camboya
-BT: 
-  e164_country_code: "975"
-  region: Asia
-  number: "064"
-  alpha2: BT
-  name: Bhutan
-  latitude: 27 30 N
-  alpha3: BTN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
+  longitude: 105 00 E
+  national_number_lengths: 
   - 8
-  longitude: 90 30 E
+BT: 
+  national_prefix: None
+  name: Bhutan
+  alpha2: BT
+  number: "064"
+  region: Asia
+  alpha3: BTN
+  latitude: 27 30 N
+  subregion: Southern Asia
+  country_code: "975"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Ngultrum
+    code: BTN
   names: 
   - Bhutan
   - Bhoutan
   - !binary |
     QnV0w6Fu
 
+  longitude: 90 30 E
+  national_number_lengths: 
+  - 7
+  - 8
 KI: 
-  e164_country_code: "686"
-  region: Oceania
-  number: "296"
-  alpha2: KI
+  national_prefix: None
   name: Kiribati
-  latitude: 1 25 N
+  alpha2: KI
+  number: "296"
+  region: Oceania
   alpha3: KIR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 1 25 N
   subregion: Micronesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  longitude: 173 00 E
+  country_code: "686"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id008
   names: 
   - Kiribati
   - Kiribati
   - Kiribati
   - Kiribati
+  longitude: 173 00 E
+  national_number_lengths: 
+  - 5
 NE: 
-  e164_country_code: "227"
-  region: Africa
-  number: "562"
-  alpha2: NE
+  national_prefix: "0"
   name: Niger
-  latitude: 16 00 N
+  alpha2: NE
+  number: "562"
+  region: Africa
   alpha3: NER
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 16 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 8 00 E
+  country_code: "227"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
   names: 
   - !binary |
     TsOtZ2Vy
 
+  longitude: 8 00 E
+  national_number_lengths: 
+  - 8
 QA: 
-  e164_country_code: "974"
-  region: Asia
-  number: "634"
-  alpha2: QA
+  national_prefix: None
   name: Qatar
-  latitude: 25 30 N
+  alpha2: QA
+  number: "634"
+  region: Asia
   alpha3: QAT
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 25 30 N
   subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 51 15 E
+  country_code: "974"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Rials
+    symbol: !binary |
+      77e8
+
+    code: QAR
+    unicode_hex: 65020
   names: 
   - Qatar
   - Katar
+  longitude: 51 15 E
+  national_number_lengths: 
+  - 7
 RU: 
-  e164_country_code: "7"
-  region: Europe
-  number: "643"
-  alpha2: RU
+  national_prefix: "8"
   name: Russian Federation
-  latitude: 60 00 N
+  alpha2: RU
+  number: "643"
+  region: Europe
   alpha3: RUS
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 60 00 N
   subregion: Eastern Europe
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 100 00 E
+  country_code: "7"
+  international_prefix: "810"
+  national_destination_code_lengths: 
+  - 3
+  address_format: |-
+    {{recipient}}
+    {{postalcode}} {{city}}
+    {{street}}
+    {{country}}
+  currency: &id012 
+    name: Rubles
+    symbol: !binary |
+      0YDRg9Cx
+
+    code: RUB
+    unicode_hex: 
+    - 1088
+    - 1091
+    - 1073
   names: 
   - Russia
   - Russland
   - Russie
   - Rusia
-US: 
-  e164_country_code: "1"
-  region: Americas
-  number: "840"
-  alpha2: US
-  name: United States
-  latitude: 38 00 N
-  alpha3: USA
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Northern America
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  longitude: 100 00 E
+  national_number_lengths: 
   - 10
-  longitude: 97 00 W
-  names: 
-  - United States of America
-  - Vereinigte Staaten von Amerika
-  - "\xC3\x89tats-Unis"
-  - Estados Unidos
 HM: 
-  e164_country_code: ""
-  region: ""
-  number: "334"
-  alpha2: HM
+  national_prefix: ""
   name: Heard and McDonald Islands
-  latitude: 53 06 S
+  alpha2: HM
+  number: "334"
+  region: ""
   alpha3: HMD
-  e164_national_destination_code_lengths: []
-
+  latitude: 53 06 S
   subregion: ""
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 72 31 E
+  currency: *id008
   names: 
   - Heard and McDonald Islands
+  longitude: 72 31 E
+  national_number_lengths: []
+
 NF: 
-  e164_country_code: "672"
-  region: Oceania
-  number: "574"
-  alpha2: NF
+  national_prefix: None
   name: Norfolk Island
-  latitude: 29 02 S
+  alpha2: NF
+  number: "574"
+  region: Oceania
   alpha3: NFK
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 29 02 S
   subregion: Australia and New Zealand
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 167 57 E
+  country_code: "672"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id008
   names: 
   - Norfolk Island
   - Norfolk Island
   - "\xC3\x8Ele de Norfolk"
   - Isla de Norfolk
+  longitude: 167 57 E
+  national_number_lengths: 
+  - 6
+US: 
+  national_prefix: "1"
+  name: United States
+  alpha2: US
+  number: "840"
+  region: Americas
+  alpha3: USA
+  latitude: 38 00 N
+  subregion: Northern America
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  currency: *id001
+  names: 
+  - United States of America
+  - Vereinigte Staaten von Amerika
+  - "\xC3\x89tats-Unis"
+  - Estados Unidos
+  longitude: 97 00 W
+  national_number_lengths: 
+  - 10
 BV: 
-  e164_country_code: ""
-  region: ""
-  number: "074"
-  alpha2: BV
+  national_prefix: ""
   name: Bouvet Island
-  latitude: 54 26 S
+  alpha2: BV
+  number: "074"
+  region: ""
   alpha3: BVT
-  e164_national_destination_code_lengths: []
-
+  latitude: 54 26 S
   subregion: ""
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 3 24 E
+  currency: *id010
   names: 
   - Bouvet Island
+  longitude: 3 24 E
+  national_number_lengths: []
+
 ER: 
-  e164_country_code: "291"
-  region: Africa
-  number: "232"
-  alpha2: ER
+  national_prefix: "0"
   name: Eritrea
-  latitude: 15 00 N
+  alpha2: ER
+  number: "232"
+  region: Africa
   alpha3: ERI
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 15 00 N
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  longitude: 39 00 E
+  country_code: "291"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: &id011 
+    name: Ethopia Birr
+    code: ETB
   names: 
   - !binary |
     w4lyeXRocsOpZQ==
 
   - Eritrea
-HN: 
-  e164_country_code: "504"
-  region: Americas
-  number: "340"
-  alpha2: HN
-  name: Honduras
-  latitude: 15 00 N
-  alpha3: HND
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 39 00 E
+  national_number_lengths: 
   - 7
-  - 8
-  longitude: 86 30 W
+HN: 
+  national_prefix: None
+  name: Honduras
+  alpha2: HN
+  number: "340"
+  region: Americas
+  alpha3: HND
+  latitude: 15 00 N
+  subregion: Central America
+  country_code: "504"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Lempiras
+    symbol: L
+    code: HNL
+    unicode_hex: 76
   names: 
   - Honduras
-NG: 
-  e164_country_code: "234"
-  region: Africa
-  number: "566"
-  alpha2: NG
-  name: Nigeria
-  latitude: 10 00 N
-  alpha3: NGA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: 009
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 86 30 W
+  national_number_lengths: 
   - 7
   - 8
-  longitude: 8 00 E
+NG: 
+  national_prefix: "0"
+  name: Nigeria
+  alpha2: NG
+  number: "566"
+  region: Africa
+  alpha3: NGA
+  latitude: 10 00 N
+  subregion: Western Africa
+  country_code: "234"
+  international_prefix: 009
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Nairas
+    symbol: !binary |
+      4oKm
+
+    code: NGN
+    unicode_hex: 8358
   names: 
   - Nigeria
   - "Nig\xC3\xA9ria"
   - the Federal Republic of Nigeria
+  longitude: 8 00 E
+  national_number_lengths: 
+  - 7
+  - 8
 RW: 
-  e164_country_code: "250"
-  region: Africa
-  number: "646"
-  alpha2: RW
+  national_prefix: "0"
   name: Rwanda
-  latitude: 2 00 S
+  alpha2: RW
+  number: "646"
+  region: Africa
   alpha3: RWA
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 2 00 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  country_code: "250"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Francs
+    code: RWF
+  names: 
+  - Rwanda
+  - Ruanda
+  longitude: 30 00 E
+  national_number_lengths: 
   - 5
   - 6
   - 7
   - 8
-  longitude: 30 00 E
-  names: 
-  - Rwanda
-  - Ruanda
 BW: 
-  e164_country_code: "267"
-  region: Africa
-  number: "072"
-  alpha2: BW
+  national_prefix: None
   name: Botswana
-  latitude: 22 00 S
+  alpha2: BW
+  number: "072"
+  region: Africa
   alpha3: BWA
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 22 00 S
   subregion: Southern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 24 00 E
+  country_code: "267"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pulas
+    symbol: P
+    code: BWP
+    unicode_hex: 80
   names: 
   - Botswana
+  longitude: 24 00 E
+  national_number_lengths: 
+  - 7
 ES: 
-  e164_country_code: "34"
-  region: Europe
-  number: "724"
-  alpha2: ES
+  national_prefix: None
   name: Spain
-  latitude: 40 00 N
+  alpha2: ES
+  number: "724"
+  region: Europe
   alpha3: ESP
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 40 00 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 4 00 W
+  country_code: "34"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  currency: *id002
   names: 
   - Spain
   - Spanien
   - Espagne
   - "Espa\xC3\xB1a"
-ET: 
-  e164_country_code: "251"
-  region: Africa
-  number: "231"
-  alpha2: ET
-  name: Ethiopia
-  latitude: 8 00 N
-  alpha3: ETH
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 4 00 W
+  national_number_lengths: 
   - 9
-  longitude: 38 00 E
+ET: 
+  national_prefix: "0"
+  name: Ethiopia
+  alpha2: ET
+  number: "231"
+  region: Africa
+  alpha3: ETH
+  latitude: 8 00 N
+  subregion: Eastern Africa
+  country_code: "251"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id011
   names: 
   - Ethiopia
   - "\xC3\x84thiopien"
   - "\xC3\x89thiopie"
   - "Etiop\xC3\xADa"
+  longitude: 38 00 E
+  national_number_lengths: 
+  - 9
 NI: 
-  e164_country_code: "505"
-  region: Americas
-  number: "558"
-  alpha2: NI
+  national_prefix: None
   name: Nicaragua
-  latitude: 13 00 N
+  alpha2: NI
+  number: "558"
+  region: Americas
   alpha3: NIC
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 13 00 N
   subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 85 00 W
+  country_code: "505"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Cordobas
+    symbol: C$
+    code: NIO
+    unicode_hex: 
+    - 67
+    - 36
   names: 
   - Nicaragua
   - Nicaragua
   - Nicaragua
   - Nicaragua
+  longitude: 85 00 W
+  national_number_lengths: 
+  - 8
 AD: 
-  e164_country_code: "376"
-  region: Europe
-  number: "020"
-  alpha2: AD
+  national_prefix: None
   name: Andorra
-  latitude: 42 30 N
+  alpha2: AD
+  number: "020"
+  region: Europe
   alpha3: AND
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 42 30 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  country_code: "376"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
+  names: 
+  - Andorre
+  - Andorra
+  longitude: 1 30 E
+  national_number_lengths: 
   - 6
   - 7
   - 8
   - 9
-  longitude: 1 30 E
-  names: 
-  - Andorre
-  - Andorra
 BY: 
-  e164_country_code: "375"
-  region: Europe
-  number: "112"
-  alpha2: BY
+  national_prefix: "8"
   name: Belarus
-  latitude: 53 00 N
+  alpha2: BY
+  number: "112"
+  region: Europe
   alpha3: BLR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 53 00 N
   subregion: Eastern Europe
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 28 00 E
+  country_code: "375"
+  international_prefix: "810"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rubles
+    symbol: p.
+    code: BYR
+    unicode_hex: 
+    - 112
+    - 46
   names: 
   - Belarus
   - "Wei\xC3\x9Frussland"
   - "Bi\xC3\xA9lorussie"
   - Bielorrusia
+  longitude: 28 00 E
+  national_number_lengths: 
+  - 9
 KM: 
-  e164_country_code: "269"
-  region: Africa
-  number: "174"
-  alpha2: KM
+  national_prefix: None
   name: Comoros
-  latitude: 12 10 S
+  alpha2: KM
+  number: "174"
+  region: Africa
   alpha3: COM
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 12 10 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 44 15 E
+  country_code: "269"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Francs
+    code: KMF
   names: 
   - Comoros
   - Komoren
   - Comores
-AE: 
-  e164_country_code: "971"
-  region: Asia
-  number: "784"
-  alpha2: AE
-  name: United Arab Emirates
-  latitude: 24 00 N
-  alpha3: ARE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 44 15 E
+  national_number_lengths: 
   - 7
-  - 8
-  - 9
-  longitude: 54 00 E
+AE: 
+  national_prefix: "0"
+  name: United Arab Emirates
+  alpha2: AE
+  number: "784"
+  region: Asia
+  alpha3: ARE
+  latitude: 24 00 N
+  subregion: Western Asia
+  country_code: "971"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Dirhams
+    code: AED
   names: 
   - United Arab Emirates
   - Vereinigte Arabische Emirate
   - "\xC3\x89mirats Arabes Unis"
   - "Emiratos \xC3\x81rabes Unidos"
-TC: 
-  e164_country_code: "1"
-  region: Americas
-  number: "796"
-  alpha2: TC
-  name: Turks and Caicos Islands
-  latitude: 21 45 N
-  alpha3: TCA
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 71 35 W
-  names: 
-  - Turks and Caicos Islands
-  - Turks- und Caicosinseln
-  - "\xC3\x8Eles Turks et Ca\xC3\xAFcos"
-  - Islas Turks y Caicos
-BZ: 
-  e164_country_code: "501"
-  region: Americas
-  number: 084
-  alpha2: BZ
-  name: Belize
-  latitude: 17 15 N
-  alpha3: BLZ
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 54 00 E
+  national_number_lengths: 
   - 7
-  longitude: 88 45 W
+  - 8
+  - 9
+BZ: 
+  national_prefix: "0"
+  name: Belize
+  alpha2: BZ
+  number: 084
+  region: Americas
+  alpha3: BLZ
+  latitude: 17 15 N
+  subregion: Central America
+  country_code: "501"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: BZ$
+    code: BZD
+    unicode_hex: 
+    - 66
+    - 90
+    - 36
   names: 
   - Belize
   - Belice
+  longitude: 88 45 W
+  national_number_lengths: 
+  - 7
 HR: 
-  e164_country_code: "385"
-  region: Europe
-  number: "191"
-  alpha2: HR
+  national_prefix: "0"
   name: Croatia
-  latitude: 45 10 N
+  alpha2: HR
+  number: "191"
+  region: Europe
   alpha3: HRV
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 45 10 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 15 30 E
+  country_code: "385"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Kuna
+    symbol: kn
+    code: HRK
+    unicode_hex: 
+    - 107
+    - 110
   names: 
   - Croatia
   - Kroatien
   - Croatie
   - Croacia
+  longitude: 15 30 E
+  national_number_lengths: 
+  - 8
 KN: 
-  e164_country_code: "1"
-  region: Americas
-  number: "659"
-  alpha2: KN
+  national_prefix: "1"
   name: Saint Kitts And Nevis
-  latitude: 17 20 N
+  alpha2: KN
+  number: "659"
+  region: Americas
   alpha3: KNA
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 17 20 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 62 45 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Saint Kitts and Nevis
   - Saint Kitts et Nevis
   - Saint Kitts y Nevis
+  longitude: 62 45 W
+  national_number_lengths: 
+  - 10
+TC: 
+  national_prefix: "1"
+  name: Turks and Caicos Islands
+  alpha2: TC
+  number: "796"
+  region: Americas
+  alpha3: TCA
+  latitude: 21 45 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
+  names: 
+  - Turks and Caicos Islands
+  - Turks- und Caicosinseln
+  - "\xC3\x8Eles Turks et Ca\xC3\xAFcos"
+  - Islas Turks y Caicos
+  longitude: 71 35 W
+  national_number_lengths: 
+  - 10
 AF: 
-  e164_country_code: "93"
-  region: Asia
-  number: "004"
-  alpha2: AF
+  national_prefix: "0"
   name: Afghanistan
-  latitude: 33 00 N
+  alpha2: AF
+  number: "004"
+  region: Asia
   alpha3: AFG
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 33 00 N
   subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 65 00 E
+  country_code: "93"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Afghanis
+    symbol: !binary |
+      2Is=
+
+    code: AFN
+    unicode_hex: 1547
   names: 
   - Afghanistan
   - "Afganist\xC3\xA1n"
-NL: 
-  e164_country_code: "31"
-  region: Europe
-  number: "528"
-  alpha2: NL
-  name: Netherlands
-  latitude: 52 30 N
-  alpha3: NLD
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 65 00 E
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 5 45 E
+NL: 
+  national_prefix: "0"
+  name: Netherlands
+  alpha2: NL
+  number: "528"
+  region: Europe
+  alpha3: NLD
+  latitude: 52 30 N
+  subregion: Western Europe
+  country_code: "31"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Netherlands
   - Niederlande
   - Pays-Bas
   - "Pa\xC3\xADses Bajos"
+  longitude: 5 45 E
+  national_number_lengths: 
+  - 9
 TD: 
-  e164_country_code: "235"
-  region: Africa
-  number: "148"
-  alpha2: TD
+  national_prefix: None
   name: Chad
-  latitude: 15 00 N
+  alpha2: TD
+  number: "148"
+  region: Africa
   alpha3: TCD
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 15 00 N
   subregion: Middle Africa
-  e164_international_prefix: "15"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 19 00 E
+  country_code: "235"
+  international_prefix: "15"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id006
   names: 
   - Chad
   - Tschad
   - Tchad
-UY: 
-  e164_country_code: "598"
-  region: Americas
-  number: "858"
-  alpha2: UY
-  name: Uruguay
-  latitude: 33 00 S
-  alpha3: URY
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 19 00 E
+  national_number_lengths: 
   - 7
-  - 8
-  longitude: 56 00 W
-  names: 
-  - Uruguay
 AG: 
-  e164_country_code: "1"
-  region: Americas
-  number: 028
-  alpha2: AG
+  national_prefix: "1"
   name: Antigua and Barbuda
-  latitude: 17 03 N
+  alpha2: AG
+  number: 028
+  region: Americas
   alpha3: ATG
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 17 03 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 61 48 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Antigua and Barbuda
   - Antigua und Barbuda
   - Antigua et Barbuda
   - Antigua y Barbuda
+  longitude: 61 48 W
+  national_number_lengths: 
+  - 10
 HT: 
-  e164_country_code: "509"
-  region: Americas
-  number: "332"
-  alpha2: HT
+  national_prefix: None
   name: Haiti
-  latitude: 19 00 N
+  alpha2: HT
+  number: "332"
+  region: Americas
   alpha3: HTI
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 19 00 N
   subregion: Caribbean
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 72 25 W
+  country_code: "509"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id001
   names: 
   - Haiti
-KP: 
-  e164_country_code: "850"
-  region: Asia
-  number: "408"
-  alpha2: KP
-  name: "Korea, Democratic People's Republic Of"
-  latitude: 40 00 N
-  alpha3: PRK
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 72 25 W
+  national_number_lengths: 
   - 8
-  - 9
-  longitude: 127 00 E
+KP: 
+  national_prefix: "0"
+  name: "Korea, Democratic People's Republic Of"
+  alpha2: KP
+  number: "408"
+  region: Asia
+  alpha3: PRK
+  latitude: 40 00 N
+  subregion: Eastern Asia
+  country_code: "850"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Won
+    symbol: !binary |
+      4oKp
+
+    code: KPW
+    unicode_hex: 8361
   names: 
   - Korea (North)
   - Nordkorea
   - "Cor\xC3\xA9e du Nord"
   - Corea del Norte
-UZ: 
-  e164_country_code: "998"
-  region: Asia
-  number: "860"
-  alpha2: UZ
-  name: Uzbekistan
-  latitude: 41 00 N
-  alpha3: UZB
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
+  longitude: 127 00 E
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 64 00 E
-  names: 
-  - Uzbekistan
-  - Usbekistan
-  - "Ouzb\xC3\xA9kistan"
-  - "Uzbekist\xC3\xA1n"
-GA: 
-  e164_country_code: "241"
-  region: Africa
-  number: "266"
-  alpha2: GA
-  name: Gabon
-  latitude: 1 00 S
-  alpha3: GAB
-  e164_national_destination_code_lengths: 
+UY: 
+  national_prefix: "0"
+  name: Uruguay
+  alpha2: UY
+  number: "858"
+  region: Americas
+  alpha3: URY
+  latitude: 33 00 S
+  subregion: South America
+  country_code: "598"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
+  currency: 
+    name: Pesos
+    symbol: $U
+    code: UYU
+    unicode_hex: 
+    - 36
+    - 85
+  names: 
+  - Uruguay
+  longitude: 56 00 W
+  national_number_lengths: 
   - 7
   - 8
-  longitude: 11 45 E
+GA: 
+  national_prefix: None
+  name: Gabon
+  alpha2: GA
+  number: "266"
+  region: Africa
+  alpha3: GAB
+  latitude: 1 00 S
+  subregion: Middle Africa
+  country_code: "241"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id006
   names: 
   - Gabon
   - Gabun
   - !binary |
     R2Fiw7Nu
 
-HU: 
-  e164_country_code: "36"
-  region: Europe
-  number: "348"
-  alpha2: HU
-  name: Hungary
-  latitude: 47 00 N
-  alpha3: HUN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "06"
-  e164_national_number_lengths: 
+  longitude: 11 45 E
+  national_number_lengths: 
+  - 6
+  - 7
   - 8
-  - 9
-  longitude: 20 00 E
+HU: 
+  national_prefix: "06"
+  name: Hungary
+  alpha2: HU
+  number: "348"
+  region: Europe
+  alpha3: HUN
+  latitude: 47 00 N
+  subregion: Eastern Europe
+  country_code: "36"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{city}}
+    {{street}}
+    {{postalcode}}
+    {{country}}
+  currency: 
+    name: Forint
+    symbol: Ft
+    code: HUF
+    unicode_hex: 
+    - 70
+    - 116
   names: 
   - Hungary
   - Ungarn
   - Hongrie
   - "Hungr\xC3\xADa"
+  longitude: 20 00 E
+  national_number_lengths: 
+  - 8
+  - 9
 TF: 
-  e164_country_code: ""
-  region: ""
-  number: "260"
-  alpha2: TF
+  national_prefix: ""
   name: French Southern Territories
-  latitude: ""
+  alpha2: TF
+  number: "260"
+  region: ""
   alpha3: ATF
-  e164_national_destination_code_lengths: []
-
+  latitude: ""
   subregion: ""
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: ""
+  currency: *id002
   names: 
   - French Southern Territories
   - "Franz\xC3\xB6sische S\xC3\xBCdgebiete"
   - "Terres Australes Fran\xC3\xA7aises"
   - Territorios Franceses del Sur
-GB: 
-  e164_country_code: "44"
-  region: Europe
-  number: "826"
-  alpha2: GB
-  name: United Kingdom
-  latitude: 54 00 N
-  alpha3: GBR
-  e164_national_destination_code_lengths: 
+  longitude: ""
+  national_number_lengths: []
+
+UZ: 
+  national_prefix: "8"
+  name: Uzbekistan
+  alpha2: UZ
+  number: "860"
+  region: Asia
+  alpha3: UZB
+  latitude: 41 00 N
+  subregion: Central Asia
+  country_code: "998"
+  international_prefix: "810"
+  national_destination_code_lengths: 
   - 2
-  subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  currency: 
+    name: Sums
+    symbol: !binary |
+      0LvQsg==
+
+    code: UZS
+    unicode_hex: 
+    - 1083
+    - 1074
+  names: 
+  - Uzbekistan
+  - Usbekistan
+  - "Ouzb\xC3\xA9kistan"
+  - "Uzbekist\xC3\xA1n"
+  longitude: 64 00 E
+  national_number_lengths: 
+  - 9
+AI: 
+  national_prefix: "1"
+  name: Anguilla
+  alpha2: AI
+  number: "660"
+  region: Americas
+  alpha3: AIA
+  latitude: 18 15 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
+  names: 
+  - Anguilla
+  longitude: 63 10 W
+  national_number_lengths: 
+  - 10
+DE: 
+  national_prefix: "0"
+  name: Germany
+  alpha2: DE
+  number: "276"
+  region: Europe
+  alpha3: DEU
+  latitude: 51 00 N
+  subregion: Western Europe
+  country_code: "49"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  - 3
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
+  names: 
+  - Germany
+  - Deutschland
+  - Allemagne
+  - Alemania
+  longitude: 9 00 E
+  national_number_lengths: 
+  - 7
+  - 8
+  - 9
   - 10
   - 11
-  longitude: 2 00 W
+GB: 
+  national_prefix: "0"
+  name: United Kingdom
+  alpha2: GB
+  number: "826"
+  region: Europe
+  alpha3: GBR
+  latitude: 54 00 N
+  subregion: Northern Europe
+  country_code: "44"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{postalcode}}
+    {{country}}
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: GBP
+    unicode_hex: 163
   names: 
   - United Kingdom
   - !binary |
@@ -3448,168 +4399,158 @@ GB:
 
   - Royaume-Uni
   - Reino Unido
-AI: 
-  e164_country_code: "1"
-  region: Americas
-  number: "660"
-  alpha2: AI
-  name: Anguilla
-  latitude: 18 15 N
-  alpha3: AIA
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 63 10 W
-  names: 
-  - Anguilla
-DE: 
-  e164_country_code: "49"
-  region: Europe
-  number: "276"
-  alpha2: DE
-  name: Germany
-  latitude: 51 00 N
-  alpha3: DEU
-  e164_national_destination_code_lengths: 
-  - 2
-  - 3
-  subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  - 8
-  - 9
+  longitude: 2 00 W
+  national_number_lengths: 
   - 10
   - 11
-  longitude: 9 00 E
-  names: 
-  - Germany
-  - Deutschland
-  - Allemagne
-  - Alemania
 KR: 
-  e164_country_code: "82"
-  region: Asia
-  number: "410"
-  alpha2: KR
+  national_prefix: "0"
   name: Korea, Republic of
-  latitude: 37 00 N
+  alpha2: KR
+  number: "410"
+  region: Asia
   alpha3: KOR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 37 00 N
   subregion: Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 127 30 E
+  country_code: "82"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}}
+    {{postalcode}}
+    {{country}}
+  currency: 
+    name: Won
+    symbol: !binary |
+      4oKp
+
+    code: KRW
+    unicode_hex: 8361
   names: 
   - Korea (South)
   - "S\xC3\xBCdkorea"
   - "Cor\xC3\xA9e du Sud"
   - Corea del Sur
+  longitude: 127 30 E
+  national_number_lengths: 
+  - 8
+  - 9
 TG: 
-  e164_country_code: "228"
-  region: Africa
-  number: "768"
-  alpha2: TG
+  national_prefix: None
   name: Togo
-  latitude: 8 00 N
+  alpha2: TG
+  number: "768"
+  region: Africa
   alpha3: TGO
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 8 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 1 10 E
+  country_code: "228"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
   names: 
   - Togo
+  longitude: 1 10 E
+  national_number_lengths: 
+  - 7
 "NO": 
-  e164_country_code: "47"
-  region: Europe
-  number: "578"
-  alpha2: "NO"
+  national_prefix: None
   name: Norway
-  latitude: 62 00 N
+  alpha2: "NO"
+  number: "578"
+  region: Europe
   alpha3: NOR
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 62 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 10 00 E
+  country_code: "47"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
   names: 
   - Norway
   - Norwegen
   - "Norv\xC3\xA8ge"
   - Noruega
+  longitude: 10 00 E
+  national_number_lengths: 
+  - 8
 TH: 
-  e164_country_code: "66"
-  region: Asia
-  number: "764"
-  alpha2: TH
+  national_prefix: "0"
   name: Thailand
-  latitude: 15 00 N
+  alpha2: TH
+  number: "764"
+  region: Asia
   alpha3: THA
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 15 00 N
   subregion: South-Eastern Asia
-  e164_international_prefix: "001"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  - 10
-  longitude: 100 00 E
+  country_code: "66"
+  international_prefix: "001"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Baht
+    symbol: !binary |
+      4Li/
+
+    code: THB
+    unicode_hex: 3647
   names: 
   - Thailand
   - Thailand
   - "Tha\xC3\xAFlande"
   - Tailandia
-GD: 
-  e164_country_code: "1"
-  region: Americas
-  number: "308"
-  alpha2: GD
-  name: Grenada
-  latitude: 12 07 N
-  alpha3: GRD
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  longitude: 100 00 E
+  national_number_lengths: 
+  - 9
   - 10
-  longitude: 61 40 W
+GD: 
+  national_prefix: "1"
+  name: Grenada
+  alpha2: GD
+  number: "308"
+  region: Americas
+  alpha3: GRD
+  latitude: 12 07 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Grenada
+  longitude: 61 40 W
+  national_number_lengths: 
+  - 10
 NP: 
-  e164_country_code: "977"
-  region: Asia
-  number: "524"
-  alpha2: NP
+  national_prefix: "0"
   name: Nepal
-  latitude: 28 00 N
+  alpha2: NP
+  number: "524"
+  region: Asia
   alpha3: NPL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 28 00 N
   subregion: Southern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  - 8
-  longitude: 84 00 E
+  country_code: "977"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: NPR
+    unicode_hex: 8360
   names: 
   - Nepal
   - Nepal
@@ -3618,370 +4559,564 @@ NP:
 
   - Nepal
   - the Federal Democratic Republic of Nepal
+  longitude: 84 00 E
+  national_number_lengths: 
+  - 7
+  - 8
 ZA: 
-  e164_country_code: "27"
-  region: Africa
-  number: "710"
-  alpha2: ZA
+  national_prefix: "0"
   name: South Africa
-  latitude: 29 00 S
+  alpha2: ZA
+  number: "710"
+  region: Africa
   alpha3: ZAF
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 29 00 S
   subregion: Southern Africa
-  e164_international_prefix: 09
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 24 00 E
+  country_code: "27"
+  international_prefix: 09
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{postalcode}}
+    {{country}}
+  currency: *id009
   names: 
   - South Africa
   - "Republik S\xC3\xBCdafrika"
   - Afrique du Sud
   - "Rep\xC3\xBAblica de Sud\xC3\xA1frica"
-WF: 
-  e164_country_code: "681"
-  region: Oceania
-  number: "876"
-  alpha2: WF
-  name: Wallis and Futuna
-  latitude: 13 18 S
-  alpha3: WLF
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "19"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 176 12 W
-  names: 
-  - Wallis and Futuna
-  - Wallis und Futuna
-  - Wallis et Futuna
-  - Wallis y Futuna
-AL: 
-  e164_country_code: "355"
-  region: Europe
-  number: 008
-  alpha2: AL
-  name: Albania
-  latitude: 41 00 N
-  alpha3: ALB
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  - 8
+  longitude: 24 00 E
+  national_number_lengths: 
   - 9
-  longitude: 20 00 E
+AL: 
+  national_prefix: "0"
+  name: Albania
+  alpha2: AL
+  number: 008
+  region: Europe
+  alpha3: ALB
+  latitude: 41 00 N
+  subregion: Southern Europe
+  country_code: "355"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Leke
+    symbol: LEK
+    code: ALL
+    unicode_hex: 
+    - 76
+    - 101
+    - 107
   names: 
   - Albania
   - Albanien
   - Albanie
-GE: 
-  e164_country_code: "995"
-  region: Asia
-  number: "268"
-  alpha2: GE
-  name: Georgia
-  latitude: 42 00 N
-  alpha3: GEO
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: 8*
-  e164_national_number_lengths: 
+  longitude: 20 00 E
+  national_number_lengths: 
+  - 7
+  - 8
   - 9
-  longitude: 43 30 E
+GE: 
+  national_prefix: 8*
+  name: Georgia
+  alpha2: GE
+  number: "268"
+  region: Asia
+  alpha3: GEO
+  latitude: 42 00 N
+  subregion: Western Asia
+  country_code: "995"
+  international_prefix: "810"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Lari
+    code: GEL
   names: 
   - Georgien
   - "G\xC3\xA9orgie"
   - Georgia
-TJ: 
-  e164_country_code: "992"
-  region: Asia
-  number: "762"
-  alpha2: TJ
-  name: Tajikistan
-  latitude: 39 00 N
-  alpha3: TJK
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
+  longitude: 43 30 E
+  national_number_lengths: 
   - 9
-  longitude: 71 00 E
+TJ: 
+  national_prefix: "8"
+  name: Tajikistan
+  alpha2: TJ
+  number: "762"
+  region: Asia
+  alpha3: TJK
+  latitude: 39 00 N
+  subregion: Central Asia
+  country_code: "992"
+  international_prefix: "810"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Somoni
+    code: TJS
+    alt_currency: *id012
   names: 
   - Tajikistan
   - Tadschikistan
   - Tajikistan
   - "Tayikist\xC3\xA1n"
-AM: 
-  e164_country_code: "374"
-  region: Asia
-  number: "051"
-  alpha2: AM
-  name: Armenia
-  latitude: 40 00 N
-  alpha3: ARM
-  e164_national_destination_code_lengths: 
+  longitude: 71 00 E
+  national_number_lengths: 
+  - 9
+WF: 
+  national_prefix: None
+  name: Wallis and Futuna
+  alpha2: WF
+  number: "876"
+  region: Oceania
+  alpha3: WLF
+  latitude: 13 18 S
+  subregion: Polynesia
+  country_code: "681"
+  international_prefix: "19"
+  national_destination_code_lengths: 
   - 2
+  currency: &id016 
+    name: "Comptoirs Fran\xC3\xA7ais du Pacifique Francs"
+    code: XPF
+  names: 
+  - Wallis and Futuna
+  - Wallis und Futuna
+  - Wallis et Futuna
+  - Wallis y Futuna
+  longitude: 176 12 W
+  national_number_lengths: 
+  - 6
+AM: 
+  national_prefix: "8"
+  name: Armenia
+  alpha2: AM
+  number: "051"
+  region: Asia
+  alpha3: ARM
+  latitude: 40 00 N
   subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 45 00 E
+  country_code: "374"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Drams
+    code: AMD
   names: 
   - Armenia
   - Armenien
   - "Arm\xC3\xA9nie"
+  longitude: 45 00 E
+  national_number_lengths: 
+  - 8
 GF: 
-  e164_country_code: "594"
-  region: Americas
-  number: "254"
-  alpha2: GF
+  national_prefix: None
   name: French Guiana
-  latitude: 4 00 N
+  alpha2: GF
+  number: "254"
+  region: Americas
   alpha3: GUF
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 4 00 N
   subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 10
-  longitude: "53 00 W "
+  country_code: "594"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id002
   names: 
   - French Guiana
   - "Franz\xC3\xB6sisch Guyana"
   - "Guyane fran\xC3\xA7aise"
   - Guayana Francesa
+  longitude: "53 00 W "
+  national_number_lengths: 
+  - 10
 NR: 
-  e164_country_code: "674"
-  region: Oceania
-  number: "520"
-  alpha2: NR
+  national_prefix: "0"
   name: Nauru
-  latitude: 0 32 S
+  alpha2: NR
+  number: "520"
+  region: Oceania
   alpha3: NRU
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 0 32 S
   subregion: Micronesia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  longitude: 166 55 E
+  country_code: "674"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id008
   names: 
   - Nauru
   - Nauru
   - Nauru
   - Nauru
+  longitude: 166 55 E
+  national_number_lengths: 
+  - 7
 TK: 
-  e164_country_code: "690"
-  region: Oceania
-  number: "772"
-  alpha2: TK
+  national_prefix: None
   name: Tokelau
-  latitude: 9 00 S
+  alpha2: TK
+  number: "772"
+  region: Oceania
   alpha3: TKL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 9 00 S
   subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 4
-  longitude: 172 00 W
+  country_code: "690"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id005
   names: 
   - Tokelau
   - Tokelau
   - "\xC3\x8Eles Tokelau"
   - Islas Tokelau
+  longitude: 172 00 W
+  national_number_lengths: 
+  - 4
 AN: 
-  e164_country_code: "599"
-  region: Americas
-  number: "530"
-  alpha2: AN
+  national_prefix: "0"
   name: Netherlands Antilles
-  latitude: ""
+  alpha2: AN
+  number: "530"
+  region: Americas
   alpha3: ANT
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: ""
   subregion: Caribbean
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 7
-  longitude: ""
+  country_code: "599"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Guilders
+    symbol: !binary |
+      xpI=
+
+    code: ANG
+    unicode_hex: 402
   names: 
   - Netherlands Antilles
   - "Niederl\xC3\xA4ndische Antillen"
   - "Antilles n\xC3\xA9erlandaises"
   - Antillas Holandesas
+  longitude: ""
+  national_number_lengths: 
+  - 7
 DJ: 
-  e164_country_code: "253"
-  region: Africa
-  number: "262"
-  alpha2: DJ
+  national_prefix: None
   name: Djibouti
-  latitude: 11 30 N
+  alpha2: DJ
+  number: "262"
+  region: Africa
   alpha3: DJI
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 11 30 N
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 43 00 E
+  country_code: "253"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Francs
+    code: DJF
   names: 
   - Djibouti
+  longitude: 43 00 E
+  national_number_lengths: 
+  - 6
 KW: 
-  e164_country_code: "965"
-  region: Asia
-  number: "414"
-  alpha2: KW
+  national_prefix: None
   name: Kuwait
-  latitude: 29 30 N
+  alpha2: KW
+  number: "414"
+  region: Asia
   alpha3: KWT
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 29 30 N
   subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 45 45 E
+  country_code: "965"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  currency: 
+    name: Dinars
+    code: KWD
   names: 
   - "Kowe\xC3\xAFt"
   - Kuwait
-TL: 
-  e164_country_code: "670"
-  region: Asia
-  number: "626"
-  alpha2: TL
-  name: Timor-Leste
-  latitude: 8 50 S
-  alpha3: TLS
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: None
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 45 45 E
+  national_number_lengths: 
   - 7
-  longitude: 125 55 E
+TL: 
+  national_prefix: None
+  name: Timor-Leste
+  alpha2: TL
+  number: "626"
+  region: Asia
+  alpha3: TLS
+  latitude: 8 50 S
+  subregion: South-Eastern Asia
+  country_code: "670"
+  international_prefix: None
+  national_destination_code_lengths: 
+  - 2
+  currency: *id013
   names: 
   - East Timor
   - Ost-Timor
   - Timor oriental
   - Timor Oriental
-TM: 
-  e164_country_code: "993"
-  region: Asia
-  number: "795"
-  alpha2: TM
-  name: Turkmenistan
-  latitude: 40 00 N
-  alpha3: TKM
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 60 00 E
-  names: 
-  - Turkmenistan
-  - Turkmenistan
-  - "Turkm\xC3\xA9nistan"
-  - "Turkmenist\xC3\xA1n"
+  longitude: 125 55 E
+  national_number_lengths: 
+  - 7
 AO: 
-  e164_country_code: "244"
-  region: Africa
-  number: "024"
-  alpha2: AO
+  national_prefix: "0"
   name: Angola
-  latitude: 12 30 S
+  alpha2: AO
+  number: "024"
+  region: Africa
   alpha3: AGO
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 12 30 S
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 18 30 E
+  country_code: "244"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Kwanza
+    code: AOA
   names: 
   - Angola
+  longitude: 18 30 E
+  national_number_lengths: 
+  - 9
 DK: 
-  e164_country_code: "45"
-  region: Europe
-  number: "208"
-  alpha2: DK
+  national_prefix: None
   name: Denmark
-  latitude: 56 00 N
+  alpha2: DK
+  number: "208"
+  region: Europe
   alpha3: DNK
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 56 00 N
   subregion: Northern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 10 00 E
+  country_code: "45"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  currency: *id014
   names: 
   - Denmark
   - "D\xC3\xA4nemark"
   - Danemark
   - Dinamarca
+  longitude: 10 00 E
+  national_number_lengths: 
+  - 8
 GG: 
-  e164_country_code: ""
-  region: Europe
-  number: "831"
-  alpha2: GG
+  national_prefix: ""
   name: Guernsey
-  latitude: 49 28 N
+  alpha2: GG
+  number: "831"
+  region: Europe
   alpha3: GGY
-  e164_national_destination_code_lengths: []
-
+  latitude: 49 28 N
   subregion: Northern Europe
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 2 35 W
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: GGP
+    unicode_hex: 163
   names: 
   - Guernsey and Alderney
   - Guernsey und Alderney
   - Guernsey et Alderney
   - Guernsey y Alderney
-TN: 
-  e164_country_code: "216"
-  region: Africa
-  number: "788"
-  alpha2: TN
-  name: Tunisia
-  latitude: 34 00 N
-  alpha3: TUN
-  e164_national_destination_code_lengths: 
+  longitude: 2 35 W
+  national_number_lengths: []
+
+TM: 
+  national_prefix: "8"
+  name: Turkmenistan
+  alpha2: TM
+  number: "795"
+  region: Asia
+  alpha3: TKM
+  latitude: 40 00 N
+  subregion: Central Asia
+  country_code: "993"
+  international_prefix: "810"
+  national_destination_code_lengths: 
   - 2
-  subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  currency: 
+  names: 
+  - Turkmenistan
+  - Turkmenistan
+  - "Turkm\xC3\xA9nistan"
+  - "Turkmenist\xC3\xA1n"
+  longitude: 60 00 E
+  national_number_lengths: 
   - 8
-  longitude: 9 00 E
+GH: 
+  national_prefix: None
+  name: Ghana
+  alpha2: GH
+  number: "288"
+  region: Africa
+  alpha3: GHA
+  latitude: 8 00 N
+  subregion: Western Africa
+  country_code: "233"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Cedis
+    symbol: !binary |
+      wqI=
+
+    code: GHS
+    unicode_hex: 162
+  names: 
+  - Ghana
+  longitude: 2 00 W
+  national_number_lengths: 
+  - 5
+  - 6
+  - 7
+  - 8
+JE: 
+  national_prefix: ""
+  name: Jersey
+  alpha2: JE
+  number: "832"
+  region: Europe
+  alpha3: JEY
+  latitude: 49 15 N
+  subregion: Northern Europe
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
+
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: JEP
+    unicode_hex: 163
+  names: 
+  - Jersey
+  longitude: 2 10 W
+  national_number_lengths: []
+
+MA: 
+  national_prefix: "0"
+  name: Morocco
+  alpha2: MA
+  number: "504"
+  region: Africa
+  alpha3: MAR
+  latitude: 32 00 N
+  subregion: Northern Africa
+  country_code: "212"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id015
+  names: 
+  - Morocco
+  - Marokko
+  - Maroc
+  - Marruecos
+  longitude: 5 00 W
+  national_number_lengths: 
+  - 8
+KY: 
+  national_prefix: "1"
+  name: Cayman Islands
+  alpha2: KY
+  number: "136"
+  region: Americas
+  alpha3: CYM
+  latitude: 19 30 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Dollars
+    symbol: $
+    code: KYD
+    unicode_hex: 36
+  names: 
+  - Cayman Islands
+  - Cayman-Inseln
+  - "\xC3\x8Eles Ca\xC3\xAFmans"
+  - "Islas Caim\xC3\xA1n"
+  longitude: 80 30 W
+  national_number_lengths: 
+  - 10
+NU: 
+  national_prefix: None
+  name: Niue
+  alpha2: NU
+  number: "570"
+  region: Oceania
+  alpha3: NIU
+  latitude: 19 02 S
+  subregion: Polynesia
+  country_code: "683"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+  names: 
+  - Niue
+  longitude: 169 52 W
+  national_number_lengths: 
+  - 4
+TN: 
+  national_prefix: None
+  name: Tunisia
+  alpha2: TN
+  number: "788"
+  region: Africa
+  alpha3: TUN
+  latitude: 34 00 N
+  subregion: Northern Africa
+  country_code: "216"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    code: TND
   names: 
   - Tunisia
   - Tunesien
@@ -3989,383 +5124,365 @@ TN:
   - !binary |
     VMO6bmV6
 
-GH: 
-  e164_country_code: "233"
-  region: Africa
-  number: "288"
-  alpha2: GH
-  name: Ghana
-  latitude: 8 00 N
-  alpha3: GHA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  - 6
-  - 7
+  longitude: 9 00 E
+  national_number_lengths: 
   - 8
-  longitude: 2 00 W
-  names: 
-  - Ghana
-JE: 
-  e164_country_code: ""
-  region: Europe
-  number: "832"
-  alpha2: JE
-  name: Jersey
-  latitude: 49 15 N
-  alpha3: JEY
-  e164_national_destination_code_lengths: []
-
-  subregion: Northern Europe
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
-
-  longitude: 2 10 W
-  names: 
-  - Jersey
-MA: 
-  e164_country_code: "212"
-  region: Africa
-  number: "504"
-  alpha2: MA
-  name: Morocco
-  latitude: 32 00 N
-  alpha3: MAR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 5 00 W
-  names: 
-  - Morocco
-  - Marokko
-  - Maroc
-  - Marruecos
-KY: 
-  e164_country_code: "1"
-  region: Americas
-  number: "136"
-  alpha2: KY
-  name: Cayman Islands
-  latitude: 19 30 N
-  alpha3: CYM
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 80 30 W
-  names: 
-  - Cayman Islands
-  - Cayman-Inseln
-  - "\xC3\x8Eles Ca\xC3\xAFmans"
-  - "Islas Caim\xC3\xA1n"
-NU: 
-  e164_country_code: "683"
-  region: Oceania
-  number: "570"
-  alpha2: NU
-  name: Niue
-  latitude: 19 02 S
-  alpha3: NIU
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 4
-  longitude: 169 52 W
-  names: 
-  - Niue
 DM: 
-  e164_country_code: "1"
-  region: Americas
-  number: "212"
-  alpha2: DM
+  national_prefix: "1"
   name: Dominica
-  latitude: 15 25 N
+  alpha2: DM
+  number: "212"
+  region: Americas
   alpha3: DMA
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 15 25 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 61 20 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id004
   names: 
   - Dominica
+  longitude: 61 20 W
+  national_number_lengths: 
+  - 10
 GI: 
-  e164_country_code: "350"
-  region: Europe
-  number: "292"
-  alpha2: GI
+  national_prefix: None
   name: Gibraltar
-  latitude: 36 08 N
+  alpha2: GI
+  number: "292"
+  region: Europe
   alpha3: GIB
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 36 08 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 5 21 W
+  country_code: "350"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pounds
+    symbol: !binary |
+      wqM=
+
+    code: GIP
+    unicode_hex: 163
   names: 
   - Gibraltar
+  longitude: 5 21 W
+  national_number_lengths: 
+  - 8
 KZ: 
-  e164_country_code: "7"
-  region: Asia
-  number: "398"
-  alpha2: KZ
+  national_prefix: "8"
   name: Kazakhstan
-  latitude: 48 00 N
+  alpha2: KZ
+  number: "398"
+  region: Asia
   alpha3: KAZ
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 48 00 N
   subregion: Central Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 68 00 E
+  country_code: "7"
+  international_prefix: "810"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Tenege
+    symbol: !binary |
+      0LvQsg==
+
+    code: KZT
+    unicode_hex: 
+    - 1083
+    - 1074
   names: 
   - Kazakhstan
   - Kasachstan
   - Kazakhstan
   - "Kazajist\xC3\xA1n"
+  longitude: 68 00 E
+  national_number_lengths: 
+  - 10
 TO: 
-  e164_country_code: "676"
-  region: Oceania
-  number: "776"
-  alpha2: TO
+  national_prefix: None
   name: Tonga
-  latitude: 20 00 S
+  alpha2: TO
+  number: "776"
+  region: Oceania
   alpha3: TON
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 20 00 S
   subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  country_code: "676"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pa'anga
+    code: TOP
+  names: 
+  - Tonga
+  longitude: 175 00 W
+  national_number_lengths: 
   - 5
   - 6
   - 7
-  longitude: 175 00 W
-  names: 
-  - Tonga
 AQ: 
-  e164_country_code: ""
-  region: ""
-  number: "010"
-  alpha2: AQ
+  national_prefix: ""
   name: Antarctica
-  latitude: 90 00 S
+  alpha2: AQ
+  number: "010"
+  region: ""
   alpha3: ATA
-  e164_national_destination_code_lengths: []
-
+  latitude: 90 00 S
   subregion: ""
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 0 00 E
+  currency: 
   names: 
   - Antarctica
   - Antarktis
   - Antarctique
   - "Ant\xC3\xA1rtida"
+  longitude: 0 00 E
+  national_number_lengths: []
+
 MC: 
-  e164_country_code: "377"
-  region: Europe
-  number: "492"
-  alpha2: MC
+  national_prefix: "0"
   name: Monaco
-  latitude: 43 44 N
+  alpha2: MC
+  number: "492"
+  region: Europe
   alpha3: MCO
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 43 44 N
   subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 7 24 E
+  country_code: "377"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
   names: 
   - Monaco
   - "M\xC3\xB3naco"
-AR: 
-  e164_country_code: "54"
-  region: Americas
-  number: "032"
-  alpha2: AR
-  name: Argentina
-  latitude: 34 00 S
-  alpha3: ARG
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 7 24 E
+  national_number_lengths: 
   - 8
   - 9
-  longitude: 64 00 W
+AR: 
+  national_prefix: "0"
+  name: Argentina
+  alpha2: AR
+  number: "032"
+  region: Americas
+  alpha3: ARG
+  latitude: 34 00 S
+  subregion: South America
+  country_code: "54"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  currency: 
+    name: Pesos
+    symbol: $
+    code: ARS
+    unicode_hex: 36
   names: 
   - Argentina
   - Argentinien
   - Argentine
-MD: 
-  e164_country_code: "373"
-  region: Europe
-  number: "498"
-  alpha2: MD
-  name: Moldova, Republic of
-  latitude: 47 00 N
-  alpha3: MDA
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 64 00 W
+  national_number_lengths: 
   - 8
-  longitude: 29 00 E
+  - 9
+MD: 
+  national_prefix: "0"
+  name: Moldova, Republic of
+  alpha2: MD
+  number: "498"
+  region: Europe
+  alpha3: MDA
+  latitude: 47 00 N
+  subregion: Eastern Europe
+  country_code: "373"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Lei
+    code: MDL
   names: 
   - Moldova
   - Moldawien
   - Moldavie
   - Moldavia
   - the Republic of Moldova
+  longitude: 29 00 E
+  national_number_lengths: 
+  - 8
 AS: 
-  e164_country_code: "1"
-  region: Oceania
-  number: "016"
-  alpha2: AS
+  national_prefix: "1"
   name: American Samoa
-  latitude: 14 20 S
+  alpha2: AS
+  number: "016"
+  region: Oceania
   alpha3: ASM
-  e164_national_destination_code_lengths: 
-  - 3
+  latitude: 14 20 S
   subregion: Polynesia
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 170 00 W
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id001
   names: 
   - American Samoa
   - Amerikanisch-Samoa
   - "Samoa am\xC3\xA9ricaines"
   - Samoa Americana
-DO: 
-  e164_country_code: "1"
-  region: Americas
-  number: "214"
-  alpha2: DO
-  name: Dominican Republic
-  latitude: 19 00 N
-  alpha3: DOM
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
+  longitude: 170 00 W
+  national_number_lengths: 
   - 10
-  longitude: 70 40 W
+DO: 
+  national_prefix: "1"
+  name: Dominican Republic
+  alpha2: DO
+  number: "214"
+  region: Americas
+  alpha3: DOM
+  latitude: 19 00 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Pesos
+    symbol: RD$
+    code: DOP
+    unicode_hex: 
+    - 82
+    - 68
+    - 36
   names: 
   - Dominican Republic
   - Dominikanische Republik
   - "R\xC3\xA9publique Dominicaine"
   - "Rep\xC3\xBAblica Dominicana"
-TR: 
-  e164_country_code: "90"
-  region: Asia
-  number: "792"
-  alpha2: TR
-  name: Turkey
-  latitude: 39 00 N
-  alpha3: TUR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 70 40 W
+  national_number_lengths: 
   - 10
-  longitude: 35 00 E
+ME: 
+  national_prefix: "0"
+  name: Montenegro
+  alpha2: ME
+  number: "499"
+  region: Europe
+  alpha3: MNE
+  latitude: 42 30 N
+  subregion: Southern Europe
+  country_code: "382"
+  international_prefix: "99"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id002
+  names: 
+  - Crna Gora
+  - Montenegro
+  longitude: 19 18 E
+  national_number_lengths: 
+  - 8
+PA: 
+  national_prefix: None
+  name: Panama
+  alpha2: PA
+  number: "591"
+  region: Americas
+  alpha3: PAN
+  latitude: 9 00 N
+  subregion: Central America
+  country_code: "507"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Balboa
+    symbol: B/.
+    code: PAB
+    unicode_hex: 
+    - 66
+    - 47
+    - 46
+    alt_currency: *id001
+  names: 
+  - Panama
+  - "Panam\xC3\xA1"
+  longitude: 80 00 W
+  national_number_lengths: 
+  - 7
+TR: 
+  national_prefix: "0"
+  name: Turkey
+  alpha2: TR
+  number: "792"
+  region: Asia
+  alpha3: TUR
+  latitude: 39 00 N
+  subregion: Western Asia
+  country_code: "90"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Lira
+    symbol: TL
+    code: TRY
+    unicode_hex: 
+    - 84
+    - 76
   names: 
   - Turkey
   - "T\xC3\xBCrkei"
   - Turquie
   - "Turqu\xC3\xADa"
-ME: 
-  e164_country_code: "382"
-  region: Europe
-  number: "499"
-  alpha2: ME
-  name: Montenegro
-  latitude: 42 30 N
-  alpha3: MNE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Southern Europe
-  e164_international_prefix: "99"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 19 18 E
-  names: 
-  - Crna Gora
-  - Montenegro
-PA: 
-  e164_country_code: "507"
-  region: Americas
-  number: "591"
-  alpha2: PA
-  name: Panama
-  latitude: 9 00 N
-  alpha3: PAN
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Central America
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 80 00 W
-  names: 
-  - Panama
-  - "Panam\xC3\xA1"
+  longitude: 35 00 E
+  national_number_lengths: 
+  - 10
 AT: 
-  e164_country_code: "43"
-  region: Europe
-  number: "040"
-  alpha2: AT
+  national_prefix: "0"
   name: Austria
-  latitude: 47 20 N
+  alpha2: AT
+  number: "040"
+  region: Europe
   alpha3: AUT
-  e164_national_destination_code_lengths: 
+  latitude: 47 20 N
+  subregion: Western Europe
+  country_code: "43"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 1
   - 2
   - 3
-  subregion: Western Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
+  names: 
+  - "\xC3\x96sterreich"
+  - Autriche
+  - Austria
+  longitude: 13 20 E
+  national_number_lengths: 
   - 7
   - 8
   - 9
@@ -4373,266 +5490,343 @@ AT:
   - 11
   - 12
   - 13
-  longitude: 13 20 E
-  names: 
-  - "\xC3\x96sterreich"
-  - Autriche
-  - Austria
 GL: 
-  e164_country_code: "299"
-  region: Americas
-  number: "304"
-  alpha2: GL
+  national_prefix: None
   name: Greenland
-  latitude: 72 00 N
+  alpha2: GL
+  number: "304"
+  region: Americas
   alpha3: GRL
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 72 00 N
   subregion: Northern America
-  e164_international_prefix: 009
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 40 00 W
+  country_code: "299"
+  international_prefix: 009
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id014
   names: 
   - Greenland
   - "Gr\xC3\xB6nland"
   - Groenland
   - Groenlandia
+  longitude: 40 00 W
+  national_number_lengths: 
+  - 6
 MF: 
-  e164_country_code: ""
-  region: Americas
-  number: "663"
-  alpha2: MF
+  national_prefix: ""
   name: Saint Martin
-  latitude: 18 05 N
+  alpha2: MF
+  number: "663"
+  region: Americas
   alpha3: MAF
-  e164_national_destination_code_lengths: []
-
+  latitude: 18 05 N
   subregion: Caribbean
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
 
-  longitude: 63 57 W
+  currency: *id002
   names: 
   - Saint Martin
+  longitude: 63 57 W
+  national_number_lengths: []
+
 NZ: 
-  e164_country_code: "64"
-  region: Oceania
-  number: "554"
-  alpha2: NZ
+  national_prefix: 0 (None fo
   name: New Zealand
-  latitude: 41 00 S
+  alpha2: NZ
+  number: "554"
+  region: Oceania
   alpha3: NZL
-  e164_national_destination_code_lengths: 
-  - 1
+  latitude: 41 00 S
   subregion: Australia and New Zealand
-  e164_international_prefix: "00"
-  e164_national_prefix: 0 (None fo
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 174 00 E
+  country_code: "64"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 1
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{region}}
+    {{city}} {{postalcode}}
+    {{country}}
+  currency: *id005
   names: 
   - New Zealand
   - Neuseeland
   - "Nouvelle Z\xC3\x83\xC2\xA9lande"
   - Nueva Zelanda
-AU: 
-  e164_country_code: "61"
-  region: Oceania
-  number: "036"
-  alpha2: AU
-  name: Australia
-  latitude: 27 00 S
-  alpha3: AUS
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Australia and New Zealand
-  e164_international_prefix: "0011"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 174 00 E
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 133 00 E
+AU: 
+  national_prefix: "0"
+  name: Australia
+  alpha2: AU
+  number: "036"
+  region: Oceania
+  alpha3: AUS
+  latitude: 27 00 S
+  subregion: Australia and New Zealand
+  country_code: "61"
+  international_prefix: "0011"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  currency: *id008
   names: 
   - Australien
   - Australie
   - Australia
+  longitude: 133 00 E
+  national_number_lengths: 
+  - 9
 GM: 
-  e164_country_code: "220"
-  region: Africa
-  number: "270"
-  alpha2: GM
+  national_prefix: None
   name: Gambia
-  latitude: 13 28 N
+  alpha2: GM
+  number: "270"
+  region: Africa
   alpha3: GMB
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 13 28 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 16 34 W
+  country_code: "220"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Lari
+    code: GMD
   names: 
   - Gambia
+  longitude: 16 34 W
+  national_number_lengths: 
+  - 7
 MG: 
-  e164_country_code: "261"
-  region: Africa
-  number: "450"
-  alpha2: MG
+  national_prefix: None
   name: Madagascar
-  latitude: 20 00 S
+  alpha2: MG
+  number: "450"
+  region: Africa
   alpha3: MDG
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 20 00 S
   subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 9
-  longitude: 47 00 E
+  country_code: "261"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Madagascar
   - Madagaskar
   - the Republic of Madagascar
+  longitude: 47 00 E
+  national_number_lengths: 
+  - 9
 GN: 
-  e164_country_code: "224"
-  region: Africa
-  number: "324"
-  alpha2: GN
+  national_prefix: None
   name: Guinea
-  latitude: 11 00 N
+  alpha2: GN
+  number: "324"
+  region: Africa
   alpha3: GIN
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 11 00 N
   subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 8
-  longitude: 10 00 W
+  country_code: "224"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Francs
+    code: GNF
   names: 
   - Guinea
   - Guinea
   - "Guin\xC3\xA9e"
   - Guinea
-ZM: 
-  e164_country_code: "260"
-  region: Africa
-  number: "894"
-  alpha2: ZM
-  name: Zambia
-  latitude: 15 00 S
-  alpha3: ZMB
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 9
-  longitude: 30 00 E
-  names: 
-  - Zambia
-  - Sambia
-  - Zambie
-MH: 
-  e164_country_code: "692"
-  region: Oceania
-  number: "584"
-  alpha2: MH
-  name: Marshall Islands
-  latitude: 9 00 N
-  alpha3: MHL
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Micronesia
-  e164_international_prefix: "00"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 7
-  longitude: 168 00 E
-  names: 
-  - Marshall Islands
-  - Marshall-Inseln
-  - "\xC3\x8Eles Marshall"
-  - Islas Marshall
-TT: 
-  e164_country_code: "1"
+  longitude: 10 00 W
+  national_number_lengths: 
+  - 8
+AW: 
+  national_prefix: None
+  name: Aruba
+  alpha2: AW
+  number: "533"
   region: Americas
-  number: "780"
-  alpha2: TT
-  name: Trinidad and Tobago
-  latitude: 11 00 N
-  alpha3: TTO
-  e164_national_destination_code_lengths: 
-  - 3
+  alpha3: ABW
+  latitude: 12 30 N
   subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 61 00 W
+  country_code: "297"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Guilders
+    symbol: !binary |
+      xpI=
+
+    code: AWG
+    alt_name: Florins
+    unicode_hex: 402
+  names: 
+  - Aruba
+  longitude: 69 58 W
+  national_number_lengths: 
+  - 7
+TT: 
+  national_prefix: "1"
+  name: Trinidad and Tobago
+  alpha2: TT
+  number: "780"
+  region: Americas
+  alpha3: TTO
+  latitude: 11 00 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  currency: 
+    name: Dollars
+    symbol: $
+    code: TTD
+    unicode_hex: 36
   names: 
   - Trinidad and Tobago
   - Trinidad und Tobago
   - "Trinit\xC3\xA9 et Tobago"
   - Trinidad y Tobago
-AW: 
-  e164_country_code: "297"
-  region: Americas
-  number: "533"
-  alpha2: AW
-  name: Aruba
-  latitude: 12 30 N
-  alpha3: ABW
-  e164_national_destination_code_lengths: 
+  longitude: 61 00 W
+  national_number_lengths: 
+  - 10
+MH: 
+  national_prefix: "1"
+  name: Marshall Islands
+  alpha2: MH
+  number: "584"
+  region: Oceania
+  alpha3: MHL
+  latitude: 9 00 N
+  subregion: Micronesia
+  country_code: "692"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Caribbean
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  currency: *id001
+  names: 
+  - Marshall Islands
+  - Marshall-Inseln
+  - "\xC3\x8Eles Marshall"
+  - Islas Marshall
+  longitude: 168 00 E
+  national_number_lengths: 
   - 7
-  longitude: 69 58 W
-  names: 
-  - Aruba
-AX: 
-  e164_country_code: ""
-  region: Europe
-  number: "248"
-  alpha2: AX
-  name: "\xC3\x85land Islands"
-  latitude: ""
-  alpha3: ALA
-  e164_national_destination_code_lengths: []
-
-  subregion: Northern Europe
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
-
-  longitude: ""
-  names: 
-  - "\xC3\x85land Islands"
-PE: 
-  e164_country_code: "51"
-  region: Americas
-  number: "604"
-  alpha2: PE
-  name: Peru
-  latitude: 10 00 S
-  alpha3: PER
-  e164_national_destination_code_lengths: 
+ZM: 
+  national_prefix: "0"
+  name: Zambia
+  alpha2: ZM
+  number: "894"
+  region: Africa
+  alpha3: ZMB
+  latitude: 15 00 S
+  subregion: Eastern Africa
+  country_code: "260"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: South America
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  currency: 
+    name: Kwacha
+    code: ZMK
+  names: 
+  - Zambia
+  - Sambia
+  - Zambie
+  longitude: 30 00 E
+  national_number_lengths: 
+  - 9
+GP: 
+  national_prefix: None
+  name: Guadeloupe
+  alpha2: GP
+  number: "312"
+  region: Americas
+  alpha3: GLP
+  latitude: ""
+  subregion: Caribbean
+  country_code: "590"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 3
+  currency: *id002
+  names: 
+  - Guadeloupe
+  - Guadalupe
+  longitude: ""
+  national_number_lengths: 
+  - 10
+SA: 
+  national_prefix: "0"
+  name: Saudi Arabia
+  alpha2: SA
+  number: "682"
+  region: Asia
+  alpha3: SAU
+  latitude: 25 00 N
+  subregion: Western Asia
+  country_code: "966"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Riyals
+    symbol: !binary |
+      77e8
+
+    code: SAR
+    unicode_hex: 65020
+  names: 
+  - Saudi Arabia
+  - Saudi-Arabien
+  - Arabie Saoudite
+  - "Arabia Saud\xC3\xAD"
+  longitude: 45 00 E
+  national_number_lengths: 
   - 8
   - 9
-  longitude: 76 00 W
+PE: 
+  national_prefix: "0"
+  name: Peru
+  alpha2: PE
+  number: "604"
+  region: Americas
+  alpha3: PER
+  latitude: 10 00 S
+  subregion: South America
+  country_code: "51"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Nuevos Soles
+    symbol: S/.
+    code: PEN
+    unicode_hex: 
+    - 0x50,0x2f,0x2e
   names: 
   - Peru
   - !binary |
@@ -4641,266 +5835,267 @@ PE:
   - !binary |
     UGVyw7o=
 
-SA: 
-  e164_country_code: "966"
-  region: Asia
-  number: "682"
-  alpha2: SA
-  name: Saudi Arabia
-  latitude: 25 00 N
-  alpha3: SAU
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  longitude: 76 00 W
+  national_number_lengths: 
   - 8
   - 9
-  longitude: 45 00 E
-  names: 
-  - Saudi Arabia
-  - Saudi-Arabien
-  - Arabie Saoudite
-  - "Arabia Saud\xC3\xAD"
-GP: 
-  e164_country_code: "590"
-  region: Americas
-  number: "312"
-  alpha2: GP
-  name: Guadeloupe
+AX: 
+  national_prefix: ""
+  name: "\xC3\x85land Islands"
+  alpha2: AX
+  number: "248"
+  region: Europe
+  alpha3: ALA
   latitude: ""
-  alpha3: GLP
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 10
+  subregion: Northern Europe
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
+
+  currency: 
+  names: 
+  - "\xC3\x85land Islands"
   longitude: ""
-  names: 
-  - Guadeloupe
-  - Guadalupe
-TV: 
-  e164_country_code: "688"
-  region: Oceania
-  number: "798"
-  alpha2: TV
-  name: Tuvalu
-  latitude: 8 00 S
-  alpha3: TUV
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  longitude: 178 00 E
-  names: 
-  - Tuvalu
-  - Tuvalu
-  - Tuvalu
-  - Tuvalu
-PF: 
-  e164_country_code: "689"
-  region: Oceania
-  number: "258"
-  alpha2: PF
-  name: French Polynesia
-  latitude: 15 00 S
-  alpha3: PYF
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 140 00 W
-  names: 
-  - French Polynesia
-  - "Franz\xC3\xB6sisch-Polynesien"
-  - "Polyn\xC3\xA9sie Fran\xC3\xA7aise"
-  - Polinesia Francesa
-SB: 
-  e164_country_code: "677"
-  region: Oceania
-  number: 090
-  alpha2: SB
-  name: Solomon Islands
-  latitude: 8 00 S
-  alpha3: SLB
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Melanesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 5
-  longitude: 159 00 E
-  names: 
-  - Solomon Islands
-  - Salomonen
-  - "\xC3\x8Eles Salomon"
-  - "Islas Salom\xC3\xB3n"
-WS: 
-  e164_country_code: "685"
-  region: Oceania
-  number: "882"
-  alpha2: WS
-  name: Samoa
-  latitude: 13 35 S
-  alpha3: WSM
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Polynesia
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  - 7
-  longitude: 172 20 W
-  names: 
-  - Samoa
-CA: 
-  e164_country_code: "1"
+  national_number_lengths: []
+
+JM: 
+  national_prefix: "1"
+  name: Jamaica
+  alpha2: JM
+  number: "388"
   region: Americas
-  number: "124"
-  alpha2: CA
-  name: Canada
-  latitude: 60 00 N
-  alpha3: CAN
-  e164_national_destination_code_lengths: 
+  alpha3: JAM
+  latitude: 18 15 N
+  subregion: Caribbean
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
   - 3
-  subregion: Northern America
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 95 00 W
+  currency: 
+    name: Dollars
+    code: JMD
   names: 
-  - Canada
-  - Kanada
-  - "Canad\xC3\xA1"
+  - Jamaica
+  - Jamaika
+  - "Jama\xC3\xAFque"
+  longitude: 77 30 W
+  national_number_lengths: 
+  - 10
 GQ: 
-  e164_country_code: "240"
-  region: Africa
-  number: "226"
-  alpha2: GQ
+  national_prefix: None
   name: Equatorial Guinea
-  latitude: 2 00 N
+  alpha2: GQ
+  number: "226"
+  region: Africa
   alpha3: GNQ
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 2 00 N
   subregion: Middle Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 6
-  longitude: 10 00 E
+  country_code: "240"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
   names: 
   - Equatorial Guinea
   - "\xC3\x84quatorial-Guinea"
   - "Guin\xC3\xA9e \xC3\x89quatoriale"
   - Guinea Ecuatorial
-JM: 
-  e164_country_code: "1"
-  region: Americas
-  number: "388"
-  alpha2: JM
-  name: Jamaica
-  latitude: 18 15 N
-  alpha3: JAM
-  e164_national_destination_code_lengths: 
-  - 3
-  subregion: Caribbean
-  e164_international_prefix: "011"
-  e164_national_prefix: "1"
-  e164_national_number_lengths: 
-  - 10
-  longitude: 77 30 W
-  names: 
-  - Jamaica
-  - Jamaika
-  - "Jama\xC3\xAFque"
-SC: 
-  e164_country_code: "248"
-  region: Africa
-  number: "690"
-  alpha2: SC
-  name: Seychelles
-  latitude: 4 35 S
-  alpha3: SYC
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Eastern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  longitude: 10 00 E
+  national_number_lengths: 
   - 6
-  longitude: 55 40 E
+CA: 
+  national_prefix: "1"
+  name: Canada
+  alpha2: CA
+  number: "124"
+  region: Americas
+  alpha3: CAN
+  latitude: 60 00 N
+  subregion: Northern America
+  country_code: "1"
+  international_prefix: "011"
+  national_destination_code_lengths: 
+  - 3
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  currency: 
+    name: Dollars
+    symbol: $
+    code: CAD
+    unicode_hex: 36
   names: 
-  - Seychelles
-TW: 
-  e164_country_code: "886"
-  region: Asia
-  number: "158"
-  alpha2: TW
-  name: Taiwan, Province Of China
-  latitude: 23 30 N
-  alpha3: TWN
-  e164_national_destination_code_lengths: 
+  - Canada
+  - Kanada
+  - "Canad\xC3\xA1"
+  longitude: 95 00 W
+  national_number_lengths: 
+  - 10
+WS: 
+  national_prefix: None
+  name: Samoa
+  alpha2: WS
+  number: "882"
+  region: Oceania
+  alpha3: WSM
+  latitude: 13 35 S
+  subregion: Polynesia
+  country_code: "685"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Eastern Asia
-  e164_international_prefix: "002"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
+  currency: *id001
+  names: 
+  - Samoa
+  longitude: 172 20 W
+  national_number_lengths: 
+  - 6
+  - 7
+SB: 
+  national_prefix: None
+  name: Solomon Islands
+  alpha2: SB
+  number: 090
+  region: Oceania
+  alpha3: SLB
+  latitude: 8 00 S
+  subregion: Melanesia
+  country_code: "677"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Dollars
+    symbol: $
+    code: SBD
+    unicode_hex: 36
+  names: 
+  - Solomon Islands
+  - Salomonen
+  - "\xC3\x8Eles Salomon"
+  - "Islas Salom\xC3\xB3n"
+  longitude: 159 00 E
+  national_number_lengths: 
+  - 5
+PF: 
+  national_prefix: None
+  name: French Polynesia
+  alpha2: PF
+  number: "258"
+  region: Oceania
+  alpha3: PYF
+  latitude: 15 00 S
+  subregion: Polynesia
+  country_code: "689"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id016
+  names: 
+  - French Polynesia
+  - "Franz\xC3\xB6sisch-Polynesien"
+  - "Polyn\xC3\xA9sie Fran\xC3\xA7aise"
+  - Polinesia Francesa
+  longitude: 140 00 W
+  national_number_lengths: 
+  - 6
+TV: 
+  national_prefix: None
+  name: Tuvalu
+  alpha2: TV
+  number: "798"
+  region: Oceania
+  alpha3: TUV
+  latitude: 8 00 S
+  subregion: Polynesia
+  country_code: "688"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Tuvalu Dollars
+    code: TVD
+  names: 
+  - Tuvalu
+  - Tuvalu
+  - Tuvalu
+  - Tuvalu
+  longitude: 178 00 E
+  national_number_lengths: 
+  - 5
+PG: 
+  national_prefix: None
+  name: Papua New Guinea
+  alpha2: PG
+  number: "598"
+  region: Oceania
+  alpha3: PNG
+  latitude: 6 00 S
+  subregion: Melanesia
+  country_code: "675"
+  international_prefix: "05"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Kina
+    code: PGK
+  names: 
+  - Papua New Guinea
+  - Papua-Neuguinea
+  - "Papouasie Nouvelle-Guin\xC3\xA9e"
+  - "Pap\xC3\xBAa Nueva Guinea"
+  longitude: 147 00 E
+  national_number_lengths: 
+  - 7
+MK: 
+  national_prefix: "0"
+  name: Macedonia, the Former Yugoslav Republic Of
+  alpha2: MK
+  number: "807"
+  region: Europe
+  alpha3: MKD
+  latitude: 41 50 N
+  subregion: Southern Europe
+  country_code: "389"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{postalcode}}
+    {{country}}
+  currency: 
+  names: 
+  - Macedonia
+  - Mazedonien
+  - "Mac\xC3\xA9doine"
+  - Macedonia
+  longitude: 22 00 E
+  national_number_lengths: 
   - 7
   - 8
-  longitude: 121 00 E
-  names: 
-  - Taiwan
-  - "Taiw\xC3\xA1n"
-AZ: 
-  e164_country_code: "994"
-  region: Asia
-  number: "031"
-  alpha2: AZ
-  name: Azerbaijan
-  latitude: 40 30 N
-  alpha3: AZE
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "810"
-  e164_national_prefix: "8"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  longitude: 47 30 E
-  names: 
-  - Azerbaijan
-  - Aserbaidschan
-  - "Azerba\xC3\xAFdjan"
-  - "Azerbaiy\xC3\xA1n"
 GR: 
-  e164_country_code: "30"
-  region: Europe
-  number: "300"
-  alpha2: GR
+  national_prefix: None
   name: Greece
-  latitude: 39 00 N
+  alpha2: GR
+  number: "300"
+  region: Europe
   alpha3: GRC
-  e164_national_destination_code_lengths: 
-  - 2
+  latitude: 39 00 N
   subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 10
-  longitude: 22 00 E
+  country_code: "30"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: *id002
   names: 
   - Greece
   - Griechenland
@@ -4908,148 +6103,224 @@ GR:
     R3LDqGNl
 
   - Grecia
-MK: 
-  e164_country_code: "389"
-  region: Europe
-  number: "807"
-  alpha2: MK
-  name: Macedonia, the Former Yugoslav Republic Of
-  latitude: 41 50 N
-  alpha3: MKD
-  e164_national_destination_code_lengths: 
+  longitude: 22 00 E
+  national_number_lengths: 
+  - 10
+AZ: 
+  national_prefix: "8"
+  name: Azerbaijan
+  alpha2: AZ
+  number: "031"
+  region: Asia
+  alpha3: AZE
+  latitude: 40 30 N
+  subregion: Western Asia
+  country_code: "994"
+  international_prefix: "810"
+  national_destination_code_lengths: 
   - 2
-  subregion: Southern Europe
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  currency: 
+    name: New Manats
+    symbol: !binary |
+      0LzQsNC9
+
+    code: AZN
+    unicode_hex: 
+    - 1084
+    - 1072
+    - 1085
+  names: 
+  - Azerbaijan
+  - Aserbaidschan
+  - "Azerba\xC3\xAFdjan"
+  - "Azerbaiy\xC3\xA1n"
+  longitude: 47 30 E
+  national_number_lengths: 
+  - 8
+  - 9
+TW: 
+  national_prefix: None
+  name: Taiwan, Province Of China
+  alpha2: TW
+  number: "158"
+  region: Asia
+  alpha3: TWN
+  latitude: 23 30 N
+  subregion: Eastern Asia
+  country_code: "886"
+  international_prefix: "002"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  currency: 
+    name: New Dollars
+    symbol: NT$
+    code: TWD
+    unicode_hex: 
+    - 78
+    - 84
+    - 36
+  names: 
+  - Taiwan
+  - "Taiw\xC3\xA1n"
+  longitude: 121 00 E
+  national_number_lengths: 
   - 7
   - 8
-  longitude: 22 00 E
-  names: 
-  - Macedonia
-  - Mazedonien
-  - "Mac\xC3\xA9doine"
-  - Macedonia
-PG: 
-  e164_country_code: "675"
-  region: Oceania
-  number: "598"
-  alpha2: PG
-  name: Papua New Guinea
-  latitude: 6 00 S
-  alpha3: PNG
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Melanesia
-  e164_international_prefix: "05"
-  e164_national_prefix: None
-  e164_national_number_lengths: 
-  - 7
-  longitude: 147 00 E
-  names: 
-  - Papua New Guinea
-  - Papua-Neuguinea
-  - "Papouasie Nouvelle-Guin\xC3\xA9e"
-  - "Pap\xC3\xBAa Nueva Guinea"
-SD: 
-  e164_country_code: "249"
+SC: 
+  national_prefix: None
+  name: Seychelles
+  alpha2: SC
+  number: "690"
   region: Africa
-  number: "736"
-  alpha2: SD
-  name: Sudan
-  latitude: 15 00 N
-  alpha3: SDN
-  e164_national_destination_code_lengths: 
+  alpha3: SYC
+  latitude: 4 35 S
+  subregion: Eastern Africa
+  country_code: "248"
+  international_prefix: "00"
+  national_destination_code_lengths: 
   - 2
-  subregion: Northern Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
+  currency: 
+    name: Rupees
+    symbol: !binary |
+      4oKo
+
+    code: SCR
+    unicode_hex: 8360
+  names: 
+  - Seychelles
+  longitude: 55 40 E
+  national_number_lengths: 
+  - 6
+PH: 
+  national_prefix: "0"
+  name: Philippines
+  alpha2: PH
+  number: "608"
+  region: Asia
+  alpha3: PHL
+  latitude: 13 00 N
+  subregion: South-Eastern Asia
+  country_code: "63"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}} {{region}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Pesos
+    symbol: Php
+    code: PHP
+    unicode_hex: 
+    - 80
+    - 104
+    - 112
+  names: 
+  - Philippinen
+  - Philippines
+  - Filipinas
+  longitude: 122 00 E
+  national_number_lengths: 
+  - 8
   - 9
-  longitude: 30 00 E
+  - 10
+ML: 
+  national_prefix: "0"
+  name: Mali
+  alpha2: ML
+  number: "466"
+  region: Africa
+  alpha3: MLI
+  latitude: 17 00 N
+  subregion: Western Africa
+  country_code: "223"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: *id003
+  names: 
+  - Mali
+  longitude: 4 00 W
+  national_number_lengths: 
+  - 8
+JO: 
+  national_prefix: "0"
+  name: Jordan
+  alpha2: JO
+  number: "400"
+  region: Asia
+  alpha3: JOR
+  latitude: 31 00 N
+  subregion: Western Asia
+  country_code: "962"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  currency: 
+    name: Dinars
+    code: JOD
+  names: 
+  - Jordan
+  - Jordanien
+  - Jordanie
+  - Jordania
+  longitude: 36 00 E
+  national_number_lengths: 
+  - 8
+  - 9
+GS: 
+  national_prefix: ""
+  name: South Georgia and the South Sandwich Islands
+  alpha2: GS
+  number: "239"
+  region: Americas
+  alpha3: SGS
+  latitude: 54 30 S
+  subregion: South America
+  country_code: ""
+  international_prefix: ""
+  national_destination_code_lengths: []
+
+  currency: 
+  names: 
+  - South Georgia and the South Sandwich Islands
+  longitude: 37 00 W
+  national_number_lengths: []
+
+SD: 
+  national_prefix: "0"
+  name: Sudan
+  alpha2: SD
+  number: "736"
+  region: Africa
+  alpha3: SDN
+  latitude: 15 00 N
+  subregion: Northern Africa
+  country_code: "249"
+  international_prefix: "00"
+  national_destination_code_lengths: 
+  - 2
+  currency: 
+    name: Pounds
+    code: SDG
   names: 
   - Sudan
   - Soudan
   - !binary |
     U3Vkw6Fu
 
-GS: 
-  e164_country_code: ""
-  region: Americas
-  number: "239"
-  alpha2: GS
-  name: South Georgia and the South Sandwich Islands
-  latitude: 54 30 S
-  alpha3: SGS
-  e164_national_destination_code_lengths: []
-
-  subregion: South America
-  e164_international_prefix: ""
-  e164_national_prefix: ""
-  e164_national_number_lengths: []
-
-  longitude: 37 00 W
-  names: 
-  - South Georgia and the South Sandwich Islands
-JO: 
-  e164_country_code: "962"
-  region: Asia
-  number: "400"
-  alpha2: JO
-  name: Jordan
-  latitude: 31 00 N
-  alpha3: JOR
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
+  longitude: 30 00 E
+  national_number_lengths: 
   - 9
-  longitude: 36 00 E
-  names: 
-  - Jordan
-  - Jordanien
-  - Jordanie
-  - Jordania
-ML: 
-  e164_country_code: "223"
-  region: Africa
-  number: "466"
-  alpha2: ML
-  name: Mali
-  latitude: 17 00 N
-  alpha3: MLI
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: Western Africa
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  longitude: 4 00 W
-  names: 
-  - Mali
-PH: 
-  e164_country_code: "63"
-  region: Asia
-  number: "608"
-  alpha2: PH
-  name: Philippines
-  latitude: 13 00 N
-  alpha3: PHL
-  e164_national_destination_code_lengths: 
-  - 2
-  subregion: South-Eastern Asia
-  e164_international_prefix: "00"
-  e164_national_prefix: "0"
-  e164_national_number_lengths: 
-  - 8
-  - 9
-  - 10
-  longitude: 122 00 E
-  names: 
-  - Philippinen
-  - Philippines
-  - Filipinas
