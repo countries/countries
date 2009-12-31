@@ -1,7 +1,6 @@
 class Country
-  #Data = File.open( 'lib/data/countries.yaml' ) {|yaml| YAML::load( yaml )}
   Data = YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'countries.yaml')) || {}
-  Names = Data.map {|code,data| data[:name]}
+  Names = Data.map {|code,data| data['name']}
   
   attr_reader :number, :alpha2, :alpha3, :name, :names, :latitude, :longitude, :region, :subregion, :country_code, :national_destination_code_lengths, :national_number_lengths, :international_prefix, :national_prefix
 
