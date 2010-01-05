@@ -10,7 +10,6 @@ begin
     gem.email = "hexorx@gmail.com"
     gem.homepage = "http://github.com/hexorx/countries"
     gem.authors = ["hexorx"]
-    gem.add_dependency "algorithms"
     gem.add_development_dependency "rspec"
     gem.add_development_dependency "yard"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
