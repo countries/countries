@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__), 'countries', 'select_helper.rb')
+require 'YAML'
 
 class Country
   attr_reader :data
