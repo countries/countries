@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{countries}
-  s.version = "0.2.2"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx"]
-  s.date = %q{2010-02-18}
+  s.date = %q{2010-02-19}
   s.description = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.}
   s.email = %q{hexorx@gmail.com}
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "countries.gemspec",
      "lib/countries.rb",
+     "lib/countries/country.rb",
      "lib/countries/select_helper.rb",
      "lib/data/countries.yaml",
      "lib/data/subdivisions/AD.yaml",
@@ -222,7 +223,7 @@ Gem::Specification.new do |s|
      "lib/data/subdivisions/ZA.yaml",
      "lib/data/subdivisions/ZM.yaml",
      "lib/data/subdivisions/ZW.yaml",
-     "spec/countries_spec.rb",
+     "spec/country_spec.rb",
      "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/hexorx/countries}
@@ -231,7 +232,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Gives you a country object full of all sorts of useful information.}
   s.test_files = [
-    "spec/countries_spec.rb",
+    "spec/country_spec.rb",
      "spec/spec_helper.rb"
   ]
 
@@ -240,13 +241,16 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<currencies>, [">= 0.2.0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<yard>, [">= 0"])
     else
+      s.add_dependency(%q<currencies>, [">= 0.2.0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<yard>, [">= 0"])
     end
   else
+    s.add_dependency(%q<currencies>, [">= 0.2.0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<yard>, [">= 0"])
   end
