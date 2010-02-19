@@ -63,7 +63,7 @@ describe Country do
     end
   end
   
-  describe '.subdivisions' do
+  describe 'subdivisions' do
     it 'should return an empty hash for a country with no ISO3166-2' do
       Country.search('VA').subdivisions.should have(0).subdivisions
     end
@@ -73,9 +73,19 @@ describe Country do
     end
   end
   
-  describe '.search' do
+  describe 'search' do
     it 'should return new country object when a valid alpha2 is passed' do
       Country.search('US').should be_a(Country)
+    end
+  end
+  
+  describe 'currency' do
+    it 'should return an instance of Currency' do
+      @country.currency.should be_a(Currency)
+    end
+    
+    it 'should allow access to symbol' do
+      @country.currency[:symbol].should == '$'
     end
   end
 end

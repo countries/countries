@@ -16,52 +16,77 @@ Countries is hosted on GemCutter, so simply run the following:
     gem sources -a http://gemcutter.org
     sudo gem install countries
     
-Use It!
--------
+Country Select Helper
+---------------------
+
+As a bonus if you add the gem to a rails project it automatically gives you a country_select form helper. Unlike the normal country select it will store the alpha2 country code not the country name.
+    
+Basic Usage
+-----------
 
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example  works best.
 
     c = Country.new('US')
     c = Country['US']
     
-Then you have all sorts of methods on the Country object to give you info about the country.
+Country Info
+------------
 
     c.number # ISO3166 numeric country code
     c.alpha2 # ISO3166 alpha2 country code
     c.alpha3 # ISO3166 alpha2 country code
+
     c.name # ISO3166 name
     c.names # ISO3166 alternate names
+
     c.latitude # uuuh the latitude
     c.longitude # obvious?
+
     c.region # UN Region
     c.subregion # UN SubRegion
-    c.country_code # E.164 Country Code
-    c.national_destination_code_lengths # E.164 length of national destination code
-    c.national_number_lengths # E.164 length of the national number
-    c.international_prefix # E.164 code for dialing international from country
-    c.national_prefix # E164 code for dialing within the country
+
     c.subdivisions # All ISO3166-2 for that country with there codes
     
-The currency method returns a hash of ISO4217 information.
+Currencies
+----------
+
+Countries now uses the [Currencies][] gem. What this means is you now get back a Currency object that gives you access to all the currency information. It acts the same as a hash so the same ['name'] methods still work.
 
     c.currency['code'] => 'USD'
     c.currency['name'] => 'Dollars'
     c.currency['symbol'] => '$'
-    c.currency['unicode_hex'] => 36 # Returns a FixNum. Do .to_s(16) to get hex value
-    c.currency['unicode_hex'].to_s(16) => '24'
-    c.currency['alt_currency'] => nil # Will return a second currency hash for countries with an alternate currency.
+
+If a country has an alternate currency it can be accessed via the *alt_currency* method and will also return a Currency object.
+
+Since we are using the [Currencies][] gem we get a bonus ExchangeBank that can be used with the [Money][] gem. It auto loads exchange rates from Yahoo Finance.
+
+    Money.default_bank = Currency::ExchangeBank.new
+    Money.us_dollar(100).exchange_to("CAD")  # => Money.new(124, "CAD")
+    
+Telephone Routing (E164)
+------------------------
+
+c.country_code # E.164 Country Code
+c.national_destination_code_lengths # E.164 length of national destination code
+c.national_number_lengths # E.164 length of the national number
+c.international_prefix # E.164 code for dialing international from country
+c.national_prefix # E164 code for dialing within the country
+
+Address Formatting
+------------------
     
 A template for formatting addresses is available through the address_format method.
 
     c.address_format => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 
-As a bonus if you add the gem to a rails project it automatically gives you a country_select form helper. Unlike the normal country select it will store the alpha2 country code not the country name.
-
 
 ToDo
 ----
 
-* search/indexing
+* more awesomer search/indexing
+* use the e164 gem for telephone routing
+* extract address_format into a separate gem
+* make class for accessing subdivision info
 
 Sponsored By
 ------------
@@ -89,3 +114,5 @@ Copyright (c) 2009 hexorx. See LICENSE for details.
 [Teliax]: http://teliax.com
 [Centrex]: http://en.wikipedia.org/wiki/Centrex
 [CommonDataHub]: http://commondatahub.com
+[Currencies]: http://gemcutter.org/gems/currencies
+[Money]: http://gemcutter.org/gems/money

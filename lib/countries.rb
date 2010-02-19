@@ -1,55 +1,7 @@
-require File.join(File.dirname(__FILE__), 'countries', 'select_helper.rb')
-require 'YAML'
+$LOAD_PATH << File.expand_path(File.dirname(__FILE__))
 
-class Country
-  attr_reader :data
-   
-  AttrReaders = [
-    :number,
-    :alpha2,
-    :alpha3,
-    :name,
-    :names,
-    :latitude,
-    :longitude,
-    :region,
-    :subregion,
-    :country_code,
-    :national_destination_code_lengths,
-    :national_number_lengths,
-    :international_prefix,
-    :national_prefix,
-    :address_format,
-    :currency
-  ]
-  
-  AttrReaders.each do |meth|
-    define_method meth do
-      @data[meth.to_s]
-    end
-  end
-  
-  Data = YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'countries.yaml')) || {}
-  Names = Data.map {|k,v| [v['name'],k]}.sort
-  NameIndex = Hash[*Names.flatten]
-    
-  def initialize(country_code)
-    @data = Data[country_code]
-  end
-  
-  def self.search(query)
-    Country.new(query)
-  end
-  
-  def self.[](query)
-    self.search(query)
-  end
-  
-  def subdivisions
-    @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
-  end
-  
-  def subdivisions?
-    File.exist?(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml"))
-  end
-end
+require 'YAML' unless defined?(YAML)
+require 'currencies'
+
+require 'countries/select_helper'
+require 'countries/country'
