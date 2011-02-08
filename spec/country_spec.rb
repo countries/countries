@@ -81,7 +81,7 @@ describe Country do
   
   describe 'currency' do
     it 'should return an instance of Currency' do
-      @country.currency.should be_a(Currency)
+      @country.currency.should be_a(ISO4217::Currency)
     end
     
     it 'should allow access to symbol' do

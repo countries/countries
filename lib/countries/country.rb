@@ -34,7 +34,7 @@ class Country
   end
   
   def currency
-    Currency.from_code(@data['currency'])
+    ISO4217::Currency.from_code(@data['currency'])
   end
   
   def self.search(query)
