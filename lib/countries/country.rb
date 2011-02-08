@@ -1,4 +1,6 @@
-class Country
+module ISO3166; end
+
+class ISO3166::Country
   attr_reader :data
    
   AttrReaders = [
@@ -38,7 +40,7 @@ class Country
   end
   
   def self.search(query)
-    Country.new(query)
+    self.new(query)
   end
   
   def self.[](query)

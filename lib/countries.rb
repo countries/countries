@@ -1,7 +1,5 @@
 $LOAD_PATH << File.expand_path(File.dirname(__FILE__))
 
-require 'YAML' unless defined?(YAML)
-require 'iso4217'
+require 'iso3166'
 
-require 'countries/select_helper'
-require 'countries/country'
+class Country < ISO3166::Country; end

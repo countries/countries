@@ -1,8 +1,8 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe Country do
+describe ISO3166::Country do
   before(:all) do
-    @country = Country.search('US')
+    @country = ISO3166::Country.search('US')
   end
   
   it 'should return 3166 number' do
@@ -65,7 +65,7 @@ describe Country do
   
   describe 'subdivisions' do
     it 'should return an empty hash for a country with no ISO3166-2' do
-      Country.search('VA').subdivisions.should have(0).subdivisions
+      ISO3166::Country.search('VA').subdivisions.should have(0).subdivisions
     end
     
     it 'should return a hash with all sub divisions' do
@@ -75,7 +75,7 @@ describe Country do
   
   describe 'search' do
     it 'should return new country object when a valid alpha2 is passed' do
-      Country.search('US').should be_a(Country)
+      ISO3166::Country.search('US').should be_a(ISO3166::Country)
     end
   end
   
@@ -86,6 +86,30 @@ describe Country do
     
     it 'should allow access to symbol' do
       @country.currency[:symbol].should == '$'
+    end
+  end
+
+  describe "Country class" do
+    context "when loaded via 'iso3166' existance" do
+      subject { defined?(Country) }
+
+      it { should be_false }
+    end
+
+    context "when loaded via 'countries'" do
+      before { require 'countries' }
+
+      describe "existance" do
+        subject { defined?(Country) }
+
+        it { should be_true }
+      end
+
+      describe "superclass" do
+        subject { Country.superclass }
+
+        it { should == ISO3166::Country }
+      end
     end
   end
 end
