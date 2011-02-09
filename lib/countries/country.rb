@@ -47,6 +47,12 @@ class ISO3166::Country
     self.search(query)
   end
 
+  def self.find_by_name(name)
+    Data.select do |k,v|
+      v["name"] == name || v["names"].include?(name)
+    end.first
+  end
+
   def subdivisions
     @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end

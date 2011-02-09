@@ -111,4 +111,29 @@ describe ISO3166::Country do
       end
     end
   end
+
+  describe ".find_by_name" do
+    context "when search name in 'name'" do
+      subject { ISO3166::Country.find_by_name("Poland") }
+
+      its(:first) { should == "PL" }
+    end
+
+    context "when search name in 'names'" do
+      subject { ISO3166::Country.find_by_name("Polonia") }
+
+      its(:first) { should == "PL" }
+    end
+  end
+
+  describe "names in Data" do
+    it "should be unique (to allow .find_by_name work properly)" do
+      names = ISO3166::Country::Data.collect do |k,v|
+        [v["name"], v["names"]].flatten.uniq
+      end.flatten
+
+      names.size.should == names.uniq.size
+    end
+  end
+
 end
