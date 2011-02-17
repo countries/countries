@@ -56,8 +56,11 @@ class ISO3166::Country
   def subdivisions
     @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end
-
+  
+  alias :states :subdivisions
+  
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
   end
+  
 end

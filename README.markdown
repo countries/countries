@@ -53,6 +53,7 @@ Country Info
   Subdivisions & States
   
     c.subdivisions #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
+    c.states #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
 
   Location
   
@@ -98,7 +99,6 @@ ToDo
 ----
 
 * Mongoid support
-* State methods for accessing subdivisions
 * State select
 * Class methods for looking up information
 * Default country
