@@ -3,20 +3,16 @@ Countries
 
 Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). The gem also adds a country_select helper. I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
-Warning!
---------
-
-The data in this gem is collected from many different sources including [CommonDataHub][] and represents a best effort to be accurate and up to date. It is used at your own risk.
-
 Installation
 ------------
 
-Countries is hosted on GemCutter, so simply run the following:
+    gem install countries
+    
+If you’re in Rails 2.3 or earlier, place this in your environment.rb:
 
-    gem sources -a http://gemcutter.org
-    sudo gem install countries
-
-Or you can install via bundler Gemfile:
+    config.gem 'countries'
+    
+Or you can install via bundler Gemfile if you are using Rails 3:
 
     gem 'countries'
 
@@ -43,29 +39,46 @@ Simply load a new country object using Country.new(*alpha2*) or the shortcut Cou
 Country Info
 ------------
 
-    c.number # ISO3166 numeric country code
-    c.alpha2 # ISO3166 alpha2 country code
-    c.alpha3 # ISO3166 alpha2 country code
+  Identification Codes
+  
+    c.number #=> "840"
+    c.alpha2 #=> "US"
+    c.alpha3 #=> "USA"
 
-    c.name # ISO3166 name
-    c.names # ISO3166 alternate names
+  Names
+  
+    c.name #=> "United States"
+    c.names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
+    
+  Subdivisions & States
+  
+    c.subdivisions #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
+    c.states #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
 
-    c.latitude # uuuh the latitude
-    c.longitude # obvious?
+  Location
+  
+    c.latitude #=> "38 00 N"
+    c.longitude #=> "97 00 W"
 
-    c.region # UN Region
-    c.subregion # UN SubRegion
-
-    c.subdivisions # All ISO3166-2 for that country with there codes
+    c.region #=> "Americas"
+    c.subregion #=> "Northern America"
+  
+  Telephone Routing (E164)
+  
+    c.country_code #=> "1"
+    c.national_destination_code_lengths #=> 3
+    c.national_number_lengths #=> 10
+    c.international_prefix #=> "011"
+    c.national_prefix #=> "1"
     
 Currencies
 ----------
 
 Countries now uses the [Currencies][] gem. What this means is you now get back a Currency object that gives you access to all the currency information. It acts the same as a hash so the same ['name'] methods still work.
 
-    c.currency['code'] => 'USD'
-    c.currency['name'] => 'Dollars'
-    c.currency['symbol'] => '$'
+    c.currency['code'] #=> 'USD'
+    c.currency['name'] #=> 'Dollars'
+    c.currency['symbol'] #=> '$'
 
 If a country has an alternate currency it can be accessed via the *alt_currency* method and will also return a Currency object.
 
@@ -73,36 +86,25 @@ Since we are using the [Currencies][] gem we get a bonus ExchangeBank that can b
 
     Money.default_bank = Currency::ExchangeBank.new
     Money.us_dollar(100).exchange_to("CAD")  # => Money.new(124, "CAD")
-    
-Telephone Routing (E164)
-------------------------
-
-c.country_code # E.164 Country Code
-c.national_destination_code_lengths # E.164 length of national destination code
-c.national_number_lengths # E.164 length of the national number
-c.international_prefix # E.164 code for dialing international from country
-c.national_prefix # E164 code for dialing within the country
 
 Address Formatting
 ------------------
     
-A template for formatting addresses is available through the address_format method.
+A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
 
-    c.address_format => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+    c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 
 
 ToDo
 ----
 
-* more awesomer search/indexing
-* use the e164 gem for telephone routing
-* extract address_format into a separate gem
-* make class for accessing subdivision info
-
-Sponsored By
-------------
-
-This gem is sponsored by [Teliax][]. [Teliax][] makes business class Voice, [Centrex][](Including Hosted: IVRs, Ring Groups, Extensions and Day Night Mode) and Data services accessible to anyone. You don't have to be a fortune 500 to sound big!
+* Mongoid support
+* State select
+* Class methods for looking up information
+* Default country
+* Exclude countries
+* Preferred countries
+* Whitelist countries
 
 Note on Patches/Pull Requests
 -----------------------------
@@ -119,7 +121,7 @@ Note on Patches/Pull Requests
 Copyright
 ---------
 
-Copyright (c) 2009 hexorx. See LICENSE for details.
+Copyright (c) 2011 hexorx. See LICENSE for details.
 
 
 [Teliax]: http://teliax.com
@@ -127,3 +129,4 @@ Copyright (c) 2009 hexorx. See LICENSE for details.
 [CommonDataHub]: http://commondatahub.com
 [Currencies]: http://gemcutter.org/gems/currencies
 [Money]: http://gemcutter.org/gems/money
+[Liquid]: http://www.liquidmarkup.org/

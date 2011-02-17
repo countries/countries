@@ -70,6 +70,10 @@ describe ISO3166::Country do
     it 'should return a hash with all sub divisions' do
       country.subdivisions.should have(57).states
     end
+
+    it 'should be available through states' do
+      country.states.should have(57).states
+    end
   end
 
   describe 'search' do
