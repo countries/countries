@@ -8,13 +8,17 @@ Installation
 
     gem install countries
     
-  If you’re in Rails 2.3 or earlier, place this in your environment.rb:
+If you’re in Rails 2.3 or earlier, place this in your environment.rb:
 
     config.gem 'countries'
     
-  If you’re in Rails 3, put this in your Gemfile:
-  
+Or you can install via bundler Gemfile if you are using Rails 3:
+
     gem 'countries'
+
+Or you can install via bundler Gemfile with using only ISO3166::Country (no Country class):
+
+    gem 'countries', :require => 'iso3166'
 
 Country Select Helper
 ---------------------
@@ -23,6 +27,9 @@ As a bonus if you add the gem to a rails project it automatically gives you a co
     
 Basic Usage
 -----------
+
+Note that Country class still exist by default.
+(is inherited from ISO3166::Country to keep backward compatibility).
 
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example  works best.
 
@@ -97,7 +104,7 @@ ToDo
 * Default country
 * Exclude countries
 * Preferred countries
-* Whitelist countries 
+* Whitelist countries
 
 Note on Patches/Pull Requests
 -----------------------------
