@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{countries}
-  s.version = "0.5.1"
+  s.version = "0.5.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx"]
-  s.date = %q{2011-02-17}
+  s.date = %q{2011-04-13}
   s.description = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.}
   s.email = %q{hexorx@gmail.com}
   s.extra_rdoc_files = [
@@ -233,7 +233,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/hexorx/countries}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.6.2}
   s.summary = %q{Gives you a country object full of all sorts of useful information.}
   s.test_files = [
     "spec/country_spec.rb",
@@ -241,7 +241,6 @@ Gem::Specification.new do |s|
   ]
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
