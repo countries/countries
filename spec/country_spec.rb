@@ -89,7 +89,7 @@ describe ISO3166::Country do
 
     it 'should allow access to symbol' do
       country.currency[:symbol].should == '$'
-    end
+    end    
   end
 
   describe "Country class" do
@@ -137,6 +137,14 @@ describe ISO3166::Country do
       end.flatten
 
       names.size.should == names.uniq.size
+    end
+  end
+  
+  describe 'Norway' do
+    let(:norway) { ISO3166::Country.search('NO') }
+    
+    it 'should have a currency' do
+      norway.currency.should be_a(ISO4217::Currency)
     end
   end
 
