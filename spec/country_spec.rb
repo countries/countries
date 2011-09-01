@@ -75,10 +75,47 @@ describe ISO3166::Country do
       country.states.should have(57).states
     end
   end
+  
+  describe 'valid?' do
+    it 'should return true if country is valid' do
+      ISO3166::Country.new('US').should be_valid
+    end
 
+    it 'should return false if country is invalid' do
+      ISO3166::Country.new('fubar').should_not be_valid
+    end
+  end
+  
+  describe 'all' do
+    it 'should return an arry list of all countries' do
+      countries = ISO3166::Country.all
+      countries.should be_an(Array)
+      countries.first.should be_an(Array)
+      countries.should have(246).countries
+    end
+  end
+  
+  describe 'countries' do
+    it 'should be the same as all' do
+      ISO3166::Country.countries.should == ISO3166::Country.all
+    end
+  end
+  
   describe 'search' do
-    it 'should return new country object when a valid alpha2 is passed' do
+    it 'should return new country object when a valid alpha2 string is passed' do
       ISO3166::Country.search('US').should be_a(ISO3166::Country)
+    end
+
+    it 'should return fals when an invalid alpha2 string is passed' do
+      ISO3166::Country.search('fubar').should be_false
+    end
+
+    it 'should return new country object when a valid alpha2 symbol is passed' do
+      ISO3166::Country.search(:us).should be_a(ISO3166::Country)
+    end
+
+    it 'should return false when an invalid alpha2 symbol is passed' do
+      ISO3166::Country.search(:fubar).should be_false
     end
   end
 
