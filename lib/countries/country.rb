@@ -70,9 +70,15 @@ class ISO3166::Country
     end
 
     def find_by_name(name)
+      name.downcase!
       Data.select do |k,v|
-        v["name"] == name || v["names"].include?(name)
+        v["name"].downcase == name || v["names"].map{ |name| name.downcase }.include?(name)
       end.first
+    end
+
+    def find_country_by_name(name)
+      result = self.find_by_name(name)
+      result ? self.new(result.first) : nil
     end
   end
 end
