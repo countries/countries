@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe ISO3166::Country do
@@ -160,10 +162,44 @@ describe ISO3166::Country do
       its(:first) { should == "PL" }
     end
 
+    context "when search lowercase name in 'name'" do
+      subject { ISO3166::Country.find_by_name("poland") }
+
+      its(:first) { should == "PL" }
+    end
+
     context "when search name in 'names'" do
       subject { ISO3166::Country.find_by_name("Polonia") }
 
       its(:first) { should == "PL" }
+    end
+  end
+
+  describe ".find_country_by_name" do
+    context "when search name found" do
+      let(:uk) { ISO3166::Country.find_country_by_name("United Kingdom") }
+
+      it "should be a country instance" do
+        uk.should be_a(ISO3166::Country)
+        uk.alpha2.should == "GB"
+      end
+    end
+
+    context "when search lowercase name found" do
+      let(:uk) { ISO3166::Country.find_country_by_name("united kingdom") }
+
+      it "should be a country instance" do
+        uk.should be_a(ISO3166::Country)
+        uk.alpha2.should == "GB"
+      end
+    end
+
+    context "when search name not found" do
+      let(:bogus) { ISO3166::Country.find_country_by_name("Does not exist") }
+
+      it "should be a country instance" do
+        bogus.should == nil
+      end
     end
   end
 
