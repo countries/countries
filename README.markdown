@@ -127,7 +127,7 @@ Copyright (c) 2011 hexorx. See LICENSE for details.
 Cities
 ------
 
-This product includes data created by MaxMind, available from [http://maxmind.com][].
+This product includes data created by MaxMind, available from [MaxMind][].
 Copyright (c) 2008 MaxMind Inc.  All rights reserved.
 
 
