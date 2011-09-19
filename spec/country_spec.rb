@@ -77,6 +77,18 @@ describe ISO3166::Country do
       country.states.should have(57).states
     end
   end
+
+  describe 'cities' do
+  
+    it 'should return correct hash of hashed cities' do
+      ISO3166::Country.search('WF').cities.should have(39).cities
+    end
+
+    it 'should return empty hash for country with no cities' do
+      ISO3166::Country.search('VA').cities.should have(0).cities
+    end
+
+  end
   
   describe 'valid?' do
     it 'should return true if country is valid' do

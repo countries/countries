@@ -5,3 +5,5 @@ require 'iso4217'
 
 require 'countries/select_helper'
 require 'countries/country'
+
+require 'countries/maxmind'
