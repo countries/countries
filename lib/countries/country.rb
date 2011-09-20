@@ -52,6 +52,14 @@ class ISO3166::Country
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
   end
+
+  def cities
+    Maxmind::City.cities_in_country(alpha2)
+  end
+
+  def cities?
+    Maxmind::City.cities_in_country?(alpha2)
+  end
   
   class << self
     def all

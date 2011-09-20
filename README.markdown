@@ -124,9 +124,17 @@ Copyright
 Copyright (c) 2011 hexorx. See LICENSE for details.
 
 
+Cities
+------
+
+This product includes data created by MaxMind, available from [MaxMind][].
+Copyright (c) 2008 MaxMind Inc.  All rights reserved.
+
+
 [Teliax]: http://teliax.com
 [Centrex]: http://en.wikipedia.org/wiki/Centrex
 [CommonDataHub]: http://commondatahub.com
 [Currencies]: http://gemcutter.org/gems/currencies
 [Money]: http://gemcutter.org/gems/money
 [Liquid]: http://www.liquidmarkup.org/
+[MaxMind]: http://www.maxmind.com/app/worldcities
