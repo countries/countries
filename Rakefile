@@ -9,7 +9,7 @@ begin
     gem.description = 'All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.'
     gem.email = "hexorx@gmail.com"
     gem.homepage = "http://github.com/hexorx/countries"
-    gem.authors = ["hexorx"]
+    gem.authors = ["hexorx", "Joe Corcoran"]
     gem.add_dependency('currencies', '>= 0.2.0')
     gem.add_development_dependency "rspec"
     gem.add_development_dependency "yard"
