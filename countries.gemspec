@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{countries}
-  s.version = "0.6.2"
+  s.name = "countries"
+  s.version = "0.6.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{hexorx}]
-  s.date = %q{2011-09-20}
-  s.description = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.}
-  s.email = %q{hexorx@gmail.com}
+  s.authors = ["hexorx", "Joe Corcoran"]
+  s.date = "2011-11-22"
+  s.description = "All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects."
+  s.email = "hexorx@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.markdown"
@@ -229,10 +229,10 @@ Gem::Specification.new do |s|
     "spec/country_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/hexorx/countries}
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{Gives you a country object full of all sorts of useful information.}
+  s.homepage = "http://github.com/hexorx/countries"
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "Gives you a country object full of all sorts of useful information."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
