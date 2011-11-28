@@ -31,8 +31,8 @@ class ISO3166::Country
 
   attr_reader :data
 
-  def initialize(country_code)
-    @data = Data[country_code]
+  def initialize(country_data)
+    @data = country_data.is_a?(Hash) ? country_data : Data[country_data]
   end
   
   def valid?
@@ -68,17 +68,33 @@ class ISO3166::Country
     def [](query)
       self.search(query)
     end
-
-    def find_by_name(name)
-      name.downcase!
-      Data.select do |k,v|
-        v["name"].downcase == name || v["names"].map{ |n| n.downcase }.include?(name)
-      end.first
+    
+    def method_missing(*m)
+      if m.first.match /^find_(country_)?by_(.+)/
+        country = self.find_all_by($~[2].downcase, m[1].to_s.downcase).first
+        $~[1].nil? ? country : self.new(country.last) if country
+      elsif m.first.match /^find_all_(countries_)?by_(.+)/
+        self.find_all_by($~[2].downcase, m[1].to_s.downcase).inject([]) do |list, c|
+          list << ($~[1].nil? ? c : self.new(c.last)) if c
+          list
+        end
+      else
+        super
+      end
     end
-
-    def find_country_by_name(name)
-      result = self.find_by_name(name)
-      result ? self.new(result.first) : nil
+    
+    def find_all_by(attribute, val)
+      raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
+      attribute = ['name', 'names'] if attribute == 'name'
+      Data.select do |k,v|
+        Array(attribute).map do |attr|
+          if v[attr].kind_of?(Enumerable)
+            v[attr].map{ |n| n.downcase }.include?(val)
+          else
+            v[attr].downcase == val
+          end
+        end.uniq.include?(true) 
+      end
     end
   end
 end
