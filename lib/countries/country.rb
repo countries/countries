@@ -9,6 +9,7 @@ class ISO3166::Country
     :number,
     :alpha2,
     :alpha3,
+    :currency,
     :name,
     :names,
     :latitude,
@@ -91,7 +92,7 @@ class ISO3166::Country
           if v[attr].kind_of?(Enumerable)
             v[attr].map{ |n| n.downcase }.include?(val)
           else
-            v[attr].downcase == val
+            v[attr] && v[attr].downcase == val
           end
         end.uniq.include?(true) 
       end
