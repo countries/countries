@@ -155,7 +155,7 @@ describe ISO3166::Country do
     end
   end
 
-  describe ".find_by_name" do
+  describe "hash finder methods" do
     context "when search name in 'name'" do
       subject { ISO3166::Country.find_by_name("Poland") }
 
@@ -173,9 +173,32 @@ describe ISO3166::Country do
 
       its(:first) { should == "PL" }
     end
+    
+    context "when finding by invalid attribute" do
+      it "should raise an error" do
+        lambda { ISO3166::Country.find_by_invalid('invalid') }.should raise_error
+      end
+    end
+    
+    context "when using find_all method" do
+      let(:list) { ISO3166::Country.find_all_by_currency('USD') }
+
+      it "should be an Array of Arrays" do
+        list.should be_a(Array)
+        list.first.should be_a(Array)
+      end
+    end
+    
+    context "when using find_by method" do
+      subject { ISO3166::Country.find_by_alpha3('CAN') }
+      
+      its(:length) { should == 2 }
+      its(:first) { should be_a(String) }
+      its(:last) { should be_a(Hash) }
+    end
   end
 
-  describe ".find_country_by_name" do
+  describe "country finder methods" do
     context "when search name found" do
       let(:uk) { ISO3166::Country.find_country_by_name("United Kingdom") }
 
@@ -199,6 +222,29 @@ describe ISO3166::Country do
 
       it "should be a country instance" do
         bogus.should == nil
+      end
+    end
+    
+    context "when finding by invalid attribute" do
+      it "should raise an error" do
+        lambda { ISO3166::Country.find_country_by_invalid('invalid') }.should raise_error
+      end
+    end
+    
+    context "when using find_all method" do
+      let(:list) { ISO3166::Country.find_all_countries_by_currency('USD') }
+
+      it "should be an Array of Country objects" do
+        list.should be_a(Array)
+        list.first.should be_a(ISO3166::Country)
+      end
+    end
+    
+    context "when using find_by method" do
+      let(:country) { ISO3166::Country.find_country_by_alpha3('CAN') }
+      
+      it 'should be a single country object' do
+        country.should be_a(ISO3166::Country)
       end
     end
   end
