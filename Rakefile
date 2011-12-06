@@ -2,7 +2,6 @@ require 'rubygems'
 require 'rake'
 
 begin
-  include Rake::DSL
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "countries"

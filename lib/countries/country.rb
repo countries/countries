@@ -71,10 +71,10 @@ class ISO3166::Country
     end
     
     def method_missing(*m)
-      if m.first.match /^find_(country_)?by_(.+)/
+      if m.first.to_s.match /^find_(country_)?by_(.+)/
         country = self.find_all_by($~[2].downcase, m[1].to_s.downcase).first
         $~[1].nil? ? country : self.new(country.last) if country
-      elsif m.first.match /^find_all_(countries_)?by_(.+)/
+      elsif m.first.to_s.match /^find_all_(countries_)?by_(.+)/
         self.find_all_by($~[2].downcase, m[1].to_s.downcase).inject([]) do |list, c|
           list << ($~[1].nil? ? c : self.new(c.last)) if c
           list
