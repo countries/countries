@@ -1,722 +1,720 @@
---- 
-BBD: 
-  name: Blackburn with Darwen
-  names: Blackburn with Darwen
-SLG: 
-  name: Slough
-  names: Slough
-BIR: 
-  name: Birmingham
-  names: Birmingham
-MON: 
-  name: Monmouthshire [Sir Fynwy GB-FYN]
-  names: 
-  - Sir Fynwy
-HLD: 
-  name: Highland
-  names: Highland
-RUT: 
-  name: Rutland
-  names: Rutland
-DRY: 
-  name: Derry
-  names: Derry
-AGB: 
-  name: Argyll and Bute
-  names: Argyll and Bute
-BOL: 
-  name: Bolton
-  names: Bolton
-DBY: 
-  name: Derbyshire
-  names: Derbyshire
-ESX: 
-  name: East Sussex
-  names: East Sussex
-DEV: 
-  name: Devon
-  names: Devon
-LAN: 
-  name: Lancashire
-  names: Lancashire
-SLK: 
-  name: South Lanarkshire
-  names: South Lanarkshire
-CGV: 
-  name: Craigavon
-  names: Craigavon
-CMN: 
-  name: Carmarthenshire [Sir Gaerfyrddin GB-GFY]
-  names: 
-  - Sir Gaerfyrddin
-WAR: 
-  name: Warwickshire
-  names: Warwickshire
-POL: 
-  name: Poole
-  names: Poole
-HIL: 
-  name: Hillingdon
-  names: Hillingdon
-RDB: 
-  name: Redbridge
-  names: Redbridge
-SFT: 
-  name: Sefton
-  names: Sefton
-CWY: 
-  name: Conwy
-  names: 
-  - Aberconwy and Colwyn
-ELN: 
-  name: East Lothian
-  names: East Lothian
-ANS: 
+---
+ABD:
+  name: Aberdeenshire
+  names:
+    - "Siorrachd Obar Dheathain"
+ABE:
+  name: "Aberdeen City"
+  names:
+    - "Aberdeen City"
+AGB:
+  name: "Argyll and Bute"
+  names: "Argyll and Bute"
+AGY:
+  name: "Isle of Anglesey [Sir Ynys Môn GB-YNM]"
+  names:
+    - "Ynys MÃ´n"
+ANS:
   name: Angus
   names: Angus
-NSM: 
-  name: North Somerset
-  names: North Somerset
-WGN: 
-  name: Wigan
-  names: Wigan
-ANT: 
+ANT:
   name: Antrim
   names: Antrim
-SOL: 
-  name: Solihull
-  names: Solihull
-NFK: 
-  name: Norfolk
-  names: Norfolk
-SOM: 
-  name: Somerset
-  names: Somerset
-DAL: 
-  name: Darlington
-  names: Darlington
-POR: 
-  name: Portsmouth
-  names: Portsmouth
-RDG: 
-  name: Reading
-  names: Reading
-MRT: 
-  name: Merton
-  names: Merton
-ELS: 
-  name: Eilean Siar
-  names: 
-  - Western Isles
-WDU: 
-  name: West Dunbartonshire
-  names: West Dunbartonshire
-BLY: 
-  name: Ballymoney
-  names: Ballymoney
-LDS: 
-  name: Leeds
-  names: Leeds
-BNB: 
-  name: Banbridge
-  names: Banbridge
-NYK: 
-  name: North Yorkshire
-  names: North Yorkshire
-PLY: 
-  name: Plymouth
-  names: Plymouth
-CLD: 
-  name: Calderdale
-  names: Calderdale
-PEM: 
-  name: Pembrokeshire [Sir Benfro GB-BNF]
-  names: 
-  - Sir Benfro
-IVC: 
-  name: Inverclyde
-  names: Inverclyde
-BEN: 
-  name: Brent
-  names: Brent
-LSB: 
-  name: Lisburn
-  names: Lisburn
-NYM: 
-  name: Newry and Mourne
-  names: Newry and Mourne
-POW: 
-  name: Powys
-  names: Powys
-BNE: 
-  name: Barnet
-  names: Barnet
-SOS: 
-  name: Southend-on-Sea
-  names: Southend-on-Sea
-MRY: 
-  name: Moray
-  names: Moray
-BUR: 
-  name: Bury
-  names: Bury
-CSR: 
-  name: Castlereagh
-  names: Castlereagh
-KIR: 
-  name: Kirklees
-  names: Kirklees
-HEF: 
-  name: Herefordshire, County of
-  names: 
-  - County of Herefordshire
-SHF: 
-  name: Sheffield
-  names: Sheffield
-NLK: 
-  name: North Lanarkshire
-  names: North Lanarkshire
-OMH: 
-  name: Omagh
-  names: Omagh
-KEC: 
-  name: Kensington and Chelsea
-  names: Kensington and Chelsea
-FIF: 
-  name: Fife
-  names: Fife
-LCE: 
-  name: Leicester
-  names: Leicester
-MDB: 
-  name: Middlesbrough
-  names: Middlesbrough
-BNH: 
-  name: Brighton and Hove
-  names: Brighton and Hove
-BRY: 
-  name: Bromley
-  names: Bromley
-DGN: 
-  name: Dungannon
-  names: Dungannon
-ISL: 
-  name: Islington
-  names: Islington
-BKM: 
-  name: Buckinghamshire
-  names: Buckinghamshire
-NLN: 
-  name: North Lincolnshire
-  names: North Lincolnshire
-ENF: 
-  name: Enfield
-  names: Enfield
-WSM: 
-  name: Westminster
-  names: Westminster
-SND: 
-  name: Sunderland
-  names: Sunderland
-CLK: 
-  name: Clackmannanshire
-  names: Clackmannanshire
-PKN: 
-  name: Perth and Kinross
-  names: Perth and Kinross
-GAT: 
-  name: Gateshead
-  names: Gateshead
-ERW: 
-  name: East Renfrewshire
-  names: East Renfrewshire
-GWN: 
-  name: Gwynedd
-  names: Gwynedd
-TOB: 
-  name: Torbay
-  names: Torbay
-CRF: 
-  name: Cardiff [Caerdydd GB-CRD]
-  names: 
-  - Caerdydd
-BEX: 
-  name: Bexley
-  names: Bexley
-SHN: 
-  name: St. Helens
-  names: St. Helens
-YOR: 
-  name: York
-  names: York
-ERY: 
-  name: East Riding of Yorkshire
-  names: East Riding of Yorkshire
-HRT: 
-  name: Hertfordshire
-  names: Hertfordshire
-PTE: 
-  name: Peterborough
-  names: Peterborough
-AGY: 
-  name: "Isle of Anglesey [Sir Ynys M\xC3\xB4n GB-YNM]"
-  names: 
-  - !binary |
-    WW55cyBNw4PCtG4=
-
-SRY: 
-  name: Surrey
-  names: Surrey
-RCC: 
-  name: Redcar and Cleveland
-  names: Redcar and Cleveland
-MAN: 
-  name: Manchester
-  names: Manchester
-BDF: 
-  name: Bedfordshire
-  names: Bedfordshire
-LMV: 
-  name: Limavady
-  names: Limavady
-TOF: 
-  name: Torfaen [Tor-faen]
-  names: 
-  - Tor-faen
-BDG: 
-  name: Barking and Dagenham
-  names: Barking and Dagenham
-NBL: 
-  name: Northumberland
-  names: Northumberland
-SHR: 
-  name: Shropshire
-  names: Shropshire
-STB: 
-  name: Strabane
-  names: Strabane
-HRW: 
-  name: Harrow
-  names: Harrow
-KEN: 
-  name: Kent
-  names: Kent
-CLR: 
-  name: Coleraine
-  names: Coleraine
-CON: 
-  name: Cornwall
-  names: 
-  - Cornwall and Isles of Scilly
-WIL: 
-  name: Wiltshire
-  names: Wiltshire
-FLN: 
-  name: Flintshire [Sir y Fflint GB-FFL]
-  names: 
-  - Sir y Fflint
-BGE: 
-  name: Bridgend [Pen-y-bont ar Ogwr GB-POG]
-  names: 
-  - Pen-y-bont ar Ogwr
-SKP: 
-  name: Stockport
-  names: Stockport
-SWA: 
-  name: Swansea [Abertawe GB-ATA]
-  names: 
-  - Abertawe
-HRY: 
-  name: Haringey
-  names: Haringey
-KHL: 
-  name: Kingston upon Hull, City of
-  names: 
-  - City of Kingston upon Hull
-BNS: 
-  name: Barnsley
-  names: Barnsley
-STE: 
-  name: Stoke-on-Trent
-  names: Stoke-on-Trent
-DGY: 
-  name: Dumfries and Galloway
-  names: Dumfries and Galloway
-TRF: 
-  name: Trafford
-  names: Trafford
-RCH: 
-  name: Rochdale
-  names: Rochdale
-NEL: 
-  name: North East Lincolnshire
-  names: North East Lincolnshire
-WSX: 
-  name: West Sussex
-  names: West Sussex
-TFW: 
-  name: Telford and Wrekin
-  names: Telford and Wrekin
-STG: 
-  name: Stirling
-  names: Stirling
-WLL: 
-  name: Walsall
-  names: Walsall
-SGC: 
-  name: South Gloucestershire
-  names: South Gloucestershire
-STH: 
-  name: Southampton
-  names: Southampton
-SWD: 
-  name: Swindon
-  names: Swindon
-EAL: 
-  name: Ealing
-  names: Ealing
-EDH: 
-  name: Edinburgh, City of
-  names: 
-  - City of Edinburgh
-WFT: 
-  name: Waltham Forest
-  names: Waltham Forest
-RIC: 
-  name: Richmond upon Thames
-  names: Richmond upon Thames
-OLD: 
-  name: Oldham
-  names: Oldham
-LIN: 
-  name: Lincolnshire
-  names: Lincolnshire
-WLN: 
-  name: West Lothian
-  names: West Lothian
-BAS: 
-  name: Bath and North East Somerset
-  names: Bath and North East Somerset
-WOK: 
-  name: Wokingham
-  names: Wokingham
-CKF: 
-  name: Carrickfergus
-  names: Carrickfergus
-COV: 
-  name: Coventry
-  names: Coventry
-HAL: 
-  name: Halton
-  names: Halton
-HAM: 
-  name: Hampshire
-  names: Hampshire
-NET: 
-  name: Newcastle upon Tyne
-  names: Newcastle upon Tyne
-BMH: 
-  name: Bournemouth
-  names: Bournemouth
-STN: 
-  name: Sutton
-  names: Sutton
-NTA: 
-  name: Newtownabbey
-  names: Newtownabbey
-MDW: 
-  name: Medway
-  names: Medway
-ARD: 
+ARD:
   name: Ards
   names: Ards
-HNS: 
-  name: Hounslow
-  names: Hounslow
-MTY: 
-  name: Merthyr Tydfil [Merthyr Tudful GB-MTU]
-  names: 
-  - Merthyr Tudful
-SWK: 
-  name: Southwark
-  names: Southwark
-WRL: 
-  name: Wirral
-  names: Wirral
-LEC: 
-  name: Leicestershire
-  names: Leicestershire
-WBK: 
-  name: West Berkshire
-  names: West Berkshire
-LBH: 
-  name: Lambeth
-  names: Lambeth
-ABD: 
-  name: Aberdeenshire
-  names: 
-  - Siorrachd Obar Dheathain
-WOR: 
-  name: Worcestershire
-  names: Worcestershire
-IOS: 
-  name: Isles of Scilly
-  names: Isles of Scilly
-CRY: 
-  name: Croydon
-  names: Croydon
-ABE: 
-  name: Aberdeen City
-  names: 
-  - Aberdeen City
-LIV: 
-  name: Liverpool
-  names: Liverpool
-WLV: 
-  name: Wolverhampton
-  names: Wolverhampton
-STS: 
-  name: Staffordshire
-  names: Staffordshire
-RCT: 
-  name: Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]
-  names: 
-  - "Rhondda Cynon T\xC3\x83\xC2\xA2f"
-STT: 
-  name: Stockton-on-Tees
-  names: Stockton-on-Tees
-CHS: 
-  name: Cheshire
-  names: Cheshire
-EAY: 
-  name: East Ayrshire
-  names: East Ayrshire
-EDU: 
-  name: East Dunbartonshire
-  names: East Dunbartonshire
-FER: 
-  name: Fermanagh
-  names: Fermanagh
-SAW: 
-  name: Sandwell
-  names: Sandwell
-GLG: 
-  name: Glasgow City
-  names: 
-  - Glasgow City
-BPL: 
-  name: Blackpool
-  names: Blackpool
-NTH: 
-  name: Northamptonshire
-  names: Northamptonshire
-IOW: 
-  name: Isle of Wight
-  names: Isle of Wight
-VGL: 
-  name: Vale of Glamorgan, The [Bro Morgannwg GB-BMG]
-  names: 
-  - The Vale of Glamorgan
-LRN: 
-  name: Larne
-  names: Larne
-BGW: 
-  name: Blaenau Gwent
-  names: Blaenau Gwent
-HMF: 
-  name: Hammersmith and Fulham
-  names: Hammersmith and Fulham
-WKF: 
-  name: Wakefield
-  names: Wakefield
-SAY: 
-  name: South Ayrshire
-  names: South Ayrshire
-HAV: 
-  name: Havering
-  names: Havering
-ORK: 
-  name: Orkney Islands
-  names: Orkney Islands
-DUD: 
-  name: Dudley
-  names: Dudley
-SCB: 
-  name: Scottish Borders, The
-  names: 
-  - The Scottish Border
-WRT: 
-  name: Warrington
-  names: Warrington
-ARM: 
+ARM:
   name: Armagh
   names: Armagh
-STY: 
-  name: South Tyneside
-  names: South Tyneside
-WND: 
-  name: Wandsworth
-  names: Wandsworth
-KWL: 
-  name: Knowsley
-  names: Knowsley
-THR: 
-  name: Thurrock
-  names: Thurrock
-CKT: 
-  name: Cookstown
-  names: Cookstown
-NTL: 
-  name: Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]
-  names: 
-  - Castell-nedd Porth Talbot
-OXF: 
-  name: Oxfordshire
-  names: Oxfordshire
-RFW: 
-  name: Renfrewshire
-  names: Renfrewshire
-GRE: 
-  name: Greenwich
-  names: Greenwich
-WRX: 
-  name: Wrexham [Wrecsam GB-WRC]
-  names: 
-  - Wrecsam
-CAM: 
-  name: Cambridgeshire
-  names: Cambridgeshire
-BLA: 
-  name: Ballymena
-  names: Ballymena
-KTT: 
-  name: Kingston upon Thames
-  names: Kingston upon Thames
-LND: 
-  name: London, City of
-  names: London, City of
-NDN: 
-  name: North Down
-  names: North Down
-NWM: 
-  name: Newham
-  names: Newham
-DOR: 
-  name: Dorset
-  names: Dorset
-MIK: 
-  name: Milton Keynes
-  names: Milton Keynes
-CMA: 
-  name: Cumbria
-  names: Cumbria
-MYL: 
-  name: Moyle
-  names: Moyle
-FAL: 
-  name: Falkirk
-  names: Falkirk
-LUT: 
-  name: Luton
-  names: Luton
-NGM: 
-  name: Nottingham
-  names: Nottingham
-GLS: 
-  name: Gloucestershire
-  names: Gloucestershire
-HPL: 
-  name: Hartlepool
-  names: Hartlepool
-WNM: 
-  name: Windsor and Maidenhead
-  names: Windsor and Maidenhead
-NWP: 
-  name: Newport [Casnewydd GB-CNW]
-  names: 
-  - Casnewydd
-ROT: 
-  name: Rotherham
-  names: Rotherham
-CMD: 
-  name: Camden
-  names: Camden
-NTT: 
-  name: Nottinghamshire
-  names: Nottinghamshire
-TAM: 
-  name: Tameside
-  names: Tameside
-ZET: 
-  name: Shetland Islands
-  names: Shetland Islands
-BST: 
-  name: Bristol, City of
-  names: 
-  - City of Bristol
-TWH: 
-  name: Tower Hamlets
-  names: Tower Hamlets
-DOW: 
-  name: Down
-  names: Down
-LEW: 
-  name: Lewisham
-  names: Lewisham
-MFT: 
-  name: Magherafelt
-  names: Magherafelt
-DEN: 
-  name: Denbighshire [Sir Ddinbych GB-DDB]
-  names: 
-  - Sir Ddinbych
-DNC: 
-  name: Doncaster
-  names: Doncaster
-HCK: 
-  name: Hackney
-  names: Hackney
-SFK: 
-  name: Suffolk
-  names: Suffolk
-NAY: 
-  name: North Ayrshire
-  names: North Ayrshire
-CGN: 
-  name: Ceredigion [Sir Ceredigion]
-  names: Ceredigion [Sir Ceredigion]
-DND: 
-  name: Dundee City
-  names: 
-  - Dundee City
-MLN: 
-  name: Midlothian
-  names: Midlothian
-BRC: 
-  name: Bracknell Forest
-  names: Bracknell Forest
-DUR: 
-  name: Durham
-  names: Durham
-ESS: 
-  name: Essex
-  names: Essex
-BFS: 
+BAS:
+  name: "Bath and North East Somerset"
+  names: "Bath and North East Somerset"
+BBD:
+  name: "Blackburn with Darwen"
+  names: "Blackburn with Darwen"
+BDF:
+  name: Bedfordshire
+  names: Bedfordshire
+BDG:
+  name: "Barking and Dagenham"
+  names: "Barking and Dagenham"
+BEN:
+  name: Brent
+  names: Brent
+BEX:
+  name: Bexley
+  names: Bexley
+BFS:
   name: Belfast
   names: Belfast
-BRD: 
+BGE:
+  name: "Bridgend [Pen-y-bont ar Ogwr GB-POG]"
+  names:
+    - "Pen-y-bont ar Ogwr"
+BGW:
+  name: "Blaenau Gwent"
+  names: "Blaenau Gwent"
+BIR:
+  name: Birmingham
+  names: Birmingham
+BKM:
+  name: Buckinghamshire
+  names: Buckinghamshire
+BLA:
+  name: Ballymena
+  names: Ballymena
+BLY:
+  name: Ballymoney
+  names: Ballymoney
+BMH:
+  name: Bournemouth
+  names: Bournemouth
+BNB:
+  name: Banbridge
+  names: Banbridge
+BNE:
+  name: Barnet
+  names: Barnet
+BNH:
+  name: "Brighton and Hove"
+  names: "Brighton and Hove"
+BNS:
+  name: Barnsley
+  names: Barnsley
+BOL:
+  name: Bolton
+  names: Bolton
+BPL:
+  name: Blackpool
+  names: Blackpool
+BRC:
+  name: "Bracknell Forest"
+  names: "Bracknell Forest"
+BRD:
   name: Bradford
   names: Bradford
-NTY: 
-  name: North Tyneside
-  names: North Tyneside
-CAY: 
-  name: Caerphilly [Caerffili GB-CAF]
-  names: 
-  - Caerffili
-SLF: 
-  name: Salford
-  names: Salford
-DER: 
+BRY:
+  name: Bromley
+  names: Bromley
+BST:
+  name: "Bristol, City of"
+  names:
+    - "City of Bristol"
+BUR:
+  name: Bury
+  names: Bury
+CAM:
+  name: Cambridgeshire
+  names: Cambridgeshire
+CAY:
+  name: "Caerphilly [Caerffili GB-CAF]"
+  names:
+    - Caerffili
+CGN:
+  name: "Ceredigion [Sir Ceredigion]"
+  names: "Ceredigion [Sir Ceredigion]"
+CGV:
+  name: Craigavon
+  names: Craigavon
+CHS:
+  name: Cheshire
+  names: Cheshire
+CKF:
+  name: Carrickfergus
+  names: Carrickfergus
+CKT:
+  name: Cookstown
+  names: Cookstown
+CLD:
+  name: Calderdale
+  names: Calderdale
+CLK:
+  name: Clackmannanshire
+  names: Clackmannanshire
+CLR:
+  name: Coleraine
+  names: Coleraine
+CMA:
+  name: Cumbria
+  names: Cumbria
+CMD:
+  name: Camden
+  names: Camden
+CMN:
+  name: "Carmarthenshire [Sir Gaerfyrddin GB-GFY]"
+  names:
+    - "Sir Gaerfyrddin"
+CON:
+  name: Cornwall
+  names:
+    - "Cornwall and Isles of Scilly"
+COV:
+  name: Coventry
+  names: Coventry
+CRF:
+  name: "Cardiff [Caerdydd GB-CRD]"
+  names:
+    - Caerdydd
+CRY:
+  name: Croydon
+  names: Croydon
+CSR:
+  name: Castlereagh
+  names: Castlereagh
+CWY:
+  name: Conwy
+  names:
+    - "Aberconwy and Colwyn"
+DAL:
+  name: Darlington
+  names: Darlington
+DBY:
+  name: Derbyshire
+  names: Derbyshire
+DEN:
+  name: "Denbighshire [Sir Ddinbych GB-DDB]"
+  names:
+    - "Sir Ddinbych"
+DER:
   name: Derby
   names: Derby
+DEV:
+  name: Devon
+  names: Devon
+DGN:
+  name: Dungannon
+  names: Dungannon
+DGY:
+  name: "Dumfries and Galloway"
+  names: "Dumfries and Galloway"
+DNC:
+  name: Doncaster
+  names: Doncaster
+DND:
+  name: "Dundee City"
+  names:
+    - "Dundee City"
+DOR:
+  name: Dorset
+  names: Dorset
+DOW:
+  name: Down
+  names: Down
+DRY:
+  name: Derry
+  names: Derry
+DUD:
+  name: Dudley
+  names: Dudley
+DUR:
+  name: Durham
+  names: Durham
+EAL:
+  name: Ealing
+  names: Ealing
+EAY:
+  name: "East Ayrshire"
+  names: "East Ayrshire"
+EDH:
+  name: "Edinburgh, City of"
+  names:
+    - "City of Edinburgh"
+EDU:
+  name: "East Dunbartonshire"
+  names: "East Dunbartonshire"
+ELN:
+  name: "East Lothian"
+  names: "East Lothian"
+ELS:
+  name: "Eilean Siar"
+  names:
+    - "Western Isles"
+ENF:
+  name: Enfield
+  names: Enfield
+ERW:
+  name: "East Renfrewshire"
+  names: "East Renfrewshire"
+ERY:
+  name: "East Riding of Yorkshire"
+  names: "East Riding of Yorkshire"
+ESS:
+  name: Essex
+  names: Essex
+ESX:
+  name: "East Sussex"
+  names: "East Sussex"
+FAL:
+  name: Falkirk
+  names: Falkirk
+FER:
+  name: Fermanagh
+  names: Fermanagh
+FIF:
+  name: Fife
+  names: Fife
+FLN:
+  name: "Flintshire [Sir y Fflint GB-FFL]"
+  names:
+    - "Sir y Fflint"
+GAT:
+  name: Gateshead
+  names: Gateshead
+GLG:
+  name: "Glasgow City"
+  names:
+    - "Glasgow City"
+GLS:
+  name: Gloucestershire
+  names: Gloucestershire
+GRE:
+  name: Greenwich
+  names: Greenwich
+GWN:
+  name: Gwynedd
+  names: Gwynedd
+HAL:
+  name: Halton
+  names: Halton
+HAM:
+  name: Hampshire
+  names: Hampshire
+HAV:
+  name: Havering
+  names: Havering
+HCK:
+  name: Hackney
+  names: Hackney
+HEF:
+  name: "Herefordshire, County of"
+  names:
+    - "County of Herefordshire"
+HIL:
+  name: Hillingdon
+  names: Hillingdon
+HLD:
+  name: Highland
+  names: Highland
+HMF:
+  name: "Hammersmith and Fulham"
+  names: "Hammersmith and Fulham"
+HNS:
+  name: Hounslow
+  names: Hounslow
+HPL:
+  name: Hartlepool
+  names: Hartlepool
+HRT:
+  name: Hertfordshire
+  names: Hertfordshire
+HRW:
+  name: Harrow
+  names: Harrow
+HRY:
+  name: Haringey
+  names: Haringey
+IOS:
+  name: "Isles of Scilly"
+  names: "Isles of Scilly"
+IOW:
+  name: "Isle of Wight"
+  names: "Isle of Wight"
+ISL:
+  name: Islington
+  names: Islington
+IVC:
+  name: Inverclyde
+  names: Inverclyde
+KEC:
+  name: "Kensington and Chelsea"
+  names: "Kensington and Chelsea"
+KEN:
+  name: Kent
+  names: Kent
+KHL:
+  name: "Kingston upon Hull, City of"
+  names:
+    - "City of Kingston upon Hull"
+KIR:
+  name: Kirklees
+  names: Kirklees
+KTT:
+  name: "Kingston upon Thames"
+  names: "Kingston upon Thames"
+KWL:
+  name: Knowsley
+  names: Knowsley
+LAN:
+  name: Lancashire
+  names: Lancashire
+LBH:
+  name: Lambeth
+  names: Lambeth
+LCE:
+  name: Leicester
+  names: Leicester
+LDS:
+  name: Leeds
+  names: Leeds
+LEC:
+  name: Leicestershire
+  names: Leicestershire
+LEW:
+  name: Lewisham
+  names: Lewisham
+LIN:
+  name: Lincolnshire
+  names: Lincolnshire
+LIV:
+  name: Liverpool
+  names: Liverpool
+LMV:
+  name: Limavady
+  names: Limavady
+LND:
+  name: "London, City of"
+  names: "London, City of"
+LRN:
+  name: Larne
+  names: Larne
+LSB:
+  name: Lisburn
+  names: Lisburn
+LUT:
+  name: Luton
+  names: Luton
+MAN:
+  name: Manchester
+  names: Manchester
+MDB:
+  name: Middlesbrough
+  names: Middlesbrough
+MDW:
+  name: Medway
+  names: Medway
+MFT:
+  name: Magherafelt
+  names: Magherafelt
+MIK:
+  name: "Milton Keynes"
+  names: "Milton Keynes"
+MLN:
+  name: Midlothian
+  names: Midlothian
+MON:
+  name: "Monmouthshire [Sir Fynwy GB-FYN]"
+  names:
+    - "Sir Fynwy"
+MRT:
+  name: Merton
+  names: Merton
+MRY:
+  name: Moray
+  names: Moray
+MTY:
+  name: "Merthyr Tydfil [Merthyr Tudful GB-MTU]"
+  names:
+    - "Merthyr Tudful"
+MYL:
+  name: Moyle
+  names: Moyle
+NAY:
+  name: "North Ayrshire"
+  names: "North Ayrshire"
+NBL:
+  name: Northumberland
+  names: Northumberland
+NDN:
+  name: "North Down"
+  names: "North Down"
+NEL:
+  name: "North East Lincolnshire"
+  names: "North East Lincolnshire"
+NET:
+  name: "Newcastle upon Tyne"
+  names: "Newcastle upon Tyne"
+NFK:
+  name: Norfolk
+  names: Norfolk
+NGM:
+  name: Nottingham
+  names: Nottingham
+NLK:
+  name: "North Lanarkshire"
+  names: "North Lanarkshire"
+NLN:
+  name: "North Lincolnshire"
+  names: "North Lincolnshire"
+NSM:
+  name: "North Somerset"
+  names: "North Somerset"
+NTA:
+  name: Newtownabbey
+  names: Newtownabbey
+NTH:
+  name: Northamptonshire
+  names: Northamptonshire
+NTL:
+  name: "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]"
+  names:
+    - "Castell-nedd Porth Talbot"
+NTT:
+  name: Nottinghamshire
+  names: Nottinghamshire
+NTY:
+  name: "North Tyneside"
+  names: "North Tyneside"
+NWM:
+  name: Newham
+  names: Newham
+NWP:
+  name: "Newport [Casnewydd GB-CNW]"
+  names:
+    - Casnewydd
+NYK:
+  name: "North Yorkshire"
+  names: "North Yorkshire"
+NYM:
+  name: "Newry and Mourne"
+  names: "Newry and Mourne"
+OLD:
+  name: Oldham
+  names: Oldham
+OMH:
+  name: Omagh
+  names: Omagh
+ORK:
+  name: "Orkney Islands"
+  names: "Orkney Islands"
+OXF:
+  name: Oxfordshire
+  names: Oxfordshire
+PEM:
+  name: "Pembrokeshire [Sir Benfro GB-BNF]"
+  names:
+    - "Sir Benfro"
+PKN:
+  name: "Perth and Kinross"
+  names: "Perth and Kinross"
+PLY:
+  name: Plymouth
+  names: Plymouth
+POL:
+  name: Poole
+  names: Poole
+POR:
+  name: Portsmouth
+  names: Portsmouth
+POW:
+  name: Powys
+  names: Powys
+PTE:
+  name: Peterborough
+  names: Peterborough
+RCC:
+  name: "Redcar and Cleveland"
+  names: "Redcar and Cleveland"
+RCH:
+  name: Rochdale
+  names: Rochdale
+RCT:
+  name: "Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]"
+  names:
+    - "Rhondda Cynon TÃ¢f"
+RDB:
+  name: Redbridge
+  names: Redbridge
+RDG:
+  name: Reading
+  names: Reading
+RFW:
+  name: Renfrewshire
+  names: Renfrewshire
+RIC:
+  name: "Richmond upon Thames"
+  names: "Richmond upon Thames"
+ROT:
+  name: Rotherham
+  names: Rotherham
+RUT:
+  name: Rutland
+  names: Rutland
+SAW:
+  name: Sandwell
+  names: Sandwell
+SAY:
+  name: "South Ayrshire"
+  names: "South Ayrshire"
+SCB:
+  name: "Scottish Borders, The"
+  names:
+    - "The Scottish Border"
+SFK:
+  name: Suffolk
+  names: Suffolk
+SFT:
+  name: Sefton
+  names: Sefton
+SGC:
+  name: "South Gloucestershire"
+  names: "South Gloucestershire"
+SHF:
+  name: Sheffield
+  names: Sheffield
+SHN:
+  name: "St. Helens"
+  names: "St. Helens"
+SHR:
+  name: Shropshire
+  names: Shropshire
+SKP:
+  name: Stockport
+  names: Stockport
+SLF:
+  name: Salford
+  names: Salford
+SLG:
+  name: Slough
+  names: Slough
+SLK:
+  name: "South Lanarkshire"
+  names: "South Lanarkshire"
+SND:
+  name: Sunderland
+  names: Sunderland
+SOL:
+  name: Solihull
+  names: Solihull
+SOM:
+  name: Somerset
+  names: Somerset
+SOS:
+  name: Southend-on-Sea
+  names: Southend-on-Sea
+SRY:
+  name: Surrey
+  names: Surrey
+STB:
+  name: Strabane
+  names: Strabane
+STE:
+  name: Stoke-on-Trent
+  names: Stoke-on-Trent
+STG:
+  name: Stirling
+  names: Stirling
+STH:
+  name: Southampton
+  names: Southampton
+STN:
+  name: Sutton
+  names: Sutton
+STS:
+  name: Staffordshire
+  names: Staffordshire
+STT:
+  name: Stockton-on-Tees
+  names: Stockton-on-Tees
+STY:
+  name: "South Tyneside"
+  names: "South Tyneside"
+SWA:
+  name: "Swansea [Abertawe GB-ATA]"
+  names:
+    - Abertawe
+SWD:
+  name: Swindon
+  names: Swindon
+SWK:
+  name: Southwark
+  names: Southwark
+TAM:
+  name: Tameside
+  names: Tameside
+TFW:
+  name: "Telford and Wrekin"
+  names: "Telford and Wrekin"
+THR:
+  name: Thurrock
+  names: Thurrock
+TOB:
+  name: Torbay
+  names: Torbay
+TOF:
+  name: "Torfaen [Tor-faen]"
+  names:
+    - Tor-faen
+TRF:
+  name: Trafford
+  names: Trafford
+TWH:
+  name: "Tower Hamlets"
+  names: "Tower Hamlets"
+VGL:
+  name: "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]"
+  names:
+    - "The Vale of Glamorgan"
+WAR:
+  name: Warwickshire
+  names: Warwickshire
+WBK:
+  name: "West Berkshire"
+  names: "West Berkshire"
+WDU:
+  name: "West Dunbartonshire"
+  names: "West Dunbartonshire"
+WFT:
+  name: "Waltham Forest"
+  names: "Waltham Forest"
+WGN:
+  name: Wigan
+  names: Wigan
+WIL:
+  name: Wiltshire
+  names: Wiltshire
+WKF:
+  name: Wakefield
+  names: Wakefield
+WLL:
+  name: Walsall
+  names: Walsall
+WLN:
+  name: "West Lothian"
+  names: "West Lothian"
+WLV:
+  name: Wolverhampton
+  names: Wolverhampton
+WND:
+  name: Wandsworth
+  names: Wandsworth
+WNM:
+  name: "Windsor and Maidenhead"
+  names: "Windsor and Maidenhead"
+WOK:
+  name: Wokingham
+  names: Wokingham
+WOR:
+  name: Worcestershire
+  names: Worcestershire
+WRL:
+  name: Wirral
+  names: Wirral
+WRT:
+  name: Warrington
+  names: Warrington
+WRX:
+  name: "Wrexham [Wrecsam GB-WRC]"
+  names:
+    - Wrecsam
+WSM:
+  name: Westminster
+  names: Westminster
+WSX:
+  name: "West Sussex"
+  names: "West Sussex"
+YOR:
+  name: York
+  names: York
+ZET:
+  name: "Shetland Islands"
+  names: "Shetland Islands"

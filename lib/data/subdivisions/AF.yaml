@@ -1,218 +1,194 @@
---- 
-NUR: 
-  name: Nurestan
-  names: 
-  - Nooristan
-  - Nouristan
-  - Nurestan
-GHA: 
-  name: Ghazni
-  names: 
-  - Gazni
-  - Ghazni
-PAR: 
-  name: Parwan
-  names: 
-  - Parvan
-  - "Parv\xC4\x81n"
-  - Parwan
-KDZ: 
-  name: Kondoz [Kunduz]
-  names: 
-  - Kondoz
-  - "Kond\xC5\xABz"
-  - "K\xC5\xABnduz"
-  - "Qond\xC5\xABz"
-KAB: 
-  name: Kabul [Kabol]
-  names: 
-  - Kabol
-  - !binary |
-    S8SBYm9s
-
-  - !binary |
-    S8SBYnVs
-
-  - Kabul
-KAN: 
-  name: Kandahar
-  names: 
-  - Kandahar
-BAL: 
+---
+BAL:
   name: Balkh
-  names: 
-  - Balkh
-GHO: 
-  name: Ghowr
-  names: 
-  - Ghawr
-  - Ghor
-  - Ghowr
-  - !binary |
-    R8WNcg==
-
-BAM: 
+  names:
+    - Balkh
+BAM:
   name: Bamian
-  names: 
-  - Bamian
-  - Bamiyan
-  - !binary |
-    QsSBbcSrxIFu
-
-SAR: 
-  name: Sar-e Pol
-  names: 
-  - Sar-e Pol
-  - Sar-i Pol
-  - Sari Pol
-KNR: 
-  name: Konar [Kunar]
-  names: 
-  - Konar
-  - "Konarh\xC4\x81"
-KAP: 
-  name: Kapisa
-  names: 
-  - Kapesa
-  - Kapisa
-  - Kapissa
-HEL: 
-  name: Helmand
-  names: 
-  - Helmand
-  - Hilmend
-FYB: 
-  name: Faryab
-  names: 
-  - Fariab
-ZAB: 
-  name: Zabol [Zabul]
-  names: 
-  - Zabol
-  - Zabul
-  - !binary |
-    WsSBYm9s
-
-NAN: 
-  name: Nangrahar [Nangarhar]
-  names: 
-  - Nangarhar
-  - Ningarhar
-BDG: 
+  names:
+    - Bamian
+    - Bamiyan
+    - Bāmīān
+BDG:
   name: Badghis
-  names: 
-  - Badghis
-  - Badgis
-  - !binary |
-    QsSBZGdoxKtz
-
-PKA: 
-  name: Paktika
-  names: 
-  - Paktika
-DAY: 
-  name: Daykondi
-  names: 
-  - Daikondi
-BDS: 
+  names:
+    - Badghis
+    - Badgis
+    - Bādghīs
+BDS:
   name: Badakhshan
-  names: 
-  - !binary |
-    QmFkYWjMscWhYW4=
-
-PAN: 
-  name: Panjshir
-  names: 
-  - Panjshir
-ORU: 
-  name: Oruzgan [Uruzgan]
-  names: 
-  - Oruzgan
-  - Oruzghan
-  - !binary |
-    T3LFq3pnaMSBbg==
-
-  - Uruzgan
-  - Uruzghan
-  - !binary |
-    VXLFq3pnaMSBbg==
-
-NIM: 
-  name: Nimruz
-  names: 
-  - "Chakh\xC4\x81nsur"
-  - Neemroze
-  - Nimroz
-  - Nimroze
-LAG: 
-  name: Laghman
-  names: 
-  - Laghman
-  - "Laghm\xC4\x81n"
-  - Lagman
-KHO: 
-  name: Khowst
-  names: 
-  - !binary |
-    SMyxxY1zdA==
-
-  - Khawst
-  - Khost
-  - Matun
-  - !binary |
-    TWF0xatu
-
-  - "H\xCC\xB1awst"
-JOW: 
-  name: Jowzjan
-  names: 
-  - Jawzjan
-  - Jowzjan
-  - "Jowzj\xC4\x81n"
-  - Jozjan
-  - Juzjan
-BGL: 
+  names:
+    - Badaẖšan
+BGL:
   name: Baghlan
-  names: 
-  - Baghlan
-  - "Baghl\xC4\x81n"
-  - Baglan
-WAR: 
-  name: Wardak [Wardag]
-  names: 
-  - Vardak
-  - Wardagh
-  - Wardak
-TAK: 
-  name: Takhar
-  names: 
-  - Tahar
-  - Takhar
-  - "Takh\xC4\x81r"
-PIA: 
+  names:
+    - Baghlan
+    - Baghlān
+    - Baglan
+DAY:
+  name: Daykondi
+  names:
+    - Daikondi
+FRA:
+  name: Farah
+  names:
+    - Fahrah
+FYB:
+  name: Faryab
+  names:
+    - Fariab
+GHA:
+  name: Ghazni
+  names:
+    - Gazni
+    - Ghazni
+GHO:
+  name: Ghowr
+  names:
+    - Ghawr
+    - Ghor
+    - Ghowr
+    - Gōr
+HEL:
+  name: Helmand
+  names:
+    - Helmand
+    - Hilmend
+HER:
+  name: Herat
+  names:
+    - Herat
+JOW:
+  name: Jowzjan
+  names:
+    - Jawzjan
+    - Jowzjan
+    - Jowzjān
+    - Jozjan
+    - Juzjan
+KAB:
+  name: "Kabul [Kabol]"
+  names:
+    - Kabol
+    - Kābol
+    - Kābul
+    - Kabul
+KAN:
+  name: Kandahar
+  names:
+    - Kandahar
+KAP:
+  name: Kapisa
+  names:
+    - Kapesa
+    - Kapisa
+    - Kapissa
+KDZ:
+  name: "Kondoz [Kunduz]"
+  names:
+    - Kondoz
+    - Kondūz
+    - Kūnduz
+    - Qondūz
+KHO:
+  name: Khowst
+  names:
+    - H̱ōst
+    - Khawst
+    - Khost
+    - Matun
+    - Matūn
+    - H̱awst
+KNR:
+  name: "Konar [Kunar]"
+  names:
+    - Konar
+    - Konarhā
+LAG:
+  name: Laghman
+  names:
+    - Laghman
+    - Laghmān
+    - Lagman
+LOW:
+  name: Lowgar
+  names:
+    - Lawgar
+    - Logar
+    - Loghar
+    - Lowgar
+    - Lowghar
+NAN:
+  name: "Nangrahar [Nangarhar]"
+  names:
+    - Nangarhar
+    - Ningarhar
+NIM:
+  name: Nimruz
+  names:
+    - Chakhānsur
+    - Neemroze
+    - Nimroz
+    - Nimroze
+NUR:
+  name: Nurestan
+  names:
+    - Nooristan
+    - Nouristan
+    - Nurestan
+ORU:
+  name: "Oruzgan [Uruzgan]"
+  names:
+    - Oruzgan
+    - Oruzghan
+    - Orūzghān
+    - Uruzgan
+    - Uruzghan
+    - Urūzghān
+PAN:
+  name: Panjshir
+  names:
+    - Panjshir
+PAR:
+  name: Parwan
+  names:
+    - Parvan
+    - Parvān
+    - Parwan
+PIA:
   name: Paktia
-  names: 
-  - Paktia
-  - Paktiya
-  - !binary |
-    UGFrdMSrxIE=
-
-SAM: 
+  names:
+    - Paktia
+    - Paktiya
+    - Paktīā
+PKA:
+  name: Paktika
+  names:
+    - Paktika
+SAM:
   name: Samangan
   names: Samangan
-LOW: 
-  name: Lowgar
-  names: 
-  - Lawgar
-  - Logar
-  - Loghar
-  - Lowgar
-  - Lowghar
-HER: 
-  name: Herat
-  names: 
-  - Herat
-FRA: 
-  name: Farah
-  names: 
-  - Fahrah
+SAR:
+  name: "Sar-e Pol"
+  names:
+    - "Sar-e Pol"
+    - "Sar-i Pol"
+    - "Sari Pol"
+TAK:
+  name: Takhar
+  names:
+    - Tahar
+    - Takhar
+    - Takhār
+WAR:
+  name: "Wardak [Wardag]"
+  names:
+    - Vardak
+    - Wardagh
+    - Wardak
+ZAB:
+  name: "Zabol [Zabul]"
+  names:
+    - Zabol
+    - Zabul
+    - Zābol

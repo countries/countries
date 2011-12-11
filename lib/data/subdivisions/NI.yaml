@@ -1,62 +1,58 @@
---- 
-GR: 
-  name: Granada
-  names: Granada
-SJ: 
-  name: "R\xC3\xADo San Juan"
-  names: "R\xC3\xADo San Juan"
-RI: 
-  name: Rivas
-  names: Rivas
-MN: 
-  name: Managua
-  names: Managua
-MD: 
-  name: Madriz
-  names: Madriz
-CO: 
-  name: Chontales
-  names: Chontales
-BO: 
+---
+AN:
+  name: "Atlántico Norte*"
+  names:
+    - RAAN
+    - "Región Autónoma Atlántico Norte"
+    - "Zelaya Norte"
+AS:
+  name: "Atlántico Sur*"
+  names:
+    - RAAS
+    - "Región Autónoma Atlántico Sur"
+    - "Zelaya Sur"
+BO:
   name: Boaco
   names: Boaco
-AN: 
-  name: "Atl\xC3\xA1ntico Norte*"
-  names: 
-  - RAAN
-  - "Regi\xC3\xB3n Aut\xC3\xB3noma Atl\xC3\xA1ntico Norte"
-  - Zelaya Norte
-LE: 
-  name: !binary |
-    TGXDs24=
-
-  names: !binary |
-    TGXDs24=
-
-ES: 
-  name: "Estel\xC3\xAD"
-  names: "Estel\xC3\xAD"
-NS: 
-  name: Nueva Segovia
-  names: Nueva Segovia
-MS: 
-  name: Masaya
-  names: Masaya
-CI: 
-  name: Chinandega
-  names: Chinandega
-MT: 
-  name: Matagalpa
-  names: Matagalpa
-AS: 
-  name: "Atl\xC3\xA1ntico Sur*"
-  names: 
-  - RAAS
-  - "Regi\xC3\xB3n Aut\xC3\xB3noma Atl\xC3\xA1ntico Sur"
-  - Zelaya Sur
-CA: 
+CA:
   name: Carazo
   names: Carazo
-JI: 
+CI:
+  name: Chinandega
+  names: Chinandega
+CO:
+  name: Chontales
+  names: Chontales
+ES:
+  name: Estelí
+  names: Estelí
+GR:
+  name: Granada
+  names: Granada
+JI:
   name: Jinotega
   names: Jinotega
+LE:
+  name: León
+  names: León
+MD:
+  name: Madriz
+  names: Madriz
+MN:
+  name: Managua
+  names: Managua
+MS:
+  name: Masaya
+  names: Masaya
+MT:
+  name: Matagalpa
+  names: Matagalpa
+NS:
+  name: "Nueva Segovia"
+  names: "Nueva Segovia"
+RI:
+  name: Rivas
+  names: Rivas
+SJ:
+  name: "Río San Juan"
+  names: "Río San Juan"
