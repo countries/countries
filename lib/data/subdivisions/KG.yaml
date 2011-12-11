@@ -1,43 +1,39 @@
---- 
-B: 
+---
+B:
   name: Batken
   names: Batken
-Y: 
-  name: "Ysyk-K\xC3\xB6l"
-  names: 
-  - Balikchi
-  - Balykchy
-  - !binary |
-    QmFsxLFrw6fEsQ==
-
-  - Issyk-Kul
-N: 
-  name: Naryn
-  names: 
-  - Naryn
-C: 
-  name: !binary |
-    Q2jDvA==
-
-  names: 
-  - Chu
-  - Chui
-  - Chuy
-  - !binary |
-    w4fDvHk=
-
-O: 
-  name: Osh
-  names: 
-  - Osh
-GB: 
+C:
+  name: Chü
+  names:
+    - Chu
+    - Chui
+    - Chuy
+    - Çüy
+GB:
   name: Bishkek
-  names: 
-  - Bishkek
-  - Kenesh Bishkek
-T: 
-  name: Talas
-  names: Talas
-J: 
+  names:
+    - Bishkek
+    - "Kenesh Bishkek"
+J:
   name: Jalal-Abad
   names: Jalal-Abad
+? "N"
+:
+  name: Naryn
+  names:
+    - Naryn
+O:
+  name: Osh
+  names:
+    - Osh
+T:
+  name: Talas
+  names: Talas
+? "Y"
+:
+  name: Ysyk-Köl
+  names:
+    - Balikchi
+    - Balykchy
+    - Balıkçı
+    - Issyk-Kul

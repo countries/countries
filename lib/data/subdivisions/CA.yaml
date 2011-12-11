@@ -1,44 +1,45 @@
---- 
-BC: 
-  name: British Columbia
-  names: British Columbia
-AB: 
+---
+AB:
   name: Alberta
   names: Alberta
-SK: 
-  name: Saskatchewan
-  names: Saskatchewan
-YT: 
-  name: Yukon Territory
-  names: Yukon Territory
-NS: 
-  name: Nova Scotia
-  names: 
-  - "Nouvelle-\xC3\x89cosse"
-NT: 
-  name: Northwest Territories
-  names: 
-  - Territoires du Nord-Ouest
-QC: 
-  name: Quebec
-  names: 
-  - "Qu\xC3\xA9bec"
-NU: 
-  name: Nunavut
-  names: Nunavut
-NL: 
-  name: Newfoundland and Labrador
-  names: Newfoundland and Labrador
-"ON": 
-  name: Ontario
-  names: Ontario
-NB: 
-  name: New Brunswick
-  names: 
-  - Nouveau-Brunswick
-PE: 
-  name: Prince Edward Island
-  names: Prince Edward Island
-MB: 
+BC:
+  name: "British Columbia"
+  names: "British Columbia"
+MB:
   name: Manitoba
   names: Manitoba
+NB:
+  name: "New Brunswick"
+  names:
+    - Nouveau-Brunswick
+NL:
+  name: "Newfoundland and Labrador"
+  names: "Newfoundland and Labrador"
+NS:
+  name: "Nova Scotia"
+  names:
+    - Nouvelle-Écosse
+NT:
+  name: "Northwest Territories"
+  names:
+    - "Territoires du Nord-Ouest"
+NU:
+  name: Nunavut
+  names: Nunavut
+? "ON"
+:
+  name: Ontario
+  names: Ontario
+PE:
+  name: "Prince Edward Island"
+  names: "Prince Edward Island"
+QC:
+  name: Quebec
+  names:
+    - Québec
+SK:
+  name: Saskatchewan
+  names: Saskatchewan
+YT:
+  name: "Yukon Territory"
+  names: "Yukon Territory"
