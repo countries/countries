@@ -1,72 +1,60 @@
---- 
-MOX: 
-  name: Moxico
-  names: Moxico
-CUS: 
-  name: Cuanza Sul
-  names: 
-  - Cuanza-Sul
-ZAI: 
-  name: Zaire
-  names: Zaire
-MAL: 
-  name: Malange
-  names: 
-  - Malange
-LNO: 
-  name: Lunda Norte
-  names: Lunda Norte
-LUA: 
-  name: Luanda
-  names: Luanda
-LSU: 
-  name: Lunda Sul
-  names: Lunda Sul
-CNN: 
-  name: Cunene
-  names: Cunene
-NAM: 
-  name: Namibe
-  names: Namibe
-CNO: 
-  name: Cuanza Norte
-  names: 
-  - Cuanza-Norte
-CAB: 
-  name: Cabinda
-  names: 
-  - Kabinda
-BGU: 
-  name: Benguela
-  names: Benguela
-HUI: 
-  name: !binary |
-    SHXDrWxh
-
-  names: !binary |
-    SHXDrWxh
-
-UIG: 
-  name: !binary |
-    VcOtZ2U=
-
-  names: !binary |
-    VcOtZ2U=
-
-BIE: 
-  name: !binary |
-    QmnDqQ==
-
-  names: !binary |
-    QmnDqQ==
-
-HUA: 
-  name: Huambo
-  names: Huambo
-CCU: 
-  name: Cuando-Cubango
-  names: 
-  - Cuando-Cubango
-BGO: 
+---
+BGO:
   name: Bengo
   names: Bengo
+BGU:
+  name: Benguela
+  names: Benguela
+BIE:
+  name: Bié
+  names: Bié
+CAB:
+  name: Cabinda
+  names:
+    - Kabinda
+CCU:
+  name: Cuando-Cubango
+  names:
+    - Cuando-Cubango
+CNN:
+  name: Cunene
+  names: Cunene
+CNO:
+  name: "Cuanza Norte"
+  names:
+    - Cuanza-Norte
+CUS:
+  name: "Cuanza Sul"
+  names:
+    - Cuanza-Sul
+HUA:
+  name: Huambo
+  names: Huambo
+HUI:
+  name: Huíla
+  names: Huíla
+LNO:
+  name: "Lunda Norte"
+  names: "Lunda Norte"
+LSU:
+  name: "Lunda Sul"
+  names: "Lunda Sul"
+LUA:
+  name: Luanda
+  names: Luanda
+MAL:
+  name: Malange
+  names:
+    - Malange
+MOX:
+  name: Moxico
+  names: Moxico
+NAM:
+  name: Namibe
+  names: Namibe
+UIG:
+  name: Uíge
+  names: Uíge
+ZAI:
+  name: Zaire
+  names: Zaire

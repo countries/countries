@@ -1,61 +1,70 @@
---- 
-"11": 
-  name: Al Ba?ah
-  names: 
-  - Baha
-"01": 
-  name: Ar Riya?
-  names: 
-  - ar-Riyad
-  - !binary |
-    YXItUml5xIFkzKg=
-
-  - Riad
-  - Riyadh
-  - Riad
-"12": 
-  name: Al Jawf
-  names: Al Jawf
-"02": 
+---
+? "01"
+:
+  name: "Ar Riya?"
+  names:
+    - ar-Riyad
+    - ar-Riyād̨
+    - Riad
+    - Riyadh
+    - Riad
+? "02"
+:
   name: Makkah
-  names: 
-  - La Meca
-"03": 
-  name: Al Madinah
-  names: 
-  - Medina
-  - "M\xC3\xA9dine"
-  - al-Madinah
-"14": 
-  name: ?Asir
-  names: 
-  - Aseer
-"04": 
-  name: Ash Sharqiyah
-  names: 
-  - Eastern
-  - ash-Sharqiyah
-"05": 
-  name: Al Qasim
-  names: 
-  - Qaseem
-"06": 
-  name: ?a'il
-  names: 
-  - Hail
-"07": 
+  names:
+    - "La Meca"
+? "03"
+:
+  name: "Al Madinah"
+  names:
+    - Medina
+    - Médine
+    - al-Madinah
+? "04"
+:
+  name: "Ash Sharqiyah"
+  names:
+    - Eastern
+    - ash-Sharqiyah
+? "05"
+:
+  name: "Al Qasim"
+  names:
+    - Qaseem
+? "06"
+:
+  name: "?a'il"
+  names:
+    - Hail
+? "07"
+:
   name: Tabuk
-  names: 
-  - Tabook
-08: 
-  name: Al ?udud ash Shamaliyah
-  names: 
-  - Northern
-  - al-Hudud ash-Shamaliyah
-"10": 
+  names:
+    - Tabook
+08:
+  name: "Al ?udud ash Shamaliyah"
+  names:
+    - Northern
+    - "al-Hudud ash-Shamaliyah"
+09:
+  name: Jizan
+  names:
+    - Jizan
+? "10"
+:
   name: Najran
   names: Najran
-09: 
-  name: Jizan
-  names: 
-  - Jizan
+? "11"
+:
+  name: "Al Ba?ah"
+  names:
+    - Baha
+? "12"
+:
+  name: "Al Jawf"
+  names: "Al Jawf"
+? "14"
+:
+  name: "?Asir"
+  names:
+    - Aseer

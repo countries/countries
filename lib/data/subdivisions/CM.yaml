@@ -1,35 +1,34 @@
---- 
-"NO": 
-  name: North
-  names: 
-  - !binary |
-    QsOpbm91w6k=
-
-SU: 
-  name: South
-  names: South
-CE: 
+---
+AD:
+  name: Adamaoua
+  names:
+    - Adamawa
+CE:
   name: Centre
   names: Centre
-ES: 
+EN:
+  name: "Far North"
+  names: "Far North"
+ES:
   name: East
   names: East
-AD: 
-  name: Adamaoua
-  names: 
-  - Adamawa
-SW: 
-  name: South-West
-  names: South-West
-OU: 
-  name: West
-  names: West
-LT: 
+LT:
   name: Littoral
   names: Littoral
-NW: 
+? "NO"
+:
+  name: North
+  names:
+    - Bénoué
+NW:
   name: North-West
   names: North-West
-EN: 
-  name: Far North
-  names: Far North
+OU:
+  name: West
+  names: West
+SU:
+  name: South
+  names: South
+SW:
+  name: South-West
+  names: South-West
