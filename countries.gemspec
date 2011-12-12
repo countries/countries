@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{countries}
-  s.version = "0.7.0"
+  s.version = "0.8.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx", "Joe Corcoran"]
-  s.date = %q{2011-12-06}
+  s.date = %q{2011-12-12}
   s.description = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166 (countries and subdivisions), ISO 4217 (currency), and E.164 (phone numbers). As a bonus it even adds a country_select helper to rails projects.}
   s.email = %q{hexorx@gmail.com}
   s.extra_rdoc_files = [
