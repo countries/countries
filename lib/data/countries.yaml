@@ -5,6 +5,7 @@ AD:
   country_code: "376"
   currency: EUR
   international_prefix: "00"
+  ioc: AND
   latitude: "42 30 N"
   longitude: "1 30 E"
   name: Andorra
@@ -22,6 +23,7 @@ AD:
   number: "020"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: AD
 AE: 
   address_format: |-
       {{recipient}}
@@ -33,6 +35,7 @@ AE:
   country_code: "971"
   currency: AED
   international_prefix: "00"
+  ioc: UAE
   latitude: "24 00 N"
   longitude: "54 00 E"
   name: "United Arab Emirates"
@@ -51,12 +54,14 @@ AE:
   number: "784"
   region: Asia
   subregion: "Western Asia"
+  un_locode: AE
 AF: 
   alpha2: AF
   alpha3: AFG
   country_code: "93"
   currency: AFN
   international_prefix: "00"
+  ioc: AFG
   latitude: "33 00 N"
   longitude: "65 00 E"
   name: Afghanistan
@@ -72,12 +77,14 @@ AF:
   number: "004"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: AF
 AG: 
   alpha2: AG
   alpha3: ATG
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: ANT
   latitude: "17 03 N"
   longitude: "61 48 W"
   name: "Antigua and Barbuda"
@@ -94,12 +101,14 @@ AG:
   number: 028
   region: Americas
   subregion: Caribbean
+  un_locode: AG
 AI: 
   alpha2: AI
   alpha3: AIA
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: 
   latitude: "18 15 N"
   longitude: "63 10 W"
   name: Anguilla
@@ -113,12 +122,14 @@ AI:
   number: "660"
   region: Americas
   subregion: Caribbean
+  un_locode: AI
 AL: 
   alpha2: AL
   alpha3: ALB
   country_code: "355"
   currency: ALL
   international_prefix: "00"
+  ioc: ALB
   latitude: "41 00 N"
   longitude: "20 00 E"
   name: Albania
@@ -136,12 +147,14 @@ AL:
   number: 008
   region: Europe
   subregion: "Southern Europe"
+  un_locode: AL
 AM: 
   alpha2: AM
   alpha3: ARM
   country_code: "374"
   currency: AMD
   international_prefix: "00"
+  ioc: ARM
   latitude: "40 00 N"
   longitude: "45 00 E"
   name: Armenia
@@ -157,12 +170,14 @@ AM:
   number: "051"
   region: Asia
   subregion: "Western Asia"
+  un_locode: AM
 AN: 
   alpha2: AN
   alpha3: ANT
   country_code: "599"
   currency: ANG
   international_prefix: "00"
+  ioc: AHO
   latitude: ""
   longitude: ""
   name: "Netherlands Antilles"
@@ -179,12 +194,14 @@ AN:
   number: "530"
   region: Americas
   subregion: Caribbean
+  un_locode: AN
 AO: 
   alpha2: AO
   alpha3: AGO
   country_code: "244"
   currency: AOA
   international_prefix: "00"
+  ioc: ANG
   latitude: "12 30 S"
   longitude: "18 30 E"
   name: Angola
@@ -198,12 +215,14 @@ AO:
   number: "024"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: AO
 AQ: 
   alpha2: AQ
   alpha3: ATA
   country_code: "672"
   currency: ~
   international_prefix: ""
+  ioc: 
   latitude: "90 00 S"
   longitude: "0 00 E"
   name: Antarctica
@@ -218,6 +237,7 @@ AQ:
   number: "010"
   region: ""
   subregion: ""
+  un_locode: AQ
 AR: 
   address_format: |-
       {{recipient}}
@@ -230,6 +250,7 @@ AR:
   country_code: "54"
   currency: ARS
   international_prefix: "00"
+  ioc: ARG
   latitude: "34 00 S"
   longitude: "64 00 W"
   name: Argentina
@@ -246,12 +267,14 @@ AR:
   number: "032"
   region: Americas
   subregion: "South America"
+  un_locode: AR
 AS: 
   alpha2: AS
   alpha3: ASM
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: ASA
   latitude: "14 20 S"
   longitude: "170 00 W"
   name: "American Samoa"
@@ -268,6 +291,7 @@ AS:
   number: "016"
   region: Oceania
   subregion: Polynesia
+  un_locode: AS
 AT: 
   address_format: |-
       {{recipient}}
@@ -279,6 +303,7 @@ AT:
   country_code: "43"
   currency: EUR
   international_prefix: "00"
+  ioc: AUT
   latitude: "47 20 N"
   longitude: "13 20 E"
   name: Austria
@@ -302,6 +327,7 @@ AT:
   number: "040"
   region: Europe
   subregion: "Western Europe"
+  un_locode: AT
 AU: 
   address_format: |-
       {{recipient}}
@@ -313,6 +339,7 @@ AU:
   country_code: "61"
   currency: AUD
   international_prefix: "0011"
+  ioc: AUS
   latitude: "27 00 S"
   longitude: "133 00 E"
   name: Australia
@@ -328,12 +355,14 @@ AU:
   number: "036"
   region: Oceania
   subregion: "Australia and New Zealand"
+  un_locode: AU
 AW: 
   alpha2: AW
   alpha3: ABW
   country_code: "297"
   currency: AWG
   international_prefix: "00"
+  ioc: ARU
   latitude: "12 30 N"
   longitude: "69 58 W"
   name: Aruba
@@ -347,12 +376,14 @@ AW:
   number: "533"
   region: Americas
   subregion: Caribbean
+  un_locode: AW
 AX: 
   alpha2: AX
   alpha3: ALA
   country_code: "358"
   currency: ~
   international_prefix: ""
+  ioc: 
   latitude: ""
   longitude: ""
   name: "Åland Islands"
@@ -364,12 +395,14 @@ AX:
   number: "248"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 AZ: 
   alpha2: AZ
   alpha3: AZE
   country_code: "994"
   currency: AZN
   international_prefix: "810"
+  ioc: AZE
   latitude: "40 30 N"
   longitude: "47 30 E"
   name: Azerbaijan
@@ -387,6 +420,7 @@ AZ:
   number: "031"
   region: Asia
   subregion: "Western Asia"
+  un_locode: AZ
 BA: 
   address_format: |-
       {{recipient}}
@@ -398,6 +432,7 @@ BA:
   country_code: "387"
   currency: BAM
   international_prefix: "00"
+  ioc: BIH
   latitude: "44 00 N"
   longitude: "18 00 E"
   name: "Bosnia and Herzegovina"
@@ -414,12 +449,14 @@ BA:
   number: "070"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: BA
 BB: 
   alpha2: BB
   alpha3: BRB
   country_code: "1"
   currency: BBD
   international_prefix: "011"
+  ioc: BAR
   latitude: "13 10 N"
   longitude: "59 32 W"
   name: Barbados
@@ -434,12 +471,14 @@ BB:
   number: "052"
   region: Americas
   subregion: Caribbean
+  un_locode: BB
 BD: 
   alpha2: BD
   alpha3: BGD
   country_code: "880"
   currency: BTD
   international_prefix: "00"
+  ioc: BAN
   latitude: "24 00 N"
   longitude: "90 00 E"
   name: Bangladesh
@@ -454,6 +493,7 @@ BD:
   number: "050"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: BD
 BE: 
   address_format: |-
       {{recipient}}
@@ -465,6 +505,7 @@ BE:
   country_code: "32"
   currency: EUR
   international_prefix: "00"
+  ioc: BEL
   latitude: "50 50 N"
   longitude: "4 00 E"
   name: Belgium
@@ -482,12 +523,14 @@ BE:
   number: "056"
   region: Europe
   subregion: "Western Europe"
+  un_locode: BE
 BF: 
   alpha2: BF
   alpha3: BFA
   country_code: "226"
   currency: XOF
   international_prefix: "00"
+  ioc: BUR
   latitude: "13 00 N"
   longitude: "2 00 W"
   name: "Burkina Faso"
@@ -501,6 +544,7 @@ BF:
   number: "854"
   region: Africa
   subregion: "Western Africa"
+  un_locode: BF
 BG: 
   address_format: |-
       {{recipient}}
@@ -512,6 +556,7 @@ BG:
   country_code: "359"
   currency: BGN
   international_prefix: "00"
+  ioc: BUL
   latitude: "43 00 N"
   longitude: "25 00 E"
   name: Bulgaria
@@ -529,6 +574,7 @@ BG:
   number: "100"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: BG
 BH: 
   address_format: |-
       {{recipient}}
@@ -540,6 +586,7 @@ BH:
   country_code: "973"
   currency: BHD
   international_prefix: "00"
+  ioc: BRN
   latitude: "26 00 N"
   longitude: "50 33 E"
   name: Bahrain
@@ -555,12 +602,14 @@ BH:
   number: 048
   region: Asia
   subregion: "Western Asia"
+  un_locode: BH
 BI: 
   alpha2: BI
   alpha3: BDI
   country_code: "257"
   currency: BIF
   international_prefix: "00"
+  ioc: BDI
   latitude: "3 30 S"
   longitude: "30 00 E"
   name: Burundi
@@ -574,12 +623,14 @@ BI:
   number: "108"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: BI
 BJ: 
   alpha2: BJ
   alpha3: BEN
   country_code: "229"
   currency: XOF
   international_prefix: "00"
+  ioc: BEN
   latitude: "9 30 N"
   longitude: "2 15 E"
   name: Benin
@@ -594,12 +645,14 @@ BJ:
   number: "204"
   region: Africa
   subregion: "Western Africa"
+  un_locode: BJ
 BL: 
   alpha2: BL
   alpha3: BLM
   country_code: "590"
   currency: ~
   international_prefix: ""
+  ioc: 
   latitude: "17 90 N"
   longitude: "62 85 W"
   name: "Saint Barthélemy"
@@ -611,12 +664,14 @@ BL:
   number: "652"
   region: Americas
   subregion: Caribbean
+  un_locode: 
 BM: 
   alpha2: BM
   alpha3: BMU
   country_code: "1"
   currency: BMD
   international_prefix: "011"
+  ioc: BER
   latitude: "32 20 N"
   longitude: "64 45 W"
   name: Bermuda
@@ -632,12 +687,14 @@ BM:
   number: "060"
   region: Americas
   subregion: "Northern America"
+  un_locode: BM
 BN: 
   alpha2: BN
   alpha3: BRN
   country_code: "673"
   currency: BND
   international_prefix: "00"
+  ioc: BRU
   latitude: "4 30 N"
   longitude: "114 40 E"
   name: "Brunei Darussalam"
@@ -651,12 +708,14 @@ BN:
   number: 096
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: BN
 BO: 
   alpha2: BO
   alpha3: BOL
   country_code: "591"
   currency: BOB
   international_prefix: "0010"
+  ioc: BOL
   latitude: "17 00 S"
   longitude: "65 00 W"
   name: Bolivia
@@ -672,6 +731,7 @@ BO:
   number: 068
   region: Americas
   subregion: "South America"
+  un_locode: BO
 BR: 
   address_format: |-
       {{recipient}}
@@ -683,6 +743,7 @@ BR:
   country_code: "55"
   currency: BRL
   international_prefix: "0014"
+  ioc: BRA
   latitude: "10 00 S"
   longitude: "55 00 W"
   name: Brazil
@@ -699,12 +760,14 @@ BR:
   number: "076"
   region: Americas
   subregion: "South America"
+  un_locode: BR
 BS: 
   alpha2: BS
   alpha3: BHS
   country_code: "1"
   currency: BSD
   international_prefix: "011"
+  ioc: BAH
   latitude: "24 15 N"
   longitude: "76 00 W"
   name: Bahamas
@@ -718,12 +781,14 @@ BS:
   number: "044"
   region: Americas
   subregion: Caribbean
+  un_locode: BS
 BT: 
   alpha2: BT
   alpha3: BTN
   country_code: "975"
   currency: BTN
   international_prefix: "00"
+  ioc: BHU
   latitude: "27 30 N"
   longitude: "90 30 E"
   name: Bhutan
@@ -740,12 +805,14 @@ BT:
   number: "064"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: BT
 BV: 
   alpha2: BV
   alpha3: BVT
   country_code: ""
   currency: NOK
   international_prefix: ""
+  ioc: 
   latitude: "54 26 S"
   longitude: "3 24 E"
   name: "Bouvet Island"
@@ -757,12 +824,14 @@ BV:
   number: "074"
   region: ""
   subregion: ""
+  un_locode: 
 BW: 
   alpha2: BW
   alpha3: BWA
   country_code: "267"
   currency: BWP
   international_prefix: "00"
+  ioc: BOT
   latitude: "22 00 S"
   longitude: "24 00 E"
   name: Botswana
@@ -776,12 +845,14 @@ BW:
   number: "072"
   region: Africa
   subregion: "Southern Africa"
+  un_locode: BW
 BY: 
   alpha2: BY
   alpha3: BLR
   country_code: "375"
   currency: BYR
   international_prefix: "810"
+  ioc: BLR
   latitude: "53 00 N"
   longitude: "28 00 E"
   name: Belarus
@@ -798,12 +869,14 @@ BY:
   number: "112"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: BY
 BZ: 
   alpha2: BZ
   alpha3: BLZ
   country_code: "501"
   currency: BZD
   international_prefix: "00"
+  ioc: BIZ
   latitude: "17 15 N"
   longitude: "88 45 W"
   name: Belize
@@ -818,6 +891,7 @@ BZ:
   number: 084
   region: Americas
   subregion: "Central America"
+  un_locode: BZ
 CA: 
   address_format: |-
       {{recipient}}
@@ -829,6 +903,7 @@ CA:
   country_code: "1"
   currency: CAD
   international_prefix: "011"
+  ioc: CAN
   latitude: "60 00 N"
   longitude: "95 00 W"
   name: Canada
@@ -844,12 +919,14 @@ CA:
   number: "124"
   region: Americas
   subregion: "Northern America"
+  un_locode: CA
 CC: 
   alpha2: CC
   alpha3: CCK
   country_code: "61"
   currency: AUD
   international_prefix: "0011"
+  ioc: 
   latitude: "12 30 S"
   longitude: "96 50 E"
   name: "Cocos (Keeling) Islands"
@@ -863,12 +940,14 @@ CC:
   number: "166"
   region: Oceania
   subregion: "Australia and New Zealand"
+  un_locode: CC
 CD: 
   alpha2: CD
   alpha3: COD
   country_code: "243"
   currency: ~
   international_prefix: "00"
+  ioc: COD
   latitude: "0 00 N"
   longitude: "25 00 E"
   name: "Congo, The Democratic Republic Of The"
@@ -885,12 +964,14 @@ CD:
   number: "180"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: CD
 CF: 
   alpha2: CF
   alpha3: CAF
   country_code: "236"
   currency: XAF
   international_prefix: "00"
+  ioc: CAF
   latitude: "7 00 N"
   longitude: "21 00 E"
   name: "Central African Republic"
@@ -907,12 +988,14 @@ CF:
   number: "140"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: CF
 CG: 
   alpha2: CG
   alpha3: COG
   country_code: "242"
   currency: ~
   international_prefix: "00"
+  ioc: CGO
   latitude: "1 00 S"
   longitude: "15 00 E"
   name: Congo
@@ -927,6 +1010,7 @@ CG:
   number: "178"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: CG
 CH: 
   address_format: |-
       {{recipient}}
@@ -938,6 +1022,7 @@ CH:
   country_code: "41"
   currency: CHF
   international_prefix: "00"
+  ioc: SUI
   latitude: "47 00 N"
   longitude: "8 00 E"
   name: Switzerland
@@ -955,12 +1040,14 @@ CH:
   number: "756"
   region: Europe
   subregion: "Western Europe"
+  un_locode: CH
 CI: 
   alpha2: CI
   alpha3: CIV
   country_code: "225"
   currency: XOF
   international_prefix: "00"
+  ioc: CIV
   latitude: "8 00 N"
   longitude: "5 00 W"
   name: "Côte D'Ivoire"
@@ -974,12 +1061,14 @@ CI:
   number: "384"
   region: Africa
   subregion: "Western Africa"
+  un_locode: CI
 CK: 
   alpha2: CK
   alpha3: COK
   country_code: "682"
   currency: NZD
   international_prefix: "00"
+  ioc: COK
   latitude: "21 14 S"
   longitude: "159 46 W"
   name: "Cook Islands"
@@ -996,12 +1085,14 @@ CK:
   number: "184"
   region: Oceania
   subregion: Polynesia
+  un_locode: CK
 CL: 
   alpha2: CL
   alpha3: CHL
   country_code: "56"
   currency: CLP
   international_prefix: "00"
+  ioc: CHI
   latitude: "30 00 S"
   longitude: "71 00 W"
   name: Chile
@@ -1016,12 +1107,14 @@ CL:
   number: "152"
   region: Americas
   subregion: "South America"
+  un_locode: CL
 CM: 
   alpha2: CM
   alpha3: CMR
   country_code: "237"
   currency: XAF
   international_prefix: "00"
+  ioc: CMR
   latitude: "6 00 N"
   longitude: "12 00 E"
   name: Cameroon
@@ -1038,6 +1131,7 @@ CM:
   number: "120"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: CM
 CN: 
   address_format: |-
       {{recipient}}
@@ -1049,6 +1143,7 @@ CN:
   country_code: "86"
   currency: CNY
   international_prefix: "00"
+  ioc: CHN
   latitude: "35 00 N"
   longitude: "105 00 E"
   name: China
@@ -1067,12 +1162,14 @@ CN:
   number: "156"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: CN
 CO: 
   alpha2: CO
   alpha3: COL
   country_code: "57"
   currency: COP
   international_prefix: "005"
+  ioc: COL
   latitude: "4 00 N"
   longitude: "72 00 W"
   name: Colombia
@@ -1089,12 +1186,14 @@ CO:
   number: "170"
   region: Americas
   subregion: "South America"
+  un_locode: CO
 CR: 
   alpha2: CR
   alpha3: CRI
   country_code: "506"
   currency: CRC
   international_prefix: "00"
+  ioc: CRC
   latitude: "10 00 N"
   longitude: "84 00 W"
   name: "Costa Rica"
@@ -1108,12 +1207,14 @@ CR:
   number: "188"
   region: Americas
   subregion: "Central America"
+  un_locode: CR
 CU: 
   alpha2: CU
   alpha3: CUB
   country_code: "53"
   currency: CUP
   international_prefix: "119"
+  ioc: CUB
   latitude: "21 30 N"
   longitude: "80 00 W"
   name: Cuba
@@ -1128,12 +1229,14 @@ CU:
   number: "192"
   region: Americas
   subregion: Caribbean
+  un_locode: CU
 CV: 
   alpha2: CV
   alpha3: CPV
   country_code: "238"
   currency: CVE
   international_prefix: "00"
+  ioc: CPV
   latitude: "16 00 N"
   longitude: "24 00 W"
   name: "Cape Verde"
@@ -1150,12 +1253,14 @@ CV:
   number: "132"
   region: Africa
   subregion: "Western Africa"
+  un_locode: CV
 CX: 
   alpha2: CX
   alpha3: CXR
   country_code: "61"
   currency: AUD
   international_prefix: "0011"
+  ioc: 
   latitude: "10 30 S"
   longitude: "105 40 E"
   name: "Christmas Island"
@@ -1167,12 +1272,14 @@ CX:
   number: "162"
   region: Oceania
   subregion: "Australia and New Zealand"
+  un_locode: CX
 CY: 
   alpha2: CY
   alpha3: CYP
   country_code: "357"
   currency: EUR
   international_prefix: "00"
+  ioc: CYP
   latitude: "35 00 N"
   longitude: "33 00 E"
   name: Cyprus
@@ -1189,6 +1296,7 @@ CY:
   number: "196"
   region: Asia
   subregion: "Western Asia"
+  un_locode: CY
 CZ: 
   address_format: |-
       {{recipient}}
@@ -1200,6 +1308,7 @@ CZ:
   country_code: "420"
   currency: CZK
   international_prefix: "00"
+  ioc: CZE
   latitude: "49 45 N"
   longitude: "15 30 E"
   name: "Czech Republic"
@@ -1216,6 +1325,7 @@ CZ:
   number: "203"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: CZ
 DE: 
   address_format: |-
       {{recipient}}
@@ -1227,6 +1337,7 @@ DE:
   country_code: "49"
   currency: EUR
   international_prefix: "00"
+  ioc: GER
   latitude: "51 00 N"
   longitude: "9 00 E"
   name: Germany
@@ -1248,12 +1359,14 @@ DE:
   number: "276"
   region: Europe
   subregion: "Western Europe"
+  un_locode: DE
 DJ: 
   alpha2: DJ
   alpha3: DJI
   country_code: "253"
   currency: DJF
   international_prefix: "00"
+  ioc: DJI
   latitude: "11 30 N"
   longitude: "43 00 E"
   name: Djibouti
@@ -1267,6 +1380,7 @@ DJ:
   number: "262"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: DJ
 DK: 
   address_format: |-
       {{recipient}}
@@ -1279,6 +1393,7 @@ DK:
   country_code: "45"
   currency: DKK
   international_prefix: "00"
+  ioc: DEN
   latitude: "56 00 N"
   longitude: "10 00 E"
   name: Denmark
@@ -1295,12 +1410,14 @@ DK:
   number: "208"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: DK
 DM: 
   alpha2: DM
   alpha3: DMA
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: DMA
   latitude: "15 25 N"
   longitude: "61 20 W"
   name: Dominica
@@ -1314,12 +1431,14 @@ DM:
   number: "212"
   region: Americas
   subregion: Caribbean
+  un_locode: DM
 DO: 
   alpha2: DO
   alpha3: DOM
   country_code: "1"
   currency: DOP
   international_prefix: "011"
+  ioc: DOM
   latitude: "19 00 N"
   longitude: "70 40 W"
   name: "Dominican Republic"
@@ -1336,12 +1455,14 @@ DO:
   number: "214"
   region: Americas
   subregion: Caribbean
+  un_locode: DO
 DZ: 
   alpha2: DZ
   alpha3: DZA
   country_code: "213"
   currency: DZD
   international_prefix: "00"
+  ioc: ALG
   latitude: "28 00 N"
   longitude: "3 00 E"
   name: Algeria
@@ -1358,12 +1479,14 @@ DZ:
   number: "012"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: DZ
 EC: 
   alpha2: EC
   alpha3: ECU
   country_code: "593"
   currency: USD
   international_prefix: "00"
+  ioc: ECU
   latitude: "2 00 S"
   longitude: "77 30 W"
   name: Ecuador
@@ -1379,12 +1502,14 @@ EC:
   number: "218"
   region: Americas
   subregion: "South America"
+  un_locode: EC
 EE: 
   alpha2: EE
   alpha3: EST
   country_code: "372"
   currency: EEK
   international_prefix: "00"
+  ioc: EST
   latitude: "59 00 N"
   longitude: "26 00 E"
   name: Estonia
@@ -1401,6 +1526,7 @@ EE:
   number: "233"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: EE
 EG: 
   address_format: |-
       {{recipient}}
@@ -1412,6 +1538,7 @@ EG:
   country_code: "20"
   currency: EGP
   international_prefix: "00"
+  ioc: EGY
   latitude: "27 00 N"
   longitude: "30 00 E"
   name: Egypt
@@ -1428,12 +1555,14 @@ EG:
   number: "818"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: EG
 EH: 
   alpha2: EH
   alpha3: ESH
   country_code: "212"
   currency: MAD
   international_prefix: ""
+  ioc: 
   latitude: "24 30 N"
   longitude: "13 00 W"
   name: "Western Sahara"
@@ -1448,12 +1577,14 @@ EH:
   number: "732"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: EH
 ER: 
   alpha2: ER
   alpha3: ERI
   country_code: "291"
   currency: ETB
   international_prefix: "00"
+  ioc: ERI
   latitude: "15 00 N"
   longitude: "39 00 E"
   name: Eritrea
@@ -1468,6 +1599,7 @@ ER:
   number: "232"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: ER
 ES: 
   address_format: |-
       {{recipient}}
@@ -1479,6 +1611,7 @@ ES:
   country_code: "34"
   currency: EUR
   international_prefix: "00"
+  ioc: ESP
   latitude: "40 00 N"
   longitude: "4 00 W"
   name: Spain
@@ -1495,12 +1628,14 @@ ES:
   number: "724"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: ES
 ET: 
   alpha2: ET
   alpha3: ETH
   country_code: "251"
   currency: ETB
   international_prefix: "00"
+  ioc: ETH
   latitude: "8 00 N"
   longitude: "38 00 E"
   name: Ethiopia
@@ -1517,6 +1652,7 @@ ET:
   number: "231"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: ET
 FI: 
   address_format: |-
       {{recipient}}
@@ -1528,6 +1664,7 @@ FI:
   country_code: "358"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: "64 00 N"
   longitude: "26 00 E"
   name: Finland
@@ -1544,12 +1681,14 @@ FI:
   number: "246"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 FJ: 
   alpha2: FJ
   alpha3: FJI
   country_code: "679"
   currency: USD
   international_prefix: "00"
+  ioc: FIJ
   latitude: "18 00 S"
   longitude: "175 00 E"
   name: Fiji
@@ -1565,12 +1704,14 @@ FJ:
   number: "242"
   region: Oceania
   subregion: Melanesia
+  un_locode: FJ
 FK: 
   alpha2: FK
   alpha3: FLK
   country_code: "500"
   currency: FKP
   international_prefix: "00"
+  ioc: 
   latitude: "51 45 S"
   longitude: "59 00 W"
   name: "Falkland Islands (Malvinas)"
@@ -1587,12 +1728,14 @@ FK:
   number: "238"
   region: Americas
   subregion: "South America"
+  un_locode: FK
 FM: 
   alpha2: FM
   alpha3: FSM
   country_code: "691"
   currency: USD
   international_prefix: "011"
+  ioc: FSM
   latitude: "6 55 N"
   longitude: "158 15 E"
   name: "Micronesia, Federated States Of"
@@ -1609,12 +1752,14 @@ FM:
   number: "583"
   region: Oceania
   subregion: Micronesia
+  un_locode: FM
 FO: 
   alpha2: FO
   alpha3: FRO
   country_code: "298"
   currency: DKK
   international_prefix: "00"
+  ioc: FRO
   latitude: "62 00 N"
   longitude: "7 00 W"
   name: "Faroe Islands"
@@ -1631,6 +1776,7 @@ FO:
   number: "234"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: FO
 FR: 
   address_format: |-
       {{recipient}}
@@ -1642,6 +1788,7 @@ FR:
   country_code: "33"
   currency: EUR
   international_prefix: "00"
+  ioc: FRA
   latitude: "46 00 N"
   longitude: "2 00 E "
   name: France
@@ -1659,12 +1806,14 @@ FR:
   number: "250"
   region: Europe
   subregion: "Western Europe"
+  un_locode: FR
 GA: 
   alpha2: GA
   alpha3: GAB
   country_code: "241"
   currency: XAF
   international_prefix: "00"
+  ioc: GAB
   latitude: "1 00 S"
   longitude: "11 45 E"
   name: Gabon
@@ -1682,6 +1831,7 @@ GA:
   number: "266"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: GA
 GB: 
   address_format: |-
       {{recipient}}
@@ -1695,6 +1845,7 @@ GB:
   country_code: "44"
   currency: GBP
   international_prefix: "00"
+  ioc: 
   latitude: "54 00 N"
   longitude: "2 00 W"
   name: "United Kingdom"
@@ -1712,12 +1863,14 @@ GB:
   number: "826"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 GD: 
   alpha2: GD
   alpha3: GRD
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: GRN
   latitude: "12 07 N"
   longitude: "61 40 W"
   name: Grenada
@@ -1731,12 +1884,14 @@ GD:
   number: "308"
   region: Americas
   subregion: Caribbean
+  un_locode: GD
 GE: 
   alpha2: GE
   alpha3: GEO
   country_code: "995"
   currency: GEL
   international_prefix: "810"
+  ioc: GEO
   latitude: "42 00 N"
   longitude: "43 30 E"
   name: Georgia
@@ -1752,12 +1907,14 @@ GE:
   number: "268"
   region: Asia
   subregion: "Western Asia"
+  un_locode: GE
 GF: 
   alpha2: GF
   alpha3: GUF
   country_code: "594"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: "4 00 N"
   longitude: "53 00 W "
   name: "French Guiana"
@@ -1774,12 +1931,14 @@ GF:
   number: "254"
   region: Americas
   subregion: "South America"
+  un_locode: GF
 GG: 
   alpha2: GG
   alpha3: GGY
   country_code: "44"
   currency: GGP
   international_prefix: ""
+  ioc: 
   latitude: "49 28 N"
   longitude: "2 35 W"
   name: Guernsey
@@ -1794,12 +1953,14 @@ GG:
   number: "831"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 GH: 
   alpha2: GH
   alpha3: GHA
   country_code: "233"
   currency: GHS
   international_prefix: "00"
+  ioc: GHA
   latitude: "8 00 N"
   longitude: "2 00 W"
   name: Ghana
@@ -1816,12 +1977,14 @@ GH:
   number: "288"
   region: Africa
   subregion: "Western Africa"
+  un_locode: GH
 GI: 
   alpha2: GI
   alpha3: GIB
   country_code: "350"
   currency: GIP
   international_prefix: "00"
+  ioc: 
   latitude: "36 08 N"
   longitude: "5 21 W"
   name: Gibraltar
@@ -1835,6 +1998,7 @@ GI:
   number: "292"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: GI
 GL: 
   address_format: |-
       {{recipient}}
@@ -1846,6 +2010,7 @@ GL:
   country_code: "299"
   currency: DKK
   international_prefix: 009
+  ioc: 
   latitude: "72 00 N"
   longitude: "40 00 W"
   name: Greenland
@@ -1862,12 +2027,14 @@ GL:
   number: "304"
   region: Americas
   subregion: "Northern America"
+  un_locode: GL
 GM: 
   alpha2: GM
   alpha3: GMB
   country_code: "220"
   currency: GMD
   international_prefix: "00"
+  ioc: GAM
   latitude: "13 28 N"
   longitude: "16 34 W"
   name: Gambia
@@ -1881,12 +2048,14 @@ GM:
   number: "270"
   region: Africa
   subregion: "Western Africa"
+  un_locode: GM
 GN: 
   alpha2: GN
   alpha3: GIN
   country_code: "224"
   currency: GNF
   international_prefix: "00"
+  ioc: GUI
   latitude: "11 00 N"
   longitude: "10 00 W"
   name: Guinea
@@ -1903,12 +2072,14 @@ GN:
   number: "324"
   region: Africa
   subregion: "Western Africa"
+  un_locode: GN
 GP: 
   alpha2: GP
   alpha3: GLP
   country_code: "590"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: ""
   longitude: ""
   name: Guadeloupe
@@ -1923,12 +2094,14 @@ GP:
   number: "312"
   region: Americas
   subregion: Caribbean
+  un_locode: GP
 GQ: 
   alpha2: GQ
   alpha3: GNQ
   country_code: "240"
   currency: ~
   international_prefix: "00"
+  ioc: GEQ
   latitude: "2 00 N"
   longitude: "10 00 E"
   name: "Equatorial Guinea"
@@ -1945,6 +2118,7 @@ GQ:
   number: "226"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: GQ
 GR: 
   address_format: |-
       {{recipient}}
@@ -1956,6 +2130,7 @@ GR:
   country_code: "30"
   currency: EUR
   international_prefix: "00"
+  ioc: GRE
   latitude: "39 00 N"
   longitude: "22 00 E"
   name: Greece
@@ -1972,12 +2147,14 @@ GR:
   number: "300"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: GR
 GS: 
   alpha2: GS
   alpha3: SGS
   country_code: "500"
   currency: ~
   international_prefix: ""
+  ioc: 
   latitude: "54 30 S"
   longitude: "37 00 W"
   name: "South Georgia and the South Sandwich Islands"
@@ -1989,12 +2166,14 @@ GS:
   number: "239"
   region: Americas
   subregion: "South America"
+  un_locode: GS
 GT: 
   alpha2: GT
   alpha3: GTM
   country_code: "502"
   currency: GTQ
   international_prefix: "00"
+  ioc: GUA
   latitude: "15 30 N"
   longitude: "90 15 W"
   name: Guatemala
@@ -2008,12 +2187,14 @@ GT:
   number: "320"
   region: Americas
   subregion: "Central America"
+  un_locode: GT
 GU: 
   alpha2: GU
   alpha3: GUM
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: GUM
   latitude: "13 28 N"
   longitude: "144 47 E"
   name: Guam
@@ -2027,12 +2208,14 @@ GU:
   number: "316"
   region: Oceania
   subregion: Micronesia
+  un_locode: GU
 GW: 
   alpha2: GW
   alpha3: GNB
   country_code: "245"
   currency: XOF
   international_prefix: "00"
+  ioc: GBS
   latitude: "12 00 N"
   longitude: "15 00 W"
   name: Guinea-Bissau
@@ -2047,12 +2230,14 @@ GW:
   number: "624"
   region: Africa
   subregion: "Western Africa"
+  un_locode: GW
 GY: 
   alpha2: GY
   alpha3: GUY
   country_code: "592"
   currency: GYD
   international_prefix: "00"
+  ioc: GUY
   latitude: "5 00 N"
   longitude: "59 00 W"
   name: Guyana
@@ -2067,6 +2252,7 @@ GY:
   number: "328"
   region: Americas
   subregion: "South America"
+  un_locode: GY
 HK: 
   address_format: |-
       {{recipient}}
@@ -2078,6 +2264,7 @@ HK:
   country_code: "852"
   currency: HKD
   international_prefix: "001"
+  ioc: HKG
   latitude: "22 15 N"
   longitude: "114 10 E"
   name: "Hong Kong"
@@ -2091,12 +2278,14 @@ HK:
   number: "344"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: HK
 HM: 
   alpha2: HM
   alpha3: HMD
   country_code: ""
   currency: AUD
   international_prefix: ""
+  ioc: 
   latitude: "53 06 S"
   longitude: "72 31 E"
   name: "Heard and McDonald Islands"
@@ -2108,12 +2297,14 @@ HM:
   number: "334"
   region: ""
   subregion: ""
+  un_locode: HM
 HN: 
   alpha2: HN
   alpha3: HND
   country_code: "504"
   currency: HNL
   international_prefix: "00"
+  ioc: HON
   latitude: "15 00 N"
   longitude: "86 30 W"
   name: Honduras
@@ -2128,6 +2319,7 @@ HN:
   number: "340"
   region: Americas
   subregion: "Central America"
+  un_locode: HN
 HR: 
   address_format: |-
       {{recipient}}
@@ -2139,6 +2331,7 @@ HR:
   country_code: "385"
   currency: HRK
   international_prefix: "00"
+  ioc: CRO
   latitude: "45 10 N"
   longitude: "15 30 E"
   name: Croatia
@@ -2155,12 +2348,14 @@ HR:
   number: "191"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: HR
 HT: 
   alpha2: HT
   alpha3: HTI
   country_code: "509"
   currency: USD
   international_prefix: "00"
+  ioc: HAI
   latitude: "19 00 N"
   longitude: "72 25 W"
   name: Haiti
@@ -2174,6 +2369,7 @@ HT:
   number: "332"
   region: Americas
   subregion: Caribbean
+  un_locode: HT
 HU: 
   address_format: |-
       {{recipient}}
@@ -2186,6 +2382,7 @@ HU:
   country_code: "36"
   currency: HUF
   international_prefix: "00"
+  ioc: HUN
   latitude: "47 00 N"
   longitude: "20 00 E"
   name: Hungary
@@ -2203,6 +2400,7 @@ HU:
   number: "348"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: HU
 ID: 
   address_format: |-
       {{recipient}}
@@ -2215,6 +2413,7 @@ ID:
   country_code: "62"
   currency: IDR
   international_prefix: "001"
+  ioc: INA
   latitude: "5 00 S"
   longitude: "120 00 E"
   name: Indonesia
@@ -2233,6 +2432,7 @@ ID:
   number: "360"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: ID
 IE: 
   address_format: |-
       {{recipient}}
@@ -2244,6 +2444,7 @@ IE:
   country_code: "353"
   currency: EUR
   international_prefix: "00"
+  ioc: IRL
   latitude: "53 00 N"
   longitude: "8 00 W"
   name: Ireland
@@ -2260,6 +2461,7 @@ IE:
   number: "372"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: IE
 IL: 
   address_format: |-
       {{recipient}}
@@ -2271,6 +2473,7 @@ IL:
   country_code: "972"
   currency: ILS
   international_prefix: "00"
+  ioc: ISR
   latitude: "31 30 N"
   longitude: "34 45 E"
   name: Israel
@@ -2287,12 +2490,14 @@ IL:
   number: "376"
   region: Asia
   subregion: "Western Asia"
+  un_locode: IL
 IM: 
   alpha2: IM
   alpha3: IMN
   country_code: "44"
   currency: IMP
   international_prefix: ""
+  ioc: 
   latitude: "54 15 N"
   longitude: "4 30 W"
   name: "Isle of Man"
@@ -2307,6 +2512,7 @@ IM:
   number: "833"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 IN: 
   address_format: |-
       {{recipient}}
@@ -2319,6 +2525,7 @@ IN:
   country_code: "91"
   currency: INR
   international_prefix: "00"
+  ioc: IND
   latitude: "20 00 N"
   longitude: "77 00 E"
   name: India
@@ -2334,12 +2541,14 @@ IN:
   number: "356"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: IN
 IO: 
   alpha2: IO
   alpha3: IOT
   country_code: "246"
   currency: USD
   international_prefix: ""
+  ioc: 
   latitude: "6 00 S"
   longitude: "71 30 E"
   name: "British Indian Ocean Territory"
@@ -2351,12 +2560,14 @@ IO:
   number: 086
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: IO
 IQ: 
   alpha2: IQ
   alpha3: IRQ
   country_code: "964"
   currency: IQD
   international_prefix: "00"
+  ioc: IRQ
   latitude: "33 00 N"
   longitude: "44 00 E"
   name: Iraq
@@ -2373,12 +2584,14 @@ IQ:
   number: "368"
   region: Asia
   subregion: "Western Asia"
+  un_locode: IQ
 IR: 
   alpha2: IR
   alpha3: IRN
   country_code: "98"
   currency: IRR
   international_prefix: "00"
+  ioc: IRI
   latitude: "32 00 N"
   longitude: "53 00 E"
   name: "Iran, Islamic Republic Of"
@@ -2393,6 +2606,7 @@ IR:
   number: "364"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: IR
 IS: 
   address_format: |-
       {{recipient}}
@@ -2404,6 +2618,7 @@ IS:
   country_code: "354"
   currency: ISK
   international_prefix: "00"
+  ioc: ISL
   latitude: "65 00 N"
   longitude: "18 00 W"
   name: Iceland
@@ -2422,6 +2637,7 @@ IS:
   number: "352"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: IS
 IT: 
   address_format: |-
       {{recipient}}
@@ -2433,6 +2649,7 @@ IT:
   country_code: "39"
   currency: EUR
   international_prefix: "00"
+  ioc: ITA
   latitude: "42 50 N"
   longitude: "12 50 E"
   name: Italy
@@ -2449,12 +2666,14 @@ IT:
   number: "380"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: IT
 JE: 
   alpha2: JE
   alpha3: JEY
   country_code: "44"
   currency: JEP
   international_prefix: ""
+  ioc: 
   latitude: "49 15 N"
   longitude: "2 10 W"
   name: Jersey
@@ -2466,12 +2685,14 @@ JE:
   number: "832"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: 
 JM: 
   alpha2: JM
   alpha3: JAM
   country_code: "1"
   currency: JMD
   international_prefix: "011"
+  ioc: JAM
   latitude: "18 15 N"
   longitude: "77 30 W"
   name: Jamaica
@@ -2487,6 +2708,7 @@ JM:
   number: "388"
   region: Americas
   subregion: Caribbean
+  un_locode: JM
 JO: 
   address_format: |-
       {{recipient}}
@@ -2498,6 +2720,7 @@ JO:
   country_code: "962"
   currency: JOD
   international_prefix: "00"
+  ioc: JOR
   latitude: "31 00 N"
   longitude: "36 00 E"
   name: Jordan
@@ -2515,6 +2738,7 @@ JO:
   number: "400"
   region: Asia
   subregion: "Western Asia"
+  un_locode: JO
 JP: 
   address_format: |-
       〒{{postalcode}}
@@ -2526,6 +2750,7 @@ JP:
   country_code: "81"
   currency: JPY
   international_prefix: "010"
+  ioc: JPN
   latitude: "36 00 N"
   longitude: "138 00 E"
   name: Japan
@@ -2543,12 +2768,14 @@ JP:
   number: "392"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: JP
 KE: 
   alpha2: KE
   alpha3: KEN
   country_code: "254"
   currency: KES
   international_prefix: "000"
+  ioc: KEN
   latitude: "1 00 N"
   longitude: "38 00 E"
   name: Kenya
@@ -2565,12 +2792,14 @@ KE:
   number: "404"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: KE
 KG: 
   alpha2: KG
   alpha3: KGZ
   country_code: "996"
   currency: KGS
   international_prefix: "00"
+  ioc: KGZ
   latitude: "41 00 N"
   longitude: "75 00 E"
   name: Kyrgyzstan
@@ -2587,12 +2816,14 @@ KG:
   number: "417"
   region: Asia
   subregion: "Central Asia"
+  un_locode: KG
 KH: 
   alpha2: KH
   alpha3: KHM
   country_code: "855"
   currency: KHR
   international_prefix: "00"
+  ioc: CAM
   latitude: "13 00 N"
   longitude: "105 00 E"
   name: Cambodia
@@ -2609,12 +2840,14 @@ KH:
   number: "116"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: KH
 KI: 
   alpha2: KI
   alpha3: KIR
   country_code: "686"
   currency: AUD
   international_prefix: "00"
+  ioc: KIR
   latitude: "1 25 N"
   longitude: "173 00 E"
   name: Kiribati
@@ -2631,12 +2864,14 @@ KI:
   number: "296"
   region: Oceania
   subregion: Micronesia
+  un_locode: KI
 KM: 
   alpha2: KM
   alpha3: COM
   country_code: "269"
   currency: KMF
   international_prefix: "00"
+  ioc: COM
   latitude: "12 10 S"
   longitude: "44 15 E"
   name: Comoros
@@ -2652,12 +2887,14 @@ KM:
   number: "174"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: KM
 KN: 
   alpha2: KN
   alpha3: KNA
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: SKN
   latitude: "17 20 N"
   longitude: "62 45 W"
   name: "Saint Kitts And Nevis"
@@ -2673,12 +2910,14 @@ KN:
   number: "659"
   region: Americas
   subregion: Caribbean
+  un_locode: KN
 KP: 
   alpha2: KP
   alpha3: PRK
   country_code: "850"
   currency: KPW
   international_prefix: "00"
+  ioc: PRK
   latitude: "40 00 N"
   longitude: "127 00 E"
   name: "Korea, Democratic People's Republic Of"
@@ -2696,6 +2935,7 @@ KP:
   number: "408"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: KP
 KR: 
   address_format: |-
       {{recipient}}
@@ -2708,6 +2948,7 @@ KR:
   country_code: "82"
   currency: KRW
   international_prefix: "001"
+  ioc: KOR
   latitude: "37 00 N"
   longitude: "127 30 E"
   name: "Korea, Republic of"
@@ -2725,6 +2966,7 @@ KR:
   number: "410"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: KR
 KW: 
   address_format: |-
       {{recipient}}
@@ -2737,6 +2979,7 @@ KW:
   country_code: "965"
   currency: KWD
   international_prefix: "00"
+  ioc: KUW
   latitude: "29 30 N"
   longitude: "45 45 E"
   name: Kuwait
@@ -2751,12 +2994,14 @@ KW:
   number: "414"
   region: Asia
   subregion: "Western Asia"
+  un_locode: KW
 KY: 
   alpha2: KY
   alpha3: CYM
   country_code: "1"
   currency: KYD
   international_prefix: "011"
+  ioc: CAY
   latitude: "19 30 N"
   longitude: "80 30 W"
   name: "Cayman Islands"
@@ -2773,12 +3018,14 @@ KY:
   number: "136"
   region: Americas
   subregion: Caribbean
+  un_locode: KY
 KZ: 
   alpha2: KZ
   alpha3: KAZ
   country_code: "7"
   currency: KZT
   international_prefix: "810"
+  ioc: KAZ
   latitude: "48 00 N"
   longitude: "68 00 E"
   name: Kazakhstan
@@ -2795,12 +3042,14 @@ KZ:
   number: "398"
   region: Asia
   subregion: "Central Asia"
+  un_locode: KZ
 LA: 
   alpha2: LA
   alpha3: LAO
   country_code: "856"
   currency: LAK
   international_prefix: "00"
+  ioc: LAO
   latitude: "18 00 N"
   longitude: "105 00 E"
   name: "Lao People's Democratic Republic"
@@ -2817,6 +3066,7 @@ LA:
   number: "418"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: LA
 LB: 
   address_format: |-
       {{recipient}}
@@ -2828,6 +3078,7 @@ LB:
   country_code: "961"
   currency: LBP
   international_prefix: "00"
+  ioc: LIB
   latitude: "33 50 N"
   longitude: "35 50 E"
   name: Lebanon
@@ -2844,12 +3095,14 @@ LB:
   number: "422"
   region: Asia
   subregion: "Western Asia"
+  un_locode: LB
 LC: 
   alpha2: LC
   alpha3: LCA
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: LCA
   latitude: "13 53 N"
   longitude: "60 58 W"
   name: "Saint Lucia"
@@ -2865,12 +3118,14 @@ LC:
   number: "662"
   region: Americas
   subregion: Caribbean
+  un_locode: LC
 LI: 
   alpha2: LI
   alpha3: LIE
   country_code: "423"
   currency: CHF
   international_prefix: "00"
+  ioc: LIE
   latitude: "47 16 N"
   longitude: "9 32 E"
   name: Liechtenstein
@@ -2884,12 +3139,14 @@ LI:
   number: "438"
   region: Europe
   subregion: "Western Europe"
+  un_locode: LI
 LK: 
   alpha2: LK
   alpha3: LKA
   country_code: "94"
   currency: LKR
   international_prefix: "00"
+  ioc: SRI
   latitude: "7 00 N"
   longitude: "81 00 E"
   name: "Sri Lanka"
@@ -2903,12 +3160,14 @@ LK:
   number: "144"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: LK
 LR: 
   alpha2: LR
   alpha3: LBR
   country_code: "231"
   currency: LRD
   international_prefix: "00"
+  ioc: LBR
   latitude: "6 30 N"
   longitude: "9 30 W"
   name: Liberia
@@ -2927,6 +3186,7 @@ LR:
   number: "430"
   region: Africa
   subregion: "Western Africa"
+  un_locode: LR
 LS: 
   alpha2: LS
   alpha3: LSO
@@ -2934,6 +3194,7 @@ LS:
   country_code: "266"
   currency: LSL
   international_prefix: "00"
+  ioc: LES
   latitude: "29 30 S"
   longitude: "28 30 E"
   name: Lesotho
@@ -2950,12 +3211,14 @@ LS:
   number: "426"
   region: Africa
   subregion: "Southern Africa"
+  un_locode: LS
 LT: 
   alpha2: LT
   alpha3: LTU
   country_code: "370"
   currency: LTL
   international_prefix: "00"
+  ioc: LTU
   latitude: "56 00 N"
   longitude: "24 00 E"
   name: Lithuania
@@ -2972,6 +3235,7 @@ LT:
   number: "440"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: LT
 LU: 
   address_format: |-
       {{recipient}}
@@ -2983,6 +3247,7 @@ LU:
   country_code: "352"
   currency: EUR
   international_prefix: "00"
+  ioc: LUX
   latitude: "49 45 N"
   longitude: "6 10 E"
   name: Luxembourg
@@ -2999,12 +3264,14 @@ LU:
   number: "442"
   region: Europe
   subregion: "Western Europe"
+  un_locode: LU
 LV: 
   alpha2: LV
   alpha3: LVA
   country_code: "371"
   currency: LVL
   international_prefix: "00"
+  ioc: LAT
   latitude: "57 00 N"
   longitude: "25 00 E"
   name: Latvia
@@ -3021,12 +3288,14 @@ LV:
   number: "428"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: LV
 LY: 
   alpha2: LY
   alpha3: LBY
   country_code: "218"
   currency: LYD
   international_prefix: "00"
+  ioc: LBA
   latitude: "25 00 N"
   longitude: "17 00 E"
   name: "Libyan Arab Jamahiriya"
@@ -3044,12 +3313,14 @@ LY:
   number: "434"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: LY
 MA: 
   alpha2: MA
   alpha3: MAR
   country_code: "212"
   currency: MAD
   international_prefix: "00"
+  ioc: MAR
   latitude: "32 00 N"
   longitude: "5 00 W"
   name: Morocco
@@ -3066,12 +3337,14 @@ MA:
   number: "504"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: MA
 MC: 
   alpha2: MC
   alpha3: MCO
   country_code: "377"
   currency: EUR
   international_prefix: "00"
+  ioc: MON
   latitude: "43 44 N"
   longitude: "7 24 E"
   name: Monaco
@@ -3087,12 +3360,14 @@ MC:
   number: "492"
   region: Europe
   subregion: "Western Europe"
+  un_locode: MC
 MD: 
   alpha2: MD
   alpha3: MDA
   country_code: "373"
   currency: MDL
   international_prefix: "00"
+  ioc: MDA
   latitude: "47 00 N"
   longitude: "29 00 E"
   name: "Moldova, Republic of"
@@ -3110,12 +3385,14 @@ MD:
   number: "498"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: MD
 ME: 
   alpha2: ME
   alpha3: MNE
   country_code: "382"
   currency: EUR
   international_prefix: "99"
+  ioc: MNE
   latitude: "42 30 N"
   longitude: "19 18 E"
   name: Montenegro
@@ -3130,12 +3407,14 @@ ME:
   number: "499"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: ME
 MF: 
   alpha2: MF
   alpha3: MAF
   country_code: "590"
   currency: EUR
   international_prefix: ""
+  ioc: 
   latitude: "18 05 N"
   longitude: "63 57 W"
   name: "Saint Martin"
@@ -3147,12 +3426,14 @@ MF:
   number: "663"
   region: Americas
   subregion: Caribbean
+  un_locode: 
 MG: 
   alpha2: MG
   alpha3: MDG
   country_code: "261"
   currency: ~
   international_prefix: "00"
+  ioc: MAD
   latitude: "20 00 S"
   longitude: "47 00 E"
   name: Madagascar
@@ -3168,12 +3449,14 @@ MG:
   number: "450"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: MG
 MH: 
   alpha2: MH
   alpha3: MHL
   country_code: "692"
   currency: USD
   international_prefix: "00"
+  ioc: MHL
   latitude: "9 00 N"
   longitude: "168 00 E"
   name: "Marshall Islands"
@@ -3190,6 +3473,7 @@ MH:
   number: "584"
   region: Oceania
   subregion: Micronesia
+  un_locode: MH
 MK: 
   address_format: |-
       {{recipient}}
@@ -3201,6 +3485,7 @@ MK:
   country_code: "389"
   currency: ~
   international_prefix: "00"
+  ioc: MKD
   latitude: "41 50 N"
   longitude: "22 00 E"
   name: "Macedonia, the Former Yugoslav Republic Of"
@@ -3218,12 +3503,14 @@ MK:
   number: "807"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: MK
 ML: 
   alpha2: ML
   alpha3: MLI
   country_code: "223"
   currency: XOF
   international_prefix: "00"
+  ioc: MLI
   latitude: "17 00 N"
   longitude: "4 00 W"
   name: Mali
@@ -3237,12 +3524,14 @@ ML:
   number: "466"
   region: Africa
   subregion: "Western Africa"
+  un_locode: ML
 MM: 
   alpha2: MM
   alpha3: MMR
   country_code: "95"
   currency: MNK
   international_prefix: "00"
+  ioc: MYA
   latitude: "22 00 N"
   longitude: "98 00 E"
   name: Myanmar
@@ -3260,12 +3549,14 @@ MM:
   number: "104"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: MM
 MN: 
   alpha2: MN
   alpha3: MNG
   country_code: "976"
   currency: MNT
   international_prefix: "001"
+  ioc: MGL
   latitude: "46 00 N"
   longitude: "105 00 E"
   name: Mongolia
@@ -3284,12 +3575,14 @@ MN:
   number: "496"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: MN
 MO: 
   alpha2: MO
   alpha3: MAC
   country_code: "853"
   currency: ~
   international_prefix: "00"
+  ioc: 
   latitude: "22 10 N"
   longitude: "113 33 E"
   name: Macao
@@ -3303,12 +3596,14 @@ MO:
   number: "446"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: MO
 MP: 
   alpha2: MP
   alpha3: MNP
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: 
   latitude: "15 12 N"
   longitude: "145 45 E"
   name: "Northern Mariana Islands"
@@ -3325,12 +3620,14 @@ MP:
   number: "580"
   region: Oceania
   subregion: Micronesia
+  un_locode: MP
 MQ: 
   alpha2: MQ
   alpha3: MTQ
   country_code: "596"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: ""
   longitude: ""
   name: Martinique
@@ -3347,12 +3644,14 @@ MQ:
   number: "474"
   region: Americas
   subregion: Caribbean
+  un_locode: MQ
 MR: 
   alpha2: MR
   alpha3: MRT
   country_code: "222"
   currency: MRO
   international_prefix: "00"
+  ioc: MTN
   latitude: "20 00 N"
   longitude: "12 00 W"
   name: Mauritania
@@ -3369,12 +3668,14 @@ MR:
   number: "478"
   region: Africa
   subregion: "Western Africa"
+  un_locode: MR
 MS: 
   alpha2: MS
   alpha3: MSR
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: 
   latitude: "16 45 N"
   longitude: "62 12 W"
   name: Montserrat
@@ -3391,12 +3692,14 @@ MS:
   number: "500"
   region: Americas
   subregion: Caribbean
+  un_locode: MS
 MT: 
   alpha2: MT
   alpha3: MLT
   country_code: "356"
   currency: EUR
   international_prefix: "00"
+  ioc: MLT
   latitude: "35 50 N"
   longitude: "14 35 E"
   name: Malta
@@ -3413,12 +3716,14 @@ MT:
   number: "470"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: MT
 MU: 
   alpha2: MU
   alpha3: MUS
   country_code: "230"
   currency: MUR
   international_prefix: "020"
+  ioc: MRI
   latitude: "20 17 S"
   longitude: "57 33 E"
   name: Mauritius
@@ -3435,12 +3740,14 @@ MU:
   number: "480"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: MU
 MV: 
   alpha2: MV
   alpha3: MDV
   country_code: "960"
   currency: MVR
   international_prefix: "00"
+  ioc: MDV
   latitude: "3 15 N"
   longitude: "73 00 E"
   name: Maldives
@@ -3456,12 +3763,14 @@ MV:
   number: "462"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: MV
 MW: 
   alpha2: MW
   alpha3: MWI
   country_code: "265"
   currency: MWK
   international_prefix: "00"
+  ioc: MAW
   latitude: "13 30 S"
   longitude: "34 00 E"
   name: Malawi
@@ -3475,6 +3784,7 @@ MW:
   number: "454"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: MW
 MX: 
   address_format: |-
       {{recipient}}
@@ -3486,6 +3796,7 @@ MX:
   country_code: "52"
   currency: MXN
   international_prefix: "00"
+  ioc: MEX
   latitude: "23 00 N"
   longitude: "102 00 W"
   name: Mexico
@@ -3504,12 +3815,14 @@ MX:
   number: "484"
   region: Americas
   subregion: "Central America"
+  un_locode: MX
 MY: 
   alpha2: MY
   alpha3: MYS
   country_code: "60"
   currency: MYR
   international_prefix: "00"
+  ioc: MAS
   latitude: "2 30 N"
   longitude: "112 30 E"
   name: Malaysia
@@ -3526,12 +3839,14 @@ MY:
   number: "458"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: MY
 MZ: 
   alpha2: MZ
   alpha3: MOZ
   country_code: "258"
   currency: MZN
   international_prefix: "00"
+  ioc: MOZ
   latitude: "18 15 S"
   longitude: "35 00 E"
   name: Mozambique
@@ -3549,6 +3864,7 @@ MZ:
   number: "508"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: MZ
 NA: 
   alpha2: NA
   alpha3: NAM
@@ -3556,6 +3872,7 @@ NA:
   country_code: "264"
   currency: NAD
   international_prefix: "00"
+  ioc: NAM
   latitude: "22 00 S"
   longitude: "17 00 E"
   name: Namibia
@@ -3573,12 +3890,14 @@ NA:
   number: "516"
   region: Africa
   subregion: "Southern Africa"
+  un_locode: NA
 NC: 
   alpha2: NC
   alpha3: NCL
   country_code: "687"
   currency: XPF
   international_prefix: "00"
+  ioc: 
   latitude: "21 30 S"
   longitude: "165 30 E"
   name: "New Caledonia"
@@ -3595,12 +3914,14 @@ NC:
   number: "540"
   region: Oceania
   subregion: Melanesia
+  un_locode: NC
 NE: 
   alpha2: NE
   alpha3: NER
   country_code: "227"
   currency: XOF
   international_prefix: "00"
+  ioc: NIG
   latitude: "16 00 N"
   longitude: "8 00 E"
   name: Niger
@@ -3614,12 +3935,14 @@ NE:
   number: "562"
   region: Africa
   subregion: "Western Africa"
+  un_locode: NE
 NF: 
   alpha2: NF
   alpha3: NFK
   country_code: "672"
   currency: AUD
   international_prefix: "00"
+  ioc: 
   latitude: "29 02 S"
   longitude: "167 57 E"
   name: "Norfolk Island"
@@ -3636,12 +3959,14 @@ NF:
   number: "574"
   region: Oceania
   subregion: "Australia and New Zealand"
+  un_locode: NF
 NG: 
   alpha2: NG
   alpha3: NGA
   country_code: "234"
   currency: NGN
   international_prefix: 009
+  ioc: NGR
   latitude: "10 00 N"
   longitude: "8 00 E"
   name: Nigeria
@@ -3658,12 +3983,14 @@ NG:
   number: "566"
   region: Africa
   subregion: "Western Africa"
+  un_locode: NG
 NI: 
   alpha2: NI
   alpha3: NIC
   country_code: "505"
   currency: NIO
   international_prefix: "00"
+  ioc: NCA
   latitude: "13 00 N"
   longitude: "85 00 W"
   name: Nicaragua
@@ -3680,6 +4007,7 @@ NI:
   number: "558"
   region: Americas
   subregion: "Central America"
+  un_locode: NI
 NL: 
   address_format: |-
       {{recipient}}
@@ -3691,6 +4019,7 @@ NL:
   country_code: "31"
   currency: EUR
   international_prefix: "00"
+  ioc: NED
   latitude: "52 30 N"
   longitude: "5 45 E"
   name: Netherlands
@@ -3707,6 +4036,7 @@ NL:
   number: "528"
   region: Europe
   subregion: "Western Europe"
+  un_locode: NL
 "NO": 
   address_format: |-
       {{recipient}}
@@ -3718,6 +4048,7 @@ NL:
   country_code: "47"
   currency: NOK
   international_prefix: "00"
+  ioc: NED
   latitude: "62 00 N"
   longitude: "10 00 E"
   name: Norway
@@ -3734,12 +4065,14 @@ NL:
   number: "578"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: NL
 NP: 
   alpha2: NP
   alpha3: NPL
   country_code: "977"
   currency: NPR
   international_prefix: "00"
+  ioc: NEP
   latitude: "28 00 N"
   longitude: "84 00 E"
   name: Nepal
@@ -3758,12 +4091,14 @@ NP:
   number: "524"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: NP
 NR: 
   alpha2: NR
   alpha3: NRU
   country_code: "674"
   currency: AUD
   international_prefix: "00"
+  ioc: NRU
   latitude: "0 32 S"
   longitude: "166 55 E"
   name: Nauru
@@ -3780,12 +4115,14 @@ NR:
   number: "520"
   region: Oceania
   subregion: Micronesia
+  un_locode: NR
 NU: 
   alpha2: NU
   alpha3: NIU
   country_code: "683"
   currency: ~
   international_prefix: "00"
+  ioc: 
   latitude: "19 02 S"
   longitude: "169 52 W"
   name: Niue
@@ -3799,6 +4136,7 @@ NU:
   number: "570"
   region: Oceania
   subregion: Polynesia
+  un_locode: NU
 NZ: 
   address_format: |-
       {{recipient}}
@@ -3811,6 +4149,7 @@ NZ:
   country_code: "64"
   currency: NZD
   international_prefix: "00"
+  ioc: NZL
   latitude: "41 00 S"
   longitude: "174 00 E"
   name: "New Zealand"
@@ -3828,6 +4167,7 @@ NZ:
   number: "554"
   region: Oceania
   subregion: "Australia and New Zealand"
+  un_locode: NZ
 OM: 
   address_format: |-
       {{recipient}}
@@ -3840,6 +4180,7 @@ OM:
   country_code: "968"
   currency: OMR
   international_prefix: "00"
+  ioc: OMA
   latitude: "21 00 N"
   longitude: "57 00 E"
   name: Oman
@@ -3854,6 +4195,7 @@ OM:
   number: "512"
   region: Asia
   subregion: "Western Asia"
+  un_locode: OM
 PA: 
   alpha2: PA
   alpha3: PAN
@@ -3861,6 +4203,7 @@ PA:
   country_code: "507"
   currency: PAB
   international_prefix: "00"
+  ioc: PAN
   latitude: "9 00 N"
   longitude: "80 00 W"
   name: Panama
@@ -3875,12 +4218,14 @@ PA:
   number: "591"
   region: Americas
   subregion: "Central America"
+  un_locode: PA
 PE: 
   alpha2: PE
   alpha3: PER
   country_code: "51"
   currency: PEN
   international_prefix: "00"
+  ioc: PER
   latitude: "10 00 S"
   longitude: "76 00 W"
   name: Peru
@@ -3897,12 +4242,14 @@ PE:
   number: "604"
   region: Americas
   subregion: "South America"
+  un_locode: PE
 PF: 
   alpha2: PF
   alpha3: PYF
   country_code: "689"
   currency: XPF
   international_prefix: "00"
+  ioc: 
   latitude: "15 00 S"
   longitude: "140 00 W"
   name: "French Polynesia"
@@ -3919,12 +4266,14 @@ PF:
   number: "258"
   region: Oceania
   subregion: Polynesia
+  un_locode: PF
 PG: 
   alpha2: PG
   alpha3: PNG
   country_code: "675"
   currency: PGK
   international_prefix: "05"
+  ioc: PNG
   latitude: "6 00 S"
   longitude: "147 00 E"
   name: "Papua New Guinea"
@@ -3941,6 +4290,7 @@ PG:
   number: "598"
   region: Oceania
   subregion: Melanesia
+  un_locode: PG
 PH: 
   address_format: |-
       {{recipient}}
@@ -3952,6 +4302,7 @@ PH:
   country_code: "63"
   currency: PHP
   international_prefix: "00"
+  ioc: PHI
   latitude: "13 00 N"
   longitude: "122 00 E"
   name: Philippines
@@ -3969,12 +4320,14 @@ PH:
   number: "608"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: PH
 PK: 
   alpha2: PK
   alpha3: PAK
   country_code: "92"
   currency: PKR
   international_prefix: "00"
+  ioc: PAK
   latitude: "30 00 N"
   longitude: "70 00 E"
   name: Pakistan
@@ -3990,6 +4343,7 @@ PK:
   number: "586"
   region: Asia
   subregion: "Southern Asia"
+  un_locode: PK
 PL: 
   address_format: |-
       {{recipient}}
@@ -4002,6 +4356,7 @@ PL:
   country_code: "48"
   currency: PLN
   international_prefix: "00"
+  ioc: POL
   latitude: "52 00 N"
   longitude: "20 00 E"
   name: Poland
@@ -4018,12 +4373,14 @@ PL:
   number: "616"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: PL
 PM: 
   alpha2: PM
   alpha3: SPM
   country_code: "508"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: "46 50 N"
   longitude: "56 20 W"
   name: "Saint Pierre And Miquelon"
@@ -4040,12 +4397,14 @@ PM:
   number: "666"
   region: Americas
   subregion: "Northern America"
+  un_locode: PM
 PN: 
   alpha2: PN
   alpha3: PCN
   country_code: ""
   currency: NZD
   international_prefix: "00"
+  ioc: 
   latitude: "25 04 S"
   longitude: "130 06 W"
   name: Pitcairn
@@ -4058,12 +4417,14 @@ PN:
   number: "612"
   region: Oceania
   subregion: Polynesia
+  un_locode: PN
 PR: 
   alpha2: PR
   alpha3: PRI
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: PUR
   latitude: "18 15 N"
   longitude: "66 30 W"
   name: "Puerto Rico"
@@ -4077,12 +4438,14 @@ PR:
   number: "630"
   region: Americas
   subregion: Caribbean
+  un_locode: PR
 PS: 
   alpha2: PS
   alpha3: PSE
   country_code: "970"
   currency: ~
   international_prefix: "00"
+  ioc: PLE
   latitude: ""
   longitude: ""
   name: "Palestinian Territory, Occupied"
@@ -4100,6 +4463,7 @@ PS:
   number: "275"
   region: Asia
   subregion: "Western Asia"
+  un_locode: 
 PT: 
   address_format: |-
       {{recipient}}
@@ -4111,6 +4475,7 @@ PT:
   country_code: "351"
   currency: EUR
   international_prefix: "00"
+  ioc: POR
   latitude: "39 30 N"
   longitude: "8 00 W"
   name: Portugal
@@ -4124,12 +4489,14 @@ PT:
   number: "620"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: PT
 PW: 
   alpha2: PW
   alpha3: PLW
   country_code: "680"
   currency: USD
   international_prefix: "00"
+  ioc: PLW
   latitude: "7 30 N"
   longitude: "134 30 E"
   name: Palau
@@ -4143,12 +4510,14 @@ PW:
   number: "585"
   region: Oceania
   subregion: Micronesia
+  un_locode: PW
 PY: 
   alpha2: PY
   alpha3: PRY
   country_code: "595"
   currency: PYG
   international_prefix: "002"
+  ioc: PAR
   latitude: "23 00 S"
   longitude: "58 00 W"
   name: Paraguay
@@ -4162,6 +4531,7 @@ PY:
   number: "600"
   region: Americas
   subregion: "South America"
+  un_locode: PY
 QA: 
   address_format: |-
       {{recipient}}
@@ -4173,6 +4543,7 @@ QA:
   country_code: "974"
   currency: QAR
   international_prefix: "00"
+  ioc: QAT
   latitude: "25 30 N"
   longitude: "51 15 E"
   name: Qatar
@@ -4187,12 +4558,14 @@ QA:
   number: "634"
   region: Asia
   subregion: "Western Asia"
+  un_locode: QA
 RE: 
   alpha2: RE
   alpha3: REU
   country_code: "262"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: ""
   longitude: ""
   name: Réunion
@@ -4209,6 +4582,7 @@ RE:
   number: "638"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: RE
 RO: 
   address_format: |-
       {{recipient}}
@@ -4220,6 +4594,7 @@ RO:
   country_code: "40"
   currency: RON
   international_prefix: "00"
+  ioc: ROU
   latitude: "46 00 N"
   longitude: "25 00 E"
   name: Romania
@@ -4236,12 +4611,14 @@ RO:
   number: "642"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: RO
 RS: 
   alpha2: RS
   alpha3: SRB
   country_code: "381"
   currency: RSD
   international_prefix: "99"
+  ioc: SRB
   latitude: "44 00 N"
   longitude: "21 00 E"
   name: Serbia
@@ -4258,6 +4635,7 @@ RS:
   number: "688"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: RS
 RU: 
   address_format: |-
       {{recipient}}
@@ -4269,6 +4647,7 @@ RU:
   country_code: "7"
   currency: RUB
   international_prefix: "810"
+  ioc: RUS
   latitude: "60 00 N"
   longitude: "100 00 E"
   name: "Russian Federation"
@@ -4285,12 +4664,14 @@ RU:
   number: "643"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: RU
 RW: 
   alpha2: RW
   alpha3: RWA
   country_code: "250"
   currency: RWF
   international_prefix: "00"
+  ioc: RWA
   latitude: "2 00 S"
   longitude: "30 00 E"
   name: Rwanda
@@ -4308,6 +4689,7 @@ RW:
   number: "646"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: RW
 SA: 
   address_format: |-
       {{recipient}}
@@ -4319,6 +4701,7 @@ SA:
   country_code: "966"
   currency: SAR
   international_prefix: "00"
+  ioc: KSA
   latitude: "25 00 N"
   longitude: "45 00 E"
   name: "Saudi Arabia"
@@ -4336,12 +4719,14 @@ SA:
   number: "682"
   region: Asia
   subregion: "Western Asia"
+  un_locode: SA
 SB: 
   alpha2: SB
   alpha3: SLB
   country_code: "677"
   currency: SBD
   international_prefix: "00"
+  ioc: SOL
   latitude: "8 00 S"
   longitude: "159 00 E"
   name: "Solomon Islands"
@@ -4358,12 +4743,14 @@ SB:
   number: 090
   region: Oceania
   subregion: Melanesia
+  un_locode: SB
 SC: 
   alpha2: SC
   alpha3: SYC
   country_code: "248"
   currency: SCR
   international_prefix: "00"
+  ioc: SEY
   latitude: "4 35 S"
   longitude: "55 40 E"
   name: Seychelles
@@ -4377,12 +4764,14 @@ SC:
   number: "690"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: SC
 SD: 
   alpha2: SD
   alpha3: SDN
   country_code: "249"
   currency: SDG
   international_prefix: "00"
+  ioc: SUD
   latitude: "15 00 N"
   longitude: "30 00 E"
   name: Sudan
@@ -4398,6 +4787,7 @@ SD:
   number: "736"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: SD
 SE: 
   address_format: |-
       {{recipient}}
@@ -4409,6 +4799,7 @@ SE:
   country_code: "46"
   currency: SEK
   international_prefix: "00"
+  ioc: SWE
   latitude: "62 00 N"
   longitude: "15 00 E"
   name: Sweden
@@ -4425,6 +4816,7 @@ SE:
   number: "752"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: SE
 SG: 
   address_format: |-
       {{recipient}}
@@ -4436,6 +4828,7 @@ SG:
   country_code: "65"
   currency: SGD
   international_prefix: "001"
+  ioc: SIN
   latitude: "1 22 N"
   longitude: "103 48 E"
   name: Singapore
@@ -4453,12 +4846,14 @@ SG:
   number: "702"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: SG
 SH: 
   alpha2: SH
   alpha3: SHN
   country_code: "290"
   currency: SHP
   international_prefix: "00"
+  ioc: 
   latitude: "Saint Helena: 15 57 "
   longitude: "Saint Helena: 5 42 W"
   name: "Saint Helena"
@@ -4475,6 +4870,7 @@ SH:
   number: "654"
   region: Africa
   subregion: "Western Africa"
+  un_locode: SH
 SI: 
   address_format: |-
       {{recipient}}
@@ -4486,6 +4882,7 @@ SI:
   country_code: "386"
   currency: EUR
   international_prefix: "00"
+  ioc: SLO
   latitude: "46 07 N"
   longitude: "14 49 E"
   name: Slovenia
@@ -4502,12 +4899,14 @@ SI:
   number: "705"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: SI
 SJ: 
   alpha2: SJ
   alpha3: SJM
   country_code: "47"
   currency: NOK
   international_prefix: "00"
+  ioc: 
   latitude: "78 00 N"
   longitude: "20 00 E"
   name: "Svalbard And Jan Mayen"
@@ -4524,6 +4923,7 @@ SJ:
   number: "744"
   region: Europe
   subregion: "Northern Europe"
+  un_locode: SJ
 SK: 
   address_format: |-
       {{recipient}}
@@ -4535,6 +4935,7 @@ SK:
   country_code: "421"
   currency: EUR
   international_prefix: "00"
+  ioc: SVK
   latitude: "48 40 N"
   longitude: "19 30 E"
   name: Slovakia
@@ -4551,12 +4952,14 @@ SK:
   number: "703"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: SK
 SL: 
   alpha2: SL
   alpha3: SLE
   country_code: "232"
   currency: SLL
   international_prefix: "00"
+  ioc: SLE
   latitude: "8 30 N"
   longitude: "11 30 W"
   name: "Sierra Leone"
@@ -4570,12 +4973,14 @@ SL:
   number: "694"
   region: Africa
   subregion: "Western Africa"
+  un_locode: SL
 SM: 
   alpha2: SM
   alpha3: SMR
   country_code: "378"
   currency: EUR
   international_prefix: "00"
+  ioc: SMR
   latitude: "43 46 N"
   longitude: "12 25 E"
   name: "San Marino"
@@ -4593,12 +4998,14 @@ SM:
   number: "674"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: SM
 SN: 
   alpha2: SN
   alpha3: SEN
   country_code: "221"
   currency: XOF
   international_prefix: "00"
+  ioc: SEN
   latitude: "14 00 N"
   longitude: "14 00 W"
   name: Senegal
@@ -4613,12 +5020,14 @@ SN:
   number: "686"
   region: Africa
   subregion: "Western Africa"
+  un_locode: SN
 SO: 
   alpha2: SO
   alpha3: SOM
   country_code: "252"
   currency: SOS
   international_prefix: "00"
+  ioc: SOM
   latitude: "10 00 N"
   longitude: "49 00 E"
   name: Somalia
@@ -4633,12 +5042,14 @@ SO:
   number: "706"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: SO
 SR: 
   alpha2: SR
   alpha3: SUR
   country_code: "597"
   currency: SRD
   international_prefix: "00"
+  ioc: SUR
   latitude: "4 00 N"
   longitude: "56 00 W"
   name: Suriname
@@ -4653,12 +5064,14 @@ SR:
   number: "740"
   region: Americas
   subregion: "South America"
+  un_locode: SR
 ST: 
   alpha2: ST
   alpha3: STP
   country_code: "239"
   currency: STD
   international_prefix: "00"
+  ioc: STP
   latitude: "1 00 N"
   longitude: "7 00 E"
   name: "Sao Tome and Principe"
@@ -4676,12 +5089,14 @@ ST:
   number: "678"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: ST
 SV: 
   alpha2: SV
   alpha3: SLV
   country_code: "503"
   currency: USD
   international_prefix: "00"
+  ioc: ESA
   latitude: "13 50 N"
   longitude: "88 55 W"
   name: "El Salvador"
@@ -4696,6 +5111,7 @@ SV:
   number: "222"
   region: Americas
   subregion: "Central America"
+  un_locode: SV
 SY: 
   address_format: |-
       {{recipient}}
@@ -4707,6 +5123,7 @@ SY:
   country_code: "963"
   currency: SYP
   international_prefix: "00"
+  ioc: SYR
   latitude: "35 00 N"
   longitude: "38 00 E"
   name: "Syrian Arab Republic"
@@ -4724,12 +5141,14 @@ SY:
   number: "760"
   region: Asia
   subregion: "Western Asia"
+  un_locode: SY
 SZ: 
   alpha2: SZ
   alpha3: SWZ
   country_code: "268"
   currency: SZL
   international_prefix: "00"
+  ioc: SWZ
   latitude: "26 30 S"
   longitude: "31 30 E"
   name: Swaziland
@@ -4746,12 +5165,14 @@ SZ:
   number: "748"
   region: Africa
   subregion: "Southern Africa"
+  un_locode: SZ
 TC: 
   alpha2: TC
   alpha3: TCA
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: 
   latitude: "21 45 N"
   longitude: "71 35 W"
   name: "Turks and Caicos Islands"
@@ -4768,12 +5189,14 @@ TC:
   number: "796"
   region: Americas
   subregion: Caribbean
+  un_locode: TC
 TD: 
   alpha2: TD
   alpha3: TCD
   country_code: "235"
   currency: XAF
   international_prefix: "15"
+  ioc: CHA
   latitude: "15 00 N"
   longitude: "19 00 E"
   name: Chad
@@ -4789,12 +5212,14 @@ TD:
   number: "148"
   region: Africa
   subregion: "Middle Africa"
+  un_locode: TD
 TF: 
   alpha2: TF
   alpha3: ATF
   country_code: ""
   currency: EUR
   international_prefix: ""
+  ioc: 
   latitude: ""
   longitude: ""
   name: "French Southern Territories"
@@ -4809,12 +5234,14 @@ TF:
   number: "260"
   region: ""
   subregion: ""
+  un_locode: 
 TG: 
   alpha2: TG
   alpha3: TGO
   country_code: "228"
   currency: XOF
   international_prefix: "00"
+  ioc: TOG
   latitude: "8 00 N"
   longitude: "1 10 E"
   name: Togo
@@ -4828,12 +5255,14 @@ TG:
   number: "768"
   region: Africa
   subregion: "Western Africa"
+  un_locode: TG
 TH: 
   alpha2: TH
   alpha3: THA
   country_code: "66"
   currency: THB
   international_prefix: "001"
+  ioc: THA
   latitude: "15 00 N"
   longitude: "100 00 E"
   name: Thailand
@@ -4851,6 +5280,7 @@ TH:
   number: "764"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: TH
 TJ: 
   alpha2: TJ
   alpha3: TJK
@@ -4858,6 +5288,7 @@ TJ:
   country_code: "992"
   currency: TJS
   international_prefix: "810"
+  ioc: TJK
   latitude: "39 00 N"
   longitude: "71 00 E"
   name: Tajikistan
@@ -4874,12 +5305,14 @@ TJ:
   number: "762"
   region: Asia
   subregion: "Central Asia"
+  un_locode: TJ
 TK: 
   alpha2: TK
   alpha3: TKL
   country_code: "690"
   currency: NZD
   international_prefix: "00"
+  ioc: 
   latitude: "9 00 S"
   longitude: "172 00 W"
   name: Tokelau
@@ -4896,12 +5329,14 @@ TK:
   number: "772"
   region: Oceania
   subregion: Polynesia
+  un_locode: TK
 TL: 
   alpha2: TL
   alpha3: TLS
   country_code: "670"
   currency: IDR
   international_prefix: None
+  ioc: 
   latitude: "8 50 S"
   longitude: "125 55 E"
   name: Timor-Leste
@@ -4918,12 +5353,14 @@ TL:
   number: "626"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: 
 TM: 
   alpha2: TM
   alpha3: TKM
   country_code: "993"
   currency: ~
   international_prefix: "810"
+  ioc: TKM
   latitude: "40 00 N"
   longitude: "60 00 E"
   name: Turkmenistan
@@ -4940,12 +5377,14 @@ TM:
   number: "795"
   region: Asia
   subregion: "Central Asia"
+  un_locode: TM
 TN: 
   alpha2: TN
   alpha3: TUN
   country_code: "216"
   currency: TND
   international_prefix: "00"
+  ioc: TUN
   latitude: "34 00 N"
   longitude: "9 00 E"
   name: Tunisia
@@ -4962,12 +5401,14 @@ TN:
   number: "788"
   region: Africa
   subregion: "Northern Africa"
+  un_locode: TN
 TO: 
   alpha2: TO
   alpha3: TON
   country_code: "676"
   currency: TOP
   international_prefix: "00"
+  ioc: TGA
   latitude: "20 00 S"
   longitude: "175 00 W"
   name: Tonga
@@ -4983,6 +5424,7 @@ TO:
   number: "776"
   region: Oceania
   subregion: Polynesia
+  un_locode: TO
 TR: 
   address_format: |-
       {{recipient}}
@@ -4994,6 +5436,7 @@ TR:
   country_code: "90"
   currency: TRY
   international_prefix: "00"
+  ioc: TUR
   latitude: "39 00 N"
   longitude: "35 00 E"
   name: Turkey
@@ -5010,12 +5453,14 @@ TR:
   number: "792"
   region: Asia
   subregion: "Western Asia"
+  un_locode: TR
 TT: 
   alpha2: TT
   alpha3: TTO
   country_code: "1"
   currency: TTD
   international_prefix: "011"
+  ioc: TRI
   latitude: "11 00 N"
   longitude: "61 00 W"
   name: "Trinidad and Tobago"
@@ -5032,12 +5477,14 @@ TT:
   number: "780"
   region: Americas
   subregion: Caribbean
+  un_locode: TT
 TV: 
   alpha2: TV
   alpha3: TUV
   country_code: "688"
   currency: TVD
   international_prefix: "00"
+  ioc: TUV
   latitude: "8 00 S"
   longitude: "178 00 E"
   name: Tuvalu
@@ -5054,6 +5501,7 @@ TV:
   number: "798"
   region: Oceania
   subregion: Polynesia
+  un_locode: TV
 TW: 
   address_format: |-
       {{recipient}}
@@ -5065,6 +5513,7 @@ TW:
   country_code: "886"
   currency: TWD
   international_prefix: "002"
+  ioc: TPE
   latitude: "23 30 N"
   longitude: "121 00 E"
   name: "Taiwan, Province Of China"
@@ -5080,12 +5529,14 @@ TW:
   number: "158"
   region: Asia
   subregion: "Eastern Asia"
+  un_locode: TW
 TZ: 
   alpha2: TZ
   alpha3: TZA
   country_code: "255"
   currency: TZS
   international_prefix: "000"
+  ioc: TAN
   latitude: "6 00 S"
   longitude: "35 00 E"
   name: "Tanzania, United Republic of"
@@ -5101,6 +5552,7 @@ TZ:
   number: "834"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: TZ
 UA: 
   address_format: |-
       {{recipient}}
@@ -5113,6 +5565,7 @@ UA:
   country_code: "380"
   currency: UAH
   international_prefix: "810"
+  ioc: UKR
   latitude: "49 00 N"
   longitude: "32 00 E"
   name: Ukraine
@@ -5130,12 +5583,14 @@ UA:
   number: "804"
   region: Europe
   subregion: "Eastern Europe"
+  un_locode: UA
 UG: 
   alpha2: UG
   alpha3: UGA
   country_code: "256"
   currency: UGX
   international_prefix: "000"
+  ioc: UGA
   latitude: "1 00 N"
   longitude: "32 00 E"
   name: Uganda
@@ -5149,12 +5604,14 @@ UG:
   number: "800"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: UG
 UM: 
   alpha2: UM
   alpha3: UMI
   country_code: ""
   currency: USD
   international_prefix: ""
+  ioc: 
   latitude: ""
   longitude: ""
   name: "United States Minor Outlying Islands"
@@ -5169,6 +5626,7 @@ UM:
   number: "581"
   region: Americas
   subregion: "Northern America"
+  un_locode: UM
 US: 
   address_format: |-
       {{recipient}}
@@ -5180,6 +5638,7 @@ US:
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: USA
   latitude: "38 00 N"
   longitude: "97 00 W"
   name: "United States"
@@ -5196,12 +5655,14 @@ US:
   number: "840"
   region: Americas
   subregion: "Northern America"
+  un_locode: US
 UY: 
   alpha2: UY
   alpha3: URY
   country_code: "598"
   currency: UYU
   international_prefix: "00"
+  ioc: URU
   latitude: "33 00 S"
   longitude: "56 00 W"
   name: Uruguay
@@ -5216,12 +5677,14 @@ UY:
   number: "858"
   region: Americas
   subregion: "South America"
+  un_locode: UY
 UZ: 
   alpha2: UZ
   alpha3: UZB
   country_code: "998"
   currency: UZS
   international_prefix: "810"
+  ioc: UZB
   latitude: "41 00 N"
   longitude: "64 00 E"
   name: Uzbekistan
@@ -5238,12 +5701,14 @@ UZ:
   number: "860"
   region: Asia
   subregion: "Central Asia"
+  un_locode: UZ
 VA: 
   alpha2: VA
   alpha3: VAT
   country_code: "39"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: "41 54 N"
   longitude: "12 27 E"
   name: "Holy See (Vatican City State)"
@@ -5260,12 +5725,14 @@ VA:
   number: "336"
   region: Europe
   subregion: "Southern Europe"
+  un_locode: VA
 VC: 
   alpha2: VC
   alpha3: VCT
   country_code: "1"
   currency: XCD
   international_prefix: "011"
+  ioc: VIN
   latitude: "13 15 N"
   longitude: "61 12 W"
   name: "Saint Vincent And The Grenedines"
@@ -5282,12 +5749,14 @@ VC:
   number: "670"
   region: Americas
   subregion: Caribbean
+  un_locode: VC
 VE: 
   alpha2: VE
   alpha3: VEN
   country_code: "58"
   currency: VEF
   international_prefix: "00"
+  ioc: VEN
   latitude: "8 00 N"
   longitude: "66 00 W"
   name: "Venezuela, Bolivarian Republic of"
@@ -5301,12 +5770,14 @@ VE:
   number: "862"
   region: Americas
   subregion: "South America"
+  un_locode: VE
 VG: 
   alpha2: VG
   alpha3: VGB
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: IVB
   latitude: ""
   longitude: ""
   name: "Virgin Islands, British"
@@ -5323,12 +5794,14 @@ VG:
   number: 092
   region: Americas
   subregion: Caribbean
+  un_locode: VG
 VI: 
   alpha2: VI
   alpha3: VIR
   country_code: "1"
   currency: USD
   international_prefix: "011"
+  ioc: ISV
   latitude: ""
   longitude: ""
   name: "Virgin Islands, U.S."
@@ -5345,12 +5818,14 @@ VI:
   number: "850"
   region: Americas
   subregion: Caribbean
+  un_locode: VI
 VN: 
   alpha2: VN
   alpha3: VNM
   country_code: "84"
   currency: VND
   international_prefix: "00"
+  ioc: VIE
   latitude: "16 10 N"
   longitude: "107 50 E"
   name: "Viet Nam"
@@ -5367,12 +5842,14 @@ VN:
   number: "704"
   region: Asia
   subregion: "South-Eastern Asia"
+  un_locode: VN
 VU: 
   alpha2: VU
   alpha3: VUT
   country_code: "678"
   currency: ~
   international_prefix: "00"
+  ioc: VAN
   latitude: "16 00 S"
   longitude: "167 00 E"
   name: Vanuatu
@@ -5388,12 +5865,14 @@ VU:
   number: "548"
   region: Oceania
   subregion: Melanesia
+  un_locode: VU
 WF: 
   alpha2: WF
   alpha3: WLF
   country_code: "681"
   currency: XPF
   international_prefix: "19"
+  ioc: 
   latitude: "13 18 S"
   longitude: "176 12 W"
   name: "Wallis and Futuna"
@@ -5410,12 +5889,14 @@ WF:
   number: "876"
   region: Oceania
   subregion: Polynesia
+  un_locode: WF
 WS: 
   alpha2: WS
   alpha3: WSM
   country_code: "685"
   currency: USD
   international_prefix: "00"
+  ioc: SAM
   latitude: "13 35 S"
   longitude: "172 20 W"
   name: Samoa
@@ -5430,6 +5911,7 @@ WS:
   number: "882"
   region: Oceania
   subregion: Polynesia
+  un_locode: WS
 YE: 
   address_format: |-
       {{recipient}}
@@ -5441,6 +5923,7 @@ YE:
   country_code: "967"
   currency: YER
   international_prefix: "00"
+  ioc: YEM
   latitude: "15 00 N"
   longitude: "48 00 E"
   name: Yemen
@@ -5458,12 +5941,14 @@ YE:
   number: "887"
   region: Asia
   subregion: "Western Asia"
+  un_locode: YE
 YT: 
   alpha2: YT
   alpha3: MYT
   country_code: "269"
   currency: EUR
   international_prefix: "00"
+  ioc: 
   latitude: "12 50 S"
   longitude: "45 10 E"
   name: Mayotte
@@ -5480,6 +5965,7 @@ YT:
   number: "175"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: YT
 ZA: 
   address_format: |-
       {{recipient}}
@@ -5493,6 +5979,7 @@ ZA:
   country_code: "27"
   currency: ZAR
   international_prefix: 09
+  ioc: RSA
   latitude: "29 00 S"
   longitude: "24 00 E"
   name: "South Africa"
@@ -5509,12 +5996,14 @@ ZA:
   number: "710"
   region: Africa
   subregion: "Southern Africa"
+  un_locode: ZA
 ZM: 
   alpha2: ZM
   alpha3: ZMB
   country_code: "260"
   currency: ZMK
   international_prefix: "00"
+  ioc: ZAM
   latitude: "15 00 S"
   longitude: "30 00 E"
   name: Zambia
@@ -5530,12 +6019,14 @@ ZM:
   number: "894"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: ZM
 ZW: 
   alpha2: ZW
   alpha3: ZWE
   country_code: "263"
   currency: ZWD
   international_prefix: "00"
+  ioc: ZIM
   latitude: "20 00 S"
   longitude: "30 00 E"
   name: Zimbabwe
@@ -5554,3 +6045,4 @@ ZW:
   number: "716"
   region: Africa
   subregion: "Eastern Africa"
+  un_locode: ZW
