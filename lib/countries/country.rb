@@ -21,7 +21,9 @@ class ISO3166::Country
     :national_number_lengths,
     :international_prefix,
     :national_prefix,
-    :address_format
+    :address_format,
+    :ioc,
+    :un_locode
   ]
 
   AttrReaders.each do |meth|
