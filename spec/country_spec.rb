@@ -41,6 +41,14 @@ describe ISO3166::Country do
   it 'should return subregion' do
     country.subregion.should == 'Northern America'
   end
+  
+  it 'should return ioc code' do
+    country.ioc.should == 'USA'
+  end
+  
+  it 'should return UN/LOCODE' do
+    country.un_locode.should == 'US'
+  end
 
   describe 'e164' do
     it 'should return country_code' do
@@ -108,7 +116,7 @@ describe ISO3166::Country do
       ISO3166::Country.search('US').should be_a(ISO3166::Country)
     end
 
-    it 'should return fals when an invalid alpha2 string is passed' do
+    it 'should return false when an invalid alpha2 string is passed' do
       ISO3166::Country.search('fubar').should be_false
     end
 
