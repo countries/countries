@@ -8,18 +8,18 @@ module ActionView
       end
 
       def country_options_for_select(selected = nil, priority_countries = nil)
-        country_options = ""
+        country_options = "".html_safe
 
         if priority_countries
           priority_countries = [*priority_countries].map {|x| [x,ISO3166::Country::NameIndex[x]] }
           country_options += options_for_select(priority_countries, selected)
-          country_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
+          country_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n".html_safe
         end
 
         return country_options + options_for_select(ISO3166::Country::Names, selected)
       end
     end
-    
+
     class InstanceTag
       def to_country_select_tag(priority_countries, options, html_options)
         html_options = html_options.stringify_keys
@@ -33,7 +33,7 @@ module ActionView
         )
       end
     end
-    
+
     class FormBuilder
       def country_select(method, priority_countries = nil, options = {}, html_options = {})
         @template.country_select(@object_name, method, priority_countries, options.merge(:object => @object), html_options)
