@@ -42,6 +42,10 @@ class ISO3166::Country
     !!@data
   end
 
+  def ==(other)
+    self.data == other.data
+  end
+
   def currency
     ISO4217::Currency.from_code(@data['currency'])
   end
