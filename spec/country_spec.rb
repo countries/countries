@@ -50,6 +50,10 @@ describe ISO3166::Country do
     country.un_locode.should == 'US'
   end
 
+  it 'should return language' do
+    country.languages[0].should == 'en'
+  end
+
   describe 'e164' do
     it 'should return country_code' do
       country.country_code.should == '1'
@@ -204,6 +208,7 @@ describe ISO3166::Country do
       its(:first) { should be_a(String) }
       its(:last) { should be_a(Hash) }
     end
+
   end
 
   describe "country finder methods" do
@@ -272,6 +277,14 @@ describe ISO3166::Country do
     
     it 'should have a currency' do
       norway.currency.should be_a(ISO4217::Currency)
+    end
+  end
+
+  describe 'Languages' do
+    let(:german_speaking_countries) { ISO3166::Country.find_all_countries_by_languages('de') }
+
+    it "should find countries by language" do
+      german_speaking_countries.size.should == 6
     end
   end
 
