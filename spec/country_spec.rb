@@ -50,6 +50,10 @@ describe ISO3166::Country do
     country.un_locode.should == 'US'
   end
 
+  it 'should be identical to itself' do
+    country.should == ISO3166::Country.search('US')
+  end
+
   describe 'e164' do
     it 'should return country_code' do
       country.country_code.should == '1'
