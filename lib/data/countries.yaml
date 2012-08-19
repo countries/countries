@@ -24,6 +24,8 @@ AD:
   region: Europe
   subregion: "Southern Europe"
   un_locode: AD
+  languages:
+    - ca
 AE: 
   address_format: |-
       {{recipient}}
@@ -55,6 +57,8 @@ AE:
   region: Asia
   subregion: "Western Asia"
   un_locode: AE
+  languages:
+    - ar
 AF: 
   alpha2: AF
   alpha3: AFG
@@ -78,7 +82,11 @@ AF:
   region: Asia
   subregion: "Southern Asia"
   un_locode: AF
-AG: 
+  languages:
+    - ps
+    - uz
+    - tk
+AG:
   alpha2: AG
   alpha3: ATG
   country_code: "1"
@@ -102,6 +110,8 @@ AG:
   region: Americas
   subregion: Caribbean
   un_locode: AG
+  languages:
+    - en
 AI: 
   alpha2: AI
   alpha3: AIA
@@ -123,6 +133,8 @@ AI:
   region: Americas
   subregion: Caribbean
   un_locode: AI
+  languages:
+    - en
 AL: 
   alpha2: AL
   alpha3: ALB
@@ -148,6 +160,8 @@ AL:
   region: Europe
   subregion: "Southern Europe"
   un_locode: AL
+  languages:
+    - sq
 AM: 
   alpha2: AM
   alpha3: ARM
@@ -171,6 +185,9 @@ AM:
   region: Asia
   subregion: "Western Asia"
   un_locode: AM
+  languages:
+    - hy
+    - ru
 AN: 
   alpha2: AN
   alpha3: ANT
@@ -195,7 +212,10 @@ AN:
   region: Americas
   subregion: Caribbean
   un_locode: AN
-AO: 
+  languages:
+    - nl
+    - en
+AO:
   alpha2: AO
   alpha3: AGO
   country_code: "244"
@@ -216,6 +236,8 @@ AO:
   region: Africa
   subregion: "Middle Africa"
   un_locode: AO
+  languages:
+    - pt
 AQ: 
   alpha2: AQ
   alpha3: ATA
@@ -238,6 +260,7 @@ AQ:
   region: ""
   subregion: ""
   un_locode: AQ
+  languages: []
 AR: 
   address_format: |-
       {{recipient}}
@@ -268,6 +291,9 @@ AR:
   region: Americas
   subregion: "South America"
   un_locode: AR
+  languages:
+    - es
+    - gn
 AS: 
   alpha2: AS
   alpha3: ASM
@@ -292,6 +318,9 @@ AS:
   region: Oceania
   subregion: Polynesia
   un_locode: AS
+  languages:
+    - en
+    - sm
 AT: 
   address_format: |-
       {{recipient}}
@@ -328,7 +357,9 @@ AT:
   region: Europe
   subregion: "Western Europe"
   un_locode: AT
-AU: 
+  languages:
+    - de
+AU:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -356,6 +387,8 @@ AU:
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: AU
+  languages:
+    - en
 AW: 
   alpha2: AW
   alpha3: ABW
@@ -377,7 +410,9 @@ AW:
   region: Americas
   subregion: Caribbean
   un_locode: AW
-AX: 
+  languages:
+    - nl
+AX:
   alpha2: AX
   alpha3: ALA
   country_code: "358"
@@ -395,7 +430,9 @@ AX:
   number: "248"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - sv
 AZ: 
   alpha2: AZ
   alpha3: AZE
@@ -421,6 +458,9 @@ AZ:
   region: Asia
   subregion: "Western Asia"
   un_locode: AZ
+  languages:
+    - az
+    - hy
 BA: 
   address_format: |-
       {{recipient}}
@@ -450,6 +490,10 @@ BA:
   region: Europe
   subregion: "Southern Europe"
   un_locode: BA
+  languages:
+    - bs
+    - hr
+    - sr
 BB: 
   alpha2: BB
   alpha3: BRB
@@ -472,6 +516,8 @@ BB:
   region: Americas
   subregion: Caribbean
   un_locode: BB
+  languages:
+    - en
 BD: 
   alpha2: BD
   alpha3: BGD
@@ -494,6 +540,8 @@ BD:
   region: Asia
   subregion: "Southern Asia"
   un_locode: BD
+  languages:
+    - bn
 BE: 
   address_format: |-
       {{recipient}}
@@ -524,6 +572,10 @@ BE:
   region: Europe
   subregion: "Western Europe"
   un_locode: BE
+  languages:
+    - nl
+    - fr
+    - de
 BF: 
   alpha2: BF
   alpha3: BFA
@@ -545,7 +597,10 @@ BF:
   region: Africa
   subregion: "Western Africa"
   un_locode: BF
-BG: 
+  languages:
+    - fr
+    - ff
+BG:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -575,6 +630,8 @@ BG:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: BG
+  languages:
+    - bg
 BH: 
   address_format: |-
       {{recipient}}
@@ -603,6 +660,8 @@ BH:
   region: Asia
   subregion: "Western Asia"
   un_locode: BH
+  languages:
+    - ar
 BI: 
   alpha2: BI
   alpha3: BDI
@@ -624,6 +683,9 @@ BI:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: BI
+  languages:
+    - fr
+    - rn
 BJ: 
   alpha2: BJ
   alpha3: BEN
@@ -646,6 +708,8 @@ BJ:
   region: Africa
   subregion: "Western Africa"
   un_locode: BJ
+  languages:
+    - fr
 BL: 
   alpha2: BL
   alpha3: BLM
@@ -664,7 +728,9 @@ BL:
   number: "652"
   region: Americas
   subregion: Caribbean
-  un_locode: 
+  un_locode:
+  languages:
+    - fr
 BM: 
   alpha2: BM
   alpha3: BMU
@@ -688,6 +754,8 @@ BM:
   region: Americas
   subregion: "Northern America"
   un_locode: BM
+  languages:
+    - en
 BN: 
   alpha2: BN
   alpha3: BRN
@@ -709,6 +777,8 @@ BN:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: BN
+  languages:
+    - ms
 BO: 
   alpha2: BO
   alpha3: BOL
@@ -732,6 +802,10 @@ BO:
   region: Americas
   subregion: "South America"
   un_locode: BO
+  languages:
+    - es
+    - ay
+    - qu
 BR: 
   address_format: |-
       {{recipient}}
@@ -761,7 +835,9 @@ BR:
   region: Americas
   subregion: "South America"
   un_locode: BR
-BS: 
+  languages:
+    - pt
+BS:
   alpha2: BS
   alpha3: BHS
   country_code: "1"
@@ -782,6 +858,8 @@ BS:
   region: Americas
   subregion: Caribbean
   un_locode: BS
+  languages:
+    - en
 BT: 
   alpha2: BT
   alpha3: BTN
@@ -806,6 +884,8 @@ BT:
   region: Asia
   subregion: "Southern Asia"
   un_locode: BT
+  languages:
+    - dz
 BV: 
   alpha2: BV
   alpha3: BVT
@@ -824,8 +904,9 @@ BV:
   number: "074"
   region: ""
   subregion: ""
-  un_locode: 
-BW: 
+  un_locode:
+  languages: []
+BW:
   alpha2: BW
   alpha3: BWA
   country_code: "267"
@@ -846,6 +927,9 @@ BW:
   region: Africa
   subregion: "Southern Africa"
   un_locode: BW
+  languages:
+    - en
+    - tn
 BY: 
   alpha2: BY
   alpha3: BLR
@@ -870,6 +954,9 @@ BY:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: BY
+  languages:
+    - be
+    - ru
 BZ: 
   alpha2: BZ
   alpha3: BLZ
@@ -892,6 +979,9 @@ BZ:
   region: Americas
   subregion: "Central America"
   un_locode: BZ
+  languages:
+    - en
+    - es
 CA: 
   address_format: |-
       {{recipient}}
@@ -920,6 +1010,9 @@ CA:
   region: Americas
   subregion: "Northern America"
   un_locode: CA
+  languages:
+    - en
+    - fr
 CC: 
   alpha2: CC
   alpha3: CCK
@@ -941,6 +1034,8 @@ CC:
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: CC
+  languages:
+    - en
 CD: 
   alpha2: CD
   alpha3: COD
@@ -965,6 +1060,12 @@ CD:
   region: Africa
   subregion: "Middle Africa"
   un_locode: CD
+  languages:
+    - fr
+    - ln
+    - kg
+    - sw
+    - lu
 CF: 
   alpha2: CF
   alpha3: CAF
@@ -989,6 +1090,9 @@ CF:
   region: Africa
   subregion: "Middle Africa"
   un_locode: CF
+  languages:
+    - fr
+    - sg
 CG: 
   alpha2: CG
   alpha3: COG
@@ -1011,7 +1115,10 @@ CG:
   region: Africa
   subregion: "Middle Africa"
   un_locode: CG
-CH: 
+  languages:
+    - fr
+    - ln
+CH:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1041,7 +1148,11 @@ CH:
   region: Europe
   subregion: "Western Europe"
   un_locode: CH
-CI: 
+  languages:
+    - de
+    - fr
+    - it
+CI:
   alpha2: CI
   alpha3: CIV
   country_code: "225"
@@ -1062,6 +1173,8 @@ CI:
   region: Africa
   subregion: "Western Africa"
   un_locode: CI
+  languages:
+    - fr
 CK: 
   alpha2: CK
   alpha3: COK
@@ -1086,7 +1199,9 @@ CK:
   region: Oceania
   subregion: Polynesia
   un_locode: CK
-CL: 
+  languages:
+    - en
+CL:
   alpha2: CL
   alpha3: CHL
   country_code: "56"
@@ -1108,6 +1223,8 @@ CL:
   region: Americas
   subregion: "South America"
   un_locode: CL
+  languages:
+    - es
 CM: 
   alpha2: CM
   alpha3: CMR
@@ -1132,6 +1249,9 @@ CM:
   region: Africa
   subregion: "Middle Africa"
   un_locode: CM
+  languages:
+    - en
+    - fr
 CN: 
   address_format: |-
       {{recipient}}
@@ -1163,6 +1283,8 @@ CN:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: CN
+  languages:
+    - zh
 CO: 
   alpha2: CO
   alpha3: COL
@@ -1187,6 +1309,8 @@ CO:
   region: Americas
   subregion: "South America"
   un_locode: CO
+  languages:
+    - es
 CR: 
   alpha2: CR
   alpha3: CRI
@@ -1208,6 +1332,8 @@ CR:
   region: Americas
   subregion: "Central America"
   un_locode: CR
+  languages:
+    - es
 CU: 
   alpha2: CU
   alpha3: CUB
@@ -1230,6 +1356,8 @@ CU:
   region: Americas
   subregion: Caribbean
   un_locode: CU
+  languages:
+    - es
 CV: 
   alpha2: CV
   alpha3: CPV
@@ -1254,7 +1382,9 @@ CV:
   region: Africa
   subregion: "Western Africa"
   un_locode: CV
-CX: 
+  languages:
+    - pt
+CX:
   alpha2: CX
   alpha3: CXR
   country_code: "61"
@@ -1273,6 +1403,10 @@ CX:
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: CX
+  languages:
+    - en
+    - zh
+    - ms
 CY: 
   alpha2: CY
   alpha3: CYP
@@ -1297,6 +1431,10 @@ CY:
   region: Asia
   subregion: "Western Asia"
   un_locode: CY
+  languages:
+    - el
+    - tr
+    - hy
 CZ: 
   address_format: |-
       {{recipient}}
@@ -1326,6 +1464,9 @@ CZ:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: CZ
+  languages:
+    - cs
+    - sk
 DE: 
   address_format: |-
       {{recipient}}
@@ -1360,6 +1501,8 @@ DE:
   region: Europe
   subregion: "Western Europe"
   un_locode: DE
+  languages:
+    - de
 DJ: 
   alpha2: DJ
   alpha3: DJI
@@ -1381,6 +1524,9 @@ DJ:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: DJ
+  languages:
+    - ar
+    - fr
 DK: 
   address_format: |-
       {{recipient}}
@@ -1411,7 +1557,9 @@ DK:
   region: Europe
   subregion: "Northern Europe"
   un_locode: DK
-DM: 
+  languages:
+    - da
+DM:
   alpha2: DM
   alpha3: DMA
   country_code: "1"
@@ -1432,6 +1580,8 @@ DM:
   region: Americas
   subregion: Caribbean
   un_locode: DM
+  languages:
+    - en
 DO: 
   alpha2: DO
   alpha3: DOM
@@ -1456,6 +1606,8 @@ DO:
   region: Americas
   subregion: Caribbean
   un_locode: DO
+  languages:
+    - es
 DZ: 
   alpha2: DZ
   alpha3: DZA
@@ -1480,7 +1632,9 @@ DZ:
   region: Africa
   subregion: "Northern Africa"
   un_locode: DZ
-EC: 
+  languages:
+    - ar
+EC:
   alpha2: EC
   alpha3: ECU
   country_code: "593"
@@ -1503,6 +1657,8 @@ EC:
   region: Americas
   subregion: "South America"
   un_locode: EC
+  languages:
+    - es
 EE: 
   alpha2: EE
   alpha3: EST
@@ -1527,6 +1683,8 @@ EE:
   region: Europe
   subregion: "Northern Europe"
   un_locode: EE
+  languages:
+    - et
 EG: 
   address_format: |-
       {{recipient}}
@@ -1556,7 +1714,9 @@ EG:
   region: Africa
   subregion: "Northern Africa"
   un_locode: EG
-EH: 
+  languages:
+    - ar
+EH:
   alpha2: EH
   alpha3: ESH
   country_code: "212"
@@ -1578,6 +1738,9 @@ EH:
   region: Africa
   subregion: "Northern Africa"
   un_locode: EH
+  languages:
+    - es
+    - fr
 ER: 
   alpha2: ER
   alpha3: ERI
@@ -1600,6 +1763,10 @@ ER:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ER
+  languages:
+    - en
+    - ar
+    - ti
 ES: 
   address_format: |-
       {{recipient}}
@@ -1629,6 +1796,8 @@ ES:
   region: Europe
   subregion: "Southern Europe"
   un_locode: ES
+  languages:
+    - es
 ET: 
   alpha2: ET
   alpha3: ETH
@@ -1653,6 +1822,8 @@ ET:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ET
+  languages:
+    - am
 FI: 
   address_format: |-
       {{recipient}}
@@ -1681,7 +1852,10 @@ FI:
   number: "246"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - fi
+    - sv
 FJ: 
   alpha2: FJ
   alpha3: FJI
@@ -1705,6 +1879,11 @@ FJ:
   region: Oceania
   subregion: Melanesia
   un_locode: FJ
+  languages:
+    - en
+    - fj
+    - hi
+    - ur
 FK: 
   alpha2: FK
   alpha3: FLK
@@ -1729,6 +1908,8 @@ FK:
   region: Americas
   subregion: "South America"
   un_locode: FK
+  languages:
+    - en
 FM: 
   alpha2: FM
   alpha3: FSM
@@ -1753,6 +1934,8 @@ FM:
   region: Oceania
   subregion: Micronesia
   un_locode: FM
+  languages:
+    - en
 FO: 
   alpha2: FO
   alpha3: FRO
@@ -1777,6 +1960,8 @@ FO:
   region: Europe
   subregion: "Northern Europe"
   un_locode: FO
+  langauges:
+    - fo
 FR: 
   address_format: |-
       {{recipient}}
@@ -1807,6 +1992,8 @@ FR:
   region: Europe
   subregion: "Western Europe"
   un_locode: FR
+  languages:
+    - fr
 GA: 
   alpha2: GA
   alpha3: GAB
@@ -1832,6 +2019,8 @@ GA:
   region: Africa
   subregion: "Middle Africa"
   un_locode: GA
+  languages:
+    - fr
 GB: 
   address_format: |-
       {{recipient}}
@@ -1863,7 +2052,9 @@ GB:
   number: "826"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - en
 GD: 
   alpha2: GD
   alpha3: GRD
@@ -1885,6 +2076,8 @@ GD:
   region: Americas
   subregion: Caribbean
   un_locode: GD
+  languages:
+    - en
 GE: 
   alpha2: GE
   alpha3: GEO
@@ -1908,6 +2101,8 @@ GE:
   region: Asia
   subregion: "Western Asia"
   un_locode: GE
+  languages:
+    - ka
 GF: 
   alpha2: GF
   alpha3: GUF
@@ -1932,6 +2127,8 @@ GF:
   region: Americas
   subregion: "South America"
   un_locode: GF
+  languages:
+    - fr
 GG: 
   alpha2: GG
   alpha3: GGY
@@ -1953,7 +2150,10 @@ GG:
   number: "831"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - en
+    - fr
 GH: 
   alpha2: GH
   alpha3: GHA
@@ -1978,6 +2178,8 @@ GH:
   region: Africa
   subregion: "Western Africa"
   un_locode: GH
+  languages:
+    - en
 GI: 
   alpha2: GI
   alpha3: GIB
@@ -1999,6 +2201,8 @@ GI:
   region: Europe
   subregion: "Southern Europe"
   un_locode: GI
+  languages:
+    - en
 GL: 
   address_format: |-
       {{recipient}}
@@ -2028,6 +2232,8 @@ GL:
   region: Americas
   subregion: "Northern America"
   un_locode: GL
+  languages:
+    - kl
 GM: 
   alpha2: GM
   alpha3: GMB
@@ -2049,6 +2255,8 @@ GM:
   region: Africa
   subregion: "Western Africa"
   un_locode: GM
+  languages:
+    - en
 GN: 
   alpha2: GN
   alpha3: GIN
@@ -2073,7 +2281,10 @@ GN:
   region: Africa
   subregion: "Western Africa"
   un_locode: GN
-GP: 
+  languages:
+    - fr
+    - ff
+GP:
   alpha2: GP
   alpha3: GLP
   country_code: "590"
@@ -2095,6 +2306,8 @@ GP:
   region: Americas
   subregion: Caribbean
   un_locode: GP
+  languages:
+    - fr
 GQ: 
   alpha2: GQ
   alpha3: GNQ
@@ -2119,6 +2332,9 @@ GQ:
   region: Africa
   subregion: "Middle Africa"
   un_locode: GQ
+  languages:
+    - es
+    - fr
 GR: 
   address_format: |-
       {{recipient}}
@@ -2148,6 +2364,8 @@ GR:
   region: Europe
   subregion: "Southern Europe"
   un_locode: GR
+  languages:
+    - el
 GS: 
   alpha2: GS
   alpha3: SGS
@@ -2167,6 +2385,8 @@ GS:
   region: Americas
   subregion: "South America"
   un_locode: GS
+  languages:
+    - en
 GT: 
   alpha2: GT
   alpha3: GTM
@@ -2188,6 +2408,8 @@ GT:
   region: Americas
   subregion: "Central America"
   un_locode: GT
+  languages:
+    - es
 GU: 
   alpha2: GU
   alpha3: GUM
@@ -2209,6 +2431,10 @@ GU:
   region: Oceania
   subregion: Micronesia
   un_locode: GU
+  languages:
+    - en
+    - ch
+    - es
 GW: 
   alpha2: GW
   alpha3: GNB
@@ -2231,6 +2457,8 @@ GW:
   region: Africa
   subregion: "Western Africa"
   un_locode: GW
+  languages:
+    - pt
 GY: 
   alpha2: GY
   alpha3: GUY
@@ -2253,6 +2481,8 @@ GY:
   region: Americas
   subregion: "South America"
   un_locode: GY
+  languages:
+    - en
 HK: 
   address_format: |-
       {{recipient}}
@@ -2279,6 +2509,9 @@ HK:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: HK
+  languages:
+    - en
+    - zh
 HM: 
   alpha2: HM
   alpha3: HMD
@@ -2298,6 +2531,8 @@ HM:
   region: ""
   subregion: ""
   un_locode: HM
+  languages:
+    - en
 HN: 
   alpha2: HN
   alpha3: HND
@@ -2320,7 +2555,9 @@ HN:
   region: Americas
   subregion: "Central America"
   un_locode: HN
-HR: 
+  languages:
+    - es
+HR:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2349,6 +2586,8 @@ HR:
   region: Europe
   subregion: "Southern Europe"
   un_locode: HR
+  languages:
+    - hr
 HT: 
   alpha2: HT
   alpha3: HTI
@@ -2370,6 +2609,9 @@ HT:
   region: Americas
   subregion: Caribbean
   un_locode: HT
+  languages:
+    - fr
+    - ht
 HU: 
   address_format: |-
       {{recipient}}
@@ -2401,6 +2643,8 @@ HU:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: HU
+  languages:
+    - hu
 ID: 
   address_format: |-
       {{recipient}}
@@ -2433,6 +2677,8 @@ ID:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: ID
+  languages:
+    - id
 IE: 
   address_format: |-
       {{recipient}}
@@ -2462,6 +2708,9 @@ IE:
   region: Europe
   subregion: "Northern Europe"
   un_locode: IE
+  languages:
+    - en
+    - ga
 IL: 
   address_format: |-
       {{recipient}}
@@ -2491,6 +2740,9 @@ IL:
   region: Asia
   subregion: "Western Asia"
   un_locode: IL
+  languages:
+    - he
+    - ar
 IM: 
   alpha2: IM
   alpha3: IMN
@@ -2512,7 +2764,10 @@ IM:
   number: "833"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - en
+    - gv
 IN: 
   address_format: |-
       {{recipient}}
@@ -2542,6 +2797,9 @@ IN:
   region: Asia
   subregion: "Southern Asia"
   un_locode: IN
+  languages:
+    - hi
+    - en
 IO: 
   alpha2: IO
   alpha3: IOT
@@ -2561,6 +2819,8 @@ IO:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: IO
+  languages:
+    - en
 IQ: 
   alpha2: IQ
   alpha3: IRQ
@@ -2585,7 +2845,9 @@ IQ:
   region: Asia
   subregion: "Western Asia"
   un_locode: IQ
-IR: 
+  languages:
+    - ar
+IR:
   alpha2: IR
   alpha3: IRN
   country_code: "98"
@@ -2607,7 +2869,9 @@ IR:
   region: Asia
   subregion: "Southern Asia"
   un_locode: IR
-IS: 
+  languages:
+    - fa
+IS:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2638,6 +2902,8 @@ IS:
   region: Europe
   subregion: "Northern Europe"
   un_locode: IS
+  languages:
+    - is
 IT: 
   address_format: |-
       {{recipient}}
@@ -2667,6 +2933,8 @@ IT:
   region: Europe
   subregion: "Southern Europe"
   un_locode: IT
+  languages:
+    - it
 JE: 
   alpha2: JE
   alpha3: JEY
@@ -2685,7 +2953,10 @@ JE:
   number: "832"
   region: Europe
   subregion: "Northern Europe"
-  un_locode: 
+  un_locode:
+  languages:
+    - en
+    - fr
 JM: 
   alpha2: JM
   alpha3: JAM
@@ -2709,7 +2980,9 @@ JM:
   region: Americas
   subregion: Caribbean
   un_locode: JM
-JO: 
+  languages:
+    - en
+JO:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2739,6 +3012,8 @@ JO:
   region: Asia
   subregion: "Western Asia"
   un_locode: JO
+  languages:
+    - ar
 JP: 
   address_format: |-
       〒{{postalcode}}
@@ -2769,6 +3044,8 @@ JP:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: JP
+  languages:
+    - ja
 KE: 
   alpha2: KE
   alpha3: KEN
@@ -2793,6 +3070,9 @@ KE:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: KE
+  languages:
+    - en
+    - sw
 KG: 
   alpha2: KG
   alpha3: KGZ
@@ -2817,6 +3097,9 @@ KG:
   region: Asia
   subregion: "Central Asia"
   un_locode: KG
+  languages:
+    - ky
+    - ru
 KH: 
   alpha2: KH
   alpha3: KHM
@@ -2841,6 +3124,8 @@ KH:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: KH
+  languages:
+    - km
 KI: 
   alpha2: KI
   alpha3: KIR
@@ -2865,7 +3150,9 @@ KI:
   region: Oceania
   subregion: Micronesia
   un_locode: KI
-KM: 
+  languages:
+    - en
+KM:
   alpha2: KM
   alpha3: COM
   country_code: "269"
@@ -2888,6 +3175,9 @@ KM:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: KM
+  languages:
+    - ar
+    - fr
 KN: 
   alpha2: KN
   alpha3: KNA
@@ -2911,6 +3201,8 @@ KN:
   region: Americas
   subregion: Caribbean
   un_locode: KN
+  languages:
+    - en
 KP: 
   alpha2: KP
   alpha3: PRK
@@ -2936,6 +3228,8 @@ KP:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: KP
+  languages:
+    - ko
 KR: 
   address_format: |-
       {{recipient}}
@@ -2967,6 +3261,8 @@ KR:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: KR
+  languages:
+    - ko
 KW: 
   address_format: |-
       {{recipient}}
@@ -2995,6 +3291,8 @@ KW:
   region: Asia
   subregion: "Western Asia"
   un_locode: KW
+  languages:
+    - ar
 KY: 
   alpha2: KY
   alpha3: CYM
@@ -3019,6 +3317,8 @@ KY:
   region: Americas
   subregion: Caribbean
   un_locode: KY
+  languages:
+    - en
 KZ: 
   alpha2: KZ
   alpha3: KAZ
@@ -3043,6 +3343,9 @@ KZ:
   region: Asia
   subregion: "Central Asia"
   un_locode: KZ
+  languages:
+    - kk
+    - ru
 LA: 
   alpha2: LA
   alpha3: LAO
@@ -3067,6 +3370,8 @@ LA:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: LA
+  languages:
+    - lo
 LB: 
   address_format: |-
       {{recipient}}
@@ -3096,6 +3401,9 @@ LB:
   region: Asia
   subregion: "Western Asia"
   un_locode: LB
+  languages:
+    - ar
+    - fr
 LC: 
   alpha2: LC
   alpha3: LCA
@@ -3119,6 +3427,8 @@ LC:
   region: Americas
   subregion: Caribbean
   un_locode: LC
+  languages:
+    - en
 LI: 
   alpha2: LI
   alpha3: LIE
@@ -3140,6 +3450,8 @@ LI:
   region: Europe
   subregion: "Western Europe"
   un_locode: LI
+  languages:
+    - de
 LK: 
   alpha2: LK
   alpha3: LKA
@@ -3161,6 +3473,9 @@ LK:
   region: Asia
   subregion: "Southern Asia"
   un_locode: LK
+  languages:
+    - si
+    - ta
 LR: 
   alpha2: LR
   alpha3: LBR
@@ -3187,6 +3502,8 @@ LR:
   region: Africa
   subregion: "Western Africa"
   un_locode: LR
+  languages:
+    - en
 LS: 
   alpha2: LS
   alpha3: LSO
@@ -3212,6 +3529,9 @@ LS:
   region: Africa
   subregion: "Southern Africa"
   un_locode: LS
+  languages:
+    - en
+    - st
 LT: 
   alpha2: LT
   alpha3: LTU
@@ -3236,6 +3556,8 @@ LT:
   region: Europe
   subregion: "Northern Europe"
   un_locode: LT
+  languages:
+    - lt
 LU: 
   address_format: |-
       {{recipient}}
@@ -3265,6 +3587,10 @@ LU:
   region: Europe
   subregion: "Western Europe"
   un_locode: LU
+  languages:
+    - fr
+    - de
+    - lb
 LV: 
   alpha2: LV
   alpha3: LVA
@@ -3289,6 +3615,8 @@ LV:
   region: Europe
   subregion: "Northern Europe"
   un_locode: LV
+  languages:
+    - lv
 LY: 
   alpha2: LY
   alpha3: LBY
@@ -3314,6 +3642,8 @@ LY:
   region: Africa
   subregion: "Northern Africa"
   un_locode: LY
+  languages:
+    - ar
 MA: 
   alpha2: MA
   alpha3: MAR
@@ -3338,6 +3668,8 @@ MA:
   region: Africa
   subregion: "Northern Africa"
   un_locode: MA
+  languages:
+    - ar
 MC: 
   alpha2: MC
   alpha3: MCO
@@ -3361,6 +3693,8 @@ MC:
   region: Europe
   subregion: "Western Europe"
   un_locode: MC
+  languages:
+    - fr
 MD: 
   alpha2: MD
   alpha3: MDA
@@ -3386,6 +3720,8 @@ MD:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: MD
+  languages:
+    - ro
 ME: 
   alpha2: ME
   alpha3: MNE
@@ -3408,6 +3744,11 @@ ME:
   region: Europe
   subregion: "Southern Europe"
   un_locode: ME
+  languages:
+    - sr
+    - bs
+    - sq
+    - hr
 MF: 
   alpha2: MF
   alpha3: MAF
@@ -3426,7 +3767,11 @@ MF:
   number: "663"
   region: Americas
   subregion: Caribbean
-  un_locode: 
+  un_locode:
+  languages:
+    - en
+    - fr
+    - nl
 MG: 
   alpha2: MG
   alpha3: MDG
@@ -3450,6 +3795,9 @@ MG:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MG
+  languages:
+    - fr
+    - mg
 MH: 
   alpha2: MH
   alpha3: MHL
@@ -3474,6 +3822,9 @@ MH:
   region: Oceania
   subregion: Micronesia
   un_locode: MH
+  languages:
+    - en
+    - mh
 MK: 
   address_format: |-
       {{recipient}}
@@ -3504,6 +3855,8 @@ MK:
   region: Europe
   subregion: "Southern Europe"
   un_locode: MK
+  languages:
+    - mk
 ML: 
   alpha2: ML
   alpha3: MLI
@@ -3525,6 +3878,8 @@ ML:
   region: Africa
   subregion: "Western Africa"
   un_locode: ML
+  languages:
+    - fr
 MM: 
   alpha2: MM
   alpha3: MMR
@@ -3550,6 +3905,8 @@ MM:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: MM
+  languages:
+    - my
 MN: 
   alpha2: MN
   alpha3: MNG
@@ -3576,6 +3933,8 @@ MN:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: MN
+  languages:
+    - mn
 MO: 
   alpha2: MO
   alpha3: MAC
@@ -3597,6 +3956,9 @@ MO:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: MO
+  languages:
+    - zh
+    - pt
 MP: 
   alpha2: MP
   alpha3: MNP
@@ -3621,7 +3983,10 @@ MP:
   region: Oceania
   subregion: Micronesia
   un_locode: MP
-MQ: 
+  languages:
+    - en
+    - ch
+MQ:
   alpha2: MQ
   alpha3: MTQ
   country_code: "596"
@@ -3645,7 +4010,9 @@ MQ:
   region: Americas
   subregion: Caribbean
   un_locode: MQ
-MR: 
+  languages:
+    - fr
+MR:
   alpha2: MR
   alpha3: MRT
   country_code: "222"
@@ -3669,6 +4036,9 @@ MR:
   region: Africa
   subregion: "Western Africa"
   un_locode: MR
+  languages:
+    - ar
+    - fr
 MS: 
   alpha2: MS
   alpha3: MSR
@@ -3693,6 +4063,8 @@ MS:
   region: Americas
   subregion: Caribbean
   un_locode: MS
+  languages:
+    - en
 MT: 
   alpha2: MT
   alpha3: MLT
@@ -3717,6 +4089,9 @@ MT:
   region: Europe
   subregion: "Southern Europe"
   un_locode: MT
+  languages:
+    - mt
+    - en
 MU: 
   alpha2: MU
   alpha3: MUS
@@ -3741,6 +4116,8 @@ MU:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MU
+  languages:
+    - en
 MV: 
   alpha2: MV
   alpha3: MDV
@@ -3764,6 +4141,8 @@ MV:
   region: Asia
   subregion: "Southern Asia"
   un_locode: MV
+  languages:
+    - dv
 MW: 
   alpha2: MW
   alpha3: MWI
@@ -3785,6 +4164,9 @@ MW:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MW
+  languages:
+    - en
+    - ny
 MX: 
   address_format: |-
       {{recipient}}
@@ -3816,6 +4198,8 @@ MX:
   region: Americas
   subregion: "Central America"
   un_locode: MX
+  languages:
+    - es
 MY: 
   alpha2: MY
   alpha3: MYS
@@ -3840,6 +4224,8 @@ MY:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: MY
+  languages:
+    - en
 MZ: 
   alpha2: MZ
   alpha3: MOZ
@@ -3865,6 +4251,8 @@ MZ:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MZ
+  languages:
+    - pt
 NA: 
   alpha2: NA
   alpha3: NAM
@@ -3891,6 +4279,9 @@ NA:
   region: Africa
   subregion: "Southern Africa"
   un_locode: NA
+  languages:
+    - en
+    - af
 NC: 
   alpha2: NC
   alpha3: NCL
@@ -3915,6 +4306,8 @@ NC:
   region: Oceania
   subregion: Melanesia
   un_locode: NC
+  languages:
+    - fr
 NE: 
   alpha2: NE
   alpha3: NER
@@ -3936,6 +4329,8 @@ NE:
   region: Africa
   subregion: "Western Africa"
   un_locode: NE
+  languages:
+    - fr
 NF: 
   alpha2: NF
   alpha3: NFK
@@ -3960,6 +4355,8 @@ NF:
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: NF
+  languages:
+    - en
 NG: 
   alpha2: NG
   alpha3: NGA
@@ -3984,6 +4381,8 @@ NG:
   region: Africa
   subregion: "Western Africa"
   un_locode: NG
+  languages:
+    - en
 NI: 
   alpha2: NI
   alpha3: NIC
@@ -4008,6 +4407,8 @@ NI:
   region: Americas
   subregion: "Central America"
   un_locode: NI
+  languages:
+    - es
 NL: 
   address_format: |-
       {{recipient}}
@@ -4037,6 +4438,8 @@ NL:
   region: Europe
   subregion: "Western Europe"
   un_locode: NL
+  languages:
+    - nl
 "NO": 
   address_format: |-
       {{recipient}}
@@ -4066,6 +4469,8 @@ NL:
   region: Europe
   subregion: "Northern Europe"
   un_locode: NL
+  languages:
+    - "no"
 NP: 
   alpha2: NP
   alpha3: NPL
@@ -4092,6 +4497,8 @@ NP:
   region: Asia
   subregion: "Southern Asia"
   un_locode: NP
+  languages:
+    - ne
 NR: 
   alpha2: NR
   alpha3: NRU
@@ -4116,6 +4523,9 @@ NR:
   region: Oceania
   subregion: Micronesia
   un_locode: NR
+  languages:
+    - en
+    - na
 NU: 
   alpha2: NU
   alpha3: NIU
@@ -4137,6 +4547,8 @@ NU:
   region: Oceania
   subregion: Polynesia
   un_locode: NU
+  languages:
+    - en
 NZ: 
   address_format: |-
       {{recipient}}
@@ -4168,6 +4580,8 @@ NZ:
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: NZ
+  languages:
+    - en
 OM: 
   address_format: |-
       {{recipient}}
@@ -4196,6 +4610,8 @@ OM:
   region: Asia
   subregion: "Western Asia"
   un_locode: OM
+  languages:
+    - ar
 PA: 
   alpha2: PA
   alpha3: PAN
@@ -4219,6 +4635,8 @@ PA:
   region: Americas
   subregion: "Central America"
   un_locode: PA
+  languages:
+    - es
 PE: 
   alpha2: PE
   alpha3: PER
@@ -4243,6 +4661,8 @@ PE:
   region: Americas
   subregion: "South America"
   un_locode: PE
+  languages:
+    - es
 PF: 
   alpha2: PF
   alpha3: PYF
@@ -4267,6 +4687,8 @@ PF:
   region: Oceania
   subregion: Polynesia
   un_locode: PF
+  languages:
+    - fr
 PG: 
   alpha2: PG
   alpha3: PNG
@@ -4291,6 +4713,8 @@ PG:
   region: Oceania
   subregion: Melanesia
   un_locode: PG
+  languages:
+    - en
 PH: 
   address_format: |-
       {{recipient}}
@@ -4321,7 +4745,10 @@ PH:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: PH
-PK: 
+  languages:
+    - tl
+    - en
+PK:
   alpha2: PK
   alpha3: PAK
   country_code: "92"
@@ -4344,6 +4771,9 @@ PK:
   region: Asia
   subregion: "Southern Asia"
   un_locode: PK
+  languages:
+    - en
+    - ur
 PL: 
   address_format: |-
       {{recipient}}
@@ -4374,6 +4804,8 @@ PL:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: PL
+  languages:
+    - pl
 PM: 
   alpha2: PM
   alpha3: SPM
@@ -4398,6 +4830,8 @@ PM:
   region: Americas
   subregion: "Northern America"
   un_locode: PM
+  languages:
+    - fr
 PN: 
   alpha2: PN
   alpha3: PCN
@@ -4418,6 +4852,8 @@ PN:
   region: Oceania
   subregion: Polynesia
   un_locode: PN
+  languages:
+    - en
 PR: 
   alpha2: PR
   alpha3: PRI
@@ -4439,6 +4875,9 @@ PR:
   region: Americas
   subregion: Caribbean
   un_locode: PR
+  languages:
+    - es
+    - en
 PS: 
   alpha2: PS
   alpha3: PSE
@@ -4463,7 +4902,11 @@ PS:
   number: "275"
   region: Asia
   subregion: "Western Asia"
-  un_locode: 
+  un_locode:
+  languages:
+    - ar
+    - he
+    - en
 PT: 
   address_format: |-
       {{recipient}}
@@ -4490,6 +4933,8 @@ PT:
   region: Europe
   subregion: "Southern Europe"
   un_locode: PT
+  languages:
+    - pt
 PW: 
   alpha2: PW
   alpha3: PLW
@@ -4511,7 +4956,9 @@ PW:
   region: Oceania
   subregion: Micronesia
   un_locode: PW
-PY: 
+  languages:
+    - en
+PY:
   alpha2: PY
   alpha3: PRY
   country_code: "595"
@@ -4532,6 +4979,9 @@ PY:
   region: Americas
   subregion: "South America"
   un_locode: PY
+  languages:
+    - es
+    - gn
 QA: 
   address_format: |-
       {{recipient}}
@@ -4559,6 +5009,8 @@ QA:
   region: Asia
   subregion: "Western Asia"
   un_locode: QA
+  languages:
+    - ar
 RE: 
   alpha2: RE
   alpha3: REU
@@ -4583,6 +5035,8 @@ RE:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: RE
+  languages:
+    - fr
 RO: 
   address_format: |-
       {{recipient}}
@@ -4612,6 +5066,8 @@ RO:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: RO
+  languages:
+    - ro
 RS: 
   alpha2: RS
   alpha3: SRB
@@ -4636,6 +5092,8 @@ RS:
   region: Europe
   subregion: "Southern Europe"
   un_locode: RS
+  languages:
+    - sr
 RU: 
   address_format: |-
       {{recipient}}
@@ -4665,6 +5123,8 @@ RU:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: RU
+  languages:
+    - ru
 RW: 
   alpha2: RW
   alpha3: RWA
@@ -4690,7 +5150,11 @@ RW:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: RW
-SA: 
+  languages:
+    - rw
+    - en
+    - fr
+SA:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4720,6 +5184,8 @@ SA:
   region: Asia
   subregion: "Western Asia"
   un_locode: SA
+  languages:
+    - ar
 SB: 
   alpha2: SB
   alpha3: SLB
@@ -4744,6 +5210,8 @@ SB:
   region: Oceania
   subregion: Melanesia
   un_locode: SB
+  languages:
+    - en
 SC: 
   alpha2: SC
   alpha3: SYC
@@ -4765,6 +5233,9 @@ SC:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: SC
+  languages:
+    - fr
+    - en
 SD: 
   alpha2: SD
   alpha3: SDN
@@ -4788,6 +5259,9 @@ SD:
   region: Africa
   subregion: "Northern Africa"
   un_locode: SD
+  languages:
+    - ar
+    - en
 SE: 
   address_format: |-
       {{recipient}}
@@ -4817,6 +5291,8 @@ SE:
   region: Europe
   subregion: "Northern Europe"
   un_locode: SE
+  languages:
+    - sv
 SG: 
   address_format: |-
       {{recipient}}
@@ -4847,6 +5323,10 @@ SG:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: SG
+  languages:
+    - en
+    - ms
+    - ta
 SH: 
   alpha2: SH
   alpha3: SHN
@@ -4871,6 +5351,8 @@ SH:
   region: Africa
   subregion: "Western Africa"
   un_locode: SH
+  languages:
+    - en
 SI: 
   address_format: |-
       {{recipient}}
@@ -4900,6 +5382,8 @@ SI:
   region: Europe
   subregion: "Southern Europe"
   un_locode: SI
+  languages:
+    - sl
 SJ: 
   alpha2: SJ
   alpha3: SJM
@@ -4924,6 +5408,8 @@ SJ:
   region: Europe
   subregion: "Northern Europe"
   un_locode: SJ
+  languages:
+    - "no"
 SK: 
   address_format: |-
       {{recipient}}
@@ -4953,6 +5439,8 @@ SK:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: SK
+  languages:
+    - sk
 SL: 
   alpha2: SL
   alpha3: SLE
@@ -4974,6 +5462,8 @@ SL:
   region: Africa
   subregion: "Western Africa"
   un_locode: SL
+  languages:
+    - en
 SM: 
   alpha2: SM
   alpha3: SMR
@@ -4999,6 +5489,8 @@ SM:
   region: Europe
   subregion: "Southern Europe"
   un_locode: SM
+  languages:
+    - it
 SN: 
   alpha2: SN
   alpha3: SEN
@@ -5021,6 +5513,8 @@ SN:
   region: Africa
   subregion: "Western Africa"
   un_locode: SN
+  languages:
+    - fr
 SO: 
   alpha2: SO
   alpha3: SOM
@@ -5043,6 +5537,9 @@ SO:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: SO
+  languages:
+    - so
+    - ar
 SR: 
   alpha2: SR
   alpha3: SUR
@@ -5065,6 +5562,8 @@ SR:
   region: Americas
   subregion: "South America"
   un_locode: SR
+  languages:
+    - nl
 ST: 
   alpha2: ST
   alpha3: STP
@@ -5090,6 +5589,8 @@ ST:
   region: Africa
   subregion: "Middle Africa"
   un_locode: ST
+  languages:
+    - pt
 SV: 
   alpha2: SV
   alpha3: SLV
@@ -5112,6 +5613,8 @@ SV:
   region: Americas
   subregion: "Central America"
   un_locode: SV
+  languages:
+    - es
 SY: 
   address_format: |-
       {{recipient}}
@@ -5142,6 +5645,8 @@ SY:
   region: Asia
   subregion: "Western Asia"
   un_locode: SY
+  languages:
+    - ar
 SZ: 
   alpha2: SZ
   alpha3: SWZ
@@ -5166,6 +5671,9 @@ SZ:
   region: Africa
   subregion: "Southern Africa"
   un_locode: SZ
+  languages:
+    - en
+    - ss
 TC: 
   alpha2: TC
   alpha3: TCA
@@ -5190,6 +5698,8 @@ TC:
   region: Americas
   subregion: Caribbean
   un_locode: TC
+  languages:
+    - en
 TD: 
   alpha2: TD
   alpha3: TCD
@@ -5213,6 +5723,9 @@ TD:
   region: Africa
   subregion: "Middle Africa"
   un_locode: TD
+  languages:
+    - ar
+    - fr
 TF: 
   alpha2: TF
   alpha3: ATF
@@ -5234,7 +5747,9 @@ TF:
   number: "260"
   region: ""
   subregion: ""
-  un_locode: 
+  un_locode:
+  languages:
+    - fr
 TG: 
   alpha2: TG
   alpha3: TGO
@@ -5256,6 +5771,8 @@ TG:
   region: Africa
   subregion: "Western Africa"
   un_locode: TG
+  languages:
+    - fr
 TH: 
   alpha2: TH
   alpha3: THA
@@ -5281,6 +5798,8 @@ TH:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: TH
+  languages:
+    - th
 TJ: 
   alpha2: TJ
   alpha3: TJK
@@ -5306,6 +5825,9 @@ TJ:
   region: Asia
   subregion: "Central Asia"
   un_locode: TJ
+  languages:
+    - tg
+    - ru
 TK: 
   alpha2: TK
   alpha3: TKL
@@ -5330,6 +5852,8 @@ TK:
   region: Oceania
   subregion: Polynesia
   un_locode: TK
+  languages:
+    - en
 TL: 
   alpha2: TL
   alpha3: TLS
@@ -5353,8 +5877,10 @@ TL:
   number: "626"
   region: Asia
   subregion: "South-Eastern Asia"
-  un_locode: 
-TM: 
+  un_locode:
+  languages:
+    - pt
+TM:
   alpha2: TM
   alpha3: TKM
   country_code: "993"
@@ -5378,6 +5904,9 @@ TM:
   region: Asia
   subregion: "Central Asia"
   un_locode: TM
+  languages:
+    - tk
+    - ru
 TN: 
   alpha2: TN
   alpha3: TUN
@@ -5402,6 +5931,9 @@ TN:
   region: Africa
   subregion: "Northern Africa"
   un_locode: TN
+  languages:
+    - ar
+    - fr
 TO: 
   alpha2: TO
   alpha3: TON
@@ -5425,6 +5957,9 @@ TO:
   region: Oceania
   subregion: Polynesia
   un_locode: TO
+  languages:
+    - en
+    - to
 TR: 
   address_format: |-
       {{recipient}}
@@ -5454,6 +5989,8 @@ TR:
   region: Asia
   subregion: "Western Asia"
   un_locode: TR
+  languages:
+    - tr
 TT: 
   alpha2: TT
   alpha3: TTO
@@ -5478,6 +6015,8 @@ TT:
   region: Americas
   subregion: Caribbean
   un_locode: TT
+  languages:
+    - en
 TV: 
   alpha2: TV
   alpha3: TUV
@@ -5502,7 +6041,9 @@ TV:
   region: Oceania
   subregion: Polynesia
   un_locode: TV
-TW: 
+  languages:
+    - en
+TW:
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5530,6 +6071,8 @@ TW:
   region: Asia
   subregion: "Eastern Asia"
   un_locode: TW
+  languages:
+    - zh
 TZ: 
   alpha2: TZ
   alpha3: TZA
@@ -5553,6 +6096,9 @@ TZ:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: TZ
+  languages:
+    - sw
+    - en
 UA: 
   address_format: |-
       {{recipient}}
@@ -5584,6 +6130,8 @@ UA:
   region: Europe
   subregion: "Eastern Europe"
   un_locode: UA
+  languages:
+    - uk
 UG: 
   alpha2: UG
   alpha3: UGA
@@ -5605,6 +6153,9 @@ UG:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: UG
+  languages:
+    - en
+    - sw
 UM: 
   alpha2: UM
   alpha3: UMI
@@ -5627,6 +6178,8 @@ UM:
   region: Americas
   subregion: "Northern America"
   un_locode: UM
+  languages:
+    - en
 US: 
   address_format: |-
       {{recipient}}
@@ -5656,6 +6209,8 @@ US:
   region: Americas
   subregion: "Northern America"
   un_locode: US
+  languages:
+    - en
 UY: 
   alpha2: UY
   alpha3: URY
@@ -5678,6 +6233,8 @@ UY:
   region: Americas
   subregion: "South America"
   un_locode: UY
+  languages:
+    - es
 UZ: 
   alpha2: UZ
   alpha3: UZB
@@ -5702,6 +6259,9 @@ UZ:
   region: Asia
   subregion: "Central Asia"
   un_locode: UZ
+  languages:
+    - uz
+    - ru
 VA: 
   alpha2: VA
   alpha3: VAT
@@ -5726,6 +6286,9 @@ VA:
   region: Europe
   subregion: "Southern Europe"
   un_locode: VA
+  languages:
+    - it
+    - la
 VC: 
   alpha2: VC
   alpha3: VCT
@@ -5750,6 +6313,8 @@ VC:
   region: Americas
   subregion: Caribbean
   un_locode: VC
+  languages:
+    - en
 VE: 
   alpha2: VE
   alpha3: VEN
@@ -5771,6 +6336,8 @@ VE:
   region: Americas
   subregion: "South America"
   un_locode: VE
+  languages:
+    - es
 VG: 
   alpha2: VG
   alpha3: VGB
@@ -5795,6 +6362,8 @@ VG:
   region: Americas
   subregion: Caribbean
   un_locode: VG
+  languages:
+    - en
 VI: 
   alpha2: VI
   alpha3: VIR
@@ -5819,6 +6388,8 @@ VI:
   region: Americas
   subregion: Caribbean
   un_locode: VI
+  languages:
+    - en
 VN: 
   alpha2: VN
   alpha3: VNM
@@ -5843,6 +6414,8 @@ VN:
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: VN
+  languages:
+    - vi
 VU: 
   alpha2: VU
   alpha3: VUT
@@ -5866,6 +6439,10 @@ VU:
   region: Oceania
   subregion: Melanesia
   un_locode: VU
+  languages:
+    - bi
+    - en
+    - fr
 WF: 
   alpha2: WF
   alpha3: WLF
@@ -5890,6 +6467,8 @@ WF:
   region: Oceania
   subregion: Polynesia
   un_locode: WF
+  languages:
+    - fr
 WS: 
   alpha2: WS
   alpha3: WSM
@@ -5912,6 +6491,9 @@ WS:
   region: Oceania
   subregion: Polynesia
   un_locode: WS
+  languages:
+    - sm
+    - en
 YE: 
   address_format: |-
       {{recipient}}
@@ -5942,6 +6524,8 @@ YE:
   region: Asia
   subregion: "Western Asia"
   un_locode: YE
+  languages:
+    - ar
 YT: 
   alpha2: YT
   alpha3: MYT
@@ -5966,6 +6550,8 @@ YT:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: YT
+  languages:
+    - fr
 ZA: 
   address_format: |-
       {{recipient}}
@@ -5997,6 +6583,17 @@ ZA:
   region: Africa
   subregion: "Southern Africa"
   un_locode: ZA
+  languages:
+    - af
+    - en
+    - nr
+    - st
+    - ss
+    - tn
+    - ts
+    - ve
+    - xh
+    - zu
 ZM: 
   alpha2: ZM
   alpha3: ZMB
@@ -6020,6 +6617,8 @@ ZM:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ZM
+  languages:
+    - en
 ZW: 
   alpha2: ZW
   alpha3: ZWE
@@ -6046,3 +6645,7 @@ ZW:
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ZW
+  languages:
+    - en
+    - sn
+    - nd
