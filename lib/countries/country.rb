@@ -14,6 +14,7 @@ class ISO3166::Country
     :names,
     :latitude,
     :longitude,
+    :continent,
     :region,
     :subregion,
     :country_code,
