@@ -16,7 +16,7 @@ module ActionView
           country_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
         end
 
-        countries = ISO3166::Country::Names.map{|(name,alpha2)| [name.html_safe, alpha2] }
+        countries = ISO3166::Country::Names.map{|(name,alpha2)| c = Country[alpha2];[name.html_safe, alpha2, {'data-prefix' => c.country_code}] }
 
         return country_options + options_for_select(countries, selected)
       end

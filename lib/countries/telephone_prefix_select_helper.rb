@@ -12,7 +12,7 @@ module ActionView
         if priority_telephone_prefixes
           priority_telephone_prefixes = [*priority_telephone_prefixes].map {|x| [x.html_safe,ISO3166::Country::NameIndex[x]] }
           telephone_prefix_options += options_for_select(priority_telephone_prefixes, selected)
-          telephone_prefix_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
+          telephone_prefix_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n".html_safe
         end
 
         telephone_prefixes = ISO3166::Country::Names.map{ |(name,alpha2)| c = Country[alpha2]; [name.html_safe, c.country_code.to_s.html_safe] }
