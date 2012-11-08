@@ -1,4 +1,35 @@
 --- 
+US: 
+  address_format: |-
+      {{recipient}}
+      {{street}}
+      {{city}} {{region}} {{postalcode}}
+      {{country}}
+  alpha2: US
+  alpha3: USA
+  country_code: "1"
+  currency: USD
+  international_prefix: "011"
+  ioc: USA
+  latitude: "38 00 N"
+  longitude: "97 00 W"
+  name: "United States"
+  names: 
+    - "United States of America"
+    - "Vereinigte Staaten von Amerika"
+    - États-Unis
+    - "Estados Unidos"
+  national_destination_code_lengths: 
+    - 3
+  national_number_lengths: 
+    - 10
+  national_prefix: "1"
+  number: "840"
+  region: Americas
+  subregion: "Northern America"
+  un_locode: US
+  languages:
+    - en
 AD: 
   alpha2: AD
   alpha3: AND
@@ -6178,37 +6209,6 @@ UM:
   region: Americas
   subregion: "Northern America"
   un_locode: UM
-  languages:
-    - en
-US: 
-  address_format: |-
-      {{recipient}}
-      {{street}}
-      {{city}} {{region}} {{postalcode}}
-      {{country}}
-  alpha2: US
-  alpha3: USA
-  country_code: "1"
-  currency: USD
-  international_prefix: "011"
-  ioc: USA
-  latitude: "38 00 N"
-  longitude: "97 00 W"
-  name: "United States"
-  names: 
-    - "United States of America"
-    - "Vereinigte Staaten von Amerika"
-    - États-Unis
-    - "Estados Unidos"
-  national_destination_code_lengths: 
-    - 3
-  national_number_lengths: 
-    - 10
-  national_prefix: "1"
-  number: "840"
-  region: Americas
-  subregion: "Northern America"
-  un_locode: US
   languages:
     - en
 UY: 
