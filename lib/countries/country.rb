@@ -38,7 +38,7 @@ class ISO3166::Country
   def initialize(country_data)
     @data = country_data.is_a?(Hash) ? country_data : Data[country_data]
   end
-  
+
   def valid?
     !!@data
   end
@@ -54,18 +54,19 @@ class ISO3166::Country
   def subdivisions
     @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end
-  
+
   alias :states :subdivisions
-  
+
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
   end
-  
+
   class << self
-    def all
-      Data.map { |country,data| [data['name'],country] }
+    def all(&blk)
+      blk ||= Proc.new { |country ,data| [data['name'], country] }
+      Data.map &blk
     end
-    
+
     alias :countries :all
 
     def search(query)
@@ -76,7 +77,7 @@ class ISO3166::Country
     def [](query)
       self.search(query)
     end
-    
+
     def method_missing(*m)
       if m.first.to_s.match /^find_(country_)?by_(.+)/
         country = self.find_all_by($~[2].downcase, m[1].to_s.downcase).first
@@ -90,7 +91,7 @@ class ISO3166::Country
         super
       end
     end
-    
+
     def find_all_by(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
       attribute = ['name', 'names'] if attribute == 'name'
@@ -101,7 +102,7 @@ class ISO3166::Country
           else
             v[attr] && v[attr].downcase == val
           end
-        end.uniq.include?(true) 
+        end.uniq.include?(true)
       end
     end
   end
