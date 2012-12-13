@@ -41,11 +41,11 @@ describe ISO3166::Country do
   it 'should return subregion' do
     country.subregion.should == 'Northern America'
   end
-  
+
   it 'should return ioc code' do
     country.ioc.should == 'USA'
   end
-  
+
   it 'should return UN/LOCODE' do
     country.un_locode.should == 'US'
   end
@@ -93,7 +93,7 @@ describe ISO3166::Country do
       country.states.should have(57).states
     end
   end
-  
+
   describe 'valid?' do
     it 'should return true if country is valid' do
       ISO3166::Country.new('US').should be_valid
@@ -103,7 +103,7 @@ describe ISO3166::Country do
       ISO3166::Country.new('fubar').should_not be_valid
     end
   end
-  
+
   describe 'all' do
     it 'should return an arry list of all countries' do
       countries = ISO3166::Country.all
@@ -111,14 +111,22 @@ describe ISO3166::Country do
       countries.first.should be_an(Array)
       countries.should have(246).countries
     end
+
+    it "should allow to customize each country representation passing a block to the method" do
+      countries = ISO3166::Country.all { |country, data| [data['name'], country, data['country_code'] ] }
+      countries.should be_an(Array)
+      countries.first.should be_an(Array)
+      countries.first.should have(3).fields
+      countries.should have(246).countries
+    end
   end
-  
+
   describe 'countries' do
     it 'should be the same as all' do
       ISO3166::Country.countries.should == ISO3166::Country.all
     end
   end
-  
+
   describe 'search' do
     it 'should return new country object when a valid alpha2 string is passed' do
       ISO3166::Country.search('US').should be_a(ISO3166::Country)
@@ -144,7 +152,7 @@ describe ISO3166::Country do
 
     it 'should allow access to symbol' do
       country.currency[:symbol].should == '$'
-    end    
+    end
   end
 
   describe "Country class" do
@@ -189,13 +197,13 @@ describe ISO3166::Country do
 
       its(:first) { should == "PL" }
     end
-    
+
     context "when finding by invalid attribute" do
       it "should raise an error" do
         lambda { ISO3166::Country.find_by_invalid('invalid') }.should raise_error
       end
     end
-    
+
     context "when using find_all method" do
       let(:list) { ISO3166::Country.find_all_by_currency('USD') }
 
@@ -204,10 +212,10 @@ describe ISO3166::Country do
         list.first.should be_a(Array)
       end
     end
-    
+
     context "when using find_by method" do
       subject { ISO3166::Country.find_by_alpha3('CAN') }
-      
+
       its(:length) { should == 2 }
       its(:first) { should be_a(String) }
       its(:last) { should be_a(Hash) }
@@ -241,13 +249,13 @@ describe ISO3166::Country do
         bogus.should == nil
       end
     end
-    
+
     context "when finding by invalid attribute" do
       it "should raise an error" do
         lambda { ISO3166::Country.find_country_by_invalid('invalid') }.should raise_error
       end
     end
-    
+
     context "when using find_all method" do
       let(:list) { ISO3166::Country.find_all_countries_by_currency('USD') }
 
@@ -256,10 +264,10 @@ describe ISO3166::Country do
         list.first.should be_a(ISO3166::Country)
       end
     end
-    
+
     context "when using find_by method" do
       let(:country) { ISO3166::Country.find_country_by_alpha3('CAN') }
-      
+
       it 'should be a single country object' do
         country.should be_a(ISO3166::Country)
       end
@@ -275,10 +283,10 @@ describe ISO3166::Country do
       names.size.should == names.uniq.size
     end
   end
-  
+
   describe 'Norway' do
     let(:norway) { ISO3166::Country.search('NO') }
-    
+
     it 'should have a currency' do
       norway.currency.should be_a(ISO4217::Currency)
     end
