@@ -95,14 +95,18 @@ class ISO3166::Country
     def find_all_by(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
       attribute = attribute.to_s
-      val       = val.to_s.downcase
+      if val.is_a?(Regexp)
+        val = Regexp.new(val.source, 'i')
+      else
+        val = val.to_s.downcase
+      end
       attribute = ['name', 'names'] if attribute == 'name'
       Data.select do |k,v|
         Array(attribute).map do |attr|
           if v[attr].kind_of?(Enumerable)
-            v[attr].map{ |n| n.downcase }.include?(val)
+            v[attr].any?{ |n| val === n.downcase }
           else
-            v[attr] && v[attr].downcase == val
+            v[attr] && val === v[attr].downcase
           end
         end.uniq.include?(true)
       end

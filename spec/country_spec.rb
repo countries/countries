@@ -216,6 +216,11 @@ describe ISO3166::Country do
       spain_data.keys.should == ['ES']
     end
 
+    it "also performs searches with regexps and forces it to ignore case" do
+      spain_data = ISO3166::Country.find_all_by(:names, /Españ/)
+      spain_data.should be_a Hash
+      spain_data.keys.should == ['ES']
+    end
   end
 
   describe "hash finder methods" do
