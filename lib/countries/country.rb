@@ -80,10 +80,10 @@ class ISO3166::Country
 
     def method_missing(*m)
       if m.first.to_s.match /^find_(country_)?by_(.+)/
-        country = self.find_all_by($~[2].downcase, m[1].to_s.downcase).first
+        country = self.find_all_by($~[2].downcase, m[1]).first
         $~[1].nil? ? country : self.new(country.last) if country
       elsif m.first.to_s.match /^find_all_(countries_)?by_(.+)/
-        self.find_all_by($~[2].downcase, m[1].to_s.downcase).inject([]) do |list, c|
+        self.find_all_by($~[2].downcase, m[1]).inject([]) do |list, c|
           list << ($~[1].nil? ? c : self.new(c.last)) if c
           list
         end
@@ -94,6 +94,8 @@ class ISO3166::Country
 
     def find_all_by(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
+      attribute = attribute.to_s
+      val       = val.to_s.downcase
       attribute = ['name', 'names'] if attribute == 'name'
       Data.select do |k,v|
         Array(attribute).map do |attr|
@@ -105,5 +107,6 @@ class ISO3166::Country
         end.uniq.include?(true)
       end
     end
+
   end
 end
