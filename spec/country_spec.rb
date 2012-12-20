@@ -179,6 +179,50 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'find_all_by' do
+    context "when searchead attribute equals the given value" do
+      let(:spain_data) { ISO3166::Country.find_all_by('alpha2', "ES") }
+
+      it "returns a hash with the data of the country" do
+        spain_data.should be_a Hash
+        spain_data.should have(1).keys
+      end
+    end
+
+    context "when searchead attribute is list and one of its elements equals the given value" do
+      let(:spain_data) { ISO3166::Country.find_all_by('languages', "en") }
+
+      it "returns a hash with the data of the country" do
+        spain_data.should be_a Hash
+        spain_data.size.should > 1
+      end
+    end
+
+    it "also finds results if the given values is not upcased/downcased properly" do
+      spain_data = ISO3166::Country.find_all_by('alpha2', "es")
+      spain_data.should be_a Hash
+      spain_data.should have(1).keys
+    end
+
+    it "also finds results if the attribute is given as a symbol" do
+      spain_data = ISO3166::Country.find_all_by(:alpha2, "ES")
+      spain_data.should be_a Hash
+      spain_data.should have(1).keys
+    end
+
+    it "casts the given value to a string to perform the search" do
+      spain_data = ISO3166::Country.find_all_by(:country_code, 34)
+      spain_data.should be_a Hash
+      spain_data.keys.should == ['ES']
+    end
+
+    it "also performs searches with regexps and forces it to ignore case" do
+      spain_data = ISO3166::Country.find_all_by(:names, /Españ/)
+      spain_data.should be_a Hash
+      spain_data.keys.should == ['ES']
+    end
+  end
+
   describe "hash finder methods" do
     context "when search name in 'name'" do
       subject { ISO3166::Country.find_by_name("Poland") }
@@ -220,7 +264,6 @@ describe ISO3166::Country do
       its(:first) { should be_a(String) }
       its(:last) { should be_a(Hash) }
     end
-
   end
 
   describe "country finder methods" do
