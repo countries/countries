@@ -1,5 +1,6 @@
 --- 
-AD: 
+AD:
+  continent: Europe
   alpha2: AD
   alpha3: AND
   country_code: "376"
@@ -21,13 +22,13 @@ AD:
     - 9
   national_prefix: None
   number: "020"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: AD
   languages:
     - ca
-AE: 
+AE:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -55,13 +56,13 @@ AE:
     - 9
   national_prefix: "0"
   number: "784"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: AE
   languages:
     - ar
-AF: 
+AF:
+  continent: Asia
   alpha2: AF
   alpha3: AFG
   country_code: "93"
@@ -81,7 +82,6 @@ AF:
     - 9
   national_prefix: "0"
   number: "004"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: AF
@@ -90,6 +90,7 @@ AF:
     - uz
     - tk
 AG:
+  continent: North America
   alpha2: AG
   alpha3: ATG
   country_code: "1"
@@ -110,13 +111,13 @@ AG:
     - 10
   national_prefix: "1"
   number: 028
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: AG
   languages:
     - en
-AI: 
+AI:
+  continent: North America
   alpha2: AI
   alpha3: AIA
   country_code: "1"
@@ -134,13 +135,13 @@ AI:
     - 10
   national_prefix: "1"
   number: "660"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: AI
   languages:
     - en
-AL: 
+AL:
+  continent: Europe
   alpha2: AL
   alpha3: ALB
   country_code: "355"
@@ -162,13 +163,13 @@ AL:
     - 9
   national_prefix: "0"
   number: 008
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: AL
   languages:
     - sq
-AM: 
+AM:
+  continent: Asia
   alpha2: AM
   alpha3: ARM
   country_code: "374"
@@ -188,14 +189,14 @@ AM:
     - 8
   national_prefix: "8"
   number: "051"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: AM
   languages:
     - hy
     - ru
-AN: 
+AN:
+  continent: North America
   alpha2: AN
   alpha3: ANT
   country_code: "599"
@@ -216,7 +217,6 @@ AN:
     - 7
   national_prefix: "0"
   number: "530"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: AN
@@ -224,6 +224,7 @@ AN:
     - nl
     - en
 AO:
+  continent: Africa
   alpha2: AO
   alpha3: AGO
   country_code: "244"
@@ -241,13 +242,13 @@ AO:
     - 9
   national_prefix: "0"
   number: "024"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: AO
   languages:
     - pt
-AQ: 
+AQ:
+  continent: Antarctica
   alpha2: AQ
   alpha3: ATA
   country_code: "672"
@@ -266,12 +267,12 @@ AQ:
   national_number_lengths: []
   national_prefix: ""
   number: "010"
-  continent: Antarctica
   region: ""
   subregion: ""
   un_locode: AQ
   languages: []
-AR: 
+AR:
+  continent: South America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -298,14 +299,14 @@ AR:
     - 9
   national_prefix: "0"
   number: "032"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: AR
   languages:
     - es
     - gn
-AS: 
+AS:
+  continent: Australia
   alpha2: AS
   alpha3: ASM
   country_code: "1"
@@ -326,14 +327,14 @@ AS:
     - 10
   national_prefix: "1"
   number: "016"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: AS
   languages:
     - en
     - sm
-AT: 
+AT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -366,13 +367,13 @@ AT:
     - 13
   national_prefix: "0"
   number: "040"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: AT
   languages:
     - de
 AU:
+  continent: Australia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -397,13 +398,13 @@ AU:
     - 9
   national_prefix: "0"
   number: "036"
-  continent: Australia
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: AU
   languages:
     - en
-AW: 
+AW:
+  continent: North America
   alpha2: AW
   alpha3: ABW
   country_code: "297"
@@ -421,13 +422,13 @@ AW:
     - 7
   national_prefix: None
   number: "533"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: AW
   languages:
     - nl
 AX:
+  continent: Europe
   alpha2: AX
   alpha3: ALA
   country_code: "358"
@@ -443,13 +444,13 @@ AX:
   national_number_lengths: []
   national_prefix: ""
   number: "248"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - sv
-AZ: 
+AZ:
+  continent: Asia
   alpha2: AZ
   alpha3: AZE
   country_code: "994"
@@ -471,14 +472,14 @@ AZ:
     - 9
   national_prefix: "8"
   number: "031"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: AZ
   languages:
     - az
     - hy
-BA: 
+BA:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -504,7 +505,6 @@ BA:
     - 8
   national_prefix: "0"
   number: "070"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: BA
@@ -512,7 +512,8 @@ BA:
     - bs
     - hr
     - sr
-BB: 
+BB:
+  continent: North America
   alpha2: BB
   alpha3: BRB
   country_code: "1"
@@ -531,13 +532,13 @@ BB:
     - 10
   national_prefix: "1"
   number: "052"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: BB
   languages:
     - en
-BD: 
+BD:
+  continent: Asia
   alpha2: BD
   alpha3: BGD
   country_code: "880"
@@ -556,13 +557,13 @@ BD:
     - 10
   national_prefix: "0"
   number: "050"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: BD
   languages:
     - bn
-BE: 
+BE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -589,7 +590,6 @@ BE:
     - 9
   national_prefix: "0"
   number: "056"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: BE
@@ -597,7 +597,8 @@ BE:
     - nl
     - fr
     - de
-BF: 
+BF:
+  continent: Africa
   alpha2: BF
   alpha3: BFA
   country_code: "226"
@@ -615,7 +616,6 @@ BF:
     - 8
   national_prefix: None
   number: "854"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: BF
@@ -623,6 +623,7 @@ BF:
     - fr
     - ff
 BG:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -649,13 +650,13 @@ BG:
     - 10
   national_prefix: "0"
   number: "100"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: BG
   languages:
     - bg
-BH: 
+BH:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -680,13 +681,13 @@ BH:
     - 8
   national_prefix: None
   number: 048
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: BH
   languages:
     - ar
-BI: 
+BI:
+  continent: Africa
   alpha2: BI
   alpha3: BDI
   country_code: "257"
@@ -704,14 +705,14 @@ BI:
     - 8
   national_prefix: None
   number: "108"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: BI
   languages:
     - fr
     - rn
-BJ: 
+BJ:
+  continent: Africa
   alpha2: BJ
   alpha3: BEN
   country_code: "229"
@@ -730,13 +731,13 @@ BJ:
     - 8
   national_prefix: None
   number: "204"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: BJ
   languages:
     - fr
-BL: 
+BL:
+  continent: North America
   alpha2: BL
   alpha3: BLM
   country_code: "590"
@@ -752,13 +753,13 @@ BL:
   national_number_lengths: []
   national_prefix: ""
   number: "652"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode:
   languages:
     - fr
-BM: 
+BM:
+  continent: North America
   alpha2: BM
   alpha3: BMU
   country_code: "1"
@@ -778,13 +779,13 @@ BM:
     - 10
   national_prefix: "1"
   number: "060"
-  continent: North America
   region: Americas
   subregion: "Northern America"
   un_locode: BM
   languages:
     - en
-BN: 
+BN:
+  continent: Asia
   alpha2: BN
   alpha3: BRN
   country_code: "673"
@@ -802,13 +803,13 @@ BN:
     - 7
   national_prefix: "0"
   number: 096
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: BN
   languages:
     - ms
-BO: 
+BO:
+  continent: South America
   alpha2: BO
   alpha3: BOL
   country_code: "591"
@@ -828,7 +829,6 @@ BO:
     - 8
   national_prefix: "010"
   number: 068
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: BO
@@ -836,7 +836,8 @@ BO:
     - es
     - ay
     - qu
-BR: 
+BR:
+  continent: South America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -862,13 +863,13 @@ BR:
     - 10
   national_prefix: "014"
   number: "076"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: BR
   languages:
     - pt
 BS:
+  continent: North America
   alpha2: BS
   alpha3: BHS
   country_code: "1"
@@ -886,13 +887,13 @@ BS:
     - 10
   national_prefix: "1"
   number: "044"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: BS
   languages:
     - en
-BT: 
+BT:
+  continent: Asia
   alpha2: BT
   alpha3: BTN
   country_code: "975"
@@ -913,13 +914,13 @@ BT:
     - 8
   national_prefix: None
   number: "064"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: BT
   languages:
     - dz
-BV: 
+BV:
+  continent: Antarctica
   alpha2: BV
   alpha3: BVT
   country_code: ""
@@ -935,12 +936,12 @@ BV:
   national_number_lengths: []
   national_prefix: ""
   number: "074"
-  continent: 
   region: ""
   subregion: ""
   un_locode:
   languages: []
 BW:
+  continent: Africa
   alpha2: BW
   alpha3: BWA
   country_code: "267"
@@ -958,14 +959,14 @@ BW:
     - 7
   national_prefix: None
   number: "072"
-  continent: Africa
   region: Africa
   subregion: "Southern Africa"
   un_locode: BW
   languages:
     - en
     - tn
-BY: 
+BY:
+  continent: Europe
   alpha2: BY
   alpha3: BLR
   country_code: "375"
@@ -986,14 +987,14 @@ BY:
     - 9
   national_prefix: "8"
   number: "112"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: BY
   languages:
     - be
     - ru
-BZ: 
+BZ:
+  continent: North America
   alpha2: BZ
   alpha3: BLZ
   country_code: "501"
@@ -1012,14 +1013,14 @@ BZ:
     - 7
   national_prefix: "0"
   number: 084
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: BZ
   languages:
     - en
     - es
-CA: 
+CA:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1044,14 +1045,14 @@ CA:
     - 10
   national_prefix: "1"
   number: "124"
-  continent: North America
   region: Americas
   subregion: "Northern America"
   un_locode: CA
   languages:
     - en
     - fr
-CC: 
+CC:
+  continent: Asia
   alpha2: CC
   alpha3: CCK
   country_code: "61"
@@ -1069,13 +1070,13 @@ CC:
     - 9
   national_prefix: "0"
   number: "166"
-  continent: Australia
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: CC
   languages:
     - en
-CD: 
+CD:
+  continent: Africa
   alpha2: CD
   alpha3: COD
   country_code: "243"
@@ -1096,7 +1097,6 @@ CD:
     - 8
   national_prefix: None
   number: "180"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: CD
@@ -1106,7 +1106,8 @@ CD:
     - kg
     - sw
     - lu
-CF: 
+CF:
+  continent: Africa
   alpha2: CF
   alpha3: CAF
   country_code: "236"
@@ -1127,14 +1128,14 @@ CF:
     - 8
   national_prefix: None
   number: "140"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: CF
   languages:
     - fr
     - sg
-CG: 
+CG:
+  continent: Africa
   alpha2: CG
   alpha3: COG
   country_code: "242"
@@ -1153,7 +1154,6 @@ CG:
     - 7
   national_prefix: None
   number: "178"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: CG
@@ -1161,6 +1161,7 @@ CG:
     - fr
     - ln
 CH:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1187,7 +1188,6 @@ CH:
     - 10
   national_prefix: "0"
   number: "756"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: CH
@@ -1196,6 +1196,7 @@ CH:
     - fr
     - it
 CI:
+  continent: Africa
   alpha2: CI
   alpha3: CIV
   country_code: "225"
@@ -1213,13 +1214,13 @@ CI:
     - 8
   national_prefix: "0"
   number: "384"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: CI
   languages:
     - fr
-CK: 
+CK:
+  continent: Australia
   alpha2: CK
   alpha3: COK
   country_code: "682"
@@ -1240,13 +1241,13 @@ CK:
     - 5
   national_prefix: "00"
   number: "184"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: CK
   languages:
     - en
 CL:
+  continent: South America
   alpha2: CL
   alpha3: CHL
   country_code: "56"
@@ -1265,13 +1266,13 @@ CL:
     - 9
   national_prefix: "0"
   number: "152"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: CL
   languages:
     - es
-CM: 
+CM:
+  continent: Africa
   alpha2: CM
   alpha3: CMR
   country_code: "237"
@@ -1292,14 +1293,14 @@ CM:
     - 8
   national_prefix: None
   number: "120"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: CM
   languages:
     - en
     - fr
-CN: 
+CN:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1327,13 +1328,13 @@ CN:
     - 11
   national_prefix: "0"
   number: "156"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: CN
   languages:
     - zh
-CO: 
+CO:
+  continent: South America
   alpha2: CO
   alpha3: COL
   country_code: "57"
@@ -1354,13 +1355,13 @@ CO:
     - 10
   national_prefix: "05"
   number: "170"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: CO
   languages:
     - es
-CR: 
+CR:
+  continent: North America
   alpha2: CR
   alpha3: CRI
   country_code: "506"
@@ -1378,13 +1379,13 @@ CR:
     - 8
   national_prefix: None
   number: "188"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: CR
   languages:
     - es
-CU: 
+CU:
+  continent: North America
   alpha2: CU
   alpha3: CUB
   country_code: "53"
@@ -1403,13 +1404,13 @@ CU:
     - 8
   national_prefix: "0"
   number: "192"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: CU
   languages:
     - es
-CV: 
+CV:
+  continent: Africa
   alpha2: CV
   alpha3: CPV
   country_code: "238"
@@ -1430,13 +1431,13 @@ CV:
     - 7
   national_prefix: None
   number: "132"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: CV
   languages:
     - pt
 CX:
+  continent: Asia
   alpha2: CX
   alpha3: CXR
   country_code: "61"
@@ -1452,7 +1453,6 @@ CX:
   national_number_lengths: []
   national_prefix: "0"
   number: "162"
-  continent: Asia
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: CX
@@ -1460,7 +1460,8 @@ CX:
     - en
     - zh
     - ms
-CY: 
+CY:
+  continent: Asia
   alpha2: CY
   alpha3: CYP
   country_code: "357"
@@ -1481,7 +1482,6 @@ CY:
     - 8
   national_prefix: None
   number: "196"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: CY
@@ -1489,7 +1489,8 @@ CY:
     - el
     - tr
     - hy
-CZ: 
+CZ:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1515,14 +1516,14 @@ CZ:
     - 9
   national_prefix: None
   number: "203"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: CZ
   languages:
     - cs
     - sk
-DE: 
+DE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1553,13 +1554,13 @@ DE:
     - 11
   national_prefix: "0"
   number: "276"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: DE
   languages:
     - de
-DJ: 
+DJ:
+  continent: Africa
   alpha2: DJ
   alpha3: DJI
   country_code: "253"
@@ -1577,14 +1578,14 @@ DJ:
     - 6
   national_prefix: None
   number: "262"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: DJ
   languages:
     - ar
     - fr
-DK: 
+DK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1611,13 +1612,13 @@ DK:
     - 8
   national_prefix: None
   number: "208"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: DK
   languages:
     - da
 DM:
+  continent: North America
   alpha2: DM
   alpha3: DMA
   country_code: "1"
@@ -1635,13 +1636,13 @@ DM:
     - 10
   national_prefix: "1"
   number: "212"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: DM
   languages:
     - en
-DO: 
+DO:
+  continent: North America
   alpha2: DO
   alpha3: DOM
   country_code: "1"
@@ -1662,13 +1663,13 @@ DO:
     - 10
   national_prefix: "1"
   number: "214"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: DO
   languages:
     - es
-DZ: 
+DZ:
+  continent: Africa
   alpha2: DZ
   alpha3: DZA
   country_code: "213"
@@ -1689,13 +1690,13 @@ DZ:
     - 8
   national_prefix: "7"
   number: "012"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: DZ
   languages:
     - ar
 EC:
+  continent: South America
   alpha2: EC
   alpha3: ECU
   country_code: "593"
@@ -1715,13 +1716,13 @@ EC:
     - 9
   national_prefix: "0"
   number: "218"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: EC
   languages:
     - es
-EE: 
+EE:
+  continent: Europe
   alpha2: EE
   alpha3: EST
   country_code: "372"
@@ -1742,13 +1743,13 @@ EE:
     - 8
   national_prefix: None
   number: "233"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: EE
   languages:
     - et
-EG: 
+EG:
+  continent: Africa
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1774,13 +1775,13 @@ EG:
     - 9
   national_prefix: "0"
   number: "818"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: EG
   languages:
     - ar
 EH:
+  continent: Africa
   alpha2: EH
   alpha3: ESH
   country_code: "212"
@@ -1799,14 +1800,14 @@ EH:
   national_number_lengths: []
   national_prefix: ""
   number: "732"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: EH
   languages:
     - es
     - fr
-ER: 
+ER:
+  continent: Africa
   alpha2: ER
   alpha3: ERI
   country_code: "291"
@@ -1825,7 +1826,6 @@ ER:
     - 7
   national_prefix: "0"
   number: "232"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ER
@@ -1833,7 +1833,8 @@ ER:
     - en
     - ar
     - ti
-ES: 
+ES:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1859,13 +1860,13 @@ ES:
     - 9
   national_prefix: None
   number: "724"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: ES
   languages:
     - es
-ET: 
+ET:
+  continent: Africa
   alpha2: ET
   alpha3: ETH
   country_code: "251"
@@ -1886,13 +1887,13 @@ ET:
     - 9
   national_prefix: "0"
   number: "231"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ET
   languages:
     - am
-FI: 
+FI:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1918,14 +1919,14 @@ FI:
     - 9
   national_prefix: "0"
   number: "246"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - fi
     - sv
-FJ: 
+FJ:
+  continent: Australia
   alpha2: FJ
   alpha3: FJI
   country_code: "679"
@@ -1945,7 +1946,6 @@ FJ:
     - 7
   national_prefix: None
   number: "242"
-  continent: Australia
   region: Oceania
   subregion: Melanesia
   un_locode: FJ
@@ -1954,7 +1954,8 @@ FJ:
     - fj
     - hi
     - ur
-FK: 
+FK:
+  continent: South America
   alpha2: FK
   alpha3: FLK
   country_code: "500"
@@ -1975,13 +1976,13 @@ FK:
     - 5
   national_prefix: None
   number: "238"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: FK
   languages:
     - en
-FM: 
+FM:
+  continent: Australia
   alpha2: FM
   alpha3: FSM
   country_code: "691"
@@ -2002,13 +2003,13 @@ FM:
     - 7
   national_prefix: "1"
   number: "583"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: FM
   languages:
     - en
-FO: 
+FO:
+  continent: Europe
   alpha2: FO
   alpha3: FRO
   country_code: "298"
@@ -2029,13 +2030,13 @@ FO:
     - 6
   national_prefix: None
   number: "234"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: FO
   languages:
     - fo
-FR: 
+FR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2062,13 +2063,13 @@ FR:
     - 10
   national_prefix: "0"
   number: "250"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: FR
   languages:
     - fr
-GA: 
+GA:
+  continent: Africa
   alpha2: GA
   alpha3: GAB
   country_code: "241"
@@ -2090,13 +2091,13 @@ GA:
     - 8
   national_prefix: None
   number: "266"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: GA
   languages:
     - fr
-GB: 
+GB:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2125,13 +2126,13 @@ GB:
     - 11
   national_prefix: "0"
   number: "826"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - en
-GD: 
+GD:
+  continent: North America
   alpha2: GD
   alpha3: GRD
   country_code: "1"
@@ -2149,13 +2150,13 @@ GD:
     - 10
   national_prefix: "1"
   number: "308"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: GD
   languages:
     - en
-GE: 
+GE:
+  continent: Asia
   alpha2: GE
   alpha3: GEO
   country_code: "995"
@@ -2175,13 +2176,13 @@ GE:
     - 9
   national_prefix: 8*
   number: "268"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: GE
   languages:
     - ka
-GF: 
+GF:
+  continent: South America
   alpha2: GF
   alpha3: GUF
   country_code: "594"
@@ -2202,13 +2203,13 @@ GF:
     - 10
   national_prefix: None
   number: "254"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: GF
   languages:
     - fr
-GG: 
+GG:
+  continent: Europe
   alpha2: GG
   alpha3: GGY
   country_code: "44"
@@ -2227,14 +2228,14 @@ GG:
   national_number_lengths: []
   national_prefix: ""
   number: "831"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - en
     - fr
-GH: 
+GH:
+  continent: Africa
   alpha2: GH
   alpha3: GHA
   country_code: "233"
@@ -2255,13 +2256,13 @@ GH:
     - 8
   national_prefix: None
   number: "288"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: GH
   languages:
     - en
-GI: 
+GI:
+  continent: Europe
   alpha2: GI
   alpha3: GIB
   country_code: "350"
@@ -2279,13 +2280,13 @@ GI:
     - 8
   national_prefix: None
   number: "292"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: GI
   languages:
     - en
-GL: 
+GL:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2311,13 +2312,13 @@ GL:
     - 6
   national_prefix: None
   number: "304"
-  continent: North America
   region: Americas
   subregion: "Northern America"
   un_locode: GL
   languages:
     - kl
-GM: 
+GM:
+  continent: Africa
   alpha2: GM
   alpha3: GMB
   country_code: "220"
@@ -2335,13 +2336,13 @@ GM:
     - 7
   national_prefix: None
   number: "270"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: GM
   languages:
     - en
-GN: 
+GN:
+  continent: Africa
   alpha2: GN
   alpha3: GIN
   country_code: "224"
@@ -2362,7 +2363,6 @@ GN:
     - 8
   national_prefix: None
   number: "324"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: GN
@@ -2370,6 +2370,7 @@ GN:
     - fr
     - ff
 GP:
+  continent: North America
   alpha2: GP
   alpha3: GLP
   country_code: "590"
@@ -2388,13 +2389,13 @@ GP:
     - 10
   national_prefix: None
   number: "312"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: GP
   languages:
     - fr
-GQ: 
+GQ:
+  continent: Africa
   alpha2: GQ
   alpha3: GNQ
   country_code: "240"
@@ -2415,14 +2416,14 @@ GQ:
     - 6
   national_prefix: None
   number: "226"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: GQ
   languages:
     - es
     - fr
-GR: 
+GR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2448,13 +2449,13 @@ GR:
     - 10
   national_prefix: None
   number: "300"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: GR
   languages:
     - el
-GS: 
+GS:
+  continent: Antarctica
   alpha2: GS
   alpha3: SGS
   country_code: "500"
@@ -2470,13 +2471,13 @@ GS:
   national_number_lengths: []
   national_prefix: ""
   number: "239"
-  continent: 
   region: Americas
   subregion: "South America"
   un_locode: GS
   languages:
     - en
-GT: 
+GT:
+  continent: North America
   alpha2: GT
   alpha3: GTM
   country_code: "502"
@@ -2494,13 +2495,13 @@ GT:
     - 8
   national_prefix: None
   number: "320"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: GT
   languages:
     - es
-GU: 
+GU:
+  continent: Australia
   alpha2: GU
   alpha3: GUM
   country_code: "1"
@@ -2518,7 +2519,6 @@ GU:
     - 10
   national_prefix: "1"
   number: "316"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: GU
@@ -2526,7 +2526,8 @@ GU:
     - en
     - ch
     - es
-GW: 
+GW:
+  continent: Africa
   alpha2: GW
   alpha3: GNB
   country_code: "245"
@@ -2545,13 +2546,13 @@ GW:
     - 7
   national_prefix: None
   number: "624"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: GW
   languages:
     - pt
-GY: 
+GY:
+  continent: South America
   alpha2: GY
   alpha3: GUY
   country_code: "592"
@@ -2570,13 +2571,13 @@ GY:
     - 7
   national_prefix: None
   number: "328"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: GY
   languages:
     - en
-HK: 
+HK:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2599,14 +2600,14 @@ HK:
     - 8
   national_prefix: None
   number: "344"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: HK
   languages:
     - en
     - zh
-HM: 
+HM:
+  continent: Antarctica
   alpha2: HM
   alpha3: HMD
   country_code: ""
@@ -2622,13 +2623,13 @@ HM:
   national_number_lengths: []
   national_prefix: ""
   number: "334"
-  continent: 
   region: ""
   subregion: ""
   un_locode: HM
   languages:
     - en
-HN: 
+HN:
+  continent: North America
   alpha2: HN
   alpha3: HND
   country_code: "504"
@@ -2647,13 +2648,13 @@ HN:
     - 8
   national_prefix: None
   number: "340"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: HN
   languages:
     - es
 HR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2679,13 +2680,13 @@ HR:
     - 8
   national_prefix: "0"
   number: "191"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: HR
   languages:
     - hr
-HT: 
+HT:
+  continent: North America
   alpha2: HT
   alpha3: HTI
   country_code: "509"
@@ -2703,14 +2704,14 @@ HT:
     - 8
   national_prefix: None
   number: "332"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: HT
   languages:
     - fr
     - ht
-HU: 
+HU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{city}}
@@ -2738,13 +2739,13 @@ HU:
     - 9
   national_prefix: "06"
   number: "348"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: HU
   languages:
     - hu
-ID: 
+ID:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2773,13 +2774,13 @@ ID:
     - 11
   national_prefix: "0"
   number: "360"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: ID
   languages:
     - id
-IE: 
+IE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2805,14 +2806,14 @@ IE:
     - 9
   national_prefix: "0"
   number: "372"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: IE
   languages:
     - en
     - ga
-IL: 
+IL:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2838,14 +2839,14 @@ IL:
     - 9
   national_prefix: "0"
   number: "376"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: IL
   languages:
     - he
     - ar
-IM: 
+IM:
+  continent: Europe
   alpha2: IM
   alpha3: IMN
   country_code: "44"
@@ -2864,14 +2865,14 @@ IM:
   national_number_lengths: []
   national_prefix: ""
   number: "833"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - en
     - gv
-IN: 
+IN:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2897,14 +2898,14 @@ IN:
     - 10
   national_prefix: "0"
   number: "356"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: IN
   languages:
     - hi
     - en
-IO: 
+IO:
+  continent: Asia
   alpha2: IO
   alpha3: IOT
   country_code: "246"
@@ -2920,13 +2921,13 @@ IO:
   national_number_lengths: []
   national_prefix: ""
   number: 086
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: IO
   languages:
     - en
-IQ: 
+IQ:
+  continent: Asia
   alpha2: IQ
   alpha3: IRQ
   country_code: "964"
@@ -2947,13 +2948,13 @@ IQ:
     - 10
   national_prefix: None
   number: "368"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: IQ
   languages:
     - ar
 IR:
+  continent: Asia
   alpha2: IR
   alpha3: IRN
   country_code: "98"
@@ -2972,13 +2973,13 @@ IR:
     - 10
   national_prefix: "0"
   number: "364"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: IR
   languages:
     - fa
 IS:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3006,13 +3007,13 @@ IS:
     - 9
   national_prefix: "0"
   number: "352"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: IS
   languages:
     - is
-IT: 
+IT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3038,13 +3039,13 @@ IT:
     - 9
   national_prefix: None
   number: "380"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: IT
   languages:
     - it
-JE: 
+JE:
+  continent: Europe
   alpha2: JE
   alpha3: JEY
   country_code: "44"
@@ -3060,14 +3061,14 @@ JE:
   national_number_lengths: []
   national_prefix: ""
   number: "832"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode:
   languages:
     - en
     - fr
-JM: 
+JM:
+  continent: North America
   alpha2: JM
   alpha3: JAM
   country_code: "1"
@@ -3087,13 +3088,13 @@ JM:
     - 10
   national_prefix: "1"
   number: "388"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: JM
   languages:
     - en
 JO:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3120,13 +3121,13 @@ JO:
     - 9
   national_prefix: "0"
   number: "400"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: JO
   languages:
     - ar
-JP: 
+JP:
+  continent: Asia
   address_format: |-
       〒{{postalcode}}
       {{region}}{{city}}{{street}}
@@ -3153,13 +3154,13 @@ JP:
     - 10
   national_prefix: "0"
   number: "392"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: JP
   languages:
     - ja
-KE: 
+KE:
+  continent: Africa
   alpha2: KE
   alpha3: KEN
   country_code: "254"
@@ -3180,14 +3181,14 @@ KE:
     - 9
   national_prefix: "0"
   number: "404"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: KE
   languages:
     - en
     - sw
-KG: 
+KG:
+  continent: Asia
   alpha2: KG
   alpha3: KGZ
   country_code: "996"
@@ -3208,14 +3209,14 @@ KG:
     - 9
   national_prefix: "0"
   number: "417"
-  continent: Asia
   region: Asia
   subregion: "Central Asia"
   un_locode: KG
   languages:
     - ky
     - ru
-KH: 
+KH:
+  continent: Asia
   alpha2: KH
   alpha3: KHM
   country_code: "855"
@@ -3236,13 +3237,13 @@ KH:
     - 8
   national_prefix: "0"
   number: "116"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: KH
   languages:
     - km
-KI: 
+KI:
+  continent: Australia
   alpha2: KI
   alpha3: KIR
   country_code: "686"
@@ -3263,13 +3264,13 @@ KI:
     - 5
   national_prefix: None
   number: "296"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: KI
   languages:
     - en
 KM:
+  continent: Africa
   alpha2: KM
   alpha3: COM
   country_code: "269"
@@ -3289,14 +3290,14 @@ KM:
     - 7
   national_prefix: None
   number: "174"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: KM
   languages:
     - ar
     - fr
-KN: 
+KN:
+  continent: North America
   alpha2: KN
   alpha3: KNA
   country_code: "1"
@@ -3316,13 +3317,13 @@ KN:
     - 10
   national_prefix: "1"
   number: "659"
-  continent: 
   region: Americas
   subregion: Caribbean
   un_locode: KN
   languages:
     - en
-KP: 
+KP:
+  continent: Asia
   alpha2: KP
   alpha3: PRK
   country_code: "850"
@@ -3344,13 +3345,13 @@ KP:
     - 9
   national_prefix: "0"
   number: "408"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: KP
   languages:
     - ko
-KR: 
+KR:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3378,13 +3379,13 @@ KR:
     - 9
   national_prefix: "0"
   number: "410"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: KR
   languages:
     - ko
-KW: 
+KW:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3409,13 +3410,13 @@ KW:
     - 7
   national_prefix: None
   number: "414"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: KW
   languages:
     - ar
-KY: 
+KY:
+  continent: North America
   alpha2: KY
   alpha3: CYM
   country_code: "1"
@@ -3436,13 +3437,13 @@ KY:
     - 10
   national_prefix: "1"
   number: "136"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: KY
   languages:
     - en
-KZ: 
+KZ:
+  continent: Asia
   alpha2: KZ
   alpha3: KAZ
   country_code: "7"
@@ -3463,14 +3464,14 @@ KZ:
     - 10
   national_prefix: "8"
   number: "398"
-  continent: Asia
   region: Asia
   subregion: "Central Asia"
   un_locode: KZ
   languages:
     - kk
     - ru
-LA: 
+LA:
+  continent: Asia
   alpha2: LA
   alpha3: LAO
   country_code: "856"
@@ -3491,13 +3492,13 @@ LA:
     - 8
   national_prefix: "0"
   number: "418"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: LA
   languages:
     - lo
-LB: 
+LB:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3523,14 +3524,14 @@ LB:
     - 8
   national_prefix: "0"
   number: "422"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: LB
   languages:
     - ar
     - fr
-LC: 
+LC:
+  continent: North America
   alpha2: LC
   alpha3: LCA
   country_code: "1"
@@ -3550,13 +3551,13 @@ LC:
     - 10
   national_prefix: "1"
   number: "662"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: LC
   languages:
     - en
-LI: 
+LI:
+  continent: Europe
   alpha2: LI
   alpha3: LIE
   country_code: "423"
@@ -3574,13 +3575,13 @@ LI:
     - 7
   national_prefix: None
   number: "438"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: LI
   languages:
     - de
-LK: 
+LK:
+  continent: Asia
   alpha2: LK
   alpha3: LKA
   country_code: "94"
@@ -3598,14 +3599,14 @@ LK:
     - 10
   national_prefix: "0"
   number: "144"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: LK
   languages:
     - si
     - ta
-LR: 
+LR:
+  continent: Africa
   alpha2: LR
   alpha3: LBR
   country_code: "231"
@@ -3628,13 +3629,13 @@ LR:
     - 8
   national_prefix: "22"
   number: "430"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: LR
   languages:
     - en
-LS: 
+LS:
+  continent: Africa
   alpha2: LS
   alpha3: LSO
   alt_currency: ZAR
@@ -3656,14 +3657,14 @@ LS:
     - 8
   national_prefix: None
   number: "426"
-  continent: Africa
   region: Africa
   subregion: "Southern Africa"
   un_locode: LS
   languages:
     - en
     - st
-LT: 
+LT:
+  continent: Europe
   alpha2: LT
   alpha3: LTU
   country_code: "370"
@@ -3684,13 +3685,13 @@ LT:
     - 8
   national_prefix: "8"
   number: "440"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: LT
   languages:
     - lt
-LU: 
+LU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3716,7 +3717,6 @@ LU:
     - 9
   national_prefix: None
   number: "442"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: LU
@@ -3724,7 +3724,8 @@ LU:
     - fr
     - de
     - lb
-LV: 
+LV:
+  continent: Europe
   alpha2: LV
   alpha3: LVA
   country_code: "371"
@@ -3745,13 +3746,13 @@ LV:
     - 8
   national_prefix: "8"
   number: "428"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: LV
   languages:
     - lv
-LY: 
+LY:
+  continent: Africa
   alpha2: LY
   alpha3: LBY
   country_code: "218"
@@ -3773,13 +3774,13 @@ LY:
     - 9
   national_prefix: "0"
   number: "434"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: LY
   languages:
     - ar
-MA: 
+MA:
+  continent: Africa
   alpha2: MA
   alpha3: MAR
   country_code: "212"
@@ -3800,13 +3801,13 @@ MA:
     - 8
   national_prefix: "0"
   number: "504"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: MA
   languages:
     - ar
-MC: 
+MC:
+  continent: Europe
   alpha2: MC
   alpha3: MCO
   country_code: "377"
@@ -3826,13 +3827,13 @@ MC:
     - 9
   national_prefix: "0"
   number: "492"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: MC
   languages:
     - fr
-MD: 
+MD:
+  continent: Europe
   alpha2: MD
   alpha3: MDA
   country_code: "373"
@@ -3854,13 +3855,13 @@ MD:
     - 8
   national_prefix: "0"
   number: "498"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: MD
   languages:
     - ro
-ME: 
+ME:
+  continent: Europe
   alpha2: ME
   alpha3: MNE
   country_code: "382"
@@ -3879,7 +3880,6 @@ ME:
     - 8
   national_prefix: "0"
   number: "499"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: ME
@@ -3888,7 +3888,8 @@ ME:
     - bs
     - sq
     - hr
-MF: 
+MF:
+  continent: North America
   alpha2: MF
   alpha3: MAF
   country_code: "590"
@@ -3904,7 +3905,6 @@ MF:
   national_number_lengths: []
   national_prefix: ""
   number: "663"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode:
@@ -3912,7 +3912,8 @@ MF:
     - en
     - fr
     - nl
-MG: 
+MG:
+  continent: Africa
   alpha2: MG
   alpha3: MDG
   country_code: "261"
@@ -3932,14 +3933,14 @@ MG:
     - 9
   national_prefix: None
   number: "450"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MG
   languages:
     - fr
     - mg
-MH: 
+MH:
+  continent: Australia
   alpha2: MH
   alpha3: MHL
   country_code: "692"
@@ -3960,14 +3961,14 @@ MH:
     - 7
   national_prefix: "1"
   number: "584"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: MH
   languages:
     - en
     - mh
-MK: 
+MK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3994,13 +3995,13 @@ MK:
     - 8
   national_prefix: "0"
   number: "807"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: MK
   languages:
     - mk
-ML: 
+ML:
+  continent: Africa
   alpha2: ML
   alpha3: MLI
   country_code: "223"
@@ -4018,13 +4019,13 @@ ML:
     - 8
   national_prefix: "0"
   number: "466"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: ML
   languages:
     - fr
-MM: 
+MM:
+  continent: Asia
   alpha2: MM
   alpha3: MMR
   country_code: "95"
@@ -4046,13 +4047,13 @@ MM:
     - 8
   national_prefix: None
   number: "104"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: MM
   languages:
     - my
-MN: 
+MN:
+  continent: Asia
   alpha2: MN
   alpha3: MNG
   country_code: "976"
@@ -4075,13 +4076,13 @@ MN:
     - 10
   national_prefix: "0"
   number: "496"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: MN
   languages:
     - mn
-MO: 
+MO:
+  continent: Asia
   alpha2: MO
   alpha3: MAC
   country_code: "853"
@@ -4099,14 +4100,14 @@ MO:
     - 8
   national_prefix: "0"
   number: "446"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: MO
   languages:
     - zh
     - pt
-MP: 
+MP:
+  continent: Australia
   alpha2: MP
   alpha3: MNP
   country_code: "1"
@@ -4127,7 +4128,6 @@ MP:
     - 10
   national_prefix: "1"
   number: "580"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: MP
@@ -4135,6 +4135,7 @@ MP:
     - en
     - ch
 MQ:
+  continent: North America
   alpha2: MQ
   alpha3: MTQ
   country_code: "596"
@@ -4155,13 +4156,13 @@ MQ:
     - 10
   national_prefix: None
   number: "474"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: MQ
   languages:
     - fr
 MR:
+  continent: Africa
   alpha2: MR
   alpha3: MRT
   country_code: "222"
@@ -4182,14 +4183,14 @@ MR:
     - 7
   national_prefix: "0"
   number: "478"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: MR
   languages:
     - ar
     - fr
-MS: 
+MS:
+  continent: North America
   alpha2: MS
   alpha3: MSR
   country_code: "1"
@@ -4210,13 +4211,13 @@ MS:
     - 10
   national_prefix: "1"
   number: "500"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: MS
   languages:
     - en
-MT: 
+MT:
+  continent: Europe
   alpha2: MT
   alpha3: MLT
   country_code: "356"
@@ -4237,14 +4238,14 @@ MT:
     - 8
   national_prefix: "21"
   number: "470"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: MT
   languages:
     - mt
     - en
-MU: 
+MU:
+  continent: Africa
   alpha2: MU
   alpha3: MUS
   country_code: "230"
@@ -4265,13 +4266,13 @@ MU:
     - 7
   national_prefix: None
   number: "480"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MU
   languages:
     - en
-MV: 
+MV:
+  continent: Asia
   alpha2: MV
   alpha3: MDV
   country_code: "960"
@@ -4291,13 +4292,13 @@ MV:
     - 7
   national_prefix: None
   number: "462"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: MV
   languages:
     - dv
-MW: 
+MW:
+  continent: Africa
   alpha2: MW
   alpha3: MWI
   country_code: "265"
@@ -4315,14 +4316,14 @@ MW:
     - 8
   national_prefix: None
   number: "454"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MW
   languages:
     - en
     - ny
-MX: 
+MX:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4350,13 +4351,13 @@ MX:
     - 10
   national_prefix: "01"
   number: "484"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: MX
   languages:
     - es
-MY: 
+MY:
+  continent: Asia
   alpha2: MY
   alpha3: MYS
   country_code: "60"
@@ -4377,13 +4378,13 @@ MY:
     - 10
   national_prefix: "0"
   number: "458"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: MY
   languages:
     - en
-MZ: 
+MZ:
+  continent: Africa
   alpha2: MZ
   alpha3: MOZ
   country_code: "258"
@@ -4405,13 +4406,13 @@ MZ:
     - 9
   national_prefix: "0"
   number: "508"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: MZ
   languages:
     - pt
-NA: 
+NA:
+  continent: Africa
   alpha2: NA
   alpha3: NAM
   alt_currency: ZAR
@@ -4434,14 +4435,14 @@ NA:
     - 7
   national_prefix: "0"
   number: "516"
-  continent: Africa
   region: Africa
   subregion: "Southern Africa"
   un_locode: NA
   languages:
     - en
     - af
-NC: 
+NC:
+  continent: Australia
   alpha2: NC
   alpha3: NCL
   country_code: "687"
@@ -4462,13 +4463,13 @@ NC:
     - 6
   national_prefix: None
   number: "540"
-  continent: Australia
   region: Oceania
   subregion: Melanesia
   un_locode: NC
   languages:
     - fr
-NE: 
+NE:
+  continent: Africa
   alpha2: NE
   alpha3: NER
   country_code: "227"
@@ -4486,13 +4487,13 @@ NE:
     - 8
   national_prefix: "0"
   number: "562"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: NE
   languages:
     - fr
-NF: 
+NF:
+  continent: Australia
   alpha2: NF
   alpha3: NFK
   country_code: "672"
@@ -4513,13 +4514,13 @@ NF:
     - 6
   national_prefix: None
   number: "574"
-  continent: Australia
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: NF
   languages:
     - en
-NG: 
+NG:
+  continent: Africa
   alpha2: NG
   alpha3: NGA
   country_code: "234"
@@ -4540,13 +4541,13 @@ NG:
     - 8
   national_prefix: "0"
   number: "566"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: NG
   languages:
     - en
-NI: 
+NI:
+  continent: North America
   alpha2: NI
   alpha3: NIC
   country_code: "505"
@@ -4567,13 +4568,13 @@ NI:
     - 8
   national_prefix: None
   number: "558"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: NI
   languages:
     - es
-NL: 
+NL:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4599,7 +4600,6 @@ NL:
     - 9
   national_prefix: "0"
   number: "528"
-  continent: Europe
   region: Europe
   subregion: "Western Europe"
   un_locode: NL
@@ -4631,13 +4631,13 @@ NL:
     - 8
   national_prefix: None
   number: "578"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: NL
   languages:
     - "no"
-NP: 
+NP:
+  continent: Asia
   alpha2: NP
   alpha3: NPL
   country_code: "977"
@@ -4660,13 +4660,13 @@ NP:
     - 8
   national_prefix: "0"
   number: "524"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: NP
   languages:
     - ne
-NR: 
+NR:
+  continent: Australia
   alpha2: NR
   alpha3: NRU
   country_code: "674"
@@ -4687,14 +4687,14 @@ NR:
     - 7
   national_prefix: "0"
   number: "520"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: NR
   languages:
     - en
     - na
-NU: 
+NU:
+  continent: Australia
   alpha2: NU
   alpha3: NIU
   country_code: "683"
@@ -4712,13 +4712,13 @@ NU:
     - 4
   national_prefix: None
   number: "570"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: NU
   languages:
     - en
-NZ: 
+NZ:
+  continent: Australia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4746,13 +4746,13 @@ NZ:
     - 9
   national_prefix: "0 (None fo"
   number: "554"
-  continent: Australia
   region: Oceania
   subregion: "Australia and New Zealand"
   un_locode: NZ
   languages:
     - en
-OM: 
+OM:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4777,13 +4777,13 @@ OM:
     - 8
   national_prefix: None
   number: "512"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: OM
   languages:
     - ar
-PA: 
+PA:
+  continent: North America
   alpha2: PA
   alpha3: PAN
   alt_currency: USD
@@ -4803,13 +4803,13 @@ PA:
     - 7
   national_prefix: None
   number: "591"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: PA
   languages:
     - es
-PE: 
+PE:
+  continent: South America
   alpha2: PE
   alpha3: PER
   country_code: "51"
@@ -4830,13 +4830,13 @@ PE:
     - 9
   national_prefix: "0"
   number: "604"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: PE
   languages:
     - es
-PF: 
+PF:
+  continent: Australia
   alpha2: PF
   alpha3: PYF
   country_code: "689"
@@ -4857,13 +4857,13 @@ PF:
     - 6
   national_prefix: None
   number: "258"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: PF
   languages:
     - fr
-PG: 
+PG:
+  continent: Australia
   alpha2: PG
   alpha3: PNG
   country_code: "675"
@@ -4884,13 +4884,13 @@ PG:
     - 7
   national_prefix: None
   number: "598"
-  continent: Australia
   region: Oceania
   subregion: Melanesia
   un_locode: PG
   languages:
     - en
-PH: 
+PH:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}} {{region}}
@@ -4917,7 +4917,6 @@ PH:
     - 10
   national_prefix: "0"
   number: "608"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: PH
@@ -4925,6 +4924,7 @@ PH:
     - tl
     - en
 PK:
+  continent: Asia
   alpha2: PK
   alpha3: PAK
   country_code: "92"
@@ -4944,14 +4944,14 @@ PK:
     - 10
   national_prefix: "0"
   number: "586"
-  continent: Asia
   region: Asia
   subregion: "Southern Asia"
   un_locode: PK
   languages:
     - en
     - ur
-PL: 
+PL:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4978,13 +4978,13 @@ PL:
     - 9
   national_prefix: "0"
   number: "616"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: PL
   languages:
     - pl
-PM: 
+PM:
+  continent: North America
   alpha2: PM
   alpha3: SPM
   country_code: "508"
@@ -5005,13 +5005,13 @@ PM:
     - 6
   national_prefix: "0"
   number: "666"
-  continent: 
   region: Americas
   subregion: "Northern America"
   un_locode: PM
   languages:
     - fr
-PN: 
+PN:
+  continent: Australia
   alpha2: PN
   alpha3: PCN
   country_code: ""
@@ -5028,13 +5028,13 @@ PN:
     - 9
   national_prefix: "0"
   number: "612"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: PN
   languages:
     - en
-PR: 
+PR:
+  continent: North America
   alpha2: PR
   alpha3: PRI
   country_code: "1"
@@ -5052,14 +5052,14 @@ PR:
     - 10
   national_prefix: "1"
   number: "630"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: PR
   languages:
     - es
     - en
-PS: 
+PS:
+  continent: Asia
   alpha2: PS
   alpha3: PSE
   country_code: "970"
@@ -5081,7 +5081,6 @@ PS:
     - 8
   national_prefix: "0"
   number: "275"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode:
@@ -5089,7 +5088,8 @@ PS:
     - ar
     - he
     - en
-PT: 
+PT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5112,13 +5112,13 @@ PT:
     - 9
   national_prefix: None
   number: "620"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: PT
   languages:
     - pt
-PW: 
+PW:
+  continent: Australia
   alpha2: PW
   alpha3: PLW
   country_code: "680"
@@ -5136,13 +5136,13 @@ PW:
     - 7
   national_prefix: None
   number: "585"
-  continent: Australia
   region: Oceania
   subregion: Micronesia
   un_locode: PW
   languages:
     - en
 PY:
+  continent: South America
   alpha2: PY
   alpha3: PRY
   country_code: "595"
@@ -5160,14 +5160,14 @@ PY:
     - 9
   national_prefix: "0"
   number: "600"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: PY
   languages:
     - es
     - gn
-QA: 
+QA:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5191,13 +5191,13 @@ QA:
     - 7
   national_prefix: None
   number: "634"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: QA
   languages:
     - ar
-RE: 
+RE:
+  continent: Africa
   alpha2: RE
   alpha3: REU
   country_code: "262"
@@ -5218,13 +5218,13 @@ RE:
     - 10
   national_prefix: None
   number: "638"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: RE
   languages:
     - fr
-RO: 
+RO:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5250,13 +5250,13 @@ RO:
     - 9
   national_prefix: "0"
   number: "642"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: RO
   languages:
     - ro
-RS: 
+RS:
+  continent: Europe
   alpha2: RS
   alpha3: SRB
   country_code: "381"
@@ -5277,13 +5277,13 @@ RS:
     - 9
   national_prefix: "0"
   number: "688"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: RS
   languages:
     - sr
-RU: 
+RU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{postalcode}} {{city}}
@@ -5309,13 +5309,13 @@ RU:
     - 10
   national_prefix: "8"
   number: "643"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: RU
   languages:
     - ru
-RW: 
+RW:
+  continent: Africa
   alpha2: RW
   alpha3: RWA
   country_code: "250"
@@ -5337,7 +5337,6 @@ RW:
     - 8
   national_prefix: "0"
   number: "646"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: RW
@@ -5346,6 +5345,7 @@ RW:
     - en
     - fr
 SA:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5372,13 +5372,13 @@ SA:
     - 9
   national_prefix: "0"
   number: "682"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: SA
   languages:
     - ar
-SB: 
+SB:
+  continent: Australia
   alpha2: SB
   alpha3: SLB
   country_code: "677"
@@ -5399,13 +5399,13 @@ SB:
     - 5
   national_prefix: None
   number: 090
-  continent: Australia
   region: Oceania
   subregion: Melanesia
   un_locode: SB
   languages:
     - en
-SC: 
+SC:
+  continent: Africa
   alpha2: SC
   alpha3: SYC
   country_code: "248"
@@ -5423,14 +5423,14 @@ SC:
     - 6
   national_prefix: None
   number: "690"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: SC
   languages:
     - fr
     - en
-SD: 
+SD:
+  continent: Africa
   alpha2: SD
   alpha3: SDN
   country_code: "249"
@@ -5450,14 +5450,14 @@ SD:
     - 9
   national_prefix: "0"
   number: "736"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: SD
   languages:
     - ar
     - en
-SE: 
+SE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5483,13 +5483,13 @@ SE:
     - 9
   national_prefix: "0"
   number: "752"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: SE
   languages:
     - sv
-SG: 
+SG:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5516,7 +5516,6 @@ SG:
     - 9
   national_prefix: None
   number: "702"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: SG
@@ -5524,7 +5523,8 @@ SG:
     - en
     - ms
     - ta
-SH: 
+SH:
+  continent: Africa
   alpha2: SH
   alpha3: SHN
   country_code: "290"
@@ -5545,13 +5545,13 @@ SH:
     - 4
   national_prefix: None
   number: "654"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: SH
   languages:
     - en
-SI: 
+SI:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5577,13 +5577,13 @@ SI:
     - 8
   national_prefix: "0"
   number: "705"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: SI
   languages:
     - sl
-SJ: 
+SJ:
+  continent: Europe
   alpha2: SJ
   alpha3: SJM
   country_code: "47"
@@ -5604,13 +5604,13 @@ SJ:
     - 8
   national_prefix: None
   number: "744"
-  continent: Europe
   region: Europe
   subregion: "Northern Europe"
   un_locode: SJ
   languages:
     - "no"
-SK: 
+SK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5636,13 +5636,13 @@ SK:
     - 9
   national_prefix: "0"
   number: "703"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: SK
   languages:
     - sk
-SL: 
+SL:
+  continent: Africa
   alpha2: SL
   alpha3: SLE
   country_code: "232"
@@ -5660,13 +5660,13 @@ SL:
     - 8
   national_prefix: "0"
   number: "694"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: SL
   languages:
     - en
-SM: 
+SM:
+  continent: Europe
   alpha2: SM
   alpha3: SMR
   country_code: "378"
@@ -5688,13 +5688,13 @@ SM:
     - 12
   national_prefix: None
   number: "674"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: SM
   languages:
     - it
-SN: 
+SN:
+  continent: Africa
   alpha2: SN
   alpha3: SEN
   country_code: "221"
@@ -5713,13 +5713,13 @@ SN:
     - 7
   national_prefix: None
   number: "686"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: SN
   languages:
     - fr
-SO: 
+SO:
+  continent: Africa
   alpha2: SO
   alpha3: SOM
   country_code: "252"
@@ -5738,14 +5738,14 @@ SO:
     - 8
   national_prefix: None
   number: "706"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: SO
   languages:
     - so
     - ar
-SR: 
+SR:
+  continent: South America
   alpha2: SR
   alpha3: SUR
   country_code: "597"
@@ -5764,13 +5764,13 @@ SR:
     - 6
   national_prefix: "0"
   number: "740"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: SR
   languages:
     - nl
-ST: 
+ST:
+  continent: Africa
   alpha2: ST
   alpha3: STP
   country_code: "239"
@@ -5792,13 +5792,13 @@ ST:
     - 7
   national_prefix: "0"
   number: "678"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: ST
   languages:
     - pt
-SV: 
+SV:
+  continent: North America
   alpha2: SV
   alpha3: SLV
   country_code: "503"
@@ -5817,13 +5817,13 @@ SV:
     - 8
   national_prefix: None
   number: "222"
-  continent: North America
   region: Americas
   subregion: "Central America"
   un_locode: SV
   languages:
     - es
-SY: 
+SY:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5850,13 +5850,13 @@ SY:
     - 8
   national_prefix: "0"
   number: "760"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: SY
   languages:
     - ar
-SZ: 
+SZ:
+  continent: Africa
   alpha2: SZ
   alpha3: SWZ
   country_code: "268"
@@ -5877,14 +5877,14 @@ SZ:
     - 7
   national_prefix: None
   number: "748"
-  continent: Africa
   region: Africa
   subregion: "Southern Africa"
   un_locode: SZ
   languages:
     - en
     - ss
-TC: 
+TC:
+  continent: North America
   alpha2: TC
   alpha3: TCA
   country_code: "1"
@@ -5905,13 +5905,13 @@ TC:
     - 10
   national_prefix: "1"
   number: "796"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: TC
   languages:
     - en
-TD: 
+TD:
+  continent: Africa
   alpha2: TD
   alpha3: TCD
   country_code: "235"
@@ -5931,14 +5931,14 @@ TD:
     - 7
   national_prefix: None
   number: "148"
-  continent: Africa
   region: Africa
   subregion: "Middle Africa"
   un_locode: TD
   languages:
     - ar
     - fr
-TF: 
+TF:
+  continent: Antarctica
   alpha2: TF
   alpha3: ATF
   country_code: ""
@@ -5957,13 +5957,13 @@ TF:
   national_number_lengths: []
   national_prefix: ""
   number: "260"
-  continent: 
   region: ""
   subregion: ""
   un_locode:
   languages:
     - fr
-TG: 
+TG:
+  continent: Africa
   alpha2: TG
   alpha3: TGO
   country_code: "228"
@@ -5981,13 +5981,13 @@ TG:
     - 7
   national_prefix: None
   number: "768"
-  continent: Africa
   region: Africa
   subregion: "Western Africa"
   un_locode: TG
   languages:
     - fr
-TH: 
+TH:
+  continent: Asia
   alpha2: TH
   alpha3: THA
   country_code: "66"
@@ -6009,13 +6009,13 @@ TH:
     - 10
   national_prefix: "0"
   number: "764"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: TH
   languages:
     - th
-TJ: 
+TJ:
+  continent: Asia
   alpha2: TJ
   alpha3: TJK
   alt_currency: RUB
@@ -6037,14 +6037,14 @@ TJ:
     - 9
   national_prefix: "8"
   number: "762"
-  continent: Asia
   region: Asia
   subregion: "Central Asia"
   un_locode: TJ
   languages:
     - tg
     - ru
-TK: 
+TK:
+  continent: Australia
   alpha2: TK
   alpha3: TKL
   country_code: "690"
@@ -6065,13 +6065,13 @@ TK:
     - 4
   national_prefix: None
   number: "772"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: TK
   languages:
     - en
-TL: 
+TL:
+  continent: Asia
   alpha2: TL
   alpha3: TLS
   country_code: "670"
@@ -6092,13 +6092,13 @@ TL:
     - 7
   national_prefix: None
   number: "626"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode:
   languages:
     - pt
 TM:
+  continent: Asia
   alpha2: TM
   alpha3: TKM
   country_code: "993"
@@ -6119,14 +6119,14 @@ TM:
     - 8
   national_prefix: "8"
   number: "795"
-  continent: Asia
   region: Asia
   subregion: "Central Asia"
   un_locode: TM
   languages:
     - tk
     - ru
-TN: 
+TN:
+  continent: Africa
   alpha2: TN
   alpha3: TUN
   country_code: "216"
@@ -6147,14 +6147,14 @@ TN:
     - 8
   national_prefix: None
   number: "788"
-  continent: Africa
   region: Africa
   subregion: "Northern Africa"
   un_locode: TN
   languages:
     - ar
     - fr
-TO: 
+TO:
+  continent: Australia
   alpha2: TO
   alpha3: TON
   country_code: "676"
@@ -6174,14 +6174,14 @@ TO:
     - 7
   national_prefix: None
   number: "776"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: TO
   languages:
     - en
     - to
-TR: 
+TR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6207,13 +6207,13 @@ TR:
     - 10
   national_prefix: "0"
   number: "792"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: TR
   languages:
     - tr
-TT: 
+TT:
+  continent: North America
   alpha2: TT
   alpha3: TTO
   country_code: "1"
@@ -6234,13 +6234,13 @@ TT:
     - 10
   national_prefix: "1"
   number: "780"
-  continent: North America
   region: Americas
   subregion: Caribbean
   un_locode: TT
   languages:
     - en
-TV: 
+TV:
+  continent: Australia
   alpha2: TV
   alpha3: TUV
   country_code: "688"
@@ -6261,13 +6261,13 @@ TV:
     - 5
   national_prefix: None
   number: "798"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: TV
   languages:
     - en
 TW:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6292,13 +6292,13 @@ TW:
     - 8
   national_prefix: None
   number: "158"
-  continent: Asia
   region: Asia
   subregion: "Eastern Asia"
   un_locode: TW
   languages:
     - zh
-TZ: 
+TZ:
+  continent: Africa
   alpha2: TZ
   alpha3: TZA
   country_code: "255"
@@ -6318,14 +6318,14 @@ TZ:
     - 9
   national_prefix: "0"
   number: "834"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: TZ
   languages:
     - sw
     - en
-UA: 
+UA:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6353,13 +6353,13 @@ UA:
     - 9
   national_prefix: "8"
   number: "804"
-  continent: Europe
   region: Europe
   subregion: "Eastern Europe"
   un_locode: UA
   languages:
     - uk
-UG: 
+UG:
+  continent: Africa
   alpha2: UG
   alpha3: UGA
   country_code: "256"
@@ -6377,14 +6377,14 @@ UG:
     - 9
   national_prefix: "0"
   number: "800"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: UG
   languages:
     - en
     - sw
-UM: 
+UM:
+  continent: Australia
   alpha2: UM
   alpha3: UMI
   country_code: ""
@@ -6403,13 +6403,13 @@ UM:
   national_number_lengths: []
   national_prefix: ""
   number: "581"
-  continent: 
   region: Americas
   subregion: "Northern America"
   un_locode: UM
   languages:
     - en
-US: 
+US:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6435,13 +6435,13 @@ US:
     - 10
   national_prefix: "1"
   number: "840"
-  continent: North America
   region: Americas
   subregion: "Northern America"
   un_locode: US
   languages:
     - en
-UY: 
+UY:
+  continent: South America
   alpha2: UY
   alpha3: URY
   country_code: "598"
@@ -6460,13 +6460,13 @@ UY:
     - 8
   national_prefix: "0"
   number: "858"
-  continent: South America
   region: Americas
   subregion: "South America"
   un_locode: UY
   languages:
     - es
-UZ: 
+UZ:
+  continent: Asia
   alpha2: UZ
   alpha3: UZB
   country_code: "998"
@@ -6487,14 +6487,14 @@ UZ:
     - 9
   national_prefix: "8"
   number: "860"
-  continent: Asia
   region: Asia
   subregion: "Central Asia"
   un_locode: UZ
   languages:
     - uz
     - ru
-VA: 
+VA:
+  continent: Europe
   alpha2: VA
   alpha3: VAT
   country_code: "39"
@@ -6515,14 +6515,14 @@ VA:
     - 9
   national_prefix: None
   number: "336"
-  continent: Europe
   region: Europe
   subregion: "Southern Europe"
   un_locode: VA
   languages:
     - it
     - la
-VC: 
+VC:
+  continent: North America
   alpha2: VC
   alpha3: VCT
   country_code: "1"
@@ -6543,13 +6543,13 @@ VC:
     - 10
   national_prefix: "1"
   number: "670"
-  continent: 
   region: Americas
   subregion: Caribbean
   un_locode: VC
   languages:
     - en
-VE: 
+VE:
+  continent: South America
   alpha2: VE
   alpha3: VEN
   country_code: "58"
@@ -6567,13 +6567,13 @@ VE:
     - 10
   national_prefix: "0"
   number: "862"
-  continent: 
   region: Americas
   subregion: "South America"
   un_locode: VE
   languages:
     - es
-VG: 
+VG:
+  continent: North America
   alpha2: VG
   alpha3: VGB
   country_code: "1"
@@ -6594,13 +6594,13 @@ VG:
     - 10
   national_prefix: "1"
   number: 092
-  continent: 
   region: Americas
   subregion: Caribbean
   un_locode: VG
   languages:
     - en
-VI: 
+VI:
+  continent: North America
   alpha2: VI
   alpha3: VIR
   country_code: "1"
@@ -6621,13 +6621,13 @@ VI:
     - 10
   national_prefix: "1"
   number: "850"
-  continent: 
   region: Americas
   subregion: Caribbean
   un_locode: VI
   languages:
     - en
-VN: 
+VN:
+  continent: Asia
   alpha2: VN
   alpha3: VNM
   country_code: "84"
@@ -6648,13 +6648,13 @@ VN:
     - 10
   national_prefix: "0"
   number: "704"
-  continent: Asia
   region: Asia
   subregion: "South-Eastern Asia"
   un_locode: VN
   languages:
     - vi
-VU: 
+VU:
+  continent: Australia
   alpha2: VU
   alpha3: VUT
   country_code: "678"
@@ -6674,7 +6674,6 @@ VU:
     - 7
   national_prefix: None
   number: "548"
-  continent: Australia
   region: Oceania
   subregion: Melanesia
   un_locode: VU
@@ -6682,7 +6681,8 @@ VU:
     - bi
     - en
     - fr
-WF: 
+WF:
+  continent: Australia
   alpha2: WF
   alpha3: WLF
   country_code: "681"
@@ -6703,13 +6703,13 @@ WF:
     - 6
   national_prefix: None
   number: "876"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: WF
   languages:
     - fr
-WS: 
+WS:
+  continent: Australia
   alpha2: WS
   alpha3: WSM
   country_code: "685"
@@ -6728,14 +6728,14 @@ WS:
     - 7
   national_prefix: None
   number: "882"
-  continent: Australia
   region: Oceania
   subregion: Polynesia
   un_locode: WS
   languages:
     - sm
     - en
-YE: 
+YE:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6762,13 +6762,13 @@ YE:
     - 9
   national_prefix: "0"
   number: "887"
-  continent: Asia
   region: Asia
   subregion: "Western Asia"
   un_locode: YE
   languages:
     - ar
-YT: 
+YT:
+  continent: Africa
   alpha2: YT
   alpha3: MYT
   country_code: "269"
@@ -6789,13 +6789,13 @@ YT:
     - 7
   national_prefix: None
   number: "175"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: YT
   languages:
     - fr
-ZA: 
+ZA:
+  continent: Africa
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6823,7 +6823,6 @@ ZA:
     - 9
   national_prefix: "0"
   number: "710"
-  continent: Africa
   region: Africa
   subregion: "Southern Africa"
   un_locode: ZA
@@ -6838,7 +6837,8 @@ ZA:
     - ve
     - xh
     - zu
-ZM: 
+ZM:
+  continent: Africa
   alpha2: ZM
   alpha3: ZMB
   country_code: "260"
@@ -6858,13 +6858,13 @@ ZM:
     - 9
   national_prefix: "0"
   number: "894"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ZM
   languages:
     - en
-ZW: 
+ZW:
+  continent: Africa
   alpha2: ZW
   alpha3: ZWE
   country_code: "263"
@@ -6887,7 +6887,6 @@ ZW:
     - 11
   national_prefix: "0"
   number: "716"
-  continent: Africa
   region: Africa
   subregion: "Eastern Africa"
   un_locode: ZW
