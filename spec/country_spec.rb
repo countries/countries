@@ -34,6 +34,10 @@ describe ISO3166::Country do
     country.longitude.should == '97 00 W'
   end
 
+  it "should return continent" do
+    country.continent.should == "North America"
+  end
+
   it 'should return region' do
     country.region.should == 'Americas'
   end
@@ -342,5 +346,4 @@ describe ISO3166::Country do
       german_speaking_countries.size.should == 6
     end
   end
-
 end

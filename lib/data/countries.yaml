@@ -1,5 +1,6 @@
 --- 
-AD: 
+AD:
+  continent: Europe
   alpha2: AD
   alpha3: AND
   country_code: "376"
@@ -26,7 +27,8 @@ AD:
   un_locode: AD
   languages:
     - ca
-AE: 
+AE:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -59,7 +61,8 @@ AE:
   un_locode: AE
   languages:
     - ar
-AF: 
+AF:
+  continent: Asia
   alpha2: AF
   alpha3: AFG
   country_code: "93"
@@ -87,6 +90,7 @@ AF:
     - uz
     - tk
 AG:
+  continent: North America
   alpha2: AG
   alpha3: ATG
   country_code: "1"
@@ -112,7 +116,8 @@ AG:
   un_locode: AG
   languages:
     - en
-AI: 
+AI:
+  continent: North America
   alpha2: AI
   alpha3: AIA
   country_code: "1"
@@ -135,7 +140,8 @@ AI:
   un_locode: AI
   languages:
     - en
-AL: 
+AL:
+  continent: Europe
   alpha2: AL
   alpha3: ALB
   country_code: "355"
@@ -162,7 +168,8 @@ AL:
   un_locode: AL
   languages:
     - sq
-AM: 
+AM:
+  continent: Asia
   alpha2: AM
   alpha3: ARM
   country_code: "374"
@@ -188,7 +195,8 @@ AM:
   languages:
     - hy
     - ru
-AN: 
+AN:
+  continent: North America
   alpha2: AN
   alpha3: ANT
   country_code: "599"
@@ -216,6 +224,7 @@ AN:
     - nl
     - en
 AO:
+  continent: Africa
   alpha2: AO
   alpha3: AGO
   country_code: "244"
@@ -238,7 +247,8 @@ AO:
   un_locode: AO
   languages:
     - pt
-AQ: 
+AQ:
+  continent: Antarctica
   alpha2: AQ
   alpha3: ATA
   country_code: "672"
@@ -261,7 +271,8 @@ AQ:
   subregion: ""
   un_locode: AQ
   languages: []
-AR: 
+AR:
+  continent: South America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -294,7 +305,8 @@ AR:
   languages:
     - es
     - gn
-AS: 
+AS:
+  continent: Australia
   alpha2: AS
   alpha3: ASM
   country_code: "1"
@@ -321,7 +333,8 @@ AS:
   languages:
     - en
     - sm
-AT: 
+AT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -360,6 +373,7 @@ AT:
   languages:
     - de
 AU:
+  continent: Australia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -389,7 +403,8 @@ AU:
   un_locode: AU
   languages:
     - en
-AW: 
+AW:
+  continent: North America
   alpha2: AW
   alpha3: ABW
   country_code: "297"
@@ -413,6 +428,7 @@ AW:
   languages:
     - nl
 AX:
+  continent: Europe
   alpha2: AX
   alpha3: ALA
   country_code: "358"
@@ -433,7 +449,8 @@ AX:
   un_locode:
   languages:
     - sv
-AZ: 
+AZ:
+  continent: Asia
   alpha2: AZ
   alpha3: AZE
   country_code: "994"
@@ -461,7 +478,8 @@ AZ:
   languages:
     - az
     - hy
-BA: 
+BA:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -494,7 +512,8 @@ BA:
     - bs
     - hr
     - sr
-BB: 
+BB:
+  continent: North America
   alpha2: BB
   alpha3: BRB
   country_code: "1"
@@ -518,7 +537,8 @@ BB:
   un_locode: BB
   languages:
     - en
-BD: 
+BD:
+  continent: Asia
   alpha2: BD
   alpha3: BGD
   country_code: "880"
@@ -542,7 +562,8 @@ BD:
   un_locode: BD
   languages:
     - bn
-BE: 
+BE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -576,7 +597,8 @@ BE:
     - nl
     - fr
     - de
-BF: 
+BF:
+  continent: Africa
   alpha2: BF
   alpha3: BFA
   country_code: "226"
@@ -601,6 +623,7 @@ BF:
     - fr
     - ff
 BG:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -632,7 +655,8 @@ BG:
   un_locode: BG
   languages:
     - bg
-BH: 
+BH:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -662,7 +686,8 @@ BH:
   un_locode: BH
   languages:
     - ar
-BI: 
+BI:
+  continent: Africa
   alpha2: BI
   alpha3: BDI
   country_code: "257"
@@ -686,7 +711,8 @@ BI:
   languages:
     - fr
     - rn
-BJ: 
+BJ:
+  continent: Africa
   alpha2: BJ
   alpha3: BEN
   country_code: "229"
@@ -710,7 +736,8 @@ BJ:
   un_locode: BJ
   languages:
     - fr
-BL: 
+BL:
+  continent: North America
   alpha2: BL
   alpha3: BLM
   country_code: "590"
@@ -731,7 +758,8 @@ BL:
   un_locode:
   languages:
     - fr
-BM: 
+BM:
+  continent: North America
   alpha2: BM
   alpha3: BMU
   country_code: "1"
@@ -756,7 +784,8 @@ BM:
   un_locode: BM
   languages:
     - en
-BN: 
+BN:
+  continent: Asia
   alpha2: BN
   alpha3: BRN
   country_code: "673"
@@ -779,7 +808,8 @@ BN:
   un_locode: BN
   languages:
     - ms
-BO: 
+BO:
+  continent: South America
   alpha2: BO
   alpha3: BOL
   country_code: "591"
@@ -806,7 +836,8 @@ BO:
     - es
     - ay
     - qu
-BR: 
+BR:
+  continent: South America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -838,6 +869,7 @@ BR:
   languages:
     - pt
 BS:
+  continent: North America
   alpha2: BS
   alpha3: BHS
   country_code: "1"
@@ -860,7 +892,8 @@ BS:
   un_locode: BS
   languages:
     - en
-BT: 
+BT:
+  continent: Asia
   alpha2: BT
   alpha3: BTN
   country_code: "975"
@@ -886,7 +919,8 @@ BT:
   un_locode: BT
   languages:
     - dz
-BV: 
+BV:
+  continent: Antarctica
   alpha2: BV
   alpha3: BVT
   country_code: ""
@@ -907,6 +941,7 @@ BV:
   un_locode:
   languages: []
 BW:
+  continent: Africa
   alpha2: BW
   alpha3: BWA
   country_code: "267"
@@ -930,7 +965,8 @@ BW:
   languages:
     - en
     - tn
-BY: 
+BY:
+  continent: Europe
   alpha2: BY
   alpha3: BLR
   country_code: "375"
@@ -957,7 +993,8 @@ BY:
   languages:
     - be
     - ru
-BZ: 
+BZ:
+  continent: North America
   alpha2: BZ
   alpha3: BLZ
   country_code: "501"
@@ -982,7 +1019,8 @@ BZ:
   languages:
     - en
     - es
-CA: 
+CA:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1013,7 +1051,8 @@ CA:
   languages:
     - en
     - fr
-CC: 
+CC:
+  continent: Asia
   alpha2: CC
   alpha3: CCK
   country_code: "61"
@@ -1036,7 +1075,8 @@ CC:
   un_locode: CC
   languages:
     - en
-CD: 
+CD:
+  continent: Africa
   alpha2: CD
   alpha3: COD
   country_code: "243"
@@ -1066,7 +1106,8 @@ CD:
     - kg
     - sw
     - lu
-CF: 
+CF:
+  continent: Africa
   alpha2: CF
   alpha3: CAF
   country_code: "236"
@@ -1093,7 +1134,8 @@ CF:
   languages:
     - fr
     - sg
-CG: 
+CG:
+  continent: Africa
   alpha2: CG
   alpha3: COG
   country_code: "242"
@@ -1119,6 +1161,7 @@ CG:
     - fr
     - ln
 CH:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1153,6 +1196,7 @@ CH:
     - fr
     - it
 CI:
+  continent: Africa
   alpha2: CI
   alpha3: CIV
   country_code: "225"
@@ -1175,7 +1219,8 @@ CI:
   un_locode: CI
   languages:
     - fr
-CK: 
+CK:
+  continent: Australia
   alpha2: CK
   alpha3: COK
   country_code: "682"
@@ -1202,6 +1247,7 @@ CK:
   languages:
     - en
 CL:
+  continent: South America
   alpha2: CL
   alpha3: CHL
   country_code: "56"
@@ -1225,7 +1271,8 @@ CL:
   un_locode: CL
   languages:
     - es
-CM: 
+CM:
+  continent: Africa
   alpha2: CM
   alpha3: CMR
   country_code: "237"
@@ -1252,7 +1299,8 @@ CM:
   languages:
     - en
     - fr
-CN: 
+CN:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1285,7 +1333,8 @@ CN:
   un_locode: CN
   languages:
     - zh
-CO: 
+CO:
+  continent: South America
   alpha2: CO
   alpha3: COL
   country_code: "57"
@@ -1311,7 +1360,8 @@ CO:
   un_locode: CO
   languages:
     - es
-CR: 
+CR:
+  continent: North America
   alpha2: CR
   alpha3: CRI
   country_code: "506"
@@ -1334,7 +1384,8 @@ CR:
   un_locode: CR
   languages:
     - es
-CU: 
+CU:
+  continent: North America
   alpha2: CU
   alpha3: CUB
   country_code: "53"
@@ -1358,7 +1409,8 @@ CU:
   un_locode: CU
   languages:
     - es
-CV: 
+CV:
+  continent: Africa
   alpha2: CV
   alpha3: CPV
   country_code: "238"
@@ -1385,6 +1437,7 @@ CV:
   languages:
     - pt
 CX:
+  continent: Asia
   alpha2: CX
   alpha3: CXR
   country_code: "61"
@@ -1407,7 +1460,8 @@ CX:
     - en
     - zh
     - ms
-CY: 
+CY:
+  continent: Asia
   alpha2: CY
   alpha3: CYP
   country_code: "357"
@@ -1435,7 +1489,8 @@ CY:
     - el
     - tr
     - hy
-CZ: 
+CZ:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1467,7 +1522,8 @@ CZ:
   languages:
     - cs
     - sk
-DE: 
+DE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1503,7 +1559,8 @@ DE:
   un_locode: DE
   languages:
     - de
-DJ: 
+DJ:
+  continent: Africa
   alpha2: DJ
   alpha3: DJI
   country_code: "253"
@@ -1527,7 +1584,8 @@ DJ:
   languages:
     - ar
     - fr
-DK: 
+DK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1560,6 +1618,7 @@ DK:
   languages:
     - da
 DM:
+  continent: North America
   alpha2: DM
   alpha3: DMA
   country_code: "1"
@@ -1582,7 +1641,8 @@ DM:
   un_locode: DM
   languages:
     - en
-DO: 
+DO:
+  continent: North America
   alpha2: DO
   alpha3: DOM
   country_code: "1"
@@ -1608,7 +1668,8 @@ DO:
   un_locode: DO
   languages:
     - es
-DZ: 
+DZ:
+  continent: Africa
   alpha2: DZ
   alpha3: DZA
   country_code: "213"
@@ -1635,6 +1696,7 @@ DZ:
   languages:
     - ar
 EC:
+  continent: South America
   alpha2: EC
   alpha3: ECU
   country_code: "593"
@@ -1659,7 +1721,8 @@ EC:
   un_locode: EC
   languages:
     - es
-EE: 
+EE:
+  continent: Europe
   alpha2: EE
   alpha3: EST
   country_code: "372"
@@ -1685,7 +1748,8 @@ EE:
   un_locode: EE
   languages:
     - et
-EG: 
+EG:
+  continent: Africa
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1717,6 +1781,7 @@ EG:
   languages:
     - ar
 EH:
+  continent: Africa
   alpha2: EH
   alpha3: ESH
   country_code: "212"
@@ -1741,7 +1806,8 @@ EH:
   languages:
     - es
     - fr
-ER: 
+ER:
+  continent: Africa
   alpha2: ER
   alpha3: ERI
   country_code: "291"
@@ -1767,7 +1833,8 @@ ER:
     - en
     - ar
     - ti
-ES: 
+ES:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1798,7 +1865,8 @@ ES:
   un_locode: ES
   languages:
     - es
-ET: 
+ET:
+  continent: Africa
   alpha2: ET
   alpha3: ETH
   country_code: "251"
@@ -1824,7 +1892,8 @@ ET:
   un_locode: ET
   languages:
     - am
-FI: 
+FI:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1856,7 +1925,8 @@ FI:
   languages:
     - fi
     - sv
-FJ: 
+FJ:
+  continent: Australia
   alpha2: FJ
   alpha3: FJI
   country_code: "679"
@@ -1884,7 +1954,8 @@ FJ:
     - fj
     - hi
     - ur
-FK: 
+FK:
+  continent: South America
   alpha2: FK
   alpha3: FLK
   country_code: "500"
@@ -1910,7 +1981,8 @@ FK:
   un_locode: FK
   languages:
     - en
-FM: 
+FM:
+  continent: Australia
   alpha2: FM
   alpha3: FSM
   country_code: "691"
@@ -1936,7 +2008,8 @@ FM:
   un_locode: FM
   languages:
     - en
-FO: 
+FO:
+  continent: Europe
   alpha2: FO
   alpha3: FRO
   country_code: "298"
@@ -1962,7 +2035,8 @@ FO:
   un_locode: FO
   languages:
     - fo
-FR: 
+FR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -1994,7 +2068,8 @@ FR:
   un_locode: FR
   languages:
     - fr
-GA: 
+GA:
+  continent: Africa
   alpha2: GA
   alpha3: GAB
   country_code: "241"
@@ -2021,7 +2096,8 @@ GA:
   un_locode: GA
   languages:
     - fr
-GB: 
+GB:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2055,7 +2131,8 @@ GB:
   un_locode:
   languages:
     - en
-GD: 
+GD:
+  continent: North America
   alpha2: GD
   alpha3: GRD
   country_code: "1"
@@ -2078,7 +2155,8 @@ GD:
   un_locode: GD
   languages:
     - en
-GE: 
+GE:
+  continent: Asia
   alpha2: GE
   alpha3: GEO
   country_code: "995"
@@ -2103,7 +2181,8 @@ GE:
   un_locode: GE
   languages:
     - ka
-GF: 
+GF:
+  continent: South America
   alpha2: GF
   alpha3: GUF
   country_code: "594"
@@ -2129,7 +2208,8 @@ GF:
   un_locode: GF
   languages:
     - fr
-GG: 
+GG:
+  continent: Europe
   alpha2: GG
   alpha3: GGY
   country_code: "44"
@@ -2154,7 +2234,8 @@ GG:
   languages:
     - en
     - fr
-GH: 
+GH:
+  continent: Africa
   alpha2: GH
   alpha3: GHA
   country_code: "233"
@@ -2180,7 +2261,8 @@ GH:
   un_locode: GH
   languages:
     - en
-GI: 
+GI:
+  continent: Europe
   alpha2: GI
   alpha3: GIB
   country_code: "350"
@@ -2203,7 +2285,8 @@ GI:
   un_locode: GI
   languages:
     - en
-GL: 
+GL:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2234,7 +2317,8 @@ GL:
   un_locode: GL
   languages:
     - kl
-GM: 
+GM:
+  continent: Africa
   alpha2: GM
   alpha3: GMB
   country_code: "220"
@@ -2257,7 +2341,8 @@ GM:
   un_locode: GM
   languages:
     - en
-GN: 
+GN:
+  continent: Africa
   alpha2: GN
   alpha3: GIN
   country_code: "224"
@@ -2285,6 +2370,7 @@ GN:
     - fr
     - ff
 GP:
+  continent: North America
   alpha2: GP
   alpha3: GLP
   country_code: "590"
@@ -2308,7 +2394,8 @@ GP:
   un_locode: GP
   languages:
     - fr
-GQ: 
+GQ:
+  continent: Africa
   alpha2: GQ
   alpha3: GNQ
   country_code: "240"
@@ -2335,7 +2422,8 @@ GQ:
   languages:
     - es
     - fr
-GR: 
+GR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2366,7 +2454,8 @@ GR:
   un_locode: GR
   languages:
     - el
-GS: 
+GS:
+  continent: Antarctica
   alpha2: GS
   alpha3: SGS
   country_code: "500"
@@ -2387,7 +2476,8 @@ GS:
   un_locode: GS
   languages:
     - en
-GT: 
+GT:
+  continent: North America
   alpha2: GT
   alpha3: GTM
   country_code: "502"
@@ -2410,7 +2500,8 @@ GT:
   un_locode: GT
   languages:
     - es
-GU: 
+GU:
+  continent: Australia
   alpha2: GU
   alpha3: GUM
   country_code: "1"
@@ -2435,7 +2526,8 @@ GU:
     - en
     - ch
     - es
-GW: 
+GW:
+  continent: Africa
   alpha2: GW
   alpha3: GNB
   country_code: "245"
@@ -2459,7 +2551,8 @@ GW:
   un_locode: GW
   languages:
     - pt
-GY: 
+GY:
+  continent: South America
   alpha2: GY
   alpha3: GUY
   country_code: "592"
@@ -2483,7 +2576,8 @@ GY:
   un_locode: GY
   languages:
     - en
-HK: 
+HK:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2512,7 +2606,8 @@ HK:
   languages:
     - en
     - zh
-HM: 
+HM:
+  continent: Antarctica
   alpha2: HM
   alpha3: HMD
   country_code: ""
@@ -2533,7 +2628,8 @@ HM:
   un_locode: HM
   languages:
     - en
-HN: 
+HN:
+  continent: North America
   alpha2: HN
   alpha3: HND
   country_code: "504"
@@ -2558,6 +2654,7 @@ HN:
   languages:
     - es
 HR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2588,7 +2685,8 @@ HR:
   un_locode: HR
   languages:
     - hr
-HT: 
+HT:
+  continent: North America
   alpha2: HT
   alpha3: HTI
   country_code: "509"
@@ -2612,7 +2710,8 @@ HT:
   languages:
     - fr
     - ht
-HU: 
+HU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{city}}
@@ -2645,7 +2744,8 @@ HU:
   un_locode: HU
   languages:
     - hu
-ID: 
+ID:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2679,7 +2779,8 @@ ID:
   un_locode: ID
   languages:
     - id
-IE: 
+IE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2711,7 +2812,8 @@ IE:
   languages:
     - en
     - ga
-IL: 
+IL:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2743,7 +2845,8 @@ IL:
   languages:
     - he
     - ar
-IM: 
+IM:
+  continent: Europe
   alpha2: IM
   alpha3: IMN
   country_code: "44"
@@ -2768,7 +2871,8 @@ IM:
   languages:
     - en
     - gv
-IN: 
+IN:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2800,7 +2904,8 @@ IN:
   languages:
     - hi
     - en
-IO: 
+IO:
+  continent: Asia
   alpha2: IO
   alpha3: IOT
   country_code: "246"
@@ -2821,7 +2926,8 @@ IO:
   un_locode: IO
   languages:
     - en
-IQ: 
+IQ:
+  continent: Asia
   alpha2: IQ
   alpha3: IRQ
   country_code: "964"
@@ -2848,6 +2954,7 @@ IQ:
   languages:
     - ar
 IR:
+  continent: Asia
   alpha2: IR
   alpha3: IRN
   country_code: "98"
@@ -2872,6 +2979,7 @@ IR:
   languages:
     - fa
 IS:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2904,7 +3012,8 @@ IS:
   un_locode: IS
   languages:
     - is
-IT: 
+IT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -2935,7 +3044,8 @@ IT:
   un_locode: IT
   languages:
     - it
-JE: 
+JE:
+  continent: Europe
   alpha2: JE
   alpha3: JEY
   country_code: "44"
@@ -2957,7 +3067,8 @@ JE:
   languages:
     - en
     - fr
-JM: 
+JM:
+  continent: North America
   alpha2: JM
   alpha3: JAM
   country_code: "1"
@@ -2983,6 +3094,7 @@ JM:
   languages:
     - en
 JO:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3014,7 +3126,8 @@ JO:
   un_locode: JO
   languages:
     - ar
-JP: 
+JP:
+  continent: Asia
   address_format: |-
       〒{{postalcode}}
       {{region}}{{city}}{{street}}
@@ -3046,7 +3159,8 @@ JP:
   un_locode: JP
   languages:
     - ja
-KE: 
+KE:
+  continent: Africa
   alpha2: KE
   alpha3: KEN
   country_code: "254"
@@ -3073,7 +3187,8 @@ KE:
   languages:
     - en
     - sw
-KG: 
+KG:
+  continent: Asia
   alpha2: KG
   alpha3: KGZ
   country_code: "996"
@@ -3100,7 +3215,8 @@ KG:
   languages:
     - ky
     - ru
-KH: 
+KH:
+  continent: Asia
   alpha2: KH
   alpha3: KHM
   country_code: "855"
@@ -3126,7 +3242,8 @@ KH:
   un_locode: KH
   languages:
     - km
-KI: 
+KI:
+  continent: Australia
   alpha2: KI
   alpha3: KIR
   country_code: "686"
@@ -3153,6 +3270,7 @@ KI:
   languages:
     - en
 KM:
+  continent: Africa
   alpha2: KM
   alpha3: COM
   country_code: "269"
@@ -3178,7 +3296,8 @@ KM:
   languages:
     - ar
     - fr
-KN: 
+KN:
+  continent: North America
   alpha2: KN
   alpha3: KNA
   country_code: "1"
@@ -3203,7 +3322,8 @@ KN:
   un_locode: KN
   languages:
     - en
-KP: 
+KP:
+  continent: Asia
   alpha2: KP
   alpha3: PRK
   country_code: "850"
@@ -3230,7 +3350,8 @@ KP:
   un_locode: KP
   languages:
     - ko
-KR: 
+KR:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3263,7 +3384,8 @@ KR:
   un_locode: KR
   languages:
     - ko
-KW: 
+KW:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3293,7 +3415,8 @@ KW:
   un_locode: KW
   languages:
     - ar
-KY: 
+KY:
+  continent: North America
   alpha2: KY
   alpha3: CYM
   country_code: "1"
@@ -3319,7 +3442,8 @@ KY:
   un_locode: KY
   languages:
     - en
-KZ: 
+KZ:
+  continent: Asia
   alpha2: KZ
   alpha3: KAZ
   country_code: "7"
@@ -3346,7 +3470,8 @@ KZ:
   languages:
     - kk
     - ru
-LA: 
+LA:
+  continent: Asia
   alpha2: LA
   alpha3: LAO
   country_code: "856"
@@ -3372,7 +3497,8 @@ LA:
   un_locode: LA
   languages:
     - lo
-LB: 
+LB:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3404,7 +3530,8 @@ LB:
   languages:
     - ar
     - fr
-LC: 
+LC:
+  continent: North America
   alpha2: LC
   alpha3: LCA
   country_code: "1"
@@ -3429,7 +3556,8 @@ LC:
   un_locode: LC
   languages:
     - en
-LI: 
+LI:
+  continent: Europe
   alpha2: LI
   alpha3: LIE
   country_code: "423"
@@ -3452,7 +3580,8 @@ LI:
   un_locode: LI
   languages:
     - de
-LK: 
+LK:
+  continent: Asia
   alpha2: LK
   alpha3: LKA
   country_code: "94"
@@ -3476,7 +3605,8 @@ LK:
   languages:
     - si
     - ta
-LR: 
+LR:
+  continent: Africa
   alpha2: LR
   alpha3: LBR
   country_code: "231"
@@ -3504,7 +3634,8 @@ LR:
   un_locode: LR
   languages:
     - en
-LS: 
+LS:
+  continent: Africa
   alpha2: LS
   alpha3: LSO
   alt_currency: ZAR
@@ -3532,7 +3663,8 @@ LS:
   languages:
     - en
     - st
-LT: 
+LT:
+  continent: Europe
   alpha2: LT
   alpha3: LTU
   country_code: "370"
@@ -3558,7 +3690,8 @@ LT:
   un_locode: LT
   languages:
     - lt
-LU: 
+LU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3591,7 +3724,8 @@ LU:
     - fr
     - de
     - lb
-LV: 
+LV:
+  continent: Europe
   alpha2: LV
   alpha3: LVA
   country_code: "371"
@@ -3617,7 +3751,8 @@ LV:
   un_locode: LV
   languages:
     - lv
-LY: 
+LY:
+  continent: Africa
   alpha2: LY
   alpha3: LBY
   country_code: "218"
@@ -3644,7 +3779,8 @@ LY:
   un_locode: LY
   languages:
     - ar
-MA: 
+MA:
+  continent: Africa
   alpha2: MA
   alpha3: MAR
   country_code: "212"
@@ -3670,7 +3806,8 @@ MA:
   un_locode: MA
   languages:
     - ar
-MC: 
+MC:
+  continent: Europe
   alpha2: MC
   alpha3: MCO
   country_code: "377"
@@ -3695,7 +3832,8 @@ MC:
   un_locode: MC
   languages:
     - fr
-MD: 
+MD:
+  continent: Europe
   alpha2: MD
   alpha3: MDA
   country_code: "373"
@@ -3722,7 +3860,8 @@ MD:
   un_locode: MD
   languages:
     - ro
-ME: 
+ME:
+  continent: Europe
   alpha2: ME
   alpha3: MNE
   country_code: "382"
@@ -3749,7 +3888,8 @@ ME:
     - bs
     - sq
     - hr
-MF: 
+MF:
+  continent: North America
   alpha2: MF
   alpha3: MAF
   country_code: "590"
@@ -3772,7 +3912,8 @@ MF:
     - en
     - fr
     - nl
-MG: 
+MG:
+  continent: Africa
   alpha2: MG
   alpha3: MDG
   country_code: "261"
@@ -3798,7 +3939,8 @@ MG:
   languages:
     - fr
     - mg
-MH: 
+MH:
+  continent: Australia
   alpha2: MH
   alpha3: MHL
   country_code: "692"
@@ -3825,7 +3967,8 @@ MH:
   languages:
     - en
     - mh
-MK: 
+MK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -3857,7 +4000,8 @@ MK:
   un_locode: MK
   languages:
     - mk
-ML: 
+ML:
+  continent: Africa
   alpha2: ML
   alpha3: MLI
   country_code: "223"
@@ -3880,7 +4024,8 @@ ML:
   un_locode: ML
   languages:
     - fr
-MM: 
+MM:
+  continent: Asia
   alpha2: MM
   alpha3: MMR
   country_code: "95"
@@ -3907,7 +4052,8 @@ MM:
   un_locode: MM
   languages:
     - my
-MN: 
+MN:
+  continent: Asia
   alpha2: MN
   alpha3: MNG
   country_code: "976"
@@ -3935,7 +4081,8 @@ MN:
   un_locode: MN
   languages:
     - mn
-MO: 
+MO:
+  continent: Asia
   alpha2: MO
   alpha3: MAC
   country_code: "853"
@@ -3959,7 +4106,8 @@ MO:
   languages:
     - zh
     - pt
-MP: 
+MP:
+  continent: Australia
   alpha2: MP
   alpha3: MNP
   country_code: "1"
@@ -3987,6 +4135,7 @@ MP:
     - en
     - ch
 MQ:
+  continent: North America
   alpha2: MQ
   alpha3: MTQ
   country_code: "596"
@@ -4013,6 +4162,7 @@ MQ:
   languages:
     - fr
 MR:
+  continent: Africa
   alpha2: MR
   alpha3: MRT
   country_code: "222"
@@ -4039,7 +4189,8 @@ MR:
   languages:
     - ar
     - fr
-MS: 
+MS:
+  continent: North America
   alpha2: MS
   alpha3: MSR
   country_code: "1"
@@ -4065,7 +4216,8 @@ MS:
   un_locode: MS
   languages:
     - en
-MT: 
+MT:
+  continent: Europe
   alpha2: MT
   alpha3: MLT
   country_code: "356"
@@ -4092,7 +4244,8 @@ MT:
   languages:
     - mt
     - en
-MU: 
+MU:
+  continent: Africa
   alpha2: MU
   alpha3: MUS
   country_code: "230"
@@ -4118,7 +4271,8 @@ MU:
   un_locode: MU
   languages:
     - en
-MV: 
+MV:
+  continent: Asia
   alpha2: MV
   alpha3: MDV
   country_code: "960"
@@ -4143,7 +4297,8 @@ MV:
   un_locode: MV
   languages:
     - dv
-MW: 
+MW:
+  continent: Africa
   alpha2: MW
   alpha3: MWI
   country_code: "265"
@@ -4167,7 +4322,8 @@ MW:
   languages:
     - en
     - ny
-MX: 
+MX:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4200,7 +4356,8 @@ MX:
   un_locode: MX
   languages:
     - es
-MY: 
+MY:
+  continent: Asia
   alpha2: MY
   alpha3: MYS
   country_code: "60"
@@ -4226,7 +4383,8 @@ MY:
   un_locode: MY
   languages:
     - en
-MZ: 
+MZ:
+  continent: Africa
   alpha2: MZ
   alpha3: MOZ
   country_code: "258"
@@ -4253,7 +4411,8 @@ MZ:
   un_locode: MZ
   languages:
     - pt
-NA: 
+NA:
+  continent: Africa
   alpha2: NA
   alpha3: NAM
   alt_currency: ZAR
@@ -4282,7 +4441,8 @@ NA:
   languages:
     - en
     - af
-NC: 
+NC:
+  continent: Australia
   alpha2: NC
   alpha3: NCL
   country_code: "687"
@@ -4308,7 +4468,8 @@ NC:
   un_locode: NC
   languages:
     - fr
-NE: 
+NE:
+  continent: Africa
   alpha2: NE
   alpha3: NER
   country_code: "227"
@@ -4331,7 +4492,8 @@ NE:
   un_locode: NE
   languages:
     - fr
-NF: 
+NF:
+  continent: Australia
   alpha2: NF
   alpha3: NFK
   country_code: "672"
@@ -4357,7 +4519,8 @@ NF:
   un_locode: NF
   languages:
     - en
-NG: 
+NG:
+  continent: Africa
   alpha2: NG
   alpha3: NGA
   country_code: "234"
@@ -4383,7 +4546,8 @@ NG:
   un_locode: NG
   languages:
     - en
-NI: 
+NI:
+  continent: North America
   alpha2: NI
   alpha3: NIC
   country_code: "505"
@@ -4409,7 +4573,8 @@ NI:
   un_locode: NI
   languages:
     - es
-NL: 
+NL:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4471,7 +4636,8 @@ NL:
   un_locode: NL
   languages:
     - "no"
-NP: 
+NP:
+  continent: Asia
   alpha2: NP
   alpha3: NPL
   country_code: "977"
@@ -4499,7 +4665,8 @@ NP:
   un_locode: NP
   languages:
     - ne
-NR: 
+NR:
+  continent: Australia
   alpha2: NR
   alpha3: NRU
   country_code: "674"
@@ -4526,7 +4693,8 @@ NR:
   languages:
     - en
     - na
-NU: 
+NU:
+  continent: Australia
   alpha2: NU
   alpha3: NIU
   country_code: "683"
@@ -4549,7 +4717,8 @@ NU:
   un_locode: NU
   languages:
     - en
-NZ: 
+NZ:
+  continent: Australia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4582,7 +4751,8 @@ NZ:
   un_locode: NZ
   languages:
     - en
-OM: 
+OM:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4612,7 +4782,8 @@ OM:
   un_locode: OM
   languages:
     - ar
-PA: 
+PA:
+  continent: North America
   alpha2: PA
   alpha3: PAN
   alt_currency: USD
@@ -4637,7 +4808,8 @@ PA:
   un_locode: PA
   languages:
     - es
-PE: 
+PE:
+  continent: South America
   alpha2: PE
   alpha3: PER
   country_code: "51"
@@ -4663,7 +4835,8 @@ PE:
   un_locode: PE
   languages:
     - es
-PF: 
+PF:
+  continent: Australia
   alpha2: PF
   alpha3: PYF
   country_code: "689"
@@ -4689,7 +4862,8 @@ PF:
   un_locode: PF
   languages:
     - fr
-PG: 
+PG:
+  continent: Australia
   alpha2: PG
   alpha3: PNG
   country_code: "675"
@@ -4715,7 +4889,8 @@ PG:
   un_locode: PG
   languages:
     - en
-PH: 
+PH:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}} {{region}}
@@ -4749,6 +4924,7 @@ PH:
     - tl
     - en
 PK:
+  continent: Asia
   alpha2: PK
   alpha3: PAK
   country_code: "92"
@@ -4774,7 +4950,8 @@ PK:
   languages:
     - en
     - ur
-PL: 
+PL:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4806,7 +4983,8 @@ PL:
   un_locode: PL
   languages:
     - pl
-PM: 
+PM:
+  continent: North America
   alpha2: PM
   alpha3: SPM
   country_code: "508"
@@ -4832,7 +5010,8 @@ PM:
   un_locode: PM
   languages:
     - fr
-PN: 
+PN:
+  continent: Australia
   alpha2: PN
   alpha3: PCN
   country_code: ""
@@ -4854,7 +5033,8 @@ PN:
   un_locode: PN
   languages:
     - en
-PR: 
+PR:
+  continent: North America
   alpha2: PR
   alpha3: PRI
   country_code: "1"
@@ -4878,7 +5058,8 @@ PR:
   languages:
     - es
     - en
-PS: 
+PS:
+  continent: Asia
   alpha2: PS
   alpha3: PSE
   country_code: "970"
@@ -4907,7 +5088,8 @@ PS:
     - ar
     - he
     - en
-PT: 
+PT:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -4935,7 +5117,8 @@ PT:
   un_locode: PT
   languages:
     - pt
-PW: 
+PW:
+  continent: Australia
   alpha2: PW
   alpha3: PLW
   country_code: "680"
@@ -4959,6 +5142,7 @@ PW:
   languages:
     - en
 PY:
+  continent: South America
   alpha2: PY
   alpha3: PRY
   country_code: "595"
@@ -4982,7 +5166,8 @@ PY:
   languages:
     - es
     - gn
-QA: 
+QA:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5011,7 +5196,8 @@ QA:
   un_locode: QA
   languages:
     - ar
-RE: 
+RE:
+  continent: Africa
   alpha2: RE
   alpha3: REU
   country_code: "262"
@@ -5037,7 +5223,8 @@ RE:
   un_locode: RE
   languages:
     - fr
-RO: 
+RO:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5068,7 +5255,8 @@ RO:
   un_locode: RO
   languages:
     - ro
-RS: 
+RS:
+  continent: Europe
   alpha2: RS
   alpha3: SRB
   country_code: "381"
@@ -5094,7 +5282,8 @@ RS:
   un_locode: RS
   languages:
     - sr
-RU: 
+RU:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{postalcode}} {{city}}
@@ -5125,7 +5314,8 @@ RU:
   un_locode: RU
   languages:
     - ru
-RW: 
+RW:
+  continent: Africa
   alpha2: RW
   alpha3: RWA
   country_code: "250"
@@ -5155,6 +5345,7 @@ RW:
     - en
     - fr
 SA:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5186,7 +5377,8 @@ SA:
   un_locode: SA
   languages:
     - ar
-SB: 
+SB:
+  continent: Australia
   alpha2: SB
   alpha3: SLB
   country_code: "677"
@@ -5212,7 +5404,8 @@ SB:
   un_locode: SB
   languages:
     - en
-SC: 
+SC:
+  continent: Africa
   alpha2: SC
   alpha3: SYC
   country_code: "248"
@@ -5236,7 +5429,8 @@ SC:
   languages:
     - fr
     - en
-SD: 
+SD:
+  continent: Africa
   alpha2: SD
   alpha3: SDN
   country_code: "249"
@@ -5262,7 +5456,8 @@ SD:
   languages:
     - ar
     - en
-SE: 
+SE:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5293,7 +5488,8 @@ SE:
   un_locode: SE
   languages:
     - sv
-SG: 
+SG:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5327,7 +5523,8 @@ SG:
     - en
     - ms
     - ta
-SH: 
+SH:
+  continent: Africa
   alpha2: SH
   alpha3: SHN
   country_code: "290"
@@ -5353,7 +5550,8 @@ SH:
   un_locode: SH
   languages:
     - en
-SI: 
+SI:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5384,7 +5582,8 @@ SI:
   un_locode: SI
   languages:
     - sl
-SJ: 
+SJ:
+  continent: Europe
   alpha2: SJ
   alpha3: SJM
   country_code: "47"
@@ -5410,7 +5609,8 @@ SJ:
   un_locode: SJ
   languages:
     - "no"
-SK: 
+SK:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5441,7 +5641,8 @@ SK:
   un_locode: SK
   languages:
     - sk
-SL: 
+SL:
+  continent: Africa
   alpha2: SL
   alpha3: SLE
   country_code: "232"
@@ -5464,7 +5665,8 @@ SL:
   un_locode: SL
   languages:
     - en
-SM: 
+SM:
+  continent: Europe
   alpha2: SM
   alpha3: SMR
   country_code: "378"
@@ -5491,7 +5693,8 @@ SM:
   un_locode: SM
   languages:
     - it
-SN: 
+SN:
+  continent: Africa
   alpha2: SN
   alpha3: SEN
   country_code: "221"
@@ -5515,7 +5718,8 @@ SN:
   un_locode: SN
   languages:
     - fr
-SO: 
+SO:
+  continent: Africa
   alpha2: SO
   alpha3: SOM
   country_code: "252"
@@ -5540,7 +5744,8 @@ SO:
   languages:
     - so
     - ar
-SR: 
+SR:
+  continent: South America
   alpha2: SR
   alpha3: SUR
   country_code: "597"
@@ -5564,7 +5769,8 @@ SR:
   un_locode: SR
   languages:
     - nl
-ST: 
+ST:
+  continent: Africa
   alpha2: ST
   alpha3: STP
   country_code: "239"
@@ -5591,7 +5797,8 @@ ST:
   un_locode: ST
   languages:
     - pt
-SV: 
+SV:
+  continent: North America
   alpha2: SV
   alpha3: SLV
   country_code: "503"
@@ -5615,7 +5822,8 @@ SV:
   un_locode: SV
   languages:
     - es
-SY: 
+SY:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5647,7 +5855,8 @@ SY:
   un_locode: SY
   languages:
     - ar
-SZ: 
+SZ:
+  continent: Africa
   alpha2: SZ
   alpha3: SWZ
   country_code: "268"
@@ -5674,7 +5883,8 @@ SZ:
   languages:
     - en
     - ss
-TC: 
+TC:
+  continent: North America
   alpha2: TC
   alpha3: TCA
   country_code: "1"
@@ -5700,7 +5910,8 @@ TC:
   un_locode: TC
   languages:
     - en
-TD: 
+TD:
+  continent: Africa
   alpha2: TD
   alpha3: TCD
   country_code: "235"
@@ -5726,7 +5937,8 @@ TD:
   languages:
     - ar
     - fr
-TF: 
+TF:
+  continent: Antarctica
   alpha2: TF
   alpha3: ATF
   country_code: ""
@@ -5750,7 +5962,8 @@ TF:
   un_locode:
   languages:
     - fr
-TG: 
+TG:
+  continent: Africa
   alpha2: TG
   alpha3: TGO
   country_code: "228"
@@ -5773,7 +5986,8 @@ TG:
   un_locode: TG
   languages:
     - fr
-TH: 
+TH:
+  continent: Asia
   alpha2: TH
   alpha3: THA
   country_code: "66"
@@ -5800,7 +6014,8 @@ TH:
   un_locode: TH
   languages:
     - th
-TJ: 
+TJ:
+  continent: Asia
   alpha2: TJ
   alpha3: TJK
   alt_currency: RUB
@@ -5828,7 +6043,8 @@ TJ:
   languages:
     - tg
     - ru
-TK: 
+TK:
+  continent: Australia
   alpha2: TK
   alpha3: TKL
   country_code: "690"
@@ -5854,7 +6070,8 @@ TK:
   un_locode: TK
   languages:
     - en
-TL: 
+TL:
+  continent: Asia
   alpha2: TL
   alpha3: TLS
   country_code: "670"
@@ -5881,6 +6098,7 @@ TL:
   languages:
     - pt
 TM:
+  continent: Asia
   alpha2: TM
   alpha3: TKM
   country_code: "993"
@@ -5907,7 +6125,8 @@ TM:
   languages:
     - tk
     - ru
-TN: 
+TN:
+  continent: Africa
   alpha2: TN
   alpha3: TUN
   country_code: "216"
@@ -5934,7 +6153,8 @@ TN:
   languages:
     - ar
     - fr
-TO: 
+TO:
+  continent: Australia
   alpha2: TO
   alpha3: TON
   country_code: "676"
@@ -5960,7 +6180,8 @@ TO:
   languages:
     - en
     - to
-TR: 
+TR:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -5991,7 +6212,8 @@ TR:
   un_locode: TR
   languages:
     - tr
-TT: 
+TT:
+  continent: North America
   alpha2: TT
   alpha3: TTO
   country_code: "1"
@@ -6017,7 +6239,8 @@ TT:
   un_locode: TT
   languages:
     - en
-TV: 
+TV:
+  continent: Australia
   alpha2: TV
   alpha3: TUV
   country_code: "688"
@@ -6044,6 +6267,7 @@ TV:
   languages:
     - en
 TW:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6073,7 +6297,8 @@ TW:
   un_locode: TW
   languages:
     - zh
-TZ: 
+TZ:
+  continent: Africa
   alpha2: TZ
   alpha3: TZA
   country_code: "255"
@@ -6099,7 +6324,8 @@ TZ:
   languages:
     - sw
     - en
-UA: 
+UA:
+  continent: Europe
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6132,7 +6358,8 @@ UA:
   un_locode: UA
   languages:
     - uk
-UG: 
+UG:
+  continent: Africa
   alpha2: UG
   alpha3: UGA
   country_code: "256"
@@ -6156,7 +6383,8 @@ UG:
   languages:
     - en
     - sw
-UM: 
+UM:
+  continent: Australia
   alpha2: UM
   alpha3: UMI
   country_code: ""
@@ -6180,7 +6408,8 @@ UM:
   un_locode: UM
   languages:
     - en
-US: 
+US:
+  continent: North America
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6211,7 +6440,8 @@ US:
   un_locode: US
   languages:
     - en
-UY: 
+UY:
+  continent: South America
   alpha2: UY
   alpha3: URY
   country_code: "598"
@@ -6235,7 +6465,8 @@ UY:
   un_locode: UY
   languages:
     - es
-UZ: 
+UZ:
+  continent: Asia
   alpha2: UZ
   alpha3: UZB
   country_code: "998"
@@ -6262,7 +6493,8 @@ UZ:
   languages:
     - uz
     - ru
-VA: 
+VA:
+  continent: Europe
   alpha2: VA
   alpha3: VAT
   country_code: "39"
@@ -6289,7 +6521,8 @@ VA:
   languages:
     - it
     - la
-VC: 
+VC:
+  continent: North America
   alpha2: VC
   alpha3: VCT
   country_code: "1"
@@ -6315,7 +6548,8 @@ VC:
   un_locode: VC
   languages:
     - en
-VE: 
+VE:
+  continent: South America
   alpha2: VE
   alpha3: VEN
   country_code: "58"
@@ -6338,7 +6572,8 @@ VE:
   un_locode: VE
   languages:
     - es
-VG: 
+VG:
+  continent: North America
   alpha2: VG
   alpha3: VGB
   country_code: "1"
@@ -6364,7 +6599,8 @@ VG:
   un_locode: VG
   languages:
     - en
-VI: 
+VI:
+  continent: North America
   alpha2: VI
   alpha3: VIR
   country_code: "1"
@@ -6390,7 +6626,8 @@ VI:
   un_locode: VI
   languages:
     - en
-VN: 
+VN:
+  continent: Asia
   alpha2: VN
   alpha3: VNM
   country_code: "84"
@@ -6416,7 +6653,8 @@ VN:
   un_locode: VN
   languages:
     - vi
-VU: 
+VU:
+  continent: Australia
   alpha2: VU
   alpha3: VUT
   country_code: "678"
@@ -6443,7 +6681,8 @@ VU:
     - bi
     - en
     - fr
-WF: 
+WF:
+  continent: Australia
   alpha2: WF
   alpha3: WLF
   country_code: "681"
@@ -6469,7 +6708,8 @@ WF:
   un_locode: WF
   languages:
     - fr
-WS: 
+WS:
+  continent: Australia
   alpha2: WS
   alpha3: WSM
   country_code: "685"
@@ -6494,7 +6734,8 @@ WS:
   languages:
     - sm
     - en
-YE: 
+YE:
+  continent: Asia
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6526,7 +6767,8 @@ YE:
   un_locode: YE
   languages:
     - ar
-YT: 
+YT:
+  continent: Africa
   alpha2: YT
   alpha3: MYT
   country_code: "269"
@@ -6552,7 +6794,8 @@ YT:
   un_locode: YT
   languages:
     - fr
-ZA: 
+ZA:
+  continent: Africa
   address_format: |-
       {{recipient}}
       {{street}}
@@ -6594,7 +6837,8 @@ ZA:
     - ve
     - xh
     - zu
-ZM: 
+ZM:
+  continent: Africa
   alpha2: ZM
   alpha3: ZMB
   country_code: "260"
@@ -6619,7 +6863,8 @@ ZM:
   un_locode: ZM
   languages:
     - en
-ZW: 
+ZW:
+  continent: Africa
   alpha2: ZW
   alpha3: ZWE
   country_code: "263"
