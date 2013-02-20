@@ -113,7 +113,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all
       countries.should be_an(Array)
       countries.first.should be_an(Array)
-      countries.should have(246).countries
+      countries.should have(247).countries
     end
 
     it "should allow to customize each country representation passing a block to the method" do
@@ -121,7 +121,7 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_an(Array)
       countries.first.should have(3).fields
-      countries.should have(246).countries
+      countries.should have(247).countries
     end
   end
 
