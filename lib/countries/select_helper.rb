@@ -8,13 +8,15 @@ module ActionView
       end
 
       def country_options_for_select(selected = nil, priority_countries = nil)
-        country_options = "".html_safe
+        country_options = ""
 
         if priority_countries
-          priority_countries = [*priority_countries].map {|x| [x.html_safe,ISO3166::Country::NameIndex[x]] }
+          priority_countries = [*priority_countries].map {|x| [x,ISO3166::Country::NameIndex[x]] }
           country_options += options_for_select(priority_countries, selected)
-          country_options += raw("<option value=\"\" disabled=\"disabled\">-------------</option>\n")
+          country_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
         end
+
+        country_options = country_options.html_safe if country_options.respond_to?(:html_safe)
 
         countries = ISO3166::Country::Names.map{|(name,alpha2)| [name.html_safe,alpha2] }
 
