@@ -2,7 +2,7 @@
 require File.expand_path('../lib/countries/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["hexorx", "Joe Corcoran"]
+  gem.authors       = ["Josh Robinson", "Joe Corcoran"]
   gem.email         = ["hexorx@gmail.com"]
   gem.description   = %q{All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166}
   gem.summary       = %q{Gives you a country object full of all sorts of useful information.}
