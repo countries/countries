@@ -57,11 +57,12 @@ Country Info
     c.alpha2 #=> "US"
     c.alpha3 #=> "USA"
 
-  Names
-  
+  Names & Translations
+
     c.name #=> "United States"
     c.names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
-    
+    c.translations['fr'] #=> "États-Unis"
+
   Subdivisions & States
   
     c.subdivisions #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }

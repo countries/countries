@@ -12,6 +12,7 @@ class ISO3166::Country
     :currency,
     :name,
     :names,
+    :translations,
     :latitude,
     :longitude,
     :continent,
