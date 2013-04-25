@@ -7,11 +7,11 @@ Installation
 ------------
 
     gem install countries
-    
+
 If you’re in Rails 2.3 or earlier, place this in your environment.rb:
 
     config.gem 'countries'
-    
+
 Or you can install via bundler Gemfile if you are using Rails 3:
 
     gem 'countries'
@@ -23,8 +23,11 @@ Or you can install via bundler Gemfile with using only ISO3166::Country (no Coun
 Country Select Helper
 ---------------------
 
-As a bonus if you add the gem to a rails project it automatically gives you a country_select form helper. Unlike the normal country select it will store the alpha2 country code not the country name.
-    
+This gem automatically integrates with [country_select][]. It will change its behavior to store the alpha2 country code instead of the country name. Make sure to add the `country_select` gem after `countries` in the Gemfile:
+
+    gem 'countries'
+    gem 'country_select'
+
 Basic Usage
 -----------
 
@@ -52,7 +55,7 @@ Country Info
 ------------
 
   Identification Codes
-  
+
     c.number #=> "840"
     c.alpha2 #=> "US"
     c.alpha3 #=> "USA"
@@ -64,26 +67,26 @@ Country Info
     c.translations['fr'] #=> "États-Unis"
 
   Subdivisions & States
-  
+
     c.subdivisions #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
     c.states #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }
 
   Location
-  
+
     c.latitude #=> "38 00 N"
     c.longitude #=> "97 00 W"
 
     c.region #=> "Americas"
     c.subregion #=> "Northern America"
-  
+
   Telephone Routing (E164)
-  
+
     c.country_code #=> "1"
     c.national_destination_code_lengths #=> 3
     c.national_number_lengths #=> 10
     c.international_prefix #=> "011"
     c.national_prefix #=> "1"
-    
+
 Currencies
 ----------
 
@@ -102,7 +105,7 @@ Since we are using the [Currencies][] gem we get a bonus ExchangeBank that can b
 
 Address Formatting
 ------------------
-    
+
 A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
 
     c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
@@ -121,7 +124,7 @@ ToDo
 
 Note on Patches/Pull Requests
 -----------------------------
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
@@ -143,3 +146,4 @@ Copyright (c) 2011 hexorx. See LICENSE for details.
 [Currencies]: http://gemcutter.org/gems/currencies
 [Money]: http://gemcutter.org/gems/money
 [Liquid]: http://www.liquidmarkup.org/
+[country_select]: https://github.com/stefanpenner/country_select
