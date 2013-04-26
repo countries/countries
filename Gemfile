@@ -5,4 +5,3 @@ gem "rake"
 gemspec
 
 gem "currencies", :git => "git://github.com/dwilkie/currencies.git"
-gem "country_select"
