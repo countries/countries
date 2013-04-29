@@ -346,4 +346,16 @@ describe ISO3166::Country do
       german_speaking_countries.size.should == 6
     end
   end
+
+  describe 'in_eu?' do
+    let(:netherlands) { ISO3166::Country.search('NL') }
+
+    it 'should return false for countries without eu_member flag' do
+      country.in_eu?.should be_false
+    end
+
+    it 'should return true for countries with eu_member flag set to true' do
+      netherlands.in_eu?.should be_true
+    end
+  end
 end
