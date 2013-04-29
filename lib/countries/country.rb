@@ -27,7 +27,8 @@ class ISO3166::Country
     :ioc,
     :un_locode,
     :languages,
-    :nationality
+    :nationality,
+    :eu_member
   ]
 
   AttrReaders.each do |meth|
@@ -62,6 +63,10 @@ class ISO3166::Country
 
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
+  end
+
+  def in_eu?
+    @data['eu_member'].nil? ? false : @data['eu_member']
   end
 
   class << self
