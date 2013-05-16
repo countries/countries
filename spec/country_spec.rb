@@ -23,7 +23,7 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    country.names.should == ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
+    country.names.should == ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国"]
   end
 
   it 'should return latitude' do
