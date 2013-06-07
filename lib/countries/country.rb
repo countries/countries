@@ -44,7 +44,7 @@ class ISO3166::Country
   end
 
   def valid?
-    !!@data
+    not (@data.nil? or @data.empty?)
   end
 
   def ==(other)
@@ -70,6 +70,12 @@ class ISO3166::Country
   end
 
   class << self
+    def new(country_data)
+      if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
+        super
+      end
+    end
+
     def all(&blk)
       blk ||= Proc.new { |country ,data| [data['name'], country] }
       Data.map &blk
@@ -79,7 +85,7 @@ class ISO3166::Country
 
     def search(query)
       country = self.new(query.to_s.upcase)
-      country.valid? ? country : false
+      (country && country.valid?) ? country : nil
     end
 
     def [](query)
