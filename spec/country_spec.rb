@@ -104,7 +104,7 @@ describe ISO3166::Country do
     end
 
     it 'should return false if country is invalid' do
-      ISO3166::Country.new('fubar').should_not be_valid
+      ISO3166::Country.new({}).should_not be_valid
     end
   end
 
@@ -136,16 +136,16 @@ describe ISO3166::Country do
       ISO3166::Country.search('US').should be_a(ISO3166::Country)
     end
 
-    it 'should return false when an invalid alpha2 string is passed' do
-      ISO3166::Country.search('fubar').should be_false
+    it 'should return nil when an invalid alpha2 string is passed' do
+      ISO3166::Country.search('fubar').should be_nil
     end
 
     it 'should return new country object when a valid alpha2 symbol is passed' do
       ISO3166::Country.search(:us).should be_a(ISO3166::Country)
     end
 
-    it 'should return false when an invalid alpha2 symbol is passed' do
-      ISO3166::Country.search(:fubar).should be_false
+    it 'should return nil when an invalid alpha2 symbol is passed' do
+      ISO3166::Country.search(:fubar).should be_nil
     end
   end
 
