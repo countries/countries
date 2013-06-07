@@ -90,7 +90,6 @@ Country Info
   European Union Membership
 
     c.in_eu? #=> false
-    Country.new("DK").in_eu? #=> true
 
 Currencies
 ----------
