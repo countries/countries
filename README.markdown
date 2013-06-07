@@ -87,6 +87,10 @@ Country Info
     c.international_prefix #=> "011"
     c.national_prefix #=> "1"
 
+  European Union Membership
+
+    c.in_eu? #=> false
+
 Currencies
 ----------
 
