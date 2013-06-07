@@ -108,6 +108,24 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'new' do
+    it 'should return new country object when a valid alpha2 string is passed' do
+      ISO3166::Country.new('US').should be_a(ISO3166::Country)
+    end
+
+    it 'should return nil when an invalid alpha2 string is passed' do
+      ISO3166::Country.new('fubar').should be_nil
+    end
+
+    it 'should return new country object when a valid alpha2 symbol is passed' do
+      ISO3166::Country.new(:us).should be_a(ISO3166::Country)
+    end
+
+    it 'should return nil when an invalid alpha2 symbol is passed' do
+      ISO3166::Country.new(:fubar).should be_nil
+    end
+  end
+
   describe 'all' do
     it 'should return an arry list of all countries' do
       countries = ISO3166::Country.all
