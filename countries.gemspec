@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Countries::VERSION
 
-  gem.add_dependency('currencies', '>= 0.4.0')
+  gem.add_dependency('currencies', '~> 0.4.2')
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "yard"
 end
