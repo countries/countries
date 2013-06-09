@@ -26,6 +26,11 @@ describe ISO3166::Country do
     country.names.should == ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国"]
   end
 
+  it 'should return translations' do
+    country.translations.should be
+    country.translations["en"].should == "United States of America"
+  end
+
   it 'should return latitude' do
     country.latitude.should == '38 00 N'
   end
