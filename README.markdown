@@ -5,6 +5,8 @@ Countries is a collection of all sorts of useful information for every country i
 
 [![Build Status](https://travis-ci.org/hexorx/countries.png)](https://travis-ci.org/hexorx/countries)
 
+[![Code Climate](https://codeclimate.com/github/hexorx/countries.png)](https://codeclimate.com/github/hexorx/countries)
+
 Installation
 ------------
 
