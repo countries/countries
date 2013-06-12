@@ -93,38 +93,39 @@ class ISO3166::Country
     end
 
     def method_missing(*m)
-      if m.first.to_s.match /^find_(country_)?by_(.+)/
-        country = self.find_all_by($~[2].downcase, m[1]).first
-        $~[1].nil? ? country : self.new(country.last) if country
-      elsif m.first.to_s.match /^find_all_(countries_)?by_(.+)/
-        self.find_all_by($~[2].downcase, m[1]).inject([]) do |list, c|
-          list << ($~[1].nil? ? c : self.new(c.last)) if c
-          list
-        end
-      else
-        super
-      end
+      regex = m.first.to_s.match(/^find_(all_)?(country_|countries_)?by_(.+)/)
+      super unless regex
+
+      countries = self.find_by($3, m[1], $2)
+      $1 ? countries : countries.last
     end
 
     def find_all_by(attribute, val)
-      raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      attribute = attribute.to_s
-      if val.is_a?(Regexp)
-        val = Regexp.new(val.source, 'i')
-      else
-        val = val.to_s.downcase
-      end
-      attribute = ['name', 'names'] if attribute == 'name'
-      Data.select do |k,v|
-        Array(attribute).map do |attr|
-          if v[attr].kind_of?(Enumerable)
-            v[attr].any?{ |n| val === n.downcase }
-          else
-            v[attr] && val === v[attr].downcase
-          end
-        end.uniq.include?(true)
+      attributes, value = parse_attributes(attribute, val)
+
+      Data.select do |_, v|
+        attributes.map do |attr|
+          Array(v[attr]).any?{ |n| value === n.downcase }
+        end.include?(true)
       end
     end
 
+    protected
+    def parse_attributes(attribute, val)
+      raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
+      
+      attributes = Array(attribute.to_s)
+      attributes << 'names' if attributes == ['name']
+
+      val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.downcase)
+
+      [attributes, val]
+    end
+
+    def find_by(attribute, value, obj = nil)
+      self.find_all_by(attribute.downcase, value).map do |country|
+        obj.nil? ? country : self.new(country.last)
+      end
+    end
   end
 end
