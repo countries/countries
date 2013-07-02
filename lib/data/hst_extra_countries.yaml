@@ -1,4 +1,36 @@
 ---
+RU:
+  address_format: |-
+      {{recipient}}
+      {{postalcode}} {{city}}
+      {{street}}
+      {{country}}
+  alpha2: RU
+  alpha3: RUS
+  country_code: "7"
+  currency: RUB
+  international_prefix: "810"
+  ioc: RUS
+  latitude: "60 00 N"
+  longitude: "100 00 E"
+  name: "Russia"
+  names:
+    - Russia
+    - Russland
+    - Russie
+    - Rusia
+  national_destination_code_lengths:
+    - 3
+  national_number_lengths:
+    - 10
+  national_prefix: "8"
+  number: "643"
+  continent: Europe
+  region: Europe
+  subregion: "Eastern Europe"
+  un_locode: RU
+  languages:
+    - ru
 XS:
   continent: Europe
   address_format: |-
