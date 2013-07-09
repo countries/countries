@@ -4,6 +4,7 @@ class ISO3166::Country
   Data = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
   Names = Data.map {|k,v| [v['name'],k]}.sort_by { |d| d[0] }
   NameIndex = Hash[*Names.flatten]
+  CurrencyProxy = Struct.new(:code, :name, :symbol)
 
   AttrReaders = [
     :number,
@@ -52,7 +53,12 @@ class ISO3166::Country
   end
 
   def currency
-    ISO4217::Currency.from_code(@data['currency'])
+    ccy_code = @data['currency'] || ISO4217::Currency.base_currency
+    if (ccy = ISO4217::Currency.from_code(ccy_code))
+      ccy
+    else
+      CurrencyProxy.new(ccy_code, ccy_code)
+    end
   end
 
   def subdivisions
@@ -113,7 +119,7 @@ class ISO3166::Country
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      
+
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
