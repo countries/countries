@@ -105,7 +105,7 @@ class ISO3166::Country
 
       Data.select do |_, v|
         attributes.map do |attr|
-          Array(v[attr]).any?{ |n| value === n.downcase }
+          Array(v[attr]).any?{ |n| value === n.to_s.downcase }
         end.include?(true)
       end
     end
