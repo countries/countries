@@ -95,11 +95,11 @@ describe ISO3166::Country do
     end
 
     it 'should return a hash with all sub divisions' do
-      country.subdivisions.should have(57).states
+      country.subdivisions.should have(60).states
     end
 
     it 'should be available through states' do
-      country.states.should have(57).states
+      country.states.should have(60).states
     end
   end
 
