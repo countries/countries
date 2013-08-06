@@ -95,11 +95,11 @@ describe ISO3166::Country do
     end
 
     it 'should return a hash with all sub divisions' do
-      country.subdivisions.should have(57).states
+      country.subdivisions.should have(60).states
     end
 
     it 'should be available through states' do
-      country.states.should have(57).states
+      country.states.should have(60).states
     end
   end
 
@@ -136,7 +136,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all
       countries.should be_an(Array)
       countries.first.should be_an(Array)
-      countries.should have(247).countries
+      countries.should have(250).countries
     end
 
     it "should allow to customize each country representation passing a block to the method" do
@@ -144,7 +144,7 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_an(Array)
       countries.first.should have(3).fields
-      countries.should have(247).countries
+      countries.should have(250).countries
     end
   end
 
