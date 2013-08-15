@@ -381,4 +381,5 @@ describe ISO3166::Country do
       netherlands.in_eu?.should be_true
     end
   end
+
 end

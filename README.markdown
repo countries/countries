@@ -116,11 +116,37 @@ A template for formatting addresses is available through the address_format meth
 
     c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 
+Mongoid
+-------
+
+Mongoid support has been added.  You must require it:
+
+    require 'country/mongoid'
+
+Native country fields in your model:
+
+    field :country, type: Country
+
+Search your database by alpha2 code:
+
+    results = Things.where(country: 'GB')
+    results.first.country.name    # => "United Kingdom"
+
+Search your database by country object:
+
+    c = Country['GB']
+    results = Things.where(country: c)
+    results.first.country.name    # => "United Kingdom"
+
+Note that the database stores the alpha2 code, to return the country name you can override the reader method in your model:
+
+    def country
+        super.name
+    end
 
 ToDo
 ----
 
-* Mongoid support
 * State select
 * Class methods for looking up information
 * Default country
