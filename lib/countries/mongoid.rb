@@ -1,10 +1,7 @@
-module ISO3166
-  ;
-end
+module ISO3166; end
 
 class ISO3166::Country
-  class BadMongoidTypeError < StandardError;
-  end
+  class BadMongoidTypeError < StandardError; end
 
   def mongoize
     ISO3166::Country.mongoize(self)
