@@ -119,26 +119,37 @@ A template for formatting addresses is available through the address_format meth
 Mongoid
 -------
 
-Mongoid support has been added.  You must require it:
+Mongoid support has been added. It is required automatically if Mongoid is defined in your project.
 
-    require 'country/mongoid'
-
-Native country fields in your model:
+Use native country fields in your model:
 
     field :country, type: Country
 
-Search your database by alpha2 code:
+Adds native support for searching/saving by a country object or alpha2 code.
 
-    results = Things.where(country: 'GB')
-    results.first.country.name    # => "United Kingdom"
+Searching:
 
-Search your database by country object:
+    # By alpha2
+    british_things = Things.where(country: 'GB')
+    british_things.first.country.name    # => "United Kingdom"
 
-    c = Country['GB']
-    results = Things.where(country: c)
-    results.first.country.name    # => "United Kingdom"
+    # By object
+    british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
+    british_things.first.country.name    # => "United Kingdom"
 
-Note that the database stores the alpha2 code, to return the country name you can override the reader method in your model:
+Saving:
+
+    # By alpha2
+    british_thing = Thing.new(country: 'GB')
+    british_thing.save!
+    british_thing.country.name    # => "United Kingdom"
+
+    # By object
+    british_thing = Thing.new(country: Country.find_by_name('United Kingdom')[1])
+    british_thing.save!
+    british_thing.country.name    # => "United Kingdom"
+
+Note that the database stores only the alpha2 code and rebuilds the object when queried. To return the country name by default you can override the reader method in your model:
 
     def country
         super.name
