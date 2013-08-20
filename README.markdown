@@ -116,11 +116,48 @@ A template for formatting addresses is available through the address_format meth
 
     c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 
+Mongoid
+-------
+
+Mongoid support has been added. It is required automatically if Mongoid is defined in your project.
+
+Use native country fields in your model:
+
+    field :country, type: Country
+
+Adds native support for searching/saving by a country object or alpha2 code.
+
+Searching:
+
+    # By alpha2
+    british_things = Things.where(country: 'GB')
+    british_things.first.country.name    # => "United Kingdom"
+
+    # By object
+    british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
+    british_things.first.country.name    # => "United Kingdom"
+
+Saving:
+
+    # By alpha2
+    british_thing = Thing.new(country: 'GB')
+    british_thing.save!
+    british_thing.country.name    # => "United Kingdom"
+
+    # By object
+    british_thing = Thing.new(country: Country.find_by_name('United Kingdom')[1])
+    british_thing.save!
+    british_thing.country.name    # => "United Kingdom"
+
+Note that the database stores only the alpha2 code and rebuilds the object when queried. To return the country name by default you can override the reader method in your model:
+
+    def country
+        super.name
+    end
 
 ToDo
 ----
 
-* Mongoid support
 * State select
 * Class methods for looking up information
 * Default country
