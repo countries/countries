@@ -6,6 +6,16 @@ describe ISO3166::Country do
 
   let(:country) { ISO3166::Country.search('US') }
 
+  it 'allows to create a country object from a symbol representation of the alpha2 code' do
+    country = described_class.new(:us)
+    country.data.should_not be_nil
+  end
+
+  it 'allows to create a country object from a lowercase alpha2 code' do
+    country = described_class.new("us")
+    country.data.should_not be_nil
+  end
+
   it 'should return 3166 number' do
     country.number.should == '840'
   end
