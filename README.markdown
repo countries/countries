@@ -3,7 +3,7 @@ Countries
 
 Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). The gem also adds a country_select helper. I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
-[![Build Status](https://travis-ci.org/hexorx/countries.png)](https://travis-ci.org/hexorx/countries) [![Dependency Status](https://gemnasium.com/hexorx/countries.png)](https://gemnasium.com/hexorx/countries) [![Code Climate](https://codeclimate.com/github/hexorx/countries.png)](https://codeclimate.com/github/hexorx/countries) [![Waffle.io Issues in Ready](http://badge.waffle.io/hexorx/countries.png)](http://waffle.io/hexorx/countries)
+[![Build Status](https://travis-ci.org/hexorx/countries.png)](https://travis-ci.org/hexorx/countries) [![Dependency Status](https://gemnasium.com/hexorx/countries.png)](https://gemnasium.com/hexorx/countries) [![Code Climate](https://codeclimate.com/github/hexorx/countries.png)](https://codeclimate.com/github/hexorx/countries) [![Waffle.io Issues in Ready](https://badge.waffle.io/hexorx/countries.png)](http://waffle.io/hexorx/countries)
 
 Installation
 ------------
