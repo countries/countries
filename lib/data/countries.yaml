@@ -7,6 +7,7 @@ AD:
   currency: EUR
   international_prefix: '00'
   ioc: AND
+  gec: AN
   latitude: 42 30 N
   longitude: 1 30 E
   name: Andorra
@@ -19,7 +20,7 @@ AD:
     it: Andorra
     de: Andorra
     fr: Andorre
-    es:
+    es: 
     ja: アンドラ
   national_destination_code_lengths:
   - 2
@@ -38,17 +39,20 @@ AD:
   nationality: Andorran
 AE:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: AE
   alpha3: ARE
   country_code: '971'
   currency: AED
   international_prefix: '00'
   ioc: UAE
+  gec: AE
   latitude: 24 00 N
   longitude: 54 00 E
   name: United Arab Emirates
@@ -87,6 +91,7 @@ AF:
   currency: AFN
   international_prefix: '00'
   ioc: AFG
+  gec: AF
   latitude: 33 00 N
   longitude: 65 00 E
   name: Afghanistan
@@ -97,10 +102,10 @@ AF:
   - アフガニスタン
   translations:
     en: Afghanistan
-    it: Afghanistan	
+    it: Afghanistan
     de: Afghanistan
     fr: Afganistán
-    es:
+    es: 
     ja: アフガニスタン
   national_destination_code_lengths:
   - 2
@@ -125,6 +130,7 @@ AG:
   currency: XCD
   international_prefix: '011'
   ioc: ANT
+  gec: AC
   latitude: 17 03 N
   longitude: 61 48 W
   name: Antigua and Barbuda
@@ -160,7 +166,8 @@ AI:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: AV
   latitude: 18 15 N
   longitude: 63 10 W
   name: Anguilla
@@ -194,6 +201,7 @@ AL:
   currency: ALL
   international_prefix: '00'
   ioc: ALB
+  gec: AL
   latitude: 41 00 N
   longitude: 20 00 E
   name: Albania
@@ -207,7 +215,7 @@ AL:
     it: Albania
     de: Albanien
     fr: Albanie
-    es:
+    es: 
     ja: アルバニア
   national_destination_code_lengths:
   - 2
@@ -231,6 +239,7 @@ AM:
   currency: AMD
   international_prefix: '00'
   ioc: ARM
+  gec: AM
   latitude: 40 00 N
   longitude: 45 00 E
   name: Armenia
@@ -244,7 +253,7 @@ AM:
     it: Armenia
     de: Armenien
     fr: Arménie
-    es:
+    es: 
     ja: アルメニア
   national_destination_code_lengths:
   - 2
@@ -267,6 +276,7 @@ AN:
   currency: ANG
   international_prefix: '00'
   ioc: AHO
+  gec:
   latitude: ''
   longitude: ''
   name: Netherlands Antilles
@@ -303,6 +313,7 @@ AO:
   currency: AOA
   international_prefix: '00'
   ioc: ANG
+  gec: AO
   latitude: 12 30 S
   longitude: 18 30 E
   name: Angola
@@ -333,9 +344,10 @@ AQ:
   alpha2: AQ
   alpha3: ATA
   country_code: '672'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: AY
   latitude: 90 00 S
   longitude: 0 00 E
   name: Antarctica
@@ -363,18 +375,22 @@ AQ:
   nationality: ''
 AR:
   continent: South America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: AR
   alpha3: ARG
   country_code: '54'
   currency: ARS
   international_prefix: '00'
   ioc: ARG
+  gec: AR
   latitude: 34 00 S
   longitude: 64 00 W
   name: Argentina
@@ -388,7 +404,7 @@ AR:
     it: Argentina
     de: Argentinien
     fr: Argentine
-    es:
+    es: 
     ja: アルゼンチン
   national_destination_code_lengths:
   - 2
@@ -412,6 +428,7 @@ AS:
   currency: USD
   international_prefix: '011'
   ioc: ASA
+  gec: AQ
   latitude: 14 20 S
   longitude: 170 00 W
   name: American Samoa
@@ -443,17 +460,20 @@ AS:
   nationality: American Samoan
 AT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: AT
   alpha3: AUT
   country_code: '43'
   currency: EUR
   international_prefix: '00'
   ioc: AUT
+  gec: AU
   latitude: 47 20 N
   longitude: 13 20 E
   name: Austria
@@ -493,17 +513,20 @@ AT:
   eu_member: true
 AU:
   continent: Australia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: AU
   alpha3: AUS
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
   ioc: AUS
+  gec: AS
   latitude: 27 00 S
   longitude: 133 00 E
   name: Australia
@@ -540,6 +563,7 @@ AW:
   currency: AWG
   international_prefix: '00'
   ioc: ARU
+  gec: AA
   latitude: 12 30 N
   longitude: 69 58 W
   name: Aruba
@@ -570,9 +594,10 @@ AX:
   alpha2: AX
   alpha3: ALA
   country_code: '358'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec:
   latitude: ''
   longitude: ''
   name: Åland Islands
@@ -585,7 +610,7 @@ AX:
     it: Isole Aland
     de: Åland
     fr: Aland
-    es:
+    es: 
     ja: オーランド諸島
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -593,7 +618,7 @@ AX:
   number: '248'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - sv
   nationality: Swedish
@@ -605,6 +630,7 @@ AZ:
   currency: AZN
   international_prefix: '810'
   ioc: AZE
+  gec: AJ
   latitude: 40 30 N
   longitude: 47 30 E
   name: Azerbaijan
@@ -637,17 +663,20 @@ AZ:
   nationality: Azerbaijani
 BA:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BA
   alpha3: BIH
   country_code: '387'
   currency: BAM
   international_prefix: '00'
   ioc: BIH
+  gec: BK
   latitude: 44 00 N
   longitude: 18 00 E
   name: Bosnia and Herzegovina
@@ -686,6 +715,7 @@ BB:
   currency: BBD
   international_prefix: '011'
   ioc: BAR
+  gec: BB
   latitude: 13 10 N
   longitude: 59 32 W
   name: Barbados
@@ -698,7 +728,7 @@ BB:
     it: Barbados
     de: Barbados
     fr: Barbade
-    es:
+    es: 
     ja: バルバドス
   national_destination_code_lengths:
   - 3
@@ -720,6 +750,7 @@ BD:
   currency: BDT
   international_prefix: '00'
   ioc: BAN
+  gec: BG
   latitude: 24 00 N
   longitude: 90 00 E
   name: Bangladesh
@@ -732,7 +763,7 @@ BD:
     it: Bangladesh
     de: Bangladesch
     fr: Bangladesh
-    es:
+    es: 
     ja: バングラデシュ
   national_destination_code_lengths:
   - 2
@@ -748,17 +779,20 @@ BD:
   nationality: Bangladeshi
 BE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BE
   alpha3: BEL
   country_code: '32'
   currency: EUR
   international_prefix: '00'
   ioc: BEL
+  gec: BE
   latitude: 50 50 N
   longitude: 4 00 E
   name: Belgium
@@ -799,6 +833,7 @@ BF:
   currency: XOF
   international_prefix: '00'
   ioc: BUR
+  gec: UV
   latitude: 13 00 N
   longitude: 2 00 W
   name: Burkina Faso
@@ -827,17 +862,20 @@ BF:
   nationality: Burkinabe
 BG:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BG
   alpha3: BGR
   country_code: '359'
   currency: BGN
   international_prefix: '00'
   ioc: BUL
+  gec: BU
   latitude: 43 00 N
   longitude: 25 00 E
   name: Bulgaria
@@ -851,7 +889,7 @@ BG:
     it: Bulgaria
     de: Bulgarien
     fr: Bulgarie
-    es:
+    es: 
     ja: ブルガリア
   national_destination_code_lengths:
   - 2
@@ -870,17 +908,20 @@ BG:
   eu_member: true
 BH:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BH
   alpha3: BHR
   country_code: '973'
   currency: BHD
   international_prefix: '00'
   ioc: BRN
+  gec: BA
   latitude: 26 00 N
   longitude: 50 33 E
   name: Bahrain
@@ -917,6 +958,7 @@ BI:
   currency: BIF
   international_prefix: '00'
   ioc: BDI
+  gec: BY
   latitude: 3 30 S
   longitude: 30 00 E
   name: Burundi
@@ -951,6 +993,7 @@ BJ:
   currency: XOF
   international_prefix: '00'
   ioc: BEN
+  gec: BN
   latitude: 9 30 N
   longitude: 2 15 E
   name: Benin
@@ -964,7 +1007,7 @@ BJ:
     it: Benin
     de: Benin
     fr: Bénin
-    es:
+    es: 
     ja: ベナン
   national_destination_code_lengths:
   - 2
@@ -983,9 +1026,10 @@ BL:
   alpha2: BL
   alpha3: BLM
   country_code: '590'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: TB
   latitude: 17 90 N
   longitude: 62 85 W
   name: Saint Barthélemy
@@ -998,7 +1042,7 @@ BL:
     it: Antille Francesi
     de: Saint-Barthélemy
     fr: Saint-Barthélemy
-    es:
+    es: 
     ja: サン・バルテルミー
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -1006,7 +1050,7 @@ BL:
   number: '652'
   region: Americas
   subregion: Caribbean
-  un_locode:
+  un_locode: 
   languages:
   - fr
   nationality: Saint Barthélemy Islander
@@ -1018,6 +1062,7 @@ BM:
   currency: BMD
   international_prefix: '011'
   ioc: BER
+  gec: BD
   latitude: 32 20 N
   longitude: 64 45 W
   name: Bermuda
@@ -1054,6 +1099,7 @@ BN:
   currency: BND
   international_prefix: '00'
   ioc: BRU
+  gec: BX
   latitude: 4 30 N
   longitude: 114 40 E
   name: Brunei Darussalam
@@ -1087,6 +1133,7 @@ BO:
   currency: BOB
   international_prefix: '0010'
   ioc: BOL
+  gec: BL
   latitude: 17 00 S
   longitude: 65 00 W
   name: Bolivia
@@ -1100,7 +1147,7 @@ BO:
     it: Bolivia
     de: Bolivien
     fr: Bolivie
-    es:
+    es: 
     ja: ボリビア多民族国
   national_destination_code_lengths:
   - 2
@@ -1147,17 +1194,20 @@ BQ:
   nationality: Dutch
 BR:
   continent: South America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: BR
   alpha3: BRA
   country_code: '55'
   currency: BRL
   international_prefix: '0014'
   ioc: BRA
+  gec:
   latitude: 10 00 S
   longitude: 55 00 W
   name: Brazil
@@ -1186,6 +1236,7 @@ BR:
   languages:
   - pt
   nationality: Brazilian
+  gec: BR
 BS:
   continent: North America
   alpha2: BS
@@ -1194,6 +1245,7 @@ BS:
   currency: BSD
   international_prefix: '011'
   ioc: BAH
+  gec: BF
   latitude: 24 15 N
   longitude: 76 00 W
   name: Bahamas
@@ -1227,6 +1279,7 @@ BT:
   currency: BTN
   international_prefix: '00'
   ioc: BHU
+  gec: BT
   latitude: 27 30 N
   longitude: 90 30 E
   name: Bhutan
@@ -1263,7 +1316,8 @@ BV:
   country_code: ''
   currency: NOK
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: BV
   latitude: 54 26 S
   longitude: 3 24 E
   name: Bouvet Island
@@ -1284,7 +1338,7 @@ BV:
   number: '074'
   region: ''
   subregion: ''
-  un_locode:
+  un_locode: 
   languages: []
   nationality: ''
 BW:
@@ -1295,6 +1349,7 @@ BW:
   currency: BWP
   international_prefix: '00'
   ioc: BOT
+  gec: BC
   latitude: 22 00 S
   longitude: 24 00 E
   name: Botswana
@@ -1329,6 +1384,7 @@ BY:
   currency: BYR
   international_prefix: '810'
   ioc: BLR
+  gec: BO
   latitude: 53 00 N
   longitude: 28 00 E
   name: Belarus
@@ -1366,6 +1422,7 @@ BZ:
   currency: BZD
   international_prefix: '00'
   ioc: BIZ
+  gec: BH
   latitude: 17 15 N
   longitude: 88 45 W
   name: Belize
@@ -1396,17 +1453,20 @@ BZ:
   nationality: Belizean
 CA:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: CA
   alpha3: CAN
   country_code: '1'
   currency: CAD
   international_prefix: '011'
   ioc: CAN
+  gec: CA
   latitude: 60 00 N
   longitude: 95 00 W
   name: Canada
@@ -1442,7 +1502,8 @@ CC:
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
-  ioc:
+  ioc: 
+  gec: CK
   latitude: 12 30 S
   longitude: 96 50 E
   name: Cocos (Keeling) Islands
@@ -1474,9 +1535,10 @@ CD:
   alpha2: CD
   alpha3: COD
   country_code: '243'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: COD
+  gec: CG
   latitude: 0 00 N
   longitude: 25 00 E
   name: Congo, The Democratic Republic Of The
@@ -1517,6 +1579,7 @@ CF:
   currency: XAF
   international_prefix: '00'
   ioc: CAF
+  gec: CT
   latitude: 7 00 N
   longitude: 21 00 E
   name: Central African Republic
@@ -1551,9 +1614,10 @@ CG:
   alpha2: CG
   alpha3: COG
   country_code: '242'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: CGO
+  gec: CF
   latitude: 1 00 S
   longitude: 15 00 E
   name: Congo
@@ -1583,17 +1647,20 @@ CG:
   nationality: Congolese
 CH:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: CH
   alpha3: CHE
   country_code: '41'
   currency: CHF
   international_prefix: '00'
   ioc: SUI
+  gec: SZ
   latitude: 47 00 N
   longitude: 8 00 E
   name: Switzerland
@@ -1633,6 +1700,7 @@ CI:
   currency: XOF
   international_prefix: '00'
   ioc: CIV
+  gec: IV
   latitude: 8 00 N
   longitude: 5 00 W
   name: Côte D'Ivoire
@@ -1667,6 +1735,7 @@ CK:
   currency: NZD
   international_prefix: '00'
   ioc: COK
+  gec: CW
   latitude: 21 14 S
   longitude: 159 46 W
   name: Cook Islands
@@ -1703,6 +1772,7 @@ CL:
   currency: CLP
   international_prefix: '00'
   ioc: CHI
+  gec: CI
   latitude: 30 00 S
   longitude: 71 00 W
   name: Chile
@@ -1737,6 +1807,7 @@ CM:
   currency: XAF
   international_prefix: '00'
   ioc: CMR
+  gec: CM
   latitude: 6 00 N
   longitude: 12 00 E
   name: Cameroon
@@ -1768,17 +1839,20 @@ CM:
   nationality: Cameroonian
 CN:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: CN
   alpha3: CHN
   country_code: '86'
   currency: CNY
   international_prefix: '00'
   ioc: CHN
+  gec: CH
   latitude: 35 00 N
   longitude: 105 00 E
   name: China
@@ -1818,6 +1892,7 @@ CO:
   currency: COP
   international_prefix: '005'
   ioc: COL
+  gec: CO
   latitude: 4 00 N
   longitude: 72 00 W
   name: Colombia
@@ -1854,6 +1929,7 @@ CR:
   currency: CRC
   international_prefix: '00'
   ioc: CRC
+  gec: CS
   latitude: 10 00 N
   longitude: 84 00 W
   name: Costa Rica
@@ -1887,6 +1963,7 @@ CU:
   currency: CUP
   international_prefix: '119'
   ioc: CUB
+  gec: CU
   latitude: 21 30 N
   longitude: 80 00 W
   name: Cuba
@@ -1921,6 +1998,7 @@ CV:
   currency: CVE
   international_prefix: '00'
   ioc: CPV
+  gec: CV
   latitude: 16 00 N
   longitude: 24 00 W
   name: Cape Verde
@@ -1956,6 +2034,8 @@ CW:
   country_code: '599'
   currency: ANG
   international_prefix: '00'
+  ioc:
+  gec: UC
   latitude: ''
   longitude: ''
   name: Curaçao
@@ -1983,7 +2063,8 @@ CX:
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
-  ioc:
+  ioc: 
+  gec: UC
   latitude: 10 30 S
   longitude: 105 40 E
   name: Christmas Island
@@ -2010,6 +2091,7 @@ CX:
   - zh
   - ms
   nationality: Christmas Island
+  gec: KT
 CY:
   continent: Asia
   alpha2: CY
@@ -2018,6 +2100,7 @@ CY:
   currency: EUR
   international_prefix: '00'
   ioc: CYP
+  gec: CY
   latitude: 35 00 N
   longitude: 33 00 E
   name: Cyprus
@@ -2051,17 +2134,20 @@ CY:
   eu_member: true
 CZ:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: CZ
   alpha3: CZE
   country_code: '420'
   currency: CZK
   international_prefix: '00'
   ioc: CZE
+  gec: EZ
   latitude: 49 45 N
   longitude: 15 30 E
   name: Czech Republic
@@ -2094,17 +2180,20 @@ CZ:
   eu_member: true
 DE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: DE
   alpha3: DEU
   country_code: '49'
   currency: EUR
   international_prefix: '00'
   ioc: GER
+  gec: GM
   latitude: 51 00 N
   longitude: 9 00 E
   name: Germany
@@ -2147,6 +2236,7 @@ DJ:
   currency: DJF
   international_prefix: '00'
   ioc: DJI
+  gec: DJ
   latitude: 11 30 N
   longitude: 43 00 E
   name: Djibouti
@@ -2159,7 +2249,7 @@ DJ:
     it: Gibuti
     de: Dschibuti
     fr: Djibouti
-    es: Yibuti 
+    es: Yibuti
     ja: ジブチ
   national_destination_code_lengths:
   - 2
@@ -2176,18 +2266,22 @@ DJ:
   nationality: Djibouti
 DK:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: DK
   alpha3: DNK
   country_code: '45'
   currency: DKK
   international_prefix: '00'
   ioc: DEN
+  gec: DA
   latitude: 56 00 N
   longitude: 10 00 E
   name: Denmark
@@ -2225,6 +2319,7 @@ DM:
   currency: XCD
   international_prefix: '011'
   ioc: DMA
+  gec: DO
   latitude: 15 25 N
   longitude: 61 20 W
   name: Dominica
@@ -2258,6 +2353,7 @@ DO:
   currency: DOP
   international_prefix: '011'
   ioc: DOM
+  gec: DR
   latitude: 19 00 N
   longitude: 70 40 W
   name: Dominican Republic
@@ -2294,6 +2390,7 @@ DZ:
   currency: DZD
   international_prefix: '00'
   ioc: ALG
+  gec: AG
   latitude: 28 00 N
   longitude: 3 00 E
   name: Algeria
@@ -2330,6 +2427,7 @@ EC:
   currency: USD
   international_prefix: '00'
   ioc: ECU
+  gec: EC
   latitude: 2 00 S
   longitude: 77 30 W
   name: Ecuador
@@ -2367,6 +2465,7 @@ EE:
   currency: EUR
   international_prefix: '00'
   ioc: EST
+  gec: EN
   latitude: 59 00 N
   longitude: 26 00 E
   name: Estonia
@@ -2399,17 +2498,20 @@ EE:
   eu_member: true
 EG:
   continent: Africa
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: EG
   alpha3: EGY
   country_code: '20'
   currency: EGP
   international_prefix: '00'
   ioc: EGY
+  gec: EG
   latitude: 27 00 N
   longitude: 30 00 E
   name: Egypt
@@ -2445,7 +2547,8 @@ EH:
   country_code: '212'
   currency: MAD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: WI
   latitude: 24 30 N
   longitude: 13 00 W
   name: Western Sahara
@@ -2481,6 +2584,7 @@ ER:
   currency: ETB
   international_prefix: '00'
   ioc: ERI
+  gec: ER
   latitude: 15 00 N
   longitude: 39 00 E
   name: Eritrea
@@ -2513,17 +2617,20 @@ ER:
   nationality: Eritrean
 ES:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: ES
   alpha3: ESP
   country_code: '34'
   currency: EUR
   international_prefix: '00'
   ioc: ESP
+  gec: SP
   latitude: 40 00 N
   longitude: 4 00 W
   name: Spain
@@ -2561,6 +2668,7 @@ ET:
   currency: ETB
   international_prefix: '00'
   ioc: ETH
+  gec: ET
   latitude: 8 00 N
   longitude: 38 00 E
   name: Ethiopia
@@ -2591,17 +2699,20 @@ ET:
   nationality: Ethiopian
 FI:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: FI
   alpha3: FIN
   country_code: '358'
   currency: EUR
   international_prefix: '00'
   ioc: FIN
+  gec: FI
   latitude: 64 00 N
   longitude: 26 00 E
   name: Finland
@@ -2626,7 +2737,7 @@ FI:
   number: '246'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - fi
   - sv
@@ -2640,6 +2751,7 @@ FJ:
   currency: USD
   international_prefix: '00'
   ioc: FIJ
+  gec: FJ
   latitude: 18 00 S
   longitude: 175 00 E
   name: Fiji
@@ -2677,7 +2789,8 @@ FK:
   country_code: '500'
   currency: FKP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FK
   latitude: 51 45 S
   longitude: 59 00 W
   name: Falkland Islands (Malvinas)
@@ -2714,6 +2827,7 @@ FM:
   currency: USD
   international_prefix: '011'
   ioc: FSM
+  gec: FM
   latitude: 6 55 N
   longitude: 158 15 E
   name: Micronesia, Federated States Of
@@ -2750,6 +2864,7 @@ FO:
   currency: DKK
   international_prefix: '00'
   ioc: FRO
+  gec: FO
   latitude: 62 00 N
   longitude: 7 00 W
   name: Faroe Islands
@@ -2780,17 +2895,20 @@ FO:
   nationality: Faroese
 FR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: FR
   alpha3: FRA
   country_code: '33'
   currency: EUR
   international_prefix: '00'
   ioc: FRA
+  gec: FR
   latitude: 46 00 N
   longitude: 2 00 E
   name: France
@@ -2828,6 +2946,7 @@ GA:
   currency: XAF
   international_prefix: '00'
   ioc: GAB
+  gec: GB
   latitude: 1 00 S
   longitude: 11 45 E
   name: Gabon
@@ -2859,19 +2978,24 @@ GA:
   nationality: Gabonese
 GB:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}}
+
     {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: GB
   alpha3: GBR
   country_code: '44'
   currency: GBP
   international_prefix: '00'
   ioc: GBR
+  gec: UK
   latitude: 54 00 N
   longitude: 2 00 W
   name: United Kingdom
@@ -2897,7 +3021,7 @@ GB:
   number: '826'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - en
   nationality: British
@@ -2910,6 +3034,7 @@ GD:
   currency: XCD
   international_prefix: '011'
   ioc: GRN
+  gec: GJ
   latitude: 12 07 N
   longitude: 61 40 W
   name: Grenada
@@ -2943,6 +3068,7 @@ GE:
   currency: GEL
   international_prefix: '810'
   ioc: GEO
+  gec: GG
   latitude: 42 00 N
   longitude: 43 30 E
   name: Georgia
@@ -2978,7 +3104,8 @@ GF:
   country_code: '594'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FG
   latitude: 4 00 N
   longitude: 53 00 W
   name: French Guiana
@@ -3012,7 +3139,8 @@ GG:
   country_code: '44'
   currency: GGP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: GK
   latitude: 49 28 N
   longitude: 2 35 W
   name: Guernsey
@@ -3035,7 +3163,7 @@ GG:
   number: '831'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -3048,6 +3176,7 @@ GH:
   currency: GHS
   international_prefix: '00'
   ioc: GHA
+  gec: GH
   latitude: 8 00 N
   longitude: 2 00 W
   name: Ghana
@@ -3083,7 +3212,8 @@ GI:
   country_code: '350'
   currency: GIP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: GI
   latitude: 36 08 N
   longitude: 5 21 W
   name: Gibraltar
@@ -3111,17 +3241,20 @@ GI:
   nationality: Gibraltar
 GL:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: GL
   alpha3: GRL
   country_code: '299'
   currency: DKK
   international_prefix: 009
-  ioc:
+  ioc: 
+  gec: GL
   latitude: 72 00 N
   longitude: 40 00 W
   name: Greenland
@@ -3158,6 +3291,7 @@ GM:
   currency: GMD
   international_prefix: '00'
   ioc: GAM
+  gec: GA
   latitude: 13 28 N
   longitude: 16 34 W
   name: Gambia
@@ -3191,6 +3325,7 @@ GN:
   currency: GNF
   international_prefix: '00'
   ioc: GUI
+  gec: GV
   latitude: 11 00 N
   longitude: 10 00 W
   name: Guinea
@@ -3227,7 +3362,8 @@ GP:
   country_code: '590'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: GP
   latitude: ''
   longitude: ''
   name: Guadeloupe
@@ -3260,9 +3396,10 @@ GQ:
   alpha2: GQ
   alpha3: GNQ
   country_code: '240'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: GEQ
+  gec: EK
   latitude: 2 00 N
   longitude: 10 00 E
   name: Equatorial Guinea
@@ -3294,17 +3431,20 @@ GQ:
   nationality: Equatorial Guinean
 GR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: GR
   alpha3: GRC
   country_code: '30'
   currency: EUR
   international_prefix: '00'
   ioc: GRE
+  gec: GR
   latitude: 39 00 N
   longitude: 22 00 E
   name: Greece
@@ -3339,9 +3479,10 @@ GS:
   alpha2: GS
   alpha3: SGS
   country_code: '500'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: SX
   latitude: 54 30 S
   longitude: 37 00 W
   name: South Georgia and the South Sandwich Islands
@@ -3374,6 +3515,7 @@ GT:
   currency: GTQ
   international_prefix: '00'
   ioc: GUA
+  gec: GT
   latitude: 15 30 N
   longitude: 90 15 W
   name: Guatemala
@@ -3407,6 +3549,7 @@ GU:
   currency: USD
   international_prefix: '011'
   ioc: GUM
+  gec: GQ
   latitude: 13 28 N
   longitude: 144 47 E
   name: Guam
@@ -3442,6 +3585,7 @@ GW:
   currency: XOF
   international_prefix: '00'
   ioc: GBS
+  gec: PU
   latitude: 12 00 N
   longitude: 15 00 W
   name: Guinea-Bissau
@@ -3477,6 +3621,7 @@ GY:
   currency: GYD
   international_prefix: '00'
   ioc: GUY
+  gec: GY
   latitude: 5 00 N
   longitude: 59 00 W
   name: Guyana
@@ -3505,17 +3650,20 @@ GY:
   nationality: Guyanese
 HK:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: HK
   alpha3: HKG
   country_code: '852'
   currency: HKD
   international_prefix: '001'
   ioc: HKG
+  gec: HK
   latitude: 22 15 N
   longitude: 114 10 E
   name: Hong Kong
@@ -3549,7 +3697,8 @@ HM:
   country_code: ''
   currency: AUD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: HM
   latitude: 53 06 S
   longitude: 72 31 E
   name: Heard and McDonald Islands
@@ -3582,6 +3731,7 @@ HN:
   currency: HNL
   international_prefix: '00'
   ioc: HON
+  gec: HO
   latitude: 15 00 N
   longitude: 86 30 W
   name: Honduras
@@ -3610,17 +3760,20 @@ HN:
   nationality: Honduran
 HR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: HR
   alpha3: HRV
   country_code: '385'
   currency: HRK
   international_prefix: '00'
   ioc: CRO
+  gec: HR
   latitude: 45 10 N
   longitude: 15 30 E
   name: Croatia
@@ -3657,6 +3810,7 @@ HT:
   currency: USD
   international_prefix: '00'
   ioc: HAI
+  gec: HA
   latitude: 19 00 N
   longitude: 72 25 W
   name: Haiti
@@ -3685,18 +3839,22 @@ HT:
   nationality: Haitian
 HU:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{city}}
+
     {{street}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: HU
   alpha3: HUN
   country_code: '36'
   currency: HUF
   international_prefix: '00'
   ioc: HUN
+  gec: HU
   latitude: 47 00 N
   longitude: 20 00 E
   name: Hungary
@@ -3729,18 +3887,22 @@ HU:
   eu_member: true
 ID:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}}
+
     {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: ID
   alpha3: IDN
   country_code: '62'
   currency: IDR
   international_prefix: '001'
   ioc: INA
+  gec: ID
   latitude: 5 00 S
   longitude: 120 00 E
   name: Indonesia
@@ -3773,17 +3935,20 @@ ID:
   nationality: Indonesian
 IE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: IE
   alpha3: IRL
   country_code: '353'
   currency: EUR
   international_prefix: '00'
   ioc: IRL
+  gec: EI
   latitude: 53 00 N
   longitude: 8 00 W
   name: Ireland
@@ -3816,17 +3981,20 @@ IE:
   eu_member: true
 IL:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: IL
   alpha3: ISR
   country_code: '972'
   currency: ILS
   international_prefix: '00'
   ioc: ISR
+  gec: IS
   latitude: 31 30 N
   longitude: 34 45 E
   name: Israel
@@ -3865,7 +4033,8 @@ IM:
   country_code: '44'
   currency: IMP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: IM
   latitude: 54 15 N
   longitude: 4 30 W
   name: Isle of Man
@@ -3888,25 +4057,29 @@ IM:
   number: '833'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - en
   - gv
   nationality: Manx
 IN:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{region}}
+
     {{city}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: IN
   alpha3: IND
   country_code: '91'
   currency: INR
   international_prefix: '00'
   ioc: IND
+  gec: IN
   latitude: 20 00 N
   longitude: 77 00 E
   name: India
@@ -3942,7 +4115,8 @@ IO:
   country_code: '246'
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: IO
   latitude: 6 00 S
   longitude: 71 30 E
   name: British Indian Ocean Territory
@@ -3975,6 +4149,7 @@ IQ:
   currency: IQD
   international_prefix: '00'
   ioc: IRQ
+  gec: IZ
   latitude: 33 00 N
   longitude: 44 00 E
   name: Iraq
@@ -4011,6 +4186,7 @@ IR:
   currency: IRR
   international_prefix: '00'
   ioc: IRI
+  gec: IR
   latitude: 32 00 N
   longitude: 53 00 E
   name: Iran, Islamic Republic Of
@@ -4039,17 +4215,20 @@ IR:
   nationality: Iranian
 IS:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: IS
   alpha3: ISL
   country_code: '354'
   currency: ISK
   international_prefix: '00'
   ioc: ISL
+  gec: IC
   latitude: 65 00 N
   longitude: 18 00 W
   name: Iceland
@@ -4082,17 +4261,20 @@ IS:
   nationality: Icelander
 IT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: IT
   alpha3: ITA
   country_code: '39'
   currency: EUR
   international_prefix: '00'
   ioc: ITA
+  gec: IT
   latitude: 42 50 N
   longitude: 12 50 E
   name: Italy
@@ -4129,7 +4311,8 @@ JE:
   country_code: '44'
   currency: JEP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: JE
   latitude: 49 15 N
   longitude: 2 10 W
   name: Jersey
@@ -4149,7 +4332,7 @@ JE:
   number: '832'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -4162,6 +4345,7 @@ JM:
   currency: JMD
   international_prefix: '011'
   ioc: JAM
+  gec: JM
   latitude: 18 15 N
   longitude: 77 30 W
   name: Jamaica
@@ -4191,17 +4375,20 @@ JM:
   nationality: Jamaican
 JO:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: JO
   alpha3: JOR
   country_code: '962'
   currency: JOD
   international_prefix: '00'
   ioc: JOR
+  gec: JO
   latitude: 31 00 N
   longitude: 36 00 E
   name: Jordan
@@ -4233,17 +4420,20 @@ JO:
   nationality: Jordanian
 JP:
   continent: Asia
-  address_format: |-
-    〒{{postalcode}}
+  address_format: ! '〒{{postalcode}}
+
     {{region}}{{city}}{{street}}
+
     {{recipient}}
-    {{country}}
+
+    {{country}}'
   alpha2: JP
   alpha3: JPN
   country_code: '81'
   currency: JPY
   international_prefix: '010'
   ioc: JPN
+  gec: JA
   latitude: 36 00 N
   longitude: 138 00 E
   name: Japan
@@ -4281,6 +4471,7 @@ KE:
   currency: KES
   international_prefix: '000'
   ioc: KEN
+  gec: KE
   latitude: 1 00 N
   longitude: 38 00 E
   name: Kenya
@@ -4318,6 +4509,7 @@ KG:
   currency: KGS
   international_prefix: '00'
   ioc: KGZ
+  gec: KG
   latitude: 41 00 N
   longitude: 75 00 E
   name: Kyrgyzstan
@@ -4355,6 +4547,7 @@ KH:
   currency: KHR
   international_prefix: '00'
   ioc: CAM
+  gec: CB
   latitude: 13 00 N
   longitude: 105 00 E
   name: Cambodia
@@ -4391,6 +4584,7 @@ KI:
   currency: AUD
   international_prefix: '00'
   ioc: KIR
+  gec: KR
   latitude: 1 25 N
   longitude: 173 00 E
   name: Kiribati
@@ -4427,6 +4621,7 @@ KM:
   currency: KMF
   international_prefix: '00'
   ioc: COM
+  gec: CN
   latitude: 12 10 S
   longitude: 44 15 E
   name: Comoros
@@ -4463,6 +4658,7 @@ KN:
   currency: XCD
   international_prefix: '011'
   ioc: SKN
+  gec: SC
   latitude: 17 20 N
   longitude: 62 45 W
   name: Saint Kitts And Nevis
@@ -4499,6 +4695,7 @@ KP:
   currency: KPW
   international_prefix: '00'
   ioc: PRK
+  gec: KN
   latitude: 40 00 N
   longitude: 127 00 E
   name: Korea, Democratic People's Republic Of
@@ -4530,18 +4727,22 @@ KP:
   nationality: North Korean
 KR:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: KR
   alpha3: KOR
   country_code: '82'
   currency: KRW
   international_prefix: '001'
   ioc: KOR
+  gec: KS
   latitude: 37 00 N
   longitude: 127 30 E
   name: Korea, Republic of
@@ -4573,18 +4774,22 @@ KR:
   nationality: South Korean
 KW:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: KW
   alpha3: KWT
   country_code: '965'
   currency: KWD
   international_prefix: '00'
   ioc: KUW
+  gec: KU
   latitude: 29 30 N
   longitude: 45 45 E
   name: Kuwait
@@ -4621,6 +4826,7 @@ KY:
   currency: KYD
   international_prefix: '011'
   ioc: CAY
+  gec: CJ
   latitude: 19 30 N
   longitude: 80 30 W
   name: Cayman Islands
@@ -4657,6 +4863,7 @@ KZ:
   currency: KZT
   international_prefix: '810'
   ioc: KAZ
+  gec: KZ
   latitude: 48 00 N
   longitude: 68 00 E
   name: Kazakhstan
@@ -4694,6 +4901,7 @@ LA:
   currency: LAK
   international_prefix: '00'
   ioc: LAO
+  gec: LA
   latitude: 18 00 N
   longitude: 105 00 E
   name: Lao People's Democratic Republic
@@ -4724,17 +4932,20 @@ LA:
   nationality: Laotian
 LB:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: LB
   alpha3: LBN
   country_code: '961'
   currency: LBP
   international_prefix: '00'
   ioc: LIB
+  gec: LE
   latitude: 33 50 N
   longitude: 35 50 E
   name: Lebanon
@@ -4772,6 +4983,7 @@ LC:
   currency: XCD
   international_prefix: '011'
   ioc: LCA
+  gec: ST
   latitude: 13 53 N
   longitude: 60 58 W
   name: Saint Lucia
@@ -4808,6 +5020,7 @@ LI:
   currency: CHF
   international_prefix: '00'
   ioc: LIE
+  gec: LS
   latitude: 47 16 N
   longitude: 9 32 E
   name: Liechtenstein
@@ -4841,6 +5054,7 @@ LK:
   currency: LKR
   international_prefix: '00'
   ioc: SRI
+  gec: CE
   latitude: 7 00 N
   longitude: 81 00 E
   name: Sri Lanka
@@ -4875,6 +5089,7 @@ LR:
   currency: LRD
   international_prefix: '00'
   ioc: LBR
+  gec: LI
   latitude: 6 30 N
   longitude: 9 30 W
   name: Liberia
@@ -4914,6 +5129,7 @@ LS:
   currency: LSL
   international_prefix: '00'
   ioc: LES
+  gec: LT
   latitude: 29 30 S
   longitude: 28 30 E
   name: Lesotho
@@ -4951,6 +5167,7 @@ LT:
   currency: LTL
   international_prefix: '00'
   ioc: LTU
+  gec: LH
   latitude: 56 00 N
   longitude: 24 00 E
   name: Lithuania
@@ -4982,17 +5199,20 @@ LT:
   eu_member: true
 LU:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: LU
   alpha3: LUX
   country_code: '352'
   currency: EUR
   international_prefix: '00'
   ioc: LUX
+  gec: LU
   latitude: 49 45 N
   longitude: 6 10 E
   name: Luxembourg
@@ -5032,6 +5252,7 @@ LV:
   currency: LVL
   international_prefix: '00'
   ioc: LAT
+  gec: LG
   latitude: 57 00 N
   longitude: 25 00 E
   name: Latvia
@@ -5069,6 +5290,7 @@ LY:
   currency: LYD
   international_prefix: '00'
   ioc: LBA
+  gec: LY
   latitude: 25 00 N
   longitude: 17 00 E
   name: Libya
@@ -5106,6 +5328,7 @@ MA:
   currency: MAD
   international_prefix: '00'
   ioc: MAR
+  gec: MO
   latitude: 32 00 N
   longitude: 5 00 W
   name: Morocco
@@ -5142,6 +5365,7 @@ MC:
   currency: EUR
   international_prefix: '00'
   ioc: MON
+  gec: MN
   latitude: 43 44 N
   longitude: 7 24 E
   name: Monaco
@@ -5178,6 +5402,7 @@ MD:
   currency: MDL
   international_prefix: '00'
   ioc: MDA
+  gec: MD
   latitude: 47 00 N
   longitude: 29 00 E
   name: Moldova, Republic of
@@ -5188,7 +5413,7 @@ MD:
   - Moldavia
   - the Republic of Moldova
   - モルドバ共和国
-  translations:	  
+  translations:
     en: Moldova
     it: Moldavia
     de: Moldawie
@@ -5215,6 +5440,7 @@ ME:
   currency: EUR
   international_prefix: '99'
   ioc: MNE
+  gec: MJ
   latitude: 42 30 N
   longitude: 19 18 E
   name: Montenegro
@@ -5251,7 +5477,8 @@ MF:
   country_code: '590'
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: RN
   latitude: 18 05 N
   longitude: 63 57 W
   name: Saint Martin
@@ -5271,7 +5498,7 @@ MF:
   number: '663'
   region: Americas
   subregion: Caribbean
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -5282,9 +5509,10 @@ MG:
   alpha2: MG
   alpha3: MDG
   country_code: '261'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: MAD
+  gec: MA
   latitude: 20 00 S
   longitude: 47 00 E
   name: Madagascar
@@ -5321,6 +5549,7 @@ MH:
   currency: USD
   international_prefix: '00'
   ioc: MHL
+  gec: RM
   latitude: 9 00 N
   longitude: 168 00 E
   name: Marshall Islands
@@ -5352,17 +5581,20 @@ MH:
   nationality: Marshallese
 MK:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: MK
   alpha3: MKD
   country_code: '389'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: MKD
+  gec: MK
   latitude: 41 50 N
   longitude: 22 00 E
   name: Macedonia, the Former Yugoslav Republic Of
@@ -5400,6 +5632,7 @@ ML:
   currency: XOF
   international_prefix: '00'
   ioc: MLI
+  gec: ML
   latitude: 17 00 N
   longitude: 4 00 W
   name: Mali
@@ -5433,6 +5666,7 @@ MM:
   currency: MNK
   international_prefix: '00'
   ioc: MYA
+  gec: BM
   latitude: 22 00 N
   longitude: 98 00 E
   name: Myanmar
@@ -5470,6 +5704,7 @@ MN:
   currency: MNT
   international_prefix: '001'
   ioc: MGL
+  gec: MG
   latitude: 46 00 N
   longitude: 105 00 E
   name: Mongolia
@@ -5506,9 +5741,10 @@ MO:
   alpha2: MO
   alpha3: MAC
   country_code: '853'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MC
   latitude: 22 10 N
   longitude: 113 33 E
   name: Macao
@@ -5542,7 +5778,8 @@ MP:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: CQ
   latitude: 15 12 N
   longitude: 145 45 E
   name: Northern Mariana Islands
@@ -5579,7 +5816,8 @@ MQ:
   country_code: '596'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MB
   latitude: ''
   longitude: ''
   name: Martinique
@@ -5616,6 +5854,7 @@ MR:
   currency: MRO
   international_prefix: '00'
   ioc: MTN
+  gec: MR
   latitude: 20 00 N
   longitude: 12 00 W
   name: Mauritania
@@ -5652,7 +5891,8 @@ MS:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: MH
   latitude: 16 45 N
   longitude: 62 12 W
   name: Montserrat
@@ -5689,6 +5929,7 @@ MT:
   currency: EUR
   international_prefix: '00'
   ioc: MLT
+  gec: MT
   latitude: 35 50 N
   longitude: 14 35 E
   name: Malta
@@ -5727,6 +5968,7 @@ MU:
   currency: MUR
   international_prefix: '020'
   ioc: MRI
+  gec: MP
   latitude: 20 17 S
   longitude: 57 33 E
   name: Mauritius
@@ -5763,6 +6005,7 @@ MV:
   currency: MVR
   international_prefix: '00'
   ioc: MDV
+  gec: MV
   latitude: 3 15 N
   longitude: 73 00 E
   name: Maldives
@@ -5798,6 +6041,7 @@ MW:
   currency: MWK
   international_prefix: '00'
   ioc: MAW
+  gec: MI
   latitude: 13 30 S
   longitude: 34 00 E
   name: Malawi
@@ -5826,17 +6070,20 @@ MW:
   nationality: Malawian
 MX:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: MX
   alpha3: MEX
   country_code: '52'
   currency: MXN
   international_prefix: '00'
   ioc: MEX
+  gec: MX
   latitude: 23 00 N
   longitude: 102 00 W
   name: Mexico
@@ -5875,6 +6122,7 @@ MY:
   currency: MYR
   international_prefix: '00'
   ioc: MAS
+  gec: MY
   latitude: 2 30 N
   longitude: 112 30 E
   name: Malaysia
@@ -5912,6 +6160,7 @@ MZ:
   currency: MZN
   international_prefix: '00'
   ioc: MOZ
+  gec: MZ
   latitude: 18 15 S
   longitude: 35 00 E
   name: Mozambique
@@ -5950,6 +6199,7 @@ NA:
   currency: NAD
   international_prefix: '00'
   ioc: NAM
+  gec: WA
   latitude: 22 00 S
   longitude: 17 00 E
   name: Namibia
@@ -5987,7 +6237,8 @@ NC:
   country_code: '687'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NC
   latitude: 21 30 S
   longitude: 165 30 E
   name: New Caledonia
@@ -6024,6 +6275,7 @@ NE:
   currency: XOF
   international_prefix: '00'
   ioc: NIG
+  gec: NG
   latitude: 16 00 N
   longitude: 8 00 E
   name: Niger
@@ -6058,7 +6310,8 @@ NF:
   country_code: '672'
   currency: AUD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NF
   latitude: 29 02 S
   longitude: 167 57 E
   name: Norfolk Island
@@ -6095,6 +6348,7 @@ NG:
   currency: NGN
   international_prefix: 009
   ioc: NGR
+  gec: NI
   latitude: 10 00 N
   longitude: 8 00 E
   name: Nigeria
@@ -6132,6 +6386,7 @@ NI:
   currency: NIO
   international_prefix: '00'
   ioc: NCA
+  gec: NU
   latitude: 13 00 N
   longitude: 85 00 W
   name: Nicaragua
@@ -6162,17 +6417,20 @@ NI:
   nationality: Nicaraguan
 NL:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: NL
   alpha3: NLD
   country_code: '31'
   currency: EUR
   international_prefix: '00'
   ioc: NED
+  gec: NL
   latitude: 52 30 N
   longitude: 5 45 E
   name: Netherlands
@@ -6204,17 +6462,20 @@ NL:
   eu_member: true
 'NO':
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: 'NO'
   alpha3: NOR
   country_code: '47'
   currency: NOK
   international_prefix: '00'
   ioc: NOR
+  gec:
   latitude: 62 00 N
   longitude: 10 00 E
   name: Norway
@@ -6251,6 +6512,7 @@ NP:
   currency: NPR
   international_prefix: '00'
   ioc: NEP
+  gec: NP
   latitude: 28 00 N
   longitude: 84 00 E
   name: Nepal
@@ -6261,7 +6523,7 @@ NP:
   - Nepal
   - the Federal Democratic Republic of Nepal
   - ネパール
-  translations:	
+  translations:
     en: Nepal
     it: Nepal
     de: Népal
@@ -6289,6 +6551,7 @@ NR:
   currency: AUD
   international_prefix: '00'
   ioc: NRU
+  gec: NR
   latitude: 0 32 S
   longitude: 166 55 E
   name: Nauru
@@ -6323,9 +6586,10 @@ NU:
   alpha2: NU
   alpha3: NIU
   country_code: '683'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NE
   latitude: 19 02 S
   longitude: 169 52 W
   name: Niue
@@ -6353,18 +6617,22 @@ NU:
   nationality: Niuean
 NZ:
   continent: Australia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{region}}
+
     {{city}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: NZ
   alpha3: NZL
   country_code: '64'
   currency: NZD
   international_prefix: '00'
   ioc: NZL
+  gec: NZ
   latitude: 41 00 S
   longitude: 174 00 E
   name: New Zealand
@@ -6396,18 +6664,22 @@ NZ:
   nationality: New Zealander
 OM:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: OM
   alpha3: OMN
   country_code: '968'
   currency: OMR
   international_prefix: '00'
   ioc: OMA
+  gec: MU
   latitude: 21 00 N
   longitude: 57 00 E
   name: Oman
@@ -6444,6 +6716,7 @@ PA:
   currency: PAB
   international_prefix: '00'
   ioc: PAN
+  gec: PM
   latitude: 9 00 N
   longitude: 80 00 W
   name: Panama
@@ -6479,6 +6752,7 @@ PE:
   currency: PEN
   international_prefix: '00'
   ioc: PER
+  gec: PE
   latitude: 10 00 S
   longitude: 76 00 W
   name: Peru
@@ -6515,7 +6789,8 @@ PF:
   country_code: '689'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FP
   latitude: 15 00 S
   longitude: 140 00 W
   name: French Polynesia
@@ -6552,6 +6827,7 @@ PG:
   currency: PGK
   international_prefix: '05'
   ioc: PNG
+  gec: PP
   latitude: 6 00 S
   longitude: 147 00 E
   name: Papua New Guinea
@@ -6582,17 +6858,20 @@ PG:
   nationality: Papua New Guinean
 PH:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}} {{region}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: PH
   alpha3: PHL
   country_code: '63'
   currency: PHP
   international_prefix: '00'
   ioc: PHI
+  gec: RP
   latitude: 13 00 N
   longitude: 122 00 E
   name: Philippines
@@ -6632,6 +6911,7 @@ PK:
   currency: PKR
   international_prefix: '00'
   ioc: PAK
+  gec: PK
   latitude: 30 00 N
   longitude: 70 00 E
   name: Pakistan
@@ -6663,18 +6943,22 @@ PK:
   nationality: Pakistani
 PL:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: PL
   alpha3: POL
   country_code: '48'
   currency: PLN
   international_prefix: '00'
   ioc: POL
+  gec: PL
   latitude: 52 00 N
   longitude: 20 00 E
   name: Poland
@@ -6711,7 +6995,8 @@ PM:
   country_code: '508'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SB
   latitude: 46 50 N
   longitude: 56 20 W
   name: Saint Pierre And Miquelon
@@ -6747,7 +7032,8 @@ PN:
   country_code: ''
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: PC
   latitude: 25 04 S
   longitude: 130 06 W
   name: Pitcairn
@@ -6780,6 +7066,7 @@ PR:
   currency: USD
   international_prefix: '011'
   ioc: PUR
+  gec: RQ
   latitude: 18 15 N
   longitude: 66 30 W
   name: Puerto Rico
@@ -6811,9 +7098,10 @@ PS:
   alpha2: PS
   alpha3: PSE
   country_code: '970'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: PLE
+  gec: WE
   latitude: ''
   longitude: ''
   name: Palestinian Territory, Occupied
@@ -6829,7 +7117,7 @@ PS:
     it: Palestina
     de: Palästina
     fr: Palestina
-    es: Palestina 
+    es: Palestina
     ja: パレスチナ
   national_destination_code_lengths:
   - 2
@@ -6839,7 +7127,7 @@ PS:
   number: '275'
   region: Asia
   subregion: Western Asia
-  un_locode:
+  un_locode: 
   languages:
   - ar
   - he
@@ -6847,17 +7135,20 @@ PS:
   nationality: Palestinian
 PT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: PT
   alpha3: PRT
   country_code: '351'
   currency: EUR
   international_prefix: '00'
   ioc: POR
+  gec: PO
   latitude: 39 30 N
   longitude: 8 00 W
   name: Portugal
@@ -6892,6 +7183,7 @@ PW:
   currency: USD
   international_prefix: '00'
   ioc: PLW
+  gec: PS
   latitude: 7 30 N
   longitude: 134 30 E
   name: Palau
@@ -6900,7 +7192,7 @@ PW:
   - パラオ
   translations:
     en: Palau
-    it: Palau 
+    it: Palau
     de: Palau
     fr: Palaos
     es: Palau
@@ -6925,6 +7217,7 @@ PY:
   currency: PYG
   international_prefix: '002'
   ioc: PAR
+  gec: PA
   latitude: 23 00 S
   longitude: 58 00 W
   name: Paraguay
@@ -6953,17 +7246,20 @@ PY:
   nationality: Paraguayan
 QA:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: QA
   alpha3: QAT
   country_code: '974'
   currency: QAR
   international_prefix: '00'
   ioc: QAT
+  gec: QA
   latitude: 25 30 N
   longitude: 51 15 E
   name: Qatar
@@ -6997,7 +7293,8 @@ RE:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: RE
   latitude: ''
   longitude: ''
   name: Réunion
@@ -7028,17 +7325,20 @@ RE:
   nationality: French
 RO:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: RO
   alpha3: ROU
   country_code: '40'
   currency: RON
   international_prefix: '00'
   ioc: ROU
+  gec: RO
   latitude: 46 00 N
   longitude: 25 00 E
   name: Romania
@@ -7076,6 +7376,7 @@ RS:
   currency: RSD
   international_prefix: '99'
   ioc: SRB
+  gec: RI
   latitude: 44 00 N
   longitude: 21 00 E
   name: Serbia
@@ -7106,17 +7407,20 @@ RS:
   nationality: Serbian
 RU:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{postalcode}} {{city}}
+
     {{street}}
-    {{country}}
+
+    {{country}}'
   alpha2: RU
   alpha3: RUS
   country_code: '7'
   currency: RUB
   international_prefix: '810'
   ioc: RUS
+  gec: RS
   latitude: 60 00 N
   longitude: 100 00 E
   name: Russian Federation
@@ -7153,6 +7457,7 @@ RW:
   currency: RWF
   international_prefix: '00'
   ioc: RWA
+  gec: RW
   latitude: 2 00 S
   longitude: 30 00 E
   name: Rwanda
@@ -7184,17 +7489,20 @@ RW:
   nationality: Rwandan
 SA:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SA
   alpha3: SAU
   country_code: '966'
   currency: SAR
   international_prefix: '00'
   ioc: KSA
+  gec: SA
   latitude: 25 00 N
   longitude: 45 00 E
   name: Saudi Arabia
@@ -7232,6 +7540,7 @@ SB:
   currency: SBD
   international_prefix: '00'
   ioc: SOL
+  gec: BP
   latitude: 8 00 S
   longitude: 159 00 E
   name: Solomon Islands
@@ -7268,6 +7577,7 @@ SC:
   currency: SCR
   international_prefix: '00'
   ioc: SEY
+  gec: SE
   latitude: 4 35 S
   longitude: 55 40 E
   name: Seychelles
@@ -7303,6 +7613,7 @@ SD:
   currency: SDG
   international_prefix: '00'
   ioc: SUD
+  gec: SU
   latitude: 15 00 N
   longitude: 30 00 E
   name: Sudan
@@ -7334,17 +7645,20 @@ SD:
   nationality: Sudanese
 SE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SE
   alpha3: SWE
   country_code: '46'
   currency: SEK
   international_prefix: '00'
   ioc: SWE
+  gec: SW
   latitude: 62 00 N
   longitude: 15 00 E
   name: Sweden
@@ -7376,17 +7690,20 @@ SE:
   eu_member: true
 SG:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: SG
   alpha3: SGP
   country_code: '65'
   currency: SGD
   international_prefix: '001'
   ioc: SIN
+  gec: SN
   latitude: 1 22 N
   longitude: 103 48 E
   name: Singapore
@@ -7425,7 +7742,8 @@ SH:
   country_code: '290'
   currency: SHP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SH
   latitude: 15 57 S
   longitude: 5 42 W
   name: Saint Helena
@@ -7456,17 +7774,20 @@ SH:
   nationality: Saint Helenian
 SI:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SI
   alpha3: SVN
   country_code: '386'
   currency: EUR
   international_prefix: '00'
   ioc: SLO
+  gec: SI
   latitude: 46 07 N
   longitude: 14 49 E
   name: Slovenia
@@ -7503,7 +7824,8 @@ SJ:
   country_code: '47'
   currency: NOK
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SV
   latitude: 78 00 N
   longitude: 20 00 E
   name: Svalbard And Jan Mayen
@@ -7534,17 +7856,20 @@ SJ:
   nationality: Norwegian
 SK:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SK
   alpha3: SVK
   country_code: '421'
   currency: EUR
   international_prefix: '00'
   ioc: SVK
+  gec: LO
   latitude: 48 40 N
   longitude: 19 30 E
   name: Slovakia
@@ -7582,6 +7907,7 @@ SL:
   currency: SLL
   international_prefix: '00'
   ioc: SLE
+  gec: SL
   latitude: 8 30 N
   longitude: 11 30 W
   name: Sierra Leone
@@ -7615,6 +7941,7 @@ SM:
   currency: EUR
   international_prefix: '00'
   ioc: SMR
+  gec: SM
   latitude: 43 46 N
   longitude: 12 25 E
   name: San Marino
@@ -7653,6 +7980,7 @@ SN:
   currency: XOF
   international_prefix: '00'
   ioc: SEN
+  gec: SG
   latitude: 14 00 N
   longitude: 14 00 W
   name: Senegal
@@ -7688,6 +8016,7 @@ SO:
   currency: SOS
   international_prefix: '00'
   ioc: SOM
+  gec: SO
   latitude: 10 00 N
   longitude: 49 00 E
   name: Somalia
@@ -7723,6 +8052,7 @@ SR:
   currency: SRD
   international_prefix: '00'
   ioc: SUR
+  gec: NS
   latitude: 4 00 N
   longitude: 56 00 W
   name: Suriname
@@ -7757,6 +8087,8 @@ SS:
   country_code: '211'
   currency: SSP
   international_prefix: '0'
+  ioc:
+  gec: OD
   latitude: 7 00 N
   longitude: 30 00 E
   name: South Sudan
@@ -7791,6 +8123,7 @@ ST:
   currency: STD
   international_prefix: '00'
   ioc: STP
+  gec: OD
   latitude: 1 00 N
   longitude: 7 00 E
   name: Sao Tome and Principe
@@ -7820,6 +8153,7 @@ ST:
   languages:
   - pt
   nationality: Sao Tomean
+  gec: TP
 SV:
   continent: North America
   alpha2: SV
@@ -7828,6 +8162,7 @@ SV:
   currency: USD
   international_prefix: '00'
   ioc: ESA
+  gec: ES
   latitude: 13 50 N
   longitude: 88 55 W
   name: El Salvador
@@ -7863,6 +8198,8 @@ SX:
   country_code: '1'
   currency: ANG
   international_prefix: '011'
+  ioc:
+  gec: NN
   latitude: ''
   longitude: ''
   name: Sint Maarten
@@ -7886,17 +8223,20 @@ SX:
   nationality: Dutch
 SY:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SY
   alpha3: SYR
   country_code: '963'
   currency: SYP
   international_prefix: '00'
   ioc: SYR
+  gec: NN
   latitude: 35 00 N
   longitude: 38 00 E
   name: Syrian Arab Republic
@@ -7926,6 +8266,7 @@ SY:
   languages:
   - ar
   nationality: Syrian
+  gec: SY
 SZ:
   continent: Africa
   alpha2: SZ
@@ -7934,6 +8275,7 @@ SZ:
   currency: SZL
   international_prefix: '00'
   ioc: SWZ
+  gec: WZ
   latitude: 26 30 S
   longitude: 31 30 E
   name: Swaziland
@@ -7970,7 +8312,8 @@ TC:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: TK
   latitude: 21 45 N
   longitude: 71 35 W
   name: Turks and Caicos Islands
@@ -8007,6 +8350,7 @@ TD:
   currency: XAF
   international_prefix: '15'
   ioc: CHA
+  gec: CD
   latitude: 15 00 N
   longitude: 19 00 E
   name: Chad
@@ -8042,7 +8386,8 @@ TF:
   country_code: ''
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: FS
   latitude: ''
   longitude: ''
   name: French Southern Territories
@@ -8065,7 +8410,7 @@ TF:
   number: '260'
   region: ''
   subregion: ''
-  un_locode:
+  un_locode: 
   languages:
   - fr
   nationality: French
@@ -8077,6 +8422,7 @@ TG:
   currency: XOF
   international_prefix: '00'
   ioc: TOG
+  gec: TO
   latitude: 8 00 N
   longitude: 1 10 E
   name: Togo
@@ -8110,6 +8456,7 @@ TH:
   currency: THB
   international_prefix: '001'
   ioc: THA
+  gec: TH
   latitude: 15 00 N
   longitude: 100 00 E
   name: Thailand
@@ -8148,6 +8495,7 @@ TJ:
   currency: TJS
   international_prefix: '810'
   ioc: TJK
+  gec: TI
   latitude: 39 00 N
   longitude: 71 00 E
   name: Tajikistan
@@ -8184,7 +8532,8 @@ TK:
   country_code: '690'
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: TL
   latitude: 9 00 S
   longitude: 172 00 W
   name: Tokelau
@@ -8221,6 +8570,7 @@ TL:
   currency: IDR
   international_prefix: None
   ioc: TLS
+  gec: TT
   latitude: 8 50 S
   longitude: 125 55 E
   name: Timor-Leste
@@ -8245,7 +8595,7 @@ TL:
   number: '626'
   region: Asia
   subregion: South-Eastern Asia
-  un_locode:
+  un_locode: 
   languages:
   - pt
   nationality: East Timorese
@@ -8254,9 +8604,10 @@ TM:
   alpha2: TM
   alpha3: TKM
   country_code: '993'
-  currency:
+  currency: 
   international_prefix: '810'
   ioc: TKM
+  gec: TX
   latitude: 40 00 N
   longitude: 60 00 E
   name: Turkmenistan
@@ -8294,6 +8645,7 @@ TN:
   currency: TND
   international_prefix: '00'
   ioc: TUN
+  gec: TS
   latitude: 34 00 N
   longitude: 9 00 E
   name: Tunisia
@@ -8331,6 +8683,7 @@ TO:
   currency: TOP
   international_prefix: '00'
   ioc: TGA
+  gec: TN
   latitude: 20 00 S
   longitude: 175 00 W
   name: Tonga
@@ -8361,17 +8714,20 @@ TO:
   nationality: Tongan
 TR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: TR
   alpha3: TUR
   country_code: '90'
   currency: TRY
   international_prefix: '00'
   ioc: TUR
+  gec: TU
   latitude: 39 00 N
   longitude: 35 00 E
   name: Turkey
@@ -8408,6 +8764,7 @@ TT:
   currency: TTD
   international_prefix: '011'
   ioc: TRI
+  gec: TD
   latitude: 11 00 N
   longitude: 61 00 W
   name: Trinidad and Tobago
@@ -8444,6 +8801,7 @@ TV:
   currency: TVD
   international_prefix: '00'
   ioc: TUV
+  gec: TV
   latitude: 8 00 S
   longitude: 178 00 E
   name: Tuvalu
@@ -8474,17 +8832,20 @@ TV:
   nationality: Tuvaluan
 TW:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: TW
   alpha3: TWN
   country_code: '886'
   currency: TWD
   international_prefix: '002'
   ioc: TPE
+  gec: TW
   latitude: 23 30 N
   longitude: 121 00 E
   name: Taiwan, Republic Of China
@@ -8521,6 +8882,7 @@ TZ:
   currency: TZS
   international_prefix: '000'
   ioc: TAN
+  gec: TZ
   latitude: 6 00 S
   longitude: 35 00 E
   name: Tanzania, United Republic of
@@ -8551,18 +8913,22 @@ TZ:
   nationality: Tanzanian
 UA:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: UA
   alpha3: UKR
   country_code: '380'
   currency: UAH
   international_prefix: '810'
   ioc: UKR
+  gec: UP
   latitude: 49 00 N
   longitude: 32 00 E
   name: Ukraine
@@ -8600,6 +8966,7 @@ UG:
   currency: UGX
   international_prefix: '000'
   ioc: UGA
+  gec: UG
   latitude: 1 00 N
   longitude: 32 00 E
   name: Uganda
@@ -8633,7 +9000,8 @@ UM:
   country_code: ''
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec:
   latitude: ''
   longitude: ''
   name: United States Minor Outlying Islands
@@ -8662,17 +9030,20 @@ UM:
   nationality: American
 US:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: US
   alpha3: USA
   country_code: '1'
   currency: USD
   international_prefix: '011'
   ioc: USA
+  gec: US
   latitude: 38 00 N
   longitude: 97 00 W
   name: United States
@@ -8709,6 +9080,7 @@ UY:
   currency: UYU
   international_prefix: '00'
   ioc: URU
+  gec: UY
   latitude: 33 00 S
   longitude: 56 00 W
   name: Uruguay
@@ -8743,6 +9115,7 @@ UZ:
   currency: UZS
   international_prefix: '810'
   ioc: UZB
+  gec: UZ
   latitude: 41 00 N
   longitude: 64 00 E
   name: Uzbekistan
@@ -8779,7 +9152,8 @@ VA:
   country_code: '39'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: VT
   latitude: 41 54 N
   longitude: 12 27 E
   name: Holy See (Vatican City State)
@@ -8817,6 +9191,7 @@ VC:
   currency: XCD
   international_prefix: '011'
   ioc: VIN
+  gec: VC
   latitude: 13 15 N
   longitude: 61 12 W
   name: Saint Vincent And The Grenedines
@@ -8853,6 +9228,7 @@ VE:
   currency: VEF
   international_prefix: '00'
   ioc: VEN
+  gec: VE
   latitude: 8 00 N
   longitude: 66 00 W
   name: Venezuela, Bolivarian Republic of
@@ -8886,6 +9262,7 @@ VG:
   currency: USD
   international_prefix: '011'
   ioc: IVB
+  gec: VI
   latitude: ''
   longitude: ''
   name: Virgin Islands, British
@@ -8922,6 +9299,7 @@ VI:
   currency: USD
   international_prefix: '011'
   ioc: ISV
+  gec: VQ
   latitude: ''
   longitude: ''
   name: Virgin Islands, U.S.
@@ -8958,6 +9336,7 @@ VN:
   currency: VND
   international_prefix: '00'
   ioc: VIE
+  gec: VM
   latitude: 16 10 N
   longitude: 107 50 E
   name: Vietnam
@@ -8991,9 +9370,10 @@ VU:
   alpha2: VU
   alpha3: VUT
   country_code: '678'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: VAN
+  gec: NH
   latitude: 16 00 S
   longitude: 167 00 E
   name: Vanuatu
@@ -9030,7 +9410,8 @@ WF:
   country_code: '681'
   currency: XPF
   international_prefix: '19'
-  ioc:
+  ioc: 
+  gec: WF
   latitude: 13 18 S
   longitude: 176 12 W
   name: Wallis and Futuna
@@ -9067,6 +9448,7 @@ WS:
   currency: USD
   international_prefix: '00'
   ioc: SAM
+  gec: WS
   latitude: 13 35 S
   longitude: 172 20 W
   name: Samoa
@@ -9096,17 +9478,20 @@ WS:
   nationality: Samoan
 YE:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: YE
   alpha3: YEM
   country_code: '967'
   currency: YER
   international_prefix: '00'
   ioc: YEM
+  gec: YM
   latitude: 15 00 N
   longitude: 48 00 E
   name: Yemen
@@ -9143,7 +9528,8 @@ YT:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MF
   latitude: 12 50 S
   longitude: 45 10 E
   name: Mayotte
@@ -9174,19 +9560,24 @@ YT:
   nationality: French
 ZA:
   continent: Africa
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}}
+
     {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: ZA
   alpha3: ZAF
   country_code: '27'
   currency: ZAR
   international_prefix: 09
   ioc: RSA
+  gec: SF
   latitude: 29 00 S
   longitude: 24 00 E
   name: South Africa
@@ -9232,6 +9623,7 @@ ZM:
   currency: ZMK
   international_prefix: '00'
   ioc: ZAM
+  gec: ZA
   latitude: 15 00 S
   longitude: 30 00 E
   name: Zambia
@@ -9267,6 +9659,7 @@ ZW:
   currency: ZWD
   international_prefix: '00'
   ioc: ZIM
+  gec: ZI
   latitude: 20 00 S
   longitude: 30 00 E
   name: Zimbabwe

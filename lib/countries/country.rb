@@ -25,6 +25,7 @@ class ISO3166::Country
     :national_prefix,
     :address_format,
     :ioc,
+    :gec,
     :un_locode,
     :languages,
     :nationality,
@@ -69,6 +70,7 @@ class ISO3166::Country
     @data['eu_member'].nil? ? false : @data['eu_member']
   end
 
+  private
   class << self
     def new(country_data)
       if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
