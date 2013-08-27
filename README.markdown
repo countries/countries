@@ -61,6 +61,7 @@ Country Info
     c.number #=> "840"
     c.alpha2 #=> "US"
     c.alpha3 #=> "USA"
+    c.gec    #=> "US"
 
   Names & Translations
 
