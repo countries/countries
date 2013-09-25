@@ -55,6 +55,10 @@ class ISO3166::Country
     ISO4217::Currency.from_code(@data['currency'])
   end
 
+  def currency_code
+    @data['currency']
+  end
+
   def subdivisions
     @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end
@@ -113,7 +117,7 @@ class ISO3166::Country
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      
+
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
