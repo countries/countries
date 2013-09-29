@@ -203,6 +203,12 @@ describe ISO3166::Country do
 
         it { should == ISO3166::Country }
       end
+
+      describe 'to_s' do
+        it 'should return the country name' do
+          Country.new('GB').to_s.should == 'United Kingdom'
+        end
+      end
     end
   end
 
@@ -379,6 +385,12 @@ describe ISO3166::Country do
 
     it 'should return true for countries with eu_member flag set to true' do
       netherlands.in_eu?.should be_true
+    end
+  end
+
+  describe 'to_s' do
+    it 'should return the country name' do
+      ISO3166::Country.new('GB').to_s.should == 'United Kingdom'
     end
   end
 
