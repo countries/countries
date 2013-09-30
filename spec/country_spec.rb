@@ -203,6 +203,12 @@ describe ISO3166::Country do
 
         it { should == ISO3166::Country }
       end
+
+      describe 'to_s' do
+        it 'should return the country name' do
+          Country.new('GB').to_s.should == 'United Kingdom'
+        end
+      end
     end
   end
 
@@ -391,4 +397,11 @@ describe ISO3166::Country do
       ISO3166::Country.new('AN').gec.should eql nil
     end
   end
+
+  describe 'to_s' do
+    it 'should return the country name' do
+      ISO3166::Country.new('GB').to_s.should == 'United Kingdom'
+    end
+  end
+
 end

@@ -70,6 +70,10 @@ class ISO3166::Country
     @data['eu_member'].nil? ? false : @data['eu_member']
   end
 
+  def to_s
+    @data['name']
+  end
+
   private
   class << self
     def new(country_data)
