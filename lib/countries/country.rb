@@ -53,7 +53,7 @@ class ISO3166::Country
   end
 
   def currency
-    ccy_code = @data['currency'] || ISO4217::Currency.base_currency
+    ccy_code = currency_code || ISO4217::Currency.base_currency
     if (ccy = ISO4217::Currency.from_code(ccy_code))
       ccy
     else
