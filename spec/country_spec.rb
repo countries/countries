@@ -378,6 +378,14 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Guernsey' do
+    let(:guernsey) { ISO3166::Country.search('GG') }
+
+    it 'should have a currency' do
+      guernsey.currency.code.should == 'GBP'
+    end
+  end
+
   describe 'Languages' do
     let(:german_speaking_countries) { ISO3166::Country.find_all_countries_by_languages('de') }
 
