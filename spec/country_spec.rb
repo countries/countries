@@ -158,6 +158,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'all_translated' do
+    it 'should return an alphabetized list of all country names translated to the selected locale' do
+      countries = ISO3166::Country.all_translated('fr')
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afganistán')
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 247, for example
+      countries.should have(247).countries
+    end
+
+    it 'should return an alphabetized list of all country names in English if no locale is passed' do
+      countries = ISO3166::Country.all_translated
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afghanistan')
+      countries.should have(250).countries
+    end
+  end
+
   describe 'countries' do
     it 'should be the same as all' do
       ISO3166::Country.countries.should == ISO3166::Country.all
