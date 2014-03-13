@@ -91,6 +91,11 @@ class ISO3166::Country
 
     alias :countries :all
 
+    def all_translated(locale='en')
+      translate = ->(country) { self.new(country[1]).translations[locale] }
+      list = self.all.map(&translate).compact.sort
+    end
+
     def search(query)
       country = self.new(query.to_s.upcase)
       (country && country.valid?) ? country : nil
