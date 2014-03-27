@@ -1,0 +1,677 @@
+---
+BQ:
+  continent: North America
+  alpha2: BQ
+  alpha3: BES
+  country_code: '599'
+  currency: USD
+  international_prefix: '00'
+  latitude: ''
+  longitude: ''
+  name: Netherlands Antilles
+  names:
+  - Bonaire, Sint Eustatius and Saba
+  - Caribbean Netherlands
+  - Caribisch Nederland
+  translations:
+    en: Bonaire, Sint Eustatius and Saba
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: '0'
+  number: '535'
+  region: Americas
+  subregion: Caribbean
+  un_locode: BQ
+  languages:
+  - nl
+  - en
+  nationality: Dutch
+CD:
+  continent: Africa
+  alpha2: CD
+  alpha3: COD
+  country_code: '243'
+  currency:
+  international_prefix: '00'
+  ioc: COD
+  latitude: 0 00 N
+  longitude: 25 00 E
+  name: Democratic Republic Of The Congo
+  names:
+  - Congo (Dem. Rep.)
+  - Kongo (Dem. Rep.)
+  - Congo (Rep. Dem.)
+  - コンゴ民主共和国
+  - Congo [DRC]
+  translations:
+    en: Congo (Dem. Rep.)
+    it: Congo (Rep. Dem.)
+    de: Kongo (Dem. Rep.)
+    fr: Congo (Rep. Dem.)
+    es: Congo (Rep. Dem.)
+    ja: コンゴ民主共和国
+    nl: Congo [DRC]
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  number: '180'
+  region: Africa
+  subregion: Middle Africa
+  un_locode: CD
+  languages:
+  - fr
+  - ln
+  - kg
+  - sw
+  - lu
+  nationality: Congolese
+FM:
+  continent: Australia
+  alpha2: FM
+  alpha3: FSM
+  country_code: '691'
+  currency: USD
+  international_prefix: '011'
+  ioc: FSM
+  latitude: 6 55 N
+  longitude: 158 15 E
+  name: Micronesia
+  names:
+  - Micronesia
+  - Mikronesien
+  - Micronésie
+  - ミクロネシア連邦
+  - Micronesië
+  translations:
+    en: Micronesia
+    it: Micronesia
+    de: Mikronesien
+    fr: Micronésie
+    es: Micronesia
+    ja: ミクロネシア連邦
+    nl: Micronesië
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: '1'
+  number: '583'
+  region: Oceania
+  subregion: Micronesia
+  un_locode: FM
+  languages:
+  - en
+  nationality: Micronesian
+IR:
+  continent: Asia
+  alpha2: IR
+  alpha3: IRN
+  country_code: '98'
+  currency: IRR
+  international_prefix: '00'
+  ioc: IRI
+  latitude: 32 00 N
+  longitude: 53 00 E
+  name: Iran
+  names:
+  - Iran
+  - Irán
+  - イラン・イスラム共和国
+  translations:
+    en: Iran
+    de: Iran
+    fr: Iran
+    es: Iran
+    ja: イラン・イスラム共和国
+    nl: Iran
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  number: '364'
+  region: Asia
+  subregion: Southern Asia
+  un_locode: IR
+  languages:
+  - fa
+  nationality: Iranian
+KP:
+  continent: Asia
+  alpha2: KP
+  alpha3: PRK
+  country_code: '850'
+  currency: KPW
+  international_prefix: '00'
+  ioc: PRK
+  latitude: 40 00 N
+  longitude: 127 00 E
+  name: North Korea
+  names:
+  - Korea (North)
+  - Nordkorea
+  - Corée du Nord
+  - Corea del Norte
+  - 朝鮮民主主義人民共和国
+  - Noord-Korea
+  translations:
+    en: Korea (North)
+    it: Corea del Nord
+    de: Nordkorea
+    fr: Corée du Nord
+    es: Corea del Norte
+    ja: 朝鮮民主主義人民共和国
+    nl: Noord-Korea
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  number: '408'
+  region: Asia
+  subregion: Eastern Asia
+  un_locode: KP
+  languages:
+  - ko
+  nationality: North Korean
+MD:
+  continent: Europe
+  alpha2: MD
+  alpha3: MDA
+  country_code: '373'
+  currency: MDL
+  international_prefix: '00'
+  ioc: MDA
+  latitude: 47 00 N
+  longitude: 29 00 E
+  name: Moldova
+  names:
+  - Moldova
+  - Moldawien
+  - Moldavie
+  - Moldavia
+  - the Republic of Moldova
+  - モルドバ共和国
+  - Moldavië
+  translations:
+    en: Moldova
+    it: Moldavia
+    de: Moldawie
+    fr: Moldavie
+    es: Moldavia
+    ja: モルドバ共和国
+    nl: Moldavië
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  number: '498'
+  region: Europe
+  subregion: Eastern Europe
+  un_locode: MD
+  languages:
+  - ro
+  nationality: Moldovan
+MK:
+  continent: Europe
+  address_format: ! '{{recipient}}
+
+    {{street}}
+
+    {{city}} {{postalcode}}
+
+    {{country}}'
+  alpha2: MK
+  alpha3: MKD
+  country_code: '389'
+  currency:
+  international_prefix: '00'
+  ioc: MKD
+  latitude: 41 50 N
+  longitude: 22 00 E
+  name: Macedonia
+  names:
+  - Macedonia
+  - Mazedonien
+  - Macédoine
+  - マケドニア旧ユーゴスラビア共和国
+  - Macedonië [FYROM]
+  translations:
+    en: Macedonia
+    it: Macedonia
+    de: Mazedonien
+    fr: Macédoine
+    es: Macedonia
+    ja: マケドニア旧ユーゴスラビア共和国
+    nl: Macedonië [FYROM]
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  national_prefix: '0'
+  number: '807'
+  region: Europe
+  subregion: Southern Europe
+  un_locode: MK
+  languages:
+  - mk
+  nationality: Macedonian
+PS:
+  continent: Asia
+  alpha2: PS
+  alpha3: PSE
+  country_code: '970'
+  currency:
+  international_prefix: '00'
+  ioc: PLE
+  latitude: ''
+  longitude: ''
+  name: Palestinian Territory
+  names:
+  - Palestine
+  - Palästina
+  - Palestina
+  - the Occupied Palestinian Territory
+  - パレスチナ
+  - Palestijnse gebieden
+  translations:
+    en: Palestine
+    it: Palestina
+    de: Palästina
+    fr: Palestina
+    es: Palestina
+    ja: パレスチナ
+    nl: Palestijnse gebieden
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  number: '275'
+  region: Asia
+  subregion: Western Asia
+  un_locode:
+  languages:
+  - ar
+  - he
+  - en
+  nationality: Palestinian
+VE:
+  continent: South America
+  alpha2: VE
+  alpha3: VEN
+  country_code: '58'
+  currency: VEF
+  international_prefix: '00'
+  ioc: VEN
+  latitude: 8 00 N
+  longitude: 66 00 W
+  name: Venezuela
+  names:
+  - Venezuela
+  - ベネズエラ・ボリバル共和国
+  translations:
+    en: Venezuela
+    it: Venezuela
+    de: Venezuela
+    fr: Venezuela
+    es: Venezuela
+    ja: ベネズエラ・ボリバル共和国
+    nl: Venezuela
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  number: '862'
+  region: Americas
+  subregion: South America
+  un_locode: VE
+  languages:
+  - es
+  nationality: Venezuelan
+VG:
+  continent: North America
+  alpha2: VG
+  alpha3: VGB
+  country_code: '1'
+  currency: USD
+  international_prefix: '011'
+  ioc: IVB
+  latitude: ''
+  longitude: ''
+  name: British Virgin Islands
+  names:
+  - British Virgin Islands
+  - Britische Jungferninseln
+  - Îles Vierges britanniques
+  - Islas Vírgenes del Reino Unido
+  - イギリス領ヴァージン諸島
+  - Britse Maagdeneilanden
+  translations:
+    en: British Virgin Islands
+    it: Isole Vergini Britanniche
+    de: Britische Jungferninseln
+    fr: Îles Vierges britanniques
+    es: Islas Vírgenes del Reino Unido
+    ja: イギリス領ヴァージン諸島
+    nl: Britse Maagdeneilanden
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: 092
+  region: Americas
+  subregion: Caribbean
+  un_locode: VG
+  languages:
+  - en
+  nationality: Virgin Islander
+VI:
+  continent: North America
+  alpha2: VI
+  alpha3: VIR
+  country_code: '1'
+  currency: USD
+  international_prefix: '011'
+  ioc: ISV
+  latitude: ''
+  longitude: ''
+  name: US Virgin Islands
+  names:
+  - Virgin Islands of the United States
+  - Amerikanische Jungferninseln
+  - Îles Vierges américaines
+  - Islas Vírgenes de los Estados Unidos
+  - アメリカ領ヴァージン諸島
+  - Amerikaanse Maagdeneilanden
+  translations:
+    en: Virgin Islands of the United States
+    it: Isole Vergini americane
+    de: Amerikanische Jungferninseln
+    fr: Îles Vierges américaines
+    es: Islas Vírgenes de los Estados Unidos
+    ja: アメリカ領ヴァージン諸島
+    nl: Amerikaanse Maagdeneilanden
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '850'
+  region: Americas
+  subregion: Caribbean
+  un_locode: VI
+  languages:
+  - en
+  nationality: Virgin Islander
+RU:
+  address_format: |-
+      {{recipient}}
+      {{postalcode}} {{city}}
+      {{street}}
+      {{country}}
+  alpha2: RU
+  alpha3: RUS
+  country_code: "7"
+  currency: RUB
+  international_prefix: "810"
+  ioc: RUS
+  latitude: "60 00 N"
+  longitude: "100 00 E"
+  name: "Russia"
+  names:
+    - Russia
+    - Russland
+    - Russie
+    - Rusia
+  national_destination_code_lengths:
+    - 3
+  national_number_lengths:
+    - 10
+  national_prefix: "8"
+  number: "643"
+  continent: Europe
+  region: Europe
+  subregion: "Eastern Europe"
+  un_locode: RU
+  languages:
+    - ru
+  translations:
+    en: Russia
+  nationality: Russian
+XS:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{postalcode}}
+    {{country}}
+  alpha2: XS
+  alpha3: XSC
+  country_code: '44'
+  currency: GBP
+  international_prefix: '00'
+  ioc: GBR
+  latitude: 55 95 N
+  longitude: 3 18 W
+  name: Scotland
+  names:
+  - Scotland
+  translations:
+    en: Scotland
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  - 11
+  national_prefix: '0'
+  number: '826'
+  region: Europe
+  subregion: Northern Europe
+  un_locode:
+  languages:
+  - en
+  nationality: British
+  eu_member: true
+XW:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{postalcode}}
+    {{country}}
+  alpha2: XW
+  alpha3: XWL
+  country_code: '44'
+  currency: GBP
+  international_prefix: '00'
+  ioc: GBR
+  latitude: 51 29 N
+  longitude: 3 11 W
+  name: Wales
+  names:
+  - Wales
+  translations:
+    en: Wales
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  - 11
+  national_prefix: '0'
+  number: '826'
+  region: Europe
+  subregion: Northern Europe
+  un_locode:
+  languages:
+  - en
+  nationality: British
+  eu_member: true
+XI:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{postalcode}}
+    {{country}}
+  alpha2: XI
+  alpha3: XIR
+  country_code: '44'
+  currency: GBP
+  international_prefix: '00'
+  ioc: GBR
+  latitude: 54 35 N
+  longitude: 5 50 W
+  name: Northern Ireland
+  names:
+  - Northern Ireland
+  translations:
+    en: Northern Ireland
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  - 11
+  national_prefix: '0'
+  number: '826'
+  region: Europe
+  subregion: Northern Europe
+  un_locode:
+  languages:
+  - en
+  nationality: British
+  eu_member: true
+KR:
+  address_format: |-
+      {{recipient}}
+      {{street}}
+      {{city}} {{region}}
+      {{postalcode}}
+      {{country}}
+  alpha2: KR
+  alpha3: KOR
+  country_code: "82"
+  currency: KRW
+  international_prefix: "001"
+  ioc: KOR
+  latitude: "37 00 N"
+  longitude: "127 30 E"
+  name: "South Korea"
+  names:
+    - "Korea (South)"
+    - Südkorea
+    - "Corée du Sud"
+    - "Corea del Sur"
+    - "Korea, Republic of"
+  national_destination_code_lengths:
+    - 2
+  national_number_lengths:
+    - 8
+    - 9
+  national_prefix: "0"
+  number: "410"
+  continent: Asia
+  region: Asia
+  subregion: "Eastern Asia"
+  un_locode: KR
+  languages:
+    - ko
+  translations:
+    en: 'South Korea'
+  nationality: 'South Korean'
+TW:
+  continent: Asia
+  address_format: ! '{{recipient}}
+
+    {{street}}
+
+    {{city}} {{region}} {{postalcode}}
+
+    {{country}}'
+  alpha2: TW
+  alpha3: TWN
+  country_code: '886'
+  currency: TWD
+  international_prefix: '002'
+  ioc: TPE
+  latitude: 23 30 N
+  longitude: 121 00 E
+  name: Taiwan
+  names:
+  - Taiwan
+  - Taiwán
+  - 台湾（台湾省/中華民国）
+  translations:
+    en: Taiwan
+    it: Taiwan
+    de: Taiwan
+    fr: Taïwan
+    es: Taiwán
+    ja: 台湾（台湾省/中華民国）
+    nl: Taiwan
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  national_prefix: None
+  number: '158'
+  region: Asia
+  subregion: Eastern Asia
+  un_locode: TW
+  languages:
+  - zh
+  nationality: Taiwanese
+TZ:
+  continent: Africa
+  alpha2: TZ
+  alpha3: TZA
+  country_code: '255'
+  currency: TZS
+  international_prefix: '000'
+  ioc: TAN
+  latitude: 6 00 S
+  longitude: 35 00 E
+  name: Tanzania
+  names:
+  - Tanzania, United Republic of
+  - Tanzania
+  - Tansania
+  - Tanzanie
+  - タンザニア
+  translations:
+    en: Tanzania
+    it: Tanzania
+    de: Tansania
+    fr: Tanzanie
+    es: Tanzania
+    ja: タンザニア
+    nl: Tanzania
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  number: '834'
+  region: Africa
+  subregion: Eastern Africa
+  un_locode: TZ
+  languages:
+  - sw
+  - en
+  nationality: Tanzanian

@@ -1,7 +1,8 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Data = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
+  Data = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')).
+            merge( YAML.load_file( (File.join(File.dirname(__FILE__), '..', 'data', 'hst_extra_countries.yaml') ) ) ) || {}
   Names = Data.map {|k,v| [v['name'],k]}.sort_by { |d| d[0] }
   NameIndex = Hash[*Names.flatten]
 
