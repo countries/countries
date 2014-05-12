@@ -65,8 +65,7 @@ class ISO3166::Country
 
   class << self
     def all(&blk)
-      blk ||= Proc.new { |country ,data| [data['name'], country] }
-      Data.map &blk
+      (block_given?) ? Data.map( &blk ) : Names
     end
 
     alias :countries :all

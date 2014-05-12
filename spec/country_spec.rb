@@ -109,19 +109,31 @@ describe ISO3166::Country do
   end
 
   describe 'all' do
-    it 'should return an arry list of all countries' do
-      countries = ISO3166::Country.all
-      countries.should be_an(Array)
-      countries.first.should be_an(Array)
-      countries.should have(247).countries
+    context 'without a block' do
+      let(:countries) { ISO3166::Country.all }
+
+      it 'should return an arry list of all countries' do
+        countries.should be_an(Array)
+        countries.first.should be_an(Array)
+        countries.first.should have(2).fields
+        countries.should have(247).countries
+      end
+
+      it 'alphabetizes the countries by the name' do
+        countries[0][0].should  == "Afghanistan"
+        countries[1][0].should  == "Albania"
+      end
     end
 
-    it "should allow to customize each country representation passing a block to the method" do
-      countries = ISO3166::Country.all { |country, data| [data['name'], country, data['country_code'] ] }
-      countries.should be_an(Array)
-      countries.first.should be_an(Array)
-      countries.first.should have(3).fields
-      countries.should have(247).countries
+    context 'with a block passed in' do
+      let(:countries) { ISO3166::Country.all { |country, data| [data['name'], country, data['country_code'] ] } }
+
+      it 'returns the mapping of that block over the countries data' do
+        countries.should be_an(Array)
+        countries.first.should be_an(Array)
+        countries.first.should have(3).fields
+        countries.should have(247).countries
+      end
     end
   end
 
