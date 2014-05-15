@@ -48,6 +48,7 @@ class ISO3166::Country
   end
 
   def ==(other)
+    return false unless other.respond_to?(:data)
     self.data == other.data
   end
 
