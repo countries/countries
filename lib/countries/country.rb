@@ -28,7 +28,8 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :eu_member,
+    :vat_rates
   ]
 
   AttrReaders.each do |meth|
