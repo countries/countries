@@ -28,7 +28,8 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :eu_member,
+    :postal_code
   ]
 
   AttrReaders.each do |meth|
@@ -46,6 +47,10 @@ class ISO3166::Country
   def valid?
     not (@data.nil? or @data.empty?)
   end
+  
+  alias_method :zip, :postal_code
+  alias_method :zip?, :postal_code
+  alias_method :postal_code?, :postal_code
 
   def ==(other)
     self.data == other.data

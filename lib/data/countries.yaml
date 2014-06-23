@@ -39,6 +39,7 @@ AD:
   languages:
   - ca
   nationality: Andorran
+  postal_code: true
 AE:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -88,6 +89,7 @@ AE:
   languages:
   - ar
   nationality: Emirian
+  postal_code: false
 AF:
   continent: Asia
   alpha2: AF
@@ -128,6 +130,7 @@ AF:
   - uz
   - tk
   nationality: Afghan
+  postal_code: true
 AG:
   continent: North America
   alpha2: AG
@@ -167,6 +170,7 @@ AG:
   languages:
   - en
   nationality: Antiguan, Barbudan
+  postal_code: false
 AI:
   continent: North America
   alpha2: AI
@@ -202,6 +206,7 @@ AI:
   languages:
   - en
   nationality: Anguillian
+  postal_code: true
 AL:
   continent: Europe
   alpha2: AL
@@ -243,6 +248,7 @@ AL:
   languages:
   - sq
   nationality: Albanian
+  postal_code: true
 AM:
   continent: Asia
   alpha2: AM
@@ -283,6 +289,7 @@ AM:
   - hy
   - ru
   nationality: Armenian
+  postal_code: true
 AN:
   continent: North America
   alpha2: AN
@@ -324,6 +331,7 @@ AN:
   - en
   nationality: Dutch
   dissolved_on: '2010-10-10'
+  postal_code: false
 AO:
   continent: Africa
   alpha2: AO
@@ -360,6 +368,7 @@ AO:
   languages:
   - pt
   nationality: Angolan
+  postal_code: false
 AQ:
   continent: Antarctica
   alpha2: AQ
@@ -395,6 +404,7 @@ AQ:
   un_locode: AQ
   languages: []
   nationality: ''
+  postal_code: true
 AR:
   continent: South America
   address_format: ! '{{recipient}}
@@ -445,6 +455,7 @@ AR:
   - es
   - gn
   nationality: Argentinean
+  postal_code: true
 AS:
   continent: Australia
   alpha2: AS
@@ -485,6 +496,7 @@ AS:
   - en
   - sm
   nationality: American Samoan
+  postal_code: true
 AT:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -540,6 +552,7 @@ AT:
   - de
   nationality: Austrian
   eu_member: true
+  postal_code: true
 AU:
   continent: Australia
   address_format: ! '{{recipient}}
@@ -585,6 +598,7 @@ AU:
   languages:
   - en
   nationality: Australian
+  postal_code: true
 AW:
   continent: North America
   alpha2: AW
@@ -620,6 +634,7 @@ AW:
   languages:
   - nl
   nationality: Aruban
+  postal_code: false
 AX:
   continent: Europe
   alpha2: AX
@@ -655,6 +670,7 @@ AX:
   languages:
   - sv
   nationality: Swedish
+  postal_code: true
 AZ:
   continent: Asia
   alpha2: AZ
@@ -696,6 +712,7 @@ AZ:
   - az
   - hy
   nationality: Azerbaijani
+  postal_code: true
 BA:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -744,6 +761,7 @@ BA:
   - hr
   - sr
   nationality: Bosnian, Herzegovinian
+  postal_code: true
 BB:
   continent: North America
   alpha2: BB
@@ -764,7 +782,7 @@ BB:
     it: Barbados
     de: Barbados
     fr: Barbade
-    es:
+    es: 
     ja: バルバドス
     nl: Barbados
     ru: Барбадос
@@ -780,6 +798,7 @@ BB:
   languages:
   - en
   nationality: Barbadian
+  postal_code: true
 BD:
   continent: Asia
   alpha2: BD
@@ -800,7 +819,7 @@ BD:
     it: Bangladesh
     de: Bangladesch
     fr: Bangladesh
-    es:
+    es: 
     ja: バングラデシュ
     nl: Bangladesh
     ru: Бангладеш
@@ -816,6 +835,7 @@ BD:
   languages:
   - bn
   nationality: Bangladeshi
+  postal_code: true
 BE:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -866,6 +886,7 @@ BE:
   - de
   nationality: Belgian
   eu_member: true
+  postal_code: true
 BF:
   continent: Africa
   alpha2: BF
@@ -902,6 +923,7 @@ BF:
   - fr
   - ff
   nationality: Burkinabe
+  postal_code: false
 BG:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -931,7 +953,7 @@ BG:
     it: Bulgaria
     de: Bulgarien
     fr: Bulgarie
-    es:
+    es: 
     ja: ブルガリア
     nl: Bulgarije
     ru: Болгария
@@ -950,6 +972,7 @@ BG:
   - bg
   nationality: Bulgarian
   eu_member: true
+  postal_code: true
 BH:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -994,6 +1017,7 @@ BH:
   languages:
   - ar
   nationality: Bahraini
+  postal_code: true
 BI:
   continent: Africa
   alpha2: BI
@@ -1030,6 +1054,7 @@ BI:
   - fr
   - rn
   nationality: Burundian
+  postal_code: false
 BJ:
   continent: Africa
   alpha2: BJ
@@ -1066,6 +1091,7 @@ BJ:
   languages:
   - fr
   nationality: Beninese
+  postal_code: false
 BL:
   continent: North America
   alpha2: BL
@@ -1100,6 +1126,7 @@ BL:
   languages:
   - fr
   nationality: Saint Barthélemy Islander
+  postal_code: true
 BM:
   continent: North America
   alpha2: BM
@@ -1137,6 +1164,7 @@ BM:
   languages:
   - en
   nationality: Bermudian
+  postal_code: true
 BN:
   continent: Asia
   alpha2: BN
@@ -1172,6 +1200,7 @@ BN:
   languages:
   - ms
   nationality: Bruneian
+  postal_code: true
 BO:
   continent: South America
   alpha2: BO
@@ -1211,6 +1240,7 @@ BO:
   - ay
   - qu
   nationality: Bolivian
+  postal_code: true
 BQ:
   continent: North America
   alpha2: BQ
@@ -1245,6 +1275,7 @@ BQ:
   - nl
   - en
   nationality: Dutch
+  postal_code: true
 BR:
   continent: South America
   address_format: ! '{{recipient}}
@@ -1292,6 +1323,7 @@ BR:
   languages:
   - pt
   nationality: Brazilian
+  postal_code: true
 BS:
   continent: North America
   alpha2: BS
@@ -1328,6 +1360,7 @@ BS:
   languages:
   - en
   nationality: Bahamian
+  postal_code: false
 BT:
   continent: Asia
   alpha2: BT
@@ -1366,6 +1399,7 @@ BT:
   languages:
   - dz
   nationality: Bhutanese
+  postal_code: true
 BV:
   continent: Antarctica
   alpha2: BV
@@ -1400,6 +1434,7 @@ BV:
   un_locode:
   languages: []
   nationality: ''
+  postal_code: true
 BW:
   continent: Africa
   alpha2: BW
@@ -1436,6 +1471,7 @@ BW:
   - en
   - tn
   nationality: Motswana
+  postal_code: false
 BY:
   continent: Europe
   alpha2: BY
@@ -1476,6 +1512,7 @@ BY:
   - be
   - ru
   nationality: Belarusian
+  postal_code: true
 BZ:
   continent: North America
   alpha2: BZ
@@ -1513,6 +1550,7 @@ BZ:
   - en
   - es
   nationality: Belizean
+  postal_code: false
 CA:
   continent: North America
   address_format: ! '{{recipient}}
@@ -1559,6 +1597,7 @@ CA:
   - en
   - fr
   nationality: Canadian
+  postal_code: true
 CC:
   continent: Asia
   alpha2: CC
@@ -1596,6 +1635,7 @@ CC:
   languages:
   - en
   nationality: Cocos Islander
+  postal_code: true
 CD:
   continent: Africa
   alpha2: CD
@@ -1638,6 +1678,7 @@ CD:
   - sw
   - lu
   nationality: Congolese
+  postal_code: false
 CF:
   continent: Africa
   alpha2: CF
@@ -1678,6 +1719,7 @@ CF:
   - fr
   - sg
   nationality: Central African
+  postal_code: false
 CG:
   continent: Africa
   alpha2: CG
@@ -1716,6 +1758,7 @@ CG:
   - fr
   - ln
   nationality: Congolese
+  postal_code: false
 CH:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -1765,6 +1808,7 @@ CH:
   - fr
   - it
   nationality: Swiss
+  postal_code: true
 CI:
   continent: Africa
   alpha2: CI
@@ -1802,6 +1846,7 @@ CI:
   languages:
   - fr
   nationality: Ivorian
+  postal_code: false
 CK:
   continent: Australia
   alpha2: CK
@@ -1841,6 +1886,7 @@ CK:
   languages:
   - en
   nationality: Cook Islander
+  postal_code: false
 CL:
   continent: South America
   alpha2: CL
@@ -1879,6 +1925,7 @@ CL:
   languages:
   - es
   nationality: Chilean
+  postal_code: true
 CM:
   continent: Africa
   alpha2: CM
@@ -1920,6 +1967,7 @@ CM:
   - en
   - fr
   nationality: Cameroonian
+  postal_code: false
 CN:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -1968,6 +2016,7 @@ CN:
   languages:
   - zh
   nationality: Chinese
+  postal_code: true
 CO:
   continent: South America
   alpha2: CO
@@ -2007,6 +2056,7 @@ CO:
   languages:
   - es
   nationality: Colombian
+  postal_code: true
 CR:
   continent: North America
   alpha2: CR
@@ -2042,6 +2092,7 @@ CR:
   languages:
   - es
   nationality: Costa Rican
+  postal_code: true
 CU:
   continent: North America
   alpha2: CU
@@ -2078,6 +2129,7 @@ CU:
   languages:
   - es
   nationality: Cuban
+  postal_code: true
 CV:
   continent: Africa
   alpha2: CV
@@ -2117,6 +2169,7 @@ CV:
   languages:
   - pt
   nationality: Cape Verdian
+  postal_code: true
 CW:
   continent: North America
   alpha2: CW
@@ -2149,6 +2202,7 @@ CW:
   languages:
   - nl
   nationality: Dutch
+  postal_code: true
 CX:
   continent: Asia
   alpha2: CX
@@ -2186,6 +2240,7 @@ CX:
   - zh
   - ms
   nationality: Christmas Island
+  postal_code: true
 CY:
   continent: Asia
   alpha2: CY
@@ -2227,6 +2282,7 @@ CY:
   - hy
   nationality: Cypriot
   eu_member: true
+  postal_code: true
 CZ:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -2275,6 +2331,7 @@ CZ:
   - sk
   nationality: Czech
   eu_member: true
+  postal_code: true
 DE:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -2331,6 +2388,7 @@ DE:
   - de
   nationality: German
   eu_member: true
+  postal_code: true
 DJ:
   continent: Africa
   alpha2: DJ
@@ -2368,6 +2426,7 @@ DJ:
   - ar
   - fr
   nationality: Djibouti
+  postal_code: false
 DK:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -2418,6 +2477,7 @@ DK:
   - da
   nationality: Danish
   eu_member: true
+  postal_code: true
 DM:
   continent: North America
   alpha2: DM
@@ -2454,6 +2514,7 @@ DM:
   languages:
   - en
   nationality: Dominican
+  postal_code: false
 DO:
   continent: North America
   alpha2: DO
@@ -2493,6 +2554,7 @@ DO:
   languages:
   - es
   nationality: Dominican
+  postal_code: true
 DZ:
   continent: Africa
   alpha2: DZ
@@ -2533,6 +2595,7 @@ DZ:
   languages:
   - ar
   nationality: Algerian
+  postal_code: true
 EC:
   continent: South America
   alpha2: EC
@@ -2571,6 +2634,7 @@ EC:
   languages:
   - es
   nationality: Ecuadorean
+  postal_code: true
 EE:
   continent: Europe
   alpha2: EE
@@ -2610,6 +2674,7 @@ EE:
   - et
   nationality: Estonian
   eu_member: true
+  postal_code: true
 EG:
   continent: Africa
   address_format: ! '{{recipient}}
@@ -2657,6 +2722,7 @@ EG:
   languages:
   - ar
   nationality: Egyptian
+  postal_code: true
 EH:
   continent: Africa
   alpha2: EH
@@ -2694,6 +2760,7 @@ EH:
   - es
   - fr
   nationality: Sahrawi
+  postal_code: true
 ER:
   continent: Africa
   alpha2: ER
@@ -2733,6 +2800,7 @@ ER:
   - ar
   - ti
   nationality: Eritrean
+  postal_code: false
 ES:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -2781,6 +2849,7 @@ ES:
   - es
   nationality: Spanish
   eu_member: true
+  postal_code: true
 ET:
   continent: Africa
   alpha2: ET
@@ -2821,6 +2890,7 @@ ET:
   languages:
   - am
   nationality: Ethiopian
+  postal_code: true
 FI:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -2863,12 +2933,13 @@ FI:
   number: '246'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - fi
   - sv
   nationality: Finnish
   eu_member: true
+  postal_code: true
 FJ:
   continent: Australia
   alpha2: FJ
@@ -2910,6 +2981,7 @@ FJ:
   - hi
   - ur
   nationality: Fijian
+  postal_code: false
 FK:
   continent: South America
   alpha2: FK
@@ -2917,7 +2989,7 @@ FK:
   country_code: '500'
   currency: FKP
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 51 45 S
   longitude: 59 00 W
   name: Falkland Islands (Malvinas)
@@ -2949,6 +3021,7 @@ FK:
   languages:
   - en
   nationality: Falkland Islander
+  postal_code: true
 FM:
   continent: Australia
   alpha2: FM
@@ -2987,6 +3060,7 @@ FM:
   languages:
   - en
   nationality: Micronesian
+  postal_code: true
 FO:
   continent: Europe
   alpha2: FO
@@ -3026,6 +3100,7 @@ FO:
   languages:
   - fo
   nationality: Faroese
+  postal_code: true
 FR:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -3075,6 +3150,7 @@ FR:
   - fr
   nationality: French
   eu_member: true
+  postal_code: true
 GA:
   continent: Africa
   alpha2: GA
@@ -3114,6 +3190,7 @@ GA:
   languages:
   - fr
   nationality: Gabonese
+  postal_code: true
 GB:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -3167,6 +3244,7 @@ GB:
   - en
   nationality: British
   eu_member: true
+  postal_code: true
 GD:
   continent: North America
   alpha2: GD
@@ -3202,6 +3280,7 @@ GD:
   languages:
   - en
   nationality: Grenadian
+  postal_code: false
 GE:
   continent: Asia
   alpha2: GE
@@ -3240,6 +3319,7 @@ GE:
   languages:
   - ka
   nationality: Georgian
+  postal_code: true
 GF:
   continent: South America
   alpha2: GF
@@ -3247,7 +3327,7 @@ GF:
   country_code: '594'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 4 00 N
   longitude: 53 00 W
   name: French Guiana
@@ -3277,6 +3357,7 @@ GF:
   un_locode: GF
   languages:
   - fr
+  postal_code: true
 GG:
   continent: Europe
   alpha2: GG
@@ -3315,6 +3396,7 @@ GG:
   - en
   - fr
   nationality: Channel Islander
+  postal_code: true
 GH:
   continent: Africa
   alpha2: GH
@@ -3353,6 +3435,7 @@ GH:
   languages:
   - en
   nationality: Ghanaian
+  postal_code: false
 GI:
   continent: Europe
   alpha2: GI
@@ -3388,6 +3471,7 @@ GI:
   languages:
   - en
   nationality: Gibraltar
+  postal_code: true
 GL:
   continent: North America
   address_format: ! '{{recipient}}
@@ -3433,6 +3517,7 @@ GL:
   languages:
   - kl
   nationality: Greenlandic
+  postal_code: true
 GM:
   continent: Africa
   alpha2: GM
@@ -3468,6 +3553,7 @@ GM:
   languages:
   - en
   nationality: Gambian
+  postal_code: false
 GN:
   continent: Africa
   alpha2: GN
@@ -3506,6 +3592,7 @@ GN:
   - fr
   - ff
   nationality: Guinean
+  postal_code: false
 GP:
   continent: North America
   alpha2: GP
@@ -3542,6 +3629,7 @@ GP:
   languages:
   - fr
   nationality: Guadeloupian
+  postal_code: true
 GQ:
   continent: Africa
   alpha2: GQ
@@ -3582,6 +3670,7 @@ GQ:
   - es
   - fr
   nationality: Equatorial Guinean
+  postal_code: false
 GR:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -3629,6 +3718,7 @@ GR:
   - el
   nationality: Greek
   eu_member: true
+  postal_code: true
 GS:
   continent: Antarctica
   alpha2: GS
@@ -3664,6 +3754,7 @@ GS:
   languages:
   - en
   nationality: South Georgia and the South Sandwich Islander
+  postal_code: true
 GT:
   continent: North America
   alpha2: GT
@@ -3699,6 +3790,7 @@ GT:
   languages:
   - es
   nationality: Guatemalan
+  postal_code: true
 GU:
   continent: Australia
   alpha2: GU
@@ -3736,6 +3828,7 @@ GU:
   - ch
   - es
   nationality: Guamanian
+  postal_code: true
 GW:
   continent: Africa
   alpha2: GW
@@ -3773,6 +3866,7 @@ GW:
   languages:
   - pt
   nationality: Guinea-Bissauan
+  postal_code: true
 GY:
   continent: South America
   alpha2: GY
@@ -3809,6 +3903,7 @@ GY:
   languages:
   - en
   nationality: Guyanese
+  postal_code: false
 HK:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -3853,6 +3948,7 @@ HK:
   - en
   - zh
   nationality: Chinese
+  postal_code: false
 HM:
   continent: Antarctica
   alpha2: HM
@@ -3888,6 +3984,7 @@ HM:
   languages:
   - en
   nationality: Heard and McDonald Islander
+  postal_code: true
 HN:
   continent: North America
   alpha2: HN
@@ -3924,6 +4021,7 @@ HN:
   languages:
   - es
   nationality: Honduran
+  postal_code: true
 HR:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -3971,6 +4069,7 @@ HR:
   - hr
   nationality: Croatian
   eu_member: true
+  postal_code: true
 HT:
   continent: North America
   alpha2: HT
@@ -4008,6 +4107,7 @@ HT:
   - fr
   - ht
   nationality: Haitian
+  postal_code: true
 HU:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -4058,6 +4158,7 @@ HU:
   - hu
   nationality: Hungarian
   eu_member: true
+  postal_code: true
 ID:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -4108,6 +4209,7 @@ ID:
   languages:
   - id
   nationality: Indonesian
+  postal_code: true
 IE:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -4157,6 +4259,7 @@ IE:
   - ga
   nationality: Irish
   eu_member: true
+  postal_code: false
 IL:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -4204,6 +4307,7 @@ IL:
   - he
   - ar
   nationality: Israeli
+  postal_code: true
 IM:
   continent: Europe
   alpha2: IM
@@ -4241,6 +4345,7 @@ IM:
   - en
   - gv
   nationality: Manx
+  postal_code: true
 IN:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -4289,6 +4394,7 @@ IN:
   - hi
   - en
   nationality: Indian
+  postal_code: true
 IO:
   continent: Asia
   alpha2: IO
@@ -4296,7 +4402,7 @@ IO:
   country_code: '246'
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
   latitude: 6 00 S
   longitude: 71 30 E
   name: British Indian Ocean Territory
@@ -4324,6 +4430,7 @@ IO:
   languages:
   - en
   nationality: Indian
+  postal_code: true
 IQ:
   continent: Asia
   alpha2: IQ
@@ -4363,6 +4470,7 @@ IQ:
   languages:
   - ar
   nationality: Iraqi
+  postal_code: true
 IR:
   continent: Asia
   alpha2: IR
@@ -4398,6 +4506,7 @@ IR:
   languages:
   - fa
   nationality: Iranian
+  postal_code: true
 IS:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -4446,6 +4555,7 @@ IS:
   languages:
   - is
   nationality: Icelander
+  postal_code: true
 IT:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -4494,6 +4604,7 @@ IT:
   - it
   nationality: Italian
   eu_member: true
+  postal_code: true
 JE:
   continent: Europe
   alpha2: JE
@@ -4501,7 +4612,7 @@ JE:
   country_code: '44'
   currency: JEP
   international_prefix: ''
-  ioc:
+  ioc: 
   latitude: 49 15 N
   longitude: 2 10 W
   name: Jersey
@@ -4523,11 +4634,12 @@ JE:
   number: '832'
   region: Europe
   subregion: Northern Europe
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
   nationality: Channel Islander
+  postal_code: true
 JM:
   continent: North America
   alpha2: JM
@@ -4565,6 +4677,7 @@ JM:
   languages:
   - en
   nationality: Jamaican
+  postal_code: false
 JO:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -4613,6 +4726,7 @@ JO:
   languages:
   - ar
   nationality: Jordanian
+  postal_code: true
 JP:
   continent: Asia
   address_format: ! '〒{{postalcode}}
@@ -4659,6 +4773,7 @@ JP:
   languages:
   - ja
   nationality: Japanese
+  postal_code: true
 KE:
   continent: Africa
   alpha2: KE
@@ -4696,6 +4811,7 @@ KE:
   - en
   - sw
   nationality: Kenyan
+  postal_code: false
 KG:
   continent: Asia
   alpha2: KG
@@ -4736,6 +4852,7 @@ KG:
   - ky
   - ru
   nationality: Kirghiz
+  postal_code: true
 KH:
   continent: Asia
   alpha2: KH
@@ -4775,6 +4892,7 @@ KH:
   languages:
   - km
   nationality: Cambodian
+  postal_code: true
 KI:
   continent: Australia
   alpha2: KI
@@ -4810,6 +4928,7 @@ KI:
   languages:
   - en
   nationality: I-Kiribati
+  postal_code: false
 KM:
   continent: Africa
   alpha2: KM
@@ -4849,6 +4968,7 @@ KM:
   - ar
   - fr
   nationality: Comoran
+  postal_code: false
 KN:
   continent: North America
   alpha2: KN
@@ -4888,6 +5008,7 @@ KN:
   languages:
   - en
   nationality: Kittian and Nevisian
+  postal_code: false
 KP:
   continent: Asia
   alpha2: KP
@@ -4929,6 +5050,7 @@ KP:
   languages:
   - ko
   nationality: North Korean
+  postal_code: false
 KR:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -4979,6 +5101,7 @@ KR:
   languages:
   - ko
   nationality: South Korean
+  postal_code: true
 KW:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -5026,6 +5149,7 @@ KW:
   languages:
   - ar
   nationality: Kuwaiti
+  postal_code: true
 KY:
   continent: North America
   alpha2: KY
@@ -5065,6 +5189,7 @@ KY:
   languages:
   - en
   nationality: Caymanian
+  postal_code: true
 KZ:
   continent: Asia
   alpha2: KZ
@@ -5105,6 +5230,7 @@ KZ:
   - kk
   - ru
   nationality: Kazakhstani
+  postal_code: true
 LA:
   continent: Asia
   alpha2: LA
@@ -5141,6 +5267,7 @@ LA:
   languages:
   - lo
   nationality: Laotian
+  postal_code: true
 LB:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -5188,6 +5315,7 @@ LB:
   - ar
   - fr
   nationality: Lebanese
+  postal_code: true
 LC:
   continent: North America
   alpha2: LC
@@ -5225,6 +5353,7 @@ LC:
   languages:
   - en
   nationality: Saint Lucian
+  postal_code: false
 LI:
   continent: Europe
   alpha2: LI
@@ -5260,6 +5389,7 @@ LI:
   languages:
   - de
   nationality: Liechtensteiner
+  postal_code: true
 LK:
   continent: Asia
   alpha2: LK
@@ -5297,6 +5427,7 @@ LK:
   - si
   - ta
   nationality: Sri Lankan
+  postal_code: true
 LR:
   continent: Africa
   alpha2: LR
@@ -5334,6 +5465,7 @@ LR:
   languages:
   - en
   nationality: Liberian
+  postal_code: true
 LS:
   continent: Africa
   alpha2: LS
@@ -5371,6 +5503,7 @@ LS:
   - en
   - st
   nationality: Mosotho
+  postal_code: true
 LT:
   continent: Europe
   alpha2: LT
@@ -5411,6 +5544,7 @@ LT:
   - lt
   nationality: Lithuanian
   eu_member: true
+  postal_code: true
 LU:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -5458,6 +5592,7 @@ LU:
   - lb
   nationality: Luxembourger
   eu_member: true
+  postal_code: true
 LV:
   continent: Europe
   alpha2: LV
@@ -5498,6 +5633,7 @@ LV:
   - lv
   nationality: Latvian
   eu_member: true
+  postal_code: true
 LY:
   continent: Africa
   alpha2: LY
@@ -5539,6 +5675,7 @@ LY:
   languages:
   - ar
   nationality: Libyan
+  postal_code: true
 MA:
   continent: Africa
   alpha2: MA
@@ -5578,6 +5715,7 @@ MA:
   languages:
   - ar
   nationality: Moroccan
+  postal_code: true
 MC:
   continent: Europe
   alpha2: MC
@@ -5615,6 +5753,7 @@ MC:
   languages:
   - fr
   nationality: Monegasque
+  postal_code: true
 MD:
   continent: Europe
   alpha2: MD
@@ -5655,6 +5794,7 @@ MD:
   languages:
   - ro
   nationality: Moldovan
+  postal_code: true
 ME:
   continent: Europe
   alpha2: ME
@@ -5694,6 +5834,7 @@ ME:
   - sq
   - hr
   nationality: Montenegrin
+  postal_code: true
 MF:
   continent: North America
   alpha2: MF
@@ -5701,7 +5842,7 @@ MF:
   country_code: '590'
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
   latitude: 18 05 N
   longitude: 63 57 W
   name: Saint Martin
@@ -5724,18 +5865,19 @@ MF:
   number: '663'
   region: Americas
   subregion: Caribbean
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
   - nl
   nationality: Saint Martin Islander
+  postal_code: true
 MG:
   continent: Africa
   alpha2: MG
   alpha3: MDG
   country_code: '261'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: MAD
   latitude: 20 00 S
@@ -5768,6 +5910,7 @@ MG:
   - fr
   - mg
   nationality: Malagasy
+  postal_code: true
 MH:
   continent: Australia
   alpha2: MH
@@ -5808,6 +5951,7 @@ MH:
   - en
   - mh
   nationality: Marshallese
+  postal_code: true
 MK:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -5854,6 +5998,7 @@ MK:
   languages:
   - mk
   nationality: Macedonian
+  postal_code: true
 ML:
   continent: Africa
   alpha2: ML
@@ -5889,6 +6034,7 @@ ML:
   languages:
   - fr
   nationality: Malian
+  postal_code: false
 MM:
   continent: Asia
   alpha2: MM
@@ -5925,6 +6071,7 @@ MM:
   languages:
   - my
   nationality: Myanmarian
+  postal_code: true
 MN:
   continent: Asia
   alpha2: MN
@@ -5966,14 +6113,15 @@ MN:
   languages:
   - mn
   nationality: Mongolian
+  postal_code: true
 MO:
   continent: Asia
   alpha2: MO
   alpha3: MAC
   country_code: '853'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 22 10 N
   longitude: 113 33 E
   name: Macao
@@ -6002,6 +6150,7 @@ MO:
   - zh
   - pt
   nationality: Chinese
+  postal_code: false
 MP:
   continent: Australia
   alpha2: MP
@@ -6009,7 +6158,7 @@ MP:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
   latitude: 15 12 N
   longitude: 145 45 E
   name: Northern Mariana Islands
@@ -6042,6 +6191,7 @@ MP:
   - en
   - ch
   nationality: American
+  postal_code: true
 MQ:
   continent: North America
   alpha2: MQ
@@ -6049,7 +6199,7 @@ MQ:
   country_code: '596'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: ''
   longitude: ''
   name: Martinique
@@ -6078,6 +6228,7 @@ MQ:
   languages:
   - fr
   nationality: French
+  postal_code: true
 MR:
   continent: Africa
   alpha2: MR
@@ -6117,6 +6268,7 @@ MR:
   - ar
   - fr
   nationality: Mauritanian
+  postal_code: false
 MS:
   continent: North America
   alpha2: MS
@@ -6124,7 +6276,7 @@ MS:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc:
+  ioc: 
   latitude: 16 45 N
   longitude: 62 12 W
   name: Montserrat
@@ -6152,6 +6304,7 @@ MS:
   languages:
   - en
   nationality: Montserratian
+  postal_code: false
 MT:
   continent: Europe
   alpha2: MT
@@ -6190,6 +6343,7 @@ MT:
   - en
   nationality: Maltese
   eu_member: true
+  postal_code: true
 MU:
   continent: Africa
   alpha2: MU
@@ -6227,6 +6381,7 @@ MU:
   languages:
   - en
   nationality: Mauritian
+  postal_code: false
 MV:
   continent: Asia
   alpha2: MV
@@ -6265,6 +6420,7 @@ MV:
   languages:
   - dv
   nationality: Maldivan
+  postal_code: true
 MW:
   continent: Africa
   alpha2: MW
@@ -6301,6 +6457,7 @@ MW:
   - en
   - ny
   nationality: Malawian
+  postal_code: false
 MX:
   continent: North America
   address_format: ! '{{recipient}}
@@ -6348,6 +6505,7 @@ MX:
   languages:
   - es
   nationality: Mexican
+  postal_code: true
 MY:
   continent: Asia
   alpha2: MY
@@ -6387,6 +6545,7 @@ MY:
   languages:
   - en
   nationality: Malaysian
+  postal_code: true
 MZ:
   continent: Africa
   alpha2: MZ
@@ -6424,6 +6583,7 @@ MZ:
   languages:
   - pt
   nationality: Mozambican
+  postal_code: true
 NA:
   continent: Africa
   alpha2: NA
@@ -6464,6 +6624,7 @@ NA:
   - en
   - af
   nationality: Namibian
+  postal_code: true
 NC:
   continent: Australia
   alpha2: NC
@@ -6471,7 +6632,7 @@ NC:
   country_code: '687'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 21 30 S
   longitude: 165 30 E
   name: New Caledonia
@@ -6503,6 +6664,7 @@ NC:
   languages:
   - fr
   nationality: New Caledonian
+  postal_code: true
 NE:
   continent: Africa
   alpha2: NE
@@ -6539,6 +6701,7 @@ NE:
   languages:
   - fr
   nationality: Nigerian
+  postal_code: true
 NF:
   continent: Australia
   alpha2: NF
@@ -6546,7 +6709,7 @@ NF:
   country_code: '672'
   currency: AUD
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 29 02 S
   longitude: 167 57 E
   name: Norfolk Island
@@ -6578,6 +6741,7 @@ NF:
   languages:
   - en
   nationality: Norfolk Islander
+  postal_code: true
 NG:
   continent: Africa
   alpha2: NG
@@ -6616,6 +6780,7 @@ NG:
   languages:
   - en
   nationality: Nigerian
+  postal_code: true
 NI:
   continent: North America
   alpha2: NI
@@ -6651,6 +6816,7 @@ NI:
   languages:
   - es
   nationality: Nicaraguan
+  postal_code: true
 NL:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -6698,6 +6864,7 @@ NL:
   - nl
   nationality: Dutch
   eu_member: true
+  postal_code: true
 'NO':
   continent: Europe
   address_format: ! '{{recipient}}
@@ -6744,6 +6911,7 @@ NL:
   languages:
   - 'no'
   nationality: Norwegian
+  postal_code: true
 NP:
   continent: Asia
   alpha2: NP
@@ -6782,6 +6950,7 @@ NP:
   languages:
   - ne
   nationality: Nepalese
+  postal_code: true
 NR:
   continent: Australia
   alpha2: NR
@@ -6818,14 +6987,15 @@ NR:
   - en
   - na
   nationality: Nauruan
+  postal_code: false
 NU:
   continent: Australia
   alpha2: NU
   alpha3: NIU
   country_code: '683'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 19 02 S
   longitude: 169 52 W
   name: Niue
@@ -6853,6 +7023,7 @@ NU:
   languages:
   - en
   nationality: Niuean
+  postal_code: false
 NZ:
   continent: Australia
   address_format: ! '{{recipient}}
@@ -6902,6 +7073,7 @@ NZ:
   languages:
   - en
   nationality: New Zealander
+  postal_code: true
 OM:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -6947,6 +7119,7 @@ OM:
   languages:
   - ar
   nationality: Omani
+  postal_code: true
 PA:
   continent: North America
   alpha2: PA
@@ -6984,6 +7157,7 @@ PA:
   languages:
   - es
   nationality: Panamanian
+  postal_code: false
 PE:
   continent: South America
   alpha2: PE
@@ -7022,6 +7196,7 @@ PE:
   languages:
   - es
   nationality: Peruvian
+  postal_code: true
 PF:
   continent: Australia
   alpha2: PF
@@ -7029,7 +7204,7 @@ PF:
   country_code: '689'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 15 00 S
   longitude: 140 00 W
   name: French Polynesia
@@ -7061,6 +7236,7 @@ PF:
   languages:
   - fr
   nationality: French Polynesian
+  postal_code: true
 PG:
   continent: Australia
   alpha2: PG
@@ -7100,6 +7276,7 @@ PG:
   languages:
   - en
   nationality: Papua New Guinean
+  postal_code: true
 PH:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -7148,6 +7325,7 @@ PH:
   - tl
   - en
   nationality: Filipino
+  postal_code: true
 PK:
   continent: Asia
   alpha2: PK
@@ -7186,6 +7364,7 @@ PK:
   - en
   - ur
   nationality: Pakistani
+  postal_code: true
 PL:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -7234,6 +7413,7 @@ PL:
   - pl
   nationality: Polish
   eu_member: true
+  postal_code: true
 PM:
   continent: North America
   alpha2: PM
@@ -7241,7 +7421,7 @@ PM:
   country_code: '508'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 46 50 N
   longitude: 56 20 W
   name: Saint Pierre And Miquelon
@@ -7273,6 +7453,7 @@ PM:
   languages:
   - fr
   nationality: French
+  postal_code: true
 PN:
   continent: Australia
   alpha2: PN
@@ -7280,7 +7461,7 @@ PN:
   country_code: ''
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 25 04 S
   longitude: 130 06 W
   name: Pitcairn
@@ -7308,6 +7489,7 @@ PN:
   languages:
   - en
   nationality: Pitcairn Islander
+  postal_code: true
 PR:
   continent: North America
   alpha2: PR
@@ -7345,12 +7527,13 @@ PR:
   - es
   - en
   nationality: Puerto Rican
+  postal_code: true
 PS:
   continent: Asia
   alpha2: PS
   alpha3: PSE
   country_code: '970'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: PLE
   latitude: ''
@@ -7381,12 +7564,13 @@ PS:
   number: '275'
   region: Asia
   subregion: Western Asia
-  un_locode:
+  un_locode: 
   languages:
   - ar
   - he
   - en
   nationality: Palestinian
+  postal_code: true
 PT:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -7431,6 +7615,7 @@ PT:
   - pt
   nationality: Portuguese
   eu_member: true
+  postal_code: true
 PW:
   continent: Australia
   alpha2: PW
@@ -7466,6 +7651,7 @@ PW:
   languages:
   - en
   nationality: Palauan
+  postal_code: true
 PY:
   continent: South America
   alpha2: PY
@@ -7503,6 +7689,7 @@ PY:
   - es
   - gn
   nationality: Paraguayan
+  postal_code: true
 QA:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -7547,6 +7734,7 @@ QA:
   languages:
   - ar
   nationality: Qatari
+  postal_code: false
 RE:
   continent: Africa
   alpha2: RE
@@ -7554,7 +7742,7 @@ RE:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: ''
   longitude: ''
   name: Réunion
@@ -7583,6 +7771,7 @@ RE:
   languages:
   - fr
   nationality: French
+  postal_code: true
 RO:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -7630,6 +7819,7 @@ RO:
   - ro
   nationality: Romanian
   eu_member: true
+  postal_code: true
 RS:
   continent: Europe
   alpha2: RS
@@ -7668,6 +7858,7 @@ RS:
   languages:
   - sr
   nationality: Serbian
+  postal_code: true
 RU:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -7716,6 +7907,7 @@ RU:
   languages:
   - ru
   nationality: Russian
+  postal_code: true
 RW:
   continent: Africa
   alpha2: RW
@@ -7756,6 +7948,7 @@ RW:
   - en
   - fr
   nationality: Rwandan
+  postal_code: false
 SA:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -7804,6 +7997,7 @@ SA:
   languages:
   - ar
   nationality: Saudi Arabian
+  postal_code: false
 SB:
   continent: Australia
   alpha2: SB
@@ -7843,6 +8037,7 @@ SB:
   languages:
   - en
   nationality: Solomon Islander
+  postal_code: false
 SC:
   continent: Africa
   alpha2: SC
@@ -7880,6 +8075,7 @@ SC:
   - fr
   - en
   nationality: Seychellois
+  postal_code: false
 SD:
   continent: Africa
   alpha2: SD
@@ -7920,6 +8116,7 @@ SD:
   - ar
   - en
   nationality: Sudanese
+  postal_code: true
 SE:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -7968,6 +8165,7 @@ SE:
   - sv
   nationality: Swedish
   eu_member: true
+  postal_code: true
 SG:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -8016,6 +8214,7 @@ SG:
   - ms
   - ta
   nationality: Singaporean
+  postal_code: true
 SH:
   continent: Africa
   alpha2: SH
@@ -8023,7 +8222,7 @@ SH:
   country_code: '290'
   currency: SHP
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 15 57 S
   longitude: 5 42 W
   name: Saint Helena
@@ -8055,6 +8254,7 @@ SH:
   languages:
   - en
   nationality: Saint Helenian
+  postal_code: true
 SI:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -8103,6 +8303,7 @@ SI:
   - sl
   nationality: Slovene
   eu_member: true
+  postal_code: true
 SJ:
   continent: Europe
   alpha2: SJ
@@ -8110,7 +8311,7 @@ SJ:
   country_code: '47'
   currency: NOK
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 78 00 N
   longitude: 20 00 E
   name: Svalbard And Jan Mayen
@@ -8142,6 +8343,7 @@ SJ:
   languages:
   - 'no'
   nationality: Norwegian
+  postal_code: true
 SK:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -8190,6 +8392,7 @@ SK:
   - sk
   nationality: Slovak
   eu_member: true
+  postal_code: true
 SL:
   continent: Africa
   alpha2: SL
@@ -8225,6 +8428,7 @@ SL:
   languages:
   - en
   nationality: Sierra Leonean
+  postal_code: false
 SM:
   continent: Europe
   alpha2: SM
@@ -8264,6 +8468,7 @@ SM:
   languages:
   - it
   nationality: Sammarinese
+  postal_code: true
 SN:
   continent: Africa
   alpha2: SN
@@ -8300,6 +8505,7 @@ SN:
   languages:
   - fr
   nationality: Senegalese
+  postal_code: true
 SO:
   continent: Africa
   alpha2: SO
@@ -8339,6 +8545,7 @@ SO:
   - so
   - ar
   nationality: Somali
+  postal_code: false
 SR:
   continent: South America
   alpha2: SR
@@ -8375,6 +8582,7 @@ SR:
   languages:
   - nl
   nationality: Surinamer
+  postal_code: false
 SS:
   continent: Africa
   alpha2: SS
@@ -8412,6 +8620,7 @@ SS:
   - ar
   - en
   nationality: South Sudanese
+  postal_code: true
 ST:
   continent: Africa
   alpha2: ST
@@ -8452,6 +8661,7 @@ ST:
   languages:
   - pt
   nationality: Sao Tomean
+  postal_code: false
 SV:
   continent: North America
   alpha2: SV
@@ -8488,6 +8698,7 @@ SV:
   languages:
   - es
   nationality: Salvadoran
+  postal_code: true
 SX:
   continent: North America
   alpha2: SX
@@ -8520,6 +8731,7 @@ SX:
   - nl
   - en
   nationality: Dutch
+  postal_code: true
 SY:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -8568,6 +8780,7 @@ SY:
   languages:
   - ar
   nationality: Syrian
+  postal_code: false
 SZ:
   continent: Africa
   alpha2: SZ
@@ -8606,6 +8819,7 @@ SZ:
   - en
   - ss
   nationality: Swazi
+  postal_code: true
 TC:
   continent: North America
   alpha2: TC
@@ -8613,7 +8827,7 @@ TC:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
   latitude: 21 45 N
   longitude: 71 35 W
   name: Turks and Caicos Islands
@@ -8645,6 +8859,7 @@ TC:
   languages:
   - en
   nationality: Turks and Caicos Islander
+  postal_code: true
 TD:
   continent: Africa
   alpha2: TD
@@ -8685,6 +8900,7 @@ TD:
   - ar
   - fr
   nationality: Chadian
+  postal_code: true
 TF:
   continent: Antarctica
   alpha2: TF
@@ -8692,7 +8908,7 @@ TF:
   country_code: ''
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
   latitude: ''
   longitude: ''
   name: French Southern Territories
@@ -8718,10 +8934,11 @@ TF:
   number: '260'
   region: ''
   subregion: ''
-  un_locode:
+  un_locode: 
   languages:
   - fr
   nationality: French
+  postal_code: false
 TG:
   continent: Africa
   alpha2: TG
@@ -8758,6 +8975,7 @@ TG:
   languages:
   - fr
   nationality: Togolese
+  postal_code: true
 TH:
   continent: Asia
   alpha2: TH
@@ -8797,6 +9015,7 @@ TH:
   languages:
   - th
   nationality: Thai
+  postal_code: true
 TJ:
   continent: Asia
   alpha2: TJ
@@ -8838,6 +9057,7 @@ TJ:
   - tg
   - ru
   nationality: Tadzhik
+  postal_code: true
 TK:
   continent: Australia
   alpha2: TK
@@ -8845,7 +9065,7 @@ TK:
   country_code: '690'
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
   latitude: 9 00 S
   longitude: 172 00 W
   name: Tokelau
@@ -8875,6 +9095,7 @@ TK:
   languages:
   - en
   nationality: Tokelauan
+  postal_code: false
 TL:
   continent: Asia
   alpha2: TL
@@ -8910,16 +9131,17 @@ TL:
   number: '626'
   region: Asia
   subregion: South-Eastern Asia
-  un_locode:
+  un_locode: 
   languages:
   - pt
   nationality: East Timorese
+  postal_code: false
 TM:
   continent: Asia
   alpha2: TM
   alpha3: TKM
   country_code: '993'
-  currency:
+  currency: 
   international_prefix: '810'
   ioc: TKM
   latitude: 40 00 N
@@ -8953,6 +9175,7 @@ TM:
   - tk
   - ru
   nationality: Turkmen
+  postal_code: true
 TN:
   continent: Africa
   alpha2: TN
@@ -8994,6 +9217,7 @@ TN:
   - ar
   - fr
   nationality: Tunisian
+  postal_code: true
 TO:
   continent: Australia
   alpha2: TO
@@ -9033,6 +9257,7 @@ TO:
   - en
   - to
   nationality: Tongan
+  postal_code: false
 TR:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -9080,6 +9305,7 @@ TR:
   languages:
   - tr
   nationality: Turkish
+  postal_code: true
 TT:
   continent: North America
   alpha2: TT
@@ -9120,6 +9346,7 @@ TT:
   languages:
   - en
   nationality: Trinidadian
+  postal_code: false
 TV:
   continent: Australia
   alpha2: TV
@@ -9155,6 +9382,7 @@ TV:
   languages:
   - en
   nationality: Tuvaluan
+  postal_code: false
 TW:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -9200,6 +9428,7 @@ TW:
   languages:
   - zh
   nationality: Taiwanese
+  postal_code: true
 TZ:
   continent: Africa
   alpha2: TZ
@@ -9239,6 +9468,7 @@ TZ:
   - sw
   - en
   nationality: Tanzanian
+  postal_code: false
 UA:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -9289,6 +9519,7 @@ UA:
   languages:
   - uk
   nationality: Ukrainian
+  postal_code: true
 UG:
   continent: Africa
   alpha2: UG
@@ -9326,6 +9557,7 @@ UG:
   - en
   - sw
   nationality: Ugandan
+  postal_code: false
 UM:
   continent: Australia
   alpha2: UM
@@ -9333,7 +9565,7 @@ UM:
   country_code: ''
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
   latitude: ''
   longitude: ''
   name: United States Minor Outlying Islands
@@ -9363,6 +9595,7 @@ UM:
   languages:
   - en
   nationality: American
+  postal_code: true
 US:
   continent: North America
   address_format: ! '{{recipient}}
@@ -9410,6 +9643,7 @@ US:
   languages:
   - en
   nationality: American
+  postal_code: true
 UY:
   continent: South America
   alpha2: UY
@@ -9447,6 +9681,7 @@ UY:
   languages:
   - es
   nationality: Uruguayan
+  postal_code: true
 UZ:
   continent: Asia
   alpha2: UZ
@@ -9488,6 +9723,7 @@ UZ:
   - uz
   - ru
   nationality: Uzbekistani
+  postal_code: true
 VA:
   continent: Europe
   alpha2: VA
@@ -9529,6 +9765,7 @@ VA:
   - it
   - la
   nationality: Italian
+  postal_code: true
 VC:
   continent: North America
   alpha2: VC
@@ -9568,6 +9805,7 @@ VC:
   languages:
   - en
   nationality: Saint Vincentian
+  postal_code: true
 VE:
   continent: South America
   alpha2: VE
@@ -9603,6 +9841,7 @@ VE:
   languages:
   - es
   nationality: Venezuelan
+  postal_code: true
 VG:
   continent: North America
   alpha2: VG
@@ -9642,6 +9881,7 @@ VG:
   languages:
   - en
   nationality: Virgin Islander
+  postal_code: true
 VI:
   continent: North America
   alpha2: VI
@@ -9681,6 +9921,7 @@ VI:
   languages:
   - en
   nationality: Virgin Islander
+  postal_code: true
 VN:
   continent: Asia
   alpha2: VN
@@ -9719,6 +9960,7 @@ VN:
   languages:
   - vi
   nationality: Vietnamese
+  postal_code: true
 VU:
   continent: Australia
   alpha2: VU
@@ -9758,6 +10000,7 @@ VU:
   - en
   - fr
   nationality: Ni-Vanuatu
+  postal_code: false
 WF:
   continent: Australia
   alpha2: WF
@@ -9797,6 +10040,7 @@ WF:
   languages:
   - fr
   nationality: Wallis and Futuna Islander
+  postal_code: true
 WS:
   continent: Australia
   alpha2: WS
@@ -9834,6 +10078,7 @@ WS:
   - sm
   - en
   nationality: Samoan
+  postal_code: true
 YE:
   continent: Asia
   address_format: ! '{{recipient}}
@@ -9880,6 +10125,7 @@ YE:
   languages:
   - ar
   nationality: Yemeni
+  postal_code: false
 YT:
   continent: Africa
   alpha2: YT
@@ -9915,6 +10161,7 @@ YT:
   languages:
   - fr
   nationality: French
+  postal_code: true
 ZA:
   continent: Africa
   address_format: ! '{{recipient}}
@@ -9975,6 +10222,7 @@ ZA:
   - xh
   - zu
   nationality: South African
+  postal_code: false
 ZM:
   continent: Africa
   alpha2: ZM
@@ -10013,6 +10261,7 @@ ZM:
   languages:
   - en
   nationality: Zambian
+  postal_code: true
 ZW:
   continent: Africa
   alpha2: ZW
@@ -10056,3 +10305,4 @@ ZW:
   - sn
   - nd
   nationality: Zimbabwean
+  postal_code: false

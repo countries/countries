@@ -52,6 +52,15 @@ describe ISO3166::Country do
   it "should return continent" do
     country.continent.should == "North America"
   end
+  
+  it 'knows about whether or not the country uses postal codes' do
+    country.zip.should be_true
+  end
+  
+  it 'knows when a country does not require postal codes' do
+    ireland = ISO3166::Country.search('IE')
+    ireland.postal_code.should == false
+  end
 
   it 'should return region' do
     country.region.should == 'Americas'
