@@ -26,7 +26,8 @@ class ISO3166::Country
     :ioc,
     :un_locode,
     :languages,
-    :nationality
+    :nationality,
+    :subdivision_type
   ]
 
   AttrReaders.each do |meth|
