@@ -1,6 +1,6 @@
 require 'rails/generators/migration'
 
-module ISO3166
+module Countries
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       include Rails::Generators::Migration
