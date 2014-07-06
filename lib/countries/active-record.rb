@@ -3,18 +3,6 @@ class Country < ActiveRecord::Base
 
   after_initialize :setup_country
 
-  def self.find(*args)
-    if ISO3166::Country.find_country_by_alpha2(args.first).present?
-      return self.find_or_create_by(alpha2: args.first)
-    end
-
-    # When the country doesn't exist, check if it did in the past and exists in the DB.
-    # If so, destroy it and raise a normal ActiveRecord exception.
-    country = super(*args)
-    country.destroy! if country.present?
-    super(*args)
-  end
-
   def method_missing(method, *args, &block)
     if @country.present? && @country.respond_to?(method.to_s)
       @country.send method, *args, &block
@@ -34,5 +22,8 @@ class Country < ActiveRecord::Base
     raise "When creating a new record the '#{self.class.primary_key}' must be provided" if alpha2.nil?
 
     @country = ISO3166::Country.new(alpha2)
+
+    raise "The country code you provided doesn't exist ('#{alpha2}'), try updating the country codes: 'rake countries:update'" if @country.nil?
+    raise "Please run 'rake countries:update' to update the country codes" if version != Countries::VERSION
   end
 end
