@@ -21,9 +21,11 @@ class Country < ActiveRecord::Base
   def setup_country
     raise "When creating a new record the '#{self.class.primary_key}' must be provided" if alpha2.nil?
 
-    @country = ISO3166::Country.new(alpha2)
+    if File.split($0).last != 'rake'
+      @country = ISO3166::Country.new(alpha2)
 
-    raise "The country code you provided doesn't exist ('#{alpha2}'), try updating the country codes: 'rake countries:update'" if @country.nil?
-    raise "Please run 'rake countries:update' to update the country codes" if version != Countries::VERSION
+      raise "The country code you provided doesn't exist ('#{alpha2}'), try updating the country codes: 'rake countries:update'" if @country.nil?
+      raise "Please run 'rake countries:update' to update the country codes" if version != Countries::VERSION
+    end
   end
 end
