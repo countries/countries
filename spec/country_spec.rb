@@ -165,8 +165,8 @@ describe ISO3166::Country do
       countries.first.should be_a(String)
       countries.first.should eq('Afganistán')
       # countries missing the desired locale will not be added to the list
-      # so all 250 countries may not be returned, 'fr' returns 247, for example
-      countries.should have(247).countries
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      countries.should have(249).countries
     end
 
     it 'should return an alphabetized list of all country names in English if no locale is passed' do
