@@ -164,6 +164,22 @@ ToDo
 * Exclude countries
 * Preferred countries
 * Whitelist countries
+* Add boundary boxes for the following countries:
+  1. AQ Antarctica
+  1. AS American Samoa
+  1. AX Åland Islands
+  1. BL Saint Barthélemy
+  1. BQ Bonaire, Sint Eustatius and Saba
+  1. CW Curaçao
+  1. GU Guam
+  1. MF Saint Martin (French part)
+  1. MP Northern Mariana Islands
+  1. PR Puerto Rico
+  1. PS Palestine, State of
+  1. SS South Sudan
+  1. SX Saint Martin (Dutch part)
+  1. UM United States Minor Outlying Islands
+  1. VI Virgin Islands, U.S.
 
 Note on Patches/Pull Requests
 -----------------------------
