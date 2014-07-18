@@ -28,7 +28,11 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :eu_member,
+    :min_longitude,
+    :min_latitude,
+    :max_longitude,
+    :max_latitude
   ]
 
   AttrReaders.each do |meth|
