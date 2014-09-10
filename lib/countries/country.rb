@@ -53,7 +53,7 @@ class ISO3166::Country
   alias_method :postal_code?, :postal_code
 
   def ==(other)
-    self.data == other.data
+    other == data
   end
 
   def currency
