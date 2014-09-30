@@ -52,11 +52,11 @@ describe ISO3166::Country do
   it "should return continent" do
     country.continent.should == "North America"
   end
-  
+
   it 'knows about whether or not the country uses postal codes' do
     country.zip.should be_true
   end
-  
+
   it 'knows when a country does not require postal codes' do
     ireland = ISO3166::Country.search('IE')
     ireland.postal_code.should == false
@@ -155,7 +155,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all
       countries.should be_an(Array)
       countries.first.should be_an(Array)
-      countries.should have(250).countries
+      countries.should have(251).countries
     end
 
     it "should allow to customize each country representation passing a block to the method" do
@@ -163,7 +163,7 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_an(Array)
       countries.first.should have(3).fields
-      countries.should have(250).countries
+      countries.should have(251).countries
     end
   end
 
@@ -175,7 +175,7 @@ describe ISO3166::Country do
       countries.first.should eq('Afganistán')
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
-      countries.should have(249).countries
+      countries.should have(250).countries
     end
 
     it 'should return an alphabetized list of all country names in English if no locale is passed' do
@@ -183,7 +183,7 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_a(String)
       countries.first.should eq('Afghanistan')
-      countries.should have(250).countries
+      countries.should have(251).countries
     end
   end
 

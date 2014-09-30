@@ -782,7 +782,7 @@ BB:
     it: Barbados
     de: Barbados
     fr: Barbade
-    es: 
+    es:
     ja: バルバドス
     nl: Barbados
     ru: Барбадос
@@ -819,7 +819,7 @@ BD:
     it: Bangladesh
     de: Bangladesch
     fr: Bangladesh
-    es: 
+    es:
     ja: バングラデシュ
     nl: Bangladesh
     ru: Бангладеш
@@ -953,7 +953,7 @@ BG:
     it: Bulgaria
     de: Bulgarien
     fr: Bulgarie
-    es: 
+    es:
     ja: ブルガリア
     nl: Bulgarije
     ru: Болгария
@@ -2933,7 +2933,7 @@ FI:
   number: '246'
   region: Europe
   subregion: Northern Europe
-  un_locode: 
+  un_locode:
   languages:
   - fi
   - sv
@@ -2989,7 +2989,7 @@ FK:
   country_code: '500'
   currency: FKP
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 51 45 S
   longitude: 59 00 W
   name: Falkland Islands (Malvinas)
@@ -3327,7 +3327,7 @@ GF:
   country_code: '594'
   currency: EUR
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 4 00 N
   longitude: 53 00 W
   name: French Guiana
@@ -4402,7 +4402,7 @@ IO:
   country_code: '246'
   currency: USD
   international_prefix: ''
-  ioc: 
+  ioc:
   latitude: 6 00 S
   longitude: 71 30 E
   name: British Indian Ocean Territory
@@ -4612,7 +4612,7 @@ JE:
   country_code: '44'
   currency: JEP
   international_prefix: ''
-  ioc: 
+  ioc:
   latitude: 49 15 N
   longitude: 2 10 W
   name: Jersey
@@ -4634,7 +4634,7 @@ JE:
   number: '832'
   region: Europe
   subregion: Northern Europe
-  un_locode: 
+  un_locode:
   languages:
   - en
   - fr
@@ -5842,7 +5842,7 @@ MF:
   country_code: '590'
   currency: EUR
   international_prefix: ''
-  ioc: 
+  ioc:
   latitude: 18 05 N
   longitude: 63 57 W
   name: Saint Martin
@@ -5865,7 +5865,7 @@ MF:
   number: '663'
   region: Americas
   subregion: Caribbean
-  un_locode: 
+  un_locode:
   languages:
   - en
   - fr
@@ -5877,7 +5877,7 @@ MG:
   alpha2: MG
   alpha3: MDG
   country_code: '261'
-  currency: 
+  currency:
   international_prefix: '00'
   ioc: MAD
   latitude: 20 00 S
@@ -6119,9 +6119,9 @@ MO:
   alpha2: MO
   alpha3: MAC
   country_code: '853'
-  currency: 
+  currency:
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 22 10 N
   longitude: 113 33 E
   name: Macao
@@ -6158,7 +6158,7 @@ MP:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc: 
+  ioc:
   latitude: 15 12 N
   longitude: 145 45 E
   name: Northern Mariana Islands
@@ -6199,7 +6199,7 @@ MQ:
   country_code: '596'
   currency: EUR
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: ''
   longitude: ''
   name: Martinique
@@ -6276,7 +6276,7 @@ MS:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc: 
+  ioc:
   latitude: 16 45 N
   longitude: 62 12 W
   name: Montserrat
@@ -6632,7 +6632,7 @@ NC:
   country_code: '687'
   currency: XPF
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 21 30 S
   longitude: 165 30 E
   name: New Caledonia
@@ -6709,7 +6709,7 @@ NF:
   country_code: '672'
   currency: AUD
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 29 02 S
   longitude: 167 57 E
   name: Norfolk Island
@@ -6817,6 +6817,40 @@ NI:
   - es
   nationality: Nicaraguan
   postal_code: true
+
+NK:
+  continent: Asia
+  alpha2: NK
+  alpha3: NKR
+  country_code: '374'
+  currency: DRAM
+  international_prefix: '00'
+  ioc:
+  latitude: 39 82 N
+  longitude: 46 75 W
+  name: Nagorno Karabakh
+  names:
+  - Nagorno Karabakh
+  translations:
+    en: Nagorno Karabakh
+    it: Nagorno Karabakh
+    de: Nagorno Karabakh
+    fr: Nagorno Karabakh
+    es: Nagorno Karabakh
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  number: '374'
+  region: ASIA
+  subregion: Western Asia
+  un_locode: NKR
+  languages:
+  - arm
+  nationality: Karabají
+  postal_code: false
+
 NL:
   continent: Europe
   address_format: ! '{{recipient}}
@@ -6993,9 +7027,9 @@ NU:
   alpha2: NU
   alpha3: NIU
   country_code: '683'
-  currency: 
+  currency:
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 19 02 S
   longitude: 169 52 W
   name: Niue
@@ -7204,7 +7238,7 @@ PF:
   country_code: '689'
   currency: XPF
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 15 00 S
   longitude: 140 00 W
   name: French Polynesia
@@ -7421,7 +7455,7 @@ PM:
   country_code: '508'
   currency: EUR
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 46 50 N
   longitude: 56 20 W
   name: Saint Pierre And Miquelon
@@ -7461,7 +7495,7 @@ PN:
   country_code: ''
   currency: NZD
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 25 04 S
   longitude: 130 06 W
   name: Pitcairn
@@ -7533,7 +7567,7 @@ PS:
   alpha2: PS
   alpha3: PSE
   country_code: '970'
-  currency: 
+  currency:
   international_prefix: '00'
   ioc: PLE
   latitude: ''
@@ -7564,7 +7598,7 @@ PS:
   number: '275'
   region: Asia
   subregion: Western Asia
-  un_locode: 
+  un_locode:
   languages:
   - ar
   - he
@@ -7742,7 +7776,7 @@ RE:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: ''
   longitude: ''
   name: Réunion
@@ -8222,7 +8256,7 @@ SH:
   country_code: '290'
   currency: SHP
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 15 57 S
   longitude: 5 42 W
   name: Saint Helena
@@ -8311,7 +8345,7 @@ SJ:
   country_code: '47'
   currency: NOK
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 78 00 N
   longitude: 20 00 E
   name: Svalbard And Jan Mayen
@@ -8827,7 +8861,7 @@ TC:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc: 
+  ioc:
   latitude: 21 45 N
   longitude: 71 35 W
   name: Turks and Caicos Islands
@@ -8908,7 +8942,7 @@ TF:
   country_code: ''
   currency: EUR
   international_prefix: ''
-  ioc: 
+  ioc:
   latitude: ''
   longitude: ''
   name: French Southern Territories
@@ -8934,7 +8968,7 @@ TF:
   number: '260'
   region: ''
   subregion: ''
-  un_locode: 
+  un_locode:
   languages:
   - fr
   nationality: French
@@ -9065,7 +9099,7 @@ TK:
   country_code: '690'
   currency: NZD
   international_prefix: '00'
-  ioc: 
+  ioc:
   latitude: 9 00 S
   longitude: 172 00 W
   name: Tokelau
@@ -9131,7 +9165,7 @@ TL:
   number: '626'
   region: Asia
   subregion: South-Eastern Asia
-  un_locode: 
+  un_locode:
   languages:
   - pt
   nationality: East Timorese
@@ -9141,7 +9175,7 @@ TM:
   alpha2: TM
   alpha3: TKM
   country_code: '993'
-  currency: 
+  currency:
   international_prefix: '810'
   ioc: TKM
   latitude: 40 00 N
@@ -9565,7 +9599,7 @@ UM:
   country_code: ''
   currency: USD
   international_prefix: ''
-  ioc: 
+  ioc:
   latitude: ''
   longitude: ''
   name: United States Minor Outlying Islands
