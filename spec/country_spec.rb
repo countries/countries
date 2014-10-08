@@ -441,4 +441,19 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'ISO3166::Country()' do
+    it 'should return same object if instance of ISO3166::Country given' do
+      ISO3166::Country(country).should eq country
+    end
+
+    it 'should return country if instance of String given' do
+      ISO3166::Country('us').should eq country
+    end
+
+    it 'should return country if not convertable input given' do
+      expect {
+        ISO3166::Country(42)
+      }.to raise_error(TypeError, "can't convert Fixnum into ISO3166::Country")
+    end
+  end
 end

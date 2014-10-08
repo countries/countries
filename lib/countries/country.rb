@@ -147,3 +147,14 @@ class ISO3166::Country
     end
   end
 end
+
+def ISO3166::Country(country_data_or_country)
+  case country_data_or_country
+  when ISO3166::Country
+    country_data_or_country
+  when String, Symbol
+    ISO3166::Country.search(country_data_or_country)
+  else
+    raise TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
+  end
+end
