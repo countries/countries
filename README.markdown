@@ -190,3 +190,8 @@ Copyright (c) 2011 hexorx. See LICENSE for details.
 [Money]: http://gemcutter.org/gems/money
 [Liquid]: http://www.liquidmarkup.org/
 [country_select]: https://github.com/stefanpenner/country_select
+
+Other
+---
+
+This fork is in use at [Homestay.com](http://www.homestay.com).
