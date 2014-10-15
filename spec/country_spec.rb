@@ -221,6 +221,45 @@ describe ISO3166::Country do
     end
   end
 
+  describe "currency codes are missing in the data sources" do
+    context "for data source: countries.yaml" do
+      context "when a currency_code key is missing" do
+        subject { described_class.new("MO").currency }
+        before do
+          described_class.any_instance.stub currency_code: nil
+        end
+        it "provides an ISO4217::Currency object from the base currency" do
+          subject.should be_a(ISO4217::Currency)
+          subject.code.should  == ISO4217::Currency.base_currency
+        end
+      end
+
+      context "when a currency_code key is present, but the value is missing" do
+        subject { described_class.new("MO").currency }
+        before do
+          described_class.any_instance.stub currency_code: ""
+        end
+        it "provides an ISO3166::Country::CurrencyProxy object" do
+          subject.should be_a(ISO3166::Country::CurrencyProxy)
+          subject.code.should == ""
+          subject.name.should == ""
+        end
+      end
+
+      context "when a currency_code key and value are present but there is no matching ISO4217::Currency" do
+        subject { described_class.new("US").currency }
+        before do
+          described_class.any_instance.stub currency_code: "QQQ"
+        end
+        it "provides an ISO3166::Country::CurrencyProxy object" do
+          subject.should be_a(ISO3166::Country::CurrencyProxy)
+          subject.code.should == "QQQ"
+          subject.name.should == "QQQ"
+        end
+      end
+    end
+  end
+
   describe "Country class" do
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
