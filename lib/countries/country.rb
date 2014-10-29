@@ -18,6 +18,7 @@ class ISO3166::Country
     :continent,
     :region,
     :subregion,
+    :world_region,
     :country_code,
     :national_destination_code_lengths,
     :national_number_lengths,
@@ -47,7 +48,7 @@ class ISO3166::Country
   def valid?
     not (@data.nil? or @data.empty?)
   end
-  
+
   alias_method :zip, :postal_code
   alias_method :zip?, :postal_code
   alias_method :postal_code?, :postal_code
