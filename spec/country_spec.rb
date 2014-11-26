@@ -86,6 +86,14 @@ describe ISO3166::Country do
     country.languages[0].should == 'en'
   end
 
+  it 'should return the decimal Latitude' do
+    country.latitudeDec.should == '39.44325637817383'
+  end
+
+  it 'should return the decimal Longitude' do
+    country.longitudeDec.should == '-98.95733642578125'
+  end
+
   describe 'e164' do
     it 'should return country_code' do
       country.country_code.should == '1'
