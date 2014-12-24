@@ -6,6 +6,16 @@ describe ISO3166::Country do
 
   let(:country) { ISO3166::Country.search('US') }
 
+  it 'allows to create a country object from a symbol representation of the alpha2 code' do
+    country = described_class.new(:us)
+    country.data.should_not be_nil
+  end
+
+  it 'allows to create a country object from a lowercase alpha2 code' do
+    country = described_class.new("us")
+    country.data.should_not be_nil
+  end
+
   it 'should return 3166 number' do
     country.number.should == '840'
   end
@@ -23,7 +33,7 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    country.names.should == ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国"]
+    country.names.should == ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国", "Verenigde Staten"]
   end
 
   it 'should return translations' do
@@ -41,6 +51,15 @@ describe ISO3166::Country do
 
   it "should return continent" do
     country.continent.should == "North America"
+  end
+  
+  it 'knows about whether or not the country uses postal codes' do
+    country.zip.should be_true
+  end
+  
+  it 'knows when a country does not require postal codes' do
+    ireland = ISO3166::Country.search('IE')
+    ireland.postal_code.should == false
   end
 
   it 'should return region' do
@@ -136,7 +155,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all
       countries.should be_an(Array)
       countries.first.should be_an(Array)
-      countries.should have(247).countries
+      countries.should have(250).countries
     end
 
     it "should allow to customize each country representation passing a block to the method" do
@@ -144,7 +163,27 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_an(Array)
       countries.first.should have(3).fields
-      countries.should have(247).countries
+      countries.should have(250).countries
+    end
+  end
+
+  describe 'all_translated' do
+    it 'should return an alphabetized list of all country names translated to the selected locale' do
+      countries = ISO3166::Country.all_translated('fr')
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afganistán')
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      countries.should have(249).countries
+    end
+
+    it 'should return an alphabetized list of all country names in English if no locale is passed' do
+      countries = ISO3166::Country.all_translated
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afghanistan')
+      countries.should have(250).countries
     end
   end
 
@@ -202,6 +241,12 @@ describe ISO3166::Country do
         subject { Country.superclass }
 
         it { should == ISO3166::Country }
+      end
+
+      describe 'to_s' do
+        it 'should return the country name' do
+          Country.new('GB').to_s.should == 'United Kingdom'
+        end
       end
     end
   end
@@ -362,6 +407,14 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Guernsey' do
+    let(:guernsey) { ISO3166::Country.search('GG') }
+
+    it 'should have a currency' do
+      guernsey.currency.code.should == 'GBP'
+    end
+  end
+
   describe 'Languages' do
     let(:german_speaking_countries) { ISO3166::Country.find_all_countries_by_languages('de') }
 
@@ -381,4 +434,11 @@ describe ISO3166::Country do
       netherlands.in_eu?.should be_true
     end
   end
+
+  describe 'to_s' do
+    it 'should return the country name' do
+      ISO3166::Country.new('GB').to_s.should == 'United Kingdom'
+    end
+  end
+
 end

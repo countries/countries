@@ -28,7 +28,8 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :eu_member,
+    :postal_code
   ]
 
   AttrReaders.each do |meth|
@@ -40,12 +41,16 @@ class ISO3166::Country
   attr_reader :data
 
   def initialize(country_data)
-    @data = country_data.is_a?(Hash) ? country_data : Data[country_data]
+    @data = country_data.is_a?(Hash) ? country_data : Data[country_data.to_s.upcase]
   end
 
   def valid?
     not (@data.nil? or @data.empty?)
   end
+  
+  alias_method :zip, :postal_code
+  alias_method :zip?, :postal_code
+  alias_method :postal_code?, :postal_code
 
   def ==(other)
     self.data == other.data
@@ -53,6 +58,10 @@ class ISO3166::Country
 
   def currency
     ISO4217::Currency.from_code(@data['currency'])
+  end
+
+  def currency_code
+    @data['currency']
   end
 
   def subdivisions
@@ -69,6 +78,10 @@ class ISO3166::Country
     @data['eu_member'].nil? ? false : @data['eu_member']
   end
 
+  def to_s
+    @data['name']
+  end
+
   class << self
     def new(country_data)
       if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
@@ -82,6 +95,11 @@ class ISO3166::Country
     end
 
     alias :countries :all
+
+    def all_translated(locale='en')
+      translate = ->(country) { self.new(country[1]).translations[locale] }
+      list = self.all.map(&translate).compact.sort
+    end
 
     def search(query)
       country = self.new(query.to_s.upcase)
@@ -113,7 +131,7 @@ class ISO3166::Country
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      
+
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
