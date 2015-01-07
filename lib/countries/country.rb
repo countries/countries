@@ -128,6 +128,10 @@ class ISO3166::Country
       end
     end
 
+    def customize_list(country_changes)
+      Data.merge!(country_changes)
+    end
+
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
