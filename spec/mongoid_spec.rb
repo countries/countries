@@ -9,7 +9,7 @@ describe 'Mongoid support' do
   context 'instance methods' do
     describe 'mongoize' do
       it 'should delegate mongoization to the class method' do
-        britain.mongoize.should eql ISO3166::Country.mongoize(britain)
+        expect(britain.mongoize).to eql ISO3166::Country.mongoize(britain)
       end
     end
   end
@@ -17,11 +17,11 @@ describe 'Mongoid support' do
   context 'class methods' do
     describe 'mongoize' do
       it 'should store the alpha2 given a country object' do
-        ISO3166::Country.mongoize(britain).should eql britain.alpha2
+        expect(ISO3166::Country.mongoize(britain)).to eql britain.alpha2
       end
 
       it 'should store the alpha2 given a valid alpha2' do
-        ISO3166::Country.mongoize('GB').should eql britain.alpha2
+        expect(ISO3166::Country.mongoize('GB')).to eql britain.alpha2
       end
 
       it 'should raise BadMongoidTypeError given an invalid object' do
@@ -47,19 +47,19 @@ describe 'Mongoid support' do
 
     describe 'demongoize' do
       it 'should instantiate an equivalent object from stored alpha2 code' do
-        ISO3166::Country.demongoize(britain.mongoize).data
-          .should eql britain.data
+        expect(ISO3166::Country.demongoize(britain.mongoize).data)
+          .to eql britain.data
       end
 
       it 'should be indifferent to storage by alpha2' do
-        ISO3166::Country.demongoize(ISO3166::Country.mongoize('GB'))
-        .data.should eql britain.data
+        expect(ISO3166::Country.demongoize(ISO3166::Country.mongoize('GB'))
+        .data).to eql britain.data
       end
     end
 
     describe 'evolve' do
       it 'should delegate to self.mongoize and return the mongoized object' do
-        ISO3166::Country.should_receive(:mongoize).with(britain)
+        expect(ISO3166::Country).to receive(:mongoize).with(britain)
         ISO3166::Country.evolve(britain)
       end
     end
