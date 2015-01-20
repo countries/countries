@@ -54,7 +54,7 @@ describe ISO3166::Country do
   end
   
   it 'knows about whether or not the country uses postal codes' do
-    expect(country.zip).to be_true
+    expect(country.zip).to be_truthy
   end
   
   it 'knows when a country does not require postal codes' do
@@ -225,7 +225,7 @@ describe ISO3166::Country do
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
 
-      it { should be_false }
+      it { is_expected.to be_falsey }
     end
 
     context "when loaded via 'countries'" do
@@ -234,13 +234,13 @@ describe ISO3166::Country do
       describe "existance" do
         subject { defined?(Country) }
 
-        it { should be_true }
+        it { is_expected.to be_truthy }
       end
 
       describe "superclass" do
         subject { Country.superclass }
 
-        it { should == ISO3166::Country }
+        it { is_expected.to eq ISO3166::Country }
       end
 
       describe 'to_s' do
@@ -301,7 +301,7 @@ describe ISO3166::Country do
 
       describe '#first' do
         subject { super().first }
-        it { should == "PL" }
+        it { is_expected.to eq "PL" }
       end
     end
 
@@ -310,7 +310,7 @@ describe ISO3166::Country do
 
       describe '#first' do
         subject { super().first }
-        it { should == "PL" }
+        it { is_expected.to eq "PL" }
       end
     end
 
@@ -319,7 +319,7 @@ describe ISO3166::Country do
 
       describe '#first' do
         subject { super().first }
-        it { should == "PL" }
+        it { is_expected.to eq "PL" }
       end
     end
 
@@ -343,17 +343,17 @@ describe ISO3166::Country do
 
       describe '#length' do
         subject { super().length }
-        it { should == 2 }
+        it { is_expected.to eq 2 }
       end
 
       describe '#first' do
         subject { super().first }
-        it { should be_a(String) }
+        it { is_expected.to be_a(String) }
       end
 
       describe '#last' do
         subject { super().last }
-        it { should be_a(Hash) }
+        it { is_expected.to be_a(Hash) }
       end
     end
   end
@@ -447,11 +447,11 @@ describe ISO3166::Country do
     let(:netherlands) { ISO3166::Country.search('NL') }
 
     it 'should return false for countries without eu_member flag' do
-      expect(country.in_eu?).to be_false
+      expect(country.in_eu?).to be_falsey
     end
 
     it 'should return true for countries with eu_member flag set to true' do
-      expect(netherlands.in_eu?).to be_true
+      expect(netherlands.in_eu?).to be_truthy
     end
   end
 
