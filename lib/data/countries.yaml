@@ -6627,6 +6627,13 @@ NA:
   postal_code: true
 NC:
   continent: Australia
+  address_format: ! '{{recipient}}
+
+    {{street}}
+
+    {{postalcode}} {{city}}
+
+    {{country}}'
   alpha2: NC
   alpha3: NCL
   country_code: '687'
