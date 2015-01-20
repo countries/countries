@@ -5309,6 +5309,11 @@ LI:
   - de
   nationality: Liechtensteiner
   postal_code: true
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
 LK:
   continent: Asia
   alpha2: LK
@@ -8899,6 +8904,11 @@ TH:
   - th
   nationality: Thai
   postal_code: true
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
 TJ:
   continent: Asia
   alpha2: TJ
