@@ -28,7 +28,8 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :eu_member,
+    :postal_code
   ]
 
   AttrReaders.each do |meth|
@@ -46,9 +47,13 @@ class ISO3166::Country
   def valid?
     not (@data.nil? or @data.empty?)
   end
+  
+  alias_method :zip, :postal_code
+  alias_method :zip?, :postal_code
+  alias_method :postal_code?, :postal_code
 
   def ==(other)
-    self.data == other.data
+    other == data
   end
 
   def currency
@@ -90,6 +95,11 @@ class ISO3166::Country
     end
 
     alias :countries :all
+
+    def all_translated(locale='en')
+      translate = ->(country) { self.new(country[1]).translations[locale] }
+      list = self.all.map(&translate).compact.sort
+    end
 
     def search(query)
       country = self.new(query.to_s.upcase)
