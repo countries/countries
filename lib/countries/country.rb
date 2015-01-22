@@ -53,6 +53,7 @@ class ISO3166::Country
   alias_method :postal_code?, :postal_code
 
   def ==(other)
+    return false unless other.respond_to?(:data)
     self.data == other.data
   end
 
