@@ -172,7 +172,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all_translated('fr')
       countries.should be_an(Array)
       countries.first.should be_a(String)
-      countries.first.should eq('Afganistán')
+      countries.first.should eq('Afghanistan')
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       countries.should have(249).countries
