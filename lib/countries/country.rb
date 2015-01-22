@@ -29,7 +29,9 @@ class ISO3166::Country
     :languages,
     :nationality,
     :eu_member,
-    :postal_code
+    :postal_code,
+    :latitudeDec,
+    :longitudeDec
   ]
 
   AttrReaders.each do |meth|
