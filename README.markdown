@@ -78,6 +78,8 @@ Country Info
 
     c.latitude #=> "38 00 N"
     c.longitude #=> "97 00 W"
+    c.latitude_dec #=> 39.44325637817383
+    c.longitude_dec #=> -98.95733642578125
 
     c.region #=> "Americas"
     c.subregion #=> "Northern America"
@@ -89,6 +91,13 @@ Country Info
     c.national_number_lengths #=> 10
     c.international_prefix #=> "011"
     c.national_prefix #=> "1"
+
+  Boundry Boxes
+
+    c.min_longitude #=> '45'
+    c.min_latitude #=> '22.166667'
+    c.max_longitude #=> '58'
+    c.max_latitude #=> '26.133333'
 
   European Union Membership
 
@@ -181,6 +190,7 @@ ToDo
   1. SX Saint Martin (Dutch part)
   1. UM United States Minor Outlying Islands
   1. VI Virgin Islands, U.S.
+
 Note on Patches/Pull Requests
 -----------------------------
 
@@ -189,7 +199,7 @@ Note on Patches/Pull Requests
 * Add tests for it. This is important so I don't break it in a
   future version unintentionally.
 * If you have made changes to YAML run ``` rake clean_yaml ``` prior to committing
-to ensure your YAML is formatted properly. 
+to ensure your YAML is formatted properly.
 * Commit, do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but
    bump version in a commit by itself I can ignore when I pull)
