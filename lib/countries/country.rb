@@ -30,8 +30,8 @@ class ISO3166::Country
     :nationality,
     :eu_member,
     :postal_code,
-    :latitudeDec,
-    :longitudeDec
+    :latitude_dec,
+    :longitude_dec
   ]
 
   AttrReaders.each do |meth|
