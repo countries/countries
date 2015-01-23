@@ -7,24 +7,25 @@ AD:
   currency: EUR
   international_prefix: '00'
   ioc: AND
+  gec: AN
   latitude: 42 30 N
   longitude: 1 30 E
   name: Andorra
   names:
   - Andorre
   - Andorra
-  - アンドラ
+  - "アンドラ"
   translations:
     en: Andorra
     it: Andorra
     de: Andorra
     fr: Andorre
-    es:
-    ja: アンドラ
+    es: 
+    ja: "アンドラ"
     nl: Andorra
-    ru: Андорра
-    ar: أندورا
-    be: Андора
+    ru: "Андорра"
+    ar: "أندورا"
+    be: "Андора"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -44,41 +45,40 @@ AD:
   postal_code: true
 AE:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: AE
   alpha3: ARE
   country_code: '971'
   currency: AED
   international_prefix: '00'
   ioc: UAE
+  gec: AE
   latitude: 24 00 N
   longitude: 54 00 E
   name: United Arab Emirates
   names:
   - United Arab Emirates
-  - الإمارات العربية المتحدة
+  - "الإمارات العربية المتحدة"
   - Vereinigte Arabische Emirate
-  - Émirats Arabes Unis
+  - "Émirats Arabes Unis"
   - Emiratos Árabes Unidos
-  - アラブ首長国連邦
+  - "アラブ首長国連邦"
   - Verenigde Arabische Emiraten
   translations:
     en: United Arab Emirates
     it: Emirati Arabi Uniti
     de: Vereinigte Arabische Emirate
-    fr: Émirats Arabes Unis
+    fr: "Émirats Arabes Unis"
     es: Emiratos Árabes Unidos
-    ja: アラブ首長国連邦
+    ja: "アラブ首長国連邦"
     nl: Verenigde Arabische Emiraten
-    ru: Объединенные Арабские Эмираты
-    ar: الإمارات العربية المتحدة
-    be: Аб'яднаныя Арабскія Эміраты
+    ru: "Объединенные Арабские Эмираты"
+    ar: "الإمارات العربية المتحدة"
+    be: "Аб'яднаныя Арабскія Эміраты"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -103,24 +103,25 @@ AF:
   currency: AFN
   international_prefix: '00'
   ioc: AFG
+  gec: AF
   latitude: 33 00 N
   longitude: 65 00 E
   name: Afghanistan
   names:
   - Afghanistan
   - Afganistán
-  - アフガニスタン
+  - "アフガニスタン"
   translations:
     en: Afghanistan
     it: Afghanistan
     de: Afghanistan
     fr: Afghanistan
     es: Afganistán
-    ja: アフガニスタン
+    ja: "アフガニスタン"
     nl: Afghanistan
-    ru: Афганистан
-    ar: أفغانستان
-    be: Афганістан
+    ru: "Афганистан"
+    ar: "أفغانستان"
+    be: "Афганістан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -146,6 +147,7 @@ AG:
   currency: XCD
   international_prefix: '011'
   ioc: ANT
+  gec: AC
   latitude: 17 03 N
   longitude: 61 48 W
   name: Antigua and Barbuda
@@ -154,7 +156,7 @@ AG:
   - Antigua und Barbuda
   - Antigua et Barbuda
   - Antigua y Barbuda
-  - アンティグア・バーブーダ
+  - "アンティグア・バーブーダ"
   - Antigua en Barbuda
   translations:
     en: Antigua and Barbuda
@@ -162,11 +164,11 @@ AG:
     de: Antigua und Barbuda
     fr: Antigua et Barbuda
     es: Antigua y Barbuda
-    ja: アンティグア・バーブーダ
+    ja: "アンティグア・バーブーダ"
     nl: Antigua en Barbuda
-    ru: Антигуа и Барбуда
-    ar: أنتيجوا وباربودا
-    be: Антыгуа і Барбуда
+    ru: "Антигуа и Барбуда"
+    ar: "أنتيجوا وباربودا"
+    be: "Антыгуа і Барбуда"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -188,24 +190,25 @@ AI:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: AV
   latitude: 18 15 N
   longitude: 63 10 W
   name: Anguilla
   names:
   - Anguilla
-  - アンギラ
+  - "アンギラ"
   translations:
     en: Anguilla
     it: Anguilla
     de: Anguilla
     fr: Anguilla
     es: Anguilla
-    ja: アンギラ
+    ja: "アンギラ"
     nl: Anguilla
-    ru: Ангилья
-    ar: أنغيلا
-    be: Ангілья
+    ru: "Ангилья"
+    ar: "أنغيلا"
+    be: "Ангілья"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -228,6 +231,7 @@ AL:
   currency: ALL
   international_prefix: '00'
   ioc: ALB
+  gec: AL
   latitude: 41 00 N
   longitude: 20 00 E
   name: Albania
@@ -235,19 +239,19 @@ AL:
   - Albania
   - Albanien
   - Albanie
-  - アルバニア
+  - "アルバニア"
   - Albanië
   translations:
     en: Albania
     it: Albania
     de: Albanien
     fr: Albanie
-    es:
-    ja: アルバニア
+    es: 
+    ja: "アルバニア"
     nl: Albanië
-    ru: Албания
-    ar: ألبانيا
-    be: Албанія
+    ru: "Албания"
+    ar: "ألبانيا"
+    be: "Албанія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -272,6 +276,7 @@ AM:
   currency: AMD
   international_prefix: '00'
   ioc: ARM
+  gec: AM
   latitude: 40 00 N
   longitude: 45 00 E
   name: Armenia
@@ -279,19 +284,19 @@ AM:
   - Armenia
   - Armenien
   - Arménie
-  - アルメニア
+  - "アルメニア"
   - Armenië
   translations:
     en: Armenia
     it: Armenia
     de: Armenien
     fr: Arménie
-    es:
-    ja: アルメニア
+    es: 
+    ja: "アルメニア"
     nl: Armenië
-    ru: Армения
-    ar: أرمينيا
-    be: Арменія
+    ru: "Армения"
+    ar: "أرمينيا"
+    be: "Арменія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -315,6 +320,7 @@ AN:
   currency: ANG
   international_prefix: '00'
   ioc: AHO
+  gec: 
   latitude: ''
   longitude: ''
   name: Netherlands Antilles
@@ -323,7 +329,7 @@ AN:
   - Niederländische Antillen
   - Antilles néerlandaises
   - Antillas Holandesas
-  - オランダ領アンティル
+  - "オランダ領アンティル"
   - Nederlandse Antillen
   translations:
     en: Netherlands Antilles
@@ -331,11 +337,11 @@ AN:
     de: Niederländische Antillen
     fr: Antilles néerlandaises
     es: Antillas Holandesas
-    ja: オランダ領アンティル
+    ja: "オランダ領アンティル"
     nl: Nederlandse Antillen
-    ru: Нидерландские Антильские Острова
-    ar: جزر الأنتيل الهولندية
-    be: Нідэрландскія Антыльскія Астравы
+    ru: "Нидерландские Антильские Острова"
+    ar: "جزر الأنتيل الهولندية"
+    be: "Нідэрландскія Антыльскія Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -360,23 +366,24 @@ AO:
   currency: AOA
   international_prefix: '00'
   ioc: ANG
+  gec: AO
   latitude: 12 30 S
   longitude: 18 30 E
   name: Angola
   names:
   - Angola
-  - アンゴラ
+  - "アンゴラ"
   translations:
     en: Angola
     it: Angola
     de: Angola
     fr: Angola
     es: Angola
-    ja: アンゴラ
+    ja: "アンゴラ"
     nl: Angola
-    ru: Ангола
-    ar: أنجولا
-    be: Ангола
+    ru: "Ангола"
+    ar: "أنجولا"
+    be: "Ангола"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -396,9 +403,10 @@ AQ:
   alpha2: AQ
   alpha3: ATA
   country_code: '672'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: AY
   latitude: 90 00 S
   longitude: 0 00 E
   name: Antarctica
@@ -407,18 +415,18 @@ AQ:
   - Antarktis
   - Antarctique
   - Antártida
-  - 南極
+  - "南極"
   translations:
     en: Antarctica
     it: Antartide
     de: Antarktis
     fr: Antarctique
     es: Antártida
-    ja: 南極
+    ja: "南極"
     nl: Antarctica
-    ru: Антарктида
-    ar: أنتاركتيكا
-    be: Антарктыда
+    ru: "Антарктида"
+    ar: "أنتاركتيكا"
+    be: "Антарктыда"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -432,21 +440,19 @@ AQ:
   postal_code: true
 AR:
   continent: South America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
     {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: AR
   alpha3: ARG
   country_code: '54'
   currency: ARS
   international_prefix: '00'
   ioc: ARG
+  gec: AR
   latitude: 34 00 S
   longitude: 64 00 W
   name: Argentina
@@ -454,19 +460,19 @@ AR:
   - Argentina
   - Argentinien
   - Argentine
-  - アルゼンチン
+  - "アルゼンチン"
   - Argentinië
   translations:
     en: Argentina
     it: Argentina
     de: Argentinien
     fr: Argentine
-    es:
-    ja: アルゼンチン
+    es: 
+    ja: "アルゼンチン"
     nl: Argentinië
-    ru: Аргентина
-    ar: الأرجنتين
-    be: Аргентына
+    ru: "Аргентина"
+    ar: "الأرجنتين"
+    be: "Аргентына"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -491,6 +497,7 @@ AS:
   currency: USD
   international_prefix: '011'
   ioc: ASA
+  gec: AQ
   latitude: 14 20 S
   longitude: 170 00 W
   name: American Samoa
@@ -499,7 +506,7 @@ AS:
   - Amerikanisch-Samoa
   - Samoa américaines
   - Samoa Americana
-  - アメリカ領サモア
+  - "アメリカ領サモア"
   - Amerikaans Samoa
   translations:
     en: American Samoa
@@ -507,11 +514,11 @@ AS:
     de: Amerikanisch-Samoa
     fr: Samoa américaines
     es: Samoa Americana
-    ja: アメリカ領サモア
+    ja: "アメリカ領サモア"
     nl: Amerikaans Samoa
-    ru: Американское Самоа
-    ar: ساموا الأمريكية
-    be: Амерыканскае Самоа
+    ru: "Американское Самоа"
+    ar: "ساموا الأمريكية"
+    be: "Амерыканскае Самоа"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -529,39 +536,38 @@ AS:
   postal_code: true
 AT:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: AT
   alpha3: AUT
   country_code: '43'
   currency: EUR
   international_prefix: '00'
   ioc: AUT
+  gec: AU
   latitude: 47 20 N
   longitude: 13 20 E
   name: Austria
   names:
   - Austria
-  - Österreich
+  - "Österreich"
   - Autriche
-  - オーストリア
+  - "オーストリア"
   - Oostenrijk
   translations:
     en: Austria
     it: Austria
-    de: Österreich
+    de: "Österreich"
     fr: Autriche
     es: Austria
-    ja: オーストリア
+    ja: "オーストリア"
     nl: Oostenrijk
-    ru: Австрия
-    ar: النمسا
-    be: Аўстрыя
+    ru: "Австрия"
+    ar: "النمسا"
+    be: "Аўстрыя"
   national_destination_code_lengths:
   - 1
   - 2
@@ -588,24 +594,23 @@ AT:
     standard: 20
     reduced:
     - 10
-    super_reduced:
+    super_reduced: 
     parking: 12
   postal_code: true
 AU:
   continent: Australia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: AU
   alpha3: AUS
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
   ioc: AUS
+  gec: AS
   latitude: 27 00 S
   longitude: 133 00 E
   name: Australia
@@ -613,7 +618,7 @@ AU:
   - Australia
   - Australien
   - Australie
-  - オーストラリア
+  - "オーストラリア"
   - Australië
   translations:
     en: Australia
@@ -621,11 +626,11 @@ AU:
     de: Australien
     fr: Australie
     es: Australia
-    ja: オーストラリア
+    ja: "オーストラリア"
     nl: Australië
-    ru: Австралия
-    ar: أستراليا
-    be: Аўстралія
+    ru: "Австралия"
+    ar: "أستراليا"
+    be: "Аўстралія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -648,23 +653,24 @@ AW:
   currency: AWG
   international_prefix: '00'
   ioc: ARU
+  gec: AA
   latitude: 12 30 N
   longitude: 69 58 W
   name: Aruba
   names:
   - Aruba
-  - アルバ
+  - "アルバ"
   translations:
     en: Aruba
     it: Aruba
     de: Aruba
     fr: Aruba
     es: Aruba
-    ja: アルバ
+    ja: "アルバ"
     nl: Aruba
-    ru: Аруба
-    ar: أروبا
-    be: Аруба
+    ru: "Аруба"
+    ar: "أروبا"
+    be: "Аруба"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -684,28 +690,29 @@ AX:
   alpha2: AX
   alpha3: ALA
   country_code: '358'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: 
   latitude: ''
   longitude: ''
-  name: Åland Islands
+  name: "Åland Islands"
   names:
-  - Åland Islands
-  - Åland
-  - オーランド諸島
-  - Ålandeilanden
+  - "Åland Islands"
+  - "Åland"
+  - "オーランド諸島"
+  - "Ålandeilanden"
   translations:
-    en: Åland Islands
+    en: "Åland Islands"
     it: Isole Aland
-    de: Åland
+    de: "Åland"
     fr: Aland
-    es:
-    ja: オーランド諸島
-    nl: Ålandeilanden
-    ru: Аландские острова
-    ar: جزر آلاند
-    be: Аландскія Астравы
+    es: 
+    ja: "オーランド諸島"
+    nl: "Ålandeilanden"
+    ru: "Аландские острова"
+    ar: "جزر آلاند"
+    be: "Аландскія Астравы"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -713,7 +720,7 @@ AX:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - sv
   nationality: Swedish
@@ -726,6 +733,7 @@ AZ:
   currency: AZN
   international_prefix: '810'
   ioc: AZE
+  gec: AJ
   latitude: 40 30 N
   longitude: 47 30 E
   name: Azerbaijan
@@ -734,7 +742,7 @@ AZ:
   - Aserbaidschan
   - Azerbaïdjan
   - Azerbaiyán
-  - アゼルバイジャン
+  - "アゼルバイジャン"
   - Azerbeidzjan
   translations:
     en: Azerbaijan
@@ -742,11 +750,11 @@ AZ:
     de: Aserbaidschan
     fr: Azerbaïdjan
     es: Azerbaiyán
-    ja: アゼルバイジャン
+    ja: "アゼルバイジャン"
     nl: Azerbeidzjan
-    ru: Азербайджан
-    ar: أذربيجان
-    be: Азербайджан
+    ru: "Азербайджан"
+    ar: "أذربيجان"
+    be: "Азербайджан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -765,19 +773,18 @@ AZ:
   postal_code: true
 BA:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: BA
   alpha3: BIH
   country_code: '387'
   currency: BAM
   international_prefix: '00'
   ioc: BIH
+  gec: BK
   latitude: 44 00 N
   longitude: 18 00 E
   name: Bosnia and Herzegovina
@@ -786,7 +793,7 @@ BA:
   - Bosnien und Herzegowina
   - Bosnie et Herzégovine
   - Bosnia y Herzegovina
-  - ボスニア・ヘルツェゴビナ
+  - "ボスニア・ヘルツェゴビナ"
   - Bosnië en Herzegovina
   translations:
     en: Bosnia and Herzegovina
@@ -794,11 +801,11 @@ BA:
     de: Bosnien und Herzegowina
     fr: Bosnie et Herzégovine
     es: Bosnia y Herzegovina
-    ja: ボスニア・ヘルツェゴビナ
+    ja: "ボスニア・ヘルツェゴビナ"
     nl: Bosnië en Herzegovina
-    ru: Босния и Герцеговина
-    ar: البوسنة والهرسك
-    be: Боснія і Герцагавіна
+    ru: "Босния и Герцеговина"
+    ar: "البوسنة والهرسك"
+    be: "Боснія і Герцагавіна"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -823,24 +830,25 @@ BB:
   currency: BBD
   international_prefix: '011'
   ioc: BAR
+  gec: BB
   latitude: 13 10 N
   longitude: 59 32 W
   name: Barbados
   names:
   - Barbade
   - Barbados
-  - バルバドス
+  - "バルバドス"
   translations:
     en: Barbados
     it: Barbados
     de: Barbados
     fr: Barbade
-    es:
-    ja: バルバドス
+    es: 
+    ja: "バルバドス"
     nl: Barbados
-    ru: Барбадос
-    ar: بربادوس
-    be: Барбадос
+    ru: "Барбадос"
+    ar: "بربادوس"
+    be: "Барбадос"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -863,24 +871,25 @@ BD:
   currency: BDT
   international_prefix: '00'
   ioc: BAN
+  gec: BG
   latitude: 24 00 N
   longitude: 90 00 E
   name: Bangladesh
   names:
   - Bangladesh
   - Bangladesch
-  - バングラデシュ
+  - "バングラデシュ"
   translations:
     en: Bangladesh
     it: Bangladesh
     de: Bangladesch
     fr: Bangladesh
-    es:
-    ja: バングラデシュ
+    es: 
+    ja: "バングラデシュ"
     nl: Bangladesh
-    ru: Бангладеш
-    ar: بنجلاديش
-    be: Бангладэш
+    ru: "Бангладеш"
+    ar: "بنجلاديش"
+    be: "Бангладэш"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -897,19 +906,18 @@ BD:
   postal_code: true
 BE:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: BE
   alpha3: BEL
   country_code: '32'
   currency: EUR
   international_prefix: '00'
   ioc: BEL
+  gec: BE
   latitude: 50 50 N
   longitude: 4 00 E
   name: Belgium
@@ -918,7 +926,7 @@ BE:
   - Belgien
   - Belgique
   - Bélgica
-  - ベルギー
+  - "ベルギー"
   - België
   translations:
     en: Belgium
@@ -926,11 +934,11 @@ BE:
     de: Belgien
     fr: Belgique
     es: Bélgica
-    ja: ベルギー
+    ja: "ベルギー"
     nl: België
-    ru: Бельгия
-    ar: بلجيكا
-    be: Бельгія
+    ru: "Бельгия"
+    ar: "بلجيكا"
+    be: "Бельгія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -953,7 +961,7 @@ BE:
     reduced:
     - 6
     - 12
-    super_reduced:
+    super_reduced: 
     parking: 12
   postal_code: true
 BF:
@@ -964,23 +972,24 @@ BF:
   currency: XOF
   international_prefix: '00'
   ioc: BUR
+  gec: UV
   latitude: 13 00 N
   longitude: 2 00 W
   name: Burkina Faso
   names:
   - Burkina Faso
-  - ブルキナファソ
+  - "ブルキナファソ"
   translations:
     en: Burkina Faso
     it: Burkina Faso
     de: Burkina Faso
     fr: Burkina Faso
     es: Burkina Faso
-    ja: ブルキナファソ
+    ja: "ブルキナファソ"
     nl: Burkina Faso
-    ru: Буркина-Фасо
-    ar: بوركينا فاسو
-    be: Буркіна-Фасо
+    ru: "Буркина-Фасо"
+    ar: "بوركينا فاسو"
+    be: "Буркіна-Фасо"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -998,19 +1007,18 @@ BF:
   postal_code: false
 BG:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: BG
   alpha3: BGR
   country_code: '359'
   currency: BGN
   international_prefix: '00'
   ioc: BUL
+  gec: BU
   latitude: 43 00 N
   longitude: 25 00 E
   name: Bulgaria
@@ -1018,19 +1026,19 @@ BG:
   - Bulgaria
   - Bulgarien
   - Bulgarie
-  - ブルガリア
+  - "ブルガリア"
   - Bulgarije
   translations:
     en: Bulgaria
     it: Bulgaria
     de: Bulgarien
     fr: Bulgarie
-    es:
-    ja: ブルガリア
+    es: 
+    ja: "ブルガリア"
     nl: Bulgarije
-    ru: Болгария
-    ar: بلغاريا
-    be: Балгарыя
+    ru: "Болгария"
+    ar: "بلغاريا"
+    be: "Балгарыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1051,44 +1059,43 @@ BG:
     standard: 20
     reduced:
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 BH:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: BH
   alpha3: BHR
   country_code: '973'
   currency: BHD
   international_prefix: '00'
   ioc: BRN
+  gec: BA
   latitude: 26 00 N
   longitude: 50 33 E
   name: Bahrain
   names:
   - Bahrain
-  - البحرين
+  - "البحرين"
   - Bahreïn
   - Bahrein
-  - バーレーン
+  - "バーレーン"
   translations:
     en: Bahrain
     it: Bahrein
     de: Bahrain
     fr: Bahreïn
     es: Bahrein
-    ja: バーレーン
+    ja: "バーレーン"
     nl: Bahrein
-    ru: Бахрейн
-    ar: البحرين
-    be: Бахрэйн
+    ru: "Бахрейн"
+    ar: "البحرين"
+    be: "Бахрэйн"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1111,23 +1118,24 @@ BI:
   currency: BIF
   international_prefix: '00'
   ioc: BDI
+  gec: BY
   latitude: 3 30 S
   longitude: 30 00 E
   name: Burundi
   names:
   - Burundi
-  - ブルンジ
+  - "ブルンジ"
   translations:
     en: Burundi
     it: Burundi
     de: Burundi
     fr: Burundi
     es: Burundi
-    ja: ブルンジ
+    ja: "ブルンジ"
     nl: Burundi
-    ru: Бурунди
-    ar: بوروندي
-    be: Бурундзі
+    ru: "Бурунди"
+    ar: "بوروندي"
+    be: "Бурундзі"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1151,24 +1159,25 @@ BJ:
   currency: XOF
   international_prefix: '00'
   ioc: BEN
+  gec: BN
   latitude: 9 30 N
   longitude: 2 15 E
   name: Benin
   names:
   - Benin
   - Bénin
-  - ベナン
+  - "ベナン"
   translations:
     en: Benin
     it: Benin
     de: Benin
     fr: Bénin
-    es:
-    ja: ベナン
+    es: 
+    ja: "ベナン"
     nl: Benin
-    ru: Бенин
-    ar: بنين
-    be: Бенін
+    ru: "Бенин"
+    ar: "بنين"
+    be: "Бенін"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1190,25 +1199,26 @@ BL:
   country_code: '590'
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: TB
   latitude: 17 90 N
   longitude: 62 85 W
   name: Saint Barthélemy
   names:
   - Saint Barthélemy
   - Saint-Barthélemy
-  - サン・バルテルミー
+  - "サン・バルテルミー"
   translations:
     en: Saint Barthélemy
     it: Antille Francesi
     de: Saint-Barthélemy
     fr: Saint-Barthélemy
-    es:
-    ja: サン・バルテルミー
+    es: 
+    ja: "サン・バルテルミー"
     nl: Saint Barthélemy
-    ru: Сен-Бартельми
-    ar: سان بارتليمي
-    be: Сен-Бартэльмі
+    ru: "Сен-Бартельми"
+    ar: "سان بارتليمي"
+    be: "Сен-Бартэльмі"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -1216,7 +1226,7 @@ BL:
   region: Americas
   subregion: Caribbean
   world_region: APAC
-  un_locode:
+  un_locode: 
   languages:
   - fr
   nationality: Saint Barthélemy Islander
@@ -1229,6 +1239,7 @@ BM:
   currency: BMD
   international_prefix: '011'
   ioc: BER
+  gec: BD
   latitude: 32 20 N
   longitude: 64 45 W
   name: Bermuda
@@ -1236,18 +1247,18 @@ BM:
   - Bermuda
   - Bermudes
   - Bermudas
-  - バミューダ
+  - "バミューダ"
   translations:
     en: Bermuda
     it: Bermuda
     de: Bermuda
     fr: Bermudes
     es: Bermudas
-    ja: バミューダ
+    ja: "バミューダ"
     nl: Bermuda
-    ru: Бермудские острова
-    ar: برمودا
-    be: Бермуды
+    ru: "Бермудские острова"
+    ar: "برمودا"
+    be: "Бермуды"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -1270,23 +1281,24 @@ BN:
   currency: BND
   international_prefix: '00'
   ioc: BRU
+  gec: BX
   latitude: 4 30 N
   longitude: 114 40 E
   name: Brunei Darussalam
   names:
   - Brunei
-  - ブルネイ・ダルサラーム
+  - "ブルネイ・ダルサラーム"
   translations:
     en: Brunei
     it: Brunei
     de: Brunei
     fr: Brunei
     es: Brunei
-    ja: ブルネイ・ダルサラーム
+    ja: "ブルネイ・ダルサラーム"
     nl: Brunei
-    ru: Бруней-Даруссалам
-    ar: سلطنة بروناي
-    be: Бруней
+    ru: "Бруней-Даруссалам"
+    ar: "سلطنة بروناي"
+    be: "Бруней"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1309,6 +1321,7 @@ BO:
   currency: BOB
   international_prefix: '0010'
   ioc: BOL
+  gec: BL
   latitude: 17 00 S
   longitude: 65 00 W
   name: Bolivia
@@ -1316,18 +1329,18 @@ BO:
   - Bolivia
   - Bolivien
   - Bolivie
-  - ボリビア多民族国
+  - "ボリビア多民族国"
   translations:
     en: Bolivia
     it: Bolivia
     de: Bolivien
     fr: Bolivie
-    es:
-    ja: ボリビア多民族国
+    es: 
+    ja: "ボリビア多民族国"
     nl: Bolivia
-    ru: Боливия
-    ar: بوليفيا
-    be: Балівія
+    ru: "Боливия"
+    ar: "بوليفيا"
+    be: "Балівія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1358,15 +1371,15 @@ BQ:
   - Bonaire, Sint Eustatius and Saba
   - Caribbean Netherlands
   - Caribisch Nederland
-  - ボネール、シント・ユースタティウスおよびサバ
+  - "ボネール、シント・ユースタティウスおよびサバ"
   translations:
     en: Bonaire, Sint Eustatius and Saba
     de: Bonaire, Sint Eustatius und Saba
     fr: Pays-Bas caribéens
-    ru: Бонэйр, Синт-Эстатиус и Саба
-    ja: ボネール、シント・ユースタティウスおよびサバ
-    ar: الجزر الكاريبية الهولندية
-    be: Банайрэ, Сінт-Эстаціус і Саба
+    ru: "Бонэйр, Синт-Эстатиус и Саба"
+    ja: "ボネール、シント・ユースタティウスおよびサバ"
+    ar: "الجزر الكاريبية الهولندية"
+    be: "Банайрэ, Сінт-Эстаціус і Саба"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1384,19 +1397,18 @@ BQ:
   postal_code: true
 BR:
   continent: South America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: BR
   alpha3: BRA
   country_code: '55'
   currency: BRL
   international_prefix: '0014'
   ioc: BRA
+  gec: BR
   latitude: 10 00 S
   longitude: 55 00 W
   name: Brazil
@@ -1405,7 +1417,7 @@ BR:
   - Brasilien
   - Brésil
   - Brasil
-  - ブラジル
+  - "ブラジル"
   - Brazilië
   translations:
     en: Brazil
@@ -1413,11 +1425,11 @@ BR:
     de: Brasilien
     fr: Brésil
     es: Brasil
-    ja: ブラジル
+    ja: "ブラジル"
     nl: Brazilië
-    ru: Бразилия
-    ar: البرازيل
-    be: Бразілія
+    ru: "Бразилия"
+    ar: "البرازيل"
+    be: "Бразілія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1441,12 +1453,13 @@ BS:
   currency: BSD
   international_prefix: '011'
   ioc: BAH
+  gec: BF
   latitude: 24 15 N
   longitude: 76 00 W
   name: Bahamas
   names:
   - Bahamas
-  - バハマ
+  - "バハマ"
   - Bahama’s
   translations:
     en: Bahamas
@@ -1454,11 +1467,11 @@ BS:
     de: Bahamas
     fr: Bahamas
     es: Bahamas
-    ja: バハマ
+    ja: "バハマ"
     nl: Bahama’s
-    ru: Багамские острова
-    ar: جزر البهاما
-    be: Багамскія Астравы
+    ru: "Багамские острова"
+    ar: "جزر البهاما"
+    be: "Багамскія Астравы"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -1481,6 +1494,7 @@ BT:
   currency: BTN
   international_prefix: '00'
   ioc: BHU
+  gec: BT
   latitude: 27 30 N
   longitude: 90 30 E
   name: Bhutan
@@ -1488,18 +1502,18 @@ BT:
   - Bhutan
   - Bhoutan
   - Bután
-  - ブータン
+  - "ブータン"
   translations:
     en: Bhutan
     it: Bhutan
     de: Bhutan
     fr: Bhoutan
     es: Bután
-    ja: ブータン
+    ja: "ブータン"
     nl: Bhutan
-    ru: Бутан
-    ar: بوتان
-    be: Бутан
+    ru: "Бутан"
+    ar: "بوتان"
+    be: "Бутан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1522,33 +1536,34 @@ BV:
   country_code: ''
   currency: NOK
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: BV
   latitude: 54 26 S
   longitude: 3 24 E
   name: Bouvet Island
   names:
   - Bouvet Island
   - Bouvetinsel
-  - ブーベ島
+  - "ブーベ島"
   - Bouveteiland
   translations:
     en: Bouvet Island
     it: Isola Bouvet
     de: Bouvetinsel
-    fr: Île Bouvet
+    fr: "Île Bouvet"
     es: Isla Bouvet
-    ja: ブーベ島
+    ja: "ブーベ島"
     nl: Bouveteiland
-    ru: Остров Буве
-    ar: جزيرة بوفيه
-    be: Востраў Бувэ
+    ru: "Остров Буве"
+    ar: "جزيرة بوفيه"
+    be: "Востраў Бувэ"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
   number: '074'
   region: ''
   subregion: ''
-  un_locode:
+  un_locode: 
   languages: []
   nationality: ''
   postal_code: true
@@ -1561,23 +1576,24 @@ BW:
   currency: BWP
   international_prefix: '00'
   ioc: BOT
+  gec: BC
   latitude: 22 00 S
   longitude: 24 00 E
   name: Botswana
   names:
   - Botswana
-  - ボツワナ
+  - "ボツワナ"
   translations:
     en: Botswana
     it: Botswana
     de: Botswana
     fr: Botswana
     es: Botswana
-    ja: ボツワナ
+    ja: "ボツワナ"
     nl: Botswana
-    ru: Ботсвана
-    ar: بوتسوانا
-    be: Ботсвана
+    ru: "Ботсвана"
+    ar: "بوتسوانا"
+    be: "Ботсвана"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1601,6 +1617,7 @@ BY:
   currency: BYR
   international_prefix: '810'
   ioc: BLR
+  gec: BO
   latitude: 53 00 N
   longitude: 28 00 E
   name: Belarus
@@ -1609,20 +1626,20 @@ BY:
   - Weißrussland
   - Biélorussie
   - Bielorrusia
-  - ベラルーシ
+  - "ベラルーシ"
   - Wit-Rusland
-  - Беларусь
+  - "Беларусь"
   translations:
     en: Belarus
     it: Bielorussia
     de: Weißrussland
     fr: Biélorussie
     es: Bielorrusia
-    ja: ベラルーシ
+    ja: "ベラルーシ"
     nl: Wit-Rusland
-    ru: Беларусь
-    ar: روسيا البيضاء
-    be: Беларусь
+    ru: "Беларусь"
+    ar: "روسيا البيضاء"
+    be: "Беларусь"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1646,24 +1663,25 @@ BZ:
   currency: BZD
   international_prefix: '00'
   ioc: BIZ
+  gec: BH
   latitude: 17 15 N
   longitude: 88 45 W
   name: Belize
   names:
   - Belize
   - Belice
-  - ベリーズ
+  - "ベリーズ"
   translations:
     en: Belize
     it: Belize
     de: Belize
     fr: Belice
     es: Belice
-    ja: ベリーズ
+    ja: "ベリーズ"
     nl: Belize
-    ru: Белиз
-    ar: بليز
-    be: Беліз
+    ru: "Белиз"
+    ar: "بليز"
+    be: "Беліз"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1681,19 +1699,18 @@ BZ:
   postal_code: false
 CA:
   continent: North America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: CA
   alpha3: CAN
   country_code: '1'
   currency: CAD
   international_prefix: '011'
   ioc: CAN
+  gec: CA
   latitude: 60 00 N
   longitude: 95 00 W
   name: Canada
@@ -1701,18 +1718,18 @@ CA:
   - Canada
   - Kanada
   - Canadá
-  - カナダ
+  - "カナダ"
   translations:
     en: Canada
     it: Canada
     de: Kanada
     fr: Canada
     es: Canadá
-    ja: カナダ
+    ja: "カナダ"
     nl: Canada
-    ru: Канада
-    ar: كندا
-    be: Канада
+    ru: "Канада"
+    ar: "كندا"
+    be: "Канада"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -1735,26 +1752,27 @@ CC:
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
-  ioc:
+  ioc: 
+  gec: CK
   latitude: 12 30 S
   longitude: 96 50 E
   name: Cocos (Keeling) Islands
   names:
   - Cocos (Keeling) Islands
   - Kokosinseln
-  - ココス（キーリング）諸島
+  - "ココス（キーリング）諸島"
   - Cocoseilanden
   translations:
     en: Cocos (Keeling) Islands
     it: Isole Cocos e Keeling
     de: Kokosinseln
-    fr: Îles Cocos
+    fr: "Îles Cocos"
     es: Islas Cocos o Islas Keeling
-    ja: ココス（キーリング）諸島
+    ja: "ココス（キーリング）諸島"
     nl: Cocoseilanden
-    ru: Кокосовые острова
-    ar: جزر كوكس
-    be: Какосавыя Астравы
+    ru: "Кокосовые острова"
+    ar: "جزر كوكس"
+    be: "Какосавыя Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1774,9 +1792,10 @@ CD:
   alpha2: CD
   alpha3: COD
   country_code: '243'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: COD
+  gec: CG
   latitude: 0 00 N
   longitude: 25 00 E
   name: Congo, The Democratic Republic Of The
@@ -1784,7 +1803,7 @@ CD:
   - Congo (Dem. Rep.)
   - Kongo (Dem. Rep.)
   - Congo (Rep. Dem.)
-  - コンゴ民主共和国
+  - "コンゴ民主共和国"
   - Congo [DRC]
   translations:
     en: Congo (Dem. Rep.)
@@ -1792,11 +1811,11 @@ CD:
     de: Kongo (Dem. Rep.)
     fr: Congo (Rep. Dem.)
     es: Congo (Rep. Dem.)
-    ja: コンゴ民主共和国
+    ja: "コンゴ民主共和国"
     nl: Congo [DRC]
-    ru: Демократическая Республика Конго
-    ar: الكونجو
-    be: Дэмакратычная Рэспубліка Конга
+    ru: "Демократическая Республика Конго"
+    ar: "الكونجو"
+    be: "Дэмакратычная Рэспубліка Конга"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1823,6 +1842,7 @@ CF:
   currency: XAF
   international_prefix: '00'
   ioc: CAF
+  gec: CT
   latitude: 7 00 N
   longitude: 21 00 E
   name: Central African Republic
@@ -1831,7 +1851,7 @@ CF:
   - Zentralafrikanische Republik
   - République Centrafricaine
   - República Centroafricana
-  - 中央アフリカ共和国
+  - "中央アフリカ共和国"
   - Centraal-Afrikaanse Republiek
   translations:
     en: Central African Republic
@@ -1839,11 +1859,11 @@ CF:
     de: Zentralafrikanische Republik
     fr: République Centrafricaine
     es: República Centroafricana
-    ja: 中央アフリカ共和国
+    ja: "中央アフリカ共和国"
     nl: Centraal-Afrikaanse Republiek
-    ru: Центральноафриканская Республика
-    ar: جمهورية أفريقيا الوسطى
-    be: Цэнтральна-Афрыканская Рэспубліка
+    ru: "Центральноафриканская Республика"
+    ar: "جمهورية أفريقيا الوسطى"
+    be: "Цэнтральна-Афрыканская Рэспубліка"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1864,16 +1884,17 @@ CG:
   alpha2: CG
   alpha3: COG
   country_code: '242'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: CGO
+  gec: CF
   latitude: 1 00 S
   longitude: 15 00 E
   name: Congo
   names:
   - Congo
   - Kongo
-  - コンゴ共和国
+  - "コンゴ共和国"
   - Congo [Republiek]
   translations:
     en: Congo
@@ -1881,11 +1902,11 @@ CG:
     de: Kongo
     fr: Congo
     es: Congo
-    ja: コンゴ共和国
+    ja: "コンゴ共和国"
     nl: Congo [Republiek]
-    ru: Конго
-    ar: الكونجو
-    be: Конга
+    ru: "Конго"
+    ar: "الكونجو"
+    be: "Конга"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1903,19 +1924,18 @@ CG:
   postal_code: false
 CH:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: CH
   alpha3: CHE
   country_code: '41'
   currency: CHF
   international_prefix: '00'
   ioc: SUI
+  gec: SZ
   latitude: 47 00 N
   longitude: 8 00 E
   name: Switzerland
@@ -1924,7 +1944,7 @@ CH:
   - Schweiz
   - Suisse
   - Suiza
-  - スイス
+  - "スイス"
   - Zwitserland
   translations:
     en: Switzerland
@@ -1932,11 +1952,11 @@ CH:
     de: Schweiz
     fr: Suisse
     es: Suiza
-    ja: スイス
+    ja: "スイス"
     nl: Zwitserland
-    ru: Швейцария
-    ar: سويسرا
-    be: Швейцарыя
+    ru: "Швейцария"
+    ar: "سويسرا"
+    be: "Швейцарыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -1962,13 +1982,14 @@ CI:
   currency: XOF
   international_prefix: '00'
   ioc: CIV
+  gec: IV
   latitude: 8 00 N
   longitude: 5 00 W
   name: Côte D'Ivoire
   names:
   - Côte D'Ivoire
   - Elfenbeinküste
-  - コートジボワール
+  - "コートジボワール"
   - Ivoorkust
   - Cote D'Ivoire (Ivory Coast)
   translations:
@@ -1977,11 +1998,11 @@ CI:
     de: Elfenbeinküste
     fr: Côte D'Ivoire
     es: Costa de Marfil
-    ja: コートジボワール
+    ja: "コートジボワール"
     nl: Ivoorkust
-    ru: Кот-д'Ивуар
-    ar: كوت ديفوار
-    be: Кот-д'Івуар
+    ru: "Кот-д'Ивуар"
+    ar: "كوت ديفوار"
+    be: "Кот-д'Івуар"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2004,27 +2025,28 @@ CK:
   currency: NZD
   international_prefix: '00'
   ioc: COK
+  gec: CW
   latitude: 21 14 S
   longitude: 159 46 W
   name: Cook Islands
   names:
   - Cook Islands
   - Cookinseln
-  - Îles Cook
+  - "Îles Cook"
   - Islas Cook
-  - クック諸島
+  - "クック諸島"
   - Cookeilanden
   translations:
     en: Cook Islands
     it: Isole Cook
     de: Cookinseln
-    fr: Îles Cook
+    fr: "Îles Cook"
     es: Islas Cook
-    ja: クック諸島
+    ja: "クック諸島"
     nl: Cookeilanden
-    ru: Острова Кука
-    ar: جزر كوك
-    be: Астравы Кука
+    ru: "Острова Кука"
+    ar: "جزر كوك"
+    be: "Астравы Кука"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2047,12 +2069,13 @@ CL:
   currency: CLP
   international_prefix: '00'
   ioc: CHI
+  gec: CI
   latitude: 30 00 S
   longitude: 71 00 W
   name: Chile
   names:
   - Chile
-  - チリ
+  - "チリ"
   - Chili
   translations:
     en: Chile
@@ -2060,11 +2083,11 @@ CL:
     de: Chile
     fr: Chili
     es: Chile
-    ja: チリ
+    ja: "チリ"
     nl: Chili
-    ru: Чили
-    ar: تشيلي
-    be: Чылі
+    ru: "Чили"
+    ar: "تشيلي"
+    be: "Чылі"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2088,6 +2111,7 @@ CM:
   currency: XAF
   international_prefix: '00'
   ioc: CMR
+  gec: CM
   latitude: 6 00 N
   longitude: 12 00 E
   name: Cameroon
@@ -2096,7 +2120,7 @@ CM:
   - Kamerun
   - Cameroun
   - Camerún
-  - カメルーン
+  - "カメルーン"
   - Kameroen
   translations:
     en: Cameroon
@@ -2104,11 +2128,11 @@ CM:
     de: Kamerun
     fr: Cameroun
     es: Camerún
-    ja: カメルーン
+    ja: "カメルーン"
     nl: Kameroen
-    ru: Камерун
-    ar: الكاميرون
-    be: Камерун
+    ru: "Камерун"
+    ar: "الكاميرون"
+    be: "Камерун"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2126,37 +2150,36 @@ CM:
   postal_code: false
 CN:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: CN
   alpha3: CHN
   country_code: '86'
   currency: CNY
   international_prefix: '00'
   ioc: CHN
+  gec: CH
   latitude: 35 00 N
   longitude: 105 00 E
   name: China
   names:
   - China
   - Chine
-  - 中国
+  - "中国"
   translations:
     en: China
     it: Cina
     de: China
     fr: Chine
     es: China
-    ja: 中国
+    ja: "中国"
     nl: China
-    ru: Китай
-    ar: الصين
-    be: Кітай
+    ru: "Китай"
+    ar: "الصين"
+    be: "Кітай"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2183,6 +2206,7 @@ CO:
   currency: COP
   international_prefix: '005'
   ioc: COL
+  gec: CO
   latitude: 4 00 N
   longitude: 72 00 W
   name: Colombia
@@ -2190,18 +2214,18 @@ CO:
   - Colombia
   - Kolumbien
   - Colombie
-  - コロンビア
+  - "コロンビア"
   translations:
     en: Colombia
     it: Colombia
     de: Kolumbien
     fr: Colombie
     es: Colombia
-    ja: コロンビア
+    ja: "コロンビア"
     nl: Colombia
-    ru: Колумбия
-    ar: كولومبيا
-    be: Калумбія
+    ru: "Колумбия"
+    ar: "كولومبيا"
+    be: "Калумбія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2225,23 +2249,24 @@ CR:
   currency: CRC
   international_prefix: '00'
   ioc: CRC
+  gec: CS
   latitude: 10 00 N
   longitude: 84 00 W
   name: Costa Rica
   names:
   - Costa Rica
-  - コスタリカ
+  - "コスタリカ"
   translations:
     en: Costa Rica
     it: Costa Rica
     de: Costa Rica
     fr: Costa Rica
     es: Costa Rica
-    ja: コスタリカ
+    ja: "コスタリカ"
     nl: Costa Rica
-    ru: Коста-Рика
-    ar: كوستاريكا
-    be: Коста-Рыка
+    ru: "Коста-Рика"
+    ar: "كوستاريكا"
+    be: "Коста-Рыка"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2264,24 +2289,25 @@ CU:
   currency: CUP
   international_prefix: '119'
   ioc: CUB
+  gec: CU
   latitude: 21 30 N
   longitude: 80 00 W
   name: Cuba
   names:
   - Cuba
   - Kuba
-  - キューバ
+  - "キューバ"
   translations:
     en: Cuba
     it: Cuba
     de: Kuba
     fr: Cuba
     es: Cuba
-    ja: キューバ
+    ja: "キューバ"
     nl: Cuba
-    ru: Куба
-    ar: كوبا
-    be: Куба
+    ru: "Куба"
+    ar: "كوبا"
+    be: "Куба"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2304,6 +2330,7 @@ CV:
   currency: CVE
   international_prefix: '00'
   ioc: CPV
+  gec: CV
   latitude: 16 00 N
   longitude: 24 00 W
   name: Cape Verde
@@ -2312,7 +2339,7 @@ CV:
   - Kap Verde
   - Cap Vert
   - Cabo Verde
-  - カーボベルデ
+  - "カーボベルデ"
   - Kaapverdië
   translations:
     en: Cape Verde
@@ -2320,11 +2347,11 @@ CV:
     de: Kap Verde
     fr: Cap Vert
     es: Cabo Verde
-    ja: カーボベルデ
+    ja: "カーボベルデ"
     nl: Kaapverdië
-    ru: Кабо-Верде
-    ar: الرأس الأخضر
-    be: Каба-Вердэ
+    ru: "Кабо-Верде"
+    ar: "الرأس الأخضر"
+    be: "Каба-Вердэ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2348,19 +2375,21 @@ CW:
   international_prefix: '00'
   latitude: 12 11 N
   longitude: 69 0 W
+  ioc: 
+  gec: UC
   name: Curaçao
   names:
   - Curaçao
-  - キュラソー島
+  - "キュラソー島"
   translations:
     en: Curaçao
     de: Curaçao
     fr: Curaçao
-    ja: キュラソー島
+    ja: "キュラソー島"
     nl: Curaçao
-    ru: Кюрасао
-    ar: كوراساو
-    be: Востраў Кюрасаа
+    ru: "Кюрасао"
+    ar: "كوراساو"
+    be: "Востраў Кюрасаа"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2382,26 +2411,27 @@ CX:
   country_code: '61'
   currency: AUD
   international_prefix: '0011'
-  ioc:
+  ioc: 
+  gec: KT
   latitude: 10 30 S
   longitude: 105 40 E
   name: Christmas Island
   names:
   - Christmas Island
   - Weihnachtsinsel
-  - クリスマス島
+  - "クリスマス島"
   - Christmaseiland
   translations:
     en: Christmas Island
     it: Isola di Natale
     de: Weihnachtsinsel
-    fr: Île Christmas
+    fr: "Île Christmas"
     es: Isla de Navidad
-    ja: クリスマス島
+    ja: "クリスマス島"
     nl: Christmaseiland
-    ru: Остров Рождества
-    ar: جزيرة كريسماس
-    be: Востраў Раства
+    ru: "Остров Рождества"
+    ar: "جزيرة كريسماس"
+    be: "Востраў Раства"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: '0'
@@ -2424,6 +2454,7 @@ CY:
   currency: EUR
   international_prefix: '00'
   ioc: CYP
+  gec: CY
   latitude: 35 00 N
   longitude: 33 00 E
   name: Cyprus
@@ -2432,18 +2463,18 @@ CY:
   - Zypern
   - Chypre
   - Chipre
-  - キプロス
+  - "キプロス"
   translations:
     en: Cyprus
     it: Cipro
     de: Zypern
     fr: Chypre
     es: Chipre
-    ja: キプロス
+    ja: "キプロス"
     nl: Cyprus
-    ru: Кипр
-    ar: قبرص
-    be: Кіпр
+    ru: "Кипр"
+    ar: "قبرص"
+    be: "Кіпр"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2465,24 +2496,23 @@ CY:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 CZ:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: CZ
   alpha3: CZE
   country_code: '420'
   currency: CZK
   international_prefix: '00'
   ioc: CZE
+  gec: EZ
   latitude: 49 45 N
   longitude: 15 30 E
   name: Czech Republic
@@ -2491,7 +2521,7 @@ CZ:
   - Tschechische Republik
   - République Tchèque
   - República Checa
-  - チェコ
+  - "チェコ"
   - Tsjechië
   translations:
     en: Czech Republic
@@ -2499,11 +2529,11 @@ CZ:
     de: Tschechische Republik
     fr: République Tchèque
     es: República Checa
-    ja: チェコ
+    ja: "チェコ"
     nl: Tsjechië
-    ru: Чешская Республика
-    ar: التشيك
-    be: Чэхія
+    ru: "Чешская Республика"
+    ar: "التشيك"
+    be: "Чэхія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2523,24 +2553,23 @@ CZ:
     standard: 21
     reduced:
     - 15
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 DE:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: DE
   alpha3: DEU
   country_code: '49'
   currency: EUR
   international_prefix: '00'
   ioc: GER
+  gec: GM
   latitude: 51 00 N
   longitude: 9 00 E
   name: Germany
@@ -2549,7 +2578,7 @@ DE:
   - Deutschland
   - Allemagne
   - Alemania
-  - ドイツ
+  - "ドイツ"
   - Duitsland
   translations:
     en: Germany
@@ -2557,11 +2586,11 @@ DE:
     de: Deutschland
     fr: Allemagne
     es: Alemania
-    ja: ドイツ
+    ja: "ドイツ"
     nl: Duitsland
-    ru: Германия
-    ar: ألمانيا
-    be: Германія
+    ru: "Германия"
+    ar: "ألمانيا"
+    be: "Германія"
   national_destination_code_lengths:
   - 2
   - 3
@@ -2588,8 +2617,8 @@ DE:
     standard: 19
     reduced:
     - 7
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 DJ:
   continent: Africa
@@ -2599,25 +2628,26 @@ DJ:
   currency: DJF
   international_prefix: '00'
   ioc: DJI
+  gec: DJ
   latitude: 11 30 N
   longitude: 43 00 E
   name: Djibouti
   names:
   - Djibouti
-  - جيبوتي
+  - "جيبوتي"
   - Dschibuti
-  - ジブチ
+  - "ジブチ"
   translations:
     en: Djibouti
     it: Gibuti
     de: Dschibuti
     fr: Djibouti
     es: Yibuti
-    ja: ジブチ
+    ja: "ジブチ"
     nl: Djibouti
-    ru: Джибути
-    ar: جيبوتي
-    be: Джыбуці
+    ru: "Джибути"
+    ar: "جيبوتي"
+    be: "Джыбуці"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2635,21 +2665,19 @@ DJ:
   postal_code: false
 DK:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
     {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: DK
   alpha3: DNK
   country_code: '45'
   currency: DKK
   international_prefix: '00'
   ioc: DEN
+  gec: DA
   latitude: 56 00 N
   longitude: 10 00 E
   name: Denmark
@@ -2658,7 +2686,7 @@ DK:
   - Dänemark
   - Danemark
   - Dinamarca
-  - デンマーク
+  - "デンマーク"
   - Denemarken
   translations:
     en: Denmark
@@ -2666,11 +2694,11 @@ DK:
     de: Dänemark
     fr: Danemark
     es: Dinamarca
-    ja: デンマーク
+    ja: "デンマーク"
     nl: Denemarken
-    ru: Дания
-    ar: الدنمارك
-    be: Данія
+    ru: "Дания"
+    ar: "الدنمارك"
+    be: "Данія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2688,8 +2716,8 @@ DK:
   vat_rates:
     standard: 25
     reduced: []
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 DM:
   continent: North America
@@ -2699,23 +2727,24 @@ DM:
   currency: XCD
   international_prefix: '011'
   ioc: DMA
+  gec: DO
   latitude: 15 25 N
   longitude: 61 20 W
   name: Dominica
   names:
   - Dominica
-  - ドミニカ国
+  - "ドミニカ国"
   translations:
     en: Dominica
     it: Dominica
     de: Dominica
     fr: Dominique
     es: Dominica
-    ja: ドミニカ国
+    ja: "ドミニカ国"
     nl: Dominica
-    ru: Доминика
-    ar: دومينيكا
-    be: Дамініка
+    ru: "Доминика"
+    ar: "دومينيكا"
+    be: "Дамініка"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -2738,6 +2767,7 @@ DO:
   currency: DOP
   international_prefix: '011'
   ioc: DOM
+  gec: DR
   latitude: 19 00 N
   longitude: 70 40 W
   name: Dominican Republic
@@ -2746,7 +2776,7 @@ DO:
   - Dominikanische Republik
   - République Dominicaine
   - República Dominicana
-  - ドミニカ共和国
+  - "ドミニカ共和国"
   - Dominicaanse Republiek
   translations:
     en: Dominican Republic
@@ -2754,11 +2784,11 @@ DO:
     de: Dominikanische Republik
     fr: République Dominicaine
     es: República Dominicana
-    ja: ドミニカ共和国
+    ja: "ドミニカ共和国"
     nl: Dominicaanse Republiek
-    ru: Доминиканская Республика
-    ar: جمهورية الدومنيكان
-    be: Дамініканская Рэспубліка
+    ru: "Доминиканская Республика"
+    ar: "جمهورية الدومنيكان"
+    be: "Дамініканская Рэспубліка"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -2781,16 +2811,17 @@ DZ:
   currency: DZD
   international_prefix: '00'
   ioc: ALG
+  gec: AG
   latitude: 28 00 N
   longitude: 3 00 E
   name: Algeria
   names:
   - Algeria
-  - الجزائر
+  - "الجزائر"
   - Algerien
   - Algérie
   - Argelia
-  - アルジェリア
+  - "アルジェリア"
   - Algerije
   translations:
     en: Algeria
@@ -2798,11 +2829,11 @@ DZ:
     de: Algerien
     fr: Algérie
     es: Argelia
-    ja: アルジェリア
+    ja: "アルジェリア"
     nl: Algerije
-    ru: Алжир
-    ar: الجزائر
-    be: Алжыр
+    ru: "Алжир"
+    ar: "الجزائر"
+    be: "Алжыр"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2825,24 +2856,25 @@ EC:
   currency: USD
   international_prefix: '00'
   ioc: ECU
+  gec: EC
   latitude: 2 00 S
   longitude: 77 30 W
   name: Ecuador
   names:
   - Ecuador
-  - Équateur
-  - エクアドル
+  - "Équateur"
+  - "エクアドル"
   translations:
     en: Ecuador
     it: Ecuador
     de: Ecuador
-    fr: Équateur
+    fr: "Équateur"
     es: Ecuador
-    ja: エクアドル
+    ja: "エクアドル"
     nl: Ecuador
-    ru: Эквадор
-    ar: الإكوادور
-    be: Эквадор
+    ru: "Эквадор"
+    ar: "الإكوادور"
+    be: "Эквадор"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2866,6 +2898,7 @@ EE:
   currency: EUR
   international_prefix: '00'
   ioc: EST
+  gec: EN
   latitude: 59 00 N
   longitude: 26 00 E
   name: Estonia
@@ -2873,18 +2906,18 @@ EE:
   - Estonia
   - Estland
   - Estonie
-  - エストニア
+  - "エストニア"
   translations:
     en: Estonia
     it: Estonia
     de: Estland
     fr: Estonie
     es: Estonia
-    ja: エストニア
+    ja: "エストニア"
     nl: Estland
-    ru: Эстония
-    ar: إستونيا
-    be: Эстонія
+    ru: "Эстония"
+    ar: "إستونيا"
+    be: "Эстонія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2905,46 +2938,45 @@ EE:
     standard: 20
     reduced:
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 EG:
   continent: Africa
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: EG
   alpha3: EGY
   country_code: '20'
   currency: EGP
   international_prefix: '00'
   ioc: EGY
+  gec: EG
   latitude: 27 00 N
   longitude: 30 00 E
   name: Egypt
   names:
   - Egypt
-  - مصر
-  - Ägypten
-  - Égypte
+  - "مصر"
+  - "Ägypten"
+  - "Égypte"
   - Egipto
-  - エジプト
+  - "エジプト"
   - Egypte
   translations:
     en: Egypt
     it: Egitto
-    de: Ägypten
-    fr: Égypte
+    de: "Ägypten"
+    fr: "Égypte"
     es: Egipto
-    ja: エジプト
+    ja: "エジプト"
     nl: Egypte
-    ru: Египет
-    ar: مصر
-    be: Егіпет
+    ru: "Египет"
+    ar: "مصر"
+    be: "Егіпет"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -2966,16 +2998,17 @@ EH:
   country_code: '212'
   currency: MAD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: WI
   latitude: 24 30 N
   longitude: 13 00 W
   name: Western Sahara
   names:
   - Western Sahara
-  - الصحراء الغربية
+  - "الصحراء الغربية"
   - Westsahara
   - Sahara Occidental
-  - 西サハラ
+  - "西サハラ"
   - Westelijke Sahara
   translations:
     en: Western Sahara
@@ -2983,11 +3016,11 @@ EH:
     de: Westsahara
     fr: Sahara Occidental
     es: Sahara Occidental
-    ja: 西サハラ
+    ja: "西サハラ"
     nl: Westelijke Sahara
-    ru: Западная Сахара
-    ar: الصحراء الغربية
-    be: Заходняя Сахара
+    ru: "Западная Сахара"
+    ar: "الصحراء الغربية"
+    be: "Заходняя Сахара"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -3009,25 +3042,26 @@ ER:
   currency: ETB
   international_prefix: '00'
   ioc: ERI
+  gec: ER
   latitude: 15 00 N
   longitude: 39 00 E
   name: Eritrea
   names:
   - Eritrea
-  - إريتريا
-  - Érythrée
-  - エリトリア
+  - "إريتريا"
+  - "Érythrée"
+  - "エリトリア"
   translations:
     en: Eritrea
     it: Eritrea
     de: Eritrea
-    fr: Érythrée
+    fr: "Érythrée"
     es: Eritrea
-    ja: エリトリア
+    ja: "エリトリア"
     nl: Eritrea
-    ru: Эритрея
-    ar: إريتريا
-    be: Эрытэрыя
+    ru: "Эритрея"
+    ar: "إريتريا"
+    be: "Эрытэрыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3046,19 +3080,18 @@ ER:
   postal_code: false
 ES:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: ES
   alpha3: ESP
   country_code: '34'
   currency: EUR
   international_prefix: '00'
   ioc: ESP
+  gec: SP
   latitude: 40 00 N
   longitude: 4 00 W
   name: Spain
@@ -3067,7 +3100,7 @@ ES:
   - Spanien
   - Espagne
   - España
-  - スペイン
+  - "スペイン"
   - Spanje
   translations:
     en: Spain
@@ -3075,11 +3108,11 @@ ES:
     de: Spanien
     fr: Espagne
     es: España
-    ja: スペイン
+    ja: "スペイン"
     nl: Spanje
-    ru: Испания
-    ar: إسبانيا
-    be: Іспанія
+    ru: "Испания"
+    ar: "إسبانيا"
+    be: "Іспанія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3099,7 +3132,7 @@ ES:
     reduced:
     - 10
     super_reduced: 4
-    parking:
+    parking: 
   postal_code: true
 ET:
   continent: Africa
@@ -3109,27 +3142,28 @@ ET:
   currency: ETB
   international_prefix: '00'
   ioc: ETH
+  gec: ET
   latitude: 8 00 N
   longitude: 38 00 E
   name: Ethiopia
   names:
   - Ethiopia
-  - Äthiopien
-  - Éthiopie
+  - "Äthiopien"
+  - "Éthiopie"
   - Etiopía
-  - エチオピア
+  - "エチオピア"
   - Ethiopië
   translations:
     en: Ethiopia
     it: Etiopia
-    de: Äthiopien
-    fr: Éthiopie
+    de: "Äthiopien"
+    fr: "Éthiopie"
     es: Etiopía
-    ja: エチオピア
+    ja: "エチオピア"
     nl: Ethiopië
-    ru: Эфиопия
-    ar: إثيوبيا
-    be: Эфіопія
+    ru: "Эфиопия"
+    ar: "إثيوبيا"
+    be: "Эфіопія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3146,19 +3180,18 @@ ET:
   postal_code: true
 FI:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: FI
   alpha3: FIN
   country_code: '358'
   currency: EUR
   international_prefix: '00'
   ioc: FIN
+  gec: FI
   latitude: 64 00 N
   longitude: 26 00 E
   name: Finland
@@ -3167,18 +3200,18 @@ FI:
   - Finnland
   - Finlande
   - Finlandia
-  - フィンランド
+  - "フィンランド"
   translations:
     en: Finland
     it: Finlandia
     de: Finnland
     fr: Finlande
     es: Finlandia
-    ja: フィンランド
+    ja: "フィンランド"
     nl: Finland
-    ru: Финляндия
-    ar: فنلندا
-    be: Фінляндыя
+    ru: "Финляндия"
+    ar: "فنلندا"
+    be: "Фінляндыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3188,7 +3221,7 @@ FI:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - fi
   - sv
@@ -3199,8 +3232,8 @@ FI:
     reduced:
     - 10
     - 14
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 FJ:
   continent: Australia
@@ -3210,6 +3243,7 @@ FJ:
   currency: USD
   international_prefix: '00'
   ioc: FIJ
+  gec: FJ
   latitude: 18 00 S
   longitude: 175 00 E
   name: Fiji
@@ -3217,18 +3251,18 @@ FJ:
   - Fiji
   - Fidschi
   - Fidji
-  - フィジー
+  - "フィジー"
   translations:
     en: Fiji
     it: Figi
     de: Fidschi
     fr: Fidji
     es: Fiyi
-    ja: フィジー
+    ja: "フィジー"
     nl: Fiji
-    ru: Фиджи
-    ar: فيجي
-    be: Фіджы
+    ru: "Фиджи"
+    ar: "فيجي"
+    be: "Фіджы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3253,28 +3287,29 @@ FK:
   country_code: '500'
   currency: FKP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FK
   latitude: 51 45 S
   longitude: 59 00 W
   name: Falkland Islands (Malvinas)
   names:
   - Falkland Islands
   - Falklandinseln
-  - Îles Malouines
+  - "Îles Malouines"
   - Islas Malvinas
-  - フォークランド（マルビナス）諸島
+  - "フォークランド（マルビナス）諸島"
   - Falklandeilanden [Islas Malvinas]
   translations:
     en: Falkland Islands
     it: Isole Falkland o Isole Malvine
     de: Falklandinseln
-    fr: Îles Malouines
+    fr: "Îles Malouines"
     es: Islas Malvinas
-    ja: フォークランド（マルビナス）諸島
+    ja: "フォークランド（マルビナス）諸島"
     nl: Falklandeilanden [Islas Malvinas]
-    ru: Фолклендские острова
-    ar: جزر فوكلاند
-    be: Фалклендскія Астравы
+    ru: "Фолклендские острова"
+    ar: "جزر فوكلاند"
+    be: "Фалклендскія Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3297,6 +3332,7 @@ FM:
   currency: USD
   international_prefix: '011'
   ioc: FSM
+  gec: FM
   latitude: 6 55 N
   longitude: 158 15 E
   name: Micronesia, Federated States Of
@@ -3304,7 +3340,7 @@ FM:
   - Micronesia
   - Mikronesien
   - Micronésie
-  - ミクロネシア連邦
+  - "ミクロネシア連邦"
   - Micronesië
   translations:
     en: Micronesia
@@ -3312,11 +3348,11 @@ FM:
     de: Mikronesien
     fr: Micronésie
     es: Micronesia
-    ja: ミクロネシア連邦
+    ja: "ミクロネシア連邦"
     nl: Micronesië
-    ru: Микронезия
-    ar: مايكرونيزيا
-    be: Мікранэзія
+    ru: "Микронезия"
+    ar: "مايكرونيزيا"
+    be: "Мікранэзія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3339,27 +3375,28 @@ FO:
   currency: DKK
   international_prefix: '00'
   ioc: FRO
+  gec: FO
   latitude: 62 00 N
   longitude: 7 00 W
   name: Faroe Islands
   names:
   - Faroe Islands
   - Färöer-Inseln
-  - Îles Féroé
+  - "Îles Féroé"
   - Islas Faroe
-  - フェロー諸島
+  - "フェロー諸島"
   - Faeröer
   translations:
     en: Faroe Islands
     it: Isole Far Oer
     de: Färöer-Inseln
-    fr: Îles Féroé
+    fr: "Îles Féroé"
     es: Islas Faroe
-    ja: フェロー諸島
+    ja: "フェロー諸島"
     nl: Faeröer
-    ru: Фарерские Острова
-    ar: جزر فارو
-    be: Фарэрскія Астравы
+    ru: "Фарерские Острова"
+    ar: "جزر فارو"
+    be: "Фарэрскія Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3376,19 +3413,18 @@ FO:
   postal_code: true
 FR:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: FR
   alpha3: FRA
   country_code: '33'
   currency: EUR
   international_prefix: '00'
   ioc: FRA
+  gec: FR
   latitude: 46 00 N
   longitude: 2 00 E
   name: France
@@ -3396,7 +3432,7 @@ FR:
   - France
   - Frankreich
   - the French Republic
-  - フランス
+  - "フランス"
   - Frankrijk
   - Francia
   translations:
@@ -3405,11 +3441,11 @@ FR:
     de: Frankreich
     fr: France
     es: Francia
-    ja: フランス
+    ja: "フランス"
     nl: Frankrijk
-    ru: Франция
-    ar: فرنسا
-    be: Францыя
+    ru: "Франция"
+    ar: "فرنسا"
+    be: "Францыя"
   national_destination_code_lengths:
   - 1
   national_number_lengths:
@@ -3431,7 +3467,7 @@ FR:
     - 5.5
     - 10
     super_reduced: 2.1
-    parking:
+    parking: 
   postal_code: true
 GA:
   continent: Africa
@@ -3441,6 +3477,7 @@ GA:
   currency: XAF
   international_prefix: '00'
   ioc: GAB
+  gec: GB
   latitude: 1 00 S
   longitude: 11 45 E
   name: Gabon
@@ -3448,18 +3485,18 @@ GA:
   - Gabon
   - Gabun
   - Gabón
-  - ガボン
+  - "ガボン"
   translations:
     en: Gabon
     it: Gabon
     de: Gabun
     fr: Gabon
     es: Gabón
-    ja: ガボン
+    ja: "ガボン"
     nl: Gabon
-    ru: Габон
-    ar: الجابون
-    be: Габон
+    ru: "Габон"
+    ar: "الجابون"
+    be: "Габон"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3478,23 +3515,20 @@ GA:
   postal_code: true
 GB:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}}
-
     {{region}}
-
     {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: GB
   alpha3: GBR
   country_code: '44'
   currency: GBP
   international_prefix: '00'
   ioc: GBR
+  gec: UK
   latitude: 54 00 N
   longitude: 2 00 W
   name: United Kingdom
@@ -3503,7 +3537,7 @@ GB:
   - Vereinigtes Königreich
   - Royaume-Uni
   - Reino Unido
-  - イギリス
+  - "イギリス"
   - Verenigd Koninkrijk
   - Great Britain (UK)
   translations:
@@ -3512,11 +3546,11 @@ GB:
     de: Vereinigtes Königreich
     fr: Royaume-Uni
     es: Reino Unido
-    ja: イギリス
+    ja: "イギリス"
     nl: Verenigd Koninkrijk
-    ru: Соединенное Королевство
-    ar: المملكة المتحدة
-    be: Вялікабрытанія
+    ru: "Соединенное Королевство"
+    ar: "المملكة المتحدة"
+    be: "Вялікабрытанія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3527,7 +3561,7 @@ GB:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - en
   nationality: British
@@ -3536,8 +3570,8 @@ GB:
     standard: 20
     reduced:
     - 5
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 GD:
   continent: North America
@@ -3547,23 +3581,24 @@ GD:
   currency: XCD
   international_prefix: '011'
   ioc: GRN
+  gec: GJ
   latitude: 12 07 N
   longitude: 61 40 W
   name: Grenada
   names:
   - Grenada
-  - グレナダ
+  - "グレナダ"
   translations:
     en: Grenada
     it: Grenada
     de: Grenada
     fr: Grenade
     es: Grenada
-    ja: グレナダ
+    ja: "グレナダ"
     nl: Grenada
-    ru: Гренада
-    ar: جرينادا
-    be: Грэнада
+    ru: "Гренада"
+    ar: "جرينادا"
+    be: "Грэнада"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -3586,6 +3621,7 @@ GE:
   currency: GEL
   international_prefix: '810'
   ioc: GEO
+  gec: GG
   latitude: 42 00 N
   longitude: 43 30 E
   name: Georgia
@@ -3593,7 +3629,7 @@ GE:
   - Georgia
   - Georgien
   - Géorgie
-  - グルジア
+  - "グルジア"
   - Georgië
   translations:
     en: Georgia
@@ -3601,11 +3637,11 @@ GE:
     de: Georgien
     fr: Géorgie
     es: Georgia
-    ja: グルジア
+    ja: "グルジア"
     nl: Georgië
-    ru: Грузия
-    ar: جورجيا
-    be: Грузія
+    ru: "Грузия"
+    ar: "جورجيا"
+    be: "Грузія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3627,7 +3663,8 @@ GF:
   country_code: '594'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FG
   latitude: 4 00 N
   longitude: 53 00 W
   name: French Guiana
@@ -3635,7 +3672,7 @@ GF:
   - French Guiana
   - Französisch Guyana
   - Guayana Francesa
-  - フランス領ギアナ
+  - "フランス領ギアナ"
   - Frans-Guyana
   translations:
     en: French Guiana
@@ -3643,11 +3680,11 @@ GF:
     de: Französisch Guyana
     fr: Guayane
     es: Guayana Francesa
-    ja: フランス領ギアナ
+    ja: "フランス領ギアナ"
     nl: Frans-Guyana
-    ru: Французская Гвиана
-    ar: جويانا الفرنسية
-    be: Французская Гвіяна
+    ru: "Французская Гвиана"
+    ar: "جويانا الفرنسية"
+    be: "Французская Гвіяна"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -3668,7 +3705,8 @@ GG:
   country_code: '44'
   currency: GBP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: GK
   latitude: 49 28 N
   longitude: 2 35 W
   name: Guernsey
@@ -3677,7 +3715,7 @@ GG:
   - Guernsey und Alderney
   - Guernsey et Alderney
   - Guernsey y Alderney
-  - ガーンジー
+  - "ガーンジー"
   - Guernsey
   translations:
     en: Guernsey and Alderney
@@ -3685,11 +3723,11 @@ GG:
     de: Guernsey und Alderney
     fr: Guernesey et Aurigny
     es: Guernsey y Alderney
-    ja: ガーンジー
+    ja: "ガーンジー"
     nl: Guernsey
-    ru: Гернси и Олдерни
-    ar: جزر القنال الإنجليزي
-    be: Гернсі
+    ru: "Гернси и Олдерни"
+    ar: "جزر القنال الإنجليزي"
+    be: "Гернсі"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -3697,7 +3735,7 @@ GG:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -3711,23 +3749,24 @@ GH:
   currency: GHS
   international_prefix: '00'
   ioc: GHA
+  gec: GH
   latitude: 8 00 N
   longitude: 2 00 W
   name: Ghana
   names:
   - Ghana
-  - ガーナ
+  - "ガーナ"
   translations:
     en: Ghana
     it: Ghana
     de: Ghana
     fr: Ghana
     es: Ghana
-    ja: ガーナ
+    ja: "ガーナ"
     nl: Ghana
-    ru: Гана
-    ar: غانا
-    be: Гана
+    ru: "Гана"
+    ar: "غانا"
+    be: "Гана"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3752,24 +3791,25 @@ GI:
   country_code: '350'
   currency: GIP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: GI
   latitude: 36 08 N
   longitude: 5 21 W
   name: Gibraltar
   names:
   - Gibraltar
-  - ジブラルタル
+  - "ジブラルタル"
   translations:
     en: Gibraltar
     it: Gibilterra
     de: Gibraltar
     fr: Gibraltar
     es: Gibraltar
-    ja: ジブラルタル
+    ja: "ジブラルタル"
     nl: Gibraltar
-    ru: Гибралтар
-    ar: جبل طارق
-    be: Гібралтар
+    ru: "Гибралтар"
+    ar: "جبل طارق"
+    be: "Гібралтар"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3786,19 +3826,18 @@ GI:
   postal_code: true
 GL:
   continent: North America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: GL
   alpha3: GRL
   country_code: '299'
   currency: DKK
   international_prefix: 009
-  ioc:
+  ioc: 
+  gec: GL
   latitude: 72 00 N
   longitude: 40 00 W
   name: Greenland
@@ -3807,18 +3846,18 @@ GL:
   - Grönland
   - Groenland
   - Groenlandia
-  - グリーンランド
+  - "グリーンランド"
   translations:
     en: Greenland
     it: Groenlandia
     de: Grönland
     fr: Groenland
     es: Groenlandia
-    ja: グリーンランド
+    ja: "グリーンランド"
     nl: Groenland
-    ru: Гренландия
-    ar: جرينلاند
-    be: Грэнландыя
+    ru: "Гренландия"
+    ar: "جرينلاند"
+    be: "Грэнландыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3841,23 +3880,24 @@ GM:
   currency: GMD
   international_prefix: '00'
   ioc: GAM
+  gec: GA
   latitude: 13 28 N
   longitude: 16 34 W
   name: Gambia
   names:
   - Gambia
-  - ガンビア
+  - "ガンビア"
   translations:
     en: Gambia
     it: Gambia
     de: Gambia
     fr: Gambie
     es: Gambia
-    ja: ガンビア
+    ja: "ガンビア"
     nl: Gambia
-    ru: Гамбия
-    ar: غامبيا
-    be: Гамбія
+    ru: "Гамбия"
+    ar: "غامبيا"
+    be: "Гамбія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3880,13 +3920,14 @@ GN:
   currency: GNF
   international_prefix: '00'
   ioc: GUI
+  gec: GV
   latitude: 11 00 N
   longitude: 10 00 W
   name: Guinea
   names:
   - Guinea
   - Guinée
-  - ギニア
+  - "ギニア"
   - Guinee
   translations:
     en: Guinea
@@ -3894,11 +3935,11 @@ GN:
     de: Guinea
     fr: Guinée
     es: Guinea
-    ja: ギニア
+    ja: "ギニア"
     nl: Guinee
-    ru: Гвинея
-    ar: غينيا
-    be: Гвінея
+    ru: "Гвинея"
+    ar: "غينيا"
+    be: "Гвінея"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -3921,25 +3962,26 @@ GP:
   country_code: '590'
   currency: EUR
   international_prefix: '00'
-  ioc:
-  latitude: 16 15 N 
+  ioc: 
+  latitude: 16 15 N
   longitude: 61 35 W
+  gec: GP
   name: Guadeloupe
   names:
   - Guadeloupe
   - Guadalupe
-  - グアドループ
+  - "グアドループ"
   translations:
     en: Guadeloupe
     it: Guadeloupa
     de: Guadeloupe
     fr: Guadeloupe
     es: Guadalupe
-    ja: グアドループ
+    ja: "グアドループ"
     nl: Guadeloupe
-    ru: Гваделупа
-    ar: جوادلوب
-    be: Гвадэлупа
+    ru: "Гваделупа"
+    ar: "جوادلوب"
+    be: "Гвадэлупа"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -3959,30 +4001,31 @@ GQ:
   alpha2: GQ
   alpha3: GNQ
   country_code: '240'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: GEQ
+  gec: EK
   latitude: 2 00 N
   longitude: 10 00 E
   name: Equatorial Guinea
   names:
   - Equatorial Guinea
-  - Äquatorial-Guinea
+  - "Äquatorial-Guinea"
   - Guinée Équatoriale
   - Guinea Ecuatorial
-  - 赤道ギニア
+  - "赤道ギニア"
   - Equatoriaal-Guinea
   translations:
     en: Equatorial Guinea
     it: Guinea Equatoriale
-    de: Äquatorial-Guinea
+    de: "Äquatorial-Guinea"
     fr: Guinée Équatoriale
     es: Guinea Ecuatorial
-    ja: 赤道ギニア
+    ja: "赤道ギニア"
     nl: Equatoriaal-Guinea
-    ru: Экваториальная Гвинея
-    ar: غينيا الاستوائية
-    be: Экватарыяльная Гвінея
+    ru: "Экваториальная Гвинея"
+    ar: "غينيا الاستوائية"
+    be: "Экватарыяльная Гвінея"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4000,19 +4043,18 @@ GQ:
   postal_code: false
 GR:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: GR
   alpha3: GRC
   country_code: '30'
   currency: EUR
   international_prefix: '00'
   ioc: GRE
+  gec: GR
   latitude: 39 00 N
   longitude: 22 00 E
   name: Greece
@@ -4021,7 +4063,7 @@ GR:
   - Griechenland
   - Grèce
   - Grecia
-  - ギリシャ
+  - "ギリシャ"
   - Griekenland
   translations:
     en: Greece
@@ -4029,11 +4071,11 @@ GR:
     de: Griechenland
     fr: Grèce
     es: Grecia
-    ja: ギリシャ
+    ja: "ギリシャ"
     nl: Griekenland
-    ru: Греция
-    ar: اليونان
-    be: Грэцыя
+    ru: "Греция"
+    ar: "اليونان"
+    be: "Грэцыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4053,24 +4095,25 @@ GR:
     reduced:
     - 6.5
     - 13
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 GS:
   continent: Antarctica
   alpha2: GS
   alpha3: SGS
   country_code: '500'
-  currency:
+  currency: 
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: SX
   latitude: 54 30 S
   longitude: 37 00 W
   name: South Georgia and the South Sandwich Islands
   names:
   - South Georgia and the South Sandwich Islands
   - Südgeorgien und die Südlichen Sandwichinseln
-  - サウスジョージア・サウスサンドウィッチ諸島
+  - "サウスジョージア・サウスサンドウィッチ諸島"
   - Zuid-Georgia en Zuidelijke Sandwicheilanden
   translations:
     en: South Georgia and the South Sandwich Islands
@@ -4078,11 +4121,11 @@ GS:
     de: Südgeorgien und die Südlichen Sandwichinseln
     fr: Géorgie du Sud et les Îles Sandwich du Sud
     es: Islas Georgias del Sur y Sandwich del Sur
-    ja: サウスジョージア・サウスサンドウィッチ諸島
+    ja: "サウスジョージア・サウスサンドウィッチ諸島"
     nl: Zuid-Georgia en Zuidelijke Sandwicheilanden
-    ru: Южная Джорджия и Южные Сандвичевы острова
-    ar: جورجيا الجنوبية وجزر ساندويتش الجنوبية
-    be: Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы
+    ru: "Южная Джорджия и Южные Сандвичевы острова"
+    ar: "جورجيا الجنوبية وجزر ساندويتش الجنوبية"
+    be: "Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -4103,23 +4146,24 @@ GT:
   currency: GTQ
   international_prefix: '00'
   ioc: GUA
+  gec: GT
   latitude: 15 30 N
   longitude: 90 15 W
   name: Guatemala
   names:
   - Guatemala
-  - グアテマラ
+  - "グアテマラ"
   translations:
     en: Guatemala
     it: Guatemala
     de: Guatemala
     fr: Guatemala
     es: Guatemala
-    ja: グアテマラ
+    ja: "グアテマラ"
     nl: Guatemala
-    ru: Гватемала
-    ar: جواتيمالا
-    be: Гватэмала
+    ru: "Гватемала"
+    ar: "جواتيمالا"
+    be: "Гватэмала"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4142,23 +4186,24 @@ GU:
   currency: USD
   international_prefix: '011'
   ioc: GUM
+  gec: GQ
   latitude: 13 28 N
   longitude: 144 47 E
   name: Guam
   names:
   - Guam
-  - グアム
+  - "グアム"
   translations:
     en: Guam
     it: Guam
     de: Guam
     fr: Guam
     es: Guam
-    ja: グアム
+    ja: "グアム"
     nl: Guam
-    ru: Гуам
-    ar: غوام
-    be: Гуам
+    ru: "Гуам"
+    ar: "غوام"
+    be: "Гуам"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -4183,13 +4228,14 @@ GW:
   currency: XOF
   international_prefix: '00'
   ioc: GBS
+  gec: PU
   latitude: 12 00 N
   longitude: 15 00 W
   name: Guinea-Bissau
   names:
   - Guinea-Bissau
   - Guinée-Bissau
-  - ギニアビサウ
+  - "ギニアビサウ"
   - Guinee-Bissau
   translations:
     en: Guinea-Bissau
@@ -4197,11 +4243,11 @@ GW:
     de: Guinea-Bissau
     fr: Guinée-Bissau
     es: Guinea-Bisáu
-    ja: ギニアビサウ
+    ja: "ギニアビサウ"
     nl: Guinee-Bissau
-    ru: Гвинея-Бисау
-    ar: غينيا بيساو
-    be: Гвінея-Бісаў
+    ru: "Гвинея-Бисау"
+    ar: "غينيا بيساو"
+    be: "Гвінея-Бісаў"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4224,23 +4270,24 @@ GY:
   currency: GYD
   international_prefix: '00'
   ioc: GUY
+  gec: GY
   latitude: 5 00 N
   longitude: 59 00 W
   name: Guyana
   names:
   - Guyana
-  - ガイアナ
+  - "ガイアナ"
   translations:
     en: Guyana
     it: Guyana
     de: Guyana
     fr: Guyane
     es: Guyana
-    ja: ガイアナ
+    ja: "ガイアナ"
     nl: Guyana
-    ru: Гайана
-    ar: غويانا
-    be: Гаяна
+    ru: "Гайана"
+    ar: "غويانا"
+    be: "Гаяна"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4258,25 +4305,24 @@ GY:
   postal_code: false
 HK:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: HK
   alpha3: HKG
   country_code: '852'
   currency: HKD
   international_prefix: '001'
   ioc: HKG
+  gec: HK
   latitude: 22 15 N
   longitude: 114 10 E
   name: Hong Kong
   names:
   - Hong Kong
-  - 香港
+  - "香港"
   - Hongkong
   translations:
     en: Hong Kong
@@ -4284,11 +4330,11 @@ HK:
     de: Hong Kong
     fr: Hong Kong
     es: Hong Kong
-    ja: 香港
+    ja: "香港"
     nl: Hongkong
-    ru: Гонконг
-    ar: هونج كونج
-    be: Ганконг
+    ru: "Гонконг"
+    ar: "هونج كونج"
+    be: "Ганконг"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4311,26 +4357,27 @@ HM:
   country_code: ''
   currency: AUD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: HM
   latitude: 53 06 S
   longitude: 72 31 E
   name: Heard and McDonald Islands
   names:
   - Heard and McDonald Islands
   - Heard und die McDonaldinseln
-  - ハード島とマクドナルド諸島
+  - "ハード島とマクドナルド諸島"
   - Heard- en McDonaldeilanden
   translations:
     en: Heard and McDonald Islands
     it: Isole Heard e McDonald
     de: Heard und die McDonaldinseln
-    fr: Îles Heard-et-MacDonal
+    fr: "Îles Heard-et-MacDonal"
     es: Islas Heard y McDonald
-    ja: ハード島とマクドナルド諸島
+    ja: "ハード島とマクドナルド諸島"
     nl: Heard- en McDonaldeilanden
-    ru: Острова Херд и Макдональд
-    ar: جزيرة هيرد وجزر ماكدونالد
-    be: Востраў Херд і Астравы Мак-Доналд
+    ru: "Острова Херд и Макдональд"
+    ar: "جزيرة هيرد وجزر ماكدونالد"
+    be: "Востраў Херд і Астравы Мак-Доналд"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -4351,23 +4398,24 @@ HN:
   currency: HNL
   international_prefix: '00'
   ioc: HON
+  gec: HO
   latitude: 15 00 N
   longitude: 86 30 W
   name: Honduras
   names:
   - Honduras
-  - ホンジュラス
+  - "ホンジュラス"
   translations:
     en: Honduras
     it: Honduras
     de: Honduras
     fr: Honduras
     es: Honduras
-    ja: ホンジュラス
+    ja: "ホンジュラス"
     nl: Honduras
-    ru: Гондурас
-    ar: هندوراس
-    be: Гандурас
+    ru: "Гондурас"
+    ar: "هندوراس"
+    be: "Гандурас"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4385,19 +4433,18 @@ HN:
   postal_code: true
 HR:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: HR
   alpha3: HRV
   country_code: '385'
   currency: HRK
   international_prefix: '00'
   ioc: CRO
+  gec: HR
   latitude: 45 10 N
   longitude: 15 30 E
   name: Croatia
@@ -4406,7 +4453,7 @@ HR:
   - Kroatien
   - Croatie
   - Croacia
-  - クロアチア
+  - "クロアチア"
   - Kroatië
   - Croatia (Hrvatska)
   translations:
@@ -4415,11 +4462,11 @@ HR:
     de: Kroatien
     fr: Croatie
     es: Croacia
-    ja: クロアチア
+    ja: "クロアチア"
     nl: Kroatië
-    ru: Хорватия
-    ar: كرواتيا
-    be: Харватыя
+    ru: "Хорватия"
+    ar: "كرواتيا"
+    be: "Харватыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4439,8 +4486,8 @@ HR:
     reduced:
     - 5
     - 13
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 HT:
   continent: North America
@@ -4450,12 +4497,13 @@ HT:
   currency: USD
   international_prefix: '00'
   ioc: HAI
+  gec: HA
   latitude: 19 00 N
   longitude: 72 25 W
   name: Haiti
   names:
   - Haiti
-  - ハイチ
+  - "ハイチ"
   - Haïti
   translations:
     en: Haiti
@@ -4463,11 +4511,11 @@ HT:
     de: Haiti
     fr: Haïti
     es: Haiti
-    ja: ハイチ
+    ja: "ハイチ"
     nl: Haïti
-    ru: Гаити
-    ar: هايتي
-    be: Гаіці
+    ru: "Гаити"
+    ar: "هايتي"
+    be: "Гаіці"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4485,21 +4533,19 @@ HT:
   postal_code: true
 HU:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{city}}
-
     {{street}}
-
     {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: HU
   alpha3: HUN
   country_code: '36'
   currency: HUF
   international_prefix: '00'
   ioc: HUN
+  gec: HU
   latitude: 47 00 N
   longitude: 20 00 E
   name: Hungary
@@ -4508,7 +4554,7 @@ HU:
   - Ungarn
   - Hongrie
   - Hungría
-  - ハンガリー
+  - "ハンガリー"
   - Hongarije
   translations:
     en: Hungary
@@ -4516,11 +4562,11 @@ HU:
     de: Ungarn
     fr: Hongrie
     es: Hungría
-    ja: ハンガリー
+    ja: "ハンガリー"
     nl: Hongarije
-    ru: Венгрия
-    ar: المجر
-    be: Венгрыя
+    ru: "Венгрия"
+    ar: "المجر"
+    be: "Венгрыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4541,26 +4587,24 @@ HU:
     reduced:
     - 5
     - 18
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 ID:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}}
-
     {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: ID
   alpha3: IDN
   country_code: '62'
   currency: IDR
   international_prefix: '001'
   ioc: INA
+  gec: ID
   latitude: 5 00 S
   longitude: 120 00 E
   name: Indonesia
@@ -4568,7 +4612,7 @@ ID:
   - Indonesia
   - Indonesien
   - Indonésie
-  - インドネシア
+  - "インドネシア"
   - Indonesië
   translations:
     en: Indonesia
@@ -4576,11 +4620,11 @@ ID:
     de: Indonesien
     fr: Indonésie
     es: Indonesia
-    ja: インドネシア
+    ja: "インドネシア"
     nl: Indonesië
-    ru: Индонезия
-    ar: إندونيسيا
-    be: Інданэзія
+    ru: "Индонезия"
+    ar: "إندونيسيا"
+    be: "Інданэзія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4600,19 +4644,18 @@ ID:
   postal_code: true
 IE:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: IE
   alpha3: IRL
   country_code: '353'
   currency: EUR
   international_prefix: '00'
   ioc: IRL
+  gec: EI
   latitude: 53 00 N
   longitude: 8 00 W
   name: Ireland
@@ -4621,7 +4664,7 @@ IE:
   - Irland
   - Irlande
   - Irlanda
-  - アイルランド
+  - "アイルランド"
   - Ierland
   translations:
     en: Ireland
@@ -4629,11 +4672,11 @@ IE:
     de: Irland
     fr: Irlande
     es: Irlanda
-    ja: アイルランド
+    ja: "アイルランド"
     nl: Ierland
-    ru: Ирландия
-    ar: أيرلندا
-    be: Ірландыя
+    ru: "Ирландия"
+    ar: "أيرلندا"
+    be: "Ірландыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4659,37 +4702,36 @@ IE:
   postal_code: false
 IL:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: IL
   alpha3: ISR
   country_code: '972'
   currency: ILS
   international_prefix: '00'
   ioc: ISR
+  gec: IS
   latitude: 31 30 N
   longitude: 34 45 E
   name: Israel
   names:
   - Israel
   - Israël
-  - イスラエル
+  - "イスラエル"
   translations:
     en: Israel
     it: Israele
     de: Israel
     fr: Israël
     es: Israel
-    ja: イスラエル
+    ja: "イスラエル"
     nl: Israël
-    ru: Израиль
-    ar: إسرائيل
-    be: Ізраіль
+    ru: "Израиль"
+    ar: "إسرائيل"
+    be: "Ізраіль"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4714,27 +4756,28 @@ IM:
   country_code: '44'
   currency: IMP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: IM
   latitude: 54 15 N
   longitude: 4 30 W
   name: Isle of Man
   names:
   - Isle of Man
   - Insel Man
-  - Île de Man
+  - "Île de Man"
   - Isla de Man
-  - マン島
+  - "マン島"
   translations:
     en: Isle of Man
     it: Isola di Man
     de: Insel Man
-    fr: Île de Man
+    fr: "Île de Man"
     es: Isla de Man
-    ja: マン島
+    ja: "マン島"
     nl: Isle of Man
-    ru: Остров Мэн
-    ar: جزيرة مان
-    be: Востраў Мэн
+    ru: "Остров Мэн"
+    ar: "جزيرة مان"
+    be: "Востраў Мэн"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -4742,7 +4785,7 @@ IM:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - en
   - gv
@@ -4750,21 +4793,19 @@ IM:
   postal_code: true
 IN:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{region}}
-
     {{city}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: IN
   alpha3: IND
   country_code: '91'
   currency: INR
   international_prefix: '00'
   ioc: IND
+  gec: IN
   latitude: 20 00 N
   longitude: 77 00 E
   name: India
@@ -4772,18 +4813,18 @@ IN:
   - India
   - Indien
   - Inde
-  - インド
+  - "インド"
   translations:
     en: India
     it: India
     de: Indien
     fr: Inde
     es: India
-    ja: インド
+    ja: "インド"
     nl: India
-    ru: Индия
-    ar: الهند
-    be: Індыя
+    ru: "Индия"
+    ar: "الهند"
+    be: "Індыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4806,14 +4847,15 @@ IO:
   country_code: '246'
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: IO
   latitude: 6 00 S
   longitude: 71 30 E
   name: British Indian Ocean Territory
   names:
   - British Indian Ocean Territory
   - Britisches Territorium im Indischen Ozean
-  - イギリス領インド洋地域
+  - "イギリス領インド洋地域"
   - Britse Gebieden in de Indische Oceaan
   translations:
     en: British Indian Ocean Territory
@@ -4821,11 +4863,11 @@ IO:
     de: Britisches Territorium im Indischen Ozean
     fr: Territoire britannique de l'océan Indien
     es: Territorio Británico del Océano Índico
-    ja: イギリス領インド洋地域
+    ja: "イギリス領インド洋地域"
     nl: Britse Gebieden in de Indische Oceaan
-    ru: Британская территория в Индийском океане
-    ar: إقليم المحيط الهندي البريطاني
-    be: Брытанская Тэрыторыя ў Індыйскім Акіяне
+    ru: "Британская территория в Индийском океане"
+    ar: "إقليم المحيط الهندي البريطاني"
+    be: "Брытанская Тэрыторыя ў Індыйскім Акіяне"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -4846,25 +4888,26 @@ IQ:
   currency: IQD
   international_prefix: '00'
   ioc: IRQ
+  gec: IZ
   latitude: 33 00 N
   longitude: 44 00 E
   name: Iraq
   names:
   - Iraq
-  - العراق
+  - "العراق"
   - Irak
-  - イラク
+  - "イラク"
   translations:
     en: Iraq
     it: Iraq
     de: Irak
     fr: Irak
     es: Irak
-    ja: イラク
+    ja: "イラク"
     nl: Irak
-    ru: Ирак
-    ar: العراق
-    be: Ірак
+    ru: "Ирак"
+    ar: "العراق"
+    be: "Ірак"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4889,6 +4932,7 @@ IR:
   currency: IRR
   international_prefix: '00'
   ioc: IRI
+  gec: IR
   latitude: 32 00 N
   longitude: 53 00 E
   name: Iran, Islamic Republic Of
@@ -4896,17 +4940,17 @@ IR:
   - Iran
   - Irán
   - Iran (Islamic Republic Of)
-  - イラン・イスラム共和国
+  - "イラン・イスラム共和国"
   translations:
     en: Iran
     de: Iran
     fr: Iran
     es: Iran
-    ja: イラン・イスラム共和国
+    ja: "イラン・イスラム共和国"
     nl: Iran
-    ru: Иран
-    ar: إيران
-    be: Іран
+    ru: "Иран"
+    ar: "إيران"
+    be: "Іран"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4923,19 +4967,18 @@ IR:
   postal_code: true
 IS:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: IS
   alpha3: ISL
   country_code: '354'
   currency: ISK
   international_prefix: '00'
   ioc: ISL
+  gec: IC
   latitude: 65 00 N
   longitude: 18 00 W
   name: Iceland
@@ -4944,7 +4987,7 @@ IS:
   - Island
   - Islande
   - Islandia
-  - アイスランド
+  - "アイスランド"
   - IJsland
   translations:
     en: Iceland
@@ -4952,11 +4995,11 @@ IS:
     de: Island
     fr: Islande
     es: Islandia
-    ja: アイスランド
+    ja: "アイスランド"
     nl: IJsland
-    ru: Исландия
-    ar: أيسلندا
-    be: Ісландыя
+    ru: "Исландия"
+    ar: "أيسلندا"
+    be: "Ісландыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -4975,19 +5018,18 @@ IS:
   postal_code: true
 IT:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: IT
   alpha3: ITA
   country_code: '39'
   currency: EUR
   international_prefix: '00'
   ioc: ITA
+  gec: IT
   latitude: 42 50 N
   longitude: 12 50 E
   name: Italy
@@ -4996,7 +5038,7 @@ IT:
   - Italien
   - Italie
   - Italia
-  - イタリア
+  - "イタリア"
   - Italië
   translations:
     en: Italy
@@ -5004,11 +5046,11 @@ IT:
     de: Italien
     fr: Italie
     es: Italia
-    ja: イタリア
+    ja: "イタリア"
     nl: Italië
-    ru: Италия
-    ar: إيطاليا
-    be: Італія
+    ru: "Италия"
+    ar: "إيطاليا"
+    be: "Італія"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5028,7 +5070,7 @@ IT:
     reduced:
     - 10
     super_reduced: 4
-    parking:
+    parking: 
   postal_code: true
 JE:
   continent: Europe
@@ -5037,24 +5079,25 @@ JE:
   country_code: '44'
   currency: JEP
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: JE
   latitude: 49 15 N
   longitude: 2 10 W
   name: Jersey
   names:
   - Jersey
-  - ジャージー
+  - "ジャージー"
   translations:
     en: Jersey
     it: Isola di Jersey
     de: Jersey
     fr: Jersey
     es: Jersey
-    ja: ジャージー
+    ja: "ジャージー"
     nl: Jersey
-    ru: Джерси
-    ar: جيرزي
-    be: Джэрсі
+    ru: "Джерси"
+    ar: "جيرزي"
+    be: "Джэрсі"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -5062,7 +5105,7 @@ JE:
   region: Europe
   subregion: Northern Europe
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -5076,6 +5119,7 @@ JM:
   currency: JMD
   international_prefix: '011'
   ioc: JAM
+  gec: JM
   latitude: 18 15 N
   longitude: 77 30 W
   name: Jamaica
@@ -5083,18 +5127,18 @@ JM:
   - Jamaica
   - Jamaika
   - Jamaïque
-  - ジャマイカ
+  - "ジャマイカ"
   translations:
     en: Jamaica
     it: Giamaica
     de: Jamaika
     fr: Jamaïque
     es: Jamaica
-    ja: ジャマイカ
+    ja: "ジャマイカ"
     nl: Jamaica
-    ru: Ямайка
-    ar: جامايكا
-    be: Ямайка
+    ru: "Ямайка"
+    ar: "جامايكا"
+    be: "Ямайка"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5111,29 +5155,28 @@ JM:
   postal_code: false
 JO:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: JO
   alpha3: JOR
   country_code: '962'
   currency: JOD
   international_prefix: '00'
   ioc: JOR
+  gec: JO
   latitude: 31 00 N
   longitude: 36 00 E
   name: Jordan
   names:
   - Jordan
-  - الأردن
+  - "الأردن"
   - Jordanien
   - Jordanie
   - Jordania
-  - ヨルダン
+  - "ヨルダン"
   - Jordanië
   translations:
     en: Jordan
@@ -5141,11 +5184,11 @@ JO:
     de: Jordanien
     fr: Jordanie
     es: Jordania
-    ja: ヨルダン
+    ja: "ヨルダン"
     nl: Jordanië
-    ru: Иордания
-    ar: الأردن
-    be: Іарданія
+    ru: "Иордания"
+    ar: "الأردن"
+    be: "Іарданія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5163,19 +5206,18 @@ JO:
   postal_code: true
 JP:
   continent: Asia
-  address_format: ! '〒{{postalcode}}
-
+  address_format: |-
+    〒{{postalcode}}
     {{region}}{{city}}{{street}}
-
     {{recipient}}
-
-    {{country}}'
+    {{country}}
   alpha2: JP
   alpha3: JPN
   country_code: '81'
   currency: JPY
   international_prefix: '010'
   ioc: JPN
+  gec: JA
   latitude: 36 00 N
   longitude: 138 00 E
   name: Japan
@@ -5183,18 +5225,18 @@ JP:
   - Japan
   - Japon
   - Japón
-  - 日本
+  - "日本"
   translations:
     en: Japan
     it: Giappone
     de: Japan
     fr: Japon
     es: Japón
-    ja: 日本
+    ja: "日本"
     nl: Japan
-    ru: Япония
-    ar: اليابان
-    be: Японія
+    ru: "Япония"
+    ar: "اليابان"
+    be: "Японія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5218,24 +5260,25 @@ KE:
   currency: KES
   international_prefix: '000'
   ioc: KEN
+  gec: KE
   latitude: 1 00 N
   longitude: 38 00 E
   name: Kenya
   names:
   - Kenya
   - Kenia
-  - ケニア
+  - "ケニア"
   translations:
     en: Kenya
     it: Kenya
     de: Kenia
     fr: Kenya
     es: Kenia
-    ja: ケニア
+    ja: "ケニア"
     nl: Kenia
-    ru: Кения
-    ar: كينيا
-    be: Кенія
+    ru: "Кения"
+    ar: "كينيا"
+    be: "Кенія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5259,6 +5302,7 @@ KG:
   currency: KGS
   international_prefix: '00'
   ioc: KGZ
+  gec: KG
   latitude: 41 00 N
   longitude: 75 00 E
   name: Kyrgyzstan
@@ -5267,7 +5311,7 @@ KG:
   - Kirgisistan
   - Kirghizistan
   - Kirguizistán
-  - キルギス
+  - "キルギス"
   - Kirgizië
   translations:
     en: Kyrgyzstan
@@ -5275,11 +5319,11 @@ KG:
     de: Kirgisistan
     fr: Kirghizistan
     es: Kirguizistán
-    ja: キルギス
+    ja: "キルギス"
     nl: Kirgizië
-    ru: Кыргызстан
-    ar: قيرغيزستان
-    be: Кыргызстан
+    ru: "Кыргызстан"
+    ar: "قيرغيزستان"
+    be: "Кыргызстан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5303,6 +5347,7 @@ KH:
   currency: KHR
   international_prefix: '00'
   ioc: CAM
+  gec: CB
   latitude: 13 00 N
   longitude: 105 00 E
   name: Cambodia
@@ -5311,7 +5356,7 @@ KH:
   - Kambodscha
   - Cambodge
   - Camboya
-  - カンボジア
+  - "カンボジア"
   - Cambodja
   translations:
     en: Cambodia
@@ -5319,11 +5364,11 @@ KH:
     de: Kambodscha
     fr: Cambodge
     es: Camboya
-    ja: カンボジア
+    ja: "カンボジア"
     nl: Cambodja
-    ru: Камбоджа
-    ar: كمبوديا
-    be: Камбоджа
+    ru: "Камбоджа"
+    ar: "كمبوديا"
+    be: "Камбоджа"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5346,23 +5391,24 @@ KI:
   currency: AUD
   international_prefix: '00'
   ioc: KIR
+  gec: KR
   latitude: 1 25 N
   longitude: 173 00 E
   name: Kiribati
   names:
   - Kiribati
-  - キリバス
+  - "キリバス"
   translations:
     en: Kiribati
     it: Kiribati
     de: Kiribati
     fr: Kiribati
     es: Kiribati
-    ja: キリバス
+    ja: "キリバス"
     nl: Kiribati
-    ru: Кирибати
-    ar: كيريباتي
-    be: Кірыбаці
+    ru: "Кирибати"
+    ar: "كيريباتي"
+    be: "Кірыбаці"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5385,6 +5431,7 @@ KM:
   currency: KMF
   international_prefix: '00'
   ioc: COM
+  gec: CN
   latitude: 12 10 S
   longitude: 44 15 E
   name: Comoros
@@ -5392,7 +5439,7 @@ KM:
   - Comoros
   - Union der Komoren
   - Comores
-  - コモロ
+  - "コモロ"
   - Comoren
   translations:
     en: Comoros
@@ -5400,11 +5447,11 @@ KM:
     de: Union der Komoren
     fr: Comores
     es: Comoras
-    ja: コモロ
+    ja: "コモロ"
     nl: Comoren
-    ru: Союз Коморских островов
-    ar: جزر القمر
-    be: Каморскія Астравы
+    ru: "Союз Коморских островов"
+    ar: "جزر القمر"
+    be: "Каморскія Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5428,6 +5475,7 @@ KN:
   currency: XCD
   international_prefix: '011'
   ioc: SKN
+  gec: SC
   latitude: 17 20 N
   longitude: 62 45 W
   name: Saint Kitts And Nevis
@@ -5436,7 +5484,7 @@ KN:
   - Föderation St. Kitts und Nevis
   - Saint Kitts et Nevis
   - Saint Kitts y Nevis
-  - セントクリストファー・ネイビス
+  - "セントクリストファー・ネイビス"
   - Saint Kitts en Nevis
   - St. Kitts and Nevis
   translations:
@@ -5445,11 +5493,11 @@ KN:
     de: Föderation St. Kitts und Nevis
     fr: Saint Kitts et Nevis
     es: Saint Kitts y Nevis
-    ja: セントクリストファー・ネイビス
+    ja: "セントクリストファー・ネイビス"
     nl: Saint Kitts en Nevis
-    ru: Федерация Сент-Китс и Невис
-    ar: سانت كيتس ونيفيس
-    be: Сент-Кітс і Невіс
+    ru: "Федерация Сент-Китс и Невис"
+    ar: "سانت كيتس ونيفيس"
+    be: "Сент-Кітс і Невіс"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5472,6 +5520,7 @@ KP:
   currency: KPW
   international_prefix: '00'
   ioc: PRK
+  gec: KN
   latitude: 40 00 N
   longitude: 127 00 E
   name: Korea, Democratic People's Republic Of
@@ -5480,7 +5529,7 @@ KP:
   - Nordkorea
   - Corée du Nord
   - Corea del Norte
-  - 朝鮮民主主義人民共和国
+  - "朝鮮民主主義人民共和国"
   - Noord-Korea
   - Korea Democratic People's Republic
   translations:
@@ -5489,11 +5538,11 @@ KP:
     de: Nordkorea
     fr: Corée du Nord
     es: Corea del Norte
-    ja: 朝鮮民主主義人民共和国
+    ja: "朝鮮民主主義人民共和国"
     nl: Noord-Korea
-    ru: Северная Корея
-    ar: كوريا الشمالية
-    be: Паўночная Карэя
+    ru: "Северная Корея"
+    ar: "كوريا الشمالية"
+    be: "Паўночная Карэя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5511,21 +5560,19 @@ KP:
   postal_code: false
 KR:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}}
-
     {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: KR
   alpha3: KOR
   country_code: '82'
   currency: KRW
   international_prefix: '001'
   ioc: KOR
+  gec: KS
   latitude: 37 00 N
   longitude: 127 30 E
   name: Korea, Republic of
@@ -5534,7 +5581,7 @@ KR:
   - Südkorea
   - Corée du Sud
   - Corea del Sur
-  - 大韓民国
+  - "大韓民国"
   - Zuid-Korea
   translations:
     en: Korea (South)
@@ -5542,11 +5589,11 @@ KR:
     de: Südkorea
     fr: Corée du Sud
     es: Corea del Sur
-    ja: 大韓民国
+    ja: "大韓民国"
     nl: Zuid-Korea
-    ru: Южная Корея
-    ar: كوريا الجنوبية
-    be: Паўднёвая Карэя
+    ru: "Южная Корея"
+    ar: "كوريا الجنوبية"
+    be: "Паўднёвая Карэя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5564,29 +5611,27 @@ KR:
   postal_code: true
 KW:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
     {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: KW
   alpha3: KWT
   country_code: '965'
   currency: KWD
   international_prefix: '00'
   ioc: KUW
+  gec: KU
   latitude: 29 30 N
   longitude: 45 45 E
   name: Kuwait
   names:
   - Kuwait
-  - الكويت
+  - "الكويت"
   - Koweït
-  - クウェート
+  - "クウェート"
   - Koeweit
   translations:
     en: Kuwait
@@ -5594,11 +5639,11 @@ KW:
     de: Kuwait
     fr: Koweït
     es: Kuwait
-    ja: クウェート
+    ja: "クウェート"
     nl: Koeweit
-    ru: Кувейт
-    ar: الكويت
-    be: Кувейт
+    ru: "Кувейт"
+    ar: "الكويت"
+    be: "Кувейт"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5621,27 +5666,28 @@ KY:
   currency: KYD
   international_prefix: '011'
   ioc: CAY
+  gec: CJ
   latitude: 19 30 N
   longitude: 80 30 W
   name: Cayman Islands
   names:
   - Cayman Islands
   - Kaimaninseln
-  - Îles Caïmans
+  - "Îles Caïmans"
   - Islas Caimán
-  - ケイマン諸島
+  - "ケイマン諸島"
   - Caymaneilanden
   translations:
     en: Cayman Islands
     it: Isole Cayman
     de: Kaimaninseln
-    fr: Îles Caïmans
+    fr: "Îles Caïmans"
     es: Islas Caimán
-    ja: ケイマン諸島
+    ja: "ケイマン諸島"
     nl: Caymaneilanden
-    ru: Каймановы Острова
-    ar: جزر كايمان
-    be: Кайманавы Астравы
+    ru: "Каймановы Острова"
+    ar: "جزر كايمان"
+    be: "Кайманавы Астравы"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5664,6 +5710,7 @@ KZ:
   currency: KZT
   international_prefix: '810'
   ioc: KAZ
+  gec: KZ
   latitude: 48 00 N
   longitude: 68 00 E
   name: Kazakhstan
@@ -5671,7 +5718,7 @@ KZ:
   - Kazakhstan
   - Kasachstan
   - Kazajistán
-  - カザフスタン
+  - "カザフスタン"
   - Kazachstan
   translations:
     en: Kazakhstan
@@ -5679,11 +5726,11 @@ KZ:
     de: Kasachstan
     fr: Kazakhstan
     es: Kazajistán
-    ja: カザフスタン
+    ja: "カザフスタン"
     nl: Kazachstan
-    ru: Казахстан
-    ar: كازاخستان
-    be: Казахстан
+    ru: "Казахстан"
+    ar: "كازاخستان"
+    be: "Казахстан"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5707,23 +5754,24 @@ LA:
   currency: LAK
   international_prefix: '00'
   ioc: LAO
+  gec: LA
   latitude: 18 00 N
   longitude: 105 00 E
   name: Lao People's Democratic Republic
   names:
   - Laos
-  - ラオス人民民主共和国
+  - "ラオス人民民主共和国"
   translations:
     en: Laos
     it: Laos
     de: Laos
     fr: Laos
     es: Laos
-    ja: ラオス人民民主共和国
+    ja: "ラオス人民民主共和国"
     nl: Laos
-    ru: Лаос
-    ar: لاوس
-    be: Лаос
+    ru: "Лаос"
+    ar: "لاوس"
+    be: "Лаос"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5740,40 +5788,39 @@ LA:
   postal_code: true
 LB:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: LB
   alpha3: LBN
   country_code: '961'
   currency: LBP
   international_prefix: '00'
   ioc: LIB
+  gec: LE
   latitude: 33 50 N
   longitude: 35 50 E
   name: Lebanon
   names:
   - Lebanon
-  - لبنان
+  - "لبنان"
   - Libanon
   - Liban
   - Líbano
-  - レバノン
+  - "レバノン"
   translations:
     en: Lebanon
     it: Libano
     de: Libanon
     fr: Liban
     es: Líbano
-    ja: レバノン
+    ja: "レバノン"
     nl: Libanon
-    ru: Ливан
-    ar: لبنان
-    be: Ліван
+    ru: "Ливан"
+    ar: "لبنان"
+    be: "Ліван"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5797,6 +5844,7 @@ LC:
   currency: XCD
   international_prefix: '011'
   ioc: LCA
+  gec: ST
   latitude: 13 53 N
   longitude: 60 58 W
   name: Saint Lucia
@@ -5804,18 +5852,18 @@ LC:
   - Saint Lucia
   - Saint-Lucie
   - Santa Lucía
-  - セントルシア
+  - "セントルシア"
   translations:
     en: Saint Lucia
     it: Santa Lucia
     de: Saint Lucia
     fr: Saint-Lucie
     es: Santa Lucía
-    ja: セントルシア
+    ja: "セントルシア"
     nl: Saint Lucia
-    ru: Сент-Люсия
-    ar: سانت لوسيا
-    be: Сент-Люсія
+    ru: "Сент-Люсия"
+    ar: "سانت لوسيا"
+    be: "Сент-Люсія"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -5838,23 +5886,24 @@ LI:
   currency: CHF
   international_prefix: '00'
   ioc: LIE
+  gec: LS
   latitude: 47 16 N
   longitude: 9 32 E
   name: Liechtenstein
   names:
   - Liechtenstein
-  - リヒテンシュタイン
+  - "リヒテンシュタイン"
   translations:
     en: Liechtenstein
     it: Liechtenstein
     de: Liechtenstein
     fr: Liechtenstein
     es: Liechtenstein
-    ja: リヒテンシュタイン
+    ja: "リヒテンシュタイン"
     nl: Liechtenstein
-    ru: Лихтенштейн
-    ar: ليختنشتاين
-    be: Ліхтэнштэйн
+    ru: "Лихтенштейн"
+    ar: "ليختنشتاين"
+    be: "Ліхтэнштэйн"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5877,23 +5926,24 @@ LK:
   currency: LKR
   international_prefix: '00'
   ioc: SRI
+  gec: CE
   latitude: 7 00 N
   longitude: 81 00 E
   name: Sri Lanka
   names:
   - Sri Lanka
-  - スリランカ
+  - "スリランカ"
   translations:
     en: Sri Lanka
     it: Sri Lanka
     de: Sri Lanka
     fr: Sri Lanka
     es: Sri Lanka
-    ja: スリランカ
+    ja: "スリランカ"
     nl: Sri Lanka
-    ru: Шри-Ланка
-    ar: سيريلانكا
-    be: Шры-Ланка
+    ru: "Шри-Ланка"
+    ar: "سيريلانكا"
+    be: "Шры-Ланка"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5917,23 +5967,24 @@ LR:
   currency: LRD
   international_prefix: '00'
   ioc: LBR
+  gec: LI
   latitude: 6 30 N
   longitude: 9 30 W
   name: Liberia
   names:
   - Liberia
-  - リベリア
+  - "リベリア"
   translations:
     en: Liberia
     it: Liberia
     de: Liberia
     fr: Liberia
     es: Liberia
-    ja: リベリア
+    ja: "リベリア"
     nl: Liberia
-    ru: Либерия
-    ar: ليبيريا
-    be: Ліберыя
+    ru: "Либерия"
+    ar: "ليبيريا"
+    be: "Ліберыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5959,23 +6010,24 @@ LS:
   currency: LSL
   international_prefix: '00'
   ioc: LES
+  gec: LT
   latitude: 29 30 S
   longitude: 28 30 E
   name: Lesotho
   names:
   - Lesotho
-  - レソト
+  - "レソト"
   translations:
     en: Lesotho
     it: Lesotho
     de: Lesotho
     fr: Lesotho
     es: Lesotho
-    ja: レソト
+    ja: "レソト"
     nl: Lesotho
-    ru: Лесото
-    ar: ليسوتو
-    be: Лесото
+    ru: "Лесото"
+    ar: "ليسوتو"
+    be: "Лесото"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -5999,6 +6051,7 @@ LT:
   currency: EUR
   international_prefix: '00'
   ioc: LTU
+  gec: LH
   latitude: 56 00 N
   longitude: 24 00 E
   name: Lithuania
@@ -6007,20 +6060,20 @@ LT:
   - Litauen
   - Lituanie
   - Lituania
-  - リトアニア
+  - "リトアニア"
   - Litouwen
-  - Літва
+  - "Літва"
   translations:
     en: Lithuania
     it: Lituania
     de: Litauen
     fr: Lituanie
     es: Lituania
-    ja: リトアニア
+    ja: "リトアニア"
     nl: Litouwen
-    ru: Литва
-    ar: ليتوانيا
-    be: Літва
+    ru: "Литва"
+    ar: "ليتوانيا"
+    be: "Літва"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6040,24 +6093,23 @@ LT:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 LU:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: LU
   alpha3: LUX
   country_code: '352'
   currency: EUR
   international_prefix: '00'
   ioc: LUX
+  gec: LU
   latitude: 49 45 N
   longitude: 6 10 E
   name: Luxembourg
@@ -6065,18 +6117,18 @@ LU:
   - Luxembourg
   - Luxemburg
   - Luxemburgo
-  - ルクセンブルク
+  - "ルクセンブルク"
   translations:
     en: Luxembourg
     it: Lussemburgo
     de: Luxemburg
     fr: Luxembourg
     es: Luxemburgo
-    ja: ルクセンブルク
+    ja: "ルクセンブルク"
     nl: Luxemburg
-    ru: Люксембург
-    ar: لوكسمبورج
-    be: Люксембург
+    ru: "Люксембург"
+    ar: "لوكسمبورج"
+    be: "Люксембург"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6109,6 +6161,7 @@ LV:
   currency: EUR
   international_prefix: '00'
   ioc: LAT
+  gec: LG
   latitude: 57 00 N
   longitude: 25 00 E
   name: Latvia
@@ -6117,7 +6170,7 @@ LV:
   - Lettland
   - Lettonie
   - Letonia
-  - ラトビア
+  - "ラトビア"
   - Letland
   translations:
     en: Latvia
@@ -6125,11 +6178,11 @@ LV:
     de: Lettland
     fr: Lettonie
     es: Letonia
-    ja: ラトビア
+    ja: "ラトビア"
     nl: Letland
-    ru: Латвия
-    ar: لاتفيا
-    be: Латвія
+    ru: "Латвия"
+    ar: "لاتفيا"
+    be: "Латвія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6148,8 +6201,8 @@ LV:
     standard: 21
     reduced:
     - 12
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 LY:
   continent: Africa
@@ -6159,16 +6212,17 @@ LY:
   currency: LYD
   international_prefix: '00'
   ioc: LBA
+  gec: LY
   latitude: 25 00 N
   longitude: 17 00 E
   name: Libya
   names:
   - Libya
-  - ليبيا
+  - "ليبيا"
   - Libyen
   - Libye
   - Libia
-  - リビア
+  - "リビア"
   - Libië
   - Libyan Arab Jamahiriya
   translations:
@@ -6177,11 +6231,11 @@ LY:
     de: Libyen
     fr: Libye
     es: Libia
-    ja: リビア
+    ja: "リビア"
     nl: Libië
-    ru: Ливия
-    ar: ليبيا
-    be: Лівія
+    ru: "Ливия"
+    ar: "ليبيا"
+    be: "Лівія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6205,27 +6259,28 @@ MA:
   currency: MAD
   international_prefix: '00'
   ioc: MAR
+  gec: MO
   latitude: 32 00 N
   longitude: 5 00 W
   name: Morocco
   names:
   - Morocco
-  - المغرب
+  - "المغرب"
   - Marokko
   - Maroc
   - Marruecos
-  - モロッコ
+  - "モロッコ"
   translations:
     en: Morocco
     it: Marocco
     de: Marokko
     fr: Maroc
     es: Marruecos
-    ja: モロッコ
+    ja: "モロッコ"
     nl: Marokko
-    ru: Марокко
-    ar: المغرب
-    be: Марока
+    ru: "Марокко"
+    ar: "المغرب"
+    be: "Марока"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6248,24 +6303,25 @@ MC:
   currency: EUR
   international_prefix: '00'
   ioc: MON
+  gec: MN
   latitude: 43 44 N
   longitude: 7 24 E
   name: Monaco
   names:
   - Monaco
   - Mónaco
-  - モナコ
+  - "モナコ"
   translations:
     en: Monaco
     it: Principato di Monaco
     de: Monaco
     fr: Monaco
     es: Mónaco
-    ja: モナコ
+    ja: "モナコ"
     nl: Monaco
-    ru: Монако
-    ar: موناكو
-    be: Манака
+    ru: "Монако"
+    ar: "موناكو"
+    be: "Манака"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6289,6 +6345,7 @@ MD:
   currency: MDL
   international_prefix: '00'
   ioc: MDA
+  gec: MD
   latitude: 47 00 N
   longitude: 29 00 E
   name: Moldova, Republic of
@@ -6298,7 +6355,7 @@ MD:
   - Moldavie
   - Moldavia
   - the Republic of Moldova
-  - モルドバ共和国
+  - "モルドバ共和国"
   - Moldavië
   translations:
     en: Moldova
@@ -6306,11 +6363,11 @@ MD:
     de: Moldawie
     fr: Moldavie
     es: Moldavia
-    ja: モルドバ共和国
+    ja: "モルドバ共和国"
     nl: Moldavië
-    ru: Молдова
-    ar: مولدوفا
-    be: Малдова
+    ru: "Молдова"
+    ar: "مولدوفا"
+    be: "Малдова"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6333,24 +6390,25 @@ ME:
   currency: EUR
   international_prefix: '99'
   ioc: MNE
+  gec: MJ
   latitude: 42 30 N
   longitude: 19 18 E
   name: Montenegro
   names:
   - Crna Gora
   - Montenegro
-  - モンテネグロ
+  - "モンテネグロ"
   translations:
     en: Montenegro
     it: Montenegro
     de: Montenegro
     fr: Monténégro
     es: Montenegro
-    ja: モンテネグロ
+    ja: "モンテネグロ"
     nl: Montenegro
-    ru: Черногория
-    ar: الجبل الأسود
-    be: Чарнагорыя
+    ru: "Черногория"
+    ar: "الجبل الأسود"
+    be: "Чарнагорыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6375,13 +6433,14 @@ MF:
   country_code: '590'
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: RN
   latitude: 18 05 N
   longitude: 63 57 W
   name: Saint Martin
   names:
   - Saint Martin
-  - サン・マルタン（フランス領）
+  - "サン・マルタン（フランス領）"
   - Saint-Martin
   translations:
     en: Saint Martin
@@ -6389,11 +6448,11 @@ MF:
     de: Saint Martin
     fr: Saint-Martin
     es: Saint Martin
-    ja: サン・マルタン（フランス領）
+    ja: "サン・マルタン（フランス領）"
     nl: Saint-Martin
-    ru: Сен-Мартен
-    ar: سانت مارتن
-    be: Востраў Святога Марціна
+    ru: "Сен-Мартен"
+    ar: "سانت مارتن"
+    be: "Востраў Святога Марціна"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -6401,7 +6460,7 @@ MF:
   region: Americas
   subregion: Caribbean
   world_region: AMER
-  un_locode:
+  un_locode: 
   languages:
   - en
   - fr
@@ -6413,9 +6472,10 @@ MG:
   alpha2: MG
   alpha3: MDG
   country_code: '261'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: MAD
+  gec: MA
   latitude: 20 00 S
   longitude: 47 00 E
   name: Madagascar
@@ -6423,18 +6483,18 @@ MG:
   - Madagascar
   - Madagaskar
   - the Republic of Madagascar
-  - マダガスカル
+  - "マダガスカル"
   translations:
     en: Madagascar
     it: Madagascar
     de: Madagaskar
     fr: Madagascar
     es: Madagascar
-    ja: マダガスカル
+    ja: "マダガスカル"
     nl: Madagaskar
-    ru: Мадагаскар
-    ar: مدغشقر
-    be: Мадагаскар
+    ru: "Мадагаскар"
+    ar: "مدغشقر"
+    be: "Мадагаскар"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6458,27 +6518,28 @@ MH:
   currency: USD
   international_prefix: '00'
   ioc: MHL
+  gec: RM
   latitude: 9 00 N
   longitude: 168 00 E
   name: Marshall Islands
   names:
   - Marshall Islands
   - Marshallinseln
-  - Îles Marshall
+  - "Îles Marshall"
   - Islas Marshall
-  - マーシャル諸島
+  - "マーシャル諸島"
   - Marshalleilanden
   translations:
     en: Marshall Islands
     it: Isole Marshall
     de: Marshallinseln
-    fr: Îles Marshall
+    fr: "Îles Marshall"
     es: Islas Marshall
-    ja: マーシャル諸島
+    ja: "マーシャル諸島"
     nl: Marshalleilanden
-    ru: Маршалловы острова
-    ar: جزر مارشال
-    be: Маршалавы Астравы
+    ru: "Маршалловы острова"
+    ar: "جزر مارشال"
+    be: "Маршалавы Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6496,19 +6557,18 @@ MH:
   postal_code: true
 MK:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: MK
   alpha3: MKD
   country_code: '389'
   currency: MKD
   international_prefix: '00'
   ioc: MKD
+  gec: MK
   latitude: 41 50 N
   longitude: 22 00 E
   name: Macedonia, the Former Yugoslav Republic Of
@@ -6517,7 +6577,7 @@ MK:
   - Mazedonien
   - Macédoine
   - F.Y.R.O.M (Macedonia)
-  - マケドニア旧ユーゴスラビア共和国
+  - "マケドニア旧ユーゴスラビア共和国"
   - Macedonië [FYROM]
   translations:
     en: Macedonia
@@ -6525,11 +6585,11 @@ MK:
     de: Mazedonien
     fr: Macédoine
     es: Macedonia
-    ja: マケドニア旧ユーゴスラビア共和国
+    ja: "マケドニア旧ユーゴスラビア共和国"
     nl: Macedonië [FYROM]
-    ru: Македония
-    ar: مقدونيا
-    be: Македонія
+    ru: "Македония"
+    ar: "مقدونيا"
+    be: "Македонія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6553,23 +6613,24 @@ ML:
   currency: XOF
   international_prefix: '00'
   ioc: MLI
+  gec: ML
   latitude: 17 00 N
   longitude: 4 00 W
   name: Mali
   names:
   - Mali
-  - マリ
+  - "マリ"
   translations:
     en: Mali
     it: Mali
     de: Mali
     fr: Mali
     es: Mali
-    ja: マリ
+    ja: "マリ"
     nl: Mali
-    ru: Мали
-    ar: مالي
-    be: Малі
+    ru: "Мали"
+    ar: "مالي"
+    be: "Малі"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6592,23 +6653,24 @@ MM:
   currency: MMK
   international_prefix: '00'
   ioc: MYA
+  gec: BM
   latitude: 22 00 N
   longitude: 98 00 E
   name: Myanmar
   names:
   - Myanmar
-  - ミャンマー
+  - "ミャンマー"
   translations:
     en: Myanmar
     it: Birmania
     de: Myanmar
     fr: Myanmar
     es: Myanmar
-    ja: ミャンマー
+    ja: "ミャンマー"
     nl: Myanmar
-    ru: Мьянма
-    ar: ميانمار
-    be: М'янма
+    ru: "Мьянма"
+    ar: "ميانمار"
+    be: "М'янма"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6632,6 +6694,7 @@ MN:
   currency: MNT
   international_prefix: '001'
   ioc: MGL
+  gec: MG
   latitude: 46 00 N
   longitude: 105 00 E
   name: Mongolia
@@ -6639,7 +6702,7 @@ MN:
   - Mongolia
   - Mongolei
   - Mongolie
-  - モンゴル
+  - "モンゴル"
   - Mongolië
   translations:
     en: Mongolia
@@ -6647,11 +6710,11 @@ MN:
     de: Mongolei
     fr: Mongolie
     es: Mongolia
-    ja: モンゴル
+    ja: "モンゴル"
     nl: Mongolië
-    ru: Монголия
-    ar: منغوليا
-    be: Манголія
+    ru: "Монголия"
+    ar: "منغوليا"
+    be: "Манголія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6674,26 +6737,27 @@ MO:
   alpha2: MO
   alpha3: MAC
   country_code: '853'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MC
   latitude: 22 10 N
   longitude: 113 33 E
   name: Macao
   names:
   - Macao
-  - マカオ
+  - "マカオ"
   translations:
     en: Macao
     it: Macao
     de: Macao
     fr: Macao
     es: Macao
-    ja: マカオ
+    ja: "マカオ"
     nl: Macao
-    ru: Макао
-    ar: ماكاو
-    be: Макаа
+    ru: "Макао"
+    ar: "ماكاو"
+    be: "Макаа"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6716,7 +6780,8 @@ MP:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: CQ
   latitude: 15 12 N
   longitude: 145 45 E
   name: Northern Mariana Islands
@@ -6725,19 +6790,19 @@ MP:
   - Nördliche Marianen
   - Mariannes du Nord
   - Islas Marianas del Norte
-  - 北マリアナ諸島
+  - "北マリアナ諸島"
   - Noordelijke Marianeneilanden
   translations:
     en: Northern Mariana Islands
     it: Isole Marianne Settentrionali
     de: Nördliche Marianen
-    fr: Îles Mariannes du Nord
+    fr: "Îles Mariannes du Nord"
     es: Islas Marianas del Norte
-    ja: 北マリアナ諸島
+    ja: "北マリアナ諸島"
     nl: Noordelijke Marianeneilanden
-    ru: Северные Марианские Острова
-    ar: جزر ماريانا الشمالية
-    be: Паўночныя Марыянскія Астравы
+    ru: "Северные Марианские Острова"
+    ar: "جزر ماريانا الشمالية"
+    be: "Паўночныя Марыянскія Астравы"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -6760,25 +6825,26 @@ MQ:
   country_code: '596'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MB
   latitude: ''
   longitude: ''
   name: Martinique
   names:
   - Martinique
   - Martinica
-  - マルティニーク
+  - "マルティニーク"
   translations:
     en: Martinique
     it: Martinica
     de: Martinique
     fr: Martinique
     es: Martinica
-    ja: マルティニーク
+    ja: "マルティニーク"
     nl: Martinique
-    ru: Мартиника
-    ar: مارتينيك
-    be: Марцініка
+    ru: "Мартиника"
+    ar: "مارتينيك"
+    be: "Марцініка"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -6801,15 +6867,16 @@ MR:
   currency: MRO
   international_prefix: '00'
   ioc: MTN
+  gec: MR
   latitude: 20 00 N
   longitude: 12 00 W
   name: Mauritania
   names:
   - Mauritania
-  - موريتانيا
+  - "موريتانيا"
   - Mauretanien
   - Mauritanie
-  - モーリタニア
+  - "モーリタニア"
   - Mauritanië
   translations:
     en: Mauritania
@@ -6817,11 +6884,11 @@ MR:
     de: Mauretanien
     fr: Mauritanie
     es: Mauritania
-    ja: モーリタニア
+    ja: "モーリタニア"
     nl: Mauritanië
-    ru: Мавритания
-    ar: موريتانيا
-    be: Маўрытанія
+    ru: "Мавритания"
+    ar: "موريتانيا"
+    be: "Маўрытанія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6844,24 +6911,25 @@ MS:
   country_code: '1'
   currency: XCD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: MH
   latitude: 16 45 N
   longitude: 62 12 W
   name: Montserrat
   names:
   - Montserrat
-  - モントセラト
+  - "モントセラト"
   translations:
     en: Montserrat
     it: Montserrat
     de: Montserrat
     fr: Montserrat
     es: Montserrat
-    ja: モントセラト
+    ja: "モントセラト"
     nl: Montserrat
-    ru: Монтсеррат
-    ar: مونتسرات
-    be: Мантсерат
+    ru: "Монтсеррат"
+    ar: "مونتسرات"
+    be: "Мантсерат"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -6884,24 +6952,25 @@ MT:
   currency: EUR
   international_prefix: '00'
   ioc: MLT
+  gec: MT
   latitude: 35 50 N
   longitude: 14 35 E
   name: Malta
   names:
   - Malta
   - Malte
-  - マルタ
+  - "マルタ"
   translations:
     en: Malta
     it: Malta
     de: Malta
     fr: Malte
     es: Malta
-    ja: マルタ
+    ja: "マルタ"
     nl: Malta
-    ru: Мальта
-    ar: مالطا
-    be: Мальта
+    ru: "Мальта"
+    ar: "مالطا"
+    be: "Мальта"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6922,8 +6991,8 @@ MT:
     reduced:
     - 5
     - 7
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 MU:
   continent: Africa
@@ -6933,25 +7002,26 @@ MU:
   currency: MUR
   international_prefix: '020'
   ioc: MRI
+  gec: MP
   latitude: 20 17 S
   longitude: 57 33 E
   name: Mauritius
   names:
   - Mauritius
-  - Île Maurice
+  - "Île Maurice"
   - Mauricio
-  - モーリシャス
+  - "モーリシャス"
   translations:
     en: Mauritius
     it: Mauritius
     de: Mauritius
-    fr: Île Maurice
+    fr: "Île Maurice"
     es: Mauricio
-    ja: モーリシャス
+    ja: "モーリシャス"
     nl: Mauritius
-    ru: Маврикий
-    ar: موريشيوس
-    be: Маўрыкій
+    ru: "Маврикий"
+    ar: "موريشيوس"
+    be: "Маўрыкій"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -6974,6 +7044,7 @@ MV:
   currency: MVR
   international_prefix: '00'
   ioc: MDV
+  gec: MV
   latitude: 3 15 N
   longitude: 73 00 E
   name: Maldives
@@ -6981,7 +7052,7 @@ MV:
   - Maldives
   - Malediven
   - Maldivas
-  - モルディブ
+  - "モルディブ"
   - Maldiven
   translations:
     en: Maldives
@@ -6989,11 +7060,11 @@ MV:
     de: Malediven
     fr: Maldives
     es: Maldivas
-    ja: モルディブ
+    ja: "モルディブ"
     nl: Maldiven
-    ru: Мальдивы
-    ar: جزر المالديف
-    be: Мальдывы
+    ru: "Мальдивы"
+    ar: "جزر المالديف"
+    be: "Мальдывы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7016,23 +7087,24 @@ MW:
   currency: MWK
   international_prefix: '00'
   ioc: MAW
+  gec: MI
   latitude: 13 30 S
   longitude: 34 00 E
   name: Malawi
   names:
   - Malawi
-  - マラウイ
+  - "マラウイ"
   translations:
     en: Malawi
     it: Malawi
     de: Malawi
     fr: Malawi
     es: Malawi
-    ja: マラウイ
+    ja: "マラウイ"
     nl: Malawi
-    ru: Малави
-    ar: مالاوي
-    be: Малаві
+    ru: "Малави"
+    ar: "مالاوي"
+    be: "Малаві"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7050,19 +7122,18 @@ MW:
   postal_code: false
 MX:
   continent: North America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: MX
   alpha3: MEX
   country_code: '52'
   currency: MXN
   international_prefix: '00'
   ioc: MEX
+  gec: MX
   latitude: 23 00 N
   longitude: 102 00 W
   name: Mexico
@@ -7071,18 +7142,18 @@ MX:
   - Mexiko
   - Mexique
   - México
-  - メキシコ
+  - "メキシコ"
   translations:
     en: Mexico
     it: Messico
     de: Mexiko
     fr: Mexique
     es: México
-    ja: メキシコ
+    ja: "メキシコ"
     nl: Mexico
-    ru: Мексика
-    ar: المكسيك
-    be: Мексіка
+    ru: "Мексика"
+    ar: "المكسيك"
+    be: "Мексіка"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7107,6 +7178,7 @@ MY:
   currency: MYR
   international_prefix: '00'
   ioc: MAS
+  gec: MY
   latitude: 2 30 N
   longitude: 112 30 E
   name: Malaysia
@@ -7114,7 +7186,7 @@ MY:
   - Malaysia
   - Malaisie
   - Malasia
-  - マレーシア
+  - "マレーシア"
   - Maleisië
   translations:
     en: Malaysia
@@ -7122,11 +7194,11 @@ MY:
     de: Malaysia
     fr: Malaisie
     es: Malasia
-    ja: マレーシア
+    ja: "マレーシア"
     nl: Maleisië
-    ru: Малайзия
-    ar: ماليزيا
-    be: Малайзія
+    ru: "Малайзия"
+    ar: "ماليزيا"
+    be: "Малайзія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7151,24 +7223,25 @@ MZ:
   currency: MZN
   international_prefix: '00'
   ioc: MOZ
+  gec: MZ
   latitude: 18 15 S
   longitude: 35 00 E
   name: Mozambique
   names:
   - Mozambique
   - Mosambik
-  - モザンビーク
+  - "モザンビーク"
   translations:
     en: Mozambique
     it: Mozambico
     de: Mosambik
     fr: Mozambique
     es: Mozambique
-    ja: モザンビーク
+    ja: "モザンビーク"
     nl: Mozambique
-    ru: Мозамбик
-    ar: موزمبيق
-    be: Мазамбік
+    ru: "Мозамбик"
+    ar: "موزمبيق"
+    be: "Мазамбік"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7193,13 +7266,14 @@ NA:
   currency: NAD
   international_prefix: '00'
   ioc: NAM
+  gec: WA
   latitude: 22 00 S
   longitude: 17 00 E
   name: Namibia
   names:
   - Namibia
   - Namibie
-  - ナミビア
+  - "ナミビア"
   - Namibië
   translations:
     en: Namibia
@@ -7207,11 +7281,11 @@ NA:
     de: Namibia
     fr: Namibie
     es: Namibia
-    ja: ナミビア
+    ja: "ナミビア"
     nl: Namibië
-    ru: Намибия
-    ar: ناميبيا
-    be: Намібія
+    ru: "Намибия"
+    ar: "ناميبيا"
+    be: "Намібія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7235,7 +7309,8 @@ NC:
   country_code: '687'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NC
   latitude: 21 30 S
   longitude: 165 30 E
   name: New Caledonia
@@ -7244,7 +7319,7 @@ NC:
   - Neukaledonien
   - Nouvelle Calédonie
   - Nueva Caledonia
-  - ニューカレドニア
+  - "ニューカレドニア"
   - Nieuw-Caledonië
   translations:
     en: New Caledonia
@@ -7252,11 +7327,11 @@ NC:
     de: Neukaledonien
     fr: Nouvelle-Calédonie
     es: Nueva Caledonia
-    ja: ニューカレドニア
+    ja: "ニューカレドニア"
     nl: Nieuw-Caledonië
-    ru: Новая Каледония
-    ar: كاليدونيا الجديدة
-    be: Новая Каледонія
+    ru: "Новая Каледония"
+    ar: "كاليدونيا الجديدة"
+    be: "Новая Каледонія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7279,24 +7354,25 @@ NE:
   currency: XOF
   international_prefix: '00'
   ioc: NIG
+  gec: NG
   latitude: 16 00 N
   longitude: 8 00 E
   name: Niger
   names:
   - Niger
   - Níger
-  - ニジェール
+  - "ニジェール"
   translations:
     en: Niger
     it: Niger
     de: Niger
     fr: Niger
     es: Níger
-    ja: ニジェール
+    ja: "ニジェール"
     nl: Niger
-    ru: Нигер
-    ar: النيجر
-    be: Нігер
+    ru: "Нигер"
+    ar: "النيجر"
+    be: "Нігер"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7318,28 +7394,29 @@ NF:
   country_code: '672'
   currency: AUD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NF
   latitude: 29 02 S
   longitude: 167 57 E
   name: Norfolk Island
   names:
   - Norfolk Island
   - Norfolkinsel
-  - Île de Norfolk
+  - "Île de Norfolk"
   - Isla de Norfolk
-  - ノーフォーク島
+  - "ノーフォーク島"
   - Norfolkeiland
   translations:
     en: Norfolk Island
     it: Isola Norfolk
     de: Norfolkinsel
-    fr: Île de Norfolk
+    fr: "Île de Norfolk"
     es: Isla de Norfolk
-    ja: ノーフォーク島
+    ja: "ノーフォーク島"
     nl: Norfolkeiland
-    ru: Остров Норфолк
-    ar: جزيرة نورفولك
-    be: Востраў Норфолк
+    ru: "Остров Норфолк"
+    ar: "جزيرة نورفولك"
+    be: "Востраў Норфолк"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7362,6 +7439,7 @@ NG:
   currency: NGN
   international_prefix: 009
   ioc: NGR
+  gec: NI
   latitude: 10 00 N
   longitude: 8 00 E
   name: Nigeria
@@ -7369,18 +7447,18 @@ NG:
   - Nigeria
   - Nigéria
   - the Federal Republic of Nigeria
-  - ナイジェリア
+  - "ナイジェリア"
   translations:
     en: Nigeria
     it: Nigeria
     de: Nigeria
     fr: Nigéria
     es: Nigeria
-    ja: ナイジェリア
+    ja: "ナイジェリア"
     nl: Nigeria
-    ru: Нигерия
-    ar: نيجيريا
-    be: Нігерыя
+    ru: "Нигерия"
+    ar: "نيجيريا"
+    be: "Нігерыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7404,23 +7482,24 @@ NI:
   currency: NIO
   international_prefix: '00'
   ioc: NCA
+  gec: NU
   latitude: 13 00 N
   longitude: 85 00 W
   name: Nicaragua
   names:
   - Nicaragua
-  - ニカラグア
+  - "ニカラグア"
   translations:
     en: Nicaragua
     it: Nicaragua
     de: Nicaragua
     fr: Nicaragua
     es: Nicaragua
-    ja: ニカラグア
+    ja: "ニカラグア"
     nl: Nicaragua
-    ru: Никарагуа
-    ar: نيكاراغوا
-    be: Нікарагуа
+    ru: "Никарагуа"
+    ar: "نيكاراغوا"
+    be: "Нікарагуа"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7437,19 +7516,18 @@ NI:
   postal_code: true
 NL:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: NL
   alpha3: NLD
   country_code: '31'
   currency: EUR
   international_prefix: '00'
   ioc: NED
+  gec: NL
   latitude: 52 30 N
   longitude: 5 45 E
   name: Netherlands
@@ -7458,7 +7536,7 @@ NL:
   - Niederlande
   - Pays-Bas
   - Países Bajos
-  - オランダ
+  - "オランダ"
   - Nederland
   translations:
     en: Netherlands
@@ -7466,11 +7544,11 @@ NL:
     de: Niederlande
     fr: Pays-Bas
     es: Países Bajos
-    ja: オランダ
+    ja: "オランダ"
     nl: Nederland
-    ru: Нидерланды
-    ar: هولندا
-    be: Нідэрланды
+    ru: "Нидерланды"
+    ar: "هولندا"
+    be: "Нідэрланды"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7489,24 +7567,23 @@ NL:
     standard: 21
     reduced:
     - 6
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 'NO':
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: 'NO'
   alpha3: NOR
   country_code: '47'
   currency: NOK
   international_prefix: '00'
   ioc: NOR
+  gec: 
   latitude: 62 00 N
   longitude: 10 00 E
   name: Norway
@@ -7515,7 +7592,7 @@ NL:
   - Norwegen
   - Norvège
   - Noruega
-  - ノルウェー
+  - "ノルウェー"
   - Noorwegen
   translations:
     en: Norway
@@ -7523,11 +7600,11 @@ NL:
     de: Norwegen
     fr: Norvège
     es: Noruega
-    ja: ノルウェー
+    ja: "ノルウェー"
     nl: Noorwegen
-    ru: Норвегия
-    ar: النرويج
-    be: Нарвегія
+    ru: "Норвегия"
+    ar: "النرويج"
+    be: "Нарвегія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7550,6 +7627,7 @@ NP:
   currency: NPR
   international_prefix: '00'
   ioc: NEP
+  gec: NP
   latitude: 28 00 N
   longitude: 84 00 E
   name: Nepal
@@ -7557,18 +7635,18 @@ NP:
   - Nepal
   - Népal
   - the Federal Democratic Republic of Nepal
-  - ネパール
+  - "ネパール"
   translations:
     en: Nepal
     it: Nepal
     de: Népal
     fr: Nepal
     es: Nepal
-    ja: ネパール
+    ja: "ネパール"
     nl: Nepal
-    ru: Непал
-    ar: نيبال
-    be: Непал
+    ru: "Непал"
+    ar: "نيبال"
+    be: "Непал"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7592,23 +7670,24 @@ NR:
   currency: AUD
   international_prefix: '00'
   ioc: NRU
+  gec: NR
   latitude: 0 32 S
   longitude: 166 55 E
   name: Nauru
   names:
   - Nauru
-  - ナウル
+  - "ナウル"
   translations:
     en: Nauru
     it: Nauru
     de: Nauru
     fr: Nauru
     es: Nauru
-    ja: ナウル
+    ja: "ナウル"
     nl: Nauru
-    ru: Науру
-    ar: ناورو
-    be: Науру
+    ru: "Науру"
+    ar: "ناورو"
+    be: "Науру"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7629,26 +7708,27 @@ NU:
   alpha2: NU
   alpha3: NIU
   country_code: '683'
-  currency:
+  currency: 
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: NE
   latitude: 19 02 S
   longitude: 169 52 W
   name: Niue
   names:
   - Niue
-  - ニウエ
+  - "ニウエ"
   translations:
     en: Niue
     it: Niue
     de: Niue
     fr: Niue
     es: Niue
-    ja: ニウエ
+    ja: "ニウエ"
     nl: Niue
-    ru: Ниуэ
-    ar: نيوي
-    be: Ніуэ
+    ru: "Ниуэ"
+    ar: "نيوي"
+    be: "Ніуэ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7665,21 +7745,19 @@ NU:
   postal_code: false
 NZ:
   continent: Australia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{region}}
-
     {{city}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: NZ
   alpha3: NZL
   country_code: '64'
   currency: NZD
   international_prefix: '00'
   ioc: NZL
+  gec: NZ
   latitude: 41 00 S
   longitude: 174 00 E
   name: New Zealand
@@ -7688,7 +7766,7 @@ NZ:
   - Neuseeland
   - Nouvelle ZÃ©lande
   - Nueva Zelanda
-  - ニュージーランド
+  - "ニュージーランド"
   - Nieuw-Zeeland
   translations:
     en: New Zealand
@@ -7696,11 +7774,11 @@ NZ:
     de: Neuseeland
     fr: Nouvelle-Zélande
     es: Nueva Zelanda
-    ja: ニュージーランド
+    ja: "ニュージーランド"
     nl: Nieuw-Zeeland
-    ru: Новая Зеландия
-    ar: نيوزيلندا
-    be: Новая Зеландыя
+    ru: "Новая Зеландия"
+    ar: "نيوزيلندا"
+    be: "Новая Зеландыя"
   national_destination_code_lengths:
   - 1
   national_number_lengths:
@@ -7718,40 +7796,38 @@ NZ:
   postal_code: true
 OM:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
     {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: OM
   alpha3: OMN
   country_code: '968'
   currency: OMR
   international_prefix: '00'
   ioc: OMA
+  gec: MU
   latitude: 21 00 N
   longitude: 57 00 E
   name: Oman
   names:
   - Oman
-  - عمان
+  - "عمان"
   - Omán
-  - オマーン
+  - "オマーン"
   translations:
     en: Oman
     it: oman
     de: Oman
     fr: Oman
     es: Omán
-    ja: オマーン
+    ja: "オマーン"
     nl: Oman
-    ru: Оман
-    ar: سلطنة عمان
-    be: Аман
+    ru: "Оман"
+    ar: "سلطنة عمان"
+    be: "Аман"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7775,24 +7851,25 @@ PA:
   currency: PAB
   international_prefix: '00'
   ioc: PAN
+  gec: PM
   latitude: 9 00 N
   longitude: 80 00 W
   name: Panama
   names:
   - Panama
   - Panamá
-  - パナマ
+  - "パナマ"
   translations:
     en: Panama
     it: Panama
     de: Panama
     fr: Panama
     es: Panamá
-    ja: パナマ
+    ja: "パナマ"
     nl: Panama
-    ru: Панама
-    ar: بنما
-    be: Панама
+    ru: "Панама"
+    ar: "بنما"
+    be: "Панама"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7815,6 +7892,7 @@ PE:
   currency: PEN
   international_prefix: '00'
   ioc: PER
+  gec: PE
   latitude: 10 00 S
   longitude: 76 00 W
   name: Peru
@@ -7822,18 +7900,18 @@ PE:
   - Peru
   - Pérou
   - Perú
-  - ペルー
+  - "ペルー"
   translations:
     en: Peru
     it: Perù
     de: Peru
     fr: Pérou
     es: Perú
-    ja: ペルー
+    ja: "ペルー"
     nl: Peru
-    ru: Перу
-    ar: بيرو
-    be: Перу
+    ru: "Перу"
+    ar: "بيرو"
+    be: "Перу"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7856,7 +7934,8 @@ PF:
   country_code: '689'
   currency: XPF
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: FP
   latitude: 15 00 S
   longitude: 140 00 W
   name: French Polynesia
@@ -7865,7 +7944,7 @@ PF:
   - Französisch-Polynesien
   - Polynésie Française
   - Polinesia Francesa
-  - フランス領ポリネシア
+  - "フランス領ポリネシア"
   - Frans-Polynesië
   translations:
     en: French Polynesia
@@ -7873,11 +7952,11 @@ PF:
     de: Französisch-Polynesien
     fr: Polynésie Française
     es: Polinesia Francesa
-    ja: フランス領ポリネシア
+    ja: "フランス領ポリネシア"
     nl: Frans-Polynesië
-    ru: Французская Полинезия
-    ar: بولينيزيا الفرنسية
-    be: Французская Палінэзія
+    ru: "Французская Полинезия"
+    ar: "بولينيزيا الفرنسية"
+    be: "Французская Палінэзія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7900,6 +7979,7 @@ PG:
   currency: PGK
   international_prefix: '05'
   ioc: PNG
+  gec: PP
   latitude: 6 00 S
   longitude: 147 00 E
   name: Papua New Guinea
@@ -7908,7 +7988,7 @@ PG:
   - Papua-Neuguinea
   - Papouasie Nouvelle-Guinée
   - Papúa Nueva Guinea
-  - パプアニューギニア
+  - "パプアニューギニア"
   - Papoea-Nieuw-Guinea
   translations:
     en: Papua New Guinea
@@ -7916,11 +7996,11 @@ PG:
     de: Papua-Neuguinea
     fr: Papouasie Nouvelle-Guinée
     es: Papúa Nueva Guinea
-    ja: パプアニューギニア
+    ja: "パプアニューギニア"
     nl: Papoea-Nieuw-Guinea
-    ru: Папуа-Новая Гвинея
-    ar: بابوا غينيا الجديدة
-    be: Папуа-Новая Гвінея
+    ru: "Папуа-Новая Гвинея"
+    ar: "بابوا غينيا الجديدة"
+    be: "Папуа-Новая Гвінея"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7937,19 +8017,18 @@ PG:
   postal_code: true
 PH:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}} {{region}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: PH
   alpha3: PHL
   country_code: '63'
   currency: PHP
   international_prefix: '00'
   ioc: PHI
+  gec: RP
   latitude: 13 00 N
   longitude: 122 00 E
   name: Philippines
@@ -7957,7 +8036,7 @@ PH:
   - Philippines
   - Philippinen
   - Filipinas
-  - フィリピン
+  - "フィリピン"
   - Filipijnen
   translations:
     en: Philippines
@@ -7965,11 +8044,11 @@ PH:
     de: Philippinen
     fr: Philippines
     es: Filipinas
-    ja: フィリピン
+    ja: "フィリピン"
     nl: Filipijnen
-    ru: Филиппины
-    ar: الفلبين
-    be: Філіпіны
+    ru: "Филиппины"
+    ar: "الفلبين"
+    be: "Філіпіны"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -7995,24 +8074,25 @@ PK:
   currency: PKR
   international_prefix: '00'
   ioc: PAK
+  gec: PK
   latitude: 30 00 N
   longitude: 70 00 E
   name: Pakistan
   names:
   - Pakistan
   - Paquistán
-  - パキスタン
+  - "パキスタン"
   translations:
     en: Pakistan
     it: Pakistan
     de: Pakistan
     fr: Paquistan
     es: Pakistán
-    ja: パキスタン
+    ja: "パキスタン"
     nl: Pakistan
-    ru: Пакистан
-    ar: باكستان
-    be: Пакістан
+    ru: "Пакистан"
+    ar: "باكستان"
+    be: "Пакістан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8031,21 +8111,19 @@ PK:
   postal_code: true
 PL:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
     {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: PL
   alpha3: POL
   country_code: '48'
   currency: PLN
   international_prefix: '00'
   ioc: POL
+  gec: PL
   latitude: 52 00 N
   longitude: 20 00 E
   name: Poland
@@ -8054,18 +8132,18 @@ PL:
   - Polen
   - Pologne
   - Polonia
-  - ポーランド
+  - "ポーランド"
   translations:
     en: Poland
     it: Polonia
     de: Polen
     fr: Pologne
     es: Polonia
-    ja: ポーランド
+    ja: "ポーランド"
     nl: Polen
-    ru: Польша
-    ar: بولندا
-    be: Польшча
+    ru: "Польша"
+    ar: "بولندا"
+    be: "Польшча"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8085,7 +8163,7 @@ PL:
     reduced:
     - 5
     - 8
-    super_reduced:
+    super_reduced: 
     parking: 
   postal_code: true
 PM:
@@ -8095,7 +8173,8 @@ PM:
   country_code: '508'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SB
   latitude: 46 50 N
   longitude: 56 20 W
   name: Saint Pierre And Miquelon
@@ -8104,7 +8183,7 @@ PM:
   - Saint-Pierre und Miquelon
   - Saint-Pierre-et-Miquelon
   - San Pedro y Miquelón
-  - サンピエール島・ミクロン島
+  - "サンピエール島・ミクロン島"
   - Saint Pierre en Miquelon
   translations:
     en: Saint Pierre and Miquelon
@@ -8112,11 +8191,11 @@ PM:
     de: Saint-Pierre und Miquelon
     fr: Saint-Pierre-et-Miquelon
     es: San Pedro y Miquelón
-    ja: サンピエール島・ミクロン島
+    ja: "サンピエール島・ミクロン島"
     nl: Saint Pierre en Miquelon
-    ru: Сен-Пьер и Микелон
-    ar: سان بيار وميكلون
-    be: Сен-П'ер і Мікелон
+    ru: "Сен-Пьер и Микелон"
+    ar: "سان بيار وميكلون"
+    be: "Сен-П'ер і Мікелон"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8138,25 +8217,26 @@ PN:
   country_code: ''
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: PC
   latitude: 25 04 S
   longitude: 130 06 W
   name: Pitcairn
   names:
   - Pitcairn
-  - ピトケアン
+  - "ピトケアン"
   - Pitcairneilanden
   translations:
     en: Pitcairn
     it: Isole Pitcairn
     de: Pitcairn
-    fr: Îles Pitcairn
+    fr: "Îles Pitcairn"
     es: Islas Pitcairn
-    ja: ピトケアン
+    ja: "ピトケアン"
     nl: Pitcairneilanden
-    ru: Острова Питкэрн
-    ar: جزر بيتكيرن
-    be: Астравы Піткэрн
+    ru: "Острова Питкэрн"
+    ar: "جزر بيتكيرن"
+    be: "Астравы Піткэрн"
   national_destination_code_lengths: []
   national_number_lengths:
   - 9
@@ -8178,23 +8258,24 @@ PR:
   currency: USD
   international_prefix: '011'
   ioc: PUR
+  gec: RQ
   latitude: 18 15 N
   longitude: 66 30 W
   name: Puerto Rico
   names:
   - Puerto Rico
-  - プエルトリコ
+  - "プエルトリコ"
   translations:
     en: Puerto Rico
     it: Porto Rico
     de: Puerto Rico
     fr: Porto Rico
     es: Puerto Rico
-    ja: プエルトリコ
+    ja: "プエルトリコ"
     nl: Puerto Rico
-    ru: Пуэрто-Рико
-    ar: بورتوريكو
-    be: Пуэрта-Рыка
+    ru: "Пуэрто-Рико"
+    ar: "بورتوريكو"
+    be: "Пуэрта-Рыка"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -8215,19 +8296,20 @@ PS:
   alpha2: PS
   alpha3: PSE
   country_code: '970'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: PLE
+  gec: WE
   latitude: ''
   longitude: ''
   name: Palestine, State of
   names:
   - Palestine
-  - فلسطين
+  - "فلسطين"
   - Palästina
   - Palestina
   - the Occupied Palestinian Territory
-  - パレスチナ
+  - "パレスチナ"
   - Palestijnse gebieden
   - Palestinian Territory Occupied
   translations:
@@ -8236,11 +8318,11 @@ PS:
     de: Palästina
     fr: Palestina
     es: Palestina
-    ja: パレスチナ
+    ja: "パレスチナ"
     nl: Palestijnse gebieden
-    ru: Палестина
-    ar: فلسطين
-    be: Палестына
+    ru: "Палестина"
+    ar: "فلسطين"
+    be: "Палестына"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8250,7 +8332,7 @@ PS:
   region: Asia
   subregion: Western Asia
   world_region: EMEA
-  un_locode:
+  un_locode: 
   languages:
   - ar
   - he
@@ -8259,36 +8341,35 @@ PS:
   postal_code: true
 PT:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}} {{region}}
-
-    {{country}}'
+    {{country}}
   alpha2: PT
   alpha3: PRT
   country_code: '351'
   currency: EUR
   international_prefix: '00'
   ioc: POR
+  gec: PO
   latitude: 39 30 N
   longitude: 8 00 W
   name: Portugal
   names:
   - Portugal
-  - ポルトガル
+  - "ポルトガル"
   translations:
     en: Portugal
     it: Portogallo
     de: Portugal
     fr: Portugal
     es: Portugal
-    ja: ポルトガル
+    ja: "ポルトガル"
     nl: Portugal
-    ru: Португалия
-    ar: البرتغال
-    be: Партугалія
+    ru: "Португалия"
+    ar: "البرتغال"
+    be: "Партугалія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8308,7 +8389,7 @@ PT:
     reduced:
     - 6
     - 13
-    super_reduced:
+    super_reduced: 
     parking: 13
   postal_code: true
 PW:
@@ -8319,23 +8400,24 @@ PW:
   currency: USD
   international_prefix: '00'
   ioc: PLW
+  gec: PS
   latitude: 7 30 N
   longitude: 134 30 E
   name: Palau
   names:
   - Palau
-  - パラオ
+  - "パラオ"
   translations:
     en: Palau
     it: Palau
     de: Palau
     fr: Palaos
     es: Palau
-    ja: パラオ
+    ja: "パラオ"
     nl: Palau
-    ru: Палау
-    ar: بالاو
-    be: Палау
+    ru: "Палау"
+    ar: "بالاو"
+    be: "Палау"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8358,23 +8440,24 @@ PY:
   currency: PYG
   international_prefix: '002'
   ioc: PAR
+  gec: PA
   latitude: 23 00 S
   longitude: 58 00 W
   name: Paraguay
   names:
   - Paraguay
-  - パラグアイ
+  - "パラグアイ"
   translations:
     en: Paraguay
     it: Paraguay
     de: Paraguay
     fr: Paraguay
     es: Paraguay
-    ja: パラグアイ
+    ja: "パラグアイ"
     nl: Paraguay
-    ru: Парагвай
-    ar: باراجواي
-    be: Парагвай
+    ru: "Парагвай"
+    ar: "باراجواي"
+    be: "Парагвай"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8392,38 +8475,37 @@ PY:
   postal_code: true
 QA:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: QA
   alpha3: QAT
   country_code: '974'
   currency: QAR
   international_prefix: '00'
   ioc: QAT
+  gec: QA
   latitude: 25 30 N
   longitude: 51 15 E
   name: Qatar
   names:
   - Qatar
-  - قطر
+  - "قطر"
   - Katar
-  - カタール
+  - "カタール"
   translations:
     en: Qatar
     it: Qatar
     de: Katar
     fr: Qatar
     es: Catar
-    ja: カタール
+    ja: "カタール"
     nl: Qatar
-    ru: Катар
-    ar: قطر
-    be: Катар
+    ru: "Катар"
+    ar: "قطر"
+    be: "Катар"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8445,7 +8527,8 @@ RE:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: RE
   latitude: ''
   longitude: ''
   name: Réunion
@@ -8453,18 +8536,18 @@ RE:
   - Réunion
   - Reunión
   - Reunion
-  - レユニオン
+  - "レユニオン"
   translations:
     en: Réunion
     it: Riunione
     de: Réunion
     fr: Réunion
     es: Reunión
-    ja: レユニオン
+    ja: "レユニオン"
     nl: Réunion
-    ru: Реюньон
-    ar: ريونيون
-    be: Рэюньён
+    ru: "Реюньон"
+    ar: "ريونيون"
+    be: "Рэюньён"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8481,19 +8564,18 @@ RE:
   postal_code: true
 RO:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: RO
   alpha3: ROU
   country_code: '40'
   currency: RON
   international_prefix: '00'
   ioc: ROU
+  gec: RO
   latitude: 46 00 N
   longitude: 25 00 E
   name: Romania
@@ -8502,7 +8584,7 @@ RO:
   - Rumänien
   - Roumanie
   - Rumania
-  - ルーマニア
+  - "ルーマニア"
   - Roemenië
   translations:
     en: Romania
@@ -8510,11 +8592,11 @@ RO:
     de: Rumänien
     fr: Roumanie
     es: Rumania
-    ja: ルーマニア
+    ja: "ルーマニア"
     nl: Roemenië
-    ru: Румыния
-    ar: رومانيا
-    be: Румынія
+    ru: "Румыния"
+    ar: "رومانيا"
+    be: "Румынія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8534,8 +8616,8 @@ RO:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 RS:
   continent: Europe
@@ -8545,6 +8627,7 @@ RS:
   currency: RSD
   international_prefix: '99'
   ioc: SRB
+  gec: RI
   latitude: 44 00 N
   longitude: 21 00 E
   name: Serbia
@@ -8552,7 +8635,7 @@ RS:
   - Serbia
   - Serbien
   - Serbie
-  - セルビア
+  - "セルビア"
   - Servië
   translations:
     en: Serbia
@@ -8560,11 +8643,11 @@ RS:
     de: Serbien
     fr: Serbie
     es: Serbia
-    ja: セルビア
+    ja: "セルビア"
     nl: Servië
-    ru: Сербия
-    ar: صربيا
-    be: Сербія
+    ru: "Сербия"
+    ar: "صربيا"
+    be: "Сербія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8581,19 +8664,18 @@ RS:
   postal_code: true
 RU:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{postalcode}} {{city}}
-
     {{street}}
-
-    {{country}}'
+    {{country}}
   alpha2: RU
   alpha3: RUS
   country_code: '7'
   currency: RUB
   international_prefix: '810'
   ioc: RUS
+  gec: RS
   latitude: 60 00 N
   longitude: 100 00 E
   name: Russian Federation
@@ -8602,21 +8684,21 @@ RU:
   - Russland
   - Russie
   - Rusia
-  - ロシア連邦
+  - "ロシア連邦"
   - Rusland
-  - Россия
-  - Расія
+  - "Россия"
+  - "Расія"
   translations:
     en: Russian Federation
-    ru: Российская Федерация
+    ru: "Российская Федерация"
     it: Russia
     de: Russland
     fr: Russie
     es: Rusia
-    ja: ロシア連邦
+    ja: "ロシア連邦"
     nl: Rusland
-    ar: روسيا
-    be: Расія
+    ar: "روسيا"
+    be: "Расія"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -8639,24 +8721,25 @@ RW:
   currency: RWF
   international_prefix: '00'
   ioc: RWA
+  gec: RW
   latitude: 2 00 S
   longitude: 30 00 E
   name: Rwanda
   names:
   - Rwanda
   - Ruanda
-  - ルワンダ
+  - "ルワンダ"
   translations:
     en: Rwanda
     it: Ruanda
     de: Ruanda
     fr: Rwanda
     es: Ruanda
-    ja: ルワンダ
+    ja: "ルワンダ"
     nl: Rwanda
-    ru: Руанда
-    ar: رواندا
-    be: Руанда
+    ru: "Руанда"
+    ar: "رواندا"
+    be: "Руанда"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8676,29 +8759,28 @@ RW:
   postal_code: false
 SA:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: SA
   alpha3: SAU
   country_code: '966'
   currency: SAR
   international_prefix: '00'
   ioc: KSA
+  gec: SA
   latitude: 25 00 N
   longitude: 45 00 E
   name: Saudi Arabia
   names:
   - Saudi Arabia
-  - السعودية
+  - "السعودية"
   - Saudi-Arabien
   - Arabie Saoudite
   - Arabia Saudí
-  - サウジアラビア
+  - "サウジアラビア"
   - Saoedi-Arabië
   translations:
     en: Saudi Arabia
@@ -8706,11 +8788,11 @@ SA:
     de: Saudi-Arabien
     fr: Arabie Saoudite
     es: Arabia Saudí
-    ja: サウジアラビア
+    ja: "サウジアラビア"
     nl: Saoedi-Arabië
-    ru: Саудовская Аравия
-    ar: السعودية
-    be: Саудаўская Аравія
+    ru: "Саудовская Аравия"
+    ar: "السعودية"
+    be: "Саудаўская Аравія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8734,27 +8816,28 @@ SB:
   currency: SBD
   international_prefix: '00'
   ioc: SOL
+  gec: BP
   latitude: 8 00 S
   longitude: 159 00 E
   name: Solomon Islands
   names:
   - Solomon Islands
   - Salomonen
-  - Îles Salomon
+  - "Îles Salomon"
   - Islas Salomón
-  - ソロモン諸島
+  - "ソロモン諸島"
   - Salomonseilanden
   translations:
     en: Solomon Islands
     it: Isole Salomone
     de: Salomonen
-    fr: Îles Salomon
+    fr: "Îles Salomon"
     es: Islas Salomón
-    ja: ソロモン諸島
+    ja: "ソロモン諸島"
     nl: Salomonseilanden
-    ru: Соломон Исланд
-    ar: جزر سليمان
-    be: Саламонавы Астравы
+    ru: "Соломон Исланд"
+    ar: "جزر سليمان"
+    be: "Саламонавы Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8777,24 +8860,25 @@ SC:
   currency: SCR
   international_prefix: '00'
   ioc: SEY
+  gec: SE
   latitude: 4 35 S
   longitude: 55 40 E
   name: Seychelles
   names:
   - Seychelles
   - Seychellen
-  - セーシェル
+  - "セーシェル"
   translations:
     en: Seychelles
     it: Seychelles
     de: Seychellen
     fr: Seychelles
     es: Seychelles
-    ja: セーシェル
+    ja: "セーシェル"
     nl: Seychellen
-    ru: Сейшельские острова
-    ar: سيشيل
-    be: Сейшэльскія Астравы
+    ru: "Сейшельские острова"
+    ar: "سيشيل"
+    be: "Сейшэльскія Астравы"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8818,15 +8902,16 @@ SD:
   currency: SDG
   international_prefix: '00'
   ioc: SUD
+  gec: SU
   latitude: 15 00 N
   longitude: 30 00 E
   name: Sudan
   names:
   - Sudan
-  - السودان
+  - "السودان"
   - Soudan
   - Sudán
-  - スーダン
+  - "スーダン"
   - Soedan
   translations:
     en: Sudan
@@ -8834,11 +8919,11 @@ SD:
     de: Sudan
     fr: Soudan
     es: Sudán
-    ja: スーダン
+    ja: "スーダン"
     nl: Soedan
-    ru: Судан
-    ar: السودان
-    be: Судан
+    ru: "Судан"
+    ar: "السودان"
+    be: "Судан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8856,19 +8941,18 @@ SD:
   postal_code: true
 SE:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: SE
   alpha3: SWE
   country_code: '46'
   currency: SEK
   international_prefix: '00'
   ioc: SWE
+  gec: SW
   latitude: 62 00 N
   longitude: 15 00 E
   name: Sweden
@@ -8877,7 +8961,7 @@ SE:
   - Schweden
   - Suède
   - Suecia
-  - スウェーデン
+  - "スウェーデン"
   - Zweden
   translations:
     en: Sweden
@@ -8885,11 +8969,11 @@ SE:
     de: Schweden
     fr: Suède
     es: Suecia
-    ja: スウェーデン
+    ja: "スウェーデン"
     nl: Zweden
-    ru: Швеция
-    ar: السويد
-    be: Швецыя
+    ru: "Швеция"
+    ar: "السويد"
+    be: "Швецыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8909,24 +8993,23 @@ SE:
     reduced:
     - 6
     - 12
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 SG:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: SG
   alpha3: SGP
   country_code: '65'
   currency: SGD
   international_prefix: '001'
   ioc: SIN
+  gec: SN
   latitude: 1 22 N
   longitude: 103 48 E
   name: Singapore
@@ -8934,18 +9017,18 @@ SG:
   - Singapore
   - Singapur
   - Singapour
-  - シンガポール
+  - "シンガポール"
   translations:
     en: Singapore
     it: Singapore
     de: Singapur
     fr: Singapour
     es: Singapur
-    ja: シンガポール
+    ja: "シンガポール"
     nl: Singapore
-    ru: Сингапур
-    ar: سنغافورة
-    be: Сінгапур
+    ru: "Сингапур"
+    ar: "سنغافورة"
+    be: "Сінгапур"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -8970,7 +9053,8 @@ SH:
   country_code: '290'
   currency: SHP
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SH
   latitude: 15 57 S
   longitude: 5 42 W
   name: Saint Helena
@@ -8979,7 +9063,7 @@ SH:
   - Sankt Helena
   - Sainte Hélène
   - Santa Helena
-  - セントヘレナ・アセンションおよびトリスタンダクーニャ
+  - "セントヘレナ・アセンションおよびトリスタンダクーニャ"
   - Sint-Helena
   translations:
     en: Saint Helena
@@ -8987,11 +9071,11 @@ SH:
     de: Sankt Helena
     fr: Sainte-Hélène
     es: Santa Helena
-    ja: セントヘレナ・アセンションおよびトリスタンダクーニャ
+    ja: "セントヘレナ・アセンションおよびトリスタンダクーニャ"
     nl: Sint-Helena
-    ru: Остров Святой Елены
-    ar: سانت هيلينا
-    be: Востраў Святой Алены
+    ru: "Остров Святой Елены"
+    ar: "سانت هيلينا"
+    be: "Востраў Святой Алены"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9008,19 +9092,18 @@ SH:
   postal_code: true
 SI:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: SI
   alpha3: SVN
   country_code: '386'
   currency: EUR
   international_prefix: '00'
   ioc: SLO
+  gec: SI
   latitude: 46 07 N
   longitude: 14 49 E
   name: Slovenia
@@ -9029,7 +9112,7 @@ SI:
   - Slowenien
   - Slovénie
   - Eslovenia
-  - スロベニア
+  - "スロベニア"
   - Slovenië
   translations:
     en: Slovenia
@@ -9037,11 +9120,11 @@ SI:
     de: Slowenien
     fr: Slovénie
     es: Eslovenia
-    ja: スロベニア
+    ja: "スロベニア"
     nl: Slovenië
-    ru: Словения
-    ar: سلوفينيا
-    be: Славенія
+    ru: "Словения"
+    ar: "سلوفينيا"
+    be: "Славенія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9060,8 +9143,8 @@ SI:
     standard: 22
     reduced:
     - 9.5
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 SJ:
   continent: Europe
@@ -9070,28 +9153,29 @@ SJ:
   country_code: '47'
   currency: NOK
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: SV
   latitude: 78 00 N
   longitude: 20 00 E
   name: Svalbard And Jan Mayen
   names:
   - Svalbard and Jan Mayen
   - Svalbard und Jan Mayen
-  - Îles Svalbard et Jan Mayen
+  - "Îles Svalbard et Jan Mayen"
   - Islas Svalbard y Jan Mayen
-  - スヴァールバル諸島およびヤンマイエン島
+  - "スヴァールバル諸島およびヤンマイエン島"
   - Svalbard en Jan Mayen
   translations:
     en: Svalbard and Jan Mayen
     it: Svalbard e Jan Mayen
     de: Svalbard und Jan Mayen
-    fr: Îles Svalbard et Jan Mayen
+    fr: "Îles Svalbard et Jan Mayen"
     es: Islas Svalbard y Jan Mayen
-    ja: スヴァールバル諸島およびヤンマイエン島
+    ja: "スヴァールバル諸島およびヤンマイエン島"
     nl: Svalbard en Jan Mayen
-    ru: Шпицберген и Ян-Майен
-    ar: جزر ماريانا الشمالية
-    be: Шпіцберген і Ян-Маен
+    ru: "Шпицберген и Ян-Майен"
+    ar: "جزر ماريانا الشمالية"
+    be: "Шпіцберген і Ян-Маен"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9108,19 +9192,18 @@ SJ:
   postal_code: true
 SK:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: SK
   alpha3: SVK
   country_code: '421'
   currency: EUR
   international_prefix: '00'
   ioc: SVK
+  gec: LO
   latitude: 48 40 N
   longitude: 19 30 E
   name: Slovakia
@@ -9129,7 +9212,7 @@ SK:
   - Slowakei
   - Slovaquie
   - República Eslovaca
-  - スロバキア
+  - "スロバキア"
   - Slowakije
   translations:
     en: Slovakia
@@ -9137,11 +9220,11 @@ SK:
     de: Slowakei
     fr: Slovaquie
     es: República Eslovaca
-    ja: スロバキア
+    ja: "スロバキア"
     nl: Slowakije
-    ru: Словакия
-    ar: سلوفاكيا
-    be: Славакія
+    ru: "Словакия"
+    ar: "سلوفاكيا"
+    be: "Славакія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9160,8 +9243,8 @@ SK:
     standard: 20
     reduced:
     - 10
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
 SL:
   continent: Africa
@@ -9171,23 +9254,24 @@ SL:
   currency: SLL
   international_prefix: '00'
   ioc: SLE
+  gec: SL
   latitude: 8 30 N
   longitude: 11 30 W
   name: Sierra Leone
   names:
   - Sierra Leone
-  - シエラレオネ
+  - "シエラレオネ"
   translations:
     en: Sierra Leone
     it: Sierra Leone
     de: Sierra Leone
     fr: Sierra Leone
     es: Sierra Leone
-    ja: シエラレオネ
+    ja: "シエラレオネ"
     nl: Sierra Leone
-    ru: Сьерра-Леоне
-    ar: سيراليون
-    be: Сьера-Леонэ
+    ru: "Сьерра-Леоне"
+    ar: "سيراليون"
+    be: "Сьера-Леонэ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9210,24 +9294,25 @@ SM:
   currency: EUR
   international_prefix: '00'
   ioc: SMR
+  gec: SM
   latitude: 43 46 N
   longitude: 12 25 E
   name: San Marino
   names:
   - San Marino
   - Saint-Marin
-  - サンマリノ
+  - "サンマリノ"
   translations:
     en: San Marino
     it: San Marino
     de: San Marino
     fr: Saint-Marin
     es: San Marino
-    ja: サンマリノ
+    ja: "サンマリノ"
     nl: San Marino
-    ru: Сан-Марино
-    ar: سان مارينو
-    be: Сан-Марына
+    ru: "Сан-Марино"
+    ar: "سان مارينو"
+    be: "Сан-Марына"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9253,24 +9338,25 @@ SN:
   currency: XOF
   international_prefix: '00'
   ioc: SEN
+  gec: SG
   latitude: 14 00 N
   longitude: 14 00 W
   name: Senegal
   names:
   - Senegal
   - Sénégal
-  - セネガル
+  - "セネガル"
   translations:
     en: Senegal
     it: Senegal
     de: Senegal
     fr: Sénégal
     es: Senegal
-    ja: セネガル
+    ja: "セネガル"
     nl: Senegal
-    ru: Сенегал
-    ar: السنغال
-    be: Сенегал
+    ru: "Сенегал"
+    ar: "السنغال"
+    be: "Сенегал"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9293,13 +9379,14 @@ SO:
   currency: SOS
   international_prefix: '00'
   ioc: SOM
+  gec: SO
   latitude: 10 00 N
   longitude: 49 00 E
   name: Somalia
   names:
   - Somalia
-  - الصومال
-  - ソマリア
+  - "الصومال"
+  - "ソマリア"
   - Somalië
   translations:
     en: Somalia
@@ -9307,11 +9394,11 @@ SO:
     de: Somalia
     fr: Somalie
     es: Somalia
-    ja: ソマリア
+    ja: "ソマリア"
     nl: Somalië
-    ru: Сомали
-    ar: الصومال
-    be: Самалі
+    ru: "Сомали"
+    ar: "الصومال"
+    be: "Самалі"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9336,24 +9423,25 @@ SR:
   currency: SRD
   international_prefix: '00'
   ioc: SUR
+  gec: NS
   latitude: 4 00 N
   longitude: 56 00 W
   name: Suriname
   names:
   - Suriname
   - Surinam
-  - スリナム
+  - "スリナム"
   translations:
     en: Suriname
     it: Suriname
     de: Suriname
     fr: Surinam
     es: Surinam
-    ja: スリナム
+    ja: "スリナム"
     nl: Suriname
-    ru: Суринам
-    ar: سورينام
-    be: Сурынам
+    ru: "Суринам"
+    ar: "سورينام"
+    be: "Сурынам"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9375,13 +9463,15 @@ SS:
   country_code: '211'
   currency: SSP
   international_prefix: '0'
+  ioc: 
+  gec: OD
   latitude: 7 00 N
   longitude: 30 00 E
   name: South Sudan
   names:
   - South Sudan
   - Südsudan
-  - 南スーダン
+  - "南スーダン"
   - Zuid-Soedan
   translations:
     en: South Sudan
@@ -9389,11 +9479,11 @@ SS:
     de: Südsudan
     fr: Soudan du Sud
     es: Sudán del Sur
-    ja: 南スーダン
+    ja: "南スーダン"
     nl: Zuid-Soedan
-    ru: Южный Судан
-    ar: جنوب السودان
-    be: Паўднёвы Судан
+    ru: "Южный Судан"
+    ar: "جنوب السودان"
+    be: "Паўднёвы Судан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9416,6 +9506,7 @@ ST:
   currency: STD
   international_prefix: '00'
   ioc: STP
+  gec: TP
   latitude: 1 00 N
   longitude: 7 00 E
   name: Sao Tome and Principe
@@ -9424,7 +9515,7 @@ ST:
   - São Tomé und Príncipe
   - São Tomé et Príncipe
   - Santo Tomé y Príncipe
-  - サントメ・プリンシペ
+  - "サントメ・プリンシペ"
   - Sao Tomé en Principe
   translations:
     en: São Tomé and Príncipe
@@ -9432,11 +9523,11 @@ ST:
     de: São Tomé und Príncipe
     fr: Sao Tomé-et-Principe
     es: Santo Tomé y Príncipe
-    ja: サントメ・プリンシペ
+    ja: "サントメ・プリンシペ"
     nl: Sao Tomé en Principe
-    ru: Сан-Томе и Принсипи
-    ar: ساو تومي وبرينسيب
-    be: Сан-Тамэ і Прынсіпі
+    ru: "Сан-Томе и Принсипи"
+    ar: "ساو تومي وبرينسيب"
+    be: "Сан-Тамэ і Прынсіпі"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9460,24 +9551,25 @@ SV:
   currency: USD
   international_prefix: '00'
   ioc: ESA
+  gec: ES
   latitude: 13 50 N
   longitude: 88 55 W
   name: El Salvador
   names:
   - El Salvador
   - Salvador
-  - エルサルバドル
+  - "エルサルバドル"
   translations:
     en: El Salvador
     it: El Salvador
     de: El Salvador
     fr: Salvador
     es: El Salvador
-    ja: エルサルバドル
+    ja: "エルサルバドル"
     nl: El Salvador
-    ru: Эль-Сальвадор
-    ar: السلفادور
-    be: Сальвадор
+    ru: "Эль-Сальвадор"
+    ar: "السلفادور"
+    be: "Сальвадор"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9499,20 +9591,22 @@ SX:
   country_code: '1'
   currency: ANG
   international_prefix: '011'
+  ioc: 
+  gec: NN
   latitude: ''
   longitude: ''
   name: Sint Maarten
   names:
   - Sint Maarten
-  - セント・マーチン島
+  - "セント・マーチン島"
   translations:
     en: Sint Maarten
     de: Sint Maarten
-    ja: セント・マーチン島
+    ja: "セント・マーチン島"
     nl: Sint Maarten
-    ru: Синт-Мартен
-    ar: سينت مارتن
-    be: Сінт-Мартэн
+    ru: "Синт-Мартен"
+    ar: "سينت مارتن"
+    be: "Сінт-Мартэн"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -9530,30 +9624,29 @@ SX:
   postal_code: true
 SY:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: SY
   alpha3: SYR
   country_code: '963'
   currency: SYP
   international_prefix: '00'
   ioc: SYR
+  gec: SY
   latitude: 35 00 N
   longitude: 38 00 E
   name: Syrian Arab Republic
   names:
   - Syria
-  - سوريا
-  - سورية
+  - "سوريا"
+  - "سورية"
   - Syrien
   - Syrie
   - Siria
-  - シリア・アラブ共和国
+  - "シリア・アラブ共和国"
   - Syrië
   translations:
     en: Syria
@@ -9561,11 +9654,11 @@ SY:
     de: Syrien
     fr: Syrie
     es: Siria
-    ja: シリア・アラブ共和国
+    ja: "シリア・アラブ共和国"
     nl: Syrië
-    ru: Сирия
-    ar: سوريا
-    be: Сірыя
+    ru: "Сирия"
+    ar: "سوريا"
+    be: "Сірыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9589,6 +9682,7 @@ SZ:
   currency: SZL
   international_prefix: '00'
   ioc: SWZ
+  gec: WZ
   latitude: 26 30 S
   longitude: 31 30 E
   name: Swaziland
@@ -9596,18 +9690,18 @@ SZ:
   - Swaziland
   - Swasiland
   - Suazilandia
-  - スワジランド
+  - "スワジランド"
   translations:
     en: Swaziland
     it: Swaziland
     de: Swasiland
     fr: Swaziland
     es: Suazilandia
-    ja: スワジランド
+    ja: "スワジランド"
     nl: Swaziland
-    ru: Свазиленд
-    ar: سوازيلاند
-    be: Свазіленд
+    ru: "Свазиленд"
+    ar: "سوازيلاند"
+    be: "Свазіленд"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9630,28 +9724,29 @@ TC:
   country_code: '1'
   currency: USD
   international_prefix: '011'
-  ioc:
+  ioc: 
+  gec: TK
   latitude: 21 45 N
   longitude: 71 35 W
   name: Turks and Caicos Islands
   names:
   - Turks and Caicos Islands
   - Turks- und Caicosinseln
-  - Îles Turks et Caïcos
+  - "Îles Turks et Caïcos"
   - Islas Turks y Caicos
-  - タークス・カイコス諸島
+  - "タークス・カイコス諸島"
   - Turks- en Caicoseilanden
   translations:
     en: Turks and Caicos Islands
     it: Isole Turks e Caicos
     de: Turks- und Caicosinseln
-    fr: Îles Turques-et-Caïques
+    fr: "Îles Turques-et-Caïques"
     es: Islas Turks y Caicos
-    ja: タークス・カイコス諸島
+    ja: "タークス・カイコス諸島"
     nl: Turks- en Caicoseilanden
-    ru: Острова Теркс и Кайкос
-    ar: جزر توركس وكايكوس
-    be: Цёркс і Кайкас
+    ru: "Острова Теркс и Кайкос"
+    ar: "جزر توركس وكايكوس"
+    be: "Цёркс і Кайкас"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -9674,15 +9769,16 @@ TD:
   currency: XAF
   international_prefix: '15'
   ioc: CHA
+  gec: CD
   latitude: 15 00 N
   longitude: 19 00 E
   name: Chad
   names:
   - Chad
-  - تشاد
+  - "تشاد"
   - Tschad
   - Tchad
-  - チャド
+  - "チャド"
   - Tsjaad
   translations:
     en: Chad
@@ -9690,11 +9786,11 @@ TD:
     de: Tschad
     fr: Tchad
     es: chad
-    ja: チャド
+    ja: "チャド"
     nl: Tsjaad
-    ru: Чад
-    ar: تشاد
-    be: Чад
+    ru: "Чад"
+    ar: "تشاد"
+    be: "Чад"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9717,7 +9813,8 @@ TF:
   country_code: ''
   currency: EUR
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: FS
   latitude: ''
   longitude: ''
   name: French Southern Territories
@@ -9726,7 +9823,7 @@ TF:
   - Französische Süd- und Antarktisgebiete
   - Terres Australes Françaises
   - Territorios Franceses del Sur
-  - フランス領南方・南極地域
+  - "フランス領南方・南極地域"
   - Franse Gebieden in de zuidelijke Indische Oceaan
   translations:
     en: French Southern Territories
@@ -9734,18 +9831,18 @@ TF:
     de: Französische Süd- und Antarktisgebiete
     fr: Terres Australes Françaises
     es: Territorios Franceses del Sur
-    ja: フランス領南方・南極地域
+    ja: "フランス領南方・南極地域"
     nl: Franse Gebieden in de zuidelijke Indische Oceaan
-    ru: Французские Южные и Антарктические территории
-    ar: الأراض الفرنسية الجنوبية
-    be: Французскія Паўднёвыя і Антарктычныя Тэрыторыі
+    ru: "Французские Южные и Антарктические территории"
+    ar: "الأراض الفرنسية الجنوبية"
+    be: "Французскія Паўднёвыя і Антарктычныя Тэрыторыі"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
   number: '260'
   region: ''
   subregion: ''
-  un_locode:
+  un_locode: 
   languages:
   - fr
   nationality: French
@@ -9759,23 +9856,24 @@ TG:
   currency: XOF
   international_prefix: '00'
   ioc: TOG
+  gec: TO
   latitude: 8 00 N
   longitude: 1 10 E
   name: Togo
   names:
   - Togo
-  - トーゴ
+  - "トーゴ"
   translations:
     en: Togo
     it: Togo
     de: Togo
     fr: Togo
     es: Togo
-    ja: トーゴ
+    ja: "トーゴ"
     nl: Togo
-    ru: Того
-    ar: توغو
-    be: Тога
+    ru: "Того"
+    ar: "توغو"
+    be: "Тога"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9798,6 +9896,7 @@ TH:
   currency: THB
   international_prefix: '001'
   ioc: THA
+  gec: TH
   latitude: 15 00 N
   longitude: 100 00 E
   name: Thailand
@@ -9805,18 +9904,18 @@ TH:
   - Thailand
   - Thaïlande
   - Tailandia
-  - タイ
+  - "タイ"
   translations:
     en: Thailand
     it: Tailandia
     de: Thailand
     fr: Thaïlande
     es: Tailandia
-    ja: タイ
+    ja: "タイ"
     nl: Thailand
-    ru: Таиланд
-    ar: تايلاند
-    be: Тайланд
+    ru: "Таиланд"
+    ar: "تايلاند"
+    be: "Тайланд"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9841,6 +9940,7 @@ TJ:
   currency: TJS
   international_prefix: '810'
   ioc: TJK
+  gec: TI
   latitude: 39 00 N
   longitude: 71 00 E
   name: Tajikistan
@@ -9848,7 +9948,7 @@ TJ:
   - Tajikistan
   - Tadschikistan
   - Tayikistán
-  - タジキスタン
+  - "タジキスタン"
   - Tadzjikistan
   translations:
     en: Tajikistan
@@ -9856,11 +9956,11 @@ TJ:
     de: Tadschikistan
     fr: Tadjikistan
     es: Tayikistán
-    ja: タジキスタン
+    ja: "タジキスタン"
     nl: Tadzjikistan
-    ru: Таджикистан
-    ar: طاجيكستان
-    be: Таджыкістан
+    ru: "Таджикистан"
+    ar: "طاجيكستان"
+    be: "Таджыкістан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9883,26 +9983,27 @@ TK:
   country_code: '690'
   currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: TL
   latitude: 9 00 S
   longitude: 172 00 W
   name: Tokelau
   names:
   - Tokelau
-  - Îles Tokelau
+  - "Îles Tokelau"
   - Islas Tokelau
-  - トケラウ
+  - "トケラウ"
   translations:
     en: Tokelau
     it: Isole Tokelau
     de: Tokelau
-    fr: Îles Tokelau
+    fr: "Îles Tokelau"
     es: Islas Tokelau
-    ja: トケラウ
+    ja: "トケラウ"
     nl: Tokelau
-    ru: Токелау
-    ar: توكلو
-    be: Такелау
+    ru: "Токелау"
+    ar: "توكلو"
+    be: "Такелау"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9925,6 +10026,7 @@ TL:
   currency: IDR
   international_prefix: None
   ioc: TLS
+  gec: TT
   latitude: 8 50 S
   longitude: 125 55 E
   name: Timor-Leste
@@ -9933,7 +10035,7 @@ TL:
   - Timor-Leste
   - Timor oriental
   - Timor Oriental
-  - 東ティモール
+  - "東ティモール"
   - Oost-Timor
   translations:
     en: East Timor
@@ -9941,11 +10043,11 @@ TL:
     de: Timor-Leste
     fr: Timor oriental
     es: Timor Oriental
-    ja: 東ティモール
+    ja: "東ティモール"
     nl: Oost-Timor
-    ru: Тимор-Лешти
-    ar: تيمور الشرقية
-    be: Усходні Тымор
+    ru: "Тимор-Лешти"
+    ar: "تيمور الشرقية"
+    be: "Усходні Тымор"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -9955,7 +10057,7 @@ TL:
   region: Asia
   subregion: South-Eastern Asia
   world_region: APAC
-  un_locode:
+  un_locode: 
   languages:
   - pt
   nationality: East Timorese
@@ -9965,9 +10067,10 @@ TM:
   alpha2: TM
   alpha3: TKM
   country_code: '993'
-  currency:
+  currency: 
   international_prefix: '810'
   ioc: TKM
+  gec: TX
   latitude: 40 00 N
   longitude: 60 00 E
   name: Turkmenistan
@@ -9975,18 +10078,18 @@ TM:
   - Turkmenistan
   - Turkménistan
   - Turkmenistán
-  - トルクメニスタン
+  - "トルクメニスタン"
   translations:
     en: Turkmenistan
     it: Turkmenistan
     de: Turkmenistan
     fr: Turkménistan
     es: Turkmenistán
-    ja: トルクメニスタン
+    ja: "トルクメニスタン"
     nl: Turkmenistan
-    ru: Туркменистан
-    ar: تركمانستان
-    be: Туркменістан
+    ru: "Туркменистан"
+    ar: "تركمانستان"
+    be: "Туркменістан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10010,16 +10113,17 @@ TN:
   currency: TND
   international_prefix: '00'
   ioc: TUN
+  gec: TS
   latitude: 34 00 N
   longitude: 9 00 E
   name: Tunisia
   names:
   - Tunisia
-  - تونس
+  - "تونس"
   - Tunesien
   - Tunisie
   - Túnez
-  - チュニジア
+  - "チュニジア"
   - Tunesië
   translations:
     en: Tunisia
@@ -10027,11 +10131,11 @@ TN:
     de: Tunesien
     fr: Tunisie
     es: Túnez
-    ja: チュニジア
+    ja: "チュニジア"
     nl: Tunesië
-    ru: Тунис
-    ar: تونس
-    be: Туніс
+    ru: "Тунис"
+    ar: "تونس"
+    be: "Туніс"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10055,22 +10159,23 @@ TO:
   currency: TOP
   international_prefix: '00'
   ioc: TGA
+  gec: TN
   latitude: 20 00 S
   longitude: 175 00 W
   name: Tonga
   names:
   - Tonga
-  - トンガ
+  - "トンガ"
   translations:
     en: Tonga
     it: Tonga
     de: Tonga
     fr: Tonga
     es: Tonga
-    ja: トンガ
+    ja: "トンガ"
     nl: Tonga
-    ru: Тонга
-    ar: تونجا
+    ru: "Тонга"
+    ar: "تونجا"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10090,19 +10195,18 @@ TO:
   postal_code: false
 TR:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: TR
   alpha3: TUR
   country_code: '90'
   currency: TRY
   international_prefix: '00'
   ioc: TUR
+  gec: TU
   latitude: 39 00 N
   longitude: 35 00 E
   name: Turkey
@@ -10111,7 +10215,7 @@ TR:
   - Türkei
   - Turquie
   - Turquía
-  - トルコ
+  - "トルコ"
   - Turkije
   translations:
     en: Turkey
@@ -10119,11 +10223,11 @@ TR:
     de: Türkei
     fr: Turquie
     es: Turquía
-    ja: トルコ
+    ja: "トルコ"
     nl: Turkije
-    ru: Турция
-    ar: تركيا
-    be: Турцыя
+    ru: "Турция"
+    ar: "تركيا"
+    be: "Турцыя"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10146,6 +10250,7 @@ TT:
   currency: TTD
   international_prefix: '011'
   ioc: TRI
+  gec: TD
   latitude: 11 00 N
   longitude: 61 00 W
   name: Trinidad and Tobago
@@ -10154,7 +10259,7 @@ TT:
   - Trinidad und Tobago
   - Trinité et Tobago
   - Trinidad y Tobago
-  - トリニダード・トバゴ
+  - "トリニダード・トバゴ"
   - Trinidad en Tobago
   translations:
     en: Trinidad and Tobago
@@ -10162,11 +10267,11 @@ TT:
     de: Trinidad und Tobago
     fr: Trinité et Tobago
     es: Trinidad y Tobago
-    ja: トリニダード・トバゴ
+    ja: "トリニダード・トバゴ"
     nl: Trinidad en Tobago
-    ru: Тринидад и Тобаго
-    ar: ترينيداد وتوباغو
-    be: Трыніндад і Табага
+    ru: "Тринидад и Тобаго"
+    ar: "ترينيداد وتوباغو"
+    be: "Трыніндад і Табага"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10189,23 +10294,24 @@ TV:
   currency: TVD
   international_prefix: '00'
   ioc: TUV
+  gec: TV
   latitude: 8 00 S
   longitude: 178 00 E
   name: Tuvalu
   names:
   - Tuvalu
-  - ツバル
+  - "ツバル"
   translations:
     en: Tuvalu
     it: Tuvalu
     de: Tuvalu
     fr: Tuvalu
     es: Tuvalu
-    ja: ツバル
+    ja: "ツバル"
     nl: Tuvalu
-    ru: Тувалу
-    ar: توفالو
-    be: Тувалу
+    ru: "Тувалу"
+    ar: "توفالو"
+    be: "Тувалу"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10222,37 +10328,36 @@ TV:
   postal_code: false
 TW:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: TW
   alpha3: TWN
   country_code: '886'
   currency: TWD
   international_prefix: '002'
   ioc: TPE
+  gec: TW
   latitude: 23 30 N
   longitude: 121 00 E
   name: Taiwan, Republic Of China
   names:
   - Taiwan
   - Taiwán
-  - 台湾
+  - "台湾"
   translations:
     en: Taiwan
     it: Taiwan
     de: Taiwan
     fr: Taïwan
     es: Taiwán
-    ja: 台湾
+    ja: "台湾"
     nl: Taiwan
-    ru: Тайвань
-    ar: تايوان
-    be: Тайвань
+    ru: "Тайвань"
+    ar: "تايوان"
+    be: "Тайвань"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10276,6 +10381,7 @@ TZ:
   currency: TZS
   international_prefix: '000'
   ioc: TAN
+  gec: TZ
   latitude: 6 00 S
   longitude: 35 00 E
   name: Tanzania, United Republic of
@@ -10283,18 +10389,18 @@ TZ:
   - Tanzania
   - Tansania
   - Tanzanie
-  - タンザニア
+  - "タンザニア"
   translations:
     en: Tanzania
     it: Tanzania
     de: Tansania
     fr: Tanzanie
     es: Tanzania
-    ja: タンザニア
+    ja: "タンザニア"
     nl: Tanzania
-    ru: Танзания
-    ar: تنزانيا
-    be: Танзанія
+    ru: "Танзания"
+    ar: "تنزانيا"
+    be: "Танзанія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10312,43 +10418,41 @@ TZ:
   postal_code: false
 UA:
   continent: Europe
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}}
-
     {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: UA
   alpha3: UKR
   country_code: '380'
   currency: UAH
   international_prefix: '810'
   ioc: UKR
+  gec: UP
   latitude: 49 00 N
   longitude: 32 00 E
   name: Ukraine
   names:
   - Ukraine
   - Ucrania
-  - ウクライナ
+  - "ウクライナ"
   - Oekraïne
-  - Украина
-  - Україна
-  - Украіна
+  - "Украина"
+  - "Україна"
+  - "Украіна"
   translations:
     en: Ukraine
     it: Ucraina
     de: Ukraine
     fr: Ukraine
     es: Ucrania
-    ja: ウクライナ
+    ja: "ウクライナ"
     nl: Oekraïne
-    ru: Украина
-    ar: أوكرانيا
-    be: Украіна
+    ru: "Украина"
+    ar: "أوكرانيا"
+    be: "Украіна"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10372,12 +10476,13 @@ UG:
   currency: UGX
   international_prefix: '000'
   ioc: UGA
+  gec: UG
   latitude: 1 00 N
   longitude: 32 00 E
   name: Uganda
   names:
   - Uganda
-  - ウガンダ
+  - "ウガンダ"
   - Oeganda
   translations:
     en: Uganda
@@ -10385,11 +10490,11 @@ UG:
     de: Uganda
     fr: Uganda
     es: Uganda
-    ja: ウガンダ
+    ja: "ウガンダ"
     nl: Oeganda
-    ru: Уганда
-    ar: أوغندا
-    be: Уганда
+    ru: "Уганда"
+    ar: "أوغندا"
+    be: "Уганда"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10412,7 +10517,8 @@ UM:
   country_code: ''
   currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
+  gec: 
   latitude: ''
   longitude: ''
   name: United States Minor Outlying Islands
@@ -10421,7 +10527,7 @@ UM:
   - US-Amerikanische Hoheitsgebiete
   - Dépendances américaines
   - Islas menores de Estados Unidos
-  - 合衆国領有小離島
+  - "合衆国領有小離島"
   - Kleine afgelegen eilanden van de Verenigde Staten
   translations:
     en: United States Minor Outlying Islands
@@ -10429,11 +10535,11 @@ UM:
     de: US-Amerikanische Hoheitsgebiete
     fr: Dépendances américaines
     es: Islas menores de Estados Unidos
-    ja: 合衆国領有小離島
+    ja: "合衆国領有小離島"
     nl: Kleine afgelegen eilanden van de Verenigde Staten
-    ru: Внешние Малые Острова США
-    ar: جزر الولايات المتحدة الصغيرة النائية
-    be: Знешнія Малыя Астравы (ЗША)
+    ru: "Внешние Малые Острова США"
+    ar: "جزر الولايات المتحدة الصغيرة النائية"
+    be: "Знешнія Малыя Астравы (ЗША)"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -10448,40 +10554,39 @@ UM:
   postal_code: true
 US:
   continent: North America
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}} {{region}} {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: US
   alpha3: USA
   country_code: '1'
   currency: USD
   international_prefix: '011'
   ioc: USA
+  gec: US
   latitude: 38 00 N
   longitude: 97 00 W
   name: United States
   names:
   - United States of America
   - Vereinigte Staaten von Amerika
-  - États-Unis
+  - "États-Unis"
   - Estados Unidos
-  - アメリカ合衆国
+  - "アメリカ合衆国"
   - Verenigde Staten
   translations:
     en: United States of America
     it: Stati Uniti D'America
     de: Vereinigte Staaten von Amerika
-    fr: États-Unis
+    fr: "États-Unis"
     es: Estados Unidos
-    ja: アメリカ合衆国
+    ja: "アメリカ合衆国"
     nl: Verenigde Staten
-    ru: Соединенные Штаты Америки
-    ar: الولايات المتحدة الأمريكية
-    be: Злучаныя Штаты Амерыкі
+    ru: "Соединенные Штаты Америки"
+    ar: "الولايات المتحدة الأمريكية"
+    be: "Злучаныя Штаты Амерыкі"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10504,23 +10609,24 @@ UY:
   currency: UYU
   international_prefix: '00'
   ioc: URU
+  gec: UY
   latitude: 33 00 S
   longitude: 56 00 W
   name: Uruguay
   names:
   - Uruguay
-  - ウルグアイ
+  - "ウルグアイ"
   translations:
     en: Uruguay
     it: Uruguay
     de: Uruguay
     fr: Uruguay
     es: Uruguay
-    ja: ウルグアイ
+    ja: "ウルグアイ"
     nl: Uruguay
-    ru: Уругвай
-    ar: أوروجواي
-    be: Уругвай
+    ru: "Уругвай"
+    ar: "أوروجواي"
+    be: "Уругвай"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10544,6 +10650,7 @@ UZ:
   currency: UZS
   international_prefix: '810'
   ioc: UZB
+  gec: UZ
   latitude: 41 00 N
   longitude: 64 00 E
   name: Uzbekistan
@@ -10552,7 +10659,7 @@ UZ:
   - Usbekistan
   - Ouzbékistan
   - Uzbekistán
-  - ウズベキスタン
+  - "ウズベキスタン"
   - Oezbekistan
   translations:
     en: Uzbekistan
@@ -10560,11 +10667,11 @@ UZ:
     de: Usbekistan
     fr: Ouzbékistan
     es: Uzbekistán
-    ja: ウズベキスタン
+    ja: "ウズベキスタン"
     nl: Oezbekistan
-    ru: Узбекистан
-    ar: أوزبكستان
-    be: Узбекістан
+    ru: "Узбекистан"
+    ar: "أوزبكستان"
+    be: "Узбекістан"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10587,7 +10694,8 @@ VA:
   country_code: '39'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: VT
   latitude: 41 54 N
   longitude: 12 27 E
   name: Holy See (Vatican City State)
@@ -10596,7 +10704,7 @@ VA:
   - Vatikan
   - Cité du Vatican
   - Ciudad del Vaticano
-  - バチカン市国
+  - "バチカン市国"
   - Vaticaanstad
   - Vatican City State (Holy See)
   translations:
@@ -10605,11 +10713,11 @@ VA:
     de: Vatikan
     fr: Cité du Vatican
     es: Ciudad del Vaticano
-    ja: バチカン市国
+    ja: "バチカン市国"
     nl: Vaticaanstad
-    ru: Ватикан
-    ar: الفاتيكان
-    be: Ватыкан
+    ru: "Ватикан"
+    ar: "الفاتيكان"
+    be: "Ватыкан"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10633,6 +10741,7 @@ VC:
   currency: XCD
   international_prefix: '011'
   ioc: VIN
+  gec: VC
   latitude: 13 15 N
   longitude: 61 12 W
   name: Saint Vincent And The Grenedines
@@ -10641,7 +10750,7 @@ VC:
   - Saint Vincent und die Grenadinen
   - Saint-Vincent et les Grenadines
   - San Vicente y Granadinas
-  - セントビンセントおよびグレナディーン諸島
+  - "セントビンセントおよびグレナディーン諸島"
   - Saint Vincent en de Grenadines
   translations:
     en: Saint Vincent and the Grenadines
@@ -10649,11 +10758,11 @@ VC:
     de: Saint Vincent und die Grenadinen
     fr: Saint-Vincent-et-les-Grenadines
     es: San Vicente y Granadinas
-    ja: セントビンセントおよびグレナディーン諸島
+    ja: "セントビンセントおよびグレナディーン諸島"
     nl: Saint Vincent en de Grenadines
-    ru: Сент-Винсент и Гренадины
-    ar: سانت فنسنت والجرينادين
-    be: Сент-Вінсент і Грэнадзіны
+    ru: "Сент-Винсент и Гренадины"
+    ar: "سانت فنسنت والجرينادين"
+    be: "Сент-Вінсент і Грэнадзіны"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10676,23 +10785,24 @@ VE:
   currency: VEF
   international_prefix: '00'
   ioc: VEN
+  gec: VE
   latitude: 8 00 N
   longitude: 66 00 W
   name: Venezuela, Bolivarian Republic of
   names:
   - Venezuela
-  - ベネズエラ・ボリバル共和国
+  - "ベネズエラ・ボリバル共和国"
   translations:
     en: Venezuela
     it: Venezuela
     de: Venezuela
     fr: Venezuela
     es: Venezuela
-    ja: ベネズエラ・ボリバル共和国
+    ja: "ベネズエラ・ボリバル共和国"
     nl: Venezuela
-    ru: Венесуэла
-    ar: فنزويلا
-    be: Венесуэла
+    ru: "Венесуэла"
+    ar: "فنزويلا"
+    be: "Венесуэла"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10715,28 +10825,29 @@ VG:
   currency: USD
   international_prefix: '011'
   ioc: IVB
+  gec: VI
   latitude: ''
   longitude: ''
   name: Virgin Islands, British
   names:
   - British Virgin Islands
   - Britische Jungferninseln
-  - Îles Vierges britanniques
+  - "Îles Vierges britanniques"
   - Islas Vírgenes del Reino Unido
-  - イギリス領ヴァージン諸島
+  - "イギリス領ヴァージン諸島"
   - Britse Maagdeneilanden
   - Virgin Islands (British)
   translations:
     en: British Virgin Islands
     it: Isole Vergini Britanniche
     de: Britische Jungferninseln
-    fr: Îles Vierges britanniques
+    fr: "Îles Vierges britanniques"
     es: Islas Vírgenes del Reino Unido
-    ja: イギリス領ヴァージン諸島
+    ja: "イギリス領ヴァージン諸島"
     nl: Britse Maagdeneilanden
-    ru: Британские Виргинские Острова
-    ar: جزر العذراء البريطانية
-    be: Брытанскія Віргінскія Астравы
+    ru: "Британские Виргинские Острова"
+    ar: "جزر العذراء البريطانية"
+    be: "Брытанскія Віргінскія Астравы"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10759,28 +10870,29 @@ VI:
   currency: USD
   international_prefix: '011'
   ioc: ISV
+  gec: VQ
   latitude: ''
   longitude: ''
   name: Virgin Islands, U.S.
   names:
   - Virgin Islands of the United States
   - Amerikanische Jungferninseln
-  - Îles Vierges américaines
+  - "Îles Vierges américaines"
   - Islas Vírgenes de los Estados Unidos
-  - アメリカ領ヴァージン諸島
+  - "アメリカ領ヴァージン諸島"
   - Amerikaanse Maagdeneilanden
   - Virgin Islands (U.S.)
   translations:
     en: Virgin Islands of the United States
     it: Isole Vergini americane
     de: Amerikanische Jungferninseln
-    fr: Îles Vierges américaines
+    fr: "Îles Vierges américaines"
     es: Islas Vírgenes de los Estados Unidos
-    ja: アメリカ領ヴァージン諸島
+    ja: "アメリカ領ヴァージン諸島"
     nl: Amerikaanse Maagdeneilanden
-    ru: Виргинские Острова, США
-    ar: جزر العذراء
-    be: Амерыканскія Віргінскія Астравы
+    ru: "Виргинские Острова, США"
+    ar: "جزر العذراء"
+    be: "Амерыканскія Віргінскія Астравы"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -10803,12 +10915,13 @@ VN:
   currency: VND
   international_prefix: '00'
   ioc: VIE
+  gec: VM
   latitude: 16 10 N
   longitude: 107 50 E
   name: Vietnam
   names:
   - Vietnam
-  - ベトナム
+  - "ベトナム"
   - Viet Nam
   translations:
     en: Vietnam
@@ -10816,11 +10929,11 @@ VN:
     de: Vietnam
     fr: Viêt Nam
     es: Vietnam
-    ja: ベトナム
+    ja: "ベトナム"
     nl: Vietnam
-    ru: Вьетнам
-    ar: فيتنام
-    be: В'етнам
+    ru: "Вьетнам"
+    ar: "فيتنام"
+    be: "В'етнам"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10843,26 +10956,27 @@ VU:
   alpha2: VU
   alpha3: VUT
   country_code: '678'
-  currency:
+  currency: 
   international_prefix: '00'
   ioc: VAN
+  gec: NH
   latitude: 16 00 S
   longitude: 167 00 E
   name: Vanuatu
   names:
   - Vanuatu
-  - バヌアツ
+  - "バヌアツ"
   translations:
     en: Vanuatu
     it: Vanuatu
     de: Vanuatu
     fr: Vanuatu
     es: Vanuatu
-    ja: バヌアツ
+    ja: "バヌアツ"
     nl: Vanuatu
-    ru: Вануату
-    ar: فانواتو
-    be: Вануату
+    ru: "Вануату"
+    ar: "فانواتو"
+    be: "Вануату"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10888,7 +11002,8 @@ WF:
   country_code: '681'
   currency: XPF
   international_prefix: '19'
-  ioc:
+  ioc: 
+  gec: WF
   latitude: 13 18 S
   longitude: 176 12 W
   name: Wallis and Futuna
@@ -10897,7 +11012,7 @@ WF:
   - Wallis und Futuna
   - Wallis et Futuna
   - Wallis y Futuna
-  - ウォリス・フツナ
+  - "ウォリス・フツナ"
   - Wallis en Futuna
   translations:
     en: Wallis and Futuna
@@ -10905,11 +11020,11 @@ WF:
     de: Wallis und Futuna
     fr: Wallis-et-Futuna
     es: Wallis y Futuna
-    ja: ウォリス・フツナ
+    ja: "ウォリス・フツナ"
     nl: Wallis en Futuna
-    ru: Уоллис и Футуна
-    ar: والس وفوتونا
-    be: Уоліс і Футуна
+    ru: "Уоллис и Футуна"
+    ar: "والس وفوتونا"
+    be: "Уоліс і Футуна"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10932,23 +11047,24 @@ WS:
   currency: USD
   international_prefix: '00'
   ioc: SAM
+  gec: WS
   latitude: 13 35 S
   longitude: 172 20 W
   name: Samoa
   names:
   - Samoa
-  - サモア
+  - "サモア"
   translations:
     en: Samoa
     it: Samoa
     de: Samoa
     fr: Samoa
     es: Samoa
-    ja: サモア
+    ja: "サモア"
     nl: Samoa
-    ru: Самоа
-    ar: ساموا
-    be: Самоа
+    ru: "Самоа"
+    ar: "ساموا"
+    be: "Самоа"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -10967,39 +11083,38 @@ WS:
   postal_code: true
 YE:
   continent: Asia
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{postalcode}} {{city}}
-
-    {{country}}'
+    {{country}}
   alpha2: YE
   alpha3: YEM
   country_code: '967'
   currency: YER
   international_prefix: '00'
   ioc: YEM
+  gec: YM
   latitude: 15 00 N
   longitude: 48 00 E
   name: Yemen
   names:
   - Yemen
-  - اليمن
+  - "اليمن"
   - Jemen
   - Yémen
-  - イエメン
+  - "イエメン"
   translations:
     en: Yemen
     it: Yemen
     de: Jemen
     fr: Yémen
     es: Yemen
-    ja: イエメン
+    ja: "イエメン"
     nl: Jemen
-    ru: Йемен
-    ar: اليمن
-    be: Емен
+    ru: "Йемен"
+    ar: "اليمن"
+    be: "Емен"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -11023,24 +11138,25 @@ YT:
   country_code: '262'
   currency: EUR
   international_prefix: '00'
-  ioc:
+  ioc: 
+  gec: MF
   latitude: 12 50 S
   longitude: 45 10 E
   name: Mayotte
   names:
   - Mayotte
-  - マヨット
+  - "マヨット"
   translations:
     en: Mayotte
     it: Mayotte
     de: Mayotte
     fr: Mayotte
     es: Mayotte
-    ja: マヨット
+    ja: "マヨット"
     nl: Mayotte
-    ru: Майотта
-    ar: مايوت
-    be: Маёта
+    ru: "Майотта"
+    ar: "مايوت"
+    be: "Маёта"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -11057,23 +11173,20 @@ YT:
   postal_code: true
 ZA:
   continent: Africa
-  address_format: ! '{{recipient}}
-
+  address_format: |-
+    {{recipient}}
     {{street}}
-
     {{city}}
-
     {{region}}
-
     {{postalcode}}
-
-    {{country}}'
+    {{country}}
   alpha2: ZA
   alpha3: ZAF
   country_code: '27'
   currency: ZAR
   international_prefix: 09
   ioc: RSA
+  gec: SF
   latitude: 29 00 S
   longitude: 24 00 E
   name: South Africa
@@ -11082,7 +11195,7 @@ ZA:
   - Republik Südafrika
   - Afrique du Sud
   - República de Sudáfrica
-  - 南アフリカ
+  - "南アフリカ"
   - Zuid-Afrika
   translations:
     en: South Africa
@@ -11090,11 +11203,11 @@ ZA:
     de: Republik Südafrika
     fr: Afrique du Sud
     es: República de Sudáfrica
-    ja: 南アフリカ
+    ja: "南アフリカ"
     nl: Zuid-Afrika
-    ru: Республика Южная Африка
-    ar: جنوب أفريقيا
-    be: Паўднёва-Афрыканская Рэспубліка
+    ru: "Республика Южная Африка"
+    ar: "جنوب أفريقيا"
+    be: "Паўднёва-Афрыканская Рэспубліка"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -11126,6 +11239,7 @@ ZM:
   currency: ZMK
   international_prefix: '00'
   ioc: ZAM
+  gec: ZA
   latitude: 15 00 S
   longitude: 30 00 E
   name: Zambia
@@ -11133,18 +11247,18 @@ ZM:
   - Zambia
   - Sambia
   - Zambie
-  - ザンビア
+  - "ザンビア"
   translations:
     en: Zambia
     it: Zambia
     de: Sambia
     fr: Zambie
     es: Zambia
-    ja: ザンビア
+    ja: "ザンビア"
     nl: Zambia
-    ru: Замбия
-    ar: زامبيا
-    be: Замбія
+    ru: "Замбия"
+    ar: "زامبيا"
+    be: "Замбія"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -11167,6 +11281,7 @@ ZW:
   currency: ZWD
   international_prefix: '00'
   ioc: ZIM
+  gec: ZI
   latitude: 20 00 S
   longitude: 30 00 E
   name: Zimbabwe
@@ -11174,18 +11289,18 @@ ZW:
   - Zimbabwe
   - Simbabwe
   - Zimbabue
-  - ジンバブエ
+  - "ジンバブエ"
   translations:
     en: Zimbabwe
     it: Zimbabwe
     de: Simbabwe
     fr: Zimbabwe
     es: Zimbabue
-    ja: ジンバブエ
+    ja: "ジンバブエ"
     nl: Zimbabwe
-    ru: Зимбабве
-    ar: زيمبابوي
-    be: Зімбабвэ
+    ru: "Зимбабве"
+    ar: "زيمبابوي"
+    be: "Зімбабвэ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:

@@ -455,6 +455,16 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'gec' do
+    it 'should return the country\'s GEC code' do
+      ISO3166::Country.new('NA').gec.should eql 'WA'
+    end
+
+    it 'should return nil if the country does not have a GEC code' do
+      ISO3166::Country.new('AN').gec.should eql nil
+    end
+  end
+
   describe 'to_s' do
     it 'should return the country name' do
       ISO3166::Country.new('GB').to_s.should == 'United Kingdom'
