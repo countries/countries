@@ -49,6 +49,14 @@ describe ISO3166::Country do
     country.longitude.should == '97 00 W'
   end
 
+  it 'should return the decimal Latitude' do
+    country.latitude_dec.should == '39.44325637817383'
+  end
+
+  it 'should return the decimal Longitude' do
+    country.longitude_dec.should == '-98.95733642578125'
+  end
+
   it "should return continent" do
     country.continent.should == "North America"
   end
