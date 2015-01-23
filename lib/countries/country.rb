@@ -39,7 +39,9 @@ class ISO3166::Country
     :min_longitude,
     :min_latitude,
     :max_longitude,
-    :max_latitude
+    :max_latitude,
+    :latitude_dec,
+    :longitude_dec
   ]
 
   AttrReaders.each do |meth|
