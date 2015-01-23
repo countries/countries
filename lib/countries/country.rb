@@ -33,6 +33,7 @@ class ISO3166::Country
     :dissolved_on,
     :eu_member,
     :alt_currency,
+    :vat_rates,
     :postal_code
   ]
 
