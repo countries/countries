@@ -1,7 +1,7 @@
 Countries
 =========
 
-Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). The gem also adds a country_select helper. I will add any country based data I can get access to. I hope this to be a repository for all country based information.
+Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
 [![Build Status](https://travis-ci.org/hexorx/countries.png)](https://travis-ci.org/hexorx/countries) [![Dependency Status](https://gemnasium.com/hexorx/countries.png)](https://gemnasium.com/hexorx/countries) [![Code Climate](https://codeclimate.com/github/hexorx/countries.png)](https://codeclimate.com/github/hexorx/countries) [![Waffle.io Issues in Ready](https://badge.waffle.io/hexorx/countries.png)](http://waffle.io/hexorx/countries)
 
@@ -21,14 +21,6 @@ Or you can install via bundler Gemfile if you are using Rails 3:
 Or you can install via bundler Gemfile with using only ISO3166::Country (no Country class):
 
     gem 'countries', :require => 'iso3166'
-
-Country Select Helper
----------------------
-
-This gem automatically integrates with [country_select][]. It will change its behavior to store the alpha2 country code instead of the country name. Make sure to add the `country_select` gem after `countries` in the Gemfile:
-
-    gem 'countries'
-    gem 'country_select'
 
 Basic Usage
 -----------
