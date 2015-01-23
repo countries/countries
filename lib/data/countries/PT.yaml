@@ -1,0 +1,43 @@
+---
+PT:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  alpha2: PT
+  alpha3: PRT
+  country_code: '351'
+  currency: EUR
+  international_prefix: '00'
+  ioc: POR
+  gec: PO
+  latitude: 39 30 N
+  longitude: 8 00 W
+  name: Portugal
+  names:
+  - Portugal
+  - "ポルトガル"
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  number: '620'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: PT
+  languages:
+  - pt
+  nationality: Portuguese
+  eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 6
+    - 13
+    super_reduced: 
+    parking: 13
+  postal_code: true

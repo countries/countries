@@ -1,0 +1,39 @@
+---
+US:
+  continent: North America
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  alpha2: US
+  alpha3: USA
+  country_code: '1'
+  currency: USD
+  international_prefix: '011'
+  ioc: USA
+  gec: US
+  latitude: 38 00 N
+  longitude: 97 00 W
+  name: United States
+  names:
+  - United States of America
+  - Vereinigte Staaten von Amerika
+  - "États-Unis"
+  - Estados Unidos
+  - "アメリカ合衆国"
+  - Verenigde Staten
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '840'
+  region: Americas
+  subregion: Northern America
+  world_region: AMER
+  un_locode: US
+  languages:
+  - en
+  nationality: American
+  postal_code: true
