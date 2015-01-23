@@ -1,0 +1,38 @@
+---
+CA:
+  continent: North America
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  alpha2: CA
+  alpha3: CAN
+  country_code: '1'
+  currency: CAD
+  international_prefix: '011'
+  ioc: CAN
+  gec: CA
+  latitude: 60 00 N
+  longitude: 95 00 W
+  name: Canada
+  names:
+  - Canada
+  - Kanada
+  - Canadá
+  - "カナダ"
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '124'
+  region: Americas
+  subregion: Northern America
+  world_region: AMER
+  un_locode: CA
+  languages:
+  - en
+  - fr
+  nationality: Canadian
+  postal_code: true

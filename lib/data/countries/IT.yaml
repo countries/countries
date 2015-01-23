@@ -1,0 +1,46 @@
+---
+IT:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}} {{region}}
+    {{country}}
+  alpha2: IT
+  alpha3: ITA
+  country_code: '39'
+  currency: EUR
+  international_prefix: '00'
+  ioc: ITA
+  gec: IT
+  latitude: 42 50 N
+  longitude: 12 50 E
+  name: Italy
+  names:
+  - Italy
+  - Italien
+  - Italie
+  - Italia
+  - "イタリア"
+  - Italië
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  number: '380'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: IT
+  languages:
+  - it
+  nationality: Italian
+  eu_member: true
+  vat_rates:
+    standard: 22
+    reduced:
+    - 10
+    super_reduced: 4
+    parking: 
+  postal_code: true

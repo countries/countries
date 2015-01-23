@@ -1,0 +1,48 @@
+---
+IE:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region}} {{postalcode}}
+    {{country}}
+  alpha2: IE
+  alpha3: IRL
+  country_code: '353'
+  currency: EUR
+  international_prefix: '00'
+  ioc: IRL
+  gec: EI
+  latitude: 53 00 N
+  longitude: 8 00 W
+  name: Ireland
+  names:
+  - Ireland
+  - Irland
+  - Irlande
+  - Irlanda
+  - "アイルランド"
+  - Ierland
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  number: '372'
+  region: Europe
+  subregion: Northern Europe
+  world_region: EMEA
+  un_locode: IE
+  languages:
+  - en
+  - ga
+  nationality: Irish
+  eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 9
+    - 13.5
+    super_reduced: 4.8
+    parking: 13.5
+  postal_code: false

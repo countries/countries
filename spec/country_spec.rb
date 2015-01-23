@@ -38,7 +38,7 @@ describe ISO3166::Country do
 
   it 'should return translations' do
     country.translations.should be
-    country.translations["en"].should == "United States of America"
+    country.translations['en'].should == 'United States'
   end
 
   it 'should return latitude' do
@@ -203,7 +203,7 @@ describe ISO3166::Country do
       countries.should be_an(Array)
       countries.first.should be_a(String)
       countries.first.should eq('Afghanistan')
-      countries.should have(250).countries
+      countries.should have(249).countries
     end
   end
 
