@@ -34,7 +34,11 @@ class ISO3166::Country
     :eu_member,
     :alt_currency,
     :vat_rates,
-    :postal_code
+    :postal_code,
+    :min_longitude,
+    :min_latitude,
+    :max_longitude,
+    :max_latitude
   ]
 
   AttrReaders.each do |meth|
