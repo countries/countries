@@ -1,9 +1,10 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Data = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
-  Names = Data.map {|k,v| [v['name'],k]}.sort_by { |d| d[0] }
-  NameIndex = Hash[*Names.flatten]
+  Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
+  Data = {}
+  Codes.each { |alpha2| Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2] || {} }
+  Names = I18nData.countries.values.sort_by { |d| d[0] }
 
   AttrReaders = [
     :number,
@@ -12,7 +13,6 @@ class ISO3166::Country
     :currency,
     :name,
     :names,
-    :translations,
     :latitude,
     :longitude,
     :continent,
@@ -88,7 +88,19 @@ class ISO3166::Country
     @data['name']
   end
 
+  def translations
+    translated_names = {}
+    I18nData.languages.keys.each do |language_alpha2|
+      begin
+        translated_names[language_alpha2.downcase] = I18nData.countries(language_alpha2)[alpha2]
+      rescue I18nData::NoTranslationAvailable
+        next
+      end
+    end
+    translated_names
+  end
   private
+
   class << self
     def new(country_data)
       if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
@@ -103,9 +115,8 @@ class ISO3166::Country
 
     alias :countries :all
 
-    def all_translated(locale='en')
-      translate = ->(country) { self.new(country[1]).translations[locale] }
-      list = self.all.map(&translate).compact.sort
+    def all_translated(locale = 'en')
+      I18nData.countries(locale.upcase).values
     end
 
     def search(query)
