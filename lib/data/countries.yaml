@@ -584,6 +584,12 @@ AT:
   - de
   nationality: Austrian
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 10
+    super_reduced:
+    parking: 12
   postal_code: true
 AU:
   continent: Australia
@@ -942,6 +948,13 @@ BE:
   - de
   nationality: Belgian
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 6
+    - 12
+    super_reduced:
+    parking: 12
   postal_code: true
 BF:
   continent: Africa
@@ -1034,6 +1047,12 @@ BG:
   - bg
   nationality: Bulgarian
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 9
+    super_reduced:
+    parking:
   postal_code: true
 BH:
   continent: Asia
@@ -2441,6 +2460,13 @@ CY:
   - hy
   nationality: Cypriot
   eu_member: true
+  vat_rates:
+    standard: 19
+    reduced:
+    - 5
+    - 9
+    super_reduced:
+    parking:
   postal_code: true
 CZ:
   continent: Europe
@@ -2493,6 +2519,12 @@ CZ:
   - sk
   nationality: Czech
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 15
+    super_reduced:
+    parking:
   postal_code: true
 DE:
   continent: Europe
@@ -2552,6 +2584,12 @@ DE:
   - de
   nationality: German
   eu_member: true
+  vat_rates:
+    standard: 19
+    reduced:
+    - 7
+    super_reduced:
+    parking:
   postal_code: true
 DJ:
   continent: Africa
@@ -2647,6 +2685,11 @@ DK:
   - da
   nationality: Danish
   eu_member: true
+  vat_rates:
+    standard: 25
+    reduced: []
+    super_reduced:
+    parking:
   postal_code: true
 DM:
   continent: North America
@@ -2858,6 +2901,12 @@ EE:
   - ru
   nationality: Estonian
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 9
+    super_reduced:
+    parking:
   postal_code: true
 EG:
   continent: Africa
@@ -3045,6 +3094,12 @@ ES:
   - es
   nationality: Spanish
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 10
+    super_reduced: 4
+    parking:
   postal_code: true
 ET:
   continent: Africa
@@ -3139,6 +3194,13 @@ FI:
   - sv
   nationality: Finnish
   eu_member: true
+  vat_rates:
+    standard: 24
+    reduced:
+    - 10
+    - 14
+    super_reduced:
+    parking:
   postal_code: true
 FJ:
   continent: Australia
@@ -3363,6 +3425,13 @@ FR:
   - fr
   nationality: French
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 5.5
+    - 10
+    super_reduced: 2.1
+    parking:
   postal_code: true
 GA:
   continent: Africa
@@ -3463,6 +3532,12 @@ GB:
   - en
   nationality: British
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 5
+    super_reduced:
+    parking:
   postal_code: true
 GD:
   continent: North America
@@ -3973,6 +4048,13 @@ GR:
   - el
   nationality: Greek
   eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 6.5
+    - 13
+    super_reduced:
+    parking:
   postal_code: true
 GS:
   continent: Antarctica
@@ -4352,6 +4434,13 @@ HR:
   - hr
   nationality: Croatian
   eu_member: true
+  vat_rates:
+    standard: 25
+    reduced:
+    - 5
+    - 13
+    super_reduced:
+    parking:
   postal_code: true
 HT:
   continent: North America
@@ -4447,6 +4536,13 @@ HU:
   - hu
   nationality: Hungarian
   eu_member: true
+  vat_rates:
+    standard: 27
+    reduced:
+    - 5
+    - 18
+    super_reduced:
+    parking:
   postal_code: true
 ID:
   continent: Asia
@@ -4553,6 +4649,13 @@ IE:
   - ga
   nationality: Irish
   eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 9
+    - 13.5
+    super_reduced: 4.8
+    parking: 13.5
   postal_code: false
 IL:
   continent: Asia
@@ -4920,6 +5023,12 @@ IT:
   - it
   nationality: Italian
   eu_member: true
+  vat_rates:
+    standard: 22
+    reduced:
+    - 10
+    super_reduced: 4
+    parking:
   postal_code: true
 JE:
   continent: Europe
@@ -5926,6 +6035,13 @@ LT:
   - lt
   nationality: Lithuanian
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 5
+    - 9
+    super_reduced:
+    parking:
   postal_code: true
 LU:
   continent: Europe
@@ -5977,6 +6093,13 @@ LU:
   - lb
   nationality: Luxembourger
   eu_member: true
+  vat_rates:
+    standard: 17
+    reduced:
+    - 8
+    - 14
+    super_reduced: 3
+    parking: 12
   postal_code: true
 LV:
   continent: Europe
@@ -6021,6 +6144,12 @@ LV:
   - lv
   nationality: Latvian
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 12
+    super_reduced:
+    parking:
   postal_code: true
 LY:
   continent: Africa
@@ -6788,6 +6917,13 @@ MT:
   - en
   nationality: Maltese
   eu_member: true
+  vat_rates:
+    standard: 18
+    reduced:
+    - 5
+    - 7
+    super_reduced:
+    parking:
   postal_code: true
 MU:
   continent: Africa
@@ -7349,6 +7485,12 @@ NL:
   - nl
   nationality: Dutch
   eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 6
+    super_reduced:
+    parking:
   postal_code: true
 'NO':
   continent: Europe
@@ -7938,6 +8080,13 @@ PL:
   - pl
   nationality: Polish
   eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 5
+    - 8
+    super_reduced:
+    parking: 
   postal_code: true
 PM:
   continent: North America
@@ -8154,6 +8303,13 @@ PT:
   - pt
   nationality: Portuguese
   eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 6
+    - 13
+    super_reduced:
+    parking: 13
   postal_code: true
 PW:
   continent: Australia
@@ -8373,6 +8529,13 @@ RO:
   - ro
   nationality: Romanian
   eu_member: true
+  vat_rates:
+    standard: 24
+    reduced:
+    - 5
+    - 9
+    super_reduced:
+    parking:
   postal_code: true
 RS:
   continent: Europe
@@ -8741,6 +8904,13 @@ SE:
   - sv
   nationality: Swedish
   eu_member: true
+  vat_rates:
+    standard: 25
+    reduced:
+    - 6
+    - 12
+    super_reduced:
+    parking:
   postal_code: true
 SG:
   continent: Asia
@@ -8886,6 +9056,12 @@ SI:
   - sl
   nationality: Slovene
   eu_member: true
+  vat_rates:
+    standard: 22
+    reduced:
+    - 9.5
+    super_reduced:
+    parking:
   postal_code: true
 SJ:
   continent: Europe
@@ -8980,6 +9156,12 @@ SK:
   - sk
   nationality: Slovak
   eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 10
+    super_reduced:
+    parking:
   postal_code: true
 SL:
   continent: Africa

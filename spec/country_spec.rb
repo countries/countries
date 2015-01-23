@@ -461,4 +461,22 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'VAT rates' do
+    let(:belgium) { ISO3166::Country.search('BE') }
+
+    it 'should not return a vat_rate for countries without federal VAT' do
+      country.vat_rates.should == nil
+    end
+
+    it 'should contain all keys for vat_rates' do
+      belgium.vat_rates.should be_a(Hash)
+      belgium.vat_rates.keys.should == ["standard", "reduced", "super_reduced", "parking"]
+    end
+
+    it 'should return an array of reduced vat rates' do
+      belgium.vat_rates["reduced"].should be_an(Array)
+      belgium.vat_rates["reduced"].should == [6, 12]
+    end
+  end
+
 end

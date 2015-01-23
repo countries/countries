@@ -30,6 +30,7 @@ class ISO3166::Country
     :languages,
     :nationality,
     :eu_member,
+    :vat_rates,
     :postal_code
   ]
 
