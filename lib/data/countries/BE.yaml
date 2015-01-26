@@ -1,0 +1,56 @@
+---
+BE:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: BE
+  alpha3: BEL
+  country_code: '32'
+  currency: EUR
+  international_prefix: '00'
+  ioc: BEL
+  gec: BE
+  latitude: 50 50 N
+  longitude: 4 00 E
+  name: Belgium
+  names:
+  - Belgium
+  - Belgien
+  - Belgique
+  - Bélgica
+  - "ベルギー"
+  - België
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  number: '056'
+  region: Europe
+  subregion: Western Europe
+  world_region: EMEA
+  un_locode: BE
+  languages:
+  - nl
+  - fr
+  - de
+  nationality: Belgian
+  eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 6
+    - 12
+    super_reduced: 
+    parking: 12
+  postal_code: true
+  min_longitude: '2.566667'
+  min_latitude: '49.516667'
+  max_longitude: '6.4'
+  max_latitude: '51.683333'
+  latitude_dec: '50.648963928222656'
+  longitude_dec: '4.641502380371094'

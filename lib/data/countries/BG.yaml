@@ -1,0 +1,53 @@
+---
+BG:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: BG
+  alpha3: BGR
+  country_code: '359'
+  currency: BGN
+  international_prefix: '00'
+  ioc: BUL
+  gec: BU
+  latitude: 43 00 N
+  longitude: 25 00 E
+  name: Bulgaria
+  names:
+  - Bulgaria
+  - Bulgarien
+  - Bulgarie
+  - "ブルガリア"
+  - Bulgarije
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  - 10
+  national_prefix: '0'
+  number: '100'
+  region: Europe
+  subregion: Eastern Europe
+  world_region: EMEA
+  un_locode: BG
+  languages:
+  - bg
+  nationality: Bulgarian
+  eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 9
+    super_reduced: 
+    parking: 
+  postal_code: true
+  min_longitude: '22.371389'
+  min_latitude: '41'
+  max_longitude: '28.6'
+  max_latitude: '44.193611'
+  latitude_dec: '42.7661018371582'
+  longitude_dec: '25.283733367919922'

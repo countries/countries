@@ -1,0 +1,53 @@
+---
+GR:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: GR
+  alpha3: GRC
+  country_code: '30'
+  currency: EUR
+  international_prefix: '00'
+  ioc: GRE
+  gec: GR
+  latitude: 39 00 N
+  longitude: 22 00 E
+  name: Greece
+  names:
+  - Greece
+  - Griechenland
+  - Grèce
+  - Grecia
+  - "ギリシャ"
+  - Griekenland
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: None
+  number: '300'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: GR
+  languages:
+  - el
+  nationality: Greek
+  eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 6.5
+    - 13
+    super_reduced: 
+    parking: 
+  postal_code: true
+  min_longitude: '19.381667'
+  min_latitude: '34.8'
+  max_longitude: '29.648056'
+  max_latitude: '44'
+  latitude_dec: '39.68437194824219'
+  longitude_dec: '21.897409439086914'
