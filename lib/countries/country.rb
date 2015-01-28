@@ -105,6 +105,7 @@ class ISO3166::Country
     end
     translated_names
   end
+
   private
 
   class << self
@@ -147,7 +148,7 @@ class ISO3166::Country
 
       Data.select do |_, v|
         attributes.map do |attr|
-          Array(v[attr]).any?{ |n| value === n.to_s.downcase }
+          Array(v[attr]).any?{ |n| value === n.to_s.mb_chars.downcase }
         end.include?(true)
       end
     end
@@ -159,7 +160,7 @@ class ISO3166::Country
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
-      val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.downcase)
+      val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.mb_chars.downcase)
 
       [attributes, val]
     end
