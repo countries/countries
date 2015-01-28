@@ -146,7 +146,11 @@ describe ISO3166::Country do
     end
 
     it 'should be available through states' do
-      country.states.should have(60).states
+      country.states.should have(60).subdivisions
+    end
+
+    it 'should be available through provinces' do
+      country.provinces.should have(60).subdivisions
     end
   end
 

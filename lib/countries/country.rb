@@ -81,6 +81,7 @@ class ISO3166::Country
   end
 
   alias :states :subdivisions
+  alias :provinces :subdivisions
 
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
