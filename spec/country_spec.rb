@@ -385,6 +385,15 @@ describe ISO3166::Country do
       end
     end
 
+    context "when search lowercase multibyte name found" do
+      let(:ru) { ISO3166::Country.find_country_by_name("россия") }
+
+      it "should be a country instance" do
+        ru.should be_a(ISO3166::Country)
+        ru.alpha2.should == "RU"
+      end
+    end
+
     context "when search name not found" do
       let(:bogus) { ISO3166::Country.find_country_by_name("Does not exist") }
 
