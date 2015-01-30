@@ -1,11 +1,13 @@
 ---
 IS:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: IS
   alpha3: ISL
   country_code: '354'
@@ -21,7 +23,7 @@ IS:
   - Island
   - Islande
   - Islandia
-  - "アイスランド"
+  - アイスランド
   - IJsland
   national_destination_code_lengths:
   - 2
@@ -39,9 +41,9 @@ IS:
   - is
   nationality: Icelander
   postal_code: true
-  min_longitude: "-24.533333"
+  min_longitude: '-24.533333'
   min_latitude: '63.3'
-  max_longitude: "-13.2"
+  max_longitude: '-13.2'
   max_latitude: '66.566667'
   latitude_dec: '64.9285659790039'
-  longitude_dec: "-18.961700439453125"
+  longitude_dec: '-18.961700439453125'

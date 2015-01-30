@@ -1,11 +1,13 @@
 ---
 GR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: GR
   alpha3: GRC
   country_code: '30'
@@ -21,7 +23,7 @@ GR:
   - Griechenland
   - Grèce
   - Grecia
-  - "ギリシャ"
+  - ギリシャ
   - Griekenland
   national_destination_code_lengths:
   - 2

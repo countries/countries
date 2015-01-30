@@ -1,11 +1,13 @@
 ---
 RU:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{postalcode}} {{city}}
+
     {{street}}
-    {{country}}
+
+    {{country}}'
   alpha2: RU
   alpha3: RUS
   country_code: '7'
@@ -15,16 +17,16 @@ RU:
   gec: RS
   latitude: 60 00 N
   longitude: 100 00 E
-  name: Russian Federation
+  name: Russia
   names:
   - Russia
   - Russland
   - Russie
   - Rusia
-  - "ロシア連邦"
+  - ロシア連邦
   - Rusland
-  - "Россия"
-  - "Расія"
+  - Россия
+  - Расія
   national_destination_code_lengths:
   - 3
   national_number_lengths:

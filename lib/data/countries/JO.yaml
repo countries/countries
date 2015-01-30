@@ -1,11 +1,13 @@
 ---
 JO:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: JO
   alpha3: JOR
   country_code: '962'
@@ -18,11 +20,11 @@ JO:
   name: Jordan
   names:
   - Jordan
-  - "الأردن"
+  - الأردن
   - Jordanien
   - Jordanie
   - Jordania
-  - "ヨルダン"
+  - ヨルダン
   - Jordanië
   national_destination_code_lengths:
   - 2

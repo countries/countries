@@ -1,12 +1,15 @@
 ---
 DK:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: DK
   alpha3: DNK
   country_code: '45'
@@ -22,7 +25,7 @@ DK:
   - Dänemark
   - Danemark
   - Dinamarca
-  - "デンマーク"
+  - デンマーク
   - Denemarken
   national_destination_code_lengths:
   - 2

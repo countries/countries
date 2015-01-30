@@ -1,11 +1,13 @@
 ---
 AU:
   continent: Australia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: AU
   alpha3: AUS
   country_code: '61'
@@ -20,7 +22,7 @@ AU:
   - Australia
   - Australien
   - Australie
-  - "オーストラリア"
+  - オーストラリア
   - Australië
   national_destination_code_lengths:
   - 2
@@ -37,8 +39,8 @@ AU:
   nationality: Australian
   postal_code: true
   min_longitude: '147.1'
-  min_latitude: "-29.472222"
+  min_latitude: '-29.472222'
   max_longitude: '159.119444'
-  max_latitude: "-15.5"
-  latitude_dec: "-25.585241317749023"
+  max_latitude: '-15.5'
+  latitude_dec: '-25.585241317749023'
   longitude_dec: '134.50411987304688'

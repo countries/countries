@@ -1,12 +1,15 @@
 ---
 KW:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: KW
   alpha3: KWT
   country_code: '965'
@@ -19,9 +22,9 @@ KW:
   name: Kuwait
   names:
   - Kuwait
-  - "الكويت"
+  - الكويت
   - Koweït
-  - "クウェート"
+  - クウェート
   - Koeweit
   national_destination_code_lengths:
   - 2

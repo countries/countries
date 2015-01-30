@@ -1,11 +1,13 @@
 ---
 BE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BE
   alpha3: BEL
   country_code: '32'
@@ -21,7 +23,7 @@ BE:
   - Belgien
   - Belgique
   - Bélgica
-  - "ベルギー"
+  - ベルギー
   - België
   national_destination_code_lengths:
   - 2

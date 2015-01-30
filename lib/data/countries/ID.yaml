@@ -1,12 +1,15 @@
 ---
 ID:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}}
+
     {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: ID
   alpha3: IDN
   country_code: '62'
@@ -21,7 +24,7 @@ ID:
   - Indonesia
   - Indonesien
   - Indonésie
-  - "インドネシア"
+  - インドネシア
   - Indonesië
   national_destination_code_lengths:
   - 2
@@ -41,8 +44,8 @@ ID:
   nationality: Indonesian
   postal_code: true
   min_longitude: '94.970278'
-  min_latitude: "-11"
+  min_latitude: '-11'
   max_longitude: '141.016667'
   max_latitude: '10.616667'
-  latitude_dec: "-1.248089075088501"
+  latitude_dec: '-1.248089075088501'
   longitude_dec: '115.41899871826172'

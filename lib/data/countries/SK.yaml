@@ -1,11 +1,13 @@
 ---
 SK:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SK
   alpha3: SVK
   country_code: '421'
@@ -21,7 +23,7 @@ SK:
   - Slowakei
   - Slovaquie
   - República Eslovaca
-  - "スロバキア"
+  - スロバキア
   - Slowakije
   national_destination_code_lengths:
   - 2

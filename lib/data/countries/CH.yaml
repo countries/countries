@@ -1,11 +1,13 @@
 ---
 CH:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: CH
   alpha3: CHE
   country_code: '41'
@@ -21,7 +23,7 @@ CH:
   - Schweiz
   - Suisse
   - Suiza
-  - "スイス"
+  - スイス
   - Zwitserland
   national_destination_code_lengths:
   - 2

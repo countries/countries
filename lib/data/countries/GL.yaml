@@ -1,11 +1,13 @@
 ---
 GL:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: GL
   alpha3: GRL
   country_code: '299'
@@ -21,7 +23,7 @@ GL:
   - Grönland
   - Groenland
   - Groenlandia
-  - "グリーンランド"
+  - グリーンランド
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -36,9 +38,9 @@ GL:
   - kl
   nationality: Greenlandic
   postal_code: true
-  min_longitude: "-73.05"
+  min_longitude: '-73.05'
   min_latitude: '51.7'
-  max_longitude: "-12.133333"
+  max_longitude: '-12.133333'
   max_latitude: '83.666667'
   latitude_dec: '74.34954833984375'
-  longitude_dec: "-41.08988952636719"
+  longitude_dec: '-41.08988952636719'

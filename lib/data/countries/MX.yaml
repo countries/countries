@@ -1,11 +1,13 @@
 ---
 MX:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: MX
   alpha3: MEX
   country_code: '52'
@@ -21,7 +23,7 @@ MX:
   - Mexiko
   - Mexique
   - México
-  - "メキシコ"
+  - メキシコ
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -38,9 +40,9 @@ MX:
   - es
   nationality: Mexican
   postal_code: true
-  min_longitude: "-119.921667"
+  min_longitude: '-119.921667'
   min_latitude: '14.55'
-  max_longitude: "-86.716667"
+  max_longitude: '-86.716667'
   max_latitude: '32.983333'
   latitude_dec: '23.909093856811523'
-  longitude_dec: "-102.6333999633789"
+  longitude_dec: '-102.6333999633789'

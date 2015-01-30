@@ -1,11 +1,13 @@
 ---
 LB:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: LB
   alpha3: LBN
   country_code: '961'
@@ -18,11 +20,11 @@ LB:
   name: Lebanon
   names:
   - Lebanon
-  - "لبنان"
+  - لبنان
   - Libanon
   - Liban
   - Líbano
-  - "レバノン"
+  - レバノン
   national_destination_code_lengths:
   - 2
   national_number_lengths:

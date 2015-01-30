@@ -1,11 +1,13 @@
 ---
 PT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: PT
   alpha3: PRT
   country_code: '351'
@@ -18,7 +20,7 @@ PT:
   name: Portugal
   names:
   - Portugal
-  - "ポルトガル"
+  - ポルトガル
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -41,9 +43,9 @@ PT:
     super_reduced: 
     parking: 13
   postal_code: true
-  min_longitude: "-31.266667"
+  min_longitude: '-31.266667'
   min_latitude: '30.033333'
-  max_longitude: "-5"
+  max_longitude: '-5'
   max_latitude: '42.15'
   latitude_dec: '39.64200973510742'
-  longitude_dec: "-8.009422302246094"
+  longitude_dec: '-8.009422302246094'

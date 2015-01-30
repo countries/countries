@@ -1,11 +1,13 @@
 ---
 RO:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: RO
   alpha3: ROU
   country_code: '40'
@@ -21,7 +23,7 @@ RO:
   - Rumänien
   - Roumanie
   - Rumania
-  - "ルーマニア"
+  - ルーマニア
   - Roemenië
   national_destination_code_lengths:
   - 2

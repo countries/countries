@@ -1,11 +1,13 @@
 ---
 TR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: TR
   alpha3: TUR
   country_code: '90'
@@ -21,7 +23,7 @@ TR:
   - Türkei
   - Turquie
   - Turquía
-  - "トルコ"
+  - トルコ
   - Turkije
   national_destination_code_lengths:
   - 2

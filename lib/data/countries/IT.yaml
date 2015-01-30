@@ -1,11 +1,13 @@
 ---
 IT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: IT
   alpha3: ITA
   country_code: '39'
@@ -21,7 +23,7 @@ IT:
   - Italien
   - Italie
   - Italia
-  - "イタリア"
+  - イタリア
   - Italië
   national_destination_code_lengths:
   - 3

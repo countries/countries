@@ -1,12 +1,15 @@
 ---
 KR:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: KR
   alpha3: KOR
   country_code: '82'
@@ -16,13 +19,13 @@ KR:
   gec: KS
   latitude: 37 00 N
   longitude: 127 30 E
-  name: Korea, Republic of
+  name: South Korea
   names:
   - Korea (South)
   - Südkorea
   - Corée du Sud
   - Corea del Sur
-  - "大韓民国"
+  - 大韓民国
   - Zuid-Korea
   - Korea (Republic of)
   national_destination_code_lengths:

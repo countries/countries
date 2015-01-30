@@ -1,11 +1,13 @@
 ---
 SI:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SI
   alpha3: SVN
   country_code: '386'
@@ -21,7 +23,7 @@ SI:
   - Slowenien
   - Slovénie
   - Eslovenia
-  - "スロベニア"
+  - スロベニア
   - Slovenië
   national_destination_code_lengths:
   - 2

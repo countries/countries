@@ -1,12 +1,15 @@
 ---
 PL:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: PL
   alpha3: POL
   country_code: '48'
@@ -22,7 +25,7 @@ PL:
   - Polen
   - Pologne
   - Polonia
-  - "ポーランド"
+  - ポーランド
   national_destination_code_lengths:
   - 2
   national_number_lengths:

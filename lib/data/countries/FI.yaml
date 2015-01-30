@@ -1,11 +1,13 @@
 ---
 FI:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: FI
   alpha3: FIN
   country_code: '358'
@@ -21,7 +23,7 @@ FI:
   - Finnland
   - Finlande
   - Finlandia
-  - "フィンランド"
+  - フィンランド
   national_destination_code_lengths:
   - 2
   national_number_lengths:

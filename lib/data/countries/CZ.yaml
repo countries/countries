@@ -1,11 +1,13 @@
 ---
 CZ:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: CZ
   alpha3: CZE
   country_code: '420'
@@ -21,7 +23,7 @@ CZ:
   - Tschechische Republik
   - République Tchèque
   - República Checa
-  - "チェコ"
+  - チェコ
   - Tsjechië
   national_destination_code_lengths:
   - 2

@@ -1,11 +1,13 @@
 ---
 PH:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}} {{region}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: PH
   alpha3: PHL
   country_code: '63'
@@ -20,7 +22,7 @@ PH:
   - Philippines
   - Philippinen
   - Filipinas
-  - "フィリピン"
+  - フィリピン
   - Filipijnen
   national_destination_code_lengths:
   - 2

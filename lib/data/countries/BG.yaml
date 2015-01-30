@@ -1,11 +1,13 @@
 ---
 BG:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BG
   alpha3: BGR
   country_code: '359'
@@ -20,7 +22,7 @@ BG:
   - Bulgaria
   - Bulgarien
   - Bulgarie
-  - "ブルガリア"
+  - ブルガリア
   - Bulgarije
   national_destination_code_lengths:
   - 2

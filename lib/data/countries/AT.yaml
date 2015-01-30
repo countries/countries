@@ -1,11 +1,13 @@
 ---
 AT:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: AT
   alpha3: AUT
   country_code: '43'
@@ -18,9 +20,9 @@ AT:
   name: Austria
   names:
   - Austria
-  - "Österreich"
+  - Österreich
   - Autriche
-  - "オーストリア"
+  - オーストリア
   - Oostenrijk
   national_destination_code_lengths:
   - 1

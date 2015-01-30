@@ -1,12 +1,15 @@
 ---
 UA:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}}
+
     {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: UA
   alpha3: UKR
   country_code: '380'
@@ -20,11 +23,11 @@ UA:
   names:
   - Ukraine
   - Ucrania
-  - "ウクライナ"
+  - ウクライナ
   - Oekraïne
-  - "Украина"
-  - "Україна"
-  - "Украіна"
+  - Украина
+  - Україна
+  - Украіна
   national_destination_code_lengths:
   - 2
   national_number_lengths:

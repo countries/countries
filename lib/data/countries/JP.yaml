@@ -1,11 +1,13 @@
 ---
 JP:
   continent: Asia
-  address_format: |-
-    〒{{postalcode}}
+  address_format: ! '〒{{postalcode}}
+
     {{region}}{{city}}{{street}}
+
     {{recipient}}
-    {{country}}
+
+    {{country}}'
   alpha2: JP
   alpha3: JPN
   country_code: '81'
@@ -20,7 +22,7 @@ JP:
   - Japan
   - Japon
   - Japón
-  - "日本"
+  - 日本
   national_destination_code_lengths:
   - 2
   national_number_lengths:

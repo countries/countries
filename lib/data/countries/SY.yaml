@@ -1,11 +1,13 @@
 ---
 SY:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SY
   alpha3: SYR
   country_code: '963'
@@ -18,12 +20,12 @@ SY:
   name: Syrian Arab Republic
   names:
   - Syria
-  - "سوريا"
-  - "سورية"
+  - سوريا
+  - سورية
   - Syrien
   - Syrie
   - Siria
-  - "シリア・アラブ共和国"
+  - シリア・アラブ共和国
   - Syrië
   national_destination_code_lengths:
   - 2

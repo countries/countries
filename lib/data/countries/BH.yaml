@@ -1,11 +1,13 @@
 ---
 BH:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: BH
   alpha3: BHR
   country_code: '973'
@@ -18,10 +20,10 @@ BH:
   name: Bahrain
   names:
   - Bahrain
-  - "البحرين"
+  - البحرين
   - Bahreïn
   - Bahrein
-  - "バーレーン"
+  - バーレーン
   national_destination_code_lengths:
   - 2
   national_number_lengths:

@@ -1,11 +1,13 @@
 ---
 HR:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: HR
   alpha3: HRV
   country_code: '385'
@@ -21,7 +23,7 @@ HR:
   - Kroatien
   - Croatie
   - Croacia
-  - "クロアチア"
+  - クロアチア
   - Kroatië
   - Croatia (Hrvatska)
   national_destination_code_lengths:

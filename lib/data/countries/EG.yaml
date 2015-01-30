@@ -1,11 +1,13 @@
 ---
 EG:
   continent: Africa
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: EG
   alpha3: EGY
   country_code: '20'
@@ -18,11 +20,11 @@ EG:
   name: Egypt
   names:
   - Egypt
-  - "مصر"
-  - "Ägypten"
-  - "Égypte"
+  - مصر
+  - Ägypten
+  - Égypte
   - Egipto
-  - "エジプト"
+  - エジプト
   - Egypte
   national_destination_code_lengths:
   - 2

@@ -1,11 +1,13 @@
 ---
 NL:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: NL
   alpha3: NLD
   country_code: '31'
@@ -21,7 +23,7 @@ NL:
   - Niederlande
   - Pays-Bas
   - Países Bajos
-  - "オランダ"
+  - オランダ
   - Nederland
   national_destination_code_lengths:
   - 2

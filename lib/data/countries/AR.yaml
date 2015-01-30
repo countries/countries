@@ -1,12 +1,15 @@
 ---
 AR:
   continent: South America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: AR
   alpha3: ARG
   country_code: '54'
@@ -21,7 +24,7 @@ AR:
   - Argentina
   - Argentinien
   - Argentine
-  - "アルゼンチン"
+  - アルゼンチン
   - Argentinië
   national_destination_code_lengths:
   - 2
@@ -39,9 +42,9 @@ AR:
   - gn
   nationality: Argentinean
   postal_code: true
-  min_longitude: "-73.533333"
-  min_latitude: "-58.116667"
-  max_longitude: "-53.65"
-  max_latitude: "-21.783333"
-  latitude_dec: "-37.071964263916016"
-  longitude_dec: "-64.85450744628906"
+  min_longitude: '-73.533333'
+  min_latitude: '-58.116667'
+  max_longitude: '-53.65'
+  max_latitude: '-21.783333'
+  latitude_dec: '-37.071964263916016'
+  longitude_dec: '-64.85450744628906'

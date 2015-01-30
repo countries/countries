@@ -1,11 +1,13 @@
 ---
 SE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: SE
   alpha3: SWE
   country_code: '46'
@@ -21,7 +23,7 @@ SE:
   - Schweden
   - Suède
   - Suecia
-  - "スウェーデン"
+  - スウェーデン
   - Zweden
   national_destination_code_lengths:
   - 2

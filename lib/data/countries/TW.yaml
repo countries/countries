@@ -1,11 +1,13 @@
 ---
 TW:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: TW
   alpha3: TWN
   country_code: '886'
@@ -15,11 +17,11 @@ TW:
   gec: TW
   latitude: 23 30 N
   longitude: 121 00 E
-  name: Taiwan, Republic Of China
+  name: Taiwan
   names:
   - Taiwan
   - Taiwán
-  - "台湾"
+  - 台湾
   national_destination_code_lengths:
   - 2
   national_number_lengths:

@@ -1,12 +1,15 @@
 ---
 OM:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
+
     {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: OM
   alpha3: OMN
   country_code: '968'
@@ -19,9 +22,9 @@ OM:
   name: Oman
   names:
   - Oman
-  - "عمان"
+  - عمان
   - Omán
-  - "オマーン"
+  - オマーン
   national_destination_code_lengths:
   - 2
   national_number_lengths:

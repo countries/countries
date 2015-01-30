@@ -1,11 +1,13 @@
 ---
 AE:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: AE
   alpha3: ARE
   country_code: '971'
@@ -18,11 +20,11 @@ AE:
   name: United Arab Emirates
   names:
   - United Arab Emirates
-  - "الإمارات العربية المتحدة"
+  - الإمارات العربية المتحدة
   - Vereinigte Arabische Emirate
-  - "Émirats Arabes Unis"
+  - Émirats Arabes Unis
   - Emiratos Árabes Unidos
-  - "アラブ首長国連邦"
+  - アラブ首長国連邦
   - Verenigde Arabische Emiraten
   national_destination_code_lengths:
   - 2

@@ -1,11 +1,13 @@
 ---
 DE:
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: DE
   alpha3: DEU
   country_code: '49'
@@ -21,7 +23,7 @@ DE:
   - Deutschland
   - Allemagne
   - Alemania
-  - "ドイツ"
+  - ドイツ
   - Duitsland
   national_destination_code_lengths:
   - 2

@@ -1,11 +1,13 @@
 ---
 IL:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: IL
   alpha3: ISR
   country_code: '972'
@@ -19,7 +21,7 @@ IL:
   names:
   - Israel
   - Israël
-  - "イスラエル"
+  - イスラエル
   national_destination_code_lengths:
   - 2
   national_number_lengths:

@@ -1,11 +1,13 @@
 ---
 QA:
   continent: Asia
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: QA
   alpha3: QAT
   country_code: '974'
@@ -18,9 +20,9 @@ QA:
   name: Qatar
   names:
   - Qatar
-  - "قطر"
+  - قطر
   - Katar
-  - "カタール"
+  - カタール
   national_destination_code_lengths:
   - 2
   national_number_lengths:

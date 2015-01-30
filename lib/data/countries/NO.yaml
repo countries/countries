@@ -1,11 +1,13 @@
 ---
 'NO':
   continent: Europe
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}}
-    {{country}}
+
+    {{country}}'
   alpha2: 'NO'
   alpha3: NOR
   country_code: '47'
@@ -21,7 +23,7 @@
   - Norwegen
   - Norvège
   - Noruega
-  - "ノルウェー"
+  - ノルウェー
   - Noorwegen
   national_destination_code_lengths:
   - 2

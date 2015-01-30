@@ -1,11 +1,13 @@
 ---
 CA:
   continent: North America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{city}} {{region}} {{postalcode}}
-    {{country}}
+
+    {{country}}'
   alpha2: CA
   alpha3: CAN
   country_code: '1'
@@ -20,7 +22,7 @@ CA:
   - Canada
   - Kanada
   - Canadá
-  - "カナダ"
+  - カナダ
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -36,9 +38,9 @@ CA:
   - fr
   nationality: Canadian
   postal_code: true
-  min_longitude: "-141.666667"
+  min_longitude: '-141.666667'
   min_latitude: '40'
-  max_longitude: "-52.666667"
+  max_longitude: '-52.666667'
   max_latitude: '83.116667'
   latitude_dec: '62.832908630371094'
-  longitude_dec: "-95.91332244873047"
+  longitude_dec: '-95.91332244873047'

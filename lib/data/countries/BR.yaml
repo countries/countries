@@ -1,11 +1,13 @@
 ---
 BR:
   continent: South America
-  address_format: |-
-    {{recipient}}
+  address_format: ! '{{recipient}}
+
     {{street}}
+
     {{postalcode}} {{city}} {{region}}
-    {{country}}
+
+    {{country}}'
   alpha2: BR
   alpha3: BRA
   country_code: '55'
@@ -21,7 +23,7 @@ BR:
   - Brasilien
   - Brésil
   - Brasil
-  - "ブラジル"
+  - ブラジル
   - Brazilië
   national_destination_code_lengths:
   - 2
@@ -38,9 +40,9 @@ BR:
   - pt
   nationality: Brazilian
   postal_code: true
-  min_longitude: "-73.75"
-  min_latitude: "-33.733333"
-  max_longitude: "-28.85"
+  min_longitude: '-73.75'
+  min_latitude: '-33.733333'
+  max_longitude: '-28.85'
   max_latitude: '5.266667'
-  latitude_dec: "-10.81045150756836"
-  longitude_dec: "-52.97311782836914"
+  latitude_dec: '-10.81045150756836'
+  longitude_dec: '-52.97311782836914'
