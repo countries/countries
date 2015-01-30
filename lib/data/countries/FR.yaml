@@ -1,0 +1,54 @@
+---
+FR:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: FR
+  alpha3: FRA
+  country_code: '33'
+  currency: EUR
+  international_prefix: '00'
+  ioc: FRA
+  gec: FR
+  latitude: 46 00 N
+  longitude: 2 00 E
+  name: France
+  names:
+  - France
+  - Frankreich
+  - the French Republic
+  - "フランス"
+  - Frankrijk
+  - Francia
+  national_destination_code_lengths:
+  - 1
+  national_number_lengths:
+  - 9
+  - 10
+  national_prefix: '0'
+  number: '250'
+  region: Europe
+  subregion: Western Europe
+  world_region: EMEA
+  un_locode: FR
+  languages:
+  - fr
+  nationality: French
+  eu_member: true
+  vat_rates:
+    standard: 20
+    reduced:
+    - 5.5
+    - 10
+    super_reduced: 2.1
+    parking: 
+  postal_code: true
+  min_longitude: '54.416667'
+  min_latitude: "-15.866667"
+  max_longitude: '54.416667'
+  max_latitude: "-15.866667"
+  latitude_dec: '46.63727951049805'
+  longitude_dec: '2.3382623195648193'

@@ -1,0 +1,53 @@
+---
+ES:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  alpha2: ES
+  alpha3: ESP
+  country_code: '34'
+  currency: EUR
+  international_prefix: '00'
+  ioc: ESP
+  gec: SP
+  latitude: 40 00 N
+  longitude: 4 00 W
+  name: Spain
+  names:
+  - Spain
+  - Spanien
+  - Espagne
+  - España
+  - "スペイン"
+  - Spanje
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  number: '724'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: ES
+  languages:
+  - es
+  nationality: Spanish
+  eu_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 10
+    super_reduced: 4
+    parking: 
+  postal_code: true
+  min_longitude: "-18.166667"
+  min_latitude: '27.633333'
+  max_longitude: '4.333333'
+  max_latitude: '43.916667'
+  latitude_dec: '40.396026611328125'
+  longitude_dec: "-3.550692558288574"

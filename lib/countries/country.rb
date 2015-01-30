@@ -1,9 +1,10 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Data = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
-  Names = Data.map {|k,v| [v['name'],k]}.sort_by { |d| d[0] }
-  NameIndex = Hash[*Names.flatten]
+  Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
+  Data = {}
+  Codes.each { |alpha2| Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2] || {} }
+  Names = I18nData.countries.values.sort_by { |d| d[0] }
 
   AttrReaders = [
     :number,
@@ -12,12 +13,12 @@ class ISO3166::Country
     :currency,
     :name,
     :names,
-    :translations,
     :latitude,
     :longitude,
     :continent,
     :region,
     :subregion,
+    :world_region,
     :country_code,
     :national_destination_code_lengths,
     :national_number_lengths,
@@ -25,10 +26,22 @@ class ISO3166::Country
     :national_prefix,
     :address_format,
     :ioc,
+    :gec,
     :un_locode,
     :languages,
     :nationality,
-    :eu_member
+    :address_format,
+    :dissolved_on,
+    :eu_member,
+    :alt_currency,
+    :vat_rates,
+    :postal_code,
+    :min_longitude,
+    :min_latitude,
+    :max_longitude,
+    :max_latitude,
+    :latitude_dec,
+    :longitude_dec
   ]
 
   AttrReaders.each do |meth|
@@ -47,12 +60,20 @@ class ISO3166::Country
     not (@data.nil? or @data.empty?)
   end
 
+  alias_method :zip, :postal_code
+  alias_method :zip?, :postal_code
+  alias_method :postal_code?, :postal_code
+
   def ==(other)
-    self.data == other.data
+    other == data
   end
 
   def currency
     ISO4217::Currency.from_code(@data['currency'])
+  end
+
+  def currency_code
+    @data['currency']
   end
 
   def subdivisions
@@ -69,6 +90,23 @@ class ISO3166::Country
     @data['eu_member'].nil? ? false : @data['eu_member']
   end
 
+  def to_s
+    @data['name']
+  end
+
+  def translations
+    translated_names = {}
+    I18nData.languages.keys.each do |language_alpha2|
+      begin
+        translated_names[language_alpha2.downcase] = I18nData.countries(language_alpha2)[alpha2]
+      rescue I18nData::NoTranslationAvailable
+        next
+      end
+    end
+    translated_names
+  end
+  private
+
   class << self
     def new(country_data)
       if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
@@ -82,6 +120,10 @@ class ISO3166::Country
     end
 
     alias :countries :all
+
+    def all_translated(locale = 'en')
+      I18nData.countries(locale.upcase).values
+    end
 
     def search(query)
       country = self.new(query.to_s.upcase)
@@ -113,7 +155,7 @@ class ISO3166::Country
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      
+
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
@@ -127,5 +169,16 @@ class ISO3166::Country
         obj.nil? ? country : self.new(country.last)
       end
     end
+  end
+end
+
+def ISO3166::Country(country_data_or_country)
+  case country_data_or_country
+  when ISO3166::Country
+    country_data_or_country
+  when String, Symbol
+    ISO3166::Country.search(country_data_or_country)
+  else
+    raise TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
   end
 end

@@ -1,0 +1,54 @@
+---
+HR:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: HR
+  alpha3: HRV
+  country_code: '385'
+  currency: HRK
+  international_prefix: '00'
+  ioc: CRO
+  gec: HR
+  latitude: 45 10 N
+  longitude: 15 30 E
+  name: Croatia
+  names:
+  - Croatia
+  - Kroatien
+  - Croatie
+  - Croacia
+  - "クロアチア"
+  - Kroatië
+  - Croatia (Hrvatska)
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  number: '191'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: HR
+  languages:
+  - hr
+  nationality: Croatian
+  eu_member: true
+  vat_rates:
+    standard: 25
+    reduced:
+    - 5
+    - 13
+    super_reduced: 
+    parking: 
+  postal_code: true
+  min_longitude: '13.493333'
+  min_latitude: '42.380278'
+  max_longitude: '19.383056'
+  max_latitude: '46.526944'
+  latitude_dec: '45.444305419921875'
+  longitude_dec: '15.734503746032715'

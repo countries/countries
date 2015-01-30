@@ -1,0 +1,60 @@
+---
+DE:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: DE
+  alpha3: DEU
+  country_code: '49'
+  currency: EUR
+  international_prefix: '00'
+  ioc: GER
+  gec: GM
+  latitude: 51 00 N
+  longitude: 9 00 E
+  name: Germany
+  names:
+  - Germany
+  - Deutschland
+  - Allemagne
+  - Alemania
+  - "ドイツ"
+  - Duitsland
+  national_destination_code_lengths:
+  - 2
+  - 3
+  - 4
+  - 5
+  national_number_lengths:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  national_prefix: '0'
+  number: '276'
+  region: Europe
+  subregion: Western Europe
+  world_region: EMEA
+  un_locode: DE
+  languages:
+  - de
+  nationality: German
+  eu_member: true
+  vat_rates:
+    standard: 19
+    reduced:
+    - 7
+    super_reduced: 
+    parking: 
+  postal_code: true
+  min_longitude: '5.9'
+  min_latitude: '47.266667'
+  max_longitude: '15.033333'
+  max_latitude: '55.05'
+  latitude_dec: '51.20246505737305'
+  longitude_dec: '10.382203102111816'

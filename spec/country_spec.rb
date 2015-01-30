@@ -38,7 +38,7 @@ describe ISO3166::Country do
 
   it 'should return translations' do
     country.translations.should be
-    country.translations["en"].should == "United States of America"
+    country.translations['en'].should == 'United States'
   end
 
   it 'should return latitude' do
@@ -49,8 +49,25 @@ describe ISO3166::Country do
     country.longitude.should == '97 00 W'
   end
 
+  it 'should return the decimal Latitude' do
+    country.latitude_dec.should == '39.44325637817383'
+  end
+
+  it 'should return the decimal Longitude' do
+    country.longitude_dec.should == '-98.95733642578125'
+  end
+
   it "should return continent" do
     country.continent.should == "North America"
+  end
+
+  it 'knows about whether or not the country uses postal codes' do
+    country.zip.should be_true
+  end
+
+  it 'knows when a country does not require postal codes' do
+    ireland = ISO3166::Country.search('IE')
+    ireland.postal_code.should == false
   end
 
   it 'should return region' do
@@ -59,6 +76,26 @@ describe ISO3166::Country do
 
   it 'should return subregion' do
     country.subregion.should == 'Northern America'
+  end
+
+  it 'should return world region' do
+    country.world_region.should == 'AMER'
+  end
+
+  context 'with Turkey' do
+    let(:country) { ISO3166::Country.search('TR') }
+
+    it 'should indicate EMEA as the world region' do
+      country.world_region.should == 'EMEA'
+    end
+  end
+
+  context 'with Japan' do
+    let(:country) { ISO3166::Country.search('JP') }
+
+    it 'should indicate APAC as the world region' do
+      country.world_region.should == 'APAC'
+    end
   end
 
   it 'should return ioc code' do
@@ -158,6 +195,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'all_translated' do
+    it 'should return an alphabetized list of all country names translated to the selected locale' do
+      countries = ISO3166::Country.all_translated('fr')
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afghanistan')
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      countries.should have(249).countries
+    end
+
+    it 'should return an alphabetized list of all country names in English if no locale is passed' do
+      countries = ISO3166::Country.all_translated
+      countries.should be_an(Array)
+      countries.first.should be_a(String)
+      countries.first.should eq('Afghanistan')
+      countries.should have(249).countries
+    end
+  end
+
   describe 'countries' do
     it 'should be the same as all' do
       ISO3166::Country.countries.should == ISO3166::Country.all
@@ -212,6 +269,12 @@ describe ISO3166::Country do
         subject { Country.superclass }
 
         it { should == ISO3166::Country }
+      end
+
+      describe 'to_s' do
+        it 'should return the country name' do
+          Country.new('GB').to_s.should == 'United Kingdom'
+        end
       end
     end
   end
@@ -372,6 +435,14 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Guernsey' do
+    let(:guernsey) { ISO3166::Country.search('GG') }
+
+    it 'should have a currency' do
+      guernsey.currency.code.should == 'GBP'
+    end
+  end
+
   describe 'Languages' do
     let(:german_speaking_countries) { ISO3166::Country.find_all_countries_by_languages('de') }
 
@@ -392,4 +463,53 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'gec' do
+    it 'should return the country\'s GEC code' do
+      ISO3166::Country.new('NA').gec.should eql 'WA'
+    end
+
+    it 'should return nil if the country does not have a GEC code' do
+      ISO3166::Country.new('AN').gec.should eql nil
+    end
+  end
+
+  describe 'to_s' do
+    it 'should return the country name' do
+      ISO3166::Country.new('GB').to_s.should == 'United Kingdom'
+    end
+  end
+
+  describe 'VAT rates' do
+    let(:belgium) { ISO3166::Country.search('BE') }
+
+    it 'should not return a vat_rate for countries without federal VAT' do
+      country.vat_rates.should == nil
+    end
+
+    it 'should contain all keys for vat_rates' do
+      belgium.vat_rates.should be_a(Hash)
+      belgium.vat_rates.keys.should == ["standard", "reduced", "super_reduced", "parking"]
+    end
+
+    it 'should return an array of reduced vat rates' do
+      belgium.vat_rates["reduced"].should be_an(Array)
+      belgium.vat_rates["reduced"].should == [6, 12]
+    end
+  end
+
+  describe 'ISO3166::Country()' do
+    it 'should return same object if instance of ISO3166::Country given' do
+      ISO3166::Country(country).should eq country
+    end
+
+    it 'should return country if instance of String given' do
+      ISO3166::Country('us').should eq country
+    end
+
+    it 'should return country if not convertable input given' do
+      expect {
+        ISO3166::Country(42)
+      }.to raise_error(TypeError, "can't convert Fixnum into ISO3166::Country")
+    end
+  end
 end

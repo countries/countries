@@ -2,7 +2,7 @@
 A:
   name: Alicante
   names:
-    - Alicante
+  - Alicante
 AB:
   name: Albacete
   names: Albacete
@@ -10,8 +10,8 @@ AL:
   name: Almería
   names: Almería
 AV:
-  name: Ávila
-  names: Ávila
+  name: "Ávila"
+  names: "Ávila"
 B:
   name: Barcelona
   names: Barcelona
@@ -25,10 +25,10 @@ BU:
   name: Burgos
   names: Burgos
 C:
-  name: "A Coruña"
+  name: A Coruña
   names:
-    - Corunna
-    - "La Coruña"
+  - Corunna
+  - La Coruña
 CA:
   name: Cádiz
   names: Cádiz
@@ -38,27 +38,29 @@ CC:
 CE:
   name: Ceuta
   names:
-    - Sebta
+  - Sebta
 CO:
   name: Córdoba
   names: Córdoba
 CR:
-  name: "Ciudad Real"
-  names: "Ciudad Real"
+  name: Ciudad Real
+  names: Ciudad Real
 CS:
   name: Castellón
   names:
-    - Castellón
+  - Castellón
 CU:
   name: Cuenca
   names: Cuenca
 GC:
-  name: "Las Palmas"
-  names: "Las Palmas"
+  name: Las Palmas
+  names: 
+  - Las Palmas
+  - Las Palmas de Gran Canaria
 GI:
   name: Girona
   names:
-    - Gerona
+  - Gerona
 GR:
   name: Granada
   names: Granada
@@ -77,14 +79,14 @@ J:
 L:
   name: Lleida
   names:
-    - Lérida
+  - Lérida
 LE:
   name: León
   names: León
 LO:
-  name: "La Rioja"
+  name: La Rioja
   names:
-    - Logroño
+  - Logroño
 LU:
   name: Lugo
   names: Lugo
@@ -103,31 +105,32 @@ MU:
 NA:
   name: Navarra
   names:
-    - Navarre
+  - Navarre
 O:
   name: Asturias
   names:
-    - Oviedo
+  - Oviedo
 OR:
   name: Ourense
   names:
-    - Orense
+  - Orense
 P:
   name: Palencia
   names: Palencia
 PM:
   name: Baleares
   names:
-    - Baleares
-    - "Illes Balears"
-    - "Islas Baleares"
+  - Baleares
+  - Illes Balears
+  - Islas Baleares
+  - Balearic Islands
 PO:
   name: Pontevedra
   names: Pontevedra
 S:
   name: Cantabria
   names:
-    - Santander
+  - Santander
 SA:
   name: Salamanca
   names: Salamanca
@@ -143,7 +146,7 @@ SO:
 SS:
   name: Guipúzcoa
   names:
-    - Gipuzkoa
+  - Gipuzkoa
 T:
   name: Tarragona
   names: Tarragona
@@ -151,8 +154,10 @@ TE:
   name: Teruel
   names: Teruel
 TF:
-  name: "Santa Cruz de Tenerife"
-  names: "Santa Cruz de Tenerife"
+  name: Santa Cruz de Tenerife
+  names: 
+  - Santa Cruz de Tenerife
+  - Tenerife
 TO:
   name: Toledo
   names: Toledo
@@ -163,9 +168,9 @@ VA:
   name: Valladolid
   names: Valladolid
 VI:
-  name: Álava
+  name: "Álava"
   names:
-    - Araba
+  - Araba
 Z:
   name: Zaragoza
   names: Zaragoza
