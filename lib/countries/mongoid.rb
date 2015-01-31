@@ -1,17 +1,15 @@
 module ISO3166; end
 
 class ISO3166::Country
-
   def mongoize
     ISO3166::Country.mongoize(self)
   end
 
   class << self
-
     def mongoize(country)
       if country.is_a?(self) && !country.data.nil?
         country.alpha2
-      elsif self.send(:valid_alpha2?, country)
+      elsif send(:valid_alpha2?, country)
         new(country).alpha2
       else
         nil

@@ -57,7 +57,7 @@ class ISO3166::Country
   end
 
   def valid?
-    not (@data.nil? or @data.empty?)
+    !(@data.nil? || @data.empty?)
   end
 
   alias_method :zip, :postal_code
@@ -80,7 +80,7 @@ class ISO3166::Country
     @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
   end
 
-  alias :states :subdivisions
+  alias_method :states, :subdivisions
 
   def subdivisions?
     File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
@@ -120,11 +120,11 @@ class ISO3166::Country
     end
 
     def all(&blk)
-      blk ||= Proc.new { |country ,data| [data['name'], country] }
+      blk ||= proc { |country, data| [data['name'], country] }
       Data.map &blk
     end
 
-    alias :countries :all
+    alias_method :countries, :all
 
     def all_translated(locale = 'en')
       translations(locale).values
@@ -135,20 +135,20 @@ class ISO3166::Country
     end
 
     def search(query)
-      country = self.new(query.to_s.upcase)
+      country = new(query.to_s.upcase)
       (country && country.valid?) ? country : nil
     end
 
     def [](query)
-      self.search(query)
+      search(query)
     end
 
     def method_missing(*m)
       regex = m.first.to_s.match(/^find_(all_)?(country_|countries_)?by_(.+)/)
       super unless regex
 
-      countries = self.find_by($3, m[1], $2)
-      $1 ? countries : countries.last
+      countries = find_by(Regexp.last_match[3], m[1], Regexp.last_match[2])
+      Regexp.last_match[1] ? countries : countries.last
     end
 
     def find_all_by(attribute, val)
@@ -156,14 +156,15 @@ class ISO3166::Country
 
       Data.select do |_, v|
         attributes.map do |attr|
-          Array(v[attr]).any?{ |n| value === n.to_s.downcase }
+          Array(v[attr]).any? { |n| value === n.to_s.downcase }
         end.include?(true)
       end
     end
 
     protected
+
     def parse_attributes(attribute, val)
-      raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
+      fail "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
@@ -174,8 +175,8 @@ class ISO3166::Country
     end
 
     def find_by(attribute, value, obj = nil)
-      self.find_all_by(attribute.downcase, value).map do |country|
-        obj.nil? ? country : self.new(country.last)
+      find_all_by(attribute.downcase, value).map do |country|
+        obj.nil? ? country : new(country.last)
       end
     end
   end
@@ -188,6 +189,6 @@ def ISO3166::Country(country_data_or_country)
   when String, Symbol
     ISO3166::Country.search(country_data_or_country)
   else
-    raise TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
+    fail TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
   end
 end
