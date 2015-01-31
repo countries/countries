@@ -1,7 +1,6 @@
 module ISO3166; end
 
 class ISO3166::Country
-  class BadMongoidTypeError < StandardError; end
 
   def mongoize
     ISO3166::Country.mongoize(self)
@@ -15,7 +14,7 @@ class ISO3166::Country
       elsif self.send(:valid_alpha2?, country)
         new(country).alpha2
       else
-        raise BadMongoidTypeError.new('Given value is neither a valid country object nor a valid alpha2 code')
+        nil
       end
     end
 
@@ -30,13 +29,7 @@ class ISO3166::Country
     private
 
     def valid_alpha2?(country)
-      return false unless country.is_a?(String)
-
-      if ISO3166::Country.new(country).nil?
-        raise BadMongoidTypeError.new('Given string is not a valid alpha2 code.')
-      else
-        true
-      end
+      country.is_a?(String) && !ISO3166::Country.new(country).nil?
     end
   end
 end

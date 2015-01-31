@@ -24,23 +24,19 @@ describe 'Mongoid support' do
         expect(ISO3166::Country.mongoize('GB')).to eql britain.alpha2
       end
 
-      it 'should raise BadMongoidTypeError given an invalid object' do
+      it 'should store nil given an invalid object' do
         bad_types = [[], Time.now, {}, Date.today]
         bad_types.each do |type|
-          expect { ISO3166::Country.mongoize(type) }
-          .to raise_error(ISO3166::Country::BadMongoidTypeError, /neither/)
+          ISO3166::Country.mongoize(type).should eql nil
         end
       end
 
-      it 'should raise BadMongoidTypeError given an empty country object' do
-        expect { ISO3166::Country.mongoize(ISO3166::Country.new('')) }
-        .to raise_error(ISO3166::Country::BadMongoidTypeError, /neither/)
+      it 'should store nil given an empty country object' do
+        ISO3166::Country.mongoize(ISO3166::Country.new('')).should eql nil
       end
 
-      it 'should raise BadMongoidTypeError given a bad alpha2' do
-        expect { ISO3166::Country.mongoize('bad_alpha_2') }
-        .to raise_error(ISO3166::Country::BadMongoidTypeError,
-                        /not a valid alpha2/)
+      it 'should store nil given a bad alpha2' do
+        ISO3166::Country.mongoize('bad_alpha_2').should eql nil
       end
 
     end
