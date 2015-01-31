@@ -227,6 +227,11 @@ describe ISO3166::Country do
       expect(countries).to be_an(String)
       expect(countries).to eq('Germany')
     end
+
+    it 'should return nil when a translation is not found' do
+      countries = ISO3166::Country.new(:de).translation('xxx')
+      expect(countries).to be_nil
+    end
   end
 
   describe 'translations' do

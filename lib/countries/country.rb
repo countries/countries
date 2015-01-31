@@ -108,6 +108,8 @@ class ISO3166::Country
 
   def translation(language_alpha2 = 'en')
     I18nData.countries(language_alpha2)[alpha2]
+  rescue I18nData::NoTranslationAvailable
+    nil
   end
 
   private
