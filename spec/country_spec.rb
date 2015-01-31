@@ -217,7 +217,7 @@ describe ISO3166::Country do
 
   describe 'translation' do
     it 'should return the localized name for a country to the selected locale' do
-      countries = ISO3166::Country.new(:us).translation('de')
+      countries = ISO3166::Country.new(:de).translation('de')
       countries.should be_an(String)
       countries.should eq('Deutschland')
     end
