@@ -63,6 +63,11 @@ Country Info
     c.translation('de') #=> 'Vereninigte Staaten'   # Get a specific translation
     c.translations['fr'] #=> "États-Unis"
 
+    Country.translations             # {"DE"=>"Germany",...}
+    Country.translations('DE')       # {"DE"=>"Deutschland",...}
+    Country.all_translated           # ['Germany', ...]
+    Country.all_translated('DE')     # ['Deutschland', ...]
+
   Subdivisions & States
 
     c.subdivisions #=> {"CO" => {:name => "Colorado", :names => "Colorado"}, ... }

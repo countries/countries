@@ -229,6 +229,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'translations' do
+    it 'should return an hash of all country names translated to the selected locale' do
+      countries = ISO3166::Country.translations('fr')
+      countries.should be_an(Hash)
+      countries.first[0].should eq('AF')
+      countries.first.should eq(['AF', 'Afghanistan'])
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      countries.should have(249).countries
+    end
+
+    it 'should return an hash of all country names in English if no locale is passed' do
+      countries = ISO3166::Country.translations
+      countries.should be_an(Hash)
+      countries.first[0].should eq('AF')
+      countries.first.should eq(['AF', 'Afghanistan'])
+      countries.should have(249).countries
+    end
+  end
+
   describe 'countries' do
     it 'should be the same as all' do
       ISO3166::Country.countries.should == ISO3166::Country.all

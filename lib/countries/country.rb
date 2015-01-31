@@ -127,7 +127,11 @@ class ISO3166::Country
     alias :countries :all
 
     def all_translated(locale = 'en')
-      I18nData.countries(locale.upcase).values
+      translations(locale).values
+    end
+
+    def translations(locale = 'en')
+      I18nData.countries(locale.upcase)
     end
 
     def search(query)
