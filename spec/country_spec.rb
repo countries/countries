@@ -12,7 +12,7 @@ describe ISO3166::Country do
   end
 
   it 'allows to create a country object from a lowercase alpha2 code' do
-    country = described_class.new("us")
+    country = described_class.new('us')
     expect(country.data).not_to be_nil
   end
 
@@ -33,7 +33,7 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    expect(country.names).to eq(["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国", "Verenigde Staten"])
+    expect(country.names).to eq(['United States of America', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
   end
 
   it 'should return translations' do
@@ -57,8 +57,8 @@ describe ISO3166::Country do
     expect(country.longitude_dec).to eq('-98.95733642578125')
   end
 
-  it "should return continent" do
-    expect(country.continent).to eq("North America")
+  it 'should return continent' do
+    expect(country.continent).to eq('North America')
   end
 
   it 'knows about whether or not the country uses postal codes' do
@@ -186,8 +186,8 @@ describe ISO3166::Country do
       expect(countries.size).to eq(250)
     end
 
-    it "should allow to customize each country representation passing a block to the method" do
-      countries = ISO3166::Country.all { |country, data| [data['name'], country, data['country_code'] ] }
+    it 'should allow to customize each country representation passing a block to the method' do
+      countries = ISO3166::Country.all { |country, data| [data['name'], country, data['country_code']] }
       expect(countries).to be_an(Array)
       expect(countries.first).to be_an(Array)
       expect(countries.first.size).to eq(3)
@@ -234,7 +234,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.translations('fr')
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AF')
-      expect(countries.first).to eq(['AF', 'Afghanistan'])
+      expect(countries.first).to eq(%w(AF Afghanistan))
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(249)
@@ -244,7 +244,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.translations
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AF')
-      expect(countries.first).to eq(['AF', 'Afghanistan'])
+      expect(countries.first).to eq(%w(AF Afghanistan))
       expect(countries.size).to eq(249)
     end
   end
@@ -283,7 +283,7 @@ describe ISO3166::Country do
     end
   end
 
-  describe "Country class" do
+  describe 'Country class' do
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
 
@@ -293,13 +293,13 @@ describe ISO3166::Country do
     context "when loaded via 'countries'" do
       before { require 'countries' }
 
-      describe "existance" do
+      describe 'existance' do
         subject { defined?(Country) }
 
         it { is_expected.to be_truthy }
       end
 
-      describe "superclass" do
+      describe 'superclass' do
         subject { Country.superclass }
 
         it { is_expected.to eq(ISO3166::Country) }
@@ -314,87 +314,87 @@ describe ISO3166::Country do
   end
 
   describe 'find_all_by' do
-    context "when searchead attribute equals the given value" do
-      let(:spain_data) { ISO3166::Country.find_all_by('alpha2', "ES") }
+    context 'when searchead attribute equals the given value' do
+      let(:spain_data) { ISO3166::Country.find_all_by('alpha2', 'ES') }
 
-      it "returns a hash with the data of the country" do
+      it 'returns a hash with the data of the country' do
         expect(spain_data).to be_a Hash
         expect(spain_data.keys.size).to eq(1)
       end
     end
 
-    context "when searchead attribute is list and one of its elements equals the given value" do
-      let(:spain_data) { ISO3166::Country.find_all_by('languages', "en") }
+    context 'when searchead attribute is list and one of its elements equals the given value' do
+      let(:spain_data) { ISO3166::Country.find_all_by('languages', 'en') }
 
-      it "returns a hash with the data of the country" do
+      it 'returns a hash with the data of the country' do
         expect(spain_data).to be_a Hash
         expect(spain_data.size).to be > 1
       end
     end
 
-    it "also finds results if the given values is not upcased/downcased properly" do
-      spain_data = ISO3166::Country.find_all_by('alpha2', "es")
+    it 'also finds results if the given values is not upcased/downcased properly' do
+      spain_data = ISO3166::Country.find_all_by('alpha2', 'es')
       expect(spain_data).to be_a Hash
       expect(spain_data.keys.size).to eq(1)
     end
 
-    it "also finds results if the attribute is given as a symbol" do
-      spain_data = ISO3166::Country.find_all_by(:alpha2, "ES")
+    it 'also finds results if the attribute is given as a symbol' do
+      spain_data = ISO3166::Country.find_all_by(:alpha2, 'ES')
       expect(spain_data).to be_a Hash
       expect(spain_data.keys.size).to eq(1)
     end
 
-    it "casts the given value to a string to perform the search" do
+    it 'casts the given value to a string to perform the search' do
       spain_data = ISO3166::Country.find_all_by(:country_code, 34)
       expect(spain_data).to be_a Hash
       expect(spain_data.keys).to eq(['ES'])
     end
 
-    it "also performs searches with regexps and forces it to ignore case" do
+    it 'also performs searches with regexps and forces it to ignore case' do
       spain_data = ISO3166::Country.find_all_by(:names, /Españ/)
       expect(spain_data).to be_a Hash
       expect(spain_data.keys).to eq(['ES'])
     end
   end
 
-  describe "hash finder methods" do
+  describe 'hash finder methods' do
     context "when search name in 'name'" do
-      subject { ISO3166::Country.find_by_name("Poland") }
+      subject { ISO3166::Country.find_by_name('Poland') }
       it 'should return' do
-        expect(subject.first).to eq("PL")
+        expect(subject.first).to eq('PL')
       end
     end
 
     context "when search lowercase name in 'name'" do
-      subject { ISO3166::Country.find_by_name("poland") }
+      subject { ISO3166::Country.find_by_name('poland') }
       it 'should return' do
-        expect(subject.first).to eq("PL")
+        expect(subject.first).to eq('PL')
       end
     end
 
     context "when search name in 'names'" do
-      subject { ISO3166::Country.find_by_name("Polonia") }
+      subject { ISO3166::Country.find_by_name('Polonia') }
       it 'should return' do
-        expect(subject.first).to eq("PL")
+        expect(subject.first).to eq('PL')
       end
     end
 
-    context "when finding by invalid attribute" do
-      it "should raise an error" do
+    context 'when finding by invalid attribute' do
+      it 'should raise an error' do
         expect { ISO3166::Country.find_by_invalid('invalid') }.to raise_error
       end
     end
 
-    context "when using find_all method" do
+    context 'when using find_all method' do
       let(:list) { ISO3166::Country.find_all_by_currency('USD') }
 
-      it "should be an Array of Arrays" do
+      it 'should be an Array of Arrays' do
         expect(list).to be_a(Array)
         expect(list.first).to be_a(Array)
       end
     end
 
-    context "when using find_by method" do
+    context 'when using find_by method' do
       subject { ISO3166::Country.find_by_alpha3('CAN') }
       it 'should return' do
         expect(subject.length).to eq 2
@@ -404,49 +404,49 @@ describe ISO3166::Country do
     end
   end
 
-  describe "country finder methods" do
-    context "when search name found" do
-      let(:uk) { ISO3166::Country.find_country_by_name("United Kingdom") }
+  describe 'country finder methods' do
+    context 'when search name found' do
+      let(:uk) { ISO3166::Country.find_country_by_name('United Kingdom') }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(uk).to be_a(ISO3166::Country)
-        expect(uk.alpha2).to eq("GB")
+        expect(uk.alpha2).to eq('GB')
       end
     end
 
-    context "when search lowercase name found" do
-      let(:uk) { ISO3166::Country.find_country_by_name("united kingdom") }
+    context 'when search lowercase name found' do
+      let(:uk) { ISO3166::Country.find_country_by_name('united kingdom') }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(uk).to be_a(ISO3166::Country)
-        expect(uk.alpha2).to eq("GB")
+        expect(uk.alpha2).to eq('GB')
       end
     end
 
-    context "when search name not found" do
-      let(:bogus) { ISO3166::Country.find_country_by_name("Does not exist") }
+    context 'when search name not found' do
+      let(:bogus) { ISO3166::Country.find_country_by_name('Does not exist') }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(bogus).to eq(nil)
       end
     end
 
-    context "when finding by invalid attribute" do
-      it "should raise an error" do
+    context 'when finding by invalid attribute' do
+      it 'should raise an error' do
         expect { ISO3166::Country.find_country_by_invalid('invalid') }.to raise_error
       end
     end
 
-    context "when using find_all method" do
+    context 'when using find_all method' do
       let(:list) { ISO3166::Country.find_all_countries_by_currency('USD') }
 
-      it "should be an Array of Country objects" do
+      it 'should be an Array of Country objects' do
         expect(list).to be_a(Array)
         expect(list.first).to be_a(ISO3166::Country)
       end
     end
 
-    context "when using find_by method" do
+    context 'when using find_by method' do
       let(:country) { ISO3166::Country.find_country_by_alpha3('CAN') }
 
       it 'should be a single country object' do
@@ -455,10 +455,10 @@ describe ISO3166::Country do
     end
   end
 
-  describe "names in Data" do
-    it "should be unique (to allow .find_by_name work properly)" do
-      names = ISO3166::Country::Data.collect do |k,v|
-        [v["name"], v["names"]].flatten.uniq
+  describe 'names in Data' do
+    it 'should be unique (to allow .find_by_name work properly)' do
+      names = ISO3166::Country::Data.map do |_k, v|
+        [v['name'], v['names']].flatten.uniq
       end.flatten
 
       expect(names.size).to eq(names.uniq.size)
@@ -484,7 +484,7 @@ describe ISO3166::Country do
   describe 'Languages' do
     let(:german_speaking_countries) { ISO3166::Country.find_all_countries_by_languages('de') }
 
-    it "should find countries by language" do
+    it 'should find countries by language' do
       expect(german_speaking_countries.size).to eq(6)
     end
   end
@@ -526,12 +526,12 @@ describe ISO3166::Country do
 
     it 'should contain all keys for vat_rates' do
       expect(belgium.vat_rates).to be_a(Hash)
-      expect(belgium.vat_rates.keys).to eq(["standard", "reduced", "super_reduced", "parking"])
+      expect(belgium.vat_rates.keys).to eq(%w(standard reduced super_reduced parking))
     end
 
     it 'should return an array of reduced vat rates' do
-      expect(belgium.vat_rates["reduced"]).to be_an(Array)
-      expect(belgium.vat_rates["reduced"]).to eq([6, 12])
+      expect(belgium.vat_rates['reduced']).to be_an(Array)
+      expect(belgium.vat_rates['reduced']).to eq([6, 12])
     end
   end
 
@@ -545,9 +545,9 @@ describe ISO3166::Country do
     end
 
     it 'should return country if not convertable input given' do
-      expect {
+      expect do
         ISO3166::Country(42)
-      }.to raise_error(TypeError, "can't convert Fixnum into ISO3166::Country")
+      end.to raise_error(TypeError, "can't convert Fixnum into ISO3166::Country")
     end
   end
 end
