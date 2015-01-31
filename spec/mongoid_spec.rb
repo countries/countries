@@ -27,16 +27,16 @@ describe 'Mongoid support' do
       it 'should store nil given an invalid object' do
         bad_types = [[], Time.now, {}, Date.today]
         bad_types.each do |type|
-          ISO3166::Country.mongoize(type).should eql nil
+          expect(ISO3166::Country.mongoize(type)).to eql nil
         end
       end
 
       it 'should store nil given an empty country object' do
-        ISO3166::Country.mongoize(ISO3166::Country.new('')).should eql nil
+        expect(ISO3166::Country.mongoize(ISO3166::Country.new(''))).to eql nil
       end
 
       it 'should store nil given a bad alpha2' do
-        ISO3166::Country.mongoize('bad_alpha_2').should eql nil
+        expect(ISO3166::Country.mongoize('bad_alpha_2')).to eql nil
       end
 
     end
