@@ -67,6 +67,8 @@ Country Info
 
     c.name #=> "United States"
     c.names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
+
+    c.translation('de') #=> 'Vereninigte Staaten'   # Get a specific translation
     c.translations['fr'] #=> "États-Unis"
 
   Subdivisions & States

@@ -105,6 +105,11 @@ class ISO3166::Country
     end
     translated_names
   end
+
+  def translation(language_alpha2 = 'en')
+    I18nData.countries(language_alpha2)[alpha2]
+  end
+
   private
 
   class << self
