@@ -360,20 +360,23 @@ describe ISO3166::Country do
   describe "hash finder methods" do
     context "when search name in 'name'" do
       subject { ISO3166::Country.find_by_name("Poland") }
-
-      its(:first) { should == "PL" }
+      it 'should return' do
+        expect(subject.first).to eq("PL")
+      end
     end
 
     context "when search lowercase name in 'name'" do
       subject { ISO3166::Country.find_by_name("poland") }
-
-      its(:first) { should == "PL" }
+      it 'should return' do
+        expect(subject.first).to eq("PL")
+      end
     end
 
     context "when search name in 'names'" do
       subject { ISO3166::Country.find_by_name("Polonia") }
-
-      its(:first) { should == "PL" }
+      it 'should return' do
+        expect(subject.first).to eq("PL")
+      end
     end
 
     context "when finding by invalid attribute" do
@@ -393,10 +396,11 @@ describe ISO3166::Country do
 
     context "when using find_by method" do
       subject { ISO3166::Country.find_by_alpha3('CAN') }
-
-      its(:length) { should == 2 }
-      its(:first) { should be_a(String) }
-      its(:last) { should be_a(Hash) }
+      it 'should return' do
+        expect(subject.length).to eq 2
+        expect(subject.first).to be_a(String)
+        expect(subject.last).to be_a(Hash)
+      end
     end
   end
 
