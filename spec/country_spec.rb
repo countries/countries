@@ -428,6 +428,15 @@ describe ISO3166::Country do
       end
     end
 
+    context 'when search translation found' do
+      let(:uk) { ISO3166::Country.find_country_by_name('Velika Britanija') }
+
+      it 'should be a country instance' do
+        expect(uk).to be_a(ISO3166::Country)
+        expect(uk.alpha2).to eq('GB')
+      end
+    end
+
     context 'when search name not found' do
       let(:bogus) { ISO3166::Country.find_country_by_name('Does not exist') }
 
