@@ -26,3 +26,32 @@ task :clean_yaml do
     end
   end
 end
+
+desc 'Cache Translations'
+task :cache_translations do
+  require 'yaml'
+  require 'i18n_data'
+  Codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
+  Data = {}
+  empty_translations_hash = {}
+  I18nData.languages.each { |l, _n| empty_translations_hash[l.downcase] = nil }
+
+  I18nData.languages.keys.each do |locale|
+
+    begin
+      local_names = I18nData.countries(locale)
+    rescue I18nData::NoTranslationAvailable
+      next
+    end
+    
+    Codes.each do |alpha2|
+      Data[alpha2] ||= {}
+      Data[alpha2]['translations'] ||= empty_translations_hash.dup
+      Data[alpha2]['translations'][locale.downcase] = local_names[alpha2]
+      Data[alpha2]['translated_names'] ||= []
+      Data[alpha2]['translated_names'] << local_names[alpha2]
+    end
+  end
+
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') { |f| f.write Data.to_yaml   }
+end

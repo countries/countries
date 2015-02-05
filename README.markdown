@@ -193,6 +193,9 @@ ToDo
 Note on Patches/Pull Requests
 -----------------------------
 
+## Please do not submit pull requests on cache/translations.yaml
+### Any additions should be directed upstream to (pkg-isocodes)[http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/]
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a

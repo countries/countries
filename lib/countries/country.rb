@@ -1,9 +1,13 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml')) || {}
+  Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml'))
+  Translations = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'cache', 'translations.yaml'))
   Data = {}
-  Codes.each { |alpha2| Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2] || {} }
+  Codes.each do |alpha2|
+    Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
+    Data[alpha2] = Data[alpha2].merge(Translations[alpha2])
+  end
   Names = I18nData.countries.values.sort_by { |d| d[0] }
 
   AttrReaders = [
@@ -25,6 +29,7 @@ class ISO3166::Country
     :international_prefix,
     :national_prefix,
     :address_format,
+    :translations,
     :ioc,
     :gec,
     :un_locode,
@@ -94,22 +99,8 @@ class ISO3166::Country
     @data['name']
   end
 
-  def translations
-    translated_names = {}
-    I18nData.languages.keys.each do |language_alpha2|
-      begin
-        translated_names[language_alpha2.downcase] = I18nData.countries(language_alpha2)[alpha2]
-      rescue I18nData::NoTranslationAvailable
-        next
-      end
-    end
-    translated_names
-  end
-
-  def translation(language_alpha2 = 'en')
-    I18nData.countries(language_alpha2)[alpha2]
-  rescue I18nData::NoTranslationAvailable
-    nil
+  def translation(locale = 'en')
+    @data['translations'][locale.downcase]
   end
 
   private
@@ -169,7 +160,10 @@ class ISO3166::Country
       fail "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
-      attributes << 'names' if attributes == ['name']
+      if attributes == ['name']
+        attributes << 'names'
+        attributes << 'translated_names'
+      end
 
       val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.downcase)
 
