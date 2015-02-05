@@ -4,10 +4,11 @@ class ISO3166::Country
   Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml'))
   Translations = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'cache', 'translations.yaml'))
   Data = {}
-  Codes.each do |alpha2| 
+  Codes.each do |alpha2|
     Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
     Data[alpha2] = Data[alpha2].merge(Translations[alpha2])
   end
+  Names = I18nData.countries.values.sort_by { |d| d[0] }
 
   AttrReaders = [
     :number,
