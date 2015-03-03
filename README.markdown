@@ -211,7 +211,7 @@ to ensure your YAML is formatted properly.
 Copyright
 ---------
 
-Copyright (c) 2011 hexorx. See LICENSE for details.
+Copyright (c) 2015 hexorx. See LICENSE for details.
 
 
 [Teliax]: http://teliax.com
