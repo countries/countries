@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+- added bounding box coordinates for VI, CW, PR, AS, and GU : @marinom
+
+
 ## [0.11.0] - 2015-03-03
 ### Changed
 - Cached Translations in gem to translation lookup speed @rposborne, @stayhero
