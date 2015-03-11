@@ -112,7 +112,7 @@ class ISO3166::Country
 
     def all(&blk)
       blk ||= proc { |country, data| [data['name'], country] }
-      Data.map &blk
+      Data.map(&blk)
     end
 
     alias_method :countries, :all
