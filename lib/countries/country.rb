@@ -14,7 +14,6 @@ class ISO3166::Country
     :number,
     :alpha2,
     :alpha3,
-    :currency,
     :name,
     :names,
     :latitude,
@@ -156,7 +155,7 @@ class ISO3166::Country
     protected
 
     def parse_attributes(attribute, val)
-      fail "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
+      fail "Invalid attribute name '#{attribute}'" unless instance_methods.include?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
       if attributes == ['name']
