@@ -35,7 +35,6 @@ class ISO3166::Country
     :un_locode,
     :languages,
     :nationality,
-    :address_format,
     :dissolved_on,
     :eu_member,
     :alt_currency,
