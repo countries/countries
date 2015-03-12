@@ -31,6 +31,7 @@ desc 'Cache Translations'
 task :cache_translations do
   require 'yaml'
   require 'i18n_data'
+
   Codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
   Data = {}
   empty_translations_hash = {}
@@ -43,13 +44,14 @@ task :cache_translations do
     rescue I18nData::NoTranslationAvailable
       next
     end
-    
+
     Codes.each do |alpha2|
       Data[alpha2] ||= {}
       Data[alpha2]['translations'] ||= empty_translations_hash.dup
       Data[alpha2]['translations'][locale.downcase] = local_names[alpha2]
       Data[alpha2]['translated_names'] ||= []
       Data[alpha2]['translated_names'] << local_names[alpha2]
+      Data[alpha2]['translated_names'] = Data[alpha2]['translated_names'].uniq
     end
   end
 
