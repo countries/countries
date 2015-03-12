@@ -445,6 +445,33 @@ describe ISO3166::Country do
       end
     end
 
+    # Spot checks #243
+    context 'when search name not found' do
+      let(:belgium) { ISO3166::Country.find_country_by_name('Belgium') }
+
+      it 'should be a country instance' do
+        expect(belgium.alpha2).to eq('BE')
+      end
+    end
+
+    # Spot checks #240
+    context 'when search name not found' do
+      let(:canada) { ISO3166::Country.find_country_by_name('Canada') }
+
+      it 'should be a country instance' do
+        expect(canada.alpha2).to eq('CA')
+      end
+    end
+
+    # Spot checks #241
+    context 'when search name not found' do
+      let(:iraq) { ISO3166::Country.find_country_by_name('Israel') }
+
+      it 'should be a country instance' do
+        expect(iraq.alpha2).to eq('IL')
+      end
+    end
+
     context 'when finding by invalid attribute' do
       it 'should raise an error' do
         expect { ISO3166::Country.find_country_by_invalid('invalid') }.to raise_error
