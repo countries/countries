@@ -32,10 +32,10 @@ task :cache_translations do
   require 'yaml'
   require 'i18n_data'
 
-  Codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
-  Data = {}
+  codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
+  data = {}
   empty_translations_hash = {}
-  I18nData.languages.each { |l, _n| empty_translations_hash[l.downcase] = nil }
+  # I18nData.languages.each { |l, _n| empty_translations_hash[l.downcase] = nil }
 
   I18nData.languages.keys.each do |locale|
 
@@ -45,15 +45,16 @@ task :cache_translations do
       next
     end
 
-    Codes.each do |alpha2|
-      Data[alpha2] ||= {}
-      Data[alpha2]['translations'] ||= empty_translations_hash.dup
-      Data[alpha2]['translations'][locale.downcase] = local_names[alpha2]
-      Data[alpha2]['translated_names'] ||= []
-      Data[alpha2]['translated_names'] << local_names[alpha2]
-      Data[alpha2]['translated_names'] = Data[alpha2]['translated_names'].uniq
+    codes.each do |alpha2|
+      data[alpha2] ||= {}
+      data[alpha2]['translations'] ||= empty_translations_hash.dup
+      data[alpha2]['translations'][locale.downcase] = local_names[alpha2]
+      data[alpha2]['translated_names'] ||= []
+      data[alpha2]['translated_names'] << local_names[alpha2]
+      data[alpha2]['translated_names'] = data[alpha2]['translated_names'].uniq
     end
+
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') { |f| f.write Data.to_yaml   }
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') { |f| f.write data.to_yaml   }
 end
