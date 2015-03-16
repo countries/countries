@@ -162,7 +162,8 @@ class ISO3166::Country
       attributes = Array(attribute.to_s)
       if attributes == ['name']
         attributes << 'names'
-        attributes << 'translated_names'
+        # TODO: Revisit when better data from i18n_data
+        # attributes << 'translated_names'
       end
 
       val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.downcase)
