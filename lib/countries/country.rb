@@ -29,6 +29,7 @@ class ISO3166::Country
     :national_prefix,
     :address_format,
     :translations,
+    :translated_names,
     :ioc,
     :gec,
     :un_locode,
