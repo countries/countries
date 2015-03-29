@@ -465,10 +465,29 @@ describe ISO3166::Country do
 
     # Spot checks #241
     context 'when search name not found' do
-      let(:iraq) { ISO3166::Country.find_country_by_name('Israel') }
+      let(:israel) { ISO3166::Country.find_country_by_name('Israel') }
 
       it 'should be a country instance' do
-        expect(iraq.alpha2).to eq('IL')
+        expect(israel.alpha2).to eq('IL')
+      end
+    end
+
+    # Spot checks #241
+    context 'when search name not found' do
+      let(:israel) { ISO3166::Country.find_by_name('Israel') }
+
+      it 'should be a country instance' do
+        expect(israel[0]).to eq('IL')
+      end
+    end
+
+    # Spot checks #241
+    context 'when search name not found' do
+      let(:israel) { ISO3166::Country.find_all_by(:name, 'Israel') }
+
+      it 'should be a country instance' do
+        expect(israel.size).to eq(1)
+        expect(israel.first[0]).to eq('IL')
       end
     end
 
