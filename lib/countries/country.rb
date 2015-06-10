@@ -119,7 +119,10 @@ class ISO3166::Country
     alias_method :countries, :all
 
     def all_translated(locale = 'en')
-      translations(locale).values
+      locale = locale.to_s.downcase
+      all do |country, data|
+        [data['translations'][locale], country]
+      end.reject{ |a| a[0].nil? }.sort_by{ |a| a[0] }
     end
 
     def translations(locale = 'en')
