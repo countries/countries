@@ -1,14 +1,7 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Codes = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries.yaml'))
-  Translations = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'cache', 'translations.yaml'))
-  Data = {}
-  Codes.each do |alpha2|
-    Data[alpha2] = YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
-    Data[alpha2] = Data[alpha2].merge(Translations[alpha2])
-  end
-  Names = I18nData.countries.values.sort_by { |d| d[0] }
+  Setup = ISO3166::Setup.new
 
   AttrReaders = [
     :number,
@@ -57,7 +50,7 @@ class ISO3166::Country
   attr_reader :data
 
   def initialize(country_data)
-    @data = country_data.is_a?(Hash) ? country_data : Data[country_data.to_s.upcase]
+    @data = country_data.is_a?(Hash) ? country_data : Setup.data[country_data.to_s.upcase]
   end
 
   def valid?
@@ -106,14 +99,14 @@ class ISO3166::Country
 
   class << self
     def new(country_data)
-      if country_data.is_a?(Hash) || Data.keys.include?(country_data.to_s.upcase)
+      if country_data.is_a?(Hash) || Setup.data.keys.include?(country_data.to_s.upcase)
         super
       end
     end
 
     def all(&blk)
       blk ||= proc { |country, data| [data['name'], country] }
-      Data.map(&blk)
+      Setup.data.map(&blk)
     end
 
     alias_method :countries, :all
@@ -146,7 +139,7 @@ class ISO3166::Country
     def find_all_by(attribute, val)
       attributes, value = parse_attributes(attribute, val)
 
-      Data.select do |_, v|
+      Setup.data.select do |_, v|
         attributes.map do |attr|
           Array(v[attr]).any? { |n| value === n.to_s.downcase }
         end.include?(true)

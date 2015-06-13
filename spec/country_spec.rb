@@ -3,7 +3,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe ISO3166::Country do
-
   let(:country) { ISO3166::Country.search('US') }
 
   it 'allows to create a country object from a symbol representation of the alpha2 code' do
@@ -386,7 +385,7 @@ describe ISO3166::Country do
 
     context 'when finding by invalid attribute' do
       it 'should raise an error' do
-        expect { ISO3166::Country.find_by_invalid('invalid') }.to raise_error
+        expect { ISO3166::Country.find_by_invalid('invalid') }.to raise_error(RuntimeError, "Invalid attribute name 'invalid'")
       end
     end
 
@@ -493,7 +492,8 @@ describe ISO3166::Country do
 
     context 'when finding by invalid attribute' do
       it 'should raise an error' do
-        expect { ISO3166::Country.find_country_by_invalid('invalid') }.to raise_error
+        expect { ISO3166::Country.find_country_by_invalid('invalid') }.to raise_error(RuntimeError,
+                                                                                      "Invalid attribute name 'invalid'")
       end
     end
 
@@ -517,7 +517,7 @@ describe ISO3166::Country do
 
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
-      names = ISO3166::Country::Data.map do |_k, v|
+      names = ISO3166::Country::Setup.data.map do |_k, v|
         [v['name'], v['names']].flatten.uniq
       end.flatten
 
