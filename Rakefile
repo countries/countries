@@ -35,20 +35,27 @@ task :cache_translations do
   codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
   data = {}
   empty_translations_hash = {}
-  # I18nData.languages.each { |l, _n| empty_translations_hash[l.downcase] = nil }
+  corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'translation_corrections.yaml')) || {}
 
   I18nData.languages.keys.each do |locale|
-
+    locale = locale.downcase
     begin
       local_names = I18nData.countries(locale)
     rescue I18nData::NoTranslationAvailable
       next
     end
 
+    # Apply any known corrections to i18n_data
+    unless corrections[locale].nil?
+      corrections[locale].each do |alpha2, localized_name|
+        local_names[alpha2] = localized_name
+      end
+    end
+
     codes.each do |alpha2|
       data[alpha2] ||= {}
       data[alpha2]['translations'] ||= empty_translations_hash.dup
-      data[alpha2]['translations'][locale.downcase] = local_names[alpha2]
+      data[alpha2]['translations'][locale] = local_names[alpha2]
       data[alpha2]['translated_names'] ||= []
       data[alpha2]['translated_names'] << local_names[alpha2]
       data[alpha2]['translated_names'] = data[alpha2]['translated_names'].uniq
@@ -56,5 +63,8 @@ task :cache_translations do
 
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') { |f| f.write data.to_yaml   }
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') do |f|
+    f.write "# PLEASE DO NOT ALTER THIS FILE, add pull requests to translation_corrections.yaml \n"
+    f.write data.to_yaml
+  end
 end
