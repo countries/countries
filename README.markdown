@@ -179,7 +179,9 @@ Note on Patches/Pull Requests
 -----------------------------
 
 ## Please do not submit pull requests on cache/translations.yaml
-### Any additions should be directed upstream to (pkg-isocodes)[http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/]
+Any additions should be directed upstream to (pkg-isocodes)[http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/]
+
+New Bugs can be filed upstream here https://alioth.debian.org/projects/pkg-iso-codes/
 
 * Fork the project.
 * Make your feature addition or bug fix.
