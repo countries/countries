@@ -68,3 +68,46 @@ task :cache_translations do
     f.write data.to_yaml
   end
 end
+
+require 'geocoder'
+require 'retryable'
+# raise on geocoding errors such as query limit exceeded
+Geocoder.configure(always_raise: :all)
+# Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
+# @param [String] query string to geocode
+# @return [Hash] first valid result or nil
+def geocode(query)
+  Retryable.retryable(tries: 3, sleep: lambda { |n| 2**n }) do
+    Geocoder.search(query).first
+  end
+rescue => e
+  warn "Attempts exceeded for query #{query}, last error was #{e.message}"
+  nil
+end
+
+desc 'Retrieve and store subdivisions coordinates'
+task :fetch_subdivisions do
+  require 'countries'
+  # Iterate all countries with subdivisions
+  Country.all { |code, _| Country.new(code) }.select(&:subdivisions?).each do |c|
+    # Iterate subdivisions
+    state_data = c.subdivisions.dup
+    state_data.reject { |_, data| data['latitude'] }.each do |code, data|
+      if (result = geocode("#{data['name']}, #{c.name}"))
+        geometry = result.geometry
+        if geometry['location']
+          state_data[code]['latitude'] = geometry['location']['lat']
+          state_data[code]['longitude'] = geometry['location']['lng']
+        end
+        if geometry['bounds']
+          state_data[code]['min_latitude'] = geometry['bounds']['southwest']['lat']
+          state_data[code]['min_longitude'] = geometry['bounds']['southwest']['lng']
+          state_data[code]['max_latitude'] = geometry['bounds']['northeast']['lat']
+          state_data[code]['max_longitude'] = geometry['bounds']['northeast']['lng']
+        end
+      end
+    end
+    # Write updated YAML for current country
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
+  end
+end
