@@ -15,7 +15,7 @@ module ISO3166
     end
 
     def data
-      return @data if @data
+      return @data if instance_variable_defined?('@data')
       @data = {}
       codes.each do |alpha2|
         @data[alpha2] = load(['data', 'countries', "#{alpha2}.yaml"])[alpha2]
