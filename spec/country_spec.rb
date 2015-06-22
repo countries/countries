@@ -214,6 +214,17 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'all_names_with_codes' do
+    require 'active_support/core_ext/string/output_safety'
+    it 'should return an alphabetized list of all country names with ISOCODE alpha2' do
+      countries = ISO3166::Country.all_names_with_codes
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.size).to eq(250)
+    end
+  end
+
   describe 'translation' do
     it 'should return the localized name for a country to the selected locale' do
       countries = ISO3166::Country.new(:de).translation('de')

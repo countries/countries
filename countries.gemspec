@@ -18,5 +18,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency('i18n_data', '~> 0.7.0')
   gem.add_dependency('currencies', '~> 0.4.2')
   gem.add_development_dependency('rspec', '>= 3')
+  gem.add_development_dependency('actionview', '>= 3')
   gem.add_development_dependency 'yard'
 end

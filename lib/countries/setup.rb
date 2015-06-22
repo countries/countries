@@ -10,7 +10,9 @@ module ISO3166
       @translations ||= load(['cache', 'translations.yaml'])
     end
 
+    # @deprecated Please use {#all} instead
     def names
+      warn "[DEPRECATION] `names` is deprecated.  Please use `all` instead."
       @names ||= I18nData.countries.values.sort_by { |d| d[0] }
     end
 
