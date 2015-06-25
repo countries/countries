@@ -94,9 +94,13 @@ task :fetch_subdivisions do
     state_data = c.subdivisions.dup
     state_data.reject { |_, data| data['latitude'] }.each do |code, data|
       location = "#{data['name']}, #{c.name}"
-      if(c.alpha2 == "US" && code == "NY")
-        location = "New York State, United States"
+
+      # Handle special geocoding cases where Google defaults to well known
+      # cities, instead of the states.
+      if(c.alpha2 == "US" && ["NY", "WA"].include?(code))
+        location = "#{data['name']} State, United States"
       end
+
       if (result = geocode(location))
         geometry = result.geometry
         if geometry['location']
