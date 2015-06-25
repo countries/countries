@@ -97,7 +97,7 @@ task :fetch_subdivisions do
 
       # Handle special geocoding cases where Google defaults to well known
       # cities, instead of the states.
-      if(c.alpha2 == "US" && ["NY", "WA"].include?(code))
+      if(c.alpha2 == "US" && ["NY", "WA", "OK"].include?(code))
         location = "#{data['name']} State, United States"
       end
 
