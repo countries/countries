@@ -99,7 +99,7 @@ class ISO3166::Country
 
   class << self
     def new(country_data)
-      if country_data.is_a?(Hash) || Setup.data.keys.include?(country_data.to_s.upcase)
+      if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
         super
       end
     end
@@ -110,7 +110,7 @@ class ISO3166::Country
 
     def all(&blk)
       blk ||= proc {|alpha2, d| ISO3166::Country.new(d)}
-      Setup.data.map &blk
+      Setup.data.map(&blk)
     end
 
     alias_method :countries, :all
