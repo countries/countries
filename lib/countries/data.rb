@@ -2,12 +2,14 @@ module ISO3166
   ##
   # Handles building the in memory store of countries data
   class Data
+    @@cache = nil
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
+      Data.load_cache unless @@cache
     end
 
     def call
-      CACHE[@alpha2]
+       @@cache[@alpha2]
     end
 
     def self.codes
@@ -24,6 +26,8 @@ module ISO3166
       YAML.load_file(datafile_path(file_array))
     end
 
-    CACHE = Marshal.load(File.binread(Data.datafile_path(%w(cache countries))))
+    def self.load_cache
+      @@cache ||= Marshal.load(File.binread(datafile_path %w(cache countries )))
+    end
   end
 end
