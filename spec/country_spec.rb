@@ -181,7 +181,7 @@ describe ISO3166::Country do
     it 'should return an arry list of all countries' do
       countries = ISO3166::Country.all
       expect(countries).to be_an(Array)
-      expect(countries.first).to be_an(Array)
+      expect(countries.first).to be_an(ISO3166::Country)
       expect(countries.size).to eq(250)
     end
 
@@ -299,14 +299,15 @@ describe ISO3166::Country do
   end
 
   describe 'Country class' do
+
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
 
       it { is_expected.to be_falsey }
     end
 
-    context "when loaded via 'countries'" do
-      before { require 'countries' }
+    context "when loaded via 'global'" do
+      before { require 'global' }
 
       describe 'existance' do
         subject { defined?(Country) }

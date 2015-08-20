@@ -106,8 +106,8 @@ class ISO3166::Country
     end
 
     def all(&blk)
-      blk ||= proc { |country, data| [data['name'], country] }
-      Setup.data.map(&blk)
+      blk ||= proc {|alpha2, d| ISO3166::Country.new(d)}
+      Setup.data.map &blk
     end
 
     alias_method :countries, :all
@@ -118,9 +118,9 @@ class ISO3166::Country
 
     # TODO: This probably should be translated, as it's being used for rails
     # helpers
-    def all_names_with_codes
-      ISO3166::Country.all.map do |(name, alpha2)|
-        [name.html_safe, alpha2]
+    def all_names_with_codes(locale = 'en')
+      ISO3166::Country.all.map do |c|
+        [c.name.html_safe, c.alpha2]
       end.sort_by { |d| d[0] }
     end
 
