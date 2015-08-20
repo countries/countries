@@ -7,7 +7,7 @@ module ISO3166
     end
 
     def call
-      cache(@alpha2)
+      CACHE[@alpha2]
     end
 
     def self.codes
@@ -15,11 +15,6 @@ module ISO3166
     end
 
     private
-
-    def cache(alpha2)
-      @@data ||= Data.load_marshal(['cache', "countries"])
-      @@data[alpha2]
-    end
 
     def self.datafile_path(file_array)
       File.join([File.dirname(__FILE__), '..'] + file_array)
@@ -29,8 +24,6 @@ module ISO3166
       YAML.load_file(datafile_path(file_array))
     end
 
-    def self.load_marshal(file_array)
-       Marshal.load(File.binread(datafile_path(file_array)))
-    end
+    CACHE = Marshal.load(File.binread(Data.datafile_path(%w(cache countries))))
   end
 end
