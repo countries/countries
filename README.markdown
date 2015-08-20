@@ -28,9 +28,11 @@ Basic Usage
 Note that Country class still exist by default.
 (is inherited from ISO3166::Country to keep backward compatibility).
 
-Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example  works best.
+Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
     c = ISO3166::Country.new('US')
+
+    # with global Country Helper
     c = Country['US']
 
 Attribute-Based Finder Methods
