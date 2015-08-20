@@ -95,7 +95,6 @@ class ISO3166::Country
     @data['translations'][locale.downcase]
   end
 
-
   private
 
   class << self
@@ -103,6 +102,10 @@ class ISO3166::Country
       if country_data.is_a?(Hash) || Setup.data.keys.include?(country_data.to_s.upcase)
         super
       end
+    end
+
+    def codes
+      Setup.codes
     end
 
     def all(&blk)
@@ -116,11 +119,9 @@ class ISO3166::Country
       translations(locale).values
     end
 
-    # TODO: This probably should be translated, as it's being used for rails
-    # helpers
     def all_names_with_codes(locale = 'en')
       ISO3166::Country.all.map do |c|
-        [c.name.html_safe, c.alpha2]
+        [(c.translation(locale) || c.name ).html_safe, c.alpha2]
       end.sort_by { |d| d[0] }
     end
 
