@@ -329,6 +329,13 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'codes' do
+    it 'returns a hash with the data of the country' do
+      expect(ISO3166::Country.codes).to be_a Array
+      expect(ISO3166::Country.codes.size).to eq(250)
+    end
+  end
+
   describe 'find_all_by' do
     context 'when searchead attribute equals the given value' do
       let(:spain_data) { ISO3166::Country.find_all_by('alpha2', 'ES') }
