@@ -3,37 +3,16 @@ module ISO3166
   # Handles building the in memory store of countries data
   class Setup
     def codes
-      @codes ||= load(['data', 'countries.yaml'])
-    end
-
-    def translations
-      @translations ||= load(['cache', 'translations.yaml'])
-    end
-
-    # @deprecated Please use {#all} instead
-    def names
-      warn "[DEPRECATION] `names` is deprecated.  Please use `all` instead."
-      @names ||= I18nData.countries.values.sort_by { |d| d[0] }
+      @codes ||= Data.codes
     end
 
     def data
       return @data if instance_variable_defined?('@data')
       @data = {}
       codes.each do |alpha2|
-        @data[alpha2] = load(['data', 'countries', "#{alpha2}.yaml"])[alpha2]
-        @data[alpha2] = @data[alpha2].merge(translations[alpha2])
+        @data[alpha2] = Data.new(alpha2).call
       end
-      @data
-    end
-
-    private
-
-    def datafile_path(file_array)
-      File.join([File.dirname(__FILE__), '..'] + file_array)
-    end
-
-    def load(file_array)
-      YAML.load_file(datafile_path(file_array))
+      @data.freeze
     end
   end
 end

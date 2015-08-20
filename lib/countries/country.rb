@@ -50,7 +50,7 @@ class ISO3166::Country
   attr_reader :data
 
   def initialize(country_data)
-    @data = country_data.is_a?(Hash) ? country_data : Setup.data[country_data.to_s.upcase]
+    @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
   end
 
   def valid?

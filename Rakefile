@@ -27,10 +27,10 @@ task :clean_yaml do
   end
 end
 
-desc 'Cache Translations'
-task :cache_translations do
+desc 'Update Cache'
+task :update_cache do
   require 'yaml'
-  require 'i18n_data'
+  require 'countries'
 
   codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
   data = {}
@@ -53,20 +53,16 @@ task :cache_translations do
     end
 
     codes.each do |alpha2|
-      data[alpha2] ||= {}
+      data[alpha2] ||= ISO3166::Data.load_yaml(['data', 'countries', "#{alpha2}.yaml"])[alpha2]
       data[alpha2]['translations'] ||= empty_translations_hash.dup
       data[alpha2]['translations'][locale] = local_names[alpha2]
       data[alpha2]['translated_names'] ||= []
       data[alpha2]['translated_names'] << local_names[alpha2]
       data[alpha2]['translated_names'] = data[alpha2]['translated_names'].uniq
     end
-
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'translations.yaml'), 'w+') do |f|
-    f.write "# PLEASE DO NOT ALTER THIS FILE, add pull requests to translation_corrections.yaml \n"
-    f.write data.to_yaml
-  end
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', "countries"), 'wb') {|f| f.write(Marshal.dump(data))}
 end
 
 require 'geocoder'
