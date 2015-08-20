@@ -85,7 +85,7 @@ desc 'Retrieve and store subdivisions coordinates'
 task :fetch_subdivisions do
   require 'countries'
   # Iterate all countries with subdivisions
-  Country.all { |code, _| Country.new(code) }.select(&:subdivisions?).each do |c|
+  ISO3166::Country.all.select(&:subdivisions?).each do |c|
     # Iterate subdivisions
     state_data = c.subdivisions.dup
     state_data.reject { |_, data| data['latitude'] }.each do |code, data|
