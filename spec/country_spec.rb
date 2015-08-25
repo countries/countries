@@ -195,21 +195,23 @@ describe ISO3166::Country do
   end
 
   describe 'all_translated' do
-    it 'should return an alphabetized list of all country names translated to the selected locale' do
+    it 'should return an alphabetized array list of all country names translated to the selected locale' do
       countries = ISO3166::Country.all_translated('fr')
       expect(countries).to be_an(Array)
-      expect(countries.first).to be_a(String)
-      expect(countries.first).to eq('Afghanistan')
+      expect(countries.first).to be_a(Array)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to eq('AF')
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(249)
     end
 
-    it 'should return an alphabetized list of all country names in English if no locale is passed' do
+    it 'should return an alphabetized array list of all country names in English if no locale is passed' do
       countries = ISO3166::Country.all_translated
       expect(countries).to be_an(Array)
-      expect(countries.first).to be_a(String)
-      expect(countries.first).to eq('Afghanistan')
+      expect(countries.first).to be_a(Array)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to eq('AF')
       expect(countries.size).to eq(249)
     end
   end
