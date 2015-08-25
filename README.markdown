@@ -18,9 +18,9 @@ Or you can install via bundler Gemfile if you are using Rails 3:
 
     gem 'countries'
 
-Or you can install via bundler Gemfile with using only ISO3166::Country (no Country class):
+Or you can install via bundler Gemfile with a Country Helper class:
 
-    gem 'countries', :require => 'iso3166'
+    gem 'countries', :require => 'global'
 
 Basic Usage
 -----------
@@ -28,9 +28,11 @@ Basic Usage
 Note that Country class still exist by default.
 (is inherited from ISO3166::Country to keep backward compatibility).
 
-Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example  works best.
+Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
-    c = Country.new('US')
+    c = ISO3166::Country.new('US')
+
+    # with global Country Helper
     c = Country['US']
 
 Attribute-Based Finder Methods
@@ -38,9 +40,9 @@ Attribute-Based Finder Methods
 
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
-    c = Country.find_country_by_name('united states')
-    list = Country.find_all_countries_by_region('Americas')
-    c = Country.find_country_by_alpha3('can')
+    c = ISO3166::Country.find_country_by_name('united states')
+    list = ISO3166::Country.find_all_countries_by_region('Americas')
+    c = ISO3166::Country.find_country_by_alpha3('can')
 
 For a list of available attributes please see ISO3166::Country::AttrReaders.
 Note: searches are *case insensitive*.
@@ -64,10 +66,10 @@ Country Info
     c.translation('de') #=> 'Vereinigte Staaten von Amerika'
     c.translations['fr'] #=> "États-Unis"
 
-    Country.translations             # {"DE"=>"Germany",...}
-    Country.translations('DE')       # {"DE"=>"Deutschland",...}
-    Country.all_translated           # ['Germany', ...]
-    Country.all_translated('DE')     # ['Deutschland', ...]
+    ISO3166::Country.translations             # {"DE"=>"Germany",...}
+    ISO3166::Country.translations('DE')       # {"DE"=>"Deutschland",...}
+    ISO3166::Country.all_translated           # ['Germany', ...]
+    ISO3166::Country.all_translated('DE')     # ['Deutschland', ...]
 
   Subdivisions & States
 

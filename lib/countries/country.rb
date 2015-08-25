@@ -50,7 +50,7 @@ class ISO3166::Country
   attr_reader :data
 
   def initialize(country_data)
-    @data = country_data.is_a?(Hash) ? country_data : Setup.data[country_data.to_s.upcase]
+    @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
   end
 
   def valid?
@@ -95,18 +95,21 @@ class ISO3166::Country
     @data['translations'][locale.downcase]
   end
 
-
   private
 
   class << self
     def new(country_data)
-      if country_data.is_a?(Hash) || Setup.data.keys.include?(country_data.to_s.upcase)
+      if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
         super
       end
     end
 
+    def codes
+      Setup.codes
+    end
+
     def all(&blk)
-      blk ||= proc { |country, data| [data['name'], country] }
+      blk ||= proc {|alpha2, d| ISO3166::Country.new(d)}
       Setup.data.map(&blk)
     end
 
@@ -116,11 +119,9 @@ class ISO3166::Country
       translations(locale).values
     end
 
-    # TODO: This probably should be translated, as it's being used for rails
-    # helpers
-    def all_names_with_codes
-      ISO3166::Country.all.map do |(name, alpha2)|
-        [name.html_safe, alpha2]
+    def all_names_with_codes(locale = 'en')
+      ISO3166::Country.all.map do |c|
+        [(c.translation(locale) || c.name ).html_safe, c.alpha2]
       end.sort_by { |d| d[0] }
     end
 
