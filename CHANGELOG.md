@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Country class helper now must be explicitly loaded @rposborne
 - Removed Rails 2.0 FormHelper COUNTRIES @rposborne
 - Add class codes method to get list of all alpha2 codes @rposborne
+- Change default behavior of all method to return a list of country objects vs a tuple of alpha code + name
 
 ## 0.11.5
 - Refactored data loading into it's own class
