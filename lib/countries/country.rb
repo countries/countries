@@ -1,7 +1,6 @@
 module ISO3166; end
 
 class ISO3166::Country
-  Setup = ISO3166::Setup.new
 
   AttrReaders = [
     :number,
@@ -96,7 +95,7 @@ class ISO3166::Country
   end
 
   def translation(locale = 'en')
-    @data['translations'][locale.downcase.to_s]
+    @data['translations'][locale.to_s.downcase]
   end
 
   def local_names
@@ -113,12 +112,12 @@ class ISO3166::Country
     end
 
     def codes
-      Setup.codes
+      ISO3166::Data.codes
     end
 
     def all(&blk)
       blk ||= proc { |_alpha2, d| ISO3166::Country.new(d) }
-      Setup.data.map(&blk)
+      ISO3166::Data.cache.map(&blk)
     end
 
     alias_method :countries, :all
@@ -157,7 +156,7 @@ class ISO3166::Country
     def find_all_by(attribute, val)
       attributes, value = parse_attributes(attribute, val)
 
-      Setup.data.select do |_, v|
+      ISO3166::Data.cache.select do |_, v|
         attributes.map do |attr|
           Array(v[attr]).any? { |n| value === n.to_s.downcase }
         end.include?(true)
