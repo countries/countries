@@ -92,7 +92,7 @@ class ISO3166::Country
   end
 
   def to_s
-    @data['name']
+    translation(I18n.locale.to_s) || @data['name']
   end
 
   def translation(locale = 'en')

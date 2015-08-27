@@ -600,8 +600,18 @@ describe ISO3166::Country do
   end
 
   describe 'to_s' do
-    it 'should return the country name' do
-      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom')
+    it 'should return the country first translation for locale' do
+      I18n.available_locales = [:en, :de]
+      I18n.with_locale(:de) do
+        expect(ISO3166::Country.new('GB').to_s).to eq('Vereinigtes Königreich')
+      end
+    end
+
+    it 'should return the country name if no translation is present' do
+      I18n.available_locales = [:en, :de, :derp]
+      I18n.with_locale(:derp) do
+        expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom')
+      end
     end
   end
 
