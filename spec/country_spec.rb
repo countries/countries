@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'spec_helper'
 
 describe ISO3166::Country do
   let(:country) { ISO3166::Country.search('US') }
@@ -244,10 +244,21 @@ describe ISO3166::Country do
       expect(countries.first[0]).to eq('Afghanistan')
       expect(countries.size).to eq(250)
     end
+
+    it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
+      ISO3166.configuration.locales = [:es, :de, :en]
+
+      countries = ISO3166::Country.all_names_with_codes(:es)
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.size).to eq(250)
+    end
   end
 
   describe 'translation' do
     it 'should return the localized name for a country to the selected locale' do
+      ISO3166.configuration.locales = [:es, :de, :en]
       countries = ISO3166::Country.new(:de).translation('de')
       expect(countries).to be_an(String)
       expect(countries).to eq('Deutschland')
@@ -316,36 +327,6 @@ describe ISO3166::Country do
 
     it 'should allow access to symbol' do
       expect(country.currency[:symbol]).to eq('$')
-    end
-  end
-
-  describe 'Country class' do
-    context "when loaded via 'iso3166' existance" do
-      subject { defined?(Country) }
-
-      it { is_expected.to be_falsey }
-    end
-
-    context "when loaded via 'global'" do
-      before { require 'countries/global' }
-
-      describe 'existance' do
-        subject { defined?(Country) }
-
-        it { is_expected.to be_truthy }
-      end
-
-      describe 'superclass' do
-        subject { Country.superclass }
-
-        it { is_expected.to eq(ISO3166::Country) }
-      end
-
-      describe 'to_s' do
-        it 'should return the country name' do
-          expect(Country.new('GB').to_s).to eq('United Kingdom')
-        end
-      end
     end
   end
 
@@ -467,6 +448,11 @@ describe ISO3166::Country do
     end
 
     context 'when search translation found' do
+      before do
+        ISO3166.configure do |config|
+          config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+        end
+      end
       let(:uk) { ISO3166::Country.find_country_by_translated_names('Velika Britanija') }
 
       it 'should be a country instance' do
@@ -556,7 +542,7 @@ describe ISO3166::Country do
 
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
-      names = ISO3166::Country::Setup.data.map do |_k, v|
+      names = ISO3166::Data.cache.map do |_k, v|
         [v['name'], v['names']].flatten.uniq
       end.flatten
 
