@@ -177,8 +177,17 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'compare' do
+    it 'should compare itself with other countries by its name' do
+      canada = ISO3166::Country.search('CA')
+      mexico = ISO3166::Country.search('MX')
+      expect(mexico <=> canada).to eq(1)
+      expect(canada <=> mexico).to eq(-1)
+    end
+  end
+
   describe 'all' do
-    it 'should return an arry list of all countries' do
+    it 'should return an array list of all countries' do
       countries = ISO3166::Country.all
       expect(countries).to be_an(Array)
       expect(countries.first).to be_an(ISO3166::Country)
