@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unrealeased
+- Adding compare operation to country @guilleart
+- Content Updates @rposbone
 
 ## 1.0.0
 - Switch to Marshalling for cache storage @rposborne
