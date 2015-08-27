@@ -65,6 +65,10 @@ class ISO3166::Country
     other == data
   end
 
+  def <=>(other)
+    self.to_s <=> other.to_s
+  end
+
   def currency
     ISO4217::Currency.from_code(@data['currency'])
   end
