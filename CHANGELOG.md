@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unrealeased
+## 1.1.0
 - Adding compare operation to country @guilleart
 - Content Updates @rposbone
 - Correct NL to NO for un_locode @ohenrik
