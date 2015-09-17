@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unrealeased
 - Adding compare operation to country @guilleart
 - Content Updates @rposbone
+- Correct NL to NO for un_locode @ohenrik
+- Fix spelling of Sjælland @boatrite
+- Add alternate spelling of Macao/Macau @nityaoberoi
 
 ## 1.0.0
 - Switch to Marshalling for cache storage @rposborne
