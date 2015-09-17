@@ -92,7 +92,7 @@ class ISO3166::Country
   end
 
   def to_s
-    @data['name']
+    translation(I18n.locale.to_s) || @data['name']
   end
 
   def translation(locale = 'en')
@@ -125,7 +125,7 @@ class ISO3166::Country
 
     def all_names_with_codes(locale = 'en')
       ISO3166::Country.all.map do |c|
-        [(c.translation(locale) || c.name ).html_safe, c.alpha2]
+        [(c.to_s).html_safe, c.alpha2]
       end.sort_by { |d| d[0] }
     end
 
