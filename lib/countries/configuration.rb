@@ -20,8 +20,18 @@ module ISO3166
     attr_accessor :locales, :loaded_locales
 
     def initialize
-      @locales = [:en]
+      @locales = default_locales
       @loaded_locales = []
+    end
+
+    private
+
+    def default_locales
+      if Object.const_defined?('I18n') && I18n.respond_to?(:available_locales)
+        I18n.available_locales
+      else
+        [:en]
+      end
     end
   end
 end
