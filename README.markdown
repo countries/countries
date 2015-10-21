@@ -186,7 +186,7 @@ Any additions should be directed upstream to (pkg-isocodes)[http://anonscm.debia
 New Bugs can be filed upstream here https://alioth.debian.org/projects/pkg-iso-codes/
 
 Any corrections can be applied in translations_corrections.yaml these will be injected during
-the next ```rake cache_translations```
+the next ```rake update_cache```
 
 * Fork the project.
 * Make your feature addition or bug fix.
