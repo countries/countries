@@ -99,6 +99,14 @@ class ISO3166::Country
     @data['translations'][locale.downcase]
   end
 
+  def local_names
+    @local_names ||= languages.map{ |language| translations[language] }
+  end
+
+  def local_name
+    @local_name ||= local_names.first
+  end
+
   private
 
   class << self

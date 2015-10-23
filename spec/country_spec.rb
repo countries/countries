@@ -97,6 +97,18 @@ describe ISO3166::Country do
     end
   end
 
+  context 'with Belgium' do
+    let(:country) { ISO3166::Country.search('BE') }
+
+    it 'should return its local names based on its languages' do
+      expect(country.local_names).to match_array(['België', 'Belgique', 'Belgien'])
+    end
+
+    it 'should return its first local name' do
+      expect(country.local_name).to eq('België')
+    end
+  end
+
   it 'should return ioc code' do
     expect(country.ioc).to eq('USA')
   end
