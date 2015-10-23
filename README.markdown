@@ -62,6 +62,11 @@ Country Info
     c.name #=> "United States"
     c.names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
+    # Get the names for a country translated to its local languages
+    c = Country[:BE]
+    c.local_names #=> ["België", "Belgique", "Belgien"]
+    c.local_name #=> "België"
+
     # Get a specific translation
     c.translation('de') #=> 'Vereinigte Staaten von Amerika'
     c.translations['fr'] #=> "États-Unis"
