@@ -100,20 +100,16 @@ class ISO3166::Country
   end
 
   def local_names
-    @local_names ||= languages.map{ |language| translations[language] }
+    @local_names ||= languages.map { |language| translations[language] }
   end
 
   def local_name
     @local_name ||= local_names.first
   end
 
-  private
-
   class << self
     def new(country_data)
-      if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
-        super
-      end
+      super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
     end
 
     def codes
@@ -121,7 +117,7 @@ class ISO3166::Country
     end
 
     def all(&blk)
-      blk ||= proc {|alpha2, d| ISO3166::Country.new(d)}
+      blk ||= proc { |alpha2, d| ISO3166::Country.new(d) }
       Setup.data.map(&blk)
     end
 
