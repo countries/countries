@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.0
+- Cleaning up Global Load Path @rposborne
+- Add MOP as the currency for Macao @kriskhaira
+
 ## 1.1.0
 - Adding compare operation to country @guilleart
 - Content Updates @rposbone

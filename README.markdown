@@ -20,7 +20,17 @@ Or you can install via bundler Gemfile if you are using Rails 3:
 
 Or you can install via bundler Gemfile with a Country Helper class:
 
+    gem 'countries', :require => 'countries/global'
+
+Upgrading to 1.2.0
+-----------
+
     gem 'countries', :require => 'global'
+
+has become
+
+    gem 'countries', :require => 'countries/global'
+
 
 Basic Usage
 -----------

@@ -13,7 +13,7 @@ module ISO3166
     end
 
     def self.codes
-      @@codes ||= Data.load_yaml(['data', 'countries.yaml']).freeze
+      @@codes ||= Data.load_yaml(['countries', 'data', 'countries.yaml']).freeze
     end
 
     private
@@ -27,7 +27,7 @@ module ISO3166
     end
 
     def self.load_cache
-      @@cache ||= Marshal.load(File.binread(datafile_path %w(cache countries )))
+      @@cache ||= Marshal.load(File.binread(datafile_path %w(countries cache countries )))
     end
   end
 end
