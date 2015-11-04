@@ -62,7 +62,7 @@ task :update_cache do
     end
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', "countries"), 'wb') {|f| f.write(Marshal.dump(data))}
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'countries'), 'wb') { |f| f.write(Marshal.dump(data)) }
 end
 
 require 'geocoder'
@@ -93,7 +93,7 @@ task :fetch_subdivisions do
 
       # Handle special geocoding cases where Google defaults to well known
       # cities, instead of the states.
-      if(c.alpha2 == "US" && ["NY", "WA", "OK"].include?(code))
+      if c.alpha2 == 'US' && %w(NY WA OK).include?(code)
         location = "#{data['name']} State, United States"
       end
 

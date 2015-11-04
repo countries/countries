@@ -101,7 +101,7 @@ describe ISO3166::Country do
     let(:country) { ISO3166::Country.search('BE') }
 
     it 'should return its local names based on its languages' do
-      expect(country.local_names).to match_array(['België', 'Belgique', 'Belgien'])
+      expect(country.local_names).to match_array(%w(België Belgique Belgien))
     end
 
     it 'should return its first local name' do
@@ -320,7 +320,6 @@ describe ISO3166::Country do
   end
 
   describe 'Country class' do
-
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
 

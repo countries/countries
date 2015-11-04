@@ -9,7 +9,7 @@ module ISO3166
     end
 
     def call
-       @@cache[@alpha2]
+      @@cache[@alpha2]
     end
 
     def self.codes

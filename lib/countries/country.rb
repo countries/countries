@@ -66,7 +66,7 @@ class ISO3166::Country
   end
 
   def <=>(other)
-    self.to_s <=> other.to_s
+    to_s <=> other.to_s
   end
 
   def currency
@@ -117,7 +117,7 @@ class ISO3166::Country
     end
 
     def all(&blk)
-      blk ||= proc { |alpha2, d| ISO3166::Country.new(d) }
+      blk ||= proc { |_alpha2, d| ISO3166::Country.new(d) }
       Setup.data.map(&blk)
     end
 
@@ -129,7 +129,7 @@ class ISO3166::Country
 
     def all_names_with_codes(locale = 'en')
       ISO3166::Country.all.map do |c|
-        [(c.translation(locale) || c.name ).html_safe, c.alpha2]
+        [(c.translation(locale) || c.name).html_safe, c.alpha2]
       end.sort_by { |d| d[0] }
     end
 
