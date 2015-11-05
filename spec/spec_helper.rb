@@ -1,1 +1,1 @@
-require 'iso3166'
+require 'countries'
