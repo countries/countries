@@ -11,7 +11,7 @@ class ISO3166::Country
         country.alpha2
       elsif send(:valid_alpha2?, country)
         new(country).alpha2
-            end
+      end
     end
 
     def demongoize(alpha2)
