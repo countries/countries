@@ -6,7 +6,7 @@
     end
 
     context "when loaded via 'global'" do
-      before { require 'global' }
+      before { require 'countries/global' }
 
       describe 'existance' do
         subject { defined?(Country) }

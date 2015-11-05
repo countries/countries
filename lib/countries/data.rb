@@ -23,7 +23,7 @@ module ISO3166
       end
 
       def codes
-        @@codes ||= load_yaml(['countries', 'data', 'countries.yaml']).freeze
+        @@codes ||= load_yaml(['data', 'countries.yaml']).freeze
       end
 
       def update_cache
