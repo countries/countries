@@ -30,12 +30,12 @@ end
 desc 'Update Cache'
 task :update_cache do
   require 'yaml'
-  require 'countries'
+  require 'i18n_data'
 
-  codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'countries.yaml')) || {}
+  codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries.yaml')) || {}
   data = {}
   empty_translations_hash = {}
-  corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'data', 'translation_corrections.yaml')) || {}
+  corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
 
   I18nData.languages.keys.each do |locale|
     locale = locale.downcase
@@ -53,7 +53,7 @@ task :update_cache do
     end
 
     codes.each do |alpha2|
-      data[alpha2] ||= ISO3166::Data.load_yaml(['data', 'countries', "#{alpha2}.yaml"])[alpha2]
+      data[alpha2] ||= YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
       data[alpha2]['translations'] ||= empty_translations_hash.dup
       data[alpha2]['translations'][locale] = local_names[alpha2]
       data[alpha2]['translated_names'] ||= []
@@ -62,7 +62,7 @@ task :update_cache do
     end
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', 'countries'), 'wb') { |f| f.write(Marshal.dump(data)) }
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries'), 'wb') { |f| f.write(Marshal.dump(data)) }
 end
 
 require 'geocoder'
