@@ -2,7 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.2.0
+## 1.2.2
+- Content Updates
+
+## 1.2.1
+- Fixed issue in loading @rposborne
+
+## 1.2.0 (yanked)
 - Cleaning up Global Load Path @rposborne
 - Add MOP as the currency for Macao @kriskhaira
 
