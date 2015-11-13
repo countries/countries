@@ -15,4 +15,4 @@ module ISO3166
   end
 end
 
-ISO3166::Country.include(ISO3166::TimezoneExtensions)
+ISO3166::Country.send(:include, ISO3166::TimezoneExtensions)
