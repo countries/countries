@@ -119,6 +119,21 @@ Country Info
     c.region #=> "Americas"
     c.subregion #=> "Northern America"
 
+  Timezones **(optional)**
+
+  Add tzinfo to your gemfile
+    gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+
+  Require timezone extensions
+
+    require 'countries'
+    require 'countries/timezone'
+
+    c.timezones.zone_identifiers #=> ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
+  ```c.timezones.zone_info```  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
+
+  ```c.timezones``` # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
+
   Telephone Routing (E164)
 
     c.country_code #=> "1"
