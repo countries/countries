@@ -52,11 +52,11 @@ task :update_cache do
       end
     end
 
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'cache', "locales", locale), 'wb') {|f| f.write(Marshal.dump(local_names))}
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', locale), 'wb') { |f| f.write(Marshal.dump(local_names)) }
   end
 
   codes.each do |alpha2|
-    data[alpha2] ||= ISO3166::Data.load_yaml(['data', 'countries', "#{alpha2}.yaml"])[alpha2]
+    data[alpha2] ||= YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
   end
 
   File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries'), 'wb') { |f| f.write(Marshal.dump(data)) }
@@ -94,19 +94,17 @@ task :fetch_subdivisions do
         location = "#{data['name']} State, United States"
       end
 
-      if (result = geocode(location))
-        geometry = result.geometry
-        if geometry['location']
-          state_data[code]['latitude'] = geometry['location']['lat']
-          state_data[code]['longitude'] = geometry['location']['lng']
-        end
-        if geometry['bounds']
-          state_data[code]['min_latitude'] = geometry['bounds']['southwest']['lat']
-          state_data[code]['min_longitude'] = geometry['bounds']['southwest']['lng']
-          state_data[code]['max_latitude'] = geometry['bounds']['northeast']['lat']
-          state_data[code]['max_longitude'] = geometry['bounds']['northeast']['lng']
-        end
+      next unless (result = geocode(location))
+      geometry = result.geometry
+      if geometry['location']
+        state_data[code]['latitude'] = geometry['location']['lat']
+        state_data[code]['longitude'] = geometry['location']['lng']
       end
+      next unless geometry['bounds']
+      state_data[code]['min_latitude'] = geometry['bounds']['southwest']['lat']
+      state_data[code]['min_longitude'] = geometry['bounds']['southwest']['lng']
+      state_data[code]['max_latitude'] = geometry['bounds']['northeast']['lat']
+      state_data[code]['max_longitude'] = geometry['bounds']['northeast']['lng']
     end
     # Write updated YAML for current country
     File.open(File.join(File.dirname(__FILE__), 'lib', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
