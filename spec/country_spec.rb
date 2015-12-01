@@ -322,11 +322,11 @@ describe ISO3166::Country do
 
   describe 'currency' do
     it 'should return an instance of Currency' do
-      expect(country.currency).to be_a(ISO4217::Currency)
+      expect(country.currency).to be_a(Money::Currency)
     end
 
     it 'should allow access to symbol' do
-      expect(country.currency[:symbol]).to eq('$')
+      expect(country.currency.symbol).to eq('$')
     end
   end
 
@@ -554,7 +554,7 @@ describe ISO3166::Country do
     let(:norway) { ISO3166::Country.search('NO') }
 
     it 'should have a currency' do
-      expect(norway.currency).to be_a(ISO4217::Currency)
+      expect(norway.currency).to be_a(Money::Currency)
     end
   end
 
@@ -562,7 +562,7 @@ describe ISO3166::Country do
     let(:guernsey) { ISO3166::Country.search('GG') }
 
     it 'should have a currency' do
-      expect(guernsey.currency.code).to eq('GBP')
+      expect(guernsey.currency.iso_code).to eq('GBP')
     end
   end
 

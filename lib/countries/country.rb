@@ -69,7 +69,7 @@ class ISO3166::Country
   end
 
   def currency
-    ISO4217::Currency.from_code(@data['currency'])
+    Money::Currency.find(@data['currency'])
   end
 
   def currency_code

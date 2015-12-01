@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.0 (unreleased)
+- Selective loading translations of countries
+- Auto detect I18n locales to load
+- Add Configuration methods to force locales to load
+- Dropped currencies gem in favor of money
+- Add Time Zone Support
+
 ## 1.2.4 @ 2016-01-21
 - Romanian Standard VAT rate is 20% as of 2016-01-01 #325 @dougal
 - Palestine submit #324 @samizan

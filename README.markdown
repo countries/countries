@@ -141,11 +141,11 @@ Country Info
 Currencies
 ----------
 
-Countries now uses the [Currencies][] gem. What this means is you now get back a Currency object that gives you access to all the currency information. It acts the same as a hash so the same ['name'] methods still work.
+Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
 
-    c.currency['code'] #=> 'USD'
-    c.currency['name'] #=> 'Dollars'
-    c.currency['symbol'] #=> '$'
+    c.currency.iso_code #=> 'USD'
+    c.currency.name #=> 'Dollars'
+    c.currency.symbol #=> '$'
 
 Address Formatting
 ------------------
