@@ -129,13 +129,6 @@ Countries now uses the [Currencies][] gem. What this means is you now get back a
     c.currency['name'] #=> 'Dollars'
     c.currency['symbol'] #=> '$'
 
-If a country has an alternate currency it can be accessed via the *alt_currency* method and will also return a Currency object.
-
-Since we are using the [Currencies][] gem we get a bonus ExchangeBank that can be used with the [Money][] gem. It auto loads exchange rates from Yahoo Finance.
-
-    Money.default_bank = Currency::ExchangeBank.new
-    Money.us_dollar(100).exchange_to("CAD")  # => Money.new(124, "CAD")
-
 Address Formatting
 ------------------
 
