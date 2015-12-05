@@ -40,7 +40,7 @@ module ISO3166
 
         @@cache.freeze
       end
-
+     private
       def cache_flush_required?
         locales_to_load.size && locales_to_remove.size
       end
@@ -54,11 +54,11 @@ module ISO3166
       end
 
       def requested_locales
-        ISO3166.configuration.locales.map(&:to_s).map(&:downcase)
+        ISO3166.configuration.locales.map { |l| l.to_s.downcase }
       end
 
       def loaded_locales
-        ISO3166.configuration.loaded_locales.map(&:to_s).map(&:downcase)
+        ISO3166.configuration.loaded_locales.map { |l| l.to_s.downcase }
       end
 
       def load_translations(locale)
@@ -78,8 +78,6 @@ module ISO3166
         end
         ISO3166.configuration.loaded_locales.delete(locale)
       end
-
-      private
 
       def marshal(file_array)
         Marshal.load(File.binread(datafile_path file_array))

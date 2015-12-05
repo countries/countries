@@ -54,20 +54,20 @@ describe ISO3166::Data do
   it 'locales will load prior and be cached' do
     ISO3166.reset
     ISO3166.configuration.locales = [:es, :de, :en]
-    expect(ISO3166::Data.locales_to_load ).to eql(['es', 'de', 'en'])
+    expect(ISO3166::Data.send(:locales_to_load) ).to eql(['es', 'de', 'en'])
     ISO3166::Data.update_cache
     ISO3166.configuration.locales = [:es, :de, :en]
-    expect(ISO3166::Data.locales_to_load ).to eql([])
+    expect(ISO3166::Data.send(:locales_to_load) ).to eql([])
   end
 
   it 'locales will load prior and be cached' do
     ISO3166.reset
     ISO3166.configuration.locales = [:es, :de, :en]
-    expect(ISO3166::Data.locales_to_remove ).to eql([])
+    expect(ISO3166::Data.send(:locales_to_remove) ).to eql([])
     expect(ISO3166::Country.new('DE').translation('de')).to eq 'Deutschland'
     ISO3166::Data.update_cache
     ISO3166.configuration.locales = [:es, :en]
-    expect(ISO3166::Data.locales_to_remove ).to eql(['de'])
+    expect(ISO3166::Data.send(:locales_to_remove) ).to eql(['de'])
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 end
