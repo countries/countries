@@ -96,7 +96,7 @@ class ISO3166::Country
   end
 
   def translation(locale = 'en')
-    @data['translations'][locale.downcase]
+    @data['translations'][locale.downcase.to_s]
   end
 
   def local_names
