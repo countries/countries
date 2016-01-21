@@ -6,7 +6,7 @@ module ISO3166
   class Setup
     # <b>DEPRECATED:</b> Please use <tt>Data.codes</tt> instead.
     def codes
-      warn "[DEPRECATION] `useless` is deprecated.  Please use `useful` instead."
+      warn "[DEPRECATION] `Setup.codes` is deprecated.  Please use `Data.codes` instead."
       Data.codes
     end
 
