@@ -40,7 +40,8 @@ module ISO3166
 
         @@cache.freeze
       end
-     private
+
+      private
       def cache_flush_required?
         locales_to_load.size && locales_to_remove.size
       end
