@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.4 @ 2016-01-21
+- Romanian Standard VAT rate is 20% as of 2016-01-01 #325 @dougal
+- Palestine submit #324 @samizan
+- Added 47 as calling code for Bouvet Island, Norwegian territory #323
+- Added XAF as currency code for Congo @espen
+- Force converting passed locale to string @borodiychuk
+
+## 1.2.3
+- Content Updates
+
 ## 1.2.2
 - Content Updates
 
