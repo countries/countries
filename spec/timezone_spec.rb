@@ -1,6 +1,6 @@
 describe 'timezone Country class' do
   context "when loaded via 'timezone'" do
-    require 'countries/timezones'
+    require 'tzinfo'
     describe 'existance' do
       subject { defined?(TZInfo) }
 
