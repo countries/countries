@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.5 @ 2016-01-22
+- Rebuilding cache
+
 ## 1.2.4 @ 2016-01-21
 - Romanian Standard VAT rate is 20% as of 2016-01-01 #325 @dougal
 - Palestine submit #324 @samizan
