@@ -649,4 +649,33 @@ describe ISO3166::Country do
       end.to raise_error(TypeError, "can't convert Fixnum into ISO3166::Country")
     end
   end
+
+  describe 'Added country names to search by' do
+    it 'should return country code for Democratic Republic of the Congo' do
+      expect(ISO3166::Country.find_country_by_name('Democratic Republic of the Congo').alpha2).to eq 'CG'
+    end
+    it 'should return country code for Ivory Coast' do
+      expect(ISO3166::Country.find_country_by_name('Ivory Coast').alpha2).to eq 'CI'
+    end
+    it 'should return Pakistan code for Guinea Bissau' do
+      expect(ISO3166::Country.find_country_by_name('Guinea Bissau').alpha2).to eq 'GW'
+    end
+    it 'should return Pakistan code for St Kitts and Nevis' do
+      expect(ISO3166::Country.find_country_by_name('St Kitts and Nevis').alpha2).to eq 'KN'
+    end
+    it 'should return Pakistan code for St Lucia' do
+      expect(ISO3166::Country.find_country_by_name('St Lucia').alpha2).to eq 'LC'
+      expect(ISO3166::Country.find_country_by_name('St. Lucia').alpha2).to eq 'LC'
+    end
+    it 'should return Pakistan code for Turks and Caicos' do
+      expect(ISO3166::Country.find_country_by_name('Turks and Caicos').alpha2).to eq 'TC'
+    end
+    it 'should return Pakistan code for St Vincent Grenadines' do
+      expect(ISO3166::Country.find_country_by_name('St Vincent Grenadines').alpha2).to eq 'VC'
+      expect(ISO3166::Country.find_country_by_name('St. Vincent Grenadines').alpha2).to eq 'VC'
+    end
+    it 'should return country code for Palestinian Authority' do
+      expect(ISO3166::Country.find_country_by_name('Palestinian Authority').alpha2).to eq 'PS'
+    end
+  end
 end
