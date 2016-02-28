@@ -8,8 +8,6 @@ GF:
   international_prefix: '00'
   ioc: 
   gec: FG
-  latitude: 4 00 N
-  longitude: 53 00 W
   name: French Guiana
   national_destination_code_lengths:
   - 3
@@ -22,12 +20,6 @@ GF:
   world_region: AMER
   un_locode: GF
   postal_code: true
-  min_longitude: "-60"
-  min_latitude: '2.166667'
-  max_longitude: "-51.65"
-  max_latitude: '5.75'
-  latitude_dec: '4.069991111755371'
-  longitude_dec: "-53.16830825805664"
   slang_names:
   - French Guiana
   - Französisch Guyana
@@ -38,3 +30,12 @@ GF:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 4 00 N
+    latitude_dec: '4.069991111755371'
+    longitude: 53 00 W
+    longitude_dec: "-53.16830825805664"
+    max_latitude: '5.75'
+    max_longitude: "-51.65"
+    min_latitude: '2.166667'
+    min_longitude: "-60"

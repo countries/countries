@@ -8,8 +8,6 @@ AM:
   international_prefix: '00'
   ioc: ARM
   gec: AM
-  latitude: 40 00 N
-  longitude: 45 00 E
   name: Armenia
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ AM:
   un_locode: AM
   nationality: Armenian
   postal_code: true
-  min_longitude: '43.4425'
-  min_latitude: '38.894167'
-  max_longitude: '46.560556'
-  max_latitude: '41.3'
-  latitude_dec: '40.29266357421875'
-  longitude_dec: '44.93947219848633'
   slang_names:
   - Armenia
   - Armenien
@@ -41,3 +33,12 @@ AM:
   languages_spoken:
   - hy
   - ru
+  geo:
+    latitude: 40 00 N
+    latitude_dec: '40.29266357421875'
+    longitude: 45 00 E
+    longitude_dec: '44.93947219848633'
+    max_latitude: '41.3'
+    max_longitude: '46.560556'
+    min_latitude: '38.894167'
+    min_longitude: '43.4425'

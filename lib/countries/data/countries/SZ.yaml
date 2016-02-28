@@ -8,8 +8,6 @@ SZ:
   international_prefix: '00'
   ioc: SWZ
   gec: WZ
-  latitude: 26 30 S
-  longitude: 31 30 E
   name: Swaziland
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SZ:
   un_locode: SZ
   nationality: Swazi
   postal_code: true
-  min_longitude: '30.783333'
-  min_latitude: "-27.316667"
-  max_longitude: '32.133333'
-  max_latitude: "-25.783333"
-  latitude_dec: "-26.565134048461914"
-  longitude_dec: '31.49811363220215'
   slang_names:
   - Swaziland
   - Swasiland
@@ -40,3 +32,12 @@ SZ:
   languages_spoken:
   - en
   - ss
+  geo:
+    latitude: 26 30 S
+    latitude_dec: "-26.565134048461914"
+    longitude: 31 30 E
+    longitude_dec: '31.49811363220215'
+    max_latitude: "-25.783333"
+    max_longitude: '32.133333'
+    min_latitude: "-27.316667"
+    min_longitude: '30.783333'

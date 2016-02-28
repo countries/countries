@@ -8,8 +8,6 @@ TM:
   international_prefix: '810'
   ioc: TKM
   gec: TX
-  latitude: 40 00 N
-  longitude: 60 00 E
   name: Turkmenistan
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ TM:
   un_locode: TM
   nationality: Turkmen
   postal_code: true
-  min_longitude: '52.5'
-  min_latitude: '35.216667'
-  max_longitude: '66.65'
-  max_latitude: '42.566667'
-  latitude_dec: '39.2012825012207'
-  longitude_dec: '59.082252502441406'
   slang_names:
   - Turkmenistan
   - Turkménistan
@@ -40,3 +32,12 @@ TM:
   languages_spoken:
   - tk
   - ru
+  geo:
+    latitude: 40 00 N
+    latitude_dec: '39.2012825012207'
+    longitude: 60 00 E
+    longitude_dec: '59.082252502441406'
+    max_latitude: '42.566667'
+    max_longitude: '66.65'
+    min_latitude: '35.216667'
+    min_longitude: '52.5'

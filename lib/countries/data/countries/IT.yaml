@@ -13,8 +13,6 @@ IT:
   international_prefix: '00'
   ioc: ITA
   gec: IT
-  latitude: 42 50 N
-  longitude: 12 50 E
   name: Italy
   national_destination_code_lengths:
   - 3
@@ -36,12 +34,6 @@ IT:
     super_reduced: 4
     parking: 
   postal_code: true
-  min_longitude: '1.35'
-  min_latitude: '35.483333'
-  max_longitude: '20.433333'
-  max_latitude: '48.533333'
-  latitude_dec: '42.7669792175293'
-  longitude_dec: '12.493823051452637'
   slang_names:
   - Italy
   - Italien
@@ -53,3 +45,12 @@ IT:
   - it
   languages_spoken:
   - it
+  geo:
+    latitude: 42 50 N
+    latitude_dec: '42.7669792175293'
+    longitude: 12 50 E
+    longitude_dec: '12.493823051452637'
+    max_latitude: '48.533333'
+    max_longitude: '20.433333'
+    min_latitude: '35.483333'
+    min_longitude: '1.35'

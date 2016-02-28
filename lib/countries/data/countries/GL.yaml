@@ -13,8 +13,6 @@ GL:
   international_prefix: 009
   ioc: 
   gec: GL
-  latitude: 72 00 N
-  longitude: 40 00 W
   name: Greenland
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ GL:
   un_locode: GL
   nationality: Greenlandic
   postal_code: true
-  min_longitude: "-73.05"
-  min_latitude: '51.7'
-  max_longitude: "-12.133333"
-  max_latitude: '83.666667'
-  latitude_dec: '74.34954833984375'
-  longitude_dec: "-41.08988952636719"
   slang_names:
   - Greenland
   - Grönland
@@ -44,3 +36,12 @@ GL:
   - kl
   languages_spoken:
   - kl
+  geo:
+    latitude: 72 00 N
+    latitude_dec: '74.34954833984375'
+    longitude: 40 00 W
+    longitude_dec: "-41.08988952636719"
+    max_latitude: '83.666667'
+    max_longitude: "-12.133333"
+    min_latitude: '51.7'
+    min_longitude: "-73.05"

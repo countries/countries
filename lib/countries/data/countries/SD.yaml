@@ -8,8 +8,6 @@ SD:
   international_prefix: '00'
   ioc: SUD
   gec: SU
-  latitude: 15 00 N
-  longitude: 30 00 E
   name: Sudan
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SD:
   un_locode: SD
   nationality: Sudanese
   postal_code: true
-  min_longitude: '21.883333'
-  min_latitude: '3.516667'
-  max_longitude: '38.833333'
-  max_latitude: '27.166667'
-  latitude_dec: '16.085784912109375'
-  longitude_dec: '30.087390899658203'
   slang_names:
   - Sudan
   - "السودان"
@@ -42,3 +34,12 @@ SD:
   languages_spoken:
   - ar
   - en
+  geo:
+    latitude: 15 00 N
+    latitude_dec: '16.085784912109375'
+    longitude: 30 00 E
+    longitude_dec: '30.087390899658203'
+    max_latitude: '27.166667'
+    max_longitude: '38.833333'
+    min_latitude: '3.516667'
+    min_longitude: '21.883333'

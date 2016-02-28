@@ -13,8 +13,6 @@ BA:
   international_prefix: '00'
   ioc: BIH
   gec: BK
-  latitude: 44 00 N
-  longitude: 18 00 E
   name: Bosnia and Herzegovina
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ BA:
   un_locode: BA
   nationality: Bosnian, Herzegovinian
   postal_code: true
-  min_longitude: '15.747222'
-  min_latitude: '42.558056'
-  max_longitude: '19.618333'
-  max_latitude: '45.268333'
-  latitude_dec: '44.16533279418945'
-  longitude_dec: '17.790241241455078'
   slang_names:
   - Bosnia and Herzegovina
   - Bosnien und Herzegowina
@@ -50,3 +42,12 @@ BA:
   - bs
   - hr
   - sr
+  geo:
+    latitude: 44 00 N
+    latitude_dec: '44.16533279418945'
+    longitude: 18 00 E
+    longitude_dec: '17.790241241455078'
+    max_latitude: '45.268333'
+    max_longitude: '19.618333'
+    min_latitude: '42.558056'
+    min_longitude: '15.747222'

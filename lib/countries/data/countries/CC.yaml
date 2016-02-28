@@ -8,8 +8,6 @@ CC:
   international_prefix: '0011'
   ioc: 
   gec: CK
-  latitude: 12 30 S
-  longitude: 96 50 E
   name: Cocos (Keeling) Islands
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ CC:
   un_locode: CC
   nationality: Cocos Islander
   postal_code: true
-  min_longitude: '96.816667'
-  min_latitude: "-12.204167"
-  max_longitude: '96.918056'
-  max_latitude: "-11.833333"
-  latitude_dec: "-12.200602531433105"
-  longitude_dec: '96.85894012451172'
   slang_names:
   - Cocos (Keeling) Islands
   - Kokosinseln
@@ -38,3 +30,12 @@ CC:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 12 30 S
+    latitude_dec: "-12.200602531433105"
+    longitude: 96 50 E
+    longitude_dec: '96.85894012451172'
+    max_latitude: "-11.833333"
+    max_longitude: '96.918056'
+    min_latitude: "-12.204167"
+    min_longitude: '96.816667'

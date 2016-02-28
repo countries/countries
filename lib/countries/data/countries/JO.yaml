@@ -13,8 +13,6 @@ JO:
   international_prefix: '00'
   ioc: JOR
   gec: JO
-  latitude: 31 00 N
-  longitude: 36 00 E
   name: Jordan
   national_destination_code_lengths:
   - 2
@@ -29,12 +27,6 @@ JO:
   un_locode: JO
   nationality: Jordanian
   postal_code: true
-  min_longitude: '34.9875'
-  min_latitude: '29'
-  max_longitude: '38.883333'
-  max_latitude: '33.002222'
-  latitude_dec: '31.2757625579834'
-  longitude_dec: '36.82838821411133'
   slang_names:
   - Jordan
   - "الأردن"
@@ -47,3 +39,12 @@ JO:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 31 00 N
+    latitude_dec: '31.2757625579834'
+    longitude: 36 00 E
+    longitude_dec: '36.82838821411133'
+    max_latitude: '33.002222'
+    max_longitude: '38.883333'
+    min_latitude: '29'
+    min_longitude: '34.9875'

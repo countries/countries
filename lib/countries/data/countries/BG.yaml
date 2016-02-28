@@ -13,8 +13,6 @@ BG:
   international_prefix: '00'
   ioc: BUL
   gec: BU
-  latitude: 43 00 N
-  longitude: 25 00 E
   name: Bulgaria
   national_destination_code_lengths:
   - 2
@@ -37,12 +35,6 @@ BG:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '22.371389'
-  min_latitude: '41'
-  max_longitude: '28.6'
-  max_latitude: '44.193611'
-  latitude_dec: '42.7661018371582'
-  longitude_dec: '25.283733367919922'
   slang_names:
   - Bulgaria
   - Bulgarien
@@ -53,3 +45,12 @@ BG:
   - bg
   languages_spoken:
   - bg
+  geo:
+    latitude: 43 00 N
+    latitude_dec: '42.7661018371582'
+    longitude: 25 00 E
+    longitude_dec: '25.283733367919922'
+    max_latitude: '44.193611'
+    max_longitude: '28.6'
+    min_latitude: '41'
+    min_longitude: '22.371389'

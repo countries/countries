@@ -8,8 +8,6 @@ SN:
   international_prefix: '00'
   ioc: SEN
   gec: SG
-  latitude: 14 00 N
-  longitude: 14 00 W
   name: Senegal
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SN:
   un_locode: SN
   nationality: Senegalese
   postal_code: true
-  min_longitude: "-17.682778"
-  min_latitude: '12.336667'
-  max_longitude: "-11.3780213874"
-  max_latitude: '16.666667'
-  latitude_dec: '14.36251163482666'
-  longitude_dec: "-14.531643867492676"
   slang_names:
   - Senegal
   - Sénégal
@@ -37,3 +29,12 @@ SN:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 14 00 N
+    latitude_dec: '14.36251163482666'
+    longitude: 14 00 W
+    longitude_dec: "-14.531643867492676"
+    max_latitude: '16.666667'
+    max_longitude: "-11.3780213874"
+    min_latitude: '12.336667'
+    min_longitude: "-17.682778"

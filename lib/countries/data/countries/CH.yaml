@@ -13,8 +13,6 @@ CH:
   international_prefix: '00'
   ioc: SUI
   gec: SZ
-  latitude: 47 00 N
-  longitude: 8 00 E
   name: Switzerland
   national_destination_code_lengths:
   - 2
@@ -29,12 +27,6 @@ CH:
   un_locode: CH
   nationality: Swiss
   postal_code: true
-  min_longitude: '6'
-  min_latitude: '45.366667'
-  max_longitude: '10.5'
-  max_latitude: '47.8085'
-  latitude_dec: '46.80379867553711'
-  longitude_dec: '8.222854614257812'
   slang_names:
   - Switzerland
   - Schweiz
@@ -50,3 +42,12 @@ CH:
   - de
   - fr
   - it
+  geo:
+    latitude: 47 00 N
+    latitude_dec: '46.80379867553711'
+    longitude: 8 00 E
+    longitude_dec: '8.222854614257812'
+    max_latitude: '47.8085'
+    max_longitude: '10.5'
+    min_latitude: '45.366667'
+    min_longitude: '6'

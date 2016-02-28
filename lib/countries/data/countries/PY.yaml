@@ -8,8 +8,6 @@ PY:
   international_prefix: '002'
   ioc: PAR
   gec: PA
-  latitude: 23 00 S
-  longitude: 58 00 W
   name: Paraguay
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ PY:
   un_locode: PY
   nationality: Paraguayan
   postal_code: true
-  min_longitude: "-62.633333"
-  min_latitude: "-27.533333"
-  max_longitude: "-54.35"
-  max_latitude: "-19.333333"
-  latitude_dec: "-23.24028968811035"
-  longitude_dec: "-58.395172119140625"
   slang_names:
   - Paraguay
   - "パラグアイ"
@@ -38,3 +30,12 @@ PY:
   languages_spoken:
   - es
   - gn
+  geo:
+    latitude: 23 00 S
+    latitude_dec: "-23.24028968811035"
+    longitude: 58 00 W
+    longitude_dec: "-58.395172119140625"
+    max_latitude: "-19.333333"
+    max_longitude: "-54.35"
+    min_latitude: "-27.533333"
+    min_longitude: "-62.633333"

@@ -8,8 +8,6 @@ TT:
   international_prefix: '011'
   ioc: TRI
   gec: TD
-  latitude: 11 00 N
-  longitude: 61 00 W
   name: Trinidad and Tobago
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ TT:
   un_locode: TT
   nationality: Trinidadian
   postal_code: false
-  min_longitude: "-74"
-  min_latitude: '10.033333'
-  max_longitude: "-60.5"
-  max_latitude: '20'
-  latitude_dec: '10.68574047088623'
-  longitude_dec: "-61.1640625"
   slang_names:
   - Trinidad and Tobago
   - Trinidad und Tobago
@@ -40,3 +32,12 @@ TT:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 11 00 N
+    latitude_dec: '10.68574047088623'
+    longitude: 61 00 W
+    longitude_dec: "-61.1640625"
+    max_latitude: '20'
+    max_longitude: "-60.5"
+    min_latitude: '10.033333'
+    min_longitude: "-74"

@@ -8,8 +8,6 @@ NR:
   international_prefix: '00'
   ioc: NRU
   gec: NR
-  latitude: 0 32 S
-  longitude: 166 55 E
   name: Nauru
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ NR:
   un_locode: NR
   nationality: Nauruan
   postal_code: false
-  min_longitude: '166.916667'
-  min_latitude: "-0.55"
-  max_longitude: '166.95'
-  max_latitude: "-0.5"
-  latitude_dec: "-0.5316064953804016"
-  longitude_dec: '166.9364013671875'
   slang_names:
   - Nauru
   - "ナウル"
@@ -38,3 +30,12 @@ NR:
   languages_spoken:
   - en
   - na
+  geo:
+    latitude: 0 32 S
+    latitude_dec: "-0.5316064953804016"
+    longitude: 166 55 E
+    longitude_dec: '166.9364013671875'
+    max_latitude: "-0.5"
+    max_longitude: '166.95'
+    min_latitude: "-0.55"
+    min_longitude: '166.916667'

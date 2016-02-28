@@ -8,8 +8,6 @@ VI:
   international_prefix: '011'
   ioc: ISV
   gec: VQ
-  latitude: ''
-  longitude: ''
   name: Virgin Islands, U.S.
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ VI:
   un_locode: VI
   nationality: Virgin Islander
   postal_code: true
-  min_longitude: "-65.086281"
-  min_latitude: '17.681721'
-  max_longitude: "-64.565170"
-  max_latitude: '18.458139'
-  latitude_dec: '17.75262451171875'
-  longitude_dec: "-64.73542022705078"
   slang_names:
   - Virgin Islands of the United States
   - Amerikanische Jungferninseln
@@ -41,3 +33,12 @@ VI:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: ''
+    latitude_dec: '17.75262451171875'
+    longitude: ''
+    longitude_dec: "-64.73542022705078"
+    max_latitude: '18.458139'
+    max_longitude: "-64.565170"
+    min_latitude: '17.681721'
+    min_longitude: "-65.086281"

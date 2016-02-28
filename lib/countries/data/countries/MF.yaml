@@ -8,8 +8,6 @@ MF:
   international_prefix: ''
   ioc: 
   gec: RN
-  latitude: 18 05 N
-  longitude: 63 57 W
   name: Saint Martin
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ MF:
   un_locode: 
   nationality: Saint Martin Islander
   postal_code: true
-  min_longitude: "-63.153326"
-  min_latitude: '18.0465757'
-  max_longitude: "-62.9703926"
-  max_latitude: '18.1251338'
-  latitude_dec: '18.042224884033203'
-  longitude_dec: "-63.06623458862305"
   slang_names:
   - Saint Martin
   - "サン・マルタン（フランス領）"
@@ -39,3 +31,12 @@ MF:
   - en
   - fr
   - nl
+  geo:
+    latitude: 18 05 N
+    latitude_dec: '18.042224884033203'
+    longitude: 63 57 W
+    longitude_dec: "-63.06623458862305"
+    max_latitude: '18.1251338'
+    max_longitude: "-62.9703926"
+    min_latitude: '18.0465757'
+    min_longitude: "-63.153326"

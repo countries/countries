@@ -13,8 +13,6 @@ QA:
   international_prefix: '00'
   ioc: QAT
   gec: QA
-  latitude: 25 30 N
-  longitude: 51 15 E
   name: Qatar
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ QA:
   un_locode: QA
   nationality: Qatari
   postal_code: false
-  min_longitude: '50.680556'
-  min_latitude: '24.284722'
-  max_longitude: '52.75'
-  max_latitude: '26.441111'
-  latitude_dec: '25.413625717163086'
-  longitude_dec: '51.2602653503418'
   slang_names:
   - Qatar
   - "قطر"
@@ -43,3 +35,12 @@ QA:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 25 30 N
+    latitude_dec: '25.413625717163086'
+    longitude: 51 15 E
+    longitude_dec: '51.2602653503418'
+    max_latitude: '26.441111'
+    max_longitude: '52.75'
+    min_latitude: '24.284722'
+    min_longitude: '50.680556'

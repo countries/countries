@@ -8,8 +8,6 @@ LI:
   international_prefix: '00'
   ioc: LIE
   gec: LS
-  latitude: 47 16 N
-  longitude: 9 32 E
   name: Liechtenstein
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ LI:
   un_locode: LI
   nationality: Liechtensteiner
   postal_code: true
-  min_longitude: '9.5'
-  min_latitude: '47.05'
-  max_longitude: '9.75'
-  max_latitude: '47.233333'
-  latitude_dec: '47.14126968383789'
-  longitude_dec: '9.552783012390137'
   slang_names:
   - Liechtenstein
   - "リヒテンシュタイン"
@@ -36,3 +28,12 @@ LI:
   - de
   languages_spoken:
   - de
+  geo:
+    latitude: 47 16 N
+    latitude_dec: '47.14126968383789'
+    longitude: 9 32 E
+    longitude_dec: '9.552783012390137'
+    max_latitude: '47.233333'
+    max_longitude: '9.75'
+    min_latitude: '47.05'
+    min_longitude: '9.5'

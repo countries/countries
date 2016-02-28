@@ -13,8 +13,6 @@ CZ:
   international_prefix: '00'
   ioc: CZE
   gec: EZ
-  latitude: 49 45 N
-  longitude: 15 30 E
   name: Czech Republic
   national_destination_code_lengths:
   - 2
@@ -35,12 +33,6 @@ CZ:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '12.116667'
-  min_latitude: '40.65'
-  max_longitude: '25.5'
-  max_latitude: '59.65'
-  latitude_dec: '49.739105224609375'
-  longitude_dec: '15.331501007080078'
   slang_names:
   - Czech Republic
   - Tschechische Republik
@@ -54,3 +46,12 @@ CZ:
   languages_spoken:
   - cs
   - sk
+  geo:
+    latitude: 49 45 N
+    latitude_dec: '49.739105224609375'
+    longitude: 15 30 E
+    longitude_dec: '15.331501007080078'
+    max_latitude: '59.65'
+    max_longitude: '25.5'
+    min_latitude: '40.65'
+    min_longitude: '12.116667'

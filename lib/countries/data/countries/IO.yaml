@@ -8,8 +8,6 @@ IO:
   international_prefix: ''
   ioc: 
   gec: IO
-  latitude: 6 00 S
-  longitude: 71 30 E
   name: British Indian Ocean Territory
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ IO:
   un_locode: IO
   nationality: Indian
   postal_code: true
-  min_longitude: '71.265278'
-  min_latitude: "-7.35"
-  max_longitude: '72.483333'
-  max_latitude: "-5.233333"
-  latitude_dec: "-6.196269989013672"
-  longitude_dec: '71.34793090820312'
   slang_names:
   - British Indian Ocean Territory
   - Britisches Territorium im Indischen Ozean
@@ -36,3 +28,12 @@ IO:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 6 00 S
+    latitude_dec: "-6.196269989013672"
+    longitude: 71 30 E
+    longitude_dec: '71.34793090820312'
+    max_latitude: "-5.233333"
+    max_longitude: '72.483333'
+    min_latitude: "-7.35"
+    min_longitude: '71.265278'

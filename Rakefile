@@ -11,23 +11,6 @@ end
 
 task default: [:spec]
 
-desc 'Test and Clean YAML files'
-task :clean_yaml do
-  require 'yaml'
-  require 'countries'
-  d = Dir['**/*.yaml']
-  d.each do |file|
-    begin
-      puts "checking : #{file}"
-      data = YAML.load_file(file)
-      File.open(file, 'w') { |f| f.write data.to_yaml }
-    rescue
-      puts "failed to read #{file}: #{$ERROR_INFO}"
-    end
-  end
-end
-
-desc 'Test and Clean YAML files'
 task :update_yaml_structure do
   require 'yaml'
   require 'countries'
@@ -35,14 +18,28 @@ task :update_yaml_structure do
 
   d = Dir['lib/countries/data/countries/*.yaml']
   d.each do |file|
+
+    puts "checking : #{file}"
+    data = YAML.load_file(file)
+    country_key = File.basename(file, ".yaml")
+
     begin
-      puts "checking : #{file}"
-      data = YAML.load_file(file)
-      country_key = File.basename(file, ".yaml")
-      data[country_key]["languages_offical"] = data[country_key].delete "languages"
-      data[country_key]["languages_spoken"] = data[country_key]["languages_offical"].dup
+      [
+        :latitude,
+        :latitude_dec,
+        :longitude,
+        :longitude_dec,
+        :max_latitude,
+        :max_longitude,
+        :min_latitude,
+        :min_longitude
+      ].each do |field|
+        data[country_key]["geo"] ||= {}
+        data[country_key]["geo"][field.to_s] = data[country_key].delete(field.to_s)
+      end
 
       File.open(file, 'w') { |f| f.write data.to_yaml }
+
     rescue
       puts "failed to read #{file}: #{$ERROR_INFO}"
     end

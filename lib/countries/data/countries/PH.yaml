@@ -13,8 +13,6 @@ PH:
   international_prefix: '00'
   ioc: PHI
   gec: RP
-  latitude: 13 00 N
-  longitude: 122 00 E
   name: Philippines
   national_destination_code_lengths:
   - 2
@@ -30,12 +28,6 @@ PH:
   un_locode: PH
   nationality: Filipino
   postal_code: true
-  min_longitude: '116.65'
-  min_latitude: '4.588889'
-  max_longitude: '126.604444'
-  max_latitude: '21.113056'
-  latitude_dec: '11.112666130065918'
-  longitude_dec: '122.50947570800781'
   slang_names:
   - Philippines
   - Philippinen
@@ -48,3 +40,12 @@ PH:
   languages_spoken:
   - tl
   - en
+  geo:
+    latitude: 13 00 N
+    latitude_dec: '11.112666130065918'
+    longitude: 122 00 E
+    longitude_dec: '122.50947570800781'
+    max_latitude: '21.113056'
+    max_longitude: '126.604444'
+    min_latitude: '4.588889'
+    min_longitude: '116.65'

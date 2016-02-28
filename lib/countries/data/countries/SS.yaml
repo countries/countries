@@ -8,8 +8,6 @@ SS:
   international_prefix: '0'
   ioc: 
   gec: OD
-  latitude: 7 00 N
-  longitude: 30 00 E
   name: South Sudan
   national_destination_code_lengths:
   - 2
@@ -22,12 +20,6 @@ SS:
   world_region: EMEA
   nationality: South Sudanese
   postal_code: true
-  min_longitude: '23.440849'
-  min_latitude: '3.48898'
-  max_longitude: '35.948997'
-  max_latitude: '12.236389'
-  latitude_dec: '7.303858280181885'
-  longitude_dec: '30.280752182006836'
   slang_names:
   - South Sudan
   - Südsudan
@@ -39,3 +31,12 @@ SS:
   languages_spoken:
   - ar
   - en
+  geo:
+    latitude: 7 00 N
+    latitude_dec: '7.303858280181885'
+    longitude: 30 00 E
+    longitude_dec: '30.280752182006836'
+    max_latitude: '12.236389'
+    max_longitude: '35.948997'
+    min_latitude: '3.48898'
+    min_longitude: '23.440849'

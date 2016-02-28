@@ -8,8 +8,6 @@ KI:
   international_prefix: '00'
   ioc: KIR
   gec: KR
-  latitude: 1 25 N
-  longitude: 173 00 E
   name: Kiribati
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ KI:
   un_locode: KI
   nationality: I-Kiribati
   postal_code: false
-  min_longitude: '179.716667'
-  min_latitude: "-10.3"
-  max_longitude: "-174.533333"
-  max_latitude: '4.716667'
-  latitude_dec: '1.842833161354065'
-  longitude_dec: "-157.6758270263672"
   slang_names:
   - Kiribati
   - "キリバス"
@@ -36,3 +28,12 @@ KI:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 1 25 N
+    latitude_dec: '1.842833161354065'
+    longitude: 173 00 E
+    longitude_dec: "-157.6758270263672"
+    max_latitude: '4.716667'
+    max_longitude: "-174.533333"
+    min_latitude: "-10.3"
+    min_longitude: '179.716667'

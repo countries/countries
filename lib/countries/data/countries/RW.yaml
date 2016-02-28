@@ -8,8 +8,6 @@ RW:
   international_prefix: '00'
   ioc: RWA
   gec: RW
-  latitude: 2 00 S
-  longitude: 30 00 E
   name: Rwanda
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ RW:
   un_locode: RW
   nationality: Rwandan
   postal_code: false
-  min_longitude: '28.866667'
-  min_latitude: "-2.8"
-  max_longitude: '37'
-  max_latitude: '5'
-  latitude_dec: "-1.9999498128890991"
-  longitude_dec: '29.926057815551758'
   slang_names:
   - Rwanda
   - Ruanda
@@ -42,3 +34,12 @@ RW:
   - rw
   - en
   - fr
+  geo:
+    latitude: 2 00 S
+    latitude_dec: "-1.9999498128890991"
+    longitude: 30 00 E
+    longitude_dec: '29.926057815551758'
+    max_latitude: '5'
+    max_longitude: '37'
+    min_latitude: "-2.8"
+    min_longitude: '28.866667'

@@ -8,8 +8,6 @@ CK:
   international_prefix: '00'
   ioc: COK
   gec: CW
-  latitude: 21 14 S
-  longitude: 159 46 W
   name: Cook Islands
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ CK:
   un_locode: CK
   nationality: Cook Islander
   postal_code: false
-  min_longitude: "-171.783333"
-  min_latitude: "-21.953056"
-  max_longitude: "-157.3375"
-  max_latitude: "-8.918611"
-  latitude_dec: "-21.22330665588379"
-  longitude_dec: "-159.7405548095703"
   slang_names:
   - Cook Islands
   - Cookinseln
@@ -40,3 +32,12 @@ CK:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 21 14 S
+    latitude_dec: "-21.22330665588379"
+    longitude: 159 46 W
+    longitude_dec: "-159.7405548095703"
+    max_latitude: "-8.918611"
+    max_longitude: "-157.3375"
+    min_latitude: "-21.953056"
+    min_longitude: "-171.783333"

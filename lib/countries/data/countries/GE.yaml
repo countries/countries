@@ -8,8 +8,6 @@ GE:
   international_prefix: '810'
   ioc: GEO
   gec: GG
-  latitude: 42 00 N
-  longitude: 43 30 E
   name: Georgia
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ GE:
   un_locode: GE
   nationality: Georgian
   postal_code: true
-  min_longitude: '40.013056'
-  min_latitude: '41.15'
-  max_longitude: '46.635556'
-  max_latitude: '43.570556'
-  latitude_dec: '42.3207845'
-  longitude_dec: '43.3713615'
   slang_names:
   - Georgia
   - Georgien
@@ -39,3 +31,12 @@ GE:
   - ka
   languages_spoken:
   - ka
+  geo:
+    latitude: 42 00 N
+    latitude_dec: '42.3207845'
+    longitude: 43 30 E
+    longitude_dec: '43.3713615'
+    max_latitude: '43.570556'
+    max_longitude: '46.635556'
+    min_latitude: '41.15'
+    min_longitude: '40.013056'

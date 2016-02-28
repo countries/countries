@@ -8,8 +8,6 @@ VA:
   international_prefix: '00'
   ioc: 
   gec: VT
-  latitude: 41 54 N
-  longitude: 12 27 E
   name: Holy See (Vatican City State)
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ VA:
   un_locode: VA
   nationality: Italian
   postal_code: true
-  min_longitude: '12.45'
-  min_latitude: '41.9'
-  max_longitude: '12.45'
-  max_latitude: '41.9'
-  latitude_dec: '41.90308380126953'
-  longitude_dec: '12.452852249145508'
   slang_names:
   - Vatican City
   - Vatikan
@@ -43,3 +35,12 @@ VA:
   languages_spoken:
   - it
   - la
+  geo:
+    latitude: 41 54 N
+    latitude_dec: '41.90308380126953'
+    longitude: 12 27 E
+    longitude_dec: '12.452852249145508'
+    max_latitude: '41.9'
+    max_longitude: '12.45'
+    min_latitude: '41.9'
+    min_longitude: '12.45'

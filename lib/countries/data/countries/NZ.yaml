@@ -14,8 +14,6 @@ NZ:
   international_prefix: '00'
   ioc: NZL
   gec: NZ
-  latitude: 41 00 S
-  longitude: 174 00 E
   name: New Zealand
   national_destination_code_lengths:
   - 1
@@ -30,12 +28,6 @@ NZ:
   un_locode: NZ
   nationality: New Zealander
   postal_code: true
-  min_longitude: '179.066667'
-  min_latitude: "-52.616667"
-  max_longitude: "-178.9"
-  max_latitude: "-29.216667"
-  latitude_dec: "-44.05629348754883"
-  longitude_dec: '170.35415649414062'
   slang_names:
   - New Zealand
   - Neuseeland
@@ -47,3 +39,12 @@ NZ:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 41 00 S
+    latitude_dec: "-44.05629348754883"
+    longitude: 174 00 E
+    longitude_dec: '170.35415649414062'
+    max_latitude: "-29.216667"
+    max_longitude: "-178.9"
+    min_latitude: "-52.616667"
+    min_longitude: '179.066667'

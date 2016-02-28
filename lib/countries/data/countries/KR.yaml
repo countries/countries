@@ -14,8 +14,6 @@ KR:
   international_prefix: '001'
   ioc: KOR
   gec: KS
-  latitude: 37 00 N
-  longitude: 127 30 E
   name: Korea, Republic of
   national_destination_code_lengths:
   - 2
@@ -30,12 +28,6 @@ KR:
   un_locode: KR
   nationality: South Korean
   postal_code: true
-  min_longitude: '124.612222'
-  min_latitude: '33.1175'
-  max_longitude: '131.866667'
-  max_latitude: '38.586667'
-  latitude_dec: '40.077640533447266'
-  longitude_dec: '127.13385009765625'
   slang_names:
   - South Korea
   - Korea (South)
@@ -49,3 +41,12 @@ KR:
   - ko
   languages_spoken:
   - ko
+  geo:
+    latitude: 37 00 N
+    latitude_dec: '40.077640533447266'
+    longitude: 127 30 E
+    longitude_dec: '127.13385009765625'
+    max_latitude: '38.586667'
+    max_longitude: '131.866667'
+    min_latitude: '33.1175'
+    min_longitude: '124.612222'

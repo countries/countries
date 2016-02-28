@@ -8,8 +8,6 @@ CL:
   international_prefix: '00'
   ioc: CHI
   gec: CI
-  latitude: 30 00 S
-  longitude: 71 00 W
   name: Chile
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ CL:
   un_locode: CL
   nationality: Chilean
   postal_code: true
-  min_longitude: "-109.466667"
-  min_latitude: "-56.533333"
-  max_longitude: "-66.433333"
-  max_latitude: "-17.53"
-  latitude_dec: "-35.78622817993164"
-  longitude_dec: "-71.67467498779297"
   slang_names:
   - Chile
   - "チリ"
@@ -38,3 +30,12 @@ CL:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 30 00 S
+    latitude_dec: "-35.78622817993164"
+    longitude: 71 00 W
+    longitude_dec: "-71.67467498779297"
+    max_latitude: "-17.53"
+    max_longitude: "-66.433333"
+    min_latitude: "-56.533333"
+    min_longitude: "-109.466667"

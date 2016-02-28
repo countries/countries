@@ -14,8 +14,6 @@ PL:
   international_prefix: '00'
   ioc: POL
   gec: PL
-  latitude: 52 00 N
-  longitude: 20 00 E
   name: Poland
   national_destination_code_lengths:
   - 2
@@ -37,12 +35,6 @@ PL:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '14'
-  min_latitude: '45.5'
-  max_longitude: '26.5'
-  max_latitude: '54.833333'
-  latitude_dec: '52.147850036621094'
-  longitude_dec: '19.37775993347168'
   slang_names:
   - Poland
   - Polen
@@ -53,3 +45,12 @@ PL:
   - pl
   languages_spoken:
   - pl
+  geo:
+    latitude: 52 00 N
+    latitude_dec: '52.147850036621094'
+    longitude: 20 00 E
+    longitude_dec: '19.37775993347168'
+    max_latitude: '54.833333'
+    max_longitude: '26.5'
+    min_latitude: '45.5'
+    min_longitude: '14'

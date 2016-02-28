@@ -8,8 +8,6 @@ KZ:
   international_prefix: '810'
   ioc: KAZ
   gec: KZ
-  latitude: 48 00 N
-  longitude: 68 00 E
   name: Kazakhstan
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ KZ:
   un_locode: KZ
   nationality: Kazakhstani
   postal_code: true
-  min_longitude: '46.589722'
-  min_latitude: '40.416667'
-  max_longitude: '90'
-  max_latitude: '55.330556'
-  latitude_dec: '48.14600372314453'
-  longitude_dec: '67.17916870117188'
   slang_names:
   - Kazakhstan
   - Kasachstan
@@ -41,3 +33,12 @@ KZ:
   languages_spoken:
   - kk
   - ru
+  geo:
+    latitude: 48 00 N
+    latitude_dec: '48.14600372314453'
+    longitude: 68 00 E
+    longitude_dec: '67.17916870117188'
+    max_latitude: '55.330556'
+    max_longitude: '90'
+    min_latitude: '40.416667'
+    min_longitude: '46.589722'

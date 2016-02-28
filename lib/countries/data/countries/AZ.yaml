@@ -8,8 +8,6 @@ AZ:
   international_prefix: '810'
   ioc: AZE
   gec: AJ
-  latitude: 40 30 N
-  longitude: 47 30 E
   name: Azerbaijan
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ AZ:
   un_locode: AZ
   nationality: Azerbaijani
   postal_code: true
-  min_longitude: '44.876389'
-  min_latitude: '38.416667'
-  max_longitude: '50.858333'
-  max_latitude: '41.910556'
-  latitude_dec: '40.33100509643555'
-  longitude_dec: '47.80820083618164'
   slang_names:
   - Azerbaijan
   - Aserbaidschan
@@ -43,3 +35,12 @@ AZ:
   languages_spoken:
   - az
   - hy
+  geo:
+    latitude: 40 30 N
+    latitude_dec: '40.33100509643555'
+    longitude: 47 30 E
+    longitude_dec: '47.80820083618164'
+    max_latitude: '41.910556'
+    max_longitude: '50.858333'
+    min_latitude: '38.416667'
+    min_longitude: '44.876389'

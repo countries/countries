@@ -8,8 +8,6 @@ MR:
   international_prefix: '00'
   ioc: MTN
   gec: MR
-  latitude: 20 00 N
-  longitude: 12 00 W
   name: Mauritania
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ MR:
   un_locode: MR
   nationality: Mauritanian
   postal_code: false
-  min_longitude: "-17.079444"
-  min_latitude: '14.7382733887'
-  max_longitude: '13'
-  max_latitude: '26.9'
-  latitude_dec: '20.258995056152344'
-  longitude_dec: "-10.364437103271484"
   slang_names:
   - Mauritania
   - "موريتانيا"
@@ -42,3 +34,12 @@ MR:
   languages_spoken:
   - ar
   - fr
+  geo:
+    latitude: 20 00 N
+    latitude_dec: '20.258995056152344'
+    longitude: 12 00 W
+    longitude_dec: "-10.364437103271484"
+    max_latitude: '26.9'
+    max_longitude: '13'
+    min_latitude: '14.7382733887'
+    min_longitude: "-17.079444"

@@ -8,8 +8,6 @@ PR:
   international_prefix: '011'
   ioc: PUR
   gec: RQ
-  latitude: 18 15 N
-  longitude: 66 30 W
   name: Puerto Rico
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ PR:
   un_locode: PR
   nationality: Puerto Rican
   postal_code: true
-  min_longitude: "-67.9427"
-  min_latitude: '17.8830'
-  max_longitude: "-65.2200"
-  max_latitude: '18.5202'
-  latitude_dec: '18.2491397857666'
-  longitude_dec: "-66.62803649902344"
   slang_names:
   - Puerto Rico
   - "プエルトリコ"
@@ -38,3 +30,12 @@ PR:
   languages_spoken:
   - es
   - en
+  geo:
+    latitude: 18 15 N
+    latitude_dec: '18.2491397857666'
+    longitude: 66 30 W
+    longitude_dec: "-66.62803649902344"
+    max_latitude: '18.5202'
+    max_longitude: "-65.2200"
+    min_latitude: '17.8830'
+    min_longitude: "-67.9427"

@@ -8,8 +8,6 @@ SM:
   international_prefix: '00'
   ioc: SMR
   gec: SM
-  latitude: 43 46 N
-  longitude: 12 25 E
   name: San Marino
   national_destination_code_lengths:
   - 2
@@ -26,12 +24,6 @@ SM:
   un_locode: SM
   nationality: Sammarinese
   postal_code: true
-  min_longitude: '12.416667'
-  min_latitude: '43.908333'
-  max_longitude: '12.5'
-  max_latitude: '43.966667'
-  latitude_dec: '43.938133239746094'
-  longitude_dec: '12.463393211364746'
   slang_names:
   - San Marino
   - Saint-Marin
@@ -40,3 +32,12 @@ SM:
   - it
   languages_spoken:
   - it
+  geo:
+    latitude: 43 46 N
+    latitude_dec: '43.938133239746094'
+    longitude: 12 25 E
+    longitude_dec: '12.463393211364746'
+    max_latitude: '43.966667'
+    max_longitude: '12.5'
+    min_latitude: '43.908333'
+    min_longitude: '12.416667'

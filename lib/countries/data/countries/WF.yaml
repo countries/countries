@@ -8,8 +8,6 @@ WF:
   international_prefix: '19'
   ioc: 
   gec: WF
-  latitude: 13 18 S
-  longitude: 176 12 W
   name: Wallis and Futuna
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ WF:
   un_locode: WF
   nationality: Wallis and Futuna Islander
   postal_code: true
-  min_longitude: "-178.183333"
-  min_latitude: "-14.35"
-  max_longitude: "-176.083333"
-  max_latitude: "-13.183333"
-  latitude_dec: "-13.299612045288086"
-  longitude_dec: "-176.1701202392578"
   slang_names:
   - Wallis and Futuna
   - Wallis und Futuna
@@ -40,3 +32,12 @@ WF:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 13 18 S
+    latitude_dec: "-13.299612045288086"
+    longitude: 176 12 W
+    longitude_dec: "-176.1701202392578"
+    max_latitude: "-13.183333"
+    max_longitude: "-176.083333"
+    min_latitude: "-14.35"
+    min_longitude: "-178.183333"

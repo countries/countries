@@ -9,8 +9,6 @@ LS:
   international_prefix: '00'
   ioc: LES
   gec: LT
-  latitude: 29 30 S
-  longitude: 28 30 E
   name: Lesotho
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ LS:
   un_locode: LS
   nationality: Mosotho
   postal_code: true
-  min_longitude: '24'
-  min_latitude: "-30.666667"
-  max_longitude: '29.316667'
-  max_latitude: "-28.616667"
-  latitude_dec: "-29.58175277709961"
-  longitude_dec: '28.246612548828125'
   slang_names:
   - Lesotho
   - "レソト"
@@ -39,3 +31,12 @@ LS:
   languages_spoken:
   - en
   - st
+  geo:
+    latitude: 29 30 S
+    latitude_dec: "-29.58175277709961"
+    longitude: 28 30 E
+    longitude_dec: '28.246612548828125'
+    max_latitude: "-28.616667"
+    max_longitude: '29.316667'
+    min_latitude: "-30.666667"
+    min_longitude: '24'

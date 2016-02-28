@@ -13,8 +13,6 @@ BH:
   international_prefix: '00'
   ioc: BRN
   gec: BA
-  latitude: 26 00 N
-  longitude: 50 33 E
   name: Bahrain
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ BH:
   un_locode: BH
   nationality: Bahraini
   postal_code: true
-  min_longitude: '45'
-  min_latitude: '25'
-  max_longitude: '50.823333'
-  max_latitude: '26.416667'
-  latitude_dec: '26.094240188598633'
-  longitude_dec: '50.54299545288086'
   slang_names:
   - Bahrain
   - "البحرين"
@@ -44,3 +36,12 @@ BH:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 26 00 N
+    latitude_dec: '26.094240188598633'
+    longitude: 50 33 E
+    longitude_dec: '50.54299545288086'
+    max_latitude: '26.416667'
+    max_longitude: '50.823333'
+    min_latitude: '25'
+    min_longitude: '45'

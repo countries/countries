@@ -8,8 +8,6 @@ ER:
   international_prefix: '00'
   ioc: ERI
   gec: ER
-  latitude: 15 00 N
-  longitude: 39 00 E
   name: Eritrea
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ ER:
   un_locode: ER
   nationality: Eritrean
   postal_code: false
-  min_longitude: '36.483333'
-  min_latitude: '12.383333'
-  max_longitude: '43.114722'
-  max_latitude: '18.033333'
-  latitude_dec: '15.397199630737305'
-  longitude_dec: '39.087188720703125'
   slang_names:
   - Eritrea
   - "إريتريا"
@@ -42,3 +34,12 @@ ER:
   - en
   - ar
   - ti
+  geo:
+    latitude: 15 00 N
+    latitude_dec: '15.397199630737305'
+    longitude: 39 00 E
+    longitude_dec: '39.087188720703125'
+    max_latitude: '18.033333'
+    max_longitude: '43.114722'
+    min_latitude: '12.383333'
+    min_longitude: '36.483333'

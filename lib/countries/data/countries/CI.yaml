@@ -8,8 +8,6 @@ CI:
   international_prefix: '00'
   ioc: CIV
   gec: IV
-  latitude: 8 00 N
-  longitude: 5 00 W
   name: Côte D'Ivoire
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ CI:
   un_locode: CI
   nationality: Ivorian
   postal_code: false
-  min_longitude: "-8.538889"
-  min_latitude: '4.35'
-  max_longitude: "-2.566667"
-  max_latitude: '10.652222'
-  latitude_dec: '7.598755359649658'
-  longitude_dec: "-5.552574634552002"
   slang_names:
   - Côte D'Ivoire
   - Elfenbeinküste
@@ -41,3 +33,12 @@ CI:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 8 00 N
+    latitude_dec: '7.598755359649658'
+    longitude: 5 00 W
+    longitude_dec: "-5.552574634552002"
+    max_latitude: '10.652222'
+    max_longitude: "-2.566667"
+    min_latitude: '4.35'
+    min_longitude: "-8.538889"

@@ -13,8 +13,6 @@ EG:
   international_prefix: '00'
   ioc: EGY
   gec: EG
-  latitude: 27 00 N
-  longitude: 30 00 E
   name: Egypt
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ EG:
   un_locode: EG
   nationality: Egyptian
   postal_code: true
-  min_longitude: '24.7'
-  min_latitude: '20.383333'
-  max_longitude: '36.333333'
-  max_latitude: '31.916667'
-  latitude_dec: '26.756103515625'
-  longitude_dec: '29.86229705810547'
   slang_names:
   - Egypt
   - "مصر"
@@ -46,3 +38,12 @@ EG:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 27 00 N
+    latitude_dec: '26.756103515625'
+    longitude: 30 00 E
+    longitude_dec: '29.86229705810547'
+    max_latitude: '31.916667'
+    max_longitude: '36.333333'
+    min_latitude: '20.383333'
+    min_longitude: '24.7'

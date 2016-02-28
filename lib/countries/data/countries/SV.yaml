@@ -8,8 +8,6 @@ SV:
   international_prefix: '00'
   ioc: ESA
   gec: ES
-  latitude: 13 50 N
-  longitude: 88 55 W
   name: El Salvador
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SV:
   un_locode: SV
   nationality: Salvadoran
   postal_code: true
-  min_longitude: "-90.116389"
-  min_latitude: '13.158611'
-  max_longitude: "-87.657222"
-  max_latitude: '14.433333'
-  latitude_dec: '13.671636581420898'
-  longitude_dec: "-88.86363220214844"
   slang_names:
   - El Salvador
   - Salvador
@@ -37,3 +29,12 @@ SV:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 13 50 N
+    latitude_dec: '13.671636581420898'
+    longitude: 88 55 W
+    longitude_dec: "-88.86363220214844"
+    max_latitude: '14.433333'
+    max_longitude: "-87.657222"
+    min_latitude: '13.158611'
+    min_longitude: "-90.116389"

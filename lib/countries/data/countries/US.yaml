@@ -13,8 +13,6 @@ US:
   international_prefix: '011'
   ioc: USA
   gec: US
-  latitude: 38 00 N
-  longitude: 97 00 W
   name: United States
   national_destination_code_lengths:
   - 3
@@ -28,12 +26,6 @@ US:
   un_locode: US
   nationality: American
   postal_code: true
-  min_longitude: "-179.231086"
-  min_latitude: '17.831509'
-  max_longitude: "-66.885417"
-  max_latitude: '71.441059'
-  latitude_dec: '39.44325637817383'
-  longitude_dec: "-98.95733642578125"
   slang_names:
   - United States of America
   - Vereinigte Staaten von Amerika
@@ -45,3 +37,12 @@ US:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 38 00 N
+    latitude_dec: '39.44325637817383'
+    longitude: 97 00 W
+    longitude_dec: "-98.95733642578125"
+    max_latitude: '71.441059'
+    max_longitude: "-66.885417"
+    min_latitude: '17.831509'
+    min_longitude: "-179.231086"

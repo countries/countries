@@ -13,8 +13,6 @@ RU:
   international_prefix: '810'
   ioc: RUS
   gec: RS
-  latitude: 60 00 N
-  longitude: 100 00 E
   name: Russian Federation
   national_destination_code_lengths:
   - 3
@@ -28,12 +26,6 @@ RU:
   un_locode: RU
   nationality: Russian
   postal_code: true
-  min_longitude: '19.655556'
-  min_latitude: '38.7'
-  max_longitude: '147.172222'
-  max_latitude: '86.216667'
-  latitude_dec: '63.125186920166016'
-  longitude_dec: '103.75398254394531'
   slang_names:
   - Russia
   - Russland
@@ -47,3 +39,12 @@ RU:
   - ru
   languages_spoken:
   - ru
+  geo:
+    latitude: 60 00 N
+    latitude_dec: '63.125186920166016'
+    longitude: 100 00 E
+    longitude_dec: '103.75398254394531'
+    max_latitude: '86.216667'
+    max_longitude: '147.172222'
+    min_latitude: '38.7'
+    min_longitude: '19.655556'

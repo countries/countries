@@ -8,8 +8,6 @@ ZM:
   international_prefix: '00'
   ioc: ZAM
   gec: ZA
-  latitude: 15 00 S
-  longitude: 30 00 E
   name: Zambia
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ ZM:
   un_locode: ZM
   nationality: Zambian
   postal_code: true
-  min_longitude: '22'
-  min_latitude: "-18.05"
-  max_longitude: '39.283333'
-  max_latitude: '5'
-  latitude_dec: "-13.458845138549805"
-  longitude_dec: '27.788097381591797'
   slang_names:
   - Zambia
   - Sambia
@@ -38,3 +30,12 @@ ZM:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 15 00 S
+    latitude_dec: "-13.458845138549805"
+    longitude: 30 00 E
+    longitude_dec: '27.788097381591797'
+    max_latitude: '5'
+    max_longitude: '39.283333'
+    min_latitude: "-18.05"
+    min_longitude: '22'

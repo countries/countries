@@ -8,8 +8,6 @@ SH:
   international_prefix: '00'
   ioc: 
   gec: SH
-  latitude: 15 57 S
-  longitude: 5 42 W
   name: Saint Helena
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SH:
   un_locode: SH
   nationality: Saint Helenian
   postal_code: true
-  min_longitude: "-14.416667"
-  min_latitude: "-40.4"
-  max_longitude: "-5.633333"
-  max_latitude: "-7.9"
-  latitude_dec: "-15.957334518432617"
-  longitude_dec: "-5.716914176940918"
   slang_names:
   - Saint Helena
   - Sankt Helena
@@ -40,3 +32,12 @@ SH:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 15 57 S
+    latitude_dec: "-15.957334518432617"
+    longitude: 5 42 W
+    longitude_dec: "-5.716914176940918"
+    max_latitude: "-7.9"
+    max_longitude: "-5.633333"
+    min_latitude: "-40.4"
+    min_longitude: "-14.416667"

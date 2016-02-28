@@ -13,8 +13,6 @@ MX:
   international_prefix: '00'
   ioc: MEX
   gec: MX
-  latitude: 23 00 N
-  longitude: 102 00 W
   name: Mexico
   national_destination_code_lengths:
   - 2
@@ -30,12 +28,6 @@ MX:
   un_locode: MX
   nationality: Mexican
   postal_code: true
-  min_longitude: "-119.921667"
-  min_latitude: '14.55'
-  max_longitude: "-86.716667"
-  max_latitude: '32.983333'
-  latitude_dec: '23.909093856811523'
-  longitude_dec: "-102.6333999633789"
   slang_names:
   - Mexico
   - Mexiko
@@ -46,3 +38,12 @@ MX:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 23 00 N
+    latitude_dec: '23.909093856811523'
+    longitude: 102 00 W
+    longitude_dec: "-102.6333999633789"
+    max_latitude: '32.983333'
+    max_longitude: "-86.716667"
+    min_latitude: '14.55'
+    min_longitude: "-119.921667"

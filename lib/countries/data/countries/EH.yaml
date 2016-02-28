@@ -8,8 +8,6 @@ EH:
   international_prefix: ''
   ioc: 
   gec: WI
-  latitude: 24 30 N
-  longitude: 13 00 W
   name: Western Sahara
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ EH:
   un_locode: EH
   nationality: Sahrawi
   postal_code: true
-  min_longitude: "-17.110556"
-  min_latitude: '20.8'
-  max_longitude: "-8.666667"
-  max_latitude: '27.666667'
-  latitude_dec: '25'
-  longitude_dec: "-13"
   slang_names:
   - Western Sahara
   - "الصحراء الغربية"
@@ -40,3 +32,12 @@ EH:
   languages_spoken:
   - es
   - fr
+  geo:
+    latitude: 24 30 N
+    latitude_dec: '25'
+    longitude: 13 00 W
+    longitude_dec: "-13"
+    max_latitude: '27.666667'
+    max_longitude: "-8.666667"
+    min_latitude: '20.8'
+    min_longitude: "-17.110556"

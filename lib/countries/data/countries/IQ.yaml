@@ -8,8 +8,6 @@ IQ:
   international_prefix: '00'
   ioc: IRQ
   gec: IZ
-  latitude: 33 00 N
-  longitude: 44 00 E
   name: Iraq
   national_destination_code_lengths:
   - 2
@@ -25,12 +23,6 @@ IQ:
   un_locode: IQ
   nationality: Iraqi
   postal_code: true
-  min_longitude: '38.800871'
-  min_latitude: '28.866667'
-  max_longitude: '48.833333'
-  max_latitude: '37.352778'
-  latitude_dec: '33.044586181640625'
-  longitude_dec: '43.77495574951172'
   slang_names:
   - Iraq
   - "العراق"
@@ -40,3 +32,12 @@ IQ:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 33 00 N
+    latitude_dec: '33.044586181640625'
+    longitude: 44 00 E
+    longitude_dec: '43.77495574951172'
+    max_latitude: '37.352778'
+    max_longitude: '48.833333'
+    min_latitude: '28.866667'
+    min_longitude: '38.800871'

@@ -8,8 +8,6 @@ SO:
   international_prefix: '00'
   ioc: SOM
   gec: SO
-  latitude: 10 00 N
-  longitude: 49 00 E
   name: Somalia
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ SO:
   un_locode: SO
   nationality: Somali
   postal_code: false
-  min_longitude: '41'
-  min_latitude: "-1.6594296959"
-  max_longitude: '51.4'
-  max_latitude: '11.983333'
-  latitude_dec: '5.948267459869385'
-  longitude_dec: '47.47360610961914'
   slang_names:
   - Somalia
   - "الصومال"
@@ -41,3 +33,12 @@ SO:
   languages_spoken:
   - so
   - ar
+  geo:
+    latitude: 10 00 N
+    latitude_dec: '5.948267459869385'
+    longitude: 49 00 E
+    longitude_dec: '47.47360610961914'
+    max_latitude: '11.983333'
+    max_longitude: '51.4'
+    min_latitude: "-1.6594296959"
+    min_longitude: '41'

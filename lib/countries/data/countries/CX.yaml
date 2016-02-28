@@ -8,8 +8,6 @@ CX:
   international_prefix: '0011'
   ioc: 
   gec: KT
-  latitude: 10 30 S
-  longitude: 105 40 E
   name: Christmas Island
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ CX:
   un_locode: CX
   nationality: Christmas Island
   postal_code: true
-  min_longitude: '105.566667'
-  min_latitude: "-10.566667"
-  max_longitude: '105.75'
-  max_latitude: "-10.4"
-  latitude_dec: "-10.490290641784668"
-  longitude_dec: '105.63275146484375'
   slang_names:
   - Christmas Island
   - Weihnachtsinsel
@@ -40,3 +32,12 @@ CX:
   - en
   - zh
   - ms
+  geo:
+    latitude: 10 30 S
+    latitude_dec: "-10.490290641784668"
+    longitude: 105 40 E
+    longitude_dec: '105.63275146484375'
+    max_latitude: "-10.4"
+    max_longitude: '105.75'
+    min_latitude: "-10.566667"
+    min_longitude: '105.566667'

@@ -8,8 +8,6 @@ CR:
   international_prefix: '00'
   ioc: CRC
   gec: CS
-  latitude: 10 00 N
-  longitude: 84 00 W
   name: Costa Rica
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ CR:
   un_locode: CR
   nationality: Costa Rican
   postal_code: true
-  min_longitude: "-87.1"
-  min_latitude: '5.5'
-  max_longitude: "-82.05"
-  max_latitude: '11.216667'
-  latitude_dec: '9.884991645812988'
-  longitude_dec: "-84.22723388671875"
   slang_names:
   - Costa Rica
   - "コスタリカ"
@@ -36,3 +28,12 @@ CR:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 10 00 N
+    latitude_dec: '9.884991645812988'
+    longitude: 84 00 W
+    longitude_dec: "-84.22723388671875"
+    max_latitude: '11.216667'
+    max_longitude: "-82.05"
+    min_latitude: '5.5'
+    min_longitude: "-87.1"

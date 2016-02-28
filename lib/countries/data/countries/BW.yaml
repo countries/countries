@@ -8,8 +8,6 @@ BW:
   international_prefix: '00'
   ioc: BOT
   gec: BC
-  latitude: 22 00 S
-  longitude: 24 00 E
   name: Botswana
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ BW:
   un_locode: BW
   nationality: Motswana
   postal_code: false
-  min_longitude: '20'
-  min_latitude: "-26.833333"
-  max_longitude: '29.016667'
-  max_latitude: "-17.833333"
-  latitude_dec: "-22.186752319335938"
-  longitude_dec: '23.81494140625'
   slang_names:
   - Botswana
   - "ボツワナ"
@@ -38,3 +30,12 @@ BW:
   languages_spoken:
   - en
   - tn
+  geo:
+    latitude: 22 00 S
+    latitude_dec: "-22.186752319335938"
+    longitude: 24 00 E
+    longitude_dec: '23.81494140625'
+    max_latitude: "-17.833333"
+    max_longitude: '29.016667'
+    min_latitude: "-26.833333"
+    min_longitude: '20'

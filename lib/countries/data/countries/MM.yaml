@@ -8,8 +8,6 @@ MM:
   international_prefix: '00'
   ioc: MYA
   gec: BM
-  latitude: 22 00 N
-  longitude: 98 00 E
   name: Myanmar
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ MM:
   un_locode: MM
   nationality: Myanmarian
   postal_code: true
-  min_longitude: '92.190833'
-  min_latitude: '6'
-  max_longitude: '102'
-  max_latitude: '28.35'
-  latitude_dec: '20.330142974853516'
-  longitude_dec: '96.52182006835938'
   slang_names:
   - Myanmar
   - "ミャンマー"
@@ -37,3 +29,12 @@ MM:
   - my
   languages_spoken:
   - my
+  geo:
+    latitude: 22 00 N
+    latitude_dec: '20.330142974853516'
+    longitude: 98 00 E
+    longitude_dec: '96.52182006835938'
+    max_latitude: '28.35'
+    max_longitude: '102'
+    min_latitude: '6'
+    min_longitude: '92.190833'

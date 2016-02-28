@@ -8,8 +8,6 @@ UM:
   international_prefix: ''
   ioc: 
   gec: 
-  latitude: ''
-  longitude: ''
   name: United States Minor Outlying Islands
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ UM:
   un_locode: UM
   nationality: American
   postal_code: true
-  min_longitude: '166.5989221'
-  min_latitude: "-0.3824678"
-  max_longitude: "-159.9849071"
-  max_latitude: '28.3977184'
-  latitude_dec: '19.282319'
-  longitude_dec: '166.647047'
   slang_names:
   - United States Minor Outlying Islands
   - US-Amerikanische Hoheitsgebiete
@@ -38,3 +30,12 @@ UM:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: ''
+    latitude_dec: '19.282319'
+    longitude: ''
+    longitude_dec: '166.647047'
+    max_latitude: '28.3977184'
+    max_longitude: "-159.9849071"
+    min_latitude: "-0.3824678"
+    min_longitude: '166.5989221'

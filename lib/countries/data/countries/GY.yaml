@@ -8,8 +8,6 @@ GY:
   international_prefix: '00'
   ioc: GUY
   gec: GY
-  latitude: 5 00 N
-  longitude: 59 00 W
   name: Guyana
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ GY:
   un_locode: GY
   nationality: Guyanese
   postal_code: false
-  min_longitude: "-61.233333"
-  min_latitude: '1.316667'
-  max_longitude: "-56"
-  max_latitude: '8.433333'
-  latitude_dec: '4.917311191558838'
-  longitude_dec: "-58.94346237182617"
   slang_names:
   - Guyana
   - "ガイアナ"
@@ -37,3 +29,12 @@ GY:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 5 00 N
+    latitude_dec: '4.917311191558838'
+    longitude: 59 00 W
+    longitude_dec: "-58.94346237182617"
+    max_latitude: '8.433333'
+    max_longitude: "-56"
+    min_latitude: '1.316667'
+    min_longitude: "-61.233333"

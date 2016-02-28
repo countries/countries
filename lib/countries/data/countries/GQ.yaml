@@ -8,8 +8,6 @@ GQ:
   international_prefix: '00'
   ioc: GEQ
   gec: EK
-  latitude: 2 00 N
-  longitude: 10 00 E
   name: Equatorial Guinea
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ GQ:
   un_locode: GQ
   nationality: Equatorial Guinean
   postal_code: false
-  min_longitude: '5.05'
-  min_latitude: "-1.483333"
-  max_longitude: '11.4'
-  max_latitude: '3.783333'
-  latitude_dec: '1.5331259965896606'
-  longitude_dec: '10.372581481933594'
   slang_names:
   - Equatorial Guinea
   - "Äquatorial-Guinea"
@@ -42,3 +34,12 @@ GQ:
   languages_spoken:
   - es
   - fr
+  geo:
+    latitude: 2 00 N
+    latitude_dec: '1.5331259965896606'
+    longitude: 10 00 E
+    longitude_dec: '10.372581481933594'
+    max_latitude: '3.783333'
+    max_longitude: '11.4'
+    min_latitude: "-1.483333"
+    min_longitude: '5.05'

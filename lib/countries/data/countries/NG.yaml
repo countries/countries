@@ -8,8 +8,6 @@ NG:
   international_prefix: 009
   ioc: NGR
   gec: NI
-  latitude: 10 00 N
-  longitude: 8 00 E
   name: Nigeria
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ NG:
   un_locode: NG
   nationality: Nigerian
   postal_code: true
-  min_longitude: '2.716667'
-  min_latitude: '4.266667'
-  max_longitude: '14.65'
-  max_latitude: '13.866667'
-  latitude_dec: '9.559505462646484'
-  longitude_dec: '8.077880859375'
   slang_names:
   - Nigeria
   - Nigéria
@@ -39,3 +31,12 @@ NG:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 10 00 N
+    latitude_dec: '9.559505462646484'
+    longitude: 8 00 E
+    longitude_dec: '8.077880859375'
+    max_latitude: '13.866667'
+    max_longitude: '14.65'
+    min_latitude: '4.266667'
+    min_longitude: '2.716667'

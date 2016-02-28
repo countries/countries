@@ -8,8 +8,6 @@ RE:
   international_prefix: '00'
   ioc: 
   gec: RE
-  latitude: ''
-  longitude: ''
   name: Réunion
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ RE:
   un_locode: RE
   nationality: French
   postal_code: true
-  min_longitude: '55.216667'
-  min_latitude: "-21.366667"
-  max_longitude: '57'
-  max_latitude: "-20"
-  latitude_dec: "-21.146299362182617"
-  longitude_dec: '55.631248474121094'
   slang_names:
   - Réunion
   - Reunión
@@ -38,3 +30,12 @@ RE:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: ''
+    latitude_dec: "-21.146299362182617"
+    longitude: ''
+    longitude_dec: '55.631248474121094'
+    max_latitude: "-20"
+    max_longitude: '57'
+    min_latitude: "-21.366667"
+    min_longitude: '55.216667'

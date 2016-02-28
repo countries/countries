@@ -8,8 +8,6 @@ KH:
   international_prefix: '00'
   ioc: CAM
   gec: CB
-  latitude: 13 00 N
-  longitude: 105 00 E
   name: Cambodia
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ KH:
   un_locode: KH
   nationality: Cambodian
   postal_code: true
-  min_longitude: '102.358333'
-  min_latitude: '9.916667'
-  max_longitude: '107.566667'
-  max_latitude: '17.483333'
-  latitude_dec: '12.570423126220703'
-  longitude_dec: '104.81391143798828'
   slang_names:
   - Cambodia
   - Kambodscha
@@ -40,3 +32,12 @@ KH:
   - km
   languages_spoken:
   - km
+  geo:
+    latitude: 13 00 N
+    latitude_dec: '12.570423126220703'
+    longitude: 105 00 E
+    longitude_dec: '104.81391143798828'
+    max_latitude: '17.483333'
+    max_longitude: '107.566667'
+    min_latitude: '9.916667'
+    min_longitude: '102.358333'

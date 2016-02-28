@@ -8,8 +8,6 @@ DO:
   international_prefix: '011'
   ioc: DOM
   gec: DR
-  latitude: 19 00 N
-  longitude: 70 40 W
   name: Dominican Republic
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ DO:
   un_locode: DO
   nationality: Dominican
   postal_code: true
-  min_longitude: "-71.966667"
-  min_latitude: '17.473056'
-  max_longitude: "-68.316667"
-  max_latitude: '19.933333'
-  latitude_dec: '19.019824981689453'
-  longitude_dec: "-70.79285430908203"
   slang_names:
   - Dominican Republic
   - Dominikanische Republik
@@ -40,3 +32,12 @@ DO:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 19 00 N
+    latitude_dec: '19.019824981689453'
+    longitude: 70 40 W
+    longitude_dec: "-70.79285430908203"
+    max_latitude: '19.933333'
+    max_longitude: "-68.316667"
+    min_latitude: '17.473056'
+    min_longitude: "-71.966667"

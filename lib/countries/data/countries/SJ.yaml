@@ -8,8 +8,6 @@ SJ:
   international_prefix: '00'
   ioc: 
   gec: SV
-  latitude: 78 00 N
-  longitude: 20 00 E
   name: Svalbard And Jan Mayen
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SJ:
   un_locode: SJ
   nationality: Norwegian
   postal_code: true
-  min_longitude: '10.5'
-  min_latitude: '74.35'
-  max_longitude: '32.583333'
-  max_latitude: '80.816667'
-  latitude_dec: '71.04893493652344'
-  longitude_dec: "-8.195747375488281"
   slang_names:
   - Svalbard and Jan Mayen
   - Svalbard und Jan Mayen
@@ -40,3 +32,12 @@ SJ:
   - 'no'
   languages_spoken:
   - 'no'
+  geo:
+    latitude: 78 00 N
+    latitude_dec: '71.04893493652344'
+    longitude: 20 00 E
+    longitude_dec: "-8.195747375488281"
+    max_latitude: '80.816667'
+    max_longitude: '32.583333'
+    min_latitude: '74.35'
+    min_longitude: '10.5'

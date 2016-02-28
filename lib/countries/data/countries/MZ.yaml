@@ -8,8 +8,6 @@ MZ:
   international_prefix: '00'
   ioc: MOZ
   gec: MZ
-  latitude: 18 15 S
-  longitude: 35 00 E
   name: Mozambique
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ MZ:
   un_locode: MZ
   nationality: Mozambican
   postal_code: true
-  min_longitude: '30.231389'
-  min_latitude: "-26.857222"
-  max_longitude: '40.845278'
-  max_latitude: '15.033333'
-  latitude_dec: "-17.555864334106445"
-  longitude_dec: '35.955692291259766'
   slang_names:
   - Mozambique
   - Mosambik
@@ -38,3 +30,12 @@ MZ:
   - pt
   languages_spoken:
   - pt
+  geo:
+    latitude: 18 15 S
+    latitude_dec: "-17.555864334106445"
+    longitude: 35 00 E
+    longitude_dec: '35.955692291259766'
+    max_latitude: '15.033333'
+    max_longitude: '40.845278'
+    min_latitude: "-26.857222"
+    min_longitude: '30.231389'

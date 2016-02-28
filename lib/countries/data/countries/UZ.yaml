@@ -8,8 +8,6 @@ UZ:
   international_prefix: '810'
   ioc: UZB
   gec: UZ
-  latitude: 41 00 N
-  longitude: 64 00 E
   name: Uzbekistan
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ UZ:
   un_locode: UZ
   nationality: Uzbekistani
   postal_code: true
-  min_longitude: '56.083333'
-  min_latitude: '35.266667'
-  max_longitude: '80.383333'
-  max_latitude: '48.583333'
-  latitude_dec: '41.77239227294922'
-  longitude_dec: '63.14588928222656'
   slang_names:
   - Uzbekistan
   - Usbekistan
@@ -42,3 +34,12 @@ UZ:
   languages_spoken:
   - uz
   - ru
+  geo:
+    latitude: 41 00 N
+    latitude_dec: '41.77239227294922'
+    longitude: 64 00 E
+    longitude_dec: '63.14588928222656'
+    max_latitude: '48.583333'
+    max_longitude: '80.383333'
+    min_latitude: '35.266667'
+    min_longitude: '56.083333'

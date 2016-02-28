@@ -8,8 +8,6 @@ ML:
   international_prefix: '00'
   ioc: MLI
   gec: ML
-  latitude: 17 00 N
-  longitude: 4 00 W
   name: Mali
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ ML:
   un_locode: ML
   nationality: Malian
   postal_code: false
-  min_longitude: "-12.55"
-  min_latitude: '10.15'
-  max_longitude: '13'
-  max_latitude: '26'
-  latitude_dec: '17.35776710510254'
-  longitude_dec: "-3.5273818969726562"
   slang_names:
   - Mali
   - "マリ"
@@ -36,3 +28,12 @@ ML:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 17 00 N
+    latitude_dec: '17.35776710510254'
+    longitude: 4 00 W
+    longitude_dec: "-3.5273818969726562"
+    max_latitude: '26'
+    max_longitude: '13'
+    min_latitude: '10.15'
+    min_longitude: "-12.55"

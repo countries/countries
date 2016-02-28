@@ -8,8 +8,6 @@ MU:
   international_prefix: '020'
   ioc: MRI
   gec: MP
-  latitude: 20 17 S
-  longitude: 57 33 E
   name: Mauritius
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ MU:
   un_locode: MU
   nationality: Mauritian
   postal_code: false
-  min_longitude: '56.6'
-  min_latitude: "-20.516667"
-  max_longitude: '72.466667'
-  max_latitude: "-5.25"
-  latitude_dec: "-20.220409393310547"
-  longitude_dec: '57.589378356933594'
   slang_names:
   - Mauritius
   - "Île Maurice"
@@ -38,3 +30,12 @@ MU:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 20 17 S
+    latitude_dec: "-20.220409393310547"
+    longitude: 57 33 E
+    longitude_dec: '57.589378356933594'
+    max_latitude: "-5.25"
+    max_longitude: '72.466667'
+    min_latitude: "-20.516667"
+    min_longitude: '56.6'

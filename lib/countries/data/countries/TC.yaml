@@ -8,8 +8,6 @@ TC:
   international_prefix: '011'
   ioc: 
   gec: TK
-  latitude: 21 45 N
-  longitude: 71 35 W
   name: Turks and Caicos Islands
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ TC:
   un_locode: TC
   nationality: Turks and Caicos Islander
   postal_code: true
-  min_longitude: "-72.466667"
-  min_latitude: '21.116667'
-  max_longitude: "-71.083333"
-  max_latitude: '21.95'
-  latitude_dec: '21.758726119995117'
-  longitude_dec: "-71.71514892578125"
   slang_names:
   - Turks and Caicos Islands
   - Turks- und Caicosinseln
@@ -41,3 +33,12 @@ TC:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 21 45 N
+    latitude_dec: '21.758726119995117'
+    longitude: 71 35 W
+    longitude_dec: "-71.71514892578125"
+    max_latitude: '21.95'
+    max_longitude: "-71.083333"
+    min_latitude: '21.116667'
+    min_longitude: "-72.466667"

@@ -8,8 +8,6 @@ BD:
   international_prefix: '00'
   ioc: BAN
   gec: BG
-  latitude: 24 00 N
-  longitude: 90 00 E
   name: Bangladesh
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ BD:
   un_locode: BD
   nationality: Bangladeshi
   postal_code: true
-  min_longitude: '84'
-  min_latitude: '20.6'
-  max_longitude: '92.683333'
-  max_latitude: '26.5'
-  latitude_dec: '23.730104446411133'
-  longitude_dec: '90.30652618408203'
   slang_names:
   - Bangladesh
   - Bangladesch
@@ -37,3 +29,12 @@ BD:
   - bn
   languages_spoken:
   - bn
+  geo:
+    latitude: 24 00 N
+    latitude_dec: '23.730104446411133'
+    longitude: 90 00 E
+    longitude_dec: '90.30652618408203'
+    max_latitude: '26.5'
+    max_longitude: '92.683333'
+    min_latitude: '20.6'
+    min_longitude: '84'

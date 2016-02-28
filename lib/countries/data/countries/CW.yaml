@@ -6,8 +6,6 @@ CW:
   country_code: '599'
   currency: ANG
   international_prefix: '00'
-  latitude: 12 11 N
-  longitude: 69 0 W
   ioc: 
   gec: UC
   name: Curaçao
@@ -23,12 +21,6 @@ CW:
   un_locode: CW
   nationality: Dutch
   postal_code: true
-  min_longitude: "-69.157204"
-  min_latitude: '11.973190'
-  max_longitude: "-68.639328"
-  max_latitude: '12.385670'
-  latitude_dec: '12.163220405578613'
-  longitude_dec: "-68.94505310058594"
   slang_names:
   - Curaçao
   - "キュラソー島"
@@ -36,3 +28,12 @@ CW:
   - nl
   languages_spoken:
   - nl
+  geo:
+    latitude: 12 11 N
+    latitude_dec: '12.163220405578613'
+    longitude: 69 0 W
+    longitude_dec: "-68.94505310058594"
+    max_latitude: '12.385670'
+    max_longitude: "-68.639328"
+    min_latitude: '11.973190'
+    min_longitude: "-69.157204"

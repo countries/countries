@@ -8,8 +8,6 @@ KY:
   international_prefix: '011'
   ioc: CAY
   gec: CJ
-  latitude: 19 30 N
-  longitude: 80 30 W
   name: Cayman Islands
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ KY:
   un_locode: KY
   nationality: Caymanian
   postal_code: true
-  min_longitude: "-81.416667"
-  min_latitude: '19.25'
-  max_longitude: "-79.716667"
-  max_latitude: '19.75'
-  latitude_dec: '19.308862686157227'
-  longitude_dec: "-81.25680541992188"
   slang_names:
   - Cayman Islands
   - Kaimaninseln
@@ -40,3 +32,12 @@ KY:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 19 30 N
+    latitude_dec: '19.308862686157227'
+    longitude: 80 30 W
+    longitude_dec: "-81.25680541992188"
+    max_latitude: '19.75'
+    max_longitude: "-79.716667"
+    min_latitude: '19.25'
+    min_longitude: "-81.416667"

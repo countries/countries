@@ -13,8 +13,6 @@ SG:
   international_prefix: '001'
   ioc: SIN
   gec: SN
-  latitude: 1 22 N
-  longitude: 103 48 E
   name: Singapore
   national_destination_code_lengths:
   - 2
@@ -29,12 +27,6 @@ SG:
   un_locode: SG
   nationality: Singaporean
   postal_code: true
-  min_longitude: '102'
-  min_latitude: '1.159444'
-  max_longitude: '104.4075'
-  max_latitude: '4'
-  latitude_dec: '1.3219958543777466'
-  longitude_dec: '103.8205337524414'
   slang_names:
   - Singapore
   - Singapur
@@ -48,3 +40,12 @@ SG:
   - en
   - ms
   - ta
+  geo:
+    latitude: 1 22 N
+    latitude_dec: '1.3219958543777466'
+    longitude: 103 48 E
+    longitude_dec: '103.8205337524414'
+    max_latitude: '4'
+    max_longitude: '104.4075'
+    min_latitude: '1.159444'
+    min_longitude: '102'

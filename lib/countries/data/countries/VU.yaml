@@ -8,8 +8,6 @@ VU:
   international_prefix: '00'
   ioc: VAN
   gec: NH
-  latitude: 16 00 S
-  longitude: 167 00 E
   name: Vanuatu
   national_destination_code_lengths:
   - 2
@@ -25,12 +23,6 @@ VU:
   un_locode: VU
   nationality: Ni-Vanuatu
   postal_code: false
-  min_longitude: '166.016667'
-  min_latitude: "-20.25"
-  max_longitude: '170.216667'
-  max_latitude: "-13.066667"
-  latitude_dec: "-16.376684188842773"
-  longitude_dec: '167.5625'
   slang_names:
   - Vanuatu
   - "バヌアツ"
@@ -42,3 +34,12 @@ VU:
   - bi
   - en
   - fr
+  geo:
+    latitude: 16 00 S
+    latitude_dec: "-16.376684188842773"
+    longitude: 167 00 E
+    longitude_dec: '167.5625'
+    max_latitude: "-13.066667"
+    max_longitude: '170.216667'
+    min_latitude: "-20.25"
+    min_longitude: '166.016667'

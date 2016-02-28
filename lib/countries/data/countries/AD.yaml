@@ -8,8 +8,6 @@ AD:
   international_prefix: '00'
   ioc: AND
   gec: AN
-  latitude: 42 30 N
-  longitude: 1 30 E
   name: Andorra
   national_destination_code_lengths:
   - 2
@@ -26,12 +24,6 @@ AD:
   un_locode: AD
   nationality: Andorran
   postal_code: true
-  min_longitude: '1.416667'
-  min_latitude: '42.433333'
-  max_longitude: '1.783333'
-  max_latitude: '42.65'
-  latitude_dec: '42.5506591796875'
-  longitude_dec: '1.5762332677841187'
   slang_names:
   - Andorre
   - Andorra
@@ -40,3 +32,12 @@ AD:
   - ca
   languages_spoken:
   - ca
+  geo:
+    latitude: 42 30 N
+    latitude_dec: '42.5506591796875'
+    longitude: 1 30 E
+    longitude_dec: '1.5762332677841187'
+    max_latitude: '42.65'
+    max_longitude: '1.783333'
+    min_latitude: '42.433333'
+    min_longitude: '1.416667'

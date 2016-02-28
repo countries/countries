@@ -8,8 +8,6 @@ LT:
   international_prefix: '00'
   ioc: LTU
   gec: LH
-  latitude: 56 00 N
-  longitude: 24 00 E
   name: Lithuania
   national_destination_code_lengths:
   - 2
@@ -31,12 +29,6 @@ LT:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '21'
-  min_latitude: '53'
-  max_longitude: '27'
-  max_latitude: '56.441667'
-  latitude_dec: '55.33871841430664'
-  longitude_dec: '23.87092399597168'
   slang_names:
   - Lithuania
   - Litauen
@@ -49,3 +41,12 @@ LT:
   - lt
   languages_spoken:
   - lt
+  geo:
+    latitude: 56 00 N
+    latitude_dec: '55.33871841430664'
+    longitude: 24 00 E
+    longitude_dec: '23.87092399597168'
+    max_latitude: '56.441667'
+    max_longitude: '27'
+    min_latitude: '53'
+    min_longitude: '21'

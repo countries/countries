@@ -8,8 +8,6 @@ SX:
   international_prefix: '011'
   ioc: 
   gec: NN
-  latitude: ''
-  longitude: ''
   name: Sint Maarten
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ SX:
   un_locode: SX
   nationality: Dutch
   postal_code: true
-  min_longitude: "-63.1379781"
-  min_latitude: '18.005267'
-  max_longitude: "-62.9982448"
-  max_latitude: '18.0641707'
-  latitude_dec: '18.042224884033203'
-  longitude_dec: "-63.06623458862305"
   slang_names:
   - Sint Maarten
   - "セント・マーチン島"
@@ -38,3 +30,12 @@ SX:
   languages_spoken:
   - nl
   - en
+  geo:
+    latitude: ''
+    latitude_dec: '18.042224884033203'
+    longitude: ''
+    longitude_dec: "-63.06623458862305"
+    max_latitude: '18.0641707'
+    max_longitude: "-62.9982448"
+    min_latitude: '18.005267'
+    min_longitude: "-63.1379781"

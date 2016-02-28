@@ -8,8 +8,6 @@ BF:
   international_prefix: '00'
   ioc: BUR
   gec: UV
-  latitude: 13 00 N
-  longitude: 2 00 W
   name: Burkina Faso
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ BF:
   un_locode: BF
   nationality: Burkinabe
   postal_code: false
-  min_longitude: "-5.466667"
-  min_latitude: '9.45'
-  max_longitude: '2.2655'
-  max_latitude: '14.983333'
-  latitude_dec: '12.284985542297363'
-  longitude_dec: "-1.745560646057129"
   slang_names:
   - Burkina Faso
   - "ブルキナファソ"
@@ -38,3 +30,12 @@ BF:
   languages_spoken:
   - fr
   - ff
+  geo:
+    latitude: 13 00 N
+    latitude_dec: '12.284985542297363'
+    longitude: 2 00 W
+    longitude_dec: "-1.745560646057129"
+    max_latitude: '14.983333'
+    max_longitude: '2.2655'
+    min_latitude: '9.45'
+    min_longitude: "-5.466667"

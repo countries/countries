@@ -8,8 +8,6 @@ PM:
   international_prefix: '00'
   ioc: 
   gec: SB
-  latitude: 46 50 N
-  longitude: 56 20 W
   name: Saint Pierre And Miquelon
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ PM:
   un_locode: PM
   nationality: French
   postal_code: true
-  min_longitude: "-56.405278"
-  min_latitude: '46.748333'
-  max_longitude: "-56.120556"
-  max_latitude: '47.139722'
-  latitude_dec: '46.90594482421875'
-  longitude_dec: "-56.336585998535156"
   slang_names:
   - Saint Pierre and Miquelon
   - Saint-Pierre und Miquelon
@@ -40,3 +32,12 @@ PM:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 46 50 N
+    latitude_dec: '46.90594482421875'
+    longitude: 56 20 W
+    longitude_dec: "-56.336585998535156"
+    max_latitude: '47.139722'
+    max_longitude: "-56.120556"
+    min_latitude: '46.748333'
+    min_longitude: "-56.405278"

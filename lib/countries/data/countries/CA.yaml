@@ -13,8 +13,6 @@ CA:
   international_prefix: '011'
   ioc: CAN
   gec: CA
-  latitude: 60 00 N
-  longitude: 95 00 W
   name: Canada
   national_destination_code_lengths:
   - 3
@@ -28,12 +26,6 @@ CA:
   un_locode: CA
   nationality: Canadian
   postal_code: true
-  min_longitude: "-141.666667"
-  min_latitude: '40'
-  max_longitude: "-52.666667"
-  max_latitude: '83.116667'
-  latitude_dec: '62.832908630371094'
-  longitude_dec: "-95.91332244873047"
   slang_names:
   - Canada
   - Kanada
@@ -45,3 +37,12 @@ CA:
   languages_spoken:
   - en
   - fr
+  geo:
+    latitude: 60 00 N
+    latitude_dec: '62.832908630371094'
+    longitude: 95 00 W
+    longitude_dec: "-95.91332244873047"
+    max_latitude: '83.116667'
+    max_longitude: "-52.666667"
+    min_latitude: '40'
+    min_longitude: "-141.666667"

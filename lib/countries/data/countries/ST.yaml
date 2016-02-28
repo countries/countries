@@ -8,8 +8,6 @@ ST:
   international_prefix: '00'
   ioc: STP
   gec: TP
-  latitude: 1 00 N
-  longitude: 7 00 E
   name: Sao Tome and Principe
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ ST:
   un_locode: ST
   nationality: Sao Tomean
   postal_code: false
-  min_longitude: '6.466667'
-  min_latitude: "-0.016667"
-  max_longitude: '7.483333'
-  max_latitude: '1.733333'
-  latitude_dec: '0.275555282831192'
-  longitude_dec: '6.631628036499023'
   slang_names:
   - São Tomé and Príncipe
   - São Tomé und Príncipe
@@ -41,3 +33,12 @@ ST:
   - pt
   languages_spoken:
   - pt
+  geo:
+    latitude: 1 00 N
+    latitude_dec: '0.275555282831192'
+    longitude: 7 00 E
+    longitude_dec: '6.631628036499023'
+    max_latitude: '1.733333'
+    max_longitude: '7.483333'
+    min_latitude: "-0.016667"
+    min_longitude: '6.466667'

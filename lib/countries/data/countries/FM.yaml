@@ -8,8 +8,6 @@ FM:
   international_prefix: '011'
   ioc: FSM
   gec: FM
-  latitude: 6 55 N
-  longitude: 158 15 E
   name: Micronesia, Federated States Of
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ FM:
   un_locode: FM
   nationality: Micronesian
   postal_code: true
-  min_longitude: '137.425'
-  min_latitude: '1.026389'
-  max_longitude: '163.034444'
-  max_latitude: '10.093611'
-  latitude_dec: '6.869349002838135'
-  longitude_dec: '158.187255859375'
   slang_names:
   - Micronesia
   - Mikronesien
@@ -39,3 +31,12 @@ FM:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 6 55 N
+    latitude_dec: '6.869349002838135'
+    longitude: 158 15 E
+    longitude_dec: '158.187255859375'
+    max_latitude: '10.093611'
+    max_longitude: '163.034444'
+    min_latitude: '1.026389'
+    min_longitude: '137.425'

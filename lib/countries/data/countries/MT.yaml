@@ -8,8 +8,6 @@ MT:
   international_prefix: '00'
   ioc: MLT
   gec: MT
-  latitude: 35 50 N
-  longitude: 14 35 E
   name: Malta
   national_destination_code_lengths:
   - 2
@@ -31,12 +29,6 @@ MT:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '14.185556'
-  min_latitude: '35.783889'
-  max_longitude: '14.575'
-  max_latitude: '36.081944'
-  latitude_dec: '35.93336486816406'
-  longitude_dec: '14.381033897399902'
   slang_names:
   - Malta
   - Malte
@@ -47,3 +39,12 @@ MT:
   languages_spoken:
   - mt
   - en
+  geo:
+    latitude: 35 50 N
+    latitude_dec: '35.93336486816406'
+    longitude: 14 35 E
+    longitude_dec: '14.381033897399902'
+    max_latitude: '36.081944'
+    max_longitude: '14.575'
+    min_latitude: '35.783889'
+    min_longitude: '14.185556'

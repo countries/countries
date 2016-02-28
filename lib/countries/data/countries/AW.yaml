@@ -8,8 +8,6 @@ AW:
   international_prefix: '00'
   ioc: ARU
   gec: AA
-  latitude: 12 30 N
-  longitude: 69 58 W
   name: Aruba
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ AW:
   un_locode: AW
   nationality: Aruban
   postal_code: false
-  min_longitude: "-70.066667"
-  min_latitude: '12.416667'
-  max_longitude: "-69.85"
-  max_latitude: '12.616667'
-  latitude_dec: '12.506523132324219'
-  longitude_dec: "-69.96931457519531"
   slang_names:
   - Aruba
   - "アルバ"
@@ -36,3 +28,12 @@ AW:
   - nl
   languages_spoken:
   - nl
+  geo:
+    latitude: 12 30 N
+    latitude_dec: '12.506523132324219'
+    longitude: 69 58 W
+    longitude_dec: "-69.96931457519531"
+    max_latitude: '12.616667'
+    max_longitude: "-69.85"
+    min_latitude: '12.416667'
+    min_longitude: "-70.066667"

@@ -8,8 +8,6 @@ GH:
   international_prefix: '00'
   ioc: GHA
   gec: GH
-  latitude: 8 00 N
-  longitude: 2 00 W
   name: Ghana
   national_destination_code_lengths:
   - 2
@@ -26,12 +24,6 @@ GH:
   un_locode: GH
   nationality: Ghanaian
   postal_code: false
-  min_longitude: "-4"
-  min_latitude: '4.733333'
-  max_longitude: '1.192778'
-  max_latitude: '11.15'
-  latitude_dec: '7.921330451965332'
-  longitude_dec: "-1.2043862342834473"
   slang_names:
   - Ghana
   - "ガーナ"
@@ -39,3 +31,12 @@ GH:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 8 00 N
+    latitude_dec: '7.921330451965332'
+    longitude: 2 00 W
+    longitude_dec: "-1.2043862342834473"
+    max_latitude: '11.15'
+    max_longitude: '1.192778'
+    min_latitude: '4.733333'
+    min_longitude: "-4"

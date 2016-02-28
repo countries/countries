@@ -13,8 +13,6 @@
   international_prefix: '00'
   ioc: NOR
   gec: 'NO'
-  latitude: 62 00 N
-  longitude: 10 00 E
   name: Norway
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@
   un_locode: false
   nationality: Norwegian
   postal_code: true
-  min_longitude: '3.033333'
-  min_latitude: '56.15'
-  max_longitude: '31.166667'
-  max_latitude: '71.181944'
-  latitude_dec: '66.76667022705078'
-  longitude_dec: '14.899925231933594'
   slang_names:
   - Norway
   - Norwegen
@@ -47,3 +39,12 @@
   languages_spoken:
   - nb
   - nn
+  geo:
+    latitude: 62 00 N
+    latitude_dec: '66.76667022705078'
+    longitude: 10 00 E
+    longitude_dec: '14.899925231933594'
+    max_latitude: '71.181944'
+    max_longitude: '31.166667'
+    min_latitude: '56.15'
+    min_longitude: '3.033333'

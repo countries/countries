@@ -8,8 +8,6 @@ VG:
   international_prefix: '011'
   ioc: IVB
   gec: VI
-  latitude: ''
-  longitude: ''
   name: Virgin Islands, British
   national_destination_code_lengths:
   - 3
@@ -23,12 +21,6 @@ VG:
   un_locode: VG
   nationality: Virgin Islander
   postal_code: true
-  min_longitude: "-64.85"
-  min_latitude: '18.3'
-  max_longitude: "-64.266667"
-  max_latitude: '18.766667'
-  latitude_dec: '18.443071365356445'
-  longitude_dec: "-64.57130432128906"
   slang_names:
   - British Virgin Islands
   - Britische Jungferninseln
@@ -41,3 +33,12 @@ VG:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: ''
+    latitude_dec: '18.443071365356445'
+    longitude: ''
+    longitude_dec: "-64.57130432128906"
+    max_latitude: '18.766667'
+    max_longitude: "-64.266667"
+    min_latitude: '18.3'
+    min_longitude: "-64.85"

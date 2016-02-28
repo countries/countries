@@ -8,8 +8,6 @@ TK:
   international_prefix: '00'
   ioc: 
   gec: TL
-  latitude: 9 00 S
-  longitude: 172 00 W
   name: Tokelau
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ TK:
   un_locode: TK
   nationality: Tokelauan
   postal_code: false
-  min_longitude: "-172.516667"
-  min_latitude: "-9.433333"
-  max_longitude: "-171.183333"
-  max_latitude: "-8.533333"
-  latitude_dec: "-8.979207992553711"
-  longitude_dec: "-172.2017059326172"
   slang_names:
   - Tokelau
   - "Îles Tokelau"
@@ -38,3 +30,12 @@ TK:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 9 00 S
+    latitude_dec: "-8.979207992553711"
+    longitude: 172 00 W
+    longitude_dec: "-172.2017059326172"
+    max_latitude: "-8.533333"
+    max_longitude: "-171.183333"
+    min_latitude: "-9.433333"
+    min_longitude: "-172.516667"

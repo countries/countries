@@ -8,8 +8,6 @@ PG:
   international_prefix: '05'
   ioc: PNG
   gec: PP
-  latitude: 6 00 S
-  longitude: 147 00 E
   name: Papua New Guinea
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ PG:
   un_locode: PG
   nationality: Papua New Guinean
   postal_code: true
-  min_longitude: '120'
-  min_latitude: "-11.65"
-  max_longitude: '159.483333'
-  max_latitude: "-0.733333"
-  latitude_dec: "-6.889159679412842"
-  longitude_dec: '146.21444702148438'
   slang_names:
   - Papua New Guinea
   - Papua-Neuguinea
@@ -40,3 +32,12 @@ PG:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 6 00 S
+    latitude_dec: "-6.889159679412842"
+    longitude: 147 00 E
+    longitude_dec: '146.21444702148438'
+    max_latitude: "-0.733333"
+    max_longitude: '159.483333'
+    min_latitude: "-11.65"
+    min_longitude: '120'

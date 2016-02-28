@@ -13,8 +13,6 @@ FR:
   international_prefix: '00'
   ioc: FRA
   gec: FR
-  latitude: 46 00 N
-  longitude: 2 00 E
   name: France
   national_destination_code_lengths:
   - 1
@@ -37,12 +35,6 @@ FR:
     super_reduced: 2.1
     parking: 
   postal_code: true
-  min_longitude: "-5.14"
-  min_latitude: '41.34'
-  max_longitude: '9.56'
-  max_latitude: '51.09'
-  latitude_dec: '46.63727951049805'
-  longitude_dec: '2.3382623195648193'
   slang_names:
   - France
   - Frankreich
@@ -54,3 +46,12 @@ FR:
   - fr
   languages_spoken:
   - fr
+  geo:
+    latitude: 46 00 N
+    latitude_dec: '46.63727951049805'
+    longitude: 2 00 E
+    longitude_dec: '2.3382623195648193'
+    max_latitude: '51.09'
+    max_longitude: '9.56'
+    min_latitude: '41.34'
+    min_longitude: "-5.14"

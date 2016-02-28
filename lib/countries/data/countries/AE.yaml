@@ -13,8 +13,6 @@ AE:
   international_prefix: '00'
   ioc: UAE
   gec: AE
-  latitude: 24 00 N
-  longitude: 54 00 E
   name: United Arab Emirates
   national_destination_code_lengths:
   - 2
@@ -30,12 +28,6 @@ AE:
   un_locode: AE
   nationality: Emirian
   postal_code: false
-  min_longitude: '45'
-  min_latitude: '22.166667'
-  max_longitude: '58'
-  max_latitude: '26.133333'
-  latitude_dec: '23.684776306152344'
-  longitude_dec: '54.536643981933594'
   slang_names:
   - United Arab Emirates
   - "الإمارات العربية المتحدة"
@@ -48,3 +40,12 @@ AE:
   - ar
   languages_spoken:
   - ar
+  geo:
+    latitude: 24 00 N
+    latitude_dec: '23.684776306152344'
+    longitude: 54 00 E
+    longitude_dec: '54.536643981933594'
+    max_latitude: '26.133333'
+    max_longitude: '58'
+    min_latitude: '22.166667'
+    min_longitude: '45'

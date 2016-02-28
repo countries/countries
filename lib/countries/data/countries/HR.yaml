@@ -13,8 +13,6 @@ HR:
   international_prefix: '00'
   ioc: CRO
   gec: HR
-  latitude: 45 10 N
-  longitude: 15 30 E
   name: Croatia
   national_destination_code_lengths:
   - 2
@@ -36,12 +34,6 @@ HR:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '13.493333'
-  min_latitude: '42.380278'
-  max_longitude: '19.383056'
-  max_latitude: '46.526944'
-  latitude_dec: '45.444305419921875'
-  longitude_dec: '15.734503746032715'
   slang_names:
   - Croatia
   - Kroatien
@@ -54,3 +46,12 @@ HR:
   - hr
   languages_spoken:
   - hr
+  geo:
+    latitude: 45 10 N
+    latitude_dec: '45.444305419921875'
+    longitude: 15 30 E
+    longitude_dec: '15.734503746032715'
+    max_latitude: '46.526944'
+    max_longitude: '19.383056'
+    min_latitude: '42.380278'
+    min_longitude: '13.493333'

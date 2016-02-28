@@ -8,8 +8,6 @@ PE:
   international_prefix: '00'
   ioc: PER
   gec: PE
-  latitude: 10 00 S
-  longitude: 76 00 W
   name: Peru
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ PE:
   un_locode: PE
   nationality: Peruvian
   postal_code: true
-  min_longitude: "-81.358333"
-  min_latitude: "-18.333333"
-  max_longitude: "-68.833333"
-  max_latitude: '4.626667'
-  latitude_dec: "-9.212532997131348"
-  longitude_dec: "-74.422119140625"
   slang_names:
   - Peru
   - Pérou
@@ -39,3 +31,12 @@ PE:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 10 00 S
+    latitude_dec: "-9.212532997131348"
+    longitude: 76 00 W
+    longitude_dec: "-74.422119140625"
+    max_latitude: '4.626667'
+    max_longitude: "-68.833333"
+    min_latitude: "-18.333333"
+    min_longitude: "-81.358333"

@@ -13,8 +13,6 @@ IE:
   international_prefix: '00'
   ioc: IRL
   gec: EI
-  latitude: 53 00 N
-  longitude: 8 00 W
   name: Ireland
   national_destination_code_lengths:
   - 2
@@ -36,12 +34,6 @@ IE:
     super_reduced: 4.8
     parking: 13.5
   postal_code: false
-  min_longitude: "-10.680833"
-  min_latitude: '51.425556'
-  max_longitude: "-6.0025"
-  max_latitude: '55.433333'
-  latitude_dec: '53.1827278137207'
-  longitude_dec: "-8.196102142333984"
   slang_names:
   - Ireland
   - Irland
@@ -55,3 +47,12 @@ IE:
   languages_spoken:
   - en
   - ga
+  geo:
+    latitude: 53 00 N
+    latitude_dec: '53.1827278137207'
+    longitude: 8 00 W
+    longitude_dec: "-8.196102142333984"
+    max_latitude: '55.433333'
+    max_longitude: "-6.0025"
+    min_latitude: '51.425556'
+    min_longitude: "-10.680833"

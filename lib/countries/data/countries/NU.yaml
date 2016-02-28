@@ -8,8 +8,6 @@ NU:
   international_prefix: '00'
   ioc: 
   gec: NE
-  latitude: 19 02 S
-  longitude: 169 52 W
   name: Niue
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ NU:
   un_locode: NU
   nationality: Niuean
   postal_code: false
-  min_longitude: "-169.916667"
-  min_latitude: "-19.1"
-  max_longitude: "-169.783333"
-  max_latitude: "-18.933333"
-  latitude_dec: "-19.03806495666504"
-  longitude_dec: "-169.8302459716797"
   slang_names:
   - Niue
   - "ニウエ"
@@ -36,3 +28,12 @@ NU:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 19 02 S
+    latitude_dec: "-19.03806495666504"
+    longitude: 169 52 W
+    longitude_dec: "-169.8302459716797"
+    max_latitude: "-18.933333"
+    max_longitude: "-169.783333"
+    min_latitude: "-19.1"
+    min_longitude: "-169.916667"

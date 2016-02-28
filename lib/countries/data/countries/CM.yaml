@@ -8,8 +8,6 @@ CM:
   international_prefix: '00'
   ioc: CMR
   gec: CM
-  latitude: 6 00 N
-  longitude: 12 00 E
   name: Cameroon
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ CM:
   un_locode: CM
   nationality: Cameroonian
   postal_code: false
-  min_longitude: '8.483333'
-  min_latitude: '2.016667'
-  max_longitude: '16'
-  max_latitude: '16'
-  latitude_dec: '5.685476779937744'
-  longitude_dec: '12.722877502441406'
   slang_names:
   - Cameroon
   - Kamerun
@@ -42,3 +34,12 @@ CM:
   languages_spoken:
   - en
   - fr
+  geo:
+    latitude: 6 00 N
+    latitude_dec: '5.685476779937744'
+    longitude: 12 00 E
+    longitude_dec: '12.722877502441406'
+    max_latitude: '16'
+    max_longitude: '16'
+    min_latitude: '2.016667'
+    min_longitude: '8.483333'

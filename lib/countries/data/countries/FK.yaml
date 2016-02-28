@@ -8,8 +8,6 @@ FK:
   international_prefix: '00'
   ioc: 
   gec: FK
-  latitude: 51 45 S
-  longitude: 59 00 W
   name: Falkland Islands (Malvinas)
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ FK:
   un_locode: FK
   nationality: Falkland Islander
   postal_code: true
-  min_longitude: "-61.433333"
-  min_latitude: "-52.966667"
-  max_longitude: "-57.666667"
-  max_latitude: "-50.966667"
-  latitude_dec: "-51.77312469482422"
-  longitude_dec: "-59.727909088134766"
   slang_names:
   - Falkland Islands
   - Falklandinseln
@@ -40,3 +32,12 @@ FK:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 51 45 S
+    latitude_dec: "-51.77312469482422"
+    longitude: 59 00 W
+    longitude_dec: "-59.727909088134766"
+    max_latitude: "-50.966667"
+    max_longitude: "-57.666667"
+    min_latitude: "-52.966667"
+    min_longitude: "-61.433333"

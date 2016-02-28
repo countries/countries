@@ -9,8 +9,6 @@ PA:
   international_prefix: '00'
   ioc: PAN
   gec: PM
-  latitude: 9 00 N
-  longitude: 80 00 W
   name: Panama
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ PA:
   un_locode: PA
   nationality: Panamanian
   postal_code: false
-  min_longitude: "-82.95"
-  min_latitude: '7.213333'
-  max_longitude: "-77.283333"
-  max_latitude: '9.65'
-  latitude_dec: '8.646247863769531'
-  longitude_dec: "-80.50607299804688"
   slang_names:
   - Panama
   - Panamá
@@ -38,3 +30,12 @@ PA:
   - es
   languages_spoken:
   - es
+  geo:
+    latitude: 9 00 N
+    latitude_dec: '8.646247863769531'
+    longitude: 80 00 W
+    longitude_dec: "-80.50607299804688"
+    max_latitude: '9.65'
+    max_longitude: "-77.283333"
+    min_latitude: '7.213333'
+    min_longitude: "-82.95"

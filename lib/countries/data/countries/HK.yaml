@@ -13,8 +13,6 @@ HK:
   international_prefix: '001'
   ioc: HKG
   gec: HK
-  latitude: 22 15 N
-  longitude: 114 10 E
   name: Hong Kong
   national_destination_code_lengths:
   - 2
@@ -28,12 +26,6 @@ HK:
   un_locode: HK
   nationality: Chinese
   postal_code: false
-  min_longitude: '113.833333'
-  min_latitude: '22.15'
-  max_longitude: '114.433333'
-  max_latitude: '22.566667'
-  latitude_dec: '22.336156845092773'
-  longitude_dec: '114.18696594238281'
   slang_names:
   - Hong Kong
   - "香港"
@@ -44,3 +36,12 @@ HK:
   languages_spoken:
   - en
   - zh
+  geo:
+    latitude: 22 15 N
+    latitude_dec: '22.336156845092773'
+    longitude: 114 10 E
+    longitude_dec: '114.18696594238281'
+    max_latitude: '22.566667'
+    max_longitude: '114.433333'
+    min_latitude: '22.15'
+    min_longitude: '113.833333'

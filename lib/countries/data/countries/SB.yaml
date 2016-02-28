@@ -8,8 +8,6 @@ SB:
   international_prefix: '00'
   ioc: SOL
   gec: BP
-  latitude: 8 00 S
-  longitude: 159 00 E
   name: Solomon Islands
   national_destination_code_lengths:
   - 2
@@ -23,12 +21,6 @@ SB:
   un_locode: SB
   nationality: Solomon Islander
   postal_code: false
-  min_longitude: '155.516667'
-  min_latitude: "-12.883333"
-  max_longitude: '170.2'
-  max_latitude: "-5.166667"
-  latitude_dec: "-9.548112869262695"
-  longitude_dec: '160.01930236816406'
   slang_names:
   - Solomon Islands
   - Salomonen
@@ -40,3 +32,12 @@ SB:
   - en
   languages_spoken:
   - en
+  geo:
+    latitude: 8 00 S
+    latitude_dec: "-9.548112869262695"
+    longitude: 159 00 E
+    longitude_dec: '160.01930236816406'
+    max_latitude: "-5.166667"
+    max_longitude: '170.2'
+    min_latitude: "-12.883333"
+    min_longitude: '155.516667'

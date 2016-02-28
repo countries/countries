@@ -13,8 +13,6 @@ PT:
   international_prefix: '00'
   ioc: POR
   gec: PO
-  latitude: 39 30 N
-  longitude: 8 00 W
   name: Portugal
   national_destination_code_lengths:
   - 2
@@ -36,12 +34,6 @@ PT:
     super_reduced: 
     parking: 13
   postal_code: true
-  min_longitude: "-31.266667"
-  min_latitude: '30.033333'
-  max_longitude: "-5"
-  max_latitude: '42.15'
-  latitude_dec: '39.64200973510742'
-  longitude_dec: "-8.009422302246094"
   slang_names:
   - Portugal
   - "ポルトガル"
@@ -49,3 +41,12 @@ PT:
   - pt
   languages_spoken:
   - pt
+  geo:
+    latitude: 39 30 N
+    latitude_dec: '39.64200973510742'
+    longitude: 8 00 W
+    longitude_dec: "-8.009422302246094"
+    max_latitude: '42.15'
+    max_longitude: "-5"
+    min_latitude: '30.033333'
+    min_longitude: "-31.266667"

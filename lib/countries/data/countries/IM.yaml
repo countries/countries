@@ -8,8 +8,6 @@ IM:
   international_prefix: ''
   ioc: 
   gec: IM
-  latitude: 54 15 N
-  longitude: 4 30 W
   name: Isle of Man
   national_destination_code_lengths: []
   national_number_lengths: []
@@ -21,12 +19,6 @@ IM:
   un_locode: 
   nationality: Manx
   postal_code: true
-  min_longitude: "-4.833333"
-  min_latitude: '54.033333'
-  max_longitude: "-4.316667"
-  max_latitude: '54.4'
-  latitude_dec: '54.22451400756836'
-  longitude_dec: "-4.562133312225342"
   slang_names:
   - Isle of Man
   - Insel Man
@@ -39,3 +31,12 @@ IM:
   languages_spoken:
   - en
   - gv
+  geo:
+    latitude: 54 15 N
+    latitude_dec: '54.22451400756836'
+    longitude: 4 30 W
+    longitude_dec: "-4.562133312225342"
+    max_latitude: '54.4'
+    max_longitude: "-4.316667"
+    min_latitude: '54.033333'
+    min_longitude: "-4.833333"

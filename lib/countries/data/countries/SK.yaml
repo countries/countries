@@ -13,8 +13,6 @@ SK:
   international_prefix: '00'
   ioc: SVK
   gec: LO
-  latitude: 48 40 N
-  longitude: 19 30 E
   name: Slovakia
   national_destination_code_lengths:
   - 2
@@ -35,12 +33,6 @@ SK:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '17'
-  min_latitude: '45.5'
-  max_longitude: '26.5'
-  max_latitude: '49.6'
-  latitude_dec: '48.70748519897461'
-  longitude_dec: '19.48488998413086'
   slang_names:
   - Slovakia
   - Slowakei
@@ -52,3 +44,12 @@ SK:
   - sk
   languages_spoken:
   - sk
+  geo:
+    latitude: 48 40 N
+    latitude_dec: '48.70748519897461'
+    longitude: 19 30 E
+    longitude_dec: '19.48488998413086'
+    max_latitude: '49.6'
+    max_longitude: '26.5'
+    min_latitude: '45.5'
+    min_longitude: '17'

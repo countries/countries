@@ -8,8 +8,6 @@ KP:
   international_prefix: '00'
   ioc: PRK
   gec: KN
-  latitude: 40 00 N
-  longitude: 127 00 E
   name: Korea, Democratic People's Republic Of
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ KP:
   un_locode: KP
   nationality: North Korean
   postal_code: false
-  min_longitude: '124.1875'
-  min_latitude: '37.6775'
-  max_longitude: '130.672222'
-  max_latitude: '43.003889'
-  latitude_dec: '40.077640533447266'
-  longitude_dec: '127.13385009765625'
   slang_names:
   - Korea (North)
   - Nordkorea
@@ -43,3 +35,12 @@ KP:
   - ko
   languages_spoken:
   - ko
+  geo:
+    latitude: 40 00 N
+    latitude_dec: '40.077640533447266'
+    longitude: 127 00 E
+    longitude_dec: '127.13385009765625'
+    max_latitude: '43.003889'
+    max_longitude: '130.672222'
+    min_latitude: '37.6775'
+    min_longitude: '124.1875'

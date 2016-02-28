@@ -9,8 +9,6 @@ TJ:
   international_prefix: '810'
   ioc: TJK
   gec: TI
-  latitude: 39 00 N
-  longitude: 71 00 E
   name: Tajikistan
   national_destination_code_lengths:
   - 2
@@ -24,12 +22,6 @@ TJ:
   un_locode: TJ
   nationality: Tadzhik
   postal_code: true
-  min_longitude: '67.416667'
-  min_latitude: '36.716667'
-  max_longitude: '75'
-  max_latitude: '40.9'
-  latitude_dec: '38.879764556884766'
-  longitude_dec: '70.89906311035156'
   slang_names:
   - Tajikistan
   - Tadschikistan
@@ -43,3 +35,12 @@ TJ:
   languages_spoken:
   - tg
   - ru
+  geo:
+    latitude: 39 00 N
+    latitude_dec: '38.879764556884766'
+    longitude: 71 00 E
+    longitude_dec: '70.89906311035156'
+    max_latitude: '40.9'
+    max_longitude: '75'
+    min_latitude: '36.716667'
+    min_longitude: '67.416667'
