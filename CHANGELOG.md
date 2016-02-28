@@ -14,7 +14,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - DATA STRUCTURE CHANGES
   -COUNTRY
     - BREAKING CHANGES
-      - names: => slang_names
+      - names: => unofficial_names
       - languages: => official_languages
       - lat/lng fields are nested under a "geo" key
     - + spoken_languages

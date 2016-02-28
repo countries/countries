@@ -29,7 +29,7 @@ module ISO3166
         national_prefix: "",
         nationality: "",
         number: "",
-        languages_offical: [
+        languages_official: [
           ""
         ],
         languages_spoken: [
@@ -39,7 +39,7 @@ module ISO3166
         translations: {},
         postal_code: true,
         region: "",
-        slang_names: [],
+        unofficial_names: [],
         subregion: "",
         un_locode: "",
         vat_rates: "",

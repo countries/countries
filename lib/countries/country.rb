@@ -15,8 +15,8 @@ module ISO3166
     alias_method :zip, :postal_code
     alias_method :zip?, :postal_code
     alias_method :postal_code?, :postal_code
-    alias_method :languages, :languages_offical
-    alias_method :names, :slang_names
+    alias_method :languages, :languages_official
+    alias_method :names, :unofficial_names
 
     def ==(other)
       other == data
