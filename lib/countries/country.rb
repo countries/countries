@@ -2,7 +2,17 @@ module ISO3166
   class Country
     attr_reader :data
 
-    include ISO3166::Countries::Structure
+    ISO3166::Countries::DEFAULT_COUNTRY_HASH.each do |method_name, type|
+      define_method method_name do
+        @data[method_name.to_s]
+      end
+    end
+
+    ISO3166::Countries::DEFAULT_COUNTRY_HASH["geo"].each do |method_name, type|
+      define_method method_name do
+        @data["geo"][method_name.to_s]
+      end
+    end
 
     def initialize(country_data)
       @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
