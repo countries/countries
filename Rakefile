@@ -14,12 +14,33 @@ task default: [:spec]
 desc 'Test and Clean YAML files'
 task :clean_yaml do
   require 'yaml'
-
+  require 'countries'
   d = Dir['**/*.yaml']
   d.each do |file|
     begin
       puts "checking : #{file}"
       data = YAML.load_file(file)
+      File.open(file, 'w') { |f| f.write data.to_yaml }
+    rescue
+      puts "failed to read #{file}: #{$ERROR_INFO}"
+    end
+  end
+end
+
+desc 'Test and Clean YAML files'
+task :update_yaml_structure do
+  require 'yaml'
+  require 'countries'
+  require 'pry'
+
+  d = Dir['lib/countries/data/countries/*.yaml']
+  d.each do |file|
+    begin
+      puts "checking : #{file}"
+      data = YAML.load_file(file)
+      country_key = File.basename(file, ".yaml")
+      data[country_key]["slang_names"] = data[country_key].delete "names"
+
       File.open(file, 'w') { |f| f.write data.to_yaml }
     rescue
       puts "failed to read #{file}: #{$ERROR_INFO}"
