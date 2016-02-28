@@ -39,7 +39,8 @@ task :update_yaml_structure do
       puts "checking : #{file}"
       data = YAML.load_file(file)
       country_key = File.basename(file, ".yaml")
-      data[country_key]["slang_names"] = data[country_key].delete "names"
+      data[country_key]["languages_offical"] = data[country_key].delete "languages"
+      data[country_key]["languages_spoken"] = data[country_key]["languages_offical"].dup
 
       File.open(file, 'w') { |f| f.write data.to_yaml }
     rescue
