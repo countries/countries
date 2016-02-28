@@ -4,6 +4,6 @@ require 'money'
 
 require 'countries/configuration'
 require 'countries/data'
-require 'countries/country/attr_readers'
+require 'countries/country/structure'
 require 'countries/country'
 require 'countries/timezones'

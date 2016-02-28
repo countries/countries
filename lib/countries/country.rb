@@ -2,7 +2,7 @@ module ISO3166
   class Country
     attr_reader :data
 
-    include ISO3166::Countries::AttrReaders
+    include ISO3166::Countries::Structure
 
     def initialize(country_data)
       @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
@@ -15,6 +15,8 @@ module ISO3166
     alias_method :zip, :postal_code
     alias_method :zip?, :postal_code
     alias_method :postal_code?, :postal_code
+    alias_method :languages, :languages_offical
+    alias_method :names, :slang_names
 
     def ==(other)
       other == data
