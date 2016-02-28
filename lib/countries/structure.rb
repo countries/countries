@@ -34,7 +34,6 @@ module ISO3166
       "languages_spoken" => [
         ""
       ],
-      "translated_names" => [],
       "translations" => {},
       "postal_code" => nil,
       "region" => "",
