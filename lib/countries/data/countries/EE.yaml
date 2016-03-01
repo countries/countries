@@ -4,7 +4,6 @@ EE:
   alpha2: EE
   alpha3: EST
   country_code: '372'
-  currency: EUR
   international_prefix: '00'
   ioc: EST
   gec: EN
@@ -26,8 +25,8 @@ EE:
     standard: 20
     reduced:
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Estonia
@@ -47,3 +46,4 @@ EE:
     max_longitude: '28.883333'
     min_latitude: '57.521389'
     min_longitude: '21.795833'
+  currency_code: EUR

@@ -24,19 +24,7 @@ task :update_yaml_structure do
     country_key = File.basename(file, ".yaml")
 
     begin
-      [
-        :latitude,
-        :latitude_dec,
-        :longitude,
-        :longitude_dec,
-        :max_latitude,
-        :max_longitude,
-        :min_latitude,
-        :min_longitude
-      ].each do |field|
-        data[country_key]["geo"] ||= {}
-        data[country_key]["geo"][field.to_s] = data[country_key].delete(field.to_s)
-      end
+      data[country_key]["currency_code"] = data[country_key].delete("currency")
 
       File.open(file, 'w') { |f| f.write data.to_yaml }
 

@@ -10,7 +10,6 @@ ES:
   alpha2: ES
   alpha3: ESP
   country_code: '34'
-  currency: EUR
   international_prefix: '00'
   ioc: ESP
   gec: SP
@@ -32,7 +31,7 @@ ES:
     reduced:
     - 10
     super_reduced: 4
-    parking:
+    parking: 
   postal_code: true
   unofficial_names:
   - Spain
@@ -54,3 +53,4 @@ ES:
     max_longitude: '4.333333'
     min_latitude: '27.633333'
     min_longitude: "-18.166667"
+  currency_code: EUR

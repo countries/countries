@@ -9,7 +9,6 @@ FR:
   alpha2: FR
   alpha3: FRA
   country_code: '33'
-  currency: EUR
   international_prefix: '00'
   ioc: FRA
   gec: FR
@@ -33,7 +32,7 @@ FR:
     - 5.5
     - 10
     super_reduced: 2.1
-    parking:
+    parking: 
   postal_code: true
   unofficial_names:
   - France
@@ -55,3 +54,4 @@ FR:
     max_longitude: '9.56'
     min_latitude: '41.34'
     min_longitude: "-5.14"
+  currency_code: EUR

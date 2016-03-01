@@ -9,7 +9,6 @@ AT:
   alpha2: AT
   alpha3: AUT
   country_code: '43'
-  currency: EUR
   international_prefix: '00'
   ioc: AUT
   gec: AU
@@ -38,7 +37,7 @@ AT:
     standard: 20
     reduced:
     - 10
-    super_reduced:
+    super_reduced: 
     parking: 12
   postal_code: true
   unofficial_names:
@@ -60,3 +59,4 @@ AT:
     max_longitude: '19'
     min_latitude: '46.377222'
     min_longitude: '1.2'
+  currency_code: EUR

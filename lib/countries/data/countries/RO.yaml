@@ -9,7 +9,6 @@ RO:
   alpha2: RO
   alpha3: ROU
   country_code: '40'
-  currency: RON
   international_prefix: '00'
   ioc: ROU
   gec: RO
@@ -31,8 +30,8 @@ RO:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Romania
@@ -54,3 +53,4 @@ RO:
     max_longitude: '29.65'
     min_latitude: '43.666667'
     min_longitude: '19'
+  currency_code: RON

@@ -9,7 +9,6 @@ FI:
   alpha2: FI
   alpha3: FIN
   country_code: '358'
-  currency: EUR
   international_prefix: '00'
   ioc: FIN
   gec: FI
@@ -31,8 +30,8 @@ FI:
     reduced:
     - 10
     - 14
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Finland
@@ -55,3 +54,4 @@ FI:
     max_longitude: '32'
     min_latitude: '58.83'
     min_longitude: '18'
+  currency_code: EUR

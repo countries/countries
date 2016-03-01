@@ -9,7 +9,6 @@ GR:
   alpha2: GR
   alpha3: GRC
   country_code: '30'
-  currency: EUR
   international_prefix: '00'
   ioc: GRE
   gec: GR
@@ -31,8 +30,8 @@ GR:
     reduced:
     - 6.5
     - 13
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Greece
@@ -54,3 +53,4 @@ GR:
     max_longitude: '29.648056'
     min_latitude: '34.8'
     min_longitude: '19.381667'
+  currency_code: EUR

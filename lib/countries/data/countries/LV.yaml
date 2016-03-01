@@ -4,7 +4,6 @@ LV:
   alpha2: LV
   alpha3: LVA
   country_code: '371'
-  currency: EUR
   international_prefix: '00'
   ioc: LAT
   gec: LG
@@ -25,8 +24,8 @@ LV:
     standard: 21
     reduced:
     - 12
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Latvia
@@ -48,3 +47,4 @@ LV:
     max_longitude: '28.2'
     min_latitude: '55.7'
     min_longitude: '20.966667'
+  currency_code: EUR

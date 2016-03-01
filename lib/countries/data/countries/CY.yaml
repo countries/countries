@@ -4,7 +4,6 @@ CY:
   alpha2: CY
   alpha3: CYP
   country_code: '357'
-  currency: EUR
   international_prefix: '00'
   ioc: CYP
   gec: CY
@@ -26,8 +25,8 @@ CY:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Cyprus
@@ -52,3 +51,4 @@ CY:
     max_longitude: '34.6'
     min_latitude: '34.566667'
     min_longitude: '32.270833'
+  currency_code: EUR

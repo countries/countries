@@ -9,7 +9,6 @@ SK:
   alpha2: SK
   alpha3: SVK
   country_code: '421'
-  currency: EUR
   international_prefix: '00'
   ioc: SVK
   gec: LO
@@ -30,8 +29,8 @@ SK:
     standard: 20
     reduced:
     - 10
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Slovakia
@@ -53,3 +52,4 @@ SK:
     max_longitude: '26.5'
     min_latitude: '45.5'
     min_longitude: '17'
+  currency_code: EUR

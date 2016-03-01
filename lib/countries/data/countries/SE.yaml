@@ -9,7 +9,6 @@ SE:
   alpha2: SE
   alpha3: SWE
   country_code: '46'
-  currency: SEK
   international_prefix: '00'
   ioc: SWE
   gec: SW
@@ -31,8 +30,8 @@ SE:
     reduced:
     - 6
     - 12
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Sweden
@@ -54,3 +53,4 @@ SE:
     max_longitude: '25'
     min_latitude: '46.758333'
     min_longitude: '10.958333'
+  currency_code: SEK

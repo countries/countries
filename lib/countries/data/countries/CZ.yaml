@@ -9,7 +9,6 @@ CZ:
   alpha2: CZ
   alpha3: CZE
   country_code: '420'
-  currency: CZK
   international_prefix: '00'
   ioc: CZE
   gec: EZ
@@ -30,8 +29,8 @@ CZ:
     standard: 21
     reduced:
     - 15
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Czech Republic
@@ -55,3 +54,4 @@ CZ:
     max_longitude: '25.5'
     min_latitude: '40.65'
     min_longitude: '12.116667'
+  currency_code: CZK

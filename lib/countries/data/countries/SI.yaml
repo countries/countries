@@ -9,7 +9,6 @@ SI:
   alpha2: SI
   alpha3: SVN
   country_code: '386'
-  currency: EUR
   international_prefix: '00'
   ioc: SLO
   gec: SI
@@ -30,8 +29,8 @@ SI:
     standard: 22
     reduced:
     - 9.5
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Slovenia
@@ -53,3 +52,4 @@ SI:
     max_longitude: '17.466667'
     min_latitude: '45.083333'
     min_longitude: '13.426667'
+  currency_code: EUR

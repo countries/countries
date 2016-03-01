@@ -10,7 +10,6 @@ PL:
   alpha2: PL
   alpha3: POL
   country_code: '48'
-  currency: PLN
   international_prefix: '00'
   ioc: POL
   gec: PL
@@ -32,8 +31,8 @@ PL:
     reduced:
     - 5
     - 8
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Poland
@@ -54,3 +53,4 @@ PL:
     max_longitude: '26.5'
     min_latitude: '45.5'
     min_longitude: '14'
+  currency_code: PLN

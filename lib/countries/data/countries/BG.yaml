@@ -9,7 +9,6 @@ BG:
   alpha2: BG
   alpha3: BGR
   country_code: '359'
-  currency: BGN
   international_prefix: '00'
   ioc: BUL
   gec: BU
@@ -32,8 +31,8 @@ BG:
     standard: 20
     reduced:
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Bulgaria
@@ -54,3 +53,4 @@ BG:
     max_longitude: '28.6'
     min_latitude: '41'
     min_longitude: '22.371389'
+  currency_code: BGN

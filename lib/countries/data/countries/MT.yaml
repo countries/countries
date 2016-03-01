@@ -4,7 +4,6 @@ MT:
   alpha2: MT
   alpha3: MLT
   country_code: '356'
-  currency: EUR
   international_prefix: '00'
   ioc: MLT
   gec: MT
@@ -26,8 +25,8 @@ MT:
     reduced:
     - 5
     - 7
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Malta
@@ -48,3 +47,4 @@ MT:
     max_longitude: '14.575'
     min_latitude: '35.783889'
     min_longitude: '14.185556'
+  currency_code: EUR

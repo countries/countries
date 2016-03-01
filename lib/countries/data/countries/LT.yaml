@@ -4,7 +4,6 @@ LT:
   alpha2: LT
   alpha3: LTU
   country_code: '370'
-  currency: EUR
   international_prefix: '00'
   ioc: LTU
   gec: LH
@@ -26,8 +25,8 @@ LT:
     reduced:
     - 5
     - 9
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Lithuania
@@ -50,3 +49,4 @@ LT:
     max_longitude: '27'
     min_latitude: '53'
     min_longitude: '21'
+  currency_code: EUR

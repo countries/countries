@@ -37,11 +37,7 @@ module ISO3166
     end
 
     def currency
-      Money::Currency.find(data['currency'])
-    end
-
-    def currency_code
-      data['currency']
+      Money::Currency.find(data['currency_code'])
     end
 
     def subdivisions

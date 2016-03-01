@@ -10,7 +10,6 @@ HU:
   alpha2: HU
   alpha3: HUN
   country_code: '36'
-  currency: HUF
   international_prefix: '00'
   ioc: HUN
   gec: HU
@@ -33,8 +32,8 @@ HU:
     reduced:
     - 5
     - 18
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Hungary
@@ -56,3 +55,4 @@ HU:
     max_longitude: '22.866667'
     min_latitude: '45.75'
     min_longitude: '16.183333'
+  currency_code: HUF

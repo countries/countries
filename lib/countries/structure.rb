@@ -8,7 +8,7 @@ module ISO3166
       "alpha3" => "",
       "continent" => "",
       "country_code" => "",
-      "currency" => "",
+      "currency_code" => "",
       "gec" => "",
       "geo" => {
         "latitude" => "",
