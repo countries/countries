@@ -570,7 +570,7 @@ describe ISO3166::Country do
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
       names = ISO3166::Data.cache.map do |_k, v|
-        [v['name'], v['names']].flatten.uniq
+        [v['name'], v['unofficial_names']].flatten.uniq
       end.flatten
 
       expect(names.size).to eq(names.uniq.size)
