@@ -100,7 +100,7 @@ class ISO3166::Country
   end
 
   def local_names
-    @local_names ||= languages.map { |language| translations[language] }
+    @local_names ||= languages.map { |language| translations[language.sub(/-.*/, '')] }
   end
 
   def local_name
