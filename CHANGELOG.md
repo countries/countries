@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.0.pre.2
+- Bringing in content from 1.x branch
+
 ## 2.0.0.pre
 - Selective loading translations of countries
 - Auto detect I18n locales to load
