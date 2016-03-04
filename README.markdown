@@ -36,15 +36,30 @@ has become
 Basic Usage
 -----------
 
-Note that Country class still exist by default.
-(is inherited from ISO3166::Country to keep backward compatibility).
-
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
     c = ISO3166::Country.new('US')
 
     # with global Country Helper
     c = Country['US']
+
+Configuration
+
+As of 2.0 you can selectively load locales to reduce memory usage in production.
+
+By default we load I18n.available_locales if I18n is present, otherwise only [:en]. This means almost any rails environment will only bring in it's supported translations.
+
+You can add all the locales like this.
+
+    ISO3166.configure do |config|
+      config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+    end
+
+or something a bit more simple
+
+    ISO3166.configure do |config|
+      config.locales = [:en, :de, :fr, :es]
+    end
 
 Attribute-Based Finder Methods
 ------------
@@ -102,6 +117,17 @@ Country Info
     c.region #=> "Americas"
     c.subregion #=> "Northern America"
 
+  Timezones **(optional)**
+
+  Add tzinfo to your gemfile, ensure it's required, Countries will not do this for you.
+
+    gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+
+    c.timezones.zone_identifiers #=> ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
+  ```c.timezones.zone_info```  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
+
+  ```c.timezones``` # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
+
   Telephone Routing (E164)
 
     c.country_code #=> "1"
@@ -124,11 +150,11 @@ Country Info
 Currencies
 ----------
 
-Countries now uses the [Currencies][] gem. What this means is you now get back a Currency object that gives you access to all the currency information. It acts the same as a hash so the same ['name'] methods still work.
+Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
 
-    c.currency['code'] #=> 'USD'
-    c.currency['name'] #=> 'Dollars'
-    c.currency['symbol'] #=> '$'
+    c.currency.iso_code #=> 'USD'
+    c.currency.name #=> 'Dollars'
+    c.currency.symbol #=> '$'
 
 Address Formatting
 ------------------
