@@ -28,12 +28,8 @@ module ISO3166
       "national_prefix" => nil,
       "nationality" => nil,
       "number" => nil,
-      "languages_official" => [
-        nil
-      ],
-      "languages_spoken" => [
-        nil
-      ],
+      "languages_official" => [],
+      "languages_spoken" => [],
       "translations" => {},
       "postal_code" => nil,
       "region" => nil,

@@ -41,21 +41,17 @@ module ISO3166
       Money::Currency.find(data['currency_code'])
     end
 
+    def subdivisions?
+      File.exist?(subdivision_file_path)
+    end
+
     def subdivisions
-      @subdivisions ||= sub_data.inject({}) do |hash, (sub_code, sub_data)|
-        hash.merge(sub_code => Subdivision.new(sub_data))
+      @subdivisions ||= subdivision_data.inject({}) do |hash, (k, v)|
+        hash.merge(k => Subdivision.new(v))
       end
     end
 
-    def sub_data
-      @sub_data ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
-    end
-
     alias_method :states, :subdivisions
-
-    def subdivisions?
-      File.exist?(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml"))
-    end
 
     def in_eu?
       data['eu_member'].nil? ? false : data['eu_member']
@@ -85,10 +81,24 @@ module ISO3166
 
     def reload
       @data = if @country_data_or_code.is_a?(Hash)
-                @country_data_or_code
-              else
-                ISO3166::Data.new(@country_data_or_code).call
-              end
+        @country_data_or_code
+      else
+        ISO3166::Data.new(@country_data_or_code).call
+      end
+    end
+
+    private
+
+    def subdivision_data
+      @subdivision_data ||= if subdivisions?
+        YAML.load_file(subdivision_file_path)
+      else
+        {}
+      end
+    end
+
+    def subdivision_file_path
+      File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")
     end
 
     class << self
