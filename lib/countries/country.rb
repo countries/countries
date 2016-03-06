@@ -15,7 +15,8 @@ module ISO3166
     end
 
     def initialize(country_data)
-      @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
+      @country_data_or_code = country_data
+      reload
     end
 
     def valid?
@@ -73,11 +74,21 @@ module ISO3166
     end
 
     def local_names
+      ISO3166.configuration.locales = ISO3166.configuration.locales + languages.map(&:to_sym)
+      reload
       @local_names ||= languages.map { |language| translations[language] }
     end
 
     def local_name
       @local_name ||= local_names.first
+    end
+
+    def reload
+      @data = if @country_data_or_code.is_a?(Hash)
+                @country_data_or_code
+              else
+                ISO3166::Data.new(@country_data_or_code).call
+              end
     end
 
     class << self
