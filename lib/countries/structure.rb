@@ -3,50 +3,51 @@
 module ISO3166
   module Countries
     DEFAULT_COUNTRY_HASH = {
-      "address_format" => "",
-      "alpha2" => "",
-      "alpha3" => "",
-      "continent" => "",
-      "country_code" => "",
-      "currency_code" => "",
-      "gec" => "",
+      "address_format" => nil,
+      "alpha2" => nil,
+      "alpha3" => nil,
+      "continent" => nil,
+      "country_code" => nil,
+      "currency_code" => nil,
+      "gec" => nil,
       "geo" => {
-        "latitude" => "",
-        "latitude_dec" => "",
-        "longitude" => "",
-        "longitude_dec" => "",
-        "max_latitude" => "",
-        "max_longitude" => "",
-        "min_latitude" => "",
-        "min_longitude" => "",
+        "latitude" => nil,
+        "latitude_dec" => nil,
+        "longitude" => nil,
+        "longitude_dec" => nil,
+        "max_latitude" => nil,
+        "max_longitude" => nil,
+        "min_latitude" => nil,
+        "min_longitude" => nil,
       },
-      "international_prefix" => "",
-      "ioc" => "",
-      "name" => "",
+      "international_prefix" => nil,
+      "ioc" => nil,
+      "name" => nil,
       "national_destination_code_lengths" => [],
       "national_number_lengths" => [],
-      "national_prefix" => "",
-      "nationality" => "",
-      "number" => "",
+      "national_prefix" => nil,
+      "nationality" => nil,
+      "number" => nil,
       "languages_official" => [
-        ""
+        nil
       ],
       "languages_spoken" => [
-        ""
+        nil
       ],
       "translations" => {},
       "postal_code" => nil,
-      "region" => "",
+      "region" => nil,
       "unofficial_names" => [],
-      "subregion" => "",
-      "un_locode" => "",
+      "subregion" => nil,
+      "un_locode" => nil,
       "vat_rates" => {
         "standard" => nil,
         "reduced" => [ nil, nil ],
         "super_reduced" => nil,
         "parking" => nil
       },
-      "world_region" => ""
+      "world_region" => nil
+    }
 
     DEFAULT_SUBDIVISION_HASH = {
       'name' => nil,
