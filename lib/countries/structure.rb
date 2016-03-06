@@ -47,6 +47,21 @@ module ISO3166
         "parking" => nil
       },
       "world_region" => ""
+
+    DEFAULT_SUBDIVISION_HASH = {
+      'name' => nil,
+      'unofficial_names' => [],
+      'translations' => {},
+      "geo" => {
+        "latitude" => nil,
+        "latitude_dec" => nil,
+        "longitude" => nil,
+        "longitude_dec" => nil,
+        "max_latitude" => nil,
+        "max_longitude" => nil,
+        "min_latitude" => nil,
+        "min_longitude" => nil,
+      }
     }
   end
 end

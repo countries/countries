@@ -41,7 +41,13 @@ module ISO3166
     end
 
     def subdivisions
-      @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
+      @subdivisions ||= sub_data.inject({}) do |hash, (sub_code, sub_data)|
+        hash.merge(sub_code => Subdivision.new(sub_data))
+      end
+    end
+
+    def sub_data
+      @sub_data ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
     end
 
     alias_method :states, :subdivisions
