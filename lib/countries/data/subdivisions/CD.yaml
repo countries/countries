@@ -1,104 +1,137 @@
 ---
 BC:
-  name: Bas-Congo
-  names:
+  unofficial_names:
   - Bas-Zaire
-  latitude: -5.2365685
-  longitude: 13.914399
-  min_latitude: -6.0573001
-  min_longitude: 12.206631
-  max_latitude: -4.279237999999999
-  max_longitude: 16.2585949
+  translations:
+    en: Bas-Congo
+  geo:
+    latitude: -5.2365685
+    longitude: 13.914399
+    min_latitude: -6.0573001
+    min_longitude: 12.206631
+    max_latitude: -4.279237999999999
+    max_longitude: 16.2585949
+  name: Bas-Congo
 BN:
+  unofficial_names: Bandundu
+  translations:
+    en: Bandundu
+  geo:
+    latitude: -3.316667
+    longitude: 17.366667
+    min_latitude: -3.3406136
+    min_longitude: 17.3576054
+    max_latitude: -3.2987836
+    max_longitude: 17.4044975
   name: Bandundu
-  names: Bandundu
-  latitude: -3.316667
-  longitude: 17.366667
-  min_latitude: -3.3406136
-  min_longitude: 17.3576054
-  max_latitude: -3.2987836
-  max_longitude: 17.4044975
 EQ:
-  name: "Équateur"
-  names: "Équateur"
-  latitude: 0.5640035999999999
-  longitude: 20.3308814
-  min_latitude: -2.529217
-  min_longitude: 16.5381639
-  max_latitude: 5.14574
-  max_longitude: 24.4267169
+  unofficial_names: Équateur
+  translations:
+    en: Équateur
+  geo:
+    latitude: 0.5640035999999999
+    longitude: 20.3308814
+    min_latitude: -2.529217
+    min_longitude: 16.5381639
+    max_latitude: 5.14574
+    max_longitude: 24.4267169
+  name: Équateur
 KA:
-  name: Katanga
-  names:
+  unofficial_names:
   - Shaba
-  latitude: -8.8851145
-  longitude: 26.419389
-  min_latitude: -13.455676
-  min_longitude: 21.744753
-  max_latitude: -4.999066
-  max_longitude: 30.5928848
+  translations:
+    en: Katanga
+  geo:
+    latitude: -8.8851145
+    longitude: 26.419389
+    min_latitude: -13.455676
+    min_longitude: 21.744753
+    max_latitude: -4.999066
+    max_longitude: 30.5928848
+  name: Katanga
 KE:
+  unofficial_names: Kasai-Oriental
+  translations:
+    en: Kasai-Oriental
+  geo:
+    latitude: -2.8437453
+    longitude: 23.3823545
+    min_latitude: -7.9387741
+    min_longitude: 21.9100151
+    max_latitude: -1.738482
+    max_longitude: 26.265937
   name: Kasai-Oriental
-  names: Kasai-Oriental
-  latitude: -2.8437453
-  longitude: 23.3823545
-  min_latitude: -7.9387741
-  min_longitude: 21.9100151
-  max_latitude: -1.738482
-  max_longitude: 26.265937
 KN:
+  unofficial_names: Kinshasa
+  translations:
+    en: Kinshasa
+  geo:
+    latitude: -4.325
+    longitude: 15.322222
+    min_latitude: -4.5093664
+    min_longitude: 15.1764986
+    max_latitude: -4.2934483
+    max_longitude: 15.4694102
   name: Kinshasa
-  names: Kinshasa
-  latitude: -4.325
-  longitude: 15.322222
-  min_latitude: -4.5093664
-  min_longitude: 15.1764986
-  max_latitude: -4.2934483
-  max_longitude: 15.4694102
 KW:
+  unofficial_names: Kasai-Occidental
+  translations:
+    en: Kasai-Occidental
+  geo:
+    latitude: -5.320547299999999
+    longitude: 21.8568586
+    min_latitude: -7.9022269
+    min_longitude: 19.6801381
+    max_latitude: -2.338351
+    max_longitude: 23.742881
   name: Kasai-Occidental
-  names: Kasai-Occidental
-  latitude: -5.320547299999999
-  longitude: 21.8568586
-  min_latitude: -7.9022269
-  min_longitude: 19.6801381
-  max_latitude: -2.338351
-  max_longitude: 23.742881
 MA:
+  unofficial_names: Maniema
+  translations:
+    en: Maniema
+  geo:
+    latitude: -3.0730929
+    longitude: 26.0413889
+    min_latitude: -5.000742499999999
+    min_longitude: 24.456906
+    max_latitude: -0.082443
+    max_longitude: 28.8420401
   name: Maniema
-  names: Maniema
-  latitude: -3.0730929
-  longitude: 26.0413889
-  min_latitude: -5.000742499999999
-  min_longitude: 24.456906
-  max_latitude: -0.082443
-  max_longitude: 28.8420401
 NK:
+  unofficial_names: Nord-Kivu
+  translations:
+    en: Nord-Kivu
+  geo:
+    latitude: -0.7917729
+    longitude: 29.0459927
+    min_latitude: -2.0661759
+    min_longitude: 27.201624
+    max_latitude: 0.9623669
+    max_longitude: 29.984388
   name: Nord-Kivu
-  names: Nord-Kivu
-  latitude: -0.7917729
-  longitude: 29.0459927
-  min_latitude: -2.0661759
-  min_longitude: 27.201624
-  max_latitude: 0.9623669
-  max_longitude: 29.984388
 OR:
-  name: Orientale
-  names:
+  unofficial_names:
   - Haut-Zaire
   - Orientale
-  latitude: 1.6406296
-  longitude: 26.419389
-  min_latitude: -2.1170779
-  min_longitude: 22.2904529
-  max_latitude: 5.386098
-  max_longitude: 31.2769461
+  translations:
+    en: Orientale
+  geo:
+    latitude: 1.6406296
+    longitude: 26.419389
+    min_latitude: -2.1170779
+    min_longitude: 22.2904529
+    max_latitude: 5.386098
+    max_longitude: 31.2769461
+  name: Orientale
 SK:
+  unofficial_names: Sud-Kivu
+  translations:
+    en: Sud-Kivu
+  geo:
+    latitude: -3.011658
+    longitude: 28.299435
+    min_latitude: -4.9999781
+    min_longitude: 26.798393
+    max_latitude: -1.568222
+    max_longitude: 29.2644927
   name: Sud-Kivu
-  names: Sud-Kivu
-  latitude: -3.011658
-  longitude: 28.299435
-  min_latitude: -4.9999781
-  min_longitude: 26.798393
-  max_latitude: -1.568222
-  max_longitude: 29.2644927

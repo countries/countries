@@ -1,13 +1,9 @@
 module ISO3166
   Subdivision = KwargStruct.new(
     :name,
-    :names,
-    :latitude,
-    :longitude,
-    :min_latitude,
-    :min_longitude,
-    :max_latitude,
-    :max_longitude,
+    :unofficial_names,
+    :geo,
+    :translations,
     :comments
   )
 end

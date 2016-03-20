@@ -1,26 +1,31 @@
 ---
 A:
-  name: Ahal
-  names:
+  unofficial_names:
   - Akhal
-  latitude: 38.6399398
-  longitude: 59.4720904
-  min_latitude: 35.58967
-  min_longitude: 56.723392
-  max_latitude: 40.197323
-  max_longitude: 61.51145510000001
+  translations:
+    en: Ahal
+  geo:
+    latitude: 38.6399398
+    longitude: 59.4720904
+    min_latitude: 35.58967
+    min_longitude: 56.723392
+    max_latitude: 40.197323
+    max_longitude: 61.51145510000001
+  name: Ahal
 B:
+  unofficial_names: Balkan
+  translations:
+    en: Balkan
+  geo:
+    latitude: 40.9468884
+    longitude: 54.4952432
+    min_latitude: 37.309181
+    min_longitude: 52.4446017
+    max_latitude: 42.3434979
+    max_longitude: 57.19972600000001
   name: Balkan
-  names: Balkan
-  latitude: 40.9468884
-  longitude: 54.4952432
-  min_latitude: 37.309181
-  min_longitude: 52.4446017
-  max_latitude: 42.3434979
-  max_longitude: 57.19972600000001
 D:
-  name: Dasoguz
-  names:
+  unofficial_names:
   - Dashhovuz
   - Dashhowuz
   - Dashkhovuz
@@ -30,40 +35,53 @@ D:
   - Dašhovuz
   - Tashauz
   - Tašauz
-  latitude: 41.833333
-  longitude: 59.966667
-  min_latitude: 41.788273
-  min_longitude: 59.8845004
-  max_latitude: 41.880745
-  max_longitude: 60.038309
+  translations:
+    en: Dasoguz
+  geo:
+    latitude: 41.833333
+    longitude: 59.966667
+    min_latitude: 41.788273
+    min_longitude: 59.8845004
+    max_latitude: 41.880745
+    max_longitude: 60.038309
+  name: Dasoguz
 L:
+  unofficial_names: Lebap
+  translations:
+    en: Lebap
+  geo:
+    latitude: 38.12724619999999
+    longitude: 64.7162415
+    min_latitude: 36.850881
+    min_longitude: 60.18987389999999
+    max_latitude: 41.2915379
+    max_longitude: 66.6843031
   name: Lebap
-  names: Lebap
-  latitude: 38.12724619999999
-  longitude: 64.7162415
-  min_latitude: 36.850881
-  min_longitude: 60.18987389999999
-  max_latitude: 41.2915379
-  max_longitude: 66.6843031
 M:
-  name: Mary
-  names:
+  unofficial_names:
   - Mary
   - Merv
-  latitude: 36.9481623
-  longitude: 62.4504154
-  min_latitude: 35.141151
-  min_longitude: 60.39503499999999
-  max_latitude: 39.5136029
-  max_longitude: 64.737839
+  translations:
+    en: Mary
+  geo:
+    latitude: 36.9481623
+    longitude: 62.4504154
+    min_latitude: 35.141151
+    min_longitude: 60.39503499999999
+    max_latitude: 39.5136029
+    max_longitude: 64.737839
+  name: Mary
 X~:
-  name: ''
-  names:
+  unofficial_names:
   - Ashgabat
   - Aşkabat
-  latitude: 38.969719
-  longitude: 59.556278
-  min_latitude: 35.12876
-  min_longitude: 52.4478449
-  max_latitude: 42.798844
-  max_longitude: 66.707353
+  translations:
+    en: ''
+  geo:
+    latitude: 38.969719
+    longitude: 59.556278
+    min_latitude: 35.12876
+    min_longitude: 52.4478449
+    max_latitude: 42.798844
+    max_longitude: 66.707353
+  name: ''

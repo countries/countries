@@ -1,5 +1,5 @@
 ---
-AJ:
+AJ: !ruby/struct:ISO3166::Subdivision
   name: "'Ajmān"
   names: "-إمارة عجمانّ - Ujman"
   latitude: 25.3995
@@ -8,10 +8,11 @@ AJ:
   min_longitude: 55.4239777
   max_latitude: 25.450004
   max_longitude: 55.6371712
-AZ:
+  comments: 
+AZ: !ruby/struct:ISO3166::Subdivision
   name: Abū Z̧aby [Abu Dhabi]
   names:
-  - "أبو ظبي"
+  - أبو ظبي
   - Abu Zabi
   - Abu Zaby
   - Abū Z̨abī
@@ -23,10 +24,11 @@ AZ:
   min_longitude: 54.268856
   max_latitude: 24.6213301
   max_longitude: 54.8509598
-DU:
+  comments: 
+DU: !ruby/struct:ISO3166::Subdivision
   name: Dubayy
   names:
-  - "دبي"
+  - دبي
   - Dubai
   latitude: 25.2048493
   longitude: 55.2707828
@@ -34,10 +36,11 @@ DU:
   min_longitude: 54.895991
   max_latitude: 25.356306
   max_longitude: 55.56369770000001
-FU:
+  comments: 
+FU: !ruby/struct:ISO3166::Subdivision
   name: Al Fujayrah
   names:
-  - "الفجيرة"
+  - الفجيرة
   - Al Fujayrah
   - Fujairah
   latitude: 25.4110762
@@ -46,10 +49,11 @@ FU:
   min_longitude: 55.96323
   max_latitude: 25.667782
   max_longitude: 56.3760899
-RK:
+  comments: 
+RK: !ruby/struct:ISO3166::Subdivision
   name: Ra's al Khaymah
   names:
-  - "إمارة رأس الخيمة"
+  - إمارة رأس الخيمة
   - Ras al-Khaimah
   latitude: 25.8006926
   longitude: 55.9761994
@@ -57,10 +61,11 @@ RK:
   min_longitude: 55.8637944
   max_latitude: 25.9116106
   max_longitude: 56.0727597
-SH:
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
   name: Ash Shariqah [Sharjah]
   names:
-  - "إمارة الشارقةّ"
+  - إمارة الشارقةّ
   - Ash Shariqah
   latitude: 25.3575
   longitude: 55.390833
@@ -68,10 +73,11 @@ SH:
   min_longitude: 55.34973
   max_latitude: 25.3988264
   max_longitude: 55.6726397
-UQ:
+  comments: 
+UQ: !ruby/struct:ISO3166::Subdivision
   name: Umm al Qaywayn
   names:
-  - "أمّ القيوين"
+  - أمّ القيوين
   - Umm al-Quwain
   latitude: 25.5204824
   longitude: 55.7133909
@@ -79,3 +85,4 @@ UQ:
   min_longitude: 55.5175201
   max_latitude: 25.6954771
   max_longitude: 55.953869
+  comments: 

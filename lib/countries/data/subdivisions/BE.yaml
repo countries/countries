@@ -1,130 +1,163 @@
 ---
 BRU:
-  name: Brussels
-  names:
+  unofficial_names:
   - Brussels Hoofdstedelijk Gewest
   - Région de Bruxelles-Capitale
   - Brussel
   - Brüssel
   - Bruxelles
-  latitude: 50.8503396
-  longitude: 4.3517103
-  min_latitude: 50.7962401
-  min_longitude: 4.3138
-  max_latitude: 50.91370999999999
-  max_longitude: 4.4369799
+  translations:
+    en: Brussels
+  geo:
+    latitude: 50.8503396
+    longitude: 4.3517103
+    min_latitude: 50.7962401
+    min_longitude: 4.3138
+    max_latitude: 50.91370999999999
+    max_longitude: 4.4369799
+  name: Brussels
 VAN:
-  name: Antwerpen (nl)
-  names:
+  unofficial_names:
   - Antwerpen
   - Anvers
-  latitude: 51.2194475
-  longitude: 4.4024643
-  min_latitude: 51.14333999999999
-  min_longitude: 4.217600099999999
-  max_latitude: 51.3774301
-  max_longitude: 4.49784
+  translations:
+    en: Antwerpen (nl)
+  geo:
+    latitude: 51.2194475
+    longitude: 4.4024643
+    min_latitude: 51.14333999999999
+    min_longitude: 4.217600099999999
+    max_latitude: 51.3774301
+    max_longitude: 4.49784
+  name: Antwerpen (nl)
 VBR:
-  name: Vlaams Brabant (nl)
-  names:
+  unofficial_names:
   - Brabant-Vlanderen
   - Vlaams-Brabant
   - Flämisch Brabant
   - Brabant-Flamand
-  latitude: 51.3663862
-  longitude: 5.615708800000001
-  min_latitude: 51.3563098
-  min_longitude: 5.6001346
-  max_latitude: 51.378742
-  max_longitude: 5.625843
+  translations:
+    en: Vlaams Brabant (nl)
+  geo:
+    latitude: 51.3663862
+    longitude: 5.615708800000001
+    min_latitude: 51.3563098
+    min_longitude: 5.6001346
+    max_latitude: 51.378742
+    max_longitude: 5.625843
+  name: Vlaams Brabant (nl)
 VLI:
-  name: Limburg (nl)
-  names:
+  unofficial_names:
   - Limbourg
-  latitude: 51.4427238
-  longitude: 6.0608726
-  min_latitude: 50.75038379999999
-  min_longitude: 5.5660666
-  max_latitude: 51.778577
-  max_longitude: 6.226801399999999
+  translations:
+    en: Limburg (nl)
+  geo:
+    latitude: 51.4427238
+    longitude: 6.0608726
+    min_latitude: 50.75038379999999
+    min_longitude: 5.5660666
+    max_latitude: 51.778577
+    max_longitude: 6.226801399999999
+  name: Limburg (nl)
 VOV:
-  name: Oost-Vlaanderen (nl)
-  names:
+  unofficial_names:
   - Oos-Vlanderen
   - Oost-Vlaanderen
   - Ost-Flandern
   - Flandre-Orientale
-  latitude: 51.0362101
-  longitude: 3.7373124
-  min_latitude: 50.72094999999999
-  min_longitude: 3.3312501
-  max_latitude: 51.35284
-  max_longitude: 4.3301
+  translations:
+    en: Oost-Vlaanderen (nl)
+  geo:
+    latitude: 51.0362101
+    longitude: 3.7373124
+    min_latitude: 50.72094999999999
+    min_longitude: 3.3312501
+    max_latitude: 51.35284
+    max_longitude: 4.3301
+  name: Oost-Vlaanderen (nl)
 VWV:
-  name: West-Vlaanderen (nl)
-  names:
+  unofficial_names:
   - Wes-Vlanderen
   - West-Vlaanderen
   - West-Flandern
   - Flandre-Occidentale
-  latitude: 51.0536024
-  longitude: 3.1457942
-  min_latitude: 50.7081601
-  min_longitude: 2.5449401
-  max_latitude: 51.3685479
-  max_longitude: 3.5232999
+  translations:
+    en: West-Vlaanderen (nl)
+  geo:
+    latitude: 51.0536024
+    longitude: 3.1457942
+    min_latitude: 50.7081601
+    min_longitude: 2.5449401
+    max_latitude: 51.3685479
+    max_longitude: 3.5232999
+  name: West-Vlaanderen (nl)
 WBR:
-  name: Brabant Wallon (fr)
-  names:
+  unofficial_names:
   - Waals-Brabant
   - Wallonisch Brabant
   - Walloon Brabant
-  latitude: 50.633241
-  longitude: 4.524315
-  min_latitude: 50.52542
-  min_longitude: 4.0911501
-  max_latitude: 50.80735
-  max_longitude: 5.02037
+  translations:
+    en: Brabant Wallon (fr)
+  geo:
+    latitude: 50.633241
+    longitude: 4.524315
+    min_latitude: 50.52542
+    min_longitude: 4.0911501
+    max_latitude: 50.80735
+    max_longitude: 5.02037
+  name: Brabant Wallon (fr)
 WHT:
-  name: Hainaut (fr)
-  names:
+  unofficial_names:
   - Henegouwen
   - Hennegau
-  latitude: 50.5257076
-  longitude: 4.062101699999999
-  min_latitude: 49.94183
-  min_longitude: 2.8421299
-  max_latitude: 50.81077
-  max_longitude: 4.6171299
+  translations:
+    en: Hainaut (fr)
+  geo:
+    latitude: 50.5257076
+    longitude: 4.062101699999999
+    min_latitude: 49.94183
+    min_longitude: 2.8421299
+    max_latitude: 50.81077
+    max_longitude: 4.6171299
+  name: Hainaut (fr)
 WLG:
-  name: Liège (fr)
-  names:
+  unofficial_names:
   - Luik
   - Lüttich
-  latitude: 50.6325574
-  longitude: 5.5796662
-  min_latitude: 50.56109010000001
-  min_longitude: 5.5230701
-  max_latitude: 50.68819
-  max_longitude: 5.675110099999999
+  translations:
+    en: Liège (fr)
+  geo:
+    latitude: 50.6325574
+    longitude: 5.5796662
+    min_latitude: 50.56109010000001
+    min_longitude: 5.5230701
+    max_latitude: 50.68819
+    max_longitude: 5.675110099999999
+  name: Liège (fr)
 WLX:
-  name: Luxembourg (fr)
-  names:
+  unofficial_names:
   - Luxembourg
   - Luxemburg
-  latitude: 50.0546886
-  longitude: 5.467698299999999
-  min_latitude: 49.49701
-  min_longitude: 4.9683901
-  max_latitude: 50.4306101
-  max_longitude: 6.034400000000001
+  translations:
+    en: Luxembourg (fr)
+  geo:
+    latitude: 50.0546886
+    longitude: 5.467698299999999
+    min_latitude: 49.49701
+    min_longitude: 4.9683901
+    max_latitude: 50.4306101
+    max_longitude: 6.034400000000001
+  name: Luxembourg (fr)
 WNA:
-  name: Namur (fr)
-  names:
+  unofficial_names:
   - Namen
-  latitude: 50.4673883
-  longitude: 4.8719854
-  min_latitude: 50.38738
-  min_longitude: 4.7229
-  max_latitude: 50.5312201
-  max_longitude: 4.98398
+  translations:
+    en: Namur (fr)
+  geo:
+    latitude: 50.4673883
+    longitude: 4.8719854
+    min_latitude: 50.38738
+    min_longitude: 4.7229
+    max_latitude: 50.5312201
+    max_longitude: 4.98398
+  name: Namur (fr)

@@ -1,5 +1,5 @@
 ---
-BAL:
+BAL: !ruby/struct:ISO3166::Subdivision
   name: Balkh
   names:
   - Balkh
@@ -9,7 +9,8 @@ BAL:
   min_longitude: 66.879015
   max_latitude: 36.7744019
   max_longitude: 66.9103004
-BAM:
+  comments: 
+BAM: !ruby/struct:ISO3166::Subdivision
   name: Bamian
   names:
   - Bamian
@@ -21,7 +22,8 @@ BAM:
   min_longitude: 66.2868759
   max_latitude: 35.479285
   max_longitude: 68.2664631
-BDG:
+  comments: 
+BDG: !ruby/struct:ISO3166::Subdivision
   name: Badghis
   names:
   - Badghis
@@ -33,7 +35,8 @@ BDG:
   min_longitude: 62.673593
   max_latitude: 36.041935
   max_longitude: 65.07057689999999
-BDS:
+  comments: 
+BDS: !ruby/struct:ISO3166::Subdivision
   name: Badakhshan
   names:
   - Badaẖšan
@@ -43,7 +46,8 @@ BDS:
   min_longitude: 69.98609689999999
   max_latitude: 38.4906109
   max_longitude: 74.8901951
-BGL:
+  comments: 
+BGL: !ruby/struct:ISO3166::Subdivision
   name: Baghlan
   names:
   - Baghlan
@@ -55,7 +59,8 @@ BGL:
   min_longitude: 68.7236881
   max_latitude: 36.1897066
   max_longitude: 68.7745
-DAY:
+  comments: 
+DAY: !ruby/struct:ISO3166::Subdivision
   name: Daykondi
   names:
   - Daikondi
@@ -65,7 +70,8 @@ DAY:
   min_longitude: 65.23819689999999
   max_latitude: 34.36751
   max_longitude: 67.4245309
-FRA:
+  comments: 
+FRA: !ruby/struct:ISO3166::Subdivision
   name: Farah
   names:
   - Fahrah
@@ -75,7 +81,8 @@ FRA:
   min_longitude: 60.5861239
   max_latitude: 33.586982
   max_longitude: 64.750407
-FYB:
+  comments: 
+FYB: !ruby/struct:ISO3166::Subdivision
   name: Faryab
   names:
   - Fariab
@@ -85,7 +92,8 @@ FYB:
   min_longitude: 63.8947181
   max_latitude: 37.2501681
   max_longitude: 65.822068
-GHA:
+  comments: 
+GHA: !ruby/struct:ISO3166::Subdivision
   name: Ghazni
   names:
   - Gazni
@@ -96,7 +104,8 @@ GHA:
   min_longitude: 66.8315989
   max_latitude: 34.2320759
   max_longitude: 68.834594
-GHO:
+  comments: 
+GHO: !ruby/struct:ISO3166::Subdivision
   name: Ghowr
   names:
   - Ghawr
@@ -109,7 +118,8 @@ GHO:
   min_longitude: 63.19821899999999
   max_latitude: 35.276925
   max_longitude: 66.736645
-HEL:
+  comments: 
+HEL: !ruby/struct:ISO3166::Subdivision
   name: Helmand
   names:
   - Helmand
@@ -120,7 +130,8 @@ HEL:
   min_longitude: 62.553695
   max_latitude: 33.3782999
   max_longitude: 65.38026289999999
-HER:
+  comments: 
+HER: !ruby/struct:ISO3166::Subdivision
   name: Herat
   names:
   - Herat
@@ -130,7 +141,8 @@ HER:
   min_longitude: 62.150774
   max_latitude: 34.3883543
   max_longitude: 62.2713661
-JOW:
+  comments: 
+JOW: !ruby/struct:ISO3166::Subdivision
   name: Jowzjan
   names:
   - Jawzjan
@@ -144,7 +156,8 @@ JOW:
   min_longitude: 65.1666699
   max_latitude: 37.544579
   max_longitude: 66.583344
-KAB:
+  comments: 
+KAB: !ruby/struct:ISO3166::Subdivision
   name: Kabul [Kabol]
   names:
   - Kabol
@@ -157,7 +170,8 @@ KAB:
   min_longitude: 68.9495086
   max_latitude: 34.7619227
   max_longitude: 69.4459534
-KAN:
+  comments: 
+KAN: !ruby/struct:ISO3166::Subdivision
   name: Kandahar
   names:
   - Kandahar
@@ -167,7 +181,8 @@ KAN:
   min_longitude: 65.6695744
   max_latitude: 31.6725218
   max_longitude: 65.8307648
-KAP:
+  comments: 
+KAP: !ruby/struct:ISO3166::Subdivision
   name: Kapisa
   names:
   - Kapesa
@@ -179,7 +194,8 @@ KAP:
   min_longitude: 69.27812709999999
   max_latitude: 35.1843449
   max_longitude: 69.9292071
-KDZ:
+  comments: 
+KDZ: !ruby/struct:ISO3166::Subdivision
   name: Kondoz [Kunduz]
   names:
   - Kondoz
@@ -192,7 +208,8 @@ KDZ:
   min_longitude: 68.7845421
   max_latitude: 36.77299259999999
   max_longitude: 68.9773179
-KHO:
+  comments: 
+KHO: !ruby/struct:ISO3166::Subdivision
   name: Khowst
   names:
   - H̱ōst
@@ -207,7 +224,8 @@ KHO:
   min_longitude: 69.3547779
   max_latitude: 33.7335318
   max_longitude: 70.3265909
-KNR:
+  comments: 
+KNR: !ruby/struct:ISO3166::Subdivision
   name: Konar [Kunar]
   names:
   - Konar
@@ -218,7 +236,8 @@ KNR:
   min_longitude: 71.3623594
   max_latitude: 35.0906452
   max_longitude: 71.3708674
-LAG:
+  comments: 
+LAG: !ruby/struct:ISO3166::Subdivision
   name: Laghman
   names:
   - Laghman
@@ -230,7 +249,8 @@ LAG:
   min_longitude: 69.8045771
   max_latitude: 35.2196171
   max_longitude: 70.63105999999999
-LOW:
+  comments: 
+LOW: !ruby/struct:ISO3166::Subdivision
   name: Lowgar
   names:
   - Lawgar
@@ -244,7 +264,8 @@ LOW:
   min_longitude: 68.716335
   max_latitude: 34.366983
   max_longitude: 69.8876531
-NAN:
+  comments: 
+NAN: !ruby/struct:ISO3166::Subdivision
   name: Nangrahar [Nangarhar]
   names:
   - Nangarhar
@@ -255,7 +276,8 @@ NAN:
   min_longitude: 69.482636
   max_latitude: 34.809976
   max_longitude: 71.17125709999999
-NIM:
+  comments: 
+NIM: !ruby/struct:ISO3166::Subdivision
   name: Nimruz
   names:
   - Chakhānsur
@@ -268,7 +290,8 @@ NIM:
   min_longitude: 60.87859700000001
   max_latitude: 32.263132
   max_longitude: 63.5857501
-NUR:
+  comments: 
+NUR: !ruby/struct:ISO3166::Subdivision
   name: Nurestan
   names:
   - Nooristan
@@ -280,7 +303,8 @@ NUR:
   min_longitude: 69.916771
   max_latitude: 36.0492169
   max_longitude: 71.614166
-ORU:
+  comments: 
+ORU: !ruby/struct:ISO3166::Subdivision
   name: Oruzgan [Uruzgan]
   names:
   - Oruzgan
@@ -291,7 +315,12 @@ ORU:
   - Urūzghān
   latitude: 32.93021
   longitude: 66.63642899999999
-PAN:
+  min_latitude: 
+  min_longitude: 
+  max_latitude: 
+  max_longitude: 
+  comments: 
+PAN: !ruby/struct:ISO3166::Subdivision
   name: Panjshir
   names:
   - Panjshir
@@ -301,7 +330,8 @@ PAN:
   min_longitude: 69.53384400000002
   max_latitude: 35.4374561
   max_longitude: 69.7982025
-PAR:
+  comments: 
+PAR: !ruby/struct:ISO3166::Subdivision
   name: Parwan
   names:
   - Parvan
@@ -313,7 +343,8 @@ PAR:
   min_longitude: 68.1907899
   max_latitude: 35.424221
   max_longitude: 69.616604
-PIA:
+  comments: 
+PIA: !ruby/struct:ISO3166::Subdivision
   name: Paktia
   names:
   - Paktia
@@ -325,7 +356,8 @@ PIA:
   min_longitude: 68.772654
   max_latitude: 34.0908599
   max_longitude: 70.0056379
-PKA:
+  comments: 
+PKA: !ruby/struct:ISO3166::Subdivision
   name: Paktika
   names:
   - Paktika
@@ -335,7 +367,8 @@ PKA:
   min_longitude: 67.82210479999999
   max_latitude: 33.4239659
   max_longitude: 69.5345761
-SAM:
+  comments: 
+SAM: !ruby/struct:ISO3166::Subdivision
   name: Samangan
   names: Samangan
   latitude: 35.9807296
@@ -344,7 +377,8 @@ SAM:
   min_longitude: 66.88432
   max_latitude: 36.638235
   max_longitude: 68.5661071
-SAR:
+  comments: 
+SAR: !ruby/struct:ISO3166::Subdivision
   name: Sar-e Pol
   names:
   - Sar-e Pol
@@ -356,7 +390,8 @@ SAR:
   min_longitude: 65.9110165
   max_latitude: 36.23838900000001
   max_longitude: 65.9589957
-TAK:
+  comments: 
+TAK: !ruby/struct:ISO3166::Subdivision
   name: Takhar
   names:
   - Tahar
@@ -368,7 +403,8 @@ TAK:
   min_longitude: 69.1752951
   max_latitude: 37.62126
   max_longitude: 70.4998339
-WAR:
+  comments: 
+WAR: !ruby/struct:ISO3166::Subdivision
   name: Wardak [Wardag]
   names:
   - Vardak
@@ -380,7 +416,8 @@ WAR:
   min_longitude: 67.232205
   max_latitude: 34.797575
   max_longitude: 68.972619
-ZAB:
+  comments: 
+ZAB: !ruby/struct:ISO3166::Subdivision
   name: Zabol [Zabul]
   names:
   - Zabol
@@ -392,3 +429,4 @@ ZAB:
   min_longitude: 66.192899
   max_latitude: 33.083939
   max_longitude: 68.1166841
+  comments: 

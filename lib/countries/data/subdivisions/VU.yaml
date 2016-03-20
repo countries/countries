@@ -1,71 +1,89 @@
 ---
 MAP:
-  name: Malampa
-  names:
+  unofficial_names:
   - Ambrim
   - Ambrym
   - Malakula
   - Malekula
   - Mallicollo
   - Paama
-  latitude: -16.4011405
-  longitude: 167.6077865
-  min_latitude: -16.5913427
-  min_longitude: 167.163246
-  max_latitude: -15.8821222
-  max_longitude: 168.368011
+  translations:
+    en: Malampa
+  geo:
+    latitude: -16.4011405
+    longitude: 167.6077865
+    min_latitude: -16.5913427
+    min_longitude: 167.163246
+    max_latitude: -15.8821222
+    max_longitude: 168.368011
+  name: Malampa
 PAM:
-  name: Pénama
-  names:
+  unofficial_names:
   - Ambae-Maewo
   - Aoba-Maewo
   - Omba-Aurora
   - Omba-Maewo
   - Pentecost
-  latitude: -15.3795758
-  longitude: 167.9053182
-  min_latitude: -16.0129131
-  min_longitude: 167.6715374
-  max_latitude: -14.89196
-  max_longitude: 168.276847
+  translations:
+    en: Pénama
+  geo:
+    latitude: -15.3795758
+    longitude: 167.9053182
+    min_latitude: -16.0129131
+    min_longitude: 167.6715374
+    max_latitude: -14.89196
+    max_longitude: 168.276847
+  name: Pénama
 SAM:
-  name: Sanma
-  names:
+  unofficial_names:
   - Santo-Malo
-  latitude: -15.4840017
-  longitude: 166.9182097
-  min_latitude: -15.7510071
-  min_longitude: 166.5417588
-  max_latitude: -14.643453
-  max_longitude: 167.2973799
+  translations:
+    en: Sanma
+  geo:
+    latitude: -15.4840017
+    longitude: 166.9182097
+    min_latitude: -15.7510071
+    min_longitude: 166.5417588
+    max_latitude: -14.643453
+    max_longitude: 167.2973799
+  name: Sanma
 SEE:
-  name: Shéfa
-  names:
+  unofficial_names:
   - Sandwich Island
   - Vaté
-  - "Éfaté"
-  latitude: -17.6523412
-  longitude: 168.3387066
-  min_latitude: -17.8242832
-  min_longitude: 168.1203521
-  max_latitude: -16.567901
-  max_longitude: 168.6487059
+  - Éfaté
+  translations:
+    en: Shéfa
+  geo:
+    latitude: -17.6523412
+    longitude: 168.3387066
+    min_latitude: -17.8242832
+    min_longitude: 168.1203521
+    max_latitude: -16.567901
+    max_longitude: 168.6487059
+  name: Shéfa
 TAE:
+  unofficial_names: Taféa
+  translations:
+    en: Taféa
+  geo:
+    latitude: -18.7237827
+    longitude: 169.0645056
+    min_latitude: -20.2504909
+    min_longitude: 168.9860777
+    max_latitude: -18.6213293
+    max_longitude: 170.237299
   name: Taféa
-  names: Taféa
-  latitude: -18.7237827
-  longitude: 169.0645056
-  min_latitude: -20.2504909
-  min_longitude: 168.9860777
-  max_latitude: -18.6213293
-  max_longitude: 170.237299
 TOB:
-  name: Torba
-  names:
+  unofficial_names:
   - Banks-Torres
-  latitude: -14.28096
-  longitude: 167.5160788
-  min_latitude: -14.465699
-  min_longitude: 166.5435819
-  max_latitude: -13.0724554
-  max_longitude: 168.0674347
+  translations:
+    en: Torba
+  geo:
+    latitude: -14.28096
+    longitude: 167.5160788
+    min_latitude: -14.465699
+    min_longitude: 166.5435819
+    max_latitude: -13.0724554
+    max_longitude: 168.0674347
+  name: Torba

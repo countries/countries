@@ -1,120 +1,156 @@
 ---
 AB:
-  name: Abkhazia
-  names:
+  unofficial_names:
   - Abhasia
-  latitude: 43.0015544
-  longitude: 41.023407
-  min_latitude: 42.4124548
-  min_longitude: 40.0075855
-  max_latitude: 43.586627
-  max_longitude: 42.149976
+  translations:
+    en: Abkhazia
+  geo:
+    latitude: 43.0015544
+    longitude: 41.023407
+    min_latitude: 42.4124548
+    min_longitude: 40.0075855
+    max_latitude: 43.586627
+    max_longitude: 42.149976
+  name: Abkhazia
 AJ:
-  name: Ajaria
-  names:
+  unofficial_names:
   - Achara
   - Adzharia
   - Adžaria
-  latitude: 41.6005626
-  longitude: 42.0688383
-  min_latitude: 41.4344289
-  min_longitude: 41.54839399999999
-  max_latitude: 41.9110457
-  max_longitude: 42.602322
+  translations:
+    en: Ajaria
+  geo:
+    latitude: 41.6005626
+    longitude: 42.0688383
+    min_latitude: 41.4344289
+    min_longitude: 41.54839399999999
+    max_latitude: 41.9110457
+    max_longitude: 42.602322
+  name: Ajaria
 GU:
+  unofficial_names: Guria
+  translations:
+    en: Guria
+  geo:
+    latitude: 41.9442736
+    longitude: 42.0458091
+    min_latitude: 41.78135
+    min_longitude: 41.7136319
+    max_latitude: 42.16825499999999
+    max_longitude: 42.667122
   name: Guria
-  names: Guria
-  latitude: 41.9442736
-  longitude: 42.0458091
-  min_latitude: 41.78135
-  min_longitude: 41.7136319
-  max_latitude: 42.16825499999999
-  max_longitude: 42.667122
 IM:
+  unofficial_names: Imereti
+  translations:
+    en: Imereti
+  geo:
+    latitude: 42.230108
+    longitude: 42.9008665
+    min_latitude: 41.808214
+    min_longitude: 42.2120039
+    max_latitude: 42.565433
+    max_longitude: 43.788536
   name: Imereti
-  names: Imereti
-  latitude: 42.230108
-  longitude: 42.9008665
-  min_latitude: 41.808214
-  min_longitude: 42.2120039
-  max_latitude: 42.565433
-  max_longitude: 43.788536
 KA:
-  name: Kakheti
-  names:
+  unofficial_names:
   - Kaheti
-  latitude: 41.6481602
-  longitude: 45.6905554
-  min_latitude: 41.03851299999999
-  min_longitude: 45.0147509
-  max_latitude: 42.564198
-  max_longitude: 46.7213589
+  translations:
+    en: Kakheti
+  geo:
+    latitude: 41.6481602
+    longitude: 45.6905554
+    min_latitude: 41.03851299999999
+    min_longitude: 45.0147509
+    max_latitude: 42.564198
+    max_longitude: 46.7213589
+  name: Kakheti
 KK:
+  unofficial_names: Kvemo Kartli
+  translations:
+    en: Kvemo Kartli
+  geo:
+    latitude: 41.4791833
+    longitude: 44.65604510000001
+    min_latitude: 41.15626109999999
+    min_longitude: 43.669065
+    max_latitude: 41.858702
+    max_longitude: 45.3102412
   name: Kvemo Kartli
-  names: Kvemo Kartli
-  latitude: 41.4791833
-  longitude: 44.65604510000001
-  min_latitude: 41.15626109999999
-  min_longitude: 43.669065
-  max_latitude: 41.858702
-  max_longitude: 45.3102412
 MM:
-  name: Mtskheta-Mtianeti
-  names:
+  unofficial_names:
   - Mcheta-Mtianeti
-  latitude: 42.16821849999999
-  longitude: 44.6506057
-  min_latitude: 41.68722899999999
-  min_longitude: 44.21798709999999
-  max_latitude: 42.752689
-  max_longitude: 45.30156299999999
+  translations:
+    en: Mtskheta-Mtianeti
+  geo:
+    latitude: 42.16821849999999
+    longitude: 44.6506057
+    min_latitude: 41.68722899999999
+    min_longitude: 44.21798709999999
+    max_latitude: 42.752689
+    max_longitude: 45.30156299999999
+  name: Mtskheta-Mtianeti
 RL:
-  name: Racha-Lechkhumi [and] Kvemo Svaneti
-  names:
+  unofficial_names:
   - Racha
   - Racha-Lechkumi and Kverno Svaneti
-  latitude: 42.67188729999999
-  longitude: 43.0562836
-  min_latitude: 42.366172
-  min_longitude: 42.35788900000001
-  max_latitude: 42.9666309
-  max_longitude: 43.948078
+  translations:
+    en: Racha-Lechkhumi [and] Kvemo Svaneti
+  geo:
+    latitude: 42.67188729999999
+    longitude: 43.0562836
+    min_latitude: 42.366172
+    min_longitude: 42.35788900000001
+    max_latitude: 42.9666309
+    max_longitude: 43.948078
+  name: Racha-Lechkhumi [and] Kvemo Svaneti
 SJ:
-  name: Samtskhe-Javakheti
-  names:
+  unofficial_names:
   - Samche-Žavaheti
-  latitude: 41.5479296
-  longitude: 43.2776399
-  min_latitude: 41.111591
-  min_longitude: 42.492235
-  max_latitude: 41.941421
-  max_longitude: 43.9642531
+  translations:
+    en: Samtskhe-Javakheti
+  geo:
+    latitude: 41.5479296
+    longitude: 43.2776399
+    min_latitude: 41.111591
+    min_longitude: 42.492235
+    max_latitude: 41.941421
+    max_longitude: 43.9642531
+  name: Samtskhe-Javakheti
 SK:
+  unofficial_names:
+  - Šida Kartli
+  translations:
+    en: Shida Kartli
+  geo:
+    latitude: 42.0756944
+    longitude: 43.9540462
+    min_latitude: 41.733082
+    min_longitude: 43.4199111
+    max_latitude: 42.633717
+    max_longitude: 44.569049
   name: Shida Kartli
-  names:
-  - "Šida Kartli"
-  latitude: 42.0756944
-  longitude: 43.9540462
-  min_latitude: 41.733082
-  min_longitude: 43.4199111
-  max_latitude: 42.633717
-  max_longitude: 44.569049
 SZ:
+  unofficial_names: Samegrelo-Zemo Svaneti
+  translations:
+    en: Samegrelo-Zemo Svaneti
+  geo:
+    latitude: 42.7352247
+    longitude: 42.1689362
+    min_latitude: 42.068348
+    min_longitude: 41.559906
+    max_latitude: 43.2542339
+    max_longitude: 43.152301
   name: Samegrelo-Zemo Svaneti
-  names: Samegrelo-Zemo Svaneti
-  latitude: 42.7352247
-  longitude: 42.1689362
-  min_latitude: 42.068348
-  min_longitude: 41.559906
-  max_latitude: 43.2542339
-  max_longitude: 43.152301
 TB:
-  name: Tbilisi
-  names:
+  unofficial_names:
   - Tiflis
-  latitude: 41.716667
-  longitude: 44.783333
-  min_latitude: 41.6210248
-  min_longitude: 44.59650999999999
-  max_latitude: 41.8438937
-  max_longitude: 45.0176811
+  translations:
+    en: Tbilisi
+  geo:
+    latitude: 41.716667
+    longitude: 44.783333
+    min_latitude: 41.6210248
+    min_longitude: 44.59650999999999
+    max_latitude: 41.8438937
+    max_longitude: 45.0176811
+  name: Tbilisi
