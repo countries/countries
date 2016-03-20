@@ -25,6 +25,15 @@ describe ISO3166::Data do
     expect(data['translated_names'].size).to eq (1)
   end
 
+  describe "#codes" do
+    it 'returns an array' do
+      data = ISO3166::Data.codes
+      expect(data).to be_a Array
+      expect(data.size).to eq 250
+    end
+  end
+
+
   it 'locales will load prior to return results' do
     # require 'memory_profiler'
     ISO3166.configuration.locales = [:es, :de, :en]
@@ -69,5 +78,79 @@ describe ISO3166::Data do
     ISO3166.configuration.locales = [:es, :en]
     expect(ISO3166::Data.send(:locales_to_remove) ).to eql(['de'])
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
+  end
+
+  describe 'hotloading existing data' do
+    before do
+      ISO3166::Data.register(
+        alpha2: "TW",
+        name: 'NEW Taiwan',
+        translations: {
+          'en' => "NEW Taiwan",
+          'de' => "NEW Taiwan"
+        }
+      )
+    end
+
+    subject {ISO3166::Country.new('TW')}
+
+    it 'can be done' do
+      data = ISO3166::Data.new('TW').call
+      ISO3166.configuration.locales = [:es, :de, :de]
+      expect(data['name']).to eq 'NEW Taiwan'
+      expect(subject.name).to eq 'NEW Taiwan'
+      expect(subject.translations).to eq({
+          'en' => "NEW Taiwan",
+          'de' => "NEW Taiwan"})
+    end
+  end
+
+  describe 'hotloading data' do
+    before do
+      ISO3166::Data.register(
+        alpha2: "LOL",
+        name: 'Happy Country',
+        translations: {
+          'en' => "Happy Country",
+          'de' => "glückliches Land"
+        }
+      )
+    end
+
+    subject {ISO3166::Country.new('LOL')}
+
+    it 'can be done' do
+      data = ISO3166::Data.new('LOL').call
+      expect(data['name']).to eq 'Happy Country'
+      expect(subject.name).to eq 'Happy Country'
+    end
+
+    it 'detect a stale cache' do
+      ISO3166::Data.register(alpha2: "SAD", name: 'Sad Country')
+      data = ISO3166::Data.new('SAD').call
+      expect(data['name']).to eq 'Sad Country'
+      expect(ISO3166::Country.new('SAD').name).to eq 'Sad Country'
+      ISO3166::Data.unregister('SAD')
+    end
+
+    it 'will not override custom translations' do
+      data = ISO3166::Data.new('LOL').call
+      expect(data['translations']).to eq({
+          'en' => "Happy Country",
+          'de' => "glückliches Land"})
+      expect(subject.translations).to eq({
+          'en' => "Happy Country",
+          'de' => "glückliches Land"})
+    end
+
+    it 'can be undone' do
+      ISO3166::Data.unregister('lol')
+      data = ISO3166::Data.new('LOL').call
+      expect(data).to eq nil
+    end
+
+    after do
+      ISO3166::Data.unregister('lol')
+    end
   end
 end
