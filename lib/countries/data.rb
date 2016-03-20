@@ -30,6 +30,7 @@ module ISO3166
       def reset
         @@cache = {}
         @@registered_data = {}
+        ISO3166.configuration.loaded_locales = []
       end
 
       def codes
