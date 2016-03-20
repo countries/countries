@@ -190,6 +190,25 @@ A template for formatting addresses is available through the address_format meth
 c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 ```
 
+Loading Custom Data
+-------
+As of 2.0 countries supports loading custom countries / overriding data in it's data set, though if you choose to do this please contribute back to the upstream repo!
+
+Any country registered this way will have it's data available for searching etc...
+
+``` ruby
+ISO3166::Data.register(
+  alpha2: "LOL",
+  name: 'Happy Country'
+  translations: {
+    'EN' => "Happy Country",
+    'DE' => "glückliches Land"
+  }
+)
+
+ISO3166::Country.new('LOL').name = 'Happy Country'
+```
+
 Mongoid
 -------
 
