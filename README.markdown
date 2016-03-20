@@ -9,11 +9,15 @@ Countries is a collection of all sorts of useful information for every country i
 Installation
 ------------
 
+``` bash
     gem install countries
+```
 
 If you’re in Rails 2.3 or earlier, place this in your environment.rb:
 
+``` ruby
     config.gem 'countries'
+```
 
 Or you can install via bundler Gemfile if you are using Rails 3:
 
@@ -38,10 +42,12 @@ Basic Usage
 
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
-    c = ISO3166::Country.new('US')
+``` ruby
+c = ISO3166::Country.new('US')
 
-    # with global Country Helper
-    c = Country['US']
+# with global Country Helper
+c = Country['US']
+```
 
 Configuration
 
@@ -51,117 +57,138 @@ By default we load I18n.available_locales if I18n is present, otherwise only [:e
 
 You can add all the locales like this.
 
-    ISO3166.configure do |config|
-      config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
-    end
+``` ruby
+ISO3166.configure do |config|
+  config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+end
+```
 
 or something a bit more simple
-
-    ISO3166.configure do |config|
-      config.locales = [:en, :de, :fr, :es]
-    end
+``` ruby
+ISO3166.configure do |config|
+  config.locales = [:en, :de, :fr, :es]
+end
+```    
 
 Attribute-Based Finder Methods
 ------------
 
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
-    c = ISO3166::Country.find_country_by_name('united states')
-    list = ISO3166::Country.find_all_countries_by_region('Americas')
-    c = ISO3166::Country.find_country_by_alpha3('can')
+``` ruby
+c = ISO3166::Country.find_country_by_name('united states')
+list = ISO3166::Country.find_all_countries_by_region('Americas')
+c = ISO3166::Country.find_country_by_alpha3('can')
+```
 
-For a list of available attributes please see ISO3166::Country::AttrReaders.
-Note: searches are *case insensitive*.
+For a list of available attributes please see ISO3166::Countries::DEFAULT_COUNTRY_HASH.
+Note: searches are *case insensitive and ignore accents*.
 
 Country Info
 ------------
 
-  Identification Codes
+Identification Codes
+``` ruby
+c.number #=> "840"
+c.alpha2 #=> "US"
+c.alpha3 #=> "USA"
+c.gec    #=> "US"
+```
+Names & Translations
 
-    c.number #=> "840"
-    c.alpha2 #=> "US"
-    c.alpha3 #=> "USA"
-    c.gec    #=> "US"
+``` ruby
+c.name #=> "United States"
+c.unofficial_names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
-  Names & Translations
+# Get the names for a country translated to its local languages
+c = Country[:BE]
+c.local_names #=> ["België", "Belgique", "Belgien"]
+c.local_name  #=> "België"
 
-    c.name #=> "United States"
-    c.names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
+# Get a specific translation
+c.translation('de')  #=> 'Vereinigte Staaten von Amerika'
+c.translations['fr'] #=> "États-Unis"
 
-    # Get the names for a country translated to its local languages
-    c = Country[:BE]
-    c.local_names #=> ["België", "Belgique", "Belgien"]
-    c.local_name #=> "België"
-
-    # Get a specific translation
-    c.translation('de') #=> 'Vereinigte Staaten von Amerika'
-    c.translations['fr'] #=> "États-Unis"
-
-    ISO3166::Country.translations             # {"DE"=>"Germany",...}
-    ISO3166::Country.translations('DE')       # {"DE"=>"Deutschland",...}
-    ISO3166::Country.all_translated           # ['Germany', ...]
-    ISO3166::Country.all_translated('DE')     # ['Deutschland', ...]
+ISO3166::Country.translations             #=> {"DE"=>"Germany",...}
+ISO3166::Country.translations('DE')       #=> {"DE"=>"Deutschland",...}
+ISO3166::Country.all_translated           #=> ['Germany', ...]
+ISO3166::Country.all_translated('DE')     #=> ['Deutschland', ...]
+```
 
   Subdivisions & States
 
-    c.subdivisions #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
-    c.states #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
-
+``` ruby
+c.subdivisions #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+c.states #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+```
   Location
 
-    c.latitude #=> "38 00 N"
-    c.longitude #=> "97 00 W"
-    c.latitude_dec #=> 39.44325637817383
-    c.longitude_dec #=> -98.95733642578125
+``` ruby
+c.latitude #=> "38 00 N"
+c.longitude #=> "97 00 W"
+c.latitude_dec #=> 39.44325637817383
+c.longitude_dec #=> -98.95733642578125
 
-    c.region #=> "Americas"
-    c.subregion #=> "Northern America"
+c.region #=> "Americas"
+c.subregion #=> "Northern America"
+```
 
-  Timezones **(optional)**
+Timezones **(optional)**
 
-  Add tzinfo to your gemfile, ensure it's required, Countries will not do this for you.
+Add tzinfo to your gemfile, ensure it's required, Countries will not do this for you.
 
     gem 'tzinfo', '~> 1.2', '>= 1.2.2'
 
-    c.timezones.zone_identifiers #=> ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
-  ```c.timezones.zone_info```  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
+``` ruby
+c.timezones.zone_identifiers #=> ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
+c.timezones.zone_info  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
+c.timezones # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
+```
 
-  ```c.timezones``` # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
+Telephone Routing (E164)
 
-  Telephone Routing (E164)
+``` ruby
+c.country_code #=> "1"
+c.national_destination_code_lengths #=> 3
+c.national_number_lengths #=> 10
+c.international_prefix #=> "011"
+c.national_prefix #=> "1"
+```
 
-    c.country_code #=> "1"
-    c.national_destination_code_lengths #=> 3
-    c.national_number_lengths #=> 10
-    c.international_prefix #=> "011"
-    c.national_prefix #=> "1"
+Boundry Boxes
 
-  Boundry Boxes
-
-    c.min_longitude #=> '45'
-    c.min_latitude #=> '22.166667'
-    c.max_longitude #=> '58'
-    c.max_latitude #=> '26.133333'
+``` ruby
+c.min_longitude #=> '45'
+c.min_latitude #=> '22.166667'
+c.max_longitude #=> '58'
+c.max_latitude #=> '26.133333'
+```
 
   European Union Membership
 
-    c.in_eu? #=> false
+``` ruby
+c.in_eu? #=> false
+```
 
 Currencies
 ----------
 
 Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
 
-    c.currency.iso_code #=> 'USD'
-    c.currency.name #=> 'Dollars'
-    c.currency.symbol #=> '$'
+``` ruby
+c.currency.iso_code #=> 'USD'
+c.currency.name #=> 'Dollars'
+c.currency.symbol #=> '$'
+```
 
 Address Formatting
 ------------------
 
 A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
 
-    c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+``` ruby
+c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+```
 
 Mongoid
 -------
@@ -176,41 +203,36 @@ Adds native support for searching/saving by a country object or alpha2 code.
 
 Searching:
 
-    # By alpha2
-    british_things = Things.where(country: 'GB')
-    british_things.first.country.name    # => "United Kingdom"
+```ruby
+# By alpha2
+british_things = Things.where(country: 'GB')
+british_things.first.country.name    # => "United Kingdom"
 
-    # By object
-    british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
-    british_things.first.country.name    # => "United Kingdom"
-
+# By object
+british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
+british_things.first.country.name    # => "United Kingdom"
+```
 Saving:
 
-    # By alpha2
-    british_thing = Thing.new(country: 'GB')
-    british_thing.save!
-    british_thing.country.name    # => "United Kingdom"
+```ruby
+# By alpha2
+british_thing = Thing.new(country: 'GB')
+british_thing.save!
+british_thing.country.name    # => "United Kingdom"
 
-    # By object
-    british_thing = Thing.new(country: Country.find_by_name('United Kingdom')[1])
-    british_thing.save!
-    british_thing.country.name    # => "United Kingdom"
+# By object
+british_thing = Thing.new(country: Country.find_by_name('United Kingdom')[1])
+british_thing.save!
+british_thing.country.name    # => "United Kingdom"
+```
 
 Note that the database stores only the alpha2 code and rebuilds the object when queried. To return the country name by default you can override the reader method in your model:
 
-    def country
-        super.name
-    end
-
-ToDo
-----
-
-* State select
-* Class methods for looking up information
-* Default country
-* Exclude countries
-* Preferred countries
-* Whitelist countries
+``` ruby
+def country
+    super.name
+end
+```
 
 Note on Patches/Pull Requests
 -----------------------------
@@ -235,7 +257,7 @@ the next ```rake update_cache```
 Copyright
 ---------
 
-Copyright (c) 2015 hexorx. See LICENSE for details.
+Copyright (c) 2016 hexorx. See LICENSE for details.
 
 
 [Teliax]: http://teliax.com
