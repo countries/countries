@@ -111,10 +111,6 @@ module ISO3166
       def datafile_path(file_array)
         File.join([File.dirname(__FILE__)] + file_array)
       end
-
-      def load_yaml(file_array)
-        YAML.load_file(datafile_path(file_array))
-      end
     end
   end
 end
