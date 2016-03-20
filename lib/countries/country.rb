@@ -69,8 +69,9 @@ module ISO3166
       data['translations'][locale.to_s.downcase]
     end
 
+    # TODO: Looping through locale langs could be be very slow across multiple countries
     def local_names
-      ISO3166.configuration.locales = ISO3166.configuration.locales + languages.map(&:to_sym)
+      ISO3166.configuration.locales = (ISO3166.configuration.locales + languages.map(&:to_sym)).uniq
       reload
       @local_names ||= languages.map { |language| translations[language] }
     end
