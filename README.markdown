@@ -81,7 +81,7 @@ list = ISO3166::Country.find_all_countries_by_region('Americas')
 c = ISO3166::Country.find_country_by_alpha3('can')
 ```
 
-For a list of available attributes please see ISO3166::Countries::DEFAULT_COUNTRY_HASH.
+For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
 Note: searches are *case insensitive and ignore accents*.
 
 Country Info
