@@ -82,8 +82,14 @@ describe ISO3166::Data do
 
   describe 'hotloading data' do
     before do
-      ISO3166.reset
-      ISO3166::Data.register(alpha2: "LOL", name: 'Happy Country')
+      ISO3166::Data.register(
+        alpha2: "LOL",
+        name: 'Happy Country',
+        translations: {
+          'en' => "Happy Country",
+          'de' => "glückliches Land"
+        }
+      )
     end
 
     subject {ISO3166::Country.new('LOL')}
@@ -94,14 +100,32 @@ describe ISO3166::Data do
       expect(subject.name).to eq 'Happy Country'
     end
 
+    it 'detect a stale cache' do
+      ISO3166::Data.register(alpha2: "SAD", name: 'Sad Country')
+      data = ISO3166::Data.new('SAD').call
+      expect(data['name']).to eq 'Sad Country'
+      expect(ISO3166::Country.new('SAD').name).to eq 'Sad Country'
+      ISO3166::Data.unregister('SAD')
+    end
+
+    it 'will not override custom translations' do
+      data = ISO3166::Data.new('LOL').call
+      expect(data['translations']).to eq({
+          'en' => "Happy Country",
+          'de' => "glückliches Land"})
+      expect(subject.translations).to eq({
+          'en' => "Happy Country",
+          'de' => "glückliches Land"})
+    end
+
     it 'can be undone' do
-      ISO3166.reset
+      ISO3166::Data.unregister('lol')
       data = ISO3166::Data.new('LOL').call
       expect(data).to eq nil
     end
 
-    after :each do
-      ISO3166.reset
+    after do
+      ISO3166::Data.unregister('lol')
     end
   end
 end

@@ -20,7 +20,13 @@ module ISO3166
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = \
          data.inject({}) { |a,(k,v)| a[k.to_s] = v;  a }
-        update_cache
+        @@cache = @@cache.merge(@@registered_data)
+      end
+
+      def unregister(alpha2)
+        alpha2 = alpha2.to_s.upcase
+        @@cache.delete(alpha2)
+        @@registered_data.delete(alpha2)
       end
 
       def cache
@@ -35,7 +41,7 @@ module ISO3166
 
       def codes
         load_data!
-        @@cache.keys + @@registered_data.keys
+        loaded_codes
       end
 
       def update_cache
@@ -47,7 +53,7 @@ module ISO3166
       private
 
       def load_data!
-        return @@cache unless @@cache.keys.empty?
+        return @@cache unless @@cache.size == loaded_codes || @@cache.keys.empty?
         @@cache = marshal %w(cache countries )
         @@cache = @@cache.merge(@@registered_data)
         @@cache
@@ -66,6 +72,16 @@ module ISO3166
       end
 
       private
+
+      def loaded_codes
+        (@@cache.keys + @@registered_data.keys).uniq
+      end
+
+      # Codes that we have translations for in dataset
+      def internal_codes
+        loaded_codes - @@registered_data.keys
+      end
+
       def cache_flush_required?
         locales_to_load.size != 0 || locales_to_remove.size != 0
       end
@@ -88,7 +104,7 @@ module ISO3166
 
       def load_translations(locale)
         locale_names = marshal(['cache', 'locales', locale])
-        codes.each do |alpha2|
+        internal_codes.each do |alpha2|
           @@cache[alpha2]['translations'] ||= {}
           @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
           @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
@@ -97,7 +113,7 @@ module ISO3166
       end
 
       def unload_translations(locale)
-        codes.each do |alpha2|
+        internal_codes.each do |alpha2|
           @@cache[alpha2]['translations'].delete(locale)
           @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
         end
