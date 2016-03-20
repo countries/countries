@@ -54,7 +54,7 @@ module ISO3166
 
       def load_data!
         return @@cache unless @@cache.size == loaded_codes || @@cache.keys.empty?
-        @@cache = marshal %w(cache countries )
+        @@cache = load_cache %w(cache countries.json )
         @@cache = @@cache.merge(@@registered_data)
         @@cache
       end
@@ -103,7 +103,7 @@ module ISO3166
       end
 
       def load_translations(locale)
-        locale_names = marshal(['cache', 'locales', locale])
+        locale_names = load_cache(['cache', 'locales', "#{locale}.json"])
         internal_codes.each do |alpha2|
           @@cache[alpha2]['translations'] ||= {}
           @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
@@ -120,8 +120,8 @@ module ISO3166
         ISO3166.configuration.loaded_locales.delete(locale)
       end
 
-      def marshal(file_array)
-        Marshal.load(File.binread(datafile_path file_array))
+      def load_cache(file_array)
+        JSON.load(File.binread(datafile_path file_array))
       end
 
       def datafile_path(file_array)

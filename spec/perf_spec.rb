@@ -18,14 +18,17 @@ describe ISO3166::Data, perf: true, order: :defined do
     # profile the code
     RubyProf.start
 
-    data = ISO3166::Data.new('US').call
-    expect(data['translated_names']).to be_a Array
+    100.times do
+      ISO3166.reset
+      data = ISO3166::Data.new('US').call
+      expect(data['translated_names']).to be_a Array
+    end
 
     result = RubyProf.stop
 
     # print a flat profile to text
-    printer = RubyProf::GraphPrinter.new(result)
-    printer.print(STDOUT, min_percent: 2)
+    printer = RubyProf::FlatPrinter.new(result)
+    printer.print(STDOUT)
   end
 
   it 'locales will load prior to return results' do

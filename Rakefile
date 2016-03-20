@@ -39,7 +39,7 @@ task :update_cache do
   require 'yaml'
   require 'i18n_data'
 
-  codes = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries.yaml')) || {}
+  codes = Dir['lib/countries/data/countries/*.yaml'].map {|x| File.basename(x, File.extname(x))}.uniq
   data = {}
   empty_translations_hash = {}
   corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
@@ -59,14 +59,14 @@ task :update_cache do
       end
     end
 
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', locale), 'wb') { |f| f.write(Marshal.dump(local_names)) }
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale}.json"), 'wb') { |f| f.write(local_names.to_json) }
   end
 
   codes.each do |alpha2|
     data[alpha2] ||= YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries'), 'wb') { |f| f.write(Marshal.dump(data)) }
+  File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json'), 'wb') { |f| f.write(data.to_json) }
 end
 
 require 'geocoder'
