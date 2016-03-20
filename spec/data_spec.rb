@@ -80,6 +80,31 @@ describe ISO3166::Data do
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 
+  describe 'hotloading existing data' do
+    before do
+      ISO3166::Data.register(
+        alpha2: "TW",
+        name: 'NEW Taiwan',
+        translations: {
+          'en' => "NEW Taiwan",
+          'de' => "NEW Taiwan"
+        }
+      )
+    end
+
+    subject {ISO3166::Country.new('TW')}
+
+    it 'can be done' do
+      data = ISO3166::Data.new('TW').call
+      ISO3166.configuration.locales = [:es, :de, :de]
+      expect(data['name']).to eq 'NEW Taiwan'
+      expect(subject.name).to eq 'NEW Taiwan'
+      expect(subject.translations).to eq({
+          'en' => "NEW Taiwan",
+          'de' => "NEW Taiwan"})
+    end
+  end
+
   describe 'hotloading data' do
     before do
       ISO3166::Data.register(

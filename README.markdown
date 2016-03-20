@@ -194,7 +194,7 @@ Loading Custom Data
 -------
 As of 2.0 countries supports loading custom countries / overriding data in it's data set, though if you choose to do this please contribute back to the upstream repo!
 
-Any country registered this way will have it's data available for searching etc...
+Any country registered this way will have it's data available for searching etc... If you are overriding an existing country, for cultural reasons, our code uses a simple merge, not a deep merge so you will need to __bring in all data you wish to be available__.  Bringing in an existing country will also remove it from the internal management of translations, __all registered countries will remain in memory__.
 
 ``` ruby
 ISO3166::Data.register(
