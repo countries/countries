@@ -1,7 +1,8 @@
 module ISO3166
   class Country
+    extend CountryClassMethods
     attr_reader :data
-
+    
     ISO3166::DEFAULT_COUNTRY_HASH.each do |method_name, type|
       define_method method_name do
         data[method_name.to_s]
