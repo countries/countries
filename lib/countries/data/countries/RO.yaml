@@ -9,20 +9,10 @@ RO:
   alpha2: RO
   alpha3: ROU
   country_code: '40'
-  currency: RON
   international_prefix: '00'
   ioc: ROU
   gec: RO
-  latitude: 46 00 N
-  longitude: 25 00 E
   name: Romania
-  names:
-  - Romania
-  - Rumänien
-  - Roumanie
-  - Rumania
-  - "ルーマニア"
-  - Roemenië
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,8 +23,6 @@ RO:
   subregion: Eastern Europe
   world_region: EMEA
   un_locode: RO
-  languages:
-  - ro
   nationality: Romanian
   eu_member: true
   vat_rates:
@@ -45,9 +33,24 @@ RO:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '19'
-  min_latitude: '43.666667'
-  max_longitude: '29.65'
-  max_latitude: '48.25'
-  latitude_dec: '45.83774185180664'
-  longitude_dec: '25.005935668945312'
+  unofficial_names:
+  - Romania
+  - Rumänien
+  - Roumanie
+  - Rumania
+  - "ルーマニア"
+  - Roemenië
+  languages_official:
+  - ro
+  languages_spoken:
+  - ro
+  geo:
+    latitude: 46 00 N
+    latitude_dec: '45.83774185180664'
+    longitude: 25 00 E
+    longitude_dec: '25.005935668945312'
+    max_latitude: '48.25'
+    max_longitude: '29.65'
+    min_latitude: '43.666667'
+    min_longitude: '19'
+  currency_code: RON

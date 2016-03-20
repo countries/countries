@@ -9,20 +9,10 @@ NL:
   alpha2: NL
   alpha3: NLD
   country_code: '31'
-  currency: EUR
   international_prefix: '00'
   ioc: NED
   gec: NL
-  latitude: 52 30 N
-  longitude: 5 45 E
   name: Netherlands
-  names:
-  - Netherlands
-  - Niederlande
-  - Pays-Bas
-  - Países Bajos
-  - "オランダ"
-  - Nederland
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,8 +23,6 @@ NL:
   subregion: Western Europe
   world_region: EMEA
   un_locode: NL
-  languages:
-  - nl
   nationality: Dutch
   eu_member: true
   vat_rates:
@@ -44,9 +32,24 @@ NL:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '3.133333'
-  min_latitude: '50.75'
-  max_longitude: '7.2'
-  max_latitude: '53.583333'
-  latitude_dec: '52.34225845336914'
-  longitude_dec: '5.5281572341918945'
+  unofficial_names:
+  - Netherlands
+  - Niederlande
+  - Pays-Bas
+  - Países Bajos
+  - "オランダ"
+  - Nederland
+  languages_official:
+  - nl
+  languages_spoken:
+  - nl
+  geo:
+    latitude: 52 30 N
+    latitude_dec: '52.34225845336914'
+    longitude: 5 45 E
+    longitude_dec: '5.5281572341918945'
+    max_latitude: '53.583333'
+    max_longitude: '7.2'
+    min_latitude: '50.75'
+    min_longitude: '3.133333'
+  currency_code: EUR

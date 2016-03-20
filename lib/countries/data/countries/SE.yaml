@@ -9,20 +9,10 @@ SE:
   alpha2: SE
   alpha3: SWE
   country_code: '46'
-  currency: SEK
   international_prefix: '00'
   ioc: SWE
   gec: SW
-  latitude: 62 00 N
-  longitude: 15 00 E
   name: Sweden
-  names:
-  - Sweden
-  - Schweden
-  - Suède
-  - Suecia
-  - "スウェーデン"
-  - Zweden
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,8 +23,6 @@ SE:
   subregion: Northern Europe
   world_region: EMEA
   un_locode: SE
-  languages:
-  - sv
   nationality: Swedish
   eu_member: true
   vat_rates:
@@ -45,9 +33,24 @@ SE:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '10.958333'
-  min_latitude: '46.758333'
-  max_longitude: '25'
-  max_latitude: '69.033333'
-  latitude_dec: '62.67497253417969'
-  longitude_dec: '16.798059463500977'
+  unofficial_names:
+  - Sweden
+  - Schweden
+  - Suède
+  - Suecia
+  - "スウェーデン"
+  - Zweden
+  languages_official:
+  - sv
+  languages_spoken:
+  - sv
+  geo:
+    latitude: 62 00 N
+    latitude_dec: '62.67497253417969'
+    longitude: 15 00 E
+    longitude_dec: '16.798059463500977'
+    max_latitude: '69.033333'
+    max_longitude: '25'
+    min_latitude: '46.758333'
+    min_longitude: '10.958333'
+  currency_code: SEK

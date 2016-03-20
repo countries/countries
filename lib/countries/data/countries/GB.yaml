@@ -11,21 +11,10 @@ GB:
   alpha2: GB
   alpha3: GBR
   country_code: '44'
-  currency: GBP
   international_prefix: '00'
   ioc: GBR
   gec: UK
-  latitude: 54 00 N
-  longitude: 2 00 W
   name: United Kingdom
-  names:
-  - United Kingdom
-  - Vereinigtes Königreich
-  - Royaume-Uni
-  - Reino Unido
-  - "イギリス"
-  - Verenigd Koninkrijk
-  - Great Britain (UK)
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -37,8 +26,6 @@ GB:
   subregion: Northern Europe
   world_region: EMEA
   un_locode: GB
-  languages:
-  - en
   nationality: British
   eu_member: true
   vat_rates:
@@ -48,9 +35,25 @@ GB:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: "-13.65"
-  min_latitude: '49.866667'
-  max_longitude: '2.866667'
-  max_latitude: '61.5'
-  latitude_dec: '54.56088638305664'
-  longitude_dec: "-2.2125117778778076"
+  unofficial_names:
+  - United Kingdom
+  - Vereinigtes Königreich
+  - Royaume-Uni
+  - Reino Unido
+  - "イギリス"
+  - Verenigd Koninkrijk
+  - Great Britain (UK)
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 54 00 N
+    latitude_dec: '54.56088638305664'
+    longitude: 2 00 W
+    longitude_dec: "-2.2125117778778076"
+    max_latitude: '61.5'
+    max_longitude: '2.866667'
+    min_latitude: '49.866667'
+    min_longitude: "-13.65"
+  currency_code: GBP

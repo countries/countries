@@ -87,33 +87,31 @@ Note: searches are *case insensitive and ignore accents*.
 Country Info
 ------------
 
-Identification Codes
-``` ruby
-c.number #=> "840"
-c.alpha2 #=> "US"
-c.alpha3 #=> "USA"
-c.gec    #=> "US"
-```
-Names & Translations
+  Identification Codes
 
-``` ruby
-c.name #=> "United States"
-c.unofficial_names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
+    c.number #=> "840"
+    c.alpha2 #=> "US"
+    c.alpha3 #=> "USA"
+    c.gec    #=> "US"
 
-# Get the names for a country translated to its local languages
-c = Country[:BE]
-c.local_names #=> ["België", "Belgique", "Belgien"]
-c.local_name  #=> "België"
+  Names & Translations
 
-# Get a specific translation
-c.translation('de')  #=> 'Vereinigte Staaten von Amerika'
-c.translations['fr'] #=> "États-Unis"
+    c.name #=> "United States"
+    c.unofficial_names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
-ISO3166::Country.translations             #=> {"DE"=>"Germany",...}
-ISO3166::Country.translations('DE')       #=> {"DE"=>"Deutschland",...}
-ISO3166::Country.all_translated           #=> ['Germany', ...]
-ISO3166::Country.all_translated('DE')     #=> ['Deutschland', ...]
-```
+    # Get the names for a country translated to its local languages
+    c = Country[:BE]
+    c.local_names #=> ["België", "Belgique", "Belgien"]
+    c.local_name #=> "België"
+
+    # Get a specific translation
+    c.translation('de') #=> 'Vereinigte Staaten von Amerika'
+    c.translations['fr'] #=> "États-Unis"
+
+    ISO3166::Country.translations             # {"DE"=>"Germany",...}
+    ISO3166::Country.translations('DE')       # {"DE"=>"Deutschland",...}
+    ISO3166::Country.all_translated           # ['Germany', ...]
+    ISO3166::Country.all_translated('DE')     # ['Deutschland', ...]
 
   Subdivisions & States
 

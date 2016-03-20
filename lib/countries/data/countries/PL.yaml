@@ -10,19 +10,10 @@ PL:
   alpha2: PL
   alpha3: POL
   country_code: '48'
-  currency: PLN
   international_prefix: '00'
   ioc: POL
   gec: PL
-  latitude: 52 00 N
-  longitude: 20 00 E
   name: Poland
-  names:
-  - Poland
-  - Polen
-  - Pologne
-  - Polonia
-  - "ポーランド"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,8 +24,6 @@ PL:
   subregion: Eastern Europe
   world_region: EMEA
   un_locode: PL
-  languages:
-  - pl
   nationality: Polish
   eu_member: true
   vat_rates:
@@ -45,9 +34,23 @@ PL:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '14'
-  min_latitude: '45.5'
-  max_longitude: '26.5'
-  max_latitude: '54.833333'
-  latitude_dec: '52.147850036621094'
-  longitude_dec: '19.37775993347168'
+  unofficial_names:
+  - Poland
+  - Polen
+  - Pologne
+  - Polonia
+  - "ポーランド"
+  languages_official:
+  - pl
+  languages_spoken:
+  - pl
+  geo:
+    latitude: 52 00 N
+    latitude_dec: '52.147850036621094'
+    longitude: 20 00 E
+    longitude_dec: '19.37775993347168'
+    max_latitude: '54.833333'
+    max_longitude: '26.5'
+    min_latitude: '45.5'
+    min_longitude: '14'
+  currency_code: PLN

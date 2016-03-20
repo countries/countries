@@ -148,6 +148,7 @@ describe ISO3166::Country do
   end
 
   describe 'subdivisions' do
+    let(:virginia) { country.states['VA'] }
     it 'should return an empty hash for a country with no ISO3166-2' do
       expect(ISO3166::Country.search('VA').subdivisions.size).to eq(0)
     end
@@ -158,6 +159,18 @@ describe ISO3166::Country do
 
     it 'should be available through states' do
       expect(country.states.size).to eq(60)
+    end
+
+    it 'should be a subdivision object' do
+      expect(virginia).to be_a(ISO3166::Subdivision)
+    end
+
+    it 'should have a name' do
+      expect(virginia.name).to eq("Virginia")
+    end
+
+    it 'should behave like a hash' do
+      expect(virginia["name"]).to eq("Virginia")
     end
   end
 
@@ -570,7 +583,7 @@ describe ISO3166::Country do
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
       names = ISO3166::Data.cache.map do |_k, v|
-        [v['name'], v['names']].flatten.uniq
+        [v['name'], v['unofficial_names']].flatten.uniq
       end.flatten
 
       expect(names.size).to eq(names.uniq.size)

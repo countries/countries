@@ -9,19 +9,10 @@ YE:
   alpha2: YE
   alpha3: YEM
   country_code: '967'
-  currency: YER
   international_prefix: '00'
   ioc: YEM
   gec: YM
-  latitude: 15 00 N
-  longitude: 48 00 E
   name: Yemen
-  names:
-  - Yemen
-  - "اليمن"
-  - Jemen
-  - Yémen
-  - "イエメン"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -34,13 +25,25 @@ YE:
   subregion: Western Asia
   world_region: EMEA
   un_locode: YE
-  languages:
-  - ar
   nationality: Yemeni
   postal_code: false
-  min_longitude: '41.833333'
-  min_latitude: '12.1'
-  max_longitude: '54.533333'
-  max_latitude: '27.695278'
-  latitude_dec: '15.888387680053711'
-  longitude_dec: '47.48988723754883'
+  unofficial_names:
+  - Yemen
+  - "اليمن"
+  - Jemen
+  - Yémen
+  - "イエメン"
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  geo:
+    latitude: 15 00 N
+    latitude_dec: '15.888387680053711'
+    longitude: 48 00 E
+    longitude_dec: '47.48988723754883'
+    max_latitude: '27.695278'
+    max_longitude: '54.533333'
+    min_latitude: '12.1'
+    min_longitude: '41.833333'
+  currency_code: YER

@@ -9,20 +9,10 @@ LB:
   alpha2: LB
   alpha3: LBN
   country_code: '961'
-  currency: LBP
   international_prefix: '00'
   ioc: LIB
   gec: LE
-  latitude: 33 50 N
-  longitude: 35 50 E
   name: Lebanon
-  names:
-  - Lebanon
-  - "لبنان"
-  - Libanon
-  - Liban
-  - Líbano
-  - "レバノン"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,14 +23,28 @@ LB:
   subregion: Western Asia
   world_region: EMEA
   un_locode: LB
-  languages:
-  - ar
-  - fr
   nationality: Lebanese
   postal_code: true
-  min_longitude: '35.103611'
-  min_latitude: '33.078333'
-  max_longitude: '36.592778'
-  max_latitude: '34.69'
-  latitude_dec: '33.925411224365234'
-  longitude_dec: '35.89972686767578'
+  unofficial_names:
+  - Lebanon
+  - "لبنان"
+  - Libanon
+  - Liban
+  - Líbano
+  - "レバノン"
+  languages_official:
+  - ar
+  - fr
+  languages_spoken:
+  - ar
+  - fr
+  geo:
+    latitude: 33 50 N
+    latitude_dec: '33.925411224365234'
+    longitude: 35 50 E
+    longitude_dec: '35.89972686767578'
+    max_latitude: '34.69'
+    max_longitude: '36.592778'
+    min_latitude: '33.078333'
+    min_longitude: '35.103611'
+  currency_code: LBP

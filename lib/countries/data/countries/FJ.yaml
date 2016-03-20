@@ -4,18 +4,10 @@ FJ:
   alpha2: FJ
   alpha3: FJI
   country_code: '679'
-  currency: USD
   international_prefix: '00'
   ioc: FIJ
   gec: FJ
-  latitude: 18 00 S
-  longitude: 175 00 E
   name: Fiji
-  names:
-  - Fiji
-  - Fidschi
-  - Fidji
-  - "フィジー"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -26,16 +18,30 @@ FJ:
   subregion: Melanesia
   world_region: APAC
   un_locode: FJ
-  languages:
+  nationality: Fijian
+  postal_code: false
+  unofficial_names:
+  - Fiji
+  - Fidschi
+  - Fidji
+  - "フィジー"
+  languages_official:
   - en
   - fj
   - hi
   - ur
-  nationality: Fijian
-  postal_code: false
-  min_longitude: '180'
-  min_latitude: "-21.016667"
-  max_longitude: "-179.983333"
-  max_latitude: "-12.466667"
-  latitude_dec: "-17.658161163330078"
-  longitude_dec: '178.1472625732422'
+  languages_spoken:
+  - en
+  - fj
+  - hi
+  - ur
+  geo:
+    latitude: 18 00 S
+    latitude_dec: "-17.658161163330078"
+    longitude: 175 00 E
+    longitude_dec: '178.1472625732422'
+    max_latitude: "-12.466667"
+    max_longitude: "-179.983333"
+    min_latitude: "-21.016667"
+    min_longitude: '180'
+  currency_code: USD

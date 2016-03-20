@@ -4,18 +4,10 @@ TM:
   alpha2: TM
   alpha3: TKM
   country_code: '993'
-  currency: TMT
   international_prefix: '810'
   ioc: TKM
   gec: TX
-  latitude: 40 00 N
-  longitude: 60 00 E
   name: Turkmenistan
-  names:
-  - Turkmenistan
-  - Turkménistan
-  - Turkmenistán
-  - "トルクメニスタン"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -26,14 +18,26 @@ TM:
   subregion: Central Asia
   world_region: EMEA
   un_locode: TM
-  languages:
-  - tk
-  - ru
   nationality: Turkmen
   postal_code: true
-  min_longitude: '52.5'
-  min_latitude: '35.216667'
-  max_longitude: '66.65'
-  max_latitude: '42.566667'
-  latitude_dec: '39.2012825012207'
-  longitude_dec: '59.082252502441406'
+  unofficial_names:
+  - Turkmenistan
+  - Turkménistan
+  - Turkmenistán
+  - "トルクメニスタン"
+  languages_official:
+  - tk
+  - ru
+  languages_spoken:
+  - tk
+  - ru
+  geo:
+    latitude: 40 00 N
+    latitude_dec: '39.2012825012207'
+    longitude: 60 00 E
+    longitude_dec: '59.082252502441406'
+    max_latitude: '42.566667'
+    max_longitude: '66.65'
+    min_latitude: '35.216667'
+    min_longitude: '52.5'
+  currency_code: TMT

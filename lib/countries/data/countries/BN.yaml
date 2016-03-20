@@ -4,16 +4,10 @@ BN:
   alpha2: BN
   alpha3: BRN
   country_code: '673'
-  currency: BND
   international_prefix: '00'
   ioc: BRU
   gec: BX
-  latitude: 4 30 N
-  longitude: 114 40 E
   name: Brunei Darussalam
-  names:
-  - Brunei
-  - "ブルネイ・ダルサラーム"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,13 +18,22 @@ BN:
   subregion: South-Eastern Asia
   world_region: APAC
   un_locode: BN
-  languages:
-  - ms
   nationality: Bruneian
   postal_code: true
-  min_longitude: '110'
-  min_latitude: "-2"
-  max_longitude: '120'
-  max_latitude: '5.05'
-  latitude_dec: '4.5703840255737305'
-  longitude_dec: '114.74818420410156'
+  unofficial_names:
+  - Brunei
+  - "ブルネイ・ダルサラーム"
+  languages_official:
+  - ms
+  languages_spoken:
+  - ms
+  geo:
+    latitude: 4 30 N
+    latitude_dec: '4.5703840255737305'
+    longitude: 114 40 E
+    longitude_dec: '114.74818420410156'
+    max_latitude: '5.05'
+    max_longitude: '120'
+    min_latitude: "-2"
+    min_longitude: '110'
+  currency_code: BND

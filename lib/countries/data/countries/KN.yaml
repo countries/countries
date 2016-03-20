@@ -4,22 +4,10 @@ KN:
   alpha2: KN
   alpha3: KNA
   country_code: '1'
-  currency: XCD
   international_prefix: '011'
   ioc: SKN
   gec: SC
-  latitude: 17 20 N
-  longitude: 62 45 W
   name: Saint Kitts And Nevis
-  names:
-  - Saint Kitts and Nevis
-  - Föderation St. Kitts und Nevis
-  - Saint Kitts et Nevis
-  - Saint Kitts y Nevis
-  - "セントクリストファー・ネイビス"
-  - Saint Kitts en Nevis
-  - St. Kitts and Nevis
-  - St Kitts and Nevis
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -30,13 +18,28 @@ KN:
   subregion: Caribbean
   world_region: AMER
   un_locode: KN
-  languages:
-  - en
   nationality: Kittian and Nevisian
   postal_code: false
-  min_longitude: "-62.85"
-  min_latitude: '17.1'
-  max_longitude: "-62.516667"
-  max_latitude: '17.416667'
-  latitude_dec: '17.24447250366211'
-  longitude_dec: "-62.643184661865234"
+  unofficial_names:
+  - Saint Kitts and Nevis
+  - Föderation St. Kitts und Nevis
+  - Saint Kitts et Nevis
+  - Saint Kitts y Nevis
+  - "セントクリストファー・ネイビス"
+  - Saint Kitts en Nevis
+  - St. Kitts and Nevis
+  - St Kitts and Nevis
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 17 20 N
+    latitude_dec: '17.24447250366211'
+    longitude: 62 45 W
+    longitude_dec: "-62.643184661865234"
+    max_latitude: '17.416667'
+    max_longitude: "-62.516667"
+    min_latitude: '17.1'
+    min_longitude: "-62.85"
+  currency_code: XCD

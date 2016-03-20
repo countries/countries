@@ -4,16 +4,10 @@ DM:
   alpha2: DM
   alpha3: DMA
   country_code: '1'
-  currency: XCD
   international_prefix: '011'
   ioc: DMA
   gec: DO
-  latitude: 15 25 N
-  longitude: 61 20 W
   name: Dominica
-  names:
-  - Dominica
-  - "ドミニカ国"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -24,13 +18,22 @@ DM:
   subregion: Caribbean
   world_region: AMER
   un_locode: DM
-  languages:
-  - en
   nationality: Dominican
   postal_code: false
-  min_longitude: "-61.483333"
-  min_latitude: '15.2'
-  max_longitude: "-61.25"
-  max_latitude: '15.633333'
-  latitude_dec: '15.3991060256958'
-  longitude_dec: "-61.33945846557617"
+  unofficial_names:
+  - Dominica
+  - "ドミニカ国"
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 15 25 N
+    latitude_dec: '15.3991060256958'
+    longitude: 61 20 W
+    longitude_dec: "-61.33945846557617"
+    max_latitude: '15.633333'
+    max_longitude: "-61.25"
+    min_latitude: '15.2'
+    min_longitude: "-61.483333"
+  currency_code: XCD

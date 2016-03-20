@@ -10,18 +10,10 @@ IN:
   alpha2: IN
   alpha3: IND
   country_code: '91'
-  currency: INR
   international_prefix: '00'
   ioc: IND
   gec: IN
-  latitude: 20 00 N
-  longitude: 77 00 E
   name: India
-  names:
-  - India
-  - Indien
-  - Inde
-  - "インド"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -32,14 +24,26 @@ IN:
   subregion: Southern Asia
   world_region: APAC
   un_locode: IN
-  languages:
-  - hi
-  - en
   nationality: Indian
   postal_code: true
-  min_longitude: '67.016667'
-  min_latitude: '6.755556'
-  max_longitude: '97.35'
-  max_latitude: '35.9558333333'
-  latitude_dec: '23.4060115814209'
-  longitude_dec: '79.45809173583984'
+  unofficial_names:
+  - India
+  - Indien
+  - Inde
+  - "インド"
+  languages_official:
+  - hi
+  - en
+  languages_spoken:
+  - hi
+  - en
+  geo:
+    latitude: 20 00 N
+    latitude_dec: '23.4060115814209'
+    longitude: 77 00 E
+    longitude_dec: '79.45809173583984'
+    max_latitude: '35.9558333333'
+    max_longitude: '97.35'
+    min_latitude: '6.755556'
+    min_longitude: '67.016667'
+  currency_code: INR

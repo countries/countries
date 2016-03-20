@@ -4,17 +4,10 @@ MZ:
   alpha2: MZ
   alpha3: MOZ
   country_code: '258'
-  currency: MZN
   international_prefix: '00'
   ioc: MOZ
   gec: MZ
-  latitude: 18 15 S
-  longitude: 35 00 E
   name: Mozambique
-  names:
-  - Mozambique
-  - Mosambik
-  - "モザンビーク"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -26,13 +19,23 @@ MZ:
   subregion: Eastern Africa
   world_region: EMEA
   un_locode: MZ
-  languages:
-  - pt
   nationality: Mozambican
   postal_code: true
-  min_longitude: '30.231389'
-  min_latitude: "-26.857222"
-  max_longitude: '40.845278'
-  max_latitude: '15.033333'
-  latitude_dec: "-17.555864334106445"
-  longitude_dec: '35.955692291259766'
+  unofficial_names:
+  - Mozambique
+  - Mosambik
+  - "モザンビーク"
+  languages_official:
+  - pt
+  languages_spoken:
+  - pt
+  geo:
+    latitude: 18 15 S
+    latitude_dec: "-17.555864334106445"
+    longitude: 35 00 E
+    longitude_dec: '35.955692291259766'
+    max_latitude: '15.033333'
+    max_longitude: '40.845278'
+    min_latitude: "-26.857222"
+    min_longitude: '30.231389'
+  currency_code: MZN

@@ -9,20 +9,10 @@ FR:
   alpha2: FR
   alpha3: FRA
   country_code: '33'
-  currency: EUR
   international_prefix: '00'
   ioc: FRA
   gec: FR
-  latitude: 46 00 N
-  longitude: 2 00 E
   name: France
-  names:
-  - France
-  - Frankreich
-  - the French Republic
-  - "フランス"
-  - Frankrijk
-  - Francia
   national_destination_code_lengths:
   - 1
   national_number_lengths:
@@ -34,8 +24,6 @@ FR:
   subregion: Western Europe
   world_region: EMEA
   un_locode: FR
-  languages:
-  - fr
   nationality: French
   eu_member: true
   vat_rates:
@@ -46,9 +34,24 @@ FR:
     super_reduced: 2.1
     parking: 
   postal_code: true
-  min_longitude: "-5.14"
-  min_latitude: '41.34'
-  max_longitude: '9.56'
-  max_latitude: '51.09'
-  latitude_dec: '46.63727951049805'
-  longitude_dec: '2.3382623195648193'
+  unofficial_names:
+  - France
+  - Frankreich
+  - the French Republic
+  - "フランス"
+  - Frankrijk
+  - Francia
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  geo:
+    latitude: 46 00 N
+    latitude_dec: '46.63727951049805'
+    longitude: 2 00 E
+    longitude_dec: '2.3382623195648193'
+    max_latitude: '51.09'
+    max_longitude: '9.56'
+    min_latitude: '41.34'
+    min_longitude: "-5.14"
+  currency_code: EUR

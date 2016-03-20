@@ -10,19 +10,10 @@ KW:
   alpha2: KW
   alpha3: KWT
   country_code: '965'
-  currency: KWD
   international_prefix: '00'
   ioc: KUW
   gec: KU
-  latitude: 29 30 N
-  longitude: 45 45 E
   name: Kuwait
-  names:
-  - Kuwait
-  - "الكويت"
-  - Koweït
-  - "クウェート"
-  - Koeweit
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,13 +24,25 @@ KW:
   subregion: Western Asia
   world_region: EMEA
   un_locode: KW
-  languages:
-  - ar
   nationality: Kuwaiti
   postal_code: true
-  min_longitude: '45'
-  min_latitude: '25'
-  max_longitude: '49.410556'
-  max_latitude: '30.069444'
-  latitude_dec: '29.321941375732422'
-  longitude_dec: '47.60246658325195'
+  unofficial_names:
+  - Kuwait
+  - "الكويت"
+  - Koweït
+  - "クウェート"
+  - Koeweit
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  geo:
+    latitude: 29 30 N
+    latitude_dec: '29.321941375732422'
+    longitude: 45 45 E
+    longitude_dec: '47.60246658325195'
+    max_latitude: '30.069444'
+    max_longitude: '49.410556'
+    min_latitude: '25'
+    min_longitude: '45'
+  currency_code: KWD

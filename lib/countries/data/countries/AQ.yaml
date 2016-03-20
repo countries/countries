@@ -4,19 +4,10 @@ AQ:
   alpha2: AQ
   alpha3: ATA
   country_code: '672'
-  currency: USD
   international_prefix: ''
-  ioc:
+  ioc: 
   gec: AY
-  latitude: 90 00 S
-  longitude: 0 00 E
   name: Antarctica
-  names:
-  - Antarctica
-  - Antarktis
-  - Antarctique
-  - Antártida
-  - "南極"
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -25,12 +16,23 @@ AQ:
   region: ''
   subregion: ''
   un_locode: AQ
-  languages: []
   nationality: ''
   postal_code: true
-  min_longitude: "-180.0"
-  min_latitude: "-90.0"
-  max_longitude: '180.0'
-  max_latitude: "-60.0"
-  latitude_dec: "-82.862752"
-  longitude_dec: "-135.0"
+  unofficial_names:
+  - Antarctica
+  - Antarktis
+  - Antarctique
+  - Antártida
+  - "南極"
+  languages_official: []
+  languages_spoken: []
+  geo:
+    latitude: 90 00 S
+    latitude_dec: "-82.862752"
+    longitude: 0 00 E
+    longitude_dec: "-135.0"
+    max_latitude: "-60.0"
+    max_longitude: '180.0'
+    min_latitude: "-90.0"
+    min_longitude: "-180.0"
+  currency_code: USD

@@ -4,22 +4,10 @@ VC:
   alpha2: VC
   alpha3: VCT
   country_code: '1'
-  currency: XCD
   international_prefix: '011'
   ioc: VIN
   gec: VC
-  latitude: 13 15 N
-  longitude: 61 12 W
   name: Saint Vincent And The Grenadines
-  names:
-  - Saint Vincent and the Grenadines
-  - Saint Vincent und die Grenadinen
-  - Saint-Vincent et les Grenadines
-  - San Vicente y Granadinas
-  - "セントビンセントおよびグレナディーン諸島"
-  - Saint Vincent en de Grenadines
-  - St. Vincent Grenadines
-  - St Vincent Grenadines
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -30,13 +18,28 @@ VC:
   subregion: Caribbean
   world_region: AMER
   un_locode: VC
-  languages:
-  - en
   nationality: Saint Vincentian
   postal_code: true
-  min_longitude: "-61.433333"
-  min_latitude: '12.533333'
-  max_longitude: "-61.116667"
-  max_latitude: '13.366667'
-  latitude_dec: '13.217251777648926'
-  longitude_dec: "-61.19344711303711"
+  unofficial_names:
+  - Saint Vincent and the Grenadines
+  - Saint Vincent und die Grenadinen
+  - Saint-Vincent et les Grenadines
+  - San Vicente y Granadinas
+  - "セントビンセントおよびグレナディーン諸島"
+  - Saint Vincent en de Grenadines
+  - St. Vincent Grenadines
+  - St Vincent Grenadines
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 13 15 N
+    latitude_dec: '13.217251777648926'
+    longitude: 61 12 W
+    longitude_dec: "-61.19344711303711"
+    max_latitude: '13.366667'
+    max_longitude: "-61.116667"
+    min_latitude: '12.533333'
+    min_longitude: "-61.433333"
+  currency_code: XCD

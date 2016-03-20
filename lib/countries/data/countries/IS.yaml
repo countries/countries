@@ -9,20 +9,10 @@ IS:
   alpha2: IS
   alpha3: ISL
   country_code: '354'
-  currency: ISK
   international_prefix: '00'
   ioc: ISL
   gec: IC
-  latitude: 65 00 N
-  longitude: 18 00 W
   name: Iceland
-  names:
-  - Iceland
-  - Island
-  - Islande
-  - Islandia
-  - "アイスランド"
-  - IJsland
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -35,13 +25,26 @@ IS:
   subregion: Northern Europe
   world_region: EMEA
   un_locode: IS
-  languages:
-  - is
   nationality: Icelander
   postal_code: true
-  min_longitude: "-24.533333"
-  min_latitude: '63.3'
-  max_longitude: "-13.2"
-  max_latitude: '66.566667'
-  latitude_dec: '64.9285659790039'
-  longitude_dec: "-18.961700439453125"
+  unofficial_names:
+  - Iceland
+  - Island
+  - Islande
+  - Islandia
+  - "アイスランド"
+  - IJsland
+  languages_official:
+  - is
+  languages_spoken:
+  - is
+  geo:
+    latitude: 65 00 N
+    latitude_dec: '64.9285659790039'
+    longitude: 18 00 W
+    longitude_dec: "-18.961700439453125"
+    max_latitude: '66.566667'
+    max_longitude: "-13.2"
+    min_latitude: '63.3'
+    min_longitude: "-24.533333"
+  currency_code: ISK

@@ -9,20 +9,10 @@ BR:
   alpha2: BR
   alpha3: BRA
   country_code: '55'
-  currency: BRL
   international_prefix: '0014'
   ioc: BRA
   gec: BR
-  latitude: 10 00 S
-  longitude: 55 00 W
   name: Brazil
-  names:
-  - Brazil
-  - Brasilien
-  - Brésil
-  - Brasil
-  - "ブラジル"
-  - Brazilië
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -34,13 +24,26 @@ BR:
   subregion: South America
   world_region: AMER
   un_locode: BR
-  languages:
-  - pt-BR
   nationality: Brazilian
   postal_code: true
-  min_longitude: "-73.75"
-  min_latitude: "-33.733333"
-  max_longitude: "-28.85"
-  max_latitude: '5.266667'
-  latitude_dec: "-10.81045150756836"
-  longitude_dec: "-52.97311782836914"
+  unofficial_names:
+  - Brazil
+  - Brasilien
+  - Brésil
+  - Brasil
+  - "ブラジル"
+  - Brazilië
+  languages_official:
+  - pt-BR
+  languages_spoken:
+  - pt-BR
+  geo:
+    latitude: 10 00 S
+    latitude_dec: "-10.81045150756836"
+    longitude: 55 00 W
+    longitude_dec: "-52.97311782836914"
+    max_latitude: '5.266667'
+    max_longitude: "-28.85"
+    min_latitude: "-33.733333"
+    min_longitude: "-73.75"
+  currency_code: BRL

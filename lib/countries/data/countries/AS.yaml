@@ -4,20 +4,10 @@ AS:
   alpha2: AS
   alpha3: ASM
   country_code: '1'
-  currency: USD
   international_prefix: '011'
   ioc: ASA
   gec: AQ
-  latitude: 14 20 S
-  longitude: 170 00 W
   name: American Samoa
-  names:
-  - American Samoa
-  - Amerikanisch-Samoa
-  - Samoa américaines
-  - Samoa Americana
-  - "アメリカ領サモア"
-  - Amerikaans Samoa
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -28,14 +18,28 @@ AS:
   subregion: Polynesia
   world_region: APAC
   un_locode: AS
-  languages:
-  - en
-  - sm
   nationality: American Samoan
   postal_code: true
-  min_longitude: "-171.091873"
-  min_latitude: "-14.382470"
-  max_longitude: "-169.416077"
-  max_latitude: "-11.049690"
-  latitude_dec: "-14.31956672668457"
-  longitude_dec: "-170.7403564453125"
+  unofficial_names:
+  - American Samoa
+  - Amerikanisch-Samoa
+  - Samoa américaines
+  - Samoa Americana
+  - "アメリカ領サモア"
+  - Amerikaans Samoa
+  languages_official:
+  - en
+  - sm
+  languages_spoken:
+  - en
+  - sm
+  geo:
+    latitude: 14 20 S
+    latitude_dec: "-14.31956672668457"
+    longitude: 170 00 W
+    longitude_dec: "-170.7403564453125"
+    max_latitude: "-11.049690"
+    max_longitude: "-169.416077"
+    min_latitude: "-14.382470"
+    min_longitude: "-171.091873"
+  currency_code: USD

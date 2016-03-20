@@ -4,16 +4,10 @@ VE:
   alpha2: VE
   alpha3: VEN
   country_code: '58'
-  currency: VEF
   international_prefix: '00'
   ioc: VEN
   gec: VE
-  latitude: 8 00 N
-  longitude: 66 00 W
   name: Venezuela, Bolivarian Republic of
-  names:
-  - Venezuela
-  - "ベネズエラ・ボリバル共和国"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,13 +18,22 @@ VE:
   subregion: South America
   world_region: AMER
   un_locode: VE
-  languages:
-  - es
   nationality: Venezuelan
   postal_code: true
-  min_longitude: "-73.16"
-  min_latitude: '0.766667'
-  max_longitude: "-59.966667"
-  max_latitude: '15.7'
-  latitude_dec: '7.665388584136963'
-  longitude_dec: "-66.14541625976562"
+  unofficial_names:
+  - Venezuela
+  - "ベネズエラ・ボリバル共和国"
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  geo:
+    latitude: 8 00 N
+    latitude_dec: '7.665388584136963'
+    longitude: 66 00 W
+    longitude_dec: "-66.14541625976562"
+    max_latitude: '15.7'
+    max_longitude: "-59.966667"
+    min_latitude: '0.766667'
+    min_longitude: "-73.16"
+  currency_code: VEF

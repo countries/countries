@@ -9,18 +9,10 @@ LU:
   alpha2: LU
   alpha3: LUX
   country_code: '352'
-  currency: EUR
   international_prefix: '00'
   ioc: LUX
   gec: LU
-  latitude: 49 45 N
-  longitude: 6 10 E
   name: Luxembourg
-  names:
-  - Luxembourg
-  - Luxemburg
-  - Luxemburgo
-  - "ルクセンブルク"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -31,10 +23,6 @@ LU:
   subregion: Western Europe
   world_region: EMEA
   un_locode: LU
-  languages:
-  - fr
-  - de
-  - lb
   nationality: Luxembourger
   eu_member: true
   vat_rates:
@@ -45,9 +33,26 @@ LU:
     super_reduced: 3
     parking: 12
   postal_code: true
-  min_longitude: '5.742778'
-  min_latitude: '49.460833'
-  max_longitude: '6.505833'
-  max_latitude: '50.181667'
-  latitude_dec: '49.77788162231445'
-  longitude_dec: '6.094746112823486'
+  unofficial_names:
+  - Luxembourg
+  - Luxemburg
+  - Luxemburgo
+  - "ルクセンブルク"
+  languages_official:
+  - fr
+  - de
+  - lb
+  languages_spoken:
+  - fr
+  - de
+  - lb
+  geo:
+    latitude: 49 45 N
+    latitude_dec: '49.77788162231445'
+    longitude: 6 10 E
+    longitude_dec: '6.094746112823486'
+    max_latitude: '50.181667'
+    max_longitude: '6.505833'
+    min_latitude: '49.460833'
+    min_longitude: '5.742778'
+  currency_code: EUR

@@ -9,20 +9,10 @@ DE:
   alpha2: DE
   alpha3: DEU
   country_code: '49'
-  currency: EUR
   international_prefix: '00'
   ioc: GER
   gec: GM
-  latitude: 51 00 N
-  longitude: 9 00 E
   name: Germany
-  names:
-  - Germany
-  - Deutschland
-  - Allemagne
-  - Alemania
-  - "ドイツ"
-  - Duitsland
   national_destination_code_lengths:
   - 2
   - 3
@@ -41,8 +31,6 @@ DE:
   subregion: Western Europe
   world_region: EMEA
   un_locode: DE
-  languages:
-  - de
   nationality: German
   eu_member: true
   vat_rates:
@@ -52,9 +40,24 @@ DE:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '5.9'
-  min_latitude: '47.266667'
-  max_longitude: '15.033333'
-  max_latitude: '55.05'
-  latitude_dec: '51.20246505737305'
-  longitude_dec: '10.382203102111816'
+  unofficial_names:
+  - Germany
+  - Deutschland
+  - Allemagne
+  - Alemania
+  - "ドイツ"
+  - Duitsland
+  languages_official:
+  - de
+  languages_spoken:
+  - de
+  geo:
+    latitude: 51 00 N
+    latitude_dec: '51.20246505737305'
+    longitude: 9 00 E
+    longitude_dec: '10.382203102111816'
+    max_latitude: '55.05'
+    max_longitude: '15.033333'
+    min_latitude: '47.266667'
+    min_longitude: '5.9'
+  currency_code: EUR

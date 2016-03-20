@@ -10,22 +10,10 @@ KR:
   alpha2: KR
   alpha3: KOR
   country_code: '82'
-  currency: KRW
   international_prefix: '001'
   ioc: KOR
   gec: KS
-  latitude: 37 00 N
-  longitude: 127 30 E
   name: Korea, Republic of
-  names:
-  - South Korea
-  - Korea (South)
-  - Südkorea
-  - Corée du Sud
-  - Corea del Sur
-  - "大韓民国"
-  - Zuid-Korea
-  - Korea (Republic of)
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -37,13 +25,28 @@ KR:
   subregion: Eastern Asia
   world_region: APAC
   un_locode: KR
-  languages:
-  - ko
   nationality: South Korean
   postal_code: true
-  min_longitude: '124.612222'
-  min_latitude: '33.1175'
-  max_longitude: '131.866667'
-  max_latitude: '38.586667'
-  latitude_dec: '40.077640533447266'
-  longitude_dec: '127.13385009765625'
+  unofficial_names:
+  - South Korea
+  - Korea (South)
+  - Südkorea
+  - Corée du Sud
+  - Corea del Sur
+  - "大韓民国"
+  - Zuid-Korea
+  - Korea (Republic of)
+  languages_official:
+  - ko
+  languages_spoken:
+  - ko
+  geo:
+    latitude: 37 00 N
+    latitude_dec: '40.077640533447266'
+    longitude: 127 30 E
+    longitude_dec: '127.13385009765625'
+    max_latitude: '38.586667'
+    max_longitude: '131.866667'
+    min_latitude: '33.1175'
+    min_longitude: '124.612222'
+  currency_code: KRW

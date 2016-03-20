@@ -11,6 +11,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Add Configuration methods to force locales to load
 - Dropped currencies gem in favor of money
 - Add Time Zone Support
+- DATA STRUCTURE CHANGES
+  -COUNTRY
+    - BREAKING CHANGES
+      - names: => unofficial_names
+      - languages: => official_languages
+      - lat/lng fields are nested under a "geo" key
+    - + spoken_languages
+    - +
+
 
 ## 1.2.5 @ 2016-01-22
 - Rebuilding cache

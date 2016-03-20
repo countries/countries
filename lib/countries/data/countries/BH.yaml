@@ -9,19 +9,10 @@ BH:
   alpha2: BH
   alpha3: BHR
   country_code: '973'
-  currency: BHD
   international_prefix: '00'
   ioc: BRN
   gec: BA
-  latitude: 26 00 N
-  longitude: 50 33 E
   name: Bahrain
-  names:
-  - Bahrain
-  - "البحرين"
-  - Bahreïn
-  - Bahrein
-  - "バーレーン"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -32,13 +23,25 @@ BH:
   subregion: Western Asia
   world_region: EMEA
   un_locode: BH
-  languages:
-  - ar
   nationality: Bahraini
   postal_code: true
-  min_longitude: '45'
-  min_latitude: '25'
-  max_longitude: '50.823333'
-  max_latitude: '26.416667'
-  latitude_dec: '26.094240188598633'
-  longitude_dec: '50.54299545288086'
+  unofficial_names:
+  - Bahrain
+  - "البحرين"
+  - Bahreïn
+  - Bahrein
+  - "バーレーン"
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  geo:
+    latitude: 26 00 N
+    latitude_dec: '26.094240188598633'
+    longitude: 50 33 E
+    longitude_dec: '50.54299545288086'
+    max_latitude: '26.416667'
+    max_longitude: '50.823333'
+    min_latitude: '25'
+    min_longitude: '45'
+  currency_code: BHD

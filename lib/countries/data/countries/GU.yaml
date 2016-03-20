@@ -4,16 +4,10 @@ GU:
   alpha2: GU
   alpha3: GUM
   country_code: '1'
-  currency: USD
   international_prefix: '011'
   ioc: GUM
   gec: GQ
-  latitude: 13 28 N
-  longitude: 144 47 E
   name: Guam
-  names:
-  - Guam
-  - "グアム"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -24,15 +18,26 @@ GU:
   subregion: Micronesia
   world_region: APAC
   un_locode: GU
-  languages:
+  nationality: Guamanian
+  postal_code: true
+  unofficial_names:
+  - Guam
+  - "グアム"
+  languages_official:
   - en
   - ch
   - es
-  nationality: Guamanian
-  postal_code: true
-  min_longitude: '144.619263'
-  min_latitude: '13.240590'
-  max_longitude: '144.953995'
-  max_latitude: '13.652320'
-  latitude_dec: '13.42112922668457'
-  longitude_dec: '144.73971557617188'
+  languages_spoken:
+  - en
+  - ch
+  - es
+  geo:
+    latitude: 13 28 N
+    latitude_dec: '13.42112922668457'
+    longitude: 144 47 E
+    longitude_dec: '144.73971557617188'
+    max_latitude: '13.652320'
+    max_longitude: '144.953995'
+    min_latitude: '13.240590'
+    min_longitude: '144.619263'
+  currency_code: USD

@@ -4,20 +4,10 @@ SH:
   alpha2: SH
   alpha3: SHN
   country_code: '290'
-  currency: SHP
   international_prefix: '00'
   ioc: 
   gec: SH
-  latitude: 15 57 S
-  longitude: 5 42 W
   name: Saint Helena
-  names:
-  - Saint Helena
-  - Sankt Helena
-  - Sainte Hélène
-  - Santa Helena
-  - "セントヘレナ・アセンションおよびトリスタンダクーニャ"
-  - Sint-Helena
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,13 +18,26 @@ SH:
   subregion: Western Africa
   world_region: APAC
   un_locode: SH
-  languages:
-  - en
   nationality: Saint Helenian
   postal_code: true
-  min_longitude: "-14.416667"
-  min_latitude: "-40.4"
-  max_longitude: "-5.633333"
-  max_latitude: "-7.9"
-  latitude_dec: "-15.957334518432617"
-  longitude_dec: "-5.716914176940918"
+  unofficial_names:
+  - Saint Helena
+  - Sankt Helena
+  - Sainte Hélène
+  - Santa Helena
+  - "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+  - Sint-Helena
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 15 57 S
+    latitude_dec: "-15.957334518432617"
+    longitude: 5 42 W
+    longitude_dec: "-5.716914176940918"
+    max_latitude: "-7.9"
+    max_longitude: "-5.633333"
+    min_latitude: "-40.4"
+    min_longitude: "-14.416667"
+  currency_code: SHP

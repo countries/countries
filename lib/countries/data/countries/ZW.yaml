@@ -4,18 +4,10 @@ ZW:
   alpha2: ZW
   alpha3: ZWE
   country_code: '263'
-  currency: ZWD
   international_prefix: '00'
   ioc: ZIM
   gec: ZI
-  latitude: 20 00 S
-  longitude: 30 00 E
   name: Zimbabwe
-  names:
-  - Zimbabwe
-  - Simbabwe
-  - Zimbabue
-  - "ジンバブエ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -29,15 +21,28 @@ ZW:
   subregion: Eastern Africa
   world_region: EMEA
   un_locode: ZW
-  languages:
+  nationality: Zimbabwean
+  postal_code: false
+  unofficial_names:
+  - Zimbabwe
+  - Simbabwe
+  - Zimbabue
+  - "ジンバブエ"
+  languages_official:
   - en
   - sn
   - nd
-  nationality: Zimbabwean
-  postal_code: false
-  min_longitude: '25.333333'
-  min_latitude: "-22.316667"
-  max_longitude: '33.05'
-  max_latitude: "-15.6"
-  latitude_dec: "-19.000280380249023"
-  longitude_dec: '29.86876106262207'
+  languages_spoken:
+  - en
+  - sn
+  - nd
+  geo:
+    latitude: 20 00 S
+    latitude_dec: "-19.000280380249023"
+    longitude: 30 00 E
+    longitude_dec: '29.86876106262207'
+    max_latitude: "-15.6"
+    max_longitude: '33.05'
+    min_latitude: "-22.316667"
+    min_longitude: '25.333333'
+  currency_code: ZWD

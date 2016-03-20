@@ -4,19 +4,10 @@ MY:
   alpha2: MY
   alpha3: MYS
   country_code: '60'
-  currency: MYR
   international_prefix: '00'
   ioc: MAS
   gec: MY
-  latitude: 2 30 N
-  longitude: 112 30 E
   name: Malaysia
-  names:
-  - Malaysia
-  - Malaisie
-  - Malasia
-  - "マレーシア"
-  - Maleisië
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,14 +19,27 @@ MY:
   subregion: South-Eastern Asia
   world_region: APAC
   un_locode: MY
-  languages:
-  - ms
-  - en
   nationality: Malaysian
   postal_code: true
-  min_longitude: '99.641277'
-  min_latitude: '0.85'
-  max_longitude: '120'
-  max_latitude: '7.383333'
-  latitude_dec: '2.5490005016326904'
-  longitude_dec: '102.96261596679688'
+  unofficial_names:
+  - Malaysia
+  - Malaisie
+  - Malasia
+  - "マレーシア"
+  - Maleisië
+  languages_official:
+  - ms
+  - en
+  languages_spoken:
+  - ms
+  - en
+  geo:
+    latitude: 2 30 N
+    latitude_dec: '2.5490005016326904'
+    longitude: 112 30 E
+    longitude_dec: '102.96261596679688'
+    max_latitude: '7.383333'
+    max_longitude: '120'
+    min_latitude: '0.85'
+    min_longitude: '99.641277'
+  currency_code: MYR

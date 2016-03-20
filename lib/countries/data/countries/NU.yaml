@@ -4,16 +4,10 @@ NU:
   alpha2: NU
   alpha3: NIU
   country_code: '683'
-  currency: NZD
   international_prefix: '00'
-  ioc:
+  ioc: 
   gec: NE
-  latitude: 19 02 S
-  longitude: 169 52 W
   name: Niue
-  names:
-  - Niue
-  - "ニウエ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,13 +18,22 @@ NU:
   subregion: Polynesia
   world_region: APAC
   un_locode: NU
-  languages:
-  - en
   nationality: Niuean
   postal_code: false
-  min_longitude: "-169.916667"
-  min_latitude: "-19.1"
-  max_longitude: "-169.783333"
-  max_latitude: "-18.933333"
-  latitude_dec: "-19.03806495666504"
-  longitude_dec: "-169.8302459716797"
+  unofficial_names:
+  - Niue
+  - "ニウエ"
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 19 02 S
+    latitude_dec: "-19.03806495666504"
+    longitude: 169 52 W
+    longitude_dec: "-169.8302459716797"
+    max_latitude: "-18.933333"
+    max_longitude: "-169.783333"
+    min_latitude: "-19.1"
+    min_longitude: "-169.916667"
+  currency_code: NZD

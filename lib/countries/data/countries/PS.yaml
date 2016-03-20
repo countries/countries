@@ -5,23 +5,10 @@ PS:
   alpha3: PSE
   alt_currency: EGP
   country_code: '970'
-  currency: ILS
   international_prefix: '00'
   ioc: PLE
   gec: WE
-  latitude: ''
-  longitude: ''
   name: Palestine, State of
-  names:
-  - Palestine
-  - "فلسطين"
-  - Palästina
-  - Palestina
-  - the Occupied Palestinian Territory
-  - "パレスチナ"
-  - Palestijnse gebieden
-  - Palestinian Territory Occupied
-  - Palestinian Authority
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -31,16 +18,34 @@ PS:
   region: Asia
   subregion: Western Asia
   world_region: EMEA
-  un_locode:
-  languages:
+  un_locode: 
+  nationality: Palestinian
+  postal_code: true
+  unofficial_names:
+  - Palestine
+  - "فلسطين"
+  - Palästina
+  - Palestina
+  - the Occupied Palestinian Territory
+  - "パレスチナ"
+  - Palestijnse gebieden
+  - Palestinian Territory Occupied
+  - Palestinian Authority
+  languages_official:
   - ar
   - he
   - en
-  nationality: Palestinian
-  postal_code: true
-  min_longitude: '34.2187639'
-  min_latitude: '31.219691'
-  max_longitude: '35.574052'
-  max_latitude: '32.5521'
-  latitude_dec: '31.946392059326172'
-  longitude_dec: '35.259735107421875'
+  languages_spoken:
+  - ar
+  - he
+  - en
+  geo:
+    latitude: ''
+    latitude_dec: '31.946392059326172'
+    longitude: ''
+    longitude_dec: '35.259735107421875'
+    max_latitude: '32.5521'
+    max_longitude: '35.574052'
+    min_latitude: '31.219691'
+    min_longitude: '34.2187639'
+  currency_code: ILS

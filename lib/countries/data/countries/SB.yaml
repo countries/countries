@@ -4,20 +4,10 @@ SB:
   alpha2: SB
   alpha3: SLB
   country_code: '677'
-  currency: SBD
   international_prefix: '00'
   ioc: SOL
   gec: BP
-  latitude: 8 00 S
-  longitude: 159 00 E
   name: Solomon Islands
-  names:
-  - Solomon Islands
-  - Salomonen
-  - "Îles Salomon"
-  - Islas Salomón
-  - "ソロモン諸島"
-  - Salomonseilanden
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,13 +18,26 @@ SB:
   subregion: Melanesia
   world_region: APAC
   un_locode: SB
-  languages:
-  - en
   nationality: Solomon Islander
   postal_code: false
-  min_longitude: '155.516667'
-  min_latitude: "-12.883333"
-  max_longitude: '170.2'
-  max_latitude: "-5.166667"
-  latitude_dec: "-9.548112869262695"
-  longitude_dec: '160.01930236816406'
+  unofficial_names:
+  - Solomon Islands
+  - Salomonen
+  - "Îles Salomon"
+  - Islas Salomón
+  - "ソロモン諸島"
+  - Salomonseilanden
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 8 00 S
+    latitude_dec: "-9.548112869262695"
+    longitude: 159 00 E
+    longitude_dec: '160.01930236816406'
+    max_latitude: "-5.166667"
+    max_longitude: '170.2'
+    min_latitude: "-12.883333"
+    min_longitude: '155.516667'
+  currency_code: SBD

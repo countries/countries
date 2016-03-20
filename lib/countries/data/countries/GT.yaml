@@ -4,16 +4,10 @@ GT:
   alpha2: GT
   alpha3: GTM
   country_code: '502'
-  currency: GTQ
   international_prefix: '00'
   ioc: GUA
   gec: GT
-  latitude: 15 30 N
-  longitude: 90 15 W
   name: Guatemala
-  names:
-  - Guatemala
-  - "グアテマラ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,13 +18,22 @@ GT:
   subregion: Central America
   world_region: AMER
   un_locode: GT
-  languages:
-  - es
   nationality: Guatemalan
   postal_code: true
-  min_longitude: "-92.583333"
-  min_latitude: '13.751111'
-  max_longitude: "-87.05"
-  max_latitude: '17.816667'
-  latitude_dec: '15.670565605163574'
-  longitude_dec: "-90.3486557006836"
+  unofficial_names:
+  - Guatemala
+  - "グアテマラ"
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  geo:
+    latitude: 15 30 N
+    latitude_dec: '15.670565605163574'
+    longitude: 90 15 W
+    longitude_dec: "-90.3486557006836"
+    max_latitude: '17.816667'
+    max_longitude: "-87.05"
+    min_latitude: '13.751111'
+    min_longitude: "-92.583333"
+  currency_code: GTQ

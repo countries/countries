@@ -10,20 +10,10 @@ ES:
   alpha2: ES
   alpha3: ESP
   country_code: '34'
-  currency: EUR
   international_prefix: '00'
   ioc: ESP
   gec: SP
-  latitude: 40 00 N
-  longitude: 4 00 W
   name: Spain
-  names:
-  - Spain
-  - Spanien
-  - Espagne
-  - España
-  - "スペイン"
-  - Spanje
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -34,8 +24,6 @@ ES:
   subregion: Southern Europe
   world_region: EMEA
   un_locode: ES
-  languages:
-  - es
   nationality: Spanish
   eu_member: true
   vat_rates:
@@ -45,9 +33,24 @@ ES:
     super_reduced: 4
     parking: 
   postal_code: true
-  min_longitude: "-18.166667"
-  min_latitude: '27.633333'
-  max_longitude: '4.333333'
-  max_latitude: '43.916667'
-  latitude_dec: '40.396026611328125'
-  longitude_dec: "-3.550692558288574"
+  unofficial_names:
+  - Spain
+  - Spanien
+  - Espagne
+  - España
+  - "スペイン"
+  - Spanje
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  geo:
+    latitude: 40 00 N
+    latitude_dec: '40.396026611328125'
+    longitude: 4 00 W
+    longitude_dec: "-3.550692558288574"
+    max_latitude: '43.916667'
+    max_longitude: '4.333333'
+    min_latitude: '27.633333'
+    min_longitude: "-18.166667"
+  currency_code: EUR

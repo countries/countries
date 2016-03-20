@@ -4,20 +4,10 @@ CD:
   alpha2: CD
   alpha3: COD
   country_code: '243'
-  currency: CDF
   international_prefix: '00'
   ioc: COD
   gec: CG
-  latitude: 0 00 N
-  longitude: 25 00 E
   name: Congo, The Democratic Republic Of The
-  names:
-  - Congo (Dem. Rep.)
-  - Kongo (Dem. Rep.)
-  - Congo (Rep. Dem.)
-  - "コンゴ民主共和国"
-  - Congo [DRC]
-  - Congo (The Democratic Republic Of The)
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,17 +18,34 @@ CD:
   subregion: Middle Africa
   world_region: EMEA
   un_locode: CD
-  languages:
+  nationality: Congolese
+  postal_code: false
+  unofficial_names:
+  - Congo (Dem. Rep.)
+  - Kongo (Dem. Rep.)
+  - Congo (Rep. Dem.)
+  - "コンゴ民主共和国"
+  - Congo [DRC]
+  - Congo (The Democratic Republic Of The)
+  languages_official:
   - fr
   - ln
   - kg
   - sw
   - lu
-  nationality: Congolese
-  postal_code: false
-  min_longitude: '12.266667'
-  min_latitude: "-13.466667"
-  max_longitude: '31.233333'
-  max_latitude: '5.133333'
-  latitude_dec: "-2.879866123199463"
-  longitude_dec: '23.6563777923584'
+  languages_spoken:
+  - fr
+  - ln
+  - kg
+  - sw
+  - lu
+  geo:
+    latitude: 0 00 N
+    latitude_dec: "-2.879866123199463"
+    longitude: 25 00 E
+    longitude_dec: '23.6563777923584'
+    max_latitude: '5.133333'
+    max_longitude: '31.233333'
+    min_latitude: "-13.466667"
+    min_longitude: '12.266667'
+  currency_code: CDF

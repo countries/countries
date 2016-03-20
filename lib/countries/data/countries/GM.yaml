@@ -4,16 +4,10 @@ GM:
   alpha2: GM
   alpha3: GMB
   country_code: '220'
-  currency: GMD
   international_prefix: '00'
   ioc: GAM
   gec: GA
-  latitude: 13 28 N
-  longitude: 16 34 W
   name: Gambia
-  names:
-  - Gambia
-  - "ガンビア"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,13 +18,22 @@ GM:
   subregion: Western Africa
   world_region: EMEA
   un_locode: GM
-  languages:
-  - en
   nationality: Gambian
   postal_code: false
-  min_longitude: "-16.816944"
-  min_latitude: '7'
-  max_longitude: "-4"
-  max_latitude: '13.816667'
-  latitude_dec: '13.440265655517578'
-  longitude_dec: "-15.490884780883789"
+  unofficial_names:
+  - Gambia
+  - "ガンビア"
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 13 28 N
+    latitude_dec: '13.440265655517578'
+    longitude: 16 34 W
+    longitude_dec: "-15.490884780883789"
+    max_latitude: '13.816667'
+    max_longitude: "-4"
+    min_latitude: '7'
+    min_longitude: "-16.816944"
+  currency_code: GMD

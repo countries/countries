@@ -4,16 +4,10 @@ MW:
   alpha2: MW
   alpha3: MWI
   country_code: '265'
-  currency: MWK
   international_prefix: '00'
   ioc: MAW
   gec: MI
-  latitude: 13 30 S
-  longitude: 34 00 E
   name: Malawi
-  names:
-  - Malawi
-  - "マラウイ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -24,14 +18,24 @@ MW:
   subregion: Eastern Africa
   world_region: EMEA
   un_locode: MW
-  languages:
-  - en
-  - ny
   nationality: Malawian
   postal_code: false
-  min_longitude: '32.716667'
-  min_latitude: "-17.15"
-  max_longitude: '37'
-  max_latitude: "-5"
-  latitude_dec: "-13.523577690124512"
-  longitude_dec: '33.83546447753906'
+  unofficial_names:
+  - Malawi
+  - "マラウイ"
+  languages_official:
+  - en
+  - ny
+  languages_spoken:
+  - en
+  - ny
+  geo:
+    latitude: 13 30 S
+    latitude_dec: "-13.523577690124512"
+    longitude: 34 00 E
+    longitude_dec: '33.83546447753906'
+    max_latitude: "-5"
+    max_longitude: '37'
+    min_latitude: "-17.15"
+    min_longitude: '32.716667'
+  currency_code: MWK

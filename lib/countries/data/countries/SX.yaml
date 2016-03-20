@@ -4,16 +4,10 @@ SX:
   alpha2: SX
   alpha3: SXM
   country_code: '1'
-  currency: ANG
   international_prefix: '011'
   ioc: 
   gec: NN
-  latitude: ''
-  longitude: ''
   name: Sint Maarten
-  names:
-  - Sint Maarten
-  - "セント・マーチン島"
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -24,14 +18,24 @@ SX:
   subregion: Caribbean
   world_region: AMER
   un_locode: SX
-  languages:
-  - nl
-  - en
   nationality: Dutch
   postal_code: true
-  min_longitude: "-63.1379781"
-  min_latitude: '18.005267'
-  max_longitude: "-62.9982448"
-  max_latitude: '18.0641707'
-  latitude_dec: '18.042224884033203'
-  longitude_dec: "-63.06623458862305"
+  unofficial_names:
+  - Sint Maarten
+  - "セント・マーチン島"
+  languages_official:
+  - nl
+  - en
+  languages_spoken:
+  - nl
+  - en
+  geo:
+    latitude: ''
+    latitude_dec: '18.042224884033203'
+    longitude: ''
+    longitude_dec: "-63.06623458862305"
+    max_latitude: '18.0641707'
+    max_longitude: "-62.9982448"
+    min_latitude: '18.005267'
+    min_longitude: "-63.1379781"
+  currency_code: ANG

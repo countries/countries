@@ -4,19 +4,10 @@ KM:
   alpha2: KM
   alpha3: COM
   country_code: '269'
-  currency: KMF
   international_prefix: '00'
   ioc: COM
   gec: CN
-  latitude: 12 10 S
-  longitude: 44 15 E
   name: Comoros
-  names:
-  - Comoros
-  - Union der Komoren
-  - Comores
-  - "コモロ"
-  - Comoren
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -27,14 +18,27 @@ KM:
   subregion: Eastern Africa
   world_region: EMEA
   un_locode: KM
-  languages:
-  - ar
-  - fr
   nationality: Comoran
   postal_code: false
-  min_longitude: '43.226111'
-  min_latitude: "-13"
-  max_longitude: '45.316667'
-  max_latitude: "-11.35"
-  latitude_dec: "-11.86610221862793"
-  longitude_dec: '43.432640075683594'
+  unofficial_names:
+  - Comoros
+  - Union der Komoren
+  - Comores
+  - "コモロ"
+  - Comoren
+  languages_official:
+  - ar
+  - fr
+  languages_spoken:
+  - ar
+  - fr
+  geo:
+    latitude: 12 10 S
+    latitude_dec: "-11.86610221862793"
+    longitude: 44 15 E
+    longitude_dec: '43.432640075683594'
+    max_latitude: "-11.35"
+    max_longitude: '45.316667'
+    min_latitude: "-13"
+    min_longitude: '43.226111'
+  currency_code: KMF

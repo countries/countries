@@ -2,19 +2,32 @@ module ISO3166
   class Country
     attr_reader :data
 
-    include ISO3166::Countries::AttrReaders
+    ISO3166::Countries::DEFAULT_COUNTRY_HASH.each do |method_name, type|
+      define_method method_name do
+        data[method_name.to_s]
+      end
+    end
+
+    ISO3166::Countries::DEFAULT_COUNTRY_HASH["geo"].each do |method_name, type|
+      define_method method_name do
+        data["geo"][method_name.to_s]
+      end
+    end
 
     def initialize(country_data)
-      @data = country_data.is_a?(Hash) ? country_data : ISO3166::Data.new(country_data).call
+      @country_data_or_code = country_data
+      reload
     end
 
     def valid?
-      !(@data.nil? || @data.empty?)
+      !(data.nil? || data.empty?)
     end
 
     alias_method :zip, :postal_code
     alias_method :zip?, :postal_code
     alias_method :postal_code?, :postal_code
+    alias_method :languages, :languages_official
+    alias_method :names, :unofficial_names
 
     def ==(other)
       other == data
@@ -25,41 +38,68 @@ module ISO3166
     end
 
     def currency
-      Money::Currency.find(@data['currency'])
+      Money::Currency.find(data['currency_code'])
     end
 
-    def currency_code
-      @data['currency']
+    def subdivisions?
+      File.exist?(subdivision_file_path)
     end
 
     def subdivisions
-      @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
+      @subdivisions ||= subdivision_data.inject({}) do |hash, (k, v)|
+        hash.merge(k => Subdivision.new(v))
+      end
     end
 
     alias_method :states, :subdivisions
 
-    def subdivisions?
-      File.exist?(File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml"))
-    end
-
     def in_eu?
-      @data['eu_member'].nil? ? false : @data['eu_member']
+      data['eu_member'].nil? ? false : data['eu_member']
     end
 
     def to_s
-      @data['name']
+      data['name']
+    end
+
+    def translated_names
+      data['translations'].values
     end
 
     def translation(locale = 'en')
-      @data['translations'][locale.to_s.downcase]
+      data['translations'][locale.to_s.downcase]
     end
 
+    # TODO: Looping through locale langs could be be very slow across multiple countries
     def local_names
+      ISO3166.configuration.locales = (ISO3166.configuration.locales + languages.map(&:to_sym)).uniq
+      reload
       @local_names ||= languages.map { |language| translations[language] }
     end
 
     def local_name
       @local_name ||= local_names.first
+    end
+
+    def reload
+      @data = if @country_data_or_code.is_a?(Hash)
+        @country_data_or_code
+      else
+        ISO3166::Data.new(@country_data_or_code).call
+      end
+    end
+
+    private
+
+    def subdivision_data
+      @subdivision_data ||= if subdivisions?
+        YAML.load_file(subdivision_file_path)
+      else
+        {}
+      end
+    end
+
+    def subdivision_file_path
+      File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")
     end
 
     class << self
@@ -114,7 +154,7 @@ module ISO3166
 
         ISO3166::Data.cache.select do |_, v|
           attributes.map do |attr|
-            Array(v[attr]).any? { |n| value === UnicodeUtils.downcase(n.to_s.unaccent)}
+            Array(Country.new(v).send(attr)).any? { |n| value === UnicodeUtils.downcase(n.to_s.unaccent)}
           end.include?(true)
         end
       end
@@ -126,7 +166,7 @@ module ISO3166
 
         attributes = Array(attribute.to_s)
         if attributes == ['name']
-          attributes << 'names'
+          attributes << 'unofficial_names'
           # TODO: Revisit when better data from i18n_data
           # attributes << 'translated_names'
         end

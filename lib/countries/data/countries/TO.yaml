@@ -4,16 +4,10 @@ TO:
   alpha2: TO
   alpha3: TON
   country_code: '676'
-  currency: TOP
   international_prefix: '00'
   ioc: TGA
   gec: TN
-  latitude: 20 00 S
-  longitude: 175 00 W
   name: Tonga
-  names:
-  - Tonga
-  - "トンガ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -26,14 +20,24 @@ TO:
   subregion: Polynesia
   world_region: APAC
   un_locode: TO
-  languages:
-  - en
-  - to
   nationality: Tongan
   postal_code: false
-  min_longitude: "-176.2"
-  min_latitude: "-22.333333"
-  max_longitude: "-150"
-  max_latitude: "-15.566667"
-  latitude_dec: "-21.147611618041992"
-  longitude_dec: "-175.25067138671875"
+  unofficial_names:
+  - Tonga
+  - "トンガ"
+  languages_official:
+  - en
+  - to
+  languages_spoken:
+  - en
+  - to
+  geo:
+    latitude: 20 00 S
+    latitude_dec: "-21.147611618041992"
+    longitude: 175 00 W
+    longitude_dec: "-175.25067138671875"
+    max_latitude: "-15.566667"
+    max_longitude: "-150"
+    min_latitude: "-22.333333"
+    min_longitude: "-176.2"
+  currency_code: TOP

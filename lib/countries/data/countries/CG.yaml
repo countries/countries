@@ -4,19 +4,10 @@ CG:
   alpha2: CG
   alpha3: COG
   country_code: '242'
-  currency: XAF
   international_prefix: '00'
   ioc: CGO
   gec: CF
-  latitude: 1 00 S
-  longitude: 15 00 E
   name: Congo
-  names:
-  - Congo
-  - Kongo
-  - "コンゴ共和国"
-  - Congo [Republiek]
-  - Democratic Republic of the Congo
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -27,14 +18,27 @@ CG:
   subregion: Middle Africa
   world_region: EMEA
   un_locode: CG
-  languages:
-  - fr
-  - ln
   nationality: Congolese
   postal_code: false
-  min_longitude: '11.166667'
-  min_latitude: "-4.995556"
-  max_longitude: '20'
-  max_latitude: '3.866667'
-  latitude_dec: "-2.879866123199463"
-  longitude_dec: '23.6563777923584'
+  unofficial_names:
+  - Congo
+  - Kongo
+  - "コンゴ共和国"
+  - Congo [Republiek]
+  - Democratic Republic of the Congo
+  languages_official:
+  - fr
+  - ln
+  languages_spoken:
+  - fr
+  - ln
+  geo:
+    latitude: 1 00 S
+    latitude_dec: "-2.879866123199463"
+    longitude: 15 00 E
+    longitude_dec: '23.6563777923584'
+    max_latitude: '3.866667'
+    max_longitude: '20'
+    min_latitude: "-4.995556"
+    min_longitude: '11.166667'
+  currency_code: XAF

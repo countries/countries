@@ -4,19 +4,10 @@ MV:
   alpha2: MV
   alpha3: MDV
   country_code: '960'
-  currency: MVR
   international_prefix: '00'
   ioc: MDV
   gec: MV
-  latitude: 3 15 N
-  longitude: 73 00 E
   name: Maldives
-  names:
-  - Maldives
-  - Malediven
-  - Maldivas
-  - "モルディブ"
-  - Maldiven
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -27,13 +18,25 @@ MV:
   subregion: Southern Asia
   world_region: APAC
   un_locode: MV
-  languages:
-  - dv
   nationality: Maldivan
   postal_code: true
-  min_longitude: '72.583333'
-  min_latitude: "-0.7"
-  max_longitude: '73.7'
-  max_latitude: '7.1'
-  latitude_dec: '4.185884952545166'
-  longitude_dec: '73.53071594238281'
+  unofficial_names:
+  - Maldives
+  - Malediven
+  - Maldivas
+  - "モルディブ"
+  - Maldiven
+  languages_official:
+  - dv
+  languages_spoken:
+  - dv
+  geo:
+    latitude: 3 15 N
+    latitude_dec: '4.185884952545166'
+    longitude: 73 00 E
+    longitude_dec: '73.53071594238281'
+    max_latitude: '7.1'
+    max_longitude: '73.7'
+    min_latitude: "-0.7"
+    min_longitude: '72.583333'
+  currency_code: MVR

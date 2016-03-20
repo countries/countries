@@ -9,17 +9,10 @@ TW:
   alpha2: TW
   alpha3: TWN
   country_code: '886'
-  currency: TWD
   international_prefix: '002'
   ioc: TPE
   gec: TW
-  latitude: 23 30 N
-  longitude: 121 00 E
   name: Taiwan, Republic Of China
-  names:
-  - Taiwan
-  - Taiwán
-  - "台湾"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -31,13 +24,23 @@ TW:
   subregion: Eastern Asia
   world_region: APAC
   un_locode: TW
-  languages:
-  - zh
   nationality: Taiwanese
   postal_code: true
-  min_longitude: '118.1152555661'
-  min_latitude: '21.733333'
-  max_longitude: '122.107778'
-  max_latitude: '26.389444'
-  latitude_dec: '23.685789108276367'
-  longitude_dec: '120.89749145507812'
+  unofficial_names:
+  - Taiwan
+  - Taiwán
+  - "台湾"
+  languages_official:
+  - zh
+  languages_spoken:
+  - zh
+  geo:
+    latitude: 23 30 N
+    latitude_dec: '23.685789108276367'
+    longitude: 121 00 E
+    longitude_dec: '120.89749145507812'
+    max_latitude: '26.389444'
+    max_longitude: '122.107778'
+    min_latitude: '21.733333'
+    min_longitude: '118.1152555661'
+  currency_code: TWD

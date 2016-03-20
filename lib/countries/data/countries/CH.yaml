@@ -9,20 +9,10 @@ CH:
   alpha2: CH
   alpha3: CHE
   country_code: '41'
-  currency: CHF
   international_prefix: '00'
   ioc: SUI
   gec: SZ
-  latitude: 47 00 N
-  longitude: 8 00 E
   name: Switzerland
-  names:
-  - Switzerland
-  - Schweiz
-  - Suisse
-  - Suiza
-  - "スイス"
-  - Zwitserland
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -34,15 +24,30 @@ CH:
   subregion: Western Europe
   world_region: EMEA
   un_locode: CH
-  languages:
+  nationality: Swiss
+  postal_code: true
+  unofficial_names:
+  - Switzerland
+  - Schweiz
+  - Suisse
+  - Suiza
+  - "スイス"
+  - Zwitserland
+  languages_official:
   - de
   - fr
   - it
-  nationality: Swiss
-  postal_code: true
-  min_longitude: '6'
-  min_latitude: '45.366667'
-  max_longitude: '10.5'
-  max_latitude: '47.8085'
-  latitude_dec: '46.80379867553711'
-  longitude_dec: '8.222854614257812'
+  languages_spoken:
+  - de
+  - fr
+  - it
+  geo:
+    latitude: 47 00 N
+    latitude_dec: '46.80379867553711'
+    longitude: 8 00 E
+    longitude_dec: '8.222854614257812'
+    max_latitude: '47.8085'
+    max_longitude: '10.5'
+    min_latitude: '45.366667'
+    min_longitude: '6'
+  currency_code: CHF

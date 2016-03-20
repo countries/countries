@@ -8,7 +8,10 @@ describe 'ISO3166.configuration' do
 
   it 'locales can be changed' do
     ISO3166.configuration.locales = [:es]
-    expect(ISO3166.configuration.locales).to eq [:es]
+    ISO3166.configuration.locales << :de
+    expect(ISO3166::Country.new('DE').translation(:de)).to eq 'Deutschland'
+    expect(ISO3166::Country.new('DE').translation(:es)).to eq 'Alemania'
+    expect(ISO3166::Country.new('DE').translation(:en)).to eq nil
   end
 
   it 'locales are assumed from I18n.available_locales' do

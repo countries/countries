@@ -4,20 +4,10 @@ PF:
   alpha2: PF
   alpha3: PYF
   country_code: '689'
-  currency: XPF
   international_prefix: '00'
   ioc: 
   gec: FP
-  latitude: 15 00 S
-  longitude: 140 00 W
   name: French Polynesia
-  names:
-  - French Polynesia
-  - Französisch-Polynesien
-  - Polynésie Française
-  - Polinesia Francesa
-  - "フランス領ポリネシア"
-  - Frans-Polynesië
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,13 +18,26 @@ PF:
   subregion: Polynesia
   world_region: APAC
   un_locode: PF
-  languages:
-  - fr
   nationality: French Polynesian
   postal_code: true
-  min_longitude: '180'
-  min_latitude: "-27.916667"
-  max_longitude: "-179.8"
-  max_latitude: '16.633333'
-  latitude_dec: "-17.648122787475586"
-  longitude_dec: "-149.4647216796875"
+  unofficial_names:
+  - French Polynesia
+  - Französisch-Polynesien
+  - Polynésie Française
+  - Polinesia Francesa
+  - "フランス領ポリネシア"
+  - Frans-Polynesië
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  geo:
+    latitude: 15 00 S
+    latitude_dec: "-17.648122787475586"
+    longitude: 140 00 W
+    longitude_dec: "-149.4647216796875"
+    max_latitude: '16.633333'
+    max_longitude: "-179.8"
+    min_latitude: "-27.916667"
+    min_longitude: '180'
+  currency_code: XPF

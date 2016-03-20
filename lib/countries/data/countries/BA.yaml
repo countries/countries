@@ -9,21 +9,10 @@ BA:
   alpha2: BA
   alpha3: BIH
   country_code: '387'
-  currency: BAM
   international_prefix: '00'
   ioc: BIH
   gec: BK
-  latitude: 44 00 N
-  longitude: 18 00 E
   name: Bosnia and Herzegovina
-  names:
-  - Bosnia and Herzegovina
-  - Bosnien und Herzegowina
-  - Bosnie et Herzégovine
-  - Bosnia y Herzegovina
-  - "ボスニア・ヘルツェゴビナ"
-  - Bosnië en Herzegovina
-  - Bosnia Herzegovina
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -34,15 +23,31 @@ BA:
   subregion: Southern Europe
   world_region: EMEA
   un_locode: BA
-  languages:
+  nationality: Bosnian, Herzegovinian
+  postal_code: true
+  unofficial_names:
+  - Bosnia and Herzegovina
+  - Bosnien und Herzegowina
+  - Bosnie et Herzégovine
+  - Bosnia y Herzegovina
+  - "ボスニア・ヘルツェゴビナ"
+  - Bosnië en Herzegovina
+  - Bosnia Herzegovina
+  languages_official:
   - bs
   - hr
   - sr
-  nationality: Bosnian, Herzegovinian
-  postal_code: true
-  min_longitude: '15.747222'
-  min_latitude: '42.558056'
-  max_longitude: '19.618333'
-  max_latitude: '45.268333'
-  latitude_dec: '44.16533279418945'
-  longitude_dec: '17.790241241455078'
+  languages_spoken:
+  - bs
+  - hr
+  - sr
+  geo:
+    latitude: 44 00 N
+    latitude_dec: '44.16533279418945'
+    longitude: 18 00 E
+    longitude_dec: '17.790241241455078'
+    max_latitude: '45.268333'
+    max_longitude: '19.618333'
+    min_latitude: '42.558056'
+    min_longitude: '15.747222'
+  currency_code: BAM

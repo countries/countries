@@ -4,19 +4,10 @@ AL:
   alpha2: AL
   alpha3: ALB
   country_code: '355'
-  currency: ALL
   international_prefix: '00'
   ioc: ALB
   gec: AL
-  latitude: 41 00 N
-  longitude: 20 00 E
   name: Albania
-  names:
-  - Albania
-  - Albanien
-  - Albanie
-  - "アルバニア"
-  - Albanië
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -29,13 +20,25 @@ AL:
   subregion: Southern Europe
   world_region: EMEA
   un_locode: AL
-  languages:
-  - sq
   nationality: Albanian
   postal_code: true
-  min_longitude: '19.266667'
-  min_latitude: '39.65'
-  max_longitude: '21.05'
-  max_latitude: '42.659167'
-  latitude_dec: '41.11113357543945'
-  longitude_dec: '20.02745246887207'
+  unofficial_names:
+  - Albania
+  - Albanien
+  - Albanie
+  - "アルバニア"
+  - Albanië
+  languages_official:
+  - sq
+  languages_spoken:
+  - sq
+  geo:
+    latitude: 41 00 N
+    latitude_dec: '41.11113357543945'
+    longitude: 20 00 E
+    longitude_dec: '20.02745246887207'
+    max_latitude: '42.659167'
+    max_longitude: '21.05'
+    min_latitude: '39.65'
+    min_longitude: '19.266667'
+  currency_code: ALL

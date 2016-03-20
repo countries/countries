@@ -4,18 +4,10 @@ TH:
   alpha2: TH
   alpha3: THA
   country_code: '66'
-  currency: THB
   international_prefix: '001'
   ioc: THA
   gec: TH
-  latitude: 15 00 N
-  longitude: 100 00 E
   name: Thailand
-  names:
-  - Thailand
-  - Thaïlande
-  - Tailandia
-  - "タイ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -27,13 +19,24 @@ TH:
   subregion: South-Eastern Asia
   world_region: APAC
   un_locode: TH
-  languages:
-  - th
   nationality: Thai
   postal_code: true
-  min_longitude: '97.366667'
-  min_latitude: '5.616667'
-  max_longitude: '105.766667'
-  max_latitude: '20.442778'
-  latitude_dec: '14.48458194732666'
-  longitude_dec: '100.85191345214844'
+  unofficial_names:
+  - Thailand
+  - Thaïlande
+  - Tailandia
+  - "タイ"
+  languages_official:
+  - th
+  languages_spoken:
+  - th
+  geo:
+    latitude: 15 00 N
+    latitude_dec: '14.48458194732666'
+    longitude: 100 00 E
+    longitude_dec: '100.85191345214844'
+    max_latitude: '20.442778'
+    max_longitude: '105.766667'
+    min_latitude: '5.616667'
+    min_longitude: '97.366667'
+  currency_code: THB

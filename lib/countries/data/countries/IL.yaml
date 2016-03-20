@@ -9,17 +9,10 @@ IL:
   alpha2: IL
   alpha3: ISR
   country_code: '972'
-  currency: ILS
   international_prefix: '00'
   ioc: ISR
   gec: IS
-  latitude: 31 30 N
-  longitude: 34 45 E
   name: Israel
-  names:
-  - Israel
-  - Israël
-  - "イスラエル"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -32,14 +25,25 @@ IL:
   subregion: Western Asia
   world_region: EMEA
   un_locode: IL
-  languages:
-  - he
-  - ar
   nationality: Israeli
   postal_code: true
-  min_longitude: '34.283333'
-  min_latitude: '29.516667'
-  max_longitude: '35.666667'
-  max_latitude: '33.286111'
-  latitude_dec: '31.814193725585938'
-  longitude_dec: '34.75337219238281'
+  unofficial_names:
+  - Israel
+  - Israël
+  - "イスラエル"
+  languages_official:
+  - he
+  - ar
+  languages_spoken:
+  - he
+  - ar
+  geo:
+    latitude: 31 30 N
+    latitude_dec: '31.814193725585938'
+    longitude: 34 45 E
+    longitude_dec: '34.75337219238281'
+    max_latitude: '33.286111'
+    max_longitude: '35.666667'
+    min_latitude: '29.516667'
+    min_longitude: '34.283333'
+  currency_code: ILS

@@ -4,20 +4,10 @@ MA:
   alpha2: MA
   alpha3: MAR
   country_code: '212'
-  currency: MAD
   international_prefix: '00'
   ioc: MAR
   gec: MO
-  latitude: 32 00 N
-  longitude: 5 00 W
   name: Morocco
-  names:
-  - Morocco
-  - "المغرب"
-  - Marokko
-  - Maroc
-  - Marruecos
-  - "モロッコ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -28,13 +18,26 @@ MA:
   subregion: Northern Africa
   world_region: EMEA
   un_locode: MA
-  languages:
-  - ar
   nationality: Moroccan
   postal_code: true
-  min_longitude: "-13.1"
-  min_latitude: '5.51'
-  max_longitude: '2'
-  max_latitude: '36.21'
-  latitude_dec: '29.14059066772461'
-  longitude_dec: "-8.953388214111328"
+  unofficial_names:
+  - Morocco
+  - "المغرب"
+  - Marokko
+  - Maroc
+  - Marruecos
+  - "モロッコ"
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  geo:
+    latitude: 32 00 N
+    latitude_dec: '29.14059066772461'
+    longitude: 5 00 W
+    longitude_dec: "-8.953388214111328"
+    max_latitude: '36.21'
+    max_longitude: '2'
+    min_latitude: '5.51'
+    min_longitude: "-13.1"
+  currency_code: MAD

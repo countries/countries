@@ -9,17 +9,10 @@ HK:
   alpha2: HK
   alpha3: HKG
   country_code: '852'
-  currency: HKD
   international_prefix: '001'
   ioc: HKG
   gec: HK
-  latitude: 22 15 N
-  longitude: 114 10 E
   name: Hong Kong
-  names:
-  - Hong Kong
-  - "香港"
-  - Hongkong
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -30,14 +23,25 @@ HK:
   subregion: Eastern Asia
   world_region: APAC
   un_locode: HK
-  languages:
-  - en
-  - zh
   nationality: Chinese
   postal_code: false
-  min_longitude: '113.833333'
-  min_latitude: '22.15'
-  max_longitude: '114.433333'
-  max_latitude: '22.566667'
-  latitude_dec: '22.336156845092773'
-  longitude_dec: '114.18696594238281'
+  unofficial_names:
+  - Hong Kong
+  - "香港"
+  - Hongkong
+  languages_official:
+  - en
+  - zh
+  languages_spoken:
+  - en
+  - zh
+  geo:
+    latitude: 22 15 N
+    latitude_dec: '22.336156845092773'
+    longitude: 114 10 E
+    longitude_dec: '114.18696594238281'
+    max_latitude: '22.566667'
+    max_longitude: '114.433333'
+    min_latitude: '22.15'
+    min_longitude: '113.833333'
+  currency_code: HKD

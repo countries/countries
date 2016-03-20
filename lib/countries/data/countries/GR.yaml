@@ -9,20 +9,10 @@ GR:
   alpha2: GR
   alpha3: GRC
   country_code: '30'
-  currency: EUR
   international_prefix: '00'
   ioc: GRE
   gec: GR
-  latitude: 39 00 N
-  longitude: 22 00 E
   name: Greece
-  names:
-  - Greece
-  - Griechenland
-  - Grèce
-  - Grecia
-  - "ギリシャ"
-  - Griekenland
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -33,8 +23,6 @@ GR:
   subregion: Southern Europe
   world_region: EMEA
   un_locode: GR
-  languages:
-  - el
   nationality: Greek
   eu_member: true
   vat_rates:
@@ -45,9 +33,24 @@ GR:
     super_reduced: 
     parking: 
   postal_code: true
-  min_longitude: '19.381667'
-  min_latitude: '34.8'
-  max_longitude: '29.648056'
-  max_latitude: '44'
-  latitude_dec: '39.68437194824219'
-  longitude_dec: '21.897409439086914'
+  unofficial_names:
+  - Greece
+  - Griechenland
+  - Grèce
+  - Grecia
+  - "ギリシャ"
+  - Griekenland
+  languages_official:
+  - el
+  languages_spoken:
+  - el
+  geo:
+    latitude: 39 00 N
+    latitude_dec: '39.68437194824219'
+    longitude: 22 00 E
+    longitude_dec: '21.897409439086914'
+    max_latitude: '44'
+    max_longitude: '29.648056'
+    min_latitude: '34.8'
+    min_longitude: '19.381667'
+  currency_code: EUR

@@ -4,17 +4,10 @@ MO:
   alpha2: MO
   alpha3: MAC
   country_code: '853'
-  currency: MOP
   international_prefix: '00'
-  ioc:
+  ioc: 
   gec: MC
-  latitude: 22 10 N
-  longitude: 113 33 E
   name: Macao
-  names:
-  - Macao
-  - Macau
-  - "マカオ"
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -25,14 +18,25 @@ MO:
   subregion: Eastern Asia
   world_region: APAC
   un_locode: MO
-  languages:
-  - zh
-  - pt
   nationality: Chinese
   postal_code: false
-  min_longitude: '113.531389'
-  min_latitude: '22.1125'
-  max_longitude: '113.592222'
-  max_latitude: '22.216389'
-  latitude_dec: '22.140748977661133'
-  longitude_dec: '113.56034088134766'
+  unofficial_names:
+  - Macao
+  - Macau
+  - "マカオ"
+  languages_official:
+  - zh
+  - pt
+  languages_spoken:
+  - zh
+  - pt
+  geo:
+    latitude: 22 10 N
+    latitude_dec: '22.140748977661133'
+    longitude: 113 33 E
+    longitude_dec: '113.56034088134766'
+    max_latitude: '22.216389'
+    max_longitude: '113.592222'
+    min_latitude: '22.1125'
+    min_longitude: '113.531389'
+  currency_code: MOP
