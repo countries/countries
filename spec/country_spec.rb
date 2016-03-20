@@ -396,6 +396,33 @@ describe ISO3166::Country do
       end
     end
 
+    context "when search lowercase multibyte name found" do
+      subject { ISO3166::Country.find_country_by_name("россия") }
+
+      it "should be a country instance" do
+        expect(subject).to be_a(ISO3166::Country)
+        expect(subject.alpha2).to eq('RU')
+      end
+    end
+
+    context "when search lowercase multibyte name found" do
+      subject { ISO3166::Country.find_country_by_name(/россия/) }
+
+      it "should be a country instance" do
+        expect(subject).to be_a(ISO3166::Country)
+        expect(subject.alpha2).to eq('RU')
+      end
+    end
+
+    context "when accents are not used" do
+      subject { ISO3166::Country.find_country_by_name("emirats Arabes Unis") }
+
+      it "should be a country instance" do
+        expect(subject).to be_a(ISO3166::Country)
+        expect(subject.alpha2).to eq('AE')
+      end
+    end
+
     context "when search name in 'names'" do
       subject { ISO3166::Country.find_by_name('Polonia') }
       it 'should return' do

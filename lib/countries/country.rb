@@ -114,7 +114,7 @@ module ISO3166
 
         ISO3166::Data.cache.select do |_, v|
           attributes.map do |attr|
-            Array(v[attr]).any? { |n| value === n.to_s.downcase }
+            Array(v[attr]).any? { |n| value === UnicodeUtils.downcase(n.to_s.unaccent)}
           end.include?(true)
         end
       end
@@ -131,7 +131,7 @@ module ISO3166
           # attributes << 'translated_names'
         end
 
-        val = (val.is_a?(Regexp) ? Regexp.new(val.source, 'i') : val.to_s.downcase)
+        val = (val.is_a?(Regexp) ? Regexp.new(val.source.unaccent, 'i') : UnicodeUtils.downcase(val.to_s.unaccent))
 
         [attributes, val]
       end
