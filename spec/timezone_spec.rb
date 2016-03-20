@@ -8,7 +8,7 @@ describe 'timezone Country class' do
     end
 
     describe 'GB' do
-      subject { Country.new('GB') }
+      subject { ISO3166::Country.new('GB') }
       it 'should return the tzinfo country object' do
         expect(subject.timezones).to be_a(TZInfo::Country)
       end
@@ -23,7 +23,7 @@ describe 'timezone Country class' do
     end
 
     describe 'US' do
-      subject { Country.new('US') }
+      subject { ISO3166::Country.new('US') }
       it 'should return the tzinfo country object' do
         expect(subject.timezones.zone_identifiers.size).to eq 29
       end

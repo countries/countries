@@ -1,4 +1,4 @@
-  describe 'global Country class' do
+  describe 'global Country class', order: :defined do
     context "when loaded via 'iso3166' existance" do
       subject { defined?(Country) }
 
