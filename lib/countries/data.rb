@@ -2,10 +2,12 @@ module ISO3166
   ##
   # Handles building the in memory store of countries data
   class Data
-    @@cache = nil
+    @@cache = {}
+    @@registered_data = {}
+
     def initialize(alpha2)
-      self.class.update_cache
       @alpha2 = alpha2.to_s.upcase
+      self.class.update_cache
     end
 
     def call
@@ -13,22 +15,45 @@ module ISO3166
     end
 
     class << self
+
+      def register(data)
+        alpha2 = data[:alpha2].upcase
+        @@registered_data[alpha2] = \
+         data.inject({}) { |a,(k,v)| a[k.to_s] = v;  a }
+        update_cache
+      end
+
       def cache
         update_cache
       end
 
       def reset
-        @@cache = nil
-        @@codes = nil
+        @@cache = {}
+        @@registered_data = {}
       end
 
       def codes
-        @@codes ||= load_yaml(['data', 'countries.yaml']).freeze
+        load_data!
+        @@cache.keys + @@registered_data.keys
       end
 
       def update_cache
-        return @@cache unless cache_flush_required?
-        @@cache ||= marshal %w(cache countries )
+        load_data!
+        sync_translations!
+        @@cache
+      end
+
+      private
+
+      def load_data!
+        return @@cache unless @@cache.keys.empty?
+        @@cache = marshal %w(cache countries )
+        @@cache = @@cache.merge(@@registered_data)
+        @@cache
+      end
+
+      def sync_translations!
+        return unless cache_flush_required?
 
         locales_to_remove.each do |locale|
           unload_translations(locale)
@@ -37,13 +62,11 @@ module ISO3166
         locales_to_load.each do |locale|
           load_translations(locale)
         end
-
-        @@cache.freeze
       end
 
       private
       def cache_flush_required?
-        locales_to_load.size && locales_to_remove.size
+        locales_to_load.size != 0 || locales_to_remove.size != 0
       end
 
       def locales_to_load

@@ -25,6 +25,15 @@ describe ISO3166::Data do
     expect(data['translated_names'].size).to eq (1)
   end
 
+  describe "#codes" do
+    it 'returns an array' do
+      data = ISO3166::Data.codes
+      expect(data).to be_a Array
+      expect(data.size).to eq 250
+    end
+  end
+
+
   it 'locales will load prior to return results' do
     # require 'memory_profiler'
     ISO3166.configuration.locales = [:es, :de, :en]
@@ -69,5 +78,30 @@ describe ISO3166::Data do
     ISO3166.configuration.locales = [:es, :en]
     expect(ISO3166::Data.send(:locales_to_remove) ).to eql(['de'])
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
+  end
+
+  describe 'hotloading data' do
+    before do
+      ISO3166.reset
+      ISO3166::Data.register(alpha2: "LOL", name: 'Happy Country')
+    end
+
+    subject {ISO3166::Country.new('LOL')}
+
+    it 'can be done' do
+      data = ISO3166::Data.new('LOL').call
+      expect(data['name']).to eq 'Happy Country'
+      expect(subject.name).to eq 'Happy Country'
+    end
+
+    it 'can be undone' do
+      ISO3166.reset
+      data = ISO3166::Data.new('LOL').call
+      expect(data).to eq nil
+    end
+
+    after :each do
+      ISO3166.reset
+    end
   end
 end
