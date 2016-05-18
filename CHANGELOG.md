@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.0.pre.4
+- Fix crash when app introduces an unexpected locale. Much thanks to @jstenhouse
+
 ## 2.0.0.pre.2
 - Bringing in content from 1.x branch
 
