@@ -21,6 +21,13 @@ describe 'ISO3166.configuration' do
     expect(ISO3166::Country.new('DE').translation(:es)).to eq nil
   end
 
+  it 'unsupported locales do not affect supported locales' do
+    I18n.available_locales = [:de, :en, :unsupported]
+    ISO3166.reset
+    expect(ISO3166::Country.new('DE').translation(:de)).to eq 'Deutschland'
+    expect(ISO3166::Country.new('DE').translation(:es)).to eq nil
+  end
+
   it 'locales can be changed' do
     ISO3166.configuration.locales = [:de]
     expect(ISO3166::Country.new('DE').translation(:de)).to eq 'Deutschland'

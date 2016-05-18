@@ -80,6 +80,18 @@ describe ISO3166::Data do
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 
+  describe '#load_cache' do
+    it 'will return an empty hash for an unsupported locale' do
+      file_array = %w(cache locales unsupported.json)
+      expect(ISO3166::Data.send(:load_cache, file_array)).to eql({})
+    end
+
+    it 'will return json for a supported locale' do
+      file_array = %w(cache locales en.json)
+      expect(ISO3166::Data.send(:load_cache, file_array)).not_to be_empty
+    end
+  end
+
   describe 'hotloading existing data' do
     before do
       ISO3166::Data.register(

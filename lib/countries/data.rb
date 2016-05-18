@@ -121,7 +121,8 @@ module ISO3166
       end
 
       def load_cache(file_array)
-        JSON.load(File.binread(datafile_path file_array))
+        file_path = datafile_path(file_array)
+        File.exist?(file_path) ? JSON.load(File.binread(file_path)) : {}
       end
 
       def datafile_path(file_array)
