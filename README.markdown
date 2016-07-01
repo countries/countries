@@ -26,6 +26,10 @@ Or you can install via bundler Gemfile with a Country Helper class:
 
     gem 'countries', :require => 'countries/global'
 
+If you already have your own Country class to avoid conflicts you can simply require iso3166:
+
+    gem 'countries', :require => 'countries/iso3166'
+
 Upgrading to 1.2.0
 -----------
 
