@@ -18,23 +18,9 @@ If you’re in Rails 2.3 or earlier, place this in your environment.rb:
     config.gem 'countries'
 ```
 
-Or you can install via bundler Gemfile if you are using Rails 3:
+Or you can install via bundler Gemfile if you are using Rails 3/4/5:
 
     gem 'countries'
-
-Or you can install via bundler Gemfile with a Country Helper class:
-
-    gem 'countries', :require => 'countries/global'
-
-Upgrading to 1.2.0
------------
-
-    gem 'countries', :require => 'global'
-
-has become
-
-    gem 'countries', :require => 'countries/global'
-
 
 Basic Usage
 -----------
@@ -43,12 +29,40 @@ Simply load a new country object using Country.new(*alpha2*) or the shortcut Cou
 
 ``` ruby
 c = ISO3166::Country.new('US')
+```
 
+Configuration
+-----------
+
+#### Country Helper
+Some apps might not want to constantly call `ISO3166::Country` this gem has a
+helper that can provide a `Country` class
+
+``` ruby
 # with global Country Helper
 c = Country['US']
 ```
 
-Configuration
+**This will conflict with any existing `Country` constant**
+
+To Use
+
+``` ruby
+gem 'countries', :require => 'countries/global'
+```
+
+##### Upgrading Country Helper to > 1.2.0
+``` ruby
+gem 'countries', :require => 'global'
+```
+
+has become
+``` ruby
+gem 'countries', :require => 'countries/global'
+```
+
+Selective Loading of Locales
+------------
 
 As of 2.0 you can selectively load locales to reduce memory usage in production.
 
