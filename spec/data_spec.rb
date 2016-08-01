@@ -155,6 +155,11 @@ describe ISO3166::Data do
           'de' => "glückliches Land"})
     end
 
+    it 'leaves remain countries intact after a hotload' do
+      data = ISO3166::Data.new('US').call
+      expect(data).to include("subregion")
+    end
+
     it 'can be undone' do
       ISO3166::Data.unregister('lol')
       data = ISO3166::Data.new('LOL').call
