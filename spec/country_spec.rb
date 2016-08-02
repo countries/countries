@@ -626,6 +626,18 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_eea?' do
+    let(:netherlands) { ISO3166::Country.search('NL') }
+
+    it 'should return false for countries without eea_member flag' do
+      expect(country.in_eea?).to be_falsey
+    end
+
+    it 'should return true for countries with eea_member flag set to true' do
+      expect(netherlands.in_eea?).to be_truthy
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'
