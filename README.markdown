@@ -81,7 +81,7 @@ or something a bit more simple
 ISO3166.configure do |config|
   config.locales = [:en, :de, :fr, :es]
 end
-```    
+```
 
 Attribute-Based Finder Methods
 ------------
@@ -212,8 +212,8 @@ ISO3166::Data.register(
   alpha2: "LOL",
   name: 'Happy Country'
   translations: {
-    'EN' => "Happy Country",
-    'DE' => "glückliches Land"
+    'en' => "Happy Country",
+    'de' => "glückliches Land"
   }
 )
 
@@ -267,10 +267,19 @@ end
 Note on Patches/Pull Requests
 -----------------------------
 
-## Please do not submit pull requests on cache/translations.yaml
+## Please do not submit pull requests on cache/**/*
 Any additions should be directed upstream to (pkg-isocodes)[http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/]
 
 New Bugs can be filed upstream here https://alioth.debian.org/projects/pkg-iso-codes/
+If you need to correct an upstream translation please add it to the lib/countries/data/translations_corrections.yaml
+
+```
+# Ex:
+#
+# locale:
+#   alpha2: localized_name
+#
+```
 
 Any corrections can be applied in translations_corrections.yaml these will be injected during
 the next ```rake update_cache```
