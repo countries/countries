@@ -4159,6 +4159,44 @@ HU:
   nationality: Hungarian
   eu_member: true
   postal_code: true
+IC:
+  continent: Europe
+  address_format: ! '{{recipient}}
+
+    {{street}}
+
+    {{postalcode}} {{city}} {{region}}
+
+    {{country}}'
+  alpha2: IC
+  alpha3: IC
+  country_code: '34'
+  currency: EUR
+  international_prefix: '00'
+  ioc: ESP
+  latitude: 28 10 N
+  longitude: 15 40 W
+  name: Canary Islands
+  names:
+  - Canary Islands
+  - Islas Canarias
+  translations:
+    en: Canary Islands
+    es: Islas Canarias
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  number: '724'
+  region: Europe
+  subregion: Southern Europe
+  un_locode: IC
+  languages:
+  - es
+  nationality: Spanish
+  eu_member: false
+  postal_code: true
 ID:
   continent: Asia
   address_format: ! '{{recipient}}
