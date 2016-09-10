@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = 'countries'
   gem.require_paths = ['lib']
   gem.version       = Countries::VERSION
+  gem.license       = 'MIT'
 
   gem.add_dependency('i18n_data', '~> 0.7.0')
   gem.add_dependency('money', '~> 6.0')
