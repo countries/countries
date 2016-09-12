@@ -716,4 +716,10 @@ describe ISO3166::Country do
       expect(ISO3166::Country.find_country_by_name('Palestinian Authority').alpha2).to eq 'PS'
     end
   end
+
+  describe 'Emjoi' do
+    it 'has an emjoi flag' do
+      expect(country.emoji_flag).to eq "🇺🇸"
+    end
+  end
 end
