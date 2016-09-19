@@ -79,7 +79,8 @@ module ISO3166
     def local_names
       ISO3166.configuration.locales = (ISO3166.configuration.locales + languages.map(&:to_sym)).uniq
       reload
-      @local_names ||= languages.map { |language| translations[language] }
+
+      @local_names ||= languages.map { |language| translations[language.sub(/-.*/, '')]}
     end
 
     def local_name

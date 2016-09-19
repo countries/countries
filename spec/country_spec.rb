@@ -109,6 +109,14 @@ describe ISO3166::Country do
     end
   end
 
+  context 'with Brazil' do
+    let(:country) { ISO3166::Country.search('BR') }
+
+    it 'should return its local name based on its language' do
+      expect(country.local_names).to match_array(%w(Brasil))
+    end
+  end
+
   it 'should return ioc code' do
     expect(country.ioc).to eq('USA')
   end
