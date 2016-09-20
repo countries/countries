@@ -2,62 +2,61 @@
 #
 module ISO3166
   DEFAULT_COUNTRY_HASH = {
-    "address_format" => nil,
-    "alpha2" => nil,
-    "alpha3" => nil,
-    "continent" => nil,
-    "country_code" => nil,
-    "currency_code" => nil,
-    "gec" => nil,
-    "geo" => {
-      "latitude" => nil,
-      "latitude_dec" => nil,
-      "longitude" => nil,
-      "longitude_dec" => nil,
-      "max_latitude" => nil,
-      "max_longitude" => nil,
-      "min_latitude" => nil,
-      "min_longitude" => nil,
+    'address_format' => nil,
+    'alpha2' => nil,
+    'alpha3' => nil,
+    'continent' => nil,
+    'country_code' => nil,
+    'currency_code' => nil,
+    'gec' => nil,
+    'geo' => {
+      'latitude' => nil,
+      'latitude_dec' => nil,
+      'longitude' => nil,
+      'longitude_dec' => nil,
+      'max_latitude' => nil,
+      'max_longitude' => nil,
+      'min_latitude' => nil,
+      'min_longitude' => nil
     },
-    "international_prefix" => nil,
-    "ioc" => nil,
-    "name" => nil,
-    "national_destination_code_lengths" => [],
-    "national_number_lengths" => [],
-    "national_prefix" => nil,
-    "nationality" => nil,
-    "number" => nil,
-    "languages_official" => [],
-    "languages_spoken" => [],
-    "translations" => {},
-    "postal_code" => nil,
-    "region" => nil,
-    "unofficial_names" => [],
-    "subregion" => nil,
-    "un_locode" => nil,
-    "vat_rates" => {
-      "standard" => nil,
-      "reduced" => [ nil, nil ],
-      "super_reduced" => nil,
-      "parking" => nil
+    'international_prefix' => nil,
+    'ioc' => nil,
+    'name' => nil,
+    'national_destination_code_lengths' => [],
+    'national_number_lengths' => [],
+    'national_prefix' => nil,
+    'nationality' => nil,
+    'number' => nil,
+    'languages_official' => [],
+    'languages_spoken' => [],
+    'translations' => {},
+    'postal_code' => nil,
+    'region' => nil,
+    'unofficial_names' => [],
+    'subregion' => nil,
+    'un_locode' => nil,
+    'vat_rates' => {
+      'standard' => nil,
+      'reduced' => [nil, nil],
+      'super_reduced' => nil,
+      'parking' => nil
     },
-    "world_region" => nil
-  }
+    'world_region' => nil
+  }.freeze
 
   DEFAULT_SUBDIVISION_HASH = {
     'name' => nil,
     'unofficial_names' => [],
     'translations' => {},
-    "geo" => {
-      "latitude" => nil,
-      "latitude_dec" => nil,
-      "longitude" => nil,
-      "longitude_dec" => nil,
-      "max_latitude" => nil,
-      "max_longitude" => nil,
-      "min_latitude" => nil,
-      "min_longitude" => nil,
+    'geo' => {
+      'latitude' => nil,
+      'latitude_dec' => nil,
+      'longitude' => nil,
+      'longitude_dec' => nil,
+      'max_latitude' => nil,
+      'max_longitude' => nil,
+      'min_latitude' => nil,
+      'min_longitude' => nil
     }
-  }
-
+  }.freeze
 end

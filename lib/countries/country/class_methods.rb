@@ -1,12 +1,12 @@
 module ISO3166
-  def ISO3166::Country(country_data_or_country)
+  def self::Country(country_data_or_country)
     case country_data_or_country
     when ISO3166::Country
       country_data_or_country
     when String, Symbol
       ISO3166::Country.search(country_data_or_country)
     else
-      fail TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
+      raise TypeError, "can't convert #{country_data_or_country.class.name} into ISO3166::Country"
     end
   end
 
@@ -24,16 +24,14 @@ module ISO3166
       ISO3166::Data.cache.map(&blk)
     end
 
-    alias_method :countries, :all
+    alias countries all
 
     def all_translated(locale = 'en')
       translations(locale).values
     end
 
     def all_names_with_codes(locale = 'en')
-      ISO3166::Country.all.map do |c|
-        [(c.translation(locale) || c.name).html_safe, c.alpha2]
-      end.sort_by { |d| d[0] }
+      Country.all.map { |c| [(c.translation(locale) || c.name).html_safe, c.alpha2] }.sort
     end
 
     def translations(locale = 'en')
@@ -42,7 +40,7 @@ module ISO3166
 
     def search(query)
       country = new(query.to_s.upcase)
-      (country && country.valid?) ? country : nil
+      country && country.valid? ? country : nil
     end
 
     def [](query)
@@ -62,7 +60,7 @@ module ISO3166
 
       ISO3166::Data.cache.select do |_, v|
         attributes.map do |attr|
-          Array(Country.new(v).send(attr)).any? { |n| value === sterlize_value(n)}
+          Array(Country.new(v).send(attr)).any? { |n| value === sterlize_value(n) }
         end.include?(true)
       end
     end
@@ -78,7 +76,7 @@ module ISO3166
     protected
 
     def parse_attributes(attribute, val)
-      fail "Invalid attribute name '#{attribute}'" unless instance_methods.include?(attribute.to_sym)
+      raise "Invalid attribute name '#{attribute}'" unless instance_methods.include?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
       if attributes == ['name']
@@ -96,5 +94,4 @@ module ISO3166
       end
     end
   end
-
 end

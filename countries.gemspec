@@ -21,5 +21,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency('unicode_utils', '~> 1.4')
   gem.add_development_dependency('rspec', '>= 3')
   gem.add_development_dependency('activesupport', '>= 3')
-
 end

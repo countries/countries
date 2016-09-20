@@ -28,10 +28,10 @@ module ISO3166
 
     def default_locales
       locales = if Object.const_defined?('I18n') && I18n.respond_to?(:available_locales)
-        I18n.available_locales
-      else
-        [:en]
-      end
+                  I18n.available_locales
+                else
+                  [:en]
+                end
 
       locales.empty? ? [:en] : locales
     end

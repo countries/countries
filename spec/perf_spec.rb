@@ -9,7 +9,8 @@ describe ISO3166::Data, perf: true, order: :defined do
     :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or,
     :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw,
     :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh,
-    :zh, :zu].freeze
+    :zh, :zu
+  ].freeze
 
   it 'responds to call' do
     require 'benchmark'

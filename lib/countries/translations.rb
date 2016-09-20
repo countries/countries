@@ -6,7 +6,7 @@ module ISO3166
   # to `pt` to prevent from showing nil values
   class Translations < Hash
     def [](locale)
-      super(locale) || super(locale.sub(/-.*/, ""))
+      super(locale) || super(locale.sub(/-.*/, ''))
     end
   end
 end

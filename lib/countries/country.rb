@@ -4,15 +4,15 @@ module ISO3166
     include Emoji
     attr_reader :data
 
-    ISO3166::DEFAULT_COUNTRY_HASH.each do |method_name, type|
+    ISO3166::DEFAULT_COUNTRY_HASH.each do |method_name, _type|
       define_method method_name do
         data[method_name.to_s]
       end
     end
 
-    ISO3166::DEFAULT_COUNTRY_HASH["geo"].each do |method_name, type|
+    ISO3166::DEFAULT_COUNTRY_HASH['geo'].each do |method_name, _type|
       define_method method_name do
-        data["geo"][method_name.to_s]
+        data['geo'][method_name.to_s]
       end
     end
 
@@ -25,11 +25,11 @@ module ISO3166
       !(data.nil? || data.empty?)
     end
 
-    alias_method :zip, :postal_code
-    alias_method :zip?, :postal_code
-    alias_method :postal_code?, :postal_code
-    alias_method :languages, :languages_official
-    alias_method :names, :unofficial_names
+    alias zip postal_code
+    alias zip? postal_code
+    alias postal_code? postal_code
+    alias languages languages_official
+    alias names unofficial_names
 
     def ==(other)
       other == data
@@ -53,7 +53,7 @@ module ISO3166
       end
     end
 
-    alias_method :states, :subdivisions
+    alias states subdivisions
 
     def in_eu?
       data['eu_member'].nil? ? false : data['eu_member']
@@ -89,20 +89,20 @@ module ISO3166
 
     def reload
       @data = if @country_data_or_code.is_a?(Hash)
-        @country_data_or_code
-      else
-        ISO3166::Data.new(@country_data_or_code).call
-      end
+                @country_data_or_code
+              else
+                ISO3166::Data.new(@country_data_or_code).call
+              end
     end
 
     private
 
     def subdivision_data
       @subdivision_data ||= if subdivisions?
-        YAML.load_file(subdivision_file_path)
-      else
-        {}
-      end
+                              YAML.load_file(subdivision_file_path)
+                            else
+                              {}
+                            end
     end
 
     def subdivision_file_path
