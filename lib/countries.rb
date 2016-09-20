@@ -1,5 +1,5 @@
-require "unicode_utils/downcase"
-require "sixarm_ruby_unaccent"
+require 'unicode_utils/downcase'
+require 'sixarm_ruby_unaccent'
 
 require 'countries/version'
 

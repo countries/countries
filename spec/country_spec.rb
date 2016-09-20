@@ -113,12 +113,12 @@ describe ISO3166::Country do
     context 'with pt-BR translation' do
       before do
         ISO3166::Data.register(
-          alpha2: "BR2",
+          alpha2: 'BR2',
           name: 'Brazil',
           languages_official: %w(pt-BR),
           translations: {
-            'pt-BR' => "Translation for pt-BR",
-            'pt' => "Translation for pt"
+            'pt-BR' => 'Translation for pt-BR',
+            'pt' => 'Translation for pt'
           }
         )
       end
@@ -137,11 +137,11 @@ describe ISO3166::Country do
     context 'without pt-BR translation' do
       before do
         ISO3166::Data.register(
-          alpha2: "BR2",
+          alpha2: 'BR2',
           name: 'Brazil',
           languages_official: %w(pt-BR),
           translations: {
-            'pt' => "Translation for pt"
+            'pt' => 'Translation for pt'
           }
         )
       end
@@ -215,11 +215,11 @@ describe ISO3166::Country do
     end
 
     it 'should have a name' do
-      expect(virginia.name).to eq("Virginia")
+      expect(virginia.name).to eq('Virginia')
     end
 
     it 'should behave like a hash' do
-      expect(virginia["name"]).to eq("Virginia")
+      expect(virginia['name']).to eq('Virginia')
     end
   end
 
@@ -458,28 +458,28 @@ describe ISO3166::Country do
       end
     end
 
-    context "when search lowercase multibyte name found" do
-      subject { ISO3166::Country.find_country_by_name("россия") }
+    context 'when search lowercase multibyte name found' do
+      subject { ISO3166::Country.find_country_by_name('россия') }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
         expect(subject.alpha2).to eq('RU')
       end
     end
 
-    context "when search lowercase multibyte name found" do
+    context 'when search lowercase multibyte name found' do
       subject { ISO3166::Country.find_country_by_name(/россия/) }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
         expect(subject.alpha2).to eq('RU')
       end
     end
 
-    context "when accents are not used" do
-      subject { ISO3166::Country.find_country_by_name("emirats Arabes Unis") }
+    context 'when accents are not used' do
+      subject { ISO3166::Country.find_country_by_name('emirats Arabes Unis') }
 
-      it "should be a country instance" do
+      it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
         expect(subject.alpha2).to eq('AE')
       end
@@ -768,7 +768,7 @@ describe ISO3166::Country do
 
   describe 'Emjoi' do
     it 'has an emjoi flag' do
-      expect(country.emoji_flag).to eq "🇺🇸"
+      expect(country.emoji_flag).to eq '🇺🇸'
     end
   end
 end

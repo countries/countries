@@ -18,8 +18,8 @@ module ISO3166
       def register(data)
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = \
-          data.inject({}) { |a,(k,v)| a[k.to_s] = v; a }
-        @@registered_data[alpha2]["translations"] = \
+          data.each_with_object({}) { |(k, v), a| a[k.to_s] = v }
+        @@registered_data[alpha2]['translations'] = \
           Translations.new.merge(data[:translations] || {})
         @@cache = cache.merge(@@registered_data)
       end
@@ -51,11 +51,9 @@ module ISO3166
         @@cache
       end
 
-      private
-
       def load_data!
         return @@cache unless @@cache.size == loaded_codes || @@cache.keys.empty?
-        @@cache = load_cache %w(cache countries.json )
+        @@cache = load_cache %w(cache countries.json)
         @@cache = @@cache.merge(@@registered_data)
         @@cache
       end
@@ -84,7 +82,7 @@ module ISO3166
       end
 
       def cache_flush_required?
-        locales_to_load.size != 0 || locales_to_remove.size != 0
+        !locales_to_load.empty? || !locales_to_remove.empty?
       end
 
       def locales_to_load
@@ -123,7 +121,7 @@ module ISO3166
 
       def load_cache(file_array)
         file_path = datafile_path(file_array)
-        File.exist?(file_path) ? JSON.load(File.binread(file_path)) : {}
+        File.exist?(file_path) ? JSON.parse(File.binread(file_path)) : {}
       end
 
       def datafile_path(file_array)

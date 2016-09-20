@@ -18,33 +18,29 @@ task :update_yaml_structure do
 
   d = Dir['lib/countries/data/subdivisions/*.yaml']
   d.each do |file|
-
     puts "checking : #{file}"
     data = YAML.load_file(file)
-    country_key = File.basename(file, ".yaml")
 
+    data = data.each_with_object({}) do |(k, subd), a|
+      a[k] ||= {}
+      a[k]['unofficial_names'] = subd.delete('names')
+      a[k]['translations'] = { 'en' => subd['name'] }
+      a[k]['geo'] = {
+        'latitude' => subd.delete('latitude'),
+        'longitude' => subd.delete('longitude'),
+        'min_latitude' => subd.delete('min_latitude'),
+        'min_longitude' => subd.delete('min_longitude'),
+        'max_latitude' => subd.delete('max_latitude'),
+        'max_longitude' => subd.delete('max_longitude')
+      }
 
-      data = data.inject({}) do |a, (k,subd)|
-        a[k] ||= {}
-        a[k]["unofficial_names"] = subd.delete("names")
-        a[k]["translations"] = {'en' => subd['name']}
-        a[k]["geo"] = {
-          "latitude" => subd.delete("latitude"),
-          "longitude" => subd.delete("longitude"),
-          "min_latitude" => subd.delete("min_latitude"),
-          "min_longitude" => subd.delete("min_longitude"),
-          "max_latitude" => subd.delete("max_latitude"),
-          "max_longitude" => subd.delete("max_longitude")
-        }
-
-        a[k] = a[k].merge(subd)
-        a
-      end
-      File.open(file, 'w') { |f| f.write data.to_yaml }
-      begin
-    rescue
-      puts "failed to read #{file}: #{$ERROR_INFO}"
+      a[k] = a[k].merge(subd)
     end
+    File.open(file, 'w') { |f| f.write data.to_yaml }
+    begin
+  rescue
+    puts "failed to read #{file}: #{$ERROR_INFO}"
+  end
   end
 end
 
@@ -53,9 +49,9 @@ task :update_cache do
   require 'yaml'
   require 'i18n_data'
 
-  codes = Dir['lib/countries/data/countries/*.yaml'].map {|x| File.basename(x, File.extname(x))}.uniq
+  codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq
   data = {}
-  empty_translations_hash = {}
+
   corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
 
   I18nData.languages.keys.each do |locale|
@@ -91,7 +87,7 @@ Geocoder.configure(always_raise: :all)
 # @param [String] query string to geocode
 # @return [Hash] first valid result or nil
 def geocode(query)
-  Retryable.retryable(tries: 3, sleep: lambda { |n| 2**n }) do
+  Retryable.retryable(tries: 3, sleep: ->(n) { 2**n }) do
     Geocoder.search(query).first
   end
 rescue => e
@@ -128,6 +124,6 @@ task :fetch_subdivisions do
       state_data[code]['geo']['max_longitude'] = geometry['bounds']['northeast']['lng']
     end
     # Write updated YAML for current country
-    File.open(File.join(File.dirname(__FILE__), 'lib','countries', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
   end
 end
