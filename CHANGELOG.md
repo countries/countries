@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.0.rc2
+- Add fallback when looking up locales for pt-BR style languages
+- Implement project style guide
+
 ## 2.0.0.rc
 - Fixed a regression that would purge the countries memory cache when adding a custom country #353
 - Various Content Updates
