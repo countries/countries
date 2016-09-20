@@ -80,7 +80,7 @@ module ISO3166
       ISO3166.configuration.locales = (ISO3166.configuration.locales + languages.map(&:to_sym)).uniq
       reload
 
-      @local_names ||= languages.map { |language| translations[language] || translations[language.sub(/-.*/, '')]}
+      @local_names ||= languages.map { |language| translations[language] }
     end
 
     def local_name
