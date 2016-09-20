@@ -11,6 +11,8 @@ module ISO3166
   end
 
   module CountryClassMethods
+    FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
+
     def new(country_data)
       super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
     end
@@ -47,25 +49,36 @@ module ISO3166
       search(query)
     end
 
-    def method_missing(*m)
-      regex = m.first.to_s.match(/^find_(all_)?(country_|countries_)?by_(.+)/)
-      super unless regex
+    def method_missing(method_name, *arguments)
+      matches = method_name.to_s.match(FIND_BY_REGEX)
+      return_all = matches[1]
+      super unless matches
 
-      countries = find_by(Regexp.last_match[3], m[1], Regexp.last_match[2])
-      Regexp.last_match[1] ? countries : countries.last
+      countries = find_by(matches[3], arguments[0], matches[2])
+      return_all ? countries : countries.last
     end
 
-    def find_all_by(attribute, val)
-      attributes, value = parse_attributes(attribute, val)
-
-      ISO3166::Data.cache.select do |_, v|
-        attributes.map do |attr|
-          Array(Country.new(v).send(attr)).any? { |n| value === sterlize_value(n) }
-        end.include?(true)
+    def respond_to_missing?(method_name, include_private = false)
+      matches = method_name.to_s.match(FIND_BY_REGEX)
+      if matches && matches[3]
+        matches[3].all? { |a| instance_methods.include?(a.to_sym) }
+      else
+        super
       end
     end
 
-    def sterlize_value(v)
+    def find_all_by(attribute, val)
+      attributes, lookup_value = parse_attributes(attribute, val)
+
+      ISO3166::Data.cache.select do |_, v|
+        country = Country.new(v)
+        attributes.any? do |attr|
+          Array(country.send(attr)).any? { |n| lookup_value === strip_accents(n) }
+        end
+      end
+    end
+
+    def strip_accents(v)
       if v.is_a?(Regexp)
         Regexp.new(v.source.unaccent, 'i')
       else
@@ -85,7 +98,7 @@ module ISO3166
         # attributes << 'translated_names'
       end
 
-      [attributes, sterlize_value(val)]
+      [attributes, strip_accents(val)]
     end
 
     def find_by(attribute, value, obj = nil)
