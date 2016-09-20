@@ -109,6 +109,55 @@ describe ISO3166::Country do
     end
   end
 
+  context 'with Brazil' do
+    context 'with pt-BR translation' do
+      before do
+        ISO3166::Data.register(
+          alpha2: "BR2",
+          name: 'Brazil',
+          languages_official: %w(pt-BR),
+          translations: {
+            'pt-BR' => "Translation for pt-BR",
+            'pt' => "Translation for pt"
+          }
+        )
+      end
+
+      let(:country) { ISO3166::Country.search('BR2') }
+
+      it 'should return its local name based on its language' do
+        expect(country.local_names).to match_array(['Translation for pt-BR'])
+      end
+
+      after do
+        ISO3166::Data.unregister('BR2')
+      end
+    end
+
+    context 'without pt-BR translation' do
+      before do
+        ISO3166::Data.register(
+          alpha2: "BR2",
+          name: 'Brazil',
+          languages_official: %w(pt-BR),
+          translations: {
+            'pt' => "Translation for pt"
+          }
+        )
+      end
+
+      let(:country) { ISO3166::Country.search('BR2') }
+
+      it 'should return its local name based on its language' do
+        expect(country.local_names).to match_array(['Translation for pt'])
+      end
+
+      after do
+        ISO3166::Data.unregister('BR2')
+      end
+    end
+  end
+
   it 'should return ioc code' do
     expect(country.ioc).to eq('USA')
   end

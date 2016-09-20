@@ -15,11 +15,12 @@ module ISO3166
     end
 
     class << self
-
       def register(data)
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = \
-         data.inject({}) { |a,(k,v)| a[k.to_s] = v;  a }
+          data.inject({}) { |a,(k,v)| a[k.to_s] = v; a }
+        @@registered_data[alpha2]["translations"] = \
+          Translations.new.merge(data[:translations] || {})
         @@cache = cache.merge(@@registered_data)
       end
 
@@ -105,7 +106,7 @@ module ISO3166
       def load_translations(locale)
         locale_names = load_cache(['cache', 'locales', "#{locale}.json"])
         internal_codes.each do |alpha2|
-          @@cache[alpha2]['translations'] ||= {}
+          @@cache[alpha2]['translations'] ||= Translations.new
           @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
           @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
         end
