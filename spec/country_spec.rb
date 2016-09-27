@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'spec_helper'
-
+NUM_OF_COUNTRIES = 249
 describe ISO3166::Country do
   let(:country) { ISO3166::Country.search('US') }
 
@@ -265,7 +265,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all
       expect(countries).to be_an(Array)
       expect(countries.first).to be_an(ISO3166::Country)
-      expect(countries.size).to eq(250)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should allow to customize each country representation passing a block to the method' do
@@ -273,7 +273,7 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first).to be_an(Array)
       expect(countries.first.size).to eq(3)
-      expect(countries.size).to eq(250)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
 
@@ -285,7 +285,7 @@ describe ISO3166::Country do
       expect(countries.first).to eq('Afghanistan')
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
-      expect(countries.size).to eq(249)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should return an alphabetized list of all country names in English if no locale is passed' do
@@ -293,7 +293,7 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first).to be_a(String)
       expect(countries.first).to eq('Afghanistan')
-      expect(countries.size).to eq(249)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
 
@@ -304,7 +304,7 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afghanistan')
-      expect(countries.size).to eq(250)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
@@ -314,7 +314,7 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afganistán')
-      expect(countries.size).to eq(250)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
 
@@ -346,7 +346,7 @@ describe ISO3166::Country do
       expect(countries.first).to eq(%w(AF Afghanistan))
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
-      expect(countries.size).to eq(249)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should return an hash of all country names in English if no locale is passed' do
@@ -354,7 +354,7 @@ describe ISO3166::Country do
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AF')
       expect(countries.first).to eq(%w(AF Afghanistan))
-      expect(countries.size).to eq(249)
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
 
@@ -395,7 +395,7 @@ describe ISO3166::Country do
   describe 'codes' do
     it 'returns a hash with the data of the country' do
       expect(ISO3166::Country.codes).to be_a Array
-      expect(ISO3166::Country.codes.size).to eq(250)
+      expect(ISO3166::Country.codes.size).to eq(NUM_OF_COUNTRIES)
     end
   end
 
@@ -693,7 +693,7 @@ describe ISO3166::Country do
     end
 
     it 'should return nil if the country does not have a GEC code' do
-      expect(ISO3166::Country.new('AN').gec).to eql nil
+      expect(ISO3166::Country.new('UM').gec).to eql nil
     end
   end
 
