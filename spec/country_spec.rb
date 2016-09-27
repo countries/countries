@@ -739,7 +739,7 @@ describe ISO3166::Country do
 
   describe 'Added country names to search by' do
     it 'should return country code for Democratic Republic of the Congo' do
-      expect(ISO3166::Country.find_country_by_name('Democratic Republic of the Congo').alpha2).to eq 'CG'
+      expect(ISO3166::Country.find_country_by_name('Democratic Republic of the Congo').alpha2).to eq 'CD'
     end
     it 'should return country code for Ivory Coast' do
       expect(ISO3166::Country.find_country_by_name('Ivory Coast').alpha2).to eq 'CI'
