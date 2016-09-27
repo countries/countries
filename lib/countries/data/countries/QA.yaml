@@ -35,12 +35,19 @@ QA:
   languages_spoken:
   - ar
   geo:
-    latitude: 25 30 N
+    latitude: 25.354826
     latitude_dec: '25.413625717163086'
-    longitude: 51 15 E
+    longitude: 51.183884
     longitude_dec: '51.2602653503418'
-    max_latitude: '26.441111'
-    max_longitude: '52.75'
-    min_latitude: '24.284722'
-    min_longitude: '50.680556'
+    max_latitude: 26.1830926
+    max_longitude: 51.656519
+    min_latitude: 24.471118
+    min_longitude: 50.7327986
+    bounds:
+      northeast:
+        lat: 26.1830926
+        lng: 51.656519
+      southwest:
+        lat: 24.471118
+        lng: 50.7327986
   currency_code: QAR

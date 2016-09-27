@@ -31,12 +31,19 @@ NP:
   languages_spoken:
   - ne
   geo:
-    latitude: 28 00 N
+    latitude: 28.394857
     latitude_dec: '28.259138107299805'
-    longitude: 84 00 E
+    longitude: 84.12400799999999
     longitude_dec: '83.94416046142578'
-    max_latitude: '30.45'
-    max_longitude: '88.183333'
-    min_latitude: '26.45'
-    min_longitude: '80'
+    max_latitude: 30.4469452
+    max_longitude: 88.20152569999999
+    min_latitude: 26.3479661
+    min_longitude: 80.05846980000001
+    bounds:
+      northeast:
+        lat: 30.4469452
+        lng: 88.20152569999999
+      southwest:
+        lat: 26.3479661
+        lng: 80.05846980000001
   currency_code: NPR

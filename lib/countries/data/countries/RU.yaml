@@ -39,12 +39,19 @@ RU:
   languages_spoken:
   - ru
   geo:
-    latitude: 60 00 N
+    latitude: 61.52401
     latitude_dec: '63.125186920166016'
-    longitude: 100 00 E
+    longitude: 105.318756
     longitude_dec: '103.75398254394531'
-    max_latitude: '86.216667'
-    max_longitude: '147.172222'
-    min_latitude: '38.7'
-    min_longitude: '19.655556'
+    max_latitude: 81.8581221
+    max_longitude: -169.0456323
+    min_latitude: 41.185353
+    min_longitude: 19.6398055
+    bounds:
+      northeast:
+        lat: 81.8581221
+        lng: -169.0456323
+      southwest:
+        lat: 41.185353
+        lng: 19.6398055
   currency_code: RUB

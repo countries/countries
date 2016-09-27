@@ -29,12 +29,19 @@ CU:
   languages_spoken:
   - es
   geo:
-    latitude: 21 30 N
+    latitude: 21.521757
     latitude_dec: '22.066335678100586'
-    longitude: 80 00 W
+    longitude: -77.781167
     longitude_dec: "-79.4531478881836"
-    max_latitude: '23.265833'
-    max_longitude: "-74.135"
-    min_latitude: '19.828056'
-    min_longitude: "-84.950833"
+    max_latitude: 23.2767521
+    max_longitude: -74.1322232
+    min_latitude: 19.8258995
+    min_longitude: -84.95188879999999
+    bounds:
+      northeast:
+        lat: 23.2767521
+        lng: -74.1322232
+      southwest:
+        lat: 19.8258995
+        lng: -84.95188879999999
   currency_code: CUP

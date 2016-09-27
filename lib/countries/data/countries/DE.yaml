@@ -53,12 +53,19 @@ DE:
   languages_spoken:
   - de
   geo:
-    latitude: 51 00 N
+    latitude: 51.165691
     latitude_dec: '51.20246505737305'
-    longitude: 9 00 E
+    longitude: 10.451526
     longitude_dec: '10.382203102111816'
-    max_latitude: '55.05'
-    max_longitude: '15.033333'
-    min_latitude: '47.266667'
-    min_longitude: '5.9'
+    max_latitude: 55.0581235
+    max_longitude: 15.0418962
+    min_latitude: 47.2701114
+    min_longitude: 5.8663425
+    bounds:
+      northeast:
+        lat: 55.0581235
+        lng: 15.0418962
+      southwest:
+        lat: 47.2701114
+        lng: 5.8663425
   currency_code: EUR

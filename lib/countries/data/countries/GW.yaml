@@ -31,12 +31,19 @@ GW:
   languages_spoken:
   - pt
   geo:
-    latitude: 12 00 N
+    latitude: 11.803749
     latitude_dec: '12.115862846374512'
-    longitude: 15 00 W
+    longitude: -15.180413
     longitude_dec: "-14.748136520385742"
-    max_latitude: '12.683333'
-    max_longitude: "-4"
-    min_latitude: '5'
-    min_longitude: "-16.651944"
+    max_latitude: 12.6869467
+    max_longitude: -13.6265235
+    min_latitude: 10.8599701
+    min_longitude: -16.7151341
+    bounds:
+      northeast:
+        lat: 12.6869467
+        lng: -13.6265235
+      southwest:
+        lat: 10.8599701
+        lng: -16.7151341
   currency_code: XOF

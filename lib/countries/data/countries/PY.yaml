@@ -30,12 +30,19 @@ PY:
   - es
   - gn
   geo:
-    latitude: 23 00 S
+    latitude: -23.442503
     latitude_dec: "-23.24028968811035"
-    longitude: 58 00 W
+    longitude: -58.443832
     longitude_dec: "-58.395172119140625"
-    max_latitude: "-19.333333"
-    max_longitude: "-54.35"
-    min_latitude: "-27.533333"
-    min_longitude: "-62.633333"
+    max_latitude: -19.2876589
+    max_longitude: -54.26298329999999
+    min_latitude: -27.4933208
+    min_longitude: -62.63813879999999
+    bounds:
+      northeast:
+        lat: -19.2876589
+        lng: -54.26298329999999
+      southwest:
+        lat: -27.4933208
+        lng: -62.63813879999999
   currency_code: PYG

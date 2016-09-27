@@ -39,12 +39,19 @@ LB:
   - ar
   - fr
   geo:
-    latitude: 33 50 N
+    latitude: 33.854721
     latitude_dec: '33.925411224365234'
-    longitude: 35 50 E
+    longitude: 35.862285
     longitude_dec: '35.89972686767578'
-    max_latitude: '34.69'
-    max_longitude: '36.592778'
-    min_latitude: '33.078333'
-    min_longitude: '35.103611'
+    max_latitude: 34.69209
+    max_longitude: 36.62372
+    min_latitude: 33.0550256
+    min_longitude: 35.103778
+    bounds:
+      northeast:
+        lat: 34.69209
+        lng: 36.62372
+      southwest:
+        lat: 33.0550256
+        lng: 35.103778
   currency_code: LBP

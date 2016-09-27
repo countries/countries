@@ -46,12 +46,19 @@ BG:
   languages_spoken:
   - bg
   geo:
-    latitude: 43 00 N
+    latitude: 42.733883
     latitude_dec: '42.7661018371582'
-    longitude: 25 00 E
+    longitude: 25.48583
     longitude_dec: '25.283733367919922'
-    max_latitude: '44.193611'
-    max_longitude: '28.6'
-    min_latitude: '41'
-    min_longitude: '22.371389'
+    max_latitude: 44.2152333
+    max_longitude: 28.6092633
+    min_latitude: 41.2354469
+    min_longitude: 22.3573447
+    bounds:
+      northeast:
+        lat: 44.2152333
+        lng: 28.6092633
+      southwest:
+        lat: 41.2354469
+        lng: 22.3573447
   currency_code: BGN

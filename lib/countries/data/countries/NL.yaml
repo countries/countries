@@ -45,12 +45,19 @@ NL:
   languages_spoken:
   - nl
   geo:
-    latitude: 52 30 N
+    latitude: 52.132633
     latitude_dec: '52.34225845336914'
-    longitude: 5 45 E
+    longitude: 5.291265999999999
     longitude_dec: '5.5281572341918945'
-    max_latitude: '53.583333'
-    max_longitude: '7.2'
-    min_latitude: '50.75'
-    min_longitude: '3.133333'
+    max_latitude: 53.5551998
+    max_longitude: 7.2275103
+    min_latitude: 50.7503837
+    min_longitude: 3.357962
+    bounds:
+      northeast:
+        lat: 53.5551998
+        lng: 7.2275103
+      southwest:
+        lat: 50.7503837
+        lng: 3.357962
   currency_code: EUR

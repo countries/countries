@@ -33,12 +33,19 @@ KZ:
   - kk
   - ru
   geo:
-    latitude: 48 00 N
+    latitude: 48.019573
     latitude_dec: '48.14600372314453'
-    longitude: 68 00 E
+    longitude: 66.923684
     longitude_dec: '67.17916870117188'
-    max_latitude: '55.330556'
-    max_longitude: '90'
-    min_latitude: '40.416667'
-    min_longitude: '46.589722'
+    max_latitude: 55.441984
+    max_longitude: 87.315415
+    min_latitude: 40.568584
+    min_longitude: 46.493672
+    bounds:
+      northeast:
+        lat: 55.441984
+        lng: 87.315415
+      southwest:
+        lat: 40.568584
+        lng: 46.493672
   currency_code: KZT

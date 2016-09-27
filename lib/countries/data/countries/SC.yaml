@@ -31,12 +31,19 @@ SC:
   - fr
   - en
   geo:
-    latitude: 4 35 S
+    latitude: -4.679574
     latitude_dec: "-4.669795036315918"
-    longitude: 55 40 E
+    longitude: 55.491977
     longitude_dec: '55.47166061401367'
-    max_latitude: "-3.716667"
-    max_longitude: '56.266667'
-    min_latitude: "-10.216667"
-    min_longitude: '46.216667'
+    max_latitude: -4.2098394
+    max_longitude: 56.2942939
+    min_latitude: -10.2270014
+    min_longitude: 46.20329659999999
+    bounds:
+      northeast:
+        lat: -4.2098394
+        lng: 56.2942939
+      southwest:
+        lat: -10.2270014
+        lng: 46.20329659999999
   currency_code: SCR

@@ -36,12 +36,19 @@ BH:
   languages_spoken:
   - ar
   geo:
-    latitude: 26 00 N
+    latitude: 26.0667
     latitude_dec: '26.094240188598633'
-    longitude: 50 33 E
+    longitude: 50.5577
     longitude_dec: '50.54299545288086'
-    max_latitude: '26.416667'
-    max_longitude: '50.823333'
-    min_latitude: '25'
-    min_longitude: '45'
+    max_latitude: 26.3303934
+    max_longitude: 50.824846
+    min_latitude: 25.5564577
+    min_longitude: 50.37815089999999
+    bounds:
+      northeast:
+        lat: 26.3303934
+        lng: 50.824846
+      southwest:
+        lat: 25.5564577
+        lng: 50.37815089999999
   currency_code: BHD

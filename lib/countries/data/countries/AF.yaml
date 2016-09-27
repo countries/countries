@@ -34,12 +34,19 @@ AF:
   - uz
   - tk
   geo:
-    latitude: 33 00 N
+    latitude: 33.93911
     latitude_dec: '33.833248138427734'
-    longitude: 65 00 E
+    longitude: 67.709953
     longitude_dec: '66.02528381347656'
-    max_latitude: '38.483611'
-    max_longitude: '74.8868713067'
-    min_latitude: '29.383333'
-    min_longitude: '60.566667'
+    max_latitude: 38.4908766
+    max_longitude: 74.889862
+    min_latitude: 29.3772
+    min_longitude: 60.5170004
+    bounds:
+      northeast:
+        lat: 38.4908766
+        lng: 74.889862
+      southwest:
+        lat: 29.3772
+        lng: 60.5170004
   currency_code: AFN

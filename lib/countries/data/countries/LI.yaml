@@ -29,12 +29,19 @@ LI:
   languages_spoken:
   - de
   geo:
-    latitude: 47 16 N
+    latitude: 47.166
     latitude_dec: '47.14126968383789'
-    longitude: 9 32 E
+    longitude: 9.555373
     longitude_dec: '9.552783012390137'
-    max_latitude: '47.233333'
-    max_longitude: '9.75'
-    min_latitude: '47.05'
-    min_longitude: '9.5'
+    max_latitude: 47.2705467
+    max_longitude: 9.6356501
+    min_latitude: 47.0482899
+    min_longitude: 9.47162
+    bounds:
+      northeast:
+        lat: 47.2705467
+        lng: 9.6356501
+      southwest:
+        lat: 47.0482899
+        lng: 9.47162
   currency_code: CHF

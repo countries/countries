@@ -31,12 +31,19 @@ CO:
   languages_spoken:
   - es
   geo:
-    latitude: 4 00 N
+    latitude: 4.570868
     latitude_dec: '3.9976072311401367'
-    longitude: 72 00 W
+    longitude: -74.297333
     longitude_dec: "-73.27796936035156"
-    max_latitude: '13.383333'
-    max_longitude: "-66.854722"
-    min_latitude: "-4.214722"
-    min_longitude: "-81.85"
+    max_latitude: 13.3944833
+    max_longitude: -66.851923
+    min_latitude: -4.2256672
+    min_longitude: -81.735749
+    bounds:
+      northeast:
+        lat: 13.3944833
+        lng: -66.851923
+      southwest:
+        lat: -4.2256672
+        lng: -81.735749
   currency_code: COP

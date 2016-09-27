@@ -28,12 +28,19 @@ TG:
   languages_spoken:
   - fr
   geo:
-    latitude: 8 00 N
+    latitude: 8.619543
     latitude_dec: '8.513226509094238'
-    longitude: 1 10 E
+    longitude: 0.824782
     longitude_dec: '0.9800975322723389'
-    max_latitude: '11.103889'
-    max_longitude: '1.816667'
-    min_latitude: '6.131944'
-    min_longitude: "-4"
+    max_latitude: 11.1404963
+    max_longitude: 1.8088217
+    min_latitude: 6.112394999999999
+    min_longitude: -0.144042
+    bounds:
+      northeast:
+        lat: 11.1404963
+        lng: 1.8088217
+      southwest:
+        lat: 6.112394999999999
+        lng: -0.144042
   currency_code: XOF

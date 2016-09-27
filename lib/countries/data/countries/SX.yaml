@@ -30,12 +30,19 @@ SX:
   - nl
   - en
   geo:
-    latitude: ''
+    latitude: 18.04248
     latitude_dec: '18.042224884033203'
-    longitude: ''
+    longitude: -63.05483
     longitude_dec: "-63.06623458862305"
-    max_latitude: '18.0641707'
-    max_longitude: "-62.9982448"
-    min_latitude: '18.005267'
-    min_longitude: "-63.1379781"
+    max_latitude: 18.0641707
+    max_longitude: -62.99824479999999
+    min_latitude: 18.0050986
+    min_longitude: -63.13795810000001
+    bounds:
+      northeast:
+        lat: 18.0641707
+        lng: -62.99824479999999
+      southwest:
+        lat: 18.0050986
+        lng: -63.13795810000001
   currency_code: ANG

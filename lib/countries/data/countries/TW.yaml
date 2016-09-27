@@ -35,12 +35,19 @@ TW:
   languages_spoken:
   - zh
   geo:
-    latitude: 23 30 N
+    latitude: 23.69781
     latitude_dec: '23.685789108276367'
-    longitude: 121 00 E
+    longitude: 120.960515
     longitude_dec: '120.89749145507812'
-    max_latitude: '26.389444'
-    max_longitude: '122.107778'
-    min_latitude: '21.733333'
-    min_longitude: '118.1152555661'
+    max_latitude: 26.3836884
+    max_longitude: 123.4934282
+    min_latitude: 20.5862202
+    min_longitude: 116.7146015
+    bounds:
+      northeast:
+        lat: 26.3836884
+        lng: 123.4934282
+      southwest:
+        lat: 20.5862202
+        lng: 116.7146015
   currency_code: TWD

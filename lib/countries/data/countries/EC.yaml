@@ -30,12 +30,19 @@ EC:
   languages_spoken:
   - es
   geo:
-    latitude: 2 00 S
+    latitude: -1.831239
     latitude_dec: "-1.421528935432434"
-    longitude: 77 30 W
+    longitude: -78.18340599999999
     longitude_dec: "-78.87104034423828"
-    max_latitude: '1.65'
-    max_longitude: "-75.216667"
-    min_latitude: "-4.95"
-    min_longitude: "-92"
+    max_latitude: 1.6815562
+    max_longitude: -75.1887941
+    min_latitude: -5.014351
+    min_longitude: -92.00845960000001
+    bounds:
+      northeast:
+        lat: 1.6815562
+        lng: -75.1887941
+      southwest:
+        lat: -5.014351
+        lng: -92.00845960000001
   currency_code: USD

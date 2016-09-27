@@ -27,12 +27,19 @@ BL:
   languages_spoken:
   - fr
   geo:
-    latitude: 17 90 N
+    latitude: 17.9
     latitude_dec: '17.89626121520996'
-    longitude: 62 85 W
+    longitude: -62.833333
     longitude_dec: "-62.83061218261719"
-    max_latitude: '17.960853'
-    max_longitude: "-62.7892148"
-    min_latitude: '17.8708287'
-    min_longitude: "-62.9118453"
+    max_latitude: 17.9608008
+    max_longitude: -62.78921479999999
+    min_latitude: 17.8708288
+    min_longitude: -62.9116459
+    bounds:
+      northeast:
+        lat: 17.9608008
+        lng: -62.78921479999999
+      southwest:
+        lat: 17.8708288
+        lng: -62.9116459
   currency_code: EUR

@@ -38,12 +38,19 @@ BR:
   languages_spoken:
   - pt-BR
   geo:
-    latitude: 10 00 S
+    latitude: -14.235004
     latitude_dec: "-10.81045150756836"
-    longitude: 55 00 W
+    longitude: -51.92528
     longitude_dec: "-52.97311782836914"
-    max_latitude: '5.266667'
-    max_longitude: "-28.85"
-    min_latitude: "-33.733333"
-    min_longitude: "-73.75"
+    max_latitude: 5.2717863
+    max_longitude: -29.3449961
+    min_latitude: -33.7506241
+    min_longitude: -73.98281709999999
+    bounds:
+      northeast:
+        lat: 5.2717863
+        lng: -29.3449961
+      southwest:
+        lat: -33.7506241
+        lng: -73.98281709999999
   currency_code: BRL

@@ -30,12 +30,19 @@ CL:
   languages_spoken:
   - es
   geo:
-    latitude: 30 00 S
+    latitude: -35.675147
     latitude_dec: "-35.78622817993164"
-    longitude: 71 00 W
+    longitude: -71.542969
     longitude_dec: "-71.67467498779297"
-    max_latitude: "-17.53"
-    max_longitude: "-66.433333"
-    min_latitude: "-56.533333"
-    min_longitude: "-109.466667"
+    max_latitude: -17.4983292
+    max_longitude: -66.4169644
+    min_latitude: -55.9805353
+    min_longitude: -109.4548805
+    bounds:
+      northeast:
+        lat: -17.4983292
+        lng: -66.4169644
+      southwest:
+        lat: -55.9805353
+        lng: -109.4548805
   currency_code: CLP

@@ -30,12 +30,19 @@ NR:
   - en
   - na
   geo:
-    latitude: 0 32 S
+    latitude: -0.522778
     latitude_dec: "-0.5316064953804016"
-    longitude: 166 55 E
+    longitude: 166.931503
     longitude_dec: '166.9364013671875'
-    max_latitude: "-0.5"
-    max_longitude: '166.95'
-    min_latitude: "-0.55"
-    min_longitude: '166.916667'
+    max_latitude: -0.5026395
+    max_longitude: 166.9589281
+    min_latitude: -0.5541893
+    min_longitude: 166.9095486
+    bounds:
+      northeast:
+        lat: -0.5026395
+        lng: 166.9589281
+      southwest:
+        lat: -0.5541893
+        lng: 166.9095486
   currency_code: AUD

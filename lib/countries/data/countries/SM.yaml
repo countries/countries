@@ -32,12 +32,19 @@ SM:
   languages_spoken:
   - it
   geo:
-    latitude: 43 46 N
+    latitude: 43.94236
     latitude_dec: '43.938133239746094'
-    longitude: 12 25 E
+    longitude: 12.457777
     longitude_dec: '12.463393211364746'
-    max_latitude: '43.966667'
-    max_longitude: '12.5'
-    min_latitude: '43.908333'
-    min_longitude: '12.416667'
+    max_latitude: 43.992075
+    max_longitude: 12.5167041
+    min_latitude: 43.8936809
+    min_longitude: 12.4034823
+    bounds:
+      northeast:
+        lat: 43.992075
+        lng: 12.5167041
+      southwest:
+        lat: 43.8936809
+        lng: 12.4034823
   currency_code: EUR

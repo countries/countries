@@ -31,12 +31,19 @@ BZ:
   - en
   - es
   geo:
-    latitude: 17 15 N
+    latitude: 17.189877
     latitude_dec: '17.225292205810547'
-    longitude: 88 45 W
+    longitude: -88.49765
     longitude_dec: "-88.66973876953125"
-    max_latitude: '18.483333'
-    max_longitude: "-87.483333"
-    min_latitude: '15.9'
-    min_longitude: "-89.216944"
+    max_latitude: 18.495942
+    max_longitude: -87.49172689999999
+    min_latitude: 15.885619
+    min_longitude: -89.227588
+    bounds:
+      northeast:
+        lat: 18.495942
+        lng: -87.49172689999999
+      southwest:
+        lat: 15.885619
+        lng: -89.227588
   currency_code: BZD

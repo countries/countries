@@ -34,12 +34,19 @@ CM:
   - en
   - fr
   geo:
-    latitude: 6 00 N
+    latitude: 7.369721999999999
     latitude_dec: '5.685476779937744'
-    longitude: 12 00 E
+    longitude: 12.354722
     longitude_dec: '12.722877502441406'
-    max_latitude: '16'
-    max_longitude: '16'
-    min_latitude: '2.016667'
-    min_longitude: '8.483333'
+    max_latitude: 13.083335
+    max_longitude: 16.194408
+    min_latitude: 1.6559
+    min_longitude: 8.4947634
+    bounds:
+      northeast:
+        lat: 13.083335
+        lng: 16.194408
+      southwest:
+        lat: 1.6559
+        lng: 8.4947634
   currency_code: XAF

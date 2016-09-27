@@ -30,12 +30,19 @@ BM:
   languages_spoken:
   - en
   geo:
-    latitude: 32 20 N
+    latitude: 32.3078
     latitude_dec: '32.302669525146484'
-    longitude: 64 45 W
+    longitude: -64.7505
     longitude_dec: "-64.7516860961914"
-    max_latitude: '32.390556'
-    max_longitude: "-64.633333"
-    min_latitude: '32.246944'
-    min_longitude: "-64.882778"
+    max_latitude: 32.3909895
+    max_longitude: -64.6473774
+    min_latitude: 32.2470501
+    min_longitude: -64.8874768
+    bounds:
+      northeast:
+        lat: 32.3909895
+        lng: -64.6473774
+      southwest:
+        lat: 32.2470501
+        lng: -64.8874768
   currency_code: BMD

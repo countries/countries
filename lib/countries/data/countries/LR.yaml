@@ -30,12 +30,19 @@ LR:
   languages_spoken:
   - en
   geo:
-    latitude: 6 30 N
+    latitude: 6.428055
     latitude_dec: '6.411512851715088'
-    longitude: 9 30 W
+    longitude: -9.429499000000002
     longitude_dec: "-9.323492050170898"
-    max_latitude: '9.5'
-    max_longitude: "-4"
-    min_latitude: '4.328333'
-    min_longitude: "-11.472222"
+    max_latitude: 8.551986
+    max_longitude: -7.369255000000001
+    min_latitude: 4.3154139
+    min_longitude: -11.4755999
+    bounds:
+      northeast:
+        lat: 8.551986
+        lng: -7.369255000000001
+      southwest:
+        lat: 4.3154139
+        lng: -11.4755999
   currency_code: LRD

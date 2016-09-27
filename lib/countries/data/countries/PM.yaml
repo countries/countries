@@ -32,12 +32,19 @@ PM:
   languages_spoken:
   - fr
   geo:
-    latitude: 46 50 N
+    latitude: 46.8852
     latitude_dec: '46.90594482421875'
-    longitude: 56 20 W
+    longitude: -56.3159
     longitude_dec: "-56.336585998535156"
-    max_latitude: '47.139722'
-    max_longitude: "-56.120556"
-    min_latitude: '46.748333'
-    min_longitude: "-56.405278"
+    max_latitude: 47.1442704
+    max_longitude: -56.1189376
+    min_latitude: 46.7491058
+    min_longitude: -56.405632
+    bounds:
+      northeast:
+        lat: 47.1442704
+        lng: -56.1189376
+      southwest:
+        lat: 46.7491058
+        lng: -56.405632
   currency_code: EUR

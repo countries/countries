@@ -31,12 +31,19 @@ UG:
   - en
   - sw
   geo:
-    latitude: 1 00 N
+    latitude: 1.373333
     latitude_dec: '1.2773280143737793'
-    longitude: 32 00 E
+    longitude: 32.290275
     longitude_dec: '32.389984130859375'
-    max_latitude: '4.166667'
-    max_longitude: '34.95'
-    min_latitude: "-1.433333"
-    min_longitude: '29.583333'
+    max_latitude: 4.218627700000001
+    max_longitude: 35.0330489
+    min_latitude: -1.482318
+    min_longitude: 29.5734329
+    bounds:
+      northeast:
+        lat: 4.218627700000001
+        lng: 35.0330489
+      southwest:
+        lat: -1.482318
+        lng: 29.5734329
   currency_code: UGX

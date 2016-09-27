@@ -32,12 +32,19 @@ CX:
   - zh
   - ms
   geo:
-    latitude: 10 30 S
+    latitude: -10.447525
     latitude_dec: "-10.490290641784668"
-    longitude: 105 40 E
+    longitude: 105.690449
     longitude_dec: '105.63275146484375'
-    max_latitude: "-10.4"
-    max_longitude: '105.75'
-    min_latitude: "-10.566667"
-    min_longitude: '105.566667'
+    max_latitude: -10.4123743
+    max_longitude: 105.7127383
+    min_latitude: -10.570362
+    min_longitude: 105.5333161
+    bounds:
+      northeast:
+        lat: -10.4123743
+        lng: 105.7127383
+      southwest:
+        lat: -10.570362
+        lng: 105.5333161
   currency_code: AUD

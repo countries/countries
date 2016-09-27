@@ -31,12 +31,19 @@ HT:
   - fr
   - ht
   geo:
-    latitude: 19 00 N
+    latitude: 18.971187
     latitude_dec: '19.0732421875'
-    longitude: 72 25 W
+    longitude: -72.285215
     longitude_dec: "-72.24127960205078"
-    max_latitude: '20.083333'
-    max_longitude: "-71.633333"
-    min_latitude: '18.016667'
-    min_longitude: "-74.483333"
+    max_latitude: 20.0895661
+    max_longitude: -71.621754
+    min_latitude: 18.0218876
+    min_longitude: -74.48072739999999
+    bounds:
+      northeast:
+        lat: 20.0895661
+        lng: -71.621754
+      southwest:
+        lat: 18.0218876
+        lng: -74.48072739999999
   currency_code: USD

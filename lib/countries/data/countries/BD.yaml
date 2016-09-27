@@ -29,12 +29,19 @@ BD:
   languages_spoken:
   - bn
   geo:
-    latitude: 24 00 N
+    latitude: 23.684994
     latitude_dec: '23.730104446411133'
-    longitude: 90 00 E
+    longitude: 90.356331
     longitude_dec: '90.30652618408203'
-    max_latitude: '26.5'
-    max_longitude: '92.683333'
-    min_latitude: '20.6'
-    min_longitude: '84'
+    max_latitude: 26.6342433
+    max_longitude: 92.6801153
+    min_latitude: 20.7464106
+    min_longitude: 88.00858869999999
+    bounds:
+      northeast:
+        lat: 26.6342433
+        lng: 92.6801153
+      southwest:
+        lat: 20.7464106
+        lng: 88.00858869999999
   currency_code: BDT

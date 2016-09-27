@@ -30,12 +30,19 @@ PA:
   languages_spoken:
   - es
   geo:
-    latitude: 9 00 N
+    latitude: 8.537981
     latitude_dec: '8.646247863769531'
-    longitude: 80 00 W
+    longitude: -80.782127
     longitude_dec: "-80.50607299804688"
-    max_latitude: '9.65'
-    max_longitude: "-77.283333"
-    min_latitude: '7.213333'
-    min_longitude: "-82.95"
+    max_latitude: 9.6477793
+    max_longitude: -77.1584881
+    min_latitude: 7.2035565
+    min_longitude: -83.05224109999999
+    bounds:
+      northeast:
+        lat: 9.6477793
+        lng: -77.1584881
+      southwest:
+        lat: 7.2035565
+        lng: -83.05224109999999
   currency_code: PAB

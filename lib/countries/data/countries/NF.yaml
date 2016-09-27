@@ -32,12 +32,19 @@ NF:
   languages_spoken:
   - en
   geo:
-    latitude: 29 02 S
+    latitude: -29.040835
     latitude_dec: "-29.036962509155273"
-    longitude: 167 57 E
+    longitude: 167.954712
     longitude_dec: '167.95523071289062'
-    max_latitude: "-28.995388"
-    max_longitude: '167.996927'
-    min_latitude: "-29.136588"
-    min_longitude: '167.916219'
+    max_latitude: -28.9942708
+    max_longitude: 167.9978356
+    min_latitude: -29.1365875
+    min_longitude: 167.9162191
+    bounds:
+      northeast:
+        lat: -28.9942708
+        lng: 167.9978356
+      southwest:
+        lat: -29.1365875
+        lng: 167.9162191
   currency_code: AUD

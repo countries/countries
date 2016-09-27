@@ -29,12 +29,19 @@ PN:
   languages_spoken:
   - en
   geo:
-    latitude: 25 04 S
+    latitude: -24.3767537
     latitude_dec: "-24.372114181518555"
-    longitude: 130 06 W
+    longitude: -128.3242376
     longitude_dec: "-128.31124877929688"
-    max_latitude: "-23.916667"
-    max_longitude: "-124.783333"
-    min_latitude: "-25.066667"
-    min_longitude: "-130.733333"
+    max_latitude: -23.9059474
+    max_longitude: -124.7721577
+    min_latitude: -25.0798074
+    min_longitude: -130.7525907
+    bounds:
+      northeast:
+        lat: -23.9059474
+        lng: -124.7721577
+      southwest:
+        lat: -25.0798074
+        lng: -130.7525907
   currency_code: NZD

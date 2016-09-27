@@ -29,12 +29,19 @@ SN:
   languages_spoken:
   - fr
   geo:
-    latitude: 14 00 N
+    latitude: 14.497401
     latitude_dec: '14.36251163482666'
-    longitude: 14 00 W
+    longitude: -14.452362
     longitude_dec: "-14.531643867492676"
-    max_latitude: '16.666667'
-    max_longitude: "-11.3780213874"
-    min_latitude: '12.336667'
-    min_longitude: "-17.682778"
+    max_latitude: 16.6930539
+    max_longitude: -11.348607
+    min_latitude: 12.307289
+    min_longitude: -17.5298483
+    bounds:
+      northeast:
+        lat: 16.6930539
+        lng: -11.348607
+      southwest:
+        lat: 12.307289
+        lng: -17.5298483
   currency_code: XOF

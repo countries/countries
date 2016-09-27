@@ -48,12 +48,19 @@ LU:
   - de
   - lb
   geo:
-    latitude: 49 45 N
+    latitude: 49.815273
     latitude_dec: '49.77788162231445'
-    longitude: 6 10 E
+    longitude: 6.129582999999999
     longitude_dec: '6.094746112823486'
-    max_latitude: '50.181667'
-    max_longitude: '6.505833'
-    min_latitude: '49.460833'
-    min_longitude: '5.742778'
+    max_latitude: 50.18282
+    max_longitude: 6.530970099999999
+    min_latitude: 49.447779
+    min_longitude: 5.73567
+    bounds:
+      northeast:
+        lat: 50.18282
+        lng: 6.530970099999999
+      southwest:
+        lat: 49.447779
+        lng: 5.73567
   currency_code: EUR

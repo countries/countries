@@ -32,12 +32,19 @@ DJ:
   - ar
   - fr
   geo:
-    latitude: 11 30 N
+    latitude: 11.825138
     latitude_dec: '11.742591857910156'
-    longitude: 43 00 E
+    longitude: 42.590275
     longitude_dec: '42.63182830810547'
-    max_latitude: '13'
-    max_longitude: '43.451944'
-    min_latitude: '10.9825'
-    min_longitude: '41'
+    max_latitude: 12.7136161
+    max_longitude: 43.4173587
+    min_latitude: 10.9319439
+    min_longitude: 41.7597219
+    bounds:
+      northeast:
+        lat: 12.7136161
+        lng: 43.4173587
+      southwest:
+        lat: 10.9319439
+        lng: 41.7597219
   currency_code: DJF

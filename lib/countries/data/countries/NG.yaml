@@ -31,12 +31,19 @@ NG:
   languages_spoken:
   - en
   geo:
-    latitude: 10 00 N
+    latitude: 9.081999
     latitude_dec: '9.559505462646484'
-    longitude: 8 00 E
+    longitude: 8.675277
     longitude_dec: '8.077880859375'
-    max_latitude: '13.866667'
-    max_longitude: '14.65'
-    min_latitude: '4.266667'
-    min_longitude: '2.716667'
+    max_latitude: 13.8856449
+    max_longitude: 14.6779819
+    min_latitude: 4.269857099999999
+    min_longitude: 2.676932
+    bounds:
+      northeast:
+        lat: 13.8856449
+        lng: 14.6779819
+      southwest:
+        lat: 4.269857099999999
+        lng: 2.676932
   currency_code: NGN

@@ -30,12 +30,19 @@ ZM:
   languages_spoken:
   - en
   geo:
-    latitude: 15 00 S
+    latitude: -13.133897
     latitude_dec: "-13.458845138549805"
-    longitude: 30 00 E
+    longitude: 27.849332
     longitude_dec: '27.788097381591797'
-    max_latitude: '5'
-    max_longitude: '39.283333'
-    min_latitude: "-18.05"
-    min_longitude: '22'
+    max_latitude: -8.203284
+    max_longitude: 33.7090305
+    min_latitude: -18.0767539
+    min_longitude: 21.9993509
+    bounds:
+      northeast:
+        lat: -8.203284
+        lng: 33.7090305
+      southwest:
+        lat: -18.0767539
+        lng: 21.9993509
   currency_code: ZMW

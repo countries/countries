@@ -40,12 +40,19 @@ UA:
   languages_spoken:
   - uk
   geo:
-    latitude: 49 00 N
+    latitude: 48.379433
     latitude_dec: '48.92656326293945'
-    longitude: 32 00 E
+    longitude: 31.16558
     longitude_dec: '31.47578239440918'
-    max_latitude: '63.4'
-    max_longitude: '68.85'
-    min_latitude: '37.8'
-    min_longitude: '20.933333'
+    max_latitude: 52.37958099999999
+    max_longitude: 40.2285809
+    min_latitude: 44.3864629
+    min_longitude: 22.1371591
+    bounds:
+      northeast:
+        lat: 52.37958099999999
+        lng: 40.2285809
+      southwest:
+        lat: 44.3864629
+        lng: 22.1371591
   currency_code: UAH

@@ -34,12 +34,19 @@ UZ:
   - uz
   - ru
   geo:
-    latitude: 41 00 N
+    latitude: 41.377491
     latitude_dec: '41.77239227294922'
-    longitude: 64 00 E
+    longitude: 64.585262
     longitude_dec: '63.14588928222656'
-    max_latitude: '48.583333'
-    max_longitude: '80.383333'
-    min_latitude: '35.266667'
-    min_longitude: '56.083333'
+    max_latitude: 45.590075
+    max_longitude: 73.148946
+    min_latitude: 37.17225699999999
+    min_longitude: 55.99821780000001
+    bounds:
+      northeast:
+        lat: 45.590075
+        lng: 73.148946
+      southwest:
+        lat: 37.17225699999999
+        lng: 55.99821780000001
   currency_code: UZS

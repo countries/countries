@@ -34,12 +34,19 @@ RW:
   - en
   - fr
   geo:
-    latitude: 2 00 S
+    latitude: -1.940278
     latitude_dec: "-1.9999498128890991"
-    longitude: 30 00 E
+    longitude: 29.873888
     longitude_dec: '29.926057815551758'
-    max_latitude: '5'
-    max_longitude: '37'
-    min_latitude: "-2.8"
-    min_longitude: '28.866667'
+    max_latitude: -1.0473753
+    max_longitude: 30.8991179
+    min_latitude: -2.8399383
+    min_longitude: 28.8617539
+    bounds:
+      northeast:
+        lat: -1.0473753
+        lng: 30.8991179
+      southwest:
+        lat: -2.8399383
+        lng: 28.8617539
   currency_code: RWF

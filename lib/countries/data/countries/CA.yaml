@@ -37,12 +37,19 @@ CA:
   - en
   - fr
   geo:
-    latitude: 60 00 N
+    latitude: 56.130366
     latitude_dec: '62.832908630371094'
-    longitude: 95 00 W
+    longitude: -106.346771
     longitude_dec: "-95.91332244873047"
-    max_latitude: '83.116667'
-    max_longitude: "-52.666667"
-    min_latitude: '40'
-    min_longitude: "-141.666667"
+    max_latitude: 83.0956562
+    max_longitude: -52.6206965
+    min_latitude: 41.6765559
+    min_longitude: -141.00187
+    bounds:
+      northeast:
+        lat: 83.0956562
+        lng: -52.6206965
+      southwest:
+        lat: 41.6765559
+        lng: -141.00187
   currency_code: CAD

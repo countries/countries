@@ -40,12 +40,19 @@ LV:
   languages_spoken:
   - lv
   geo:
-    latitude: 57 00 N
+    latitude: 56.879635
     latitude_dec: '56.86873245239258'
-    longitude: 25 00 E
+    longitude: 24.603189
     longitude_dec: '24.84024429321289'
-    max_latitude: '58.066667'
-    max_longitude: '28.2'
-    min_latitude: '55.7'
-    min_longitude: '20.966667'
+    max_latitude: 58.0855688
+    max_longitude: 28.2414029
+    min_latitude: 55.6747769
+    min_longitude: 20.9700939
+    bounds:
+      northeast:
+        lat: 58.0855688
+        lng: 28.2414029
+      southwest:
+        lat: 55.6747769
+        lng: 20.9700939
   currency_code: EUR

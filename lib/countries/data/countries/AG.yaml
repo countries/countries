@@ -32,12 +32,19 @@ AG:
   languages_spoken:
   - en
   geo:
-    latitude: 17 03 N
+    latitude: 17.060816
     latitude_dec: '17.09273910522461'
-    longitude: 61 48 W
+    longitude: -61.796428
     longitude_dec: "-61.81040954589844"
-    max_latitude: '17.733333'
-    max_longitude: "-61.666667"
-    min_latitude: '16.916667'
-    min_longitude: "-62.333333"
+    max_latitude: 17.7291867
+    max_longitude: -61.6571681
+    min_latitude: 16.932532
+    min_longitude: -62.3476571
+    bounds:
+      northeast:
+        lat: 17.7291867
+        lng: -61.6571681
+      southwest:
+        lat: 16.932532
+        lng: -62.3476571
   currency_code: XCD

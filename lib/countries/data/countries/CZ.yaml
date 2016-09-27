@@ -47,12 +47,19 @@ CZ:
   - cs
   - sk
   geo:
-    latitude: 49 45 N
+    latitude: 49.81749199999999
     latitude_dec: '49.739105224609375'
-    longitude: 15 30 E
+    longitude: 15.472962
     longitude_dec: '15.331501007080078'
-    max_latitude: '59.65'
-    max_longitude: '25.5'
-    min_latitude: '40.65'
-    min_longitude: '12.116667'
+    max_latitude: 51.0557185
+    max_longitude: 18.8592361
+    min_latitude: 48.5518081
+    min_longitude: 12.0905891
+    bounds:
+      northeast:
+        lat: 51.0557185
+        lng: 18.8592361
+      southwest:
+        lat: 48.5518081
+        lng: 12.0905891
   currency_code: CZK

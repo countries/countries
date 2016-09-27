@@ -33,12 +33,19 @@ AM:
   - hy
   - ru
   geo:
-    latitude: 40 00 N
+    latitude: 40.069099
     latitude_dec: '40.29266357421875'
-    longitude: 45 00 E
+    longitude: 45.038189
     longitude_dec: '44.93947219848633'
-    max_latitude: '41.3'
-    max_longitude: '46.560556'
-    min_latitude: '38.894167'
-    min_longitude: '43.4425'
+    max_latitude: 41.300993
+    max_longitude: 46.634222
+    min_latitude: 38.8402439
+    min_longitude: 43.44726
+    bounds:
+      northeast:
+        lat: 41.300993
+        lng: 46.634222
+      southwest:
+        lat: 38.8402439
+        lng: 43.44726
   currency_code: AMD

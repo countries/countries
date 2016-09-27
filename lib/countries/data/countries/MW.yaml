@@ -30,12 +30,19 @@ MW:
   - en
   - ny
   geo:
-    latitude: 13 30 S
+    latitude: -13.254308
     latitude_dec: "-13.523577690124512"
-    longitude: 34 00 E
+    longitude: 34.301525
     longitude_dec: '33.83546447753906'
-    max_latitude: "-5"
-    max_longitude: '37'
-    min_latitude: "-17.15"
-    min_longitude: '32.716667'
+    max_latitude: -9.367227399999999
+    max_longitude: 35.91857299999999
+    min_latitude: -17.1295217
+    min_longitude: 32.6725205
+    bounds:
+      northeast:
+        lat: -9.367227399999999
+        lng: 35.91857299999999
+      southwest:
+        lat: -17.1295217
+        lng: 32.6725205
   currency_code: MWK

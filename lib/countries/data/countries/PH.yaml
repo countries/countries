@@ -40,12 +40,19 @@ PH:
   - tl
   - en
   geo:
-    latitude: 13 00 N
+    latitude: 12.879721
     latitude_dec: '11.112666130065918'
-    longitude: 122 00 E
+    longitude: 121.774017
     longitude_dec: '122.50947570800781'
-    max_latitude: '21.113056'
-    max_longitude: '126.604444'
-    min_latitude: '4.588889'
-    min_longitude: '116.65'
+    max_latitude: 19.5738013
+    max_longitude: 126.6043836
+    min_latitude: 4.587033799999999
+    min_longitude: 116.7029193
+    bounds:
+      northeast:
+        lat: 19.5738013
+        lng: 126.6043836
+      southwest:
+        lat: 4.587033799999999
+        lng: 116.7029193
   currency_code: PHP

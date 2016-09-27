@@ -38,12 +38,19 @@ CN:
   languages_spoken:
   - zh
   geo:
-    latitude: 35 00 N
+    latitude: 35.86166
     latitude_dec: '36.55308532714844'
-    longitude: 105 00 E
+    longitude: 104.195397
     longitude_dec: '103.97543334960938'
-    max_latitude: '20.7'
-    max_longitude: '117.816667'
-    min_latitude: '6.183333'
-    min_longitude: '106.7'
+    max_latitude: 53.5587015
+    max_longitude: 134.7728098
+    min_latitude: 18.1576156
+    min_longitude: 73.4994136
+    bounds:
+      northeast:
+        lat: 53.5587015
+        lng: 134.7728098
+      southwest:
+        lat: 18.1576156
+        lng: 73.4994136
   currency_code: CNY

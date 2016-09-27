@@ -32,12 +32,19 @@ PK:
   - en
   - ur
   geo:
-    latitude: 30 00 N
+    latitude: 30.375321
     latitude_dec: '29.923219680786133'
-    longitude: 70 00 E
+    longitude: 69.34511599999999
     longitude_dec: '69.35774230957031'
-    max_latitude: '37.083710704'
-    max_longitude: '77.800014'
-    min_latitude: '23.966667'
-    min_longitude: '60.866667'
+    max_latitude: 37.084107
+    max_longitude: 77.8316194
+    min_latitude: 23.7016243
+    min_longitude: 60.872972
+    bounds:
+      northeast:
+        lat: 37.084107
+        lng: 77.8316194
+      southwest:
+        lat: 23.7016243
+        lng: 60.872972
   currency_code: PKR

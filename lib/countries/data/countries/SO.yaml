@@ -33,12 +33,19 @@ SO:
   - so
   - ar
   geo:
-    latitude: 10 00 N
+    latitude: 5.152149
     latitude_dec: '5.948267459869385'
-    longitude: 49 00 E
+    longitude: 46.199616
     longitude_dec: '47.47360610961914'
-    max_latitude: '11.983333'
-    max_longitude: '51.4'
-    min_latitude: "-1.6594296959"
-    min_longitude: '41'
+    max_latitude: 11.9886143
+    max_longitude: 51.4130287
+    min_latitude: -1.6620658
+    min_longitude: 40.994373
+    bounds:
+      northeast:
+        lat: 11.9886143
+        lng: 51.4130287
+      southwest:
+        lat: -1.6620658
+        lng: 40.994373
   currency_code: SOS

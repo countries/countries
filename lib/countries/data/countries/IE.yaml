@@ -48,12 +48,19 @@ IE:
   - en
   - ga
   geo:
-    latitude: 53 00 N
+    latitude: 53.41291
     latitude_dec: '53.1827278137207'
-    longitude: 8 00 W
+    longitude: -8.24389
     longitude_dec: "-8.196102142333984"
-    max_latitude: '55.433333'
-    max_longitude: "-6.0025"
-    min_latitude: '51.425556'
-    min_longitude: "-10.680833"
+    max_latitude: 55.4351344
+    max_longitude: -5.9947
+    min_latitude: 51.41993129999999
+    min_longitude: -10.6695799
+    bounds:
+      northeast:
+        lat: 55.4351344
+        lng: -5.9947
+      southwest:
+        lat: 51.41993129999999
+        lng: -10.6695799
   currency_code: EUR

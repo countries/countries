@@ -57,12 +57,19 @@ ZA:
   - xh
   - zu
   geo:
-    latitude: 29 00 S
+    latitude: -30.559482
     latitude_dec: "-29.046184539794922"
-    longitude: 24 00 E
+    longitude: 22.937506
     longitude_dec: '25.06287956237793'
-    max_latitude: "-22.133333"
-    max_longitude: '32.883333'
-    min_latitude: "-34.833333"
-    min_longitude: '16.466667'
+    max_latitude: -22.1254241
+    max_longitude: 38.0032997
+    min_latitude: -46.9767945
+    min_longitude: 16.4535919
+    bounds:
+      northeast:
+        lat: -22.1254241
+        lng: 38.0032997
+      southwest:
+        lat: -46.9767945
+        lng: 16.4535919
   currency_code: ZAR

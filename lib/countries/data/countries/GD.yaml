@@ -28,12 +28,19 @@ GD:
   languages_spoken:
   - en
   geo:
-    latitude: 12 07 N
+    latitude: 12.1165
     latitude_dec: '12.178866386413574'
-    longitude: 61 40 W
+    longitude: -61.67899999999999
     longitude_dec: "-61.64693069458008"
-    max_latitude: '12.666667'
-    max_longitude: "-61.25"
-    min_latitude: '11.983333'
-    min_longitude: "-61.8"
+    max_latitude: 12.5301829
+    max_longitude: -61.37799750000001
+    min_latitude: 11.9848781
+    min_longitude: -61.80238019999999
+    bounds:
+      northeast:
+        lat: 12.5301829
+        lng: -61.37799750000001
+      southwest:
+        lat: 11.9848781
+        lng: -61.80238019999999
   currency_code: XCD

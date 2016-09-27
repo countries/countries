@@ -40,12 +40,19 @@ SG:
   - ms
   - ta
   geo:
-    latitude: 1 22 N
+    latitude: 1.352083
     latitude_dec: '1.3219958543777466'
-    longitude: 103 48 E
+    longitude: 103.819836
     longitude_dec: '103.8205337524414'
-    max_latitude: '4'
-    max_longitude: '104.4075'
-    min_latitude: '1.159444'
-    min_longitude: '102'
+    max_latitude: 1.4707591
+    max_longitude: 104.0884807
+    min_latitude: 1.1587023
+    min_longitude: 103.6055575
+    bounds:
+      northeast:
+        lat: 1.4707591
+        lng: 104.0884807
+      southwest:
+        lat: 1.1587023
+        lng: 103.6055575
   currency_code: SGD

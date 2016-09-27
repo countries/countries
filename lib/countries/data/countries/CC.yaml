@@ -30,12 +30,19 @@ CC:
   languages_spoken:
   - en
   geo:
-    latitude: 12 30 S
+    latitude: -12.170692
     latitude_dec: "-12.200602531433105"
-    longitude: 96 50 E
+    longitude: 96.841748
     longitude_dec: '96.85894012451172'
-    max_latitude: "-11.833333"
-    max_longitude: '96.918056'
-    min_latitude: "-12.204167"
-    min_longitude: '96.816667'
+    max_latitude: -11.8221888
+    max_longitude: 96.9294919
+    min_latitude: -12.2088703
+    min_longitude: 96.8166785
+    bounds:
+      northeast:
+        lat: -11.8221888
+        lng: 96.9294919
+      southwest:
+        lat: -12.2088703
+        lng: 96.8166785
   currency_code: AUD

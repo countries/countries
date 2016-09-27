@@ -39,12 +39,19 @@ NZ:
   languages_spoken:
   - en
   geo:
-    latitude: 41 00 S
+    latitude: -40.900557
     latitude_dec: "-44.05629348754883"
-    longitude: 174 00 E
+    longitude: 174.885971
     longitude_dec: '170.35415649414062'
-    max_latitude: "-29.216667"
-    max_longitude: "-178.9"
-    min_latitude: "-52.616667"
-    min_longitude: '179.066667'
+    max_latitude: -29.2313419
+    max_longitude: -175.8315361
+    min_latitude: -52.61941849999999
+    min_longitude: 165.8694371
+    bounds:
+      northeast:
+        lat: -29.2313419
+        lng: -175.8315361
+      southwest:
+        lat: -52.61941849999999
+        lng: 165.8694371
   currency_code: NZD

@@ -31,12 +31,19 @@ WS:
   - sm
   - en
   geo:
-    latitude: 13 35 S
+    latitude: -13.759029
     latitude_dec: "-13.668972969055176"
-    longitude: 172 20 W
+    longitude: -172.104629
     longitude_dec: "-172.322021484375"
-    max_latitude: "-13.433333"
-    max_longitude: "-171"
-    min_latitude: "-14.05"
-    min_longitude: "-172.816667"
+    max_latitude: -13.4396822
+    max_longitude: -171.3980055
+    min_latitude: -14.0765884
+    min_longitude: -172.8036765
+    bounds:
+      northeast:
+        lat: -13.4396822
+        lng: -171.3980055
+      southwest:
+        lat: -14.0765884
+        lng: -172.8036765
   currency_code: USD

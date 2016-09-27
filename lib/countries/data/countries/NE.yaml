@@ -29,12 +29,19 @@ NE:
   languages_spoken:
   - fr
   geo:
-    latitude: 16 00 N
+    latitude: 17.607789
     latitude_dec: '17.424074172973633'
-    longitude: 8 00 E
+    longitude: 8.081666
     longitude_dec: '9.400633811950684'
-    max_latitude: '26'
-    max_longitude: '16'
-    min_latitude: '11.716667'
-    min_longitude: '0.233333'
+    max_latitude: 23.4999998
+    max_longitude: 15.9990339
+    min_latitude: 11.694295
+    min_longitude: 0.1617178
+    bounds:
+      northeast:
+        lat: 23.4999998
+        lng: 15.9990339
+      southwest:
+        lat: 11.694295
+        lng: 0.1617178
   currency_code: XOF

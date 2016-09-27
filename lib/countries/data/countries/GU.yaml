@@ -32,12 +32,19 @@ GU:
   - ch
   - es
   geo:
-    latitude: 13 28 N
+    latitude: 13.444304
     latitude_dec: '13.42112922668457'
-    longitude: 144 47 E
+    longitude: 144.793731
     longitude_dec: '144.73971557617188'
-    max_latitude: '13.652320'
-    max_longitude: '144.953995'
-    min_latitude: '13.240590'
-    min_longitude: '144.619263'
+    max_latitude: 13.654339
+    max_longitude: 144.9566722
+    min_latitude: 13.2430639
+    min_longitude: 144.6183375
+    bounds:
+      northeast:
+        lat: 13.654339
+        lng: 144.9566722
+      southwest:
+        lat: 13.2430639
+        lng: 144.6183375
   currency_code: USD

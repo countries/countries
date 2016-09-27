@@ -32,12 +32,19 @@ FK:
   languages_spoken:
   - en
   geo:
-    latitude: 51 45 S
+    latitude: -51.796253
     latitude_dec: "-51.77312469482422"
-    longitude: 59 00 W
+    longitude: -59.523613
     longitude_dec: "-59.727909088134766"
-    max_latitude: "-50.966667"
-    max_longitude: "-57.666667"
-    min_latitude: "-52.966667"
-    min_longitude: "-61.433333"
+    max_latitude: -51.01151040000001
+    max_longitude: -57.6873745
+    min_latitude: -52.4496802
+    min_longitude: -61.3479998
+    bounds:
+      northeast:
+        lat: -51.01151040000001
+        lng: -57.6873745
+      southwest:
+        lat: -52.4496802
+        lng: -61.3479998
   currency_code: FKP

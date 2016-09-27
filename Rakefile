@@ -3,6 +3,8 @@ require 'bundler/gem_tasks'
 
 require 'rake'
 require 'rspec/core/rake_task'
+ISO3166_ROOT_PATH = File.dirname(__FILE__)
+Dir.glob('lib/countries/tasks/*.rake').each { |r| load r }
 
 desc 'Run all examples'
 RSpec::Core::RakeTask.new(:spec) do |t|
@@ -77,53 +79,4 @@ task :update_cache do
   end
 
   File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json'), 'wb') { |f| f.write(data.to_json) }
-end
-
-require 'geocoder'
-require 'retryable'
-# raise on geocoding errors such as query limit exceeded
-Geocoder.configure(always_raise: :all)
-# Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
-# @param [String] query string to geocode
-# @return [Hash] first valid result or nil
-def geocode(query)
-  Retryable.retryable(tries: 3, sleep: ->(n) { 2**n }) do
-    Geocoder.search(query).first
-  end
-rescue => e
-  warn "Attempts exceeded for query #{query}, last error was #{e.message}"
-  nil
-end
-
-desc 'Retrieve and store subdivisions coordinates'
-task :fetch_subdivisions do
-  require 'countries'
-  # Iterate all countries with subdivisions
-  ISO3166::Country.all.select(&:subdivisions?).each do |c|
-    # Iterate subdivisions
-    state_data = c.subdivisions.dup
-    state_data.reject { |_, data| data['latitude'] }.each do |code, data|
-      location = "#{data['name']}, #{c.name}"
-
-      # Handle special geocoding cases where Google defaults to well known
-      # cities, instead of the states.
-      if c.alpha2 == 'US' && %w(NY WA OK).include?(code)
-        location = "#{data['name']} State, United States"
-      end
-
-      next unless (result = geocode(location))
-      geometry = result.geometry
-      if geometry['location']
-        state_data[code]['geo']['latitude'] = geometry['location']['lat']
-        state_data[code]['geo']['longitude'] = geometry['location']['lng']
-      end
-      next unless geometry['bounds']
-      state_data[code]['geo']['min_latitude'] = geometry['bounds']['southwest']['lat']
-      state_data[code]['geo']['min_longitude'] = geometry['bounds']['southwest']['lng']
-      state_data[code]['geo']['max_latitude'] = geometry['bounds']['northeast']['lat']
-      state_data[code]['geo']['max_longitude'] = geometry['bounds']['northeast']['lng']
-    end
-    # Write updated YAML for current country
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
-  end
 end

@@ -40,12 +40,19 @@ PS:
   - he
   - en
   geo:
-    latitude: ''
+    latitude: 37.9261862
     latitude_dec: '31.946392059326172'
-    longitude: ''
+    longitude: -89.8058909
     longitude_dec: '35.259735107421875'
-    max_latitude: '32.5521'
-    max_longitude: '35.574052'
-    min_latitude: '31.219691'
-    min_longitude: '34.2187639'
+    max_latitude: 37.9358894
+    max_longitude: -89.7880153
+    min_latitude: 37.9140716
+    min_longitude: -89.8208762
+    bounds:
+      northeast:
+        lat: 37.9358894
+        lng: -89.7880153
+      southwest:
+        lat: 37.9140716
+        lng: -89.8208762
   currency_code: ILS

@@ -33,12 +33,19 @@ KM:
   - ar
   - fr
   geo:
-    latitude: 12 10 S
+    latitude: -11.6455
     latitude_dec: "-11.86610221862793"
-    longitude: 44 15 E
+    longitude: 43.3333
     longitude_dec: '43.432640075683594'
-    max_latitude: "-11.35"
-    max_longitude: '45.316667'
-    min_latitude: "-13"
-    min_longitude: '43.226111'
+    max_latitude: -11.3646394
+    max_longitude: 44.5416575
+    min_latitude: -12.4223356
+    min_longitude: 43.2286278
+    bounds:
+      northeast:
+        lat: -11.3646394
+        lng: 44.5416575
+      southwest:
+        lat: -12.4223356
+        lng: 43.2286278
   currency_code: KMF

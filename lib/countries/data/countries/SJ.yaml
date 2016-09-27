@@ -32,12 +32,19 @@ SJ:
   languages_spoken:
   - 'no'
   geo:
-    latitude: 78 00 N
+    latitude: 77.55360399999999
     latitude_dec: '71.04893493652344'
-    longitude: 20 00 E
+    longitude: 23.670272
     longitude_dec: "-8.195747375488281"
-    max_latitude: '80.816667'
-    max_longitude: '32.583333'
-    min_latitude: '74.35'
-    min_longitude: '10.5'
+    max_latitude: 80.8340529
+    max_longitude: 33.497093
+    min_latitude: 70.8265424
+    min_longitude: -9.0767741
+    bounds:
+      northeast:
+        lat: 80.8340529
+        lng: 33.497093
+      southwest:
+        lat: 70.8265424
+        lng: -9.0767741
   currency_code: NOK

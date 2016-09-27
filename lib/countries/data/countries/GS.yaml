@@ -29,12 +29,19 @@ GS:
   languages_spoken:
   - en
   geo:
-    latitude: 54 30 S
+    latitude: -54.429579
     latitude_dec: "-54.459922790527344"
-    longitude: 37 00 W
+    longitude: -36.587909
     longitude_dec: "-36.354618072509766"
-    max_latitude: "-53.970278"
-    max_longitude: "-26.333333"
-    min_latitude: "-59.466667"
-    min_longitude: "-38.305"
+    max_latitude: -53.9757001
+    max_longitude: -26.2689114
+    min_latitude: -59.48429480000001
+    min_longitude: -38.2436014
+    bounds:
+      northeast:
+        lat: -53.9757001
+        lng: -26.2689114
+      southwest:
+        lat: -59.48429480000001
+        lng: -38.2436014
   currency_code: GBP

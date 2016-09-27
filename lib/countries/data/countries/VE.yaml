@@ -28,12 +28,19 @@ VE:
   languages_spoken:
   - es
   geo:
-    latitude: 8 00 N
+    latitude: 15.5802732
     latitude_dec: '7.665388584136963'
-    longitude: 66 00 W
+    longitude: 32.5488083
     longitude_dec: "-66.14541625976562"
-    max_latitude: '15.7'
-    max_longitude: "-59.966667"
-    min_latitude: '0.766667'
-    min_longitude: "-73.16"
+    max_latitude: 15.5804317
+    max_longitude: 32.5489498
+    min_latitude: 15.5800907
+    min_longitude: 32.5486694
+    bounds:
+      northeast:
+        lat: 15.5804317
+        lng: 32.5489498
+      southwest:
+        lat: 15.5800907
+        lng: 32.5486694
   currency_code: VEF

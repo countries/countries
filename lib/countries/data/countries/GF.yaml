@@ -30,12 +30,19 @@ GF:
   languages_spoken:
   - fr
   geo:
-    latitude: 4 00 N
+    latitude: 3.933889
     latitude_dec: '4.069991111755371'
-    longitude: 53 00 W
+    longitude: -53.125782
     longitude_dec: "-53.16830825805664"
-    max_latitude: '5.75'
-    max_longitude: "-51.65"
-    min_latitude: '2.166667'
-    min_longitude: "-60"
+    max_latitude: 5.752212600000001
+    max_longitude: -51.62071049999999
+    min_latitude: 2.109287
+    min_longitude: -54.554438
+    bounds:
+      northeast:
+        lat: 5.752212600000001
+        lng: -51.62071049999999
+      southwest:
+        lat: 2.109287
+        lng: -54.554438
   currency_code: EUR

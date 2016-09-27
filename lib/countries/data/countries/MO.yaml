@@ -31,12 +31,19 @@ MO:
   - zh
   - pt
   geo:
-    latitude: 22 10 N
+    latitude: 22.198745
     latitude_dec: '22.140748977661133'
-    longitude: 113 33 E
+    longitude: 113.543873
     longitude_dec: '113.56034088134766'
-    max_latitude: '22.216389'
-    max_longitude: '113.592222'
-    min_latitude: '22.1125'
-    min_longitude: '113.531389'
+    max_latitude: 22.2170639
+    max_longitude: 113.5981886
+    min_latitude: 22.1097693
+    min_longitude: 113.5287411
+    bounds:
+      northeast:
+        lat: 22.2170639
+        lng: 113.5981886
+      southwest:
+        lat: 22.1097693
+        lng: 113.5287411
   currency_code: MOP

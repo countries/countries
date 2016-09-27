@@ -40,12 +40,19 @@
   - nb
   - nn
   geo:
-    latitude: 62 00 N
+    latitude: 60.47202399999999
     latitude_dec: '66.76667022705078'
-    longitude: 10 00 E
+    longitude: 8.468945999999999
     longitude_dec: '14.899925231933594'
-    max_latitude: '71.181944'
-    max_longitude: '31.166667'
-    min_latitude: '56.15'
-    min_longitude: '3.033333'
+    max_latitude: 71.1854262
+    max_longitude: 31.1682683
+    min_latitude: 57.959595
+    min_longitude: 4.5000962
+    bounds:
+      northeast:
+        lat: 71.1854262
+        lng: 31.1682683
+      southwest:
+        lat: 57.959595
+        lng: 4.5000962
   currency_code: NOK

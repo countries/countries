@@ -34,12 +34,19 @@ SD:
   - ar
   - en
   geo:
-    latitude: 15 00 N
+    latitude: 12.862807
     latitude_dec: '16.085784912109375'
-    longitude: 30 00 E
+    longitude: 30.217636
     longitude_dec: '30.087390899658203'
-    max_latitude: '27.166667'
-    max_longitude: '38.833333'
-    min_latitude: '3.516667'
-    min_longitude: '21.883333'
+    max_latitude: 22.2249179
+    max_longitude: 38.58367459999999
+    min_latitude: 9.3472209
+    min_longitude: 21.814939
+    bounds:
+      northeast:
+        lat: 22.2249179
+        lng: 38.58367459999999
+      southwest:
+        lat: 9.3472209
+        lng: 21.814939
   currency_code: SDG

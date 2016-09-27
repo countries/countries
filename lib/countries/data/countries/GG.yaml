@@ -32,12 +32,19 @@ GG:
   - en
   - fr
   geo:
-    latitude: 49 28 N
+    latitude: 49.465691
     latitude_dec: '49.72008514404297'
-    longitude: 2 35 W
+    longitude: -2.585278
     longitude_dec: "-2.1999685764312744"
-    max_latitude: '49.733333'
-    max_longitude: "-2.158056"
-    min_latitude: '49.401111'
-    min_longitude: "-2.7"
+    max_latitude: 49.7327825
+    max_longitude: -2.1584972
+    min_latitude: 49.4002032
+    min_longitude: -2.6745361
+    bounds:
+      northeast:
+        lat: 49.7327825
+        lng: -2.1584972
+      southwest:
+        lat: 49.4002032
+        lng: -2.6745361
   currency_code: GBP

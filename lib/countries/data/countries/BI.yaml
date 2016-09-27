@@ -30,12 +30,19 @@ BI:
   - fr
   - rn
   geo:
-    latitude: 3 30 S
+    latitude: -3.373056
     latitude_dec: "-3.365208148956299"
-    longitude: 30 00 E
+    longitude: 29.918886
     longitude_dec: '29.88650894165039'
-    max_latitude: "-2.3425"
-    max_longitude: '30.831389'
-    min_latitude: "-4.443333"
-    min_longitude: '29.023889'
+    max_latitude: -2.3097303
+    max_longitude: 30.8495447
+    min_latitude: -4.4693288
+    min_longitude: 29.000993
+    bounds:
+      northeast:
+        lat: -2.3097303
+        lng: 30.8495447
+      southwest:
+        lat: -4.4693288
+        lng: 29.000993
   currency_code: BIF

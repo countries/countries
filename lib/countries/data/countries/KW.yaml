@@ -37,12 +37,19 @@ KW:
   languages_spoken:
   - ar
   geo:
-    latitude: 29 30 N
+    latitude: 29.31166
     latitude_dec: '29.321941375732422'
-    longitude: 45 45 E
+    longitude: 47.481766
     longitude_dec: '47.60246658325195'
-    max_latitude: '30.069444'
-    max_longitude: '49.410556'
-    min_latitude: '25'
-    min_longitude: '45'
+    max_latitude: 30.10369919999999
+    max_longitude: 48.4304578
+    min_latitude: 28.5244463
+    min_longitude: 46.55303989999999
+    bounds:
+      northeast:
+        lat: 30.10369919999999
+        lng: 48.4304578
+      southwest:
+        lat: 28.5244463
+        lng: 46.55303989999999
   currency_code: KWD

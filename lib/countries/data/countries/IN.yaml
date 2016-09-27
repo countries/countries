@@ -38,12 +38,19 @@ IN:
   - hi
   - en
   geo:
-    latitude: 20 00 N
+    latitude: 20.593684
     latitude_dec: '23.4060115814209'
-    longitude: 77 00 E
+    longitude: 78.96288
     longitude_dec: '79.45809173583984'
-    max_latitude: '35.9558333333'
-    max_longitude: '97.35'
-    min_latitude: '6.755556'
-    min_longitude: '67.016667'
+    max_latitude: 35.5087008
+    max_longitude: 97.395561
+    min_latitude: 6.7535159
+    min_longitude: 68.1623859
+    bounds:
+      northeast:
+        lat: 35.5087008
+        lng: 97.395561
+      southwest:
+        lat: 6.7535159
+        lng: 68.1623859
   currency_code: INR

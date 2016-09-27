@@ -31,8 +31,8 @@ CH:
     reduced:
     - 2.5
     - 3.8
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
   unofficial_names:
   - Switzerland
@@ -50,12 +50,19 @@ CH:
   - fr
   - it
   geo:
-    latitude: 47 00 N
+    latitude: 46.818188
     latitude_dec: '46.80379867553711'
-    longitude: 8 00 E
+    longitude: 8.227511999999999
     longitude_dec: '8.222854614257812'
-    max_latitude: '47.8085'
-    max_longitude: '10.5'
-    min_latitude: '45.366667'
-    min_longitude: '6'
+    max_latitude: 47.8084545
+    max_longitude: 10.4923401
+    min_latitude: 45.8179199
+    min_longitude: 5.956080099999999
+    bounds:
+      northeast:
+        lat: 47.8084545
+        lng: 10.4923401
+      southwest:
+        lat: 45.8179199
+        lng: 5.956080099999999
   currency_code: CHF

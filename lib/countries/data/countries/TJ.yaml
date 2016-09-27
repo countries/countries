@@ -35,12 +35,19 @@ TJ:
   - tg
   - ru
   geo:
-    latitude: 39 00 N
+    latitude: 38.861034
     latitude_dec: '38.879764556884766'
-    longitude: 71 00 E
+    longitude: 71.276093
     longitude_dec: '70.89906311035156'
-    max_latitude: '40.9'
-    max_longitude: '75'
-    min_latitude: '36.716667'
-    min_longitude: '67.416667'
+    max_latitude: 41.044367
+    max_longitude: 75.15395629999999
+    min_latitude: 36.6719897
+    min_longitude: 67.342012
+    bounds:
+      northeast:
+        lat: 41.044367
+        lng: 75.15395629999999
+      southwest:
+        lat: 36.6719897
+        lng: 67.342012
   currency_code: TJS

@@ -34,12 +34,19 @@ VC:
   languages_spoken:
   - en
   geo:
-    latitude: 13 15 N
+    latitude: 13.2528179
     latitude_dec: '13.217251777648926'
-    longitude: 61 12 W
+    longitude: -61.19716289999999
     longitude_dec: "-61.19344711303711"
-    max_latitude: '13.366667'
-    max_longitude: "-61.116667"
-    min_latitude: '12.533333'
-    min_longitude: "-61.433333"
+    max_latitude: 13.3831591
+    max_longitude: -61.1150287
+    min_latitude: 12.5326588
+    min_longitude: -61.4609592
+    bounds:
+      northeast:
+        lat: 13.3831591
+        lng: -61.1150287
+      southwest:
+        lat: 12.5326588
+        lng: -61.4609592
   currency_code: XCD
