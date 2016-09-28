@@ -1,7 +1,7 @@
 describe 'timezone Country class' do
   context "when loaded via 'timezone'" do
     require 'tzinfo'
-    describe 'existance' do
+    describe 'existence' do
       subject { defined?(TZInfo) }
 
       it { is_expected.to be_truthy }

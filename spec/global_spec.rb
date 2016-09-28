@@ -1,5 +1,5 @@
 describe 'global Country class', order: :defined do
-  context "when loaded via 'iso3166' existance" do
+  context "when loaded via 'iso3166' existence" do
     subject { defined?(Country) }
 
     it { is_expected.to be_falsey }
@@ -8,7 +8,7 @@ describe 'global Country class', order: :defined do
   context "when loaded via 'global'" do
     before { require 'countries/global' }
 
-    describe 'existance' do
+    describe 'existence' do
       subject { defined?(Country) }
 
       it { is_expected.to be_truthy }
