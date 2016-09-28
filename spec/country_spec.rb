@@ -766,8 +766,8 @@ describe ISO3166::Country do
     end
   end
 
-  describe 'Emjoi' do
-    it 'has an emjoi flag' do
+  describe 'Emoji' do
+    it 'has an emoji flag' do
       expect(country.emoji_flag).to eq '🇺🇸'
     end
   end
