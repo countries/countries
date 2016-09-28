@@ -166,7 +166,7 @@ c.international_prefix #=> "011"
 c.national_prefix #=> "1"
 ```
 
-Boundry Boxes
+Boundary Boxes
 
 ``` ruby
 c.min_longitude #=> '45'
@@ -175,7 +175,7 @@ c.max_longitude #=> '58'
 c.max_latitude #=> '26.133333'
 ```
 
-  European Union Membership
+European Union Membership
 
 ``` ruby
 c.in_eu? #=> false
