@@ -554,6 +554,15 @@ describe ISO3166::Country do
       end
     end
 
+    context 'regression test for #388' do
+      let(:no_country) { ISO3166::Country.find_country_by_translated_names(nil) }
+
+      it 'should be a country instance' do
+        expect(no_country).to_not be_a(ISO3166::Country)
+        expect(no_country).to eq nil
+      end
+    end
+
     context 'when search name not found' do
       let(:bogus) { ISO3166::Country.find_country_by_name('Does not exist') }
 
