@@ -35,12 +35,19 @@ KG:
   - ky
   - ru
   geo:
-    latitude: 41 00 N
+    latitude: 41.20438
     latitude_dec: '41.46435546875'
-    longitude: 75 00 E
+    longitude: 74.766098
     longitude_dec: '74.55522155761719'
-    max_latitude: '43.016667'
-    max_longitude: '80.115833'
-    min_latitude: '39.25'
-    min_longitude: '69.333333'
+    max_latitude: 43.2653569
+    max_longitude: 80.22655929999999
+    min_latitude: 39.180254
+    min_longitude: 69.250998
+    bounds:
+      northeast:
+        lat: 43.2653569
+        lng: 80.22655929999999
+      southwest:
+        lat: 39.180254
+        lng: 69.250998
   currency_code: KGS

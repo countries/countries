@@ -32,12 +32,19 @@ GA:
   languages_spoken:
   - fr
   geo:
-    latitude: 1 00 S
+    latitude: -0.803689
     latitude_dec: "-0.6345400810241699"
-    longitude: 11 45 E
+    longitude: 11.609444
     longitude_dec: '11.738608360290527'
-    max_latitude: '2.283333'
-    max_longitude: '14.483333'
-    min_latitude: "-3.9"
-    min_longitude: '8.7'
+    max_latitude: 2.3181089
+    max_longitude: 14.5269233
+    min_latitude: -3.9608058
+    min_longitude: 8.6990528
+    bounds:
+      northeast:
+        lat: 2.3181089
+        lng: 14.5269233
+      southwest:
+        lat: -3.9608058
+        lng: 8.6990528
   currency_code: XAF

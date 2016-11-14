@@ -31,12 +31,19 @@ TF:
   languages_spoken:
   - fr
   geo:
-    latitude: ''
+    latitude: -49.280366
     latitude_dec: "-49.563865661621094"
-    longitude: ''
+    longitude: 69.348557
     longitude_dec: '69.54277801513672'
-    max_latitude: "-37.783333"
-    max_longitude: '77.6'
-    min_latitude: "-50.016667"
-    min_longitude: '50.233333'
+    max_latitude: -48.4497414
+    max_longitude: 70.5566024
+    min_latitude: -49.8116117
+    min_longitude: 68.6020661
+    bounds:
+      northeast:
+        lat: -48.4497414
+        lng: 70.5566024
+      southwest:
+        lat: -49.8116117
+        lng: 68.6020661
   currency_code: EUR

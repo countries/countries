@@ -34,12 +34,19 @@ MN:
   languages_spoken:
   - mn
   geo:
-    latitude: 46 00 N
+    latitude: 46.862496
     latitude_dec: '46.83647918701172'
-    longitude: 105 00 E
+    longitude: 103.846656
     longitude_dec: '103.06689453125'
-    max_latitude: '52.1'
-    max_longitude: '119.916667'
-    min_latitude: '41.55'
-    min_longitude: '87.783333'
+    max_latitude: 52.1486964
+    max_longitude: 119.9319488
+    min_latitude: 41.58152
+    min_longitude: 87.73761999999999
+    bounds:
+      northeast:
+        lat: 52.1486964
+        lng: 119.9319488
+      southwest:
+        lat: 41.58152
+        lng: 87.73761999999999
   currency_code: MNT

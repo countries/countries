@@ -46,12 +46,19 @@ IT:
   languages_spoken:
   - it
   geo:
-    latitude: 42 50 N
+    latitude: 41.87194
     latitude_dec: '42.7669792175293'
-    longitude: 12 50 E
+    longitude: 12.56738
     longitude_dec: '12.493823051452637'
-    max_latitude: '48.533333'
-    max_longitude: '20.433333'
-    min_latitude: '35.483333'
-    min_longitude: '1.35'
+    max_latitude: 47.0919999
+    max_longitude: 18.5205014
+    min_latitude: 35.4930164
+    min_longitude: 6.6267201
+    bounds:
+      northeast:
+        lat: 47.0919999
+        lng: 18.5205014
+      southwest:
+        lat: 35.4930164
+        lng: 6.6267201
   currency_code: EUR

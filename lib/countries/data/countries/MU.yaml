@@ -30,12 +30,19 @@ MU:
   languages_spoken:
   - en
   geo:
-    latitude: 20 17 S
+    latitude: -20.348404
     latitude_dec: "-20.220409393310547"
-    longitude: 57 33 E
+    longitude: 57.55215200000001
     longitude_dec: '57.589378356933594'
-    max_latitude: "-5.25"
-    max_longitude: '72.466667'
-    min_latitude: "-20.516667"
-    min_longitude: '56.6'
+    max_latitude: -10.3366293
+    max_longitude: 63.5035944
+    min_latitude: -20.5255121
+    min_longitude: 56.5143667
+    bounds:
+      northeast:
+        lat: -10.3366293
+        lng: 63.5035944
+      southwest:
+        lat: -20.5255121
+        lng: 56.5143667
   currency_code: MUR

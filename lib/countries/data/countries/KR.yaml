@@ -41,12 +41,19 @@ KR:
   languages_spoken:
   - ko
   geo:
-    latitude: 37 00 N
+    latitude: 24.4975048
     latitude_dec: '40.077640533447266'
-    longitude: 127 30 E
+    longitude: 118.1257661
     longitude_dec: '127.13385009765625'
-    max_latitude: '38.586667'
-    max_longitude: '131.866667'
-    min_latitude: '33.1175'
-    min_longitude: '124.612222'
+    max_latitude: 24.4977379
+    max_longitude: 118.1261484
+    min_latitude: 24.4973071
+    min_longitude: 118.125718
+    bounds:
+      northeast:
+        lat: 24.4977379
+        lng: 118.1261484
+      southwest:
+        lat: 24.4973071
+        lng: 118.125718
   currency_code: KRW

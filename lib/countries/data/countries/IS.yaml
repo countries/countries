@@ -40,12 +40,19 @@ IS:
   languages_spoken:
   - is
   geo:
-    latitude: 65 00 N
+    latitude: 64.963051
     latitude_dec: '64.9285659790039'
-    longitude: 18 00 W
+    longitude: -19.020835
     longitude_dec: "-18.961700439453125"
-    max_latitude: '66.566667'
-    max_longitude: "-13.2"
-    min_latitude: '63.3'
-    min_longitude: "-24.533333"
+    max_latitude: 66.56631829999999
+    max_longitude: -13.4961428
+    min_latitude: 63.2962341
+    min_longitude: -24.5333969
+    bounds:
+      northeast:
+        lat: 66.56631829999999
+        lng: -13.4961428
+      southwest:
+        lat: 63.2962341
+        lng: -24.5333969
   currency_code: ISK

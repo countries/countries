@@ -38,12 +38,19 @@ EG:
   languages_spoken:
   - ar
   geo:
-    latitude: 27 00 N
+    latitude: 26.820553
     latitude_dec: '26.756103515625'
-    longitude: 30 00 E
+    longitude: 30.802498
     longitude_dec: '29.86229705810547'
-    max_latitude: '31.916667'
-    max_longitude: '36.333333'
-    min_latitude: '20.383333'
-    min_longitude: '24.7'
+    max_latitude: 31.6715347
+    max_longitude: 36.8945446
+    min_latitude: 21.9999999
+    min_longitude: 24.696775
+    bounds:
+      northeast:
+        lat: 31.6715347
+        lng: 36.8945446
+      southwest:
+        lat: 21.9999999
+        lng: 24.696775
   currency_code: EGP

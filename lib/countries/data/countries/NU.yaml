@@ -28,12 +28,19 @@ NU:
   languages_spoken:
   - en
   geo:
-    latitude: 19 02 S
+    latitude: -19.054445
     latitude_dec: "-19.03806495666504"
-    longitude: 169 52 W
+    longitude: -169.867233
     longitude_dec: "-169.8302459716797"
-    max_latitude: "-18.933333"
-    max_longitude: "-169.783333"
-    min_latitude: "-19.1"
-    min_longitude: "-169.916667"
+    max_latitude: -18.952626
+    max_longitude: -169.7743249
+    min_latitude: -19.1554807
+    min_longitude: -169.9497924
+    bounds:
+      northeast:
+        lat: -18.952626
+        lng: -169.7743249
+      southwest:
+        lat: -19.1554807
+        lng: -169.9497924
   currency_code: NZD

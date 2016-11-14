@@ -29,12 +29,19 @@ BS:
   languages_spoken:
   - en
   geo:
-    latitude: 24 15 N
+    latitude: 25.03428
     latitude_dec: '25.035648345947266'
-    longitude: 76 00 W
+    longitude: -77.39627999999999
     longitude_dec: "-77.39512634277344"
-    max_latitude: '29.375'
-    max_longitude: "-70"
-    min_latitude: '20'
-    min_longitude: "-80.483333"
+    max_latitude: 27.2633621
+    max_longitude: -72.7120686
+    min_latitude: 20.9101345
+    min_longitude: -80.4749465
+    bounds:
+      northeast:
+        lat: 27.2633621
+        lng: -72.7120686
+      southwest:
+        lat: 20.9101345
+        lng: -80.4749465
   currency_code: BSD

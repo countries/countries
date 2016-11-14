@@ -42,12 +42,19 @@ BA:
   - hr
   - sr
   geo:
-    latitude: 44 00 N
+    latitude: 43.915886
     latitude_dec: '44.16533279418945'
-    longitude: 18 00 E
+    longitude: 17.679076
     longitude_dec: '17.790241241455078'
-    max_latitude: '45.268333'
-    max_longitude: '19.618333'
-    min_latitude: '42.558056'
-    min_longitude: '15.747222'
+    max_latitude: 45.2766262
+    max_longitude: 19.621935
+    min_latitude: 42.5564516
+    min_longitude: 15.7223666
+    bounds:
+      northeast:
+        lat: 45.2766262
+        lng: 19.621935
+      southwest:
+        lat: 42.5564516
+        lng: 15.7223666
   currency_code: BAM

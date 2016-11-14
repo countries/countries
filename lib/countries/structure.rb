@@ -17,7 +17,17 @@ module ISO3166
       'max_latitude' => nil,
       'max_longitude' => nil,
       'min_latitude' => nil,
-      'min_longitude' => nil
+      'min_longitude' => nil,
+      'bounds' => {
+        'northeast' => {
+          'lat' => nil,
+          'lng' => nil
+        },
+        'southwest' => {
+          'lat' => nil,
+          'lng' => nil
+        }
+      }
     },
     'international_prefix' => nil,
     'ioc' => nil,

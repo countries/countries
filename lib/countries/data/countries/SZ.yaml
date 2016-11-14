@@ -32,12 +32,19 @@ SZ:
   - en
   - ss
   geo:
-    latitude: 26 30 S
+    latitude: -26.522503
     latitude_dec: "-26.565134048461914"
-    longitude: 31 30 E
+    longitude: 31.465866
     longitude_dec: '31.49811363220215'
-    max_latitude: "-25.783333"
-    max_longitude: '32.133333'
-    min_latitude: "-27.316667"
-    min_longitude: '30.783333'
+    max_latitude: -25.7179201
+    max_longitude: 32.1349066
+    min_latitude: -27.317402
+    min_longitude: 30.79064
+    bounds:
+      northeast:
+        lat: -25.7179201
+        lng: 32.1349066
+      southwest:
+        lat: -27.317402
+        lng: 30.79064
   currency_code: SZL

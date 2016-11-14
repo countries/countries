@@ -37,12 +37,19 @@ TR:
   languages_spoken:
   - tr
   geo:
-    latitude: 39 00 N
+    latitude: 38.963745
     latitude_dec: '39.05101013183594'
-    longitude: 35 00 E
+    longitude: 35.243322
     longitude_dec: '34.93033981323242'
-    max_latitude: '42.1'
-    max_longitude: '44.8'
-    min_latitude: '35.819444'
-    min_longitude: '25'
+    max_latitude: 42.106239
+    max_longitude: 44.8178449
+    min_latitude: 35.808592
+    min_longitude: 25.6655486
+    bounds:
+      northeast:
+        lat: 42.106239
+        lng: 44.8178449
+      southwest:
+        lat: 35.808592
+        lng: 25.6655486
   currency_code: TRY

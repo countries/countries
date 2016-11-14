@@ -32,12 +32,19 @@ NC:
   languages_spoken:
   - fr
   geo:
-    latitude: 21 30 S
+    latitude: -20.904305
     latitude_dec: "-21.31782341003418"
-    longitude: 165 30 E
+    longitude: 165.618042
     longitude_dec: '165.298583984375'
-    max_latitude: "-18.016667"
-    max_longitude: '172.05'
-    min_latitude: "-22.783333"
-    min_longitude: '158.246667'
+    max_latitude: -19.5395087
+    max_longitude: 168.1336819
+    min_latitude: -22.8819479
+    min_longitude: 163.5697048
+    bounds:
+      northeast:
+        lat: -19.5395087
+        lng: 168.1336819
+      southwest:
+        lat: -22.8819479
+        lng: 163.5697048
   currency_code: XPF

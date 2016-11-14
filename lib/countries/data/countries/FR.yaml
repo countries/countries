@@ -47,12 +47,19 @@ FR:
   languages_spoken:
   - fr
   geo:
-    latitude: 46 00 N
+    latitude: 46.227638
     latitude_dec: '46.63727951049805'
-    longitude: 2 00 E
+    longitude: 2.213749
     longitude_dec: '2.3382623195648193'
-    max_latitude: '51.09'
-    max_longitude: '9.56'
-    min_latitude: '41.34'
-    min_longitude: "-5.14"
+    max_latitude: 51.0891285
+    max_longitude: 9.560067700000001
+    min_latitude: 41.3423275
+    min_longitude: -5.142307499999999
+    bounds:
+      northeast:
+        lat: 51.0891285
+        lng: 9.560067700000001
+      southwest:
+        lat: 41.3423275
+        lng: -5.142307499999999
   currency_code: EUR

@@ -32,12 +32,19 @@ PG:
   languages_spoken:
   - en
   geo:
-    latitude: 6 00 S
+    latitude: -6.314992999999999
     latitude_dec: "-6.889159679412842"
-    longitude: 147 00 E
+    longitude: 143.95555
     longitude_dec: '146.21444702148438'
-    max_latitude: "-0.733333"
-    max_longitude: '159.483333'
-    min_latitude: "-11.65"
-    min_longitude: '120'
+    max_latitude: -0.8713194999999999
+    max_longitude: 159.4925058
+    min_latitude: -11.6578607
+    min_longitude: 140.8419695
+    bounds:
+      northeast:
+        lat: -0.8713194999999999
+        lng: 159.4925058
+      southwest:
+        lat: -11.6578607
+        lng: 140.8419695
   currency_code: PGK

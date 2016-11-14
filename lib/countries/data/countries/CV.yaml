@@ -32,12 +32,19 @@ CV:
   languages_spoken:
   - pt
   geo:
-    latitude: 16 00 N
+    latitude: 15.120142
     latitude_dec: '15.183002471923828'
-    longitude: 24 00 W
+    longitude: -23.6051722
     longitude_dec: "-23.70345115661621"
-    max_latitude: '17.2'
-    max_longitude: "-22.666667"
-    min_latitude: '14.8'
-    min_longitude: "-25.366667"
+    max_latitude: 17.2047752
+    max_longitude: -22.6576979
+    min_latitude: 14.8026841
+    min_longitude: -25.3610776
+    bounds:
+      northeast:
+        lat: 17.2047752
+        lng: -22.6576979
+      southwest:
+        lat: 14.8026841
+        lng: -25.3610776
   currency_code: CVE

@@ -40,12 +40,19 @@ MT:
   - mt
   - en
   geo:
-    latitude: 35 50 N
+    latitude: 35.937496
     latitude_dec: '35.93336486816406'
-    longitude: 14 35 E
+    longitude: 14.375416
     longitude_dec: '14.381033897399902'
-    max_latitude: '36.081944'
-    max_longitude: '14.575'
-    min_latitude: '35.783889'
-    min_longitude: '14.185556'
+    max_latitude: 36.082227
+    max_longitude: 14.5765028
+    min_latitude: 35.8062364
+    min_longitude: 14.1835484
+    bounds:
+      northeast:
+        lat: 36.082227
+        lng: 14.5765028
+      southwest:
+        lat: 35.8062364
+        lng: 14.1835484
   currency_code: EUR

@@ -28,12 +28,19 @@ GT:
   languages_spoken:
   - es
   geo:
-    latitude: 15 30 N
+    latitude: 15.783471
     latitude_dec: '15.670565605163574'
-    longitude: 90 15 W
+    longitude: -90.23075899999999
     longitude_dec: "-90.3486557006836"
-    max_latitude: '17.816667'
-    max_longitude: "-87.05"
-    min_latitude: '13.751111'
-    min_longitude: "-92.583333"
+    max_latitude: 17.8156972
+    max_longitude: -88.2307249
+    min_latitude: 13.7400215
+    min_longitude: -92.2318359
+    bounds:
+      northeast:
+        lat: 17.8156972
+        lng: -88.2307249
+      southwest:
+        lat: 13.7400215
+        lng: -92.2318359
   currency_code: GTQ

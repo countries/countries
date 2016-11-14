@@ -32,12 +32,19 @@ EH:
   - es
   - fr
   geo:
-    latitude: 24 30 N
+    latitude: 24.215527
     latitude_dec: '25'
-    longitude: 13 00 W
+    longitude: -12.885834
     longitude_dec: "-13"
-    max_latitude: '27.666667'
-    max_longitude: "-8.666667"
-    min_latitude: '20.8'
-    min_longitude: "-17.110556"
+    max_latitude: 27.6672717
+    max_longitude: -8.667525
+    min_latitude: 20.7701864
+    min_longitude: -17.104527
+    bounds:
+      northeast:
+        lat: 27.6672717
+        lng: -8.667525
+      southwest:
+        lat: 20.7701864
+        lng: -17.104527
   currency_code: MAD

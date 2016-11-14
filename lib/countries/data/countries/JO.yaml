@@ -39,12 +39,19 @@ JO:
   languages_spoken:
   - ar
   geo:
-    latitude: 31 00 N
+    latitude: 30.585164
     latitude_dec: '31.2757625579834'
-    longitude: 36 00 E
+    longitude: 36.238414
     longitude_dec: '36.82838821411133'
-    max_latitude: '33.002222'
-    max_longitude: '38.883333'
-    min_latitude: '29'
-    min_longitude: '34.9875'
+    max_latitude: 33.3746878
+    max_longitude: 39.301154
+    min_latitude: 29.1850361
+    min_longitude: 34.9583399
+    bounds:
+      northeast:
+        lat: 33.3746878
+        lng: 39.301154
+      southwest:
+        lat: 29.1850361
+        lng: 34.9583399
   currency_code: JOD

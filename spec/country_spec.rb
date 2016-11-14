@@ -41,11 +41,15 @@ describe ISO3166::Country do
   end
 
   it 'should return latitude' do
-    expect(country.latitude).to eq('38 00 N')
+    expect(country.latitude).to eq(37.09024)
   end
 
   it 'should return longitude' do
-    expect(country.longitude).to eq('97 00 W')
+    expect(country.longitude).to eq(-95.712891)
+  end
+
+  it 'should return bounds' do
+    expect(country.bounds['northeast']['lat']).to eq(71.3867745)
   end
 
   it 'should return the decimal Latitude' do

@@ -36,12 +36,19 @@ HK:
   - en
   - zh
   geo:
-    latitude: 22 15 N
+    latitude: 22.396428
     latitude_dec: '22.336156845092773'
-    longitude: 114 10 E
+    longitude: 114.109497
     longitude_dec: '114.18696594238281'
-    max_latitude: '22.566667'
-    max_longitude: '114.433333'
-    min_latitude: '22.15'
-    min_longitude: '113.833333'
+    max_latitude: 22.561968
+    max_longitude: 114.4069573
+    min_latitude: 22.1533883
+    min_longitude: 113.835078
+    bounds:
+      northeast:
+        lat: 22.561968
+        lng: 114.4069573
+      southwest:
+        lat: 22.1533883
+        lng: 113.835078
   currency_code: HKD

@@ -28,12 +28,19 @@ IO:
   languages_spoken:
   - en
   geo:
-    latitude: 6 00 S
+    latitude: -7.3346233
     latitude_dec: "-6.196269989013672"
-    longitude: 71 30 E
+    longitude: 72.4242507
     longitude_dec: '71.34793090820312'
-    max_latitude: "-5.233333"
-    max_longitude: '72.483333'
-    min_latitude: "-7.35"
-    min_longitude: '71.265278'
+    max_latitude: -5.2358286
+    max_longitude: 72.4945853
+    min_latitude: -7.4437978
+    min_longitude: 71.2365532
+    bounds:
+      northeast:
+        lat: -5.2358286
+        lng: 72.4945853
+      southwest:
+        lat: -7.4437978
+        lng: 71.2365532
   currency_code: USD

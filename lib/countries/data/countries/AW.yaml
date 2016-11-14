@@ -28,12 +28,19 @@ AW:
   languages_spoken:
   - nl
   geo:
-    latitude: 12 30 N
+    latitude: 12.52111
     latitude_dec: '12.506523132324219'
-    longitude: 69 58 W
+    longitude: -69.968338
     longitude_dec: "-69.96931457519531"
-    max_latitude: '12.616667'
-    max_longitude: "-69.85"
-    min_latitude: '12.416667'
-    min_longitude: "-70.066667"
+    max_latitude: 12.623363
+    max_longitude: -69.8656548
+    min_latitude: 12.4117656
+    min_longitude: -70.0660257
+    bounds:
+      northeast:
+        lat: 12.623363
+        lng: -69.8656548
+      southwest:
+        lat: 12.4117656
+        lng: -70.0660257
   currency_code: AWG

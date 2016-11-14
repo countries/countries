@@ -28,12 +28,19 @@ SL:
   languages_spoken:
   - en
   geo:
-    latitude: 8 30 N
+    latitude: 8.460555
     latitude_dec: '8.521441459655762'
-    longitude: 11 30 W
+    longitude: -11.779889
     longitude_dec: "-11.843890190124512"
-    max_latitude: '10'
-    max_longitude: "-4"
-    min_latitude: '5'
-    min_longitude: "-13.316667"
+    max_latitude: 9.999973599999999
+    max_longitude: -10.2716831
+    min_latitude: 6.8993331
+    min_longitude: -13.3024326
+    bounds:
+      northeast:
+        lat: 9.999973599999999
+        lng: -10.2716831
+      southwest:
+        lat: 6.8993331
+        lng: -13.3024326
   currency_code: SLL

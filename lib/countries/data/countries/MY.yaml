@@ -34,12 +34,19 @@ MY:
   - ms
   - en
   geo:
-    latitude: 2 30 N
+    latitude: 4.210484
     latitude_dec: '2.5490005016326904'
-    longitude: 112 30 E
+    longitude: 101.975766
     longitude_dec: '102.96261596679688'
-    max_latitude: '7.383333'
-    max_longitude: '120'
-    min_latitude: '0.85'
-    min_longitude: '99.641277'
+    max_latitude: 7.379631100000001
+    max_longitude: 119.2693619
+    min_latitude: 0.8538209
+    min_longitude: 98.9362527
+    bounds:
+      northeast:
+        lat: 7.379631100000001
+        lng: 119.2693619
+      southwest:
+        lat: 0.8538209
+        lng: 98.9362527
   currency_code: MYR

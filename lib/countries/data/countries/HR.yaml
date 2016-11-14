@@ -47,12 +47,19 @@ HR:
   languages_spoken:
   - hr
   geo:
-    latitude: 45 10 N
+    latitude: 45.1
     latitude_dec: '45.444305419921875'
-    longitude: 15 30 E
+    longitude: 15.2
     longitude_dec: '15.734503746032715'
-    max_latitude: '46.526944'
-    max_longitude: '19.383056'
-    min_latitude: '42.380278'
-    min_longitude: '13.493333'
+    max_latitude: 46.5552234
+    max_longitude: 19.4480523
+    min_latitude: 42.3776701
+    min_longitude: 13.4896913
+    bounds:
+      northeast:
+        lat: 46.5552234
+        lng: 19.4480523
+      southwest:
+        lat: 42.3776701
+        lng: 13.4896913
   currency_code: HRK

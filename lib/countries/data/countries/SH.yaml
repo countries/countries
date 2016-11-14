@@ -33,12 +33,19 @@ SH:
   languages_spoken:
   - en
   geo:
-    latitude: 15 57 S
+    latitude: 38.5052429
     latitude_dec: "-15.957334518432617"
-    longitude: 5 42 W
+    longitude: -122.4703868
     longitude_dec: "-5.716914176940918"
-    max_latitude: "-7.9"
-    max_longitude: "-5.633333"
-    min_latitude: "-40.4"
-    min_longitude: "-14.416667"
+    max_latitude: 38.523055
+    max_longitude: -122.4363226
+    min_latitude: 38.4864741
+    min_longitude: -122.495042
+    bounds:
+      northeast:
+        lat: 38.523055
+        lng: -122.4363226
+      southwest:
+        lat: 38.4864741
+        lng: -122.495042
   currency_code: SHP

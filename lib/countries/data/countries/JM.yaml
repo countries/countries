@@ -30,12 +30,19 @@ JM:
   languages_spoken:
   - en
   geo:
-    latitude: 18 15 N
+    latitude: 18.109581
     latitude_dec: '18.143444061279297'
-    longitude: 77 30 W
+    longitude: -77.297508
     longitude_dec: "-77.34654998779297"
-    max_latitude: '18.533333'
-    max_longitude: "-70"
-    min_latitude: '17'
-    min_longitude: "-78.366667"
+    max_latitude: 18.5253104
+    max_longitude: -76.183159
+    min_latitude: 17.7057243
+    min_longitude: -78.3688461
+    bounds:
+      northeast:
+        lat: 18.5253104
+        lng: -76.183159
+      southwest:
+        lat: 17.7057243
+        lng: -78.3688461
   currency_code: JMD

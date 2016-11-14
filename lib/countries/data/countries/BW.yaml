@@ -30,12 +30,19 @@ BW:
   - en
   - tn
   geo:
-    latitude: 22 00 S
+    latitude: -22.328474
     latitude_dec: "-22.186752319335938"
-    longitude: 24 00 E
+    longitude: 24.684866
     longitude_dec: '23.81494140625'
-    max_latitude: "-17.833333"
-    max_longitude: '29.016667'
-    min_latitude: "-26.833333"
-    min_longitude: '20'
+    max_latitude: -17.7781371
+    max_longitude: 29.375304
+    min_latitude: -26.9075451
+    min_longitude: 19.998903
+    bounds:
+      northeast:
+        lat: -17.7781371
+        lng: 29.375304
+      southwest:
+        lat: -26.9075451
+        lng: 19.998903
   currency_code: BWP

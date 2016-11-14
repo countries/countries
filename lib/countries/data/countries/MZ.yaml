@@ -30,12 +30,19 @@ MZ:
   languages_spoken:
   - pt
   geo:
-    latitude: 18 15 S
+    latitude: -18.665695
     latitude_dec: "-17.555864334106445"
-    longitude: 35 00 E
+    longitude: 35.529562
     longitude_dec: '35.955692291259766'
-    max_latitude: '15.033333'
-    max_longitude: '40.845278'
-    min_latitude: "-26.857222"
-    min_longitude: '30.231389'
+    max_latitude: -10.4712022
+    max_longitude: 40.8391213
+    min_latitude: -26.8681621
+    min_longitude: 30.21555
+    bounds:
+      northeast:
+        lat: -10.4712022
+        lng: 40.8391213
+      southwest:
+        lat: -26.8681621
+        lng: 30.21555
   currency_code: MZN

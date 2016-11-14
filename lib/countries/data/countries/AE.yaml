@@ -40,12 +40,19 @@ AE:
   languages_spoken:
   - ar
   geo:
-    latitude: 24 00 N
+    latitude: 23.424076
     latitude_dec: '23.684776306152344'
-    longitude: 54 00 E
+    longitude: 53.847818
     longitude_dec: '54.536643981933594'
-    max_latitude: '26.133333'
-    max_longitude: '58'
-    min_latitude: '22.166667'
-    min_longitude: '45'
+    max_latitude: 26.069654
+    max_longitude: 56.3816785
+    min_latitude: 22.6315137
+    min_longitude: 51.497705
+    bounds:
+      northeast:
+        lat: 26.069654
+        lng: 56.3816785
+      southwest:
+        lat: 22.6315137
+        lng: 51.497705
   currency_code: AED

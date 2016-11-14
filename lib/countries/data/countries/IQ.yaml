@@ -32,12 +32,19 @@ IQ:
   languages_spoken:
   - ar
   geo:
-    latitude: 33 00 N
+    latitude: 33.223191
     latitude_dec: '33.044586181640625'
-    longitude: 44 00 E
+    longitude: 43.679291
     longitude_dec: '43.77495574951172'
-    max_latitude: '37.352778'
-    max_longitude: '48.833333'
-    min_latitude: '28.866667'
-    min_longitude: '38.800871'
+    max_latitude: 37.380645
+    max_longitude: 48.61126549999999
+    min_latitude: 29.0612079
+    min_longitude: 38.7936028
+    bounds:
+      northeast:
+        lat: 37.380645
+        lng: 48.61126549999999
+      southwest:
+        lat: 29.0612079
+        lng: 38.7936028
   currency_code: IQD

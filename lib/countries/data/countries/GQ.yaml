@@ -34,12 +34,19 @@ GQ:
   - es
   - fr
   geo:
-    latitude: 2 00 N
+    latitude: 1.650801
     latitude_dec: '1.5331259965896606'
-    longitude: 10 00 E
+    longitude: 10.267895
     longitude_dec: '10.372581481933594'
-    max_latitude: '3.783333'
-    max_longitude: '11.4'
-    min_latitude: "-1.483333"
-    min_longitude: '5.05'
+    max_latitude: 3.7881373
+    max_longitude: 11.3333
+    min_latitude: -1.4679305
+    min_longitude: 5.6119728
+    bounds:
+      northeast:
+        lat: 3.7881373
+        lng: 11.3333
+      southwest:
+        lat: -1.4679305
+        lng: 5.6119728
   currency_code: XAF

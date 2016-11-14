@@ -36,12 +36,19 @@ OM:
   languages_spoken:
   - ar
   geo:
-    latitude: 21 00 N
+    latitude: 21.4735329
     latitude_dec: '20.566621780395508'
-    longitude: 57 00 E
+    longitude: 55.975413
     longitude_dec: '56.157962799072266'
-    max_latitude: '26.505'
-    max_longitude: '59.838056'
-    min_latitude: '16.633333'
-    min_longitude: '45'
+    max_latitude: 26.4053946
+    max_longitude: 59.83939729999999
+    min_latitude: 16.650336
+    min_longitude: 52.0000017
+    bounds:
+      northeast:
+        lat: 26.4053946
+        lng: 59.83939729999999
+      southwest:
+        lat: 16.650336
+        lng: 52.0000017
   currency_code: OMR

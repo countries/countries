@@ -28,12 +28,19 @@ BN:
   languages_spoken:
   - ms
   geo:
-    latitude: 4 30 N
+    latitude: 4.535277
     latitude_dec: '4.5703840255737305'
-    longitude: 114 40 E
+    longitude: 114.727669
     longitude_dec: '114.74818420410156'
-    max_latitude: '5.05'
-    max_longitude: '120'
-    min_latitude: "-2"
-    min_longitude: '110'
+    max_latitude: 5.0460363
+    max_longitude: 115.3639551
+    min_latitude: 4.002460999999999
+    min_longitude: 114.0752979
+    bounds:
+      northeast:
+        lat: 5.0460363
+        lng: 115.3639551
+      southwest:
+        lat: 4.002460999999999
+        lng: 114.0752979
   currency_code: BND

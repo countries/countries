@@ -29,12 +29,19 @@ MM:
   languages_spoken:
   - my
   geo:
-    latitude: 22 00 N
+    latitude: 21.916221
     latitude_dec: '20.330142974853516'
-    longitude: 98 00 E
+    longitude: 95.955974
     longitude_dec: '96.52182006835938'
-    max_latitude: '28.35'
-    max_longitude: '102'
-    min_latitude: '6'
-    min_longitude: '92.190833'
+    max_latitude: 28.5478351
+    max_longitude: 101.1702716
+    min_latitude: 9.5990941
+    min_longitude: 92.17180789999999
+    bounds:
+      northeast:
+        lat: 28.5478351
+        lng: 101.1702716
+      southwest:
+        lat: 9.5990941
+        lng: 92.17180789999999
   currency_code: MMK

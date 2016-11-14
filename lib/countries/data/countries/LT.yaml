@@ -42,12 +42,19 @@ LT:
   languages_spoken:
   - lt
   geo:
-    latitude: 56 00 N
+    latitude: 55.169438
     latitude_dec: '55.33871841430664'
-    longitude: 24 00 E
+    longitude: 23.881275
     longitude_dec: '23.87092399597168'
-    max_latitude: '56.441667'
-    max_longitude: '27'
-    min_latitude: '53'
-    min_longitude: '21'
+    max_latitude: 56.45032089999999
+    max_longitude: 26.8355914
+    min_latitude: 53.89687869999999
+    min_longitude: 20.9540118
+    bounds:
+      northeast:
+        lat: 56.45032089999999
+        lng: 26.8355914
+      southwest:
+        lat: 53.89687869999999
+        lng: 20.9540118
   currency_code: EUR

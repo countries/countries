@@ -31,12 +31,19 @@ GE:
   languages_spoken:
   - ka
   geo:
-    latitude: 42 00 N
+    latitude: 32.1656221
     latitude_dec: '42.3207845'
-    longitude: 43 30 E
+    longitude: -82.9000751
     longitude_dec: '43.3713615'
-    max_latitude: '43.570556'
-    max_longitude: '46.635556'
-    min_latitude: '41.15'
-    min_longitude: '40.013056'
+    max_latitude: 35.00065900000001
+    max_longitude: -80.8407866
+    min_latitude: 30.3555908
+    min_longitude: -85.605165
+    bounds:
+      northeast:
+        lat: 35.00065900000001
+        lng: -80.8407866
+      southwest:
+        lat: 30.3555908
+        lng: -85.605165
   currency_code: GEL

@@ -35,12 +35,19 @@ LY:
   languages_spoken:
   - ar
   geo:
-    latitude: 25 00 N
+    latitude: 26.3351
     latitude_dec: '27.23609733581543'
-    longitude: 17 00 E
+    longitude: 17.228331
     longitude_dec: '18.043556213378906'
-    max_latitude: '33.15'
-    max_longitude: '25.5'
-    min_latitude: '20.8'
-    min_longitude: '5'
+    max_latitude: 33.1679792
+    max_longitude: 25.146954
+    min_latitude: 19.5
+    min_longitude: 9.391466
+    bounds:
+      northeast:
+        lat: 33.1679792
+        lng: 25.146954
+      southwest:
+        lat: 19.5
+        lng: 9.391466
   currency_code: LYD

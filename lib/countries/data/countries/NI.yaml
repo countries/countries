@@ -28,12 +28,19 @@ NI:
   languages_spoken:
   - es
   geo:
-    latitude: 13 00 N
+    latitude: 12.865416
     latitude_dec: '12.903773307800293'
-    longitude: 85 00 W
+    longitude: -85.207229
     longitude_dec: "-84.92182159423828"
-    max_latitude: '15'
-    max_longitude: "-82.566667"
-    min_latitude: '10.716667'
-    min_longitude: "-87.684167"
+    max_latitude: 15.0302756
+    max_longitude: -82.5920716
+    min_latitude: 10.708055
+    min_longitude: -87.69030769999999
+    bounds:
+      northeast:
+        lat: 15.0302756
+        lng: -82.5920716
+      southwest:
+        lat: 10.708055
+        lng: -87.69030769999999
   currency_code: NIO

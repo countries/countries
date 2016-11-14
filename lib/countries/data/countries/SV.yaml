@@ -29,12 +29,19 @@ SV:
   languages_spoken:
   - es
   geo:
-    latitude: 13 50 N
+    latitude: 13.794185
     latitude_dec: '13.671636581420898'
-    longitude: 88 55 W
+    longitude: -88.89653
     longitude_dec: "-88.86363220214844"
-    max_latitude: '14.433333'
-    max_longitude: "-87.657222"
-    min_latitude: '13.158611'
-    min_longitude: "-90.116389"
+    max_latitude: 14.4505566
+    max_longitude: -87.6838623
+    min_latitude: 13.1554312
+    min_longitude: -90.1268107
+    bounds:
+      northeast:
+        lat: 14.4505566
+        lng: -87.6838623
+      southwest:
+        lat: 13.1554312
+        lng: -90.1268107
   currency_code: USD

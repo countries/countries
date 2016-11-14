@@ -29,12 +29,19 @@ MQ:
   languages_spoken:
   - fr
   geo:
-    latitude: ''
+    latitude: 14.641528
     latitude_dec: '14.642807960510254'
-    longitude: ''
+    longitude: -61.024174
     longitude_dec: "-60.97755432128906"
-    max_latitude: '14.866667'
-    max_longitude: "-60.816667"
-    min_latitude: '14.383333'
-    min_longitude: "-61.966667"
+    max_latitude: 14.8787163
+    max_longitude: -60.8105279
+    min_latitude: 14.3886471
+    min_longitude: -61.2291178
+    bounds:
+      northeast:
+        lat: 14.8787163
+        lng: -60.8105279
+      southwest:
+        lat: 14.3886471
+        lng: -61.2291178
   currency_code: EUR

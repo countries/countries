@@ -31,12 +31,19 @@ SS:
   - ar
   - en
   geo:
-    latitude: 7 00 N
+    latitude: 6.876991899999999
     latitude_dec: '7.303858280181885'
-    longitude: 30 00 E
+    longitude: 31.3069788
     longitude_dec: '30.280752182006836'
-    max_latitude: '12.236389'
-    max_longitude: '35.948997'
-    min_latitude: '3.48898'
-    min_longitude: '23.440849'
+    max_latitude: 12.2363889
+    max_longitude: 35.948997
+    min_latitude: 3.48898
+    min_longitude: 23.440849
+    bounds:
+      northeast:
+        lat: 12.2363889
+        lng: 35.948997
+      southwest:
+        lat: 3.48898
+        lng: 23.440849
   currency_code: SSP

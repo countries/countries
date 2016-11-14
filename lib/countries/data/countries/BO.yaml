@@ -34,12 +34,19 @@ BO:
   - ay
   - qu
   geo:
-    latitude: 17 00 S
+    latitude: -16.290154
     latitude_dec: "-16.713054656982422"
-    longitude: 65 00 W
+    longitude: -63.58865299999999
     longitude_dec: "-64.6666488647461"
-    max_latitude: "-9.666667"
-    max_longitude: "-57.566667"
-    min_latitude: "-22.883333"
-    min_longitude: "-69.6"
+    max_latitude: -9.669323
+    max_longitude: -57.453803
+    min_latitude: -22.8980899
+    min_longitude: -69.64498999999999
+    bounds:
+      northeast:
+        lat: -9.669323
+        lng: -57.453803
+      southwest:
+        lat: -22.8980899
+        lng: -69.64498999999999
   currency_code: BOB

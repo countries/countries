@@ -34,12 +34,19 @@ MH:
   - en
   - mh
   geo:
-    latitude: 9 00 N
+    latitude: 6.0683017
     latitude_dec: '7.286207675933838'
-    longitude: 168 00 E
+    longitude: 171.9425582
     longitude_dec: '168.75140380859375'
-    max_latitude: '19.316667'
-    max_longitude: '172.8'
-    min_latitude: '4.566667'
-    min_longitude: '160.8'
+    max_latitude: 14.673255
+    max_longitude: 172.1701812
+    min_latitude: 4.5729557
+    min_longitude: 160.7979584
+    bounds:
+      northeast:
+        lat: 14.673255
+        lng: 172.1701812
+      southwest:
+        lat: 4.5729557
+        lng: 160.7979584
   currency_code: USD

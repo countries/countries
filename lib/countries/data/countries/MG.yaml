@@ -32,12 +32,19 @@ MG:
   - fr
   - mg
   geo:
-    latitude: 20 00 S
+    latitude: -18.766947
     latitude_dec: "-19.27239418029785"
-    longitude: 47 00 E
+    longitude: 46.869107
     longitude_dec: '46.69843292236328'
-    max_latitude: "-11.95"
-    max_longitude: '50.483333'
-    min_latitude: "-25.6"
-    min_longitude: '43.183333'
+    max_latitude: -11.951964
+    max_longitude: 50.48377989999999
+    min_latitude: -25.6065157
+    min_longitude: 43.1851395
+    bounds:
+      northeast:
+        lat: -11.951964
+        lng: 50.48377989999999
+      southwest:
+        lat: -25.6065157
+        lng: 43.1851395
   currency_code: MGA

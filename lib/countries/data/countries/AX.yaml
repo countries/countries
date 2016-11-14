@@ -28,12 +28,19 @@ AX:
   languages_spoken:
   - sv
   geo:
-    latitude: ''
+    latitude: 60.1785247
     latitude_dec: '60.2023811340332'
-    longitude: ''
+    longitude: 19.9156105
     longitude_dec: '19.96520233154297'
-    max_latitude: '60.7411127'
-    max_longitude: '21.4858534'
-    min_latitude: '59.7272227'
-    min_longitude: '19.2633194'
+    max_latitude: 60.7411127
+    max_longitude: 21.4858569
+    min_latitude: 59.72722270000001
+    min_longitude: 19.2633195
+    bounds:
+      northeast:
+        lat: 60.7411127
+        lng: 21.4858569
+      southwest:
+        lat: 59.72722270000001
+        lng: 19.2633195
   currency_code: EUR

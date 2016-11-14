@@ -31,12 +31,19 @@ BT:
   languages_spoken:
   - dz
   geo:
-    latitude: 27 30 N
+    latitude: 27.514162
     latitude_dec: '27.416879653930664'
-    longitude: 90 30 E
+    longitude: 90.433601
     longitude_dec: '90.43476104736328'
-    max_latitude: '30'
-    max_longitude: '92.033333'
-    min_latitude: '26.716667'
-    min_longitude: '80'
+    max_latitude: 28.3608249
+    max_longitude: 92.12523209999999
+    min_latitude: 26.702016
+    min_longitude: 88.74647350000001
+    bounds:
+      northeast:
+        lat: 28.3608249
+        lng: 92.12523209999999
+      southwest:
+        lat: 26.702016
+        lng: 88.74647350000001
   currency_code: BTN

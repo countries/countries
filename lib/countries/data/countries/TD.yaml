@@ -34,12 +34,19 @@ TD:
   - ar
   - fr
   geo:
-    latitude: 15 00 N
+    latitude: 15.454166
     latitude_dec: '15.367652893066406'
-    longitude: 19 00 E
+    longitude: 18.732207
     longitude_dec: '18.66758155822754'
-    max_latitude: '26'
-    max_longitude: '24'
-    min_latitude: '7.5'
-    min_longitude: '2'
+    max_latitude: 23.4492279
+    max_longitude: 24.000001
+    min_latitude: 7.442974899999999
+    min_longitude: 13.4699999
+    bounds:
+      northeast:
+        lat: 23.4492279
+        lng: 24.000001
+      southwest:
+        lat: 7.442974899999999
+        lng: 13.4699999
   currency_code: XAF

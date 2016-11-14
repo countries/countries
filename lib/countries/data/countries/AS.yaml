@@ -34,12 +34,19 @@ AS:
   - en
   - sm
   geo:
-    latitude: 14 20 S
+    latitude: -14.3060204
     latitude_dec: "-14.31956672668457"
-    longitude: 170 00 W
+    longitude: -170.6961815
     longitude_dec: "-170.7403564453125"
-    max_latitude: "-11.049690"
-    max_longitude: "-169.416077"
-    min_latitude: "-14.382470"
-    min_longitude: "-171.091873"
+    max_latitude: -14.1551045
+    max_longitude: -169.4186269
+    min_latitude: -14.3824778
+    min_longitude: -170.846781
+    bounds:
+      northeast:
+        lat: -14.1551045
+        lng: -169.4186269
+      southwest:
+        lat: -14.3824778
+        lng: -170.846781
   currency_code: USD

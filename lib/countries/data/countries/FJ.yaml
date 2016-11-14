@@ -36,12 +36,19 @@ FJ:
   - hi
   - ur
   geo:
-    latitude: 18 00 S
+    latitude: -17.713371
     latitude_dec: "-17.658161163330078"
-    longitude: 175 00 E
+    longitude: 178.065032
     longitude_dec: '178.1472625732422'
-    max_latitude: "-12.466667"
-    max_longitude: "-179.983333"
-    min_latitude: "-21.016667"
-    min_longitude: '180'
+    max_latitude: -12.4795938
+    max_longitude: -178.2301069
+    min_latitude: -20.6694302
+    min_longitude: 176.9094943
+    bounds:
+      northeast:
+        lat: -12.4795938
+        lng: -178.2301069
+      southwest:
+        lat: -20.6694302
+        lng: 176.9094943
   currency_code: USD

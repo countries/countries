@@ -28,12 +28,19 @@ JE:
   - en
   - fr
   geo:
-    latitude: 49 15 N
+    latitude: 49.214439
     latitude_dec: '49.2285041809082'
-    longitude: 2 10 W
+    longitude: -2.13125
     longitude_dec: "-2.1228928565979004"
-    max_latitude: '49.305833'
-    max_longitude: "-1.927778"
-    min_latitude: '49.112778'
-    min_longitude: "-2.253889"
+    max_latitude: 49.2621314
+    max_longitude: -2.0104646
+    min_latitude: 49.1601216
+    min_longitude: -2.2548011
+    bounds:
+      northeast:
+        lat: 49.2621314
+        lng: -2.0104646
+      southwest:
+        lat: 49.1601216
+        lng: -2.2548011
   currency_code: JEP

@@ -32,12 +32,19 @@ DO:
   languages_spoken:
   - es
   geo:
-    latitude: 19 00 N
+    latitude: 18.735693
     latitude_dec: '19.019824981689453'
-    longitude: 70 40 W
+    longitude: -70.162651
     longitude_dec: "-70.79285430908203"
-    max_latitude: '19.933333'
-    max_longitude: "-68.316667"
-    min_latitude: '17.473056'
-    min_longitude: "-71.966667"
+    max_latitude: 19.9319227
+    max_longitude: -68.32201669999999
+    min_latitude: 17.4700909
+    min_longitude: -72.00751
+    bounds:
+      northeast:
+        lat: 19.9319227
+        lng: -68.32201669999999
+      southwest:
+        lat: 17.4700909
+        lng: -72.00751
   currency_code: DOP

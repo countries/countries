@@ -36,12 +36,19 @@ AU:
   languages_spoken:
   - en
   geo:
-    latitude: 27 00 S
+    latitude: -25.274398
     latitude_dec: "-25.585241317749023"
-    longitude: 133 00 E
+    longitude: 133.775136
     longitude_dec: '134.50411987304688'
-    max_latitude: "-10.68"
-    max_longitude: '153.63'
-    min_latitude: "-43.63"
-    min_longitude: '113.15'
+    max_latitude: -9.2198214
+    max_longitude: 159.2557541
+    min_latitude: -54.7772185
+    min_longitude: 112.9215625
+    bounds:
+      northeast:
+        lat: -9.2198214
+        lng: 159.2557541
+      southwest:
+        lat: -54.7772185
+        lng: 112.9215625
   currency_code: AUD

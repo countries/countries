@@ -32,12 +32,19 @@ TM:
   - tk
   - ru
   geo:
-    latitude: 40 00 N
+    latitude: 38.969719
     latitude_dec: '39.2012825012207'
-    longitude: 60 00 E
+    longitude: 59.556278
     longitude_dec: '59.082252502441406'
-    max_latitude: '42.566667'
-    max_longitude: '66.65'
-    min_latitude: '35.216667'
-    min_longitude: '52.5'
+    max_latitude: 42.7988441
+    max_longitude: 66.707353
+    min_latitude: 35.1287599
+    min_longitude: 52.4478448
+    bounds:
+      northeast:
+        lat: 42.7988441
+        lng: 66.707353
+      southwest:
+        lat: 35.1287599
+        lng: 52.4478448
   currency_code: TMT

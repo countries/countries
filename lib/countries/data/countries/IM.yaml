@@ -31,12 +31,19 @@ IM:
   - en
   - gv
   geo:
-    latitude: 54 15 N
+    latitude: 54.236107
     latitude_dec: '54.22451400756836'
-    longitude: 4 30 W
+    longitude: -4.548056
     longitude_dec: "-4.562133312225342"
-    max_latitude: '54.4'
-    max_longitude: "-4.316667"
-    min_latitude: '54.033333'
-    min_longitude: "-4.833333"
+    max_latitude: 54.4179033
+    max_longitude: -4.3088272
+    min_latitude: 54.0446399
+    min_longitude: -4.8301808
+    bounds:
+      northeast:
+        lat: 54.4179033
+        lng: -4.3088272
+      southwest:
+        lat: 54.0446399
+        lng: -4.8301808
   currency_code: IMP

@@ -30,12 +30,19 @@ UM:
   languages_spoken:
   - en
   geo:
-    latitude: ''
+    latitude: 19.2823192
     latitude_dec: '19.282319'
-    longitude: ''
+    longitude: 166.647047
     longitude_dec: '166.647047'
-    max_latitude: '28.3977184'
-    max_longitude: "-159.9849071"
-    min_latitude: "-0.3824678"
-    min_longitude: '166.5989221'
+    max_latitude: 28.3977184
+    max_longitude: -159.9849071
+    min_latitude: -0.3824678
+    min_longitude: 166.5997422
+    bounds:
+      northeast:
+        lat: 28.3977184
+        lng: -159.9849071
+      southwest:
+        lat: -0.3824678
+        lng: 166.5997422
   currency_code: USD

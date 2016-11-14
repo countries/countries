@@ -27,12 +27,19 @@ AQ:
   languages_official: []
   languages_spoken: []
   geo:
-    latitude: 90 00 S
+    latitude: -75.250973
     latitude_dec: "-82.862752"
-    longitude: 0 00 E
+    longitude: -0.071389
     longitude_dec: "-135.0"
-    max_latitude: "-60.0"
-    max_longitude: '180.0'
-    min_latitude: "-90.0"
-    min_longitude: "-180.0"
+    max_latitude: -60.1086999
+    max_longitude: 180
+    min_latitude: -90
+    min_longitude: -180
+    bounds:
+      northeast:
+        lat: -60.1086999
+        lng: 180
+      southwest:
+        lat: -90
+        lng: -180
   currency_code: USD

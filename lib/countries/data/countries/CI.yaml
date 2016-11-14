@@ -33,12 +33,19 @@ CI:
   languages_spoken:
   - fr
   geo:
-    latitude: 8 00 N
+    latitude: 7.539988999999999
     latitude_dec: '7.598755359649658'
-    longitude: 5 00 W
+    longitude: -5.547079999999999
     longitude_dec: "-5.552574634552002"
-    max_latitude: '10.652222'
-    max_longitude: "-2.566667"
-    min_latitude: '4.35'
-    min_longitude: "-8.538889"
+    max_latitude: 10.740015
+    max_longitude: -2.493031
+    min_latitude: 4.3617552
+    min_longitude: -8.602058999999999
+    bounds:
+      northeast:
+        lat: 10.740015
+        lng: -2.493031
+      southwest:
+        lat: 4.3617552
+        lng: -8.602058999999999
   currency_code: XOF

@@ -34,12 +34,19 @@ MR:
   - ar
   - fr
   geo:
-    latitude: 20 00 N
+    latitude: 21.00789
     latitude_dec: '20.258995056152344'
-    longitude: 12 00 W
+    longitude: -10.940835
     longitude_dec: "-10.364437103271484"
-    max_latitude: '26.9'
-    max_longitude: '13'
-    min_latitude: '14.7382733887'
-    min_longitude: "-17.079444"
+    max_latitude: 27.3158916
+    max_longitude: -4.8336009
+    min_latitude: 14.721273
+    min_longitude: -17.0687276
+    bounds:
+      northeast:
+        lat: 27.3158916
+        lng: -4.8336009
+      southwest:
+        lat: 14.721273
+        lng: -17.0687276
   currency_code: MRO

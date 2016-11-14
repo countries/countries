@@ -26,12 +26,19 @@ BV:
   languages_official: []
   languages_spoken: []
   geo:
-    latitude: 54 26 S
+    latitude: -54.423199
     latitude_dec: "-54.4342041015625"
-    longitude: 3 24 E
+    longitude: 3.413194
     longitude_dec: '3.4102511405944824'
-    max_latitude: "-54.386111"
-    max_longitude: '3.433889'
-    min_latitude: "-54.452778"
-    min_longitude: '3.285278'
+    max_latitude: -54.3873566
+    max_longitude: 3.4382056
+    min_latitude: -54.4541005
+    min_longitude: 3.2858825
+    bounds:
+      northeast:
+        lat: -54.3873566
+        lng: 3.4382056
+      southwest:
+        lat: -54.4541005
+        lng: 3.2858825
   currency_code: NOK

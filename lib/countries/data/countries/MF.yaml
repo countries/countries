@@ -31,12 +31,19 @@ MF:
   - fr
   - nl
   geo:
-    latitude: 18 05 N
+    latitude: 18.08255
     latitude_dec: '18.042224884033203'
-    longitude: 63 57 W
+    longitude: -63.05225100000001
     longitude_dec: "-63.06623458862305"
-    max_latitude: '18.1251338'
-    max_longitude: "-62.9703926"
-    min_latitude: '18.0465757'
-    min_longitude: "-63.153326"
+    max_latitude: 18.1251674
+    max_longitude: -62.9705335
+    min_latitude: 18.0465858
+    min_longitude: -63.15359
+    bounds:
+      northeast:
+        lat: 18.1251674
+        lng: -62.9705335
+      southwest:
+        lat: 18.0465858
+        lng: -63.15359
   currency_code: EUR

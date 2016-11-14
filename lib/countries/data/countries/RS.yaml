@@ -31,12 +31,19 @@ RS:
   languages_spoken:
   - sr
   geo:
-    latitude: 44 00 N
+    latitude: 44.016521
     latitude_dec: '44.23297119140625'
-    longitude: 21 00 E
+    longitude: 21.005859
     longitude_dec: '20.797958374023438'
-    max_latitude: '46.155556'
-    max_longitude: '22.966667'
-    min_latitude: '41.866667'
-    min_longitude: '18.928889'
+    max_latitude: 46.1900319
+    max_longitude: 23.0063095
+    min_latitude: 42.2315029
+    min_longitude: 18.8385221
+    bounds:
+      northeast:
+        lat: 46.1900319
+        lng: 23.0063095
+      southwest:
+        lat: 42.2315029
+        lng: 18.8385221
   currency_code: RSD

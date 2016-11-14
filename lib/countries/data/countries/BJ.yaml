@@ -29,12 +29,19 @@ BJ:
   languages_spoken:
   - fr
   geo:
-    latitude: 9 30 N
+    latitude: 9.30769
     latitude_dec: '9.624112129211426'
-    longitude: 2 15 E
+    longitude: 2.315834
     longitude_dec: '2.3377387523651123'
-    max_latitude: '12.3614'
-    max_longitude: '3.816667'
-    min_latitude: '6.233333'
-    min_longitude: "-4"
+    max_latitude: 12.40745
+    max_longitude: 3.8433429
+    min_latitude: 6.2345966
+    min_longitude: 0.7765054
+    bounds:
+      northeast:
+        lat: 12.40745
+        lng: 3.8433429
+      southwest:
+        lat: 6.2345966
+        lng: 0.7765054
   currency_code: XOF

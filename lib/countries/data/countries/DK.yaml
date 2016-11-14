@@ -45,12 +45,19 @@ DK:
   languages_spoken:
   - da
   geo:
-    latitude: 56 00 N
+    latitude: 56.26392
     latitude_dec: '56.10176086425781'
-    longitude: 10 00 E
+    longitude: 9.501785
     longitude_dec: '9.555907249450684'
-    max_latitude: '64'
-    max_longitude: '18'
-    min_latitude: '53.583333'
-    min_longitude: '4.516667'
+    max_latitude: 57.7518131
+    max_longitude: 15.1972814
+    min_latitude: 54.5591689
+    min_longitude: 8.072240899999999
+    bounds:
+      northeast:
+        lat: 57.7518131
+        lng: 15.1972814
+      southwest:
+        lat: 54.5591689
+        lng: 8.072240899999999
   currency_code: DKK
