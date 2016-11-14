@@ -1,4 +1,6 @@
 module ISO3166
+  UNSEARCHABLE_METHODS = [:translations].freeze
+  
   def self::Country(country_data_or_country)
     case country_data_or_country
     when ISO3166::Country
@@ -89,7 +91,7 @@ module ISO3166
     protected
 
     def parse_attributes(attribute, val)
-      raise "Invalid attribute name '#{attribute}'" unless instance_methods.include?(attribute.to_sym)
+      raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
       if attributes == ['name']
@@ -99,6 +101,14 @@ module ISO3166
       end
 
       [attributes, strip_accents(val)]
+    end
+
+    def searchable_attribute?(attribute)
+      searchable_attributes.include?(attribute.to_sym)
+    end
+
+    def searchable_attributes
+      instance_methods - UNSEARCHABLE_METHODS
     end
 
     def find_by(attribute, value, obj = nil)
