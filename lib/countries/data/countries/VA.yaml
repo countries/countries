@@ -25,7 +25,7 @@ VA:
   - Vatikan
   - Cité du Vatican
   - Ciudad del Vaticano
-  - "バチカン市国"
+  - バチカン市国
   - Vaticaanstad
   - Vatican City State (Holy See)
   languages_official:
@@ -35,12 +35,19 @@ VA:
   - it
   - la
   geo:
-    latitude: 37.4315734
+    latitude: 41.902916
     latitude_dec: '41.90308380126953'
-    longitude: -78.6568942
+    longitude: 12.453389
     longitude_dec: '12.452852249145508'
-    max_latitude: 39.466012
-    max_longitude: -75.2421573
-    min_latitude: 36.540759
-    min_longitude: -83.6754151
+    max_latitude: 41.90744309999999
+    max_longitude: 12.4583938
+    min_latitude: 41.9001896
+    min_longitude: 12.4457286
+    bounds:
+      northeast:
+        lat: 41.90744309999999
+        lng: 12.4583938
+      southwest:
+        lat: 41.9001896
+        lng: 12.4457286
   currency_code: EUR

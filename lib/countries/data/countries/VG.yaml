@@ -23,9 +23,9 @@ VG:
   unofficial_names:
   - British Virgin Islands
   - Britische Jungferninseln
-  - "Îles Vierges britanniques"
+  - Îles Vierges britanniques
   - Islas Vírgenes del Reino Unido
-  - "イギリス領ヴァージン諸島"
+  - イギリス領ヴァージン諸島
   - Britse Maagdeneilanden
   - Virgin Islands (British)
   languages_official:
@@ -37,8 +37,15 @@ VG:
     latitude_dec: '18.443071365356445'
     longitude: -64.639968
     longitude_dec: "-64.57130432128906"
-    max_latitude: 18.7495909
-    max_longitude: -64.2703595
-    min_latitude: 18.3062889
-    min_longitude: -64.8504602
+    max_latitude: 18.7539999
+    max_longitude: -64.2651999
+    min_latitude: 18.2899998
+    min_longitude: -64.8775
+    bounds:
+      northeast:
+        lat: 18.7539999
+        lng: -64.2651999
+      southwest:
+        lat: 18.2899998
+        lng: -64.8775
   currency_code: USD

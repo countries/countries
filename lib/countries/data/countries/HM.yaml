@@ -21,7 +21,7 @@ HM:
   unofficial_names:
   - Heard and McDonald Islands
   - Heard und die McDonaldinseln
-  - "ハード島とマクドナルド諸島"
+  - ハード島とマクドナルド諸島
   - Heard- en McDonaldeilanden
   - Heard Island and McDonald Islands
   languages_official:
@@ -33,8 +33,15 @@ HM:
     latitude_dec: "-53.080108642578125"
     longitude: 73.50415799999999
     longitude_dec: '73.56218719482422'
-    max_latitude: -52.9618653
-    max_longitude: 73.77608339999999
-    min_latitude: -53.1915469
-    min_longitude: 73.2512402
+    max_latitude: -52.9609444
+    max_longitude: 73.7792016
+    min_latitude: -53.19168759999999
+    min_longitude: 73.25065599999999
+    bounds:
+      northeast:
+        lat: -52.9609444
+        lng: 73.7792016
+      southwest:
+        lat: -53.19168759999999
+        lng: 73.25065599999999
   currency_code: AUD
