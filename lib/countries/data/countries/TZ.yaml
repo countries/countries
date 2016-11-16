@@ -24,7 +24,7 @@ TZ:
   - Tanzania
   - Tansania
   - Tanzanie
-  - "タンザニア"
+  - タンザニア
   - Tanzania United Republic
   languages_official:
   - sw
@@ -38,7 +38,14 @@ TZ:
     longitude: 34.888822
     longitude_dec: '34.85392761230469'
     max_latitude: -0.984397
-    max_longitude: 40.4449653
-    min_latitude: -11.761254
-    min_longitude: 29.3399999
+    max_longitude: 40.6398
+    min_latitude: -11.7612539
+    min_longitude: 29.34
+    bounds:
+      northeast:
+        lat: -0.984397
+        lng: 40.6398
+      southwest:
+        lat: -11.7612539
+        lng: 29.34
   currency_code: TZS

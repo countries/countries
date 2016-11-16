@@ -1,5 +1,10 @@
 require 'geocoder'
 require 'retryable'
+
+Geocoder.configure(
+  timeout: 10
+)
+
 # raise on geocoding errors such as query limit exceeded
 Geocoder.configure(always_raise: :all)
 # Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
@@ -36,8 +41,12 @@ namespace :geocode do
       # Load unmutated yaml file.
       data = load_country_yaml(country.alpha2)
 
-      next unless (result = geocode(country.name))
+      lookup = "#{country.alpha2} country"
+      # LU country lookup appears to match to Los Angeles
+      lookup = country.name if country.alpha2 == 'LU'
 
+      next unless (result = geocode(lookup))
+      puts 'WARNING:: Geocoder returned something that was not a country' unless result.types.include?('country')
       geometry = result.geometry
 
       # Extract center point data

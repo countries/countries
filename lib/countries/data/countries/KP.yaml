@@ -26,7 +26,7 @@ KP:
   - Nordkorea
   - Corée du Nord
   - Corea del Norte
-  - "朝鮮民主主義人民共和国"
+  - 朝鮮民主主義人民共和国
   - Noord-Korea
   - Korea Democratic People's Republic
   - Korea (Democratic People s Republic of)
@@ -39,8 +39,15 @@ KP:
     latitude_dec: '40.077640533447266'
     longitude: 127.510093
     longitude_dec: '127.13385009765625'
-    max_latitude: 43.0115804
-    max_longitude: 130.6988006
-    min_latitude: 37.6733322
-    min_longitude: 124.2166283
+    max_latitude: 43.01159
+    max_longitude: 130.6990167
+    min_latitude: 37.5892001
+    min_longitude: 124.1718463
+    bounds:
+      northeast:
+        lat: 43.01159
+        lng: 130.6990167
+      southwest:
+        lat: 37.5892001
+        lng: 124.1718463
   currency_code: KPW
