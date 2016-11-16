@@ -49,7 +49,7 @@ describe ISO3166::Country do
   end
 
   it 'should return bounds' do
-    expect(country.bounds['northeast']['lat']).to eq(71.3867745)
+    expect(country.bounds['northeast']['lat']).to eq(71.5388001)
   end
 
   it 'should return the decimal Latitude' do
