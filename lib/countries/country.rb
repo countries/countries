@@ -40,7 +40,7 @@ module ISO3166
     end
 
     def hash
-      alpha3.to_i(2)
+      [alpha2, alpha3].hash
     end
 
     def <=>(other)

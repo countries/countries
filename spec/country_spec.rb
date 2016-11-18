@@ -18,8 +18,10 @@ describe ISO3166::Country do
   it 'allows countries to be compared' do
     c1 = ISO3166::Country.new('US')
     c2 = ISO3166::Country.new('US')
+    c3 = ISO3166::Country.new('AU')
     expect(c1).to eq(c2)
     expect(c1.hash).to eq(c2.hash)
+    expect(c3.hash).to_not eq(c2.hash)
 
     hsh = {}
     hsh[c1] = 1
