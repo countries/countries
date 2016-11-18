@@ -15,6 +15,18 @@ describe ISO3166::Country do
     expect(country.data).not_to be_nil
   end
 
+  it 'allows countries to be compared' do
+    c1 = ISO3166::Country.new('US')
+    c2 = ISO3166::Country.new('US')
+    expect(c1).to eq(c2)
+    expect(c1.hash).to eq(c2.hash)
+
+    hsh = {}
+    hsh[c1] = 1
+    hsh[c2] = 2
+    expect(hsh.keys.count).to eq 1
+  end
+
   it 'should return 3166 number' do
     expect(country.number).to eq('840')
   end
