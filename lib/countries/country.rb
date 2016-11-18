@@ -32,7 +32,15 @@ module ISO3166
     alias names unofficial_names
 
     def ==(other)
-      other == data
+      other.alpha2 == alpha2
+    end
+
+    def eql?(other)
+      self == other
+    end
+
+    def hash
+      [alpha2, alpha3].hash
     end
 
     def <=>(other)
