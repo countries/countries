@@ -20,6 +20,7 @@ describe ISO3166::Country do
     c2 = ISO3166::Country.new('US')
     c3 = ISO3166::Country.new('AU')
     expect(c1).to eq(c2)
+    expect(c1).to_not eq(nil)
     expect(c1.hash).to eq(c2.hash)
     expect(c3.hash).to_not eq(c2.hash)
 

@@ -32,7 +32,7 @@ module ISO3166
     alias names unofficial_names
 
     def ==(other)
-      other.alpha2 == alpha2
+      other.respond_to?(:alpha2) && other.alpha2 == alpha2
     end
 
     def eql?(other)
