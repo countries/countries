@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.3
+  - Fix comparison with country to nil
+  - Add NANP_prefix as separate field
+
+## 2.0.2
+  - Add nanp_prefix data.
+
 ## 2.0.1
 - Content updates
   - Fix bounding boxes that were mismatched.

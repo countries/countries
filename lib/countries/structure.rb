@@ -35,6 +35,7 @@ module ISO3166
     'national_destination_code_lengths' => [],
     'national_number_lengths' => [],
     'national_prefix' => nil,
+    'nanp_prefix' => nil,
     'nationality' => nil,
     'number' => nil,
     'languages_official' => [],
