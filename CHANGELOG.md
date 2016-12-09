@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.5
+  - Fixes #408 Correct Subdivision files for AD, AE, AF, AG, and AL
+
 ## 2.0.4
   - Update cache.
 
