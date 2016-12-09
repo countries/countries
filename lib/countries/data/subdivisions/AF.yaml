@@ -1,432 +1,534 @@
 ---
-BAL: !ruby/struct:ISO3166::Subdivision
-  name: Balkh
-  names:
+BAL:
+  unofficial_names:
   - Balkh
-  latitude: 36.7550603
-  longitude: 66.8975372
-  min_latitude: 36.739847
-  min_longitude: 66.879015
-  max_latitude: 36.7744019
-  max_longitude: 66.9103004
+  translations:
+    en: Balkh
+  geo:
+    latitude: 36.7550603
+    longitude: 66.8975372
+    min_latitude: 36.739847
+    min_longitude: 66.879015
+    max_latitude: 36.7744019
+    max_longitude: 66.9103004
+  name: Balkh
   comments: 
-BAM: !ruby/struct:ISO3166::Subdivision
-  name: Bamian
-  names:
+BAM:
+  unofficial_names:
   - Bamian
   - Bamiyan
   - Bāmīān
-  latitude: 34.9073296
-  longitude: 67.1894488
-  min_latitude: 33.914066
-  min_longitude: 66.2868759
-  max_latitude: 35.479285
-  max_longitude: 68.2664631
+  translations:
+    en: Bamian
+  geo:
+    latitude: 34.9073296
+    longitude: 67.1894488
+    min_latitude: 33.914066
+    min_longitude: 66.2868759
+    max_latitude: 35.479285
+    max_longitude: 68.2664631
+  name: Bamian
   comments: 
-BDG: !ruby/struct:ISO3166::Subdivision
-  name: Badghis
-  names:
+BDG:
+  unofficial_names:
   - Badghis
   - Badgis
   - Bādghīs
-  latitude: 35.1671339
-  longitude: 63.7695384
-  min_latitude: 34.51659600000001
-  min_longitude: 62.673593
-  max_latitude: 36.041935
-  max_longitude: 65.07057689999999
+  translations:
+    en: Badghis
+  geo:
+    latitude: 35.1671339
+    longitude: 63.7695384
+    min_latitude: 34.51659600000001
+    min_longitude: 62.673593
+    max_latitude: 36.041935
+    max_longitude: 65.07057689999999
+  name: Badghis
   comments: 
-BDS: !ruby/struct:ISO3166::Subdivision
-  name: Badakhshan
-  names:
+BDS:
+  unofficial_names:
   - Badaẖšan
-  latitude: 36.7347725
-  longitude: 70.81199529999999
-  min_latitude: 35.44512100000001
-  min_longitude: 69.98609689999999
-  max_latitude: 38.4906109
-  max_longitude: 74.8901951
+  translations:
+    en: Badakhshan
+  geo:
+    latitude: 36.7347725
+    longitude: 70.81199529999999
+    min_latitude: 35.44512100000001
+    min_longitude: 69.98609689999999
+    max_latitude: 38.4906109
+    max_longitude: 74.8901951
+  name: Badakhshan
   comments: 
-BGL: !ruby/struct:ISO3166::Subdivision
-  name: Baghlan
-  names:
+BGL:
+  unofficial_names:
   - Baghlan
   - Baghlān
   - Baglan
-  latitude: 36.17890260000001
-  longitude: 68.74530639999999
-  min_latitude: 36.162409
-  min_longitude: 68.7236881
-  max_latitude: 36.1897066
-  max_longitude: 68.7745
+  translations:
+    en: Baghlan
+  geo:
+    latitude: 36.17890260000001
+    longitude: 68.74530639999999
+    min_latitude: 36.162409
+    min_longitude: 68.7236881
+    max_latitude: 36.1897066
+    max_longitude: 68.7745
+  name: Baghlan
   comments: 
-DAY: !ruby/struct:ISO3166::Subdivision
-  name: Daykondi
-  names:
+DAY:
+  unofficial_names:
   - Daikondi
-  latitude: 33.669495
-  longitude: 66.0463534
-  min_latitude: 32.932084
-  min_longitude: 65.23819689999999
-  max_latitude: 34.36751
-  max_longitude: 67.4245309
+  translations:
+    en: Daykondi
+  geo:
+    latitude: 33.669495
+    longitude: 66.0463534
+    min_latitude: 32.932084
+    min_longitude: 65.23819689999999
+    max_latitude: 34.36751
+    max_longitude: 67.4245309
+  name: Daykondi
   comments: 
-FRA: !ruby/struct:ISO3166::Subdivision
-  name: Farah
-  names:
+FRA:
+  unofficial_names:
   - Fahrah
-  latitude: 32.495328
-  longitude: 62.2626627
-  min_latitude: 31.3958321
-  min_longitude: 60.5861239
-  max_latitude: 33.586982
-  max_longitude: 64.750407
+  translations:
+    en: Farah
+  geo:
+    latitude: 32.495328
+    longitude: 62.2626627
+    min_latitude: 31.3958321
+    min_longitude: 60.5861239
+    max_latitude: 33.586982
+    max_longitude: 64.750407
+  name: Farah
   comments: 
-FYB: !ruby/struct:ISO3166::Subdivision
-  name: Faryab
-  names:
+FYB:
+  unofficial_names:
   - Fariab
-  latitude: 36.0795613
-  longitude: 64.90595499999999
-  min_latitude: 35.1631961
-  min_longitude: 63.8947181
-  max_latitude: 37.2501681
-  max_longitude: 65.822068
+  translations:
+    en: Faryab
+  geo:
+    latitude: 36.0795613
+    longitude: 64.90595499999999
+    min_latitude: 35.1631961
+    min_longitude: 63.8947181
+    max_latitude: 37.2501681
+    max_longitude: 65.822068
+  name: Faryab
   comments: 
-GHA: !ruby/struct:ISO3166::Subdivision
-  name: Ghazni
-  names:
+GHA:
+  unofficial_names:
   - Gazni
   - Ghazni
-  latitude: 33.4982289
-  longitude: 67.7615983
-  min_latitude: 32.085223
-  min_longitude: 66.8315989
-  max_latitude: 34.2320759
-  max_longitude: 68.834594
+  translations:
+    en: Ghazni
+  geo:
+    latitude: 33.4982289
+    longitude: 67.7615983
+    min_latitude: 32.085223
+    min_longitude: 66.8315989
+    max_latitude: 34.2320759
+    max_longitude: 68.834594
+  name: Ghazni
   comments: 
-GHO: !ruby/struct:ISO3166::Subdivision
-  name: Ghowr
-  names:
+GHO:
+  unofficial_names:
   - Ghawr
   - Ghor
   - Ghowr
   - Gōr
-  latitude: 34.0995776
-  longitude: 64.90595499999999
-  min_latitude: 33.133217
-  min_longitude: 63.19821899999999
-  max_latitude: 35.276925
-  max_longitude: 66.736645
+  translations:
+    en: Ghowr
+  geo:
+    latitude: 34.0995776
+    longitude: 64.90595499999999
+    min_latitude: 33.133217
+    min_longitude: 63.19821899999999
+    max_latitude: 35.276925
+    max_longitude: 66.736645
+  name: Ghowr
   comments: 
-HEL: !ruby/struct:ISO3166::Subdivision
-  name: Helmand
-  names:
+HEL:
+  unofficial_names:
   - Helmand
   - Hilmend
-  latitude: 31.3636474
-  longitude: 63.95861110000001
-  min_latitude: 29.377478
-  min_longitude: 62.553695
-  max_latitude: 33.3782999
-  max_longitude: 65.38026289999999
+  translations:
+    en: Helmand
+  geo:
+    latitude: 31.3636474
+    longitude: 63.95861110000001
+    min_latitude: 29.377478
+    min_longitude: 62.553695
+    max_latitude: 33.3782999
+    max_longitude: 65.38026289999999
+  name: Helmand
   comments: 
-HER: !ruby/struct:ISO3166::Subdivision
-  name: Herat
-  names:
+HER:
+  unofficial_names:
   - Herat
-  latitude: 34.341944
-  longitude: 62.203056
-  min_latitude: 34.3185577
-  min_longitude: 62.150774
-  max_latitude: 34.3883543
-  max_longitude: 62.2713661
+  translations:
+    en: Herat
+  geo:
+    latitude: 34.341944
+    longitude: 62.203056
+    min_latitude: 34.3185577
+    min_longitude: 62.150774
+    max_latitude: 34.3883543
+    max_longitude: 62.2713661
+  name: Herat
   comments: 
-JOW: !ruby/struct:ISO3166::Subdivision
-  name: Jowzjan
-  names:
+JOW:
+  unofficial_names:
   - Jawzjan
   - Jowzjan
   - Jowzjān
   - Jozjan
   - Juzjan
-  latitude: 36.8969692
-  longitude: 65.6658568
-  min_latitude: 35.90039410000001
-  min_longitude: 65.1666699
-  max_latitude: 37.544579
-  max_longitude: 66.583344
+  translations:
+    en: Jowzjan
+  geo:
+    latitude: 36.8969692
+    longitude: 65.6658568
+    min_latitude: 35.90039410000001
+    min_longitude: 65.1666699
+    max_latitude: 37.544579
+    max_longitude: 66.583344
+  name: Jowzjan
   comments: 
-KAB: !ruby/struct:ISO3166::Subdivision
-  name: Kabul [Kabol]
-  names:
+KAB:
+  unofficial_names:
   - Kabol
   - Kābol
   - Kābul
   - Kabul
-  latitude: 34.533333
-  longitude: 69.166667
-  min_latitude: 34.3454912
-  min_longitude: 68.9495086
-  max_latitude: 34.7619227
-  max_longitude: 69.4459534
+  translations:
+    en: Kabul [Kabol]
+  geo:
+    latitude: 34.533333
+    longitude: 69.166667
+    min_latitude: 34.3454912
+    min_longitude: 68.9495086
+    max_latitude: 34.7619227
+    max_longitude: 69.4459534
+  name: Kabul [Kabol]
   comments: 
-KAN: !ruby/struct:ISO3166::Subdivision
-  name: Kandahar
-  names:
+KAN:
+  unofficial_names:
   - Kandahar
-  latitude: 31.6119
-  longitude: 65.6811
-  min_latitude: 31.5973985
-  min_longitude: 65.6695744
-  max_latitude: 31.6725218
-  max_longitude: 65.8307648
+  translations:
+    en: Kandahar
+  geo:
+    latitude: 31.6119
+    longitude: 65.6811
+    min_latitude: 31.5973985
+    min_longitude: 65.6695744
+    max_latitude: 31.6725218
+    max_longitude: 65.8307648
+  name: Kandahar
   comments: 
-KAP: !ruby/struct:ISO3166::Subdivision
-  name: Kapisa
-  names:
+KAP:
+  unofficial_names:
   - Kapesa
   - Kapisa
   - Kapissa
-  latitude: 34.9810572
-  longitude: 69.6214562
-  min_latitude: 34.636847
-  min_longitude: 69.27812709999999
-  max_latitude: 35.1843449
-  max_longitude: 69.9292071
+  translations:
+    en: Kapisa
+  geo:
+    latitude: 34.9810572
+    longitude: 69.6214562
+    min_latitude: 34.636847
+    min_longitude: 69.27812709999999
+    max_latitude: 35.1843449
+    max_longitude: 69.9292071
+  name: Kapisa
   comments: 
-KDZ: !ruby/struct:ISO3166::Subdivision
-  name: Kondoz [Kunduz]
-  names:
+KDZ:
+  unofficial_names:
   - Kondoz
   - Kondūz
   - Kūnduz
   - Qondūz
-  latitude: 36.7285907
-  longitude: 68.8680663
-  min_latitude: 36.6518943
-  min_longitude: 68.7845421
-  max_latitude: 36.77299259999999
-  max_longitude: 68.9773179
+  translations:
+    en: Kondoz [Kunduz]
+  geo:
+    latitude: 36.7285907
+    longitude: 68.8680663
+    min_latitude: 36.6518943
+    min_longitude: 68.7845421
+    max_latitude: 36.77299259999999
+    max_longitude: 68.9773179
+  name: Kondoz [Kunduz]
   comments: 
-KHO: !ruby/struct:ISO3166::Subdivision
-  name: Khowst
-  names:
+KHO:
+  unofficial_names:
   - H̱ōst
   - Khawst
   - Khost
   - Matun
   - Matūn
   - H̱awst
-  latitude: 33.3585079
-  longitude: 69.8597406
-  min_latitude: 33.028327
-  min_longitude: 69.3547779
-  max_latitude: 33.7335318
-  max_longitude: 70.3265909
+  translations:
+    en: Khowst
+  geo:
+    latitude: 33.3585079
+    longitude: 69.8597406
+    min_latitude: 33.028327
+    min_longitude: 69.3547779
+    max_latitude: 33.7335318
+    max_longitude: 70.3265909
+  name: Khowst
   comments: 
-KNR: !ruby/struct:ISO3166::Subdivision
-  name: Konar [Kunar]
-  names:
+KNR:
+  unofficial_names:
   - Konar
   - Konarhā
-  latitude: 35.0883133
-  longitude: 71.36685039999999
-  min_latitude: 35.0861153
-  min_longitude: 71.3623594
-  max_latitude: 35.0906452
-  max_longitude: 71.3708674
+  translations:
+    en: Konar [Kunar]
+  geo:
+    latitude: 35.0883133
+    longitude: 71.36685039999999
+    min_latitude: 35.0861153
+    min_longitude: 71.3623594
+    max_latitude: 35.0906452
+    max_longitude: 71.3708674
+  name: Konar [Kunar]
   comments: 
-LAG: !ruby/struct:ISO3166::Subdivision
-  name: Laghman
-  names:
+LAG:
+  unofficial_names:
   - Laghman
   - Laghmān
   - Lagman
-  latitude: 34.6897687
-  longitude: 70.1455805
-  min_latitude: 34.3999048
-  min_longitude: 69.8045771
-  max_latitude: 35.2196171
-  max_longitude: 70.63105999999999
+  translations:
+    en: Laghman
+  geo:
+    latitude: 34.6897687
+    longitude: 70.1455805
+    min_latitude: 34.3999048
+    min_longitude: 69.8045771
+    max_latitude: 35.2196171
+    max_longitude: 70.63105999999999
+  name: Laghman
   comments: 
-LOW: !ruby/struct:ISO3166::Subdivision
-  name: Lowgar
-  names:
+LOW:
+  unofficial_names:
   - Lawgar
   - Logar
   - Loghar
   - Lowgar
   - Lowghar
-  latitude: 34.0145518
-  longitude: 69.1923916
-  min_latitude: 33.602526
-  min_longitude: 68.716335
-  max_latitude: 34.366983
-  max_longitude: 69.8876531
+  translations:
+    en: Lowgar
+  geo:
+    latitude: 34.0145518
+    longitude: 69.1923916
+    min_latitude: 33.602526
+    min_longitude: 68.716335
+    max_latitude: 34.366983
+    max_longitude: 69.8876531
+  name: Lowgar
   comments: 
-NAN: !ruby/struct:ISO3166::Subdivision
-  name: Nangrahar [Nangarhar]
-  names:
+NAN:
+  unofficial_names:
   - Nangarhar
   - Ningarhar
-  latitude: 34.1718313
-  longitude: 70.6216794
-  min_latitude: 33.9433401
-  min_longitude: 69.482636
-  max_latitude: 34.809976
-  max_longitude: 71.17125709999999
+  translations:
+    en: Nangrahar [Nangarhar]
+  geo:
+    latitude: 34.1718313
+    longitude: 70.6216794
+    min_latitude: 33.9433401
+    min_longitude: 69.482636
+    max_latitude: 34.809976
+    max_longitude: 71.17125709999999
+  name: Nangrahar [Nangarhar]
   comments: 
-NIM: !ruby/struct:ISO3166::Subdivision
-  name: Nimruz
-  names:
+NIM:
+  unofficial_names:
   - Chakhānsur
   - Neemroze
   - Nimroz
   - Nimroze
-  latitude: 31.0261488
-  longitude: 62.4504154
-  min_latitude: 29.3889659
-  min_longitude: 60.87859700000001
-  max_latitude: 32.263132
-  max_longitude: 63.5857501
+  translations:
+    en: Nimruz
+  geo:
+    latitude: 31.0261488
+    longitude: 62.4504154
+    min_latitude: 29.3889659
+    min_longitude: 60.87859700000001
+    max_latitude: 32.263132
+    max_longitude: 63.5857501
+  name: Nimruz
   comments: 
-NUR: !ruby/struct:ISO3166::Subdivision
-  name: Nurestan
-  names:
+NUR:
+  unofficial_names:
   - Nooristan
   - Nouristan
   - Nurestan
-  latitude: 35.3250223
-  longitude: 70.90712359999999
-  min_latitude: 34.9075738
-  min_longitude: 69.916771
-  max_latitude: 36.0492169
-  max_longitude: 71.614166
+  translations:
+    en: Nurestan
+  geo:
+    latitude: 35.3250223
+    longitude: 70.90712359999999
+    min_latitude: 34.9075738
+    min_longitude: 69.916771
+    max_latitude: 36.0492169
+    max_longitude: 71.614166
+  name: Nurestan
   comments: 
-ORU: !ruby/struct:ISO3166::Subdivision
-  name: Oruzgan [Uruzgan]
-  names:
+ORU:
+  unofficial_names:
   - Oruzgan
   - Oruzghan
   - Orūzghān
   - Uruzgan
   - Uruzghan
   - Urūzghān
-  latitude: 32.93021
-  longitude: 66.63642899999999
-  min_latitude: 
-  min_longitude: 
-  max_latitude: 
-  max_longitude: 
+  translations:
+    en: Oruzgan [Uruzgan]
+  geo:
+    latitude: 32.93021
+    longitude: 66.63642899999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Oruzgan [Uruzgan]
   comments: 
-PAN: !ruby/struct:ISO3166::Subdivision
-  name: Panjshir
-  names:
+PAN:
+  unofficial_names:
   - Panjshir
-  latitude: 35.3350467
-  longitude: 69.7167783
-  min_latitude: 35.1242394
-  min_longitude: 69.53384400000002
-  max_latitude: 35.4374561
-  max_longitude: 69.7982025
+  translations:
+    en: Panjshir
+  geo:
+    latitude: 35.3350467
+    longitude: 69.7167783
+    min_latitude: 35.1242394
+    min_longitude: 69.53384400000002
+    max_latitude: 35.4374561
+    max_longitude: 69.7982025
+  name: Panjshir
   comments: 
-PAR: !ruby/struct:ISO3166::Subdivision
-  name: Parwan
-  names:
+PAR:
+  unofficial_names:
   - Parvan
   - Parvān
   - Parwan
-  latitude: 34.9630977
-  longitude: 68.81088489999999
-  min_latitude: 34.588373
-  min_longitude: 68.1907899
-  max_latitude: 35.424221
-  max_longitude: 69.616604
+  translations:
+    en: Parwan
+  geo:
+    latitude: 34.9630977
+    longitude: 68.81088489999999
+    min_latitude: 34.588373
+    min_longitude: 68.1907899
+    max_latitude: 35.424221
+    max_longitude: 69.616604
+  name: Parwan
   comments: 
-PIA: !ruby/struct:ISO3166::Subdivision
-  name: Paktia
-  names:
+PIA:
+  unofficial_names:
   - Paktia
   - Paktiya
   - Paktīā
-  latitude: 33.706199
-  longitude: 69.3831079
-  min_latitude: 33.1592119
-  min_longitude: 68.772654
-  max_latitude: 34.0908599
-  max_longitude: 70.0056379
+  translations:
+    en: Paktia
+  geo:
+    latitude: 33.706199
+    longitude: 69.3831079
+    min_latitude: 33.1592119
+    min_longitude: 68.772654
+    max_latitude: 34.0908599
+    max_longitude: 70.0056379
+  name: Paktia
   comments: 
-PKA: !ruby/struct:ISO3166::Subdivision
-  name: Paktika
-  names:
+PKA:
+  unofficial_names:
   - Paktika
-  latitude: 32.2645386
-  longitude: 68.52471489999999
-  min_latitude: 31.593519
-  min_longitude: 67.82210479999999
-  max_latitude: 33.4239659
-  max_longitude: 69.5345761
+  translations:
+    en: Paktika
+  geo:
+    latitude: 32.2645386
+    longitude: 68.52471489999999
+    min_latitude: 31.593519
+    min_longitude: 67.82210479999999
+    max_latitude: 33.4239659
+    max_longitude: 69.5345761
+  name: Paktika
   comments: 
-SAM: !ruby/struct:ISO3166::Subdivision
+SAM:
+  unofficial_names: Samangan
+  translations:
+    en: Samangan
+  geo:
+    latitude: 35.9807296
+    longitude: 67.57085359999999
+    min_latitude: 35.34659389999999
+    min_longitude: 66.88432
+    max_latitude: 36.638235
+    max_longitude: 68.5661071
   name: Samangan
-  names: Samangan
-  latitude: 35.9807296
-  longitude: 67.57085359999999
-  min_latitude: 35.34659389999999
-  min_longitude: 66.88432
-  max_latitude: 36.638235
-  max_longitude: 68.5661071
   comments: 
-SAR: !ruby/struct:ISO3166::Subdivision
-  name: Sar-e Pol
-  names:
+SAR:
+  unofficial_names:
   - Sar-e Pol
   - Sar-i Pol
   - Sari Pol
-  latitude: 36.22138899999999
-  longitude: 65.927778
-  min_latitude: 36.1827099
-  min_longitude: 65.9110165
-  max_latitude: 36.23838900000001
-  max_longitude: 65.9589957
+  translations:
+    en: Sar-e Pol
+  geo:
+    latitude: 36.22138899999999
+    longitude: 65.927778
+    min_latitude: 36.1827099
+    min_longitude: 65.9110165
+    max_latitude: 36.23838900000001
+    max_longitude: 65.9589957
+  name: Sar-e Pol
   comments: 
-TAK: !ruby/struct:ISO3166::Subdivision
-  name: Takhar
-  names:
+TAK:
+  unofficial_names:
   - Tahar
   - Takhar
   - Takhār
-  latitude: 36.6698013
-  longitude: 69.4784541
-  min_latitude: 35.785804
-  min_longitude: 69.1752951
-  max_latitude: 37.62126
-  max_longitude: 70.4998339
+  translations:
+    en: Takhar
+  geo:
+    latitude: 36.6698013
+    longitude: 69.4784541
+    min_latitude: 35.785804
+    min_longitude: 69.1752951
+    max_latitude: 37.62126
+    max_longitude: 70.4998339
+  name: Takhar
   comments: 
-WAR: !ruby/struct:ISO3166::Subdivision
-  name: Wardak [Wardag]
-  names:
+WAR:
+  unofficial_names:
   - Vardak
   - Wardagh
   - Wardak
-  latitude: 34.3513494
-  longitude: 68.2385339
-  min_latitude: 33.683571
-  min_longitude: 67.232205
-  max_latitude: 34.797575
-  max_longitude: 68.972619
+  translations:
+    en: Wardak [Wardag]
+  geo:
+    latitude: 34.3513494
+    longitude: 68.2385339
+    min_latitude: 33.683571
+    min_longitude: 67.232205
+    max_latitude: 34.797575
+    max_longitude: 68.972619
+  name: Wardak [Wardag]
   comments: 
-ZAB: !ruby/struct:ISO3166::Subdivision
-  name: Zabol [Zabul]
-  names:
+ZAB:
+  unofficial_names:
   - Zabol
   - Zabul
   - Zābol
-  latitude: 32.1918782
-  longitude: 67.1894488
-  min_latitude: 31.505068
-  min_longitude: 66.192899
-  max_latitude: 33.083939
-  max_longitude: 68.1166841
+  translations:
+    en: Zabol [Zabul]
+  geo:
+    latitude: 32.1918782
+    longitude: 67.1894488
+    min_latitude: 31.505068
+    min_longitude: 66.192899
+    max_latitude: 33.083939
+    max_longitude: 68.1166841
+  name: Zabol [Zabul]
   comments: 

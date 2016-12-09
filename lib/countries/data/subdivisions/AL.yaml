@@ -1,367 +1,475 @@
 ---
-BR: !ruby/struct:ISO3166::Subdivision
+BR:
+  unofficial_names: Berat
+  translations:
+    en: Berat
+  geo:
+    latitude: 40.7086377
+    longitude: 19.9437314
+    min_latitude: 40.6923532
+    min_longitude: 19.9287128
+    max_latitude: 40.7306085
+    max_longitude: 19.9808693
   name: Berat
-  names: Berat
-  latitude: 40.7086377
-  longitude: 19.9437314
-  min_latitude: 40.6923532
-  min_longitude: 19.9287128
-  max_latitude: 40.7306085
-  max_longitude: 19.9808693
   comments: 
-BU: !ruby/struct:ISO3166::Subdivision
+BU:
+  unofficial_names: Bulqizë
+  translations:
+    en: Bulqizë
+  geo:
+    latitude: 41.4942587
+    longitude: 20.2147157
+    min_latitude: 41.4808045
+    min_longitude: 20.1938153
+    max_latitude: 41.5114053
+    max_longitude: 20.2380502
   name: Bulqizë
-  names: Bulqizë
-  latitude: 41.4942587
-  longitude: 20.2147157
-  min_latitude: 41.4808045
-  min_longitude: 20.1938153
-  max_latitude: 41.5114053
-  max_longitude: 20.2380502
   comments: 
-DI: !ruby/struct:ISO3166::Subdivision
-  name: Dibër
-  names:
+DI:
+  unofficial_names:
   - Dibër
-  latitude: 41.5888163
-  longitude: 20.2355647
-  min_latitude: 41.26974
-  min_longitude: 19.778668
-  max_latitude: 41.899441
-  max_longitude: 20.583229
+  translations:
+    en: Dibër
+  geo:
+    latitude: 41.5888163
+    longitude: 20.2355647
+    min_latitude: 41.26974
+    min_longitude: 19.778668
+    max_latitude: 41.899441
+    max_longitude: 20.583229
+  name: Dibër
   comments: 
-DL: !ruby/struct:ISO3166::Subdivision
+DL:
+  unofficial_names: Delvinë
+  translations:
+    en: Delvinë
+  geo:
+    latitude: 39.9481364
+    longitude: 20.0955891
+    min_latitude: 39.9409357
+    min_longitude: 20.0788878
+    max_latitude: 39.9586027
+    max_longitude: 20.109787
   name: Delvinë
-  names: Delvinë
-  latitude: 39.9481364
-  longitude: 20.0955891
-  min_latitude: 39.9409357
-  min_longitude: 20.0788878
-  max_latitude: 39.9586027
-  max_longitude: 20.109787
   comments: 
-DR: !ruby/struct:ISO3166::Subdivision
+DR:
+  unofficial_names: Durrës
+  translations:
+    en: Durrës
+  geo:
+    latitude: 41.316667
+    longitude: 19.45
+    min_latitude: 41.2817411
+    min_longitude: 19.418378
+    max_latitude: 41.3809305
+    max_longitude: 19.5148087
   name: Durrës
-  names: Durrës
-  latitude: 41.316667
-  longitude: 19.45
-  min_latitude: 41.2817411
-  min_longitude: 19.418378
-  max_latitude: 41.3809305
-  max_longitude: 19.5148087
   comments: 
-DV: !ruby/struct:ISO3166::Subdivision
-  name: Devoll
-  names:
+DV:
+  unofficial_names:
   - Devoli
-  latitude: 40.6447347
-  longitude: 20.9506636
-  min_latitude: 40.495255
-  min_longitude: 20.846696
-  max_latitude: 40.803878
-  max_longitude: 21.06846
+  translations:
+    en: Devoll
+  geo:
+    latitude: 40.6447347
+    longitude: 20.9506636
+    min_latitude: 40.495255
+    min_longitude: 20.846696
+    max_latitude: 40.803878
+    max_longitude: 21.06846
+  name: Devoll
   comments: 
-EL: !ruby/struct:ISO3166::Subdivision
+EL:
+  unofficial_names: Elbasan
+  translations:
+    en: Elbasan
+  geo:
+    latitude: 41.11023
+    longitude: 20.0866554
+    min_latitude: 41.0875028
+    min_longitude: 20.0506784
+    max_latitude: 41.1308961
+    max_longitude: 20.1270677
   name: Elbasan
-  names: Elbasan
-  latitude: 41.11023
-  longitude: 20.0866554
-  min_latitude: 41.0875028
-  min_longitude: 20.0506784
-  max_latitude: 41.1308961
-  max_longitude: 20.1270677
   comments: 
-ER: !ruby/struct:ISO3166::Subdivision
+ER:
+  unofficial_names: Kolonjë
+  translations:
+    en: Kolonjë
+  geo:
+    latitude: 40.3083026
+    longitude: 20.6645683
+    min_latitude: 40.076226
+    min_longitude: 20.461351
+    max_latitude: 40.477882
+    max_longitude: 20.8055689
   name: Kolonjë
-  names: Kolonjë
-  latitude: 40.3083026
-  longitude: 20.6645683
-  min_latitude: 40.076226
-  min_longitude: 20.461351
-  max_latitude: 40.477882
-  max_longitude: 20.8055689
   comments: 
-FR: !ruby/struct:ISO3166::Subdivision
+FR:
+  unofficial_names: Fier
+  translations:
+    en: Fier
+  geo:
+    latitude: 40.9191392
+    longitude: 19.6639309
+    min_latitude: 40.4181381
+    min_longitude: 19.321621
+    max_latitude: 41.06486599999999
+    max_longitude: 19.92129
   name: Fier
-  names: Fier
-  latitude: 40.9191392
-  longitude: 19.6639309
-  min_latitude: 40.4181381
-  min_longitude: 19.321621
-  max_latitude: 41.06486599999999
-  max_longitude: 19.92129
   comments: 
-GJ: !ruby/struct:ISO3166::Subdivision
+GJ:
+  unofficial_names: Gjirokastër
+  translations:
+    en: Gjirokastër
+  geo:
+    latitude: 40.0672874
+    longitude: 20.1045229
+    min_latitude: 40.0330693
+    min_longitude: 20.0553703
+    max_latitude: 40.1064699
+    max_longitude: 20.1654482
   name: Gjirokastër
-  names: Gjirokastër
-  latitude: 40.0672874
-  longitude: 20.1045229
-  min_latitude: 40.0330693
-  min_longitude: 20.0553703
-  max_latitude: 40.1064699
-  max_longitude: 20.1654482
   comments: 
-GR: !ruby/struct:ISO3166::Subdivision
+GR:
+  unofficial_names: Gramsh
+  translations:
+    en: Gramsh
+  geo:
+    latitude: 40.866667
+    longitude: 20.183333
+    min_latitude: 40.8536177
+    min_longitude: 20.179696
+    max_latitude: 40.87864
+    max_longitude: 20.1936437
   name: Gramsh
-  names: Gramsh
-  latitude: 40.866667
-  longitude: 20.183333
-  min_latitude: 40.8536177
-  min_longitude: 20.179696
-  max_latitude: 40.87864
-  max_longitude: 20.1936437
   comments: 
-HA: !ruby/struct:ISO3166::Subdivision
+HA:
+  unofficial_names: Has
+  translations:
+    en: Has
+  geo:
+    latitude: 42.2
+    longitude: 20.416667
+    min_latitude: 42.1891646
+    min_longitude: 20.3994227
+    max_latitude: 42.2043618
+    max_longitude: 20.4262232
   name: Has
-  names: Has
-  latitude: 42.2
-  longitude: 20.416667
-  min_latitude: 42.1891646
-  min_longitude: 20.3994227
-  max_latitude: 42.2043618
-  max_longitude: 20.4262232
   comments: 
-KA: !ruby/struct:ISO3166::Subdivision
+KA:
+  unofficial_names: Kavajë
+  translations:
+    en: Kavajë
+  geo:
+    latitude: 41.1844529
+    longitude: 19.5627596
+    min_latitude: 41.15519949999999
+    min_longitude: 19.5357512
+    max_latitude: 41.2088804
+    max_longitude: 19.5895959
   name: Kavajë
-  names: Kavajë
-  latitude: 41.1844529
-  longitude: 19.5627596
-  min_latitude: 41.15519949999999
-  min_longitude: 19.5357512
-  max_latitude: 41.2088804
-  max_longitude: 19.5895959
   comments: 
-KB: !ruby/struct:ISO3166::Subdivision
+KB:
+  unofficial_names: Kurbin
+  translations:
+    en: Kurbin
+  geo:
+    latitude: 41.6300368
+    longitude: 19.6877385
+    min_latitude: 41.556654
+    min_longitude: 19.5546243
+    max_latitude: 41.694035
+    max_longitude: 19.824307
   name: Kurbin
-  names: Kurbin
-  latitude: 41.6300368
-  longitude: 19.6877385
-  min_latitude: 41.556654
-  min_longitude: 19.5546243
-  max_latitude: 41.694035
-  max_longitude: 19.824307
   comments: 
-KC: !ruby/struct:ISO3166::Subdivision
+KC:
+  unofficial_names: Kuçovë
+  translations:
+    en: Kuçovë
+  geo:
+    latitude: 40.803889
+    longitude: 19.914444
+    min_latitude: 40.7864554
+    min_longitude: 19.8975277
+    max_latitude: 40.827904
+    max_longitude: 19.9304867
   name: Kuçovë
-  names: Kuçovë
-  latitude: 40.803889
-  longitude: 19.914444
-  min_latitude: 40.7864554
-  min_longitude: 19.8975277
-  max_latitude: 40.827904
-  max_longitude: 19.9304867
   comments: 
-KO: !ruby/struct:ISO3166::Subdivision
+KO:
+  unofficial_names: Korçë
+  translations:
+    en: Korçë
+  geo:
+    latitude: 40.6140785
+    longitude: 20.7778071
+    min_latitude: 40.5985741
+    min_longitude: 20.762229
+    max_latitude: 40.63663890000001
+    max_longitude: 20.7976342
   name: Korçë
-  names: Korçë
-  latitude: 40.6140785
-  longitude: 20.7778071
-  min_latitude: 40.5985741
-  min_longitude: 20.762229
-  max_latitude: 40.63663890000001
-  max_longitude: 20.7976342
   comments: 
-KR: !ruby/struct:ISO3166::Subdivision
+KR:
+  unofficial_names: Krujë
+  translations:
+    en: Krujë
+  geo:
+    latitude: 41.5094765
+    longitude: 19.7710732
+    min_latitude: 41.4566224
+    min_longitude: 19.7247505
+    max_latitude: 41.5598482
+    max_longitude: 19.8250007
   name: Krujë
-  names: Krujë
-  latitude: 41.5094765
-  longitude: 19.7710732
-  min_latitude: 41.4566224
-  min_longitude: 19.7247505
-  max_latitude: 41.5598482
-  max_longitude: 19.8250007
   comments: 
-KU: !ruby/struct:ISO3166::Subdivision
+KU:
+  unofficial_names: Kukës
+  translations:
+    en: Kukës
+  geo:
+    latitude: 42.076667
+    longitude: 20.421667
+    min_latitude: 42.0344725
+    min_longitude: 20.3917409
+    max_latitude: 42.1007892
+    max_longitude: 20.4430247
   name: Kukës
-  names: Kukës
-  latitude: 42.076667
-  longitude: 20.421667
-  min_latitude: 42.0344725
-  min_longitude: 20.3917409
-  max_latitude: 42.1007892
-  max_longitude: 20.4430247
   comments: 
-LB: !ruby/struct:ISO3166::Subdivision
+LB:
+  unofficial_names: Librazhd
+  translations:
+    en: Librazhd
+  geo:
+    latitude: 41.183333
+    longitude: 20.316667
+    min_latitude: 41.176931
+    min_longitude: 20.3058672
+    max_latitude: 41.1895385
+    max_longitude: 20.3219818
   name: Librazhd
-  names: Librazhd
-  latitude: 41.183333
-  longitude: 20.316667
-  min_latitude: 41.176931
-  min_longitude: 20.3058672
-  max_latitude: 41.1895385
-  max_longitude: 20.3219818
   comments: 
-LE: !ruby/struct:ISO3166::Subdivision
+LE:
+  unofficial_names: Lezhë
+  translations:
+    en: Lezhë
+  geo:
+    latitude: 41.78607299999999
+    longitude: 19.6460758
+    min_latitude: 41.7682711
+    min_longitude: 19.6120548
+    max_latitude: 41.8086206
+    max_longitude: 19.6730233
   name: Lezhë
-  names: Lezhë
-  latitude: 41.78607299999999
-  longitude: 19.6460758
-  min_latitude: 41.7682711
-  min_longitude: 19.6120548
-  max_latitude: 41.8086206
-  max_longitude: 19.6730233
   comments: 
-LU: !ruby/struct:ISO3166::Subdivision
+LU:
+  unofficial_names: Lushnjë
+  translations:
+    en: Lushnjë
+  geo:
+    latitude: 40.933333
+    longitude: 19.7
+    min_latitude: 40.9150044
+    min_longitude: 19.6815777
+    max_latitude: 40.9557244
+    max_longitude: 19.7263814
   name: Lushnjë
-  names: Lushnjë
-  latitude: 40.933333
-  longitude: 19.7
-  min_latitude: 40.9150044
-  min_longitude: 19.6815777
-  max_latitude: 40.9557244
-  max_longitude: 19.7263814
   comments: 
-MK: !ruby/struct:ISO3166::Subdivision
+MK:
+  unofficial_names: Mallakastër
+  translations:
+    en: Mallakastër
+  geo:
+    latitude: 40.5273376
+    longitude: 19.7829791
+    min_latitude: 40.4181381
+    min_longitude: 19.674152
+    max_latitude: 40.655769
+    max_longitude: 19.92129
   name: Mallakastër
-  names: Mallakastër
-  latitude: 40.5273376
-  longitude: 19.7829791
-  min_latitude: 40.4181381
-  min_longitude: 19.674152
-  max_latitude: 40.655769
-  max_longitude: 19.92129
   comments: 
-MM: !ruby/struct:ISO3166::Subdivision
-  name: Malësi e Madhe
-  names:
+MM:
+  unofficial_names:
   - Malesia e Madhe
-  latitude: 42.4245173
-  longitude: 19.6163185
-  min_latitude: 42.190967
-  min_longitude: 19.3563652
-  max_latitude: 42.665615
-  max_longitude: 19.835646
+  translations:
+    en: Malësi e Madhe
+  geo:
+    latitude: 42.4245173
+    longitude: 19.6163185
+    min_latitude: 42.190967
+    min_longitude: 19.3563652
+    max_latitude: 42.665615
+    max_longitude: 19.835646
+  name: Malësi e Madhe
   comments: 
-MR: !ruby/struct:ISO3166::Subdivision
+MR:
+  unofficial_names: Mirditë
+  translations:
+    en: Mirditë
+  geo:
+    latitude: 41.764286
+    longitude: 19.9020509
+    min_latitude: 41.688547
+    min_longitude: 19.7135539
+    max_latitude: 42.028515
+    max_longitude: 20.261952
   name: Mirditë
-  names: Mirditë
-  latitude: 41.764286
-  longitude: 19.9020509
-  min_latitude: 41.688547
-  min_longitude: 19.7135539
-  max_latitude: 42.028515
-  max_longitude: 20.261952
   comments: 
-MT: !ruby/struct:ISO3166::Subdivision
+MT:
+  unofficial_names: Mat
+  translations:
+    en: Mat
+  geo:
+    latitude: 41.5937675
+    longitude: 19.9973244
+    min_latitude: 41.367228
+    min_longitude: 19.778668
+    max_latitude: 41.784789
+    max_longitude: 20.224639
   name: Mat
-  names: Mat
-  latitude: 41.5937675
-  longitude: 19.9973244
-  min_latitude: 41.367228
-  min_longitude: 19.778668
-  max_latitude: 41.784789
-  max_longitude: 20.224639
   comments: 
-PG: !ruby/struct:ISO3166::Subdivision
+PG:
+  unofficial_names: Pogradec
+  translations:
+    en: Pogradec
+  geo:
+    latitude: 40.9
+    longitude: 20.65
+    min_latitude: 40.8901256
+    min_longitude: 20.6446195
+    max_latitude: 40.9067909
+    max_longitude: 20.6704974
   name: Pogradec
-  names: Pogradec
-  latitude: 40.9
-  longitude: 20.65
-  min_latitude: 40.8901256
-  min_longitude: 20.6446195
-  max_latitude: 40.9067909
-  max_longitude: 20.6704974
   comments: 
-PQ: !ruby/struct:ISO3166::Subdivision
+PQ:
+  unofficial_names: Peqin
+  translations:
+    en: Peqin
+  geo:
+    latitude: 41.05
+    longitude: 19.75
+    min_latitude: 41.0410057
+    min_longitude: 19.7408866
+    max_latitude: 41.0517835
+    max_longitude: 19.7607136
   name: Peqin
-  names: Peqin
-  latitude: 41.05
-  longitude: 19.75
-  min_latitude: 41.0410057
-  min_longitude: 19.7408866
-  max_latitude: 41.0517835
-  max_longitude: 19.7607136
   comments: 
-PR: !ruby/struct:ISO3166::Subdivision
+PR:
+  unofficial_names: Përmet
+  translations:
+    en: Përmet
+  geo:
+    latitude: 40.23333299999999
+    longitude: 20.35
+    min_latitude: 40.2244836
+    min_longitude: 20.3441261
+    max_latitude: 40.2449268
+    max_longitude: 20.3684806
   name: Përmet
-  names: Përmet
-  latitude: 40.23333299999999
-  longitude: 20.35
-  min_latitude: 40.2244836
-  min_longitude: 20.3441261
-  max_latitude: 40.2449268
-  max_longitude: 20.3684806
   comments: 
-PU: !ruby/struct:ISO3166::Subdivision
+PU:
+  unofficial_names: Pukë
+  translations:
+    en: Pukë
+  geo:
+    latitude: 42.05
+    longitude: 19.9
+    min_latitude: 42.03435109999999
+    min_longitude: 19.8818636
+    max_latitude: 42.0535603
+    max_longitude: 19.9108264
   name: Pukë
-  names: Pukë
-  latitude: 42.05
-  longitude: 19.9
-  min_latitude: 42.03435109999999
-  min_longitude: 19.8818636
-  max_latitude: 42.0535603
-  max_longitude: 19.9108264
   comments: 
-SH: !ruby/struct:ISO3166::Subdivision
+SH:
+  unofficial_names: Shkodër
+  translations:
+    en: Shkodër
+  geo:
+    latitude: 42.0692985
+    longitude: 19.5032559
+    min_latitude: 42.0324324
+    min_longitude: 19.3796252
+    max_latitude: 42.0965346
+    max_longitude: 19.537983
   name: Shkodër
-  names: Shkodër
-  latitude: 42.0692985
-  longitude: 19.5032559
-  min_latitude: 42.0324324
-  min_longitude: 19.3796252
-  max_latitude: 42.0965346
-  max_longitude: 19.537983
   comments: 
-SK: !ruby/struct:ISO3166::Subdivision
+SK:
+  unofficial_names: Skrapar
+  translations:
+    en: Skrapar
+  geo:
+    latitude: 40.5349946
+    longitude: 20.2832217
+    min_latitude: 40.375254
+    min_longitude: 20.092381
+    max_latitude: 40.728658
+    max_longitude: 20.452115
   name: Skrapar
-  names: Skrapar
-  latitude: 40.5349946
-  longitude: 20.2832217
-  min_latitude: 40.375254
-  min_longitude: 20.092381
-  max_latitude: 40.728658
-  max_longitude: 20.452115
   comments: 
-SR: !ruby/struct:ISO3166::Subdivision
+SR:
+  unofficial_names: Sarandë
+  translations:
+    en: Sarandë
+  geo:
+    latitude: 39.875
+    longitude: 20.01
+    min_latitude: 39.8490077
+    min_longitude: 19.9696756
+    max_latitude: 39.8857015
+    max_longitude: 20.0435258
   name: Sarandë
-  names: Sarandë
-  latitude: 39.875
-  longitude: 20.01
-  min_latitude: 39.8490077
-  min_longitude: 19.9696756
-  max_latitude: 39.8857015
-  max_longitude: 20.0435258
   comments: 
-TE: !ruby/struct:ISO3166::Subdivision
+TE:
+  unofficial_names: Tepelenë
+  translations:
+    en: Tepelenë
+  geo:
+    latitude: 40.3
+    longitude: 20.016667
+    min_latitude: 40.2910492
+    min_longitude: 20.0116824
+    max_latitude: 40.3029309
+    max_longitude: 20.0266171
   name: Tepelenë
-  names: Tepelenë
-  latitude: 40.3
-  longitude: 20.016667
-  min_latitude: 40.2910492
-  min_longitude: 20.0116824
-  max_latitude: 40.3029309
-  max_longitude: 20.0266171
   comments: 
-TP: !ruby/struct:ISO3166::Subdivision
+TP:
+  unofficial_names: Tropojë
+  translations:
+    en: Tropojë
+  geo:
+    latitude: 42.40000000000001
+    longitude: 20.166667
+    min_latitude: 42.3914839
+    min_longitude: 20.1551485
+    max_latitude: 42.4069178
+    max_longitude: 20.1732587
   name: Tropojë
-  names: Tropojë
-  latitude: 42.40000000000001
-  longitude: 20.166667
-  min_latitude: 42.3914839
-  min_longitude: 20.1551485
-  max_latitude: 42.4069178
-  max_longitude: 20.1732587
   comments: 
-TR: !ruby/struct:ISO3166::Subdivision
-  name: Tiranë
-  names:
+TR:
+  unofficial_names:
   - Tiranë
   - Tirana
   - Tirana
-  latitude: 41.3275459
-  longitude: 19.8186982
-  min_latitude: 41.29512330000001
-  min_longitude: 19.7535682
-  max_latitude: 41.36684109999999
-  max_longitude: 19.8820782
+  translations:
+    en: Tiranë
+  geo:
+    latitude: 41.3275459
+    longitude: 19.8186982
+    min_latitude: 41.29512330000001
+    min_longitude: 19.7535682
+    max_latitude: 41.36684109999999
+    max_longitude: 19.8820782
+  name: Tiranë
   comments: 
-VL: !ruby/struct:ISO3166::Subdivision
+VL:
+  unofficial_names: Vlorë
+  translations:
+    en: Vlorë
+  geo:
+    latitude: 40.465
+    longitude: 19.485
+    min_latitude: 40.4103918
+    min_longitude: 19.4530106
+    max_latitude: 40.4912342
+    max_longitude: 19.5100021
   name: Vlorë
-  names: Vlorë
-  latitude: 40.465
-  longitude: 19.485
-  min_latitude: 40.4103918
-  min_longitude: 19.4530106
-  max_latitude: 40.4912342
-  max_longitude: 19.5100021
   comments: 
