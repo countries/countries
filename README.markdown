@@ -270,7 +270,7 @@ Country Code in Emoji
 ----------
 ``` ruby
 c = Country['MY']
-Country.emoji_flag # => "🇺🇸"
+c.emoji_flag # => "🇺🇸"
 ```
 
 Note on Patches/Pull Requests
