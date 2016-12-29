@@ -2,9 +2,6 @@
 require 'spec_helper'
 
 describe ISO3166::Data, perf: true, order: :defined do
-  require 'benchmark'
-  require 'memory_profiler'
-  require 'ruby-prof'
 
   ALL_LOCALES = [
     :af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de,
@@ -17,6 +14,9 @@ describe ISO3166::Data, perf: true, order: :defined do
   ].freeze
 
   def perf_report(name)
+    require 'benchmark'
+    require 'memory_profiler'
+    require 'ruby-prof'
     # profile the code
     RubyProf.start
 
