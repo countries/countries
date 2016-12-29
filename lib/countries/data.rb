@@ -7,11 +7,10 @@ module ISO3166
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
-      self.class.update_cache
     end
 
     def call
-      @@cache[@alpha2]
+      self.class.update_cache[@alpha2]
     end
 
     class << self
@@ -73,12 +72,12 @@ module ISO3166
       private
 
       def loaded_codes
-        (@@cache.keys + @@registered_data.keys).uniq
+        (@@cache.keys + @@registered_data.keys)
       end
 
       # Codes that we have translations for in dataset
       def internal_codes
-        loaded_codes - @@registered_data.keys
+        @@cache.keys - @@registered_data.keys
       end
 
       def cache_flush_required?

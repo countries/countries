@@ -2,6 +2,10 @@
 require 'spec_helper'
 
 describe ISO3166::Data, perf: true, order: :defined do
+  require 'benchmark'
+  require 'memory_profiler'
+  require 'ruby-prof'
+
   ALL_LOCALES = [
     :af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de,
     :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he,
@@ -12,17 +16,12 @@ describe ISO3166::Data, perf: true, order: :defined do
     :zh, :zu
   ].freeze
 
-  it 'responds to call' do
-    require 'benchmark'
-    require 'memory_profiler'
-    require 'ruby-prof'
+  def perf_report(name)
     # profile the code
     RubyProf.start
 
     100.times do
-      ISO3166.reset
-      data = ISO3166::Data.new('US').call
-      expect(data['translated_names']).to be_a Array
+      yield if block_given?
     end
 
     result = RubyProf.stop
@@ -30,6 +29,14 @@ describe ISO3166::Data, perf: true, order: :defined do
     # print a flat profile to text
     printer = RubyProf::FlatPrinter.new(result)
     printer.print(STDOUT)
+  end
+
+  it 'responds to call' do
+    perf_report('translations') do
+      ISO3166.reset
+      data = ISO3166::Data.new('US').call
+      expect(data['translated_names']).to be_a Array
+    end
   end
 
   it 'locales will load prior to return results' do
@@ -51,5 +58,17 @@ describe ISO3166::Data, perf: true, order: :defined do
     end
 
     report.pretty_print(to_file: 'tmp/memory/all_locales')
+  end
+
+  it 'loades a specfic country quickly' do
+    codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq
+    Benchmark.bmbm do |bm|
+      bm.report('find_by_alpha2') do
+        codes.map { |cc| ISO3166::Country.find_country_by_alpha2 cc }
+      end
+      bm.report('new') do
+        codes.map { |cc| ISO3166::Country.new cc }
+      end
+    end
   end
 end
