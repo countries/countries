@@ -7,11 +7,10 @@ module ISO3166
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
-      self.class.update_cache
     end
 
     def call
-      @@cache[@alpha2]
+      self.class.update_cache[@alpha2]
     end
 
     class << self
@@ -52,8 +51,9 @@ module ISO3166
       end
 
       def load_data!
-        return @@cache unless @@cache.size == loaded_codes || @@cache.keys.empty?
+        return @@cache unless load_required?
         @@cache = load_cache %w(cache countries.json)
+        @@_country_codes = @@cache.keys
         @@cache = @@cache.merge(@@registered_data)
         @@cache
       end
@@ -72,13 +72,17 @@ module ISO3166
 
       private
 
+      def load_required?
+        @@cache.empty?
+      end
+
       def loaded_codes
-        (@@cache.keys + @@registered_data.keys).uniq
+        @@cache.keys
       end
 
       # Codes that we have translations for in dataset
       def internal_codes
-        loaded_codes - @@registered_data.keys
+        @@_country_codes - @@registered_data.keys
       end
 
       def cache_flush_required?
