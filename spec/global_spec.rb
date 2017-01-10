@@ -22,7 +22,7 @@ describe 'global Country class', order: :defined do
 
     describe 'to_s' do
       it 'should return the country name' do
-        expect(Country.new('GB').to_s).to eq('United Kingdom')
+        expect(Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
       end
     end
   end

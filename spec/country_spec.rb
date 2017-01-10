@@ -734,7 +734,7 @@ describe ISO3166::Country do
 
   describe 'to_s' do
     it 'should return the country name' do
-      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom')
+      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
     end
   end
 
