@@ -806,4 +806,13 @@ describe ISO3166::Country do
       expect(country.emoji_flag).to eq '🇺🇸'
     end
   end
+
+  describe '#un_locode' do
+    let(:countries) { ISO3166::Country.all }
+
+    it 'should have two letter un_locode for each country' do
+      expect(countries.all? { |country| !country.un_locode.nil? }).to be
+      expect(countries.all? { |country| country.un_locode.length == 2 }).to be
+    end
+  end
 end
