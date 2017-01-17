@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.6
+  - Adds French Guiana nationality
+  - Add missing un_locode for south sudan
+  - Fix Norwegian country code (false -> NO)
+  - Add missing un location codes
+  - Further reduce calls to .keys to provide additional speedup and performance bump
+  - Add sixarm_ruby_unaccent to gemspec dependencies
+  - Update all official country names to the ISO 3166 standard
+
+  - [Full Changelog](https://github.com/hexorx/countries/compare/v2.0.5...v2.0.6)
+
 ## 2.0.5
   - Fixes #408 Correct Subdivision files for AD, AE, AF, AG, and AL
 
