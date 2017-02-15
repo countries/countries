@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.7
+  - Content Fixes
+
 ## 2.0.6
   - Adds French Guiana nationality
   - Add missing un_locode for south sudan
