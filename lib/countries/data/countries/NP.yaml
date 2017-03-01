@@ -1,6 +1,12 @@
 ---
 NP:
   continent: Asia
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}} {{postalcode}}
+    {{country}}
   alpha2: NP
   alpha3: NPL
   country_code: '977'
