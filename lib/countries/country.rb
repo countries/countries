@@ -51,6 +51,10 @@ module ISO3166
       Money::Currency.find(data['currency_code'])
     end
 
+    def start_of_week
+      data['start_of_week']
+    end
+
     def subdivisions?
       File.exist?(subdivision_file_path)
     end
