@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## 2.0.8
+  - Add language data to Nepal @gkunwar
+  - Add start of week day @Vsanchezr
+  - Normalized Turkey's Subdivisions @emir
+
 ## 2.0.7
   - Content Fixes
 
