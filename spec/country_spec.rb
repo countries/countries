@@ -324,6 +324,27 @@ describe ISO3166::Country do
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afghanistan')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
+      expect(countries.any?{|pair| !pair[0].html_safe?}).to eq(false)
+    end
+
+    it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
+      ISO3166.configuration.locales = [:es, :de, :en]
+
+      countries = ISO3166::Country.all_names_with_codes(:es)
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+  end
+
+  describe 'all_names_with_codes_without_active_support' do
+    it 'should return an alphabetized list of all country names with ISOCODE alpha2' do
+      countries = ISO3166::Country.all_names_with_codes
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
