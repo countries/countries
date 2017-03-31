@@ -1,3 +1,6 @@
+#!/bin/env ruby
+# encoding: utf-8
+
 module ISO3166
   module Emoji
     CODE_POINTS = {
