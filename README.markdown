@@ -1,29 +1,26 @@
-Countries
-=========
+# Countries
 
 Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1(countries), ISO3166-2(states/subdivisions), ISO4217(currency) and E.164(phone numbers). I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
 [![Codewake](https://www.codewake.com/badges/ask_question_flat_square.svg)](https://www.codewake.com/p/countries) [![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Build Status](https://travis-ci.org/hexorx/countries.svg)](https://travis-ci.org/hexorx/countries) [![Dependency Status](https://gemnasium.com/hexorx/countries.svg)](https://gemnasium.com/hexorx/countries) [![Code Climate](https://codeclimate.com/github/hexorx/countries.svg)](https://codeclimate.com/github/hexorx/countries)
 
-Installation
-------------
+## Installation
 
 ``` bash
-    gem install countries
+gem install countries
 ```
 
-If you’re in Rails 2.3 or earlier, place this in your environment.rb:
+Or you can install via Bundler if you are using Rails. Add this line to your application's Gemfile:
 
-``` ruby
-    config.gem 'countries'
+```ruby
+gem 'countries'
 ```
 
-Or you can install via bundler Gemfile if you are using Rails 3/4/5:
+And then execute:
 
-    gem 'countries'
+    $ bundle
 
-Basic Usage
------------
+## Basic Usage
 
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
@@ -31,15 +28,14 @@ Simply load a new country object using Country.new(*alpha2*) or the shortcut Cou
 c = ISO3166::Country.new('US')
 ```
 
-Configuration
------------
+## Configuration
 
 #### Country Helper
 Some apps might not want to constantly call `ISO3166::Country` this gem has a
 helper that can provide a `Country` class
 
 ``` ruby
-# with global Country Helper
+# With global Country Helper
 c = Country['US']
 ```
 
@@ -61,8 +57,7 @@ has become
 gem 'countries', :require => 'countries/global'
 ```
 
-Selective Loading of Locales
-------------
+## Selective Loading of Locales
 
 As of 2.0 you can selectively load locales to reduce memory usage in production.
 
@@ -83,8 +78,7 @@ ISO3166.configure do |config|
 end
 ```
 
-Attribute-Based Finder Methods
-------------
+## Attribute-Based Finder Methods
 
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
@@ -97,114 +91,118 @@ c = ISO3166::Country.find_country_by_alpha3('can')
 For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
 Note: searches are *case insensitive and ignore accents*.
 
-Country Info
-------------
+## Country Info
 
-  Identification Codes
+### Identification Codes
 
-    c.number #=> "840"
-    c.alpha2 #=> "US"
-    c.alpha3 #=> "USA"
-    c.gec    #=> "US"
-
-  Names & Translations
-
-    c.name #=> "United States"
-    c.unofficial_names #=> ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
-
-    # Get the names for a country translated to its local languages
-    c = Country[:BE]
-    c.local_names #=> ["België", "Belgique", "Belgien"]
-    c.local_name #=> "België"
-
-    # Get a specific translation
-    c.translation('de') #=> 'Vereinigte Staaten von Amerika'
-    c.translations['fr'] #=> "États-Unis"
-
-    ISO3166::Country.translations             # {"DE"=>"Germany",...}
-    ISO3166::Country.translations('DE')       # {"DE"=>"Deutschland",...}
-    ISO3166::Country.all_translated           # ['Germany', ...]
-    ISO3166::Country.all_translated('DE')     # ['Deutschland', ...]
-
-  Subdivisions & States
-
-``` ruby
-c.subdivisions #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
-c.states #=> {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
-```
-  Location
-
-``` ruby
-c.latitude #=> "38 00 N"
-c.longitude #=> "97 00 W"
-c.latitude_dec #=> 39.44325637817383
-c.longitude_dec #=> -98.95733642578125
-
-c.region #=> "Americas"
-c.subregion #=> "Northern America"
+```ruby
+c.number # => "840"
+c.alpha2 # => "US"
+c.alpha3 # => "USA"
+c.gec    # => "US"
 ```
 
-Timezones **(optional)**
+###  Names & Translations
 
-Add tzinfo to your gemfile, ensure it's required, Countries will not do this for you.
+```ruby
+c.name # => "United States"
+c.unofficial_names # => ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
-    gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+# Get the names for a country translated to its local languages
+c = Country[:BE]
+c.local_names # => ["België", "Belgique", "Belgien"]
+c.local_name # => "België"
+
+# Get a specific translation
+c.translation('de') # => 'Vereinigte Staaten von Amerika'
+c.translations['fr'] # => "États-Unis"
+
+ISO3166::Country.translations         # {"DE"=>"Germany",...}
+ISO3166::Country.translations('DE')   # {"DE"=>"Deutschland",...}
+ISO3166::Country.all_translated       # ['Germany', ...]
+ISO3166::Country.all_translated('DE') # ['Deutschland', ...]
+```
+
+### Subdivisions & States
 
 ``` ruby
-c.timezones.zone_identifiers #=> ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
+c.subdivisions # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+```
+
+### Location
+
+``` ruby
+c.latitude # => "38 00 N"
+c.longitude # => "97 00 W"
+c.latitude_dec # => 39.44325637817383
+c.longitude_dec # => -98.95733642578125
+
+c.region # => "Americas"
+c.subregion # => "Northern America"
+```
+
+### Timezones **(optional)**
+
+Add `tzinfo` to your Gemfile and ensure it's required, Countries will not do this for you.
+
+```ruby
+gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+```
+
+``` ruby
+c.timezones.zone_identifiers # => ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
 c.timezones.zone_info  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
 c.timezones # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
 ```
 
-Telephone Routing (E164)
+### Telephone Routing (E164)
 
 ``` ruby
-c.country_code #=> "1"
-c.national_destination_code_lengths #=> 3
-c.national_number_lengths #=> 10
-c.international_prefix #=> "011"
-c.national_prefix #=> "1"
+c.country_code # => "1"
+c.national_destination_code_lengths # => 3
+c.national_number_lengths # => 10
+c.international_prefix # => "011"
+c.national_prefix # => "1"
 ```
 
-Boundary Boxes
+### Boundary Boxes
 
 ``` ruby
-c.min_longitude #=> '45'
-c.min_latitude #=> '22.166667'
-c.max_longitude #=> '58'
-c.max_latitude #=> '26.133333'
+c.min_longitude # => '45'
+c.min_latitude # => '22.166667'
+c.max_longitude # => '58'
+c.max_latitude # => '26.133333'
 ```
 
-European Union Membership
+### European Union Membership
 
 ``` ruby
-c.in_eu? #=> false
+c.in_eu? # => false
 ```
 
-Currencies
-----------
+## Currencies
 
 **WARNING** if you have a top level class named `Money` you will conflict with this gem.  If this is a large issue we will add a feature to turn currency features off.
 
 Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
 
 ``` ruby
-c.currency.code #=> 'USD'
-c.currency.name #=> 'Dollars'
-c.currency.symbol #=> '$'
+c.currency.code # => 'USD'
+c.currency.name # => 'Dollars'
+c.currency.symbol # => '$'
 ```
 
-Address Formatting
-------------------
+## Address Formatting
 
 A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
 
 ``` ruby
-c.address_format #=> "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 ```
 
-Loading Custom Data
--------
+## Loading Custom Data
+
 As of 2.0 countries supports loading custom countries / overriding data in it's data set, though if you choose to do this please contribute back to the upstream repo!
 
 Any country registered this way will have it's data available for searching etc... If you are overriding an existing country, for cultural reasons, our code uses a simple merge, not a deep merge so you will need to __bring in all data you wish to be available__.  Bringing in an existing country will also remove it from the internal management of translations, __all registered countries will remain in memory__.
@@ -222,14 +220,15 @@ ISO3166::Data.register(
 ISO3166::Country.new('LOL').name == 'Happy Country'
 ```
 
-Mongoid
--------
+## Mongoid
 
 Mongoid support has been added. It is required automatically if Mongoid is defined in your project.
 
 Use native country fields in your model:
 
-    field :country, type: Country
+```ruby
+field :country, type: Country
+```
 
 Adds native support for searching/saving by a country object or alpha2 code.
 
@@ -262,21 +261,21 @@ Note that the database stores only the alpha2 code and rebuilds the object when 
 
 ``` ruby
 def country
-    super.name
+  super.name
 end
 ```
 
-Country Code in Emoji
-----------
+## Country Code in Emoji
+
 ``` ruby
 c = Country['MY']
 c.emoji_flag # => "🇺🇸"
 ```
 
-Note on Patches/Pull Requests
------------------------------
+## Note on Patches/Pull Requests
 
-## Please do not submit pull requests on cache/**/*
+### Please do not submit pull requests on `cache/**/*`
+
 Any additions should be directed upstream to [pkg-isocodes](http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/)
 
 New Bugs can be filed upstream here https://alioth.debian.org/projects/pkg-iso-codes/
@@ -302,11 +301,9 @@ the next ```rake update_cache```
    bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-Copyright
----------
+## Copyright
 
 Copyright (c) 2016 hexorx. See LICENSE for details.
-
 
 [Teliax]: http://teliax.com
 [Centrex]: http://en.wikipedia.org/wiki/Centrex
