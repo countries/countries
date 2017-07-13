@@ -56,7 +56,7 @@ module ISO3166
     end
 
     def subdivisions?
-      data['subdivisions'].present? || File.exist?(subdivision_file_path)
+      !data['subdivisions'].nil? || File.exist?(subdivision_file_path)
     end
 
     def subdivisions
