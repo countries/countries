@@ -56,7 +56,7 @@ module ISO3166
     end
 
     def subdivisions?
-      File.exist?(subdivision_file_path)
+      data['subdivisions'].present? || File.exist?(subdivision_file_path)
     end
 
     def subdivisions
@@ -111,7 +111,7 @@ module ISO3166
 
     def subdivision_data
       @subdivision_data ||= if subdivisions?
-                              YAML.load_file(subdivision_file_path)
+                              data['subdivisions'] || YAML.load_file(subdivision_file_path)
                             else
                               {}
                             end
