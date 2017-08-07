@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## 2.1.2
+  -	Fix incorrectly named subdivision data files @skyborn8
+  - Updates MX.yaml to reflect Mexico City's official name change @novohispano
+
+## 2.1.1
+  - Updated cache @rposborne
+  - Add code attribute to Subdivision @kasparsj
+  - Allow override of cache dir @kasparsj
+
+## 2.1.0
+  - Fix emoji support in old rubies < 2.0 @pezholio
+  - Detect if active_support is loaded before using .html_safe @subfusc
+  - Changed the nationality of Hong Kong from Chinese to Hong Kongnese @neosepulveda
+  - Readme Cleanup @dankimio
+  - Correct typo for Virgin Islands, U.S and add translation for Palestine @jpawlyn
+  - Add new French Regions (january 2016) @clemthenem
+  - Add Russian unofficial name to GB @faucct
+  - Update gem i18n_data @seb-sykio
+
 ## 2.0.8
   - Add language data to Nepal @gkunwar
   - Add start of week day @Vsanchezr
