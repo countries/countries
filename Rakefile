@@ -3,12 +3,13 @@ require 'bundler/gem_tasks'
 
 require 'rake'
 require 'rspec/core/rake_task'
+
 ISO3166_ROOT_PATH = File.dirname(__FILE__)
 Dir.glob('lib/countries/tasks/*.rake').each { |r| load r }
 
 desc 'Run all examples'
 RSpec::Core::RakeTask.new(:spec) do |t|
-  t.rspec_opts = %w(--color --warnings)
+  t.rspec_opts = %w[--color --warnings]
 end
 
 task default: [:spec]
@@ -44,6 +45,12 @@ task :update_yaml_structure do
     puts "failed to read #{file}: #{$ERROR_INFO}"
   end
   end
+end
+
+desc 'Update CLDR subdivison data set'
+task :update_cldr_subdivison_data do
+  require_relative './lib/countries/sources'
+  Sources::CLDR::SubDivisionUpdater.new.call
 end
 
 desc 'Update Cache'
