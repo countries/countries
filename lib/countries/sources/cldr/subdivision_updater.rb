@@ -5,10 +5,10 @@ require 'pry'
 
 module Sources
   module CLDR
-    class SubDivisionUpdater
+    class SubdivisionUpdater
       def call
         d = Dir['./tmp/cldr-common/common/subdivisions/*.xml']
-        loader = Sources::Local::CachedLoader.new(Sources::Local::SubDivision)
+        loader = Sources::Local::CachedLoader.new(Sources::Local::Subdivision)
         d.each do |file_path|
           language_data = Nokogiri::XML(File.read(file_path))
           language_code = File.basename(file_path, '.*')
@@ -17,7 +17,7 @@ module Sources
           last_country_code_seen = nil
 
           subdivisions.each_with_index do |subdivision, index|
-            subdivision = Sources::CLDR::SubDivision.new(language_code: language_code, xml: subdivision)
+            subdivision = Sources::CLDR::Subdivision.new(language_code: language_code, xml: subdivision)
             data = loader.load(subdivision.country_code)
             data[subdivision.code] ||= {}
             data[subdivision.code] = data[subdivision.code].deep_merge(subdivision.to_h)

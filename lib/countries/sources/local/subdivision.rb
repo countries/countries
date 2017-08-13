@@ -1,6 +1,6 @@
 module Sources
   module Local
-    class SubDivision
+    class Subdivision
       attr_reader :code
       def initialize(code)
         @code = code
