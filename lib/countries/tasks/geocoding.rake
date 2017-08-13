@@ -32,7 +32,7 @@ def country_codes
 end
 
 namespace :geocode do
-  desc 'Retrieve and store subdivisions coordinates'
+  desc 'Retrieve and store countries coordinates'
   task :fetch_countries do
     require 'countries'
     # Iterate over countries
@@ -70,12 +70,12 @@ namespace :geocode do
 
   desc 'Retrieve and store subdivisions coordinates'
   task :fetch_subdivisions do
-    require 'countries'
+    require_relative '../../countries'
     # Iterate all countries with subdivisions
     ISO3166::Country.all.select(&:subdivisions?).each do |c|
       # Iterate subdivisions
       state_data = c.subdivisions.dup
-      state_data.reject { |_, data| data['latitude'] }.each do |code, data|
+      state_data.reject { |_, data| data['geo'] }.each do |code, data|
         location = "#{data['name']}, #{c.name}"
 
         # Handle special geocoding cases where Google defaults to well known
@@ -87,6 +87,7 @@ namespace :geocode do
         next unless (result = geocode(location))
         geometry = result.geometry
         if geometry['location']
+          state_data[code]['geo'] ||= {}
           state_data[code]['geo']['latitude'] = geometry['location']['lat']
           state_data[code]['geo']['longitude'] = geometry['location']['lng']
         end
