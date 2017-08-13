@@ -50,7 +50,8 @@ end
 desc 'Update CLDR subdivison data set'
 task :update_cldr_subdivison_data do
   require_relative './lib/countries/sources'
-  Sources::CLDR::SubDivisionUpdater.new.call
+  Sources::CLDR::Downloader.subdivisions
+  Sources::CLDR::SubdivisionUpdater.new.call
 end
 
 desc 'Update Cache'
