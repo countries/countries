@@ -7,7 +7,7 @@ module Sources
   module CLDR
     class SubdivisionUpdater
       def call
-        d = Dir['./tmp/cldr-common/common/subdivisions/*.xml']
+        d = Dir['./tmp/cldr/trunk/common/subdivisions/*.xml']
         loader = Sources::Local::CachedLoader.new(Sources::Local::Subdivision)
         d.each do |file_path|
           language_data = Nokogiri::XML(File.read(file_path))
