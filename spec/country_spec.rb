@@ -242,6 +242,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'subdivision_names_with_codes' do
+    it 'should return an alphabetized list of all subdivisions names with codes' do
+      subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first[0]).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first[0]).to eq('Alexandria')
+    end
+
+    it 'should return an alphabetized list of subdivision names translated to current locale with codes' do
+      ISO3166.configuration.locales = [:es, :de, :en]
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes(:es)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first[0]).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first[0]).to eq('Al Iskandariyah')
+    end
+  end
+
   describe 'valid?' do
     it 'should return true if country is valid' do
       expect(ISO3166::Country.new('US')).to be_valid
