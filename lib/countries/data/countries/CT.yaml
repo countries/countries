@@ -1,0 +1,62 @@
+---
+CT:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  alpha2: CT
+  alpha3: CAT
+  country_code: '00'
+  international_prefix: '00'
+  ioc:
+  gec:
+  name: Catalonia
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  number: ''
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: CT
+  nationality: Catalonian
+  eu_member: true
+  eea_member: true
+  vat_rates:
+    standard: 21
+    reduced:
+    - 10
+    super_reduced: 4
+    parking: 
+  postal_code: true
+  unofficial_names:
+  - Cataluña
+  - Catalonia
+  languages_official:
+  - catalan
+  languages_spoken:
+  - catalan
+  - es
+  geo:
+    latitude: 41.69222
+    latitude_dec: '41.69222'
+    longitude: 1.746114
+    longitude_dec: "-1.746114"
+    max_latitude: 42.861403
+    max_longitude: 3.333025
+    min_latitude: 40.523037
+    min_longitude: 0.159203
+    bounds:
+      northeast:
+        lat: 42.861403
+        lng: 3.333025
+      southwest:
+        lat: 40.523037
+        lng: 0.159203
+  currency_code: EUR
+  start_of_week: monday
