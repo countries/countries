@@ -498,6 +498,31 @@ describe ISO3166::Country do
       end
     end
 
+    context "when search name with comma in 'name'" do
+      subject { ISO3166::Country.find_by_name(country_name) }
+
+      context 'with Republic of Korea' do
+        let(:country_name) { 'Korea, Republic of' }
+        it 'should return' do
+          expect(subject.first).to eq('KR')
+        end
+      end
+
+      context 'with Bolivia' do
+        let(:country_name) { 'Bolivia, Plurinational State of' }
+        it 'should return' do
+          expect(subject.first).to eq('BO')
+        end
+      end
+
+      context 'with Bonaire' do
+        let(:country_name) { 'Bonaire, Sint Eustatius and Saba' }
+        it 'should return' do
+          expect(subject.first).to eq('BQ')
+        end
+      end
+    end
+
     context 'when search lowercase multibyte name found' do
       subject { ISO3166::Country.find_country_by_name('россия') }
 
@@ -573,6 +598,15 @@ describe ISO3166::Country do
       it 'should be a country instance' do
         expect(uk).to be_a(ISO3166::Country)
         expect(uk.alpha2).to eq('GB')
+      end
+    end
+
+    context 'when the search term contains comma' do
+      let(:korea) { ISO3166::Country.find_country_by_name('Korea, Republic of') }
+
+      it 'should be a country instance' do
+        expect(korea).to be_a(ISO3166::Country)
+        expect(korea.alpha2).to eq('KR')
       end
     end
 

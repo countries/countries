@@ -1,6 +1,6 @@
 module ISO3166
   UNSEARCHABLE_METHODS = [:translations].freeze
-  
+
   def self::Country(country_data_or_country)
     case country_data_or_country
     when ISO3166::Country
@@ -14,6 +14,7 @@ module ISO3166
 
   module CountryClassMethods
     FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
+    SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
 
     def new(country_data)
       super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
@@ -78,10 +79,12 @@ module ISO3166
       ISO3166::Data.cache.select do |_, v|
         country = Country.new(v)
         attributes.any? do |attr|
-          Array(country.send(attr)).any? { |n| lookup_value === strip_accents(n) }
+          Array(country.send(attr)).any? { |n| lookup_value === parse_value(n) }
         end
       end
     end
+
+    protected
 
     def strip_accents(v)
       if v.is_a?(Regexp)
@@ -90,8 +93,6 @@ module ISO3166
         UnicodeUtils.downcase(v.to_s.unaccent)
       end
     end
-
-    protected
 
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
@@ -103,7 +104,7 @@ module ISO3166
         # attributes << 'translated_names'
       end
 
-      [attributes, strip_accents(val)]
+      [attributes, parse_value(val)]
     end
 
     def searchable_attribute?(attribute)
@@ -118,6 +119,11 @@ module ISO3166
       find_all_by(attribute.downcase, value).map do |country|
         obj.nil? ? country : new(country.last)
       end
+    end
+
+    def parse_value(value)
+      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
+      strip_accents(value)
     end
   end
 end
