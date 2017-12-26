@@ -44,17 +44,17 @@ c = Country['US']
 To Use
 
 ``` ruby
-gem 'countries', :require => 'countries/global'
+gem 'countries', require: 'countries/global'
 ```
 
 ##### Upgrading Country Helper to > 1.2.0
 ``` ruby
-gem 'countries', :require => 'global'
+gem 'countries', require: 'global'
 ```
 
 has become
 ``` ruby
-gem 'countries', :require => 'countries/global'
+gem 'countries', require: 'countries/global'
 ```
 
 ## Selective Loading of Locales
@@ -83,9 +83,9 @@ end
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
 ``` ruby
-c = ISO3166::Country.find_country_by_name('united states')
+c    = ISO3166::Country.find_country_by_name('united states')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
-c = ISO3166::Country.find_country_by_alpha3('can')
+c    = ISO3166::Country.find_country_by_alpha3('can')
 ```
 
 For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
