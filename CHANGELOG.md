@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.1.3
+- [#480](https://github.com/hexorx/countries/pull/480) Add subdivision names with codes (@md-hamed)
+- [#490](https://github.com/hexorx/countries/pull/490) Fix search to work for countries with comma in their name (@bud-yoyo)
+- [#488](https://github.com/hexorx/countries/pull/488) Update BY currency code (BYR -> BYN) (@mainameiz)
+- [#487](https://github.com/hexorx/countries/pull/487) fix TW national_prefix (@swdyh)
+- [#478](https://github.com/hexorx/countries/pull/478) Add vat rates for mexico (@jgrau)
+- [#476](https://github.com/hexorx/countries/pull/476) Add standard vat rate for Norway (@jgrau)
+- [#473](https://github.com/hexorx/countries/pull/473) Add CLDR data source for subdivion translations. (@rposborne)
+- [#472](https://github.com/hexorx/countries/pull/472) Fix corrupted Subdivisions (@rposborne)
 
 ## 2.1.2
   -	Fix incorrectly named subdivision data files @skyborn8
