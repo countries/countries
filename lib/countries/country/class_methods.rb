@@ -84,6 +84,17 @@ module ISO3166
       end
     end
 
+    def subdivisions(alpha2)
+      @subdivisions ||= {}
+      @subdivisions[alpha2] ||= create_subdivisions(subdivision_data(alpha2))
+    end
+
+    def create_subdivisions(subdivision_data)
+      subdivision_data.each_with_object({}) do |(k, v), hash|
+        hash[k] = Subdivision.new(v)
+      end
+    end
+
     protected
 
     def strip_accents(v)
@@ -124,6 +135,15 @@ module ISO3166
     def parse_value(value)
       value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
       strip_accents(value)
+    end
+
+    def subdivision_data(alpha2)
+      file = subdivision_file_path(alpha2)
+      File.exist?(file) ? YAML.load_file(file) : {}
+    end
+
+    def subdivision_file_path(alpha2)
+      File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")
     end
   end
 end

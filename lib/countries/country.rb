@@ -56,13 +56,15 @@ module ISO3166
     end
 
     def subdivisions?
-      !data['subdivisions'].nil? || File.exist?(subdivision_file_path)
+      !subdivisions.empty?
     end
 
     def subdivisions
-      @subdivisions ||= subdivision_data.inject({}) do |hash, (k, v)|
-        hash.merge(k => Subdivision.new(v))
-      end
+      @subdivisions ||= if data['subdivisions']
+                          self.class.create_subdivisions(data['subdivisions'])
+                        else
+                          self.class.subdivisions(alpha2)
+                        end
     end
 
     def subdivision_names_with_codes(locale = 'en')
@@ -109,20 +111,6 @@ module ISO3166
               else
                 ISO3166::Data.new(@country_data_or_code).call
               end
-    end
-
-    private
-
-    def subdivision_data
-      @subdivision_data ||= if subdivisions?
-                              data['subdivisions'] || YAML.load_file(subdivision_file_path)
-                            else
-                              {}
-                            end
-    end
-
-    def subdivision_file_path
-      File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")
     end
   end
 end
