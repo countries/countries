@@ -270,7 +270,7 @@ end
 
 ``` ruby
 c = Country['MY']
-c.emoji_flag # => "🇺🇸"
+c.emoji_flag # => "🇲🇾"
 ```
 
 ## Note on Patches/Pull Requests
