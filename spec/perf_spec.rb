@@ -13,7 +13,7 @@ describe ISO3166::Data, perf: true, order: :defined do
     :zh, :zu
   ].freeze
 
-  def perf_report(name)
+  def perf_report(_name)
     require 'benchmark'
     require 'memory_profiler'
     require 'ruby-prof'
