@@ -68,7 +68,7 @@ module ISO3166
     end
 
     def subdivision_names_with_codes(locale = 'en')
-      subdivisions.map { |k, v| [ v.translations[locale] || v.name, k ] }
+      subdivisions.map { |k, v| [v.translations[locale] || v.name, k] }
     end
 
     alias states subdivisions
