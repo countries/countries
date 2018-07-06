@@ -47,10 +47,6 @@ module ISO3166
       to_s <=> other.to_s
     end
 
-    def currency
-      Money::Currency.find(data['currency_code'])
-    end
-
     def start_of_week
       data['start_of_week']
     end
