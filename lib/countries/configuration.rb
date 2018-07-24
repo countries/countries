@@ -24,6 +24,11 @@ module ISO3166
       @loaded_locales = []
     end
 
+    def enable_currency_extension!
+      require 'countries/country/currency_methods'
+      ISO3166::Country.prepend(ISO3166::CountryCurrencyMethods)
+    end
+
     private
 
     def default_locales

@@ -3,6 +3,7 @@
 require 'spec_helper'
 NUM_OF_COUNTRIES = 249
 describe ISO3166::Country do
+  before { ISO3166.configuration.enable_currency_extension! }
   let(:country) { ISO3166::Country.search('US') }
 
   it 'allows to create a country object from a symbol representation of the alpha2 code' do
