@@ -999,30 +999,6 @@ X:
     max_latitude: -0.324243
     max_longitude: -78.370667
   name: Cotopaxi
-X1~:
-  unofficial_names: Santa Elena
-  translations:
-    en: Santa Elena
-  geo:
-    latitude: -2.1934804
-    longitude: -80.54384499999999
-    min_latitude: -2.508378
-    min_longitude: -81.0067736
-    max_latitude: -1.647962
-    max_longitude: -80.2266889
-  name: Santa Elena
-X2~:
-  unofficial_names: Santo Domingo de los Tsachilas
-  translations:
-    en: Santo Domingo de los Tsachilas
-  geo:
-    latitude: -0.2205563
-    longitude: -79.29021329999999
-    min_latitude: -0.6861889999999999
-    min_longitude: -79.623871
-    max_latitude: 0.123351
-    max_longitude: -78.73494099999999
-  name: Santo Domingo de los Tsachilas
 Y:
   unofficial_names: Pastaza
   translations:
@@ -1122,6 +1098,7 @@ Z:
     max_longitude: -78.3993
   name: Zamora-Chinchipe
 SD:
+  unofficial_names: Santo Domingo de los Tsachilas
   translations:
     ar: سانتو دومينغو دا لوس تساتشيلاس
     be: Правінцыя Санта-Дамінга-дэ-лос-Тсачылас
@@ -1159,7 +1136,16 @@ SD:
     uk: Санто-Домінго-де-лос-Тсачилас
     ur: سانتو دومنگو دے لاس تسآچیلاس صوبہ
     vi: Tỉnh Santo Domingo de los Tsáchilas
+  geo:
+    latitude: -0.2205563
+    longitude: -79.29021329999999
+    min_latitude: -0.6861889999999999
+    min_longitude: -79.623871
+    max_latitude: 0.123351
+    max_longitude: -78.73494099999999
+  name: Santo Domingo de los Tsachilas
 SE:
+  unofficial_names: Santa Elena
   translations:
     ar: مقاطعة سانتا إيلينا
     be: Правінцыя Санта-Элена
@@ -1198,3 +1184,11 @@ SE:
     uk: Санта-Елена
     ur: سانتا الینا صوبہ
     vi: Tỉnh Santa Elena
+  geo:
+    latitude: -2.1934804
+    longitude: -80.54384499999999
+    min_latitude: -2.508378
+    min_longitude: -81.0067736
+    max_latitude: -1.647962
+    max_longitude: -80.2266889
+  name: Santa Elena
