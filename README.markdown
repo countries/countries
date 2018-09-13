@@ -222,11 +222,11 @@ Any country registered this way will have it's data available for searching etc.
 
 ``` ruby
 ISO3166::Data.register(
-  alpha2: "LOL",
+  alpha2: 'LOL',
   name: 'Happy Country',
   translations: {
-    'en' => "Happy Country",
-    'de' => "glückliches Land"
+    'en' => 'Happy Country',
+    'de' => 'glückliches Land'
   }
 )
 
