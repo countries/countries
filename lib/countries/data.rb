@@ -115,13 +115,13 @@ module ISO3166
       end
 
       def load_translations(locale)
-        locale_names = load_cache(['locales', "#{locale}.json"])
         internal_codes.each do |alpha2|
           @@cache[alpha2]['translations'] ||= Translations.new
-          @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
+          @@cache[alpha2]['translations'][locale] = I18nData.countries(locale)[alpha2]
           @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
         end
         ISO3166.configuration.loaded_locales << locale
+      rescue I18nData::NoTranslationAvailable
       end
 
       def unload_translations(locale)
