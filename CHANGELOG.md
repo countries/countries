@@ -2,6 +2,49 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+### v2.2.0 (2018/12/17 10:20 +00:00)
+**Closed issues:**
+
+- Overriding/Extending Country class with custom methods [\#506](https://github.com/hexorx/countries/issues/506)
+- fonts [\#503](https://github.com/hexorx/countries/issues/503)
+- USA counties [\#501](https://github.com/hexorx/countries/issues/501)
+- flags not working [\#489](https://github.com/hexorx/countries/issues/489)
+- Proper way to only change a few subset of data [\#486](https://github.com/hexorx/countries/issues/486)
+
+**Merged pull requests:**
+
+- Relax i18n gemspec  [\#553](https://github.com/hexorx/countries/issues/553)
+- Update cache [\#549](https://github.com/hexorx/countries/pull/549) ([jgrau](https://github.com/jgrau))
+- Update cache [\#549](https://github.com/hexorx/countries/pull/549) ([jgrau](https://github.com/jgrau))
+- Add dash to Nouvelle-Calédonie [\#547](https://github.com/hexorx/countries/pull/547) ([HLFH](https://github.com/HLFH))
+- New currency\_code for Venezuela: VEF -\> VES [\#546](https://github.com/hexorx/countries/pull/546) ([madacol](https://github.com/madacol))
+- More vat rates [\#544](https://github.com/hexorx/countries/pull/544) ([jgrau](https://github.com/jgrau))
+- Consistently use single-quotes in code block [\#541](https://github.com/hexorx/countries/pull/541) ([orhantoy](https://github.com/orhantoy))
+- Add Thailand vat rates [\#536](https://github.com/hexorx/countries/pull/536) ([jgrau](https://github.com/jgrau))
+- Update and fix LatAm countries subdivisions [\#534](https://github.com/hexorx/countries/pull/534) ([philipefarias](https://github.com/philipefarias))
+- Add feature toggle for countries to avoid money dependency [\#533](https://github.com/hexorx/countries/pull/533) ([stefkin](https://github.com/stefkin))
+- Fixing language code for Urdu to ISO 639-2 [\#531](https://github.com/hexorx/countries/pull/531) ([dachusa](https://github.com/dachusa))
+- Correcting syntax for YAML numeric list key 08 [\#530](https://github.com/hexorx/countries/pull/530) ([dachusa](https://github.com/dachusa))
+- Rubocop style guides [\#527](https://github.com/hexorx/countries/pull/527) ([mrclmrvn](https://github.com/mrclmrvn))
+- Added 20 subdivisions yaml files [\#526](https://github.com/hexorx/countries/pull/526) ([dachusa](https://github.com/dachusa))
+- Created Anguilla Subdivision YAML file [\#525](https://github.com/hexorx/countries/pull/525) ([dachusa](https://github.com/dachusa))
+- Correcting Ash Shamālīyah's translations location [\#524](https://github.com/hexorx/countries/pull/524) ([dachusa](https://github.com/dachusa))
+- Singapore IOC code has changed [\#523](https://github.com/hexorx/countries/pull/523) ([pzupan](https://github.com/pzupan))
+- \#519 correct NO subdivision key for Sudan's Ash Shamālīyah [\#520](https://github.com/hexorx/countries/pull/520) ([jlw](https://github.com/jlw))
+- Fixed incorrect flag emoji in Readme example [\#518](https://github.com/hexorx/countries/pull/518) ([keithpitt](https://github.com/keithpitt))
+- Corrected VAT rates of Greece [\#516](https://github.com/hexorx/countries/pull/516) ([gauda](https://github.com/gauda))
+- correct currency for Haiti [\#515](https://github.com/hexorx/countries/pull/515) ([genevievebelle](https://github.com/genevievebelle))
+- Update LT.yaml [\#514](https://github.com/hexorx/countries/pull/514) ([s4uliu5](https://github.com/s4uliu5))
+- \[CI\] Test against Ruby 2.1 and 2.5 [\#513](https://github.com/hexorx/countries/pull/513) ([nicolasleger](https://github.com/nicolasleger))
+- Add zh translation for CN subdivisions [\#512](https://github.com/hexorx/countries/pull/512) ([wingice](https://github.com/wingice))
+- Memoize subdivision YAML loading [\#510](https://github.com/hexorx/countries/pull/510) ([mdehoog](https://github.com/mdehoog))
+- Update CZ country name [\#509](https://github.com/hexorx/countries/pull/509) ([minvs1](https://github.com/minvs1))
+- Add Ukraine vat rates [\#507](https://github.com/hexorx/countries/pull/507) ([jgrau](https://github.com/jgrau))
+- Corrected swedish transation for GB [\#505](https://github.com/hexorx/countries/pull/505) ([pidu](https://github.com/pidu))
+- Remove empty :geo key and misspelled latitude [\#504](https://github.com/hexorx/countries/pull/504) ([normancapule](https://github.com/normancapule))
+- Update README.markdown [\#502](https://github.com/hexorx/countries/pull/502) ([gssbzn](https://github.com/gssbzn))
+
+
 ### v2.1.4 (2018/02/09 01:52 +00:00)
 - [#498](https://github.com/hexorx/countries/pull/498) Updated Switzerland VAT rates (@Aethelflaed)
 - [#497](https://github.com/hexorx/countries/pull/497) Swedish translation correction of GB (@eric-khoury)
