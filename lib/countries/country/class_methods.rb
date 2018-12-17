@@ -133,8 +133,10 @@ module ISO3166
     end
 
     def parse_value(value)
-      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
-      strip_accents(value)
+      cached(value) do
+        value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
+        strip_accents(value)
+      end
     end
 
     def subdivision_data(alpha2)
@@ -144,6 +146,17 @@ module ISO3166
 
     def subdivision_file_path(alpha2)
       File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")
+    end
+
+    # Some methods like parse_value are expensive in that they
+    # create a large number of objects internally. In order to reduce the
+    # object creations and save the GC, we can cache them in an class instance
+    # variable. This will make subsequent parses O(1) and will stop the
+    # creation of new String object instances.
+    def cached(value)
+      @_parsed_values_cache ||= {}
+      return @_parsed_values_cache[value] if @_parsed_values_cache[value]
+      @_parsed_values_cache[value] = yield
     end
   end
 end
