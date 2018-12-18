@@ -79,7 +79,9 @@ module ISO3166
       ISO3166::Data.cache.select do |_, v|
         country = Country.new(v)
         attributes.any? do |attr|
-          Array(country.send(attr)).any? { |n| lookup_value === parse_value(n) }
+          Array(country.send(attr)).any? do |n|
+            lookup_value === cached(n) { parse_value(n) }
+          end
         end
       end
     end
@@ -133,10 +135,8 @@ module ISO3166
     end
 
     def parse_value(value)
-      cached(value) do
-        value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
-        strip_accents(value)
-      end
+      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
+      strip_accents(value)
     end
 
     def subdivision_data(alpha2)
@@ -153,6 +153,10 @@ module ISO3166
     # object creations and save the GC, we can cache them in an class instance
     # variable. This will make subsequent parses O(1) and will stop the
     # creation of new String object instances.
+    #
+    # NB: We only want to use this cache for values coming from the JSON
+    # file or our own code, caching user-generated data could be dangerous
+    # since the cache would continually grow.
     def cached(value)
       @_parsed_values_cache ||= {}
       return @_parsed_values_cache[value] if @_parsed_values_cache[value]
