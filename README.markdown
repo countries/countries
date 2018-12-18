@@ -47,7 +47,11 @@ To Use
 gem 'countries', require: 'countries/global'
 ```
 
-##### Upgrading Country Helper to > 1.2.0
+## Upgrading to 3.x
+
+We dropped currency support via money by default, see [instructions](README.markdown#Currencies) if you are using currency featues
+
+## Upgrading Country Helper to > 1.2.0
 ``` ruby
 gem 'countries', require: 'global'
 ```

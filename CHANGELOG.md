@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-### v2.2.0 (2018/12/17 10:20 +00:00)
+### v2.2.0 (yanked and re-released as 3.0.0) (2018/12/17 10:20 +00:00)
 **Closed issues:**
 
 - Overriding/Extending Country class with custom methods [\#506](https://github.com/hexorx/countries/issues/506)
