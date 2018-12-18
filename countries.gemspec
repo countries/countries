@@ -17,7 +17,6 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_dependency('i18n_data', '~> 0.8.0')
-  gem.add_dependency('i18n', '> 1.0.1')
   gem.add_dependency('unicode_utils', '~> 1.4')
   gem.add_dependency('sixarm_ruby_unaccent', '~> 1.1')
   gem.add_development_dependency('rspec', '>= 3')

@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'spec_helper'
+require 'i18n'
 
 describe 'ISO3166.configuration' do
   it 'has a configuration' do
