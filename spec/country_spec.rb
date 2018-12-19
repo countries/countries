@@ -116,7 +116,7 @@ describe ISO3166::Country do
         countries.should be_an(Array)
         countries.first.should be_an(Array)
         countries.first.should have(2).fields
-        countries.should have(247).countries
+        countries.should have(242).countries
       end
 
       it 'alphabetizes the countries by the name' do
@@ -132,7 +132,7 @@ describe ISO3166::Country do
         countries.should be_an(Array)
         countries.first.should be_an(Array)
         countries.first.should have(3).fields
-        countries.should have(247).countries
+        countries.should have(242).countries
       end
     end
   end
