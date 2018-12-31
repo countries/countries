@@ -65,7 +65,7 @@ gem 'countries', require: 'countries/global'
 
 As of 2.0 you can selectively load locales to reduce memory usage in production.
 
-By default we load I18n.available_locales if I18n is present, otherwise only [:en]. This means almost any rails environment will only bring in it's supported translations.
+By default we load I18n.available_locales if I18n is present, otherwise only [:en]. This means almost any rails environment will only bring in its supported translations.
 
 You can add all the locales like this.
 
@@ -220,9 +220,9 @@ c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalco
 
 ## Loading Custom Data
 
-As of 2.0 countries supports loading custom countries / overriding data in it's data set, though if you choose to do this please contribute back to the upstream repo!
+As of 2.0 countries supports loading custom countries / overriding data in its data set, though if you choose to do this please contribute back to the upstream repo!
 
-Any country registered this way will have it's data available for searching etc... If you are overriding an existing country, for cultural reasons, our code uses a simple merge, not a deep merge so you will need to __bring in all data you wish to be available__.  Bringing in an existing country will also remove it from the internal management of translations, __all registered countries will remain in memory__.
+Any country registered this way will have its data available for searching etc... If you are overriding an existing country, for cultural reasons, our code uses a simple merge, not a deep merge so you will need to __bring in all data you wish to be available__.  Bringing in an existing country will also remove it from the internal management of translations, __all registered countries will remain in memory__.
 
 ``` ruby
 ISO3166::Data.register(
