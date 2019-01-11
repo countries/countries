@@ -293,9 +293,9 @@ c.emoji_flag # => "🇲🇾"
 
 ### Please do not submit pull requests on `cache/**/*`
 
-Any additions should be directed upstream to [pkg-isocodes](http://anonscm.debian.org/cgit/pkg-isocodes/iso-codes.git/)
+Any additions should be directed upstream to [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes)
 
-New Bugs can be filed upstream here https://alioth.debian.org/projects/pkg-iso-codes/
+New Bugs can be filed upstream here https://salsa.debian.org/iso-codes-team/iso-codes/issues
 If you need to correct an upstream translation please add it to the lib/countries/data/translations_corrections.yaml
 
 ```
