@@ -1,3 +1,6 @@
+require 'unicode_utils/downcase'
+require 'sixarm_ruby_unaccent'
+
 module ISO3166
   UNSEARCHABLE_METHODS = [:translations].freeze
 
