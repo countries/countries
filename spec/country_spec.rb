@@ -397,6 +397,23 @@ describe ISO3166::Country do
       countries = ISO3166::Country.new(:de).translation('xxx')
       expect(countries).to be_nil
     end
+
+    context 'should return variant locales' do
+      it 'should return different value for Chinese variants' do
+        ISO3166.configuration.locales = [:'zh-cn', :'zh-hk', :'zh-tw']
+        name_cn = ISO3166::Country['TW'].translation('zh-cn')
+        name_hk = ISO3166::Country['TW'].translation('zh-hk')
+        name_tw = ISO3166::Country['TW'].translation('zh-tw')
+        expect([name_cn, name_hk, name_tw].uniq.size).to eql 3
+      end
+
+      it 'should return different value for Portuguese variants' do
+        ISO3166.configuration.locales = [:pt, :'pt-br']
+        name_pt = ISO3166::Country['SG'].translation('pt')
+        name_br = ISO3166::Country['SG'].translation('pt-br')
+        expect([name_pt, name_br].uniq.size).to eql 2
+      end
+    end
   end
 
   describe 'translations' do

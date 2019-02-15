@@ -64,7 +64,8 @@ task :update_cache do
 
   corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
 
-  I18nData.languages.keys.each do |locale|
+  language_keys = I18nData.languages.keys + ['zh_CN', 'zh_TW', 'zh_HK','bn_IN','pt_BR']
+  language_keys.each do |locale|
     locale = locale.downcase
     begin
       local_names = I18nData.countries(locale)
@@ -79,7 +80,7 @@ task :update_cache do
       end
     end
 
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale}.json"), 'wb') { |f| f.write(local_names.to_json) }
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json"), 'wb') { |f| f.write(local_names.to_json) }
   end
 
   codes.each do |alpha2|
