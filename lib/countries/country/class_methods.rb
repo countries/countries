@@ -79,7 +79,9 @@ module ISO3166
       ISO3166::Data.cache.select do |_, v|
         country = Country.new(v)
         attributes.any? do |attr|
-          Array(country.send(attr)).any? { |n| lookup_value === parse_value(n) }
+          Array(country.send(attr)).any? do |n|
+            lookup_value === cached(n) { parse_value(n) }
+          end
         end
       end
     end
@@ -144,6 +146,21 @@ module ISO3166
 
     def subdivision_file_path(alpha2)
       File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")
+    end
+
+    # Some methods like parse_value are expensive in that they
+    # create a large number of objects internally. In order to reduce the
+    # object creations and save the GC, we can cache them in an class instance
+    # variable. This will make subsequent parses O(1) and will stop the
+    # creation of new String object instances.
+    #
+    # NB: We only want to use this cache for values coming from the JSON
+    # file or our own code, caching user-generated data could be dangerous
+    # since the cache would continually grow.
+    def cached(value)
+      @_parsed_values_cache ||= {}
+      return @_parsed_values_cache[value] if @_parsed_values_cache[value]
+      @_parsed_values_cache[value] = yield
     end
   end
 end

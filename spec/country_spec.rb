@@ -519,6 +519,19 @@ describe ISO3166::Country do
       expect(spain_data).to be_a Hash
       expect(spain_data.keys).to eq(['ES'])
     end
+
+    it 'performs reasonably' do
+      start = Time.now
+      250.times do
+        lookup = ['ZM', 'ZMB', 'Zambia', 'US', 'USA', 'United States'].sample
+        case lookup.length
+        when 2 then ISO3166::Country.find_all_by(:alpha2, lookup)
+        when 3 then ISO3166::Country.find_all_by(:alpha3, lookup)
+        else ISO3166::Country.find_all_by(:name, lookup)
+        end
+      end
+      expect(Time.now - start).to be < 1
+    end
   end
 
   describe 'hash finder methods' do
