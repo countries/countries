@@ -2,6 +2,29 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased](https://github.com/hexorx/countries/tree/HEAD)
+
+[Full Changelog](https://github.com/hexorx/countries/compare/v3.0.0...HEAD)
+
+**Closed issues:**
+
+- Mauritanian currency code is changed [\#568](https://github.com/hexorx/countries/issues/568)
+- Czech Republic changed it's name to Czechia [\#560](https://github.com/hexorx/countries/issues/560)
+- Swaziland renamed to eSwatini [\#521](https://github.com/hexorx/countries/issues/521)
+
+**Merged pull requests:**
+
+- Update i18n\_data version [\#572](https://github.com/hexorx/countries/pull/572) ([tatarsky-v](https://github.com/tatarsky-v))
+- remove bin/console from gemspec [\#571](https://github.com/hexorx/countries/pull/571) ([patleb](https://github.com/patleb))
+- Add North Macedonia as alternate name [\#570](https://github.com/hexorx/countries/pull/570) ([toddwschneider](https://github.com/toddwschneider))
+- Update Mauritanian currency code [\#569](https://github.com/hexorx/countries/pull/569) ([vencislavdimitrov](https://github.com/vencislavdimitrov))
+- Update name of SZ to eSwatini \(was Swaziland\) [\#567](https://github.com/hexorx/countries/pull/567) ([rossgayler](https://github.com/rossgayler))
+- Fixed links to debian package iso-codes [\#566](https://github.com/hexorx/countries/pull/566) ([panterch](https://github.com/panterch))
+- It should include language variants which are available in i18n\_data. [\#565](https://github.com/hexorx/countries/pull/565) ([torumori](https://github.com/torumori))
+- Fix "it's"-related typos [\#563](https://github.com/hexorx/countries/pull/563) ([RogerPodacter](https://github.com/RogerPodacter))
+- Add Czechia as unofficial name for Czech Republic [\#561](https://github.com/hexorx/countries/pull/561) ([msdundar](https://github.com/msdundar))
+- Add caching to the parsing of values during search [\#557](https://github.com/hexorx/countries/pull/557) ([radixhound](https://github.com/radixhound))
+
 ### v2.2.0 (yanked and re-released as 3.0.0) (2018/12/17 10:20 +00:00)
 **Closed issues:**
 
