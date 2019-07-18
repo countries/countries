@@ -289,6 +289,10 @@ c = Country['MY']
 c.emoji_flag # => "🇲🇾"
 ```
 
+## Rails
+
+If you are in a Rails application, it can be useful to use the integration made by gem [rails-countries](https://github.com/pedrofurtado/rails-countries).
+
 ## Note on Patches/Pull Requests
 
 ### Please do not submit pull requests on `cache/**/*`
