@@ -76,7 +76,11 @@ class ISO3166::Country
     def [](query)
       self.search(query)
     end
-    
+
+    def monkeys
+      ["bonobo", "spider", "capuchin"]
+    end
+
     def method_missing(*m)
       if m.first.to_s.match /^find_(country_)?by_(.+)/
         country = self.find_all_by($~[2].downcase, m[1].to_s.downcase).first
