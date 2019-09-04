@@ -46,7 +46,15 @@ module ISO3166
     end
 
     def translations(locale = 'en')
-      I18nData.countries(locale.upcase)
+      i18n_data_countries = I18nData.countries(locale.upcase)
+
+      custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
+        country = ISO3166::Country[code]
+        translation = country.translations[locale] || country.name
+        [code, translation]
+      end.to_h
+
+      i18n_data_countries.merge(custom_countries)
     end
 
     def search(query)

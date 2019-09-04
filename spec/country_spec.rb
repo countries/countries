@@ -335,6 +335,26 @@ describe ISO3166::Country do
       expect(countries.first).to eq('Aruba')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
+
+    context 'with custom countries' do
+      before do
+        ISO3166::Data.register(
+          alpha2: 'XX',
+          name: 'Custom Country',
+          translations: { 'en' => 'Custom Country' }
+        )
+      end
+
+      it 'should include custom registered countries' do
+        custom_country = ISO3166::Country.find_by_alpha2('XX')[1]
+        countries = ISO3166::Country.all_translated
+        expect(countries).to include(custom_country['name'])
+      end
+
+      after do
+        ISO3166::Data.unregister('XX')
+      end
+    end
   end
 
   describe 'all_names_with_codes' do
