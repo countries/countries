@@ -1,185 +1,10 @@
 ---
-JC:
-  unofficial_names:
-  - Budějovický
-  - Českobudějovický
-  translations:
-    en: South Bohemia
-  geo:
-    latitude: 48.9457789
-    longitude: 14.4416055
-    min_latitude: 48.5518081
-    min_longitude: 13.5363203
-    max_latitude: 49.6212548
-    max_longitude: 15.6041293
-  name: Jihočeský kraj
-JM:
-  unofficial_names:
-  - Brněnský
-  translations:
-    en: South Moravia
-  geo:
-    latitude: 48.9544528
-    longitude: 16.7676899
-    min_latitude: 48.61653769999999
-    min_longitude: 15.5424287
-    max_latitude: 49.63325469999999
-    max_longitude: 17.6458148
-  name: 'Jihomoravský kraj '
-KA:
-  unofficial_names: Karlovarský kraj
-  translations:
-    en: Karlovy Vary Region
-  geo:
-    latitude: 50.1435
-    longitude: 12.7501899
-    min_latitude: 49.891137
-    min_longitude: 12.0906263
-    max_latitude: 50.4602991
-    max_longitude: 13.3011974
-  name: Karlovarský kraj
-KR:
-  unofficial_names: Královéhradecký kraj
-  translations:
-    en: Hradec Králové Region
-  geo:
-    latitude: 50.3512484
-    longitude: 15.7976459
-    min_latitude: 50.0388059
-    min_longitude: 15.1051615
-    max_latitude: 50.7804396
-    max_longitude: 16.5855247
-  name: Královéhradecký kraj
-LI:
-  unofficial_names: Liberecký kraj
-  translations:
-    en: Liberec Region
-  geo:
-    latitude: 50.65942399999999
-    longitude: 14.7632424
-    min_latitude: 50.4720971
-    min_longitude: 14.3435357
-    max_latitude: 51.0231974
-    max_longitude: 15.6330293
-  name: Liberecký kraj
-MO:
-  unofficial_names:
-  - Ostravský
-  translations:
-    en: Moravian-Silesia
-  geo:
-    latitude: 49.7305327
-    longitude: 18.2332637
-    min_latitude: 49.392608
-    min_longitude: 17.1462629
-    max_latitude: 50.3279579
-    max_longitude: 18.8592548
-  name: Moravskoslezský kraj
-OL:
-  unofficial_names: Olomoucký kraj
-  translations:
-    en: Olomouc Region
-  geo:
-    latitude: 49.65865489999999
-    longitude: 17.0811406
-    min_latitude: 49.2669759
-    min_longitude: 16.7115968
-    max_latitude: 50.4494346
-    max_longitude: 17.9172214
-  name: Olomoucký kraj
-PA:
-  unofficial_names: Pardubický kraj
-  translations:
-    en: Pardubice Region
-  geo:
-    latitude: 49.9444479
-    longitude: 16.2856916
-    min_latitude: 49.5720141
-    min_longitude: 15.3630765
-    max_latitude: 50.20763729999999
-    max_longitude: 16.8665452
-  name: Pardubický kraj
-PL:
-  unofficial_names: Plzeňský kraj
-  translations:
-    en: Plzeň Region
-  geo:
-    latitude: 49.4134812
-    longitude: 13.3157246
-    min_latitude: 48.9412671
-    min_longitude: 12.400522
-    max_latitude: 50.1033335
-    max_longitude: 13.835103
-  name: Plzeňský kraj
-PR:
+'10':
   unofficial_names:
   - Hlavní město Praha
   - Praha
   - Prag
   - Prague
-  translations:
-    en: Prague
-  geo:
-    latitude: 50.0755381
-    longitude: 14.4378005
-    min_latitude: 49.94193629999999
-    min_longitude: 14.2244533
-    max_latitude: 50.177403
-    max_longitude: 14.7067945
-  name: Praha, hlavní město
-ST:
-  unofficial_names:
-  - Central Bohemia
-  - Mittelböhmen
-  - Středočeský
-  translations:
-    en: Central Bohemia
-  geo:
-    latitude: 49.8782223
-    longitude: 14.9362955
-    min_latitude: 49.50133659999999
-    min_longitude: 13.3973366
-    max_latitude: 50.6190994
-    max_longitude: 15.5345257
-  name: Středočeský kraj
-US:
-  unofficial_names: Ústecký kraj
-  translations:
-    en: Ústí nad Labem Region
-  geo:
-    latitude: 50.6119037
-    longitude: 13.7870086
-    min_latitude: 50.0774318
-    min_longitude: 12.940246
-    max_latitude: 51.0557757
-    max_longitude: 14.6528592
-  name: Ústecký kraj
-VY:
-  unofficial_names:
-  - Jihlavský
-  translations:
-    en: Vysočina²
-  geo:
-    latitude: 49.44900519999999
-    longitude: 15.6405934
-    min_latitude: 48.9375446
-    min_longitude: 14.8887667
-    max_latitude: 49.8611195
-    max_longitude: 16.4184401
-  name: Vysočina
-ZL:
-  unofficial_names: Zlínský kraj
-  translations:
-    en: Zlín Region
-  geo:
-    latitude: 49.2162296
-    longitude: 17.7720353
-    min_latitude: 48.8542302
-    min_longitude: 17.1108595
-    max_latitude: 49.5399786
-    max_longitude: 18.4155308
-  name: Zlínský kraj
-'10':
   translations:
     af: Praag
     am: ፕራግ
@@ -193,7 +18,7 @@ ZL:
     da: Prag
     de: Prag
     el: Πράγα
-    en: Prague, Hlavní mešto
+    en: Prague
     es: Praga
     et: Praha
     eu: Praga
@@ -215,6 +40,7 @@ ZL:
     km: ទីក្រុងប្រាក
     kn: ಪ್ರಾಗ್
     ko: 프라하
+    la: Praga
     lt: Praha
     lv: Prāga
     ml: പ്രാഗ്
@@ -247,7 +73,19 @@ ZL:
     vi: Praha
     zh: 布拉格
     zu: IPraha
+  geo:
+    latitude: 50.0755381
+    longitude: 14.4378005
+    min_latitude: 49.94193629999999
+    min_longitude: 14.2244533
+    max_latitude: 50.177403
+    max_longitude: 14.7067945
+  name: Prague
 '20':
+  unofficial_names:
+  - Central Bohemia
+  - Mittelböhmen
+  - Středočeský
   translations:
     ar: إقليم بوهيميا الوسطى
     az: Orta Çex diyarı
@@ -259,7 +97,7 @@ ZL:
     da: Centralbøhmen
     de: Středočeský kraj
     el: Περιφέρεια Κεντρικής Βοημίας
-    en: Středočeský
+    en: Central Bohemia
     es: Bohemia Central
     et: Kesk-Tšehhi maakond
     eu: Erdialdeko Bohemiako eskualdea
@@ -300,7 +138,18 @@ ZL:
     ur: مرکزی بوہیمیائی علاقہ
     vi: Trung Bohemia
     zh: 中波希米亚州
+  geo:
+    latitude: 49.8782223
+    longitude: 14.9362955
+    min_latitude: 49.50133659999999
+    min_longitude: 13.3973366
+    max_latitude: 50.6190994
+    max_longitude: 15.5345257
+  name: Středočeský kraj
 20A:
+  unofficial_names:
+  - Prague West
+  - Prague-West District
   translations:
     ar: مقاطعة براغ-غرب
     bg: Прага-запад
@@ -323,14 +172,17 @@ ZL:
     uk: Прага-захід
     ur: پراگ-غربی ضلع
     vi: Praha Tây
+  name: Prague-West
 20B:
+  unofficial_names:
+  - Příbram
   translations:
     ar: مقاطعة بشيبرام
     bg: Пршибрам
     ca: Districte de Příbram
     cs: okres Příbram
     de: Okres Příbram
-    en: Příbram
+    en: Příbram District
     fr: District de Příbram
     he: מחוז משנה פריברם
     hu: Příbrami járás
@@ -348,7 +200,10 @@ ZL:
     uk: Пржибрам
     ur: پشیبرام ضلع
     vi: Příbram
+  name: Příbram District
 20C:
+  unofficial_names:
+  - Rakovník
   translations:
     ar: مقاطعة راكوفنيك
     bg: Раковник
@@ -372,7 +227,11 @@ ZL:
     sv: Rakovník
     ur: راکوونیک ضلع
     vi: Rakovník
+  name: Rakovník District
 '31':
+  unofficial_names:
+  - Budějovický
+  - Českobudějovický
   translations:
     ar: إقليم جنوب بوهيميا
     az: Cənubi Çex diyarı
@@ -384,7 +243,7 @@ ZL:
     da: Sydbøhmen
     de: Jihočeský kraj
     el: Περιφέρεια Νότιας Βοημίας
-    en: Jihočeský
+    en: South Bohemia
     es: Región de Bohemia Meridional
     et: Lõuna-Tšehhi maakond
     eu: Hegoaldeko Bohemiako eskualdea
@@ -424,7 +283,18 @@ ZL:
     ur: جنوبی بوہیمیائی علاقہ
     vi: Nam Bohemia
     zh: 南波希米亚州
+  geo:
+    latitude: 48.9457789
+    longitude: 14.4416055
+    min_latitude: 48.5518081
+    min_longitude: 13.5363203
+    max_latitude: 49.6212548
+    max_longitude: 15.6041293
+  name: Jihočeský kraj
 '32':
+  unofficial_names:
+  - Plzeňský
+  - Plzeň
   translations:
     ar: إقليم بلزن
     az: Plzen diyarı
@@ -434,9 +304,9 @@ ZL:
     ca: Regió de Plzeň
     cs: Plzeňský kraj
     da: Plzeň
-    de: Plzeňský kraj
+    de: Pilsner Region
     el: Περιφέρεια Πίλσεν
-    en: Plzeňský
+    en: Plzeň Region
     es: Región de Pilsen
     et: Plzeňi maakond
     eu: Pilsen eskualdea
@@ -475,7 +345,18 @@ ZL:
     ur: پلزین علاقہ
     vi: Plzeň
     zh: 比爾森州
+  geo:
+    latitude: 49.4134812
+    longitude: 13.3157246
+    min_latitude: 48.9412671
+    min_longitude: 12.400522
+    max_latitude: 50.1033335
+    max_longitude: 13.835103
+  name: Plzeň Region
 '41':
+  unofficial_names:
+  - Karlovarský
+  - Karlovy Vary
   translations:
     ar: إقليم كارلوفي فاري
     az: Karlovı Varı diyarı
@@ -487,7 +368,7 @@ ZL:
     da: Karlovy Vary
     de: Karlovarský kraj
     el: Περιφέρεια Κάρλοβυ Βάρυ
-    en: Karlovarský
+    en: Karlovy Vary Region
     es: Región de Karlovy Vary
     et: Karlovy Vary maakond
     eu: Karlovy Vary eskualdea
@@ -526,8 +407,21 @@ ZL:
     ur: کارلووی واری علاقہ
     vi: Karlovy Vary
     zh: 卡羅維發利州
+  geo:
+    latitude: 50.1435
+    longitude: 12.7501899
+    min_latitude: 49.891137
+    min_longitude: 12.0906263
+    max_latitude: 50.4602991
+    max_longitude: 13.3011974
+  name: Karlovy Vary
 '42':
+  unofficial_names:
+  - Ústecký
+  - Ústecký Region
+  - Ústí nad Labem
   translations:
+    en: Ústí nad Labem Region
     ar: إقليم أوستي ناد لابم
     az: Ustetskiy diyarı
     be: Усцецкі край
@@ -536,9 +430,9 @@ ZL:
     ca: Regió d’Ústí nad Labem
     cs: Ústecký kraj
     da: Ústí nad Labem
-    de: Ústecký kraj
+    de: Region Aussig
     el: Περιφέρεια Ούστι ναντ Λάμπεμ
-    en: Ústecký
+    en: Ústí nad Labem Region
     es: Región de Ústí nad Labem
     et: Ústí maakond
     eu: Ústí nad Labem eskualdea
@@ -577,7 +471,18 @@ ZL:
     ur: اوستی ناد لاہم علاقہ
     vi: Ústí nad Labem
     zh: 烏斯季州
+  geo:
+    latitude: 50.6119037
+    longitude: 13.7870086
+    min_latitude: 50.0774318
+    min_longitude: 12.940246
+    max_latitude: 51.0557757
+    max_longitude: 14.6528592
+  name: Ústí nad Labem Region
 '51':
+  unofficial_names:
+  - Liberec
+  - Liberecký
   translations:
     ar: إقليم ليبيريتس
     az: Liberets diyarı
@@ -585,8 +490,8 @@ ZL:
     bn: লাইবেরেক অঞ্চল
     ca: Regió de Liberec
     cs: Liberecký kraj
-    da: Liberec
-    de: Liberecký kraj
+    da: Liberec Region
+    de: Reichenberger Region
     el: Περιφέρεια Λίμπερετς
     en: Liberecký
     es: Región de Liberec
@@ -627,7 +532,18 @@ ZL:
     ur: لیبرتس علاقہ
     vi: Liberec
     zh: 利贝雷茨州
+  geo:
+    latitude: 50.65942399999999
+    longitude: 14.7632424
+    min_latitude: 50.4720971
+    min_longitude: 14.3435357
+    max_latitude: 51.0231974
+    max_longitude: 15.6330293
+  name: Liberec Region
 '52':
+  unofficial_names:
+  - Hradec Králové
+  - Královéhradecký
   translations:
     ar: إقليم هرادتس كرالوفه
     az: Kraloveqradetskiy diyarı
@@ -639,7 +555,7 @@ ZL:
     da: Hradec Králové
     de: Královéhradecký kraj
     el: Περιφέρεια Χράντετς Κράλοβε
-    en: Královéhradecký
+    en: Hradec Králové Region
     es: Región de Hradec Králové
     et: Hradec Králové maakond
     eu: Hradec Králové eskualdea
@@ -678,7 +594,17 @@ ZL:
     ur: ہاردک کارلوف علاقہ
     vi: Hradec Králové
     zh: 赫拉德茨-克拉洛韋州
+  geo:
+    latitude: 50.3512484
+    longitude: 15.7976459
+    min_latitude: 50.0388059
+    min_longitude: 15.1051615
+    max_latitude: 50.7804396
+    max_longitude: 16.5855247
+  name: Hradec Králové Region
 '53':
+  unofficial_names:
+  - Pardubice
   translations:
     ar: إقليم باردوبيتسه
     az: Pardubitskiy diyarı
@@ -690,7 +616,7 @@ ZL:
     da: Pardubice
     de: Pardubický kraj
     el: Περιφέρεια Παρντούμπιτσε
-    en: Pardubický
+    en: Pardubice Region
     es: Región de Pardubice
     et: Pardubice maakond
     eu: Pardubice eskualdea
@@ -730,7 +656,18 @@ ZL:
     ur: پاردوبیتسے علاقہ
     vi: Pardubice
     zh: 帕爾杜比采州
+  geo:
+    latitude: 49.9444479
+    longitude: 16.2856916
+    min_latitude: 49.5720141
+    min_longitude: 15.3630765
+    max_latitude: 50.20763729999999
+    max_longitude: 16.8665452
+  name: Pardubice Region
 '63':
+  unofficial_names:
+  - Vysočina
+  - Highlands Region
   translations:
     ar: إقليم فيسوتشنا
     az: Vısoçina diyarı
@@ -740,9 +677,9 @@ ZL:
     ca: Regió de Vysočina
     cs: Kraj Vysočina
     da: Vysočina
-    de: Kraj Vysočina
+    de: Region Hochland
     el: Περιφέρεια Βίσοτσινα
-    en: Vysočina
+    en: Vysočina Region
     es: Región de Vysočina
     et: Vysočina
     eu: Vysocina
@@ -783,7 +720,18 @@ ZL:
     ur: ویسوچیانا علاقہ
     vi: Vysočina
     zh: 維索基納州
+  geo:
+    latitude: 49.44900519999999
+    longitude: 15.6405934
+    min_latitude: 48.9375446
+    min_longitude: 14.8887667
+    max_latitude: 49.8611195
+    max_longitude: 16.4184401
+  name: Vysočina Region
 '64':
+  unofficial_names:
+  - South Moravian
+  - Jihomoravský
   translations:
     ar: محافظة مورافيا الجنوبية
     az: Cənubi Moraviya diyarı
@@ -793,9 +741,9 @@ ZL:
     ca: Regió de Moràvia Meridional
     cs: Jihomoravský kraj
     da: Sydmähren
-    de: Jihomoravský kraj
+    de: Südmährische Region
     el: Περιφέρεια Νότιας Μοραβίας
-    en: Jihomoravský
+    en: South Moravian Region
     es: Región de Moravia Meridional
     et: Lõuna-Morava maakond
     eu: Hego Moravia
@@ -836,7 +784,18 @@ ZL:
     ur: جنوبی موراویائی علاقہ
     vi: Nam Moravia
     zh: 南摩拉維亞州
+  geo:
+    latitude: 48.9544528
+    longitude: 16.7676899
+    min_latitude: 48.61653769999999
+    min_longitude: 15.5424287
+    max_latitude: 49.63325469999999
+    max_longitude: 17.6458148
+  name: South Moravian Region
 '71':
+  unofficial_names:
+  - Olomouc
+  - Olomoucký
   translations:
     ar: إقليم أولوموتس
     az: Olomoutskiy diyarı
@@ -848,7 +807,7 @@ ZL:
     da: Olomouc
     de: Olomoucký kraj
     el: Περιφέρεια Όλομουτς
-    en: Olomoucký
+    en: Olomouc Region
     es: Región de Olomouc
     et: Olomouci maakond
     eu: Olomouc eskualdea
@@ -888,7 +847,18 @@ ZL:
     ur: اولوموک علاقہ
     vi: Olomouc
     zh: 奧洛穆克州
+  geo:
+    latitude: 49.65865489999999
+    longitude: 17.0811406
+    min_latitude: 49.2669759
+    min_longitude: 16.7115968
+    max_latitude: 50.4494346
+    max_longitude: 17.9172214
+  name: Olomouc
 '72':
+  unofficial_names:
+  - Zlín
+  - Zlínský
   translations:
     ar: إقليم زلين
     az: Zlin diyarı
@@ -900,7 +870,7 @@ ZL:
     da: Zlín
     de: Zlínský kraj
     el: Περιφέρεια Ζλιν
-    en: Zlínský
+    en: Zlín Region
     es: Región de Zlín
     et: Zlíni maakond
     eu: Zlín eskualdea
@@ -940,7 +910,18 @@ ZL:
     ur: زلین علاقہ
     vi: Zlín
     zh: 兹林州
+  geo:
+    latitude: 49.2162296
+    longitude: 17.7720353
+    min_latitude: 48.8542302
+    min_longitude: 17.1108595
+    max_latitude: 49.5399786
+    max_longitude: 18.4155308
+  name: Zlín Region
 '80':
+  unofficial_names:
+  - Moravian-Silesian
+  - Moravskoslezský
   translations:
     ar: إقليم مورافيا-سيليزيا
     az: Moraviya-Sileziya diyarı
@@ -952,7 +933,7 @@ ZL:
     da: Mähren-Schlesien
     de: Moravskoslezský kraj
     el: Περιφέρεια Μοραβίας Σιλεσίας
-    en: Moravskoslezský
+    en: Moravian-Silesian Region
     es: Región de Moravia-Silesia
     et: Morava-Sileesia maakond
     eu: Moravia-Silesia eskualdea
@@ -993,7 +974,17 @@ ZL:
     ur: موراویائی سیلیسیائی علاقہ
     vi: Moravia–Silesia
     zh: 摩拉維亞-西里西亞州
+  geo:
+    latitude: 49.7305327
+    longitude: 18.2332637
+    min_latitude: 49.392608
+    min_longitude: 17.1462629
+    max_latitude: 50.3279579
+    max_longitude: 18.8592548
+  name: Moravian-Silesian Region
 '201':
+  unofficial_names:
+  - Benešov
   translations:
     ar: مقاطعة بينيشوف
     be: раён Бенешаў
@@ -1001,7 +992,7 @@ ZL:
     ca: Districte de Benešov
     cs: okres Benešov
     de: Okres Benešov
-    en: Benešov
+    en: Benešov District
     fr: District de Benešov
     he: מחוז משנה בנשוב
     hu: Benešovi járás
@@ -1021,14 +1012,17 @@ ZL:
     uk: Бенешов
     ur: بینیشوف ضلع
     vi: Benešov
+  name: Benešov District
 '202':
+  unofficial_names:
+  - Beroun
   translations:
     ar: مقاطعة بيرون
     bg: Бероун
     ca: Districte de Beroun
     cs: okres Beroun
     de: Okres Beroun
-    en: Beroun
+    en: Beroun District
     fr: District de Beroun
     he: מחוז משנה ברואון
     hu: Berouni járás
@@ -1045,6 +1039,7 @@ ZL:
     sv: Beroun
     ur: بیرون ضلع
     vi: Beroun
+  name: Beroun District
 '203':
   translations:
     ar: مقاطعة كلادنو
@@ -1073,14 +1068,17 @@ ZL:
     sv: Kladno
     ur: کلاندو ضلع
     vi: Kladno
+  name: Kladno District
 '204':
+  unofficial_names:
+  - Kolín
   translations:
     ar: مقاطعة كولين
     bg: Колин
     ca: Districte de Kolín
     cs: okres Kolín
     de: Okres Kolín
-    en: Kolín
+    en: Kolín District
     es: Distrito de Kolín
     fr: District de Kolín
     he: מחוז משנה קולין
@@ -1098,14 +1096,17 @@ ZL:
     sv: Kolín
     ur: کولین ضلع
     vi: Kolín
+  name: Kolín District
 '205':
+  unofficial_names:
+  - Kutná Hora
   translations:
     ar: مقاطعة كوتنا هورا
     bg: Кутна Хора
     ca: Districte de Kutná Hora
     cs: okres Kutná Hora
     de: Okres Kutná Hora
-    en: Kutná Hora
+    en: Kutná Hora District
     fr: District de Kutná Hora
     he: מחוז משנה קוטנה הורה
     hu: Kutná Hora-i járás
@@ -1123,7 +1124,10 @@ ZL:
     uk: Кутна Гора (округ)
     ur: کوتنا ہورا ضلع
     vi: Kutná Hora
+  name: Kutná Hora District
 '206':
+  unofficial_names:
+  - Mělník
   translations:
     ar: مقاطعة منيلنيك
     be: Мельнік
@@ -1149,14 +1153,17 @@ ZL:
     uk: Мельник
     ur: میلنک ضلع
     vi: Mělník
+  name: Mělník District
 '207':
+  unofficial_names:
+  - Mladá Boleslav
   translations:
     ar: مقاطعة ملادا بوليسلاف
     bg: Млада Болеслав
     ca: Districte de Mladá Boleslav
     cs: okres Mladá Boleslav
     de: Okres Mladá Boleslav
-    en: Mladá Boleslav
+    en: Mladá Boleslav District
     es: Distrito de Mladá Boleslav
     fr: District de Mladá Boleslav
     he: מחוז משנה מלאדה בולסלאב
@@ -1174,7 +1181,10 @@ ZL:
     sv: Mladá Boleslav
     ur: ملادا بولسلاو ضلع
     vi: Mladá Boleslav
+  name: Mladá Boleslav District
 '208':
+  unofficial_names:
+  - Nymburk
   translations:
     ar: مقاطعة نيمبورك
     be: раён Німбурк
@@ -1182,7 +1192,7 @@ ZL:
     ca: Districte de Nymburk
     cs: okres Nymburk
     de: Okres Nymburk
-    en: Nymburk
+    en: Nymburk District
     fr: District de Nymburk
     he: מחוז משנה נימבורק
     hu: Nymburki járás
@@ -1200,14 +1210,18 @@ ZL:
     uk: Нимбурк (округ)
     ur: نمبورک ضلع
     vi: Nymburk
+  name: Nymburk District
 '209':
+  unofficial_names:
+  - Prague-East
+  - Praha-východ
   translations:
     ar: مقاطعة براغ-شرق
     bg: Прага-изток
     ca: Districte de Praga-Est
     cs: okres Praha-východ
     de: Okres Praha-východ
-    en: Prague-East
+    en: Prague-East District
     fr: District de Prague-est
     he: מחוז משנה פראג-מזרח
     hu: Kelet-prágai járás
@@ -1223,7 +1237,10 @@ ZL:
     uk: Прага-схід
     ur: پراگ-شرقی ضلع
     vi: Praha Đông
+  name: Prague-East District
 '311':
+  unofficial_names:
+  - České Budějovice
   translations:
     ar: مقاطعة تشيسكي بوديوفيتسه
     be: Раён Чэске-Будзеёвіцы
@@ -1231,7 +1248,7 @@ ZL:
     ca: Districte de České Budějovice
     cs: okres České Budějovice
     de: Okres České Budějovice
-    en: České Budějovice
+    en: České Budějovice District
     fa: شهرستان چسکه بودیوویتسه
     fr: District de České Budějovice
     he: מחוז משנה צ׳סקה בודייוביצה
@@ -1251,14 +1268,17 @@ ZL:
     sv: České Budějovice
     ur: چسکے بودجیووسکے ضلع
     vi: České Budějovice
+  name: České Budějovice District
 '312':
+  unofficial_names:
+  - Český Krumlov
   translations:
     ar: مقاطعة تشيسكي كروملوف
     bg: Чески Крумлов (окръг)
     ca: Districte de Český Krumlov
     cs: okres Český Krumlov
     de: Okres Český Krumlov
-    en: Český Krumlov
+    en: Český Krumlov District
     fr: District de Český Krumlov
     he: מחוז משנה צ׳סקי קרומלוב
     hu: Český Krumlov-i járás
@@ -1278,14 +1298,17 @@ ZL:
     sv: Český Krumlov
     ur: چیسکی کروملوف ضلع
     vi: Český Krumlov
+  name: Český Krumlov District
 '313':
+  unofficial_names:
+  - Jindřichův Hradec
   translations:
     ar: مقاطعة يندريخوف هرادتس
     bg: Индржихув Храдец (окръг)
     ca: Districte de Jindřichův Hradec
     cs: okres Jindřichův Hradec
     de: Okres Jindřichův Hradec
-    en: Jindřichův Hradec
+    en: Jindřichův Hradec District
     fr: District de Jindřichův Hradec
     he: מחוז משנה יינדריחוב הרדץ
     hu: Jindřichův Hradec-i járás
@@ -1305,14 +1328,17 @@ ZL:
     sv: Jindřichův Hradec
     ur: جندرشیخوو ہاردک ضلع
     vi: Jindřichův Hradec
+  name: Jindřichův Hradec District
 '314':
+  unofficial_names:
+  - Písek
   translations:
     ar: مقاطعة بيسك
     bg: Писек
     ca: Districte de Písek
     cs: okres Písek
     de: Okres Písek
-    en: Písek
+    en: Písek District
     fr: District de Písek
     he: מחוז משנה פיסק
     hu: Píseki járás
@@ -1330,7 +1356,10 @@ ZL:
     sv: Písek
     ur: پیسک ضلع
     vi: Písek
+  name: Písek District
 '315':
+  unofficial_names:
+  - Prachatice
   translations:
     ar: مقاطعة براخاتيتسه
     bg: Прахатице
@@ -1338,7 +1367,7 @@ ZL:
     cs: okres Prachatice
     de: Okres Prachatice
     el: Επαρχία Πρατσάτιτσε
-    en: Prachatice
+    en: Prachatice District
     fr: District de Prachatice
     hu: Prachaticei járás
     hy: Պրախատիցեի շրջան
@@ -1355,14 +1384,17 @@ ZL:
     sv: Okres Prachatice
     ur: پراخاتسے ضلع
     vi: Prachatice
+  name: Prachatice District
 '316':
+  unofficial_names:
+  - Strakonice
   translations:
     ar: مقاطعة ستراكونيتسه
     bg: Страконице
     ca: Districte de Strakonice
     cs: okres Strakonice
     de: Okres Strakonice
-    en: Strakonice
+    en: Strakonice District
     fr: District de Strakonice
     he: מחוז משנה סטרוקניצה
     hu: Strakonicei járás
@@ -1381,7 +1413,10 @@ ZL:
     sv: Okres Strakonice
     ur: ستراکونیسے ضلع
     vi: Strakonice
+  name: Strakonice District
 '317':
+  unofficial_names:
+  - Tábor
   translations:
     ar: مقاطعة تابور
     be: Табар
@@ -1389,7 +1424,7 @@ ZL:
     ca: Districte de Tábor
     cs: okres Tábor
     de: Okres Tábor
-    en: Tábor
+    en: Tábor District
     fa: منطقه تابور
     fr: District de Tábor
     he: מחוז משנה טאבור
@@ -1407,14 +1442,17 @@ ZL:
     sv: Okres Tábor
     ur: تابور ضلع
     vi: Tábor
+  name: Tábor District
 '321':
+  unofficial_names:
+  - Domažlice
   translations:
     ar: مقاطعة دوماجليتسه
     bg: Домажлице
     ca: Districte de Domažlice
     cs: okres Domažlice
     de: Okres Domažlice
-    en: Domažlice
+    en: Domažlice District
     fr: District de Domažlice
     he: מחוז משנה דומזליצה
     hu: Domažlicei járás
@@ -1430,7 +1468,10 @@ ZL:
     sv: Okres Domažlice
     ur: دوماشزلیسے ضلع
     vi: Domažlice
+  name: Domažlice District
 '322':
+  unofficial_names:
+  - Klatovy
   translations:
     ar: مقاطعة كلاتوفي
     be: раён Клатаві
@@ -1438,7 +1479,7 @@ ZL:
     ca: Districte de Klatovy
     cs: okres Klatovy
     de: Okres Klatovy
-    en: Klatovy
+    en: Klatovy District
     es: Distrito de Klatovy
     fr: District de Klatovy
     he: מחוז משנה קלאטובי
@@ -1456,7 +1497,11 @@ ZL:
     sv: Okres Klatovy
     ur: کلاتووی ضلع
     vi: Klatovy
+  name: Klatovy District
 '323':
+  unofficial_names:
+  - Plzeň-City
+  - Plzeň-město
   translations:
     ar: مقاطعة بلزن-المدينة
     be: акруга Пльзень-горад
@@ -1464,7 +1509,7 @@ ZL:
     ca: Districte de Plzeň-město
     cs: okres Plzeň-město
     de: Okres Plzeň-město
-    en: Plzeň
+    en: Plzeň-City District
     fr: District de Plzeň-město
     he: מחוז משנה פלזן מסטו
     hu: Plzeň városi járás
@@ -1478,14 +1523,18 @@ ZL:
     sr: Округ Плзењ-град
     sv: Okres Plzeň-Město
     ur: پلزین-شہر ضلع
+  name: Plzeň-City District
 '324':
+  unofficial_names:
+  - Plzeň-South
+  - Plzeň-jih
   translations:
     ar: مقاطعة بلزن-جنوب
     bg: Пилзен-юг
     ca: Districte de Plzeň-jih
     cs: okres Plzeň-jih
     de: Okres Plzeň-jih
-    en: Plzeň-South
+    en: Plzeň-South District
     fa: ناحیه پلزن-جنوبی
     fr: District de Plzeň-jih
     hu: Dél-plzeňi járás
@@ -1501,14 +1550,18 @@ ZL:
     sv: Okres Plzeň-Jih
     ur: پلزین-جنوبی ضلع
     vi: Plzeň-Nam
+  name: Plzeň-South District
 '325':
+  unofficial_names:
+  - Plzeň-North
+  - Plzeň-sever
   translations:
     ar: مقاطعة بلزن-شمال
     bg: Пилзен-север
     ca: Districte de Plzeň-sever
     cs: okres Plzeň-sever
     de: Okres Plzeň-sever
-    en: Plzeň-North
+    en: Plzeň-North District
     fr: District de Plzeň-sever
     hu: Észak-plzeňi járás
     it: Distretto di Plzeň-sever
@@ -1522,14 +1575,17 @@ ZL:
     sv: Okres Plzeň-Sever
     ur: پلزین-شمالی ضلع
     vi: Plzeň-Bắc
+  name: Plzeň-North District
 '326':
+  unofficial_names:
+  - Rokycan
   translations:
     ar: مقاطعة روكيتساني
     bg: Рокицани
     ca: Districte de Rokycany
     cs: okres Rokycany
     de: Okres Rokycany
-    en: Rokycany
+    en: Rokycany District
     fr: District de Rokycany
     he: מחוז משנה רוקיצאני
     hu: Rokycany-i járás
@@ -1546,14 +1602,17 @@ ZL:
     sv: Okres Rokycany
     ur: روکیسانی ضلع
     vi: Rokycany
+  name: Rokycany District
 '327':
+  unofficial_names:
+  - Tachov
   translations:
     ar: مقاطعة تاخوف
     bg: Тахов
     ca: Districte de Tachov
     cs: okres Tachov
     de: Okres Tachov
-    en: Tachov
+    en: Tachov District
     fr: District de Tachov
     he: מחוז משנה טכוב
     hu: Tachovi járás
@@ -1571,7 +1630,10 @@ ZL:
     sv: Okres Tachov
     ur: تاخوف ضلع
     vi: Tachov
+  name: Tachov District
 '411':
+  unofficial_names:
+  - Cheb District
   translations:
     ar: مقاطعة خب
     be: Хеб
@@ -1579,7 +1641,7 @@ ZL:
     ca: Districte de Cheb
     cs: okres Cheb
     de: Okres Cheb
-    en: Cheb
+    en: Cheb District
     fr: District de Cheb
     he: מחוז משנה חב
     hu: Chebi járás
@@ -1598,7 +1660,12 @@ ZL:
     sv: Cheb
     ur: خیب ضلع
     vi: Cheb
+  name: Cheb District
 '412':
+  unofficial_names:
+  - Karlovy Vary
+  - Carlsbad District
+  - Carlsbad
   translations:
     ar: مقاطعة كارلوفي فاري
     be: Раён Карлавы Вары
@@ -1606,7 +1673,7 @@ ZL:
     ca: Districte de Karlovy Vary
     cs: okres Karlovy Vary
     de: Okres Karlovy Vary
-    en: Karlovy Vary
+    en: Karlovy Vary District
     fr: District de Karlovy Vary
     he: מחוז משנה קרלובי וארי
     hu: Karlovy Vary-i járás
@@ -1614,24 +1681,27 @@ ZL:
     it: Distretto di Karlovy Vary
     ka: კარლოვი-ვარის რაიონი
     lt: Karlovi Varų rajonas
-    ms: Daerah Karlovy Vary²
+    ms: Daerah Karlovy Vary
     nl: Okres Karlsbad
     pl: Powiat Karlowe Wary
-    pt: Karlovy Vary²
+    pt: Karlovy Vary
     ru: Карловы Вары
     sk: Okres Karlove Vary
     sr: Округ Карлове Вари
-    sv: Karlovy Vary²
+    sv: Karlovy Vary
     ur: کارلووی واری ضلع
-    vi: Karlovy Vary²
+    vi: Karlovy Vary
+  name: Karlovy Vary District
 '413':
+  unofficial_names:
+  - Sokolov
   translations:
     ar: مقاطعة سوكولوف
     bg: Соколов
     ca: Districte de Sokolov
     cs: okres Sokolov
     de: Okres Sokolov
-    en: Sokolov
+    en: Sokolov District
     fr: District de Sokolov
     he: מחוז משנה סוקולוב
     hu: Sokolovi járás
@@ -1650,14 +1720,17 @@ ZL:
     sv: Sokolov
     ur: سوکولوف ضلع
     vi: Sokolov
+  name: Sokolov District
 '421':
+  unofficial_names:
+  - Děčín
   translations:
     ar: مقاطعة ديتشين
     bg: Дечин
     ca: Districte de Děčín
     cs: okres Děčín
     de: Okres Děčín
-    en: Děčín
+    en: Děčín District
     fr: District de Děčín
     he: מחוז משנה דצ׳ין
     hu: Děčíni járás
@@ -1674,14 +1747,17 @@ ZL:
     sv: Okres Děčín
     ur: دیچین ضلع
     vi: Děčín
+  name: Děčín District
 '422':
+  unofficial_names:
+  - Chomutov
   translations:
     ar: مقاطعة خوموتوف
     bg: Хомутов
     ca: Districte de Chomutov
     cs: okres Chomutov
     de: Okres Chomutov
-    en: Chomutov
+    en: Chomutov District
     fr: District de Chomutov
     he: מחוז משנה חומוטוב
     hu: Chomutovi járás
@@ -1699,7 +1775,10 @@ ZL:
     uk: Хомутов (округ)
     ur: خومتو ضلع
     vi: Chomutov
+  name: Chomutov District
 '423':
+  unofficial_names:
+  - Litoměřice
   translations:
     ar: مقاطعة ليتوميريتسه
     be: Літамержыцэ
@@ -1707,7 +1786,7 @@ ZL:
     ca: Districte de Litoměřice
     cs: okres Litoměřice
     de: Okres Litoměřice
-    en: Litoměřice
+    en: Litoměřice District
     fr: District de Litoměřice
     he: מחוז משנה ליטומריצה
     hu: Litoměřicei járás
@@ -1724,7 +1803,10 @@ ZL:
     sv: Okres Litoměřice
     ur: لیتومیرشسے ضلع
     vi: Litoměřice
+  name: Litoměřice District
 '424':
+  unofficial_names:
+  - Louny
   translations:
     ar: مقاطعة لوني
     be: раён Лоўні
@@ -1732,7 +1814,7 @@ ZL:
     ca: Districte de Louny
     cs: okres Louny
     de: Okres Louny
-    en: Louny
+    en: Louny District
     es: Distrito de Louny
     fr: District de Louny
     he: מחוז משנה לואוני
@@ -1750,14 +1832,17 @@ ZL:
     sv: Okres Louny
     ur: لونی ضلع
     vi: Louny
+  name: Louny District
 '425':
+  unofficial_names:
+  - Most
   translations:
     ar: مقاطعة موست
     bg: Мост
     ca: Districte de Most
     cs: okres Most
     de: Okres Most
-    en: Most
+    en: Most District
     fr: District de Most
     he: מחוז משנה מוסט
     hu: Mosti járás
@@ -1774,7 +1859,10 @@ ZL:
     sv: Okres Most
     ur: موست ضلع
     vi: Most
+  name: Most District
 '426':
+  unofficial_names:
+  - Teplice
   translations:
     ar: مقاطعة تبليتسه
     be: Цепліцы
@@ -1782,7 +1870,7 @@ ZL:
     ca: Districte de Teplice
     cs: okres Teplice
     de: Okres Teplice
-    en: Teplice
+    en: Teplice District
     fr: District de Teplice
     he: מחוז משנה טפליצה
     hu: Teplicei járás
@@ -1799,39 +1887,45 @@ ZL:
     sv: Okres Teplice
     ur: تپلیتسے ضلع
     vi: Teplice
+  name: Teplice District
 '427':
+  unofficial_names:
+  - Ústí nad Labem
   translations:
     ar: مقاطعة أوستي ناد لابم
     bg: Усти над Лабе
     ca: Districte d’Ústí nad Labem
     cs: okres Ústí nad Labem
     de: Okres Ústí nad Labem
-    en: Ústí nad Labem
+    en: Ústí nad Labem District
     fr: District d’Ústí nad Labem
     he: מחוז משנה אוסטי נד לבם
     hu: Ústí nad Labem-i járás
     hy: Ուստի-նադ-Լաբեմի շրջան
     it: Distretto di Ústí nad Labem
     ka: უსტი-ნად-ლაბემის რაიონი
-    ms: Daerah Ústí nad Labem²
+    ms: Daerah Ústí nad Labem
     nl: Okres Ústí nad Labem
     pl: Powiat Uście nad Łabą
-    pt: Ústí nad Labem²
+    pt: Ústí nad Labem
     ru: Усти-над-Лабем
     sk: Okres Ústí nad Labem
     sr: Округ Усти на Лаби
-    sv: Ústí nad Labem²
+    sv: Ústí nad Labem
     uk: Усті-над-Лабем
     ur: اوستی ناد لاہم ضلع
-    vi: Ústí nad Labem²
+    vi: Ústí nad Labem
+  name: Ústí nad Labem District
 '511':
+  unofficial_names:
+  - Česká Lípa
   translations:
     ar: مقاطعة تشيسكا ليبا
     bg: Ческа Липа
     ca: Districte de Česká Lípa
     cs: okres Česká Lípa
     de: Okres Česká Lípa
-    en: Česká Lípa
+    en: Česká Lípa District
     fr: District de Česká Lípa
     he: מחוז משנה צסקה ליפה
     hu: Česká Lípa-i járás
@@ -1849,14 +1943,17 @@ ZL:
     sv: Česká Lípa
     ur: چیسکا لیپا ضلع
     vi: Česká Lípa
+  name: Česká Lípa District
 '512':
+  unofficial_names:
+  - Jablonec nad Nisou
   translations:
     ar: مقاطعة يابلونتس ناد نيسو
     bg: Яблонец над Ниса
     ca: Districte de Jablonec nad Nisou
     cs: okres Jablonec nad Nisou
     de: Okres Jablonec nad Nisou
-    en: Jablonec nad Nisou
+    en: Jablonec nad Nisou District
     fr: District de Jablonec nad Nisou
     he: מחוז משנה יבלונץ נד ניסו
     hu: Jablonec nad Nisou-i járás
@@ -1874,14 +1971,17 @@ ZL:
     sv: Jablonec nad Nisou
     ur: جبلونیک ناد نسو ضلع
     vi: Jablonec nad Nisou
+  name: Jablonec nad Nisou District
 '513':
+  unofficial_names:
+  - Liberec
   translations:
     ar: مقاطعة ليبيريتس
     bg: Либерец
     ca: Districte de Liberec
     cs: okres Liberec
     de: Okres Liberec
-    en: Liberec
+    en: Liberec District
     fr: District de Liberec
     he: מחוז משנה ליברץ
     hu: Libereci járás
@@ -1889,25 +1989,28 @@ ZL:
     it: Distretto di Liberec
     ka: ლიბერეცის რაიონი
     lt: Libereco rajonas
-    ms: Daerah Liberec²
+    ms: Daerah Liberec
     nl: Okres Liberec
     pl: Powiat Liberec
-    pt: Liberec²
+    pt: Liberec
     ro: Liberec
     ru: Либерец
     sk: Okres Liberec
     sr: Округ Либерец
-    sv: Liberec²
+    sv: Liberec
     ur: لیبرتس ضلع
-    vi: Liberec²
+    vi: Liberec
+  name: Liberec District
 '514':
+  unofficial_names:
+  - Semily
   translations:
     ar: مقاطعة سيميلي
     bg: Семили
     ca: Districte de Semily
     cs: okres Semily
     de: Okres Semily
-    en: Semily
+    en: Semily District
     fr: District de Semily
     he: מחוז משנה סמילי
     hu: Semily-i járás
@@ -1925,7 +2028,10 @@ ZL:
     sr: Округ Семили
     sv: Semily
     vi: Semily
+  name: Semily District
 '521':
+  unofficial_names:
+  - Hradec Králové
   translations:
     ar: مقاطعة هرادتس كرالوفه
     be: раён Градзец-Кралавэ
@@ -1933,7 +2039,7 @@ ZL:
     ca: Districte de Hradec Králové
     cs: okres Hradec Králové
     de: Okres Hradec Králové
-    en: Hradec Králové
+    en: Hradec Králové District
     fr: District de Hradec Králové
     he: מחוז משנה הראדץ קראלובה
     hu: Hradec Králové-i járás
@@ -1944,21 +2050,24 @@ ZL:
     ms: Daerah Hradec Králové
     nl: Okres Hradec Králové
     pl: Powiat Hradec Králové
-    pt: Hradec Králové²
+    pt: Hradec Králové
     ru: Градец-Кралове
     sk: Okres Hradec Králové
     sr: Округ Храдец Кралове
-    sv: Hradec Králové²
+    sv: Hradec Králové
     ur: ہاردک کارلوف ضلع
-    vi: Hradec Králové²
+    vi: Hradec Králové
+  name: Hradec Králové District
 '522':
+  unofficial_names:
+  - Jičín District
   translations:
     ar: مقاطعة يتشين
     bg: Ичин
     ca: Districte de Jičín
     cs: okres Jičín
     de: Okres Jičín
-    en: Jičín
+    en: Jičín District
     fr: District de Jičín
     he: מחוז משנה ייצין
     hu: Jičíni járás
@@ -1976,14 +2085,17 @@ ZL:
     sv: Jičín
     ur: جیچن ضلع
     vi: Jičín
+  name: Jičín District
 '523':
+  unofficial_names:
+  - Náchod
   translations:
     ar: مقاطعة ناخود
     bg: Наход
     ca: Districte de Náchod
     cs: okres Náchod
     de: Okres Náchod
-    en: Náchod
+    en: Náchod District
     fr: District de Náchod
     he: מחוז משנה נאחוד
     hu: Náchodi járás
@@ -2001,7 +2113,10 @@ ZL:
     sv: Náchod
     ur: ناخود ضلع
     vi: Náchod
+  name: Náchod District
 '524':
+  unofficial_names:
+  - Rychnov nad Kněžnou
   translations:
     ar: مقاطعة ريخنوف ناد كنيجنو
     be: раён Рыхнаў над Кнежнау
@@ -2009,7 +2124,7 @@ ZL:
     ca: Districte de Rychnov nad Kněžnou
     cs: okres Rychnov nad Kněžnou
     de: Okres Rychnov nad Kněžnou
-    en: Rychnov nad Kněžnou
+    en: Rychnov nad Kněžnou District
     fr: District de Rychnov nad Kněžnou
     he: מחוז משנה ריחנוב נד קניז׳נואו
     hu: Rychnov nad Kněžnou-i járás
@@ -2027,14 +2142,17 @@ ZL:
     sv: Rychnov nad Kněžnou
     ur: ریخنوف ناد کنیزشنو ضلع
     vi: Rychnov nad Kněžnou
+  name: Rychnov nad Kněžnou District
 '525':
+  unofficial_names:
+  - Trutnov
   translations:
     ar: مقاطعة ترتنوف
     bg: Трутнов
     ca: Districte de Trutnov
     cs: okres Trutnov
     de: Okres Trutnov
-    en: Trutnov
+    en: Trutnov District
     fa: منطقه تروتنوف
     fr: District de Trutnov
     he: מחוז משנה טרונטוב
@@ -2055,7 +2173,10 @@ ZL:
     sv: Trutnov
     ur: ترنتوو ضلع
     vi: Trutnov
+  name: Trutnov District
 '531':
+  unofficial_names:
+  - Chrudim
   translations:
     ar: مقاطعة خروديم
     be: Хрудзім
@@ -2063,7 +2184,7 @@ ZL:
     ca: Districte de Chrudim
     cs: okres Chrudim
     de: Okres Chrudim
-    en: Chrudim
+    en: Chrudim District
     fr: District de Chrudim
     he: מחוז משנה חרודים
     hu: Chrudimi járás
@@ -2082,7 +2203,10 @@ ZL:
     sv: Chrudim
     ur: خودیم ضلع
     vi: Chrudim
+  name: Chrudim District
 '532':
+  unofficial_names:
+  - Pardubice
   translations:
     ar: مقاطعة باردوبيتسه
     be: раён Пардубіцы
@@ -2090,7 +2214,7 @@ ZL:
     ca: Districte de Pardubice
     cs: okres Pardubice
     de: Okres Pardubice
-    en: Pardubice
+    en: Pardubice District
     fr: District de Pardubice
     he: מחוז משנה פרדוביצה
     hu: Pardubicei járás
@@ -2099,17 +2223,20 @@ ZL:
     ka: პარდუბიცეს რაიონი
     lt: Pardubicių rajonas
     lv: Pardubices apriņķis
-    ms: Daerah Pardubice²
+    ms: Daerah Pardubice
     nl: Okres Pardubice
     pl: Powiat Pardubice
-    pt: Pardubice²
+    pt: Pardubice
     ru: Пардубице
     sk: Okres Pardubice
     sr: Округ Пардубице
-    sv: Pardubice²
+    sv: Pardubice
     ur: پاردوبیتسے ضلع
-    vi: Pardubice²
+    vi: Pardubice
+  name: Pardubice District
 '533':
+  unofficial_names:
+  - Svitavy
   translations:
     ar: مقاطعة سفيتافي
     be: раён Світаві
@@ -2117,7 +2244,7 @@ ZL:
     ca: Districte de Svitavy
     cs: okres Svitavy
     de: Okres Svitavy
-    en: Svitavy
+    en: Svitavy District
     fr: District de Svitavy
     he: מחוז משנה סביטאבי
     hu: Svitavy-i járás
@@ -2137,14 +2264,17 @@ ZL:
     sv: Okres Svitavy
     ur: سویتاوی ضلع
     vi: Svitavy
+  name: Svitavy District
 '534':
+  unofficial_names:
+  - Ústí nad Orlicí
   translations:
     ar: مقاطعة أوستي ناد أورليتسي
     bg: Усти над Орлици
     ca: Districte d’Ústí nad Orlicí
     cs: okres Ústí nad Orlicí
     de: Okres Ústí nad Orlicí
-    en: Ústí nad Orlicí
+    en: Ústí nad Orlicí District
     fr: District d’Ústí nad Orlicí
     he: מחוז משנה אוסטי נד אורליצי
     hu: Ústí nad Orlicí-i járás
@@ -2163,7 +2293,10 @@ ZL:
     sv: Okres Ústí nad Orlicí
     ur: اوستی ناد اورلیسی ضلع
     vi: Ústí nad Orlicí
+  name: Ústí nad Orlicí District
 '631':
+  unofficial_names:
+  - Havlíčkův Brod
   translations:
     ar: مقاطعة هافليتشكوف برود
     be: раён Гаўлічкаў Брод
@@ -2171,7 +2304,7 @@ ZL:
     ca: Districte de Havlíčkův Brod
     cs: okres Havlíčkův Brod
     de: Okres Havlíčkův Brod
-    en: Havlíčkův Brod²
+    en: Havlíčkův Brod District
     fr: District de Havlíčkův Brod
     he: מחוז משנה הבליצקוב ברוד
     hu: Havlíčkův Brod-i járás
@@ -2189,7 +2322,10 @@ ZL:
     sv: Okres Havlíčkův Brod
     ur: ہاولیچکورف برود ضلع
     vi: Havlíčkův Brod
+  name: Havlíčkův Brod District
 '632':
+  unofficial_names:
+  - Jihlava
   translations:
     ar: مقاطعة يهلافا
     be: Раён Йіглава
@@ -2198,7 +2334,7 @@ ZL:
     cs: okres Jihlava
     de: Okres Jihlava
     el: κομητεία Γίσλαβα
-    en: Jihlava
+    en: Jihlava District
     fr: District de Jihlava
     he: מחוז משנה ייהלבה
     hu: Jihlavai járás
@@ -2217,7 +2353,10 @@ ZL:
     sv: Okres Jihlava
     ur: ایہاوا ضلع
     vi: Jihlava
+  name: Jihlava District
 '633':
+  unofficial_names:
+  - Pelhřimov
   translations:
     ar: مقاطعة بلهريموف
     be: Пельгржымаў
@@ -2225,7 +2364,7 @@ ZL:
     ca: Districte de Pelhřimov
     cs: okres Pelhřimov
     de: Okres Pelhřimov
-    en: Pelhřimov
+    en: Pelhřimov District
     es: Distrito de Pelhřimov
     fr: District de Pelhřimov
     he: מחוז משנה פלהרימוב
@@ -2245,14 +2384,17 @@ ZL:
     sv: Okres Pelhřimov
     ur: پیلہریموف ضلع
     vi: Pelhřimov
+  name: Pelhřimov District
 '634':
+  unofficial_names:
+  - Třebíč
   translations:
     ar: مقاطعة تربيتش
     bg: Тршебич
     ca: Districte de Třebíč
     cs: okres Třebíč
     de: Okres Třebíč
-    en: Třebíč²
+    en: Třebíč  District
     fa: منطقه تربیچ
     fr: District de Třebíč
     he: מחוז משנה טשביץ׳
@@ -2272,14 +2414,17 @@ ZL:
     sv: Okres Třebíč
     ur: تشربیچ ضلع
     vi: Třebíč
+  name: Třebíč  District
 '635':
+  unofficial_names:
+  - Žďár nad Sázavou
   translations:
     ar: مقاطعة جديار ناد سازافو
     bg: Ждяр над Сазавоу
     ca: Districte de Žďár nad Sázavou
     cs: okres Žďár nad Sázavou
     de: Okres Žďár nad Sázavou
-    en: Žďár nad Sázavou²
+    en: Žďár nad Sázavou District
     fr: District de Žďár nad Sázavou
     he: מחוז משנה ז׳דאר נד סאזאבואו
     hu: Žďár nad Sázavou-i járás
@@ -2297,7 +2442,10 @@ ZL:
     sv: Okres Žďár nad Sázavou
     ur: زشدار ناد سازوو ضلع
     vi: Žďár nad Sázavou
+  name: Žďár nad Sázavou District
 '641':
+  unofficial_names:
+  - Blansko
   translations:
     ar: مقاطعة بلانسكو
     be: Раён Бланска
@@ -2305,7 +2453,7 @@ ZL:
     ca: Districte de Blansko
     cs: okres Blansko
     de: Okres Blansko
-    en: Blansko²
+    en: Blansko District
     fr: District de Blansko
     he: מחוז משנה בלנסקו
     hr: Okrug Blansko
@@ -2324,7 +2472,11 @@ ZL:
     sv: Okres Blansko
     ur: بلانسکو ضلع
     vi: Blansko
+  name: Blansko District
 '642':
+  unofficial_names:
+  - Brno-City
+  - Brno-město
   translations:
     ar: مقاطعة برنو-المدينة
     be: Брно-горад
@@ -2332,7 +2484,7 @@ ZL:
     ca: Districte de Brno-město
     cs: okres Brno-město
     de: Okres Brno-město
-    en: Brno-město
+    en: Brno-City District
     fr: District de Brno-město
     hu: Brno városi járás
     it: Distretto di Brno-město
@@ -2345,7 +2497,11 @@ ZL:
     sv: Město Brno
     ur: برنو-شہر ضلع
     vi: Brno
+  name: Brno-City District
 '643':
+  unofficial_names:
+  - Brno-Country
+  - Brno-venkov
   translations:
     ar: مقاطعة برنو-الريف
     be: Брно-прыгарад
@@ -2354,7 +2510,7 @@ ZL:
     cs: okres Brno-venkov
     de: Okres Brno-venkov
     el: Επαρχία Μπρνο
-    en: Brno-venkov²
+    en: Brno-Country District
     fr: District de Brno-venkov
     hu: Brno-vidéki járás
     hy: Բրնո-վենկովի շրջան
@@ -2371,7 +2527,10 @@ ZL:
     sv: Brno-venkov
     ur: برنو-کنٹری ضلع
     vi: Brno-venkov
+  name: Brno-Country District
 '644':
+  unofficial_names:
+  - Břeclav
   translations:
     ar: مقاطعة بريتسلاف
     be: Раён Бржэцлаў
@@ -2379,7 +2538,7 @@ ZL:
     ca: Districte de Břeclav
     cs: okres Břeclav
     de: Okres Břeclav
-    en: Břeclav²
+    en: Břeclav District
     fr: District de Břeclav
     he: מחוז משנה ברצלב
     hu: Břeclavi járás
@@ -2398,14 +2557,17 @@ ZL:
     sv: Okres Břeclav
     ur: بشرسلاف ضلع
     vi: Břeclav
+  name: Břeclav District
 '645':
+  unofficial_names:
+  - Hodonín
   translations:
     ar: مقاطعة هودونين
     bg: Ходонин
     ca: Districte de Hodonín
     cs: okres Hodonín
     de: Okres Hodonín
-    en: Hodonín
+    en: Hodonín District
     fa: ناحیه هودونین
     fr: District de Hodonín
     he: מחוז משנה הודונין
@@ -2424,7 +2586,10 @@ ZL:
     sv: Okres Hodonín
     ur: ہودونین ضلع
     vi: Hodonín
+  name: Hodonín District
 '646':
+  unofficial_names:
+  - Vyškov
   translations:
     ar: مقاطعة فيشكوف
     be: Раён Вішкаў
@@ -2432,7 +2597,7 @@ ZL:
     ca: Districte de Vyškov
     cs: okres Vyškov
     de: Okres Vyškov
-    en: Vyškov
+    en: Vyškov District
     fr: District de Vyškov
     he: מחוז משנה ויסקוב
     hu: Vyškovi járás
@@ -2449,7 +2614,10 @@ ZL:
     sv: Okres Vyškov
     ur: ویشکوف ضلع
     vi: Vyškov
+  name: Vyškov District
 '647':
+  unofficial_names:
+  - Znojmo
   translations:
     ar: مقاطعة زنويمو
     be: Раён Знойма
@@ -2457,7 +2625,7 @@ ZL:
     ca: Districte de Znojmo
     cs: okres Znojmo
     de: Okres Znojmo
-    en: Znojmo²
+    en: Znojmo District
     fr: District de Znojmo
     hu: Znojmói járás
     hy: Զնոյմոյի շրջան
@@ -2473,14 +2641,17 @@ ZL:
     sv: Okres Znojmo
     ur: زنویمو ضلع
     vi: Znojmo
+  name: Znojmo District
 '711':
+  unofficial_names:
+  - Jeseník District
   translations:
     ar: مقاطعة يسينيك
     bg: Есеник
     ca: Districte de Jeseník
     cs: okres Jeseník
     de: Okres Jeseník
-    en: Jeseník
+    en: Jeseník District
     fr: District de Jeseník
     he: מחוז משנה יסניק
     hu: Jeseníki járás
@@ -2499,14 +2670,17 @@ ZL:
     sv: Jeseník
     ur: یسنک ضلع
     vi: Jeseník
+  name: Jeseník District
 '712':
+  unofficial_names:
+  - Olomouc
   translations:
     ar: مقاطعة أولوموتس
     bg: Оломоуц
     ca: Districte d’Olomouc
     cs: okres Olomouc
     de: Okres Olomouc
-    en: Olomouc
+    en: Olomouc District
     fr: District d’Olomouc
     he: מחוז משנה אולומואוץ
     hu: Olomouci járás
@@ -2515,24 +2689,27 @@ ZL:
     ka: ოლომოუცის რაიონი
     lt: Olomouco rajonas
     lv: Olomoucas apriņķis
-    ms: Daerah Olomouc²
+    ms: Daerah Olomouc
     nl: Okres Olomouc
     pl: Powiat Ołomuniec
-    pt: Olomouc²
+    pt: Olomouc
     ru: Оломоуц
     sk: Okres Olomouc
     sr: Округ Оломоуц
-    sv: Olomouc²
+    sv: Olomouc
     ur: اولوموک ضلع
-    vi: Olomouc²
+    vi: Olomouc
+  name: Olomouc District
 '713':
+  unofficial_names:
+  - Prostějov
   translations:
     ar: مقاطعة بروستيوف
     bg: Простейов
     ca: Districte de Prostějov
     cs: okres Prostějov
     de: Okres Prostějov
-    en: Prostějov
+    en: Prostějov District
     es: Distrito de Prostějov
     fr: district de Prostějov
     he: מחוז משנה פרוסטיוב
@@ -2552,7 +2729,10 @@ ZL:
     sv: Prostějov
     ur: پروستیو ضلع
     vi: Prostějov
+  name: Prostějov District
 '714':
+  unofficial_names:
+  - Přerov
   translations:
     ar: مقاطعة برشيروف
     be: раён Пршэраў
@@ -2560,7 +2740,7 @@ ZL:
     ca: Districte de Přerov
     cs: okres Přerov
     de: Okres Přerov
-    en: Přerov
+    en: Přerov District
     fr: District de Přerov
     he: מחוז משנה פררוב
     hu: Přerovi járás
@@ -2580,14 +2760,17 @@ ZL:
     sv: Přerov
     ur: پژیرو ضلع
     vi: Přerov
+  name: Přerov District
 '715':
+  unofficial_names:
+  - Šumperk
   translations:
     ar: مقاطعة شومبيرك
     bg: Шумперк
     ca: Districte de Šumperk
     cs: okres Šumperk
     de: Okres Šumperk
-    en: Šumperk
+    en: Šumperk District
     fr: District de Šumperk
     he: מחוז משנה סומפרק
     hu: Šumperki járás
@@ -2605,14 +2788,17 @@ ZL:
     sv: Šumperk
     ur: شومپرک ضلع
     vi: Šumperk
+  name: Šumperk District
 '721':
+  unofficial_names:
+  - Kroměříž
   translations:
     ar: مقاطعة كروميشريش
     bg: Кромержиж (окръг)
     ca: Districte de Kroměříž
     cs: okres Kroměříž
     de: Okres Kroměříž
-    en: Kroměříž
+    en: Kroměříž District
     fr: District de Kroměříž
     he: מחוז משנה קרומניירי
     hu: Kroměříži járás
@@ -2632,14 +2818,17 @@ ZL:
     uk: Кромержиж (округ)
     ur: کرومیرشیزش ضلع
     vi: Kroměříž
+  name: Kroměříž District
 '722':
+  unofficial_names:
+  - Uherské Hradiště
   translations:
     ar: مقاطعة أوهرسكه هراديشتيه
     bg: Ухерске Храдище
     ca: Districte d’Uherské Hradiště
     cs: okres Uherské Hradiště
     de: Okres Uherské Hradiště
-    en: Uherské Hradiště
+    en: Uherské Hradiště District
     fr: District d’Uherské Hradiště
     he: מחוז משנה אוהרסקי הראדיץ׳
     hu: Uherské Hradiště-i járás
@@ -2657,7 +2846,10 @@ ZL:
     sv: Okres Uherské Hradiště
     ur: اوہیرسکے ہاردیشتے ضلع
     vi: Uherské Hradiště
+  name: Uherské Hradiště District
 '723':
+  unofficial_names:
+  - Vsetín
   translations:
     ar: مقاطعة فسيتين
     be: раён Усецін
@@ -2665,7 +2857,7 @@ ZL:
     ca: Districte de Vsetín
     cs: okres Vsetín
     de: Okres Vsetín
-    en: Vsetín
+    en: Vsetín District
     fr: District de Vsetín
     he: מחוז משנה וסטין
     hu: Vsetíni járás
@@ -2684,7 +2876,10 @@ ZL:
     uk: Всетін
     ur: وسیتین ضلع
     vi: Vsetín
+  name: Vsetín District
 '724':
+  unofficial_names:
+  - Zlín
   translations:
     ar: مقاطعة زلين
     be: Злін
@@ -2692,7 +2887,7 @@ ZL:
     ca: Districte de Zlín
     cs: okres Zlín
     de: Okres Zlín
-    en: Zlín
+    en: Zlín District
     fr: District de Zlín
     he: מחוז משנה זלין
     hu: Zlíni járás
@@ -2700,7 +2895,7 @@ ZL:
     it: Distretto di Zlín
     ka: ზლინის რაიონი
     lv: Zlīnas apriņķis
-    ms: Daerah Zlín²
+    ms: Daerah Zlín
     nl: Okres Zlín
     pl: Powiat Zlin
     pt: Zlín (distrito)
@@ -2709,15 +2904,18 @@ ZL:
     sr: Округ Злин
     sv: Okres Zlín
     ur: زلین ضلع
-    vi: Zlín²
+    vi: Zlín
+  name: Zlín District
 '801':
+  unofficial_names:
+  - Bruntál
   translations:
     ar: مقاطعة برونتال
     bg: Брунтал
     ca: Districte de Bruntál
     cs: okres Bruntál
     de: Okres Bruntál
-    en: Bruntál
+    en: Bruntál District
     fr: District de Bruntál
     he: מחוז משנה ברונטל
     hu: Bruntáli járás
@@ -2735,14 +2933,17 @@ ZL:
     sv: Bruntál (distrikt)
     ur: بروتال ضلع
     vi: Bruntál
+  name: Bruntál District
 '802':
+  unofficial_names:
+  - Frýdek-Místek
   translations:
     ar: مقاطعة فريدك-ميستك
     bg: Фридек-Мистек
     ca: Districte de Frýdek-Místek
     cs: okres Frýdek-Místek
     de: Okres Frýdek-Místek
-    en: Frýdek-Místek
+    en: Frýdek-Místek District
     es: Distrito de Frýdek-Místek
     fr: District de Frýdek-Místek
     he: מחוז משנה פרידק-מיסטק
@@ -2762,7 +2963,10 @@ ZL:
     sv: Frýdek-Místek
     ur: فریدک-میستک ضلع
     vi: Frýdek-Místek
+  name: Frýdek-Místek District
 '803':
+  unofficial_names:
+  - Karviná
   translations:
     ar: مقاطعة كارفينا
     be: раён Карвіна
@@ -2770,7 +2974,7 @@ ZL:
     ca: Districte de Karviná
     cs: okres Karviná
     de: Okres Karviná
-    en: Karviná
+    en: Karviná District
     fr: District de Karviná
     he: מחוז משנה קרבינה
     hu: Karvinái járás
@@ -2788,7 +2992,10 @@ ZL:
     sv: Karviná
     ur: کاروینا ضلع
     vi: Karviná
+  name: Karviná District
 '804':
+  unofficial_names:
+  - Nový Jičín
   translations:
     ar: مقاطعة نوفي يتشين
     be: Новы-Йічын
@@ -2796,7 +3003,7 @@ ZL:
     ca: Districte de Nový Jičín
     cs: okres Nový Jičín
     de: Okres Nový Jičín
-    en: Nový Jičín
+    en: Nový Jičín District
     fr: District de Nový Jičín
     he: מחוז משנה נובי ייצין
     hu: Nový Jičín-i járás
@@ -2815,14 +3022,17 @@ ZL:
     sv: Nový Jičín
     ur: نووی جیچن ضلع
     vi: Nový Jičín
+  name: Nový Jičín District
 '805':
+  unofficial_names:
+  - Opava
   translations:
     ar: مقاطعة أوبافا
     bg: Опава
     ca: Districte d’Opava
     cs: okres Opava
     de: Okres Opava
-    en: Opava
+    en: Opava District
     fr: District d’Opava
     he: מחוז משנה אופאבה
     hu: Opavai járás
@@ -2842,14 +3052,17 @@ ZL:
     sv: Opava
     ur: اوپاوا ضلع
     vi: Opava
+  name: Opava District
 '806':
+  unofficial_names:
+  - Ostrava-City
   translations:
     ar: مقاطعة أوسترافا-المدينة
     bg: Острава-град
     ca: Districte d’Ostrava-město
     cs: okres Ostrava-město
     de: Okres Ostrava-město
-    en: Ostrava
+    en: Ostrava-City District
     fr: District d’Ostrava-město
     hu: Ostrava városi járás
     hy: Օստրավայի շրջան
@@ -2866,351 +3079,4 @@ ZL:
     sv: Ostravas stadsdistrikt
     ur: اوستراوا-شہر ضلع
     vi: Ostrava
-'101':
-  translations:
-    be: Прага 1
-    cs: Praha 1
-    de: Prag 1
-    en: Prague 1
-    es: Praga 1
-    fa: پراگه ۱
-    hu: Prága 1
-    hy: Պրահա 1
-    it: Praga 1
-    nl: Praag 1
-    pl: Praga 1
-    ru: Прага 1
-    sk: Praha 1
-    sv: Praha 1
-    uk: Прага 1
-    ur: پراگ 1
-'102':
-  translations:
-    be: Прага 2
-    cs: Praha 2
-    de: Prag 2
-    en: Prague 2
-    es: Praga 2
-    fa: پراگه ۲
-    fr: Prague 2
-    hu: Prága 2
-    hy: Պրահա 2
-    nl: Praag 2
-    pl: Praga 2
-    ru: Прага 2
-    sk: Praha 2
-    sv: Praha 2
-    uk: Прага 2
-    ur: پراگ 2
-'103':
-  translations:
-    be: Прага 3
-    cs: Praha 3
-    de: Prag 3
-    en: Prague 3
-    es: Praga 3
-    fa: پراگه ۳
-    hy: Պրահա 3
-    nl: Praag 3
-    pl: Praga 3
-    ru: Прага 3
-    sk: Praha 3
-    sv: Praha 3
-    ur: پراگ 3
-'113':
-  translations:
-    ca: Praga 13
-    cs: Praha 13
-    de: Prag 13
-    en: Prague 13
-    es: Praga 13
-    fa: پراگه ۱۳
-    hy: Պրահա 13
-    it: Praga 13
-    nl: Praag 13
-    pl: Praga 13
-    pt: Praga 13
-    sk: Praha 13
-    sv: Praha 13
-    ur: پراگ 13
-'104':
-  translations:
-    cs: Praha 4
-    de: Prag 4
-    en: Prague 4
-    es: Praga 4
-    fa: پراگه ۴
-    fr: Prague 4
-    hy: Պրահա 4
-    ka: პრაღა 4
-    nl: Praag 4
-    pl: Praga 4
-    ru: Прага 4
-    sk: Praha 4
-    sv: Praha 4
-    ur: پراگ 4
-'105':
-  translations:
-    cs: Praha 5
-    de: Prag 5
-    en: Prague 5
-    es: Praga 5
-    fa: پراگه ۵
-    fr: Prague 5
-    hy: Պրահա 5
-    nl: Praag 5
-    pl: Praga 5
-    ru: Прага 5
-    sk: Praha 5
-    sv: Praha 5
-    ur: پراگ 5
-'106':
-  translations:
-    cs: Praha 6
-    de: Prag 6
-    en: Prague 6
-    es: Praga 6
-    fa: پراگه ۶
-    hu: Prága 6
-    hy: Պրահա 6
-    nl: Praag 6
-    pl: Praga 6
-    ru: Прага 6
-    sk: Praha 6
-    sv: Praha 6
-    uk: Прага 6
-    ur: پراگ 6
-'107':
-  translations:
-    cs: Praha 7
-    de: Prag 7
-    en: Prague 7
-    es: Praga 7
-    fa: پراگه ۷
-    hu: Prága 7
-    hy: Պրահա 7
-    nl: Praag 7
-    pl: Praga 7
-    ru: Прага 7
-    sk: Praha 7
-    sv: Praha 7
-    ur: پراگ 7
-    zh: 布拉格第七區
-'108':
-  translations:
-    cs: Praha 8
-    de: Prag 8
-    en: Prague 8
-    es: Praga 8
-    fa: پراگه ۸
-    hu: Prága 8
-    hy: Պրահա 8
-    nl: Praag 8
-    pl: Praga 8
-    ru: Прага 8
-    sk: Praha 8
-    sv: Praha 8
-    ur: پراگ 8
-'109':
-  translations:
-    cs: Praha 9
-    de: Prag 9
-    en: Prague 9
-    es: Praga 9
-    fa: پراگه ۹
-    hu: Prága 9
-    hy: Պրահա 9
-    nl: Praag 9
-    pl: Praga 9
-    ru: Прага-9
-    sk: Praha 9
-    sv: Praha 9
-    ur: پراگ 9
-'110':
-  translations:
-    cs: Praha 10
-    de: Prag 10
-    en: Prague 10²
-    es: Praga 10
-    fa: پراگه ۱۰
-    hu: Prága 10
-    hy: Պրահա 10
-    it: Praga 10
-    nl: Praag 10
-    pl: Praga 10
-    sk: Praha 10
-    sv: Praha 10
-    ur: پراگ 10
-'111':
-  translations:
-    cs: Praha 11
-    de: Prag 11
-    en: Prague 11²
-    fa: پراگه ۱۱
-    hy: Պրահա 11
-    nl: Praag 11
-    pl: Praga 11
-    sk: Praha 11
-    sv: Praha 11
-    ur: پراگ 11
-'112':
-  translations:
-    cs: Praha 12
-    de: Prag 12
-    en: Prague 12²
-    fa: پراگه ۱۲
-    hy: Պրահա 12
-    nl: Praag 12
-    pl: Praga 12
-    sk: Praha 12
-    sv: Praha 12
-    ur: پراگ 12
-'114':
-  translations:
-    cs: Praha 14
-    de: Prag 14
-    en: Prague 14²
-    fa: پراگه ۱۴
-    hy: Պրահա 14
-    nl: Praag 14
-    pl: Praga 14
-    sk: Praha 14
-    sv: Praha 14
-    ur: پراگ 14
-'115':
-  translations:
-    cs: Praha 15
-    de: Prag 15
-    en: Prague 15
-    fa: پراگه ۱۵
-    hy: Պրահա 15
-    nl: Praag 15
-    pl: Praga 15
-    sk: Praha 15
-    sv: Praha 15
-    ur: پراگ 15
-    zh: 布拉格15区
-'116':
-  translations:
-    cs: Radotín
-    de: Prag 16
-    en: Prague 16
-    fa: پراگه ۱۶
-    fr: Radotín
-    hu: Prága 16
-    hy: Պրահա 16
-    nl: Praag 16-Radotín
-    pl: Praga 16
-    sk: Radotín
-    sv: Praha 16
-'117':
-  translations:
-    cs: Praha 17
-    en: Prague 17
-    hy: Պրահա17
-    nl: Praag 17
-    pl: Praga 17
-    sk: Praha 17
-    sv: Praha 17
-'118':
-  translations:
-    cs: Praha 18
-    en: Prague 18
-    hy: Պրահա 18
-    nl: Praag 18
-    pl: Praga 18
-    sk: Praha 18
-    sv: Praha 18
-'119':
-  translations:
-    cs: Praha 19
-    de: Prag 19
-    en: Prague 19
-    pl: Praga 19
-    sk: Praha 19
-    sv: Kbely
-'120':
-  translations:
-    cs: Horní Počernice
-    de: Prag 20
-    en: Prague 20
-    pl: Praga 20
-    sv: Horní Počernice
-'121':
-  translations:
-    cs: Újezd nad Lesy
-    de: Prag 21
-    en: Prague 21
-    fa: پراگه ۲۱
-    fr: Újezd nad Lesy
-    hy: Պրահա 21
-    nl: Praag 21
-    pl: Praga 21
-    ru: Прага 21
-    sk: Újezd nad Lesy
-    sv: Praha 21
-'122':
-  translations:
-    cs: Praha 22
-    de: Prag 22
-    en: Prague 22
-    es: Praga 22
-    hy: Պրահա 22
-    nl: Praag 22
-    pl: Praga 22
-    sk: Praha 22
-    sv: Praha 22
-10A:
-  translations:
-    en: Prague 10
-10B:
-  translations:
-    en: Prague 11
-10C:
-  translations:
-    en: Prague 12
-10D:
-  translations:
-    en: Prague 13²
-10E:
-  translations:
-    en: Prague 14
-10F:
-  translations:
-    en: Prague 15²
-'611':
-  translations:
-    en: Havlíčkův Brod
-'612':
-  translations:
-    en: Jihlava²
-'613':
-  translations:
-    en: Pelhřimov²
-'614':
-  translations:
-    en: Třebíč
-'615':
-  translations:
-    en: Žďár nad Sázavou
-'621':
-  translations:
-    en: Blansko
-'622':
-  translations:
-    en: Brno
-'623':
-  translations:
-    en: Brno-venkov
-'624':
-  translations:
-    en: Břeclav
-'625':
-  translations:
-    en: Hodonín²
-'626':
-  translations:
-    en: Vyškov²
-'627':
-  translations:
-    en: Znojmo
+  name: Ostrava-City District
