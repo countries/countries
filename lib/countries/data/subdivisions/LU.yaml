@@ -1,44 +1,4 @@
 ---
-D:
-  unofficial_names: Diekirch
-  translations:
-    en: Diekirch²
-    de: Diekirch²
-  geo:
-    latitude: 49.8671784
-    longitude: 6.159563299999999
-    min_latitude: 49.83493
-    min_longitude: 6.1175201
-    max_latitude: 49.8987
-    max_longitude: 6.180689999999999
-  name: Diekirch
-G:
-  unofficial_names: Grevenmacher
-  translations:
-    en: Grevenmacher²
-    de: Grevenmacher
-  geo:
-    latitude: 49.680841
-    longitude: 6.440759300000001
-    min_latitude: 49.6540799
-    min_longitude: 6.3601101
-    max_latitude: 49.6997
-    max_longitude: 6.4610601
-  name: Grevenmacher
-L:
-  unofficial_names:
-  - Luxemburg
-  translations:
-    en: Luxembourg²
-    de: Luxemburg²
-  geo:
-    latitude: 48.845577
-    longitude: 2.339852
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Luxembourg (fr)
 LU:
   translations:
     be: Люксембург
@@ -68,6 +28,14 @@ LU:
     tr: Lüksemburg kantonu
     ur: لگزمبرگ (صوبہ)
     vi: Luxembourg
+  geo:
+    latitude: 49.6
+    longitude: 6.1
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Luxembourg
 ME:
   translations:
     be: Мерш
@@ -93,6 +61,14 @@ ME:
     tr: Mersch kantonu
     uk: Люксембург
     vi: Mersch
+  geo:
+    latitude: 49.7
+    longitude: 6.1
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Mersch
 RD:
   translations:
     be: кантон Рэданж
@@ -118,6 +94,14 @@ RD:
     tr: Redange kantonu
     uk: Реданж
     vi: Redange
+  geo:
+    latitude: 49.8
+    longitude:  5.8
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Redange
 RM:
   translations:
     be: Кантон Рэміх
@@ -145,6 +129,14 @@ RM:
     uk: Реміх
     ur: ریمیش (صوبہ)
     vi: Remich
+  geo:
+    latitude: 49.5
+    longitude: 6.3
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Remich
 CA:
   translations:
     ca: Cantó de Capellen
@@ -169,6 +161,14 @@ CA:
     tr: Capellen kantonu
     uk: Капеллен
     vi: Capellen
+  geo:
+    latitude: 49.633333
+    longitude: 6
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Capellen
 CL:
   translations:
     ca: Cantó de Clervaux
@@ -195,6 +195,14 @@ CL:
     uk: Клерво
     vi: Clervaux
     zh: 克莱沃县
+  geo:
+    latitude: 50.066667
+    longitude: 6.033333
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Clervaux
 DI:
   translations:
     ca: Cantó de Diekirch
@@ -222,6 +230,14 @@ DI:
     uk: Дікірх
     ur: دیکیرش (صوبہ)
     vi: Diekirch
+  geo:
+    latitude: 49.8
+    longitude: 6.2
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Diekirch
 EC:
   translations:
     ca: Cantó d’Echternach
@@ -249,6 +265,14 @@ EC:
     uk: Ехтернах
     ur: اشترناخ (صوبہ)
     vi: Echternach
+  geo:
+    latitude: 49.8
+    longitude: 6.4
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Echternach
 ES:
   translations:
     ca: Cantó d’Esch-sur-Alzette
@@ -276,12 +300,20 @@ ES:
     uk: Еш-сюр-Альзетт
     ur: اش-سور-الزیت (صوبہ)
     vi: Esch-sur-Alzette
+  geo:
+    latitude: 49.5
+    longitude: 6
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Esch-sur-Alzette
 GR:
   translations:
     ca: Cantó de Grevenmacher
     cs: Kanton Grevenmacher
     da: Grevenmacher
-    de: Grevenmacher²
+    de: Grevenmacher
     en: Grevenmacher
     es: Cantón de Grevenmacher
     fa: گرونماخر (ایالت)
@@ -303,6 +335,14 @@ GR:
     uk: Гревенмахер
     ur: گرونماخر (صوبہ)
     vi: Grevenmacher
+  geo:
+    latitude: 49.6
+    longitude: 6.4
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Grevenmacher
 VD:
   translations:
     ca: Cantó de Vianden
@@ -329,6 +369,14 @@ VD:
     uk: Віанден
     ur: ویاندن (صوبہ)
     vi: Vianden
+  geo:
+    latitude: 49.933333
+    longitude: 6.166667
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Vianden
 WI:
   translations:
     ca: Cantó de Wiltz
@@ -355,3 +403,11 @@ WI:
     uk: Вільц
     ur: ولتز (صوبہ)
     vi: Wiltz
+  geo:
+    latitude: 49.95
+    longitude: 5.933333
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  name: Wiltz
