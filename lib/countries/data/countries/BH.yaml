@@ -18,13 +18,14 @@ BH:
   national_number_lengths:
   - 8
   national_prefix: None
-  number: 048
+  number: '048'
   region: Asia
   subregion: Western Asia
   world_region: EMEA
   un_locode: BH
   nationality: Bahraini
   postal_code: true
+  postal_code_format: "(?:\\d|1[0-2])\\d{2}"
   unofficial_names:
   - Bahrain
   - البحرين

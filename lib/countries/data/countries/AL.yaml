@@ -15,13 +15,14 @@ AL:
   - 8
   - 9
   national_prefix: '0'
-  number: 008
+  number: '008'
   region: Europe
   subregion: Southern Europe
   world_region: EMEA
   un_locode: AL
   nationality: Albanian
   postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - Albania
   - Albanien
