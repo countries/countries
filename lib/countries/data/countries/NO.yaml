@@ -28,9 +28,10 @@
   vat_rates:
     standard: 25
     reduced: []
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - Norway
   - Norwegen

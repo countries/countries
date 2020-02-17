@@ -28,11 +28,12 @@ BR:
   vat_rates:
     standard: 17
     reduced:
-      - 12
-      - 7
+    - 12
+    - 7
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: "\\d{5}-?\\d{3}"
   unofficial_names:
   - Brazil
   - Brasilien

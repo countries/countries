@@ -21,6 +21,7 @@ PE:
   un_locode: PE
   nationality: Peruvian
   postal_code: true
+  postal_code_format: "(?:LIMA \\d{1,2}|CALLAO 0?\\d)|[0-2]\\d{4}"
   unofficial_names:
   - Peru
   - Pérou

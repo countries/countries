@@ -19,7 +19,8 @@ KE:
   world_region: EMEA
   un_locode: KE
   nationality: Kenyan
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{5}"
   unofficial_names:
   - Kenya
   - Kenia

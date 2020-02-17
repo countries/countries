@@ -28,6 +28,7 @@ module ISO3166
     alias zip postal_code
     alias zip? postal_code
     alias postal_code? postal_code
+    alias zip_format postal_code_format
     alias languages languages_official
     alias names unofficial_names
 

@@ -25,7 +25,8 @@ SA:
   world_region: EMEA
   un_locode: SA
   nationality: Saudi Arabian
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{5}"
   unofficial_names:
   - Saudi Arabia
   - Kingdom of Saudi Arabia

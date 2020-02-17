@@ -19,7 +19,8 @@ GN:
   world_region: EMEA
   un_locode: GN
   nationality: Guinean
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{3}"
   unofficial_names:
   - Guinea
   - Guinée
