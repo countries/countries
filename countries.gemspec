@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = `git ls-files`.split($OUTPUT_RECORD_SEPARATOR)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.executables   = []
   gem.name          = 'countries'
   gem.require_paths = ['lib']
   gem.version       = Countries::VERSION.dup
