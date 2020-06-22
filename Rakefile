@@ -3,6 +3,7 @@ require 'bundler/gem_tasks'
 
 require 'rake'
 require 'rspec/core/rake_task'
+require 'yaml'
 
 ISO3166_ROOT_PATH = File.dirname(__FILE__)
 Dir.glob('lib/countries/tasks/*.rake').each { |r| load r }
@@ -15,9 +16,6 @@ end
 task default: [:spec]
 
 task :update_yaml_structure do
-  require 'yaml'
-
-  require 'pry'
 
   d = Dir['lib/countries/data/subdivisions/*.yaml']
   d.each do |file|

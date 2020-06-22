@@ -37,6 +37,12 @@ C:
     tr: Central Division
     ur: سینٹرل ڈویژن
     vi: Khu vực Trung tâm, Fiji
+    lv: Centrālais apgabals
+    ceb: Central Division
+    zh: 中央大区 (斐济)
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    uk: Центральний округ
+    ca: Divisió Central
   geo:
     latitude: -17.9453123
     longitude: 178.2461183
@@ -82,6 +88,12 @@ E:
     tr: Eastern Division
     ur: یاستیرن ڈویژن
     vi: Khu vực Đông, Fiji
+    lv: Austrumu apgabals
+    ceb: Eastern Division
+    zh: 东部大区
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    uk: Східний округ
+    ca: Divisió Est
   geo:
     latitude: -17.688972
     longitude: 178.8070886
@@ -127,6 +139,12 @@ N:
     tr: Northern Division
     ur: ناردرن ڈویژن
     vi: Khu vực Bắc
+    lv: Ziemeļu apgabals
+    ceb: Northern Division (dibisyon)
+    zh: 北部大区
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    uk: Північний округ
+    ca: Divisió Nord
   geo:
     latitude: -16.6268225
     longitude: 179.0179332
@@ -182,6 +200,14 @@ R:
     uk: Ротума
     ur: روتوما
     vi: Rotuma
+    lv: Rotuma
+    ceb: Rotuma Island
+    sr_Latn: Rotuma
+    zh: 罗图马岛
+    ccp: "\U00011122\U00011127\U00011111\U00011128\U00011105\U0001112A\U0001111F"
+    yo: Rotuma
+    mk: Ротума
+    bg: Ротума
   geo:
     latitude: -12.5025069
     longitude: 177.0724164
@@ -227,6 +253,12 @@ W:
     tr: Western Division
     ur: ویسٹرن ڈویژن
     vi: Khu vực Tây
+    lv: Rietumu apgabals
+    ceb: Western Division (dibisyon sa Fiji)
+    zh: 西部大区
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    uk: Західний округ
+    ca: Divisió Oest
   geo:
     latitude: -17.7510845
     longitude: 177.7763333
@@ -236,6 +268,7 @@ W:
     max_longitude: 178.454681
   name: Western
 '03':
+  unofficial_names: 
   translations:
     ar: كاكاودروف
     en: Cakaudrove
@@ -251,7 +284,18 @@ W:
     sv: Thakaundrove Province
     ta: தகாந்துரோவ் மாகாணம்
     vi: Cakaudrove
+    ceb: Thakaundrove Province
+    zh: 卡考德罗韦省
+    ccp: "\U00011107\U0001112C\U00011107\U00011105\U0001112A\U00011113\U00011133\U00011122\U0001112E\U0001111B\U00011134"
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '14':
+  unofficial_names: 
   translations:
     da: Tailevu Province
     en: Tailevu
@@ -267,7 +311,19 @@ W:
     sv: Tailevu Province
     ta: தைலிவு மாகாணம்
     vi: Tailevu
+    ceb: Tailevu Province
+    zh: 泰萊武省
+    ccp: "\U00011111\U0001112D\U00011123\U0001112C\U0001111E\U0001112A"
+    nb: Tailevu Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '01':
+  unofficial_names: 
   translations:
     de: Ba (Provinz)
     en: Ba
@@ -287,7 +343,18 @@ W:
     ta: இம்பா மாகாணம்
     vi: Ba (tỉnh)
     zh: 巴省
+    ceb: Ba Province
+    ar: با
+    ccp: "\U0001111D"
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '02':
+  unofficial_names: 
   translations:
     en: Bua
     fr: province de Bua
@@ -301,7 +368,21 @@ W:
     sv: Bua Province
     ta: இம்புவா மாகாணம்
     vi: Bua
+    ceb: Bua Province
+    ar: محافظة بوا
+    zh: 布阿省
+    ru: Мбуа
+    ccp: "\U0001111D\U00011131"
+    nb: Bua Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '04':
+  unofficial_names: 
   translations:
     en: Kadavu
     es: Kadavu
@@ -315,7 +396,19 @@ W:
     pt: Kadavu
     ta: கன்டவு மாகாணம்
     vi: Kadavu
+    zh: 坎達武省
+    ru: Кандаву
+    ccp: "\U00011107\U00011127\U00011113\U0001111E\U0001112A"
+    nb: Kadavu Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '05':
+  unofficial_names: 
   translations:
     en: Lau
     fr: province de Lau
@@ -329,7 +422,19 @@ W:
     sv: Lau Province
     ta: லவு மாகாணம்
     vi: Lau
+    ceb: Lau Province
+    zh: 劳省
+    ru: Лау
+    ccp: "\U00011123\U00011105\U0001112A"
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '06':
+  unofficial_names: 
   translations:
     en: Lomaiviti
     es: Lomaiviti
@@ -343,7 +448,21 @@ W:
     sv: Lomaiviti Province
     ta: லோமாய்விட்டி மாகாணம்
     vi: Lomaiviti
+    ceb: Lomaiviti Province
+    zh: 洛迈维提省
+    ru: Ломаивичи
+    ccp: "\U00011123\U0001112E\U0001111F\U0001112D\U0001111E\U00011128\U00011111\U00011128"
+    uk: Ломаївіті
+    nb: Lomaiviti Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '07':
+  unofficial_names: 
   translations:
     en: Macuata
     es: Macuata
@@ -358,7 +477,19 @@ W:
     sv: Mathuata Province
     ta: மதுவாட்டா மாகாணம்
     vi: Macuata
+    ceb: Mathuata Province
+    zh: 馬庫阿塔省
+    ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011131\U00011111"
+    nb: Macuata Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '08':
+  unofficial_names: 
   translations:
     en: Nadroga-Navosa
     es: Nadroga-Navosa
@@ -374,7 +505,19 @@ W:
     sv: Nandronga and Navosa Province
     ta: நண்டுரோங்கா நவோசா மாகாணம்
     vi: Nadroga-Navosa
+    ceb: Nandronga and Navosa Province
+    zh: 那德羅加諾沃薩省
+    ru: Нандронга-Навоса (провинция)
+    ccp: "\U0001111A\U00011113\U00011133\U00011122\U0001112E\U00011109-\U0001111A\U0001111E\U0001112E\U00011125"
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '09':
+  unofficial_names: 
   translations:
     en: Naitasiri
     es: Naitasiri
@@ -390,7 +533,19 @@ W:
     sv: Naitasiri Province
     ta: நைடாசிரி மாகாணம்
     vi: Naitasiri
+    ceb: Naitasiri Province
+    zh: 奈塔西里省
+    ccp: "\U0001111A\U0001112D\U00011111\U00011125\U00011128\U00011122\U00011128"
+    nb: Naitasiri Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '10':
+  unofficial_names: 
   translations:
     en: Namosi
     es: Namosi
@@ -405,7 +560,19 @@ W:
     sv: Namosi Province
     ta: நமோசி மாகாணம்
     vi: Namosi
+    ceb: Namosi Province
+    zh: 納莫西省
+    ccp: "\U0001111A\U0001111F\U0001112E\U00011125\U00011128"
+    nb: Namosi Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '11':
+  unofficial_names: 
   translations:
     en: Ra
     es: Ra
@@ -421,7 +588,20 @@ W:
     sv: Ra Province
     ta: ரா மாகாணம்
     vi: Ra
+    ceb: Ra Province
+    zh: 拉省
+    ru: Ра
+    ccp: "\U00011122"
+    nb: Ra Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '12':
+  unofficial_names: 
   translations:
     en: Rewa
     es: Rewa (Fiyi)
@@ -438,7 +618,18 @@ W:
     sv: Rewa Province
     ta: ரெவா மாகாணம்
     vi: Rewa
+    ceb: Rewa Province
+    zh: 雷瓦省
+    ccp: "\U00011122\U0001112C\U00011124"
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
 '13':
+  unofficial_names: 
   translations:
     en: Serua
     es: Serua
@@ -455,3 +646,14 @@ W:
     sv: Serua Province
     ta: செருவா மாகாணம்
     vi: Serua
+    ceb: Serua Province
+    zh: 塞魯阿省
+    ccp: "\U00011125\U0001112C\U00011122\U0001112A\U00011120"
+    nb: Serua Province
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
