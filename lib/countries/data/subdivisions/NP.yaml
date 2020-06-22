@@ -1,5 +1,5 @@
 ---
-BA: !ruby/struct:ISO3166::Subdivision
+BA: 
   name: Bagmati
   code: 
   unofficial_names: Bagmati
@@ -54,7 +54,7 @@ BA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111D\U00011107\U00011134\U0001111F\U00011111\U00011128"
     uk: Багматі
   comments: 
-BH: !ruby/struct:ISO3166::Subdivision
+BH: 
   name: Bheri
   code: 
   unofficial_names: Bheri
@@ -108,7 +108,7 @@ BH: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111E\U0001112C\U00011122\U00011128"
     uk: Бхері
   comments: 
-DH: !ruby/struct:ISO3166::Subdivision
+DH: 
   name: Dhawalagiri
   code: 
   unofficial_names: Dhawalagiri
@@ -163,7 +163,7 @@ DH: !ruby/struct:ISO3166::Subdivision
     kk: Дхаулагири
     uk: Дгаулагірі
   comments: 
-GA: !ruby/struct:ISO3166::Subdivision
+GA: 
   name: Gandaki
   code: 
   unofficial_names: Gandaki
@@ -219,7 +219,7 @@ GA: !ruby/struct:ISO3166::Subdivision
     uk: Гандакі
     ca: zona de Gandaki
   comments: 
-JA: !ruby/struct:ISO3166::Subdivision
+JA: 
   name: Janakpur
   code: 
   unofficial_names: Janakpur
@@ -274,7 +274,7 @@ JA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001110E\U0001111A\U00011127\U00011107\U00011134\U0001111B\U0001112A\U00011122\U00011134"
     uk: Джанакпур
   comments: 
-KA: !ruby/struct:ISO3166::Subdivision
+KA: 
   name: Karnali
   code: 
   unofficial_names: Karnali
@@ -328,7 +328,7 @@ KA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U00011122\U00011134\U0001111A\U00011123\U00011128"
     uk: Карналі
   comments: 
-KO: !ruby/struct:ISO3166::Subdivision
+KO: 
   name: Kosi [Koshi]
   code: 
   unofficial_names: Kosi [Koshi]
@@ -368,7 +368,7 @@ KO: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U0001112E\U00011125\U00011128"
     uk: Косі
   comments: 
-LU: !ruby/struct:ISO3166::Subdivision
+LU: 
   name: Lumbini
   code: 
   unofficial_names: Lumbini
@@ -410,7 +410,7 @@ LU: !ruby/struct:ISO3166::Subdivision
     hy: Լումբինի
     mk: Лумбини
   comments: 
-MA: !ruby/struct:ISO3166::Subdivision
+MA: 
   name: Mahakali
   code: 
   unofficial_names: Mahakali
@@ -464,7 +464,7 @@ MA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U00011127\U00011126\U00011107\U00011127\U00011123\U00011128"
     uk: Махакалі
   comments: 
-ME: !ruby/struct:ISO3166::Subdivision
+ME: 
   name: Mechi
   code: 
   unofficial_names: Mechi
@@ -518,7 +518,7 @@ ME: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U0001112C\U0001110C\U00011128"
     uk: Мечі
   comments: 
-NA: !ruby/struct:ISO3166::Subdivision
+NA: 
   name: Narayani
   code: 
   unofficial_names: Narayani
@@ -572,7 +572,7 @@ NA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111A\U00011122\U00011120\U00011127\U0001111A\U00011128"
     uk: Нараяні
   comments: 
-RA: !ruby/struct:ISO3166::Subdivision
+RA: 
   name: Rapti
   code: 
   unofficial_names: Rapti
@@ -626,7 +626,7 @@ RA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011122\U0001111B\U00011134\U00011111\U00011128"
     uk: Рапті
   comments: 
-SA: !ruby/struct:ISO3166::Subdivision
+SA: 
   name: Sagarmatha
   code: 
   unofficial_names: Sagarmatha
@@ -681,7 +681,7 @@ SA: !ruby/struct:ISO3166::Subdivision
     uk: Сагарматха
     ca: zona del Sagarmatha
   comments: 
-SE: !ruby/struct:ISO3166::Subdivision
+SE: 
   name: Seti
   code: 
   unofficial_names: Seti
@@ -735,7 +735,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U0001112C\U00011111\U00011128"
     uk: Сеті
   comments: 
-'1': !ruby/struct:ISO3166::Subdivision
+'1': 
   name: 
   code: 
   unofficial_names: 
@@ -776,7 +776,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     hy: Կենտրոնական շրջան
   comments: 
-'2': !ruby/struct:ISO3166::Subdivision
+'2': 
   name: 
   code: 
   unofficial_names: 
@@ -813,7 +813,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U00011127\U00011116\U00011134\U00011119\U00011133\U00011120\U00011127
       \U0001111B\U00011127\U0001110C\U00011134\U00011125\U00011128\U0001111F\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
   comments: 
-'3': !ruby/struct:ISO3166::Subdivision
+'3': 
   name: 
   code: 
   unofficial_names: 
@@ -854,7 +854,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     hy: Արևմտյան շրջան
     ca: Regió Occidental
   comments: 
-'4': !ruby/struct:ISO3166::Subdivision
+'4': 
   name: 
   code: 
   unofficial_names: 
@@ -893,7 +893,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U0001112A\U00011122\U00011134\U00011124\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
     ca: Regió de Desenvolupament Est
   comments: 
-'5': !ruby/struct:ISO3166::Subdivision
+'5': 
   name: 
   code: 
   unofficial_names: 
@@ -929,7 +929,7 @@ SE: !ruby/struct:ISO3166::Subdivision
     zh: 遠西部發展區
     ccp: "\U00011125\U0001112A\U00011118\U0001112A\U00011122\U00011134 \U0001111B\U00011127\U0001110C\U00011134\U00011125\U00011128\U0001111F\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
   comments: 
-P1: !ruby/struct:ISO3166::Subdivision
+P1: 
   name: 
   code: 
   unofficial_names: 
@@ -937,7 +937,7 @@ P1: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Province 1
   comments: 
-P2: !ruby/struct:ISO3166::Subdivision
+P2: 
   name: 
   code: 
   unofficial_names: 
@@ -945,7 +945,7 @@ P2: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Province 2
   comments: 
-P3: !ruby/struct:ISO3166::Subdivision
+P3: 
   name: 
   code: 
   unofficial_names: 
@@ -953,7 +953,7 @@ P3: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Province 3
   comments: 
-P4: !ruby/struct:ISO3166::Subdivision
+P4: 
   name: 
   code: 
   unofficial_names: 
@@ -967,7 +967,7 @@ P4: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Gandaki²
   comments: 
-P5: !ruby/struct:ISO3166::Subdivision
+P5: 
   name: 
   code: 
   unofficial_names: 
@@ -975,7 +975,7 @@ P5: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Province 5
   comments: 
-P6: !ruby/struct:ISO3166::Subdivision
+P6: 
   name: 
   code: 
   unofficial_names: 
@@ -989,7 +989,7 @@ P6: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Karnali²
   comments: 
-P7: !ruby/struct:ISO3166::Subdivision
+P7: 
   name: 
   code: 
   unofficial_names: 

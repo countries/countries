@@ -1,5 +1,5 @@
 ---
-ARI: !ruby/struct:ISO3166::Subdivision
+ARI: 
   name: Arima
   code: 
   unofficial_names: Arima
@@ -52,7 +52,7 @@ ARI: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U00011122\U00011128\U0001111F"
     uk: Аріма
   comments: 
-CHA: !ruby/struct:ISO3166::Subdivision
+CHA: 
   name: Chaguanas
   code: 
   unofficial_names: Chaguanas
@@ -114,7 +114,7 @@ CHA: !ruby/struct:ISO3166::Subdivision
     ga: Chaguanas
     ro: Chaguanas
   comments: 
-CTT: !ruby/struct:ISO3166::Subdivision
+CTT: 
   name: Couva-Tabaquite-Talparo
   code: 
   unofficial_names: Couva-Tabaquite-Talparo
@@ -163,7 +163,7 @@ CTT: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U0001112F\U0001111E-\U00011111\U0001111D\U00011107\U0001112A\U00011103\U00011128\U00011116\U00011134-\U00011111\U00011123\U00011134\U0001111B\U00011122\U0001112E"
     uk: Регіон Кува-Табакіте-Тальпаро
   comments: 
-DMN: !ruby/struct:ISO3166::Subdivision
+DMN: 
   name: Diego Martin
   code: 
   unofficial_names: Diego Martin
@@ -213,7 +213,7 @@ DMN: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011113\U00011128\U00011120\U0001112C\U00011109\U0001112E \U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
     uk: Регіон Діего-Мартін
   comments: 
-ETO: !ruby/struct:ISO3166::Subdivision
+ETO: 
   name: Eastern Tobago
   code: 
   unofficial_names: Eastern Tobago
@@ -229,7 +229,7 @@ ETO: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
   comments: 
-PED: !ruby/struct:ISO3166::Subdivision
+PED: 
   name: Penal-Debe
   code: 
   unofficial_names: Penal-Debe
@@ -279,7 +279,7 @@ PED: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U0001112C\U0001111A\U00011123\U00011134-\U00011113\U0001112C\U0001111D\U0001112C"
     uk: Регіон Пенал-Дебе
   comments: 
-POS: !ruby/struct:ISO3166::Subdivision
+POS: 
   name: Port of Spain
   code: 
   unofficial_names: Port of Spain
@@ -365,7 +365,7 @@ POS: !ruby/struct:ISO3166::Subdivision
     bs: Port of Spain
     mk: Порт оф Спејн
   comments: 
-PRT: !ruby/struct:ISO3166::Subdivision
+PRT: 
   name: Princes Town
   code: 
   unofficial_names: Princes Town
@@ -417,7 +417,7 @@ PRT: !ruby/struct:ISO3166::Subdivision
       \U00011111\U00011105\U0001112A\U0001111A\U00011134"
     uk: Регіон Прінсес-Таун
   comments: 
-PTF: !ruby/struct:ISO3166::Subdivision
+PTF: 
   name: Point Fortin
   code: 
   unofficial_names: Point Fortin
@@ -471,7 +471,7 @@ PTF: !ruby/struct:ISO3166::Subdivision
     zh: 波因特福廷
     ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011134\U00011111 \U0001111C\U0001112E\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
   comments: 
-RCM: !ruby/struct:ISO3166::Subdivision
+RCM: 
   name: Rio Claro-Mayaro
   code: 
   unofficial_names: Rio Claro-Mayaro
@@ -486,7 +486,7 @@ RCM: !ruby/struct:ISO3166::Subdivision
     en: Rio Claro-Mayaro
     ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011107\U00011133\U00011123\U00011122\U0001112E-\U0001111F\U0001112C\U00011120\U00011122\U0001112E"
   comments: 
-SFO: !ruby/struct:ISO3166::Subdivision
+SFO: 
   name: San Fernando
   code: 
   unofficial_names: San Fernando
@@ -543,7 +543,7 @@ SFO: !ruby/struct:ISO3166::Subdivision
     cs: San Fernando
     yo: San Fernando
   comments: 
-SGE: !ruby/struct:ISO3166::Subdivision
+SGE: 
   name: Sangre Grande
   code: 
   unofficial_names: Sangre Grande
@@ -593,7 +593,7 @@ SGE: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U0001111A\U00011134\U0001111B\U00011133\U00011122\U0001112C \U0001111B\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C"
     uk: Регіон Сангре-Гранде
   comments: 
-SIP: !ruby/struct:ISO3166::Subdivision
+SIP: 
   name: Siparia
   code: 
   unofficial_names: Siparia
@@ -644,7 +644,7 @@ SIP: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U00011128\U0001111B\U00011122\U00011128\U00011120"
     uk: Регіон Сіпарія
   comments: 
-SJL: !ruby/struct:ISO3166::Subdivision
+SJL: 
   name: San Juan-Laventille
   code: 
   unofficial_names: San Juan-Laventille
@@ -693,7 +693,7 @@ SJL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U0001112A\U00011120\U0001111A\U00011134-\U00011123\U00011127\U0001111E\U0001112C\U0001111A\U00011134\U00011111\U00011128\U00011123\U00011134"
     uk: Регіон Сан-Хуан-Лавентіль
   comments: 
-TUP: !ruby/struct:ISO3166::Subdivision
+TUP: 
   name: Tunapuna-Piarco
   code: 
   unofficial_names: Tunapuna-Piarco
@@ -744,7 +744,7 @@ TUP: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011111\U0001112A\U0001111A\U0001111B\U0001112A\U0001111A-\U0001111B\U00011128\U00011120\U00011122\U00011134\U00011107\U0001112E"
     uk: Регіон Тунапуна-Піарко
   comments: 
-WTO: !ruby/struct:ISO3166::Subdivision
+WTO: 
   name: Western Tobago
   code: 
   unofficial_names: Western Tobago
@@ -760,7 +760,7 @@ WTO: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011124\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134
       \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
   comments: 
-MRC: !ruby/struct:ISO3166::Subdivision
+MRC: 
   name: 
   code: 
   unofficial_names: 
@@ -810,7 +810,7 @@ MRC: !ruby/struct:ISO3166::Subdivision
       \U00011107\U00011133\U00011123\U00011122\U0001112E"
     uk: Майаро-Ріо-Кларо
   comments: 
-TOB: !ruby/struct:ISO3166::Subdivision
+TOB: 
   name: 
   code: 
   unofficial_names: 

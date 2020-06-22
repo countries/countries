@@ -1,5 +1,5 @@
 ---
-DS: !ruby/struct:ISO3166::Subdivision
+DS: 
   name: Dolnośląskie
   code: 
   unofficial_names:
@@ -66,7 +66,7 @@ DS: !ruby/struct:ISO3166::Subdivision
     zh: 下西里西亚省
     ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120\U0001111A\U00011134"
   comments: 
-KP: !ruby/struct:ISO3166::Subdivision
+KP: 
   name: Kujawsko-pomorskie
   code: 
   unofficial_names:
@@ -133,7 +133,7 @@ KP: !ruby/struct:ISO3166::Subdivision
     vi: Kujawsko-Pomorskie
     ccp: "\U00011107\U0001112A\U00011120\U0001111E\U00011128\U00011120\U0001112C\U0001111A\U00011134-\U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
   comments: 
-LU: !ruby/struct:ISO3166::Subdivision
+LU: 
   name: Lubelskie
   code: 
   unofficial_names:
@@ -201,7 +201,7 @@ LU: !ruby/struct:ISO3166::Subdivision
     vi: Lubelskie
     ccp: "\U00011123\U0001112A\U0001111B\U00011134\U00011123\U00011128\U0001111A\U00011134"
   comments: 
-LB: !ruby/struct:ISO3166::Subdivision
+LB: 
   name: Lubuskie
   code: 
   unofficial_names:
@@ -268,7 +268,7 @@ LB: !ruby/struct:ISO3166::Subdivision
     vi: Lubuskie
     ccp: "\U00011123\U0001111D\U0001112A\U0001110C\U00011134"
   comments: 
-LD: !ruby/struct:ISO3166::Subdivision
+LD: 
   name: Łódzkie
   code: 
   unofficial_names:
@@ -333,7 +333,7 @@ LD: !ruby/struct:ISO3166::Subdivision
     vi: Łódzkie
     ccp: "\U00011123\U00011127\U00011116\U00011134"
   comments: 
-MA: !ruby/struct:ISO3166::Subdivision
+MA: 
   name: Małopolskie
   code: 
   unofficial_names:
@@ -400,7 +400,7 @@ MA: !ruby/struct:ISO3166::Subdivision
     vi: Małopolskie
     ccp: "\U00011123\U0001112C\U00011125\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: 
-MZ: !ruby/struct:ISO3166::Subdivision
+MZ: 
   name: Mazowieckie
   code: 
   unofficial_names:
@@ -467,7 +467,7 @@ MZ: !ruby/struct:ISO3166::Subdivision
     vi: Mazowieckie
     ccp: "\U0001111F\U0001110E\U0001112E\U0001111E\U00011128\U00011120"
   comments: 
-OP: !ruby/struct:ISO3166::Subdivision
+OP: 
   name: Opolskie
   code: 
   unofficial_names:
@@ -533,7 +533,7 @@ OP: !ruby/struct:ISO3166::Subdivision
     vi: Opolskie
     ccp: "\U00011103\U0001112E\U0001111B\U0001112E\U00011123\U00011134"
   comments: 
-PK: !ruby/struct:ISO3166::Subdivision
+PK: 
   name: Podkarpackie
   code: 
   unofficial_names:
@@ -600,7 +600,7 @@ PK: !ruby/struct:ISO3166::Subdivision
     vi: Podkarpackie
     ccp: "\U00011125\U0001111B\U00011134\U00011107\U00011122\U00011134\U0001111B\U00011117\U00011128\U00011120"
   comments: 
-PD: !ruby/struct:ISO3166::Subdivision
+PD: 
   name: Podlaskie
   code: 
   unofficial_names:
@@ -667,7 +667,7 @@ PD: !ruby/struct:ISO3166::Subdivision
     vi: Podlaskie
     ccp: "\U0001111B\U00011116\U00011134\U00011123\U0001110C\U00011134\U00011107\U00011128"
   comments: 
-PM: !ruby/struct:ISO3166::Subdivision
+PM: 
   name: Pomorskie
   code: 
   unofficial_names:
@@ -734,7 +734,7 @@ PM: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111C\U0001112C\U00011113\U00011122\U0001112C\U00011123\U00011134 \U00011107\U00011133\U00011120\U0001111B\U00011128\U00011111\U00011123\U00011134
       \U00011111\U0001112C\U00011122\U00011128\U00011111\U00011127\U00011122\U00011128"
   comments: 
-SL: !ruby/struct:ISO3166::Subdivision
+SL: 
   name: Śląskie
   code: 
   unofficial_names:
@@ -800,7 +800,7 @@ SL: !ruby/struct:ISO3166::Subdivision
     vi: Śląskie
     ccp: "\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
   comments: 
-SK: !ruby/struct:ISO3166::Subdivision
+SK: 
   name: Świętokrzyskie
   code: 
   unofficial_names:
@@ -865,7 +865,7 @@ SK: !ruby/struct:ISO3166::Subdivision
     vi: Świętokrzyskie
     ccp: "\U00011125\U0001112A\U00011103\U00011128\U00011111\U0001112E\U00011107\U00011133\U00011122\U0001112D\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011128"
   comments: 
-WN: !ruby/struct:ISO3166::Subdivision
+WN: 
   name: Warmińsko-mazurskie
   code: 
   unofficial_names:
@@ -930,7 +930,7 @@ WN: !ruby/struct:ISO3166::Subdivision
     vi: Warmińsko-Mazurskie
     ccp: "\U00011124\U00011122\U00011134\U0001111F\U00011128\U00011120\U0001111A\U00011134-\U0001111F\U00011125\U0001112A\U00011122\U00011128\U00011120"
   comments: 
-WP: !ruby/struct:ISO3166::Subdivision
+WP: 
   name: Wielkopolskie
   code: 
   unofficial_names:
@@ -997,7 +997,7 @@ WP: !ruby/struct:ISO3166::Subdivision
     vi: Wielkopolskie
     ccp: "\U00011109\U00011133\U00011122\U0001112C\U00011111\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: 
-ZP: !ruby/struct:ISO3166::Subdivision
+ZP: 
   name: Zachodniopomorskie
   code: 
   unofficial_names:
@@ -1065,7 +1065,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     vi: Zachodniopomorskie
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
   comments: 
-'02': !ruby/struct:ISO3166::Subdivision
+'02': 
   name: 
   code: 
   unofficial_names: 
@@ -1126,7 +1126,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     th: จังหวัดดอลนือชล็อนสก์
     bg: Долносилезко войводство
   comments: 
-'04': !ruby/struct:ISO3166::Subdivision
+'04': 
   name: 
   code: 
   unofficial_names: 
@@ -1185,7 +1185,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Куяўска-Паморскае ваяводства
     th: จังหวัดกูยาวือ-ปอมอแช
   comments: 
-'06': !ruby/struct:ISO3166::Subdivision
+'06': 
   name: 
   code: 
   unofficial_names: 
@@ -1247,7 +1247,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Люблінскае ваяводства
     th: จังหวัดลูบลิน
   comments: 
-'08': !ruby/struct:ISO3166::Subdivision
+'08': 
   name: 
   code: 
   unofficial_names: 
@@ -1306,7 +1306,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Любушскае ваяводства
     th: จังหวัดลูบุช
   comments: 
-'10': !ruby/struct:ISO3166::Subdivision
+'10': 
   name: 
   code: 
   unofficial_names: 
@@ -1365,7 +1365,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Лодзьскае ваяводства
     th: จังหวัดวูช
   comments: 
-'12': !ruby/struct:ISO3166::Subdivision
+'12': 
   name: 
   code: 
   unofficial_names: 
@@ -1426,7 +1426,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Малапольскае ваяводства
     th: จังหวัดมาวอปอลสกา
   comments: 
-'14': !ruby/struct:ISO3166::Subdivision
+'14': 
   name: 
   code: 
   unofficial_names: 
@@ -1487,7 +1487,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Мазавецкае ваяводства
     th: จังหวัดมาซอฟแช
   comments: 
-'16': !ruby/struct:ISO3166::Subdivision
+'16': 
   name: 
   code: 
   unofficial_names: 
@@ -1547,7 +1547,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Апольскае ваяводства
     th: จังหวัดออปอแล
   comments: 
-'18': !ruby/struct:ISO3166::Subdivision
+'18': 
   name: 
   code: 
   unofficial_names: 
@@ -1608,7 +1608,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Падкарпацкае ваяводства
     th: จังหวัดปอตการ์ปาแช
   comments: 
-'20': !ruby/struct:ISO3166::Subdivision
+'20': 
   name: 
   code: 
   unofficial_names: 
@@ -1669,7 +1669,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Падляскае ваяводства
     th: จังหวัดปอดลาแช
   comments: 
-'22': !ruby/struct:ISO3166::Subdivision
+'22': 
   name: 
   code: 
   unofficial_names: 
@@ -1729,7 +1729,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Паморскае ваяводства
     th: จังหวัดปอมอแช
   comments: 
-'24': !ruby/struct:ISO3166::Subdivision
+'24': 
   name: 
   code: 
   unofficial_names: 
@@ -1789,7 +1789,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Сілезскае ваяводства
     th: จังหวัดชล็อนสก์
   comments: 
-'26': !ruby/struct:ISO3166::Subdivision
+'26': 
   name: 
   code: 
   unofficial_names: 
@@ -1848,7 +1848,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Свентакшыскае ваяводства
     th: จังหวัดชฟีแยนตือ-กชึช
   comments: 
-'28': !ruby/struct:ISO3166::Subdivision
+'28': 
   name: 
   code: 
   unofficial_names: 
@@ -1907,7 +1907,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Вармінска-Мазурскае ваяводства
     th: จังหวัดวาร์เมีย-มาซูรือ
   comments: 
-'30': !ruby/struct:ISO3166::Subdivision
+'30': 
   name: 
   code: 
   unofficial_names: 
@@ -1970,7 +1970,7 @@ ZP: !ruby/struct:ISO3166::Subdivision
     be: Велікапольскае ваяводства
     th: จังหวัดวีแยลกอปอลสกา
   comments: 
-'32': !ruby/struct:ISO3166::Subdivision
+'32': 
   name: 
   code: 
   unofficial_names: 

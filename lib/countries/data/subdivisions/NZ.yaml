@@ -1,5 +1,5 @@
 ---
-AUK: !ruby/struct:ISO3166::Subdivision
+AUK: 
   name: Auckland
   code: 
   unofficial_names: Auckland
@@ -60,7 +60,7 @@ AUK: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U00011127\U00011107\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Окленд
   comments: 
-BOP: !ruby/struct:ISO3166::Subdivision
+BOP: 
   name: Bay of Plenty
   code: 
   unofficial_names: Bay of Plenty
@@ -118,7 +118,7 @@ BOP: !ruby/struct:ISO3166::Subdivision
     cs: Bay of Plenty
     mk: Залив Пленти
   comments: 
-CAN: !ruby/struct:ISO3166::Subdivision
+CAN: 
   name: Canterbury
   code: 
   unofficial_names: Canterbury
@@ -178,7 +178,7 @@ CAN: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U0001111A\U00011134\U00011111\U00011122\U00011134\U0001111D\U0001112A\U00011122\U00011128"
     mk: Кантербери
   comments: 
-GIS: !ruby/struct:ISO3166::Subdivision
+GIS: 
   name: Gisborne
   code: 
   unofficial_names: Gisborne
@@ -234,7 +234,7 @@ GIS: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011109\U00011128\U0001110C\U00011134\U0001111D\U00011127\U00011122\U00011134\U0001111A\U00011134"
     mk: Гизборн
   comments: 
-HKB: !ruby/struct:ISO3166::Subdivision
+HKB: 
   name: Hawke's Bay
   code: 
   unofficial_names: Hawke's Bay
@@ -291,7 +291,7 @@ HKB: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011126\U00011127\U00011107\U0001112C\U0001110C\U00011134 \U0001111D\U0001112C"
     mk: Хоков Залив
   comments: 
-MBH: !ruby/struct:ISO3166::Subdivision
+MBH: 
   name: Marlborough
   code: 
   unofficial_names: Marlborough
@@ -345,7 +345,7 @@ MBH: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U00011122\U00011134\U00011123\U00011134"
     mk: Марлборо
   comments: 
-MWT: !ruby/struct:ISO3166::Subdivision
+MWT: 
   name: Manawatu-Wanganui
   code: 
   unofficial_names:
@@ -403,7 +403,7 @@ MWT: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U0001111A\U00011124\U00011111\U0001112A-\U00011124\U0001110B\U00011134\U00011109\U0001111A\U0001112D\U0001112A"
     mk: Манавату-Вангануи
   comments: 
-NSN: !ruby/struct:ISO3166::Subdivision
+NSN: 
   name: Nelson
   code: 
   unofficial_names: Nelson
@@ -431,7 +431,7 @@ NSN: !ruby/struct:ISO3166::Subdivision
     be: Нельсан
     mk: Нелсон
   comments: 
-NTL: !ruby/struct:ISO3166::Subdivision
+NTL: 
   name: Northland
   code: 
   unofficial_names: Northland
@@ -492,7 +492,7 @@ NTL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011112\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Нортленд
   comments: 
-OTA: !ruby/struct:ISO3166::Subdivision
+OTA: 
   name: Otago
   code: 
   unofficial_names: Otago
@@ -552,7 +552,7 @@ OTA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U00011127\U00011111\U00011109\U0001112E"
     mk: Отаго
   comments: 
-STL: !ruby/struct:ISO3166::Subdivision
+STL: 
   name: Southland
   code: 
   unofficial_names: Southland
@@ -609,7 +609,7 @@ STL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U00011105\U0001112A\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Саутленд
   comments: 
-TAS: !ruby/struct:ISO3166::Subdivision
+TAS: 
   name: Tasman
   code: 
   unofficial_names: Tasman
@@ -664,7 +664,7 @@ TAS: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011111\U0001110C\U00011134\U0001111F\U00011133\U00011120\U0001111A\U00011134"
     mk: Тасман
   comments: 
-TKI: !ruby/struct:ISO3166::Subdivision
+TKI: 
   name: Taranaki
   code: 
   unofficial_names: Taranaki
@@ -721,7 +721,7 @@ TKI: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011111\U00011122\U0001111A\U00011107\U00011128"
     mk: Таранаки
   comments: 
-WGN: !ruby/struct:ISO3166::Subdivision
+WGN: 
   name: Wellington
   code: 
   unofficial_names: Wellington
@@ -778,7 +778,7 @@ WGN: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U00011123\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134"
     mk: Велингтон
   comments: 
-WKO: !ruby/struct:ISO3166::Subdivision
+WKO: 
   name: Waikato
   code: 
   unofficial_names: Waikato
@@ -839,7 +839,7 @@ WKO: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U0001112E\U00011120\U00011107\U00011111\U0001112E"
     mk: Ваикато
   comments: 
-WTC: !ruby/struct:ISO3166::Subdivision
+WTC: 
   name: West Coast
   code: 
   unofficial_names: West Coast
@@ -895,7 +895,7 @@ WTC: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134 \U00011107\U0001112E\U0001110C\U00011134\U00011111\U00011134"
     mk: Западно Крајбрежје
   comments: 
-X1~: !ruby/struct:ISO3166::Subdivision
+X1~: 
   name: Chatham Islands
   code: 
   unofficial_names: Chatham Islands
@@ -909,7 +909,7 @@ X1~: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Chatham Islands
   comments: 
-CIT: !ruby/struct:ISO3166::Subdivision
+CIT: 
   name: 
   code: 
   unofficial_names: 
@@ -975,7 +975,7 @@ CIT: !ruby/struct:ISO3166::Subdivision
     zh: 查塔姆群岛
     ccp: "\U00011107\U00011117\U0001111F\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
   comments: 
-N: !ruby/struct:ISO3166::Subdivision
+N: 
   name: 
   code: 
   unofficial_names: 
@@ -990,7 +990,7 @@ N: !ruby/struct:ISO3166::Subdivision
     en: North Island
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011112\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: 
-S: !ruby/struct:ISO3166::Subdivision
+S: 
   name: 
   code: 
   unofficial_names: 

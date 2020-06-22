@@ -1,5 +1,5 @@
 ---
-'01': !ruby/struct:ISO3166::Subdivision
+'01': 
   name: Aveiro
   code: 
   unofficial_names: Aveiro
@@ -45,7 +45,7 @@
     ccp: "\U00011103\U0001111E\U0001112C\U0001112D\U00011122\U0001112E"
     be: акруга Авейру
   comments: 
-'02': !ruby/struct:ISO3166::Subdivision
+'02': 
   name: Beja
   code: 
   unofficial_names: Beja
@@ -105,7 +105,7 @@
     lt: Bežos apskritis
     ccp: "\U0001111D\U0001112C\U0001110E"
   comments: 
-'03': !ruby/struct:ISO3166::Subdivision
+'03': 
   name: Braga
   code: 
   unofficial_names: Braga
@@ -165,7 +165,7 @@
     lt: Bragos apskritis
     ccp: "\U0001111D\U00011133\U00011122\U00011109"
   comments: 
-'04': !ruby/struct:ISO3166::Subdivision
+'04': 
   name: Bragança
   code: 
   unofficial_names: Bragança
@@ -210,7 +210,7 @@
     ccp: "\U0001111D\U00011133\U00011122\U00011109\U0001111A\U00011134\U00011107"
     be: акруга Браганса
   comments: 
-'05': !ruby/struct:ISO3166::Subdivision
+'05': 
   name: Castelo Branco
   code: 
   unofficial_names: Castelo Branco
@@ -269,7 +269,7 @@
     ccp: "\U00011107\U0001110C\U00011134\U00011111\U0001112C\U00011123\U0001112E \U0001111D\U00011133\U00011122\U0001111A\U00011134\U00011107\U0001112E"
     be: акруга Каштэлу-Бранку
   comments: 
-'06': !ruby/struct:ISO3166::Subdivision
+'06': 
   name: Coimbra
   code: 
   unofficial_names: Coimbra
@@ -328,7 +328,7 @@
     lt: Koimbros apskritis
     ccp: "\U00011107\U00011130\U0001111F\U00011134\U0001111D\U00011133\U00011122"
   comments: 
-'07': !ruby/struct:ISO3166::Subdivision
+'07': 
   name: Évora
   code: 
   unofficial_names: Évora
@@ -387,7 +387,7 @@
     ccp: "\U00011103\U00011128\U0001111E\U0001112E\U00011122"
     be: акруга Эвара
   comments: 
-'08': !ruby/struct:ISO3166::Subdivision
+'08': 
   name: Faro
   code: 
   unofficial_names: Faro
@@ -447,7 +447,7 @@
     ccp: "\U0001111C\U00011122\U0001112E"
     be: акруга Фару
   comments: 
-'09': !ruby/struct:ISO3166::Subdivision
+'09': 
   name: Guarda
   code: 
   unofficial_names: Guarda
@@ -492,7 +492,7 @@
     ccp: "\U00011109\U0001112A\U00011120\U00011122\U00011134\U00011113"
     be: акруга Гуарда
   comments: 
-'10': !ruby/struct:ISO3166::Subdivision
+'10': 
   name: Leiria
   code: 
   unofficial_names: Leiria
@@ -552,7 +552,7 @@
     ccp: "\U00011123\U0001112C\U00011103\U00011128\U00011120\U00011122\U00011128\U00011120"
     be: акруга Лейрыя
   comments: 
-'11': !ruby/struct:ISO3166::Subdivision
+'11': 
   name: Lisboa
   code: 
   unofficial_names: Lisboa
@@ -600,7 +600,7 @@
     sr_Latn: Lisabon
     ccp: "\U00011123\U00011128\U0001110C\U00011134\U0001111D\U00011127\U0001111A\U00011134"
   comments: 
-'12': !ruby/struct:ISO3166::Subdivision
+'12': 
   name: Portalegre
   code: 
   unofficial_names: Portalegre
@@ -645,7 +645,7 @@
     ccp: "\U0001111B\U00011127\U00011122\U00011134\U00011111\U00011123\U0001112C\U00011107\U00011134\U00011122\U0001112C"
     be: акруга Порталегры
   comments: 
-'13': !ruby/struct:ISO3166::Subdivision
+'13': 
   name: Porto
   code: 
   unofficial_names: Porto
@@ -689,7 +689,7 @@
     ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U0001112E"
     mk: Порто
   comments: 
-'14': !ruby/struct:ISO3166::Subdivision
+'14': 
   name: Santarém
   code: 
   unofficial_names: Santarém
@@ -749,7 +749,7 @@
     ccp: "\U00011125\U0001111A\U00011134\U00011111\U00011122\U00011134\U00011122\U0001112C\U0001111F\U00011134"
     be: акруга Сантарэн
   comments: 
-'15': !ruby/struct:ISO3166::Subdivision
+'15': 
   name: Setúbal
   code: 
   unofficial_names: Setúbal
@@ -808,7 +808,7 @@
     lt: Setubalo apskritis
     ccp: "\U00011125\U0001112C\U00011111\U0001112A\U0001111D\U00011127\U00011123\U00011134"
   comments: 
-'16': !ruby/struct:ISO3166::Subdivision
+'16': 
   name: Viana do Castelo
   code: 
   unofficial_names: Viana do Castelo
@@ -867,7 +867,7 @@
     lt: Vijanos de Kastelo apskritis
     ccp: "\U0001111E\U00011128\U00011120\U0001111A \U00011113\U0001112E \U00011107\U0001110C\U00011134\U00011111\U0001112C\U00011123\U0001112E"
   comments: 
-'17': !ruby/struct:ISO3166::Subdivision
+'17': 
   name: Vila Real
   code: 
   unofficial_names: Vila Real
@@ -911,7 +911,7 @@
     ccp: "\U0001111E\U00011128\U00011123 \U00011122\U00011128\U00011120\U0001112C\U00011123\U00011134"
     be: акруга Віла-Рэал
   comments: 
-'18': !ruby/struct:ISO3166::Subdivision
+'18': 
   name: Viseu
   code: 
   unofficial_names: Viseu
@@ -970,7 +970,7 @@
     ccp: "\U0001111E\U00011128\U00011125\U0001112C\U00011105\U0001112A"
     be: акруга Візеу
   comments: 
-'20': !ruby/struct:ISO3166::Subdivision
+'20': 
   name: Açores
   code: 
   unofficial_names: Açores
@@ -1057,7 +1057,7 @@
     bs: Azores
     mk: Азорски Острови
   comments: 
-'30': !ruby/struct:ISO3166::Subdivision
+'30': 
   name: Madeira
   code: 
   unofficial_names: Madeira

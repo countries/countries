@@ -1,5 +1,5 @@
 ---
-JC: !ruby/struct:ISO3166::Subdivision
+JC: 
   name: Jihočeský kraj
   code: 
   unofficial_names:
@@ -16,7 +16,7 @@ JC: !ruby/struct:ISO3166::Subdivision
     en: South Bohemia
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111D\U00011127\U00011126\U0001112C\U0001111F\U00011128\U00011120"
   comments: 
-JM: !ruby/struct:ISO3166::Subdivision
+JM: 
   name: 'Jihomoravský kraj '
   code: 
   unofficial_names:
@@ -32,7 +32,7 @@ JM: !ruby/struct:ISO3166::Subdivision
     en: South Moravia
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111F\U00011127\U00011122\U00011134\U0001111E\U00011128\U00011120"
   comments: 
-KA: !ruby/struct:ISO3166::Subdivision
+KA: 
   name: Karlovarský kraj
   code: 
   unofficial_names: Karlovarský kraj
@@ -48,7 +48,7 @@ KA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U00011122\U00011134\U00011123\U0001112E\U0001111E\U00011128 \U0001111E\U00011122\U00011128
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-KR: !ruby/struct:ISO3166::Subdivision
+KR: 
   name: Královéhradecký kraj
   code: 
   unofficial_names: Královéhradecký kraj
@@ -64,7 +64,7 @@ KR: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011126\U00011133\U00011122\U00011113\U0001112C\U00011107\U00011134 \U00011107\U00011133\U00011122\U00011123\U0001112E\U0001111B\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-LI: !ruby/struct:ISO3166::Subdivision
+LI: 
   name: Liberecký kraj
   code: 
   unofficial_names: Liberecký kraj
@@ -80,7 +80,7 @@ LI: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011123\U00011128\U0001111D\U0001112C\U00011122\U0001112C\U00011107\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-MO: !ruby/struct:ISO3166::Subdivision
+MO: 
   name: Moravskoslezský kraj
   code: 
   unofficial_names:
@@ -96,7 +96,7 @@ MO: !ruby/struct:ISO3166::Subdivision
     en: Moravian-Silesia
     ccp: "\U0001111F\U0001112E\U00011122\U0001111E\U00011128\U00011120\U0001111A\U00011134-\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
   comments: 
-OL: !ruby/struct:ISO3166::Subdivision
+OL: 
   name: Olomoucký kraj
   code: 
   unofficial_names: Olomoucký kraj
@@ -112,7 +112,7 @@ OL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011103\U00011127\U00011123\U0001112E\U0001111F\U0001112F\U00011107\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-PA: !ruby/struct:ISO3166::Subdivision
+PA: 
   name: Pardubický kraj
   code: 
   unofficial_names: Pardubický kraj
@@ -128,7 +128,7 @@ PA: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U00011122\U00011134\U00011113\U0001112A\U0001111D\U0001112D\U0001110C\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-PL: !ruby/struct:ISO3166::Subdivision
+PL: 
   name: Plzeňský kraj
   code: 
   unofficial_names: Plzeňský kraj
@@ -143,7 +143,7 @@ PL: !ruby/struct:ISO3166::Subdivision
     en: Plzeň Region
     ccp: "\U0001111B\U00011133\U00011123\U0001110E\U0001112C\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-PR: !ruby/struct:ISO3166::Subdivision
+PR: 
   name: Praha, hlavní město
   code: 
   unofficial_names:
@@ -162,7 +162,7 @@ PR: !ruby/struct:ISO3166::Subdivision
     en: Prague
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C"
   comments: 
-ST: !ruby/struct:ISO3166::Subdivision
+ST: 
   name: Středočeský kraj
   code: 
   unofficial_names:
@@ -181,7 +181,7 @@ ST: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
       \U0001111D\U0001112E\U00011126\U0001112C\U0001111F\U00011128\U00011120"
   comments: 
-US: !ruby/struct:ISO3166::Subdivision
+US: 
   name: Ústecký kraj
   code: 
   unofficial_names: Ústecký kraj
@@ -197,7 +197,7 @@ US: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011105\U0001112A\U0001110C\U00011134\U00011111\U00011128 \U0001111A\U00011116\U00011134
       \U00011123\U0001111D\U0001112C\U0001111F\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-VY: !ruby/struct:ISO3166::Subdivision
+VY: 
   name: Vysočina
   code: 
   unofficial_names:
@@ -213,7 +213,7 @@ VY: !ruby/struct:ISO3166::Subdivision
     en: Vysočina²
     ccp: "\U0001111E\U00011128\U00011125\U0001112E\U00011125\U00011128\U0001111A"
   comments: 
-ZL: !ruby/struct:ISO3166::Subdivision
+ZL: 
   name: Zlínský kraj
   code: 
   unofficial_names: Zlínský kraj
@@ -228,7 +228,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Zlín Region
     ccp: "\U0001110E\U00011133\U00011123\U00011128\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
   comments: 
-'10': !ruby/struct:ISO3166::Subdivision
+'10': 
   name: 
   code: 
   unofficial_names: 
@@ -327,7 +327,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     mk: Прага
     lo: ປຣາກ
   comments: 
-'20': !ruby/struct:ISO3166::Subdivision
+'20': 
   name: 
   code: 
   unofficial_names: 
@@ -397,7 +397,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Srednjočeški kraj
     mk: Средночешки крај
   comments: 
-20A: !ruby/struct:ISO3166::Subdivision
+20A: 
   name: 
   code: 
   unofficial_names: 
@@ -438,7 +438,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     es: Distrito de Praga-Oeste
   comments: 
-20B: !ruby/struct:ISO3166::Subdivision
+20B: 
   name: 
   code: 
   unofficial_names: 
@@ -484,7 +484,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Příbramgo barrutia
     mk: Пшибрам
   comments: 
-20C: !ruby/struct:ISO3166::Subdivision
+20C: 
   name: 
   code: 
   unofficial_names: 
@@ -529,7 +529,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Rakovníkeko barrutia
     uk: Раковнік
   comments: 
-'31': !ruby/struct:ISO3166::Subdivision
+'31': 
   name: 
   code: 
   unofficial_names: 
@@ -597,7 +597,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Južnočeški kraj
     mk: Јужночешки крај
   comments: 
-'32': !ruby/struct:ISO3166::Subdivision
+'32': 
   name: 
   code: 
   unofficial_names: 
@@ -664,7 +664,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U00011133\U00011123\U0001112C\U0001111A\U00011134\U00011125\U00011134\U00011107\U00011129"
     bs: Plzenjski kraj
   comments: 
-'41': !ruby/struct:ISO3166::Subdivision
+'41': 
   name: 
   code: 
   unofficial_names: 
@@ -732,7 +732,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Karlovarski kraj
     mk: Карловарски крај
   comments: 
-'42': !ruby/struct:ISO3166::Subdivision
+'42': 
   name: 
   code: 
   unofficial_names: 
@@ -800,7 +800,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Ustečki kraj
     mk: Устечки крај
   comments: 
-'51': !ruby/struct:ISO3166::Subdivision
+'51': 
   name: 
   code: 
   unofficial_names: 
@@ -868,7 +868,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Liberecki kraj
     mk: Либеречки крај
   comments: 
-'52': !ruby/struct:ISO3166::Subdivision
+'52': 
   name: 
   code: 
   unofficial_names: 
@@ -936,7 +936,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Kralovehradecki kraj
     mk: Краловохрадечки крај
   comments: 
-'53': !ruby/struct:ISO3166::Subdivision
+'53': 
   name: 
   code: 
   unofficial_names: 
@@ -1004,7 +1004,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Pardubički kraj
     mk: Пардубички крај
   comments: 
-'63': !ruby/struct:ISO3166::Subdivision
+'63': 
   name: 
   code: 
   unofficial_names: 
@@ -1073,7 +1073,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Visočinski kraj
     mk: Височински крај
   comments: 
-'64': !ruby/struct:ISO3166::Subdivision
+'64': 
   name: 
   code: 
   unofficial_names: 
@@ -1143,7 +1143,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Južnomoravski kraj
     mk: Јужноморавски крај
   comments: 
-'71': !ruby/struct:ISO3166::Subdivision
+'71': 
   name: 
   code: 
   unofficial_names: 
@@ -1211,7 +1211,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Olomoucki kraj
     mk: Оломоучки крај
   comments: 
-'72': !ruby/struct:ISO3166::Subdivision
+'72': 
   name: 
   code: 
   unofficial_names: 
@@ -1280,7 +1280,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Zlinski kraj
     mk: Злински крај
   comments: 
-'80': !ruby/struct:ISO3166::Subdivision
+'80': 
   name: 
   code: 
   unofficial_names: 
@@ -1349,7 +1349,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     bs: Moravskošleski kraj
     mk: Моравскошлески крај
   comments: 
-'201': !ruby/struct:ISO3166::Subdivision
+'201': 
   name: 
   code: 
   unofficial_names: 
@@ -1398,7 +1398,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Benešov
     eu: Benešoveko barrutia
   comments: 
-'202': !ruby/struct:ISO3166::Subdivision
+'202': 
   name: 
   code: 
   unofficial_names: 
@@ -1446,7 +1446,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     be: Бераўн
     mk: Бероун
   comments: 
-'203': !ruby/struct:ISO3166::Subdivision
+'203': 
   name: 
   code: 
   unofficial_names: 
@@ -1493,7 +1493,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011107\U00011133\U00011123\U00011116\U00011134\U0001111A\U0001112E"
     uk: Кладно
   comments: 
-'204': !ruby/struct:ISO3166::Subdivision
+'204': 
   name: 
   code: 
   unofficial_names: 
@@ -1539,7 +1539,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Kolíngo barrutia
     uk: Колін
   comments: 
-'205': !ruby/struct:ISO3166::Subdivision
+'205': 
   name: 
   code: 
   unofficial_names: 
@@ -1587,7 +1587,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     be: раён Кутна-Гора
     mk: Кутна Хора
   comments: 
-'206': !ruby/struct:ISO3166::Subdivision
+'206': 
   name: 
   code: 
   unofficial_names: 
@@ -1634,7 +1634,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111F\U0001112C\U00011123\U00011134\U0001111A\U00011128\U00011107\U00011134"
     es: Distrito de Mělník
   comments: 
-'207': !ruby/struct:ISO3166::Subdivision
+'207': 
   name: 
   code: 
   unofficial_names: 
@@ -1681,7 +1681,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Млада-Болеслав
     be: Млада Болеслаў
   comments: 
-'208': !ruby/struct:ISO3166::Subdivision
+'208': 
   name: 
   code: 
   unofficial_names: 
@@ -1726,7 +1726,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111A\U00011128\U00011120\U0001111F\U00011134\U0001111D\U00011122\U00011133\U00011107\U00011134"
     es: Distrito de Nymburk
   comments: 
-'209': !ruby/struct:ISO3166::Subdivision
+'209': 
   name: 
   code: 
   unofficial_names: 
@@ -1771,7 +1771,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Praga-Ekialdeko barrutia
     be: Прага-ўсход
   comments: 
-'311': !ruby/struct:ISO3166::Subdivision
+'311': 
   name: 
   code: 
   unofficial_names: 
@@ -1819,7 +1819,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: České Budějoviceko barrutia
     uk: Чеське Будейовіце (округ)
   comments: 
-'312': !ruby/struct:ISO3166::Subdivision
+'312': 
   name: 
   code: 
   unofficial_names: 
@@ -1868,7 +1868,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Чеський Крумлов
     be: раён Чэскі-Крумлаў
   comments: 
-'313': !ruby/struct:ISO3166::Subdivision
+'313': 
   name: 
   code: 
   unofficial_names: 
@@ -1917,7 +1917,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Jindřichův Hradeceko barrutia
     uk: Їндржіхув Градець
   comments: 
-'314': !ruby/struct:ISO3166::Subdivision
+'314': 
   name: 
   code: 
   unofficial_names: 
@@ -1964,7 +1964,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Пісек
     be: Пісек
   comments: 
-'315': !ruby/struct:ISO3166::Subdivision
+'315': 
   name: 
   code: 
   unofficial_names: 
@@ -2011,7 +2011,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Прахатіце
     be: Прахаціцы
   comments: 
-'316': !ruby/struct:ISO3166::Subdivision
+'316': 
   name: 
   code: 
   unofficial_names: 
@@ -2058,7 +2058,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Strakoniceko barrutia
     uk: Страконіце
   comments: 
-'317': !ruby/struct:ISO3166::Subdivision
+'317': 
   name: 
   code: 
   unofficial_names: 
@@ -2104,7 +2104,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Táborko barrutia
     uk: Табор
   comments: 
-'321': !ruby/struct:ISO3166::Subdivision
+'321': 
   name: 
   code: 
   unofficial_names: 
@@ -2149,7 +2149,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     pt: Domažlice (distrito)
     uk: Домажліце
   comments: 
-'322': !ruby/struct:ISO3166::Subdivision
+'322': 
   name: 
   code: 
   unofficial_names: 
@@ -2195,7 +2195,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Klatovyko barrutia
     uk: Клатови
   comments: 
-'323': !ruby/struct:ISO3166::Subdivision
+'323': 
   name: 
   code: 
   unofficial_names: 
@@ -2236,7 +2236,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Ciudad de Pilsen
     uk: Пльзень-місто
   comments: 
-'324': !ruby/struct:ISO3166::Subdivision
+'324': 
   name: 
   code: 
   unofficial_names: 
@@ -2278,7 +2278,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Plzeň-Hegoaldea barrutia
     uk: Пльзень-південь
   comments: 
-'325': !ruby/struct:ISO3166::Subdivision
+'325': 
   name: 
   code: 
   unofficial_names: 
@@ -2319,7 +2319,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Plzeň-Iparraldeko barrutia
     uk: Пльзень-північ
   comments: 
-'326': !ruby/struct:ISO3166::Subdivision
+'326': 
   name: 
   code: 
   unofficial_names: 
@@ -2364,7 +2364,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Rokycanyko barrutia
     uk: Рокицани
   comments: 
-'327': !ruby/struct:ISO3166::Subdivision
+'327': 
   name: 
   code: 
   unofficial_names: 
@@ -2410,7 +2410,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Tachoveko barrutia
     uk: Тахов
   comments: 
-'411': !ruby/struct:ISO3166::Subdivision
+'411': 
   name: 
   code: 
   unofficial_names: 
@@ -2458,7 +2458,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: округ Хеб
     mk: Хеб
   comments: 
-'412': !ruby/struct:ISO3166::Subdivision
+'412': 
   name: 
   code: 
   unofficial_names: 
@@ -2504,7 +2504,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Karlovy Varyko barrutia
     uk: Округ Карлові Вари
   comments: 
-'413': !ruby/struct:ISO3166::Subdivision
+'413': 
   name: 
   code: 
   unofficial_names: 
@@ -2550,7 +2550,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Sokoloveko barrutia
     uk: Соколов
   comments: 
-'421': !ruby/struct:ISO3166::Subdivision
+'421': 
   name: 
   code: 
   unofficial_names: 
@@ -2596,7 +2596,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Дечин
     be: Дзечын
   comments: 
-'422': !ruby/struct:ISO3166::Subdivision
+'422': 
   name: 
   code: 
   unofficial_names: 
@@ -2641,7 +2641,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Chomutov
     eu: Chomutoveko barrutia
   comments: 
-'423': !ruby/struct:ISO3166::Subdivision
+'423': 
   name: 
   code: 
   unofficial_names: 
@@ -2687,7 +2687,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Litoměřiceko barrutia
     uk: Літомержице
   comments: 
-'424': !ruby/struct:ISO3166::Subdivision
+'424': 
   name: 
   code: 
   unofficial_names: 
@@ -2733,7 +2733,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Lounyko barrutia
     uk: Лоуни
   comments: 
-'425': !ruby/struct:ISO3166::Subdivision
+'425': 
   name: 
   code: 
   unofficial_names: 
@@ -2776,7 +2776,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Most
     uk: Мост
   comments: 
-'426': !ruby/struct:ISO3166::Subdivision
+'426': 
   name: 
   code: 
   unofficial_names: 
@@ -2821,7 +2821,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Teplice
     uk: Тепліце
   comments: 
-'427': !ruby/struct:ISO3166::Subdivision
+'427': 
   name: 
   code: 
   unofficial_names: 
@@ -2865,7 +2865,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Ústí nad Labem
     be: Усці-над-Лабем
   comments: 
-'511': !ruby/struct:ISO3166::Subdivision
+'511': 
   name: 
   code: 
   unofficial_names: 
@@ -2909,7 +2909,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Česká Lípa
     uk: Чеська Липа
   comments: 
-'512': !ruby/struct:ISO3166::Subdivision
+'512': 
   name: 
   code: 
   unofficial_names: 
@@ -2955,7 +2955,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Jablonec nad Nisouko barrutia
     uk: Яблонець-над-Нисою
   comments: 
-'513': !ruby/struct:ISO3166::Subdivision
+'513': 
   name: 
   code: 
   unofficial_names: 
@@ -3000,7 +3000,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Liberec
     uk: округ Ліберець
   comments: 
-'514': !ruby/struct:ISO3166::Subdivision
+'514': 
   name: 
   code: 
   unofficial_names: 
@@ -3046,7 +3046,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Семіли
     be: раён Семілі
   comments: 
-'521': !ruby/struct:ISO3166::Subdivision
+'521': 
   name: 
   code: 
   unofficial_names: 
@@ -3093,7 +3093,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Hradec Královéko barrutia
     uk: Градець-Кралове
   comments: 
-'522': !ruby/struct:ISO3166::Subdivision
+'522': 
   name: 
   code: 
   unofficial_names: 
@@ -3138,7 +3138,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Jičíngo barrutia
     uk: Їчін
   comments: 
-'523': !ruby/struct:ISO3166::Subdivision
+'523': 
   name: 
   code: 
   unofficial_names: 
@@ -3184,7 +3184,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Náchodeko barrutia
     uk: Наход
   comments: 
-'524': !ruby/struct:ISO3166::Subdivision
+'524': 
   name: 
   code: 
   unofficial_names: 
@@ -3231,7 +3231,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Rychnov nad Kněžnouko barrutia
     uk: Рихнов-над-Кнєжной
   comments: 
-'525': !ruby/struct:ISO3166::Subdivision
+'525': 
   name: 
   code: 
   unofficial_names: 
@@ -3279,7 +3279,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Трутнов
     be: раён Трутнаў
   comments: 
-'531': !ruby/struct:ISO3166::Subdivision
+'531': 
   name: 
   code: 
   unofficial_names: 
@@ -3325,7 +3325,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Chrudim
     uk: Хрудім
   comments: 
-'532': !ruby/struct:ISO3166::Subdivision
+'532': 
   name: 
   code: 
   unofficial_names: 
@@ -3372,7 +3372,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Pardubiceko barrutia
     uk: Пардубице
   comments: 
-'533': !ruby/struct:ISO3166::Subdivision
+'533': 
   name: 
   code: 
   unofficial_names: 
@@ -3420,7 +3420,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Svitavyko barrutia
     uk: Світави
   comments: 
-'534': !ruby/struct:ISO3166::Subdivision
+'534': 
   name: 
   code: 
   unofficial_names: 
@@ -3469,7 +3469,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Усті-над-Орлиццю
     be: Усці-над-Орліцай
   comments: 
-'631': !ruby/struct:ISO3166::Subdivision
+'631': 
   name: 
   code: 
   unofficial_names: 
@@ -3517,7 +3517,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Havlíčkův Brodeko barrutia
     uk: Гавличкув-Брод
   comments: 
-'632': !ruby/struct:ISO3166::Subdivision
+'632': 
   name: 
   code: 
   unofficial_names: 
@@ -3566,7 +3566,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Jihlavako barrutia
     uk: Їглава
   comments: 
-'633': !ruby/struct:ISO3166::Subdivision
+'633': 
   name: 
   code: 
   unofficial_names: 
@@ -3614,7 +3614,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Pelhřimoveko barrutia
     uk: Пельгржимов
   comments: 
-'634': !ruby/struct:ISO3166::Subdivision
+'634': 
   name: 
   code: 
   unofficial_names: 
@@ -3663,7 +3663,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Тршебич
     be: раён Тршэбіч
   comments: 
-'635': !ruby/struct:ISO3166::Subdivision
+'635': 
   name: 
   code: 
   unofficial_names: 
@@ -3710,7 +3710,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     pt: Žďár nad Sázavou (distrito)
     uk: Ждяр-над-Сазавою
   comments: 
-'641': !ruby/struct:ISO3166::Subdivision
+'641': 
   name: 
   code: 
   unofficial_names: 
@@ -3758,7 +3758,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Blanskoko barrutia
     uk: Бланско
   comments: 
-'642': !ruby/struct:ISO3166::Subdivision
+'642': 
   name: 
   code: 
   unofficial_names: 
@@ -3798,7 +3798,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Брно-місто
     mk: Брно-град
   comments: 
-'643': !ruby/struct:ISO3166::Subdivision
+'643': 
   name: 
   code: 
   unofficial_names: 
@@ -3845,7 +3845,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Брно-околиця
     mk: Брно-предградие
   comments: 
-'644': !ruby/struct:ISO3166::Subdivision
+'644': 
   name: 
   code: 
   unofficial_names: 
@@ -3893,7 +3893,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Břeclaveko barrutia
     uk: Бржецлав
   comments: 
-'645': !ruby/struct:ISO3166::Subdivision
+'645': 
   name: 
   code: 
   unofficial_names: 
@@ -3939,7 +3939,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Hodoníngo barrutia
     uk: Годонін
   comments: 
-'646': !ruby/struct:ISO3166::Subdivision
+'646': 
   name: 
   code: 
   unofficial_names: 
@@ -3984,7 +3984,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Vyškov
     uk: Вишков
   comments: 
-'647': !ruby/struct:ISO3166::Subdivision
+'647': 
   name: 
   code: 
   unofficial_names: 
@@ -4029,7 +4029,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Znojmoko barrutia
     uk: Зноймо
   comments: 
-'711': !ruby/struct:ISO3166::Subdivision
+'711': 
   name: 
   code: 
   unofficial_names: 
@@ -4075,7 +4075,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Jeseníkeko barrutia
     uk: Єсенік
   comments: 
-'712': !ruby/struct:ISO3166::Subdivision
+'712': 
   name: 
   code: 
   unofficial_names: 
@@ -4122,7 +4122,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Оломоуц
     be: Оламаўц
   comments: 
-'713': !ruby/struct:ISO3166::Subdivision
+'713': 
   name: 
   code: 
   unofficial_names: 
@@ -4170,7 +4170,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Простейов
     be: Просцеёў
   comments: 
-'714': !ruby/struct:ISO3166::Subdivision
+'714': 
   name: 
   code: 
   unofficial_names: 
@@ -4217,7 +4217,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     es: Distrito de Přerov
     uk: Пршеров
   comments: 
-'715': !ruby/struct:ISO3166::Subdivision
+'715': 
   name: 
   code: 
   unofficial_names: 
@@ -4262,7 +4262,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     pt: Šumperk (distrito)
     uk: Шумперк
   comments: 
-'721': !ruby/struct:ISO3166::Subdivision
+'721': 
   name: 
   code: 
   unofficial_names: 
@@ -4310,7 +4310,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Kroměřížko barrutia
     be: Кромержыж
   comments: 
-'722': !ruby/struct:ISO3166::Subdivision
+'722': 
   name: 
   code: 
   unofficial_names: 
@@ -4357,7 +4357,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Uherské Hradištěko barrutia
     uk: Угерске Градіште
   comments: 
-'723': !ruby/struct:ISO3166::Subdivision
+'723': 
   name: 
   code: 
   unofficial_names: 
@@ -4403,7 +4403,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111E\U00011128\U00011125\U0001112C\U00011111\U00011128\U0001111A\U00011134"
     es: Distrito de Vsetín
   comments: 
-'724': !ruby/struct:ISO3166::Subdivision
+'724': 
   name: 
   code: 
   unofficial_names: 
@@ -4451,7 +4451,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ro: Districtul Zlín
     uk: Злін
   comments: 
-'801': !ruby/struct:ISO3166::Subdivision
+'801': 
   name: 
   code: 
   unofficial_names: 
@@ -4495,7 +4495,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Bruntálgo barrutia
     uk: Округ Брунталь
   comments: 
-'802': !ruby/struct:ISO3166::Subdivision
+'802': 
   name: 
   code: 
   unofficial_names: 
@@ -4542,7 +4542,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Frýdek-Místekeko barrutia
     uk: Фридек-Містек
   comments: 
-'803': !ruby/struct:ISO3166::Subdivision
+'803': 
   name: 
   code: 
   unofficial_names: 
@@ -4588,7 +4588,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Karvináko barrutia
     uk: Карвіна
   comments: 
-'804': !ruby/struct:ISO3166::Subdivision
+'804': 
   name: 
   code: 
   unofficial_names: 
@@ -4635,7 +4635,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     eu: Nový Jičíngo barrutia
     uk: Новий Їчин
   comments: 
-'805': !ruby/struct:ISO3166::Subdivision
+'805': 
   name: 
   code: 
   unofficial_names: 
@@ -4682,7 +4682,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Опава
     be: раён Опава
   comments: 
-'806': !ruby/struct:ISO3166::Subdivision
+'806': 
   name: 
   code: 
   unofficial_names: 
@@ -4725,7 +4725,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     uk: Острава-місто
     be: Острава-горад
   comments: 
-'101': !ruby/struct:ISO3166::Subdivision
+'101': 
   name: 
   code: 
   unofficial_names: 
@@ -4756,7 +4756,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137"
     fr: Prague 1
   comments: 
-'102': !ruby/struct:ISO3166::Subdivision
+'102': 
   name: 
   code: 
   unofficial_names: 
@@ -4787,7 +4787,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138"
     he: פראג 2
   comments: 
-'103': !ruby/struct:ISO3166::Subdivision
+'103': 
   name: 
   code: 
   unofficial_names: 
@@ -4814,7 +4814,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 3
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011139"
   comments: 
-'113': !ruby/struct:ISO3166::Subdivision
+'113': 
   name: 
   code: 
   unofficial_names: 
@@ -4842,7 +4842,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 13
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011139"
   comments: 
-'104': !ruby/struct:ISO3166::Subdivision
+'104': 
   name: 
   code: 
   unofficial_names: 
@@ -4870,7 +4870,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 4
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113A"
   comments: 
-'105': !ruby/struct:ISO3166::Subdivision
+'105': 
   name: 
   code: 
   unofficial_names: 
@@ -4897,7 +4897,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 5
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113B"
   comments: 
-'106': !ruby/struct:ISO3166::Subdivision
+'106': 
   name: 
   code: 
   unofficial_names: 
@@ -4925,7 +4925,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 6
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113C"
   comments: 
-'107': !ruby/struct:ISO3166::Subdivision
+'107': 
   name: 
   code: 
   unofficial_names: 
@@ -4953,7 +4953,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     zh: 布拉格第七區
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113D"
   comments: 
-'108': !ruby/struct:ISO3166::Subdivision
+'108': 
   name: 
   code: 
   unofficial_names: 
@@ -4980,7 +4980,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 8
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113E"
   comments: 
-'109': !ruby/struct:ISO3166::Subdivision
+'109': 
   name: 
   code: 
   unofficial_names: 
@@ -5007,7 +5007,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 9
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113F"
   comments: 
-'110': !ruby/struct:ISO3166::Subdivision
+'110': 
   name: 
   code: 
   unofficial_names: 
@@ -5034,7 +5034,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 10
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011136"
   comments: 
-'111': !ruby/struct:ISO3166::Subdivision
+'111': 
   name: 
   code: 
   unofficial_names: 
@@ -5058,7 +5058,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 11
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011137"
   comments: 
-'112': !ruby/struct:ISO3166::Subdivision
+'112': 
   name: 
   code: 
   unofficial_names: 
@@ -5082,7 +5082,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 12
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011138"
   comments: 
-'114': !ruby/struct:ISO3166::Subdivision
+'114': 
   name: 
   code: 
   unofficial_names: 
@@ -5106,7 +5106,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ur: پراگ 14
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113A"
   comments: 
-'115': !ruby/struct:ISO3166::Subdivision
+'115': 
   name: 
   code: 
   unofficial_names: 
@@ -5131,7 +5131,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     zh: 布拉格15区
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113B"
   comments: 
-'116': !ruby/struct:ISO3166::Subdivision
+'116': 
   name: 
   code: 
   unofficial_names: 
@@ -5156,7 +5156,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Praha 16
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113C"
   comments: 
-'117': !ruby/struct:ISO3166::Subdivision
+'117': 
   name: 
   code: 
   unofficial_names: 
@@ -5177,7 +5177,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Praha 17
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113D"
   comments: 
-'118': !ruby/struct:ISO3166::Subdivision
+'118': 
   name: 
   code: 
   unofficial_names: 
@@ -5198,7 +5198,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Praha 18
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113E"
   comments: 
-'119': !ruby/struct:ISO3166::Subdivision
+'119': 
   name: 
   code: 
   unofficial_names: 
@@ -5218,7 +5218,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Kbely
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113F"
   comments: 
-'120': !ruby/struct:ISO3166::Subdivision
+'120': 
   name: 
   code: 
   unofficial_names: 
@@ -5241,7 +5241,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     hy: Պրահա 20
     sk: Horní Počernice
   comments: 
-'121': !ruby/struct:ISO3166::Subdivision
+'121': 
   name: 
   code: 
   unofficial_names: 
@@ -5266,7 +5266,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Praha 21
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138\U00011137"
   comments: 
-'122': !ruby/struct:ISO3166::Subdivision
+'122': 
   name: 
   code: 
   unofficial_names: 
@@ -5289,7 +5289,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     sv: Praha 22
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138\U00011138"
   comments: 
-10A: !ruby/struct:ISO3166::Subdivision
+10A: 
   name: 
   code: 
   unofficial_names: 
@@ -5304,7 +5304,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 10
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011136"
   comments: 
-10B: !ruby/struct:ISO3166::Subdivision
+10B: 
   name: 
   code: 
   unofficial_names: 
@@ -5319,7 +5319,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 11
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011137"
   comments: 
-10C: !ruby/struct:ISO3166::Subdivision
+10C: 
   name: 
   code: 
   unofficial_names: 
@@ -5334,7 +5334,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 12
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011138"
   comments: 
-10D: !ruby/struct:ISO3166::Subdivision
+10D: 
   name: 
   code: 
   unofficial_names: 
@@ -5349,7 +5349,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 13²
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011139"
   comments: 
-10E: !ruby/struct:ISO3166::Subdivision
+10E: 
   name: 
   code: 
   unofficial_names: 
@@ -5364,7 +5364,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 14
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U0001113A"
   comments: 
-10F: !ruby/struct:ISO3166::Subdivision
+10F: 
   name: 
   code: 
   unofficial_names: 
@@ -5379,7 +5379,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Prague 15²
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U0001113B"
   comments: 
-'611': !ruby/struct:ISO3166::Subdivision
+'611': 
   name: 
   code: 
   unofficial_names: 
@@ -5395,7 +5395,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011126\U0001111B\U00011134\U00011123\U00011128\U00011107\U00011134\U00011107\U0001112A\U0001111B\U00011134
       \U0001111D\U00011133\U00011122\U0001112E\U00011116\U00011134"
   comments: 
-'612': !ruby/struct:ISO3166::Subdivision
+'612': 
   name: 
   code: 
   unofficial_names: 
@@ -5410,7 +5410,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Jihlava²
     ccp: "\U0001110E\U00011128\U00011126\U00011134\U00011123\U0001111B\U00011134"
   comments: 
-'613': !ruby/struct:ISO3166::Subdivision
+'613': 
   name: 
   code: 
   unofficial_names: 
@@ -5425,7 +5425,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Pelhřimov²
     ccp: "\U0001111B\U0001112C\U00011118\U00011126\U00011133\U00011122\U00011128\U0001111F\U0001112E\U0001111B\U00011134"
   comments: 
-'614': !ruby/struct:ISO3166::Subdivision
+'614': 
   name: 
   code: 
   unofficial_names: 
@@ -5440,7 +5440,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Třebíč
     ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111D\U00011128\U00011107\U00011134"
   comments: 
-'615': !ruby/struct:ISO3166::Subdivision
+'615': 
   name: 
   code: 
   unofficial_names: 
@@ -5455,7 +5455,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Žďár nad Sázavou
     ccp: "\U00011113\U00011122\U00011134 \U0001111A\U00011116\U00011134 \U00011125\U0001110E\U0001111E\U0001112E\U00011105\U0001112A"
   comments: 
-'621': !ruby/struct:ISO3166::Subdivision
+'621': 
   name: 
   code: 
   unofficial_names: 
@@ -5470,7 +5470,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Blansko
     ccp: "\U0001111D\U00011133\U00011123\U0001111A\U00011134\U00011107\U0001112E"
   comments: 
-'622': !ruby/struct:ISO3166::Subdivision
+'622': 
   name: 
   code: 
   unofficial_names: 
@@ -5485,7 +5485,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Brno
     ccp: "\U0001111D\U00011133\U00011122\U0001111A\U0001112E"
   comments: 
-'623': !ruby/struct:ISO3166::Subdivision
+'623': 
   name: 
   code: 
   unofficial_names: 
@@ -5500,7 +5500,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Brno-venkov
     ccp: "\U0001111D\U00011133\U00011122\U0001111A\U0001112E-\U0001111E\U0001112C\U0001111A\U00011134\U00011107\U0001112E\U0001111B\U00011134"
   comments: 
-'624': !ruby/struct:ISO3166::Subdivision
+'624': 
   name: 
   code: 
   unofficial_names: 
@@ -5515,7 +5515,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Břeclav
     ccp: "\U0001111D\U00011133\U00011122\U0001112C\U00011107\U00011133\U00011123\U0001111B\U00011134"
   comments: 
-'625': !ruby/struct:ISO3166::Subdivision
+'625': 
   name: 
   code: 
   unofficial_names: 
@@ -5530,7 +5530,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Hodonín²
     ccp: "\U00011126\U0001112E\U00011113\U0001112E\U0001111A\U00011128\U0001111A\U00011134"
   comments: 
-'626': !ruby/struct:ISO3166::Subdivision
+'626': 
   name: 
   code: 
   unofficial_names: 
@@ -5545,7 +5545,7 @@ ZL: !ruby/struct:ISO3166::Subdivision
     en: Vyškov²
     ccp: "\U0001111E\U00011128\U0001110C\U00011134\U00011107\U0001112E\U0001111B\U00011134"
   comments: 
-'627': !ruby/struct:ISO3166::Subdivision
+'627': 
   name: 
   code: 
   unofficial_names: 

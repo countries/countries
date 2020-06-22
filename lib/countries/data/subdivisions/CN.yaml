@@ -1,5 +1,5 @@
 ---
-'11': !ruby/struct:ISO3166::Subdivision
+'11': 
   name: Beijing
   code: 
   unofficial_names:
@@ -81,7 +81,7 @@
     zh: 北京市
     ccp: "\U0001111D\U0001112C\U0001112D\U0001110E\U00011128\U00011101"
   comments: 
-'12': !ruby/struct:ISO3166::Subdivision
+'12': 
   name: Tianjin
   code: 
   unofficial_names: Tianjin
@@ -152,7 +152,7 @@
     zh: 天津市
     ccp: "\U00011111\U0001112D\U0001111A\U00011134\U0001110E\U00011128\U0001111A\U00011134"
   comments: 
-'13': !ruby/struct:ISO3166::Subdivision
+'13': 
   name: Hebei
   code: 
   unofficial_names: Hebei
@@ -220,7 +220,7 @@
     zh: 河北省
     ccp: "\U00011126\U0001111D\U0001112C\U0001112D"
   comments: 
-'14': !ruby/struct:ISO3166::Subdivision
+'14': 
   name: Shanxi
   code: 
   unofficial_names: Shanxi
@@ -287,7 +287,7 @@
     zh: 山西省
     ccp: "\U00011125\U0001111A\U00011134\U00011125\U00011133\U00011126\U00011128"
   comments: 
-'15': !ruby/struct:ISO3166::Subdivision
+'15': 
   name: Nei Mongol (mn)
   code: 
   unofficial_names:
@@ -359,7 +359,7 @@
     zh: 内蒙古自治区
     ccp: "\U00011103\U00011128\U0001111A\U00011122\U00011134 \U0001111F\U00011127\U00011101\U00011109\U0001112E\U00011123\U00011128\U00011120"
   comments: 
-'21': !ruby/struct:ISO3166::Subdivision
+'21': 
   name: Liaoning
   code: 
   unofficial_names: Liaoning
@@ -427,7 +427,7 @@
     zh: 辽宁省
     ccp: "\U00011123\U0001112D\U00011103\U0001112E\U0001111A\U00011128\U00011101"
   comments: 
-'22': !ruby/struct:ISO3166::Subdivision
+'22': 
   name: Jilin
   code: 
   unofficial_names: Jilin
@@ -494,7 +494,7 @@
     zh: 吉林省
     ccp: "\U0001110E\U00011128\U00011123\U00011128\U0001111A\U00011134"
   comments: 
-'23': !ruby/struct:ISO3166::Subdivision
+'23': 
   name: Heilongjiang
   code: 
   unofficial_names: Heilongjiang
@@ -561,7 +561,7 @@
     zh: 黑龙江省
     ccp: "\U00011126\U0001112C\U0001112D\U00011123\U00011127\U00011101\U0001110E\U00011128\U00011120\U0001111A\U00011134"
   comments: 
-'31': !ruby/struct:ISO3166::Subdivision
+'31': 
   name: Shanghai
   code: 
   unofficial_names:
@@ -640,7 +640,7 @@
     zh: 上海市
     ccp: "\U00011125\U00011101\U00011126\U0001112D"
   comments: 
-'32': !ruby/struct:ISO3166::Subdivision
+'32': 
   name: Jiangsu
   code: 
   unofficial_names: Jiangsu
@@ -708,7 +708,7 @@
     zh: 江苏省
     ccp: "\U0001110E\U00011128\U00011120\U0001110B\U00011134\U00011125\U0001112A"
   comments: 
-'33': !ruby/struct:ISO3166::Subdivision
+'33': 
   name: Zhejiang
   code: 
   unofficial_names: Zhejiang
@@ -776,7 +776,7 @@
     zh: 浙江省
     ccp: "\U0001110F\U0001112C\U0001110E\U00011128\U00011120\U00011101"
   comments: 
-'34': !ruby/struct:ISO3166::Subdivision
+'34': 
   name: Anhui
   code: 
   unofficial_names: Anhui
@@ -845,7 +845,7 @@
     zh: 安徽省
     ccp: "\U00011103\U0001111A\U00011134\U00011126\U0001112D\U0001112A"
   comments: 
-'35': !ruby/struct:ISO3166::Subdivision
+'35': 
   name: Fujian
   code: 
   unofficial_names: Fujian
@@ -908,7 +908,7 @@
     zh: 福建省
     ccp: "\U0001111C\U0001112A\U0001110E\U00011128\U00011120\U0001111A\U00011134"
   comments: 
-'36': !ruby/struct:ISO3166::Subdivision
+'36': 
   name: Jiangxi
   code: 
   unofficial_names: Jiangxi
@@ -975,7 +975,7 @@
     zh: 江西省
     ccp: "\U0001110E\U00011128\U00011120\U0001110B\U00011134\U0001110E\U00011133\U00011126\U00011128"
   comments: 
-'37': !ruby/struct:ISO3166::Subdivision
+'37': 
   name: Shandong
   code: 
   unofficial_names: Shandong
@@ -1042,7 +1042,7 @@
     zh: 山东省
     ccp: "\U00011125\U0001111A\U00011134\U00011113\U00011127\U00011101"
   comments: 
-'41': !ruby/struct:ISO3166::Subdivision
+'41': 
   name: Henan
   code: 
   unofficial_names: Henan
@@ -1110,7 +1110,7 @@
     zh: 河南省
     ccp: "\U00011126\U0001112C\U0001111A\U0001111A\U00011134"
   comments: 
-'42': !ruby/struct:ISO3166::Subdivision
+'42': 
   name: Hubei
   code: 
   unofficial_names: Hubei
@@ -1176,7 +1176,7 @@
     zh: 湖北省
     ccp: "\U00011126\U0001112A\U0001111D\U0001112C\U0001112D"
   comments: 
-'43': !ruby/struct:ISO3166::Subdivision
+'43': 
   name: Hunan
   code: 
   unofficial_names: Hunan
@@ -1243,7 +1243,7 @@
     zh: 湖南省
     ccp: "\U00011126\U0001112A\U0001111A\U0001111A\U00011134"
   comments: 
-'44': !ruby/struct:ISO3166::Subdivision
+'44': 
   name: Guangdong
   code: 
   unofficial_names: Guangdong
@@ -1311,7 +1311,7 @@
     zh: 广东省
     ccp: "\U00011109\U00011105\U0001112A\U0001110B\U00011134\U00011113\U00011127\U00011101"
   comments: 
-'45': !ruby/struct:ISO3166::Subdivision
+'45': 
   name: Guangxi
   code: 
   unofficial_names:
@@ -1380,7 +1380,7 @@
     zh: 广西壮族自治区
     ccp: "\U00011109\U00011105\U0001112A\U0001110B\U00011134\U0001110E\U00011133\U00011126\U00011128"
   comments: 
-'46': !ruby/struct:ISO3166::Subdivision
+'46': 
   name: Hainan
   code: 
   unofficial_names: Hainan
@@ -1449,7 +1449,7 @@
     zh: 海南省
     ccp: "\U00011126\U0001112D\U0001111A\U0001111A\U00011134"
   comments: 
-'50': !ruby/struct:ISO3166::Subdivision
+'50': 
   name: Chongqing
   code: 
   unofficial_names: Chongqing
@@ -1520,7 +1520,7 @@
     zh: 重庆市
     ccp: "\U00011125\U00011127\U00011101\U00011107\U0001112A\U00011103\U00011128\U00011101"
   comments: 
-'51': !ruby/struct:ISO3166::Subdivision
+'51': 
   name: Sichuan
   code: 
   unofficial_names: Sichuan
@@ -1590,7 +1590,7 @@
     zh: 四川省
     ccp: "\U00011125\U00011128\U00011125\U0001112A\U00011120\U0001111A\U00011134"
   comments: 
-'52': !ruby/struct:ISO3166::Subdivision
+'52': 
   name: Guizhou
   code: 
   unofficial_names: Guizhou
@@ -1656,7 +1656,7 @@
     zh: 贵州省
     ccp: "\U00011109\U0001112D\U0001112A\U0001110F\U0001112F"
   comments: 
-'53': !ruby/struct:ISO3166::Subdivision
+'53': 
   name: Yunnan
   code: 
   unofficial_names: Yunnan
@@ -1725,7 +1725,7 @@
     zh: 云南省
     ccp: "\U00011103\U00011128\U00011120\U0001111A\U0001111A\U00011134"
   comments: 
-'54': !ruby/struct:ISO3166::Subdivision
+'54': 
   name: Xizang
   code: 
   unofficial_names:
@@ -1794,7 +1794,7 @@
     zh: 西藏自治区
     ccp: "\U00011111\U0001111D\U0001112C\U00011116\U00011134"
   comments: 
-'61': !ruby/struct:ISO3166::Subdivision
+'61': 
   name: Shaanxi
   code: 
   unofficial_names: Shaanxi
@@ -1861,7 +1861,7 @@
     zh: 陕西省
     ccp: "\U00011125\U0001111A\U00011134\U0001110E\U00011133\U00011126\U00011128"
   comments: 
-'62': !ruby/struct:ISO3166::Subdivision
+'62': 
   name: Gansu
   code: 
   unofficial_names: Gansu
@@ -1928,7 +1928,7 @@
     zh: 甘肃省
     ccp: "\U00011109\U0001111A\U00011134\U00011125\U0001112A"
   comments: 
-'63': !ruby/struct:ISO3166::Subdivision
+'63': 
   name: Qinghai
   code: 
   unofficial_names: Qinghai
@@ -1995,7 +1995,7 @@
     zh: 青海省
     ccp: "\U00011107\U0001112A\U00011103\U00011128\U0001111A\U00011134\U0001110A\U0001112D"
   comments: 
-'64': !ruby/struct:ISO3166::Subdivision
+'64': 
   name: Ningxia
   code: 
   unofficial_names:
@@ -2065,7 +2065,7 @@
     zh: 宁夏回族自治区
     ccp: "\U0001111A\U0001111A\U00011128\U00011101\U0001110E\U00011133\U00011126\U00011128\U00011120"
   comments: 
-'65': !ruby/struct:ISO3166::Subdivision
+'65': 
   name: Xinjiang
   code: 
   unofficial_names:
@@ -2135,7 +2135,7 @@
     zh: 新疆维吾尔自治区
     ccp: "\U0001110E\U00011128\U00011101\U0001110E\U00011128\U00011120\U0001110B\U00011134"
   comments: 
-'71': !ruby/struct:ISO3166::Subdivision
+'71': 
   name: Taiwan *
   code: 
   unofficial_names: Taiwan *
@@ -2151,7 +2151,7 @@
     zh: 台湾省
     ccp: "\U00011111\U0001112D\U00011124\U0001111A\U00011134"
   comments: 
-'91': !ruby/struct:ISO3166::Subdivision
+'91': 
   name: Xianggang (zh) **
   code: 
   unofficial_names:
@@ -2170,7 +2170,7 @@
     ccp: "\U00011126\U00011127\U00011101 \U00011107\U00011127\U00011101 \U00011125\U00011122\U00011134
       \U0001110C\U00011128\U0001111A"
   comments: 
-'92': !ruby/struct:ISO3166::Subdivision
+'92': 
   name: Aomen (zh) ***
   code: 
   unofficial_names: Aomen (zh) ***
@@ -2187,7 +2187,7 @@
     ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011105\U0001112A \U00011125\U00011122\U00011134
       \U0001110C\U00011128\U0001111A"
   comments: 
-AH: !ruby/struct:ISO3166::Subdivision
+AH: 
   name: 
   code: 
   unofficial_names: 
@@ -2268,7 +2268,7 @@ AH: !ruby/struct:ISO3166::Subdivision
     mk: Анхуеј
     bg: Анхуей
   comments: 
-BJ: !ruby/struct:ISO3166::Subdivision
+BJ: 
   name: 
   code: 
   unofficial_names: 
@@ -2365,7 +2365,7 @@ BJ: !ruby/struct:ISO3166::Subdivision
     ne: बेइजिङ
     tk: Pekin
   comments: 
-CQ: !ruby/struct:ISO3166::Subdivision
+CQ: 
   name: 
   code: 
   unofficial_names: 
@@ -2448,7 +2448,7 @@ CQ: !ruby/struct:ISO3166::Subdivision
     mk: Чунгќинг
     tk: Çunszin
   comments: 
-FJ: !ruby/struct:ISO3166::Subdivision
+FJ: 
   name: 
   code: 
   unofficial_names: 
@@ -2521,7 +2521,7 @@ FJ: !ruby/struct:ISO3166::Subdivision
     bs: Fujian
     mk: Фуѓен
   comments: 
-GD: !ruby/struct:ISO3166::Subdivision
+GD: 
   name: 
   code: 
   unofficial_names: 
@@ -2600,7 +2600,7 @@ GD: !ruby/struct:ISO3166::Subdivision
     bs: Guangdong
     mk: Гуангдунг
   comments: 
-GS: !ruby/struct:ISO3166::Subdivision
+GS: 
   name: 
   code: 
   unofficial_names: 
@@ -2672,7 +2672,7 @@ GS: !ruby/struct:ISO3166::Subdivision
     bs: Gansu
     mk: Гансу
   comments: 
-GX: !ruby/struct:ISO3166::Subdivision
+GX: 
   name: 
   code: 
   unofficial_names: 
@@ -2747,7 +2747,7 @@ GX: !ruby/struct:ISO3166::Subdivision
     bs: Guangxi
     mk: Гуангси
   comments: 
-GZ: !ruby/struct:ISO3166::Subdivision
+GZ: 
   name: 
   code: 
   unofficial_names: 
@@ -2819,7 +2819,7 @@ GZ: !ruby/struct:ISO3166::Subdivision
     uz: Guychjou
     mk: Гуејџоу
   comments: 
-HA: !ruby/struct:ISO3166::Subdivision
+HA: 
   name: 
   code: 
   unofficial_names: 
@@ -2892,7 +2892,7 @@ HA: !ruby/struct:ISO3166::Subdivision
     uz: Xenan
     mk: Хенан
   comments: 
-HB: !ruby/struct:ISO3166::Subdivision
+HB: 
   name: 
   code: 
   unofficial_names: 
@@ -2966,7 +2966,7 @@ HB: !ruby/struct:ISO3166::Subdivision
     uz: Xubey
     mk: Хубеј
   comments: 
-HE: !ruby/struct:ISO3166::Subdivision
+HE: 
   name: 
   code: 
   unofficial_names: 
@@ -3041,7 +3041,7 @@ HE: !ruby/struct:ISO3166::Subdivision
     uz: Xebey
     mk: Хебеј
   comments: 
-HI: !ruby/struct:ISO3166::Subdivision
+HI: 
   name: 
   code: 
   unofficial_names: 
@@ -3114,7 +3114,7 @@ HI: !ruby/struct:ISO3166::Subdivision
     uz: Xaynan
     mk: Хајнан
   comments: 
-HK: !ruby/struct:ISO3166::Subdivision
+HK: 
   name: 
   code: 
   unofficial_names: 
@@ -3213,7 +3213,7 @@ HK: !ruby/struct:ISO3166::Subdivision
     ne: हङकङ
     tk: Gonkong
   comments: 
-HL: !ruby/struct:ISO3166::Subdivision
+HL: 
   name: 
   code: 
   unofficial_names: 
@@ -3286,7 +3286,7 @@ HL: !ruby/struct:ISO3166::Subdivision
     uz: Xeylunszyan
     mk: Хејлунгѓанг
   comments: 
-HN: !ruby/struct:ISO3166::Subdivision
+HN: 
   name: 
   code: 
   unofficial_names: 
@@ -3360,7 +3360,7 @@ HN: !ruby/struct:ISO3166::Subdivision
     uz: Xunan
     mk: Хунан
   comments: 
-JL: !ruby/struct:ISO3166::Subdivision
+JL: 
   name: 
   code: 
   unofficial_names: 
@@ -3429,7 +3429,7 @@ JL: !ruby/struct:ISO3166::Subdivision
     uz: Girin
     mk: Ѓилин
   comments: 
-JS: !ruby/struct:ISO3166::Subdivision
+JS: 
   name: 
   code: 
   unofficial_names: 
@@ -3498,7 +3498,7 @@ JS: !ruby/struct:ISO3166::Subdivision
     uz: Szyansu
     mk: Ѓангсу
   comments: 
-JX: !ruby/struct:ISO3166::Subdivision
+JX: 
   name: 
   code: 
   unofficial_names: 
@@ -3571,7 +3571,7 @@ JX: !ruby/struct:ISO3166::Subdivision
     uz: Szyansi
     mk: Ѓангси
   comments: 
-LN: !ruby/struct:ISO3166::Subdivision
+LN: 
   name: 
   code: 
   unofficial_names: 
@@ -3647,7 +3647,7 @@ LN: !ruby/struct:ISO3166::Subdivision
     uz: Lyaonin
     mk: Љаонинг
   comments: 
-MO: !ruby/struct:ISO3166::Subdivision
+MO: 
   name: 
   code: 
   unofficial_names: 
@@ -3740,7 +3740,7 @@ MO: !ruby/struct:ISO3166::Subdivision
     ne: मकाउ
     tk: Makao
   comments: 
-NM: !ruby/struct:ISO3166::Subdivision
+NM: 
   name: 
   code: 
   unofficial_names: 
@@ -3819,7 +3819,7 @@ NM: !ruby/struct:ISO3166::Subdivision
     mk: Внатрешна Монголија
     ne: भित्री मङ्गोलिया
   comments: 
-NX: !ruby/struct:ISO3166::Subdivision
+NX: 
   name: 
   code: 
   unofficial_names: 
@@ -3890,7 +3890,7 @@ NX: !ruby/struct:ISO3166::Subdivision
     uz: Ninsya-Xuey muxtor rayoni
     mk: Нингсја
   comments: 
-QH: !ruby/struct:ISO3166::Subdivision
+QH: 
   name: 
   code: 
   unofficial_names: 
@@ -3957,7 +3957,7 @@ QH: !ruby/struct:ISO3166::Subdivision
     uz: Sinxay
     mk: Ќингхај
   comments: 
-SC: !ruby/struct:ISO3166::Subdivision
+SC: 
   name: 
   code: 
   unofficial_names: 
@@ -4036,7 +4036,7 @@ SC: !ruby/struct:ISO3166::Subdivision
     bs: Sečuan
     mk: Сечуан
   comments: 
-SD: !ruby/struct:ISO3166::Subdivision
+SD: 
   name: 
   code: 
   unofficial_names: 
@@ -4110,7 +4110,7 @@ SD: !ruby/struct:ISO3166::Subdivision
     uz: Shandun
     mk: Шандунг
   comments: 
-SH: !ruby/struct:ISO3166::Subdivision
+SH: 
   name: 
   code: 
   unofficial_names: 
@@ -4203,7 +4203,7 @@ SH: !ruby/struct:ISO3166::Subdivision
     ne: शाङ्घाई
     tk: Şanhaý
   comments: 
-SN: !ruby/struct:ISO3166::Subdivision
+SN: 
   name: 
   code: 
   unofficial_names: 
@@ -4278,7 +4278,7 @@ SN: !ruby/struct:ISO3166::Subdivision
     bs: Shaanxi
     mk: Шенси
   comments: 
-SX: !ruby/struct:ISO3166::Subdivision
+SX: 
   name: 
   code: 
   unofficial_names: 
@@ -4346,7 +4346,7 @@ SX: !ruby/struct:ISO3166::Subdivision
     uz: Shansi
     mk: Шанси
   comments: 
-TJ: !ruby/struct:ISO3166::Subdivision
+TJ: 
   name: 
   code: 
   unofficial_names: 
@@ -4430,7 +4430,7 @@ TJ: !ruby/struct:ISO3166::Subdivision
     mk: Тјенѓин
     tk: Týanszin
   comments: 
-XJ: !ruby/struct:ISO3166::Subdivision
+XJ: 
   name: 
   code: 
   unofficial_names: 
@@ -4511,7 +4511,7 @@ XJ: !ruby/struct:ISO3166::Subdivision
     mk: Синѓанг
     tk: Hinjiýan uýgur awtonom etraby
   comments: 
-XZ: !ruby/struct:ISO3166::Subdivision
+XZ: 
   name: 
   code: 
   unofficial_names: 
@@ -4589,7 +4589,7 @@ XZ: !ruby/struct:ISO3166::Subdivision
     bs: Tibet
     mk: Тибет
   comments: 
-YN: !ruby/struct:ISO3166::Subdivision
+YN: 
   name: 
   code: 
   unofficial_names: 
@@ -4666,7 +4666,7 @@ YN: !ruby/struct:ISO3166::Subdivision
     uz: Yunnan
     mk: Јунан
   comments: 
-ZJ: !ruby/struct:ISO3166::Subdivision
+ZJ: 
   name: 
   code: 
   unofficial_names: 
@@ -4742,7 +4742,7 @@ ZJ: !ruby/struct:ISO3166::Subdivision
     mk: Џеѓанг
     ne: झेजिआङ
   comments: 
-TW: !ruby/struct:ISO3166::Subdivision
+TW: 
   name: 
   code: 
   unofficial_names: 

@@ -1,5 +1,5 @@
 ---
-BA: !ruby/struct:ISO3166::Subdivision
+BA: 
   name: Balti
   code: 
   unofficial_names: Balti
@@ -79,7 +79,7 @@ BA: !ruby/struct:ISO3166::Subdivision
     bs: Bălți
     mk: Белци
   comments: 
-CA: !ruby/struct:ISO3166::Subdivision
+CA: 
   name: Cahul
   code: 
   unofficial_names: Cahul
@@ -137,7 +137,7 @@ CA: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Cahul
     ccp: "\U00011107\U00011126\U0001112A\U00011123\U00011134"
   comments: 
-CH: !ruby/struct:ISO3166::Subdivision
+CH: 
   name: Chisinau City
   code: 
   unofficial_names: Chisinau City
@@ -151,7 +151,7 @@ CH: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Chisinau City
   comments: 
-CU: !ruby/struct:ISO3166::Subdivision
+CU: 
   name: Chisinau
   code: 
   unofficial_names: Chisinau
@@ -239,7 +239,7 @@ CU: !ruby/struct:ISO3166::Subdivision
     bs: Kišinjev
     mk: Кишињев
   comments: 
-ED: !ruby/struct:ISO3166::Subdivision
+ED: 
   name: Edinet
   code: 
   unofficial_names: Edinet
@@ -295,7 +295,7 @@ ED: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Edineț
     ccp: "\U00011103\U0001112C\U00011113\U00011128\U0001111A\U0001112C\U00011116\U00011134"
   comments: 
-GA: !ruby/struct:ISO3166::Subdivision
+GA: 
   name: Gagauzia, Unitate Teritoriala Autonoma (UTAG)
   code: 
   unofficial_names: Gagauzia, Unitate Teritoriala Autonoma (UTAG)
@@ -371,7 +371,7 @@ GA: !ruby/struct:ISO3166::Subdivision
     mk: Гагаузија
     tk: Gagauzystan
   comments: 
-LA: !ruby/struct:ISO3166::Subdivision
+LA: 
   name: Lapusna
   code: 
   unofficial_names: Lapusna
@@ -385,7 +385,7 @@ LA: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Lapusna
   comments: 
-OR: !ruby/struct:ISO3166::Subdivision
+OR: 
   name: Orhei
   code: 
   unofficial_names: Orhei
@@ -442,7 +442,7 @@ OR: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Orhei
     ccp: "\U00011103\U00011127\U00011122\U00011134\U00011126\U0001112C\U0001112D"
   comments: 
-SN: !ruby/struct:ISO3166::Subdivision
+SN: 
   name: Stînga Nistrului, unitatea teritoriala din
   code: 
   unofficial_names: Stînga Nistrului, unitatea teritoriala din
@@ -469,7 +469,7 @@ SN: !ruby/struct:ISO3166::Subdivision
     ceb: Unitatea Teritorială din Stînga Nistrului
     ccp: "\U00011111\U00011133\U00011122\U0001111A\U00011134\U0001111A\U00011128\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011128\U00011120"
   comments: 
-SO: !ruby/struct:ISO3166::Subdivision
+SO: 
   name: Soroca
   code: 
   unofficial_names: Soroca
@@ -527,7 +527,7 @@ SO: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011125\U00011127\U00011122\U0001112E\U00011107"
     hy: Սորոկի շրջան
   comments: 
-TA: !ruby/struct:ISO3166::Subdivision
+TA: 
   name: Taraclia
   code: 
   unofficial_names: Taraclia
@@ -584,7 +584,7 @@ TA: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Taraclia
     ccp: "\U00011111\U00011122\U00011107\U00011134\U00011123\U00011128\U00011120"
   comments: 
-TI: !ruby/struct:ISO3166::Subdivision
+TI: 
   name: Tighina [Bender]
   code: 
   unofficial_names: Tighina [Bender]
@@ -598,7 +598,7 @@ TI: !ruby/struct:ISO3166::Subdivision
   translations:
     en: Tighina [Bender]
   comments: 
-UN: !ruby/struct:ISO3166::Subdivision
+UN: 
   name: Ungheni
   code: 
   unofficial_names: Ungheni
@@ -656,7 +656,7 @@ UN: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Ungheni
     ccp: "\U00011103\U0001111A\U00011134\U0001110A\U0001112C\U0001111A\U00011128"
   comments: 
-BD: !ruby/struct:ISO3166::Subdivision
+BD: 
   name: 
   code: 
   unofficial_names: 
@@ -739,7 +739,7 @@ BD: !ruby/struct:ISO3166::Subdivision
     bs: Bender
     mk: Бендер
   comments: 
-AN: !ruby/struct:ISO3166::Subdivision
+AN: 
   name: 
   code: 
   unofficial_names: 
@@ -797,7 +797,7 @@ AN: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Anenii Noi
     ccp: "\U00011103\U0001111A\U0001112C\U0001111A\U00011128 \U0001111A\U00011130"
   comments: 
-BR: !ruby/struct:ISO3166::Subdivision
+BR: 
   name: 
   code: 
   unofficial_names: 
@@ -856,7 +856,7 @@ BR: !ruby/struct:ISO3166::Subdivision
     ccp: "\U0001111D\U00011133\U00011122\U00011128\U00011125\U0001112C\U0001111A\U00011128"
     be: Брычанскі раён
   comments: 
-BS: !ruby/struct:ISO3166::Subdivision
+BS: 
   name: 
   code: 
   unofficial_names: 
@@ -915,7 +915,7 @@ BS: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Basarabeasca
     ccp: "\U0001111D\U00011125\U00011122\U00011134\U0001111D\U00011128\U00011120\U0001110C\U00011134\U00011107"
   comments: 
-CL: !ruby/struct:ISO3166::Subdivision
+CL: 
   name: 
   code: 
   unofficial_names: 
@@ -974,7 +974,7 @@ CL: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Călărași
     ccp: "\U00011107\U00011123\U00011122\U00011125\U00011128"
   comments: 
-CM: !ruby/struct:ISO3166::Subdivision
+CM: 
   name: 
   code: 
   unofficial_names: 
@@ -1031,7 +1031,7 @@ CM: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Cimișlia
     ccp: "\U00011125\U00011128\U0001111F\U00011128\U0001110C\U00011134\U00011123\U00011128\U00011120"
   comments: 
-CR: !ruby/struct:ISO3166::Subdivision
+CR: 
   name: 
   code: 
   unofficial_names: 
@@ -1087,7 +1087,7 @@ CR: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Criuleni
     ccp: "\U00011107\U00011133\U00011122\U0001112D\U00011105\U0001112A\U00011123\U0001112C\U0001111A\U00011128"
   comments: 
-CS: !ruby/struct:ISO3166::Subdivision
+CS: 
   name: 
   code: 
   unofficial_names: 
@@ -1144,7 +1144,7 @@ CS: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Căușeni
     ccp: "\U00011107\U0001112F\U00011125\U0001112C\U0001111A\U00011128"
   comments: 
-CT: !ruby/struct:ISO3166::Subdivision
+CT: 
   name: 
   code: 
   unofficial_names: 
@@ -1202,7 +1202,7 @@ CT: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Cantemir
     ccp: "\U00011107\U0001111A\U00011134\U00011111\U0001112C\U0001111F\U00011128\U00011122\U00011134"
   comments: 
-DO: !ruby/struct:ISO3166::Subdivision
+DO: 
   name: 
   code: 
   unofficial_names: 
@@ -1258,7 +1258,7 @@ DO: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Dondușeni
     ccp: "\U00011113\U00011127\U0001111A\U00011134\U00011113\U0001112A\U00011125\U0001112C\U0001111A\U00011128"
   comments: 
-DR: !ruby/struct:ISO3166::Subdivision
+DR: 
   name: 
   code: 
   unofficial_names: 
@@ -1315,7 +1315,7 @@ DR: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011113\U00011133\U00011122\U0001112E\U0001110C\U00011128\U00011120"
     be: Дрокіеўскі раён
   comments: 
-DU: !ruby/struct:ISO3166::Subdivision
+DU: 
   name: 
   code: 
   unofficial_names: 
@@ -1372,7 +1372,7 @@ DU: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Dubăsari
     ccp: "\U00011113\U0001112A\U0001111D\U00011125\U00011122\U00011128"
   comments: 
-FA: !ruby/struct:ISO3166::Subdivision
+FA: 
   name: 
   code: 
   unofficial_names: 
@@ -1429,7 +1429,7 @@ FA: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Falești
     ccp: "\U0001111C\U00011123\U0001112C\U0001110C\U00011134\U00011111\U00011128"
   comments: 
-FL: !ruby/struct:ISO3166::Subdivision
+FL: 
   name: 
   code: 
   unofficial_names: 
@@ -1487,7 +1487,7 @@ FL: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Florești
     ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U0001112C\U0001110C\U00011134\U00011111\U00011128"
   comments: 
-GL: !ruby/struct:ISO3166::Subdivision
+GL: 
   name: 
   code: 
   unofficial_names: 
@@ -1544,7 +1544,7 @@ GL: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Glodeni
     ccp: "\U00011109\U00011133\U00011123\U0001112E\U00011113\U0001112C\U0001111A\U00011128"
   comments: 
-HI: !ruby/struct:ISO3166::Subdivision
+HI: 
   name: 
   code: 
   unofficial_names: 
@@ -1601,7 +1601,7 @@ HI: !ruby/struct:ISO3166::Subdivision
     ccp: "\U00011126\U00011128\U0001111A\U00011134\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011128"
     hy: Հնչեշտի շրջան
   comments: 
-IA: !ruby/struct:ISO3166::Subdivision
+IA: 
   name: 
   code: 
   unofficial_names: 
@@ -1658,7 +1658,7 @@ IA: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Ialoveni
     ccp: "\U00011103\U0001112D\U00011103\U00011123\U0001112E\U0001111E\U0001112C\U0001111A\U00011128"
   comments: 
-LE: !ruby/struct:ISO3166::Subdivision
+LE: 
   name: 
   code: 
   unofficial_names: 
@@ -1715,7 +1715,7 @@ LE: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Leova
     ccp: "\U00011123\U00011128\U00011103\U0001112E\U0001111E"
   comments: 
-NI: !ruby/struct:ISO3166::Subdivision
+NI: 
   name: 
   code: 
   unofficial_names: 
@@ -1771,7 +1771,7 @@ NI: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Nisporeni
     ccp: "\U0001111A\U00011128\U0001110C\U00011134\U0001111B\U00011127\U00011122\U0001112C\U0001111A\U00011128"
   comments: 
-OC: !ruby/struct:ISO3166::Subdivision
+OC: 
   name: 
   code: 
   unofficial_names: 
@@ -1828,7 +1828,7 @@ OC: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Ocnița
     ccp: "\U00011103\U00011127\U00011107\U00011134\U0001111A\U00011128\U00011111"
   comments: 
-RE: !ruby/struct:ISO3166::Subdivision
+RE: 
   name: 
   code: 
   unofficial_names: 
@@ -1884,7 +1884,7 @@ RE: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Rezina
     ccp: "\U00011122\U0001112C\U0001110E\U0001111A"
   comments: 
-RI: !ruby/struct:ISO3166::Subdivision
+RI: 
   name: 
   code: 
   unofficial_names: 
@@ -1941,7 +1941,7 @@ RI: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Rîșcani
     ccp: "\U00011122\U00011128\U0001110C\U00011134\U00011107\U0001111A\U00011128"
   comments: 
-SD: !ruby/struct:ISO3166::Subdivision
+SD: 
   name: 
   code: 
   unofficial_names: 
@@ -1999,7 +1999,7 @@ SD: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Șoldănești
     ccp: "\U00011125\U0001112E\U00011123\U00011134\U00011113\U0001111A\U0001112C\U0001110C\U00011134\U00011111\U00011128"
   comments: 
-SI: !ruby/struct:ISO3166::Subdivision
+SI: 
   name: 
   code: 
   unofficial_names: 
@@ -2055,7 +2055,7 @@ SI: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Sîngerei
     ccp: "\U00011125\U00011128\U0001111A\U00011134\U00011109\U0001112C\U00011122\U0001112D"
   comments: 
-ST: !ruby/struct:ISO3166::Subdivision
+ST: 
   name: 
   code: 
   unofficial_names: 
@@ -2112,7 +2112,7 @@ ST: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Strășeni
     ccp: "\U00011111\U00011133\U00011122\U00011125\U0001112C\U0001111A\U00011128"
   comments: 
-SV: !ruby/struct:ISO3166::Subdivision
+SV: 
   name: 
   code: 
   unofficial_names: 
@@ -2169,7 +2169,7 @@ SV: !ruby/struct:ISO3166::Subdivision
     sq: Raionul Ștefan Vodă
     ccp: "\U0001110C\U00011133\U00011111\U0001112C\U0001111C\U0001111A\U00011134 \U0001111E\U0001112E\U00011113"
   comments: 
-TE: !ruby/struct:ISO3166::Subdivision
+TE: 
   name: 
   code: 
   unofficial_names: 
