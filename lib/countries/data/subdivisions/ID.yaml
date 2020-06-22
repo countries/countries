@@ -1,5 +1,11 @@
 ---
-AC:
+AC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.131231499999999
+    longitude: 106.7329234
   translations:
     lv: Ačeha
     mr: आचे
@@ -71,7 +77,14 @@ AC:
     mk: Ачех
     ne: अाचे
     bg: Ачех
-BB:
+  comments: 
+BB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -1.2392759
+    longitude: 116.8727314
   translations:
     lv: Banka-Belituna
     mr: बांका-बेलितुंग द्वीपसमूह
@@ -125,7 +138,12 @@ BB:
     ca: Bangka-Belitung
     th: หมู่เกาะบังกาเบลีตุง
     uz: Bangka-Belitung
-BE:
+  comments: 
+BE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Benkulu
     mr: बेंकुलू
@@ -179,7 +197,18 @@ BE:
     ca: Bengkulu
     be: Правінцыя Бенгкулу
     th: จังหวัดเบิงกูลู
-BT:
+  comments: 
+BT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.789275
+    longitude: 113.921327
+    min_latitude: -11.1082999
+    min_longitude: 94.7351
+    max_latitude: 6.216999899999999
+    max_longitude: 141.0425
   translations:
     lv: Bantena
     mr: बांतेन
@@ -236,7 +265,18 @@ BT:
     ca: Banten
     be: Правінцыя Бантэн
     th: จังหวัดบันเติน
-GO:
+  comments: 
+GO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.789275
+    longitude: 113.921327
+    min_latitude: -11.1082999
+    min_longitude: 94.7351
+    max_latitude: 6.216999899999999
+    max_longitude: 141.0425
   translations:
     lv: Gorontalo province
     mr: गोरोन्गस्टो प्रांत
@@ -288,7 +328,18 @@ GO:
     be: Правінцыя Гарантала
     th: จังหวัดโกรอนทาโล
     mk: Горонтало
-JA:
+  comments: 
+JA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -1.4851831
+    longitude: 102.4380581
+    min_latitude: -2.7700678
+    min_longitude: 101.1286029
+    max_latitude: -0.7357379
+    max_longitude: 104.4574329
   translations:
     lv: Džambi province
     mr: जांबी
@@ -341,7 +392,14 @@ JA:
     mn: Жамби
     ca: Jambi
     th: จังหวัดจัมบี
-JB:
+  comments: 
+JB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -7.446736199999999
+    longitude: 109.2390841
   translations:
     lv: Rietumjava
     mr: पश्चिम जावा
@@ -396,7 +454,18 @@ JB:
     mn: Өрнө Жава
     ca: Java Occidental
     th: จังหวัดชวาตะวันตก
-JI:
+  comments: 
+JI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -7.5360639
+    longitude: 112.2384017
+    min_latitude: -8.780560999999999
+    min_longitude: 110.8987199
+    max_latitude: -5.048857
+    max_longitude: 116.267761
   translations:
     lv: Austrumjava
     mr: पूर्व जावा
@@ -452,7 +521,18 @@ JI:
     ca: Java Oriental
     th: จังหวัดชวาตะวันออก
     ne: पूर्वी जाभा क्षेत्र
-JK:
+  comments: 
+JK: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.180495
+    longitude: 106.8283415
+    min_latitude: -6.3708331
+    min_longitude: 106.3831259
+    max_latitude: -5.1843219
+    max_longitude: 106.972825
   translations:
     lv: Džakarta
     mr: जकार्ता
@@ -536,7 +616,18 @@ JK:
     mk: Џакарта
     ne: जाकार्ता
     tk: Jakarta
-JT:
+  comments: 
+JT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -7.150975
+    longitude: 110.1402594
+    min_latitude: -8.2116361
+    min_longitude: 108.555502
+    max_latitude: -5.725698
+    max_longitude: 111.6914889
   translations:
     lv: Centrālās Javas province
     mr: मध्य जावा
@@ -603,7 +694,12 @@ JT:
     be: Цэнтральная Ява
     th: จังหวัดชวากลาง
     zu: Jawa Tengah
-JW:
+  comments: 
+JW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Java
     mr: जावा
@@ -682,7 +778,18 @@ JW:
     bs: Java
     mk: Јава
     ne: जावा द्वीप
-KB:
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.2787808
+    longitude: 111.4752851
+    min_latitude: -3.0391839
+    min_longitude: 108.020782
+    max_latitude: 2.0815391
+    max_longitude: 114.2022952
   translations:
     lv: Rietumkalimantāna
     mr: पश्चिम कालिमांतान
@@ -734,7 +841,18 @@ KB:
     nb: Kalimantan Barat
     mn: Өрнө Калимантан
     th: จังหวัดกาลีมันตันตะวันตก
-KI:
+  comments: 
+KI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 0.5386586
+    longitude: 116.419389
+    min_latitude: -2.409401
+    min_longitude: 113.8366543
+    max_latitude: 2.6065559
+    max_longitude: 119.025528
   translations:
     lv: Austrumu Kalimantāna
     mr: पूर्व कालिमांतान
@@ -787,7 +905,14 @@ KI:
     ca: Kalimantan oriental
     be: Правінцыя Усходні Калімантан
     th: จังหวัดกาลีมันตันตะวันออก
-KR:
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.4429142
+    longitude: 107.0115729
   translations:
     lv: Riau salas
     mr: रियाउ द्वीपसमूह
@@ -841,7 +966,18 @@ KR:
     ca: Illes Riau
     be: Астравы Рыау
     th: หมู่เกาะเรียว
-KS:
+  comments: 
+KS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -3.0926415
+    longitude: 115.2837585
+    min_latitude: -4.744812899999999
+    min_longitude: 114.345859
+    max_latitude: -1.315037
+    max_longitude: 116.555961
   translations:
     lv: Dienvidkalimantāna
     mr: दक्षिण कालिमांतान
@@ -892,7 +1028,18 @@ KS:
     mn: Өмнө Калимантан
     ca: Kalimantan del Sud
     th: จังหวัดกาลิมันตัน
-KT:
+  comments: 
+KT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -1.6814878
+    longitude: 113.3823545
+    min_latitude: -3.5618859
+    min_longitude: 110.7336648
+    max_latitude: 0.793256
+    max_longitude: 115.84722
   translations:
     lv: Centrālā Kalimantāna
     mr: मध्य कालिमांतान
@@ -945,7 +1092,14 @@ KT:
     mn: Төв Калимантан
     ca: Kalimantan central
     th: จังหวัดกาลีมันตันกลาง
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -8.636759399999999
+    longitude: 115.2067686
   translations:
     lv: Lampungas province
     mr: लांपुंग
@@ -1000,7 +1154,18 @@ LA:
     ca: Lampung
     th: จังหวัดลำปาง
     ne: ल्याम्पुङ क्षेत्र
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 42.4072107
+    longitude: -71.3824374
+    min_latitude: 41.18705300000001
+    min_longitude: -73.5081419
+    max_latitude: 42.88679
+    max_longitude: -69.85886099999999
   translations:
     lv: Maluku province
     mr: मालुकू प्रांत
@@ -1054,7 +1219,18 @@ MA:
     be: Правінцыя Малуку
     th: จังหวัดมาลูกู
     mk: Малуку
-ML:
+  comments: 
+ML: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.789275
+    longitude: 113.921327
+    min_latitude: -11.1082999
+    min_longitude: 94.7351
+    max_latitude: 6.216999899999999
+    max_longitude: 141.0425
   translations:
     lv: Moluku salas
     cy: Maluku²
@@ -1116,7 +1292,18 @@ ML:
     uz: Molukka orollari
     bs: Molučka ostrva
     mk: Молучки Острови
-MU:
+  comments: 
+MU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 1.5709993
+    longitude: 127.8087693
+    min_latitude: -2.477640000000001
+    min_longitude: 124.2830601
+    max_latitude: 2.645167
+    max_longitude: 129.6574671
   translations:
     lv: Ziemeļu Moluku province
     mr: उत्तर मालुकू प्रांत
@@ -1170,7 +1357,14 @@ MU:
     ca: Moluques Septentrionals
     be: Паўночнае Малуку
     th: จังหวัดมาลูกูเหนือ
-NB:
+  comments: 
+NB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.249008
+    longitude: 106.776638
   translations:
     lv: Rietumu Nusa Tengara
     mr: पश्चिम नुसा तेंगारा
@@ -1224,7 +1418,18 @@ NB:
     ca: Illes Petites de la Sonda Occidentals
     th: จังหวัดนูซาเต็งการาตะวันตก
     mk: Западни Мали Сундски острови
-NT:
+  comments: 
+NT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -8.657381899999999
+    longitude: 121.0793705
+    min_latitude: -11.0075679
+    min_longitude: 118.927002
+    max_latitude: -8.063516
+    max_longitude: 125.192625
   translations:
     lv: Austrumu Nusa Tengara
     mr: पूर्व नुसा तेंगारा
@@ -1279,7 +1484,12 @@ NT:
     ca: Illes Petites de la Sonda Orientals
     th: นูซา เตงการา ตะวันออก
     mk: Источни Мали Сундски Острови
-NU:
+  comments: 
+NU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Mazās Zunda salas
     cy: Ynysoedd Swnda Lleiaf
@@ -1340,7 +1550,18 @@ NU:
     uz: Kichik zond orollari
     bs: Mala Sundska ostrva
     mk: Мали Сундски Острови
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.2033216
+    longitude: -77.1945247
+    min_latitude: 39.7197989
+    min_longitude: -80.51989499999999
+    max_latitude: 42.5141658
+    max_longitude: -74.6895018
   translations:
     lv: Papua
     mr: पापुआ
@@ -1395,7 +1616,18 @@ PA:
     be: Правінцыя Папуа
     th: จังหวัดปาปัว
     mk: Папуа
-PB:
+  comments: 
+PB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.789275
+    longitude: 113.921327
+    min_latitude: -11.1082999
+    min_longitude: 94.7351
+    max_latitude: 6.216999899999999
+    max_longitude: 141.0425
   translations:
     lv: Rietumpapua province
     mr: पश्चिम पापुआ
@@ -1448,7 +1680,14 @@ PB:
     ca: Província de Papua Occidental
     th: จังหวัดปาปัวตะวันตก
     mk: Западна Папуа
-PP:
+  comments: 
+PP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.9084233
+    longitude: 109.136415
   translations:
     lv: Rietumpapua
     mr: वेस्ट पापुआ
@@ -1499,7 +1738,14 @@ PP:
     mn: Папуа-Шинэ Гвиней
     ca: Papua Occidental
     th: นิวกินีตะวันตก
-RI:
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.91266
+    longitude: 107.642042
   translations:
     lv: Riau province
     mr: रियाउ
@@ -1552,7 +1798,14 @@ RI:
     ca: Riau
     be: Правінцыя Рыау
     th: จังหวัดเรียว
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -8.7199596
+    longitude: 115.1752526
   translations:
     lv: Ziemeļsulavesi province
     mr: उत्तर सुलावेसी
@@ -1604,7 +1857,18 @@ SA:
     mn: Умар Сулавеси
     be: Правінцыя Паўночны Сулавесі
     th: จังหวัดซูลาเวซีใต้
-SB:
+  comments: 
+SB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -0.7399397
+    longitude: 100.8000051
+    min_latitude: -4.020091
+    min_longitude: 98.59692190000001
+    max_latitude: 0.907389
+    max_longitude: 101.8929181
   translations:
     lv: Rietumsumatra
     mr: पश्चिम सुमात्रा
@@ -1658,7 +1922,12 @@ SB:
     ca: Sumatra Occidental
     be: Правінцыя Заходняя Суматра
     th: จังหวัดสุมาตราตะวันตก
-SG:
+  comments: 
+SG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Dienvidaustrumu Suvalesi
     mr: आग्नेय सुलावेसी
@@ -1708,7 +1977,12 @@ SG:
     nb: South East Sulawesi Provins
     be: Правінцыя Паўднёва-Усходні Сулавесі
     th: สุลาเวสีเตงการาตะวันออกเฉียงใต้
-SL:
+  comments: 
+SL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Sulavesi
     mr: सुलावेसी
@@ -1776,7 +2050,12 @@ SL:
     uz: Sulavesi
     bs: Sulawesi
     mk: Сулавеси
-SM:
+  comments: 
+SM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Sumatra
     mr: सुमात्रा
@@ -1850,7 +2129,18 @@ SM:
     bs: Sumatra
     mk: Суматра
     ne: सुमात्रा
-SN:
+  comments: 
+SN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -3.6687994
+    longitude: 119.9740534
+    min_latitude: -7.758941000000001
+    min_longitude: 117.038483
+    max_latitude: -1.8952359
+    max_longitude: 121.8402099
   translations:
     lv: Dienvidsulavesi
     mr: दक्षिण सुलावेसी
@@ -1901,7 +2191,14 @@ SN:
     nb: Sør Sulawesi
     be: Правінцыя Паўднёвы Сулавесі
     th: จังหวัดสุลาเวสี
-SR:
+  comments: 
+SR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.926822599999999
+    longitude: 107.6068221
   translations:
     lv: Rietumsulavesi
     mr: पश्चिम सुलावेसी
@@ -1951,7 +2248,12 @@ SR:
     mn: Өрнө Сулавеси
     be: Правінцыя Заходні Сулавесі
     th: จังหวัดซูลาเวซีตะวันตก
-SS:
+  comments: 
+SS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Dienvidsumatra
     mr: दक्षिण सुमात्रा
@@ -2006,7 +2308,12 @@ SS:
     mn: Өмнө Суматра
     ca: Sumatra Meridional
     th: จังหวัดสุมาตราใต้
-ST:
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Centrālā Sulavesi
     mr: मध्य सुलावेसी
@@ -2059,7 +2366,18 @@ ST:
     ca: Celebas del Centre
     be: Правінцыя Цэнтральны Сулавесі
     th: จังหวัดซูลาเวซีกลาง
-SU:
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 2.1153547
+    longitude: 99.54509739999999
+    min_latitude: -0.6387609
+    min_longitude: 97.0575619
+    max_latitude: 4.3013449
+    max_longitude: 100.4257811
   translations:
     lv: Ziemeļsumatra
     mr: उत्तर सुमात्रा
@@ -2115,7 +2433,18 @@ SU:
     be: Правінцыя Паўночная Суматра
     th: จังหวัดสุมาตราเหนือ
     uz: Shimoliy Sumatra
-YO:
+  comments: 
+YO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -7.875384899999999
+    longitude: 110.4262088
+    min_latitude: -8.204191999999999
+    min_longitude: 110.013942
+    max_latitude: -7.541901900000001
+    max_longitude: 110.8346329
   translations:
     lv: Džojakarta speciālais reģions
     mr: योग्यताकाचा विशेष प्रदेश
@@ -2178,7 +2507,14 @@ YO:
     ca: Yogyakarta
     th: เขตปกครองพิเศษย็อกยาการ์ตา
     zu: Yogyakarta
-KU:
+  comments: 
+KU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -6.1718272
+    longitude: 106.8440285
   translations:
     mr: उत्तर कालिमांतान
     ceb: North Kalimantan
@@ -2218,7 +2554,18 @@ KU:
     ca: Kalimantan Nord
     be: Паўночны Калімантан
     th: จังหวัดกาลีมันตันเหนือ
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -8.4095178
+    longitude: 115.188916
+    min_latitude: -8.849261
+    min_longitude: 114.431626
+    max_latitude: -8.061681799999999
+    max_longitude: 115.7115281
   translations:
     cy: Bali
     af: Bali
@@ -2258,7 +2605,14 @@ BA:
     nb: Bali
     ca: Bali
     zu: Bali
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -7.9790674
+    longitude: 112.6358005
   translations:
     ms: Kalimantan
     ar: كليمنتان
@@ -2300,3 +2654,4 @@ KA:
     be: Інданезійскі Калімантан
     uz: Kalimantan
     mk: Калимантан
+  comments: 

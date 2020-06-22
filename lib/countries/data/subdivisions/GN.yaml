@@ -1,6 +1,15 @@
 ---
-BE:
+BE: !ruby/struct:ISO3166::Subdivision
+  name: Beyla
+  code: 
   unofficial_names: Beyla
+  geo:
+    latitude: 8.683333
+    longitude: -8.633333
+    min_latitude: 8.6760634
+    min_longitude: -8.6646938
+    max_latitude: 8.7033838
+    max_longitude: -8.623409200000001
   translations:
     en: Beyla
     ar: محافظة بيلا
@@ -40,16 +49,18 @@ BE:
     zh: 貝拉省
     ccp: "\U0001111D\U0001112C\U00011123"
     uk: Префектура Бейла
-  geo:
-    latitude: 8.683333
-    longitude: -8.633333
-    min_latitude: 8.6760634
-    min_longitude: -8.6646938
-    max_latitude: 8.7033838
-    max_longitude: -8.623409200000001
-  name: Beyla
-BF:
+  comments: 
+BF: !ruby/struct:ISO3166::Subdivision
+  name: Boffa
+  code: 
   unofficial_names: Boffa
+  geo:
+    latitude: 10.1808254
+    longitude: -14.0391615
+    min_latitude: 10.1706568
+    min_longitude: -14.050312
+    max_latitude: 10.1955781
+    max_longitude: -14.0259361
   translations:
     en: Boffa
     ar: محافظة بوفا
@@ -88,16 +99,18 @@ BF:
     zh: 博法省
     ccp: "\U0001111D\U0001112E\U0001111C"
     uk: Префектура Бофа
-  geo:
-    latitude: 10.1808254
-    longitude: -14.0391615
-    min_latitude: 10.1706568
-    min_longitude: -14.050312
-    max_latitude: 10.1955781
-    max_longitude: -14.0259361
-  name: Boffa
-BK:
+  comments: 
+BK: !ruby/struct:ISO3166::Subdivision
+  name: Boké
+  code: 
   unofficial_names: Boké
+  geo:
+    latitude: 11.1864672
+    longitude: -14.1001326
+    min_latitude: 9.810391599999999
+    min_longitude: -15.0782058
+    max_latitude: 12.67622
+    max_longitude: -12.555448
   translations:
     en: Boké
     de: Boké (Präfektur)
@@ -116,16 +129,18 @@ BK:
     ccp: "\U0001111D\U00011127\U00011107\U00011134"
     es: Boké²
     pt: Boké²
-  geo:
-    latitude: 11.1864672
-    longitude: -14.1001326
-    min_latitude: 9.810391599999999
-    min_longitude: -15.0782058
-    max_latitude: 12.67622
-    max_longitude: -12.555448
-  name: Boké
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Conakry
+  code: 
   unofficial_names: Conakry
+  geo:
+    latitude: 9.509167
+    longitude: -13.712222
+    min_latitude: 9.5007226
+    min_longitude: -13.7279041
+    max_latitude: 9.770441199999999
+    max_longitude: -13.4295724
   translations:
     en: Conakry
     af: Conakry
@@ -204,16 +219,18 @@ C:
     uz: Konakri
     bs: Conakry
     mk: Конакри
-  geo:
-    latitude: 9.509167
-    longitude: -13.712222
-    min_latitude: 9.5007226
-    min_longitude: -13.7279041
-    max_latitude: 9.770441199999999
-    max_longitude: -13.4295724
-  name: Conakry
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Coyah
+  code: 
   unofficial_names: Coyah
+  geo:
+    latitude: 9.7
+    longitude: -13.383333
+    min_latitude: 9.692723899999999
+    min_longitude: -13.4085811
+    max_latitude: 9.7186919
+    max_longitude: -13.3728929
   translations:
     en: Coyah
     ar: محافظة كويا
@@ -252,16 +269,18 @@ CO:
     zh: 科亞省
     ccp: "\U00011107\U0001112E\U00011120\U00011126\U00011134"
     uk: Префектура Койя
-  geo:
-    latitude: 9.7
-    longitude: -13.383333
-    min_latitude: 9.692723899999999
-    min_longitude: -13.4085811
-    max_latitude: 9.7186919
-    max_longitude: -13.3728929
-  name: Coyah
-DB:
+  comments: 
+DB: !ruby/struct:ISO3166::Subdivision
+  name: Dabola
+  code: 
   unofficial_names: Dabola
+  geo:
+    latitude: 10.75
+    longitude: -11.116667
+    min_latitude: 10.7100748
+    min_longitude: -11.142025
+    max_latitude: 10.7523239
+    max_longitude: -11.0782528
   translations:
     en: Dabola
     ar: محافظة دابولا
@@ -301,16 +320,18 @@ DB:
     ccp: "\U00011113\U0001111D\U0001112E\U00011123"
     uk: Префектура Дабола
     ca: prefactura de Dabola
-  geo:
-    latitude: 10.75
-    longitude: -11.116667
-    min_latitude: 10.7100748
-    min_longitude: -11.142025
-    max_latitude: 10.7523239
-    max_longitude: -11.0782528
-  name: Dabola
-DI:
+  comments: 
+DI: !ruby/struct:ISO3166::Subdivision
+  name: Dinguiraye
+  code: 
   unofficial_names: Dinguiraye
+  geo:
+    latitude: 11.3
+    longitude: -10.716667
+    min_latitude: 11.2771965
+    min_longitude: -10.7283639
+    max_latitude: 11.3052249
+    max_longitude: -10.6942462
   translations:
     en: Dinguiraye
     ar: محافظة دينغويراي
@@ -349,16 +370,18 @@ DI:
     zh: 丁吉拉伊省
     ccp: "\U00011113\U00011128\U00011101\U00011109\U0001112D\U0001112A\U00011122\U00011120\U0001112C"
     uk: Префектура Дінгірае
-  geo:
-    latitude: 11.3
-    longitude: -10.716667
-    min_latitude: 11.2771965
-    min_longitude: -10.7283639
-    max_latitude: 11.3052249
-    max_longitude: -10.6942462
-  name: Dinguiraye
-DL:
+  comments: 
+DL: !ruby/struct:ISO3166::Subdivision
+  name: Dalaba
+  code: 
   unofficial_names: Dalaba
+  geo:
+    latitude: 10.166667
+    longitude: -9.383333
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Dalaba
     ar: محافظة دالابا
@@ -397,16 +420,18 @@ DL:
     zh: 達拉巴省
     ccp: "\U00011113\U00011123\U0001111D"
     uk: Префектура Далаба
-  geo:
-    latitude: 10.166667
-    longitude: -9.383333
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Dalaba
-DU:
+  comments: 
+DU: !ruby/struct:ISO3166::Subdivision
+  name: Dubréka
+  code: 
   unofficial_names: Dubréka
+  geo:
+    latitude: 9.783332999999999
+    longitude: -13.516667
+    min_latitude: 9.769929800000002
+    min_longitude: -13.5531284
+    max_latitude: 9.807793799999999
+    max_longitude: -13.472023
   translations:
     en: Dubréka
     ar: محافظة دوبريكا
@@ -445,16 +470,18 @@ DU:
     zh: 杜布雷卡省
     ccp: "\U00011113\U0001112A\U0001111D\U00011133\U00011122\U0001112C\U00011107"
     uk: Префектура Дубрека
-  geo:
-    latitude: 9.783332999999999
-    longitude: -13.516667
-    min_latitude: 9.769929800000002
-    min_longitude: -13.5531284
-    max_latitude: 9.807793799999999
-    max_longitude: -13.472023
-  name: Dubréka
-FA:
+  comments: 
+FA: !ruby/struct:ISO3166::Subdivision
+  name: Faranah
+  code: 
   unofficial_names: Faranah
+  geo:
+    latitude: 10.033333
+    longitude: -10.733333
+    min_latitude: 10.0104814
+    min_longitude: -10.7830811
+    max_latitude: 10.0750513
+    max_longitude: -10.7218838
   translations:
     en: Faranah
     de: Faranah (Präfektur)
@@ -471,17 +498,19 @@ FA:
     zh: 法拉納省
     ccp: "\U0001111C\U00011122\U0001111A\U00011126\U00011134"
     es: Faranah²
-  geo:
-    latitude: 10.033333
-    longitude: -10.733333
-    min_latitude: 10.0104814
-    min_longitude: -10.7830811
-    max_latitude: 10.0750513
-    max_longitude: -10.7218838
-  name: Faranah
-FO:
+  comments: 
+FO: !ruby/struct:ISO3166::Subdivision
+  name: Forécariah
+  code: 
   unofficial_names:
   - Forécaria
+  geo:
+    latitude: 9.433333
+    longitude: -13.083333
+    min_latitude: 9.4211622
+    min_longitude: -13.1032728
+    max_latitude: 9.444088899999999
+    max_longitude: -13.0725472
   translations:
     en: Forécariah
     de: Forécariah (Präfektur)
@@ -498,16 +527,18 @@ FO:
     zh: 福雷卡里亞省
     ccp: "\U0001111C\U0001112E\U00011122\U00011134\U00011107\U0001112C\U00011122\U00011128\U00011120\U00011126\U00011134"
     es: Forécariah
-  geo:
-    latitude: 9.433333
-    longitude: -13.083333
-    min_latitude: 9.4211622
-    min_longitude: -13.1032728
-    max_latitude: 9.444088899999999
-    max_longitude: -13.0725472
-  name: Forécariah
-FR:
+  comments: 
+FR: !ruby/struct:ISO3166::Subdivision
+  name: Fria
+  code: 
   unofficial_names: Fria
+  geo:
+    latitude: 10.3674543
+    longitude: -13.5841871
+    min_latitude: 10.3439033
+    min_longitude: -13.5969328
+    max_latitude: 10.3925134
+    max_longitude: -13.5586739
   translations:
     en: Fria
     ar: محافظة فريا
@@ -546,16 +577,18 @@ FR:
     zh: 弗里亞省
     ccp: "\U0001111C\U00011133\U00011122\U0001112D\U00011120"
     uk: Префектура Фріа
-  geo:
-    latitude: 10.3674543
-    longitude: -13.5841871
-    min_latitude: 10.3439033
-    min_longitude: -13.5969328
-    max_latitude: 10.3925134
-    max_longitude: -13.5586739
-  name: Fria
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Gaoual
+  code: 
   unofficial_names: Gaoual
+  geo:
+    latitude: 11.75
+    longitude: -13.2
+    min_latitude: 11.7405713
+    min_longitude: -13.2174969
+    max_latitude: 11.7684275
+    max_longitude: -13.1911039
   translations:
     en: Gaoual
     ar: محافظة غاوال
@@ -594,16 +627,18 @@ GA:
     zh: 加瓦爾省
     ccp: "\U00011109\U00011105\U0001112A\U00011120\U00011123\U00011134"
     uk: Префектура Гауаль
-  geo:
-    latitude: 11.75
-    longitude: -13.2
-    min_latitude: 11.7405713
-    min_longitude: -13.2174969
-    max_latitude: 11.7684275
-    max_longitude: -13.1911039
-  name: Gaoual
-GU:
+  comments: 
+GU: !ruby/struct:ISO3166::Subdivision
+  name: Guékédou
+  code: 
   unofficial_names: Guékédou
+  geo:
+    latitude: 8.566666999999999
+    longitude: -10.133333
+    min_latitude: 8.5333639
+    min_longitude: -10.1548433
+    max_latitude: 8.597061199999999
+    max_longitude: -10.094719
   translations:
     en: Guéckédou
     ar: محافظة غوكيدو
@@ -643,16 +678,18 @@ GU:
     zh: 蓋凱杜省
     ccp: "\U00011109\U0001112A\U00011107\U0001112C\U00011113\U0001112F"
     uk: Гекеду
-  geo:
-    latitude: 8.566666999999999
-    longitude: -10.133333
-    min_latitude: 8.5333639
-    min_longitude: -10.1548433
-    max_latitude: 8.597061199999999
-    max_longitude: -10.094719
-  name: Guékédou
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Kankan
+  code: 
   unofficial_names: Kankan
+  geo:
+    latitude: 10.120923
+    longitude: -9.5450974
+    min_latitude: 8.7616421
+    min_longitude: -10.90847
+    max_latitude: 12.5026249
+    max_longitude: -7.947203899999999
   translations:
     en: Kankan
     de: Kankan
@@ -669,16 +706,18 @@ KA:
     zh: 康康省
     ccp: "\U00011107\U0001111A\U00011134\U00011107\U0001111A\U00011134"
     es: Kankan²
-  geo:
-    latitude: 10.120923
-    longitude: -9.5450974
-    min_latitude: 8.7616421
-    min_longitude: -10.90847
-    max_latitude: 12.5026249
-    max_longitude: -7.947203899999999
-  name: Kankan
-KB:
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: Koubia
+  code: 
   unofficial_names: Koubia
+  geo:
+    latitude: 11.583333
+    longitude: -11.9
+    min_latitude: 11.5748048
+    min_longitude: -11.9058323
+    max_latitude: 11.5942277
+    max_longitude: -11.8801688
   translations:
     en: Koubia
     ar: محافظة كوبيا
@@ -717,16 +756,18 @@ KB:
     zh: 庫比亞省
     ccp: "\U00011107\U0001112F\U0001111D\U00011128\U00011120"
     uk: Префектура Кубія
-  geo:
-    latitude: 11.583333
-    longitude: -11.9
-    min_latitude: 11.5748048
-    min_longitude: -11.9058323
-    max_latitude: 11.5942277
-    max_longitude: -11.8801688
-  name: Koubia
-KD:
+  comments: 
+KD: !ruby/struct:ISO3166::Subdivision
+  name: Kindia
+  code: 
   unofficial_names: Kindia
+  geo:
+    latitude: 10.066667
+    longitude: -12.85
+    min_latitude: 10.0121295
+    min_longitude: -12.8973483
+    max_latitude: 10.0824454
+    max_longitude: -12.8158951
   translations:
     en: Kindia
     de: Kindia (Präfektur)
@@ -742,16 +783,18 @@ KD:
     ccp: "\U00011107\U00011128\U0001111A\U00011134\U00011113\U00011128\U00011120"
     es: Kindia²
     pt: Quindia (prefeitura)
-  geo:
-    latitude: 10.066667
-    longitude: -12.85
-    min_latitude: 10.0121295
-    min_longitude: -12.8973483
-    max_latitude: 10.0824454
-    max_longitude: -12.8158951
-  name: Kindia
-KE:
+  comments: 
+KE: !ruby/struct:ISO3166::Subdivision
+  name: Kérouané
+  code: 
   unofficial_names: Kérouané
+  geo:
+    latitude: 9.266667
+    longitude: -9.016667
+    min_latitude: 9.2568165
+    min_longitude: -9.023037
+    max_latitude: 9.282653
+    max_longitude: -8.9937686
   translations:
     en: Kérouané
     ar: مقاطعة كيرونيه
@@ -790,16 +833,18 @@ KE:
     zh: 凱魯阿內省
     ccp: "\U00011107\U0001112C\U00011122\U0001112F\U00011120\U0001111A\U00011128"
     uk: Префектура Керуане
-  geo:
-    latitude: 9.266667
-    longitude: -9.016667
-    min_latitude: 9.2568165
-    min_longitude: -9.023037
-    max_latitude: 9.282653
-    max_longitude: -8.9937686
-  name: Kérouané
-KN:
+  comments: 
+KN: !ruby/struct:ISO3166::Subdivision
+  name: Koundara
+  code: 
   unofficial_names: Koundara
+  geo:
+    latitude: 12.483333
+    longitude: -13.3
+    min_latitude: 12.4696819
+    min_longitude: -13.3191205
+    max_latitude: 12.5115815
+    max_longitude: -13.2766341
   translations:
     en: Koundara
     ar: محافظة كاوندارا
@@ -838,16 +883,18 @@ KN:
     zh: 孔達拉省
     ccp: "\U00011107\U0001112F\U0001111A\U00011134\U00011113\U00011122"
     uk: Префектура Кундара
-  geo:
-    latitude: 12.483333
-    longitude: -13.3
-    min_latitude: 12.4696819
-    min_longitude: -13.3191205
-    max_latitude: 12.5115815
-    max_longitude: -13.2766341
-  name: Koundara
-KO:
+  comments: 
+KO: !ruby/struct:ISO3166::Subdivision
+  name: Kouroussa
+  code: 
   unofficial_names: Kouroussa
+  geo:
+    latitude: 10.65
+    longitude: -9.883333
+    min_latitude: 10.6314216
+    min_longitude: -9.9002372
+    max_latitude: 10.6671028
+    max_longitude: -9.866494999999999
   translations:
     en: Kouroussa
     ar: مقاطعة كوروسا
@@ -886,16 +933,18 @@ KO:
     zh: 庫魯薩省
     ccp: "\U00011107\U0001112F\U00011122\U0001112F\U00011125\U00011133\U00011126"
     uk: Префектура Куруса
-  geo:
-    latitude: 10.65
-    longitude: -9.883333
-    min_latitude: 10.6314216
-    min_longitude: -9.9002372
-    max_latitude: 10.6671028
-    max_longitude: -9.866494999999999
-  name: Kouroussa
-KS:
+  comments: 
+KS: !ruby/struct:ISO3166::Subdivision
+  name: Kissidougou
+  code: 
   unofficial_names: Kissidougou
+  geo:
+    latitude: 9.183333
+    longitude: -10.1
+    min_latitude: 9.1458251
+    min_longitude: -10.1441575
+    max_latitude: 9.234620999999999
+    max_longitude: -10.0576401
   translations:
     en: Kissidougou
     ar: محافظة كيسيدوغو
@@ -935,16 +984,18 @@ KS:
     ccp: "\U00011107\U00011128\U00011125\U00011128\U00011113\U0001112F\U00011109\U0001112F"
     uk: Префектура Кісідугу
     ca: prefectura de Kissidougou
-  geo:
-    latitude: 9.183333
-    longitude: -10.1
-    min_latitude: 9.1458251
-    min_longitude: -10.1441575
-    max_latitude: 9.234620999999999
-    max_longitude: -10.0576401
-  name: Kissidougou
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Labé
+  code: 
   unofficial_names: Labé
+  geo:
+    latitude: 11.641159
+    longitude: -11.8891721
+    min_latitude: 11.0049169
+    min_longitude: -13.027551
+    max_latitude: 12.4428371
+    max_longitude: -11.109311
   translations:
     en: Labé
     ar: محافظة لابي
@@ -983,16 +1034,18 @@ LA:
     zh: 拉貝省
     ccp: "\U00011123\U00011127\U0001111D\U0001112C"
     uk: Лабе
-  geo:
-    latitude: 11.641159
-    longitude: -11.8891721
-    min_latitude: 11.0049169
-    min_longitude: -13.027551
-    max_latitude: 12.4428371
-    max_longitude: -11.109311
-  name: Labé
-LE:
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: Lélouma
+  code: 
   unofficial_names: Lélouma
+  geo:
+    latitude: 11.4739967
+    longitude: -12.6675575
+    min_latitude: 11.102719
+    min_longitude: -13.027551
+    max_latitude: 11.831968
+    max_longitude: -12.424321
   translations:
     en: Lélouma
     ar: محافظة ليلوما
@@ -1031,16 +1084,18 @@ LE:
     zh: 萊盧馬省
     ccp: "\U00011123\U0001112C\U00011123\U0001112F\U0001111F"
     uk: Префектура Лелоума
-  geo:
-    latitude: 11.4739967
-    longitude: -12.6675575
-    min_latitude: 11.102719
-    min_longitude: -13.027551
-    max_latitude: 11.831968
-    max_longitude: -12.424321
-  name: Lélouma
-LO:
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: Lola
+  code: 
   unofficial_names: Lola
+  geo:
+    latitude: 7.8
+    longitude: -8.533332999999999
+    min_latitude: 7.784528399999999
+    min_longitude: -8.5487326
+    max_latitude: 7.8204807
+    max_longitude: -8.5110372
   translations:
     en: Lola
     ar: ولاية لولا
@@ -1079,16 +1134,18 @@ LO:
     zh: 洛拉省
     ccp: "\U00011123\U00011127\U00011123"
     uk: Префектура Лола
-  geo:
-    latitude: 7.8
-    longitude: -8.533332999999999
-    min_latitude: 7.784528399999999
-    min_longitude: -8.5487326
-    max_latitude: 7.8204807
-    max_longitude: -8.5110372
-  name: Lola
-MC:
+  comments: 
+MC: !ruby/struct:ISO3166::Subdivision
+  name: Macenta
+  code: 
   unofficial_names: Macenta
+  geo:
+    latitude: 8.549999999999999
+    longitude: -9.466667
+    min_latitude: 8.516344799999999
+    min_longitude: -9.496479
+    max_latitude: 8.563367999999999
+    max_longitude: -9.4360541
   translations:
     en: Macenta
     ar: ولاية ماسينتا
@@ -1127,16 +1184,18 @@ MC:
     zh: 馬桑塔省
     ccp: "\U0001111F\U00011125\U0001112C\U0001111A\U00011134\U00011111"
     uk: Масента
-  geo:
-    latitude: 8.549999999999999
-    longitude: -9.466667
-    min_latitude: 8.516344799999999
-    min_longitude: -9.496479
-    max_latitude: 8.563367999999999
-    max_longitude: -9.4360541
-  name: Macenta
-MD:
+  comments: 
+MD: !ruby/struct:ISO3166::Subdivision
+  name: Mandiana
+  code: 
   unofficial_names: Mandiana
+  geo:
+    latitude: 10.6172827
+    longitude: -8.6985716
+    min_latitude: 10.6024858
+    min_longitude: -8.7058068
+    max_latitude: 10.640026
+    max_longitude: -8.6830616
   translations:
     en: Mandiana
     ar: محافظة مانديانا
@@ -1175,16 +1234,18 @@ MD:
     zh: 芒賈納省
     ccp: "\U0001111F\U00011133\U00011120\U0001111A\U00011134\U00011113\U00011128\U00011120\U0001111A"
     uk: Префектура Мандіана
-  geo:
-    latitude: 10.6172827
-    longitude: -8.6985716
-    min_latitude: 10.6024858
-    min_longitude: -8.7058068
-    max_latitude: 10.640026
-    max_longitude: -8.6830616
-  name: Mandiana
-ML:
+  comments: 
+ML: !ruby/struct:ISO3166::Subdivision
+  name: Mali
+  code: 
   unofficial_names: Mali
+  geo:
+    latitude: 12.083333
+    longitude: -12.3
+    min_latitude: 12.0613546
+    min_longitude: -12.310524
+    max_latitude: 12.087919
+    max_longitude: -12.2849035
   translations:
     en: Mali
     ar: ولاية مالي
@@ -1223,16 +1284,18 @@ ML:
     zh: 馬里省
     ccp: "\U0001111F\U00011123\U00011128"
     uk: Префектура Малі
-  geo:
-    latitude: 12.083333
-    longitude: -12.3
-    min_latitude: 12.0613546
-    min_longitude: -12.310524
-    max_latitude: 12.087919
-    max_longitude: -12.2849035
-  name: Mali
-MM:
+  comments: 
+MM: !ruby/struct:ISO3166::Subdivision
+  name: Mamou
+  code: 
   unofficial_names: Mamou
+  geo:
+    latitude: 10.5736024
+    longitude: -11.8891721
+    min_latitude: 9.871374999999999
+    min_longitude: -12.976967
+    max_latitude: 11.335539
+    max_longitude: -11.3715681
   translations:
     en: Mamou
     de: Mamou
@@ -1251,16 +1314,18 @@ MM:
     ccp: "\U0001111F\U0001111F\U0001112F"
     es: Mamou²
     pt: Mamou²
-  geo:
-    latitude: 10.5736024
-    longitude: -11.8891721
-    min_latitude: 9.871374999999999
-    min_longitude: -12.976967
-    max_latitude: 11.335539
-    max_longitude: -11.3715681
-  name: Mamou
-NZ:
+  comments: 
+NZ: !ruby/struct:ISO3166::Subdivision
+  name: Nzérékoré
+  code: 
   unofficial_names: Nzérékoré
+  geo:
+    latitude: 7.75
+    longitude: -8.816666999999999
+    min_latitude: 7.7149041
+    min_longitude: -8.845367399999999
+    max_latitude: 7.803350799999999
+    max_longitude: -8.780307800000001
   translations:
     en: Nzérékoré
     de: Nzérékoré
@@ -1277,16 +1342,18 @@ NZ:
     zh: 恩澤雷科雷省
     ccp: "\U0001110E\U0001112C\U00011122\U0001112C\U00011107\U0001112E\U00011122\U0001112C"
     es: Nzérékoré²
-  geo:
-    latitude: 7.75
-    longitude: -8.816666999999999
-    min_latitude: 7.7149041
-    min_longitude: -8.845367399999999
-    max_latitude: 7.803350799999999
-    max_longitude: -8.780307800000001
-  name: Nzérékoré
-PI:
+  comments: 
+PI: !ruby/struct:ISO3166::Subdivision
+  name: Pita
+  code: 
   unofficial_names: Pita
+  geo:
+    latitude: 11.059568
+    longitude: -12.395582
+    min_latitude: 11.0282726
+    min_longitude: -12.4155379
+    max_latitude: 11.0790367
+    max_longitude: -12.370305
   translations:
     en: Pita
     ar: محافظة بيتا
@@ -1325,16 +1392,18 @@ PI:
     zh: 皮塔省
     ccp: "\U0001111B\U00011128\U00011111"
     uk: Префектура Піта
-  geo:
-    latitude: 11.059568
-    longitude: -12.395582
-    min_latitude: 11.0282726
-    min_longitude: -12.4155379
-    max_latitude: 11.0790367
-    max_longitude: -12.370305
-  name: Pita
-SI:
+  comments: 
+SI: !ruby/struct:ISO3166::Subdivision
+  name: Siguiri
+  code: 
   unofficial_names: Siguiri
+  geo:
+    latitude: 11.416667
+    longitude: -9.166667
+    min_latitude: 11.3927665
+    min_longitude: -9.2001034
+    max_latitude: 11.440052
+    max_longitude: -9.1520426
   translations:
     en: Siguiri
     ar: محافظة سيغيري
@@ -1374,16 +1443,18 @@ SI:
     zh: 錫吉里省
     ccp: "\U00011125\U00011128\U00011109\U0001112D\U0001112A\U00011122\U00011128"
     uk: Префектура Сігірі
-  geo:
-    latitude: 11.416667
-    longitude: -9.166667
-    min_latitude: 11.3927665
-    min_longitude: -9.2001034
-    max_latitude: 11.440052
-    max_longitude: -9.1520426
-  name: Siguiri
-TE:
+  comments: 
+TE: !ruby/struct:ISO3166::Subdivision
+  name: Télimélé
+  code: 
   unofficial_names: Télimélé
+  geo:
+    latitude: 10.9
+    longitude: -13.033333
+    min_latitude: 10.8810167
+    min_longitude: -13.0482388
+    max_latitude: 10.9323432
+    max_longitude: -13.0202578
   translations:
     en: Télimélé
     ar: محافظة تيليميلي
@@ -1423,16 +1494,18 @@ TE:
     zh: 泰利梅萊省
     ccp: "\U00011111\U0001112C\U00011123\U00011128\U0001111F\U0001112C\U00011123\U0001112C"
     uk: Префектура Телімеле
-  geo:
-    latitude: 10.9
-    longitude: -13.033333
-    min_latitude: 10.8810167
-    min_longitude: -13.0482388
-    max_latitude: 10.9323432
-    max_longitude: -13.0202578
-  name: Télimélé
-TO:
+  comments: 
+TO: !ruby/struct:ISO3166::Subdivision
+  name: Tougué
+  code: 
   unofficial_names: Tougué
+  geo:
+    latitude: 11.4464221
+    longitude: -11.6641388
+    min_latitude: 11.4313187
+    min_longitude: -11.6786385
+    max_latitude: 11.4590797
+    max_longitude: -11.6549492
   translations:
     en: Tougué
     ar: محافظة توغيه
@@ -1471,16 +1544,18 @@ TO:
     zh: 圖蓋省
     ccp: "\U00011112\U0001110B\U00011134"
     uk: Префектура Туге
-  geo:
-    latitude: 11.4464221
-    longitude: -11.6641388
-    min_latitude: 11.4313187
-    min_longitude: -11.6786385
-    max_latitude: 11.4590797
-    max_longitude: -11.6549492
-  name: Tougué
-YO:
+  comments: 
+YO: !ruby/struct:ISO3166::Subdivision
+  name: Yomou
+  code: 
   unofficial_names: Yomou
+  geo:
+    latitude: 7.566000000000001
+    longitude: -9.2533
+    min_latitude: 7.5576959
+    min_longitude: -9.2723751
+    max_latitude: 7.5800725
+    max_longitude: -9.2434503
   translations:
     en: Yomou
     ar: محافظة يومو
@@ -1519,16 +1594,18 @@ YO:
     zh: 約穆省
     ccp: "\U00011103\U00011128\U00011120\U0001111F\U0001112F"
     uk: Префектура Йому
-  geo:
-    latitude: 7.566000000000001
-    longitude: -9.2533
-    min_latitude: 7.5576959
-    min_longitude: -9.2723751
-    max_latitude: 7.5800725
-    max_longitude: -9.2434503
-  name: Yomou
-B:
+  comments: 
+B: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إقليم بوكيه
     be: Рэгіён Баке
@@ -1572,6 +1649,11 @@ B:
     eu: Bokéko eskualdea
     uk: Регіон Боке
     ca: Regió de Boké
+  comments: 
+D: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1579,8 +1661,6 @@ B:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-D:
-  unofficial_names: 
   translations:
     ar: إقليم كينديا
     be: Рэгіён Кіндыя
@@ -1624,6 +1704,11 @@ D:
     zh: 金迪亞大區
     ccp: "\U00011107\U00011128\U0001111A\U00011134\U00011113\U00011128\U00011120 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Kindiako eskualdea
+  comments: 
+K: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1631,8 +1716,6 @@ D:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-K:
-  unofficial_names: 
   translations:
     ar: إقليم كانكان
     be: Рэгіён Канкан
@@ -1675,6 +1758,11 @@ K:
     ccp: "\U00011107\U0001111A\U00011134\U00011107\U0001111A\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Kankango eskualdea
     uk: Канкан
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1682,8 +1770,6 @@ K:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-M:
-  unofficial_names: 
   translations:
     ar: مقاطعة مامو
     be: Рэгіён Маму
@@ -1726,6 +1812,11 @@ M:
     ccp: "\U0001111F\U0001111F\U0001112F \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Mamouko eskualdea
     uk: Ругіон Маму
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1733,8 +1824,6 @@ M:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-N:
-  unofficial_names: 
   translations:
     ar: إقليم نزيريكوري
     be: Рэгіён Нзерэкарэ
@@ -1778,6 +1867,11 @@ N:
       \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Nzérékoréko eskualdea
     uk: Регіон Нзерекоре
+  comments: 
+F: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1785,8 +1879,6 @@ N:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-F:
-  unofficial_names: 
   translations:
     be: Рэгіён Фарана
     bg: Фарана
@@ -1813,6 +1905,11 @@ F:
     ccp: "\U0001111C\U00011122\U00011134\U0001111A\U00011126\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Faranahko eskualdea
     ca: Faranah
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1820,8 +1917,6 @@ F:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-L:
-  unofficial_names: 
   translations:
     be: Рэгіён Лабэ
     bg: Лабе
@@ -1848,10 +1943,4 @@ L:
     ccp: "\U00011123\U0001111D\U0001112C \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: Labéko eskualdea
     uk: Лабе²
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

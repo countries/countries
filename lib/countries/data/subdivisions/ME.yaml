@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Andrijevica
+  code: 
   unofficial_names: Andrijevica
+  geo:
+    latitude: 42.739722
+    longitude: 19.785833
+    min_latitude: 42.7250737
+    min_longitude: 19.771657
+    max_latitude: 42.744286
+    max_longitude: 19.799509
   translations:
     en: Andrijevica
     ar: بلدية أندرييفيكا
@@ -46,16 +55,18 @@
     sq: Komuna e Andrijevicës
     ccp: "\U00011103\U0001111A\U00011134\U00011113\U00011133\U00011122\U00011128\U0001110E\U0001112C\U0001111E\U00011128\U00011107"
     bs: Andrijevica
-  geo:
-    latitude: 42.739722
-    longitude: 19.785833
-    min_latitude: 42.7250737
-    min_longitude: 19.771657
-    max_latitude: 42.744286
-    max_longitude: 19.799509
-  name: Andrijevica
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Bar
+  code: 
   unofficial_names: Bar
+  geo:
+    latitude: 42.2040425
+    longitude: 19.140438
+    min_latitude: 42.006969
+    min_longitude: 18.9345229
+    max_latitude: 42.315069
+    max_longitude: 19.3438407
   translations:
     en: Bar
     ar: بلدية بار
@@ -102,16 +113,18 @@
     ccp: "\U0001111D\U00011122\U00011134"
     be: абшчына Бар
     mk: Општина Бар
-  geo:
-    latitude: 42.2040425
-    longitude: 19.140438
-    min_latitude: 42.006969
-    min_longitude: 18.9345229
-    max_latitude: 42.315069
-    max_longitude: 19.3438407
-  name: Bar
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Berane
+  code: 
   unofficial_names: Berane
+  geo:
+    latitude: 42.84
+    longitude: 19.86
+    min_latitude: 42.807177
+    min_longitude: 19.8447418
+    max_latitude: 42.8696597
+    max_longitude: 19.8848308
   translations:
     en: Berane
     ar: بلدية بيراني
@@ -157,16 +170,18 @@
     zh: 貝拉內區
     sq: Komuna e Beranes
     ccp: "\U0001111D\U0001112C\U00011122\U0001111A\U00011134"
-  geo:
-    latitude: 42.84
-    longitude: 19.86
-    min_latitude: 42.807177
-    min_longitude: 19.8447418
-    max_latitude: 42.8696597
-    max_longitude: 19.8848308
-  name: Berane
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Bijelo Polje
+  code: 
   unofficial_names: Bijelo Polje
+  geo:
+    latitude: 43.04
+    longitude: 19.75
+    min_latitude: 43.0089153
+    min_longitude: 19.7273254
+    max_latitude: 43.065439
+    max_longitude: 19.7872352
   translations:
     en: Bijelo Polje
     ar: بلدية بييلو بولي
@@ -211,16 +226,18 @@
     sq: Komuna e Bellopojës
     ccp: "\U0001111D\U00011128\U0001110E\U0001112C\U00011123\U0001112E \U0001111B\U0001112E\U00011123\U00011134\U0001110E\U00011128"
     uk: Муніципалітет Бієло-Полє
-  geo:
-    latitude: 43.04
-    longitude: 19.75
-    min_latitude: 43.0089153
-    min_longitude: 19.7273254
-    max_latitude: 43.065439
-    max_longitude: 19.7872352
-  name: Bijelo Polje
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Budva
+  code: 
   unofficial_names: Budva
+  geo:
+    latitude: 42.288056
+    longitude: 18.8425
+    min_latitude: 42.2734745
+    min_longitude: 18.8220477
+    max_latitude: 42.3027695
+    max_longitude: 18.8609032
   translations:
     en: Budva
     ar: بلدية بودفا
@@ -265,16 +282,18 @@
     zh: 布德瓦區
     ccp: "\U0001111D\U0001112A\U00011116\U00011134\U0001111E"
     mk: Општина Будва
-  geo:
-    latitude: 42.288056
-    longitude: 18.8425
-    min_latitude: 42.2734745
-    min_longitude: 18.8220477
-    max_latitude: 42.3027695
-    max_longitude: 18.8609032
-  name: Budva
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Cetinje
+  code: 
   unofficial_names: Cetinje
+  geo:
+    latitude: 42.38
+    longitude: 18.92
+    min_latitude: 42.3725432
+    min_longitude: 18.8862705
+    max_latitude: 42.4086289
+    max_longitude: 18.9402152
   translations:
     en: Cetinje
     ar: بلدية سيتينيي
@@ -319,16 +338,18 @@
     uk: Муніципалітет Цетине
     be: Цэцінэ
     mk: Престолнина Цетиње
-  geo:
-    latitude: 42.38
-    longitude: 18.92
-    min_latitude: 42.3725432
-    min_longitude: 18.8862705
-    max_latitude: 42.4086289
-    max_longitude: 18.9402152
-  name: Cetinje
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Danilovgrad
+  code: 
   unofficial_names: Danilovgrad
+  geo:
+    latitude: 42.5537532
+    longitude: 19.1077389
+    min_latitude: 42.5411924
+    min_longitude: 19.0853548
+    max_latitude: 42.5631326
+    max_longitude: 19.1203737
   translations:
     en: Danilovgrad
     ar: بلدية دانيلوفغراد
@@ -371,16 +392,18 @@
     zh: 達尼洛夫格勒區
     ccp: "\U00011113\U0001111A\U00011128\U00011123\U0001112E\U0001111B\U00011134\U00011109\U00011133\U00011122\U00011116\U00011134"
     uk: Муніципалітет Даниловград
-  geo:
-    latitude: 42.5537532
-    longitude: 19.1077389
-    min_latitude: 42.5411924
-    min_longitude: 19.0853548
-    max_latitude: 42.5631326
-    max_longitude: 19.1203737
-  name: Danilovgrad
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Herceg-Novi
+  code: 
   unofficial_names: Herceg-Novi
+  geo:
+    latitude: 42.4572478
+    longitude: 18.5314753
+    min_latitude: 42.4490956
+    min_longitude: 18.5141516
+    max_latitude: 42.4661614
+    max_longitude: 18.5613638
   translations:
     en: Herceg Novi
     ar: بلدية هرسك نوفي
@@ -438,16 +461,18 @@
     ca: Herceg Novi
     bs: Herceg Novi
     mk: Општина Херцег Нови
-  geo:
-    latitude: 42.4572478
-    longitude: 18.5314753
-    min_latitude: 42.4490956
-    min_longitude: 18.5141516
-    max_latitude: 42.4661614
-    max_longitude: 18.5613638
-  name: Herceg-Novi
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Kolašin
+  code: 
   unofficial_names: Kolašin
+  geo:
+    latitude: 42.823611
+    longitude: 19.5225
+    min_latitude: 42.8146069
+    min_longitude: 19.5110321
+    max_latitude: 42.8338702
+    max_longitude: 19.5420171
   translations:
     en: Kolašin
     ar: بلدية كولاشين
@@ -492,16 +517,18 @@
     sq: Komuna e Koloshinit
     ccp: "\U00011107\U0001112E\U00011123\U00011125\U00011128\U0001111A\U00011134"
     uk: Муніципалітет Колашин
-  geo:
-    latitude: 42.823611
-    longitude: 19.5225
-    min_latitude: 42.8146069
-    min_longitude: 19.5110321
-    max_latitude: 42.8338702
-    max_longitude: 19.5420171
-  name: Kolašin
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Kotor
+  code: 
   unofficial_names: Kotor
+  geo:
+    latitude: 42.424662
+    longitude: 18.771234
+    min_latitude: 42.4211597
+    min_longitude: 18.7663583
+    max_latitude: 42.4273177
+    max_longitude: 18.7748086
   translations:
     en: Kotor
     es: Municipio de Kotor
@@ -523,16 +550,18 @@
     ccp: "\U00011107\U0001112E\U00011111\U0001112E\U00011122\U00011134"
     fr: Kotor
     mk: Општина Котор
-  geo:
-    latitude: 42.424662
-    longitude: 18.771234
-    min_latitude: 42.4211597
-    min_longitude: 18.7663583
-    max_latitude: 42.4273177
-    max_longitude: 18.7748086
-  name: Kotor
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Mojkovac
+  code: 
   unofficial_names: Mojkovac
+  geo:
+    latitude: 42.96
+    longitude: 19.58
+    min_latitude: 42.9522135
+    min_longitude: 19.5728303
+    max_latitude: 42.9672261
+    max_longitude: 19.5910262
   translations:
     en: Mojkovac
     ar: بلدية مويكوفاتش
@@ -577,16 +606,18 @@
     sq: Komuna e Mojkovacit
     ccp: "\U0001111F\U0001110C\U00011134\U00011107\U0001112E\U0001111E\U00011107\U00011134"
     uk: Муніципалітет Мойковац
-  geo:
-    latitude: 42.96
-    longitude: 19.58
-    min_latitude: 42.9522135
-    min_longitude: 19.5728303
-    max_latitude: 42.9672261
-    max_longitude: 19.5910262
-  name: Mojkovac
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Nikšic´
+  code: 
   unofficial_names: Nikšic´
+  geo:
+    latitude: 42.78
+    longitude: 18.94
+    min_latitude: 42.7371471
+    min_longitude: 18.897965
+    max_latitude: 42.8094439
+    max_longitude: 18.9982796
   translations:
     en: Nikšić
     ar: بلدية نيكتسيتش
@@ -629,16 +660,18 @@
     zh: 尼克希奇區
     ccp: "\U0001111A\U00011128\U00011107\U00011134\U00011125\U00011128\U00011107\U00011134"
     uk: Муніципалітет Никшич
-  geo:
-    latitude: 42.78
-    longitude: 18.94
-    min_latitude: 42.7371471
-    min_longitude: 18.897965
-    max_latitude: 42.8094439
-    max_longitude: 18.9982796
-  name: Nikšic´
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Plav
+  code: 
   unofficial_names: Plav
+  geo:
+    latitude: 42.6001337
+    longitude: 19.9407541
+    min_latitude: 42.5892922
+    min_longitude: 19.930226
+    max_latitude: 42.6091342
+    max_longitude: 19.9534082
   translations:
     en: Plav
     ar: بلدية بلاف
@@ -683,16 +716,18 @@
     sr_Latn: Plav
     zh: 普拉夫區
     ccp: "\U0001111B\U00011133\U00011123\U0001111B\U00011134"
-  geo:
-    latitude: 42.6001337
-    longitude: 19.9407541
-    min_latitude: 42.5892922
-    min_longitude: 19.930226
-    max_latitude: 42.6091342
-    max_longitude: 19.9534082
-  name: Plav
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Pljevlja
+  code: 
   unofficial_names: Pljevlja
+  geo:
+    latitude: 43.36
+    longitude: 19.36
+    min_latitude: 43.3385382
+    min_longitude: 19.3206596
+    max_latitude: 43.3736113
+    max_longitude: 19.3831443
   translations:
     en: Pljevlja
     ar: بلدية بليفليه
@@ -737,16 +772,18 @@
     sq: Komuna e Plevlës
     ccp: "\U0001110E\U0001112C\U0001111B\U00011134\U0001110E"
     uk: Муніципалітет Плевля
-  geo:
-    latitude: 43.36
-    longitude: 19.36
-    min_latitude: 43.3385382
-    min_longitude: 19.3206596
-    max_latitude: 43.3736113
-    max_longitude: 19.3831443
-  name: Pljevlja
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Plužine
+  code: 
   unofficial_names: Plužine
+  geo:
+    latitude: 43.1541366
+    longitude: 18.8410376
+    min_latitude: 43.1508473
+    min_longitude: 18.8326693
+    max_latitude: 43.1582202
+    max_longitude: 18.8480115
   translations:
     en: Plužine
     ar: بلدية بلوزين
@@ -790,16 +827,18 @@
     zh: 普盧日內區
     ccp: "\U0001111B\U00011133\U00011123\U0001112A\U0001110E\U0001112D\U0001111A\U00011134"
     uk: Муніципалітет Плужине
-  geo:
-    latitude: 43.1541366
-    longitude: 18.8410376
-    min_latitude: 43.1508473
-    min_longitude: 18.8326693
-    max_latitude: 43.1582202
-    max_longitude: 18.8480115
-  name: Plužine
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Podgorica
+  code: 
   unofficial_names: Podgorica
+  geo:
+    latitude: 42.441286
+    longitude: 19.262892
+    min_latitude: 42.368358
+    min_longitude: 19.1815065
+    max_latitude: 42.4956435
+    max_longitude: 19.3302512
   translations:
     en: Podgorica
     es: Municipio de Podgorica
@@ -821,16 +860,18 @@
     fr: Podgorica
     de: Großgemeinde Podgorica
     mk: Гравен град Подгорица
-  geo:
-    latitude: 42.441286
-    longitude: 19.262892
-    min_latitude: 42.368358
-    min_longitude: 19.1815065
-    max_latitude: 42.4956435
-    max_longitude: 19.3302512
-  name: Podgorica
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Rožaje
+  code: 
   unofficial_names: Rožaje
+  geo:
+    latitude: 42.8333
+    longitude: 20.1667
+    min_latitude: 42.8273239
+    min_longitude: 20.1424885
+    max_latitude: 42.8588217
+    max_longitude: 20.1917553
   translations:
     en: Rožaje
     bg: Рожайе
@@ -853,16 +894,18 @@
     ccp: "\U00011122\U0001112E\U0001110E\U0001110E\U0001112C"
     fr: Rožaje
     bs: Rožaje
-  geo:
-    latitude: 42.8333
-    longitude: 20.1667
-    min_latitude: 42.8273239
-    min_longitude: 20.1424885
-    max_latitude: 42.8588217
-    max_longitude: 20.1917553
-  name: Rožaje
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Šavnik
+  code: 
   unofficial_names: Šavnik
+  geo:
+    latitude: 42.9577803
+    longitude: 19.0943627
+    min_latitude: 42.95211949999999
+    min_longitude: 19.0911485
+    max_latitude: 42.9614791
+    max_longitude: 19.1002035
   translations:
     en: Šavnik
     ar: بلدية تشافنيك
@@ -907,16 +950,18 @@
     sq: Komuna e Shavnikut
     ccp: "\U00011125\U0001111B\U00011134\U0001111A\U00011128\U00011107\U00011134"
     uk: Муніципалітет Шавник
-  geo:
-    latitude: 42.9577803
-    longitude: 19.0943627
-    min_latitude: 42.95211949999999
-    min_longitude: 19.0911485
-    max_latitude: 42.9614791
-    max_longitude: 19.1002035
-  name: Šavnik
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Tivat
+  code: 
   unofficial_names: Tivat
+  geo:
+    latitude: 42.43
+    longitude: 18.7
+    min_latitude: 42.4175716
+    min_longitude: 18.6844826
+    max_latitude: 42.44611889999999
+    max_longitude: 18.7237287
   translations:
     en: Tivat
     es: Municipio de Tivat
@@ -935,16 +980,18 @@
     fr: Tivat
     id: Kota praja Tivat
     mk: Општина Тиват
-  geo:
-    latitude: 42.43
-    longitude: 18.7
-    min_latitude: 42.4175716
-    min_longitude: 18.6844826
-    max_latitude: 42.44611889999999
-    max_longitude: 18.7237287
-  name: Tivat
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Ulcinj
+  code: 
   unofficial_names: Ulcinj
+  geo:
+    latitude: 41.9310884
+    longitude: 19.2147632
+    min_latitude: 41.9187885
+    min_longitude: 19.1914062
+    max_latitude: 41.9386158
+    max_longitude: 19.2313958
   translations:
     en: Ulcinj
     ar: بلدية أولتسي
@@ -990,16 +1037,18 @@
     sq: Komuna e Ulqinit
     ccp: "\U00011103\U00011123\U00011134\U00011125\U0001112C\U0001111A\U00011134\U0001110E\U00011134"
     mk: Општина Улцињ
-  geo:
-    latitude: 41.9310884
-    longitude: 19.2147632
-    min_latitude: 41.9187885
-    min_longitude: 19.1914062
-    max_latitude: 41.9386158
-    max_longitude: 19.2313958
-  name: Ulcinj
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Žabljak
+  code: 
   unofficial_names: Žabljak
+  geo:
+    latitude: 43.1555152
+    longitude: 19.1226018
+    min_latitude: 43.1471842
+    min_longitude: 19.1090442
+    max_latitude: 43.1686245
+    max_longitude: 19.1503287
   translations:
     en: Žabljak
     ar: بلدية شابلياك
@@ -1044,16 +1093,18 @@
     sq: Komuna e Zhabjakut
     ccp: "\U0001110E\U0001111B\U00011134\U0001110E\U00011107\U00011134"
     uk: Муніципалітет Жабляк
-  geo:
-    latitude: 43.1555152
-    longitude: 19.1226018
-    min_latitude: 43.1471842
-    min_longitude: 19.1090442
-    max_latitude: 43.1686245
-    max_longitude: 19.1503287
-  name: Žabljak
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Гусине (община)
     en: Gusinje
@@ -1066,6 +1117,11 @@
     zh: 古西涅區
     sq: Komuna e Gucisë
     ccp: "\U00011109\U0001112A\U00011125\U00011128\U0001111A\U00011134\U0001110E\U0001112C"
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1073,8 +1129,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'23':
-  unofficial_names: 
   translations:
     bg: Петница (община)
     en: Petnjica
@@ -1086,13 +1140,18 @@
     sr_Latn: Opština Petnjica
     zh: 佩特尼察區
     ccp: "\U0001111B\U0001112C\U00011111\U0001111A\U00011134\U0001110E\U00011128\U00011107"
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-'24':
+    latitude: 42.708678
+    longitude: 19.37439
+    min_latitude: 41.8297
+    min_longitude: 18.4337921
+    max_latitude: 43.558743
+    max_longitude: 20.352926
   translations:
     en: Tuzi
+  comments: 

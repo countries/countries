@@ -1,6 +1,15 @@
 ---
-AB:
+AB: !ruby/struct:ISO3166::Subdivision
+  name: Abia
+  code: 
   unofficial_names: Abia
+  geo:
+    latitude: 5.430892099999999
+    longitude: 7.524724300000001
+    min_latitude: 4.810874
+    min_longitude: 7.150823
+    max_latitude: 6.0191921
+    max_longitude: 7.9630091
   translations:
     en: Abia
     ar: ولاية أبيا
@@ -54,18 +63,20 @@ AB:
     ig: Ȯra Abia
     ha: Abiya
     yo: Ìpínlẹ̀ Ábíá
-  geo:
-    latitude: 5.430892099999999
-    longitude: 7.524724300000001
-    min_latitude: 4.810874
-    min_longitude: 7.150823
-    max_latitude: 6.0191921
-    max_longitude: 7.9630091
-  name: Abia
-AD:
+  comments: 
+AD: !ruby/struct:ISO3166::Subdivision
+  name: Adamawa
+  code: 
   unofficial_names:
   - Adamaoua
   - Gongola
+  geo:
+    latitude: 9.3250497
+    longitude: 12.4380581
+    min_latitude: 7.452592
+    min_longitude: 11.392936
+    max_latitude: 10.943588
+    max_longitude: 13.6924919
   translations:
     en: Adamawa
     ar: ولاية آدماوة
@@ -118,16 +129,18 @@ AD:
     ig: Ȯra Adamawa
     ha: Adamawa
     yo: Ìpínlẹ̀ Adámáwá
-  geo:
-    latitude: 9.3250497
-    longitude: 12.4380581
-    min_latitude: 7.452592
-    min_longitude: 11.392936
-    max_latitude: 10.943588
-    max_longitude: 13.6924919
-  name: Adamawa
-AK:
+  comments: 
+AK: !ruby/struct:ISO3166::Subdivision
+  name: Akwa Ibom
+  code: 
   unofficial_names: Akwa Ibom
+  geo:
+    latitude: 4.929986899999999
+    longitude: 7.872159999999999
+    min_latitude: 4.4780049
+    min_longitude: 7.4605409
+    max_latitude: 5.530245
+    max_longitude: 8.340371
   translations:
     en: Akwa Ibom
     ar: ولاية اكوا ايبوم
@@ -180,16 +193,18 @@ AK:
     ig: Ȯra Akwa Ibom
     ha: Akwa Ibom
     yo: Ìpínlẹ̀ Akwa Íbọm
-  geo:
-    latitude: 4.929986899999999
-    longitude: 7.872159999999999
-    min_latitude: 4.4780049
-    min_longitude: 7.4605409
-    max_latitude: 5.530245
-    max_longitude: 8.340371
-  name: Akwa Ibom
-AN:
+  comments: 
+AN: !ruby/struct:ISO3166::Subdivision
+  name: Anambra
+  code: 
   unofficial_names: Anambra
+  geo:
+    latitude: 6.2757656
+    longitude: 7.0068393
+    min_latitude: 5.692615000000001
+    min_longitude: 6.613086
+    max_latitude: 6.7795999
+    max_longitude: 7.355934
   translations:
     en: Anambra
     ar: ولاية أنمبرة
@@ -244,16 +259,18 @@ AN:
     uk: Анамбра
     yue: 阿南布拉州
     yo: Ìpínlẹ̀ Anámbra
-  geo:
-    latitude: 6.2757656
-    longitude: 7.0068393
-    min_latitude: 5.692615000000001
-    min_longitude: 6.613086
-    max_latitude: 6.7795999
-    max_longitude: 7.355934
-  name: Anambra
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Bauchi
+  code: 
   unofficial_names: Bauchi
+  geo:
+    latitude: 10.315833
+    longitude: 9.844166999999999
+    min_latitude: 10.255381
+    min_longitude: 9.779892
+    max_latitude: 10.3398292
+    max_longitude: 9.864006
   translations:
     en: Bauchi
     ar: ولاية باوتشي
@@ -307,16 +324,18 @@ BA:
     ha: Bauchi
     uk: Баучі
     yo: Ìpínlẹ̀ Bauchi
-  geo:
-    latitude: 10.315833
-    longitude: 9.844166999999999
-    min_latitude: 10.255381
-    min_longitude: 9.779892
-    max_latitude: 10.3398292
-    max_longitude: 9.864006
-  name: Bauchi
-BE:
+  comments: 
+BE: !ruby/struct:ISO3166::Subdivision
+  name: Benue
+  code: 
   unofficial_names: Benue
+  geo:
+    latitude: 7.350825899999999
+    longitude: 8.8362755
+    min_latitude: 6.4427789
+    min_longitude: 7.4893301
+    max_latitude: 8.149299
+    max_longitude: 9.918301
   translations:
     en: Benue
     ar: ولاية بينو
@@ -369,16 +388,18 @@ BE:
     ha: Benue
     uk: Бенуе
     yo: Ìpínlẹ̀ Bẹ́núé
-  geo:
-    latitude: 7.350825899999999
-    longitude: 8.8362755
-    min_latitude: 6.4427789
-    min_longitude: 7.4893301
-    max_latitude: 8.149299
-    max_longitude: 9.918301
-  name: Benue
-BO:
+  comments: 
+BO: !ruby/struct:ISO3166::Subdivision
+  name: Borno
+  code: 
   unofficial_names: Borno
+  geo:
+    latitude: 11.5097479
+    longitude: 12.9789121
+    min_latitude: 10.0291549
+    min_longitude: 11.6286559
+    max_latitude: 13.7144441
+    max_longitude: 14.680073
   translations:
     en: Borno
     ar: ولاية بورنو
@@ -435,16 +456,18 @@ BO:
     uk: Борно
     yo: Ìpínlẹ̀ Bọ̀rnó
     mk: Борно
-  geo:
-    latitude: 11.5097479
-    longitude: 12.9789121
-    min_latitude: 10.0291549
-    min_longitude: 11.6286559
-    max_latitude: 13.7144441
-    max_longitude: 14.680073
-  name: Borno
-BY:
+  comments: 
+BY: !ruby/struct:ISO3166::Subdivision
+  name: Bayelsa
+  code: 
   unofficial_names: Bayelsa
+  geo:
+    latitude: 4.867776699999999
+    longitude: 5.898713900000001
+    min_latitude: 4.2771439
+    min_longitude: 5.370120500000001
+    max_latitude: 5.3933139
+    max_longitude: 6.724865899999999
   translations:
     en: Bayelsa
     ar: ولاية بايلسا
@@ -497,16 +520,18 @@ BY:
     ha: Bayelsa
     uk: Байельса
     yo: Ìpínlẹ̀ Bàyélsà
-  geo:
-    latitude: 4.867776699999999
-    longitude: 5.898713900000001
-    min_latitude: 4.2771439
-    min_longitude: 5.370120500000001
-    max_latitude: 5.3933139
-    max_longitude: 6.724865899999999
-  name: Bayelsa
-CR:
+  comments: 
+CR: !ruby/struct:ISO3166::Subdivision
+  name: Cross River
+  code: 
   unofficial_names: Cross River
+  geo:
+    latitude: 6.167031499999999
+    longitude: 8.6600586
+    min_latitude: 4.690596000000001
+    min_longitude: 7.863165999999999
+    max_latitude: 6.899680999999999
+    max_longitude: 9.472486
   translations:
     en: Cross River
     ar: ولاية كروس ريفر
@@ -559,16 +584,18 @@ CR:
     ig: Ȯra Cross River
     ha: Cross River
     yo: Ìpínlẹ̀ Cross River
-  geo:
-    latitude: 6.167031499999999
-    longitude: 8.6600586
-    min_latitude: 4.690596000000001
-    min_longitude: 7.863165999999999
-    max_latitude: 6.899680999999999
-    max_longitude: 9.472486
-  name: Cross River
-DE:
+  comments: 
+DE: !ruby/struct:ISO3166::Subdivision
+  name: Delta
+  code: 
   unofficial_names: Delta
+  geo:
+    latitude: 5.5324624
+    longitude: 5.898713900000001
+    min_latitude: 5.024351999999999
+    min_longitude: 5.000000099999999
+    max_latitude: 6.5248195
+    max_longitude: 6.7653911
   translations:
     en: Delta
     ar: ولاية دلتا
@@ -624,16 +651,18 @@ DE:
     ha: Delta
     he: מדינת דלתא
     yo: Ìpínlẹ̀ Dẹ́ltà
-  geo:
-    latitude: 5.5324624
-    longitude: 5.898713900000001
-    min_latitude: 5.024351999999999
-    min_longitude: 5.000000099999999
-    max_latitude: 6.5248195
-    max_longitude: 6.7653911
-  name: Delta
-EB:
+  comments: 
+EB: !ruby/struct:ISO3166::Subdivision
+  name: Ebonyi
+  code: 
   unofficial_names: Ebonyi
+  geo:
+    latitude: 6.177973
+    longitude: 7.959286299999999
+    min_latitude: 5.6873539
+    min_longitude: 7.5251131
+    max_latitude: 6.807093
+    max_longitude: 8.4470269
   translations:
     en: Ebonyi
     ar: ولاية إبونيه
@@ -684,17 +713,19 @@ EB:
     ig: Ȯra Ebonyi
     ha: Ebonyi
     uk: Ебоньі
-  geo:
-    latitude: 6.177973
-    longitude: 7.959286299999999
-    min_latitude: 5.6873539
-    min_longitude: 7.5251131
-    max_latitude: 6.807093
-    max_longitude: 8.4470269
-  name: Ebonyi
-ED:
+  comments: 
+ED: !ruby/struct:ISO3166::Subdivision
+  name: Edo
+  code: 
   unofficial_names:
   - Bendel
+  geo:
+    latitude: 6.5438101
+    longitude: 5.898713900000001
+    min_latitude: 5.7386799
+    min_longitude: 4.975229
+    max_latitude: 7.5721479
+    max_longitude: 6.707891000000001
   translations:
     en: Edo
     ar: ولاية إدو
@@ -749,16 +780,18 @@ ED:
     ha: Edo
     uk: Едо
     yo: Ìpínlẹ̀ Ẹdó
-  geo:
-    latitude: 6.5438101
-    longitude: 5.898713900000001
-    min_latitude: 5.7386799
-    min_longitude: 4.975229
-    max_latitude: 7.5721479
-    max_longitude: 6.707891000000001
-  name: Edo
-EK:
+  comments: 
+EK: !ruby/struct:ISO3166::Subdivision
+  name: Ekiti
+  code: 
   unofficial_names: Ekiti
+  geo:
+    latitude: 7.665581299999999
+    longitude: 5.3102505
+    min_latitude: 7.272215999999999
+    min_longitude: 4.9103081
+    max_latitude: 8.0674911
+    max_longitude: 5.8048959
   translations:
     en: Ekiti
     ar: ولاية إكيتي
@@ -811,16 +844,18 @@ EK:
     ha: Ekiti
     uk: Екіті
     yo: Ìpínlẹ̀ Èkìtì
-  geo:
-    latitude: 7.665581299999999
-    longitude: 5.3102505
-    min_latitude: 7.272215999999999
-    min_longitude: 4.9103081
-    max_latitude: 8.0674911
-    max_longitude: 5.8048959
-  name: Ekiti
-EN:
+  comments: 
+EN: !ruby/struct:ISO3166::Subdivision
+  name: Enugu
+  code: 
   unofficial_names: Enugu
+  geo:
+    latitude: 6.452667
+    longitude: 7.510332999999998
+    min_latitude: 6.360852
+    min_longitude: 7.458772700000001
+    max_latitude: 6.5155669
+    max_longitude: 7.618160199999999
   translations:
     en: Enugu
     ar: ولاية إينوغو
@@ -874,16 +909,18 @@ EN:
     uk: Енугу
     be: Энугу
     yo: Ìpínlẹ̀ Ẹnúgu
-  geo:
-    latitude: 6.452667
-    longitude: 7.510332999999998
-    min_latitude: 6.360852
-    min_longitude: 7.458772700000001
-    max_latitude: 6.5155669
-    max_longitude: 7.618160199999999
-  name: Enugu
-FC:
+  comments: 
+FC: !ruby/struct:ISO3166::Subdivision
+  name: Abuja Capital Territory
+  code: 
   unofficial_names: Abuja Capital Territory
+  geo:
+    latitude: 8.8556838
+    longitude: 7.179025999999999
+    min_latitude: 8.396675
+    min_longitude: 6.749135
+    max_latitude: 9.3574219
+    max_longitude: 7.617400000000001
   translations:
     en: Federal Capital Territory
     ar: منطقة العاصمة الإتحادية لنيجيريا
@@ -933,16 +970,18 @@ FC:
     uk: Федеральна столична територія
     be: Федэральная сталічная тэрыторыя
     yo: Agbègbè Olú-ìlú Ìjọba Àpapọ̀ Nàíjíríà
-  geo:
-    latitude: 8.8556838
-    longitude: 7.179025999999999
-    min_latitude: 8.396675
-    min_longitude: 6.749135
-    max_latitude: 9.3574219
-    max_longitude: 7.617400000000001
-  name: Abuja Capital Territory
-GO:
+  comments: 
+GO: !ruby/struct:ISO3166::Subdivision
+  name: Gombe
+  code: 
   unofficial_names: Gombe
+  geo:
+    latitude: 10.283333
+    longitude: 11.166667
+    min_latitude: 10.264117
+    min_longitude: 11.1424112
+    max_latitude: 10.3128497
+    max_longitude: 11.2147019
   translations:
     en: Gombe
     ar: ولاية غومبي
@@ -996,16 +1035,18 @@ GO:
     ha: Gombe
     uk: Гомбе
     yo: Ìpínlẹ̀ Gòmbè
-  geo:
-    latitude: 10.283333
-    longitude: 11.166667
-    min_latitude: 10.264117
-    min_longitude: 11.1424112
-    max_latitude: 10.3128497
-    max_longitude: 11.2147019
-  name: Gombe
-IM:
+  comments: 
+IM: !ruby/struct:ISO3166::Subdivision
+  name: Imo
+  code: 
   unofficial_names: Imo
+  geo:
+    latitude: 5.5214533
+    longitude: 6.920913499999999
+    min_latitude: 5.179824000000001
+    min_longitude: 6.622309899999999
+    max_latitude: 5.928465
+    max_longitude: 7.404109
   translations:
     en: Imo
     ar: ولاية إيمو
@@ -1060,16 +1101,18 @@ IM:
     he: אימו
     uk: Імо
     yo: Ìpínlẹ̀ Ímò
-  geo:
-    latitude: 5.5214533
-    longitude: 6.920913499999999
-    min_latitude: 5.179824000000001
-    min_longitude: 6.622309899999999
-    max_latitude: 5.928465
-    max_longitude: 7.404109
-  name: Imo
-JI:
+  comments: 
+JI: !ruby/struct:ISO3166::Subdivision
+  name: Jigawa
+  code: 
   unofficial_names: Jigawa
+  geo:
+    latitude: 12.5700315
+    longitude: 8.9400589
+    min_latitude: 12.5688205
+    min_longitude: 8.9387779
+    max_latitude: 12.5708993
+    max_longitude: 8.9410364
   translations:
     en: Jigawa
     ar: ولاية جيغاوة
@@ -1122,16 +1165,18 @@ JI:
     ha: Jigawa
     uk: Джигава
     yo: Ìpínlẹ̀ Jígàwà
-  geo:
-    latitude: 12.5700315
-    longitude: 8.9400589
-    min_latitude: 12.5688205
-    min_longitude: 8.9387779
-    max_latitude: 12.5708993
-    max_longitude: 8.9410364
-  name: Jigawa
-KD:
+  comments: 
+KD: !ruby/struct:ISO3166::Subdivision
+  name: Kaduna
+  code: 
   unofficial_names: Kaduna
+  geo:
+    latitude: 10.516667
+    longitude: 7.433332999999999
+    min_latitude: 10.3971566
+    min_longitude: 7.349789099999999
+    max_latitude: 10.6169963
+    max_longitude: 7.508812000000001
   translations:
     en: Kaduna
     ar: ولاية كادونا
@@ -1184,16 +1229,18 @@ KD:
     he: קדונה (מדינה)
     uk: Кадуна
     yo: Ìpínlẹ̀ Kàdúná
-  geo:
-    latitude: 10.516667
-    longitude: 7.433332999999999
-    min_latitude: 10.3971566
-    min_longitude: 7.349789099999999
-    max_latitude: 10.6169963
-    max_longitude: 7.508812000000001
-  name: Kaduna
-KE:
+  comments: 
+KE: !ruby/struct:ISO3166::Subdivision
+  name: Kebbi
+  code: 
   unofficial_names: Kebbi
+  geo:
+    latitude: 11.6781241
+    longitude: 4.0695454
+    min_latitude: 10.0931591
+    min_longitude: 3.4958741
+    max_latitude: 13.232542
+    max_longitude: 6.027123
   translations:
     en: Kebbi
     ar: ولاية كبي
@@ -1246,16 +1293,18 @@ KE:
     ha: Kebbi
     uk: Кеббі
     yo: Ìpínlẹ̀ Kébbí
-  geo:
-    latitude: 11.6781241
-    longitude: 4.0695454
-    min_latitude: 10.0931591
-    min_longitude: 3.4958741
-    max_latitude: 13.232542
-    max_longitude: 6.027123
-  name: Kebbi
-KN:
+  comments: 
+KN: !ruby/struct:ISO3166::Subdivision
+  name: Kano
+  code: 
   unofficial_names: Kano
+  geo:
+    latitude: 12.0021794
+    longitude: 8.591956099999999
+    min_latitude: 11.912873
+    min_longitude: 8.411321599999999
+    max_latitude: 12.0829016
+    max_longitude: 8.6704765
   translations:
     en: Kano
     ar: ولاية كانو
@@ -1309,16 +1358,18 @@ KN:
     he: קנו (מדינה)
     uk: Кано
     yo: Ìpínlẹ̀ Kánò
-  geo:
-    latitude: 12.0021794
-    longitude: 8.591956099999999
-    min_latitude: 11.912873
-    min_longitude: 8.411321599999999
-    max_latitude: 12.0829016
-    max_longitude: 8.6704765
-  name: Kano
-KO:
+  comments: 
+KO: !ruby/struct:ISO3166::Subdivision
+  name: Kogi
+  code: 
   unofficial_names: Kogi
+  geo:
+    latitude: 7.561891
+    longitude: 6.5783387
+    min_latitude: 6.528274199999999
+    min_longitude: 5.340376
+    max_latitude: 8.7320238
+    max_longitude: 7.8822179
   translations:
     en: Kogi
     ar: ولاية كوجي
@@ -1371,16 +1422,18 @@ KO:
     ig: Ȯra Kogi
     ha: Kogi
     yo: Ìpínlẹ̀ Kogí
-  geo:
-    latitude: 7.561891
-    longitude: 6.5783387
-    min_latitude: 6.528274199999999
-    min_longitude: 5.340376
-    max_latitude: 8.7320238
-    max_longitude: 7.8822179
-  name: Kogi
-KT:
+  comments: 
+KT: !ruby/struct:ISO3166::Subdivision
+  name: Katsina
+  code: 
   unofficial_names: Katsina
+  geo:
+    latitude: 12.983333
+    longitude: 7.6
+    min_latitude: 12.934095
+    min_longitude: 7.5706298
+    max_latitude: 13.0357094
+    max_longitude: 7.676266000000001
   translations:
     en: Katsina
     ar: ولاية كاتسينا
@@ -1434,16 +1487,18 @@ KT:
     uk: Кацина
     be: штат Кацына
     yo: Ìpínlẹ̀ Kàtsínà
-  geo:
-    latitude: 12.983333
-    longitude: 7.6
-    min_latitude: 12.934095
-    min_longitude: 7.5706298
-    max_latitude: 13.0357094
-    max_longitude: 7.676266000000001
-  name: Katsina
-KW:
+  comments: 
+KW: !ruby/struct:ISO3166::Subdivision
+  name: Kwara
+  code: 
   unofficial_names: Kwara
+  geo:
+    latitude: 8.9847995
+    longitude: 4.5624426
+    min_latitude: 7.966079000000001
+    min_longitude: 2.728413
+    max_latitude: 10.152084
+    max_longitude: 6.2142591
   translations:
     en: Kwara
     ar: ولاية كوارة
@@ -1497,16 +1552,18 @@ KW:
     he: מדינת קווארה
     uk: Квара
     yo: Ìpínlẹ̀ Kúárà
-  geo:
-    latitude: 8.9847995
-    longitude: 4.5624426
-    min_latitude: 7.966079000000001
-    min_longitude: 2.728413
-    max_latitude: 10.152084
-    max_longitude: 6.2142591
-  name: Kwara
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Lagos
+  code: 
   unofficial_names: Lagos
+  geo:
+    latitude: 6.5243793
+    longitude: 3.3792057
+    min_latitude: 6.3936419
+    min_longitude: 3.0982732
+    max_latitude: 6.7027984
+    max_longitude: 3.696727799999999
   translations:
     en: Lagos
     ar: ولاية لاغوس
@@ -1549,17 +1606,19 @@ LA:
     uk: Лагос
     th: รัฐเลกอส
     yo: Èkó
-  geo:
-    latitude: 6.5243793
-    longitude: 3.3792057
-    min_latitude: 6.3936419
-    min_longitude: 3.0982732
-    max_latitude: 6.7027984
-    max_longitude: 3.696727799999999
-  name: Lagos
-NA:
+  comments: 
+NA: !ruby/struct:ISO3166::Subdivision
+  name: Nassarawa
+  code: 
   unofficial_names:
   - Nasarawa
+  geo:
+    latitude: 8.5705151
+    longitude: 8.3088441
+    min_latitude: 7.769181
+    min_longitude: 6.924008
+    max_latitude: 9.365964000000002
+    max_longitude: 9.605724
   translations:
     en: Nasarawa
     ar: ولاية نصراوة
@@ -1613,16 +1672,18 @@ NA:
     ha: Nasarawa
     uk: Насарава
     yo: Ìpínlẹ̀ Násáráwá
-  geo:
-    latitude: 8.5705151
-    longitude: 8.3088441
-    min_latitude: 7.769181
-    min_longitude: 6.924008
-    max_latitude: 9.365964000000002
-    max_longitude: 9.605724
-  name: Nassarawa
-NI:
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: Niger
+  code: 
   unofficial_names: Niger
+  geo:
+    latitude: 9.081999
+    longitude: 8.675277
+    min_latitude: 4.269857099999999
+    min_longitude: 2.676932
+    max_latitude: 13.885645
+    max_longitude: 14.677982
   translations:
     en: Niger
     ar: ولاية نيجر
@@ -1675,16 +1736,18 @@ NI:
     ha: Neja
     uk: Нігер
     yo: Ìpínlẹ̀ Niger
-  geo:
-    latitude: 9.081999
-    longitude: 8.675277
-    min_latitude: 4.269857099999999
-    min_longitude: 2.676932
-    max_latitude: 13.885645
-    max_longitude: 14.677982
-  name: Niger
-OG:
+  comments: 
+OG: !ruby/struct:ISO3166::Subdivision
+  name: Ogun
+  code: 
   unofficial_names: Ogun
+  geo:
+    latitude: 6.9098333
+    longitude: 3.2583626
+    min_latitude: 6.315346099999999
+    min_longitude: 2.668432
+    max_latitude: 7.974634999999999
+    max_longitude: 4.5990951
   translations:
     en: Ogun
     ar: ولاية أوغون
@@ -1739,16 +1802,18 @@ OG:
     he: אוגון
     uk: Огун
     yo: Ìpínlẹ̀ Ògùn
-  geo:
-    latitude: 6.9098333
-    longitude: 3.2583626
-    min_latitude: 6.315346099999999
-    min_longitude: 2.668432
-    max_latitude: 7.974634999999999
-    max_longitude: 4.5990951
-  name: Ogun
-'ON':
+  comments: 
+'ON': !ruby/struct:ISO3166::Subdivision
+  name: Ondo
+  code: 
   unofficial_names: Ondo
+  geo:
+    latitude: 7.083333
+    longitude: 4.833333
+    min_latitude: 7.0529381
+    min_longitude: 4.7963046
+    max_latitude: 7.1249106
+    max_longitude: 4.871921599999999
   translations:
     en: Ondo
     ar: ولاية أوندو
@@ -1802,16 +1867,18 @@ OG:
     he: אונדו
     uk: Ондо
     yo: Ìpínlẹ̀ Òndó
-  geo:
-    latitude: 7.083333
-    longitude: 4.833333
-    min_latitude: 7.0529381
-    min_longitude: 4.7963046
-    max_latitude: 7.1249106
-    max_longitude: 4.871921599999999
-  name: Ondo
-OS:
+  comments: 
+OS: !ruby/struct:ISO3166::Subdivision
+  name: Osun
+  code: 
   unofficial_names: Osun
+  geo:
+    latitude: 7.5875843
+    longitude: 4.5624426
+    min_latitude: 6.969976
+    min_longitude: 4.020612
+    max_latitude: 8.088640999999999
+    max_longitude: 5.0647019
   translations:
     en: Osun
     ar: ولاية أوشون
@@ -1863,16 +1930,18 @@ OS:
     ha: Osun
     he: מדינת אוסון
     uk: Осун
-  geo:
-    latitude: 7.5875843
-    longitude: 4.5624426
-    min_latitude: 6.969976
-    min_longitude: 4.020612
-    max_latitude: 8.088640999999999
-    max_longitude: 5.0647019
-  name: Osun
-OY:
+  comments: 
+OY: !ruby/struct:ISO3166::Subdivision
+  name: Oyo
+  code: 
   unofficial_names: Oyo
+  geo:
+    latitude: 7.85
+    longitude: 3.933
+    min_latitude: 7.790425099999999
+    min_longitude: 3.8832377
+    max_latitude: 7.8899933
+    max_longitude: 3.9751624
   translations:
     en: Oyo
     ar: ولاية أويو
@@ -1912,16 +1981,18 @@ OY:
     ig: Ȯra Ọyọ
     ha: Oyo
     he: אויו
-  geo:
-    latitude: 7.85
-    longitude: 3.933
-    min_latitude: 7.790425099999999
-    min_longitude: 3.8832377
-    max_latitude: 7.8899933
-    max_longitude: 3.9751624
-  name: Oyo
-PL:
+  comments: 
+PL: !ruby/struct:ISO3166::Subdivision
+  name: Plateau
+  code: 
   unofficial_names: Plateau
+  geo:
+    latitude: 9.2350817
+    longitude: 9.7232673
+    min_latitude: 8.350639
+    min_longitude: 8.544271
+    max_latitude: 10.3447241
+    max_longitude: 10.6606639
   translations:
     en: Plateau
     ar: ولاية بلاتو
@@ -1975,16 +2046,18 @@ PL:
     ig: Ȯra Plateau
     ha: Plateau
     yo: Ìpínlẹ̀ Plateau
-  geo:
-    latitude: 9.2350817
-    longitude: 9.7232673
-    min_latitude: 8.350639
-    min_longitude: 8.544271
-    max_latitude: 10.3447241
-    max_longitude: 10.6606639
-  name: Plateau
-RI:
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: Rivers
+  code: 
   unofficial_names: Rivers
+  geo:
+    latitude: 4.8580767
+    longitude: 6.920913499999999
+    min_latitude: 4.347035099999999
+    min_longitude: 6.382472000000001
+    max_latitude: 5.694652899999999
+    max_longitude: 7.591592899999998
   translations:
     en: Rivers
     ar: ولاية ريفرز
@@ -2040,16 +2113,18 @@ RI:
     ig: Ȯra Rivers
     ha: Rivers
     yo: Ìpínlẹ̀ Rivers
-  geo:
-    latitude: 4.8580767
-    longitude: 6.920913499999999
-    min_latitude: 4.347035099999999
-    min_longitude: 6.382472000000001
-    max_latitude: 5.694652899999999
-    max_longitude: 7.591592899999998
-  name: Rivers
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Sokoto
+  code: 
   unofficial_names: Sokoto
+  geo:
+    latitude: 13.066667
+    longitude: 5.233333
+    min_latitude: 12.9764148
+    min_longitude: 5.1676084
+    max_latitude: 13.0880893
+    max_longitude: 5.2881144
   translations:
     en: Sokoto
     ar: ولاية صكتو
@@ -2103,16 +2178,18 @@ SO:
     ig: Ȯra Sokoto
     ha: jihar Sokoto
     yo: Ìpínlẹ̀ Sókótó
-  geo:
-    latitude: 13.066667
-    longitude: 5.233333
-    min_latitude: 12.9764148
-    min_longitude: 5.1676084
-    max_latitude: 13.0880893
-    max_longitude: 5.2881144
-  name: Sokoto
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Taraba
+  code: 
   unofficial_names: Taraba
+  geo:
+    latitude: 7.9868755
+    longitude: 10.9807003
+    min_latitude: 6.502453999999999
+    min_longitude: 9.1043009
+    max_latitude: 9.604444899999999
+    max_longitude: 11.981274
   translations:
     en: Taraba
     ar: ولاية ترابة
@@ -2166,16 +2243,18 @@ TA:
     ha: Taraba
     kk: Тараба
     yo: Ìpínlẹ̀ Tàràbà
-  geo:
-    latitude: 7.9868755
-    longitude: 10.9807003
-    min_latitude: 6.502453999999999
-    min_longitude: 9.1043009
-    max_latitude: 9.604444899999999
-    max_longitude: 11.981274
-  name: Taraba
-YO:
+  comments: 
+YO: !ruby/struct:ISO3166::Subdivision
+  name: Yobe
+  code: 
   unofficial_names: Yobe
+  geo:
+    latitude: 12.1871412
+    longitude: 11.7068294
+    min_latitude: 10.5932052
+    min_longitude: 9.665973100000002
+    max_latitude: 13.376133
+    max_longitude: 12.494047
   translations:
     en: Yobe
     ar: ولاية يوبي
@@ -2229,16 +2308,18 @@ YO:
     ha: Yobe
     cs: Yobe
     yo: Ìpínlẹ̀ Yòbè
-  geo:
-    latitude: 12.1871412
-    longitude: 11.7068294
-    min_latitude: 10.5932052
-    min_longitude: 9.665973100000002
-    max_latitude: 13.376133
-    max_longitude: 12.494047
-  name: Yobe
-ZA:
+  comments: 
+ZA: !ruby/struct:ISO3166::Subdivision
+  name: Zamfara
+  code: 
   unofficial_names: Zamfara
+  geo:
+    latitude: 12.1844159
+    longitude: 6.2375947
+    min_latitude: 10.854616
+    min_longitude: 5.021007099999999
+    max_latitude: 13.207291
+    max_longitude: 7.245729999999999
   translations:
     en: Zamfara
     ar: ولاية زامفارة
@@ -2291,11 +2372,4 @@ ZA:
     ig: Ȯra Zamfara
     ha: Zamfara
     yo: Ìpínlẹ̀ Zamfara
-  geo:
-    latitude: 12.1844159
-    longitude: 6.2375947
-    min_latitude: 10.854616
-    min_longitude: 5.021007099999999
-    max_latitude: 13.207291
-    max_longitude: 7.245729999999999
-  name: Zamfara
+  comments: 

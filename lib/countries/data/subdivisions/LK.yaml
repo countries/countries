@@ -1,9 +1,18 @@
 ---
-'11':
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Colombo
+  code: 
   unofficial_names:
   - Kolamba
   - Colombo
   - Colombo
+  geo:
+    latitude: 6.9270786
+    longitude: 79.861243
+    min_latitude: 6.8625113
+    min_longitude: 79.8225192
+    max_latitude: 6.980584400000001
+    max_longitude: 79.8900852
   translations:
     en: Colombo
     ca: Districte de Colombo
@@ -34,16 +43,18 @@
     id: Distrik Kolombo
     be: Каломба
     mk: Коломбо
-  geo:
-    latitude: 6.9270786
-    longitude: 79.861243
-    min_latitude: 6.8625113
-    min_longitude: 79.8225192
-    max_latitude: 6.980584400000001
-    max_longitude: 79.8900852
-  name: Colombo
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Gampaha
+  code: 
   unofficial_names: Gampaha
+  geo:
+    latitude: 7.0873101
+    longitude: 80.01436559999999
+    min_latitude: 7.056004499999999
+    min_longitude: 79.9738622
+    max_latitude: 7.1068408
+    max_longitude: 80.0507641
   translations:
     en: Gampaha
     ar: مقاطعة جامباها
@@ -84,16 +95,18 @@
     lt: Gampachos sritis
     zh: 加姆珀哈區
     ccp: "\U00011109\U0001111F\U00011134\U0001111B\U00011126"
-  geo:
-    latitude: 7.0873101
-    longitude: 80.01436559999999
-    min_latitude: 7.056004499999999
-    min_longitude: 79.9738622
-    max_latitude: 7.1068408
-    max_longitude: 80.0507641
-  name: Gampaha
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Kalutara
+  code: 
   unofficial_names: Kalutara
+  geo:
+    latitude: 6.5894162
+    longitude: 79.98081429999999
+    min_latitude: 6.5570948
+    min_longitude: 79.9578743
+    max_latitude: 6.617802699999999
+    max_longitude: 79.9956179
   translations:
     en: Kalutara
     ar: مقاطعة كالوتارا
@@ -134,18 +147,20 @@
     lt: Kalutaros apskritis
     zh: 卡盧特勒區
     ccp: "\U00011107\U00011123\U0001112A\U00011111\U00011122"
-  geo:
-    latitude: 6.5894162
-    longitude: 79.98081429999999
-    min_latitude: 6.5570948
-    min_longitude: 79.9578743
-    max_latitude: 6.617802699999999
-    max_longitude: 79.9956179
-  name: Kalutara
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Kandy
+  code: 
   unofficial_names:
   - Mahe Nuwara
   - Maha Nuwara
+  geo:
+    latitude: 7.2905715
+    longitude: 80.6337262
+    min_latitude: 7.258503500000001
+    min_longitude: 80.5918944
+    max_latitude: 7.330587100000001
+    max_longitude: 80.6596685
   translations:
     en: Kandy
     de: Kandy
@@ -172,16 +187,18 @@
     hi: कैंडी जिला
     ccp: "\U00011107\U0001111A\U00011134\U00011113\U00011128"
     id: Distrik Kandy
-  geo:
-    latitude: 7.2905715
-    longitude: 80.6337262
-    min_latitude: 7.258503500000001
-    min_longitude: 80.5918944
-    max_latitude: 7.330587100000001
-    max_longitude: 80.6596685
-  name: Kandy
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Matale
+  code: 
   unofficial_names: Matale
+  geo:
+    latitude: 7.467465
+    longitude: 80.6234161
+    min_latitude: 7.4352836
+    min_longitude: 80.6057453
+    max_latitude: 7.481389
+    max_longitude: 80.65166459999999
   translations:
     en: Matale
     ar: مقاطعة ماتال
@@ -222,16 +239,18 @@
     lt: Matalės apskritis
     zh: 馬特萊區
     ccp: "\U0001111F\U00011116\U00011123\U0001112C"
-  geo:
-    latitude: 7.467465
-    longitude: 80.6234161
-    min_latitude: 7.4352836
-    min_longitude: 80.6057453
-    max_latitude: 7.481389
-    max_longitude: 80.65166459999999
-  name: Matale
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Nuwara Eliya
+  code: 
   unofficial_names: Nuwara Eliya
+  geo:
+    latitude: 6.9543992
+    longitude: 80.7824012
+    min_latitude: 6.912879200000001
+    min_longitude: 80.7401987
+    max_latitude: 6.9898532
+    max_longitude: 80.8216953
   translations:
     en: Nuwara Eliya
     ar: مقاطعة نوارا إليا
@@ -272,17 +291,19 @@
     lt: Nuvara Elijos apskritis
     zh: 努沃勒埃利耶區
     ccp: "\U0001111A\U00011127\U00011124\U00011122 \U00011103\U00011128\U00011123\U00011128\U00011120"
-  geo:
-    latitude: 6.9543992
-    longitude: 80.7824012
-    min_latitude: 6.912879200000001
-    min_longitude: 80.7401987
-    max_latitude: 6.9898532
-    max_longitude: 80.8216953
-  name: Nuwara Eliya
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Galle
+  code: 
   unofficial_names:
   - Gālla
+  geo:
+    latitude: 6.0535185
+    longitude: 80.2209773
+    min_latitude: 6.0236819
+    min_longitude: 80.1721287
+    max_latitude: 6.0881332
+    max_longitude: 80.2518654
   translations:
     en: Galle
     ar: مقاطعة جالي
@@ -323,16 +344,18 @@
     lt: Galės apskritis
     zh: 加勒區
     ccp: "\U00011109\U00011123\U0001112C"
-  geo:
-    latitude: 6.0535185
-    longitude: 80.2209773
-    min_latitude: 6.0236819
-    min_longitude: 80.1721287
-    max_latitude: 6.0881332
-    max_longitude: 80.2518654
-  name: Galle
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Matara
+  code: 
   unofficial_names: Matara
+  geo:
+    latitude: 5.95492
+    longitude: 80.5549561
+    min_latitude: 5.9346603
+    min_longitude: 80.50425059999999
+    max_latitude: 5.9693241
+    max_longitude: 80.59724539999999
   translations:
     en: Matara
     ar: مقاطعة ماتارا
@@ -373,16 +396,18 @@
     lt: Mataros apskritis
     zh: 馬特勒區
     ccp: "\U0001111F\U00011116\U00011122"
-  geo:
-    latitude: 5.95492
-    longitude: 80.5549561
-    min_latitude: 5.9346603
-    min_longitude: 80.50425059999999
-    max_latitude: 5.9693241
-    max_longitude: 80.59724539999999
-  name: Matara
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Hambantota
+  code: 
   unofficial_names: Hambantota
+  geo:
+    latitude: 6.131742099999999
+    longitude: 81.1085744
+    min_latitude: 6.1097056
+    min_longitude: 81.0677156
+    max_latitude: 6.172768899999999
+    max_longitude: 81.1655759
   translations:
     en: Hambantota
     ar: مقاطعة هامبانتوتا
@@ -423,18 +448,20 @@
     lt: Hambantotos apskritis
     zh: 漢班托特區
     ccp: "\U00011126\U0001111F\U00011134\U0001111D\U0001111A\U00011134\U00011111\U0001112E\U00011111"
-  geo:
-    latitude: 6.131742099999999
-    longitude: 81.1085744
-    min_latitude: 6.1097056
-    min_longitude: 81.0677156
-    max_latitude: 6.172768899999999
-    max_longitude: 81.1655759
-  name: Hambantota
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Jaffna
+  code: 
   unofficial_names:
   - Yapnaya
   - Yāpanaya
+  geo:
+    latitude: 9.6614981
+    longitude: 80.02554649999999
+    min_latitude: 9.6461028
+    min_longitude: 79.9990243
+    max_latitude: 9.6938708
+    max_longitude: 80.0578452
   translations:
     en: Jaffna
     de: Jaffna
@@ -462,16 +489,18 @@
     zh: 賈夫納區
     ccp: "\U0001110E\U0001111B\U00011134\U0001111A"
     pt: Distrito de Jaffna
-  geo:
-    latitude: 9.6614981
-    longitude: 80.02554649999999
-    min_latitude: 9.6461028
-    min_longitude: 79.9990243
-    max_latitude: 9.6938708
-    max_longitude: 80.0578452
-  name: Jaffna
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Kilinochchi
+  code: 
   unofficial_names: Kilinochchi
+  geo:
+    latitude: 9.3802886
+    longitude: 80.3769999
+    min_latitude: 9.3365197
+    min_longitude: 80.3180948
+    max_latitude: 9.4173529
+    max_longitude: 80.435114
   translations:
     en: Kilinochchi
     ar: مقاطعة كيلينوتشي
@@ -512,19 +541,21 @@
     lt: Kilinočio apskritis
     zh: 基利諾奇區
     ccp: "\U00011107\U00011128\U00011123\U00011128\U0001111A\U0001112E\U0001110C\U00011134\U0001110C\U00011128"
-  geo:
-    latitude: 9.3802886
-    longitude: 80.3769999
-    min_latitude: 9.3365197
-    min_longitude: 80.3180948
-    max_latitude: 9.4173529
-    max_longitude: 80.435114
-  name: Kilinochchi
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Mannar
+  code: 
   unofficial_names:
   - Manar
   - Mannar
   - Mannerama
+  geo:
+    latitude: 8.9893222
+    longitude: 79.8800832
+    min_latitude: 8.9625776
+    min_longitude: 79.8438262
+    max_latitude: 9.0290349
+    max_longitude: 79.92742539999999
   translations:
     en: Mannar
     ar: مقاطعة منار
@@ -565,17 +596,19 @@
     lt: Manaro apskritis
     zh: 馬納爾區
     ccp: "\U0001111F\U0001111A\U00011122\U00011134"
-  geo:
-    latitude: 8.9893222
-    longitude: 79.8800832
-    min_latitude: 8.9625776
-    min_longitude: 79.8438262
-    max_latitude: 9.0290349
-    max_longitude: 79.92742539999999
-  name: Mannar
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Vavuniya
+  code: 
   unofficial_names:
   - Vavuniyāwa
+  geo:
+    latitude: 8.7381572
+    longitude: 80.47714719999999
+    min_latitude: 8.6835302
+    min_longitude: 80.42717449999999
+    max_latitude: 8.8204055
+    max_longitude: 80.5478097
   translations:
     en: Vavuniya
     de: Vavuniya
@@ -603,17 +636,19 @@
     el: Επαρχία Βαβουνίγια
     ccp: "\U0001111E\U0001111E\U0001112A\U0001111A\U00011128\U00011120"
     id: Distrik Vavuniya
-  geo:
-    latitude: 8.7381572
-    longitude: 80.47714719999999
-    min_latitude: 8.6835302
-    min_longitude: 80.42717449999999
-    max_latitude: 8.8204055
-    max_longitude: 80.5478097
-  name: Vavuniya
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Mullaittivu
+  code: 
   unofficial_names:
   - Mulativu
+  geo:
+    latitude: 9.2670911
+    longitude: 80.81424799999999
+    min_latitude: 9.2588919
+    min_longitude: 80.8070613
+    max_latitude: 9.2764461
+    max_longitude: 80.8227488
   translations:
     en: Mullaitivu
     ar: مقاطعة مولايتيفو
@@ -654,17 +689,19 @@
     lt: Mulaitivo apskritis
     zh: 穆萊蒂武區
     ccp: "\U0001111F\U0001112A\U00011123\U0001112D\U00011111\U00011128\U0001111E\U0001112A"
-  geo:
-    latitude: 9.2670911
-    longitude: 80.81424799999999
-    min_latitude: 9.2588919
-    min_longitude: 80.8070613
-    max_latitude: 9.2764461
-    max_longitude: 80.8227488
-  name: Mullaittivu
-'51':
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: Batticaloa
+  code: 
   unofficial_names:
   - Mad̨akalpūwa
+  geo:
+    latitude: 7.730997100000001
+    longitude: 81.6747295
+    min_latitude: 7.6971701
+    min_longitude: 81.65085909999999
+    max_latitude: 7.770829999999999
+    max_longitude: 81.706103
   translations:
     en: Batticaloa
     de: Batticaloa (Distrikt)
@@ -693,17 +730,19 @@
     zh: 拜蒂克洛區
     ccp: "\U0001111D\U00011116\U00011133\U00011126\U00011128\U00011107\U00011123\U00011131"
     id: Distrik Batticaloa
-  geo:
-    latitude: 7.730997100000001
-    longitude: 81.6747295
-    min_latitude: 7.6971701
-    min_longitude: 81.65085909999999
-    max_latitude: 7.770829999999999
-    max_longitude: 81.706103
-  name: Batticaloa
-'52':
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: Ampara
+  code: 
   unofficial_names:
   - Ampara
+  geo:
+    latitude: 7.301756300000001
+    longitude: 81.6747295
+    min_latitude: 7.2753244
+    min_longitude: 81.6450047
+    max_latitude: 7.3171365
+    max_longitude: 81.70905599999999
   translations:
     en: Ampara
     ar: مقاطعة أمبارا
@@ -744,18 +783,20 @@
     lt: Amparos apskritis
     zh: 安帕賴區
     ccp: "\U00011103\U0001111F\U00011134\U0001111B\U00011122"
-  geo:
-    latitude: 7.301756300000001
-    longitude: 81.6747295
-    min_latitude: 7.2753244
-    min_longitude: 81.6450047
-    max_latitude: 7.3171365
-    max_longitude: 81.70905599999999
-  name: Ampara
-'53':
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: Trincomalee
+  code: 
   unofficial_names:
   - Trinkomali
   - Tirikunāmalaya
+  geo:
+    latitude: 8.5922
+    longitude: 81.19679579999999
+    min_latitude: 8.5433042
+    min_longitude: 81.18032149999999
+    max_latitude: 8.6231144
+    max_longitude: 81.2461119
   translations:
     en: Trincomalee
     de: Trincomalee
@@ -782,16 +823,18 @@
     ar: مديرية ترينكومالي
     zh: 亭可馬里區
     ccp: "\U00011111\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011107\U0001112E\U0001111F\U00011123\U00011128"
-  geo:
-    latitude: 8.5922
-    longitude: 81.19679579999999
-    min_latitude: 8.5433042
-    min_longitude: 81.18032149999999
-    max_latitude: 8.6231144
-    max_longitude: 81.2461119
-  name: Trincomalee
-'61':
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: Kurunegala
+  code: 
   unofficial_names: Kurunegala
+  geo:
+    latitude: 7.472981299999999
+    longitude: 80.3547286
+    min_latitude: 7.432091900000001
+    min_longitude: 80.29915799999999
+    max_latitude: 7.529148800000001
+    max_longitude: 80.4164028
   translations:
     en: Kurunegala
     ar: مقاطعة كورونيغالا
@@ -832,17 +875,19 @@
     lt: Kurunegalos apskritis
     zh: 庫魯內格勒區
     ccp: "\U00011107\U0001112A\U00011122\U0001112A\U0001111A\U0001112C\U00011109\U00011123"
-  geo:
-    latitude: 7.472981299999999
-    longitude: 80.3547286
-    min_latitude: 7.432091900000001
-    min_longitude: 80.29915799999999
-    max_latitude: 7.529148800000001
-    max_longitude: 80.4164028
-  name: Kurunegala
-'62':
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: Puttalam
+  code: 
   unofficial_names:
   - Puttalam
+  geo:
+    latitude: 8.0402828
+    longitude: 79.84087869999999
+    min_latitude: 7.9910674
+    min_longitude: 79.8081207
+    max_latitude: 8.069724899999999
+    max_longitude: 79.8573579
   translations:
     en: Puttalam
     ar: مقاطعة بوتالام
@@ -883,18 +928,20 @@
     lt: Putalamo apskritis
     zh: 普塔勒姆區
     ccp: "\U0001111B\U0001112A\U00011111\U00011123\U0001111F\U00011134"
-  geo:
-    latitude: 8.0402828
-    longitude: 79.84087869999999
-    min_latitude: 7.9910674
-    min_longitude: 79.8081207
-    max_latitude: 8.069724899999999
-    max_longitude: 79.8573579
-  name: Puttalam
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Anuradhapura
+  code: 
   unofficial_names:
   - Anuradhapur
   - Anurādhapūraya
+  geo:
+    latitude: 8.3451852
+    longitude: 80.38813329999999
+    min_latitude: 8.2595695
+    min_longitude: 80.33786769999999
+    max_latitude: 8.4107342
+    max_longitude: 80.46818379999999
   translations:
     en: Anuradhapura
     de: Anuradhapura (Distrikt)
@@ -921,18 +968,20 @@
     ar: مديرية انورادهابورا
     zh: 阿努拉德普勒區
     ccp: "\U00011103\U0001111A\U0001112A\U00011122\U00011119\U0001111B\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 8.3451852
-    longitude: 80.38813329999999
-    min_latitude: 8.2595695
-    min_longitude: 80.33786769999999
-    max_latitude: 8.4107342
-    max_longitude: 80.46818379999999
-  name: Anuradhapura
-'72':
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: Polonnaruwa
+  code: 
   unofficial_names:
   - Polonaruwa
   - Polunnaruwa
+  geo:
+    latitude: 7.932635799999999
+    longitude: 81.00368209999999
+    min_latitude: 7.892033799999999
+    min_longitude: 80.9670067
+    max_latitude: 7.9761928
+    max_longitude: 81.0447693
   translations:
     en: Polonnaruwa
     ar: مقاطعة بولوناروا
@@ -973,16 +1022,18 @@
     lt: Plonaruvos apskritis
     zh: 波隆納魯沃區
     ccp: "\U0001111B\U00011127\U00011123\U00011127\U0001111A\U00011122\U0001112A\U00011124"
-  geo:
-    latitude: 7.932635799999999
-    longitude: 81.00368209999999
-    min_latitude: 7.892033799999999
-    min_longitude: 80.9670067
-    max_latitude: 7.9761928
-    max_longitude: 81.0447693
-  name: Polonnaruwa
-'81':
+  comments: 
+'81': !ruby/struct:ISO3166::Subdivision
+  name: Badulla
+  code: 
   unofficial_names: Badulla
+  geo:
+    latitude: 6.993400899999999
+    longitude: 81.0549815
+    min_latitude: 6.9629781
+    min_longitude: 81.0384179
+    max_latitude: 7.014605
+    max_longitude: 81.0796166
   translations:
     en: Badulla
     ar: حي بادولا
@@ -1023,18 +1074,20 @@
     lt: Badulos apskritis
     zh: 巴杜勒區
     ccp: "\U0001111D\U00011113\U0001112A\U00011123\U00011133\U00011126"
-  geo:
-    latitude: 6.993400899999999
-    longitude: 81.0549815
-    min_latitude: 6.9629781
-    min_longitude: 81.0384179
-    max_latitude: 7.014605
-    max_longitude: 81.0796166
-  name: Badulla
-'82':
+  comments: 
+'82': !ruby/struct:ISO3166::Subdivision
+  name: Monaragala
+  code: 
   unofficial_names:
   - Monaragalla
   - Moneragala
+  geo:
+    latitude: 6.890645399999999
+    longitude: 81.34544170000001
+    min_latitude: 6.858940199999999
+    min_longitude: 81.3208008
+    max_latitude: 6.9151796
+    max_longitude: 81.3671493
   translations:
     en: Moneragala
     de: Moneragala
@@ -1060,17 +1113,19 @@
     zh: 莫訥勒格勒區
     ccp: "\U0001111F\U00011127\U0001111A\U00011122\U00011109\U00011123"
     id: Distrik Monaragala
-  geo:
-    latitude: 6.890645399999999
-    longitude: 81.34544170000001
-    min_latitude: 6.858940199999999
-    min_longitude: 81.3208008
-    max_latitude: 6.9151796
-    max_longitude: 81.3671493
-  name: Monaragala
-'91':
+  comments: 
+'91': !ruby/struct:ISO3166::Subdivision
+  name: Ratnapura
+  code: 
   unofficial_names:
   - Ratnapūraya
+  geo:
+    latitude: 6.7081032
+    longitude: 80.3769999
+    min_latitude: 6.666312599999999
+    min_longitude: 80.3114319
+    max_latitude: 6.7672387
+    max_longitude: 80.4288483
   translations:
     en: Ratnapura
     ar: مقاطعة راتنابورا
@@ -1111,17 +1166,19 @@
     lt: Ratnapuros apskritis
     zh: 拉特納普勒區
     ccp: "\U00011122\U00011116\U00011134\U0001111A\U00011127\U0001111B\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 6.7081032
-    longitude: 80.3769999
-    min_latitude: 6.666312599999999
-    min_longitude: 80.3114319
-    max_latitude: 6.7672387
-    max_longitude: 80.4288483
-  name: Ratnapura
-'92':
+  comments: 
+'92': !ruby/struct:ISO3166::Subdivision
+  name: Kegalla
+  code: 
   unofficial_names:
   - Kegalle
+  geo:
+    latitude: 7.251331700000001
+    longitude: 80.3463754
+    min_latitude: 7.242469799999999
+    min_longitude: 80.3318596
+    max_latitude: 7.264479499999999
+    max_longitude: 80.3595828
   translations:
     en: Kegalle
     ar: مقاطعة كيغال
@@ -1162,16 +1219,18 @@
     lt: Kegaės apskritis
     zh: 凱格勒區
     ccp: "\U00011107\U00011128\U00011109\U00011123\U00011128"
-  geo:
-    latitude: 7.251331700000001
-    longitude: 80.3463754
-    min_latitude: 7.242469799999999
-    min_longitude: 80.3318596
-    max_latitude: 7.264479499999999
-    max_longitude: 80.3595828
-  name: Kegalla
-'1':
+  comments: 
+'1': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Западна провинция
     de: Westprovinz
@@ -1201,6 +1260,11 @@
     ar: المقاطعة الغربية (سريلانكا)
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U0001111A\U00011134"
     be: Заходняя правінцыя
+  comments: 
+'2': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1208,8 +1272,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'2':
-  unofficial_names: 
   translations:
     bg: Централна провинция (Шри Ланка)
     ca: Província Central
@@ -1242,6 +1304,11 @@
     zh: 中央省 (斯里蘭卡)
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     id: Provinsi Tengah, Sri Lanka
+  comments: 
+'3': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1249,8 +1316,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'3':
-  unofficial_names: 
   translations:
     bg: Южна провинция
     de: Südprovinz
@@ -1281,6 +1346,11 @@
     zh: 南部省
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     id: Provinsi Selatan, Sri Lanka
+  comments: 
+'4': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1288,8 +1358,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'4':
-  unofficial_names: 
   translations:
     bg: Северна провинция
     de: Nordprovinz
@@ -1321,6 +1389,11 @@
     zh: 北部省
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     id: Provinsi Utara, Sri Lanka
+  comments: 
+'5': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1328,8 +1401,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'5':
-  unofficial_names: 
   translations:
     bg: Източна провинция
     de: Ostprovinz
@@ -1360,6 +1431,11 @@
     zh: 東部省
     ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     id: Provinsi Timur, Sri Lanka
+  comments: 
+'6': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1367,8 +1443,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'6':
-  unofficial_names: 
   translations:
     bg: Северозападна провинция
     de: Nordwestprovinz
@@ -1399,6 +1473,11 @@
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     id: Provinsi Barat Laut, Sri Lanka
+  comments: 
+'7': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1406,8 +1485,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'7':
-  unofficial_names: 
   translations:
     bg: Северна централна провинция
     de: Nördliche Zentralprovinz
@@ -1438,6 +1515,11 @@
     el: Βορειοκεντρική επαρχία
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+  comments: 
+'8': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1445,8 +1527,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'8':
-  unofficial_names: 
   translations:
     bg: Ува
     ca: Província de Uva
@@ -1477,6 +1557,11 @@
     zh: 烏沃省
     ccp: "\U00011105\U0001112A\U0001111E"
     id: Provinsi Uva
+  comments: 
+'9': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1484,8 +1569,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'9':
-  unofficial_names: 
   translations:
     bg: Сабарагамува
     ca: Província de Sabaragamuwa
@@ -1516,10 +1599,4 @@
     zh: 薩伯勒格穆沃省
     ccp: "\U00011125\U0001111D\U00011122\U00011107\U00011134\U0001111F\U0001112A\U00011124"
     id: Provinsi Sabaragamuwa
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

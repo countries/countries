@@ -1,8 +1,8 @@
 ---
-'110':
+'110': !ruby/struct:ISO3166::Subdivision
+  name: Nairobi Municipality
+  code: 
   unofficial_names: Nairobi Municipality
-  translations:
-    en: Nairobi Municipality
   geo:
     latitude: -1.286577
     longitude: 36.82193669999999
@@ -10,11 +10,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Nairobi Municipality
-'200':
-  unofficial_names: Central
   translations:
-    en: Central
+    en: Nairobi Municipality
+  comments: 
+'200': !ruby/struct:ISO3166::Subdivision
+  name: Central
+  code: 
+  unofficial_names: Central
   geo:
     latitude: -1.7959729
     longitude: 37.7020747
@@ -22,11 +24,13 @@
     min_longitude: 37.6960079
     max_latitude: -1.7872058
     max_longitude: 37.7046067
-  name: Central
-'300':
-  unofficial_names: Coast
   translations:
-    en: Coast
+    en: Central
+  comments: 
+'300': !ruby/struct:ISO3166::Subdivision
+  name: Coast
+  code: 
+  unofficial_names: Coast
   geo:
     latitude: -1.2896282
     longitude: 36.7499171
@@ -34,11 +38,13 @@
     min_longitude: 36.749455
     max_latitude: -1.2882341
     max_longitude: 36.7504468
-  name: Coast
-'400':
-  unofficial_names: Eastern
   translations:
-    en: Eastern
+    en: Coast
+  comments: 
+'400': !ruby/struct:ISO3166::Subdivision
+  name: Eastern
+  code: 
+  unofficial_names: Eastern
   geo:
     latitude: 1.2692186
     longitude: 33.438353
@@ -46,11 +52,13 @@
     min_longitude: 32.8465138
     max_latitude: 2.421396
     max_longitude: 34.829762
-  name: Eastern
-'500':
-  unofficial_names: North-Eastern
   translations:
-    en: North-Eastern
+    en: Eastern
+  comments: 
+'500': !ruby/struct:ISO3166::Subdivision
+  name: North-Eastern
+  code: 
+  unofficial_names: North-Eastern
   geo:
     latitude: -0.0190061
     longitude: 37.6480812
@@ -58,11 +66,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: North-Eastern
-'600':
-  unofficial_names: Nyanza
   translations:
-    en: Nyanza
+    en: North-Eastern
+  comments: 
+'600': !ruby/struct:ISO3166::Subdivision
+  name: Nyanza
+  code: 
+  unofficial_names: Nyanza
   geo:
     latitude: -1.2849963
     longitude: 36.8272273
@@ -70,11 +80,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Nyanza
-'700':
-  unofficial_names: Rift Valley
   translations:
-    en: Rift Valley
+    en: Nyanza
+  comments: 
+'700': !ruby/struct:ISO3166::Subdivision
+  name: Rift Valley
+  code: 
+  unofficial_names: Rift Valley
   geo:
     latitude: -0.2830282
     longitude: 36.0750219
@@ -82,11 +94,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Rift Valley
-'900':
-  unofficial_names: Western
   translations:
-    en: Western
+    en: Rift Valley
+  comments: 
+'900': !ruby/struct:ISO3166::Subdivision
+  name: Western
+  code: 
+  unofficial_names: Western
   geo:
     latitude: 0.7138363999999999
     longitude: 35.5174033
@@ -94,9 +108,20 @@
     min_longitude: 35.5173344
     max_latitude: 0.714007
     max_longitude: 35.5174577
-  name: Western
-'17':
+  translations:
+    en: Western
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: منطقة كيزيمو
     de: Kisumu County
@@ -116,6 +141,11 @@
     fa: شهرستان کیسومو
     ccp: "\U00011107\U00011128\U00011125\U0001112A\U0001111F\U0001112A"
     es: Condado de Kisumu
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -123,8 +153,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'30':
-  unofficial_names: 
   translations:
     ar: مقاطعة نايروبي
     be: Найробі
@@ -165,6 +193,11 @@
     zh: 內羅畢郡
     ccp: "\U0001111A\U0001112D\U00011122\U0001112E\U0001111D\U00011128 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
     uk: Округ Найробі
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -172,8 +205,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'20':
-  unofficial_names: 
   translations:
     bg: Лаикипиа
     de: Laikipia County
@@ -194,6 +225,11 @@
     fa: شهرستان لایکیپیا
     ccp: "\U00011123\U0001112D\U00011107\U00011128\U0001111B\U00011128\U00011120"
     hy: Լայկիպիա
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -201,8 +237,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'37':
-  unofficial_names: 
   translations:
     bg: Самбуру
     de: Samburu District
@@ -220,6 +254,11 @@
     ceb: Samburu
     zh: 桑布盧郡
     ccp: "\U00011125\U0001111F\U00011134\U0001111D\U0001112A\U00011122\U0001112A"
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -227,8 +266,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'45':
-  unofficial_names: 
   translations:
     bg: Вихига
     de: Vihiga District
@@ -245,6 +282,11 @@
     ceb: Vihiga
     zh: 韋希加郡
     ccp: "\U0001111E\U00011128\U00011126\U00011128\U00011109"
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -252,8 +294,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ca: Comtat de Garissa
     de: Garissa County
@@ -274,6 +314,11 @@
     fa: شهرستان گاریسا
     ru: Гарисса (округ)
     ccp: "\U00011109\U00011122\U00011128\U00011125"
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -281,8 +326,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'21':
-  unofficial_names: 
   translations:
     ca: Districte de Lamu
     en: Lamu
@@ -301,6 +344,11 @@
     zh: 拉穆郡
     fa: شهرستان لامو
     ccp: "\U00011123\U0001111F\U00011134\U0001111D\U0001112A"
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -308,8 +356,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'18':
-  unofficial_names: 
   translations:
     da: Kitui
     de: Kitui County
@@ -329,6 +375,11 @@
     fa: شهرستان کیتوی
     ccp: "\U00011107\U00011128\U00011111\U0001112D\U0001112A"
     fr: Comté de Kitui
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -336,8 +387,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'01':
-  unofficial_names: 
   translations:
     de: Baringo County
     en: Baringo
@@ -355,6 +404,11 @@
     ceb: Baringo
     fa: شهرستان بارینگو
     ccp: "\U0001111D\U00011122\U00011128\U00011101\U00011109\U0001112E"
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -362,8 +416,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     de: Bomet County
     en: Bomet
@@ -380,6 +432,11 @@
     zh: 博美特郡
     fa: شهرستان بومت
     ccp: "\U0001111D\U00011127\U0001111F\U0001112C\U00011116\U00011134"
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -387,8 +444,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     de: Bungoma County
     en: Bungoma
@@ -406,6 +461,11 @@
     zh: 邦戈馬郡
     fa: شهرستان بونگوما
     ccp: "\U0001111D\U0001111A\U00011134\U00011109\U0001112E\U0001111F"
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -413,8 +473,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     de: Busia County
     en: Busia
@@ -434,6 +492,11 @@
     fa: شهرستان بوسیا
     ccp: "\U0001111D\U00011128\U00011105\U0001112A\U00011125\U00011128\U00011120"
     ca: Busia
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -441,8 +504,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     de: Elgeyo-Marakwet County
     en: Elgeyo-Marakwet
@@ -453,6 +514,11 @@
     ur: ایلگیو-ماراکوت کاؤنٹی
     zh: 埃爾格約-馬拉奎特郡
     ccp: "\U00011103\U0001112C\U00011123\U00011134\U00011109\U0001112C\U00011103\U0001112E-\U0001111F\U00011122\U00011107\U00011134\U00011124\U0001112C\U00011116\U00011134"
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -460,8 +526,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     de: Embu County
     en: Embu
@@ -480,6 +544,11 @@
     zh: 恩布郡
     fa: شهرستان امبو
     ccp: "\U00011103\U0001112C\U0001111F\U00011134\U0001111D\U0001112A"
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -487,8 +556,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     de: Homa Bay County
     en: Homa Bay
@@ -507,6 +574,11 @@
     pl: Wilaya ya Homa Bay
     ccp: "\U00011126\U0001112E\U0001111F \U0001111D\U0001112C"
     es: Condado de Homa Bay
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -514,8 +586,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     de: Isiolo County
     en: Isiolo
@@ -533,6 +603,11 @@
     zh: 伊希約洛郡
     fa: شهرستان ایسیولو
     ccp: "\U00011103\U0001112D\U00011125\U00011128\U00011103\U0001112E\U00011123\U0001112E"
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -540,8 +615,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     de: Kajiado County
     en: Kajiado
@@ -560,6 +633,11 @@
     fa: شهرستان کاجیادو
     ccp: "\U00011107\U0001110E\U00011128\U00011120\U00011113\U0001112E"
     fr: Kajiado (comté du Kenya)
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -567,8 +645,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'11':
-  unofficial_names: 
   translations:
     de: Kakamega County
     en: Kakamega
@@ -587,6 +663,11 @@
     zh: 卡卡梅加郡
     fa: شهرستان کاکامگا
     ccp: "\U00011107\U00011107\U0001111F\U0001112C\U00011109"
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -594,8 +675,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'12':
-  unofficial_names: 
   translations:
     de: Kericho County
     en: Kericho
@@ -613,6 +692,11 @@
     zh: 凱里喬郡
     fa: شهرستان کریچو
     ccp: "\U00011107\U0001112C\U00011122\U00011128\U0001110C\U0001112E"
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -620,8 +704,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'13':
-  unofficial_names: 
   translations:
     de: Kiambu County
     en: Kiambu
@@ -640,6 +722,11 @@
     zh: 基安布郡
     fa: شهرستان کیامبو
     ccp: "\U00011107\U00011128\U00011120\U0001111F\U00011134\U0001111D\U0001112A"
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -647,8 +734,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'14':
-  unofficial_names: 
   translations:
     de: Kilifi County
     en: Kilifi
@@ -668,6 +753,11 @@
     zh: 基利菲县
     fa: شهرستان کیلیفی
     ccp: "\U00011107\U00011128\U00011123\U00011128\U0001111C\U00011128"
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -675,8 +765,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'15':
-  unofficial_names: 
   translations:
     de: Kirinyaga County
     en: Kirinyaga
@@ -695,6 +783,11 @@
     fa: شهرستان کیرینیاگا
     ccp: "\U00011107\U00011128\U00011122\U00011128\U0001111A\U00011128\U00011120\U00011109"
     he: קריניאגה
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -702,8 +795,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'16':
-  unofficial_names: 
   translations:
     de: Kisii County
     en: Kisii
@@ -724,6 +815,11 @@
     fa: شهرستان کیسی
     ccp: "\U00011107\U00011128\U00011125\U00011133\U00011126\U00011128"
     es: Condado de Kisii
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -731,8 +827,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'19':
-  unofficial_names: 
   translations:
     de: Kwale County
     en: Kwale
@@ -751,6 +845,11 @@
     zh: 夸勒郡
     fa: شهرستان کوالی
     ccp: "\U00011107\U0001112C\U00011124\U00011123\U0001112C"
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -758,8 +857,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'22':
-  unofficial_names: 
   translations:
     de: Machakos District
     en: Machakos
@@ -777,6 +874,11 @@
     zh: 馬查科斯郡
     fa: شهرستان ماچاکوس
     ccp: "\U0001111F\U00011133\U00011120\U0001110C\U00011107\U0001112E\U0001110C\U00011134"
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -784,8 +886,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'23':
-  unofficial_names: 
   translations:
     de: Makueni District
     en: Makueni
@@ -802,6 +902,11 @@
     zh: 馬瓜尼郡
     ccp: "\U0001111F\U00011107\U0001112A\U00011120\U0001112C\U0001111A\U00011128"
     fr: Makueni
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -809,8 +914,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'24':
-  unofficial_names: 
   translations:
     de: Mandera District
     en: Mandera
@@ -828,6 +931,11 @@
     ceb: Mandera (lalawigan)
     zh: 曼德拉郡
     ccp: "\U0001111F\U0001111A\U00011134\U00011113\U0001112C\U00011122"
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -835,8 +943,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'25':
-  unofficial_names: 
   translations:
     de: Marsabit District
     en: Marsabit
@@ -856,6 +962,11 @@
     fa: شهرستان مارسابیت
     ccp: "\U0001111F\U00011122\U00011134\U00011125\U0001111D\U00011128\U00011116\U00011134"
     fr: Marsabit
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -863,8 +974,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'27':
-  unofficial_names: 
   translations:
     de: Migori District
     en: Migori
@@ -883,6 +992,11 @@
     ccp: "\U0001111F\U00011128\U00011109\U0001112E\U00011122\U00011128"
     es: Condado de Migori
     uk: Мігорі (округ)
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -890,8 +1004,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'28':
-  unofficial_names: 
   translations:
     de: Mombasa District
     en: Mombasa
@@ -912,6 +1024,11 @@
     ccp: "\U0001111F\U00011127\U0001111F\U00011134\U0001111D\U00011125"
     pt: Condado de Mombaça
     be: Мамбаса
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -919,8 +1036,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'29':
-  unofficial_names: 
   translations:
     de: Murang’a District
     en: Murang’a
@@ -938,6 +1053,11 @@
     zh: 穆蘭卡郡
     ru: Муранга
     ccp: "\U0001111F\U0001112A\U00011122\U00011101‘\U00011103"
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -945,8 +1065,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'31':
-  unofficial_names: 
   translations:
     de: Nakuru District
     en: Nakuru
@@ -966,6 +1084,11 @@
     ccp: "\U0001111A\U00011107\U0001112A\U00011122\U0001112A"
     hy: Նակուրու շրջան
     uk: округ Накуру
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -973,8 +1096,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'32':
-  unofficial_names: 
   translations:
     de: Nandi District
     en: Nandi
@@ -995,6 +1116,11 @@
     zh: 南迪郡
     ccp: "\U0001111A\U0001111A\U00011134\U00011113\U00011128"
     he: מחוז ננדי
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1002,8 +1128,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'33':
-  unofficial_names: 
   translations:
     de: Narok District
     en: Narok
@@ -1019,6 +1143,11 @@
     ceb: Narok
     zh: 納羅克郡
     ccp: "\U0001111A\U00011122\U0001112E\U00011107\U00011134"
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1026,8 +1155,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'34':
-  unofficial_names: 
   translations:
     de: Nyamira District
     en: Nyamira
@@ -1044,6 +1171,11 @@
     zh: 尼亞米拉郡
     ccp: "\U0001111A\U00011128\U00011120\U0001111F\U00011128\U00011122"
     es: Condado de Nyamira
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1051,8 +1183,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'35':
-  unofficial_names: 
   translations:
     de: Nyandarua District
     en: Nyandarua
@@ -1071,6 +1201,11 @@
     ceb: Nyandarua (lalawigan sa Kenya)
     zh: 年達魯阿郡
     ccp: "\U0001111A\U00011120\U0001111A\U00011134\U00011113\U00011122\U0001112A\U00011120"
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1078,8 +1213,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'36':
-  unofficial_names: 
   translations:
     de: Nyeri District
     en: Nyeri
@@ -1100,6 +1233,11 @@
     zh: 涅里郡
     ccp: "\U0001111A\U00011128\U00011120\U00011122\U00011128"
     be: акруга Ньеры
+  comments: 
+'38': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1107,8 +1245,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'38':
-  unofficial_names: 
   translations:
     de: Siaya County
     en: Siaya
@@ -1126,6 +1262,11 @@
     ceb: Siaya
     zh: 夏亞郡
     ccp: "\U00011125\U00011128\U00011120\U00011133\U00011126"
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1133,8 +1274,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'40':
-  unofficial_names: 
   translations:
     de: Tana River District
     en: Tana River
@@ -1151,6 +1290,11 @@
     ceb: Tana River
     zh: 塔納河郡
     ccp: "\U00011111\U0001111A\U00011134 \U00011122\U00011128\U0001111E\U00011122\U00011134"
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1158,8 +1302,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'42':
-  unofficial_names: 
   translations:
     de: Trans-Nzoia District
     en: Trans Nzoia
@@ -1177,6 +1319,11 @@
     ceb: Trans Nzoia
     zh: 特蘭斯-恩佐亞郡
     ccp: "\U00011111\U00011133\U00011122\U0001111A\U00011134\U00011125\U00011134 \U0001110E\U0001112E\U00011103\U00011128\U00011120"
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1184,8 +1331,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'43':
-  unofficial_names: 
   translations:
     de: Turkana District
     en: Turkana
@@ -1205,6 +1350,11 @@
     ccp: "\U00011111\U0001112A\U00011122\U00011134\U00011107\U0001111A"
     fr: Turkana
     id: Kabupaten Turkana
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1212,8 +1362,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'44':
-  unofficial_names: 
   translations:
     de: Uasin Gishu District
     en: Uasin Gishu
@@ -1231,6 +1379,11 @@
     ceb: Uasin Gishu
     zh: 瓦辛基蘇郡
     ccp: "\U00011105\U0001112A\U00011120\U00011125\U00011128\U0001111A\U00011134 \U00011109\U00011128\U00011125\U0001112A"
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1238,8 +1391,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'46':
-  unofficial_names: 
   translations:
     de: Wajir District
     en: Wajir
@@ -1256,6 +1407,11 @@
     ceb: Wajir
     zh: 瓦吉爾郡
     ccp: "\U00011124\U0001110E\U00011128\U00011122\U00011134"
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1263,8 +1419,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'47':
-  unofficial_names: 
   translations:
     de: West Pokot District
     en: West Pokot
@@ -1280,6 +1434,11 @@
     ceb: West Pokot
     zh: 西波克特郡
     ccp: "\U00011124\U00011120\U0001112C\U0001110C\U00011134 \U0001111B\U00011127\U00011107\U0001112E\U00011116\U00011134"
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1287,8 +1446,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'26':
-  unofficial_names: 
   translations:
     en: Meru
     es: Condado de Meru
@@ -1304,6 +1461,11 @@
     zh: 梅魯郡
     sw: Kaunti ya Meru
     ccp: "\U0001111F\U0001112C\U00011122\U0001112A"
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1311,8 +1473,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'39':
-  unofficial_names: 
   translations:
     en: Taita-Taveta
     es: Taita-Taveta
@@ -1327,6 +1487,11 @@
     ceb: Taita Taveta
     zh: 泰塔塔維塔郡
     ccp: "\U00011111\U0001112D\U00011111-\U00011111\U0001111E\U0001112C\U00011111"
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1334,8 +1499,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'41':
-  unofficial_names: 
   translations:
     en: Tharaka-Nithi
     es: Condado de Tharaka-Nithi
@@ -1350,10 +1513,4 @@
     ceb: Tharaka - Nithi
     zh: 薩拉卡尼蒂郡
     ccp: "\U00011117\U00011122\U00011107-\U0001111A\U00011128\U00011117\U00011128"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Ain
+  code: 
   unofficial_names: Ain
+  geo:
+    latitude: 46.2475706
+    longitude: 5.1307681
+    min_latitude: 45.611093
+    min_longitude: 4.728066999999999
+    max_latitude: 46.519953
+    max_longitude: 6.170198099999999
   translations:
     en: Ain
     af: Ain
@@ -66,16 +75,18 @@
     kk: Эн
     yue: 安
     az: En (departament)
-  geo:
-    latitude: 46.2475706
-    longitude: 5.1307681
-    min_latitude: 45.611093
-    min_longitude: 4.728066999999999
-    max_latitude: 46.519953
-    max_longitude: 6.170198099999999
-  name: Ain
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Aisne
+  code: 
   unofficial_names: Aisne
+  geo:
+    latitude: 49.4769199
+    longitude: 3.4417368
+    min_latitude: 48.837212
+    min_longitude: 2.9582769
+    max_latitude: 50.0694951
+    max_longitude: 4.255678899999999
   translations:
     en: Aisne
     af: Aisne
@@ -141,16 +152,18 @@
     yue: 埃納
     az: Ena departamenti
     mk: Ена
-  geo:
-    latitude: 49.4769199
-    longitude: 3.4417368
-    min_latitude: 48.837212
-    min_longitude: 2.9582769
-    max_latitude: 50.0694951
-    max_longitude: 4.255678899999999
-  name: Aisne
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Allier
+  code: 
   unofficial_names: Allier
+  geo:
+    latitude: 46.3115552
+    longitude: 3.4167655
+    min_latitude: 45.9307329
+    min_longitude: 2.2767951
+    max_latitude: 46.804293
+    max_longitude: 4.0057391
   translations:
     en: Allier
     af: Allier
@@ -215,16 +228,18 @@
     kk: Алье
     yue: 阿列
     az: Alye
-  geo:
-    latitude: 46.3115552
-    longitude: 3.4167655
-    min_latitude: 45.9307329
-    min_longitude: 2.2767951
-    max_latitude: 46.804293
-    max_longitude: 4.0057391
-  name: Allier
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Alpes-de-Haute-Provence
+  code: 
   unofficial_names: Alpes-de-Haute-Provence
+  geo:
+    latitude: 44.07787159999999
+    longitude: 6.2375947
+    min_latitude: 43.6683251
+    min_longitude: 5.496792999999999
+    max_latitude: 44.6599989
+    max_longitude: 6.969039
   translations:
     en: Alpes-de-Haute-Provence
     af: Alpes-de-Haute-Provence
@@ -288,16 +303,18 @@
     yue: 上普羅旺斯阿爾卑斯
     az: Yuxarı Provans Alpları (departament)
     mk: Горнопровансалски Алпи
-  geo:
-    latitude: 44.07787159999999
-    longitude: 6.2375947
-    min_latitude: 43.6683251
-    min_longitude: 5.496792999999999
-    max_latitude: 44.6599989
-    max_longitude: 6.969039
-  name: Alpes-de-Haute-Provence
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Hautes-Alpes
+  code: 
   unofficial_names: Hautes-Alpes
+  geo:
+    latitude: 44.6008723
+    longitude: 6.322607199999999
+    min_latitude: 44.186442
+    min_longitude: 5.4183639
+    max_latitude: 45.12685099999999
+    max_longitude: 7.077154999999999
   translations:
     en: Hautes-Alpes
     af: Hautes-Alpes
@@ -360,16 +377,18 @@
     kk: Жоғарғы Альпілер
     yue: 上阿爾卑斯
     az: Yuxarı Alplar
-  geo:
-    latitude: 44.6008723
-    longitude: 6.322607199999999
-    min_latitude: 44.186442
-    min_longitude: 5.4183639
-    max_latitude: 45.12685099999999
-    max_longitude: 7.077154999999999
-  name: Hautes-Alpes
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Alpes-Maritimes
+  code: 
   unofficial_names: Alpes-Maritimes
+  geo:
+    latitude: 43.9466791
+    longitude: 7.179025999999999
+    min_latitude: 43.48030199999999
+    min_longitude: 6.635411899999999
+    max_latitude: 44.3611549
+    max_longitude: 7.718992999999998
   translations:
     en: Alpes-Maritimes
     af: Alpes-Maritimes
@@ -434,16 +453,18 @@
     yue: 濱海阿爾卑斯
     az: Dənizkənarı Alplar
     mk: Приморски Алпи
-  geo:
-    latitude: 43.9466791
-    longitude: 7.179025999999999
-    min_latitude: 43.48030199999999
-    min_longitude: 6.635411899999999
-    max_latitude: 44.3611549
-    max_longitude: 7.718992999999998
-  name: Alpes-Maritimes
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Ardèche
+  code: 
   unofficial_names: Ardèche
+  geo:
+    latitude: 44.759629
+    longitude: 4.5624426
+    min_latitude: 44.26434099999999
+    min_longitude: 3.8611
+    max_latitude: 45.3662
+    max_longitude: 4.8864709
   translations:
     en: Ardèche
     af: Ardèche
@@ -508,16 +529,18 @@
     yue: 阿爾代什
     az: Ardeş (departament)
     mk: Ардеш
-  geo:
-    latitude: 44.759629
-    longitude: 4.5624426
-    min_latitude: 44.26434099999999
-    min_longitude: 3.8611
-    max_latitude: 45.3662
-    max_longitude: 4.8864709
-  name: Ardèche
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Ardennes
+  code: 
   unofficial_names: Ardennes
+  geo:
+    latitude: 49.7624642
+    longitude: 4.6285053
+    min_latitude: 49.22697489999999
+    min_longitude: 4.0244631
+    max_latitude: 50.169162
+    max_longitude: 5.394246
   translations:
     en: Ardennes
     af: Ardennes
@@ -583,16 +606,18 @@
     yue: 亞丁
     az: Ardenlər (departament)
     mk: Ардени
-  geo:
-    latitude: 49.7624642
-    longitude: 4.6285053
-    min_latitude: 49.22697489999999
-    min_longitude: 4.0244631
-    max_latitude: 50.169162
-    max_longitude: 5.394246
-  name: Ardennes
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Ariège
+  code: 
   unofficial_names: Ariège
+  geo:
+    latitude: 42.9326292
+    longitude: 1.443469
+    min_latitude: 42.571489
+    min_longitude: 0.825994
+    max_latitude: 43.3162221
+    max_longitude: 2.1758469
   translations:
     en: Ariège
     af: Ariège
@@ -655,16 +680,18 @@
     kk: Арьеж
     yue: 阿列日
     az: Aryej
-  geo:
-    latitude: 42.9326292
-    longitude: 1.443469
-    min_latitude: 42.571489
-    min_longitude: 0.825994
-    max_latitude: 43.3162221
-    max_longitude: 2.1758469
-  name: Ariège
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Aube
+  code: 
   unofficial_names: Aube
+  geo:
+    latitude: 48.1563418
+    longitude: 4.3732462
+    min_latitude: 47.923696
+    min_longitude: 3.3836479
+    max_latitude: 48.716736
+    max_longitude: 4.864605099999999
   translations:
     en: Aube
     af: Aube
@@ -730,16 +757,18 @@
     yue: 奧布
     az: Ob (departament)
     mk: Об
-  geo:
-    latitude: 48.1563418
-    longitude: 4.3732462
-    min_latitude: 47.923696
-    min_longitude: 3.3836479
-    max_latitude: 48.716736
-    max_longitude: 4.864605099999999
-  name: Aube
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Aude
+  code: 
   unofficial_names: Aude
+  geo:
+    latitude: 43.0724667
+    longitude: 2.3813621
+    min_latitude: 42.648912
+    min_longitude: 1.688426
+    max_latitude: 43.460066
+    max_longitude: 3.240139
   translations:
     en: Aude
     af: Aude
@@ -804,16 +833,18 @@
     kk: Од
     yue: 奧德
     az: Od (departament)
-  geo:
-    latitude: 43.0724667
-    longitude: 2.3813621
-    min_latitude: 42.648912
-    min_longitude: 1.688426
-    max_latitude: 43.460066
-    max_longitude: 3.240139
-  name: Aude
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Aveyron
+  code: 
   unofficial_names: Aveyron
+  geo:
+    latitude: 44.2179747
+    longitude: 2.6189273
+    min_latitude: 43.690619
+    min_longitude: 1.839313
+    max_latitude: 44.941441
+    max_longitude: 3.4517541
   translations:
     en: Aveyron
     af: Aveyron
@@ -878,16 +909,18 @@
     yue: 阿韋龍
     az: Averon (departament)
     mk: Аверон
-  geo:
-    latitude: 44.2179747
-    longitude: 2.6189273
-    min_latitude: 43.690619
-    min_longitude: 1.839313
-    max_latitude: 44.941441
-    max_longitude: 3.4517541
-  name: Aveyron
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Bouches-du-Rhône
+  code: 
   unofficial_names: Bouches-du-Rhône
+  geo:
+    latitude: 43.59116789999999
+    longitude: 5.3102505
+    min_latitude: 43.1573841
+    min_longitude: 4.230207
+    max_latitude: 43.924136
+    max_longitude: 5.8134309
   translations:
     en: Bouches-du-Rhône
     af: Bouches-du-Rhône
@@ -950,16 +983,18 @@
     kk: Буш-дю-Рон
     yue: 隆河河口
     az: Buş-dü-Ron
-  geo:
-    latitude: 43.59116789999999
-    longitude: 5.3102505
-    min_latitude: 43.1573841
-    min_longitude: 4.230207
-    max_latitude: 43.924136
-    max_longitude: 5.8134309
-  name: Bouches-du-Rhône
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Calvados
+  code: 
   unofficial_names: Calvados
+  geo:
+    latitude: 49.1213315
+    longitude: -0.4330578
+    min_latitude: 48.751681
+    min_longitude: -1.159777
+    max_latitude: 49.4299189
+    max_longitude: 0.4464769
   translations:
     en: Calvados
     af: Calvados
@@ -1024,16 +1059,18 @@
     ccp: "\U00011107\U00011133\U00011120\U00011122\U00011134\U0001111E\U00011113\U0001112E\U0001110C\U00011134"
     kk: Кальвадос
     yue: 卡爾華多斯
-  geo:
-    latitude: 49.1213315
-    longitude: -0.4330578
-    min_latitude: 48.751681
-    min_longitude: -1.159777
-    max_latitude: 49.4299189
-    max_longitude: 0.4464769
-  name: Calvados
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Cantal
+  code: 
   unofficial_names: Cantal
+  geo:
+    latitude: 45.1191997
+    longitude: 2.6326062
+    min_latitude: 44.61577579999999
+    min_longitude: 2.062882
+    max_latitude: 45.4834729
+    max_longitude: 3.371465
   translations:
     en: Cantal
     af: Cantal
@@ -1097,16 +1134,18 @@
     kk: Канталь
     yue: 康塔爾
     az: Kantal
-  geo:
-    latitude: 45.1191997
-    longitude: 2.6326062
-    min_latitude: 44.61577579999999
-    min_longitude: 2.062882
-    max_latitude: 45.4834729
-    max_longitude: 3.371465
-  name: Cantal
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Charente
+  code: 
   unofficial_names: Charente
+  geo:
+    latitude: 45.7519958
+    longitude: 0.1534761
+    min_latitude: 45.1916819
+    min_longitude: -0.463103
+    max_latitude: 46.140851
+    max_longitude: 0.9471240999999999
   translations:
     en: Charente
     ar: شارنت
@@ -1170,16 +1209,18 @@
     kk: Шаранта
     yue: 沙藍特
     az: Şaranta (departament)
-  geo:
-    latitude: 45.7519958
-    longitude: 0.1534761
-    min_latitude: 45.1916819
-    min_longitude: -0.463103
-    max_latitude: 46.140851
-    max_longitude: 0.9471240999999999
-  name: Charente
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Charente-Maritime
+  code: 
   unofficial_names: Charente-Maritime
+  geo:
+    latitude: 45.74948999999999
+    longitude: -0.7733188
+    min_latitude: 45.0887499
+    min_longitude: -1.5626689
+    max_latitude: 46.371485
+    max_longitude: 0.005972
   translations:
     en: Charente-Maritime
     af: Charente-Maritime
@@ -1243,16 +1284,18 @@
     yue: 濱海沙藍特
     az: Dənizkənarı Şaranta
     mk: Приморска Шаранта
-  geo:
-    latitude: 45.74948999999999
-    longitude: -0.7733188
-    min_latitude: 45.0887499
-    min_longitude: -1.5626689
-    max_latitude: 46.371485
-    max_longitude: 0.005972
-  name: Charente-Maritime
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Cher
+  code: 
   unofficial_names: Cher
+  geo:
+    latitude: 46.954005
+    longitude: 2.4671908
+    min_latitude: 46.4204769
+    min_longitude: 1.773677
+    max_latitude: 47.629116
+    max_longitude: 3.0797451
   translations:
     en: Cher
     ar: شير
@@ -1316,16 +1359,18 @@
     kk: Шер
     yue: 些爾
     az: Şer (departament)
-  geo:
-    latitude: 46.954005
-    longitude: 2.4671908
-    min_latitude: 46.4204769
-    min_longitude: 1.773677
-    max_latitude: 47.629116
-    max_longitude: 3.0797451
-  name: Cher
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Corrèze
+  code: 
   unofficial_names: Corrèze
+  geo:
+    latitude: 45.372114
+    longitude: 1.873739
+    min_latitude: 45.32584199999999
+    min_longitude: 1.822327
+    max_latitude: 45.40995909999999
+    max_longitude: 1.921707
   translations:
     en: Corrèze
     ar: كوريز
@@ -1389,16 +1434,18 @@
     kk: Коррез
     yue: 科雷茲
     az: Korrez
-  geo:
-    latitude: 45.372114
-    longitude: 1.873739
-    min_latitude: 45.32584199999999
-    min_longitude: 1.822327
-    max_latitude: 45.40995909999999
-    max_longitude: 1.921707
-  name: Corrèze
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Côte-d'Or
+  code: 
   unofficial_names: Côte-d'Or
+  geo:
+    latitude: 47.5126795
+    longitude: 4.635412
+    min_latitude: 46.899847
+    min_longitude: 4.065189999999999
+    max_latitude: 48.0313109
+    max_longitude: 5.518767
   translations:
     en: Côte-d’Or
     ar: كوت دور
@@ -1459,17 +1506,19 @@
     yue: 黃金丘
     az: Kot-d’Or
     mk: Златен Брег
-  geo:
-    latitude: 47.5126795
-    longitude: 4.635412
-    min_latitude: 46.899847
-    min_longitude: 4.065189999999999
-    max_latitude: 48.0313109
-    max_longitude: 5.518767
-  name: Côte-d'Or
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Côtes-d'Armor
+  code: 
   unofficial_names:
   - Côtes-du-Nord
+  geo:
+    latitude: 48.5108101
+    longitude: -3.3263676
+    min_latitude: 48.0325681
+    min_longitude: -3.665906
+    max_latitude: 48.90093599999999
+    max_longitude: -1.909064
   translations:
     en: Côtes-d’Armor
     af: Côtes-d’Armor
@@ -1527,16 +1576,18 @@
     kk: Кот-д’Армор
     yue: 阿摩爾濱海
     az: Kot-d’Armor
-  geo:
-    latitude: 48.5108101
-    longitude: -3.3263676
-    min_latitude: 48.0325681
-    min_longitude: -3.665906
-    max_latitude: 48.90093599999999
-    max_longitude: -1.909064
-  name: Côtes-d'Armor
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Creuse
+  code: 
   unofficial_names: Creuse
+  geo:
+    latitude: 46.03776329999999
+    longitude: 2.0627832
+    min_latitude: 45.663551
+    min_longitude: 1.3726041
+    max_latitude: 46.45536999999999
+    max_longitude: 2.6112931
   translations:
     en: Creuse
     ar: كروز
@@ -1600,16 +1651,18 @@
     kk: Крёз
     yue: 克勒茲
     az: Kröz
-  geo:
-    latitude: 46.03776329999999
-    longitude: 2.0627832
-    min_latitude: 45.663551
-    min_longitude: 1.3726041
-    max_latitude: 46.45536999999999
-    max_longitude: 2.6112931
-  name: Creuse
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Dordogne
+  code: 
   unofficial_names: Dordogne
+  geo:
+    latitude: 45.14694859999999
+    longitude: 0.7572205
+    min_latitude: 44.570736
+    min_longitude: -0.041877
+    max_latitude: 45.7147689
+    max_longitude: 1.448245
   translations:
     en: Dordogne
     ar: دوردونيي
@@ -1674,16 +1727,18 @@
     yue: 多爾多涅
     az: Dordon
     mk: Дордоња
-  geo:
-    latitude: 45.14694859999999
-    longitude: 0.7572205
-    min_latitude: 44.570736
-    min_longitude: -0.041877
-    max_latitude: 45.7147689
-    max_longitude: 1.448245
-  name: Dordogne
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Doubs
+  code: 
   unofficial_names: Doubs
+  geo:
+    latitude: 46.92760000000001
+    longitude: 6.349000999999999
+    min_latitude: 46.9157861
+    min_longitude: 6.330692
+    max_latitude: 46.9485301
+    max_longitude: 6.3995831
   translations:
     en: Doubs
     ar: دوبس
@@ -1747,16 +1802,18 @@
     kk: Ду
     yue: 杜
     az: Du (departament)
-  geo:
-    latitude: 46.92760000000001
-    longitude: 6.349000999999999
-    min_latitude: 46.9157861
-    min_longitude: 6.330692
-    max_latitude: 46.9485301
-    max_longitude: 6.3995831
-  name: Doubs
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Drôme
+  code: 
   unofficial_names: Drôme
+  geo:
+    latitude: 44.73118960000001
+    longitude: 5.2266675
+    min_latitude: 44.115494
+    min_longitude: 4.6468618
+    max_latitude: 45.343976
+    max_longitude: 5.830446
   translations:
     en: Drôme
     ar: دروم
@@ -1820,16 +1877,18 @@
     kk: Дром
     yue: 德龍
     az: Drom (departament)
-  geo:
-    latitude: 44.73118960000001
-    longitude: 5.2266675
-    min_latitude: 44.115494
-    min_longitude: 4.6468618
-    max_latitude: 45.343976
-    max_longitude: 5.830446
-  name: Drôme
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Eure
+  code: 
   unofficial_names: Eure
+  geo:
+    latitude: 49.11817629999999
+    longitude: 0.9582113999999999
+    min_latitude: 48.666427
+    min_longitude: 0.2967251
+    max_latitude: 49.485283
+    max_longitude: 1.8031109
   translations:
     en: Eure
     af: Eure
@@ -1893,16 +1952,18 @@
     yue: 厄爾
     az: Er (departament)
     mk: Ер
-  geo:
-    latitude: 49.11817629999999
-    longitude: 0.9582113999999999
-    min_latitude: 48.666427
-    min_longitude: 0.2967251
-    max_latitude: 49.485283
-    max_longitude: 1.8031109
-  name: Eure
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: Eure-et-Loir
+  code: 
   unofficial_names: Eure-et-Loir
+  geo:
+    latitude: 48.5525242
+    longitude: 1.1989814
+    min_latitude: 47.95381800000001
+    min_longitude: 0.755676
+    max_latitude: 48.941029
+    max_longitude: 1.99456
   translations:
     en: Eure-et-Loir
     af: Eure-et-Loir
@@ -1966,16 +2027,18 @@
     yue: 厄爾－盧華
     az: Er və Luar
     mk: Ер и Лоар
-  geo:
-    latitude: 48.5525242
-    longitude: 1.1989814
-    min_latitude: 47.95381800000001
-    min_longitude: 0.755676
-    max_latitude: 48.941029
-    max_longitude: 1.99456
-  name: Eure-et-Loir
-'29':
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: Finistère
+  code: 
   unofficial_names: Finistère
+  geo:
+    latitude: 48.2520249
+    longitude: -3.9300525
+    min_latitude: 47.701242
+    min_longitude: -5.141292099999999
+    max_latitude: 48.7535
+    max_longitude: -3.3866189
   translations:
     en: Finistère
     af: Finistère
@@ -2042,16 +2105,18 @@
     yue: 菲尼斯泰爾
     az: Finister
     mk: Финистер
-  geo:
-    latitude: 48.2520249
-    longitude: -3.9300525
-    min_latitude: 47.701242
-    min_longitude: -5.141292099999999
-    max_latitude: 48.7535
-    max_longitude: -3.3866189
-  name: Finistère
-2A:
+  comments: 
+2A: !ruby/struct:ISO3166::Subdivision
+  name: Corse-du-Sud
+  code: 
   unofficial_names: Corse-du-Sud
+  geo:
+    latitude: 41.8102633
+    longitude: 8.9245343
+    min_latitude: 41.333543
+    min_longitude: 8.539899199999999
+    max_latitude: 42.381519
+    max_longitude: 9.408043000000001
   translations:
     en: Corse-du-Sud
     ar: كورسيكا الجنوبية
@@ -2115,16 +2180,18 @@
     kk: Оңтүстік Корсика
     yue: 南歌斯嘉
     az: Cənubi Korsika
-  geo:
-    latitude: 41.8102633
-    longitude: 8.9245343
-    min_latitude: 41.333543
-    min_longitude: 8.539899199999999
-    max_latitude: 42.381519
-    max_longitude: 9.408043000000001
-  name: Corse-du-Sud
-2B:
+  comments: 
+2B: !ruby/struct:ISO3166::Subdivision
+  name: Haute-Corse
+  code: 
   unofficial_names: Haute-Corse
+  geo:
+    latitude: 42.4097877
+    longitude: 9.2785583
+    min_latitude: 41.832168
+    min_longitude: 8.5733069
+    max_latitude: 43.0276781
+    max_longitude: 9.560067799999999
   translations:
     en: Haute-Corse
     ar: كورسيكا العليا
@@ -2188,16 +2255,18 @@
     kk: Жоғарғы Корсика
     yue: 上歌斯嘉
     az: Yuxarı Korsika
-  geo:
-    latitude: 42.4097877
-    longitude: 9.2785583
-    min_latitude: 41.832168
-    min_longitude: 8.5733069
-    max_latitude: 43.0276781
-    max_longitude: 9.560067799999999
-  name: Haute-Corse
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Gard
+  code: 
   unofficial_names: Gard
+  geo:
+    latitude: 43.9446996
+    longitude: 4.1513764
+    min_latitude: 43.460159
+    min_longitude: 3.261869
+    max_latitude: 44.4596639
+    max_longitude: 4.845564
   translations:
     en: Gard
     af: Gard
@@ -2261,16 +2330,18 @@
     kk: Гар
     yue: 加爾
     az: Qar (departament)
-  geo:
-    latitude: 43.9446996
-    longitude: 4.1513764
-    min_latitude: 43.460159
-    min_longitude: 3.261869
-    max_latitude: 44.4596639
-    max_longitude: 4.845564
-  name: Gard
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Garonne
+  code: 
   unofficial_names: Haute-Garonne
+  geo:
+    latitude: 43.4010462
+    longitude: 1.135302
+    min_latitude: 42.6893299
+    min_longitude: 0.4416861
+    max_latitude: 43.92153099999999
+    max_longitude: 2.048299
   translations:
     en: Haute-Garonne
     ar: غارون العليا
@@ -2332,16 +2403,18 @@
     ccp: "\U00011126\U00011105\U0001112A\U00011116\U00011134-\U00011109\U00011133\U00011120\U00011122\U0001112E\U0001111A\U00011133\U00011126\U00011128"
     kk: Жоғарғы Гаронна
     yue: 上加龍
-  geo:
-    latitude: 43.4010462
-    longitude: 1.135302
-    min_latitude: 42.6893299
-    min_longitude: 0.4416861
-    max_latitude: 43.92153099999999
-    max_longitude: 2.048299
-  name: Haute-Garonne
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Gers
+  code: 
   unofficial_names: Gers
+  geo:
+    latitude: 43.6366479
+    longitude: 0.4502368
+    min_latitude: 43.310868
+    min_longitude: -0.282299
+    max_latitude: 44.0800249
+    max_longitude: 1.203249
   translations:
     en: Gers
     ar: جارس
@@ -2404,16 +2477,18 @@
     he: ז׳ר
     kk: Жер
     yue: 熱爾
-  geo:
-    latitude: 43.6366479
-    longitude: 0.4502368
-    min_latitude: 43.310868
-    min_longitude: -0.282299
-    max_latitude: 44.0800249
-    max_longitude: 1.203249
-  name: Gers
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Gironde
+  code: 
   unofficial_names: Gironde
+  geo:
+    latitude: 44.84966499999999
+    longitude: -0.4502368
+    min_latitude: 44.1939019
+    min_longitude: -1.2614241
+    max_latitude: 45.573636
+    max_longitude: 0.315137
   translations:
     en: Gironde
     ar: جيروند
@@ -2479,16 +2554,18 @@
     kk: Жиронда
     yue: 吉倫特
     mk: Жиронда (департман)
-  geo:
-    latitude: 44.84966499999999
-    longitude: -0.4502368
-    min_latitude: 44.1939019
-    min_longitude: -1.2614241
-    max_latitude: 45.573636
-    max_longitude: 0.315137
-  name: Gironde
-'34':
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: Hérault
+  code: 
   unofficial_names: Hérault
+  geo:
+    latitude: 43.5912356
+    longitude: 3.2583626
+    min_latitude: 43.2102099
+    min_longitude: 2.539549
+    max_latitude: 43.9727599
+    max_longitude: 4.1945401
   translations:
     en: Hérault
     af: Hérault
@@ -2554,16 +2631,18 @@
     yue: 埃羅
     bs: Hérault
     mk: Еро
-  geo:
-    latitude: 43.5912356
-    longitude: 3.2583626
-    min_latitude: 43.2102099
-    min_longitude: 2.539549
-    max_latitude: 43.9727599
-    max_longitude: 4.1945401
-  name: Hérault
-'35':
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: Ille-et-Vilaine
+  code: 
   unofficial_names: Ille-et-Vilaine
+  geo:
+    latitude: 48.2292016
+    longitude: -1.5300695
+    min_latitude: 47.631614
+    min_longitude: -2.289611
+    max_latitude: 48.721737
+    max_longitude: -1.0156211
   translations:
     en: Ille-et-Vilaine
     af: Ille-et-Vilaine
@@ -2626,16 +2705,18 @@
     ccp: "\U00011103\U00011128\U00011123\U00011133\U00011126\U00011128-\U00011103\U0001112C\U00011116\U00011134-\U0001111E\U00011128\U00011123\U0001112D\U0001111A\U0001112C"
     kk: Иль және Вилен
     yue: 伊勒-維萊訥
-  geo:
-    latitude: 48.2292016
-    longitude: -1.5300695
-    min_latitude: 47.631614
-    min_longitude: -2.289611
-    max_latitude: 48.721737
-    max_longitude: -1.0156211
-  name: Ille-et-Vilaine
-'36':
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: Indre
+  code: 
   unofficial_names: Indre
+  geo:
+    latitude: 46.6613966
+    longitude: 1.4482662
+    min_latitude: 46.3469059
+    min_longitude: 0.8674139
+    max_latitude: 47.277465
+    max_longitude: 2.204572
   translations:
     en: Indre
     ar: أندر
@@ -2700,16 +2781,18 @@
     kk: Эндр
     yue: 安德爾
     az: Endr
-  geo:
-    latitude: 46.6613966
-    longitude: 1.4482662
-    min_latitude: 46.3469059
-    min_longitude: 0.8674139
-    max_latitude: 47.277465
-    max_longitude: 2.204572
-  name: Indre
-'37':
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: Indre-et-Loire
+  code: 
   unofficial_names: Indre-et-Loire
+  geo:
+    latitude: 47.28949249999999
+    longitude: 0.816097
+    min_latitude: 46.736714
+    min_longitude: 0.0527369
+    max_latitude: 47.7098679
+    max_longitude: 1.366049
   translations:
     en: Indre-et-Loire
     ar: أندر ولوار
@@ -2773,16 +2856,18 @@
     kk: Эндр және Луара
     yue: 安德爾-盧華爾
     mk: Ендр и Лоара
-  geo:
-    latitude: 47.28949249999999
-    longitude: 0.816097
-    min_latitude: 46.736714
-    min_longitude: 0.0527369
-    max_latitude: 47.7098679
-    max_longitude: 1.366049
-  name: Indre-et-Loire
-'38':
+  comments: 
+'38': !ruby/struct:ISO3166::Subdivision
+  name: Isère
+  code: 
   unofficial_names: Isère
+  geo:
+    latitude: 44.9957745
+    longitude: 5.9293476
+    min_latitude: 44.695873
+    min_longitude: 4.7425939
+    max_latitude: 45.883397
+    max_longitude: 6.359309
   translations:
     en: Isère
     ar: إزار
@@ -2845,16 +2930,18 @@
     ccp: "\U00011103\U0001112D\U00011125\U00011122\U00011134"
     kk: Изер
     yue: 伊澤爾
-  geo:
-    latitude: 44.9957745
-    longitude: 5.9293476
-    min_latitude: 44.695873
-    min_longitude: 4.7425939
-    max_latitude: 45.883397
-    max_longitude: 6.359309
-  name: Isère
-'39':
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: Jura
+  code: 
   unofficial_names: Jura
+  geo:
+    latitude: 46.76247499999999
+    longitude: 5.6729159
+    min_latitude: 46.260695
+    min_longitude: 5.251316
+    max_latitude: 47.30594379999999
+    max_longitude: 6.207189
   translations:
     en: Jura
     ar: جورا
@@ -2917,16 +3004,18 @@
     he: ז׳ורה
     kk: Юра
     yue: 侏羅省
-  geo:
-    latitude: 46.76247499999999
-    longitude: 5.6729159
-    min_latitude: 46.260695
-    min_longitude: 5.251316
-    max_latitude: 47.30594379999999
-    max_longitude: 6.207189
-  name: Jura
-'40':
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: Landes
+  code: 
   unofficial_names: Landes
+  geo:
+    latitude: 43.9412045
+    longitude: -0.7532808999999999
+    min_latitude: 43.48743
+    min_longitude: -1.5235748
+    max_latitude: 44.532381
+    max_longitude: 0.1366911
   translations:
     en: Landes
     ar: لاند
@@ -2990,16 +3079,18 @@
     kk: Ландтер
     yue: 朗德省
     mk: Ланд (департман)
-  geo:
-    latitude: 43.9412045
-    longitude: -0.7532808999999999
-    min_latitude: 43.48743
-    min_longitude: -1.5235748
-    max_latitude: 44.532381
-    max_longitude: 0.1366911
-  name: Landes
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Loir-et-Cher
+  code: 
   unofficial_names: Loir-et-Cher
+  geo:
+    latitude: 47.6761905
+    longitude: 1.4159072
+    min_latitude: 47.186391
+    min_longitude: 0.5804869
+    max_latitude: 48.133235
+    max_longitude: 2.247891
   translations:
     en: Loir-et-Cher
     ar: لوار وشير
@@ -3062,16 +3153,18 @@
     kk: Луар және Шер
     yue: 盧華－些爾
     mk: Лоар и Шер
-  geo:
-    latitude: 47.6761905
-    longitude: 1.4159072
-    min_latitude: 47.186391
-    min_longitude: 0.5804869
-    max_latitude: 48.133235
-    max_longitude: 2.247891
-  name: Loir-et-Cher
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Loire
+  code: 
   unofficial_names: Loire
+  geo:
+    latitude: 45.9846475
+    longitude: 4.052544999999999
+    min_latitude: 45.23104
+    min_longitude: 3.688893
+    max_latitude: 46.276589
+    max_longitude: 4.760375
   translations:
     en: Loire
     ar: لوار
@@ -3135,16 +3228,18 @@
     kk: Луара
     yue: 盧華爾
     az: Luara (departament)
-  geo:
-    latitude: 45.9846475
-    longitude: 4.052544999999999
-    min_latitude: 45.23104
-    min_longitude: 3.688893
-    max_latitude: 46.276589
-    max_longitude: 4.760375
-  name: Loire
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Loire
+  code: 
   unofficial_names: Haute-Loire
+  geo:
+    latitude: 45.0821226
+    longitude: 3.9266366
+    min_latitude: 44.743961
+    min_longitude: 3.082197
+    max_latitude: 45.42760879999999
+    max_longitude: 4.490819
   translations:
     en: Haute-Loire
     ar: لوار العليا
@@ -3208,16 +3303,18 @@
     he: לואר עילי
     kk: Жоғарғы Луара
     yue: 上盧華爾
-  geo:
-    latitude: 45.0821226
-    longitude: 3.9266366
-    min_latitude: 44.743961
-    min_longitude: 3.082197
-    max_latitude: 45.42760879999999
-    max_longitude: 4.490819
-  name: Haute-Loire
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Loire-Atlantique
+  code: 
   unofficial_names: Loire-Atlantique
+  geo:
+    latitude: 47.27804680000001
+    longitude: -1.8157647
+    min_latitude: 46.860073
+    min_longitude: -2.559609
+    max_latitude: 47.835927
+    max_longitude: -0.9243831
   translations:
     en: Loire-Atlantique
     af: Loire-Atlantique
@@ -3279,16 +3376,18 @@
     ccp: "\U00011123\U00011130\U00011122\U00011134-\U00011103\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011134\U00011111\U00011128\U00011107\U00011134"
     kk: Атлантикалық Луара
     yue: 盧華爾-大西洋
-  geo:
-    latitude: 47.27804680000001
-    longitude: -1.8157647
-    min_latitude: 46.860073
-    min_longitude: -2.559609
-    max_latitude: 47.835927
-    max_longitude: -0.9243831
-  name: Loire-Atlantique
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Loiret
+  code: 
   unofficial_names: Loiret
+  geo:
+    latitude: 47.900771
+    longitude: 2.2018172
+    min_latitude: 47.483027
+    min_longitude: 1.51145
+    max_latitude: 48.344954
+    max_longitude: 3.1284099
   translations:
     en: Loiret
     ar: لواريت
@@ -3353,16 +3452,18 @@
     kk: Луаре
     yue: 盧華雷
     az: Luare (departament)
-  geo:
-    latitude: 47.900771
-    longitude: 2.2018172
-    min_latitude: 47.483027
-    min_longitude: 1.51145
-    max_latitude: 48.344954
-    max_longitude: 3.1284099
-  name: Loiret
-'46':
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: Lot
+  code: 
   unofficial_names: Lot
+  geo:
+    latitude: 44.5379358
+    longitude: 1.6760691
+    min_latitude: 44.20334810000001
+    min_longitude: 0.9815220999999998
+    max_latitude: 45.046684
+    max_longitude: 2.210891
   translations:
     en: Lot
     ar: لوت
@@ -3426,16 +3527,18 @@
     yue: 洛特
     az: Lo (departament)
     mk: Лот
-  geo:
-    latitude: 44.5379358
-    longitude: 1.6760691
-    min_latitude: 44.20334810000001
-    min_longitude: 0.9815220999999998
-    max_latitude: 45.046684
-    max_longitude: 2.210891
-  name: Lot
-'47':
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: Lot-et-Garonne
+  code: 
   unofficial_names: Lot-et-Garonne
+  geo:
+    latitude: 44.2470173
+    longitude: 0.4502368
+    min_latitude: 43.9725879
+    min_longitude: -0.140673
+    max_latitude: 44.765678
+    max_longitude: 1.078341
   translations:
     en: Lot-et-Garonne
     ar: لوت وغارون
@@ -3498,16 +3601,18 @@
     kk: Ло және Гаронна
     yue: 洛特-加龍
     az: Lo və Qaronna
-  geo:
-    latitude: 44.2470173
-    longitude: 0.4502368
-    min_latitude: 43.9725879
-    min_longitude: -0.140673
-    max_latitude: 44.765678
-    max_longitude: 1.078341
-  name: Lot-et-Garonne
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Lozère
+  code: 
   unofficial_names: Lozère
+  geo:
+    latitude: 44.494203
+    longitude: 3.5812692
+    min_latitude: 44.1095909
+    min_longitude: 2.981197
+    max_latitude: 44.975761
+    max_longitude: 3.998366
   translations:
     en: Lozère
     af: Lozère
@@ -3570,16 +3675,18 @@
     ccp: "\U00011123\U0001112E\U00011121\U00011120\U0001112C\U00011122\U00011134"
     kk: Лозер
     yue: 洛澤爾
-  geo:
-    latitude: 44.494203
-    longitude: 3.5812692
-    min_latitude: 44.1095909
-    min_longitude: 2.981197
-    max_latitude: 44.975761
-    max_longitude: 3.998366
-  name: Lozère
-'49':
+  comments: 
+'49': !ruby/struct:ISO3166::Subdivision
+  name: Maine-et-Loire
+  code: 
   unofficial_names: Maine-et-Loire
+  geo:
+    latitude: 47.2913545
+    longitude: -0.4877852
+    min_latitude: 46.9688829
+    min_longitude: -1.3505026
+    max_latitude: 47.809978
+    max_longitude: 0.234549
   translations:
     en: Maine-et-Loire
     af: Maine-et-Loire
@@ -3642,16 +3749,18 @@
     kk: Мен және Луара
     yue: 曼恩-盧華爾
     az: Men və Luara
-  geo:
-    latitude: 47.2913545
-    longitude: -0.4877852
-    min_latitude: 46.9688829
-    min_longitude: -1.3505026
-    max_latitude: 47.809978
-    max_longitude: 0.234549
-  name: Maine-et-Loire
-'50':
+  comments: 
+'50': !ruby/struct:ISO3166::Subdivision
+  name: Manche
+  code: 
   unofficial_names: Manche
+  geo:
+    latitude: 49.114712
+    longitude: -1.3115949
+    min_latitude: 48.45579679999999
+    min_longitude: -1.954995
+    max_latitude: 49.727762
+    max_longitude: -0.7348169000000001
   translations:
     en: Manche
     af: Manche
@@ -3715,16 +3824,18 @@
     kk: Манш
     yue: 芒什
     az: Manş (departament)
-  geo:
-    latitude: 49.114712
-    longitude: -1.3115949
-    min_latitude: 48.45579679999999
-    min_longitude: -1.954995
-    max_latitude: 49.727762
-    max_longitude: -0.7348169000000001
-  name: Manche
-'51':
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: Marne
+  code: 
   unofficial_names: Marne
+  geo:
+    latitude: 49.128754
+    longitude: 4.1475445
+    min_latitude: 48.515251
+    min_longitude: 3.395865
+    max_latitude: 49.40782799999999
+    max_longitude: 5.039668
   translations:
     en: Marne
     ar: المارن
@@ -3789,16 +3900,18 @@
     kk: Марна
     yue: 馬恩
     az: Marna (departament)
-  geo:
-    latitude: 49.128754
-    longitude: 4.1475445
-    min_latitude: 48.515251
-    min_longitude: 3.395865
-    max_latitude: 49.40782799999999
-    max_longitude: 5.039668
-  name: Marne
-'52':
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Marne
+  code: 
   unofficial_names: Haute-Marne
+  geo:
+    latitude: 48.1260968
+    longitude: 5.1071322
+    min_latitude: 47.576566
+    min_longitude: 4.6266029
+    max_latitude: 48.689322
+    max_longitude: 5.891043
   translations:
     en: Haute-Marne
     ar: المارن العليا
@@ -3862,16 +3975,18 @@
     kk: Жоғарғы Марна
     yue: 上馬恩
     az: Yuxarı Marna
-  geo:
-    latitude: 48.1260968
-    longitude: 5.1071322
-    min_latitude: 47.576566
-    min_longitude: 4.6266029
-    max_latitude: 48.689322
-    max_longitude: 5.891043
-  name: Haute-Marne
-'53':
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: Mayenne
+  code: 
   unofficial_names: Mayenne
+  geo:
+    latitude: 48.3061239
+    longitude: -0.620935
+    min_latitude: 48.2778439
+    min_longitude: -0.6502759
+    max_latitude: 48.33539690000001
+    max_longitude: -0.5777470000000001
   translations:
     en: Mayenne
     af: Mayenne
@@ -3935,16 +4050,18 @@
     kk: Майен
     yue: 馬耶訥
     az: Mayen (departament)
-  geo:
-    latitude: 48.3061239
-    longitude: -0.620935
-    min_latitude: 48.2778439
-    min_longitude: -0.6502759
-    max_latitude: 48.33539690000001
-    max_longitude: -0.5777470000000001
-  name: Mayenne
-'54':
+  comments: 
+'54': !ruby/struct:ISO3166::Subdivision
+  name: Meurthe-et-Moselle
+  code: 
   unofficial_names: Meurthe-et-Moselle
+  geo:
+    latitude: 48.7997007
+    longitude: 6.094701400000001
+    min_latitude: 48.348987
+    min_longitude: 5.426108
+    max_latitude: 49.56326800000001
+    max_longitude: 7.123213100000001
   translations:
     en: Meurthe-et-Moselle
     af: Meurthe-et-Moselle
@@ -4008,16 +4125,18 @@
     yue: 默爾特-摩澤爾
     az: Mört və Mözel
     mk: Мерт и Мозел
-  geo:
-    latitude: 48.7997007
-    longitude: 6.094701400000001
-    min_latitude: 48.348987
-    min_longitude: 5.426108
-    max_latitude: 49.56326800000001
-    max_longitude: 7.123213100000001
-  name: Meurthe-et-Moselle
-'55':
+  comments: 
+'55': !ruby/struct:ISO3166::Subdivision
+  name: Meuse
+  code: 
   unofficial_names: Meuse
+  geo:
+    latitude: 49.0824319
+    longitude: 5.282399700000001
+    min_latitude: 48.4089919
+    min_longitude: 4.8883769
+    max_latitude: 49.616864
+    max_longitude: 5.8542058
   translations:
     en: Meuse
     af: Meuse
@@ -4081,16 +4200,18 @@
     yue: 默茲
     az: Möz (departament)
     mk: Меза
-  geo:
-    latitude: 49.0824319
-    longitude: 5.282399700000001
-    min_latitude: 48.4089919
-    min_longitude: 4.8883769
-    max_latitude: 49.616864
-    max_longitude: 5.8542058
-  name: Meuse
-'56':
+  comments: 
+'56': !ruby/struct:ISO3166::Subdivision
+  name: Morbihan
+  code: 
   unofficial_names: Morbihan
+  geo:
+    latitude: 47.8852929
+    longitude: -2.9001865
+    min_latitude: 47.27785290000001
+    min_longitude: -3.7349149
+    max_latitude: 48.21088899999999
+    max_longitude: -2.0353381
   translations:
     en: Morbihan
     af: Morbihan
@@ -4156,16 +4277,18 @@
     yue: 莫爾比昂
     az: Morbian
     mk: Морбијан
-  geo:
-    latitude: 47.8852929
-    longitude: -2.9001865
-    min_latitude: 47.27785290000001
-    min_longitude: -3.7349149
-    max_latitude: 48.21088899999999
-    max_longitude: -2.0353381
-  name: Morbihan
-'57':
+  comments: 
+'57': !ruby/struct:ISO3166::Subdivision
+  name: Moselle
+  code: 
   unofficial_names: Moselle
+  geo:
+    latitude: 49.0983839
+    longitude: 6.5527641
+    min_latitude: 48.5267229
+    min_longitude: 5.891857099999999
+    max_latitude: 49.515124
+    max_longitude: 7.640046900000001
   translations:
     en: Moselle
     af: Moselle
@@ -4231,16 +4354,18 @@
     yue: 摩澤爾
     az: Mozel
     mk: Мозел
-  geo:
-    latitude: 49.0983839
-    longitude: 6.5527641
-    min_latitude: 48.5267229
-    min_longitude: 5.891857099999999
-    max_latitude: 49.515124
-    max_longitude: 7.640046900000001
-  name: Moselle
-'58':
+  comments: 
+'58': !ruby/struct:ISO3166::Subdivision
+  name: Nièvre
+  code: 
   unofficial_names: Nièvre
+  geo:
+    latitude: 47.2381708
+    longitude: 3.5294522
+    min_latitude: 46.651024
+    min_longitude: 2.8459898
+    max_latitude: 47.5882881
+    max_longitude: 4.23191
   translations:
     en: Nièvre
     ar: نيافر
@@ -4303,16 +4428,18 @@
     kk: Ньевр
     yue: 涅夫勒
     az: Nyevr
-  geo:
-    latitude: 47.2381708
-    longitude: 3.5294522
-    min_latitude: 46.651024
-    min_longitude: 2.8459898
-    max_latitude: 47.5882881
-    max_longitude: 4.23191
-  name: Nièvre
-'59':
+  comments: 
+'59': !ruby/struct:ISO3166::Subdivision
+  name: Nord
+  code: 
   unofficial_names: Nord
+  geo:
+    latitude: 50.3851246
+    longitude: 3.2642436
+    min_latitude: 49.9690609
+    min_longitude: 2.089297
+    max_latitude: 51.08899
+    max_longitude: 4.2316779
   translations:
     en: Nord
     af: Nord
@@ -4376,16 +4503,18 @@
     yue: 諾爾
     az: Nor
     mk: Север
-  geo:
-    latitude: 50.3851246
-    longitude: 3.2642436
-    min_latitude: 49.9690609
-    min_longitude: 2.089297
-    max_latitude: 51.08899
-    max_longitude: 4.2316779
-  name: Nord
-'60':
+  comments: 
+'60': !ruby/struct:ISO3166::Subdivision
+  name: Oise
+  code: 
   unofficial_names: Oise
+  geo:
+    latitude: 49.42145679999999
+    longitude: 2.4146396
+    min_latitude: 49.060525
+    min_longitude: 1.6888659
+    max_latitude: 49.76392209999999
+    max_longitude: 3.166125
   translations:
     en: Oise
     ar: واز
@@ -4450,16 +4579,18 @@
     yue: 華茲
     az: Uaza (departament)
     mk: Оаза
-  geo:
-    latitude: 49.42145679999999
-    longitude: 2.4146396
-    min_latitude: 49.060525
-    min_longitude: 1.6888659
-    max_latitude: 49.76392209999999
-    max_longitude: 3.166125
-  name: Oise
-'61':
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: Orne
+  code: 
   unofficial_names: Orne
+  geo:
+    latitude: 48.6388567
+    longitude: 0.0848201
+    min_latitude: 48.17988500000001
+    min_longitude: -0.860575
+    max_latitude: 48.972535
+    max_longitude: 0.976576
   translations:
     en: Orne
     af: Orne
@@ -4523,16 +4654,18 @@
     kk: Орн
     yue: 奧恩
     az: Orn
-  geo:
-    latitude: 48.6388567
-    longitude: 0.0848201
-    min_latitude: 48.17988500000001
-    min_longitude: -0.860575
-    max_latitude: 48.972535
-    max_longitude: 0.976576
-  name: Orne
-'62':
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: Pas-de-Calais
+  code: 
   unofficial_names: Pas-de-Calais
+  geo:
+    latitude: 50.5732769
+    longitude: 2.3244679
+    min_latitude: 50.01976
+    min_longitude: 1.555598
+    max_latitude: 51.0067741
+    max_longitude: 3.1881861
   translations:
     en: Pas-de-Calais
     af: Pas-de-Calais
@@ -4595,16 +4728,18 @@
     kk: Па-де-Кале
     yue: 加來海峽
     mk: Па де Кале
-  geo:
-    latitude: 50.5732769
-    longitude: 2.3244679
-    min_latitude: 50.01976
-    min_longitude: 1.555598
-    max_latitude: 51.0067741
-    max_longitude: 3.1881861
-  name: Pas-de-Calais
-'63':
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: Puy-de-Dôme
+  code: 
   unofficial_names: Puy-de-Dôme
+  geo:
+    latitude: 45.7725738
+    longitude: 2.9644431
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Puy-de-Dôme
     ar: بوي دي دوم
@@ -4666,16 +4801,18 @@
     ccp: "\U0001111C\U0001112D-\U00011113\U0001112C-\U00011113\U0001112E\U0001111F\U00011134"
     kk: Пюи-де-Дом
     yue: 多姆山
-  geo:
-    latitude: 45.7725738
-    longitude: 2.9644431
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Puy-de-Dôme
-'64':
+  comments: 
+'64': !ruby/struct:ISO3166::Subdivision
+  name: Pyrénées-Atlantiques
+  code: 
   unofficial_names: Pyrénées-Atlantiques
+  geo:
+    latitude: 43.3269942
+    longitude: -0.7532808999999999
+    min_latitude: 42.777531
+    min_longitude: -1.7923251
+    max_latitude: 43.59672490000001
+    max_longitude: 0.029807
   translations:
     en: Pyrénées-Atlantiques
     af: Pyrénées-Atlantiques
@@ -4739,16 +4876,18 @@
     kk: Атлантикалық Пиреней
     yue: 比利牛斯－大西洋
     az: Atlantik Pireney
-  geo:
-    latitude: 43.3269942
-    longitude: -0.7532808999999999
-    min_latitude: 42.777531
-    min_longitude: -1.7923251
-    max_latitude: 43.59672490000001
-    max_longitude: 0.029807
-  name: Pyrénées-Atlantiques
-'65':
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: Hautes-Pyrénées
+  code: 
   unofficial_names: Hautes-Pyrénées
+  geo:
+    latitude: 43.0193924
+    longitude: 0.1494988
+    min_latitude: 42.6733059
+    min_longitude: -0.32716
+    max_latitude: 43.61333399999999
+    max_longitude: 0.6461191
   translations:
     en: Hautes-Pyrénées
     ar: البرانيس العليا
@@ -4812,16 +4951,18 @@
     yue: 上比利牛斯
     az: Yuxarı Pireney
     mk: Горни Пиринеи
-  geo:
-    latitude: 43.0193924
-    longitude: 0.1494988
-    min_latitude: 42.6733059
-    min_longitude: -0.32716
-    max_latitude: 43.61333399999999
-    max_longitude: 0.6461191
-  name: Hautes-Pyrénées
-'66':
+  comments: 
+'66': !ruby/struct:ISO3166::Subdivision
+  name: Pyrénées-Orientales
+  code: 
   unofficial_names: Pyrénées-Orientales
+  geo:
+    latitude: 42.6012912
+    longitude: 2.539603
+    min_latitude: 42.333014
+    min_longitude: 1.7216351
+    max_latitude: 42.9185399
+    max_longitude: 3.177833
   translations:
     en: Pyrénées-Orientales
     af: Pyrénées-Orientales
@@ -4885,16 +5026,18 @@
     kk: Шығыс Пиреней
     yue: 東比利牛斯省
     az: Şərqi Pireney
-  geo:
-    latitude: 42.6012912
-    longitude: 2.539603
-    min_latitude: 42.333014
-    min_longitude: 1.7216351
-    max_latitude: 42.9185399
-    max_longitude: 3.177833
-  name: Pyrénées-Orientales
-'67':
+  comments: 
+'67': !ruby/struct:ISO3166::Subdivision
+  name: Bas-Rhin
+  code: 
   unofficial_names: Bas-Rhin
+  geo:
+    latitude: 48.6343172
+    longitude: 7.525293800000001
+    min_latitude: 48.120387
+    min_longitude: 6.9406139
+    max_latitude: 49.0778581
+    max_longitude: 8.2335491
   translations:
     en: Bas-Rhin
     af: Bas-Rhin
@@ -4959,16 +5102,18 @@
     yue: 下萊茵
     az: Aşağı Reyn
     mk: Долна Рајна
-  geo:
-    latitude: 48.6343172
-    longitude: 7.525293800000001
-    min_latitude: 48.120387
-    min_longitude: 6.9406139
-    max_latitude: 49.0778581
-    max_longitude: 8.2335491
-  name: Bas-Rhin
-'68':
+  comments: 
+'68': !ruby/struct:ISO3166::Subdivision
+  name: Haut-Rhin
+  code: 
   unofficial_names: Haut-Rhin
+  geo:
+    latitude: 47.9315041
+    longitude: 7.2441099
+    min_latitude: 47.4202619
+    min_longitude: 6.841025999999999
+    max_latitude: 48.311198
+    max_longitude: 7.622121099999998
   translations:
     en: Haut-Rhin
     af: Haut-Rhin
@@ -5034,16 +5179,18 @@
     yue: 上萊茵
     az: Yuxarı Reyn
     mk: Горна Рајна
-  geo:
-    latitude: 47.9315041
-    longitude: 7.2441099
-    min_latitude: 47.4202619
-    min_longitude: 6.841025999999999
-    max_latitude: 48.311198
-    max_longitude: 7.622121099999998
-  name: Haut-Rhin
-'69':
+  comments: 
+'69': !ruby/struct:ISO3166::Subdivision
+  name: Rhône
+  code: 
   unofficial_names: Rhône
+  geo:
+    latitude: 45.7351456
+    longitude: 4.6108043
+    min_latitude: 45.45413
+    min_longitude: 4.243647
+    max_latitude: 46.30650199999999
+    max_longitude: 5.1601089
   translations:
     en: Rhône
     ar: رون
@@ -5108,16 +5255,18 @@
     yue: 隆河省
     az: Rona (departament)
     mk: Рона
-  geo:
-    latitude: 45.7351456
-    longitude: 4.6108043
-    min_latitude: 45.45413
-    min_longitude: 4.243647
-    max_latitude: 46.30650199999999
-    max_longitude: 5.1601089
-  name: Rhône
-'70':
+  comments: 
+'70': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Saône
+  code: 
   unofficial_names: Haute-Saône
+  geo:
+    latitude: 47.7569806
+    longitude: 6.1556282
+    min_latitude: 47.2525531
+    min_longitude: 5.366937099999999
+    max_latitude: 48.024154
+    max_longitude: 6.8249469
   translations:
     en: Haute-Saône
     ar: سون العليا
@@ -5182,16 +5331,18 @@
     yue: 上索恩
     az: Yuxarı Sona
     mk: Горна Сона
-  geo:
-    latitude: 47.7569806
-    longitude: 6.1556282
-    min_latitude: 47.2525531
-    min_longitude: 5.366937099999999
-    max_latitude: 48.024154
-    max_longitude: 6.8249469
-  name: Haute-Saône
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Saône-et-Loire
+  code: 
   unofficial_names: Saône-et-Loire
+  geo:
+    latitude: 46.5827512
+    longitude: 4.486670999999999
+    min_latitude: 46.15607
+    min_longitude: 3.622593
+    max_latitude: 47.155772
+    max_longitude: 5.465288999999999
   translations:
     en: Saône-et-Loire
     ar: سون ولوار
@@ -5254,16 +5405,18 @@
     kk: Сона және Луара
     yue: 索恩盧瓦
     az: Sona və Luara
-  geo:
-    latitude: 46.5827512
-    longitude: 4.486670999999999
-    min_latitude: 46.15607
-    min_longitude: 3.622593
-    max_latitude: 47.155772
-    max_longitude: 5.465288999999999
-  name: Saône-et-Loire
-'72':
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: Sarthe
+  code: 
   unofficial_names: Sarthe
+  geo:
+    latitude: 47.9217014
+    longitude: 0.1655803
+    min_latitude: 47.56840099999999
+    min_longitude: -0.4480631
+    max_latitude: 48.48502
+    max_longitude: 0.9166388999999999
   translations:
     en: Sarthe
     af: Sarthe
@@ -5327,16 +5480,18 @@
     kk: Сарта
     yue: 薩爾特
     az: Sarta
-  geo:
-    latitude: 47.9217014
-    longitude: 0.1655803
-    min_latitude: 47.56840099999999
-    min_longitude: -0.4480631
-    max_latitude: 48.48502
-    max_longitude: 0.9166388999999999
-  name: Sarthe
-'73':
+  comments: 
+'73': !ruby/struct:ISO3166::Subdivision
+  name: Savoie
+  code: 
   unofficial_names: Savoie
+  geo:
+    latitude: 44.771079
+    longitude: 5.742806000000001
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Savoie
     ar: سافوا
@@ -5402,16 +5557,18 @@
     yue: 薩華
     az: Savoyya
     mk: Савоја
-  geo:
-    latitude: 44.771079
-    longitude: 5.742806000000001
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Savoie
-'74':
+  comments: 
+'74': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Savoie
+  code: 
   unofficial_names: Haute-Savoie
+  geo:
+    latitude: 46.1756788
+    longitude: 6.5389621
+    min_latitude: 45.681659
+    min_longitude: 5.80502
+    max_latitude: 46.408243
+    max_longitude: 7.0450649
   translations:
     en: Haute-Savoie
     ar: سافوا العليا
@@ -5475,16 +5632,18 @@
     yue: 上薩華
     az: Yuxarı Savoyya
     yo: Haute-Savoie
-  geo:
-    latitude: 46.1756788
-    longitude: 6.5389621
-    min_latitude: 45.681659
-    min_longitude: 5.80502
-    max_latitude: 46.408243
-    max_longitude: 7.0450649
-  name: Haute-Savoie
-'75':
+  comments: 
+'75': !ruby/struct:ISO3166::Subdivision
+  name: Paris
+  code: 
   unofficial_names: Paris
+  geo:
+    latitude: 48.856614
+    longitude: 2.3522219
+    min_latitude: 48.815573
+    min_longitude: 2.224199
+    max_latitude: 48.9021449
+    max_longitude: 2.4699208
   translations:
     en: Paris
     af: Parys
@@ -5572,16 +5731,18 @@
     uz: Parij
     bs: Pariz
     mk: Париз
-  geo:
-    latitude: 48.856614
-    longitude: 2.3522219
-    min_latitude: 48.815573
-    min_longitude: 2.224199
-    max_latitude: 48.9021449
-    max_longitude: 2.4699208
-  name: Paris
-'76':
+  comments: 
+'76': !ruby/struct:ISO3166::Subdivision
+  name: Seine-Maritime
+  code: 
   unofficial_names: Seine-Maritime
+  geo:
+    latitude: 49.922992
+    longitude: 1.077483
+    min_latitude: 49.899252
+    min_longitude: 1.0399821
+    max_latitude: 49.9408489
+    max_longitude: 1.1269969
   translations:
     en: Seine-Maritime
     af: Seine-Maritime
@@ -5644,16 +5805,18 @@
     yue: 濱海塞納
     az: Dənizkənarı Sena
     bs: Seine-Maritime
-  geo:
-    latitude: 49.922992
-    longitude: 1.077483
-    min_latitude: 49.899252
-    min_longitude: 1.0399821
-    max_latitude: 49.9408489
-    max_longitude: 1.1269969
-  name: Seine-Maritime
-'77':
+  comments: 
+'77': !ruby/struct:ISO3166::Subdivision
+  name: Seine-et-Marne
+  code: 
   unofficial_names: Seine-et-Marne
+  geo:
+    latitude: 48.841082
+    longitude: 2.999366
+    min_latitude: 48.1200811
+    min_longitude: 2.3923261
+    max_latitude: 49.1178979
+    max_longitude: 3.5590069
   translations:
     en: Seine-et-Marne
     ar: السان ومارن
@@ -5716,16 +5879,18 @@
     kk: Сена және Марна
     yue: 塞納-馬恩
     az: Sena və Marna
-  geo:
-    latitude: 48.841082
-    longitude: 2.999366
-    min_latitude: 48.1200811
-    min_longitude: 2.3923261
-    max_latitude: 49.1178979
-    max_longitude: 3.5590069
-  name: Seine-et-Marne
-'78':
+  comments: 
+'78': !ruby/struct:ISO3166::Subdivision
+  name: Yvelines
+  code: 
   unofficial_names: Yvelines
+  geo:
+    latitude: 48.7850939
+    longitude: 1.8256572
+    min_latitude: 48.43855689999999
+    min_longitude: 1.44617
+    max_latitude: 49.0854481
+    max_longitude: 2.2291269
   translations:
     en: Yvelines
     af: Yvelines
@@ -5790,16 +5955,18 @@
     yue: 伊夫林
     az: İvelin
     mk: Ивлин
-  geo:
-    latitude: 48.7850939
-    longitude: 1.8256572
-    min_latitude: 48.43855689999999
-    min_longitude: 1.44617
-    max_latitude: 49.0854481
-    max_longitude: 2.2291269
-  name: Yvelines
-'79':
+  comments: 
+'79': !ruby/struct:ISO3166::Subdivision
+  name: Deux-Sèvres
+  code: 
   unofficial_names: Deux-Sèvres
+  geo:
+    latitude: 46.5926541
+    longitude: -0.3962844
+    min_latitude: 45.969669
+    min_longitude: -0.9036799999999999
+    max_latitude: 47.1085489
+    max_longitude: 0.220405
   translations:
     en: Deux-Sèvres
     ar: دو سيفر
@@ -5862,16 +6029,18 @@
     kk: Де-Севр
     yue: 德塞夫勒
     az: Dö-Sevr
-  geo:
-    latitude: 46.5926541
-    longitude: -0.3962844
-    min_latitude: 45.969669
-    min_longitude: -0.9036799999999999
-    max_latitude: 47.1085489
-    max_longitude: 0.220405
-  name: Deux-Sèvres
-'80':
+  comments: 
+'80': !ruby/struct:ISO3166::Subdivision
+  name: Somme
+  code: 
   unofficial_names: Somme
+  geo:
+    latitude: 49.914518
+    longitude: 2.2707095
+    min_latitude: 49.5716231
+    min_longitude: 1.379663
+    max_latitude: 50.3663219
+    max_longitude: 3.203045
   translations:
     en: Somme
     ar: سوم
@@ -5936,16 +6105,18 @@
     yue: 索姆
     az: Somma
     mk: Сома
-  geo:
-    latitude: 49.914518
-    longitude: 2.2707095
-    min_latitude: 49.5716231
-    min_longitude: 1.379663
-    max_latitude: 50.3663219
-    max_longitude: 3.203045
-  name: Somme
-'81':
+  comments: 
+'81': !ruby/struct:ISO3166::Subdivision
+  name: Tarn
+  code: 
   unofficial_names: Tarn
+  geo:
+    latitude: 43.9264401
+    longitude: 1.9881527
+    min_latitude: 43.3822819
+    min_longitude: 1.535198
+    max_latitude: 44.201493
+    max_longitude: 2.937474
   translations:
     en: Tarn
     ar: تارن
@@ -6010,16 +6181,18 @@
     kk: Тарн
     yue: 塔恩
     az: Tarn (departament)
-  geo:
-    latitude: 43.9264401
-    longitude: 1.9881527
-    min_latitude: 43.3822819
-    min_longitude: 1.535198
-    max_latitude: 44.201493
-    max_longitude: 2.937474
-  name: Tarn
-'82':
+  comments: 
+'82': !ruby/struct:ISO3166::Subdivision
+  name: Tarn-et-Garonne
+  code: 
   unofficial_names: Tarn-et-Garonne
+  geo:
+    latitude: 44.0126679
+    longitude: 1.2891036
+    min_latitude: 43.7675901
+    min_longitude: 0.7378110999999999
+    max_latitude: 44.39392489999999
+    max_longitude: 2.000898
   translations:
     en: Tarn-et-Garonne
     ar: تارن وغارون
@@ -6082,16 +6255,18 @@
     kk: Тарн және Гаронна
     yue: 塔恩-加龍
     az: Tarn və Qaronna
-  geo:
-    latitude: 44.0126679
-    longitude: 1.2891036
-    min_latitude: 43.7675901
-    min_longitude: 0.7378110999999999
-    max_latitude: 44.39392489999999
-    max_longitude: 2.000898
-  name: Tarn-et-Garonne
-'83':
+  comments: 
+'83': !ruby/struct:ISO3166::Subdivision
+  name: Var
+  code: 
   unofficial_names: Var
+  geo:
+    latitude: 43.46764599999999
+    longitude: 6.2375947
+    min_latitude: 42.98199810000001
+    min_longitude: 5.6559
+    max_latitude: 43.808881
+    max_longitude: 6.933446
   translations:
     en: Var
     ar: فار
@@ -6154,16 +6329,18 @@
     kk: Вар
     yue: 華爾
     az: Var (departament)
-  geo:
-    latitude: 43.46764599999999
-    longitude: 6.2375947
-    min_latitude: 42.98199810000001
-    min_longitude: 5.6559
-    max_latitude: 43.808881
-    max_longitude: 6.933446
-  name: Var
-'84':
+  comments: 
+'84': !ruby/struct:ISO3166::Subdivision
+  name: Vaucluse
+  code: 
   unofficial_names: Vaucluse
+  geo:
+    latitude: 44.0565054
+    longitude: 5.1432068
+    min_latitude: 43.658718
+    min_longitude: 4.649082
+    max_latitude: 44.4315659
+    max_longitude: 5.757334999999999
   translations:
     en: Vaucluse
     af: Vaucluse
@@ -6227,16 +6404,18 @@
     kk: Воклюз
     yue: 禾克呂茲
     az: Voklüz (departament)
-  geo:
-    latitude: 44.0565054
-    longitude: 5.1432068
-    min_latitude: 43.658718
-    min_longitude: 4.649082
-    max_latitude: 44.4315659
-    max_longitude: 5.757334999999999
-  name: Vaucluse
-'85':
+  comments: 
+'85': !ruby/struct:ISO3166::Subdivision
+  name: Vendée
+  code: 
   unofficial_names: Vendée
+  geo:
+    latitude: 46.6613966
+    longitude: -1.4482662
+    min_latitude: 46.26653899999999
+    min_longitude: -2.3998896
+    max_latitude: 47.0850081
+    max_longitude: -0.538134
   translations:
     en: Vendée
     af: Vendée
@@ -6303,16 +6482,18 @@
     yue: 旺代
     az: Vandeya
     mk: Вандеја (департман)
-  geo:
-    latitude: 46.6613966
-    longitude: -1.4482662
-    min_latitude: 46.26653899999999
-    min_longitude: -2.3998896
-    max_latitude: 47.0850081
-    max_longitude: -0.538134
-  name: Vendée
-'86':
+  comments: 
+'86': !ruby/struct:ISO3166::Subdivision
+  name: Vienne
+  code: 
   unofficial_names: Vienne
+  geo:
+    latitude: 45.525587
+    longitude: 4.874339
+    min_latitude: 45.4867009
+    min_longitude: 4.837251999999999
+    max_latitude: 45.557463
+    max_longitude: 4.923409899999999
   translations:
     en: Vienne
     ar: فيين
@@ -6378,16 +6559,18 @@
     yue: 維埃納
     az: Vyenna
     mk: Вјена
-  geo:
-    latitude: 45.525587
-    longitude: 4.874339
-    min_latitude: 45.4867009
-    min_longitude: 4.837251999999999
-    max_latitude: 45.557463
-    max_longitude: 4.923409899999999
-  name: Vienne
-'87':
+  comments: 
+'87': !ruby/struct:ISO3166::Subdivision
+  name: Haute-Vienne
+  code: 
   unofficial_names: Haute-Vienne
+  geo:
+    latitude: 45.7435173
+    longitude: 1.4025484
+    min_latitude: 45.43663
+    min_longitude: 0.62925
+    max_latitude: 46.40158599999999
+    max_longitude: 1.9110789
   translations:
     en: Haute-Vienne
     ar: فيين العليا
@@ -6450,16 +6633,18 @@
     yue: 上維埃納
     az: Yuxarı Vyenna
     mk: Горна Вјена
-  geo:
-    latitude: 45.7435173
-    longitude: 1.4025484
-    min_latitude: 45.43663
-    min_longitude: 0.62925
-    max_latitude: 46.40158599999999
-    max_longitude: 1.9110789
-  name: Haute-Vienne
-'88':
+  comments: 
+'88': !ruby/struct:ISO3166::Subdivision
+  name: Vosges
+  code: 
   unofficial_names: Vosges
+  geo:
+    latitude: 48.1446427
+    longitude: 6.3355935
+    min_latitude: 47.8132981
+    min_longitude: 5.3936269
+    max_latitude: 48.513663
+    max_longitude: 7.198364
   translations:
     en: Vosges
     af: Vosges
@@ -6524,16 +6709,18 @@
     yue: 孚日
     az: Vogezlər
     mk: Вогези
-  geo:
-    latitude: 48.1446427
-    longitude: 6.3355935
-    min_latitude: 47.8132981
-    min_longitude: 5.3936269
-    max_latitude: 48.513663
-    max_longitude: 7.198364
-  name: Vosges
-'89':
+  comments: 
+'89': !ruby/struct:ISO3166::Subdivision
+  name: Yonne
+  code: 
   unofficial_names: Yonne
+  geo:
+    latitude: 47.8652728
+    longitude: 3.6079823
+    min_latitude: 47.310363
+    min_longitude: 2.848432
+    max_latitude: 48.400061
+    max_longitude: 4.340295999999999
   translations:
     en: Yonne
     ar: يون
@@ -6597,16 +6784,18 @@
     kk: Йонна
     yue: 約訥
     az: Yonna
-  geo:
-    latitude: 47.8652728
-    longitude: 3.6079823
-    min_latitude: 47.310363
-    min_longitude: 2.848432
-    max_latitude: 48.400061
-    max_longitude: 4.340295999999999
-  name: Yonne
-'90':
+  comments: 
+'90': !ruby/struct:ISO3166::Subdivision
+  name: Territoire de Belfort
+  code: 
   unofficial_names: Territoire de Belfort
+  geo:
+    latitude: 47.59465729999999
+    longitude: 6.920771599999999
+    min_latitude: 47.433383
+    min_longitude: 6.756256
+    max_latitude: 47.82511299999999
+    max_longitude: 7.143381
   translations:
     en: Territoire de Belfort
     ar: إقليم بلفور
@@ -6672,16 +6861,18 @@
     yue: 貝爾福地區
     az: Belfor ərazisi
     mk: Територија Белфор
-  geo:
-    latitude: 47.59465729999999
-    longitude: 6.920771599999999
-    min_latitude: 47.433383
-    min_longitude: 6.756256
-    max_latitude: 47.82511299999999
-    max_longitude: 7.143381
-  name: Territoire de Belfort
-'91':
+  comments: 
+'91': !ruby/struct:ISO3166::Subdivision
+  name: Essonne
+  code: 
   unofficial_names: Essonne
+  geo:
+    latitude: 48.4585698
+    longitude: 2.1569416
+    min_latitude: 48.28455599999999
+    min_longitude: 1.9145131
+    max_latitude: 48.7761319
+    max_longitude: 2.5856331
   translations:
     en: Essonne
     ar: إيسون
@@ -6747,16 +6938,18 @@
     yue: 埃松
     az: Eson
     mk: Есона
-  geo:
-    latitude: 48.4585698
-    longitude: 2.1569416
-    min_latitude: 48.28455599999999
-    min_longitude: 1.9145131
-    max_latitude: 48.7761319
-    max_longitude: 2.5856331
-  name: Essonne
-'92':
+  comments: 
+'92': !ruby/struct:ISO3166::Subdivision
+  name: Hauts-de-Seine
+  code: 
   unofficial_names: Hauts-de-Seine
+  geo:
+    latitude: 48.828508
+    longitude: 2.2188068
+    min_latitude: 48.729351
+    min_longitude: 2.145702
+    max_latitude: 48.9509619
+    max_longitude: 2.336941
   translations:
     en: Hauts-de-Seine
     ar: هوت دو سين
@@ -6821,16 +7014,18 @@
     kk: О-де-Сен
     yue: 上塞納省
     mk: Сенски Висови
-  geo:
-    latitude: 48.828508
-    longitude: 2.2188068
-    min_latitude: 48.729351
-    min_longitude: 2.145702
-    max_latitude: 48.9509619
-    max_longitude: 2.336941
-  name: Hauts-de-Seine
-'93':
+  comments: 
+'93': !ruby/struct:ISO3166::Subdivision
+  name: Seine-Saint-Denis
+  code: 
   unofficial_names: Seine-Saint-Denis
+  geo:
+    latitude: 48.9137455
+    longitude: 2.4845729
+    min_latitude: 48.807248
+    min_longitude: 2.2883109
+    max_latitude: 49.012329
+    max_longitude: 2.6032919
   translations:
     en: Seine-Saint-Denis
     ar: سين سان دوني
@@ -6894,16 +7089,18 @@
     yue: 塞納－聖但尼
     az: Sen-Sen-Deni
     mk: Сена-Сен Дени
-  geo:
-    latitude: 48.9137455
-    longitude: 2.4845729
-    min_latitude: 48.807248
-    min_longitude: 2.2883109
-    max_latitude: 49.012329
-    max_longitude: 2.6032919
-  name: Seine-Saint-Denis
-'94':
+  comments: 
+'94': !ruby/struct:ISO3166::Subdivision
+  name: Val-de-Marne
+  code: 
   unofficial_names: Val-de-Marne
+  geo:
+    latitude: 48.7931426
+    longitude: 2.4740337
+    min_latitude: 48.68764300000001
+    min_longitude: 2.3086759
+    max_latitude: 48.861484
+    max_longitude: 2.6156419
   translations:
     en: Val-de-Marne
     ar: فال دو مارن
@@ -6966,16 +7163,18 @@
     kk: Валь-де-Марн
     yue: 馬恩河谷
     az: Val-de-Marn
-  geo:
-    latitude: 48.7931426
-    longitude: 2.4740337
-    min_latitude: 48.68764300000001
-    min_longitude: 2.3086759
-    max_latitude: 48.861484
-    max_longitude: 2.6156419
-  name: Val-de-Marne
-'95':
+  comments: 
+'95': !ruby/struct:ISO3166::Subdivision
+  name: Val-d'Oise
+  code: 
   unofficial_names: Val-d'Oise
+  geo:
+    latitude: 49.0615901
+    longitude: 2.1581351
+    min_latitude: 48.9086749
+    min_longitude: 1.6087331
+    max_latitude: 49.241504
+    max_longitude: 2.5949791
   translations:
     en: Val-d’Oise
     ar: فال دواز
@@ -7034,19 +7233,11 @@
     kk: Валь-д’Уаз
     yue: 華茲河谷
     az: Val-d’Uaz
-  geo:
-    latitude: 49.0615901
-    longitude: 2.1581351
-    min_latitude: 48.9086749
-    min_longitude: 1.6087331
-    max_latitude: 49.241504
-    max_longitude: 2.5949791
-  name: Val-d'Oise
-NC:
+  comments: 
+NC: !ruby/struct:ISO3166::Subdivision
+  name: Nouvelle-Calédonie
+  code: 
   unofficial_names: Nouvelle-Calédonie
-  translations:
-    en: New Caledonia
-    ccp: "\U0001111A\U00011131 \U00011107\U00011127\U00011123\U0001112C\U00011113\U0001112E\U0001111A\U00011128\U00011120"
   geo:
     latitude: 35.7595731
     longitude: -79.01929969999999
@@ -7054,13 +7245,30 @@ NC:
     min_longitude: -84.32186899999999
     max_latitude: 36.5881568
     max_longitude: -75.4599515
-  name: Nouvelle-Calédonie
-PF:
+  translations:
+    en: New Caledonia
+    ccp: "\U0001111A\U00011131 \U00011107\U00011127\U00011123\U0001112C\U00011113\U0001112E\U0001111A\U00011128\U00011120"
+  comments: 
+PF: !ruby/struct:ISO3166::Subdivision
+  name: Polynésie française
+  code: 
   unofficial_names: Polynésie française
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: French Polynesia
     ccp: "\U0001111C\U00011133\U00011122\U0001112C\U0001111A\U00011134\U0001110C\U00011134
       \U0001111B\U00011127\U00011123\U00011128\U0001111A\U0001112C\U00011125\U00011128\U00011120"
+  comments: 
+PM: !ruby/struct:ISO3166::Subdivision
+  name: Saint-Pierre-et-Miquelon
+  code: 
+  unofficial_names: Saint-Pierre-et-Miquelon
   geo:
     latitude: 
     longitude: 
@@ -7068,13 +7276,15 @@ PF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Polynésie française
-PM:
-  unofficial_names: Saint-Pierre-et-Miquelon
   translations:
     en: St. Pierre & Miquelon
     ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U0001111B\U00011128\U00011122\U0001112C
       & \U0001111F\U00011128\U00011107\U0001112D\U0001112A\U00011123\U00011127\U0001111A\U00011134"
+  comments: 
+TF: !ruby/struct:ISO3166::Subdivision
+  name: Terres Australes Françaises
+  code: 
+  unofficial_names: Terres Australes Françaises
   geo:
     latitude: 
     longitude: 
@@ -7082,14 +7292,16 @@ PM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint-Pierre-et-Miquelon
-TF:
-  unofficial_names: Terres Australes Françaises
   translations:
     en: French Southern Territories
     ccp: "\U0001111B\U00011133\U00011122\U0001112C\U0001111A\U00011134\U0001110C\U00011134
       \U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127\U0001111A\U00011128"
+  comments: 
+WF: !ruby/struct:ISO3166::Subdivision
+  name: Wallis et Futuna
+  code: 
+  unofficial_names: Wallis et Futuna
   geo:
     latitude: 
     longitude: 
@@ -7097,13 +7309,15 @@ TF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Terres Australes Françaises
-WF:
-  unofficial_names: Wallis et Futuna
   translations:
     en: Wallis & Futuna
     ccp: "\U00011124\U00011123\U00011133\U00011126\U00011128\U0001110C\U00011134 &
       \U0001111C\U00011128\U00011105\U0001112A\U00011111\U0001111A"
+  comments: 
+YT: !ruby/struct:ISO3166::Subdivision
+  name: Mayotte
+  code: 
+  unofficial_names: Mayotte
   geo:
     latitude: 
     longitude: 
@@ -7111,25 +7325,24 @@ WF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Wallis et Futuna
-YT:
-  unofficial_names: Mayotte
   translations:
     en: Mayotte
     ccp: "\U0001111F\U00011120\U0001112E\U00011116\U00011133\U00011126\U00011128"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Mayotte
-ARA:
+  comments: 
+ARA: !ruby/struct:ISO3166::Subdivision
+  name: Auvergne-Rhône-Alpes
+  code: 
   unofficial_names:
   - Auvergne-Rhône-Alpes
   - Auvèrnhe-Ròse-Aups
   - Ôvèrgne-Rôno-Arpes
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Auvergne-Rhône-Alpes
     ar: أوفرن-رون ألب
@@ -7182,6 +7395,13 @@ ARA:
     yue: 奧文尼－隆河－阿爾卑斯
     nb: Auvergne-Rhône-Alpes
     mk: Оверњ-Рона-Алпи
+  comments: 
+BFC: !ruby/struct:ISO3166::Subdivision
+  name: Bourgogne-Franche-Comté
+  code: 
+  unofficial_names:
+  - Bourgogne-Franche-Comté
+  - Borgogne-Franche-Comtât
   geo:
     latitude: 
     longitude: 
@@ -7189,11 +7409,6 @@ ARA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Auvergne-Rhône-Alpes
-BFC:
-  unofficial_names:
-  - Bourgogne-Franche-Comté
-  - Borgogne-Franche-Comtât
   translations:
     en: Burgundy-Franche-Comté
     bg: Бургундия-Франш Конте
@@ -7238,6 +7453,13 @@ BFC:
     yue: 布爾岡-法朗殊-康堤
     az: Burqundiya—Franş—Konte
     nb: Bourgogne-Franche-Comté
+  comments: 
+BRE: !ruby/struct:ISO3166::Subdivision
+  name: Bretagne
+  code: 
+  unofficial_names:
+  - Bretagne
+  - Breizh
   geo:
     latitude: 
     longitude: 
@@ -7245,11 +7467,6 @@ BFC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Bourgogne-Franche-Comté
-BRE:
-  unofficial_names:
-  - Bretagne
-  - Breizh
   translations:
     en: Brittany
     af: Bretagne
@@ -7314,6 +7531,12 @@ BRE:
     uz: Bretan
     bs: Bretanja
     mk: Бретања
+  comments: 
+CVL: !ruby/struct:ISO3166::Subdivision
+  name: Centre-Val de Loire
+  code: 
+  unofficial_names:
+  - Centre-Val de Loire
   geo:
     latitude: 
     longitude: 
@@ -7321,10 +7544,6 @@ BRE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Bretagne
-CVL:
-  unofficial_names:
-  - Centre-Val de Loire
   translations:
     en: Centre-Val de Loire
     af: Centre-Val de Loire
@@ -7386,6 +7605,13 @@ CVL:
     yue: 中央－盧華爾山谷大區
     bs: Centre
     mk: Центар-Долина на Лоара
+  comments: 
+COR: !ruby/struct:ISO3166::Subdivision
+  name: Corse
+  code: 
+  unofficial_names:
+  - Corse
+  - Corsica
   geo:
     latitude: 
     longitude: 
@@ -7393,11 +7619,6 @@ CVL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Centre-Val de Loire
-COR:
-  unofficial_names:
-  - Corse
-  - Corsica
   translations:
     en: Corsica
     it: Corsica
@@ -7470,6 +7691,12 @@ COR:
     uz: Korsika
     bs: Korzika
     mk: Корзика
+  comments: 
+GES: !ruby/struct:ISO3166::Subdivision
+  name: Grand Est
+  code: 
+  unofficial_names:
+  - Grand Est
   geo:
     latitude: 
     longitude: 
@@ -7477,10 +7704,6 @@ COR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Corse
-GES:
-  unofficial_names:
-  - Grand Est
   translations:
     en: Grand-Est
     de: Grand Est
@@ -7529,6 +7752,12 @@ GES:
     nb: Grand Est
     be: Гранд Эст
     mk: Голем Исток
+  comments: 
+HDF: !ruby/struct:ISO3166::Subdivision
+  name: Hauts-de-France
+  code: 
+  unofficial_names:
+  - Hauts-de-France
   geo:
     latitude: 
     longitude: 
@@ -7536,10 +7765,6 @@ GES:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Grand Est
-HDF:
-  unofficial_names:
-  - Hauts-de-France
   translations:
     en: Hauts-de-France
     af: Hauts-de-France
@@ -7587,6 +7812,13 @@ HDF:
     az: O-de-Frans
     be: рэгіён О-дэ-Франс
     mk: Горна Франција
+  comments: 
+IDF: !ruby/struct:ISO3166::Subdivision
+  name: Île-de-France
+  code: 
+  unofficial_names:
+  - Île-de-France
+  - Région Parisienne
   geo:
     latitude: 
     longitude: 
@@ -7594,11 +7826,6 @@ HDF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hauts-de-France
-IDF:
-  unofficial_names:
-  - Île-de-France
-  - Région Parisienne
   translations:
     en: Île-de-France²
     af: Île-de-France
@@ -7665,6 +7892,13 @@ IDF:
     uz: Il-de-frans
     bs: Île-de-France
     mk: Ил де Франс
+  comments: 
+NOR: !ruby/struct:ISO3166::Subdivision
+  name: Normandie
+  code: 
+  unofficial_names:
+  - Normandie
+  - Normaundie
   geo:
     latitude: 
     longitude: 
@@ -7672,11 +7906,6 @@ IDF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Île-de-France
-NOR:
-  unofficial_names:
-  - Normandie
-  - Normaundie
   translations:
     en: Normandie
     ar: نورماندي
@@ -7718,6 +7947,12 @@ NOR:
     az: Normandiya
     th: แคว้นนอร์ม็องดี
     mk: Нормандија
+  comments: 
+NAQ: !ruby/struct:ISO3166::Subdivision
+  name: Nouvelle-Aquitaine
+  code: 
+  unofficial_names:
+  - Nouvelle-Aquitaine
   geo:
     latitude: 
     longitude: 
@@ -7725,10 +7960,6 @@ NOR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Normandie
-NAQ:
-  unofficial_names:
-  - Nouvelle-Aquitaine
   translations:
     en: Nouvelle-Aquitaine
     af: Nieu-Akwitanië
@@ -7780,6 +8011,13 @@ NAQ:
     nb: Nouvelle-Aquitaine
     uz: Yangi Akvitaniya
     mk: Нова Аквитанија
+  comments: 
+OCC: !ruby/struct:ISO3166::Subdivision
+  name: Occitanie
+  code: 
+  unofficial_names:
+  - Occitanie
+  - Occitània
   geo:
     latitude: 
     longitude: 
@@ -7787,11 +8025,6 @@ NAQ:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Nouvelle-Aquitaine
-OCC:
-  unofficial_names:
-  - Occitanie
-  - Occitània
   translations:
     en: Occitanie
     af: Oksitanië
@@ -7838,6 +8071,13 @@ OCC:
     az: Lanqedok-Russillyon-Midi-Pirenei
     nb: Occitanie
     be: рэгіён Аксітанія
+  comments: 
+PDL: !ruby/struct:ISO3166::Subdivision
+  name: Pays de la Loire
+  code: 
+  unofficial_names:
+  - Pays de la Loire
+  - Broioù al Liger
   geo:
     latitude: 
     longitude: 
@@ -7845,11 +8085,6 @@ OCC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Occitanie
-PDL:
-  unofficial_names:
-  - Pays de la Loire
-  - Broioù al Liger
   translations:
     en: Pays-de-la-Loire
     af: Pays de la Loire
@@ -7912,6 +8147,13 @@ PDL:
     pa: ਲੋਆਰ ਦੀ ਧਰਤੀ
     yue: 盧華爾河區
     mk: Лоарски Крај
+  comments: 
+PAC: !ruby/struct:ISO3166::Subdivision
+  name: Provence-Alpes-Côte d'Azur
+  code: 
+  unofficial_names:
+  - Provence-Alpes-Côte d'Azur
+  - PACA
   geo:
     latitude: 
     longitude: 
@@ -7919,11 +8161,6 @@ PDL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Pays de la Loire
-PAC:
-  unofficial_names:
-  - Provence-Alpes-Côte d'Azur
-  - PACA
   translations:
     en: Provence-Alpes-Côte-d’Azur
     it: Provenza-Alpi-Costa Azzurra
@@ -7985,6 +8222,11 @@ PAC:
     pa: ਪ੍ਰੋਵਾਂਸ-ਆਲਪ-ਅਸਮਾਨੀ ਤਟ
     yue: 普羅旺斯-阿爾卑斯-蔚藍海岸
     mk: Прованса-Алпи-Азурен Брег
+  comments: 
+A: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7992,12 +8234,14 @@ PAC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Provence-Alpes-Côte d'Azur
-A:
-  unofficial_names: 
   translations:
     en: Alsace
     ccp: "\U00011103\U00011123\U00011134\U00011125\U0001112C\U0001110C\U00011134"
+  comments: 
+B: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8005,11 +8249,14 @@ A:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-B:
-  unofficial_names: 
   translations:
     en: Aquitaine
     ccp: "\U00011103\U0001112C\U00011107\U0001112D\U0001112A\U00011111\U0001112D\U0001111A\U00011134"
+  comments: 
+BL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8017,11 +8264,14 @@ B:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BL:
-  unofficial_names: 
   translations:
     en: St. Barthélemy
     ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U0001111D\U00011122\U00011134\U00011117\U0001112C\U00011123\U0001112C\U0001111F\U00011128"
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8029,11 +8279,14 @@ BL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-C:
-  unofficial_names: 
   translations:
     en: Auvergne
     ccp: "\U00011103\U00011127\U00011105\U0001112A\U0001111E\U00011122\U00011134"
+  comments: 
+CP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8041,12 +8294,15 @@ C:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CP:
-  unofficial_names: 
   translations:
     en: Clipperton Island
     ccp: "\U00011107\U00011133\U00011123\U00011128\U0001111B\U00011122\U00011134\U00011111\U00011127\U0001111A\U00011134
       \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+  comments: 
+D: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8054,11 +8310,14 @@ CP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-D:
-  unofficial_names: 
   translations:
     en: Burgundy
     ccp: "\U0001111D\U0001112A\U00011122\U00011134\U00011109\U0001112A\U0001111A\U00011134\U00011113\U00011128"
+  comments: 
+E: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8066,11 +8325,14 @@ D:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-E:
-  unofficial_names: 
   translations:
     en: Brittany
     ccp: "\U0001111D\U00011133\U00011122\U00011128\U00011116\U00011133\U00011126\U0001111A\U00011128"
+  comments: 
+F: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8078,12 +8340,15 @@ E:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-F:
-  unofficial_names: 
   translations:
     en: Centre-Loire Valley
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134-\U00011123\U00011130\U00011122\U00011134
       \U0001111E\U0001112C\U00011123\U00011129"
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8091,11 +8356,14 @@ F:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-G:
-  unofficial_names: 
   translations:
     en: Champagne-Ardenne
     ccp: "\U0001110C\U00011133\U00011120\U0001111F\U00011134\U0001111B\U00011133\U00011120\U0001111A\U00011134-\U00011103\U00011122\U00011134\U00011113\U0001112C\U0001111A\U00011134"
+  comments: 
+GF: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8103,12 +8371,15 @@ G:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GF:
-  unofficial_names: 
   translations:
     en: French Guiana
     ccp: "\U0001111C\U00011133\U00011122\U0001112C\U0001111A\U00011134\U0001110C\U00011134
       \U00011109\U0001112D\U0001112A\U00011120\U0001111A"
+  comments: 
+GP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8116,11 +8387,14 @@ GF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GP:
-  unofficial_names: 
   translations:
     en: Guadeloupe
     ccp: "\U00011109\U0001112A\U00011120\U00011113\U0001112C\U00011123\U0001112F\U0001111B\U00011134"
+  comments: 
+GUA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8128,11 +8402,14 @@ GP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GUA:
-  unofficial_names: 
   translations:
     en: Guadeloupe
     ccp: "\U00011109\U0001112A\U00011120\U00011113\U0001112C\U00011123\U0001112F\U0001111B\U00011134"
+  comments: 
+H: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8140,11 +8417,14 @@ GUA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-H:
-  unofficial_names: 
   translations:
     en: Corsica
     ccp: "\U00011107\U0001112E\U00011122\U00011134\U00011125\U00011128\U00011120"
+  comments: 
+I: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8152,11 +8432,14 @@ H:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-I:
-  unofficial_names: 
   translations:
     en: Franche-Comté
     ccp: "\U0001111C\U00011133\U00011122\U0001111A\U00011134\U0001110C\U00011134-\U00011107\U00011127\U0001111F\U00011134\U00011111\U00011128"
+  comments: 
+J: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8164,11 +8447,14 @@ I:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-J:
-  unofficial_names: 
   translations:
     en: Île-de-France
     ccp: "\U00011103\U00011128\U00011123\U00011128-\U00011113\U0001112C-\U0001111C\U00011133\U00011122\U0001111A\U00011134\U0001110C\U00011134"
+  comments: 
+K: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8176,11 +8462,14 @@ J:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-K:
-  unofficial_names: 
   translations:
     en: Languedoc-Roussillon
     ccp: "\U00011123\U00011133\U00011120\U0001110B\U00011134\U00011109\U0001112A\U00011103\U00011128\U00011113\U00011127\U00011107\U00011134-\U00011122\U0001112E\U00011125\U00011128\U00011123\U00011133\U00011126\U00011127\U0001111A\U00011134"
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8188,11 +8477,14 @@ K:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-L:
-  unofficial_names: 
   translations:
     en: Limousin
     ccp: "\U00011123\U00011128\U0001111F\U0001112F\U00011125\U00011128\U0001111A\U00011134"
+  comments: 
+LRE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8200,11 +8492,14 @@ L:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LRE:
-  unofficial_names: 
   translations:
     en: La Réunion
     ccp: "\U00011123 \U00011122\U0001112C\U00011105\U0001112A\U0001111A\U00011128\U00011120\U00011127\U0001111A\U00011134"
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8212,11 +8507,14 @@ LRE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-M:
-  unofficial_names: 
   translations:
     en: Lorraine
     ccp: "\U00011123\U0001112E\U00011122\U00011133\U00011126\U0001112D\U0001111A\U00011134"
+  comments: 
+MAY: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8224,11 +8522,14 @@ M:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MAY:
-  unofficial_names: 
   translations:
     en: Mayotte
     ccp: "\U0001111F\U00011120\U0001112E\U00011116\U00011133\U00011120\U0001112C"
+  comments: 
+MF: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8236,11 +8537,14 @@ MAY:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MF:
-  unofficial_names: 
   translations:
     en: St. Martin
     ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
+  comments: 
+MQ: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8248,11 +8552,14 @@ MF:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MQ:
-  unofficial_names: 
   translations:
     en: Martinique
     ccp: "\U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011128\U00011107\U00011134"
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8260,11 +8567,14 @@ MQ:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-N:
-  unofficial_names: 
   translations:
     en: Midi-Pyrénées
     ccp: "\U0001111F\U00011128\U00011113\U00011128-\U0001111B\U0001112D\U00011122\U0001112C\U0001111A\U00011128\U0001110C\U00011134"
+  comments: 
+O: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8272,11 +8582,14 @@ N:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-O:
-  unofficial_names: 
   translations:
     en: Nord-Pas-de-Calais
     ccp: "\U0001111A\U00011127\U00011122\U00011134-\U0001111B\U0001110C\U00011134-\U00011113\U0001112C-\U00011107\U00011133\U00011120\U00011123\U00011103\U00011128\U0001110C\U00011134"
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8284,11 +8597,14 @@ O:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-P:
-  unofficial_names: 
   translations:
     en: Lower Normandy
     ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U0001111A\U00011127\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011113\U00011128"
+  comments: 
+Q: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8296,11 +8612,14 @@ P:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-Q:
-  unofficial_names: 
   translations:
     en: Upper Normandy
     ccp: "\U00011103\U0001111B\U00011122\U00011134 \U0001111A\U00011127\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011113\U00011128"
+  comments: 
+R: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8308,12 +8627,15 @@ Q:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-R:
-  unofficial_names: 
   translations:
     en: Pays de la Loire
     ccp: "\U0001111B\U0001112C\U00011103\U00011128\U0001110C\U00011134 \U00011113\U0001112C
       \U00011123 \U00011123\U00011130\U00011122\U00011134"
+  comments: 
+RE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8321,11 +8643,14 @@ R:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RE:
-  unofficial_names: 
   translations:
     en: Réunion
     ccp: "\U00011122\U00011128\U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011120\U00011127\U0001111A\U00011134"
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8333,11 +8658,14 @@ RE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-S:
-  unofficial_names: 
   translations:
     en: Picardy
     ccp: "\U0001111B\U0001112D\U00011107\U00011122\U00011134\U00011113\U00011128"
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8345,11 +8673,14 @@ S:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-T:
-  unofficial_names: 
   translations:
     en: Poitou-Charentes
     ccp: "\U0001111B\U00011127\U00011120\U0001112C\U00011111\U0001112F-\U00011107\U00011122\U0001112C\U0001111A\U00011134\U00011111\U0001110C\U00011134"
+  comments: 
+U: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8357,12 +8688,15 @@ T:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-U:
-  unofficial_names: 
   translations:
     en: Provence-Alpes-Côte d’Azur
     ccp: "\U0001111B\U00011133\U00011122\U00011127\U0001111E\U0001112C\U0001111A\U00011134\U0001110C\U00011134-\U00011103\U00011123\U00011134\U0001111B\U0001112C\U0001110C\U00011134-\U00011107\U0001112E\U00011111\U0001112C
       \U00011113\U00011128‘\U00011103\U0001110F\U0001112A\U00011122\U00011134"
+  comments: 
+V: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8370,15 +8704,7 @@ U:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-V:
-  unofficial_names: 
   translations:
     en: Rhône-Alpes
     ccp: "\U00011122\U0001112E\U0001111A\U00011134-\U00011103\U00011123\U00011134\U0001111B\U0001112C\U0001110C\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

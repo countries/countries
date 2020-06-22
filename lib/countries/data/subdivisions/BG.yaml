@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Blagoevgrad
+  code: 
   unofficial_names: Blagoevgrad
+  geo:
+    latitude: 42.0208569
+    longitude: 23.0943385
+    min_latitude: 41.9978951
+    min_longitude: 23.0698939
+    max_latitude: 42.0296711
+    max_longitude: 23.1195894
   translations:
     en: Blagoevgrad
     ar: محافظة بلاغووغراد
@@ -62,16 +71,18 @@
     ga: Cúige Blagoevgrad
     bs: Oblast Blagoevgrad
     mk: Благоевградска област
-  geo:
-    latitude: 42.0208569
-    longitude: 23.0943385
-    min_latitude: 41.9978951
-    min_longitude: 23.0698939
-    max_latitude: 42.0296711
-    max_longitude: 23.1195894
-  name: Blagoevgrad
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Burgas
+  code: 
   unofficial_names: Burgas
+  geo:
+    latitude: 42.50479259999999
+    longitude: 27.4626361
+    min_latitude: 42.4391223
+    min_longitude: 27.3580762
+    max_latitude: 42.6139216
+    max_longitude: 27.5458556
   translations:
     en: Burgas
     ar: محافظة بورغاس
@@ -133,16 +144,18 @@
     uz: Burgas
     bs: Oblast Burgas
     mk: Бургаска област
-  geo:
-    latitude: 42.50479259999999
-    longitude: 27.4626361
-    min_latitude: 42.4391223
-    min_longitude: 27.3580762
-    max_latitude: 42.6139216
-    max_longitude: 27.5458556
-  name: Burgas
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Varna
+  code: 
   unofficial_names: Varna
+  geo:
+    latitude: 43.2140504
+    longitude: 27.9147333
+    min_latitude: 43.1002294
+    min_longitude: 27.8299093
+    max_latitude: 43.3094528
+    max_longitude: 28.0559078
   translations:
     en: Varna
     ar: مقاطعة فارنا
@@ -193,16 +206,18 @@
     hu: Várna megye
     bs: Oblast Varna
     mk: Варненска област
-  geo:
-    latitude: 43.2140504
-    longitude: 27.9147333
-    min_latitude: 43.1002294
-    min_longitude: 27.8299093
-    max_latitude: 43.3094528
-    max_longitude: 28.0559078
-  name: Varna
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Veliko Tarnovo
+  code: 
   unofficial_names: Veliko Tarnovo
+  geo:
+    latitude: 43.0756739
+    longitude: 25.6171514
+    min_latitude: 43.0578391
+    min_longitude: 25.5718485
+    max_latitude: 43.1103064
+    max_longitude: 25.6943964
   translations:
     en: Veliko Tarnovo
     ar: محافظة وليكو تارنوو
@@ -263,16 +278,18 @@
     hu: Veliko Tarnovo megye
     bs: Oblast Veliko Trnovo
     mk: Великотрновска област
-  geo:
-    latitude: 43.0756739
-    longitude: 25.6171514
-    min_latitude: 43.0578391
-    min_longitude: 25.5718485
-    max_latitude: 43.1103064
-    max_longitude: 25.6943964
-  name: Veliko Tarnovo
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Vidin
+  code: 
   unofficial_names: Vidin
+  geo:
+    latitude: 43.996159
+    longitude: 22.8679302
+    min_latitude: 43.9437989
+    min_longitude: 22.8390656
+    max_latitude: 44.0154499
+    max_longitude: 22.9156826
   translations:
     en: Vidin
     ar: مقاطعة فيدين
@@ -334,16 +351,18 @@
     az: Vidin vilayəti
     bs: Oblast Vidin
     mk: Видинска област
-  geo:
-    latitude: 43.996159
-    longitude: 22.8679302
-    min_latitude: 43.9437989
-    min_longitude: 22.8390656
-    max_latitude: 44.0154499
-    max_longitude: 22.9156826
-  name: Vidin
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Vratsa
+  code: 
   unofficial_names: Vratsa
+  geo:
+    latitude: 43.2102375
+    longitude: 23.5528803
+    min_latitude: 43.1850586
+    min_longitude: 23.5066083
+    max_latitude: 43.2297109
+    max_longitude: 23.5920197
   translations:
     en: Vratsa
     ar: مقاطعة فراتسا
@@ -406,16 +425,18 @@
     az: Vratsa vilayəti
     bs: Oblast Vraca
     mk: Врачанска област
-  geo:
-    latitude: 43.2102375
-    longitude: 23.5528803
-    min_latitude: 43.1850586
-    min_longitude: 23.5066083
-    max_latitude: 43.2297109
-    max_longitude: 23.5920197
-  name: Vratsa
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Gabrovo
+  code: 
   unofficial_names: Gabrovo
+  geo:
+    latitude: 42.8742212
+    longitude: 25.3186837
+    min_latitude: 42.78276880000001
+    min_longitude: 25.262113
+    max_latitude: 42.9150995
+    max_longitude: 25.3884394
   translations:
     en: Gabrovo
     ar: مقاطعة غابرووو
@@ -476,16 +497,18 @@
     eu: Gabrovo
     bs: Oblast Gabrovo
     mk: Габровска област
-  geo:
-    latitude: 42.8742212
-    longitude: 25.3186837
-    min_latitude: 42.78276880000001
-    min_longitude: 25.262113
-    max_latitude: 42.9150995
-    max_longitude: 25.3884394
-  name: Gabrovo
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Dobrich
+  code: 
   unofficial_names: Dobrich
+  geo:
+    latitude: 43.57259
+    longitude: 27.8272606
+    min_latitude: 43.54184679999999
+    min_longitude: 27.763096
+    max_latitude: 43.608704
+    max_longitude: 27.8607443
   translations:
     en: Dobrich
     ar: محافظة دوبريتش
@@ -546,16 +569,18 @@
     ga: Cúige Dobrich
     bs: Oblast Dobrič
     mk: Добричка област
-  geo:
-    latitude: 43.57259
-    longitude: 27.8272606
-    min_latitude: 43.54184679999999
-    min_longitude: 27.763096
-    max_latitude: 43.608704
-    max_longitude: 27.8607443
-  name: Dobrich
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Kardzhali
+  code: 
   unofficial_names: Kardzhali
+  geo:
+    latitude: 41.6338439
+    longitude: 25.3777119
+    min_latitude: 41.5978213
+    min_longitude: 25.3410976
+    max_latitude: 41.6597227
+    max_longitude: 25.4243002
   translations:
     en: Kardzhali
     ar: محافظة كرجالي
@@ -617,16 +642,18 @@
     ga: Cúige Kardzhali
     bs: Oblast Krdžali
     mk: Крџалиска област
-  geo:
-    latitude: 41.6338439
-    longitude: 25.3777119
-    min_latitude: 41.5978213
-    min_longitude: 25.3410976
-    max_latitude: 41.6597227
-    max_longitude: 25.4243002
-  name: Kardzhali
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Kjustendil
+  code: 
   unofficial_names: Kjustendil
+  geo:
+    latitude: 42.2868817
+    longitude: 22.6939308
+    min_latitude: 42.2711228
+    min_longitude: 22.6594581
+    max_latitude: 42.3022897
+    max_longitude: 22.7273332
   translations:
     en: Kyustendil
     ar: محافظة كيوستنديل
@@ -686,16 +713,18 @@
     ga: Cúige Kyustendil
     bs: Oblast Ćustendil
     mk: Ќустендилска област
-  geo:
-    latitude: 42.2868817
-    longitude: 22.6939308
-    min_latitude: 42.2711228
-    min_longitude: 22.6594581
-    max_latitude: 42.3022897
-    max_longitude: 22.7273332
-  name: Kjustendil
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Lovech
+  code: 
   unofficial_names: Lovech
+  geo:
+    latitude: 43.1369534
+    longitude: 24.7141906
+    min_latitude: 43.1069685
+    min_longitude: 24.6753677
+    max_latitude: 43.1819797
+    max_longitude: 24.7467215
   translations:
     en: Lovech
     ar: مقاطعة لووتش
@@ -756,16 +785,18 @@
     hu: Lovecs megye
     bs: Oblast Loveč
     mk: Ловечка област
-  geo:
-    latitude: 43.1369534
-    longitude: 24.7141906
-    min_latitude: 43.1069685
-    min_longitude: 24.6753677
-    max_latitude: 43.1819797
-    max_longitude: 24.7467215
-  name: Lovech
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Montana
+  code: 
   unofficial_names: Montana
+  geo:
+    latitude: 43.4085161
+    longitude: 23.2257292
+    min_latitude: 43.3764219
+    min_longitude: 23.2073812
+    max_latitude: 43.45198269999999
+    max_longitude: 23.2474243
   translations:
     en: Montana
     ar: محافظة مونتانا
@@ -815,16 +846,18 @@
     hu: Montana megye
     bs: Oblast Montana
     mk: Монтанска област
-  geo:
-    latitude: 43.4085161
-    longitude: 23.2257292
-    min_latitude: 43.3764219
-    min_longitude: 23.2073812
-    max_latitude: 43.45198269999999
-    max_longitude: 23.2474243
-  name: Montana
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Pazardzhik
+  code: 
   unofficial_names: Pazardzhik
+  geo:
+    latitude: 42.1927654
+    longitude: 24.3335662
+    min_latitude: 42.1632603
+    min_longitude: 24.2980485
+    max_latitude: 42.2142634
+    max_longitude: 24.3626333
   translations:
     en: Pazardzhik
     ar: مقاطعة بازارجيك
@@ -885,16 +918,18 @@
     hu: Pazardzsik megye
     bs: Oblast Pazardžik
     mk: Пазарџичка област
-  geo:
-    latitude: 42.1927654
-    longitude: 24.3335662
-    min_latitude: 42.1632603
-    min_longitude: 24.2980485
-    max_latitude: 42.2142634
-    max_longitude: 24.3626333
-  name: Pazardzhik
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Pernik
+  code: 
   unofficial_names: Pernik
+  geo:
+    latitude: 42.6051862
+    longitude: 23.0378368
+    min_latitude: 42.5681881
+    min_longitude: 22.9755276
+    max_latitude: 42.6243972
+    max_longitude: 23.1273676
   translations:
     en: Pernik
     ar: محافظة برنيك
@@ -955,16 +990,18 @@
     hu: Pernik megye
     bs: Oblast Pernik
     mk: Перничка област
-  geo:
-    latitude: 42.6051862
-    longitude: 23.0378368
-    min_latitude: 42.5681881
-    min_longitude: 22.9755276
-    max_latitude: 42.6243972
-    max_longitude: 23.1273676
-  name: Pernik
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Pleven
+  code: 
   unofficial_names: Pleven
+  geo:
+    latitude: 43.4170423
+    longitude: 24.6066847
+    min_latitude: 43.3918598
+    min_longitude: 24.5690017
+    max_latitude: 43.4504952
+    max_longitude: 24.6600647
   translations:
     en: Pleven
     ar: مقاطعة بلفن
@@ -1025,16 +1062,18 @@
     hu: Pleven megye
     bs: Oblast Pleven
     mk: Плевенска област
-  geo:
-    latitude: 43.4170423
-    longitude: 24.6066847
-    min_latitude: 43.3918598
-    min_longitude: 24.5690017
-    max_latitude: 43.4504952
-    max_longitude: 24.6600647
-  name: Pleven
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Plovdiv
+  code: 
   unofficial_names: Plovdiv
+  geo:
+    latitude: 42.1354079
+    longitude: 24.7452904
+    min_latitude: 42.0900086
+    min_longitude: 24.6577202
+    max_latitude: 42.1982332
+    max_longitude: 24.8240283
   translations:
     en: Plovdiv
     ar: مقاطعة بلووديو
@@ -1095,16 +1134,18 @@
     mn: Пловдив аймаг
     bs: Oblast Plovdiv
     mk: Пловдивска област
-  geo:
-    latitude: 42.1354079
-    longitude: 24.7452904
-    min_latitude: 42.0900086
-    min_longitude: 24.6577202
-    max_latitude: 42.1982332
-    max_longitude: 24.8240283
-  name: Plovdiv
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Razgrad
+  code: 
   unofficial_names: Razgrad
+  geo:
+    latitude: 43.53367189999999
+    longitude: 26.5411164
+    min_latitude: 43.5089142
+    min_longitude: 26.4945973
+    max_latitude: 43.5504861
+    max_longitude: 26.5636871
   translations:
     en: Razgrad
     ar: محافظة رازغراد
@@ -1165,16 +1206,18 @@
     hu: Razgrad megye
     bs: Oblast Razgrad
     mk: Разградска област
-  geo:
-    latitude: 43.53367189999999
-    longitude: 26.5411164
-    min_latitude: 43.5089142
-    min_longitude: 26.4945973
-    max_latitude: 43.5504861
-    max_longitude: 26.5636871
-  name: Razgrad
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Ruse
+  code: 
   unofficial_names: Ruse
+  geo:
+    latitude: 43.83557130000001
+    longitude: 25.9656554
+    min_latitude: 43.7542331
+    min_longitude: 25.8704853
+    max_latitude: 43.8890011
+    max_longitude: 26.0490987
   translations:
     en: Ruse
     ar: محافظة روسه
@@ -1235,16 +1278,18 @@
     eu: Ruse probintzia
     bs: Oblast Ruse
     mk: Русенска област
-  geo:
-    latitude: 43.83557130000001
-    longitude: 25.9656554
-    min_latitude: 43.7542331
-    min_longitude: 25.8704853
-    max_latitude: 43.8890011
-    max_longitude: 26.0490987
-  name: Ruse
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Silistra
+  code: 
   unofficial_names: Silistra
+  geo:
+    latitude: 44.1147271
+    longitude: 27.2671901
+    min_latitude: 44.097587
+    min_longitude: 27.2254378
+    max_latitude: 44.1248362
+    max_longitude: 27.2840753
   translations:
     en: Silistra
     ar: مقاطعة سيليسترا
@@ -1305,16 +1350,18 @@
     hu: Szilisztra megye
     bs: Oblast Silistra
     mk: Силистренска област
-  geo:
-    latitude: 44.1147271
-    longitude: 27.2671901
-    min_latitude: 44.097587
-    min_longitude: 27.2254378
-    max_latitude: 44.1248362
-    max_longitude: 27.2840753
-  name: Silistra
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Sliven
+  code: 
   unofficial_names: Sliven
+  geo:
+    latitude: 42.6816536
+    longitude: 26.3228685
+    min_latitude: 42.6196377
+    min_longitude: 26.2598866
+    max_latitude: 42.711123
+    max_longitude: 26.3902393
   translations:
     en: Sliven
     ar: محافظة اسليون
@@ -1375,16 +1422,18 @@
     hu: Szliven megye
     bs: Oblast Sliven
     mk: Сливенска област
-  geo:
-    latitude: 42.6816536
-    longitude: 26.3228685
-    min_latitude: 42.6196377
-    min_longitude: 26.2598866
-    max_latitude: 42.711123
-    max_longitude: 26.3902393
-  name: Sliven
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Smolyan
+  code: 
   unofficial_names: Smolyan
+  geo:
+    latitude: 41.5774233
+    longitude: 24.7011138
+    min_latitude: 41.5643
+    min_longitude: 24.668448
+    max_latitude: 41.5938716
+    max_longitude: 24.8138621
   translations:
     en: Smolyan
     ar: مقاطعة سموليان
@@ -1445,16 +1494,18 @@
     hu: Szmoljan megye
     bs: Oblast Smoljan
     mk: Смолјанска област
-  geo:
-    latitude: 41.5774233
-    longitude: 24.7011138
-    min_latitude: 41.5643
-    min_longitude: 24.668448
-    max_latitude: 41.5938716
-    max_longitude: 24.8138621
-  name: Smolyan
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Sofia-Grad
+  code: 
   unofficial_names: Sofia-Grad
+  geo:
+    latitude: 42.6977082
+    longitude: 23.3218675
+    min_latitude: 42.4900111
+    min_longitude: 23.1909885
+    max_latitude: 42.7877752
+    max_longitude: 23.4569049
   translations:
     en: Sofia
     ar: مقاطعة مدينة صوفيا
@@ -1487,6 +1538,11 @@
     eu: Sofia-hiria probintzia
     bs: Oblast Sofija-grad
     mk: Софија-град
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Sofia
+  code: 
+  unofficial_names: Sofia
   geo:
     latitude: 42.6977082
     longitude: 23.3218675
@@ -1494,9 +1550,6 @@
     min_longitude: 23.1909885
     max_latitude: 42.7877752
     max_longitude: 23.4569049
-  name: Sofia-Grad
-'23':
-  unofficial_names: Sofia
   translations:
     en: Sofia District
     ar: مقاطعة صوفيا
@@ -1575,16 +1628,18 @@
     mk: Софиска област
     ne: सोफिया
     tk: Sofiýa
-  geo:
-    latitude: 42.6977082
-    longitude: 23.3218675
-    min_latitude: 42.4900111
-    min_longitude: 23.1909885
-    max_latitude: 42.7877752
-    max_longitude: 23.4569049
-  name: Sofia
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Stara Zagora
+  code: 
   unofficial_names: Stara Zagora
+  geo:
+    latitude: 42.4257769
+    longitude: 25.6344644
+    min_latitude: 42.3928015
+    min_longitude: 25.5810451
+    max_latitude: 42.44570880000001
+    max_longitude: 25.6686784
   translations:
     en: Stara Zagora
     ar: مقاطعة استارا زاغورا
@@ -1644,16 +1699,18 @@
     hu: Sztara Zagora megye
     bs: Oblast Stara Zagora
     mk: Старозагорска област
-  geo:
-    latitude: 42.4257769
-    longitude: 25.6344644
-    min_latitude: 42.3928015
-    min_longitude: 25.5810451
-    max_latitude: 42.44570880000001
-    max_longitude: 25.6686784
-  name: Stara Zagora
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Targovishte
+  code: 
   unofficial_names: Targovishte
+  geo:
+    latitude: 43.2493556
+    longitude: 26.5727357
+    min_latitude: 43.2275267
+    min_longitude: 26.5195091
+    max_latitude: 43.2856429
+    max_longitude: 26.6072562
   translations:
     en: Targovishte
     ar: مقاطعة تارغوفيشته
@@ -1714,16 +1771,18 @@
     eu: Targovixte probintzia
     bs: Oblast Trgovište
     mk: Трговишка област
-  geo:
-    latitude: 43.2493556
-    longitude: 26.5727357
-    min_latitude: 43.2275267
-    min_longitude: 26.5195091
-    max_latitude: 43.2856429
-    max_longitude: 26.6072562
-  name: Targovishte
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Haskovo
+  code: 
   unofficial_names: Haskovo
+  geo:
+    latitude: 41.9344366
+    longitude: 25.5554462
+    min_latitude: 41.9114011
+    min_longitude: 25.4942471
+    max_latitude: 41.9541525
+    max_longitude: 25.6030698
   translations:
     en: Haskovo
     ar: مقاطعة خاسكوو
@@ -1784,16 +1843,18 @@
     ga: Cúige Haskovo
     bs: Oblast Haskovo
     mk: Хасковска област
-  geo:
-    latitude: 41.9344366
-    longitude: 25.5554462
-    min_latitude: 41.9114011
-    min_longitude: 25.4942471
-    max_latitude: 41.9541525
-    max_longitude: 25.6030698
-  name: Haskovo
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Šumen
+  code: 
   unofficial_names: Šumen
+  geo:
+    latitude: 43.2712398
+    longitude: 26.9361286
+    min_latitude: 43.2250909
+    min_longitude: 26.8972271
+    max_latitude: 43.3144123
+    max_longitude: 27.0506347
   translations:
     en: Shumen
     ar: مقاطعة شومن
@@ -1854,16 +1915,18 @@
     hu: Sumen megye
     bs: Oblast Šumen
     mk: Шуменска област
-  geo:
-    latitude: 43.2712398
-    longitude: 26.9361286
-    min_latitude: 43.2250909
-    min_longitude: 26.8972271
-    max_latitude: 43.3144123
-    max_longitude: 27.0506347
-  name: Šumen
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: Yambol
+  code: 
   unofficial_names: Yambol
+  geo:
+    latitude: 42.48419990000001
+    longitude: 26.5035023
+    min_latitude: 42.44753739999999
+    min_longitude: 26.4646359
+    max_latitude: 42.5067417
+    max_longitude: 26.5412634
   translations:
     en: Yambol
     ar: محافظة يامبول
@@ -1925,11 +1988,4 @@
     az: Yambol vilayəti
     bs: Oblast Jambol
     mk: Јамболска област
-  geo:
-    latitude: 42.48419990000001
-    longitude: 26.5035023
-    min_latitude: 42.44753739999999
-    min_longitude: 26.4646359
-    max_latitude: 42.5067417
-    max_longitude: 26.5412634
-  name: Yambol
+  comments: 

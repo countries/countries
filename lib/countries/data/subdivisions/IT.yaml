@@ -1,6 +1,15 @@
 ---
-AG:
+AG: !ruby/struct:ISO3166::Subdivision
+  name: Agrigento
+  code: 
   unofficial_names: Agrigento
+  geo:
+    latitude: 37.3110897
+    longitude: 13.5765475
+    min_latitude: 37.2960119
+    min_longitude: 13.5689481
+    max_latitude: 37.3402724
+    max_longitude: 13.6034021
   translations:
     en: Agrigento
     ar: مقاطعة أغريجنتو
@@ -60,16 +69,18 @@ AG:
     ccp: "\U00011103\U00011109\U00011133\U00011122\U00011128\U00011109\U0001112C\U0001111A\U00011134\U00011111\U0001112E"
     be: правінцыя Агрыджэнта
     uz: Agrigento
-  geo:
-    latitude: 37.3110897
-    longitude: 13.5765475
-    min_latitude: 37.2960119
-    min_longitude: 13.5689481
-    max_latitude: 37.3402724
-    max_longitude: 13.6034021
-  name: Agrigento
-AL:
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Alessandria
+  code: 
   unofficial_names: Alessandria
+  geo:
+    latitude: 44.9072727
+    longitude: 8.6116796
+    min_latitude: 44.8773148
+    min_longitude: 8.5540221
+    max_latitude: 44.9397498
+    max_longitude: 8.6404936
   translations:
     en: Alessandria
     ar: مقاطعة ألساندريا
@@ -129,16 +140,18 @@ AL:
     ccp: "\U00011103\U00011123\U0001112C\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122\U00011128\U00011120"
     uz: Alessandria
     mk: Алесандрија
-  geo:
-    latitude: 44.9072727
-    longitude: 8.6116796
-    min_latitude: 44.8773148
-    min_longitude: 8.5540221
-    max_latitude: 44.9397498
-    max_longitude: 8.6404936
-  name: Alessandria
-AN:
+  comments: 
+AN: !ruby/struct:ISO3166::Subdivision
+  name: Ancona
+  code: 
   unofficial_names: Ancona
+  geo:
+    latitude: 43.6158299
+    longitude: 13.518915
+    min_latitude: 43.532833
+    min_longitude: 13.4637957
+    max_latitude: 43.6314669
+    max_longitude: 13.5498571
   translations:
     en: Ancona
     ar: مقاطعة أنكونا
@@ -197,16 +210,18 @@ AN:
     sq: Provinca e Ankonës
     ccp: "\U00011103\U0001111A\U00011134\U00011107\U0001112E\U0001111A"
     uz: Ancona
-  geo:
-    latitude: 43.6158299
-    longitude: 13.518915
-    min_latitude: 43.532833
-    min_longitude: 13.4637957
-    max_latitude: 43.6314669
-    max_longitude: 13.5498571
-  name: Ancona
-AO:
+  comments: 
+AO: !ruby/struct:ISO3166::Subdivision
+  name: Aosta
+  code: 
   unofficial_names: Aosta
+  geo:
+    latitude: 45.7349551
+    longitude: 7.313076199999999
+    min_latitude: 45.7262497
+    min_longitude: 7.283380699999999
+    max_latitude: 45.7614425
+    max_longitude: 7.347974499999999
   translations:
     en: Aosta
     ar: أوستا
@@ -262,16 +277,18 @@ AO:
     sr_Latn: Aosta
     zh: 奥斯塔
     ccp: "\U00011103\U00011127\U00011120\U0001112E\U0001110C\U00011134\U00011111"
-  geo:
-    latitude: 45.7349551
-    longitude: 7.313076199999999
-    min_latitude: 45.7262497
-    min_longitude: 7.283380699999999
-    max_latitude: 45.7614425
-    max_longitude: 7.347974499999999
-  name: Aosta
-AP:
+  comments: 
+AP: !ruby/struct:ISO3166::Subdivision
+  name: Ascoli Piceno
+  code: 
   unofficial_names: Ascoli Piceno
+  geo:
+    latitude: 42.8536043
+    longitude: 13.5749442
+    min_latitude: 42.8376024
+    min_longitude: 13.552394
+    max_latitude: 42.8681651
+    max_longitude: 13.6656375
   translations:
     en: Ascoli Piceno
     ar: مقاطعة أسكولي بيتشينو
@@ -330,16 +347,18 @@ AP:
     be: правінцыя Асколі-Пічэна
     uz: Ascoli Piceno
     mk: Асколи-Пичено
-  geo:
-    latitude: 42.8536043
-    longitude: 13.5749442
-    min_latitude: 42.8376024
-    min_longitude: 13.552394
-    max_latitude: 42.8681651
-    max_longitude: 13.6656375
-  name: Ascoli Piceno
-AQ:
+  comments: 
+AQ: !ruby/struct:ISO3166::Subdivision
+  name: L'Aquila
+  code: 
   unofficial_names: L'Aquila
+  geo:
+    latitude: 42.3498479
+    longitude: 13.3995091
+    min_latitude: 42.340926
+    min_longitude: 13.336641
+    max_latitude: 42.388588
+    max_longitude: 13.4348911
   translations:
     en: L’Aquila
     ar: مقاطعة لاكويلا
@@ -390,16 +409,18 @@ AQ:
     sq: Provinca e Akuilës
     ccp: "\U00011123\U00011128‘\U00011103\U00011107\U0001112D\U0001112A\U00011123"
     uz: L’Aquila
-  geo:
-    latitude: 42.3498479
-    longitude: 13.3995091
-    min_latitude: 42.340926
-    min_longitude: 13.336641
-    max_latitude: 42.388588
-    max_longitude: 13.4348911
-  name: L'Aquila
-AR:
+  comments: 
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Arezzo
+  code: 
   unofficial_names: Arezzo
+  geo:
+    latitude: 43.46328390000001
+    longitude: 11.8796336
+    min_latitude: 43.3514366
+    min_longitude: 11.8096337
+    max_latitude: 43.4995733
+    max_longitude: 11.9240635
   translations:
     en: Arezzo
     ar: مقاطعة أريتسو
@@ -461,16 +482,18 @@ AR:
     az: Arezzo
     be: правінцыя Арэца
     uz: Arezzo
-  geo:
-    latitude: 43.46328390000001
-    longitude: 11.8796336
-    min_latitude: 43.3514366
-    min_longitude: 11.8096337
-    max_latitude: 43.4995733
-    max_longitude: 11.9240635
-  name: Arezzo
-AT:
+  comments: 
+AT: !ruby/struct:ISO3166::Subdivision
+  name: Asti
+  code: 
   unofficial_names: Asti
+  geo:
+    latitude: 44.90075119999999
+    longitude: 8.2064257
+    min_latitude: 44.8644264
+    min_longitude: 8.1550091
+    max_latitude: 44.9293241
+    max_longitude: 8.2637251
   translations:
     en: Asti
     ar: مقاطعة أستي
@@ -530,16 +553,18 @@ AT:
     be: правінцыя Асці
     uz: Asti
     mk: Асти
-  geo:
-    latitude: 44.90075119999999
-    longitude: 8.2064257
-    min_latitude: 44.8644264
-    min_longitude: 8.1550091
-    max_latitude: 44.9293241
-    max_longitude: 8.2637251
-  name: Asti
-AV:
+  comments: 
+AV: !ruby/struct:ISO3166::Subdivision
+  name: Avellino
+  code: 
   unofficial_names: Avellino
+  geo:
+    latitude: 40.914388
+    longitude: 14.7906121
+    min_latitude: 40.8984426
+    min_longitude: 14.7588462
+    max_latitude: 40.9458888
+    max_longitude: 14.8314412
   translations:
     en: Avellino
     ar: مقاطعة أفيلينو
@@ -598,16 +623,18 @@ AV:
     be: правінцыя Авеліна
     uz: Avellino
     mk: Авелино
-  geo:
-    latitude: 40.914388
-    longitude: 14.7906121
-    min_latitude: 40.8984426
-    min_longitude: 14.7588462
-    max_latitude: 40.9458888
-    max_longitude: 14.8314412
-  name: Avellino
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Bari
+  code: 
   unofficial_names: Bari
+  geo:
+    latitude: 41.1171432
+    longitude: 16.8718715
+    min_latitude: 41.0530106
+    min_longitude: 16.7307831
+    max_latitude: 41.169568
+    max_longitude: 17.0333497
   translations:
     en: Bari
     ar: مقاطعة باري
@@ -667,16 +694,18 @@ BA:
     th: เมโทรโพลิแทน
     uz: Bari
     mk: Бари
-  geo:
-    latitude: 41.1171432
-    longitude: 16.8718715
-    min_latitude: 41.0530106
-    min_longitude: 16.7307831
-    max_latitude: 41.169568
-    max_longitude: 17.0333497
-  name: Bari
-BG:
+  comments: 
+BG: !ruby/struct:ISO3166::Subdivision
+  name: Bergamo
+  code: 
   unofficial_names: Bergamo
+  geo:
+    latitude: 45.6982642
+    longitude: 9.6772698
+    min_latitude: 45.6625158
+    min_longitude: 9.620546299999999
+    max_latitude: 45.7238489
+    max_longitude: 9.7136328
   translations:
     en: Bergamo
     ar: مقاطعة بيرغامو
@@ -736,16 +765,18 @@ BG:
     ccp: "\U0001111D\U0001112C\U00011122\U00011134\U00011109\U0001111F\U0001112E"
     uz: Bergamo
     mk: Бергамо
-  geo:
-    latitude: 45.6982642
-    longitude: 9.6772698
-    min_latitude: 45.6625158
-    min_longitude: 9.620546299999999
-    max_latitude: 45.7238489
-    max_longitude: 9.7136328
-  name: Bergamo
-BI:
+  comments: 
+BI: !ruby/struct:ISO3166::Subdivision
+  name: Biella
+  code: 
   unofficial_names: Biella
+  geo:
+    latitude: 45.56288420000001
+    longitude: 8.0583397
+    min_latitude: 45.5427224
+    min_longitude: 8.0161269
+    max_latitude: 45.5983864
+    max_longitude: 8.0935542
   translations:
     en: Biella
     ar: مقاطعة بييلا
@@ -803,16 +834,18 @@ BI:
     sq: Provinca e Bielës
     ccp: "\U0001111D\U00011128\U00011120\U0001112C\U00011123"
     uz: Biella
-  geo:
-    latitude: 45.56288420000001
-    longitude: 8.0583397
-    min_latitude: 45.5427224
-    min_longitude: 8.0161269
-    max_latitude: 45.5983864
-    max_longitude: 8.0935542
-  name: Biella
-BL:
+  comments: 
+BL: !ruby/struct:ISO3166::Subdivision
+  name: Belluno
+  code: 
   unofficial_names: Belluno
+  geo:
+    latitude: 46.1424635
+    longitude: 12.2167088
+    min_latitude: 46.1237249
+    min_longitude: 12.1569421
+    max_latitude: 46.1715533
+    max_longitude: 12.2513991
   translations:
     en: Belluno
     ar: مقاطعة بلونو
@@ -872,16 +905,18 @@ BL:
     hy: Բելունո
     uz: Belluno
     mk: Белуно
-  geo:
-    latitude: 46.1424635
-    longitude: 12.2167088
-    min_latitude: 46.1237249
-    min_longitude: 12.1569421
-    max_latitude: 46.1715533
-    max_longitude: 12.2513991
-  name: Belluno
-BN:
+  comments: 
+BN: !ruby/struct:ISO3166::Subdivision
+  name: Benevento
+  code: 
   unofficial_names: Benevento
+  geo:
+    latitude: 41.1297613
+    longitude: 14.7826208
+    min_latitude: 41.09835899999999
+    min_longitude: 14.7350548
+    max_latitude: 41.14756209999999
+    max_longitude: 14.8103246
   translations:
     en: Benevento
     ar: مقاطعة بينيفنتو
@@ -940,16 +975,18 @@ BN:
     be: правінцыя Беневента
     uz: Benevento
     mk: Беневенто
-  geo:
-    latitude: 41.1297613
-    longitude: 14.7826208
-    min_latitude: 41.09835899999999
-    min_longitude: 14.7350548
-    max_latitude: 41.14756209999999
-    max_longitude: 14.8103246
-  name: Benevento
-BO:
+  comments: 
+BO: !ruby/struct:ISO3166::Subdivision
+  name: Bologna
+  code: 
   unofficial_names: Bologna
+  geo:
+    latitude: 44.494887
+    longitude: 11.3426163
+    min_latitude: 44.4420377
+    min_longitude: 11.2296541
+    max_latitude: 44.5561987
+    max_longitude: 11.4337169
   translations:
     en: Bologna
     ar: مقاطعة بولونيا
@@ -1011,16 +1048,18 @@ BO:
     th: โบโลญญา
     uz: Bologna
     mk: Болоња
-  geo:
-    latitude: 44.494887
-    longitude: 11.3426163
-    min_latitude: 44.4420377
-    min_longitude: 11.2296541
-    max_latitude: 44.5561987
-    max_longitude: 11.4337169
-  name: Bologna
-BR:
+  comments: 
+BR: !ruby/struct:ISO3166::Subdivision
+  name: Brindisi
+  code: 
   unofficial_names: Brindisi
+  geo:
+    latitude: 40.6327278
+    longitude: 17.9417616
+    min_latitude: 40.6030344
+    min_longitude: 17.9094458
+    max_latitude: 40.6814259
+    max_longitude: 17.9624638
   translations:
     en: Brindisi
     ar: مقاطعة برينديزي
@@ -1078,16 +1117,18 @@ BR:
     sq: Provinca e Brindizit
     ccp: "\U0001111D\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011113\U0001112D\U00011125\U00011128"
     uz: Brindisi
-  geo:
-    latitude: 40.6327278
-    longitude: 17.9417616
-    min_latitude: 40.6030344
-    min_longitude: 17.9094458
-    max_latitude: 40.6814259
-    max_longitude: 17.9624638
-  name: Brindisi
-BS:
+  comments: 
+BS: !ruby/struct:ISO3166::Subdivision
+  name: Brescia
+  code: 
   unofficial_names: Brescia
+  geo:
+    latitude: 45.5415526
+    longitude: 10.2118019
+    min_latitude: 45.4971508
+    min_longitude: 10.1473578
+    max_latitude: 45.5900636
+    max_longitude: 10.2999996
   translations:
     en: Brescia
     ar: مقاطعة بريشا
@@ -1149,16 +1190,18 @@ BS:
     kk: Брешиа
     uz: Brescia
     mk: Бреша
-  geo:
-    latitude: 45.5415526
-    longitude: 10.2118019
-    min_latitude: 45.4971508
-    min_longitude: 10.1473578
-    max_latitude: 45.5900636
-    max_longitude: 10.2999996
-  name: Brescia
-BT:
+  comments: 
+BT: !ruby/struct:ISO3166::Subdivision
+  name: Barletta-Andria-Trani
+  code: 
   unofficial_names: Barletta-Andria-Trani
+  geo:
+    latitude: 41.2004543
+    longitude: 16.2051484
+    min_latitude: 40.897719
+    min_longitude: 15.8702517
+    max_latitude: 41.4417109
+    max_longitude: 16.5422492
   translations:
     en: Barletta-Andria-Trani
     ar: مقاطعة بارليتا أندريا تراني
@@ -1215,16 +1258,18 @@ BT:
     ccp: "\U0001111D\U00011122\U00011134\U00011123\U0001112C\U00011111-\U00011103\U0001111A\U00011134\U00011113\U00011133\U00011122\U00011128\U00011120-\U00011111\U00011133\U00011122\U0001111A\U00011128"
     be: правінцыя Барлета-Андрыя-Трані
     uz: Barletta-Andria-Trani
-  geo:
-    latitude: 41.2004543
-    longitude: 16.2051484
-    min_latitude: 40.897719
-    min_longitude: 15.8702517
-    max_latitude: 41.4417109
-    max_longitude: 16.5422492
-  name: Barletta-Andria-Trani
-BZ:
+  comments: 
+BZ: !ruby/struct:ISO3166::Subdivision
+  name: Bolzano
+  code: 
   unofficial_names: Bolzano
+  geo:
+    latitude: 46.4982953
+    longitude: 11.3547582
+    min_latitude: 46.4630385
+    min_longitude: 11.3136675
+    max_latitude: 46.5154347
+    max_longitude: 11.3806479
   translations:
     en: South Tyrol
     af: Suid-Tirool
@@ -1277,16 +1322,18 @@ BZ:
     az: Cənubi Tirol
     be: Паўднёвы Ціроль
     mk: Јужен Тирол
-  geo:
-    latitude: 46.4982953
-    longitude: 11.3547582
-    min_latitude: 46.4630385
-    min_longitude: 11.3136675
-    max_latitude: 46.5154347
-    max_longitude: 11.3806479
-  name: Bolzano
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Cagliari
+  code: 
   unofficial_names: Cagliari
+  geo:
+    latitude: 39.2238411
+    longitude: 9.1216613
+    min_latitude: 39.1851057
+    min_longitude: 9.079536700000002
+    max_latitude: 39.26570299999999
+    max_longitude: 9.177219299999999
   translations:
     en: Cagliari
     ar: مقاطعة كالياري
@@ -1344,16 +1391,18 @@ CA:
     hy: Կալիարի
     yue: 卡利亞里省
     uz: Cagliari
-  geo:
-    latitude: 39.2238411
-    longitude: 9.1216613
-    min_latitude: 39.1851057
-    min_longitude: 9.079536700000002
-    max_latitude: 39.26570299999999
-    max_longitude: 9.177219299999999
-  name: Cagliari
-CB:
+  comments: 
+CB: !ruby/struct:ISO3166::Subdivision
+  name: Campobasso
+  code: 
   unofficial_names: Campobasso
+  geo:
+    latitude: 41.5602544
+    longitude: 14.6627161
+    min_latitude: 41.540825
+    min_longitude: 14.643634
+    max_latitude: 41.5741618
+    max_longitude: 14.6924148
   translations:
     en: Campobasso
     ar: مقاطعة كامبوباسو
@@ -1412,16 +1461,18 @@ CB:
     be: правінцыя Кампабаса
     uz: Campobasso
     mk: Кампобасо
-  geo:
-    latitude: 41.5602544
-    longitude: 14.6627161
-    min_latitude: 41.540825
-    min_longitude: 14.643634
-    max_latitude: 41.5741618
-    max_longitude: 14.6924148
-  name: Campobasso
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Caserta
+  code: 
   unofficial_names: Caserta
+  geo:
+    latitude: 41.0723484
+    longitude: 14.3311337
+    min_latitude: 41.0487195
+    min_longitude: 14.2981427
+    max_latitude: 41.1125489
+    max_longitude: 14.3785483
   translations:
     en: Caserta
     ar: مقاطعة كازيرتا
@@ -1480,16 +1531,18 @@ CE:
     be: правінцыя Казерта
     uz: Caserta
     mk: Казерта
-  geo:
-    latitude: 41.0723484
-    longitude: 14.3311337
-    min_latitude: 41.0487195
-    min_longitude: 14.2981427
-    max_latitude: 41.1125489
-    max_longitude: 14.3785483
-  name: Caserta
-CH:
+  comments: 
+CH: !ruby/struct:ISO3166::Subdivision
+  name: Chieti
+  code: 
   unofficial_names: Chieti
+  geo:
+    latitude: 42.347886
+    longitude: 14.1635845
+    min_latitude: 42.3265908
+    min_longitude: 14.1011205
+    max_latitude: 42.3962391
+    max_longitude: 14.2106223
   translations:
     en: Chieti
     ar: مقاطعة كييتي
@@ -1548,16 +1601,18 @@ CH:
     ccp: "\U0001110C\U0001112D\U00011120\U0001112C\U00011111\U00011128"
     uz: Chieti
     mk: Кјети
-  geo:
-    latitude: 42.347886
-    longitude: 14.1635845
-    min_latitude: 42.3265908
-    min_longitude: 14.1011205
-    max_latitude: 42.3962391
-    max_longitude: 14.2106223
-  name: Chieti
-CI:
+  comments: 
+CI: !ruby/struct:ISO3166::Subdivision
+  name: Carbonia-Iglesias
+  code: 
   unofficial_names: Carbonia-Iglesias
+  geo:
+    latitude: 39.25346589999999
+    longitude: 8.5721016
+    min_latitude: 38.8592115
+    min_longitude: 8.219648399999999
+    max_latitude: 39.4830668
+    max_longitude: 8.8531287
   translations:
     en: Carbonia-Iglesias
     ar: مقاطعة كاربونيا-إغليسياس
@@ -1612,16 +1667,18 @@ CI:
     ccp: "\U00011107\U00011122\U00011134\U0001111D\U0001112E\U0001111A\U00011128\U00011120-\U00011103\U00011128\U00011109\U00011133\U00011123\U0001112C\U00011125\U00011128\U00011120\U0001110C\U00011134"
     hy: Կարբոնիա-Իգլեզիաս
     uz: Carbonia-Iglesias
-  geo:
-    latitude: 39.25346589999999
-    longitude: 8.5721016
-    min_latitude: 38.8592115
-    min_longitude: 8.219648399999999
-    max_latitude: 39.4830668
-    max_longitude: 8.8531287
-  name: Carbonia-Iglesias
-CL:
+  comments: 
+CL: !ruby/struct:ISO3166::Subdivision
+  name: Caltanissetta
+  code: 
   unofficial_names: Caltanissetta
+  geo:
+    latitude: 37.4901115
+    longitude: 14.0628928
+    min_latitude: 37.459473
+    min_longitude: 14.0140048
+    max_latitude: 37.5120633
+    max_longitude: 14.0996924
   translations:
     en: Caltanissetta
     ar: مقاطعة كالتانيسيتا
@@ -1680,16 +1737,18 @@ CL:
     hy: Կալտանիսետա
     be: правінцыя Кальтанісета
     uz: Caltanissetta
-  geo:
-    latitude: 37.4901115
-    longitude: 14.0628928
-    min_latitude: 37.459473
-    min_longitude: 14.0140048
-    max_latitude: 37.5120633
-    max_longitude: 14.0996924
-  name: Caltanissetta
-CN:
+  comments: 
+CN: !ruby/struct:ISO3166::Subdivision
+  name: Cuneo
+  code: 
   unofficial_names: Cuneo
+  geo:
+    latitude: 44.3844766
+    longitude: 7.5426711
+    min_latitude: 44.3532038
+    min_longitude: 7.508458699999999
+    max_latitude: 44.4309618
+    max_longitude: 7.603918799999999
   translations:
     en: Cuneo
     ar: مقاطعة كونيو
@@ -1748,16 +1807,18 @@ CN:
     ccp: "\U00011107\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011103\U0001112E"
     uz: Cuneo
     mk: Кунео
-  geo:
-    latitude: 44.3844766
-    longitude: 7.5426711
-    min_latitude: 44.3532038
-    min_longitude: 7.508458699999999
-    max_latitude: 44.4309618
-    max_longitude: 7.603918799999999
-  name: Cuneo
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Como
+  code: 
   unofficial_names: Como
+  geo:
+    latitude: 45.8080597
+    longitude: 9.0851765
+    min_latitude: 45.75888320000001
+    min_longitude: 9.033906100000001
+    max_latitude: 45.8421882
+    max_longitude: 9.136950299999999
   translations:
     en: Como
     ar: مقاطعة كومو
@@ -1818,16 +1879,18 @@ CO:
     hr: Como
     uz: Como
     mk: Комо
-  geo:
-    latitude: 45.8080597
-    longitude: 9.0851765
-    min_latitude: 45.75888320000001
-    min_longitude: 9.033906100000001
-    max_latitude: 45.8421882
-    max_longitude: 9.136950299999999
-  name: Como
-CR:
+  comments: 
+CR: !ruby/struct:ISO3166::Subdivision
+  name: Cremona
+  code: 
   unofficial_names: Cremona
+  geo:
+    latitude: 45.133249
+    longitude: 10.0226511
+    min_latitude: 45.1245891
+    min_longitude: 9.9863304
+    max_latitude: 45.1569568
+    max_longitude: 10.0588677
   translations:
     en: Cremona
     ar: مقاطعة كريمونا
@@ -1886,16 +1949,18 @@ CR:
     sq: Provinca e Kremonës
     ccp: "\U00011107\U00011133\U00011122\U0001112C\U0001111F\U00011127\U0001111A\U00011134"
     uz: Cremona
-  geo:
-    latitude: 45.133249
-    longitude: 10.0226511
-    min_latitude: 45.1245891
-    min_longitude: 9.9863304
-    max_latitude: 45.1569568
-    max_longitude: 10.0588677
-  name: Cremona
-CS:
+  comments: 
+CS: !ruby/struct:ISO3166::Subdivision
+  name: Cosenza
+  code: 
   unofficial_names: Cosenza
+  geo:
+    latitude: 39.2982629
+    longitude: 16.2537357
+    min_latitude: 39.2769898
+    min_longitude: 16.2195601
+    max_latitude: 39.3326104
+    max_longitude: 16.2850572
   translations:
     en: Cosenza
     ar: مقاطعة كوزنسا
@@ -1955,16 +2020,18 @@ CS:
     sq: Provinca e Kozencës
     ccp: "\U00011107\U0001112E\U00011125\U0001112C\U0001111A\U00011134\U0001110E"
     uz: Cosenza
-  geo:
-    latitude: 39.2982629
-    longitude: 16.2537357
-    min_latitude: 39.2769898
-    min_longitude: 16.2195601
-    max_latitude: 39.3326104
-    max_longitude: 16.2850572
-  name: Cosenza
-CT:
+  comments: 
+CT: !ruby/struct:ISO3166::Subdivision
+  name: Catania
+  code: 
   unofficial_names: Catania
+  geo:
+    latitude: 37.5078772
+    longitude: 15.0830304
+    min_latitude: 37.4205463
+    min_longitude: 15.0290963
+    max_latitude: 37.560876
+    max_longitude: 15.1259294
   translations:
     en: Catania
     ar: مقاطعة كاتانيا
@@ -2027,16 +2094,18 @@ CT:
     yue: 卡坦尼亞省
     uz: Catania
     mk: Катанија
-  geo:
-    latitude: 37.5078772
-    longitude: 15.0830304
-    min_latitude: 37.4205463
-    min_longitude: 15.0290963
-    max_latitude: 37.560876
-    max_longitude: 15.1259294
-  name: Catania
-CZ:
+  comments: 
+CZ: !ruby/struct:ISO3166::Subdivision
+  name: Catanzaro
+  code: 
   unofficial_names: Catanzaro
+  geo:
+    latitude: 38.90979189999999
+    longitude: 16.5876516
+    min_latitude: 38.8153388
+    min_longitude: 16.5536698
+    max_latitude: 38.9497221
+    max_longitude: 16.6484891
   translations:
     en: Catanzaro
     ar: مقاطعة كاتنزارو
@@ -2085,16 +2154,18 @@ CZ:
     ccp: "\U00011107\U00011133\U00011120\U00011111\U0001111A\U00011134\U0001110E\U00011122\U0001112E"
     be: правінцыя Катандзара
     uz: Catanzaro
-  geo:
-    latitude: 38.90979189999999
-    longitude: 16.5876516
-    min_latitude: 38.8153388
-    min_longitude: 16.5536698
-    max_latitude: 38.9497221
-    max_longitude: 16.6484891
-  name: Catanzaro
-EN:
+  comments: 
+EN: !ruby/struct:ISO3166::Subdivision
+  name: Enna
+  code: 
   unofficial_names: Enna
+  geo:
+    latitude: 37.5655551
+    longitude: 14.2751913
+    min_latitude: 37.5456653
+    min_longitude: 14.2629157
+    max_latitude: 37.5705528
+    max_longitude: 14.3051983
   translations:
     en: Enna
     ar: مقاطعة إنا
@@ -2152,16 +2223,18 @@ EN:
     ccp: "\U00011103\U00011129\U0001111A"
     hy: Էննա
     uz: Enna
-  geo:
-    latitude: 37.5655551
-    longitude: 14.2751913
-    min_latitude: 37.5456653
-    min_longitude: 14.2629157
-    max_latitude: 37.5705528
-    max_longitude: 14.3051983
-  name: Enna
-FE:
+  comments: 
+FE: !ruby/struct:ISO3166::Subdivision
+  name: Ferrara
+  code: 
   unofficial_names: Ferrara
+  geo:
+    latitude: 44.8381237
+    longitude: 11.619787
+    min_latitude: 44.7977949
+    min_longitude: 11.5487829
+    max_latitude: 44.8746839
+    max_longitude: 11.6641086
   translations:
     en: Ferrara
     af: Ferrara
@@ -2220,16 +2293,18 @@ FE:
     ccp: "\U0001111C\U0001112C\U00011122\U0001112C\U00011122"
     uz: Ferrara
     mk: Ферара
-  geo:
-    latitude: 44.8381237
-    longitude: 11.619787
-    min_latitude: 44.7977949
-    min_longitude: 11.5487829
-    max_latitude: 44.8746839
-    max_longitude: 11.6641086
-  name: Ferrara
-FG:
+  comments: 
+FG: !ruby/struct:ISO3166::Subdivision
+  name: Foggia
+  code: 
   unofficial_names: Foggia
+  geo:
+    latitude: 41.4621984
+    longitude: 15.5446302
+    min_latitude: 41.4346673
+    min_longitude: 15.5183242
+    max_latitude: 41.4795093
+    max_longitude: 15.5835768
   translations:
     en: Foggia
     ar: مقاطعة فودجا
@@ -2290,16 +2365,18 @@ FG:
     be: правінцыя Фоджа
     uz: Foggia
     mk: Фоџа
-  geo:
-    latitude: 41.4621984
-    longitude: 15.5446302
-    min_latitude: 41.4346673
-    min_longitude: 15.5183242
-    max_latitude: 41.4795093
-    max_longitude: 15.5835768
-  name: Foggia
-FI:
+  comments: 
+FI: !ruby/struct:ISO3166::Subdivision
+  name: Firenze
+  code: 
   unofficial_names: Firenze
+  geo:
+    latitude: 43.7695604
+    longitude: 11.2558136
+    min_latitude: 43.7269795
+    min_longitude: 11.1540365
+    max_latitude: 43.8329368
+    max_longitude: 11.3278993
   translations:
     en: Florence
     ar: مقاطعة فلورنسا
@@ -2361,16 +2438,18 @@ FI:
     ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U0001112C\U0001111A\U00011134\U0001110C\U00011134"
     uz: Florensiya
     mk: Фиренца
-  geo:
-    latitude: 43.7695604
-    longitude: 11.2558136
-    min_latitude: 43.7269795
-    min_longitude: 11.1540365
-    max_latitude: 43.8329368
-    max_longitude: 11.3278993
-  name: Firenze
-FC:
+  comments: 
+FC: !ruby/struct:ISO3166::Subdivision
+  name: Forlì-Cesena
+  code: 
   unofficial_names: Forlì-Cesena
+  geo:
+    latitude: 43.99476809999999
+    longitude: 11.9804613
+    min_latitude: 43.7405254
+    min_longitude: 11.6455594
+    max_latitude: 44.3307907
+    max_longitude: 12.4574107
   translations:
     en: Forlì-Cesena
     af: Forlì-Cesena
@@ -2428,16 +2507,18 @@ FC:
     ccp: "\U0001111C\U0001112E\U00011122\U00011134\U00011123\U00011128-\U00011125\U0001112C\U00011125\U0001112C\U0001111A"
     uz: Forlì-Cesena
     mk: Форли-Чезена
-  geo:
-    latitude: 43.99476809999999
-    longitude: 11.9804613
-    min_latitude: 43.7405254
-    min_longitude: 11.6455594
-    max_latitude: 44.3307907
-    max_longitude: 12.4574107
-  name: Forlì-Cesena
-FM:
+  comments: 
+FM: !ruby/struct:ISO3166::Subdivision
+  name: Fermo
+  code: 
   unofficial_names: Fermo
+  geo:
+    latitude: 43.1588734
+    longitude: 13.7200884
+    min_latitude: 43.1478961
+    min_longitude: 13.6938605
+    max_latitude: 43.1785854
+    max_longitude: 13.7617123
   translations:
     en: Fermo
     ar: مقاطعة فيرمو
@@ -2496,16 +2577,18 @@ FM:
     ccp: "\U0001111C\U0001112C\U00011122\U00011134\U0001111F\U0001112E"
     hr: Fermo
     uz: Fermo
-  geo:
-    latitude: 43.1588734
-    longitude: 13.7200884
-    min_latitude: 43.1478961
-    min_longitude: 13.6938605
-    max_latitude: 43.1785854
-    max_longitude: 13.7617123
-  name: Fermo
-FR:
+  comments: 
+FR: !ruby/struct:ISO3166::Subdivision
+  name: Frosinone
+  code: 
   unofficial_names: Frosinone
+  geo:
+    latitude: 41.6396009
+    longitude: 13.3426341
+    min_latitude: 41.6035248
+    min_longitude: 13.2967693
+    max_latitude: 41.66558029999999
+    max_longitude: 13.3785906
   translations:
     en: Frosinone
     ar: مقاطعة فروزينوني
@@ -2564,16 +2647,18 @@ FR:
     ccp: "\U0001111C\U00011133\U00011122\U0001112E\U00011125\U00011128\U0001111A\U00011127\U0001111A\U00011134"
     uz: Frosinone
     mk: Фрозиноне
-  geo:
-    latitude: 41.6396009
-    longitude: 13.3426341
-    min_latitude: 41.6035248
-    min_longitude: 13.2967693
-    max_latitude: 41.66558029999999
-    max_longitude: 13.3785906
-  name: Frosinone
-GE:
+  comments: 
+GE: !ruby/struct:ISO3166::Subdivision
+  name: Genova
+  code: 
   unofficial_names: Genova
+  geo:
+    latitude: 44.4056499
+    longitude: 8.946256
+    min_latitude: 44.3791252
+    min_longitude: 8.7160912
+    max_latitude: 44.514882
+    max_longitude: 9.065572999999999
   translations:
     en: Genoa
     ar: مدينة ميتروبوليتان، جنوة
@@ -2615,16 +2700,18 @@ GE:
     zh: 熱那亞廣域市
     ccp: "\U00011109\U0001112C\U0001111A\U00011131"
     be: метрапольны горад Генуя
-  geo:
-    latitude: 44.4056499
-    longitude: 8.946256
-    min_latitude: 44.3791252
-    min_longitude: 8.7160912
-    max_latitude: 44.514882
-    max_longitude: 9.065572999999999
-  name: Genova
-GO:
+  comments: 
+GO: !ruby/struct:ISO3166::Subdivision
+  name: Gorizia
+  code: 
   unofficial_names: Gorizia
+  geo:
+    latitude: 45.9401812
+    longitude: 13.6201754
+    min_latitude: 45.9166403
+    min_longitude: 13.581331
+    max_latitude: 45.9774051
+    max_longitude: 13.6378985
   translations:
     en: Gorizia
     ar: مقاطعة غوريتسيا
@@ -2675,16 +2762,18 @@ GO:
     ccp: "\U00011109\U00011127\U00011122\U00011128\U0001110E\U00011128\U00011120"
     uz: Gorizia
     mk: Горица
-  geo:
-    latitude: 45.9401812
-    longitude: 13.6201754
-    min_latitude: 45.9166403
-    min_longitude: 13.581331
-    max_latitude: 45.9774051
-    max_longitude: 13.6378985
-  name: Gorizia
-GR:
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Grosseto
+  code: 
   unofficial_names: Grosseto
+  geo:
+    latitude: 42.7635254
+    longitude: 11.1123634
+    min_latitude: 42.7397719
+    min_longitude: 11.0839812
+    max_latitude: 42.7959914
+    max_longitude: 11.1709899
   translations:
     en: Grosseto
     ar: مقاطعة غروسيتو
@@ -2733,16 +2822,18 @@ GR:
     jv: Provinsi Grosseto
     ccp: "\U00011109\U00011133\U00011122\U0001112E\U00011125\U0001112C\U00011111\U0001112E"
     uz: Grosseto
-  geo:
-    latitude: 42.7635254
-    longitude: 11.1123634
-    min_latitude: 42.7397719
-    min_longitude: 11.0839812
-    max_latitude: 42.7959914
-    max_longitude: 11.1709899
-  name: Grosseto
-IM:
+  comments: 
+IM: !ruby/struct:ISO3166::Subdivision
+  name: Imperia
+  code: 
   unofficial_names: Imperia
+  geo:
+    latitude: 43.8905684
+    longitude: 8.0346654
+    min_latitude: 43.8643319
+    min_longitude: 7.9598644
+    max_latitude: 43.9228184
+    max_longitude: 8.0630329
   translations:
     en: Imperia
     ar: مقاطعة إمبيريا
@@ -2801,16 +2892,18 @@ IM:
     ccp: "\U00011103\U00011128\U0001111F\U00011134\U0001111B\U0001112C\U00011122\U00011128\U00011120"
     uz: Imperia
     mk: Империја
-  geo:
-    latitude: 43.8905684
-    longitude: 8.0346654
-    min_latitude: 43.8643319
-    min_longitude: 7.9598644
-    max_latitude: 43.9228184
-    max_longitude: 8.0630329
-  name: Imperia
-IS:
+  comments: 
+IS: !ruby/struct:ISO3166::Subdivision
+  name: Isernia
+  code: 
   unofficial_names: Isernia
+  geo:
+    latitude: 41.5960411
+    longitude: 14.2331612
+    min_latitude: 41.578224
+    min_longitude: 14.2135501
+    max_latitude: 41.6174432
+    max_longitude: 14.2538525
   translations:
     en: Isernia
     ar: محافظة إيسرنيا
@@ -2867,16 +2960,18 @@ IS:
     sq: Provinca e Izernias
     ccp: "\U00011103\U0001112D\U00011125\U0001112C\U00011122\U00011134\U0001111A\U00011128\U00011120"
     uz: Isernia
-  geo:
-    latitude: 41.5960411
-    longitude: 14.2331612
-    min_latitude: 41.578224
-    min_longitude: 14.2135501
-    max_latitude: 41.6174432
-    max_longitude: 14.2538525
-  name: Isernia
-KR:
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: Crotone
+  code: 
   unofficial_names: Crotone
+  geo:
+    latitude: 39.0807932
+    longitude: 17.1271102
+    min_latitude: 39.0379212
+    min_longitude: 17.0724863
+    max_latitude: 39.1192418
+    max_longitude: 17.15866
   translations:
     en: Crotone
     ar: مقاطعة كروتوني
@@ -2939,16 +3034,18 @@ KR:
     ccp: "\U00011107\U00011133\U00011122\U0001112E\U00011111\U0001112E\U0001111A\U00011134"
     uz: Krotone
     bs: Crotone
-  geo:
-    latitude: 39.0807932
-    longitude: 17.1271102
-    min_latitude: 39.0379212
-    min_longitude: 17.0724863
-    max_latitude: 39.1192418
-    max_longitude: 17.15866
-  name: Crotone
-LC:
+  comments: 
+LC: !ruby/struct:ISO3166::Subdivision
+  name: Lecco
+  code: 
   unofficial_names: Lecco
+  geo:
+    latitude: 45.8565698
+    longitude: 9.397670399999999
+    min_latitude: 45.8150829
+    min_longitude: 9.3781386
+    max_latitude: 45.8870552
+    max_longitude: 9.424340899999999
   translations:
     en: Lecco
     ar: مقاطعة ليكو
@@ -3009,16 +3106,18 @@ LC:
     be: правінцыя Лека
     uz: Lecco
     mk: Леко
-  geo:
-    latitude: 45.8565698
-    longitude: 9.397670399999999
-    min_latitude: 45.8150829
-    min_longitude: 9.3781386
-    max_latitude: 45.8870552
-    max_longitude: 9.424340899999999
-  name: Lecco
-LE:
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: Lecce
+  code: 
   unofficial_names: Lecce
+  geo:
+    latitude: 40.3515155
+    longitude: 18.1750161
+    min_latitude: 40.3304703
+    min_longitude: 18.1199941
+    max_latitude: 40.3777911
+    max_longitude: 18.2285949
   translations:
     en: Lecce
     ar: مقاطعة ليتشي
@@ -3076,16 +3175,18 @@ LE:
     sq: Provinca e Leçes
     ccp: "\U00011123\U0001112C\U0001110C\U00011134\U0001110C\U0001112C"
     uz: Lecce
-  geo:
-    latitude: 40.3515155
-    longitude: 18.1750161
-    min_latitude: 40.3304703
-    min_longitude: 18.1199941
-    max_latitude: 40.3777911
-    max_longitude: 18.2285949
-  name: Lecce
-LI:
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: Livorno
+  code: 
   unofficial_names: Livorno
+  geo:
+    latitude: 43.548473
+    longitude: 10.3105674
+    min_latitude: 43.4832059
+    min_longitude: 10.2905905
+    max_latitude: 43.5958939
+    max_longitude: 10.3601034
   translations:
     en: Livorno
     ar: مقاطعة ليفورنو
@@ -3144,16 +3245,18 @@ LI:
     hy: Լիվորնո
     uz: Livorno
     mk: Ливорно
-  geo:
-    latitude: 43.548473
-    longitude: 10.3105674
-    min_latitude: 43.4832059
-    min_longitude: 10.2905905
-    max_latitude: 43.5958939
-    max_longitude: 10.3601034
-  name: Livorno
-LO:
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: Lodi
+  code: 
   unofficial_names: Lodi
+  geo:
+    latitude: 45.3097228
+    longitude: 9.503715999999999
+    min_latitude: 45.2947817
+    min_longitude: 9.4755178
+    max_latitude: 45.3283109
+    max_longitude: 9.522065099999999
   translations:
     en: Lodi
     ar: مقاطعة لودي
@@ -3212,16 +3315,18 @@ LO:
     sq: Provinca e Lodit
     ccp: "\U00011123\U0001112E\U00011113\U00011128"
     uz: Lodi
-  geo:
-    latitude: 45.3097228
-    longitude: 9.503715999999999
-    min_latitude: 45.2947817
-    min_longitude: 9.4755178
-    max_latitude: 45.3283109
-    max_longitude: 9.522065099999999
-  name: Lodi
-LT:
+  comments: 
+LT: !ruby/struct:ISO3166::Subdivision
+  name: Latina
+  code: 
   unofficial_names: Latina
+  geo:
+    latitude: 41.4675671
+    longitude: 12.9035965
+    min_latitude: 41.4379936
+    min_longitude: 12.8445286
+    max_latitude: 41.4864651
+    max_longitude: 12.9582445
   translations:
     en: Latina
     ar: مقاطعة لاتينا
@@ -3281,16 +3386,18 @@ LT:
     az: Latina
     uz: Latina
     mk: Латина
-  geo:
-    latitude: 41.4675671
-    longitude: 12.9035965
-    min_latitude: 41.4379936
-    min_longitude: 12.8445286
-    max_latitude: 41.4864651
-    max_longitude: 12.9582445
-  name: Latina
-LU:
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: Lucca
+  code: 
   unofficial_names: Lucca
+  geo:
+    latitude: 43.8376211
+    longitude: 10.4950609
+    min_latitude: 43.7687028
+    min_longitude: 10.385155
+    max_latitude: 43.9307158
+    max_longitude: 10.5595241
   translations:
     en: Lucca
     ar: مقاطعة لوكا
@@ -3347,16 +3454,18 @@ LU:
     jv: Provinsi Lucca
     ccp: "\U00011123\U00011128\U00011105\U0001112A\U00011107\U00011133\U00011126"
     uz: Lucca
-  geo:
-    latitude: 43.8376211
-    longitude: 10.4950609
-    min_latitude: 43.7687028
-    min_longitude: 10.385155
-    max_latitude: 43.9307158
-    max_longitude: 10.5595241
-  name: Lucca
-MB:
+  comments: 
+MB: !ruby/struct:ISO3166::Subdivision
+  name: Monza e Brianza
+  code: 
   unofficial_names: Monza e Brianza
+  geo:
+    latitude: 45.623599
+    longitude: 9.258801499999999
+    min_latitude: 45.536646
+    min_longitude: 9.0505239
+    max_latitude: 45.7427334
+    max_longitude: 9.4966723
   translations:
     en: Monza and Brianza
     ar: مقاطعة منزا وبريانسا
@@ -3413,16 +3522,18 @@ MB:
     sq: Provinca e Monxës e Brianxës
     ccp: "\U0001111F\U00011127\U0001111A\U00011134\U0001110E \U00011103\U00011133\U00011103
       \U0001111D\U00011133\U00011122\U00011128\U0001111A\U00011134\U0001110E"
-  geo:
-    latitude: 45.623599
-    longitude: 9.258801499999999
-    min_latitude: 45.536646
-    min_longitude: 9.0505239
-    max_latitude: 45.7427334
-    max_longitude: 9.4966723
-  name: Monza e Brianza
-MC:
+  comments: 
+MC: !ruby/struct:ISO3166::Subdivision
+  name: Macerata
+  code: 
   unofficial_names: Macerata
+  geo:
+    latitude: 43.2984268
+    longitude: 13.4534767
+    min_latitude: 43.2789768
+    min_longitude: 13.4161256
+    max_latitude: 43.3133078
+    max_longitude: 13.4876283
   translations:
     en: Macerata
     ar: مقاطعة ماشيراتا
@@ -3480,16 +3591,18 @@ MC:
     sq: Provinca e Maçeratës
     ccp: "\U0001111F\U00011125\U0001112C\U00011122\U00011134\U00011111"
     uz: Macerata
-  geo:
-    latitude: 43.2984268
-    longitude: 13.4534767
-    min_latitude: 43.2789768
-    min_longitude: 13.4161256
-    max_latitude: 43.3133078
-    max_longitude: 13.4876283
-  name: Macerata
-ME:
+  comments: 
+ME: !ruby/struct:ISO3166::Subdivision
+  name: Messina
+  code: 
   unofficial_names: Messina
+  geo:
+    latitude: 38.1938137
+    longitude: 15.5540152
+    min_latitude: 38.0546577
+    min_longitude: 15.4659197
+    max_latitude: 38.30146269999999
+    max_longitude: 15.6361362
   translations:
     en: Messina
     ar: مقاطعة مسينة
@@ -3556,16 +3669,18 @@ ME:
     uz: Messina
     bs: Mesina
     mk: Месина
-  geo:
-    latitude: 38.1938137
-    longitude: 15.5540152
-    min_latitude: 38.0546577
-    min_longitude: 15.4659197
-    max_latitude: 38.30146269999999
-    max_longitude: 15.6361362
-  name: Messina
-MI:
+  comments: 
+MI: !ruby/struct:ISO3166::Subdivision
+  name: Milano
+  code: 
   unofficial_names: Milano
+  geo:
+    latitude: 45.4654219
+    longitude: 9.1859243
+    min_latitude: 45.3897787
+    min_longitude: 9.065118199999999
+    max_latitude: 45.535689
+    max_longitude: 9.2903463
   translations:
     en: Milan
     ar: مقاطعة ميلانو
@@ -3628,16 +3743,18 @@ MI:
     yue: 米蘭省
     uz: Milan
     mk: Милано
-  geo:
-    latitude: 45.4654219
-    longitude: 9.1859243
-    min_latitude: 45.3897787
-    min_longitude: 9.065118199999999
-    max_latitude: 45.535689
-    max_longitude: 9.2903463
-  name: Milano
-MN:
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: Mantova
+  code: 
   unofficial_names: Mantova
+  geo:
+    latitude: 45.1564168
+    longitude: 10.7913751
+    min_latitude: 45.1372793
+    min_longitude: 10.7404198
+    max_latitude: 45.1863062
+    max_longitude: 10.8060815
   translations:
     en: Mantua
     ar: مقاطعة مانتوفا
@@ -3697,16 +3814,18 @@ MN:
     sq: Provinca e Mantovës
     ccp: "\U0001111F\U00011127\U0001111A\U00011134\U00011111\U0001112A\U00011120"
     uz: Mantuya
-  geo:
-    latitude: 45.1564168
-    longitude: 10.7913751
-    min_latitude: 45.1372793
-    min_longitude: 10.7404198
-    max_latitude: 45.1863062
-    max_longitude: 10.8060815
-  name: Mantova
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Modena
+  code: 
   unofficial_names: Modena
+  geo:
+    latitude: 44.6488366
+    longitude: 10.9200867
+    min_latitude: 44.60615620000001
+    min_longitude: 10.8531802
+    max_latitude: 44.6941981
+    max_longitude: 10.990284
   translations:
     en: Modena
     af: Modena
@@ -3764,16 +3883,18 @@ MO:
     jv: Provinsi Modena
     ccp: "\U0001111F\U00011127\U00011113\U0001112C\U0001111A"
     uz: Modena
-  geo:
-    latitude: 44.6488366
-    longitude: 10.9200867
-    min_latitude: 44.60615620000001
-    min_longitude: 10.8531802
-    max_latitude: 44.6941981
-    max_longitude: 10.990284
-  name: Modena
-MS:
+  comments: 
+MS: !ruby/struct:ISO3166::Subdivision
+  name: Massa-Carrara
+  code: 
   unofficial_names: Massa-Carrara
+  geo:
+    latitude: 44.0793245
+    longitude: 10.097677
+    min_latitude: 44.0354134
+    min_longitude: 10.0280523
+    max_latitude: 44.0927356
+    max_longitude: 10.108908
   translations:
     en: Massa and Carrara
     ar: مقاطعة ماسا كرارا
@@ -3830,16 +3951,18 @@ MS:
     ccp: "\U0001111F\U00011125 \U00011103\U00011133\U00011103 \U00011107\U0001112C\U00011122\U00011122"
     uz: Massa-Carrara
     mk: Маса-Карара
-  geo:
-    latitude: 44.0793245
-    longitude: 10.097677
-    min_latitude: 44.0354134
-    min_longitude: 10.0280523
-    max_latitude: 44.0927356
-    max_longitude: 10.108908
-  name: Massa-Carrara
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Matera
+  code: 
   unofficial_names: Matera
+  geo:
+    latitude: 40.666379
+    longitude: 16.6043199
+    min_latitude: 40.6384299
+    min_longitude: 16.5720606
+    max_latitude: 40.6907831
+    max_longitude: 16.6281972
   translations:
     en: Matera
     ar: مقاطعة ماتيرا
@@ -3889,16 +4012,18 @@ MT:
     ccp: "\U0001111F\U00011111\U0001112C\U00011122"
     kk: Матера
     uz: Matera
-  geo:
-    latitude: 40.666379
-    longitude: 16.6043199
-    min_latitude: 40.6384299
-    min_longitude: 16.5720606
-    max_latitude: 40.6907831
-    max_longitude: 16.6281972
-  name: Matera
-NA:
+  comments: 
+NA: !ruby/struct:ISO3166::Subdivision
+  name: Napoli
+  code: 
   unofficial_names: Napoli
+  geo:
+    latitude: 40.8517746
+    longitude: 14.2681244
+    min_latitude: 40.7920363
+    min_longitude: 14.1394899
+    max_latitude: 40.9159348
+    max_longitude: 14.3537148
   translations:
     en: Naples
     ar: مقاطعة نابولي
@@ -3960,16 +4085,18 @@ NA:
     az: Neapol əyaləti
     uz: Neapol
     mk: Неапол
-  geo:
-    latitude: 40.8517746
-    longitude: 14.2681244
-    min_latitude: 40.7920363
-    min_longitude: 14.1394899
-    max_latitude: 40.9159348
-    max_longitude: 14.3537148
-  name: Napoli
-'NO':
+  comments: 
+'NO': !ruby/struct:ISO3166::Subdivision
+  name: Novara
+  code: 
   unofficial_names: Novara
+  geo:
+    latitude: 45.44692999999999
+    longitude: 8.622161199999999
+    min_latitude: 45.4191674
+    min_longitude: 8.573948399999999
+    max_latitude: 45.4884906
+    max_longitude: 8.6576135
   translations:
     en: Novara
     ar: مقاطعة نوفارا
@@ -4029,16 +4156,18 @@ NA:
     yue: 羅華拉省
     be: правінцыя Навара
     uz: Novara
-  geo:
-    latitude: 45.44692999999999
-    longitude: 8.622161199999999
-    min_latitude: 45.4191674
-    min_longitude: 8.573948399999999
-    max_latitude: 45.4884906
-    max_longitude: 8.6576135
-  name: Novara
-NU:
+  comments: 
+NU: !ruby/struct:ISO3166::Subdivision
+  name: Nuoro
+  code: 
   unofficial_names: Nuoro
+  geo:
+    latitude: 40.32024210000001
+    longitude: 9.3264377
+    min_latitude: 40.3053262
+    min_longitude: 9.279806599999999
+    max_latitude: 40.3334335
+    max_longitude: 9.343346
   translations:
     en: Nuoro
     ar: محافظة نورو
@@ -4095,16 +4224,18 @@ NU:
     ccp: "\U0001111A\U00011127\U00011105\U0001112A\U00011122\U0001112A"
     hy: Նուորո
     uz: Nuoro
-  geo:
-    latitude: 40.32024210000001
-    longitude: 9.3264377
-    min_latitude: 40.3053262
-    min_longitude: 9.279806599999999
-    max_latitude: 40.3334335
-    max_longitude: 9.343346
-  name: Nuoro
-OG:
+  comments: 
+OG: !ruby/struct:ISO3166::Subdivision
+  name: Ogliastra
+  code: 
   unofficial_names: Ogliastra
+  geo:
+    latitude: 39.8410536
+    longitude: 9.456155
+    min_latitude: 39.5492328
+    min_longitude: 9.272892700000002
+    max_latitude: 40.22497370000001
+    max_longitude: 9.7357069
   translations:
     en: Ogliastra
     ar: مقاطعة أولياسترا
@@ -4159,16 +4290,18 @@ OG:
     ccp: "\U00011103\U0001112E\U00011109\U00011133\U00011123\U00011128\U00011120\U0001110C\U00011134\U00011111\U00011133\U00011122"
     hy: Օլիաստրա
     uz: Ogliastra
-  geo:
-    latitude: 39.8410536
-    longitude: 9.456155
-    min_latitude: 39.5492328
-    min_longitude: 9.272892700000002
-    max_latitude: 40.22497370000001
-    max_longitude: 9.7357069
-  name: Ogliastra
-OR:
+  comments: 
+OR: !ruby/struct:ISO3166::Subdivision
+  name: Oristano
+  code: 
   unofficial_names: Oristano
+  geo:
+    latitude: 39.906182
+    longitude: 8.5883863
+    min_latitude: 39.8821483
+    min_longitude: 8.5785921
+    max_latitude: 39.9170048
+    max_longitude: 8.6094668
   translations:
     en: Oristano
     ar: محافظة أوريستانو
@@ -4225,16 +4358,18 @@ OR:
     ccp: "\U00011103\U00011127\U00011122\U00011128\U0001110C\U00011134\U00011111\U0001111A\U0001112E"
     uz: Oristano
     mk: Ористано
-  geo:
-    latitude: 39.906182
-    longitude: 8.5883863
-    min_latitude: 39.8821483
-    min_longitude: 8.5785921
-    max_latitude: 39.9170048
-    max_longitude: 8.6094668
-  name: Oristano
-OT:
+  comments: 
+OT: !ruby/struct:ISO3166::Subdivision
+  name: Olbia-Tempio
+  code: 
   unofficial_names: Olbia-Tempio
+  geo:
+    latitude: 40.8268383
+    longitude: 9.2785583
+    min_latitude: 40.5258726
+    min_longitude: 8.8025819
+    max_latitude: 41.3131929
+    max_longitude: 9.7789574
   translations:
     en: Olbia-Tempio
     ar: مقاطعة أولبيا تمبيو
@@ -4289,16 +4424,18 @@ OT:
     ccp: "\U00011103\U00011123\U00011134\U0001111D\U00011128\U00011120-\U00011111\U0001112C\U0001111F\U00011134\U0001111B\U00011128\U00011103\U0001112E"
     hy: Օլբիա-Տեմպիո
     uz: Olbia-Tempio
-  geo:
-    latitude: 40.8268383
-    longitude: 9.2785583
-    min_latitude: 40.5258726
-    min_longitude: 8.8025819
-    max_latitude: 41.3131929
-    max_longitude: 9.7789574
-  name: Olbia-Tempio
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Palermo
+  code: 
   unofficial_names: Palermo
+  geo:
+    latitude: 38.1156879
+    longitude: 13.3612671
+    min_latitude: 38.0615392
+    min_longitude: 13.2674205
+    max_latitude: 38.2194654
+    max_longitude: 13.4471566
   translations:
     en: Palermo
     ar: مقاطعة باليرمو
@@ -4349,16 +4486,18 @@ PA:
     hy: Պալերմո
     be: правінцыя Палерма
     uz: Palermo
-  geo:
-    latitude: 38.1156879
-    longitude: 13.3612671
-    min_latitude: 38.0615392
-    min_longitude: 13.2674205
-    max_latitude: 38.2194654
-    max_longitude: 13.4471566
-  name: Palermo
-PC:
+  comments: 
+PC: !ruby/struct:ISO3166::Subdivision
+  name: Piacenza
+  code: 
   unofficial_names: Piacenza
+  geo:
+    latitude: 45.0526206
+    longitude: 9.6929845
+    min_latitude: 45.0154144
+    min_longitude: 9.635065599999999
+    max_latitude: 45.0691256
+    max_longitude: 9.7612318
   translations:
     en: Piacenza
     ar: مقاطعة بياتشنزا
@@ -4406,16 +4545,18 @@ PC:
     ccp: "\U0001111B\U00011128\U00011120\U00011125\U0001112C\U0001111A\U00011134\U0001110E"
     th: จังหวิดปีอาเชนซา
     uz: Piacenza
-  geo:
-    latitude: 45.0526206
-    longitude: 9.6929845
-    min_latitude: 45.0154144
-    min_longitude: 9.635065599999999
-    max_latitude: 45.0691256
-    max_longitude: 9.7612318
-  name: Piacenza
-PD:
+  comments: 
+PD: !ruby/struct:ISO3166::Subdivision
+  name: Padova
+  code: 
   unofficial_names: Padova
+  geo:
+    latitude: 45.4064349
+    longitude: 11.8767611
+    min_latitude: 45.3555073
+    min_longitude: 11.809626
+    max_latitude: 45.4575002
+    max_longitude: 11.9728649
   translations:
     en: Padua
     ar: مقاطعة بادوفا
@@ -4476,16 +4617,18 @@ PD:
     hy: Պադովա
     uz: Padova
     mk: Падова
-  geo:
-    latitude: 45.4064349
-    longitude: 11.8767611
-    min_latitude: 45.3555073
-    min_longitude: 11.809626
-    max_latitude: 45.4575002
-    max_longitude: 11.9728649
-  name: Padova
-PE:
+  comments: 
+PE: !ruby/struct:ISO3166::Subdivision
+  name: Pescara
+  code: 
   unofficial_names: Pescara
+  geo:
+    latitude: 42.4617902
+    longitude: 14.2160898
+    min_latitude: 42.4171602
+    min_longitude: 14.1528712
+    max_latitude: 42.4938717
+    max_longitude: 14.2543544
   translations:
     en: Pescara
     ar: مقاطعة بسكارا
@@ -4543,16 +4686,18 @@ PE:
     sq: Provinca e Peskarës
     ccp: "\U0001111B\U0001112C\U0001110C\U00011134\U00011107\U00011122"
     uz: Pescara
-  geo:
-    latitude: 42.4617902
-    longitude: 14.2160898
-    min_latitude: 42.4171602
-    min_longitude: 14.1528712
-    max_latitude: 42.4938717
-    max_longitude: 14.2543544
-  name: Pescara
-PG:
+  comments: 
+PG: !ruby/struct:ISO3166::Subdivision
+  name: Perugia
+  code: 
   unofficial_names: Perugia
+  geo:
+    latitude: 43.1107168
+    longitude: 12.3908279
+    min_latitude: 43.0400963
+    min_longitude: 12.3084506
+    max_latitude: 43.1499405
+    max_longitude: 12.4521977
   translations:
     en: Perugia
     ar: مقاطعة بيرودجا
@@ -4612,16 +4757,18 @@ PG:
     hy: Պերուջա
     uz: Perugia
     mk: Перуџа
-  geo:
-    latitude: 43.1107168
-    longitude: 12.3908279
-    min_latitude: 43.0400963
-    min_longitude: 12.3084506
-    max_latitude: 43.1499405
-    max_longitude: 12.4521977
-  name: Perugia
-PI:
+  comments: 
+PI: !ruby/struct:ISO3166::Subdivision
+  name: Pisa
+  code: 
   unofficial_names: Pisa
+  geo:
+    latitude: 43.7228386
+    longitude: 10.4016888
+    min_latitude: 43.6740201
+    min_longitude: 10.3453756
+    max_latitude: 43.7394813
+    max_longitude: 10.4453807
   translations:
     en: Pisa
     ar: مقاطعة بيزا
@@ -4680,16 +4827,18 @@ PI:
     hy: Պիզա
     sk: Pisa
     uz: Pisa
-  geo:
-    latitude: 43.7228386
-    longitude: 10.4016888
-    min_latitude: 43.6740201
-    min_longitude: 10.3453756
-    max_latitude: 43.7394813
-    max_longitude: 10.4453807
-  name: Pisa
-PN:
+  comments: 
+PN: !ruby/struct:ISO3166::Subdivision
+  name: Pordenone
+  code: 
   unofficial_names: Pordenone
+  geo:
+    latitude: 45.96263980000001
+    longitude: 12.6551362
+    min_latitude: 45.9184266
+    min_longitude: 12.6263353
+    max_latitude: 45.9958563
+    max_longitude: 12.7013575
   translations:
     en: Pordenone
     ar: مقاطعة بوردينوني
@@ -4749,16 +4898,18 @@ PN:
     hy: Պորդենոնե
     uz: Pordenone
     mk: Порденоне
-  geo:
-    latitude: 45.96263980000001
-    longitude: 12.6551362
-    min_latitude: 45.9184266
-    min_longitude: 12.6263353
-    max_latitude: 45.9958563
-    max_longitude: 12.7013575
-  name: Pordenone
-PO:
+  comments: 
+PO: !ruby/struct:ISO3166::Subdivision
+  name: Prato
+  code: 
   unofficial_names: Prato
+  geo:
+    latitude: 43.8777049
+    longitude: 11.102228
+    min_latitude: 43.8314126
+    min_longitude: 11.0202649
+    max_latitude: 43.9252112
+    max_longitude: 11.1474862
   translations:
     en: Prato
     ar: مقاطعة براتو
@@ -4815,16 +4966,18 @@ PO:
     ccp: "\U0001111B\U00011133\U00011122\U00011111\U0001112E"
     hy: Պրատո
     uz: Prato
-  geo:
-    latitude: 43.8777049
-    longitude: 11.102228
-    min_latitude: 43.8314126
-    min_longitude: 11.0202649
-    max_latitude: 43.9252112
-    max_longitude: 11.1474862
-  name: Prato
-PR:
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Parma
+  code: 
   unofficial_names: Parma
+  geo:
+    latitude: 44.801485
+    longitude: 10.3279036
+    min_latitude: 44.7554041
+    min_longitude: 10.2727904
+    max_latitude: 44.8395029
+    max_longitude: 10.3842979
   translations:
     en: Parma
     ar: مقاطعة بارما
@@ -4872,16 +5025,18 @@ PR:
     jv: Provinsi Parma
     ccp: "\U0001111B\U00011122\U00011134\U0001111F"
     uz: Parma
-  geo:
-    latitude: 44.801485
-    longitude: 10.3279036
-    min_latitude: 44.7554041
-    min_longitude: 10.2727904
-    max_latitude: 44.8395029
-    max_longitude: 10.3842979
-  name: Parma
-PU:
+  comments: 
+PU: !ruby/struct:ISO3166::Subdivision
+  name: Pesaro e Urbino
+  code: 
   unofficial_names: Pesaro e Urbino
+  geo:
+    latitude: 43.6130118
+    longitude: 12.7135121
+    min_latitude: 43.4165762
+    min_longitude: 12.1854509
+    max_latitude: 43.9692744
+    max_longitude: 13.1725197
   translations:
     en: Pesaro and Urbino
     ar: مقاطعة بيزارو وأوربينو
@@ -4939,16 +5094,18 @@ PU:
     ccp: "\U0001111B\U00011128\U00011125\U00011122\U0001112E \U00011103\U00011133\U00011103
       \U00011105\U0001112A\U00011122\U00011134\U0001111D\U00011128\U0001111A\U0001112E"
     mk: Пезаро и Урбино
-  geo:
-    latitude: 43.6130118
-    longitude: 12.7135121
-    min_latitude: 43.4165762
-    min_longitude: 12.1854509
-    max_latitude: 43.9692744
-    max_longitude: 13.1725197
-  name: Pesaro e Urbino
-PT:
+  comments: 
+PT: !ruby/struct:ISO3166::Subdivision
+  name: Pistoia
+  code: 
   unofficial_names: Pistoia
+  geo:
+    latitude: 43.9303475
+    longitude: 10.9078587
+    min_latitude: 43.8804611
+    min_longitude: 10.8661614
+    max_latitude: 44.0101074
+    max_longitude: 10.9946041
   translations:
     en: Pistoia
     ar: مقاطعة بستويا
@@ -5006,16 +5163,18 @@ PT:
     hy: Պիստոիա
     uz: Pistoia
     mk: Пистоја
-  geo:
-    latitude: 43.9303475
-    longitude: 10.9078587
-    min_latitude: 43.8804611
-    min_longitude: 10.8661614
-    max_latitude: 44.0101074
-    max_longitude: 10.9946041
-  name: Pistoia
-PV:
+  comments: 
+PV: !ruby/struct:ISO3166::Subdivision
+  name: Pavia
+  code: 
   unofficial_names: Pavia
+  geo:
+    latitude: 45.1847248
+    longitude: 9.1582069
+    min_latitude: 45.1655946
+    min_longitude: 9.1044182
+    max_latitude: 45.2099335
+    max_longitude: 9.207372099999999
   translations:
     en: Pavia
     ar: مقاطعة بافيا
@@ -5074,16 +5233,18 @@ PV:
     sq: Provinca e Pavias
     ccp: "\U0001111B\U0001111E\U00011128\U00011120"
     uz: Pavia
-  geo:
-    latitude: 45.1847248
-    longitude: 9.1582069
-    min_latitude: 45.1655946
-    min_longitude: 9.1044182
-    max_latitude: 45.2099335
-    max_longitude: 9.207372099999999
-  name: Pavia
-PZ:
+  comments: 
+PZ: !ruby/struct:ISO3166::Subdivision
+  name: Potenza
+  code: 
   unofficial_names: Potenza
+  geo:
+    latitude: 40.6404067
+    longitude: 15.8056041
+    min_latitude: 40.6172146
+    min_longitude: 15.7721653
+    max_latitude: 40.6652423
+    max_longitude: 15.8454938
   translations:
     en: Potenza
     ar: مقاطعة بوتنسا
@@ -5141,16 +5302,18 @@ PZ:
     sq: Provinca e Potencës
     ccp: "\U0001111B\U00011127\U00011111\U0001112C\U0001111A\U00011134\U0001110E"
     uz: Potenza
-  geo:
-    latitude: 40.6404067
-    longitude: 15.8056041
-    min_latitude: 40.6172146
-    min_longitude: 15.7721653
-    max_latitude: 40.6652423
-    max_longitude: 15.8454938
-  name: Potenza
-RA:
+  comments: 
+RA: !ruby/struct:ISO3166::Subdivision
+  name: Ravenna
+  code: 
   unofficial_names: Ravenna
+  geo:
+    latitude: 44.4183598
+    longitude: 12.2035294
+    min_latitude: 44.3841368
+    min_longitude: 12.1668015
+    max_latitude: 44.4405473
+    max_longitude: 12.2342168
   translations:
     en: Ravenna
     af: Ravenna
@@ -5210,16 +5373,18 @@ RA:
     ccp: "\U00011122\U00011127\U0001111E\U00011128\U0001111A"
     uz: Ravenna
     mk: Равена
-  geo:
-    latitude: 44.4183598
-    longitude: 12.2035294
-    min_latitude: 44.3841368
-    min_longitude: 12.1668015
-    max_latitude: 44.4405473
-    max_longitude: 12.2342168
-  name: Ravenna
-RC:
+  comments: 
+RC: !ruby/struct:ISO3166::Subdivision
+  name: Reggio Calabria
+  code: 
   unofficial_names: Reggio Calabria
+  geo:
+    latitude: 38.1113006
+    longitude: 15.6472914
+    min_latitude: 37.9914216
+    min_longitude: 15.6302247
+    max_latitude: 38.204364
+    max_longitude: 15.7133153
   translations:
     en: Reggio Calabria
     ar: مقاطعة ريدجو كالابريا
@@ -5279,16 +5444,18 @@ RC:
     ccp: "\U00011122\U0001112C\U00011109\U00011128\U00011103\U0001112E \U00011107\U00011133\U00011120\U00011123\U00011134\U0001111D\U00011133\U00011122\U00011128\U00011120"
     yue: 雷焦卡拉布里亞省
     uz: Reggio Calabria
-  geo:
-    latitude: 38.1113006
-    longitude: 15.6472914
-    min_latitude: 37.9914216
-    min_longitude: 15.6302247
-    max_latitude: 38.204364
-    max_longitude: 15.7133153
-  name: Reggio Calabria
-RE:
+  comments: 
+RE: !ruby/struct:ISO3166::Subdivision
+  name: Reggio Emilia
+  code: 
   unofficial_names: Reggio Emilia
+  geo:
+    latitude: 44.6989932
+    longitude: 10.6296859
+    min_latitude: 44.6550334
+    min_longitude: 10.5520175
+    max_latitude: 44.7482256
+    max_longitude: 10.7245189
   translations:
     en: Reggio Emilia
     ar: مقاطعة ريدجو إميليا
@@ -5344,16 +5511,18 @@ RE:
     jv: Provinsi Reggio Emilia
     ccp: "\U00011122\U0001112C\U00011109\U00011128\U00011103\U0001112E \U00011103\U00011128\U0001111F\U00011128\U00011123\U0001112D"
     uz: Reggio Emilia
-  geo:
-    latitude: 44.6989932
-    longitude: 10.6296859
-    min_latitude: 44.6550334
-    min_longitude: 10.5520175
-    max_latitude: 44.7482256
-    max_longitude: 10.7245189
-  name: Reggio Emilia
-RG:
+  comments: 
+RG: !ruby/struct:ISO3166::Subdivision
+  name: Ragusa
+  code: 
   unofficial_names: Ragusa
+  geo:
+    latitude: 36.9269273
+    longitude: 14.7255129
+    min_latitude: 36.8986672
+    min_longitude: 14.6705082
+    max_latitude: 36.9387
+    max_longitude: 14.7500679
   translations:
     en: Ragusa
     ar: مقاطعة راغوزا
@@ -5413,16 +5582,18 @@ RG:
     hy: Ռագուզա
     uz: Ragusa
     mk: Рагуза
-  geo:
-    latitude: 36.9269273
-    longitude: 14.7255129
-    min_latitude: 36.8986672
-    min_longitude: 14.6705082
-    max_latitude: 36.9387
-    max_longitude: 14.7500679
-  name: Ragusa
-RI:
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: Rieti
+  code: 
   unofficial_names: Rieti
+  geo:
+    latitude: 42.404509
+    longitude: 12.8567281
+    min_latitude: 42.3928519
+    min_longitude: 12.8270678
+    max_latitude: 42.4392607
+    max_longitude: 12.9040254
   translations:
     en: Rieti
     ar: مقاطعة رييتي
@@ -5480,16 +5651,18 @@ RI:
     ccp: "\U00011122\U0001112D\U00011111\U00011128"
     be: правінцыя Рыеці
     uz: Rieti
-  geo:
-    latitude: 42.404509
-    longitude: 12.8567281
-    min_latitude: 42.3928519
-    min_longitude: 12.8270678
-    max_latitude: 42.4392607
-    max_longitude: 12.9040254
-  name: Rieti
-RM:
+  comments: 
+RM: !ruby/struct:ISO3166::Subdivision
+  name: Roma
+  code: 
   unofficial_names: Roma
+  geo:
+    latitude: 41.9027835
+    longitude: 12.4963655
+    min_latitude: 41.769596
+    min_longitude: 12.341707
+    max_latitude: 42.0505462
+    max_longitude: 12.7302888
   translations:
     en: Rome
     ar: مقاطعة روما
@@ -5546,16 +5719,18 @@ RM:
     az: Roma
     uz: Rim
     mk: Рим
-  geo:
-    latitude: 41.9027835
-    longitude: 12.4963655
-    min_latitude: 41.769596
-    min_longitude: 12.341707
-    max_latitude: 42.0505462
-    max_longitude: 12.7302888
-  name: Roma
-RN:
+  comments: 
+RN: !ruby/struct:ISO3166::Subdivision
+  name: Rimini
+  code: 
   unofficial_names: Rimini
+  geo:
+    latitude: 44.0678288
+    longitude: 12.5695158
+    min_latitude: 44.0183507
+    min_longitude: 12.5171204
+    max_latitude: 44.088576
+    max_longitude: 12.6322536
   translations:
     en: Rimini
     ar: مقاطعة ريميني
@@ -5612,16 +5787,18 @@ RN:
     sq: Provinca e Riminit
     ccp: "\U00011122\U00011128\U0001111F\U00011128\U0001111A\U00011128"
     uz: Rimini
-  geo:
-    latitude: 44.0678288
-    longitude: 12.5695158
-    min_latitude: 44.0183507
-    min_longitude: 12.5171204
-    max_latitude: 44.088576
-    max_longitude: 12.6322536
-  name: Rimini
-RO:
+  comments: 
+RO: !ruby/struct:ISO3166::Subdivision
+  name: Rovigo
+  code: 
   unofficial_names: Rovigo
+  geo:
+    latitude: 45.0698118
+    longitude: 11.7902158
+    min_latitude: 45.0334583
+    min_longitude: 11.7415282
+    max_latitude: 45.1055056
+    max_longitude: 11.8383162
   translations:
     en: Rovigo
     ar: مقاطعة روفيغو
@@ -5681,16 +5858,18 @@ RO:
     be: правінцыя Равіга
     uz: Rovigo
     mk: Ровиго
-  geo:
-    latitude: 45.0698118
-    longitude: 11.7902158
-    min_latitude: 45.0334583
-    min_longitude: 11.7415282
-    max_latitude: 45.1055056
-    max_longitude: 11.8383162
-  name: Rovigo
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Salerno
+  code: 
   unofficial_names: Salerno
+  geo:
+    latitude: 40.68244079999999
+    longitude: 14.7680961
+    min_latitude: 40.6373235
+    min_longitude: 14.7339981
+    max_latitude: 40.7121639
+    max_longitude: 14.8513141
   translations:
     en: Salerno
     ar: مقاطعة ساليرنو
@@ -5749,16 +5928,18 @@ SA:
     ccp: "\U00011125\U00011123\U0001112C\U00011122\U00011134\U0001111A\U0001112E"
     uz: Salerno
     mk: Салерно
-  geo:
-    latitude: 40.68244079999999
-    longitude: 14.7680961
-    min_latitude: 40.6373235
-    min_longitude: 14.7339981
-    max_latitude: 40.7121639
-    max_longitude: 14.8513141
-  name: Salerno
-SI:
+  comments: 
+SI: !ruby/struct:ISO3166::Subdivision
+  name: Siena
+  code: 
   unofficial_names: Siena
+  geo:
+    latitude: 43.31880899999999
+    longitude: 11.3307574
+    min_latitude: 43.2804476
+    min_longitude: 11.2917587
+    max_latitude: 43.3515692
+    max_longitude: 11.3635397
   translations:
     en: Siena
     ar: مقاطعة سيينا
@@ -5818,16 +5999,18 @@ SI:
     hr: Provincija Siena
     uz: Siena
     mk: Сиена
-  geo:
-    latitude: 43.31880899999999
-    longitude: 11.3307574
-    min_latitude: 43.2804476
-    min_longitude: 11.2917587
-    max_latitude: 43.3515692
-    max_longitude: 11.3635397
-  name: Siena
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Sondrio
+  code: 
   unofficial_names: Sondrio
+  geo:
+    latitude: 46.1698583
+    longitude: 9.8787674
+    min_latitude: 46.1588347
+    min_longitude: 9.844438799999999
+    max_latitude: 46.1773996
+    max_longitude: 9.898327
   translations:
     en: Sondrio
     ar: مقاطعة سوندريو
@@ -5887,16 +6070,18 @@ SO:
     ccp: "\U00011125\U00011127\U0001111A\U00011134\U00011113\U00011133\U00011122\U00011128\U00011103\U0001112E"
     be: правінцыя Сондрыа
     uz: Sondrio
-  geo:
-    latitude: 46.1698583
-    longitude: 9.8787674
-    min_latitude: 46.1588347
-    min_longitude: 9.844438799999999
-    max_latitude: 46.1773996
-    max_longitude: 9.898327
-  name: Sondrio
-SP:
+  comments: 
+SP: !ruby/struct:ISO3166::Subdivision
+  name: La Spezia
+  code: 
   unofficial_names: La Spezia
+  geo:
+    latitude: 44.1024504
+    longitude: 9.824082599999999
+    min_latitude: 44.0777423
+    min_longitude: 9.7850968
+    max_latitude: 44.1367074
+    max_longitude: 9.8885803
   translations:
     en: La Spezia
     ar: مقاطعة لا سبيتسيا
@@ -5954,16 +6139,18 @@ SP:
     ccp: "\U00011123 \U00011125\U00011133\U0001111B\U0001112C\U0001110E\U00011128\U00011120"
     az: Speziya
     mk: Ла Специја
-  geo:
-    latitude: 44.1024504
-    longitude: 9.824082599999999
-    min_latitude: 44.0777423
-    min_longitude: 9.7850968
-    max_latitude: 44.1367074
-    max_longitude: 9.8885803
-  name: La Spezia
-SR:
+  comments: 
+SR: !ruby/struct:ISO3166::Subdivision
+  name: Siracusa
+  code: 
   unofficial_names: Siracusa
+  geo:
+    latitude: 37.0754739
+    longitude: 15.2865861
+    min_latitude: 37.0526518
+    min_longitude: 15.2405306
+    max_latitude: 37.1056629
+    max_longitude: 15.3012622
   translations:
     en: Syracuse
     ar: مقاطعة سرقوسة
@@ -6024,16 +6211,18 @@ SR:
     uz: Siracusa
     bs: Sirakuza
     mk: Сиракуза
-  geo:
-    latitude: 37.0754739
-    longitude: 15.2865861
-    min_latitude: 37.0526518
-    min_longitude: 15.2405306
-    max_latitude: 37.1056629
-    max_longitude: 15.3012622
-  name: Siracusa
-SS:
+  comments: 
+SS: !ruby/struct:ISO3166::Subdivision
+  name: Sassari
+  code: 
   unofficial_names: Sassari
+  geo:
+    latitude: 40.7259269
+    longitude: 8.5556826
+    min_latitude: 40.6985242
+    min_longitude: 8.4952695
+    max_latitude: 40.7537418
+    max_longitude: 8.597026099999999
   translations:
     en: Sassari
     ar: مقاطعة ساساري
@@ -6090,16 +6279,18 @@ SS:
     ccp: "\U00011125\U00011125\U00011122\U00011128"
     hy: Սասսարի
     uz: Sassari
-  geo:
-    latitude: 40.7259269
-    longitude: 8.5556826
-    min_latitude: 40.6985242
-    min_longitude: 8.4952695
-    max_latitude: 40.7537418
-    max_longitude: 8.597026099999999
-  name: Sassari
-SV:
+  comments: 
+SV: !ruby/struct:ISO3166::Subdivision
+  name: Savona
+  code: 
   unofficial_names: Savona
+  geo:
+    latitude: 44.2975603
+    longitude: 8.4645
+    min_latitude: 44.2811266
+    min_longitude: 8.4347866
+    max_latitude: 44.32934059999999
+    max_longitude: 8.5042904
   translations:
     en: Savona
     ar: مقاطعة سافونا
@@ -6158,16 +6349,18 @@ SV:
     ccp: "\U00011125\U00011133\U00011120\U00011123\U0001112E\U0001111A"
     uz: Savona
     mk: Савона
-  geo:
-    latitude: 44.2975603
-    longitude: 8.4645
-    min_latitude: 44.2811266
-    min_longitude: 8.4347866
-    max_latitude: 44.32934059999999
-    max_longitude: 8.5042904
-  name: Savona
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Taranto
+  code: 
   unofficial_names: Taranto
+  geo:
+    latitude: 40.46436060000001
+    longitude: 17.2470303
+    min_latitude: 40.3791815
+    min_longitude: 17.2017386
+    max_latitude: 40.4991197
+    max_longitude: 17.2990258
   translations:
     en: Taranto
     ar: مقاطعة تارانتو
@@ -6225,16 +6418,18 @@ TA:
     ccp: "\U00011111\U00011127\U00011122\U0001111A\U00011134\U00011111\U0001112E"
     be: правінцыя Таранта
     uz: Taranto
-  geo:
-    latitude: 40.46436060000001
-    longitude: 17.2470303
-    min_latitude: 40.3791815
-    min_longitude: 17.2017386
-    max_latitude: 40.4991197
-    max_longitude: 17.2990258
-  name: Taranto
-TE:
+  comments: 
+TE: !ruby/struct:ISO3166::Subdivision
+  name: Teramo
+  code: 
   unofficial_names: Teramo
+  geo:
+    latitude: 42.6611431
+    longitude: 13.6986639
+    min_latitude: 42.6428053
+    min_longitude: 13.668671
+    max_latitude: 42.6811718
+    max_longitude: 13.7452854
   translations:
     en: Teramo
     ar: مقاطعة تيرامو
@@ -6292,16 +6487,18 @@ TE:
     ccp: "\U00011111\U0001112C\U00011122\U00011134\U0001111F\U0001112E"
     be: правінцыя Тэрама
     uz: Teramo
-  geo:
-    latitude: 42.6611431
-    longitude: 13.6986639
-    min_latitude: 42.6428053
-    min_longitude: 13.668671
-    max_latitude: 42.6811718
-    max_longitude: 13.7452854
-  name: Teramo
-TN:
+  comments: 
+TN: !ruby/struct:ISO3166::Subdivision
+  name: Trento
+  code: 
   unofficial_names: Trento
+  geo:
+    latitude: 46.0700915
+    longitude: 11.1197626
+    min_latitude: 46.0281314
+    min_longitude: 11.0826925
+    max_latitude: 46.1327915
+    max_longitude: 11.1580189
   translations:
     en: Trentino
     af: Trentino
@@ -6351,16 +6548,18 @@ TN:
     ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011111\U00011128\U0001111A\U0001112E"
     be: правінцыя Трэнта
     mk: Трентино
-  geo:
-    latitude: 46.0700915
-    longitude: 11.1197626
-    min_latitude: 46.0281314
-    min_longitude: 11.0826925
-    max_latitude: 46.1327915
-    max_longitude: 11.1580189
-  name: Trento
-TO:
+  comments: 
+TO: !ruby/struct:ISO3166::Subdivision
+  name: Torino
+  code: 
   unofficial_names: Torino
+  geo:
+    latitude: 45.070312
+    longitude: 7.686856499999999
+    min_latitude: 45.00677659999999
+    min_longitude: 7.5778502
+    max_latitude: 45.1335014
+    max_longitude: 7.7623282
   translations:
     en: Turin
     ar: مقاطعة تورينو
@@ -6423,16 +6622,18 @@ TO:
     yue: 拖連奴省
     uz: Turin
     mk: Торино
-  geo:
-    latitude: 45.070312
-    longitude: 7.686856499999999
-    min_latitude: 45.00677659999999
-    min_longitude: 7.5778502
-    max_latitude: 45.1335014
-    max_longitude: 7.7623282
-  name: Torino
-TP:
+  comments: 
+TP: !ruby/struct:ISO3166::Subdivision
+  name: Trapani
+  code: 
   unofficial_names: Trapani
+  geo:
+    latitude: 38.0176177
+    longitude: 12.537202
+    min_latitude: 38.0001964
+    min_longitude: 12.4917452
+    max_latitude: 38.0342392
+    max_longitude: 12.5857631
   translations:
     en: Trapani
     ar: مقاطعة تراباني
@@ -6491,16 +6692,18 @@ TP:
     hy: Տրապանի
     kk: Трапани (провинция)
     uz: Trapani
-  geo:
-    latitude: 38.0176177
-    longitude: 12.537202
-    min_latitude: 38.0001964
-    min_longitude: 12.4917452
-    max_latitude: 38.0342392
-    max_longitude: 12.5857631
-  name: Trapani
-TR:
+  comments: 
+TR: !ruby/struct:ISO3166::Subdivision
+  name: Terni
+  code: 
   unofficial_names: Terni
+  geo:
+    latitude: 42.5636168
+    longitude: 12.6426604
+    min_latitude: 42.5230136
+    min_longitude: 12.5685648
+    max_latitude: 42.6010524
+    max_longitude: 12.6876014
   translations:
     en: Terni
     ar: مقاطعة تيرني
@@ -6560,16 +6763,18 @@ TR:
     be: правінцыя Тэрні
     uz: Terni
     mk: Терни
-  geo:
-    latitude: 42.5636168
-    longitude: 12.6426604
-    min_latitude: 42.5230136
-    min_longitude: 12.5685648
-    max_latitude: 42.6010524
-    max_longitude: 12.6876014
-  name: Terni
-TS:
+  comments: 
+TS: !ruby/struct:ISO3166::Subdivision
+  name: Trieste
+  code: 
   unofficial_names: Trieste
+  geo:
+    latitude: 45.6495264
+    longitude: 13.7768182
+    min_latitude: 45.6068433
+    min_longitude: 13.7318673
+    max_latitude: 45.697797
+    max_longitude: 13.8354566
   translations:
     en: Trieste
     ar: مقاطعة ترييستي
@@ -6628,16 +6833,18 @@ TS:
     ccp: "\U00011111\U00011133\U00011122\U0001112D\U00011103\U0001112C\U0001110C\U00011134\U00011111\U00011128"
     uz: Trieste
     mk: Трст
-  geo:
-    latitude: 45.6495264
-    longitude: 13.7768182
-    min_latitude: 45.6068433
-    min_longitude: 13.7318673
-    max_latitude: 45.697797
-    max_longitude: 13.8354566
-  name: Trieste
-TV:
+  comments: 
+TV: !ruby/struct:ISO3166::Subdivision
+  name: Treviso
+  code: 
   unofficial_names: Treviso
+  geo:
+    latitude: 45.6668893
+    longitude: 12.2430437
+    min_latitude: 45.63740139999999
+    min_longitude: 12.1828564
+    max_latitude: 45.7030675
+    max_longitude: 12.2873065
   translations:
     en: Treviso
     ar: مقاطعة تريفيزو
@@ -6698,16 +6905,18 @@ TV:
     hy: Տրևիզո
     uz: Treviso
     mk: Тревизо
-  geo:
-    latitude: 45.6668893
-    longitude: 12.2430437
-    min_latitude: 45.63740139999999
-    min_longitude: 12.1828564
-    max_latitude: 45.7030675
-    max_longitude: 12.2873065
-  name: Treviso
-UD:
+  comments: 
+UD: !ruby/struct:ISO3166::Subdivision
+  name: Udine
+  code: 
   unofficial_names: Udine
+  geo:
+    latitude: 46.0710668
+    longitude: 13.2345794
+    min_latitude: 46.0111984
+    min_longitude: 13.1962414
+    max_latitude: 46.1009263
+    max_longitude: 13.2920833
   translations:
     en: Udine
     ar: مقاطعة أوديني
@@ -6767,16 +6976,18 @@ UD:
     ccp: "\U00011103\U0001112A\U00011113\U0001112D\U0001111A\U00011134"
     uz: Udine
     mk: Удине
-  geo:
-    latitude: 46.0710668
-    longitude: 13.2345794
-    min_latitude: 46.0111984
-    min_longitude: 13.1962414
-    max_latitude: 46.1009263
-    max_longitude: 13.2920833
-  name: Udine
-VA:
+  comments: 
+VA: !ruby/struct:ISO3166::Subdivision
+  name: Varese
+  code: 
   unofficial_names: Varese
+  geo:
+    latitude: 45.82059890000001
+    longitude: 8.8250576
+    min_latitude: 45.7805121
+    min_longitude: 8.7759435
+    max_latitude: 45.8645247
+    max_longitude: 8.863587299999999
   translations:
     en: Varese
     ar: مقاطعة فاريزي
@@ -6836,16 +7047,18 @@ VA:
     ccp: "\U0001111E\U00011122\U00011134\U00011125\U0001112C"
     hr: okrug Vareze
     uz: Varese
-  geo:
-    latitude: 45.82059890000001
-    longitude: 8.8250576
-    min_latitude: 45.7805121
-    min_longitude: 8.7759435
-    max_latitude: 45.8645247
-    max_longitude: 8.863587299999999
-  name: Varese
-VB:
+  comments: 
+VB: !ruby/struct:ISO3166::Subdivision
+  name: Verbano-Cusio-Ossola
+  code: 
   unofficial_names: Verbano-Cusio-Ossola
+  geo:
+    latitude: 46.1399688
+    longitude: 8.2724649
+    min_latitude: 45.7669133
+    min_longitude: 7.8684223
+    max_latitude: 46.4644351
+    max_longitude: 8.7110842
   translations:
     en: Verbano-Cusio-Ossola
     ar: مقاطعة فربانو كوزيو أوسولا
@@ -6903,16 +7116,18 @@ VB:
     ccp: "\U0001111E\U00011122\U00011134\U0001111D\U0001111A\U0001112E-\U00011107\U00011128\U00011105\U0001112A\U00011125\U00011128\U00011103\U0001112E-\U00011103\U0001112E\U00011125\U0001112E\U00011123"
     be: правінцыя Вербана-Кузья-Асола
     uz: Verbano-Cusio-Ossola
-  geo:
-    latitude: 46.1399688
-    longitude: 8.2724649
-    min_latitude: 45.7669133
-    min_longitude: 7.8684223
-    max_latitude: 46.4644351
-    max_longitude: 8.7110842
-  name: Verbano-Cusio-Ossola
-VC:
+  comments: 
+VC: !ruby/struct:ISO3166::Subdivision
+  name: Vercelli
+  code: 
   unofficial_names: Vercelli
+  geo:
+    latitude: 45.32022720000001
+    longitude: 8.418573499999999
+    min_latitude: 45.29851679999999
+    min_longitude: 8.3904657
+    max_latitude: 45.3419825
+    max_longitude: 8.4576716
   translations:
     en: Vercelli
     ar: مقاطعة فرشيلي
@@ -6970,16 +7185,18 @@ VC:
     ccp: "\U0001111E\U00011122\U00011134\U00011125\U0001112C\U00011123\U00011128"
     hy: Վերչելլի
     uz: Vercelli
-  geo:
-    latitude: 45.32022720000001
-    longitude: 8.418573499999999
-    min_latitude: 45.29851679999999
-    min_longitude: 8.3904657
-    max_latitude: 45.3419825
-    max_longitude: 8.4576716
-  name: Vercelli
-VE:
+  comments: 
+VE: !ruby/struct:ISO3166::Subdivision
+  name: Venezia
+  code: 
   unofficial_names: Venezia
+  geo:
+    latitude: 45.4408474
+    longitude: 12.3155151
+    min_latitude: 45.233455
+    min_longitude: 12.1668278
+    max_latitude: 45.5779746
+    max_longitude: 12.5966574
   translations:
     en: Venice
     ar: مقاطعة فينيسيا
@@ -7040,16 +7257,18 @@ VE:
     yue: 威尼斯省
     uz: Venetsiya
     mk: Венеција
-  geo:
-    latitude: 45.4408474
-    longitude: 12.3155151
-    min_latitude: 45.233455
-    min_longitude: 12.1668278
-    max_latitude: 45.5779746
-    max_longitude: 12.5966574
-  name: Venezia
-VI:
+  comments: 
+VI: !ruby/struct:ISO3166::Subdivision
+  name: Vicenza
+  code: 
   unofficial_names: Vicenza
+  geo:
+    latitude: 45.5454787
+    longitude: 11.5354214
+    min_latitude: 45.4965127
+    min_longitude: 11.4910099
+    max_latitude: 45.6039311
+    max_longitude: 11.6108189
   translations:
     en: Vicenza
     ar: مقاطعة فيشنزا
@@ -7109,16 +7328,18 @@ VI:
     hy: Վիչենցա
     uz: Vicenza
     mk: Виченца
-  geo:
-    latitude: 45.5454787
-    longitude: 11.5354214
-    min_latitude: 45.4965127
-    min_longitude: 11.4910099
-    max_latitude: 45.6039311
-    max_longitude: 11.6108189
-  name: Vicenza
-VR:
+  comments: 
+VR: !ruby/struct:ISO3166::Subdivision
+  name: Verona
+  code: 
   unofficial_names: Verona
+  geo:
+    latitude: 45.43838419999999
+    longitude: 10.9916215
+    min_latitude: 45.3742342
+    min_longitude: 10.9147425
+    max_latitude: 45.4782665
+    max_longitude: 11.0703201
   translations:
     en: Verona
     ar: مقاطعة فيرونا
@@ -7178,16 +7399,18 @@ VR:
     hy: Վերոնա
     uz: Verona
     mk: Верона
-  geo:
-    latitude: 45.43838419999999
-    longitude: 10.9916215
-    min_latitude: 45.3742342
-    min_longitude: 10.9147425
-    max_latitude: 45.4782665
-    max_longitude: 11.0703201
-  name: Verona
-VS:
+  comments: 
+VS: !ruby/struct:ISO3166::Subdivision
+  name: Medio Campidano
+  code: 
   unofficial_names: Medio Campidano
+  geo:
+    latitude: 39.5317389
+    longitude: 8.704075
+    min_latitude: 39.3749756
+    min_longitude: 8.3792644
+    max_latitude: 39.7829813
+    max_longitude: 9.0736828
   translations:
     en: Medio Campidano
     ar: محافظة ميديو كامبيدانو
@@ -7244,16 +7467,18 @@ VS:
     hy: Մեդիո Կամպիդանո
     uz: Medio Campidano
     mk: Медио Кампидано
-  geo:
-    latitude: 39.5317389
-    longitude: 8.704075
-    min_latitude: 39.3749756
-    min_longitude: 8.3792644
-    max_latitude: 39.7829813
-    max_longitude: 9.0736828
-  name: Medio Campidano
-VT:
+  comments: 
+VT: !ruby/struct:ISO3166::Subdivision
+  name: Viterbo
+  code: 
   unofficial_names: Viterbo
+  geo:
+    latitude: 42.4206766
+    longitude: 12.107669
+    min_latitude: 42.4044656
+    min_longitude: 12.0796173
+    max_latitude: 42.4405429
+    max_longitude: 12.1411634
   translations:
     en: Viterbo
     ar: مقاطعة فيتيربو
@@ -7312,16 +7537,18 @@ VT:
     jv: Provinsi Viterbo
     ccp: "\U0001111E\U0001112D\U00011111\U0001112C\U00011122\U00011134\U0001111D\U0001112E"
     uz: Viterbo
-  geo:
-    latitude: 42.4206766
-    longitude: 12.107669
-    min_latitude: 42.4044656
-    min_longitude: 12.0796173
-    max_latitude: 42.4405429
-    max_longitude: 12.1411634
-  name: Viterbo
-VV:
+  comments: 
+VV: !ruby/struct:ISO3166::Subdivision
+  name: Vibo Valentia
+  code: 
   unofficial_names: Vibo Valentia
+  geo:
+    latitude: 38.6757774
+    longitude: 16.0983488
+    min_latitude: 38.6645713
+    min_longitude: 16.0756393
+    max_latitude: 38.6929198
+    max_longitude: 16.1277849
   translations:
     en: Vibo Valentia
     ar: مقاطعة فيبو فالينتيا
@@ -7379,16 +7606,18 @@ VV:
     ccp: "\U0001111E\U0001112D\U0001111D\U0001112E \U0001111E\U00011123\U0001112C\U0001111A\U00011134\U00011111\U00011128\U00011120"
     be: правінцыя Віба-Валентыя
     uz: Vibo Valentia
-  geo:
-    latitude: 38.6757774
-    longitude: 16.0983488
-    min_latitude: 38.6645713
-    min_longitude: 16.0756393
-    max_latitude: 38.6929198
-    max_longitude: 16.1277849
-  name: Vibo Valentia
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Piëmont
     ar: بييمونتي
@@ -7456,6 +7685,11 @@ VV:
     am: ፕዬሞንቴ
     bs: Pijemont
     mk: Пиемонт
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7463,8 +7697,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'32':
-  unofficial_names: 
   translations:
     af: Trentino-Suid-Tirool
     ar: ترينتينو ألتو أديجي
@@ -7529,6 +7761,11 @@ VV:
     am: ትሬንቲኖ-ደቡብ ቲሮል
     bs: Trentino-Južni Tirol
     mk: Трентино-Јужен Тирол
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7536,8 +7773,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'42':
-  unofficial_names: 
   translations:
     af: Ligurië
     am: ሊጉርያ
@@ -7604,6 +7839,11 @@ VV:
     yue: 列古利亞
     bs: Ligurija
     mk: Лигурија
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7611,8 +7851,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'45':
-  unofficial_names: 
   translations:
     af: Emilia-Romagna
     ar: إميليا-رومانيا
@@ -7678,6 +7916,11 @@ VV:
     am: ኤሚልያ-ሮማኛ
     bs: Emilia-Romagna
     mk: Емилија-Ромања
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7685,8 +7928,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'52':
-  unofficial_names: 
   translations:
     af: Toskane
     ar: توسكانا
@@ -7755,6 +7996,11 @@ VV:
     am: ቶስካና
     bs: Toskana
     mk: Тоскана
+  comments: 
+'55': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7762,8 +8008,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'55':
-  unofficial_names: 
   translations:
     af: Umbrië
     ar: أومبريا
@@ -7828,6 +8072,11 @@ VV:
     am: ኡምብሪያ
     bs: Umbrija
     mk: Умбрија
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7835,8 +8084,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'62':
-  unofficial_names: 
   translations:
     af: Latium
     ar: لاتسيو
@@ -7903,6 +8150,11 @@ VV:
     am: ላጺዮ
     bs: Lazio
     mk: Лацио
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7910,8 +8162,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'65':
-  unofficial_names: 
   translations:
     af: Abruzze
     ar: أبروتسو
@@ -7977,6 +8227,11 @@ VV:
     am: አብሩጾ
     bs: Abruzzo
     mk: Абруцо
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -7984,8 +8239,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'72':
-  unofficial_names: 
   translations:
     af: Kampanië
     ar: كامبانيا
@@ -8052,6 +8305,11 @@ VV:
     am: ካምፓንያ
     bs: Kampanija
     mk: Кампанија
+  comments: 
+'78': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8059,8 +8317,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'78':
-  unofficial_names: 
   translations:
     af: Kalabrië
     ar: قلورية
@@ -8128,6 +8384,11 @@ VV:
     uz: Kalabriya
     bs: Kalabrija
     mk: Калабрија
+  comments: 
+'82': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8135,8 +8396,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'82':
-  unofficial_names: 
   translations:
     af: Sisilië
     am: ሲኪልያ
@@ -8211,6 +8470,11 @@ VV:
     yo: Sicily
     bs: Sicilija
     mk: Сицилија
+  comments: 
+'88': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8218,8 +8482,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'88':
-  unofficial_names: 
   translations:
     af: Sardinië
     am: ሳርዲኒያ
@@ -8292,6 +8554,11 @@ VV:
     uz: Sardiniya
     bs: Sardinija
     mk: Сардинија
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8299,8 +8566,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'23':
-  unofficial_names: 
   translations:
     ar: وادي أوستا
     az: Aosta Valley
@@ -8367,6 +8632,11 @@ VV:
     am: ቫሌ ዳኦስታ
     bs: Valle d’Aosta
     mk: Аостинска Долина
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8374,8 +8644,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'25':
-  unofficial_names: 
   translations:
     ar: لومبارديا
     az: Lombardiya
@@ -8445,6 +8713,11 @@ VV:
     am: ሎምባርዲያ
     bs: Lombardija
     mk: Ломбардија
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8452,8 +8725,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'34':
-  unofficial_names: 
   translations:
     ar: فينيتو
     be: Венета
@@ -8519,6 +8790,11 @@ VV:
     am: ቨኔቶ
     bs: Veneto
     mk: Венето
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8526,8 +8802,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'36':
-  unofficial_names: 
   translations:
     ar: فريولي فينيتسيا جوليا
     az: Firulli-Venesiya-Culiya
@@ -8592,6 +8866,11 @@ VV:
     am: ፍሪዩሊ ቬነጽያ ጁልያ
     bs: Furlanija-Julijska Krajina
     mk: Фурланија-Јулиска краина
+  comments: 
+'57': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8599,8 +8878,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'57':
-  unofficial_names: 
   translations:
     ar: ماركي
     be: Марке
@@ -8663,6 +8940,11 @@ VV:
     am: ማርኬ
     bs: Marche
     mk: Марке
+  comments: 
+'67': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8670,8 +8952,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'67':
-  unofficial_names: 
   translations:
     ar: موليزي
     be: Малізэ
@@ -8733,6 +9013,11 @@ VV:
     am: ሞሊዜ
     bs: Molise
     mk: Молизе
+  comments: 
+'75': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8740,8 +9025,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'75':
-  unofficial_names: 
   translations:
     ar: بوليا
     az: Apuliya
@@ -8807,6 +9090,11 @@ VV:
     am: አፑሊያ
     bs: Apulija
     mk: Апулија
+  comments: 
+'77': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -8814,8 +9102,6 @@ VV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'77':
-  unofficial_names: 
   translations:
     ar: بازيليكاتا
     az: Bazilikata
@@ -8882,13 +9168,12 @@ VV:
     am: ባሲሊካታ
     bs: Basilicata
     mk: Базиликата
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Sud Sardegna
+  comments: 

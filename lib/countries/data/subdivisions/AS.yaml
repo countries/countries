@@ -1,8 +1,8 @@
 ---
-'010':
+'010': !ruby/struct:ISO3166::Subdivision
+  name: Eastern District
+  code: 
   unofficial_names: Eastern District
-  translations:
-    en: Eastern District
   geo:
     latitude: -14.26667
     longitude: -170.65
@@ -10,12 +10,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Eastern District
-  comments: 
-'020':
-  unofficial_names: Manu'a District
   translations:
-    en: Manu'a District
+    en: Eastern District
+  comments: 
+'020': !ruby/struct:ISO3166::Subdivision
+  name: Manu'a District
+  code: 
+  unofficial_names: Manu'a District
   geo:
     latitude: -14.23327
     longitude: -169.47458
@@ -23,12 +24,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Manu'a District
-  comments: 
-'030':
-  unofficial_names: Rose Atoll
   translations:
-    en: Rose Atoll
+    en: Manu'a District
+  comments: 
+'030': !ruby/struct:ISO3166::Subdivision
+  name: Rose Atoll
+  code: 
+  unofficial_names: Rose Atoll
   geo:
     latitude: -14.54583
     longitude: -168.15
@@ -36,12 +38,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Rose Atoll
-  comments: 
-'040':
-  unofficial_names: Swains Island
   translations:
-    en: Swains Island
+    en: Rose Atoll
+  comments: 
+'040': !ruby/struct:ISO3166::Subdivision
+  name: Swains Island
+  code: 
+  unofficial_names: Swains Island
   geo:
     latitude: -11.056
     longitude: -171.082
@@ -49,12 +52,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Swains Island
-  comments: 
-'050':
-  unofficial_names: Western District
   translations:
-    en: Western District
+    en: Swains Island
+  comments: 
+'050': !ruby/struct:ISO3166::Subdivision
+  name: Western District
+  code: 
+  unofficial_names: Western District
   geo:
     latitude: -14.31667
     longitude: -170.76667
@@ -62,8 +66,20 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Western District
+  translations:
+    en: Western District
   comments: 
-'':
+'': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -14.270972
+    longitude: -170.132217
+    min_latitude: -14.7217608
+    min_longitude: -171.0076904
+    max_latitude: -13.4056506
+    max_longitude: -169.2059326
   translations:
     en: American Samoa
+  comments: 

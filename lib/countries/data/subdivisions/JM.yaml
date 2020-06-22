@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Kingston
+  code: 
   unofficial_names: Kingston
+  geo:
+    latitude: 17.983333
+    longitude: -76.8
+    min_latitude: 17.9634658
+    min_longitude: -76.8719387
+    max_latitude: 18.0724068
+    max_longitude: -76.7293739
   translations:
     en: Kingston
     ar: أبرشية كينغستون
@@ -40,16 +49,18 @@
     lt: Kingstono parapija
     ccp: "\U00011107\U00011128\U00011101\U0001110C\U00011133\U00011111\U00011127\U0001111A\U00011134"
     uk: Парафія Кінгстон
-  geo:
-    latitude: 17.983333
-    longitude: -76.8
-    min_latitude: 17.9634658
-    min_longitude: -76.8719387
-    max_latitude: 18.0724068
-    max_longitude: -76.7293739
-  name: Kingston
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Saint Andrew
+  code: 
   unofficial_names: Saint Andrew
+  geo:
+    latitude: 18.0028906
+    longitude: -76.8418246
+    min_latitude: 17.9982883
+    min_longitude: -76.8447946
+    max_latitude: 18.011791
+    max_longitude: -76.8372715
   translations:
     en: Saint Andrew
     ar: أبريشة سانت أندرو
@@ -90,16 +101,18 @@
     lt: Saint Endrius
     zh: 聖安德魯區
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011103\U0001112C\U0001111A\U00011134\U00011113\U00011133\U00011122\U0001112A"
-  geo:
-    latitude: 18.0028906
-    longitude: -76.8418246
-    min_latitude: 17.9982883
-    min_longitude: -76.8447946
-    max_latitude: 18.011791
-    max_longitude: -76.8372715
-  name: Saint Andrew
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Saint Thomas
+  code: 
   unofficial_names: Saint Thomas
+  geo:
+    latitude: 17.9700261
+    longitude: -76.4331698
+    min_latitude: 17.8502263
+    min_longitude: -76.6640716
+    max_latitude: 18.087991
+    max_longitude: -76.183159
   translations:
     en: Saint Thomas
     ar: أبرشية سانت توماس
@@ -141,16 +154,18 @@
     ko: 세인트토머스 교구
     he: סנט תומאס
     uk: Парафія Сент-Томас
-  geo:
-    latitude: 17.9700261
-    longitude: -76.4331698
-    min_latitude: 17.8502263
-    min_longitude: -76.6640716
-    max_latitude: 18.087991
-    max_longitude: -76.183159
-  name: Saint Thomas
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Portland
+  code: 
   unofficial_names: Portland
+  geo:
+    latitude: 18.0844274
+    longitude: -76.4100267
+    min_latitude: 17.9826419
+    min_longitude: -76.7609059
+    max_latitude: 18.267005
+    max_longitude: -76.25551589999999
   translations:
     en: Portland
     ar: أبرشية بورتلاند
@@ -191,16 +206,18 @@
     ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     hy: Պորտլենդի համայնք
     uk: Парафія Портленд
-  geo:
-    latitude: 18.0844274
-    longitude: -76.4100267
-    min_latitude: 17.9826419
-    min_longitude: -76.7609059
-    max_latitude: 18.267005
-    max_longitude: -76.25551589999999
-  name: Portland
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Saint Mary
+  code: 
   unofficial_names: Saint Mary
+  geo:
+    latitude: 18.3092711
+    longitude: -76.964306
+    min_latitude: 18.1388119
+    min_longitude: -77.071198
+    max_latitude: 18.4221861
+    max_longitude: -76.701178
   translations:
     en: Saint Mary
     ar: أبرشية سانت ماري
@@ -241,16 +258,18 @@
     zh: 聖瑪麗區
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U0001111F\U0001112C\U00011122\U00011128"
     uk: Парафія Сент-Мері
-  geo:
-    latitude: 18.3092711
-    longitude: -76.964306
-    min_latitude: 18.1388119
-    min_longitude: -77.071198
-    max_latitude: 18.4221861
-    max_longitude: -76.701178
-  name: Saint Mary
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Saint Ann
+  code: 
   unofficial_names: Saint Ann
+  geo:
+    latitude: 18.3281428
+    longitude: -77.2405153
+    min_latitude: 18.179688
+    min_longitude: -77.4926529
+    max_latitude: 18.4788759
+    max_longitude: -77.00158379999999
   translations:
     en: Saint Ann
     ar: أبرشية القديس آن
@@ -293,16 +312,18 @@
     he: סנט אן
     uk: Парафія Сент-Ан
     be: Прыход Сент-Эн
-  geo:
-    latitude: 18.3281428
-    longitude: -77.2405153
-    min_latitude: 18.179688
-    min_longitude: -77.4926529
-    max_latitude: 18.4788759
-    max_longitude: -77.00158379999999
-  name: Saint Ann
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Trelawny
+  code: 
   unofficial_names: Trelawny
+  geo:
+    latitude: 18.3526143
+    longitude: -77.6077865
+    min_latitude: 18.2023229
+    min_longitude: -77.777457
+    max_latitude: 18.511424
+    max_longitude: -77.44148299999999
   translations:
     en: Trelawny
     ar: أبرشية تريلاوني
@@ -350,16 +371,18 @@
     hy: Թրելոնի եկեղեցական ծուխ
     uk: Парафія Трелоні
     ca: parròquia de Trelawny
-  geo:
-    latitude: 18.3526143
-    longitude: -77.6077865
-    min_latitude: 18.2023229
-    min_longitude: -77.777457
-    max_latitude: 18.511424
-    max_longitude: -77.44148299999999
-  name: Trelawny
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Saint James
+  code: 
   unofficial_names: Saint James
+  geo:
+    latitude: 18.3923184
+    longitude: -77.85959629999999
+    min_latitude: 18.2089849
+    min_longitude: -78.00069189999999
+    max_latitude: 18.5253104
+    max_longitude: -77.737876
   translations:
     en: Saint James
     ar: أبرشية سانت جيمس، جامايكا
@@ -401,16 +424,18 @@
     zh: 聖詹姆斯區
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011107\U0001112C\U0001111F\U00011134\U0001110C\U00011134"
     uk: Парафія Сент-Джеймс
-  geo:
-    latitude: 18.3923184
-    longitude: -77.85959629999999
-    min_latitude: 18.2089849
-    min_longitude: -78.00069189999999
-    max_latitude: 18.5253104
-    max_longitude: -77.737876
-  name: Saint James
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Hanover
+  code: 
   unofficial_names: Hanover
+  geo:
+    latitude: 18.4097707
+    longitude: -78.13363799999999
+    min_latitude: 18.3051631
+    min_longitude: -78.34310889999999
+    max_latitude: 18.4628808
+    max_longitude: -77.913105
   translations:
     en: Hanover
     ar: أبرشية هانوفر
@@ -455,16 +480,18 @@
     lt: Hanoverio parapija
     zh: 汉诺威区
     ccp: "\U00011126\U0001111A\U0001112E\U0001111E\U00011122\U00011134"
-  geo:
-    latitude: 18.4097707
-    longitude: -78.13363799999999
-    min_latitude: 18.3051631
-    min_longitude: -78.34310889999999
-    max_latitude: 18.4628808
-    max_longitude: -77.913105
-  name: Hanover
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Westmoreland
+  code: 
   unofficial_names: Westmoreland
+  geo:
+    latitude: 18.2944378
+    longitude: -78.1564432
+    min_latitude: 18.0689012
+    min_longitude: -78.366638
+    max_latitude: 18.360146
+    max_longitude: -77.87850809999999
   translations:
     en: Westmoreland
     ar: أبرشية ويستمورلاند
@@ -504,16 +531,18 @@
     zh: 西摩蘭區
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U0001111F\U0001112E\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     uk: Парафія Вестморленд
-  geo:
-    latitude: 18.2944378
-    longitude: -78.1564432
-    min_latitude: 18.0689012
-    min_longitude: -78.366638
-    max_latitude: 18.360146
-    max_longitude: -77.87850809999999
-  name: Westmoreland
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Saint Elizabeth
+  code: 
   unofficial_names: Saint Elizabeth
+  geo:
+    latitude: 18.0788461
+    longitude: -77.69941969999999
+    min_latitude: 17.8543891
+    min_longitude: -77.956349
+    max_latitude: 18.2497811
+    max_longitude: -77.56239699999999
   translations:
     en: Saint Elizabeth
     ar: أبرشية سانت إليزابيث
@@ -555,16 +584,18 @@
     zh: 聖伊麗莎白區
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011103\U0001112C\U00011123\U00011128\U0001110E\U0001111D\U0001112C\U00011116\U00011134"
     uk: Парафія Сент-Елізабет
-  geo:
-    latitude: 18.0788461
-    longitude: -77.69941969999999
-    min_latitude: 17.8543891
-    min_longitude: -77.956349
-    max_latitude: 18.2497811
-    max_longitude: -77.56239699999999
-  name: Saint Elizabeth
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Manchester
+  code: 
   unofficial_names: Manchester
+  geo:
+    latitude: 18.0669654
+    longitude: -77.5160788
+    min_latitude: 17.8387709
+    min_longitude: -77.637006
+    max_latitude: 18.2492469
+    max_longitude: -77.34482899999999
   translations:
     en: Manchester
     ar: أبرشية مانشستر
@@ -606,16 +637,18 @@
     zh: 曼徹斯特區
     ccp: "\U0001111F\U00011133\U00011120\U0001111A\U00011134\U0001110C\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134"
     he: מחוז מנצ׳סטר
-  geo:
-    latitude: 18.0669654
-    longitude: -77.5160788
-    min_latitude: 17.8387709
-    min_longitude: -77.637006
-    max_latitude: 18.2492469
-    max_longitude: -77.34482899999999
-  name: Manchester
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Clarendon
+  code: 
   unofficial_names: Clarendon
+  geo:
+    latitude: 17.9557183
+    longitude: -77.2405153
+    min_latitude: 17.7057243
+    min_longitude: -77.4926529
+    max_latitude: 18.2174819
+    max_longitude: -77.1253108
   translations:
     en: Clarendon
     ar: أبرشية كلاريندون، جمايكا
@@ -657,16 +690,18 @@
     zh: 克拉倫登區
     ccp: "\U00011107\U00011133\U00011123\U00011122\U0001112C\U0001111A\U00011134\U00011113\U00011127\U0001111A\U00011134"
     uk: Парафія Кларендон
-  geo:
-    latitude: 17.9557183
-    longitude: -77.2405153
-    min_latitude: 17.7057243
-    min_longitude: -77.4926529
-    max_latitude: 18.2174819
-    max_longitude: -77.1253108
-  name: Clarendon
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Saint Catherine
+  code: 
   unofficial_names: Saint Catherine
+  geo:
+    latitude: 18.0364134
+    longitude: -77.0564464
+    min_latitude: 17.8379222
+    min_longitude: -77.21647999999999
+    max_latitude: 18.258774
+    max_longitude: -76.848185
   translations:
     en: Saint Catherine
     ar: أبرشية سانت كاثرين
@@ -707,11 +742,4 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011107\U00011133\U00011120\U00011117\U00011127\U00011122\U0001112D\U0001111A\U00011134"
     he: סנט קתרין
     uk: Сент-Кетрін
-  geo:
-    latitude: 18.0364134
-    longitude: -77.0564464
-    min_latitude: 17.8379222
-    min_longitude: -77.21647999999999
-    max_latitude: 18.258774
-    max_longitude: -76.848185
-  name: Saint Catherine
+  comments: 

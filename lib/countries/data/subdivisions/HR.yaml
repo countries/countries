@@ -1,7 +1,16 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Zagrebačka županija
+  code: 
   unofficial_names:
   - Zagreb County
+  geo:
+    latitude: 45.8706612
+    longitude: 16.395491
+    min_latitude: 45.4676982
+    min_longitude: 15.3262593
+    max_latitude: 46.0695047
+    max_longitude: 16.7137865
   translations:
     en: Zagreb County
     ar: مقاطعة زغرب
@@ -59,17 +68,19 @@
     ga: Contae Ságrab
     bs: Zagrebačka županija
     mk: Загрепска жупанија
-  geo:
-    latitude: 45.8706612
-    longitude: 16.395491
-    min_latitude: 45.4676982
-    min_longitude: 15.3262593
-    max_latitude: 46.0695047
-    max_longitude: 16.7137865
-  name: Zagrebačka županija
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Krapinsko-zagorska županija
+  code: 
   unofficial_names:
   - Krapina-Zagorje
+  geo:
+    latitude: 46.10133930000001
+    longitude: 15.8809693
+    min_latitude: 45.9023158
+    min_longitude: 15.5954704
+    max_latitude: 46.2800141
+    max_longitude: 16.2571245
   translations:
     en: Krapina-Zagorje
     ar: مقاطعة كرابينا زاغوريه
@@ -123,17 +134,19 @@
     ccp: "\U00011107\U00011133\U00011122\U0001111B\U00011128\U0001111A-\U0001110E\U00011109\U0001112E\U00011122\U00011134\U0001110E\U0001112C"
     bs: Krapinsko-zagorska županija
     mk: Крапинско-загорска жупанија
-  geo:
-    latitude: 46.10133930000001
-    longitude: 15.8809693
-    min_latitude: 45.9023158
-    min_longitude: 15.5954704
-    max_latitude: 46.2800141
-    max_longitude: 16.2571245
-  name: Krapinsko-zagorska županija
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Sisačko-moslavačka županija
+  code: 
   unofficial_names:
   - Sisak-Moslavina
+  geo:
+    latitude: 45.3837926
+    longitude: 16.5380995
+    min_latitude: 44.9959092
+    min_longitude: 15.7676525
+    max_latitude: 45.6699168
+    max_longitude: 17.1949134
   translations:
     en: Sisak-Moslavina
     ar: مقاطعة سيساك-موسلافينا
@@ -188,17 +201,19 @@
     he: מחוז סיסאק-מוסלאבינה
     bs: Sisačko-moslavačka županija
     mk: Сисачко-мославачка жупанија
-  geo:
-    latitude: 45.3837926
-    longitude: 16.5380995
-    min_latitude: 44.9959092
-    min_longitude: 15.7676525
-    max_latitude: 45.6699168
-    max_longitude: 17.1949134
-  name: Sisačko-moslavačka županija
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Karlovačka županija
+  code: 
   unofficial_names:
   - Karlovac
+  geo:
+    latitude: 45.2389445
+    longitude: 15.3980067
+    min_latitude: 44.88255729999999
+    min_longitude: 14.961508
+    max_latitude: 45.7628058
+    max_longitude: 15.9247762
   translations:
     en: Karlovac
     ar: مقاطعة كارلوفاتش
@@ -255,17 +270,19 @@
     be: Карлавачка
     bs: Karlovačka županija
     mk: Карловачка жупанија
-  geo:
-    latitude: 45.2389445
-    longitude: 15.3980067
-    min_latitude: 44.88255729999999
-    min_longitude: 14.961508
-    max_latitude: 45.7628058
-    max_longitude: 15.9247762
-  name: Karlovačka županija
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Varaždinska županija
+  code: 
   unofficial_names:
   - Varaždin
+  geo:
+    latitude: 46.23174729999999
+    longitude: 16.3360558
+    min_latitude: 46.0103401
+    min_longitude: 15.8765333
+    max_latitude: 46.4048343
+    max_longitude: 16.7739716
   translations:
     en: Varaždin
     ar: مقاطعة فرازدين
@@ -322,17 +339,19 @@
     ga: Contae Varaždin
     bs: Varaždinska županija
     mk: Вараждинска жупанија
-  geo:
-    latitude: 46.23174729999999
-    longitude: 16.3360558
-    min_latitude: 46.0103401
-    min_longitude: 15.8765333
-    max_latitude: 46.4048343
-    max_longitude: 16.7739716
-  name: Varaždinska županija
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Koprivničko-križevačka županija
+  code: 
   unofficial_names:
   - Koprivnica-Križevci
+  geo:
+    latitude: 46.1568919
+    longitude: 16.8390826
+    min_latitude: 45.8802736
+    min_longitude: 16.3417055
+    max_latitude: 46.3551961
+    max_longitude: 17.3057121
   translations:
     en: Koprivnica-Križevci
     ar: مقاطعة كوبريفنيكا-كريزفتسي
@@ -387,17 +406,19 @@
       \U00011107\U00011133\U00011122\U00011128\U0001110E\U0001112C\U0001111B\U00011134\U00011125\U0001112D"
     bs: Koprivničko-križevačka županija
     mk: Копривничко-крижевачка жупанија
-  geo:
-    latitude: 46.1568919
-    longitude: 16.8390826
-    min_latitude: 45.8802736
-    min_longitude: 16.3417055
-    max_latitude: 46.3551961
-    max_longitude: 17.3057121
-  name: Koprivničko-križevačka županija
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Bjelovarsko-bilogorska županija
+  code: 
   unofficial_names:
   - Bjelovar-Bilogora
+  geo:
+    latitude: 45.7809992
+    longitude: 16.9936575
+    min_latitude: 45.4661945
+    min_longitude: 16.4888635
+    max_latitude: 46.088761
+    max_longitude: 17.4986747
   translations:
     en: Bjelovar-Bilogora
     ar: مقاطعة بيلوفار-بيلوغورا
@@ -453,17 +474,19 @@
     ccp: "\U0001110E\U0001112C\U00011123\U0001112E\U0001111E\U00011122\U00011134-\U0001111D\U0001112D\U00011123\U0001112E\U00011109\U0001112E\U00011122"
     bs: Bjelovarsko-bilogorska županija
     mk: Бјеловарско-билогорска жупанија
-  geo:
-    latitude: 45.7809992
-    longitude: 16.9936575
-    min_latitude: 45.4661945
-    min_longitude: 16.4888635
-    max_latitude: 46.088761
-    max_longitude: 17.4986747
-  name: Bjelovarsko-bilogorska županija
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Primorsko-goranska županija
+  code: 
   unofficial_names:
   - Primorje-Gorski Kotar
+  geo:
+    latitude: 45.31739959999999
+    longitude: 14.8167466
+    min_latitude: 44.4406968
+    min_longitude: 14.1078905
+    max_latitude: 45.67344840000001
+    max_longitude: 15.2352703
   translations:
     en: Primorje-Gorski Kotar
     ar: مقاطعة بريموريه-غورسكي كوتار
@@ -521,17 +544,19 @@
       \U00011107\U0001112E\U00011111\U00011122\U00011134"
     bs: Primorsko-goranska županija
     mk: Приморско-горска жупанија
-  geo:
-    latitude: 45.31739959999999
-    longitude: 14.8167466
-    min_latitude: 44.4406968
-    min_longitude: 14.1078905
-    max_latitude: 45.67344840000001
-    max_longitude: 15.2352703
-  name: Primorsko-goranska županija
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Ličko-senjska županija
+  code: 
   unofficial_names:
   - Lika-Senj
+  geo:
+    latitude: 44.6192218
+    longitude: 15.4701608
+    min_latitude: 44.2712303
+    min_longitude: 14.6828545
+    max_latitude: 45.1228954
+    max_longitude: 16.1408169
   translations:
     en: Lika-Senj
     ar: مقاطعة ليكا سني
@@ -587,17 +612,19 @@
     he: מחוז ליקה-סני
     bs: Ličko-senjska županija
     mk: Личко-сењска жупанија
-  geo:
-    latitude: 44.6192218
-    longitude: 15.4701608
-    min_latitude: 44.2712303
-    min_longitude: 14.6828545
-    max_latitude: 45.1228954
-    max_longitude: 16.1408169
-  name: Ličko-senjska županija
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Virovitičko-podravska županija
+  code: 
   unofficial_names:
   - Virovitica-Podravina
+  geo:
+    latitude: 45.6557985
+    longitude: 17.7932472
+    min_latitude: 45.4725689
+    min_longitude: 17.1197372
+    max_latitude: 45.99621200000001
+    max_longitude: 18.0678268
   translations:
     en: Virovitica-Podravina
     ar: مقاطعة فيروفيتيكا-بودرافينا
@@ -652,17 +679,19 @@
     ccp: "\U0001111E\U0001112D\U00011122\U0001112E\U0001111E\U00011128\U00011111\U00011128\U00011107-\U0001111B\U00011127\U00011113\U00011133\U00011122\U0001111E\U00011128\U0001111A"
     bs: Virovitičko-podravska županija
     mk: Вировитичко-подравска жупанија
-  geo:
-    latitude: 45.6557985
-    longitude: 17.7932472
-    min_latitude: 45.4725689
-    min_longitude: 17.1197372
-    max_latitude: 45.99621200000001
-    max_longitude: 18.0678268
-  name: Virovitičko-podravska županija
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Požeško-slavonska županija
+  code: 
   unofficial_names:
   - Požega-Slavonia
+  geo:
+    latitude: 45.3417868
+    longitude: 17.8114359
+    min_latitude: 45.1823306
+    min_longitude: 16.9284931
+    max_latitude: 45.5801629
+    max_longitude: 18.1141807
   translations:
     en: Požega-Slavonia
     ar: مقاطعة بوزيغا-سلافونيا
@@ -716,17 +745,19 @@
     be: Пожажска-Славонская жупанія
     bs: Požeško-slavonska županija
     mk: Пожешко-славонска жупанија
-  geo:
-    latitude: 45.3417868
-    longitude: 17.8114359
-    min_latitude: 45.1823306
-    min_longitude: 16.9284931
-    max_latitude: 45.5801629
-    max_longitude: 18.1141807
-  name: Požeško-slavonska županija
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Brodsko-posavska županija
+  code: 
   unofficial_names:
   - Brod-Posavina
+  geo:
+    latitude: 45.2637951
+    longitude: 17.3264562
+    min_latitude: 45.0434571
+    min_longitude: 17.0736625
+    max_latitude: 45.39235980000001
+    max_longitude: 18.5746296
   translations:
     en: Brod-Posavina
     ar: مقاطعة برود-بوسافينا
@@ -782,17 +813,19 @@
     ccp: "\U0001111D\U00011133\U00011122\U00011116\U00011134-\U0001111B\U0001112E\U00011125\U0001111E\U00011128\U0001111A"
     bs: Brodsko-posavska županija
     mk: Бродско-посавска жупанија
-  geo:
-    latitude: 45.2637951
-    longitude: 17.3264562
-    min_latitude: 45.0434571
-    min_longitude: 17.0736625
-    max_latitude: 45.39235980000001
-    max_longitude: 18.5746296
-  name: Brodsko-posavska županija
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Zadarska županija
+  code: 
   unofficial_names:
   - Zadar
+  geo:
+    latitude: 44.146939
+    longitude: 15.6164943
+    min_latitude: 43.8228067
+    min_longitude: 14.5670193
+    max_latitude: 44.5384474
+    max_longitude: 16.2202414
   translations:
     en: Zadar
     ar: مقاطعة زادار
@@ -853,17 +886,19 @@
     yue: 扎達爾縣
     bs: Zadarska županija
     mk: Задарска жупанија
-  geo:
-    latitude: 44.146939
-    longitude: 15.6164943
-    min_latitude: 43.8228067
-    min_longitude: 14.5670193
-    max_latitude: 44.5384474
-    max_longitude: 16.2202414
-  name: Zadarska županija
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Osječko-baranjska županija
+  code: 
   unofficial_names:
   - Osijek-Baranja
+  geo:
+    latitude: 45.5576428
+    longitude: 18.3942141
+    min_latitude: 45.2042832
+    min_longitude: 17.8840624
+    max_latitude: 45.9217976
+    max_longitude: 19.1025689
   translations:
     en: Osijek-Baranja
     ar: مقاطعة أوسييك-بارانيا
@@ -918,17 +953,19 @@
     ccp: "\U00011103\U00011127\U00011125\U00011128\U0001110E\U0001112C\U00011107\U00011134-\U0001111D\U00011122\U0001111A\U00011134\U0001110E"
     bs: Osječko-baranjska županija
     mk: Осиечко-барањска жупанија
-  geo:
-    latitude: 45.5576428
-    longitude: 18.3942141
-    min_latitude: 45.2042832
-    min_longitude: 17.8840624
-    max_latitude: 45.9217976
-    max_longitude: 19.1025689
-  name: Osječko-baranjska županija
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Šibensko-kninska županija
+  code: 
   unofficial_names:
   - Šibenik-Knin
+  geo:
+    latitude: 43.9281485
+    longitude: 16.1037694
+    min_latitude: 43.4868297
+    min_longitude: 15.2068282
+    max_latitude: 44.2164979
+    max_longitude: 16.5426211
   translations:
     en: Šibenik-Knin
     ar: مقاطعة شيبينيك-كنين
@@ -984,17 +1021,19 @@
     ccp: "\U00011125\U00011128\U0001111D\U0001112C\U0001111A\U00011128\U00011107\U00011134-\U0001111A\U00011128\U0001111A\U00011134"
     bs: Šibensko-kninska županija
     mk: Шибенско-книнска жупанија
-  geo:
-    latitude: 43.9281485
-    longitude: 16.1037694
-    min_latitude: 43.4868297
-    min_longitude: 15.2068282
-    max_latitude: 44.2164979
-    max_longitude: 16.5426211
-  name: Šibensko-kninska županija
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Vukovarsko-srijemska županija
+  code: 
   unofficial_names:
   - Vukovar-Sirmium
+  geo:
+    latitude: 45.1773552
+    longitude: 18.8053527
+    min_latitude: 44.8497502
+    min_longitude: 18.4948404
+    max_latitude: 45.4856329
+    max_longitude: 19.4480523
   translations:
     en: Vukovar-Syrmia
     ar: مقاطعة فوكوفار-سيرميا
@@ -1049,17 +1088,19 @@
     ccp: "\U0001111E\U0001112A\U00011107\U0001112E\U0001111E\U00011122\U00011134-\U00011125\U00011128\U00011122\U00011134\U0001111F\U00011128\U00011120"
     bs: Vukovarsko-srijemska županija
     mk: Вуковарско-сремска жупанија
-  geo:
-    latitude: 45.1773552
-    longitude: 18.8053527
-    min_latitude: 44.8497502
-    min_longitude: 18.4948404
-    max_latitude: 45.4856329
-    max_longitude: 19.4480523
-  name: Vukovarsko-srijemska županija
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Splitsko-dalmatinska županija
+  code: 
   unofficial_names:
   - Split-Dalmatia
+  geo:
+    latitude: 43.5240328
+    longitude: 16.8178377
+    min_latitude: 42.38713629999999
+    min_longitude: 15.709013
+    max_latitude: 43.9736159
+    max_longitude: 17.4510685
   translations:
     en: Split-Dalmatia
     ar: مقاطعة سبليت-دالماسيا
@@ -1115,17 +1156,19 @@
     ccp: "\U00011103\U00011128\U0001110C\U00011134\U0001111B\U00011133\U00011123\U00011128\U00011116\U00011134-\U00011113\U00011123\U00011134\U0001111F\U00011111\U00011128\U00011120"
     bs: Splitsko-dalmatinska županija
     mk: Сплитско-далматинска жупанија
-  geo:
-    latitude: 43.5240328
-    longitude: 16.8178377
-    min_latitude: 42.38713629999999
-    min_longitude: 15.709013
-    max_latitude: 43.9736159
-    max_longitude: 17.4510685
-  name: Splitsko-dalmatinska županija
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Istarska županija
+  code: 
   unofficial_names:
   - Istria
+  geo:
+    latitude: 45.1286455
+    longitude: 13.901542
+    min_latitude: 44.75755170000001
+    min_longitude: 13.4896865
+    max_latitude: 45.5196036
+    max_longitude: 14.2285896
   translations:
     en: Istria
     ar: مقاطعة إستريا
@@ -1182,17 +1225,19 @@
     ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011128\U00011120"
     bs: Istarska županija
     mk: Истарска жупанија
-  geo:
-    latitude: 45.1286455
-    longitude: 13.901542
-    min_latitude: 44.75755170000001
-    min_longitude: 13.4896865
-    max_latitude: 45.5196036
-    max_longitude: 14.2285896
-  name: Istarska županija
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Dubrovačko-neretvanska županija
+  code: 
   unofficial_names:
   - Dubrovnik-Neretva
+  geo:
+    latitude: 43.0766588
+    longitude: 17.5268471
+    min_latitude: 42.3922402
+    min_longitude: 16.4876151
+    max_latitude: 43.17750849999999
+    max_longitude: 18.5337474
   translations:
     en: Dubrovnik-Neretva
     ar: مقاطعة دوبروفنيك-نيريتفا
@@ -1250,17 +1295,19 @@
     he: מחוז דוברובניק-נרטבה
     bs: Dubrovačko-neretvanska županija
     mk: Дубровничко-неретванска жупанија
-  geo:
-    latitude: 43.0766588
-    longitude: 17.5268471
-    min_latitude: 42.3922402
-    min_longitude: 16.4876151
-    max_latitude: 43.17750849999999
-    max_longitude: 18.5337474
-  name: Dubrovačko-neretvanska županija
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Međimurska županija
+  code: 
   unofficial_names:
   - Međimurje
+  geo:
+    latitude: 46.3766644
+    longitude: 16.4213298
+    min_latitude: 46.2877571
+    min_longitude: 16.2384532
+    max_latitude: 46.5552234
+    max_longitude: 16.8580089
   translations:
     en: Međimurje
     ar: مقاطعة ماجيموريه
@@ -1315,17 +1362,19 @@
     ccp: "\U0001111F\U0001112C\U00011113\U00011128\U0001111F\U0001112A\U00011122\U00011134\U0001110E\U0001112C"
     bs: Međimurska županija
     mk: Меѓимурска жупанија
-  geo:
-    latitude: 46.3766644
-    longitude: 16.4213298
-    min_latitude: 46.2877571
-    min_longitude: 16.2384532
-    max_latitude: 46.5552234
-    max_longitude: 16.8580089
-  name: Međimurska županija
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Grad Zagreb
+  code: 
   unofficial_names:
   - City of Zagreb
+  geo:
+    latitude: 45.8150108
+    longitude: 15.981919
+    min_latitude: 45.7408527
+    min_longitude: 15.8216904
+    max_latitude: 45.9395392
+    max_longitude: 16.1069727
   translations:
     en: Zagreb
     af: Zagreb
@@ -1405,11 +1454,4 @@
     uz: Zagreb
     bs: Zagreb
     mk: Загреб
-  geo:
-    latitude: 45.8150108
-    longitude: 15.981919
-    min_latitude: 45.7408527
-    min_longitude: 15.8216904
-    max_latitude: 45.9395392
-    max_longitude: 16.1069727
-  name: Grad Zagreb
+  comments: 

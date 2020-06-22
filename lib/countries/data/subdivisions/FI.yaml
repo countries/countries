@@ -1,9 +1,9 @@
 ---
-AL:
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Ahvenanmaan lääni
+  code: 
   unofficial_names:
   - Åland
-  translations:
-    en: Ahvenanmaan lääni
   geo:
     latitude: 60.177002
     longitude: 19.915002
@@ -11,11 +11,13 @@ AL:
     min_longitude: 19.4613939
     max_latitude: 60.6547739
     max_longitude: 21.1111317
-  name: Ahvenanmaan lääni
-ES:
-  unofficial_names: Etelä-Suomen lääni
   translations:
-    en: Etelä-Suomen lääni
+    en: Ahvenanmaan lääni
+  comments: 
+ES: !ruby/struct:ISO3166::Subdivision
+  name: Etelä-Suomen lääni
+  code: 
+  unofficial_names: Etelä-Suomen lääni
   geo:
     latitude: 
     longitude: 
@@ -23,14 +25,16 @@ ES:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Etelä-Suomen lääni
-IS:
+  translations:
+    en: Etelä-Suomen lääni
+  comments: 
+IS: !ruby/struct:ISO3166::Subdivision
+  name: Itä-Suomen lääni
+  code: 
   unofficial_names:
   - Östra Nyland
   - Itä-Uusimaa
   - Uusima de lʿEst
-  translations:
-    en: Itä-Suomen lääni
   geo:
     latitude: 
     longitude: 
@@ -38,15 +42,17 @@ IS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Itä-Suomen lääni
-LL:
+  translations:
+    en: Itä-Suomen lääni
+  comments: 
+LL: !ruby/struct:ISO3166::Subdivision
+  name: Lapin lääni
+  code: 
   unofficial_names:
   - Lappland
   - Lappi
   - Lappland
   - Laponie
-  translations:
-    en: Lapin lääni
   geo:
     latitude: 67.9222304
     longitude: 26.5046438
@@ -54,11 +60,13 @@ LL:
     min_longitude: 20.5489762
     max_latitude: 70.092444
     max_longitude: 30.016886
-  name: Lapin lääni
-LS:
-  unofficial_names: Länsi-Suomen lääni
   translations:
-    en: Länsi-Suomen lääni
+    en: Lapin lääni
+  comments: 
+LS: !ruby/struct:ISO3166::Subdivision
+  name: Länsi-Suomen lääni
+  code: 
+  unofficial_names: Länsi-Suomen lääni
   geo:
     latitude: 
     longitude: 
@@ -66,11 +74,13 @@ LS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Länsi-Suomen lääni
-OL:
-  unofficial_names: Oulun lääni
   translations:
-    en: Oulun lääni
+    en: Länsi-Suomen lääni
+  comments: 
+OL: !ruby/struct:ISO3166::Subdivision
+  name: Oulun lääni
+  code: 
+  unofficial_names: Oulun lääni
   geo:
     latitude: 65.6234319
     longitude: 25.1482406
@@ -78,9 +88,20 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Oulun lääni
-'18':
+  translations:
+    en: Oulun lääni
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Uusimaa
     ar: أوسيما
@@ -139,6 +160,11 @@ OL:
     ga: An Nualainn
     hy: Ուուսիմաա
     mk: Усима
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -146,8 +172,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     ar: كاريليا الجنوبية
     bn: দক্ষিন কারেলিয়া
@@ -201,6 +225,11 @@ OL:
     sq: Karelia Jugore
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U00011122\U0001112C\U00011123\U00011128\U00011120"
     ga: An Chairéil Theas
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -208,8 +237,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     ar: بوهيانما الجنوبية
     be: Паўднёвая Астработнія
@@ -263,6 +290,11 @@ OL:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U0001112E\U0001111D\U0001112E\U00011116\U00011134\U0001111A\U00011128\U00011120"
     hy: Հարավային Օստրոբոտնիա
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -270,8 +302,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     ar: سافو الجنوبية
     be: Паўднёвае Сава
@@ -326,6 +356,11 @@ OL:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011125\U0001111E\U0001112E\U0001111A\U00011128\U00011120"
     hu: Dél-Savo
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -333,8 +368,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     ar: كاينو
     be: Кайнуу
@@ -391,6 +424,11 @@ OL:
     ccp: "\U00011107\U0001112D\U0001111A\U0001112A"
     ga: Kainuu
     mk: Каину
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -398,8 +436,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     ar: كانتا هامي
     bn: তাস্তিয়া প্রপার
@@ -449,6 +485,11 @@ OL:
     zh: 坎塔海梅區
     sq: Tavastia Proper
     ccp: "\U00011111\U0001111E\U0001110C\U00011134\U00011111\U00011128\U00011120 \U0001111B\U00011133\U00011122\U0001112E\U0001111B\U00011122\U00011134"
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -456,8 +497,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ar: بوهيانما الوسطى
     bn: সেন্ট্রাল অস্ট্রোবোথনিয়া
@@ -511,6 +550,11 @@ OL:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
       \U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U0001112E\U0001111D\U0001112E\U00011116\U00011134\U0001111A\U00011128\U00011120"
     hy: Կենտրոնական Օստրոբոտնիա
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -518,8 +562,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     ar: فنلندا الوسطى
     bn: সেন্ট্রাল ফিনল্যান্ড
@@ -573,6 +615,11 @@ OL:
       \U0001111C\U00011128\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     hy: Կենտրոնական Ֆինլանդիա
     be: Цэнтральная Фінляндыя
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -580,8 +627,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     ar: كومنلاكسو
     bg: Кйменлаксо
@@ -634,6 +679,11 @@ OL:
     sq: Kymenlaakso
     ccp: "\U00011107\U0001112D\U0001111F\U0001112C\U0001111A\U00011134\U00011123\U00011107\U00011134\U00011125\U0001112E"
     be: Кюменлаакса
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -641,8 +691,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     ar: إقليم لابي
     be: Лапландыя
@@ -688,6 +736,11 @@ OL:
     sq: Lapland
     ccp: "\U00011123\U0001111B\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Лапонија
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -695,8 +748,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'11':
-  unofficial_names: 
   translations:
     ar: بيركنما
     bg: Пирканма
@@ -752,6 +803,11 @@ OL:
     ga: Pirkanmaa
     hy: Պիրկանմաա
     be: Пірканмаа
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -759,8 +815,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'12':
-  unofficial_names: 
   translations:
     ar: بوهيانما
     be: Астработнія
@@ -800,6 +854,11 @@ OL:
     sq: Ostrobothnia
     ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U0001112E\U0001111D\U0001112E\U00011116\U00011134\U0001111A\U00011128\U00011120"
     hu: Pohjanmaa
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -807,8 +866,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'13':
-  unofficial_names: 
   translations:
     ar: كاريليا الشمالية
     bn: কারেলিয়া
@@ -864,6 +921,11 @@ OL:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011107\U0001112C\U00011122\U0001112C\U00011123\U00011128\U0001111A"
     mk: Северна Карелија
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -871,8 +933,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'14':
-  unofficial_names: 
   translations:
     ar: بوهيانما الشمالية
     bn: নর্দান ওস্ট্রোবোথনিয়া
@@ -929,6 +989,11 @@ OL:
       \U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U0001112E\U0001111D\U0001112E\U00011116\U00011134\U0001111A\U00011128\U00011120"
     be: Паўночная Астработнія
     mk: Северна Остроботнија
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -936,8 +1001,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'15':
-  unofficial_names: 
   translations:
     ar: سافو الشمالية
     be: Паўночнае Сава
@@ -994,6 +1057,11 @@ OL:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011125\U00011127\U0001111E\U0001112E\U0001111A\U00011128\U00011120"
     mk: Северна Савонија
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1001,8 +1069,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'16':
-  unofficial_names: 
   translations:
     ar: بايات هامي
     be: Пяят-Хямэ
@@ -1055,6 +1121,11 @@ OL:
     ccp: "\U0001111B\U0001112D\U0001110E\U0001111A\U0001112C \U00011111\U0001111E\U0001110C\U00011134\U00011111\U00011128\U00011120"
     ga: Päijät-Häme
     hy: Պյայատ-Հյամե
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1062,8 +1133,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'17':
-  unofficial_names: 
   translations:
     ar: ستاكونتا
     bg: Сатакунта
@@ -1121,6 +1190,11 @@ OL:
     az: Satakunta
     be: Сатакунта
     bs: Satakunta
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1128,8 +1202,6 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'19':
-  unofficial_names: 
   translations:
     ar: فارسينايس سوومي
     be: Паўднёва-Заходняя Фінляндыя
@@ -1182,6 +1254,11 @@ OL:
     sq: Finlanda Jugperëndimore
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U0001111C\U00011128\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1189,16 +1266,8 @@ OL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'01':
-  unofficial_names: 
   translations:
     en: Åland Islands
     ccp: "\U00011103\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
       \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

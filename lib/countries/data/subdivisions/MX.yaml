@@ -1,6 +1,15 @@
 ---
-AGU:
+AGU: !ruby/struct:ISO3166::Subdivision
+  name: Aguascalientes
+  code: 
   unofficial_names: Aguascalientes
+  geo:
+    latitude: 21.8852562
+    longitude: -102.2915677
+    min_latitude: 21.8200957
+    min_longitude: -102.3555606
+    max_latitude: 21.9580787
+    max_longitude: -102.2284165
   translations:
     en: Aguascalientes
     ar: ولاية اغواسكالينتس
@@ -65,16 +74,18 @@ AGU:
     uz: Aguaskalentes
     bs: Aguascalientes
     mk: Агваскалиентес
-  geo:
-    latitude: 21.8852562
-    longitude: -102.2915677
-    min_latitude: 21.8200957
-    min_longitude: -102.3555606
-    max_latitude: 21.9580787
-    max_longitude: -102.2284165
-  name: Aguascalientes
-BCN:
+  comments: 
+BCN: !ruby/struct:ISO3166::Subdivision
+  name: Baja California
+  code: 
   unofficial_names: Baja California
+  geo:
+    latitude: 30.8406338
+    longitude: -115.2837585
+    min_latitude: 27.9999998
+    min_longitude: -118.36443
+    max_latitude: 32.7186534
+    max_longitude: -112.7555545
   translations:
     en: Baja California
     af: Baja California
@@ -144,16 +155,18 @@ BCN:
     uz: Quyi shimoliy Kaliforniya
     bs: Donja Kalifornija
     mk: Долна Калифорнија
-  geo:
-    latitude: 30.8406338
-    longitude: -115.2837585
-    min_latitude: 27.9999998
-    min_longitude: -118.36443
-    max_latitude: 32.7186534
-    max_longitude: -112.7555545
-  name: Baja California
-BCS:
+  comments: 
+BCS: !ruby/struct:ISO3166::Subdivision
+  name: Baja California Sur
+  code: 
   unofficial_names: Baja California Sur
+  geo:
+    latitude: 26.0444446
+    longitude: -111.6660725
+    min_latitude: 22.8722626
+    min_longitude: -115.2137241
+    max_latitude: 28.0000017
+    max_longitude: -109.4134348
   translations:
     en: Baja California Sur
     af: Baja California Sur
@@ -219,16 +232,18 @@ BCS:
     yue: 南下加利福尼亞州
     uz: Quyi janubiy Kaliforniya
     mk: Јужна Долна Калифорнија
-  geo:
-    latitude: 26.0444446
-    longitude: -111.6660725
-    min_latitude: 22.8722626
-    min_longitude: -115.2137241
-    max_latitude: 28.0000017
-    max_longitude: -109.4134348
-  name: Baja California Sur
-CAM:
+  comments: 
+CAM: !ruby/struct:ISO3166::Subdivision
+  name: Campeche
+  code: 
   unofficial_names: Campeche
+  geo:
+    latitude: 19.8301251
+    longitude: -90.5349087
+    min_latitude: 19.7848441
+    min_longitude: -90.6223751
+    max_latitude: 19.8763407
+    max_longitude: -90.4777941
   translations:
     en: Campeche
     af: Campeche
@@ -291,16 +306,18 @@ CAM:
     yue: 坎佩切州
     uz: Kampeche
     mk: Кампече
-  geo:
-    latitude: 19.8301251
-    longitude: -90.5349087
-    min_latitude: 19.7848441
-    min_longitude: -90.6223751
-    max_latitude: 19.8763407
-    max_longitude: -90.4777941
-  name: Campeche
-CHH:
+  comments: 
+CHH: !ruby/struct:ISO3166::Subdivision
+  name: Chihuahua
+  code: 
   unofficial_names: Chihuahua
+  geo:
+    latitude: 28.6329957
+    longitude: -106.0691004
+    min_latitude: 28.5586774
+    min_longitude: -106.1671059
+    max_latitude: 28.7729082
+    max_longitude: -105.9612896
   translations:
     en: Chihuahua
     af: Chihuahua
@@ -368,16 +385,18 @@ CHH:
     uz: Chiuaua
     bs: Chihuahua
     mk: Чивава
-  geo:
-    latitude: 28.6329957
-    longitude: -106.0691004
-    min_latitude: 28.5586774
-    min_longitude: -106.1671059
-    max_latitude: 28.7729082
-    max_longitude: -105.9612896
-  name: Chihuahua
-CHP:
+  comments: 
+CHP: !ruby/struct:ISO3166::Subdivision
+  name: Chiapas
+  code: 
   unofficial_names: Chiapas
+  geo:
+    latitude: 16.7569318
+    longitude: -93.12923529999999
+    min_latitude: 14.5320984
+    min_longitude: -94.13915589999999
+    max_latitude: 17.9852877
+    max_longitude: -90.3702138
   translations:
     en: Chiapas
     af: Chiapas
@@ -440,16 +459,18 @@ CHP:
     yue: 恰帕斯州
     uz: Chyapas
     bs: Chiapas
-  geo:
-    latitude: 16.7569318
-    longitude: -93.12923529999999
-    min_latitude: 14.5320984
-    min_longitude: -94.13915589999999
-    max_latitude: 17.9852877
-    max_longitude: -90.3702138
-  name: Chiapas
-CMX:
+  comments: 
+CMX: !ruby/struct:ISO3166::Subdivision
+  name: Ciudad de México
+  code: 
   unofficial_names: Ciudad de México
+  geo:
+    latitude: 19.2464696
+    longitude: -99.1013498
+    min_latitude: 19.0482366
+    min_longitude: -99.36492419999999
+    max_latitude: 19.5927571
+    max_longitude: -98.94030269999999
   translations:
     en: Ciudad de Mexico
     af: Meksikostad
@@ -532,16 +553,18 @@ CMX:
     uz: Mexiko shahri
     bs: Ciudad de México
     mk: Мексико
-  geo:
-    latitude: 19.2464696
-    longitude: -99.1013498
-    min_latitude: 19.0482366
-    min_longitude: -99.36492419999999
-    max_latitude: 19.5927571
-    max_longitude: -98.94030269999999
-  name: Ciudad de México
-COA:
+  comments: 
+COA: !ruby/struct:ISO3166::Subdivision
+  name: Coahuila
+  code: 
   unofficial_names: Coahuila
+  geo:
+    latitude: 27.058676
+    longitude: -101.7068294
+    min_latitude: 24.542684
+    min_longitude: -103.9600019
+    max_latitude: 29.8800241
+    max_longitude: -99.8431197
   translations:
     en: Coahuila
     af: Coahuila
@@ -604,16 +627,18 @@ COA:
     ga: Coahuila
     yue: 科阿韋拉州
     uz: Koauila
-  geo:
-    latitude: 27.058676
-    longitude: -101.7068294
-    min_latitude: 24.542684
-    min_longitude: -103.9600019
-    max_latitude: 29.8800241
-    max_longitude: -99.8431197
-  name: Coahuila
-COL:
+  comments: 
+COL: !ruby/struct:ISO3166::Subdivision
+  name: Colima
+  code: 
   unofficial_names: Colima
+  geo:
+    latitude: 19.2452342
+    longitude: -103.7240868
+    min_latitude: 19.1987996
+    min_longitude: -103.7838196
+    max_latitude: 19.2943022
+    max_longitude: -103.6734973
   translations:
     en: Colima
     af: Colima
@@ -676,16 +701,18 @@ COL:
     ga: Colima
     yue: 科利馬州
     uz: Kolima
-  geo:
-    latitude: 19.2452342
-    longitude: -103.7240868
-    min_latitude: 19.1987996
-    min_longitude: -103.7838196
-    max_latitude: 19.2943022
-    max_longitude: -103.6734973
-  name: Colima
-DUR:
+  comments: 
+DUR: !ruby/struct:ISO3166::Subdivision
+  name: Durango
+  code: 
   unofficial_names: Durango
+  geo:
+    latitude: 24.0277202
+    longitude: -104.6531759
+    min_latitude: 23.9633543
+    min_longitude: -104.7151846
+    max_latitude: 24.0945669
+    max_longitude: -104.5754014
   translations:
     en: Durango
     af: Durango
@@ -749,16 +776,18 @@ DUR:
     yue: 杜蘭戈州
     uz: Durango (shtat)
     mk: Дуранго
-  geo:
-    latitude: 24.0277202
-    longitude: -104.6531759
-    min_latitude: 23.9633543
-    min_longitude: -104.7151846
-    max_latitude: 24.0945669
-    max_longitude: -104.5754014
-  name: Durango
-GRO:
+  comments: 
+GRO: !ruby/struct:ISO3166::Subdivision
+  name: Guerrero
+  code: 
   unofficial_names: Guerrero
+  geo:
+    latitude: 17.4391926
+    longitude: -99.54509739999999
+    min_latitude: 16.3159525
+    min_longitude: -102.1834566
+    max_latitude: 18.8878466
+    max_longitude: -98.00727630000002
   translations:
     en: Guerrero
     ar: ولاية غيريرو
@@ -821,16 +850,18 @@ GRO:
     yue: 格雷羅州
     uz: Gerrero
     mk: Гереро
-  geo:
-    latitude: 17.4391926
-    longitude: -99.54509739999999
-    min_latitude: 16.3159525
-    min_longitude: -102.1834566
-    max_latitude: 18.8878466
-    max_longitude: -98.00727630000002
-  name: Guerrero
-GUA:
+  comments: 
+GUA: !ruby/struct:ISO3166::Subdivision
+  name: Guanajuato
+  code: 
   unofficial_names: Guanajuato
+  geo:
+    latitude: 21.0190145
+    longitude: -101.2573586
+    min_latitude: 20.9986079
+    min_longitude: -101.2801804
+    max_latitude: 21.0516362
+    max_longitude: -101.226862
   translations:
     en: Guanajuato
     af: Guanajuato
@@ -894,16 +925,18 @@ GUA:
     yue: 瓜納華托州
     uz: Guanaxuato
     mk: Гванахуато
-  geo:
-    latitude: 21.0190145
-    longitude: -101.2573586
-    min_latitude: 20.9986079
-    min_longitude: -101.2801804
-    max_latitude: 21.0516362
-    max_longitude: -101.226862
-  name: Guanajuato
-HID:
+  comments: 
+HID: !ruby/struct:ISO3166::Subdivision
+  name: Hidalgo
+  code: 
   unofficial_names: Hidalgo
+  geo:
+    latitude: 20.0910963
+    longitude: -98.7623874
+    min_latitude: 19.5977581
+    min_longitude: -99.85954129999999
+    max_latitude: 21.3985208
+    max_longitude: -97.9849289
   translations:
     en: Hidalgo
     ar: ولاية هيدالغو
@@ -967,16 +1000,18 @@ HID:
     uz: Idalgo
     bs: Hidalgo
     mk: Идалго
-  geo:
-    latitude: 20.0910963
-    longitude: -98.7623874
-    min_latitude: 19.5977581
-    min_longitude: -99.85954129999999
-    max_latitude: 21.3985208
-    max_longitude: -97.9849289
-  name: Hidalgo
-JAL:
+  comments: 
+JAL: !ruby/struct:ISO3166::Subdivision
+  name: Jalisco
+  code: 
   unofficial_names: Jalisco
+  geo:
+    latitude: 20.6595382
+    longitude: -103.3494376
+    min_latitude: 18.9258718
+    min_longitude: -105.6947969
+    max_latitude: 22.7502459
+    max_longitude: -101.5105417
   translations:
     en: Jalisco
     af: Jalisco
@@ -1041,16 +1076,18 @@ JAL:
     yue: 哈利斯戈州
     uz: Xalisko
     mk: Халиско
-  geo:
-    latitude: 20.6595382
-    longitude: -103.3494376
-    min_latitude: 18.9258718
-    min_longitude: -105.6947969
-    max_latitude: 22.7502459
-    max_longitude: -101.5105417
-  name: Jalisco
-MEX:
+  comments: 
+MEX: !ruby/struct:ISO3166::Subdivision
+  name: México
+  code: 
   unofficial_names: México
+  geo:
+    latitude: 19.4326077
+    longitude: -99.133208
+    min_latitude: 19.0482787
+    min_longitude: -99.3641835
+    max_latitude: 19.5919189
+    max_longitude: -98.9401855
   translations:
     en: Mexico State
     ar: مكسيكو
@@ -1113,16 +1150,18 @@ MEX:
     ga: Meicsiceo
     yue: 墨西哥州
     uz: Mexiko
-  geo:
-    latitude: 19.4326077
-    longitude: -99.133208
-    min_latitude: 19.0482787
-    min_longitude: -99.3641835
-    max_latitude: 19.5919189
-    max_longitude: -98.9401855
-  name: México
-MIC:
+  comments: 
+MIC: !ruby/struct:ISO3166::Subdivision
+  name: Michoacán
+  code: 
   unofficial_names: Michoacán
+  geo:
+    latitude: 19.5665192
+    longitude: -101.7068294
+    min_latitude: 17.9149077
+    min_longitude: -103.7381271
+    max_latitude: 20.3942215
+    max_longitude: -100.0630329
   translations:
     en: Michoacán
     ar: ولاية ميتشواكان
@@ -1184,16 +1223,18 @@ MIC:
     ga: Michoacán
     yue: 米卻肯州
     uz: Michoakan
-  geo:
-    latitude: 19.5665192
-    longitude: -101.7068294
-    min_latitude: 17.9149077
-    min_longitude: -103.7381271
-    max_latitude: 20.3942215
-    max_longitude: -100.0630329
-  name: Michoacán
-MOR:
+  comments: 
+MOR: !ruby/struct:ISO3166::Subdivision
+  name: Morelos
+  code: 
   unofficial_names: Morelos
+  geo:
+    latitude: 18.6813049
+    longitude: -99.1013498
+    min_latitude: 18.332373
+    min_longitude: -99.4944141
+    max_latitude: 19.1317018
+    max_longitude: -98.63294660000001
   translations:
     en: Morelos
     af: Morelos
@@ -1252,16 +1293,18 @@ MOR:
     pa: ਮੋਰੇਲੋਸ
     yue: 莫雷洛斯州
     uz: Morelos
-  geo:
-    latitude: 18.6813049
-    longitude: -99.1013498
-    min_latitude: 18.332373
-    min_longitude: -99.4944141
-    max_latitude: 19.1317018
-    max_longitude: -98.63294660000001
-  name: Morelos
-NAY:
+  comments: 
+NAY: !ruby/struct:ISO3166::Subdivision
+  name: Nayarit
+  code: 
   unofficial_names: Nayarit
+  geo:
+    latitude: 21.7513844
+    longitude: -104.8454619
+    min_latitude: 20.6032209
+    min_longitude: -106.6877266
+    max_latitude: 23.0845034
+    max_longitude: -103.7208954
   translations:
     en: Nayarit
     af: Nayarit
@@ -1325,16 +1368,18 @@ NAY:
     pa: ਨਾਈਆਰੀਤ
     yue: 納亞里特州
     uz: Nayarit
-  geo:
-    latitude: 21.7513844
-    longitude: -104.8454619
-    min_latitude: 20.6032209
-    min_longitude: -106.6877266
-    max_latitude: 23.0845034
-    max_longitude: -103.7208954
-  name: Nayarit
-NLE:
+  comments: 
+NLE: !ruby/struct:ISO3166::Subdivision
+  name: Nuevo León
+  code: 
   unofficial_names: Nuevo León
+  geo:
+    latitude: 25.592172
+    longitude: -99.99619469999999
+    min_latitude: 23.162683
+    min_longitude: -101.2067627
+    max_latitude: 27.7991372
+    max_longitude: -98.4215759
   translations:
     en: Nuevo León
     ar: ولاية نويفو ليون
@@ -1396,16 +1441,18 @@ NLE:
     ga: Nuevo León
     yue: 新萊昂州
     uz: Nuevoleon
-  geo:
-    latitude: 25.592172
-    longitude: -99.99619469999999
-    min_latitude: 23.162683
-    min_longitude: -101.2067627
-    max_latitude: 27.7991372
-    max_longitude: -98.4215759
-  name: Nuevo León
-OAX:
+  comments: 
+OAX: !ruby/struct:ISO3166::Subdivision
+  name: Oaxaca
+  code: 
   unofficial_names: Oaxaca
+  geo:
+    latitude: 17.0594169
+    longitude: -96.7216219
+    min_latitude: 17.0222818
+    min_longitude: -96.78067659999999
+    max_latitude: 17.1332787
+    max_longitude: -96.6762766
   translations:
     en: Oaxaca
     af: Oaxaca
@@ -1476,16 +1523,18 @@ OAX:
     yue: 瓦哈卡
     my: အိုအေဂျေစီအ
     uz: Oaksaka
-  geo:
-    latitude: 17.0594169
-    longitude: -96.7216219
-    min_latitude: 17.0222818
-    min_longitude: -96.78067659999999
-    max_latitude: 17.1332787
-    max_longitude: -96.6762766
-  name: Oaxaca
-PUE:
+  comments: 
+PUE: !ruby/struct:ISO3166::Subdivision
+  name: Puebla
+  code: 
   unofficial_names: Puebla
+  geo:
+    latitude: 19.0412967
+    longitude: -98.20619959999999
+    min_latitude: 18.9443809
+    min_longitude: -98.2824308
+    max_latitude: 19.1381977
+    max_longitude: -98.1035011
   translations:
     en: Puebla
     ar: ولاية بويبلا
@@ -1549,16 +1598,18 @@ PUE:
     pa: ਪੁਐਬਲਾ
     yue: 普埃布拉州
     uz: Puebla
-  geo:
-    latitude: 19.0412967
-    longitude: -98.20619959999999
-    min_latitude: 18.9443809
-    min_longitude: -98.2824308
-    max_latitude: 19.1381977
-    max_longitude: -98.1035011
-  name: Puebla
-QUE:
+  comments: 
+QUE: !ruby/struct:ISO3166::Subdivision
+  name: Querétaro
+  code: 
   unofficial_names: Querétaro
+  geo:
+    latitude: 20.5887932
+    longitude: -100.3898881
+    min_latitude: 20.5434421
+    min_longitude: -100.482931
+    max_latitude: 20.6854032
+    max_longitude: -100.3285436
   translations:
     en: Querétaro
     af: Querétaro
@@ -1621,16 +1672,18 @@ QUE:
     ga: Querétaro
     yue: 克雷塔羅州
     uz: Keretaro (Meksika)
-  geo:
-    latitude: 20.5887932
-    longitude: -100.3898881
-    min_latitude: 20.5434421
-    min_longitude: -100.482931
-    max_latitude: 20.6854032
-    max_longitude: -100.3285436
-  name: Querétaro
-ROO:
+  comments: 
+ROO: !ruby/struct:ISO3166::Subdivision
+  name: Quintana Roo
+  code: 
   unofficial_names: Quintana Roo
+  geo:
+    latitude: 19.1817393
+    longitude: -88.4791376
+    min_latitude: 17.8939856
+    min_longitude: -89.29656179999999
+    max_latitude: 21.587621
+    max_longitude: -86.7105607
   translations:
     en: Quintana Roo
     ar: ولاية كينتانا رو
@@ -1694,16 +1747,18 @@ ROO:
     yue: 金塔納羅奧州
     uz: Kintana-roo
     mk: Кинтана Ро
-  geo:
-    latitude: 19.1817393
-    longitude: -88.4791376
-    min_latitude: 17.8939856
-    min_longitude: -89.29656179999999
-    max_latitude: 21.587621
-    max_longitude: -86.7105607
-  name: Quintana Roo
-SIN:
+  comments: 
+SIN: !ruby/struct:ISO3166::Subdivision
+  name: Sinaloa
+  code: 
   unofficial_names: Sinaloa
+  geo:
+    latitude: 25.825701
+    longitude: -108.214302
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sinaloa
     af: Sinaloa
@@ -1770,16 +1825,18 @@ SIN:
     yue: 錫那羅亞州
     yo: Sinaloa
     uz: Sinaloa
-  geo:
-    latitude: 25.825701
-    longitude: -108.214302
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Sinaloa
-SLP:
+  comments: 
+SLP: !ruby/struct:ISO3166::Subdivision
+  name: San Luis Potosí
+  code: 
   unofficial_names: San Luis Potosí
+  geo:
+    latitude: 22.1564699
+    longitude: -100.9855409
+    min_latitude: 22.0620884
+    min_longitude: -101.0467011
+    max_latitude: 22.2092432
+    max_longitude: -100.8747596
   translations:
     en: San Luis Potosí
     ar: ولاية سان لويس بوتوسي
@@ -1842,16 +1899,18 @@ SLP:
     ga: San Luis Potosí
     yue: 聖路易斯波托西州
     uz: San-Luis-Potosi
-  geo:
-    latitude: 22.1564699
-    longitude: -100.9855409
-    min_latitude: 22.0620884
-    min_longitude: -101.0467011
-    max_latitude: 22.2092432
-    max_longitude: -100.8747596
-  name: San Luis Potosí
-SON:
+  comments: 
+SON: !ruby/struct:ISO3166::Subdivision
+  name: Sonora
+  code: 
   unofficial_names: Sonora
+  geo:
+    latitude: 29.2972247
+    longitude: -110.3308814
+    min_latitude: 26.2969879
+    min_longitude: -115.0530223
+    max_latitude: 32.4937985
+    max_longitude: -108.4242708
   translations:
     en: Sonora
     af: Sonora
@@ -1917,16 +1976,18 @@ SON:
     uz: Sonora
     bs: Sonora
     mk: Сонора
-  geo:
-    latitude: 29.2972247
-    longitude: -110.3308814
-    min_latitude: 26.2969879
-    min_longitude: -115.0530223
-    max_latitude: 32.4937985
-    max_longitude: -108.4242708
-  name: Sonora
-TAB:
+  comments: 
+TAB: !ruby/struct:ISO3166::Subdivision
+  name: Tabasco
+  code: 
   unofficial_names: Tabasco
+  geo:
+    latitude: 17.8409173
+    longitude: -92.6189273
+    min_latitude: 17.2508934
+    min_longitude: -94.12979179999999
+    max_latitude: 18.6502994
+    max_longitude: -90.98745919999999
   translations:
     en: Tabasco
     af: Tabasco
@@ -1990,16 +2051,18 @@ TAB:
     ga: Tabasco
     yue: 塔巴斯科州
     uz: Tabasko
-  geo:
-    latitude: 17.8409173
-    longitude: -92.6189273
-    min_latitude: 17.2508934
-    min_longitude: -94.12979179999999
-    max_latitude: 18.6502994
-    max_longitude: -90.98745919999999
-  name: Tabasco
-TAM:
+  comments: 
+TAM: !ruby/struct:ISO3166::Subdivision
+  name: Tamaulipas
+  code: 
   unofficial_names: Tamaulipas
+  geo:
+    latitude: 24.26694
+    longitude: -98.8362755
+    min_latitude: 22.2069658
+    min_longitude: -100.1449502
+    max_latitude: 27.6791263
+    max_longitude: -97.14426089999999
   translations:
     en: Tamaulipas
     ar: ولاية تاماوليباس
@@ -2062,16 +2125,18 @@ TAM:
     ga: Tamaulipas
     yue: 塔毛利帕斯州
     uz: Tamaulipas
-  geo:
-    latitude: 24.26694
-    longitude: -98.8362755
-    min_latitude: 22.2069658
-    min_longitude: -100.1449502
-    max_latitude: 27.6791263
-    max_longitude: -97.14426089999999
-  name: Tamaulipas
-TLA:
+  comments: 
+TLA: !ruby/struct:ISO3166::Subdivision
+  name: Tlaxcala
+  code: 
   unofficial_names: Tlaxcala
+  geo:
+    latitude: 19.3181521
+    longitude: -98.2375146
+    min_latitude: 19.3056666
+    min_longitude: -98.24796239999999
+    max_latitude: 19.3264598
+    max_longitude: -98.2316719
   translations:
     en: Tlaxcala
     af: Tlaxcala
@@ -2134,16 +2199,18 @@ TLA:
     ga: Tlaxcala
     yue: 特拉斯卡拉州
     uz: Tlaskala
-  geo:
-    latitude: 19.3181521
-    longitude: -98.2375146
-    min_latitude: 19.3056666
-    min_longitude: -98.24796239999999
-    max_latitude: 19.3264598
-    max_longitude: -98.2316719
-  name: Tlaxcala
-VER:
+  comments: 
+VER: !ruby/struct:ISO3166::Subdivision
+  name: Veracruz
+  code: 
   unofficial_names: Veracruz
+  geo:
+    latitude: 19.173773
+    longitude: -96.1342241
+    min_latitude: 19.1309432
+    min_longitude: -96.206622
+    max_latitude: 19.2266685
+    max_longitude: -96.1181965
   translations:
     en: Veracruz
     af: Veracruz
@@ -2209,16 +2276,18 @@ VER:
     my: ဗေရကရုမြို့
     uz: Verakrus
     mk: Веракруз
-  geo:
-    latitude: 19.173773
-    longitude: -96.1342241
-    min_latitude: 19.1309432
-    min_longitude: -96.206622
-    max_latitude: 19.2266685
-    max_longitude: -96.1181965
-  name: Veracruz
-YUC:
+  comments: 
+YUC: !ruby/struct:ISO3166::Subdivision
+  name: Yucatán
+  code: 
   unofficial_names: Yucatán
+  geo:
+    latitude: 20.7098786
+    longitude: -89.0943377
+    min_latitude: 19.551174
+    min_longitude: -90.40699579999999
+    max_latitude: 21.6242092
+    max_longitude: -87.5331451
   translations:
     en: Yucatán
     af: Yucatán
@@ -2283,16 +2352,18 @@ YUC:
     yue: 尤卡坦州
     uz: Yukatan
     mk: Јукатан
-  geo:
-    latitude: 20.7098786
-    longitude: -89.0943377
-    min_latitude: 19.551174
-    min_longitude: -90.40699579999999
-    max_latitude: 21.6242092
-    max_longitude: -87.5331451
-  name: Yucatán
-ZAC:
+  comments: 
+ZAC: !ruby/struct:ISO3166::Subdivision
+  name: Zacatecas
+  code: 
   unofficial_names: Zacatecas
+  geo:
+    latitude: 22.7709249
+    longitude: -102.5832539
+    min_latitude: 22.7451586
+    min_longitude: -102.6196943
+    max_latitude: 22.7901168
+    max_longitude: -102.5549838
   translations:
     en: Zacatecas
     af: Zacatecas
@@ -2357,16 +2428,16 @@ ZAC:
     yue: 薩卡特卡斯州
     uz: Sakatekas
     mk: Закатекас
+  comments: 
+DIF: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 22.7709249
-    longitude: -102.5832539
-    min_latitude: 22.7451586
-    min_longitude: -102.6196943
-    max_latitude: 22.7901168
-    max_longitude: -102.5549838
-  name: Zacatecas
-DIF:
+    latitude: 19.3663162
+    longitude: -99.1593231
   translations:
     en: Mexico City
     ccp: "\U0001111F\U0001112C\U00011107\U00011134\U00011125\U00011128\U00011107\U0001112E
       \U00011125\U00011128\U00011111\U00011128"
+  comments: 

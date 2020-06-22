@@ -1,8 +1,17 @@
 ---
-CPK:
+CPK: !ruby/struct:ISO3166::Subdivision
+  name: Chimbu
+  code: 
   unofficial_names:
   - Chimbu
   - Simbúa
+  geo:
+    latitude: -6.308768199999999
+    longitude: 144.8731219
+    min_latitude: -6.8954711
+    min_longitude: 144.4285419
+    max_latitude: -5.775725
+    max_longitude: 145.33975
   translations:
     en: Chimbu
     ar: محافظة تشيمبو
@@ -49,17 +58,19 @@ CPK:
     ceb: Chimbu Province
     lt: Čimbu provincija
     ccp: "\U0001110C\U00011128\U0001111F\U00011134\U0001111D\U0001112A"
-  geo:
-    latitude: -6.308768199999999
-    longitude: 144.8731219
-    min_latitude: -6.8954711
-    min_longitude: 144.4285419
-    max_latitude: -5.775725
-    max_longitude: 145.33975
-  name: Chimbu
-CPM:
+  comments: 
+CPM: !ruby/struct:ISO3166::Subdivision
+  name: Central
+  code: 
   unofficial_names:
   - Papua Central
+  geo:
+    latitude: -9.1360187
+    longitude: 147.4627259
+    min_latitude: -10.3948627
+    min_longitude: 146.381344
+    max_latitude: -7.773521
+    max_longitude: 149.6684618
   translations:
     en: Central
     ar: المحافظة الوسطى
@@ -105,17 +116,19 @@ CPM:
     ceb: Central Province (lalawigan sa Papua New Guinea)
     lt: Centrinė provincija
     zh: 中央省
-  geo:
-    latitude: -9.1360187
-    longitude: 147.4627259
-    min_latitude: -10.3948627
-    min_longitude: 146.381344
-    max_latitude: -7.773521
-    max_longitude: 149.6684618
-  name: Central
-EBR:
+  comments: 
+EBR: !ruby/struct:ISO3166::Subdivision
+  name: East New Britain
+  code: 
   unofficial_names:
   - New Britain East
+  geo:
+    latitude: -4.612894300000001
+    longitude: 151.8877321
+    min_latitude: -6.068317899999999
+    min_longitude: 150.5976151
+    max_latitude: -4.0885039
+    max_longitude: 152.4966978
   translations:
     en: East New Britain
     ar: شرق بريطانيا الجديدة
@@ -161,17 +174,19 @@ EBR:
     zh: 東新不列顛省
     ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111A\U00011131 \U0001111D\U00011133\U00011122\U00011128\U00011111\U0001112C\U0001111A\U00011134"
     mk: Источна Нова Британија
-  geo:
-    latitude: -4.612894300000001
-    longitude: 151.8877321
-    min_latitude: -6.068317899999999
-    min_longitude: 150.5976151
-    max_latitude: -4.0885039
-    max_longitude: 152.4966978
-  name: East New Britain
-EHG:
+  comments: 
+EHG: !ruby/struct:ISO3166::Subdivision
+  name: Eastern Highlands
+  code: 
   unofficial_names:
   - Highlands East
+  geo:
+    latitude: -6.5861674
+    longitude: 145.6689636
+    min_latitude: -7.1572681
+    min_longitude: 144.985481
+    max_latitude: -5.853335
+    max_longitude: 146.149775
   translations:
     en: Eastern Highlands
     ar: مقاطعة هايلاند الشرقية
@@ -217,16 +232,18 @@ EHG:
     zh: 東高地省
     ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
-  geo:
-    latitude: -6.5861674
-    longitude: 145.6689636
-    min_latitude: -7.1572681
-    min_longitude: 144.985481
-    max_latitude: -5.853335
-    max_longitude: 146.149775
-  name: Eastern Highlands
-EPW:
+  comments: 
+EPW: !ruby/struct:ISO3166::Subdivision
+  name: Enga
+  code: 
   unofficial_names: Enga
+  geo:
+    latitude: -5.3005849
+    longitude: 143.5635637
+    min_latitude: -5.9661789
+    min_longitude: 142.7393411
+    max_latitude: -5.0077089
+    max_longitude: 144.2541971
   translations:
     en: Enga
     ar: مقاطعة إنغا
@@ -271,17 +288,19 @@ EPW:
     lt: Engos provincija
     zh: 恩加省
     ccp: "\U00011103\U0001112C\U0001111A\U00011134\U00011109"
-  geo:
-    latitude: -5.3005849
-    longitude: 143.5635637
-    min_latitude: -5.9661789
-    min_longitude: 142.7393411
-    max_latitude: -5.0077089
-    max_longitude: 144.2541971
-  name: Enga
-ESW:
+  comments: 
+ESW: !ruby/struct:ISO3166::Subdivision
+  name: East Sepik
+  code: 
   unofficial_names:
   - Sepik East
+  geo:
+    latitude: -4.3150058
+    longitude: 143.045893
+    min_latitude: -5.151646
+    min_longitude: 141.314843
+    max_latitude: -3.1911646
+    max_longitude: 144.8318195
   translations:
     en: East Sepik
     ar: محافظة سيبيك الشرقية
@@ -326,17 +345,19 @@ ESW:
     lt: Rytų Sepiko provincija
     zh: 东塞皮克省
     ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011125\U0001112C\U0001111B\U0001112D\U00011107\U00011134"
-  geo:
-    latitude: -4.3150058
-    longitude: 143.045893
-    min_latitude: -5.151646
-    min_longitude: 141.314843
-    max_latitude: -3.1911646
-    max_longitude: 144.8318195
-  name: East Sepik
-GPK:
+  comments: 
+GPK: !ruby/struct:ISO3166::Subdivision
+  name: Gulf
+  code: 
   unofficial_names:
   - Papua Gulf
+  geo:
+    latitude: -7.269182100000001
+    longitude: 145.1375834
+    min_latitude: -8.5877783
+    min_longitude: 143.00871
+    max_latitude: -6.700165999999999
+    max_longitude: 146.6471049
   translations:
     en: Gulf
     ar: الخليج
@@ -381,16 +402,18 @@ GPK:
     zh: 海灣省
     ccp: "\U00011109\U00011127\U00011123\U00011134\U0001111B\U00011134"
     et: Gulfi provints
-  geo:
-    latitude: -7.269182100000001
-    longitude: 145.1375834
-    min_latitude: -8.5877783
-    min_longitude: 143.00871
-    max_latitude: -6.700165999999999
-    max_longitude: 146.6471049
-  name: Gulf
-MBA:
+  comments: 
+MBA: !ruby/struct:ISO3166::Subdivision
+  name: Milne Bay
+  code: 
   unofficial_names: Milne Bay
+  geo:
+    latitude: -10.4460842
+    longitude: 150.7214362
+    min_latitude: -10.5289949
+    min_longitude: 150.346527
+    max_latitude: -10.2622222
+    max_longitude: 150.8965302
   translations:
     en: Milne Bay
     ar: محافظة خليج ميلن
@@ -434,16 +457,18 @@ MBA:
     lt: Milne Bėjaus provincija
     zh: 米爾恩灣省
     ccp: "\U0001111F\U00011128\U00011123\U00011134\U0001111A\U0001112C \U0001111D\U0001112C"
-  geo:
-    latitude: -10.4460842
-    longitude: 150.7214362
-    min_latitude: -10.5289949
-    min_longitude: 150.346527
-    max_latitude: -10.2622222
-    max_longitude: 150.8965302
-  name: Milne Bay
-MPL:
+  comments: 
+MPL: !ruby/struct:ISO3166::Subdivision
+  name: Morobe
+  code: 
   unofficial_names: Morobe
+  geo:
+    latitude: -6.801373700000001
+    longitude: 146.561647
+    min_latitude: -8.031376999999999
+    min_longitude: 145.742827
+    max_latitude: -5.281522300000001
+    max_longitude: 148.1150151
   translations:
     en: Morobe
     ar: محافظة موروب
@@ -488,16 +513,18 @@ MPL:
     lt: Morobės provincija
     zh: 莫雷贝省
     ccp: "\U0001111F\U00011127\U00011122\U0001112E\U0001111D\U0001112C"
-  geo:
-    latitude: -6.801373700000001
-    longitude: 146.561647
-    min_latitude: -8.031376999999999
-    min_longitude: 145.742827
-    max_latitude: -5.281522300000001
-    max_longitude: 148.1150151
-  name: Morobe
-MPM:
+  comments: 
+MPM: !ruby/struct:ISO3166::Subdivision
+  name: Madang
+  code: 
   unofficial_names: Madang
+  geo:
+    latitude: -5.216667
+    longitude: 145.8
+    min_latitude: -5.2554161
+    min_longitude: 145.7496071
+    max_latitude: -5.203685699999999
+    max_longitude: 145.8166081
   translations:
     en: Madang
     ar: مقاطعة مادانغ
@@ -543,18 +570,20 @@ MPM:
     lt: Madango provincija
     zh: 馬當省
     ccp: "\U0001111F\U0001112C\U00011113\U0001110B\U00011134"
-  geo:
-    latitude: -5.216667
-    longitude: 145.8
-    min_latitude: -5.2554161
-    min_longitude: 145.7496071
-    max_latitude: -5.203685699999999
-    max_longitude: 145.8166081
-  name: Madang
-MRL:
+  comments: 
+MRL: !ruby/struct:ISO3166::Subdivision
+  name: Manus
+  code: 
   unofficial_names:
   - Great Admiralty Island
   - Mwanus
+  geo:
+    latitude: -2.0941169
+    longitude: 146.8760951
+    min_latitude: -2.5770971
+    min_longitude: 142.8257212
+    max_latitude: -0.8726387000000001
+    max_longitude: 148.2065104
   translations:
     en: Manus
     ar: محافظة مانوس
@@ -599,16 +628,18 @@ MRL:
     zh: 馬努斯省
     jv: Provinsi Manus
     ccp: "\U0001111F\U0001111A\U0001112A\U0001110C\U00011134"
-  geo:
-    latitude: -2.0941169
-    longitude: 146.8760951
-    min_latitude: -2.5770971
-    min_longitude: 142.8257212
-    max_latitude: -0.8726387000000001
-    max_longitude: 148.2065104
-  name: Manus
-NCD:
+  comments: 
+NCD: !ruby/struct:ISO3166::Subdivision
+  name: National Capital District (Port Moresby)
+  code: 
   unofficial_names: National Capital District (Port Moresby)
+  geo:
+    latitude: -9.443800399999999
+    longitude: 147.1802671
+    min_latitude: -9.5045786
+    min_longitude: 147.136652
+    max_latitude: -9.3703217
+    max_longitude: 147.2438668
   translations:
     en: Port Moresby
     af: Port Moresby
@@ -687,17 +718,19 @@ NCD:
     bs: Port Moresby
     mk: Порт Морсби
     ne: पोर्ट मोरेस्बी
-  geo:
-    latitude: -9.443800399999999
-    longitude: 147.1802671
-    min_latitude: -9.5045786
-    min_longitude: 147.136652
-    max_latitude: -9.3703217
-    max_longitude: 147.2438668
-  name: National Capital District (Port Moresby)
-NIK:
+  comments: 
+NIK: !ruby/struct:ISO3166::Subdivision
+  name: New Ireland
+  code: 
   unofficial_names:
   - Niu Ailan
+  geo:
+    latitude: -4.2853256
+    longitude: 152.9205918
+    min_latitude: -4.8519637
+    min_longitude: 149.5108796
+    max_latitude: -1.315154
+    max_longitude: 153.7421607
   translations:
     en: New Ireland
     ar: محافظة نيو إريلاند
@@ -742,17 +775,19 @@ NIK:
     lt: Naujosios Airijos provincija
     zh: 新愛爾蘭省
     ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011103\U00011120\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
-  geo:
-    latitude: -4.2853256
-    longitude: 152.9205918
-    min_latitude: -4.8519637
-    min_longitude: 149.5108796
-    max_latitude: -1.315154
-    max_longitude: 153.7421607
-  name: New Ireland
-NPP:
+  comments: 
+NPP: !ruby/struct:ISO3166::Subdivision
+  name: Northern
+  code: 
   unofficial_names:
   - Northern
+  geo:
+    latitude: -8.8988063
+    longitude: 148.1892921
+    min_latitude: -9.977337
+    min_longitude: 147.0030289
+    max_latitude: -8.002543
+    max_longitude: 149.439636
   translations:
     en: Oro
     ar: مقاطعة أورو
@@ -798,21 +833,14 @@ NPP:
     lt: Oro provincija
     zh: 北部省
     ccp: "\U00011103\U00011127\U00011122\U0001112E"
-  geo:
-    latitude: -8.8988063
-    longitude: 148.1892921
-    min_latitude: -9.977337
-    min_longitude: 147.0030289
-    max_latitude: -8.002543
-    max_longitude: 149.439636
-  name: Northern
-NSA:
+  comments: 
+NSA: !ruby/struct:ISO3166::Subdivision
+  name: North Solomons
+  code: 
   unofficial_names:
   - Bougainville
   - Mekamui
   - North Solomons
-  translations:
-    en: North Solomons
   geo:
     latitude: -6.053602
     longitude: 155.1907309
@@ -820,10 +848,21 @@ NSA:
     min_longitude: 154.1177784
     max_latitude: -3.1095148
     max_longitude: 159.4923965
-  name: North Solomons
-SAN:
+  translations:
+    en: North Solomons
+  comments: 
+SAN: !ruby/struct:ISO3166::Subdivision
+  name: Sandaun [West Sepik]
+  code: 
   unofficial_names:
   - West Sepik
+  geo:
+    latitude: -3.7126179
+    longitude: 141.6834275
+    min_latitude: -5.370609
+    min_longitude: 140.998795
+    max_latitude: -2.6086511
+    max_longitude: 143.1048729
   translations:
     en: Sandaun
     ar: محافظة سانداون
@@ -869,17 +908,19 @@ SAN:
     lt: Sandauno provincija
     zh: 桑道恩省
     ccp: "\U00011125\U0001111A\U00011134\U00011113\U00011105\U0001112A\U0001111A\U00011134"
-  geo:
-    latitude: -3.7126179
-    longitude: 141.6834275
-    min_latitude: -5.370609
-    min_longitude: 140.998795
-    max_latitude: -2.6086511
-    max_longitude: 143.1048729
-  name: Sandaun [West Sepik]
-SHM:
+  comments: 
+SHM: !ruby/struct:ISO3166::Subdivision
+  name: Southern Highlands
+  code: 
   unofficial_names:
   - Highlands South
+  geo:
+    latitude: -6.5156911
+    longitude: 143.045893
+    min_latitude: -6.863055
+    min_longitude: 142.0664641
+    max_latitude: -4.971731999999999
+    max_longitude: 144.683789
   translations:
     en: Southern Highlands
     ar: محافظة هايلاند الجنوبية
@@ -924,17 +965,19 @@ SHM:
     zh: 南高地省
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
-  geo:
-    latitude: -6.5156911
-    longitude: 143.045893
-    min_latitude: -6.863055
-    min_longitude: 142.0664641
-    max_latitude: -4.971731999999999
-    max_longitude: 144.683789
-  name: Southern Highlands
-WBK:
+  comments: 
+WBK: !ruby/struct:ISO3166::Subdivision
+  name: West New Britain
+  code: 
   unofficial_names:
   - New Britain West
+  geo:
+    latitude: -5.704743199999999
+    longitude: 150.0259466
+    min_latitude: -6.310895599999999
+    min_longitude: 148.3099281
+    max_latitude: -4.542134
+    max_longitude: 151.6839161
   translations:
     en: West New Britain
     ar: مقاطعة غرب بريطانيا الجديدة
@@ -981,17 +1024,19 @@ WBK:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111A\U00011131
       \U0001111D\U00011133\U00011122\U00011128\U00011111\U0001112C\U0001111A\U00011134"
     mk: Западна Нова Британија
-  geo:
-    latitude: -5.704743199999999
-    longitude: 150.0259466
-    min_latitude: -6.310895599999999
-    min_longitude: 148.3099281
-    max_latitude: -4.542134
-    max_longitude: 151.6839161
-  name: West New Britain
-WHM:
+  comments: 
+WHM: !ruby/struct:ISO3166::Subdivision
+  name: Western Highlands
+  code: 
   unofficial_names:
   - Highlands West
+  geo:
+    latitude: -5.6268128
+    longitude: 144.2593118
+    min_latitude: -6.3646218
+    min_longitude: 143.771268
+    max_latitude: -5.2128599
+    max_longitude: 144.5993042
   translations:
     en: Western Highlands
     ar: مقاطعة الهضاب الغربية
@@ -1037,18 +1082,20 @@ WHM:
     zh: 西高地省
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
-  geo:
-    latitude: -5.6268128
-    longitude: 144.2593118
-    min_latitude: -6.3646218
-    min_longitude: 143.771268
-    max_latitude: -5.2128599
-    max_longitude: 144.5993042
-  name: Western Highlands
-WPD:
+  comments: 
+WPD: !ruby/struct:ISO3166::Subdivision
+  name: Western
+  code: 
   unofficial_names:
   - Papua West
   - Western
+  geo:
+    latitude: -7.584644
+    longitude: 142.3613378
+    min_latitude: -9.3337498
+    min_longitude: 140.842865
+    max_latitude: -5.000000099999999
+    max_longitude: 143.9240419
   translations:
     en: Western
     bg: Западна провинция
@@ -1077,16 +1124,18 @@ WPD:
     zh: 西部省
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     fi: Western Province
-  geo:
-    latitude: -7.584644
-    longitude: 142.3613378
-    min_latitude: -9.3337498
-    min_longitude: 140.842865
-    max_latitude: -5.000000099999999
-    max_longitude: 143.9240419
-  name: Western
-NSB:
+  comments: 
+NSB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة بوغانفيل ذات الحكم الذاتي
     bg: Автономен регион Бугенвил
@@ -1132,6 +1181,11 @@ NSB:
     lt: Bugenvilis
     zh: 布干维尔省
     ccp: "\U0001111D\U0001112F\U00011109\U0001112C\U0001112D\U0001111A\U00011134\U0001111E\U00011128\U00011123\U0001112C"
+  comments: 
+HLA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1139,8 +1193,6 @@ NSB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HLA:
-  unofficial_names: 
   translations:
     de: Hela Province
     en: Hela
@@ -1163,6 +1215,11 @@ HLA:
     fi: Hela (maakunta)
     pt: Hela
     et: Hela provints
+  comments: 
+JWK: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1170,8 +1227,6 @@ HLA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JWK:
-  unofficial_names: 
   translations:
     de: Jiwaka Province
     en: Jiwaka
@@ -1194,10 +1249,4 @@ JWK:
     fi: Jiwaka
     pt: Jiwaka
     et: Jiwaka provints
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,6 +1,15 @@
 ---
-B:
+B: !ruby/struct:ISO3166::Subdivision
+  name: El Beni
+  code: 
   unofficial_names: El Beni
+  geo:
+    latitude: -14.3782747
+    longitude: -65.0957792
+    min_latitude: -16.4470401
+    min_longitude: -67.54975999999999
+    max_latitude: -10.400086
+    max_longitude: -61.50248
   translations:
     en: Beni
     ar: محافظة بني
@@ -52,16 +61,18 @@ B:
     sr_Latn: Beni
     ccp: "\U0001111D\U0001112C\U0001111A\U00011128"
     mk: Бени
-  geo:
-    latitude: -14.3782747
-    longitude: -65.0957792
-    min_latitude: -16.4470401
-    min_longitude: -67.54975999999999
-    max_latitude: -10.400086
-    max_longitude: -61.50248
-  name: El Beni
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Cochabamba
+  code: 
   unofficial_names: Cochabamba
+  geo:
+    latitude: -17.383333
+    longitude: -66.166667
+    min_latitude: -17.4648665
+    min_longitude: -66.2222293
+    max_latitude: -17.3232136
+    max_longitude: -66.10552179999999
   translations:
     en: Cochabamba
     ar: إدارة كوتشابامبا
@@ -113,16 +124,18 @@ C:
     fa: شهرستان کوچوبامبا
     ccp: "\U00011107\U00011127\U0001110C\U0001111D\U0001111F\U00011134\U0001111D"
     mk: Кочабамба
-  geo:
-    latitude: -17.383333
-    longitude: -66.166667
-    min_latitude: -17.4648665
-    min_longitude: -66.2222293
-    max_latitude: -17.3232136
-    max_longitude: -66.10552179999999
-  name: Cochabamba
-H:
+  comments: 
+H: !ruby/struct:ISO3166::Subdivision
+  name: Chuquisaca
+  code: 
   unofficial_names: Chuquisaca
+  geo:
+    latitude: -20.0249144
+    longitude: -64.1478236
+    min_latitude: -21.4982254
+    min_longitude: -65.69594599999999
+    max_latitude: -18.3504239
+    max_longitude: -62.19985999999999
   translations:
     en: Chuquisaca
     ar: إدارة شوكيساكا
@@ -173,16 +186,18 @@ H:
     fa: شهرستان چوکیساکا
     ccp: "\U00011125\U00011107\U0001112D\U0001112A\U00011125\U00011107"
     mk: Чукисака
-  geo:
-    latitude: -20.0249144
-    longitude: -64.1478236
-    min_latitude: -21.4982254
-    min_longitude: -65.69594599999999
-    max_latitude: -18.3504239
-    max_longitude: -62.19985999999999
-  name: Chuquisaca
-L:
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: La Paz
+  code: 
   unofficial_names: La Paz
+  geo:
+    latitude: -16.5
+    longitude: -68.14999999999999
+    min_latitude: -16.6168651
+    min_longitude: -68.2368618
+    max_latitude: -16.4245596
+    max_longitude: -68.01129329999999
   translations:
     en: La Paz
     ar: إدارة لا باز
@@ -233,16 +248,18 @@ L:
     fa: شهرستان لاپاز
     ccp: "\U00011123 \U0001111B\U0001110C\U00011134"
     mk: Ла Паз
-  geo:
-    latitude: -16.5
-    longitude: -68.14999999999999
-    min_latitude: -16.6168651
-    min_longitude: -68.2368618
-    max_latitude: -16.4245596
-    max_longitude: -68.01129329999999
-  name: La Paz
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Pando
+  code: 
   unofficial_names: Pando
+  geo:
+    latitude: -10.7988901
+    longitude: -66.9988011
+    min_latitude: -12.5000421
+    min_longitude: -69.56644399999999
+    max_latitude: -9.680567
+    max_longitude: -65.27995299999999
   translations:
     en: Pando
     ar: إدارة باندو
@@ -293,16 +310,18 @@ N:
     fa: شهرستان پاندو
     ccp: "\U0001111B\U0001111A\U00011134\U00011113\U0001112E"
     mk: Пандо
-  geo:
-    latitude: -10.7988901
-    longitude: -66.9988011
-    min_latitude: -12.5000421
-    min_longitude: -69.56644399999999
-    max_latitude: -9.680567
-    max_longitude: -65.27995299999999
-  name: Pando
-O:
+  comments: 
+O: !ruby/struct:ISO3166::Subdivision
+  name: Oruro
+  code: 
   unofficial_names: Oruro
+  geo:
+    latitude: -17.966667
+    longitude: -67.11666699999999
+    min_latitude: -18.0166098
+    min_longitude: -67.1474076
+    max_latitude: -17.9058956
+    max_longitude: -67.02750209999999
   translations:
     en: Oruro
     ar: إدارة أورورو
@@ -353,16 +372,18 @@ O:
     fa: شهرستان اورورو
     ccp: "\U00011103\U00011127\U00011122\U0001112A\U00011122\U0001112E"
     mk: Оруро
-  geo:
-    latitude: -17.966667
-    longitude: -67.11666699999999
-    min_latitude: -18.0166098
-    min_longitude: -67.1474076
-    max_latitude: -17.9058956
-    max_longitude: -67.02750209999999
-  name: Oruro
-P:
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: Potosí
+  code: 
   unofficial_names: Potosí
+  geo:
+    latitude: -19.5722805
+    longitude: -65.7550063
+    min_latitude: -19.610703
+    min_longitude: -65.79208729999999
+    max_latitude: -19.5315718
+    max_longitude: -65.70968959999999
   translations:
     en: Potosí
     ar: إدارة بوتوسي
@@ -415,16 +436,18 @@ P:
     ccp: "\U0001111B\U00011127\U00011111\U0001112E\U00011125\U00011128"
     yue: 波托西省
     mk: Потоси
-  geo:
-    latitude: -19.5722805
-    longitude: -65.7550063
-    min_latitude: -19.610703
-    min_longitude: -65.79208729999999
-    max_latitude: -19.5315718
-    max_longitude: -65.70968959999999
-  name: Potosí
-S:
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Santa Cruz
+  code: 
   unofficial_names: Santa Cruz
+  geo:
+    latitude: -17.866667
+    longitude: -63
+    min_latitude: -18.0244453
+    min_longitude: -63.25768960000001
+    max_latitude: -17.4908405
+    max_longitude: -62.76557929999999
   translations:
     en: Santa Cruz
     ar: إدارة سانتا كروز
@@ -480,16 +503,18 @@ S:
     ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011107\U00011133\U00011122\U0001112A\U0001110C\U00011134"
     yue: 聖克魯斯省 (玻利維亞)
     mk: Санта Круз
-  geo:
-    latitude: -17.866667
-    longitude: -63
-    min_latitude: -18.0244453
-    min_longitude: -63.25768960000001
-    max_latitude: -17.4908405
-    max_longitude: -62.76557929999999
-  name: Santa Cruz
-T:
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Tarija
+  code: 
   unofficial_names: Tarija
+  geo:
+    latitude: -21.533333
+    longitude: -64.733333
+    min_latitude: -21.5695183
+    min_longitude: -64.7762489
+    max_latitude: -21.4734153
+    max_longitude: -64.6748944
   translations:
     en: Tarija
     ar: إدارة تاريا
@@ -543,11 +568,4 @@ T:
     ccp: "\U00011111\U00011122\U00011128\U0001110E"
     yue: 塔里哈省
     mk: Тариха
-  geo:
-    latitude: -21.533333
-    longitude: -64.733333
-    min_latitude: -21.5695183
-    min_longitude: -64.7762489
-    max_latitude: -21.4734153
-    max_longitude: -64.6748944
-  name: Tarija
+  comments: 

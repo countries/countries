@@ -1,6 +1,15 @@
 ---
-AR:
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Arta
+  code: 
   unofficial_names: Arta
+  geo:
+    latitude: 11.5255528
+    longitude: 42.8479474
+    min_latitude: 11.5173265
+    min_longitude: 42.8388475
+    max_latitude: 11.5316867
+    max_longitude: 42.8639103
   translations:
     en: Arta
     ar: إقليم عرتا
@@ -47,18 +56,20 @@ AR:
     ceb: Arta Region
     ccp: "\U00011103\U00011122\U00011134\U00011111"
     ca: Regió d’Arta
-  geo:
-    latitude: 11.5255528
-    longitude: 42.8479474
-    min_latitude: 11.5173265
-    min_longitude: 42.8388475
-    max_latitude: 11.5316867
-    max_longitude: 42.8639103
-  name: Arta
-AS:
+  comments: 
+AS: !ruby/struct:ISO3166::Subdivision
+  name: Ali Sabieh
+  code: 
   unofficial_names:
   - Ali Sabieh
   - Ali Sabih
+  geo:
+    latitude: 11.15
+    longitude: 42.716667
+    min_latitude: 11.136424
+    min_longitude: 42.6945505
+    max_latitude: 11.1627947
+    max_longitude: 42.7215384
   translations:
     en: Ali Sabieh
     ar: إقليم علي صبيح
@@ -104,18 +115,20 @@ AS:
     zh: 阿里薩比州
     ccp: "\U00011103\U00011123\U00011128 \U00011125\U0001111D\U00011128\U00011120\U0001112C\U00011126\U00011134"
     ca: Regió d’Ali Sabieh
-  geo:
-    latitude: 11.15
-    longitude: 42.716667
-    min_latitude: 11.136424
-    min_longitude: 42.6945505
-    max_latitude: 11.1627947
-    max_longitude: 42.7215384
-  name: Ali Sabieh
-DI:
+  comments: 
+DI: !ruby/struct:ISO3166::Subdivision
+  name: Dikhil
+  code: 
   unofficial_names:
   - Dikhil
   - Dikkil
+  geo:
+    latitude: 11.1054336
+    longitude: 42.3704744
+    min_latitude: 11.0995738
+    min_longitude: 42.362981
+    max_latitude: 11.1124048
+    max_longitude: 42.3815967
   translations:
     en: Dikhil
     ar: دخيل
@@ -162,17 +175,19 @@ DI:
     zh: 迪基爾州
     ccp: "\U00011113\U00011128\U00011108\U00011128\U00011123\U00011134"
     ca: Regió de Dikhil
-  geo:
-    latitude: 11.1054336
-    longitude: 42.3704744
-    min_latitude: 11.0995738
-    min_longitude: 42.362981
-    max_latitude: 11.1124048
-    max_longitude: 42.3815967
-  name: Dikhil
-DJ:
+  comments: 
+DJ: !ruby/struct:ISO3166::Subdivision
+  name: Djibouti
+  code: 
   unofficial_names:
   - Djibouti
+  geo:
+    latitude: 11.588333
+    longitude: 43.145
+    min_latitude: 11.5259804
+    min_longitude: 43.1276753
+    max_latitude: 11.6233909
+    max_longitude: 43.1837897
   translations:
     en: Djibouti
     af: Djiboeti
@@ -251,18 +266,20 @@ DJ:
     uz: Jibuti
     bs: Djibouti
     mk: Џибути
-  geo:
-    latitude: 11.588333
-    longitude: 43.145
-    min_latitude: 11.5259804
-    min_longitude: 43.1276753
-    max_latitude: 11.6233909
-    max_longitude: 43.1837897
-  name: Djibouti
-OB:
+  comments: 
+OB: !ruby/struct:ISO3166::Subdivision
+  name: Obock
+  code: 
   unofficial_names:
   - Obock
   - Obok
+  geo:
+    latitude: 11.9647465
+    longitude: 43.2884071
+    min_latitude: 11.9593636
+    min_longitude: 43.2825709
+    max_latitude: 11.9751386
+    max_longitude: 43.29488430000001
   translations:
     en: Obock
     ar: إقليم أوبوك
@@ -309,19 +326,21 @@ OB:
     zh: 奧博克州
     ccp: "\U00011103\U0001112E\U0001111D\U0001112E\U00011107\U00011134"
     ca: Regió d’Obock
-  geo:
-    latitude: 11.9647465
-    longitude: 43.2884071
-    min_latitude: 11.9593636
-    min_longitude: 43.2825709
-    max_latitude: 11.9751386
-    max_longitude: 43.29488430000001
-  name: Obock
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Tadjourah
+  code: 
   unofficial_names:
   - Tadjoura
   - Tadjourah
   - Tajura
+  geo:
+    latitude: 11.7913106
+    longitude: 42.87962270000001
+    min_latitude: 11.7876882
+    min_longitude: 42.87557109999999
+    max_latitude: 11.7946021
+    max_longitude: 42.8837972
   translations:
     en: Tadjourah
     ar: إقليم تاجورة
@@ -368,11 +387,4 @@ TA:
     ceb: Tadjourah
     zh: 塔朱拉州
     ccp: "\U00011112\U00011116\U00011134\U00011107\U0001112F\U00011122\U00011126\U00011134"
-  geo:
-    latitude: 11.7913106
-    longitude: 42.87962270000001
-    min_latitude: 11.7876882
-    min_longitude: 42.87557109999999
-    max_latitude: 11.7946021
-    max_longitude: 42.8837972
-  name: Tadjourah
+  comments: 

@@ -1,6 +1,15 @@
 ---
-ABR:
+ABR: !ruby/struct:ISO3166::Subdivision
+  name: Abra
+  code: 
   unofficial_names: Abra
+  geo:
+    latitude: 17.5951122
+    longitude: 120.7982528
+    min_latitude: 17.154255
+    min_longitude: 120.463118
+    max_latitude: 17.979682
+    max_longitude: 121.124898
   translations:
     en: Abra
     ar: أبرا
@@ -42,16 +51,18 @@ ABR:
     ccp: "\U00011103\U0001111D\U00011133\U00011122"
     uk: Провінція Абра
     mk: Абра
-  geo:
-    latitude: 17.5951122
-    longitude: 120.7982528
-    min_latitude: 17.154255
-    min_longitude: 120.463118
-    max_latitude: 17.979682
-    max_longitude: 121.124898
-  name: Abra
-AGN:
+  comments: 
+AGN: !ruby/struct:ISO3166::Subdivision
+  name: Agusan del Norte
+  code: 
   unofficial_names: Agusan del Norte
+  geo:
+    latitude: 8.9456259
+    longitude: 125.5319234
+    min_latitude: 8.6575759
+    min_longitude: 125.2066434
+    max_latitude: 9.4591
+    max_longitude: 125.7669111
   translations:
     en: Agusan del Norte
     ar: أغوسان ديل نورت
@@ -94,16 +105,18 @@ AGN:
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Агусан
     mk: Северен Агусан
-  geo:
-    latitude: 8.9456259
-    longitude: 125.5319234
-    min_latitude: 8.6575759
-    min_longitude: 125.2066434
-    max_latitude: 9.4591
-    max_longitude: 125.7669111
-  name: Agusan del Norte
-AGS:
+  comments: 
+AGS: !ruby/struct:ISO3166::Subdivision
+  name: Agusan del Sur
+  code: 
   unofficial_names: Agusan del Sur
+  geo:
+    latitude: 8.6051665
+    longitude: 125.916739
+    min_latitude: 7.936757
+    min_longitude: 125.239547
+    max_latitude: 9.231869
+    max_longitude: 126.361955
   translations:
     en: Agusan del Sur
     ar: أغوسان ديل سور
@@ -145,16 +158,18 @@ AGS:
       \U00011125\U00011122\U00011134"
     uk: Південний Агусан
     mk: Јужен Агусан
-  geo:
-    latitude: 8.6051665
-    longitude: 125.916739
-    min_latitude: 7.936757
-    min_longitude: 125.239547
-    max_latitude: 9.231869
-    max_longitude: 126.361955
-  name: Agusan del Sur
-AKL:
+  comments: 
+AKL: !ruby/struct:ISO3166::Subdivision
+  name: Aklan
+  code: 
   unofficial_names: Aklan
+  geo:
+    latitude: 11.8166109
+    longitude: 122.0941541
+    min_latitude: 11.311094
+    min_longitude: 121.848633
+    max_latitude: 11.9994645
+    max_longitude: 122.57729
   translations:
     en: Aklan
     ar: ولاية أكلان
@@ -198,16 +213,18 @@ AKL:
     ccp: "\U00011103\U00011107\U00011134\U00011123\U0001111A\U00011134"
     bs: Aklan
     mk: Аклан
-  geo:
-    latitude: 11.8166109
-    longitude: 122.0941541
-    min_latitude: 11.311094
-    min_longitude: 121.848633
-    max_latitude: 11.9994645
-    max_longitude: 122.57729
-  name: Aklan
-ALB:
+  comments: 
+ALB: !ruby/struct:ISO3166::Subdivision
+  name: Albay
+  code: 
   unofficial_names: Albay
+  geo:
+    latitude: 13.1774827
+    longitude: 123.5280072
+    min_latitude: 12.986531
+    min_longitude: 123.2739775
+    max_latitude: 13.525534
+    max_longitude: 124.220096
   translations:
     en: Albay
     ar: ألباي
@@ -250,16 +267,18 @@ ALB:
     hy: Ալբայ
     uk: Албай
     mk: Албај
-  geo:
-    latitude: 13.1774827
-    longitude: 123.5280072
-    min_latitude: 12.986531
-    min_longitude: 123.2739775
-    max_latitude: 13.525534
-    max_longitude: 124.220096
-  name: Albay
-ANT:
+  comments: 
+ANT: !ruby/struct:ISO3166::Subdivision
+  name: Antique
+  code: 
   unofficial_names: Antique
+  geo:
+    latitude: 11.380579
+    longitude: 122.0635005
+    min_latitude: 10.4172679
+    min_longitude: 121.2828827
+    max_latitude: 12.117357
+    max_longitude: 122.325029
   translations:
     en: Antique
     ar: آنتيك
@@ -301,16 +320,18 @@ ANT:
     ccp: "\U00011103\U0001111A\U00011134\U00011111\U00011128\U00011107\U00011134"
     uk: Антік
     mk: Антике
-  geo:
-    latitude: 11.380579
-    longitude: 122.0635005
-    min_latitude: 10.4172679
-    min_longitude: 121.2828827
-    max_latitude: 12.117357
-    max_longitude: 122.325029
-  name: Antique
-APA:
+  comments: 
+APA: !ruby/struct:ISO3166::Subdivision
+  name: Apayao
+  code: 
   unofficial_names: Apayao
+  geo:
+    latitude: 18.0120304
+    longitude: 121.1710389
+    min_latitude: 17.623744
+    min_longitude: 120.9254531
+    max_latitude: 18.541674
+    max_longitude: 121.4897879
   translations:
     en: Apayao
     ar: آبايو
@@ -352,16 +373,18 @@ APA:
     ccp: "\U00011103\U0001111B\U0001112C\U00011120\U00011103\U0001112E"
     uk: Апаяо
     mk: Апајао
-  geo:
-    latitude: 18.0120304
-    longitude: 121.1710389
-    min_latitude: 17.623744
-    min_longitude: 120.9254531
-    max_latitude: 18.541674
-    max_longitude: 121.4897879
-  name: Apayao
-AUR:
+  comments: 
+AUR: !ruby/struct:ISO3166::Subdivision
+  name: Aurora
+  code: 
   unofficial_names: Aurora
+  geo:
+    latitude: 16.991944
+    longitude: 121.636944
+    min_latitude: 16.9357138
+    min_longitude: 121.5742779
+    max_latitude: 17.0173518
+    max_longitude: 121.7060828
   translations:
     en: Aurora
     ar: أورورا
@@ -404,16 +427,18 @@ AUR:
     ccp: "\U00011103\U00011127\U00011105\U0001112A\U00011122\U0001112E\U00011122"
     uk: Провінція Аврора
     mk: Аурора
-  geo:
-    latitude: 16.991944
-    longitude: 121.636944
-    min_latitude: 16.9357138
-    min_longitude: 121.5742779
-    max_latitude: 17.0173518
-    max_longitude: 121.7060828
-  name: Aurora
-BAN:
+  comments: 
+BAN: !ruby/struct:ISO3166::Subdivision
+  name: Bataan
+  code: 
   unofficial_names: Bataan
+  geo:
+    latitude: 14.6416842
+    longitude: 120.4818446
+    min_latitude: 14.3725568
+    min_longitude: 120.2426195
+    max_latitude: 14.9283039
+    max_longitude: 120.6115616
   translations:
     en: Bataan
     ar: باتان
@@ -455,16 +480,18 @@ BAN:
     zh: 巴丹省
     ccp: "\U0001111D\U00011111\U00011133\U00011103\U0001111A\U00011134"
     mk: Батаан
-  geo:
-    latitude: 14.6416842
-    longitude: 120.4818446
-    min_latitude: 14.3725568
-    min_longitude: 120.2426195
-    max_latitude: 14.9283039
-    max_longitude: 120.6115616
-  name: Bataan
-BAS:
+  comments: 
+BAS: !ruby/struct:ISO3166::Subdivision
+  name: Basilan
+  code: 
   unofficial_names: Basilan
+  geo:
+    latitude: 6.4296349
+    longitude: 121.9870165
+    min_latitude: 6.2788594
+    min_longitude: 121.4296532
+    max_latitude: 6.906267000000001
+    max_longitude: 122.3269363
   translations:
     en: Basilan
     ar: باسيلان
@@ -508,16 +535,18 @@ BAS:
     ccp: "\U0001111D\U00011125\U00011128\U00011123\U00011127\U0001111A\U00011134"
     gl: Basilán
     mk: Басилан
-  geo:
-    latitude: 6.4296349
-    longitude: 121.9870165
-    min_latitude: 6.2788594
-    min_longitude: 121.4296532
-    max_latitude: 6.906267000000001
-    max_longitude: 122.3269363
-  name: Basilan
-BEN:
+  comments: 
+BEN: !ruby/struct:ISO3166::Subdivision
+  name: Benguet
+  code: 
   unofficial_names: Benguet
+  geo:
+    latitude: 16.5577257
+    longitude: 120.8039474
+    min_latitude: 16.186448
+    min_longitude: 120.468057
+    max_latitude: 16.9382421
+    max_longitude: 120.904165
   translations:
     en: Benguet
     ar: بينغويت
@@ -559,16 +588,18 @@ BEN:
     zh: 本格特省
     ccp: "\U0001111D\U0001112C\U0001111A\U00011134\U00011109\U0001112A\U00011120\U0001112C\U00011116\U00011134"
     mk: Бенгет
-  geo:
-    latitude: 16.5577257
-    longitude: 120.8039474
-    min_latitude: 16.186448
-    min_longitude: 120.468057
-    max_latitude: 16.9382421
-    max_longitude: 120.904165
-  name: Benguet
-BIL:
+  comments: 
+BIL: !ruby/struct:ISO3166::Subdivision
+  name: Biliran
+  code: 
   unofficial_names: Biliran
+  geo:
+    latitude: 11.466667
+    longitude: 124.483333
+    min_latitude: 11.4556383
+    min_longitude: 124.4320654
+    max_latitude: 11.5656392
+    max_longitude: 124.5410156
   translations:
     en: Biliran
     ar: بيليران
@@ -613,16 +644,18 @@ BIL:
     uk: Біліран
     az: Biliran adası
     mk: Билиран
-  geo:
-    latitude: 11.466667
-    longitude: 124.483333
-    min_latitude: 11.4556383
-    min_longitude: 124.4320654
-    max_latitude: 11.5656392
-    max_longitude: 124.5410156
-  name: Biliran
-BOH:
+  comments: 
+BOH: !ruby/struct:ISO3166::Subdivision
+  name: Bohol
+  code: 
   unofficial_names: Bohol
+  geo:
+    latitude: 9.849991099999999
+    longitude: 124.1435427
+    min_latitude: 9.4856913
+    min_longitude: 123.719351
+    max_latitude: 10.2562504
+    max_longitude: 124.6197582
   translations:
     en: Bohol
     ar: بوهول
@@ -675,16 +708,18 @@ BOH:
     uk: Бохол, Бохоль
     az: Bohol
     mk: Бохол
-  geo:
-    latitude: 9.849991099999999
-    longitude: 124.1435427
-    min_latitude: 9.4856913
-    min_longitude: 123.719351
-    max_latitude: 10.2562504
-    max_longitude: 124.6197582
-  name: Bohol
-BTG:
+  comments: 
+BTG: !ruby/struct:ISO3166::Subdivision
+  name: Batangas
+  code: 
   unofficial_names: Batangas
+  geo:
+    latitude: 13.7564651
+    longitude: 121.0583076
+    min_latitude: 13.5261516
+    min_longitude: 121.0278529
+    max_latitude: 13.8518358
+    max_longitude: 121.1820692
   translations:
     en: Batangas
     ar: باتانغاس
@@ -727,16 +762,18 @@ BTG:
     zh: 八打雁省
     ccp: "\U0001111D\U00011111\U00011101\U00011109\U0001110C\U00011134"
     mk: Батангас
-  geo:
-    latitude: 13.7564651
-    longitude: 121.0583076
-    min_latitude: 13.5261516
-    min_longitude: 121.0278529
-    max_latitude: 13.8518358
-    max_longitude: 121.1820692
-  name: Batangas
-BTN:
+  comments: 
+BTN: !ruby/struct:ISO3166::Subdivision
+  name: Batanes
+  code: 
   unofficial_names: Batanes
+  geo:
+    latitude: 20.4485074
+    longitude: 121.9708129
+    min_latitude: 20.2578335
+    min_longitude: 121.778977
+    max_latitude: 21.1206112
+    max_longitude: 122.034889
   translations:
     en: Batanes
     ar: باتانيس
@@ -781,16 +818,18 @@ BTN:
     ccp: "\U0001111D\U00011111\U0001111A\U0001112C\U0001110C\U00011134"
     uk: Батанес
     mk: Батанес
-  geo:
-    latitude: 20.4485074
-    longitude: 121.9708129
-    min_latitude: 20.2578335
-    min_longitude: 121.778977
-    max_latitude: 21.1206112
-    max_longitude: 122.034889
-  name: Batanes
-BUK:
+  comments: 
+BUK: !ruby/struct:ISO3166::Subdivision
+  name: Bukidnon
+  code: 
   unofficial_names: Bukidnon
+  geo:
+    latitude: 8.0515054
+    longitude: 124.9229946
+    min_latitude: 7.3991609
+    min_longitude: 124.4961241
+    max_latitude: 8.593256
+    max_longitude: 125.444464
   translations:
     en: Bukidnon
     ar: بوكيدنون
@@ -833,16 +872,18 @@ BUK:
     ccp: "\U0001111D\U0001112A\U00011107\U00011128\U00011116\U00011134\U0001111A\U00011127\U0001111A\U00011134"
     uk: Букіднон
     mk: Букиднон
-  geo:
-    latitude: 8.0515054
-    longitude: 124.9229946
-    min_latitude: 7.3991609
-    min_longitude: 124.4961241
-    max_latitude: 8.593256
-    max_longitude: 125.444464
-  name: Bukidnon
-BUL:
+  comments: 
+BUL: !ruby/struct:ISO3166::Subdivision
+  name: Bulacan
+  code: 
   unofficial_names: Bulacan
+  geo:
+    latitude: 14.7942735
+    longitude: 120.8799008
+    min_latitude: 14.7098374
+    min_longitude: 120.8245333
+    max_latitude: 14.8234278
+    max_longitude: 120.9149916
   translations:
     en: Bulacan
     ar: بولاكان
@@ -885,16 +926,18 @@ BUL:
     ccp: "\U0001111D\U0001112A\U00011123\U00011107\U0001111A\U00011134"
     uk: Булакан
     mk: Булакан
-  geo:
-    latitude: 14.7942735
-    longitude: 120.8799008
-    min_latitude: 14.7098374
-    min_longitude: 120.8245333
-    max_latitude: 14.8234278
-    max_longitude: 120.9149916
-  name: Bulacan
-CAG:
+  comments: 
+CAG: !ruby/struct:ISO3166::Subdivision
+  name: Cagayan
+  code: 
   unofficial_names: Cagayan
+  geo:
+    latitude: 18.2489629
+    longitude: 121.8787833
+    min_latitude: 17.5081239
+    min_longitude: 120.9600601
+    max_latitude: 19.9662652
+    max_longitude: 122.33802
   translations:
     en: Cagayan
     ar: كاغايان
@@ -937,16 +980,18 @@ CAG:
     ccp: "\U00011107\U00011133\U00011120\U00011109\U0001112C\U00011103\U00011128\U00011120\U0001111A\U00011134"
     uk: Кагаян
     mk: Кагајан
-  geo:
-    latitude: 18.2489629
-    longitude: 121.8787833
-    min_latitude: 17.5081239
-    min_longitude: 120.9600601
-    max_latitude: 19.9662652
-    max_longitude: 122.33802
-  name: Cagayan
-CAM:
+  comments: 
+CAM: !ruby/struct:ISO3166::Subdivision
+  name: Camiguin
+  code: 
   unofficial_names: Camiguin
+  geo:
+    latitude: 9.1732164
+    longitude: 124.7298765
+    min_latitude: 9.0787702
+    min_longitude: 124.6333946
+    max_latitude: 9.2580606
+    max_longitude: 124.806468
   translations:
     en: Camiguin
     ar: كاميغويين
@@ -989,16 +1034,18 @@ CAM:
     ccp: "\U00011107\U0001112C\U0001111F\U00011128\U00011109\U0001112A\U00011103\U00011128\U0001111A\U00011134"
     uk: Камігін
     mk: Камигин
-  geo:
-    latitude: 9.1732164
-    longitude: 124.7298765
-    min_latitude: 9.0787702
-    min_longitude: 124.6333946
-    max_latitude: 9.2580606
-    max_longitude: 124.806468
-  name: Camiguin
-CAN:
+  comments: 
+CAN: !ruby/struct:ISO3166::Subdivision
+  name: Camarines Norte
+  code: 
   unofficial_names: Camarines Norte
+  geo:
+    latitude: 14.1390265
+    longitude: 122.7633036
+    min_latitude: 13.835935
+    min_longitude: 122.301291
+    max_latitude: 14.4930237
+    max_longitude: 123.1175996
   translations:
     en: Camarines Norte
     ar: كامارينز نورتي
@@ -1041,16 +1088,18 @@ CAN:
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Камарінес
     mk: Северен Камаринес
-  geo:
-    latitude: 14.1390265
-    longitude: 122.7633036
-    min_latitude: 13.835935
-    min_longitude: 122.301291
-    max_latitude: 14.4930237
-    max_longitude: 123.1175996
-  name: Camarines Norte
-CAP:
+  comments: 
+CAP: !ruby/struct:ISO3166::Subdivision
+  name: Capiz
+  code: 
   unofficial_names: Capiz
+  geo:
+    latitude: 11.3888799
+    longitude: 122.6277455
+    min_latitude: 11.1436509
+    min_longitude: 122.1992869
+    max_latitude: 11.645162
+    max_longitude: 123.1000324
   translations:
     en: Capiz
     ar: كابيز
@@ -1091,16 +1140,18 @@ CAP:
     ccp: "\U00011107\U00011133\U00011120\U0001111B\U00011128\U0001110C\U00011134"
     uk: Капіз
     mk: Капиз
-  geo:
-    latitude: 11.3888799
-    longitude: 122.6277455
-    min_latitude: 11.1436509
-    min_longitude: 122.1992869
-    max_latitude: 11.645162
-    max_longitude: 123.1000324
-  name: Capiz
-CAS:
+  comments: 
+CAS: !ruby/struct:ISO3166::Subdivision
+  name: Camarines Sur
+  code: 
   unofficial_names: Camarines Sur
+  geo:
+    latitude: 13.5250197
+    longitude: 123.3486147
+    min_latitude: 13.2638826
+    min_longitude: 122.550947
+    max_latitude: 14.1279977
+    max_longitude: 123.97699
   translations:
     en: Camarines Sur
     ar: كامارينس سور
@@ -1145,16 +1196,18 @@ CAS:
     hy: Հարավային Կամարինես
     uk: Південний Камарінес
     mk: Јужен Камаринес
-  geo:
-    latitude: 13.5250197
-    longitude: 123.3486147
-    min_latitude: 13.2638826
-    min_longitude: 122.550947
-    max_latitude: 14.1279977
-    max_longitude: 123.97699
-  name: Camarines Sur
-CAT:
+  comments: 
+CAT: !ruby/struct:ISO3166::Subdivision
+  name: Catanduanes
+  code: 
   unofficial_names: Catanduanes
+  geo:
+    latitude: 13.7088684
+    longitude: 124.2421597
+    min_latitude: 13.5181658
+    min_longitude: 124.0169811
+    max_latitude: 14.1005278
+    max_longitude: 124.4218897
   translations:
     en: Catanduanes
     ar: كاتاندوانه
@@ -1199,16 +1252,18 @@ CAT:
     gl: Catanduanes
     ml: കടാൻദുവാനിസ്
     mk: Катандуанес
-  geo:
-    latitude: 13.7088684
-    longitude: 124.2421597
-    min_latitude: 13.5181658
-    min_longitude: 124.0169811
-    max_latitude: 14.1005278
-    max_longitude: 124.4218897
-  name: Catanduanes
-CAV:
+  comments: 
+CAV: !ruby/struct:ISO3166::Subdivision
+  name: Cavite
+  code: 
   unofficial_names: Cavite
+  geo:
+    latitude: 14.4791297
+    longitude: 120.8969634
+    min_latitude: 14.3646447
+    min_longitude: 120.5212855
+    max_latitude: 14.5002355
+    max_longitude: 120.9209909
   translations:
     en: Cavite
     ar: كاويته
@@ -1251,16 +1306,18 @@ CAV:
     ccp: "\U00011107\U0001111E\U00011128\U00011116\U00011134"
     hy: Կավիտե
     mk: Кавите
-  geo:
-    latitude: 14.4791297
-    longitude: 120.8969634
-    min_latitude: 14.3646447
-    min_longitude: 120.5212855
-    max_latitude: 14.5002355
-    max_longitude: 120.9209909
-  name: Cavite
-CEB:
+  comments: 
+CEB: !ruby/struct:ISO3166::Subdivision
+  name: Cebu
+  code: 
   unofficial_names: Cebu
+  geo:
+    latitude: 10.3156992
+    longitude: 123.8854366
+    min_latitude: 10.2594378
+    min_longitude: 123.7633896
+    max_latitude: 10.498277
+    max_longitude: 123.9326476
   translations:
     en: Cebu
     ar: سيبو
@@ -1311,16 +1368,18 @@ CEB:
     zh: 宿霧省
     ccp: "\U00011125\U0001112C\U0001111D\U0001112A"
     mk: Себу
-  geo:
-    latitude: 10.3156992
-    longitude: 123.8854366
-    min_latitude: 10.2594378
-    min_longitude: 123.7633896
-    max_latitude: 10.498277
-    max_longitude: 123.9326476
-  name: Cebu
-COM:
+  comments: 
+COM: !ruby/struct:ISO3166::Subdivision
+  name: Compostela Valley
+  code: 
   unofficial_names: Compostela Valley
+  geo:
+    latitude: 7.512514999999999
+    longitude: 126.1762615
+    min_latitude: 7.078257199999999
+    min_longitude: 125.674365
+    max_latitude: 7.9994319
+    max_longitude: 126.2988501
   translations:
     en: Compostela Valley
     ar: كامبوستلا ولي
@@ -1362,16 +1421,18 @@ COM:
       \U0001111E\U0001112C\U00011123\U00011128"
     uk: Долина Компостела
     mk: Долина Компостела
-  geo:
-    latitude: 7.512514999999999
-    longitude: 126.1762615
-    min_latitude: 7.078257199999999
-    min_longitude: 125.674365
-    max_latitude: 7.9994319
-    max_longitude: 126.2988501
-  name: Compostela Valley
-DAO:
+  comments: 
+DAO: !ruby/struct:ISO3166::Subdivision
+  name: Davao Oriental
+  code: 
   unofficial_names: Davao Oriental
+  geo:
+    latitude: 7.3171585
+    longitude: 126.5419887
+    min_latitude: 5.5511669
+    min_longitude: 125.938116
+    max_latitude: 8.0013469
+    max_longitude: 126.6015399
   translations:
     en: Davao Oriental
     ar: دافاو أورينتال
@@ -1412,16 +1473,18 @@ DAO:
     ccp: "\U00011113\U0001111E\U00011103\U0001112E \U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     uk: Східний Давао
     mk: Источен Давао
-  geo:
-    latitude: 7.3171585
-    longitude: 126.5419887
-    min_latitude: 5.5511669
-    min_longitude: 125.938116
-    max_latitude: 8.0013469
-    max_longitude: 126.6015399
-  name: Davao Oriental
-DAS:
+  comments: 
+DAS: !ruby/struct:ISO3166::Subdivision
+  name: Davao del Sur
+  code: 
   unofficial_names: Davao del Sur
+  geo:
+    latitude: 6.766268699999999
+    longitude: 125.3284269
+    min_latitude: 5.367669999999999
+    min_longitude: 125.1010209
+    max_latitude: 7.565537000000001
+    max_longitude: 125.7164231
   translations:
     en: Davao del Sur
     ar: دافاو ديل سور
@@ -1463,17 +1526,19 @@ DAS:
       \U00011125\U00011122\U00011134"
     uk: Південний Давао
     mk: Јужен Давао
-  geo:
-    latitude: 6.766268699999999
-    longitude: 125.3284269
-    min_latitude: 5.367669999999999
-    min_longitude: 125.1010209
-    max_latitude: 7.565537000000001
-    max_longitude: 125.7164231
-  name: Davao del Sur
-DAV:
+  comments: 
+DAV: !ruby/struct:ISO3166::Subdivision
+  name: Davao del Norte
+  code: 
   unofficial_names:
   - Davao
+  geo:
+    latitude: 7.561769899999999
+    longitude: 125.6532848
+    min_latitude: 6.894526000000001
+    min_longitude: 125.250456
+    max_latitude: 7.997327
+    max_longitude: 125.944498
   translations:
     en: Davao del Norte
     ar: دافاو ديل نورت
@@ -1515,16 +1580,18 @@ DAV:
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Давао
     mk: Северен Давао
-  geo:
-    latitude: 7.561769899999999
-    longitude: 125.6532848
-    min_latitude: 6.894526000000001
-    min_longitude: 125.250456
-    max_latitude: 7.997327
-    max_longitude: 125.944498
-  name: Davao del Norte
-DIN:
+  comments: 
+DIN: !ruby/struct:ISO3166::Subdivision
+  name: Dinagat Islands
+  code: 
   unofficial_names: Dinagat Islands
+  geo:
+    latitude: 10.1281816
+    longitude: 125.6095474
+    min_latitude: 9.8547497
+    min_longitude: 125.465279
+    max_latitude: 10.4716027
+    max_longitude: 125.7067526
   translations:
     en: Dinagat Islands
     de: Dinagat Islands
@@ -1550,16 +1617,18 @@ DIN:
     uk: Острови Дінагат
     th: จังหวัดคาปูลูอังดีนากัต
     mk: Динагат
-  geo:
-    latitude: 10.1281816
-    longitude: 125.6095474
-    min_latitude: 9.8547497
-    min_longitude: 125.465279
-    max_latitude: 10.4716027
-    max_longitude: 125.7067526
-  name: Dinagat Islands
-DVO:
+  comments: 
+DVO: !ruby/struct:ISO3166::Subdivision
+  name: Davao Occidental
+  code: 
   unofficial_names: Davao Occidental
+  geo:
+    latitude: 12.879721
+    longitude: 121.774017
+    min_latitude: 4.5870339
+    min_longitude: 116.7029193
+    max_latitude: 19.5740241
+    max_longitude: 126.6043837
   translations:
     en: Davao Occidental
     es: Dávao Occidental
@@ -1578,16 +1647,18 @@ DVO:
     uk: Західне Давао
     th: จังหวัดคันลูรังดาเบา
     mk: Западен Давао
-  geo:
-    latitude: 12.879721
-    longitude: 121.774017
-    min_latitude: 4.5870339
-    min_longitude: 116.7029193
-    max_latitude: 19.5740241
-    max_longitude: 126.6043837
-  name: Davao Occidental
-EAS:
+  comments: 
+EAS: !ruby/struct:ISO3166::Subdivision
+  name: Eastern Samar
+  code: 
   unofficial_names: Eastern Samar
+  geo:
+    latitude: 11.5000731
+    longitude: 125.4999908
+    min_latitude: 10.690784
+    min_longitude: 125.1116951
+    max_latitude: 12.370305
+    max_longitude: 125.969378
   translations:
     en: Eastern Samar
     ar: سامار الشرقية
@@ -1630,16 +1701,18 @@ EAS:
       \U00011125\U00011127\U0001111F\U00011122\U00011134"
     uk: Східний Самар
     mk: Источен Самар
-  geo:
-    latitude: 11.5000731
-    longitude: 125.4999908
-    min_latitude: 10.690784
-    min_longitude: 125.1116951
-    max_latitude: 12.370305
-    max_longitude: 125.969378
-  name: Eastern Samar
-GUI:
+  comments: 
+GUI: !ruby/struct:ISO3166::Subdivision
+  name: Guimaras
+  code: 
   unofficial_names: Guimaras
+  geo:
+    latitude: 10.5928661
+    longitude: 122.6325081
+    min_latitude: 10.389255
+    min_longitude: 122.4749851
+    max_latitude: 10.7544428
+    max_longitude: 122.741077
   translations:
     en: Guimaras
     ar: غيماراس
@@ -1682,16 +1755,18 @@ GUI:
     ccp: "\U00011109\U0001112D\U0001112A\U0001111F\U00011122\U0001110C\U00011134"
     gl: Guimarás
     mk: Гимарас
-  geo:
-    latitude: 10.5928661
-    longitude: 122.6325081
-    min_latitude: 10.389255
-    min_longitude: 122.4749851
-    max_latitude: 10.7544428
-    max_longitude: 122.741077
-  name: Guimaras
-IFU:
+  comments: 
+IFU: !ruby/struct:ISO3166::Subdivision
+  name: Ifugao
+  code: 
   unofficial_names: Ifugao
+  geo:
+    latitude: 16.8330792
+    longitude: 121.1710389
+    min_latitude: 16.598261
+    min_longitude: 120.881094
+    max_latitude: 17.071433
+    max_longitude: 121.5859809
   translations:
     en: Ifugao
     ar: ايفوغايو
@@ -1733,16 +1808,18 @@ IFU:
     ccp: "\U00011103\U0001112D\U0001111C\U0001112A\U00011109\U00011103\U0001112E"
     uk: Іфугао
     mk: Ифугао
-  geo:
-    latitude: 16.8330792
-    longitude: 121.1710389
-    min_latitude: 16.598261
-    min_longitude: 120.881094
-    max_latitude: 17.071433
-    max_longitude: 121.5859809
-  name: Ifugao
-ILI:
+  comments: 
+ILI: !ruby/struct:ISO3166::Subdivision
+  name: Iloilo
+  code: 
   unofficial_names: Iloilo
+  geo:
+    latitude: 10.7201501
+    longitude: 122.5621063
+    min_latitude: 10.6792844
+    min_longitude: 122.494087
+    max_latitude: 10.7818569
+    max_longitude: 122.6001559
   translations:
     en: Iloilo
     ar: إلويلو
@@ -1785,16 +1862,18 @@ ILI:
     ccp: "\U00011103\U00011128\U00011123\U0001112E\U00011103\U00011128\U00011123\U0001112E"
     uk: Ілоіло
     mk: Илоило
-  geo:
-    latitude: 10.7201501
-    longitude: 122.5621063
-    min_latitude: 10.6792844
-    min_longitude: 122.494087
-    max_latitude: 10.7818569
-    max_longitude: 122.6001559
-  name: Iloilo
-ILN:
+  comments: 
+ILN: !ruby/struct:ISO3166::Subdivision
+  name: Ilocos Norte
+  code: 
   unofficial_names: Ilocos Norte
+  geo:
+    latitude: 18.1647281
+    longitude: 120.7115592
+    min_latitude: 17.698466
+    min_longitude: 120.4290068
+    max_latitude: 18.650944
+    max_longitude: 120.980399
   translations:
     en: Ilocos Norte
     ar: إيلوكوس نورت
@@ -1838,16 +1917,18 @@ ILN:
       \U0001111F\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Ілокос
     mk: Северен Илокос
-  geo:
-    latitude: 18.1647281
-    longitude: 120.7115592
-    min_latitude: 17.698466
-    min_longitude: 120.4290068
-    max_latitude: 18.650944
-    max_longitude: 120.980399
-  name: Ilocos Norte
-ILS:
+  comments: 
+ILS: !ruby/struct:ISO3166::Subdivision
+  name: Ilocos Sur
+  code: 
   unofficial_names: Ilocos Sur
+  geo:
+    latitude: 17.2278664
+    longitude: 120.5739579
+    min_latitude: 16.655479
+    min_longitude: 120.3427526
+    max_latitude: 17.9007002
+    max_longitude: 120.860186
   translations:
     en: Ilocos Sur
     ar: إيلوكوس سور
@@ -1890,16 +1971,18 @@ ILS:
       \U00011125\U00011122\U00011134"
     uk: Південий Ілокос
     mk: Јужен Илокос
-  geo:
-    latitude: 17.2278664
-    longitude: 120.5739579
-    min_latitude: 16.655479
-    min_longitude: 120.3427526
-    max_latitude: 17.9007002
-    max_longitude: 120.860186
-  name: Ilocos Sur
-ISA:
+  comments: 
+ISA: !ruby/struct:ISO3166::Subdivision
+  name: Isabela
+  code: 
   unofficial_names: Isabela
+  geo:
+    latitude: 16.9753758
+    longitude: 121.8107079
+    min_latitude: 16.3794739
+    min_longitude: 121.3364481
+    max_latitude: 17.5454246
+    max_longitude: 122.5278068
   translations:
     en: Isabela
     ar: ايزابلا
@@ -1940,16 +2023,18 @@ ISA:
     zh: 伊莎貝拉省
     ccp: "\U00011103\U00011128\U00011125\U0001111D\U0001112C\U00011123"
     mk: Изабела
-  geo:
-    latitude: 16.9753758
-    longitude: 121.8107079
-    min_latitude: 16.3794739
-    min_longitude: 121.3364481
-    max_latitude: 17.5454246
-    max_longitude: 122.5278068
-  name: Isabela
-KAL:
+  comments: 
+KAL: !ruby/struct:ISO3166::Subdivision
+  name: Kalinga
+  code: 
   unofficial_names: Kalinga
+  geo:
+    latitude: 17.4740422
+    longitude: 121.3541631
+    min_latitude: 17.1616239
+    min_longitude: 120.909971
+    max_latitude: 17.6889911
+    max_longitude: 121.682251
   translations:
     en: Kalinga
     ar: كالينغا
@@ -1992,16 +2077,18 @@ KAL:
     uk: Провінція Калінга
     or: କଳିଙ୍ଗ (ରାଜ୍ୟ), ଫିଲିପାଇନ୍ସ
     mk: Калинга
-  geo:
-    latitude: 17.4740422
-    longitude: 121.3541631
-    min_latitude: 17.1616239
-    min_longitude: 120.909971
-    max_latitude: 17.6889911
-    max_longitude: 121.682251
-  name: Kalinga
-LAG:
+  comments: 
+LAG: !ruby/struct:ISO3166::Subdivision
+  name: Laguna
+  code: 
   unofficial_names: Laguna
+  geo:
+    latitude: 14.2956294
+    longitude: 121.4961581
+    min_latitude: 14.2647886
+    min_longitude: 121.4209908
+    max_latitude: 14.3487163
+    max_longitude: 121.630674
   translations:
     en: Laguna
     ar: لاغونا
@@ -2045,16 +2132,18 @@ LAG:
     zh: 內湖省
     ccp: "\U00011123\U00011133\U00011120\U00011109\U0001112A\U0001111A"
     mk: Лагуна
-  geo:
-    latitude: 14.2956294
-    longitude: 121.4961581
-    min_latitude: 14.2647886
-    min_longitude: 121.4209908
-    max_latitude: 14.3487163
-    max_longitude: 121.630674
-  name: Laguna
-LAN:
+  comments: 
+LAN: !ruby/struct:ISO3166::Subdivision
+  name: Lanao del Norte
+  code: 
   unofficial_names: Lanao del Norte
+  geo:
+    latitude: 7.8721811
+    longitude: 123.8857747
+    min_latitude: 7.6934621
+    min_longitude: 123.621328
+    max_latitude: 8.3414729
+    max_longitude: 124.573305
   translations:
     en: Lanao del Norte
     ar: لاناو ديل نورتي
@@ -2096,16 +2185,18 @@ LAN:
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Ланао
     mk: Северен Ланао
-  geo:
-    latitude: 7.8721811
-    longitude: 123.8857747
-    min_latitude: 7.6934621
-    min_longitude: 123.621328
-    max_latitude: 8.3414729
-    max_longitude: 124.573305
-  name: Lanao del Norte
-LAS:
+  comments: 
+LAS: !ruby/struct:ISO3166::Subdivision
+  name: Lanao del Sur
+  code: 
   unofficial_names: Lanao del Sur
+  geo:
+    latitude: 7.823176
+    longitude: 124.4198243
+    min_latitude: 7.3995557
+    min_longitude: 123.8264541
+    max_latitude: 8.2121889
+    max_longitude: 124.807193
   translations:
     en: Lanao del Sur
     ar: لاناو ديل سور
@@ -2147,16 +2238,18 @@ LAS:
       \U00011125\U00011122\U00011134"
     uk: Південний Ланао
     mk: Јужен Ланао
-  geo:
-    latitude: 7.823176
-    longitude: 124.4198243
-    min_latitude: 7.3995557
-    min_longitude: 123.8264541
-    max_latitude: 8.2121889
-    max_longitude: 124.807193
-  name: Lanao del Sur
-LEY:
+  comments: 
+LEY: !ruby/struct:ISO3166::Subdivision
+  name: Leyte
+  code: 
   unofficial_names: Leyte
+  geo:
+    latitude: 11.366667
+    longitude: 124.483333
+    min_latitude: 11.2012197
+    min_longitude: 124.3958759
+    max_latitude: 11.4561949
+    max_longitude: 124.5601559
   translations:
     en: Leyte
     ar: مقاطعة ليتة
@@ -2198,16 +2291,18 @@ LEY:
     ccp: "\U00011123\U0001112C\U00011120\U00011116\U00011134"
     uk: Провінція Лейте
     mk: Лејте
-  geo:
-    latitude: 11.366667
-    longitude: 124.483333
-    min_latitude: 11.2012197
-    min_longitude: 124.3958759
-    max_latitude: 11.4561949
-    max_longitude: 124.5601559
-  name: Leyte
-LUN:
+  comments: 
+LUN: !ruby/struct:ISO3166::Subdivision
+  name: La Union
+  code: 
   unofficial_names: La Union
+  geo:
+    latitude: 16.6158906
+    longitude: 120.3209373
+    min_latitude: 16.207748
+    min_longitude: 120.2801715
+    max_latitude: 16.91881
+    max_longitude: 120.5744889
   translations:
     en: La Union
     ar: لا يونيون
@@ -2249,16 +2344,18 @@ LUN:
     ccp: "\U00011123 \U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011120\U00011127\U0001111A\U00011134"
     uk: Ла Уніон
     mk: Ла Унион
-  geo:
-    latitude: 16.6158906
-    longitude: 120.3209373
-    min_latitude: 16.207748
-    min_longitude: 120.2801715
-    max_latitude: 16.91881
-    max_longitude: 120.5744889
-  name: La Union
-MAD:
+  comments: 
+MAD: !ruby/struct:ISO3166::Subdivision
+  name: Marinduque
+  code: 
   unofficial_names: Marinduque
+  geo:
+    latitude: 13.4767171
+    longitude: 121.9032192
+    min_latitude: 13.1990285
+    min_longitude: 121.80645
+    max_latitude: 13.5706939
+    max_longitude: 122.1491437
   translations:
     en: Marinduque
     ar: ماريندوك
@@ -2304,16 +2401,18 @@ MAD:
     gl: Marinduque
     ml: മാറിൻദ്യൂഖ്
     mk: Мариндуке
-  geo:
-    latitude: 13.4767171
-    longitude: 121.9032192
-    min_latitude: 13.1990285
-    min_longitude: 121.80645
-    max_latitude: 13.5706939
-    max_longitude: 122.1491437
-  name: Marinduque
-MAG:
+  comments: 
+MAG: !ruby/struct:ISO3166::Subdivision
+  name: Maguindanao
+  code: 
   unofficial_names: Maguindanao
+  geo:
+    latitude: 6.9422581
+    longitude: 124.4198243
+    min_latitude: 6.649818499999999
+    min_longitude: 123.943766
+    max_latitude: 7.651929099999999
+    max_longitude: 125.120551
   translations:
     en: Maguindanao
     ar: ماغوييندانايو
@@ -2356,16 +2455,18 @@ MAG:
     ccp: "\U0001111F\U0001112C\U00011109\U0001112D\U0001112A\U0001111A\U00011134\U00011113\U0001111A\U00011103\U0001112E"
     uk: Магінданао
     mk: Магинданао
-  geo:
-    latitude: 6.9422581
-    longitude: 124.4198243
-    min_latitude: 6.649818499999999
-    min_longitude: 123.943766
-    max_latitude: 7.651929099999999
-    max_longitude: 125.120551
-  name: Maguindanao
-MAS:
+  comments: 
+MAS: !ruby/struct:ISO3166::Subdivision
+  name: Masbate
+  code: 
   unofficial_names: Masbate
+  geo:
+    latitude: 12.366667
+    longitude: 123.616667
+    min_latitude: 12.2440624
+    min_longitude: 123.4894181
+    max_latitude: 12.4616029
+    max_longitude: 123.6398035
   translations:
     en: Masbate
     ar: ماسبات
@@ -2411,16 +2512,18 @@ MAS:
     uk: Масбате
     yue: 馬士弼
     mk: Масбате
-  geo:
-    latitude: 12.366667
-    longitude: 123.616667
-    min_latitude: 12.2440624
-    min_longitude: 123.4894181
-    max_latitude: 12.4616029
-    max_longitude: 123.6398035
-  name: Masbate
-MDC:
+  comments: 
+MDC: !ruby/struct:ISO3166::Subdivision
+  name: Mindoro Occidental
+  code: 
   unofficial_names: Mindoro Occidental
+  geo:
+    latitude: 13.1024111
+    longitude: 120.7651284
+    min_latitude: 12.1530185
+    min_longitude: 120.0174402
+    max_latitude: 13.8989589
+    max_longitude: 121.250199
   translations:
     en: Occidental Mindoro
     ar: أوكسيدنتال ميندورو
@@ -2463,16 +2566,18 @@ MDC:
     ccp: "\U00011103\U00011127\U00011107\U00011134\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134
       \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001112E\U00011122\U0001112E"
     mk: Западен Миндоро
-  geo:
-    latitude: 13.1024111
-    longitude: 120.7651284
-    min_latitude: 12.1530185
-    min_longitude: 120.0174402
-    max_latitude: 13.8989589
-    max_longitude: 121.250199
-  name: Mindoro Occidental
-MDR:
+  comments: 
+MDR: !ruby/struct:ISO3166::Subdivision
+  name: Mindoro Oriental
+  code: 
   unofficial_names: Mindoro Oriental
+  geo:
+    latitude: 13.0564598
+    longitude: 121.4069417
+    min_latitude: 12.1951624
+    min_longitude: 120.8007199
+    max_latitude: 13.5314771
+    max_longitude: 121.5576218
   translations:
     en: Oriental Mindoro
     ar: أورينتال ميندورو
@@ -2515,16 +2620,18 @@ MDR:
     ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134
       \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001112E\U00011122\U0001112E"
     mk: Источен Миндоро
-  geo:
-    latitude: 13.0564598
-    longitude: 121.4069417
-    min_latitude: 12.1951624
-    min_longitude: 120.8007199
-    max_latitude: 13.5314771
-    max_longitude: 121.5576218
-  name: Mindoro Oriental
-MOU:
+  comments: 
+MOU: !ruby/struct:ISO3166::Subdivision
+  name: Mountain Province
+  code: 
   unofficial_names: Mountain Province
+  geo:
+    latitude: 17.0663429
+    longitude: 121.03351
+    min_latitude: 16.822498
+    min_longitude: 120.770595
+    max_latitude: 17.306318
+    max_longitude: 121.5659461
   translations:
     en: Mountain
     ar: مقاطعة ماونتين
@@ -2566,16 +2673,18 @@ MOU:
     ccp: "\U0001111F\U00011105\U0001112A\U0001111A\U00011134\U00011111\U0001112C\U0001111A\U00011134"
     uk: Гірська провінція
     mk: Планинска покраина
-  geo:
-    latitude: 17.0663429
-    longitude: 121.03351
-    min_latitude: 16.822498
-    min_longitude: 120.770595
-    max_latitude: 17.306318
-    max_longitude: 121.5659461
-  name: Mountain Province
-MSC:
+  comments: 
+MSC: !ruby/struct:ISO3166::Subdivision
+  name: Misamis Occidental
+  code: 
   unofficial_names: Misamis Occidental
+  geo:
+    latitude: 8.337490299999999
+    longitude: 123.7070619
+    min_latitude: 8.01499
+    min_longitude: 123.5556264
+    max_latitude: 8.668944699999999
+    max_longitude: 123.8690157
   translations:
     en: Misamis Occidental
     ar: ميساميس أوتشيدنتال
@@ -2617,16 +2726,18 @@ MSC:
     ccp: "\U0001111F\U00011128\U00011125\U0001111F\U00011128\U0001110C\U00011134 \U00011103\U00011127\U00011107\U00011134\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     uk: Західний Місаміс
     mk: Западен Мисамис
-  geo:
-    latitude: 8.337490299999999
-    longitude: 123.7070619
-    min_latitude: 8.01499
-    min_longitude: 123.5556264
-    max_latitude: 8.668944699999999
-    max_longitude: 123.8690157
-  name: Misamis Occidental
-MSR:
+  comments: 
+MSR: !ruby/struct:ISO3166::Subdivision
+  name: Misamis Oriental
+  code: 
   unofficial_names: Misamis Oriental
+  geo:
+    latitude: 8.5045558
+    longitude: 124.6219592
+    min_latitude: 8.2358519
+    min_longitude: 124.2491
+    max_latitude: 9.0931017
+    max_longitude: 125.2555001
   translations:
     en: Misamis Oriental
     ar: ميساميس أوريانتال
@@ -2668,17 +2779,19 @@ MSR:
     ccp: "\U0001111F\U00011128\U00011125\U0001111F\U00011128\U0001110C\U00011134 \U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     uk: Східний Місаміс
     mk: Источен Мисамис
-  geo:
-    latitude: 8.5045558
-    longitude: 124.6219592
-    min_latitude: 8.2358519
-    min_longitude: 124.2491
-    max_latitude: 9.0931017
-    max_longitude: 125.2555001
-  name: Misamis Oriental
-NCO:
+  comments: 
+NCO: !ruby/struct:ISO3166::Subdivision
+  name: North Cotabato
+  code: 
   unofficial_names:
   - North Cotabato
+  geo:
+    latitude: 7.1083349
+    longitude: 125.0388164
+    min_latitude: 6.7588269
+    min_longitude: 124.3334349
+    max_latitude: 7.681884999999999
+    max_longitude: 125.31497
   translations:
     en: Cotabato
     ar: كوتاباتو
@@ -2720,16 +2833,18 @@ NCO:
     ccp: "\U00011107\U0001112E\U00011111\U0001111D\U00011111\U0001112E"
     uk: Котабато
     mk: Котабато
-  geo:
-    latitude: 7.1083349
-    longitude: 125.0388164
-    min_latitude: 6.7588269
-    min_longitude: 124.3334349
-    max_latitude: 7.681884999999999
-    max_longitude: 125.31497
-  name: North Cotabato
-NEC:
+  comments: 
+NEC: !ruby/struct:ISO3166::Subdivision
+  name: Negros Occidental
+  code: 
   unofficial_names: Negros Occidental
+  geo:
+    latitude: 10.2925609
+    longitude: 123.0246518
+    min_latitude: 9.423715099999999
+    min_longitude: 122.3767471
+    max_latitude: 11.0031714
+    max_longitude: 123.5701711
   translations:
     en: Negros Occidental
     ar: نيغروس أوتشيدنتال
@@ -2772,16 +2887,18 @@ NEC:
       \U00011103\U00011127\U00011107\U00011134\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     uk: Західний Негрос
     mk: Западен Негрос
-  geo:
-    latitude: 10.2925609
-    longitude: 123.0246518
-    min_latitude: 9.423715099999999
-    min_longitude: 122.3767471
-    max_latitude: 11.0031714
-    max_longitude: 123.5701711
-  name: Negros Occidental
-NER:
+  comments: 
+NER: !ruby/struct:ISO3166::Subdivision
+  name: Negros Oriental
+  code: 
   unofficial_names: Negros Oriental
+  geo:
+    latitude: 9.628208299999999
+    longitude: 122.9888319
+    min_latitude: 9.0385288
+    min_longitude: 122.6101151
+    max_latitude: 10.4163581
+    max_longitude: 123.3400472
   translations:
     en: Negros Oriental
     ar: أورينتال نيغروس
@@ -2825,16 +2942,18 @@ NER:
       \U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     uk: Східний Негрос
     mk: Источен Негрос
-  geo:
-    latitude: 9.628208299999999
-    longitude: 122.9888319
-    min_latitude: 9.0385288
-    min_longitude: 122.6101151
-    max_latitude: 10.4163581
-    max_longitude: 123.3400472
-  name: Negros Oriental
-NSA:
+  comments: 
+NSA: !ruby/struct:ISO3166::Subdivision
+  name: Northern Samar
+  code: 
   unofficial_names: Northern Samar
+  geo:
+    latitude: 12.3613199
+    longitude: 124.7740793
+    min_latitude: 12.1405061
+    min_longitude: 124.0025139
+    max_latitude: 12.6966542
+    max_longitude: 125.3422503
   translations:
     en: Northern Samar
     ar: سامار الشمالية
@@ -2877,16 +2996,18 @@ NSA:
       \U00011125\U00011127\U0001111F\U00011122\U00011134"
     uk: Північний Самар
     mk: Северен Самар
-  geo:
-    latitude: 12.3613199
-    longitude: 124.7740793
-    min_latitude: 12.1405061
-    min_longitude: 124.0025139
-    max_latitude: 12.6966542
-    max_longitude: 125.3422503
-  name: Northern Samar
-NUE:
+  comments: 
+NUE: !ruby/struct:ISO3166::Subdivision
+  name: Nueva Ecija
+  code: 
   unofficial_names: Nueva Ecija
+  geo:
+    latitude: 15.6906831
+    longitude: 120.9876321
+    min_latitude: 15.1651679
+    min_longitude: 120.611833
+    max_latitude: 16.1302161
+    max_longitude: 121.3782461
   translations:
     en: Nueva Ecija
     ar: نويفا إيسيا
@@ -2929,16 +3050,18 @@ NUE:
     ccp: "\U0001111A\U0001112A\U00011120\U0001112C\U0001111E \U00011103\U00011128\U00011125\U00011128\U0001110E"
     uk: Нуева-Есіха
     mk: Нова Есиха
-  geo:
-    latitude: 15.6906831
-    longitude: 120.9876321
-    min_latitude: 15.1651679
-    min_longitude: 120.611833
-    max_latitude: 16.1302161
-    max_longitude: 121.3782461
-  name: Nueva Ecija
-NUV:
+  comments: 
+NUV: !ruby/struct:ISO3166::Subdivision
+  name: Nueva Vizcaya
+  code: 
   unofficial_names: Nueva Vizcaya
+  geo:
+    latitude: 16.3301107
+    longitude: 121.1710389
+    min_latitude: 15.7672
+    min_longitude: 120.756631
+    max_latitude: 16.7457349
+    max_longitude: 121.465768
   translations:
     en: Nueva Vizcaya
     ar: نويفا فيزكايا
@@ -2981,16 +3104,18 @@ NUV:
     ccp: "\U0001111A\U0001112A\U00011120\U0001112C\U0001111E \U0001111E\U00011128\U0001110C\U00011107\U0001112C\U00011120"
     uk: Нуева-Віская
     mk: Нова Вискаја
-  geo:
-    latitude: 16.3301107
-    longitude: 121.1710389
-    min_latitude: 15.7672
-    min_longitude: 120.756631
-    max_latitude: 16.7457349
-    max_longitude: 121.465768
-  name: Nueva Vizcaya
-PAM:
+  comments: 
+PAM: !ruby/struct:ISO3166::Subdivision
+  name: Pampanga
+  code: 
   unofficial_names: Pampanga
+  geo:
+    latitude: 15.079409
+    longitude: 120.6199895
+    min_latitude: 14.7673906
+    min_longitude: 120.3561269
+    max_latitude: 15.2718861
+    max_longitude: 120.985538
   translations:
     en: Pampanga
     ar: بامبانغا
@@ -3032,16 +3157,18 @@ PAM:
     ccp: "\U0001111B\U0001111F\U00011134\U0001111B\U0001111A\U00011134\U00011109"
     uk: Пампанга
     mk: Пампанга
-  geo:
-    latitude: 15.079409
-    longitude: 120.6199895
-    min_latitude: 14.7673906
-    min_longitude: 120.3561269
-    max_latitude: 15.2718861
-    max_longitude: 120.985538
-  name: Pampanga
-PAN:
+  comments: 
+PAN: !ruby/struct:ISO3166::Subdivision
+  name: Pangasinan
+  code: 
   unofficial_names: Pangasinan
+  geo:
+    latitude: 15.8949055
+    longitude: 120.2863183
+    min_latitude: 15.61848
+    min_longitude: 119.7495495
+    max_latitude: 16.426502
+    max_longitude: 120.9229021
   translations:
     en: Pangasinan
     ar: بانغاسينان
@@ -3084,16 +3211,18 @@ PAN:
     jv: Pangasinan
     ccp: "\U0001111B\U0001111A\U00011134\U00011109\U00011125\U00011128\U0001111A\U0001111A\U00011134"
     mk: Пангасинан
-  geo:
-    latitude: 15.8949055
-    longitude: 120.2863183
-    min_latitude: 15.61848
-    min_longitude: 119.7495495
-    max_latitude: 16.426502
-    max_longitude: 120.9229021
-  name: Pangasinan
-PLW:
+  comments: 
+PLW: !ruby/struct:ISO3166::Subdivision
+  name: Palawan
+  code: 
   unofficial_names: Palawan
+  geo:
+    latitude: 9.8349493
+    longitude: 118.7383615
+    min_latitude: 6.9634569
+    min_longitude: 116.9315639
+    max_latitude: 12.66335
+    max_longitude: 121.2708889
   translations:
     en: Palawan
     ar: بالاوان
@@ -3147,16 +3276,18 @@ PLW:
     ccp: "\U0001111B\U00011127\U00011123\U00011124\U0001111A\U00011134"
     ml: പലാവൻ
     mk: Палаван
-  geo:
-    latitude: 9.8349493
-    longitude: 118.7383615
-    min_latitude: 6.9634569
-    min_longitude: 116.9315639
-    max_latitude: 12.66335
-    max_longitude: 121.2708889
-  name: Palawan
-QUE:
+  comments: 
+QUE: !ruby/struct:ISO3166::Subdivision
+  name: Quezon
+  code: 
   unofficial_names: Quezon
+  geo:
+    latitude: 14.0313906
+    longitude: 122.1130909
+    min_latitude: 14.0007015
+    min_longitude: 122.0490502
+    max_latitude: 14.1294959
+    max_longitude: 122.1910019
   translations:
     en: Quezon
     ar: كزون
@@ -3198,17 +3329,19 @@ QUE:
     zh: 奎松省
     ccp: "\U00011107\U0001112A\U00011120\U0001112C\U0001110E\U00011127\U0001111A\U00011134"
     mk: Кезон
-  geo:
-    latitude: 14.0313906
-    longitude: 122.1130909
-    min_latitude: 14.0007015
-    min_longitude: 122.0490502
-    max_latitude: 14.1294959
-    max_longitude: 122.1910019
-  name: Quezon
-QUI:
+  comments: 
+QUI: !ruby/struct:ISO3166::Subdivision
+  name: Quirino
+  code: 
   unofficial_names:
   - Angkaki
+  geo:
+    latitude: 17.133333
+    longitude: 121.7
+    min_latitude: 17.0988256
+    min_longitude: 121.6813735
+    max_latitude: 17.2103775
+    max_longitude: 121.8186592
   translations:
     en: Quirino
     ar: كويرينو
@@ -3250,16 +3383,18 @@ QUI:
     ccp: "\U00011107\U0001112A\U00011103\U00011128\U00011122\U00011128\U0001111A\U0001112E"
     uk: Кіріно
     mk: Кирино
-  geo:
-    latitude: 17.133333
-    longitude: 121.7
-    min_latitude: 17.0988256
-    min_longitude: 121.6813735
-    max_latitude: 17.2103775
-    max_longitude: 121.8186592
-  name: Quirino
-RIZ:
+  comments: 
+RIZ: !ruby/struct:ISO3166::Subdivision
+  name: Rizal
+  code: 
   unofficial_names: Rizal
+  geo:
+    latitude: 14.6037446
+    longitude: 121.3084088
+    min_latitude: 14.2896792
+    min_longitude: 121.0935389
+    max_latitude: 14.8888711
+    max_longitude: 121.4698249
   translations:
     en: Rizal
     ar: ريزال
@@ -3301,16 +3436,18 @@ RIZ:
     zh: 黎剎省
     ccp: "\U00011122\U00011128\U0001110E\U00011123\U00011134"
     mk: Ризал
-  geo:
-    latitude: 14.6037446
-    longitude: 121.3084088
-    min_latitude: 14.2896792
-    min_longitude: 121.0935389
-    max_latitude: 14.8888711
-    max_longitude: 121.4698249
-  name: Rizal
-ROM:
+  comments: 
+ROM: !ruby/struct:ISO3166::Subdivision
+  name: Romblon
+  code: 
   unofficial_names: Romblon
+  geo:
+    latitude: 12.5778554
+    longitude: 122.269129
+    min_latitude: 12.4778353
+    min_longitude: 122.2304249
+    max_latitude: 12.6712134
+    max_longitude: 122.328081
   translations:
     en: Romblon
     ar: رومبلون
@@ -3352,16 +3489,18 @@ ROM:
     zh: 朗布隆省
     ccp: "\U00011122\U0001112E\U0001111F\U00011134\U0001111D\U00011133\U00011123\U0001112E\U0001111A\U00011134"
     mk: Ромблон
-  geo:
-    latitude: 12.5778554
-    longitude: 122.269129
-    min_latitude: 12.4778353
-    min_longitude: 122.2304249
-    max_latitude: 12.6712134
-    max_longitude: 122.328081
-  name: Romblon
-SAR:
+  comments: 
+SAR: !ruby/struct:ISO3166::Subdivision
+  name: Sarangani
+  code: 
   unofficial_names: Sarangani
+  geo:
+    latitude: 5.926717500000001
+    longitude: 124.994751
+    min_latitude: 5.566673
+    min_longitude: 124.3531991
+    max_latitude: 6.468224999999999
+    max_longitude: 125.5387121
   translations:
     en: Sarangani
     ar: سارانغاني
@@ -3404,16 +3543,18 @@ SAR:
     ccp: "\U00011125\U00011122\U0001110B\U00011134\U00011109\U0001111A\U00011128"
     uk: Сарангані
     mk: Сарангани
-  geo:
-    latitude: 5.926717500000001
-    longitude: 124.994751
-    min_latitude: 5.566673
-    min_longitude: 124.3531991
-    max_latitude: 6.468224999999999
-    max_longitude: 125.5387121
-  name: Sarangani
-SCO:
+  comments: 
+SCO: !ruby/struct:ISO3166::Subdivision
+  name: South Cotabato
+  code: 
   unofficial_names: South Cotabato
+  geo:
+    latitude: 6.3357565
+    longitude: 124.7740793
+    min_latitude: 5.957796999999999
+    min_longitude: 124.278951
+    max_latitude: 6.6679448
+    max_longitude: 125.2723331
   translations:
     en: South Cotabato
     ar: جنوب كوتاباتو
@@ -3454,16 +3595,18 @@ SCO:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U0001112E\U00011111\U0001111D\U00011111\U0001112E"
     uk: Південний Котабато
     mk: Јужен Котабато
-  geo:
-    latitude: 6.3357565
-    longitude: 124.7740793
-    min_latitude: 5.957796999999999
-    min_longitude: 124.278951
-    max_latitude: 6.6679448
-    max_longitude: 125.2723331
-  name: South Cotabato
-SIG:
+  comments: 
+SIG: !ruby/struct:ISO3166::Subdivision
+  name: Siquijor
+  code: 
   unofficial_names: Siquijor
+  geo:
+    latitude: 9.213263099999999
+    longitude: 123.5157032
+    min_latitude: 9.141587999999999
+    min_longitude: 123.4554852
+    max_latitude: 9.2403095
+    max_longitude: 123.6037446
   translations:
     en: Siquijor
     ar: سيكيخور
@@ -3506,16 +3649,18 @@ SIG:
     uk: Сікіхор
     cs: Siquijor
     mk: Сикихор
-  geo:
-    latitude: 9.213263099999999
-    longitude: 123.5157032
-    min_latitude: 9.141587999999999
-    min_longitude: 123.4554852
-    max_latitude: 9.2403095
-    max_longitude: 123.6037446
-  name: Siquijor
-SLE:
+  comments: 
+SLE: !ruby/struct:ISO3166::Subdivision
+  name: Southern Leyte
+  code: 
   unofficial_names: Southern Leyte
+  geo:
+    latitude: 10.3346206
+    longitude: 125.1708741
+    min_latitude: 9.895297
+    min_longitude: 124.755684
+    max_latitude: 10.6267204
+    max_longitude: 125.2990696
   translations:
     en: Southern Leyte
     ar: لايتي الجنوبية
@@ -3560,16 +3705,18 @@ SLE:
     et: Lõuna-Leyte
     uk: Південний Лейте
     mk: Јужен Лејте
-  geo:
-    latitude: 10.3346206
-    longitude: 125.1708741
-    min_latitude: 9.895297
-    min_longitude: 124.755684
-    max_latitude: 10.6267204
-    max_longitude: 125.2990696
-  name: Southern Leyte
-SLU:
+  comments: 
+SLU: !ruby/struct:ISO3166::Subdivision
+  name: Sulu
+  code: 
   unofficial_names: Sulu
+  geo:
+    latitude: 5.974901099999999
+    longitude: 121.03351
+    min_latitude: 5.4429449
+    min_longitude: 120.4130955
+    max_latitude: 6.4398352
+    max_longitude: 121.9476239
   translations:
     en: Sulu
     ar: سولو
@@ -3611,16 +3758,18 @@ SLU:
     ccp: "\U00011125\U0001112A\U00011123\U0001112A"
     uk: Сулу
     mk: Сулу
-  geo:
-    latitude: 5.974901099999999
-    longitude: 121.03351
-    min_latitude: 5.4429449
-    min_longitude: 120.4130955
-    max_latitude: 6.4398352
-    max_longitude: 121.9476239
-  name: Sulu
-SOR:
+  comments: 
+SOR: !ruby/struct:ISO3166::Subdivision
+  name: Sorsogon
+  code: 
   unofficial_names: Sorsogon
+  geo:
+    latitude: 12.9927095
+    longitude: 124.0147464
+    min_latitude: 12.8177146
+    min_longitude: 123.7906891
+    max_latitude: 13.1196236
+    max_longitude: 124.1477504
   translations:
     en: Sorsogon
     ar: سوروسوغون
@@ -3664,16 +3813,18 @@ SOR:
     uk: Сорсогон
     yue: 索索貢省
     mk: Сорсогон
-  geo:
-    latitude: 12.9927095
-    longitude: 124.0147464
-    min_latitude: 12.8177146
-    min_longitude: 123.7906891
-    max_latitude: 13.1196236
-    max_longitude: 124.1477504
-  name: Sorsogon
-SUK:
+  comments: 
+SUK: !ruby/struct:ISO3166::Subdivision
+  name: Sultan Kudarat
+  code: 
   unofficial_names: Sultan Kudarat
+  geo:
+    latitude: 6.5069401
+    longitude: 124.4198243
+    min_latitude: 6.117249999999999
+    min_longitude: 124.0158941
+    max_latitude: 6.883467
+    max_longitude: 125.197615
   translations:
     en: Sultan Kudarat
     ar: سلطان قادرات
@@ -3715,16 +3866,18 @@ SUK:
     ccp: "\U00011125\U0001112A\U00011123\U00011134\U00011111\U0001111A\U00011134 \U00011107\U0001112A\U00011113\U00011122\U00011116\U00011134"
     uk: Султан-Кударат
     mk: Султан Кударат
-  geo:
-    latitude: 6.5069401
-    longitude: 124.4198243
-    min_latitude: 6.117249999999999
-    min_longitude: 124.0158941
-    max_latitude: 6.883467
-    max_longitude: 125.197615
-  name: Sultan Kudarat
-SUN:
+  comments: 
+SUN: !ruby/struct:ISO3166::Subdivision
+  name: Surigao del Norte
+  code: 
   unofficial_names: Surigao del Norte
+  geo:
+    latitude: 9.514828
+    longitude: 125.6969984
+    min_latitude: 9.325377
+    min_longitude: 125.3916907
+    max_latitude: 10.0626918
+    max_longitude: 126.1804676
   translations:
     en: Surigao del Norte
     ar: سوريجاو ديل نورت
@@ -3766,16 +3919,18 @@ SUN:
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північний Сурігао
     mk: Северен Суригао
-  geo:
-    latitude: 9.514828
-    longitude: 125.6969984
-    min_latitude: 9.325377
-    min_longitude: 125.3916907
-    max_latitude: 10.0626918
-    max_longitude: 126.1804676
-  name: Surigao del Norte
-SUR:
+  comments: 
+SUR: !ruby/struct:ISO3166::Subdivision
+  name: Surigao del Sur
+  code: 
   unofficial_names: Surigao del Sur
+  geo:
+    latitude: 8.5404906
+    longitude: 126.1144758
+    min_latitude: 7.908138999999999
+    min_longitude: 125.7439209
+    max_latitude: 9.496260099999999
+    max_longitude: 126.4583336
   translations:
     en: Surigao del Sur
     ar: سوريجاو ديل سور
@@ -3817,16 +3972,18 @@ SUR:
       \U00011125\U00011122\U00011134"
     uk: Південий Сурігао
     mk: Јужен Суригао
-  geo:
-    latitude: 8.5404906
-    longitude: 126.1144758
-    min_latitude: 7.908138999999999
-    min_longitude: 125.7439209
-    max_latitude: 9.496260099999999
-    max_longitude: 126.4583336
-  name: Surigao del Sur
-TAR:
+  comments: 
+TAR: !ruby/struct:ISO3166::Subdivision
+  name: Tarlac
+  code: 
   unofficial_names: Tarlac
+  geo:
+    latitude: 15.4754786
+    longitude: 120.5963492
+    min_latitude: 15.4011971
+    min_longitude: 120.5281542
+    max_latitude: 15.543999
+    max_longitude: 120.6978608
   translations:
     en: Tarlac
     ar: تارلاك
@@ -3869,16 +4026,18 @@ TAR:
     ccp: "\U00011111\U00011122\U00011134\U00011123\U00011107\U00011134"
     hy: Տարլակ
     mk: Тарлак
-  geo:
-    latitude: 15.4754786
-    longitude: 120.5963492
-    min_latitude: 15.4011971
-    min_longitude: 120.5281542
-    max_latitude: 15.543999
-    max_longitude: 120.6978608
-  name: Tarlac
-TAW:
+  comments: 
+TAW: !ruby/struct:ISO3166::Subdivision
+  name: Tawi-Tawi
+  code: 
   unofficial_names: Tawi-Tawi
+  geo:
+    latitude: 5.133811
+    longitude: 119.950926
+    min_latitude: 4.616361299999999
+    min_longitude: 119.3835042
+    max_latitude: 5.9914141
+    max_longitude: 120.6829369
   translations:
     en: Tawi-Tawi
     ar: تاوي تاوي
@@ -3922,17 +4081,19 @@ TAW:
     ccp: "\U00011111\U00011127\U00011120\U00011128-\U00011111\U00011127\U00011120\U00011128"
     uk: Таві-Таві
     mk: Тави-Тави
-  geo:
-    latitude: 5.133811
-    longitude: 119.950926
-    min_latitude: 4.616361299999999
-    min_longitude: 119.3835042
-    max_latitude: 5.9914141
-    max_longitude: 120.6829369
-  name: Tawi-Tawi
-WSA:
+  comments: 
+WSA: !ruby/struct:ISO3166::Subdivision
+  name: Western Samar
+  code: 
   unofficial_names:
   - Western Samar
+  geo:
+    latitude: 11.5795195
+    longitude: 124.9748219
+    min_latitude: 11.0872409
+    min_longitude: 124.1477429
+    max_latitude: 12.334325
+    max_longitude: 125.307814
   translations:
     en: Samar
     ar: سامار
@@ -3976,18 +4137,11 @@ WSA:
     ccp: "\U00011125\U00011127\U0001111F\U00011122\U00011134"
     uk: Провінція Самар
     mk: Самар
-  geo:
-    latitude: 11.5795195
-    longitude: 124.9748219
-    min_latitude: 11.0872409
-    min_longitude: 124.1477429
-    max_latitude: 12.334325
-    max_longitude: 125.307814
-  name: Western Samar
-X1~:
+  comments: 
+X1~: !ruby/struct:ISO3166::Subdivision
+  name: Dinagat
+  code: 
   unofficial_names: Dinagat
-  translations:
-    en: Dinagat
   geo:
     latitude: 10.1281816
     longitude: 125.6095474
@@ -3995,11 +4149,13 @@ X1~:
     min_longitude: 125.465279
     max_latitude: 10.4716027
     max_longitude: 125.7067526
-  name: Dinagat
-X2~:
-  unofficial_names: Shariff Kabunsuan
   translations:
-    en: Shariff Kabunsuan
+    en: Dinagat
+  comments: 
+X2~: !ruby/struct:ISO3166::Subdivision
+  name: Shariff Kabunsuan
+  code: 
+  unofficial_names: Shariff Kabunsuan
   geo:
     latitude: 7.214106399999999
     longitude: 124.2535718
@@ -4007,9 +4163,20 @@ X2~:
     min_longitude: 124.2530217
     max_latitude: 7.2155299
     max_longitude: 124.2541869
-  name: Shariff Kabunsuan
-ZAN:
+  translations:
+    en: Shariff Kabunsuan
+  comments: 
+ZAN: !ruby/struct:ISO3166::Subdivision
+  name: Zamboanga del Norte
+  code: 
   unofficial_names: Zamboanga del Norte
+  geo:
+    latitude: 8.3886282
+    longitude: 123.1688883
+    min_latitude: 7.1448079
+    min_longitude: 121.9014683
+    max_latitude: 8.856403499999999
+    max_longitude: 123.559396
   translations:
     en: Zamboanga del Norte
     ar: زامبوانجا ديل نورت
@@ -4051,16 +4218,18 @@ ZAN:
       \U00011113\U0001112C\U00011123\U00011134 \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     uk: Північна Замбоанга
     mk: Северна Замбоанга
-  geo:
-    latitude: 8.3886282
-    longitude: 123.1688883
-    min_latitude: 7.1448079
-    min_longitude: 121.9014683
-    max_latitude: 8.856403499999999
-    max_longitude: 123.559396
-  name: Zamboanga del Norte
-ZAS:
+  comments: 
+ZAS: !ruby/struct:ISO3166::Subdivision
+  name: Zamboanga del Sur
+  code: 
   unofficial_names: Zamboanga del Sur
+  geo:
+    latitude: 7.838305399999999
+    longitude: 123.2966657
+    min_latitude: 7.3595234
+    min_longitude: 122.916847
+    max_latitude: 8.2364218
+    max_longitude: 123.669302
   translations:
     en: Zamboanga del Sur
     ar: زامبوانجا ديل سور
@@ -4102,16 +4271,18 @@ ZAS:
       \U00011113\U0001112C\U00011123\U00011134 \U00011125\U00011122\U00011134"
     uk: Південна Замбоанга
     mk: Јужна Замбоанга
-  geo:
-    latitude: 7.838305399999999
-    longitude: 123.2966657
-    min_latitude: 7.3595234
-    min_longitude: 122.916847
-    max_latitude: 8.2364218
-    max_longitude: 123.669302
-  name: Zamboanga del Sur
-ZMB:
+  comments: 
+ZMB: !ruby/struct:ISO3166::Subdivision
+  name: Zambales
+  code: 
   unofficial_names: Zambales
+  geo:
+    latitude: 15.5081766
+    longitude: 119.9697808
+    min_latitude: 14.7397255
+    min_longitude: 117.8441242
+    max_latitude: 15.845467
+    max_longitude: 120.462163
   translations:
     en: Zambales
     ar: زامباله
@@ -4155,16 +4326,18 @@ ZMB:
     ccp: "\U0001110E\U0001111F\U00011134\U0001111D\U00011123\U00011128\U0001110C\U00011134"
     uk: Самбалес
     mk: Замбалес
-  geo:
-    latitude: 15.5081766
-    longitude: 119.9697808
-    min_latitude: 14.7397255
-    min_longitude: 117.8441242
-    max_latitude: 15.845467
-    max_longitude: 120.462163
-  name: Zambales
-ZSI:
+  comments: 
+ZSI: !ruby/struct:ISO3166::Subdivision
+  name: Zamboanga Sibuguey [Zamboanga Sibugay]
+  code: 
   unofficial_names: Zamboanga Sibuguey [Zamboanga Sibugay]
+  geo:
+    latitude: 7.02427
+    longitude: 122.189
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Zamboanga Sibugay
     ar: زامبوانجا سيبوجاي
@@ -4207,18 +4380,20 @@ ZSI:
       \U00011125\U00011128\U0001111D\U0001112A\U00011109\U0001112C"
     uk: Замбоанга-Сибугай
     mk: Замбоанга Сибугај
-  geo:
-    latitude: 7.02427
-    longitude: 122.189
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Zamboanga Sibuguey [Zamboanga Sibugay]
-'00':
+  comments: 
+'00': !ruby/struct:ISO3166::Subdivision
+  name: National Capital Region
+  code: 
   unofficial_names:
   - National Capital Region
   - Pambansang Punong Rehiyon
+  geo:
+    latitude: 14.6090537
+    longitude: 121.0222565
+    min_latitude: 14.3493861
+    min_longitude: 120.9172569
+    max_latitude: 14.781217
+    max_longitude: 121.132012
   translations:
     en: Metro Manila
     be: Сталічны Рэгіён
@@ -4263,16 +4438,18 @@ ZSI:
     yue: 馬尼拉大都會
     my: မက်ထရို မနီလာ
     mk: Метро Манила
-  geo:
-    latitude: 14.6090537
-    longitude: 121.0222565
-    min_latitude: 14.3493861
-    min_longitude: 120.9172569
-    max_latitude: 14.781217
-    max_longitude: 121.132012
-  name: National Capital Region
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ميماروبا
     ca: MIMAROPA
@@ -4304,6 +4481,11 @@ ZSI:
     nb: MIMAROPA
     th: เขตมีมาโรปา
     mk: Мимаропа
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4311,8 +4493,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'14':
-  unofficial_names: 
   translations:
     az: Müsəlman Mindanao muxtar regionu
     be: Аўтаномны рэгіён у Мусульманскім Мінданаа
@@ -4355,6 +4535,11 @@ ZSI:
     nb: Autonomous Region in Muslim Mindanao
     th: เขตปกครองตนเองในมินดาเนามุสลิม
     mk: Автономен регион во Муслимански Минданао
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4362,8 +4547,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     be: Усходнія Вісаі
     ca: Visayas Orientals
@@ -4397,6 +4580,11 @@ ZSI:
     yue: 東維薩亞斯
     th: เขตซีลางังคาบีซายาอัน
     mk: Источни Висаи
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4404,8 +4592,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'11':
-  unofficial_names: 
   translations:
     bn: দাভাও অঞ্চল
     ca: Regió de Davao
@@ -4438,6 +4624,11 @@ ZSI:
     yue: 達沃區
     th: เขตดาเบา
     mk: Давао
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4445,8 +4636,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'01':
-  unofficial_names: 
   translations:
     ca: Regió d’Ilocos
     de: Ilocos Region
@@ -4480,6 +4669,11 @@ ZSI:
     yue: 伊羅戈
     th: เขตอีโลโคส
     mk: Илокос
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4487,8 +4681,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     ca: Vall de Cagayan
     de: Cagayan Valley
@@ -4523,6 +4715,11 @@ ZSI:
     yue: 卡加延谷
     th: เขตลัมบักนางคากายัน
     mk: Кагајанска Долина
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4530,8 +4727,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     ca: Luzon Central
     de: Central Luzon
@@ -4565,6 +4760,11 @@ ZSI:
     yue: 中呂宋
     th: เขตกิตนางลูโซน
     mk: Централен Лузон
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4572,8 +4772,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     ca: Regió de Bicol
     de: Bicol Region
@@ -4605,6 +4803,11 @@ ZSI:
     yue: 比科爾
     th: เขตบีโคล
     mk: Бикол
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4612,8 +4815,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     ca: Visayas Occidentals
     de: Western Visayas
@@ -4649,6 +4850,11 @@ ZSI:
     nb: Western Visayas
     th: เขตคันลูรังคาบีซายาอัน
     mk: Западни Висаи
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4656,8 +4862,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ca: Visayas Centrals
     de: Central Visayas
@@ -4693,6 +4897,11 @@ ZSI:
     yue: 中維薩亞斯
     th: เขตกิตนางคาบีซายาอัน
     mk: Централни Висаи
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4700,8 +4909,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     ca: Península de Zamboanga
     de: Zamboanga Peninsula
@@ -4738,6 +4945,11 @@ ZSI:
     yue: 三寶顏半島
     th: เขตตังไวนางซัมบวงกา
     mk: Полуостров Замбоанга
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4745,8 +4957,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     ca: Mindanao Septentrional
     de: Northern Mindanao
@@ -4778,6 +4988,11 @@ ZSI:
     yue: 北棉蘭老
     th: เขตฮีลากังมินดาเนา
     mk: Северен Минданао
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4785,8 +5000,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'12':
-  unofficial_names: 
   translations:
     ca: SOCCSKSARGEN
     cs: Soccsksargen
@@ -4816,6 +5029,11 @@ ZSI:
     yue: 中棉蘭老
     th: เขตโซกซาร์เจน
     mk: Сокксксархен
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4823,8 +5041,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'13':
-  unofficial_names: 
   translations:
     ca: Caraga
     de: Caraga
@@ -4855,6 +5071,11 @@ ZSI:
     nb: Caraga
     th: เขตคารากา
     mk: Карага
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4862,8 +5083,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'15':
-  unofficial_names: 
   translations:
     ca: Regió Administrativa de la Cordillera
     de: Cordillera Administrative Region
@@ -4896,6 +5115,11 @@ ZSI:
     nb: Cordillera Administrative Region
     th: เขตบริหารคอร์ดิลเยรา
     mk: Кордилјера
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4903,8 +5127,6 @@ ZSI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'40':
-  unofficial_names: 
   translations:
     ca: CALABARZON
     de: Calabarzon
@@ -4938,10 +5160,4 @@ ZSI:
     yue: 卡拉巴鬆
     th: เขตคาลาบาร์โซน
     mk: Калабарзон
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

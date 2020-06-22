@@ -1,6 +1,15 @@
 ---
-AW:
+AW: !ruby/struct:ISO3166::Subdivision
+  name: Awdal
+  code: 
   unofficial_names: Awdal
+  geo:
+    latitude: 10.6334285
+    longitude: 43.329466
+    min_latitude: 9.721214999999999
+    min_longitude: 42.68300989999999
+    max_latitude: 11.5114751
+    max_longitude: 44.2172924
   translations:
     en: Awdal
     ar: عدل
@@ -31,16 +40,18 @@ AW:
     jv: Awdal
     ccp: "\U00011103\U00011127\U00011113\U00011123\U00011134"
     so: Awdal
-  geo:
-    latitude: 10.6334285
-    longitude: 43.329466
-    min_latitude: 9.721214999999999
-    min_longitude: 42.68300989999999
-    max_latitude: 11.5114751
-    max_longitude: 44.2172924
-  name: Awdal
-BK:
+  comments: 
+BK: !ruby/struct:ISO3166::Subdivision
+  name: Bakool
+  code: 
   unofficial_names: Bakool
+  geo:
+    latitude: 4.3657221
+    longitude: 44.0960311
+    min_latitude: 3.529067
+    min_longitude: 42.750198
+    max_latitude: 4.960437
+    max_longitude: 44.617615
   translations:
     en: Bakool
     ar: باكول
@@ -85,16 +96,18 @@ BK:
     jv: Bakool
     ccp: "\U0001111D\U00011107\U0001112B\U00011123\U00011134"
     so: Bakool
-  geo:
-    latitude: 4.3657221
-    longitude: 44.0960311
-    min_latitude: 3.529067
-    min_longitude: 42.750198
-    max_latitude: 4.960437
-    max_longitude: 44.617615
-  name: Bakool
-BN:
+  comments: 
+BN: !ruby/struct:ISO3166::Subdivision
+  name: Banaadir
+  code: 
   unofficial_names: Banaadir
+  geo:
+    latitude: 2.1187375
+    longitude: 45.3369459
+    min_latitude: 1.9337841
+    min_longitude: 45.14145629999999
+    max_latitude: 2.195059
+    max_longitude: 45.5860699
   translations:
     en: Banaadir
     ar: بنادر
@@ -139,16 +152,18 @@ BN:
     jv: Banaadir
     ccp: "\U0001111D\U0001111A\U00011133\U00011103\U00011113\U00011128\U00011122\U00011134"
     so: Banaadir
-  geo:
-    latitude: 2.1187375
-    longitude: 45.3369459
-    min_latitude: 1.9337841
-    min_longitude: 45.14145629999999
-    max_latitude: 2.195059
-    max_longitude: 45.5860699
-  name: Banaadir
-BR:
+  comments: 
+BR: !ruby/struct:ISO3166::Subdivision
+  name: Bari
+  code: 
   unofficial_names: Bari
+  geo:
+    latitude: 10.1203847
+    longitude: 49.6911374
+    min_latitude: 8.326447
+    min_longitude: 48.906651
+    max_latitude: 11.9852029
+    max_longitude: 51.4130282
   translations:
     en: Bari
     ar: باري
@@ -194,16 +209,18 @@ BR:
     jv: Bari, Somalia
     ccp: "\U0001111D\U00011122\U00011128"
     so: Bari
-  geo:
-    latitude: 10.1203847
-    longitude: 49.6911374
-    min_latitude: 8.326447
-    min_longitude: 48.906651
-    max_latitude: 11.9852029
-    max_longitude: 51.4130282
-  name: Bari
-BY:
+  comments: 
+BY: !ruby/struct:ISO3166::Subdivision
+  name: Bay
+  code: 
   unofficial_names: Bay
+  geo:
+    latitude: 2.4825193
+    longitude: 43.483738
+    min_latitude: 1.625444
+    min_longitude: 42.3411179
+    max_latitude: 3.543456
+    max_longitude: 44.63283209999999
   translations:
     en: Bay, Somalia
     ar: باي
@@ -249,16 +266,18 @@ BY:
     jv: Bay, Somalia
     ccp: "\U0001111D\U0001112C, \U00011125\U0001112E\U0001111F\U00011123\U00011128\U00011120"
     so: Baay
-  geo:
-    latitude: 2.4825193
-    longitude: 43.483738
-    min_latitude: 1.625444
-    min_longitude: 42.3411179
-    max_latitude: 3.543456
-    max_longitude: 44.63283209999999
-  name: Bay
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Galguduud
+  code: 
   unofficial_names: Galguduud
+  geo:
+    latitude: 5.1850128
+    longitude: 46.8252838
+    min_latitude: 3.5412981
+    min_longitude: 45.5051261
+    max_latitude: 6.221599899999999
+    max_longitude: 47.939419
   translations:
     en: Galguduud
     ar: جلجدود
@@ -303,16 +322,18 @@ GA:
     jv: Galguduud
     ccp: "\U00011109\U00011133\U00011120\U00011123\U00011134\U00011109\U0001112A\U00011113\U0001112B\U00011116\U00011134"
     so: Galguduud
-  geo:
-    latitude: 5.1850128
-    longitude: 46.8252838
-    min_latitude: 3.5412981
-    min_longitude: 45.5051261
-    max_latitude: 6.221599899999999
-    max_longitude: 47.939419
-  name: Galguduud
-GE:
+  comments: 
+GE: !ruby/struct:ISO3166::Subdivision
+  name: Gedo
+  code: 
   unofficial_names: Gedo
+  geo:
+    latitude: 3.5039227
+    longitude: 42.2362435
+    min_latitude: 2.28444
+    min_longitude: 40.992082
+    max_latitude: 4.264552999999999
+    max_longitude: 43.004589
   translations:
     en: Gedo
     ar: جدو
@@ -357,16 +378,18 @@ GE:
     jv: Gedo
     ccp: "\U00011109\U0001112C\U00011113\U0001112E"
     so: Gedo
-  geo:
-    latitude: 3.5039227
-    longitude: 42.2362435
-    min_latitude: 2.28444
-    min_longitude: 40.992082
-    max_latitude: 4.264552999999999
-    max_longitude: 43.004589
-  name: Gedo
-HI:
+  comments: 
+HI: !ruby/struct:ISO3166::Subdivision
+  name: Hiiraan
+  code: 
   unofficial_names: Hiiraan
+  geo:
+    latitude: 4.321015
+    longitude: 45.29938620000001
+    min_latitude: 3.3195169
+    min_longitude: 44.4159971
+    max_latitude: 5.454314
+    max_longitude: 46.361508
   translations:
     en: Hiran
     ar: هيران
@@ -411,16 +434,18 @@ HI:
     jv: Hiiraan
     ccp: "\U00011126\U00011128\U00011122\U00011127\U0001111A\U00011134"
     so: Hiiraan
-  geo:
-    latitude: 4.321015
-    longitude: 45.29938620000001
-    min_latitude: 3.3195169
-    min_longitude: 44.4159971
-    max_latitude: 5.454314
-    max_longitude: 46.361508
-  name: Hiiraan
-JD:
+  comments: 
+JD: !ruby/struct:ISO3166::Subdivision
+  name: Jubbada Dhexe
+  code: 
   unofficial_names: Jubbada Dhexe
+  geo:
+    latitude: 2.0780488
+    longitude: 41.6011814
+    min_latitude: 0.352452
+    min_longitude: 40.990269
+    max_latitude: 2.38058
+    max_longitude: 43.4949649
   translations:
     en: Middle Juba
     ar: جوبا الوسطى
@@ -466,16 +491,18 @@ JD:
     ccp: "\U0001111F\U00011128\U00011113\U00011127\U00011123\U00011134 \U0001110E\U0001112A\U0001111D"
     he: ג׳ובה המרכזית
     so: Jubbada Dhexe
-  geo:
-    latitude: 2.0780488
-    longitude: 41.6011814
-    min_latitude: 0.352452
-    min_longitude: 40.990269
-    max_latitude: 2.38058
-    max_longitude: 43.4949649
-  name: Jubbada Dhexe
-JH:
+  comments: 
+JH: !ruby/struct:ISO3166::Subdivision
+  name: Jubbada Hoose
+  code: 
   unofficial_names: Jubbada Hoose
+  geo:
+    latitude: 0.224021
+    longitude: 41.6011814
+    min_latitude: -1.6541275
+    min_longitude: 40.9886321
+    max_latitude: 1.382667
+    max_longitude: 43.2361241
   translations:
     en: Lower Juba
     ar: جوبا السفلى
@@ -521,16 +548,18 @@ JH:
     ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U0001110E\U0001112A\U0001111D"
     he: ג׳ובה תחתית
     so: Jubbada Hoose
-  geo:
-    latitude: 0.224021
-    longitude: 41.6011814
-    min_latitude: -1.6541275
-    min_longitude: 40.9886321
-    max_latitude: 1.382667
-    max_longitude: 43.2361241
-  name: Jubbada Hoose
-MU:
+  comments: 
+MU: !ruby/struct:ISO3166::Subdivision
+  name: Mudug
+  code: 
   unofficial_names: Mudug
+  geo:
+    latitude: 6.5656726
+    longitude: 47.7637565
+    min_latitude: 4.427916
+    min_longitude: 46.2261429
+    max_latitude: 7.797689
+    max_longitude: 49.635255
   translations:
     en: Mudug
     ar: مدج
@@ -576,16 +605,18 @@ MU:
     ccp: "\U0001111F\U0001112A\U00011113\U0001112A\U00011107\U00011134"
     hy: Մուդուգ
     so: Mudug
-  geo:
-    latitude: 6.5656726
-    longitude: 47.7637565
-    min_latitude: 4.427916
-    min_longitude: 46.2261429
-    max_latitude: 7.797689
-    max_longitude: 49.635255
-  name: Mudug
-NU:
+  comments: 
+NU: !ruby/struct:ISO3166::Subdivision
+  name: Nugaal
+  code: 
   unofficial_names: Nugaal
+  geo:
+    latitude: 8.2173496
+    longitude: 49.2030851
+    min_latitude: 7.386317599999999
+    min_longitude: 47.789005
+    max_latitude: 8.9382501
+    max_longitude: 50.16936099999999
   translations:
     en: Nugal
     ar: نوجال
@@ -629,16 +660,18 @@ NU:
     zh: 努加爾州
     ccp: "\U0001111A\U0001112A\U00011109\U00011123\U00011134"
     so: Nugaal
-  geo:
-    latitude: 8.2173496
-    longitude: 49.2030851
-    min_latitude: 7.386317599999999
-    min_longitude: 47.789005
-    max_latitude: 8.9382501
-    max_longitude: 50.16936099999999
-  name: Nugaal
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Sanaag
+  code: 
   unofficial_names: Sanaag
+  geo:
+    latitude: 10.3938218
+    longitude: 47.7637565
+    min_latitude: 9.2556839
+    min_longitude: 45.88597009999999
+    max_latitude: 11.322548
+    max_longitude: 48.95186
   translations:
     en: Sanaag
     ar: سناج
@@ -667,16 +700,18 @@ SA:
     zh: 薩那格州
     ccp: "\U00011125\U0001111A\U00011133\U00011103\U00011107\U00011134"
     so: Sanaag
-  geo:
-    latitude: 10.3938218
-    longitude: 47.7637565
-    min_latitude: 9.2556839
-    min_longitude: 45.88597009999999
-    max_latitude: 11.322548
-    max_longitude: 48.95186
-  name: Sanaag
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Shabeellaha Dhexe
+  code: 
   unofficial_names: Shabeellaha Dhexe
+  geo:
+    latitude: 2.9250247
+    longitude: 45.9039689
+    min_latitude: 2.170552
+    min_longitude: 45.03761
+    max_latitude: 4.030119
+    max_longitude: 47.10182959999999
   translations:
     en: Middle Shebelle
     ar: شبيلا الوسطى
@@ -722,16 +757,18 @@ SD:
     ccp: "\U0001111F\U00011128\U00011113\U00011127\U00011123\U00011134 \U00011125\U0001112C\U0001111E\U0001112C\U00011123\U0001112C"
     so: Shabeellaha Dhexe
     be: Сярэдняя Шабеле
-  geo:
-    latitude: 2.9250247
-    longitude: 45.9039689
-    min_latitude: 2.170552
-    min_longitude: 45.03761
-    max_latitude: 4.030119
-    max_longitude: 47.10182959999999
-  name: Shabeellaha Dhexe
-SH:
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: Shabeellaha Hoose
+  code: 
   unofficial_names: Shabeellaha Hoose
+  geo:
+    latitude: 1.8766458
+    longitude: 44.2479015
+    min_latitude: 0.6533486
+    min_longitude: 42.904155
+    max_latitude: 3.320112
+    max_longitude: 45.317607
   translations:
     en: Lower Shebelle
     ar: شبيلا السفلى
@@ -777,16 +814,18 @@ SH:
     jv: Shabeellaha Hoose
     ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U00011125\U0001112C\U0001111E\U0001112C\U00011123\U0001112C"
     so: Shabeellaha Hoose
-  geo:
-    latitude: 1.8766458
-    longitude: 44.2479015
-    min_latitude: 0.6533486
-    min_longitude: 42.904155
-    max_latitude: 3.320112
-    max_longitude: 45.317607
-  name: Shabeellaha Hoose
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Sool
+  code: 
   unofficial_names: Sool
+  geo:
+    latitude: 8.722155599999999
+    longitude: 47.7637565
+    min_latitude: 7.999999899999999
+    min_longitude: 45.982599
+    max_latitude: 9.778229999999999
+    max_longitude: 48.973164
   translations:
     en: Sool
     ar: سول
@@ -816,16 +855,18 @@ SO:
     jv: Sool
     ccp: "\U00011125\U0001112B\U00011123\U00011134"
     so: Sool
-  geo:
-    latitude: 8.722155599999999
-    longitude: 47.7637565
-    min_latitude: 7.999999899999999
-    min_longitude: 45.982599
-    max_latitude: 9.778229999999999
-    max_longitude: 48.973164
-  name: Sool
-TO:
+  comments: 
+TO: !ruby/struct:ISO3166::Subdivision
+  name: Togdheer
+  code: 
   unofficial_names: Togdheer
+  geo:
+    latitude: 9.4460587
+    longitude: 45.29938620000001
+    min_latitude: 8.0030579
+    min_longitude: 44.6282671
+    max_latitude: 10.1261651
+    max_longitude: 46.98998
   translations:
     en: Togdheer
     ar: توجدير
@@ -853,16 +894,18 @@ TO:
     zh: 托格代爾州
     ccp: "\U00011111\U0001112E\U00011107\U00011134\U00011119\U00011129\U00011122\U00011134"
     so: Togdheer
-  geo:
-    latitude: 9.4460587
-    longitude: 45.29938620000001
-    min_latitude: 8.0030579
-    min_longitude: 44.6282671
-    max_latitude: 10.1261651
-    max_longitude: 46.98998
-  name: Togdheer
-WO:
+  comments: 
+WO: !ruby/struct:ISO3166::Subdivision
+  name: Woqooyi Galbeed
+  code: 
   unofficial_names: Woqooyi Galbeed
+  geo:
+    latitude: 9.542373999999999
+    longitude: 44.0960311
+    min_latitude: 8.785137899999999
+    min_longitude: 43.2783189
+    max_latitude: 10.8666542
+    max_longitude: 45.927817
   translations:
     en: Woqooyi Galbeed
     ar: وقويي جالبيد
@@ -890,11 +933,4 @@ WO:
     ccp: "\U00011124\U00011107\U0001112A\U00011120\U00011128 \U00011109\U00011123\U00011134\U0001111D\U0001112C\U00011116\U00011134"
     so: Woqooyi Galbeed
     nb: Woqooyi Galbeed
-  geo:
-    latitude: 9.542373999999999
-    longitude: 44.0960311
-    min_latitude: 8.785137899999999
-    min_longitude: 43.2783189
-    max_latitude: 10.8666542
-    max_longitude: 45.927817
-  name: Woqooyi Galbeed
+  comments: 

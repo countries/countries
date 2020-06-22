@@ -1,9 +1,8 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Lagunes (Région des)
+  code: 
   unofficial_names: Lagunes (Région des)
-  translations:
-    en: Lagunes
-    ccp: "\U00011123\U00011133\U00011120\U00011109\U0001112A\U0001111A\U00011134\U00011125\U00011134"
   geo:
     latitude: 5.4611461
     longitude: -4.479976
@@ -11,12 +10,14 @@
     min_longitude: -5.451649
     max_latitude: 6.385650900000001
     max_longitude: -3.4372559
-  name: Lagunes (Région des)
-'02':
-  unofficial_names: Haut-Sassandra (Région du)
   translations:
-    en: Haut-Sassandra
-    ccp: "\U00011126\U00011116\U00011134-\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122"
+    en: Lagunes
+    ccp: "\U00011123\U00011133\U00011120\U00011109\U0001112A\U0001111A\U00011134\U00011125\U00011134"
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Haut-Sassandra (Région du)
+  code: 
+  unofficial_names: Haut-Sassandra (Région du)
   geo:
     latitude: 6.8757848
     longitude: -6.5783387
@@ -24,12 +25,14 @@
     min_longitude: -7.0862301
     max_latitude: 7.791552
     max_longitude: -5.9337941
-  name: Haut-Sassandra (Région du)
-'03':
-  unofficial_names: Savanes (Région des)
   translations:
-    en: Savanes²
-    ccp: "\U00011125\U0001111E\U0001111A\U0001112C\U0001110C\U00011134"
+    en: Haut-Sassandra
+    ccp: "\U00011126\U00011116\U00011134-\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122"
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Savanes (Région des)
+  code: 
+  unofficial_names: Savanes (Région des)
   geo:
     latitude: 9.6783614
     longitude: -5.5617279
@@ -37,12 +40,14 @@
     min_longitude: -6.9397169
     max_latitude: 10.736642
     max_longitude: -3.781528999999999
-  name: Savanes (Région des)
-'04':
-  unofficial_names: Vallée du Bandama (Région de la)
   translations:
-    en: Vallée du Bandama
-    ccp: "\U0001111E\U00011123\U0001112C \U00011113\U0001112E \U0001111D\U0001111A\U00011134\U00011113\U0001111F"
+    en: Savanes²
+    ccp: "\U00011125\U0001111E\U0001111A\U0001112C\U0001110C\U00011134"
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Vallée du Bandama (Région de la)
+  code: 
+  unofficial_names: Vallée du Bandama (Région de la)
   geo:
     latitude: 8.278978
     longitude: -4.893562699999999
@@ -50,12 +55,14 @@
     min_longitude: -5.787452
     max_latitude: 9.3980309
     max_longitude: -3.90265
-  name: Vallée du Bandama (Région de la)
-'05':
-  unofficial_names: Moyen-Comoé (Région du)
   translations:
-    en: Moyen-Comoé
-    ccp: "\U0001111F\U0001112E\U00011120\U0001112C\U0001111A\U00011134-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+    en: Vallée du Bandama
+    ccp: "\U0001111E\U00011123\U0001112C \U00011113\U0001112E \U0001111D\U0001111A\U00011134\U00011113\U0001111F"
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Moyen-Comoé (Région du)
+  code: 
+  unofficial_names: Moyen-Comoé (Région du)
   geo:
     latitude: 6.7419877
     longitude: -3.5073638
@@ -63,13 +70,14 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Moyen-Comoé (Région du)
-'06':
-  unofficial_names: 18 Montagnes (Région des)
   translations:
-    en: Dix-Huit Montagnes
-    ccp: "\U00011113\U00011128\U00011107\U00011134-\U00011126\U0001112A\U00011103\U00011128\U00011116\U00011134
-      \U0001111F\U00011127\U0001111A\U00011134\U00011111\U00011133\U00011120\U00011107\U00011134\U0001111A\U0001112C\U0001110C\U00011134"
+    en: Moyen-Comoé
+    ccp: "\U0001111F\U0001112E\U00011120\U0001112C\U0001111A\U00011134-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 18 Montagnes (Région des)
+  code: 
+  unofficial_names: 18 Montagnes (Région des)
   geo:
     latitude: 7.376237300000001
     longitude: -7.4381355
@@ -77,12 +85,15 @@
     min_longitude: -8.472178999999999
     max_latitude: 8.1423519
     max_longitude: -6.978052
-  name: 18 Montagnes (Région des)
-'07':
-  unofficial_names: Lacs (Région des)
   translations:
-    en: Lacs
-    ccp: "\U00011123\U00011133\U00011120\U00011107\U00011134\U0001110C\U00011134"
+    en: Dix-Huit Montagnes
+    ccp: "\U00011113\U00011128\U00011107\U00011134-\U00011126\U0001112A\U00011103\U00011128\U00011116\U00011134
+      \U0001111F\U00011127\U0001111A\U00011134\U00011111\U00011133\U00011120\U00011107\U00011134\U0001111A\U0001112C\U0001110C\U00011134"
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Lacs (Région des)
+  code: 
+  unofficial_names: Lacs (Région des)
   geo:
     latitude: 6.892414400000001
     longitude: -5.2266675
@@ -90,12 +101,14 @@
     min_longitude: -5.6588403
     max_latitude: 7.549774999999999
     max_longitude: -4.618317999999999
-  name: Lacs (Région des)
-'08':
-  unofficial_names: Zanzan (Région du)
   translations:
-    en: Zanzan
-    ccp: "\U0001110E\U0001111A\U00011134\U0001110E\U0001111A\U00011134"
+    en: Lacs
+    ccp: "\U00011123\U00011133\U00011120\U00011107\U00011134\U0001110C\U00011134"
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Zanzan (Région du)
+  code: 
+  unofficial_names: Zanzan (Région du)
   geo:
     latitude: 8.8207904
     longitude: -3.4195527
@@ -103,12 +116,14 @@
     min_longitude: -4.318694
     max_latitude: 9.957134100000001
     max_longitude: -2.494897
-  name: Zanzan (Région du)
-'09':
-  unofficial_names: Bas-Sassandra (Région du)
   translations:
-    en: Bas-Sassandra
-    ccp: "\U0001111D\U0001110C\U00011134-\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122"
+    en: Zanzan
+    ccp: "\U0001110E\U0001111A\U00011134\U0001110E\U0001111A\U00011134"
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Bas-Sassandra (Région du)
+  code: 
+  unofficial_names: Bas-Sassandra (Région du)
   geo:
     latitude: 5.7841299
     longitude: -6.5957329
@@ -116,12 +131,14 @@
     min_longitude: -6.5960402
     max_latitude: 5.784246899999999
     max_longitude: -6.5954098
-  name: Bas-Sassandra (Région du)
-'10':
-  unofficial_names: Denguélé (Région du)
   translations:
-    en: Denguélé
-    ccp: "\U00011113\U0001112C\U0001111A\U00011134\U00011109\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
+    en: Bas-Sassandra
+    ccp: "\U0001111D\U0001110C\U00011134-\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122"
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Denguélé (Région du)
+  code: 
+  unofficial_names: Denguélé (Région du)
   geo:
     latitude: 9.4662372
     longitude: -7.4381355
@@ -129,12 +146,14 @@
     min_longitude: -8.1668441
     max_latitude: 10.4881189
     max_longitude: -6.570768999999999
-  name: Denguélé (Région du)
-'11':
-  unofficial_names: Nzi-Comoé (Région)
   translations:
-    en: N’zi-Comoé
-    ccp: "\U00011103\U0001112C\U0001111A\U00011134‘\U0001110E\U00011128-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+    en: Denguélé
+    ccp: "\U00011113\U0001112C\U0001111A\U00011134\U00011109\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Nzi-Comoé (Région)
+  code: 
+  unofficial_names: Nzi-Comoé (Région)
   geo:
     latitude: 7.2456749
     longitude: -4.2333355
@@ -142,12 +161,14 @@
     min_longitude: -4.976705
     max_latitude: 8.0401179
     max_longitude: -3.5027291
-  name: Nzi-Comoé (Région)
-'12':
-  unofficial_names: Marahoué (Région de la)
   translations:
-    en: Marahoué
-    ccp: "\U0001111F\U00011127\U00011122\U00011126\U0001112F\U00011120\U0001112C"
+    en: N’zi-Comoé
+    ccp: "\U00011103\U0001112C\U0001111A\U00011134‘\U0001110E\U00011128-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Marahoué (Région de la)
+  code: 
+  unofficial_names: Marahoué (Région de la)
   geo:
     latitude: 6.884620699999999
     longitude: -5.898713900000001
@@ -155,12 +176,14 @@
     min_longitude: -6.4365789
     max_latitude: 7.743432100000001
     max_longitude: -5.4057449
-  name: Marahoué (Région de la)
-'13':
-  unofficial_names: Sud-Comoé (Région du)
   translations:
-    en: Sud-Comoé
-    ccp: "\U00011125\U00011116\U00011134-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+    en: Marahoué
+    ccp: "\U0001111F\U00011127\U00011122\U00011126\U0001112F\U00011120\U0001112C"
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Sud-Comoé (Région du)
+  code: 
+  unofficial_names: Sud-Comoé (Région du)
   geo:
     latitude: 5.552792999999999
     longitude: -3.2583626
@@ -168,12 +191,14 @@
     min_longitude: -3.806113099999999
     max_latitude: 6.244889
     max_longitude: -2.72626
-  name: Sud-Comoé (Région du)
-'14':
-  unofficial_names: Worodougou (Région du)
   translations:
-    en: Worodougou
-    ccp: "\U00011124\U00011122\U00011127\U00011113\U0001112F\U00011109\U0001112F"
+    en: Sud-Comoé
+    ccp: "\U00011125\U00011116\U00011134-\U00011107\U00011127\U0001111F\U0001112E\U00011120\U0001112C"
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Worodougou (Région du)
+  code: 
+  unofficial_names: Worodougou (Région du)
   geo:
     latitude: 8.2548962
     longitude: -6.5783387
@@ -181,12 +206,14 @@
     min_longitude: -7.2327379
     max_latitude: 9.213116099999999
     max_longitude: -5.3440999
-  name: Worodougou (Région du)
-'15':
-  unofficial_names: Sud-Bandama (Région du)
   translations:
-    en: Sud-Bandama
-    ccp: "\U00011125\U00011116\U00011134-\U0001111D\U0001111A\U00011134\U00011113\U0001111F"
+    en: Worodougou
+    ccp: "\U00011124\U00011122\U00011127\U00011113\U0001112F\U00011109\U0001112F"
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Sud-Bandama (Région du)
+  code: 
+  unofficial_names: Sud-Bandama (Région du)
   geo:
     latitude: 5.5357083
     longitude: -5.5617279
@@ -194,12 +221,14 @@
     min_longitude: -6.0445639
     max_latitude: 6.2457021
     max_longitude: -4.917968999999999
-  name: Sud-Bandama (Région du)
-'16':
-  unofficial_names: Agnébi (Région de l')
   translations:
-    en: Agnéby
-    ccp: "\U00011103\U00011127\U00011107\U00011134\U0001111A\U0001112C\U0001111D\U0001112D"
+    en: Sud-Bandama
+    ccp: "\U00011125\U00011116\U00011134-\U0001111D\U0001111A\U00011134\U00011113\U0001111F"
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Agnébi (Région de l')
+  code: 
+  unofficial_names: Agnébi (Région de l')
   geo:
     latitude: 
     longitude: 
@@ -207,12 +236,14 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Agnébi (Région de l')
-'17':
-  unofficial_names: Bafing (Région du)
   translations:
-    en: Bafing
-    ccp: "\U0001111D\U0001111C\U00011128\U00011101"
+    en: Agnéby
+    ccp: "\U00011103\U00011127\U00011107\U00011134\U0001111A\U0001112C\U0001111D\U0001112D"
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Bafing (Région du)
+  code: 
+  unofficial_names: Bafing (Région du)
   geo:
     latitude: 8.3252047
     longitude: -7.524724300000001
@@ -220,12 +251,14 @@
     min_longitude: -8.248766999999999
     max_latitude: 9.082188
     max_longitude: -7.065940899999999
-  name: Bafing (Région du)
-'18':
-  unofficial_names: Fromager (Région du)
   translations:
-    en: Fromager
-    ccp: "\U0001111C\U00011133\U00011122\U0001112E\U0001111F\U00011109\U00011122\U00011134"
+    en: Bafing
+    ccp: "\U0001111D\U0001111C\U00011128\U00011101"
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Fromager (Région du)
+  code: 
+  unofficial_names: Fromager (Région du)
   geo:
     latitude: 6.290341799999999
     longitude: -5.8142885
@@ -233,12 +266,14 @@
     min_longitude: -6.4061419
     max_latitude: 6.6425311
     max_longitude: -5.204736
-  name: Fromager (Région du)
-'19':
-  unofficial_names: Moyen-Cavally (Région du)
   translations:
-    en: Moyen-Cavally
-    ccp: "\U0001111F\U00011127\U00011120\U0001112C\U0001111A\U00011134-\U00011107\U0001111E\U00011123\U00011128"
+    en: Fromager
+    ccp: "\U0001111C\U00011133\U00011122\U0001112E\U0001111F\U00011109\U00011122\U00011134"
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Moyen-Cavally (Région du)
+  code: 
+  unofficial_names: Moyen-Cavally (Région du)
   geo:
     latitude: 6.5208793
     longitude: -7.6114217
@@ -246,9 +281,21 @@
     min_longitude: -8.5993019
     max_latitude: 6.967223
     max_longitude: -6.971871999999999
-  name: Moyen-Cavally (Région du)
-AB:
+  translations:
+    en: Moyen-Cavally
+    ccp: "\U0001111F\U00011127\U00011120\U0001112C\U0001111A\U00011134-\U00011107\U0001111E\U00011123\U00011128"
+  comments: 
+AB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Abidjan
     ar: أبيدجان
@@ -328,6 +375,11 @@ AB:
     uz: Abidjan
     bs: Abidjan
     mk: Абиџан
+  comments: 
+YM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -335,8 +387,6 @@ AB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-YM:
-  unofficial_names: 
   translations:
     af: Yamoussoukro
     am: ያሙሱክሮ
@@ -417,6 +467,11 @@ YM:
     uz: Yamusukro
     bs: Yamoussoukro
     mk: Јамусукро
+  comments: 
+BS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -424,8 +479,6 @@ YM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BS:
-  unofficial_names: 
   translations:
     ar: مقاطعة باس-ساساندرا
     bn: বাস সাসান্ড্রা জেলা
@@ -464,6 +517,11 @@ BS:
     ccp: "\U0001111D\U0001110C\U00011134-\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122"
     ka: ქვემო სასანდრა
     uk: Район Бас-Сассандра
+  comments: 
+DN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -471,8 +529,6 @@ BS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DN:
-  unofficial_names: 
   translations:
     ar: مقاطعة دينغويلي
     bn: ডেনগোয়েলে জেলা
@@ -511,6 +567,11 @@ DN:
     zh: 登蓋萊區
     ccp: "\U00011113\U0001112C\U0001111A\U00011134\U00011109\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
     ka: დენგელეს ოლქი
+  comments: 
+SV: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -518,8 +579,6 @@ DN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SV:
-  unofficial_names: 
   translations:
     ar: مقاطعة سافانس
     bn: সাবানেস জেলা
@@ -558,6 +617,11 @@ SV:
     ccp: "\U00011125\U0001111E\U0001111A\U0001112C\U0001110C\U00011134"
     ka: სავანების ოლქი
     uk: Район Саван
+  comments: 
+VB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -565,8 +629,6 @@ SV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-VB:
-  unofficial_names: 
   translations:
     ar: مقاطعة فالي دو باندما
     bn: ভালি দো বান্দামা জেলা
@@ -605,6 +667,11 @@ VB:
     zh: 邦達馬河谷區
     ccp: "\U0001111E\U00011123\U0001112C \U00011113\U0001112A \U0001111D\U0001111A\U00011134\U00011113\U0001111F"
     ka: ვალე-დუ-ბანდამა
+  comments: 
+CM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -612,8 +679,6 @@ VB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CM:
-  unofficial_names: 
   translations:
     de: Comoé
     en: Comoé
@@ -625,6 +690,11 @@ CM:
     ka: კომოეს ოლქი
     it: Distretto di Comoé
     uk: Комое (район)
+  comments: 
+GD: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -632,8 +702,6 @@ CM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GD:
-  unofficial_names: 
   translations:
     de: Gôh-Djiboua
     en: Gôh-Djiboua
@@ -643,6 +711,11 @@ GD:
     ccp: "\U00011109\U00011127\U00011126\U00011134-\U0001110E\U00011128\U0001111D\U0001112F\U00011120"
     ka: გო-ჯიბუა
     it: Distretto di Gôh-Djiboua
+  comments: 
+LC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -650,8 +723,6 @@ GD:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LC:
-  unofficial_names: 
   translations:
     de: Lacs
     en: Lacs²
@@ -662,6 +733,11 @@ LC:
     ccp: "\U00011123\U00011107\U00011133\U0001110C\U00011134"
     ka: ტბების ოლქი
     it: Distretto di Lacs
+  comments: 
+LG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -669,8 +745,6 @@ LC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LG:
-  unofficial_names: 
   translations:
     de: Lagunes
     en: Lagunes²
@@ -682,6 +756,11 @@ LG:
     ka: ლაგუნების ოლქი
     it: Distretto di Lagunes
     be: раён Лагюн
+  comments: 
+MG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -689,8 +768,6 @@ LG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MG:
-  unofficial_names: 
   translations:
     de: Montagnes
     en: Montagnes
@@ -701,6 +778,11 @@ MG:
     ccp: "\U0001111F\U00011127\U0001111A\U00011134\U00011111\U00011133\U00011120\U00011107\U00011134\U0001111A\U0001112C\U0001110C\U00011134"
     ka: მონტანის ოლქი
     it: Distretto di Montagnes
+  comments: 
+SM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -708,8 +790,6 @@ MG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SM:
-  unofficial_names: 
   translations:
     de: Sassandra-Marahoué
     en: Sassandra-Marahoué
@@ -719,6 +799,11 @@ SM:
     ccp: "\U00011125\U00011125\U0001111A\U00011134\U00011113\U00011133\U00011122-\U0001111F\U00011122\U00011126\U0001112F\U00011120\U0001112C"
     ka: სასანდრა-მარაუე
     it: Distretto di Sassandra-Marahoué
+  comments: 
+WR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -726,8 +811,6 @@ SM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-WR:
-  unofficial_names: 
   translations:
     de: Woroba
     en: Woroba
@@ -740,6 +823,11 @@ WR:
     ccp: "\U00011124\U00011122\U00011127\U0001111D"
     ka: ვორობა
     it: Distretto di Woroba
+  comments: 
+ZZ: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -747,8 +835,6 @@ WR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-ZZ:
-  unofficial_names: 
   translations:
     en: Zanzan²
     uk: Район Занзан
@@ -795,10 +881,4 @@ ZZ:
     nb: Zanzan
     be: Рэгіён Занзан
     th: ซานซาน
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

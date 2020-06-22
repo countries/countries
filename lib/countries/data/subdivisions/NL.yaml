@@ -1,6 +1,15 @@
 ---
-DR:
+DR: !ruby/struct:ISO3166::Subdivision
+  name: Drenthe
+  code: 
   unofficial_names: Drenthe
+  geo:
+    latitude: 52.9476012
+    longitude: 6.623058599999999
+    min_latitude: 52.6121857
+    min_longitude: 6.1198503
+    max_latitude: 53.2037415
+    max_longitude: 7.0929356
   translations:
     en: Drenthe
     af: Drenthe
@@ -67,16 +76,18 @@ DR:
     so: Drenthe
     yue: 德倫特
     mk: Дренте
-  geo:
-    latitude: 52.9476012
-    longitude: 6.623058599999999
-    min_latitude: 52.6121857
-    min_longitude: 6.1198503
-    max_latitude: 53.2037415
-    max_longitude: 7.0929356
-  name: Drenthe
-FL:
+  comments: 
+FL: !ruby/struct:ISO3166::Subdivision
+  name: Flevoland
+  code: 
   unofficial_names: Flevoland
+  geo:
+    latitude: 52.5279781
+    longitude: 5.595350799999999
+    min_latitude: 52.2526254
+    min_longitude: 5.1221244
+    max_latitude: 52.8440468
+    max_longitude: 6.011667099999999
   translations:
     en: Flevoland
     af: Flevoland
@@ -143,16 +154,18 @@ FL:
     so: Flevoland
     yue: 傅利禾蘭
     mk: Флеволанд
-  geo:
-    latitude: 52.5279781
-    longitude: 5.595350799999999
-    min_latitude: 52.2526254
-    min_longitude: 5.1221244
-    max_latitude: 52.8440468
-    max_longitude: 6.011667099999999
-  name: Flevoland
-FR:
+  comments: 
+FR: !ruby/struct:ISO3166::Subdivision
+  name: Friesland
+  code: 
   unofficial_names: Friesland
+  geo:
+    latitude: 53.1641642
+    longitude: 5.7817542
+    min_latitude: 52.8006928
+    min_longitude: 4.8455655
+    max_latitude: 53.5145975
+    max_longitude: 6.4274762
   translations:
     en: Friesland
     af: Friesland
@@ -219,17 +232,19 @@ FR:
     so: Friesland
     yue: 菲士蘭
     mk: Фризија
-  geo:
-    latitude: 53.1641642
-    longitude: 5.7817542
-    min_latitude: 52.8006928
-    min_longitude: 4.8455655
-    max_latitude: 53.5145975
-    max_longitude: 6.4274762
-  name: Friesland
-GE:
+  comments: 
+GE: !ruby/struct:ISO3166::Subdivision
+  name: Gelderland
+  code: 
   unofficial_names:
   - Gueldre
+  geo:
+    latitude: 52.045155
+    longitude: 5.871823399999999
+    min_latitude: 51.7336076
+    min_longitude: 4.9938809
+    max_latitude: 52.5220087
+    max_longitude: 6.833041799999999
   translations:
     en: Gelderland
     af: Gelderland
@@ -298,18 +313,20 @@ GE:
     so: Gelderland
     yue: 希德蘭
     mk: Гелдерланд
-  geo:
-    latitude: 52.045155
-    longitude: 5.871823399999999
-    min_latitude: 51.7336076
-    min_longitude: 4.9938809
-    max_latitude: 52.5220087
-    max_longitude: 6.833041799999999
-  name: Gelderland
-GR:
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Groningen
+  code: 
   unofficial_names:
   - Groningue
   - Groninga
+  geo:
+    latitude: 53.2193835
+    longitude: 6.566501799999999
+    min_latitude: 53.1786842
+    min_longitude: 6.4625995
+    max_latitude: 53.26472589999999
+    max_longitude: 6.6669044
   translations:
     en: Groningen
     af: Groningen
@@ -377,16 +394,18 @@ GR:
     so: Groningen
     yue: 古羅寧亨
     mk: Гронинген
-  geo:
-    latitude: 53.2193835
-    longitude: 6.566501799999999
-    min_latitude: 53.1786842
-    min_longitude: 6.4625995
-    max_latitude: 53.26472589999999
-    max_longitude: 6.6669044
-  name: Groningen
-LI:
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: Limburg
+  code: 
   unofficial_names: Limburg
+  geo:
+    latitude: 51.4427238
+    longitude: 6.0608726
+    min_latitude: 50.75038379999999
+    min_longitude: 5.5660666
+    max_latitude: 51.778577
+    max_longitude: 6.226801399999999
   translations:
     en: Limburg
     af: Limburg, Nederland
@@ -453,16 +472,18 @@ LI:
     so: Limburg
     yue: 林堡
     mk: Лимбург
-  geo:
-    latitude: 51.4427238
-    longitude: 6.0608726
-    min_latitude: 50.75038379999999
-    min_longitude: 5.5660666
-    max_latitude: 51.778577
-    max_longitude: 6.226801399999999
-  name: Limburg
-NB:
+  comments: 
+NB: !ruby/struct:ISO3166::Subdivision
+  name: Noord-Brabant
+  code: 
   unofficial_names: Noord-Brabant
+  geo:
+    latitude: 51.4826537
+    longitude: 5.2321687
+    min_latitude: 51.2209373
+    min_longitude: 4.190081
+    max_latitude: 51.8307142
+    max_longitude: 6.047724
   translations:
     en: North Brabant
     af: Noord-Brabant
@@ -532,16 +553,18 @@ NB:
     so: Waqooyiga Brabant
     yue: 北布拉班
     mk: Северен Брабант
-  geo:
-    latitude: 51.4826537
-    longitude: 5.2321687
-    min_latitude: 51.2209373
-    min_longitude: 4.190081
-    max_latitude: 51.8307142
-    max_longitude: 6.047724
-  name: Noord-Brabant
-NH:
+  comments: 
+NH: !ruby/struct:ISO3166::Subdivision
+  name: Noord-Holland
+  code: 
   unofficial_names: Noord-Holland
+  geo:
+    latitude: 52.5205869
+    longitude: 4.788474
+    min_latitude: 52.1657716
+    min_longitude: 4.4937415
+    max_latitude: 53.1833322
+    max_longitude: 5.328279999999999
   translations:
     en: North Holland
     af: Noord-Holland
@@ -612,16 +635,18 @@ NH:
     so: Waqooyiga Holland
     yue: 北荷蘭
     mk: Северна Холандија
-  geo:
-    latitude: 52.5205869
-    longitude: 4.788474
-    min_latitude: 52.1657716
-    min_longitude: 4.4937415
-    max_latitude: 53.1833322
-    max_longitude: 5.328279999999999
-  name: Noord-Holland
-OV:
+  comments: 
+OV: !ruby/struct:ISO3166::Subdivision
+  name: Overijssel
+  code: 
   unofficial_names: Overijssel
+  geo:
+    latitude: 52.4387814
+    longitude: 6.5016411
+    min_latitude: 52.118023
+    min_longitude: 5.7778252
+    max_latitude: 52.85423489999999
+    max_longitude: 7.0727632
   translations:
     en: Overijssel
     af: Overijssel
@@ -688,16 +713,18 @@ OV:
     so: Overijssel
     yue: 上艾修
     mk: Оверејсел
-  geo:
-    latitude: 52.4387814
-    longitude: 6.5016411
-    min_latitude: 52.118023
-    min_longitude: 5.7778252
-    max_latitude: 52.85423489999999
-    max_longitude: 7.0727632
-  name: Overijssel
-UT:
+  comments: 
+UT: !ruby/struct:ISO3166::Subdivision
+  name: Utrecht
+  code: 
   unofficial_names: Utrecht
+  geo:
+    latitude: 52.09073739999999
+    longitude: 5.1214201
+    min_latitude: 52.02611109999999
+    min_longitude: 4.9697758
+    max_latitude: 52.1422624
+    max_longitude: 5.1952072
   translations:
     en: Utrecht
     af: Utrecht
@@ -765,16 +792,18 @@ UT:
     yue: 宇德歷
     az: Utrext vilayəti
     mk: Утрехт
-  geo:
-    latitude: 52.09073739999999
-    longitude: 5.1214201
-    min_latitude: 52.02611109999999
-    min_longitude: 4.9697758
-    max_latitude: 52.1422624
-    max_longitude: 5.1952072
-  name: Utrecht
-ZE:
+  comments: 
+ZE: !ruby/struct:ISO3166::Subdivision
+  name: Zeeland
+  code: 
   unofficial_names: Zeeland
+  geo:
+    latitude: 51.4940309
+    longitude: 3.8496815
+    min_latitude: 51.2003318
+    min_longitude: 3.357962
+    max_latitude: 51.75842100000001
+    max_longitude: 4.279691
   translations:
     en: Zeeland
     af: Zeeland
@@ -840,16 +869,18 @@ ZE:
     so: Zeeland
     yue: 西蘭
     mk: Зеланд
-  geo:
-    latitude: 51.4940309
-    longitude: 3.8496815
-    min_latitude: 51.2003318
-    min_longitude: 3.357962
-    max_latitude: 51.75842100000001
-    max_longitude: 4.279691
-  name: Zeeland
-ZH:
+  comments: 
+ZH: !ruby/struct:ISO3166::Subdivision
+  name: Zuid-Holland
+  code: 
   unofficial_names: Zuid-Holland
+  geo:
+    latitude: 52.0207975
+    longitude: 4.4937836
+    min_latitude: 51.656067
+    min_longitude: 3.8393205
+    max_latitude: 52.3282742
+    max_longitude: 5.1492625
   translations:
     en: South Holland
     af: Suid-Holland
@@ -919,16 +950,18 @@ ZH:
     so: Koofurta Holland
     yue: 南荷蘭
     mk: Јужна Холандија
-  geo:
-    latitude: 52.0207975
-    longitude: 4.4937836
-    min_latitude: 51.656067
-    min_longitude: 3.8393205
-    max_latitude: 52.3282742
-    max_longitude: 5.1492625
-  name: Zuid-Holland
-BQ1:
+  comments: 
+BQ1: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Bonaire
     ar: بونير
@@ -994,6 +1027,11 @@ BQ1:
     yue: 博奈爾島
     yo: Bonaire
     mk: Бонер
+  comments: 
+BQ2: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1001,8 +1039,6 @@ BQ1:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BQ2:
-  unofficial_names: 
   translations:
     af: Saba
     ar: سابا
@@ -1059,6 +1095,11 @@ BQ2:
     yue: 薩巴島
     bs: Saba
     mk: Саба
+  comments: 
+BQ3: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1066,8 +1107,6 @@ BQ2:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BQ3:
-  unofficial_names: 
   translations:
     af: Sint Eustatius
     ar: سينت أوستاتيوس
@@ -1130,6 +1169,11 @@ BQ3:
     kk: Синт-Эстатиус
     yue: 聖猶士坦島
     mk: Свети Евстахиј
+  comments: 
+AW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1137,11 +1181,14 @@ BQ3:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-AW:
-  unofficial_names: 
   translations:
     en: Aruba
     ccp: "\U00011103\U00011122\U0001112A\U0001111D"
+  comments: 
+CW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1149,11 +1196,14 @@ AW:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CW:
-  unofficial_names: 
   translations:
     en: Curaçao
     ccp: "\U00011107\U00011128\U00011105\U0001112A\U00011122\U00011107\U00011103\U0001112E"
+  comments: 
+SX: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1161,15 +1211,7 @@ CW:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SX:
-  unofficial_names: 
   translations:
     en: Sint Maarten
     ccp: "\U00011125\U00011128\U00011120\U0001111A\U00011134\U00011111\U00011134 \U0001111F\U00011122\U00011134\U00011111\U0001112C\U0001111A\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Johor
+  code: 
   unofficial_names: Johor
+  geo:
+    latitude: 1.4853682
+    longitude: 103.7618154
+    min_latitude: 1.2657421
+    min_longitude: 102.4681251
+    max_latitude: 2.8332919
+    max_longitude: 104.5511515
   translations:
     en: Johor
     ar: جوهور
@@ -54,16 +63,18 @@
     eu: Johor
     yue: 柔佛州
     mk: Џохор
-  geo:
-    latitude: 1.4853682
-    longitude: 103.7618154
-    min_latitude: 1.2657421
-    min_longitude: 102.4681251
-    max_latitude: 2.8332919
-    max_longitude: 104.5511515
-  name: Johor
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Kedah
+  code: 
   unofficial_names: Kedah
+  geo:
+    latitude: 6.1183964
+    longitude: 100.3684595
+    min_latitude: 5.0764409
+    min_longitude: 99.64064549999999
+    max_latitude: 6.545039099999999
+    max_longitude: 101.127224
   translations:
     en: Kedah
     ar: قدح
@@ -114,16 +125,18 @@
     et: Kedah
     yue: 吉打
     mk: Кедах
-  geo:
-    latitude: 6.1183964
-    longitude: 100.3684595
-    min_latitude: 5.0764409
-    min_longitude: 99.64064549999999
-    max_latitude: 6.545039099999999
-    max_longitude: 101.127224
-  name: Kedah
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Kelantan
+  code: 
   unofficial_names: Kelantan
+  geo:
+    latitude: 6.1253969
+    longitude: 102.238071
+    min_latitude: 4.5463078
+    min_longitude: 101.33334
+    max_latitude: 6.2439087
+    max_longitude: 102.6665539
   translations:
     en: Kelantan
     ar: كيلانتان
@@ -176,16 +189,18 @@
     eu: Kelantan
     yue: 吉蘭丹
     mk: Келантан
-  geo:
-    latitude: 6.1253969
-    longitude: 102.238071
-    min_latitude: 4.5463078
-    min_longitude: 101.33334
-    max_latitude: 6.2439087
-    max_longitude: 102.6665539
-  name: Kelantan
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Melaka
+  code: 
   unofficial_names: Melaka
+  geo:
+    latitude: 2.189594
+    longitude: 102.2500868
+    min_latitude: 2.1544178
+    min_longitude: 102.1557088
+    max_latitude: 2.309435
+    max_longitude: 102.4327931
   translations:
     en: Malacca
     af: Malakka
@@ -242,17 +257,19 @@
     ccp: "\U0001111F\U00011123\U00011107\U00011133\U00011126"
     yue: 馬六甲州
     mk: Малака
-  geo:
-    latitude: 2.189594
-    longitude: 102.2500868
-    min_latitude: 2.1544178
-    min_longitude: 102.1557088
-    max_latitude: 2.309435
-    max_longitude: 102.4327931
-  name: Melaka
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Negeri Sembilan
+  code: 
   unofficial_names:
   - Negri Sembilan
+  geo:
+    latitude: 2.7258058
+    longitude: 101.9423782
+    min_latitude: 2.3897718
+    min_longitude: 101.702142
+    max_latitude: 3.289874
+    max_longitude: 102.7020759
   translations:
     en: Negeri Sembilan
     ar: نكري سمبيلن
@@ -302,16 +319,18 @@
     eu: Negeri Sembilan
     yue: 森美蘭
     mk: Негери Сембилан
-  geo:
-    latitude: 2.7258058
-    longitude: 101.9423782
-    min_latitude: 2.3897718
-    min_longitude: 101.702142
-    max_latitude: 3.289874
-    max_longitude: 102.7020759
-  name: Negeri Sembilan
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Pahang
+  code: 
   unofficial_names: Pahang
+  geo:
+    latitude: 3.8126318
+    longitude: 103.3256204
+    min_latitude: 2.4593609
+    min_longitude: 101.3324141
+    max_latitude: 4.779313
+    max_longitude: 104.2235135
   translations:
     en: Pahang
     ar: فهغ
@@ -363,16 +382,18 @@
     ml: പഹാങ്ങ്
     yue: 彭亨
     mk: Паханг
-  geo:
-    latitude: 3.8126318
-    longitude: 103.3256204
-    min_latitude: 2.4593609
-    min_longitude: 101.3324141
-    max_latitude: 4.779313
-    max_longitude: 104.2235135
-  name: Pahang
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Pulau Pinang
+  code: 
   unofficial_names: Pulau Pinang
+  geo:
+    latitude: 5.4141675
+    longitude: 100.3287589
+    min_latitude: 5.122673
+    min_longitude: 100.1751347
+    max_latitude: 5.585334899999999
+    max_longitude: 100.55062
   translations:
     en: Penang
     ar: بينانق
@@ -426,16 +447,18 @@
     pa: ਪੀਨਾਂਗ
     yue: 檳城
     mk: Пенанг
-  geo:
-    latitude: 5.4141675
-    longitude: 100.3287589
-    min_latitude: 5.122673
-    min_longitude: 100.1751347
-    max_latitude: 5.585334899999999
-    max_longitude: 100.55062
-  name: Pulau Pinang
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Perak
+  code: 
   unofficial_names: Perak
+  geo:
+    latitude: 4.5921126
+    longitude: 101.090109
+    min_latitude: 3.6678983
+    min_longitude: 100.3606155
+    max_latitude: 5.93451
+    max_longitude: 101.7526549
   translations:
     en: Perak
     ar: فيرق
@@ -488,16 +511,18 @@
     yue: 霹靂州
     be: Перак
     mk: Перак
-  geo:
-    latitude: 4.5921126
-    longitude: 101.090109
-    min_latitude: 3.6678983
-    min_longitude: 100.3606155
-    max_latitude: 5.93451
-    max_longitude: 101.7526549
-  name: Perak
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Perlis
+  code: 
   unofficial_names: Perlis
+  geo:
+    latitude: 6.444912899999999
+    longitude: 100.2047691
+    min_latitude: 6.2531897
+    min_longitude: 100.1169497
+    max_latitude: 6.726748000000001
+    max_longitude: 100.3705678
   translations:
     en: Perlis
     ar: برليس
@@ -548,16 +573,18 @@
     eu: Perlis
     yue: 玻璃市
     mk: Перлис
-  geo:
-    latitude: 6.444912899999999
-    longitude: 100.2047691
-    min_latitude: 6.2531897
-    min_longitude: 100.1169497
-    max_latitude: 6.726748000000001
-    max_longitude: 100.3705678
-  name: Perlis
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Selangor
+  code: 
   unofficial_names: Selangor
+  geo:
+    latitude: 3.0738379
+    longitude: 101.5183469
+    min_latitude: 2.59424
+    min_longitude: 100.788148
+    max_latitude: 3.8683526
+    max_longitude: 101.970064
   translations:
     en: Selangor
     ar: سلاغور
@@ -610,16 +637,18 @@
     yue: 雪蘭莪州
     be: Селангор
     mk: Селангор
-  geo:
-    latitude: 3.0738379
-    longitude: 101.5183469
-    min_latitude: 2.59424
-    min_longitude: 100.788148
-    max_latitude: 3.8683526
-    max_longitude: 101.970064
-  name: Selangor
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Terengganu
+  code: 
   unofficial_names: Terengganu
+  geo:
+    latitude: 5.3116916
+    longitude: 103.1324154
+    min_latitude: 3.8808629
+    min_longitude: 102.379055
+    max_latitude: 5.964046199999999
+    max_longitude: 103.6905754
   translations:
     en: Terengganu
     ar: ترغكانو
@@ -671,16 +700,18 @@
     eu: Terengganu
     yue: 登嘉樓
     mk: Теренгану
-  geo:
-    latitude: 5.3116916
-    longitude: 103.1324154
-    min_latitude: 3.8808629
-    min_longitude: 102.379055
-    max_latitude: 5.964046199999999
-    max_longitude: 103.6905754
-  name: Terengganu
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Sabah
+  code: 
   unofficial_names: Sabah
+  geo:
+    latitude: 5.978839799999999
+    longitude: 116.0753199
+    min_latitude: 4.102767
+    min_longitude: 115.341583
+    max_latitude: 7.362708199999999
+    max_longitude: 119.267502
   translations:
     en: Sabah
     ar: صباح
@@ -738,16 +769,18 @@
     ml: ഷബഹ്
     yue: 沙巴
     mk: Сабах
-  geo:
-    latitude: 5.978839799999999
-    longitude: 116.0753199
-    min_latitude: 4.102767
-    min_longitude: 115.341583
-    max_latitude: 7.362708199999999
-    max_longitude: 119.267502
-  name: Sabah
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Sarawak
+  code: 
   unofficial_names: Sarawak
+  geo:
+    latitude: 1.5532783
+    longitude: 110.3592127
+    min_latitude: 0.8640901
+    min_longitude: 109.5390388
+    max_latitude: 4.9815669
+    max_longitude: 115.68341
   translations:
     en: Sarawak
     ar: سراوق
@@ -808,16 +841,18 @@
     yue: 沙撈越
     my: ဆာရာဝပ်နယ်
     mk: Саравак
-  geo:
-    latitude: 1.5532783
-    longitude: 110.3592127
-    min_latitude: 0.8640901
-    min_longitude: 109.5390388
-    max_latitude: 4.9815669
-    max_longitude: 115.68341
-  name: Sarawak
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Wilayah Persekutuan Kuala Lumpur
+  code: 
   unofficial_names: Wilayah Persekutuan Kuala Lumpur
+  geo:
+    latitude: 3.1569486
+    longitude: 101.712303
+    min_latitude: 3.0336329
+    min_longitude: 101.61545
+    max_latitude: 3.2433789
+    max_longitude: 101.758529
   translations:
     en: Kuala Lumpur
     af: Kuala Lumpur
@@ -905,16 +940,18 @@
     uz: Kuala Lumpur
     bs: Kuala Lumpur
     mk: Куала Лумпур
-  geo:
-    latitude: 3.1569486
-    longitude: 101.712303
-    min_latitude: 3.0336329
-    min_longitude: 101.61545
-    max_latitude: 3.2433789
-    max_longitude: 101.758529
-  name: Wilayah Persekutuan Kuala Lumpur
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Wilayah Persekutuan Labuan
+  code: 
   unofficial_names: Wilayah Persekutuan Labuan
+  geo:
+    latitude: 5.2770169
+    longitude: 115.2435769
+    min_latitude: 5.2178242
+    min_longitude: 115.1209787
+    max_latitude: 5.3877618
+    max_longitude: 115.3263058
   translations:
     en: Labuan
     ar: لابوان
@@ -966,16 +1003,18 @@
     yue: 納閔
     az: Labuan
     mk: Лабуан
-  geo:
-    latitude: 5.2770169
-    longitude: 115.2435769
-    min_latitude: 5.2178242
-    min_longitude: 115.1209787
-    max_latitude: 5.3877618
-    max_longitude: 115.3263058
-  name: Wilayah Persekutuan Labuan
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Wilayah Persekutuan Putrajaya
+  code: 
   unofficial_names: Wilayah Persekutuan Putrajaya
+  geo:
+    latitude: 2.9353556
+    longitude: 101.6912831
+    min_latitude: 2.8762049
+    min_longitude: 101.6600299
+    max_latitude: 2.9765179
+    max_longitude: 101.7328308
   translations:
     en: Putrajaya
     af: Putrajaya
@@ -1043,11 +1082,4 @@
     ml: പുത്രജയ
     yue: 布城
     mk: Путраџаја
-  geo:
-    latitude: 2.9353556
-    longitude: 101.6912831
-    min_latitude: 2.8762049
-    min_longitude: 101.6600299
-    max_latitude: 2.9765179
-    max_longitude: 101.7328308
-  name: Wilayah Persekutuan Putrajaya
+  comments: 

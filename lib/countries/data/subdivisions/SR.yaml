@@ -1,6 +1,15 @@
 ---
-BR:
+BR: !ruby/struct:ISO3166::Subdivision
+  name: Brokopondo
+  code: 
   unofficial_names: Brokopondo
+  geo:
+    latitude: 4.7710247
+    longitude: -55.0493375
+    min_latitude: 4.016883000000001
+    min_longitude: -55.5210531
+    max_latitude: 5.364841999999999
+    max_longitude: -54.7262569
   translations:
     en: Brokopondo
     ar: مقاطعة بروكوبوندو
@@ -43,16 +52,18 @@ BR:
     lv: Brokopondo distrikts
     ceb: Distrikt Brokopondo
     ccp: "\U0001111D\U00011133\U00011122\U0001112E\U00011107\U00011128\U0001111B\U0001112E\U0001111A\U00011134\U00011113\U0001112E"
-  geo:
-    latitude: 4.7710247
-    longitude: -55.0493375
-    min_latitude: 4.016883000000001
-    min_longitude: -55.5210531
-    max_latitude: 5.364841999999999
-    max_longitude: -54.7262569
-  name: Brokopondo
-CM:
+  comments: 
+CM: !ruby/struct:ISO3166::Subdivision
+  name: Commewijne
+  code: 
   unofficial_names: Commewijne
+  geo:
+    latitude: 5.740211
+    longitude: -54.8731219
+    min_latitude: 5.4846897
+    min_longitude: -55.1600742
+    max_latitude: 5.9952576
+    max_longitude: -54.6201869
   translations:
     en: Commewijne
     ar: مقاطعة كوميويجني
@@ -95,16 +106,18 @@ CM:
     zh: 科默韦讷区
     fa: ناحیه کوموینه
     ccp: "\U00011107\U00011127\U0001111F\U0001112C\U00011105\U0001112A\U00011103\U00011128\U0001110C\U00011134\U0001111A\U0001112C"
-  geo:
-    latitude: 5.740211
-    longitude: -54.8731219
-    min_latitude: 5.4846897
-    min_longitude: -55.1600742
-    max_latitude: 5.9952576
-    max_longitude: -54.6201869
-  name: Commewijne
-CR:
+  comments: 
+CR: !ruby/struct:ISO3166::Subdivision
+  name: Coronie
+  code: 
   unofficial_names: Coronie
+  geo:
+    latitude: 5.6943271
+    longitude: -56.2929381
+    min_latitude: 5.331499
+    min_longitude: -56.604008
+    max_latitude: 5.942436
+    max_longitude: -55.8880948
   translations:
     en: Coronie
     ar: ضاحية كوروني
@@ -146,16 +159,18 @@ CR:
     zh: 科罗尼区
     fa: ناحیه کورونی
     ccp: "\U00011107\U00011127\U0001112E\U00011122\U0001112E\U0001111A\U0001112D"
-  geo:
-    latitude: 5.6943271
-    longitude: -56.2929381
-    min_latitude: 5.331499
-    min_longitude: -56.604008
-    max_latitude: 5.942436
-    max_longitude: -55.8880948
-  name: Coronie
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Marowijne
+  code: 
   unofficial_names: Marowijne
+  geo:
+    latitude: 5.6268128
+    longitude: -54.25931180000001
+    min_latitude: 5.234248
+    min_longitude: -54.737735
+    max_latitude: 5.971927
+    max_longitude: -53.987011
   translations:
     en: Marowijne
     ar: مقاطعة مارويجيني
@@ -197,16 +212,18 @@ MA:
     zh: 马罗韦讷区
     fa: ناحیه مارووینه
     ccp: "\U0001111F\U0001112C\U00011122\U0001112E\U00011103\U00011128\U0001110C\U00011134\U0001111A\U0001112C"
-  geo:
-    latitude: 5.6268128
-    longitude: -54.25931180000001
-    min_latitude: 5.234248
-    min_longitude: -54.737735
-    max_latitude: 5.971927
-    max_longitude: -53.987011
-  name: Marowijne
-NI:
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: Nickerie
+  code: 
   unofficial_names: Nickerie
+  geo:
+    latitude: 5.5855469
+    longitude: -56.83111169999999
+    min_latitude: 5.208519
+    min_longitude: -57.34862889999999
+    max_latitude: 6.00015
+    max_longitude: -56.45252499999999
   translations:
     en: Nickerie
     ar: مقاطعة نيكيري
@@ -248,16 +265,18 @@ NI:
     zh: 尼克里区
     fa: ناحیه نیکری
     ccp: "\U0001111A\U00011128\U00011107\U0001112C\U00011122\U0001112D"
-  geo:
-    latitude: 5.5855469
-    longitude: -56.83111169999999
-    min_latitude: 5.208519
-    min_longitude: -57.34862889999999
-    max_latitude: 6.00015
-    max_longitude: -56.45252499999999
-  name: Nickerie
-PM:
+  comments: 
+PM: !ruby/struct:ISO3166::Subdivision
+  name: Paramaribo
+  code: 
   unofficial_names: Paramaribo
+  geo:
+    latitude: 5.8520355
+    longitude: -55.2038278
+    min_latitude: 5.7787709
+    min_longitude: -55.25811539999999
+    max_latitude: 5.9178787
+    max_longitude: -55.0982876
   translations:
     en: Paramaribo
     ar: ضاحية باراماريبو
@@ -287,16 +306,18 @@ PM:
     ceb: Distrikt Paramaribo
     zh: 帕拉马里博区
     ccp: "\U0001111B\U00011133\U00011120\U00011122\U0001111F\U00011122\U00011128\U0001111D\U0001112E"
-  geo:
-    latitude: 5.8520355
-    longitude: -55.2038278
-    min_latitude: 5.7787709
-    min_longitude: -55.25811539999999
-    max_latitude: 5.9178787
-    max_longitude: -55.0982876
-  name: Paramaribo
-PR:
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Para
+  code: 
   unofficial_names: Para
+  geo:
+    latitude: 5.481731799999999
+    longitude: -55.2259207
+    min_latitude: 4.990305
+    min_longitude: -56.04478899999999
+    max_latitude: 5.700753
+    max_longitude: -54.6248351
   translations:
     en: Para
     ar: ضاحية بارا
@@ -338,16 +359,18 @@ PR:
     zh: 帕拉区
     fa: ناحیه پارا
     ccp: "\U0001111B\U00011133\U00011120\U00011122"
-  geo:
-    latitude: 5.481731799999999
-    longitude: -55.2259207
-    min_latitude: 4.990305
-    min_longitude: -56.04478899999999
-    max_latitude: 5.700753
-    max_longitude: -54.6248351
-  name: Para
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Saramacca
+  code: 
   unofficial_names: Saramacca
+  geo:
+    latitude: 5.7240813
+    longitude: -55.6689636
+    min_latitude: 5.4037231
+    min_longitude: -55.971144
+    max_latitude: 5.981152
+    max_longitude: -55.30576
   translations:
     en: Saramacca
     ar: مقاطعة ساراماكا
@@ -389,16 +412,18 @@ SA:
     zh: 萨拉马卡区
     fa: ناحیه ساراماکا
     ccp: "\U00011125\U00011122\U0001111F\U00011107\U00011133\U00011126"
-  geo:
-    latitude: 5.7240813
-    longitude: -55.6689636
-    min_latitude: 5.4037231
-    min_longitude: -55.971144
-    max_latitude: 5.981152
-    max_longitude: -55.30576
-  name: Saramacca
-SI:
+  comments: 
+SI: !ruby/struct:ISO3166::Subdivision
+  name: Sipaliwini
+  code: 
   unofficial_names: Sipaliwini
+  geo:
+    latitude: 2.0331027
+    longitude: -56.1337552
+    min_latitude: 2.0274126
+    min_longitude: -56.1407374
+    max_latitude: 2.0413084
+    max_longitude: -56.124773
   translations:
     en: Sipaliwini
     ar: مقاطعة سيباليويني
@@ -439,16 +464,18 @@ SI:
     ceb: Distrikt Sipaliwini
     zh: 锡帕利维尼区
     ccp: "\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011105\U0001112A\U00011103\U00011128\U0001111A\U00011128"
-  geo:
-    latitude: 2.0331027
-    longitude: -56.1337552
-    min_latitude: 2.0274126
-    min_longitude: -56.1407374
-    max_latitude: 2.0413084
-    max_longitude: -56.124773
-  name: Sipaliwini
-WA:
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Wanica
+  code: 
   unofficial_names: Wanica
+  geo:
+    latitude: 5.7323762
+    longitude: -55.2701235
+    min_latitude: 5.6584129
+    min_longitude: -55.35698799999999
+    max_latitude: 5.938986
+    max_longitude: -55.0799841
   translations:
     en: Wanica
     ar: مقاطعة وانيكا
@@ -493,11 +520,4 @@ WA:
     he: וניקה
     ml: വാനിക്ക ജില്ല
     ca: Wanica
-  geo:
-    latitude: 5.7323762
-    longitude: -55.2701235
-    min_latitude: 5.6584129
-    min_longitude: -55.35698799999999
-    max_latitude: 5.938986
-    max_longitude: -55.0799841
-  name: Wanica
+  comments: 

@@ -1,6 +1,15 @@
 ---
-AB:
+AB: !ruby/struct:ISO3166::Subdivision
+  name: Stockholms län
+  code: 
   unofficial_names: Stockholms län
+  geo:
+    latitude: 59.60249579999999
+    longitude: 18.1384383
+    min_latitude: 58.7356979
+    min_longitude: 17.2375371
+    max_latitude: 60.2557827
+    max_longitude: 19.3499043
   translations:
     en: Stockholm
     ar: محافظة ستوكهولم
@@ -59,16 +68,18 @@ AB:
     ccp: "\U0001110C\U00011133\U00011111\U00011127\U00011107\U00011134\U00011126\U00011127\U00011123\U00011134\U0001111F\U00011134"
     bs: Kotar Stockholm
     mk: Стокхолм
-  geo:
-    latitude: 59.60249579999999
-    longitude: 18.1384383
-    min_latitude: 58.7356979
-    min_longitude: 17.2375371
-    max_latitude: 60.2557827
-    max_longitude: 19.3499043
-  name: Stockholms län
-AC:
+  comments: 
+AC: !ruby/struct:ISO3166::Subdivision
+  name: Västerbottens län
+  code: 
   unofficial_names: Västerbottens län
+  geo:
+    latitude: 65.3337311
+    longitude: 16.5161695
+    min_latitude: 63.4054636
+    min_longitude: 14.2568099
+    max_latitude: 66.340329
+    max_longitude: 21.6169479
   translations:
     en: Västerbotten
     ar: محافظة وستربوتن
@@ -124,16 +135,18 @@ AC:
     he: וסטרבוטן
     bs: Kotar Västerbotten
     mk: Вестерботен
-  geo:
-    latitude: 65.3337311
-    longitude: 16.5161695
-    min_latitude: 63.4054636
-    min_longitude: 14.2568099
-    max_latitude: 66.340329
-    max_longitude: 21.6169479
-  name: Västerbottens län
-BD:
+  comments: 
+BD: !ruby/struct:ISO3166::Subdivision
+  name: Norrbottens län
+  code: 
   unofficial_names: Norrbottens län
+  geo:
+    latitude: 66.8309216
+    longitude: 20.3991966
+    min_latitude: 65.06063499999999
+    min_longitude: 15.3723748
+    max_latitude: 69.06307199999999
+    max_longitude: 24.1624078
   translations:
     en: Norrbotten
     ar: محافظة نوربوتن
@@ -191,16 +204,18 @@ BD:
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U0001111D\U0001112E\U00011111\U0001112C\U0001111A\U00011134"
     bs: Kotar Norrbotten
     mk: Норботен
-  geo:
-    latitude: 66.8309216
-    longitude: 20.3991966
-    min_latitude: 65.06063499999999
-    min_longitude: 15.3723748
-    max_latitude: 69.06307199999999
-    max_longitude: 24.1624078
-  name: Norrbottens län
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Uppsala län
+  code: 
   unofficial_names: Uppsala län
+  geo:
+    latitude: 60.00922619999999
+    longitude: 17.2714589
+    min_latitude: 59.4050129
+    min_longitude: 16.678336
+    max_latitude: 60.7313874
+    max_longitude: 18.7711579
   translations:
     en: Uppsala
     ar: محافظة اوبسالا
@@ -260,16 +275,18 @@ C:
     ml: അപ്പ്സല കൗണ്ടി
     bs: Kotar Uppsala
     mk: Упсала
-  geo:
-    latitude: 60.00922619999999
-    longitude: 17.2714589
-    min_latitude: 59.4050129
-    min_longitude: 16.678336
-    max_latitude: 60.7313874
-    max_longitude: 18.7711579
-  name: Uppsala län
-D:
+  comments: 
+D: !ruby/struct:ISO3166::Subdivision
+  name: Södermanlands län
+  code: 
   unofficial_names: Södermanlands län
+  geo:
+    latitude: 59.03363489999999
+    longitude: 16.7518899
+    min_latitude: 58.56213729999999
+    min_longitude: 15.5932
+    max_latitude: 59.5228374
+    max_longitude: 17.7453121
   translations:
     en: Södermanland
     ar: محافظة سودرمانلاند
@@ -327,16 +344,18 @@ D:
     ccp: "\U00011125\U0001112E\U00011113\U00011122\U00011134\U0001111F\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Södermanland
     mk: Седерманланд
-  geo:
-    latitude: 59.03363489999999
-    longitude: 16.7518899
-    min_latitude: 58.56213729999999
-    min_longitude: 15.5932
-    max_latitude: 59.5228374
-    max_longitude: 17.7453121
-  name: Södermanlands län
-E:
+  comments: 
+E: !ruby/struct:ISO3166::Subdivision
+  name: Östergötlands län
+  code: 
   unofficial_names: Östergötlands län
+  geo:
+    latitude: 58.3453635
+    longitude: 15.5197843
+    min_latitude: 57.702259
+    min_longitude: 14.5409236
+    max_latitude: 59.01996210000001
+    max_longitude: 17.0853315
   translations:
     en: Östergötland
     ar: مقاطعة أوسترغوتلاند
@@ -394,16 +413,18 @@ E:
     ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011109\U0001112E\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Östergötland
     mk: Естерјетланд
-  geo:
-    latitude: 58.3453635
-    longitude: 15.5197843
-    min_latitude: 57.702259
-    min_longitude: 14.5409236
-    max_latitude: 59.01996210000001
-    max_longitude: 17.0853315
-  name: Östergötlands län
-F:
+  comments: 
+F: !ruby/struct:ISO3166::Subdivision
+  name: Jönköpings län
+  code: 
   unofficial_names: Jönköpings län
+  geo:
+    latitude: 57.3708434
+    longitude: 14.3439173
+    min_latitude: 56.885171
+    min_longitude: 13.0688452
+    max_latitude: 58.153372
+    max_longitude: 15.6562501
   translations:
     en: Jönköping
     ar: محافظة يونشوبينغ
@@ -461,16 +482,18 @@ F:
     ccp: "\U0001110E\U00011127\U0001111A\U00011134\U00011107\U0001112E\U0001111B\U00011128\U00011101"
     bs: Kotar Jönköping
     mk: Јеншепинг
-  geo:
-    latitude: 57.3708434
-    longitude: 14.3439173
-    min_latitude: 56.885171
-    min_longitude: 13.0688452
-    max_latitude: 58.153372
-    max_longitude: 15.6562501
-  name: Jönköpings län
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Kronobergs län
+  code: 
   unofficial_names: Kronobergs län
+  geo:
+    latitude: 56.71834029999999
+    longitude: 14.4114674
+    min_latitude: 56.35664389999999
+    min_longitude: 13.2767319
+    max_latitude: 57.238187
+    max_longitude: 15.844141
   translations:
     en: Kronoberg
     ar: محافظة كرونوبري
@@ -526,17 +549,19 @@ G:
     ml: ക്രോണോബെർഗ് കൗണ്ടി
     bs: Kotar Kronoberg
     mk: Крунуберг
-  geo:
-    latitude: 56.71834029999999
-    longitude: 14.4114674
-    min_latitude: 56.35664389999999
-    min_longitude: 13.2767319
-    max_latitude: 57.238187
-    max_longitude: 15.844141
-  name: Kronobergs län
-H:
+  comments: 
+H: !ruby/struct:ISO3166::Subdivision
+  name: Kalmar län
+  code: 
   unofficial_names:
   - Calmar
+  geo:
+    latitude: 57.2350156
+    longitude: 16.1849349
+    min_latitude: 56.1941934
+    min_longitude: 15.3360812
+    max_latitude: 58.141144
+    max_longitude: 17.1506084
   translations:
     en: Kalmar
     ar: مقاطعة كالمار
@@ -592,16 +617,18 @@ H:
     ccp: "\U00011107\U00011123\U00011134\U0001111F\U00011122\U00011134"
     bs: Kotar Kalmar
     mk: Калмар
-  geo:
-    latitude: 57.2350156
-    longitude: 16.1849349
-    min_latitude: 56.1941934
-    min_longitude: 15.3360812
-    max_latitude: 58.141144
-    max_longitude: 17.1506084
-  name: Kalmar län
-I:
+  comments: 
+I: !ruby/struct:ISO3166::Subdivision
+  name: Gotlands län
+  code: 
   unofficial_names: Gotlands län
+  geo:
+    latitude: 57.46841209999999
+    longitude: 18.4867447
+    min_latitude: 56.9048659
+    min_longitude: 17.9564368
+    max_latitude: 58.3987317
+    max_longitude: 19.3504137
   translations:
     en: Gotland
     ar: مقاطعة جوتلاندز
@@ -658,16 +685,18 @@ I:
     ccp: "\U00011109\U00011127\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Gotland
     mk: Готланд
-  geo:
-    latitude: 57.46841209999999
-    longitude: 18.4867447
-    min_latitude: 56.9048659
-    min_longitude: 17.9564368
-    max_latitude: 58.3987317
-    max_longitude: 19.3504137
-  name: Gotlands län
-K:
+  comments: 
+K: !ruby/struct:ISO3166::Subdivision
+  name: Blekinge län
+  code: 
   unofficial_names: Blekinge län
+  geo:
+    latitude: 56.2783837
+    longitude: 15.0180058
+    min_latitude: 55.9901428
+    min_longitude: 14.3528851
+    max_latitude: 56.5022141
+    max_longitude: 16.0679243
   translations:
     en: Blekinge
     ar: مقاطعة بليكينج
@@ -724,17 +753,19 @@ K:
     hy: Բլեքինգե
     bs: Kotar Blekinge
     mk: Блекинге
-  geo:
-    latitude: 56.2783837
-    longitude: 15.0180058
-    min_latitude: 55.9901428
-    min_longitude: 14.3528851
-    max_latitude: 56.5022141
-    max_longitude: 16.0679243
-  name: Blekinge län
-M:
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: Skåne län
+  code: 
   unofficial_names:
   - Scania
+  geo:
+    latitude: 55.99025719999999
+    longitude: 13.5957692
+    min_latitude: 55.33668249999999
+    min_longitude: 12.4417552
+    max_latitude: 56.54260590000001
+    max_longitude: 14.5844781
   translations:
     en: Skåne
     ar: محافظة اسكونه
@@ -793,16 +824,18 @@ M:
     ccp: "\U0001110C\U00011133\U00011107\U0001111A\U00011134"
     bs: Kotar Skåne
     mk: Сконе
-  geo:
-    latitude: 55.99025719999999
-    longitude: 13.5957692
-    min_latitude: 55.33668249999999
-    min_longitude: 12.4417552
-    max_latitude: 56.54260590000001
-    max_longitude: 14.5844781
-  name: Skåne län
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Hallands län
+  code: 
   unofficial_names: Hallands län
+  geo:
+    latitude: 56.8966805
+    longitude: 12.8033993
+    min_latitude: 56.324419
+    min_longitude: 11.821994
+    max_latitude: 57.5731741
+    max_longitude: 13.7176809
   translations:
     en: Halland
     ar: محافظة هاللاند
@@ -859,16 +892,18 @@ N:
     ccp: "\U00011126\U00011127\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Halland
     mk: Халанд
-  geo:
-    latitude: 56.8966805
-    longitude: 12.8033993
-    min_latitude: 56.324419
-    min_longitude: 11.821994
-    max_latitude: 57.5731741
-    max_longitude: 13.7176809
-  name: Hallands län
-O:
+  comments: 
+O: !ruby/struct:ISO3166::Subdivision
+  name: Västra Götalands län
+  code: 
   unofficial_names: Västra Götalands län
+  geo:
+    latitude: 58.2527926
+    longitude: 13.0596425
+    min_latitude: 57.14008
+    min_longitude: 10.9631866
+    max_latitude: 59.26203409999999
+    max_longitude: 14.7148173
   translations:
     en: Västra Götaland
     ar: محافظة وسترا يوتالاند
@@ -927,16 +962,18 @@ O:
     ccp: "\U0001111E\U0001110C\U00011134\U00011111\U00011133\U00011122 \U00011109\U00011127\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Västra Götaland
     mk: Вестра Јеталанд
-  geo:
-    latitude: 58.2527926
-    longitude: 13.0596425
-    min_latitude: 57.14008
-    min_longitude: 10.9631866
-    max_latitude: 59.26203409999999
-    max_longitude: 14.7148173
-  name: Västra Götalands län
-S:
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Värmlands län
+  code: 
   unofficial_names: Värmlands län
+  geo:
+    latitude: 59.7294065
+    longitude: 13.2354024
+    min_latitude: 58.83082580000001
+    min_longitude: 11.681877
+    max_latitude: 61.06945409999999
+    max_longitude: 14.48975
   translations:
     en: Värmland
     ar: محافظة ورملاند
@@ -993,16 +1030,18 @@ S:
     ccp: "\U0001111E\U00011122\U00011134\U0001111F\U00011127\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Värmland
     mk: Вермланд
-  geo:
-    latitude: 59.7294065
-    longitude: 13.2354024
-    min_latitude: 58.83082580000001
-    min_longitude: 11.681877
-    max_latitude: 61.06945409999999
-    max_longitude: 14.48975
-  name: Värmlands län
-T:
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Örebro län
+  code: 
   unofficial_names: Örebro län
+  geo:
+    latitude: 59.535036
+    longitude: 15.0065731
+    min_latitude: 58.656611
+    min_longitude: 14.243871
+    max_latitude: 60.1056601
+    max_longitude: 15.7880099
   translations:
     en: Örebro
     ar: محافظة اوربرو
@@ -1061,16 +1100,18 @@ T:
     ccp: "\U00011103\U00011127\U00011122\U0001112C\U0001111D\U00011133\U00011122\U0001112E"
     bs: Kotar Örebro
     mk: Еребру
-  geo:
-    latitude: 59.535036
-    longitude: 15.0065731
-    min_latitude: 58.656611
-    min_longitude: 14.243871
-    max_latitude: 60.1056601
-    max_longitude: 15.7880099
-  name: Örebro län
-U:
+  comments: 
+U: !ruby/struct:ISO3166::Subdivision
+  name: Västmanlands län
+  code: 
   unofficial_names: Västmanlands län
+  geo:
+    latitude: 59.6713879
+    longitude: 16.2158954
+    min_latitude: 59.23275400000001
+    min_longitude: 15.41747
+    max_latitude: 60.1906571
+    max_longitude: 16.9458588
   translations:
     en: Västmanland
     ar: محافظة وستمانلاند
@@ -1126,19 +1167,21 @@ U:
     ccp: "\U0001111E\U0001110C\U00011134\U00011111\U00011134\U0001111F\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Västmanland
     mk: Вестманланд
-  geo:
-    latitude: 59.6713879
-    longitude: 16.2158954
-    min_latitude: 59.23275400000001
-    min_longitude: 15.41747
-    max_latitude: 60.1906571
-    max_longitude: 16.9458588
-  name: Västmanlands län
-W:
+  comments: 
+W: !ruby/struct:ISO3166::Subdivision
+  name: Dalarnas län
+  code: 
   unofficial_names:
   - Dalarnas
   - Dalecarlia
   - Kopparberg
+  geo:
+    latitude: 61.0917012
+    longitude: 14.6663653
+    min_latitude: 59.852169
+    min_longitude: 12.1331131
+    max_latitude: 62.28024099999999
+    max_longitude: 16.739265
   translations:
     en: Dalarna
     ar: مقاطعة دالرناس
@@ -1195,16 +1238,18 @@ W:
     ccp: "\U00011113\U00011123\U00011122\U00011134\U0001111A"
     bs: Kotar Dalarna
     mk: Даларна
-  geo:
-    latitude: 61.0917012
-    longitude: 14.6663653
-    min_latitude: 59.852169
-    min_longitude: 12.1331131
-    max_latitude: 62.28024099999999
-    max_longitude: 16.739265
-  name: Dalarnas län
-X:
+  comments: 
+X: !ruby/struct:ISO3166::Subdivision
+  name: Gävleborgs län
+  code: 
   unofficial_names: Gävleborgs län
+  geo:
+    latitude: 61.30119930000001
+    longitude: 16.1534215
+    min_latitude: 60.201385
+    min_longitude: 14.459403
+    max_latitude: 62.37083
+    max_longitude: 17.6414757
   translations:
     en: Gävleborg
     ar: مقاطعة يافلبورغ
@@ -1260,16 +1305,18 @@ X:
     ccp: "\U00011109\U00011133\U00011120\U0001111B\U00011134\U00011123\U0001112C\U0001111D\U0001112E\U00011122\U00011134\U00011107\U00011134"
     bs: Kotar Gävleborg
     mk: Јевлеборг
-  geo:
-    latitude: 61.30119930000001
-    longitude: 16.1534215
-    min_latitude: 60.201385
-    min_longitude: 14.459403
-    max_latitude: 62.37083
-    max_longitude: 17.6414757
-  name: Gävleborgs län
-Y:
+  comments: 
+Y: !ruby/struct:ISO3166::Subdivision
+  name: Västernorrlands län
+  code: 
   unofficial_names: Västernorrlands län
+  geo:
+    latitude: 63.4276473
+    longitude: 17.7292444
+    min_latitude: 62.13979099999999
+    min_longitude: 14.776302
+    max_latitude: 64.00223489999999
+    max_longitude: 19.2867079
   translations:
     en: Västernorrland
     ar: محافظة وسترنورلاند
@@ -1324,16 +1371,18 @@ Y:
     ccp: "\U0001111E\U0001110C\U00011134\U00011111\U00011122\U00011134\U0001111A\U00011127\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Västernorrland
     mk: Вестернорланд
-  geo:
-    latitude: 63.4276473
-    longitude: 17.7292444
-    min_latitude: 62.13979099999999
-    min_longitude: 14.776302
-    max_latitude: 64.00223489999999
-    max_longitude: 19.2867079
-  name: Västernorrlands län
-Z:
+  comments: 
+Z: !ruby/struct:ISO3166::Subdivision
+  name: Jämtlands län
+  code: 
   unofficial_names: Jämtlands län
+  geo:
+    latitude: 63.1711922
+    longitude: 14.95918
+    min_latitude: 61.569695
+    min_longitude: 11.9688662
+    max_latitude: 65.073133
+    max_longitude: 17.0648909
   translations:
     en: Jämtland
     ar: محافظة يمتلاند
@@ -1389,11 +1438,4 @@ Z:
     ccp: "\U0001110E\U0001111F\U00011134\U00011111\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     bs: Kotar Jämtland
     mk: Јемтланд
-  geo:
-    latitude: 63.1711922
-    longitude: 14.95918
-    min_latitude: 61.569695
-    min_longitude: 11.9688662
-    max_latitude: 65.073133
-    max_longitude: 17.0648909
-  name: Jämtlands län
+  comments: 

@@ -1,10 +1,10 @@
 ---
-CHA:
+CHA: !ruby/struct:ISO3166::Subdivision
+  name: Chagang-do
+  code: 
   unofficial_names:
   - Chagang
   - Jagang
-  translations:
-    en: Chagang-do
   geo:
     latitude: 40.7202809
     longitude: 126.5621137
@@ -12,13 +12,15 @@ CHA:
     min_longitude: 125.4260387
     max_latitude: 41.80851699999999
     max_longitude: 127.495489
-  name: Chagang-do
-HAB:
+  translations:
+    en: Chagang-do
+  comments: 
+HAB: !ruby/struct:ISO3166::Subdivision
+  name: Hamgyongbuk-do
+  code: 
   unofficial_names:
   - Hamgyongbukto
   - North Hamgyong
-  translations:
-    en: Hamgyongbuk-do
   geo:
     latitude: 
     longitude: 
@@ -26,13 +28,15 @@ HAB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hamgyongbuk-do
-HAN:
+  translations:
+    en: Hamgyongbuk-do
+  comments: 
+HAN: !ruby/struct:ISO3166::Subdivision
+  name: Hamgyongnam-do
+  code: 
   unofficial_names:
   - Hamgyongnamdo
   - South Hamgyong
-  translations:
-    en: Hamgyongnam-do
   geo:
     latitude: 40.37253390000001
     longitude: 128.2988839
@@ -40,12 +44,14 @@ HAN:
     min_longitude: 126.665308
     max_latitude: 41.188465
     max_longitude: 129.1677549
-  name: Hamgyongnam-do
-HWB:
+  translations:
+    en: Hamgyongnam-do
+  comments: 
+HWB: !ruby/struct:ISO3166::Subdivision
+  name: Hwanghaebuk-do
+  code: 
   unofficial_names:
   - North Hwanghae
-  translations:
-    en: Hwanghaebuk-do
   geo:
     latitude: 
     longitude: 
@@ -53,12 +59,14 @@ HWB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hwanghaebuk-do
-HWN:
+  translations:
+    en: Hwanghaebuk-do
+  comments: 
+HWN: !ruby/struct:ISO3166::Subdivision
+  name: Hwanghaenam-do
+  code: 
   unofficial_names:
   - South Hwanghae
-  translations:
-    en: Hwanghaenam-do
   geo:
     latitude: 38.2007215
     longitude: 125.4781926
@@ -66,11 +74,13 @@ HWN:
     min_longitude: 124.6092129
     max_latitude: 38.70929
     max_longitude: 126.436103
-  name: Hwanghaenam-do
-KAE:
-  unofficial_names: Kaesong-si
   translations:
-    en: Kaesong-si
+    en: Hwanghaenam-do
+  comments: 
+KAE: !ruby/struct:ISO3166::Subdivision
+  name: Kaesong-si
+  code: 
+  unofficial_names: Kaesong-si
   geo:
     latitude: 37.9381943
     longitude: 126.5877948
@@ -78,14 +88,16 @@ KAE:
     min_longitude: 126.5048218
     max_latitude: 38.0156401
     max_longitude: 126.6957091
-  name: Kaesong-si
-KAN:
+  translations:
+    en: Kaesong-si
+  comments: 
+KAN: !ruby/struct:ISO3166::Subdivision
+  name: Kangwon-do
+  code: 
   unofficial_names:
   - Gangweon
   - Kangweon
   - Kangwon
-  translations:
-    en: Kangwon-do
   geo:
     latitude: 38.8432393
     longitude: 127.5597067
@@ -93,11 +105,13 @@ KAN:
     min_longitude: 126.6763261
     max_latitude: 39.4075279
     max_longitude: 128.3629369
-  name: Kangwon-do
-NAJ:
-  unofficial_names: Najin Sonbong-si
   translations:
-    en: Najin Sonbong-si
+    en: Kangwon-do
+  comments: 
+NAJ: !ruby/struct:ISO3166::Subdivision
+  name: Najin Sonbong-si
+  code: 
+  unofficial_names: Najin Sonbong-si
   geo:
     latitude: 42.3383958
     longitude: 130.3874889
@@ -105,11 +119,13 @@ NAJ:
     min_longitude: 130.3696491
     max_latitude: 42.3605417
     max_longitude: 130.4083801
-  name: Najin Sonbong-si
-NAM:
-  unofficial_names: Nampo-si
   translations:
-    en: Nampo-si
+    en: Najin Sonbong-si
+  comments: 
+NAM: !ruby/struct:ISO3166::Subdivision
+  name: Nampo-si
+  code: 
+  unofficial_names: Nampo-si
   geo:
     latitude: 36.3045591
     longitude: 126.605081
@@ -117,14 +133,16 @@ NAM:
     min_longitude: 126.5072223
     max_latitude: 36.3317793
     max_longitude: 126.6347802
-  name: Nampo-si
-PYB:
+  translations:
+    en: Nampo-si
+  comments: 
+PYB: !ruby/struct:ISO3166::Subdivision
+  name: Pyonganbuk-do
+  code: 
   unofficial_names:
   - North Phyongan
   - North Pyongan
   - Pyonganbukto
-  translations:
-    en: Pyonganbuk-do
   geo:
     latitude: 
     longitude: 
@@ -132,14 +150,16 @@ PYB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Pyonganbuk-do
-PYN:
+  translations:
+    en: Pyonganbuk-do
+  comments: 
+PYN: !ruby/struct:ISO3166::Subdivision
+  name: Pyongannam-do
+  code: 
   unofficial_names:
   - Pyongannamdo
   - South Phyongan
   - South Pyongan
-  translations:
-    en: Pyongannam-do
   geo:
     latitude: 39.3539178
     longitude: 126.168271
@@ -147,12 +167,14 @@ PYN:
     min_longitude: 125.1250314
     max_latitude: 40.3443871
     max_longitude: 127.180768
-  name: Pyongannam-do
-PYO:
+  translations:
+    en: Pyongannam-do
+  comments: 
+PYO: !ruby/struct:ISO3166::Subdivision
+  name: Pyongyang-si
+  code: 
   unofficial_names:
   - Pyongyang
-  translations:
-    en: Pyongyang-si
   geo:
     latitude: 39.0392193
     longitude: 125.7625241
@@ -160,11 +182,13 @@ PYO:
     min_longitude: 125.5908966
     max_latitude: 39.1064777
     max_longitude: 125.893327
-  name: Pyongyang-si
-X1~:
-  unofficial_names: Rason
   translations:
-    en: Rason
+    en: Pyongyang-si
+  comments: 
+X1~: !ruby/struct:ISO3166::Subdivision
+  name: Rason
+  code: 
+  unofficial_names: Rason
   geo:
     latitude: 42.2569063
     longitude: 130.2977186
@@ -172,12 +196,14 @@ X1~:
     min_longitude: 130.2705528
     max_latitude: 42.27367659999999
     max_longitude: 130.332437
-  name: Rason
-YAN:
+  translations:
+    en: Rason
+  comments: 
+YAN: !ruby/struct:ISO3166::Subdivision
+  name: Yanggang-do
+  code: 
   unofficial_names:
   - Ryanggang
-  translations:
-    en: Yanggang-do
   geo:
     latitude: 41.2318921
     longitude: 128.5076359
@@ -185,9 +211,20 @@ YAN:
     min_longitude: 126.902531
     max_latitude: 42.095005
     max_longitude: 129.050376
-  name: Yanggang-do
-'01':
+  translations:
+    en: Yanggang-do
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Pjongjang
     am: ፕዮንግያንግ
@@ -270,6 +307,11 @@ YAN:
     uz: Pxenyan
     bs: Pjongjang
     mk: Пјонгјанг
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -277,8 +319,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     ar: مقاطعة بيونغان الجنوبية
     bg: Южен Пхьонан
@@ -327,6 +367,11 @@ YAN:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U00011128\U00011120\U00011127\U00011101\U00011109\U0001111A\U00011134"
     eu: Hego Pyongan
     yue: 平安南道
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -334,8 +379,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     ar: بيونغان الشمالية
     bg: Северен Пхьонан
@@ -385,6 +428,11 @@ YAN:
       \U0001111B\U00011128\U00011120\U00011127\U00011101\U00011109\U0001111A\U00011134"
     eu: Ipar Pyongan
     yue: 平安北道
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -392,8 +440,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     ar: تشاغانغ
     bg: Чаган
@@ -443,6 +489,11 @@ YAN:
     ro: Provincia Chagang
     eu: Chagang
     yue: 慈江
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -450,8 +501,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     ar: جنوب مقاطعة هوانغاي
     bg: Южен Хванхе
@@ -500,6 +549,11 @@ YAN:
     ro: Provincia Hwanghae de Sud
     eu: Hego Hwanghae
     yue: 黃海南道
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -507,8 +561,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     ar: هوانغهاي الشمالية
     bg: Северен Хванхе
@@ -558,6 +610,11 @@ YAN:
     ro: Provincia Hwanghae de Nord
     eu: Ipar Hwanghae
     yue: 黃海北道
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -565,8 +622,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ar: مقاطعة كانغوون
     bg: Кануън
@@ -616,6 +671,11 @@ YAN:
     ccp: "\U00011107\U00011127\U00011101\U00011124\U0001111A\U00011134"
     eu: Kangwon
     yue: 江原道
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -623,8 +683,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     ar: محافظة هامغيونغ الجنوبية
     bg: Южен Хамгьон
@@ -674,6 +732,11 @@ YAN:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011126\U0001111F\U00011134\U0001110E\U00011128\U00011120\U00011127\U00011101"
     eu: Hego Hamgyong
     yue: 咸鏡南道
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -681,8 +744,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     ar: منطقة شمال هامغيونغ
     bg: Северен Хамгьон
@@ -725,6 +786,11 @@ YAN:
     yue: 咸鏡北道
     az: Hamqyon-Pukto
     be: Хамгён-Пукта
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -732,8 +798,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     ar: مقاطعة ريانغانغ
     bg: Рянган
@@ -783,6 +847,11 @@ YAN:
     ccp: "\U00011122\U00011128\U00011120\U00011101\U00011109\U00011127\U00011101"
     eu: Ryanggang
     yue: 兩江道
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -790,8 +859,6 @@ YAN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'13':
-  unofficial_names: 
   translations:
     ar: راسون
     bg: Расън
@@ -841,14 +908,12 @@ YAN:
     ga: Rason
     yue: 羅先
     az: Rason
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     ceb: Namp’o
     ms: Nampo
@@ -888,3 +953,4 @@ YAN:
     mn: Нампу
     ca: Namp’o
     th: นัมโพ
+  comments: 

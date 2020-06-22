@@ -1,6 +1,15 @@
 ---
-A:
+A: !ruby/struct:ISO3166::Subdivision
+  name: Niassa
+  code: 
   unofficial_names: Niassa
+  geo:
+    latitude: -12.7826202
+    longitude: 36.6093926
+    min_latitude: -15.5072889
+    min_longitude: 34.60633
+    max_latitude: -11.2596681
+    max_longitude: 38.4838371
   translations:
     en: Niassa
     af: Niassa
@@ -50,16 +59,18 @@ A:
     ccp: "\U0001111A\U00011128\U00011120\U00011125"
     yue: 尼亞薩省
     mk: Њаса
-  geo:
-    latitude: -12.7826202
-    longitude: 36.6093926
-    min_latitude: -15.5072889
-    min_longitude: 34.60633
-    max_latitude: -11.2596681
-    max_longitude: 38.4838371
-  name: Niassa
-B:
+  comments: 
+B: !ruby/struct:ISO3166::Subdivision
+  name: Manica
+  code: 
   unofficial_names: Manica
+  geo:
+    latitude: -19.5059787
+    longitude: 33.438353
+    min_latitude: -21.58149
+    min_longitude: 32.3667179
+    max_latitude: -16.3896211
+    max_longitude: 34.576135
   translations:
     en: Manica
     af: Manica
@@ -107,16 +118,18 @@ B:
     ceb: Manica Province
     zh: 马尼卡省
     ccp: "\U0001111F\U00011127\U0001111A\U00011128\U00011107"
-  geo:
-    latitude: -19.5059787
-    longitude: 33.438353
-    min_latitude: -21.58149
-    min_longitude: 32.3667179
-    max_latitude: -16.3896211
-    max_longitude: 34.576135
-  name: Manica
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Gaza
+  code: 
   unofficial_names: Gaza
+  geo:
+    latitude: -23.0221928
+    longitude: 32.7181375
+    min_latitude: -25.3720382
+    min_longitude: 31.3063011
+    max_latitude: -21.309147
+    max_longitude: 34.492104
   translations:
     en: Gaza
     af: Gaza
@@ -166,16 +179,18 @@ G:
     fa: استان گازا
     ccp: "\U00011109\U0001110E"
     ml: ഗാസ പ്രവിശ്യ
-  geo:
-    latitude: -23.0221928
-    longitude: 32.7181375
-    min_latitude: -25.3720382
-    min_longitude: 31.3063011
-    max_latitude: -21.309147
-    max_longitude: 34.492104
-  name: Gaza
-I:
+  comments: 
+I: !ruby/struct:ISO3166::Subdivision
+  name: Inhambane
+  code: 
   unofficial_names: Inhambane
+  geo:
+    latitude: -23.866667
+    longitude: 35.383333
+    min_latitude: -23.9394282
+    min_longitude: 35.3777797
+    max_latitude: -23.8608789
+    max_longitude: 35.4259301
   translations:
     en: Inhambane
     af: Inhambane
@@ -223,16 +238,18 @@ I:
     zh: 伊尼扬巴内省
     fa: استان اینهامبانه
     ccp: "\U00011103\U00011128\U0001111A\U00011134\U00011126\U0001111F\U00011134\U0001111D\U0001111A\U00011134"
-  geo:
-    latitude: -23.866667
-    longitude: 35.383333
-    min_latitude: -23.9394282
-    min_longitude: 35.3777797
-    max_latitude: -23.8608789
-    max_longitude: 35.4259301
-  name: Inhambane
-L:
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: Maputo
+  code: 
   unofficial_names: Maputo
+  geo:
+    latitude: -25.966667
+    longitude: 32.583333
+    min_latitude: -25.9839604
+    min_longitude: 32.5233079
+    max_latitude: -25.8085457
+    max_longitude: 32.6980592
   translations:
     en: Maputo Province
     af: Maputo
@@ -267,6 +284,11 @@ L:
     zh: 马普托省
     ccp: "\U0001111F\U0001111B\U0001112A\U00011111\U0001112E \U0001111B\U00011133\U00011122\U0001112E\U0001111E\U00011128\U0001111A\U00011134\U0001110C\U00011134"
     sr: Мапуто (покрајина)
+  comments: 
+MPM: !ruby/struct:ISO3166::Subdivision
+  name: Maputo City
+  code: 
+  unofficial_names: Maputo City
   geo:
     latitude: -25.966667
     longitude: 32.583333
@@ -274,9 +296,6 @@ L:
     min_longitude: 32.5233079
     max_latitude: -25.8085457
     max_longitude: 32.6980592
-  name: Maputo
-MPM:
-  unofficial_names: Maputo City
   translations:
     en: Maputo
     af: Maputo²
@@ -355,16 +374,18 @@ MPM:
     uz: Maputu
     bs: Maputo
     mk: Мапуто
-  geo:
-    latitude: -25.966667
-    longitude: 32.583333
-    min_latitude: -25.9839604
-    min_longitude: 32.5233079
-    max_latitude: -25.8085457
-    max_longitude: 32.6980592
-  name: Maputo City
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Nampula
+  code: 
   unofficial_names: Nampula
+  geo:
+    latitude: -15.116667
+    longitude: 39.266667
+    min_latitude: -15.1570817
+    min_longitude: 39.21147759999999
+    max_latitude: -15.0862734
+    max_longitude: 39.3180005
   translations:
     en: Nampula
     af: Nampula
@@ -411,16 +432,18 @@ N:
     zh: 楠普拉省
     fa: استان نامپولا
     ccp: "\U0001111A\U0001111F\U00011134\U0001111B\U0001112A\U00011123"
-  geo:
-    latitude: -15.116667
-    longitude: 39.266667
-    min_latitude: -15.1570817
-    min_longitude: 39.21147759999999
-    max_latitude: -15.0862734
-    max_longitude: 39.3180005
-  name: Nampula
-P:
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: Cabo Delgado
+  code: 
   unofficial_names: Cabo Delgado
+  geo:
+    latitude: -12.3335474
+    longitude: 39.3206241
+    min_latitude: -14.162181
+    min_longitude: 37.9843029
+    max_latitude: -10.4729195
+    max_longitude: 40.7165883
   translations:
     en: Cabo Delgado
     af: Cabo Delgado
@@ -471,16 +494,18 @@ P:
     he: מחוז קאבו דלגאדו
     yue: 卡布德加多省
     be: Кабу-Дэлгаду
-  geo:
-    latitude: -12.3335474
-    longitude: 39.3206241
-    min_latitude: -14.162181
-    min_longitude: 37.9843029
-    max_latitude: -10.4729195
-    max_longitude: 40.7165883
-  name: Cabo Delgado
-Q:
+  comments: 
+Q: !ruby/struct:ISO3166::Subdivision
+  name: Zambézia
+  code: 
   unofficial_names: Zambézia
+  geo:
+    latitude: -16.5638987
+    longitude: 36.6093926
+    min_latitude: -18.9168009
+    min_longitude: 35.147209
+    max_latitude: -14.989042
+    max_longitude: 39.1333621
   translations:
     en: Zambezia
     af: Zambezia
@@ -527,16 +552,18 @@ Q:
     zh: 赞比西亚省
     fa: استان زامبزیا
     ccp: "\U0001110E\U0001111F\U00011134\U0001111D\U0001112C\U0001110E\U00011128\U00011120"
-  geo:
-    latitude: -16.5638987
-    longitude: 36.6093926
-    min_latitude: -18.9168009
-    min_longitude: 35.147209
-    max_latitude: -14.989042
-    max_longitude: 39.1333621
-  name: Zambézia
-S:
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Sofala
+  code: 
   unofficial_names: Sofala
+  geo:
+    latitude: -19.2039073
+    longitude: 34.8624166
+    min_latitude: -21.3156439
+    min_longitude: 33.3992959
+    max_latitude: -16.810862
+    max_longitude: 36.1929811
   translations:
     en: Sofala
     af: Sofala
@@ -584,16 +611,18 @@ S:
     zh: 索法拉省
     fa: استان سوفالا
     ccp: "\U00011125\U0001112E\U0001111C\U00011123"
-  geo:
-    latitude: -19.2039073
-    longitude: 34.8624166
-    min_latitude: -21.3156439
-    min_longitude: 33.3992959
-    max_latitude: -16.810862
-    max_longitude: 36.1929811
-  name: Sofala
-T:
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Tete
+  code: 
   unofficial_names: Tete
+  geo:
+    latitude: -16.166667
+    longitude: 33.6
+    min_latitude: -16.1891847
+    min_longitude: 33.55608369999999
+    max_latitude: -16.0807983
+    max_longitude: 33.6530061
   translations:
     en: Tete
     af: Tete
@@ -643,11 +672,4 @@ T:
     ceb: Tete
     zh: 太特省
     ccp: "\U00011111\U0001112C\U00011111\U0001112C"
-  geo:
-    latitude: -16.166667
-    longitude: 33.6
-    min_latitude: -16.1891847
-    min_longitude: 33.55608369999999
-    max_latitude: -16.0807983
-    max_longitude: 33.6530061
-  name: Tete
+  comments: 

@@ -1,6 +1,15 @@
 ---
-'1':
+'1': !ruby/struct:ISO3166::Subdivision
+  name: Agadez
+  code: 
   unofficial_names: Agadez
+  geo:
+    latitude: 16.966667
+    longitude: 7.983333
+    min_latitude: 16.948514
+    min_longitude: 7.9526987
+    max_latitude: 16.9894109
+    max_longitude: 8.0210101
   translations:
     en: Agadez
     ar: منطقة أغاديس
@@ -44,16 +53,18 @@
     ka: აგადესის რეგიონი
     ha: Yankin Agadez
     uk: Регіон Агадес
-  geo:
-    latitude: 16.966667
-    longitude: 7.983333
-    min_latitude: 16.948514
-    min_longitude: 7.9526987
-    max_latitude: 16.9894109
-    max_longitude: 8.0210101
-  name: Agadez
-'2':
+  comments: 
+'2': !ruby/struct:ISO3166::Subdivision
+  name: Diffa
+  code: 
   unofficial_names: Diffa
+  geo:
+    latitude: 13.316667
+    longitude: 12.616667
+    min_latitude: 13.3027664
+    min_longitude: 12.6024342
+    max_latitude: 13.3314146
+    max_longitude: 12.6319599
   translations:
     en: Diffa
     ar: منطقة ديفا
@@ -97,16 +108,18 @@
     ka: დიფის რეგიონი
     ha: Yankin Diffa
     uk: Регіон Діффа
-  geo:
-    latitude: 13.316667
-    longitude: 12.616667
-    min_latitude: 13.3027664
-    min_longitude: 12.6024342
-    max_latitude: 13.3314146
-    max_longitude: 12.6319599
-  name: Diffa
-'3':
+  comments: 
+'3': !ruby/struct:ISO3166::Subdivision
+  name: Dosso
+  code: 
   unofficial_names: Dosso
+  geo:
+    latitude: 13.05
+    longitude: 3.2
+    min_latitude: 13.0239105
+    min_longitude: 3.1782688
+    max_latitude: 13.0693243
+    max_longitude: 3.2271886
   translations:
     en: Dosso
     ar: منطقة دوسو
@@ -151,16 +164,18 @@
     ka: დოსოს რეგიონი
     ha: Yankin Dosso
     uk: Регіон Досо
-  geo:
-    latitude: 13.05
-    longitude: 3.2
-    min_latitude: 13.0239105
-    min_longitude: 3.1782688
-    max_latitude: 13.0693243
-    max_longitude: 3.2271886
-  name: Dosso
-'4':
+  comments: 
+'4': !ruby/struct:ISO3166::Subdivision
+  name: Maradi
+  code: 
   unofficial_names: Maradi
+  geo:
+    latitude: 13.483333
+    longitude: 7.1
+    min_latitude: 13.46399
+    min_longitude: 7.0772901
+    max_latitude: 13.5319182
+    max_longitude: 7.128497299999999
   translations:
     en: Maradi
     ar: منطقة مارادي
@@ -204,16 +219,18 @@
     ka: მარადის რეგიონი
     ha: Yankin Maradi
     uk: Мараді
-  geo:
-    latitude: 13.483333
-    longitude: 7.1
-    min_latitude: 13.46399
-    min_longitude: 7.0772901
-    max_latitude: 13.5319182
-    max_longitude: 7.128497299999999
-  name: Maradi
-'5':
+  comments: 
+'5': !ruby/struct:ISO3166::Subdivision
+  name: Tahoua
+  code: 
   unofficial_names: Tahoua
+  geo:
+    latitude: 14.883333
+    longitude: 5.266667
+    min_latitude: 14.8680217
+    min_longitude: 5.241680100000001
+    max_latitude: 14.9285551
+    max_longitude: 5.2966928
   translations:
     en: Tahoua
     ar: منطقة طاوة
@@ -257,17 +274,19 @@
     ka: ტაჰუის რეგიონი
     ha: Yankin Tahoua
     uk: Регіон Тахуа
-  geo:
-    latitude: 14.883333
-    longitude: 5.266667
-    min_latitude: 14.8680217
-    min_longitude: 5.241680100000001
-    max_latitude: 14.9285551
-    max_longitude: 5.2966928
-  name: Tahoua
-'6':
+  comments: 
+'6': !ruby/struct:ISO3166::Subdivision
+  name: Tillabéri
+  code: 
   unofficial_names:
   - Tillaberi
+  geo:
+    latitude: 14.6489525
+    longitude: 2.1450245
+    min_latitude: 11.9016119
+    min_longitude: 0.16625
+    max_latitude: 15.7044501
+    max_longitude: 4.254564999999999
   translations:
     en: Tillabéri
     ar: منطقة تيلابيري
@@ -311,16 +330,18 @@
     ka: ტილაბერის რეგიონი
     ha: Tillabéri
     uk: Регіон Тіллабері
-  geo:
-    latitude: 14.6489525
-    longitude: 2.1450245
-    min_latitude: 11.9016119
-    min_longitude: 0.16625
-    max_latitude: 15.7044501
-    max_longitude: 4.254564999999999
-  name: Tillabéri
-'7':
+  comments: 
+'7': !ruby/struct:ISO3166::Subdivision
+  name: Zinder
+  code: 
   unofficial_names: Zinder
+  geo:
+    latitude: 13.805278
+    longitude: 8.988332999999999
+    min_latitude: 13.7752561
+    min_longitude: 8.9602306
+    max_latitude: 13.8345383
+    max_longitude: 9.0148114
   translations:
     en: Zinder
     ar: منطقة زيندر
@@ -363,16 +384,18 @@
     ka: ზინდერის რეგიონი
     ha: Yankin Zinder
     uk: Зіндер
-  geo:
-    latitude: 13.805278
-    longitude: 8.988332999999999
-    min_latitude: 13.7752561
-    min_longitude: 8.9602306
-    max_latitude: 13.8345383
-    max_longitude: 9.0148114
-  name: Zinder
-'8':
+  comments: 
+'8': !ruby/struct:ISO3166::Subdivision
+  name: Niamey
+  code: 
   unofficial_names: Niamey
+  geo:
+    latitude: 13.521389
+    longitude: 2.105278
+    min_latitude: 13.4461983
+    min_longitude: 2.0319587
+    max_latitude: 13.5793394
+    max_longitude: 2.2061066
   translations:
     en: Niamey
     af: Niamey
@@ -450,11 +473,4 @@
     uz: Niamey
     bs: Niamey
     mk: Нијамеј
-  geo:
-    latitude: 13.521389
-    longitude: 2.105278
-    min_latitude: 13.4461983
-    min_longitude: 2.0319587
-    max_latitude: 13.5793394
-    max_longitude: 2.2061066
-  name: Niamey
+  comments: 

@@ -1,6 +1,15 @@
 ---
-A:
+A: !ruby/struct:ISO3166::Subdivision
+  name: Azuay
+  code: 
   unofficial_names: Azuay
+  geo:
+    latitude: -2.9633245
+    longitude: -79.1096901
+    min_latitude: -3.620066
+    min_longitude: -79.76039899999999
+    max_latitude: -2.55303
+    max_longitude: -78.43984999999999
   translations:
     en: Azuay
     ar: مقاطعة أزواي
@@ -48,16 +57,18 @@ A:
     ccp: "\U00011103\U0001110E\U0001112A\U00011120\U0001112C"
     hy: Ասուայ
     mk: Азуај
-  geo:
-    latitude: -2.9633245
-    longitude: -79.1096901
-    min_latitude: -3.620066
-    min_longitude: -79.76039899999999
-    max_latitude: -2.55303
-    max_longitude: -78.43984999999999
-  name: Azuay
-B:
+  comments: 
+B: !ruby/struct:ISO3166::Subdivision
+  name: Bolívar
+  code: 
   unofficial_names: Bolívar
+  geo:
+    latitude: -1.5696244
+    longitude: -79.1096901
+    min_latitude: -2.2034861
+    min_longitude: -79.4053569
+    max_latitude: -1.148095
+    max_longitude: -78.85047899999999
   translations:
     en: Bolívar
     ar: مقاطعة بوليفار
@@ -103,16 +114,18 @@ B:
     zh: 玻利瓦尔省
     ccp: "\U0001111D\U00011127\U00011123\U00011128\U0001111E\U00011122\U00011134"
     hy: Բոլիվար
-  geo:
-    latitude: -1.5696244
-    longitude: -79.1096901
-    min_latitude: -2.2034861
-    min_longitude: -79.4053569
-    max_latitude: -1.148095
-    max_longitude: -78.85047899999999
-  name: Bolívar
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Carchi
+  code: 
   unofficial_names: Carchi
+  geo:
+    latitude: 0.6625532
+    longitude: -78.0195387
+    min_latitude: 0.360788
+    min_longitude: -78.55054489999999
+    max_latitude: 1.1878679
+    max_longitude: -77.5582881
   translations:
     en: Carchi
     ar: مقاطعة كارتشي
@@ -160,16 +173,18 @@ C:
     ccp: "\U00011107\U00011122\U00011134\U0001110C\U00011128"
     hy: Կարչի
     he: מחוז קארצ׳י
-  geo:
-    latitude: 0.6625532
-    longitude: -78.0195387
-    min_latitude: 0.360788
-    min_longitude: -78.55054489999999
-    max_latitude: 1.1878679
-    max_longitude: -77.5582881
-  name: Carchi
-D:
+  comments: 
+D: !ruby/struct:ISO3166::Subdivision
+  name: Orellana
+  code: 
   unofficial_names: Orellana
+  geo:
+    latitude: -0.7112664999999999
+    longitude: -77.15426839999999
+    min_latitude: -0.7265373
+    min_longitude: -77.181015
+    max_latitude: -0.6898046
+    max_longitude: -77.13389389999999
   translations:
     en: Orellana
     ar: مقاطعة أوريينا
@@ -215,16 +230,18 @@ D:
     fa: استان اوریانا
     ccp: "\U00011103\U00011127\U00011122\U0001112C\U00011123\U0001111A"
     hy: Օրելյանա
-  geo:
-    latitude: -0.7112664999999999
-    longitude: -77.15426839999999
-    min_latitude: -0.7265373
-    min_longitude: -77.181015
-    max_latitude: -0.6898046
-    max_longitude: -77.13389389999999
-  name: Orellana
-E:
+  comments: 
+E: !ruby/struct:ISO3166::Subdivision
+  name: Esmeraldas
+  code: 
   unofficial_names: Esmeraldas
+  geo:
+    latitude: 0.9681789
+    longitude: -79.6517202
+    min_latitude: 0.9292910000000001
+    min_longitude: -79.672122
+    max_latitude: 0.9975799
+    max_longitude: -79.6095084
   translations:
     en: Esmeraldas
     ar: مقاطعة إسمرالداس
@@ -271,16 +288,18 @@ E:
     ccp: "\U00011103\U0001112C\U0001110C\U00011134\U0001111F\U00011122\U00011123\U00011134\U00011113\U0001110C\U00011134"
     hy: Էսմերալդաս
     he: מחוז אסמרלדס
-  geo:
-    latitude: 0.9681789
-    longitude: -79.6517202
-    min_latitude: 0.9292910000000001
-    min_longitude: -79.672122
-    max_latitude: 0.9975799
-    max_longitude: -79.6095084
-  name: Esmeraldas
-F:
+  comments: 
+F: !ruby/struct:ISO3166::Subdivision
+  name: Cañar
+  code: 
   unofficial_names: Cañar
+  geo:
+    latitude: -2.555695
+    longitude: -78.9344814
+    min_latitude: -2.5782558
+    min_longitude: -78.9535904
+    max_latitude: -2.5385129
+    max_longitude: -78.9242364
   translations:
     en: Cañar
     ar: مقاطعة كانار
@@ -325,16 +344,18 @@ F:
     zh: 卡尼亞爾省
     bn: কানার প্রদেশ’
     ccp: "\U00011107\U0001112C\U0001111A\U00011122\U00011134"
-  geo:
-    latitude: -2.555695
-    longitude: -78.9344814
-    min_latitude: -2.5782558
-    min_longitude: -78.9535904
-    max_latitude: -2.5385129
-    max_longitude: -78.9242364
-  name: Cañar
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Guayas
+  code: 
   unofficial_names: Guayas
+  geo:
+    latitude: -1.9574839
+    longitude: -79.9192702
+    min_latitude: -3.062438
+    min_longitude: -80.561928
+    max_latitude: -0.839573
+    max_longitude: -79.09728199999999
   translations:
     en: Guayas
     ar: مقاطعة غاياس
@@ -381,16 +402,18 @@ G:
     ceb: Provincia del Guayas
     zh: 瓜亚斯省
     ccp: "\U00011109\U0001112A\U00011120\U00011120\U0001112C\U0001110C\U00011134"
-  geo:
-    latitude: -1.9574839
-    longitude: -79.9192702
-    min_latitude: -3.062438
-    min_longitude: -80.561928
-    max_latitude: -0.839573
-    max_longitude: -79.09728199999999
-  name: Guayas
-H:
+  comments: 
+H: !ruby/struct:ISO3166::Subdivision
+  name: Chimborazo
+  code: 
   unofficial_names: Chimborazo
+  geo:
+    latitude: -1.4693018
+    longitude: -78.8169396
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Chimborazo
     ar: مقاطعة تشيمبورازو
@@ -438,16 +461,18 @@ H:
     ccp: "\U0001110C\U00011128\U0001111F\U00011134\U0001111D\U00011127\U00011122\U0001110E\U0001112E"
     kk: Чимборасо
     mk: Чимборасо
-  geo:
-    latitude: -1.4693018
-    longitude: -78.8169396
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chimborazo
-I:
+  comments: 
+I: !ruby/struct:ISO3166::Subdivision
+  name: Imbabura
+  code: 
   unofficial_names: Imbabura
+  geo:
+    latitude: 0.367159
+    longitude: -78.3842227
+    min_latitude: 0.125442
+    min_longitude: -79.230362
+    max_latitude: 0.8569121
+    max_longitude: -77.828034
   translations:
     en: Imbabura
     ar: مقاطعة إمبابورا
@@ -494,16 +519,18 @@ I:
     ccp: "\U00011103\U00011128\U0001111F\U00011134\U0001111D\U0001111D\U0001112A\U00011122"
     hy: Իմբաբուրա
     he: מחוז אימבאבורה
-  geo:
-    latitude: 0.367159
-    longitude: -78.3842227
-    min_latitude: 0.125442
-    min_longitude: -79.230362
-    max_latitude: 0.8569121
-    max_longitude: -77.828034
-  name: Imbabura
-L:
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: Loja
+  code: 
   unofficial_names: Loja
+  geo:
+    latitude: -3.983333
+    longitude: -79.2
+    min_latitude: -4.0516043
+    min_longitude: -79.23554419999999
+    max_latitude: -3.9635861
+    max_longitude: -79.1812133
   translations:
     en: Loja
     ar: مقاطعة لوخا
@@ -548,16 +575,18 @@ L:
     ceb: Provincia de Loja
     zh: 洛哈省
     ccp: "\U00011123\U0001112E\U0001110E"
-  geo:
-    latitude: -3.983333
-    longitude: -79.2
-    min_latitude: -4.0516043
-    min_longitude: -79.23554419999999
-    max_latitude: -3.9635861
-    max_longitude: -79.1812133
-  name: Loja
-M:
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: Manabí
+  code: 
   unofficial_names: Manabí
+  geo:
+    latitude: -0.7416532
+    longitude: -79.9192702
+    min_latitude: -1.92619
+    min_longitude: -81.0774715
+    max_latitude: 0.394737
+    max_longitude: -79.3954009
   translations:
     en: Manabí
     ar: مقاطعة مانابي
@@ -605,16 +634,18 @@ M:
     ccp: "\U0001111F\U0001111A\U0001111D\U00011128"
     he: מחוז מנבי
     cs: Manabí
-  geo:
-    latitude: -0.7416532
-    longitude: -79.9192702
-    min_latitude: -1.92619
-    min_longitude: -81.0774715
-    max_latitude: 0.394737
-    max_longitude: -79.3954009
-  name: Manabí
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Napo
+  code: 
   unofficial_names: Napo
+  geo:
+    latitude: -0.7371233
+    longitude: -78.11082789999999
+    min_latitude: -1.273843
+    min_longitude: -78.410088
+    max_latitude: 0.036432
+    max_longitude: -77.049857
   translations:
     en: Napo
     ar: مقاطعة نابو
@@ -661,16 +692,18 @@ N:
     zh: 纳波省
     ccp: "\U0001111A\U0001111B\U0001112E"
     he: מחוז נפו
-  geo:
-    latitude: -0.7371233
-    longitude: -78.11082789999999
-    min_latitude: -1.273843
-    min_longitude: -78.410088
-    max_latitude: 0.036432
-    max_longitude: -77.049857
-  name: Napo
-O:
+  comments: 
+O: !ruby/struct:ISO3166::Subdivision
+  name: El Oro
+  code: 
   unofficial_names: El Oro
+  geo:
+    latitude: -3.4454787
+    longitude: -79.8296743
+    min_latitude: -3.90139
+    min_longitude: -80.30034599999999
+    max_latitude: -3.0484269
+    max_longitude: -79.358108
   translations:
     en: El Oro
     ar: مقاطعة إل أورو
@@ -716,16 +749,18 @@ O:
     zh: 埃爾奧羅省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U00011103\U00011127\U00011122\U0001112E"
     hy: Էլ Օրո
-  geo:
-    latitude: -3.4454787
-    longitude: -79.8296743
-    min_latitude: -3.90139
-    min_longitude: -80.30034599999999
-    max_latitude: -3.0484269
-    max_longitude: -79.358108
-  name: El Oro
-P:
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: Pichincha
+  code: 
   unofficial_names: Pichincha
+  geo:
+    latitude: -0.1464847
+    longitude: -78.4751945
+    min_latitude: -0.714463
+    min_longitude: -79.368635
+    max_latitude: 0.344864
+    max_longitude: -77.83552499999999
   translations:
     en: Pichincha
     ar: مقاطعة بيتشينتشا
@@ -772,16 +807,18 @@ P:
     fa: استان پیچینچا
     ccp: "\U0001111B\U00011128\U0001110C\U00011128\U0001111A\U00011134\U0001110C"
     hy: Պիչինչա
-  geo:
-    latitude: -0.1464847
-    longitude: -78.4751945
-    min_latitude: -0.714463
-    min_longitude: -79.368635
-    max_latitude: 0.344864
-    max_longitude: -77.83552499999999
-  name: Pichincha
-R:
+  comments: 
+R: !ruby/struct:ISO3166::Subdivision
+  name: Los Ríos
+  code: 
   unofficial_names: Los Ríos
+  geo:
+    latitude: -1.4191719
+    longitude: -79.4703885
+    min_latitude: -2.1302071
+    min_longitude: -79.8767999
+    max_latitude: -0.5303
+    max_longitude: -79.080353
   translations:
     en: Los Ríos
     ar: مقاطعة لوس ريوس
@@ -827,16 +864,18 @@ R:
     zh: 洛斯里奧斯省
     ccp: "\U00011123\U00011127\U0001110C\U00011134 \U00011122\U00011128\U00011120\U0001112E\U0001110C\U00011134"
     hy: Լոս Ռիո
-  geo:
-    latitude: -1.4191719
-    longitude: -79.4703885
-    min_latitude: -2.1302071
-    min_longitude: -79.8767999
-    max_latitude: -0.5303
-    max_longitude: -79.080353
-  name: Los Ríos
-S:
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Morona-Santiago
+  code: 
   unofficial_names: Morona-Santiago
+  geo:
+    latitude: -2.5628216
+    longitude: -78.11082789999999
+    min_latitude: -3.823733
+    min_longitude: -78.969154
+    max_latitude: -1.443362
+    max_longitude: -76.73908999999999
   translations:
     en: Morona-Santiago
     ar: مقاطعة مورونا سانتياغو
@@ -881,16 +920,18 @@ S:
     zh: 莫罗纳-圣地亚哥省
     ccp: "\U0001111F\U00011127\U00011122\U0001112E\U0001111A-\U00011125\U0001111A\U00011134\U00011111\U00011128\U00011120\U00011109\U0001112E"
     hy: Մորոնա Սանտյագո
-  geo:
-    latitude: -2.5628216
-    longitude: -78.11082789999999
-    min_latitude: -3.823733
-    min_longitude: -78.969154
-    max_latitude: -1.443362
-    max_longitude: -76.73908999999999
-  name: Morona-Santiago
-T:
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Tungurahua
+  code: 
   unofficial_names: Tungurahua
+  geo:
+    latitude: -1.2635284
+    longitude: -78.5660852
+    min_latitude: -1.507969
+    min_longitude: -78.93395199999999
+    max_latitude: -0.9803009999999999
+    max_longitude: -78.144211
   translations:
     en: Tungurahua
     ar: مقاطعة تونغوراهوا
@@ -935,16 +976,18 @@ T:
     zh: 通古拉瓦省
     ccp: "\U00011111\U0001112A\U0001110B\U00011134\U00011109\U0001112A\U00011122\U00011126\U0001112A\U00011120"
     hy: Տունգուրահուա
-  geo:
-    latitude: -1.2635284
-    longitude: -78.5660852
-    min_latitude: -1.507969
-    min_longitude: -78.93395199999999
-    max_latitude: -0.9803009999999999
-    max_longitude: -78.144211
-  name: Tungurahua
-U:
+  comments: 
+U: !ruby/struct:ISO3166::Subdivision
+  name: Sucumbíos
+  code: 
   unofficial_names: Sucumbíos
+  geo:
+    latitude: -0.1452276
+    longitude: -76.2710833
+    min_latitude: -0.648883
+    min_longitude: -77.9738229
+    max_latitude: 0.651662
+    max_longitude: -75.2348859
   translations:
     en: Sucumbíos
     ar: مقاطعة سوكومبيوس
@@ -989,16 +1032,18 @@ U:
     zh: 苏昆比奥斯省
     ccp: "\U00011125\U00011107\U0001112A\U0001111F\U00011134\U0001111D\U00011120\U0001112E\U0001110C\U00011134"
     he: מחוז סוקומביוס
-  geo:
-    latitude: -0.1452276
-    longitude: -76.2710833
-    min_latitude: -0.648883
-    min_longitude: -77.9738229
-    max_latitude: 0.651662
-    max_longitude: -75.2348859
-  name: Sucumbíos
-W:
+  comments: 
+W: !ruby/struct:ISO3166::Subdivision
+  name: Galápagos
+  code: 
   unofficial_names: Galápagos
+  geo:
+    latitude: -0.8292784
+    longitude: -90.9820668
+    min_latitude: -1.4115146
+    min_longitude: -92.0084893
+    max_latitude: 1.6815752
+    max_longitude: -89.24079549999999
   translations:
     en: Galápagos
     ar: مقاطعة غالاباغوس
@@ -1042,16 +1087,18 @@ W:
     ceb: Provincia de Galápagos
     zh: 加拉帕戈斯省
     ccp: "\U00011109\U00011133\U00011120\U00011123\U0001111B\U00011134\U0001111B\U00011109\U0001112E\U0001110C\U00011134"
-  geo:
-    latitude: -0.8292784
-    longitude: -90.9820668
-    min_latitude: -1.4115146
-    min_longitude: -92.0084893
-    max_latitude: 1.6815752
-    max_longitude: -89.24079549999999
-  name: Galápagos
-X:
+  comments: 
+X: !ruby/struct:ISO3166::Subdivision
+  name: Cotopaxi
+  code: 
   unofficial_names: Cotopaxi
+  geo:
+    latitude: -0.8139666999999999
+    longitude: -78.9288242
+    min_latitude: -1.2108109
+    min_longitude: -79.329689
+    max_latitude: -0.324243
+    max_longitude: -78.370667
   translations:
     en: Cotopaxi
     ar: مقاطعة كوتوباكسي
@@ -1097,16 +1144,18 @@ X:
     zh: 科托帕希省
     ccp: "\U00011107\U00011127\U00011111\U0001112E\U0001111B\U00011107\U00011134\U00011125\U00011128"
     hy: Կոտոպախի
-  geo:
-    latitude: -0.8139666999999999
-    longitude: -78.9288242
-    min_latitude: -1.2108109
-    min_longitude: -79.329689
-    max_latitude: -0.324243
-    max_longitude: -78.370667
-  name: Cotopaxi
-Y:
+  comments: 
+Y: !ruby/struct:ISO3166::Subdivision
+  name: Pastaza
+  code: 
   unofficial_names: Pastaza
+  geo:
+    latitude: -1.6332034
+    longitude: -77.010385
+    min_latitude: -2.6300901
+    min_longitude: -78.30367509999999
+    max_latitude: -1.083427
+    max_longitude: -75.576691
   translations:
     en: Pastaza
     ar: مقاطعة باستازا
@@ -1152,16 +1201,18 @@ Y:
     fa: استان پاستاسا
     ccp: "\U0001111B\U0001110C\U00011134\U00011111\U0001110E"
     hy: Պաստասա
-  geo:
-    latitude: -1.6332034
-    longitude: -77.010385
-    min_latitude: -2.6300901
-    min_longitude: -78.30367509999999
-    max_latitude: -1.083427
-    max_longitude: -75.576691
-  name: Pastaza
-Z:
+  comments: 
+Z: !ruby/struct:ISO3166::Subdivision
+  name: Zamora-Chinchipe
+  code: 
   unofficial_names: Zamora-Chinchipe
+  geo:
+    latitude: -4.1535434
+    longitude: -78.8382644
+    min_latitude: -4.998823
+    min_longitude: -79.427795
+    max_latitude: -3.3357891
+    max_longitude: -78.3993
   translations:
     en: Zamora-Chinchipe
     ar: مقاطعة زامورا تشينتشيبه
@@ -1205,16 +1256,18 @@ Z:
     ceb: Provincia de Zamora-Chinchipe
     zh: 萨莫拉-钦奇佩省
     ccp: "\U0001110E\U0001111F\U0001112E\U00011122-\U0001110C\U00011128\U0001111A\U00011134\U0001110C\U00011128\U0001111B\U0001112C"
-  geo:
-    latitude: -4.1535434
-    longitude: -78.8382644
-    min_latitude: -4.998823
-    min_longitude: -79.427795
-    max_latitude: -3.3357891
-    max_longitude: -78.3993
-  name: Zamora-Chinchipe
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Santo Domingo de los Tsachilas
+  code: 
   unofficial_names: Santo Domingo de los Tsachilas
+  geo:
+    latitude: -0.2205563
+    longitude: -79.29021329999999
+    min_latitude: -0.6861889999999999
+    min_longitude: -79.623871
+    max_latitude: 0.123351
+    max_longitude: -78.73494099999999
   translations:
     ar: سانتو دومينغو دا لوس تساتشيلاس
     be: Правінцыя Санта-Дамінга-дэ-лос-Тсачылас
@@ -1258,16 +1311,18 @@ SD:
     ccp: "\U00011125\U0001111A\U00011134\U00011111\U0001112E \U00011113\U0001112E\U0001111F\U00011128\U0001111A\U00011134\U00011109\U0001112E
       \U00011113\U0001112C \U00011123\U00011127\U0001110C\U00011134 \U00011125\U0001110C\U00011128\U00011123\U0001110C\U00011134"
     hy: Սանտա Դոմինգո դե լոս Տսաչիլաս
-  geo:
-    latitude: -0.2205563
-    longitude: -79.29021329999999
-    min_latitude: -0.6861889999999999
-    min_longitude: -79.623871
-    max_latitude: 0.123351
-    max_longitude: -78.73494099999999
-  name: Santo Domingo de los Tsachilas
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Santa Elena
+  code: 
   unofficial_names: Santa Elena
+  geo:
+    latitude: -2.1934804
+    longitude: -80.54384499999999
+    min_latitude: -2.508378
+    min_longitude: -81.0067736
+    max_latitude: -1.647962
+    max_longitude: -80.2266889
   translations:
     ar: مقاطعة سانتا إيلينا
     be: Правінцыя Санта-Элена
@@ -1311,11 +1366,4 @@ SE:
     zh: 聖埃倫娜省
     ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011103\U0001112C\U00011123\U0001112C\U0001111A"
     mk: Санта Елена
-  geo:
-    latitude: -2.1934804
-    longitude: -80.54384499999999
-    min_latitude: -2.508378
-    min_longitude: -81.0067736
-    max_latitude: -1.647962
-    max_longitude: -80.2266889
-  name: Santa Elena
+  comments: 

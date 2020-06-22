@@ -1,8 +1,17 @@
 ---
-AJ:
+AJ: !ruby/struct:ISO3166::Subdivision
+  name: Ajlun
+  code: 
   unofficial_names:
   - Ajloan
   - Ajlun
+  geo:
+    latitude: 32.2561926
+    longitude: 35.6969984
+    min_latitude: 32.158034
+    min_longitude: 35.606699
+    max_latitude: 32.40349
+    max_longitude: 35.904965
   translations:
     en: Ajloun
     ar: عجلون
@@ -48,17 +57,19 @@ AJ:
     ccp: "\U00011103\U0001110C\U00011134\U00011123\U00011105\U0001112A\U0001111A\U00011134"
     hy: Աջլունի մարզ
     uk: Муніципалітет Аджлун
-  geo:
-    latitude: 32.2561926
-    longitude: 35.6969984
-    min_latitude: 32.158034
-    min_longitude: 35.606699
-    max_latitude: 32.40349
-    max_longitude: 35.904965
-  name: Ajlun
-AM:
+  comments: 
+AM: !ruby/struct:ISO3166::Subdivision
+  name: Amman
+  code: 
   unofficial_names:
   - Amman
+  geo:
+    latitude: 31.9565783
+    longitude: 35.9456951
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Amman
     ar: محافظة العاصمة
@@ -104,20 +115,22 @@ AM:
     ccp: "\U00011103\U0001111F\U00011127\U0001111A\U00011134"
     uk: Мугафаза Амман
     be: Аман
-  geo:
-    latitude: 31.9565783
-    longitude: 35.9456951
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Amman
-AQ:
+  comments: 
+AQ: !ruby/struct:ISO3166::Subdivision
+  name: Aqaba
+  code: 
   unofficial_names:
   - Akaba
   - Aqaba
   - Aqqaba
   - al-Aqaba
+  geo:
+    latitude: 29.5319199
+    longitude: 35.0060842
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Aqaba
     ar: العقبة
@@ -161,19 +174,21 @@ AQ:
     zh: 亞喀巴省
     ccp: "\U00011103\U00011107\U0001112A\U0001111D"
     uk: Муніципалітет Акаба
-  geo:
-    latitude: 29.5319199
-    longitude: 35.0060842
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Aqaba
-AT:
+  comments: 
+AT: !ruby/struct:ISO3166::Subdivision
+  name: At Tafilah
+  code: 
   unofficial_names:
   - Tafiela
   - Tafileh
   - at-Tafilah
+  geo:
+    latitude: 30.83583299999999
+    longitude: 35.612222
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Tafilah
     ar: الطفيلة
@@ -217,19 +232,21 @@ AT:
     zh: 塔菲拉省
     ccp: "\U00011111\U0001111C\U00011128\U00011123\U00011126\U00011134"
     uk: Муніципалітет Тафіла
-  geo:
-    latitude: 30.83583299999999
-    longitude: 35.612222
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: At Tafilah
-AZ:
+  comments: 
+AZ: !ruby/struct:ISO3166::Subdivision
+  name: Az Zarqa'
+  code: 
   unofficial_names:
   - Zarka
   - Zarqa
   - Zerka
+  geo:
+    latitude: 31.7515118
+    longitude: 36.8680791
+    min_latitude: 31.49364899999999
+    min_longitude: 35.8889939
+    max_latitude: 32.196324
+    max_longitude: 37.780864
   translations:
     en: Zarqa
     ar: الزرقاء
@@ -273,16 +290,18 @@ AZ:
     zh: 扎爾卡省
     ccp: "\U0001110E\U00011122\U00011134\U00011107"
     uk: Муніципалітет Ез-Зарка
-  geo:
-    latitude: 31.7515118
-    longitude: 36.8680791
-    min_latitude: 31.49364899999999
-    min_longitude: 35.8889939
-    max_latitude: 32.196324
-    max_longitude: 37.780864
-  name: Az Zarqa'
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Al Balqa'
+  code: 
   unofficial_names: Al Balqa'
+  geo:
+    latitude: 31.9676039
+    longitude: 35.6095474
+    min_latitude: 31.6735621
+    min_longitude: 35.519307
+    max_latitude: 32.183978
+    max_longitude: 35.934166
   translations:
     en: Balqa
     ar: البلقاء
@@ -327,17 +346,19 @@ BA:
     sq: Governorati Balqa
     ccp: "\U0001111D\U00011127\U00011123\U00011134\U00011107"
     uk: Муніципалітет Ель-Балка
-  geo:
-    latitude: 31.9676039
-    longitude: 35.6095474
-    min_latitude: 31.6735621
-    min_longitude: 35.519307
-    max_latitude: 32.183978
-    max_longitude: 35.934166
-  name: Al Balqa'
-IR:
+  comments: 
+IR: !ruby/struct:ISO3166::Subdivision
+  name: Irbid
+  code: 
   unofficial_names:
   - Irbit
+  geo:
+    latitude: 32.5454418
+    longitude: 35.8571532
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Irbid
     ar: إربد
@@ -384,18 +405,20 @@ IR:
     sq: Governorati i Irbidit
     ccp: "\U00011103\U00011128\U00011122\U00011134\U0001111D\U00011128\U00011116\U00011134"
     uk: Муніципалітет Ірбід
+  comments: 
+JA: !ruby/struct:ISO3166::Subdivision
+  name: Jarash
+  code: 
+  unofficial_names:
+  - Jarash
+  - Jerash
   geo:
-    latitude: 32.5454418
-    longitude: 35.8571532
+    latitude: 32.2769016
+    longitude: 35.9055502
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Irbid
-JA:
-  unofficial_names:
-  - Jarash
-  - Jerash
   translations:
     en: Jerash
     ar: جرش
@@ -441,18 +464,20 @@ JA:
     sq: Governorati Jerash
     ccp: "\U0001110E\U0001112C\U00011122\U0001110C\U00011134"
     uk: Муніципалітет Джараш
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Al Karak
+  code: 
+  unofficial_names:
+  - Karak
+  - Kerak
   geo:
-    latitude: 32.2769016
-    longitude: 35.9055502
+    latitude: 31.1648059
+    longitude: 35.7618824
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Jarash
-KA:
-  unofficial_names:
-  - Karak
-  - Kerak
   translations:
     en: Karak
     ar: الكرك
@@ -497,17 +522,19 @@ KA:
     zh: 卡拉克省
     ccp: "\U00011107\U0001112C\U00011122\U00011127\U00011107\U00011134"
     uk: Муніципалітет Карак
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Al Mafraq
+  code: 
+  unofficial_names:
+  - Mafraq
   geo:
-    latitude: 31.1648059
-    longitude: 35.7618824
+    latitude: 32.3616821
+    longitude: 36.2193362
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Al Karak
-MA:
-  unofficial_names:
-  - Mafraq
   translations:
     en: Mafraq
     ar: المفرق
@@ -553,19 +580,21 @@ MA:
     ccp: "\U0001111F\U0001111C\U00011133\U00011122\U00011107\U00011134"
     hy: Ալ-Մաֆրակի մարզ
     uk: Муніципалітет Ель-Мафрак
-  geo:
-    latitude: 32.3616821
-    longitude: 36.2193362
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Al Mafraq
-MD:
+  comments: 
+MD: !ruby/struct:ISO3166::Subdivision
+  name: Madaba
+  code: 
   unofficial_names:
   - Madaba
   - Maʿdaba
   - Maʿdabâ
+  geo:
+    latitude: 31.71954
+    longitude: 35.794109
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Madaba
     ar: مادبا
@@ -610,18 +639,20 @@ MD:
     zh: 馬代巴省
     ccp: "\U0001111F\U00011113\U0001111D"
     uk: Муніципалітет Мадаба
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: Ma`an
+  code: 
+  unofficial_names:
+  - Maan
+  - Maʿan
   geo:
-    latitude: 31.71954
-    longitude: 35.794109
+    latitude: 30.1949577
+    longitude: 35.7342418
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Madaba
-MN:
-  unofficial_names:
-  - Maan
-  - Maʿan
   translations:
     en: Ma’an
     ar: معان
@@ -665,11 +696,4 @@ MN:
     bn: মা‘আন গভার্নোরেট
     ccp: "\U0001111F\U00011133\U00011103\U0001111A\U00011134"
     uk: Муніципалітет Маан
-  geo:
-    latitude: 30.1949577
-    longitude: 35.7342418
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Ma`an
+  comments: 

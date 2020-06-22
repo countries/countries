@@ -1,7 +1,16 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Adrar
+  code: 
   unofficial_names:
   - Adrar
+  geo:
+    latitude: 27.866667
+    longitude: -0.283333
+    min_latitude: 27.7680133
+    min_longitude: -0.3310157
+    max_latitude: 28.1852177
+    max_longitude: -0.0769043
   translations:
     en: Adrar
     ar: ولاية أدرار
@@ -55,15 +64,10 @@
     he: מחוז אדראר
     az: Adrar vilayəti
     bs: Adrar
-  geo:
-    latitude: 27.866667
-    longitude: -0.283333
-    min_latitude: 27.7680133
-    min_longitude: -0.3310157
-    max_latitude: 28.1852177
-    max_longitude: -0.0769043
-  name: Adrar
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Chlef
+  code: 
   unofficial_names:
   - Al Asnam
   - Al Asnām
@@ -73,6 +77,13 @@
   - Chlif
   - Ech Cheliff
   - El Asnam
+  geo:
+    latitude: 36.166667
+    longitude: 1.333333
+    min_latitude: 36.0892685
+    min_longitude: 1.2608528
+    max_latitude: 36.2490494
+    max_longitude: 1.4494228
   translations:
     en: Chlef
     ar: ولاية الشلف
@@ -123,17 +134,19 @@
     zh: 谢里夫省
     ccp: "\U00011107\U00011133\U00011123\U0001112C\U0001111B\U00011134"
     he: מחוז א-שלף
-  geo:
-    latitude: 36.166667
-    longitude: 1.333333
-    min_latitude: 36.0892685
-    min_longitude: 1.2608528
-    max_latitude: 36.2490494
-    max_longitude: 1.4494228
-  name: Chlef
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Laghouat
+  code: 
   unofficial_names:
   - Laghouat
+  geo:
+    latitude: 33.7972551
+    longitude: 2.8694065
+    min_latitude: 33.7396685
+    min_longitude: 2.8309535
+    max_latitude: 33.8350786
+    max_longitude: 2.947855
   translations:
     en: Laghouat
     ar: ولاية الأغواط
@@ -182,18 +195,20 @@
     sr_Latn: Laguat
     zh: 艾格瓦特省
     ccp: "\U00011123\U0001110A\U0001112F\U00011116\U00011134"
-  geo:
-    latitude: 33.7972551
-    longitude: 2.8694065
-    min_latitude: 33.7396685
-    min_longitude: 2.8309535
-    max_latitude: 33.8350786
-    max_longitude: 2.947855
-  name: Laghouat
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Oum el Bouaghi
+  code: 
   unofficial_names:
   - Canrobert
   - Oum el Bouaghi
+  geo:
+    latitude: 35.7881449
+    longitude: 7.179025999999999
+    min_latitude: 35.4122201
+    min_longitude: 6.1793371
+    max_latitude: 36.167782
+    max_longitude: 7.932361999999999
   translations:
     en: Oum El Bouaghi
     ar: ولاية أم البواقي
@@ -244,17 +259,19 @@
     ccp: "\U00011103\U00011127\U00011105\U0001111F\U00011134 \U00011103\U0001112C\U00011123\U00011134
       \U0001111D\U0001112F\U0001110A\U00011129"
     az: Umm-el-Buaqi vilayəti
-  geo:
-    latitude: 35.7881449
-    longitude: 7.179025999999999
-    min_latitude: 35.4122201
-    min_longitude: 6.1793371
-    max_latitude: 36.167782
-    max_longitude: 7.932361999999999
-  name: Oum el Bouaghi
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Batna
+  code: 
   unofficial_names:
   - Batna
+  geo:
+    latitude: 35.55
+    longitude: 6.166666999999999
+    min_latitude: 35.5123258
+    min_longitude: 6.0786152
+    max_latitude: 35.6445679
+    max_longitude: 6.2781502
   translations:
     en: Batna
     ar: ولاية باتنة
@@ -306,19 +323,21 @@
     sq: Batna
     ccp: "\U0001111D\U00011127\U0001111A\U00011134\U00011111"
     az: Batna vilayəti
-  geo:
-    latitude: 35.55
-    longitude: 6.166666999999999
-    min_latitude: 35.5123258
-    min_longitude: 6.0786152
-    max_latitude: 35.6445679
-    max_longitude: 6.2781502
-  name: Batna
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Béjaïa
+  code: 
   unofficial_names:
   - Bejaïa
   - Béjaïa
   - Bougie
+  geo:
+    latitude: 36.7508896
+    longitude: 5.056733299999999
+    min_latitude: 36.7055347
+    min_longitude: 4.9087
+    max_latitude: 36.833659
+    max_longitude: 5.1074721
   translations:
     en: Béjaïa
     ar: ولاية بجاية
@@ -369,19 +388,21 @@
     zh: 贝贾亚省
     ccp: "\U0001111D\U0001112C\U0001110E\U0001112D\U00011120"
     az: Becaya vilayəti
-  geo:
-    latitude: 36.7508896
-    longitude: 5.056733299999999
-    min_latitude: 36.7055347
-    min_longitude: 4.9087
-    max_latitude: 36.833659
-    max_longitude: 5.1074721
-  name: Béjaïa
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Biskra
+  code: 
   unofficial_names:
   - Beskra
   - Biskara
   - Biskra
+  geo:
+    latitude: 34.85
+    longitude: 5.733333
+    min_latitude: 34.7857523
+    min_longitude: 5.6545258
+    max_latitude: 34.9172558
+    max_longitude: 5.794816
   translations:
     en: Biskra
     ar: ولاية بسكرة
@@ -432,17 +453,19 @@
     zh: 比斯克拉省
     ccp: "\U0001111D\U00011128\U0001110C\U00011134\U00011107\U00011133\U00011122"
     az: Biskra vilayəti
-  geo:
-    latitude: 34.85
-    longitude: 5.733333
-    min_latitude: 34.7857523
-    min_longitude: 5.6545258
-    max_latitude: 34.9172558
-    max_longitude: 5.794816
-  name: Biskra
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Béchar
+  code: 
   unofficial_names:
   - Béchar
+  geo:
+    latitude: 31.6182492
+    longitude: -2.2143231
+    min_latitude: 31.1824797
+    min_longitude: -2.9278564
+    max_latitude: 32.166313
+    max_longitude: -1.352005
   translations:
     en: Béchar
     ar: ولاية بشار
@@ -494,18 +517,20 @@
     sq: Bechar
     ccp: "\U0001111D\U0001112C\U0001110C\U00011122\U00011134"
     az: Beşar vilayəti
-  geo:
-    latitude: 31.6182492
-    longitude: -2.2143231
-    min_latitude: 31.1824797
-    min_longitude: -2.9278564
-    max_latitude: 32.166313
-    max_longitude: -1.352005
-  name: Béchar
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Blida
+  code: 
   unofficial_names:
   - El Boulaida
   - Blida
+  geo:
+    latitude: 36.4798683
+    longitude: 2.8005677
+    min_latitude: 36.4433975
+    min_longitude: 2.7320336
+    max_latitude: 36.5172071
+    max_longitude: 2.8684831
   translations:
     en: Blida
     ar: ولاية البليدة
@@ -556,17 +581,19 @@
     zh: 卜利达省
     ccp: "\U0001111D\U00011133\U00011123\U00011128\U00011113"
     az: Blida vilayəti
-  geo:
-    latitude: 36.4798683
-    longitude: 2.8005677
-    min_latitude: 36.4433975
-    min_longitude: 2.7320336
-    max_latitude: 36.5172071
-    max_longitude: 2.8684831
-  name: Blida
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Bouira
+  code: 
   unofficial_names:
   - Bouira
+  geo:
+    latitude: 36.2835299
+    longitude: 3.9878427
+    min_latitude: 35.8270988
+    min_longitude: 3.375708
+    max_latitude: 36.5897481
+    max_longitude: 4.47439
   translations:
     en: Bouira
     ar: ولاية البويرة
@@ -616,19 +643,21 @@
     sr_Latn: Bujra
     zh: 布维拉省
     ccp: "\U0001111D\U0001112F\U00011103\U00011128\U00011122"
-  geo:
-    latitude: 36.2835299
-    longitude: 3.9878427
-    min_latitude: 35.8270988
-    min_longitude: 3.375708
-    max_latitude: 36.5897481
-    max_longitude: 4.47439
-  name: Bouira
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Tamanghasset
+  code: 
   unofficial_names:
   - Fort-Laperrine
   - Tamanghist
   - Tamanrasset
+  geo:
+    latitude: 22.785
+    longitude: 5.522778
+    min_latitude: 20.8985885
+    min_longitude: 4.6884155
+    max_latitude: 23.6506568
+    max_longitude: 6.662521399999999
   translations:
     en: Tamanghasset
     ar: ولاية تمنراست
@@ -679,18 +708,20 @@
     zh: 塔曼拉塞特省
     ccp: "\U00011111\U0001111F\U0001110B\U00011134\U0001110A\U00011125\U0001112C\U00011116\U00011134"
     ca: Província de Tamanghasset
-  geo:
-    latitude: 22.785
-    longitude: 5.522778
-    min_latitude: 20.8985885
-    min_longitude: 4.6884155
-    max_latitude: 23.6506568
-    max_longitude: 6.662521399999999
-  name: Tamanghasset
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Tébessa
+  code: 
   unofficial_names:
   - Tbessa
   - Tébessa
+  geo:
+    latitude: 35.4
+    longitude: 8.116667000000001
+    min_latitude: 35.3811426
+    min_longitude: 8.0502319
+    max_latitude: 35.4423093
+    max_longitude: 8.170857999999999
   translations:
     en: Tébessa
     ar: ولاية تبسة
@@ -739,18 +770,20 @@
     sr_Latn: Tebesa
     zh: 泰贝萨省
     ccp: "\U00011111\U0001112C\U0001111D\U0001112C\U00011125"
-  geo:
-    latitude: 35.4
-    longitude: 8.116667000000001
-    min_latitude: 35.3811426
-    min_longitude: 8.0502319
-    max_latitude: 35.4423093
-    max_longitude: 8.170857999999999
-  name: Tébessa
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Tlemcen
+  code: 
   unofficial_names:
   - Tilimsen
   - Tlemcen
+  geo:
+    latitude: 34.882776
+    longitude: -1.31667
+    min_latitude: 34.8574818
+    min_longitude: -1.3708879
+    max_latitude: 34.9344265
+    max_longitude: -1.2593079
   translations:
     en: Tlemcen
     ar: ولاية تلمسان
@@ -801,18 +834,20 @@
     zh: 特莱姆森省
     ccp: "\U00011111\U00011133\U00011123\U0001112C\U0001111F\U00011125\U0001112C\U0001111A\U00011134"
     az: Tlemsen vilayəti
-  geo:
-    latitude: 34.882776
-    longitude: -1.31667
-    min_latitude: 34.8574818
-    min_longitude: -1.3708879
-    max_latitude: 34.9344265
-    max_longitude: -1.2593079
-  name: Tlemcen
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Tiaret
+  code: 
   unofficial_names:
   - Tihert
   - Tiaret
+  geo:
+    latitude: 35.3673553
+    longitude: 1.3220322
+    min_latitude: 35.3086815
+    min_longitude: 1.2896061
+    max_latitude: 35.4112982
+    max_longitude: 1.4936257
   translations:
     en: Tiaret
     ar: ولاية تيارت
@@ -863,17 +898,19 @@
     zh: 提亚雷特省
     ccp: "\U00011111\U00011120\U00011122\U0001112C\U00011116\U00011134"
     az: Tiaret vilayəti
-  geo:
-    latitude: 35.3673553
-    longitude: 1.3220322
-    min_latitude: 35.3086815
-    min_longitude: 1.2896061
-    max_latitude: 35.4112982
-    max_longitude: 1.4936257
-  name: Tiaret
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Tizi Ouzou
+  code: 
   unofficial_names:
   - Tizi-Ouzou
+  geo:
+    latitude: 36.716667
+    longitude: 4.05
+    min_latitude: 36.6438373
+    min_longitude: 3.9758921
+    max_latitude: 36.7565764
+    max_longitude: 4.1750836
   translations:
     en: Tizi Ouzou
     ar: ولاية تيزي وزو
@@ -924,15 +961,10 @@
     zh: 提济乌祖省
     ccp: "\U00011111\U00011128\U0001110E\U00011128 \U00011103\U00011127\U00011105\U0001112B\U0001110E\U0001112F"
     az: Tizi-Uzu vilayəti
-  geo:
-    latitude: 36.716667
-    longitude: 4.05
-    min_latitude: 36.6438373
-    min_longitude: 3.9758921
-    max_latitude: 36.7565764
-    max_longitude: 4.1750836
-  name: Tizi Ouzou
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Alger
+  code: 
   unofficial_names:
   - Al-Jazair
   - Al-Jazaʿir
@@ -940,6 +972,13 @@
   - al-Jazāʿir
   - Algier
   - Alger
+  geo:
+    latitude: 36.752887
+    longitude: 3.042048
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Algiers
     ar: ولاية الجزائر
@@ -978,18 +1017,20 @@
     zh: 阿尔及尔省
     ccp: "\U00011103\U00011123\U00011134\U0001110E\U0001112D\U00011120\U00011122\U00011134\U00011125\U00011134"
     da: Algier
-  geo:
-    latitude: 36.752887
-    longitude: 3.042048
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Alger
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Djelfa
+  code: 
   unofficial_names:
   - El Djelfa
   - Djelfa
+  geo:
+    latitude: 34.666667
+    longitude: 3.25
+    min_latitude: 34.6235673
+    min_longitude: 3.201828
+    max_latitude: 34.7007481
+    max_longitude: 3.2964777
   translations:
     en: Djelfa
     ar: ولاية الجلفة
@@ -1039,20 +1080,22 @@
     sr_Latn: Dželfa
     zh: 杰勒法省
     ccp: "\U0001110E\U0001112C\U00011123\U00011134\U0001111C"
-  geo:
-    latitude: 34.666667
-    longitude: 3.25
-    min_latitude: 34.6235673
-    min_longitude: 3.201828
-    max_latitude: 34.7007481
-    max_longitude: 3.2964777
-  name: Djelfa
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Jijel
+  code: 
   unofficial_names:
   - Djidjel
   - Djidjelli
   - Jijel
   - Djidjeli
+  geo:
+    latitude: 36.81673869999999
+    longitude: 5.749093299999999
+    min_latitude: 36.7631604
+    min_longitude: 5.678882799999999
+    max_latitude: 36.8293218
+    max_longitude: 5.822110299999999
   translations:
     en: Jijel
     ar: ولاية جيجل
@@ -1101,19 +1144,21 @@
     sr_Latn: Džidžel
     zh: 吉杰勒省
     ccp: "\U0001110E\U00011128\U0001110E\U0001112C\U00011123\U00011134"
-  geo:
-    latitude: 36.81673869999999
-    longitude: 5.749093299999999
-    min_latitude: 36.7631604
-    min_longitude: 5.678882799999999
-    max_latitude: 36.8293218
-    max_longitude: 5.822110299999999
-  name: Jijel
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Sétif
+  code: 
   unofficial_names:
   - Setif
   - Stif
   - Sétif
+  geo:
+    latitude: 36.1969027
+    longitude: 5.4150871
+    min_latitude: 36.1337157
+    min_longitude: 5.333186500000001
+    max_latitude: 36.2473189
+    max_longitude: 5.507240299999999
   translations:
     en: Sétif
     ar: ولاية سطيف
@@ -1163,18 +1208,20 @@
     zh: 塞提夫省
     ccp: "\U00011125\U0001112C\U00011111\U00011128\U0001111B\U00011134"
     ca: Província de Sétif
-  geo:
-    latitude: 36.1969027
-    longitude: 5.4150871
-    min_latitude: 36.1337157
-    min_longitude: 5.333186500000001
-    max_latitude: 36.2473189
-    max_longitude: 5.507240299999999
-  name: Sétif
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Saïda
+  code: 
   unofficial_names:
   - Saida
   - Saïda
+  geo:
+    latitude: 34.8412014
+    longitude: 0.1484305
+    min_latitude: 34.8122529
+    min_longitude: 0.1194763
+    max_latitude: 34.8716372
+    max_longitude: 0.1772404
   translations:
     en: Saïda
     ar: ولاية سعيدة
@@ -1224,17 +1271,19 @@
     zh: 赛伊达省
     ccp: "\U00011125\U0001112D\U00011113"
     cs: Saida
-  geo:
-    latitude: 34.8412014
-    longitude: 0.1484305
-    min_latitude: 34.8122529
-    min_longitude: 0.1194763
-    max_latitude: 34.8716372
-    max_longitude: 0.1772404
-  name: Saïda
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Skikda
+  code: 
   unofficial_names:
   - Skikda
+  geo:
+    latitude: 36.866667
+    longitude: 6.899999999999999
+    min_latitude: 36.8385534
+    min_longitude: 6.8444823
+    max_latitude: 36.9170289
+    max_longitude: 7.026958599999999
   translations:
     en: Skikda
     ar: ولاية سكيكدة
@@ -1283,17 +1332,19 @@
     sr_Latn: Skikda
     zh: 斯基克达省
     ccp: "\U00011107\U00011128\U00011107\U00011134\U00011113"
-  geo:
-    latitude: 36.866667
-    longitude: 6.899999999999999
-    min_latitude: 36.8385534
-    min_longitude: 6.8444823
-    max_latitude: 36.9170289
-    max_longitude: 7.026958599999999
-  name: Skikda
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Sidi Bel Abbès
+  code: 
   unofficial_names:
   - Sidi bel Abbès
+  geo:
+    latitude: 35.2
+    longitude: -0.641389
+    min_latitude: 35.1609683
+    min_longitude: -0.6890702999999999
+    max_latitude: 35.2516998
+    max_longitude: -0.5712032
   translations:
     en: Sidi Bel Abbès
     ar: ولاية سيدي بلعباس
@@ -1342,19 +1393,21 @@
     zh: 西迪贝勒阿巴斯省
     ccp: "\U00011125\U00011128\U00011113\U00011128 \U0001111D\U0001112C\U00011123\U00011134
       \U00011103\U0001111D\U0001112C\U0001110C\U00011134"
-  geo:
-    latitude: 35.2
-    longitude: -0.641389
-    min_latitude: 35.1609683
-    min_longitude: -0.6890702999999999
-    max_latitude: 35.2516998
-    max_longitude: -0.5712032
-  name: Sidi Bel Abbès
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Annaba
+  code: 
   unofficial_names:
   - Bona
   - Bône
   - Annaba
+  geo:
+    latitude: 36.9
+    longitude: 7.766667
+    min_latitude: 36.8656479
+    min_longitude: 7.695407899999999
+    max_latitude: 36.9698538
+    max_longitude: 7.793147699999999
   translations:
     en: Annaba
     ar: ولاية عنابة
@@ -1404,17 +1457,19 @@
     zh: 安纳巴省
     ccp: "\U00011103\U0001111A\U0001111D"
     az: Annaba vilayəti
-  geo:
-    latitude: 36.9
-    longitude: 7.766667
-    min_latitude: 36.8656479
-    min_longitude: 7.695407899999999
-    max_latitude: 36.9698538
-    max_longitude: 7.793147699999999
-  name: Annaba
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Guelma
+  code: 
   unofficial_names:
   - Guelma
+  geo:
+    latitude: 36.45
+    longitude: 7.433332999999999
+    min_latitude: 36.4342657
+    min_longitude: 7.397575399999999
+    max_latitude: 36.4795519
+    max_longitude: 7.469287
   translations:
     en: Guelma
     ar: ولاية قالمة
@@ -1463,21 +1518,23 @@
     sr_Latn: Gelma
     zh: 盖勒马省
     ccp: "\U00011109\U0001112A\U00011120\U0001112C\U00011123\U00011134\U0001111F"
-  geo:
-    latitude: 36.45
-    longitude: 7.433332999999999
-    min_latitude: 36.4342657
-    min_longitude: 7.397575399999999
-    max_latitude: 36.4795519
-    max_longitude: 7.469287
-  name: Guelma
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Constantine
+  code: 
   unofficial_names:
   - Ksontina
   - Qacentina
   - Qoussantina
   - Qusanţīnah
   - Constantine
+  geo:
+    latitude: 36.35
+    longitude: 6.6
+    min_latitude: 36.2589189
+    min_longitude: 6.5284056
+    max_latitude: 36.44905290000001
+    max_longitude: 6.7665481
   translations:
     en: Constantine
     ar: ولاية قسنطينة
@@ -1526,19 +1583,21 @@
     sr_Latn: Konstantin
     zh: 君士坦丁省
     ccp: "\U00011107\U00011127\U0001111A\U00011134\U00011125\U00011134\U00011111\U0001111A\U00011134\U00011111\U0001112D\U0001111A\U00011134"
-  geo:
-    latitude: 36.35
-    longitude: 6.6
-    min_latitude: 36.2589189
-    min_longitude: 6.5284056
-    max_latitude: 36.44905290000001
-    max_longitude: 6.7665481
-  name: Constantine
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Médéa
+  code: 
   unofficial_names:
   - Lemdiyya
   - al-Midyah
   - Médéa
+  geo:
+    latitude: 36.266667
+    longitude: 2.75
+    min_latitude: 36.2312581
+    min_longitude: 2.7220345
+    max_latitude: 36.3364236
+    max_longitude: 2.823658
   translations:
     en: Médéa
     ar: ولاية المدية
@@ -1587,21 +1646,23 @@
     zh: 麦迪亚省
     ccp: "\U0001111F\U0001112C\U00011113\U0001112C\U00011120"
     ca: Província de Médéa
-  geo:
-    latitude: 36.266667
-    longitude: 2.75
-    min_latitude: 36.2312581
-    min_longitude: 2.7220345
-    max_latitude: 36.3364236
-    max_longitude: 2.823658
-  name: Médéa
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Mostaganem
+  code: 
   unofficial_names:
   - Mestghanem
   - Mustaghanam
   - Mustaghanim
   - Mustaġānam
   - Mostaganem
+  geo:
+    latitude: 35.933333
+    longitude: 0.08333299999999999
+    min_latitude: 35.9107075
+    min_longitude: 0.0536443
+    max_latitude: 36.0394952
+    max_longitude: 0.1765537
   translations:
     en: Mostaganem
     ar: ولاية مستغانم
@@ -1650,18 +1711,20 @@
     zh: 穆斯塔加奈姆省
     ccp: "\U0001111F\U00011127\U0001110C\U00011134\U00011111\U00011109\U0001111A\U0001112C\U0001111F\U00011134"
     ca: Província de Mostaganem
-  geo:
-    latitude: 35.933333
-    longitude: 0.08333299999999999
-    min_latitude: 35.9107075
-    min_longitude: 0.0536443
-    max_latitude: 36.0394952
-    max_longitude: 0.1765537
-  name: Mostaganem
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: Msila
+  code: 
   unofficial_names:
   - MʿSila
   - Msila
+  geo:
+    latitude: 35.701944
+    longitude: 4.547222
+    min_latitude: 35.5699353
+    min_longitude: 4.431953399999999
+    max_latitude: 35.8723598
+    max_longitude: 4.605503199999999
   translations:
     en: M’Sila
     ar: ولاية المسيلة
@@ -1708,18 +1771,20 @@
     bn: ম’সিলা প্রদেশ
     ccp: "\U0001111F\U00011133\U00011103\U00011125\U00011128\U00011123"
     ca: Província de M’Sila
-  geo:
-    latitude: 35.701944
-    longitude: 4.547222
-    min_latitude: 35.5699353
-    min_longitude: 4.431953399999999
-    max_latitude: 35.8723598
-    max_longitude: 4.605503199999999
-  name: Msila
-'29':
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: Mascara
+  code: 
   unofficial_names:
   - Mouaskar
   - Mascara
+  geo:
+    latitude: 35.3904125
+    longitude: 0.1494988
+    min_latitude: 34.984219
+    min_longitude: -0.4987059999999999
+    max_latitude: 35.7647711
+    max_longitude: 0.9324479999999999
   translations:
     en: Mascara
     ar: ولاية معسكر
@@ -1768,18 +1833,20 @@
     sr_Latn: Maskara
     zh: 穆阿斯凯尔省
     ccp: "\U0001111F\U0001110C\U00011134\U00011107\U00011122"
-  geo:
-    latitude: 35.3904125
-    longitude: 0.1494988
-    min_latitude: 34.984219
-    min_longitude: -0.4987059999999999
-    max_latitude: 35.7647711
-    max_longitude: 0.9324479999999999
-  name: Mascara
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Ouargla
+  code: 
   unofficial_names:
   - Wargla
   - Ouargla
+  geo:
+    latitude: 31.95
+    longitude: 5.316667
+    min_latitude: 31.874059
+    min_longitude: 4.463195799999999
+    max_latitude: 32.5074455
+    max_longitude: 5.4502058
   translations:
     en: Ouargla
     ar: ولاية ورقلة
@@ -1829,18 +1896,20 @@
     ccp: "\U00011103\U0001112F\U00011122\U00011134\U00011109\U00011133\U00011123"
     az: Uarqla vilayəti
     ca: Província d’Ouargla
-  geo:
-    latitude: 31.95
-    longitude: 5.316667
-    min_latitude: 31.874059
-    min_longitude: 4.463195799999999
-    max_latitude: 32.5074455
-    max_longitude: 5.4502058
-  name: Ouargla
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Oran
+  code: 
   unofficial_names:
   - Ouahran
   - Oran
+  geo:
+    latitude: 35.6976541
+    longitude: -0.6337376
+    min_latitude: 35.6451955
+    min_longitude: -0.7298182999999999
+    max_latitude: 35.769723
+    max_longitude: -0.5530071
   translations:
     en: Oran
     ar: ولاية وهران
@@ -1889,17 +1958,19 @@
     sr_Latn: Oran
     zh: 奥兰省
     ccp: "\U00011103\U00011127\U00011122\U0001111A\U00011134"
-  geo:
-    latitude: 35.6976541
-    longitude: -0.6337376
-    min_latitude: 35.6451955
-    min_longitude: -0.7298182999999999
-    max_latitude: 35.769723
-    max_longitude: -0.5530071
-  name: Oran
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: El Bayadh
+  code: 
   unofficial_names:
   - El Bayadh
+  geo:
+    latitude: 33.680278
+    longitude: 1.020278
+    min_latitude: 33.4892988
+    min_longitude: 0.8449173000000001
+    max_latitude: 33.7897053
+    max_longitude: 1.1710738
   translations:
     en: El Bayadh
     ar: ولاية البيض
@@ -1948,17 +2019,19 @@
     zh: 巴亚兹省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U0001111D\U00011120\U00011116\U00011134"
     ca: Província d’El Bayadh
-  geo:
-    latitude: 33.680278
-    longitude: 1.020278
-    min_latitude: 33.4892988
-    min_longitude: 0.8449173000000001
-    max_latitude: 33.7897053
-    max_longitude: 1.1710738
-  name: El Bayadh
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Illizi
+  code: 
   unofficial_names:
   - Illizi
+  geo:
+    latitude: 26.1690005
+    longitude: 8.4842465
+    min_latitude: 23.0151409
+    min_longitude: 5.8658301
+    max_latitude: 30.1144791
+    max_longitude: 11.979548
   translations:
     en: Illizi
     ar: ولاية إليزي
@@ -2008,17 +2081,19 @@
     sr_Latn: Ilizi
     zh: 伊利济省
     ccp: "\U00011103\U00011128\U00011123\U00011133\U00011123\U00011128\U0001110E\U00011128"
-  geo:
-    latitude: 26.1690005
-    longitude: 8.4842465
-    min_latitude: 23.0151409
-    min_longitude: 5.8658301
-    max_latitude: 30.1144791
-    max_longitude: 11.979548
-  name: Illizi
-'34':
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: Bordj Bou Arréridj
+  code: 
   unofficial_names:
   - Bordj Bou Arreridj
+  geo:
+    latitude: 36.0704188
+    longitude: 4.7564046
+    min_latitude: 36.0166846
+    min_longitude: 4.6901322
+    max_latitude: 36.1206129
+    max_longitude: 4.848232299999999
   translations:
     en: Bordj Bou Arréridj
     ar: ولاية برج بوعريريج
@@ -2069,17 +2144,19 @@
     ccp: "\U0001111D\U00011127\U00011122\U00011133\U00011113\U00011134\U0001110E\U00011134
       \U0001111D\U0001112F \U00011103\U00011122\U0001112C\U00011122\U00011128\U00011116\U00011134\U0001110E\U00011134"
     az: Borc-Bu-Arreric vilayəti
-  geo:
-    latitude: 36.0704188
-    longitude: 4.7564046
-    min_latitude: 36.0166846
-    min_longitude: 4.6901322
-    max_latitude: 36.1206129
-    max_longitude: 4.848232299999999
-  name: Bordj Bou Arréridj
-'35':
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: Boumerdès
+  code: 
   unofficial_names:
   - Boumerdès
+  geo:
+    latitude: 36.7675962
+    longitude: 3.7029002
+    min_latitude: 36.526798
+    min_longitude: 3.301881
+    max_latitude: 36.9245898
+    max_longitude: 4.1178311
   translations:
     en: Boumerdès
     ar: ولاية بومرداس
@@ -2128,19 +2205,21 @@
     zh: 布米尔达斯省
     ccp: "\U0001111D\U0001112F\U0001111F\U00011122\U00011134\U00011113\U0001112C\U0001110C\U00011134"
     ca: Província de Boumerdès
-  geo:
-    latitude: 36.7675962
-    longitude: 3.7029002
-    min_latitude: 36.526798
-    min_longitude: 3.301881
-    max_latitude: 36.9245898
-    max_longitude: 4.1178311
-  name: Boumerdès
-'36':
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: El Tarf
+  code: 
   unofficial_names:
   - El Taref
   - at-Tarf
   - El Tarf
+  geo:
+    latitude: 36.7558581
+    longitude: 8.2212979
+    min_latitude: 36.3699299
+    min_longitude: 7.730847
+    max_latitude: 36.9521553
+    max_longitude: 8.67615
   translations:
     en: El Tarf
     ar: ولاية الطارف
@@ -2190,17 +2269,19 @@
     sr_Latn: El Tarf
     zh: 塔里夫省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U00011111\U00011122\U00011134\U0001111B\U00011134"
-  geo:
-    latitude: 36.7558581
-    longitude: 8.2212979
-    min_latitude: 36.3699299
-    min_longitude: 7.730847
-    max_latitude: 36.9521553
-    max_longitude: 8.67615
-  name: El Tarf
-'37':
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: Tindouf
+  code: 
   unofficial_names:
   - Tindouf
+  geo:
+    latitude: 27.6761012
+    longitude: -8.1276526
+    min_latitude: 25.5684593
+    min_longitude: -8.6666626
+    max_latitude: 28.9236408
+    max_longitude: -3.9839172
   translations:
     en: Tindouf
     ar: ولاية تندوف
@@ -2251,18 +2332,20 @@
     zh: 廷杜夫省
     ccp: "\U00011111\U00011128\U0001111A\U00011134\U00011113\U0001112F\U0001111B\U00011134"
     az: Tinduf vilayəti
-  geo:
-    latitude: 27.6761012
-    longitude: -8.1276526
-    min_latitude: 25.5684593
-    min_longitude: -8.6666626
-    max_latitude: 28.9236408
-    max_longitude: -3.9839172
-  name: Tindouf
-'38':
+  comments: 
+'38': !ruby/struct:ISO3166::Subdivision
+  name: Tissemsilt
+  code: 
   unofficial_names:
   - Tissemselt
   - Tissemsilt
+  geo:
+    latitude: 35.607778
+    longitude: 1.811111
+    min_latitude: 35.5865321
+    min_longitude: 1.7660523
+    max_latitude: 35.6178491
+    max_longitude: 1.8383218
   translations:
     en: Tissemsilt
     ar: ولاية تيسمسيلت
@@ -2312,19 +2395,21 @@
     ccp: "\U00011111\U00011128\U00011125\U0001112C\U0001111F\U00011134\U00011125\U00011128\U00011123\U00011134\U00011111\U00011134"
     az: Tissemsilt vilayəti
     ca: Província de Tissemsilt
-  geo:
-    latitude: 35.607778
-    longitude: 1.811111
-    min_latitude: 35.5865321
-    min_longitude: 1.7660523
-    max_latitude: 35.6178491
-    max_longitude: 1.8383218
-  name: Tissemsilt
-'39':
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: El Oued
+  code: 
   unofficial_names:
   - El Ouâdi
   - El Wad
   - El Oued
+  geo:
+    latitude: 33.3713397
+    longitude: 6.8479682
+    min_latitude: 33.3297394
+    min_longitude: 6.820836099999999
+    max_latitude: 33.412323
+    max_longitude: 6.8943501
   translations:
     en: El Oued
     ar: ولاية الوادي
@@ -2373,18 +2458,20 @@
     sr_Latn: El Ujed
     zh: 瓦迪省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U00011103\U0001112E\U00011120\U0001112C\U00011116\U00011134"
-  geo:
-    latitude: 33.3713397
-    longitude: 6.8479682
-    min_latitude: 33.3297394
-    min_longitude: 6.820836099999999
-    max_latitude: 33.412323
-    max_longitude: 6.8943501
-  name: El Oued
-'40':
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: Khenchela
+  code: 
   unofficial_names:
   - Khenchla
   - Khenchela
+  geo:
+    latitude: 35.416667
+    longitude: 7.133332999999999
+    min_latitude: 35.3918488
+    min_longitude: 7.113818999999999
+    max_latitude: 35.4608097
+    max_longitude: 7.1690083
   translations:
     en: Khenchela
     ar: ولاية خنشلة
@@ -2434,18 +2521,20 @@
     zh: 汉舍莱省
     ccp: "\U00011108\U0001112C\U0001111A\U00011134\U00011125\U0001112C\U00011123"
     az: Xenşela vilayəti
-  geo:
-    latitude: 35.416667
-    longitude: 7.133332999999999
-    min_latitude: 35.3918488
-    min_longitude: 7.113818999999999
-    max_latitude: 35.4608097
-    max_longitude: 7.1690083
-  name: Khenchela
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Souk Ahras
+  code: 
   unofficial_names:
   - Souq Ahras
   - Souk Ahras
+  geo:
+    latitude: 36.286389
+    longitude: 7.951111000000001
+    min_latitude: 36.2441347
+    min_longitude: 7.916808100000001
+    max_latitude: 36.3115633
+    max_longitude: 8.0016517
   translations:
     en: Souk Ahras
     ar: ولاية سوق أهراس
@@ -2494,17 +2583,19 @@
     sr_Latn: Suk Ahras
     zh: 苏格艾赫拉斯省
     ccp: "\U00011125\U0001112F\U00011107\U00011134 \U00011103\U00011126\U00011133\U00011122\U0001110C\U00011134"
-  geo:
-    latitude: 36.286389
-    longitude: 7.951111000000001
-    min_latitude: 36.2441347
-    min_longitude: 7.916808100000001
-    max_latitude: 36.3115633
-    max_longitude: 8.0016517
-  name: Souk Ahras
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Tipaza
+  code: 
   unofficial_names:
   - Tipaza
+  geo:
+    latitude: 36.6178786
+    longitude: 2.3912362
+    min_latitude: 36.5477421
+    min_longitude: 2.3005308
+    max_latitude: 36.6454234
+    max_longitude: 2.5180149
   translations:
     en: Tipasa
     ar: ولاية تيبازة
@@ -2556,17 +2647,19 @@
     ccp: "\U00011111\U00011128\U0001111B\U00011125"
     hu: Tipáza
     az: Tipaza vilayəti
-  geo:
-    latitude: 36.6178786
-    longitude: 2.3912362
-    min_latitude: 36.5477421
-    min_longitude: 2.3005308
-    max_latitude: 36.6454234
-    max_longitude: 2.5180149
-  name: Tipaza
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Mila
+  code: 
   unofficial_names:
   - Mila
+  geo:
+    latitude: 36.450278
+    longitude: 6.264444
+    min_latitude: 36.4249427
+    min_longitude: 6.208820299999999
+    max_latitude: 36.4780338
+    max_longitude: 6.2886429
   translations:
     en: Mila
     ar: ولاية ميلة
@@ -2615,18 +2708,20 @@
     sr_Latn: Mila
     zh: 米拉省
     ccp: "\U0001111F\U00011128\U00011123"
-  geo:
-    latitude: 36.450278
-    longitude: 6.264444
-    min_latitude: 36.4249427
-    min_longitude: 6.208820299999999
-    max_latitude: 36.4780338
-    max_longitude: 6.2886429
-  name: Mila
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Aïn Defla
+  code: 
   unofficial_names:
   - Aïn Eddefla
   - Aïn Defla
+  geo:
+    latitude: 36.0729193
+    longitude: 1.9881527
+    min_latitude: 35.834492
+    min_longitude: 1.6114019
+    max_latitude: 36.422291
+    max_longitude: 2.7431009
   translations:
     en: Aïn Defla
     ar: ولاية عين الدفلى
@@ -2676,17 +2771,19 @@
     sq: Ain Defla
     ccp: "\U00011103\U0001112D\U0001111A\U00011134 \U00011113\U0001112C\U0001111B\U00011134\U00011123"
     az: Ayn-Defla vilayəti
-  geo:
-    latitude: 36.0729193
-    longitude: 1.9881527
-    min_latitude: 35.834492
-    min_longitude: 1.6114019
-    max_latitude: 36.422291
-    max_longitude: 2.7431009
-  name: Aïn Defla
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Naama
+  code: 
   unofficial_names:
   - Naama
+  geo:
+    latitude: 33.4350615
+    longitude: -0.9056623
+    min_latitude: 32.108521
+    min_longitude: -1.7384947
+    max_latitude: 34.2906
+    max_longitude: 0.134101
   translations:
     en: Naama
     ar: ولاية النعامة
@@ -2735,17 +2832,19 @@
     sr_Latn: Nama
     zh: 纳马省
     ccp: "\U0001111A\U0001111F"
-  geo:
-    latitude: 33.4350615
-    longitude: -0.9056623
-    min_latitude: 32.108521
-    min_longitude: -1.7384947
-    max_latitude: 34.2906
-    max_longitude: 0.134101
-  name: Naama
-'46':
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: Aïn Témouchent
+  code: 
   unofficial_names:
   - Aïn Temouchent
+  geo:
+    latitude: 35.3072501
+    longitude: -1.1424514
+    min_latitude: 35.279241
+    min_longitude: -1.1580491
+    max_latitude: 35.320658
+    max_longitude: -1.1136531
   translations:
     en: Aïn Témouchent
     ar: ولاية عين تموشنت
@@ -2795,17 +2894,19 @@
     zh: 艾因泰穆尚特省
     ccp: "\U00011103\U0001112D\U0001111A\U00011134 \U00011111\U0001112C\U0001111F\U0001112F\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134"
     az: Ayn-Temuşent vilayəti
-  geo:
-    latitude: 35.3072501
-    longitude: -1.1424514
-    min_latitude: 35.279241
-    min_longitude: -1.1580491
-    max_latitude: 35.320658
-    max_longitude: -1.1136531
-  name: Aïn Témouchent
-'47':
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: Ghardaïa
+  code: 
   unofficial_names:
   - Ghardaïa
+  geo:
+    latitude: 32.4902246
+    longitude: 3.6738412
+    min_latitude: 32.4574303
+    min_longitude: 3.5745049
+    max_latitude: 32.7046889
+    max_longitude: 3.916626
   translations:
     en: Ghardaïa
     ar: ولاية غرداية
@@ -2853,20 +2954,22 @@
     zh: 盖尔达耶省
     ccp: "\U0001110A\U00011122\U00011134\U00011113\U0001112D\U00011120"
     ca: Província de Ghardaïa
-  geo:
-    latitude: 32.4902246
-    longitude: 3.6738412
-    min_latitude: 32.4574303
-    min_longitude: 3.5745049
-    max_latitude: 32.7046889
-    max_longitude: 3.916626
-  name: Ghardaïa
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Relizane
+  code: 
   unofficial_names:
   - Ghilizane
   - Ighil Izane
   - Rélizane
   - Relizane
+  geo:
+    latitude: 35.733333
+    longitude: 0.5499999999999999
+    min_latitude: 35.6958176
+    min_longitude: 0.5295754
+    max_latitude: 35.7633683
+    max_longitude: 0.5892706000000001
   translations:
     en: Relizane
     ar: ولاية غليزان
@@ -2915,11 +3018,4 @@
     sr_Latn: Relizan
     zh: 埃利赞省
     ccp: "\U00011122\U0001112C\U00011123\U00011128\U0001110E\U0001111A\U0001112C"
-  geo:
-    latitude: 35.733333
-    longitude: 0.5499999999999999
-    min_latitude: 35.6958176
-    min_longitude: 0.5295754
-    max_latitude: 35.7633683
-    max_longitude: 0.5892706000000001
-  name: Relizane
+  comments: 

@@ -1,6 +1,15 @@
 ---
-ACT:
+ACT: !ruby/struct:ISO3166::Subdivision
+  name: Australian Capital Territory
+  code: 
   unofficial_names: Australian Capital Territory
+  geo:
+    latitude: -35.4734679
+    longitude: 149.0123679
+    min_latitude: -35.9205307
+    min_longitude: 148.7640971
+    max_latitude: -35.1245128
+    max_longitude: 149.3992848
   translations:
     en: Australian Capital Territory
     af: Australiese Hoofstadgebied
@@ -70,16 +79,18 @@ ACT:
     yue: 澳洲首都地區
     bs: Teritorija australijskog glavnog grada
     mk: Австралиска престолнинска територија
-  geo:
-    latitude: -35.4734679
-    longitude: 149.0123679
-    min_latitude: -35.9205307
-    min_longitude: 148.7640971
-    max_latitude: -35.1245128
-    max_longitude: 149.3992848
-  name: Australian Capital Territory
-NSW:
+  comments: 
+NSW: !ruby/struct:ISO3166::Subdivision
+  name: New South Wales
+  code: 
   unofficial_names: New South Wales
+  geo:
+    latitude: -33.864174
+    longitude: 151.2052868
+    min_latitude: -37.5052772
+    min_longitude: 140.9992123
+    max_latitude: -28.156192
+    max_longitude: 153.6535617
   translations:
     en: New South Wales
     af: Nieu-Suid-Wallis
@@ -156,16 +167,18 @@ NSW:
     uz: Yangi janubiy uels
     bs: Novi Južni Wales
     mk: Нов Јужен Велс
-  geo:
-    latitude: -33.864174
-    longitude: 151.2052868
-    min_latitude: -37.5052772
-    min_longitude: 140.9992123
-    max_latitude: -28.156192
-    max_longitude: 153.6535617
-  name: New South Wales
-NT:
+  comments: 
+NT: !ruby/struct:ISO3166::Subdivision
+  name: Northern Territory
+  code: 
   unofficial_names: Northern Territory
+  geo:
+    latitude: -19.4914108
+    longitude: 132.5509603
+    min_latitude: -26.0168698
+    min_longitude: 129.0004244
+    max_latitude: -10.9055196
+    max_longitude: 137.9990092
   translations:
     en: Northern Territory
     af: Noordelike Gebied
@@ -236,16 +249,18 @@ NT:
     my: မြောက်ဩစတြေးလျပြည်နယ်
     bs: Sjeverna teritorija
     mk: Северна Територија
-  geo:
-    latitude: -19.4914108
-    longitude: 132.5509603
-    min_latitude: -26.0168698
-    min_longitude: 129.0004244
-    max_latitude: -10.9055196
-    max_longitude: 137.9990092
-  name: Northern Territory
-QLD:
+  comments: 
+QLD: !ruby/struct:ISO3166::Subdivision
+  name: Queensland
+  code: 
   unofficial_names: Queensland
+  geo:
+    latitude: -20.9175738
+    longitude: 142.7027956
+    min_latitude: -29.1785876
+    min_longitude: 137.9945748
+    max_latitude: -9.92973
+    max_longitude: 153.5529199
   translations:
     en: Queensland
     af: Queensland
@@ -324,16 +339,18 @@ QLD:
     uz: Kvinslend
     bs: Queensland
     mk: Квинсленд
-  geo:
-    latitude: -20.9175738
-    longitude: 142.7027956
-    min_latitude: -29.1785876
-    min_longitude: 137.9945748
-    max_latitude: -9.92973
-    max_longitude: 153.5529199
-  name: Queensland
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: South Australia
+  code: 
   unofficial_names: South Australia
+  geo:
+    latitude: -30.0002315
+    longitude: 136.2091547
+    min_latitude: -38.06121
+    min_longitude: 129.0005162
+    max_latitude: -25.996392
+    max_longitude: 141.0028804
   translations:
     en: South Australia
     af: Suid-Australië
@@ -406,16 +423,18 @@ SA:
     am: ደቡብ አውስትራሊያ
     bs: Južna Australija
     mk: Јужна Австралија
-  geo:
-    latitude: -30.0002315
-    longitude: 136.2091547
-    min_latitude: -38.06121
-    min_longitude: 129.0005162
-    max_latitude: -25.996392
-    max_longitude: 141.0028804
-  name: South Australia
-TAS:
+  comments: 
+TAS: !ruby/struct:ISO3166::Subdivision
+  name: Tasmania
+  code: 
   unofficial_names: Tasmania
+  geo:
+    latitude: -41.3650419
+    longitude: 146.6284905
+    min_latitude: -43.8077261
+    min_longitude: 143.8182852
+    max_latitude: -39.4380355
+    max_longitude: 148.7283943
   translations:
     en: Tasmania
     af: Tasmanië
@@ -493,16 +512,18 @@ TAS:
     uz: Tasmaniya
     bs: Tasmanija
     mk: Тасманија
-  geo:
-    latitude: -41.3650419
-    longitude: 146.6284905
-    min_latitude: -43.8077261
-    min_longitude: 143.8182852
-    max_latitude: -39.4380355
-    max_longitude: 148.7283943
-  name: Tasmania
-VIC:
+  comments: 
+VIC: !ruby/struct:ISO3166::Subdivision
+  name: Victoria
+  code: 
   unofficial_names: Victoria
+  geo:
+    latitude: -37.4713077
+    longitude: 144.7851531
+    min_latitude: -39.2247306
+    min_longitude: 140.9624773
+    max_latitude: -33.9810507
+    max_longitude: 149.9764882
   translations:
     en: Victoria
     af: Victoria
@@ -574,16 +595,18 @@ VIC:
     my: ဝိတိုရိယ ပြည်နယ်
     bs: Victoria
     mk: Викторија
-  geo:
-    latitude: -37.4713077
-    longitude: 144.7851531
-    min_latitude: -39.2247306
-    min_longitude: 140.9624773
-    max_latitude: -33.9810507
-    max_longitude: 149.9764882
-  name: Victoria
-WA:
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Western Australia
+  code: 
   unofficial_names: Western Australia
+  geo:
+    latitude: -27.6728168
+    longitude: 121.6283098
+    min_latitude: -35.1939944
+    min_longitude: 112.92145
+    max_latitude: -13.6894901
+    max_longitude: 129.0025979
   translations:
     en: Western Australia
     af: Wes-Australië
@@ -655,11 +678,4 @@ WA:
     my: အနောက်ဩစတြေးလျပြည်နယ်
     bs: Zapadna Australija
     mk: Западна Австралија
-  geo:
-    latitude: -27.6728168
-    longitude: 121.6283098
-    min_latitude: -35.1939944
-    min_longitude: 112.92145
-    max_latitude: -13.6894901
-    max_longitude: 129.0025979
-  name: Western Australia
+  comments: 

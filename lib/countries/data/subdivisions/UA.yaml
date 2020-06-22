@@ -1,10 +1,19 @@
 ---
-'05':
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Vinnyts'ka Oblast'
+  code: 
   unofficial_names:
   - Vinnica
   - Vinnitsa
   - Vinnytska
   - Vinnytsya
+  geo:
+    latitude: 49.233083
+    longitude: 28.468217
+    min_latitude: 48.064971
+    min_longitude: 27.37479
+    max_latitude: 49.889537
+    max_longitude: 30.022071
   translations:
     en: Vinnychchyna
     af: Winnitsja-oblast
@@ -68,18 +77,20 @@
     uz: Vinnitsa viloyati
     bs: Vinička oblast
     mk: Виницка област
-  geo:
-    latitude: 49.233083
-    longitude: 28.468217
-    min_latitude: 48.064971
-    min_longitude: 27.37479
-    max_latitude: 49.889537
-    max_longitude: 30.022071
-  name: Vinnyts'ka Oblast'
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Volyns'ka Oblast'
+  code: 
   unofficial_names:
   - Volyn
   - Volynska
+  geo:
+    latitude: 50.74723299999999
+    longitude: 25.325383
+    min_latitude: 50.2871931
+    min_longitude: 23.603933
+    max_latitude: 51.969238
+    max_longitude: 26.1062831
   translations:
     en: Volyn
     af: Wolhinië-oblast
@@ -141,21 +152,23 @@
     uz: Volin viloyati
     bs: Volinjska oblast
     mk: Волинска област
-  geo:
-    latitude: 50.74723299999999
-    longitude: 25.325383
-    min_latitude: 50.2871931
-    min_longitude: 23.603933
-    max_latitude: 51.969238
-    max_longitude: 26.1062831
-  name: Volyns'ka Oblast'
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Luhans'ka Oblast'
+  code: 
   unofficial_names:
   - Lugansk
   - Luhanska
   - Luhansʿk
   - Voroshilovgrad
   - Vorošilovgrad
+  geo:
+    latitude: 48.574041
+    longitude: 39.307815
+    min_latitude: 47.825031
+    min_longitude: 37.83751609999999
+    max_latitude: 50.088428
+    max_longitude: 40.2275119
   translations:
     en: Luhanshchyna
     af: Loehansk-oblast
@@ -218,20 +231,22 @@
     ky: Луганск областы
     uz: Lugansk viloyati
     mk: Луганска област
-  geo:
-    latitude: 48.574041
-    longitude: 39.307815
-    min_latitude: 47.825031
-    min_longitude: 37.83751609999999
-    max_latitude: 50.088428
-    max_longitude: 40.2275119
-  name: Luhans'ka Oblast'
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Dnipropetrovs'ka Oblast'
+  code: 
   unofficial_names:
   - Dnepropetrovsk
   - Dnipropetrovsk
   - Dnipropetrovska
   - Dnjepropetrovsk
+  geo:
+    latitude: 48.464717
+    longitude: 35.046183
+    min_latitude: 47.481922
+    min_longitude: 32.959522
+    max_latitude: 49.193473
+    max_longitude: 36.9364431
   translations:
     en: Dnipropetrovshchyna
     af: Dnipropetrofsk-oblast
@@ -293,19 +308,21 @@
     uz: Dnepropetrovsk viloyati
     bs: Dnjipropetrovska oblast
     mk: Днепропетровска област
-  geo:
-    latitude: 48.464717
-    longitude: 35.046183
-    min_latitude: 47.481922
-    min_longitude: 32.959522
-    max_latitude: 49.193473
-    max_longitude: 36.9364431
-  name: Dnipropetrovs'ka Oblast'
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Donets'ka Oblast'
+  code: 
   unofficial_names:
   - Doneck
   - Donetska
   - Donetsʿka
+  geo:
+    latitude: 48.015883
+    longitude: 37.80285
+    min_latitude: 46.867733
+    min_longitude: 36.541492
+    max_latitude: 49.236797
+    max_longitude: 39.09210179999999
   translations:
     en: Donechchyna
     af: Donetsk-oblast
@@ -367,18 +384,20 @@
     yue: 頓涅茨克州
     uz: Donetsk viloyati
     mk: Донечка област
-  geo:
-    latitude: 48.015883
-    longitude: 37.80285
-    min_latitude: 46.867733
-    min_longitude: 36.541492
-    max_latitude: 49.236797
-    max_longitude: 39.09210179999999
-  name: Donets'ka Oblast'
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Zhytomyrs'ka Oblast'
+  code: 
   unofficial_names:
   - Zhitomir
   - Zhytomyrska
+  geo:
+    latitude: 50.25465
+    longitude: 28.658667
+    min_latitude: 49.58293099999999
+    min_longitude: 27.1897231
+    max_latitude: 51.6818959
+    max_longitude: 29.7354618
   translations:
     en: Zhytomyrshchyna
     af: Sjitomir-oblast
@@ -441,19 +460,21 @@
     uz: Jitomir viloyati
     bs: Žitomirska oblast
     mk: Житомирска област
-  geo:
-    latitude: 50.25465
-    longitude: 28.658667
-    min_latitude: 49.58293099999999
-    min_longitude: 27.1897231
-    max_latitude: 51.6818959
-    max_longitude: 29.7354618
-  name: Zhytomyrs'ka Oblast'
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Zakarpats'ka Oblast'
+  code: 
   unofficial_names:
   - Transcarpathia
   - Zakarpatska
   - Zakarpatsʿka Oblast
+  geo:
+    latitude: 48.6208
+    longitude: 22.287883
+    min_latitude: 47.896507
+    min_longitude: 22.135906
+    max_latitude: 49.09755699999999
+    max_longitude: 24.627378
   translations:
     en: Zakarpattia
     af: Transkarpatië-oblast
@@ -515,20 +536,22 @@
     uz: Zakarpatye viloyati
     bs: Zakarpatska oblast
     mk: Закарпатска област
-  geo:
-    latitude: 48.6208
-    longitude: 22.287883
-    min_latitude: 47.896507
-    min_longitude: 22.135906
-    max_latitude: 49.09755699999999
-    max_longitude: 24.627378
-  name: Zakarpats'ka Oblast'
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Zaporiz'ka Oblast'
+  code: 
   unofficial_names:
   - Zaporizhzhya
   - Zaporizka
   - Zaporozhye
   - Zaporožje
+  geo:
+    latitude: 47.8388
+    longitude: 35.139567
+    min_latitude: 46.2642371
+    min_longitude: 34.245512
+    max_latitude: 48.14402
+    max_longitude: 37.2450479
   translations:
     en: Zaporizhzhya
     af: Saporisja-oblast
@@ -591,19 +614,21 @@
     uz: Zaporijya viloyati
     bs: Zaporiška oblast
     mk: Запорошка област
-  geo:
-    latitude: 47.8388
-    longitude: 35.139567
-    min_latitude: 46.2642371
-    min_longitude: 34.245512
-    max_latitude: 48.14402
-    max_longitude: 37.2450479
-  name: Zaporiz'ka Oblast'
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Ivano-Frankivs'ka Oblast'
+  code: 
   unofficial_names:
   - Ivano-Frankivsk
   - Ivano-Frankivska
   - Ivano-Frankovsk
+  geo:
+    latitude: 48.922633
+    longitude: 24.711117
+    min_latitude: 47.724266
+    min_longitude: 23.545547
+    max_latitude: 49.559585
+    max_longitude: 25.6529901
   translations:
     en: Prykarpattia
     af: Iwano-Frankifsk-oblast
@@ -663,19 +688,21 @@
     uz: Ivano-frankivsk viloyati
     bs: Ivano-Frankivska oblast
     mk: Ивано-Франковска област
-  geo:
-    latitude: 48.922633
-    longitude: 24.711117
-    min_latitude: 47.724266
-    min_longitude: 23.545547
-    max_latitude: 49.559585
-    max_longitude: 25.6529901
-  name: Ivano-Frankivs'ka Oblast'
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Kyïv
+  code: 
   unofficial_names:
   - Kyiv
   - Kyyiv
   - Kiev
+  geo:
+    latitude: 50.4501
+    longitude: 30.5234
+    min_latitude: 50.213273
+    min_longitude: 30.2394401
+    max_latitude: 50.590798
+    max_longitude: 30.825941
   translations:
     en: Kiev
     af: Kiëf
@@ -756,18 +783,20 @@
     uz: Kiyev
     bs: Kijev
     mk: Киев
-  geo:
-    latitude: 50.4501
-    longitude: 30.5234
-    min_latitude: 50.213273
-    min_longitude: 30.2394401
-    max_latitude: 50.590798
-    max_longitude: 30.825941
-  name: Kyïv
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Kyïvs'ka Oblast'
+  code: 
   unofficial_names:
   - Kyyivsʿka Oblast
   - Kyyivsʿka Oblastʿ
+  geo:
+    latitude: 50.0529506
+    longitude: 30.7667133
+    min_latitude: 49.1791191
+    min_longitude: 29.2664181
+    max_latitude: 51.554014
+    max_longitude: 32.160736
   translations:
     en: Kyivshchyna
     af: Kiëf-oblast
@@ -828,19 +857,21 @@
     uz: Kiyev viloyati
     bs: Kijevska oblast
     mk: Киевска област
-  geo:
-    latitude: 50.0529506
-    longitude: 30.7667133
-    min_latitude: 49.1791191
-    min_longitude: 29.2664181
-    max_latitude: 51.554014
-    max_longitude: 32.160736
-  name: Kyïvs'ka Oblast'
-'35':
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: Kirovohrads'ka Oblast'
+  code: 
   unofficial_names:
   - Kirovograd
   - Kirovohrad
   - Kirovohradska
+  geo:
+    latitude: 48.50793300000001
+    longitude: 32.262317
+    min_latitude: 47.749134
+    min_longitude: 29.749174
+    max_latitude: 49.1651489
+    max_longitude: 33.8891529
   translations:
     en: Kirovohradschyna
     af: Kirowohrad-oblast
@@ -901,18 +932,20 @@
     uz: Kirovograd viloyati
     bs: Kirovogradska oblast
     mk: Кировоградска област
-  geo:
-    latitude: 48.50793300000001
-    longitude: 32.262317
-    min_latitude: 47.749134
-    min_longitude: 29.749174
-    max_latitude: 49.1651489
-    max_longitude: 33.8891529
-  name: Kirovohrads'ka Oblast'
-'40':
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: Sevastopol'
+  code: 
   unofficial_names:
   - Sebastopol
   - Sevastopol
+  geo:
+    latitude: 44.61665
+    longitude: 33.525367
+    min_latitude: 44.387115
+    min_longitude: 33.3785472
+    max_latitude: 44.841316
+    max_longitude: 33.897497
   translations:
     en: Sevastopol
     af: Sewastopol
@@ -984,18 +1017,20 @@
     uz: Sevastopol
     bs: Sevastopolj
     mk: Севастопол
-  geo:
-    latitude: 44.61665
-    longitude: 33.525367
-    min_latitude: 44.387115
-    min_longitude: 33.3785472
-    max_latitude: 44.841316
-    max_longitude: 33.897497
-  name: Sevastopol'
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Respublika Krym
+  code: 
   unofficial_names:
   - Crimea
   - Krim
+  geo:
+    latitude: 44.952117
+    longitude: 34.102417
+    min_latitude: 44.3864399
+    min_longitude: 32.4792759
+    max_latitude: 46.2291611
+    max_longitude: 36.6467392
   translations:
     en: Crimea
     af: Outonome Republiek van Krim
@@ -1063,19 +1098,21 @@
     bs: Autonomna Republika Krim
     mk: Автономна Република Крим
     tk: Awtonom Respublikasy Krym
-  geo:
-    latitude: 44.952117
-    longitude: 34.102417
-    min_latitude: 44.3864399
-    min_longitude: 32.4792759
-    max_latitude: 46.2291611
-    max_longitude: 36.6467392
-  name: Respublika Krym
-'46':
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: L'vivs'ka Oblast'
+  code: 
   unofficial_names:
   - Lvivska
   - Lvov
   - Lʿviv
+  geo:
+    latitude: 49.839683
+    longitude: 24.029717
+    min_latitude: 48.7189779
+    min_longitude: 22.6406759
+    max_latitude: 50.6488831
+    max_longitude: 25.426912
   translations:
     en: Lvivshchyna
     af: Lwif-oblast
@@ -1136,20 +1173,22 @@
     uz: Lviv viloyati
     bs: Lavovska oblast
     mk: Лавовска област
-  geo:
-    latitude: 49.839683
-    longitude: 24.029717
-    min_latitude: 48.7189779
-    min_longitude: 22.6406759
-    max_latitude: 50.6488831
-    max_longitude: 25.426912
-  name: L'vivs'ka Oblast'
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Mykolaïvs'ka Oblast'
+  code: 
   unofficial_names:
   - Mykolayivsk
   - Mykolayivska
   - Nikolajev
   - Nikolayev
+  geo:
+    latitude: 46.975033
+    longitude: 31.994583
+    min_latitude: 46.36890890000001
+    min_longitude: 30.2075529
+    max_latitude: 48.2316741
+    max_longitude: 33.183647
   translations:
     en: Mykolayivschyna
     af: Mikolajif-oblast
@@ -1211,19 +1250,21 @@
     uz: Mikolayiv viloyati
     bs: Mikolajivska oblast
     mk: Николаевска област
-  geo:
-    latitude: 46.975033
-    longitude: 31.994583
-    min_latitude: 46.36890890000001
-    min_longitude: 30.2075529
-    max_latitude: 48.2316741
-    max_longitude: 33.183647
-  name: Mykolaïvs'ka Oblast'
-'51':
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: Odes'ka Oblast'
+  code: 
   unofficial_names:
   - Odesa
   - Odeska
   - Odessa
+  geo:
+    latitude: 46.484583
+    longitude: 30.7326
+    min_latitude: 45.204082
+    min_longitude: 28.211238
+    max_latitude: 48.233306
+    max_longitude: 31.305305
   translations:
     en: Odeshchyna
     af: Odessa-oblast
@@ -1286,18 +1327,20 @@
     uz: Odessa viloyati
     bs: Odeska oblast
     mk: Одеска област
-  geo:
-    latitude: 46.484583
-    longitude: 30.7326
-    min_latitude: 45.204082
-    min_longitude: 28.211238
-    max_latitude: 48.233306
-    max_longitude: 31.305305
-  name: Odes'ka Oblast'
-'53':
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: Poltavs'ka Oblast'
+  code: 
   unofficial_names:
   - Poltava
   - Poltavska
+  geo:
+    latitude: 49.58826699999999
+    longitude: 34.551417
+    min_latitude: 48.742984
+    min_longitude: 32.08674999999999
+    max_latitude: 50.5535039
+    max_longitude: 35.4904511
   translations:
     en: Poltavshchyna
     af: Poltawa-oblast
@@ -1360,20 +1403,22 @@
     uz: Poltava viloyati
     bs: Poltavska oblast
     mk: Полтавска област
-  geo:
-    latitude: 49.58826699999999
-    longitude: 34.551417
-    min_latitude: 48.742984
-    min_longitude: 32.08674999999999
-    max_latitude: 50.5535039
-    max_longitude: 35.4904511
-  name: Poltavs'ka Oblast'
-'56':
+  comments: 
+'56': !ruby/struct:ISO3166::Subdivision
+  name: Rivnens'ka Oblast'
+  code: 
   unofficial_names:
   - Rivne
   - Rivnenska
   - Rovno
   - Równe
+  geo:
+    latitude: 50.6199
+    longitude: 26.251617
+    min_latitude: 50.0043561
+    min_longitude: 25.0837821
+    max_latitude: 51.9498591
+    max_longitude: 27.729513
   translations:
     en: Rivnenshchyna
     af: Riwne-oblast
@@ -1434,18 +1479,20 @@
     uz: Rovno viloyati
     bs: Rivanjska oblast
     mk: Ровненска област
-  geo:
-    latitude: 50.6199
-    longitude: 26.251617
-    min_latitude: 50.0043561
-    min_longitude: 25.0837821
-    max_latitude: 51.9498591
-    max_longitude: 27.729513
-  name: Rivnens'ka Oblast'
-'59':
+  comments: 
+'59': !ruby/struct:ISO3166::Subdivision
+  name: Sums'ka Oblast'
+  code: 
   unofficial_names:
   - Sumska
   - Sumy
+  geo:
+    latitude: 50.9077
+    longitude: 34.7981
+    min_latitude: 50.109886
+    min_longitude: 32.943534
+    max_latitude: 52.367214
+    max_longitude: 35.6927141
   translations:
     en: Sumshchyna
     af: Soemi-oblast
@@ -1508,19 +1555,21 @@
     uz: Sumi viloyati
     bs: Sumska oblast
     mk: Сумска област
-  geo:
-    latitude: 50.9077
-    longitude: 34.7981
-    min_latitude: 50.109886
-    min_longitude: 32.943534
-    max_latitude: 52.367214
-    max_longitude: 35.6927141
-  name: Sums'ka Oblast'
-'61':
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: Ternopil's'ka Oblast'
+  code: 
   unofficial_names:
   - Ternopil
   - Ternopilska
   - Ternopol
+  geo:
+    latitude: 49.553517
+    longitude: 25.594767
+    min_latitude: 48.507534
+    min_longitude: 24.718486
+    max_latitude: 50.267215
+    max_longitude: 26.4434051
   translations:
     en: Ternopilshchyna
     af: Ternopil-oblast
@@ -1582,20 +1631,22 @@
     uz: Ternopol viloyati
     bs: Ternopiljska oblast
     mk: Тернополска област
-  geo:
-    latitude: 49.553517
-    longitude: 25.594767
-    min_latitude: 48.507534
-    min_longitude: 24.718486
-    max_latitude: 50.267215
-    max_longitude: 26.4434051
-  name: Ternopil's'ka Oblast'
-'63':
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: Kharkivs'ka Oblast'
+  code: 
   unofficial_names:
   - Harkov
   - Kharkiv
   - Kharkivska
   - Kharkov
+  geo:
+    latitude: 49.9935
+    longitude: 36.230383
+    min_latitude: 48.531375
+    min_longitude: 34.8563339
+    max_latitude: 50.459388
+    max_longitude: 38.09530609999999
   translations:
     en: Kharkivshchyna
     af: Charkif-oblast
@@ -1656,19 +1707,21 @@
     uz: Xarkiv viloyati
     bs: Harkivska oblast
     mk: Харковска област
-  geo:
-    latitude: 49.9935
-    longitude: 36.230383
-    min_latitude: 48.531375
-    min_longitude: 34.8563339
-    max_latitude: 50.459388
-    max_longitude: 38.09530609999999
-  name: Kharkivs'ka Oblast'
-'65':
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: Khersons'ka Oblast'
+  code: 
   unofficial_names:
   - Herson
   - Kherson
   - Khersonska
+  geo:
+    latitude: 46.635417
+    longitude: 32.616867
+    min_latitude: 45.7607072
+    min_longitude: 31.5124959
+    max_latitude: 47.600048
+    max_longitude: 35.281549
   translations:
     en: Khersonshchyna
     af: Cherson-oblast
@@ -1731,20 +1784,22 @@
     uz: Xerson viloyati
     bs: Hersonska oblast
     mk: Херсонска област
-  geo:
-    latitude: 46.635417
-    longitude: 32.616867
-    min_latitude: 45.7607072
-    min_longitude: 31.5124959
-    max_latitude: 47.600048
-    max_longitude: 35.281549
-  name: Khersons'ka Oblast'
-'68':
+  comments: 
+'68': !ruby/struct:ISO3166::Subdivision
+  name: Khmel'nyts'ka Oblast'
+  code: 
   unofficial_names:
   - Hmelnickij
   - Khmelnitsky
   - Khmelnytska
   - Khmelnytskyy
+  geo:
+    latitude: 49.422983
+    longitude: 26.987133
+    min_latitude: 48.4516599
+    min_longitude: 26.1329989
+    max_latitude: 50.594764
+    max_longitude: 27.8984479
   translations:
     en: Khmelnychchyna
     af: Chmelnitski-oblast
@@ -1806,18 +1861,20 @@
     uz: Xmelnitskiy viloyati
     bs: Hmeljnička oblast
     mk: Хмелницка област
-  geo:
-    latitude: 49.422983
-    longitude: 26.987133
-    min_latitude: 48.4516599
-    min_longitude: 26.1329989
-    max_latitude: 50.594764
-    max_longitude: 27.8984479
-  name: Khmel'nyts'ka Oblast'
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Cherkas'ka Oblast'
+  code: 
   unofficial_names:
   - Cherkask
   - Cherkassy
+  geo:
+    latitude: 49.444433
+    longitude: 32.059767
+    min_latitude: 48.4519151
+    min_longitude: 29.6063949
+    max_latitude: 50.228656
+    max_longitude: 32.8737981
   translations:
     en: Cherkashchyna
     af: Tsjerkasi-oblast
@@ -1882,19 +1939,21 @@
     uz: Cherkasi viloyati
     bs: Čerkaška oblast
     mk: Черкаска област
-  geo:
-    latitude: 49.444433
-    longitude: 32.059767
-    min_latitude: 48.4519151
-    min_longitude: 29.6063949
-    max_latitude: 50.228656
-    max_longitude: 32.8737981
-  name: Cherkas'ka Oblast'
-'74':
+  comments: 
+'74': !ruby/struct:ISO3166::Subdivision
+  name: Chernihivs'ka Oblast'
+  code: 
   unofficial_names:
   - Chernigov
   - Chernihiv
   - Černigov
+  geo:
+    latitude: 51.4982
+    longitude: 31.28935
+    min_latitude: 50.345535
+    min_longitude: 30.49716799999999
+    max_latitude: 52.379379
+    max_longitude: 33.5009611
   translations:
     en: Chernihivshchyna
     af: Tsjernihif-oblast
@@ -1955,15 +2014,10 @@
     uz: Chernigiv viloyati
     bs: Černigivska oblast
     mk: Черниговска област
-  geo:
-    latitude: 51.4982
-    longitude: 31.28935
-    min_latitude: 50.345535
-    min_longitude: 30.49716799999999
-    max_latitude: 52.379379
-    max_longitude: 33.5009611
-  name: Chernihivs'ka Oblast'
-'77':
+  comments: 
+'77': !ruby/struct:ISO3166::Subdivision
+  name: Chernivets'ka Oblast'
+  code: 
   unofficial_names:
   - Cernăuţi
   - Chernivtsi
@@ -1972,6 +2026,13 @@
   - Czernowitz
   - Tschernowitz
   - Černovcy
+  geo:
+    latitude: 48.291683
+    longitude: 25.935217
+    min_latitude: 47.72516599999999
+    min_longitude: 24.908172
+    max_latitude: 48.6759141
+    max_longitude: 27.533325
   translations:
     en: Chernivtsi Oblast
     af: Tsjerniftsi-oblast
@@ -2034,11 +2095,4 @@
     uz: Chernivsi viloyati
     bs: Černivačka oblast
     mk: Черновечка област
-  geo:
-    latitude: 48.291683
-    longitude: 25.935217
-    min_latitude: 47.72516599999999
-    min_longitude: 24.908172
-    max_latitude: 48.6759141
-    max_longitude: 27.533325
-  name: Chernivets'ka Oblast'
+  comments: 

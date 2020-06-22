@@ -1,7 +1,16 @@
 ---
-AN:
+AN: !ruby/struct:ISO3166::Subdivision
+  name: Al Anbar
+  code: 
   unofficial_names:
   - al-Anbar
+  geo:
+    latitude: 32.5597614
+    longitude: 41.9196471
+    min_latitude: 30.5896601
+    min_longitude: 38.7958871
+    max_latitude: 35.1012211
+    max_longitude: 44.307257
   translations:
     en: Al Anbar
     ar: محافظة الأنبار
@@ -54,19 +63,21 @@ AN:
     lt: Al Ambar gubernija
     ccp: "\U00011103\U00011123\U00011134 \U00011103\U0001111A\U00011134\U0001111D\U00011122\U00011134"
     ca: Governació d’Al-Anbar
-  geo:
-    latitude: 32.5597614
-    longitude: 41.9196471
-    min_latitude: 30.5896601
-    min_longitude: 38.7958871
-    max_latitude: 35.1012211
-    max_longitude: 44.307257
-  name: Al Anbar
-AR:
+  comments: 
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Arbil
+  code: 
   unofficial_names:
   - Arbil
   - Erbil
   - Irbil
+  geo:
+    latitude: 36.191111
+    longitude: 44.009167
+    min_latitude: 36.1284471
+    min_longitude: 43.91613
+    max_latitude: 36.2661445
+    max_longitude: 44.101181
   translations:
     en: Erbil
     ar: أربيل
@@ -120,19 +131,21 @@ AR:
     zh: 埃爾比勒省
     ccp: "\U00011103\U00011128\U00011122\U00011134\U0001111D\U00011128\U00011123\U00011134"
     mk: Ербил
-  geo:
-    latitude: 36.191111
-    longitude: 44.009167
-    min_latitude: 36.1284471
-    min_longitude: 43.91613
-    max_latitude: 36.2661445
-    max_longitude: 44.101181
-  name: Arbil
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Al Basrah
+  code: 
   unofficial_names:
   - Basra
   - Bassora
   - al-Basrah
+  geo:
+    latitude: 30.5
+    longitude: 47.816667
+    min_latitude: 30.4303216
+    min_longitude: 47.6141454
+    max_latitude: 30.6321515
+    max_longitude: 47.9299164
   translations:
     en: Basra
     ar: محافظة البصرة
@@ -185,18 +198,20 @@ BA:
     ccp: "\U0001111D\U0001110C\U00011134\U00011122"
     eu: Basorako probintzia
     mk: Басра
-  geo:
-    latitude: 30.5
-    longitude: 47.816667
-    min_latitude: 30.4303216
-    min_longitude: 47.6141454
-    max_latitude: 30.6321515
-    max_longitude: 47.9299164
-  name: Al Basrah
-BB:
+  comments: 
+BB: !ruby/struct:ISO3166::Subdivision
+  name: Babil
+  code: 
   unofficial_names:
   - Babil
   - Babylon
+  geo:
+    latitude: 32.468191
+    longitude: 44.5501935
+    min_latitude: 32.0787799
+    min_longitude: 43.849441
+    max_latitude: 33.233322
+    max_longitude: 45.214476
   translations:
     en: Babylon
     ar: محافظة بابل
@@ -247,19 +262,21 @@ BB:
     zh: 巴比倫省
     ccp: "\U0001111D\U0001112C\U0001111D\U00011128\U00011123\U00011127\U0001111A\U00011134"
     be: Бабіль
-  geo:
-    latitude: 32.468191
-    longitude: 44.5501935
-    min_latitude: 32.0787799
-    min_longitude: 43.849441
-    max_latitude: 33.233322
-    max_longitude: 45.214476
-  name: Babil
-BG:
+  comments: 
+BG: !ruby/struct:ISO3166::Subdivision
+  name: Baghdad
+  code: 
   unofficial_names:
   - Baġdād
   - Bagdad
   - Bagdad
+  geo:
+    latitude: 33.325
+    longitude: 44.422
+    min_latitude: 33.1883135
+    min_longitude: 44.1559839
+    max_latitude: 33.4350586
+    max_longitude: 44.5558261
   translations:
     en: Baghdad
     ar: محافظة بغداد
@@ -301,17 +318,19 @@ BG:
     ccp: "\U0001111D\U00011107\U00011134\U00011118\U00011116\U00011134"
     pa: ਬਗ਼ਦਾਦ ਪ੍ਰਾਂਤ
     ca: Governació de Bagdad
-  geo:
-    latitude: 33.325
-    longitude: 44.422
-    min_latitude: 33.1883135
-    min_longitude: 44.1559839
-    max_latitude: 33.4350586
-    max_longitude: 44.5558261
-  name: Baghdad
-DA:
+  comments: 
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Dahuk
+  code: 
   unofficial_names:
   - Dahuk
+  geo:
+    latitude: 37.133389
+    longitude: 43.1309888
+    min_latitude: 36.696166
+    min_longitude: 42.3622129
+    max_latitude: 37.3780401
+    max_longitude: 44.110214
   translations:
     en: Dohuk
     ar: دهوك
@@ -365,17 +384,19 @@ DA:
     ccp: "\U00011118\U0001112E\U00011126\U0001112A\U00011107\U00011134"
     eu: Dohukeko probintzia
     kk: Дахук
-  geo:
-    latitude: 37.133389
-    longitude: 43.1309888
-    min_latitude: 36.696166
-    min_longitude: 42.3622129
-    max_latitude: 37.3780401
-    max_longitude: 44.110214
-  name: Dahuk
-DI:
+  comments: 
+DI: !ruby/struct:ISO3166::Subdivision
+  name: Diyalá
+  code: 
   unofficial_names:
   - Diyala
+  geo:
+    latitude: 33.7733487
+    longitude: 45.1494505
+    min_latitude: 33.006982
+    min_longitude: 44.292854
+    max_latitude: 35.1153911
+    max_longitude: 46.01852
   translations:
     en: Diyala
     ar: محافظة ديالى
@@ -425,18 +446,20 @@ DI:
     zh: 迪亞拉省
     ccp: "\U00011118\U00011128\U00011120\U00011123"
     ca: Governació de Diyala
-  geo:
-    latitude: 33.7733487
-    longitude: 45.1494505
-    min_latitude: 33.006982
-    min_longitude: 44.292854
-    max_latitude: 35.1153911
-    max_longitude: 46.01852
-  name: Diyalá
-DQ:
+  comments: 
+DQ: !ruby/struct:ISO3166::Subdivision
+  name: Dhi Qar
+  code: 
   unofficial_names:
   - Dhi Qar
   - Thi Qar
+  geo:
+    latitude: 31.1042292
+    longitude: 46.3624686
+    min_latitude: 30.564833
+    min_longitude: 45.643673
+    max_latitude: 31.9975451
+    max_longitude: 47.1987489
   translations:
     en: Dhi Qar
     ar: ذي قار
@@ -485,19 +508,21 @@ DQ:
     ccp: "\U00011119\U00011128 \U00011107\U0001112E\U00011120\U00011122\U00011134"
     sr: Ди Кар
     eu: Dhi Qarreko probintzia
-  geo:
-    latitude: 31.1042292
-    longitude: 46.3624686
-    min_latitude: 30.564833
-    min_longitude: 45.643673
-    max_latitude: 31.9975451
-    max_longitude: 47.1987489
-  name: Dhi Qar
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Karbala'
+  code: 
   unofficial_names:
   - Karbala
   - Kerbala
   - Kerbela
+  geo:
+    latitude: 32.616667
+    longitude: 44.033333
+    min_latitude: 32.5575024
+    min_longitude: 43.9558696
+    max_latitude: 32.6572976
+    max_longitude: 44.0673636
   translations:
     en: Karbala
     ar: كربلاء
@@ -544,16 +569,18 @@ KA:
     zh: 卡爾巴拉省
     ccp: "\U00011107\U00011122\U00011134\U0001111D\U00011123"
     eu: Karbalako probintzia
-  geo:
-    latitude: 32.616667
-    longitude: 44.033333
-    min_latitude: 32.5575024
-    min_longitude: 43.9558696
-    max_latitude: 32.6572976
-    max_longitude: 44.0673636
-  name: Karbala'
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Maysan
+  code: 
   unofficial_names: Maysan
+  geo:
+    latitude: 31.8734002
+    longitude: 47.1362125
+    min_latitude: 31.142853
+    min_longitude: 46.30178309999999
+    max_latitude: 32.84025200000001
+    max_longitude: 47.8643842
   translations:
     en: Maysan
     ar: ميسان
@@ -603,17 +630,19 @@ MA:
     zh: 米桑省
     ccp: "\U0001111F\U0001112C\U00011125\U0001111A\U00011134"
     eu: Maysango probintzia
-  geo:
-    latitude: 31.8734002
-    longitude: 47.1362125
-    min_latitude: 31.142853
-    min_longitude: 46.30178309999999
-    max_latitude: 32.84025200000001
-    max_longitude: 47.8643842
-  name: Maysan
-MU:
+  comments: 
+MU: !ruby/struct:ISO3166::Subdivision
+  name: Al Muthanná
+  code: 
   unofficial_names:
   - al-Muthanna
+  geo:
+    latitude: 29.9133171
+    longitude: 45.29938620000001
+    min_latitude: 29.078844
+    min_longitude: 43.807403
+    max_latitude: 31.699816
+    max_longitude: 46.648625
   translations:
     en: Al Muthanna
     ar: محافظة المثنى
@@ -662,19 +691,21 @@ MU:
     zh: 穆薩納省
     ccp: "\U00011103\U00011122\U00011134 \U0001111F\U0001112A\U00011117\U0001111A\U00011134"
     eu: Al-Muthanna probintzia
-  geo:
-    latitude: 29.9133171
-    longitude: 45.29938620000001
-    min_latitude: 29.078844
-    min_longitude: 43.807403
-    max_latitude: 31.699816
-    max_longitude: 46.648625
-  name: Al Muthanná
-NA:
+  comments: 
+NA: !ruby/struct:ISO3166::Subdivision
+  name: An Najaf
+  code: 
   unofficial_names:
   - Najaf
   - Nedjef
   - Nejef
+  geo:
+    latitude: 32
+    longitude: 44.33
+    min_latitude: 31.9676002
+    min_longitude: 44.2736149
+    max_latitude: 32.0761164
+    max_longitude: 44.3853665
   translations:
     en: Najaf
     ar: النجف
@@ -726,18 +757,20 @@ NA:
     sr: Наџаф
     eu: Najafeko probintzia
     ca: Governació de Najaf
-  geo:
-    latitude: 32
-    longitude: 44.33
-    min_latitude: 31.9676002
-    min_longitude: 44.2736149
-    max_latitude: 32.0761164
-    max_longitude: 44.3853665
-  name: An Najaf
-NI:
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: Ninawá
+  code: 
   unofficial_names:
   - Nineveh
   - Niniveh
+  geo:
+    latitude: 36.229574
+    longitude: 42.2362435
+    min_latitude: 34.8811661
+    min_longitude: 41.218105
+    max_latitude: 37.06718100000001
+    max_longitude: 44.309753
   translations:
     en: Nineveh
     ar: نينوى
@@ -790,17 +823,19 @@ NI:
     hy: Նինվեի մարզ
     be: Найнава
     mk: Нинива
-  geo:
-    latitude: 36.229574
-    longitude: 42.2362435
-    min_latitude: 34.8811661
-    min_longitude: 41.218105
-    max_latitude: 37.06718100000001
-    max_longitude: 44.309753
-  name: Ninawá
-QA:
+  comments: 
+QA: !ruby/struct:ISO3166::Subdivision
+  name: Al Qadisiyah
+  code: 
   unofficial_names:
   - al-Qadisiyah
+  geo:
+    latitude: 32.043691
+    longitude: 45.1494505
+    min_latitude: 31.25445389999999
+    min_longitude: 44.376614
+    max_latitude: 32.420094
+    max_longitude: 45.82649199999999
   translations:
     en: Al-Qādisiyyah
     ar: محافظة القادسية
@@ -848,17 +883,19 @@ QA:
     ccp: "\U00011103\U00011123\U00011134-\U00011107\U0001112E\U00011120\U00011113\U00011128\U00011125\U00011128\U00011120\U00011126\U00011134"
     eu: Al-Qadisiya probintzia
     ca: Governació d’Al-Qadisiyyah
-  geo:
-    latitude: 32.043691
-    longitude: 45.1494505
-    min_latitude: 31.25445389999999
-    min_longitude: 44.376614
-    max_latitude: 32.420094
-    max_longitude: 45.82649199999999
-  name: Al Qadisiyah
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Salah ad Din
+  code: 
   unofficial_names:
   - Salah-ad-Din
+  geo:
+    latitude: 34.5337527
+    longitude: 43.483738
+    min_latitude: 33.414859
+    min_longitude: 42.450488
+    max_latitude: 35.675014
+    max_longitude: 44.955274
   translations:
     en: Saladin
     ar: صلاح الدين
@@ -913,19 +950,21 @@ SD:
     zh: 萨拉赫丁省
     ccp: "\U00011125\U00011123\U00011113\U00011128\U0001111A\U00011134"
     be: правінцыя Салах-эд-Дзін
-  geo:
-    latitude: 34.5337527
-    longitude: 43.483738
-    min_latitude: 33.414859
-    min_longitude: 42.450488
-    max_latitude: 35.675014
-    max_longitude: 44.955274
-  name: Salah ad Din
-SU:
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: As Sulaymaniyah
+  code: 
   unofficial_names:
   - Sulaymaniya
   - Sulaymānīyah
   - as-Sulaymaniyah
+  geo:
+    latitude: 35.55
+    longitude: 45.433333
+    min_latitude: 35.5232852
+    min_longitude: 45.278778
+    max_latitude: 35.6029511
+    max_longitude: 45.476532
   translations:
     en: Sulaymaniyah
     ar: السليمانية
@@ -977,19 +1016,12 @@ SU:
     lt: Suleimanijos gubernija
     zh: 蘇萊曼尼亞省
     ccp: "\U00011125\U0001112A\U00011123\U0001112D\U0001111F\U0001111A\U00011128\U00011120\U00011126\U00011134"
-  geo:
-    latitude: 35.55
-    longitude: 45.433333
-    min_latitude: 35.5232852
-    min_longitude: 45.278778
-    max_latitude: 35.6029511
-    max_longitude: 45.476532
-  name: As Sulaymaniyah
-TS:
+  comments: 
+TS: !ruby/struct:ISO3166::Subdivision
+  name: At Ta'mim
+  code: 
   unofficial_names:
   - at-Tamim
-  translations:
-    en: At Ta'mim
   geo:
     latitude: 35.3292014
     longitude: 43.9436788
@@ -997,10 +1029,21 @@ TS:
     min_longitude: 43.264615
     max_latitude: 35.906433
     max_longitude: 44.790187
-  name: At Ta'mim
-WA:
+  translations:
+    en: At Ta'mim
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Wasit
+  code: 
   unofficial_names:
   - Wasit
+  geo:
+    latitude: 32.6024094
+    longitude: 45.7520985
+    min_latitude: 31.9118621
+    min_longitude: 44.5098
+    max_latitude: 33.47649
+    max_longitude: 46.606579
   translations:
     en: Wasit
     ar: واسط
@@ -1052,16 +1095,18 @@ WA:
     zh: 瓦西特省
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U00011125\U00011128\U00011116\U00011134"
     ca: Governació de Wasit
-  geo:
-    latitude: 32.6024094
-    longitude: 45.7520985
-    min_latitude: 31.9118621
-    min_longitude: 44.5098
-    max_latitude: 33.47649
-    max_longitude: 46.606579
-  name: Wasit
-KI:
+  comments: 
+KI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: كركوك
     az: Kərkük
@@ -1108,10 +1153,4 @@ KI:
     lt: Kirkuko gubernija
     zh: 基爾庫克省
     ccp: "\U00011107\U00011128\U00011122\U00011134\U00011107\U0001112A\U00011107\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

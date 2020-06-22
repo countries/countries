@@ -1,6 +1,15 @@
 ---
-AG:
+AG: !ruby/struct:ISO3166::Subdivision
+  name: Aragacotn
+  code: 
   unofficial_names: Aragacotn
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Aragatsotn
     ar: محافظة آراغاتسوتن
@@ -62,16 +71,18 @@ AG:
     yue: 阿拉加措特恩省
     bs: Aragacotn
     mk: Арагацотн
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Aragacotn
-AR:
+  comments: 
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Ararat
+  code: 
   unofficial_names: Ararat
+  geo:
+    latitude: 39.9753273
+    longitude: 44.8338058
+    min_latitude: 39.713722
+    min_longitude: 44.3149281
+    max_latitude: 40.189931
+    max_longitude: 45.11704899999999
   translations:
     en: Ararat
     ar: محافظة أرارات
@@ -129,16 +140,18 @@ AR:
     eu: Ararat
     bs: Ararat (pokrajina)
     mk: Арарат
-  geo:
-    latitude: 39.9753273
-    longitude: 44.8338058
-    min_latitude: 39.713722
-    min_longitude: 44.3149281
-    max_latitude: 40.189931
-    max_longitude: 45.11704899999999
-  name: Ararat
-AV:
+  comments: 
+AV: !ruby/struct:ISO3166::Subdivision
+  name: Armavir
+  code: 
   unofficial_names: Armavir
+  geo:
+    latitude: 40.1315615
+    longitude: 43.8325355
+    min_latitude: 40.01846700000001
+    min_longitude: 43.6464811
+    max_latitude: 40.283289
+    max_longitude: 44.4403099
   translations:
     en: Armavir
     ar: محافظة آرماوير
@@ -197,16 +210,18 @@ AV:
     cs: Kategorie:Armavir (provincie)
     bs: Armavir (pokrajina)
     mk: Армавир
-  geo:
-    latitude: 40.1315615
-    longitude: 43.8325355
-    min_latitude: 40.01846700000001
-    min_longitude: 43.6464811
-    max_latitude: 40.283289
-    max_longitude: 44.4403099
-  name: Armavir
-ER:
+  comments: 
+ER: !ruby/struct:ISO3166::Subdivision
+  name: Erevan
+  code: 
   unofficial_names: Erevan
+  geo:
+    latitude: 40.183333
+    longitude: 44.516667
+    min_latitude: 40.0641141
+    min_longitude: 44.3620849
+    max_latitude: 40.2426667
+    max_longitude: 44.6150493
   translations:
     en: Yerevan
     af: Jerewan
@@ -285,17 +300,19 @@ ER:
     uz: Yerevan
     bs: Erevan
     mk: Ереван
-  geo:
-    latitude: 40.183333
-    longitude: 44.516667
-    min_latitude: 40.0641141
-    min_longitude: 44.3620849
-    max_latitude: 40.2426667
-    max_longitude: 44.6150493
-  name: Erevan
-GR:
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Gegark'unik'
+  code: 
   unofficial_names:
   - Gegharkunick
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gegharkunik
     ar: محافظة غغاركونيك
@@ -354,17 +371,19 @@ GR:
     ca: Província de Gegharkunik
     bs: Geharkunik
     mk: Гехаркуник
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Gegark'unik'
-KT:
+  comments: 
+KT: !ruby/struct:ISO3166::Subdivision
+  name: Kotayk'
+  code: 
   unofficial_names:
   - Kotaik
+  geo:
+    latitude: 40.4277896
+    longitude: 44.6641741
+    min_latitude: 40.0972899
+    min_longitude: 44.398311
+    max_latitude: 40.71982999999999
+    max_longitude: 45.043105
   translations:
     en: Kotayk
     ar: محافظة كوتايك
@@ -423,17 +442,19 @@ KT:
     ca: Regió de Kotayk
     bs: Kotajk
     mk: Котајк
-  geo:
-    latitude: 40.4277896
-    longitude: 44.6641741
-    min_latitude: 40.0972899
-    min_longitude: 44.398311
-    max_latitude: 40.71982999999999
-    max_longitude: 45.043105
-  name: Kotayk'
-LO:
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: Lory
+  code: 
   unofficial_names:
   - Lorri
+  geo:
+    latitude: 40.969845
+    longitude: 44.490014
+    min_latitude: 40.668043
+    min_longitude: 44.016761
+    max_latitude: 41.299259
+    max_longitude: 44.960212
   translations:
     en: Lori
     ar: محافظة لوري
@@ -492,16 +513,18 @@ LO:
     cs: Lorri
     bs: Lori
     mk: Лори
-  geo:
-    latitude: 40.969845
-    longitude: 44.490014
-    min_latitude: 40.668043
-    min_longitude: 44.016761
-    max_latitude: 41.299259
-    max_longitude: 44.960212
-  name: Lory
-SH:
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: Širak
+  code: 
   unofficial_names: Širak
+  geo:
+    latitude: 40.9630814
+    longitude: 43.8102461
+    min_latitude: 40.439465
+    min_longitude: 43.4497797
+    max_latitude: 41.1808931
+    max_longitude: 44.2037191
   translations:
     en: Shirak
     ar: محافظة شيراك
@@ -560,16 +583,18 @@ SH:
     pa: ਸ਼ਿਰਾਕ
     bs: Širak
     mk: Ширак
-  geo:
-    latitude: 40.9630814
-    longitude: 43.8102461
-    min_latitude: 40.439465
-    min_longitude: 43.4497797
-    max_latitude: 41.1808931
-    max_longitude: 44.2037191
-  name: Širak
-SU:
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: Syunik'
+  code: 
   unofficial_names: Syunik'
+  geo:
+    latitude: 39.3194392
+    longitude: 46.14609189999999
+    min_latitude: 38.830521
+    min_longitude: 45.70893909999999
+    max_latitude: 39.854328
+    max_longitude: 46.630035
   translations:
     en: Syunik
     ar: محافظة سيونيك
@@ -629,17 +654,19 @@ SU:
     eu: Siunik
     bs: Sjunik
     mk: Сјуник
-  geo:
-    latitude: 39.3194392
-    longitude: 46.14609189999999
-    min_latitude: 38.830521
-    min_longitude: 45.70893909999999
-    max_latitude: 39.854328
-    max_longitude: 46.630035
-  name: Syunik'
-TV:
+  comments: 
+TV: !ruby/struct:ISO3166::Subdivision
+  name: Tavuš
+  code: 
   unofficial_names:
   - Tavoush
+  geo:
+    latitude: 40.8866296
+    longitude: 45.339349
+    min_latitude: 40.648954
+    min_longitude: 44.766082
+    max_latitude: 41.3018379
+    max_longitude: 45.5956799
   translations:
     en: Tavush
     ar: محافظة تاووش
@@ -698,16 +725,18 @@ TV:
     pa: ਤਵੂਸ਼
     bs: Tavuš
     mk: Тавуш
-  geo:
-    latitude: 40.8866296
-    longitude: 45.339349
-    min_latitude: 40.648954
-    min_longitude: 44.766082
-    max_latitude: 41.3018379
-    max_longitude: 45.5956799
-  name: Tavuš
-VD:
+  comments: 
+VD: !ruby/struct:ISO3166::Subdivision
+  name: Vayoc Jor
+  code: 
   unofficial_names: Vayoc Jor
+  geo:
+    latitude: 39.8107912
+    longitude: 45.4967174
+    min_latitude: 39.502243
+    min_longitude: 45.066502
+    max_latitude: 40.01380899999999
+    max_longitude: 45.825905
   translations:
     en: Vayots Dzor
     ar: محافظة وايوتس‌جور
@@ -768,11 +797,4 @@ VD:
     pa: ਵਾਇਓਤ ਜੋਰ ਸੂਬਾ
     bs: Vajots Dzor
     mk: Вајоц Ѕор
-  geo:
-    latitude: 39.8107912
-    longitude: 45.4967174
-    min_latitude: 39.502243
-    min_longitude: 45.066502
-    max_latitude: 40.01380899999999
-    max_longitude: 45.825905
-  name: Vayoc Jor
+  comments: 

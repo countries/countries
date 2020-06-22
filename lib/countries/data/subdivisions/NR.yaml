@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Aiwo
+  code: 
   unofficial_names: Aiwo
+  geo:
+    latitude: -0.5340012
+    longitude: 166.9138873
+    min_latitude: -0.5406168000000001
+    min_longitude: 166.9095518
+    max_latitude: -0.5264073
+    max_longitude: 166.918411
   translations:
     en: Aiwo
     ar: ضاحية إيو
@@ -49,16 +58,18 @@
     ccp: "\U00011103\U0001112D\U00011120\U0001112E"
     kk: Айво
     mk: Аиво
-  geo:
-    latitude: -0.5340012
-    longitude: 166.9138873
-    min_latitude: -0.5406168000000001
-    min_longitude: 166.9095518
-    max_latitude: -0.5264073
-    max_longitude: 166.918411
-  name: Aiwo
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Anabar
+  code: 
   unofficial_names: Anabar
+  geo:
+    latitude: -0.5133517
+    longitude: 166.9484624
+    min_latitude: -0.522434
+    min_longitude: 166.9397261
+    max_latitude: -0.5043035
+    max_longitude: 166.9578031
   translations:
     en: Anabar
     ar: ضاحية أنابار
@@ -107,16 +118,18 @@
     ccp: "\U00011103\U0001111A\U0001111D\U00011122\U00011134"
     uk: Район Анабар
     mk: Анабар
-  geo:
-    latitude: -0.5133517
-    longitude: 166.9484624
-    min_latitude: -0.522434
-    min_longitude: 166.9397261
-    max_latitude: -0.5043035
-    max_longitude: 166.9578031
-  name: Anabar
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Anetan
+  code: 
   unofficial_names: Anetan
+  geo:
+    latitude: -0.5064343
+    longitude: 166.9427006
+    min_latitude: -0.5187309999999999
+    min_longitude: 166.9389193
+    max_latitude: -0.5027978
+    max_longitude: 166.9484027
   translations:
     en: Anetan
     ar: ضاحية أنتان
@@ -162,16 +175,18 @@
     ccp: "\U00011103\U0001111A\U0001112C\U00011111\U0001111A\U00011134"
     uk: Район Анетан
     mk: Анетан
-  geo:
-    latitude: -0.5064343
-    longitude: 166.9427006
-    min_latitude: -0.5187309999999999
-    min_longitude: 166.9389193
-    max_latitude: -0.5027978
-    max_longitude: 166.9484027
-  name: Anetan
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Anibare
+  code: 
   unofficial_names: Anibare
+  geo:
+    latitude: -0.532915
+    longitude: 166.944141
+    min_latitude: -0.5423
+    min_longitude: 166.9355289
+    max_latitude: -0.520894
+    max_longitude: 166.9563043
   translations:
     en: Anibare
     ar: ضاحية أنباير
@@ -217,16 +232,18 @@
     jv: Anibare
     ccp: "\U00011103\U0001111A\U00011128\U0001111D\U00011122\U00011134"
     mk: Анибар
-  geo:
-    latitude: -0.532915
-    longitude: 166.944141
-    min_latitude: -0.5423
-    min_longitude: 166.9355289
-    max_latitude: -0.520894
-    max_longitude: 166.9563043
-  name: Anibare
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Baiti
+  code: 
   unofficial_names: Baiti
+  geo:
+    latitude: -0.5133158
+    longitude: 166.9311761
+    min_latitude: -0.5243401
+    min_longitude: 166.925876
+    max_latitude: -0.5060557
+    max_longitude: 166.941229
   translations:
     en: Baiti
     ar: ضاحية بايتسي
@@ -272,16 +289,18 @@
     ccp: "\U0001111D\U0001112D\U00011111\U00011128"
     uk: Район Баіті
     mk: Баити
-  geo:
-    latitude: -0.5133158
-    longitude: 166.9311761
-    min_latitude: -0.5243401
-    min_longitude: 166.925876
-    max_latitude: -0.5060557
-    max_longitude: 166.941229
-  name: Baiti
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Boe
+  code: 
   unofficial_names: Boe
+  geo:
+    latitude: -0.5414945
+    longitude: 166.9174893
+    min_latitude: -0.544316
+    min_longitude: 166.9117951
+    max_latitude: -0.5383049999999999
+    max_longitude: 166.922186
   translations:
     en: Boe
     ar: ضاحية بو
@@ -330,16 +349,18 @@
     jv: Boe
     ccp: "\U0001111D\U0001112E\U00011120\U0001112C"
     mk: Бое
-  geo:
-    latitude: -0.5414945
-    longitude: 166.9174893
-    min_latitude: -0.544316
-    min_longitude: 166.9117951
-    max_latitude: -0.5383049999999999
-    max_longitude: 166.922186
-  name: Boe
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Buada
+  code: 
   unofficial_names: Buada
+  geo:
+    latitude: -0.5328777
+    longitude: 166.9268541
+    min_latitude: -0.542245
+    min_longitude: 166.916138
+    max_latitude: -0.5264839
+    max_longitude: 166.936519
   translations:
     en: Buada
     ar: ضاحية بوادا
@@ -388,17 +409,19 @@
     ccp: "\U0001111D\U0001112A\U00011120\U00011113"
     kk: Буада
     mk: Буада
-  geo:
-    latitude: -0.5328777
-    longitude: 166.9268541
-    min_latitude: -0.542245
-    min_longitude: 166.916138
-    max_latitude: -0.5264839
-    max_longitude: 166.936519
-  name: Buada
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Denigomodu
+  code: 
   unofficial_names:
   - Denigomodu
+  geo:
+    latitude: -0.5247963999999999
+    longitude: 166.9167689
+    min_latitude: -0.5291599
+    min_longitude: 166.9108336
+    max_latitude: -0.5191129
+    max_longitude: 166.925101
   translations:
     en: Denigomodu
     ar: ضاحية دينيغومودو
@@ -448,16 +471,18 @@
     ccp: "\U00011113\U0001112C\U0001111A\U00011128\U00011109\U0001112E\U0001111F\U0001112E\U00011113\U0001112A"
     kk: Денигомоду
     mk: Денигомоду (округ)
-  geo:
-    latitude: -0.5247963999999999
-    longitude: 166.9167689
-    min_latitude: -0.5291599
-    min_longitude: 166.9108336
-    max_latitude: -0.5191129
-    max_longitude: 166.925101
-  name: Denigomodu
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Ewa
+  code: 
   unofficial_names: Ewa
+  geo:
+    latitude: -0.5087241
+    longitude: 166.9369384
+    min_latitude: -0.5203078999999999
+    min_longitude: 166.9306406
+    max_latitude: -0.5026395
+    max_longitude: 166.9437219
   translations:
     en: Ewa
     ar: ضاحية إيوا
@@ -502,16 +527,18 @@
     ccp: "\U00011103\U00011128\U00011124"
     uk: Район Ева
     mk: Ева
-  geo:
-    latitude: -0.5087241
-    longitude: 166.9369384
-    min_latitude: -0.5203078999999999
-    min_longitude: 166.9306406
-    max_latitude: -0.5026395
-    max_longitude: 166.9437219
-  name: Ewa
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Ijuw
+  code: 
   unofficial_names: Ijuw
+  geo:
+    latitude: -0.5202646000000001
+    longitude: 166.9513432
+    min_latitude: -0.523936
+    min_longitude: 166.9436481
+    max_latitude: -0.514258
+    max_longitude: 166.958865
   translations:
     en: Ijuw
     ar: ضاحية أيجو
@@ -557,16 +584,18 @@
     ccp: "\U00011103\U00011128\U0001110E\U0001112A\U00011120"
     uk: Район Іюв
     mk: Ијув
-  geo:
-    latitude: -0.5202646000000001
-    longitude: 166.9513432
-    min_latitude: -0.523936
-    min_longitude: 166.9436481
-    max_latitude: -0.514258
-    max_longitude: 166.958865
-  name: Ijuw
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Meneng
+  code: 
   unofficial_names: Meneng
+  geo:
+    latitude: -0.546724
+    longitude: 166.938379
+    min_latitude: -0.5539963
+    min_longitude: 166.9286009
+    max_latitude: -0.5366
+    max_longitude: 166.9506771
   translations:
     en: Meneng
     ar: ضاحية مينينغ
@@ -614,16 +643,18 @@
     kk: Мененг
     uk: Район Мененг
     mk: Мененг
-  geo:
-    latitude: -0.546724
-    longitude: 166.938379
-    min_latitude: -0.5539963
-    min_longitude: 166.9286009
-    max_latitude: -0.5366
-    max_longitude: 166.9506771
-  name: Meneng
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Nibok
+  code: 
   unofficial_names: Nibok
+  geo:
+    latitude: -0.5225124
+    longitude: 166.9254134
+    min_latitude: -0.530461
+    min_longitude: 166.917013
+    max_latitude: -0.5136925
+    max_longitude: 166.9371241
   translations:
     en: Nibok
     ar: ضاحية نيبوك
@@ -670,16 +701,18 @@
     kk: Нибок
     uk: Район Нібок
     mk: Нибок
-  geo:
-    latitude: -0.5225124
-    longitude: 166.9254134
-    min_latitude: -0.530461
-    min_longitude: 166.917013
-    max_latitude: -0.5136925
-    max_longitude: 166.9371241
-  name: Nibok
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Uaboe
+  code: 
   unofficial_names: Uaboe
+  geo:
+    latitude: -0.5173398
+    longitude: 166.9290151
+    min_latitude: -0.5244783
+    min_longitude: 166.9229766
+    max_latitude: -0.5118939
+    max_longitude: 166.939466
   translations:
     en: Uaboe
     ar: ضاحية يوابوي
@@ -725,16 +758,18 @@
     ccp: "\U00011105\U0001112A\U0001111D\U0001112E\U00011120\U0001112C"
     uk: Район Уабо
     mk: Уабое
-  geo:
-    latitude: -0.5173398
-    longitude: 166.9290151
-    min_latitude: -0.5244783
-    min_longitude: 166.9229766
-    max_latitude: -0.5118939
-    max_longitude: 166.939466
-  name: Uaboe
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Yaren
+  code: 
   unofficial_names: Yaren
+  geo:
+    latitude: -0.5466856999999999
+    longitude: 166.9210913
+    min_latitude: -0.5541410999999999
+    min_longitude: 166.9109682
+    max_latitude: -0.5398079
+    max_longitude: 166.9298291
   translations:
     en: Yaren
     af: Yaren
@@ -803,11 +838,4 @@
     yue: 亞倫
     bs: Yaren
     mk: Јарен
-  geo:
-    latitude: -0.5466856999999999
-    longitude: 166.9210913
-    min_latitude: -0.5541410999999999
-    min_longitude: 166.9109682
-    max_latitude: -0.5398079
-    max_longitude: 166.9298291
-  name: Yaren
+  comments: 

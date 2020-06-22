@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Lai Chau
+  code: 
   unofficial_names: Lai Chau
+  geo:
+    latitude: 22.3686613
+    longitude: 103.3119085
+    min_latitude: 21.6847368
+    min_longitude: 102.3274711
+    max_latitude: 22.8214739
+    max_longitude: 103.985241
   translations:
     en: Lai Châu
     ar: مقاطعة لاي تشاو
@@ -47,16 +56,18 @@
     cs: Lai Chau
     yue: 萊州
     ca: Lai Châu
-  geo:
-    latitude: 22.3686613
-    longitude: 103.3119085
-    min_latitude: 21.6847368
-    min_longitude: 102.3274711
-    max_latitude: 22.8214739
-    max_longitude: 103.985241
-  name: Lai Chau
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Lao Cai
+  code: 
   unofficial_names: Lao Cai
+  geo:
+    latitude: 22.3380865
+    longitude: 104.1487055
+    min_latitude: 21.8772199
+    min_longitude: 103.529518
+    max_latitude: 22.848793
+    max_longitude: 104.626443
   translations:
     en: Lào Cai
     ar: محافظة لاو كاي
@@ -103,16 +114,18 @@
     ccp: "\U00011123\U00011103\U0001112E \U00011125\U0001112D"
     cs: Provincie Lao Cai
     yue: 老街
-  geo:
-    latitude: 22.3380865
-    longitude: 104.1487055
-    min_latitude: 21.8772199
-    min_longitude: 103.529518
-    max_latitude: 22.848793
-    max_longitude: 104.626443
-  name: Lao Cai
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Ha Giang
+  code: 
   unofficial_names: Ha Giang
+  geo:
+    latitude: 22.7662056
+    longitude: 104.9388853
+    min_latitude: 22.166518
+    min_longitude: 104.3361501
+    max_latitude: 23.3888341
+    max_longitude: 105.5752411
   translations:
     en: Hà Giang
     ar: مقاطعة ها جيانج
@@ -158,16 +171,18 @@
     ccp: "\U00011126 \U0001110E\U00011128\U00011120\U00011101"
     cs: Ha Giang (provincie)
     yue: 河江
-  geo:
-    latitude: 22.7662056
-    longitude: 104.9388853
-    min_latitude: 22.166518
-    min_longitude: 104.3361501
-    max_latitude: 23.3888341
-    max_longitude: 105.5752411
-  name: Ha Giang
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Cao Bang
+  code: 
   unofficial_names: Cao Bang
+  geo:
+    latitude: 22.635689
+    longitude: 106.2522143
+    min_latitude: 22.35741
+    min_longitude: 105.2724999
+    max_latitude: 23.1186219
+    max_longitude: 106.826317
   translations:
     en: Cao Bằng
     ar: مقاطعة كاو بانج
@@ -213,16 +228,18 @@
     ccp: "\U00011107\U00011103\U0001112E \U0001111D\U00011101"
     cs: Cao Bang
     yue: 高平
-  geo:
-    latitude: 22.635689
-    longitude: 106.2522143
-    min_latitude: 22.35741
-    min_longitude: 105.2724999
-    max_latitude: 23.1186219
-    max_longitude: 106.826317
-  name: Cao Bang
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Son La
+  code: 
   unofficial_names: Son La
+  geo:
+    latitude: 21.3270341
+    longitude: 103.9141288
+    min_latitude: 21.2237815
+    min_longitude: 103.8084413
+    max_latitude: 21.4172762
+    max_longitude: 104.0360641
   translations:
     en: Sơn La
     ar: مقاطعة سن لا
@@ -270,16 +287,18 @@
     ccp: "\U00011125\U00011127\U0001111A\U00011134 \U00011123"
     cs: Son La
     yue: 山羅
-  geo:
-    latitude: 21.3270341
-    longitude: 103.9141288
-    min_latitude: 21.2237815
-    min_longitude: 103.8084413
-    max_latitude: 21.4172762
-    max_longitude: 104.0360641
-  name: Son La
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Yen Bai
+  code: 
   unofficial_names: Yen Bai
+  geo:
+    latitude: 21.6837923
+    longitude: 104.4551361
+    min_latitude: 21.3273449
+    min_longitude: 103.887402
+    max_latitude: 22.291081
+    max_longitude: 105.100925
   translations:
     en: Yên Bái
     ar: مقاطعة وين باي
@@ -326,16 +345,18 @@
     ccp: "\U00011103\U00011128\U00011120\U0001112C\U0001111A\U00011134 \U0001111D\U0001112D"
     cs: Yen Bai
     yue: 安沛
-  geo:
-    latitude: 21.6837923
-    longitude: 104.4551361
-    min_latitude: 21.3273449
-    min_longitude: 103.887402
-    max_latitude: 22.291081
-    max_longitude: 105.100925
-  name: Yen Bai
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Tuyen Quang
+  code: 
   unofficial_names: Tuyen Quang
+  geo:
+    latitude: 22.1726708
+    longitude: 105.3131185
+    min_latitude: 21.501763
+    min_longitude: 104.848572
+    max_latitude: 22.694384
+    max_longitude: 105.597397
   translations:
     en: Tuyên Quang
     ar: مقاطعة توين كوانج
@@ -383,16 +404,18 @@
     yue_Hans: 宣光
     ccp: "\U00011111\U0001112A\U00011120\U0001112C\U0001111A\U00011134 \U00011107\U0001112A\U00011120\U0001112C\U0001111A\U00011134"
     yue: 宣光
-  geo:
-    latitude: 22.1726708
-    longitude: 105.3131185
-    min_latitude: 21.501763
-    min_longitude: 104.848572
-    max_latitude: 22.694384
-    max_longitude: 105.597397
-  name: Tuyen Quang
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Lang Son
+  code: 
   unofficial_names: Lang Son
+  geo:
+    latitude: 21.8563705
+    longitude: 106.6291304
+    min_latitude: 21.3245939
+    min_longitude: 106.0948229
+    max_latitude: 22.4613169
+    max_longitude: 107.370491
   translations:
     en: Lạng Sơn
     ar: مقاطعة لانغ صن
@@ -441,16 +464,18 @@
     ccp: "\U00011123\U00011101 \U00011125\U00011127\U0001111A\U00011134"
     cs: Lang Son
     yue: 諒山
-  geo:
-    latitude: 21.8563705
-    longitude: 106.6291304
-    min_latitude: 21.3245939
-    min_longitude: 106.0948229
-    max_latitude: 22.4613169
-    max_longitude: 107.370491
-  name: Lang Son
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Quang Ninh
+  code: 
   unofficial_names: Quang Ninh
+  geo:
+    latitude: 21.006382
+    longitude: 107.2925144
+    min_latitude: 20.7164602
+    min_longitude: 106.439682
+    max_latitude: 21.6654891
+    max_longitude: 108.0736009
   translations:
     en: Quảng Ninh
     ar: مقاطعة كوانج ننه
@@ -499,16 +524,18 @@
     ccp: "\U00011107\U0001112A\U00011120\U00011101 \U0001111A\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Quang Ninh
     yue: 廣寧
-  geo:
-    latitude: 21.006382
-    longitude: 107.2925144
-    min_latitude: 20.7164602
-    min_longitude: 106.439682
-    max_latitude: 21.6654891
-    max_longitude: 108.0736009
-  name: Quang Ninh
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Hoa Binh
+  code: 
   unofficial_names: Hoa Binh
+  geo:
+    latitude: 20.6861265
+    longitude: 105.3131185
+    min_latitude: 20.3047901
+    min_longitude: 104.8349999
+    max_latitude: 21.1126179
+    max_longitude: 105.8611979
   translations:
     en: Hòa Bình
     ar: محافظة هوا بنه
@@ -554,18 +581,11 @@
     ccp: "\U00011126\U0001112E\U00011120 \U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Hoa Binh
     yue: 和平
-  geo:
-    latitude: 20.6861265
-    longitude: 105.3131185
-    min_latitude: 20.3047901
-    min_longitude: 104.8349999
-    max_latitude: 21.1126179
-    max_longitude: 105.8611979
-  name: Hoa Binh
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Ha Tay
+  code: 
   unofficial_names: Ha Tay
-  translations:
-    en: Ha Tay
   geo:
     latitude: 14.2959702
     longitude: 108.1191501
@@ -573,9 +593,20 @@
     min_longitude: 108.0425763
     max_latitude: 14.3889795
     max_longitude: 108.2156753
-  name: Ha Tay
-'18':
+  translations:
+    en: Ha Tay
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Ninh Binh
+  code: 
   unofficial_names: Ninh Binh
+  geo:
+    latitude: 20.2129969
+    longitude: 105.92299
+    min_latitude: 19.9628219
+    min_longitude: 105.5424731
+    max_latitude: 20.4552341
+    max_longitude: 106.1685398
   translations:
     en: Ninh Bình
     af: Ninh Bình
@@ -626,16 +657,18 @@
     yue_Hans: 宁平
     ccp: "\U0001111A\U00011128\U0001111A\U00011134\U00011126\U00011134 \U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134"
     yue: 寧平
-  geo:
-    latitude: 20.2129969
-    longitude: 105.92299
-    min_latitude: 19.9628219
-    min_longitude: 105.5424731
-    max_latitude: 20.4552341
-    max_longitude: 106.1685398
-  name: Ninh Binh
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Thai Binh
+  code: 
   unofficial_names: Thai Binh
+  geo:
+    latitude: 20.4463471
+    longitude: 106.3365828
+    min_latitude: 20.3997838
+    min_longitude: 106.2962436
+    max_latitude: 20.5060988
+    max_longitude: 106.3930608
   translations:
     en: Thái Bình
     ar: مقاطعة ثاي بنه
@@ -683,16 +716,18 @@
     ccp: "\U00011117\U0001112D \U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Thai Binh
     yue: 太平
-  geo:
-    latitude: 20.4463471
-    longitude: 106.3365828
-    min_latitude: 20.3997838
-    min_longitude: 106.2962436
-    max_latitude: 20.5060988
-    max_longitude: 106.3930608
-  name: Thai Binh
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Thanh Hoa
+  code: 
   unofficial_names: Thanh Hoa
+  geo:
+    latitude: 20.1291279
+    longitude: 105.3131185
+    min_latitude: 19.2866772
+    min_longitude: 104.378349
+    max_latitude: 20.6708141
+    max_longitude: 106.0758351
   translations:
     en: Thanh Hóa
     ar: محافظة تان هوا
@@ -738,16 +773,18 @@
     yue_Hans: 清化
     ccp: "\U00011117\U0001111A\U00011134\U00011126\U00011134 \U00011126\U0001112E\U00011120"
     yue: 清化
-  geo:
-    latitude: 20.1291279
-    longitude: 105.3131185
-    min_latitude: 19.2866772
-    min_longitude: 104.378349
-    max_latitude: 20.6708141
-    max_longitude: 106.0758351
-  name: Thanh Hoa
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Nghe An
+  code: 
   unofficial_names: Nghe An
+  geo:
+    latitude: 19.2342489
+    longitude: 104.9200365
+    min_latitude: 18.5531651
+    min_longitude: 103.876259
+    max_latitude: 19.999296
+    max_longitude: 105.806644
   translations:
     en: Nghệ An
     ar: محافظة ني أن
@@ -796,16 +833,18 @@
     ccp: "\U0001110A\U0001112C \U00011103\U0001111A\U00011134"
     yue: 乂安
     mk: Нге Ан
-  geo:
-    latitude: 19.2342489
-    longitude: 104.9200365
-    min_latitude: 18.5531651
-    min_longitude: 103.876259
-    max_latitude: 19.999296
-    max_longitude: 105.806644
-  name: Nghe An
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Ha Tinh
+  code: 
   unofficial_names: Ha Tinh
+  geo:
+    latitude: 18.2943776
+    longitude: 105.6745247
+    min_latitude: 17.915977
+    min_longitude: 105.108635
+    max_latitude: 18.7626158
+    max_longitude: 106.5042068
   translations:
     en: Hà Tĩnh
     ar: مقاطعة ها تنه
@@ -852,16 +891,18 @@
     ccp: "\U00011126 \U00011111\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Ha Tinh
     yue: 河靜
-  geo:
-    latitude: 18.2943776
-    longitude: 105.6745247
-    min_latitude: 17.915977
-    min_longitude: 105.108635
-    max_latitude: 18.7626158
-    max_longitude: 106.5042068
-  name: Ha Tinh
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Quang Binh
+  code: 
   unofficial_names: Quang Binh
+  geo:
+    latitude: 17.6102715
+    longitude: 106.3487474
+    min_latitude: 16.924024
+    min_longitude: 105.617928
+    max_latitude: 18.089871
+    max_longitude: 106.995214
   translations:
     en: Quảng Bình
     af: Quang Binh
@@ -927,16 +968,18 @@
     pa: ਕੂਏਂਗ ਬਿਨਾਹ ਸੂਬਾ
     yue: 廣平省
     am: ኳንግ ቢን ክፍላገር
-  geo:
-    latitude: 17.6102715
-    longitude: 106.3487474
-    min_latitude: 16.924024
-    min_longitude: 105.617928
-    max_latitude: 18.089871
-    max_longitude: 106.995214
-  name: Quang Binh
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Quang Tri
+  code: 
   unofficial_names: Quang Tri
+  geo:
+    latitude: 16.7943472
+    longitude: 106.963409
+    min_latitude: 16.3023949
+    min_longitude: 106.553429
+    max_latitude: 17.165551
+    max_longitude: 107.3883289
   translations:
     en: Quảng Trị
     ar: مقاطعة كوانج تري
@@ -984,16 +1027,18 @@
     ccp: "\U00011107\U0001112A\U00011120\U00011101 \U00011111\U00011133\U00011122\U0001112D"
     yue: 廣治
     be: Куангчы
-  geo:
-    latitude: 16.7943472
-    longitude: 106.963409
-    min_latitude: 16.3023949
-    min_longitude: 106.553429
-    max_latitude: 17.165551
-    max_longitude: 107.3883289
-  name: Quang Tri
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Thua Thien-Hue
+  code: 
   unofficial_names: Thua Thien-Hue
+  geo:
+    latitude: 16.467397
+    longitude: 107.5905326
+    min_latitude: 15.994803
+    min_longitude: 107.0167731
+    max_latitude: 16.741354
+    max_longitude: 108.1925689
   translations:
     en: Thừa Thiên–Huế
     ar: مقاطعة ثوا ثن هوي
@@ -1037,16 +1082,18 @@
     ccp: "\U00011117\U0001112A\U00011120 \U00011117\U00011128\U00011120\U0001112C\U0001111A\U00011134-\U00011126\U0001112A\U00011120\U0001112C"
     cs: Thua Thien-Hue
     yue: 承天順化
-  geo:
-    latitude: 16.467397
-    longitude: 107.5905326
-    min_latitude: 15.994803
-    min_longitude: 107.0167731
-    max_latitude: 16.741354
-    max_longitude: 108.1925689
-  name: Thua Thien-Hue
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Quang Nam
+  code: 
   unofficial_names: Quang Nam
+  geo:
+    latitude: 15.5393538
+    longitude: 108.019102
+    min_latitude: 14.951885
+    min_longitude: 107.217789
+    max_latitude: 16.066077
+    max_longitude: 108.7379948
   translations:
     en: Quảng Nam
     ar: مقاطعة كوانج نام
@@ -1094,16 +1141,18 @@
     yue_Hans: 广南
     ccp: "\U00011107\U0001112A\U00011120\U00011101 \U0001111A\U0001111F\U00011134"
     yue: 廣南
-  geo:
-    latitude: 15.5393538
-    longitude: 108.019102
-    min_latitude: 14.951885
-    min_longitude: 107.217789
-    max_latitude: 16.066077
-    max_longitude: 108.7379948
-  name: Quang Nam
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: Kon Tum
+  code: 
   unofficial_names: Kon Tum
+  geo:
+    latitude: 14.3497403
+    longitude: 108.0004606
+    min_latitude: 14.2307742
+    min_longitude: 107.8523969
+    max_latitude: 14.4549609
+    max_longitude: 108.088045
   translations:
     en: Kon Tum
     ar: محافظة كون توم
@@ -1151,16 +1200,18 @@
     ccp: "\U00011107\U0001112E\U0001111A\U00011134 \U00011111\U0001112A\U0001111F\U00011134"
     cs: Kon Tum
     yue: 崑嵩
-  geo:
-    latitude: 14.3497403
-    longitude: 108.0004606
-    min_latitude: 14.2307742
-    min_longitude: 107.8523969
-    max_latitude: 14.4549609
-    max_longitude: 108.088045
-  name: Kon Tum
-'29':
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: Quang Ngai
+  code: 
   unofficial_names: Quang Ngai
+  geo:
+    latitude: 15.1213873
+    longitude: 108.8044145
+    min_latitude: 15.0926163
+    min_longitude: 108.7603999
+    max_latitude: 15.216273
+    max_longitude: 108.9229524
   translations:
     en: Quảng Ngãi
     ar: مقاطعة كوانج نجاي
@@ -1209,16 +1260,18 @@
     ccp: "\U00011107\U0001112A\U00011120\U00011101 \U00011109\U0001112D"
     yue: 廣刈省
     be: Куангнгай
-  geo:
-    latitude: 15.1213873
-    longitude: 108.8044145
-    min_latitude: 15.0926163
-    min_longitude: 108.7603999
-    max_latitude: 15.216273
-    max_longitude: 108.9229524
-  name: Quang Ngai
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Gia Lai
+  code: 
   unofficial_names: Gia Lai
+  geo:
+    latitude: 13.8078943
+    longitude: 108.109375
+    min_latitude: 12.9962269
+    min_longitude: 107.3392181
+    max_latitude: 14.602364
+    max_longitude: 108.8727541
   translations:
     en: Gia Lai
     ar: محافظة زا لاي
@@ -1266,16 +1319,18 @@
     ml: ഗിയ ലായ് പ്രൊവിൻസ്
     cs: Gia Lai
     yue: 嘉萊
-  geo:
-    latitude: 13.8078943
-    longitude: 108.109375
-    min_latitude: 12.9962269
-    min_longitude: 107.3392181
-    max_latitude: 14.602364
-    max_longitude: 108.8727541
-  name: Gia Lai
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Binh Dinh
+  code: 
   unofficial_names: Binh Dinh
+  geo:
+    latitude: 13.7829673
+    longitude: 109.2196634
+    min_latitude: 13.669688
+    min_longitude: 109.1325188
+    max_latitude: 13.899993
+    max_longitude: 109.3000072
   translations:
     en: Bình Định
     ar: محافظة بنه دنه
@@ -1320,16 +1375,18 @@
     ccp: "\U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134 \U00011113\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Binh Dinh
     yue: 平定
-  geo:
-    latitude: 13.7829673
-    longitude: 109.2196634
-    min_latitude: 13.669688
-    min_longitude: 109.1325188
-    max_latitude: 13.899993
-    max_longitude: 109.3000072
-  name: Binh Dinh
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Phu Yen
+  code: 
   unofficial_names: Phu Yen
+  geo:
+    latitude: 13.0881861
+    longitude: 109.0928764
+    min_latitude: 12.705112
+    min_longitude: 108.672809
+    max_latitude: 13.694343
+    max_longitude: 109.4588245
   translations:
     en: Phú Yên
     ar: محافظة فو أين
@@ -1376,16 +1433,18 @@
     ccp: "\U0001111C\U0001112A \U00011103\U00011128\U00011120\U0001112C\U0001111A\U00011134"
     cs: Phu Yen
     yue: 富安
-  geo:
-    latitude: 13.0881861
-    longitude: 109.0928764
-    min_latitude: 12.705112
-    min_longitude: 108.672809
-    max_latitude: 13.694343
-    max_longitude: 109.4588245
-  name: Phu Yen
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Dac Lac
+  code: 
   unofficial_names: Dac Lac
+  geo:
+    latitude: 12.7100116
+    longitude: 108.2377519
+    min_latitude: 12.16056
+    min_longitude: 107.4892809
+    max_latitude: 13.4162268
+    max_longitude: 108.994509
   translations:
     en: Đắk Lắk
     ar: محافظة داك لاك
@@ -1431,16 +1490,18 @@
     ccp: "\U00011113\U00011107\U00011134 \U00011123\U00011107\U00011134"
     cs: Dak Lak
     yue: 多樂
-  geo:
-    latitude: 12.7100116
-    longitude: 108.2377519
-    min_latitude: 12.16056
-    min_longitude: 107.4892809
-    max_latitude: 13.4162268
-    max_longitude: 108.994509
-  name: Dac Lac
-'34':
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: Khanh Hoa
+  code: 
   unofficial_names: Khanh Hoa
+  geo:
+    latitude: 12.2585098
+    longitude: 109.0526076
+    min_latitude: 11.8045669
+    min_longitude: 108.671521
+    max_latitude: 12.8655891
+    max_longitude: 109.4615432
   translations:
     en: Khánh Hòa
     ar: محافظة كان هوا
@@ -1489,16 +1550,18 @@
     cs: Khanh Hoa
     yue: 慶和
     ca: Khánh Hòa
-  geo:
-    latitude: 12.2585098
-    longitude: 109.0526076
-    min_latitude: 11.8045669
-    min_longitude: 108.671521
-    max_latitude: 12.8655891
-    max_longitude: 109.4615432
-  name: Khanh Hoa
-'35':
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: Lam Dong
+  code: 
   unofficial_names: Lam Dong
+  geo:
+    latitude: 11.9404192
+    longitude: 108.4583132
+    min_latitude: 11.8051867
+    min_longitude: 108.3107758
+    max_latitude: 12.002635
+    max_longitude: 108.5906696
   translations:
     en: Lâm Đồng
     ar: محافظة لام دونغ
@@ -1546,16 +1609,18 @@
     ccp: "\U00011123\U0001111F\U00011134 \U00011113\U00011127\U00011101"
     cs: Lam Dong
     yue: 林同
-  geo:
-    latitude: 11.9404192
-    longitude: 108.4583132
-    min_latitude: 11.8051867
-    min_longitude: 108.3107758
-    max_latitude: 12.002635
-    max_longitude: 108.5906696
-  name: Lam Dong
-'36':
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: Ninh Thuan
+  code: 
   unofficial_names: Ninh Thuan
+  geo:
+    latitude: 11.6738767
+    longitude: 108.8629572
+    min_latitude: 11.3070363
+    min_longitude: 108.55301
+    max_latitude: 12.163288
+    max_longitude: 109.2379444
   translations:
     en: Ninh Thuận
     ar: محافظة ننه توان
@@ -1602,16 +1667,18 @@
     ccp: "\U0001111A\U00011128\U0001111A\U00011134\U00011126\U00011134 \U00011112\U0001112A\U00011120\U0001111A\U00011134"
     cs: Ninh Thuan
     yue: 寧順
-  geo:
-    latitude: 11.6738767
-    longitude: 108.8629572
-    min_latitude: 11.3070363
-    min_longitude: 108.55301
-    max_latitude: 12.163288
-    max_longitude: 109.2379444
-  name: Ninh Thuan
-'37':
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: Tay Ninh
+  code: 
   unofficial_names: Tay Ninh
+  geo:
+    latitude: 11.3675415
+    longitude: 106.1192802
+    min_latitude: 11.2912109
+    min_longitude: 106.0719681
+    max_latitude: 11.4389323
+    max_longitude: 106.1909722
   translations:
     en: Tây Ninh
     ar: مقاطعة تاي ننه
@@ -1658,16 +1725,18 @@
     ccp: "\U00011111\U0001112C \U0001111A\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Tay Ninh
     yue: 西寧
-  geo:
-    latitude: 11.3675415
-    longitude: 106.1192802
-    min_latitude: 11.2912109
-    min_longitude: 106.0719681
-    max_latitude: 11.4389323
-    max_longitude: 106.1909722
-  name: Tay Ninh
-'39':
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: Dong Nai
+  code: 
   unofficial_names: Dong Nai
+  geo:
+    latitude: 11.0686305
+    longitude: 107.1675976
+    min_latitude: 10.582153
+    min_longitude: 106.7527479
+    max_latitude: 11.5814941
+    max_longitude: 107.5747849
   translations:
     en: Đồng Nai
     ar: مقاطعة دونج ناي
@@ -1701,16 +1770,18 @@
     cs: Dong Nai
     yue: 同奈
     th: จังหวัดด่งนาย
-  geo:
-    latitude: 11.0686305
-    longitude: 107.1675976
-    min_latitude: 10.582153
-    min_longitude: 106.7527479
-    max_latitude: 11.5814941
-    max_longitude: 107.5747849
-  name: Dong Nai
-'40':
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: Binh Thuan
+  code: 
   unofficial_names: Binh Thuan
+  geo:
+    latitude: 10.933333
+    longitude: 108.1
+    min_latitude: 10.7712849
+    min_longitude: 107.9904427
+    max_latitude: 11.0238032
+    max_longitude: 108.3558984
   translations:
     en: Bình Thuận
     ar: مقاطعة بنه ثوان
@@ -1755,16 +1826,18 @@
     ccp: "\U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134 \U00011117\U0001112A\U00011120\U0001111A\U00011134"
     cs: Binh Thuan
     yue: 平順
-  geo:
-    latitude: 10.933333
-    longitude: 108.1
-    min_latitude: 10.7712849
-    min_longitude: 107.9904427
-    max_latitude: 11.0238032
-    max_longitude: 108.3558984
-  name: Binh Thuan
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Long An
+  code: 
   unofficial_names: Long An
+  geo:
+    latitude: 10.5330098
+    longitude: 106.4052541
+    min_latitude: 10.4757429
+    min_longitude: 106.346712
+    max_latitude: 10.5754034
+    max_longitude: 106.4600945
   translations:
     en: Long An
     ar: محافظة لونغ أن
@@ -1813,16 +1886,18 @@
     yue_Hans: 隆安
     ccp: "\U00011123\U00011127\U00011101 \U00011103\U0001111A\U00011134"
     yue: 隆安
-  geo:
-    latitude: 10.5330098
-    longitude: 106.4052541
-    min_latitude: 10.4757429
-    min_longitude: 106.346712
-    max_latitude: 10.5754034
-    max_longitude: 106.4600945
-  name: Long An
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Ba Ria - Vung Tau
+  code: 
   unofficial_names: Ba Ria - Vung Tau
+  geo:
+    latitude: 10.5417397
+    longitude: 107.2429976
+    min_latitude: 10.3202097
+    min_longitude: 106.9980384
+    max_latitude: 10.8039479
+    max_longitude: 107.5830259
   translations:
     en: Bà Rịa–Vũng Tàu
     ar: مقاطعة با ريا فونج تاو
@@ -1868,16 +1943,18 @@
       \U00011111\U00011105\U0001112A"
     cs: Ba Ria-Vung Tau
     yue: 巴地頭頓
-  geo:
-    latitude: 10.5417397
-    longitude: 107.2429976
-    min_latitude: 10.3202097
-    min_longitude: 106.9980384
-    max_latitude: 10.8039479
-    max_longitude: 107.5830259
-  name: Ba Ria - Vung Tau
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: An Giang
+  code: 
   unofficial_names: An Giang
+  geo:
+    latitude: 10.5215836
+    longitude: 105.1258955
+    min_latitude: 10.1824999
+    min_longitude: 104.7775209
+    max_latitude: 10.9559351
+    max_longitude: 105.5719318
   translations:
     en: An Giang
     ar: مقاطعة آن جيانج
@@ -1925,16 +2002,18 @@
     ccp: "\U00011103\U0001111A\U00011134 \U0001110E\U00011128\U00011120\U00011101"
     cs: An Giang
     yue: 安江省
-  geo:
-    latitude: 10.5215836
-    longitude: 105.1258955
-    min_latitude: 10.1824999
-    min_longitude: 104.7775209
-    max_latitude: 10.9559351
-    max_longitude: 105.5719318
-  name: An Giang
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Dong Thap
+  code: 
   unofficial_names: Dong Thap
+  geo:
+    latitude: 10.4937989
+    longitude: 105.6881788
+    min_latitude: 10.1387694
+    min_longitude: 105.1887371
+    max_latitude: 10.9664691
+    max_longitude: 105.944197
   translations:
     en: Đồng Tháp
     ar: محافظة دون تاب
@@ -1980,16 +2059,18 @@
     ccp: "\U00011113\U00011127\U00011101 \U00011117\U0001111B\U00011134"
     cs: Dong Thap
     yue: 同塔
-  geo:
-    latitude: 10.4937989
-    longitude: 105.6881788
-    min_latitude: 10.1387694
-    min_longitude: 105.1887371
-    max_latitude: 10.9664691
-    max_longitude: 105.944197
-  name: Dong Thap
-'46':
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: Tien Giang
+  code: 
   unofficial_names: Tien Giang
+  geo:
+    latitude: 10.4493324
+    longitude: 106.3420504
+    min_latitude: 10.213442
+    min_longitude: 105.8196079
+    max_latitude: 10.5871
+    max_longitude: 106.788528
   translations:
     en: Tiền Giang
     ar: مقاطعة تين جيانج
@@ -2035,16 +2116,18 @@
     ccp: "\U00011111\U00011128\U00011120\U0001112C\U0001111A\U00011134 \U0001110E\U00011128\U00011120\U00011101"
     cs: Tien Giang
     yue: 前江
-  geo:
-    latitude: 10.4493324
-    longitude: 106.3420504
-    min_latitude: 10.213442
-    min_longitude: 105.8196079
-    max_latitude: 10.5871
-    max_longitude: 106.788528
-  name: Tien Giang
-'47':
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: Kien Giang
+  code: 
   unofficial_names: Kien Giang
+  geo:
+    latitude: 9.8249587
+    longitude: 105.1258955
+    min_latitude: 9.381122999999999
+    min_longitude: 104.3223179
+    max_latitude: 10.538596
+    max_longitude: 105.538959
   translations:
     en: Kiên Giang
     ar: محافظة كن زانغ
@@ -2090,18 +2173,11 @@
     ccp: "\U00011107\U00011128\U00011120\U0001112C\U0001111A\U00011134 \U0001110E\U00011128\U00011120\U00011101"
     cs: Kien Giang
     yue: 堅江
-  geo:
-    latitude: 9.8249587
-    longitude: 105.1258955
-    min_latitude: 9.381122999999999
-    min_longitude: 104.3223179
-    max_latitude: 10.538596
-    max_longitude: 105.538959
-  name: Kien Giang
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Can Tho
+  code: 
   unofficial_names: Can Tho
-  translations:
-    en: Can Tho
   geo:
     latitude: 10.0451618
     longitude: 105.7468535
@@ -2109,9 +2185,20 @@
     min_longitude: 105.7170582
     max_latitude: 10.0746025
     max_longitude: 105.7959312
-  name: Can Tho
-'49':
+  translations:
+    en: Can Tho
+  comments: 
+'49': !ruby/struct:ISO3166::Subdivision
+  name: Vinh Long
+  code: 
   unofficial_names: Vinh Long
+  geo:
+    latitude: 10.2448442
+    longitude: 105.958865
+    min_latitude: 10.2191458
+    min_longitude: 105.8777602
+    max_latitude: 10.2759884
+    max_longitude: 105.9974669
   translations:
     en: Vĩnh Long
     ar: مقاطعة فنه لونج
@@ -2160,16 +2247,18 @@
     ccp: "\U0001111E\U00011128\U0001111A\U00011134\U00011126\U00011134 \U00011123\U00011127\U00011101"
     cs: Vinh Long
     yue: 永隆
-  geo:
-    latitude: 10.2448442
-    longitude: 105.958865
-    min_latitude: 10.2191458
-    min_longitude: 105.8777602
-    max_latitude: 10.2759884
-    max_longitude: 105.9974669
-  name: Vinh Long
-'50':
+  comments: 
+'50': !ruby/struct:ISO3166::Subdivision
+  name: Ben Tre
+  code: 
   unofficial_names: Ben Tre
+  geo:
+    latitude: 10.1081553
+    longitude: 106.4405872
+    min_latitude: 9.808341
+    min_longitude: 106.0147733
+    max_latitude: 10.3373171
+    max_longitude: 106.7976299
   translations:
     en: Bến Tre
     ar: محافظة بن تشي
@@ -2216,16 +2305,18 @@
     ccp: "\U0001111D\U0001112C\U0001111A\U00011134 \U00011111\U00011133\U00011122\U0001112C"
     cs: Ben Tre
     yue: 檳椥
-  geo:
-    latitude: 10.1081553
-    longitude: 106.4405872
-    min_latitude: 9.808341
-    min_longitude: 106.0147733
-    max_latitude: 10.3373171
-    max_longitude: 106.7976299
-  name: Ben Tre
-'51':
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: Tra Vinh
+  code: 
   unofficial_names: Tra Vinh
+  geo:
+    latitude: 9.933333
+    longitude: 106.35
+    min_latitude: 9.8867569
+    min_longitude: 106.3002563
+    max_latitude: 10.0126486
+    max_longitude: 106.3883399
   translations:
     en: Trà Vinh
     ar: مقاطعة ترا فنه
@@ -2273,16 +2364,18 @@
     ccp: "\U00011111\U00011133\U00011122 \U0001111E\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Tra Vinh
     yue: 茶榮
-  geo:
-    latitude: 9.933333
-    longitude: 106.35
-    min_latitude: 9.8867569
-    min_longitude: 106.3002563
-    max_latitude: 10.0126486
-    max_longitude: 106.3883399
-  name: Tra Vinh
-'52':
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: Soc Trang
+  code: 
   unofficial_names: Soc Trang
+  geo:
+    latitude: 9.6003688
+    longitude: 105.9599539
+    min_latitude: 9.2386673
+    min_longitude: 105.5439898
+    max_latitude: 9.9332116
+    max_longitude: 106.293053
   translations:
     en: Sóc Trăng
     ar: مقاطعة سك ترانج
@@ -2331,16 +2424,18 @@
     ccp: "\U00011125\U0001112E\U00011107\U00011134 \U00011111\U00011133\U00011122\U00011101"
     cs: Soc Trang
     yue: 朔莊
-  geo:
-    latitude: 9.6003688
-    longitude: 105.9599539
-    min_latitude: 9.2386673
-    min_longitude: 105.5439898
-    max_latitude: 9.9332116
-    max_longitude: 106.293053
-  name: Soc Trang
-'53':
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: Bac Can
+  code: 
   unofficial_names: Bac Can
+  geo:
+    latitude: 22.1329032
+    longitude: 105.8407722
+    min_latitude: 22.051914
+    min_longitude: 105.7767105
+    max_latitude: 22.2115634
+    max_longitude: 105.9308625
   translations:
     en: Bắc Kạn
     ar: مقاطعة باك كان
@@ -2374,16 +2469,18 @@
     ml: ബാക് കാൻ പ്രവിശ്യ
     cs: Bac Kan
     yue: "北\U00023D13"
-  geo:
-    latitude: 22.1329032
-    longitude: 105.8407722
-    min_latitude: 22.051914
-    min_longitude: 105.7767105
-    max_latitude: 22.2115634
-    max_longitude: 105.9308625
-  name: Bac Can
-'54':
+  comments: 
+'54': !ruby/struct:ISO3166::Subdivision
+  name: Bac Giang
+  code: 
   unofficial_names: Bac Giang
+  geo:
+    latitude: 21.3014947
+    longitude: 106.6291304
+    min_latitude: 21.121762
+    min_longitude: 105.881726
+    max_latitude: 21.6256549
+    max_longitude: 107.033035
   translations:
     en: Bắc Giang
     ar: محافظة باك زانغ
@@ -2430,16 +2527,18 @@
     cs: Bac Giang
     yue: 北江
     ca: Bắc Giang
-  geo:
-    latitude: 21.3014947
-    longitude: 106.6291304
-    min_latitude: 21.121762
-    min_longitude: 105.881726
-    max_latitude: 21.6256549
-    max_longitude: 107.033035
-  name: Bac Giang
-'55':
+  comments: 
+'55': !ruby/struct:ISO3166::Subdivision
+  name: Bac Lieu
+  code: 
   unofficial_names: Bac Lieu
+  geo:
+    latitude: 9.251555500000002
+    longitude: 105.5136472
+    min_latitude: 8.595139200000002
+    min_longitude: 105.2332641
+    max_latitude: 9.637118899999999
+    max_longitude: 106.7433943
   translations:
     en: Bạc Liêu
     ar: مقاطعة باك ليو
@@ -2485,16 +2584,18 @@
     ccp: "\U0001111D\U00011107\U00011134 \U00011123\U00011128\U00011105\U0001112A"
     cs: Bac Lieu
     yue: 薄遼
-  geo:
-    latitude: 9.251555500000002
-    longitude: 105.5136472
-    min_latitude: 8.595139200000002
-    min_longitude: 105.2332641
-    max_latitude: 9.637118899999999
-    max_longitude: 106.7433943
-  name: Bac Lieu
-'56':
+  comments: 
+'56': !ruby/struct:ISO3166::Subdivision
+  name: Bac Ninh
+  code: 
   unofficial_names: Bac Ninh
+  geo:
+    latitude: 21.121444
+    longitude: 106.1110501
+    min_latitude: 20.969552
+    min_longitude: 105.9041419
+    max_latitude: 21.263603
+    max_longitude: 106.3089509
   translations:
     en: Bắc Ninh
     ar: مقاطعة باك ننه
@@ -2543,16 +2644,18 @@
     ccp: "\U0001111D\U00011107\U00011134 \U0001111A\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Bac Ninh
     yue: 北寧
-  geo:
-    latitude: 21.121444
-    longitude: 106.1110501
-    min_latitude: 20.969552
-    min_longitude: 105.9041419
-    max_latitude: 21.263603
-    max_longitude: 106.3089509
-  name: Bac Ninh
-'57':
+  comments: 
+'57': !ruby/struct:ISO3166::Subdivision
+  name: Binh Duong
+  code: 
   unofficial_names: Binh Duong
+  geo:
+    latitude: 11.3254024
+    longitude: 106.477017
+    min_latitude: 10.8636351
+    min_longitude: 106.335735
+    max_latitude: 11.5000023
+    max_longitude: 106.9676759
   translations:
     en: Bình Dương
     ar: مقاطعة بنه ديونج
@@ -2597,16 +2700,18 @@
     ccp: "\U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134 \U00011113\U0001112F\U00011103\U00011127\U00011101"
     cs: Binh Duong
     yue: 平陽省
-  geo:
-    latitude: 11.3254024
-    longitude: 106.477017
-    min_latitude: 10.8636351
-    min_longitude: 106.335735
-    max_latitude: 11.5000023
-    max_longitude: 106.9676759
-  name: Binh Duong
-'58':
+  comments: 
+'58': !ruby/struct:ISO3166::Subdivision
+  name: Binh Phuoc
+  code: 
   unofficial_names: Binh Phuoc
+  geo:
+    latitude: 11.7511894
+    longitude: 106.7234639
+    min_latitude: 11.300705
+    min_longitude: 106.417961
+    max_latitude: 12.29071
+    max_longitude: 107.4282521
   translations:
     en: Bình Phước
     ar: محافظة بنه فوك
@@ -2651,16 +2756,18 @@
     ccp: "\U0001111D\U00011128\U0001111A\U00011134\U00011126\U00011134 \U0001111C\U0001112A\U00011120\U0001112E\U00011107\U00011134"
     cs: Binh Phuoc
     yue: 平福
-  geo:
-    latitude: 11.7511894
-    longitude: 106.7234639
-    min_latitude: 11.300705
-    min_longitude: 106.417961
-    max_latitude: 12.29071
-    max_longitude: 107.4282521
-  name: Binh Phuoc
-'59':
+  comments: 
+'59': !ruby/struct:ISO3166::Subdivision
+  name: Ca Mau
+  code: 
   unofficial_names: Ca Mau
+  geo:
+    latitude: 8.962409899999999
+    longitude: 105.1258955
+    min_latitude: 8.4127295
+    min_longitude: 104.5229252
+    max_latitude: 9.55968
+    max_longitude: 105.4185013
   translations:
     en: Cà Mau
     ar: محافظة كا ماو
@@ -2708,18 +2815,11 @@
     ccp: "\U00011107 \U0001111F\U00011105\U0001112A"
     cs: Cà Mau
     yue: 金甌
-  geo:
-    latitude: 8.962409899999999
-    longitude: 105.1258955
-    min_latitude: 8.4127295
-    min_longitude: 104.5229252
-    max_latitude: 9.55968
-    max_longitude: 105.4185013
-  name: Ca Mau
-'60':
+  comments: 
+'60': !ruby/struct:ISO3166::Subdivision
+  name: Da Nang, thanh pho
+  code: 
   unofficial_names: Da Nang, thanh pho
-  translations:
-    en: Da Nang, thanh pho
   geo:
     latitude: 16.0544068
     longitude: 108.2021667
@@ -2727,9 +2827,20 @@
     min_longitude: 108.1779956
     max_latitude: 16.0941455
     max_longitude: 108.2354165
-  name: Da Nang, thanh pho
-'61':
+  translations:
+    en: Da Nang, thanh pho
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: Hai Duong
+  code: 
   unofficial_names: Hai Duong
+  geo:
+    latitude: 20.9385958
+    longitude: 106.3206861
+    min_latitude: 20.691178
+    min_longitude: 106.126308
+    max_latitude: 21.231167
+    max_longitude: 106.6127538
   translations:
     en: Hải Dương
     ar: مقاطعة هاي دونج
@@ -2774,18 +2885,11 @@
     yue_Hans: 海阳
     ccp: "\U00011126\U0001112D \U00011113\U0001112F\U00011103\U00011127\U00011101"
     yue: 海陽
-  geo:
-    latitude: 20.9385958
-    longitude: 106.3206861
-    min_latitude: 20.691178
-    min_longitude: 106.126308
-    max_latitude: 21.231167
-    max_longitude: 106.6127538
-  name: Hai Duong
-'62':
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: Hai Phong, thanh pho
+  code: 
   unofficial_names: Hai Phong, thanh pho
-  translations:
-    en: Hai Phong, thanh pho
   geo:
     latitude: 20.8449115
     longitude: 106.6880841
@@ -2793,9 +2897,20 @@
     min_longitude: 106.6375924
     max_latitude: 20.8792627
     max_longitude: 106.759901
-  name: Hai Phong, thanh pho
-'63':
+  translations:
+    en: Hai Phong, thanh pho
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: Ha Nam
+  code: 
   unofficial_names: Ha Nam
+  geo:
+    latitude: 20.5835196
+    longitude: 105.92299
+    min_latitude: 20.3626781
+    min_longitude: 105.7697231
+    max_latitude: 20.703745
+    max_longitude: 106.183102
   translations:
     en: Hà Nam
     ar: مقاطعة ها نام
@@ -2842,18 +2957,11 @@
     ccp: "\U00011126 \U0001111A\U0001111F\U00011134"
     cs: Ha Nam
     yue: 河南
-  geo:
-    latitude: 20.5835196
-    longitude: 105.92299
-    min_latitude: 20.3626781
-    min_longitude: 105.7697231
-    max_latitude: 20.703745
-    max_longitude: 106.183102
-  name: Ha Nam
-'64':
+  comments: 
+'64': !ruby/struct:ISO3166::Subdivision
+  name: Ha Noi, thu do
+  code: 
   unofficial_names: Ha Noi, thu do
-  translations:
-    en: Ha Noi, thu do
   geo:
     latitude: 21.0277644
     longitude: 105.8341598
@@ -2861,11 +2969,13 @@
     min_longitude: 105.7974815
     max_latitude: 21.0502942
     max_longitude: 105.8764459
-  name: Ha Noi, thu do
-'65':
-  unofficial_names: Ho Chi Minh, thanh pho [Sai Gon]
   translations:
-    en: Ho Chi Minh, thanh pho [Sai Gon]
+    en: Ha Noi, thu do
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: Ho Chi Minh, thanh pho [Sai Gon]
+  code: 
+  unofficial_names: Ho Chi Minh, thanh pho [Sai Gon]
   geo:
     latitude: 10.8230989
     longitude: 106.6296638
@@ -2873,9 +2983,20 @@
     min_longitude: 106.3638784
     max_latitude: 11.1602136
     max_longitude: 107.0248468
-  name: Ho Chi Minh, thanh pho [Sai Gon]
-'66':
+  translations:
+    en: Ho Chi Minh, thanh pho [Sai Gon]
+  comments: 
+'66': !ruby/struct:ISO3166::Subdivision
+  name: Hung Yen
+  code: 
   unofficial_names: Hung Yen
+  geo:
+    latitude: 20.8525711
+    longitude: 106.0169971
+    min_latitude: 20.602892
+    min_longitude: 105.8954829
+    max_latitude: 21.006161
+    max_longitude: 106.269346
   translations:
     en: Hưng Yên
     ar: مقاطعة هونج ين
@@ -2908,16 +3029,18 @@
     cs: Hung Yen
     yue: 興安
     ca: Província de Hưng Yên
-  geo:
-    latitude: 20.8525711
-    longitude: 106.0169971
-    min_latitude: 20.602892
-    min_longitude: 105.8954829
-    max_latitude: 21.006161
-    max_longitude: 106.269346
-  name: Hung Yen
-'67':
+  comments: 
+'67': !ruby/struct:ISO3166::Subdivision
+  name: Nam Dinh
+  code: 
   unofficial_names: Nam Dinh
+  geo:
+    latitude: 20.2791804
+    longitude: 106.2051484
+    min_latitude: 19.968296
+    min_longitude: 105.924061
+    max_latitude: 20.4996661
+    max_longitude: 106.5649637
   translations:
     en: Nam Định
     ar: محافظة نام دنه
@@ -2964,16 +3087,18 @@
     ccp: "\U0001111A\U0001111F\U00011134 \U00011113\U00011128\U0001111A\U00011134\U00011126\U00011134"
     cs: Nam Định
     yue: 南定
-  geo:
-    latitude: 20.2791804
-    longitude: 106.2051484
-    min_latitude: 19.968296
-    min_longitude: 105.924061
-    max_latitude: 20.4996661
-    max_longitude: 106.5649637
-  name: Nam Dinh
-'68':
+  comments: 
+'68': !ruby/struct:ISO3166::Subdivision
+  name: Phu Tho
+  code: 
   unofficial_names: Phu Tho
+  geo:
+    latitude: 21.268443
+    longitude: 105.2045573
+    min_latitude: 20.917282
+    min_longitude: 104.8163571
+    max_latitude: 21.719738
+    max_longitude: 105.4579171
   translations:
     en: Phú Thọ
     ar: محافظة فو تاه
@@ -3019,17 +3144,19 @@
     ccp: "\U0001111C\U0001112A \U00011117\U0001112E"
     cs: Phu Tho
     yue: 富壽
-  geo:
-    latitude: 21.268443
-    longitude: 105.2045573
-    min_latitude: 20.917282
-    min_longitude: 104.8163571
-    max_latitude: 21.719738
-    max_longitude: 105.4579171
-  name: Phu Tho
-'69':
+  comments: 
+'69': !ruby/struct:ISO3166::Subdivision
+  name: Thai Nguyen
+  code: 
   unofficial_names:
   - Central Highlands
+  geo:
+    latitude: 21.5613771
+    longitude: 105.876004
+    min_latitude: 21.324607
+    min_longitude: 105.4771269
+    max_latitude: 22.047269
+    max_longitude: 106.23657
   translations:
     en: Thái Nguyên
     ar: مقاطعة ثاي نجوين
@@ -3078,16 +3205,18 @@
     ccp: "\U00011117\U0001112D \U00011109\U0001112A\U00011120\U0001112C\U0001111A\U00011134"
     cs: Thai Nguyen
     yue: 太原
-  geo:
-    latitude: 21.5613771
-    longitude: 105.876004
-    min_latitude: 21.324607
-    min_longitude: 105.4771269
-    max_latitude: 22.047269
-    max_longitude: 106.23657
-  name: Thai Nguyen
-'70':
+  comments: 
+'70': !ruby/struct:ISO3166::Subdivision
+  name: Vinh Phuc
+  code: 
   unofficial_names: Vinh Phuc
+  geo:
+    latitude: 21.3608805
+    longitude: 105.5474373
+    min_latitude: 21.10479
+    min_longitude: 105.322971
+    max_latitude: 21.573348
+    max_longitude: 105.7897179
   translations:
     en: Vĩnh Phúc
     ar: مقاطعة فنه فو
@@ -3134,16 +3263,18 @@
     ccp: "\U0001111E\U00011128\U0001111A\U00011134\U00011126\U00011134 \U0001111C\U0001112A\U00011107\U00011134"
     cs: Vinh Phuc
     yue: 永福
-  geo:
-    latitude: 21.3608805
-    longitude: 105.5474373
-    min_latitude: 21.10479
-    min_longitude: 105.322971
-    max_latitude: 21.573348
-    max_longitude: 105.7897179
-  name: Vinh Phuc
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Dien Bien
+  code: 
   unofficial_names: Dien Bien
+  geo:
+    latitude: 21.8042309
+    longitude: 103.1076525
+    min_latitude: 20.869232
+    min_longitude: 102.1482091
+    max_latitude: 22.5563429
+    max_longitude: 103.6003289
   translations:
     en: Điện Biên
     ar: محافظة دين بين
@@ -3190,16 +3321,18 @@
     ccp: "\U00011113\U00011128\U00011120\U0001112C\U0001111A\U00011134 \U0001111D\U0001112D\U00011120\U0001112C\U0001111A\U00011134"
     cs: Dien Bien
     yue: 奠邊
-  geo:
-    latitude: 21.8042309
-    longitude: 103.1076525
-    min_latitude: 20.869232
-    min_longitude: 102.1482091
-    max_latitude: 22.5563429
-    max_longitude: 103.6003289
-  name: Dien Bien
-'72':
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: Dak Nong
+  code: 
   unofficial_names: Dak Nong
+  geo:
+    latitude: 12.2646476
+    longitude: 107.609806
+    min_latitude: 11.748865
+    min_longitude: 107.2079091
+    max_latitude: 12.8117129
+    max_longitude: 108.115932
   translations:
     en: Đắk Nông
     ar: مقاطعة داك نانج
@@ -3244,16 +3377,18 @@
     ccp: "\U00011113\U00011107\U00011134 \U0001111A\U00011127\U00011101"
     cs: Đắk Nông
     yue: 得農
-  geo:
-    latitude: 12.2646476
-    longitude: 107.609806
-    min_latitude: 11.748865
-    min_longitude: 107.2079091
-    max_latitude: 12.8117129
-    max_longitude: 108.115932
-  name: Dak Nong
-'73':
+  comments: 
+'73': !ruby/struct:ISO3166::Subdivision
+  name: Hau Giang
+  code: 
   unofficial_names: Hau Giang
+  geo:
+    latitude: 9.757897999999999
+    longitude: 105.6412527
+    min_latitude: 9.5820831
+    min_longitude: 105.328687
+    max_latitude: 9.9928138
+    max_longitude: 105.8934326
   translations:
     en: Hậu Giang
     ar: محافظة هو زانغ
@@ -3296,16 +3431,18 @@
     yue_Hans: 后江
     ccp: "\U00011126\U00011127\U00011105\U0001112A \U0001110E\U00011128\U00011120\U00011101"
     yue: 後江
-  geo:
-    latitude: 9.757897999999999
-    longitude: 105.6412527
-    min_latitude: 9.5820831
-    min_longitude: 105.328687
-    max_latitude: 9.9928138
-    max_longitude: 105.8934326
-  name: Hau Giang
-CT:
+  comments: 
+CT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Can Tho
     ar: كان ثو
@@ -3363,6 +3500,11 @@ CT:
     ha: Can Tho
     yue: 芹苴
     be: Кантхо
+  comments: 
+DN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3370,8 +3512,6 @@ CT:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DN:
-  unofficial_names: 
   translations:
     af: Da Nang
     ar: دا نانغ
@@ -3443,6 +3583,11 @@ DN:
     my: ဒါနန်မြို့
     uz: Danang
     mk: Да Нанг
+  comments: 
+HN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3450,8 +3595,6 @@ DN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HN:
-  unofficial_names: 
   translations:
     af: Hanoi
     am: ሀኖይ
@@ -3535,6 +3678,11 @@ HN:
     bs: Hanoi
     mk: Ханој
     lo: ຮ່າໂນ້ຍ
+  comments: 
+HP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3542,8 +3690,6 @@ HN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HP:
-  unofficial_names: 
   translations:
     af: Hai Phong
     ar: هايفونغ
@@ -3601,6 +3747,11 @@ HP:
     or: ହାଈ ଫୋଙ୍ଗ
     yue: 海防
     ca: Hai Phong
+  comments: 
+SG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3608,8 +3759,6 @@ HP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SG:
-  unofficial_names: 
   translations:
     af: Ho Chi Minh-stad
     am: ሆ ቺ ሚን ከተማ
@@ -3693,10 +3842,4 @@ SG:
     uz: Xoshimin
     bs: Ho Ši Min Grad
     mk: Хо Ши Мин
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

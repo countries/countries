@@ -1,8 +1,8 @@
 ---
-AD:
+AD: !ruby/struct:ISO3166::Subdivision
+  name: Aerodrom *
+  code: 
   unofficial_names: Aerodrom *
-  translations:
-    en: Aerodrom *
   geo:
     latitude: 41.94643629999999
     longitude: 21.4931713
@@ -10,11 +10,13 @@ AD:
     min_longitude: 21.437095
     max_latitude: 41.9776741
     max_longitude: 21.554503
-  name: Aerodrom *
-AJ:
-  unofficial_names: Saraj *
   translations:
-    en: Saraj *
+    en: Aerodrom *
+  comments: 
+AJ: !ruby/struct:ISO3166::Subdivision
+  name: Saraj *
+  code: 
+  unofficial_names: Saraj *
   geo:
     latitude: 41.477778
     longitude: 22.7025
@@ -22,11 +24,13 @@ AJ:
     min_longitude: 22.6946086
     max_latitude: 41.4809557
     max_longitude: 22.7108663
-  name: Saraj *
-AR:
-  unofficial_names: Aracinovo
   translations:
-    en: Aracinovo
+    en: Saraj *
+  comments: 
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Aracinovo
+  code: 
+  unofficial_names: Aracinovo
   geo:
     latitude: 42.0247381
     longitude: 21.5766407
@@ -34,11 +38,13 @@ AR:
     min_longitude: 21.53742
     max_latitude: 42.07069389999999
     max_longitude: 21.633435
-  name: Aracinovo
-AV:
-  unofficial_names: Kavadarci
   translations:
-    en: Kavadarci
+    en: Aracinovo
+  comments: 
+AV: !ruby/struct:ISO3166::Subdivision
+  name: Kavadarci
+  code: 
+  unofficial_names: Kavadarci
   geo:
     latitude: 41.4329364
     longitude: 22.0088861
@@ -46,11 +52,13 @@ AV:
     min_longitude: 21.9955194
     max_latitude: 41.4443026
     max_longitude: 22.026397
-  name: Kavadarci
-BG:
-  unofficial_names: Bogdanci
   translations:
-    en: Bogdanci
+    en: Kavadarci
+  comments: 
+BG: !ruby/struct:ISO3166::Subdivision
+  name: Bogdanci
+  code: 
+  unofficial_names: Bogdanci
   geo:
     latitude: 41.203138
     longitude: 22.5754421
@@ -58,11 +66,13 @@ BG:
     min_longitude: 22.5654031
     max_latitude: 41.2095342
     max_longitude: 22.5874615
-  name: Bogdanci
-BN:
-  unofficial_names: Brvenica
   translations:
-    en: Brvenica
+    en: Bogdanci
+  comments: 
+BN: !ruby/struct:ISO3166::Subdivision
+  name: Brvenica
+  code: 
+  unofficial_names: Brvenica
   geo:
     latitude: 41.9672
     longitude: 20.9808
@@ -70,11 +80,13 @@ BN:
     min_longitude: 20.9733618
     max_latitude: 41.97606649999999
     max_longitude: 20.9886396
-  name: Brvenica
-BR:
-  unofficial_names: Berovo
   translations:
-    en: Berovo
+    en: Brvenica
+  comments: 
+BR: !ruby/struct:ISO3166::Subdivision
+  name: Berovo
+  code: 
+  unofficial_names: Berovo
   geo:
     latitude: 41.71
     longitude: 22.85
@@ -82,11 +94,13 @@ BR:
     min_longitude: 22.8312957
     max_latitude: 41.7220225
     max_longitude: 22.8621305
-  name: Berovo
-BS:
-  unofficial_names: Bosilovo
   translations:
-    en: Bosilovo
+    en: Berovo
+  comments: 
+BS: !ruby/struct:ISO3166::Subdivision
+  name: Bosilovo
+  code: 
+  unofficial_names: Bosilovo
   geo:
     latitude: 41.4406
     longitude: 22.7278
@@ -94,11 +108,13 @@ BS:
     min_longitude: 22.7187556
     max_latitude: 41.4443203
     max_longitude: 22.743305
-  name: Bosilovo
-BU:
-  unofficial_names: Butel *
   translations:
-    en: Butel *
+    en: Bosilovo
+  comments: 
+BU: !ruby/struct:ISO3166::Subdivision
+  name: Butel *
+  code: 
+  unofficial_names: Butel *
   geo:
     latitude: 42.0895068
     longitude: 21.463361
@@ -106,11 +122,13 @@ BU:
     min_longitude: 21.376825
     max_latitude: 42.1423902
     max_longitude: 21.511645
-  name: Butel *
-CA:
-  unofficial_names: Caška
   translations:
-    en: Caška
+    en: Butel *
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Caška
+  code: 
+  unofficial_names: Caška
   geo:
     latitude: 41.647438
     longitude: 21.6914115
@@ -118,11 +136,13 @@ CA:
     min_longitude: 21.6835701
     max_latitude: 41.6554159
     max_longitude: 21.697113
-  name: Caška
-CE:
-  unofficial_names: Centar *
   translations:
-    en: Centar *
+    en: Caška
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Centar *
+  code: 
+  unofficial_names: Centar *
   geo:
     latitude: 41.9953628
     longitude: 21.4246078
@@ -130,11 +150,13 @@ CE:
     min_longitude: 21.4058088
     max_latitude: 42.0143879
     max_longitude: 21.4509344
-  name: Centar *
-CH:
-  unofficial_names: Cešinovo-Obleševo
   translations:
-    en: Cešinovo-Obleševo
+    en: Centar *
+  comments: 
+CH: !ruby/struct:ISO3166::Subdivision
+  name: Cešinovo-Obleševo
+  code: 
+  unofficial_names: Cešinovo-Obleševo
   geo:
     latitude: 41.8639316
     longitude: 22.262246
@@ -142,11 +164,13 @@ CH:
     min_longitude: 22.187428
     max_latitude: 41.948915
     max_longitude: 22.39093
-  name: Cešinovo-Obleševo
-CI:
-  unofficial_names: Cair *
   translations:
-    en: Cair *
+    en: Cešinovo-Obleševo
+  comments: 
+CI: !ruby/struct:ISO3166::Subdivision
+  name: Cair *
+  code: 
+  unofficial_names: Cair *
   geo:
     latitude: 41.9930355
     longitude: 21.4365318
@@ -154,11 +178,13 @@ CI:
     min_longitude: 21.4271271
     max_latitude: 41.998022
     max_longitude: 21.4460089
-  name: Cair *
-CS:
-  unofficial_names: Cucer Sandevo
   translations:
-    en: Cucer Sandevo
+    en: Cair *
+  comments: 
+CS: !ruby/struct:ISO3166::Subdivision
+  name: Cucer Sandevo
+  code: 
+  unofficial_names: Cucer Sandevo
   geo:
     latitude: 42.0974773
     longitude: 21.3877179
@@ -166,11 +192,13 @@ CS:
     min_longitude: 21.3779903
     max_latitude: 42.1044702
     max_longitude: 21.3955476
-  name: Cucer Sandevo
-CZ:
-  unofficial_names: Centar Župa
   translations:
-    en: Centar Župa
+    en: Cucer Sandevo
+  comments: 
+CZ: !ruby/struct:ISO3166::Subdivision
+  name: Centar Župa
+  code: 
+  unofficial_names: Centar Župa
   geo:
     latitude: 41.47852779999999
     longitude: 20.5602793
@@ -178,11 +206,13 @@ CZ:
     min_longitude: 20.5503664
     max_latitude: 41.48230540000001
     max_longitude: 20.5659829
-  name: Centar Župa
-DA:
-  unofficial_names: Debarca
   translations:
-    en: Debarca
+    en: Centar Župa
+  comments: 
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Debarca
+  code: 
+  unofficial_names: Debarca
   geo:
     latitude: 42.0010109
     longitude: 21.4201574
@@ -190,11 +220,13 @@ DA:
     min_longitude: 21.4180968
     max_latitude: 42.0021113
     max_longitude: 21.4216447
-  name: Debarca
-DB:
-  unofficial_names: Debar
   translations:
-    en: Debar
+    en: Debarca
+  comments: 
+DB: !ruby/struct:ISO3166::Subdivision
+  name: Debar
+  code: 
+  unofficial_names: Debar
   geo:
     latitude: 41.5266768
     longitude: 20.5239064
@@ -202,11 +234,13 @@ DB:
     min_longitude: 20.4922057
     max_latitude: 41.54387060000001
     max_longitude: 20.5436398
-  name: Debar
-DE:
-  unofficial_names: Dolneni
   translations:
-    en: Dolneni
+    en: Debar
+  comments: 
+DE: !ruby/struct:ISO3166::Subdivision
+  name: Dolneni
+  code: 
+  unofficial_names: Dolneni
   geo:
     latitude: 41.425278
     longitude: 21.454444
@@ -214,11 +248,13 @@ DE:
     min_longitude: 21.4454475
     max_latitude: 41.4306496
     max_longitude: 21.459623
-  name: Dolneni
-DK:
-  unofficial_names: Demir Kapija
   translations:
-    en: Demir Kapija
+    en: Dolneni
+  comments: 
+DK: !ruby/struct:ISO3166::Subdivision
+  name: Demir Kapija
+  code: 
+  unofficial_names: Demir Kapija
   geo:
     latitude: 41.411389
     longitude: 22.242222
@@ -226,11 +262,13 @@ DK:
     min_longitude: 22.2329164
     max_latitude: 41.4142979
     max_longitude: 22.2562623
-  name: Demir Kapija
-DL:
-  unofficial_names: Delcevo
   translations:
-    en: Delcevo
+    en: Demir Kapija
+  comments: 
+DL: !ruby/struct:ISO3166::Subdivision
+  name: Delcevo
+  code: 
+  unofficial_names: Delcevo
   geo:
     latitude: 41.9764
     longitude: 22.7674
@@ -238,12 +276,14 @@ DL:
     min_longitude: 22.7602601
     max_latitude: 41.9899275
     max_longitude: 22.7877689
-  name: Delcevo
-DM:
+  translations:
+    en: Delcevo
+  comments: 
+DM: !ruby/struct:ISO3166::Subdivision
+  name: Demir Hisar
+  code: 
   unofficial_names:
   - Murgaševo
-  translations:
-    en: Demir Hisar
   geo:
     latitude: 41.22136039999999
     longitude: 21.2025287
@@ -251,11 +291,13 @@ DM:
     min_longitude: 21.1942202
     max_latitude: 41.2294553
     max_longitude: 21.2090261
-  name: Demir Hisar
-DR:
-  unofficial_names: Drugovo
   translations:
-    en: Drugovo
+    en: Demir Hisar
+  comments: 
+DR: !ruby/struct:ISO3166::Subdivision
+  name: Drugovo
+  code: 
+  unofficial_names: Drugovo
   geo:
     latitude: 41.4408153
     longitude: 20.9268201
@@ -263,11 +305,13 @@ DR:
     min_longitude: 20.6818601
     max_latitude: 41.616372
     max_longitude: 21.138616
-  name: Drugovo
-ET:
-  unofficial_names: Tetovo
   translations:
-    en: Tetovo
+    en: Drugovo
+  comments: 
+ET: !ruby/struct:ISO3166::Subdivision
+  name: Tetovo
+  code: 
+  unofficial_names: Tetovo
   geo:
     latitude: 42
     longitude: 20.966667
@@ -275,11 +319,13 @@ ET:
     min_longitude: 20.9485246
     max_latitude: 42.0259693
     max_longitude: 20.9893371
-  name: Tetovo
-GB:
-  unofficial_names: Gazi Baba *
   translations:
-    en: Gazi Baba *
+    en: Tetovo
+  comments: 
+GB: !ruby/struct:ISO3166::Subdivision
+  name: Gazi Baba *
+  code: 
+  unofficial_names: Gazi Baba *
   geo:
     latitude: 42.0162961
     longitude: 21.4991334
@@ -287,11 +333,13 @@ GB:
     min_longitude: 21.44421
     max_latitude: 42.1012791
     max_longitude: 21.582676
-  name: Gazi Baba *
-GP:
-  unofficial_names: Gjorce Petrov *
   translations:
-    en: Gjorce Petrov *
+    en: Gazi Baba *
+  comments: 
+GP: !ruby/struct:ISO3166::Subdivision
+  name: Gjorce Petrov *
+  code: 
+  unofficial_names: Gjorce Petrov *
   geo:
     latitude: 42.0606374
     longitude: 21.3202736
@@ -299,11 +347,13 @@ GP:
     min_longitude: 21.242506
     max_latitude: 42.1126457
     max_longitude: 21.360891
-  name: Gjorce Petrov *
-GR:
-  unofficial_names: Gradsko
   translations:
-    en: Gradsko
+    en: Gjorce Petrov *
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Gradsko
+  code: 
+  unofficial_names: Gradsko
   geo:
     latitude: 41.5750625
     longitude: 21.9494531
@@ -311,11 +361,13 @@ GR:
     min_longitude: 21.9327078
     max_latitude: 41.5846933
     max_longitude: 21.9661031
-  name: Gradsko
-GT:
-  unofficial_names: Gostivar
   translations:
-    en: Gostivar
+    en: Gradsko
+  comments: 
+GT: !ruby/struct:ISO3166::Subdivision
+  name: Gostivar
+  code: 
+  unofficial_names: Gostivar
   geo:
     latitude: 41.8
     longitude: 20.916667
@@ -323,11 +375,13 @@ GT:
     min_longitude: 20.8848596
     max_latitude: 41.81792859999999
     max_longitude: 20.9324742
-  name: Gostivar
-GV:
-  unofficial_names: Gevgelija
   translations:
-    en: Gevgelija
+    en: Gostivar
+  comments: 
+GV: !ruby/struct:ISO3166::Subdivision
+  name: Gevgelija
+  code: 
+  unofficial_names: Gevgelija
   geo:
     latitude: 41.140278
     longitude: 22.502778
@@ -335,11 +389,13 @@ GV:
     min_longitude: 22.4868571
     max_latitude: 41.1520004
     max_longitude: 22.5183677
-  name: Gevgelija
-IL:
-  unofficial_names: Ilinden
   translations:
-    en: Ilinden
+    en: Gevgelija
+  comments: 
+IL: !ruby/struct:ISO3166::Subdivision
+  name: Ilinden
+  code: 
+  unofficial_names: Ilinden
   geo:
     latitude: 41.98999999999999
     longitude: 21.58
@@ -347,11 +403,13 @@ IL:
     min_longitude: 21.5397289
     max_latitude: 42.0042037
     max_longitude: 21.5856242
-  name: Ilinden
-JG:
-  unofficial_names: Jegunovce
   translations:
-    en: Jegunovce
+    en: Ilinden
+  comments: 
+JG: !ruby/struct:ISO3166::Subdivision
+  name: Jegunovce
+  code: 
+  unofficial_names: Jegunovce
   geo:
     latitude: 42.07407200000001
     longitude: 21.1220478
@@ -359,11 +417,13 @@ JG:
     min_longitude: 21.1171566
     max_latitude: 42.0776731
     max_longitude: 21.128905
-  name: Jegunovce
-KB:
-  unofficial_names: Karbinci
   translations:
-    en: Karbinci
+    en: Jegunovce
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: Karbinci
+  code: 
+  unofficial_names: Karbinci
   geo:
     latitude: 41.8180159
     longitude: 22.2324758
@@ -371,11 +431,13 @@ KB:
     min_longitude: 22.2270155
     max_latitude: 41.822406
     max_longitude: 22.2458124
-  name: Karbinci
-KG:
-  unofficial_names: Krivogaštani
   translations:
-    en: Krivogaštani
+    en: Karbinci
+  comments: 
+KG: !ruby/struct:ISO3166::Subdivision
+  name: Krivogaštani
+  code: 
+  unofficial_names: Krivogaštani
   geo:
     latitude: 41.30823059999999
     longitude: 21.3679689
@@ -383,11 +445,13 @@ KG:
     min_longitude: 21.3069439
     max_latitude: 41.3876829
     max_longitude: 21.428434
-  name: Krivogaštani
-KH:
-  unofficial_names: Kicevo
   translations:
-    en: Kicevo
+    en: Krivogaštani
+  comments: 
+KH: !ruby/struct:ISO3166::Subdivision
+  name: Kicevo
+  code: 
+  unofficial_names: Kicevo
   geo:
     latitude: 41.5158412
     longitude: 20.9586619
@@ -395,11 +459,13 @@ KH:
     min_longitude: 20.9361862
     max_latitude: 41.5350852
     max_longitude: 20.973544
-  name: Kicevo
-KN:
-  unofficial_names: Konce
   translations:
-    en: Konce
+    en: Kicevo
+  comments: 
+KN: !ruby/struct:ISO3166::Subdivision
+  name: Konce
+  code: 
+  unofficial_names: Konce
   geo:
     latitude: 41.4965779
     longitude: 22.3829526
@@ -407,11 +473,13 @@ KN:
     min_longitude: 22.3740407
     max_latitude: 41.4997406
     max_longitude: 22.3924967
-  name: Konce
-KS:
-  unofficial_names: Kruševo
   translations:
-    en: Kruševo
+    en: Konce
+  comments: 
+KS: !ruby/struct:ISO3166::Subdivision
+  name: Kruševo
+  code: 
+  unofficial_names: Kruševo
   geo:
     latitude: 41.3801216
     longitude: 21.2435597
@@ -419,11 +487,13 @@ KS:
     min_longitude: 21.2435457
     max_latitude: 41.3801311
     max_longitude: 21.2442461
-  name: Kruševo
-KX:
-  unofficial_names: Karpoš *
   translations:
-    en: Karpoš *
+    en: Kruševo
+  comments: 
+KX: !ruby/struct:ISO3166::Subdivision
+  name: Karpoš *
+  code: 
+  unofficial_names: Karpoš *
   geo:
     latitude: 42.156389
     longitude: 21.741111
@@ -431,11 +501,13 @@ KX:
     min_longitude: 21.727438
     max_latitude: 42.1677295
     max_longitude: 21.7596245
-  name: Karpoš *
-KY:
-  unofficial_names: Kratovo
   translations:
-    en: Kratovo
+    en: Karpoš *
+  comments: 
+KY: !ruby/struct:ISO3166::Subdivision
+  name: Kratovo
+  code: 
+  unofficial_names: Kratovo
   geo:
     latitude: 42.0800379
     longitude: 22.1802799
@@ -443,11 +515,13 @@ KY:
     min_longitude: 22.1586944
     max_latitude: 42.0853964
     max_longitude: 22.1919322
-  name: Kratovo
-KZ:
-  unofficial_names: Kriva Palanka
   translations:
-    en: Kriva Palanka
+    en: Kratovo
+  comments: 
+KZ: !ruby/struct:ISO3166::Subdivision
+  name: Kriva Palanka
+  code: 
+  unofficial_names: Kriva Palanka
   geo:
     latitude: 42.2058454
     longitude: 22.3307965
@@ -455,11 +529,13 @@ KZ:
     min_longitude: 22.3109686
     max_latitude: 42.2233612
     max_longitude: 22.3575425
-  name: Kriva Palanka
-LI:
-  unofficial_names: Lipkovo
   translations:
-    en: Lipkovo
+    en: Kriva Palanka
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: Lipkovo
+  code: 
+  unofficial_names: Lipkovo
   geo:
     latitude: 42.1561352
     longitude: 21.5870744
@@ -467,11 +543,13 @@ LI:
     min_longitude: 21.5788866
     max_latitude: 42.1622105
     max_longitude: 21.5949798
-  name: Lipkovo
-LO:
-  unofficial_names: Lozovo
   translations:
-    en: Lozovo
+    en: Lipkovo
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: Lozovo
+  code: 
+  unofficial_names: Lozovo
   geo:
     latitude: 41.780833
     longitude: 21.901111
@@ -479,11 +557,13 @@ LO:
     min_longitude: 21.8945146
     max_latitude: 41.7860898
     max_longitude: 21.9099512
-  name: Lozovo
-MD:
-  unofficial_names: Makedonski Brod
   translations:
-    en: Makedonski Brod
+    en: Lozovo
+  comments: 
+MD: !ruby/struct:ISO3166::Subdivision
+  name: Makedonski Brod
+  code: 
+  unofficial_names: Makedonski Brod
   geo:
     latitude: 41.5133088
     longitude: 21.2174329
@@ -491,11 +571,13 @@ MD:
     min_longitude: 21.2085485
     max_latitude: 41.5210334
     max_longitude: 21.2262081
-  name: Makedonski Brod
-MG:
-  unofficial_names: Mogila
   translations:
-    en: Mogila
+    en: Makedonski Brod
+  comments: 
+MG: !ruby/struct:ISO3166::Subdivision
+  name: Mogila
+  code: 
+  unofficial_names: Mogila
   geo:
     latitude: 41.108056
     longitude: 21.378333
@@ -503,11 +585,13 @@ MG:
     min_longitude: 21.3631968
     max_latitude: 41.1192271
     max_longitude: 21.3925414
-  name: Mogila
-MK:
-  unofficial_names: Makedonska Kamenica
   translations:
-    en: Makedonska Kamenica
+    en: Mogila
+  comments: 
+MK: !ruby/struct:ISO3166::Subdivision
+  name: Makedonska Kamenica
+  code: 
+  unofficial_names: Makedonska Kamenica
   geo:
     latitude: 42.019722
     longitude: 22.591667
@@ -515,11 +599,13 @@ MK:
     min_longitude: 22.5755525
     max_latitude: 42.0301294
     max_longitude: 22.5955296
-  name: Makedonska Kamenica
-MR:
-  unofficial_names: Mavrovo-i-Rostuša
   translations:
-    en: Mavrovo-i-Rostuša
+    en: Makedonska Kamenica
+  comments: 
+MR: !ruby/struct:ISO3166::Subdivision
+  name: Mavrovo-i-Rostuša
+  code: 
+  unofficial_names: Mavrovo-i-Rostuša
   geo:
     latitude: 41.65
     longitude: 20.733333
@@ -527,11 +613,13 @@ MR:
     min_longitude: 20.7295946
     max_latitude: 41.6620718
     max_longitude: 20.7384775
-  name: Mavrovo-i-Rostuša
-NA:
-  unofficial_names: Staro Nagoricane
   translations:
-    en: Staro Nagoricane
+    en: Mavrovo-i-Rostuša
+  comments: 
+NA: !ruby/struct:ISO3166::Subdivision
+  name: Staro Nagoricane
+  code: 
+  unofficial_names: Staro Nagoricane
   geo:
     latitude: 42.2
     longitude: 21.833333
@@ -539,11 +627,13 @@ NA:
     min_longitude: 21.8216873
     max_latitude: 42.2047782
     max_longitude: 21.8368701
-  name: Staro Nagoricane
-NG:
-  unofficial_names: Negotino
   translations:
-    en: Negotino
+    en: Staro Nagoricane
+  comments: 
+NG: !ruby/struct:ISO3166::Subdivision
+  name: Negotino
+  code: 
+  unofficial_names: Negotino
   geo:
     latitude: 41.4989985
     longitude: 22.0953297
@@ -551,11 +641,13 @@ NG:
     min_longitude: 21.9803289
     max_latitude: 41.6542421
     max_longitude: 22.3007181
-  name: Negotino
-NI:
-  unofficial_names: Vinica
   translations:
-    en: Vinica
+    en: Negotino
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: Vinica
+  code: 
+  unofficial_names: Vinica
   geo:
     latitude: 49.233083
     longitude: 28.468217
@@ -563,11 +655,13 @@ NI:
     min_longitude: 28.3681799
     max_latitude: 49.27902
     max_longitude: 28.5710879
-  name: Vinica
-NS:
-  unofficial_names: Novo Selo
   translations:
-    en: Novo Selo
+    en: Vinica
+  comments: 
+NS: !ruby/struct:ISO3166::Subdivision
+  name: Novo Selo
+  code: 
+  unofficial_names: Novo Selo
   geo:
     latitude: 41.413889
     longitude: 22.880833
@@ -575,11 +669,13 @@ NS:
     min_longitude: 22.8698898
     max_latitude: 41.4201658
     max_longitude: 22.8911822
-  name: Novo Selo
-NV:
-  unofficial_names: Novaci
   translations:
-    en: Novaci
+    en: Novo Selo
+  comments: 
+NV: !ruby/struct:ISO3166::Subdivision
+  name: Novaci
+  code: 
+  unofficial_names: Novaci
   geo:
     latitude: 45.18
     longitude: 23.67
@@ -587,11 +683,13 @@ NV:
     min_longitude: 23.6471701
     max_latitude: 45.2153314
     max_longitude: 23.6997415
-  name: Novaci
-OC:
-  unofficial_names: Kocani
   translations:
-    en: Kocani
+    en: Novaci
+  comments: 
+OC: !ruby/struct:ISO3166::Subdivision
+  name: Kocani
+  code: 
+  unofficial_names: Kocani
   geo:
     latitude: 41.91680480000001
     longitude: 22.4082849
@@ -599,11 +697,13 @@ OC:
     min_longitude: 22.3931301
     max_latitude: 41.93393890000001
     max_longitude: 22.4394573
-  name: Kocani
-OD:
-  unofficial_names: Ohrid
   translations:
-    en: Ohrid
+    en: Kocani
+  comments: 
+OD: !ruby/struct:ISO3166::Subdivision
+  name: Ohrid
+  code: 
+  unofficial_names: Ohrid
   geo:
     latitude: 41.1230977
     longitude: 20.8016481
@@ -611,11 +711,13 @@ OD:
     min_longitude: 20.7540128
     max_latitude: 41.148656
     max_longitude: 20.8305932
-  name: Ohrid
-OS:
-  unofficial_names: Oslomej
   translations:
-    en: Oslomej
+    en: Ohrid
+  comments: 
+OS: !ruby/struct:ISO3166::Subdivision
+  name: Oslomej
+  code: 
+  unofficial_names: Oslomej
   geo:
     latitude: 41.5758391
     longitude: 21.022196
@@ -623,11 +725,13 @@ OS:
     min_longitude: 20.9666249
     max_latitude: 41.648807
     max_longitude: 21.1034419
-  name: Oslomej
-PE:
-  unofficial_names: Petrovec
   translations:
-    en: Petrovec
+    en: Oslomej
+  comments: 
+PE: !ruby/struct:ISO3166::Subdivision
+  name: Petrovec
+  code: 
+  unofficial_names: Petrovec
   geo:
     latitude: 41.933333
     longitude: 21.616667
@@ -635,11 +739,13 @@ PE:
     min_longitude: 21.5950228
     max_latitude: 41.946245
     max_longitude: 21.6286469
-  name: Petrovec
-PH:
-  unofficial_names: Pehcevo
   translations:
-    en: Pehcevo
+    en: Petrovec
+  comments: 
+PH: !ruby/struct:ISO3166::Subdivision
+  name: Pehcevo
+  code: 
+  unofficial_names: Pehcevo
   geo:
     latitude: 41.76
     longitude: 22.88
@@ -647,11 +753,13 @@ PH:
     min_longitude: 22.8748494
     max_latitude: 41.7662424
     max_longitude: 22.8996384
-  name: Pehcevo
-PN:
-  unofficial_names: Plasnica
   translations:
-    en: Plasnica
+    en: Pehcevo
+  comments: 
+PN: !ruby/struct:ISO3166::Subdivision
+  name: Plasnica
+  code: 
+  unofficial_names: Plasnica
   geo:
     latitude: 41.45463489999999
     longitude: 21.1056539
@@ -659,11 +767,13 @@ PN:
     min_longitude: 21.038705
     max_latitude: 41.48252400000001
     max_longitude: 21.1960519
-  name: Plasnica
-PP:
-  unofficial_names: Prilep
   translations:
-    en: Prilep
+    en: Plasnica
+  comments: 
+PP: !ruby/struct:ISO3166::Subdivision
+  name: Prilep
+  code: 
+  unofficial_names: Prilep
   geo:
     latitude: 41.344444
     longitude: 21.552778
@@ -671,11 +781,13 @@ PP:
     min_longitude: 21.5153933
     max_latitude: 41.36455429999999
     max_longitude: 21.5810538
-  name: Prilep
-PT:
-  unofficial_names: Probištip
   translations:
-    en: Probištip
+    en: Prilep
+  comments: 
+PT: !ruby/struct:ISO3166::Subdivision
+  name: Probištip
+  code: 
+  unofficial_names: Probištip
   geo:
     latitude: 41.9948176
     longitude: 22.1877315
@@ -683,11 +795,13 @@ PT:
     min_longitude: 22.1594237
     max_latitude: 42.0117575
     max_longitude: 22.1926832
-  name: Probištip
-RE:
-  unofficial_names: Resen
   translations:
-    en: Resen
+    en: Probištip
+  comments: 
+RE: !ruby/struct:ISO3166::Subdivision
+  name: Resen
+  code: 
+  unofficial_names: Resen
   geo:
     latitude: 41.0889
     longitude: 21.0122
@@ -695,11 +809,13 @@ RE:
     min_longitude: 20.9988428
     max_latitude: 41.0996959
     max_longitude: 21.0292053
-  name: Resen
-RM:
-  unofficial_names: Rosoman
   translations:
-    en: Rosoman
+    en: Resen
+  comments: 
+RM: !ruby/struct:ISO3166::Subdivision
+  name: Rosoman
+  code: 
+  unofficial_names: Rosoman
   geo:
     latitude: 41.4848006
     longitude: 21.8807064
@@ -707,11 +823,13 @@ RM:
     min_longitude: 21.8100951
     max_latitude: 41.555479
     max_longitude: 21.984525
-  name: Rosoman
-RN:
-  unofficial_names: Rankovce
   translations:
-    en: Rankovce
+    en: Rosoman
+  comments: 
+RN: !ruby/struct:ISO3166::Subdivision
+  name: Rankovce
+  code: 
+  unofficial_names: Rankovce
   geo:
     latitude: 42.1695387
     longitude: 22.116195
@@ -719,11 +837,13 @@ RN:
     min_longitude: 22.1079684
     max_latitude: 42.17991079999999
     max_longitude: 22.1322583
-  name: Rankovce
-RU:
-  unofficial_names: Strumica
   translations:
-    en: Strumica
+    en: Rankovce
+  comments: 
+RU: !ruby/struct:ISO3166::Subdivision
+  name: Strumica
+  code: 
+  unofficial_names: Strumica
   geo:
     latitude: 41.4378004
     longitude: 22.6427428
@@ -731,11 +851,13 @@ RU:
     min_longitude: 22.6253986
     max_latitude: 41.45609169999999
     max_longitude: 22.6640654
-  name: Strumica
-RV:
-  unofficial_names: Radoviš
   translations:
-    en: Radoviš
+    en: Strumica
+  comments: 
+RV: !ruby/struct:ISO3166::Subdivision
+  name: Radoviš
+  code: 
+  unofficial_names: Radoviš
   geo:
     latitude: 41.636111
     longitude: 22.466667
@@ -743,11 +865,13 @@ RV:
     min_longitude: 22.4439095
     max_latitude: 41.64887359999999
     max_longitude: 22.4798942
-  name: Radoviš
-SD:
-  unofficial_names: Dojran
   translations:
-    en: Dojran
+    en: Radoviš
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Dojran
+  code: 
+  unofficial_names: Dojran
   geo:
     latitude: 41.2436672
     longitude: 22.6913764
@@ -755,11 +879,13 @@ SD:
     min_longitude: 22.5653611
     max_latitude: 41.2946641
     max_longitude: 22.7681351
-  name: Dojran
-SL:
-  unofficial_names: Sveti Nikole
   translations:
-    en: Sveti Nikole
+    en: Dojran
+  comments: 
+SL: !ruby/struct:ISO3166::Subdivision
+  name: Sveti Nikole
+  code: 
+  unofficial_names: Sveti Nikole
   geo:
     latitude: 41.866667
     longitude: 21.95
@@ -767,11 +893,13 @@ SL:
     min_longitude: 21.9269728
     max_latitude: 41.8749934
     max_longitude: 21.9508554
-  name: Sveti Nikole
-SO:
-  unofficial_names: Šuto Orizari *
   translations:
-    en: Šuto Orizari *
+    en: Sveti Nikole
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Šuto Orizari *
+  code: 
+  unofficial_names: Šuto Orizari *
   geo:
     latitude: 42.0290416
     longitude: 21.4097027
@@ -779,11 +907,13 @@ SO:
     min_longitude: 21.388165
     max_latitude: 42.0519889
     max_longitude: 21.4261011
-  name: Šuto Orizari *
-SS:
-  unofficial_names: Sopište
   translations:
-    en: Sopište
+    en: Šuto Orizari *
+  comments: 
+SS: !ruby/struct:ISO3166::Subdivision
+  name: Sopište
+  code: 
+  unofficial_names: Sopište
   geo:
     latitude: 41.9500453
     longitude: 21.4201362
@@ -791,11 +921,13 @@ SS:
     min_longitude: 21.4102507
     max_latitude: 41.9634592
     max_longitude: 21.4390469
-  name: Sopište
-ST:
-  unofficial_names: Štip
   translations:
-    en: Štip
+    en: Sopište
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: Štip
+  code: 
+  unofficial_names: Štip
   geo:
     latitude: 41.737503
     longitude: 22.193558
@@ -803,11 +935,13 @@ ST:
     min_longitude: 22.167642
     max_latitude: 41.7626373
     max_longitude: 22.2150422
-  name: Štip
-SU:
-  unofficial_names: Studenicani
   translations:
-    en: Studenicani
+    en: Štip
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: Studenicani
+  code: 
+  unofficial_names: Studenicani
   geo:
     latitude: 41.9225639
     longitude: 21.5363965
@@ -815,11 +949,13 @@ SU:
     min_longitude: 21.5259503
     max_latitude: 41.9318797
     max_longitude: 21.5444898
-  name: Studenicani
-TL:
-  unofficial_names: Bitola
   translations:
-    en: Bitola
+    en: Studenicani
+  comments: 
+TL: !ruby/struct:ISO3166::Subdivision
+  name: Bitola
+  code: 
+  unofficial_names: Bitola
   geo:
     latitude: 41.031944
     longitude: 21.334722
@@ -827,11 +963,13 @@ TL:
     min_longitude: 21.2948782
     max_latitude: 41.048879
     max_longitude: 21.3622927
-  name: Bitola
-TR:
-  unofficial_names: Tearce
   translations:
-    en: Tearce
+    en: Bitola
+  comments: 
+TR: !ruby/struct:ISO3166::Subdivision
+  name: Tearce
+  code: 
+  unofficial_names: Tearce
   geo:
     latitude: 42.0777511
     longitude: 21.0534923
@@ -839,11 +977,13 @@ TR:
     min_longitude: 21.0445913
     max_latitude: 42.0861885
     max_longitude: 21.0603228
-  name: Tearce
-UG:
-  unofficial_names: Struga
   translations:
-    en: Struga
+    en: Tearce
+  comments: 
+UG: !ruby/struct:ISO3166::Subdivision
+  name: Struga
+  code: 
+  unofficial_names: Struga
   geo:
     latitude: 41.1778353
     longitude: 20.6783258
@@ -851,11 +991,13 @@ UG:
     min_longitude: 20.6343199
     max_latitude: 41.1973695
     max_longitude: 20.7272307
-  name: Struga
-UM:
-  unofficial_names: Kumanovo
   translations:
-    en: Kumanovo
+    en: Struga
+  comments: 
+UM: !ruby/struct:ISO3166::Subdivision
+  name: Kumanovo
+  code: 
+  unofficial_names: Kumanovo
   geo:
     latitude: 42.135833
     longitude: 21.718056
@@ -863,11 +1005,13 @@ UM:
     min_longitude: 21.6693091
     max_latitude: 42.170783
     max_longitude: 21.7575538
-  name: Kumanovo
-VA:
-  unofficial_names: Valandovo
   translations:
-    en: Valandovo
+    en: Kumanovo
+  comments: 
+VA: !ruby/struct:ISO3166::Subdivision
+  name: Valandovo
+  code: 
+  unofficial_names: Valandovo
   geo:
     latitude: 41.316944
     longitude: 22.561111
@@ -875,11 +1019,13 @@ VA:
     min_longitude: 22.5510478
     max_latitude: 41.3221053
     max_longitude: 22.5714327
-  name: Valandovo
-VC:
-  unofficial_names: Vraneštica
   translations:
-    en: Vraneštica
+    en: Valandovo
+  comments: 
+VC: !ruby/struct:ISO3166::Subdivision
+  name: Vraneštica
+  code: 
+  unofficial_names: Vraneštica
   geo:
     latitude: 41.4453257
     longitude: 21.0259217
@@ -887,11 +1033,13 @@ VC:
     min_longitude: 21.0224727
     max_latitude: 41.4484842
     max_longitude: 21.0308243
-  name: Vraneštica
-VD:
-  unofficial_names: Kisela Voda *
   translations:
-    en: Kisela Voda *
+    en: Vraneštica
+  comments: 
+VD: !ruby/struct:ISO3166::Subdivision
+  name: Kisela Voda *
+  code: 
+  unofficial_names: Kisela Voda *
   geo:
     latitude: 41.92748
     longitude: 21.4931713
@@ -899,11 +1047,13 @@ VD:
     min_longitude: 21.425928
     max_latitude: 41.9678721
     max_longitude: 21.5344229
-  name: Kisela Voda *
-VE:
-  unofficial_names: Veles
   translations:
-    en: Veles
+    en: Kisela Voda *
+  comments: 
+VE: !ruby/struct:ISO3166::Subdivision
+  name: Veles
+  code: 
+  unofficial_names: Veles
   geo:
     latitude: 41.7138462
     longitude: 21.7704092
@@ -911,11 +1061,13 @@ VE:
     min_longitude: 21.7434913
     max_latitude: 41.737505
     max_longitude: 21.7968535
-  name: Veles
-VH:
-  unofficial_names: Vrapcište
   translations:
-    en: Vrapcište
+    en: Veles
+  comments: 
+VH: !ruby/struct:ISO3166::Subdivision
+  name: Vrapcište
+  code: 
+  unofficial_names: Vrapcište
   geo:
     latitude: 41.83841779999999
     longitude: 20.8858003
@@ -923,11 +1075,13 @@ VH:
     min_longitude: 20.8794765
     max_latitude: 41.8453661
     max_longitude: 20.890842
-  name: Vrapcište
-VJ:
-  unofficial_names: Bogovinje
   translations:
-    en: Bogovinje
+    en: Vrapcište
+  comments: 
+VJ: !ruby/struct:ISO3166::Subdivision
+  name: Bogovinje
+  code: 
+  unofficial_names: Bogovinje
   geo:
     latitude: 41.9236371
     longitude: 20.9163887
@@ -935,11 +1089,13 @@ VJ:
     min_longitude: 20.9023664
     max_latitude: 41.9338751
     max_longitude: 20.9272813
-  name: Bogovinje
-VL:
-  unofficial_names: Vasilevo
   translations:
-    en: Vasilevo
+    en: Bogovinje
+  comments: 
+VL: !ruby/struct:ISO3166::Subdivision
+  name: Vasilevo
+  code: 
+  unofficial_names: Vasilevo
   geo:
     latitude: 41.5201985
     longitude: 22.6437026
@@ -947,11 +1103,13 @@ VL:
     min_longitude: 22.499725
     max_latitude: 41.631592
     max_longitude: 22.731699
-  name: Vasilevo
-VV:
-  unofficial_names: Vevcani
   translations:
-    en: Vevcani
+    en: Vasilevo
+  comments: 
+VV: !ruby/struct:ISO3166::Subdivision
+  name: Vevcani
+  code: 
+  unofficial_names: Vevcani
   geo:
     latitude: 41.2403
     longitude: 20.5931
@@ -959,11 +1117,13 @@ VV:
     min_longitude: 20.5857504
     max_latitude: 41.25057229999999
     max_longitude: 20.6043006
-  name: Vevcani
-X1~:
-  unofficial_names: Skopje
   translations:
-    en: Skopje
+    en: Vevcani
+  comments: 
+X1~: !ruby/struct:ISO3166::Subdivision
+  name: Skopje
+  code: 
+  unofficial_names: Skopje
   geo:
     latitude: 41.9973462
     longitude: 21.4279956
@@ -971,11 +1131,13 @@ X1~:
     min_longitude: 21.3120283
     max_latitude: 42.0531486
     max_longitude: 21.5377522
-  name: Skopje
-ZA:
-  unofficial_names: Zajas
   translations:
-    en: Zajas
+    en: Skopje
+  comments: 
+ZA: !ruby/struct:ISO3166::Subdivision
+  name: Zajas
+  code: 
+  unofficial_names: Zajas
   geo:
     latitude: 41.6030328
     longitude: 20.8791343
@@ -983,11 +1145,13 @@ ZA:
     min_longitude: 20.7818541
     max_latitude: 41.664541
     max_longitude: 20.9886531
-  name: Zajas
-ZE:
-  unofficial_names: Želino
   translations:
-    en: Želino
+    en: Zajas
+  comments: 
+ZE: !ruby/struct:ISO3166::Subdivision
+  name: Želino
+  code: 
+  unofficial_names: Želino
   geo:
     latitude: 41.98034190000001
     longitude: 21.0609438
@@ -995,11 +1159,13 @@ ZE:
     min_longitude: 21.0548639
     max_latitude: 41.9876251
     max_longitude: 21.0698751
-  name: Želino
-ZK:
-  unofficial_names: Zelenikovo
   translations:
-    en: Zelenikovo
+    en: Želino
+  comments: 
+ZK: !ruby/struct:ISO3166::Subdivision
+  name: Zelenikovo
+  code: 
+  unofficial_names: Zelenikovo
   geo:
     latitude: 41.8733812
     longitude: 21.602725
@@ -1007,11 +1173,13 @@ ZK:
     min_longitude: 21.5935826
     max_latitude: 41.8769431
     max_longitude: 21.6099306
-  name: Zelenikovo
-ZR:
-  unofficial_names: Zrnovci
   translations:
-    en: Zrnovci
+    en: Zelenikovo
+  comments: 
+ZR: !ruby/struct:ISO3166::Subdivision
+  name: Zrnovci
+  code: 
+  unofficial_names: Zrnovci
   geo:
     latitude: 41.8228221
     longitude: 22.4172256
@@ -1019,9 +1187,20 @@ ZR:
     min_longitude: 22.354366
     max_latitude: 41.8693271
     max_longitude: 22.4490741
-  name: Zrnovci
-'85':
+  translations:
+    en: Zrnovci
+  comments: 
+'85': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Skopje
     am: ስኮፕዬ
@@ -1099,6 +1278,11 @@ ZR:
     uz: Skopye
     bs: Skoplje
     mk: Град Скопје
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1106,8 +1290,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     ar: بلدية أراتسينوفو
     bg: Арачиново
@@ -1155,6 +1337,11 @@ ZR:
     sq: Komuna e Haraçinës
     ccp: "\U00011103\U00011122\U00011125\U0001112C\U0001111A\U0001112E\U0001111E\U0001112E"
     mk: Општина Арачиново
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1162,8 +1349,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     ar: بلدية بيروفو
     bg: Берово (община)
@@ -1210,6 +1395,11 @@ ZR:
     sq: Komuna e Berovës
     ccp: "\U0001111D\U0001112C\U00011122\U0001112E\U0001111E\U0001112E"
     mk: Општина Берово
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1217,8 +1407,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     ar: بلدية بيتولا
     bg: Битоля
@@ -1264,6 +1452,11 @@ ZR:
     sq: Komuna e Manastirit
     ccp: "\U0001111D\U00011128\U00011111\U0001112E\U00011123"
     mk: Општина Битола
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1271,8 +1464,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     ar: بلدية بوجدانسى
     bg: Богданци
@@ -1319,6 +1510,11 @@ ZR:
     sq: Komuna e Bogdancës
     ccp: "\U0001111D\U00011127\U00011107\U00011134\U00011113\U0001111A\U00011134\U00011125\U00011128"
     mk: Општина Богданци
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1326,8 +1522,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     ar: بلدية بوغوفينج
     bg: Боговине
@@ -1373,6 +1567,11 @@ ZR:
     sq: Komuna e Bogovinës
     ccp: "\U0001111D\U0001112E\U00011109\U0001112E\U0001111E\U00011128\U0001111A\U00011134\U0001110E\U0001112C"
     mk: Општина Боговиње
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1380,8 +1579,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ar: بلدية بوسيلوفو
     bg: Босилово
@@ -1428,6 +1625,11 @@ ZR:
     sq: Komuna e Bosilovës
     ccp: "\U0001111D\U0001112E\U00011125\U00011128\U00011123\U0001112E\U0001111E\U0001112E"
     mk: Општина Босилово
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1435,8 +1637,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     ar: بلدية برفينيتسا
     bg: Бървеница
@@ -1483,6 +1683,11 @@ ZR:
     sq: Komuna e Bërvenicës
     ccp: "\U0001111D\U00011133\U00011122\U0001111E\U0001112C\U0001111A\U00011128\U00011107"
     mk: Општина Брвеница
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1490,8 +1695,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'11':
-  unofficial_names: 
   translations:
     ar: فاسيليفو
     bg: Василево
@@ -1540,6 +1743,11 @@ ZR:
     sq: Komuna e Vasilevës
     ccp: "\U0001111E\U00011125\U00011128\U00011123\U0001112C\U0001111E\U0001112E"
     mk: Општина Василево
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1547,8 +1755,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'14':
-  unofficial_names: 
   translations:
     ar: بلدية فينيتسا
     bg: Виница
@@ -1594,6 +1800,11 @@ ZR:
     sq: Komuna e Vinicës
     ccp: "\U0001111E\U00011128\U0001111A\U00011128\U00011107"
     mk: Општина Виница
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1601,8 +1812,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'19':
-  unofficial_names: 
   translations:
     ar: بلدية غوستيفار
     bg: Гостивар
@@ -1650,6 +1859,11 @@ ZR:
     ccp: "\U00011109\U0001112E\U0001110C\U00011134\U00011111\U00011128\U0001111E\U00011122\U00011134"
     hu: Gosztivari járás
     mk: Општина Гостивар
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1657,8 +1871,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'20':
-  unofficial_names: 
   translations:
     ar: بلدية غرادسكو
     bg: Градско
@@ -1705,6 +1917,11 @@ ZR:
     sq: Komuna e Grackës
     ccp: "\U00011109\U00011133\U00011122\U00011116\U00011134\U00011125\U00011134\U00011107\U0001112E"
     mk: Општина Градско
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1712,8 +1929,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'21':
-  unofficial_names: 
   translations:
     ar: بلدية ديبار
     bg: Дебър
@@ -1759,6 +1974,11 @@ ZR:
     sq: Komuna e Dibrës
     ccp: "\U00011113\U0001112C\U0001111D\U00011127\U00011122\U00011134"
     mk: Општина Дебар
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1766,8 +1986,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'22':
-  unofficial_names: 
   translations:
     ar: بلدية ديباركا
     bg: Дебърца
@@ -1815,6 +2033,11 @@ ZR:
     ccp: "\U00011113\U0001112C\U0001111D\U00011127\U00011122\U00011134\U00011107"
     ro: Comuna Debarca
     mk: Општина Дебарца
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1822,8 +2045,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'23':
-  unofficial_names: 
   translations:
     ar: بلدية ديلتشيفو
     bg: Царево село
@@ -1870,6 +2091,11 @@ ZR:
     sq: Komuna e Dellçevës
     ccp: "\U00011113\U0001112C\U00011123\U00011134\U00011125\U00011128\U0001111A\U0001112E"
     mk: Општина Делчево
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1877,8 +2103,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'27':
-  unofficial_names: 
   translations:
     ar: بلدية دولنيني
     bg: Долнени
@@ -1925,6 +2149,11 @@ ZR:
     sq: Komuna e Dollnenit
     ccp: "\U00011113\U0001112E\U00011123\U00011134\U0001111A\U0001112C\U0001111A\U00011128"
     mk: Општина Долнени
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1932,8 +2161,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'30':
-  unofficial_names: 
   translations:
     ar: بلدية تزيلينو
     bg: Желино
@@ -1979,6 +2206,11 @@ ZR:
     sq: Komuna e Zhelinës
     ccp: "\U0001110E\U0001112C\U00011123\U00011128\U0001111A\U0001112E"
     mk: Општина Желино
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1986,8 +2218,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'32':
-  unofficial_names: 
   translations:
     ar: بلدية زيلينيكوفو
     bg: Община Зелениково
@@ -2034,6 +2264,11 @@ ZR:
     sq: Komuna e Zelenikovës
     ccp: "\U0001110E\U0001112C\U00011123\U0001112C\U0001111A\U00011128\U00011107\U0001112E\U0001111E\U0001112E"
     mk: Општина Зелениково
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2041,8 +2276,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'33':
-  unofficial_names: 
   translations:
     ar: بلدية زرنوفتشي
     bg: Зърновци
@@ -2088,6 +2321,11 @@ ZR:
     sq: Komuna e Zërnocit
     ccp: "\U0001111A\U0001112E\U0001111B\U00011134\U00011125\U00011128"
     mk: Општина Зрновци
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2095,8 +2333,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'34':
-  unofficial_names: 
   translations:
     ar: بلدية إليندن
     bg: Белимбегово
@@ -2143,6 +2379,11 @@ ZR:
     sq: Komuna e Belimbegut
     ccp: "\U00011103\U00011128\U00011123\U00011128\U0001111A\U00011134\U00011113\U0001112C\U0001111A\U00011134"
     mk: Општина Илинден
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2150,8 +2391,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'35':
-  unofficial_names: 
   translations:
     ar: بلدية جيغونوفس
     bg: Йегуновце
@@ -2197,6 +2436,11 @@ ZR:
     sq: Komuna e Jegunocit
     ccp: "\U0001110E\U0001112C\U00011109\U0001112A\U0001111A\U0001112E\U0001111B\U00011134"
     mk: Општина Јегуновце
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2204,8 +2448,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'36':
-  unofficial_names: 
   translations:
     ar: بلدية كافادارتسي
     bg: Кавадарци
@@ -2252,6 +2494,11 @@ ZR:
     ccp: "\U00011107\U0001111E\U00011113\U00011122\U00011134\U00011125\U00011128"
     ca: Kavadarci
     mk: Општина Кавадарци
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2259,8 +2506,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'37':
-  unofficial_names: 
   translations:
     ar: كاربينتسي
     bg: Карбинци
@@ -2307,6 +2552,11 @@ ZR:
     sq: Komuna e Karbincës
     ccp: "\U00011107\U00011122\U00011134\U0001111D\U00011128\U0001111A\U00011134\U00011125\U00011128"
     mk: Општина Карбинци
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2314,8 +2564,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'40':
-  unofficial_names: 
   translations:
     ar: بلدية كيتشيفو
     be: абшчына Кічава
@@ -2362,6 +2610,11 @@ ZR:
     sq: Komuna e Kërçovës
     ccp: "\U00011107\U00011128\U00011125\U0001112C\U0001111E\U0001112E"
     mk: Општина Кичево
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2369,8 +2622,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'41':
-  unofficial_names: 
   translations:
     ar: بلدية كونتشه
     bg: Конче
@@ -2416,6 +2667,11 @@ ZR:
     sq: Komuna e Konçës
     ccp: "\U00011107\U00011127\U0001111A\U00011134"
     mk: Општина Конче
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2423,8 +2679,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'42':
-  unofficial_names: 
   translations:
     ar: بلدية كوتشاني
     bg: Кочани
@@ -2470,6 +2724,11 @@ ZR:
     sq: Komuna e Koçanit
     ccp: "\U00011107\U0001112E\U00011125\U0001111A\U00011128"
     mk: Општина Кочани
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2477,8 +2736,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'43':
-  unofficial_names: 
   translations:
     ar: بلدية كراتوفو
     bg: Кратово
@@ -2525,6 +2782,11 @@ ZR:
     sq: Komuna e Kratovës
     ccp: "\U00011107\U00011133\U00011122\U00011111\U0001112E\U0001111E\U0001112E"
     mk: Општина Кратово
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2532,8 +2794,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'44':
-  unofficial_names: 
   translations:
     ar: بلدية كريفا بالانكا
     bg: Крива паланка
@@ -2580,6 +2840,11 @@ ZR:
     sq: Komuna e Kriva Pallankës
     ccp: "\U00011107\U00011133\U00011122\U00011128\U0001111E \U0001111B\U00011123\U0001111A\U00011134\U00011107"
     mk: Општина Крива Паланка
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2587,8 +2852,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'45':
-  unofficial_names: 
   translations:
     ar: بلدية كريفوغاشتاني
     bg: Кривогащани
@@ -2634,6 +2897,11 @@ ZR:
     sq: Komuna e Krivogashtanit
     ccp: "\U00011107\U00011133\U00011122\U00011128\U0001111E\U0001112E\U00011109\U0001110C\U00011134\U00011111\U0001111A\U00011128"
     mk: Општина Кривогаштани
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2641,8 +2909,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'46':
-  unofficial_names: 
   translations:
     ar: بلدية كروشيفو
     bg: Крушево
@@ -2690,6 +2956,11 @@ ZR:
     sq: Komuna e Krushevës
     ccp: "\U00011107\U00011133\U00011122\U0001112A\U00011125\U0001112C\U0001111E\U0001112E"
     mk: Општина Крушево
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2697,8 +2968,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'47':
-  unofficial_names: 
   translations:
     ar: بلدية كومانوفو
     bg: Куманово
@@ -2747,6 +3016,11 @@ ZR:
     ccp: "\U00011107\U0001112A\U0001111F\U00011134\U0001111A\U0001112E\U0001111E\U0001112E"
     be: абшчына Куманава
     mk: Општина Куманово
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2754,8 +3028,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'48':
-  unofficial_names: 
   translations:
     ar: بلدية ليبكوفو
     bg: Липково
@@ -2802,6 +3074,11 @@ ZR:
     sq: Komuna e Likovës
     ccp: "\U00011123\U00011128\U0001111B\U00011134\U00011107\U0001112E\U0001111E\U0001112E"
     mk: Општина Липково
+  comments: 
+'49': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2809,8 +3086,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'49':
-  unofficial_names: 
   translations:
     ar: بلدية لوزوفو
     bg: Джумайлия
@@ -2857,6 +3132,11 @@ ZR:
     sq: Komuna e Llozovës
     ccp: "\U00011123\U0001112E\U0001110E\U0001112E\U0001111E\U0001112E"
     mk: Општина Лозово
+  comments: 
+'50': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2864,8 +3144,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'50':
-  unofficial_names: 
   translations:
     ar: بلدية مارفوفو و روستيشا
     bg: Маврово и Ростуша
@@ -2913,6 +3191,11 @@ ZR:
     ccp: "\U0001111F\U0001111B\U00011134\U00011122\U0001112E\U0001111E\U0001112E \U00011103\U00011133\U00011103
       \U00011122\U0001112E\U0001110C\U00011134\U00011111\U00011128\U00011105\U0001112A\U00011125"
     mk: Општина Маврово и Ростуша
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2920,8 +3203,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'51':
-  unofficial_names: 
   translations:
     ar: بلدية ماكيدونسكا كامينيكا
     bg: Каменица
@@ -2968,6 +3249,11 @@ ZR:
     ccp: "\U0001111F\U00011107\U0001112C\U00011113\U0001112E\U0001111A\U00011134\U00011107
       \U00011107\U0001111F\U0001112C\U0001111A\U00011128\U00011107"
     mk: Општина Македонска Каменица
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2975,8 +3261,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'52':
-  unofficial_names: 
   translations:
     ar: بلدية ماكيدونسكي برود
     bg: Брод (община)
@@ -3023,6 +3307,11 @@ ZR:
     ccp: "\U0001111F\U0001112C\U00011107\U00011113\U0001112E\U0001111A\U00011134\U00011107
       \U0001111D\U00011133\U00011122\U0001112E\U00011116\U00011134"
     mk: Општина Македонски Брод
+  comments: 
+'54': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3030,8 +3319,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'54':
-  unofficial_names: 
   translations:
     ar: بلدية نيغوتينو
     bg: Неготино
@@ -3078,6 +3365,11 @@ ZR:
     sq: Komuna e Negotinës
     ccp: "\U0001111A\U0001112C\U00011109\U0001112E\U00011111\U00011128\U0001111A\U0001112E"
     mk: Општина Неготино
+  comments: 
+'56': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3085,8 +3377,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'56':
-  unofficial_names: 
   translations:
     ar: بلدية نوفو سيلو
     bg: Ново село
@@ -3133,6 +3423,11 @@ ZR:
     sq: Komuna e Novosellës
     ccp: "\U0001111A\U0001112E\U0001111E\U0001112E \U00011125\U0001112C\U00011123\U0001112E"
     mk: Општина Ново Село
+  comments: 
+'58': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3140,8 +3435,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'58':
-  unofficial_names: 
   translations:
     ar: بلدية أوهريد
     bg: Охрид
@@ -3189,6 +3482,11 @@ ZR:
     ccp: "\U00011103\U0001112E\U00011126\U00011134\U00011122\U00011128\U00011116\U00011134"
     be: Охрыд
     mk: Општина Охрид
+  comments: 
+'60': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3196,8 +3494,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'60':
-  unofficial_names: 
   translations:
     ar: بلدية بيتسيفو
     bg: Пехчево
@@ -3243,6 +3539,11 @@ ZR:
     sq: Komuna e Peçevës
     ccp: "\U0001111B\U0001112C\U00011126\U00011134\U00011125\U0001112C\U0001111E\U0001112E"
     mk: Општина Пехчево
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3250,8 +3551,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'61':
-  unofficial_names: 
   translations:
     ar: بلدية بلاسنيكا
     bg: Пласница
@@ -3297,6 +3596,11 @@ ZR:
     sq: Komuna e Plasnicës
     ccp: "\U0001111B\U00011133\U00011123\U0001110C\U00011134\U0001111A\U00011128\U00011107"
     mk: Општина Пласница
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3304,8 +3608,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'62':
-  unofficial_names: 
   translations:
     ar: بلدية بريليب
     bg: Прилеп (община)
@@ -3353,6 +3655,11 @@ ZR:
     ccp: "\U0001111B\U00011133\U00011122\U00011128\U00011123\U0001112C\U0001111B\U00011134"
     hy: Պրիլեպ մունիցիպիալիտետ
     mk: Општина Прилеп
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3360,8 +3667,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'63':
-  unofficial_names: 
   translations:
     ar: بلدية بروتشتيب
     bg: Пробищип
@@ -3407,6 +3712,11 @@ ZR:
     sq: Komuna e Probishtipit
     ccp: "\U0001111B\U00011133\U00011122\U0001112E\U0001111D\U00011128\U0001110C\U00011134\U00011111\U00011128\U0001111B\U00011134"
     mk: Општина Пробиштип
+  comments: 
+'64': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3414,8 +3724,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'64':
-  unofficial_names: 
   translations:
     ar: بلدية رادوفيتش
     bg: Радовиш
@@ -3461,6 +3769,11 @@ ZR:
     sq: Komuna e Radovishtit
     ccp: "\U00011122\U00011113\U0001112E\U0001111E\U00011128\U0001110C\U00011134"
     mk: Општина Радовиш
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3468,8 +3781,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'65':
-  unofficial_names: 
   translations:
     ar: بلدية رانكوفيتسه
     bg: Ранковце
@@ -3517,6 +3828,11 @@ ZR:
     ccp: "\U00011122\U0001111A\U00011134\U0001111E\U0001112E\U0001111B\U00011134"
     hu: Rankovce község
     mk: Општина Ранковце
+  comments: 
+'66': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3524,8 +3840,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'66':
-  unofficial_names: 
   translations:
     ar: بلدية ريسن
     bg: Ресен
@@ -3572,6 +3886,11 @@ ZR:
     sq: Komuna e Resnjës
     ccp: "\U00011122\U0001112C\U00011125\U0001112C\U0001111A\U00011134"
     mk: Општина Ресен
+  comments: 
+'69': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3579,8 +3898,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'69':
-  unofficial_names: 
   translations:
     ar: بلدية سفيتي نيكولا
     bg: Свети Никола
@@ -3626,6 +3943,11 @@ ZR:
     sq: Komuna e Sveti Nikollës
     ccp: "\U00011125\U00011133\U0001111E\U0001112C\U00011111\U00011128 \U0001111A\U00011128\U00011107\U0001112E\U00011123\U00011134"
     mk: Општина Свети Николе
+  comments: 
+'70': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3633,8 +3955,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'70':
-  unofficial_names: 
   translations:
     ar: بلدية سوبيتشه
     bg: Сопище
@@ -3680,6 +4000,11 @@ ZR:
     sq: Komuna e Sopishtit
     ccp: "\U00011125\U0001112E\U0001111B\U00011128\U0001110C\U00011134\U00011111\U0001112C"
     mk: Општина Сопиште
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3687,8 +4012,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'72':
-  unofficial_names: 
   translations:
     ar: محافظة ستروغا
     bg: Струга
@@ -3735,6 +4058,11 @@ ZR:
     ccp: "\U00011111\U00011133\U00011122\U0001112A\U00011109"
     hu: Sztruga község
     mk: Општина Струга
+  comments: 
+'73': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3742,8 +4070,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'73':
-  unofficial_names: 
   translations:
     ar: بلدية ستروميتسا
     bg: Струмица
@@ -3790,6 +4116,11 @@ ZR:
     sq: Komuna e Strumicës
     ccp: "\U00011111\U00011133\U00011122\U0001112A\U0001111F\U00011128\U00011107"
     mk: Општина Струмица
+  comments: 
+'74': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3797,8 +4128,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'74':
-  unofficial_names: 
   translations:
     ar: بلدية ستودنيتشاني
     bg: Студеничани
@@ -3844,6 +4173,11 @@ ZR:
     sq: Komuna e Studeniçanit
     ccp: "\U0001110C\U00011133\U00011111\U0001112A\U0001112A\U00011113\U0001112C\U0001111A\U00011128\U00011107\U0001111A\U00011128"
     mk: Општина Студеничани
+  comments: 
+'75': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3851,8 +4185,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'75':
-  unofficial_names: 
   translations:
     ar: بلدية تيارس
     bg: Теарце
@@ -3898,6 +4230,11 @@ ZR:
     sq: Komuna e Tearcës
     ccp: "\U00011111\U00011128\U00011120\U00011122\U00011134\U0001110C\U00011134"
     mk: Општина Теарце
+  comments: 
+'76': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3905,8 +4242,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'76':
-  unofficial_names: 
   translations:
     ar: بلدية تيتوفو
     bg: Тетово (община)
@@ -3953,6 +4288,11 @@ ZR:
     sq: Komuna e Tetovës
     ccp: "\U00011111\U0001112C\U00011111\U0001112E\U0001111E\U0001112E"
     mk: Општина Тетово
+  comments: 
+'78': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3960,8 +4300,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'78':
-  unofficial_names: 
   translations:
     ar: بلدية سنتار جوبا
     bg: Вапа
@@ -4007,6 +4345,11 @@ ZR:
     sq: Komuna e Qendrës Zhupa
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134 \U0001110E\U0001112A\U0001111B"
     mk: Општина Центар Жупа
+  comments: 
+'80': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4014,8 +4357,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'80':
-  unofficial_names: 
   translations:
     ar: بلدية تشاشكا
     bg: Чашка
@@ -4063,6 +4404,11 @@ ZR:
     sq: Komuna e Çashkës
     ccp: "\U00011107\U0001110C\U00011134\U00011107"
     mk: Општина Чашка
+  comments: 
+'81': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4070,8 +4416,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'81':
-  unofficial_names: 
   translations:
     ar: بلدية تشيشينوفو- أبليشيفو
     bg: Чешиново-Облешево
@@ -4115,6 +4459,11 @@ ZR:
     ccp: "\U00011125\U0001112C\U0001110C\U00011128\U0001111A\U0001112E\U0001111E\U0001112E-\U00011103\U00011127\U0001111B\U00011134\U00011123\U0001112C\U00011125\U0001112E\U0001111E\U0001112E"
     hu: Csesinovo-Oblesevo
     mk: Општина Чешиново-Облешево
+  comments: 
+'82': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4122,8 +4471,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'82':
-  unofficial_names: 
   translations:
     ar: بلدية تشوتشر سانديفو
     bg: Чучер
@@ -4170,6 +4517,11 @@ ZR:
     sq: Komuna e Çuçer-Sandevës
     ccp: "\U00011125\U0001112A\U00011125\U0001112C\U00011122\U00011134-\U00011125\U0001111A\U00011134\U00011113\U0001112C\U0001111E\U0001112E"
     mk: Општина Чучер-Сандево
+  comments: 
+'83': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4177,8 +4529,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'83':
-  unofficial_names: 
   translations:
     ar: بلدية شتيب
     bg: Щип
@@ -4224,6 +4574,11 @@ ZR:
     sq: Komuna e Shtipit
     ccp: "\U0001110C\U00011133\U00011111\U00011128\U0001111B\U00011134"
     mk: Општина Штип
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4231,8 +4586,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     bg: Валандово
     de: Opština Valandovo
@@ -4257,6 +4610,11 @@ ZR:
     sq: Komuna e Vallandovës
     ccp: "\U0001111E\U00011123\U0001111A\U00011134\U00011113\U0001112E\U0001111E\U0001112E"
     mk: Општина Валандово
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4264,8 +4622,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'13':
-  unofficial_names: 
   translations:
     bg: Велес
     de: Opština Veles
@@ -4291,6 +4647,11 @@ ZR:
     sq: Komuna e Velesit
     ccp: "\U0001111E\U00011123\U0001112C\U0001110C\U00011134"
     mk: Општина Велес
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4298,8 +4659,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'16':
-  unofficial_names: 
   translations:
     bg: Врабчище
     de: Opština Vrapčište
@@ -4324,6 +4683,11 @@ ZR:
     sq: Komuna e Vrapçishtit
     ccp: "\U0001111E\U00011133\U00011122\U0001111B\U00011134\U00011125\U00011128\U0001110C\U00011134\U00011111\U0001112C"
     mk: Општина Врапчиште
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4331,8 +4695,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'18':
-  unofficial_names: 
   translations:
     bg: Гевгели
     de: Opština Gevgelija
@@ -4359,6 +4721,11 @@ ZR:
     fr: Gevgelija
     pt: Município de Gevgelija
     mk: Општина Гевгелија
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4366,8 +4733,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'24':
-  unofficial_names: 
   translations:
     bg: Демир Капия
     de: Opština Demir Kapija
@@ -4393,6 +4758,11 @@ ZR:
     fr: Demir Kapija
     pt: Município de Demir Kapija
     mk: Општина Демир Капија
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4400,8 +4770,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'25':
-  unofficial_names: 
   translations:
     bg: Демир Хисар
     de: Opština Demir Hisar
@@ -4431,6 +4799,11 @@ ZR:
     fr: Demir Hisar
     pt: Município de Demir Hisar
     mk: Општина Демир Хисар
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4438,8 +4811,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'26':
-  unofficial_names: 
   translations:
     bg: Дойран
     cs: Dojran
@@ -4468,6 +4839,11 @@ ZR:
     fr: Dojran
     pt: Município de Dojran
     mk: Општина Дојран
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4475,8 +4851,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'53':
-  unofficial_names: 
   translations:
     bg: Могила
     de: Opština Mogila
@@ -4501,6 +4875,11 @@ ZR:
     ru: Могила
     ccp: "\U0001111F\U0001112E\U00011109\U00011128\U00011123"
     mk: Општина Могила
+  comments: 
+'55': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4508,8 +4887,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'55':
-  unofficial_names: 
   translations:
     bg: Новаци
     de: Opština Novaci
@@ -4532,6 +4909,11 @@ ZR:
     sq: Komuna e Novacit
     ccp: "\U0001111A\U0001112E\U0001111E\U00011125\U00011128"
     mk: Општина Новаци
+  comments: 
+'59': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4539,8 +4921,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'59':
-  unofficial_names: 
   translations:
     bg: Петровец
     de: Opština Petrovec
@@ -4564,6 +4944,11 @@ ZR:
     sq: Komuna e Petrovecit
     ccp: "\U0001111B\U0001112C\U00011111\U00011133\U00011122\U0001112E\U0001111E\U0001112C\U00011107\U00011134"
     mk: Општина Петровец
+  comments: 
+'67': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4571,8 +4956,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'67':
-  unofficial_names: 
   translations:
     bg: Росоман
     cs: Opština Rosoman
@@ -4597,6 +4980,11 @@ ZR:
     sq: Komuna e Rosomanit
     ccp: "\U00011122\U0001112E\U00011125\U0001112E\U0001111F\U0001111A\U00011134"
     mk: Општина Росоман
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4604,8 +4992,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'71':
-  unofficial_names: 
   translations:
     bg: Старо Нагоричане
     cs: Opština Staro Nagoričane
@@ -4629,6 +5015,11 @@ ZR:
     sq: Komuna e Nagoriçit të Vjetër
     ccp: "\U0001110C\U00011133\U00011111\U00011122\U0001112E \U0001111A\U00011109\U0001112E\U00011122\U00011128\U00011107\U0001112C\U0001111A\U00011134"
     mk: Општина Старо Нагоричане
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4636,8 +5027,6 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'12':
-  unofficial_names: 
   translations:
     de: Opština Vevčani
     en: Vevčani
@@ -4660,6 +5049,11 @@ ZR:
     sq: Komuna e Veçanit
     ccp: "\U0001111E\U0001112C\U0001111B\U00011134\U00011107\U0001111A\U00011128"
     mk: Општина Вевчани
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4667,11 +5061,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'01':
-  unofficial_names: 
   translations:
     en: Aerodrom
     ccp: "\U00011103\U00011120\U0001112C\U00011122\U0001112E\U00011113\U00011133\U00011122\U0001112E\U0001111F\U00011134"
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4679,11 +5076,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     en: Butel
     ccp: "\U0001111D\U0001112A\U00011111\U0001112C\U00011123\U00011134"
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4691,11 +5091,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'15':
-  unofficial_names: 
   translations:
     en: Vraneštica
     ccp: "\U0001111E\U00011133\U00011122\U0001111A\U0001112C\U0001110C\U00011134\U00011111\U00011128\U00011107"
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4703,11 +5106,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'17':
-  unofficial_names: 
   translations:
     en: Gazi Baba
     ccp: "\U00011109\U0001110E\U00011128 \U0001111D\U0001111D"
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4715,11 +5121,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'28':
-  unofficial_names: 
   translations:
     en: Drugovo
     ccp: "\U00011113\U00011133\U00011122\U0001112A\U00011109\U0001112E\U0001111E\U0001112E"
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4727,11 +5136,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'29':
-  unofficial_names: 
   translations:
     en: Gjorče Petrov
     ccp: "\U0001110E\U0001112E\U00011122\U00011134 \U0001111B\U0001112C\U00011111\U00011133\U00011122\U0001112E\U0001111B\U00011134"
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4739,11 +5151,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'31':
-  unofficial_names: 
   translations:
     en: Zajas
     ccp: "\U0001110E\U0001110E\U0001110C\U00011134"
+  comments: 
+'38': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4751,11 +5166,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'38':
-  unofficial_names: 
   translations:
     en: Karpoš
     ccp: "\U00011107\U00011122\U00011134\U0001111B\U0001112E\U0001110C\U00011134"
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4763,11 +5181,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'39':
-  unofficial_names: 
   translations:
     en: Kisela Voda
     ccp: "\U00011107\U00011128\U00011125\U0001112C\U00011123 \U00011123\U0001112E\U00011113"
+  comments: 
+'57': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4775,11 +5196,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'57':
-  unofficial_names: 
   translations:
     en: Oslomej
     ccp: "\U00011103\U0001112E\U0001110C\U00011134\U00011123\U0001112E\U0001111F\U0001112C\U0001110C\U00011134"
+  comments: 
+'68': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4787,11 +5211,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'68':
-  unofficial_names: 
   translations:
     en: Saraj
     ccp: "\U00011125\U00011122\U0001110C\U00011134"
+  comments: 
+'77': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4799,11 +5226,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'77':
-  unofficial_names: 
   translations:
     en: Centar
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+  comments: 
+'79': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4811,11 +5241,14 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'79':
-  unofficial_names: 
   translations:
     en: Čair
     ccp: "\U00011125\U00011128\U00011120\U00011122\U00011134"
+  comments: 
+'84': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4823,255 +5256,973 @@ ZR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'84':
-  unofficial_names: 
   translations:
     en: Šuto Orizari
     ccp: "\U00011125\U0001112A\U00011111\U0001112E \U00011103\U00011127\U00011122\U00011128\U0001110E\U00011122\U00011128"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-'101':
+  comments: 
+'101': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Veles
-'102':
+  comments: 
+'102': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.9963004
+    longitude: 21.4987981
   translations:
     en: Gradsko
-'103':
+  comments: 
+'103': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Demir Kapija
-'104':
+  comments: 
+'104': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.7104777
+    longitude: 21.7635459
   translations:
     en: Kavadarci
-'105':
+  comments: 
+'105': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.9070447
+    longitude: 20.9081294
   translations:
     en: Lozovo
-'106':
+  comments: 
+'106': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 42.0008403
+    longitude: 20.9661102
   translations:
     en: Negotino
-'107':
+  comments: 
+'107': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Rosoman
-'108':
+  comments: 
+'108': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Sveti Nikole
-'109':
+  comments: 
+'109': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Čaška
-'201':
+  comments: 
+'201': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Berovo
-'202':
+  comments: 
+'202': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Vinica
-'203':
+  comments: 
+'203': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Delčevo
-'204':
+  comments: 
+'204': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Zrnovci
-'205':
+  comments: 
+'205': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Karbinci
-'206':
+  comments: 
+'206': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Kočani
-'207':
+  comments: 
+'207': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Makedonska Kamenica
-'208':
+  comments: 
+'208': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Pehčevo
-'209':
+  comments: 
+'209': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Probištip
-'210':
+  comments: 
+'210': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Češinovo-Obleševo
-'211':
+  comments: 
+'211': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Štip
-'301':
+  comments: 
+'301': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Vevčani
-'303':
+  comments: 
+'303': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Debar
-'304':
+  comments: 
+'304': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Debrca
-'307':
+  comments: 
+'307': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Kičevo
-'308':
+  comments: 
+'308': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Makedonski Brod
-'310':
+  comments: 
+'310': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Ohrid
-'311':
+  comments: 
+'311': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Plasnica
-'312':
+  comments: 
+'312': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Struga
-'313':
+  comments: 
+'313': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Centar Župa
-'401':
+  comments: 
+'401': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Bogdanci
-'402':
+  comments: 
+'402': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Bosilovo
-'403':
+  comments: 
+'403': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Valandovo
-'404':
+  comments: 
+'404': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Vasilevo
-'405':
+  comments: 
+'405': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Gevgelija
-'406':
+  comments: 
+'406': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Dojran
-'407':
+  comments: 
+'407': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Konče
-'408':
+  comments: 
+'408': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Novo Selo
-'409':
+  comments: 
+'409': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Radoviš
-'410':
+  comments: 
+'410': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Strumica
-'501':
+  comments: 
+'501': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Bitola
-'502':
+  comments: 
+'502': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Demir Hisar
-'503':
+  comments: 
+'503': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Dolneni
-'504':
+  comments: 
+'504': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Krivogaštani
-'505':
+  comments: 
+'505': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Kruševo
-'506':
+  comments: 
+'506': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Mogila
-'507':
+  comments: 
+'507': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Novaci
-'508':
+  comments: 
+'508': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Prilep
-'509':
+  comments: 
+'509': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Resen
-'601':
+  comments: 
+'601': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Bogovinje
-'602':
+  comments: 
+'602': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Brvenica
-'603':
+  comments: 
+'603': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Vrapčište
-'604':
+  comments: 
+'604': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Gostivar
-'605':
+  comments: 
+'605': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Želino
-'606':
+  comments: 
+'606': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Jegunovce
-'607':
+  comments: 
+'607': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Mavrovo i Rostuše
-'608':
+  comments: 
+'608': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Tearce
-'609':
+  comments: 
+'609': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Tetovo
-'701':
+  comments: 
+'701': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Kratovo
-'702':
+  comments: 
+'702': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Kriva Palanka
-'703':
+  comments: 
+'703': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Kumanovo
-'704':
+  comments: 
+'704': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Lipkovo
-'705':
+  comments: 
+'705': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Rankovce
-'706':
+  comments: 
+'706': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Staro Nagoričane
-'801':
+  comments: 
+'801': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Aerodrom †
-'802':
+  comments: 
+'802': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Aračinovo
-'803':
+  comments: 
+'803': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Butel †
-'804':
+  comments: 
+'804': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Gazi Baba †
-'805':
+  comments: 
+'805': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Gjorče Petrov †
-'806':
+  comments: 
+'806': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Zelenikovo
-'807':
+  comments: 
+'807': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Ilinden
-'808':
+  comments: 
+'808': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Karpoš †
-'809':
+  comments: 
+'809': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Kisela Voda †
-'810':
+  comments: 
+'810': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Petrovec
-'811':
+  comments: 
+'811': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Saraj †
-'812':
+  comments: 
+'812': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Sopište
-'813':
+  comments: 
+'813': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Studeničani
-'814':
+  comments: 
+'814': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Centar †
-'815':
+  comments: 
+'815': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Čair †
-'816':
+  comments: 
+'816': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Čučer-Sandevo
-'817':
+  comments: 
+'817': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
   translations:
     en: Šuto Orizari †
+  comments: 

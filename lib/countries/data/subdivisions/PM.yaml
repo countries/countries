@@ -1,8 +1,8 @@
 ---
-M:
+M: !ruby/struct:ISO3166::Subdivision
+  name: Miquelon
+  code: 
   unofficial_names: Miquelon
-  translations:
-    en: Miquelon
   geo:
     latitude: 46.95612
     longitude: -56.32656
@@ -10,12 +10,13 @@ M:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Miquelon
-  comments: 
-P:
-  unofficial_names: Saint Pierre
   translations:
-    en: Saint Pierre
+    en: Miquelon
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: Saint Pierre
+  code: 
+  unofficial_names: Saint Pierre
   geo:
     latitude: 46.78333
     longitude: -56.2
@@ -23,8 +24,16 @@ P:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Pierre
+  translations:
+    en: Saint Pierre
   comments: 
-'':
+'': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 46.18353279999999
+    longitude: 1.8811603
   translations:
     en: St. Pierre & Miquelon
+  comments: 

@@ -1,6 +1,15 @@
 ---
-AH:
+AH: !ruby/struct:ISO3166::Subdivision
+  name: Ahuachapán
+  code: 
   unofficial_names: Ahuachapán
+  geo:
+    latitude: 13.9259486
+    longitude: -89.84113819999999
+    min_latitude: 13.9044087
+    min_longitude: -89.8722839
+    max_latitude: 13.9537264
+    max_longitude: -89.8150349
   translations:
     en: Ahuachapán
     ar: إدارة أهواشابان
@@ -47,16 +56,18 @@ AH:
     ccp: "\U00011103\U00011126\U0001112A\U00011120\U0001110C\U0001111B\U00011127\U0001111A\U00011134"
     eu: Ahuachapán departamendua
     uk: Регіон Ауачапан
-  geo:
-    latitude: 13.9259486
-    longitude: -89.84113819999999
-    min_latitude: 13.9044087
-    min_longitude: -89.8722839
-    max_latitude: 13.9537264
-    max_longitude: -89.8150349
-  name: Ahuachapán
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Cabañas
+  code: 
   unofficial_names: Cabañas
+  geo:
+    latitude: 13.8648288
+    longitude: -88.7493998
+    min_latitude: 13.7396891
+    min_longitude: -88.9883749
+    max_latitude: 14.019085
+    max_longitude: -88.49336
   translations:
     en: Cabañas
     ar: إدارة كاباناس
@@ -101,16 +112,18 @@ CA:
     ccp: "\U00011107\U0001112C\U0001111D\U0001111A\U0001110C\U00011134"
     eu: Cabañas departamendua
     uk: Регіон Кабаньяс
-  geo:
-    latitude: 13.8648288
-    longitude: -88.7493998
-    min_latitude: 13.7396891
-    min_longitude: -88.9883749
-    max_latitude: 14.019085
-    max_longitude: -88.49336
-  name: Cabañas
-CH:
+  comments: 
+CH: !ruby/struct:ISO3166::Subdivision
+  name: Chalatenango
+  code: 
   unofficial_names: Chalatenango
+  geo:
+    latitude: 14.033333
+    longitude: -88.93333299999999
+    min_latitude: 13.9967041
+    min_longitude: -88.9538956
+    max_latitude: 14.0487081
+    max_longitude: -88.88797749999999
   translations:
     en: Chalatenango
     bg: Чалатенанго
@@ -140,16 +153,18 @@ CH:
     ccp: "\U00011107\U0001112C\U00011123\U00011111\U0001112C\U0001111A\U0001111A\U00011134\U00011109\U0001112E"
     eu: Chalatenango departamendua
     uk: Чалатенанго
-  geo:
-    latitude: 14.033333
-    longitude: -88.93333299999999
-    min_latitude: 13.9967041
-    min_longitude: -88.9538956
-    max_latitude: 14.0487081
-    max_longitude: -88.88797749999999
-  name: Chalatenango
-CU:
+  comments: 
+CU: !ruby/struct:ISO3166::Subdivision
+  name: Cuscatlán
+  code: 
   unofficial_names: Cuscatlán
+  geo:
+    latitude: 13.8661957
+    longitude: -89.0561532
+    min_latitude: 13.6386259
+    min_longitude: -89.17243099999999
+    max_latitude: 14.069207
+    max_longitude: -88.86089799999999
   translations:
     en: Cuscatlán
     ar: إدارة كوسكاتلان
@@ -194,16 +209,18 @@ CU:
     ccp: "\U00011107\U0001110C\U00011134\U00011107\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011134"
     eu: Cuscatlán departamendua
     uk: Регіон Кускатлан
-  geo:
-    latitude: 13.8661957
-    longitude: -89.0561532
-    min_latitude: 13.6386259
-    min_longitude: -89.17243099999999
-    max_latitude: 14.069207
-    max_longitude: -88.86089799999999
-  name: Cuscatlán
-LI:
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: La Libertad
+  code: 
   unofficial_names: La Libertad
+  geo:
+    latitude: 13.6817661
+    longitude: -89.3606298
+    min_latitude: 13.4242178
+    min_longitude: -89.6235825
+    max_latitude: 14.0608631
+    max_longitude: -89.133437
   translations:
     en: La Libertad
     ar: إدارة لا ليبرتاد
@@ -251,16 +268,18 @@ LI:
     ccp: "\U00011123 \U00011123\U0001112D\U0001111D\U00011122\U00011134\U00011111\U00011116\U00011134"
     eu: La Libertad departamendua
     uk: Муніципалітет Ла-Лібертад
-  geo:
-    latitude: 13.6817661
-    longitude: -89.3606298
-    min_latitude: 13.4242178
-    min_longitude: -89.6235825
-    max_latitude: 14.0608631
-    max_longitude: -89.133437
-  name: La Libertad
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Morazán
+  code: 
   unofficial_names: Morazán
+  geo:
+    latitude: 13.7682
+    longitude: -88.1291387
+    min_latitude: 13.542379
+    min_longitude: -88.26838610000001
+    max_latitude: 13.951336
+    max_longitude: -87.935045
   translations:
     en: Morazán
     ar: إدارة مورازان
@@ -305,16 +324,18 @@ MO:
     zh: 莫拉桑省
     ccp: "\U0001111F\U0001112E\U00011122\U0001110E\U0001111A\U00011134"
     eu: Morazán departamendua
-  geo:
-    latitude: 13.7682
-    longitude: -88.1291387
-    min_latitude: 13.542379
-    min_longitude: -88.26838610000001
-    max_latitude: 13.951336
-    max_longitude: -87.935045
-  name: Morazán
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: La Paz
+  code: 
   unofficial_names: La Paz
+  geo:
+    latitude: 13.495364
+    longitude: -88.9796776
+    min_latitude: 13.2651022
+    min_longitude: -89.16793799999999
+    max_latitude: 13.662424
+    max_longitude: -88.7764349
   translations:
     en: La Paz
     ar: إدارة لاباز
@@ -360,16 +381,18 @@ PA:
     ccp: "\U00011123 \U0001111B\U0001110C\U00011134"
     eu: La Paz departamendua
     uk: Департамент Ла-Пас
-  geo:
-    latitude: 13.495364
-    longitude: -88.9796776
-    min_latitude: 13.2651022
-    min_longitude: -89.16793799999999
-    max_latitude: 13.662424
-    max_longitude: -88.7764349
-  name: La Paz
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Santa Ana
+  code: 
   unofficial_names: Santa Ana
+  geo:
+    latitude: 13.9778279
+    longitude: -89.56391190000001
+    min_latitude: 13.9562252
+    min_longitude: -89.58621029999999
+    max_latitude: 14.0113614
+    max_longitude: -89.53943249999999
   translations:
     en: Santa Ana
     ar: إدارة سانتا آنا
@@ -414,16 +437,18 @@ SA:
     ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011103\U0001111A"
     eu: Santa Ana departamendua
     uk: Регіон Санта-Ана
-  geo:
-    latitude: 13.9778279
-    longitude: -89.56391190000001
-    min_latitude: 13.9562252
-    min_longitude: -89.58621029999999
-    max_latitude: 14.0113614
-    max_longitude: -89.53943249999999
-  name: Santa Ana
-SM:
+  comments: 
+SM: !ruby/struct:ISO3166::Subdivision
+  name: San Miguel
+  code: 
   unofficial_names: San Miguel
+  geo:
+    latitude: 13.4451041
+    longitude: -88.24611829999999
+    min_latitude: 13.1693608
+    min_longitude: -88.5278369
+    max_latitude: 13.8935291
+    max_longitude: -88.016002
   translations:
     en: San Miguel
     ar: إدارة سان ميغيل
@@ -469,16 +494,18 @@ SM:
     ccp: "\U00011125\U0001111A\U00011134 \U0001111F\U00011128\U00011109\U0001112A\U00011120\U0001112C\U00011123\U00011134"
     eu: San Miguel departamendua
     uk: Регіон Сан-Мігель
-  geo:
-    latitude: 13.4451041
-    longitude: -88.24611829999999
-    min_latitude: 13.1693608
-    min_longitude: -88.5278369
-    max_latitude: 13.8935291
-    max_longitude: -88.016002
-  name: San Miguel
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Sonsonate
+  code: 
   unofficial_names: Sonsonate
+  geo:
+    latitude: 13.682358
+    longitude: -89.6628111
+    min_latitude: 13.5195387
+    min_longitude: -89.95551770000002
+    max_latitude: 13.898528
+    max_longitude: -89.445171
   translations:
     en: Sonsonate
     ar: إدارة سونسونات
@@ -524,16 +551,18 @@ SO:
     eu: Sonsonate departamendua
     uk: Регіон Сонсонате
     cs: Sonsonate²
-  geo:
-    latitude: 13.682358
-    longitude: -89.6628111
-    min_latitude: 13.5195387
-    min_longitude: -89.95551770000002
-    max_latitude: 13.898528
-    max_longitude: -89.445171
-  name: Sonsonate
-SS:
+  comments: 
+SS: !ruby/struct:ISO3166::Subdivision
+  name: San Salvador
+  code: 
   unofficial_names: San Salvador
+  geo:
+    latitude: 13.6929403
+    longitude: -89.2181911
+    min_latitude: 13.6523257
+    min_longitude: -89.2663228
+    max_latitude: 13.7306307
+    max_longitude: -89.1630651
   translations:
     en: San Salvador
     ar: إدارة سان سلفادور
@@ -581,16 +610,18 @@ SS:
     zh: 聖薩爾瓦多省
     ccp: "\U00011125\U0001111A\U00011134 \U00011125\U00011123\U00011134\U0001111E\U00011113\U00011127\U00011122\U00011134"
     eu: San Salvador departamendua
-  geo:
-    latitude: 13.6929403
-    longitude: -89.2181911
-    min_latitude: 13.6523257
-    min_longitude: -89.2663228
-    max_latitude: 13.7306307
-    max_longitude: -89.1630651
-  name: San Salvador
-SV:
+  comments: 
+SV: !ruby/struct:ISO3166::Subdivision
+  name: San Vicente
+  code: 
   unofficial_names: San Vicente
+  geo:
+    latitude: 13.5868561
+    longitude: -88.7493998
+    min_latitude: 13.2529737
+    min_longitude: -88.89559799999999
+    max_latitude: 13.7897911
+    max_longitude: -88.48514999999999
   translations:
     en: San Vicente
     ar: إدارة سان فيسينتي
@@ -635,16 +666,18 @@ SV:
     ccp: "\U00011125\U0001111A\U00011134 \U0001111E\U0001112D\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134"
     eu: San Vicente departamendua
     uk: Регіон Сан-Вісенте
-  geo:
-    latitude: 13.5868561
-    longitude: -88.7493998
-    min_latitude: 13.2529737
-    min_longitude: -88.89559799999999
-    max_latitude: 13.7897911
-    max_longitude: -88.48514999999999
-  name: San Vicente
-UN:
+  comments: 
+UN: !ruby/struct:ISO3166::Subdivision
+  name: La Unión
+  code: 
   unofficial_names: La Unión
+  geo:
+    latitude: 13.336944
+    longitude: -87.84388899999999
+    min_latitude: 13.319889
+    min_longitude: -87.8767204
+    max_latitude: 13.3553415
+    max_longitude: -87.820673
   translations:
     en: La Unión
     bg: Ла Унион
@@ -672,16 +705,18 @@ UN:
     ccp: "\U00011123 \U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011120\U00011127\U0001111A\U00011134"
     eu: La Unión departamendua
     uk: Ла-Уніон
-  geo:
-    latitude: 13.336944
-    longitude: -87.84388899999999
-    min_latitude: 13.319889
-    min_longitude: -87.8767204
-    max_latitude: 13.3553415
-    max_longitude: -87.820673
-  name: La Unión
-US:
+  comments: 
+US: !ruby/struct:ISO3166::Subdivision
+  name: Usulután
+  code: 
   unofficial_names: Usulután
+  geo:
+    latitude: 13.35
+    longitude: -88.45
+    min_latitude: 13.3328344
+    min_longitude: -88.45788
+    max_latitude: 13.3537129
+    max_longitude: -88.4276677
   translations:
     en: Usulután
     ar: إدارة أوسولوتان
@@ -726,11 +761,4 @@ US:
     ccp: "\U00011103\U00011128\U00011105\U0001112A\U00011125\U00011123\U0001112A\U00011111\U0001111A\U00011134"
     eu: Usulután departamendua
     uk: Регіон Усулутан
-  geo:
-    latitude: 13.35
-    longitude: -88.45
-    min_latitude: 13.3328344
-    min_longitude: -88.45788
-    max_latitude: 13.3537129
-    max_longitude: -88.4276677
-  name: Usulután
+  comments: 

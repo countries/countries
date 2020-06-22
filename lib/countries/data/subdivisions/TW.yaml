@@ -1,7 +1,16 @@
 ---
-CHA:
+CHA: !ruby/struct:ISO3166::Subdivision
+  name: Changhua
+  code: 
   unofficial_names:
   - Changhua
+  geo:
+    latitude: 24.0716583
+    longitude: 120.5624474
+    min_latitude: 24.0377972
+    min_longitude: 120.4997914
+    max_latitude: 24.1139398
+    max_longitude: 120.6258758
   translations:
     en: Changhua
     ar: مقاطعة تشانغوا
@@ -47,17 +56,19 @@ CHA:
     ccp: "\U0001110C\U0001111A\U00011134\U0001110A\U0001112A\U00011120"
     uk: Округ Чжанхуа
     yue: 彰化縣
-  geo:
-    latitude: 24.0716583
-    longitude: 120.5624474
-    min_latitude: 24.0377972
-    min_longitude: 120.4997914
-    max_latitude: 24.1139398
-    max_longitude: 120.6258758
-  name: Changhua
-CYI:
+  comments: 
+CYI: !ruby/struct:ISO3166::Subdivision
+  name: Chiayi Municipality
+  code: 
   unofficial_names:
   - Chiai
+  geo:
+    latitude: 23.4871898
+    longitude: 120.4516708
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Chiayi County
     ar: مقاطعة شياي
@@ -102,16 +113,18 @@ CYI:
     uk: Округ Цзяі
     yue: 嘉義縣
     mn: Жяи шянь
-  geo:
-    latitude: 23.4871898
-    longitude: 120.4516708
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chiayi Municipality
-CYQ:
+  comments: 
+CYQ: !ruby/struct:ISO3166::Subdivision
+  name: Chiayi
+  code: 
   unofficial_names: Chiayi
+  geo:
+    latitude: 23.4518428
+    longitude: 120.2554615
+    min_latitude: 23.2148
+    min_longitude: 120.1174411
+    max_latitude: 23.6359268
+    max_longitude: 120.9576495
   translations:
     en: Chiayi
     ar: شيا يي
@@ -158,16 +171,18 @@ CYQ:
     yue_Hans: 嘉义市
     ccp: "\U0001110C\U00011128\U00011120\U00011103\U00011128"
     yue: 嘉義市
-  geo:
-    latitude: 23.4518428
-    longitude: 120.2554615
-    min_latitude: 23.2148
-    min_longitude: 120.1174411
-    max_latitude: 23.6359268
-    max_longitude: 120.9576495
-  name: Chiayi
-HSQ:
+  comments: 
+HSQ: !ruby/struct:ISO3166::Subdivision
+  name: Hsinchu
+  code: 
   unofficial_names: Hsinchu
+  geo:
+    latitude: 24.8066493
+    longitude: 120.9669257
+    min_latitude: 24.7125478
+    min_longitude: 120.8794077
+    max_latitude: 24.8569956
+    max_longitude: 121.0335449
   translations:
     en: Hsinchu County
     ar: مقاطعة هسينشو
@@ -212,16 +227,18 @@ HSQ:
     ml: ഹ്സിഞ്ചു കൗണ്ടി
     uk: Округ Сіньчжу
     yue: 新竹縣
-  geo:
-    latitude: 24.8066493
-    longitude: 120.9669257
-    min_latitude: 24.7125478
-    min_longitude: 120.8794077
-    max_latitude: 24.8569956
-    max_longitude: 121.0335449
-  name: Hsinchu
-HSZ:
+  comments: 
+HSZ: !ruby/struct:ISO3166::Subdivision
+  name: Hsinchu Municipality
+  code: 
   unofficial_names: Hsinchu Municipality
+  geo:
+    latitude: 24.9330791
+    longitude: 121.0093188
+    min_latitude: 24.932182
+    min_longitude: 121.0086104
+    max_latitude: 24.9337171
+    max_longitude: 121.0100775
   translations:
     en: Hsinchu
     ar: سين شو
@@ -270,17 +287,19 @@ HSZ:
     yue: 新竹市
     ca: Hsinchu
     be: Сіньчжу
-  geo:
-    latitude: 24.9330791
-    longitude: 121.0093188
-    min_latitude: 24.932182
-    min_longitude: 121.0086104
-    max_latitude: 24.9337171
-    max_longitude: 121.0100775
-  name: Hsinchu Municipality
-HUA:
+  comments: 
+HUA: !ruby/struct:ISO3166::Subdivision
+  name: Hualien
+  code: 
   unofficial_names:
   - Hualian
+  geo:
+    latitude: 23.9499886
+    longitude: 121.5518908
+    min_latitude: 23.0977983
+    min_longitude: 120.9866267
+    max_latitude: 24.37056
+    max_longitude: 121.7714431
   translations:
     en: Hualien
     ar: مقاطعة هوالين
@@ -326,16 +345,18 @@ HUA:
     ccp: "\U00011126\U0001112A\U00011120\U00011123\U00011128\U00011120\U0001112C\U0001111A\U00011134"
     uk: Округ Гуалянь
     yue: 花蓮縣
-  geo:
-    latitude: 23.9499886
-    longitude: 121.5518908
-    min_latitude: 23.0977983
-    min_longitude: 120.9866267
-    max_latitude: 24.37056
-    max_longitude: 121.7714431
-  name: Hualien
-ILA:
+  comments: 
+ILA: !ruby/struct:ISO3166::Subdivision
+  name: Ilan
+  code: 
   unofficial_names: Ilan
+  geo:
+    latitude: 24.7021073
+    longitude: 121.7377502
+    min_latitude: 24.3094447
+    min_longitude: 121.3167219
+    max_latitude: 25.7517095
+    max_longitude: 123.4934282
   translations:
     en: Yilan
     ar: مقاطعة ييلان
@@ -381,17 +402,19 @@ ILA:
     ccp: "\U00011103\U00011128\U00011123\U0001111A\U00011134"
     uk: Округ Ілань
     yue: 宜蘭縣
-  geo:
-    latitude: 24.7021073
-    longitude: 121.7377502
-    min_latitude: 24.3094447
-    min_longitude: 121.3167219
-    max_latitude: 25.7517095
-    max_longitude: 123.4934282
-  name: Ilan
-KEE:
+  comments: 
+KEE: !ruby/struct:ISO3166::Subdivision
+  name: Keelung Municipality
+  code: 
   unofficial_names:
   - Chilung Shih
+  geo:
+    latitude: 25.1313701
+    longitude: 121.7488675
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Keelung
     ar: كي لنغ
@@ -439,16 +462,18 @@ KEE:
     ccp: "\U00011107\U00011129\U00011123\U0001112A\U00011101"
     uk: Цзилун
     yue: 基隆
-  geo:
-    latitude: 25.1313701
-    longitude: 121.7488675
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Keelung Municipality
-KHH:
+  comments: 
+KHH: !ruby/struct:ISO3166::Subdivision
+  name: Kaohsiung Special Municipality
+  code: 
   unofficial_names: Kaohsiung Special Municipality
+  geo:
+    latitude: 22.6272784
+    longitude: 120.3014353
+    min_latitude: 20.5862202
+    min_longitude: 116.7118602
+    max_latitude: 23.4717267
+    max_longitude: 121.0490147
   translations:
     en: Kaohsiung
     af: Kaohsiung
@@ -509,6 +534,11 @@ KHH:
     yue: 高雄市
     my: ကောင်းရှုံမြို့
     mk: Гаосјунг
+  comments: 
+KHQ: !ruby/struct:ISO3166::Subdivision
+  name: Kaohsiung
+  code: 
+  unofficial_names: Kaohsiung
   geo:
     latitude: 22.6272784
     longitude: 120.3014353
@@ -516,23 +546,22 @@ KHH:
     min_longitude: 116.7118602
     max_latitude: 23.4717267
     max_longitude: 121.0490147
-  name: Kaohsiung Special Municipality
-KHQ:
-  unofficial_names: Kaohsiung
   translations:
     en: Kaohsiung County
     ccp: "\U00011107\U00011103\U0001112E\U00011126\U00011125\U00011128\U00011105\U0001112A\U00011101
       \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
-  geo:
-    latitude: 22.6272784
-    longitude: 120.3014353
-    min_latitude: 20.5862202
-    min_longitude: 116.7118602
-    max_latitude: 23.4717267
-    max_longitude: 121.0490147
-  name: Kaohsiung
-MIA:
+  comments: 
+MIA: !ruby/struct:ISO3166::Subdivision
+  name: Miaoli
+  code: 
   unofficial_names: Miaoli
+  geo:
+    latitude: 24.560159
+    longitude: 120.8214265
+    min_latitude: 24.2885293
+    min_longitude: 120.6223738
+    max_latitude: 24.741082
+    max_longitude: 121.2626344
   translations:
     en: Miaoli
     ar: مقاطعة مياولي
@@ -578,16 +607,18 @@ MIA:
     ml: മിയോലി കൗണ്ടി
     uk: Округ Мяолі
     yue: 苗栗縣
-  geo:
-    latitude: 24.560159
-    longitude: 120.8214265
-    min_latitude: 24.2885293
-    min_longitude: 120.6223738
-    max_latitude: 24.741082
-    max_longitude: 121.2626344
-  name: Miaoli
-NAN:
+  comments: 
+NAN: !ruby/struct:ISO3166::Subdivision
+  name: Nantou
+  code: 
   unofficial_names: Nantou
+  geo:
+    latitude: 23.9609981
+    longitude: 120.9718638
+    min_latitude: 23.435385
+    min_longitude: 120.6155614
+    max_latitude: 24.2463089
+    max_longitude: 121.3494752
   translations:
     en: Nantou
     ar: مقاطعة نانتو
@@ -632,16 +663,18 @@ NAN:
     ccp: "\U0001111A\U0001111A\U00011134\U00011111\U0001112F"
     uk: Округ Наньтоу
     yue: 南投縣
-  geo:
-    latitude: 23.9609981
-    longitude: 120.9718638
-    min_latitude: 23.435385
-    min_longitude: 120.6155614
-    max_latitude: 24.2463089
-    max_longitude: 121.3494752
-  name: Nantou
-PEN:
+  comments: 
+PEN: !ruby/struct:ISO3166::Subdivision
+  name: Penghu
+  code: 
   unofficial_names: Penghu
+  geo:
+    latitude: 23.5711899
+    longitude: 119.5793157
+    min_latitude: 23.1865723
+    min_longitude: 119.3144141
+    max_latitude: 23.775773
+    max_longitude: 119.7269552
   translations:
     en: Penghu
     cs: Okres Pcheng-chu
@@ -672,16 +705,18 @@ PEN:
     mn: Пөнхү
     th: เผิงหู
     yo: Penghu
-  geo:
-    latitude: 23.5711899
-    longitude: 119.5793157
-    min_latitude: 23.1865723
-    min_longitude: 119.3144141
-    max_latitude: 23.775773
-    max_longitude: 119.7269552
-  name: Penghu
-PIF:
+  comments: 
+PIF: !ruby/struct:ISO3166::Subdivision
+  name: Pingtung
+  code: 
   unofficial_names: Pingtung
+  geo:
+    latitude: 22.5519759
+    longitude: 120.5487597
+    min_latitude: 21.8968211
+    min_longitude: 120.3527512
+    max_latitude: 22.8851844
+    max_longitude: 120.9042007
   translations:
     en: Pingtung
     ar: مقاطعة بينغتونغ
@@ -730,16 +765,18 @@ PIF:
     uk: Округ Пінтун
     yue: 屏東縣
     be: Піндун
-  geo:
-    latitude: 22.5519759
-    longitude: 120.5487597
-    min_latitude: 21.8968211
-    min_longitude: 120.3527512
-    max_latitude: 22.8851844
-    max_longitude: 120.9042007
-  name: Pingtung
-TAO:
+  comments: 
+TAO: !ruby/struct:ISO3166::Subdivision
+  name: Taoyuan
+  code: 
   unofficial_names: Taoyuan
+  geo:
+    latitude: 24.9936281
+    longitude: 121.3009798
+    min_latitude: 24.5864837
+    min_longitude: 120.9845663
+    max_latitude: 25.123137
+    max_longitude: 121.4798128
   translations:
     en: Taoyuan
     af: Taoyuan
@@ -787,16 +824,18 @@ TAO:
     uk: Таоюань
     yue: 桃園縣
     mk: Тоајуен
-  geo:
-    latitude: 24.9936281
-    longitude: 121.3009798
-    min_latitude: 24.5864837
-    min_longitude: 120.9845663
-    max_latitude: 25.123137
-    max_longitude: 121.4798128
-  name: Taoyuan
-TNN:
+  comments: 
+TNN: !ruby/struct:ISO3166::Subdivision
+  name: Tainan Municipality
+  code: 
   unofficial_names: Tainan Municipality
+  geo:
+    latitude: 23.0038497
+    longitude: 120.212227
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Tainan
     af: Tainan
@@ -848,19 +887,11 @@ TNN:
     ga: Tainan
     yue: 臺南
     mk: Тајнан
-  geo:
-    latitude: 23.0038497
-    longitude: 120.212227
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Tainan Municipality
-TNQ:
+  comments: 
+TNQ: !ruby/struct:ISO3166::Subdivision
+  name: Tainan
+  code: 
   unofficial_names: Tainan
-  translations:
-    en: Tainan County
-    ccp: "\U00011111\U0001112D\U0001111A\U0001111A\U00011134 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
   geo:
     latitude: 22.9998999
     longitude: 120.2268758
@@ -868,9 +899,21 @@ TNQ:
     min_longitude: 120.0354791
     max_latitude: 23.4137568
     max_longitude: 120.6562596
-  name: Tainan
-TPE:
+  translations:
+    en: Tainan County
+    ccp: "\U00011111\U0001112D\U0001111A\U0001111A\U00011134 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+  comments: 
+TPE: !ruby/struct:ISO3166::Subdivision
+  name: Taipei Special Municipality
+  code: 
   unofficial_names: Taipei Special Municipality
+  geo:
+    latitude: 25.0329694
+    longitude: 121.5654177
+    min_latitude: 24.7900797
+    min_longitude: 121.2826735
+    max_latitude: 25.2443731
+    max_longitude: 121.7300824
   translations:
     en: Taipei
     af: Taipei
@@ -953,6 +996,11 @@ TPE:
     uz: Taypey
     bs: Taipei
     mk: Тајпеј
+  comments: 
+TPQ: !ruby/struct:ISO3166::Subdivision
+  name: Taipei
+  code: 
+  unofficial_names: Taipei
   geo:
     latitude: 25.0329694
     longitude: 121.5654177
@@ -960,24 +1008,23 @@ TPE:
     min_longitude: 121.2826735
     max_latitude: 25.2443731
     max_longitude: 121.7300824
-  name: Taipei Special Municipality
-TPQ:
-  unofficial_names: Taipei
   translations:
     en: New Taipei City
     ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C
       \U00011125\U00011128\U00011111\U00011128"
-  geo:
-    latitude: 25.0329694
-    longitude: 121.5654177
-    min_latitude: 24.7900797
-    min_longitude: 121.2826735
-    max_latitude: 25.2443731
-    max_longitude: 121.7300824
-  name: Taipei
-TTT:
+  comments: 
+TTT: !ruby/struct:ISO3166::Subdivision
+  name: Taitung
+  code: 
   unofficial_names:
   - Taidong
+  geo:
+    latitude: 22.7972447
+    longitude: 121.0713702
+    min_latitude: 22.0009719
+    min_longitude: 120.7390581
+    max_latitude: 23.443723
+    max_longitude: 121.601229
   translations:
     en: Taitung
     ar: مقاطعة تايتونغ
@@ -1023,16 +1070,18 @@ TTT:
     ccp: "\U00011111\U0001112D\U00011111\U0001112A\U00011101"
     uk: Округ Тайдун
     yue: 臺東縣
-  geo:
-    latitude: 22.7972447
-    longitude: 121.0713702
-    min_latitude: 22.0009719
-    min_longitude: 120.7390581
-    max_latitude: 23.443723
-    max_longitude: 121.601229
-  name: Taitung
-TXG:
+  comments: 
+TXG: !ruby/struct:ISO3166::Subdivision
+  name: Taichung Municipality
+  code: 
   unofficial_names: Taichung Municipality
+  geo:
+    latitude: 24.301983
+    longitude: 120.5854674
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Taichung
     af: Taichung
@@ -1083,19 +1132,11 @@ TXG:
     yue: 臺中市
     ca: Taichung
     mk: Тајџунг
-  geo:
-    latitude: 24.301983
-    longitude: 120.5854674
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Taichung Municipality
-TXQ:
+  comments: 
+TXQ: !ruby/struct:ISO3166::Subdivision
+  name: Taichung
+  code: 
   unofficial_names: Taichung
-  translations:
-    en: Taichung County
-    ccp: "\U00011111\U0001112D\U0001110C\U0001112A\U00011101 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
   geo:
     latitude: 24.1477358
     longitude: 120.6736482
@@ -1103,9 +1144,21 @@ TXQ:
     min_longitude: 120.4607975
     max_latitude: 24.4416976
     max_longitude: 121.4509512
-  name: Taichung
-YUN:
+  translations:
+    en: Taichung County
+    ccp: "\U00011111\U0001112D\U0001110C\U0001112A\U00011101 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+  comments: 
+YUN: !ruby/struct:ISO3166::Subdivision
+  name: Yunlin
+  code: 
   unofficial_names: Yunlin
+  geo:
+    latitude: 23.7092033
+    longitude: 120.4313373
+    min_latitude: 23.5043147
+    min_longitude: 120.132978
+    max_latitude: 23.8421451
+    max_longitude: 120.7362057
   translations:
     en: Yunlin
     ar: مقاطعة يونلين
@@ -1151,16 +1204,18 @@ YUN:
     ccp: "\U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011134\U00011123\U00011128\U0001111A\U00011134"
     uk: Округ Юньлінь
     yue: 雲林縣
-  geo:
-    latitude: 23.7092033
-    longitude: 120.4313373
-    min_latitude: 23.5043147
-    min_longitude: 120.132978
-    max_latitude: 23.8421451
-    max_longitude: 120.7362057
-  name: Yunlin
-KIN:
+  comments: 
+KIN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: كنمن
     az: Szinmınsyundao
@@ -1212,6 +1267,11 @@ KIN:
     uk: Цзіньмень
     yue: 金門
     yo: Kinmen
+  comments: 
+LIE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1219,8 +1279,6 @@ KIN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LIE:
-  unofficial_names: 
   translations:
     cs: Okres Lien-ťiang
     en: Lienchiang
@@ -1234,6 +1292,11 @@ LIE:
     yue_Hans: 连江
     ccp: "\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U0001110C\U00011128\U00011120\U0001112C\U00011101"
     yue: 連江
+  comments: 
+NWT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1241,18 +1304,21 @@ LIE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NWT:
-  unofficial_names: 
   translations:
     en: New Taipei
     ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C"
+  comments: 
+'': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-'':
+    latitude: 23.69781
+    longitude: 120.960515
+    min_latitude: 20.5170001
+    min_longitude: 116.6665
+    max_latitude: 26.4545
+    max_longitude: 123.5021012
   translations:
     en: Taiwan
+  comments: 

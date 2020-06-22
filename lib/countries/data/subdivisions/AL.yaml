@@ -1,9 +1,8 @@
 ---
-BR:
+BR: !ruby/struct:ISO3166::Subdivision
+  name: Berat
+  code: 
   unofficial_names: Berat
-  translations:
-    en: Berat
-    ccp: "\U0001111D\U0001112C\U00011122\U00011127\U00011116\U00011134"
   geo:
     latitude: 40.7086377
     longitude: 19.9437314
@@ -11,13 +10,14 @@ BR:
     min_longitude: 19.9287128
     max_latitude: 40.7306085
     max_longitude: 19.9808693
-  name: Berat
-  comments: 
-BU:
-  unofficial_names: Bulqizë
   translations:
-    en: Bulqizë
-    ccp: "\U0001111D\U0001112A\U00011123\U00011134\U00011107\U00011128\U0001110F\U0001112C"
+    en: Berat
+    ccp: "\U0001111D\U0001112C\U00011122\U00011127\U00011116\U00011134"
+  comments: 
+BU: !ruby/struct:ISO3166::Subdivision
+  name: Bulqizë
+  code: 
+  unofficial_names: Bulqizë
   geo:
     latitude: 41.4942587
     longitude: 20.2147157
@@ -25,14 +25,15 @@ BU:
     min_longitude: 20.1938153
     max_latitude: 41.5114053
     max_longitude: 20.2380502
-  name: Bulqizë
+  translations:
+    en: Bulqizë
+    ccp: "\U0001111D\U0001112A\U00011123\U00011134\U00011107\U00011128\U0001110F\U0001112C"
   comments: 
-DI:
+DI: !ruby/struct:ISO3166::Subdivision
+  name: Dibër
+  code: 
   unofficial_names:
   - Dibër
-  translations:
-    en: Dibër
-    ccp: "\U00011113\U0001112D\U0001111D\U00011122\U00011134"
   geo:
     latitude: 41.5888163
     longitude: 20.2355647
@@ -40,13 +41,14 @@ DI:
     min_longitude: 19.778668
     max_latitude: 41.899441
     max_longitude: 20.583229
-  name: Dibër
-  comments: 
-DL:
-  unofficial_names: Delvinë
   translations:
-    en: Delvinë
-    ccp: "\U00011113\U0001112C\U00011123\U00011134\U0001111E\U0001112D\U0001111A\U00011134"
+    en: Dibër
+    ccp: "\U00011113\U0001112D\U0001111D\U00011122\U00011134"
+  comments: 
+DL: !ruby/struct:ISO3166::Subdivision
+  name: Delvinë
+  code: 
+  unofficial_names: Delvinë
   geo:
     latitude: 39.9481364
     longitude: 20.0955891
@@ -54,13 +56,14 @@ DL:
     min_longitude: 20.0788878
     max_latitude: 39.9586027
     max_longitude: 20.109787
-  name: Delvinë
-  comments: 
-DR:
-  unofficial_names: Durrës
   translations:
-    en: Durrës
-    ccp: "\U00011113\U0001112A\U00011122\U0001112C\U0001110C\U00011134"
+    en: Delvinë
+    ccp: "\U00011113\U0001112C\U00011123\U00011134\U0001111E\U0001112D\U0001111A\U00011134"
+  comments: 
+DR: !ruby/struct:ISO3166::Subdivision
+  name: Durrës
+  code: 
+  unofficial_names: Durrës
   geo:
     latitude: 41.316667
     longitude: 19.45
@@ -68,14 +71,15 @@ DR:
     min_longitude: 19.418378
     max_latitude: 41.3809305
     max_longitude: 19.5148087
-  name: Durrës
+  translations:
+    en: Durrës
+    ccp: "\U00011113\U0001112A\U00011122\U0001112C\U0001110C\U00011134"
   comments: 
-DV:
+DV: !ruby/struct:ISO3166::Subdivision
+  name: Devoll
+  code: 
   unofficial_names:
   - Devoli
-  translations:
-    en: Devoll
-    ccp: "\U00011113\U0001112C\U0001111E\U00011127\U00011123\U00011134"
   geo:
     latitude: 40.6447347
     longitude: 20.9506636
@@ -83,13 +87,14 @@ DV:
     min_longitude: 20.846696
     max_latitude: 40.803878
     max_longitude: 21.06846
-  name: Devoll
-  comments: 
-EL:
-  unofficial_names: Elbasan
   translations:
-    en: Elbasan
-    ccp: "\U00011103\U0001112C\U00011123\U00011134\U0001111D\U00011125\U0001111A\U00011134"
+    en: Devoll
+    ccp: "\U00011113\U0001112C\U0001111E\U00011127\U00011123\U00011134"
+  comments: 
+EL: !ruby/struct:ISO3166::Subdivision
+  name: Elbasan
+  code: 
+  unofficial_names: Elbasan
   geo:
     latitude: 41.11023
     longitude: 20.0866554
@@ -97,13 +102,14 @@ EL:
     min_longitude: 20.0506784
     max_latitude: 41.1308961
     max_longitude: 20.1270677
-  name: Elbasan
-  comments: 
-ER:
-  unofficial_names: Kolonjë
   translations:
-    en: Kolonjë
-    ccp: "\U00011107\U00011127\U00011123\U00011127\U0001111A\U00011134\U0001110E\U00011128"
+    en: Elbasan
+    ccp: "\U00011103\U0001112C\U00011123\U00011134\U0001111D\U00011125\U0001111A\U00011134"
+  comments: 
+ER: !ruby/struct:ISO3166::Subdivision
+  name: Kolonjë
+  code: 
+  unofficial_names: Kolonjë
   geo:
     latitude: 40.3083026
     longitude: 20.6645683
@@ -111,13 +117,14 @@ ER:
     min_longitude: 20.461351
     max_latitude: 40.477882
     max_longitude: 20.8055689
-  name: Kolonjë
-  comments: 
-FR:
-  unofficial_names: Fier
   translations:
-    en: Fier
-    ccp: "\U0001111C\U0001112D\U00011120\U0001112C\U00011122\U00011134"
+    en: Kolonjë
+    ccp: "\U00011107\U00011127\U00011123\U00011127\U0001111A\U00011134\U0001110E\U00011128"
+  comments: 
+FR: !ruby/struct:ISO3166::Subdivision
+  name: Fier
+  code: 
+  unofficial_names: Fier
   geo:
     latitude: 40.9191392
     longitude: 19.6639309
@@ -125,13 +132,14 @@ FR:
     min_longitude: 19.321621
     max_latitude: 41.06486599999999
     max_longitude: 19.92129
-  name: Fier
-  comments: 
-GJ:
-  unofficial_names: Gjirokastër
   translations:
-    en: Gjirokastër
-    ccp: "\U00011109\U00011128\U00011122\U0001112E\U00011107\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    en: Fier
+    ccp: "\U0001111C\U0001112D\U00011120\U0001112C\U00011122\U00011134"
+  comments: 
+GJ: !ruby/struct:ISO3166::Subdivision
+  name: Gjirokastër
+  code: 
+  unofficial_names: Gjirokastër
   geo:
     latitude: 40.0672874
     longitude: 20.1045229
@@ -139,13 +147,14 @@ GJ:
     min_longitude: 20.0553703
     max_latitude: 40.1064699
     max_longitude: 20.1654482
-  name: Gjirokastër
-  comments: 
-GR:
-  unofficial_names: Gramsh
   translations:
-    en: Gramsh
-    ccp: "\U00011109\U00011133\U00011122\U0001111F\U00011133\U0001110C\U00011134"
+    en: Gjirokastër
+    ccp: "\U00011109\U00011128\U00011122\U0001112E\U00011107\U0001110C\U00011134\U00011111\U00011122\U00011134"
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Gramsh
+  code: 
+  unofficial_names: Gramsh
   geo:
     latitude: 40.866667
     longitude: 20.183333
@@ -153,13 +162,14 @@ GR:
     min_longitude: 20.179696
     max_latitude: 40.87864
     max_longitude: 20.1936437
-  name: Gramsh
-  comments: 
-HA:
-  unofficial_names: Has
   translations:
-    en: Has
-    ccp: "\U00011126\U0001110C\U00011134"
+    en: Gramsh
+    ccp: "\U00011109\U00011133\U00011122\U0001111F\U00011133\U0001110C\U00011134"
+  comments: 
+HA: !ruby/struct:ISO3166::Subdivision
+  name: Has
+  code: 
+  unofficial_names: Has
   geo:
     latitude: 42.2
     longitude: 20.416667
@@ -167,13 +177,14 @@ HA:
     min_longitude: 20.3994227
     max_latitude: 42.2043618
     max_longitude: 20.4262232
-  name: Has
-  comments: 
-KA:
-  unofficial_names: Kavajë
   translations:
-    en: Kavajë
-    ccp: "\U00011107\U00011127\U0001111E\U0001110E\U00011128"
+    en: Has
+    ccp: "\U00011126\U0001110C\U00011134"
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Kavajë
+  code: 
+  unofficial_names: Kavajë
   geo:
     latitude: 41.1844529
     longitude: 19.5627596
@@ -181,13 +192,14 @@ KA:
     min_longitude: 19.5357512
     max_latitude: 41.2088804
     max_longitude: 19.5895959
-  name: Kavajë
-  comments: 
-KB:
-  unofficial_names: Kurbin
   translations:
-    en: Kurbin
-    ccp: "\U00011107\U0001112A\U00011122\U00011134\U0001111D\U00011128\U0001111A\U00011134"
+    en: Kavajë
+    ccp: "\U00011107\U00011127\U0001111E\U0001110E\U00011128"
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: Kurbin
+  code: 
+  unofficial_names: Kurbin
   geo:
     latitude: 41.6300368
     longitude: 19.6877385
@@ -195,13 +207,14 @@ KB:
     min_longitude: 19.5546243
     max_latitude: 41.694035
     max_longitude: 19.824307
-  name: Kurbin
-  comments: 
-KC:
-  unofficial_names: Kuçovë
   translations:
-    en: Kuçovë
-    ccp: "\U00011107\U0001112A\U00011107\U0001112E\U0001111E\U00011128"
+    en: Kurbin
+    ccp: "\U00011107\U0001112A\U00011122\U00011134\U0001111D\U00011128\U0001111A\U00011134"
+  comments: 
+KC: !ruby/struct:ISO3166::Subdivision
+  name: Kuçovë
+  code: 
+  unofficial_names: Kuçovë
   geo:
     latitude: 40.803889
     longitude: 19.914444
@@ -209,13 +222,14 @@ KC:
     min_longitude: 19.8975277
     max_latitude: 40.827904
     max_longitude: 19.9304867
-  name: Kuçovë
-  comments: 
-KO:
-  unofficial_names: Korçë
   translations:
-    en: Korçë
-    ccp: "\U00011107\U0001112E\U00011122\U00011134\U00011125\U00011128"
+    en: Kuçovë
+    ccp: "\U00011107\U0001112A\U00011107\U0001112E\U0001111E\U00011128"
+  comments: 
+KO: !ruby/struct:ISO3166::Subdivision
+  name: Korçë
+  code: 
+  unofficial_names: Korçë
   geo:
     latitude: 40.6140785
     longitude: 20.7778071
@@ -223,13 +237,14 @@ KO:
     min_longitude: 20.762229
     max_latitude: 40.63663890000001
     max_longitude: 20.7976342
-  name: Korçë
-  comments: 
-KR:
-  unofficial_names: Krujë
   translations:
-    en: Krujë
-    ccp: "\U00011107\U00011133\U00011122\U0001112A\U0001110E\U0001112C"
+    en: Korçë
+    ccp: "\U00011107\U0001112E\U00011122\U00011134\U00011125\U00011128"
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: Krujë
+  code: 
+  unofficial_names: Krujë
   geo:
     latitude: 41.5094765
     longitude: 19.7710732
@@ -237,13 +252,14 @@ KR:
     min_longitude: 19.7247505
     max_latitude: 41.5598482
     max_longitude: 19.8250007
-  name: Krujë
-  comments: 
-KU:
-  unofficial_names: Kukës
   translations:
-    en: Kukës
-    ccp: "\U00011107\U0001112A\U00011107\U0001112C\U0001110C\U00011134"
+    en: Krujë
+    ccp: "\U00011107\U00011133\U00011122\U0001112A\U0001110E\U0001112C"
+  comments: 
+KU: !ruby/struct:ISO3166::Subdivision
+  name: Kukës
+  code: 
+  unofficial_names: Kukës
   geo:
     latitude: 42.076667
     longitude: 20.421667
@@ -251,13 +267,14 @@ KU:
     min_longitude: 20.3917409
     max_latitude: 42.1007892
     max_longitude: 20.4430247
-  name: Kukës
-  comments: 
-LB:
-  unofficial_names: Librazhd
   translations:
-    en: Librazhd
-    ccp: "\U00011123\U0001112D\U0001111D\U00011133\U00011122\U0001110C\U00011134\U00011126\U00011133\U00011118\U00011134"
+    en: Kukës
+    ccp: "\U00011107\U0001112A\U00011107\U0001112C\U0001110C\U00011134"
+  comments: 
+LB: !ruby/struct:ISO3166::Subdivision
+  name: Librazhd
+  code: 
+  unofficial_names: Librazhd
   geo:
     latitude: 41.183333
     longitude: 20.316667
@@ -265,13 +282,14 @@ LB:
     min_longitude: 20.3058672
     max_latitude: 41.1895385
     max_longitude: 20.3219818
-  name: Librazhd
-  comments: 
-LE:
-  unofficial_names: Lezhë
   translations:
-    en: Lezhë
-    ccp: "\U00011123\U0001112C\U0001110F\U0001112C"
+    en: Librazhd
+    ccp: "\U00011123\U0001112D\U0001111D\U00011133\U00011122\U0001110C\U00011134\U00011126\U00011133\U00011118\U00011134"
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: Lezhë
+  code: 
+  unofficial_names: Lezhë
   geo:
     latitude: 41.78607299999999
     longitude: 19.6460758
@@ -279,13 +297,14 @@ LE:
     min_longitude: 19.6120548
     max_latitude: 41.8086206
     max_longitude: 19.6730233
-  name: Lezhë
-  comments: 
-LU:
-  unofficial_names: Lushnjë
   translations:
-    en: Lushnjë
-    ccp: "\U00011123\U0001112A\U00011101\U00011110\U00011134\U0001110E\U0001112C"
+    en: Lezhë
+    ccp: "\U00011123\U0001112C\U0001110F\U0001112C"
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: Lushnjë
+  code: 
+  unofficial_names: Lushnjë
   geo:
     latitude: 40.933333
     longitude: 19.7
@@ -293,13 +312,14 @@ LU:
     min_longitude: 19.6815777
     max_latitude: 40.9557244
     max_longitude: 19.7263814
-  name: Lushnjë
-  comments: 
-MK:
-  unofficial_names: Mallakastër
   translations:
-    en: Mallakastër
-    ccp: "\U0001111F\U00011123\U00011107\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    en: Lushnjë
+    ccp: "\U00011123\U0001112A\U00011101\U00011110\U00011134\U0001110E\U0001112C"
+  comments: 
+MK: !ruby/struct:ISO3166::Subdivision
+  name: Mallakastër
+  code: 
+  unofficial_names: Mallakastër
   geo:
     latitude: 40.5273376
     longitude: 19.7829791
@@ -307,15 +327,15 @@ MK:
     min_longitude: 19.674152
     max_latitude: 40.655769
     max_longitude: 19.92129
-  name: Mallakastër
+  translations:
+    en: Mallakastër
+    ccp: "\U0001111F\U00011123\U00011107\U0001110C\U00011134\U00011111\U00011122\U00011134"
   comments: 
-MM:
+MM: !ruby/struct:ISO3166::Subdivision
+  name: Malësi e Madhe
+  code: 
   unofficial_names:
   - Malesia e Madhe
-  translations:
-    en: Malësi e Madhe
-    ccp: "\U0001111F\U00011123\U00011128\U00011125\U0001112D \U00011103\U00011128
-      \U0001111F\U00011119\U0001112C"
   geo:
     latitude: 42.4245173
     longitude: 19.6163185
@@ -323,13 +343,15 @@ MM:
     min_longitude: 19.3563652
     max_latitude: 42.665615
     max_longitude: 19.835646
-  name: Malësi e Madhe
-  comments: 
-MR:
-  unofficial_names: Mirditë
   translations:
-    en: Mirditë
-    ccp: "\U0001111F\U00011128\U00011122\U00011134\U00011113\U00011128\U00011111\U0001112C"
+    en: Malësi e Madhe
+    ccp: "\U0001111F\U00011123\U00011128\U00011125\U0001112D \U00011103\U00011128
+      \U0001111F\U00011119\U0001112C"
+  comments: 
+MR: !ruby/struct:ISO3166::Subdivision
+  name: Mirditë
+  code: 
+  unofficial_names: Mirditë
   geo:
     latitude: 41.764286
     longitude: 19.9020509
@@ -337,13 +359,14 @@ MR:
     min_longitude: 19.7135539
     max_latitude: 42.028515
     max_longitude: 20.261952
-  name: Mirditë
-  comments: 
-MT:
-  unofficial_names: Mat
   translations:
-    en: Mat
-    ccp: "\U0001111F\U00011116\U00011134"
+    en: Mirditë
+    ccp: "\U0001111F\U00011128\U00011122\U00011134\U00011113\U00011128\U00011111\U0001112C"
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Mat
+  code: 
+  unofficial_names: Mat
   geo:
     latitude: 41.5937675
     longitude: 19.9973244
@@ -351,13 +374,14 @@ MT:
     min_longitude: 19.778668
     max_latitude: 41.784789
     max_longitude: 20.224639
-  name: Mat
-  comments: 
-PG:
-  unofficial_names: Pogradec
   translations:
-    en: Pogradec
-    ccp: "\U0001111B\U00011127\U00011109\U00011133\U00011122\U00011113\U0001112C\U00011107\U00011134"
+    en: Mat
+    ccp: "\U0001111F\U00011116\U00011134"
+  comments: 
+PG: !ruby/struct:ISO3166::Subdivision
+  name: Pogradec
+  code: 
+  unofficial_names: Pogradec
   geo:
     latitude: 40.9
     longitude: 20.65
@@ -365,13 +389,14 @@ PG:
     min_longitude: 20.6446195
     max_latitude: 40.9067909
     max_longitude: 20.6704974
-  name: Pogradec
-  comments: 
-PQ:
-  unofficial_names: Peqin
   translations:
-    en: Peqin
-    ccp: "\U0001111B\U0001112C\U00011107\U0001112A\U00011103\U00011128\U0001111A\U00011134"
+    en: Pogradec
+    ccp: "\U0001111B\U00011127\U00011109\U00011133\U00011122\U00011113\U0001112C\U00011107\U00011134"
+  comments: 
+PQ: !ruby/struct:ISO3166::Subdivision
+  name: Peqin
+  code: 
+  unofficial_names: Peqin
   geo:
     latitude: 41.05
     longitude: 19.75
@@ -379,13 +404,14 @@ PQ:
     min_longitude: 19.7408866
     max_latitude: 41.0517835
     max_longitude: 19.7607136
-  name: Peqin
-  comments: 
-PR:
-  unofficial_names: Përmet
   translations:
-    en: Përmet
-    ccp: "\U0001111B\U00011122\U00011134\U0001111F\U0001112C\U00011116\U00011134"
+    en: Peqin
+    ccp: "\U0001111B\U0001112C\U00011107\U0001112A\U00011103\U00011128\U0001111A\U00011134"
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Përmet
+  code: 
+  unofficial_names: Përmet
   geo:
     latitude: 40.23333299999999
     longitude: 20.35
@@ -393,13 +419,14 @@ PR:
     min_longitude: 20.3441261
     max_latitude: 40.2449268
     max_longitude: 20.3684806
-  name: Përmet
-  comments: 
-PU:
-  unofficial_names: Pukë
   translations:
-    en: Pukë
-    ccp: "\U0001111B\U00011128\U00011107\U0001112C"
+    en: Përmet
+    ccp: "\U0001111B\U00011122\U00011134\U0001111F\U0001112C\U00011116\U00011134"
+  comments: 
+PU: !ruby/struct:ISO3166::Subdivision
+  name: Pukë
+  code: 
+  unofficial_names: Pukë
   geo:
     latitude: 42.05
     longitude: 19.9
@@ -407,13 +434,14 @@ PU:
     min_longitude: 19.8818636
     max_latitude: 42.0535603
     max_longitude: 19.9108264
-  name: Pukë
-  comments: 
-SH:
-  unofficial_names: Shkodër
   translations:
-    en: Shkodër
-    ccp: "\U00011108\U0001112E\U00011118\U0001112C\U00011122\U00011134"
+    en: Pukë
+    ccp: "\U0001111B\U00011128\U00011107\U0001112C"
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: Shkodër
+  code: 
+  unofficial_names: Shkodër
   geo:
     latitude: 42.0692985
     longitude: 19.5032559
@@ -421,13 +449,14 @@ SH:
     min_longitude: 19.3796252
     max_latitude: 42.0965346
     max_longitude: 19.537983
-  name: Shkodër
-  comments: 
-SK:
-  unofficial_names: Skrapar
   translations:
-    en: Skrapar
-    ccp: "\U00011125\U00011133\U00011122\U0001112C\U0001111B\U00011122\U00011134"
+    en: Shkodër
+    ccp: "\U00011108\U0001112E\U00011118\U0001112C\U00011122\U00011134"
+  comments: 
+SK: !ruby/struct:ISO3166::Subdivision
+  name: Skrapar
+  code: 
+  unofficial_names: Skrapar
   geo:
     latitude: 40.5349946
     longitude: 20.2832217
@@ -435,13 +464,14 @@ SK:
     min_longitude: 20.092381
     max_latitude: 40.728658
     max_longitude: 20.452115
-  name: Skrapar
-  comments: 
-SR:
-  unofficial_names: Sarandë
   translations:
-    en: Sarandë
-    ccp: "\U00011125\U00011122\U0001111A\U00011134\U00011113\U0001112C"
+    en: Skrapar
+    ccp: "\U00011125\U00011133\U00011122\U0001112C\U0001111B\U00011122\U00011134"
+  comments: 
+SR: !ruby/struct:ISO3166::Subdivision
+  name: Sarandë
+  code: 
+  unofficial_names: Sarandë
   geo:
     latitude: 39.875
     longitude: 20.01
@@ -449,13 +479,14 @@ SR:
     min_longitude: 19.9696756
     max_latitude: 39.8857015
     max_longitude: 20.0435258
-  name: Sarandë
-  comments: 
-TE:
-  unofficial_names: Tepelenë
   translations:
-    en: Tepelenë
-    ccp: "\U00011111\U0001112C\U0001111B\U0001112C\U00011123\U0001112C\U0001111A\U0001112C"
+    en: Sarandë
+    ccp: "\U00011125\U00011122\U0001111A\U00011134\U00011113\U0001112C"
+  comments: 
+TE: !ruby/struct:ISO3166::Subdivision
+  name: Tepelenë
+  code: 
+  unofficial_names: Tepelenë
   geo:
     latitude: 40.3
     longitude: 20.016667
@@ -463,13 +494,14 @@ TE:
     min_longitude: 20.0116824
     max_latitude: 40.3029309
     max_longitude: 20.0266171
-  name: Tepelenë
-  comments: 
-TP:
-  unofficial_names: Tropojë
   translations:
-    en: Tropojë
-    ccp: "\U00011111\U00011133\U00011122\U00011127\U0001111B\U00011127\U0001110E\U0001112C"
+    en: Tepelenë
+    ccp: "\U00011111\U0001112C\U0001111B\U0001112C\U00011123\U0001112C\U0001111A\U0001112C"
+  comments: 
+TP: !ruby/struct:ISO3166::Subdivision
+  name: Tropojë
+  code: 
+  unofficial_names: Tropojë
   geo:
     latitude: 42.40000000000001
     longitude: 20.166667
@@ -477,16 +509,17 @@ TP:
     min_longitude: 20.1551485
     max_latitude: 42.4069178
     max_longitude: 20.1732587
-  name: Tropojë
+  translations:
+    en: Tropojë
+    ccp: "\U00011111\U00011133\U00011122\U00011127\U0001111B\U00011127\U0001110E\U0001112C"
   comments: 
-TR:
+TR: !ruby/struct:ISO3166::Subdivision
+  name: Tiranë
+  code: 
   unofficial_names:
   - Tiranë
   - Tirana
   - Tirana
-  translations:
-    en: Tirana
-    ccp: "\U00011111\U0001112D\U00011122\U0001111A"
   geo:
     latitude: 41.3275459
     longitude: 19.8186982
@@ -494,13 +527,14 @@ TR:
     min_longitude: 19.7535682
     max_latitude: 41.36684109999999
     max_longitude: 19.8820782
-  name: Tiranë
-  comments: 
-VL:
-  unofficial_names: Vlorë
   translations:
-    en: Vlorë
-    ccp: "\U0001111E\U00011133\U00011123\U0001112E\U00011122\U0001112C"
+    en: Tirana
+    ccp: "\U00011111\U0001112D\U00011122\U0001111A"
+  comments: 
+VL: !ruby/struct:ISO3166::Subdivision
+  name: Vlorë
+  code: 
+  unofficial_names: Vlorë
   geo:
     latitude: 40.465
     longitude: 19.485
@@ -508,10 +542,21 @@ VL:
     min_longitude: 19.4530106
     max_latitude: 40.4912342
     max_longitude: 19.5100021
-  name: Vlorë
+  translations:
+    en: Vlorë
+    ccp: "\U0001111E\U00011133\U00011123\U0001112E\U00011122\U0001112C"
   comments: 
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة بيرات
     be: Вобласць Берат
@@ -570,6 +615,11 @@ VL:
     pa: ਬੇਰਾਤ ਕਾਉਂਟੀ
     bs: Okrug Berat
     mk: Белград
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -577,8 +627,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     ar: مقاطعة دوريس
     be: Дурэс
@@ -637,6 +685,11 @@ VL:
     mn: Дуррес хошуу
     bs: Okrug Drač
     mk: Драч
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -644,8 +697,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     ar: مقاطعة إلباسان
     be: вобласць Эльбасан
@@ -691,6 +742,11 @@ VL:
     ca: comtat d’Elbasan
     bs: Okrug Elbasan
     mk: Елбасан
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -698,8 +754,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     ar: مقاطعة فيير
     bg: Фиер
@@ -743,6 +797,11 @@ VL:
     mn: Фиер хошуу
     bs: Okrug Fier
     mk: Фиер
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -750,8 +809,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     ar: مقاطعة غيروكاستر
     bg: Аргирокастро
@@ -811,6 +868,11 @@ VL:
     be: Гіракастра
     bs: Okrug Gjirokastër
     mk: Ѓирокастро
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -818,8 +880,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     ar: مقاطعة كورتشي
     be: вобласць Корча
@@ -876,6 +936,11 @@ VL:
     ga: Contae Korçë
     bs: Okrug Korča
     mk: Горица
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -883,8 +948,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     ar: مقاطعة كوكس
     bg: Кукъс
@@ -928,6 +991,11 @@ VL:
     be: Кукес
     bs: Okrug Kukës
     mk: Кукуш
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -935,8 +1003,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     ar: مقاطعة لجه
     be: Лежа
@@ -981,6 +1047,11 @@ VL:
     mn: Лежа хошуу
     bs: Okrug Lješ
     mk: Леска
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -988,8 +1059,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     ar: مقاطعة ديبر
     bg: Дебър
@@ -1035,6 +1104,11 @@ VL:
     pa: ਡਿਬਰ ਕਾਉਂਟੀ
     bs: Okrug Dibr
     mk: Дебар
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1042,8 +1116,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     ar: مقاطعة شكودر
     be: Шкодэр
@@ -1091,6 +1163,11 @@ VL:
     mn: Шкодер хошуу
     bs: Okrug Skadar
     mk: Скадар
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1098,8 +1175,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'11':
-  unofficial_names: 
   translations:
     ar: مقاطعة تيرانا
     be: вобласць Тырана
@@ -1147,6 +1222,11 @@ VL:
     mn: Тиран хошуу
     bs: Okrug Tirana
     mk: Тирана
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1154,8 +1234,6 @@ VL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'12':
-  unofficial_names: 
   translations:
     ar: مقاطعة فلوره
     be: Вобласць Влёра
@@ -1212,10 +1290,4 @@ VL:
     ga: Contae Vlorë
     bs: Okrug Vlora
     mk: Валона
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

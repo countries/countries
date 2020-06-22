@@ -1,6 +1,15 @@
 ---
-AB:
+AB: !ruby/struct:ISO3166::Subdivision
+  name: Abyan
+  code: 
   unofficial_names: Abyan
+  geo:
+    latitude: 13.6343413
+    longitude: 46.0563212
+    min_latitude: 12.9191754
+    min_longitude: 45.046048
+    max_latitude: 14.303409
+    max_longitude: 47.166517
   translations:
     en: Abyan
     ar: محافظة أبين
@@ -50,21 +59,23 @@ AB:
     lt: Abjano gubernija
     ccp: "\U00011103\U0001111D\U00011128\U00011120\U0001111A\U00011134"
     az: Abya mühafazası
-  geo:
-    latitude: 13.6343413
-    longitude: 46.0563212
-    min_latitude: 12.9191754
-    min_longitude: 45.046048
-    max_latitude: 14.303409
-    max_longitude: 47.166517
-  name: Abyan
-AD:
+  comments: 
+AD: !ruby/struct:ISO3166::Subdivision
+  name: ʿAdan
+  code: 
   unofficial_names:
   - Adan
   - ʿAdan
   - Aden
   - Aden
   - Adén
+  geo:
+    latitude: 12.8257481
+    longitude: 44.7943804
+    min_latitude: 12.6697487
+    min_longitude: 44.4078031
+    max_latitude: 12.92427
+    max_longitude: 45.0821905
   translations:
     en: "’Adan"
     ar: محافظة عدن
@@ -97,16 +108,18 @@ AD:
     ccp: "\U00011103\U00011113\U0001111A\U00011134"
     az: Aden mühafazası
     ca: Governació d’Adan
-  geo:
-    latitude: 12.8257481
-    longitude: 44.7943804
-    min_latitude: 12.6697487
-    min_longitude: 44.4078031
-    max_latitude: 12.92427
-    max_longitude: 45.0821905
-  name: ʿAdan
-AM:
+  comments: 
+AM: !ruby/struct:ISO3166::Subdivision
+  name: "'Amran"
+  code: 
   unofficial_names: "'Amran"
+  geo:
+    latitude: 16.2569214
+    longitude: 43.9436788
+    min_latitude: 15.488677
+    min_longitude: 43.524034
+    max_latitude: 16.641641
+    max_longitude: 44.3594831
   translations:
     en: Amran
     ar: محافظة عمران
@@ -152,17 +165,19 @@ AM:
     zh: 阿姆蘭省
     ccp: "\U00011103\U0001111F\U00011122\U0001111A\U00011134"
     az: Amran mühafazası
-  geo:
-    latitude: 16.2569214
-    longitude: 43.9436788
-    min_latitude: 15.488677
-    min_longitude: 43.524034
-    max_latitude: 16.641641
-    max_longitude: 44.3594831
-  name: "'Amran"
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Al Bayḑā’
+  code: 
   unofficial_names:
   - Al Baida
+  geo:
+    latitude: 14.3588662
+    longitude: 45.4498065
+    min_latitude: 13.806784
+    min_longitude: 44.58074209999999
+    max_latitude: 14.7964711
+    max_longitude: 46.0480639
   translations:
     en: Al Bayda
     ar: محافظة البيضاء
@@ -210,16 +225,18 @@ BA:
     zh: 贝达省
     ccp: "\U00011103\U00011123\U00011134 \U0001111D\U0001112C\U00011113"
     ca: Governació d’Al Bayda
-  geo:
-    latitude: 14.3588662
-    longitude: 45.4498065
-    min_latitude: 13.806784
-    min_longitude: 44.58074209999999
-    max_latitude: 14.7964711
-    max_longitude: 46.0480639
-  name: Al Bayḑā’
-DA:
+  comments: 
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Ad¸ D¸ali'
+  code: 
   unofficial_names: Ad¸ D¸ali'
+  geo:
+    latitude: 13.696667
+    longitude: 44.730833
+    min_latitude: 13.6921764
+    min_longitude: 44.7181321
+    max_latitude: 13.7195688
+    max_longitude: 44.7446966
   translations:
     en: Dhale
     ar: محافظة الضالع
@@ -267,19 +284,21 @@ DA:
     zh: 达利省
     ccp: "\U00011119\U00011123\U00011128"
     ca: Governació d’Ad Dali
-  geo:
-    latitude: 13.696667
-    longitude: 44.730833
-    min_latitude: 13.6921764
-    min_longitude: 44.7181321
-    max_latitude: 13.7195688
-    max_longitude: 44.7446966
-  name: Ad¸ D¸ali'
-DH:
+  comments: 
+DH: !ruby/struct:ISO3166::Subdivision
+  name: Dhamar
+  code: 
   unofficial_names:
   - Dhamar
   - Dhomar
   - Đomar
+  geo:
+    latitude: 14.7195344
+    longitude: 44.2479015
+    min_latitude: 14.031811
+    min_longitude: 43.475584
+    max_latitude: 14.9834611
+    max_longitude: 44.8365489
   translations:
     en: Dhamar
     ar: محافظة ذمار
@@ -328,17 +347,19 @@ DH:
     zh: 扎玛尔省
     ccp: "\U00011119\U0001111F\U00011122\U00011134"
     az: Damar mühafazası
-  geo:
-    latitude: 14.7195344
-    longitude: 44.2479015
-    min_latitude: 14.031811
-    min_longitude: 43.475584
-    max_latitude: 14.9834611
-    max_longitude: 44.8365489
-  name: Dhamar
-HD:
+  comments: 
+HD: !ruby/struct:ISO3166::Subdivision
+  name: Hadramawt
+  code: 
   unofficial_names:
   - Hadramout
+  geo:
+    latitude: 16.9304135
+    longitude: 49.36531489999999
+    min_latitude: 12.1115582
+    min_longitude: 46.2974891
+    max_latitude: 19.002331
+    max_longitude: 54.53053990000001
   translations:
     en: Hadramaut
     ar: محافظة حضرموت
@@ -386,16 +407,18 @@ HD:
     lt: Hadramuto gubernija
     zh: 哈德拉毛省
     ccp: "\U00011126\U00011113\U00011133\U00011122\U0001112D\U0001111F\U00011127\U00011105\U0001112A\U00011116\U00011134"
-  geo:
-    latitude: 16.9304135
-    longitude: 49.36531489999999
-    min_latitude: 12.1115582
-    min_longitude: 46.2974891
-    max_latitude: 19.002331
-    max_longitude: 54.53053990000001
-  name: Hadramawt
-HJ:
+  comments: 
+HJ: !ruby/struct:ISO3166::Subdivision
+  name: Hajjah
+  code: 
   unofficial_names: Hajjah
+  geo:
+    latitude: 16.1180631
+    longitude: 43.329466
+    min_latitude: 15.463984
+    min_longitude: 42.778236
+    max_latitude: 16.6797261
+    max_longitude: 43.766581
   translations:
     en: Hajjah
     ar: محافظة حجة
@@ -445,21 +468,23 @@ HJ:
     ccp: "\U00011126\U0001110E\U00011133\U00011126\U00011126\U00011134"
     sr: Хаџах
     ca: Governació d’Hajjah
-  geo:
-    latitude: 16.1180631
-    longitude: 43.329466
-    min_latitude: 15.463984
-    min_longitude: 42.778236
-    max_latitude: 16.6797261
-    max_longitude: 43.766581
-  name: Hajjah
-HU:
+  comments: 
+HU: !ruby/struct:ISO3166::Subdivision
+  name: Al Ḩudaydah
+  code: 
   unofficial_names:
   - Hodeida
   - Hodeidah
   - Hodeïah
   - H̨udaydah
   - al-Hudaydah
+  geo:
+    latitude: 15.3053072
+    longitude: 43.0194897
+    min_latitude: 13.6042295
+    min_longitude: 41.8160553
+    max_latitude: 15.9224578
+    max_longitude: 43.777108
   translations:
     en: Al Hudaydah
     ar: محافظة الحديدة
@@ -509,16 +534,18 @@ HU:
     zh: 荷台达省
     ccp: "\U00011103\U00011123\U00011134 \U00011126\U0001112A\U00011113\U0001112C\U00011118\U00011126\U00011134"
     sr: Ел Худаида
-  geo:
-    latitude: 15.3053072
-    longitude: 43.0194897
-    min_latitude: 13.6042295
-    min_longitude: 41.8160553
-    max_latitude: 15.9224578
-    max_longitude: 43.777108
-  name: Al Ḩudaydah
-IB:
+  comments: 
+IB: !ruby/struct:ISO3166::Subdivision
+  name: Ibb
+  code: 
   unofficial_names: Ibb
+  geo:
+    latitude: 14.1415717
+    longitude: 44.2479015
+    min_latitude: 13.674915
+    min_longitude: 43.647663
+    max_latitude: 14.433573
+    max_longitude: 44.6729879
   translations:
     en: Ibb
     ar: محافظة إب
@@ -568,16 +595,18 @@ IB:
     ccp: "\U00011103\U00011128\U0001111B\U00011133\U00011126\U00011134"
     az: İbb mühafazası
     ca: Governació d’Ibb
-  geo:
-    latitude: 14.1415717
-    longitude: 44.2479015
-    min_latitude: 13.674915
-    min_longitude: 43.647663
-    max_latitude: 14.433573
-    max_longitude: 44.6729879
-  name: Ibb
-JA:
+  comments: 
+JA: !ruby/struct:ISO3166::Subdivision
+  name: Al Jawf
+  code: 
   unofficial_names: Al Jawf
+  geo:
+    latitude: 16.7901819
+    longitude: 45.29938620000001
+    min_latitude: 15.722451
+    min_longitude: 44.067691
+    max_latitude: 17.4041709
+    max_longitude: 47.0087311
   translations:
     en: Al Jawf
     ar: محافظة الجوف
@@ -628,18 +657,20 @@ JA:
     ccp: "\U00011103\U00011123\U00011134 \U0001110E\U0001112E\U0001111B\U00011134"
     sr: Ел Џауф
     be: Эль-Джауф
-  geo:
-    latitude: 16.7901819
-    longitude: 45.29938620000001
-    min_latitude: 15.722451
-    min_longitude: 44.067691
-    max_latitude: 17.4041709
-    max_longitude: 47.0087311
-  name: Al Jawf
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Laḩij
+  code: 
   unofficial_names:
   - Lahej
   - Lahj
+  geo:
+    latitude: 16.4022222
+    longitude: 44.3238889
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Lahij
     ar: محافظة لحج
@@ -673,18 +704,20 @@ LA:
     zh: 拉赫季省
     ccp: "\U00011123\U0001111D\U00011126\U00011128\U0001110C\U00011134"
     ca: Governació de Lahij
-  geo:
-    latitude: 16.4022222
-    longitude: 44.3238889
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Laḩij
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Ma'rib
+  code: 
   unofficial_names:
   - Marab
   - Mareb
+  geo:
+    latitude: 15.4700312
+    longitude: 45.3228575
+    min_latitude: 15.4511678
+    min_longitude: 45.2984496
+    max_latitude: 15.4981702
+    max_longitude: 45.3470603
   translations:
     en: Ma’rib
     ar: محافظة مأرب
@@ -732,16 +765,18 @@ MA:
     bn: মা‘রিব গভর্নোরেট
     ccp: "\U0001111F‘\U00011122\U00011128\U0001111B\U00011134"
     ca: Governació de Marib
-  geo:
-    latitude: 15.4700312
-    longitude: 45.3228575
-    min_latitude: 15.4511678
-    min_longitude: 45.2984496
-    max_latitude: 15.4981702
-    max_longitude: 45.3470603
-  name: Ma'rib
-MR:
+  comments: 
+MR: !ruby/struct:ISO3166::Subdivision
+  name: Al Mahrah
+  code: 
   unofficial_names: Al Mahrah
+  geo:
+    latitude: 16.5238423
+    longitude: 51.6834275
+    min_latitude: 15.0801567
+    min_longitude: 50.1137559
+    max_latitude: 19.002331
+    max_longitude: 53.0783
   translations:
     en: Al Mahrah
     ar: محافظة المهرة
@@ -790,16 +825,18 @@ MR:
     lt: Al Machros gubernija
     zh: 马哈拉省
     ccp: "\U00011103\U00011123\U00011134 \U0001111F\U00011126\U00011134\U00011122\U00011126\U00011134"
-  geo:
-    latitude: 16.5238423
-    longitude: 51.6834275
-    min_latitude: 15.0801567
-    min_longitude: 50.1137559
-    max_latitude: 19.002331
-    max_longitude: 53.0783
-  name: Al Mahrah
-MW:
+  comments: 
+MW: !ruby/struct:ISO3166::Subdivision
+  name: Al Mahwit
+  code: 
   unofficial_names: Al Mahwit
+  geo:
+    latitude: 15.3963229
+    longitude: 43.5606946
+    min_latitude: 15.006784
+    min_longitude: 43.25229710000001
+    max_latitude: 15.5304159
+    max_longitude: 43.924874
   translations:
     en: Al Mahwit
     ar: محافظة المحويت
@@ -848,17 +885,19 @@ MW:
     zh: 迈赫维特省
     ccp: "\U00011103\U00011123\U00011134 \U0001111F\U00011126\U00011134\U00011103\U0001112A\U00011103\U00011128\U00011116\U00011134"
     ca: Governació d’Al Mahwit
-  geo:
-    latitude: 15.3963229
-    longitude: 43.5606946
-    min_latitude: 15.006784
-    min_longitude: 43.25229710000001
-    max_latitude: 15.5304159
-    max_longitude: 43.924874
-  name: Al Mahwit
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Sa`dah
+  code: 
   unofficial_names:
   - Saʿadah
+  geo:
+    latitude: 16.9509413
+    longitude: 43.7477743
+    min_latitude: 16.9213471
+    min_longitude: 43.7216377
+    max_latitude: 16.9842336
+    max_longitude: 43.7776101
   translations:
     en: Sa’dah
     ar: محافظة صعدة
@@ -907,17 +946,19 @@ SD:
     lt: Saados gubernija
     zh: 萨达省
     ccp: "\U00011125‘\U00011113\U00011126\U00011134"
-  geo:
-    latitude: 16.9509413
-    longitude: 43.7477743
-    min_latitude: 16.9213471
-    min_longitude: 43.7216377
-    max_latitude: 16.9842336
-    max_longitude: 43.7776101
-  name: Sa`dah
-SH:
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: Shabwah
+  code: 
   unofficial_names:
   - Shabwah
+  geo:
+    latitude: 15.368889
+    longitude: 47.023611
+    min_latitude: 15.3665084
+    min_longitude: 47.0220423
+    max_latitude: 15.3717846
+    max_longitude: 47.0317305
   translations:
     en: Shabwah
     ar: محافظة شبوة
@@ -968,21 +1009,23 @@ SH:
     zh: 舍卜沃省
     ccp: "\U00011125\U0001111B\U00011134\U00011124\U00011126\U00011134"
     sr: Шабва
-  geo:
-    latitude: 15.368889
-    longitude: 47.023611
-    min_latitude: 15.3665084
-    min_longitude: 47.0220423
-    max_latitude: 15.3717846
-    max_longitude: 47.0317305
-  name: Shabwah
-SN:
+  comments: 
+SN: !ruby/struct:ISO3166::Subdivision
+  name: Sanʿā
+  code: 
   unofficial_names:
   - Sana
   - Sanaa
   - Sanaʿa
   - Sanaʿa City
   - Sanʿaʿ
+  geo:
+    latitude: 16.0905301
+    longitude: 49.6554124
+    min_latitude: 16.08029
+    min_longitude: 49.64571480000001
+    max_latitude: 16.0981446
+    max_longitude: 49.6662712
   translations:
     en: Sana’a
     ar: محافظة صنعاء
@@ -1017,17 +1060,19 @@ SN:
     ccp: "\U00011125\U0001111A‘\U00011103\U00011127"
     ca: Governació de Sanà
     be: Сана
-  geo:
-    latitude: 16.0905301
-    longitude: 49.6554124
-    min_latitude: 16.08029
-    min_longitude: 49.64571480000001
-    max_latitude: 16.0981446
-    max_longitude: 49.6662712
-  name: Sanʿā
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Taʿizz
+  code: 
   unofficial_names:
   - Taiz
+  geo:
+    latitude: 13.4131166
+    longitude: 43.6375314
+    min_latitude: 12.6340961
+    min_longitude: 43.2397839
+    max_latitude: 13.887883
+    max_longitude: 44.510999
   translations:
     en: Taiz
     ar: محافظة تعز
@@ -1076,16 +1121,18 @@ TA:
     ccp: "\U00011111\U0001112D\U0001110C\U00011134"
     sr: Таиз
     ca: Governació de Taizz
-  geo:
-    latitude: 13.4131166
-    longitude: 43.6375314
-    min_latitude: 12.6340961
-    min_longitude: 43.2397839
-    max_latitude: 13.887883
-    max_longitude: 44.510999
-  name: Taʿizz
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Sanaa
     am: ሳና
@@ -1165,6 +1212,11 @@ SA:
     uz: Sano
     bs: Sana’a
     mk: Сана
+  comments: 
+RA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1172,8 +1224,6 @@ SA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RA:
-  unofficial_names: 
   translations:
     ar: محافظة ريمة
     bg: Райма
@@ -1221,6 +1271,11 @@ RA:
     zh: 赖马省
     ccp: "\U00011122\U0001112C\U0001111F\U00011126\U00011134"
     ca: Governació de Raimah
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1228,8 +1283,6 @@ RA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SU:
-  unofficial_names: 
   translations:
     ar: محافظة أرخبيل سقطرى
     de: Gouvernement Sokotra
@@ -1246,10 +1299,4 @@ SU:
       \U00011125\U0001112A\U00011107\U00011111\U00011133\U00011122"
     es: Gobernación de Socotra
     ca: Governació de Socotra
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

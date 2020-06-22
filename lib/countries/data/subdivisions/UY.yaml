@@ -1,6 +1,15 @@
 ---
-AR:
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Artigas
+  code: 
   unofficial_names: Artigas
+  geo:
+    latitude: -30.4880891
+    longitude: -57.10131879999999
+    min_latitude: -31.054585
+    min_longitude: -57.88818699999999
+    max_latitude: -30.082224
+    max_longitude: -55.9870069
   translations:
     en: Artigas
     ar: إدارة أرتيغاس
@@ -50,16 +59,18 @@ AR:
     ccp: "\U00011103\U00011122\U00011134\U00011111\U00011128\U00011109\U0001110C\U00011134"
     sk: Artigas
     mk: Артигас
-  geo:
-    latitude: -30.4880891
-    longitude: -57.10131879999999
-    min_latitude: -31.054585
-    min_longitude: -57.88818699999999
-    max_latitude: -30.082224
-    max_longitude: -55.9870069
-  name: Artigas
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Canelones
+  code: 
   unofficial_names: Canelones
+  geo:
+    latitude: -34.721
+    longitude: -55.959
+    min_latitude: -34.52278
+    min_longitude: -56.27778
+    max_latitude: -34.5166646
+    max_longitude: -56.2833322
   translations:
     en: Canelones
     ar: إدارة كانيلونيس
@@ -109,16 +120,18 @@ CA:
     sk: Canelones
     be: дэпартамент Канелонес
     mk: Канелонес (департман)
-  geo:
-    latitude: -34.721
-    longitude: -55.959
-    min_latitude: -34.52278
-    min_longitude: -56.27778
-    max_latitude: -34.5166646
-    max_longitude: -56.2833322
-  name: Canelones
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Colonia
+  code: 
   unofficial_names: Colonia
+  geo:
+    latitude: -34.4607
+    longitude: -57.8339
+    min_latitude: -35.5012
+    min_longitude: -56.7844
+    max_latitude: -34.4517
+    max_longitude: -57.7667
   translations:
     en: Colonia
     ar: إدارة كولونيا
@@ -168,16 +181,18 @@ CO:
     ccp: "\U00011107\U00011133\U00011120\U00011123\U0001112E\U0001111A\U00011128\U00011120"
     sk: Colonia
     mk: Колонија (департман)
-  geo:
-    latitude: -34.4607
-    longitude: -57.8339
-    min_latitude: -35.5012
-    min_longitude: -56.7844
-    max_latitude: -34.4517
-    max_longitude: -57.7667
-  name: Colonia
-CL:
+  comments: 
+CL: !ruby/struct:ISO3166::Subdivision
+  name: Cerro Lago
+  code: 
   unofficial_names: Cerro Lago
+  geo:
+    latitude: -32.3769
+    longitude: -54.1654
+    min_latitude: -32.36667
+    min_longitude: -53.517
+    max_latitude: -32.483
+    max_longitude: -54.18333
   translations:
     en: Cerro Largo
     ar: سيرو لاغو
@@ -227,16 +242,18 @@ CL:
     ccp: "\U00011107\U0001112C\U00011122\U0001112E \U00011123\U00011122\U00011134\U00011109\U0001112E"
     sk: Cerro Largo
     mk: Серо Ларго
-  geo:
-    latitude: -32.3769
-    longitude: -54.1654
-    min_latitude: -32.36667
-    min_longitude: -53.517
-    max_latitude: -32.483
-    max_longitude: -54.18333
-  name: Cerro Lago
-DU:
+  comments: 
+DU: !ruby/struct:ISO3166::Subdivision
+  name: Durazno
+  code: 
   unofficial_names: Durazno
+  geo:
+    latitude: -33.3822982
+    longitude: -56.5275506
+    min_latitude: -33.413685
+    min_longitude: -56.6182749
+    max_latitude: -33.3566481
+    max_longitude: -56.4953762
   translations:
     en: Durazno
     ar: إدارة دورازنو
@@ -286,17 +303,19 @@ DU:
     ccp: "\U00011113\U0001112A\U00011122\U0001110C\U00011134\U0001111A\U0001112E"
     sk: Durazno
     mk: Дурасно
-  geo:
-    latitude: -33.3822982
-    longitude: -56.5275506
-    min_latitude: -33.413685
-    min_longitude: -56.6182749
-    max_latitude: -33.3566481
-    max_longitude: -56.4953762
-  name: Durazno
-FD:
+  comments: 
+FD: !ruby/struct:ISO3166::Subdivision
+  name: Florida
+  code: 
   unofficial_names:
   - FLorida
+  geo:
+    latitude: -34.1
+    longitude: -56.21666699999999
+    min_latitude: -34.11482950000001
+    min_longitude: -56.2453946
+    max_latitude: -34.0753834
+    max_longitude: -56.2004211
   translations:
     en: Florida
     ar: إدارة فلوريدا
@@ -345,16 +364,18 @@ FD:
     ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U00011128\U00011113"
     sk: Florida
     mk: Флорида
-  geo:
-    latitude: -34.1
-    longitude: -56.21666699999999
-    min_latitude: -34.11482950000001
-    min_longitude: -56.2453946
-    max_latitude: -34.0753834
-    max_longitude: -56.2004211
-  name: Florida
-FS:
+  comments: 
+FS: !ruby/struct:ISO3166::Subdivision
+  name: Flores
+  code: 
   unofficial_names: Flores
+  geo:
+    latitude: -33.5629477
+    longitude: -56.83111169999999
+    min_latitude: -33.963974
+    min_longitude: -57.359303
+    max_latitude: -33.12822
+    max_longitude: -56.3974
   translations:
     en: Flores
     ar: إدارة فلوريس
@@ -403,16 +424,18 @@ FS:
     ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U0001112C\U0001110C\U00011134"
     sk: Flores
     mk: Флорес
-  geo:
-    latitude: -33.5629477
-    longitude: -56.83111169999999
-    min_latitude: -33.963974
-    min_longitude: -57.359303
-    max_latitude: -33.12822
-    max_longitude: -56.3974
-  name: Flores
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Lavalleja
+  code: 
   unofficial_names: Lavalleja
+  geo:
+    latitude: -34.0040354
+    longitude: -54.9611836
+    min_latitude: -34.6143989
+    min_longitude: -55.6264269
+    max_latitude: -33.296482
+    max_longitude: -54.126133
   translations:
     en: Lavalleja
     ar: إدارة لافاليخا
@@ -461,16 +484,18 @@ LA:
     ccp: "\U00011123\U0001111E\U00011123\U00011133\U00011126\U00011128\U0001110E"
     sk: Lavalleja
     cs: Lavalleja
-  geo:
-    latitude: -34.0040354
-    longitude: -54.9611836
-    min_latitude: -34.6143989
-    min_longitude: -55.6264269
-    max_latitude: -33.296482
-    max_longitude: -54.126133
-  name: Lavalleja
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Maldonado
+  code: 
   unofficial_names: Maldonado
+  geo:
+    latitude: -34.6277617
+    longitude: -54.9611836
+    min_latitude: -34.9733882
+    min_longitude: -55.48498189999999
+    max_latitude: -33.91334880000001
+    max_longitude: -54.4719539
   translations:
     en: Maldonado
     ar: إدارة مالدونادو
@@ -519,16 +544,18 @@ MA:
     fa: بخش مالدونادو
     ccp: "\U0001111F\U00011123\U00011134\U00011113\U0001112E\U0001111A\U00011113\U0001112E"
     sk: Maldonado
-  geo:
-    latitude: -34.6277617
-    longitude: -54.9611836
-    min_latitude: -34.9733882
-    min_longitude: -55.48498189999999
-    max_latitude: -33.91334880000001
-    max_longitude: -54.4719539
-  name: Maldonado
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Montevideo
+  code: 
   unofficial_names: Montevideo
+  geo:
+    latitude: -34.9011127
+    longitude: -56.16453139999999
+    min_latitude: -34.9379555
+    min_longitude: -56.4311685
+    max_latitude: -34.70193
+    max_longitude: -56.0292436
   translations:
     en: Montevideo
     ar: إدارة مونتيفيديو
@@ -608,16 +635,18 @@ MO:
     bs: Montevideo
     mk: Монтевидео
     tk: Montowideo
-  geo:
-    latitude: -34.9011127
-    longitude: -56.16453139999999
-    min_latitude: -34.9379555
-    min_longitude: -56.4311685
-    max_latitude: -34.70193
-    max_longitude: -56.0292436
-  name: Montevideo
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Paysandú
+  code: 
   unofficial_names: Paysandú
+  geo:
+    latitude: -32.2216595
+    longitude: -57.4627259
+    min_latitude: -32.572212
+    min_longitude: -58.205719
+    max_latitude: -31.4293369
+    max_longitude: -56.2413251
   translations:
     en: Paysandú
     ar: إدارة بايساندو
@@ -665,16 +694,18 @@ PA:
     fa: بخش پایساندو
     ccp: "\U0001111B\U0001112C\U00011125\U0001111A\U00011134\U00011113\U0001112A"
     sk: Paysandú
-  geo:
-    latitude: -32.2216595
-    longitude: -57.4627259
-    min_latitude: -32.572212
-    min_longitude: -58.205719
-    max_latitude: -31.4293369
-    max_longitude: -56.2413251
-  name: Paysandú
-RN:
+  comments: 
+RN: !ruby/struct:ISO3166::Subdivision
+  name: Río Negro
+  code: 
   unofficial_names: Río Negro
+  geo:
+    latitude: -32.7625409
+    longitude: -57.10131879999999
+    min_latitude: -33.4182849
+    min_longitude: -58.4203151
+    max_latitude: -32.3229219
+    max_longitude: -56.547501
   translations:
     en: Río Negro
     ar: إدارة ريو نيغرو
@@ -723,16 +754,18 @@ RN:
     ccp: "\U00011122\U0001112D\U00011103\U0001112E \U0001111A\U0001112C\U00011109\U00011133\U00011122\U0001112E"
     sk: Río Negro
     be: дэпартамент Рыа-Негра
-  geo:
-    latitude: -32.7625409
-    longitude: -57.10131879999999
-    min_latitude: -33.4182849
-    min_longitude: -58.4203151
-    max_latitude: -32.3229219
-    max_longitude: -56.547501
-  name: Río Negro
-RO:
+  comments: 
+RO: !ruby/struct:ISO3166::Subdivision
+  name: Rocha
+  code: 
   unofficial_names: Rocha
+  geo:
+    latitude: -33.9674948
+    longitude: -53.9106594
+    min_latitude: -34.7936294
+    min_longitude: -54.564964
+    max_latitude: -33.1358951
+    max_longitude: -53.3785147
   translations:
     en: Rocha
     ar: إدارة روتشا
@@ -780,16 +813,18 @@ RO:
     fa: بخش روچا
     ccp: "\U00011122\U0001112E\U0001110C"
     sk: Rocha
-  geo:
-    latitude: -33.9674948
-    longitude: -53.9106594
-    min_latitude: -34.7936294
-    min_longitude: -54.564964
-    max_latitude: -33.1358951
-    max_longitude: -53.3785147
-  name: Rocha
-RV:
+  comments: 
+RV: !ruby/struct:ISO3166::Subdivision
+  name: Rivera
+  code: 
   unofficial_names: Rivera
+  geo:
+    latitude: -30.9025
+    longitude: -55.550556
+    min_latitude: -30.9871014
+    min_longitude: -55.61652660000001
+    max_latitude: -30.8566634
+    max_longitude: -55.4523149
   translations:
     en: Rivera
     ar: إدارة ريفيرا
@@ -837,16 +872,18 @@ RV:
     fa: بخش ریورا
     ccp: "\U00011122\U00011128\U0001111E\U00011122"
     sk: Rivera
-  geo:
-    latitude: -30.9025
-    longitude: -55.550556
-    min_latitude: -30.9871014
-    min_longitude: -55.61652660000001
-    max_latitude: -30.8566634
-    max_longitude: -55.4523149
-  name: Rivera
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Salto
+  code: 
   unofficial_names: Salto
+  geo:
+    latitude: -31.4679335
+    longitude: -57.10131879999999
+    min_latitude: -31.8470001
+    min_longitude: -58.0779601
+    max_latitude: -30.716536
+    max_longitude: -55.99990589999999
   translations:
     en: Salto
     ar: إدارة سالتو
@@ -895,16 +932,18 @@ SA:
     ccp: "\U00011125\U00011123\U00011134\U00011111\U0001112E"
     sk: Salto
     be: дэпартамент Сальта
-  geo:
-    latitude: -31.4679335
-    longitude: -57.10131879999999
-    min_latitude: -31.8470001
-    min_longitude: -58.0779601
-    max_latitude: -30.716536
-    max_longitude: -55.99990589999999
-  name: Salto
-SJ:
+  comments: 
+SJ: !ruby/struct:ISO3166::Subdivision
+  name: San José
+  code: 
   unofficial_names: San José
+  geo:
+    latitude: -34.250223
+    longitude: -56.741207
+    min_latitude: -34.78946
+    min_longitude: -57.1731299
+    max_latitude: -33.816353
+    max_longitude: -56.34363399999999
   translations:
     en: San José
     ar: إدارة سان خوسيه
@@ -953,16 +992,18 @@ SJ:
     ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U0001112E\U00011125\U0001112C"
     sk: San José
     he: סן חוסה (מחוז באורוגוואי)
-  geo:
-    latitude: -34.250223
-    longitude: -56.741207
-    min_latitude: -34.78946
-    min_longitude: -57.1731299
-    max_latitude: -33.816353
-    max_longitude: -56.34363399999999
-  name: San José
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Soriano
+  code: 
   unofficial_names: Soriano
+  geo:
+    latitude: -33.5103372
+    longitude: -57.7346113
+    min_latitude: -33.9466588
+    min_longitude: -58.442722
+    max_latitude: -33.006599
+    max_longitude: -57.0863759
   translations:
     en: Soriano
     ar: إدارة سوريانو
@@ -1010,16 +1051,18 @@ SO:
     fa: بخش سوریانو
     ccp: "\U00011125\U0001112E\U00011122\U00011128\U00011120\U0001111A\U0001112E"
     sk: Soriano
-  geo:
-    latitude: -33.5103372
-    longitude: -57.7346113
-    min_latitude: -33.9466588
-    min_longitude: -58.442722
-    max_latitude: -33.006599
-    max_longitude: -57.0863759
-  name: Soriano
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Tacuarembó
+  code: 
   unofficial_names: Tacuarembó
+  geo:
+    latitude: -32.0106717
+    longitude: -55.6689636
+    min_latitude: -32.872563
+    min_longitude: -56.663515
+    max_latitude: -31.210968
+    max_longitude: -54.651097
   translations:
     en: Tacuarembó
     ar: إدارة تاكواريمبو
@@ -1069,16 +1112,18 @@ TA:
     fa: بخش تاکوئارمبو
     ccp: "\U00011111\U00011133\U00011120\U00011107\U0001112A\U00011120\U00011122\U0001112C\U0001111F\U00011134\U0001111D\U0001112E"
     sk: Tacuarembó
-  geo:
-    latitude: -32.0106717
-    longitude: -55.6689636
-    min_latitude: -32.872563
-    min_longitude: -56.663515
-    max_latitude: -31.210968
-    max_longitude: -54.651097
-  name: Tacuarembó
-TT:
+  comments: 
+TT: !ruby/struct:ISO3166::Subdivision
+  name: Treinta y Tres
+  code: 
   unofficial_names: Treinta y Tres
+  geo:
+    latitude: -33.1476661
+    longitude: -54.25931180000001
+    min_latitude: -33.444572
+    min_longitude: -55.158798
+    max_latitude: -32.682854
+    max_longitude: -53.2823961
   translations:
     en: Treinta y Tres
     ar: إدارة ترينتا ذا تريس
@@ -1128,11 +1173,4 @@ TT:
     ccp: "\U00011111\U00011133\U00011122\U0001112C\U00011103\U00011128\U0001111A\U00011134\U00011111
       \U00011103\U0001112E\U00011120\U0001112D \U00011111\U00011133\U00011122\U0001112C\U0001110C\U00011134"
     sk: Treinta y Tres
-  geo:
-    latitude: -33.1476661
-    longitude: -54.25931180000001
-    min_latitude: -33.444572
-    min_longitude: -55.158798
-    max_latitude: -32.682854
-    max_longitude: -53.2823961
-  name: Treinta y Tres
+  comments: 

@@ -1,8 +1,8 @@
 ---
-'1':
+'1': !ruby/struct:ISO3166::Subdivision
+  name: Saint Clement
+  code: 
   unofficial_names: Saint Clement
-  translations:
-    en: Saint Clement
   geo:
     latitude: 49.16565
     longitude: -2.07659
@@ -10,12 +10,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Clement
-  comments: 
-'2':
-  unofficial_names: Saint Saviour
   translations:
-    en: Saint Saviour
+    en: Saint Clement
+  comments: 
+'2': !ruby/struct:ISO3166::Subdivision
+  name: Saint Saviour
+  code: 
+  unofficial_names: Saint Saviour
   geo:
     latitude: 49.19517
     longitude: -2.09238
@@ -23,12 +24,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Saviour
-  comments: 
-'3':
-  unofficial_names: Saint Brelade
   translations:
-    en: Saint Brelade
+    en: Saint Saviour
+  comments: 
+'3': !ruby/struct:ISO3166::Subdivision
+  name: Saint Brelade
+  code: 
+  unofficial_names: Saint Brelade
   geo:
     latitude: 49.19056
     longitude: -2.20056
@@ -36,12 +38,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Brelade
-  comments: 
-'4':
-  unofficial_names: Grouville
   translations:
-    en: Grouville
+    en: Saint Brelade
+  comments: 
+'4': !ruby/struct:ISO3166::Subdivision
+  name: Grouville
+  code: 
+  unofficial_names: Grouville
   geo:
     latitude: 49.18472
     longitude: -2.04917
@@ -49,12 +52,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Grouville
-  comments: 
-'5':
-  unofficial_names: Saint Mary
   translations:
-    en: Saint Mary
+    en: Grouville
+  comments: 
+'5': !ruby/struct:ISO3166::Subdivision
+  name: Saint Mary
+  code: 
+  unofficial_names: Saint Mary
   geo:
     latitude: 49.23583
     longitude: -2.17222
@@ -62,12 +66,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Mary
-  comments: 
-'6':
-  unofficial_names: Saint Lawrence
   translations:
-    en: Saint Lawrence
+    en: Saint Mary
+  comments: 
+'6': !ruby/struct:ISO3166::Subdivision
+  name: Saint Lawrence
+  code: 
+  unofficial_names: Saint Lawrence
   geo:
     latitude: 49.21528
     longitude: -2.14
@@ -75,12 +80,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Lawrence
-  comments: 
-'7':
-  unofficial_names: Saint Peter
   translations:
-    en: Saint Peter
+    en: Saint Lawrence
+  comments: 
+'7': !ruby/struct:ISO3166::Subdivision
+  name: Saint Peter
+  code: 
+  unofficial_names: Saint Peter
   geo:
     latitude: 49.21333
     longitude: -2.18194
@@ -88,12 +94,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Peter
-  comments: 
-'8':
-  unofficial_names: Saint Ouen
   translations:
-    en: Saint Ouen
+    en: Saint Peter
+  comments: 
+'8': !ruby/struct:ISO3166::Subdivision
+  name: Saint Ouen
+  code: 
+  unofficial_names: Saint Ouen
   geo:
     latitude: 49.22667
     longitude: -2.20556
@@ -101,12 +108,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Ouen
-  comments: 
-'9':
-  unofficial_names: Saint John
   translations:
-    en: Saint John
+    en: Saint Ouen
+  comments: 
+'9': !ruby/struct:ISO3166::Subdivision
+  name: Saint John
+  code: 
+  unofficial_names: Saint John
   geo:
     latitude: 49.24694
     longitude: -2.1375
@@ -114,12 +122,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint John
-  comments: 
-'10':
-  unofficial_names: Trinity
   translations:
-    en: Trinity
+    en: Saint John
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Trinity
+  code: 
+  unofficial_names: Trinity
   geo:
     latitude: 49.23472
     longitude: -2.09
@@ -127,12 +136,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Trinity
-  comments: 
-'11':
-  unofficial_names: Saint Martin
   translations:
-    en: Saint Martin
+    en: Trinity
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Saint Martin
+  code: 
+  unofficial_names: Saint Martin
   geo:
     latitude: 49.21944
     longitude: -2.04972
@@ -140,12 +150,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Martin
-  comments: 
-'12':
-  unofficial_names: Saint Helier
   translations:
-    en: Saint Helier
+    en: Saint Martin
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Saint Helier
+  code: 
+  unofficial_names: Saint Helier
   geo:
     latitude: 49.18333
     longitude: -2.1
@@ -153,5 +164,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint Helier
+  translations:
+    en: Saint Helier
   comments: 

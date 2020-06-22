@@ -1,8 +1,17 @@
 ---
-AD:
+AD: !ruby/struct:ISO3166::Subdivision
+  name: Adygeya, Respublika
+  code: 
   unofficial_names:
   - Adygei Republic
   - Adygeja
+  geo:
+    latitude: 44.8229155
+    longitude: 40.1754463
+    min_latitude: 43.757678
+    min_longitude: 38.6818529
+    max_latitude: 45.21684
+    max_longitude: 40.7744969
   translations:
     ru: Адыгея
     af: Adigea
@@ -75,19 +84,21 @@ AD:
     uz: Adigeya
     bs: Adigeja
     mk: Адигеја
-  geo:
-    latitude: 44.8229155
-    longitude: 40.1754463
-    min_latitude: 43.757678
-    min_longitude: 38.6818529
-    max_latitude: 45.21684
-    max_longitude: 40.7744969
-  name: Adygeya, Respublika
-AL:
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Altay, Respublika
+  code: 
   unofficial_names:
   - Altaj
   - Altay
   - Gorno-Altaj
+  geo:
+    latitude: 55.7671943
+    longitude: 37.606158
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ru: Республика Алтай
     af: Altai
@@ -157,20 +168,22 @@ AL:
     uz: Oltoy Respublikasi
     bs: Altajska republika
     mk: Република Алтај
-  geo:
-    latitude: 55.7671943
-    longitude: 37.606158
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Altay, Respublika
-ALT:
+  comments: 
+ALT: !ruby/struct:ISO3166::Subdivision
+  name: Altayskiy kray
+  code: 
   unofficial_names:
   - Altai Kray
   - Altajskij Kray
   - Altajskiy Kraj
   - Altaj
+  geo:
+    latitude: 51.7936298
+    longitude: 82.6758596
+    min_latitude: 50.6395136
+    min_longitude: 77.8891551
+    max_latitude: 54.45086
+    max_longitude: 87.16908889999999
   translations:
     ru: Алтайский край
     af: Altai-krai
@@ -238,17 +251,19 @@ ALT:
     uz: Oltoy oʻlkasi
     bs: Altajski kraj
     mk: Алтајски крај
-  geo:
-    latitude: 51.7936298
-    longitude: 82.6758596
-    min_latitude: 50.6395136
-    min_longitude: 77.8891551
-    max_latitude: 54.45086
-    max_longitude: 87.16908889999999
-  name: Altayskiy kray
-AMU:
+  comments: 
+AMU: !ruby/struct:ISO3166::Subdivision
+  name: Amurskaya oblast'
+  code: 
   unofficial_names:
   - Amurskaja Oblast
+  geo:
+    latitude: 54.60350649999999
+    longitude: 127.4801721
+    min_latitude: 48.852265
+    min_longitude: 119.66795
+    max_latitude: 57.0585329
+    max_longitude: 134.920255
   translations:
     ru: Амурская область
     af: Amoer-oblast
@@ -316,18 +331,20 @@ AMU:
     uz: Amur viloyati
     bs: Amurska oblast
     mk: Амурска област
-  geo:
-    latitude: 54.60350649999999
-    longitude: 127.4801721
-    min_latitude: 48.852265
-    min_longitude: 119.66795
-    max_latitude: 57.0585329
-    max_longitude: 134.920255
-  name: Amurskaya oblast'
-ARK:
+  comments: 
+ARK: !ruby/struct:ISO3166::Subdivision
+  name: Arkhangel'skaya oblast'
+  code: 
   unofficial_names:
   - Arhangelskaja Oblast
   - Arhangelsk
+  geo:
+    latitude: 63.2852803
+    longitude: 42.5884191
+    min_latitude: 60.63212300000001
+    min_longitude: 35.502945
+    max_latitude: 81.8581221
+    max_longitude: 69.04823499999999
   translations:
     ru: Архангельская область
     af: Archangelsk-oblast
@@ -397,18 +414,20 @@ ARK:
     uz: Arxangel viloyati
     bs: Arhangelska oblast
     mk: Архангелска област
-  geo:
-    latitude: 63.2852803
-    longitude: 42.5884191
-    min_latitude: 60.63212300000001
-    min_longitude: 35.502945
-    max_latitude: 81.8581221
-    max_longitude: 69.04823499999999
-  name: Arkhangel'skaya oblast'
-AST:
+  comments: 
+AST: !ruby/struct:ISO3166::Subdivision
+  name: Astrakhanskaya oblast'
+  code: 
   unofficial_names:
   - Astrahanska Oblast
   - Astrahan
+  geo:
+    latitude: 46.1321166
+    longitude: 48.0610115
+    min_latitude: 45.17255590000001
+    min_longitude: 44.9707619
+    max_latitude: 48.8653439
+    max_longitude: 49.279398
   translations:
     ru: Астраханская область
     af: Astrachan-oblast
@@ -477,17 +496,19 @@ AST:
     uz: Astraxan viloyati
     bs: Astrahanska oblast
     mk: Астраханска област
-  geo:
-    latitude: 46.1321166
-    longitude: 48.0610115
-    min_latitude: 45.17255590000001
-    min_longitude: 44.9707619
-    max_latitude: 48.8653439
-    max_longitude: 49.279398
-  name: Astrakhanskaya oblast'
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Bashkortostan, Respublika
+  code: 
   unofficial_names:
   - Baškortostan
+  geo:
+    latitude: 54.2312172
+    longitude: 56.1645257
+    min_latitude: 51.57122589999999
+    min_longitude: 53.1579969
+    max_latitude: 56.53352
+    max_longitude: 60.00295010000001
   translations:
     ru: Башкортостан
     af: Basjkortostan
@@ -563,17 +584,19 @@ BA:
     uz: Boshqirdiston
     bs: Baškortostan
     mk: Башкортостан
-  geo:
-    latitude: 54.2312172
-    longitude: 56.1645257
-    min_latitude: 51.57122589999999
-    min_longitude: 53.1579969
-    max_latitude: 56.53352
-    max_longitude: 60.00295010000001
-  name: Bashkortostan, Respublika
-BEL:
+  comments: 
+BEL: !ruby/struct:ISO3166::Subdivision
+  name: Belgorodskaya oblast'
+  code: 
   unofficial_names:
   - Belgorodskaja Oblast
+  geo:
+    latitude: 50.71069259999999
+    longitude: 37.7533377
+    min_latitude: 49.796403
+    min_longitude: 35.3285271
+    max_latitude: 51.4325619
+    max_longitude: 39.2751271
   translations:
     ru: Белгородская область
     af: Belgorod-oblast
@@ -640,18 +663,20 @@ BEL:
     uz: Belgorod viloyati
     bs: Belgorodska oblast
     mk: Белгородска област
-  geo:
-    latitude: 50.71069259999999
-    longitude: 37.7533377
-    min_latitude: 49.796403
-    min_longitude: 35.3285271
-    max_latitude: 51.4325619
-    max_longitude: 39.2751271
-  name: Belgorodskaya oblast'
-BRY:
+  comments: 
+BRY: !ruby/struct:ISO3166::Subdivision
+  name: Bryanskaya oblast'
+  code: 
   unofficial_names:
   - Brjanskaja Oblast
   - Brjansk
+  geo:
+    latitude: 53.0408599
+    longitude: 33.2690899
+    min_latitude: 51.844038
+    min_longitude: 31.24210489999999
+    max_latitude: 54.03629910000001
+    max_longitude: 35.32127810000001
   translations:
     ru: Брянская область
     af: Brjansk-oblast
@@ -719,18 +744,20 @@ BRY:
     uz: Bryansk viloyati
     bs: Brjanska oblast
     mk: Брјанска област
-  geo:
-    latitude: 53.0408599
-    longitude: 33.2690899
-    min_latitude: 51.844038
-    min_longitude: 31.24210489999999
-    max_latitude: 54.03629910000001
-    max_longitude: 35.32127810000001
-  name: Bryanskaya oblast'
-BU:
+  comments: 
+BU: !ruby/struct:ISO3166::Subdivision
+  name: Buryatiya, Respublika
+  code: 
   unofficial_names:
   - Buryat Republic
   - Burjatija
+  geo:
+    latitude: 55.7685161
+    longitude: 37.6425744
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ru: Бурятия
     af: Boerjatië
@@ -801,15 +828,10 @@ BU:
     uz: Buryatiya
     bs: Burjatija
     mk: Бурјатија
-  geo:
-    latitude: 55.7685161
-    longitude: 37.6425744
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Buryatiya, Respublika
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Chechenskaya Respublika
+  code: 
   unofficial_names:
   - Chechen
   - Chechenia
@@ -818,6 +840,13 @@ CE:
   - Čečens
   - Čečenskaja Respublika
   - Čečenija
+  geo:
+    latitude: 55.7521689
+    longitude: 37.5886438
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ru: Чечня
     af: Tsjetsjnië
@@ -893,19 +922,21 @@ CE:
     uz: Checheniston
     bs: Čečenija
     mk: Чеченија
-  geo:
-    latitude: 55.7521689
-    longitude: 37.5886438
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chechenskaya Respublika
-CHE:
+  comments: 
+CHE: !ruby/struct:ISO3166::Subdivision
+  name: Chelyabinskaya oblast'
+  code: 
   unofficial_names:
   - Cheljabinsk
   - Čeljabinskaja Oblast
   - Čeljabinsk
+  geo:
+    latitude: 54.43194219999999
+    longitude: 60.87889629999999
+    min_latitude: 51.990638
+    min_longitude: 57.1300707
+    max_latitude: 56.3648829
+    max_longitude: 63.3492892
   translations:
     ru: Челябинская область
     af: Tsjeljabinsk-oblast
@@ -973,20 +1004,22 @@ CHE:
     uz: Chelyabinsk viloyati
     bs: Čeljabinska oblast
     mk: Чељабинска област
-  geo:
-    latitude: 54.43194219999999
-    longitude: 60.87889629999999
-    min_latitude: 51.990638
-    min_longitude: 57.1300707
-    max_latitude: 56.3648829
-    max_longitude: 63.3492892
-  name: Chelyabinskaya oblast'
-CHU:
+  comments: 
+CHU: !ruby/struct:ISO3166::Subdivision
+  name: Chukotskiy avtonomnyy okrug
+  code: 
   unofficial_names:
   - Chuckchi
   - Čukotskij Avtonomnyj Okrug
   - Čukči
   - Čukotka
+  geo:
+    latitude: 65.6298355
+    longitude: 171.6952159
+    min_latitude: 61.8096659
+    min_longitude: 157.732108
+    max_latitude: 71.59401129999999
+    max_longitude: -168.9996789
   translations:
     ru: Чукотский автономный округ
     af: Tsjoekotka
@@ -1053,20 +1086,22 @@ CHU:
     uz: Chukotka muhtor okrugi
     bs: Čukotski autonomni okrug
     mk: Чукотски автономен округ
-  geo:
-    latitude: 65.6298355
-    longitude: 171.6952159
-    min_latitude: 61.8096659
-    min_longitude: 157.732108
-    max_latitude: 71.59401129999999
-    max_longitude: -168.9996789
-  name: Chukotskiy avtonomnyy okrug
-CU:
+  comments: 
+CU: !ruby/struct:ISO3166::Subdivision
+  name: Chuvashskaya Respublika
+  code: 
   unofficial_names:
   - Chuvash Republic
   - Chuvashskaya Respublika
   - Čuvašskaja Respublika
   - Čuvašija
+  geo:
+    latitude: 55.55959920000001
+    longitude: 46.9283536
+    min_latitude: 54.6260479
+    min_longitude: 45.91057199999999
+    max_latitude: 56.3299659
+    max_longitude: 48.416765
   translations:
     ru: Чувашия
     af: Tsjoewasjië
@@ -1136,16 +1171,18 @@ CU:
     uz: Chuvashiya
     bs: Čuvašija
     mk: Чувашија
-  geo:
-    latitude: 55.55959920000001
-    longitude: 46.9283536
-    min_latitude: 54.6260479
-    min_longitude: 45.91057199999999
-    max_latitude: 56.3299659
-    max_longitude: 48.416765
-  name: Chuvashskaya Respublika
-DA:
+  comments: 
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Dagestan, Respublika
+  code: 
   unofficial_names: Dagestan, Respublika
+  geo:
+    latitude: 55.7599606
+    longitude: 37.6504362
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ru: Дагестан
     af: Dagestan
@@ -1220,18 +1257,20 @@ DA:
     uz: Dogʻiston
     bs: Dagestan
     mk: Дагестан
-  geo:
-    latitude: 55.7599606
-    longitude: 37.6504362
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Dagestan, Respublika
-IN:
+  comments: 
+IN: !ruby/struct:ISO3166::Subdivision
+  name: Ingushskaya Respublika [Respublika Ingushetiya]
+  code: 
   unofficial_names:
   - Ingushetija
   - Ingušetija
+  geo:
+    latitude: 43.4051698
+    longitude: 44.82029989999999
+    min_latitude: 42.614831
+    min_longitude: 44.4769308
+    max_latitude: 43.6107959
+    max_longitude: 45.1902339
   translations:
     ru: Ингушетия
     af: Ingoesjetië
@@ -1296,17 +1335,19 @@ IN:
     uz: Ingushiya
     bs: Ingušetija
     mk: Ингушетија
-  geo:
-    latitude: 43.4051698
-    longitude: 44.82029989999999
-    min_latitude: 42.614831
-    min_longitude: 44.4769308
-    max_latitude: 43.6107959
-    max_longitude: 45.1902339
-  name: Ingushskaya Respublika [Respublika Ingushetiya]
-IRK:
+  comments: 
+IRK: !ruby/struct:ISO3166::Subdivision
+  name: Irkutskaya oblast'
+  code: 
   unofficial_names:
   - Irkutskaja Oblast
+  geo:
+    latitude: 56.13214199999999
+    longitude: 103.948625
+    min_latitude: 51.1373171
+    min_longitude: 95.65773999999999
+    max_latitude: 64.31695599999999
+    max_longitude: 119.1306879
   translations:
     ru: Иркутская область
     af: Irkoetsk-oblast
@@ -1373,17 +1414,19 @@ IRK:
     uz: Irkutsk viloyati
     bs: Irkutska oblast
     mk: Иркутска област
-  geo:
-    latitude: 56.13214199999999
-    longitude: 103.948625
-    min_latitude: 51.1373171
-    min_longitude: 95.65773999999999
-    max_latitude: 64.31695599999999
-    max_longitude: 119.1306879
-  name: Irkutskaya oblast'
-IVA:
+  comments: 
+IVA: !ruby/struct:ISO3166::Subdivision
+  name: Ivanovskaya oblast'
+  code: 
   unofficial_names:
   - Ivanovskaja Oblast
+  geo:
+    latitude: 57.1056854
+    longitude: 41.4830084
+    min_latitude: 56.3503961
+    min_longitude: 39.3779529
+    max_latitude: 57.74272199999999
+    max_longitude: 43.3058696
   translations:
     ru: Ивановская область
     af: Iwanowo-oblast
@@ -1450,19 +1493,21 @@ IVA:
     uz: Ivanovo viloyati
     bs: Ivanovska oblast
     mk: Ивановска област
-  geo:
-    latitude: 57.1056854
-    longitude: 41.4830084
-    min_latitude: 56.3503961
-    min_longitude: 39.3779529
-    max_latitude: 57.74272199999999
-    max_longitude: 43.3058696
-  name: Ivanovskaya oblast'
-KAM:
+  comments: 
+KAM: !ruby/struct:ISO3166::Subdivision
+  name: Kamchatskaya oblast'
+  code: 
   unofficial_names:
   - Kamchatskaya Oblast
   - Kamčatskaja Oblast
   - Kamčatka
+  geo:
+    latitude: 55.743583
+    longitude: 37.5880195
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Kamchatka Krai
     ru: Камчатский край
@@ -1532,19 +1577,21 @@ KAM:
     uz: Kamchatka oʻlkasi
     bs: Kamčatski kraj
     mk: Камчатски крај
-  geo:
-    latitude: 55.743583
-    longitude: 37.5880195
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Kamchatskaya oblast'
-KB:
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: Kabardino-Balkarskaya Respublika
+  code: 
   unofficial_names:
   - Kabardino-Balkarian Republic
   - Kabardino-Balkarskaja Respublika
   - Kabardino-Balkarija
+  geo:
+    latitude: 43.3932469
+    longitude: 43.5628498
+    min_latitude: 42.8891
+    min_longitude: 42.3981201
+    max_latitude: 44.0228141
+    max_longitude: 44.47055100000001
   translations:
     ru: Кабардино-Балкария
     af: Kabardino-Balkarië
@@ -1615,19 +1662,21 @@ KB:
     uz: Kabarda-balkariya
     bs: Kabardino-Balkarija
     mk: Кабардино-Балкарија
-  geo:
-    latitude: 43.3932469
-    longitude: 43.5628498
-    min_latitude: 42.8891
-    min_longitude: 42.3981201
-    max_latitude: 44.0228141
-    max_longitude: 44.47055100000001
-  name: Kabardino-Balkarskaya Respublika
-KC:
+  comments: 
+KC: !ruby/struct:ISO3166::Subdivision
+  name: Karachayevo-Cherkesskaya Respublika
+  code: 
   unofficial_names:
   - Karachay-Cherkessian
   - Karačajevo-Čerkesskaja Respublika
   - Karačaj-Čerkessija
+  geo:
+    latitude: 43.8845143
+    longitude: 41.730394
+    min_latitude: 43.187437
+    min_longitude: 40.6833698
+    max_latitude: 44.49697889999999
+    max_longitude: 42.6780321
   translations:
     ru: Карачаево-Черкесия
     af: Karatsjai-Tsjerkessië
@@ -1697,17 +1746,19 @@ KC:
     uz: Qorachoy-Cherkasiya
     bs: Karačajevo-Čerkezija
     mk: Карачаево-Черкесија
-  geo:
-    latitude: 43.8845143
-    longitude: 41.730394
-    min_latitude: 43.187437
-    min_longitude: 40.6833698
-    max_latitude: 44.49697889999999
-    max_longitude: 42.6780321
-  name: Karachayevo-Cherkesskaya Respublika
-KDA:
+  comments: 
+KDA: !ruby/struct:ISO3166::Subdivision
+  name: Krasnodarskiy kray
+  code: 
   unofficial_names:
   - Krasnodarskij Kraj
+  geo:
+    latitude: 45.6415289
+    longitude: 39.7055977
+    min_latitude: 43.3848639
+    min_longitude: 36.5980539
+    max_latitude: 46.8802379
+    max_longitude: 41.7476441
   translations:
     ru: Краснодарский край
     af: Krasnodar-krai
@@ -1778,17 +1829,19 @@ KDA:
     uz: Krasnodar oʻlkasi
     bs: Krasnodarski kraj
     mk: Краснодарски крај
-  geo:
-    latitude: 45.6415289
-    longitude: 39.7055977
-    min_latitude: 43.3848639
-    min_longitude: 36.5980539
-    max_latitude: 46.8802379
-    max_longitude: 41.7476441
-  name: Krasnodarskiy kray
-KEM:
+  comments: 
+KEM: !ruby/struct:ISO3166::Subdivision
+  name: Kemerovskaya oblast'
+  code: 
   unofficial_names:
   - Kemerovskaja Oblast
+  geo:
+    latitude: 54.7574648
+    longitude: 87.4055288
+    min_latitude: 52.1605449
+    min_longitude: 84.450098
+    max_latitude: 56.83512
+    max_longitude: 89.399602
   translations:
     ru: Кемеровская область
     af: Kemerowo-oblast
@@ -1855,17 +1908,19 @@ KEM:
     uz: Kemerovo viloyati
     bs: Kemerovska oblast
     mk: Кемеровска област
-  geo:
-    latitude: 54.7574648
-    longitude: 87.4055288
-    min_latitude: 52.1605449
-    min_longitude: 84.450098
-    max_latitude: 56.83512
-    max_longitude: 89.399602
-  name: Kemerovskaya oblast'
-KGD:
+  comments: 
+KGD: !ruby/struct:ISO3166::Subdivision
+  name: Kaliningradskaya oblast'
+  code: 
   unofficial_names:
   - Kaliningradskaja Oblast
+  geo:
+    latitude: 54.8235292
+    longitude: 21.4816163
+    min_latitude: 54.318845
+    min_longitude: 19.6388525
+    max_latitude: 55.2944458
+    max_longitude: 22.886888
   translations:
     ru: Калининградская область
     af: Kaliningrad-oblast
@@ -1936,17 +1991,19 @@ KGD:
     uz: Kaliningrad viloyati
     bs: Kalinjingradska oblast
     mk: Калининградска област
-  geo:
-    latitude: 54.8235292
-    longitude: 21.4816163
-    min_latitude: 54.318845
-    min_longitude: 19.6388525
-    max_latitude: 55.2944458
-    max_longitude: 22.886888
-  name: Kaliningradskaya oblast'
-KGN:
+  comments: 
+KGN: !ruby/struct:ISO3166::Subdivision
+  name: Kurganskaya oblast'
+  code: 
   unofficial_names:
   - Kurganskaja Oblast
+  geo:
+    latitude: 55.4481548
+    longitude: 65.11809749999999
+    min_latitude: 54.1874291
+    min_longitude: 61.9661031
+    max_latitude: 56.8420819
+    max_longitude: 68.7217089
   translations:
     ru: Курганская область
     af: Koergan-oblast
@@ -2014,18 +2071,20 @@ KGN:
     uz: Koʻrgan viloyati
     bs: Kurganska oblast
     mk: Курганска област
-  geo:
-    latitude: 55.4481548
-    longitude: 65.11809749999999
-    min_latitude: 54.1874291
-    min_longitude: 61.9661031
-    max_latitude: 56.8420819
-    max_longitude: 68.7217089
-  name: Kurganskaya oblast'
-KHA:
+  comments: 
+KHA: !ruby/struct:ISO3166::Subdivision
+  name: Khabarovskiy kray
+  code: 
   unofficial_names:
   - Habarovskij Kray
   - Habarovsk
+  geo:
+    latitude: 50.5888431
+    longitude: 135
+    min_latitude: 46.6347189
+    min_longitude: 130.3886411
+    max_latitude: 62.5246119
+    max_longitude: 147.2038518
   translations:
     ru: Хабаровский край
     af: Chabarofsk-krai
@@ -2095,18 +2154,20 @@ KHA:
     uz: Xabarovsk oʻlkasi
     bs: Habarovski kraj
     mk: Хабаровски крај
-  geo:
-    latitude: 50.5888431
-    longitude: 135
-    min_latitude: 46.6347189
-    min_longitude: 130.3886411
-    max_latitude: 62.5246119
-    max_longitude: 147.2038518
-  name: Khabarovskiy kray
-KHM:
+  comments: 
+KHM: !ruby/struct:ISO3166::Subdivision
+  name: Khanty-Mansiyskiy avtonomnyy okrug [Yugra]
+  code: 
   unofficial_names:
   - Hanty-Mansijskij Avtonomnyj Okrug
   - Hanty-Mansija
+  geo:
+    latitude: 62.2287062
+    longitude: 70.6410058
+    min_latitude: 58.5764188
+    min_longitude: 59.19747880000001
+    max_latitude: 65.71070100000001
+    max_longitude: 85.9728444
   translations:
     ru: Ханты-Мансийский автономный округ — Югра
     af: Chanto-Mansië
@@ -2172,17 +2233,19 @@ KHM:
     uz: Xanti-Mansilar muxtor okrugi
     bs: Hantijsko-Mansijski autonomni okrug
     mk: Ханти-Мансиски автономен округ
-  geo:
-    latitude: 62.2287062
-    longitude: 70.6410058
-    min_latitude: 58.5764188
-    min_longitude: 59.19747880000001
-    max_latitude: 65.71070100000001
-    max_longitude: 85.9728444
-  name: Khanty-Mansiyskiy avtonomnyy okrug [Yugra]
-KIR:
+  comments: 
+KIR: !ruby/struct:ISO3166::Subdivision
+  name: Kirovskaya oblast'
+  code: 
   unofficial_names:
   - Kirovskaja Oblast
+  geo:
+    latitude: 58.4198529
+    longitude: 50.2097248
+    min_latitude: 56.061146
+    min_longitude: 46.2618118
+    max_latitude: 61.0629159
+    max_longitude: 53.9431012
   translations:
     ru: Кировская область
     af: Kirof-oblast
@@ -2249,18 +2312,20 @@ KIR:
     uz: Kirov viloyati
     bs: Kirovska oblast
     mk: Кировска област
-  geo:
-    latitude: 58.4198529
-    longitude: 50.2097248
-    min_latitude: 56.061146
-    min_longitude: 46.2618118
-    max_latitude: 61.0629159
-    max_longitude: 53.9431012
-  name: Kirovskaya oblast'
-KK:
+  comments: 
+KK: !ruby/struct:ISO3166::Subdivision
+  name: Khakasiya, Respublika
+  code: 
   unofficial_names:
   - Khakass Republic
   - Hakasija
+  geo:
+    latitude: 53.0452281
+    longitude: 90.3982145
+    min_latitude: 51.28421179999999
+    min_longitude: 87.8758369
+    max_latitude: 55.43188689999999
+    max_longitude: 91.9249129
   translations:
     ru: Хакасия
     af: Chakassië
@@ -2329,20 +2394,22 @@ KK:
     uz: Xakasiya
     bs: Hakasija
     mk: Хакасија
-  geo:
-    latitude: 53.0452281
-    longitude: 90.3982145
-    min_latitude: 51.28421179999999
-    min_longitude: 87.8758369
-    max_latitude: 55.43188689999999
-    max_longitude: 91.9249129
-  name: Khakasiya, Respublika
-KL:
+  comments: 
+KL: !ruby/struct:ISO3166::Subdivision
+  name: Kalmykiya, Respublika
+  code: 
   unofficial_names:
   - Halmg-Tangč
   - Kalmyk Republic
   - Khalmg-Tangch
   - Kalmykija
+  geo:
+    latitude: 46.5676845
+    longitude: 45.7731614
+    min_latitude: 44.7639349
+    min_longitude: 41.6327159
+    max_latitude: 48.2743179
+    max_longitude: 47.601117
   translations:
     ru: Калмыкия
     af: Kalmikië
@@ -2413,18 +2480,20 @@ KL:
     uz: Qalmogʻiston
     bs: Kalmikija
     mk: Калмикија
-  geo:
-    latitude: 46.5676845
-    longitude: 45.7731614
-    min_latitude: 44.7639349
-    min_longitude: 41.6327159
-    max_latitude: 48.2743179
-    max_longitude: 47.601117
-  name: Kalmykiya, Respublika
-KLU:
+  comments: 
+KLU: !ruby/struct:ISO3166::Subdivision
+  name: Kaluzhskaya oblast'
+  code: 
   unofficial_names:
   - Kaluzhskaya Oblast
   - Kalužskaja Oblast
+  geo:
+    latitude: 54.3872666
+    longitude: 35.1889094
+    min_latitude: 53.2759969
+    min_longitude: 33.4465778
+    max_latitude: 55.3402639
+    max_longitude: 37.2756489
   translations:
     ru: Калужская область
     af: Kaloega-oblast
@@ -2490,16 +2559,18 @@ KLU:
     uz: Kaluga oblasti
     bs: Kaluška oblast
     mk: Калушка област
-  geo:
-    latitude: 54.3872666
-    longitude: 35.1889094
-    min_latitude: 53.2759969
-    min_longitude: 33.4465778
-    max_latitude: 55.3402639
-    max_longitude: 37.2756489
-  name: Kaluzhskaya oblast'
-KO:
+  comments: 
+KO: !ruby/struct:ISO3166::Subdivision
+  name: Komi, Respublika
+  code: 
   unofficial_names: Komi, Respublika
+  geo:
+    latitude: 63.8630539
+    longitude: 54.8312689
+    min_latitude: 59.196101
+    min_longitude: 45.4046569
+    max_latitude: 68.42287689999999
+    max_longitude: 66.2523211
   translations:
     ru: Республика Коми
     af: Republiek van Komi
@@ -2569,17 +2640,19 @@ KO:
     uz: Komi
     bs: Komi
     mk: Коми
-  geo:
-    latitude: 63.8630539
-    longitude: 54.8312689
-    min_latitude: 59.196101
-    min_longitude: 45.4046569
-    max_latitude: 68.42287689999999
-    max_longitude: 66.2523211
-  name: Komi, Respublika
-KOS:
+  comments: 
+KOS: !ruby/struct:ISO3166::Subdivision
+  name: Kostromskaya oblast'
+  code: 
   unofficial_names:
   - Kostromskaja Oblast
+  geo:
+    latitude: 58.5501069
+    longitude: 43.9541103
+    min_latitude: 57.277828
+    min_longitude: 40.3997611
+    max_latitude: 59.62038
+    max_longitude: 47.6446471
   translations:
     ru: Костромская область
     af: Kostroma-oblast
@@ -2646,18 +2719,20 @@ KOS:
     uz: Kostroma viloyati
     bs: Kostromska oblast
     mk: Костромска област
-  geo:
-    latitude: 58.5501069
-    longitude: 43.9541103
-    min_latitude: 57.277828
-    min_longitude: 40.3997611
-    max_latitude: 59.62038
-    max_longitude: 47.6446471
-  name: Kostromskaya oblast'
-KR:
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: Kareliya, Respublika
+  code: 
   unofficial_names:
   - Karelian Republic
   - Karelija
+  geo:
+    latitude: 63.15587019999999
+    longitude: 32.9905552
+    min_latitude: 60.68576710000001
+    min_longitude: 29.3102922
+    max_latitude: 66.6732639
+    max_longitude: 37.9320522
   translations:
     ru: Республика Карелия
     af: Republiek van Karelië
@@ -2728,17 +2803,19 @@ KR:
     uz: Kareliya
     bs: Karelija
     mk: Република Карелија
-  geo:
-    latitude: 63.15587019999999
-    longitude: 32.9905552
-    min_latitude: 60.68576710000001
-    min_longitude: 29.3102922
-    max_latitude: 66.6732639
-    max_longitude: 37.9320522
-  name: Kareliya, Respublika
-KRS:
+  comments: 
+KRS: !ruby/struct:ISO3166::Subdivision
+  name: Kurskaya oblast'
+  code: 
   unofficial_names:
   - Kurskaja Oblast
+  geo:
+    latitude: 51.76340260000001
+    longitude: 35.3811812
+    min_latitude: 50.9034249
+    min_longitude: 34.0821881
+    max_latitude: 52.4405099
+    max_longitude: 38.5257578
   translations:
     ru: Курская область
     af: Koersk-oblast
@@ -2804,19 +2881,21 @@ KRS:
     uz: Kursk viloyati
     bs: Kurska oblast
     mk: Курска област
-  geo:
-    latitude: 51.76340260000001
-    longitude: 35.3811812
-    min_latitude: 50.9034249
-    min_longitude: 34.0821881
-    max_latitude: 52.4405099
-    max_longitude: 38.5257578
-  name: Kurskaya oblast'
-KYA:
+  comments: 
+KYA: !ruby/struct:ISO3166::Subdivision
+  name: Krasnoyarskiy kray
+  code: 
   unofficial_names:
   - Krasnojarsk
   - Krasnojarskij Kraj
   - Krasnojarsk
+  geo:
+    latitude: 64.24797579999999
+    longitude: 95.11041759999999
+    min_latitude: 51.7734569
+    min_longitude: 76.1117517
+    max_latitude: 81.2663089
+    max_longitude: 113.9162833
   translations:
     ru: Красноярский край
     af: Krasnojarsk-krai
@@ -2885,17 +2964,19 @@ KYA:
     uz: Krasnoyarsk oʻlkasi
     bs: Krasnojarski kraj
     mk: Краснојарски крај
-  geo:
-    latitude: 64.24797579999999
-    longitude: 95.11041759999999
-    min_latitude: 51.7734569
-    min_longitude: 76.1117517
-    max_latitude: 81.2663089
-    max_longitude: 113.9162833
-  name: Krasnoyarskiy kray
-LEN:
+  comments: 
+LEN: !ruby/struct:ISO3166::Subdivision
+  name: Leningradskaya oblast'
+  code: 
   unofficial_names:
   - Leningradskaja Oblast
+  geo:
+    latitude: 60.0793208
+    longitude: 31.8926644
+    min_latitude: 58.4147179
+    min_longitude: 27.740038
+    max_latitude: 61.3297682
+    max_longitude: 35.6959784
   translations:
     ru: Ленинградская область
     af: Leningrad-oblast
@@ -2965,18 +3046,20 @@ LEN:
     uz: Leningrad viloyati
     bs: Lenjingradska oblast
     mk: Ленинградска област
-  geo:
-    latitude: 60.0793208
-    longitude: 31.8926644
-    min_latitude: 58.4147179
-    min_longitude: 27.740038
-    max_latitude: 61.3297682
-    max_longitude: 35.6959784
-  name: Leningradskaya oblast'
-LIP:
+  comments: 
+LIP: !ruby/struct:ISO3166::Subdivision
+  name: Lipetskaya oblast'
+  code: 
   unofficial_names:
   - Lipeckaja Oblast
   - Lipeck
+  geo:
+    latitude: 52.5264702
+    longitude: 39.2032269
+    min_latitude: 51.8867799
+    min_longitude: 37.7224471
+    max_latitude: 53.5848638
+    max_longitude: 40.764882
   translations:
     ru: Липецкая область
     af: Lipetsk-oblast
@@ -3045,17 +3128,19 @@ LIP:
     uz: Lipetsk viloyati
     bs: Lipecka oblast
     mk: Липецка област
-  geo:
-    latitude: 52.5264702
-    longitude: 39.2032269
-    min_latitude: 51.8867799
-    min_longitude: 37.7224471
-    max_latitude: 53.5848638
-    max_longitude: 40.764882
-  name: Lipetskaya oblast'
-MAG:
+  comments: 
+MAG: !ruby/struct:ISO3166::Subdivision
+  name: Magadanskaya oblast'
+  code: 
   unofficial_names:
   - Magadanskaja Oblast
+  geo:
+    latitude: 62.66434169999999
+    longitude: 153.9149909
+    min_latitude: 58.83734889999999
+    min_longitude: 144.722207
+    max_latitude: 66.33609200000001
+    max_longitude: 163.4827849
   translations:
     ru: Магаданская область
     af: Magadan-oblast
@@ -3123,18 +3208,20 @@ MAG:
     uz: Magadan viloyati
     bs: Magadanska oblast
     mk: Магаданска област
-  geo:
-    latitude: 62.66434169999999
-    longitude: 153.9149909
-    min_latitude: 58.83734889999999
-    min_longitude: 144.722207
-    max_latitude: 66.33609200000001
-    max_longitude: 163.4827849
-  name: Magadanskaya oblast'
-ME:
+  comments: 
+ME: !ruby/struct:ISO3166::Subdivision
+  name: Mariy El, Respublika
+  code: 
   unofficial_names:
   - Mariy El
   - Marij El
+  geo:
+    latitude: 56.438457
+    longitude: 47.9607757
+    min_latitude: 55.8266931
+    min_longitude: 45.6197337
+    max_latitude: 57.3436309
+    max_longitude: 50.2000648
   translations:
     ru: Марий Эл
     af: Mari El
@@ -3204,18 +3291,20 @@ ME:
     uz: Mariy el
     bs: Marij El
     mk: Мариј Ел
-  geo:
-    latitude: 56.438457
-    longitude: 47.9607757
-    min_latitude: 55.8266931
-    min_longitude: 45.6197337
-    max_latitude: 57.3436309
-    max_longitude: 50.2000648
-  name: Mariy El, Respublika
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Mordoviya, Respublika
+  code: 
   unofficial_names:
   - Mordovian Republic
   - Mordovija
+  geo:
+    latitude: 54.2369441
+    longitude: 44.0683969
+    min_latitude: 53.6542969
+    min_longitude: 42.170382
+    max_latitude: 55.1882439
+    max_longitude: 46.7113749
   translations:
     ru: Мордовия
     af: Mordowië
@@ -3284,17 +3373,19 @@ MO:
     uz: Mordoviya
     bs: Mordovija
     mk: Мордовија
-  geo:
-    latitude: 54.2369441
-    longitude: 44.0683969
-    min_latitude: 53.6542969
-    min_longitude: 42.170382
-    max_latitude: 55.1882439
-    max_longitude: 46.7113749
-  name: Mordoviya, Respublika
-MOS:
+  comments: 
+MOS: !ruby/struct:ISO3166::Subdivision
+  name: Moskovskaya oblast'
+  code: 
   unofficial_names:
   - Moskovskaja Oblast
+  geo:
+    latitude: 55.340396
+    longitude: 38.2917651
+    min_latitude: 54.254261
+    min_longitude: 35.149022
+    max_latitude: 56.962834
+    max_longitude: 40.2060071
   translations:
     ru: Московская область
     af: Moskou-oblast
@@ -3362,20 +3453,22 @@ MOS:
     uz: Moskva oblasti
     bs: Moskovska oblast
     mk: Московска област
-  geo:
-    latitude: 55.340396
-    longitude: 38.2917651
-    min_latitude: 54.254261
-    min_longitude: 35.149022
-    max_latitude: 56.962834
-    max_longitude: 40.2060071
-  name: Moskovskaya oblast'
-MOW:
+  comments: 
+MOW: !ruby/struct:ISO3166::Subdivision
+  name: Moskva
+  code: 
   unofficial_names:
   - Moskva
   - Moskau
   - Moscou
   - Moscú
+  geo:
+    latitude: 55.755826
+    longitude: 37.6173
+    min_latitude: 55.48992699999999
+    min_longitude: 37.3193288
+    max_latitude: 56.009657
+    max_longitude: 37.9456611
   translations:
     ru: Москва
     af: Moskou
@@ -3462,17 +3555,19 @@ MOW:
     uz: Moskva
     bs: Moskva
     mk: Москва
-  geo:
-    latitude: 55.755826
-    longitude: 37.6173
-    min_latitude: 55.48992699999999
-    min_longitude: 37.3193288
-    max_latitude: 56.009657
-    max_longitude: 37.9456611
-  name: Moskva
-MUR:
+  comments: 
+MUR: !ruby/struct:ISO3166::Subdivision
+  name: Murmanskaya oblast'
+  code: 
   unofficial_names:
   - Murmanskaja Oblast
+  geo:
+    latitude: 67.84426739999999
+    longitude: 35.0884101
+    min_latitude: 66.0565385
+    min_longitude: 28.4163852
+    max_latitude: 69.9520907
+    max_longitude: 41.4017088
   translations:
     ru: Мурманская область
     af: Moermansk-oblast
@@ -3540,17 +3635,19 @@ MUR:
     uz: Murmansk viloyati
     bs: Murmanska oblast
     mk: Мурманска област
-  geo:
-    latitude: 67.84426739999999
-    longitude: 35.0884101
-    min_latitude: 66.0565385
-    min_longitude: 28.4163852
-    max_latitude: 69.9520907
-    max_longitude: 41.4017088
-  name: Murmanskaya oblast'
-NEN:
+  comments: 
+NEN: !ruby/struct:ISO3166::Subdivision
+  name: Nenetskiy avtonomnyy okrug
+  code: 
   unofficial_names:
   - Nenetskij Avtonomnyj Okrug
+  geo:
+    latitude: 67.6078337
+    longitude: 57.63383309999999
+    min_latitude: 65.823471
+    min_longitude: 43.2703527
+    max_latitude: 70.4649036
+    max_longitude: 65.6777838
   translations:
     ru: Ненецкий автономный округ
     af: Nenetsië
@@ -3616,17 +3713,19 @@ NEN:
     uz: Nenetslar muxtor okrugi
     bs: Nenečki autonomni okrug
     mk: Ненецки автономен округ
-  geo:
-    latitude: 67.6078337
-    longitude: 57.63383309999999
-    min_latitude: 65.823471
-    min_longitude: 43.2703527
-    max_latitude: 70.4649036
-    max_longitude: 65.6777838
-  name: Nenetskiy avtonomnyy okrug
-NGR:
+  comments: 
+NGR: !ruby/struct:ISO3166::Subdivision
+  name: Novgorodskaya oblast'
+  code: 
   unofficial_names:
   - Novgorodskaja Oblast
+  geo:
+    latitude: 58.2427552
+    longitude: 32.5665191
+    min_latitude: 56.917883
+    min_longitude: 29.62305709999999
+    max_latitude: 59.44515209999999
+    max_longitude: 36.2195299
   translations:
     ru: Новгородская область
     af: Nowgorod-oblast
@@ -3692,15 +3791,10 @@ NGR:
     uz: Novgorod viloyati
     bs: Novgorodska oblast
     mk: Новгородска област
-  geo:
-    latitude: 58.2427552
-    longitude: 32.5665191
-    min_latitude: 56.917883
-    min_longitude: 29.62305709999999
-    max_latitude: 59.44515209999999
-    max_longitude: 36.2195299
-  name: Novgorodskaya oblast'
-NIZ:
+  comments: 
+NIZ: !ruby/struct:ISO3166::Subdivision
+  name: Nizhegorodskaya oblast'
+  code: 
   unofficial_names:
   - Gorki
   - Gorkij
@@ -3708,6 +3802,13 @@ NIZ:
   - Nizhegorodskaya Oblast
   - Nižegorodskaja Oblast
   - Nižnij Novgorod
+  geo:
+    latitude: 55.7995159
+    longitude: 44.0296769
+    min_latitude: 54.47186689999999
+    min_longitude: 41.775117
+    max_latitude: 58.0889949
+    max_longitude: 47.7473761
   translations:
     ru: Нижегородская область
     af: Nizjni Nowgorod-oblast
@@ -3774,17 +3875,19 @@ NIZ:
     uz: Nijegorod viloyati
     bs: Nižnjenovgorodska oblast
     mk: Нижегородска област
-  geo:
-    latitude: 55.7995159
-    longitude: 44.0296769
-    min_latitude: 54.47186689999999
-    min_longitude: 41.775117
-    max_latitude: 58.0889949
-    max_longitude: 47.7473761
-  name: Nizhegorodskaya oblast'
-NVS:
+  comments: 
+NVS: !ruby/struct:ISO3166::Subdivision
+  name: Novosibirskaya oblast'
+  code: 
   unofficial_names:
   - Novosibirskaja Oblast
+  geo:
+    latitude: 55.4467133
+    longitude: 80.1043924
+    min_latitude: 53.2909191
+    min_longitude: 75.08785499999999
+    max_latitude: 57.236193
+    max_longitude: 85.11756299999999
   translations:
     ru: Новосибирская область
     af: Nowosibirsk-oblast
@@ -3851,17 +3954,19 @@ NVS:
     uz: Novosibirsk viloyati
     bs: Novosibirska oblast
     mk: Новосибирска област
-  geo:
-    latitude: 55.4467133
-    longitude: 80.1043924
-    min_latitude: 53.2909191
-    min_longitude: 75.08785499999999
-    max_latitude: 57.236193
-    max_longitude: 85.11756299999999
-  name: Novosibirskaya oblast'
-OMS:
+  comments: 
+OMS: !ruby/struct:ISO3166::Subdivision
+  name: Omskaya oblast'
+  code: 
   unofficial_names:
   - Omskaja Oblast
+  geo:
+    latitude: 55.0554669
+    longitude: 73.3167343
+    min_latitude: 53.43512399999999
+    min_longitude: 70.35473710000001
+    max_latitude: 58.5741489
+    max_longitude: 76.3037678
   translations:
     ru: Омская область
     af: Omsk-oblast
@@ -3929,17 +4034,19 @@ OMS:
     uz: Omsk viloyati
     bs: Omska oblast
     mk: Омска област
-  geo:
-    latitude: 55.0554669
-    longitude: 73.3167343
-    min_latitude: 53.43512399999999
-    min_longitude: 70.35473710000001
-    max_latitude: 58.5741489
-    max_longitude: 76.3037678
-  name: Omskaya oblast'
-ORE:
+  comments: 
+ORE: !ruby/struct:ISO3166::Subdivision
+  name: Orenburgskaya oblast'
+  code: 
   unofficial_names:
   - Orenburgskaja Oblast
+  geo:
+    latitude: 51.76340260000001
+    longitude: 54.6188188
+    min_latitude: 50.494961
+    min_longitude: 50.7683845
+    max_latitude: 54.36583
+    max_longitude: 61.6907461
   translations:
     ru: Оренбургская область
     af: Orenburg-oblast
@@ -4008,18 +4115,20 @@ ORE:
     uz: Orenburg viloyati
     bs: Orenburška oblast
     mk: Оренбуршка област
-  geo:
-    latitude: 51.76340260000001
-    longitude: 54.6188188
-    min_latitude: 50.494961
-    min_longitude: 50.7683845
-    max_latitude: 54.36583
-    max_longitude: 61.6907461
-  name: Orenburgskaya oblast'
-ORL:
+  comments: 
+ORL: !ruby/struct:ISO3166::Subdivision
+  name: Orlovskaya oblast'
+  code: 
   unofficial_names:
   - Orlovskaja Oblast
   - Orjol
+  geo:
+    latitude: 52.7450189
+    longitude: 36.4849627
+    min_latitude: 51.9367449
+    min_longitude: 34.7917679
+    max_latitude: 53.6372159
+    max_longitude: 38.0644791
   translations:
     ru: Орловская область
     af: Orjol-oblast
@@ -4086,17 +4195,19 @@ ORL:
     uz: Oryol viloyati
     bs: Orelska oblast
     mk: Орловска област
-  geo:
-    latitude: 52.7450189
-    longitude: 36.4849627
-    min_latitude: 51.9367449
-    min_longitude: 34.7917679
-    max_latitude: 53.6372159
-    max_longitude: 38.0644791
-  name: Orlovskaya oblast'
-PER:
+  comments: 
+PER: !ruby/struct:ISO3166::Subdivision
+  name: Perm
+  code: 
   unofficial_names:
   - Permskaja Oblast
+  geo:
+    latitude: 58.00000000000001
+    longitude: 56.316667
+    min_latitude: 57.864017
+    min_longitude: 55.8117439
+    max_latitude: 58.176955
+    max_longitude: 56.65680709999999
   translations:
     en: Perm Krai
     ru: Пермский край
@@ -4161,17 +4272,19 @@ PER:
     uz: Permskiy oʻlkasi
     bs: Permski kraj
     mk: Пермски крај
-  geo:
-    latitude: 58.00000000000001
-    longitude: 56.316667
-    min_latitude: 57.864017
-    min_longitude: 55.8117439
-    max_latitude: 58.176955
-    max_longitude: 56.65680709999999
-  name: Perm
-PNZ:
+  comments: 
+PNZ: !ruby/struct:ISO3166::Subdivision
+  name: Penzenskaya oblast'
+  code: 
   unofficial_names:
   - Penzenskaja Oblast
+  geo:
+    latitude: 53.1412105
+    longitude: 44.0940048
+    min_latitude: 52.3048359
+    min_longitude: 42.091744
+    max_latitude: 54.0281089
+    max_longitude: 46.985298
   translations:
     ru: Пензенская область
     af: Penza-oblast
@@ -4237,19 +4350,21 @@ PNZ:
     uz: Penza viloyati
     bs: Penzjanska oblast
     mk: Пензенска област
-  geo:
-    latitude: 53.1412105
-    longitude: 44.0940048
-    min_latitude: 52.3048359
-    min_longitude: 42.091744
-    max_latitude: 54.0281089
-    max_longitude: 46.985298
-  name: Penzenskaya oblast'
-PRI:
+  comments: 
+PRI: !ruby/struct:ISO3166::Subdivision
+  name: Primorskiy kray
+  code: 
   unofficial_names:
   - Primorskij
   - Primorskij Kraj
   - Primorje
+  geo:
+    latitude: 45.0525641
+    longitude: 135
+    min_latitude: 42.2883814
+    min_longitude: 130.39465
+    max_latitude: 48.4587049
+    max_longitude: 139.021501
   translations:
     ru: Приморский край
     af: Primorski-krai
@@ -4318,19 +4433,21 @@ PRI:
     uz: Primorsk oʻlkasi
     bs: Primorski kraj
     mk: Приморски крај
-  geo:
-    latitude: 45.0525641
-    longitude: 135
-    min_latitude: 42.2883814
-    min_longitude: 130.39465
-    max_latitude: 48.4587049
-    max_longitude: 139.021501
-  name: Primorskiy kray
-PSK:
+  comments: 
+PSK: !ruby/struct:ISO3166::Subdivision
+  name: Pskovskaya oblast'
+  code: 
   unofficial_names:
   - Pihkva
   - Pleskau
   - Pskovskaja Oblast
+  geo:
+    latitude: 56.7708599
+    longitude: 29.094009
+    min_latitude: 55.5896019
+    min_longitude: 27.323293
+    max_latitude: 59.01885189999999
+    max_longitude: 31.51626409999999
   translations:
     ru: Псковская область
     af: Pskof-oblast
@@ -4396,17 +4513,19 @@ PSK:
     uz: Pskov viloyati
     bs: Pskovska oblast
     mk: Псковска област
-  geo:
-    latitude: 56.7708599
-    longitude: 29.094009
-    min_latitude: 55.5896019
-    min_longitude: 27.323293
-    max_latitude: 59.01885189999999
-    max_longitude: 31.51626409999999
-  name: Pskovskaya oblast'
-ROS:
+  comments: 
+ROS: !ruby/struct:ISO3166::Subdivision
+  name: Rostovskaya oblast'
+  code: 
   unofficial_names:
   - Rostovskaja Oblast
+  geo:
+    latitude: 47.6853247
+    longitude: 41.8258952
+    min_latitude: 45.9521199
+    min_longitude: 38.2223739
+    max_latitude: 50.2123279
+    max_longitude: 44.3225439
   translations:
     ru: Ростовская область
     af: Rostof-oblast
@@ -4475,18 +4594,20 @@ ROS:
     uz: Rostov viloyati
     bs: Rostovska oblast
     mk: Ростовска област
-  geo:
-    latitude: 47.6853247
-    longitude: 41.8258952
-    min_latitude: 45.9521199
-    min_longitude: 38.2223739
-    max_latitude: 50.2123279
-    max_longitude: 44.3225439
-  name: Rostovskaya oblast'
-RYA:
+  comments: 
+RYA: !ruby/struct:ISO3166::Subdivision
+  name: Ryazanskaya oblast'
+  code: 
   unofficial_names:
   - Rjazanskaja Oblast
   - Rjazan
+  geo:
+    latitude: 54.3875964
+    longitude: 41.259566
+    min_latitude: 53.3123849
+    min_longitude: 38.6651351
+    max_latitude: 55.3661119
+    max_longitude: 42.694238
   translations:
     ru: Рязанская область
     af: Rjazan-oblast
@@ -4553,20 +4674,22 @@ RYA:
     uz: Ryazan viloyati
     bs: Rjazanjska oblast
     mk: Рјазањска област
-  geo:
-    latitude: 54.3875964
-    longitude: 41.259566
-    min_latitude: 53.3123849
-    min_longitude: 38.6651351
-    max_latitude: 55.3661119
-    max_longitude: 42.694238
-  name: Ryazanskaya oblast'
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Sakha, Respublika [Yakutiya]
+  code: 
   unofficial_names:
   - Jakutija
   - Sakha
   - Yakutsk-Sakha
   - Saha
+  geo:
+    latitude: 66.7613451
+    longitude: 124.1237531
+    min_latitude: 55.4906601
+    min_longitude: 105.529348
+    max_latitude: 76.7581309
+    max_longitude: 162.858423
   translations:
     ru: Якутия
     af: Jakoetië
@@ -4640,18 +4763,20 @@ SA:
     uz: Saxa
     bs: Republika Saha
     mk: Јакутија
-  geo:
-    latitude: 66.7613451
-    longitude: 124.1237531
-    min_latitude: 55.4906601
-    min_longitude: 105.529348
-    max_latitude: 76.7581309
-    max_longitude: 162.858423
-  name: Sakha, Respublika [Yakutiya]
-SAK:
+  comments: 
+SAK: !ruby/struct:ISO3166::Subdivision
+  name: Sakhalinskaya oblast'
+  code: 
   unofficial_names:
   - Sahalinskaya Oblast
   - Sahalin
+  geo:
+    latitude: 49.9807847
+    longitude: 143.3738129
+    min_latitude: 43.3608536
+    min_longitude: 141.1964501
+    max_latitude: 54.416035
+    max_longitude: 156.5116784
   translations:
     ru: Сахалинская область
     af: Sachalin-oblast
@@ -4721,17 +4846,19 @@ SAK:
     uz: Saxalin viloyati
     bs: Sahalinska oblast
     mk: Сахалинска област
-  geo:
-    latitude: 49.9807847
-    longitude: 143.3738129
-    min_latitude: 43.3608536
-    min_longitude: 141.1964501
-    max_latitude: 54.416035
-    max_longitude: 156.5116784
-  name: Sakhalinskaya oblast'
-SAM:
+  comments: 
+SAM: !ruby/struct:ISO3166::Subdivision
+  name: Samarskaya oblast'
+  code: 
   unofficial_names:
   - Samarskaja Oblast
+  geo:
+    latitude: 53.41838389999999
+    longitude: 50.4725528
+    min_latitude: 51.773957
+    min_longitude: 47.9246881
+    max_latitude: 54.678024
+    max_longitude: 52.555451
   translations:
     ru: Самарская область
     af: Samara-oblast
@@ -4797,17 +4924,19 @@ SAM:
     uz: Samara viloyati
     bs: Samarska oblast
     mk: Самарска област
-  geo:
-    latitude: 53.41838389999999
-    longitude: 50.4725528
-    min_latitude: 51.773957
-    min_longitude: 47.9246881
-    max_latitude: 54.678024
-    max_longitude: 52.555451
-  name: Samarskaya oblast'
-SAR:
+  comments: 
+SAR: !ruby/struct:ISO3166::Subdivision
+  name: Saratovskaya oblast'
+  code: 
   unofficial_names:
   - Saratovskaja Oblast
+  geo:
+    latitude: 51.83692629999999
+    longitude: 46.7539397
+    min_latitude: 49.800981
+    min_longitude: 42.5132981
+    max_latitude: 52.814547
+    max_longitude: 50.8330918
   translations:
     ru: Саратовская область
     af: Saratof-oblast
@@ -4873,20 +5002,22 @@ SAR:
     uz: Saratov viloyati
     bs: Saratovska oblast
     mk: Саратовска област
-  geo:
-    latitude: 51.83692629999999
-    longitude: 46.7539397
-    min_latitude: 49.800981
-    min_longitude: 42.5132981
-    max_latitude: 52.814547
-    max_longitude: 50.8330918
-  name: Saratovskaya oblast'
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Severnaya Osetiya, Respublika [Alaniya] [Respublika Severnaya Osetiya-Alaniya]
+  code: 
   unofficial_names:
   - Alania
   - North Ossetian Republic
   - Osetija
   - Alanija
+  geo:
+    latitude: 43.0451302
+    longitude: 44.2870972
+    min_latitude: 42.5470799
+    min_longitude: 43.4103983
+    max_latitude: 43.839755
+    max_longitude: 44.956779
   translations:
     ru: Республика Северная Осетия-Алания
     af: Noord-Ossetië-Alanië
@@ -4958,17 +5089,19 @@ SE:
     uz: Shimoliy Osetiya Alaniya
     bs: Sjeverna Osetija-Alanija
     mk: Северна Осетија-Аланија
-  geo:
-    latitude: 43.0451302
-    longitude: 44.2870972
-    min_latitude: 42.5470799
-    min_longitude: 43.4103983
-    max_latitude: 43.839755
-    max_longitude: 44.956779
-  name: Severnaya Osetiya, Respublika [Alaniya] [Respublika Severnaya Osetiya-Alaniya]
-SMO:
+  comments: 
+SMO: !ruby/struct:ISO3166::Subdivision
+  name: Smolenskaya oblast'
+  code: 
   unofficial_names:
   - Smolenskaja Oblast
+  geo:
+    latitude: 54.9882994
+    longitude: 32.6677378
+    min_latitude: 53.414513
+    min_longitude: 30.7486752
+    max_latitude: 56.07094379999999
+    max_longitude: 35.3920447
   translations:
     ru: Смоленская область
     af: Smolensk-oblast
@@ -5034,21 +5167,23 @@ SMO:
     uz: Smolensk viloyati
     bs: Smolenska oblast
     mk: Смоленска област
-  geo:
-    latitude: 54.9882994
-    longitude: 32.6677378
-    min_latitude: 53.414513
-    min_longitude: 30.7486752
-    max_latitude: 56.07094379999999
-    max_longitude: 35.3920447
-  name: Smolenskaya oblast'
-SPE:
+  comments: 
+SPE: !ruby/struct:ISO3166::Subdivision
+  name: Sankt-Peterburg
+  code: 
   unofficial_names:
   - San Pietroburgo
   - Sankt-Peterburg
   - Sankt Petersburg
   - Saint-Pétersbourg
   - San Petersburgo
+  geo:
+    latitude: 59.9342802
+    longitude: 30.3350986
+    min_latitude: 59.74521590000001
+    min_longitude: 30.090332
+    max_latitude: 60.089675
+    max_longitude: 30.559783
   translations:
     ru: Санкт-Петербург
     af: Sint Petersburg
@@ -5130,17 +5265,19 @@ SPE:
     uz: Sankt-Peterburg
     bs: Sankt Peterburg
     mk: Санкт Петербург
-  geo:
-    latitude: 59.9342802
-    longitude: 30.3350986
-    min_latitude: 59.74521590000001
-    min_longitude: 30.090332
-    max_latitude: 60.089675
-    max_longitude: 30.559783
-  name: Sankt-Peterburg
-STA:
+  comments: 
+STA: !ruby/struct:ISO3166::Subdivision
+  name: Stavropol'skiy kray
+  code: 
   unofficial_names:
   - Stavropolskij Kraj
+  geo:
+    latitude: 44.6680993
+    longitude: 43.520214
+    min_latitude: 43.658068
+    min_longitude: 40.8430621
+    max_latitude: 46.2299116
+    max_longitude: 45.7189749
   translations:
     ru: Ставропольский край
     af: Stawropol-krai
@@ -5207,17 +5344,19 @@ STA:
     uz: Stavropol oʻlkasi
     bs: Stavropoljski kraj
     mk: Ставрополски крај
-  geo:
-    latitude: 44.6680993
-    longitude: 43.520214
-    min_latitude: 43.658068
-    min_longitude: 40.8430621
-    max_latitude: 46.2299116
-    max_longitude: 45.7189749
-  name: Stavropol'skiy kray
-SVE:
+  comments: 
+SVE: !ruby/struct:ISO3166::Subdivision
+  name: Sverdlovskaya oblast'
+  code: 
   unofficial_names:
   - Sverdlovskaja Oblast
+  geo:
+    latitude: 59.007735
+    longitude: 61.9316226
+    min_latitude: 56.0562339
+    min_longitude: 57.2360151
+    max_latitude: 61.94590299999999
+    max_longitude: 66.178652
   translations:
     ru: Свердловская область
     af: Swerdlofsk-oblast
@@ -5284,16 +5423,18 @@ SVE:
     uz: Sverdlovsk viloyati
     bs: Sverdlovska oblast
     mk: Свердловска област
-  geo:
-    latitude: 59.007735
-    longitude: 61.9316226
-    min_latitude: 56.0562339
-    min_longitude: 57.2360151
-    max_latitude: 61.94590299999999
-    max_longitude: 66.178652
-  name: Sverdlovskaya oblast'
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Tatarstan, Respublika
+  code: 
   unofficial_names: Tatarstan, Respublika
+  geo:
+    latitude: 55.1802364
+    longitude: 50.7263945
+    min_latitude: 53.976026
+    min_longitude: 47.2586476
+    max_latitude: 56.6772159
+    max_longitude: 54.2602891
   translations:
     ru: Татарстан
     af: Tartarstan
@@ -5367,17 +5508,19 @@ TA:
     uz: Tatariston
     bs: Tatarstan
     mk: Татарстан
-  geo:
-    latitude: 55.1802364
-    longitude: 50.7263945
-    min_latitude: 53.976026
-    min_longitude: 47.2586476
-    max_latitude: 56.6772159
-    max_longitude: 54.2602891
-  name: Tatarstan, Respublika
-TAM:
+  comments: 
+TAM: !ruby/struct:ISO3166::Subdivision
+  name: Tambovskaya oblast'
+  code: 
   unofficial_names:
   - Tambovskaja Oblast
+  geo:
+    latitude: 52.6416589
+    longitude: 41.4216451
+    min_latitude: 51.589638
+    min_longitude: 39.9170968
+    max_latitude: 53.8228889
+    max_longitude: 43.244815
   translations:
     ru: Тамбовская область
     af: Tambof-oblast
@@ -5443,17 +5586,19 @@ TAM:
     uz: Tambov viloyati
     bs: Tambovska oblast
     mk: Тамбовска област
-  geo:
-    latitude: 52.6416589
-    longitude: 41.4216451
-    min_latitude: 51.589638
-    min_longitude: 39.9170968
-    max_latitude: 53.8228889
-    max_longitude: 43.244815
-  name: Tambovskaya oblast'
-TOM:
+  comments: 
+TOM: !ruby/struct:ISO3166::Subdivision
+  name: Tomskaya oblast'
+  code: 
   unofficial_names:
   - Tomskaja Oblast
+  geo:
+    latitude: 58.8969882
+    longitude: 82.67654999999999
+    min_latitude: 55.66864
+    min_longitude: 75.0574591
+    max_latitude: 61.0335298
+    max_longitude: 89.37532709999999
   translations:
     ru: Томская область
     af: Tomsk-oblast
@@ -5519,17 +5664,19 @@ TOM:
     uz: Tomsk viloyati
     bs: Tomska oblast
     mk: Томска област
-  geo:
-    latitude: 58.8969882
-    longitude: 82.67654999999999
-    min_latitude: 55.66864
-    min_longitude: 75.0574591
-    max_latitude: 61.0335298
-    max_longitude: 89.37532709999999
-  name: Tomskaya oblast'
-TUL:
+  comments: 
+TUL: !ruby/struct:ISO3166::Subdivision
+  name: Tul'skaya oblast'
+  code: 
   unofficial_names:
   - Tulskaja Oblast
+  geo:
+    latitude: 54.163768
+    longitude: 37.5649507
+    min_latitude: 52.9556001
+    min_longitude: 35.8963269
+    max_latitude: 54.8505721
+    max_longitude: 38.952968
   translations:
     ru: Тульская область
     af: Toela-oblast
@@ -5596,17 +5743,19 @@ TUL:
     uz: Tula viloyati
     bs: Tulska oblast
     mk: Тулска област
-  geo:
-    latitude: 54.163768
-    longitude: 37.5649507
-    min_latitude: 52.9556001
-    min_longitude: 35.8963269
-    max_latitude: 54.8505721
-    max_longitude: 38.952968
-  name: Tul'skaya oblast'
-TVE:
+  comments: 
+TVE: !ruby/struct:ISO3166::Subdivision
+  name: Tverskaya oblast'
+  code: 
   unofficial_names:
   - Tverskaja Oblast
+  geo:
+    latitude: 57.0021654
+    longitude: 33.9853142
+    min_latitude: 55.6322698
+    min_longitude: 30.7768341
+    max_latitude: 58.8721109
+    max_longitude: 38.31839
   translations:
     ru: Тверская область
     af: Twer-oblast
@@ -5673,17 +5822,19 @@ TVE:
     uz: Tver viloyati
     bs: Tverska oblast
     mk: Тверска област
-  geo:
-    latitude: 57.0021654
-    longitude: 33.9853142
-    min_latitude: 55.6322698
-    min_longitude: 30.7768341
-    max_latitude: 58.8721109
-    max_longitude: 38.31839
-  name: Tverskaya oblast'
-TY:
+  comments: 
+TY: !ruby/struct:ISO3166::Subdivision
+  name: Tyva, Respublika [Tuva]
+  code: 
   unofficial_names:
   - Tuva
+  geo:
+    latitude: 51.8872669
+    longitude: 95.62601719999999
+    min_latitude: 49.7417159
+    min_longitude: 88.7985341
+    max_latitude: 53.727431
+    max_longitude: 99.269666
   translations:
     ru: Тыва
     af: Tiwa
@@ -5755,19 +5906,21 @@ TY:
     uz: Tiva
     bs: Tuva
     mk: Тува
-  geo:
-    latitude: 51.8872669
-    longitude: 95.62601719999999
-    min_latitude: 49.7417159
-    min_longitude: 88.7985341
-    max_latitude: 53.727431
-    max_longitude: 99.269666
-  name: Tyva, Respublika [Tuva]
-TYU:
+  comments: 
+TYU: !ruby/struct:ISO3166::Subdivision
+  name: Tyumenskaya oblast'
+  code: 
   unofficial_names:
   - Tjumenskaja Oblast
   - Tumen
   - Tjumen
+  geo:
+    latitude: 56.9634387
+    longitude: 66.948278
+    min_latitude: 55.145467
+    min_longitude: 64.8277999
+    max_latitude: 59.9896339
+    max_longitude: 75.19419900000001
   translations:
     ru: Тюменская область
     af: Tjoemen-oblast
@@ -5834,19 +5987,21 @@ TYU:
     uz: Tyumen viloyati
     bs: Tjumenjska oblast
     mk: Тјумењска област
-  geo:
-    latitude: 56.9634387
-    longitude: 66.948278
-    min_latitude: 55.145467
-    min_longitude: 64.8277999
-    max_latitude: 59.9896339
-    max_longitude: 75.19419900000001
-  name: Tyumenskaya oblast'
-UD:
+  comments: 
+UD: !ruby/struct:ISO3166::Subdivision
+  name: Udmurtskaya Respublika
+  code: 
   unofficial_names:
   - Udmurt Republic
   - Udmurtskaya Respublika
   - Udmurtija
+  geo:
+    latitude: 57.0670218
+    longitude: 53.0277948
+    min_latitude: 55.8642715
+    min_longitude: 51.1226019
+    max_latitude: 58.545039
+    max_longitude: 54.42754619999999
   translations:
     ru: Удмуртия
     af: Oedmoertië
@@ -5916,18 +6071,20 @@ UD:
     uz: Udmurtiya
     bs: Udmurtija
     mk: Удмуртија
-  geo:
-    latitude: 57.0670218
-    longitude: 53.0277948
-    min_latitude: 55.8642715
-    min_longitude: 51.1226019
-    max_latitude: 58.545039
-    max_longitude: 54.42754619999999
-  name: Udmurtskaya Respublika
-ULY:
+  comments: 
+ULY: !ruby/struct:ISO3166::Subdivision
+  name: Ul'yanovskaya oblast'
+  code: 
   unofficial_names:
   - Uljanovskaja Oblast
   - Uljanovsk
+  geo:
+    latitude: 53.9793357
+    longitude: 47.7762426
+    min_latitude: 52.5380879
+    min_longitude: 45.7949271
+    max_latitude: 54.891972
+    max_longitude: 50.2391649
   translations:
     ru: Ульяновская область
     af: Oeljanofsk-oblast
@@ -5994,17 +6151,19 @@ ULY:
     uz: Ulyanov viloyati
     bs: Uljanovska oblast
     mk: Уљјановска област
-  geo:
-    latitude: 53.9793357
-    longitude: 47.7762426
-    min_latitude: 52.5380879
-    min_longitude: 45.7949271
-    max_latitude: 54.891972
-    max_longitude: 50.2391649
-  name: Ul'yanovskaya oblast'
-VGG:
+  comments: 
+VGG: !ruby/struct:ISO3166::Subdivision
+  name: Volgogradskaya oblast'
+  code: 
   unofficial_names:
   - Volgogradskaja Oblast
+  geo:
+    latitude: 49.7604522
+    longitude: 45
+    min_latitude: 47.44145899999999
+    min_longitude: 41.167564
+    max_latitude: 51.2443039
+    max_longitude: 47.4312876
   translations:
     ru: Волгоградская область
     af: Wolgograd-oblast
@@ -6072,17 +6231,19 @@ VGG:
     uz: Volgograd viloyati
     bs: Volgogradska oblast
     mk: Волгоградска област
-  geo:
-    latitude: 49.7604522
-    longitude: 45
-    min_latitude: 47.44145899999999
-    min_longitude: 41.167564
-    max_latitude: 51.2443039
-    max_longitude: 47.4312876
-  name: Volgogradskaya oblast'
-VLA:
+  comments: 
+VLA: !ruby/struct:ISO3166::Subdivision
+  name: Vladimirskaya oblast'
+  code: 
   unofficial_names:
   - Vladimirskaja Oblast
+  geo:
+    latitude: 56.1553465
+    longitude: 40.5926685
+    min_latitude: 55.103193
+    min_longitude: 38.272862
+    max_latitude: 56.81697
+    max_longitude: 42.977175
   translations:
     ru: Владимирская область
     af: Wladimir-oblast
@@ -6150,17 +6311,19 @@ VLA:
     uz: Vladimir viloyati
     bs: Vladimirska oblast
     mk: Владимирска област
-  geo:
-    latitude: 56.1553465
-    longitude: 40.5926685
-    min_latitude: 55.103193
-    min_longitude: 38.272862
-    max_latitude: 56.81697
-    max_longitude: 42.977175
-  name: Vladimirskaya oblast'
-VLG:
+  comments: 
+VLG: !ruby/struct:ISO3166::Subdivision
+  name: Vologodskaya oblast'
+  code: 
   unofficial_names:
   - Vologodskaja Oblast
+  geo:
+    latitude: 59.8706711
+    longitude: 40.6555411
+    min_latitude: 58.4831769
+    min_longitude: 34.7161178
+    max_latitude: 61.607277
+    max_longitude: 47.1578849
   translations:
     ru: Вологодская область
     af: Wologda-oblast
@@ -6228,18 +6391,20 @@ VLG:
     uz: Vologda viloyati
     bs: Vologodska oblast
     mk: Вологодска област
-  geo:
-    latitude: 59.8706711
-    longitude: 40.6555411
-    min_latitude: 58.4831769
-    min_longitude: 34.7161178
-    max_latitude: 61.607277
-    max_longitude: 47.1578849
-  name: Vologodskaya oblast'
-VOR:
+  comments: 
+VOR: !ruby/struct:ISO3166::Subdivision
+  name: Voronezhskaya oblast'
+  code: 
   unofficial_names:
   - Voronežskaja Oblast
   - Voronež
+  geo:
+    latitude: 50.8589713
+    longitude: 39.8644375
+    min_latitude: 49.556056
+    min_longitude: 38.13708
+    max_latitude: 52.102429
+    max_longitude: 42.944786
   translations:
     ru: Воронежская область
     af: Woronezj-oblast
@@ -6307,19 +6472,21 @@ VOR:
     uz: Voronej viloyati
     bs: Voronješka oblast
     mk: Воронешка област
-  geo:
-    latitude: 50.8589713
-    longitude: 39.8644375
-    min_latitude: 49.556056
-    min_longitude: 38.13708
-    max_latitude: 52.102429
-    max_longitude: 42.944786
-  name: Voronezhskaya oblast'
-YAN:
+  comments: 
+YAN: !ruby/struct:ISO3166::Subdivision
+  name: Yamalo-Nenetskiy avtonomnyy okrug
+  code: 
   unofficial_names:
   - Jamalija
   - Jamalo-Nenetskij Avtonomnyj Okrug
   - Jamalo-Nenets
+  geo:
+    latitude: 66.0653057
+    longitude: 76.9345194
+    min_latitude: 62.1900029
+    min_longitude: 62.0121153
+    max_latitude: 73.5224935
+    max_longitude: 86.01397010000001
   translations:
     ru: Ямало-Ненецкий автономный округ
     af: Jamalië
@@ -6386,18 +6553,20 @@ YAN:
     uz: Yamal Nenetslari muxtor okrugi
     bs: Jamalskonenečki autonomni okrug
     mk: Јамало-Ненецки автономен округ
-  geo:
-    latitude: 66.0653057
-    longitude: 76.9345194
-    min_latitude: 62.1900029
-    min_longitude: 62.0121153
-    max_latitude: 73.5224935
-    max_longitude: 86.01397010000001
-  name: Yamalo-Nenetskiy avtonomnyy okrug
-YAR:
+  comments: 
+YAR: !ruby/struct:ISO3166::Subdivision
+  name: Yaroslavskaya oblast'
+  code: 
   unofficial_names:
   - Jaroslavskaja Oblast
   - Jaroslavl
+  geo:
+    latitude: 57.8991523
+    longitude: 38.8388633
+    min_latitude: 56.5401059
+    min_longitude: 37.3243239
+    max_latitude: 58.95002100000001
+    max_longitude: 41.178673
   translations:
     ru: Ярославская область
     af: Jaroslawl-oblast
@@ -6463,21 +6632,23 @@ YAR:
     uz: Yaroslavl viloyati
     bs: Jaroslavljska oblast
     mk: Јарославска област
-  geo:
-    latitude: 57.8991523
-    longitude: 38.8388633
-    min_latitude: 56.5401059
-    min_longitude: 37.3243239
-    max_latitude: 58.95002100000001
-    max_longitude: 41.178673
-  name: Yaroslavskaya oblast'
-YEV:
+  comments: 
+YEV: !ruby/struct:ISO3166::Subdivision
+  name: Yevreyskaya avtonomnaya oblast'
+  code: 
   unofficial_names:
   - Jevrejskaja Oblast
   - Jevrejskaja Respublika
   - Jewish Autonomous Oblast
   - Yevreyskaya Oblast
   - Jevrej
+  geo:
+    latitude: 48.4808147
+    longitude: 131.7657367
+    min_latitude: 47.65943799999999
+    min_longitude: 130.5212439
+    max_latitude: 49.4938831
+    max_longitude: 134.9953569
   translations:
     ru: Еврейская автономная область
     af: Joodse Outonome Oblast
@@ -6546,19 +6717,21 @@ YEV:
     uz: Yahudiylar muxtor viloyati
     bs: Jevrejska autonomna oblast
     mk: Еврејска автономна област
-  geo:
-    latitude: 48.4808147
-    longitude: 131.7657367
-    min_latitude: 47.65943799999999
-    min_longitude: 130.5212439
-    max_latitude: 49.4938831
-    max_longitude: 134.9953569
-  name: Yevreyskaya avtonomnaya oblast'
-ZAB:
+  comments: 
+ZAB: !ruby/struct:ISO3166::Subdivision
+  name: Zabaykal'skij kray
+  code: 
   unofficial_names:
   - Zabajkal'skij kraj
   - Zabajkal'skij
   - Zabaykal'skij kray
+  geo:
+    latitude: 53.0928771
+    longitude: 116.967656
+    min_latitude: 49.1551025
+    min_longitude: 107.736142
+    max_latitude: 58.435147
+    max_longitude: 122.1303228
   translations:
     ru: Забайкальский край
     af: Zabaikalski-krai
@@ -6625,11 +6798,4 @@ ZAB:
     uz: Zabaykal oʼlkasi
     bs: Zabajkalski kraj
     mk: Забајкалски крај
-  geo:
-    latitude: 53.0928771
-    longitude: 116.967656
-    min_latitude: 49.1551025
-    min_longitude: 107.736142
-    max_latitude: 58.435147
-    max_longitude: 122.1303228
-  name: Zabaykal'skij kray
+  comments: 

@@ -1,6 +1,15 @@
 ---
-BA:
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Bagmati
+  code: 
   unofficial_names: Bagmati
+  geo:
+    latitude: 28.0367577
+    longitude: 85.4375574
+    min_latitude: 27.3182049
+    min_longitude: 84.62609499999999
+    max_latitude: 28.3420049
+    max_longitude: 86.06501
   translations:
     en: Bagmati
     ar: مديرية باجماتي
@@ -44,16 +53,18 @@ BA:
     zh: 巴格馬蒂專區
     ccp: "\U0001111D\U00011107\U00011134\U0001111F\U00011111\U00011128"
     uk: Багматі
-  geo:
-    latitude: 28.0367577
-    longitude: 85.4375574
-    min_latitude: 27.3182049
-    min_longitude: 84.62609499999999
-    max_latitude: 28.3420049
-    max_longitude: 86.06501
-  name: Bagmati
-BH:
+  comments: 
+BH: !ruby/struct:ISO3166::Subdivision
+  name: Bheri
+  code: 
   unofficial_names: Bheri
+  geo:
+    latitude: 28.517456
+    longitude: 81.77870209999999
+    min_latitude: 27.85854
+    min_longitude: 80.98443600000002
+    max_latitude: 29.135872
+    max_longitude: 82.45864910000002
   translations:
     en: Bheri
     ar: مديرية بهري
@@ -96,16 +107,18 @@ BH:
     zh: 佩里專區
     ccp: "\U0001111E\U0001112C\U00011122\U00011128"
     uk: Бхері
-  geo:
-    latitude: 28.517456
-    longitude: 81.77870209999999
-    min_latitude: 27.85854
-    min_longitude: 80.98443600000002
-    max_latitude: 29.135872
-    max_longitude: 82.45864910000002
-  name: Bheri
-DH:
+  comments: 
+DH: !ruby/struct:ISO3166::Subdivision
+  name: Dhawalagiri
+  code: 
   unofficial_names: Dhawalagiri
+  geo:
+    latitude: 28.611176
+    longitude: 83.5070203
+    min_latitude: 27.9980379
+    min_longitude: 82.869958
+    max_latitude: 29.3155821
+    max_longitude: 84.19720490000002
   translations:
     en: Dhawalagiri
     ar: مديرية دهوالاجيري
@@ -149,16 +162,18 @@ DH:
     ccp: "\U00011119\U00011127\U00011124\U00011123\U00011109\U00011128\U00011122\U00011128"
     kk: Дхаулагири
     uk: Дгаулагірі
-  geo:
-    latitude: 28.611176
-    longitude: 83.5070203
-    min_latitude: 27.9980379
-    min_longitude: 82.869958
-    max_latitude: 29.3155821
-    max_longitude: 84.19720490000002
-  name: Dhawalagiri
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Gandaki
+  code: 
   unofficial_names: Gandaki
+  geo:
+    latitude: 28.3732037
+    longitude: 84.4382721
+    min_latitude: 27.7426719
+    min_longitude: 83.4406971
+    max_latitude: 28.91346
+    max_longitude: 85.19313799999999
   translations:
     en: Gandaki
     ar: مديرية غانداكي
@@ -203,16 +218,18 @@ GA:
     hy: Գանդակի
     uk: Гандакі
     ca: zona de Gandaki
-  geo:
-    latitude: 28.3732037
-    longitude: 84.4382721
-    min_latitude: 27.7426719
-    min_longitude: 83.4406971
-    max_latitude: 28.91346
-    max_longitude: 85.19313799999999
-  name: Gandaki
-JA:
+  comments: 
+JA: !ruby/struct:ISO3166::Subdivision
+  name: Janakpur
+  code: 
   unofficial_names: Janakpur
+  geo:
+    latitude: 26.728611
+    longitude: 85.925
+    min_latitude: 26.6703051
+    min_longitude: 85.8793826
+    max_latitude: 26.8383167
+    max_longitude: 85.9942174
   translations:
     en: Janakpur
     ar: مديرية جاناكبور
@@ -256,16 +273,18 @@ JA:
     fa: جاناکپور
     ccp: "\U0001110E\U0001111A\U00011127\U00011107\U00011134\U0001111B\U0001112A\U00011122\U00011134"
     uk: Джанакпур
-  geo:
-    latitude: 26.728611
-    longitude: 85.925
-    min_latitude: 26.6703051
-    min_longitude: 85.8793826
-    max_latitude: 26.8383167
-    max_longitude: 85.9942174
-  name: Janakpur
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Karnali
+  code: 
   unofficial_names: Karnali
+  geo:
+    latitude: 29.3862555
+    longitude: 82.38857829999999
+    min_latitude: 28.7097791
+    min_longitude: 81.255875
+    max_latitude: 30.4333931
+    max_longitude: 83.6897499
   translations:
     en: Karnali
     ar: مديرية كارنالي
@@ -308,16 +327,18 @@ KA:
     zh: 格爾納利專區
     ccp: "\U00011107\U00011122\U00011134\U0001111A\U00011123\U00011128"
     uk: Карналі
-  geo:
-    latitude: 29.3862555
-    longitude: 82.38857829999999
-    min_latitude: 28.7097791
-    min_longitude: 81.255875
-    max_latitude: 30.4333931
-    max_longitude: 83.6897499
-  name: Karnali
-KO:
+  comments: 
+KO: !ruby/struct:ISO3166::Subdivision
+  name: Kosi [Koshi]
+  code: 
   unofficial_names: Kosi [Koshi]
+  geo:
+    latitude: 26.5459247
+    longitude: 86.93737159999999
+    min_latitude: 25.396598
+    min_longitude: 86.4182005
+    max_latitude: 26.8262154
+    max_longitude: 87.26650049999999
   translations:
     en: Kosi
     ar: مديرية كوسي
@@ -346,16 +367,18 @@ KO:
     zh: 戈西專區
     ccp: "\U00011107\U0001112E\U00011125\U00011128"
     uk: Косі
-  geo:
-    latitude: 26.5459247
-    longitude: 86.93737159999999
-    min_latitude: 25.396598
-    min_longitude: 86.4182005
-    max_latitude: 26.8262154
-    max_longitude: 87.26650049999999
-  name: Kosi [Koshi]
-LU:
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: Lumbini
+  code: 
   unofficial_names: Lumbini
+  geo:
+    latitude: 27.45
+    longitude: 83.25
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Lumbini
     ar: مديرية لومبيني
@@ -386,16 +409,18 @@ LU:
     ccp: "\U00011123\U0001112A\U0001111F\U00011134\U0001111D\U00011128\U0001111A\U00011128"
     hy: Լումբինի
     mk: Лумбини
-  geo:
-    latitude: 27.45
-    longitude: 83.25
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Lumbini
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Mahakali
+  code: 
   unofficial_names: Mahakali
+  geo:
+    latitude: 29.39
+    longitude: 80.3
+    min_latitude: 29.3691794
+    min_longitude: 80.2704906
+    max_latitude: 29.4097501
+    max_longitude: 80.33278229999999
   translations:
     en: Mahakali
     ar: مديرية ماهاكالي
@@ -438,16 +463,18 @@ MA:
     zh: 馬哈卡利專區
     ccp: "\U0001111F\U00011127\U00011126\U00011107\U00011127\U00011123\U00011128"
     uk: Махакалі
-  geo:
-    latitude: 29.39
-    longitude: 80.3
-    min_latitude: 29.3691794
-    min_longitude: 80.2704906
-    max_latitude: 29.4097501
-    max_longitude: 80.33278229999999
-  name: Mahakali
-ME:
+  comments: 
+ME: !ruby/struct:ISO3166::Subdivision
+  name: Mechi
+  code: 
   unofficial_names: Mechi
+  geo:
+    latitude: 26.8760007
+    longitude: 87.9334803
+    min_latitude: 26.361404
+    min_longitude: 87.4689351
+    max_latitude: 27.9174019
+    max_longitude: 88.19932589999999
   translations:
     en: Mechi
     ar: مديرية ميتشي
@@ -490,16 +517,18 @@ ME:
     zh: 梅吉專區
     ccp: "\U0001111F\U0001112C\U0001110C\U00011128"
     uk: Мечі
-  geo:
-    latitude: 26.8760007
-    longitude: 87.9334803
-    min_latitude: 26.361404
-    min_longitude: 87.4689351
-    max_latitude: 27.9174019
-    max_longitude: 88.19932589999999
-  name: Mechi
-NA:
+  comments: 
+NA: !ruby/struct:ISO3166::Subdivision
+  name: Narayani
+  code: 
   unofficial_names: Narayani
+  geo:
+    latitude: 27.5863482
+    longitude: 84.3226488
+    min_latitude: 27.5510084
+    min_longitude: 84.1606619
+    max_latitude: 27.6141404
+    max_longitude: 84.344962
   translations:
     en: Narayani
     ar: مديرية ناراياني
@@ -542,16 +571,18 @@ NA:
     zh: 納拉亞尼專區
     ccp: "\U0001111A\U00011122\U00011120\U00011127\U0001111A\U00011128"
     uk: Нараяні
-  geo:
-    latitude: 27.5863482
-    longitude: 84.3226488
-    min_latitude: 27.5510084
-    min_longitude: 84.1606619
-    max_latitude: 27.6141404
-    max_longitude: 84.344962
-  name: Narayani
-RA:
+  comments: 
+RA: !ruby/struct:ISO3166::Subdivision
+  name: Rapti
+  code: 
   unofficial_names: Rapti
+  geo:
+    latitude: 28.274347
+    longitude: 82.38857829999999
+    min_latitude: 27.682508
+    min_longitude: 81.7472689
+    max_latitude: 28.99212589999999
+    max_longitude: 83.1547849
   translations:
     en: Rapti
     ar: مديرية رابتي
@@ -594,16 +625,18 @@ RA:
     zh: 拉布蒂專區
     ccp: "\U00011122\U0001111B\U00011134\U00011111\U00011128"
     uk: Рапті
-  geo:
-    latitude: 28.274347
-    longitude: 82.38857829999999
-    min_latitude: 27.682508
-    min_longitude: 81.7472689
-    max_latitude: 28.99212589999999
-    max_longitude: 83.1547849
-  name: Rapti
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Sagarmatha
+  code: 
   unofficial_names: Sagarmatha
+  geo:
+    latitude: 27.9878093
+    longitude: 86.9249842
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sagarmatha
     ar: مديرية ساجارماثا
@@ -647,16 +680,18 @@ SA:
     ccp: "\U00011125\U00011109\U00011127\U00011122\U00011134\U0001111F\U00011117"
     uk: Сагарматха
     ca: zona del Sagarmatha
-  geo:
-    latitude: 27.9878093
-    longitude: 86.9249842
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Sagarmatha
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Seti
+  code: 
   unofficial_names: Seti
+  geo:
+    latitude: 29.6905427
+    longitude: 81.3399414
+    min_latitude: 28.394239
+    min_longitude: 80.5038579
+    max_latitude: 30.0715771
+    max_longitude: 81.815972
   translations:
     en: Seti
     ar: مديرية سيتي
@@ -699,16 +734,18 @@ SE:
     zh: 塞蒂專區
     ccp: "\U00011125\U0001112C\U00011111\U00011128"
     uk: Сеті
-  geo:
-    latitude: 29.6905427
-    longitude: 81.3399414
-    min_latitude: 28.394239
-    min_longitude: 80.5038579
-    max_latitude: 30.0715771
-    max_longitude: 81.815972
-  name: Seti
-'1':
+  comments: 
+'1': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: المنطقة التنموية الوسطى
     bg: Мадхяманчал
@@ -738,6 +775,11 @@ SE:
     ta: மத்திய வளர்ச்சி பிராந்தியம், நேபாளம்
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     hy: Կենտրոնական շրջան
+  comments: 
+'2': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -745,8 +787,6 @@ SE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'2':
-  unofficial_names: 
   translations:
     ar: المنطقة التنموية الغربية الوسطى
     bn: মধ্য-পশ্চিমাঞ্চল বিকাস ক্ষেত্র, নেপাল
@@ -772,6 +812,11 @@ SE:
     zh: 中西部發展區
     ccp: "\U0001111F\U00011127\U00011116\U00011134\U00011119\U00011133\U00011120\U00011127
       \U0001111B\U00011127\U0001110C\U00011134\U00011125\U00011128\U0001111F\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
+  comments: 
+'3': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -779,8 +824,6 @@ SE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'3':
-  unofficial_names: 
   translations:
     ar: المنطقة التنموية الغربية
     be: Заходні рэгіён
@@ -810,6 +853,11 @@ SE:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     hy: Արևմտյան շրջան
     ca: Regió Occidental
+  comments: 
+'4': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -817,8 +865,6 @@ SE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'4':
-  unofficial_names: 
   translations:
     ar: المنطقة التنموية الشرقية
     bn: পূর্বাঞ্চল বিকাস ক্ষেত্র
@@ -846,6 +892,11 @@ SE:
     zh: 東部發展區
     ccp: "\U0001111B\U0001112A\U00011122\U00011134\U00011124\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
     ca: Regió de Desenvolupament Est
+  comments: 
+'5': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -853,8 +904,6 @@ SE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'5':
-  unofficial_names: 
   translations:
     ar: المنطقة التنموية الغربية البعيدة
     bn: সুদূর পশ্চিমাঞ্চল বিকাস ক্ষেত্র, নেপাল
@@ -879,31 +928,72 @@ SE:
     ta: தூரமேற்கு வளர்ச்சி பிராந்தியம், நேபாளம்
     zh: 遠西部發展區
     ccp: "\U00011125\U0001112A\U00011118\U0001112A\U00011122\U00011134 \U0001111B\U00011127\U0001110C\U00011134\U00011125\U00011128\U0001111F\U0001111A\U00011134\U0001110C\U00011127\U00011123\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-P1:
+  comments: 
+P1: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Province 1
-P2:
+  comments: 
+P2: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Province 2
-P3:
+  comments: 
+P3: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Province 3
-P4:
+  comments: 
+P4: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 28.394857
+    longitude: 84.12400799999999
+    min_latitude: 26.3473741
+    min_longitude: 80.05846980000001
+    max_latitude: 30.4473898
+    max_longitude: 88.20182969999999
   translations:
     en: Gandaki²
-P5:
+  comments: 
+P5: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Province 5
-P6:
+  comments: 
+P6: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 28.394857
+    longitude: 84.12400799999999
+    min_latitude: 26.3473741
+    min_longitude: 80.05846980000001
+    max_latitude: 30.4473898
+    max_longitude: 88.20182969999999
   translations:
     en: Karnali²
-P7:
+  comments: 
+P7: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Province 7
+  comments: 

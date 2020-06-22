@@ -1,6 +1,15 @@
 ---
-DB:
+DB: !ruby/struct:ISO3166::Subdivision
+  name: Diourbel
+  code: 
   unofficial_names: Diourbel
+  geo:
+    latitude: 14.6561238
+    longitude: -16.2345633
+    min_latitude: 14.6305864
+    min_longitude: -16.2716103
+    max_latitude: 14.6780086
+    max_longitude: -16.1984396
   translations:
     en: Diourbel
     ar: إقليم ديوربيل
@@ -45,16 +54,18 @@ DB:
     ceb: Diourbel
     ccp: "\U00011113\U00011128\U00011120\U0001112E\U00011122\U00011134\U0001111D\U0001112C\U00011123\U00011134"
     uk: Регіон Діурбель
-  geo:
-    latitude: 14.6561238
-    longitude: -16.2345633
-    min_latitude: 14.6305864
-    min_longitude: -16.2716103
-    max_latitude: 14.6780086
-    max_longitude: -16.1984396
-  name: Diourbel
-DK:
+  comments: 
+DK: !ruby/struct:ISO3166::Subdivision
+  name: Dakar
+  code: 
   unofficial_names: Dakar
+  geo:
+    latitude: 14.7645042
+    longitude: -17.3660286
+    min_latitude: 14.6469399
+    min_longitude: -17.5298482
+    max_latitude: 14.8178645
+    max_longitude: -17.2463906
   translations:
     en: Dakar
     ar: داكار
@@ -99,16 +110,18 @@ DK:
     ccp: "\U00011113\U00011107\U00011122\U00011134"
     uk: Дакар
     bs: Regija Dakar
-  geo:
-    latitude: 14.7645042
-    longitude: -17.3660286
-    min_latitude: 14.6469399
-    min_longitude: -17.5298482
-    max_latitude: 14.8178645
-    max_longitude: -17.2463906
-  name: Dakar
-FK:
+  comments: 
+FK: !ruby/struct:ISO3166::Subdivision
+  name: Fatick
+  code: 
   unofficial_names: Fatick
+  geo:
+    latitude: 14.333333
+    longitude: -16.406944
+    min_latitude: 14.3167832
+    min_longitude: -16.4239168
+    max_latitude: 14.3521257
+    max_longitude: -16.3943481
   translations:
     en: Fatick
     ar: اقليم فاتيك
@@ -150,16 +163,18 @@ FK:
     zh: 法蒂克区
     ccp: "\U0001111C\U00011111\U00011128\U00011107\U00011134"
     uk: Регіон Фатік
-  geo:
-    latitude: 14.333333
-    longitude: -16.406944
-    min_latitude: 14.3167832
-    min_longitude: -16.4239168
-    max_latitude: 14.3521257
-    max_longitude: -16.3943481
-  name: Fatick
-KD:
+  comments: 
+KD: !ruby/struct:ISO3166::Subdivision
+  name: Kolda
+  code: 
   unofficial_names: Kolda
+  geo:
+    latitude: 12.883333
+    longitude: -14.95
+    min_latitude: 12.8554019
+    min_longitude: -14.9931822
+    max_latitude: 12.9560481
+    max_longitude: -14.9008942
   translations:
     en: Kolda
     ar: كولدا
@@ -204,16 +219,18 @@ KD:
     zh: 科爾達區
     ccp: "\U00011107\U0001112E\U00011123\U00011134\U00011113"
     uk: Регіон Колда
-  geo:
-    latitude: 12.883333
-    longitude: -14.95
-    min_latitude: 12.8554019
-    min_longitude: -14.9931822
-    max_latitude: 12.9560481
-    max_longitude: -14.9008942
-  name: Kolda
-KL:
+  comments: 
+KL: !ruby/struct:ISO3166::Subdivision
+  name: Kaolack
+  code: 
   unofficial_names: Kaolack
+  geo:
+    latitude: 14.1652083
+    longitude: -16.0757749
+    min_latitude: 14.1218433
+    min_longitude: -16.1165143
+    max_latitude: 14.1926668
+    max_longitude: -16.0231304
   translations:
     en: Kaolack
     ar: كاولاك
@@ -256,16 +273,18 @@ KL:
     ceb: Kaolack
     zh: 考拉克区
     ccp: "\U00011107\U00011120\U0001112E\U00011123\U00011107\U00011134"
-  geo:
-    latitude: 14.1652083
-    longitude: -16.0757749
-    min_latitude: 14.1218433
-    min_longitude: -16.1165143
-    max_latitude: 14.1926668
-    max_longitude: -16.0231304
-  name: Kaolack
-LG:
+  comments: 
+LG: !ruby/struct:ISO3166::Subdivision
+  name: Louga
+  code: 
   unofficial_names: Louga
+  geo:
+    latitude: 15.616667
+    longitude: -16.216667
+    min_latitude: 15.5760808
+    min_longitude: -16.273842
+    max_latitude: 15.6584121
+    max_longitude: -16.1677551
   translations:
     en: Louga
     ar: إقليم لوغا
@@ -311,16 +330,18 @@ LG:
     ccp: "\U00011123\U0001112F\U00011109"
     uk: Регіон Луга
     be: Луга
-  geo:
-    latitude: 15.616667
-    longitude: -16.216667
-    min_latitude: 15.5760808
-    min_longitude: -16.273842
-    max_latitude: 15.6584121
-    max_longitude: -16.1677551
-  name: Louga
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Matam
+  code: 
   unofficial_names: Matam
+  geo:
+    latitude: 15.6600225
+    longitude: -13.2576906
+    min_latitude: 15.6390722
+    min_longitude: -13.2636738
+    max_latitude: 15.6690317
+    max_longitude: -13.2462503
   translations:
     en: Matam
     ar: ماتام
@@ -363,16 +384,18 @@ MT:
     zh: 馬塔姆區
     ccp: "\U0001111F\U00011111\U0001111F\U00011134"
     uk: Регіон Матам
-  geo:
-    latitude: 15.6600225
-    longitude: -13.2576906
-    min_latitude: 15.6390722
-    min_longitude: -13.2636738
-    max_latitude: 15.6690317
-    max_longitude: -13.2462503
-  name: Matam
-SL:
+  comments: 
+SL: !ruby/struct:ISO3166::Subdivision
+  name: Saint-Louis
+  code: 
   unofficial_names: Saint-Louis
+  geo:
+    latitude: 16.0326307
+    longitude: -16.4818167
+    min_latitude: 15.9638125
+    min_longitude: -16.5135574
+    max_latitude: 16.0760986
+    max_longitude: -16.403041
   translations:
     en: Saint-Louis
     ar: إقليم سانت لويس
@@ -416,16 +439,18 @@ SL:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134-\U00011123\U0001112A\U00011103\U00011128\U0001110C\U00011134"
     uk: Регіон Сент-Луїс
     ca: regió de Saint-Louis
-  geo:
-    latitude: 16.0326307
-    longitude: -16.4818167
-    min_latitude: 15.9638125
-    min_longitude: -16.5135574
-    max_latitude: 16.0760986
-    max_longitude: -16.403041
-  name: Saint-Louis
-TC:
+  comments: 
+TC: !ruby/struct:ISO3166::Subdivision
+  name: Tambacounda
+  code: 
   unofficial_names: Tambacounda
+  geo:
+    latitude: 13.768889
+    longitude: -13.667222
+    min_latitude: 13.7446376
+    min_longitude: -13.7030293
+    max_latitude: 13.7971567
+    max_longitude: -13.6352349
   translations:
     en: Tambacounda
     ar: إقليم تامباكوندا
@@ -470,16 +495,18 @@ TC:
     zh: 坦巴昆達區
     ccp: "\U00011111\U0001111F\U00011134\U0001111D\U00011107\U0001112F\U00011105\U0001112A\U0001111A\U00011134\U00011113"
     uk: Регіон Тамбакунда
-  geo:
-    latitude: 13.768889
-    longitude: -13.667222
-    min_latitude: 13.7446376
-    min_longitude: -13.7030293
-    max_latitude: 13.7971567
-    max_longitude: -13.6352349
-  name: Tambacounda
-TH:
+  comments: 
+TH: !ruby/struct:ISO3166::Subdivision
+  name: Thiès
+  code: 
   unofficial_names: Thiès
+  geo:
+    latitude: 14.766667
+    longitude: -16.9
+    min_latitude: 14.7351422
+    min_longitude: -16.9828215
+    max_latitude: 14.8497212
+    max_longitude: -16.8717166
   translations:
     en: Thiès
     ar: ثيس
@@ -524,16 +551,18 @@ TH:
     fa: منطقه تی‌یس
     ccp: "\U00011117\U0001112D\U0001110C\U00011134"
     uk: Регіон Тієс
-  geo:
-    latitude: 14.766667
-    longitude: -16.9
-    min_latitude: 14.7351422
-    min_longitude: -16.9828215
-    max_latitude: 14.8497212
-    max_longitude: -16.8717166
-  name: Thiès
-ZG:
+  comments: 
+ZG: !ruby/struct:ISO3166::Subdivision
+  name: Ziguinchor
+  code: 
   unofficial_names: Ziguinchor
+  geo:
+    latitude: 12.583333
+    longitude: -16.266667
+    min_latitude: 12.5297862
+    min_longitude: -16.3063271
+    max_latitude: 12.5895155
+    max_longitude: -16.2420399
   translations:
     en: Ziguinchor
     ar: زينغشور
@@ -578,16 +607,18 @@ ZG:
     fa: ناحیه زیگینچور
     ccp: "\U0001110E\U00011128\U00011109\U0001112D\U0001112A\U0001111A\U00011134\U00011107\U0001112E\U00011122\U00011134"
     uk: Регіон Зігіншор
-  geo:
-    latitude: 12.583333
-    longitude: -16.266667
-    min_latitude: 12.5297862
-    min_longitude: -16.3063271
-    max_latitude: 12.5895155
-    max_longitude: -16.2420399
-  name: Ziguinchor
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: اقليم كفرين
     bn: ক্যাফ্রিন
@@ -628,6 +659,11 @@ KA:
     zh: 卡夫林區
     ccp: "\U00011107\U0001111C\U00011133\U00011122\U00011128\U0001111A\U00011134"
     uk: Регіон Кафрін
+  comments: 
+KE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -635,8 +671,6 @@ KA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KE:
-  unofficial_names: 
   translations:
     ar: كيدوغو
     bn: কেদুগো
@@ -678,6 +712,11 @@ KE:
     zh: 凱杜古區
     ccp: "\U00011107\U0001112C\U00011113\U0001112F\U00011109\U0001112F"
     uk: Регіон Кедугу
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -685,8 +724,6 @@ KE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SE:
-  unofficial_names: 
   translations:
     ar: سيدهيو
     bn: সেধিউ
@@ -730,10 +767,4 @@ SE:
     ccp: "\U00011125\U0001112C\U00011119\U00011128\U00011120\U0001112E"
     uk: Регіон Седіу
     be: рэгіён Седзіу
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

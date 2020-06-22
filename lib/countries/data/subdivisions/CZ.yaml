@@ -1,11 +1,10 @@
 ---
-JC:
+JC: !ruby/struct:ISO3166::Subdivision
+  name: Jihočeský kraj
+  code: 
   unofficial_names:
   - Budějovický
   - Českobudějovický
-  translations:
-    en: South Bohemia
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111D\U00011127\U00011126\U0001112C\U0001111F\U00011128\U00011120"
   geo:
     latitude: 48.9457789
     longitude: 14.4416055
@@ -13,13 +12,15 @@ JC:
     min_longitude: 13.5363203
     max_latitude: 49.6212548
     max_longitude: 15.6041293
-  name: Jihočeský kraj
-JM:
+  translations:
+    en: South Bohemia
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111D\U00011127\U00011126\U0001112C\U0001111F\U00011128\U00011120"
+  comments: 
+JM: !ruby/struct:ISO3166::Subdivision
+  name: 'Jihomoravský kraj '
+  code: 
   unofficial_names:
   - Brněnský
-  translations:
-    en: South Moravia
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111F\U00011127\U00011122\U00011134\U0001111E\U00011128\U00011120"
   geo:
     latitude: 48.9544528
     longitude: 16.7676899
@@ -27,13 +28,14 @@ JM:
     min_longitude: 15.5424287
     max_latitude: 49.63325469999999
     max_longitude: 17.6458148
-  name: 'Jihomoravský kraj '
-KA:
-  unofficial_names: Karlovarský kraj
   translations:
-    en: Karlovy Vary Region
-    ccp: "\U00011107\U00011122\U00011134\U00011123\U0001112E\U0001111E\U00011128 \U0001111E\U00011122\U00011128
-      \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+    en: South Moravia
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111F\U00011127\U00011122\U00011134\U0001111E\U00011128\U00011120"
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Karlovarský kraj
+  code: 
+  unofficial_names: Karlovarský kraj
   geo:
     latitude: 50.1435
     longitude: 12.7501899
@@ -41,13 +43,15 @@ KA:
     min_longitude: 12.0906263
     max_latitude: 50.4602991
     max_longitude: 13.3011974
-  name: Karlovarský kraj
-KR:
-  unofficial_names: Královéhradecký kraj
   translations:
-    en: Hradec Králové Region
-    ccp: "\U00011126\U00011133\U00011122\U00011113\U0001112C\U00011107\U00011134 \U00011107\U00011133\U00011122\U00011123\U0001112E\U0001111B\U00011134
+    en: Karlovy Vary Region
+    ccp: "\U00011107\U00011122\U00011134\U00011123\U0001112E\U0001111E\U00011128 \U0001111E\U00011122\U00011128
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: Královéhradecký kraj
+  code: 
+  unofficial_names: Královéhradecký kraj
   geo:
     latitude: 50.3512484
     longitude: 15.7976459
@@ -55,13 +59,15 @@ KR:
     min_longitude: 15.1051615
     max_latitude: 50.7804396
     max_longitude: 16.5855247
-  name: Královéhradecký kraj
-LI:
-  unofficial_names: Liberecký kraj
   translations:
-    en: Liberec Region
-    ccp: "\U00011123\U00011128\U0001111D\U0001112C\U00011122\U0001112C\U00011107\U00011134
+    en: Hradec Králové Region
+    ccp: "\U00011126\U00011133\U00011122\U00011113\U0001112C\U00011107\U00011134 \U00011107\U00011133\U00011122\U00011123\U0001112E\U0001111B\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: Liberecký kraj
+  code: 
+  unofficial_names: Liberecký kraj
   geo:
     latitude: 50.65942399999999
     longitude: 14.7632424
@@ -69,13 +75,16 @@ LI:
     min_longitude: 14.3435357
     max_latitude: 51.0231974
     max_longitude: 15.6330293
-  name: Liberecký kraj
-MO:
+  translations:
+    en: Liberec Region
+    ccp: "\U00011123\U00011128\U0001111D\U0001112C\U00011122\U0001112C\U00011107\U00011134
+      \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Moravskoslezský kraj
+  code: 
   unofficial_names:
   - Ostravský
-  translations:
-    en: Moravian-Silesia
-    ccp: "\U0001111F\U0001112E\U00011122\U0001111E\U00011128\U00011120\U0001111A\U00011134-\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
   geo:
     latitude: 49.7305327
     longitude: 18.2332637
@@ -83,13 +92,14 @@ MO:
     min_longitude: 17.1462629
     max_latitude: 50.3279579
     max_longitude: 18.8592548
-  name: Moravskoslezský kraj
-OL:
-  unofficial_names: Olomoucký kraj
   translations:
-    en: Olomouc Region
-    ccp: "\U00011103\U00011127\U00011123\U0001112E\U0001111F\U0001112F\U00011107\U00011134
-      \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+    en: Moravian-Silesia
+    ccp: "\U0001111F\U0001112E\U00011122\U0001111E\U00011128\U00011120\U0001111A\U00011134-\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
+  comments: 
+OL: !ruby/struct:ISO3166::Subdivision
+  name: Olomoucký kraj
+  code: 
+  unofficial_names: Olomoucký kraj
   geo:
     latitude: 49.65865489999999
     longitude: 17.0811406
@@ -97,13 +107,15 @@ OL:
     min_longitude: 16.7115968
     max_latitude: 50.4494346
     max_longitude: 17.9172214
-  name: Olomoucký kraj
-PA:
-  unofficial_names: Pardubický kraj
   translations:
-    en: Pardubice Region
-    ccp: "\U0001111B\U00011122\U00011134\U00011113\U0001112A\U0001111D\U0001112D\U0001110C\U00011134
+    en: Olomouc Region
+    ccp: "\U00011103\U00011127\U00011123\U0001112E\U0001111F\U0001112F\U00011107\U00011134
       \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Pardubický kraj
+  code: 
+  unofficial_names: Pardubický kraj
   geo:
     latitude: 49.9444479
     longitude: 16.2856916
@@ -111,12 +123,15 @@ PA:
     min_longitude: 15.3630765
     max_latitude: 50.20763729999999
     max_longitude: 16.8665452
-  name: Pardubický kraj
-PL:
-  unofficial_names: Plzeňský kraj
   translations:
-    en: Plzeň Region
-    ccp: "\U0001111B\U00011133\U00011123\U0001110E\U0001112C\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+    en: Pardubice Region
+    ccp: "\U0001111B\U00011122\U00011134\U00011113\U0001112A\U0001111D\U0001112D\U0001110C\U00011134
+      \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+PL: !ruby/struct:ISO3166::Subdivision
+  name: Plzeňský kraj
+  code: 
+  unofficial_names: Plzeňský kraj
   geo:
     latitude: 49.4134812
     longitude: 13.3157246
@@ -124,16 +139,18 @@ PL:
     min_longitude: 12.400522
     max_latitude: 50.1033335
     max_longitude: 13.835103
-  name: Plzeňský kraj
-PR:
+  translations:
+    en: Plzeň Region
+    ccp: "\U0001111B\U00011133\U00011123\U0001110E\U0001112C\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Praha, hlavní město
+  code: 
   unofficial_names:
   - Hlavní město Praha
   - Praha
   - Prag
   - Prague
-  translations:
-    en: Prague
-    ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C"
   geo:
     latitude: 50.0755381
     longitude: 14.4378005
@@ -141,16 +158,17 @@ PR:
     min_longitude: 14.2244533
     max_latitude: 50.177403
     max_longitude: 14.7067945
-  name: Praha, hlavní město
-ST:
+  translations:
+    en: Prague
+    ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C"
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: Středočeský kraj
+  code: 
   unofficial_names:
   - Central Bohemia
   - Mittelböhmen
   - Středočeský
-  translations:
-    en: Central Bohemia
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
-      \U0001111D\U0001112E\U00011126\U0001112C\U0001111F\U00011128\U00011120"
   geo:
     latitude: 49.8782223
     longitude: 14.9362955
@@ -158,13 +176,15 @@ ST:
     min_longitude: 13.3973366
     max_latitude: 50.6190994
     max_longitude: 15.5345257
-  name: Středočeský kraj
-US:
-  unofficial_names: Ústecký kraj
   translations:
-    en: Ústí nad Labem Region
-    ccp: "\U00011105\U0001112A\U0001110C\U00011134\U00011111\U00011128 \U0001111A\U00011116\U00011134
-      \U00011123\U0001111D\U0001112C\U0001111F\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+    en: Central Bohemia
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U0001111D\U0001112E\U00011126\U0001112C\U0001111F\U00011128\U00011120"
+  comments: 
+US: !ruby/struct:ISO3166::Subdivision
+  name: Ústecký kraj
+  code: 
+  unofficial_names: Ústecký kraj
   geo:
     latitude: 50.6119037
     longitude: 13.7870086
@@ -172,13 +192,16 @@ US:
     min_longitude: 12.940246
     max_latitude: 51.0557757
     max_longitude: 14.6528592
-  name: Ústecký kraj
-VY:
+  translations:
+    en: Ústí nad Labem Region
+    ccp: "\U00011105\U0001112A\U0001110C\U00011134\U00011111\U00011128 \U0001111A\U00011116\U00011134
+      \U00011123\U0001111D\U0001112C\U0001111F\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+VY: !ruby/struct:ISO3166::Subdivision
+  name: Vysočina
+  code: 
   unofficial_names:
   - Jihlavský
-  translations:
-    en: Vysočina²
-    ccp: "\U0001111E\U00011128\U00011125\U0001112E\U00011125\U00011128\U0001111A"
   geo:
     latitude: 49.44900519999999
     longitude: 15.6405934
@@ -186,12 +209,14 @@ VY:
     min_longitude: 14.8887667
     max_latitude: 49.8611195
     max_longitude: 16.4184401
-  name: Vysočina
-ZL:
-  unofficial_names: Zlínský kraj
   translations:
-    en: Zlín Region
-    ccp: "\U0001110E\U00011133\U00011123\U00011128\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+    en: Vysočina²
+    ccp: "\U0001111E\U00011128\U00011125\U0001112E\U00011125\U00011128\U0001111A"
+  comments: 
+ZL: !ruby/struct:ISO3166::Subdivision
+  name: Zlínský kraj
+  code: 
+  unofficial_names: Zlínský kraj
   geo:
     latitude: 49.2162296
     longitude: 17.7720353
@@ -199,9 +224,21 @@ ZL:
     min_longitude: 17.1108595
     max_latitude: 49.5399786
     max_longitude: 18.4155308
-  name: Zlínský kraj
-'10':
+  translations:
+    en: Zlín Region
+    ccp: "\U0001110E\U00011133\U00011123\U00011128\U0001111A\U00011134 \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127"
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Praag
     am: ፕራግ
@@ -289,6 +326,11 @@ ZL:
     bs: Prag
     mk: Прага
     lo: ປຣາກ
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -296,8 +338,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'20':
-  unofficial_names: 
   translations:
     ar: إقليم بوهيميا الوسطى
     az: Orta Çex diyarı
@@ -356,6 +396,11 @@ ZL:
     hy: Կենտրոնաչեխական շրջան
     bs: Srednjočeški kraj
     mk: Средночешки крај
+  comments: 
+20A: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -363,8 +408,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-20A:
-  unofficial_names: 
   translations:
     ar: مقاطعة براغ-غرب
     bg: Прага-запад
@@ -394,6 +437,11 @@ ZL:
     fa: شهرستان پراگ-غرب
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     es: Distrito de Praga-Oeste
+  comments: 
+20B: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -401,8 +449,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-20B:
-  unofficial_names: 
   translations:
     ar: مقاطعة بشيبرام
     bg: Пршибрам
@@ -437,6 +483,11 @@ ZL:
     es: Distrito de Příbram
     eu: Příbramgo barrutia
     mk: Пшибрам
+  comments: 
+20C: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -444,8 +495,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-20C:
-  unofficial_names: 
   translations:
     ar: مقاطعة راكوفنيك
     bg: Раковник
@@ -479,6 +528,11 @@ ZL:
     es: Distrito de Rakovník
     eu: Rakovníkeko barrutia
     uk: Раковнік
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -486,8 +540,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'31':
-  unofficial_names: 
   translations:
     ar: إقليم جنوب بوهيميا
     az: Cənubi Çex diyarı
@@ -544,6 +596,11 @@ ZL:
     ccp: "\U0001110E\U00011128\U00011126\U0001112E\U00011125\U0001112C\U0001110C\U00011134\U00011107\U00011128"
     bs: Južnočeški kraj
     mk: Јужночешки крај
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -551,8 +608,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'32':
-  unofficial_names: 
   translations:
     ar: إقليم بلزن
     az: Plzen diyarı
@@ -608,6 +663,11 @@ ZL:
     sr_Latn: Plzenjski kraj
     ccp: "\U0001111B\U00011133\U00011123\U0001112C\U0001111A\U00011134\U00011125\U00011134\U00011107\U00011129"
     bs: Plzenjski kraj
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -615,8 +675,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'41':
-  unofficial_names: 
   translations:
     ar: إقليم كارلوفي فاري
     az: Karlovı Varı diyarı
@@ -673,6 +731,11 @@ ZL:
     ccp: "\U00011107\U00011122\U00011134\U00011123\U0001112E\U0001111E\U00011122\U00011134\U00011107\U00011129"
     bs: Karlovarski kraj
     mk: Карловарски крај
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -680,8 +743,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'42':
-  unofficial_names: 
   translations:
     ar: إقليم أوستي ناد لابم
     az: Ustetskiy diyarı
@@ -738,6 +799,11 @@ ZL:
     ccp: "\U00011105\U0001112A\U0001110C\U00011134\U00011111\U0001112C\U00011107\U00011129"
     bs: Ustečki kraj
     mk: Устечки крај
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -745,8 +811,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'51':
-  unofficial_names: 
   translations:
     ar: إقليم ليبيريتس
     az: Liberets diyarı
@@ -803,6 +867,11 @@ ZL:
     be: Ліберацкі край
     bs: Liberecki kraj
     mk: Либеречки крај
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -810,8 +879,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'52':
-  unofficial_names: 
   translations:
     ar: إقليم هرادتس كرالوفه
     az: Kraloveqradetskiy diyarı
@@ -868,6 +935,11 @@ ZL:
     ccp: "\U00011107\U00011133\U00011122\U00011123\U0001112E\U0001111E\U0001112C\U00011126\U00011134\U00011122\U00011113\U0001112C\U00011107\U00011128"
     bs: Kralovehradecki kraj
     mk: Краловохрадечки крај
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -875,8 +947,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'53':
-  unofficial_names: 
   translations:
     ar: إقليم باردوبيتسه
     az: Pardubitskiy diyarı
@@ -933,6 +1003,11 @@ ZL:
     ccp: "\U0001111B\U00011122\U00011134\U00011113\U0001112A\U0001111D\U0001112D\U00011107\U00011128"
     bs: Pardubički kraj
     mk: Пардубички крај
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -940,8 +1015,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'63':
-  unofficial_names: 
   translations:
     ar: إقليم فيسوتشنا
     az: Vısoçina diyarı
@@ -999,6 +1072,11 @@ ZL:
     ccp: "\U0001111E\U00011128\U00011125\U0001112E\U00011125\U00011128\U0001111A"
     bs: Visočinski kraj
     mk: Височински крај
+  comments: 
+'64': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1006,8 +1084,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'64':
-  unofficial_names: 
   translations:
     ar: محافظة مورافيا الجنوبية
     az: Cənubi Moraviya diyarı
@@ -1066,6 +1142,11 @@ ZL:
     hy: Հարավային Մորավիայի շրջան
     bs: Južnomoravski kraj
     mk: Јужноморавски крај
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1073,8 +1154,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'71':
-  unofficial_names: 
   translations:
     ar: إقليم أولوموتس
     az: Olomoutskiy diyarı
@@ -1131,6 +1210,11 @@ ZL:
     ccp: "\U00011103\U0001112E\U00011123\U0001112E\U0001111F\U0001112F\U00011107\U00011128"
     bs: Olomoucki kraj
     mk: Оломоучки крај
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1138,8 +1222,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'72':
-  unofficial_names: 
   translations:
     ar: إقليم زلين
     az: Zlin diyarı
@@ -1197,6 +1279,11 @@ ZL:
     hy: Զլինի երկրամաս
     bs: Zlinski kraj
     mk: Злински крај
+  comments: 
+'80': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1204,8 +1291,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'80':
-  unofficial_names: 
   translations:
     ar: إقليم مورافيا-سيليزيا
     az: Moraviya-Sileziya diyarı
@@ -1263,6 +1348,11 @@ ZL:
     ccp: "\U0001111F\U00011127\U00011122\U00011127\U0001111B\U00011134\U00011107\U0001112E\U0001110C\U00011134\U00011123\U0001112C\U0001110C\U00011134\U00011107\U00011128"
     bs: Moravskošleski kraj
     mk: Моравскошлески крај
+  comments: 
+'201': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1270,8 +1360,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'201':
-  unofficial_names: 
   translations:
     ar: مقاطعة بينيشوف
     be: раён Бенешаў
@@ -1309,6 +1397,11 @@ ZL:
     ccp: "\U0001111D\U0001112C\U0001111A\U0001112C\U00011125\U0001112E\U0001111B\U00011134"
     es: Distrito de Benešov
     eu: Benešoveko barrutia
+  comments: 
+'202': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1316,8 +1409,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'202':
-  unofficial_names: 
   translations:
     ar: مقاطعة بيرون
     bg: Бероун
@@ -1354,6 +1445,11 @@ ZL:
     uk: Бероун (округ)
     be: Бераўн
     mk: Бероун
+  comments: 
+'203': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1361,8 +1457,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'203':
-  unofficial_names: 
   translations:
     ar: مقاطعة كلادنو
     be: Кладна
@@ -1398,6 +1492,11 @@ ZL:
     zh: 克拉德諾縣
     ccp: "\U00011107\U00011133\U00011123\U00011116\U00011134\U0001111A\U0001112E"
     uk: Кладно
+  comments: 
+'204': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1405,8 +1504,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'204':
-  unofficial_names: 
   translations:
     ar: مقاطعة كولين
     bg: Колин
@@ -1441,6 +1538,11 @@ ZL:
     ccp: "\U00011107\U00011127\U00011123\U00011128\U0001111A\U00011134"
     eu: Kolíngo barrutia
     uk: Колін
+  comments: 
+'205': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1448,8 +1550,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'205':
-  unofficial_names: 
   translations:
     ar: مقاطعة كوتنا هورا
     bg: Кутна Хора
@@ -1486,6 +1586,11 @@ ZL:
     eu: Kutná Horako barrutia
     be: раён Кутна-Гора
     mk: Кутна Хора
+  comments: 
+'206': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1493,8 +1598,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'206':
-  unofficial_names: 
   translations:
     ar: مقاطعة منيلنيك
     be: Мельнік
@@ -1530,6 +1633,11 @@ ZL:
     ja: ムニェルニーク地区
     ccp: "\U0001111F\U0001112C\U00011123\U00011134\U0001111A\U00011128\U00011107\U00011134"
     es: Distrito de Mělník
+  comments: 
+'207': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1537,8 +1645,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'207':
-  unofficial_names: 
   translations:
     ar: مقاطعة ملادا بوليسلاف
     bg: Млада Болеслав
@@ -1574,6 +1680,11 @@ ZL:
     eu: Mladá Boleslaveko barrutia
     uk: Млада-Болеслав
     be: Млада Болеслаў
+  comments: 
+'208': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1581,8 +1692,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'208':
-  unofficial_names: 
   translations:
     ar: مقاطعة نيمبورك
     be: раён Німбурк
@@ -1616,6 +1725,11 @@ ZL:
     fa: شهرستان نیمبورک
     ccp: "\U0001111A\U00011128\U00011120\U0001111F\U00011134\U0001111D\U00011122\U00011133\U00011107\U00011134"
     es: Distrito de Nymburk
+  comments: 
+'209': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1623,8 +1737,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'209':
-  unofficial_names: 
   translations:
     ar: مقاطعة براغ-شرق
     bg: Прага-изток
@@ -1658,6 +1770,11 @@ ZL:
     es: Distrito de Praga-Este
     eu: Praga-Ekialdeko barrutia
     be: Прага-ўсход
+  comments: 
+'311': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1665,8 +1782,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'311':
-  unofficial_names: 
   translations:
     ar: مقاطعة تشيسكي بوديوفيتسه
     be: Раён Чэске-Будзеёвіцы
@@ -1703,6 +1818,11 @@ ZL:
     es: Distrito de České Budějovice
     eu: České Budějoviceko barrutia
     uk: Чеське Будейовіце (округ)
+  comments: 
+'312': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1710,8 +1830,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'312':
-  unofficial_names: 
   translations:
     ar: مقاطعة تشيسكي كروملوف
     bg: Чески Крумлов (окръг)
@@ -1749,6 +1867,11 @@ ZL:
     eu: Český Krumloveko barrutia
     uk: Чеський Крумлов
     be: раён Чэскі-Крумлаў
+  comments: 
+'313': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1756,8 +1879,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'313':
-  unofficial_names: 
   translations:
     ar: مقاطعة يندريخوف هرادتس
     bg: Индржихув Храдец (окръг)
@@ -1795,6 +1916,11 @@ ZL:
     es: Distrito de Jindřichův Hradec
     eu: Jindřichův Hradeceko barrutia
     uk: Їндржіхув Градець
+  comments: 
+'314': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1802,8 +1928,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'314':
-  unofficial_names: 
   translations:
     ar: مقاطعة بيسك
     bg: Писек
@@ -1839,6 +1963,11 @@ ZL:
     eu: Písekeko barrutia
     uk: Пісек
     be: Пісек
+  comments: 
+'315': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1846,8 +1975,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'315':
-  unofficial_names: 
   translations:
     ar: مقاطعة براخاتيتسه
     bg: Прахатице
@@ -1883,6 +2010,11 @@ ZL:
     eu: Prachaticeko barrutia
     uk: Прахатіце
     be: Прахаціцы
+  comments: 
+'316': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1890,8 +2022,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'316':
-  unofficial_names: 
   translations:
     ar: مقاطعة ستراكونيتسه
     bg: Страконице
@@ -1927,6 +2057,11 @@ ZL:
     es: Distrito de Strakonice
     eu: Strakoniceko barrutia
     uk: Страконіце
+  comments: 
+'317': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1934,8 +2069,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'317':
-  unofficial_names: 
   translations:
     ar: مقاطعة تابور
     be: Табар
@@ -1970,6 +2103,11 @@ ZL:
     es: Distrito de Tábor
     eu: Táborko barrutia
     uk: Табор
+  comments: 
+'321': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1977,8 +2115,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'321':
-  unofficial_names: 
   translations:
     ar: مقاطعة دوماجليتسه
     bg: Домажлице
@@ -2012,6 +2148,11 @@ ZL:
     eu: Domažliceko barrutia
     pt: Domažlice (distrito)
     uk: Домажліце
+  comments: 
+'322': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2019,8 +2160,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'322':
-  unofficial_names: 
   translations:
     ar: مقاطعة كلاتوفي
     be: раён Клатаві
@@ -2055,6 +2194,11 @@ ZL:
     ccp: "\U00011107\U00011133\U00011123\U00011111\U0001112E\U0001111E\U00011128"
     eu: Klatovyko barrutia
     uk: Клатови
+  comments: 
+'323': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2062,8 +2206,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'323':
-  unofficial_names: 
   translations:
     ar: مقاطعة بلزن-المدينة
     be: акруга Пльзень-горад
@@ -2093,6 +2235,11 @@ ZL:
     ccp: "\U0001111B\U00011133\U00011123\U0001110E\U0001112C\U0001111A\U00011134"
     es: Distrito de Ciudad de Pilsen
     uk: Пльзень-місто
+  comments: 
+'324': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2100,8 +2247,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'324':
-  unofficial_names: 
   translations:
     ar: مقاطعة بلزن-جنوب
     bg: Пилзен-юг
@@ -2132,6 +2277,11 @@ ZL:
     es: Distrito de Pilsen Sur
     eu: Plzeň-Hegoaldea barrutia
     uk: Пльзень-південь
+  comments: 
+'325': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2139,8 +2289,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'325':
-  unofficial_names: 
   translations:
     ar: مقاطعة بلزن-شمال
     bg: Пилзен-север
@@ -2170,6 +2318,11 @@ ZL:
     es: Distrito de Pilsen Norte
     eu: Plzeň-Iparraldeko barrutia
     uk: Пльзень-північ
+  comments: 
+'326': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2177,8 +2330,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'326':
-  unofficial_names: 
   translations:
     ar: مقاطعة روكيتساني
     bg: Рокицани
@@ -2212,6 +2363,11 @@ ZL:
     es: Distrito de Rokycany
     eu: Rokycanyko barrutia
     uk: Рокицани
+  comments: 
+'327': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2219,8 +2375,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'327':
-  unofficial_names: 
   translations:
     ar: مقاطعة تاخوف
     bg: Тахов
@@ -2255,6 +2409,11 @@ ZL:
     es: Distrito de Tachov
     eu: Tachoveko barrutia
     uk: Тахов
+  comments: 
+'411': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2262,8 +2421,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'411':
-  unofficial_names: 
   translations:
     ar: مقاطعة خب
     be: Хеб
@@ -2300,6 +2457,11 @@ ZL:
     eu: Chebeko barrutia
     uk: округ Хеб
     mk: Хеб
+  comments: 
+'412': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2307,8 +2469,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'412':
-  unofficial_names: 
   translations:
     ar: مقاطعة كارلوفي فاري
     be: Раён Карлавы Вары
@@ -2343,6 +2503,11 @@ ZL:
     es: Distrito de Karlovy Vary
     eu: Karlovy Varyko barrutia
     uk: Округ Карлові Вари
+  comments: 
+'413': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2350,8 +2515,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'413':
-  unofficial_names: 
   translations:
     ar: مقاطعة سوكولوف
     bg: Соколов
@@ -2386,6 +2549,11 @@ ZL:
     es: Distrito de Sokolov
     eu: Sokoloveko barrutia
     uk: Соколов
+  comments: 
+'421': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2393,8 +2561,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'421':
-  unofficial_names: 
   translations:
     ar: مقاطعة ديتشين
     bg: Дечин
@@ -2429,6 +2595,11 @@ ZL:
     eu: Děčíngo barrutia
     uk: Дечин
     be: Дзечын
+  comments: 
+'422': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2436,8 +2607,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'422':
-  unofficial_names: 
   translations:
     ar: مقاطعة خوموتوف
     bg: Хомутов
@@ -2471,6 +2640,11 @@ ZL:
     ccp: "\U00011107\U0001112E\U0001111F\U0001112A\U00011111\U00011127\U0001111B\U00011134"
     es: Distrito de Chomutov
     eu: Chomutoveko barrutia
+  comments: 
+'423': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2478,8 +2652,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'423':
-  unofficial_names: 
   translations:
     ar: مقاطعة ليتوميريتسه
     be: Літамержыцэ
@@ -2514,6 +2686,11 @@ ZL:
     es: Distrito de Litoměřice
     eu: Litoměřiceko barrutia
     uk: Літомержице
+  comments: 
+'424': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2521,8 +2698,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'424':
-  unofficial_names: 
   translations:
     ar: مقاطعة لوني
     be: раён Лоўні
@@ -2557,6 +2732,11 @@ ZL:
     ccp: "\U00011123\U00011105\U0001112A\U0001111A\U00011128"
     eu: Lounyko barrutia
     uk: Лоуни
+  comments: 
+'425': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2564,8 +2744,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'425':
-  unofficial_names: 
   translations:
     ar: مقاطعة موست
     bg: Мост
@@ -2597,6 +2775,11 @@ ZL:
     ccp: "\U0001111F\U0001112E\U00011125\U00011133\U00011111\U00011134"
     es: Distrito de Most
     uk: Мост
+  comments: 
+'426': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2604,8 +2787,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'426':
-  unofficial_names: 
   translations:
     ar: مقاطعة تبليتسه
     be: Цепліцы
@@ -2639,6 +2820,11 @@ ZL:
     ccp: "\U00011111\U0001112C\U0001111B\U00011134\U00011123\U0001112D\U0001110C\U00011134"
     es: Distrito de Teplice
     uk: Тепліце
+  comments: 
+'427': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2646,8 +2832,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'427':
-  unofficial_names: 
   translations:
     ar: مقاطعة أوستي ناد لابم
     bg: Усти над Лабе
@@ -2680,6 +2864,11 @@ ZL:
       \U00011123\U0001111D\U0001112C\U0001111F\U00011134"
     es: Distrito de Ústí nad Labem
     be: Усці-над-Лабем
+  comments: 
+'511': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2687,8 +2876,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'511':
-  unofficial_names: 
   translations:
     ar: مقاطعة تشيسكا ليبا
     bg: Ческа Липа
@@ -2721,6 +2908,11 @@ ZL:
     ccp: "\U00011107\U0001112C\U0001110C\U00011134\U00011107 \U00011123\U00011128\U0001111B"
     es: Distrito de Česká Lípa
     uk: Чеська Липа
+  comments: 
+'512': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2728,8 +2920,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'512':
-  unofficial_names: 
   translations:
     ar: مقاطعة يابلونتس ناد نيسو
     bg: Яблонец над Ниса
@@ -2764,6 +2954,11 @@ ZL:
     es: Distrito de Jablonec nad Nisou
     eu: Jablonec nad Nisouko barrutia
     uk: Яблонець-над-Нисою
+  comments: 
+'513': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2771,8 +2966,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'513':
-  unofficial_names: 
   translations:
     ar: مقاطعة ليبيريتس
     bg: Либерец
@@ -2806,6 +2999,11 @@ ZL:
     ccp: "\U00011123\U00011128\U0001111D\U00011122\U0001112C\U00011107\U00011134"
     es: Distrito de Liberec
     uk: округ Ліберець
+  comments: 
+'514': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2813,8 +3011,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'514':
-  unofficial_names: 
   translations:
     ar: مقاطعة سيميلي
     bg: Семили
@@ -2849,6 +3045,11 @@ ZL:
     eu: Semilyko barrutia
     uk: Семіли
     be: раён Семілі
+  comments: 
+'521': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2856,8 +3057,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'521':
-  unofficial_names: 
   translations:
     ar: مقاطعة هرادتس كرالوفه
     be: раён Градзец-Кралавэ
@@ -2893,6 +3092,11 @@ ZL:
     es: Distrito de Hradec Králové
     eu: Hradec Královéko barrutia
     uk: Градець-Кралове
+  comments: 
+'522': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2900,8 +3104,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'522':
-  unofficial_names: 
   translations:
     ar: مقاطعة يتشين
     bg: Ичин
@@ -2935,6 +3137,11 @@ ZL:
     es: Distrito de Jičín
     eu: Jičíngo barrutia
     uk: Їчін
+  comments: 
+'523': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2942,8 +3149,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'523':
-  unofficial_names: 
   translations:
     ar: مقاطعة ناخود
     bg: Наход
@@ -2978,6 +3183,11 @@ ZL:
     da: Náchod
     eu: Náchodeko barrutia
     uk: Наход
+  comments: 
+'524': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2985,8 +3195,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'524':
-  unofficial_names: 
   translations:
     ar: مقاطعة ريخنوف ناد كنيجنو
     be: раён Рыхнаў над Кнежнау
@@ -3022,6 +3230,11 @@ ZL:
     es: Distrito de Rychnov nad Kněžnou
     eu: Rychnov nad Kněžnouko barrutia
     uk: Рихнов-над-Кнєжной
+  comments: 
+'525': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3029,8 +3242,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'525':
-  unofficial_names: 
   translations:
     ar: مقاطعة ترتنوف
     bg: Трутнов
@@ -3067,6 +3278,11 @@ ZL:
     eu: Trutnoveko barrutia
     uk: Трутнов
     be: раён Трутнаў
+  comments: 
+'531': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3074,8 +3290,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'531':
-  unofficial_names: 
   translations:
     ar: مقاطعة خروديم
     be: Хрудзім
@@ -3110,6 +3324,11 @@ ZL:
     ccp: "\U00011107\U00011133\U00011122\U0001112A\U00011113\U00011128\U0001111F\U00011134"
     es: Distrito de Chrudim
     uk: Хрудім
+  comments: 
+'532': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3117,8 +3336,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'532':
-  unofficial_names: 
   translations:
     ar: مقاطعة باردوبيتسه
     be: раён Пардубіцы
@@ -3154,6 +3371,11 @@ ZL:
     es: Distrito de Pardubice
     eu: Pardubiceko barrutia
     uk: Пардубице
+  comments: 
+'533': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3161,8 +3383,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'533':
-  unofficial_names: 
   translations:
     ar: مقاطعة سفيتافي
     be: раён Світаві
@@ -3199,6 +3419,11 @@ ZL:
     es: Distrito de Svitavy
     eu: Svitavyko barrutia
     uk: Світави
+  comments: 
+'534': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3206,8 +3431,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'534':
-  unofficial_names: 
   translations:
     ar: مقاطعة أوستي ناد أورليتسي
     bg: Усти над Орлици
@@ -3245,6 +3468,11 @@ ZL:
     eu: Ústí nad Orlicíko barrutia
     uk: Усті-над-Орлиццю
     be: Усці-над-Орліцай
+  comments: 
+'631': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3252,8 +3480,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'631':
-  unofficial_names: 
   translations:
     ar: مقاطعة هافليتشكوف برود
     be: раён Гаўлічкаў Брод
@@ -3290,6 +3516,11 @@ ZL:
     es: Distrito de Havlíčkův Brod
     eu: Havlíčkův Brodeko barrutia
     uk: Гавличкув-Брод
+  comments: 
+'632': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3297,8 +3528,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'632':
-  unofficial_names: 
   translations:
     ar: مقاطعة يهلافا
     be: Раён Йіглава
@@ -3336,6 +3565,11 @@ ZL:
     es: Distrito de Jihlava
     eu: Jihlavako barrutia
     uk: Їглава
+  comments: 
+'633': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3343,8 +3577,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'633':
-  unofficial_names: 
   translations:
     ar: مقاطعة بلهريموف
     be: Пельгржымаў
@@ -3381,6 +3613,11 @@ ZL:
     ccp: "\U0001111B\U0001112C\U00011123\U00011134\U00011126\U00011133\U00011122\U00011128\U0001111F\U0001112E\U0001111B\U00011134"
     eu: Pelhřimoveko barrutia
     uk: Пельгржимов
+  comments: 
+'634': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3388,8 +3625,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'634':
-  unofficial_names: 
   translations:
     ar: مقاطعة تربيتش
     bg: Тршебич
@@ -3427,6 +3662,11 @@ ZL:
     eu: Třebíčeko barrutia
     uk: Тршебич
     be: раён Тршэбіч
+  comments: 
+'635': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3434,8 +3674,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'635':
-  unofficial_names: 
   translations:
     ar: مقاطعة جديار ناد سازافو
     bg: Ждяр над Сазавоу
@@ -3471,6 +3709,11 @@ ZL:
     eu: Žďár nad Sázavouko barrutia
     pt: Žďár nad Sázavou (distrito)
     uk: Ждяр-над-Сазавою
+  comments: 
+'641': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3478,8 +3721,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'641':
-  unofficial_names: 
   translations:
     ar: مقاطعة بلانسكو
     be: Раён Бланска
@@ -3516,6 +3757,11 @@ ZL:
     es: Distrito de Blansko
     eu: Blanskoko barrutia
     uk: Бланско
+  comments: 
+'642': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3523,8 +3769,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'642':
-  unofficial_names: 
   translations:
     ar: مقاطعة برنو-المدينة
     be: Брно-горад
@@ -3553,6 +3797,11 @@ ZL:
     ccp: "\U0001111D\U00011133\U00011122\U0001111A\U0001112E-\U0001111F\U0001112C\U0001110C\U00011134\U00011111\U0001112E"
     uk: Брно-місто
     mk: Брно-град
+  comments: 
+'643': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3560,8 +3809,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'643':
-  unofficial_names: 
   translations:
     ar: مقاطعة برنو-الريف
     be: Брно-прыгарад
@@ -3597,6 +3844,11 @@ ZL:
     eu: Brno-Landako barrutia
     uk: Брно-околиця
     mk: Брно-предградие
+  comments: 
+'644': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3604,8 +3856,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'644':
-  unofficial_names: 
   translations:
     ar: مقاطعة بريتسلاف
     be: Раён Бржэцлаў
@@ -3642,6 +3892,11 @@ ZL:
     es: Distrito de Břeclav
     eu: Břeclaveko barrutia
     uk: Бржецлав
+  comments: 
+'645': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3649,8 +3904,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'645':
-  unofficial_names: 
   translations:
     ar: مقاطعة هودونين
     bg: Ходонин
@@ -3685,6 +3938,11 @@ ZL:
     es: Distrito de Hodonín
     eu: Hodoníngo barrutia
     uk: Годонін
+  comments: 
+'646': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3692,8 +3950,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'646':
-  unofficial_names: 
   translations:
     ar: مقاطعة فيشكوف
     be: Раён Вішкаў
@@ -3727,6 +3983,11 @@ ZL:
     ccp: "\U0001111E\U00011128\U0001110C\U00011134\U00011107\U00011127\U0001111B\U00011134"
     es: Distrito de Vyškov
     uk: Вишков
+  comments: 
+'647': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3734,8 +3995,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'647':
-  unofficial_names: 
   translations:
     ar: مقاطعة زنويمو
     be: Раён Знойма
@@ -3769,6 +4028,11 @@ ZL:
     es: Distrito de Znojmo
     eu: Znojmoko barrutia
     uk: Зноймо
+  comments: 
+'711': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3776,8 +4040,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'711':
-  unofficial_names: 
   translations:
     ar: مقاطعة يسينيك
     bg: Есеник
@@ -3812,6 +4074,11 @@ ZL:
     es: Distrito de Jeseník
     eu: Jeseníkeko barrutia
     uk: Єсенік
+  comments: 
+'712': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3819,8 +4086,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'712':
-  unofficial_names: 
   translations:
     ar: مقاطعة أولوموتس
     bg: Оломоуц
@@ -3856,6 +4121,11 @@ ZL:
     eu: Olomouceko barrutia
     uk: Оломоуц
     be: Оламаўц
+  comments: 
+'713': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3863,8 +4133,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'713':
-  unofficial_names: 
   translations:
     ar: مقاطعة بروستيوف
     bg: Простейов
@@ -3901,6 +4169,11 @@ ZL:
     eu: Prostějoveko barrutia
     uk: Простейов
     be: Просцеёў
+  comments: 
+'714': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3908,8 +4181,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'714':
-  unofficial_names: 
   translations:
     ar: مقاطعة برشيروف
     be: раён Пршэраў
@@ -3945,6 +4216,11 @@ ZL:
     ccp: "\U0001111B\U00011133\U00011122\U0001112C\U00011122\U00011127\U0001111B\U00011134"
     es: Distrito de Přerov
     uk: Пршеров
+  comments: 
+'715': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3952,8 +4228,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'715':
-  unofficial_names: 
   translations:
     ar: مقاطعة شومبيرك
     bg: Шумперк
@@ -3987,6 +4261,11 @@ ZL:
     es: Distrito de Šumperk
     pt: Šumperk (distrito)
     uk: Шумперк
+  comments: 
+'721': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3994,8 +4273,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'721':
-  unofficial_names: 
   translations:
     ar: مقاطعة كروميشريش
     bg: Кромержиж (окръг)
@@ -4032,6 +4309,11 @@ ZL:
     es: Distrito de Kroměříž
     eu: Kroměřížko barrutia
     be: Кромержыж
+  comments: 
+'722': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4039,8 +4321,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'722':
-  unofficial_names: 
   translations:
     ar: مقاطعة أوهرسكه هراديشتيه
     bg: Ухерске Храдище
@@ -4076,6 +4356,11 @@ ZL:
     es: Distrito de Uherské Hradiště
     eu: Uherské Hradištěko barrutia
     uk: Угерске Градіште
+  comments: 
+'723': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4083,8 +4368,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'723':
-  unofficial_names: 
   translations:
     ar: مقاطعة فسيتين
     be: раён Усецін
@@ -4119,6 +4402,11 @@ ZL:
     fa: شهرستان وستین
     ccp: "\U0001111E\U00011128\U00011125\U0001112C\U00011111\U00011128\U0001111A\U00011134"
     es: Distrito de Vsetín
+  comments: 
+'724': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4126,8 +4414,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'724':
-  unofficial_names: 
   translations:
     ar: مقاطعة زلين
     be: Злін
@@ -4164,6 +4450,11 @@ ZL:
     es: Distrito de Zlín
     ro: Districtul Zlín
     uk: Злін
+  comments: 
+'801': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4171,8 +4462,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'801':
-  unofficial_names: 
   translations:
     ar: مقاطعة برونتال
     bg: Брунтал
@@ -4205,6 +4494,11 @@ ZL:
     es: Distrito de Bruntál
     eu: Bruntálgo barrutia
     uk: Округ Брунталь
+  comments: 
+'802': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4212,8 +4506,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'802':
-  unofficial_names: 
   translations:
     ar: مقاطعة فريدك-ميستك
     bg: Фридек-Мистек
@@ -4249,6 +4541,11 @@ ZL:
     ro: Okresul Frýdek-Místek
     eu: Frýdek-Místekeko barrutia
     uk: Фридек-Містек
+  comments: 
+'803': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4256,8 +4553,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'803':
-  unofficial_names: 
   translations:
     ar: مقاطعة كارفينا
     be: раён Карвіна
@@ -4292,6 +4587,11 @@ ZL:
     es: Distrito de Karviná
     eu: Karvináko barrutia
     uk: Карвіна
+  comments: 
+'804': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4299,8 +4599,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'804':
-  unofficial_names: 
   translations:
     ar: مقاطعة نوفي يتشين
     be: Новы-Йічын
@@ -4336,6 +4634,11 @@ ZL:
     es: Distrito de Nový Jičín
     eu: Nový Jičíngo barrutia
     uk: Новий Їчин
+  comments: 
+'805': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4343,8 +4646,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'805':
-  unofficial_names: 
   translations:
     ar: مقاطعة أوبافا
     bg: Опава
@@ -4380,6 +4681,11 @@ ZL:
     es: Distrito de Opava
     uk: Опава
     be: раён Опава
+  comments: 
+'806': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4387,8 +4693,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'806':
-  unofficial_names: 
   translations:
     ar: مقاطعة أوسترافا-المدينة
     bg: Острава-град
@@ -4420,6 +4724,11 @@ ZL:
     es: Distrito de Ostrava
     uk: Острава-місто
     be: Острава-горад
+  comments: 
+'101': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4427,8 +4736,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'101':
-  unofficial_names: 
   translations:
     be: Прага 1
     cs: Praha 1
@@ -4448,6 +4755,11 @@ ZL:
     ur: پراگ 1
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137"
     fr: Prague 1
+  comments: 
+'102': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4455,8 +4767,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'102':
-  unofficial_names: 
   translations:
     be: Прага 2
     cs: Praha 2
@@ -4476,6 +4786,11 @@ ZL:
     ur: پراگ 2
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138"
     he: פראג 2
+  comments: 
+'103': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4483,8 +4798,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'103':
-  unofficial_names: 
   translations:
     be: Прага 3
     cs: Praha 3
@@ -4500,6 +4813,11 @@ ZL:
     sv: Praha 3
     ur: پراگ 3
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011139"
+  comments: 
+'113': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4507,8 +4825,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'113':
-  unofficial_names: 
   translations:
     ca: Praga 13
     cs: Praha 13
@@ -4525,6 +4841,11 @@ ZL:
     sv: Praha 13
     ur: پراگ 13
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011139"
+  comments: 
+'104': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4532,8 +4853,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'104':
-  unofficial_names: 
   translations:
     cs: Praha 4
     de: Prag 4
@@ -4550,6 +4869,11 @@ ZL:
     sv: Praha 4
     ur: پراگ 4
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113A"
+  comments: 
+'105': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4557,8 +4881,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'105':
-  unofficial_names: 
   translations:
     cs: Praha 5
     de: Prag 5
@@ -4574,6 +4896,11 @@ ZL:
     sv: Praha 5
     ur: پراگ 5
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113B"
+  comments: 
+'106': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4581,8 +4908,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'106':
-  unofficial_names: 
   translations:
     cs: Praha 6
     de: Prag 6
@@ -4599,6 +4924,11 @@ ZL:
     uk: Прага 6
     ur: پراگ 6
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113C"
+  comments: 
+'107': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4606,8 +4936,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'107':
-  unofficial_names: 
   translations:
     cs: Praha 7
     de: Prag 7
@@ -4624,6 +4952,11 @@ ZL:
     ur: پراگ 7
     zh: 布拉格第七區
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113D"
+  comments: 
+'108': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4631,8 +4964,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'108':
-  unofficial_names: 
   translations:
     cs: Praha 8
     de: Prag 8
@@ -4648,6 +4979,11 @@ ZL:
     sv: Praha 8
     ur: پراگ 8
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113E"
+  comments: 
+'109': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4655,8 +4991,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'109':
-  unofficial_names: 
   translations:
     cs: Praha 9
     de: Prag 9
@@ -4672,6 +5006,11 @@ ZL:
     sv: Praha 9
     ur: پراگ 9
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U0001113F"
+  comments: 
+'110': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4679,8 +5018,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'110':
-  unofficial_names: 
   translations:
     cs: Praha 10
     de: Prag 10
@@ -4696,6 +5033,11 @@ ZL:
     sv: Praha 10
     ur: پراگ 10
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011136"
+  comments: 
+'111': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4703,8 +5045,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'111':
-  unofficial_names: 
   translations:
     cs: Praha 11
     de: Prag 11
@@ -4717,6 +5057,11 @@ ZL:
     sv: Praha 11
     ur: پراگ 11
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011137"
+  comments: 
+'112': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4724,8 +5069,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'112':
-  unofficial_names: 
   translations:
     cs: Praha 12
     de: Prag 12
@@ -4738,6 +5081,11 @@ ZL:
     sv: Praha 12
     ur: پراگ 12
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U00011138"
+  comments: 
+'114': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4745,8 +5093,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'114':
-  unofficial_names: 
   translations:
     cs: Praha 14
     de: Prag 14
@@ -4759,6 +5105,11 @@ ZL:
     sv: Praha 14
     ur: پراگ 14
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113A"
+  comments: 
+'115': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4766,8 +5117,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'115':
-  unofficial_names: 
   translations:
     cs: Praha 15
     de: Prag 15
@@ -4781,6 +5130,11 @@ ZL:
     ur: پراگ 15
     zh: 布拉格15区
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113B"
+  comments: 
+'116': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4788,8 +5142,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'116':
-  unofficial_names: 
   translations:
     cs: Radotín
     de: Prag 16
@@ -4803,6 +5155,11 @@ ZL:
     sk: Radotín
     sv: Praha 16
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113C"
+  comments: 
+'117': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4810,8 +5167,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'117':
-  unofficial_names: 
   translations:
     cs: Praha 17
     en: Prague 17
@@ -4821,6 +5176,11 @@ ZL:
     sk: Praha 17
     sv: Praha 17
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113D"
+  comments: 
+'118': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4828,8 +5188,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'118':
-  unofficial_names: 
   translations:
     cs: Praha 18
     en: Prague 18
@@ -4839,6 +5197,11 @@ ZL:
     sk: Praha 18
     sv: Praha 18
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113E"
+  comments: 
+'119': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4846,8 +5209,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'119':
-  unofficial_names: 
   translations:
     cs: Praha 19
     de: Prag 19
@@ -4856,6 +5217,11 @@ ZL:
     sk: Praha 19
     sv: Kbely
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011137\U0001113F"
+  comments: 
+'120': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4863,8 +5229,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'120':
-  unofficial_names: 
   translations:
     cs: Horní Počernice
     de: Prag 20
@@ -4876,6 +5240,11 @@ ZL:
     fr: Horní Počernice
     hy: Պրահա 20
     sk: Horní Počernice
+  comments: 
+'121': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4883,8 +5252,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'121':
-  unofficial_names: 
   translations:
     cs: Újezd nad Lesy
     de: Prag 21
@@ -4898,6 +5265,11 @@ ZL:
     sk: Újezd nad Lesy
     sv: Praha 21
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138\U00011137"
+  comments: 
+'122': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4905,8 +5277,6 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'122':
-  unofficial_names: 
   translations:
     cs: Praha 22
     de: Prag 22
@@ -4918,6 +5288,11 @@ ZL:
     sk: Praha 22
     sv: Praha 22
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C-\U00011138\U00011138"
+  comments: 
+10A: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4925,11 +5300,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10A:
-  unofficial_names: 
   translations:
     en: Prague 10
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011136"
+  comments: 
+10B: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4937,11 +5315,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10B:
-  unofficial_names: 
   translations:
     en: Prague 11
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011137"
+  comments: 
+10C: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4949,11 +5330,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10C:
-  unofficial_names: 
   translations:
     en: Prague 12
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011138"
+  comments: 
+10D: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4961,11 +5345,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10D:
-  unofficial_names: 
   translations:
     en: Prague 13²
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U00011139"
+  comments: 
+10E: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4973,11 +5360,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10E:
-  unofficial_names: 
   translations:
     en: Prague 14
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U0001113A"
+  comments: 
+10F: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4985,11 +5375,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-10F:
-  unofficial_names: 
   translations:
     en: Prague 15²
     ccp: "\U0001111B\U00011133\U00011122\U00011109\U0001112A\U00011120\U0001112C \U00011137\U0001113B"
+  comments: 
+'611': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4997,12 +5390,15 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'611':
-  unofficial_names: 
   translations:
     en: Havlíčkův Brod
     ccp: "\U00011126\U0001111B\U00011134\U00011123\U00011128\U00011107\U00011134\U00011107\U0001112A\U0001111B\U00011134
       \U0001111D\U00011133\U00011122\U0001112E\U00011116\U00011134"
+  comments: 
+'612': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5010,11 +5406,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'612':
-  unofficial_names: 
   translations:
     en: Jihlava²
     ccp: "\U0001110E\U00011128\U00011126\U00011134\U00011123\U0001111B\U00011134"
+  comments: 
+'613': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5022,11 +5421,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'613':
-  unofficial_names: 
   translations:
     en: Pelhřimov²
     ccp: "\U0001111B\U0001112C\U00011118\U00011126\U00011133\U00011122\U00011128\U0001111F\U0001112E\U0001111B\U00011134"
+  comments: 
+'614': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5034,11 +5436,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'614':
-  unofficial_names: 
   translations:
     en: Třebíč
     ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111D\U00011128\U00011107\U00011134"
+  comments: 
+'615': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5046,11 +5451,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'615':
-  unofficial_names: 
   translations:
     en: Žďár nad Sázavou
     ccp: "\U00011113\U00011122\U00011134 \U0001111A\U00011116\U00011134 \U00011125\U0001110E\U0001111E\U0001112E\U00011105\U0001112A"
+  comments: 
+'621': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5058,11 +5466,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'621':
-  unofficial_names: 
   translations:
     en: Blansko
     ccp: "\U0001111D\U00011133\U00011123\U0001111A\U00011134\U00011107\U0001112E"
+  comments: 
+'622': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5070,11 +5481,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'622':
-  unofficial_names: 
   translations:
     en: Brno
     ccp: "\U0001111D\U00011133\U00011122\U0001111A\U0001112E"
+  comments: 
+'623': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5082,11 +5496,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'623':
-  unofficial_names: 
   translations:
     en: Brno-venkov
     ccp: "\U0001111D\U00011133\U00011122\U0001111A\U0001112E-\U0001111E\U0001112C\U0001111A\U00011134\U00011107\U0001112E\U0001111B\U00011134"
+  comments: 
+'624': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5094,11 +5511,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'624':
-  unofficial_names: 
   translations:
     en: Břeclav
     ccp: "\U0001111D\U00011133\U00011122\U0001112C\U00011107\U00011133\U00011123\U0001111B\U00011134"
+  comments: 
+'625': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5106,11 +5526,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'625':
-  unofficial_names: 
   translations:
     en: Hodonín²
     ccp: "\U00011126\U0001112E\U00011113\U0001112E\U0001111A\U00011128\U0001111A\U00011134"
+  comments: 
+'626': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5118,11 +5541,14 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'626':
-  unofficial_names: 
   translations:
     en: Vyškov²
     ccp: "\U0001111E\U00011128\U0001110C\U00011134\U00011107\U0001112E\U0001111B\U00011134"
+  comments: 
+'627': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5130,15 +5556,7 @@ ZL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'627':
-  unofficial_names: 
   translations:
     en: Znojmo
     ccp: "\U0001111A\U0001112E\U0001110C\U00011134\U0001111F\U0001112E"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

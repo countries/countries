@@ -1,6 +1,15 @@
 ---
-BA:
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Batha
+  code: 
   unofficial_names: Batha
+  geo:
+    latitude: 13.9371775
+    longitude: 18.4276047
+    min_latitude: 12.1039549
+    min_longitude: 16.9447559
+    max_latitude: 16.076306
+    max_longitude: 20.3562929
   translations:
     en: Batha
     ar: منطقة البطحة
@@ -45,18 +54,11 @@ BA:
     ceb: Batha Region
     ccp: "\U0001111D\U00011117"
     ka: ბათის რეგიონი
-  geo:
-    latitude: 13.9371775
-    longitude: 18.4276047
-    min_latitude: 12.1039549
-    min_longitude: 16.9447559
-    max_latitude: 16.076306
-    max_longitude: 20.3562929
-  name: Batha
-BET:
+  comments: 
+BET: !ruby/struct:ISO3166::Subdivision
+  name: Borkou-Ennedi-Tibesti
+  code: 
   unofficial_names: Borkou-Ennedi-Tibesti
-  translations:
-    en: Borkou-Ennedi-Tibesti
   geo:
     latitude: 17.8688845
     longitude: 18.8076195
@@ -64,9 +66,20 @@ BET:
     min_longitude: 15.505546
     max_latitude: 22.064452
     max_longitude: 21.02631
-  name: Borkou-Ennedi-Tibesti
-CB:
+  translations:
+    en: Borkou-Ennedi-Tibesti
+  comments: 
+CB: !ruby/struct:ISO3166::Subdivision
+  name: Chari-Baguirmi
+  code: 
   unofficial_names: Chari-Baguirmi
+  geo:
+    latitude: 11.2564207
+    longitude: 16.1580937
+    min_latitude: 9.802192
+    min_longitude: 14.8912919
+    max_latitude: 12.379939
+    max_longitude: 17.506004
   translations:
     en: Chari-Baguirmi
     ar: منطقة كانم
@@ -112,16 +125,18 @@ CB:
     ka: შარი-ბაგირმის რეგიონი
     he: צ׳ארי-בגוירמי
     uk: Регіон Шарі-Багірмі
-  geo:
-    latitude: 11.2564207
-    longitude: 16.1580937
-    min_latitude: 9.802192
-    min_longitude: 14.8912919
-    max_latitude: 12.379939
-    max_longitude: 17.506004
-  name: Chari-Baguirmi
-GR:
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Guéra
+  code: 
   unofficial_names: Guéra
+  geo:
+    latitude: 11.1219015
+    longitude: 18.4276047
+    min_latitude: 9.8482861
+    min_longitude: 17.2903469
+    max_latitude: 12.990278
+    max_longitude: 20.192167
   translations:
     en: Guéra
     ar: منطقة قيرا
@@ -166,16 +181,18 @@ GR:
     ccp: "\U00011109\U0001112A\U00011120\U0001112C\U00011122"
     ka: გერის რეგიონი
     uk: Регіон Мбарара
-  geo:
-    latitude: 11.1219015
-    longitude: 18.4276047
-    min_latitude: 9.8482861
-    min_longitude: 17.2903469
-    max_latitude: 12.990278
-    max_longitude: 20.192167
-  name: Guéra
-HL:
+  comments: 
+HL: !ruby/struct:ISO3166::Subdivision
+  name: Hadjer Lamis
+  code: 
   unofficial_names: Hadjer Lamis
+  geo:
+    latitude: 12.4577273
+    longitude: 16.7234639
+    min_latitude: 11.4313499
+    min_longitude: 14.550512
+    max_latitude: 13.3501059
+    max_longitude: 17.6553859
   translations:
     en: Hadjer-Lamis
     ar: منطقة حجر لميس
@@ -219,16 +236,18 @@ HL:
     ccp: "\U00011126\U00011116\U00011134\U0001110E\U0001112C\U00011122\U00011134-\U00011123\U0001111F\U00011128\U0001110C\U00011134"
     ka: ჰაჯერ-ლამისის რეგიონი
     uk: Регіон Гаджер-Ламіс
-  geo:
-    latitude: 12.4577273
-    longitude: 16.7234639
-    min_latitude: 11.4313499
-    min_longitude: 14.550512
-    max_latitude: 13.3501059
-    max_longitude: 17.6553859
-  name: Hadjer Lamis
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Kanem
+  code: 
   unofficial_names: Kanem
+  geo:
+    latitude: 14.8781262
+    longitude: 15.4068079
+    min_latitude: 13.117372
+    min_longitude: 13.633162
+    max_latitude: 16.8978711
+    max_longitude: 16.7248479
   translations:
     en: Kanem
     ar: منطقة كانم²
@@ -273,16 +292,18 @@ KA:
     ccp: "\U00011107\U0001111A\U0001112C\U0001111F\U00011134"
     ka: კანემის რეგიონი
     uk: Регіон Канем
-  geo:
-    latitude: 14.8781262
-    longitude: 15.4068079
-    min_latitude: 13.117372
-    min_longitude: 13.633162
-    max_latitude: 16.8978711
-    max_longitude: 16.7248479
-  name: Kanem
-LC:
+  comments: 
+LC: !ruby/struct:ISO3166::Subdivision
+  name: Lac
+  code: 
   unofficial_names: Lac
+  geo:
+    latitude: 13.6915377
+    longitude: 14.1001326
+    min_latitude: 12.9456311
+    min_longitude: 13.4734749
+    max_latitude: 14.5104809
+    max_longitude: 15.5492499
   translations:
     en: Lac
     ar: منطقة البحيرة
@@ -326,16 +347,18 @@ LC:
     ccp: "\U00011123\U0001112C\U00011107\U00011134"
     ka: ლაკის რეგიონი
     uk: Регіон Лак
-  geo:
-    latitude: 13.6915377
-    longitude: 14.1001326
-    min_latitude: 12.9456311
-    min_longitude: 13.4734749
-    max_latitude: 14.5104809
-    max_longitude: 15.5492499
-  name: Lac
-LO:
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: Logone-Occidental
+  code: 
   unofficial_names: Logone-Occidental
+  geo:
+    latitude: 8.759675999999999
+    longitude: 15.876004
+    min_latitude: 8.244755
+    min_longitude: 15.2746969
+    max_latitude: 9.208981999999999
+    max_longitude: 16.5759211
   translations:
     en: Logone Occidental
     ar: منطقة لوقون الغربي
@@ -378,16 +401,18 @@ LO:
     zh: 西洛貢區
     ccp: "\U00011123\U00011127\U00011109\U0001112E\U0001111A\U00011134 \U00011103\U00011127\U00011107\U00011134\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     ka: დასავლეთი ლოგონის რეგიონი
-  geo:
-    latitude: 8.759675999999999
-    longitude: 15.876004
-    min_latitude: 8.244755
-    min_longitude: 15.2746969
-    max_latitude: 9.208981999999999
-    max_longitude: 16.5759211
-  name: Logone-Occidental
-LR:
+  comments: 
+LR: !ruby/struct:ISO3166::Subdivision
+  name: Logone-Oriental
+  code: 
   unofficial_names: Logone-Oriental
+  geo:
+    latitude: 8.3149949
+    longitude: 16.3463791
+    min_latitude: 7.4410681
+    min_longitude: 15.230739
+    max_latitude: 9.115038
+    max_longitude: 17.2695311
   translations:
     en: Logone Oriental
     ar: منطقة لوقون الشرقي
@@ -430,16 +455,18 @@ LR:
     zh: 東洛貢區
     ccp: "\U00011123\U00011127\U00011109\U0001112E\U0001111A\U00011134 \U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     ka: აღმოსავლეთი ლოგონის რეგიონი
-  geo:
-    latitude: 8.3149949
-    longitude: 16.3463791
-    min_latitude: 7.4410681
-    min_longitude: 15.230739
-    max_latitude: 9.115038
-    max_longitude: 17.2695311
-  name: Logone-Oriental
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Mandoul
+  code: 
   unofficial_names: Mandoul
+  geo:
+    latitude: 8.603091
+    longitude: 17.4795173
+    min_latitude: 7.785258
+    min_longitude: 17.0344641
+    max_latitude: 9.598262
+    max_longitude: 18.164068
   translations:
     en: Mandoul
     ar: منطقة ماندول
@@ -483,16 +510,18 @@ MA:
     ccp: "\U0001111F\U0001111A\U00011134\U00011113\U0001112F\U00011123\U00011134"
     ka: მანდულის რეგიონი
     uk: Регіон Мандуль
-  geo:
-    latitude: 8.603091
-    longitude: 17.4795173
-    min_latitude: 7.785258
-    min_longitude: 17.0344641
-    max_latitude: 9.598262
-    max_longitude: 18.164068
-  name: Mandoul
-MC:
+  comments: 
+MC: !ruby/struct:ISO3166::Subdivision
+  name: Moyen-Chari
+  code: 
   unofficial_names: Moyen-Chari
+  geo:
+    latitude: 9.0639998
+    longitude: 18.4276047
+    min_latitude: 8.0147168
+    min_longitude: 17.3586501
+    max_latitude: 10.5414589
+    max_longitude: 19.927143
   translations:
     en: Moyen-Chari
     ar: منطقة شاري الأوسط
@@ -536,16 +565,18 @@ MC:
     zh: 中沙里區
     ccp: "\U0001111F\U00011127\U00011120\U0001112C\U0001111A\U00011134-\U0001110C\U00011122\U00011128"
     ka: შუა შარის რეგიონი
-  geo:
-    latitude: 9.0639998
-    longitude: 18.4276047
-    min_latitude: 8.0147168
-    min_longitude: 17.3586501
-    max_latitude: 10.5414589
-    max_longitude: 19.927143
-  name: Moyen-Chari
-ME:
+  comments: 
+ME: !ruby/struct:ISO3166::Subdivision
+  name: Mayo-Kébbi-Est
+  code: 
   unofficial_names: Mayo-Kébbi-Est
+  geo:
+    latitude: 9.4046039
+    longitude: 14.8454619
+    min_latitude: 8.5243641
+    min_longitude: 14.0194639
+    max_latitude: 10.0102089
+    max_longitude: 15.44772
   translations:
     en: Mayo-Kebbi Est
     ar: منطقة مايو كيبي الشرقي
@@ -590,16 +621,18 @@ ME:
       \U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
     ka: აღმოსავლეთი მაიო-კების რეგიონი
     uk: Регіон Східний Майо-Кебі
-  geo:
-    latitude: 9.4046039
-    longitude: 14.8454619
-    min_latitude: 8.5243641
-    min_longitude: 14.0194639
-    max_latitude: 10.0102089
-    max_longitude: 15.44772
-  name: Mayo-Kébbi-Est
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Mayo-Kébbi-Ouest
+  code: 
   unofficial_names: Mayo-Kébbi-Ouest
+  geo:
+    latitude: 10.4113014
+    longitude: 15.5943388
+    min_latitude: 9.188032
+    min_longitude: 14.949498
+    max_latitude: 11.181067
+    max_longitude: 16.2150691
   translations:
     en: Mayo-Kebbi Ouest
     ar: منطقة مايو كيبي الغربي
@@ -644,16 +677,18 @@ MO:
       \U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
     ka: დასავლეთი მაიო-კების რეგიონი
     uk: Регіон Західний Майо-Кебі
-  geo:
-    latitude: 10.4113014
-    longitude: 15.5943388
-    min_latitude: 9.188032
-    min_longitude: 14.949498
-    max_latitude: 11.181067
-    max_longitude: 16.2150691
-  name: Mayo-Kébbi-Ouest
-ND:
+  comments: 
+ND: !ruby/struct:ISO3166::Subdivision
+  name: Ndjamena
+  code: 
   unofficial_names: Ndjamena
+  geo:
+    latitude: 12.113056
+    longitude: 15.049167
+    min_latitude: 12.0603346
+    min_longitude: 14.9664874
+    max_latitude: 12.1801019
+    max_longitude: 15.1484305
   translations:
     en: N’Djamena
     af: N’Djamena
@@ -733,16 +768,18 @@ ND:
     uz: Njamena
     bs: N’Djamena
     mk: Нџамена
-  geo:
-    latitude: 12.113056
-    longitude: 15.049167
-    min_latitude: 12.0603346
-    min_longitude: 14.9664874
-    max_latitude: 12.1801019
-    max_longitude: 15.1484305
-  name: Ndjamena
-OD:
+  comments: 
+OD: !ruby/struct:ISO3166::Subdivision
+  name: Ouaddaï
+  code: 
   unofficial_names: Ouaddaï
+  geo:
+    latitude: 13.748476
+    longitude: 20.7122465
+    min_latitude: 12.636083
+    min_longitude: 20.0267009
+    max_latitude: 14.3643509
+    max_longitude: 22.284214
   translations:
     en: Ouaddaï
     ar: منطقة وداي
@@ -787,16 +824,18 @@ OD:
     ccp: "\U00011103\U0001112F\U00011120\U00011113\U00011133\U00011126\U0001112D"
     ka: უადაის რეგიონი
     uk: Ваддай
-  geo:
-    latitude: 13.748476
-    longitude: 20.7122465
-    min_latitude: 12.636083
-    min_longitude: 20.0267009
-    max_latitude: 14.3643509
-    max_longitude: 22.284214
-  name: Ouaddaï
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Salamat
+  code: 
   unofficial_names: Salamat
+  geo:
+    latitude: 10.9691601
+    longitude: 20.7122465
+    min_latitude: 9.060796
+    min_longitude: 18.8384811
+    max_latitude: 12.088373
+    max_longitude: 22.362142
   translations:
     en: Salamat
     ar: منطقة سلامات
@@ -841,16 +880,18 @@ SA:
     ka: სალამატის რეგიონი
     uk: Регіон Саламат
     cs: Salamat
-  geo:
-    latitude: 10.9691601
-    longitude: 20.7122465
-    min_latitude: 9.060796
-    min_longitude: 18.8384811
-    max_latitude: 12.088373
-    max_longitude: 22.362142
-  name: Salamat
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Tandjilé
+  code: 
   unofficial_names: Tandjilé
+  geo:
+    latitude: 9.6625729
+    longitude: 16.7234639
+    min_latitude: 9.006821
+    min_longitude: 15.438418
+    max_latitude: 10.222793
+    max_longitude: 17.552968
   translations:
     en: Tandjilé
     ar: منطقة تانجلي
@@ -893,16 +934,18 @@ TA:
     ccp: "\U00011111\U0001111A\U00011134\U0001110E\U0001112D\U00011123\U00011134"
     ka: ტანჯილეს რეგიონი
     uk: Регіон Танджиле
-  geo:
-    latitude: 9.6625729
-    longitude: 16.7234639
-    min_latitude: 9.006821
-    min_longitude: 15.438418
-    max_latitude: 10.222793
-    max_longitude: 17.552968
-  name: Tandjilé
-WF:
+  comments: 
+WF: !ruby/struct:ISO3166::Subdivision
+  name: Wadi Fira
+  code: 
   unofficial_names: Wadi Fira
+  geo:
+    latitude: 15.0892416
+    longitude: 21.4752851
+    min_latitude: 13.85626
+    min_longitude: 20.035872
+    max_latitude: 15.9035701
+    max_longitude: 23.0038449
   translations:
     en: Wadi Fira
     ar: منطقة وادي فيرا
@@ -945,16 +988,18 @@ WF:
     zh: 瓦迪菲拉區
     ccp: "\U00011124\U00011113\U00011128 \U0001111C\U00011128\U00011122"
     ka: უადი-ფირის რეგიონი
-  geo:
-    latitude: 15.0892416
-    longitude: 21.4752851
-    min_latitude: 13.85626
-    min_longitude: 20.035872
-    max_latitude: 15.9035701
-    max_longitude: 23.0038449
-  name: Wadi Fira
-BG:
+  comments: 
+BG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بحر الغزال
     bg: Бар ел Газел
@@ -998,6 +1043,11 @@ BG:
     ccp: "\U0001111D\U00011126\U00011134\U00011122\U00011134 \U00011103\U0001112C\U00011123\U00011134
       \U00011109\U0001110E\U0001112C\U00011123\U00011134"
     ka: ბაჰრ-ელ-გაზელის რეგიონი
+  comments: 
+BO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1005,8 +1055,6 @@ BG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BO:
-  unofficial_names: 
   translations:
     ar: منطقة بوركو
     bn: বুরকু অঞ্চল
@@ -1051,6 +1099,11 @@ BO:
     zh: 博爾庫區
     ccp: "\U0001111D\U0001112E\U00011122\U00011134\U00011107\U0001112F"
     ka: ბორკუს რეგიონი
+  comments: 
+SI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1058,8 +1111,6 @@ BO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SI:
-  unofficial_names: 
   translations:
     ar: منطقة سيلا
     bg: Сила
@@ -1101,6 +1152,11 @@ SI:
     ccp: "\U00011125\U00011128\U00011123"
     ka: სილის რეგიონი
     uk: Регіон Сіла
+  comments: 
+TI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1108,8 +1164,6 @@ SI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TI:
-  unofficial_names: 
   translations:
     ar: منطقة تبستي
     bg: Тибести
@@ -1152,6 +1206,11 @@ TI:
     ka: ტიბესტის რეგიონი
     eu: Tibesti
     uk: Регіон Тібесті
+  comments: 
+EE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1159,8 +1218,6 @@ TI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-EE:
-  unofficial_names: 
   translations:
     en: Ennedi-Est
     fr: Ennedi Est
@@ -1172,6 +1229,11 @@ EE:
     ccp: "\U00011103\U00011128\U0001111A\U0001112C\U00011113\U00011128-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
     ka: აღმოსავლეთი ენედის რეგიონი
     es: Ennedi Est
+  comments: 
+EO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1179,8 +1241,6 @@ EE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-EO:
-  unofficial_names: 
   translations:
     en: Ennedi-Ouest
     es: Ennedi Ouest
@@ -1193,10 +1253,4 @@ EO:
     ru: Западный Эннеди
     ccp: "\U00011103\U00011128\U0001111A\U0001112C\U00011113\U00011128-\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
     ka: დასავლეთი ენედის რეგიონი
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

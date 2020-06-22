@@ -1,8 +1,8 @@
 ---
-AA:
+AA: !ruby/struct:ISO3166::Subdivision
+  name: Armed Forces Americas
+  code: 
   unofficial_names: Armed Forces Americas
-  translations:
-    en: Armed Forces Americas
   geo:
     latitude: 33.8934985
     longitude: -117.2732567
@@ -10,11 +10,13 @@ AA:
     min_longitude: -117.2985014
     max_latitude: 33.9460679
     max_longitude: -117.2498013
-  name: Armed Forces Americas
-AE:
-  unofficial_names: Armed Forces Europe
   translations:
-    en: Armed Forces Europe
+    en: Armed Forces Americas
+  comments: 
+AE: !ruby/struct:ISO3166::Subdivision
+  name: Armed Forces Europe
+  code: 
+  unofficial_names: Armed Forces Europe
   geo:
     latitude: 59.90441850000001
     longitude: 10.7408094
@@ -22,9 +24,20 @@ AE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Armed Forces Europe
-AK:
+  translations:
+    en: Armed Forces Europe
+  comments: 
+AK: !ruby/struct:ISO3166::Subdivision
+  name: Alaska
+  code: 
   unofficial_names: Alaska
+  geo:
+    latitude: 64.2008413
+    longitude: -149.4936733
+    min_latitude: 51.214766
+    min_longitude: 172.4445167
+    max_latitude: 71.3868712
+    max_longitude: -129.9945562
   translations:
     en: Alaska
     af: Alaska
@@ -109,16 +122,18 @@ AK:
     uz: Alyaska
     bs: Alaska
     mk: Алјаска
-  geo:
-    latitude: 64.2008413
-    longitude: -149.4936733
-    min_latitude: 51.214766
-    min_longitude: 172.4445167
-    max_latitude: 71.3868712
-    max_longitude: -129.9945562
-  name: Alaska
-AL:
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Alabama
+  code: 
   unofficial_names: Alabama
+  geo:
+    latitude: 32.3182314
+    longitude: -86.902298
+    min_latitude: 30.1941334
+    min_longitude: -88.4732269
+    max_latitude: 35.007889
+    max_longitude: -84.888246
   translations:
     en: Alabama
     af: Alabama
@@ -202,18 +217,11 @@ AL:
     uz: Alabama
     bs: Alabama
     mk: Алабама
-  geo:
-    latitude: 32.3182314
-    longitude: -86.902298
-    min_latitude: 30.1941334
-    min_longitude: -88.4732269
-    max_latitude: 35.007889
-    max_longitude: -84.888246
-  name: Alabama
-AP:
+  comments: 
+AP: !ruby/struct:ISO3166::Subdivision
+  name: Armed Forces Pacific
+  code: 
   unofficial_names: Armed Forces Pacific
-  translations:
-    en: Armed Forces Pacific
   geo:
     latitude: 
     longitude: 
@@ -221,9 +229,20 @@ AP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Armed Forces Pacific
-AR:
+  translations:
+    en: Armed Forces Pacific
+  comments: 
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Arkansas
+  code: 
   unofficial_names: Arkansas
+  geo:
+    latitude: 35.20105
+    longitude: -91.8318334
+    min_latitude: 33.0041059
+    min_longitude: -94.61791900000001
+    max_latitude: 36.4997491
+    max_longitude: -89.64483790000001
   translations:
     en: Arkansas
     af: Arkansas
@@ -305,20 +324,11 @@ AR:
     uz: Arkanzas
     bs: Arkansas
     mk: Арканзас
-  geo:
-    latitude: 35.20105
-    longitude: -91.8318334
-    min_latitude: 33.0041059
-    min_longitude: -94.61791900000001
-    max_latitude: 36.4997491
-    max_longitude: -89.64483790000001
-  name: Arkansas
-AS:
+  comments: 
+AS: !ruby/struct:ISO3166::Subdivision
+  name: American Samoa
+  code: 
   unofficial_names: American Samoa
-  translations:
-    en: American Samoa
-    ccp: "\U00011103\U0001111F\U0001112C\U00011122\U00011128\U00011107\U0001111A\U00011134
-      \U00011125\U0001112A\U0001111F\U0001112E\U00011120"
   geo:
     latitude: 21.3239718
     longitude: -157.876498
@@ -326,10 +336,22 @@ AS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: American Samoa
+    ccp: "\U00011103\U0001111F\U0001112C\U00011122\U00011128\U00011107\U0001111A\U00011134
+      \U00011125\U0001112A\U0001111F\U0001112E\U00011120"
   comments: see also separate entry under AS
-  name: American Samoa
-AZ:
+AZ: !ruby/struct:ISO3166::Subdivision
+  name: Arizona
+  code: 
   unofficial_names: Arizona
+  geo:
+    latitude: 34.0489281
+    longitude: -111.0937311
+    min_latitude: 31.3321771
+    min_longitude: -114.8165909
+    max_latitude: 37.0042599
+    max_longitude: -109.0452231
   translations:
     en: Arizona
     af: Arizona
@@ -412,16 +434,18 @@ AZ:
     uz: Arizona
     bs: Arizona
     mk: Аризона
-  geo:
-    latitude: 34.0489281
-    longitude: -111.0937311
-    min_latitude: 31.3321771
-    min_longitude: -114.8165909
-    max_latitude: 37.0042599
-    max_longitude: -109.0452231
-  name: Arizona
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: California
+  code: 
   unofficial_names: California
+  geo:
+    latitude: 36.778261
+    longitude: -119.4179324
+    min_latitude: 32.5342321
+    min_longitude: -124.4096196
+    max_latitude: 42.0095169
+    max_longitude: -114.131211
   translations:
     en: California
     af: Kalifornië
@@ -509,16 +533,18 @@ CA:
     uz: Kaliforniya
     bs: Kalifornija
     mk: Калифорнија
-  geo:
-    latitude: 36.778261
-    longitude: -119.4179324
-    min_latitude: 32.5342321
-    min_longitude: -124.4096196
-    max_latitude: 42.0095169
-    max_longitude: -114.131211
-  name: California
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Colorado
+  code: 
   unofficial_names: Colorado
+  geo:
+    latitude: 39.5500507
+    longitude: -105.7820674
+    min_latitude: 36.992424
+    min_longitude: -109.060256
+    max_latitude: 41.0034439
+    max_longitude: -102.040878
   translations:
     en: Colorado
     af: Colorado
@@ -601,16 +627,18 @@ CO:
     uz: Kolorado
     bs: Colorado
     mk: Колорадо
-  geo:
-    latitude: 39.5500507
-    longitude: -105.7820674
-    min_latitude: 36.992424
-    min_longitude: -109.060256
-    max_latitude: 41.0034439
-    max_longitude: -102.040878
-  name: Colorado
-CT:
+  comments: 
+CT: !ruby/struct:ISO3166::Subdivision
+  name: Connecticut
+  code: 
   unofficial_names: Connecticut
+  geo:
+    latitude: 41.6032207
+    longitude: -73.087749
+    min_latitude: 40.9869801
+    min_longitude: -73.727775
+    max_latitude: 42.050587
+    max_longitude: -71.787239
   translations:
     en: Connecticut
     af: Connecticut
@@ -690,16 +718,18 @@ CT:
     uz: Konnektikut
     bs: Connecticut
     mk: Конектикат
-  geo:
-    latitude: 41.6032207
-    longitude: -73.087749
-    min_latitude: 40.9869801
-    min_longitude: -73.727775
-    max_latitude: 42.050587
-    max_longitude: -71.787239
-  name: Connecticut
-DC:
+  comments: 
+DC: !ruby/struct:ISO3166::Subdivision
+  name: District of Columbia
+  code: 
   unofficial_names: District of Columbia
+  geo:
+    latitude: 38.9071923
+    longitude: -77.0368707
+    min_latitude: 38.8031495
+    min_longitude: -77.11974
+    max_latitude: 38.995548
+    max_longitude: -76.909393
   translations:
     en: Washington DC
     af: Washington
@@ -768,16 +798,18 @@ DC:
     ccp: "\U00011124\U00011125\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134
       \U00011113\U00011128\U00011125\U00011128"
     uz: Kolumbiya okrugi
-  geo:
-    latitude: 38.9071923
-    longitude: -77.0368707
-    min_latitude: 38.8031495
-    min_longitude: -77.11974
-    max_latitude: 38.995548
-    max_longitude: -76.909393
-  name: District of Columbia
-DE:
+  comments: 
+DE: !ruby/struct:ISO3166::Subdivision
+  name: Delaware
+  code: 
   unofficial_names: Delaware
+  geo:
+    latitude: 38.9108325
+    longitude: -75.52766989999999
+    min_latitude: 38.451018
+    min_longitude: -75.78914790000002
+    max_latitude: 39.8394839
+    max_longitude: -75.04869339999999
   translations:
     en: Delaware
     af: Delaware
@@ -857,16 +889,18 @@ DE:
     uz: Delaver
     bs: Delaware
     mk: Делавер
-  geo:
-    latitude: 38.9108325
-    longitude: -75.52766989999999
-    min_latitude: 38.451018
-    min_longitude: -75.78914790000002
-    max_latitude: 39.8394839
-    max_longitude: -75.04869339999999
-  name: Delaware
-FL:
+  comments: 
+FL: !ruby/struct:ISO3166::Subdivision
+  name: Florida
+  code: 
   unofficial_names: Florida
+  geo:
+    latitude: 27.6648274
+    longitude: -81.5157535
+    min_latitude: 24.5210795
+    min_longitude: -87.634896
+    max_latitude: 31.000968
+    max_longitude: -80.0311371
   translations:
     en: Florida
     af: Florida
@@ -949,16 +983,18 @@ FL:
     uz: Florida
     bs: Florida
     mk: Флорида
-  geo:
-    latitude: 27.6648274
-    longitude: -81.5157535
-    min_latitude: 24.5210795
-    min_longitude: -87.634896
-    max_latitude: 31.000968
-    max_longitude: -80.0311371
-  name: Florida
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Georgia
+  code: 
   unofficial_names: Georgia
+  geo:
+    latitude: 32.1656221
+    longitude: -82.9000751
+    min_latitude: 30.3555908
+    min_longitude: -85.6051649
+    max_latitude: 35.0006589
+    max_longitude: -80.8407866
   translations:
     en: Georgia
     af: Georgia
@@ -1040,19 +1076,11 @@ GA:
     bs: Georgia
     mk: Џорџија
     tk: Jorjiýa
-  geo:
-    latitude: 32.1656221
-    longitude: -82.9000751
-    min_latitude: 30.3555908
-    min_longitude: -85.6051649
-    max_latitude: 35.0006589
-    max_longitude: -80.8407866
-  name: Georgia
-GU:
+  comments: 
+GU: !ruby/struct:ISO3166::Subdivision
+  name: Guam
+  code: 
   unofficial_names: Guam
-  translations:
-    en: Guam
-    ccp: "\U00011109\U0001112A\U00011120\U0001111F\U00011134"
   geo:
     latitude: 36.90194
     longitude: -89.82361
@@ -1060,10 +1088,21 @@ GU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Guam
+    ccp: "\U00011109\U0001112A\U00011120\U0001111F\U00011134"
   comments: see also separate entry under GU
-  name: Guam
-HI:
+HI: !ruby/struct:ISO3166::Subdivision
+  name: Hawaii
+  code: 
   unofficial_names: Hawaii
+  geo:
+    latitude: 19.8967662
+    longitude: -155.5827818
+    min_latitude: 18.9108109
+    min_longitude: -178.3059168
+    max_latitude: 28.4014611
+    max_longitude: -154.8067783
   translations:
     en: Hawaii
     af: Hawaii
@@ -1147,16 +1186,18 @@ HI:
     uz: Gavayi
     bs: Hawaii
     mk: Хаваи
-  geo:
-    latitude: 19.8967662
-    longitude: -155.5827818
-    min_latitude: 18.9108109
-    min_longitude: -178.3059168
-    max_latitude: 28.4014611
-    max_longitude: -154.8067783
-  name: Hawaii
-IA:
+  comments: 
+IA: !ruby/struct:ISO3166::Subdivision
+  name: Iowa
+  code: 
   unofficial_names: Iowa
+  geo:
+    latitude: 41.8780025
+    longitude: -93.097702
+    min_latitude: 40.375437
+    min_longitude: -96.639535
+    max_latitude: 43.5011961
+    max_longitude: -90.1400609
   translations:
     en: Iowa
     af: Iowa
@@ -1237,16 +1278,18 @@ IA:
     uz: Ayova
     bs: Iowa
     mk: Ајова
-  geo:
-    latitude: 41.8780025
-    longitude: -93.097702
-    min_latitude: 40.375437
-    min_longitude: -96.639535
-    max_latitude: 43.5011961
-    max_longitude: -90.1400609
-  name: Iowa
-ID:
+  comments: 
+ID: !ruby/struct:ISO3166::Subdivision
+  name: Idaho
+  code: 
   unofficial_names: Idaho
+  geo:
+    latitude: 44.0682019
+    longitude: -114.7420408
+    min_latitude: 41.9880051
+    min_longitude: -117.2413657
+    max_latitude: 49.0011461
+    max_longitude: -111.043495
   translations:
     en: Idaho
     af: Idaho
@@ -1326,16 +1369,18 @@ ID:
     uz: Aydaho
     bs: Idaho
     mk: Ајдахо
-  geo:
-    latitude: 44.0682019
-    longitude: -114.7420408
-    min_latitude: 41.9880051
-    min_longitude: -117.2413657
-    max_latitude: 49.0011461
-    max_longitude: -111.043495
-  name: Idaho
-IL:
+  comments: 
+IL: !ruby/struct:ISO3166::Subdivision
+  name: Illinois
+  code: 
   unofficial_names: Illinois
+  geo:
+    latitude: 40.6331249
+    longitude: -89.3985283
+    min_latitude: 36.970298
+    min_longitude: -91.5130789
+    max_latitude: 42.5083379
+    max_longitude: -87.4951991
   translations:
     en: Illinois
     af: Illinois
@@ -1416,16 +1461,18 @@ IL:
     uz: Illinoys
     bs: Illinois
     mk: Илиноис
-  geo:
-    latitude: 40.6331249
-    longitude: -89.3985283
-    min_latitude: 36.970298
-    min_longitude: -91.5130789
-    max_latitude: 42.5083379
-    max_longitude: -87.4951991
-  name: Illinois
-IN:
+  comments: 
+IN: !ruby/struct:ISO3166::Subdivision
+  name: Indiana
+  code: 
   unofficial_names: Indiana
+  geo:
+    latitude: 40.2671941
+    longitude: -86.1349019
+    min_latitude: 37.7717419
+    min_longitude: -88.097892
+    max_latitude: 41.7606971
+    max_longitude: -84.784662
   translations:
     en: Indiana
     af: Indiana
@@ -1506,16 +1553,18 @@ IN:
     uz: Indiana
     bs: Indiana
     mk: Индијана
-  geo:
-    latitude: 40.2671941
-    longitude: -86.1349019
-    min_latitude: 37.7717419
-    min_longitude: -88.097892
-    max_latitude: 41.7606971
-    max_longitude: -84.784662
-  name: Indiana
-KS:
+  comments: 
+KS: !ruby/struct:ISO3166::Subdivision
+  name: Kansas
+  code: 
   unofficial_names: Kansas
+  geo:
+    latitude: 39.011902
+    longitude: -98.4842465
+    min_latitude: 36.9930159
+    min_longitude: -102.0517688
+    max_latitude: 40.0045419
+    max_longitude: -94.588387
   translations:
     en: Kansas
     af: Kansas
@@ -1594,16 +1643,18 @@ KS:
     uz: Kanzas
     bs: Kansas
     mk: Канзас
-  geo:
-    latitude: 39.011902
-    longitude: -98.4842465
-    min_latitude: 36.9930159
-    min_longitude: -102.0517688
-    max_latitude: 40.0045419
-    max_longitude: -94.588387
-  name: Kansas
-KY:
+  comments: 
+KY: !ruby/struct:ISO3166::Subdivision
+  name: Kentucky
+  code: 
   unofficial_names: Kentucky
+  geo:
+    latitude: 37.8393332
+    longitude: -84.2700179
+    min_latitude: 36.4971289
+    min_longitude: -89.5715089
+    max_latitude: 39.147458
+    max_longitude: -81.9649708
   translations:
     en: Kentucky
     af: Kentucky
@@ -1682,16 +1733,18 @@ KY:
     uz: Kentukki
     bs: Kentucky
     mk: Кентаки
-  geo:
-    latitude: 37.8393332
-    longitude: -84.2700179
-    min_latitude: 36.4971289
-    min_longitude: -89.5715089
-    max_latitude: 39.147458
-    max_longitude: -81.9649708
-  name: Kentucky
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Louisiana
+  code: 
   unofficial_names: Louisiana
+  geo:
+    latitude: 30.9842977
+    longitude: -91.96233269999999
+    min_latitude: 28.9254296
+    min_longitude: -94.043352
+    max_latitude: 33.019544
+    max_longitude: -88.8162401
   translations:
     en: Louisiana
     af: Louisiana
@@ -1770,16 +1823,18 @@ LA:
     uz: Luiziana
     bs: Louisiana
     mk: Луизијана
-  geo:
-    latitude: 30.9842977
-    longitude: -91.96233269999999
-    min_latitude: 28.9254296
-    min_longitude: -94.043352
-    max_latitude: 33.019544
-    max_longitude: -88.8162401
-  name: Louisiana
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Massachusetts
+  code: 
   unofficial_names: Massachusetts
+  geo:
+    latitude: 42.4072107
+    longitude: -71.3824374
+    min_latitude: 41.2390448
+    min_longitude: -73.5081419
+    max_latitude: 42.88679
+    max_longitude: -69.92855109999999
   translations:
     en: Massachusetts
     af: Massachusetts
@@ -1861,16 +1916,18 @@ MA:
     uz: Massachusetts
     bs: Massachusetts
     mk: Масачусетс
-  geo:
-    latitude: 42.4072107
-    longitude: -71.3824374
-    min_latitude: 41.2390448
-    min_longitude: -73.5081419
-    max_latitude: 42.88679
-    max_longitude: -69.92855109999999
-  name: Massachusetts
-MD:
+  comments: 
+MD: !ruby/struct:ISO3166::Subdivision
+  name: Maryland
+  code: 
   unofficial_names: Maryland
+  geo:
+    latitude: 39.0457549
+    longitude: -76.64127119999999
+    min_latitude: 37.8895135
+    min_longitude: -79.4876511
+    max_latitude: 39.723037
+    max_longitude: -75.04918119999999
   translations:
     en: Maryland
     af: Maryland
@@ -1950,16 +2007,18 @@ MD:
     uz: Maryland
     bs: Maryland
     mk: Мериленд
-  geo:
-    latitude: 39.0457549
-    longitude: -76.64127119999999
-    min_latitude: 37.8895135
-    min_longitude: -79.4876511
-    max_latitude: 39.723037
-    max_longitude: -75.04918119999999
-  name: Maryland
-ME:
+  comments: 
+ME: !ruby/struct:ISO3166::Subdivision
+  name: Maine
+  code: 
   unofficial_names: Maine
+  geo:
+    latitude: 45.253783
+    longitude: -69.4454689
+    min_latitude: 42.9747059
+    min_longitude: -71.08433409999999
+    max_latitude: 47.4596734
+    max_longitude: -66.94539720000002
   translations:
     en: Maine
     af: Maine
@@ -2038,16 +2097,18 @@ ME:
     uz: Meyn
     bs: Maine
     mk: Мејн
-  geo:
-    latitude: 45.253783
-    longitude: -69.4454689
-    min_latitude: 42.9747059
-    min_longitude: -71.08433409999999
-    max_latitude: 47.4596734
-    max_longitude: -66.94539720000002
-  name: Maine
-MI:
+  comments: 
+MI: !ruby/struct:ISO3166::Subdivision
+  name: Michigan
+  code: 
   unofficial_names: Michigan
+  geo:
+    latitude: 44.3148443
+    longitude: -85.60236429999999
+    min_latitude: 41.696118
+    min_longitude: -90.4181358
+    max_latitude: 48.1986461
+    max_longitude: -82.3990376
   translations:
     en: Michigan
     af: Michigan
@@ -2127,16 +2188,18 @@ MI:
     uz: Michigan
     bs: Michigan
     mk: Мичиген
-  geo:
-    latitude: 44.3148443
-    longitude: -85.60236429999999
-    min_latitude: 41.696118
-    min_longitude: -90.4181358
-    max_latitude: 48.1986461
-    max_longitude: -82.3990376
-  name: Michigan
-MN:
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: Minnesota
+  code: 
   unofficial_names: Minnesota
+  geo:
+    latitude: 46.729553
+    longitude: -94.6858998
+    min_latitude: 43.499361
+    min_longitude: -97.23919579999999
+    max_latitude: 49.3828204
+    max_longitude: -89.49183339999999
   translations:
     en: Minnesota
     af: Minnesota
@@ -2216,16 +2279,18 @@ MN:
     uz: Minnesota
     bs: Minnesota
     mk: Минесота
-  geo:
-    latitude: 46.729553
-    longitude: -94.6858998
-    min_latitude: 43.499361
-    min_longitude: -97.23919579999999
-    max_latitude: 49.3828204
-    max_longitude: -89.49183339999999
-  name: Minnesota
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Missouri
+  code: 
   unofficial_names: Missouri
+  geo:
+    latitude: 37.9642529
+    longitude: -91.8318334
+    min_latitude: 35.9956829
+    min_longitude: -95.774704
+    max_latitude: 40.61364
+    max_longitude: -89.09949399999999
   translations:
     en: Missouri
     af: Missouri
@@ -2305,20 +2370,11 @@ MO:
     uz: Missuri
     bs: Missouri
     mk: Мисури
-  geo:
-    latitude: 37.9642529
-    longitude: -91.8318334
-    min_latitude: 35.9956829
-    min_longitude: -95.774704
-    max_latitude: 40.61364
-    max_longitude: -89.09949399999999
-  name: Missouri
-MP:
+  comments: 
+MP: !ruby/struct:ISO3166::Subdivision
+  name: Northern Mariana Islands
+  code: 
   unofficial_names: Northern Mariana Islands
-  translations:
-    en: Northern Mariana Islands
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U0001111F\U0001112C\U00011122\U00011128\U00011120\U0001111A \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
   geo:
     latitude: 15.1466435
     longitude: 145.7023038
@@ -2326,10 +2382,22 @@ MP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Northern Mariana Islands
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001111F\U0001112C\U00011122\U00011128\U00011120\U0001111A \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
   comments: see also separate entry under MP
-  name: Northern Mariana Islands
-MS:
+MS: !ruby/struct:ISO3166::Subdivision
+  name: Mississippi
+  code: 
   unofficial_names: Mississippi
+  geo:
+    latitude: 32.3546679
+    longitude: -89.3985283
+    min_latitude: 30.1741032
+    min_longitude: -91.6550089
+    max_latitude: 34.9961091
+    max_longitude: -88.0994303
   translations:
     en: Mississippi
     af: Mississippi
@@ -2409,16 +2477,18 @@ MS:
     uz: Mississippi
     bs: Mississippi
     mk: Мисисипи
-  geo:
-    latitude: 32.3546679
-    longitude: -89.3985283
-    min_latitude: 30.1741032
-    min_longitude: -91.6550089
-    max_latitude: 34.9961091
-    max_longitude: -88.0994303
-  name: Mississippi
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Montana
+  code: 
   unofficial_names: Montana
+  geo:
+    latitude: 46.8796822
+    longitude: -110.3625658
+    min_latitude: 44.3582089
+    min_longitude: -116.050003
+    max_latitude: 49.00139
+    max_longitude: -104.039563
   translations:
     en: Montana
     af: Montana
@@ -2498,16 +2568,18 @@ MT:
     uz: Montana
     bs: Montana
     mk: Монтана
-  geo:
-    latitude: 46.8796822
-    longitude: -110.3625658
-    min_latitude: 44.3582089
-    min_longitude: -116.050003
-    max_latitude: 49.00139
-    max_longitude: -104.039563
-  name: Montana
-NC:
+  comments: 
+NC: !ruby/struct:ISO3166::Subdivision
+  name: North Carolina
+  code: 
   unofficial_names: North Carolina
+  geo:
+    latitude: 35.7595731
+    longitude: -79.01929969999999
+    min_latitude: 33.8409689
+    min_longitude: -84.32186899999999
+    max_latitude: 36.5881568
+    max_longitude: -75.4599515
   translations:
     en: North Carolina
     af: Noord-Carolina
@@ -2586,16 +2658,18 @@ NC:
     uz: Shimoliy Karolina
     bs: Sjeverna Karolina
     mk: Северна Каролина
-  geo:
-    latitude: 35.7595731
-    longitude: -79.01929969999999
-    min_latitude: 33.8409689
-    min_longitude: -84.32186899999999
-    max_latitude: 36.5881568
-    max_longitude: -75.4599515
-  name: North Carolina
-ND:
+  comments: 
+ND: !ruby/struct:ISO3166::Subdivision
+  name: North Dakota
+  code: 
   unofficial_names: North Dakota
+  geo:
+    latitude: 47.5514926
+    longitude: -101.0020119
+    min_latitude: 45.9350719
+    min_longitude: -104.05004
+    max_latitude: 49.000692
+    max_longitude: -96.554491
   translations:
     en: North Dakota
     af: Noord-Dakota
@@ -2676,16 +2750,18 @@ ND:
     uz: Shimoliy Dakota
     bs: Sjeverna Dakota
     mk: Северна Дакота
-  geo:
-    latitude: 47.5514926
-    longitude: -101.0020119
-    min_latitude: 45.9350719
-    min_longitude: -104.05004
-    max_latitude: 49.000692
-    max_longitude: -96.554491
-  name: North Dakota
-NE:
+  comments: 
+NE: !ruby/struct:ISO3166::Subdivision
+  name: Nebraska
+  code: 
   unofficial_names: Nebraska
+  geo:
+    latitude: 41.4925374
+    longitude: -99.9018131
+    min_latitude: 39.999932
+    min_longitude: -104.053514
+    max_latitude: 43.00170689999999
+    max_longitude: -95.30829000000001
   translations:
     en: Nebraska
     af: Nebraska
@@ -2765,16 +2841,18 @@ NE:
     uz: Nebraska
     bs: Nebraska
     mk: Небраска
-  geo:
-    latitude: 41.4925374
-    longitude: -99.9018131
-    min_latitude: 39.999932
-    min_longitude: -104.053514
-    max_latitude: 43.00170689999999
-    max_longitude: -95.30829000000001
-  name: Nebraska
-NH:
+  comments: 
+NH: !ruby/struct:ISO3166::Subdivision
+  name: New Hampshire
+  code: 
   unofficial_names: New Hampshire
+  geo:
+    latitude: 43.1938516
+    longitude: -71.5723953
+    min_latitude: 42.696985
+    min_longitude: -72.55718499999999
+    max_latitude: 45.3054761
+    max_longitude: -70.602656
   translations:
     en: New Hampshire
     af: New Hampshire
@@ -2854,16 +2932,18 @@ NH:
     uz: Nyu-Xempshir
     bs: New Hampshire
     mk: Њу Хемпшир
-  geo:
-    latitude: 43.1938516
-    longitude: -71.5723953
-    min_latitude: 42.696985
-    min_longitude: -72.55718499999999
-    max_latitude: 45.3054761
-    max_longitude: -70.602656
-  name: New Hampshire
-NJ:
+  comments: 
+NJ: !ruby/struct:ISO3166::Subdivision
+  name: New Jersey
+  code: 
   unofficial_names: New Jersey
+  geo:
+    latitude: 40.0583238
+    longitude: -74.4056612
+    min_latitude: 38.9285589
+    min_longitude: -75.5597921
+    max_latitude: 41.357423
+    max_longitude: -73.9024391
   translations:
     en: New Jersey
     af: New Jersey
@@ -2943,16 +3023,18 @@ NJ:
     uz: Nʼyu-Jersi
     bs: New Jersey
     mk: Њу Џерси
-  geo:
-    latitude: 40.0583238
-    longitude: -74.4056612
-    min_latitude: 38.9285589
-    min_longitude: -75.5597921
-    max_latitude: 41.357423
-    max_longitude: -73.9024391
-  name: New Jersey
-NM:
+  comments: 
+NM: !ruby/struct:ISO3166::Subdivision
+  name: New Mexico
+  code: 
   unofficial_names: New Mexico
+  geo:
+    latitude: 34.5199402
+    longitude: -105.8700901
+    min_latitude: 31.332172
+    min_longitude: -109.050173
+    max_latitude: 37.0002931
+    max_longitude: -103.001964
   translations:
     en: New Mexico
     af: Nieu-Meksiko
@@ -3034,16 +3116,18 @@ NM:
     uz: Nʼyu-Meksiko
     bs: New Mexico
     mk: Ново Мексико
-  geo:
-    latitude: 34.5199402
-    longitude: -105.8700901
-    min_latitude: 31.332172
-    min_longitude: -109.050173
-    max_latitude: 37.0002931
-    max_longitude: -103.001964
-  name: New Mexico
-NV:
+  comments: 
+NV: !ruby/struct:ISO3166::Subdivision
+  name: Nevada
+  code: 
   unofficial_names: Nevada
+  geo:
+    latitude: 38.8026097
+    longitude: -116.419389
+    min_latitude: 35.001857
+    min_longitude: -120.0064729
+    max_latitude: 42.002207
+    max_longitude: -114.0396479
   translations:
     en: Nevada
     af: Nevada
@@ -3124,16 +3208,18 @@ NV:
     uz: Nevada
     bs: Nevada
     mk: Невада
-  geo:
-    latitude: 38.8026097
-    longitude: -116.419389
-    min_latitude: 35.001857
-    min_longitude: -120.0064729
-    max_latitude: 42.002207
-    max_longitude: -114.0396479
-  name: Nevada
-NY:
+  comments: 
+NY: !ruby/struct:ISO3166::Subdivision
+  name: New York
+  code: 
   unofficial_names: New York
+  geo:
+    latitude: 43.2994285
+    longitude: -74.21793260000001
+    min_latitude: 40.4913686
+    min_longitude: -79.76214379999999
+    max_latitude: 45.015865
+    max_longitude: -71.8562755
   translations:
     en: New York
     af: New York
@@ -3222,16 +3308,18 @@ NY:
     uz: Nyu York
     bs: New York
     mk: Њујорк
-  geo:
-    latitude: 43.2994285
-    longitude: -74.21793260000001
-    min_latitude: 40.4913686
-    min_longitude: -79.76214379999999
-    max_latitude: 45.015865
-    max_longitude: -71.8562755
-  name: New York
-OH:
+  comments: 
+OH: !ruby/struct:ISO3166::Subdivision
+  name: Ohio
+  code: 
   unofficial_names: Ohio
+  geo:
+    latitude: 40.4172871
+    longitude: -82.90712300000001
+    min_latitude: 38.4034229
+    min_longitude: -84.8203049
+    max_latitude: 41.9773019
+    max_longitude: -80.5182
   translations:
     en: Ohio
     af: Ohio
@@ -3311,16 +3399,18 @@ OH:
     uz: Ogayo
     bs: Ohio
     mk: Охајо
-  geo:
-    latitude: 40.4172871
-    longitude: -82.90712300000001
-    min_latitude: 38.4034229
-    min_longitude: -84.8203049
-    max_latitude: 41.9773019
-    max_longitude: -80.5182
-  name: Ohio
-OK:
+  comments: 
+OK: !ruby/struct:ISO3166::Subdivision
+  name: Oklahoma
+  code: 
   unofficial_names: Oklahoma
+  geo:
+    latitude: 35.0077519
+    longitude: -97.092877
+    min_latitude: 33.615787
+    min_longitude: -103.002455
+    max_latitude: 37.0023119
+    max_longitude: -94.430662
   translations:
     en: Oklahoma
     af: Oklahoma
@@ -3401,16 +3491,18 @@ OK:
     uz: Oklaxoma
     bs: Oklahoma
     mk: Оклахома
-  geo:
-    latitude: 35.0077519
-    longitude: -97.092877
-    min_latitude: 33.615787
-    min_longitude: -103.002455
-    max_latitude: 37.0023119
-    max_longitude: -94.430662
-  name: Oklahoma
-OR:
+  comments: 
+OR: !ruby/struct:ISO3166::Subdivision
+  name: Oregon
+  code: 
   unofficial_names: Oregon
+  geo:
+    latitude: 43.8041334
+    longitude: -120.5542012
+    min_latitude: 41.9917941
+    min_longitude: -124.6129365
+    max_latitude: 46.2920157
+    max_longitude: -116.463262
   translations:
     en: Oregon
     af: Oregon
@@ -3490,16 +3582,18 @@ OR:
     uz: Oregon
     bs: Oregon
     mk: Орегон
-  geo:
-    latitude: 43.8041334
-    longitude: -120.5542012
-    min_latitude: 41.9917941
-    min_longitude: -124.6129365
-    max_latitude: 46.2920157
-    max_longitude: -116.463262
-  name: Oregon
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Pennsylvania
+  code: 
   unofficial_names: Pennsylvania
+  geo:
+    latitude: 41.2033216
+    longitude: -77.1945247
+    min_latitude: 39.7197989
+    min_longitude: -80.51989499999999
+    max_latitude: 42.2693866
+    max_longitude: -74.6895018
   translations:
     en: Pennsylvania
     af: Pennsilvanië
@@ -3580,19 +3674,11 @@ PA:
     uz: Pennsilvaniya
     bs: Pennsylvania
     mk: Пенсилванија
-  geo:
-    latitude: 41.2033216
-    longitude: -77.1945247
-    min_latitude: 39.7197989
-    min_longitude: -80.51989499999999
-    max_latitude: 42.2693866
-    max_longitude: -74.6895018
-  name: Pennsylvania
-PR:
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Puerto Rico
+  code: 
   unofficial_names: Puerto Rico
-  translations:
-    en: Puerto Rico
-    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U0001112E \U00011122\U00011128\U00011107\U0001112E"
   geo:
     latitude: 32.7290818
     longitude: -117.1517016
@@ -3600,10 +3686,21 @@ PR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Puerto Rico
+    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U0001112E \U00011122\U00011128\U00011107\U0001112E"
   comments: see also separate entry under PR
-  name: Puerto Rico
-RI:
+RI: !ruby/struct:ISO3166::Subdivision
+  name: Rhode Island
+  code: 
   unofficial_names: Rhode Island
+  geo:
+    latitude: 41.5800945
+    longitude: -71.4774291
+    min_latitude: 41.1466563
+    min_longitude: -71.8923425
+    max_latitude: 42.0188
+    max_longitude: -71.1205471
   translations:
     en: Rhode Island
     af: Rhode Island
@@ -3683,16 +3780,18 @@ RI:
     uz: Rod-Aylend
     bs: Rhode Island
     mk: Род Ајленд
-  geo:
-    latitude: 41.5800945
-    longitude: -71.4774291
-    min_latitude: 41.1466563
-    min_longitude: -71.8923425
-    max_latitude: 42.0188
-    max_longitude: -71.1205471
-  name: Rhode Island
-SC:
+  comments: 
+SC: !ruby/struct:ISO3166::Subdivision
+  name: South Carolina
+  code: 
   unofficial_names: South Carolina
+  geo:
+    latitude: 33.836081
+    longitude: -81.1637245
+    min_latitude: 32.0345599
+    min_longitude: -83.35325879999999
+    max_latitude: 35.2155401
+    max_longitude: -78.5408175
   translations:
     en: South Carolina
     af: Suid-Carolina
@@ -3770,16 +3869,18 @@ SC:
     uz: Janubiy Karolina
     bs: Južna Karolina
     mk: Јужна Каролина
-  geo:
-    latitude: 33.836081
-    longitude: -81.1637245
-    min_latitude: 32.0345599
-    min_longitude: -83.35325879999999
-    max_latitude: 35.2155401
-    max_longitude: -78.5408175
-  name: South Carolina
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: South Dakota
+  code: 
   unofficial_names: South Dakota
+  geo:
+    latitude: 43.9695148
+    longitude: -99.9018131
+    min_latitude: 42.479686
+    min_longitude: -104.0577391
+    max_latitude: 45.945713
+    max_longitude: -96.436589
   translations:
     en: South Dakota
     af: Suid-Dakota
@@ -3859,16 +3960,18 @@ SD:
     uz: Janubiy Dakota
     bs: Južna Dakota
     mk: Јужна Дакота
-  geo:
-    latitude: 43.9695148
-    longitude: -99.9018131
-    min_latitude: 42.479686
-    min_longitude: -104.0577391
-    max_latitude: 45.945713
-    max_longitude: -96.436589
-  name: South Dakota
-TN:
+  comments: 
+TN: !ruby/struct:ISO3166::Subdivision
+  name: Tennessee
+  code: 
   unofficial_names: Tennessee
+  geo:
+    latitude: 35.5174913
+    longitude: -86.5804473
+    min_latitude: 34.9829239
+    min_longitude: -90.3102978
+    max_latitude: 36.678118
+    max_longitude: -81.6469
   translations:
     en: Tennessee
     af: Tennessee
@@ -3947,16 +4050,18 @@ TN:
     uz: Tennessi
     bs: Tennessee
     mk: Тенеси
-  geo:
-    latitude: 35.5174913
-    longitude: -86.5804473
-    min_latitude: 34.9829239
-    min_longitude: -90.3102978
-    max_latitude: 36.678118
-    max_longitude: -81.6469
-  name: Tennessee
-TX:
+  comments: 
+TX: !ruby/struct:ISO3166::Subdivision
+  name: Texas
+  code: 
   unofficial_names: Texas
+  geo:
+    latitude: 31.9685988
+    longitude: -99.9018131
+    min_latitude: 25.8371638
+    min_longitude: -106.6456461
+    max_latitude: 36.5007041
+    max_longitude: -93.5080389
   translations:
     en: Texas
     af: Texas
@@ -4039,21 +4144,11 @@ TX:
     uz: Texas
     bs: Texas
     mk: Тексас
-  geo:
-    latitude: 31.9685988
-    longitude: -99.9018131
-    min_latitude: 25.8371638
-    min_longitude: -106.6456461
-    max_latitude: 36.5007041
-    max_longitude: -93.5080389
-  name: Texas
-UM:
+  comments: 
+UM: !ruby/struct:ISO3166::Subdivision
+  name: United States Minor Outlying Islands
+  code: 
   unofficial_names: United States Minor Outlying Islands
-  translations:
-    en: U.S. Outlying Islands
-    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134.
-      \U00011103\U00011105\U0001112A\U00011116\U00011134\U00011123\U0001112D\U00011103\U00011128\U00011101
-      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   geo:
     latitude: 28.2021222
     longitude: -177.3804525
@@ -4061,10 +4156,23 @@ UM:
     min_longitude: -177.3946094
     max_latitude: 28.2150965
     max_longitude: -177.3695147
+  translations:
+    en: U.S. Outlying Islands
+    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134.
+      \U00011103\U00011105\U0001112A\U00011116\U00011134\U00011123\U0001112D\U00011103\U00011128\U00011101
+      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: see also separate entry under UM
-  name: United States Minor Outlying Islands
-UT:
+UT: !ruby/struct:ISO3166::Subdivision
+  name: Utah
+  code: 
   unofficial_names: Utah
+  geo:
+    latitude: 39.3209801
+    longitude: -111.0937311
+    min_latitude: 36.99790309999999
+    min_longitude: -114.0529979
+    max_latitude: 42.001618
+    max_longitude: -109.0410581
   translations:
     en: Utah
     af: Utah
@@ -4145,16 +4253,18 @@ UT:
     uz: Yuta
     bs: Utah
     mk: Јута
-  geo:
-    latitude: 39.3209801
-    longitude: -111.0937311
-    min_latitude: 36.99790309999999
-    min_longitude: -114.0529979
-    max_latitude: 42.001618
-    max_longitude: -109.0410581
-  name: Utah
-VA:
+  comments: 
+VA: !ruby/struct:ISO3166::Subdivision
+  name: Virginia
+  code: 
   unofficial_names: Virginia
+  geo:
+    latitude: 37.4315734
+    longitude: -78.6568942
+    min_latitude: 36.5407589
+    min_longitude: -83.675415
+    max_latitude: 39.466012
+    max_longitude: -75.2421573
   translations:
     en: Virginia
     af: Virginië
@@ -4236,20 +4346,11 @@ VA:
     uz: Virjiniya
     bs: Virginia
     mk: Вирџинија
-  geo:
-    latitude: 37.4315734
-    longitude: -78.6568942
-    min_latitude: 36.5407589
-    min_longitude: -83.675415
-    max_latitude: 39.466012
-    max_longitude: -75.2421573
-  name: Virginia
-VI:
+  comments: 
+VI: !ruby/struct:ISO3166::Subdivision
+  name: Virgin Islands, U.S.
+  code: 
   unofficial_names: Virgin Islands, U.S.
-  translations:
-    en: U.S. Virgin Islands
-    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134
-      \U0001111E\U00011122\U00011134\U0001110E\U00011128\U0001111A\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   geo:
     latitude: 33.8569878
     longitude: -84.5904089
@@ -4257,10 +4358,22 @@ VI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: U.S. Virgin Islands
+    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134
+      \U0001111E\U00011122\U00011134\U0001110E\U00011128\U0001111A\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: see also separate entry under VI
-  name: Virgin Islands, U.S.
-VT:
+VT: !ruby/struct:ISO3166::Subdivision
+  name: Vermont
+  code: 
   unofficial_names: Vermont
+  geo:
+    latitude: 44.5588028
+    longitude: -72.57784149999999
+    min_latitude: 42.7268499
+    min_longitude: -73.43055980000001
+    max_latitude: 45.0166591
+    max_longitude: -71.46503899999999
   translations:
     en: Vermont
     af: Vermont
@@ -4341,16 +4454,18 @@ VT:
     uz: Vermont
     bs: Vermont
     mk: Вермонт
-  geo:
-    latitude: 44.5588028
-    longitude: -72.57784149999999
-    min_latitude: 42.7268499
-    min_longitude: -73.43055980000001
-    max_latitude: 45.0166591
-    max_longitude: -71.46503899999999
-  name: Vermont
-WA:
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Washington
+  code: 
   unofficial_names: Washington
+  geo:
+    latitude: 47.7510741
+    longitude: -120.7401386
+    min_latitude: 45.5485987
+    min_longitude: -124.7857167
+    max_latitude: 49.0024305
+    max_longitude: -116.91558
   translations:
     en: Washington
     af: Washington²
@@ -4433,16 +4548,18 @@ WA:
     bs: Washington
     mk: Вашингтон
     ne: वाशिङ्गटन डि.सि.
-  geo:
-    latitude: 47.7510741
-    longitude: -120.7401386
-    min_latitude: 45.5485987
-    min_longitude: -124.7857167
-    max_latitude: 49.0024305
-    max_longitude: -116.91558
-  name: Washington
-WI:
+  comments: 
+WI: !ruby/struct:ISO3166::Subdivision
+  name: Wisconsin
+  code: 
   unofficial_names: Wisconsin
+  geo:
+    latitude: 43.7844397
+    longitude: -88.7878678
+    min_latitude: 42.491864
+    min_longitude: -92.88943309999999
+    max_latitude: 47.0807296
+    max_longitude: -86.7639767
   translations:
     en: Wisconsin
     af: Wisconsin
@@ -4524,16 +4641,18 @@ WI:
     uz: Viskonsin
     bs: Wisconsin
     mk: Висконсин
-  geo:
-    latitude: 43.7844397
-    longitude: -88.7878678
-    min_latitude: 42.491864
-    min_longitude: -92.88943309999999
-    max_latitude: 47.0807296
-    max_longitude: -86.7639767
-  name: Wisconsin
-WV:
+  comments: 
+WV: !ruby/struct:ISO3166::Subdivision
+  name: West Virginia
+  code: 
   unofficial_names: West Virginia
+  geo:
+    latitude: 38.5976262
+    longitude: -80.4549026
+    min_latitude: 37.2015399
+    min_longitude: -82.644413
+    max_latitude: 40.638801
+    max_longitude: -77.7189679
   translations:
     en: West Virginia
     af: Wes-Virginië
@@ -4612,16 +4731,18 @@ WV:
     yo: Ìwọ̀orùn Firginia
     bs: Zapadna Virginia
     mk: Западна Вирџинија
-  geo:
-    latitude: 38.5976262
-    longitude: -80.4549026
-    min_latitude: 37.2015399
-    min_longitude: -82.644413
-    max_latitude: 40.638801
-    max_longitude: -77.7189679
-  name: West Virginia
-WY:
+  comments: 
+WY: !ruby/struct:ISO3166::Subdivision
+  name: Wyoming
+  code: 
   unofficial_names: Wyoming
+  geo:
+    latitude: 43.0759678
+    longitude: -107.2902839
+    min_latitude: 40.994746
+    min_longitude: -111.056889
+    max_latitude: 45.005904
+    max_longitude: -104.0522449
   translations:
     en: Wyoming
     af: Wyoming
@@ -4703,11 +4824,4 @@ WY:
     uz: Vayoming
     bs: Wyoming
     mk: Вајоминг
-  geo:
-    latitude: 43.0759678
-    longitude: -107.2902839
-    min_latitude: 40.994746
-    min_longitude: -111.056889
-    max_latitude: 45.005904
-    max_longitude: -104.0522449
-  name: Wyoming
+  comments: 

@@ -1,9 +1,18 @@
 ---
-'10':
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Krung Thep Maha Nakhon [Bangkok]
+  code: 
   unofficial_names:
   - Krung Thep
   - Bangkok
   - BKK
+  geo:
+    latitude: 13.7563309
+    longitude: 100.5017651
+    min_latitude: 13.49409
+    min_longitude: 100.3278136
+    max_latitude: 13.955111
+    max_longitude: 100.938408
   translations:
     en: Bangkok
     af: Bangkok
@@ -90,16 +99,18 @@
     uz: Bangkok
     bs: Bangkok
     mk: Бангкок
-  geo:
-    latitude: 13.7563309
-    longitude: 100.5017651
-    min_latitude: 13.49409
-    min_longitude: 100.3278136
-    max_latitude: 13.955111
-    max_longitude: 100.938408
-  name: Krung Thep Maha Nakhon [Bangkok]
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Samut Prakan
+  code: 
   unofficial_names: Samut Prakan
+  geo:
+    latitude: 13.5990961
+    longitude: 100.5998319
+    min_latitude: 13.4793403
+    min_longitude: 100.4444578
+    max_latitude: 13.7169169
+    max_longitude: 100.9639206
   translations:
     en: Samut Prakan
     ar: محافظة ساموت براكان
@@ -145,16 +156,18 @@
     yue_Hans: 北榄府
     ccp: "\U00011125\U0001111F\U0001112A\U00011116\U00011134 \U0001111B\U00011133\U00011122\U00011107\U0001111A\U00011134"
     yue: 北欖府
-  geo:
-    latitude: 13.5990961
-    longitude: 100.5998319
-    min_latitude: 13.4793403
-    min_longitude: 100.4444578
-    max_latitude: 13.7169169
-    max_longitude: 100.9639206
-  name: Samut Prakan
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Nonthaburi
+  code: 
   unofficial_names: Nonthaburi
+  geo:
+    latitude: 13.8621125
+    longitude: 100.5143528
+    min_latitude: 13.7888688
+    min_longitude: 100.2623644
+    max_latitude: 14.1403089
+    max_longitude: 100.5677219
   translations:
     en: Nonthaburi
     ar: محافظة نونثابوري
@@ -203,16 +216,18 @@
     ccp: "\U0001111A\U00011127\U0001111A\U00011134\U00011117\U0001111D\U0001112A\U00011122\U00011128"
     yue: 暖武里府
     mk: Нонтабури
-  geo:
-    latitude: 13.8621125
-    longitude: 100.5143528
-    min_latitude: 13.7888688
-    min_longitude: 100.2623644
-    max_latitude: 14.1403089
-    max_longitude: 100.5677219
-  name: Nonthaburi
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Pathum Thani
+  code: 
   unofficial_names: Pathum Thani
+  geo:
+    latitude: 14.0208391
+    longitude: 100.5250276
+    min_latitude: 13.9161577
+    min_longitude: 100.3316202
+    max_latitude: 14.2759685
+    max_longitude: 100.9520247
   translations:
     en: Pathum Thani
     ar: محافظة باثوم ثاني
@@ -258,16 +273,18 @@
     ccp: "\U0001111B\U00011117\U0001112A\U0001111F\U00011134 \U00011117\U0001111A\U00011128"
     uk: Провінція Патум-Тані
     yue: 巴吞他尼府
-  geo:
-    latitude: 14.0208391
-    longitude: 100.5250276
-    min_latitude: 13.9161577
-    min_longitude: 100.3316202
-    max_latitude: 14.2759685
-    max_longitude: 100.9520247
-  name: Pathum Thani
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Phra Nakhon Si Ayutthaya
+  code: 
   unofficial_names: Phra Nakhon Si Ayutthaya
+  geo:
+    latitude: 14.3532128
+    longitude: 100.5689599
+    min_latitude: 14.1105626
+    min_longitude: 100.2126958
+    max_latitude: 14.6755751
+    max_longitude: 100.8232816
   translations:
     en: Phra Nakhon Si Ayutthaya
     ar: محافظة فرا ناخون سي أيوتثايا
@@ -315,16 +332,18 @@
     ml: ഫ്രാ നഘോൺ സി അയുത്ഥയ പ്രവിശ്യ
     uk: Провінція Аюттхая
     yue: 大城府
-  geo:
-    latitude: 14.3532128
-    longitude: 100.5689599
-    min_latitude: 14.1105626
-    min_longitude: 100.2126958
-    max_latitude: 14.6755751
-    max_longitude: 100.8232816
-  name: Phra Nakhon Si Ayutthaya
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Ang Thong
+  code: 
   unofficial_names: Ang Thong
+  geo:
+    latitude: 14.5896054
+    longitude: 100.455052
+    min_latitude: 14.438901
+    min_longitude: 100.1877062
+    max_latitude: 14.802408
+    max_longitude: 100.5163315
   translations:
     en: Ang Thong
     ar: محافظة أنغ ثونغ
@@ -371,16 +390,18 @@
     ccp: "\U00011103\U00011127\U00011101 \U00011117\U00011127\U00011101"
     uk: Провінція Анг-Тонг
     yue: 紅統府
-  geo:
-    latitude: 14.5896054
-    longitude: 100.455052
-    min_latitude: 14.438901
-    min_longitude: 100.1877062
-    max_latitude: 14.802408
-    max_longitude: 100.5163315
-  name: Ang Thong
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Lop Buri
+  code: 
   unofficial_names: Lop Buri
+  geo:
+    latitude: 14.7995081
+    longitude: 100.6533706
+    min_latitude: 14.6550888
+    min_longitude: 100.4293391
+    max_latitude: 15.7481383
+    max_longitude: 101.4136046
   translations:
     en: Lopburi
     ar: محافظة لوبوري
@@ -427,16 +448,18 @@
     ml: ലോപ്ബുരി പ്രവിശ്യ
     uk: Провінція Лопбурі
     yue: 華富里府
-  geo:
-    latitude: 14.7995081
-    longitude: 100.6533706
-    min_latitude: 14.6550888
-    min_longitude: 100.4293391
-    max_latitude: 15.7481383
-    max_longitude: 101.4136046
-  name: Lop Buri
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Sing Buri
+  code: 
   unofficial_names: Sing Buri
+  geo:
+    latitude: 14.8936253
+    longitude: 100.3967314
+    min_latitude: 14.7149053
+    min_longitude: 100.1814679
+    max_latitude: 15.1182942
+    max_longitude: 100.4882162
   translations:
     en: Sing Buri
     ar: محافظة سنغ بوري
@@ -482,19 +505,21 @@
     ccp: "\U00011125\U00011128\U00011101 \U0001111D\U0001112A\U00011122\U00011128"
     uk: Провінція Сінгбурі
     yue: 信武里府
-  geo:
-    latitude: 14.8936253
-    longitude: 100.3967314
-    min_latitude: 14.7149053
-    min_longitude: 100.1814679
-    max_latitude: 15.1182942
-    max_longitude: 100.4882162
-  name: Sing Buri
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Chai Nat
+  code: 
   unofficial_names:
   - Chainat
   - Jainat
   - Jayanath
+  geo:
+    latitude: 15.1252422
+    longitude: 100.1423172
+    min_latitude: 15.0934621
+    min_longitude: 100.1184262
+    max_latitude: 15.1659048
+    max_longitude: 100.1771848
   translations:
     en: Chai Nat
     ar: محافظة تشاينات
@@ -540,16 +565,18 @@
     ccp: "\U00011107\U0001112D \U0001111A\U00011116\U00011134"
     uk: Провінція Чайнат
     yue: 猜納府
-  geo:
-    latitude: 15.1252422
-    longitude: 100.1423172
-    min_latitude: 15.0934621
-    min_longitude: 100.1184262
-    max_latitude: 15.1659048
-    max_longitude: 100.1771848
-  name: Chai Nat
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Saraburi
+  code: 
   unofficial_names: Saraburi
+  geo:
+    latitude: 14.5289154
+    longitude: 100.9101421
+    min_latitude: 14.2430606
+    min_longitude: 100.5748146
+    max_latitude: 15.045331
+    max_longitude: 101.4545122
   translations:
     en: Saraburi
     ar: محافظة سارابوري
@@ -596,16 +623,18 @@
     ml: സരാബുരി പ്രവിശ്യ
     uk: Провінція Сарабурі
     yue: 北標府
-  geo:
-    latitude: 14.5289154
-    longitude: 100.9101421
-    min_latitude: 14.2430606
-    min_longitude: 100.5748146
-    max_latitude: 15.045331
-    max_longitude: 101.4545122
-  name: Saraburi
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Chon Buri
+  code: 
   unofficial_names: Chon Buri
+  geo:
+    latitude: 13.3611431
+    longitude: 100.9846717
+    min_latitude: 12.5086995
+    min_longitude: 100.6470747
+    max_latitude: 13.5893563
+    max_longitude: 101.7168862
   translations:
     en: Chon Buri
     ar: محافظة تشونبوري
@@ -654,16 +683,18 @@
     uk: Провінція Чонбурі
     yue: 春武里府
     my: ချွန်ဘူရီ ပြည်နယ်
-  geo:
-    latitude: 13.3611431
-    longitude: 100.9846717
-    min_latitude: 12.5086995
-    min_longitude: 100.6470747
-    max_latitude: 13.5893563
-    max_longitude: 101.7168862
-  name: Chon Buri
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Rayong
+  code: 
   unofficial_names: Rayong
+  geo:
+    latitude: 12.707434
+    longitude: 101.1473517
+    min_latitude: 12.5130282
+    min_longitude: 100.984673
+    max_latitude: 13.163471
+    max_longitude: 101.8312551
   translations:
     en: Rayong
     af: Rayong
@@ -726,16 +757,18 @@
     pa: ਰੇਯੋੰਗ ਪ੍ਰਦੇਸ਼
     uk: Провінція Районг
     yue: 羅勇府
-  geo:
-    latitude: 12.707434
-    longitude: 101.1473517
-    min_latitude: 12.5130282
-    min_longitude: 100.984673
-    max_latitude: 13.163471
-    max_longitude: 101.8312551
-  name: Rayong
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Chanthaburi
+  code: 
   unofficial_names: Chanthaburi
+  geo:
+    latitude: 12.6112485
+    longitude: 102.1037806
+    min_latitude: 12.5818304
+    min_longitude: 102.0659321
+    max_latitude: 12.6218309
+    max_longitude: 102.1175623
   translations:
     en: Chanthaburi
     ar: محافظة تشانثابوري
@@ -784,16 +817,18 @@
     km: ខេត្តច័ន្ទបុរី
     uk: Провінція Чантхабурі
     yue: 尖竹汶府
-  geo:
-    latitude: 12.6112485
-    longitude: 102.1037806
-    min_latitude: 12.5818304
-    min_longitude: 102.0659321
-    max_latitude: 12.6218309
-    max_longitude: 102.1175623
-  name: Chanthaburi
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Trat
+  code: 
   unofficial_names: Trat
+  geo:
+    latitude: 12.2427563
+    longitude: 102.5174734
+    min_latitude: 11.5617527
+    min_longitude: 102.2355769
+    max_latitude: 12.7582072
+    max_longitude: 102.9151464
   translations:
     en: Trat
     ar: محافظة ترات
@@ -840,16 +875,18 @@
     yue_Hans: 桐艾
     ccp: "\U00011111\U00011133\U00011122\U00011116\U00011134"
     yue: 桐艾
-  geo:
-    latitude: 12.2427563
-    longitude: 102.5174734
-    min_latitude: 11.5617527
-    min_longitude: 102.2355769
-    max_latitude: 12.7582072
-    max_longitude: 102.9151464
-  name: Trat
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Chachoengsao
+  code: 
   unofficial_names: Chachoengsao
+  geo:
+    latitude: 13.6904194
+    longitude: 101.0779596
+    min_latitude: 13.1786652
+    min_longitude: 100.8489619
+    max_latitude: 13.976755
+    max_longitude: 101.9902707
   translations:
     en: Chachoengsao
     ar: محافظة شاشوينجساو
@@ -896,16 +933,18 @@
     ccp: "\U0001110C\U0001110C\U0001112E\U00011120\U0001112C\U00011101\U00011125\U00011103\U0001112E"
     uk: Провінція Чаченгсау
     yue: 北柳府
-  geo:
-    latitude: 13.6904194
-    longitude: 101.0779596
-    min_latitude: 13.1786652
-    min_longitude: 100.8489619
-    max_latitude: 13.976755
-    max_longitude: 101.9902707
-  name: Chachoengsao
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Prachin Buri
+  code: 
   unofficial_names: Prachin Buri
+  geo:
+    latitude: 14.0420699
+    longitude: 101.6600874
+    min_latitude: 13.5823122
+    min_longitude: 101.137452
+    max_latitude: 14.4625612
+    max_longitude: 102.1060804
   translations:
     en: Prachin Buri
     ar: محافظة براشينبوري
@@ -952,16 +991,18 @@
     ccp: "\U0001111B\U00011133\U00011122\U0001110C\U00011128\U0001111A\U00011134 \U0001111D\U0001112A\U00011122\U00011128"
     uk: Провінція Прачінбурі
     yue: 巴真府
-  geo:
-    latitude: 14.0420699
-    longitude: 101.6600874
-    min_latitude: 13.5823122
-    min_longitude: 101.137452
-    max_latitude: 14.4625612
-    max_longitude: 102.1060804
-  name: Prachin Buri
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Nayok
+  code: 
   unofficial_names: Nakhon Nayok
+  geo:
+    latitude: 14.2038387
+    longitude: 101.2268773
+    min_latitude: 14.1934153
+    min_longitude: 101.2067585
+    max_latitude: 14.210597
+    max_longitude: 101.2307342
   translations:
     en: Nakhon Nayok
     ar: محافظة ناخون نايوك
@@ -1008,16 +1049,18 @@
     sl: provinca Nakhon Nayok
     uk: Провінція Накхоннайок
     yue: 坤西育府
-  geo:
-    latitude: 14.2038387
-    longitude: 101.2268773
-    min_latitude: 14.1934153
-    min_longitude: 101.2067585
-    max_latitude: 14.210597
-    max_longitude: 101.2307342
-  name: Nakhon Nayok
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Sa Kaeo
+  code: 
   unofficial_names: Sa Kaeo
+  geo:
+    latitude: 13.8240407
+    longitude: 102.0645821
+    min_latitude: 13.7347952
+    min_longitude: 102.0167527
+    max_latitude: 13.8665771
+    max_longitude: 102.1392174
   translations:
     en: Sa Kaeo
     ar: محافظة سا كايو
@@ -1064,16 +1107,18 @@
     ccp: "\U00011125 \U00011107\U00011128\U00011120\U0001112E"
     uk: Провінція Сакеу
     yue: 沙繳府
-  geo:
-    latitude: 13.8240407
-    longitude: 102.0645821
-    min_latitude: 13.7347952
-    min_longitude: 102.0167527
-    max_latitude: 13.8665771
-    max_longitude: 102.1392174
-  name: Sa Kaeo
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Ratchasima
+  code: 
   unofficial_names: Nakhon Ratchasima
+  geo:
+    latitude: 14.9798997
+    longitude: 102.0977693
+    min_latitude: 14.1206849
+    min_longitude: 101.180731
+    max_latitude: 15.8096069
+    max_longitude: 103.0125791
   translations:
     en: Nakhon Ratchasima
     ar: محافظة ناخون راتشاسيما
@@ -1119,16 +1164,18 @@
     ccp: "\U0001111A\U00011108\U00011127\U0001111A\U00011134 \U00011122\U00011116\U00011134\U0001110C\U00011125\U00011128\U0001111F"
     uk: Провінція Нахон-Ратчасіма
     yue: 呵叻府
-  geo:
-    latitude: 14.9798997
-    longitude: 102.0977693
-    min_latitude: 14.1206849
-    min_longitude: 101.180731
-    max_latitude: 15.8096069
-    max_longitude: 103.0125791
-  name: Nakhon Ratchasima
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Buri Ram
+  code: 
   unofficial_names: Buri Ram
+  geo:
+    latitude: 14.9930017
+    longitude: 103.1029191
+    min_latitude: 14.1307677
+    min_longitude: 102.4323873
+    max_latitude: 15.7956564
+    max_longitude: 103.5050278
   translations:
     en: Buri Ram
     ar: محافظة بوريرام
@@ -1175,16 +1222,18 @@
     ccp: "\U0001111D\U0001112A\U00011122\U00011128 \U00011122\U0001111F\U00011134"
     km: ខេត្តបុរីរម្យ
     yue: 武里喃府
-  geo:
-    latitude: 14.9930017
-    longitude: 103.1029191
-    min_latitude: 14.1307677
-    min_longitude: 102.4323873
-    max_latitude: 15.7956564
-    max_longitude: 103.5050278
-  name: Buri Ram
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Surin
+  code: 
   unofficial_names: Surin
+  geo:
+    latitude: 14.882905
+    longitude: 103.4937107
+    min_latitude: 14.3289551
+    min_longitude: 103.0892664
+    max_latitude: 15.4828457
+    max_longitude: 104.0918941
   translations:
     en: Surin
     ar: محافظة سورين
@@ -1231,16 +1280,18 @@
     yue_Hans: 素辇府
     ccp: "\U00011125\U0001112A\U00011122\U00011128\U0001111A\U00011134"
     yue: 素輦府
-  geo:
-    latitude: 14.882905
-    longitude: 103.4937107
-    min_latitude: 14.3289551
-    min_longitude: 103.0892664
-    max_latitude: 15.4828457
-    max_longitude: 104.0918941
-  name: Surin
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Si Sa Ket
+  code: 
   unofficial_names: Si Sa Ket
+  geo:
+    latitude: 15.1186009
+    longitude: 104.3220095
+    min_latitude: 14.3422348
+    min_longitude: 103.9019555
+    max_latitude: 15.5683691
+    max_longitude: 104.9076399
   translations:
     en: Si Sa Ket
     ar: محافظة سي سا كت
@@ -1286,16 +1337,18 @@
     ccp: "\U00011125\U00011128 \U00011125 \U00011107\U0001112C\U00011116\U00011134"
     uk: Провінція Сі-Са-Кет
     yue: 四色菊府
-  geo:
-    latitude: 15.1186009
-    longitude: 104.3220095
-    min_latitude: 14.3422348
-    min_longitude: 103.9019555
-    max_latitude: 15.5683691
-    max_longitude: 104.9076399
-  name: Si Sa Ket
-'34':
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: Ubon Ratchathani
+  code: 
   unofficial_names: Ubon Ratchathani
+  geo:
+    latitude: 15.2286861
+    longitude: 104.8564217
+    min_latitude: 14.2095638
+    min_longitude: 104.3716245
+    max_latitude: 16.0980447
+    max_longitude: 105.6361068
   translations:
     en: Ubon Ratchathani
     ar: محافظة أوبون راتشاثاني
@@ -1343,16 +1396,18 @@
     km: ខេត្តអ៊ូប៊ុន
     uk: Убон-Ратчатані
     yue: 烏汶府
-  geo:
-    latitude: 15.2286861
-    longitude: 104.8564217
-    min_latitude: 14.2095638
-    min_longitude: 104.3716245
-    max_latitude: 16.0980447
-    max_longitude: 105.6361068
-  name: Ubon Ratchathani
-'35':
+  comments: 
+'35': !ruby/struct:ISO3166::Subdivision
+  name: Yasothon
+  code: 
   unofficial_names: Yasothon
+  geo:
+    latitude: 15.792641
+    longitude: 104.1452827
+    min_latitude: 15.289189
+    min_longitude: 103.9974997
+    max_latitude: 16.3487691
+    max_longitude: 104.8249267
   translations:
     en: Yasothon
     ar: محافظة ياسوثون
@@ -1398,16 +1453,18 @@
     ccp: "\U00011103\U00011128\U00011120\U00011125\U0001112E\U00011117\U0001112E\U0001111A\U00011134"
     uk: Ясотхон
     yue: 益梭通府
-  geo:
-    latitude: 15.792641
-    longitude: 104.1452827
-    min_latitude: 15.289189
-    min_longitude: 103.9974997
-    max_latitude: 16.3487691
-    max_longitude: 104.8249267
-  name: Yasothon
-'36':
+  comments: 
+'36': !ruby/struct:ISO3166::Subdivision
+  name: Chaiyaphum
+  code: 
   unofficial_names: Chaiyaphum
+  geo:
+    latitude: 15.8068173
+    longitude: 102.0315027
+    min_latitude: 15.3121548
+    min_longitude: 101.326297
+    max_latitude: 16.7032031
+    max_longitude: 102.4598896
   translations:
     en: Chaiyaphum
     ar: محافظة تشايافوم
@@ -1453,16 +1510,18 @@
     ccp: "\U0001110C\U0001112D\U00011120\U0001111C\U0001112A\U0001111F\U00011134"
     uk: Чайяпхум
     yue: 猜也賁府
-  geo:
-    latitude: 15.8068173
-    longitude: 102.0315027
-    min_latitude: 15.3121548
-    min_longitude: 101.326297
-    max_latitude: 16.7032031
-    max_longitude: 102.4598896
-  name: Chaiyaphum
-'37':
+  comments: 
+'37': !ruby/struct:ISO3166::Subdivision
+  name: Amnat Charoen
+  code: 
   unofficial_names: Amnat Charoen
+  geo:
+    latitude: 15.8656783
+    longitude: 104.6257774
+    min_latitude: 15.5371433
+    min_longitude: 104.4189022
+    max_latitude: 16.2843339
+    max_longitude: 105.0602077
   translations:
     en: Amnat Charoen
     ar: محافظة أمنات تشاروين
@@ -1508,16 +1567,18 @@
     ccp: "\U00011103\U0001111F\U00011134\U0001111A\U00011116\U00011134 \U0001110C\U00011122\U0001112E\U00011120\U0001112C\U0001111A\U00011134"
     uk: Провінція Амнатчарен
     yue: 安納乍能府
-  geo:
-    latitude: 15.8656783
-    longitude: 104.6257774
-    min_latitude: 15.5371433
-    min_longitude: 104.4189022
-    max_latitude: 16.2843339
-    max_longitude: 105.0602077
-  name: Amnat Charoen
-'39':
+  comments: 
+'39': !ruby/struct:ISO3166::Subdivision
+  name: Nong Bua Lam Phu
+  code: 
   unofficial_names: Nong Bua Lam Phu
+  geo:
+    latitude: 17.2218247
+    longitude: 102.4260368
+    min_latitude: 16.7782727
+    min_longitude: 101.983666
+    max_latitude: 17.676059
+    max_longitude: 102.6814234
   translations:
     en: Nong Bua Lam Phu
     ar: محافظة نونغ بوا لامفو
@@ -1564,16 +1625,18 @@
       \U0001111C\U0001112A"
     uk: Провінція Нонгбуалампху
     yue: 廊磨喃蒲府
-  geo:
-    latitude: 17.2218247
-    longitude: 102.4260368
-    min_latitude: 16.7782727
-    min_longitude: 101.983666
-    max_latitude: 17.676059
-    max_longitude: 102.6814234
-  name: Nong Bua Lam Phu
-'40':
+  comments: 
+'40': !ruby/struct:ISO3166::Subdivision
+  name: Khon Kaen
+  code: 
   unofficial_names: Khon Kaen
+  geo:
+    latitude: 16.4419355
+    longitude: 102.8359921
+    min_latitude: 15.6330732
+    min_longitude: 101.7500362
+    max_latitude: 17.094254
+    max_longitude: 103.1846
   translations:
     en: Khon Kaen
     ar: محافظة خون كاين
@@ -1620,16 +1683,18 @@
     ccp: "\U00011108\U00011127\U0001111A\U00011134 \U00011107\U00011120\U0001112C\U0001111A\U00011134"
     uk: Провінція Хон-Каен
     yue: 坤敬府
-  geo:
-    latitude: 16.4419355
-    longitude: 102.8359921
-    min_latitude: 15.6330732
-    min_longitude: 101.7500362
-    max_latitude: 17.094254
-    max_longitude: 103.1846
-  name: Khon Kaen
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Udon Thani
+  code: 
   unofficial_names: Udon Thani
+  geo:
+    latitude: 17.4138413
+    longitude: 102.7872325
+    min_latitude: 16.8083403
+    min_longitude: 102.0151634
+    max_latitude: 18.0863234
+    max_longitude: 103.6683832
   translations:
     en: Udon Thani
     ar: محافظة ودون تاني
@@ -1677,16 +1742,18 @@
     ml: ഉഡോൺ താനി പ്രവിശ്യ
     uk: Провінція Удонтхані
     yue: 烏隆府
-  geo:
-    latitude: 17.4138413
-    longitude: 102.7872325
-    min_latitude: 16.8083403
-    min_longitude: 102.0151634
-    max_latitude: 18.0863234
-    max_longitude: 103.6683832
-  name: Udon Thani
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Loei
+  code: 
   unofficial_names: Loei
+  geo:
+    latitude: 17.4860232
+    longitude: 101.7223002
+    min_latitude: 16.753525
+    min_longitude: 100.8329086
+    max_latitude: 18.2198926
+    max_longitude: 102.1557095
   translations:
     en: Loei
     ar: محافظة لويي
@@ -1732,16 +1799,18 @@
     ccp: "\U00011123\U0001112E\U00011120\U00011128"
     uk: Провінція Лей
     yue: 黎府
-  geo:
-    latitude: 17.4860232
-    longitude: 101.7223002
-    min_latitude: 16.753525
-    min_longitude: 100.8329086
-    max_latitude: 18.2198926
-    max_longitude: 102.1557095
-  name: Loei
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Nong Khai
+  code: 
   unofficial_names: Nong Khai
+  geo:
+    latitude: 17.8782803
+    longitude: 102.7412638
+    min_latitude: 17.593637
+    min_longitude: 102.0543704
+    max_latitude: 18.3030927
+    max_longitude: 103.4176285
   translations:
     en: Nong Khai
     ar: محافظة نونغ خاي
@@ -1787,16 +1856,18 @@
     yue_Hans: 廊开府
     ccp: "\U0001111A\U00011127\U00011101 \U00011108\U0001112D"
     yue: 廊開府
-  geo:
-    latitude: 17.8782803
-    longitude: 102.7412638
-    min_latitude: 17.593637
-    min_longitude: 102.0543704
-    max_latitude: 18.3030927
-    max_longitude: 103.4176285
-  name: Nong Khai
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Maha Sarakham
+  code: 
   unofficial_names: Maha Sarakham
+  geo:
+    latitude: 16.0132015
+    longitude: 103.1615169
+    min_latitude: 15.406028
+    min_longitude: 102.8445023
+    max_latitude: 16.6429105
+    max_longitude: 103.503853
   translations:
     en: Maha Sarakham
     ar: محافظة ماها ساراخام
@@ -1843,16 +1914,18 @@
     ccp: "\U0001111F\U00011127\U0001111F \U00011125\U00011122\U00011108\U0001111F\U00011134"
     uk: Провінція Махасаракхам
     yue: 嗎哈沙拉堪府
-  geo:
-    latitude: 16.0132015
-    longitude: 103.1615169
-    min_latitude: 15.406028
-    min_longitude: 102.8445023
-    max_latitude: 16.6429105
-    max_longitude: 103.503853
-  name: Maha Sarakham
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Roi Et
+  code: 
   unofficial_names: Roi Et
+  geo:
+    latitude: 16.0538196
+    longitude: 103.6520036
+    min_latitude: 15.4048329
+    min_longitude: 103.2736968
+    max_latitude: 16.4733054
+    max_longitude: 104.349034
   translations:
     en: Roi Et
     ar: محافظة روي إت
@@ -1897,16 +1970,18 @@
     ccp: "\U00011122\U00011130 \U00011103\U0001112C\U00011116\U00011134"
     uk: Провінція Ройет
     yue: 橫逸府
-  geo:
-    latitude: 16.0538196
-    longitude: 103.6520036
-    min_latitude: 15.4048329
-    min_longitude: 103.2736968
-    max_latitude: 16.4733054
-    max_longitude: 104.349034
-  name: Roi Et
-'46':
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: Kalasin
+  code: 
   unofficial_names: Kalasin
+  geo:
+    latitude: 16.434167
+    longitude: 103.509167
+    min_latitude: 16.4240752
+    min_longitude: 103.4909801
+    max_latitude: 16.4531604
+    max_longitude: 103.5239108
   translations:
     en: Kalasin
     ar: محافظة كالاسين
@@ -1953,16 +2028,18 @@
     ccp: "\U00011107\U00011123\U00011125\U00011128\U0001111A\U00011134"
     uk: Провінція Каласін
     yue: 加拉信府
-  geo:
-    latitude: 16.434167
-    longitude: 103.509167
-    min_latitude: 16.4240752
-    min_longitude: 103.4909801
-    max_latitude: 16.4531604
-    max_longitude: 103.5239108
-  name: Kalasin
-'47':
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: Sakon Nakhon
+  code: 
   unofficial_names: Sakon Nakhon
+  geo:
+    latitude: 17.1545995
+    longitude: 104.1348365
+    min_latitude: 16.7722018
+    min_longitude: 103.2507219
+    max_latitude: 18.0889398
+    max_longitude: 104.4329268
   translations:
     en: Sakon Nakhon
     ar: محافظة ساكون ناخون
@@ -2008,16 +2085,18 @@
     yue_Hans: 色军府
     ccp: "\U00011125\U00011107\U00011127\U0001111A\U00011134 \U0001111A\U00011108\U00011127\U0001111A\U00011134"
     yue: 色軍府
-  geo:
-    latitude: 17.1545995
-    longitude: 104.1348365
-    min_latitude: 16.7722018
-    min_longitude: 103.2507219
-    max_latitude: 18.0889398
-    max_longitude: 104.4329268
-  name: Sakon Nakhon
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Phanom
+  code: 
   unofficial_names: Nakhon Phanom
+  geo:
+    latitude: 17.392039
+    longitude: 104.7695508
+    min_latitude: 16.7871771
+    min_longitude: 103.9816124
+    max_latitude: 18.024405
+    max_longitude: 104.8073821
   translations:
     en: Nakhon Phanom
     ar: محافظة ناخون فانوم
@@ -2063,16 +2142,18 @@
     yue_Hans: 那空拍侬府
     ccp: "\U0001111A\U00011108\U00011127\U0001111A\U00011134 \U0001111C\U0001111A\U00011127\U0001111F\U00011134"
     yue: 那空拍儂府
-  geo:
-    latitude: 17.392039
-    longitude: 104.7695508
-    min_latitude: 16.7871771
-    min_longitude: 103.9816124
-    max_latitude: 18.024405
-    max_longitude: 104.8073821
-  name: Nakhon Phanom
-'49':
+  comments: 
+'49': !ruby/struct:ISO3166::Subdivision
+  name: Mukdahan
+  code: 
   unofficial_names: Mukdahan
+  geo:
+    latitude: 16.5695723
+    longitude: 104.5231213
+    min_latitude: 16.1852048
+    min_longitude: 104.0702112
+    max_latitude: 16.9062543
+    max_longitude: 104.9783274
   translations:
     en: Mukdahan
     ar: محافظة موكداهان
@@ -2118,19 +2199,21 @@
     ccp: "\U0001111F\U0001112A\U00011107\U00011134\U00011113\U00011126\U0001111A\U00011134"
     uk: Провінція Мукдахан
     yue: 莫拉限府
-  geo:
-    latitude: 16.5695723
-    longitude: 104.5231213
-    min_latitude: 16.1852048
-    min_longitude: 104.0702112
-    max_latitude: 16.9062543
-    max_longitude: 104.9783274
-  name: Mukdahan
-'50':
+  comments: 
+'50': !ruby/struct:ISO3166::Subdivision
+  name: Chiang Mai
+  code: 
   unofficial_names:
   - Chiangmai
   - Chiengmai
   - Kiangmai
+  geo:
+    latitude: 18.787747
+    longitude: 98.99312839999999
+    min_latitude: 17.2424831
+    min_longitude: 98.0079447
+    max_latitude: 20.1475012
+    max_longitude: 99.5715955
   translations:
     en: Chiang Mai
     ar: محافظة تشيانغ مي
@@ -2180,16 +2263,18 @@
     ccp: "\U0001110C\U00011128\U00011120\U00011101 \U0001111F\U0001112D"
     ml: ചിയാങ് മായി പ്രവിശ്യ
     yue: 清邁府
-  geo:
-    latitude: 18.787747
-    longitude: 98.99312839999999
-    min_latitude: 17.2424831
-    min_longitude: 98.0079447
-    max_latitude: 20.1475012
-    max_longitude: 99.5715955
-  name: Chiang Mai
-'51':
+  comments: 
+'51': !ruby/struct:ISO3166::Subdivision
+  name: Lamphun
+  code: 
   unofficial_names: Lamphun
+  geo:
+    latitude: 18.5744606
+    longitude: 99.0087221
+    min_latitude: 17.4260273
+    min_longitude: 98.6707359
+    max_latitude: 18.7112077
+    max_longitude: 99.32132659999999
   translations:
     en: Lamphun
     ar: محافظة لامفون
@@ -2237,16 +2322,18 @@
     ccp: "\U00011123\U0001111F\U00011134\U0001111C\U0001112A\U0001111A\U00011134"
     uk: Провінція Лампхун
     yue: 南奔府
-  geo:
-    latitude: 18.5744606
-    longitude: 99.0087221
-    min_latitude: 17.4260273
-    min_longitude: 98.6707359
-    max_latitude: 18.7112077
-    max_longitude: 99.32132659999999
-  name: Lamphun
-'52':
+  comments: 
+'52': !ruby/struct:ISO3166::Subdivision
+  name: Lampang
+  code: 
   unofficial_names: Lampang
+  geo:
+    latitude: 18.2888404
+    longitude: 99.49087399999999
+    min_latitude: 17.2054347
+    min_longitude: 98.87993800000001
+    max_latitude: 19.4175326
+    max_longitude: 100.1254973
   translations:
     en: Lampang
     ar: لامبانغ
@@ -2294,16 +2381,18 @@
     ml: ലമ്പാങ് പ്രവിശ്യ
     uk: Провінція Лампанг
     yue: 南邦府
-  geo:
-    latitude: 18.2888404
-    longitude: 99.49087399999999
-    min_latitude: 17.2054347
-    min_longitude: 98.87993800000001
-    max_latitude: 19.4175326
-    max_longitude: 100.1254973
-  name: Lampang
-'53':
+  comments: 
+'53': !ruby/struct:ISO3166::Subdivision
+  name: Uttaradit
+  code: 
   unofficial_names: Uttaradit
+  geo:
+    latitude: 17.6200886
+    longitude: 100.0992942
+    min_latitude: 17.1624157
+    min_longitude: 99.896312
+    max_latitude: 18.3801428
+    max_longitude: 101.1926066
   translations:
     en: Uttaradit
     ar: محافظة أوتاراديت
@@ -2350,16 +2439,18 @@
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011113\U00011128\U00011116\U00011134"
     uk: Провінція Уттарадіт
     yue: 程逸府
-  geo:
-    latitude: 17.6200886
-    longitude: 100.0992942
-    min_latitude: 17.1624157
-    min_longitude: 99.896312
-    max_latitude: 18.3801428
-    max_longitude: 101.1926066
-  name: Uttaradit
-'54':
+  comments: 
+'54': !ruby/struct:ISO3166::Subdivision
+  name: Phrae
+  code: 
   unofficial_names: Phrae
+  geo:
+    latitude: 18.1445774
+    longitude: 100.1402831
+    min_latitude: 17.68767
+    min_longitude: 99.36754309999999
+    max_latitude: 18.8354634
+    max_longitude: 100.5512932
   translations:
     en: Phrae
     ar: محافظة فراي
@@ -2406,16 +2497,18 @@
     ccp: "\U0001111C\U00011133\U00011122\U00011120\U0001112C"
     uk: Провінція Пгре
     yue: 帕府
-  geo:
-    latitude: 18.1445774
-    longitude: 100.1402831
-    min_latitude: 17.68767
-    min_longitude: 99.36754309999999
-    max_latitude: 18.8354634
-    max_longitude: 100.5512932
-  name: Phrae
-'55':
+  comments: 
+'55': !ruby/struct:ISO3166::Subdivision
+  name: Nan
+  code: 
   unofficial_names: Nan
+  geo:
+    latitude: 18.7756318
+    longitude: 100.7730417
+    min_latitude: 18.0131901
+    min_longitude: 100.3360441
+    max_latitude: 19.6382266
+    max_longitude: 101.3572627
   translations:
     en: Nan
     ar: محافظة نان
@@ -2463,16 +2556,18 @@
     ml: നാൻ പ്രവിശ്യ
     uk: Провінція Нан
     yue: 楠府
-  geo:
-    latitude: 18.7756318
-    longitude: 100.7730417
-    min_latitude: 18.0131901
-    min_longitude: 100.3360441
-    max_latitude: 19.6382266
-    max_longitude: 101.3572627
-  name: Nan
-'56':
+  comments: 
+'56': !ruby/struct:ISO3166::Subdivision
+  name: Phayao
+  code: 
   unofficial_names: Phayao
+  geo:
+    latitude: 19.2154367
+    longitude: 100.2023692
+    min_latitude: 18.8063029
+    min_longitude: 99.6828377
+    max_latitude: 19.7351674
+    max_longitude: 100.6289514
   translations:
     en: Phayao
     ar: محافظة فاياو
@@ -2519,19 +2614,21 @@
     ccp: "\U0001111C\U00011120\U00011103\U0001112E"
     uk: Провінція Пхаяу
     yue: 拍天府
-  geo:
-    latitude: 19.2154367
-    longitude: 100.2023692
-    min_latitude: 18.8063029
-    min_longitude: 99.6828377
-    max_latitude: 19.7351674
-    max_longitude: 100.6289514
-  name: Phayao
-'57':
+  comments: 
+'57': !ruby/struct:ISO3166::Subdivision
+  name: Chiang Rai
+  code: 
   unofficial_names:
   - Chianpai
   - Chienrai
   - Muang Chiang Rai
+  geo:
+    latitude: 19.9071656
+    longitude: 99.830955
+    min_latitude: 18.9997316
+    min_longitude: 99.2582535
+    max_latitude: 20.4651902
+    max_longitude: 100.5778881
   translations:
     en: Chiang Rai
     ar: تشيانغ ري
@@ -2581,16 +2678,18 @@
     hu: Csiangraj tartomány
     uk: Провінція Чіанг-Рай
     yue: 清萊
-  geo:
-    latitude: 19.9071656
-    longitude: 99.830955
-    min_latitude: 18.9997316
-    min_longitude: 99.2582535
-    max_latitude: 20.4651902
-    max_longitude: 100.5778881
-  name: Chiang Rai
-'58':
+  comments: 
+'58': !ruby/struct:ISO3166::Subdivision
+  name: Mae Hong Son
+  code: 
   unofficial_names: Mae Hong Son
+  geo:
+    latitude: 19.3020296
+    longitude: 97.96543679999999
+    min_latitude: 17.6370173
+    min_longitude: 97.3433651
+    max_latitude: 19.8141954
+    max_longitude: 98.6540375
   translations:
     en: Mae Hong Son
     ar: محافظة ماي هونغ سون
@@ -2637,16 +2736,18 @@
     ccp: "\U0001111F\U00011120\U0001112C \U00011126\U00011127\U00011101 \U00011125\U00011127\U0001111A\U00011134"
     uk: Мехонгсон, Мегонґсон
     yue: 湄宏順府
-  geo:
-    latitude: 19.3020296
-    longitude: 97.96543679999999
-    min_latitude: 17.6370173
-    min_longitude: 97.3433651
-    max_latitude: 19.8141954
-    max_longitude: 98.6540375
-  name: Mae Hong Son
-'60':
+  comments: 
+'60': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Sawan
+  code: 
   unofficial_names: Nakhon Sawan
+  geo:
+    latitude: 15.6930072
+    longitude: 100.1225595
+    min_latitude: 15.0514745
+    min_longitude: 99.08603199999999
+    max_latitude: 16.1913173
+    max_longitude: 100.8339533
   translations:
     en: Nakhon Sawan
     ar: محافظة ناخون ساوان
@@ -2693,16 +2794,18 @@
     uk: Провінція Накхонсаван
     yue: 北攬坡府
     mk: Након Саван
-  geo:
-    latitude: 15.6930072
-    longitude: 100.1225595
-    min_latitude: 15.0514745
-    min_longitude: 99.08603199999999
-    max_latitude: 16.1913173
-    max_longitude: 100.8339533
-  name: Nakhon Sawan
-'61':
+  comments: 
+'61': !ruby/struct:ISO3166::Subdivision
+  name: Uthai Thani
+  code: 
   unofficial_names: Uthai Thani
+  geo:
+    latitude: 15.3835001
+    longitude: 100.0245527
+    min_latitude: 14.9418877
+    min_longitude: 98.98343009999999
+    max_latitude: 15.7979235
+    max_longitude: 100.1065625
   translations:
     en: Uthai Thani
     ar: محافظة يوثاي ثاني
@@ -2748,16 +2851,18 @@
     ccp: "\U00011105\U0001112A\U00011117\U0001112D \U00011117\U0001111A\U00011128"
     uk: Провінція Утхайтхан
     yue: 烏泰他尼府
-  geo:
-    latitude: 15.3835001
-    longitude: 100.0245527
-    min_latitude: 14.9418877
-    min_longitude: 98.98343009999999
-    max_latitude: 15.7979235
-    max_longitude: 100.1065625
-  name: Uthai Thani
-'62':
+  comments: 
+'62': !ruby/struct:ISO3166::Subdivision
+  name: Kamphaeng Phet
+  code: 
   unofficial_names: Kamphaeng Phet
+  geo:
+    latitude: 16.4827798
+    longitude: 99.5226618
+    min_latitude: 15.8756459
+    min_longitude: 98.9887554
+    max_latitude: 16.9134168
+    max_longitude: 100.0381412
   translations:
     en: Kamphaeng Phet
     ar: كامفاينغ فيت
@@ -2803,16 +2908,18 @@
     ccp: "\U00011116\U0001111F\U00011134\U0001111C\U00011120\U0001112C\U00011101 \U0001111C\U0001112C\U00011116\U00011134"
     uk: Провінція Кампхенгпхет
     yue: 甘烹碧府
-  geo:
-    latitude: 16.4827798
-    longitude: 99.5226618
-    min_latitude: 15.8756459
-    min_longitude: 98.9887554
-    max_latitude: 16.9134168
-    max_longitude: 100.0381412
-  name: Kamphaeng Phet
-'63':
+  comments: 
+'63': !ruby/struct:ISO3166::Subdivision
+  name: Tak
+  code: 
   unofficial_names: Tak
+  geo:
+    latitude: 16.8839901
+    longitude: 99.1258498
+    min_latitude: 15.1807556
+    min_longitude: 97.7423139
+    max_latitude: 17.8678208
+    max_longitude: 99.48912449999999
   translations:
     en: Tak
     ar: محافظة تاك
@@ -2860,17 +2967,19 @@
     ml: തക് പ്രവിശ്യ
     uk: Провінція Так
     yue: 來興府
-  geo:
-    latitude: 16.8839901
-    longitude: 99.1258498
-    min_latitude: 15.1807556
-    min_longitude: 97.7423139
-    max_latitude: 17.8678208
-    max_longitude: 99.48912449999999
-  name: Tak
-'64':
+  comments: 
+'64': !ruby/struct:ISO3166::Subdivision
+  name: Sukhothai
+  code: 
   unofficial_names:
   - Sakhothai
+  geo:
+    latitude: 17.0055573
+    longitude: 99.8263712
+    min_latitude: 16.6828055
+    min_longitude: 99.30973329999999
+    max_latitude: 17.8214838
+    max_longitude: 100.111706
   translations:
     en: Sukhothai
     ar: محافظة سوكوتاي
@@ -2917,16 +3026,18 @@
     ccp: "\U00011125\U0001112A\U00011108\U0001112E\U00011117\U0001112D"
     km: ខេត្តសុខោទ័យ
     yue: 素可泰府
-  geo:
-    latitude: 17.0055573
-    longitude: 99.8263712
-    min_latitude: 16.6828055
-    min_longitude: 99.30973329999999
-    max_latitude: 17.8214838
-    max_longitude: 100.111706
-  name: Sukhothai
-'65':
+  comments: 
+'65': !ruby/struct:ISO3166::Subdivision
+  name: Phitsanulok
+  code: 
   unofficial_names: Phitsanulok
+  geo:
+    latitude: 16.8211238
+    longitude: 100.2658516
+    min_latitude: 16.792816
+    min_longitude: 100.2456044
+    max_latitude: 16.84105
+    max_longitude: 100.293535
   translations:
     en: Phitsanulok
     ar: محافظة فيتسانولوك
@@ -2974,16 +3085,18 @@
     ml: ഫിറ്റ്സാനുലോക്ക് പ്രവിശ്യ
     uk: Провінція Пхітсанулок
     yue: 彭世洛府
-  geo:
-    latitude: 16.8211238
-    longitude: 100.2658516
-    min_latitude: 16.792816
-    min_longitude: 100.2456044
-    max_latitude: 16.84105
-    max_longitude: 100.293535
-  name: Phitsanulok
-'66':
+  comments: 
+'66': !ruby/struct:ISO3166::Subdivision
+  name: Phichit
+  code: 
   unofficial_names: Phichit
+  geo:
+    latitude: 16.2740876
+    longitude: 100.3346991
+    min_latitude: 15.9162294
+    min_longitude: 99.98371929999999
+    max_latitude: 16.6451379
+    max_longitude: 100.7992393
   translations:
     en: Phichit
     ar: محافظة فيتشيت
@@ -3029,16 +3142,18 @@
     ccp: "\U0001111C\U00011128\U0001110C\U00011128\U00011116\U00011134"
     uk: Провінція Пхічіт
     yue: 披集府
-  geo:
-    latitude: 16.2740876
-    longitude: 100.3346991
-    min_latitude: 15.9162294
-    min_longitude: 99.98371929999999
-    max_latitude: 16.6451379
-    max_longitude: 100.7992393
-  name: Phichit
-'67':
+  comments: 
+'67': !ruby/struct:ISO3166::Subdivision
+  name: Phetchabun
+  code: 
   unofficial_names: Phetchabun
+  geo:
+    latitude: 16.301669
+    longitude: 101.1192804
+    min_latitude: 15.3182319
+    min_longitude: 100.6343118
+    max_latitude: 17.1781399
+    max_longitude: 101.7940183
   translations:
     en: Phetchabun
     ar: محافظة فيتشابون
@@ -3084,16 +3199,18 @@
     ccp: "\U0001111C\U0001112C\U00011116\U00011134\U0001110C\U0001111D\U0001112A\U0001111A\U00011134"
     uk: Провінція Пхетчабун
     yue: 碧差汶府
-  geo:
-    latitude: 16.301669
-    longitude: 101.1192804
-    min_latitude: 15.3182319
-    min_longitude: 100.6343118
-    max_latitude: 17.1781399
-    max_longitude: 101.7940183
-  name: Phetchabun
-'70':
+  comments: 
+'70': !ruby/struct:ISO3166::Subdivision
+  name: Ratchaburi
+  code: 
   unofficial_names: Ratchaburi
+  geo:
+    latitude: 13.5282893
+    longitude: 99.8134211
+    min_latitude: 13.148458
+    min_longitude: 99.1634857
+    max_latitude: 13.9449264
+    max_longitude: 100.0728342
   translations:
     en: Ratchaburi
     ar: محافظة راتشابوري
@@ -3140,16 +3257,18 @@
     yue_Hans: 叻丕府
     ccp: "\U00011122\U00011116\U00011134\U0001110C\U0001111D\U0001112A\U00011122\U00011128"
     yue: 叻丕府
-  geo:
-    latitude: 13.5282893
-    longitude: 99.8134211
-    min_latitude: 13.148458
-    min_longitude: 99.1634857
-    max_latitude: 13.9449264
-    max_longitude: 100.0728342
-  name: Ratchaburi
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Kanchanaburi
+  code: 
   unofficial_names: Kanchanaburi
+  geo:
+    latitude: 14.0227797
+    longitude: 99.5328115
+    min_latitude: 13.7261095
+    min_longitude: 98.1810039
+    max_latitude: 15.662279
+    max_longitude: 99.887722
   translations:
     en: Kanchanaburi
     ar: محافظة كانتشانابوري
@@ -3197,16 +3316,18 @@
     ml: കാഞ്ചനബുരി പ്രവിശ്യ
     uk: Провінція Канчанабурі
     yue: 北碧府
-  geo:
-    latitude: 14.0227797
-    longitude: 99.5328115
-    min_latitude: 13.7261095
-    min_longitude: 98.1810039
-    max_latitude: 15.662279
-    max_longitude: 99.887722
-  name: Kanchanaburi
-'72':
+  comments: 
+'72': !ruby/struct:ISO3166::Subdivision
+  name: Suphan Buri
+  code: 
   unofficial_names: Suphan Buri
+  geo:
+    latitude: 14.4744892
+    longitude: 100.1177128
+    min_latitude: 14.0566785
+    min_longitude: 99.28135119999999
+    max_latitude: 15.0823024
+    max_longitude: 100.2832801
   translations:
     en: Suphanburi
     ar: محافظة سوفانبوري
@@ -3252,16 +3373,18 @@
     ccp: "\U00011125\U0001112A\U0001111C\U0001111A\U00011134\U0001111D\U0001112A\U00011122\U00011128"
     uk: Провінція Супханбурі
     yue: 素攀武里府
-  geo:
-    latitude: 14.4744892
-    longitude: 100.1177128
-    min_latitude: 14.0566785
-    min_longitude: 99.28135119999999
-    max_latitude: 15.0823024
-    max_longitude: 100.2832801
-  name: Suphan Buri
-'73':
+  comments: 
+'73': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Pathom
+  code: 
   unofficial_names: Nakhon Pathom
+  geo:
+    latitude: 13.8199206
+    longitude: 100.0621676
+    min_latitude: 13.6493354
+    min_longitude: 99.82921119999999
+    max_latitude: 14.1789481
+    max_longitude: 100.3375195
   translations:
     en: Nakhon Pathom
     ar: محافظة ناخون باتوم
@@ -3307,16 +3430,18 @@
     ccp: "\U0001111A\U00011108\U00011127\U0001111A\U00011134 \U0001111B\U00011117\U0001112E\U0001111F\U00011134"
     uk: Провінція Нахонпатхом
     yue: 佛統府
-  geo:
-    latitude: 13.8199206
-    longitude: 100.0621676
-    min_latitude: 13.6493354
-    min_longitude: 99.82921119999999
-    max_latitude: 14.1789481
-    max_longitude: 100.3375195
-  name: Nakhon Pathom
-'74':
+  comments: 
+'74': !ruby/struct:ISO3166::Subdivision
+  name: Samut Sakhon
+  code: 
   unofficial_names: Samut Sakhon
+  geo:
+    latitude: 13.5475216
+    longitude: 100.2743956
+    min_latitude: 13.4250416
+    min_longitude: 100.0269286
+    max_latitude: 13.721126
+    max_longitude: 100.4201172
   translations:
     en: Samut Sakhon
     ar: محافظة ساموت ساخون
@@ -3362,16 +3487,18 @@
     yue_Hans: 龙仔厝府
     ccp: "\U00011125\U0001111F\U0001112A\U00011116\U00011134 \U00011125\U00011108\U00011127\U0001111A\U00011134"
     yue: 龍仔厝府
-  geo:
-    latitude: 13.5475216
-    longitude: 100.2743956
-    min_latitude: 13.4250416
-    min_longitude: 100.0269286
-    max_latitude: 13.721126
-    max_longitude: 100.4201172
-  name: Samut Sakhon
-'75':
+  comments: 
+'75': !ruby/struct:ISO3166::Subdivision
+  name: Samut Songkhram
+  code: 
   unofficial_names: Samut Songkhram
+  geo:
+    latitude: 13.4098217
+    longitude: 100.0022645
+    min_latitude: 13.2375277
+    min_longitude: 99.84554179999999
+    max_latitude: 13.5147972
+    max_longitude: 100.078691
   translations:
     en: Samut Songkhram
     ar: محافظة ساموت سونغخرام
@@ -3419,16 +3546,18 @@
     yue_Hans: 夜功府
     ccp: "\U00011125\U0001111F\U0001112A\U00011116 \U00011125\U00011127\U00011101\U00011108\U00011133\U00011122\U0001111F\U00011134"
     yue: 夜功府
-  geo:
-    latitude: 13.4098217
-    longitude: 100.0022645
-    min_latitude: 13.2375277
-    min_longitude: 99.84554179999999
-    max_latitude: 13.5147972
-    max_longitude: 100.078691
-  name: Samut Songkhram
-'76':
+  comments: 
+'76': !ruby/struct:ISO3166::Subdivision
+  name: Phetchaburi
+  code: 
   unofficial_names: Phetchaburi
+  geo:
+    latitude: 12.9649215
+    longitude: 99.6425883
+    min_latitude: 12.5632989
+    min_longitude: 99.0995873
+    max_latitude: 13.3445097
+    max_longitude: 100.1057452
   translations:
     en: Phetchaburi
     ar: محافظة براتشينبوري
@@ -3476,16 +3605,18 @@
     ccp: "\U0001111C\U0001112C\U00011116\U00011134\U0001110C\U0001111D\U0001112A\U00011122\U00011128"
     uk: Провінція Пхетбурі
     yue: 佛丕府
-  geo:
-    latitude: 12.9649215
-    longitude: 99.6425883
-    min_latitude: 12.5632989
-    min_longitude: 99.0995873
-    max_latitude: 13.3445097
-    max_longitude: 100.1057452
-  name: Phetchaburi
-'77':
+  comments: 
+'77': !ruby/struct:ISO3166::Subdivision
+  name: Prachuap Khiri Khan
+  code: 
   unofficial_names: Prachuap Khiri Khan
+  geo:
+    latitude: 11.816667
+    longitude: 99.8
+    min_latitude: 11.7831305
+    min_longitude: 99.77529
+    max_latitude: 11.8504599
+    max_longitude: 99.83044629999999
   translations:
     en: Prachuap Khiri Khan
     ar: محافظة براتشواب خيري خان
@@ -3535,16 +3666,18 @@
     ml: പ്രച്വാപ് ഖിരി ഖാൻ പ്രവിശ്യ
     uk: Провінція Прачуапкхірікхан
     yue: 班武里府
-  geo:
-    latitude: 11.816667
-    longitude: 99.8
-    min_latitude: 11.7831305
-    min_longitude: 99.77529
-    max_latitude: 11.8504599
-    max_longitude: 99.83044629999999
-  name: Prachuap Khiri Khan
-'80':
+  comments: 
+'80': !ruby/struct:ISO3166::Subdivision
+  name: Nakhon Si Thammarat
+  code: 
   unofficial_names: Nakhon Si Thammarat
+  geo:
+    latitude: 8.4303975
+    longitude: 99.96312189999999
+    min_latitude: 7.8380614
+    min_longitude: 99.2344681
+    max_latitude: 9.3273438
+    max_longitude: 100.336324
   translations:
     en: Nakhon Si Thammarat
     ar: محافظة ناخون سي تاممارات
@@ -3592,16 +3725,18 @@
     hu: Nakhonszithammarat tartomány
     uk: Провінція Нахон-Сі-Таммарат
     yue: 洛坤府
-  geo:
-    latitude: 8.4303975
-    longitude: 99.96312189999999
-    min_latitude: 7.8380614
-    min_longitude: 99.2344681
-    max_latitude: 9.3273438
-    max_longitude: 100.336324
-  name: Nakhon Si Thammarat
-'81':
+  comments: 
+'81': !ruby/struct:ISO3166::Subdivision
+  name: Krabi
+  code: 
   unofficial_names: Krabi
+  geo:
+    latitude: 8.0862997
+    longitude: 98.9062835
+    min_latitude: 7.3999017
+    min_longitude: 98.5748929
+    max_latitude: 8.6816651
+    max_longitude: 99.4129851
   translations:
     en: Krabi
     ar: محافظة كرابي
@@ -3650,16 +3785,18 @@
     uk: Провінція Крабі
     cs: Krabi
     yue: 甲米府
-  geo:
-    latitude: 8.0862997
-    longitude: 98.9062835
-    min_latitude: 7.3999017
-    min_longitude: 98.5748929
-    max_latitude: 8.6816651
-    max_longitude: 99.4129851
-  name: Krabi
-'82':
+  comments: 
+'82': !ruby/struct:ISO3166::Subdivision
+  name: Phangnga
+  code: 
   unofficial_names: Phangnga
+  geo:
+    latitude: 8.4501414
+    longitude: 98.5255317
+    min_latitude: 7.8831978
+    min_longitude: 97.6315499
+    max_latitude: 9.463429099999999
+    max_longitude: 98.7070776
   translations:
     en: Phang Nga
     ar: محافظة فانغ نغا
@@ -3706,16 +3843,18 @@
     hu: Phangnga tartomány
     uk: Провінція Пхангнга
     yue: 攀牙府
-  geo:
-    latitude: 8.4501414
-    longitude: 98.5255317
-    min_latitude: 7.8831978
-    min_longitude: 97.6315499
-    max_latitude: 9.463429099999999
-    max_longitude: 98.7070776
-  name: Phangnga
-'83':
+  comments: 
+'83': !ruby/struct:ISO3166::Subdivision
+  name: Phuket
+  code: 
   unofficial_names: Phuket
+  geo:
+    latitude: 7.9519331
+    longitude: 98.33808839999999
+    min_latitude: 7.4621565
+    min_longitude: 98.2580093
+    max_latitude: 8.1999143
+    max_longitude: 98.4618483
   translations:
     en: Phuket
     ar: محافظة بوكيت
@@ -3773,16 +3912,18 @@
     is: Phuket
     kk: Пхукет
     yue: 布吉府
-  geo:
-    latitude: 7.9519331
-    longitude: 98.33808839999999
-    min_latitude: 7.4621565
-    min_longitude: 98.2580093
-    max_latitude: 8.1999143
-    max_longitude: 98.4618483
-  name: Phuket
-'84':
+  comments: 
+'84': !ruby/struct:ISO3166::Subdivision
+  name: Surat Thani
+  code: 
   unofficial_names: Surat Thani
+  geo:
+    latitude: 9.1382389
+    longitude: 99.3217483
+    min_latitude: 8.3008059
+    min_longitude: 98.4430884
+    max_latitude: 10.1264422
+    max_longitude: 100.0905653
   translations:
     en: Surat Thani
     ar: محافظة سورات ثاني
@@ -3832,16 +3973,18 @@
     ml: സൂറത്ത് താനി പ്രവിശ്യ
     uk: Сураттхані
     yue: 素叻府
-  geo:
-    latitude: 9.1382389
-    longitude: 99.3217483
-    min_latitude: 8.3008059
-    min_longitude: 98.4430884
-    max_latitude: 10.1264422
-    max_longitude: 100.0905653
-  name: Surat Thani
-'85':
+  comments: 
+'85': !ruby/struct:ISO3166::Subdivision
+  name: Ranong
+  code: 
   unofficial_names: Ranong
+  geo:
+    latitude: 9.9528702
+    longitude: 98.60846409999999
+    min_latitude: 9.3039528
+    min_longitude: 98.3260237
+    max_latitude: 10.7885391
+    max_longitude: 98.9650219
   translations:
     en: Ranong
     ar: محافظة رانونغ
@@ -3888,16 +4031,18 @@
     yue_Hans: 拉廊府
     ccp: "\U00011122\U0001111A\U00011127\U00011101"
     yue: 拉廊府
-  geo:
-    latitude: 9.9528702
-    longitude: 98.60846409999999
-    min_latitude: 9.3039528
-    min_longitude: 98.3260237
-    max_latitude: 10.7885391
-    max_longitude: 98.9650219
-  name: Ranong
-'86':
+  comments: 
+'86': !ruby/struct:ISO3166::Subdivision
+  name: Chumphon
+  code: 
   unofficial_names: Chumphon
+  geo:
+    latitude: 10.4930496
+    longitude: 99.18001989999999
+    min_latitude: 9.600966
+    min_longitude: 98.6268518
+    max_latitude: 11.0336752
+    max_longitude: 99.5195074
   translations:
     en: Chumphon
     ar: محافظة تشومفون
@@ -3943,16 +4088,18 @@
     ccp: "\U0001110C\U0001112A\U0001111F\U0001111C\U0001112E\U0001111A\U00011134"
     uk: Чумпхон
     yue: 春蓬府
-  geo:
-    latitude: 10.4930496
-    longitude: 99.18001989999999
-    min_latitude: 9.600966
-    min_longitude: 98.6268518
-    max_latitude: 11.0336752
-    max_longitude: 99.5195074
-  name: Chumphon
-'90':
+  comments: 
+'90': !ruby/struct:ISO3166::Subdivision
+  name: Songkhla
+  code: 
   unofficial_names: Songkhla
+  geo:
+    latitude: 7.1756004
+    longitude: 100.614347
+    min_latitude: 6.2898742
+    min_longitude: 100.0547578
+    max_latitude: 7.9389736
+    max_longitude: 101.1050578
   translations:
     en: Songkhla
     ar: محافظة سونغكلا
@@ -3999,16 +4146,18 @@
     ccp: "\U00011125\U00011127\U00011101\U00011108\U00011133\U00011123"
     ml: സോങ്ഖ്ല പ്രവിശ്യ
     yue: 宋卡府
-  geo:
-    latitude: 7.1756004
-    longitude: 100.614347
-    min_latitude: 6.2898742
-    min_longitude: 100.0547578
-    max_latitude: 7.9389736
-    max_longitude: 101.1050578
-  name: Songkhla
-'91':
+  comments: 
+'91': !ruby/struct:ISO3166::Subdivision
+  name: Satun
+  code: 
   unofficial_names: Satun
+  geo:
+    latitude: 6.6238158
+    longitude: 100.0673744
+    min_latitude: 6.4227785
+    min_longitude: 99.1538582
+    max_latitude: 7.208318200000001
+    max_longitude: 100.2209857
   translations:
     en: Satun
     ar: محافظة ساتون
@@ -4054,16 +4203,18 @@
     yue_Hans: 沙敦府
     ccp: "\U00011125\U00011111\U0001112A\U0001111A\U00011134"
     yue: 沙敦府
-  geo:
-    latitude: 6.6238158
-    longitude: 100.0673744
-    min_latitude: 6.4227785
-    min_longitude: 99.1538582
-    max_latitude: 7.208318200000001
-    max_longitude: 100.2209857
-  name: Satun
-'92':
+  comments: 
+'92': !ruby/struct:ISO3166::Subdivision
+  name: Trang
+  code: 
   unofficial_names: Trang
+  geo:
+    latitude: 7.5593851
+    longitude: 99.6110065
+    min_latitude: 7.0218242
+    min_longitude: 99.05557379999999
+    max_latitude: 8.0126303
+    max_longitude: 99.9595902
   translations:
     en: Trang
     ar: محافظة ترانغ
@@ -4110,16 +4261,18 @@
     hu: Trang tartomány
     uk: Провінція Транг
     yue: 董里府
-  geo:
-    latitude: 7.5593851
-    longitude: 99.6110065
-    min_latitude: 7.0218242
-    min_longitude: 99.05557379999999
-    max_latitude: 8.0126303
-    max_longitude: 99.9595902
-  name: Trang
-'93':
+  comments: 
+'93': !ruby/struct:ISO3166::Subdivision
+  name: Phatthalung
+  code: 
   unofficial_names: Phatthalung
+  geo:
+    latitude: 7.6166823
+    longitude: 100.0740231
+    min_latitude: 7.0909672
+    min_longitude: 99.7324393
+    max_latitude: 7.893497099999999
+    max_longitude: 100.4287929
   translations:
     en: Phatthalung
     ar: محافظة فاتالونغ
@@ -4165,16 +4318,18 @@
     ccp: "\U0001111C\U00011116\U00011134\U00011117\U00011123\U0001112A\U00011101"
     uk: Провінція Пхаттхалунг
     yue: 博他侖府
-  geo:
-    latitude: 7.6166823
-    longitude: 100.0740231
-    min_latitude: 7.0909672
-    min_longitude: 99.7324393
-    max_latitude: 7.893497099999999
-    max_longitude: 100.4287929
-  name: Phatthalung
-'94':
+  comments: 
+'94': !ruby/struct:ISO3166::Subdivision
+  name: Pattani
+  code: 
   unofficial_names: Pattani
+  geo:
+    latitude: 6.761830799999999
+    longitude: 101.3232549
+    min_latitude: 6.5501456
+    min_longitude: 101.0175344
+    max_latitude: 6.9520466
+    max_longitude: 101.7255187
   translations:
     en: Pattani
     ar: باتاني
@@ -4222,16 +4377,18 @@
     uk: Провінція Патані
     yue: 北大年府
     az: Pattani
-  geo:
-    latitude: 6.761830799999999
-    longitude: 101.3232549
-    min_latitude: 6.5501456
-    min_longitude: 101.0175344
-    max_latitude: 6.9520466
-    max_longitude: 101.7255187
-  name: Pattani
-'95':
+  comments: 
+'95': !ruby/struct:ISO3166::Subdivision
+  name: Yala
+  code: 
   unofficial_names: Yala
+  geo:
+    latitude: 6.541147
+    longitude: 101.2803947
+    min_latitude: 5.6127293
+    min_longitude: 100.8347818
+    max_latitude: 6.6831248
+    max_longitude: 101.6121819
   translations:
     en: Yala
     ar: محافظة يالا
@@ -4278,16 +4435,18 @@
     ccp: "\U00011103\U00011128\U00011120\U00011123"
     uk: Провінція Яла
     yue: 惹拉府
-  geo:
-    latitude: 6.541147
-    longitude: 101.2803947
-    min_latitude: 5.6127293
-    min_longitude: 100.8347818
-    max_latitude: 6.6831248
-    max_longitude: 101.6121819
-  name: Yala
-'96':
+  comments: 
+'96': !ruby/struct:ISO3166::Subdivision
+  name: Narathiwat
+  code: 
   unofficial_names: Narathiwat
+  geo:
+    latitude: 6.4254607
+    longitude: 101.8253143
+    min_latitude: 5.732811
+    min_longitude: 101.3712505
+    max_latitude: 6.6363882
+    max_longitude: 102.0932184
   translations:
     en: Narathiwat
     ar: محافظة ناراتيوات
@@ -4335,16 +4494,18 @@
     ml: നാരതിവാട്ട് പ്രവിശ്യ
     uk: Провінція Нарахтиват
     yue: 陶公府
-  geo:
-    latitude: 6.4254607
-    longitude: 101.8253143
-    min_latitude: 5.732811
-    min_longitude: 101.3712505
-    max_latitude: 6.6363882
-    max_longitude: 102.0932184
-  name: Narathiwat
-S:
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Phatthaya
+  code: 
   unofficial_names: Phatthaya
+  geo:
+    latitude: 12.9276082
+    longitude: 100.8770813
+    min_latitude: 12.7713929
+    min_longitude: 100.8558912
+    max_latitude: 13.0019977
+    max_longitude: 100.9896282
   translations:
     en: Pattaya
     ar: باتايا
@@ -4404,16 +4565,18 @@ S:
     kk: Паттайя
     yue: 芭堤雅
     mk: Патаја
-  geo:
-    latitude: 12.9276082
-    longitude: 100.8770813
-    min_latitude: 12.7713929
-    min_longitude: 100.8558912
-    max_latitude: 13.0019977
-    max_longitude: 100.9896282
-  name: Phatthaya
-'38':
+  comments: 
+'38': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بوينغ كان
     bn: বুয়েং কান
@@ -4457,10 +4620,4 @@ S:
     ccp: "\U0001111D\U0001112A\U00011120\U0001112C\U00011101 \U00011107\U0001111A\U00011134"
     uk: Провінція Бунгкан
     yue: 汶幹府
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

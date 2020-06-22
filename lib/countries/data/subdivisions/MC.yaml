@@ -1,6 +1,15 @@
 ---
-MC:
+MC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Monte Carlo
     ar: مونت كارلو
@@ -63,6 +72,11 @@ MC:
     uz: Montekarlo
     bs: Monte Carlo
     mk: Монте Карло
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -70,8 +84,6 @@ MC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MO:
-  unofficial_names: 
   translations:
     ar: موناكو فيل
     az: Monako Vill
@@ -108,6 +120,11 @@ MO:
     ccp: "\U0001111F\U00011127\U0001111A\U00011107\U0001112E-\U0001111E\U00011128\U00011123\U0001112C"
     kk: Монако
     uz: Monako
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -115,8 +132,6 @@ MO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CO:
-  unofficial_names: 
   translations:
     be: Ла-Кандамін
     ca: La Condamina
@@ -145,6 +160,11 @@ CO:
     fa: لا کوندامین
     ccp: "\U00011123 \U00011107\U00011127\U0001111A\U00011134\U00011113\U0001111F\U0001112D\U0001111A\U00011134"
     az: La-Kondamin
+  comments: 
+MG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -152,8 +172,6 @@ CO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MG:
-  unofficial_names: 
   translations:
     bg: Монегхети
     ca: Moneguet
@@ -173,6 +191,11 @@ MG:
     zh: 莫内盖蒂
     ccp: "\U0001111F\U00011127\U0001111A\U0001112C\U0001110A\U0001112C\U00011111\U00011128"
     az: Moneqetti
+  comments: 
+CL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -180,8 +203,6 @@ MG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CL:
-  unofficial_names: 
   translations:
     ca: La Còla
     de: La Colle
@@ -200,6 +221,11 @@ CL:
     sv: La Colle
     ccp: "\U00011123 \U00011107\U0001112E\U00011123\U00011128"
     da: La Colle
+  comments: 
+FO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -207,8 +233,6 @@ CL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-FO:
-  unofficial_names: 
   translations:
     ca: Fòntvielha
     de: Fontvieille
@@ -236,6 +260,11 @@ FO:
     ccp: "\U0001111C\U00011127\U0001111A\U00011134\U00011111\U00011134\U0001111E\U00011128\U00011123\U0001112C"
     he: פונטוייל
     nb: Fontvieille
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -243,8 +272,6 @@ FO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LA:
-  unofficial_names: 
   translations:
     ca: Larvot e Molins Bas
     de: Larvotto
@@ -263,6 +290,11 @@ LA:
     zh: 拉沃托
     ccp: "\U00011123\U00011122\U00011134\U0001111E\U0001112E\U00011111\U0001112E"
     az: Larvotto
+  comments: 
+SR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -270,8 +302,6 @@ LA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SR:
-  unofficial_names: 
   translations:
     ca: La Rossa e Sant Roman
     de: La Rousse
@@ -290,6 +320,11 @@ SR:
     zh: 圣罗曼
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011122\U00011127\U0001111F\U0001111A\U00011134"
     az: Sen-Roman
+  comments: 
+JE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -297,8 +332,6 @@ SR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JE:
-  unofficial_names: 
   translations:
     de: Exotischer Garten von Monaco
     en: Jardin Exotique de Monaco
@@ -312,6 +345,11 @@ JE:
     zh: 摩納哥熱帶公園
     ccp: "\U0001110E\U00011122\U00011134\U00011113\U00011128\U0001111A\U00011134 \U00011103\U0001112C\U00011107\U00011134\U0001110E\U0001112E\U00011111\U00011128\U00011107\U00011134
       \U00011113\U0001112C \U0001111F\U00011127\U0001111A\U00011134\U00011107\U0001112E"
+  comments: 
+PH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -319,8 +357,6 @@ JE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-PH:
-  unofficial_names: 
   translations:
     de: Port Hercule
     en: Port Hercules
@@ -332,6 +368,11 @@ PH:
     ceb: Port Hercule
     ja: ポートエルキュール
     ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134 \U00011126\U00011122\U00011134\U00011107\U00011128\U00011105\U0001112A\U00011123\U0001110C\U00011134"
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -339,11 +380,14 @@ PH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GA:
-  unofficial_names: 
   translations:
     en: La Gare
     ccp: "\U00011123 \U00011109\U00011122\U0001112C"
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -351,11 +395,14 @@ GA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MA:
-  unofficial_names: 
   translations:
     en: Malbousquet
     ccp: "\U0001111F\U00011123\U00011134\U0001111D\U0001112F\U00011107\U0001112E\U00011120\U0001112C\U00011116\U00011134"
+  comments: 
+MU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -363,11 +410,14 @@ MA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MU:
-  unofficial_names: 
   translations:
     en: Moulins
     ccp: "\U0001111F\U0001112F\U00011123\U00011128\U0001111A\U00011134"
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -375,8 +425,6 @@ MU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SD:
-  unofficial_names: 
   translations:
     en: Sainte-Dévote Chapel
     es: iglesia de Santa Devota
@@ -384,6 +432,11 @@ SD:
     nl: Église Sainte-Dévote
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134-\U00011113\U00011128\U0001111E\U0001112E\U00011116\U00011134
       \U00011107\U0001111B\U0001112C\U00011123\U00011134"
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -391,11 +444,14 @@ SD:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SO:
-  unofficial_names: 
   translations:
     en: La Source
     ccp: "\U00011123 \U00011125\U0001112E\U00011122\U00011134\U0001110C\U00011134"
+  comments: 
+SP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -403,11 +459,14 @@ SO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SP:
-  unofficial_names: 
   translations:
     en: Spélugues
     ccp: "\U0001110C\U00011133\U0001111B\U0001112C\U00011123\U00011128\U00011105\U0001112A\U00011109\U0001110C\U00011134"
+  comments: 
+VR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -415,17 +474,9 @@ SP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-VR:
-  unofficial_names: 
   translations:
     en: Vallon de la Rousse
     nl: La Rousse
     ccp: "\U0001111E\U00011123\U00011127\U0001111A\U00011134 \U00011113\U0001112C
       \U00011123 \U00011122\U0001112F\U0001110C\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,6 +1,15 @@
 ---
-BC:
+BC: !ruby/struct:ISO3166::Subdivision
+  name: Banskobystrický kraj
+  code: 
   unofficial_names: Banskobystrický kraj
+  geo:
+    latitude: 48.5312499
+    longitude: 19.382874
+    min_latitude: 48.0536532
+    min_longitude: 18.4786941
+    max_latitude: 48.946956
+    max_longitude: 20.469993
   translations:
     en: Banská Bystrica
     ar: إقليم بانسكا بيستريتسا
@@ -56,16 +65,18 @@ BC:
     sr_Latn: Banskobistrički kraj
     ccp: "\U0001111D\U0001111A\U00011134\U00011107 \U0001111D\U00011120\U00011111\U00011133\U00011122\U00011128\U00011107"
     bs: Banska Bistrica
-  geo:
-    latitude: 48.5312499
-    longitude: 19.382874
-    min_latitude: 48.0536532
-    min_longitude: 18.4786941
-    max_latitude: 48.946956
-    max_longitude: 20.469993
-  name: Banskobystrický kraj
-BL:
+  comments: 
+BL: !ruby/struct:ISO3166::Subdivision
+  name: Bratislavský kraj
+  code: 
   unofficial_names: Bratislavský kraj
+  geo:
+    latitude: 48.3118304
+    longitude: 17.1973299
+    min_latitude: 48.0066865
+    min_longitude: 16.833182
+    max_latitude: 48.6543947
+    max_longitude: 17.522104
   translations:
     en: Bratislava
     ar: إقليم براتيسلافا
@@ -123,16 +134,18 @@ BL:
     ccp: "\U0001111D\U00011133\U00011122\U00011111\U00011128\U0001110C\U00011134\U00011123\U0001111E"
     bs: Bratislava
     mk: Братиславски крај
-  geo:
-    latitude: 48.3118304
-    longitude: 17.1973299
-    min_latitude: 48.0066865
-    min_longitude: 16.833182
-    max_latitude: 48.6543947
-    max_longitude: 17.522104
-  name: Bratislavský kraj
-KI:
+  comments: 
+KI: !ruby/struct:ISO3166::Subdivision
+  name: Košický kraj
+  code: 
   unofficial_names: Košický kraj
+  geo:
+    latitude: 48.6375737
+    longitude: 21.0834225
+    min_latitude: 48.33251449999999
+    min_longitude: 20.1811385
+    max_latitude: 49.0197507
+    max_longitude: 22.3877253
   translations:
     en: Košice
     ar: إقليم كوشيتسه
@@ -187,16 +200,18 @@ KI:
     zh: 科希策州
     ccp: "\U00011107\U0001112E\U00011125\U0001112D\U0001110C\U00011134"
     bs: Košice
-  geo:
-    latitude: 48.6375737
-    longitude: 21.0834225
-    min_latitude: 48.33251449999999
-    min_longitude: 20.1811385
-    max_latitude: 49.0197507
-    max_longitude: 22.3877253
-  name: Košický kraj
-NI:
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: Nitriansky kraj
+  code: 
   unofficial_names: Nitriansky kraj
+  geo:
+    latitude: 48.0143765
+    longitude: 18.5416505
+    min_latitude: 47.7313783
+    min_longitude: 17.7072734
+    max_latitude: 48.7145252
+    max_longitude: 19.0724064
   translations:
     en: Nitra
     ar: إقليم نيترا
@@ -251,16 +266,18 @@ NI:
     zh: 尼特拉州
     ccp: "\U0001111A\U00011128\U00011111\U00011133\U00011122"
     bs: Nitra
-  geo:
-    latitude: 48.0143765
-    longitude: 18.5416505
-    min_latitude: 47.7313783
-    min_longitude: 17.7072734
-    max_latitude: 48.7145252
-    max_longitude: 19.0724064
-  name: Nitriansky kraj
-PV:
+  comments: 
+PV: !ruby/struct:ISO3166::Subdivision
+  name: Prešovský kraj
+  code: 
   unofficial_names: Prešovský kraj
+  geo:
+    latitude: 49.1716773
+    longitude: 21.3742001
+    min_latitude: 48.762623
+    min_longitude: 19.8690332
+    max_latitude: 49.4608248
+    max_longitude: 22.5658602
   translations:
     en: Prešov
     ar: إقليم بريشوف
@@ -316,16 +333,18 @@ PV:
     zh: 普列索夫州
     ccp: "\U0001111B\U00011133\U00011122\U0001112C\U00011125\U0001112E\U0001111B\U00011134"
     bs: Prešov
-  geo:
-    latitude: 49.1716773
-    longitude: 21.3742001
-    min_latitude: 48.762623
-    min_longitude: 19.8690332
-    max_latitude: 49.4608248
-    max_longitude: 22.5658602
-  name: Prešovský kraj
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Trnavský kraj
+  code: 
   unofficial_names: Trnavský kraj
+  geo:
+    latitude: 48.3943898
+    longitude: 17.7216205
+    min_latitude: 47.7574508
+    min_longitude: 16.933916
+    max_latitude: 48.8782091
+    max_longitude: 17.9854498
   translations:
     en: Trnava
     ar: إقليم ترنافا
@@ -383,16 +402,18 @@ TA:
     zh: 特爾納瓦州
     ccp: "\U00011111\U00011133\U00011122\U0001111A\U0001111E"
     bs: Trnava
-  geo:
-    latitude: 48.3943898
-    longitude: 17.7216205
-    min_latitude: 47.7574508
-    min_longitude: 16.933916
-    max_latitude: 48.8782091
-    max_longitude: 17.9854498
-  name: Trnavský kraj
-TC:
+  comments: 
+TC: !ruby/struct:ISO3166::Subdivision
+  name: Trenciansky kraj
+  code: 
   unofficial_names: Trenciansky kraj
+  geo:
+    latitude: 48.8086758
+    longitude: 18.2324027
+    min_latitude: 48.4855226
+    min_longitude: 17.3541989
+    max_latitude: 49.31953009999999
+    max_longitude: 18.8268433
   translations:
     en: Trenčín
     ar: إقليم ترنتشين
@@ -449,16 +470,18 @@ TC:
     ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011125\U00011128\U0001111A\U00011134"
     hy: Տենչինի երկրամաս
     bs: Trenčin
-  geo:
-    latitude: 48.8086758
-    longitude: 18.2324027
-    min_latitude: 48.4855226
-    min_longitude: 17.3541989
-    max_latitude: 49.31953009999999
-    max_longitude: 18.8268433
-  name: Trenciansky kraj
-ZI:
+  comments: 
+ZI: !ruby/struct:ISO3166::Subdivision
+  name: Žilinský kraj
+  code: 
   unofficial_names: Žilinský kraj
+  geo:
+    latitude: 49.2031435
+    longitude: 19.3645733
+    min_latitude: 48.7412625
+    min_longitude: 18.3226616
+    max_latitude: 49.6138171
+    max_longitude: 20.0600755
   translations:
     en: Žilina
     ar: إقليم جيلينا
@@ -515,11 +538,4 @@ ZI:
     zh: 日利納州
     ccp: "\U0001110E\U00011128\U00011123\U00011128\U0001111A"
     bs: Žilina
-  geo:
-    latitude: 49.2031435
-    longitude: 19.3645733
-    min_latitude: 48.7412625
-    min_longitude: 18.3226616
-    max_latitude: 49.6138171
-    max_longitude: 20.0600755
-  name: Žilinský kraj
+  comments: 

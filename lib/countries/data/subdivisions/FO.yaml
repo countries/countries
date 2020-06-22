@@ -1,8 +1,8 @@
 ---
-'NO':
+'NO': !ruby/struct:ISO3166::Subdivision
+  name: Nordoyar
+  code: 
   unofficial_names: Nordoyar
-  translations:
-    en: Nordoyar
   geo:
     latitude: 62.28333
     longitude: -6.58333
@@ -10,12 +10,13 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Nordoyar
-  comments: 
-OS:
-  unofficial_names: Eysturoyar
   translations:
-    en: Eysturoyar
+    en: Nordoyar
+  comments: 
+OS: !ruby/struct:ISO3166::Subdivision
+  name: Eysturoyar
+  code: 
+  unofficial_names: Eysturoyar
   geo:
     latitude: 62.21667
     longitude: -6.86667
@@ -23,12 +24,13 @@ OS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Eysturoyar
-  comments: 
-SA:
-  unofficial_names: Sandoyar
   translations:
-    en: Sandoyar
+    en: Eysturoyar
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Sandoyar
+  code: 
+  unofficial_names: Sandoyar
   geo:
     latitude: 61.83333
     longitude: -6.75
@@ -36,12 +38,13 @@ SA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Sandoyar
-  comments: 
-ST:
-  unofficial_names: Streymoyar
   translations:
-    en: Streymoyar
+    en: Sandoyar
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: Streymoyar
+  code: 
+  unofficial_names: Streymoyar
   geo:
     latitude: 62.13333
     longitude: -7
@@ -49,12 +52,13 @@ ST:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Streymoyar
-  comments: 
-SU:
-  unofficial_names: Suduroyar
   translations:
-    en: Suduroyar
+    en: Streymoyar
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: Suduroyar
+  code: 
+  unofficial_names: Suduroyar
   geo:
     latitude: 61.48333
     longitude: -6.81667
@@ -62,12 +66,13 @@ SU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Suduroyar
-  comments: 
-VG:
-  unofficial_names: Vaga
   translations:
-    en: Vaga
+    en: Suduroyar
+  comments: 
+VG: !ruby/struct:ISO3166::Subdivision
+  name: Vaga
+  code: 
+  unofficial_names: Vaga
   geo:
     latitude: 62.08333
     longitude: -7.25
@@ -75,5 +80,6 @@ VG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Vaga
+  translations:
+    en: Vaga
   comments: 

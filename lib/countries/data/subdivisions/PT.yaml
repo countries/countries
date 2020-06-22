@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Aveiro
+  code: 
   unofficial_names: Aveiro
+  geo:
+    latitude: 40.6405055
+    longitude: -8.6537539
+    min_latitude: 40.6241712
+    min_longitude: -8.665443800000002
+    max_latitude: 40.6545896
+    max_longitude: -8.6238121
   translations:
     en: Aveiro
     ar: محافظة أفييرو
@@ -35,16 +44,18 @@
     sr_Latn: Aveiro
     ccp: "\U00011103\U0001111E\U0001112C\U0001112D\U00011122\U0001112E"
     be: акруга Авейру
-  geo:
-    latitude: 40.6405055
-    longitude: -8.6537539
-    min_latitude: 40.6241712
-    min_longitude: -8.665443800000002
-    max_latitude: 40.6545896
-    max_longitude: -8.6238121
-  name: Aveiro
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Beja
+  code: 
   unofficial_names: Beja
+  geo:
+    latitude: 38.0153039
+    longitude: -7.8627308
+    min_latitude: 37.97009
+    min_longitude: -7.959504799999999
+    max_latitude: 38.0746209
+    max_longitude: -7.8177491
   translations:
     en: Beja
     ar: محافظة بيجا
@@ -93,16 +104,18 @@
     sr_Latn: Beža
     lt: Bežos apskritis
     ccp: "\U0001111D\U0001112C\U0001110E"
-  geo:
-    latitude: 38.0153039
-    longitude: -7.8627308
-    min_latitude: 37.97009
-    min_longitude: -7.959504799999999
-    max_latitude: 38.0746209
-    max_longitude: -7.8177491
-  name: Beja
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Braga
+  code: 
   unofficial_names: Braga
+  geo:
+    latitude: 41.5454486
+    longitude: -8.426506999999999
+    min_latitude: 41.510402
+    min_longitude: -8.4806633
+    max_latitude: 41.5841477
+    max_longitude: -8.3421791
   translations:
     en: Braga
     ar: محافظة براغا
@@ -151,16 +164,18 @@
     sr_Latn: Braga
     lt: Bragos apskritis
     ccp: "\U0001111D\U00011133\U00011122\U00011109"
-  geo:
-    latitude: 41.5454486
-    longitude: -8.426506999999999
-    min_latitude: 41.510402
-    min_longitude: -8.4806633
-    max_latitude: 41.5841477
-    max_longitude: -8.3421791
-  name: Braga
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Bragança
+  code: 
   unofficial_names: Bragança
+  geo:
+    latitude: 41.8061131
+    longitude: -6.756737999999999
+    min_latitude: 41.7861053
+    min_longitude: -6.7907131
+    max_latitude: 41.8369891
+    max_longitude: -6.7063504
   translations:
     en: Bragança
     ar: محافظة براغانزا
@@ -194,16 +209,18 @@
     sr_Latn: Bragansa
     ccp: "\U0001111D\U00011133\U00011122\U00011109\U0001111A\U00011134\U00011107"
     be: акруга Браганса
-  geo:
-    latitude: 41.8061131
-    longitude: -6.756737999999999
-    min_latitude: 41.7861053
-    min_longitude: -6.7907131
-    max_latitude: 41.8369891
-    max_longitude: -6.7063504
-  name: Bragança
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Castelo Branco
+  code: 
   unofficial_names: Castelo Branco
+  geo:
+    latitude: 39.8197117
+    longitude: -7.4964662
+    min_latitude: 39.7136873
+    min_longitude: -7.5591241
+    max_latitude: 39.9093461
+    max_longitude: -7.367089999999999
   translations:
     en: Castelo Branco
     ar: محافظة كاستيلو برانكو
@@ -251,16 +268,18 @@
     lt: Kastelo Branko apskritis
     ccp: "\U00011107\U0001110C\U00011134\U00011111\U0001112C\U00011123\U0001112E \U0001111D\U00011133\U00011122\U0001111A\U00011134\U00011107\U0001112E"
     be: акруга Каштэлу-Бранку
-  geo:
-    latitude: 39.8197117
-    longitude: -7.4964662
-    min_latitude: 39.7136873
-    min_longitude: -7.5591241
-    max_latitude: 39.9093461
-    max_longitude: -7.367089999999999
-  name: Castelo Branco
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Coimbra
+  code: 
   unofficial_names: Coimbra
+  geo:
+    latitude: 40.2033145
+    longitude: -8.4102573
+    min_latitude: 40.1713722
+    min_longitude: -8.5096411
+    max_latitude: 40.2861477
+    max_longitude: -8.322907599999999
   translations:
     en: Coimbra
     ar: محافظة كويمبرا
@@ -308,16 +327,18 @@
     sr_Latn: Koimbra
     lt: Koimbros apskritis
     ccp: "\U00011107\U00011130\U0001111F\U00011134\U0001111D\U00011133\U00011122"
-  geo:
-    latitude: 40.2033145
-    longitude: -8.4102573
-    min_latitude: 40.1713722
-    min_longitude: -8.5096411
-    max_latitude: 40.2861477
-    max_longitude: -8.322907599999999
-  name: Coimbra
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Évora
+  code: 
   unofficial_names: Évora
+  geo:
+    latitude: 38.571431
+    longitude: -7.913501999999999
+    min_latitude: 38.5227211
+    min_longitude: -7.9785036
+    max_latitude: 38.6169193
+    max_longitude: -7.843514600000001
   translations:
     en: Évora
     ar: محافظة إيفورا
@@ -365,16 +386,18 @@
     lt: Evoros apskritis
     ccp: "\U00011103\U00011128\U0001111E\U0001112E\U00011122"
     be: акруга Эвара
-  geo:
-    latitude: 38.571431
-    longitude: -7.913501999999999
-    min_latitude: 38.5227211
-    min_longitude: -7.9785036
-    max_latitude: 38.6169193
-    max_longitude: -7.843514600000001
-  name: Évora
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Faro
+  code: 
   unofficial_names: Faro
+  geo:
+    latitude: 37.0193548
+    longitude: -7.9304397
+    min_latitude: 36.9617104
+    min_longitude: -8.000400599999999
+    max_latitude: 37.0738998
+    max_longitude: -7.8093544
   translations:
     en: Faro
     ar: محافظة فارو
@@ -423,16 +446,18 @@
     fa: ناحیه فارو
     ccp: "\U0001111C\U00011122\U0001112E"
     be: акруга Фару
-  geo:
-    latitude: 37.0193548
-    longitude: -7.9304397
-    min_latitude: 36.9617104
-    min_longitude: -8.000400599999999
-    max_latitude: 37.0738998
-    max_longitude: -7.8093544
-  name: Faro
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Guarda
+  code: 
   unofficial_names: Guarda
+  geo:
+    latitude: 40.5383482
+    longitude: -7.266131499999998
+    min_latitude: 40.50446
+    min_longitude: -7.2926517
+    max_latitude: 40.5738913
+    max_longitude: -7.1980682
   translations:
     en: Guarda
     ar: محافظة غواردا
@@ -466,16 +491,18 @@
     sr_Latn: Gvarda
     ccp: "\U00011109\U0001112A\U00011120\U00011122\U00011134\U00011113"
     be: акруга Гуарда
-  geo:
-    latitude: 40.5383482
-    longitude: -7.266131499999998
-    min_latitude: 40.50446
-    min_longitude: -7.2926517
-    max_latitude: 40.5738913
-    max_longitude: -7.1980682
-  name: Guarda
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Leiria
+  code: 
   unofficial_names: Leiria
+  geo:
+    latitude: 39.74953310000001
+    longitude: -8.807682999999999
+    min_latitude: 39.70991799999999
+    min_longitude: -8.8768517
+    max_latitude: 39.798205
+    max_longitude: -8.7350657
   translations:
     en: Leiria
     ar: محافظة ليريا
@@ -524,16 +551,18 @@
     fa: استان لیریا
     ccp: "\U00011123\U0001112C\U00011103\U00011128\U00011120\U00011122\U00011128\U00011120"
     be: акруга Лейрыя
-  geo:
-    latitude: 39.74953310000001
-    longitude: -8.807682999999999
-    min_latitude: 39.70991799999999
-    min_longitude: -8.8768517
-    max_latitude: 39.798205
-    max_longitude: -8.7350657
-  name: Leiria
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Lisboa
+  code: 
   unofficial_names: Lisboa
+  geo:
+    latitude: 38.7222524
+    longitude: -9.1393366
+    min_latitude: 38.6913994
+    min_longitude: -9.2298356
+    max_latitude: 38.7958538
+    max_longitude: -9.0905718
   translations:
     en: Lisbon
     ar: محافظة لشبونة
@@ -570,16 +599,18 @@
     ceb: Distrito de Lisboa
     sr_Latn: Lisabon
     ccp: "\U00011123\U00011128\U0001110C\U00011134\U0001111D\U00011127\U0001111A\U00011134"
-  geo:
-    latitude: 38.7222524
-    longitude: -9.1393366
-    min_latitude: 38.6913994
-    min_longitude: -9.2298356
-    max_latitude: 38.7958538
-    max_longitude: -9.0905718
-  name: Lisboa
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Portalegre
+  code: 
   unofficial_names: Portalegre
+  geo:
+    latitude: 39.2967086
+    longitude: -7.4284755
+    min_latitude: 39.262495
+    min_longitude: -7.4664739
+    max_latitude: 39.3153866
+    max_longitude: -7.3995175
   translations:
     en: Portalegre
     ar: محافظة بورتاليجري
@@ -613,16 +644,18 @@
     sr_Latn: Portalegre
     ccp: "\U0001111B\U00011127\U00011122\U00011134\U00011111\U00011123\U0001112C\U00011107\U00011134\U00011122\U0001112C"
     be: акруга Порталегры
-  geo:
-    latitude: 39.2967086
-    longitude: -7.4284755
-    min_latitude: 39.262495
-    min_longitude: -7.4664739
-    max_latitude: 39.3153866
-    max_longitude: -7.3995175
-  name: Portalegre
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Porto
+  code: 
   unofficial_names: Porto
+  geo:
+    latitude: 41.1579438
+    longitude: -8.629105299999999
+    min_latitude: 41.1383506
+    min_longitude: -8.6910927
+    max_latitude: 41.1859353
+    max_longitude: -8.5526134
   translations:
     en: Porto
     ar: محافظة بورتو
@@ -655,16 +688,18 @@
     sr_Latn: Porto
     ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U0001112E"
     mk: Порто
-  geo:
-    latitude: 41.1579438
-    longitude: -8.629105299999999
-    min_latitude: 41.1383506
-    min_longitude: -8.6910927
-    max_latitude: 41.1859353
-    max_longitude: -8.5526134
-  name: Porto
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Santarém
+  code: 
   unofficial_names: Santarém
+  geo:
+    latitude: 39.2366618
+    longitude: -8.686011900000002
+    min_latitude: 39.1687465
+    min_longitude: -8.7494918
+    max_latitude: 39.2869109
+    max_longitude: -8.626665299999999
   translations:
     en: Santarém
     ar: محافظة سانتاريم
@@ -713,16 +748,18 @@
     lt: Santaremo apskritis
     ccp: "\U00011125\U0001111A\U00011134\U00011111\U00011122\U00011134\U00011122\U0001112C\U0001111F\U00011134"
     be: акруга Сантарэн
-  geo:
-    latitude: 39.2366618
-    longitude: -8.686011900000002
-    min_latitude: 39.1687465
-    min_longitude: -8.7494918
-    max_latitude: 39.2869109
-    max_longitude: -8.626665299999999
-  name: Santarém
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Setúbal
+  code: 
   unofficial_names: Setúbal
+  geo:
+    latitude: 38.5260437
+    longitude: -8.8909328
+    min_latitude: 38.4840016
+    min_longitude: -8.9725114
+    max_latitude: 38.5641093
+    max_longitude: -8.7556919
   translations:
     en: Setúbal
     ar: محافظة سيتوبال
@@ -770,16 +807,18 @@
     sr_Latn: Setubal
     lt: Setubalo apskritis
     ccp: "\U00011125\U0001112C\U00011111\U0001112A\U0001111D\U00011127\U00011123\U00011134"
-  geo:
-    latitude: 38.5260437
-    longitude: -8.8909328
-    min_latitude: 38.4840016
-    min_longitude: -8.9725114
-    max_latitude: 38.5641093
-    max_longitude: -8.7556919
-  name: Setúbal
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Viana do Castelo
+  code: 
   unofficial_names: Viana do Castelo
+  geo:
+    latitude: 41.6918275
+    longitude: -8.8344101
+    min_latitude: 41.6714037
+    min_longitude: -8.8693403
+    max_latitude: 41.7605686
+    max_longitude: -8.7483575
   translations:
     en: Viana do Castelo
     ar: محافظة فيانادو كاستيلو
@@ -827,16 +866,18 @@
     sr_Latn: Vijana do Kastelo
     lt: Vijanos de Kastelo apskritis
     ccp: "\U0001111E\U00011128\U00011120\U0001111A \U00011113\U0001112E \U00011107\U0001110C\U00011134\U00011111\U0001112C\U00011123\U0001112E"
-  geo:
-    latitude: 41.6918275
-    longitude: -8.8344101
-    min_latitude: 41.6714037
-    min_longitude: -8.8693403
-    max_latitude: 41.7605686
-    max_longitude: -8.7483575
-  name: Viana do Castelo
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Vila Real
+  code: 
   unofficial_names: Vila Real
+  geo:
+    latitude: 41.3010351
+    longitude: -7.7422354
+    min_latitude: 41.2401615
+    min_longitude: -7.790294800000001
+    max_latitude: 41.3635472
+    max_longitude: -7.6639146
   translations:
     en: Vila Real
     ar: محافظة فيلا ريال
@@ -869,16 +910,18 @@
     sr_Latn: Vila Real
     ccp: "\U0001111E\U00011128\U00011123 \U00011122\U00011128\U00011120\U0001112C\U00011123\U00011134"
     be: акруга Віла-Рэал
-  geo:
-    latitude: 41.3010351
-    longitude: -7.7422354
-    min_latitude: 41.2401615
-    min_longitude: -7.790294800000001
-    max_latitude: 41.3635472
-    max_longitude: -7.6639146
-  name: Vila Real
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Viseu
+  code: 
   unofficial_names: Viseu
+  geo:
+    latitude: 40.6565861
+    longitude: -7.9124712
+    min_latitude: 40.6072458
+    min_longitude: -7.9660481
+    max_latitude: 40.7325793
+    max_longitude: -7.8250273
   translations:
     en: Viseu
     ar: محافظة فيسيو
@@ -926,16 +969,18 @@
     lt: Vizou apskritis
     ccp: "\U0001111E\U00011128\U00011125\U0001112C\U00011105\U0001112A"
     be: акруга Візеу
-  geo:
-    latitude: 40.6565861
-    longitude: -7.9124712
-    min_latitude: 40.6072458
-    min_longitude: -7.9660481
-    max_latitude: 40.7325793
-    max_longitude: -7.8250273
-  name: Viseu
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Açores
+  code: 
   unofficial_names: Açores
+  geo:
+    latitude: 37.7412488
+    longitude: -25.6755944
+    min_latitude: 36.9278178
+    min_longitude: -31.2687948
+    max_latitude: 39.7261497
+    max_longitude: -25.0131855
   translations:
     en: Azores
     af: Asore
@@ -1011,16 +1056,18 @@
     uz: Azor orollari
     bs: Azores
     mk: Азорски Острови
-  geo:
-    latitude: 37.7412488
-    longitude: -25.6755944
-    min_latitude: 36.9278178
-    min_longitude: -31.2687948
-    max_latitude: 39.7261497
-    max_longitude: -25.0131855
-  name: Açores
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Madeira
+  code: 
   unofficial_names: Madeira
+  geo:
+    latitude: 32.76070740000001
+    longitude: -16.9594723
+    min_latitude: 30.0303451
+    min_longitude: -17.2659373
+    max_latitude: 33.1281375
+    max_longitude: -15.8566922
   translations:
     en: Madeira
     af: Madeiraeilande
@@ -1089,11 +1136,4 @@
     yo: Madeira
     bs: Madeira
     mk: Мадеира
-  geo:
-    latitude: 32.76070740000001
-    longitude: -16.9594723
-    min_latitude: 30.0303451
-    min_longitude: -17.2659373
-    max_latitude: 33.1281375
-    max_longitude: -15.8566922
-  name: Madeira
+  comments: 

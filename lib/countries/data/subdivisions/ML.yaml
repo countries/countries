@@ -1,6 +1,15 @@
 ---
-'1':
+'1': !ruby/struct:ISO3166::Subdivision
+  name: Kayes
+  code: 
   unofficial_names: Kayes
+  geo:
+    latitude: 14.4367876
+    longitude: -11.4452717
+    min_latitude: 14.4186581
+    min_longitude: -11.4719188
+    max_latitude: 14.4902814
+    max_longitude: -11.3716221
   translations:
     en: Kayes
     ar: منطقة كايس
@@ -46,16 +55,18 @@
     ceb: Kayes Region
     ccp: "\U00011107\U0001112C\U00011120\U0001112C\U0001110C\U00011134"
     ka: კაესის რეგიონი
-  geo:
-    latitude: 14.4367876
-    longitude: -11.4452717
-    min_latitude: 14.4186581
-    min_longitude: -11.4719188
-    max_latitude: 14.4902814
-    max_longitude: -11.3716221
-  name: Kayes
-'2':
+  comments: 
+'2': !ruby/struct:ISO3166::Subdivision
+  name: Koulikoro
+  code: 
   unofficial_names: Koulikoro
+  geo:
+    latitude: 12.861111
+    longitude: -7.558332999999999
+    min_latitude: 12.8513625
+    min_longitude: -7.571923199999999
+    max_latitude: 12.8789565
+    max_longitude: -7.5457191
   translations:
     en: Koulikoro
     ar: منطقة كوليكورو
@@ -102,16 +113,18 @@
     zh: 库利科罗区
     ccp: "\U00011107\U0001112F\U00011123\U00011128\U00011107\U0001112E\U00011122\U0001112E"
     ka: კულიკოროს რეგიონი
-  geo:
-    latitude: 12.861111
-    longitude: -7.558332999999999
-    min_latitude: 12.8513625
-    min_longitude: -7.571923199999999
-    max_latitude: 12.8789565
-    max_longitude: -7.5457191
-  name: Koulikoro
-'3':
+  comments: 
+'3': !ruby/struct:ISO3166::Subdivision
+  name: Sikasso
+  code: 
   unofficial_names: Sikasso
+  geo:
+    latitude: 11.316667
+    longitude: -5.666666999999999
+    min_latitude: 11.2896322
+    min_longitude: -5.7206155
+    max_latitude: 11.3538204
+    max_longitude: -5.634414
   translations:
     en: Sikasso
     ar: منطقة سيكاسو
@@ -157,16 +170,18 @@
     zh: 锡卡索区
     ccp: "\U00011125\U00011128\U00011107\U00011125\U0001112E"
     ka: სიკასოს რეგიონი
-  geo:
-    latitude: 11.316667
-    longitude: -5.666666999999999
-    min_latitude: 11.2896322
-    min_longitude: -5.7206155
-    max_latitude: 11.3538204
-    max_longitude: -5.634414
-  name: Sikasso
-'4':
+  comments: 
+'4': !ruby/struct:ISO3166::Subdivision
+  name: Ségou
+  code: 
   unofficial_names: Ségou
+  geo:
+    latitude: 13.45
+    longitude: -6.266667
+    min_latitude: 13.4017673
+    min_longitude: -6.3270675
+    max_latitude: 13.4589132
+    max_longitude: -6.2011928
   translations:
     en: Ségou
     ar: منطقة سيغو
@@ -211,16 +226,18 @@
     zh: 塞古区
     ccp: "\U00011125\U0001112C\U00011109\U0001112F"
     ka: სეგუს რეგიონი
-  geo:
-    latitude: 13.45
-    longitude: -6.266667
-    min_latitude: 13.4017673
-    min_longitude: -6.3270675
-    max_latitude: 13.4589132
-    max_longitude: -6.2011928
-  name: Ségou
-'5':
+  comments: 
+'5': !ruby/struct:ISO3166::Subdivision
+  name: Mopti
+  code: 
   unofficial_names: Mopti
+  geo:
+    latitude: 14.495833
+    longitude: -4.198611
+    min_latitude: 14.4526312
+    min_longitude: -4.2045531
+    max_latitude: 14.5178846
+    max_longitude: -4.1471441
   translations:
     en: Mopti
     ar: منطقة موبتي
@@ -267,16 +284,18 @@
     ccp: "\U0001111F\U0001112E\U0001111B\U00011134\U00011111\U00011128"
     ka: მოპტის რეგიონი
     be: Мопці
-  geo:
-    latitude: 14.495833
-    longitude: -4.198611
-    min_latitude: 14.4526312
-    min_longitude: -4.2045531
-    max_latitude: 14.5178846
-    max_longitude: -4.1471441
-  name: Mopti
-'6':
+  comments: 
+'6': !ruby/struct:ISO3166::Subdivision
+  name: Tombouctou
+  code: 
   unofficial_names: Tombouctou
+  geo:
+    latitude: 16.7665887
+    longitude: -3.0025615
+    min_latitude: 16.7526054
+    min_longitude: -3.0226994
+    max_latitude: 16.7901617
+    max_longitude: -2.9932594
   translations:
     en: Tombouctou
     ar: منطقة تمبكتو
@@ -322,16 +341,18 @@
     zh: 通布圖區
     ccp: "\U00011111\U0001112E\U0001111F\U00011134\U0001111D\U0001112F\U00011107\U00011134\U00011111\U0001112F"
     ka: ტომბუქტუს რეგიონი
-  geo:
-    latitude: 16.7665887
-    longitude: -3.0025615
-    min_latitude: 16.7526054
-    min_longitude: -3.0226994
-    max_latitude: 16.7901617
-    max_longitude: -2.9932594
-  name: Tombouctou
-'7':
+  comments: 
+'7': !ruby/struct:ISO3166::Subdivision
+  name: Gao
+  code: 
   unofficial_names: Gao
+  geo:
+    latitude: 16.2639807
+    longitude: -0.0279867
+    min_latitude: 16.2237359
+    min_longitude: -0.0576808
+    max_latitude: 16.3047953
+    max_longitude: 0.0254726
   translations:
     en: Gao
     ar: منطقة غاو
@@ -377,16 +398,18 @@
     zh: 加奥区
     ccp: "\U00011109\U00011103\U0001112E"
     ka: გაოს რეგიონი
-  geo:
-    latitude: 16.2639807
-    longitude: -0.0279867
-    min_latitude: 16.2237359
-    min_longitude: -0.0576808
-    max_latitude: 16.3047953
-    max_longitude: 0.0254726
-  name: Gao
-'8':
+  comments: 
+'8': !ruby/struct:ISO3166::Subdivision
+  name: Kidal
+  code: 
   unofficial_names: Kidal
+  geo:
+    latitude: 18.438889
+    longitude: 1.408333
+    min_latitude: 18.4226161
+    min_longitude: 1.39359
+    max_latitude: 18.4647725
+    max_longitude: 1.4252616
   translations:
     en: Kidal
     ar: منطقة كيدال
@@ -432,16 +455,18 @@
     zh: 基達爾區
     ccp: "\U00011107\U00011128\U00011113\U00011123\U00011134"
     ka: კიდალის რეგიონი
-  geo:
-    latitude: 18.438889
-    longitude: 1.408333
-    min_latitude: 18.4226161
-    min_longitude: 1.39359
-    max_latitude: 18.4647725
-    max_longitude: 1.4252616
-  name: Kidal
-BKO:
+  comments: 
+BKO: !ruby/struct:ISO3166::Subdivision
+  name: Bamako
+  code: 
   unofficial_names: Bamako
+  geo:
+    latitude: 12.65
+    longitude: -8
+    min_latitude: 12.4909088
+    min_longitude: -8.1150808
+    max_latitude: 12.7329742
+    max_longitude: -7.8759453
   translations:
     en: Bamako
     af: Bamako
@@ -521,23 +546,32 @@ BKO:
     uz: Bamako
     bs: Bamako
     mk: Бамако
-  geo:
-    latitude: 12.65
-    longitude: -8
-    min_latitude: 12.4909088
-    min_longitude: -8.1150808
-    max_latitude: 12.7329742
-    max_longitude: -7.8759453
-  name: Bamako
-'9':
+  comments: 
+'9': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     ja: メナカ州
     en: Ménaka
     fr: Région de Ménaka
     fi: Ménakan alue
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -15.7753392
+    longitude: -47.8138065
+    min_latitude: -15.7804757
+    min_longitude: -47.817425
+    max_latitude: -15.7724352
+    max_longitude: -47.8095817
   translations:
     ja: タウデニ州
     en: Taoudénit
     fr: Région de Taoudénit
     fi: Taoudénitin alue
+  comments: 

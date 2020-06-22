@@ -1,6 +1,15 @@
 ---
-BN:
+BN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: شمال بحر الغزال
     bg: Северен Бахър ал Газал
@@ -50,6 +59,11 @@ BN:
       \U0001110A\U0001110E\U00011127\U00011123\U00011134"
     uz: Shimoliy Baxr-al-Gʼazal
     mk: Северен Бахр ел-Газал
+  comments: 
+BW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -57,8 +71,6 @@ BN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BW:
-  unofficial_names: 
   translations:
     ar: غرب بحر الغزال
     bg: Западен Бахър ал Газал
@@ -109,6 +121,11 @@ BW:
       \U0001110A\U00011127\U0001110E\U00011127\U00011123\U00011134"
     be: Заходні Бахр-эль-Газаль
     mk: Западен Бахр ел-Газал
+  comments: 
+EC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -116,8 +133,6 @@ BW:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-EC:
-  unofficial_names: 
   translations:
     ar: وسط الاستوائية
     bg: Централна Екватория
@@ -170,6 +185,11 @@ EC:
     be: Цэнтральная Экватарыяльная правінцыя
     uz: Markaziy Ekvatoriya
     mk: Централна Екваторија
+  comments: 
+EE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -177,8 +197,6 @@ EC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-EE:
-  unofficial_names: 
   translations:
     ar: شرق الاستوائية
     bg: Източна Екватория
@@ -228,6 +246,11 @@ EE:
       \U00011103\U00011128\U00011107\U0001112A\U00011120\U0001112C\U00011111\U0001112E\U00011122\U00011128\U00011120"
     uz: Gʼarbiy Ekvatoriya
     mk: Источна Екваторија
+  comments: 
+EW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -235,8 +258,6 @@ EE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-EW:
-  unofficial_names: 
   translations:
     ar: غرب الاستوائية
     bg: Западна Екватория
@@ -285,6 +306,11 @@ EW:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011103\U00011128\U00011107\U0001112A\U00011120\U0001112C\U00011111\U0001112E\U00011122\U00011128\U00011120"
     mk: Западна Екваторија
+  comments: 
+JG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -292,8 +318,6 @@ EW:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JG:
-  unofficial_names: 
   translations:
     ar: جونقلي
     bg: Джонглей
@@ -343,6 +367,11 @@ JG:
     ccp: "\U0001110E\U00011127\U00011101\U00011123\U0001112C\U0001112D"
     uz: Jongli
     mk: Џонглеј
+  comments: 
+LK: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -350,8 +379,6 @@ JG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LK:
-  unofficial_names: 
   translations:
     ar: البحيرات
     bg: Езерна провинция
@@ -401,6 +428,11 @@ LK:
     ccp: "\U00011123\U00011107\U0001112C\U0001110C\U00011134"
     uz: Koʼl
     mk: Езера
+  comments: 
+NU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -408,8 +440,6 @@ LK:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NU:
-  unofficial_names: 
   translations:
     ar: أعالي النيل
     be: Штат Верхні Ніл
@@ -460,6 +490,11 @@ NU:
     ccp: "\U00011103\U0001111B\U00011122\U00011134 \U0001111A\U0001112D\U00011123\U00011134"
     uz: Yuqori Nil
     mk: Горен Нил
+  comments: 
+UY: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -467,8 +502,6 @@ NU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-UY:
-  unofficial_names: 
   translations:
     ar: الوحدة
     bg: Единство
@@ -517,6 +550,11 @@ UY:
     zh: 猶尼提省
     ccp: "\U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011111\U00011128"
     mk: Единство
+  comments: 
+WR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -524,8 +562,6 @@ UY:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-WR:
-  unofficial_names: 
   translations:
     ar: واراب
     bg: Уараб
@@ -575,10 +611,4 @@ WR:
     ccp: "\U00011124\U00011122\U0001111B\U00011134"
     uz: Varab
     mk: Варап
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

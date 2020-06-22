@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Christ Church
+  code: 
   unofficial_names: Christ Church
+  geo:
+    latitude: 13.083735
+    longitude: -59.52967419999999
+    min_latitude: 13.0449995
+    min_longitude: -59.6110459
+    max_latitude: 13.125974
+    max_longitude: -59.4719928
   translations:
     en: Christ Church
     ar: كنيسة المسيح
@@ -43,16 +52,18 @@
     ccp: "\U00011107\U00011133\U00011122\U00011128\U00011125\U00011133\U00011111\U00011134
       \U0001110C\U00011122\U00011134\U0001110C\U00011134"
     ca: Christ Church
-  geo:
-    latitude: 13.083735
-    longitude: -59.52967419999999
-    min_latitude: 13.0449995
-    min_longitude: -59.6110459
-    max_latitude: 13.125974
-    max_longitude: -59.4719928
-  name: Christ Church
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Saint Andrew
+  code: 
   unofficial_names: Saint Andrew
+  geo:
+    latitude: 13.2540083
+    longitude: -59.5757599
+    min_latitude: 13.204939
+    min_longitude: -59.60091989999999
+    max_latitude: 13.293989
+    max_longitude: -59.5420721
   translations:
     en: Saint Andrew
     ar: سانت أندرو
@@ -95,16 +106,18 @@
     he: סנט אנדרו
     uk: Парафія Сент-Андрю
     ca: Saint Andrew
-  geo:
-    latitude: 13.2540083
-    longitude: -59.5757599
-    min_latitude: 13.204939
-    min_longitude: -59.60091989999999
-    max_latitude: 13.293989
-    max_longitude: -59.5420721
-  name: Saint Andrew
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Saint George
+  code: 
   unofficial_names: Saint George
+  geo:
+    latitude: 13.148292
+    longitude: -59.55271499999999
+    min_latitude: 13.099258
+    min_longitude: -59.5823159
+    max_latitude: 13.1815211
+    max_longitude: -59.50622000000001
   translations:
     en: Saint George
     ar: سانت جورج، بربادوس
@@ -147,16 +160,18 @@
     uk: Парафія Сент-Джордж
     ca: Saint George
     mk: Сент Џорџ
-  geo:
-    latitude: 13.148292
-    longitude: -59.55271499999999
-    min_latitude: 13.099258
-    min_longitude: -59.5823159
-    max_latitude: 13.1815211
-    max_longitude: -59.50622000000001
-  name: Saint George
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Saint James
+  code: 
   unofficial_names: Saint James
+  geo:
+    latitude: 13.1939911
+    longitude: -59.6276259
+    min_latitude: 13.1381931
+    min_longitude: -59.64361599999999
+    max_latitude: 13.237683
+    max_longitude: -59.598465
   translations:
     en: Saint James
     ar: سانت جيمس، بربادوس
@@ -199,16 +214,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U0001112C\U0001111F\U00011134\U00011125\U00011134"
     uk: Парафія Сент-Джеймс
     ca: Saint James
-  geo:
-    latitude: 13.1939911
-    longitude: -59.6276259
-    min_latitude: 13.1381931
-    min_longitude: -59.64361599999999
-    max_latitude: 13.237683
-    max_longitude: -59.598465
-  name: Saint James
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Saint John
+  code: 
   unofficial_names: Saint John
+  geo:
+    latitude: 13.1833369
+    longitude: -59.5066376
+    min_latitude: 13.1376361
+    min_longitude: -59.54018499999999
+    max_latitude: 13.210594
+    max_longitude: -59.45831699999999
   translations:
     en: Saint John
     ar: سانت جون، بربادوس
@@ -250,16 +267,18 @@
     zh: 聖約翰教區
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U0001111A\U00011134"
     uk: Парафія Сент-Джон
-  geo:
-    latitude: 13.1833369
-    longitude: -59.5066376
-    min_latitude: 13.1376361
-    min_longitude: -59.54018499999999
-    max_latitude: 13.210594
-    max_longitude: -59.45831699999999
-  name: Saint John
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Saint Joseph
+  code: 
   unofficial_names: Saint Joseph
+  geo:
+    latitude: 13.2040088
+    longitude: -59.54695439999999
+    min_latitude: 13.169218
+    min_longitude: -59.575138
+    max_latitude: 13.235171
+    max_longitude: -59.51017799999999
   translations:
     en: Saint Joseph
     ar: سانت جوزيف، بربادوس
@@ -301,16 +320,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U00011125\U0001112C\U0001111B\U00011134"
     uk: Парафія Сент-Джозеф
     ca: Saint Joseph
-  geo:
-    latitude: 13.2040088
-    longitude: -59.54695439999999
-    min_latitude: 13.169218
-    min_longitude: -59.575138
-    max_latitude: 13.235171
-    max_longitude: -59.51017799999999
-  name: Saint Joseph
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Saint Lucy
+  code: 
   unofficial_names: Saint Lucy
+  geo:
+    latitude: 13.3011778
+    longitude: -59.621862
+    min_latitude: 13.2740421
+    min_longitude: -59.650559
+    max_latitude: 13.3350319
+    max_longitude: -59.57436509999999
   translations:
     en: Saint Lucy
     ar: سانت لوسي
@@ -352,16 +373,18 @@
     zh: 聖露西教區
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U00011123\U0001112A\U0001110C\U00011128"
     ca: Saint Lucy
-  geo:
-    latitude: 13.3011778
-    longitude: -59.621862
-    min_latitude: 13.2740421
-    min_longitude: -59.650559
-    max_latitude: 13.3350319
-    max_longitude: -59.57436509999999
-  name: Saint Lucy
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Saint Michael
+  code: 
   unofficial_names: Saint Michael
+  geo:
+    latitude: 13.1132219
+    longitude: -59.59880889999999
+    min_latitude: 13.0784939
+    min_longitude: -59.63719399999999
+    max_latitude: 13.158466
+    max_longitude: -59.567387
   translations:
     en: Saint Michael
     ar: سانت مايكل
@@ -410,16 +433,18 @@
     uk: Парафія Сент-Майкл (Сент-МІшель)
     ca: Saint Michael
     be: Сен-Мішэль
-  geo:
-    latitude: 13.1132219
-    longitude: -59.59880889999999
-    min_latitude: 13.0784939
-    min_longitude: -59.63719399999999
-    max_latitude: 13.158466
-    max_longitude: -59.567387
-  name: Saint Michael
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Saint Peter
+  code: 
   unofficial_names: Saint Peter
+  geo:
+    latitude: 13.2600459
+    longitude: -59.621862
+    min_latitude: 13.2257179
+    min_longitude: -59.6469631
+    max_latitude: 13.299063
+    max_longitude: -59.572906
   translations:
     en: Saint Peter
     ar: سانت بيتر، بربادوس
@@ -462,16 +487,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111B\U00011128\U00011111\U00011122\U00011134"
     ca: Saint Peter
     be: Сент-Пітэр
-  geo:
-    latitude: 13.2600459
-    longitude: -59.621862
-    min_latitude: 13.2257179
-    min_longitude: -59.6469631
-    max_latitude: 13.299063
-    max_longitude: -59.572906
-  name: Saint Peter
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Saint Philip
+  code: 
   unofficial_names: Saint Philip
+  geo:
+    latitude: 13.1362782
+    longitude: -59.4605768
+    min_latitude: 13.0789943
+    min_longitude: -59.51082299999999
+    max_latitude: 13.1829601
+    max_longitude: -59.4210709
   translations:
     en: Saint Philip
     ar: سانت فيليب، باربادوس
@@ -513,16 +540,18 @@
     zh: 聖菲利普區
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111C\U00011128\U00011123\U00011128\U0001111B\U00011134"
     ca: Saint Philip
-  geo:
-    latitude: 13.1362782
-    longitude: -59.4605768
-    min_latitude: 13.0789943
-    min_longitude: -59.51082299999999
-    max_latitude: 13.1829601
-    max_longitude: -59.4210709
-  name: Saint Philip
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Saint Thomas
+  code: 
   unofficial_names: Saint Thomas
+  geo:
+    latitude: 13.1748291
+    longitude: -59.59880889999999
+    min_latitude: 13.1466249
+    min_longitude: -59.617723
+    max_latitude: 13.216692
+    max_longitude: -59.55319399999999
   translations:
     en: Saint Thomas
     ar: سانت توماس، بربادوس
@@ -564,11 +593,4 @@
     ko: 세인트토머스 교구
     uk: Парафія Сент-Томас
     ca: Saint Thomas
-  geo:
-    latitude: 13.1748291
-    longitude: -59.59880889999999
-    min_latitude: 13.1466249
-    min_longitude: -59.617723
-    max_latitude: 13.216692
-    max_longitude: -59.55319399999999
-  name: Saint Thomas
+  comments: 

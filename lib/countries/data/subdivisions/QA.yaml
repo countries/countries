@@ -1,5 +1,7 @@
 ---
-DA:
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Ad Dawhah
+  code: 
   unofficial_names:
   - Dawhah
   - Doha
@@ -8,6 +10,13 @@ DA:
   - Doha
   - Doha
   - Doha
+  geo:
+    latitude: 25.2916097
+    longitude: 51.5304368
+    min_latitude: 25.1954283
+    min_longitude: 51.4307964
+    max_latitude: 25.4125783
+    max_longitude: 51.6281212
   translations:
     en: Doha
     af: Doha
@@ -91,19 +100,12 @@ DA:
     uz: Doha
     bs: Doha
     mk: Доха
-  geo:
-    latitude: 25.2916097
-    longitude: 51.5304368
-    min_latitude: 25.1954283
-    min_longitude: 51.4307964
-    max_latitude: 25.4125783
-    max_longitude: 51.6281212
-  name: Ad Dawhah
-GH:
+  comments: 
+GH: !ruby/struct:ISO3166::Subdivision
+  name: Al Ghuwayriyah
+  code: 
   unofficial_names:
   - al-Ghuwayriyah
-  translations:
-    en: Al Ghuwayriyah
   geo:
     latitude: 25.8447931
     longitude: 51.2453739
@@ -111,11 +113,13 @@ GH:
     min_longitude: 51.2385179
     max_latitude: 25.851963
     max_longitude: 51.2548255
-  name: Al Ghuwayriyah
-JB:
-  unofficial_names: Jariyan al Batnah
   translations:
-    en: Jariyan al Batnah
+    en: Al Ghuwayriyah
+  comments: 
+JB: !ruby/struct:ISO3166::Subdivision
+  name: Jariyan al Batnah
+  code: 
+  unofficial_names: Jariyan al Batnah
   geo:
     latitude: 
     longitude: 
@@ -123,12 +127,14 @@ JB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Jariyan al Batnah
-JU:
+  translations:
+    en: Jariyan al Batnah
+  comments: 
+JU: !ruby/struct:ISO3166::Subdivision
+  name: Al Jumayliyah
+  code: 
   unofficial_names:
   - al-Jumayliyah
-  translations:
-    en: Al Jumayliyah
   geo:
     latitude: 25.6218514
     longitude: 51.0835811
@@ -136,13 +142,24 @@ JU:
     min_longitude: 51.0743236
     max_latitude: 25.6417585
     max_longitude: 51.1042785
-  name: Al Jumayliyah
-KH:
+  translations:
+    en: Al Jumayliyah
+  comments: 
+KH: !ruby/struct:ISO3166::Subdivision
+  name: Al Khawr
+  code: 
   unofficial_names:
   - H̱ūr
   - al-Khawr
   - al-Khour
   - al-H̱awr
+  geo:
+    latitude: 25.6804078
+    longitude: 51.4968502
+    min_latitude: 25.6203229
+    min_longitude: 51.4761828
+    max_latitude: 25.6959881
+    max_longitude: 51.5287971
   translations:
     en: Al Khor
     ar: الخور والدخيرة
@@ -183,17 +200,19 @@ KH:
     zh: 艾科爾
     ccp: "\U00011103\U00011123\U00011134 \U00011108\U0001112E\U00011122\U00011134"
     mk: Хор
-  geo:
-    latitude: 25.6804078
-    longitude: 51.4968502
-    min_latitude: 25.6203229
-    min_longitude: 51.4761828
-    max_latitude: 25.6959881
-    max_longitude: 51.5287971
-  name: Al Khawr
-MS:
+  comments: 
+MS: !ruby/struct:ISO3166::Subdivision
+  name: Madinat ash Shamal
+  code: 
   unofficial_names:
   - ash-Shamal
+  geo:
+    latitude: 26.1156079
+    longitude: 51.2218451
+    min_latitude: 26.1038857
+    min_longitude: 51.2056447
+    max_latitude: 26.123153
+    max_longitude: 51.23826039999999
   translations:
     en: Madinat ash Shamal
     ar: بلدية الشمال
@@ -234,18 +253,20 @@ MS:
     ccp: "\U0001111F\U00011113\U00011128\U0001111A\U00011116\U00011134 \U00011103\U0001110C\U00011134
       \U00011125\U00011133\U00011120\U0001111F\U00011127\U00011123\U00011134"
     mk: Шамал
-  geo:
-    latitude: 26.1156079
-    longitude: 51.2218451
-    min_latitude: 26.1038857
-    min_longitude: 51.2056447
-    max_latitude: 26.123153
-    max_longitude: 51.23826039999999
-  name: Madinat ash Shamal
-RA:
+  comments: 
+RA: !ruby/struct:ISO3166::Subdivision
+  name: Ar Rayyan
+  code: 
   unofficial_names:
   - Rayyan
   - ar-Rayyan
+  geo:
+    latitude: 25.2089787
+    longitude: 51.095836
+    min_latitude: 24.471186
+    min_longitude: 50.7500553
+    max_latitude: 25.8087775
+    max_longitude: 51.53700079999999
   translations:
     en: Al Rayyan
     ar: بلدية الريان
@@ -291,17 +312,19 @@ RA:
     ga: Al Rayyan
     gl: Ar Rayyan
     mk: Рајан
-  geo:
-    latitude: 25.2089787
-    longitude: 51.095836
-    min_latitude: 24.471186
-    min_longitude: 50.7500553
-    max_latitude: 25.8087775
-    max_longitude: 51.53700079999999
-  name: Ar Rayyan
-US:
+  comments: 
+US: !ruby/struct:ISO3166::Subdivision
+  name: Umm Salal
+  code: 
   unofficial_names:
   - Umm Shalal
+  geo:
+    latitude: 25.3981114
+    longitude: 51.42508489999999
+    min_latitude: 25.3710324
+    min_longitude: 51.3913962
+    max_latitude: 25.4387563
+    max_longitude: 51.4667945
   translations:
     en: Umm Salal
     ar: بلدية أم صلال
@@ -341,18 +364,20 @@ US:
     zh: 烏姆錫拉勒
     ccp: "\U00011105\U0001112A\U0001111F\U00011134 \U00011125\U00011123\U00011123\U00011134"
     mk: Ум Салал
-  geo:
-    latitude: 25.3981114
-    longitude: 51.42508489999999
-    min_latitude: 25.3710324
-    min_longitude: 51.3913962
-    max_latitude: 25.4387563
-    max_longitude: 51.4667945
-  name: Umm Salal
-WA:
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Al Wakrah
+  code: 
   unofficial_names:
   - Wakra
   - Wakrah
+  geo:
+    latitude: 25.1768157
+    longitude: 51.6048431
+    min_latitude: 24.473726
+    min_longitude: 51.1108249
+    max_latitude: 25.233427
+    max_longitude: 51.6284578
   translations:
     en: Al Wakrah
     ar: الوكرة
@@ -396,19 +421,12 @@ WA:
     ccp: "\U00011103\U00011123\U00011134 \U00011124\U00011107\U00011134\U00011122\U00011126\U00011134"
     ga: Al Wakrah
     mk: Вакра
-  geo:
-    latitude: 25.1768157
-    longitude: 51.6048431
-    min_latitude: 24.473726
-    min_longitude: 51.1108249
-    max_latitude: 25.233427
-    max_longitude: 51.6284578
-  name: Al Wakrah
-X1~:
+  comments: 
+X1~: !ruby/struct:ISO3166::Subdivision
+  name: Umm Sa'id
+  code: 
   unofficial_names:
   - Mesaieed
-  translations:
-    en: Umm Sa'id
   geo:
     latitude: 24.9909255
     longitude: 51.5493483
@@ -416,9 +434,20 @@ X1~:
     min_longitude: 51.5258231
     max_latitude: 25.0202494
     max_longitude: 51.6018392
-  name: Umm Sa'id
-ZA:
+  translations:
+    en: Umm Sa'id
+  comments: 
+ZA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية الضعاين
     bn: আল দায়েন
@@ -457,17 +486,16 @@ ZA:
     zh: 戴揚
     ccp: "\U00011103\U00011123\U00011134 \U00011118\U0001112C\U00011120\U0001111A\U00011134"
     mk: Дајен
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-SH:
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     ar: الشحانية
     fa: شحانیه
     ja: シャハーニーヤ
     en: Ash Shīḩānīyah
     gl: Al Shahaniya
+  comments: 

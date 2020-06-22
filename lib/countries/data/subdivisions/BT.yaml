@@ -1,8 +1,17 @@
 ---
-'11':
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Paro
+  code: 
   unofficial_names:
   - Paro
   - Rinpung
+  geo:
+    latitude: 27.4285949
+    longitude: 89.4166516
+    min_latitude: 27.1771741
+    min_longitude: 89.131271
+    max_latitude: 27.7510569
+    max_longitude: 89.563836
   translations:
     en: Paro
     ar: مقاطعة بارو
@@ -53,19 +62,21 @@
     pa: ਪਾਰੋ ਜ਼ਿਲ੍ਹਾ
     ml: പാറോ ജില്ല
     ca: Districte de Paro
-  geo:
-    latitude: 27.4285949
-    longitude: 89.4166516
-    min_latitude: 27.1771741
-    min_longitude: 89.131271
-    max_latitude: 27.7510569
-    max_longitude: 89.563836
-  name: Paro
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Chhukha
+  code: 
   unofficial_names:
   - Chhuka
   - Chuka
   - Chukha
+  geo:
+    latitude: 27.0522919
+    longitude: 89.5756987
+    min_latitude: 27.0483479
+    min_longitude: 89.5604609
+    max_latitude: 27.0611895
+    max_longitude: 89.5806313
   translations:
     en: Chukha
     ar: مقاطعة تشوخا
@@ -115,18 +126,20 @@
     zh: 楚卡宗
     ccp: "\U0001110C\U0001112A\U00011108"
     ca: Districte de Chukha
-  geo:
-    latitude: 27.0522919
-    longitude: 89.5756987
-    min_latitude: 27.0483479
-    min_longitude: 89.5604609
-    max_latitude: 27.0611895
-    max_longitude: 89.5806313
-  name: Chhukha
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Ha
+  code: 
   unofficial_names:
   - Ha
   - Haa
+  geo:
+    latitude: 27.2651669
+    longitude: 89.1705998
+    min_latitude: 27.0723781
+    min_longitude: 88.89505199999999
+    max_latitude: 27.6211449
+    max_longitude: 89.39598099999999
   translations:
     en: Haa
     ar: مقاطعة ها
@@ -174,18 +187,20 @@
     zh: 哈阿宗
     ccp: "\U00011126"
     ca: Districte de Haa
-  geo:
-    latitude: 27.2651669
-    longitude: 89.1705998
-    min_latitude: 27.0723781
-    min_longitude: 88.89505199999999
-    max_latitude: 27.6211449
-    max_longitude: 89.39598099999999
-  name: Ha
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Samtse
+  code: 
   unofficial_names:
   - Samchi
   - Samtse
+  geo:
+    latitude: 26.9131041
+    longitude: 89.08360189999999
+    min_latitude: 26.9078347
+    min_longitude: 89.0766335
+    max_latitude: 26.9162536
+    max_longitude: 89.090538
   translations:
     en: Samtse
     ar: مقاطعة سامتسي
@@ -233,15 +248,10 @@
     zh: 萨姆宗
     ccp: "\U00011125\U0001111F\U00011134\U00011125\U0001112C"
     ca: Districte de Samtse
-  geo:
-    latitude: 26.9131041
-    longitude: 89.08360189999999
-    min_latitude: 26.9078347
-    min_longitude: 89.0766335
-    max_latitude: 26.9162536
-    max_longitude: 89.090538
-  name: Samtse
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Thimphu
+  code: 
   unofficial_names:
   - Thimbu
   - Thimphu
@@ -249,6 +259,13 @@
   - Timbhu
   - Timbu
   - Timphu
+  geo:
+    latitude: 27.4727924
+    longitude: 89.6392863
+    min_latitude: 27.4251092
+    min_longitude: 89.60414879999999
+    max_latitude: 27.5336949
+    max_longitude: 89.6726418
   translations:
     en: Thimphu
     ar: مقاطعة ثيمفو
@@ -299,18 +316,20 @@
     lt: Timfu regionas
     zh: 廷布宗
     ccp: "\U00011117\U00011128\U0001111F\U00011134\U0001111C\U0001112A"
-  geo:
-    latitude: 27.4727924
-    longitude: 89.6392863
-    min_latitude: 27.4251092
-    min_longitude: 89.60414879999999
-    max_latitude: 27.5336949
-    max_longitude: 89.6726418
-  name: Thimphu
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Tsirang
+  code: 
   unofficial_names:
   - Chirang
   - Tsirang
+  geo:
+    latitude: 27.032207
+    longitude: 90.1869644
+    min_latitude: 26.8187539
+    min_longitude: 90.00392509999999
+    max_latitude: 27.177361
+    max_longitude: 90.357412
   translations:
     en: Tsirang
     bg: Циранг
@@ -337,18 +356,20 @@
     zh: 奇朗宗
     ccp: "\U00011125\U00011128\U00011122\U00011127\U00011101"
     ca: Districte de Tsirang
-  geo:
-    latitude: 27.032207
-    longitude: 90.1869644
-    min_latitude: 26.8187539
-    min_longitude: 90.00392509999999
-    max_latitude: 27.177361
-    max_longitude: 90.357412
-  name: Tsirang
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Dagana
+  code: 
   unofficial_names:
   - Daga
   - Dagana
+  geo:
+    latitude: 27.0322861
+    longitude: 89.8879304
+    min_latitude: 26.808901
+    min_longitude: 89.648614
+    max_latitude: 27.26369
+    max_longitude: 90.08144100000001
   translations:
     en: Dagana
     bg: Дагана
@@ -377,16 +398,18 @@
     ccp: "\U00011113\U00011109\U0001111A"
     or: ଦାଗନା ଜିଲ୍ଲା , ଭୁଟାନ
     ca: Districte de Dagana
-  geo:
-    latitude: 27.0322861
-    longitude: 89.8879304
-    min_latitude: 26.808901
-    min_longitude: 89.648614
-    max_latitude: 27.26369
-    max_longitude: 90.08144100000001
-  name: Dagana
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Punakha
+  code: 
   unofficial_names: Punakha
+  geo:
+    latitude: 27.5920869
+    longitude: 89.87974589999999
+    min_latitude: 27.5877193
+    min_longitude: 89.8721123
+    max_latitude: 27.5961249
+    max_longitude: 89.88554479999999
   translations:
     en: Punakha
     ar: مقاطعة بوناخا
@@ -434,20 +457,22 @@
     zh: 普那卡宗
     ccp: "\U0001111B\U0001112A\U0001111A\U00011107\U00011134"
     sl: Okraj Punaka
-  geo:
-    latitude: 27.5920869
-    longitude: 89.87974589999999
-    min_latitude: 27.5877193
-    min_longitude: 89.8721123
-    max_latitude: 27.5961249
-    max_longitude: 89.88554479999999
-  name: Punakha
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Wangdue Phodrang
+  code: 
   unofficial_names:
   - Wangdi Phodrang
   - Wangdiphodrang
   - Wangdue
   - Wangdue Phodrang
+  geo:
+    latitude: 27.4879018
+    longitude: 89.8996196
+    min_latitude: 27.474542
+    min_longitude: 89.8926686
+    max_latitude: 27.4991359
+    max_longitude: 89.9055432
   translations:
     en: Wangdue Phodrang
     ar: مقاطعة وانغدو فودرانغ
@@ -496,20 +521,22 @@
       \U0001111C\U00011127\U00011116\U00011134\U00011122\U00011127\U00011101"
     sl: Okraj Vangdi Fodrang
     ca: Districte de Wangdue Phodrang
-  geo:
-    latitude: 27.4879018
-    longitude: 89.8996196
-    min_latitude: 27.474542
-    min_longitude: 89.8926686
-    max_latitude: 27.4991359
-    max_longitude: 89.9055432
-  name: Wangdue Phodrang
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Sarpang
+  code: 
   unofficial_names:
   - Gaylegphug
   - Geylegphug
   - Sarbhang
   - Sarpang
+  geo:
+    latitude: 26.9373041
+    longitude: 90.4879916
+    min_latitude: 26.7076319
+    min_longitude: 89.734461
+    max_latitude: 27.209321
+    max_longitude: 90.96380099999999
   translations:
     en: Sarpang
     bg: Сарпанг
@@ -538,18 +565,20 @@
     zh: 盖莱普宗
     ccp: "\U00011125\U00011122\U00011134\U0001111B\U00011127\U00011101"
     ca: Districte de Sarpang
-  geo:
-    latitude: 26.9373041
-    longitude: 90.4879916
-    min_latitude: 26.7076319
-    min_longitude: 89.734461
-    max_latitude: 27.209321
-    max_longitude: 90.96380099999999
-  name: Sarpang
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: Trongsa
+  code: 
   unofficial_names:
   - Tongsa
   - Trongsa
+  geo:
+    latitude: 27.5002269
+    longitude: 90.5080634
+    min_latitude: 27.4940347
+    min_longitude: 90.5036116
+    max_latitude: 27.508043
+    max_longitude: 90.51571369999999
   translations:
     en: Trongsa
     ar: مقاطعة ترونغزا
@@ -593,16 +622,18 @@
     lt: Trongsos apskritis
     zh: 通萨宗
     ccp: "\U00011111\U00011133\U00011122\U00011127\U00011101\U00011125"
-  geo:
-    latitude: 27.5002269
-    longitude: 90.5080634
-    min_latitude: 27.4940347
-    min_longitude: 90.5036116
-    max_latitude: 27.508043
-    max_longitude: 90.51571369999999
-  name: Trongsa
-'33':
+  comments: 
+'33': !ruby/struct:ISO3166::Subdivision
+  name: Bumthang
+  code: 
   unofficial_names: Bumthang
+  geo:
+    latitude: 27.641839
+    longitude: 90.6773046
+    min_latitude: 27.320946
+    min_longitude: 90.48443499999999
+    max_latitude: 28.090851
+    max_longitude: 91.0160089
   translations:
     en: Bumthang
     ar: مقاطعة بامثانغ
@@ -653,18 +684,20 @@
     zh: 布姆唐宗
     ccp: "\U0001111D\U0001112A\U0001111F\U00011134\U00011117\U00011101"
     ca: Districte de Bumthang
-  geo:
-    latitude: 27.641839
-    longitude: 90.6773046
-    min_latitude: 27.320946
-    min_longitude: 90.48443499999999
-    max_latitude: 28.090851
-    max_longitude: 91.0160089
-  name: Bumthang
-'34':
+  comments: 
+'34': !ruby/struct:ISO3166::Subdivision
+  name: Zhemgang
+  code: 
   unofficial_names:
   - Shemgang
   - Zhemgang
+  geo:
+    latitude: 27.1439047
+    longitude: 90.6903529
+    min_latitude: 27.1353061
+    min_longitude: 90.6856155
+    max_latitude: 27.1492833
+    max_longitude: 90.69565779999999
   translations:
     en: Zhemgang
     ar: مقاطعة زيمغانغ
@@ -708,18 +741,20 @@
     zh: 谢姆冈宗
     ccp: "\U0001110F\U0001112C\U0001111F\U00011134\U00011109\U00011127\U00011101"
     ca: Districte de Zhemgang
-  geo:
-    latitude: 27.1439047
-    longitude: 90.6903529
-    min_latitude: 27.1353061
-    min_longitude: 90.6856155
-    max_latitude: 27.1492833
-    max_longitude: 90.69565779999999
-  name: Zhemgang
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Trashigang
+  code: 
   unofficial_names:
   - Tashigang
   - Trashigang
+  geo:
+    latitude: 27.2566795
+    longitude: 91.7538817
+    min_latitude: 27.0165199
+    min_longitude: 91.378786
+    max_latitude: 27.482902
+    max_longitude: 92.12519789999999
   translations:
     en: Trashigang
     ar: مقاطعة تراشيغانغ
@@ -763,18 +798,20 @@
     zh: 塔希冈宗
     ccp: "\U00011111\U00011133\U00011122\U00011125\U00011128\U00011109\U00011127\U00011101"
     ca: Districte de Trashigang
-  geo:
-    latitude: 27.2566795
-    longitude: 91.7538817
-    min_latitude: 27.0165199
-    min_longitude: 91.378786
-    max_latitude: 27.482902
-    max_longitude: 92.12519789999999
-  name: Trashigang
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Monggar
+  code: 
   unofficial_names:
   - Monggar
   - Mongor
+  geo:
+    latitude: 27.275
+    longitude: 91.24
+    min_latitude: 27.2708807
+    min_longitude: 91.23415949999999
+    max_latitude: 27.280493
+    max_longitude: 91.2454034
   translations:
     en: Mongar
     ar: مقاطعة مونغار
@@ -819,18 +856,20 @@
     zh: 蒙加尔宗
     ccp: "\U0001111F\U00011127\U00011101\U00011109\U00011122\U00011134"
     ca: Districte de Mongar
-  geo:
-    latitude: 27.275
-    longitude: 91.24
-    min_latitude: 27.2708807
-    min_longitude: 91.23415949999999
-    max_latitude: 27.280493
-    max_longitude: 91.2454034
-  name: Monggar
-'43':
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Pemagatshel
+  code: 
   unofficial_names:
   - Pema Gatshel
   - Pemagatsel
+  geo:
+    latitude: 27.002382
+    longitude: 91.3469247
+    min_latitude: 26.8459449
+    min_longitude: 91.17381700000001
+    max_latitude: 27.1670959
+    max_longitude: 91.517646
   translations:
     en: Pemagatshel
     ar: مقاطعة بيماغاتشيل
@@ -875,20 +914,22 @@
     zh: 佩马加策尔宗
     ccp: "\U0001111B\U0001112C\U0001111F\U00011109\U00011116\U00011134\U00011125\U0001112C\U00011123\U00011134"
     ca: Districte de Pemagatshel
-  geo:
-    latitude: 27.002382
-    longitude: 91.3469247
-    min_latitude: 26.8459449
-    min_longitude: 91.17381700000001
-    max_latitude: 27.1670959
-    max_longitude: 91.517646
-  name: Pemagatshel
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Lhuentse
+  code: 
   unofficial_names:
   - Lhuentse
   - Lhun Tshi
   - Lhuntshi
   - Lhuntsi
+  geo:
+    latitude: 27.6649208
+    longitude: 91.1761004
+    min_latitude: 27.6492443
+    min_longitude: 91.1688424
+    max_latitude: 27.677438
+    max_longitude: 91.1892156
   translations:
     en: Lhuntse
     ar: مقاطعة لانتس
@@ -933,19 +974,21 @@
     zh: 伦奇宗
     ccp: "\U00011123\U0001112A\U00011101\U00011125\U0001112C"
     ca: Districte de Lhuntse
-  geo:
-    latitude: 27.6649208
-    longitude: 91.1761004
-    min_latitude: 27.6492443
-    min_longitude: 91.1688424
-    max_latitude: 27.677438
-    max_longitude: 91.1892156
-  name: Lhuentse
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Samdrup Jongkha
+  code: 
   unofficial_names:
   - Samdruk Jongkhar
   - Samdrup
   - Samdrup Jongkha
+  geo:
+    latitude: 26.928696
+    longitude: 91.63721500000001
+    min_latitude: 26.777367
+    min_longitude: 90.995525
+    max_latitude: 27.2464701
+    max_longitude: 92.1221539
   translations:
     en: Samdrup Jongkhar
     ar: مقاطعة سامدروب جونغخار
@@ -991,17 +1034,19 @@
     ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011134\U00011113\U00011133\U00011122\U0001112A\U0001111B\U00011134
       \U0001110E\U00011127\U00011101\U00011108\U00011122\U00011134"
     ca: Districte de Samdrup Jongkhar
-  geo:
-    latitude: 26.928696
-    longitude: 91.63721500000001
-    min_latitude: 26.777367
-    min_longitude: 90.995525
-    max_latitude: 27.2464701
-    max_longitude: 92.1221539
-  name: Samdrup Jongkha
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Gasa
+  code: 
   unofficial_names:
   - Gaza
+  geo:
+    latitude: 28.0185886
+    longitude: 89.9253233
+    min_latitude: 27.687483
+    min_longitude: 89.43694289999999
+    max_latitude: 28.323778
+    max_longitude: 90.617648
   translations:
     en: Gasa
     ar: مقاطعة غاسا
@@ -1047,17 +1092,19 @@ GA:
     zh: 加萨宗
     ccp: "\U00011109\U00011125"
     ca: Districte de Gasa
-  geo:
-    latitude: 28.0185886
-    longitude: 89.9253233
-    min_latitude: 27.687483
-    min_longitude: 89.43694289999999
-    max_latitude: 28.323778
-    max_longitude: 90.617648
-  name: Gasa
-TY:
+  comments: 
+TY: !ruby/struct:ISO3166::Subdivision
+  name: Trashi Yangtse
+  code: 
   unofficial_names:
   - Tashiyangtse
+  geo:
+    latitude: 27.583333
+    longitude: 91.466667
+    min_latitude: 27.383962
+    min_longitude: 91.31767270000002
+    max_latitude: 28.050773
+    max_longitude: 91.73789980000001
   translations:
     en: Trashiyangtse
     ar: مقاطعة تراشيانغتس
@@ -1104,11 +1151,4 @@ TY:
     ccp: "\U00011111\U00011133\U00011122\U00011125\U00011128\U00011120\U00011101\U00011125\U0001112C"
     sl: Okraj Trašijangce
     ca: Districte de Trashiyamgtse
-  geo:
-    latitude: 27.583333
-    longitude: 91.466667
-    min_latitude: 27.383962
-    min_longitude: 91.31767270000002
-    max_latitude: 28.050773
-    max_longitude: 91.73789980000001
-  name: Trashi Yangtse
+  comments: 

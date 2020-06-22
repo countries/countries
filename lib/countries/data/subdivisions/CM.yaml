@@ -1,7 +1,16 @@
 ---
-AD:
+AD: !ruby/struct:ISO3166::Subdivision
+  name: Adamaoua
+  code: 
   unofficial_names:
   - Adamawa
+  geo:
+    latitude: 6.9181954
+    longitude: 12.8054753
+    min_latitude: 5.992985
+    min_longitude: 11.173742
+    max_latitude: 8.1690449
+    max_longitude: 15.2492441
   translations:
     en: Adamawa
     ar: محافظة آداماوا
@@ -49,16 +58,18 @@ AD:
     ka: ადამავის რეგიონი
     he: מחוז אדמאווה
     uk: Адамава
-  geo:
-    latitude: 6.9181954
-    longitude: 12.8054753
-    min_latitude: 5.992985
-    min_longitude: 11.173742
-    max_latitude: 8.1690449
-    max_longitude: 15.2492441
-  name: Adamaoua
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Centre
+  code: 
   unofficial_names: Centre
+  geo:
+    latitude: 4.6298411
+    longitude: 11.7068294
+    min_latitude: 3.139809
+    min_longitude: 10.2618951
+    max_latitude: 6.262233999999999
+    max_longitude: 13.248086
   translations:
     en: Centre
     ar: سنتر
@@ -106,16 +117,18 @@ CE:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
     ka: ცენტრალური რეგიონი
     yo: àárín
-  geo:
-    latitude: 4.6298411
-    longitude: 11.7068294
-    min_latitude: 3.139809
-    min_longitude: 10.2618951
-    max_latitude: 6.262233999999999
-    max_longitude: 13.248086
-  name: Centre
-EN:
+  comments: 
+EN: !ruby/struct:ISO3166::Subdivision
+  name: Far North
+  code: 
   unofficial_names: Far North
+  geo:
+    latitude: 10.6315589
+    longitude: 14.6587821
+    min_latitude: 9.9244931
+    min_longitude: 13.363565
+    max_latitude: 12.9797045
+    max_longitude: 15.683687
   translations:
     en: Far North
     ar: الشمال الأقصى
@@ -162,16 +175,18 @@ EN:
     ka: უკიდურესი ჩრდილოეთის რეგიონი
     he: מחוז הצפון הרחוק
     uk: Крайньопівнічний регіон
-  geo:
-    latitude: 10.6315589
-    longitude: 14.6587821
-    min_latitude: 9.9244931
-    min_longitude: 13.363565
-    max_latitude: 12.9797045
-    max_longitude: 15.683687
-  name: Far North
-ES:
+  comments: 
+ES: !ruby/struct:ISO3166::Subdivision
+  name: East
+  code: 
   unofficial_names: East
+  geo:
+    latitude: 3.950512799999999
+    longitude: 13.914399
+    min_latitude: 1.6525479
+    min_longitude: 12.5253721
+    max_latitude: 6.0856641
+    max_longitude: 16.1921161
   translations:
     en: East
     ar: الشرق
@@ -220,16 +235,18 @@ ES:
     he: מחוז המזרח
     uk: Східний Регіон
     yo: ilà oòrùn
-  geo:
-    latitude: 3.950512799999999
-    longitude: 13.914399
-    min_latitude: 1.6525479
-    min_longitude: 12.5253721
-    max_latitude: 6.0856641
-    max_longitude: 16.1921161
-  name: East
-LT:
+  comments: 
+LT: !ruby/struct:ISO3166::Subdivision
+  name: Littoral
+  code: 
   unofficial_names: Littoral
+  geo:
+    latitude: 4.1682138
+    longitude: 10.0807298
+    min_latitude: 3.2601088
+    min_longitude: 9.328249399999999
+    max_latitude: 5.3471799
+    max_longitude: 11.133462
   translations:
     en: Littoral
     ar: ليتورال
@@ -277,17 +294,19 @@ LT:
     ka: სანაპირო რეგიონი
     hy: Լիտտորալ
     he: מחוז החוף
-  geo:
-    latitude: 4.1682138
-    longitude: 10.0807298
-    min_latitude: 3.2601088
-    min_longitude: 9.328249399999999
-    max_latitude: 5.3471799
-    max_longitude: 11.133462
-  name: Littoral
-'NO':
+  comments: 
+'NO': !ruby/struct:ISO3166::Subdivision
+  name: North
+  code: 
   unofficial_names:
   - Bénoué
+  geo:
+    latitude: 8.580901299999999
+    longitude: 13.914399
+    min_latitude: 7.029078999999999
+    min_longitude: 12.2255
+    max_latitude: 10.219281
+    max_longitude: 15.598204
   translations:
     en: North
     ar: المنطقة الشمالية، الكاميرون
@@ -335,16 +354,18 @@ LT:
     he: מחוז הצפון
     uk: Північний регіон
     yo: Àríwá
-  geo:
-    latitude: 8.580901299999999
-    longitude: 13.914399
-    min_latitude: 7.029078999999999
-    min_longitude: 12.2255
-    max_latitude: 10.219281
-    max_longitude: 15.598204
-  name: North
-NW:
+  comments: 
+NW: !ruby/struct:ISO3166::Subdivision
+  name: North-West
+  code: 
   unofficial_names: North-West
+  geo:
+    latitude: 6.470373899999999
+    longitude: 10.439656
+    min_latitude: 5.733760999999999
+    min_longitude: 9.6307759
+    max_latitude: 7.1616911
+    max_longitude: 11.194967
   translations:
     en: Northwest
     ar: إقليم الشمال الغربي
@@ -391,16 +412,18 @@ NW:
     ka: ჩრდილო-დასავლეთის რეგიონი
     he: מחוז צפון-מערב
     uk: Північно-Західний регіон
-  geo:
-    latitude: 6.470373899999999
-    longitude: 10.439656
-    min_latitude: 5.733760999999999
-    min_longitude: 9.6307759
-    max_latitude: 7.1616911
-    max_longitude: 11.194967
-  name: North-West
-OU:
+  comments: 
+OU: !ruby/struct:ISO3166::Subdivision
+  name: West
+  code: 
   unofficial_names: West
+  geo:
+    latitude: 5.4638158
+    longitude: 10.8000051
+    min_latitude: 4.897807999999999
+    min_longitude: 9.881679
+    max_latitude: 6.2716239
+    max_longitude: 11.3210561
   translations:
     en: West
     ar: الغرب
@@ -449,16 +472,18 @@ OU:
     he: מחוז המערב
     uk: Західний регіон
     yo: ìwọ̀ oòrùn
-  geo:
-    latitude: 5.4638158
-    longitude: 10.8000051
-    min_latitude: 4.897807999999999
-    min_longitude: 9.881679
-    max_latitude: 6.2716239
-    max_longitude: 11.3210561
-  name: West
-SU:
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: South
+  code: 
   unofficial_names: South
+  geo:
+    latitude: 2.7202832
+    longitude: 11.7068294
+    min_latitude: 2.1588319
+    min_longitude: 9.820998
+    max_latitude: 3.6768781
+    max_longitude: 13.681523
   translations:
     en: South
     ar: جنوب
@@ -505,16 +530,18 @@ SU:
     he: מחוז הדרום
     uk: Південий регіон
     yo: Gúúsù
-  geo:
-    latitude: 2.7202832
-    longitude: 11.7068294
-    min_latitude: 2.1588319
-    min_longitude: 9.820998
-    max_latitude: 3.6768781
-    max_longitude: 13.681523
-  name: South
-SW:
+  comments: 
+SW: !ruby/struct:ISO3166::Subdivision
+  name: South-West
+  code: 
   unofficial_names: South-West
+  geo:
+    latitude: 5.1573493
+    longitude: 9.367308399999999
+    min_latitude: 3.9221987
+    min_longitude: 8.4947634
+    max_latitude: 6.530783899999999
+    max_longitude: 10.15105
   translations:
     en: Southwest
     ar: جنوب غرب
@@ -561,11 +588,4 @@ SW:
     hy: Հարավարևմտյան շրջան
     he: מחוז דרום-מערב
     uk: Південно-Західний регіон
-  geo:
-    latitude: 5.1573493
-    longitude: 9.367308399999999
-    min_latitude: 3.9221987
-    min_longitude: 8.4947634
-    max_latitude: 6.530783899999999
-    max_longitude: 10.15105
-  name: South-West
+  comments: 

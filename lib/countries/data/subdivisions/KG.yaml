@@ -1,6 +1,15 @@
 ---
-B:
+B: !ruby/struct:ISO3166::Subdivision
+  name: Batken
+  code: 
   unofficial_names: Batken
+  geo:
+    latitude: 40.066667
+    longitude: 70.833333
+    min_latitude: 40.0316892
+    min_longitude: 70.7974435
+    max_latitude: 40.08343199999999
+    max_longitude: 70.8491994
   translations:
     en: Batken
     ar: باتكين أوبلاستي
@@ -53,20 +62,22 @@ B:
     kk: Баткен облысы
     be: Баткенская вобласць
     uz: Botken
-  geo:
-    latitude: 40.066667
-    longitude: 70.833333
-    min_latitude: 40.0316892
-    min_longitude: 70.7974435
-    max_latitude: 40.08343199999999
-    max_longitude: 70.8491994
-  name: Batken
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Chü
+  code: 
   unofficial_names:
   - Chu
   - Chui
   - Chuy
   - Çüy
+  geo:
+    latitude: 42.5079313
+    longitude: 75.8302566
+    min_latitude: 42.505947
+    min_longitude: 75.82733019999999
+    max_latitude: 42.5099156
+    max_longitude: 75.83318299999999
   translations:
     en: Chuy
     ar: تشوي أوبلاستي
@@ -123,18 +134,20 @@ C:
     be: Чуйская вобласць
     uz: Chuy
     mk: Чујска област
-  geo:
-    latitude: 42.5079313
-    longitude: 75.8302566
-    min_latitude: 42.505947
-    min_longitude: 75.82733019999999
-    max_latitude: 42.5099156
-    max_longitude: 75.83318299999999
-  name: Chü
-GB:
+  comments: 
+GB: !ruby/struct:ISO3166::Subdivision
+  name: Bishkek
+  code: 
   unofficial_names:
   - Bishkek
   - Kenesh Bishkek
+  geo:
+    latitude: 42.874722
+    longitude: 74.61222200000002
+    min_latitude: 42.8031469
+    min_longitude: 74.46490299999999
+    max_latitude: 42.9489859
+    max_longitude: 74.71767439999999
   translations:
     en: Bishkek
     af: Bisjkek
@@ -214,16 +227,18 @@ GB:
     bs: Bishkek
     mk: Бишкек
     ne: विस्केक
-  geo:
-    latitude: 42.874722
-    longitude: 74.61222200000002
-    min_latitude: 42.8031469
-    min_longitude: 74.46490299999999
-    max_latitude: 42.9489859
-    max_longitude: 74.71767439999999
-  name: Bishkek
-J:
+  comments: 
+J: !ruby/struct:ISO3166::Subdivision
+  name: Jalal-Abad
+  code: 
   unofficial_names: Jalal-Abad
+  geo:
+    latitude: 40.933333
+    longitude: 73
+    min_latitude: 40.9037825
+    min_longitude: 72.93934829999999
+    max_latitude: 40.97205719999999
+    max_longitude: 73.0214024
   translations:
     en: Jalal-Abad
     ar: جلال أباد أوبلاستي
@@ -277,17 +292,19 @@ J:
     mn: Жалалабат муж
     be: Джалал-Абадская вобласць
     uz: Jalolobod
-  geo:
-    latitude: 40.933333
-    longitude: 73
-    min_latitude: 40.9037825
-    min_longitude: 72.93934829999999
-    max_latitude: 40.97205719999999
-    max_longitude: 73.0214024
-  name: Jalal-Abad
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Naryn
+  code: 
   unofficial_names:
   - Naryn
+  geo:
+    latitude: 41.433333
+    longitude: 76
+    min_latitude: 41.4142818
+    min_longitude: 75.89921939999999
+    max_latitude: 41.4369033
+    max_longitude: 76.0630704
   translations:
     en: Naryn
     ar: نارين أوبلاستي
@@ -342,17 +359,19 @@ N:
     kk: Нарын облысы
     be: Нарынская вобласць
     uz: Norin
-  geo:
-    latitude: 41.433333
-    longitude: 76
-    min_latitude: 41.4142818
-    min_longitude: 75.89921939999999
-    max_latitude: 41.4369033
-    max_longitude: 76.0630704
-  name: Naryn
-O:
+  comments: 
+O: !ruby/struct:ISO3166::Subdivision
+  name: Osh
+  code: 
   unofficial_names:
   - Osh
+  geo:
+    latitude: 40.53
+    longitude: 72.8
+    min_latitude: 40.4754848
+    min_longitude: 72.7557564
+    max_latitude: 40.5649378
+    max_longitude: 72.8613282
   translations:
     en: Osh Region
     ar: أوش أوبلاستي
@@ -409,16 +428,18 @@ O:
     kk: Ош облысы
     cs: Ošská oblast
     uz: Oʻsh²
-  geo:
-    latitude: 40.53
-    longitude: 72.8
-    min_latitude: 40.4754848
-    min_longitude: 72.7557564
-    max_latitude: 40.5649378
-    max_longitude: 72.8613282
-  name: Osh
-T:
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Talas
+  code: 
   unofficial_names: Talas
+  geo:
+    latitude: 42.516667
+    longitude: 72.23333300000002
+    min_latitude: 42.5045029
+    min_longitude: 72.1606065
+    max_latitude: 42.5554828
+    max_longitude: 72.28523249999999
   translations:
     en: Talas
     ar: طلاس أوبلاستي
@@ -471,20 +492,22 @@ T:
     eu: Talas probintzia
     kk: Талас облысы
     uz: Talas
-  geo:
-    latitude: 42.516667
-    longitude: 72.23333300000002
-    min_latitude: 42.5045029
-    min_longitude: 72.1606065
-    max_latitude: 42.5554828
-    max_longitude: 72.28523249999999
-  name: Talas
-Y:
+  comments: 
+Y: !ruby/struct:ISO3166::Subdivision
+  name: Ysyk-Köl
+  code: 
   unofficial_names:
   - Balikchi
   - Balykchy
   - Balıkçı
   - Issyk-Kul
+  geo:
+    latitude: 42.1859428
+    longitude: 77.5619419
+    min_latitude: 41.138474
+    min_longitude: 75.5835659
+    max_latitude: 42.951714
+    max_longitude: 80.2831801
   translations:
     en: Issyk-Kul
     ar: ايسيك كول أوبلاستي
@@ -539,16 +562,18 @@ Y:
     kk: Ыстықкөл облысы
     be: Ісык-Кульская вобласць
     uz: Issiq-Koʻl
-  geo:
-    latitude: 42.1859428
-    longitude: 77.5619419
-    min_latitude: 41.138474
-    min_longitude: 75.5835659
-    max_latitude: 42.951714
-    max_longitude: 80.2831801
-  name: Ysyk-Köl
-GO:
+  comments: 
+GO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: أوش
     az: Oş
@@ -614,10 +639,4 @@ GO:
     kk: Ош
     ml: ഓഷ്
     uz: Oʻsh
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,6 +1,15 @@
 ---
-RS:
+RS: !ruby/struct:ISO3166::Subdivision
+  name: Al Baḩr al Aḩmar
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 19.4556063
+    longitude: 35.2148469
+    min_latitude: 16.9985761
+    min_longitude: 33.2534589
+    max_latitude: 22.0063784
+    max_longitude: 38.580036
   translations:
     ar: البحر الأحمر
     en: Red Sea
@@ -47,17 +56,18 @@ RS:
     ceb: Red Sea (estado)
     zh: 紅海省
     ccp: "\U00011122\U0001112C\U00011116\U00011134 \U00011125\U00011128"
-  geo:
-    latitude: 19.4556063
-    longitude: 35.2148469
-    min_latitude: 16.9985761
-    min_longitude: 33.2534589
-    max_latitude: 22.0063784
-    max_longitude: 38.580036
-  name: Al Baḩr al Aḩmar
   comments: 
-GZ:
+GZ: !ruby/struct:ISO3166::Subdivision
+  name: Al Jazīrah
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 14.8859611
+    longitude: 33.438353
+    min_latitude: 13.604472
+    min_longitude: 32.415869
+    max_latitude: 15.4767249
+    max_longitude: 34.3057649
   translations:
     ar: الجزيرة
     en: Al Jazirah
@@ -103,17 +113,18 @@ GZ:
     ceb: Al Jazirah State
     zh: 杰济拉省
     ccp: "\U00011103\U00011123\U00011134 \U0001110E\U00011122\U00011128\U00011122\U00011126\U00011134"
-  geo:
-    latitude: 14.8859611
-    longitude: 33.438353
-    min_latitude: 13.604472
-    min_longitude: 32.415869
-    max_latitude: 15.4767249
-    max_longitude: 34.3057649
-  name: Al Jazīrah
   comments: 
-KH:
+KH: !ruby/struct:ISO3166::Subdivision
+  name: Al Kharţūm
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 15.5006544
+    longitude: 32.5598994
+    min_latitude: 15.3870932
+    min_longitude: 32.4592475
+    max_latitude: 15.615997
+    max_longitude: 32.6859455
   translations:
     ar: الخرطوم
     en: Khartoum
@@ -159,17 +170,18 @@ KH:
     ccp: "\U00011108\U00011122\U00011134\U00011111\U0001112A\U00011120\U0001112E\U0001111F\U00011134"
     he: ח׳רטום (מדינה)
     be: Хартум
-  geo:
-    latitude: 15.5006544
-    longitude: 32.5598994
-    min_latitude: 15.3870932
-    min_longitude: 32.4592475
-    max_latitude: 15.615997
-    max_longitude: 32.6859455
-  name: Al Kharţūm
   comments: 
-GD:
+GD: !ruby/struct:ISO3166::Subdivision
+  name: Al Qaḑārif
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 14.024307
+    longitude: 35.3685679
+    min_latitude: 13.9824623
+    min_longitude: 35.3189849
+    max_latitude: 14.0808871
+    max_longitude: 35.4345988
   translations:
     ar: القضارف
     en: Al Qadarif
@@ -216,17 +228,18 @@ GD:
     zh: 加达里夫省
     ccp: "\U00011103\U00011123\U00011134 \U00011107\U0001112A\U00011120\U00011113\U00011122\U00011128\U0001111B\U00011134"
     kk: Гедареф қаласы
-  geo:
-    latitude: 14.024307
-    longitude: 35.3685679
-    min_latitude: 13.9824623
-    min_longitude: 35.3189849
-    max_latitude: 14.0808871
-    max_longitude: 35.4345988
-  name: Al Qaḑārif
   comments: 
-NR:
+NR: !ruby/struct:ISO3166::Subdivision
+  name: Nahr an Nīl
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 17.1142529
+    longitude: 33.7964613
+    min_latitude: 15.9642631
+    min_longitude: 31.8534791
+    max_latitude: 22.006193
+    max_longitude: 35.69729090000001
   translations:
     ar: نهر النيل
     en: River Nile
@@ -270,17 +283,18 @@ NR:
     ceb: River Nile
     zh: 尼羅省
     ccp: "\U00011122\U00011128\U0001111E\U00011122\U00011134 \U0001111A\U0001112D\U00011123\U00011134"
-  geo:
-    latitude: 17.1142529
-    longitude: 33.7964613
-    min_latitude: 15.9642631
-    min_longitude: 31.8534791
-    max_latitude: 22.006193
-    max_longitude: 35.69729090000001
-  name: Nahr an Nīl
   comments: 
-NW:
+NW: !ruby/struct:ISO3166::Subdivision
+  name: An Nīl al Abyaḑ
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 13.2403881
+    longitude: 32.5372741
+    min_latitude: 11.9465411
+    min_longitude: 31.525822
+    max_latitude: 15.250874
+    max_longitude: 33.2549571
   translations:
     ar: النيل الأبيض
     en: White Nile
@@ -324,17 +338,18 @@ NW:
     ceb: White Nile
     zh: 白尼罗省
     ccp: "\U00011118\U0001112A\U0001111B\U00011134 \U0001111A\U0001112D\U00011123\U00011134"
-  geo:
-    latitude: 13.2403881
-    longitude: 32.5372741
-    min_latitude: 11.9465411
-    min_longitude: 31.525822
-    max_latitude: 15.250874
-    max_longitude: 33.2549571
-  name: An Nīl al Abyaḑ
   comments: 
-NB:
+NB: !ruby/struct:ISO3166::Subdivision
+  name: An Nīl al Azraq
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 11.5860078
+    longitude: 34.1531947
+    min_latitude: 9.500347999999999
+    min_longitude: 33.1359769
+    max_latitude: 12.56568
+    max_longitude: 35.09243
   translations:
     ar: النيل الأزرق
     en: Blue Nile
@@ -381,17 +396,18 @@ NB:
     sr_Latn: Plavi Nil
     zh: 青尼罗省
     ccp: "\U0001111D\U00011133\U00011123\U0001112A \U0001111A\U0001112D\U00011123\U00011134"
-  geo:
-    latitude: 11.5860078
-    longitude: 34.1531947
-    min_latitude: 9.500347999999999
-    min_longitude: 33.1359769
-    max_latitude: 12.56568
-    max_longitude: 35.09243
-  name: An Nīl al Azraq
   comments: 
-'NO':
+'NO': !ruby/struct:ISO3166::Subdivision
+  name: Ash Shamālīyah
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 18.4448963
+    longitude: 30.1589303
+    min_latitude: 16.511393
+    min_longitude: 25
+    max_latitude: 22.225082
+    max_longitude: 32.637459
   translations:
     ar: الشمالية
     bg: Северна провинция
@@ -437,17 +453,18 @@ NB:
     ceb: Northern
     zh: 北部省
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
-  geo:
-    latitude: 18.4448963
-    longitude: 30.1589303
-    min_latitude: 16.511393
-    min_longitude: 25
-    max_latitude: 22.225082
-    max_longitude: 32.637459
-  name: Ash Shamālīyah
   comments: 
-DW:
+DW: !ruby/struct:ISO3166::Subdivision
+  name: Gharb Dārfūr
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 12.8463561
+    longitude: 23.0011989
+    min_latitude: 10.694536
+    min_longitude: 21.838947
+    max_latitude: 14.972213
+    max_longitude: 24.720192
   translations:
     ar: غرب دارفور
     en: West Darfur
@@ -494,17 +511,12 @@ DW:
     sr_Latn: Zapadni Darfur
     zh: 西达尔富尔省
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011113\U00011122\U00011134\U0001111C\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 12.8463561
-    longitude: 23.0011989
-    min_latitude: 10.694536
-    min_longitude: 21.838947
-    max_latitude: 14.972213
-    max_longitude: 24.720192
-  name: Gharb Dārfūr
   comments: 
-GK:
+GK: !ruby/struct:ISO3166::Subdivision
+  name: Gharb Kurdufān
+  code: 
   unofficial_names: 
+  geo: 
   translations:
     ar: ولاية غرب كردفان
     en: West Kurdufan
@@ -527,11 +539,18 @@ GK:
     zh: 西科尔多凡州
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011107\U0001112A\U00011122\U00011134\U00011113\U0001112A\U0001111C\U0001111A\U00011134"
     fr: Kordofan-Occidental
-  geo: 
-  name: Gharb Kurdufān
   comments: 
-DS:
+DS: !ruby/struct:ISO3166::Subdivision
+  name: Janūb Dārfūr
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 11.6488639
+    longitude: 24.9042208
+    min_latitude: 8.6366421
+    min_longitude: 23.047403
+    max_latitude: 13.133373
+    max_longitude: 27.908629
   translations:
     ar: جنوب دارفور
     en: South Darfur
@@ -579,17 +598,18 @@ DS:
     sr_Latn: Južni Darfur
     zh: 南达尔富尔省
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011113\U00011122\U00011134\U0001111C\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 11.6488639
-    longitude: 24.9042208
-    min_latitude: 8.6366421
-    min_longitude: 23.047403
-    max_latitude: 13.133373
-    max_longitude: 27.908629
-  name: Janūb Dārfūr
   comments: 
-KS:
+KS: !ruby/struct:ISO3166::Subdivision
+  name: Janūb Kurdufān
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 11.1990192
+    longitude: 29.4179324
+    min_latitude: 9.345832
+    min_longitude: 27.2556731
+    max_latitude: 12.7500065
+    max_longitude: 32.473745
   translations:
     ar: جنوب كردفان
     en: South Kurdufan
@@ -639,17 +659,18 @@ KS:
     sr_Latn: Južni Kordofan
     zh: 南科尔多凡省
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U0001112A\U00011122\U00011134\U00011113\U0001112A\U0001111C\U0001111A\U00011134"
-  geo:
-    latitude: 11.1990192
-    longitude: 29.4179324
-    min_latitude: 9.345832
-    min_longitude: 27.2556731
-    max_latitude: 12.7500065
-    max_longitude: 32.473745
-  name: Janūb Kurdufān
   comments: 
-KA:
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Kassalā
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 15.4581332
+    longitude: 36.4039629
+    min_latitude: 15.4122089
+    min_longitude: 36.3763976
+    max_latitude: 15.4994253
+    max_longitude: 36.4511558
   translations:
     ar: كسلا
     en: Kassala
@@ -694,17 +715,18 @@ KA:
     ceb: Kassala State
     zh: 卡萨拉省
     ccp: "\U00011107\U00011125\U00011123"
-  geo:
-    latitude: 15.4581332
-    longitude: 36.4039629
-    min_latitude: 15.4122089
-    min_longitude: 36.3763976
-    max_latitude: 15.4994253
-    max_longitude: 36.4511558
-  name: Kassalā
   comments: 
-DN:
+DN: !ruby/struct:ISO3166::Subdivision
+  name: Shamāl Dārfūr
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 15.7661969
+    longitude: 24.9042208
+    min_latitude: 11.7224969
+    min_longitude: 22.75691
+    max_latitude: 20.0064945
+    max_longitude: 27.532602
   translations:
     ar: ولاية شمال دارفور
     en: North Darfur
@@ -753,17 +775,12 @@ DN:
     zh: 北達爾富爾省
     ccp: "\U00011105\U0001112A\U00011126\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011113\U00011122\U00011134\U0001111C\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 15.7661969
-    longitude: 24.9042208
-    min_latitude: 11.7224969
-    min_longitude: 22.75691
-    max_latitude: 20.0064945
-    max_longitude: 27.532602
-  name: Shamāl Dārfūr
   comments: 
-KN:
+KN: !ruby/struct:ISO3166::Subdivision
+  name: Shiamāl Kurdufān
+  code: 
   unofficial_names: 
+  geo: 
   translations:
     ar: ولاية شمال كردفان
     en: North Kurdufan
@@ -809,11 +826,18 @@ KN:
     zh: 北科尔多凡省
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011107\U0001112A\U00011122\U00011134\U00011113\U0001112A\U0001111C\U0001111A\U00011134"
-  geo: 
-  name: Shiamāl Kurdufān
   comments: 
-DE:
+DE: !ruby/struct:ISO3166::Subdivision
+  name: Sharq Dārfūr
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ولاية شرق دارفور
     en: East Darfur
@@ -856,17 +880,18 @@ DE:
     ceb: East Darfur
     zh: 东達爾富爾
     ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011113\U00011122\U00011134\U0001111C\U0001112A\U00011122\U00011134"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Sharq Dārfūr
   comments: 
-SI:
+SI: !ruby/struct:ISO3166::Subdivision
+  name: Sinnār
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 13.0317108
+    longitude: 33.9750018
+    min_latitude: 11.7343758
+    min_longitude: 32.924994
+    max_latitude: 14.106393
+    max_longitude: 35.70768
   translations:
     ar: سنار
     en: Sennar
@@ -910,17 +935,12 @@ SI:
     ceb: Sinnar State
     zh: 森纳尔省
     ccp: "\U00011125\U0001112C\U0001111A\U00011122\U00011134"
-  geo:
-    latitude: 13.0317108
-    longitude: 33.9750018
-    min_latitude: 11.7343758
-    min_longitude: 32.924994
-    max_latitude: 14.106393
-    max_longitude: 35.70768
-  name: Sinnār
   comments: 
-DC:
+DC: !ruby/struct:ISO3166::Subdivision
+  name: Wasaţ Dārfūr Zālinjay
+  code: 
   unofficial_names: 
+  geo: 
   translations:
     ar: وسط دار فور
     en: Central Darfur
@@ -963,6 +983,4 @@ DC:
     ceb: Central Darfur State
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
       \U00011113\U00011122\U00011134\U0001111C\U0001112A\U00011122\U00011134"
-  geo: 
-  name: Wasaţ Dārfūr Zālinjay
   comments: 

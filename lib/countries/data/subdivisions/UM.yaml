@@ -1,6 +1,15 @@
 ---
-'67':
+'67': !ruby/struct:ISO3166::Subdivision
+  name: Johnston Atoll
+  code: 
   unofficial_names: Johnston Atoll
+  geo:
+    latitude: 16.7322716
+    longitude: -169.5308371
+    min_latitude: 16.7265491
+    min_longitude: -169.5434875
+    max_latitude: 16.7411327
+    max_longitude: -169.5171051
   translations:
     en: Johnston Atoll
     af: Johnston-atol
@@ -66,16 +75,18 @@
     yue: 強斯頓環礁
     bs: Atol Johnston
     mk: Џонстонов Атол
-  geo:
-    latitude: 16.7322716
-    longitude: -169.5308371
-    min_latitude: 16.7265491
-    min_longitude: -169.5434875
-    max_latitude: 16.7411327
-    max_longitude: -169.5171051
-  name: Johnston Atoll
-'71':
+  comments: 
+'71': !ruby/struct:ISO3166::Subdivision
+  name: Midway Islands
+  code: 
   unofficial_names: Midway Islands
+  geo:
+    latitude: 28.2100759
+    longitude: -177.3761105
+    min_latitude: 28.1950941
+    min_longitude: -177.3967235
+    max_latitude: 28.218655
+    max_longitude: -177.3599096
   translations:
     en: Midway Atoll
     af: Midway-atol
@@ -149,16 +160,18 @@
     uz: Midway
     bs: Atol Midway
     mk: Мидвејски Атол
-  geo:
-    latitude: 28.2100759
-    longitude: -177.3761105
-    min_latitude: 28.1950941
-    min_longitude: -177.3967235
-    max_latitude: 28.218655
-    max_longitude: -177.3599096
-  name: Midway Islands
-'76':
+  comments: 
+'76': !ruby/struct:ISO3166::Subdivision
+  name: Navassa Island
+  code: 
   unofficial_names: Navassa Island
+  geo:
+    latitude: 18.4100689
+    longitude: -75.0114612
+    min_latitude: 18.3965558
+    min_longitude: -75.02838129999999
+    max_latitude: 18.4211503
+    max_longitude: -75.0000572
   translations:
     en: Navassa Island
     af: Navassa
@@ -229,16 +242,18 @@
     yo: Erékùṣù Navassa
     bs: Ostrvo Navasa
     mk: Наваса
-  geo:
-    latitude: 18.4100689
-    longitude: -75.0114612
-    min_latitude: 18.3965558
-    min_longitude: -75.02838129999999
-    max_latitude: 18.4211503
-    max_longitude: -75.0000572
-  name: Navassa Island
-'79':
+  comments: 
+'79': !ruby/struct:ISO3166::Subdivision
+  name: Wake Island
+  code: 
   unofficial_names: Wake Island
+  geo:
+    latitude: 19.2823192
+    longitude: 166.647047
+    min_latitude: -0.3824678
+    min_longitude: 166.5989221
+    max_latitude: 28.3977184
+    max_longitude: -159.9849071
   translations:
     en: Wake Island
     af: Wake-eiland
@@ -308,16 +323,18 @@
     yo: Erékùṣù Wake
     bs: Ostrvo Wake
     mk: Вејк
-  geo:
-    latitude: 19.2823192
-    longitude: 166.647047
-    min_latitude: -0.3824678
-    min_longitude: 166.5989221
-    max_latitude: 28.3977184
-    max_longitude: -159.9849071
-  name: Wake Island
-'81':
+  comments: 
+'81': !ruby/struct:ISO3166::Subdivision
+  name: Baker Island
+  code: 
   unofficial_names: Baker Island
+  geo:
+    latitude: 0.1936266
+    longitude: -176.476908
+    min_latitude: 0.1899033
+    min_longitude: -176.4867685
+    max_latitude: 0.2008295
+    max_longitude: -176.4701875
   translations:
     en: Baker Island
     af: Baker-eiland
@@ -385,16 +402,18 @@
     yo: Erékùṣù Baker
     bs: Ostrvo Baker
     mk: Бејкеров Остров
-  geo:
-    latitude: 0.1936266
-    longitude: -176.476908
-    min_latitude: 0.1899033
-    min_longitude: -176.4867685
-    max_latitude: 0.2008295
-    max_longitude: -176.4701875
-  name: Baker Island
-'84':
+  comments: 
+'84': !ruby/struct:ISO3166::Subdivision
+  name: Howland Island
+  code: 
   unofficial_names: Howland Island
+  geo:
+    latitude: 0.8113218999999999
+    longitude: -176.6182736
+    min_latitude: 0.7952522000000001
+    min_longitude: -176.6238443
+    max_latitude: 0.8192775000000001
+    max_longitude: -176.6115152
   translations:
     en: Howland Island
     af: Howland-eiland
@@ -463,16 +482,18 @@
     yo: Erékùṣù Howland
     bs: Ostrvo Howland
     mk: Хауленд
-  geo:
-    latitude: 0.8113218999999999
-    longitude: -176.6182736
-    min_latitude: 0.7952522000000001
-    min_longitude: -176.6238443
-    max_latitude: 0.8192775000000001
-    max_longitude: -176.6115152
-  name: Howland Island
-'86':
+  comments: 
+'86': !ruby/struct:ISO3166::Subdivision
+  name: Jarvis Island
+  code: 
   unofficial_names: Jarvis Island
+  geo:
+    latitude: -0.3743503
+    longitude: -159.9967206
+    min_latitude: -0.3824678
+    min_longitude: -160.0134561
+    max_latitude: -0.3624568
+    max_longitude: -159.9849071
   translations:
     en: Jarvis Island
     af: Jarvis-eiland
@@ -541,16 +562,18 @@
     yo: Erékùṣù Jarvis
     bs: Ostrvo Jarvis
     mk: Џарвисов Остров
-  geo:
-    latitude: -0.3743503
-    longitude: -159.9967206
-    min_latitude: -0.3824678
-    min_longitude: -160.0134561
-    max_latitude: -0.3624568
-    max_longitude: -159.9849071
-  name: Jarvis Island
-'89':
+  comments: 
+'89': !ruby/struct:ISO3166::Subdivision
+  name: Kingman Reef
+  code: 
   unofficial_names: Kingman Reef
+  geo:
+    latitude: 6.4331783
+    longitude: -162.387346
+    min_latitude: 6.3790511
+    min_longitude: -162.4195682
+    max_latitude: 6.4460001
+    max_longitude: -162.3323852
   translations:
     en: Kingman Reef
     af: Kingman-rif
@@ -618,16 +641,18 @@
     yue: 金曼礁
     bs: Greben Kingman
     mk: Кингменов Гребен
-  geo:
-    latitude: 6.4331783
-    longitude: -162.387346
-    min_latitude: 6.3790511
-    min_longitude: -162.4195682
-    max_latitude: 6.4460001
-    max_longitude: -162.3323852
-  name: Kingman Reef
-'95':
+  comments: 
+'95': !ruby/struct:ISO3166::Subdivision
+  name: Palmyra Atoll
+  code: 
   unofficial_names: Palmyra Atoll
+  geo:
+    latitude: 5.883332999999999
+    longitude: -162.083333
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Palmyra Atoll
     af: Palmyra-atol
@@ -692,14 +717,14 @@
     yue: 帕邁拉環礁
     bs: Atol Palmyra
     mk: Палмирски Атол
+  comments: 
+'': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 5.883332999999999
-    longitude: -162.083333
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Palmyra Atoll
-'':
+    latitude: 3.1209046
+    longitude: 101.6538414
   translations:
     en: U.S. Outlying Islands
+  comments: 

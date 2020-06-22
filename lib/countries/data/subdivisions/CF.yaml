@@ -1,6 +1,15 @@
 ---
-AC:
+AC: !ruby/struct:ISO3166::Subdivision
+  name: Ouham
+  code: 
   unofficial_names: Ouham
+  geo:
+    latitude: 7.090910999999999
+    longitude: 17.668887
+    min_latitude: 5.609916
+    min_longitude: 16.6884561
+    max_latitude: 8.57583
+    max_longitude: 19.068794
   translations:
     en: Ouham
     ar: مقاطعة أوهام
@@ -45,16 +54,18 @@ AC:
     ceb: Ouham (prepektura)
     sq: Ouham
     ccp: "\U00011103\U00011127\U00011105\U0001112A\U00011126\U0001111F\U00011134"
-  geo:
-    latitude: 7.090910999999999
-    longitude: 17.668887
-    min_latitude: 5.609916
-    min_longitude: 16.6884561
-    max_latitude: 8.57583
-    max_longitude: 19.068794
-  name: Ouham
-BB:
+  comments: 
+BB: !ruby/struct:ISO3166::Subdivision
+  name: Bamingui-Bangoran
+  code: 
   unofficial_names: Bamingui-Bangoran
+  geo:
+    latitude: 8.2733455
+    longitude: 20.7122465
+    min_latitude: 7.021317
+    min_longitude: 18.862459
+    max_latitude: 9.794469999999999
+    max_longitude: 22.399819
   translations:
     en: Bamingui-Bangoran
     ar: محافظة بامينغوي بانغوران
@@ -98,16 +109,18 @@ BB:
     zh: 巴明吉-班戈兰省
     sq: Bamingui-Bangoran
     ccp: "\U0001111D\U00011127\U0001111F\U00011128\U00011101\U00011109\U0001112D\U0001112A-\U0001111D\U00011101\U00011109\U0001112E\U00011122\U0001111A\U00011134"
-  geo:
-    latitude: 8.2733455
-    longitude: 20.7122465
-    min_latitude: 7.021317
-    min_longitude: 18.862459
-    max_latitude: 9.794469999999999
-    max_longitude: 22.399819
-  name: Bamingui-Bangoran
-BGF:
+  comments: 
+BGF: !ruby/struct:ISO3166::Subdivision
+  name: Bangui
+  code: 
   unofficial_names: Bangui
+  geo:
+    latitude: 4.366667
+    longitude: 18.583333
+    min_latitude: 4.3240908
+    min_longitude: 18.512392
+    max_latitude: 4.4323538
+    max_longitude: 18.6420063
   translations:
     en: Bangui
     af: Bangui
@@ -188,16 +201,18 @@ BGF:
     uz: Bangi
     bs: Bangui
     mk: Банги
-  geo:
-    latitude: 4.366667
-    longitude: 18.583333
-    min_latitude: 4.3240908
-    min_longitude: 18.512392
-    max_latitude: 4.4323538
-    max_longitude: 18.6420063
-  name: Bangui
-BK:
+  comments: 
+BK: !ruby/struct:ISO3166::Subdivision
+  name: Basse-Kotto
+  code: 
   unofficial_names: Basse-Kotto
+  geo:
+    latitude: 4.8719319
+    longitude: 21.2845025
+    min_latitude: 4.221498
+    min_longitude: 20.4503059
+    max_latitude: 5.734375
+    max_longitude: 22.1584359
   translations:
     en: Basse-Kotto
     ar: محافظة باس-كوتو
@@ -241,16 +256,18 @@ BK:
     zh: 下科托省
     sq: Basse-Kotto
     ccp: "\U0001111D\U00011125\U0001112C-\U00011107\U00011127\U00011111\U00011133\U00011126\U00011127"
-  geo:
-    latitude: 4.8719319
-    longitude: 21.2845025
-    min_latitude: 4.221498
-    min_longitude: 20.4503059
-    max_latitude: 5.734375
-    max_longitude: 22.1584359
-  name: Basse-Kotto
-HK:
+  comments: 
+HK: !ruby/struct:ISO3166::Subdivision
+  name: Haute-Kotto
+  code: 
   unofficial_names: Haute-Kotto
+  geo:
+    latitude: 7.7964379
+    longitude: 23.3823545
+    min_latitude: 5.466806
+    min_longitude: 21.108126
+    max_latitude: 9.245301
+    max_longitude: 24.6123979
   translations:
     en: Haute-Kotto
     ar: محافظة هوت-كوتو
@@ -295,17 +312,19 @@ HK:
     zh: 上科托省
     sq: Haute-Kotto
     ccp: "\U00011126\U00011105\U0001112A\U00011111\U0001112C-\U00011107\U00011127\U00011111\U00011133\U00011126\U00011127"
-  geo:
-    latitude: 7.7964379
-    longitude: 23.3823545
-    min_latitude: 5.466806
-    min_longitude: 21.108126
-    max_latitude: 9.245301
-    max_longitude: 24.6123979
-  name: Haute-Kotto
-HM:
+  comments: 
+HM: !ruby/struct:ISO3166::Subdivision
+  name: Haut-Mbomou
+  code: 
   unofficial_names:
   - Haut-Mʿbomou
+  geo:
+    latitude: 6.2537134
+    longitude: 25.4733554
+    min_latitude: 4.905525
+    min_longitude: 24.2550301
+    max_latitude: 8.28228
+    max_longitude: 27.4634209
   translations:
     en: Haut-Mbomou
     ar: هوت مبومو
@@ -349,17 +368,19 @@ HM:
     zh: 上姆博穆省
     sq: Haut-Mbomou
     ccp: "\U00011126\U00011105\U0001112A\U00011116\U00011134-\U0001111D\U00011127\U0001111F\U0001112F"
-  geo:
-    latitude: 6.2537134
-    longitude: 25.4733554
-    min_latitude: 4.905525
-    min_longitude: 24.2550301
-    max_latitude: 8.28228
-    max_longitude: 27.4634209
-  name: Haut-Mbomou
-HS:
+  comments: 
+HS: !ruby/struct:ISO3166::Subdivision
+  name: Mambéré-Kadéï
+  code: 
   unofficial_names:
   - Haut-Sangha
+  geo:
+    latitude: 4.7055653
+    longitude: 15.9699878
+    min_latitude: 3.8017399
+    min_longitude: 14.677551
+    max_latitude: 5.484882
+    max_longitude: 17.083333
   translations:
     en: Mambéré-Kadéï
     ar: مامبرة كاديي
@@ -404,18 +425,20 @@ HS:
     zh: 曼貝雷-卡代省
     sq: Mambéré-Kadéï
     ccp: "\U0001111F\U0001111F\U00011134\U0001111D\U0001112C\U00011122\U0001112C-\U00011107\U00011113\U0001112C\U0001112D"
-  geo:
-    latitude: 4.7055653
-    longitude: 15.9699878
-    min_latitude: 3.8017399
-    min_longitude: 14.677551
-    max_latitude: 5.484882
-    max_longitude: 17.083333
-  name: Mambéré-Kadéï
-KB:
+  comments: 
+KB: !ruby/struct:ISO3166::Subdivision
+  name: Nana-Grébizi
+  code: 
   unofficial_names:
   - Gribingui
   - Nana-Grébisi
+  geo:
+    latitude: 7.184860700000001
+    longitude: 19.3783206
+    min_latitude: 6.475724
+    min_longitude: 18.64814
+    max_latitude: 8.569668
+    max_longitude: 20.144611
   translations:
     en: Nana-Grébizi
     ar: نانا-جريبيزي
@@ -458,17 +481,19 @@ KB:
     zh: 纳纳-格里比齐省
     sq: Nana-Grébizi
     ccp: "\U0001111F\U00011127\U0001111A-\U00011109\U00011133\U00011122\U0001112C\U0001111D\U00011128\U0001110E\U00011128"
-  geo:
-    latitude: 7.184860700000001
-    longitude: 19.3783206
-    min_latitude: 6.475724
-    min_longitude: 18.64814
-    max_latitude: 8.569668
-    max_longitude: 20.144611
-  name: Nana-Grébizi
-KG:
+  comments: 
+KG: !ruby/struct:ISO3166::Subdivision
+  name: Kémo
+  code: 
   unofficial_names:
   - Kémo Gribingui
+  geo:
+    latitude: 5.8867794
+    longitude: 19.3783206
+    min_latitude: 4.9221769
+    min_longitude: 18.5926698
+    max_latitude: 6.594858100000001
+    max_longitude: 19.9979729
   translations:
     en: Kémo
     ar: مقاطعة كيمو
@@ -512,16 +537,18 @@ KG:
     zh: 凱莫省
     sq: Kémo
     ccp: "\U00011107\U0001112C\U0001111F\U0001112E"
-  geo:
-    latitude: 5.8867794
-    longitude: 19.3783206
-    min_latitude: 4.9221769
-    min_longitude: 18.5926698
-    max_latitude: 6.594858100000001
-    max_longitude: 19.9979729
-  name: Kémo
-LB:
+  comments: 
+LB: !ruby/struct:ISO3166::Subdivision
+  name: Lobaye
+  code: 
   unofficial_names: Lobaye
+  geo:
+    latitude: 4.3525981
+    longitude: 17.4795173
+    min_latitude: 3.471089
+    min_longitude: 16.6658131
+    max_latitude: 5.1063829
+    max_longitude: 18.6350959
   translations:
     en: Lobaye
     ar: لوبايه
@@ -566,17 +593,19 @@ LB:
     zh: 洛巴耶省
     sq: Lobaye
     ccp: "\U00011123\U00011127\U0001111D\U00011120\U0001112C"
-  geo:
-    latitude: 4.3525981
-    longitude: 17.4795173
-    min_latitude: 3.471089
-    min_longitude: 16.6658131
-    max_latitude: 5.1063829
-    max_longitude: 18.6350959
-  name: Lobaye
-MB:
+  comments: 
+MB: !ruby/struct:ISO3166::Subdivision
+  name: Mbomou
+  code: 
   unofficial_names:
   - Mʿbomou
+  geo:
+    latitude: 5.556837000000001
+    longitude: 23.7632828
+    min_latitude: 4.1120941
+    min_longitude: 21.747055
+    max_latitude: 6.768256999999999
+    max_longitude: 25.201216
   translations:
     en: Mbomou
     ar: مبومو
@@ -620,18 +649,20 @@ MB:
     zh: 姆博穆省
     sq: Mbomou
     ccp: "\U0001111D\U00011127\U0001111F\U0001112F"
-  geo:
-    latitude: 5.556837000000001
-    longitude: 23.7632828
-    min_latitude: 4.1120941
-    min_longitude: 21.747055
-    max_latitude: 6.768256999999999
-    max_longitude: 25.201216
-  name: Mbomou
-MP:
+  comments: 
+MP: !ruby/struct:ISO3166::Subdivision
+  name: Ombella-Mpoko
+  code: 
   unofficial_names:
   - Ombella-Mʿpoko
   - Ombelle Mpoko
+  geo:
+    latitude: 5.1188825
+    longitude: 18.4276047
+    min_latitude: 3.885441
+    min_longitude: 16.457023
+    max_latitude: 5.965332
+    max_longitude: 19.1128831
   translations:
     en: Ombella-M’Poko
     ar: أومبلامبوكو
@@ -675,16 +706,18 @@ MP:
     bn: ওম্বেলা-ম’পোকো প্রশাসনিক অঞ্চল
     sq: Ombella-M’Poko
     ccp: "\U00011103\U00011127\U0001111F\U00011134\U0001111D\U0001112C\U00011123-\U00011103\U0001112C\U0001111F‘\U0001111B\U00011127\U00011107\U0001112E"
-  geo:
-    latitude: 5.1188825
-    longitude: 18.4276047
-    min_latitude: 3.885441
-    min_longitude: 16.457023
-    max_latitude: 5.965332
-    max_longitude: 19.1128831
-  name: Ombella-Mpoko
-NM:
+  comments: 
+NM: !ruby/struct:ISO3166::Subdivision
+  name: Nana-Mambéré
+  code: 
   unofficial_names: Nana-Mambéré
+  geo:
+    latitude: 5.6932135
+    longitude: 15.2194808
+    min_latitude: 5.116158
+    min_longitude: 14.420097
+    max_latitude: 6.888406
+    max_longitude: 16.503668
   translations:
     en: Nana-Mambéré
     ar: محافظة نانا مامبيري
@@ -729,16 +762,18 @@ NM:
     zh: 納納-曼貝雷省
     sq: Nana-Mambéré
     ccp: "\U0001111A\U0001111A-\U0001111F\U0001111F\U00011134\U0001111D\U0001112C\U00011122\U0001112C"
-  geo:
-    latitude: 5.6932135
-    longitude: 15.2194808
-    min_latitude: 5.116158
-    min_longitude: 14.420097
-    max_latitude: 6.888406
-    max_longitude: 16.503668
-  name: Nana-Mambéré
-OP:
+  comments: 
+OP: !ruby/struct:ISO3166::Subdivision
+  name: Ouham-Pendé
+  code: 
   unofficial_names: Ouham-Pendé
+  geo:
+    latitude: 6.4850984
+    longitude: 16.1580937
+    min_latitude: 5.642713
+    min_longitude: 15.1015139
+    max_latitude: 7.880190000000001
+    max_longitude: 17.0902031
   translations:
     en: Ouham-Pendé
     ar: أوهام-بيندي
@@ -781,18 +816,20 @@ OP:
     zh: 瓦姆-彭代省
     sq: Ouham-Pendé
     ccp: "\U00011103\U00011127\U00011105\U0001112E\U00011126\U0001111F\U00011134-\U0001111B\U0001112C\U0001111A\U00011134\U00011113\U0001112C"
-  geo:
-    latitude: 6.4850984
-    longitude: 16.1580937
-    min_latitude: 5.642713
-    min_longitude: 15.1015139
-    max_latitude: 7.880190000000001
-    max_longitude: 17.0902031
-  name: Ouham-Pendé
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Sangha-Mbaéré
+  code: 
   unofficial_names:
   - Mbaeré
   - Sangha
+  geo:
+    latitude: 3.4368607
+    longitude: 16.3463791
+    min_latitude: 2.2205141
+    min_longitude: 15.193566
+    max_latitude: 4.3382231
+    max_longitude: 17.394213
   translations:
     en: Sangha-Mbaéré
     ar: محافظة سانغا مبايري الاقتصادية
@@ -836,16 +873,18 @@ SE:
     zh: 桑加-姆巴埃雷省
     sq: Sangha-Mbaéré
     ccp: "\U00011125\U00011101\U00011126-\U0001111D\U00011103\U00011128\U00011122\U0001112C"
-  geo:
-    latitude: 3.4368607
-    longitude: 16.3463791
-    min_latitude: 2.2205141
-    min_longitude: 15.193566
-    max_latitude: 4.3382231
-    max_longitude: 17.394213
-  name: Sangha-Mbaéré
-UK:
+  comments: 
+UK: !ruby/struct:ISO3166::Subdivision
+  name: Ouaka
+  code: 
   unofficial_names: Ouaka
+  geo:
+    latitude: 6.3168216
+    longitude: 20.7122465
+    min_latitude: 4.5449659
+    min_longitude: 19.450571
+    max_latitude: 7.7220399
+    max_longitude: 21.930511
   translations:
     en: Ouaka
     ar: محافظة أواكا
@@ -890,16 +929,18 @@ UK:
     sq: Ouaka
     ccp: "\U00011103\U00011127\U00011105\U0001112A\U00011107"
     ka: უაკა
-  geo:
-    latitude: 6.3168216
-    longitude: 20.7122465
-    min_latitude: 4.5449659
-    min_longitude: 19.450571
-    max_latitude: 7.7220399
-    max_longitude: 21.930511
-  name: Ouaka
-VK:
+  comments: 
+VK: !ruby/struct:ISO3166::Subdivision
+  name: Vakaga
+  code: 
   unofficial_names: Vakaga
+  geo:
+    latitude: 9.5113296
+    longitude: 22.2384017
+    min_latitude: 8.591192
+    min_longitude: 20.8247621
+    max_latitude: 11.0075691
+    max_longitude: 23.697866
   translations:
     en: Vakaga
     ar: فاكاجا
@@ -943,11 +984,4 @@ VK:
     zh: 瓦卡加省
     sq: Vakaga
     ccp: "\U0001111E\U00011107\U0001110E"
-  geo:
-    latitude: 9.5113296
-    longitude: 22.2384017
-    min_latitude: 8.591192
-    min_longitude: 20.8247621
-    max_latitude: 11.0075691
-    max_longitude: 23.697866
-  name: Vakaga
+  comments: 

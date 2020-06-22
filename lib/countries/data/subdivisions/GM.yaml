@@ -1,6 +1,15 @@
 ---
-B:
+B: !ruby/struct:ISO3166::Subdivision
+  name: Banjul
+  code: 
   unofficial_names: Banjul
+  geo:
+    latitude: 13.453056
+    longitude: -16.5775
+    min_latitude: 13.4424473
+    min_longitude: -16.5906966
+    max_latitude: 13.4625844
+    max_longitude: -16.5703587
   translations:
     en: Banjul
     af: Banjul
@@ -78,17 +87,19 @@ B:
     uz: Banjul
     bs: Banjul
     mk: Банџул
-  geo:
-    latitude: 13.453056
-    longitude: -16.5775
-    min_latitude: 13.4424473
-    min_longitude: -16.5906966
-    max_latitude: 13.4625844
-    max_longitude: -16.5703587
-  name: Banjul
-L:
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: Lower River
+  code: 
   unofficial_names:
   - Lower River
+  geo:
+    latitude: 13.3553306
+    longitude: -15.92299
+    min_latitude: 13.237656
+    min_longitude: -16.2310245
+    max_latitude: 13.554205
+    max_longitude: -15.1831621
   translations:
     en: Lower River Division
     ar: شعبة النهر السفلى
@@ -137,16 +148,18 @@ L:
       \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
     uk: Округ Нижня Річка
     mk: Долна Река
-  geo:
-    latitude: 13.3553306
-    longitude: -15.92299
-    min_latitude: 13.237656
-    min_longitude: -16.2310245
-    max_latitude: 13.554205
-    max_longitude: -15.1831621
-  name: Lower River
-M:
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: MacCarthy Island
+  code: 
   unofficial_names: MacCarthy Island
+  geo:
+    latitude: 13.5336211
+    longitude: -14.7695962
+    min_latitude: 13.5242635
+    min_longitude: -14.8049354
+    max_latitude: 13.5551381
+    max_longitude: -14.7130108
   translations:
     en: Central River Division
     ar: شعبة النهر المركزي
@@ -194,17 +207,19 @@ M:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
       \U00011122\U00011128\U0001111E\U00011122\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
     mk: Средна Река
-  geo:
-    latitude: 13.5336211
-    longitude: -14.7695962
-    min_latitude: 13.5242635
-    min_longitude: -14.8049354
-    max_latitude: 13.5551381
-    max_longitude: -14.7130108
-  name: MacCarthy Island
-N:
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: North Bank
+  code: 
   unofficial_names:
   - North Bank
+  geo:
+    latitude: 13.5285436
+    longitude: -16.0169971
+    min_latitude: 13.3289472
+    min_longitude: -16.5492739
+    max_latitude: 13.644219
+    max_longitude: -15.309071
   translations:
     en: North Bank Division
     ar: شعبة الضفة الشمالية
@@ -252,17 +267,19 @@ N:
       \U0001111D\U00011133\U00011120\U00011101\U00011107\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
     uk: Північний Берег
     mk: Северен Брег
-  geo:
-    latitude: 13.5285436
-    longitude: -16.0169971
-    min_latitude: 13.3289472
-    min_longitude: -16.5492739
-    max_latitude: 13.644219
-    max_longitude: -15.309071
-  name: North Bank
-U:
+  comments: 
+U: !ruby/struct:ISO3166::Subdivision
+  name: Upper River
+  code: 
   unofficial_names:
   - Upper River
+  geo:
+    latitude: 13.4257366
+    longitude: -14.0072348
+    min_latitude: 13.2156891
+    min_longitude: -14.5469159
+    max_latitude: 13.5734001
+    max_longitude: -13.7977931
   translations:
     en: Upper River Division
     ar: شعبة النهر العليا
@@ -310,17 +327,19 @@ U:
     ccp: "\U00011103\U0001111B\U00011122\U00011134 \U00011122\U00011128\U0001111E\U00011122\U00011134
       \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
     mk: Горна Река
-  geo:
-    latitude: 13.4257366
-    longitude: -14.0072348
-    min_latitude: 13.2156891
-    min_longitude: -14.5469159
-    max_latitude: 13.5734001
-    max_longitude: -13.7977931
-  name: Upper River
-W:
+  comments: 
+W: !ruby/struct:ISO3166::Subdivision
+  name: Western
+  code: 
   unofficial_names:
   - Western
+  geo:
+    latitude: 13.2229202
+    longitude: -16.5819789
+    min_latitude: 13.0668175
+    min_longitude: -16.8136312
+    max_latitude: 13.4525822
+    max_longitude: -15.8103241
   translations:
     en: West Coast Division
     ar: قسم الساحل الغربي
@@ -368,11 +387,4 @@ W:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011107\U0001112E\U0001110C\U00011133\U00011111\U00011134
       \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
     mk: Западен Округ
-  geo:
-    latitude: 13.2229202
-    longitude: -16.5819789
-    min_latitude: 13.0668175
-    min_longitude: -16.8136312
-    max_latitude: 13.4525822
-    max_longitude: -15.8103241
-  name: Western
+  comments: 

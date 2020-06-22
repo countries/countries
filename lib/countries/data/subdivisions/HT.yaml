@@ -1,7 +1,16 @@
 ---
-AR:
+AR: !ruby/struct:ISO3166::Subdivision
+  name: Artibonite
+  code: 
   unofficial_names:
   - LʿArtibonite
+  geo:
+    latitude: 19.362902
+    longitude: -72.4258145
+    min_latitude: 18.8393919
+    min_longitude: -73.1348189
+    max_latitude: 19.81222
+    max_longitude: -72.18431079999999
   translations:
     en: Artibonite
     ar: إدارة أرتيبونيت
@@ -43,16 +52,18 @@ AR:
     lt: Artibonitas
     ccp: "\U00011103\U00011122\U00011134\U00011111\U00011128\U0001111D\U0001112E\U0001111A\U0001112D\U00011116\U00011134"
     ca: Artibonite
-  geo:
-    latitude: 19.362902
-    longitude: -72.4258145
-    min_latitude: 18.8393919
-    min_longitude: -73.1348189
-    max_latitude: 19.81222
-    max_longitude: -72.18431079999999
-  name: Artibonite
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Centre
+  code: 
   unofficial_names: Centre
+  geo:
+    latitude: 18.9582742
+    longitude: -72.0468164
+    min_latitude: 18.6777091
+    min_longitude: -72.349538
+    max_latitude: 19.327567
+    max_longitude: -71.61335799999999
   translations:
     en: Centre
     ar: الإدارة الوسطى
@@ -95,17 +106,19 @@ CE:
     uk: Центральний департамент Гаїті
     ca: Centre
     bs: Centre
-  geo:
-    latitude: 18.9582742
-    longitude: -72.0468164
-    min_latitude: 18.6777091
-    min_longitude: -72.349538
-    max_latitude: 19.327567
-    max_longitude: -71.61335799999999
-  name: Centre
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Grande-Anse
+  code: 
   unofficial_names:
   - Grande Anse
+  geo:
+    latitude: 18.5489259
+    longitude: -74.07701
+    min_latitude: 18.357681
+    min_longitude: -74.4768955
+    max_latitude: 18.6759873
+    max_longitude: -73.69869899999999
   translations:
     en: Grand’Anse
     ar: إدارة آنس الكبرى
@@ -148,16 +161,18 @@ GA:
     ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134‘\U00011103\U0001111A\U00011134\U00011125\U0001112C"
     uk: Регіон Гранд-Анс
     ca: Grand’Anse
-  geo:
-    latitude: 18.5489259
-    longitude: -74.07701
-    min_latitude: 18.357681
-    min_longitude: -74.4768955
-    max_latitude: 18.6759873
-    max_longitude: -73.69869899999999
-  name: Grande-Anse
-ND:
+  comments: 
+ND: !ruby/struct:ISO3166::Subdivision
+  name: Nord
+  code: 
   unofficial_names: Nord
+  geo:
+    latitude: 19.5687715
+    longitude: -72.189
+    min_latitude: 19.2473899
+    min_longitude: -72.6788249
+    max_latitude: 19.8828792
+    max_longitude: -71.96107099999999
   translations:
     en: Nord
     ar: الإدارة الشمالية
@@ -199,16 +214,18 @@ ND:
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134"
     uk: Північний департамент Гаїті
     ca: Nord
-  geo:
-    latitude: 19.5687715
-    longitude: -72.189
-    min_latitude: 19.2473899
-    min_longitude: -72.6788249
-    max_latitude: 19.8828792
-    max_longitude: -71.96107099999999
-  name: Nord
-NE:
+  comments: 
+NE: !ruby/struct:ISO3166::Subdivision
+  name: Nord-Est
+  code: 
   unofficial_names: Nord-Est
+  geo:
+    latitude: 19.4889723
+    longitude: -71.8571331
+    min_latitude: 19.2588809
+    min_longitude: -72.11789
+    max_latitude: 19.7289295
+    max_longitude: -71.675034
   translations:
     en: Nord-Est
     ar: الإدارة الشمال شرقية
@@ -250,16 +267,18 @@ NE:
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
     uk: Північно-Східний департамент Гаїті
     ca: Nord-Est
-  geo:
-    latitude: 19.4889723
-    longitude: -71.8571331
-    min_latitude: 19.2588809
-    min_longitude: -72.11789
-    max_latitude: 19.7289295
-    max_longitude: -71.675034
-  name: Nord-Est
-'NO':
+  comments: 
+'NO': !ruby/struct:ISO3166::Subdivision
+  name: Nord-Ouest
+  code: 
   unofficial_names: Nord-Ouest
+  geo:
+    latitude: 19.8374009
+    longitude: -73.0405277
+    min_latitude: 19.625431
+    min_longitude: -73.451469
+    max_latitude: 20.0877688
+    max_longitude: -72.565755
   translations:
     en: Nord-Ouest
     ar: الإدارة الشمال غربية
@@ -301,16 +320,18 @@ NE:
     ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011128-\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
     uk: Північно-Західний регіон Гаїті
     ca: Nord-Ouest
-  geo:
-    latitude: 19.8374009
-    longitude: -73.0405277
-    min_latitude: 19.625431
-    min_longitude: -73.451469
-    max_latitude: 20.0877688
-    max_longitude: -72.565755
-  name: Nord-Ouest
-OU:
+  comments: 
+OU: !ruby/struct:ISO3166::Subdivision
+  name: Ouest
+  code: 
   unofficial_names: Ouest
+  geo:
+    latitude: 18.4957015
+    longitude: -72.4731529
+    min_latitude: 18.2460119
+    min_longitude: -73.299515
+    max_latitude: 18.9696918
+    max_longitude: -71.6928559
   translations:
     en: Ouest
     ar: الإدارة الغربية
@@ -353,16 +374,18 @@ OU:
     zh: 西部省
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
     ca: Ouest
-  geo:
-    latitude: 18.4957015
-    longitude: -72.4731529
-    min_latitude: 18.2460119
-    min_longitude: -73.299515
-    max_latitude: 18.9696918
-    max_longitude: -71.6928559
-  name: Ouest
-SD:
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: Sud
+  code: 
   unofficial_names: Sud
+  geo:
+    latitude: 18.3320005
+    longitude: -73.7007088
+    min_latitude: 18.0220783
+    min_longitude: -74.446304
+    max_latitude: 18.423093
+    max_longitude: -72.9886701
   translations:
     en: Sud
     ar: الإدارة الجنوبية
@@ -404,16 +427,18 @@ SD:
     zh: 南部省
     ccp: "\U00011125\U00011116\U00011134"
     ca: Sud
-  geo:
-    latitude: 18.3320005
-    longitude: -73.7007088
-    min_latitude: 18.0220783
-    min_longitude: -74.446304
-    max_latitude: 18.423093
-    max_longitude: -72.9886701
-  name: Sud
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Sud-Est
+  code: 
   unofficial_names: Sud-Est
+  geo:
+    latitude: 18.2783598
+    longitude: -72.35479149999999
+    min_latitude: 18.0301479
+    min_longitude: -73.01316489999999
+    max_latitude: 18.384912
+    max_longitude: -71.7241439
   translations:
     en: Sud-Est
     ar: الإدارة الجنوب شرقية
@@ -455,16 +480,18 @@ SE:
     ccp: "\U00011125\U00011116\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
     uk: Південно-Східний департамент Гаїті
     ca: Sud-Est
-  geo:
-    latitude: 18.2783598
-    longitude: -72.35479149999999
-    min_latitude: 18.0301479
-    min_longitude: -73.01316489999999
-    max_latitude: 18.384912
-    max_longitude: -71.7241439
-  name: Sud-Est
-NI:
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إدارة نيبيس
     bn: নিপেস
@@ -506,10 +533,4 @@ NI:
     ccp: "\U0001111A\U00011128\U0001111B\U0001112C\U0001110C\U00011134"
     uk: Ніп
     ca: Nippes
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

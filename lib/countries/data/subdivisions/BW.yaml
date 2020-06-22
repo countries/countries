@@ -1,6 +1,15 @@
 ---
-CE:
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Central
+  code: 
   unofficial_names: Central
+  geo:
+    latitude: -21.1672276
+    longitude: 26.419389
+    min_latitude: -23.956503
+    min_longitude: 23.885815
+    max_latitude: -19.0024569
+    max_longitude: 29.3607809
   translations:
     en: Central
     af: Sentraal distrik, Botswana
@@ -47,18 +56,20 @@ CE:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     ca: Districte Central
     mk: Централен округ
-  geo:
-    latitude: -21.1672276
-    longitude: 26.419389
-    min_latitude: -23.956503
-    min_longitude: 23.885815
-    max_latitude: -19.0024569
-    max_longitude: 29.3607809
-  name: Central
-GH:
+  comments: 
+GH: !ruby/struct:ISO3166::Subdivision
+  name: Ghanzi
+  code: 
   unofficial_names:
   - Ghansi
   - Khanzi
+  geo:
+    latitude: -21.698306
+    longitude: 21.64872
+    min_latitude: -21.7141347
+    min_longitude: 21.6237544
+    max_latitude: -21.6784066
+    max_longitude: 21.6658974
   translations:
     en: Ghanzi
     af: Ghanzi distrik
@@ -105,16 +116,18 @@ GH:
     ccp: "\U0001110A\U0001111A\U00011134\U0001110E\U00011128"
     ca: Districte de Ghanzi
     mk: Ганзи
-  geo:
-    latitude: -21.698306
-    longitude: 21.64872
-    min_latitude: -21.7141347
-    min_longitude: 21.6237544
-    max_latitude: -21.6784066
-    max_longitude: 21.6658974
-  name: Ghanzi
-KG:
+  comments: 
+KG: !ruby/struct:ISO3166::Subdivision
+  name: Kgalagadi
+  code: 
   unofficial_names: Kgalagadi
+  geo:
+    latitude: -24.7550285
+    longitude: 21.8568586
+    min_latitude: -26.9072461
+    min_longitude: 19.999615
+    max_latitude: -23.277603
+    max_longitude: 24.4867379
   translations:
     en: Kgalagadi
     af: Kgalagadi distrik
@@ -161,16 +174,18 @@ KG:
     ccp: "\U00011109\U00011123\U00011109\U00011113\U00011128"
     ca: Districte de Kgalagadi
     mk: Кгалагади
-  geo:
-    latitude: -24.7550285
-    longitude: 21.8568586
-    min_latitude: -26.9072461
-    min_longitude: 19.999615
-    max_latitude: -23.277603
-    max_longitude: 24.4867379
-  name: Kgalagadi
-KL:
+  comments: 
+KL: !ruby/struct:ISO3166::Subdivision
+  name: Kgatleng
+  code: 
   unofficial_names: Kgatleng
+  geo:
+    latitude: -24.1970445
+    longitude: 26.2304616
+    min_latitude: -24.6919435
+    min_longitude: 25.9028879
+    max_latitude: -23.5624137
+    max_longitude: 26.9604493
   translations:
     en: Kgatleng
     af: Kgatleng distrik
@@ -218,16 +233,18 @@ KL:
     ccp: "\U00011109\U00011116\U00011134\U00011123\U0001112C\U00011101"
     ca: Districte de Kgatleng
     mk: Кгатленг
-  geo:
-    latitude: -24.1970445
-    longitude: 26.2304616
-    min_latitude: -24.6919435
-    min_longitude: 25.9028879
-    max_latitude: -23.5624137
-    max_longitude: 26.9604493
-  name: Kgatleng
-KW:
+  comments: 
+KW: !ruby/struct:ISO3166::Subdivision
+  name: Kweneng
+  code: 
   unofficial_names: Kweneng
+  geo:
+    latitude: -23.8367249
+    longitude: 25.2837585
+    min_latitude: -24.7757569
+    min_longitude: 22.9627589
+    max_latitude: -22.955476
+    max_longitude: 26.0196919
   translations:
     en: Kweneng
     af: Kweneng distrik
@@ -274,16 +291,18 @@ KW:
     ccp: "\U00011107\U0001112A\U00011120\U0001112C\U0001111A\U0001112C\U00011101"
     ca: Districte de Kweneng
     mk: Квененг
-  geo:
-    latitude: -23.8367249
-    longitude: 25.2837585
-    min_latitude: -24.7757569
-    min_longitude: 22.9627589
-    max_latitude: -22.955476
-    max_longitude: 26.0196919
-  name: Kweneng
-NE:
+  comments: 
+NE: !ruby/struct:ISO3166::Subdivision
+  name: North-East
+  code: 
   unofficial_names: North-East
+  geo:
+    latitude: -20.9030555
+    longitude: 27.4556388
+    min_latitude: -21.571556
+    min_longitude: 27.2119901
+    max_latitude: -20.473381
+    max_longitude: 28.013578
   translations:
     en: North East
     af: Noord-Oos distrik, Botswana
@@ -330,16 +349,18 @@ NE:
       \U0001111B\U0001112A\U00011107\U00011134"
     ca: Districte del Nord-est
     mk: Североисточен округ
-  geo:
-    latitude: -20.9030555
-    longitude: 27.4556388
-    min_latitude: -21.571556
-    min_longitude: 27.2119901
-    max_latitude: -20.473381
-    max_longitude: 28.013578
-  name: North-East
-NW:
+  comments: 
+NW: !ruby/struct:ISO3166::Subdivision
+  name: North-West
+  code: 
   unofficial_names: North-West
+  geo:
+    latitude: -19.1905321
+    longitude: 23.0011989
+    min_latitude: -21.0002549
+    min_longitude: 20.9969499
+    max_latitude: -17.780813
+    max_longitude: 25.9879499
   translations:
     en: North West
     af: Noord-Wes distrik, Botswana
@@ -387,16 +408,18 @@ NW:
       \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     ca: Districte del Nord-oest
     mk: Северозападен округ
-  geo:
-    latitude: -19.1905321
-    longitude: 23.0011989
-    min_latitude: -21.0002549
-    min_longitude: 20.9969499
-    max_latitude: -17.780813
-    max_longitude: 25.9879499
-  name: North-West
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: South-East
+  code: 
   unofficial_names: South-East
+  geo:
+    latitude: -24.9366094
+    longitude: 25.8048521
+    min_latitude: -25.4709631
+    min_longitude: 25.5438541
+    max_latitude: -24.511588
+    max_longitude: 26.1813639
   translations:
     en: South East
     af: Suid-Oos distrik, Botswana
@@ -444,16 +467,18 @@ SE:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
     ca: Districte del Sud-est
     mk: Југоисточен округ
-  geo:
-    latitude: -24.9366094
-    longitude: 25.8048521
-    min_latitude: -25.4709631
-    min_longitude: 25.5438541
-    max_latitude: -24.511588
-    max_longitude: 26.1813639
-  name: South-East
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Southern
+  code: 
   unofficial_names: Southern
+  geo:
+    latitude: -24.823384
+    longitude: 24.7142918
+    min_latitude: -25.8257559
+    min_longitude: 23.048267
+    max_latitude: -23.9969671
+    max_longitude: 25.693459
   translations:
     en: Southern
     af: Suid distrik, Botswana
@@ -501,16 +526,18 @@ SO:
     az: Cənubi dairə
     ca: Districte del Sud
     mk: Јужен округ
-  geo:
-    latitude: -24.823384
-    longitude: 24.7142918
-    min_latitude: -25.8257559
-    min_longitude: 23.048267
-    max_latitude: -23.9969671
-    max_longitude: 25.693459
-  name: Southern
-FR:
+  comments: 
+FR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Francistown
     ar: فرانسيس
@@ -562,6 +589,11 @@ FR:
     cs: Francistown
     ca: Francistown
     mk: Франсистаун
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -569,8 +601,6 @@ FR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GA:
-  unofficial_names: 
   translations:
     af: Gaborone
     am: ጋበሮኔ
@@ -650,6 +680,11 @@ GA:
     uz: Gaborone
     bs: Gaborone
     mk: Габороне
+  comments: 
+JW: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -657,8 +692,6 @@ GA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JW:
-  unofficial_names: 
   translations:
     af: Jwaneng
     ar: غوانينغ
@@ -702,6 +735,11 @@ JW:
     uk: Джваненг
     az: Cvanenq
     ca: Jwaneng
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -709,8 +747,6 @@ JW:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LO:
-  unofficial_names: 
   translations:
     af: Lobatse
     ar: لوباتس
@@ -757,6 +793,11 @@ LO:
     ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134\U00011125\U0001112C"
     uk: Лобаце
     ca: Lobatse
+  comments: 
+SP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -764,8 +805,6 @@ LO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SP:
-  unofficial_names: 
   translations:
     af: Selebi-Phikwe
     ar: سيليبي-فيكوي
@@ -809,6 +848,11 @@ SP:
     ceb: Selebi-Phikwe
     zh: 塞莱比-皮奎
     ccp: "\U00011125\U0001112C\U00011123\U00011128\U0001111D\U0001112C \U0001111C\U00011128\U00011107\U0001112E\U00011120\U0001112C"
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -816,8 +860,6 @@ SP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-ST:
-  unofficial_names: 
   translations:
     af: Sowa, Botswana
     ar: سوا، بوتسوانا
@@ -857,6 +899,11 @@ ST:
     ccp: "\U00011125\U00011131 \U00011111\U00011105\U0001112A\U0001111A\U00011134"
     uk: Сова
     ca: Sowa
+  comments: 
+CH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -864,8 +911,6 @@ ST:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CH:
-  unofficial_names: 
   translations:
     de: Chobe District
     en: Chobe
@@ -878,10 +923,4 @@ CH:
     ur: چوبے ضلع
     zh: 乔贝区
     ccp: "\U00011107\U0001112E\U0001111D\U0001112C"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

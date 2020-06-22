@@ -1,6 +1,15 @@
 ---
-AC:
+AC: !ruby/struct:ISO3166::Subdivision
+  name: Acre
+  code: 
   unofficial_names: Acre
+  geo:
+    latitude: -9.0237964
+    longitude: -70.81199529999999
+    min_latitude: -11.1452221
+    min_longitude: -73.9915154
+    max_latitude: -7.111826799999999
+    max_longitude: -66.62407089999999
   translations:
     en: Acre
     af: Acre
@@ -69,16 +78,18 @@ AC:
     uz: Akri
     bs: Acre
     mk: Акре
-  geo:
-    latitude: -9.0237964
-    longitude: -70.81199529999999
-    min_latitude: -11.1452221
-    min_longitude: -73.9915154
-    max_latitude: -7.111826799999999
-    max_longitude: -66.62407089999999
-  name: Acre
-AL:
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Alagoas
+  code: 
   unofficial_names: Alagoas
+  geo:
+    latitude: -9.5713058
+    longitude: -36.7819505
+    min_latitude: -10.5037567
+    min_longitude: -38.2273267
+    max_latitude: -8.8131293
+    max_longitude: -35.1522142
   translations:
     en: Alagoas
     af: Alagoas
@@ -149,16 +160,18 @@ AL:
     uz: Alagoas
     bs: Alagoas
     mk: Алагоас
-  geo:
-    latitude: -9.5713058
-    longitude: -36.7819505
-    min_latitude: -10.5037567
-    min_longitude: -38.2273267
-    max_latitude: -8.8131293
-    max_longitude: -35.1522142
-  name: Alagoas
-AM:
+  comments: 
+AM: !ruby/struct:ISO3166::Subdivision
+  name: Amazonas
+  code: 
   unofficial_names: Amazonas
+  geo:
+    latitude: -3.4168427
+    longitude: -65.8560646
+    min_latitude: -9.8180491
+    min_longitude: -73.8015533
+    max_latitude: 2.246628
+    max_longitude: -56.0975519
   translations:
     en: Amazonas
     af: Amazonas
@@ -227,16 +240,18 @@ AM:
     uz: Amazonas
     bs: Amazonas
     mk: Амазон
-  geo:
-    latitude: -3.4168427
-    longitude: -65.8560646
-    min_latitude: -9.8180491
-    min_longitude: -73.8015533
-    max_latitude: 2.246628
-    max_longitude: -56.0975519
-  name: Amazonas
-AP:
+  comments: 
+AP: !ruby/struct:ISO3166::Subdivision
+  name: Amapá
+  code: 
   unofficial_names: Amapá
+  geo:
+    latitude: 2.0447397
+    longitude: -50.78742219999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Amapá
     af: Amapá
@@ -304,16 +319,18 @@ AP:
     yo: Amapá
     bs: Amapá
     mk: Амапа
-  geo:
-    latitude: 2.0447397
-    longitude: -50.78742219999999
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Amapá
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Bahia
+  code: 
   unofficial_names: Bahia
+  geo:
+    latitude: -12.579738
+    longitude: -41.7007272
+    min_latitude: -18.3359162
+    min_longitude: -46.6170906
+    max_latitude: -8.5328229
+    max_longitude: -37.3484113
   translations:
     en: Bahia
     af: Bahia
@@ -384,16 +401,18 @@ BA:
     uz: Baiya
     bs: Bahia
     mk: Баија
-  geo:
-    latitude: -12.579738
-    longitude: -41.7007272
-    min_latitude: -18.3359162
-    min_longitude: -46.6170906
-    max_latitude: -8.5328229
-    max_longitude: -37.3484113
-  name: Bahia
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Ceará
+  code: 
   unofficial_names: Ceará
+  geo:
+    latitude: -5.4983977
+    longitude: -39.3206241
+    min_latitude: -7.858185100000001
+    min_longitude: -41.4235126
+    max_latitude: -2.7844329
+    max_longitude: -37.2530223
   translations:
     en: Ceará
     af: Ceará
@@ -461,16 +480,18 @@ CE:
     uz: Seara
     bs: Ceará
     mk: Сеара
-  geo:
-    latitude: -5.4983977
-    longitude: -39.3206241
-    min_latitude: -7.858185100000001
-    min_longitude: -41.4235126
-    max_latitude: -2.7844329
-    max_longitude: -37.2530223
-  name: Ceará
-DF:
+  comments: 
+DF: !ruby/struct:ISO3166::Subdivision
+  name: Distrito Federal
+  code: 
   unofficial_names: Distrito Federal
+  geo:
+    latitude: -15.826691
+    longitude: -47.92182039999999
+    min_latitude: -16.0517624
+    min_longitude: -48.2870947
+    max_latitude: -15.5001712
+    max_longitude: -47.3081926
   translations:
     en: Federal District
     af: Federale Distrik
@@ -534,16 +555,18 @@ DF:
     yo: Brazilian Federal District
     uz: Federal okrug
     mk: Федерален округ
-  geo:
-    latitude: -15.826691
-    longitude: -47.92182039999999
-    min_latitude: -16.0517624
-    min_longitude: -48.2870947
-    max_latitude: -15.5001712
-    max_longitude: -47.3081926
-  name: Distrito Federal
-ES:
+  comments: 
+ES: !ruby/struct:ISO3166::Subdivision
+  name: Espírito Santo
+  code: 
   unofficial_names: Espírito Santo
+  geo:
+    latitude: -19.1834229
+    longitude: -40.3088626
+    min_latitude: -21.3017845
+    min_longitude: -41.8797894
+    max_latitude: -17.891947
+    max_longitude: -28.8359374
   translations:
     en: Espírito Santo
     af: Espírito Santo
@@ -611,16 +634,18 @@ ES:
     uz: Espiritu-Santu
     bs: Espírito Santo
     mk: Еспирито Санто
-  geo:
-    latitude: -19.1834229
-    longitude: -40.3088626
-    min_latitude: -21.3017845
-    min_longitude: -41.8797894
-    max_latitude: -17.891947
-    max_longitude: -28.8359374
-  name: Espírito Santo
-GO:
+  comments: 
+GO: !ruby/struct:ISO3166::Subdivision
+  name: Goiás
+  code: 
   unofficial_names: Goiás
+  geo:
+    latitude: -15.93397
+    longitude: -50.1403832
+    min_latitude: -15.9523406
+    min_longitude: -50.1606536
+    max_latitude: -15.9224628
+    max_longitude: -50.1251296
   translations:
     en: Goiás
     af: Goiás
@@ -687,16 +712,18 @@ GO:
     uz: Goyas
     bs: Goiás
     mk: Гојас
-  geo:
-    latitude: -15.93397
-    longitude: -50.1403832
-    min_latitude: -15.9523406
-    min_longitude: -50.1606536
-    max_latitude: -15.9224628
-    max_longitude: -50.1251296
-  name: Goiás
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Maranhão
+  code: 
   unofficial_names: Maranhão
+  geo:
+    latitude: -4.9609498
+    longitude: -45.2744159
+    min_latitude: -10.2617676
+    min_longitude: -48.7551446
+    max_latitude: -1.049999
+    max_longitude: -41.7958785
   translations:
     en: Maranhão
     af: Maranhão
@@ -764,16 +791,18 @@ MA:
     uz: Maranyan
     bs: Maranhão
     mk: Марањао
-  geo:
-    latitude: -4.9609498
-    longitude: -45.2744159
-    min_latitude: -10.2617676
-    min_longitude: -48.7551446
-    max_latitude: -1.049999
-    max_longitude: -41.7958785
-  name: Maranhão
-MG:
+  comments: 
+MG: !ruby/struct:ISO3166::Subdivision
+  name: Minas Gerais
+  code: 
   unofficial_names: Minas Gerais
+  geo:
+    latitude: -18.512178
+    longitude: -44.5550308
+    min_latitude: -22.9227576
+    min_longitude: -51.0460748
+    max_latitude: -14.233183
+    max_longitude: -39.8568263
   translations:
     en: Minas Gerais
     af: Minas Gerais
@@ -843,16 +872,18 @@ MG:
     uz: Minas-jerais
     bs: Minas Gerais
     mk: Минас Жераис
-  geo:
-    latitude: -18.512178
-    longitude: -44.5550308
-    min_latitude: -22.9227576
-    min_longitude: -51.0460748
-    max_latitude: -14.233183
-    max_longitude: -39.8568263
-  name: Minas Gerais
-MS:
+  comments: 
+MS: !ruby/struct:ISO3166::Subdivision
+  name: Mato Grosso do Sul
+  code: 
   unofficial_names: Mato Grosso do Sul
+  geo:
+    latitude: -20.7722295
+    longitude: -54.7851531
+    min_latitude: -24.0561184
+    min_longitude: -58.16705729999999
+    max_latitude: -17.1666336
+    max_longitude: -50.9229023
   translations:
     en: Mato Grosso do Sul
     af: Mato Grosso do Sul
@@ -921,16 +952,18 @@ MS:
     uz: Matu-Grosu-du-Sul
     bs: Mato Grosso do Sul
     mk: Јужно Мато Гросо
-  geo:
-    latitude: -20.7722295
-    longitude: -54.7851531
-    min_latitude: -24.0561184
-    min_longitude: -58.16705729999999
-    max_latitude: -17.1666336
-    max_longitude: -50.9229023
-  name: Mato Grosso do Sul
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Mato Grosso
+  code: 
   unofficial_names: Mato Grosso
+  geo:
+    latitude: -12.6818712
+    longitude: -56.921099
+    min_latitude: -18.0420517
+    min_longitude: -61.63319459999999
+    max_latitude: -7.349037199999999
+    max_longitude: -50.2247999
   translations:
     en: Mato Grosso
     af: Mato Grosso
@@ -998,16 +1031,18 @@ MT:
     uz: Matu-Grosu
     bs: Mato Grosso
     mk: Мато Гросо
-  geo:
-    latitude: -12.6818712
-    longitude: -56.921099
-    min_latitude: -18.0420517
-    min_longitude: -61.63319459999999
-    max_latitude: -7.349037199999999
-    max_longitude: -50.2247999
-  name: Mato Grosso
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Pará
+  code: 
   unofficial_names: Pará
+  geo:
+    latitude: -1.9981271
+    longitude: -54.9306152
+    min_latitude: -9.8411565
+    min_longitude: -58.89827700000001
+    max_latitude: 2.5910246
+    max_longitude: -46.0643195
   translations:
     en: Pará
     af: Pará
@@ -1076,16 +1111,18 @@ PA:
     uz: Para
     bs: Pará
     mk: Пара
-  geo:
-    latitude: -1.9981271
-    longitude: -54.9306152
-    min_latitude: -9.8411565
-    min_longitude: -58.89827700000001
-    max_latitude: 2.5910246
-    max_longitude: -46.0643195
-  name: Pará
-PB:
+  comments: 
+PB: !ruby/struct:ISO3166::Subdivision
+  name: Paraíba
+  code: 
   unofficial_names: Paraíba
+  geo:
+    latitude: -7.239960900000001
+    longitude: -36.7819505
+    min_latitude: -8.3029572
+    min_longitude: -38.7656069
+    max_latitude: -6.0259143
+    max_longitude: -34.7931433
   translations:
     en: Paraíba
     af: Paraíba
@@ -1154,16 +1191,18 @@ PB:
     uz: Paraiba
     bs: Paraíba
     mk: Параиба
-  geo:
-    latitude: -7.239960900000001
-    longitude: -36.7819505
-    min_latitude: -8.3029572
-    min_longitude: -38.7656069
-    max_latitude: -6.0259143
-    max_longitude: -34.7931433
-  name: Paraíba
-PE:
+  comments: 
+PE: !ruby/struct:ISO3166::Subdivision
+  name: Pernambuco
+  code: 
   unofficial_names: Pernambuco
+  geo:
+    latitude: -8.8137173
+    longitude: -36.954107
+    min_latitude: -9.482900599999999
+    min_longitude: -41.3583307
+    max_latitude: -3.830501599999999
+    max_longitude: -32.3918587
   translations:
     en: Pernambuco
     af: Pernambuco
@@ -1234,16 +1273,18 @@ PE:
     uz: Pernambuku
     bs: Pernambuco
     mk: Пернамбуко
-  geo:
-    latitude: -8.8137173
-    longitude: -36.954107
-    min_latitude: -9.482900599999999
-    min_longitude: -41.3583307
-    max_latitude: -3.830501599999999
-    max_longitude: -32.3918587
-  name: Pernambuco
-PI:
+  comments: 
+PI: !ruby/struct:ISO3166::Subdivision
+  name: Piauí
+  code: 
   unofficial_names: Piauí
+  geo:
+    latitude: -7.718340100000001
+    longitude: -42.72892359999999
+    min_latitude: -10.9287593
+    min_longitude: -45.9942887
+    max_latitude: -2.7473161
+    max_longitude: -40.3705066
   translations:
     en: Piauí
     af: Piauí
@@ -1312,16 +1353,18 @@ PI:
     uz: Piaui
     bs: Piauí
     mk: Пјауи
-  geo:
-    latitude: -7.718340100000001
-    longitude: -42.72892359999999
-    min_latitude: -10.9287593
-    min_longitude: -45.9942887
-    max_latitude: -2.7473161
-    max_longitude: -40.3705066
-  name: Piauí
-PR:
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Paraná
+  code: 
   unofficial_names: Paraná
+  geo:
+    latitude: -25.2520888
+    longitude: -52.0215415
+    min_latitude: -26.7172983
+    min_longitude: -54.6192979
+    max_latitude: -22.5166644
+    max_longitude: -48.0235303
   translations:
     en: Paraná
     af: Paraná
@@ -1389,16 +1432,18 @@ PR:
     uz: Parana
     bs: Paraná
     mk: Парана
-  geo:
-    latitude: -25.2520888
-    longitude: -52.0215415
-    min_latitude: -26.7172983
-    min_longitude: -54.6192979
-    max_latitude: -22.5166644
-    max_longitude: -48.0235303
-  name: Paraná
-RJ:
+  comments: 
+RJ: !ruby/struct:ISO3166::Subdivision
+  name: Rio de Janeiro
+  code: 
   unofficial_names: Rio de Janeiro
+  geo:
+    latitude: -22.9068467
+    longitude: -43.1728965
+    min_latitude: -23.0763469
+    min_longitude: -43.7950599
+    max_latitude: -22.7461987
+    max_longitude: -43.1018358
   translations:
     en: Rio de Janeiro
     af: Rio de Janeiro
@@ -1461,16 +1506,18 @@ RJ:
     uz: Rio-de-Janeyro
     bs: Rio de Janeiro
     mk: Рио де Жанеиро
-  geo:
-    latitude: -22.9068467
-    longitude: -43.1728965
-    min_latitude: -23.0763469
-    min_longitude: -43.7950599
-    max_latitude: -22.7461987
-    max_longitude: -43.1018358
-  name: Rio de Janeiro
-RN:
+  comments: 
+RN: !ruby/struct:ISO3166::Subdivision
+  name: Rio Grande do Norte
+  code: 
   unofficial_names: Rio Grande do Norte
+  geo:
+    latitude: -5.402580299999999
+    longitude: -36.954107
+    min_latitude: -6.9827372
+    min_longitude: -38.5821039
+    max_latitude: -4.8317963
+    max_longitude: -34.9687549
   translations:
     en: Rio Grande do Norte
     af: Rio Grande do Norte
@@ -1540,16 +1587,18 @@ RN:
     uz: Riu Grandi du Norti
     bs: Rio Grande do Norte
     mk: Северно Рио Гранде
-  geo:
-    latitude: -5.402580299999999
-    longitude: -36.954107
-    min_latitude: -6.9827372
-    min_longitude: -38.5821039
-    max_latitude: -4.8317963
-    max_longitude: -34.9687549
-  name: Rio Grande do Norte
-RO:
+  comments: 
+RO: !ruby/struct:ISO3166::Subdivision
+  name: Rondônia
+  code: 
   unofficial_names: Rondônia
+  geo:
+    latitude: -11.5057341
+    longitude: -63.580611
+    min_latitude: -13.6937038
+    min_longitude: -66.8102456
+    max_latitude: -7.9692976
+    max_longitude: -59.77434709999999
   translations:
     en: Rondônia
     af: Rondônia
@@ -1616,16 +1665,18 @@ RO:
     uz: Rondoniya
     bs: Rondônia
     mk: Рондонија
-  geo:
-    latitude: -11.5057341
-    longitude: -63.580611
-    min_latitude: -13.6937038
-    min_longitude: -66.8102456
-    max_latitude: -7.9692976
-    max_longitude: -59.77434709999999
-  name: Rondônia
-RR:
+  comments: 
+RR: !ruby/struct:ISO3166::Subdivision
+  name: Roraima
+  code: 
   unofficial_names: Roraima
+  geo:
+    latitude: 2.7375971
+    longitude: -62.0750998
+    min_latitude: -1.5806358
+    min_longitude: -64.8252444
+    max_latitude: 5.2718389
+    max_longitude: -58.88687820000001
   translations:
     en: Roraima
     af: Roraima
@@ -1694,16 +1745,18 @@ RR:
     uz: Rorayma
     bs: Roraima
     mk: Рораима
-  geo:
-    latitude: 2.7375971
-    longitude: -62.0750998
-    min_latitude: -1.5806358
-    min_longitude: -64.8252444
-    max_latitude: 5.2718389
-    max_longitude: -58.88687820000001
-  name: Roraima
-RS:
+  comments: 
+RS: !ruby/struct:ISO3166::Subdivision
+  name: Rio Grande do Sul
+  code: 
   unofficial_names: Rio Grande do Sul
+  geo:
+    latitude: -30.0346316
+    longitude: -51.2176986
+    min_latitude: -33.752084
+    min_longitude: -57.64928399999999
+    max_latitude: -27.0805987
+    max_longitude: -49.6916345
   translations:
     en: Rio Grande do Sul
     af: Rio Grande do Sul
@@ -1779,16 +1832,18 @@ RS:
     uz: Riu Grandi du Sul
     bs: Rio Grande do Sul
     mk: Јужно Рио Гранде
-  geo:
-    latitude: -30.0346316
-    longitude: -51.2176986
-    min_latitude: -33.752084
-    min_longitude: -57.64928399999999
-    max_latitude: -27.0805987
-    max_longitude: -49.6916345
-  name: Rio Grande do Sul
-SC:
+  comments: 
+SC: !ruby/struct:ISO3166::Subdivision
+  name: Santa Catarina
+  code: 
   unofficial_names: Santa Catarina
+  geo:
+    latitude: -27.2423392
+    longitude: -50.2188556
+    min_latitude: -29.351441
+    min_longitude: -53.83635870000001
+    max_latitude: -25.9559588
+    max_longitude: -48.35680809999999
   translations:
     en: Santa Catarina
     af: Santa Catarina
@@ -1857,16 +1912,18 @@ SC:
     uz: Santa-Katarina
     bs: Santa Catarina
     mk: Санта Катарина
-  geo:
-    latitude: -27.2423392
-    longitude: -50.2188556
-    min_latitude: -29.351441
-    min_longitude: -53.83635870000001
-    max_latitude: -25.9559588
-    max_longitude: -48.35680809999999
-  name: Santa Catarina
-SE:
+  comments: 
+SE: !ruby/struct:ISO3166::Subdivision
+  name: Sergipe
+  code: 
   unofficial_names: Sergipe
+  geo:
+    latitude: -10.5740934
+    longitude: -37.3856581
+    min_latitude: -11.5685288
+    min_longitude: -38.2456472
+    max_latitude: -9.5150294
+    max_longitude: -36.3998681
   translations:
     en: Sergipe
     af: Sergipe
@@ -1935,16 +1992,18 @@ SE:
     uz: Serjipi
     bs: Sergipe
     mk: Сержипе
-  geo:
-    latitude: -10.5740934
-    longitude: -37.3856581
-    min_latitude: -11.5685288
-    min_longitude: -38.2456472
-    max_latitude: -9.5150294
-    max_longitude: -36.3998681
-  name: Sergipe
-SP:
+  comments: 
+SP: !ruby/struct:ISO3166::Subdivision
+  name: São Paulo
+  code: 
   unofficial_names: São Paulo
+  geo:
+    latitude: -23.5505199
+    longitude: -46.63330939999999
+    min_latitude: -24.0082209
+    min_longitude: -46.825514
+    max_latitude: -23.3566039
+    max_longitude: -46.3650844
   translations:
     en: São Paulo
     af: São Paulo
@@ -2016,16 +2075,18 @@ SP:
     uz: San Paulu
     bs: São Paulo (država)
     mk: Сао Паоло
-  geo:
-    latitude: -23.5505199
-    longitude: -46.63330939999999
-    min_latitude: -24.0082209
-    min_longitude: -46.825514
-    max_latitude: -23.3566039
-    max_longitude: -46.3650844
-  name: São Paulo
-TO:
+  comments: 
+TO: !ruby/struct:ISO3166::Subdivision
+  name: Tocantins
+  code: 
   unofficial_names: Tocantins
+  geo:
+    latitude: -10.17528
+    longitude: -48.2982474
+    min_latitude: -13.4677157
+    min_longitude: -50.74205809999999
+    max_latitude: -5.1683828
+    max_longitude: -45.6960778
   translations:
     en: Tocantins
     af: Tocantins
@@ -2092,11 +2153,4 @@ TO:
     uz: Tokantins
     bs: Tocantins
     mk: Токантинс
-  geo:
-    latitude: -10.17528
-    longitude: -48.2982474
-    min_latitude: -13.4677157
-    min_longitude: -50.74205809999999
-    max_latitude: -5.1683828
-    max_longitude: -45.6960778
-  name: Tocantins
+  comments: 

@@ -1,6 +1,15 @@
 ---
-AL:
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Aileu
+  code: 
   unofficial_names: Aileu
+  geo:
+    latitude: -8.7043994
+    longitude: 125.6095474
+    min_latitude: -8.850384000000002
+    min_longitude: 125.4551079
+    max_latitude: -8.559498999999999
+    max_longitude: 125.818058
   translations:
     en: Aileu
     ar: بلدية ايلو
@@ -43,16 +52,18 @@ AL:
     ceb: Aileu (distrito)
     lt: Ailo apskritis
     ccp: "\U00011103\U0001112D\U00011123\U00011128\U00011105\U0001112A"
-  geo:
-    latitude: -8.7043994
-    longitude: 125.6095474
-    min_latitude: -8.850384000000002
-    min_longitude: 125.4551079
-    max_latitude: -8.559498999999999
-    max_longitude: 125.818058
-  name: Aileu
-AN:
+  comments: 
+AN: !ruby/struct:ISO3166::Subdivision
+  name: Ainaro
+  code: 
   unofficial_names: Ainaro
+  geo:
+    latitude: -9.0113171
+    longitude: 125.5220012
+    min_latitude: -9.2259576
+    min_longitude: 125.4256071
+    max_latitude: -8.756097
+    max_longitude: 125.726574
   translations:
     en: Ainaro
     ar: بلدية إينارو
@@ -95,17 +106,19 @@ AN:
     lt: Ainaro apskritis
     zh: 阿伊納羅縣
     ccp: "\U00011103\U0001112D\U0001111A\U00011122\U0001112E"
-  geo:
-    latitude: -9.0113171
-    longitude: 125.5220012
-    min_latitude: -9.2259576
-    min_longitude: 125.4256071
-    max_latitude: -8.756097
-    max_longitude: 125.726574
-  name: Ainaro
-BA:
+  comments: 
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Baucau
+  code: 
   unofficial_names:
   - Baukau
+  geo:
+    latitude: -8.466667
+    longitude: 126.45
+    min_latitude: -8.4914305
+    min_longitude: 126.4455986
+    max_latitude: -8.4566878
+    max_longitude: 126.4652108
   translations:
     en: Baucau
     ar: بلدية بوكاو
@@ -147,16 +160,18 @@ BA:
     lt: Baukau savivaldybė
     zh: 包考縣
     ccp: "\U0001111D\U00011105\U0001112A\U00011107\U00011105\U0001112A"
-  geo:
-    latitude: -8.466667
-    longitude: 126.45
-    min_latitude: -8.4914305
-    min_longitude: 126.4455986
-    max_latitude: -8.4566878
-    max_longitude: 126.4652108
-  name: Baucau
-BO:
+  comments: 
+BO: !ruby/struct:ISO3166::Subdivision
+  name: Bobonaro
+  code: 
   unofficial_names: Bobonaro
+  geo:
+    latitude: -9.031944
+    longitude: 125.325
+    min_latitude: -9.037585
+    min_longitude: 125.3164996
+    max_latitude: -9.025768099999999
+    max_longitude: 125.3293933
   translations:
     en: Bobonaro
     ar: بلدية بوبونارو
@@ -198,17 +213,19 @@ BO:
     lt: Bobonaro apskritis
     zh: 博博納羅縣
     ccp: "\U0001111D\U0001112E\U0001111A\U0001112E\U0001111A\U00011122\U0001112E"
-  geo:
-    latitude: -9.031944
-    longitude: 125.325
-    min_latitude: -9.037585
-    min_longitude: 125.3164996
-    max_latitude: -9.025768099999999
-    max_longitude: 125.3293933
-  name: Bobonaro
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Cova Lima
+  code: 
   unofficial_names:
   - Kova-Lima
+  geo:
+    latitude: -9.2650375
+    longitude: 125.2587964
+    min_latitude: -9.459087799999999
+    min_longitude: 124.978455
+    max_latitude: -9.005953
+    max_longitude: 125.5403839
   translations:
     en: Cova Lima
     ar: بلدية كوفا ليما
@@ -250,16 +267,18 @@ CO:
     lt: Kova Limos apskritis
     zh: 科瓦利馬縣
     ccp: "\U00011107\U0001112E\U0001111E \U00011123\U00011128\U0001111F"
-  geo:
-    latitude: -9.2650375
-    longitude: 125.2587964
-    min_latitude: -9.459087799999999
-    min_longitude: 124.978455
-    max_latitude: -9.005953
-    max_longitude: 125.5403839
-  name: Cova Lima
-DI:
+  comments: 
+DI: !ruby/struct:ISO3166::Subdivision
+  name: Dili
+  code: 
   unofficial_names: Dili
+  geo:
+    latitude: -8.549999999999999
+    longitude: 125.566667
+    min_latitude: -8.5751071
+    min_longitude: 125.5108341
+    max_latitude: -8.5378049
+    max_longitude: 125.6291083
   translations:
     en: Dili
     ar: بلدية ديلي
@@ -302,16 +321,18 @@ DI:
     zh: 帝力縣
     ccp: "\U00011118\U00011128\U00011123\U00011128"
     be: Дылі
-  geo:
-    latitude: -8.549999999999999
-    longitude: 125.566667
-    min_latitude: -8.5751071
-    min_longitude: 125.5108341
-    max_latitude: -8.5378049
-    max_longitude: 125.6291083
-  name: Dili
-ER:
+  comments: 
+ER: !ruby/struct:ISO3166::Subdivision
+  name: Ermera
+  code: 
   unofficial_names: Ermera
+  geo:
+    latitude: -8.752222
+    longitude: 125.396944
+    min_latitude: -8.756429299999999
+    min_longitude: 125.3915809
+    max_latitude: -8.7455862
+    max_longitude: 125.4051295
   translations:
     en: Ermera
     ar: مقاطعة إرميرا
@@ -353,16 +374,18 @@ ER:
     lt: Ermeros apskritis
     zh: 埃爾梅拉縣
     ccp: "\U00011103\U00011128\U00011122\U00011134\U0001111F\U0001112C\U00011122"
-  geo:
-    latitude: -8.752222
-    longitude: 125.396944
-    min_latitude: -8.756429299999999
-    min_longitude: 125.3915809
-    max_latitude: -8.7455862
-    max_longitude: 125.4051295
-  name: Ermera
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Lautem
+  code: 
   unofficial_names: Lautem
+  geo:
+    latitude: -8.363999999999999
+    longitude: 126.904
+    min_latitude: -8.3692441
+    min_longitude: 126.8967569
+    max_latitude: -8.3597863
+    max_longitude: 126.9085371
   translations:
     en: Lautém
     ar: بلدية لوتيم
@@ -404,17 +427,19 @@ LA:
     lt: Lautemo apskritis
     zh: 勞滕縣
     ccp: "\U00011123\U00011127\U00011105\U0001112A\U00011111\U0001112C\U0001111F\U00011134"
-  geo:
-    latitude: -8.363999999999999
-    longitude: 126.904
-    min_latitude: -8.3692441
-    min_longitude: 126.8967569
-    max_latitude: -8.3597863
-    max_longitude: 126.9085371
-  name: Lautem
-LI:
+  comments: 
+LI: !ruby/struct:ISO3166::Subdivision
+  name: Liquiça
+  code: 
   unofficial_names:
   - Likisia
+  geo:
+    latitude: -8.6674095
+    longitude: 125.2587964
+    min_latitude: -8.757555
+    min_longitude: 125.093361
+    max_latitude: -8.5633059
+    max_longitude: 125.527085
   translations:
     en: Liquiçá
     ar: مقاطعة ليكويتشيا
@@ -456,16 +481,18 @@ LI:
     lt: Likisos apskritis
     zh: 利逵薩縣
     ccp: "\U00011123\U00011128\U00011107\U0001112D\U0001112A\U00011107"
-  geo:
-    latitude: -8.6674095
-    longitude: 125.2587964
-    min_latitude: -8.757555
-    min_longitude: 125.093361
-    max_latitude: -8.5633059
-    max_longitude: 125.527085
-  name: Liquiça
-MF:
+  comments: 
+MF: !ruby/struct:ISO3166::Subdivision
+  name: Manufahi
+  code: 
   unofficial_names: Manufahi
+  geo:
+    latitude: -9.0145495
+    longitude: 125.8279959
+    min_latitude: -9.192457899999999
+    min_longitude: 125.587778
+    max_latitude: -8.738135
+    max_longitude: 126.0595401
   translations:
     en: Manufahi
     ar: بلدية مانوفاهي
@@ -508,16 +535,18 @@ MF:
     lt: Manufagio apskritis
     zh: 馬努法伊縣
     ccp: "\U0001111F\U0001111A\U0001112A\U0001111C\U00011126\U00011128"
-  geo:
-    latitude: -9.0145495
-    longitude: 125.8279959
-    min_latitude: -9.192457899999999
-    min_longitude: 125.587778
-    max_latitude: -8.738135
-    max_longitude: 126.0595401
-  name: Manufahi
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Manatuto
+  code: 
   unofficial_names: Manatuto
+  geo:
+    latitude: -8.7406923
+    longitude: 125.958777
+    min_latitude: -9.0597129
+    min_longitude: 125.7584121
+    max_latitude: -8.4820159
+    max_longitude: 126.196725
   translations:
     en: Manatuto
     ar: مقاطعة ماناتوتو
@@ -559,19 +588,21 @@ MT:
     lt: Manatuto apskritis
     zh: 馬納圖托縣
     ccp: "\U0001111F\U0001111A\U00011111\U0001112A\U00011111\U0001112E"
-  geo:
-    latitude: -8.7406923
-    longitude: 125.958777
-    min_latitude: -9.0597129
-    min_longitude: 125.7584121
-    max_latitude: -8.4820159
-    max_longitude: 126.196725
-  name: Manatuto
-OE:
+  comments: 
+OE: !ruby/struct:ISO3166::Subdivision
+  name: Oecussi
+  code: 
   unofficial_names:
   - Ambeno
   - Ambino
   - Oecusse
+  geo:
+    latitude: -9.2970576
+    longitude: 124.2866091
+    min_latitude: -9.501416899999999
+    min_longitude: 124.075439
+    max_latitude: -9.174905
+    max_longitude: 124.4829029
   translations:
     en: Oecusse
     ar: بلدية أويكيوس
@@ -615,17 +646,19 @@ OE:
     zh: 歐庫西-安貝諾縣
     ccp: "\U00011103\U0001112E\U00011120\U0001112C\U00011107\U0001112A\U0001110C\U00011134"
     ca: Oecusse
-  geo:
-    latitude: -9.2970576
-    longitude: 124.2866091
-    min_latitude: -9.501416899999999
-    min_longitude: 124.075439
-    max_latitude: -9.174905
-    max_longitude: 124.4829029
-  name: Oecussi
-VI:
+  comments: 
+VI: !ruby/struct:ISO3166::Subdivision
+  name: Viqueque
+  code: 
   unofficial_names:
   - Vikeke
+  geo:
+    latitude: -8.8083212
+    longitude: 126.3498097
+    min_latitude: -8.99103
+    min_longitude: 126.0464829
+    max_latitude: -8.591630000000002
+    max_longitude: 126.7401707
   translations:
     en: Viqueque
     ar: بلدية فيكيك
@@ -667,11 +700,4 @@ VI:
     lt: Vikekės apskritis
     zh: 維克克縣
     ccp: "\U0001111E\U00011128\U00011107\U0001112A\U00011107\U0001112A"
-  geo:
-    latitude: -8.8083212
-    longitude: 126.3498097
-    min_latitude: -8.99103
-    min_longitude: 126.0464829
-    max_latitude: -8.591630000000002
-    max_longitude: 126.7401707
-  name: Viqueque
+  comments: 

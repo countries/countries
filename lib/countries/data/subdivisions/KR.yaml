@@ -1,8 +1,17 @@
 ---
-'11':
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Seoul Teugbyeolsi [Seoul-T'ukpyolshi]
+  code: 
   unofficial_names:
   - Seoul
   - Soul
+  geo:
+    latitude: 37.566535
+    longitude: 126.9779692
+    min_latitude: 37.4259627
+    min_longitude: 126.7645827
+    max_latitude: 37.7017495
+    max_longitude: 127.18359
   translations:
     en: Seoul
     af: Seoel
@@ -88,17 +97,19 @@
     uz: Seul
     bs: Seul
     mk: Сеул
-  geo:
-    latitude: 37.566535
-    longitude: 126.9779692
-    min_latitude: 37.4259627
-    min_longitude: 126.7645827
-    max_latitude: 37.7017495
-    max_longitude: 127.18359
-  name: Seoul Teugbyeolsi [Seoul-T'ukpyolshi]
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Busan Gwang'yeogsi [Pusan-Kwangyokshi]
+  code: 
   unofficial_names:
   - Busan
+  geo:
+    latitude: 35.1795543
+    longitude: 129.0756416
+    min_latitude: 34.9835815
+    min_longitude: 128.787197
+    max_latitude: 35.3874414
+    max_longitude: 129.3100483
   translations:
     en: Busan
     af: Busan
@@ -175,17 +186,19 @@
     my: ဘူဆန်မြို့
     uz: Pusan
     mk: Пусан
-  geo:
-    latitude: 35.1795543
-    longitude: 129.0756416
-    min_latitude: 34.9835815
-    min_longitude: 128.787197
-    max_latitude: 35.3874414
-    max_longitude: 129.3100483
-  name: Busan Gwang'yeogsi [Pusan-Kwangyokshi]
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: Daegu Gwang'yeogsi [Taegu-Kwangyokshi]
+  code: 
   unofficial_names:
   - Daegu
+  geo:
+    latitude: 35.8714354
+    longitude: 128.601445
+    min_latitude: 35.6071707
+    min_longitude: 128.3497208
+    max_latitude: 36.0172827
+    max_longitude: 128.7632175
   translations:
     en: Daegu
     af: Daegu
@@ -250,18 +263,20 @@
     hr: Daegu
     kk: Тэгу
     yue: 大邱
-  geo:
-    latitude: 35.8714354
-    longitude: 128.601445
-    min_latitude: 35.6071707
-    min_longitude: 128.3497208
-    max_latitude: 36.0172827
-    max_longitude: 128.7632175
-  name: Daegu Gwang'yeogsi [Taegu-Kwangyokshi]
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: Incheon Gwang'yeogsi [Inch'n-Kwangyokshi]
+  code: 
   unofficial_names:
   - Incheon
   - Inchon
+  geo:
+    latitude: 37.4562557
+    longitude: 126.7052062
+    min_latitude: 37.0063057
+    min_longitude: 124.608139
+    max_latitude: 37.982666
+    max_longitude: 126.7936273
   translations:
     en: Incheon
     af: Incheon
@@ -329,17 +344,19 @@
     yue: 仁川
     my: အင်ချွန်းမြို့
     uz: Inchxon
-  geo:
-    latitude: 37.4562557
-    longitude: 126.7052062
-    min_latitude: 37.0063057
-    min_longitude: 124.608139
-    max_latitude: 37.982666
-    max_longitude: 126.7936273
-  name: Incheon Gwang'yeogsi [Inch'n-Kwangyokshi]
-'29':
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]
+  code: 
   unofficial_names:
   - Gwangju
+  geo:
+    latitude: 35.1595454
+    longitude: 126.8526012
+    min_latitude: 35.0508149
+    min_longitude: 126.6449036
+    max_latitude: 35.2589426
+    max_longitude: 127.0229414
   translations:
     en: Gwangju City
     af: Gwangju
@@ -404,19 +421,21 @@
     kk: Кванджу
     yue: 光州
     mk: Квангџу
-  geo:
-    latitude: 35.1595454
-    longitude: 126.8526012
-    min_latitude: 35.0508149
-    min_longitude: 126.6449036
-    max_latitude: 35.2589426
-    max_longitude: 127.0229414
-  name: Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]
+  code: 
   unofficial_names:
   - Daejeon
   - Taejeon
   - Taejon
+  geo:
+    latitude: 36.3504119
+    longitude: 127.3845475
+    min_latitude: 36.1833708
+    min_longitude: 127.2464501
+    max_latitude: 36.4999477
+    max_longitude: 127.5590437
   translations:
     en: Daejeon
     af: Daejeon
@@ -480,16 +499,18 @@
     yue: 大田
     uz: Daejeon
     mk: Теџон
-  geo:
-    latitude: 36.3504119
-    longitude: 127.3845475
-    min_latitude: 36.1833708
-    min_longitude: 127.2464501
-    max_latitude: 36.4999477
-    max_longitude: 127.5590437
-  name: Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]
-'31':
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]
+  code: 
   unofficial_names: Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]
+  geo:
+    latitude: 35.5383773
+    longitude: 129.3113596
+    min_latitude: 35.3218658
+    min_longitude: 128.9756829
+    max_latitude: 35.7252482
+    max_longitude: 129.4666138
   translations:
     en: Ulsan
     af: Ulsan
@@ -549,16 +570,18 @@
     az: Ulsan
     my: အောလ်ဆန်မြို့
     uz: Ulsan
-  geo:
-    latitude: 35.5383773
-    longitude: 129.3113596
-    min_latitude: 35.3218658
-    min_longitude: 128.9756829
-    max_latitude: 35.7252482
-    max_longitude: 129.4666138
-  name: Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]
-'41':
+  comments: 
+'41': !ruby/struct:ISO3166::Subdivision
+  name: Gyeonggido [Kyonggi-do]
+  code: 
   unofficial_names: Gyeonggido [Kyonggi-do]
+  geo:
+    latitude: 37.41379999999999
+    longitude: 127.5183
+    min_latitude: 36.8939685
+    min_longitude: 126.3763885
+    max_latitude: 38.3026711
+    max_longitude: 127.8582527
   translations:
     en: Gyeonggi
     ar: مقاطعة غيونغي
@@ -615,17 +638,19 @@
     eu: Gyeonggi
     kk: Кёңгидо
     yue: 京畿道
-  geo:
-    latitude: 37.41379999999999
-    longitude: 127.5183
-    min_latitude: 36.8939685
-    min_longitude: 126.3763885
-    max_latitude: 38.3026711
-    max_longitude: 127.8582527
-  name: Gyeonggido [Kyonggi-do]
-'42':
+  comments: 
+'42': !ruby/struct:ISO3166::Subdivision
+  name: Gang'weondo [Kang-won-do]
+  code: 
   unofficial_names:
   - Kangwon
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gangwon
     ar: مقاطعة غانغوون
@@ -683,6 +708,12 @@
     yue: 江原道
     be: правінцыя Канвандо
     mk: Кангвон
+  comments: 
+'43': !ruby/struct:ISO3166::Subdivision
+  name: Chungcheongbugdo [Ch'ungch'ongbuk-do]
+  code: 
+  unofficial_names:
+  - North Chungchong
   geo:
     latitude: 
     longitude: 
@@ -690,10 +721,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Gang'weondo [Kang-won-do]
-'43':
-  unofficial_names:
-  - North Chungchong
   translations:
     en: North Chungcheong
     ar: تشنغتشونغ الشمالية
@@ -750,17 +777,19 @@
     eu: Ipar Chungcheong
     yue: 忠清北道
     be: Чхунчхон-Пукто
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chungcheongbugdo [Ch'ungch'ongbuk-do]
-'44':
+  comments: 
+'44': !ruby/struct:ISO3166::Subdivision
+  name: Chungcheongnamdo [Ch'ungch'ongnam-do]
+  code: 
   unofficial_names:
   - South Chungchong
+  geo:
+    latitude: 36.5184
+    longitude: 126.8
+    min_latitude: 35.9806574
+    min_longitude: 125.9581375
+    max_latitude: 37.0618896
+    max_longitude: 127.6396353
   translations:
     en: South Chungcheong
     ar: مقاطعة تشنغتشونغ الجنوبية
@@ -815,18 +844,20 @@
     eu: Hego Chungcheong
     kk: Чхуңчхоң-Намдо
     yue: 忠清南道
-  geo:
-    latitude: 36.5184
-    longitude: 126.8
-    min_latitude: 35.9806574
-    min_longitude: 125.9581375
-    max_latitude: 37.0618896
-    max_longitude: 127.6396353
-  name: Chungcheongnamdo [Ch'ungch'ongnam-do]
-'45':
+  comments: 
+'45': !ruby/struct:ISO3166::Subdivision
+  name: Jeonrabugdo[Chollabuk-do]
+  code: 
   unofficial_names:
   - Chollapuk
   - North Cholla
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: North Jeolla
     ar: مقاطعة جولا الشمالية
@@ -883,6 +914,12 @@
     eu: Ipar Jeolla
     kk: Чолла-Пукто
     yue: 全羅北道
+  comments: 
+'46': !ruby/struct:ISO3166::Subdivision
+  name: Jeonranamdo [Chollanam-do]
+  code: 
+  unofficial_names:
+  - South Cholla
   geo:
     latitude: 
     longitude: 
@@ -890,10 +927,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Jeonrabugdo[Chollabuk-do]
-'46':
-  unofficial_names:
-  - South Cholla
   translations:
     en: South Jeolla
     ar: مقاطعة جولا الجنوبية
@@ -949,17 +982,19 @@
     eu: Hego Jeolla
     kk: Чолла-Намдо
     yue: 全羅南道
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Jeonranamdo [Chollanam-do]
-'47':
+  comments: 
+'47': !ruby/struct:ISO3166::Subdivision
+  name: Gyeongsangbugdo [Kyongsangbuk-do]
+  code: 
   unofficial_names:
   - North Kyongsang
+  geo:
+    latitude: 36.4919
+    longitude: 128.8889
+    min_latitude: 35.5664734
+    min_longitude: 127.7938878
+    max_latitude: 37.542778
+    max_longitude: 130.9232178
   translations:
     en: North Gyeongsang
     ar: مقاطعة غيونغسانغ الشمالية
@@ -1016,17 +1051,19 @@
     kk: Кёңсаң-Пукто
     yue: 慶尚北道
     be: Кёнсан-Пукта
-  geo:
-    latitude: 36.4919
-    longitude: 128.8889
-    min_latitude: 35.5664734
-    min_longitude: 127.7938878
-    max_latitude: 37.542778
-    max_longitude: 130.9232178
-  name: Gyeongsangbugdo [Kyongsangbuk-do]
-'48':
+  comments: 
+'48': !ruby/struct:ISO3166::Subdivision
+  name: Gyeongsangnamdo [Kyongsangnam-do]
+  code: 
   unofficial_names:
   - Gyeongsangnamdo/ Kyongsang-namdo/ South Kyongsang
+  geo:
+    latitude: 35.4606
+    longitude: 128.2132
+    min_latitude: 34.5321655
+    min_longitude: 127.5622163
+    max_latitude: 35.9099572
+    max_longitude: 129.2198762
   translations:
     en: South Gyeongsang
     ar: مقاطعة غيونغسانغ الجنوبية
@@ -1081,18 +1118,20 @@
     eu: Hego Gyeongsang
     kk: Кёнсан-Намдо
     yue: 慶尚南道
-  geo:
-    latitude: 35.4606
-    longitude: 128.2132
-    min_latitude: 34.5321655
-    min_longitude: 127.5622163
-    max_latitude: 35.9099572
-    max_longitude: 129.2198762
-  name: Gyeongsangnamdo [Kyongsangnam-do]
-'49':
+  comments: 
+'49': !ruby/struct:ISO3166::Subdivision
+  name: Jejudo [Cheju-do]
+  code: 
   unofficial_names:
   - Jeju
   - Quelpart
+  geo:
+    latitude: 33.4890113
+    longitude: 126.4983023
+    min_latitude: 33.1061096
+    min_longitude: 126.1637192
+    max_latitude: 34.0062218
+    max_longitude: 126.9742813
   translations:
     en: Jeju
     ar: مقاطعة جيجو
@@ -1154,16 +1193,18 @@
     yue: 濟州特別自治道
     az: Çejudo adası
     mk: Чеџу
-  geo:
-    latitude: 33.4890113
-    longitude: 126.4983023
-    min_latitude: 33.1061096
-    min_longitude: 126.1637192
-    max_latitude: 34.0062218
-    max_longitude: 126.9742813
-  name: Jejudo [Cheju-do]
-'50':
+  comments: 
+'50': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مدينة سيجونغ
     bn: সেজং শহর
@@ -1211,10 +1252,4 @@
     kk: Сечжон
     uk: Седжон
     yue: 世宗特別自治市
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

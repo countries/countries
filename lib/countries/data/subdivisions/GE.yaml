@@ -1,7 +1,16 @@
 ---
-AB:
+AB: !ruby/struct:ISO3166::Subdivision
+  name: Abkhazia
+  code: 
   unofficial_names:
   - Abhasia
+  geo:
+    latitude: 43.0015544
+    longitude: 41.023407
+    min_latitude: 42.4124548
+    min_longitude: 40.0075855
+    max_latitude: 43.586627
+    max_longitude: 42.149976
   translations:
     en: Abkhazia
     af: Abchasië
@@ -68,19 +77,21 @@ AB:
     ccp: "\U00011103\U0001111B\U00011134\U00011108\U0001110E\U00011128\U00011120"
     sd: ابخازيہ
     kk: Абхазия Автономиялық Республикасы
-  geo:
-    latitude: 43.0015544
-    longitude: 41.023407
-    min_latitude: 42.4124548
-    min_longitude: 40.0075855
-    max_latitude: 43.586627
-    max_longitude: 42.149976
-  name: Abkhazia
-AJ:
+  comments: 
+AJ: !ruby/struct:ISO3166::Subdivision
+  name: Ajaria
+  code: 
   unofficial_names:
   - Achara
   - Adzharia
   - Adžaria
+  geo:
+    latitude: 41.6005626
+    longitude: 42.0688383
+    min_latitude: 41.4344289
+    min_longitude: 41.54839399999999
+    max_latitude: 41.9110457
+    max_longitude: 42.602322
   translations:
     en: Adjara
     af: Adzjarië
@@ -149,16 +160,18 @@ AJ:
     uz: Ajariya
     bs: Adžarija
     mk: Аџарија
-  geo:
-    latitude: 41.6005626
-    longitude: 42.0688383
-    min_latitude: 41.4344289
-    min_longitude: 41.54839399999999
-    max_latitude: 41.9110457
-    max_longitude: 42.602322
-  name: Ajaria
-GU:
+  comments: 
+GU: !ruby/struct:ISO3166::Subdivision
+  name: Guria
+  code: 
   unofficial_names: Guria
+  geo:
+    latitude: 41.9442736
+    longitude: 42.0458091
+    min_latitude: 41.78135
+    min_longitude: 41.7136319
+    max_latitude: 42.16825499999999
+    max_longitude: 42.667122
   translations:
     en: Guria
     ar: غيوريا
@@ -213,16 +226,18 @@ GU:
     eu: Guria
     ml: ഗുരിയ
     mk: Гурија
-  geo:
-    latitude: 41.9442736
-    longitude: 42.0458091
-    min_latitude: 41.78135
-    min_longitude: 41.7136319
-    max_latitude: 42.16825499999999
-    max_longitude: 42.667122
-  name: Guria
-IM:
+  comments: 
+IM: !ruby/struct:ISO3166::Subdivision
+  name: Imereti
+  code: 
   unofficial_names: Imereti
+  geo:
+    latitude: 42.230108
+    longitude: 42.9008665
+    min_latitude: 41.808214
+    min_longitude: 42.2120039
+    max_latitude: 42.565433
+    max_longitude: 43.788536
   translations:
     en: Imereti
     ar: إيميريتي
@@ -279,17 +294,19 @@ IM:
     eu: Imereti
     kk: Имеретия патшалығы
     mk: Имеретија
-  geo:
-    latitude: 42.230108
-    longitude: 42.9008665
-    min_latitude: 41.808214
-    min_longitude: 42.2120039
-    max_latitude: 42.565433
-    max_longitude: 43.788536
-  name: Imereti
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Kakheti
+  code: 
   unofficial_names:
   - Kaheti
+  geo:
+    latitude: 41.6481602
+    longitude: 45.6905554
+    min_latitude: 41.03851299999999
+    min_longitude: 45.0147509
+    max_latitude: 42.564198
+    max_longitude: 46.7213589
   translations:
     en: Kakheti
     ar: كاخيتي
@@ -345,16 +362,18 @@ KA:
     ccp: "\U00011107\U00011108\U0001112C\U00011111\U00011128"
     ml: കാഖേറ്റി
     mk: Кахетија
-  geo:
-    latitude: 41.6481602
-    longitude: 45.6905554
-    min_latitude: 41.03851299999999
-    min_longitude: 45.0147509
-    max_latitude: 42.564198
-    max_longitude: 46.7213589
-  name: Kakheti
-KK:
+  comments: 
+KK: !ruby/struct:ISO3166::Subdivision
+  name: Kvemo Kartli
+  code: 
   unofficial_names: Kvemo Kartli
+  geo:
+    latitude: 41.4791833
+    longitude: 44.65604510000001
+    min_latitude: 41.15626109999999
+    min_longitude: 43.669065
+    max_latitude: 41.858702
+    max_longitude: 45.3102412
   translations:
     en: Kvemo Kartli
     ar: كفيمو كارتلي
@@ -409,17 +428,19 @@ KK:
     ccp: "\U0001111E\U0001112C\U0001111F\U0001112E \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
     eu: Kvemo Kartli
     mk: Долна Картли
-  geo:
-    latitude: 41.4791833
-    longitude: 44.65604510000001
-    min_latitude: 41.15626109999999
-    min_longitude: 43.669065
-    max_latitude: 41.858702
-    max_longitude: 45.3102412
-  name: Kvemo Kartli
-MM:
+  comments: 
+MM: !ruby/struct:ISO3166::Subdivision
+  name: Mtskheta-Mtianeti
+  code: 
   unofficial_names:
   - Mcheta-Mtianeti
+  geo:
+    latitude: 42.16821849999999
+    longitude: 44.6506057
+    min_latitude: 41.68722899999999
+    min_longitude: 44.21798709999999
+    max_latitude: 42.752689
+    max_longitude: 45.30156299999999
   translations:
     en: Mtskheta-Mtianeti
     ar: متسخيتا-متيانيتي
@@ -474,18 +495,20 @@ MM:
     ml: മ്റ്റിസ്ഖേറ്റ-മ്റ്റിയാനേറ്റി
     yue: 姆茨赫塔-姆季阿涅季州
     mk: Мцхета-Мтијанетија
-  geo:
-    latitude: 42.16821849999999
-    longitude: 44.6506057
-    min_latitude: 41.68722899999999
-    min_longitude: 44.21798709999999
-    max_latitude: 42.752689
-    max_longitude: 45.30156299999999
-  name: Mtskheta-Mtianeti
-RL:
+  comments: 
+RL: !ruby/struct:ISO3166::Subdivision
+  name: Racha-Lechkhumi [and] Kvemo Svaneti
+  code: 
   unofficial_names:
   - Racha
   - Racha-Lechkumi and Kverno Svaneti
+  geo:
+    latitude: 42.67188729999999
+    longitude: 43.0562836
+    min_latitude: 42.366172
+    min_longitude: 42.35788900000001
+    max_latitude: 42.9666309
+    max_longitude: 43.948078
   translations:
     en: Racha-Lechkhumi and Kvemo Svaneti
     ar: راتشا-ليخخومي وكفيمو سفانيتي
@@ -538,17 +561,19 @@ RL:
     ccp: "\U00011122\U0001110C-\U00011123\U0001112C\U0001110C\U00011134\U00011108\U0001112A\U0001111F\U00011128
       \U00011103\U00011133\U00011103 \U0001111E\U0001112C\U0001111F\U0001112E \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
     mk: Рача-Лечхуми и Долна Сванетија
-  geo:
-    latitude: 42.67188729999999
-    longitude: 43.0562836
-    min_latitude: 42.366172
-    min_longitude: 42.35788900000001
-    max_latitude: 42.9666309
-    max_longitude: 43.948078
-  name: Racha-Lechkhumi [and] Kvemo Svaneti
-SJ:
+  comments: 
+SJ: !ruby/struct:ISO3166::Subdivision
+  name: Samtskhe-Javakheti
+  code: 
   unofficial_names:
   - Samche-Žavaheti
+  geo:
+    latitude: 41.5479296
+    longitude: 43.2776399
+    min_latitude: 41.111591
+    min_longitude: 42.492235
+    max_latitude: 41.941421
+    max_longitude: 43.9642531
   translations:
     en: Samtskhe-Javakheti
     ar: سامتسخه-جافاخيتي
@@ -602,17 +627,19 @@ SJ:
     eu: Samtskhe-Javakheti
     ml: സാംറ്റ്സ്കെ ജവാഖേറ്റി
     mk: Самцхе-Џавахетија
-  geo:
-    latitude: 41.5479296
-    longitude: 43.2776399
-    min_latitude: 41.111591
-    min_longitude: 42.492235
-    max_latitude: 41.941421
-    max_longitude: 43.9642531
-  name: Samtskhe-Javakheti
-SK:
+  comments: 
+SK: !ruby/struct:ISO3166::Subdivision
+  name: Shida Kartli
+  code: 
   unofficial_names:
   - Šida Kartli
+  geo:
+    latitude: 42.0756944
+    longitude: 43.9540462
+    min_latitude: 41.733082
+    min_longitude: 43.4199111
+    max_latitude: 42.633717
+    max_longitude: 44.569049
   translations:
     en: Shida Kartli
     ar: شيدا كارتلي
@@ -667,16 +694,18 @@ SK:
     ccp: "\U00011125\U00011128\U00011113 \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
     ml: ഷിദ കാർട്‌ലി
     mk: Внатрешен Картли
-  geo:
-    latitude: 42.0756944
-    longitude: 43.9540462
-    min_latitude: 41.733082
-    min_longitude: 43.4199111
-    max_latitude: 42.633717
-    max_longitude: 44.569049
-  name: Shida Kartli
-SZ:
+  comments: 
+SZ: !ruby/struct:ISO3166::Subdivision
+  name: Samegrelo-Zemo Svaneti
+  code: 
   unofficial_names: Samegrelo-Zemo Svaneti
+  geo:
+    latitude: 42.7352247
+    longitude: 42.1689362
+    min_latitude: 42.068348
+    min_longitude: 41.559906
+    max_latitude: 43.2542339
+    max_longitude: 43.152301
   translations:
     en: Samegrelo-Zemo Svaneti
     ar: سامغريلو زيمو سفانيتي
@@ -729,17 +758,19 @@ SZ:
       \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
     ml: സാമെഗ്രെലോ-സെമോ സ്വാനെറ്റി
     mk: Мегрелија-Горна Сванетија
-  geo:
-    latitude: 42.7352247
-    longitude: 42.1689362
-    min_latitude: 42.068348
-    min_longitude: 41.559906
-    max_latitude: 43.2542339
-    max_longitude: 43.152301
-  name: Samegrelo-Zemo Svaneti
-TB:
+  comments: 
+TB: !ruby/struct:ISO3166::Subdivision
+  name: Tbilisi
+  code: 
   unofficial_names:
   - Tiflis
+  geo:
+    latitude: 41.716667
+    longitude: 44.783333
+    min_latitude: 41.6210248
+    min_longitude: 44.59650999999999
+    max_latitude: 41.8438937
+    max_longitude: 45.0176811
   translations:
     en: Tbilisi
     af: Tbilisi
@@ -820,11 +851,4 @@ TB:
     uz: Tbilisi
     bs: Tbilisi
     mk: Тбилиси
-  geo:
-    latitude: 41.716667
-    longitude: 44.783333
-    min_latitude: 41.6210248
-    min_longitude: 44.59650999999999
-    max_latitude: 41.8438937
-    max_longitude: 45.0176811
-  name: Tbilisi
+  comments: 

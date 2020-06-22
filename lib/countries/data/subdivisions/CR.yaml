@@ -1,6 +1,15 @@
 ---
-A:
+A: !ruby/struct:ISO3166::Subdivision
+  name: Alajuela
+  code: 
   unofficial_names: Alajuela
+  geo:
+    latitude: 10.391583
+    longitude: -84.4382721
+    min_latitude: 9.8215051
+    min_longitude: -85.43863999999999
+    max_latitude: 11.0793161
+    max_longitude: -84.149513
   translations:
     en: Alajuela
     ar: الأخويلا
@@ -52,16 +61,18 @@ A:
     ccp: "\U00011103\U00011123\U00011134\U0001110E\U0001112A\U00011120\U0001112C\U00011123"
     sd: الاخويلا
     eu: Alajuela (probintzia)
-  geo:
-    latitude: 10.391583
-    longitude: -84.4382721
-    min_latitude: 9.8215051
-    min_longitude: -85.43863999999999
-    max_latitude: 11.0793161
-    max_longitude: -84.149513
-  name: Alajuela
-C:
+  comments: 
+C: !ruby/struct:ISO3166::Subdivision
+  name: Cartago
+  code: 
   unofficial_names: Cartago
+  geo:
+    latitude: 9.7539596
+    longitude: -83.67739279999999
+    min_latitude: 9.505219100000001
+    min_longitude: -84.0711091
+    max_latitude: 10.1429971
+    max_longitude: -83.301808
   translations:
     en: Cartago
     ar: كارتاغو
@@ -101,16 +112,18 @@ C:
     zh: 卡塔戈省
     ccp: "\U00011107\U00011122\U00011134\U00011111\U00011109\U0001112E"
     eu: Cartago (probintzia)
-  geo:
-    latitude: 9.7539596
-    longitude: -83.67739279999999
-    min_latitude: 9.505219100000001
-    min_longitude: -84.0711091
-    max_latitude: 10.1429971
-    max_longitude: -83.301808
-  name: Cartago
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Guanacaste
+  code: 
   unofficial_names: Guanacaste
+  geo:
+    latitude: 10.4957971
+    longitude: -85.35496499999999
+    min_latitude: 9.723861099999999
+    min_longitude: -85.9460828
+    max_latitude: 11.2168181
+    max_longitude: -84.760645
   translations:
     en: Guanacaste
     ar: غواناكاسته
@@ -160,16 +173,18 @@ G:
     sr_Latn: Gvanakaste
     zh: 瓜纳卡斯特省
     ccp: "\U00011109\U0001112A\U00011120\U0001111A\U00011107\U0001110C\U00011134\U00011111\U0001112C"
-  geo:
-    latitude: 10.4957971
-    longitude: -85.35496499999999
-    min_latitude: 9.723861099999999
-    min_longitude: -85.9460828
-    max_latitude: 11.2168181
-    max_longitude: -84.760645
-  name: Guanacaste
-H:
+  comments: 
+H: !ruby/struct:ISO3166::Subdivision
+  name: Heredia
+  code: 
   unofficial_names: Heredia
+  geo:
+    latitude: 10.473523
+    longitude: -84.01674229999999
+    min_latitude: 9.9513191
+    min_longitude: -84.19046589999999
+    max_latitude: 10.789644
+    max_longitude: -83.714804
   translations:
     en: Heredia
     ar: إيريذيا
@@ -211,16 +226,18 @@ H:
     ccp: "\U00011126\U0001112C\U00011122\U0001112C\U00011113\U00011128\U00011120"
     hu: Heredia tartomány
     eu: Heredia (probintzia)
-  geo:
-    latitude: 10.473523
-    longitude: -84.01674229999999
-    min_latitude: 9.9513191
-    min_longitude: -84.19046589999999
-    max_latitude: 10.789644
-    max_longitude: -83.714804
-  name: Heredia
-L:
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: Limón
+  code: 
   unofficial_names: Limón
+  geo:
+    latitude: 9.983333
+    longitude: -83.033333
+    min_latitude: 9.9721473
+    min_longitude: -83.06642529999999
+    max_latitude: 10.0114533
+    max_longitude: -83.0199856
   translations:
     en: Limón
     ar: ليمون
@@ -258,16 +275,18 @@ L:
     sr_Latn: Limon
     zh: 利蒙省
     ccp: "\U00011123\U00011128\U0001111F\U00011127\U0001111A\U00011134"
-  geo:
-    latitude: 9.983333
-    longitude: -83.033333
-    min_latitude: 9.9721473
-    min_longitude: -83.06642529999999
-    max_latitude: 10.0114533
-    max_longitude: -83.0199856
-  name: Limón
-P:
+  comments: 
+P: !ruby/struct:ISO3166::Subdivision
+  name: Puntarenas
+  code: 
   unofficial_names: Puntarenas
+  geo:
+    latitude: 9.9778439
+    longitude: -84.82942109999999
+    min_latitude: 9.9740775
+    min_longitude: -84.8512676
+    max_latitude: 9.983031
+    max_longitude: -84.7929956
   translations:
     en: Puntarenas
     ar: بونتاريناس
@@ -317,16 +336,18 @@ P:
     zh: 蓬塔雷纳斯省
     ccp: "\U0001111B\U0001112A\U0001111A\U00011134\U00011111\U00011122\U0001112C\U0001111A\U0001110C\U00011134"
     eu: Puntarenas (probintzia)
-  geo:
-    latitude: 9.9778439
-    longitude: -84.82942109999999
-    min_latitude: 9.9740775
-    min_longitude: -84.8512676
-    max_latitude: 9.983031
-    max_longitude: -84.7929956
-  name: Puntarenas
-SJ:
+  comments: 
+SJ: !ruby/struct:ISO3166::Subdivision
+  name: San José
+  code: 
   unofficial_names: San José
+  geo:
+    latitude: 9.9280694
+    longitude: -84.0907246
+    min_latitude: 9.899968699999999
+    min_longitude: -84.1794991
+    max_latitude: 9.9712598
+    max_longitude: -84.047191
   translations:
     en: San José
     ar: محافظة سان خوسيه
@@ -377,11 +398,4 @@ SJ:
     ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U00011127\U00011125\U0001112C"
     eu: San Jose (probintzia)
     be: правінцыя Сан-Хасэ
-  geo:
-    latitude: 9.9280694
-    longitude: -84.0907246
-    min_latitude: 9.899968699999999
-    min_longitude: -84.1794991
-    max_latitude: 9.9712598
-    max_longitude: -84.047191
-  name: San José
+  comments: 

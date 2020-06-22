@@ -1,5 +1,7 @@
 ---
-MAP:
+MAP: !ruby/struct:ISO3166::Subdivision
+  name: Malampa
+  code: 
   unofficial_names:
   - Ambrim
   - Ambrym
@@ -7,6 +9,13 @@ MAP:
   - Malekula
   - Mallicollo
   - Paama
+  geo:
+    latitude: -16.4011405
+    longitude: 167.6077865
+    min_latitude: -16.5913427
+    min_longitude: 167.163246
+    max_latitude: -15.8821222
+    max_longitude: 168.368011
   translations:
     en: Malampa
     ar: محافظة مالامبا
@@ -52,21 +61,23 @@ MAP:
     ccp: "\U0001111F\U00011123\U0001111F\U00011134\U0001111B"
     uk: Провінція Малампа
     mk: Малампа
-  geo:
-    latitude: -16.4011405
-    longitude: 167.6077865
-    min_latitude: -16.5913427
-    min_longitude: 167.163246
-    max_latitude: -15.8821222
-    max_longitude: 168.368011
-  name: Malampa
-PAM:
+  comments: 
+PAM: !ruby/struct:ISO3166::Subdivision
+  name: Pénama
+  code: 
   unofficial_names:
   - Ambae-Maewo
   - Aoba-Maewo
   - Omba-Aurora
   - Omba-Maewo
   - Pentecost
+  geo:
+    latitude: -15.3795758
+    longitude: 167.9053182
+    min_latitude: -16.0129131
+    min_longitude: 167.6715374
+    max_latitude: -14.89196
+    max_longitude: 168.276847
   translations:
     en: Penama
     ar: مقاطعة بيناما
@@ -111,17 +122,19 @@ PAM:
     ccp: "\U0001111B\U0001112C\U0001111A\U0001111F\U00011134"
     uk: Провінція Пенама
     mk: Пенама
-  geo:
-    latitude: -15.3795758
-    longitude: 167.9053182
-    min_latitude: -16.0129131
-    min_longitude: 167.6715374
-    max_latitude: -14.89196
-    max_longitude: 168.276847
-  name: Pénama
-SAM:
+  comments: 
+SAM: !ruby/struct:ISO3166::Subdivision
+  name: Sanma
+  code: 
   unofficial_names:
   - Santo-Malo
+  geo:
+    latitude: -15.4840017
+    longitude: 166.9182097
+    min_latitude: -15.7510071
+    min_longitude: 166.5417588
+    max_latitude: -14.643453
+    max_longitude: 167.2973799
   translations:
     en: Sanma
     ar: سانما
@@ -168,19 +181,21 @@ SAM:
     ccp: "\U00011125\U0001111A\U00011134\U0001111F"
     uk: Провінція Санма
     mk: Санма
-  geo:
-    latitude: -15.4840017
-    longitude: 166.9182097
-    min_latitude: -15.7510071
-    min_longitude: 166.5417588
-    max_latitude: -14.643453
-    max_longitude: 167.2973799
-  name: Sanma
-SEE:
+  comments: 
+SEE: !ruby/struct:ISO3166::Subdivision
+  name: Shéfa
+  code: 
   unofficial_names:
   - Sandwich Island
   - Vaté
   - Éfaté
+  geo:
+    latitude: -17.6523412
+    longitude: 168.3387066
+    min_latitude: -17.8242832
+    min_longitude: 168.1203521
+    max_latitude: -16.567901
+    max_longitude: 168.6487059
   translations:
     en: Shefa
     ar: محافظة شييفا
@@ -225,16 +240,18 @@ SEE:
     zh: 谢法省
     ccp: "\U00011125\U0001112C\U0001111C"
     uk: Провінція Шефа
-  geo:
-    latitude: -17.6523412
-    longitude: 168.3387066
-    min_latitude: -17.8242832
-    min_longitude: 168.1203521
-    max_latitude: -16.567901
-    max_longitude: 168.6487059
-  name: Shéfa
-TAE:
+  comments: 
+TAE: !ruby/struct:ISO3166::Subdivision
+  name: Taféa
+  code: 
   unofficial_names: Taféa
+  geo:
+    latitude: -18.7237827
+    longitude: 169.0645056
+    min_latitude: -20.2504909
+    min_longitude: 168.9860777
+    max_latitude: -18.6213293
+    max_longitude: 170.237299
   translations:
     en: Tafea
     ar: مقاطعة تافيا
@@ -278,17 +295,19 @@ TAE:
     ceb: Tafea Province
     zh: 塔菲亚省
     ccp: "\U00011111\U0001111C\U00011128\U00011120"
-  geo:
-    latitude: -18.7237827
-    longitude: 169.0645056
-    min_latitude: -20.2504909
-    min_longitude: 168.9860777
-    max_latitude: -18.6213293
-    max_longitude: 170.237299
-  name: Taféa
-TOB:
+  comments: 
+TOB: !ruby/struct:ISO3166::Subdivision
+  name: Torba
+  code: 
   unofficial_names:
   - Banks-Torres
+  geo:
+    latitude: -14.28096
+    longitude: 167.5160788
+    min_latitude: -14.465699
+    min_longitude: 166.5435819
+    max_latitude: -13.0724554
+    max_longitude: 168.0674347
   translations:
     en: Torba
     ar: محافظة توربا
@@ -333,11 +352,4 @@ TOB:
     zh: 托尔巴省
     ccp: "\U00011111\U00011127\U00011122\U00011134\U0001111D"
     uk: Провінція Торба
-  geo:
-    latitude: -14.28096
-    longitude: 167.5160788
-    min_latitude: -14.465699
-    min_longitude: 166.5435819
-    max_latitude: -13.0724554
-    max_longitude: 168.0674347
-  name: Torba
+  comments: 

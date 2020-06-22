@@ -1,8 +1,8 @@
 ---
-DS:
+DS: !ruby/struct:ISO3166::Subdivision
+  name: Devonshire
+  code: 
   unofficial_names: Devonshire
-  translations:
-    en: Devonshire
   geo:
     latitude: 32.30278
     longitude: -64.75583
@@ -10,12 +10,13 @@ DS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Devonshire
-  comments: 
-GC:
-  unofficial_names: Saint George
   translations:
-    en: Saint George
+    en: Devonshire
+  comments: 
+GC: !ruby/struct:ISO3166::Subdivision
+  name: Saint George
+  code: 
+  unofficial_names: Saint George
   geo:
     latitude: 32.38417
     longitude: -64.67639
@@ -23,12 +24,13 @@ GC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint George
-  comments: 
-HA:
-  unofficial_names: Hamilton
   translations:
-    en: Hamilton
+    en: Saint George
+  comments: 
+HA: !ruby/struct:ISO3166::Subdivision
+  name: Hamilton
+  code: 
+  unofficial_names: Hamilton
   geo:
     latitude: 32.34222
     longitude: -64.72833
@@ -36,12 +38,13 @@ HA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hamilton
-  comments: 
-HC:
-  unofficial_names: Hamilton City
   translations:
-    en: Hamilton City
+    en: Hamilton
+  comments: 
+HC: !ruby/struct:ISO3166::Subdivision
+  name: Hamilton City
+  code: 
+  unofficial_names: Hamilton City
   geo:
     latitude: 32.29326
     longitude: -64.78063
@@ -49,12 +52,13 @@ HC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hamilton City
-  comments: 
-PB:
-  unofficial_names: Pembroke
   translations:
-    en: Pembroke
+    en: Hamilton City
+  comments: 
+PB: !ruby/struct:ISO3166::Subdivision
+  name: Pembroke
+  code: 
+  unofficial_names: Pembroke
   geo:
     latitude: 32.29944
     longitude: -64.79278
@@ -62,12 +66,13 @@ PB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Pembroke
-  comments: 
-PG:
-  unofficial_names: Paget
   translations:
-    en: Paget
+    en: Pembroke
+  comments: 
+PG: !ruby/struct:ISO3166::Subdivision
+  name: Paget
+  code: 
+  unofficial_names: Paget
   geo:
     latitude: 32.27833
     longitude: -64.78167
@@ -75,12 +80,13 @@ PG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Paget
-  comments: 
-SA:
-  unofficial_names: Sandys
   translations:
-    en: Sandys
+    en: Paget
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Sandys
+  code: 
+  unofficial_names: Sandys
   geo:
     latitude: 32.29345
     longitude: -64.86828
@@ -88,12 +94,13 @@ SA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Sandys
-  comments: 
-SG:
-  unofficial_names: Saint George's
   translations:
-    en: Saint George's
+    en: Sandys
+  comments: 
+SG: !ruby/struct:ISO3166::Subdivision
+  name: Saint George's
+  code: 
+  unofficial_names: Saint George's
   geo:
     latitude: 32.3726
     longitude: -64.69437
@@ -101,12 +108,13 @@ SG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saint George's
-  comments: 
-SH:
-  unofficial_names: Southampton
   translations:
-    en: Southampton
+    en: Saint George's
+  comments: 
+SH: !ruby/struct:ISO3166::Subdivision
+  name: Southampton
+  code: 
+  unofficial_names: Southampton
   geo:
     latitude: 32.25083
     longitude: -64.85639
@@ -114,12 +122,13 @@ SH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Southampton
-  comments: 
-SM:
-  unofficial_names: Smith's
   translations:
-    en: Smith's
+    en: Southampton
+  comments: 
+SM: !ruby/struct:ISO3166::Subdivision
+  name: Smith's
+  code: 
+  unofficial_names: Smith's
   geo:
     latitude: 32.31528
     longitude: -64.73528
@@ -127,12 +136,13 @@ SM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Smith's
-  comments: 
-WA:
-  unofficial_names: Warwick
   translations:
-    en: Warwick
+    en: Smith's
+  comments: 
+WA: !ruby/struct:ISO3166::Subdivision
+  name: Warwick
+  code: 
+  unofficial_names: Warwick
   geo:
     latitude: 32.26583
     longitude: -64.80722
@@ -140,5 +150,6 @@ WA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Warwick
+  translations:
+    en: Warwick
   comments: 

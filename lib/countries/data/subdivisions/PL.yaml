@@ -1,8 +1,17 @@
 ---
-DS:
+DS: !ruby/struct:ISO3166::Subdivision
+  name: Dolnośląskie
+  code: 
   unofficial_names:
   - dolnośląskie
   - Dolnośląskie
+  geo:
+    latitude: 51.13398609999999
+    longitude: 16.8841961
+    min_latitude: 50.09634
+    min_longitude: 14.816831
+    max_latitude: 51.8047592
+    max_longitude: 17.798917
   translations:
     en: Lower Silesian
     ar: محافظة سيليزيا السفلى
@@ -56,18 +65,20 @@ DS:
     vi: Dolnośląskie
     zh: 下西里西亚省
     ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120\U0001111A\U00011134"
-  geo:
-    latitude: 51.13398609999999
-    longitude: 16.8841961
-    min_latitude: 50.09634
-    min_longitude: 14.816831
-    max_latitude: 51.8047592
-    max_longitude: 17.798917
-  name: Dolnośląskie
-KP:
+  comments: 
+KP: !ruby/struct:ISO3166::Subdivision
+  name: Kujawsko-pomorskie
+  code: 
   unofficial_names:
   - kujawsko-pomorskie
   - Kujawsko-pomorskie
+  geo:
+    latitude: 53.1648363
+    longitude: 18.4834224
+    min_latitude: 52.33079
+    min_longitude: 17.2472674
+    max_latitude: 53.7809987
+    max_longitude: 19.7618466
   translations:
     en: Kuyavian-Pomerania
     af: Woiwodskap Kujawië-Pommere
@@ -121,18 +132,20 @@ KP:
     ur: کویاوی-پومرانیا صوبہ
     vi: Kujawsko-Pomorskie
     ccp: "\U00011107\U0001112A\U00011120\U0001111E\U00011128\U00011120\U0001112C\U0001111A\U00011134-\U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
-  geo:
-    latitude: 53.1648363
-    longitude: 18.4834224
-    min_latitude: 52.33079
-    min_longitude: 17.2472674
-    max_latitude: 53.7809987
-    max_longitude: 19.7618466
-  name: Kujawsko-pomorskie
-LU:
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: Lubelskie
+  code: 
   unofficial_names:
   - lubelskie
   - Lubelskie
+  geo:
+    latitude: 51.2493519
+    longitude: 23.1011392
+    min_latitude: 50.251603
+    min_longitude: 21.6171249
+    max_latitude: 52.2879201
+    max_longitude: 24.1458931
   translations:
     en: Lublin
     af: Woiwodskap Lublin
@@ -187,18 +200,20 @@ LU:
     ur: لوبلین صوبہ
     vi: Lubelskie
     ccp: "\U00011123\U0001112A\U0001111B\U00011134\U00011123\U00011128\U0001111A\U00011134"
-  geo:
-    latitude: 51.2493519
-    longitude: 23.1011392
-    min_latitude: 50.251603
-    min_longitude: 21.6171249
-    max_latitude: 52.2879201
-    max_longitude: 24.1458931
-  name: Lubelskie
-LB:
+  comments: 
+LB: !ruby/struct:ISO3166::Subdivision
+  name: Lubuskie
+  code: 
   unofficial_names:
   - lubuskie
   - Lubuskie
+  geo:
+    latitude: 52.2274612
+    longitude: 15.2559103
+    min_latitude: 51.363138
+    min_longitude: 14.534127
+    max_latitude: 53.1239582
+    max_longitude: 16.4163811
   translations:
     en: Lubusz
     ar: محافظة لوبوسكي
@@ -252,18 +267,20 @@ LB:
     ur: لوبوش صوبہ
     vi: Lubuskie
     ccp: "\U00011123\U0001111D\U0001112A\U0001110C\U00011134"
-  geo:
-    latitude: 52.2274612
-    longitude: 15.2559103
-    min_latitude: 51.363138
-    min_longitude: 14.534127
-    max_latitude: 53.1239582
-    max_longitude: 16.4163811
-  name: Lubuskie
-LD:
+  comments: 
+LD: !ruby/struct:ISO3166::Subdivision
+  name: Łódzkie
+  code: 
   unofficial_names:
   - łódzkie
   - Łódzkie
+  geo:
+    latitude: 51.4634771
+    longitude: 19.1726974
+    min_latitude: 50.8430329
+    min_longitude: 18.0750521
+    max_latitude: 52.3940561
+    max_longitude: 20.6591903
   translations:
     en: Łódź
     ar: محافظة وودج
@@ -315,18 +332,20 @@ LD:
     ur: ووچ صوبہ
     vi: Łódzkie
     ccp: "\U00011123\U00011127\U00011116\U00011134"
-  geo:
-    latitude: 51.4634771
-    longitude: 19.1726974
-    min_latitude: 50.8430329
-    min_longitude: 18.0750521
-    max_latitude: 52.3940561
-    max_longitude: 20.6591903
-  name: Łódzkie
-MA:
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Małopolskie
+  code: 
   unofficial_names:
   - małopolskie
   - Małopolskie
+  geo:
+    latitude: 49.72253060000001
+    longitude: 20.2503359
+    min_latitude: 49.1785791
+    min_longitude: 19.083192
+    max_latitude: 50.5200442
+    max_longitude: 21.4213826
   translations:
     en: Lesser Poland
     af: Woiwodskap Klein-Pole
@@ -380,18 +399,20 @@ MA:
     ur: اصغر پولینڈ صوبہ
     vi: Małopolskie
     ccp: "\U00011123\U0001112C\U00011125\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
-  geo:
-    latitude: 49.72253060000001
-    longitude: 20.2503359
-    min_latitude: 49.1785791
-    min_longitude: 19.083192
-    max_latitude: 50.5200442
-    max_longitude: 21.4213826
-  name: Małopolskie
-MZ:
+  comments: 
+MZ: !ruby/struct:ISO3166::Subdivision
+  name: Mazowieckie
+  code: 
   unofficial_names:
   - mazowieckie
   - Mazowieckie
+  geo:
+    latitude: 51.8927182
+    longitude: 21.0021679
+    min_latitude: 51.0132082
+    min_longitude: 19.2592569
+    max_latitude: 53.4818919
+    max_longitude: 23.1283212
   translations:
     en: Mazovia
     af: Woiwodskap Masowië
@@ -445,18 +466,20 @@ MZ:
     ur: صوبہ ماسووی
     vi: Mazowieckie
     ccp: "\U0001111F\U0001110E\U0001112E\U0001111E\U00011128\U00011120"
-  geo:
-    latitude: 51.8927182
-    longitude: 21.0021679
-    min_latitude: 51.0132082
-    min_longitude: 19.2592569
-    max_latitude: 53.4818919
-    max_longitude: 23.1283212
-  name: Mazowieckie
-OP:
+  comments: 
+OP: !ruby/struct:ISO3166::Subdivision
+  name: Opolskie
+  code: 
   unofficial_names:
   - opolskie
   - Opolskie
+  geo:
+    latitude: 50.8003761
+    longitude: 17.937989
+    min_latitude: 49.9725265
+    min_longitude: 16.9087264
+    max_latitude: 51.1945111
+    max_longitude: 18.6957862
   translations:
     en: Opole
     ar: محافظة أوبولي
@@ -509,18 +532,20 @@ OP:
     ur: اوپولے صوبہ
     vi: Opolskie
     ccp: "\U00011103\U0001112E\U0001111B\U0001112E\U00011123\U00011134"
-  geo:
-    latitude: 50.8003761
-    longitude: 17.937989
-    min_latitude: 49.9725265
-    min_longitude: 16.9087264
-    max_latitude: 51.1945111
-    max_longitude: 18.6957862
-  name: Opolskie
-PK:
+  comments: 
+PK: !ruby/struct:ISO3166::Subdivision
+  name: Podkarpackie
+  code: 
   unofficial_names:
   - podkarpackie
   - Podkarpackie
+  geo:
+    latitude: 50.0574749
+    longitude: 22.0895691
+    min_latitude: 49.0020252
+    min_longitude: 21.1423457
+    max_latitude: 50.8181161
+    max_longitude: 23.5476409
   translations:
     en: Subcarpathia
     af: Woiwodskap Subkarpate
@@ -574,18 +599,20 @@ PK:
     ur: پودکرپاسکیہ صوبہ
     vi: Podkarpackie
     ccp: "\U00011125\U0001111B\U00011134\U00011107\U00011122\U00011134\U0001111B\U00011117\U00011128\U00011120"
-  geo:
-    latitude: 50.0574749
-    longitude: 22.0895691
-    min_latitude: 49.0020252
-    min_longitude: 21.1423457
-    max_latitude: 50.8181161
-    max_longitude: 23.5476409
-  name: Podkarpackie
-PD:
+  comments: 
+PD: !ruby/struct:ISO3166::Subdivision
+  name: Podlaskie
+  code: 
   unofficial_names:
   - podlaskie
   - Podlaskie
+  geo:
+    latitude: 53.0697159
+    longitude: 22.9674639
+    min_latitude: 52.2800528
+    min_longitude: 21.5942443
+    max_latitude: 54.409889
+    max_longitude: 23.9462697
   translations:
     en: Podlaskie
     af: Woiwodskap Podlachië
@@ -639,18 +666,20 @@ PD:
     ur: پودلاسکیہ صوبہ
     vi: Podlaskie
     ccp: "\U0001111B\U00011116\U00011134\U00011123\U0001110C\U00011134\U00011107\U00011128"
-  geo:
-    latitude: 53.0697159
-    longitude: 22.9674639
-    min_latitude: 52.2800528
-    min_longitude: 21.5942443
-    max_latitude: 54.409889
-    max_longitude: 23.9462697
-  name: Podlaskie
-PM:
+  comments: 
+PM: !ruby/struct:ISO3166::Subdivision
+  name: Pomorskie
+  code: 
   unofficial_names:
   - pomorskie
   - Pomorskie
+  geo:
+    latitude: 54.2944252
+    longitude: 18.1531164
+    min_latitude: 53.49067179999999
+    min_longitude: 16.699129
+    max_latitude: 54.83572969999999
+    max_longitude: 19.6493699
   translations:
     en: Federal Capital Territory
     af: Woiwodskap Pommere
@@ -704,18 +733,20 @@ PM:
     vi: Pomorskie
     ccp: "\U0001111C\U0001112C\U00011113\U00011122\U0001112C\U00011123\U00011134 \U00011107\U00011133\U00011120\U0001111B\U00011128\U00011111\U00011123\U00011134
       \U00011111\U0001112C\U00011122\U00011128\U00011111\U00011127\U00011122\U00011128"
-  geo:
-    latitude: 54.2944252
-    longitude: 18.1531164
-    min_latitude: 53.49067179999999
-    min_longitude: 16.699129
-    max_latitude: 54.83572969999999
-    max_longitude: 19.6493699
-  name: Pomorskie
-SL:
+  comments: 
+SL: !ruby/struct:ISO3166::Subdivision
+  name: Śląskie
+  code: 
   unofficial_names:
   - śląskie
   - Śląskie
+  geo:
+    latitude: 50.5716595
+    longitude: 19.3219768
+    min_latitude: 49.393975
+    min_longitude: 18.03475
+    max_latitude: 51.0993559
+    max_longitude: 19.9739915
   translations:
     en: Silesia
     ar: محافظة سيليزيا
@@ -768,18 +799,20 @@ SL:
     ur: سیلیزیا صوبہ
     vi: Śląskie
     ccp: "\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
-  geo:
-    latitude: 50.5716595
-    longitude: 19.3219768
-    min_latitude: 49.393975
-    min_longitude: 18.03475
-    max_latitude: 51.0993559
-    max_longitude: 19.9739915
-  name: Śląskie
-SK:
+  comments: 
+SK: !ruby/struct:ISO3166::Subdivision
+  name: Świętokrzyskie
+  code: 
   unofficial_names:
   - świętokrzyskie
   - Świętokrzyskie
+  geo:
+    latitude: 50.6261041
+    longitude: 20.9406279
+    min_latitude: 50.1855379
+    min_longitude: 19.7044002
+    max_latitude: 51.3421558
+    max_longitude: 21.8703061
   translations:
     en: Świętokrzyskie
     ar: محافظة شفينتوكشيسكي
@@ -831,18 +864,20 @@ SK:
     ur: شوئینتوشوسکیہ صوبہ
     vi: Świętokrzyskie
     ccp: "\U00011125\U0001112A\U00011103\U00011128\U00011111\U0001112E\U00011107\U00011133\U00011122\U0001112D\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011128"
-  geo:
-    latitude: 50.6261041
-    longitude: 20.9406279
-    min_latitude: 50.1855379
-    min_longitude: 19.7044002
-    max_latitude: 51.3421558
-    max_longitude: 21.8703061
-  name: Świętokrzyskie
-WN:
+  comments: 
+WN: !ruby/struct:ISO3166::Subdivision
+  name: Warmińsko-mazurskie
+  code: 
   unofficial_names:
   - warmińsko-mazurskie
   - Warmińsko-mazurskie
+  geo:
+    latitude: 53.8671117
+    longitude: 20.702786
+    min_latitude: 53.1399971
+    min_longitude: 19.128516
+    max_latitude: 54.4533097
+    max_longitude: 22.8058724
   translations:
     en: Warmian-Masuria
     ar: محافظة فارميا-مازوريا
@@ -894,18 +929,20 @@ WN:
     ur: وارمیا-ماسوریا صوبہ
     vi: Warmińsko-Mazurskie
     ccp: "\U00011124\U00011122\U00011134\U0001111F\U00011128\U00011120\U0001111A\U00011134-\U0001111F\U00011125\U0001112A\U00011122\U00011128\U00011120"
-  geo:
-    latitude: 53.8671117
-    longitude: 20.702786
-    min_latitude: 53.1399971
-    min_longitude: 19.128516
-    max_latitude: 54.4533097
-    max_longitude: 22.8058724
-  name: Warmińsko-mazurskie
-WP:
+  comments: 
+WP: !ruby/struct:ISO3166::Subdivision
+  name: Wielkopolskie
+  code: 
   unofficial_names:
   - wielkopolskie
   - Wielkopolskie
+  geo:
+    latitude: 52.279986
+    longitude: 17.3522939
+    min_latitude: 51.1037882
+    min_longitude: 15.7789647
+    max_latitude: 53.6559175
+    max_longitude: 19.103349
   translations:
     en: Greater Poland
     af: Woiwodskap Groot-Pole
@@ -959,18 +996,20 @@ WP:
     ur: اکبر پولینڈ صوبہ
     vi: Wielkopolskie
     ccp: "\U00011109\U00011133\U00011122\U0001112C\U00011111\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
-  geo:
-    latitude: 52.279986
-    longitude: 17.3522939
-    min_latitude: 51.1037882
-    min_longitude: 15.7789647
-    max_latitude: 53.6559175
-    max_longitude: 19.103349
-  name: Wielkopolskie
-ZP:
+  comments: 
+ZP: !ruby/struct:ISO3166::Subdivision
+  name: Zachodniopomorskie
+  code: 
   unofficial_names:
   - zachodniopomorskie
   - Zachodniopomorskie
+  geo:
+    latitude: 53.46578909999999
+    longitude: 15.1822581
+    min_latitude: 52.62466939999999
+    min_longitude: 14.1223531
+    max_latitude: 54.5690916
+    max_longitude: 16.9822089
   translations:
     en: West Pomerania
     af: Woiwodskap Wes-Pommere
@@ -1025,15 +1064,14 @@ ZP:
     ur: مغربی پومرانیا صوبہ
     vi: Zachodniopomorskie
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 53.46578909999999
-    longitude: 15.1822581
-    min_latitude: 52.62466939999999
-    min_longitude: 14.1223531
-    max_latitude: 54.5690916
-    max_longitude: 16.9822089
-  name: Zachodniopomorskie
-'02':
+    latitude: 52.1568773
+    longitude: 21.0046175
   translations:
     lv: Lejassilēzijas vojevodiste
     mr: डॉल्नोश्लोंस्का प्रांत
@@ -1087,7 +1125,12 @@ ZP:
     be: Ніжнесілезскае ваяводства
     th: จังหวัดดอลนือชล็อนสก์
     bg: Долносилезко войводство
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Kujāvijas-Pomožes vojevodiste
     mr: कुयास्को-पोमोर्स्का प्रांत
@@ -1141,7 +1184,14 @@ ZP:
     ca: Voivodat de Cuiàvia i Pomerània
     be: Куяўска-Паморскае ваяводства
     th: จังหวัดกูยาวือ-ปอมอแช
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.2143217
+    longitude: 21.0210792
   translations:
     lv: Ļubļinas vojevodiste
     mr: लुबेल्स्का प्रांत
@@ -1196,7 +1246,12 @@ ZP:
     ca: Voivodat de Lublin
     be: Люблінскае ваяводства
     th: จังหวัดลูบลิน
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     lv: Lubušas vojevodiste
     mr: लुबुस्का प्रांत
@@ -1250,7 +1305,14 @@ ZP:
     ca: Voivodat de Lubusz
     be: Любушскае ваяводства
     th: จังหวัดลูบุช
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.78816550000001
+    longitude: 19.3379
   translations:
     lv: Lodzas vojevodiste
     mr: वूत्श्का प्रांत
@@ -1302,7 +1364,14 @@ ZP:
     ca: Voivodat de Łódź
     be: Лодзьскае ваяводства
     th: จังหวัดวูช
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.8581059
+    longitude: 19.3839453
   translations:
     lv: Mazpolijas vojevodiste
     mr: मावोपोल्स्का प्रांत
@@ -1356,7 +1425,14 @@ ZP:
     ca: Voivodat de Petita Polònia
     be: Малапольскае ваяводства
     th: จังหวัดมาวอปอลสกา
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.178726
+    longitude: 20.998474
   translations:
     lv: Mazovijas vojevodiste
     mr: माझोव्येत्स्का प्रांत
@@ -1410,7 +1486,14 @@ ZP:
     ca: Voivodat de Masòvia
     be: Мазавецкае ваяводства
     th: จังหวัดมาซอฟแช
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.720944
+    longitude: 19.481547
   translations:
     lv: Opoles vojevodiste
     mr: ओपोल्स्का प्रांत
@@ -1463,7 +1546,14 @@ ZP:
     ca: Voivodat d’Opole
     be: Апольскае ваяводства
     th: จังหวัดออปอแล
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.849173
+    longitude: 16.604505
   translations:
     lv: Piekarpatu vojevodiste
     mr: पोट्कर्पाट्स्का प्रांत
@@ -1517,7 +1607,14 @@ ZP:
     ca: Voivodat de Subcarpàcia
     be: Падкарпацкае ваяводства
     th: จังหวัดปอตการ์ปาแช
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.76589269999999
+    longitude: 19.463583
   translations:
     lv: Podlases vojevodiste
     mr: पोडाल्स्का प्रांत
@@ -1571,7 +1668,14 @@ ZP:
     ca: Voivodat de Podlàquia
     be: Падляскае ваяводства
     th: จังหวัดปอดลาแช
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 50.8711835
+    longitude: 20.6459998
   translations:
     lv: Pomožes vojevodiste
     mr: पोमोर्स्का प्रांत
@@ -1624,7 +1728,14 @@ ZP:
     ca: Voivodat de Pomerània
     be: Паморскае ваяводства
     th: จังหวัดปอมอแช
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.4666001
+    longitude: 21.8176671
   translations:
     lv: Silēzijas vojevodiste
     mr: श्लोंस्का प्रांत
@@ -1677,7 +1788,14 @@ ZP:
     ca: Voivodat de Silèsia
     be: Сілезскае ваяводства
     th: จังหวัดชล็อนสก์
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.0598782
+    longitude: 19.2015636
   translations:
     lv: Sventokšiskas vojevodiste
     mr: श्वेंतोकशिस्का प्रांत
@@ -1729,7 +1847,14 @@ ZP:
     ca: Voivodat de Santa Creu
     be: Свентакшыскае ваяводства
     th: จังหวัดชฟีแยนตือ-กชึช
-'28':
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9304476
+    longitude: 19.4454161
   translations:
     lv: Varmijas-Mazūrijas vojevodiste
     mr: वार्मिन्स्को-माझुर्स्का प्रांत
@@ -1781,7 +1906,14 @@ ZP:
     ca: Voivodat de Warmia i Mazury
     be: Вармінска-Мазурскае ваяводства
     th: จังหวัดวาร์เมีย-มาซูรือ
-'30':
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9588171
+    longitude: 19.289346
   translations:
     lv: Lielpolijas vojevodiste
     mr: व्यील्कोपाल्स्का प्रांत
@@ -1837,7 +1969,14 @@ ZP:
     ca: Voivodat de Gran Polònia
     be: Велікапольскае ваяводства
     th: จังหวัดวีแยลกอปอลสกา
-'32':
+  comments: 
+'32': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9588171
+    longitude: 19.289346
   translations:
     lv: Rietumpomožes vojevodiste
     mr: झाखोज्ञोपोमोर्स्का प्रांत
@@ -1894,3 +2033,4 @@ ZP:
     ca: Voivodat de Pomerània Occidental
     be: Заходнепаморскае ваяводства
     th: จังหวัดปอมอแชซาคอดแญ
+  comments: 

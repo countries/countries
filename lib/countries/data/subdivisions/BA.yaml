@@ -1,6 +1,15 @@
 ---
-BIH:
+BIH: !ruby/struct:ISO3166::Subdivision
+  name: Federacija Bosna i Hercegovina
+  code: 
   unofficial_names: Federacija Bosna i Hercegovina
+  geo:
+    latitude: 43.8874897
+    longitude: 17.842793
+    min_latitude: 42.6075035
+    min_longitude: 15.7237473
+    max_latitude: 45.2271323
+    max_longitude: 19.0392512
   translations:
     en: Federation of Bosnia and Herzegovina
     ar: اتحاد البوسنة والهرسك
@@ -54,16 +63,18 @@ BIH:
     kk: Босния және Герцеговина федерациясы
     bs: Federacija Bosne i Hercegovine
     mk: Федерација Босна и Херцеговина
-  geo:
-    latitude: 43.8874897
-    longitude: 17.842793
-    min_latitude: 42.6075035
-    min_longitude: 15.7237473
-    max_latitude: 45.2271323
-    max_longitude: 19.0392512
-  name: Federacija Bosna i Hercegovina
-SRP:
+  comments: 
+SRP: !ruby/struct:ISO3166::Subdivision
+  name: Republika Srpska
+  code: 
   unofficial_names: Republika Srpska
+  geo:
+    latitude: 44.7280186
+    longitude: 17.3148136
+    min_latitude: 42.5561996
+    min_longitude: 16.1924385
+    max_latitude: 45.2737124
+    max_longitude: 19.6256174
   translations:
     en: Republika Srpska
     ar: جمهورية صرب البوسنة
@@ -124,16 +135,18 @@ SRP:
     yo: Sérbíà Orílẹ̀-èdè Olómìnira
     bs: Republika Srpska
     mk: Република Српска
-  geo:
-    latitude: 44.7280186
-    longitude: 17.3148136
-    min_latitude: 42.5561996
-    min_longitude: 16.1924385
-    max_latitude: 45.2737124
-    max_longitude: 19.6256174
-  name: Republika Srpska
-BRC:
+  comments: 
+BRC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة برتشو
     be: Акруга Брчко
@@ -194,6 +207,11 @@ BRC:
     sl: Distrikt Brčko
     bs: Brčko Distrikt
     mk: Брчко
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -201,11 +219,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'01':
-  unofficial_names: 
   translations:
     en: Una-Sana
     ccp: "\U00011105\U0001112A\U0001111A-\U00011125\U0001111A"
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -213,11 +234,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     en: Posavina
     ccp: "\U0001111B\U00011127\U00011125\U0001111E\U00011128\U0001111A"
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -225,11 +249,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     en: Tuzlanski
     ccp: "\U00011111\U0001112A\U0001110C\U00011134\U00011123\U0001111A\U00011134\U00011107\U00011128"
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -237,11 +264,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     en: Zenica-Doboj
     ccp: "\U0001110E\U0001112C\U0001111A\U00011128\U00011107-\U00011113\U00011127\U0001111D\U00011127\U0001110C\U00011134"
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -249,12 +279,15 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     en: Bosnian Podrinje
     ccp: "\U0001111D\U00011127\U0001110C\U00011134\U0001111A\U00011128\U00011120\U0001111A\U00011134
       \U0001111B\U00011127\U00011116\U00011134\U00011122\U00011128\U0001111A\U00011134\U0001110E\U0001112C"
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -262,11 +295,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'06':
-  unofficial_names: 
   translations:
     en: Central Bosnia
     ccp: "\U0001111F\U00011127\U0001110C\U00011134\U00011119\U00011133\U00011120 \U0001111D\U00011127\U0001110C\U00011134\U0001111A\U00011128\U00011120"
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -274,11 +310,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'07':
-  unofficial_names: 
   translations:
     en: Herzegovina-Neretva
     ccp: "\U00011126\U00011122\U00011134\U0001110E\U0001112C\U00011109\U00011127\U0001111E\U00011128\U0001111A-\U0001111A\U0001112C\U00011122\U0001112C\U00011116\U00011134\U0001111E"
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -286,11 +325,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'08':
-  unofficial_names: 
   translations:
     en: West Herzegovina
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011126\U00011122\U00011134\U0001110E\U0001112C\U00011109\U00011127\U0001111E\U00011128\U0001111A"
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -298,11 +340,14 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'09':
-  unofficial_names: 
   translations:
     en: Sarajevo
     ccp: "\U00011125\U00011122\U0001110E\U0001112C\U0001111E\U0001112E"
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -310,15 +355,7 @@ BRC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'10':
-  unofficial_names: 
   translations:
     en: Livanjski
     ccp: "\U00011123\U00011128\U0001111E\U00011127\U0001111A\U00011134\U00011107\U00011128"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

@@ -1,8 +1,8 @@
 ---
-SG-01:
+SG-01: !ruby/struct:ISO3166::Subdivision
+  name: Central Singapore
+  code: 
   unofficial_names: Central Singapore
-  translations:
-    en: Central Singapore
   geo:
     latitude: 1.3418329
     longitude: 103.8608764
@@ -10,11 +10,13 @@ SG-01:
     min_longitude: 103.8230134
     max_latitude: 1.3948174
     max_longitude: 103.86428
-  name: Central Singapore
-SG-02:
-  unofficial_names: North East
   translations:
-    en: North East
+    en: Central Singapore
+  comments: 
+SG-02: !ruby/struct:ISO3166::Subdivision
+  name: North East
+  code: 
+  unofficial_names: North East
   geo:
     latitude: 1.352083
     longitude: 103.819836
@@ -22,11 +24,13 @@ SG-02:
     min_longitude: 103.6055448
     max_latitude: 1.4707592
     max_longitude: 104.0884808
-  name: North East
-SG-03:
-  unofficial_names: North West
   translations:
-    en: North West
+    en: North East
+  comments: 
+SG-03: !ruby/struct:ISO3166::Subdivision
+  name: North West
+  code: 
+  unofficial_names: North West
   geo:
     latitude: 1.3537604
     longitude: 103.7107653
@@ -34,11 +38,27 @@ SG-03:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: North West
-SG-04:
+  translations:
+    en: North West
+  comments: 
+SG-04: !ruby/struct:ISO3166::Subdivision
+  name: South East
+  code: 
   unofficial_names: South East
+  geo:
+    latitude: 1.352083
+    longitude: 103.819836
+    min_latitude: 1.1587023
+    min_longitude: 103.6055448
+    max_latitude: 1.4707592
+    max_longitude: 104.0884808
   translations:
     en: South East
+  comments: 
+SG-05: !ruby/struct:ISO3166::Subdivision
+  name: South West
+  code: 
+  unofficial_names: South West
   geo:
     latitude: 1.352083
     longitude: 103.819836
@@ -46,21 +66,20 @@ SG-04:
     min_longitude: 103.6055448
     max_latitude: 1.4707592
     max_longitude: 104.0884808
-  name: South East
-SG-05:
-  unofficial_names: South West
   translations:
     en: South West
-  geo:
-    latitude: 1.352083
-    longitude: 103.819836
-    min_latitude: 1.1587023
-    min_longitude: 103.6055448
-    max_latitude: 1.4707592
-    max_longitude: 104.0884808
-  name: South West
-'01':
+  comments: 
+'01': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     de: Central Singapore District
     en: Central Singapore
@@ -73,6 +92,11 @@ SG-05:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
       \U00011125\U00011128\U00011101\U00011109\U0001111B\U0001112A\U00011122\U00011134"
     fr: Singapour central
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -80,8 +104,6 @@ SG-05:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'04':
-  unofficial_names: 
   translations:
     de: Südost
     en: South East
@@ -93,6 +115,11 @@ SG-05:
     zh: 东南社区发展理事会
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
     fr: District du Sud-Est
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -100,8 +127,6 @@ SG-05:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'05':
-  unofficial_names: 
   translations:
     de: South West Singapore District
     en: South West
@@ -113,6 +138,11 @@ SG-05:
     zh: 西南社区发展理事会
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     fr: District du Sud-Ouest
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -120,8 +150,6 @@ SG-05:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'02':
-  unofficial_names: 
   translations:
     en: North East
     es: Consejo del Noreste (Singapur)
@@ -135,6 +163,11 @@ SG-05:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U0001111B\U0001112A\U00011107\U00011134"
     fr: District du Nord-Est
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -142,8 +175,6 @@ SG-05:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'03':
-  unofficial_names: 
   translations:
     en: North West
     es: Consejo del Noroeste (Singapur)
@@ -155,10 +186,4 @@ SG-05:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     fr: District du Nord-Ouest
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

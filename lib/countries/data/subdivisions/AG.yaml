@@ -1,6 +1,15 @@
 ---
-'03':
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Saint George
+  code: 
   unofficial_names: Saint George
+  geo:
+    latitude: 17.1078489
+    longitude: -61.7882743
+    min_latitude: 17.0828211
+    min_longitude: -61.8104881
+    max_latitude: 17.1695276
+    max_longitude: -61.74657209999999
   translations:
     en: Saint George
     ar: أبرشية القديس جورج
@@ -43,17 +52,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U00011122\U00011133\U0001110E\U00011134"
     uk: Парафія Сент-Джордж
     ca: Parròquia de Saint George
-  geo:
-    latitude: 17.1078489
-    longitude: -61.7882743
-    min_latitude: 17.0828211
-    min_longitude: -61.8104881
-    max_latitude: 17.1695276
-    max_longitude: -61.74657209999999
-  name: Saint George
   comments: 
-'04':
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Saint John’s
+  code: 
   unofficial_names: Saint John’s
+  geo:
+    latitude: 17.116667
+    longitude: -61.84999999999999
+    min_latitude: 17.1079801
+    min_longitude: -61.8614586
+    max_latitude: 17.1409954
+    max_longitude: -61.8271922
   translations:
     en: Saint John
     de: Saint John
@@ -81,17 +91,18 @@
     ja: セント・ジョン教区
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U0001111A\U00011134"
     ca: Parròquia de Saint John
-  geo:
-    latitude: 17.116667
-    longitude: -61.84999999999999
-    min_latitude: 17.1079801
-    min_longitude: -61.8614586
-    max_latitude: 17.1409954
-    max_longitude: -61.8271922
-  name: Saint John’s
   comments: 
-'05':
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Saint Mary
+  code: 
   unofficial_names: Saint Mary
+  geo:
+    latitude: 17.0512064
+    longitude: -61.87602829999999
+    min_latitude: 17.0037693
+    min_longitude: -61.905935
+    max_latitude: 17.105279
+    max_longitude: -61.805473
   translations:
     en: Saint Mary
     ar: أبرشية سانت ماري
@@ -135,17 +146,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111F\U0001112C\U00011122\U00011128"
     uk: Парафія Сент-Мері
     ca: Parròquia de Saint Mary
-  geo:
-    latitude: 17.0512064
-    longitude: -61.87602829999999
-    min_latitude: 17.0037693
-    min_longitude: -61.905935
-    max_latitude: 17.105279
-    max_longitude: -61.805473
-  name: Saint Mary
   comments: 
-'06':
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Saint Paul
+  code: 
   unofficial_names: Saint Paul
+  geo:
+    latitude: 17.0371588
+    longitude: -61.7824256
+    min_latitude: 16.99795
+    min_longitude: -61.81293110000001
+    max_latitude: 17.065935
+    max_longitude: -61.73061
   translations:
     en: Saint Paul
     ar: أبرشية القديس بول
@@ -188,17 +200,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111B\U00011127\U00011123\U00011134"
     uk: Парафія Сент-Пол
     ca: Parròquia de Saint Paul
-  geo:
-    latitude: 17.0371588
-    longitude: -61.7824256
-    min_latitude: 16.99795
-    min_longitude: -61.81293110000001
-    max_latitude: 17.065935
-    max_longitude: -61.73061
-  name: Saint Paul
   comments: 
-'07':
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Saint Peter
+  code: 
   unofficial_names: Saint Peter
+  geo:
+    latitude: 17.0980665
+    longitude: -61.75903289999999
+    min_latitude: 17.062068
+    min_longitude: -61.787629
+    max_latitude: 17.1485654
+    max_longitude: -61.71377
   translations:
     en: Saint Peter
     ar: أبرشية القديس بيتر
@@ -241,17 +254,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111B\U00011128\U00011111\U00011122\U00011134"
     uk: Парафія Сент-Пітер
     ca: Parròquia de Saint Peter
-  geo:
-    latitude: 17.0980665
-    longitude: -61.75903289999999
-    min_latitude: 17.062068
-    min_longitude: -61.787629
-    max_latitude: 17.1485654
-    max_longitude: -61.71377
-  name: Saint Peter
   comments: 
-'08':
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Saint Philip
+  code: 
   unofficial_names: Saint Philip
+  geo:
+    latitude: 17.0480636
+    longitude: -61.71225699999999
+    min_latitude: 17.0310207
+    min_longitude: -61.74468299999999
+    max_latitude: 17.1040329
+    max_longitude: -61.660976
   translations:
     en: Saint Philip
     ar: أبرشية سانت فيليب، أنتيغوا وبربودا
@@ -294,17 +308,18 @@
     ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111C\U00011128\U00011123\U00011128\U0001111B\U00011134"
     uk: Парафія Сент-Філіп
     ca: Parròquia de Saint Philip
-  geo:
-    latitude: 17.0480636
-    longitude: -61.71225699999999
-    min_latitude: 17.0310207
-    min_longitude: -61.74468299999999
-    max_latitude: 17.1040329
-    max_longitude: -61.660976
-  name: Saint Philip
   comments: 
-'10':
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Barbuda
+  code: 
   unofficial_names: Barbuda
+  geo:
+    latitude: 17.626798
+    longitude: -61.7707288
+    min_latitude: 17.5437252
+    min_longitude: -61.885789
+    max_latitude: 17.7293354
+    max_longitude: -61.7318075
   translations:
     en: Barbuda
     ar: بربودا
@@ -362,19 +377,11 @@
     yue: 巴布達島
     yo: Bàrbúdà
     mk: Барбуда
-  geo:
-    latitude: 17.626798
-    longitude: -61.7707288
-    min_latitude: 17.5437252
-    min_longitude: -61.885789
-    max_latitude: 17.7293354
-    max_longitude: -61.7318075
-  name: Barbuda
   comments: 
-X2~:
+X2~: !ruby/struct:ISO3166::Subdivision
+  name: Redonda
+  code: 
   unofficial_names: Redonda
-  translations:
-    en: Redonda
   geo:
     latitude: 16.938416
     longitude: -62.3455148
@@ -382,10 +389,20 @@ X2~:
     min_longitude: -62.347657
     max_latitude: 16.9430241
     max_longitude: -62.342078
-  name: Redonda
+  translations:
+    en: Redonda
   comments: 
-'11':
+'11': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ريدوندا
     be: Востраў Рэдонда
@@ -438,10 +455,4 @@ X2~:
     ga: Redonda
     kk: Редонда
     mk: Редонда
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

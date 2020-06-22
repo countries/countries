@@ -1,7 +1,16 @@
 ---
-BC:
+BC: !ruby/struct:ISO3166::Subdivision
+  name: Bas-Congo
+  code: 
   unofficial_names:
   - Bas-Zaire
+  geo:
+    latitude: -5.2365685
+    longitude: 13.914399
+    min_latitude: -6.0573001
+    min_longitude: 12.206631
+    max_latitude: -4.279237999999999
+    max_longitude: 16.2585949
   translations:
     en: Bas-Congo
     ar: الكونغو الوسطى
@@ -53,19 +62,11 @@ BC:
     hy: Ներքին Կոնգո
     ca: Província del Baix Congo
     mk: Долно Конго
-  geo:
-    latitude: -5.2365685
-    longitude: 13.914399
-    min_latitude: -6.0573001
-    min_longitude: 12.206631
-    max_latitude: -4.279237999999999
-    max_longitude: 16.2585949
-  name: Bas-Congo
-BN:
+  comments: 
+BN: !ruby/struct:ISO3166::Subdivision
+  name: Bandundu
+  code: 
   unofficial_names: Bandundu
-  translations:
-    en: Bandundu
-    ccp: "\U0001111D\U0001111A\U00011134\U00011118\U0001112A\U0001111A\U00011134\U00011113\U0001112A"
   geo:
     latitude: -3.316667
     longitude: 17.366667
@@ -73,9 +74,21 @@ BN:
     min_longitude: 17.3576054
     max_latitude: -3.2987836
     max_longitude: 17.4044975
-  name: Bandundu
-EQ:
+  translations:
+    en: Bandundu
+    ccp: "\U0001111D\U0001111A\U00011134\U00011118\U0001112A\U0001111A\U00011134\U00011113\U0001112A"
+  comments: 
+EQ: !ruby/struct:ISO3166::Subdivision
+  name: Équateur
+  code: 
   unofficial_names: Équateur
+  geo:
+    latitude: 0.5640035999999999
+    longitude: 20.3308814
+    min_latitude: -2.529217
+    min_longitude: 16.5381639
+    max_latitude: 5.14574
+    max_longitude: 24.4267169
   translations:
     en: Équateur
     ar: إكواتور
@@ -121,20 +134,12 @@ EQ:
     fa: ایکواته
     ccp: "\U00011103\U00011128\U00011107\U00011131\U00011111\U0001112C\U00011105\U0001112A\U00011122\U00011134"
     uk: Екватор (Екваторіальна провінція)
-  geo:
-    latitude: 0.5640035999999999
-    longitude: 20.3308814
-    min_latitude: -2.529217
-    min_longitude: 16.5381639
-    max_latitude: 5.14574
-    max_longitude: 24.4267169
-  name: Équateur
-KA:
+  comments: 
+KA: !ruby/struct:ISO3166::Subdivision
+  name: Katanga
+  code: 
   unofficial_names:
   - Shaba
-  translations:
-    en: Katanga
-    ccp: "\U00011107\U00011111\U0001110B\U00011134\U00011109"
   geo:
     latitude: -8.8851145
     longitude: 26.419389
@@ -142,9 +147,21 @@ KA:
     min_longitude: 21.744753
     max_latitude: -4.999066
     max_longitude: 30.5928848
-  name: Katanga
-KE:
+  translations:
+    en: Katanga
+    ccp: "\U00011107\U00011111\U0001110B\U00011134\U00011109"
+  comments: 
+KE: !ruby/struct:ISO3166::Subdivision
+  name: Kasai-Oriental
+  code: 
   unofficial_names: Kasai-Oriental
+  geo:
+    latitude: -2.8437453
+    longitude: 23.3823545
+    min_latitude: -7.9387741
+    min_longitude: 21.9100151
+    max_latitude: -1.738482
+    max_longitude: 26.265937
   translations:
     en: Kasaï-Oriental
     ar: كاساي الشرقية
@@ -193,16 +210,18 @@ KE:
     fa: کاسای
     ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     hy: Արևելյան Կասայ
-  geo:
-    latitude: -2.8437453
-    longitude: 23.3823545
-    min_latitude: -7.9387741
-    min_longitude: 21.9100151
-    max_latitude: -1.738482
-    max_longitude: 26.265937
-  name: Kasai-Oriental
-KN:
+  comments: 
+KN: !ruby/struct:ISO3166::Subdivision
+  name: Kinshasa
+  code: 
   unofficial_names: Kinshasa
+  geo:
+    latitude: -4.325
+    longitude: 15.322222
+    min_latitude: -4.5093664
+    min_longitude: 15.1764986
+    max_latitude: -4.2934483
+    max_longitude: 15.4694102
   translations:
     en: Kinshasa
     af: Kinshasa
@@ -283,19 +302,11 @@ KN:
     uz: Kinshasa
     bs: Kinshasa
     mk: Киншаса
-  geo:
-    latitude: -4.325
-    longitude: 15.322222
-    min_latitude: -4.5093664
-    min_longitude: 15.1764986
-    max_latitude: -4.2934483
-    max_longitude: 15.4694102
-  name: Kinshasa
-KW:
+  comments: 
+KW: !ruby/struct:ISO3166::Subdivision
+  name: Kasai-Occidental
+  code: 
   unofficial_names: Kasai-Occidental
-  translations:
-    en: Kasaï-Occidental
-    ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
   geo:
     latitude: -5.320547299999999
     longitude: 21.8568586
@@ -303,9 +314,21 @@ KW:
     min_longitude: 19.6801381
     max_latitude: -2.338351
     max_longitude: 23.742881
-  name: Kasai-Occidental
-MA:
+  translations:
+    en: Kasaï-Occidental
+    ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Maniema
+  code: 
   unofficial_names: Maniema
+  geo:
+    latitude: -3.0730929
+    longitude: 26.0413889
+    min_latitude: -5.000742499999999
+    min_longitude: 24.456906
+    max_latitude: -0.082443
+    max_longitude: 28.8420401
   translations:
     en: Maniema
     ar: مانيما
@@ -354,16 +377,18 @@ MA:
     zh: 马涅马省
     ccp: "\U0001111F\U0001111A\U00011128\U00011120\U0001112C\U0001111F"
     he: מניימה
-  geo:
-    latitude: -3.0730929
-    longitude: 26.0413889
-    min_latitude: -5.000742499999999
-    min_longitude: 24.456906
-    max_latitude: -0.082443
-    max_longitude: 28.8420401
-  name: Maniema
-NK:
+  comments: 
+NK: !ruby/struct:ISO3166::Subdivision
+  name: Nord-Kivu
+  code: 
   unofficial_names: Nord-Kivu
+  geo:
+    latitude: -0.7917729
+    longitude: 29.0459927
+    min_latitude: -2.0661759
+    min_longitude: 27.201624
+    max_latitude: 0.9623669
+    max_longitude: 29.984388
   translations:
     en: North Kivu
     ar: كيفو الشمالية
@@ -415,21 +440,13 @@ NK:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011107\U00011128\U0001111E\U0001112A"
     az: Şimali Kivu
-  geo:
-    latitude: -0.7917729
-    longitude: 29.0459927
-    min_latitude: -2.0661759
-    min_longitude: 27.201624
-    max_latitude: 0.9623669
-    max_longitude: 29.984388
-  name: Nord-Kivu
-OR:
+  comments: 
+OR: !ruby/struct:ISO3166::Subdivision
+  name: Orientale
+  code: 
   unofficial_names:
   - Haut-Zaire
   - Orientale
-  translations:
-    en: Orientale
-    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
   geo:
     latitude: 1.6406296
     longitude: 26.419389
@@ -437,9 +454,21 @@ OR:
     min_longitude: 22.2904529
     max_latitude: 5.386098
     max_longitude: 31.2769461
-  name: Orientale
-SK:
+  translations:
+    en: Orientale
+    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
+  comments: 
+SK: !ruby/struct:ISO3166::Subdivision
+  name: Sud-Kivu
+  code: 
   unofficial_names: Sud-Kivu
+  geo:
+    latitude: -3.011658
+    longitude: 28.299435
+    min_latitude: -4.9999781
+    min_longitude: 26.798393
+    max_latitude: -1.568222
+    max_longitude: 29.2644927
   translations:
     en: South Kivu
     ar: كيفو الجنوبية
@@ -489,16 +518,18 @@ SK:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U00011128\U0001111E\U0001112A"
     uz: Janubiy Kivu
     mk: Јужно Киву
-  geo:
-    latitude: -3.011658
-    longitude: 28.299435
-    min_latitude: -4.9999781
-    min_longitude: 26.798393
-    max_latitude: -1.568222
-    max_longitude: 29.2644927
-  name: Sud-Kivu
-BU:
+  comments: 
+BU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Правінцыя Ніжняе Уэле
     bg: Ба Уеле
@@ -525,6 +556,11 @@ BU:
     zh: 下韦莱省
     ccp: "\U0001111D\U0001110C\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
     he: מחוז אואלה תחתית
+  comments: 
+HK: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -532,8 +568,6 @@ BU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HK:
-  unofficial_names: 
   translations:
     be: Правінцыя Верхняя Катанга
     bg: О Катанга
@@ -561,6 +595,11 @@ HK:
     zh: 上加丹加省
     ccp: "\U00011126\U00011116\U00011134-\U00011107\U00011111\U00011101\U00011109"
     hy: Վերին Կատանգա
+  comments: 
+HL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -568,8 +607,6 @@ HK:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HL:
-  unofficial_names: 
   translations:
     be: Правінцыя Верхняе Ламамі
     bg: О Ломами
@@ -596,6 +633,11 @@ HL:
     zh: 上洛马米省
     ccp: "\U00011126\U00011116\U00011134-\U00011123\U00011127\U0001111F\U0001111F\U00011128"
     hy: Վերին Լոմամի
+  comments: 
+HU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -603,8 +645,6 @@ HL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HU:
-  unofficial_names: 
   translations:
     be: Правінцыя Верхняе Уэле
     bg: О Уеле
@@ -631,6 +671,11 @@ HU:
     zh: 上韦莱省
     ccp: "\U00011126\U00011116\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
     hy: Վերին Ուելե
+  comments: 
+KC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -638,8 +683,6 @@ HU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KC:
-  unofficial_names: 
   translations:
     be: Правінцыя Лулуа
     bg: Лулуа
@@ -666,6 +709,11 @@ KC:
     ka: ლულუის პროვინცია
     fi: Keski-Kasai
     it: Provincia del Kasai Centrale
+  comments: 
+KG: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -673,8 +721,6 @@ KC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KG:
-  unofficial_names: 
   translations:
     be: Правінцыя Кванго
     bg: Кванго
@@ -694,6 +740,11 @@ KG:
     uk: Кванго
     zh: 宽果省
     ccp: "\U00011107\U00011127\U00011120\U0001112A\U00011101\U00011109\U0001112E"
+  comments: 
+KL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -701,8 +752,6 @@ KG:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KL:
-  unofficial_names: 
   translations:
     be: Правінцыя Квілу
     bg: Квилу
@@ -729,6 +778,11 @@ KL:
     zh: 奎卢省
     ccp: "\U00011107\U00011127\U00011103\U00011128\U00011123\U0001112A"
     hy: Կվիլու
+  comments: 
+LO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -736,8 +790,6 @@ KL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LO:
-  unofficial_names: 
   translations:
     be: Правінцыя Ламамі
     bg: Ломами
@@ -761,6 +813,11 @@ LO:
     zh: 洛马米省
     ccp: "\U00011123\U00011127\U0001111F\U0001111F\U00011128"
     ka: ლომამის პროვინცია
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -768,8 +825,6 @@ LO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LU:
-  unofficial_names: 
   translations:
     be: Правінцыя Луалаба
     bg: Луалаба
@@ -795,6 +850,11 @@ LU:
     uk: Луалаба
     zh: 卢阿拉巴省
     ccp: "\U00011123\U0001112A\U00011120\U00011123\U0001111D"
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -802,8 +862,6 @@ LU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MN:
-  unofficial_names: 
   translations:
     be: Правінцыя Маі-Ндамбэ
     bg: Ме Ндомбе
@@ -826,6 +884,11 @@ MN:
     uk: Маї-Ндомбе
     zh: 马伊恩东贝省
     ccp: "\U0001111F\U0001112D-\U00011113\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -833,8 +896,6 @@ MN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-MO:
-  unofficial_names: 
   translations:
     be: Правінцыя Мангала
     bg: Монгала
@@ -860,6 +921,11 @@ MO:
     zh: 蒙加拉省
     ccp: "\U0001111F\U00011127\U00011101\U00011109\U00011127\U00011123"
     nb: Mongala
+  comments: 
+NU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -867,8 +933,6 @@ MO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NU:
-  unofficial_names: 
   translations:
     be: Правінцыя Паўночнае Убангі
     bg: Нор Убанги
@@ -894,6 +958,11 @@ NU:
     zh: 北乌班吉省
     ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011113\U00011134-\U00011103\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
     nb: Nord-Ubangi
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -901,8 +970,6 @@ NU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SA:
-  unofficial_names: 
   translations:
     be: Правінцыя Санкуру
     bg: Санкуру
@@ -927,6 +994,11 @@ SA:
     zh: 桑库鲁省
     ccp: "\U00011125\U00011101\U00011107\U0001112A\U00011122\U0001112A"
     nb: Sankuru
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -934,8 +1006,6 @@ SA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SU:
-  unofficial_names: 
   translations:
     be: Правінцыя Паўднёвае Убангі
     bg: Сюд Убанги
@@ -960,6 +1030,11 @@ SU:
     zh: 南乌班吉省
     ccp: "\U00011125\U00011116\U00011134-\U00011105\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
     nb: Sud-Ubangi
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -967,8 +1042,6 @@ SU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TA:
-  unofficial_names: 
   translations:
     be: Правінцыя Танганьіка
     bg: Танганика
@@ -994,6 +1067,11 @@ TA:
     ceb: Kongolo Tanganyika District
     zh: 坦噶尼喀省
     ccp: "\U00011111\U0001110B\U00011134\U00011109\U0001111A\U00011128\U00011120\U00011107"
+  comments: 
+TO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1001,8 +1079,6 @@ TA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TO:
-  unofficial_names: 
   translations:
     be: Правінцыя Чапо
     bg: Чопо
@@ -1028,6 +1104,11 @@ TO:
     ceb: Tshopo
     zh: 乔波省
     ccp: "\U00011125\U0001112E\U0001111B\U0001112E"
+  comments: 
+TU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1035,8 +1116,6 @@ TO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TU:
-  unofficial_names: 
   translations:
     be: Правінцыя Чуапа
     bg: Чуапа
@@ -1062,6 +1141,11 @@ TU:
     ceb: Tshuapa
     zh: 楚阿帕省
     ccp: "\U00011125\U0001112A\U00011120\U0001111B"
+  comments: 
+IT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1069,12 +1153,15 @@ TU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-IT:
-  unofficial_names: 
   translations:
     en: Ituri
     zh: 伊图里临时行政区
     ccp: "\U00011103\U0001112D\U00011111\U0001112A\U00011122\U00011128"
+  comments: 
+KS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1082,8 +1169,6 @@ IT:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KS:
-  unofficial_names: 
   translations:
     en: Kasaï
     fr: Kasaï
@@ -1098,10 +1183,4 @@ KS:
     sv: Kasaï
     uk: Касаї
     ccp: "\U00011107\U00011125\U0001112D"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

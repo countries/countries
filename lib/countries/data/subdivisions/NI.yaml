@@ -1,9 +1,18 @@
 ---
-AN:
+AN: !ruby/struct:ISO3166::Subdivision
+  name: Atlántico Norte*
+  code: 
   unofficial_names:
   - RAAN
   - Región Autónoma Atlántico Norte
   - Zelaya Norte
+  geo:
+    latitude: 13.8394456
+    longitude: -83.93208059999999
+    min_latitude: 13.028599
+    min_longitude: -85.483689
+    max_latitude: 15.0259089
+    max_longitude: -82.59207239999999
   translations:
     en: Atlántico Norte
     ar: ريجيون أوتونوما ديل أتلانتيكو نورت
@@ -52,19 +61,21 @@ AN:
     ccp: "\U00011103\U00011116\U00011134\U00011123\U0001111A\U00011134\U00011111\U00011128\U00011107\U0001112E
       \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
     mk: Северноатлантски автономен регион
-  geo:
-    latitude: 13.8394456
-    longitude: -83.93208059999999
-    min_latitude: 13.028599
-    min_longitude: -85.483689
-    max_latitude: 15.0259089
-    max_longitude: -82.59207239999999
-  name: Atlántico Norte*
-AS:
+  comments: 
+AS: !ruby/struct:ISO3166::Subdivision
+  name: Atlántico Sur*
+  code: 
   unofficial_names:
   - RAAS
   - Región Autónoma Atlántico Sur
   - Zelaya Sur
+  geo:
+    latitude: 12.1918502
+    longitude: -84.1012861
+    min_latitude: 11.0285841
+    min_longitude: -85.21458009999999
+    max_latitude: 13.277237
+    max_longitude: -82.97150719999999
   translations:
     en: Atlántico Sur
     ar: ريجيون أوتونوما ديل أتلانتيكو سور
@@ -114,16 +125,18 @@ AS:
     ccp: "\U00011103\U00011116\U00011134\U00011123\U0001111A\U00011134\U00011111\U00011128\U00011107\U0001112E
       \U00011125\U00011122\U00011134"
     mk: Јужноатлантски автономен регион
-  geo:
-    latitude: 12.1918502
-    longitude: -84.1012861
-    min_latitude: 11.0285841
-    min_longitude: -85.21458009999999
-    max_latitude: 13.277237
-    max_longitude: -82.97150719999999
-  name: Atlántico Sur*
-BO:
+  comments: 
+BO: !ruby/struct:ISO3166::Subdivision
+  name: Boaco
+  code: 
   unofficial_names: Boaco
+  geo:
+    latitude: 12.492724
+    longitude: -85.52002399999999
+    min_latitude: 12.0231972
+    min_longitude: -85.96309579999999
+    max_latitude: 12.7902051
+    max_longitude: -84.953434
   translations:
     en: Boaco
     ar: إدارة بواكو
@@ -172,16 +185,18 @@ BO:
     ceb: Departamento de Boaco
     zh: 博阿科省
     ccp: "\U0001111D\U0001112F\U00011107\U0001112E"
-  geo:
-    latitude: 12.492724
-    longitude: -85.52002399999999
-    min_latitude: 12.0231972
-    min_longitude: -85.96309579999999
-    max_latitude: 12.7902051
-    max_longitude: -84.953434
-  name: Boaco
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Carazo
+  code: 
   unofficial_names: Carazo
+  geo:
+    latitude: 11.7274729
+    longitude: -86.21584969999999
+    min_latitude: 11.5150947
+    min_longitude: -86.4927755
+    max_latitude: 11.933541
+    max_longitude: -86.063385
   translations:
     en: Carazo
     ar: إدارة كارازو
@@ -229,16 +244,18 @@ CA:
     ceb: Departamento de Carazo
     zh: 卡拉索省
     ccp: "\U00011107\U00011122\U0001110E\U0001112E"
-  geo:
-    latitude: 11.7274729
-    longitude: -86.21584969999999
-    min_latitude: 11.5150947
-    min_longitude: -86.4927755
-    max_latitude: 11.933541
-    max_longitude: -86.063385
-  name: Carazo
-CI:
+  comments: 
+CI: !ruby/struct:ISO3166::Subdivision
+  name: Chinandega
+  code: 
   unofficial_names: Chinandega
+  geo:
+    latitude: 12.8820062
+    longitude: -87.14228949999999
+    min_latitude: 12.44511
+    min_longitude: -87.6903076
+    max_latitude: 13.306297
+    max_longitude: -86.629938
   translations:
     en: Chinandega
     ar: إدارة تشينانديجا
@@ -286,16 +303,18 @@ CI:
     ceb: Departamento de Chinandega
     zh: 奇南德加省
     ccp: "\U0001110C\U00011128\U0001111A\U0001111A\U00011134\U00011113\U0001112C\U00011109"
-  geo:
-    latitude: 12.8820062
-    longitude: -87.14228949999999
-    min_latitude: 12.44511
-    min_longitude: -87.6903076
-    max_latitude: 13.306297
-    max_longitude: -86.629938
-  name: Chinandega
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Chontales
+  code: 
   unofficial_names: Chontales
+  geo:
+    latitude: 11.9394717
+    longitude: -85.1894045
+    min_latitude: 11.6280457
+    min_longitude: -85.64550899999999
+    max_latitude: 12.632429
+    max_longitude: -84.56769709999999
   translations:
     en: Chontales
     ar: إدارة تشونتاليس
@@ -343,16 +362,18 @@ CO:
     ceb: Departamento de Chontales
     zh: 瓊塔萊斯省
     ccp: "\U0001110C\U0001112E\U0001111A\U00011134\U00011111\U00011123\U0001112C\U0001110C\U00011134"
-  geo:
-    latitude: 11.9394717
-    longitude: -85.1894045
-    min_latitude: 11.6280457
-    min_longitude: -85.64550899999999
-    max_latitude: 12.632429
-    max_longitude: -84.56769709999999
-  name: Chontales
-ES:
+  comments: 
+ES: !ruby/struct:ISO3166::Subdivision
+  name: Estelí
+  code: 
   unofficial_names: Estelí
+  geo:
+    latitude: 13.083333
+    longitude: -86.35
+    min_latitude: 13.0616854
+    min_longitude: -86.3830947
+    max_latitude: 13.1177659
+    max_longitude: -86.3384628
   translations:
     en: Estelí
     ar: إدارة إستيلي
@@ -400,16 +421,18 @@ ES:
     ceb: Departamento de Estelí
     zh: 埃斯特利省
     ccp: "\U00011103\U00011128\U0001110C\U00011111\U0001112C\U00011123\U00011128"
-  geo:
-    latitude: 13.083333
-    longitude: -86.35
-    min_latitude: 13.0616854
-    min_longitude: -86.3830947
-    max_latitude: 13.1177659
-    max_longitude: -86.3384628
-  name: Estelí
-GR:
+  comments: 
+GR: !ruby/struct:ISO3166::Subdivision
+  name: Granada
+  code: 
   unofficial_names: Granada
+  geo:
+    latitude: 11.933333
+    longitude: -85.95
+    min_latitude: 11.9084219
+    min_longitude: -85.978489
+    max_latitude: 11.9492767
+    max_longitude: -85.94110979999999
   translations:
     en: Granada
     be: Дэпартамент Гранада
@@ -442,16 +465,18 @@ GR:
     ceb: Departamento de Granada
     zh: 格拉納達省
     ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011113"
-  geo:
-    latitude: 11.933333
-    longitude: -85.95
-    min_latitude: 11.9084219
-    min_longitude: -85.978489
-    max_latitude: 11.9492767
-    max_longitude: -85.94110979999999
-  name: Granada
-JI:
+  comments: 
+JI: !ruby/struct:ISO3166::Subdivision
+  name: Jinotega
+  code: 
   unofficial_names: Jinotega
+  geo:
+    latitude: 13.1
+    longitude: -86
+    min_latitude: 13.0730035
+    min_longitude: -86.0085301
+    max_latitude: 13.1066716
+    max_longitude: -85.990076
   translations:
     en: Jinotega
     ar: جينوتيغا
@@ -499,16 +524,18 @@ JI:
     ceb: Departamento de Jinotega
     zh: 希諾特加省
     ccp: "\U0001110E\U00011128\U0001111A\U0001112E\U00011111\U0001112C\U00011109"
-  geo:
-    latitude: 13.1
-    longitude: -86
-    min_latitude: 13.0730035
-    min_longitude: -86.0085301
-    max_latitude: 13.1066716
-    max_longitude: -85.990076
-  name: Jinotega
-LE:
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: León
+  code: 
   unofficial_names: León
+  geo:
+    latitude: 12.5092037
+    longitude: -86.6611083
+    min_latitude: 11.988095
+    min_longitude: -87.175883
+    max_latitude: 13.107796
+    max_longitude: -86.245541
   translations:
     en: León
     be: Дэпартамент Леон
@@ -544,16 +571,18 @@ LE:
     zh: 萊昂省
     ccp: "\U00011123\U00011128\U00011120\U00011127\U0001111A\U00011134"
     mk: Леон
-  geo:
-    latitude: 12.5092037
-    longitude: -86.6611083
-    min_latitude: 11.988095
-    min_longitude: -87.175883
-    max_latitude: 13.107796
-    max_longitude: -86.245541
-  name: León
-MD:
+  comments: 
+MD: !ruby/struct:ISO3166::Subdivision
+  name: Madriz
+  code: 
   unofficial_names: Madriz
+  geo:
+    latitude: 13.4726005
+    longitude: -86.4592091
+    min_latitude: 13.197792
+    min_longitude: -86.768272
+    max_latitude: 13.6532971
+    max_longitude: -86.0422011
   translations:
     en: Madriz
     ar: إدارة مدريز
@@ -601,16 +630,18 @@ MD:
     ceb: Departamento de Madriz
     zh: 馬德里斯省
     ccp: "\U0001111F\U00011113\U00011133\U00011122\U00011128\U0001110C\U00011134"
-  geo:
-    latitude: 13.4726005
-    longitude: -86.4592091
-    min_latitude: 13.197792
-    min_longitude: -86.768272
-    max_latitude: 13.6532971
-    max_longitude: -86.0422011
-  name: Madriz
-MN:
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: Managua
+  code: 
   unofficial_names: Managua
+  geo:
+    latitude: 12.136389
+    longitude: -86.251389
+    min_latitude: 12.0199606
+    min_longitude: -86.3918334
+    max_latitude: 12.1724475
+    max_longitude: -86.1250878
   translations:
     en: Managua
     ar: إدارة ماناغوا
@@ -659,16 +690,18 @@ MN:
     zh: 馬拿瓜省
     ccp: "\U0001111F\U0001111A\U00011109\U0001112A\U00011120"
     mk: Манагва
-  geo:
-    latitude: 12.136389
-    longitude: -86.251389
-    min_latitude: 12.0199606
-    min_longitude: -86.3918334
-    max_latitude: 12.1724475
-    max_longitude: -86.1250878
-  name: Managua
-MS:
+  comments: 
+MS: !ruby/struct:ISO3166::Subdivision
+  name: Masaya
+  code: 
   unofficial_names: Masaya
+  geo:
+    latitude: 11.966667
+    longitude: -86.1
+    min_latitude: 11.9524256
+    min_longitude: -86.113329
+    max_latitude: 11.9975977
+    max_longitude: -86.07212059999999
   translations:
     en: Masaya
     ar: إدارة مسايا
@@ -716,16 +749,18 @@ MS:
     ceb: Departamento de Masaya
     zh: 馬薩亞省
     ccp: "\U0001111F\U00011125\U00011120\U0001112C"
-  geo:
-    latitude: 11.966667
-    longitude: -86.1
-    min_latitude: 11.9524256
-    min_longitude: -86.113329
-    max_latitude: 11.9975977
-    max_longitude: -86.07212059999999
-  name: Masaya
-MT:
+  comments: 
+MT: !ruby/struct:ISO3166::Subdivision
+  name: Matagalpa
+  code: 
   unofficial_names: Matagalpa
+  geo:
+    latitude: 12.916667
+    longitude: -85.91666699999999
+    min_latitude: 12.9025089
+    min_longitude: -85.9465599
+    max_latitude: 12.9567171
+    max_longitude: -85.8964561
   translations:
     en: Matagalpa
     ar: إدارة ماتاغالبا
@@ -774,16 +809,18 @@ MT:
     ceb: Departamento de Matagalpa
     zh: 馬塔加爾帕省
     ccp: "\U0001111F\U00011111\U00011109\U00011123\U00011134\U0001111B"
-  geo:
-    latitude: 12.916667
-    longitude: -85.91666699999999
-    min_latitude: 12.9025089
-    min_longitude: -85.9465599
-    max_latitude: 12.9567171
-    max_longitude: -85.8964561
-  name: Matagalpa
-NS:
+  comments: 
+NS: !ruby/struct:ISO3166::Subdivision
+  name: Nueva Segovia
+  code: 
   unofficial_names: Nueva Segovia
+  geo:
+    latitude: 13.7894404
+    longitude: -86.0121573
+    min_latitude: 13.4533359
+    min_longitude: -86.78519399999999
+    max_latitude: 14.0770589
+    max_longitude: -85.72843209999999
   translations:
     en: Nueva Segovia
     ar: إدارة نويفا سيغوفيا
@@ -831,16 +868,18 @@ NS:
     ceb: Departamento de Nueva Segovia
     zh: 新塞哥維亞省
     ccp: "\U0001111A\U0001112E\U00011120\U0001112C\U0001111E \U00011125\U0001112C\U00011109\U0001112E\U0001111E\U00011128\U00011120"
-  geo:
-    latitude: 13.7894404
-    longitude: -86.0121573
-    min_latitude: 13.4533359
-    min_longitude: -86.78519399999999
-    max_latitude: 14.0770589
-    max_longitude: -85.72843209999999
-  name: Nueva Segovia
-RI:
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: Rivas
+  code: 
   unofficial_names: Rivas
+  geo:
+    latitude: 11.402349
+    longitude: -85.684578
+    min_latitude: 11.041925
+    min_longitude: -86.17159649999999
+    max_latitude: 11.6717179
+    max_longitude: -85.1754141
   translations:
     en: Rivas
     ar: إدارة ريفاز
@@ -874,16 +913,18 @@ RI:
     ceb: Departamento de Rivas
     zh: 里瓦斯省
     ccp: "\U00011122\U00011128\U0001111E\U0001110C\U00011134"
-  geo:
-    latitude: 11.402349
-    longitude: -85.684578
-    min_latitude: 11.041925
-    min_longitude: -86.17159649999999
-    max_latitude: 11.6717179
-    max_longitude: -85.1754141
-  name: Rivas
-SJ:
+  comments: 
+SJ: !ruby/struct:ISO3166::Subdivision
+  name: Río San Juan
+  code: 
   unofficial_names: Río San Juan
+  geo:
+    latitude: 10.9324722
+    longitude: -83.69159719999999
+    min_latitude: 10.924511
+    min_longitude: -83.6988258
+    max_latitude: 10.9404334
+    max_longitude: -83.6843687
   translations:
     en: Río San Juan
     ar: إدارة ريو سان خوان
@@ -932,11 +973,4 @@ SJ:
     zh: 聖胡安河省
     ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011125\U0001111A\U00011134
       \U0001110E\U0001112A\U00011120\U0001111A\U00011134"
-  geo:
-    latitude: 10.9324722
-    longitude: -83.69159719999999
-    min_latitude: 10.924511
-    min_longitude: -83.6988258
-    max_latitude: 10.9404334
-    max_longitude: -83.6843687
-  name: Río San Juan
+  comments: 

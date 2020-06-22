@@ -1,6 +1,15 @@
 ---
-BA:
+BA: !ruby/struct:ISO3166::Subdivision
+  name: Balti
+  code: 
   unofficial_names: Balti
+  geo:
+    latitude: 47.7539947
+    longitude: 27.9184148
+    min_latitude: 47.7226969
+    min_longitude: 27.8344632
+    max_latitude: 47.81119469999999
+    max_longitude: 27.9682947
   translations:
     en: Bălţi
     af: Bălţi
@@ -69,16 +78,18 @@ BA:
     uz: Bălţi
     bs: Bălți
     mk: Белци
-  geo:
-    latitude: 47.7539947
-    longitude: 27.9184148
-    min_latitude: 47.7226969
-    min_longitude: 27.8344632
-    max_latitude: 47.81119469999999
-    max_longitude: 27.9682947
-  name: Balti
-CA:
+  comments: 
+CA: !ruby/struct:ISO3166::Subdivision
+  name: Cahul
+  code: 
   unofficial_names: Cahul
+  geo:
+    latitude: 45.8939404
+    longitude: 28.1890275
+    min_latitude: 45.8736666
+    min_longitude: 28.1741595
+    max_latitude: 45.9423021
+    max_longitude: 28.231709
   translations:
     en: Cahul
     ar: مقاطعة كاهول
@@ -125,18 +136,11 @@ CA:
     ceb: Raionul Cahul
     sq: Raionul Cahul
     ccp: "\U00011107\U00011126\U0001112A\U00011123\U00011134"
-  geo:
-    latitude: 45.8939404
-    longitude: 28.1890275
-    min_latitude: 45.8736666
-    min_longitude: 28.1741595
-    max_latitude: 45.9423021
-    max_longitude: 28.231709
-  name: Cahul
-CH:
+  comments: 
+CH: !ruby/struct:ISO3166::Subdivision
+  name: Chisinau City
+  code: 
   unofficial_names: Chisinau City
-  translations:
-    en: Chisinau City
   geo:
     latitude: 47.0240102
     longitude: 28.8313156
@@ -144,9 +148,20 @@ CH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Chisinau City
-CU:
+  translations:
+    en: Chisinau City
+  comments: 
+CU: !ruby/struct:ISO3166::Subdivision
+  name: Chisinau
+  code: 
   unofficial_names: Chisinau
+  geo:
+    latitude: 47.0240102
+    longitude: 28.8313156
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Chișinău
     af: Chişinău
@@ -223,16 +238,18 @@ CU:
     uz: Kishinyov
     bs: Kišinjev
     mk: Кишињев
-  geo:
-    latitude: 47.0240102
-    longitude: 28.8313156
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chisinau
-ED:
+  comments: 
+ED: !ruby/struct:ISO3166::Subdivision
+  name: Edinet
+  code: 
   unofficial_names: Edinet
+  geo:
+    latitude: 48.1678991
+    longitude: 27.2936143
+    min_latitude: 48.1522871
+    min_longitude: 27.2787093
+    max_latitude: 48.1892079
+    max_longitude: 27.3280621
   translations:
     en: Edineț
     ar: مقاطعة إيدينت
@@ -277,16 +294,18 @@ ED:
     ceb: Raionul Edineț
     sq: Raionul Edineț
     ccp: "\U00011103\U0001112C\U00011113\U00011128\U0001111A\U0001112C\U00011116\U00011134"
-  geo:
-    latitude: 48.1678991
-    longitude: 27.2936143
-    min_latitude: 48.1522871
-    min_longitude: 27.2787093
-    max_latitude: 48.1892079
-    max_longitude: 27.3280621
-  name: Edinet
-GA:
+  comments: 
+GA: !ruby/struct:ISO3166::Subdivision
+  name: Gagauzia, Unitate Teritoriala Autonoma (UTAG)
+  code: 
   unofficial_names: Gagauzia, Unitate Teritoriala Autonoma (UTAG)
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gagauzia
     af: Gagausië
@@ -351,18 +370,11 @@ GA:
     kk: Гәгәузия
     mk: Гагаузија
     tk: Gagauzystan
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Gagauzia, Unitate Teritoriala Autonoma (UTAG)
-LA:
+  comments: 
+LA: !ruby/struct:ISO3166::Subdivision
+  name: Lapusna
+  code: 
   unofficial_names: Lapusna
-  translations:
-    en: Lapusna
   geo:
     latitude: 46.883333
     longitude: 28.416667
@@ -370,9 +382,20 @@ LA:
     min_longitude: 28.3915901
     max_latitude: 46.9017563
     max_longitude: 28.4313728
-  name: Lapusna
-OR:
+  translations:
+    en: Lapusna
+  comments: 
+OR: !ruby/struct:ISO3166::Subdivision
+  name: Orhei
+  code: 
   unofficial_names: Orhei
+  geo:
+    latitude: 47.383333
+    longitude: 28.816667
+    min_latitude: 47.333195
+    min_longitude: 28.7943291
+    max_latitude: 47.40391169999999
+    max_longitude: 28.8649678
   translations:
     en: Orhei
     ar: مقاطعة أورهي
@@ -418,16 +441,18 @@ OR:
     ceb: Orhei
     sq: Raionul Orhei
     ccp: "\U00011103\U00011127\U00011122\U00011134\U00011126\U0001112C\U0001112D"
-  geo:
-    latitude: 47.383333
-    longitude: 28.816667
-    min_latitude: 47.333195
-    min_longitude: 28.7943291
-    max_latitude: 47.40391169999999
-    max_longitude: 28.8649678
-  name: Orhei
-SN:
+  comments: 
+SN: !ruby/struct:ISO3166::Subdivision
+  name: Stînga Nistrului, unitatea teritoriala din
+  code: 
   unofficial_names: Stînga Nistrului, unitatea teritoriala din
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Transnistria
     be: Аўтаномнае тэрытарыяльнае ўтварэнне з асаблівым прававым статусам Прыднястроўе
@@ -443,16 +468,18 @@ SN:
     zh: 德涅斯特河沿岸自治领土单位
     ceb: Unitatea Teritorială din Stînga Nistrului
     ccp: "\U00011111\U00011133\U00011122\U0001111A\U00011134\U0001111A\U00011128\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011128\U00011120"
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Stînga Nistrului, unitatea teritoriala din
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Soroca
+  code: 
   unofficial_names: Soroca
+  geo:
+    latitude: 48.166667
+    longitude: 28.3
+    min_latitude: 48.1209551
+    min_longitude: 28.2504846
+    max_latitude: 48.1874054
+    max_longitude: 28.3286763
   translations:
     en: Soroca
     ar: مقاطعة سوروكا
@@ -499,16 +526,18 @@ SO:
     sq: Raionul Soroca
     ccp: "\U00011125\U00011127\U00011122\U0001112E\U00011107"
     hy: Սորոկի շրջան
-  geo:
-    latitude: 48.166667
-    longitude: 28.3
-    min_latitude: 48.1209551
-    min_longitude: 28.2504846
-    max_latitude: 48.1874054
-    max_longitude: 28.3286763
-  name: Soroca
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Taraclia
+  code: 
   unofficial_names: Taraclia
+  geo:
+    latitude: 46.5703
+    longitude: 29.11559999999999
+    min_latitude: 46.547203
+    min_longitude: 29.0931702
+    max_latitude: 46.5827462
+    max_longitude: 29.1362143
   translations:
     en: Taraclia
     ar: مقاطعة تاراكليا
@@ -554,18 +583,11 @@ TA:
     ceb: Taraclia
     sq: Raionul Taraclia
     ccp: "\U00011111\U00011122\U00011107\U00011134\U00011123\U00011128\U00011120"
-  geo:
-    latitude: 46.5703
-    longitude: 29.11559999999999
-    min_latitude: 46.547203
-    min_longitude: 29.0931702
-    max_latitude: 46.5827462
-    max_longitude: 29.1362143
-  name: Taraclia
-TI:
+  comments: 
+TI: !ruby/struct:ISO3166::Subdivision
+  name: Tighina [Bender]
+  code: 
   unofficial_names: Tighina [Bender]
-  translations:
-    en: Tighina [Bender]
   geo:
     latitude: 46.84633609999999
     longitude: 29.4534416
@@ -573,9 +595,20 @@ TI:
     min_longitude: 29.39415499999999
     max_latitude: 46.875329
     max_longitude: 29.502832
-  name: Tighina [Bender]
-UN:
+  translations:
+    en: Tighina [Bender]
+  comments: 
+UN: !ruby/struct:ISO3166::Subdivision
+  name: Ungheni
+  code: 
   unofficial_names: Ungheni
+  geo:
+    latitude: 47.216667
+    longitude: 27.816667
+    min_latitude: 47.1690154
+    min_longitude: 27.7592753
+    max_latitude: 47.2493487
+    max_longitude: 27.8279203
   translations:
     en: Ungheni
     ar: مقاطعة اونغيني
@@ -622,16 +655,18 @@ UN:
     ceb: Raionul Ungheni
     sq: Raionul Ungheni
     ccp: "\U00011103\U0001111A\U00011134\U0001110A\U0001112C\U0001111A\U00011128"
-  geo:
-    latitude: 47.216667
-    longitude: 27.816667
-    min_latitude: 47.1690154
-    min_longitude: 27.7592753
-    max_latitude: 47.2493487
-    max_longitude: 27.8279203
-  name: Ungheni
-BD:
+  comments: 
+BD: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Bender
     ar: بيندر، مولدوفيا
@@ -703,6 +738,11 @@ BD:
     uz: Bender
     bs: Bender
     mk: Бендер
+  comments: 
+AN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -710,8 +750,6 @@ BD:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-AN:
-  unofficial_names: 
   translations:
     ar: مقاطعة أنيني نوي
     bg: Новоаненски район
@@ -758,6 +796,11 @@ AN:
     ceb: Anenii Noi
     sq: Raionul Anenii Noi
     ccp: "\U00011103\U0001111A\U0001112C\U0001111A\U00011128 \U0001111A\U00011130"
+  comments: 
+BR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -765,8 +808,6 @@ AN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BR:
-  unofficial_names: 
   translations:
     ar: مقاطعة بريسيني
     bg: Бриченски район
@@ -814,6 +855,11 @@ BR:
     sq: Raionul Briceni
     ccp: "\U0001111D\U00011133\U00011122\U00011128\U00011125\U0001112C\U0001111A\U00011128"
     be: Брычанскі раён
+  comments: 
+BS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -821,8 +867,6 @@ BR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-BS:
-  unofficial_names: 
   translations:
     ar: مقاطعة باسارابيسكا
     bg: Бесарабски район
@@ -870,6 +914,11 @@ BS:
     ceb: Basarabeasca
     sq: Raionul Basarabeasca
     ccp: "\U0001111D\U00011125\U00011122\U00011134\U0001111D\U00011128\U00011120\U0001110C\U00011134\U00011107"
+  comments: 
+CL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -877,8 +926,6 @@ BS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CL:
-  unofficial_names: 
   translations:
     ar: مقاطعة كالاراسي
     be: Каларашскі раён
@@ -926,6 +973,11 @@ CL:
     ceb: Raionul Călărași
     sq: Raionul Călărași
     ccp: "\U00011107\U00011123\U00011122\U00011125\U00011128"
+  comments: 
+CM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -933,8 +985,6 @@ CL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CM:
-  unofficial_names: 
   translations:
     ar: مقاطعة تشيميشليا
     bg: Чимишлийски район
@@ -980,6 +1030,11 @@ CM:
     ceb: Cimișlia (distrito)
     sq: Raionul Cimișlia
     ccp: "\U00011125\U00011128\U0001111F\U00011128\U0001110C\U00011134\U00011123\U00011128\U00011120"
+  comments: 
+CR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -987,8 +1042,6 @@ CM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CR:
-  unofficial_names: 
   translations:
     ar: مقاطعة كريوليني
     bg: Криуленски район
@@ -1033,6 +1086,11 @@ CR:
     ceb: Criuleni
     sq: Raionul Criuleni
     ccp: "\U00011107\U00011133\U00011122\U0001112D\U00011105\U0001112A\U00011123\U0001112C\U0001111A\U00011128"
+  comments: 
+CS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1040,8 +1098,6 @@ CR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CS:
-  unofficial_names: 
   translations:
     ar: مقاطعة كوسيني
     bg: Каушенски район
@@ -1087,6 +1143,11 @@ CS:
     ceb: Raionul Căușeni
     sq: Raionul Căușeni
     ccp: "\U00011107\U0001112F\U00011125\U0001112C\U0001111A\U00011128"
+  comments: 
+CT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1094,8 +1155,6 @@ CS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-CT:
-  unofficial_names: 
   translations:
     ar: مقاطعة كانتيمير
     bg: Кантемирски район
@@ -1142,6 +1201,11 @@ CT:
     ceb: Cantemir
     sq: Raionul Cantemir
     ccp: "\U00011107\U0001111A\U00011134\U00011111\U0001112C\U0001111F\U00011128\U00011122\U00011134"
+  comments: 
+DO: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1149,8 +1213,6 @@ CT:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DO:
-  unofficial_names: 
   translations:
     ar: مقاطعة دوندوسيني
     bg: Дондушенски район
@@ -1195,6 +1257,11 @@ DO:
     ceb: Dondușeni
     sq: Raionul Dondușeni
     ccp: "\U00011113\U00011127\U0001111A\U00011134\U00011113\U0001112A\U00011125\U0001112C\U0001111A\U00011128"
+  comments: 
+DR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1202,8 +1269,6 @@ DO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DR:
-  unofficial_names: 
   translations:
     ar: مقاطعة دروتشيا
     bg: Дрокиевски район
@@ -1249,6 +1314,11 @@ DR:
     sq: Raionul Drochia
     ccp: "\U00011113\U00011133\U00011122\U0001112E\U0001110C\U00011128\U00011120"
     be: Дрокіеўскі раён
+  comments: 
+DU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1256,8 +1326,6 @@ DR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DU:
-  unofficial_names: 
   translations:
     ar: مقاطعة دوباساري
     bg: Дубосарски район
@@ -1303,6 +1371,11 @@ DU:
     ceb: Raionul Dubăsari
     sq: Raionul Dubăsari
     ccp: "\U00011113\U0001112A\U0001111D\U00011125\U00011122\U00011128"
+  comments: 
+FA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1310,8 +1383,6 @@ DU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-FA:
-  unofficial_names: 
   translations:
     ar: مقاطعة فاليستي
     bg: Фалещки район
@@ -1357,6 +1428,11 @@ FA:
     ceb: Fălești
     sq: Raionul Falești
     ccp: "\U0001111C\U00011123\U0001112C\U0001110C\U00011134\U00011111\U00011128"
+  comments: 
+FL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1364,8 +1440,6 @@ FA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-FL:
-  unofficial_names: 
   translations:
     ar: مقاطعة فلوريستي
     be: Фларэшцкі раён
@@ -1412,6 +1486,11 @@ FL:
     ceb: Florești (distrito)
     sq: Raionul Florești
     ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U0001112C\U0001110C\U00011134\U00011111\U00011128"
+  comments: 
+GL: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1419,8 +1498,6 @@ FL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GL:
-  unofficial_names: 
   translations:
     ar: مقاطعة غلوديني
     bg: Голденски район
@@ -1466,6 +1543,11 @@ GL:
     ceb: Glodeni (distrito)
     sq: Raionul Glodeni
     ccp: "\U00011109\U00011133\U00011123\U0001112E\U00011113\U0001112C\U0001111A\U00011128"
+  comments: 
+HI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1473,8 +1555,6 @@ GL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HI:
-  unofficial_names: 
   translations:
     ar: مقاطعة هينسيستي
     bg: Хънчещки район
@@ -1520,6 +1600,11 @@ HI:
     sq: Raionul Hîncești
     ccp: "\U00011126\U00011128\U0001111A\U00011134\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011128"
     hy: Հնչեշտի շրջան
+  comments: 
+IA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1527,8 +1612,6 @@ HI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-IA:
-  unofficial_names: 
   translations:
     ar: مقاطعة إيلوفيني
     bg: Яловенски район
@@ -1574,6 +1657,11 @@ IA:
     ceb: Ialoveni
     sq: Raionul Ialoveni
     ccp: "\U00011103\U0001112D\U00011103\U00011123\U0001112E\U0001111E\U0001112C\U0001111A\U00011128"
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1581,8 +1669,6 @@ IA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-LE:
-  unofficial_names: 
   translations:
     ar: مقاطعة ليوفا
     bg: Леовски район
@@ -1628,6 +1714,11 @@ LE:
     ceb: Leova
     sq: Raionul Leova
     ccp: "\U00011123\U00011128\U00011103\U0001112E\U0001111E"
+  comments: 
+NI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1635,8 +1726,6 @@ LE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NI:
-  unofficial_names: 
   translations:
     ar: مقاطعة نيسبوريني
     bg: Ниспоренски район
@@ -1681,6 +1770,11 @@ NI:
     ceb: Nisporeni
     sq: Raionul Nisporeni
     ccp: "\U0001111A\U00011128\U0001110C\U00011134\U0001111B\U00011127\U00011122\U0001112C\U0001111A\U00011128"
+  comments: 
+OC: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1688,8 +1782,6 @@ NI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-OC:
-  unofficial_names: 
   translations:
     ar: مقاطعة أونيتا
     bg: Окницки район
@@ -1735,6 +1827,11 @@ OC:
     ceb: Raionul Ocnița
     sq: Raionul Ocnița
     ccp: "\U00011103\U00011127\U00011107\U00011134\U0001111A\U00011128\U00011111"
+  comments: 
+RE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1742,8 +1839,6 @@ OC:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RE:
-  unofficial_names: 
   translations:
     ar: مقاطعة ريزاينا
     bg: Резински район
@@ -1788,6 +1883,11 @@ RE:
     ceb: Rezina
     sq: Raionul Rezina
     ccp: "\U00011122\U0001112C\U0001110E\U0001111A"
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1795,8 +1895,6 @@ RE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RI:
-  unofficial_names: 
   translations:
     ar: مقاطعة روشكاني
     bg: Ръшкански район
@@ -1842,6 +1940,11 @@ RI:
     ceb: Rîșcani
     sq: Raionul Rîșcani
     ccp: "\U00011122\U00011128\U0001110C\U00011134\U00011107\U0001111A\U00011128"
+  comments: 
+SD: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1849,8 +1952,6 @@ RI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SD:
-  unofficial_names: 
   translations:
     ar: مقاطعة شولدانيشتي
     bg: Шолданещки район
@@ -1897,6 +1998,11 @@ SD:
     ceb: Șoldănești
     sq: Raionul Șoldănești
     ccp: "\U00011125\U0001112E\U00011123\U00011134\U00011113\U0001111A\U0001112C\U0001110C\U00011134\U00011111\U00011128"
+  comments: 
+SI: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1904,8 +2010,6 @@ SD:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SI:
-  unofficial_names: 
   translations:
     ar: مقاطعة سونجري
     bg: Сънджерейски район
@@ -1950,6 +2054,11 @@ SI:
     ceb: Sîngerei
     sq: Raionul Sîngerei
     ccp: "\U00011125\U00011128\U0001111A\U00011134\U00011109\U0001112C\U00011122\U0001112D"
+  comments: 
+ST: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1957,8 +2066,6 @@ SI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-ST:
-  unofficial_names: 
   translations:
     ar: مقاطعة ستراسيني
     be: Страшэнскі раён
@@ -2004,6 +2111,11 @@ ST:
     ceb: Raionul Strășeni
     sq: Raionul Strășeni
     ccp: "\U00011111\U00011133\U00011122\U00011125\U0001112C\U0001111A\U00011128"
+  comments: 
+SV: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2011,8 +2123,6 @@ ST:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SV:
-  unofficial_names: 
   translations:
     ar: مقاطعة ستيفان فودا
     bg: Щефанводски район
@@ -2058,6 +2168,11 @@ SV:
     ceb: Raionul Ștefan Vodă
     sq: Raionul Ștefan Vodă
     ccp: "\U0001110C\U00011133\U00011111\U0001112C\U0001111C\U0001111A\U00011134 \U0001111E\U0001112E\U00011113"
+  comments: 
+TE: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2065,8 +2180,6 @@ SV:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TE:
-  unofficial_names: 
   translations:
     ar: مقاطعة تيلينيشتي
     bg: Телнещки район
@@ -2112,10 +2225,4 @@ TE:
     sq: Raionul Telenești
     ccp: "\U00011111\U0001112C\U00011123\U0001112C\U0001111A\U0001112C\U0001110C\U00011134\U00011111\U00011128"
     be: Целянешцкі раён
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

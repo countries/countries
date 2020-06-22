@@ -1,7 +1,16 @@
 ---
-C:
+C: !ruby/struct:ISO3166::Subdivision
+  name: Connacht
+  code: 
   unofficial_names:
   - Connaught
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Connacht
     ar: كوناكت
@@ -50,17 +59,19 @@ C:
     hy: Կոննախտ
     yue: 干諾省
     mk: Конахт
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Connacht
-CE:
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Clare
+  code: 
   unofficial_names:
   - An Clár
+  geo:
+    latitude: 52.86245280000001
+    longitude: -9.0471645
+    min_latitude: 52.5545323
+    min_longitude: -9.9386938
+    max_latitude: 53.1686759
+    max_longitude: -8.2839238
   translations:
     en: Clare
     ar: مقاطعة كلير
@@ -119,17 +130,19 @@ CE:
     ga: Contae an Chláir
     be: графства Клэр
     mk: Клер
-  geo:
-    latitude: 52.86245280000001
-    longitude: -9.0471645
-    min_latitude: 52.5545323
-    min_longitude: -9.9386938
-    max_latitude: 53.1686759
-    max_longitude: -8.2839238
-  name: Clare
-CN:
+  comments: 
+CN: !ruby/struct:ISO3166::Subdivision
+  name: Cavan
+  code: 
   unofficial_names:
   - An Cabhán
+  geo:
+    latitude: 53.9897186
+    longitude: -7.3633319
+    min_latitude: 53.9700812
+    min_longitude: -7.394294299999999
+    max_latitude: 54.00315670000001
+    max_longitude: -7.3168015
   translations:
     en: Cavan
     ar: مقاطعة كافان
@@ -188,17 +201,19 @@ CN:
     he: מחוז קאוואן
     be: графства Каван
     mk: Каван
-  geo:
-    latitude: 53.9897186
-    longitude: -7.3633319
-    min_latitude: 53.9700812
-    min_longitude: -7.394294299999999
-    max_latitude: 54.00315670000001
-    max_longitude: -7.3168015
-  name: Cavan
-CW:
+  comments: 
+CW: !ruby/struct:ISO3166::Subdivision
+  name: Carlow
+  code: 
   unofficial_names:
   - Ceatharlach
+  geo:
+    latitude: 52.7189747
+    longitude: -6.8503703
+    min_latitude: 52.4638685
+    min_longitude: -7.107934699999999
+    max_latitude: 52.9179628
+    max_longitude: -6.5049107
   translations:
     en: Carlow
     ar: مقاطعة كارلو
@@ -258,17 +273,19 @@ CW:
     ga: Contae Cheatharlach
     be: графства Карлау
     mk: Карлоу
-  geo:
-    latitude: 52.7189747
-    longitude: -6.8503703
-    min_latitude: 52.4638685
-    min_longitude: -7.107934699999999
-    max_latitude: 52.9179628
-    max_longitude: -6.5049107
-  name: Carlow
-D:
+  comments: 
+D: !ruby/struct:ISO3166::Subdivision
+  name: Dublin
+  code: 
   unofficial_names:
   - Átha Cliath
+  geo:
+    latitude: 53.3498053
+    longitude: -6.2603097
+    min_latitude: 53.22343009999999
+    min_longitude: -6.450839999999999
+    max_latitude: 53.42521010000001
+    max_longitude: -6.05255
   translations:
     en: Dublin
     ar: مقاطعة دبلن
@@ -313,17 +330,19 @@ D:
     ga: Contae Bhaile Átha Cliath
     hy: Դուբլին
     mk: Даблин
-  geo:
-    latitude: 53.3498053
-    longitude: -6.2603097
-    min_latitude: 53.22343009999999
-    min_longitude: -6.450839999999999
-    max_latitude: 53.42521010000001
-    max_longitude: -6.05255
-  name: Dublin
-DL:
+  comments: 
+DL: !ruby/struct:ISO3166::Subdivision
+  name: Donegal
+  code: 
   unofficial_names:
   - Dún na nGall
+  geo:
+    latitude: 54.6541972
+    longitude: -8.110546
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Donegal
     ar: مقاطعة دونيجال
@@ -383,17 +402,19 @@ DL:
     ccp: "\U00011113\U00011127\U0001111A\U00011134\U00011109\U00011133\U00011120\U00011123\U00011134"
     ga: Contae Dhún na nGall
     mk: Донегол
-  geo:
-    latitude: 54.6541972
-    longitude: -8.110546
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Donegal
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Galway
+  code: 
   unofficial_names:
   - Gaillimh
+  geo:
+    latitude: 53.270668
+    longitude: -9.0567905
+    min_latitude: 53.2485394
+    min_longitude: -9.1426873
+    max_latitude: 53.31947049999999
+    max_longitude: -8.954820699999999
   translations:
     en: Galway
     ar: مقاطعة جلوي
@@ -452,17 +473,19 @@ G:
     sl: Grofija Galway
     be: графства Голуэй
     mk: Голвеј
-  geo:
-    latitude: 53.270668
-    longitude: -9.0567905
-    min_latitude: 53.2485394
-    min_longitude: -9.1426873
-    max_latitude: 53.31947049999999
-    max_longitude: -8.954820699999999
-  name: Galway
-KE:
+  comments: 
+KE: !ruby/struct:ISO3166::Subdivision
+  name: Kildare
+  code: 
   unofficial_names:
   - Cill Dara
+  geo:
+    latitude: 53.1589342
+    longitude: -6.9095683
+    min_latitude: 53.15196
+    min_longitude: -6.92259
+    max_latitude: 53.1828601
+    max_longitude: -6.8829899
   translations:
     en: Kildare
     ar: مقاطعة كيلدير
@@ -522,17 +545,19 @@ KE:
     et: Kildare’i krahvkond
     kk: Килдэйр
     mk: Килдер
-  geo:
-    latitude: 53.1589342
-    longitude: -6.9095683
-    min_latitude: 53.15196
-    min_longitude: -6.92259
-    max_latitude: 53.1828601
-    max_longitude: -6.8829899
-  name: Kildare
-KK:
+  comments: 
+KK: !ruby/struct:ISO3166::Subdivision
+  name: Kilkenny
+  code: 
   unofficial_names:
   - Cill Chainnigh
+  geo:
+    latitude: 52.6541454
+    longitude: -7.2447879
+    min_latitude: 52.63111
+    min_longitude: -7.2731599
+    max_latitude: 52.67698000000001
+    max_longitude: -7.20547
   translations:
     en: Kilkenny
     ar: مقاطعة كيكني
@@ -592,18 +617,20 @@ KK:
     he: מחוז קילקני
     kk: Килкенни
     mk: Килкени
-  geo:
-    latitude: 52.6541454
-    longitude: -7.2447879
-    min_latitude: 52.63111
-    min_longitude: -7.2731599
-    max_latitude: 52.67698000000001
-    max_longitude: -7.20547
-  name: Kilkenny
-KY:
+  comments: 
+KY: !ruby/struct:ISO3166::Subdivision
+  name: Kerry
+  code: 
   unofficial_names:
   - Ciarraighe
   - Ciarraí
+  geo:
+    latitude: 52.15446069999999
+    longitude: -9.5668632
+    min_latitude: 51.6883223
+    min_longitude: -10.6183626
+    max_latitude: 52.59184
+    max_longitude: -9.118786
   translations:
     en: Kerry
     ar: مقاطعة كري
@@ -661,18 +688,20 @@ KY:
     ccp: "\U00011107\U0001112C\U00011122\U00011128"
     ga: Contae Chiarraí
     mk: Кери
-  geo:
-    latitude: 52.15446069999999
-    longitude: -9.5668632
-    min_latitude: 51.6883223
-    min_longitude: -10.6183626
-    max_latitude: 52.59184
-    max_longitude: -9.118786
-  name: Kerry
-LD:
+  comments: 
+LD: !ruby/struct:ISO3166::Subdivision
+  name: Longford
+  code: 
   unofficial_names:
   - Longphort
   - Longphuirt
+  geo:
+    latitude: 53.7275564
+    longitude: -7.793108999999999
+    min_latitude: 53.5269053
+    min_longitude: -8.0358602
+    max_latitude: 53.9420806
+    max_longitude: -7.374903300000001
   translations:
     en: Longford
     ar: مقاطعة لونجفورد
@@ -730,18 +759,20 @@ LD:
     ga: Contae an Longfoirt
     be: графства Лонгфард
     mk: Лонгфорд
-  geo:
-    latitude: 53.7275564
-    longitude: -7.793108999999999
-    min_latitude: 53.5269053
-    min_longitude: -8.0358602
-    max_latitude: 53.9420806
-    max_longitude: -7.374903300000001
-  name: Longford
-LH:
+  comments: 
+LH: !ruby/struct:ISO3166::Subdivision
+  name: Louth
+  code: 
   unofficial_names:
   - Lughbhadh
   - Lú
+  geo:
+    latitude: 53.8969758
+    longitude: -6.467097099999999
+    min_latitude: 53.6984916
+    min_longitude: -6.695343200000001
+    max_latitude: 54.1139513
+    max_longitude: -6.1030107
   translations:
     en: Louth
     ar: مقاطعة لاوث
@@ -800,17 +831,19 @@ LH:
     et: Louthi krahvkond
     az: Laut
     mk: Лаут
-  geo:
-    latitude: 53.8969758
-    longitude: -6.467097099999999
-    min_latitude: 53.6984916
-    min_longitude: -6.695343200000001
-    max_latitude: 54.1139513
-    max_longitude: -6.1030107
-  name: Louth
-LK:
+  comments: 
+LK: !ruby/struct:ISO3166::Subdivision
+  name: Limerick
+  code: 
   unofficial_names:
   - Luimneach
+  geo:
+    latitude: 52.6680204
+    longitude: -8.630497499999999
+    min_latitude: 52.6143899
+    min_longitude: -8.68994
+    max_latitude: 52.6886401
+    max_longitude: -8.5703399
   translations:
     en: Limerick
     ar: مقاطعة لمريك
@@ -869,17 +902,19 @@ LK:
     ga: Contae Luimnigh
     hy: Լիմերիկ
     mk: Лимерик
-  geo:
-    latitude: 52.6680204
-    longitude: -8.630497499999999
-    min_latitude: 52.6143899
-    min_longitude: -8.68994
-    max_latitude: 52.6886401
-    max_longitude: -8.5703399
-  name: Limerick
-LM:
+  comments: 
+LM: !ruby/struct:ISO3166::Subdivision
+  name: Leitrim
+  code: 
   unofficial_names:
   - Liathdroim
+  geo:
+    latitude: 53.9926007
+    longitude: -8.0655852
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Leitrim
     ar: مقاطعة ليتريم
@@ -936,18 +971,20 @@ LM:
     ga: Contae Liatroma
     be: графства Літрым
     mk: Литрим
-  geo:
-    latitude: 53.9926007
-    longitude: -8.0655852
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Leitrim
-LS:
+  comments: 
+LS: !ruby/struct:ISO3166::Subdivision
+  name: Laois
+  code: 
   unofficial_names:
   - Laoighis
   - Queenʿs
+  geo:
+    latitude: 52.994295
+    longitude: -7.332300699999999
+    min_latitude: 52.7812693
+    min_longitude: -7.7346495
+    max_latitude: 53.2156522
+    max_longitude: -6.9321155
   translations:
     en: Laois
     ar: مقاطعة ليش
@@ -1004,18 +1041,20 @@ LS:
     he: מחוז לייש
     be: графтсва Лііш
     mk: Лиш
-  geo:
-    latitude: 52.994295
-    longitude: -7.332300699999999
-    min_latitude: 52.7812693
-    min_longitude: -7.7346495
-    max_latitude: 53.2156522
-    max_longitude: -6.9321155
-  name: Laois
-MH:
+  comments: 
+MH: !ruby/struct:ISO3166::Subdivision
+  name: Meath
+  code: 
   unofficial_names:
   - An Mhí
   - An Mhídhe
+  geo:
+    latitude: 53.60554800000001
+    longitude: -6.6564169
+    min_latitude: 53.38186640000001
+    min_longitude: -7.33552
+    max_latitude: 53.9176662
+    max_longitude: -6.212610499999999
   translations:
     en: Meath
     ar: مقاطعة ميث
@@ -1074,17 +1113,19 @@ MH:
     yue: 中土郡
     be: графства Міт
     mk: Мит
-  geo:
-    latitude: 53.60554800000001
-    longitude: -6.6564169
-    min_latitude: 53.38186640000001
-    min_longitude: -7.33552
-    max_latitude: 53.9176662
-    max_longitude: -6.212610499999999
-  name: Meath
-MN:
+  comments: 
+MN: !ruby/struct:ISO3166::Subdivision
+  name: Monaghan
+  code: 
   unofficial_names:
   - Muineachán
+  geo:
+    latitude: 54.2492046
+    longitude: -6.9683132
+    min_latitude: 53.9006798
+    min_longitude: -7.339505999999999
+    max_latitude: 54.4213907
+    max_longitude: -6.5497282
   translations:
     en: Monaghan
     ar: مقاطعة موناغان
@@ -1141,17 +1182,19 @@ MN:
     ga: Contae Mhuineacháin
     he: מחוז מונאהן
     mk: Монахан
-  geo:
-    latitude: 54.2492046
-    longitude: -6.9683132
-    min_latitude: 53.9006798
-    min_longitude: -7.339505999999999
-    max_latitude: 54.4213907
-    max_longitude: -6.5497282
-  name: Monaghan
-MO:
+  comments: 
+MO: !ruby/struct:ISO3166::Subdivision
+  name: Mayo
+  code: 
   unofficial_names:
   - Maigh Eo
+  geo:
+    latitude: 53.93458099999999
+    longitude: -9.351645600000001
+    min_latitude: 53.4719262
+    min_longitude: -10.2510017
+    max_latitude: 54.3454008
+    max_longitude: -8.5828617
   translations:
     en: Mayo
     ar: مقاطعة مايو
@@ -1210,20 +1253,22 @@ MO:
     ga: Contae Mhaigh Eo
     hy: Մեյո
     mk: Мејо
-  geo:
-    latitude: 53.93458099999999
-    longitude: -9.351645600000001
-    min_latitude: 53.4719262
-    min_longitude: -10.2510017
-    max_latitude: 54.3454008
-    max_longitude: -8.5828617
-  name: Mayo
-OY:
+  comments: 
+OY: !ruby/struct:ISO3166::Subdivision
+  name: Offaly
+  code: 
   unofficial_names:
   - Kingʿs
   - Kingʿs County
   - Ua Uíbh Fhailí
   - Uí Fáilghe
+  geo:
+    latitude: 53.2356871
+    longitude: -7.7122229
+    min_latitude: 52.8481718
+    min_longitude: -8.0838722
+    max_latitude: 53.424279
+    max_longitude: -6.9777077
   translations:
     en: Offaly
     ar: مقاطعة أوفالي
@@ -1281,17 +1326,19 @@ OY:
     kk: Оффали (графтық)
     be: графства Офалі
     mk: Офали
-  geo:
-    latitude: 53.2356871
-    longitude: -7.7122229
-    min_latitude: 52.8481718
-    min_longitude: -8.0838722
-    max_latitude: 53.424279
-    max_longitude: -6.9777077
-  name: Offaly
-RN:
+  comments: 
+RN: !ruby/struct:ISO3166::Subdivision
+  name: Roscommon
+  code: 
   unofficial_names:
   - Ros Comáin
+  geo:
+    latitude: 53.6275906
+    longitude: -8.189095499999999
+    min_latitude: 53.6117699
+    min_longitude: -8.20713
+    max_latitude: 53.63941999999999
+    max_longitude: -8.16418
   translations:
     en: Roscommon
     ar: مقاطعة روسكومون
@@ -1349,17 +1396,19 @@ RN:
     ga: Contae Ros Comáin
     be: графства Раскоман
     mk: Роскомон
-  geo:
-    latitude: 53.6275906
-    longitude: -8.189095499999999
-    min_latitude: 53.6117699
-    min_longitude: -8.20713
-    max_latitude: 53.63941999999999
-    max_longitude: -8.16418
-  name: Roscommon
-SO:
+  comments: 
+SO: !ruby/struct:ISO3166::Subdivision
+  name: Sligo
+  code: 
   unofficial_names:
   - Sligeach
+  geo:
+    latitude: 54.27661029999999
+    longitude: -8.4760888
+    min_latitude: 54.24951
+    min_longitude: -8.5193301
+    max_latitude: 54.2872399
+    max_longitude: -8.44213
   translations:
     en: Sligo
     ar: مقاطعة سليجو
@@ -1419,17 +1468,19 @@ SO:
     ga: Contae Shligigh
     be: графства Слайга
     mk: Слајго
-  geo:
-    latitude: 54.27661029999999
-    longitude: -8.4760888
-    min_latitude: 54.24951
-    min_longitude: -8.5193301
-    max_latitude: 54.2872399
-    max_longitude: -8.44213
-  name: Sligo
-TA:
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Tipperary
+  code: 
   unofficial_names:
   - Tiobraid Árann
+  geo:
+    latitude: 52.47378940000001
+    longitude: -8.1618514
+    min_latitude: 52.2020144
+    min_longitude: -8.4800793
+    max_latitude: 53.1675822
+    max_longitude: -7.372055800000001
   translations:
     en: Tipperary
     ar: مقاطعة تيبيراري
@@ -1485,17 +1536,19 @@ TA:
     ga: Contae Thiobraid Árann
     be: графства Тыперэры
     mk: Типерери
-  geo:
-    latitude: 52.47378940000001
-    longitude: -8.1618514
-    min_latitude: 52.2020144
-    min_longitude: -8.4800793
-    max_latitude: 53.1675822
-    max_longitude: -7.372055800000001
-  name: Tipperary
-WD:
+  comments: 
+WD: !ruby/struct:ISO3166::Subdivision
+  name: Waterford
+  code: 
   unofficial_names:
   - Port Láirge
+  geo:
+    latitude: 52.256667
+    longitude: -7.129167
+    min_latitude: 52.22481
+    min_longitude: -7.171189999999999
+    max_latitude: 52.27019989999999
+    max_longitude: -7.0548699
   translations:
     en: Waterford
     ar: مقاطعة وترفورد
@@ -1553,17 +1606,19 @@ WD:
     ccp: "\U00011103\U0001112E\U00011120\U00011111\U00011122\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134"
     ga: Contae Phort Láirge
     mk: Вотерфорд
-  geo:
-    latitude: 52.256667
-    longitude: -7.129167
-    min_latitude: 52.22481
-    min_longitude: -7.171189999999999
-    max_latitude: 52.27019989999999
-    max_longitude: -7.0548699
-  name: Waterford
-WH:
+  comments: 
+WH: !ruby/struct:ISO3166::Subdivision
+  name: Westmeath
+  code: 
   unofficial_names:
   - An Iarmhidhe
+  geo:
+    latitude: 53.5345308
+    longitude: -7.4653217
+    min_latitude: 53.31796259999999
+    min_longitude: -7.9729531
+    max_latitude: 53.7879599
+    max_longitude: -6.9547842
   translations:
     en: Westmeath
     ar: مقاطعة وستميث
@@ -1619,18 +1674,20 @@ WH:
     ga: Contae na hIarmhí
     be: графства Уэстміт
     mk: Вестмит
-  geo:
-    latitude: 53.5345308
-    longitude: -7.4653217
-    min_latitude: 53.31796259999999
-    min_longitude: -7.9729531
-    max_latitude: 53.7879599
-    max_longitude: -6.9547842
-  name: Westmeath
-WW:
+  comments: 
+WW: !ruby/struct:ISO3166::Subdivision
+  name: Wicklow
+  code: 
   unofficial_names:
   - Cill Maintain
   - Cill Mhanntáin
+  geo:
+    latitude: 52.9808207
+    longitude: -6.044588999999999
+    min_latitude: 52.9661001
+    min_longitude: -6.07004
+    max_latitude: 52.99892
+    max_longitude: -6.0154599
   translations:
     en: Wicklow
     ar: مقاطعة ويكلاو
@@ -1689,17 +1746,19 @@ WW:
     ga: Contae Chill Mhantáin
     he: מחוז ויקלו
     mk: Виклоу
-  geo:
-    latitude: 52.9808207
-    longitude: -6.044588999999999
-    min_latitude: 52.9661001
-    min_longitude: -6.07004
-    max_latitude: 52.99892
-    max_longitude: -6.0154599
-  name: Wicklow
-WX:
+  comments: 
+WX: !ruby/struct:ISO3166::Subdivision
+  name: Wexford
+  code: 
   unofficial_names:
   - Loch Garman
+  geo:
+    latitude: 52.336916
+    longitude: -6.4633381
+    min_latitude: 52.32044
+    min_longitude: -6.49995
+    max_latitude: 52.3470099
+    max_longitude: -6.4464301
   translations:
     en: Wexford
     ar: مقاطعة وكسفورد
@@ -1756,18 +1815,20 @@ WX:
     ga: Contae Loch Garman
     be: графства Уэксфард
     mk: Вексфорд
-  geo:
-    latitude: 52.336916
-    longitude: -6.4633381
-    min_latitude: 52.32044
-    min_longitude: -6.49995
-    max_latitude: 52.3470099
-    max_longitude: -6.4464301
-  name: Wexford
-CO:
+  comments: 
+CO: !ruby/struct:ISO3166::Subdivision
+  name: Cork
+  code: 
   unofficial_names:
   - Corcaigh
   - County Cork
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة كورك
     be: Графства Корк
@@ -1829,6 +1890,11 @@ CO:
     ccp: "\U00011107\U00011127\U00011122\U00011134\U00011107\U00011134"
     ga: Contae Chorcaí
     mk: Корк
+  comments: 
+L: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1836,9 +1902,6 @@ CO:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Cork
-L:
-  unofficial_names: 
   translations:
     ar: لاينستر
     be: Ленстэр
@@ -1888,6 +1951,11 @@ L:
     hy: Լենստեր
     yue: 利揚省
     mk: Ленстер
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1895,8 +1963,6 @@ L:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-M:
-  unofficial_names: 
   translations:
     ar: مونستر
     be: Манстэр
@@ -1947,6 +2013,11 @@ M:
     kk: Мунстер
     yue: 莫雲省
     mk: Манстер
+  comments: 
+U: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1954,8 +2025,6 @@ M:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-U:
-  unofficial_names: 
   translations:
     ar: أولستر
     az: Olster
@@ -2010,10 +2079,4 @@ U:
     yue: 烏勒省
     bs: Ulster
     mk: Алстер
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

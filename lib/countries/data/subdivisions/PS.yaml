@@ -1,6 +1,15 @@
 ---
-BTH:
+BTH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة بيت لحم
     bn: বেথেলহাম গভর্নোরেট
@@ -44,6 +53,11 @@ BTH:
     lv: Bētlemes muhāfaza
     ccp: "\U0001111D\U0001112C\U00011117\U0001112C\U00011123\U00011134\U00011126\U0001111F\U00011134"
     be: Віфлеем
+  comments: 
+DEB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -51,8 +65,6 @@ BTH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-DEB:
-  unofficial_names: 
   translations:
     ar: الوسطى
     bn: দেইর আল-বালাহ গভর্নোরেট
@@ -96,6 +108,11 @@ DEB:
       \U0001111D\U00011123\U00011126\U00011134"
     he: דיר אל-בלח (נפה)
     uk: Муніципалітет Дейр-ель-Балах
+  comments: 
+GZA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -103,8 +120,6 @@ DEB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-GZA:
-  unofficial_names: 
   translations:
     ar: محافظة غزة
     ca: Governació de Gaza
@@ -129,6 +144,11 @@ GZA:
     he: עזה (נפה)
     it: governatorato di Gaza
     uk: мугафаза Ґаза
+  comments: 
+HBN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -136,8 +156,6 @@ GZA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-HBN:
-  unofficial_names: 
   translations:
     ar: محافظة الخليل
     bn: হেবরন গভর্নোরেট
@@ -180,6 +198,11 @@ HBN:
     lv: Hebronas muhāfaza
     zh: 希布伦省
     ccp: "\U00011126\U0001112C\U0001111D\U00011133\U00011122\U00011127\U0001111A\U00011134"
+  comments: 
+JEM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -187,8 +210,6 @@ HBN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JEM:
-  unofficial_names: 
   translations:
     ar: القدس
     ca: Governació de Jerusalem
@@ -213,6 +234,11 @@ JEM:
     ccp: "\U0001110E\U0001112C\U00011122\U0001112A\U0001110E\U00011123\U0001112C\U0001111F\U00011134"
     de: Gouvernement Jerusalem
     be: Іерусалім
+  comments: 
+JEN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -220,8 +246,6 @@ JEM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JEN:
-  unofficial_names: 
   translations:
     ar: جنين
     ca: Governació de Jenin
@@ -246,6 +270,11 @@ JEN:
     zh: 杰宁省
     pl: Dżanin
     ccp: "\U0001110E\U0001112C\U0001111A\U00011128\U0001111A\U00011134"
+  comments: 
+JRH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -253,8 +282,6 @@ JEN:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JRH:
-  unofficial_names: 
   translations:
     ar: أريحا
     ca: Governació de Jericó
@@ -275,6 +302,11 @@ JRH:
     zh: 杰里科省
     pl: Jerycho
     ccp: "\U0001110E\U0001112C\U00011122\U00011128\U00011107\U0001112E"
+  comments: 
+KYS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -282,8 +314,6 @@ JRH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-KYS:
-  unofficial_names: 
   translations:
     ar: محافظة خان يونس
     ca: Governació de Khan Yunis
@@ -308,6 +338,11 @@ KYS:
     ccp: "\U00011108\U0001111A\U00011134 \U00011103\U00011128\U00011105\U0001112A\U0001111A\U0001112A\U0001110C\U00011134"
     he: ח׳אן יונס (נפה)
     it: governatorato di Khan Yunis
+  comments: 
+NBS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -315,8 +350,6 @@ KYS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NBS:
-  unofficial_names: 
   translations:
     ar: محافظة نابلس
     be: Наблус
@@ -360,6 +393,11 @@ NBS:
     zh: 纳布卢斯省
     ccp: "\U0001111A\U0001111B\U00011134\U00011123\U0001110C\U00011134"
     uk: Муніципалітет Наблус
+  comments: 
+NGZ: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -367,8 +405,6 @@ NBS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-NGZ:
-  unofficial_names: 
   translations:
     ar: شمال غزة
     bn: উত্তর গাজা গভর্নোরেট
@@ -413,6 +449,11 @@ NGZ:
       \U00011109\U0001110E"
     he: צפון עזה (נפה)
     uk: Муніципалітет Північна Газа
+  comments: 
+QQA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -420,8 +461,6 @@ NGZ:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-QQA:
-  unofficial_names: 
   translations:
     ar: محافظة قلقيلية
     bn: কাল্কিলিয়া গভর্নোরেট
@@ -464,6 +503,11 @@ QQA:
     zh: 盖勒吉利耶省
     ccp: "\U00011107\U0001112A\U00011120\U00011123\U00011134\U00011107\U0001112A\U00011123\U00011128\U00011120"
     uk: Муніципалітет Калькілія
+  comments: 
+RBH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -471,8 +515,6 @@ QQA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RBH:
-  unofficial_names: 
   translations:
     ar: رام الله والبيرة
     bn: রামাল্লাহ ও আল-বিরেহ গভর্নোরেট
@@ -515,6 +557,11 @@ RBH:
     ccp: "\U00011122\U0001111F\U00011123\U00011133\U00011123\U00011126\U00011134 \U00011103\U00011133\U00011103
       \U00011103\U00011123\U00011134-\U0001111D\U00011128\U00011122\U0001112C\U00011126\U00011134"
     uk: Муніципалітет Рамалла та ель-Біра
+  comments: 
+RFH: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -522,8 +569,6 @@ RBH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RFH:
-  unofficial_names: 
   translations:
     ar: محافظة رفح الفلسطينية
     ca: Governació de Rafah
@@ -548,6 +593,11 @@ RFH:
     pl: Rafah
     ccp: "\U00011122\U0001111C\U00011126\U00011134"
     it: governatorato di Rafah
+  comments: 
+SLT: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -555,8 +605,6 @@ RFH:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-SLT:
-  unofficial_names: 
   translations:
     ar: محافظة سلفيت
     bn: সালফিত গভর্নোরেট
@@ -599,6 +647,11 @@ SLT:
     zh: 萨尔费特省
     ccp: "\U00011125\U00011123\U00011134\U0001111C\U00011128\U00011116\U00011134"
     uk: Муніципалітет Салфіт
+  comments: 
+TBS: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -606,8 +659,6 @@ SLT:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TBS:
-  unofficial_names: 
   translations:
     ar: محافظة طوباس
     ca: Governació de Tubas
@@ -631,6 +682,11 @@ TBS:
     pl: Tubas
     ccp: "\U00011111\U0001112A\U0001111D\U0001110C\U00011134"
     it: governatorato di Tubas
+  comments: 
+TKM: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -638,8 +694,6 @@ TBS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-TKM:
-  unofficial_names: 
   translations:
     ar: محافظة طولكرم
     bn: তুল্কারম গভর্নোরেট
@@ -682,10 +736,4 @@ TKM:
     zh: 图勒凯尔姆省
     ccp: "\U00011111\U0001112A\U00011123\U00011134\U00011107\U00011122\U00011134\U0001111F\U00011134"
     uk: Муніципалітет Тулькарм
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

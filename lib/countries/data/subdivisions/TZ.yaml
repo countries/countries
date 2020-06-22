@@ -1,6 +1,15 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Arusha
+  code: 
   unofficial_names: Arusha
+  geo:
+    latitude: -3.372301
+    longitude: 36.6944136
+    min_latitude: -3.4624464
+    min_longitude: 36.6108228
+    max_latitude: -3.3338411
+    max_longitude: 36.7436028
   translations:
     en: Arusha
     ar: إقليم أروشا
@@ -53,17 +62,19 @@
     ccp: "\U00011103\U00011122\U0001112A\U00011125"
     yue: 阿魯沙區
     yo: Agbègbè Arusha
-  geo:
-    latitude: -3.372301
-    longitude: 36.6944136
-    min_latitude: -3.4624464
-    min_longitude: 36.6108228
-    max_latitude: -3.3338411
-    max_longitude: 36.7436028
-  name: Arusha
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Dar es Salaam
+  code: 
   unofficial_names:
   - Daressalam
+  geo:
+    latitude: -6.8
+    longitude: 39.283333
+    min_latitude: -6.950965
+    min_longitude: 39.0268707
+    max_latitude: -6.5891538
+    max_longitude: 39.4815816
   translations:
     en: Dar es Salaam
     ar: إقليم دار السلام
@@ -115,16 +126,18 @@
     uk: Регіон Дар-ес-Салам
     yo: Agbègbè Dar es Salaam
     mk: Дар ес Салам
-  geo:
-    latitude: -6.8
-    longitude: 39.283333
-    min_latitude: -6.950965
-    min_longitude: 39.0268707
-    max_latitude: -6.5891538
-    max_longitude: 39.4815816
-  name: Dar es Salaam
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Dodoma
+  code: 
   unofficial_names: Dodoma
+  geo:
+    latitude: -6.173056
+    longitude: 35.741944
+    min_latitude: -6.2163048
+    min_longitude: 35.6944152
+    max_latitude: -6.120853100000001
+    max_longitude: 35.8233639
   translations:
     en: Dodoma
     bg: Додома
@@ -164,16 +177,18 @@
     yue: 杜篤瑪區
     yo: Agbègbè Dodoma
     mk: Додома
-  geo:
-    latitude: -6.173056
-    longitude: 35.741944
-    min_latitude: -6.2163048
-    min_longitude: 35.6944152
-    max_latitude: -6.120853100000001
-    max_longitude: 35.8233639
-  name: Dodoma
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Iringa
+  code: 
   unofficial_names: Iringa
+  geo:
+    latitude: -7.77
+    longitude: 35.69
+    min_latitude: -7.815317299999999
+    min_longitude: 35.6575782
+    max_latitude: -7.723390999999999
+    max_longitude: 35.7300982
   translations:
     en: Iringa
     ar: إقليم إيرينغا
@@ -226,18 +241,20 @@
     ccp: "\U00011103\U00011128\U00011122\U00011128\U0001111A\U00011134\U00011109"
     yue: 伊林加區
     yo: Agbègbè Iringa
-  geo:
-    latitude: -7.77
-    longitude: 35.69
-    min_latitude: -7.815317299999999
-    min_longitude: 35.6575782
-    max_latitude: -7.723390999999999
-    max_longitude: 35.7300982
-  name: Iringa
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Kagera
+  code: 
   unofficial_names:
   - Akagera
   - Ziwa Magharibi
+  geo:
+    latitude: -2.3751124
+    longitude: 31.2626366
+    min_latitude: -3.3440899
+    min_longitude: 30.4033911
+    max_latitude: -0.990736
+    max_longitude: 32.6189474
   translations:
     en: Kagera
     ar: إقليم كاجيرا
@@ -290,16 +307,18 @@
     uk: Регіон Кагера
     yue: 卡蓋拉區
     yo: Agbègbè Kagera
-  geo:
-    latitude: -2.3751124
-    longitude: 31.2626366
-    min_latitude: -3.3440899
-    min_longitude: 30.4033911
-    max_latitude: -0.990736
-    max_longitude: 32.6189474
-  name: Kagera
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Kaskazini Pemba
+  code: 
   unofficial_names: Kaskazini Pemba
+  geo:
+    latitude: -5.031935199999999
+    longitude: 39.7755571
+    min_latitude: -5.2071645
+    min_longitude: 39.6152071
+    max_latitude: -4.8667473
+    max_longitude: 39.875565
   translations:
     en: North Pemba
     ar: إقليم شمال بيمبا
@@ -352,17 +371,19 @@
     uk: Регіон Пемба Північна
     yue: 北奔巴區
     yo: Agbègbè Pemba Àríwá
-  geo:
-    latitude: -5.031935199999999
-    longitude: 39.7755571
-    min_latitude: -5.2071645
-    min_longitude: 39.6152071
-    max_latitude: -4.8667473
-    max_longitude: 39.875565
-  name: Kaskazini Pemba
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Kaskazini Unguja
+  code: 
   unofficial_names:
   - Unguja
+  geo:
+    latitude: -5.9395093
+    longitude: 39.2791011
+    min_latitude: -6.083642999999999
+    min_longitude: 39.186363
+    max_latitude: -5.721938
+    max_longitude: 39.409218
   translations:
     en: Zanzibar North
     ar: إقليم شمال زنجبار
@@ -416,16 +437,18 @@
     yue: 北安古迦區
     yo: Agbègbè Zanzibar Àríwá
     mk: Занзибар Север
-  geo:
-    latitude: -5.9395093
-    longitude: 39.2791011
-    min_latitude: -6.083642999999999
-    min_longitude: 39.186363
-    max_latitude: -5.721938
-    max_longitude: 39.409218
-  name: Kaskazini Unguja
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Kigoma
+  code: 
   unofficial_names: Kigoma
+  geo:
+    latitude: -4.883332999999999
+    longitude: 29.633333
+    min_latitude: -4.9241075
+    min_longitude: 29.5995595
+    max_latitude: -4.8398476
+    max_longitude: 29.7011989
   translations:
     en: Kigoma
     ar: إقليم كيغوما
@@ -479,16 +502,18 @@
     uk: Регіон Кігома
     yue: 基戈馬區
     yo: Agbègbè Kigoma
-  geo:
-    latitude: -4.883332999999999
-    longitude: 29.633333
-    min_latitude: -4.9241075
-    min_longitude: 29.5995595
-    max_latitude: -4.8398476
-    max_longitude: 29.7011989
-  name: Kigoma
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Kilimanjaro
+  code: 
   unofficial_names: Kilimanjaro
+  geo:
+    latitude: -4.1336927
+    longitude: 37.8087693
+    min_latitude: -4.623959999999999
+    min_longitude: 36.97385
+    max_latitude: -2.8484581
+    max_longitude: 38.471599
   translations:
     en: Kilimanjaro
     ar: مقاطعة كليمنجارو
@@ -541,16 +566,18 @@
     ccp: "\U00011107\U00011128\U00011123\U00011128\U0001111F\U0001111A\U00011134\U0001110E\U00011122\U0001112E"
     yue: 乞力馬扎羅區
     yo: Agbègbè Kilimanjaro
-  geo:
-    latitude: -4.1336927
-    longitude: 37.8087693
-    min_latitude: -4.623959999999999
-    min_longitude: 36.97385
-    max_latitude: -2.8484581
-    max_longitude: 38.471599
-  name: Kilimanjaro
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Kusini Pemba
+  code: 
   unofficial_names: Kusini Pemba
+  geo:
+    latitude: -5.3146961
+    longitude: 39.7549511
+    min_latitude: -5.476286
+    min_longitude: 39.580599
+    max_latitude: -5.1784691
+    max_longitude: 39.8530017
   translations:
     en: South Pemba
     ar: إقليم جنوب بيمبا
@@ -602,16 +629,18 @@
     uk: Регіон Південна Пемба
     yue: 南奔巴區
     yo: Agbègbè Pemba Gúúsù
-  geo:
-    latitude: -5.3146961
-    longitude: 39.7549511
-    min_latitude: -5.476286
-    min_longitude: 39.580599
-    max_latitude: -5.1784691
-    max_longitude: 39.8530017
-  name: Kusini Pemba
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Kusini Unguja
+  code: 
   unofficial_names: Kusini Unguja
+  geo:
+    latitude: -6.2036563
+    longitude: 39.3621196
+    min_latitude: -6.476134999999999
+    min_longitude: 39.26983999999999
+    max_latitude: -6.0552399
+    max_longitude: 39.579086
   translations:
     en: Zanzibar Central/South
     bg: Централен/Южен Занзибар
@@ -643,16 +672,18 @@
     uk: Занзібар Південний
     yue: 南安古迦區
     yo: Agbègbè Zanzibar Àrin/Gúúsù
-  geo:
-    latitude: -6.2036563
-    longitude: 39.3621196
-    min_latitude: -6.476134999999999
-    min_longitude: 39.26983999999999
-    max_latitude: -6.0552399
-    max_longitude: 39.579086
-  name: Kusini Unguja
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Lindi
+  code: 
   unofficial_names: Lindi
+  geo:
+    latitude: -9.996944
+    longitude: 39.714444
+    min_latitude: -10.0248502
+    min_longitude: 39.6923375
+    max_latitude: -9.9624893
+    max_longitude: 39.7192051
   translations:
     en: Lindi
     ar: إقليم ليندي
@@ -706,16 +737,18 @@
     uk: Регіон Лінді
     yue: 蓮迪區
     yo: Agbègbè Lindi
-  geo:
-    latitude: -9.996944
-    longitude: 39.714444
-    min_latitude: -10.0248502
-    min_longitude: 39.6923375
-    max_latitude: -9.9624893
-    max_longitude: 39.7192051
-  name: Lindi
-'13':
+  comments: 
+'13': !ruby/struct:ISO3166::Subdivision
+  name: Mara
+  code: 
   unofficial_names: Mara
+  geo:
+    latitude: -1.7753538
+    longitude: 34.1531947
+    min_latitude: -2.528427
+    min_longitude: 32.7954015
+    max_latitude: -1.0252941
+    max_longitude: 35.32159
   translations:
     en: Mara
     ar: اقليم مارا
@@ -768,16 +801,18 @@
     uk: Регіон Мара
     yue: 馬拉區
     yo: Agbègbè Mara
-  geo:
-    latitude: -1.7753538
-    longitude: 34.1531947
-    min_latitude: -2.528427
-    min_longitude: 32.7954015
-    max_latitude: -1.0252941
-    max_longitude: 35.32159
-  name: Mara
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: Mbeya
+  code: 
   unofficial_names: Mbeya
+  geo:
+    latitude: -8.9
+    longitude: 33.45
+    min_latitude: -8.9592026
+    min_longitude: 33.3601812
+    max_latitude: -8.8526556
+    max_longitude: 33.5545536
   translations:
     en: Mbeya
     ar: إقليم مبيا
@@ -830,16 +865,18 @@
     uk: Мбея
     yue: 姆貝亞區
     yo: Agbègbè Mbeya
-  geo:
-    latitude: -8.9
-    longitude: 33.45
-    min_latitude: -8.9592026
-    min_longitude: 33.3601812
-    max_latitude: -8.8526556
-    max_longitude: 33.5545536
-  name: Mbeya
-'15':
+  comments: 
+'15': !ruby/struct:ISO3166::Subdivision
+  name: Mjini Magharibi
+  code: 
   unofficial_names: Mjini Magharibi
+  geo:
+    latitude: -6.229813600000001
+    longitude: 39.2583293
+    min_latitude: -6.3821774
+    min_longitude: 39.1856115
+    max_latitude: -6.076521199999999
+    max_longitude: 39.2991794
   translations:
     en: Zanzibar Urban/West
     bg: Западен Занзибар
@@ -889,16 +926,18 @@
     uk: Регіон Західний Занзібар
     yue: 桑給巴爾西區
     yo: Agbègbè Zanzibar Ìlú/Ìwọ̀orùn
-  geo:
-    latitude: -6.229813600000001
-    longitude: 39.2583293
-    min_latitude: -6.3821774
-    min_longitude: 39.1856115
-    max_latitude: -6.076521199999999
-    max_longitude: 39.2991794
-  name: Mjini Magharibi
-'16':
+  comments: 
+'16': !ruby/struct:ISO3166::Subdivision
+  name: Morogoro
+  code: 
   unofficial_names: Morogoro
+  geo:
+    latitude: -6.816667000000001
+    longitude: 37.666667
+    min_latitude: -6.8526342
+    min_longitude: 37.623539
+    max_latitude: -6.792040699999999
+    max_longitude: 37.69769670000001
   translations:
     en: Morogoro
     ar: إقليم موروغورو
@@ -951,17 +990,19 @@
     uk: Морогоро
     yue: 莫羅戈羅區
     yo: Agbègbè Morogoro
-  geo:
-    latitude: -6.816667000000001
-    longitude: 37.666667
-    min_latitude: -6.8526342
-    min_longitude: 37.623539
-    max_latitude: -6.792040699999999
-    max_longitude: 37.69769670000001
-  name: Morogoro
-'17':
+  comments: 
+'17': !ruby/struct:ISO3166::Subdivision
+  name: Mtwara
+  code: 
   unofficial_names:
   - Mtware
+  geo:
+    latitude: -10.273611
+    longitude: 40.182778
+    min_latitude: -10.382298
+    min_longitude: 40.1423263
+    max_latitude: -10.2536284
+    max_longitude: 40.212965
   translations:
     en: Mtwara
     ar: إقليم متوارا
@@ -1014,16 +1055,18 @@
     uk: Регіон Мтвара
     yue: 姆特華拉區
     yo: Agbègbè Mtwara
-  geo:
-    latitude: -10.273611
-    longitude: 40.182778
-    min_latitude: -10.382298
-    min_longitude: 40.1423263
-    max_latitude: -10.2536284
-    max_longitude: 40.212965
-  name: Mtwara
-'18':
+  comments: 
+'18': !ruby/struct:ISO3166::Subdivision
+  name: Mwanza
+  code: 
   unofficial_names: Mwanza
+  geo:
+    latitude: -2.516667
+    longitude: 32.9
+    min_latitude: -2.5725184
+    min_longitude: 32.8744311
+    max_latitude: -2.4342968
+    max_longitude: 32.9982823
   translations:
     en: Mwanza
     ar: إقليم موانزا
@@ -1076,17 +1119,19 @@
     uk: Регіон Мванза
     yue: 姆宛札區
     yo: Agbègbè Mwanza
-  geo:
-    latitude: -2.516667
-    longitude: 32.9
-    min_latitude: -2.5725184
-    min_longitude: 32.8744311
-    max_latitude: -2.4342968
-    max_longitude: 32.9982823
-  name: Mwanza
-'19':
+  comments: 
+'19': !ruby/struct:ISO3166::Subdivision
+  name: Pwani
+  code: 
   unofficial_names:
   - Coast
+  geo:
+    latitude: -7.323771400000001
+    longitude: 38.8205454
+    min_latitude: -8.4510141
+    min_longitude: 37.8144299
+    max_latitude: -5.828001
+    max_longitude: 39.910326
   translations:
     en: Pwani
     ar: إقليم بواني
@@ -1139,16 +1184,18 @@
     uk: Регіон Пвані
     yue: 濱海區
     yo: Agbègbè Pwani
-  geo:
-    latitude: -7.323771400000001
-    longitude: 38.8205454
-    min_latitude: -8.4510141
-    min_longitude: 37.8144299
-    max_latitude: -5.828001
-    max_longitude: 39.910326
-  name: Pwani
-'20':
+  comments: 
+'20': !ruby/struct:ISO3166::Subdivision
+  name: Rukwa
+  code: 
   unofficial_names: Rukwa
+  geo:
+    latitude: -6.965368499999999
+    longitude: 31.2626366
+    min_latitude: -9.076138
+    min_longitude: 29.95819109999999
+    max_latitude: -5.182548100000001
+    max_longitude: 32.7445109
   translations:
     en: Rukwa
     ar: إقليم روكوا
@@ -1200,16 +1247,18 @@
     uk: Регіон Руква
     yue: 魯夸區
     yo: Agbègbè Rukwa
-  geo:
-    latitude: -6.965368499999999
-    longitude: 31.2626366
-    min_latitude: -9.076138
-    min_longitude: 29.95819109999999
-    max_latitude: -5.182548100000001
-    max_longitude: 32.7445109
-  name: Rukwa
-'21':
+  comments: 
+'21': !ruby/struct:ISO3166::Subdivision
+  name: Ruvuma
+  code: 
   unofficial_names: Ruvuma
+  geo:
+    latitude: -10.6878717
+    longitude: 36.2630846
+    min_latitude: -11.745696
+    min_longitude: 34.5682455
+    max_latitude: -9.1864479
+    max_longitude: 38.071091
   translations:
     en: Ruvuma
     ar: إقليم روفوما
@@ -1262,16 +1311,18 @@
     yue: 魯伍馬區
     yo: Agbègbè Ruvuma
     mk: Рувума
-  geo:
-    latitude: -10.6878717
-    longitude: 36.2630846
-    min_latitude: -11.745696
-    min_longitude: 34.5682455
-    max_latitude: -9.1864479
-    max_longitude: 38.071091
-  name: Ruvuma
-'22':
+  comments: 
+'22': !ruby/struct:ISO3166::Subdivision
+  name: Shinyanga
+  code: 
   unofficial_names: Shinyanga
+  geo:
+    latitude: -3.661944
+    longitude: 33.423056
+    min_latitude: -3.6935938
+    min_longitude: 33.3919132
+    max_latitude: -3.650936499999999
+    max_longitude: 33.4494835
   translations:
     en: Shinyanga
     ar: إقليم شينيانغا
@@ -1323,16 +1374,18 @@
     uk: Регіон Шиньянга
     yue: 辛陽賈區
     yo: Agbègbè Shinyanga
-  geo:
-    latitude: -3.661944
-    longitude: 33.423056
-    min_latitude: -3.6935938
-    min_longitude: 33.3919132
-    max_latitude: -3.650936499999999
-    max_longitude: 33.4494835
-  name: Shinyanga
-'23':
+  comments: 
+'23': !ruby/struct:ISO3166::Subdivision
+  name: Singida
+  code: 
   unofficial_names: Singida
+  geo:
+    latitude: -4.819999999999999
+    longitude: 34.73999999999999
+    min_latitude: -4.8474173
+    min_longitude: 34.706626
+    max_latitude: -4.777412600000001
+    max_longitude: 34.7794962
   translations:
     en: Singida
     ar: اقليم سينغيدا
@@ -1384,16 +1437,18 @@
     uk: Регіон Сингіда
     yue: 辛基達區
     yo: Agbègbè Singida
-  geo:
-    latitude: -4.819999999999999
-    longitude: 34.73999999999999
-    min_latitude: -4.8474173
-    min_longitude: 34.706626
-    max_latitude: -4.777412600000001
-    max_longitude: 34.7794962
-  name: Singida
-'24':
+  comments: 
+'24': !ruby/struct:ISO3166::Subdivision
+  name: Tabora
+  code: 
   unofficial_names: Tabora
+  geo:
+    latitude: -5.016667
+    longitude: 32.8
+    min_latitude: -5.0897659
+    min_longitude: 32.7742009
+    max_latitude: -4.9860158
+    max_longitude: 32.8532632
   translations:
     en: Tabora
     ar: إقليم تابورا
@@ -1446,16 +1501,18 @@
     uk: Регіон Табора
     yue: 塔波拉區
     yo: Agbègbè Tabora
-  geo:
-    latitude: -5.016667
-    longitude: 32.8
-    min_latitude: -5.0897659
-    min_longitude: 32.7742009
-    max_latitude: -4.9860158
-    max_longitude: 32.8532632
-  name: Tabora
-'25':
+  comments: 
+'25': !ruby/struct:ISO3166::Subdivision
+  name: Tanga
+  code: 
   unofficial_names: Tanga
+  geo:
+    latitude: -5.0888751
+    longitude: 39.1023228
+    min_latitude: -5.1261043
+    min_longitude: 39.0567078
+    max_latitude: -5.0548382
+    max_longitude: 39.1312501
   translations:
     en: Tanga
     ar: مقاطعة تانغا
@@ -1509,16 +1566,18 @@
     uk: Танга
     yue: 坦噶區
     yo: Agbègbè Tanga
-  geo:
-    latitude: -5.0888751
-    longitude: 39.1023228
-    min_latitude: -5.1261043
-    min_longitude: 39.0567078
-    max_latitude: -5.0548382
-    max_longitude: 39.1312501
-  name: Tanga
-'26':
+  comments: 
+'26': !ruby/struct:ISO3166::Subdivision
+  name: Manyara
+  code: 
   unofficial_names: Manyara
+  geo:
+    latitude: -4.3150058
+    longitude: 36.954107
+    min_latitude: -5.980841
+    min_longitude: 34.78854
+    max_latitude: -3.391186
+    max_longitude: 38.0391009
   translations:
     en: Manyara
     ar: إقليم مانيارا
@@ -1571,16 +1630,18 @@
     uk: Регіон Маньяра
     yue: 曼亞拉區
     yo: Agbègbè Manyara
-  geo:
-    latitude: -4.3150058
-    longitude: 36.954107
-    min_latitude: -5.980841
-    min_longitude: 34.78854
-    max_latitude: -3.391186
-    max_longitude: 38.0391009
-  name: Manyara
-'27':
+  comments: 
+'27': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إقليم جيتا
     bn: গীতা অঞ্চল
@@ -1626,6 +1687,11 @@
     ccp: "\U00011109\U00011128\U00011120\U0001112C\U00011111"
     uk: Регіон Гейта
     yue: 蓋塔區
+  comments: 
+'28': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1633,8 +1699,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'28':
-  unofficial_names: 
   translations:
     ar: إقليم كاتافي
     bn: কাটাভি অঞ্চল
@@ -1678,6 +1742,11 @@
     ccp: "\U00011107\U00011111\U0001111E\U00011128"
     uk: Регіон Катаві
     yue: 卡塔維區
+  comments: 
+'29': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1685,8 +1754,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'29':
-  unofficial_names: 
   translations:
     ar: إقليم نجومبي
     bn: জম্বে অঞ্চল
@@ -1731,6 +1798,11 @@
     ccp: "\U0001110E\U0001112E\U0001111F\U00011134\U0001111D\U00011128"
     uk: Регіон Нджомбе
     yue: 恩瓊貝區
+  comments: 
+'30': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1738,8 +1810,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'30':
-  unofficial_names: 
   translations:
     ar: اقليم سيميو
     bn: সিমিয়ো অঞ্চল
@@ -1783,13 +1853,18 @@
     ccp: "\U00011125\U00011128\U0001111F\U00011128\U00011120\U0001112A"
     uk: Регіон Сімію
     yue: 錫米尤區
+  comments: 
+'31': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-'31':
+    latitude: -6.369028
+    longitude: 34.888822
+    min_latitude: -11.7612539
+    min_longitude: 29.34
+    max_latitude: -0.9843968000000001
+    max_longitude: 40.6398
   translations:
     en: Songwe
+  comments: 

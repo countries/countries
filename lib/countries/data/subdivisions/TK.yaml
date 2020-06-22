@@ -1,8 +1,8 @@
 ---
-A:
+A: !ruby/struct:ISO3166::Subdivision
+  name: Atafu
+  code: 
   unofficial_names: Atafu
-  translations:
-    en: Atafu
   geo:
     latitude: -8.558
     longitude: -172.497
@@ -10,12 +10,13 @@ A:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Atafu
-  comments: 
-F:
-  unofficial_names: Fakaofo
   translations:
-    en: Fakaofo
+    en: Atafu
+  comments: 
+F: !ruby/struct:ISO3166::Subdivision
+  name: Fakaofo
+  code: 
+  unofficial_names: Fakaofo
   geo:
     latitude: -9.376
     longitude: -171.233
@@ -23,12 +24,13 @@ F:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Fakaofo
-  comments: 
-N:
-  unofficial_names: Nukunonu
   translations:
-    en: Nukunonu
+    en: Fakaofo
+  comments: 
+N: !ruby/struct:ISO3166::Subdivision
+  name: Nukunonu
+  code: 
+  unofficial_names: Nukunonu
   geo:
     latitude: -9.169
     longitude: -171.83
@@ -36,5 +38,6 @@ N:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Nukunonu
+  translations:
+    en: Nukunonu
   comments: 

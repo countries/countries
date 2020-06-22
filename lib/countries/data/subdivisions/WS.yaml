@@ -1,6 +1,15 @@
 ---
-AA:
+AA: !ruby/struct:ISO3166::Subdivision
+  name: A'ana
+  code: 
   unofficial_names: A'ana
+  geo:
+    latitude: -13.898418
+    longitude: -171.9752995
+    min_latitude: -13.9828759
+    min_longitude: -172.053955
+    max_latitude: -13.8038838
+    max_longitude: -171.887704
   translations:
     en: A’ana
     ar: آنا
@@ -44,16 +53,18 @@ AA:
     ccp: "\U00011103‘\U0001111A"
     eu: A’ana
     uk: Аана
-  geo:
-    latitude: -13.898418
-    longitude: -171.9752995
-    min_latitude: -13.9828759
-    min_longitude: -172.053955
-    max_latitude: -13.8038838
-    max_longitude: -171.887704
-  name: A'ana
-AL:
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Aiga-i-le-Tai
+  code: 
   unofficial_names: Aiga-i-le-Tai
+  geo:
+    latitude: -13.8513791
+    longitude: -172.0325401
+    min_latitude: -13.8878389
+    min_longitude: -172.046524
+    max_latitude: -13.8370255
+    max_longitude: -172.00878
   translations:
     en: Aiga-i-le-Tai
     ar: إيغايليتاي
@@ -97,16 +108,18 @@ AL:
     ccp: "\U00011103\U0001112D\U0001110E-\U00011103\U00011128-\U00011123\U00011128-\U00011111\U0001112D"
     eu: Aiga-i-le-Tai
     uk: Аіга-і-ле-Таі
-  geo:
-    latitude: -13.8513791
-    longitude: -172.0325401
-    min_latitude: -13.8878389
-    min_longitude: -172.046524
-    max_latitude: -13.8370255
-    max_longitude: -172.00878
-  name: Aiga-i-le-Tai
-AT:
+  comments: 
+AT: !ruby/struct:ISO3166::Subdivision
+  name: Atua
+  code: 
   unofficial_names: Atua
+  geo:
+    latitude: -13.9787053
+    longitude: -171.6254283
+    min_latitude: -14.0407277
+    min_longitude: -171.727493
+    max_latitude: -13.8610281
+    max_longitude: -171.4177249
   translations:
     en: Atua
     ar: أتوا
@@ -149,16 +162,18 @@ AT:
     ccp: "\U00011103\U00011111\U0001112A\U00011120"
     eu: Atua
     uk: Район Атуа
-  geo:
-    latitude: -13.9787053
-    longitude: -171.6254283
-    min_latitude: -14.0407277
-    min_longitude: -171.727493
-    max_latitude: -13.8610281
-    max_longitude: -171.4177249
-  name: Atua
-FA:
+  comments: 
+FA: !ruby/struct:ISO3166::Subdivision
+  name: Fa'asaleleaga
+  code: 
   unofficial_names: Fa'asaleleaga
+  geo:
+    latitude: -13.6307638
+    longitude: -172.2365981
+    min_latitude: -13.797492
+    min_longitude: -172.336349
+    max_latitude: -13.5512859
+    max_longitude: -172.1738909
   translations:
     en: Fa’asaleleaga
     ar: فاساليلياغا
@@ -201,16 +216,18 @@ FA:
     ccp: "\U0001111C‘\U00011103\U00011125\U00011123\U0001112C\U00011123\U00011128\U00011109"
     eu: Fa’asaleleaga
     uk: Фаасалелеага
-  geo:
-    latitude: -13.6307638
-    longitude: -172.2365981
-    min_latitude: -13.797492
-    min_longitude: -172.336349
-    max_latitude: -13.5512859
-    max_longitude: -172.1738909
-  name: Fa'asaleleaga
-GE:
+  comments: 
+GE: !ruby/struct:ISO3166::Subdivision
+  name: Gaga'emauga
+  code: 
   unofficial_names: Gaga'emauga
+  geo:
+    latitude: -13.5428666
+    longitude: -172.366887
+    min_latitude: -14.00063
+    min_longitude: -172.419285
+    max_latitude: -13.4400333
+    max_longitude: -171.87703
   translations:
     en: Gaga’emauga
     ar: غاغايموجا
@@ -253,16 +270,18 @@ GE:
     ccp: "\U00011109\U00011109‘ \U00011103\U00011128\U0001111F\U00011105\U0001112A\U00011109"
     eu: Gaga’emauga
     uk: Гагаемауга
-  geo:
-    latitude: -13.5428666
-    longitude: -172.366887
-    min_latitude: -14.00063
-    min_longitude: -172.419285
-    max_latitude: -13.4400333
-    max_longitude: -171.87703
-  name: Gaga'emauga
-GI:
+  comments: 
+GI: !ruby/struct:ISO3166::Subdivision
+  name: Gagaifomauga
+  code: 
   unofficial_names: Gagaifomauga
+  geo:
+    latitude: -13.5468007
+    longitude: -172.4969331
+    min_latitude: -13.623739
+    min_longitude: -172.614889
+    max_latitude: -13.4459932
+    max_longitude: -172.3743356
   translations:
     en: Gaga’ifomauga
     ar: غاغايفوماغا
@@ -306,16 +325,18 @@ GI:
     eu: Gaga’ifomauga
     uk: Гагаіфомауга
     bg: Гагаифомауга
-  geo:
-    latitude: -13.5468007
-    longitude: -172.4969331
-    min_latitude: -13.623739
-    min_longitude: -172.614889
-    max_latitude: -13.4459932
-    max_longitude: -172.3743356
-  name: Gagaifomauga
-PA:
+  comments: 
+PA: !ruby/struct:ISO3166::Subdivision
+  name: Palauli
+  code: 
   unofficial_names: Palauli
+  geo:
+    latitude: -13.7294579
+    longitude: -172.4536115
+    min_latitude: -13.8020479
+    min_longitude: -172.616592
+    max_latitude: -13.61528
+    max_longitude: -172.2228389
   translations:
     en: Palauli
     ar: بالولي
@@ -359,16 +380,18 @@ PA:
     ccp: "\U0001111B\U00011123\U00011105\U0001112A\U00011123\U00011128"
     eu: Palauli
     uk: Палаулі
-  geo:
-    latitude: -13.7294579
-    longitude: -172.4536115
-    min_latitude: -13.8020479
-    min_longitude: -172.616592
-    max_latitude: -13.61528
-    max_longitude: -172.2228389
-  name: Palauli
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Satupa'itea
+  code: 
   unofficial_names: Satupa'itea
+  geo:
+    latitude: -13.7731169
+    longitude: -172.3302677
+    min_latitude: -13.7761505
+    min_longitude: -172.3329163
+    max_latitude: -13.7511529
+    max_longitude: -172.3194839
   translations:
     en: Satupa’itea
     ar: سافوبايتيا
@@ -411,16 +434,18 @@ SA:
     ccp: "\U00011125\U00011111\U0001112A\U0001111B‘\U00011103\U00011128\U00011111\U00011128\U00011120"
     eu: Satupa’itea
     uk: Сатупаітеа
-  geo:
-    latitude: -13.7731169
-    longitude: -172.3302677
-    min_latitude: -13.7761505
-    min_longitude: -172.3329163
-    max_latitude: -13.7511529
-    max_longitude: -172.3194839
-  name: Satupa'itea
-TU:
+  comments: 
+TU: !ruby/struct:ISO3166::Subdivision
+  name: Tuamasaga
+  code: 
   unofficial_names: Tuamasaga
+  geo:
+    latitude: -13.9163592
+    longitude: -171.8224362
+    min_latitude: -14.0409279
+    min_longitude: -171.9204024
+    max_latitude: -13.7929299
+    max_longitude: -171.6964743
   translations:
     en: Tuamasaga
     ar: توماساجا
@@ -464,16 +489,18 @@ TU:
     ccp: "\U00011111\U0001112A\U00011120\U0001111F\U00011134\U00011125\U00011109"
     eu: Tuamasaga
     uk: Туамасага
-  geo:
-    latitude: -13.9163592
-    longitude: -171.8224362
-    min_latitude: -14.0409279
-    min_longitude: -171.9204024
-    max_latitude: -13.7929299
-    max_longitude: -171.6964743
-  name: Tuamasaga
-VF:
+  comments: 
+VF: !ruby/struct:ISO3166::Subdivision
+  name: Va'a-o-Fonoti
+  code: 
   unofficial_names: Va'a-o-Fonoti
+  geo:
+    latitude: -13.9470903
+    longitude: -171.5431872
+    min_latitude: -13.9789719
+    min_longitude: -171.6066749
+    max_latitude: -13.8730601
+    max_longitude: -171.4819119
   translations:
     en: Va’a-o-Fonoti
     ar: فاووفونوتي
@@ -514,16 +541,18 @@ VF:
     zh: 瓦奥福诺蒂
     ccp: "\U0001111E‘\U00011103-\U00011103\U0001112E-\U0001111C\U0001112E\U0001111A\U0001112E\U00011111\U00011128"
     uk: Ваа-о-Фоноті
-  geo:
-    latitude: -13.9470903
-    longitude: -171.5431872
-    min_latitude: -13.9789719
-    min_longitude: -171.6066749
-    max_latitude: -13.8730601
-    max_longitude: -171.4819119
-  name: Va'a-o-Fonoti
-VS:
+  comments: 
+VS: !ruby/struct:ISO3166::Subdivision
+  name: Vaisigano
+  code: 
   unofficial_names: Vaisigano
+  geo:
+    latitude: -13.5413827
+    longitude: -172.7023383
+    min_latitude: -13.6072749
+    min_longitude: -172.7985991
+    max_latitude: -13.4902919
+    max_longitude: -172.6121398
   translations:
     en: Vaisigano
     ar: فايسيجانو
@@ -567,11 +596,4 @@ VS:
     ccp: "\U0001111E\U0001112D\U00011125\U00011128\U00011109\U0001111A\U0001112E"
     eu: Vaisigano
     uk: Ваісігано
-  geo:
-    latitude: -13.5413827
-    longitude: -172.7023383
-    min_latitude: -13.6072749
-    min_longitude: -172.7985991
-    max_latitude: -13.4902919
-    max_longitude: -172.6121398
-  name: Vaisigano
+  comments: 

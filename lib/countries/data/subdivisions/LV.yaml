@@ -1,8 +1,22 @@
 ---
-AI:
+AI: !ruby/struct:ISO3166::Subdivision
+  name: Aizkraukles Aprinkis
+  code: 
   unofficial_names: Aizkraukles Aprinkis
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Aizkraukles Aprinkis
+  comments: 
+AL: !ruby/struct:ISO3166::Subdivision
+  name: Aluksnes Aprinkis
+  code: 
+  unofficial_names: Aluksnes Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -10,11 +24,13 @@ AI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Aizkraukles Aprinkis
-AL:
-  unofficial_names: Aluksnes Aprinkis
   translations:
     en: Aluksnes Aprinkis
+  comments: 
+BL: !ruby/struct:ISO3166::Subdivision
+  name: Balvu Aprinkis
+  code: 
+  unofficial_names: Balvu Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -22,11 +38,13 @@ AL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Aluksnes Aprinkis
-BL:
-  unofficial_names: Balvu Aprinkis
   translations:
     en: Balvu Aprinkis
+  comments: 
+BU: !ruby/struct:ISO3166::Subdivision
+  name: Bauskas Aprinkis
+  code: 
+  unofficial_names: Bauskas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -34,11 +52,13 @@ BL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Balvu Aprinkis
-BU:
-  unofficial_names: Bauskas Aprinkis
   translations:
     en: Bauskas Aprinkis
+  comments: 
+CE: !ruby/struct:ISO3166::Subdivision
+  name: Cesu Aprinkis
+  code: 
+  unofficial_names: Cesu Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -46,23 +66,13 @@ BU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Bauskas Aprinkis
-CE:
-  unofficial_names: Cesu Aprinkis
   translations:
     en: Cesu Aprinkis
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Cesu Aprinkis
-DA:
+  comments: 
+DA: !ruby/struct:ISO3166::Subdivision
+  name: Daugavpils Aprinkis
+  code: 
   unofficial_names: Daugavpils Aprinkis
-  translations:
-    en: Daugavpils Aprinkis
   geo:
     latitude: 55.874736
     longitude: 26.536179
@@ -70,9 +80,20 @@ DA:
     min_longitude: 26.438294
     max_latitude: 55.955541
     max_longitude: 26.6361371
-  name: Daugavpils Aprinkis
-DGV:
+  translations:
+    en: Daugavpils Aprinkis
+  comments: 
+DGV: !ruby/struct:ISO3166::Subdivision
+  name: Daugavpils
+  code: 
   unofficial_names: Daugavpils
+  geo:
+    latitude: 55.874736
+    longitude: 26.536179
+    min_latitude: 55.836144
+    min_longitude: 26.438294
+    max_latitude: 55.955541
+    max_longitude: 26.6361371
   translations:
     en: Daugavpils
     af: Daugavpils
@@ -136,18 +157,11 @@ DGV:
     kk: Даугавпилс
     uz: Daugavpils
     mk: Даугавпилс
-  geo:
-    latitude: 55.874736
-    longitude: 26.536179
-    min_latitude: 55.836144
-    min_longitude: 26.438294
-    max_latitude: 55.955541
-    max_longitude: 26.6361371
-  name: Daugavpils
-DO:
+  comments: 
+DO: !ruby/struct:ISO3166::Subdivision
+  name: Dobeles Aprinkis
+  code: 
   unofficial_names: Dobeles Aprinkis
-  translations:
-    en: Dobeles Aprinkis
   geo:
     latitude: 56.6249062
     longitude: 23.2791069
@@ -155,11 +169,13 @@ DO:
     min_longitude: 23.2535538
     max_latitude: 56.644934
     max_longitude: 23.3128299
-  name: Dobeles Aprinkis
-GU:
-  unofficial_names: Gulbenes Aprinkis
   translations:
-    en: Gulbenes Aprinkis
+    en: Dobeles Aprinkis
+  comments: 
+GU: !ruby/struct:ISO3166::Subdivision
+  name: Gulbenes Aprinkis
+  code: 
+  unofficial_names: Gulbenes Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -167,9 +183,20 @@ GU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Gulbenes Aprinkis
-JEL:
+  translations:
+    en: Gulbenes Aprinkis
+  comments: 
+JEL: !ruby/struct:ISO3166::Subdivision
+  name: Jelgava
+  code: 
   unofficial_names: Jelgava
+  geo:
+    latitude: 56.6511091
+    longitude: 23.7213541
+    min_latitude: 56.596751
+    min_longitude: 23.623268
+    max_latitude: 56.6916349
+    max_longitude: 23.8002769
   translations:
     en: Jelgava
     af: Jelgava
@@ -232,18 +259,11 @@ JEL:
     kk: Елгава
     uz: Yelgava
     mk: Јелгава²
-  geo:
-    latitude: 56.6511091
-    longitude: 23.7213541
-    min_latitude: 56.596751
-    min_longitude: 23.623268
-    max_latitude: 56.6916349
-    max_longitude: 23.8002769
-  name: Jelgava
-JK:
+  comments: 
+JK: !ruby/struct:ISO3166::Subdivision
+  name: Jekabpils Aprinkis
+  code: 
   unofficial_names: Jekabpils Aprinkis
-  translations:
-    en: Jekabpils Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -251,11 +271,13 @@ JK:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Jekabpils Aprinkis
-JL:
-  unofficial_names: Jelgavas Aprinkis
   translations:
-    en: Jelgavas Aprinkis
+    en: Jekabpils Aprinkis
+  comments: 
+JL: !ruby/struct:ISO3166::Subdivision
+  name: Jelgavas Aprinkis
+  code: 
+  unofficial_names: Jelgavas Aprinkis
   geo:
     latitude: 56.6511091
     longitude: 23.7213541
@@ -263,9 +285,20 @@ JL:
     min_longitude: 23.623268
     max_latitude: 56.6916349
     max_longitude: 23.8002769
-  name: Jelgavas Aprinkis
-JUR:
+  translations:
+    en: Jelgavas Aprinkis
+  comments: 
+JUR: !ruby/struct:ISO3166::Subdivision
+  name: Jurmala
+  code: 
   unofficial_names: Jurmala
+  geo:
+    latitude: 56.947079
+    longitude: 23.6168486
+    min_latitude: 56.923886
+    min_longitude: 23.47297
+    max_latitude: 57.007044
+    max_longitude: 23.9693479
   translations:
     en: Jūrmala
     af: Jūrmala
@@ -327,18 +360,25 @@ JUR:
     kk: Юрмала
     uz: Yurmala
     mk: Јурмала
-  geo:
-    latitude: 56.947079
-    longitude: 23.6168486
-    min_latitude: 56.923886
-    min_longitude: 23.47297
-    max_latitude: 57.007044
-    max_longitude: 23.9693479
-  name: Jurmala
-KR:
+  comments: 
+KR: !ruby/struct:ISO3166::Subdivision
+  name: Kraslavas Aprinkis
+  code: 
   unofficial_names: Kraslavas Aprinkis
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Kraslavas Aprinkis
+  comments: 
+KU: !ruby/struct:ISO3166::Subdivision
+  name: Kuldigas Aprinkis
+  code: 
+  unofficial_names: Kuldigas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -346,11 +386,13 @@ KR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Kraslavas Aprinkis
-KU:
-  unofficial_names: Kuldigas Aprinkis
   translations:
     en: Kuldigas Aprinkis
+  comments: 
+LE: !ruby/struct:ISO3166::Subdivision
+  name: Liepajas Aprinkis
+  code: 
+  unofficial_names: Liepajas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -358,11 +400,13 @@ KU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Kuldigas Aprinkis
-LE:
-  unofficial_names: Liepajas Aprinkis
   translations:
     en: Liepajas Aprinkis
+  comments: 
+LM: !ruby/struct:ISO3166::Subdivision
+  name: Limbažu Aprinkis
+  code: 
+  unofficial_names: Limbažu Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -370,21 +414,20 @@ LE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Liepajas Aprinkis
-LM:
-  unofficial_names: Limbažu Aprinkis
   translations:
     en: Limbažu Aprinkis
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Limbažu Aprinkis
-LPX:
+  comments: 
+LPX: !ruby/struct:ISO3166::Subdivision
+  name: Liepaja
+  code: 
   unofficial_names: Liepaja
+  geo:
+    latitude: 56.5046678
+    longitude: 21.010806
+    min_latitude: 56.464691
+    min_longitude: 20.971237
+    max_latitude: 56.60919999999999
+    max_longitude: 21.1057334
   translations:
     en: Liepāja
     af: Liepaja
@@ -446,18 +489,11 @@ LPX:
     pa: ਲਿਪਾਯਾ
     kk: Лиепая
     uz: Liyepaya
-  geo:
-    latitude: 56.5046678
-    longitude: 21.010806
-    min_latitude: 56.464691
-    min_longitude: 20.971237
-    max_latitude: 56.60919999999999
-    max_longitude: 21.1057334
-  name: Liepaja
-LU:
+  comments: 
+LU: !ruby/struct:ISO3166::Subdivision
+  name: Ludzas Aprinkis
+  code: 
   unofficial_names: Ludzas Aprinkis
-  translations:
-    en: Ludzas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -465,11 +501,13 @@ LU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Ludzas Aprinkis
-MA:
-  unofficial_names: Madonas Aprinkis
   translations:
-    en: Madonas Aprinkis
+    en: Ludzas Aprinkis
+  comments: 
+MA: !ruby/struct:ISO3166::Subdivision
+  name: Madonas Aprinkis
+  code: 
+  unofficial_names: Madonas Aprinkis
   geo:
     latitude: 49.8498701
     longitude: 18.2723841
@@ -477,24 +515,42 @@ MA:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Madonas Aprinkis
-OG:
+  translations:
+    en: Madonas Aprinkis
+  comments: 
+OG: !ruby/struct:ISO3166::Subdivision
+  name: Ogres Aprinkis
+  code: 
   unofficial_names: Ogres Aprinkis
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Ogres Aprinkis
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Ogres Aprinkis
-PR:
+  comments: 
+PR: !ruby/struct:ISO3166::Subdivision
+  name: Preilu Aprinkis
+  code: 
   unofficial_names:
   - Preiju
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Preilu Aprinkis
+  comments: 
+RE: !ruby/struct:ISO3166::Subdivision
+  name: Rezeknes Aprinkis
+  code: 
+  unofficial_names: Rezeknes Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -502,21 +558,20 @@ PR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Preilu Aprinkis
-RE:
-  unofficial_names: Rezeknes Aprinkis
   translations:
     en: Rezeknes Aprinkis
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Rezeknes Aprinkis
-REZ:
+  comments: 
+REZ: !ruby/struct:ISO3166::Subdivision
+  name: Rezekne
+  code: 
   unofficial_names: Rezekne
+  geo:
+    latitude: 56.5099223
+    longitude: 27.3331357
+    min_latitude: 56.4775499
+    min_longitude: 27.3038497
+    max_latitude: 56.53846009999999
+    max_longitude: 27.379451
   translations:
     en: Rēzekne
     af: Rēzekne
@@ -579,18 +634,11 @@ REZ:
     pa: ਰੀਜਿਕਨ
     kk: Резекне
     mk: Резекне²
-  geo:
-    latitude: 56.5099223
-    longitude: 27.3331357
-    min_latitude: 56.4775499
-    min_longitude: 27.3038497
-    max_latitude: 56.53846009999999
-    max_longitude: 27.379451
-  name: Rezekne
-RI:
+  comments: 
+RI: !ruby/struct:ISO3166::Subdivision
+  name: Rigas Aprinkis
+  code: 
   unofficial_names: Rigas Aprinkis
-  translations:
-    en: Rigas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -598,9 +646,20 @@ RI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Rigas Aprinkis
-RIX:
+  translations:
+    en: Rigas Aprinkis
+  comments: 
+RIX: !ruby/struct:ISO3166::Subdivision
+  name: Riga
+  code: 
   unofficial_names: Riga
+  geo:
+    latitude: 56.9496487
+    longitude: 24.1051864
+    min_latitude: 56.8570279
+    min_longitude: 23.9336591
+    max_latitude: 57.085921
+    max_longitude: 24.3246659
   translations:
     en: Riga
     af: Riga
@@ -681,18 +740,11 @@ RIX:
     uz: Riga
     bs: Riga
     mk: Рига
-  geo:
-    latitude: 56.9496487
-    longitude: 24.1051864
-    min_latitude: 56.8570279
-    min_longitude: 23.9336591
-    max_latitude: 57.085921
-    max_longitude: 24.3246659
-  name: Riga
-SA:
+  comments: 
+SA: !ruby/struct:ISO3166::Subdivision
+  name: Saldus Aprinkis
+  code: 
   unofficial_names: Saldus Aprinkis
-  translations:
-    en: Saldus Aprinkis
   geo:
     latitude: 56.6653019
     longitude: 22.492169
@@ -700,11 +752,13 @@ SA:
     min_longitude: 22.4596109
     max_latitude: 56.6855229
     max_longitude: 22.5252327
-  name: Saldus Aprinkis
-TA:
-  unofficial_names: Talsu Aprinkis
   translations:
-    en: Talsu Aprinkis
+    en: Saldus Aprinkis
+  comments: 
+TA: !ruby/struct:ISO3166::Subdivision
+  name: Talsu Aprinkis
+  code: 
+  unofficial_names: Talsu Aprinkis
   geo:
     latitude: 57.2480409
     longitude: 22.5873859
@@ -712,11 +766,13 @@ TA:
     min_longitude: 22.5537861
     max_latitude: 57.265104
     max_longitude: 22.6215941
-  name: Talsu Aprinkis
-TU:
-  unofficial_names: Tukuma Aprinkis
   translations:
-    en: Tukuma Aprinkis
+    en: Talsu Aprinkis
+  comments: 
+TU: !ruby/struct:ISO3166::Subdivision
+  name: Tukuma Aprinkis
+  code: 
+  unofficial_names: Tukuma Aprinkis
   geo:
     latitude: 56.96966399999999
     longitude: 23.15319
@@ -724,11 +780,13 @@ TU:
     min_longitude: 23.1016533
     max_latitude: 56.9880529
     max_longitude: 23.205056
-  name: Tukuma Aprinkis
-VE:
-  unofficial_names: Ventspils Aprinkis
   translations:
-    en: Ventspils Aprinkis
+    en: Tukuma Aprinkis
+  comments: 
+VE: !ruby/struct:ISO3166::Subdivision
+  name: Ventspils Aprinkis
+  code: 
+  unofficial_names: Ventspils Aprinkis
   geo:
     latitude: 57.3937216
     longitude: 21.5647066
@@ -736,9 +794,20 @@ VE:
     min_longitude: 21.5157259
     max_latitude: 57.47072199999999
     max_longitude: 21.6736649
-  name: Ventspils Aprinkis
-VEN:
+  translations:
+    en: Ventspils Aprinkis
+  comments: 
+VEN: !ruby/struct:ISO3166::Subdivision
+  name: Ventspils
+  code: 
   unofficial_names: Ventspils
+  geo:
+    latitude: 57.3937216
+    longitude: 21.5647066
+    min_latitude: 57.34809389999999
+    min_longitude: 21.5157259
+    max_latitude: 57.47072199999999
+    max_longitude: 21.6736649
   translations:
     en: Ventspils
     af: Ventspils
@@ -801,18 +870,11 @@ VEN:
     kk: Вентспилс
     uz: Ventspils
     mk: Вентспилс²
-  geo:
-    latitude: 57.3937216
-    longitude: 21.5647066
-    min_latitude: 57.34809389999999
-    min_longitude: 21.5157259
-    max_latitude: 57.47072199999999
-    max_longitude: 21.6736649
-  name: Ventspils
-VK:
+  comments: 
+VK: !ruby/struct:ISO3166::Subdivision
+  name: Valkas Aprinkis
+  code: 
   unofficial_names: Valkas Aprinkis
-  translations:
-    en: Valkas Aprinkis
   geo:
     latitude: 
     longitude: 
@@ -820,11 +882,13 @@ VK:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Valkas Aprinkis
-VM:
-  unofficial_names: Valmieras Aprinkis
   translations:
-    en: Valmieras Aprinkis
+    en: Valkas Aprinkis
+  comments: 
+VM: !ruby/struct:ISO3166::Subdivision
+  name: Valmieras Aprinkis
+  code: 
+  unofficial_names: Valmieras Aprinkis
   geo:
     latitude: 57.5384659
     longitude: 25.4263618
@@ -832,9 +896,20 @@ VM:
     min_longitude: 25.374671
     max_latitude: 57.5552188
     max_longitude: 25.4684289
-  name: Valmieras Aprinkis
-'001':
+  translations:
+    en: Valmieras Aprinkis
+  comments: 
+'001': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية أغلونا
     be: Агланскі край
@@ -882,6 +957,11 @@ VM:
     eu: Aglona udalerria
     az: Aqlon diyarı
     mk: Аглона
+  comments: 
+'002': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -889,8 +969,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'002':
-  unofficial_names: 
   translations:
     ar: بلدية إيزكروكل
     be: Айзкраўкльскі край
@@ -937,6 +1015,11 @@ VM:
     ccp: "\U00011103\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011133\U00011122\U0001112D\U00011105\U0001112A\U00011107\U00011134\U00011123\U0001112C"
     az: Ayzqrauql diyarı
     mk: Ајзкраукле
+  comments: 
+'003': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -944,8 +1027,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'003':
-  unofficial_names: 
   translations:
     ar: بلدية آيزبوته
     be: Айзпуцкі край
@@ -992,6 +1073,11 @@ VM:
     eu: Aizpute udalerria
     az: Ayzput diyarı
     mk: Аизпуте
+  comments: 
+'004': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -999,8 +1085,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'004':
-  unofficial_names: 
   translations:
     ar: بلدية أكنيسته
     be: Акнісцкі край
@@ -1048,6 +1132,11 @@ VM:
     eu: Aknīste udalerria
     az: Aqnist diyarı
     mk: Акнисте
+  comments: 
+'005': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1055,8 +1144,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'005':
-  unofficial_names: 
   translations:
     ar: بلدية ألويا
     be: Алайскі край
@@ -1104,6 +1191,11 @@ VM:
     eu: Aloja udalerria
     az: Aloy diyarı
     mk: Алоја (општина)
+  comments: 
+'006': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1111,8 +1203,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'006':
-  unofficial_names: 
   translations:
     ar: بلدية ألسونغا
     be: Алсунгскі край
@@ -1159,6 +1249,11 @@ VM:
     ccp: "\U00011103\U00011123\U00011134\U00011125\U0001112A\U0001111A\U00011134\U00011109"
     eu: Alsunga udalerria
     mk: Алсунга
+  comments: 
+'007': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1166,8 +1261,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'007':
-  unofficial_names: 
   translations:
     ar: بلدية ألوكسنه
     be: Алуксненскі край
@@ -1213,6 +1306,11 @@ VM:
     ccp: "\U00011103\U00011123\U0001112A\U00011107\U00011134\U0001110C\U00011134"
     eu: Alūksne udalerria
     mk: Алуксне
+  comments: 
+'008': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1220,8 +1318,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'008':
-  unofficial_names: 
   translations:
     ar: بلدية أماتا
     be: Амацкі край
@@ -1268,6 +1364,11 @@ VM:
     ccp: "\U00011103\U0001111F\U00011116"
     eu: Amata udalerria
     mk: Амата
+  comments: 
+'009': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1275,8 +1376,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'009':
-  unofficial_names: 
   translations:
     ar: بلدية آبي
     be: Апскі край
@@ -1323,6 +1422,11 @@ VM:
     ccp: "\U00011103\U00011133\U00011120\U0001111B\U00011134"
     eu: Ape udalerria
     mk: Апе
+  comments: 
+'010': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1330,8 +1434,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'010':
-  unofficial_names: 
   translations:
     ar: بلدية أوكه
     be: Аўцскі край
@@ -1378,6 +1480,11 @@ VM:
     ccp: "\U00011103\U00011127\U0001110C\U00011134"
     eu: Auce udalerria
     mk: Ауце
+  comments: 
+'011': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1385,8 +1492,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'011':
-  unofficial_names: 
   translations:
     ar: بلدية آداجي
     be: Адажскі край
@@ -1433,6 +1538,11 @@ VM:
     ccp: "\U00011103\U00011113\U0001110E\U00011128"
     eu: Ādaži udalerria
     mk: Адажи
+  comments: 
+'012': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1440,8 +1550,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'012':
-  unofficial_names: 
   translations:
     ar: بلدية ببيت
     be: Бабіцкі край
@@ -1487,6 +1595,11 @@ VM:
     ccp: "\U0001111D\U00011127\U0001111D\U00011128\U00011116\U00011134"
     eu: Babīte udalerria
     mk: Бабите
+  comments: 
+'013': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1494,8 +1607,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'013':
-  unofficial_names: 
   translations:
     ar: بلدية بالدون
     be: Балданскі край
@@ -1543,6 +1654,11 @@ VM:
     ccp: "\U0001111D\U00011127\U00011123\U00011134\U00011113\U0001112E\U0001111A\U00011134"
     eu: Baldone udalerria
     mk: Балдоне
+  comments: 
+'014': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1550,8 +1666,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'014':
-  unofficial_names: 
   translations:
     ar: بلدية بالتينافا
     be: Балцінаўскі край
@@ -1599,6 +1713,11 @@ VM:
     ccp: "\U0001111D\U00011127\U00011123\U00011134\U00011111\U00011128\U0001111A\U0001111E"
     eu: Baltinava udalerria
     mk: Балтинава
+  comments: 
+'015': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1606,8 +1725,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'015':
-  unofficial_names: 
   translations:
     ar: بلدية بالفي
     be: Балвскі край
@@ -1653,6 +1770,11 @@ VM:
     ccp: "\U0001111D\U00011127\U00011123\U00011134\U0001111E\U00011128"
     eu: Balvi udalerria
     mk: Балви
+  comments: 
+'016': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1660,8 +1782,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'016':
-  unofficial_names: 
   translations:
     ar: بلدية بوسكا
     be: Баўскі край
@@ -1707,6 +1827,11 @@ VM:
     ccp: "\U0001111D\U00011105\U0001112A\U0001110C\U00011134\U00011107"
     eu: Bauska udalerria
     mk: Бауска
+  comments: 
+'017': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1714,8 +1839,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'017':
-  unofficial_names: 
   translations:
     ar: بلدية بيفيرينا
     be: Бэвэрынскі край
@@ -1762,6 +1885,11 @@ VM:
     ccp: "\U0001111D\U0001112C\U0001111E\U0001112C\U00011122\U00011128\U0001111A"
     eu: Beverīna udalerria
     mk: Беверина
+  comments: 
+'018': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1769,8 +1897,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'018':
-  unofficial_names: 
   translations:
     ar: بلدية بروتشني
     bn: ব্রোসেনি পৌরসভা
@@ -1816,6 +1942,11 @@ VM:
     eu: Brocēni udalerria
     be: Броцэнскі край
     mk: Броцени
+  comments: 
+'019': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1823,8 +1954,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'019':
-  unofficial_names: 
   translations:
     ar: بلدية بورتنيكي
     be: Буртніекскі край
@@ -1870,6 +1999,11 @@ VM:
     ccp: "\U0001111D\U0001112A\U00011122\U00011134\U00011111\U00011134\U0001111A\U00011128\U00011120\U0001112C\U00011107\U00011128"
     eu: Burtnieki udalerria
     mk: Буртниеки
+  comments: 
+'020': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1877,8 +2011,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'020':
-  unofficial_names: 
   translations:
     ar: بلدية كارنيكافا
     bn: কার্নিকাভা পৌরসভা
@@ -1924,6 +2056,11 @@ VM:
     eu: Carnikava udalerria
     be: Царнікаўскі край
     mk: Царникава
+  comments: 
+'021': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1931,8 +2068,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'021':
-  unofficial_names: 
   translations:
     ar: بلدية سيسفاين
     bn: সেচভাইন পৌরসভা
@@ -1978,6 +2113,11 @@ VM:
     eu: Cesvaine udalerria
     be: Цэсвайнскі край
     mk: Цесвајне
+  comments: 
+'022': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1985,8 +2125,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'022':
-  unofficial_names: 
   translations:
     ar: بلدية تسيسس
     be: Цэсіскі край
@@ -2032,6 +2170,11 @@ VM:
     ccp: "\U00011125\U0001112C\U0001110C\U00011128\U0001110C\U00011134"
     eu: Cēsis udalerria
     mk: Цесис
+  comments: 
+'023': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2039,8 +2182,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'023':
-  unofficial_names: 
   translations:
     ar: بلدية سيبلا
     bn: সিব্লা পৌরসভা
@@ -2087,6 +2228,11 @@ VM:
     eu: Cibla udalerria
     be: Цыблскі край
     mk: Цибла
+  comments: 
+'024': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2094,8 +2240,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'024':
-  unofficial_names: 
   translations:
     ar: بلدية داغدا
     be: Дагдскі край
@@ -2142,6 +2286,11 @@ VM:
     ccp: "\U00011113\U00011107\U00011134\U00011113"
     eu: Dagda udalerria
     mk: Дагда
+  comments: 
+'025': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2149,8 +2298,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'025':
-  unofficial_names: 
   translations:
     ar: بلدية داوغابيلس
     be: Даўгаўпілскі край
@@ -2198,6 +2345,11 @@ VM:
       \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
     eu: Daugavpils udalerria
     mk: Општина Даугавпилс
+  comments: 
+'026': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2205,8 +2357,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'026':
-  unofficial_names: 
   translations:
     ar: بلدية دوبيل
     bn: ডোবেল পৌরসভা
@@ -2252,6 +2402,11 @@ VM:
     eu: Dobele udalerria
     be: Добэльскі край
     mk: Добеле
+  comments: 
+'027': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2259,8 +2414,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'027':
-  unofficial_names: 
   translations:
     ar: بلدية دونداغا
     bn: দুন্দাগা পৌরসভা
@@ -2307,6 +2460,11 @@ VM:
     eu: Dundaga udalerria
     be: Дундагскі край
     mk: Дундага
+  comments: 
+'028': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2314,8 +2472,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'028':
-  unofficial_names: 
   translations:
     ar: بلدية دوربه
     be: Дурбскі край
@@ -2362,6 +2518,11 @@ VM:
     hy: Դուրբեի շրջան
     eu: Durbe udalerria
     mk: Дурбе
+  comments: 
+'029': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2369,8 +2530,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'029':
-  unofficial_names: 
   translations:
     ar: بلدية إنغور
     be: Энгурскі край
@@ -2417,6 +2576,11 @@ VM:
     hy: Էնգուրեյի շրջան
     eu: Engure udalerria
     mk: Енгуре
+  comments: 
+'030': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2424,8 +2588,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'030':
-  unofficial_names: 
   translations:
     ar: بلدية إيرغلي
     be: Эргльскі край
@@ -2471,6 +2633,11 @@ VM:
     ccp: "\U00011103\U0001112C\U00011122\U00011134\U00011109\U00011133\U00011122\U00011129"
     eu: Ērgļi udalerria
     mk: Ергљи
+  comments: 
+'031': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2478,8 +2645,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'031':
-  unofficial_names: 
   translations:
     ar: بلدية غاركالن
     bn: গারকালনে পৌরসভা
@@ -2526,6 +2691,11 @@ VM:
     eu: Garkalne udalerria
     be: Гаркалнскі край
     mk: Гаркалне
+  comments: 
+'032': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2533,8 +2703,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'032':
-  unofficial_names: 
   translations:
     ar: بلدية غروبيتا
     be: Гробінскі край
@@ -2581,6 +2749,11 @@ VM:
     ccp: "\U00011109\U00011133\U00011122\U0001112E\U0001111D\U00011128\U0001111A"
     eu: Grobiņa udalerria
     mk: Гробиња
+  comments: 
+'033': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2588,8 +2761,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'033':
-  unofficial_names: 
   translations:
     ar: بلدية غولبين
     be: Гулбенскі край
@@ -2635,6 +2806,11 @@ VM:
     ccp: "\U00011109\U0001112A\U00011123\U00011134\U0001111D\U0001112C\U0001111A\U0001112C"
     eu: Gulbene udalerria
     mk: Гулбене
+  comments: 
+'034': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2642,8 +2818,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'034':
-  unofficial_names: 
   translations:
     ar: بلدية إيكافا
     be: Іецаўскі край
@@ -2690,6 +2864,11 @@ VM:
     hy: Իեցավայի շրջան
     eu: Iecava udalerria
     mk: Иецава
+  comments: 
+'035': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2697,8 +2876,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'035':
-  unofficial_names: 
   translations:
     ar: بلدية إكشجيله
     be: Ікшкільскі край
@@ -2744,6 +2921,11 @@ VM:
     hy: Իքշկիլեի շրջան
     eu: Ikšķile udalerria
     mk: Икшќиле
+  comments: 
+'036': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2751,8 +2933,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'036':
-  unofficial_names: 
   translations:
     ar: بلدية يلوكسته
     be: Ілуксцкі край
@@ -2798,6 +2978,11 @@ VM:
     ccp: "\U00011103\U00011128\U00011123\U0001112A\U00011107\U00011134\U0001110C\U00011133\U00011111\U0001112C"
     eu: Ilūkste udalerria
     mk: Илуксте
+  comments: 
+'037': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2805,8 +2990,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'037':
-  unofficial_names: 
   translations:
     ar: بلدية إنكوكالنز
     be: Інчукалнскі край
@@ -2853,6 +3036,11 @@ VM:
     ccp: "\U00011103\U00011128\U0001111A\U00011134\U00011107\U00011128\U00011105\U0001112A\U00011107\U00011123\U00011134\U0001111A\U00011134"
     eu: Inčukalns udalerria
     mk: Инчукалнс
+  comments: 
+'038': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2860,8 +3048,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'038':
-  unofficial_names: 
   translations:
     ar: بلدية ياونيلغافا
     bn: জঞ্জেল্গাভা পৌরসভা
@@ -2907,6 +3093,11 @@ VM:
     hy: Յաունելգավաի շրջան
     eu: Jaunjelgava udalerria
     mk: Јаунјелгава
+  comments: 
+'039': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2914,8 +3105,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'039':
-  unofficial_names: 
   translations:
     ar: بلدية جونبيبالغا
     bn: জনপিবাল্গা পৌরসভা
@@ -2961,6 +3150,11 @@ VM:
     eu: Jaunpiebalga udalerria
     be: Яўнпіебалгскі край
     mk: Јаунпиебалга
+  comments: 
+'040': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -2968,8 +3162,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'040':
-  unofficial_names: 
   translations:
     ar: بلدية ياونبيلس
     be: Яўнпілскі край
@@ -3015,6 +3207,11 @@ VM:
     ccp: "\U0001110E\U0001112F\U0001111A\U00011134\U0001111B\U00011128\U00011123\U00011134\U0001110C\U00011134"
     eu: Jaunpils udalerria
     mk: Јаунпилс
+  comments: 
+'041': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3022,8 +3219,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'041':
-  unofficial_names: 
   translations:
     ar: بلدية جيلغافا
     bn: জেল্গাভা পৌরসভা
@@ -3069,6 +3264,11 @@ VM:
     eu: Jelgava udalerria
     be: Елгаўскі край
     mk: Јелгава
+  comments: 
+'042': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3076,8 +3276,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'042':
-  unofficial_names: 
   translations:
     ar: بلدية جوكابيلز
     bn: জেকাবপিলস পৌরসভা
@@ -3125,6 +3323,11 @@ VM:
     eu: Jēkabpils udalerria
     be: Екабпілскі край
     mk: Јекабпилс
+  comments: 
+'043': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3132,8 +3335,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'043':
-  unofficial_names: 
   translations:
     ar: بلدية كاندافا
     bn: কান্দাভা পৌরসভা
@@ -3180,6 +3381,11 @@ VM:
     eu: Kandava udalerria
     be: Кандаўскі край
     mk: Кандава
+  comments: 
+'044': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3187,8 +3393,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'044':
-  unofficial_names: 
   translations:
     ar: بلدية كارسافا
     bn: কারসাভা পৌরসভা
@@ -3234,6 +3438,11 @@ VM:
     eu: Kārsava udalerria
     be: Карсаўскі край
     mk: Карсава
+  comments: 
+'045': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3241,8 +3450,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'045':
-  unofficial_names: 
   translations:
     ar: بلدية كوتسيني
     bn: কোকেনি পৌরসভা
@@ -3288,6 +3495,11 @@ VM:
     eu: Kocēni udalerria
     be: Коцэнскі край
     mk: Коцени
+  comments: 
+'046': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3295,8 +3507,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'046':
-  unofficial_names: 
   translations:
     ar: بلدية كوكنيس
     bn: ককনিস পৌরসভা
@@ -3343,6 +3553,11 @@ VM:
     eu: Koknese udalerria
     be: Кокнэскі край
     mk: Кокнесе
+  comments: 
+'047': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3350,8 +3565,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'047':
-  unofficial_names: 
   translations:
     ar: بلدية كراسلافا
     be: Краслаўскі край
@@ -3396,6 +3609,11 @@ VM:
     ccp: "\U00011107\U00011133\U00011122\U0001110C\U00011134\U00011123\U0001111E"
     eu: Krāslava udalerria
     mk: Краслава
+  comments: 
+'048': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3403,8 +3621,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'048':
-  unofficial_names: 
   translations:
     ar: بلدية كريمولدا
     bn: ক্রিমুলদা পৌরসভা
@@ -3451,6 +3667,11 @@ VM:
     eu: Krimulda udalerria
     be: Крымулдскі край
     mk: Кримулда
+  comments: 
+'049': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3458,8 +3679,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'049':
-  unofficial_names: 
   translations:
     ar: بلدية كروستبيلس
     bn: ক্রাস্টপিলস পৌরসভা
@@ -3506,6 +3725,11 @@ VM:
     eu: Krustpils udalerria
     be: Крустпілскі край
     mk: Крустпилс
+  comments: 
+'050': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3513,8 +3737,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'050':
-  unofficial_names: 
   translations:
     ar: بلدية كولديغا
     be: Кулдыгскі край
@@ -3559,6 +3781,11 @@ VM:
     ccp: "\U00011107\U0001112A\U00011123\U00011134\U00011113\U00011128\U00011109"
     eu: Kuldīga udalerria
     mk: Кулдига
+  comments: 
+'051': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3566,8 +3793,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'051':
-  unofficial_names: 
   translations:
     ar: بلدية كغومس
     bn: কেগুমস পৌরসভা
@@ -3613,6 +3838,11 @@ VM:
     eu: Ķegums udalerria
     be: Кегумскі край
     mk: Ќегумс
+  comments: 
+'052': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3620,8 +3850,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'052':
-  unofficial_names: 
   translations:
     ar: بلدية كيكافا
     bn: কেকাভা পৌরসভা
@@ -3667,6 +3895,11 @@ VM:
     eu: Ķekava udalerria
     be: Кекаўскі край
     mk: Ќекава
+  comments: 
+'053': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3674,8 +3907,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'053':
-  unofficial_names: 
   translations:
     ar: بلدية ليلفارد
     bn: লিয়েল্ভার্দে পৌরসভা
@@ -3722,6 +3953,11 @@ VM:
     eu: Lielvārde udalerria
     be: Ліелвардскі край
     mk: Лиелварде
+  comments: 
+'054': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3729,8 +3965,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'054':
-  unofficial_names: 
   translations:
     ar: بلدية ليمباجي
     bn: লিম্বাজি পৌরসভা
@@ -3776,6 +4010,11 @@ VM:
     eu: Limbaži udalerria
     be: Лімбажскі край
     mk: Лимбажи
+  comments: 
+'055': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3783,8 +4022,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'055':
-  unofficial_names: 
   translations:
     ar: بلدية ليغاتن
     bn: লিগান্তে পৌরসভা
@@ -3830,6 +4067,11 @@ VM:
     eu: Līgatne udalerria
     be: Лігатнэнскі край
     mk: Лигатне
+  comments: 
+'056': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3837,8 +4079,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'056':
-  unofficial_names: 
   translations:
     ar: بلدية ليفاني
     bn: লিভানি পৌরসভা
@@ -3885,6 +4125,11 @@ VM:
     eu: Līvāni udalerria
     be: Ліванскі край
     mk: Ливани
+  comments: 
+'057': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3892,8 +4137,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'057':
-  unofficial_names: 
   translations:
     ar: بلدية لوبانا
     be: Лубанскі край
@@ -3939,6 +4182,11 @@ VM:
     ccp: "\U00011123\U0001112A\U0001111B\U00011134\U0001111A"
     eu: Lubāna udalerria
     mk: Лубана
+  comments: 
+'058': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -3946,8 +4194,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'058':
-  unofficial_names: 
   translations:
     ar: بلدية لودزا
     be: Лудзенскі край
@@ -3993,6 +4239,11 @@ VM:
     ccp: "\U00011123\U0001112A\U00011116\U00011134\U0001110E"
     eu: Ludza udalerria
     mk: Луѕа
+  comments: 
+'059': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4000,8 +4251,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'059':
-  unofficial_names: 
   translations:
     ar: بلدية مادونا
     bn: ম্যাডোনা পৌরসভা
@@ -4047,6 +4296,11 @@ VM:
     eu: Madona udalerria
     be: Маданскі край
     mk: Мадона
+  comments: 
+'060': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4054,8 +4308,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'060':
-  unofficial_names: 
   translations:
     ar: بلدية مازالاكا
     bn: মাজস্যালাকা পৌরসভা
@@ -4101,6 +4353,11 @@ VM:
     eu: Mazsalaca udalerria
     be: Мазсалацкі край
     mk: Мазсалаца
+  comments: 
+'061': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4108,8 +4365,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'061':
-  unofficial_names: 
   translations:
     ar: بلدية مالبيلس
     bn: মাল্পিলস পৌরসভা
@@ -4156,6 +4411,11 @@ VM:
     eu: Mālpils udalerria
     be: Малпілскі край
     mk: Малпилс
+  comments: 
+'062': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4163,8 +4423,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'062':
-  unofficial_names: 
   translations:
     ar: بلدية ماروب
     bn: মারুপ পৌরসভা
@@ -4212,6 +4470,11 @@ VM:
     sl: Mārupe
     be: Марупскі край
     mk: Марупе
+  comments: 
+'063': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4219,8 +4482,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'063':
-  unofficial_names: 
   translations:
     ar: بلدية مورسراغس
     bn: মার্সর‍্যাগস পৌরসভা
@@ -4267,6 +4528,11 @@ VM:
     eu: Mērsrags udalerria
     be: Мэрсрагскі край
     mk: Мерсрагс
+  comments: 
+'064': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4274,8 +4540,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'064':
-  unofficial_names: 
   translations:
     ar: بلدية نوكتسيني
     bn: নৌকচেনি পৌরসভা
@@ -4322,6 +4586,11 @@ VM:
     eu: Naukšēni udalerria
     be: Наўкшэнскі край
     mk: Наукшени
+  comments: 
+'065': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4329,8 +4598,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'065':
-  unofficial_names: 
   translations:
     ar: بلدية نيريتا
     bn: নেরেটা পৌরসভা
@@ -4377,6 +4644,11 @@ VM:
     eu: Nereta udalerria
     be: Нэрэцкі край
     mk: Нерета
+  comments: 
+'066': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4384,8 +4656,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'066':
-  unofficial_names: 
   translations:
     ar: بلدية نيتسا
     bn: নিকা পৌরসভা
@@ -4432,6 +4702,11 @@ VM:
     eu: Nīca udalerria
     be: Ніцкі край
     mk: Ница
+  comments: 
+'067': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4439,8 +4714,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'067':
-  unofficial_names: 
   translations:
     ar: بلدية أوغري
     bn: ওগ্রে পৌরসভা
@@ -4487,6 +4760,11 @@ VM:
     eu: Ogre udalerria
     be: Огрскі край
     mk: Огре
+  comments: 
+'068': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4494,8 +4772,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'068':
-  unofficial_names: 
   translations:
     ar: بلدية أولاين
     bn: ওলাইন পৌরসভা
@@ -4541,6 +4817,11 @@ VM:
     eu: Olaine udalerria
     be: Олайнскі край
     mk: Олаине
+  comments: 
+'069': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4548,8 +4829,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'069':
-  unofficial_names: 
   translations:
     ar: بلدية أوزولنيكي
     bn: ওজলনিয়েকি পৌরসভা
@@ -4596,6 +4875,11 @@ VM:
     eu: Ozolnieki udalerria
     be: Озалніекскі край
     mk: Озолниеки
+  comments: 
+'070': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4603,8 +4887,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'070':
-  unofficial_names: 
   translations:
     ar: بلدية بارغويا
     bn: পারগুজা পৌরসভা
@@ -4651,6 +4933,11 @@ VM:
     eu: Pārgauja udalerria
     be: Паргаўйскі край
     mk: Паргауја
+  comments: 
+'071': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4658,8 +4945,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'071':
-  unofficial_names: 
   translations:
     ar: بلدية بافيلوستا
     be: Павіласцкі край
@@ -4705,6 +4990,11 @@ VM:
     ccp: "\U0001111B\U0001111E\U00011128\U00011123\U0001112E\U0001110C\U00011134\U00011111"
     eu: Pāvilosta udalerria
     mk: Павилоста
+  comments: 
+'072': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4712,8 +5002,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'072':
-  unofficial_names: 
   translations:
     ar: بلدية بافيواس
     bn: প্লাভিনাস পৌরসভা
@@ -4760,6 +5048,11 @@ VM:
     eu: Pļaviņas udalerria
     be: Плявіньскі край
     mk: Пљавињас
+  comments: 
+'073': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4767,8 +5060,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'073':
-  unofficial_names: 
   translations:
     ar: بلدية بريلي
     bn: প্রেইলি পৌরসভা
@@ -4814,6 +5105,11 @@ VM:
     eu: Preiļi udalerria
     be: Прэйльскі край
     mk: Преиљи
+  comments: 
+'074': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4821,8 +5117,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'074':
-  unofficial_names: 
   translations:
     ar: بلدية بريكول
     bn: প্রিকুলে পৌরসভা
@@ -4868,6 +5162,11 @@ VM:
     eu: Priekule udalerria
     be: Прыекульскі край
     mk: Приекуле
+  comments: 
+'075': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4875,8 +5174,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'075':
-  unofficial_names: 
   translations:
     ar: بلدية بريكولي
     bn: প্রিয়েকুলি পৌরসভা
@@ -4923,6 +5220,11 @@ VM:
     eu: Priekuļi udalerria
     be: Прыекульскі край²
     mk: Приекуљи
+  comments: 
+'076': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4930,8 +5232,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'076':
-  unofficial_names: 
   translations:
     ar: بلدية راونا
     bn: রনা পৌরসভা
@@ -4978,6 +5278,11 @@ VM:
     eu: Rauna udalerria
     be: Раўнскі край
     mk: Рауна
+  comments: 
+'077': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -4985,8 +5290,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'077':
-  unofficial_names: 
   translations:
     ar: بلدية ريزكنه
     bn: রেজেকনি পৌরসভা
@@ -5033,6 +5336,11 @@ VM:
     eu: Rēzekne udalerria
     be: Рэзэкненскі край
     mk: Резекне
+  comments: 
+'078': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5040,8 +5348,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'078':
-  unofficial_names: 
   translations:
     ar: بلدية ريبيني
     bn: রিবিনি পৌরসভা
@@ -5088,6 +5394,11 @@ VM:
     eu: Riebiņi udalerria
     be: Рыебіньскі край
     mk: Риебињи
+  comments: 
+'079': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5095,8 +5406,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'079':
-  unofficial_names: 
   translations:
     ar: بلدية رويا
     bn: রোজা পৌরসভা
@@ -5142,6 +5451,11 @@ VM:
     eu: Roja udalerria
     be: Ройскі край
     mk: Роја
+  comments: 
+'080': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5149,8 +5463,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'080':
-  unofficial_names: 
   translations:
     ar: بلدية روباجي
     bn: রোপাজা পৌরসভা
@@ -5196,6 +5508,11 @@ VM:
     eu: Ropaži udalerria
     be: Ропажскі край
     mk: Ропажи
+  comments: 
+'081': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5203,8 +5520,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'081':
-  unofficial_names: 
   translations:
     ar: بلدية روكافا
     bn: রুকাভা পৌরসভা
@@ -5250,6 +5565,11 @@ VM:
     eu: Rucava udalerria
     be: Руцаўскі край
     mk: Руцава
+  comments: 
+'082': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5257,8 +5577,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'082':
-  unofficial_names: 
   translations:
     ar: بلدية روغايا
     bn: রুগাজি পৌরসভা
@@ -5304,6 +5622,11 @@ VM:
     eu: Rugāji udalerria
     be: Ругайскі край
     mk: Ругаји
+  comments: 
+'083': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5311,8 +5634,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'083':
-  unofficial_names: 
   translations:
     ar: بلدية روندال
     be: Рундальскі край
@@ -5359,6 +5680,11 @@ VM:
     hy: Ռունդալեի շրջան
     eu: Rundāle udalerria
     mk: Рундале
+  comments: 
+'084': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5366,8 +5692,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'084':
-  unofficial_names: 
   translations:
     ar: بلدية روجينا
     bn: রুজিয়েনা পৌরসভা
@@ -5414,6 +5738,11 @@ VM:
     eu: Rūjiena udalerria
     be: Руіенскі край
     mk: Рујиена
+  comments: 
+'085': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5421,8 +5750,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'085':
-  unofficial_names: 
   translations:
     ar: بلدية سالا، لاتفيا
     bn: সালা পৌরসভা, লাটভিয়া
@@ -5469,6 +5796,11 @@ VM:
     eu: Salacgrīva udalerria
     be: Салскі край
     mk: Сала (општина)
+  comments: 
+'086': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5476,8 +5808,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'086':
-  unofficial_names: 
   translations:
     ar: بلدية سالاكريفا
     bn: স্যালাকগ্রিভা পৌরসভা
@@ -5523,6 +5853,11 @@ VM:
     eu: Sala udalerria
     be: Салацгрыўскі край
     mk: Салацгрива
+  comments: 
+'087': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5530,8 +5865,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'087':
-  unofficial_names: 
   translations:
     ar: بلدية سالاسبيلز
     bn: সালাস্পিলস পৌরসভা
@@ -5578,6 +5911,11 @@ VM:
     eu: Salaspils udalerria
     be: Саласпілскі край
     mk: Саласпилс
+  comments: 
+'088': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5585,8 +5923,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'088':
-  unofficial_names: 
   translations:
     ar: بلدية سالدوس
     bn: স্যালদুস পৌরসভা
@@ -5633,6 +5969,11 @@ VM:
     eu: Saldus udalerria
     be: Салдускі край
     mk: Салдус
+  comments: 
+'089': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5640,8 +5981,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'089':
-  unofficial_names: 
   translations:
     ar: بلدية سولكراستي
     bn: সল্ক্রাস্তি পৌরসভা
@@ -5687,6 +6026,11 @@ VM:
     eu: Saulkrasti udalerria
     be: Саўлкрасцкі край
     mk: Саулкрасти
+  comments: 
+'090': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5694,8 +6038,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'090':
-  unofficial_names: 
   translations:
     ar: بلدية سييا
     bn: সেজা পৌরসভা
@@ -5742,6 +6084,11 @@ VM:
     eu: Sēja udalerria
     be: Сейскі край
     mk: Сеја
+  comments: 
+'091': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5749,8 +6096,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'091':
-  unofficial_names: 
   translations:
     ar: بلدية سيغولدا
     bn: সিগুল্ডা পৌরসভা
@@ -5796,6 +6141,11 @@ VM:
     eu: Sigulda udalerria
     be: Сігулдскі край
     mk: Сигулда
+  comments: 
+'092': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5803,8 +6153,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'092':
-  unofficial_names: 
   translations:
     ar: بلدية سكريفري
     bn: স্ক্রিভারি পৌরসভা
@@ -5851,6 +6199,11 @@ VM:
     eu: Skrīveri udalerria
     be: Скрывэрскі край
     mk: Скривери
+  comments: 
+'093': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5858,8 +6211,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'093':
-  unofficial_names: 
   translations:
     ar: بلدية سكروندا
     bn: স্ক্রুন্ডা পৌরসভা
@@ -5905,6 +6256,11 @@ VM:
     eu: Skrunda udalerria
     be: Скрундскі край
     mk: Скрунда
+  comments: 
+'094': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5912,8 +6268,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'094':
-  unofficial_names: 
   translations:
     ar: بلدية سميلتين
     bn: স্মিল্টেন পৌরসভা
@@ -5960,6 +6314,11 @@ VM:
     eu: Smiltene udalerria
     be: Смілтэнскі край
     mk: Смилтене
+  comments: 
+'095': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -5967,8 +6326,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'095':
-  unofficial_names: 
   translations:
     ar: بلدية ستوبيني
     bn: স্টপিনি পৌরসভা
@@ -6015,6 +6372,11 @@ VM:
     eu: Stopiņi udalerria
     be: Стопіньскі край
     mk: Стопињи
+  comments: 
+'096': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6022,8 +6384,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'096':
-  unofficial_names: 
   translations:
     ar: بلدية سترنتسي
     bn: স্ট্রেন্সি পৌরসভা
@@ -6069,6 +6429,11 @@ VM:
     eu: Strenči udalerria
     be: Стрэнцкі край
     mk: Стренчи
+  comments: 
+'097': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6076,8 +6441,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'097':
-  unofficial_names: 
   translations:
     ar: بلدية تالشي
     bn: তালসি পৌরসভা
@@ -6124,6 +6487,11 @@ VM:
     eu: Talsi udalerria
     be: Талсінскі край
     mk: Талси
+  comments: 
+'098': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6131,8 +6499,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'098':
-  unofficial_names: 
   translations:
     ar: بلدية تيرفته
     bn: তারভেত পৌরসভা
@@ -6178,6 +6544,11 @@ VM:
     eu: Tērvete udalerria
     be: Тэрвэцкі край
     mk: Тервете
+  comments: 
+'099': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6185,8 +6556,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'099':
-  unofficial_names: 
   translations:
     ar: بلدية توكومز
     be: Тукумскі край
@@ -6235,6 +6604,11 @@ VM:
     he: טוקומס
     eu: Tukums udalerria
     mk: Тукумс
+  comments: 
+'100': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6242,8 +6616,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'100':
-  unofficial_names: 
   translations:
     ar: بلدية فاينود
     be: Вайнёдскі край
@@ -6290,6 +6662,11 @@ VM:
     ccp: "\U0001111E\U0001112D\U0001111A\U0001112E\U00011116\U00011134"
     eu: Vaiņode udalerria
     mk: Ваињоде
+  comments: 
+'101': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6297,8 +6674,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'101':
-  unofficial_names: 
   translations:
     ar: بلدية فالكا
     be: Валцкі край
@@ -6345,6 +6720,11 @@ VM:
     ccp: "\U0001111E\U00011123\U00011134\U00011107"
     eu: Valka udalerria
     mk: Валка
+  comments: 
+'102': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6352,8 +6732,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'102':
-  unofficial_names: 
   translations:
     ar: بلدية فاراكاياني
     bn: ভারাক্লানি পৌরসভা
@@ -6400,6 +6778,11 @@ VM:
     eu: Varakļāni udalerria
     be: Вараклянскі край
     mk: Варакљани
+  comments: 
+'103': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6407,8 +6790,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'103':
-  unofficial_names: 
   translations:
     ar: بلدية فاركافا
     bn: ভারকাভা পৌরসভা
@@ -6455,6 +6836,11 @@ VM:
     eu: Vārkava udalerria
     be: Варкаўскі край
     mk: Варкава
+  comments: 
+'104': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6462,8 +6848,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'104':
-  unofficial_names: 
   translations:
     ar: بلدية فيكبيبالغا
     bn: ভেকপিবাল্গা পৌরসভা
@@ -6510,6 +6894,11 @@ VM:
     eu: Vecpiebalga udalerria
     be: Вецпіебалгскі край
     mk: Вецпиебалга
+  comments: 
+'105': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6517,8 +6906,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'105':
-  unofficial_names: 
   translations:
     ar: بلدية فيكومنيكي
     bn: ভুকুম্নিকি পৌরসভা
@@ -6564,6 +6951,11 @@ VM:
     eu: Vecumnieki udalerria
     be: Вэцумніекскі край
     mk: Вецумниеки
+  comments: 
+'106': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6571,8 +6963,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'106':
-  unofficial_names: 
   translations:
     ar: بلدية فينتسبيلس
     be: Вэнтспілскі край
@@ -6620,6 +7010,11 @@ VM:
     hy: Վենտսպիլսի շրջան
     eu: Ventspils udalerria
     mk: Вентспилс
+  comments: 
+'107': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6627,8 +7022,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'107':
-  unofficial_names: 
   translations:
     ar: بلدية فيسيت
     bn: ভিসাইত পৌরসভা
@@ -6675,6 +7068,11 @@ VM:
     eu: Viesīte udalerria
     be: Віесіцкі край
     mk: Виесите
+  comments: 
+'108': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6682,8 +7080,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'108':
-  unofficial_names: 
   translations:
     ar: بلدية فيلاكا
     be: Вілякскі край
@@ -6729,6 +7125,11 @@ VM:
     ccp: "\U0001111E\U00011128\U00011123\U00011107"
     eu: Viļaka udalerria
     mk: Виљака
+  comments: 
+'109': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6736,8 +7137,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'109':
-  unofficial_names: 
   translations:
     ar: بلدية فيلاني
     be: Вілянскі край
@@ -6784,6 +7183,11 @@ VM:
     eu: Viļāni udalerria
     az: Vilyan
     mk: Виљани
+  comments: 
+'110': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6791,8 +7195,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-'110':
-  unofficial_names: 
   translations:
     ar: بلدية زيلوب
     bn: জিলুপ পৌরসভা
@@ -6839,6 +7241,11 @@ VM:
     eu: Zilupe udalerria
     be: Зілупскі край
     mk: Зилупе
+  comments: 
+JKB: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6846,8 +7253,6 @@ VM:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-JKB:
-  unofficial_names: 
   translations:
     ar: جيكاببيلس
     az: Yekabpils
@@ -6908,6 +7313,11 @@ JKB:
     pa: ਜੀਕਾਬਪਿਲਸ
     kk: Екабпилс
     mk: Јекабпилс²
+  comments: 
+VMR: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -6915,8 +7325,6 @@ JKB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-VMR:
-  unofficial_names: 
   translations:
     ar: فالميرا
     az: Valmiera
@@ -6976,10 +7384,4 @@ VMR:
     pa: ਵਾਲਮੀਰਾ
     kk: Валмиера
     mk: Валмиера
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 

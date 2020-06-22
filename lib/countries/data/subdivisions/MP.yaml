@@ -1,8 +1,8 @@
 ---
-N:
+N: !ruby/struct:ISO3166::Subdivision
+  name: Northern Islands
+  code: 
   unofficial_names: Northern Islands
-  translations:
-    en: Northern Islands
   geo:
     latitude: 18.11
     longitude: 145.771
@@ -10,12 +10,13 @@ N:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Northern Islands
-  comments: 
-R:
-  unofficial_names: Rota
   translations:
-    en: Rota
+    en: Northern Islands
+  comments: 
+R: !ruby/struct:ISO3166::Subdivision
+  name: Rota
+  code: 
+  unofficial_names: Rota
   geo:
     latitude: 14.154
     longitude: 145.201
@@ -23,12 +24,13 @@ R:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Rota
-  comments: 
-S:
-  unofficial_names: Saipan
   translations:
-    en: Saipan
+    en: Rota
+  comments: 
+S: !ruby/struct:ISO3166::Subdivision
+  name: Saipan
+  code: 
+  unofficial_names: Saipan
   geo:
     latitude: 15.16847
     longitude: 145.74081
@@ -36,12 +38,13 @@ S:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Saipan
-  comments: 
-T:
-  unofficial_names: Tinian
   translations:
-    en: Tinian
+    en: Saipan
+  comments: 
+T: !ruby/struct:ISO3166::Subdivision
+  name: Tinian
+  code: 
+  unofficial_names: Tinian
   geo:
     latitude: 15.029
     longitude: 145.616
@@ -49,8 +52,20 @@ T:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Tinian
+  translations:
+    en: Tinian
   comments: 
-'':
+'': !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 22.9734229
+    longitude: 78.6568942
+    min_latitude: 21.0799139
+    min_longitude: 74.0362481
+    max_latitude: 26.8681089
+    max_longitude: 82.809674
   translations:
     en: Northern Mariana Islands
+  comments: 

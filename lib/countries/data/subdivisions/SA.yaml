@@ -1,11 +1,20 @@
 ---
-'01':
+'01': !ruby/struct:ISO3166::Subdivision
+  name: Ar Riyāḑ
+  code: 
   unofficial_names:
   - ar-Riyad
   - ar-Riyād̨
   - Riad
   - Riyadh
   - Riad
+  geo:
+    latitude: 24.633333
+    longitude: 46.716667
+    min_latitude: 24.2939113
+    min_longitude: 46.2981033
+    max_latitude: 25.1564724
+    max_longitude: 47.34695430000001
   translations:
     en: Riyadh
     ar: منطقة الرياض
@@ -42,18 +51,20 @@
     vi: Riyadh
     ccp: "\U00011122\U00011128\U00011120\U00011116\U00011134"
     he: מחוז ריאד
-  geo:
-    latitude: 24.633333
-    longitude: 46.716667
-    min_latitude: 24.2939113
-    min_longitude: 46.2981033
-    max_latitude: 25.1564724
-    max_longitude: 47.34695430000001
-  name: Ar Riyāḑ
-'02':
+  comments: 
+'02': !ruby/struct:ISO3166::Subdivision
+  name: Makkah al Mukarramah
+  code: 
   unofficial_names:
   - La Meca
   - Mecca
+  geo:
+    latitude: 21.416667
+    longitude: 39.816667
+    min_latitude: 21.2790277
+    min_longitude: 39.6902353
+    max_latitude: 21.5930031
+    max_longitude: 40.0028579
   translations:
     en: Makkah
     ar: منطقة مكة المكرمة
@@ -106,19 +117,21 @@
     pa: ਮੱਕਾ ਸੂਬਾ
     ca: Regió de la Meca
     mk: Мека
-  geo:
-    latitude: 21.416667
-    longitude: 39.816667
-    min_latitude: 21.2790277
-    min_longitude: 39.6902353
-    max_latitude: 21.5930031
-    max_longitude: 40.0028579
-  name: Makkah al Mukarramah
-'03':
+  comments: 
+'03': !ruby/struct:ISO3166::Subdivision
+  name: Al Madinah
+  code: 
   unofficial_names:
   - Medina
   - Médine
   - al-Madinah
+  geo:
+    latitude: 24.466667
+    longitude: 39.6
+    min_latitude: 24.2829585
+    min_longitude: 39.37397
+    max_latitude: 24.6591863
+    max_longitude: 39.861145
   translations:
     en: Al Madinah
     ar: منطقة المدينة المنورة
@@ -170,18 +183,20 @@
     az: Əl-Mədinə
     ca: Província de Medina
     mk: Медина
-  geo:
-    latitude: 24.466667
-    longitude: 39.6
-    min_latitude: 24.2829585
-    min_longitude: 39.37397
-    max_latitude: 24.6591863
-    max_longitude: 39.861145
-  name: Al Madinah
-'04':
+  comments: 
+'04': !ruby/struct:ISO3166::Subdivision
+  name: Ash Sharqiyah
+  code: 
   unofficial_names:
   - Eastern
   - ash-Sharqiyah
+  geo:
+    latitude: 22.2954496
+    longitude: 50.6793759
+    min_latitude: 17.013492
+    min_longitude: 44.9209199
+    max_latitude: 29.1188431
+    max_longitude: 55.6665879
   translations:
     en: Eastern
     ar: المنطقة الشرقية
@@ -232,17 +247,19 @@
     zh: 东部省
     ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011122\U00011134\U0001111A\U00011134"
     ca: Província Oriental
-  geo:
-    latitude: 22.2954496
-    longitude: 50.6793759
-    min_latitude: 17.013492
-    min_longitude: 44.9209199
-    max_latitude: 29.1188431
-    max_longitude: 55.6665879
-  name: Ash Sharqiyah
-'05':
+  comments: 
+'05': !ruby/struct:ISO3166::Subdivision
+  name: Al Qasim
+  code: 
   unofficial_names:
   - Qaseem
+  geo:
+    latitude: 25.8274886
+    longitude: 42.8637875
+    min_latitude: 24.6168831
+    min_longitude: 41.40690499999999
+    max_latitude: 27.3311671
+    max_longitude: 44.8272001
   translations:
     en: Al-Qassim
     ar: منطقة القصيم
@@ -293,17 +310,19 @@
     ccp: "\U00011103\U00011123\U00011134-\U00011107\U0001112A\U00011125\U00011128\U0001111F\U00011134"
     he: אזור אלקסים
     pa: ਅਲ-ਕਸੀਮ ਸੂਬਾ
-  geo:
-    latitude: 25.8274886
-    longitude: 42.8637875
-    min_latitude: 24.6168831
-    min_longitude: 41.40690499999999
-    max_latitude: 27.3311671
-    max_longitude: 44.8272001
-  name: Al Qasim
-'06':
+  comments: 
+'06': !ruby/struct:ISO3166::Subdivision
+  name: Ḩā'il
+  code: 
   unofficial_names:
   - Hail
+  geo:
+    latitude: 27.516667
+    longitude: 41.683333
+    min_latitude: 27.3530152
+    min_longitude: 41.5061761
+    max_latitude: 27.6987282
+    max_longitude: 41.8434906
   translations:
     en: Ha’il
     ar: منطقة حائل
@@ -356,17 +375,19 @@
     pa: ਹਾਇਲ ਰਿਆਸਤ
     ca: Província de Ha’il
     mk: Хаил
-  geo:
-    latitude: 27.516667
-    longitude: 41.683333
-    min_latitude: 27.3530152
-    min_longitude: 41.5061761
-    max_latitude: 27.6987282
-    max_longitude: 41.8434906
-  name: Ḩā'il
-'07':
+  comments: 
+'07': !ruby/struct:ISO3166::Subdivision
+  name: Tabūk
+  code: 
   unofficial_names:
   - Tabook
+  geo:
+    latitude: 28.383333
+    longitude: 36.583333
+    min_latitude: 28.3255379
+    min_longitude: 36.4326624
+    max_latitude: 28.4718602
+    max_longitude: 36.6991425
   translations:
     en: Tabuk
     ar: منطقة تبوك
@@ -416,18 +437,20 @@
     zh: 塔布克省
     ccp: "\U00011111\U0001111D\U0001112A\U00011107\U00011134"
     pa: ਤਬੂਕ ਸੂਬਾ
-  geo:
-    latitude: 28.383333
-    longitude: 36.583333
-    min_latitude: 28.3255379
-    min_longitude: 36.4326624
-    max_latitude: 28.4718602
-    max_longitude: 36.6991425
-  name: Tabūk
-'08':
+  comments: 
+'08': !ruby/struct:ISO3166::Subdivision
+  name: Al Ḩudūd ash Shamālīyah
+  code: 
   unofficial_names:
   - Northern
   - al-Hudud ash-Shamaliyah
+  geo:
+    latitude: 29.7248676
+    longitude: 42.2362435
+    min_latitude: 27.459833
+    min_longitude: 37.8584141
+    max_latitude: 32.158333
+    max_longitude: 45.92311
   translations:
     en: Northern Borders
     ar: منطقة الحدود الشمالية
@@ -466,17 +489,19 @@
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
       \U00011125\U00011128\U0001111F\U00011128\U0001111A\U0001112C"
     ca: Província de la Frontera Septentrional
-  geo:
-    latitude: 29.7248676
-    longitude: 42.2362435
-    min_latitude: 27.459833
-    min_longitude: 37.8584141
-    max_latitude: 32.158333
-    max_longitude: 45.92311
-  name: Al Ḩudūd ash Shamālīyah
-'09':
+  comments: 
+'09': !ruby/struct:ISO3166::Subdivision
+  name: Jāzān
+  code: 
   unofficial_names:
   - Jizan
+  geo:
+    latitude: 16.889167
+    longitude: 42.561111
+    min_latitude: 16.8181793
+    min_longitude: 42.5295783
+    max_latitude: 16.9898154
+    max_longitude: 42.64789589999999
   translations:
     en: Jizan
     ar: منطقة جازان
@@ -514,16 +539,18 @@
     vi: Jizan
     zh: 吉赞省
     ccp: "\U0001110E\U00011128\U0001110E\U0001111A\U00011134"
-  geo:
-    latitude: 16.889167
-    longitude: 42.561111
-    min_latitude: 16.8181793
-    min_longitude: 42.5295783
-    max_latitude: 16.9898154
-    max_longitude: 42.64789589999999
-  name: Jāzān
-'10':
+  comments: 
+'10': !ruby/struct:ISO3166::Subdivision
+  name: Najrān
+  code: 
   unofficial_names: Najran
+  geo:
+    latitude: 17.491667
+    longitude: 44.132222
+    min_latitude: 17.4746589
+    min_longitude: 44.0930793
+    max_latitude: 17.6004129
+    max_longitude: 44.2933307
   translations:
     en: Najran
     ar: منطقة نجران
@@ -571,17 +598,19 @@
     zh: 奈季兰省
     ccp: "\U0001111A\U0001110C\U00011134\U00011122\U0001111A\U00011134"
     ca: Província de Najran
-  geo:
-    latitude: 17.491667
-    longitude: 44.132222
-    min_latitude: 17.4746589
-    min_longitude: 44.0930793
-    max_latitude: 17.6004129
-    max_longitude: 44.2933307
-  name: Najrān
-'11':
+  comments: 
+'11': !ruby/struct:ISO3166::Subdivision
+  name: Al Bāḩah
+  code: 
   unofficial_names:
   - Baha
+  geo:
+    latitude: 21.4556901
+    longitude: 39.2133847
+    min_latitude: 21.4550067
+    min_longitude: 39.21315860000001
+    max_latitude: 21.4561942
+    max_longitude: 39.2135471
   translations:
     en: Al Bahah
     ar: منطقة الباحة
@@ -631,17 +660,19 @@
     zh: 巴哈省
     ccp: "\U00011103\U00011123\U00011134 \U0001111D\U00011126\U00011134"
     pa: ਅਲਬਾਹਾ ਸੂਬਾ
-  geo:
-    latitude: 21.4556901
-    longitude: 39.2133847
-    min_latitude: 21.4550067
-    min_longitude: 39.21315860000001
-    max_latitude: 21.4561942
-    max_longitude: 39.2135471
-  name: Al Bāḩah
-'12':
+  comments: 
+'12': !ruby/struct:ISO3166::Subdivision
+  name: Al Jawf
+  code: 
   unofficial_names:
   - Al-Jouf
+  geo:
+    latitude: 29.887356
+    longitude: 39.3206241
+    min_latitude: 28.1313139
+    min_longitude: 34.8245874
+    max_latitude: 31.7389761
+    max_longitude: 41.91381500000001
   translations:
     en: Al Jawf
     ar: منطقة الجوف
@@ -692,17 +723,19 @@
     zh: 焦夫省 (沙地阿拉伯)
     ccp: "\U00011103\U00011123\U00011134 \U0001110E\U00011127\U00011120\U0001112E\U0001111B\U00011134"
     pa: ਜੌਫ਼ ਸੂਬਾ
-  geo:
-    latitude: 29.887356
-    longitude: 39.3206241
-    min_latitude: 28.1313139
-    min_longitude: 34.8245874
-    max_latitude: 31.7389761
-    max_longitude: 41.91381500000001
-  name: Al Jawf
-'14':
+  comments: 
+'14': !ruby/struct:ISO3166::Subdivision
+  name: "'Asīr"
+  code: 
   unofficial_names:
   - Aseer
+  geo:
+    latitude: 19.0969062
+    longitude: 42.8637875
+    min_latitude: 17.422384
+    min_longitude: 41.38029
+    max_latitude: 20.970846
+    max_longitude: 44.528442
   translations:
     en: Asir
     ar: منطقة عسير
@@ -754,11 +787,4 @@
     ccp: "\U00011103\U00011125\U00011128\U00011122\U00011134"
     pa: ਅਸੀਰ ਰਿਆਸਤ
     ne: असिर प्रान्त
-  geo:
-    latitude: 19.0969062
-    longitude: 42.8637875
-    min_latitude: 17.422384
-    min_longitude: 41.38029
-    max_latitude: 20.970846
-    max_longitude: 44.528442
-  name: "'Asīr"
+  comments: 

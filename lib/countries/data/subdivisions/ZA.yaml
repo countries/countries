@@ -1,7 +1,16 @@
 ---
-EC:
+EC: !ruby/struct:ISO3166::Subdivision
+  name: Eastern Cape
+  code: 
   unofficial_names:
   - Oos Kaap
+  geo:
+    latitude: -32.2968402
+    longitude: 26.419389
+    min_latitude: -34.2136378
+    min_longitude: 22.7357412
+    max_latitude: -30.0018012
+    max_longitude: 30.1947187
   translations:
     en: Eastern Cape
     af: Oos-Kaap
@@ -67,18 +76,20 @@ EC:
     az: Şərqi Burun vilayəti
     yo: Eastern Cape
     mk: Источен Кејп
-  geo:
-    latitude: -32.2968402
-    longitude: 26.419389
-    min_latitude: -34.2136378
-    min_longitude: 22.7357412
-    max_latitude: -30.0018012
-    max_longitude: 30.1947187
-  name: Eastern Cape
-FS:
+  comments: 
+FS: !ruby/struct:ISO3166::Subdivision
+  name: Free State
+  code: 
   unofficial_names:
   - Foreistata
   - Vrystaat
+  geo:
+    latitude: -28.4541105
+    longitude: 26.7967849
+    min_latitude: -30.69408
+    min_longitude: 24.3466211
+    max_latitude: -26.6687389
+    max_longitude: 29.7851298
   translations:
     en: Free State
     af: Vrystaat
@@ -145,17 +156,19 @@ FS:
     be: Фры-Стэйт
     yo: Free State
     mk: Фристејт
-  geo:
-    latitude: -28.4541105
-    longitude: 26.7967849
-    min_latitude: -30.69408
-    min_longitude: 24.3466211
-    max_latitude: -26.6687389
-    max_longitude: 29.7851298
-  name: Free State
-GT:
+  comments: 
+GT: !ruby/struct:ISO3166::Subdivision
+  name: Gauteng
+  code: 
   unofficial_names:
   - Pretoria-Witwatersrand-Vereeniging
+  geo:
+    latitude: -26.2707593
+    longitude: 28.1122679
+    min_latitude: -26.9118973
+    min_longitude: 27.1563401
+    max_latitude: -25.1096099
+    max_longitude: 29.0984187
   translations:
     en: Gauteng
     af: Gauteng
@@ -221,16 +234,18 @@ GT:
     az: Qautenq vilayəti
     yo: Gauteng
     mk: Гаутенг
-  geo:
-    latitude: -26.2707593
-    longitude: 28.1122679
-    min_latitude: -26.9118973
-    min_longitude: 27.1563401
-    max_latitude: -25.1096099
-    max_longitude: 29.0984187
-  name: Gauteng
-LP:
+  comments: 
+LP: !ruby/struct:ISO3166::Subdivision
+  name: Limpopo
+  code: 
   unofficial_names: Limpopo
+  geo:
+    latitude: -23.4012946
+    longitude: 29.4179324
+    min_latitude: -25.4227899
+    min_longitude: 26.4075388
+    max_latitude: -22.1250298
+    max_longitude: 31.8838412
   translations:
     en: Limpopo
     af: Limpopo
@@ -295,17 +310,19 @@ LP:
     az: Limpopo vilayəti
     yo: Limpopo
     mk: Лимпопо
-  geo:
-    latitude: -23.4012946
-    longitude: 29.4179324
-    min_latitude: -25.4227899
-    min_longitude: 26.4075388
-    max_latitude: -22.1250298
-    max_longitude: 31.8838412
-  name: Limpopo
-MP:
+  comments: 
+MP: !ruby/struct:ISO3166::Subdivision
+  name: Mpumalanga
+  code: 
   unofficial_names:
   - eMpumalanga
+  geo:
+    latitude: -29.817
+    longitude: 30.637
+    min_latitude: -29.853415
+    min_longitude: 30.5890079
+    max_latitude: -29.7785889
+    max_longitude: 30.67445
   translations:
     en: Mpumalanga
     af: Mpumalanga
@@ -369,16 +386,18 @@ MP:
     az: Mpumalanqa vilayəti
     yo: Mpumalanga
     mk: Мпумаланга
-  geo:
-    latitude: -29.817
-    longitude: 30.637
-    min_latitude: -29.853415
-    min_longitude: 30.5890079
-    max_latitude: -29.7785889
-    max_longitude: 30.67445
-  name: Mpumalanga
-NC:
+  comments: 
+NC: !ruby/struct:ISO3166::Subdivision
+  name: Northern Cape
+  code: 
   unofficial_names: Northern Cape
+  geo:
+    latitude: -29.0466808
+    longitude: 21.8568586
+    min_latitude: -32.9449877
+    min_longitude: 16.451941
+    max_latitude: -24.76586
+    max_longitude: 25.54933
   translations:
     en: Northern Cape
     af: Noord-Kaap
@@ -443,16 +462,18 @@ NC:
     yue: 北開普
     yo: Northern Cape
     mk: Северен Кејп
-  geo:
-    latitude: -29.0466808
-    longitude: 21.8568586
-    min_latitude: -32.9449877
-    min_longitude: 16.451941
-    max_latitude: -24.76586
-    max_longitude: 25.54933
-  name: Northern Cape
-NL:
+  comments: 
+NL: !ruby/struct:ISO3166::Subdivision
+  name: Kwazulu-Natal
+  code: 
   unofficial_names: Kwazulu-Natal
+  geo:
+    latitude: -28.5305539
+    longitude: 30.8958242
+    min_latitude: -31.0853648
+    min_longitude: 28.8734801
+    max_latitude: -26.80442
+    max_longitude: 32.8909911
   translations:
     en: KwaZulu-Natal
     af: KwaZulu-Natal
@@ -519,16 +540,18 @@ NL:
     az: Kvazulu-Natal vilayəti
     yo: KwaZulu-Natal
     mk: Натал
-  geo:
-    latitude: -28.5305539
-    longitude: 30.8958242
-    min_latitude: -31.0853648
-    min_longitude: 28.8734801
-    max_latitude: -26.80442
-    max_longitude: 32.8909911
-  name: Kwazulu-Natal
-NW:
+  comments: 
+NW: !ruby/struct:ISO3166::Subdivision
+  name: North-West
+  code: 
   unofficial_names: North-West
+  geo:
+    latitude: -26.6638599
+    longitude: 25.2837585
+    min_latitude: -28.112206
+    min_longitude: 22.6290299
+    max_latitude: -24.6366288
+    max_longitude: 28.2983488
   translations:
     en: North West
     af: Noordwes
@@ -593,17 +616,19 @@ NW:
     az: Şimal-Qərb vilayəti
     yo: Àríwá-Ìwọòrùn
     mk: Северозапад
-  geo:
-    latitude: -26.6638599
-    longitude: 25.2837585
-    min_latitude: -28.112206
-    min_longitude: 22.6290299
-    max_latitude: -24.6366288
-    max_longitude: 28.2983488
-  name: North-West
-WC:
+  comments: 
+WC: !ruby/struct:ISO3166::Subdivision
+  name: Western Cape
+  code: 
   unofficial_names:
   - Wes Kaap
+  geo:
+    latitude: -33.2277918
+    longitude: 21.8568586
+    min_latitude: -34.8330058
+    min_longitude: 17.7575637
+    max_latitude: -30.4302599
+    max_longitude: 24.22241
   translations:
     en: Western Cape
     af: Wes-Kaap
@@ -670,17 +695,26 @@ WC:
     yue: 西開普
     yo: Western Cape
     mk: Западен Кејп
-  geo:
-    latitude: -33.2277918
-    longitude: 21.8568586
-    min_latitude: -34.8330058
-    min_longitude: 17.7575637
-    max_latitude: -30.4302599
-    max_longitude: 24.22241
-  name: Western Cape
-GP:
+  comments: 
+GP: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
   translations:
     en: Gauteng
-KZN:
+  comments: 
+KZN: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: -28.5305539
+    longitude: 30.8958242
+    min_latitude: -31.0853648
+    min_longitude: 28.8734801
+    max_latitude: -26.80442
+    max_longitude: 32.8909911
   translations:
     en: Kwazulu-Natal
+  comments: 

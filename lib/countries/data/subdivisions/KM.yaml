@@ -1,9 +1,18 @@
 ---
-A:
+A: !ruby/struct:ISO3166::Subdivision
+  name: Anjouan
+  code: 
   unofficial_names:
   - Anjouan
   - Ndzuwani
   - Nzwani
+  geo:
+    latitude: -12.2138145
+    longitude: 44.4370606
+    min_latitude: -12.3804607
+    min_longitude: 44.20471500000001
+    max_latitude: -12.069215
+    max_longitude: 44.5364756
   translations:
     en: Anjouan
     ar: أنجوان
@@ -58,18 +67,20 @@ A:
     sr_Latn: Anžuan
     ccp: "\U00011103\U0001111A\U00011134\U0001110E\U0001112E\U00011120\U0001111A\U00011134"
     uk: Анжуан
-  geo:
-    latitude: -12.2138145
-    longitude: 44.4370606
-    min_latitude: -12.3804607
-    min_longitude: 44.20471500000001
-    max_latitude: -12.069215
-    max_longitude: 44.5364756
-  name: Anjouan
-G:
+  comments: 
+G: !ruby/struct:ISO3166::Subdivision
+  name: Grande Comore
+  code: 
   unofficial_names:
   - Grande Comore
   - Njazídja
+  geo:
+    latitude: -11.7167338
+    longitude: 43.3680788
+    min_latitude: -11.9393224
+    min_longitude: 43.2286278
+    max_latitude: -11.3646394
+    max_longitude: 43.51371899999999
   translations:
     en: Grande Comore
     ar: القمر الكبرى
@@ -121,19 +132,21 @@ G:
     sr_Latn: Veliki Komori
     zh: 大科摩罗岛
     ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134 \U00011107\U0001112E\U0001111F\U00011122\U00011134"
-  geo:
-    latitude: -11.7167338
-    longitude: 43.3680788
-    min_latitude: -11.9393224
-    min_longitude: 43.2286278
-    max_latitude: -11.3646394
-    max_longitude: 43.51371899999999
-  name: Grande Comore
-M:
+  comments: 
+M: !ruby/struct:ISO3166::Subdivision
+  name: Mohéli
+  code: 
   unofficial_names:
   - Mohilla
   - Mohéli
   - Moili
+  geo:
+    latitude: -12.3377376
+    longitude: 43.7334089
+    min_latitude: -12.3899703
+    min_longitude: 43.6219025
+    max_latitude: -12.2490952
+    max_longitude: 43.8763046
   translations:
     en: Mohéli
     ar: موهيلي
@@ -185,11 +198,4 @@ M:
     zh: 莫埃利島
     ccp: "\U0001111F\U00011127\U00011126\U0001112C\U00011123\U00011128"
     uk: Мохелі
-  geo:
-    latitude: -12.3377376
-    longitude: 43.7334089
-    min_latitude: -12.3899703
-    min_longitude: 43.6219025
-    max_latitude: -12.2490952
-    max_longitude: 43.8763046
-  name: Mohéli
+  comments: 

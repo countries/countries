@@ -1,7 +1,16 @@
 ---
-GB:
+GB: !ruby/struct:ISO3166::Subdivision
+  name: Gorno-Badakhshan
+  code: 
   unofficial_names:
   - Gorno-Badahşan
+  geo:
+    latitude: 38.412732
+    longitude: 73.087749
+    min_latitude: 36.671535
+    min_longitude: 70.216537
+    max_latitude: 39.46881500000001
+    max_longitude: 75.1514831
   translations:
     en: Gorno-Badakhshan
     ar: جورنو
@@ -55,17 +64,19 @@ GB:
     hy: Լեռնա-Բադախշանյան ինքնավար մարզ
     ky: Тоолуу-Бадахшан автономиялуу облусу
     uz: Togʻli-Badaxshon muxtor viloyati
-  geo:
-    latitude: 38.412732
-    longitude: 73.087749
-    min_latitude: 36.671535
-    min_longitude: 70.216537
-    max_latitude: 39.46881500000001
-    max_longitude: 75.1514831
-  name: Gorno-Badakhshan
-KT:
+  comments: 
+KT: !ruby/struct:ISO3166::Subdivision
+  name: Khatlon
+  code: 
   unofficial_names:
   - Hatlon
+  geo:
+    latitude: 37.9113562
+    longitude: 69.097023
+    min_latitude: 36.9281721
+    min_longitude: 67.78614600000002
+    max_latitude: 38.783459
+    max_longitude: 70.34964699999999
   translations:
     en: Khatlon
     ar: محافظة خاتلون
@@ -114,15 +125,10 @@ KT:
     cs: Chatlonský vilájet
     be: Хатлонская вобласць
     uz: Xatlon
-  geo:
-    latitude: 37.9113562
-    longitude: 69.097023
-    min_latitude: 36.9281721
-    min_longitude: 67.78614600000002
-    max_latitude: 38.783459
-    max_longitude: 70.34964699999999
-  name: Khatlon
-SU:
+  comments: 
+SU: !ruby/struct:ISO3166::Subdivision
+  name: Sughd
+  code: 
   unofficial_names:
   - Chudjand
   - Hucand
@@ -132,6 +138,13 @@ SU:
   - Khodzhent
   - Khudzhand
   - Leninabad
+  geo:
+    latitude: 39.5155326
+    longitude: 69.097023
+    min_latitude: 38.926113
+    min_longitude: 67.3871309
+    max_latitude: 41.0422438
+    max_longitude: 70.984337
   translations:
     en: Sughd
     ar: صغد
@@ -184,16 +197,18 @@ SU:
     ccp: "\U00011125\U0001112A\U00011107\U00011134\U00011126\U00011134"
     be: Сагдыйская вобласць
     uz: Sugʻd
-  geo:
-    latitude: 39.5155326
-    longitude: 69.097023
-    min_latitude: 38.926113
-    min_longitude: 67.3871309
-    max_latitude: 41.0422438
-    max_longitude: 70.984337
-  name: Sughd
-DU:
+  comments: 
+DU: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
   unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Doesjanbe
     am: ዱሻንቤ
@@ -273,6 +288,11 @@ DU:
     bs: Dušanbe
     mk: Душанбе
     ne: दुशान्वे
+  comments: 
+RA: !ruby/struct:ISO3166::Subdivision
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -280,8 +300,6 @@ DU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-RA:
-  unofficial_names: 
   translations:
     ar: مقاطعات التبعية الجمهوري
     bg: Райони на централно подчинение в Таджикистан
@@ -329,10 +347,4 @@ RA:
       \U00011111\U0001112E\U0001111D\U0001112C\U0001112D \U0001110E\U0001112A\U0001111F\U00011134\U00011126\U0001112A\U00011122\U00011128"
     be: раёны рэспубліканскага падпарадкавання Таджыкістана
     uz: Tojikistonning respublikaga boʻysunuvchi tumanlari
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+  comments: 
