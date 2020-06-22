@@ -2,7 +2,9 @@ require 'geocoder'
 require 'retryable'
 
 Geocoder.configure(
-  timeout: 10
+  lookup: :google,
+  timeout: 10,
+  api_key: GOOGLE_API_KEY
 )
 
 # raise on geocoding errors such as query limit exceeded
@@ -10,9 +12,9 @@ Geocoder.configure(always_raise: :all)
 # Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
 # @param [String] query string to geocode
 # @return [Hash] first valid result or nil
-def geocode(query)
+def geocode(query, params)
   Retryable.retryable(tries: 3, sleep: ->(n) { 2**n }) do
-    Geocoder.search(query).first
+    Geocoder.search(query, params: params).first
   end
 rescue => e
   warn "Attempts exceeded for query #{query}, last error was #{e.message}"
@@ -41,12 +43,8 @@ namespace :geocode do
       # Load unmutated yaml file.
       data = load_country_yaml(country.alpha2)
 
-      lookup = "#{country.alpha2} country"
-      # LU country lookup appears to match to Los Angeles
-      lookup = country.name if country.alpha2 == 'LU'
-
-      next unless (result = geocode(lookup))
-      puts 'WARNING:: Geocoder returned something that was not a country' unless result.types.include?('country')
+      next unless (result = geocode(country.name, {region: country.alpha2}))
+      puts "WARNING:: Geocoder returned something that was not a country for #{country.alpha2}" unless result.types.include?('country')
       geometry = result.geometry
 
       # Extract center point data
@@ -76,15 +74,10 @@ namespace :geocode do
       # Iterate subdivisions
       state_data = c.subdivisions.dup
       state_data.reject { |_, data| data['geo'] }.each do |code, data|
-        location = "#{data['name']}, #{c.name}"
+        location = "#{c.alpha2}-#{code}"
 
-        # Handle special geocoding cases where Google defaults to well known
-        # cities, instead of the states.
-        if c.alpha2 == 'US' && %w(NY WA OK).include?(code)
-          location = "#{data['name']} State, United States"
-        end
+        next unless (result = geocode(location, {region: c.alpha2}))
 
-        next unless (result = geocode(location))
         geometry = result.geometry
         if geometry['location']
           state_data[code]['geo'] ||= {}
