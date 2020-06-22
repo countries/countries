@@ -2,6 +2,8 @@ require 'uri'
 require 'net/http'
 require 'nokogiri'
 require 'fileutils'
+require 'json'
+
 module Sources
   module CLDR
     module Downloader
@@ -14,22 +16,19 @@ module Sources
       def download_folder(type)
         folder = File.join(ISO3166_ROOT_PATH, 'tmp', 'cldr', 'trunk', 'common', type)
         FileUtils.mkdir_p(folder)
-        doc = Nokogiri::HTML get(type + '/')
-        doc.css('a[href]').map { |e| e.attributes['href'].value }.each do |href|
-          next if href == '../'
-          File.write(File.join(folder, href), get([type, href].join('/')))
+        url = URI.parse("https://api.github.com/repos/unicode-org/cldr/contents/common/" + type)
+        path_listing = JSON.parse(Net::HTTP.get_response(url).body)
+        path_listing.each do |path|
+          if path['name'] =~ /\.xml$/
+            File.open(File.join(folder, path['name']), 'w') do |f|
+              raw_url = URI.parse(path['download_url'])
+              f.write(Net::HTTP.get_response(raw_url).body)
+            end
+          end
         end
       end
 
-      def get(path)
-        url = URI("http://www.unicode.org/repos/cldr/trunk/common/#{path}")
-
-        http = Net::HTTP.new(url.host, url.port)
-
-        request = Net::HTTP::Get.new(url)
-        response = http.request(request)
-        response.read_body
-      end
     end
   end
 end
+
