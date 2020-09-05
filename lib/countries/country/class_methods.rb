@@ -89,6 +89,19 @@ module ISO3166
       end
     end
 
+    def collect_countries_with(query_val, query_method=:alpha2, result_method=:itself)
+      return nil unless [query_method, result_method].collect{|e| method_defined? e.to_sym}.all?
+      all.select{|i| i.send(query_method.to_sym).include? query_val}.collect{|e| e.send(result_method.to_sym)}.sort
+    end
+    
+    def collect_countries_with_state(state)
+      collect_countries_with(state, :states, :itself)
+    end
+    
+    def collect_country_codes_with_state(state)
+      collect_countries_with(state, :states, :alpha2)
+    end
+    
     def subdivisions(alpha2)
       @subdivisions ||= {}
       @subdivisions[alpha2] ||= create_subdivisions(subdivision_data(alpha2))
