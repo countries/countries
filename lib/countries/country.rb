@@ -109,5 +109,11 @@ module ISO3166
                 ISO3166::Data.new(@country_data_or_code).call
               end
     end
+    
+    def find_state_with_name(state_name)
+      state = subdivisions.map{|k,v| [k,v.translations.values]}.to_h.select{|k,v| v.include? state_name}
+      state.empty? ? nil : state
+    end
+
   end
 end

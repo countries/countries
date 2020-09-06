@@ -102,6 +102,11 @@ module ISO3166
       collect_countries_with(state, :states, :alpha2)
     end
     
+    def collect_countries_with_state_name(state_name, result_method=:itself)
+      return nil unless method_defined? result_method.to_sym
+      ISO3166::Country.all.map{|e| e.send(result_method.to_sym) if e.find_state_with_name(state_name).try(:keys)}.compact
+    end
+    
     def subdivisions(alpha2)
       @subdivisions ||= {}
       @subdivisions[alpha2] ||= create_subdivisions(subdivision_data(alpha2))
