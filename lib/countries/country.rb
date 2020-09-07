@@ -109,5 +109,14 @@ module ISO3166
                 ISO3166::Data.new(@country_data_or_code).call
               end
     end
+    
+    def find_state_with(state_str)
+      subdivisions.select{|k,v| state_str == k or state_str.in? v.translations.values}.values.shift
+    end
+    
+    def find_state_code_with_translations(state_str)
+      subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| state_str == k or state_str.in? v.values}
+    end
+
   end
 end
