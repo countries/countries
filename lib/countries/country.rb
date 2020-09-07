@@ -114,6 +114,10 @@ module ISO3166
       state = subdivisions.map{|k,v| [k,v.translations.values]}.to_h.select{|k,v| v.include? state_name}
       state.empty? ? nil : state
     end
+    
+    def find_state_code_with_translations(state)
+      subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| state == k or state.in? v.values}
+    end
 
   end
 end
