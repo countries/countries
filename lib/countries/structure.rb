@@ -44,6 +44,7 @@ module ISO3166
     'postal_code' => nil,
     'postal_code_format' => nil,
     'region' => nil,
+    'subdivision_name' => nil,
     'unofficial_names' => [],
     'start_of_week' => 'monday',
     'subregion' => nil,
