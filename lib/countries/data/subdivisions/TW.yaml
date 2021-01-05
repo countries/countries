@@ -86,13 +86,14 @@ CYI:
     tr: Chiayi Country
     ur: چیائی کاؤنٹی
     vi: Gia Nghĩa
+    zh: 嘉義市
   geo:
     latitude: 23.4871898
     longitude: 120.4516708
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   name: Chiayi Municipality
 CYQ:
   unofficial_names: Chiayi
@@ -136,6 +137,7 @@ CYQ:
     uk: Цзяї
     ur: چیایی شہر
     vi: Gia Nghĩa²
+    zh: 嘉義縣
   geo:
     latitude: 23.4518428
     longitude: 120.2554615
@@ -182,6 +184,7 @@ HSQ:
     tr: Hsinchu County
     ur: ہسینچو کاؤنٹی
     vi: Tân Trúc
+    zh: 新竹縣
   geo:
     latitude: 24.8066493
     longitude: 120.9669257
@@ -231,6 +234,7 @@ HSZ:
     uk: Сіньчжу
     ur: ہسینچو
     vi: Tân Trúc²
+    zh: 新竹市
   geo:
     latitude: 24.9330791
     longitude: 121.0093188
@@ -279,6 +283,7 @@ HUA:
     tr: Hualien
     ur: ہوالیئن کاؤنٹی
     vi: Hoa Liên
+    zh: 花蓮縣
   geo:
     latitude: 23.9499886
     longitude: 121.5518908
@@ -326,6 +331,7 @@ ILA:
     tr: Yilan
     ur: یلن کاؤنٹی، تائیوان
     vi: Nghi Lan
+    zh: 宜蘭縣
   geo:
     latitude: 24.7021073
     longitude: 121.7377502
@@ -377,13 +383,14 @@ KEE:
     tr: Keelung
     ur: کیلونگ
     vi: Cơ Long
+    zh: 基隆市
   geo:
     latitude: 25.1313701
     longitude: 121.7488675
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   name: Keelung Municipality
 KHH:
   unofficial_names: Kaohsiung Special Municipality
@@ -436,6 +443,7 @@ KHH:
     uk: Гаосюн
     ur: کائوسیونگ شہر
     vi: Cao Hùng
+    zh: 高雄市
   geo:
     latitude: 22.6272784
     longitude: 120.3014353
@@ -444,18 +452,6 @@ KHH:
     max_latitude: 23.4717267
     max_longitude: 121.0490147
   name: Kaohsiung Special Municipality
-KHQ:
-  unofficial_names: Kaohsiung
-  translations:
-    en: Kaohsiung County
-  geo:
-    latitude: 22.6272784
-    longitude: 120.3014353
-    min_latitude: 20.5862202
-    min_longitude: 116.7118602
-    max_latitude: 23.4717267
-    max_longitude: 121.0490147
-  name: Kaohsiung
 MIA:
   unofficial_names: Miaoli
   translations:
@@ -494,6 +490,7 @@ MIA:
     tr: Miaoli County
     ur: میاولی کاؤنٹی
     vi: Miêu Lật
+    zh: 苗栗縣
   geo:
     latitude: 24.560159
     longitude: 120.8214265
@@ -540,6 +537,7 @@ NAN:
     tr: Nantou
     ur: نانتوو کاؤنٹی
     vi: Nam Đầu
+    zh: 南投縣
   geo:
     latitude: 23.9609981
     longitude: 120.9718638
@@ -548,6 +546,19 @@ NAN:
     max_latitude: 24.2463089
     max_longitude: 121.3494752
   name: Nantou
+NWT:
+  unofficial_names: Taipei
+  translations:
+    en: New Taipei City
+    zh: 新北市
+  geo:
+    latitude: 25.0329694
+    longitude: 121.5654177
+    min_latitude: 24.7900797
+    min_longitude: 121.2826735
+    max_latitude: 25.2443731
+    max_longitude: 121.7300824
+  name: Taipei
 PEN:
   unofficial_names: Penghu
   translations:
@@ -560,6 +571,7 @@ PEN:
     ja: 澎湖県
     ko: 펑후 현
     ru: Пэнху
+    zh: 澎湖縣
   geo:
     latitude: 23.5711899
     longitude: 119.5793157
@@ -608,6 +620,7 @@ PIF:
     tr: Pingtung
     ur: پنگتونگ کاؤنٹی
     vi: Bình Đông
+    zh: 屏東縣
   geo:
     latitude: 22.5519759
     longitude: 120.5487597
@@ -657,6 +670,7 @@ TAO:
     tr: Taoyuan
     ur: تاویوان
     vi: Đào Viên
+    zh: 桃園市
   geo:
     latitude: 24.9936281
     longitude: 121.3009798
@@ -711,26 +725,15 @@ TNN:
     uk: Тайнань
     ur: تاینان
     vi: Đài Nam
+    zh: 台南市
   geo:
     latitude: 23.0038497
     longitude: 120.212227
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   name: Tainan Municipality
-TNQ:
-  unofficial_names: Tainan
-  translations:
-    en: Tainan County
-  geo:
-    latitude: 22.9998999
-    longitude: 120.2268758
-    min_latitude: 22.8874908
-    min_longitude: 120.0354791
-    max_latitude: 23.4137568
-    max_longitude: 120.6562596
-  name: Tainan
 TPE:
   unofficial_names: Taipei Special Municipality
   translations:
@@ -795,6 +798,7 @@ TPE:
     uk: Тайбей
     ur: تائی پے
     vi: Đài Bắc
+    zh: 台北市
   geo:
     latitude: 25.0329694
     longitude: 121.5654177
@@ -803,18 +807,6 @@ TPE:
     max_latitude: 25.2443731
     max_longitude: 121.7300824
   name: Taipei Special Municipality
-TPQ:
-  unofficial_names: Taipei
-  translations:
-    en: New Taipei City
-  geo:
-    latitude: 25.0329694
-    longitude: 121.5654177
-    min_latitude: 24.7900797
-    min_longitude: 121.2826735
-    max_latitude: 25.2443731
-    max_longitude: 121.7300824
-  name: Taipei
 TTT:
   unofficial_names:
   - Taidong
@@ -855,6 +847,7 @@ TTT:
     tr: Taitung County
     ur: تائیتونگ کاؤنٹی
     vi: Đài Đông
+    zh: 台東縣
   geo:
     latitude: 22.7972447
     longitude: 121.0713702
@@ -906,26 +899,15 @@ TXG:
     uk: Тайчжун
     ur: ٹائچونگ
     vi: Đài Trung
+    zh: 台中市
   geo:
     latitude: 24.301983
     longitude: 120.5854674
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   name: Taichung Municipality
-TXQ:
-  unofficial_names: Taichung
-  translations:
-    en: Taichung County
-  geo:
-    latitude: 24.1477358
-    longitude: 120.6736482
-    min_latitude: 23.9985086
-    min_longitude: 120.4607975
-    max_latitude: 24.4416976
-    max_longitude: 121.4509512
-  name: Taichung
 YUN:
   unofficial_names: Yunlin
   translations:
@@ -965,6 +947,7 @@ YUN:
     tr: Yunlin County
     ur: یونلن کاؤنٹی
     vi: Vân Lâm
+    zh: 雲林縣
   geo:
     latitude: 23.7092033
     longitude: 120.4313373
@@ -1017,6 +1000,7 @@ KIN:
     tr: Kinmen
     ur: کنمن
     vi: Kim Môn
+    zh: 金門縣
 LIE:
   translations:
     cs: Okres Lien-ťiang
@@ -1025,6 +1009,4 @@ LIE:
     id: Kepulauan Lienchiang
     ja: 連江県
     ko: 롄장 현
-NWT:
-  translations:
-    en: New Taipei
+    zh: 連江縣
