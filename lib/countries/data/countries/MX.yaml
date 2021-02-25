@@ -29,9 +29,10 @@ MX:
   vat_rates:
     standard: 16
     reduced: []
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
+  postal_code_format: "\\d{5}"
   unofficial_names:
   - Mexico
   - Mexiko

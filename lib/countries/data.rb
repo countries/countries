@@ -5,6 +5,7 @@ module ISO3166
     @@cache_dir = [File.dirname(__FILE__), 'cache']
     @@cache = {}
     @@registered_data = {}
+    @@semaphore = Mutex.new
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
@@ -39,7 +40,9 @@ module ISO3166
       end
 
       def cache
-        update_cache
+        @@semaphore.synchronize do
+          update_cache
+        end
       end
 
       def reset

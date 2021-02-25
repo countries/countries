@@ -12,7 +12,7 @@ MK:
   international_prefix: '00'
   ioc: MKD
   gec: MK
-  name: Macedonia (the former Yugoslav Republic of)
+  name: North Macedonia
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -26,6 +26,7 @@ MK:
   un_locode: MK
   nationality: Macedonian
   postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - Macedonia
   - Mazedonien

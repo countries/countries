@@ -33,8 +33,10 @@ NL:
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: "\\d{4} ?[A-Z]{2}"
   unofficial_names:
   - Netherlands
+  - The Netherlands
   - Niederlande
   - Pays-Bas
   - Países Bajos

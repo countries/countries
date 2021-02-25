@@ -13,13 +13,14 @@ BN:
   national_number_lengths:
   - 7
   national_prefix: '0'
-  number: 096
+  number: '096'
   region: Asia
   subregion: South-Eastern Asia
   world_region: APAC
   un_locode: BN
   nationality: Bruneian
   postal_code: true
+  postal_code_format: "[A-Z]{2} ?\\d{4}"
   unofficial_names:
   - Brunei
   - ブルネイ・ダルサラーム

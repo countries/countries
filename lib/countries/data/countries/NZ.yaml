@@ -29,14 +29,15 @@ NZ:
   vat_rates:
     standard: 15
     reduced:
-      - 9
+    - 9
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - New Zealand
   - Neuseeland
-  - Nouvelle ZÃ©lande
+  - Nouvelle Zélande
   - Nueva Zelanda
   - ニュージーランド
   - Nieuw-Zeeland

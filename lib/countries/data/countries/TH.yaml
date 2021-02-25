@@ -22,10 +22,12 @@ TH:
   nationality: Thai
   vat_rates:
     standard: 7
-    reduced: [0]
+    reduced:
+    - 0
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: "\\d{5}"
   unofficial_names:
   - Thailand
   - Thaïlande

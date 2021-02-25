@@ -11,7 +11,7 @@ ZA:
   alpha2: ZA
   alpha3: ZAF
   country_code: '27'
-  international_prefix: 09
+  international_prefix: '09'
   ioc: RSA
   gec: SF
   name: South Africa
@@ -26,7 +26,8 @@ ZA:
   world_region: EMEA
   un_locode: ZA
   nationality: South African
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - South Africa
   - Republik Südafrika

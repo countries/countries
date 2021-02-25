@@ -2,18 +2,31 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/hexorx/countries/tree/HEAD)
+## [v3.0.1](https://github.com/hexorx/countries/tree/HEAD) (2020/02/11 00:04 +05:00)
 
-[Full Changelog](https://github.com/hexorx/countries/compare/v3.0.0...HEAD)
+[Full Changelog](https://github.com/hexorx/countries/compare/v3.0.0...v3.0.1)
 
 **Closed issues:**
 
+- Accessing all ISO 639-1 language codes [\#604](https://github.com/hexorx/countries/issues/604)
+- County ISO and translations for Cork County \(Ireland\) in invalid [\#594](https://github.com/hexorx/countries/issues/594)
+- Chile added Ñuble Region [\#592](https://github.com/hexorx/countries/issues/592)
+- Samoa currency code should be WST [\#584](https://github.com/hexorx/countries/issues/584)
 - Mauritanian currency code is changed [\#568](https://github.com/hexorx/countries/issues/568)
 - Czech Republic changed it's name to Czechia [\#560](https://github.com/hexorx/countries/issues/560)
 - Swaziland renamed to eSwatini [\#521](https://github.com/hexorx/countries/issues/521)
 
 **Merged pull requests:**
 
+- Update UK EU and EEA status [\#615](https://github.com/hexorx/countries/pull/615) ([carlesjove](https://github.com/carlesjove))
+- Add "The Netherlands" as an unofficial name of NL [\#614](https://github.com/hexorx/countries/pull/614) ([RogerPodacter](https://github.com/RogerPodacter))
+- CI: Drop unused sudo: false directive [\#613](https://github.com/hexorx/countries/pull/613) ([olleolleolle](https://github.com/olleolleolle))
+- Samoa currency is WST [\#599](https://github.com/hexorx/countries/pull/599) ([mbirman](https://github.com/mbirman))
+- Add Ñuble region [\#598](https://github.com/hexorx/countries/pull/598) ([mbirman](https://github.com/mbirman))
+- Update Ireland Subdivision Formatting and Connacht and \(County\) Cork Data [\#596](https://github.com/hexorx/countries/pull/596) ([anastasiastowers](https://github.com/anastasiastowers))
+- Change the name of Macedonia to North Macedonia [\#585](https://github.com/hexorx/countries/pull/585) ([svetliomihailov](https://github.com/svetliomihailov))
+- Add Murica to United States unoffical names [\#577](https://github.com/hexorx/countries/pull/577) ([mikeyduece](https://github.com/mikeyduece))
+- Fix state codes from being returned as false [\#574](https://github.com/hexorx/countries/pull/574) ([akiellor](https://github.com/akiellor))
 - Update i18n\_data version [\#572](https://github.com/hexorx/countries/pull/572) ([tatarsky-v](https://github.com/tatarsky-v))
 - remove bin/console from gemspec [\#571](https://github.com/hexorx/countries/pull/571) ([patleb](https://github.com/patleb))
 - Add North Macedonia as alternate name [\#570](https://github.com/hexorx/countries/pull/570) ([toddwschneider](https://github.com/toddwschneider))
@@ -23,7 +36,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - It should include language variants which are available in i18n\_data. [\#565](https://github.com/hexorx/countries/pull/565) ([torumori](https://github.com/torumori))
 - Fix "it's"-related typos [\#563](https://github.com/hexorx/countries/pull/563) ([RogerPodacter](https://github.com/RogerPodacter))
 - Add Czechia as unofficial name for Czech Republic [\#561](https://github.com/hexorx/countries/pull/561) ([msdundar](https://github.com/msdundar))
+- Drops the i18n requirement from the gem [\#558](https://github.com/hexorx/countries/pull/558) ([rposborne](https://github.com/rposborne))
 - Add caching to the parsing of values during search [\#557](https://github.com/hexorx/countries/pull/557) ([radixhound](https://github.com/radixhound))
+- 🇬🇧🇪🇺 Britain leaves the EU and EEA [\#500](https://github.com/hexorx/countries/pull/500) ([seanhandley](https://github.com/seanhandley))
 
 ### v2.2.0 (yanked and re-released as 3.0.0) (2018/12/17 10:20 +00:00)
 **Closed issues:**

@@ -1,6 +1,12 @@
 ---
 LV:
   continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{region}}
+    {{city}} {{postalcode}}
+    {{country}}
   alpha2: LV
   alpha3: LVA
   country_code: '371'
@@ -28,6 +34,7 @@ LV:
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: LV-\d{4}
   unofficial_names:
   - Latvia
   - Lettland

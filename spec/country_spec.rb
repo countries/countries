@@ -48,7 +48,7 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    expect(country.names).to eq(['United States', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
+    expect(country.names).to eq(['United States', 'Murica', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
   end
 
   it 'should return translations' do
@@ -85,8 +85,18 @@ describe ISO3166::Country do
   end
 
   it 'knows when a country does not require postal codes' do
-    ireland = ISO3166::Country.search('IE')
-    expect(ireland.postal_code).to eq(false)
+    antarctica = ISO3166::Country.search('AQ')
+    expect(antarctica.postal_code).to eq(false)
+  end
+
+  it 'knows about the country postal code format' do
+    expect(country.postal_code_format).to_not be_nil
+
+    regex = Regexp.new(country.postal_code_format)
+    expect(regex).to match("12345-6789")
+
+    antarctica = ISO3166::Country.search('AQ')
+    expect(antarctica.postal_code_format).to be_nil
   end
 
   it 'should return region' do
