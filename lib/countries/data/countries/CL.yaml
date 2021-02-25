@@ -20,7 +20,13 @@ CL:
   world_region: AMER
   un_locode: CL
   nationality: Chilean
+  vat_rates:
+    standard: 19
+    reduced: []
+    super_reduced:
+    parking:
   postal_code: true
+  postal_code_format: "\\d{7}"
   unofficial_names:
   - Chile
   - チリ

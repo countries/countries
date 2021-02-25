@@ -42,6 +42,7 @@ module ISO3166
     'languages_spoken' => [],
     'translations' => {},
     'postal_code' => nil,
+    'postal_code_format' => nil,
     'region' => nil,
     'unofficial_names' => [],
     'start_of_week' => 'monday',

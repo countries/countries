@@ -29,9 +29,10 @@ PH:
   vat_rates:
     standard: 12
     reduced: []
-    super_reduced:
-    parking:
+    super_reduced: 
+    parking: 
   postal_code: true
+  postal_code_format: "\\d{4}"
   unofficial_names:
   - Philippines
   - Philippinen

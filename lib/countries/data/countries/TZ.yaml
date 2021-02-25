@@ -19,7 +19,8 @@ TZ:
   world_region: EMEA
   un_locode: TZ
   nationality: Tanzanian
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{4,5}"
   unofficial_names:
   - Tanzania
   - Tansania

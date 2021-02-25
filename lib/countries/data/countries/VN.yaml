@@ -1,6 +1,12 @@
 ---
 VN:
   continent: Asia
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}}
+    {{region}}
+    {{country}}
   alpha2: VN
   alpha3: VNM
   country_code: '84'
@@ -23,6 +29,7 @@ VN:
   un_locode: VN
   nationality: Vietnamese
   postal_code: true
+  postal_code_format: "\\d{5}\\d?"
   unofficial_names:
   - Vietnam
   - ベトナム

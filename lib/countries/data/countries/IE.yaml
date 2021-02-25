@@ -33,7 +33,8 @@ IE:
     - 13.5
     super_reduced: 4.8
     parking: 13.5
-  postal_code: false
+  postal_code: true
+  postal_code_format: "[\\dA-Z]{3} ?[\\dA-Z]{4}"
   unofficial_names:
   - Ireland
   - Irland

@@ -4,7 +4,7 @@ NG:
   alpha2: NG
   alpha3: NGA
   country_code: '234'
-  international_prefix: 009
+  international_prefix: '009'
   ioc: NGR
   gec: NI
   name: Nigeria
@@ -26,6 +26,7 @@ NG:
     super_reduced: 
     parking: 
   postal_code: true
+  postal_code_format: "\\d{6}"
   unofficial_names:
   - Nigeria
   - Nigéria
