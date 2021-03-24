@@ -5,7 +5,7 @@ module ISO3166
     @@cache_dir = [File.dirname(__FILE__), 'cache']
     @@cache = {}
     @@registered_data = {}
-    @@semaphore = Mutex.new
+    @@mutex = Mutex.new
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
@@ -40,9 +40,7 @@ module ISO3166
       end
 
       def cache
-        @@semaphore.synchronize do
-          update_cache
-        end
+        update_cache
       end
 
       def reset
@@ -64,10 +62,12 @@ module ISO3166
 
       def load_data!
         return @@cache unless load_required?
-        @@cache = load_cache %w(countries.json)
-        @@_country_codes = @@cache.keys
-        @@cache = @@cache.merge(@@registered_data)
-        @@cache
+        synchronized do
+          @@cache = load_cache %w(countries.json)
+          @@_country_codes = @@cache.keys
+          @@cache = @@cache.merge(@@registered_data)
+          @@cache
+        end
       end
 
       def sync_translations!
@@ -84,8 +84,23 @@ module ISO3166
 
       private
 
+      def synchronized(&block)
+        if use_mutex?
+          @@mutex.synchronize(&block)
+        else
+          block.call
+        end
+      end
+
+      def use_mutex?
+        # Stubbed in testing
+        true
+      end
+
       def load_required?
-        @@cache.empty?
+        synchronized do
+          @@cache.empty?
+        end
       end
 
       def loaded_codes
@@ -118,21 +133,25 @@ module ISO3166
       end
 
       def load_translations(locale)
-        locale_names = load_cache(['locales', "#{locale}.json"])
-        internal_codes.each do |alpha2|
-          @@cache[alpha2]['translations'] ||= Translations.new
-          @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
-          @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
+        synchronized do
+          locale_names = load_cache(['locales', "#{locale}.json"])
+          internal_codes.each do |alpha2|
+            @@cache[alpha2]['translations'] ||= Translations.new
+            @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
+            @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
+          end
+          ISO3166.configuration.loaded_locales << locale
         end
-        ISO3166.configuration.loaded_locales << locale
       end
 
       def unload_translations(locale)
-        internal_codes.each do |alpha2|
-          @@cache[alpha2]['translations'].delete(locale)
-          @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
+        synchronized do
+          internal_codes.each do |alpha2|
+            @@cache[alpha2]['translations'].delete(locale)
+            @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
+          end
+          ISO3166.configuration.loaded_locales.delete(locale)
         end
-        ISO3166.configuration.loaded_locales.delete(locale)
       end
 
       def load_cache(file_array)
