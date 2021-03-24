@@ -2,7 +2,49 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [v3.0.1](https://github.com/hexorx/countries/tree/HEAD) (2020/02/11 00:04 +05:00)
+## [3.1.0](https://github.com/countries/countries/releases/tag/v3.1.0) (2021/03/24 00:01 +05:00)
+
+[Full Changelog](https://github.com/countries/countries/compare/v3.0.1...v3.1.0)
+
+**Closed issues:**
+
+- Add timezones to country data [\#669](https://github.com/countries/countries/issues/669)
+- The name for Vietnam is incorrect  [\#660](https://github.com/countries/countries/issues/660)
+- Missing address\_format for Vietnam [\#652](https://github.com/countries/countries/issues/652)
+- Temporary German VAT rate \(16%\) from July 1st to December 31st, 2020 [\#637](https://github.com/countries/countries/issues/637)
+- Armenian translations are incorrect [\#622](https://github.com/countries/countries/issues/622)
+- Please cut a release [\#610](https://github.com/countries/countries/issues/610)
+- Please update i18n\_data to 0.10.0 [\#607](https://github.com/countries/countries/issues/607)
+- Release '3.0.0' missing some commits [\#603](https://github.com/countries/countries/issues/603)
+- Please release a new version [\#591](https://github.com/countries/countries/issues/591)
+- 'Portugal' is misspelled in lib/countries/cache/locales/nn.json [\#583](https://github.com/countries/countries/issues/583)
+- Any interest in fiscal year data? [\#532](https://github.com/countries/countries/issues/532)
+- Kosovo independent from Serbia [\#511](https://github.com/countries/countries/issues/511)
+- Include country's postcode/zip format [\#366](https://github.com/countries/countries/issues/366)
+
+**Merged pull requests:**
+
+- add find\_all\_by example to readme [\#667](https://github.com/countries/countries/pull/667) ([glaucocustodio](https://github.com/glaucocustodio))
+- Add address\_format for Vietnam, fixes \#652 [\#653](https://github.com/countries/countries/pull/653) ([pmor](https://github.com/pmor))
+- "The United Kingdom" is an unofficial name for Great Britain [\#651](https://github.com/countries/countries/pull/651) ([RogerPodacter](https://github.com/RogerPodacter))
+- UK is an unofficial name for Great Britain [\#648](https://github.com/countries/countries/pull/648) ([RogerPodacter](https://github.com/RogerPodacter))
+- \[French\] Bad encoding for new zealand [\#643](https://github.com/countries/countries/pull/643) ([waghanza](https://github.com/waghanza))
+- Update gemspec: i18n\_data 0.11.0 [\#640](https://github.com/countries/countries/pull/640) ([masawo](https://github.com/masawo))
+- Add missing Latvia address\_format template [\#639](https://github.com/countries/countries/pull/639) ([RogerPodacter](https://github.com/RogerPodacter))
+- Used the common name República Checa in PT [\#635](https://github.com/countries/countries/pull/635) ([basex](https://github.com/basex))
+- Fix China subdvivisions iso code see https://en.wikipedia.org/wiki/IS… [\#632](https://github.com/countries/countries/pull/632) ([daniel88m](https://github.com/daniel88m))
+- Use AUD currency for Tuvalu [\#629](https://github.com/countries/countries/pull/629) ([mayrsascha](https://github.com/mayrsascha))
+- Add country code 672 to HM [\#626](https://github.com/countries/countries/pull/626) ([wongyouth](https://github.com/wongyouth))
+- \[GB\] Add unofficial names for ERY [\#620](https://github.com/countries/countries/pull/620) ([carlesjove](https://github.com/carlesjove))
+- \[ES\] Add unofficial names + translations + remove weird characters [\#619](https://github.com/countries/countries/pull/619) ([carlesjove](https://github.com/carlesjove))
+- Add data & script to update postal code & format [\#618](https://github.com/countries/countries/pull/618) ([cover](https://github.com/cover))
+- Fixes failing rspec assertions after cache update [\#617](https://github.com/countries/countries/pull/617) ([rposborne](https://github.com/rposborne))
+- Potential solution for thread safety [\#608](https://github.com/countries/countries/pull/608) ([hammerdr](https://github.com/hammerdr))
+- Fix a typo in 'Portugal' [\#602](https://github.com/countries/countries/pull/602) ([mbirman](https://github.com/mbirman))
+- added CL standard VAT [\#578](https://github.com/countries/countries/pull/578) ([tiagomatos](https://github.com/tiagomatos))
+- Remove Puerto Rico subdivisions [\#539](https://github.com/countries/countries/pull/539) ([philipefarias](https://github.com/philipefarias))
+
+## [v3.0.1](https://github.com/countries/countries/releases/tag/v3.0.1) (2020/02/11 00:04 +05:00)
 
 [Full Changelog](https://github.com/hexorx/countries/compare/v3.0.0...v3.0.1)
 
