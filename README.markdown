@@ -88,6 +88,7 @@ You can lookup a country or an array of countries using any of the data attribut
 
 ``` ruby
 c    = ISO3166::Country.find_country_by_name('united states')
+h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
 c    = ISO3166::Country.find_country_by_alpha3('can')
 ```
