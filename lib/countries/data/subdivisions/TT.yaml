@@ -1,6 +1,15 @@
 ---
-ARI:
+ARI: 
+  name: Arima
+  code: 
   unofficial_names: Arima
+  geo:
+    latitude: 10.616667
+    longitude: -61.26666699999999
+    min_latitude: 10.6070415
+    min_longitude: -61.2983895
+    max_latitude: 10.6558633
+    max_longitude: -61.2634134
   translations:
     en: Arima
     ar: آريما
@@ -38,16 +47,22 @@ ARI:
     tr: Arima
     ur: آریما
     vi: Arima
-  geo:
-    latitude: 10.616667
-    longitude: -61.26666699999999
-    min_latitude: 10.6070415
-    min_longitude: -61.2983895
-    max_latitude: 10.6558633
-    max_longitude: -61.2634134
-  name: Arima
-CHA:
+    lv: Arima
+    ceb: Arima
+    ccp: "\U00011103\U00011122\U00011128\U0001111F"
+    uk: Аріма
+  comments: 
+CHA: 
+  name: Chaguanas
+  code: 
   unofficial_names: Chaguanas
+  geo:
+    latitude: 10.5168387
+    longitude: -61.4114482
+    min_latitude: 10.500756
+    min_longitude: -61.43182410000001
+    max_latitude: 10.5251973
+    max_longitude: -61.4072602
   translations:
     en: Chaguanas
     ar: تشاغواناس
@@ -93,16 +108,23 @@ CHA:
     ur: چاگواناس
     vi: Chaguanas
     zh: 查瓜納斯
-  geo:
-    latitude: 10.5168387
-    longitude: -61.4114482
-    min_latitude: 10.500756
-    min_longitude: -61.43182410000001
-    max_latitude: 10.5251973
-    max_longitude: -61.4072602
-  name: Chaguanas
-CTT:
+    lv: Čaguanasa
+    ceb: Ward of Chaguanas
+    ccp: "\U0001110C\U00011109\U0001112A\U00011120\U0001111A\U0001110C\U00011134"
+    ga: Chaguanas
+    ro: Chaguanas
+  comments: 
+CTT: 
+  name: Couva-Tabaquite-Talparo
+  code: 
   unofficial_names: Couva-Tabaquite-Talparo
+  geo:
+    latitude: 10.4297145
+    longitude: -61.373521
+    min_latitude: 10.3083459
+    min_longitude: -61.49633799999999
+    max_latitude: 10.592795
+    max_longitude: -61.1990929
   translations:
     en: Couva-Tabaquite-Talparo
     ar: شركة كوفا تاباكويت تالبارو الإقليمية
@@ -134,16 +156,24 @@ CTT:
     tr: Couva-Tabaquite-Talparo Regional Corporation
     ur: کؤوا-تاباکیوٹ-ٹالپارو علاقائی کارپوریشن
     vi: Khu liên kết chung Couva-Tabaquite-Talparo
-  geo:
-    latitude: 10.4297145
-    longitude: -61.373521
-    min_latitude: 10.3083459
-    min_longitude: -61.49633799999999
-    max_latitude: 10.592795
-    max_longitude: -61.1990929
-  name: Couva-Tabaquite-Talparo
-DMN:
+    lv: Kūvas-Tabakites-Talparo reģionālā pašvaldība
+    ceb: Couva-Tabaquite-Talparo
+    lt: Kuva-Tabakite-Talparo regioninė federacija
+    fa: استان کووا-تاپاکیته-تالپبارو
+    ccp: "\U00011107\U0001112F\U0001111E-\U00011111\U0001111D\U00011107\U0001112A\U00011103\U00011128\U00011116\U00011134-\U00011111\U00011123\U00011134\U0001111B\U00011122\U0001112E"
+    uk: Регіон Кува-Табакіте-Тальпаро
+  comments: 
+DMN: 
+  name: Diego Martin
+  code: 
   unofficial_names: Diego Martin
+  geo:
+    latitude: 10.7137264
+    longitude: -61.5836897
+    min_latitude: 10.6637863
+    min_longitude: -61.7647827
+    max_latitude: 10.760314
+    max_longitude: -61.4893929
   translations:
     en: Diego Martin
     ar: شركة دييجو مارتن الإقليمية
@@ -176,18 +206,17 @@ DMN:
     tr: Diego Martin Bölgesel Ortaklığı
     ur: ڈیگو مارٹن علاقائی کارپوریشن
     vi: Khu liên kết chung Diego Martin
-  geo:
-    latitude: 10.7137264
-    longitude: -61.5836897
-    min_latitude: 10.6637863
-    min_longitude: -61.7647827
-    max_latitude: 10.760314
-    max_longitude: -61.4893929
-  name: Diego Martin
-ETO:
+    lv: Diegomārtinas reģionālā pašvaldība
+    ceb: Diego Martin
+    lt: Diego Martino regioninė korporacija
+    fa: استان دیگو مارتین
+    ccp: "\U00011113\U00011128\U00011120\U0001112C\U00011109\U0001112E \U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
+    uk: Регіон Діего-Мартін
+  comments: 
+ETO: 
+  name: Eastern Tobago
+  code: 
   unofficial_names: Eastern Tobago
-  translations:
-    en: Eastern Tobago
   geo:
     latitude: 11.2979348
     longitude: -60.55885240000001
@@ -195,9 +224,22 @@ ETO:
     min_longitude: -60.7451771
     max_latitude: 11.3467941
     max_longitude: -60.49331209999999
-  name: Eastern Tobago
-PED:
+  translations:
+    en: Eastern Tobago
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
+  comments: 
+PED: 
+  name: Penal-Debe
+  code: 
   unofficial_names: Penal-Debe
+  geo:
+    latitude: 10.1337402
+    longitude: -61.44354740000001
+    min_latitude: 10.067402
+    min_longitude: -61.5117519
+    max_latitude: 10.2697909
+    max_longitude: -61.3736721
   translations:
     en: Penal-Debe
     ar: شركة بينال ديب الإقليمية
@@ -229,16 +271,25 @@ PED:
     tr: Penal-Debe Bölgesi
     ur: پینل-ڈیبے علاقائی کارپوریشن
     vi: Khu liên kết chung Penal-Debe
-  geo:
-    latitude: 10.1337402
-    longitude: -61.44354740000001
-    min_latitude: 10.067402
-    min_longitude: -61.5117519
-    max_latitude: 10.2697909
-    max_longitude: -61.3736721
-  name: Penal-Debe
-POS:
+    lv: Pīnalas-Debes reģionālā pašvaldība
+    ceb: Penal/Debe
+    lt: Penal-Debės regioninė korporacija
+    zh: 皮納爾-德貝郡
+    fa: استان پنیال دبه
+    ccp: "\U0001111B\U0001112C\U0001111A\U00011123\U00011134-\U00011113\U0001112C\U0001111D\U0001112C"
+    uk: Регіон Пенал-Дебе
+  comments: 
+POS: 
+  name: Port of Spain
+  code: 
   unofficial_names: Port of Spain
+  geo:
+    latitude: 10.666667
+    longitude: -61.51666700000001
+    min_latitude: 10.6339524
+    min_longitude: -61.5590249
+    max_latitude: 10.7038128
+    max_longitude: -61.4685058
   translations:
     en: Port of Spain
     af: Port of Spain
@@ -296,16 +347,35 @@ POS:
     uk: Порт-оф-Спейн
     ur: پورٹ آف اسپین
     vi: Port of Spain
-  geo:
-    latitude: 10.666667
-    longitude: -61.51666700000001
-    min_latitude: 10.6339524
-    min_longitude: -61.5590249
-    max_latitude: 10.7038128
-    max_longitude: -61.4685058
-  name: Port of Spain
-PRT:
+    cy: Port of Spain
+    ceb: Port-of-Spain (ulohang dakbayan sa Trinidad ug Tobago)
+    sr_Latn: Port ov Spejn
+    zh: 西班牙港
+    yue_Hans: 西班牙港
+    sq: Port-of-Spain
+    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134 \U00011103\U00011127\U0001111B\U00011134
+      \U0001110C\U00011133\U0001111B\U0001112C\U0001111A\U00011134"
+    ga: Port of Spain
+    ky: Порт-Оф-Спейн
+    pa: ਪੋਰਟ ਆਫ਼ ਸਪੇਨ
+    kk: Порт-оф-Спейн
+    yue: 西班牙港
+    yo: Port of Spain
+    uz: Port-of-speyn
+    bs: Port of Spain
+    mk: Порт оф Спејн
+  comments: 
+PRT: 
+  name: Princes Town
+  code: 
   unofficial_names: Princes Town
+  geo:
+    latitude: 10.2659505
+    longitude: -61.37643809999999
+    min_latitude: 10.261475
+    min_longitude: -61.38231150000001
+    max_latitude: 10.2699263
+    max_longitude: -61.37228200000001
   translations:
     en: Princes Town
     ar: شركة برنس تاون الإقليمية
@@ -338,16 +408,26 @@ PRT:
     tr: Princes Town Bölgesi
     ur: پرنسز ٹاؤن علاقائی کارپوریشن
     vi: Khu liên kết chung Princes Town
-  geo:
-    latitude: 10.2659505
-    longitude: -61.37643809999999
-    min_latitude: 10.261475
-    min_longitude: -61.38231150000001
-    max_latitude: 10.2699263
-    max_longitude: -61.37228200000001
-  name: Princes Town
-PTF:
+    lv: Prinsestaunas reģionālā pašvaldība
+    ceb: Princes Town
+    lt: Prinses Taunas
+    zh: 王子城郡
+    fa: استان پرنسس تاون
+    ccp: "\U0001111B\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011125\U0001112C\U0001110C\U00011134
+      \U00011111\U00011105\U0001112A\U0001111A\U00011134"
+    uk: Регіон Прінсес-Таун
+  comments: 
+PTF: 
+  name: Point Fortin
+  code: 
   unofficial_names: Point Fortin
+  geo:
+    latitude: 10.166667
+    longitude: -61.666667
+    min_latitude: 10.1410868
+    min_longitude: -61.7073835
+    max_latitude: 10.2048491
+    max_longitude: -61.63496379999999
   translations:
     en: Point Fortin
     ar: بوينت فورتين
@@ -386,18 +466,15 @@ PTF:
     uk: Пойнт-Фортін
     ur: پوائنٹ فورٹن
     vi: Point Fortin
-  geo:
-    latitude: 10.166667
-    longitude: -61.666667
-    min_latitude: 10.1410868
-    min_longitude: -61.7073835
-    max_latitude: 10.2048491
-    max_longitude: -61.63496379999999
-  name: Point Fortin
-RCM:
+    lv: Pointfortina
+    ceb: Point Fortin (kapital sa rehiyon)
+    zh: 波因特福廷
+    ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011134\U00011111 \U0001111C\U0001112E\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
+  comments: 
+RCM: 
+  name: Rio Claro-Mayaro
+  code: 
   unofficial_names: Rio Claro-Mayaro
-  translations:
-    en: Rio Claro-Mayaro
   geo:
     latitude: 10.2412832
     longitude: -61.09372059999999
@@ -405,9 +482,21 @@ RCM:
     min_longitude: -61.23980999999999
     max_latitude: 10.4406099
     max_longitude: -60.97031769999999
-  name: Rio Claro-Mayaro
-SFO:
+  translations:
+    en: Rio Claro-Mayaro
+    ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011107\U00011133\U00011123\U00011122\U0001112E-\U0001111F\U0001112C\U00011120\U00011122\U0001112E"
+  comments: 
+SFO: 
+  name: San Fernando
+  code: 
   unofficial_names: San Fernando
+  geo:
+    latitude: 10.2804924
+    longitude: -61.4493842
+    min_latitude: 10.262327
+    min_longitude: -61.47267110000001
+    max_latitude: 10.2923301
+    max_longitude: -61.43780799999999
   translations:
     en: San Fernando
     ar: سان فرناندو، ترينيداد وتوباغو
@@ -445,16 +534,26 @@ SFO:
     tr: San Fernando
     ur: سان فرنانڈو، ٹرینیڈاڈ و ٹوباگو
     vi: San Fernando, Trinidad và Tobago
-  geo:
-    latitude: 10.2804924
-    longitude: -61.4493842
-    min_latitude: 10.262327
-    min_longitude: -61.47267110000001
-    max_latitude: 10.2923301
-    max_longitude: -61.43780799999999
-  name: San Fernando
-SGE:
+    lv: Sanfernando
+    ceb: San Fernando (kapital sa rehiyon)
+    zh: 聖費爾南多
+    ccp: "\U00011125\U0001111A\U00011134 \U0001111C\U0001112C\U00011122\U00011134\U0001111A\U0001111A\U00011134\U00011113\U0001112E"
+    ga: San Fernando
+    uk: Сан-Фернандо
+    cs: San Fernando
+    yo: San Fernando
+  comments: 
+SGE: 
+  name: Sangre Grande
+  code: 
   unofficial_names: Sangre Grande
+  geo:
+    latitude: 10.5852939
+    longitude: -61.1315813
+    min_latitude: 10.5807365
+    min_longitude: -61.15023300000001
+    max_latitude: 10.5969313
+    max_longitude: -61.1207323
   translations:
     en: Sangre Grande
     ar: شركة سانجر غراند الإقليمية
@@ -487,16 +586,24 @@ SGE:
     tr: Sangre Grande Bölgesel Kurumu
     ur: سانگرے گرانڈے علاقائی کارپوریشن
     vi: Khu liên kết chung Sangre Grande
-  geo:
-    latitude: 10.5852939
-    longitude: -61.1315813
-    min_latitude: 10.5807365
-    min_longitude: -61.15023300000001
-    max_latitude: 10.5969313
-    max_longitude: -61.1207323
-  name: Sangre Grande
-SIP:
+    lv: Sangrigrandi reģionālā pašvaldība
+    ceb: Sangre Grande
+    lt: Sangre Grandės regioninė korporacija
+    fa: استان سانگره گرانده
+    ccp: "\U00011125\U0001111A\U00011134\U0001111B\U00011133\U00011122\U0001112C \U0001111B\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C"
+    uk: Регіон Сангре-Гранде
+  comments: 
+SIP: 
+  name: Siparia
+  code: 
   unofficial_names: Siparia
+  geo:
+    latitude: 10.133333
+    longitude: -61.50000000000001
+    min_latitude: 10.0705967
+    min_longitude: -61.5608596
+    max_latitude: 10.1694107
+    max_longitude: -61.46814120000001
   translations:
     en: Siparia
     ar: شركة سيباريا الإقليمية
@@ -529,16 +636,25 @@ SIP:
     tr: Siparia Regional Corporation
     ur: سیپاریا علاقائی کارپوریشن
     vi: Khu liên kết chung Siparia
-  geo:
-    latitude: 10.133333
-    longitude: -61.50000000000001
-    min_latitude: 10.0705967
-    min_longitude: -61.5608596
-    max_latitude: 10.1694107
-    max_longitude: -61.46814120000001
-  name: Siparia
-SJL:
+    lv: Siparijas reģionālā pašvaldība
+    ceb: Siparia
+    lt: Siparijos regioninė korporacija
+    zh: 錫帕里亞郡
+    fa: استان سیپاریا
+    ccp: "\U00011125\U00011128\U0001111B\U00011122\U00011128\U00011120"
+    uk: Регіон Сіпарія
+  comments: 
+SJL: 
+  name: San Juan-Laventille
+  code: 
   unofficial_names: San Juan-Laventille
+  geo:
+    latitude: 10.6908578
+    longitude: -61.4552213
+    min_latitude: 10.5499074
+    min_longitude: -61.5232609
+    max_latitude: 10.808898
+    max_longitude: -61.328297
   translations:
     en: San Juan-Laventille
     ar: شركة سان خوان لافنتيل الإقليمية
@@ -570,16 +686,24 @@ SJL:
     tr: San Juan-Laventille Bölgesel Kurumu
     ur: سان حوان-لاوینٹیل علاقائی کارپوریشن
     vi: Khu liên kết chung San Juan-Laventille
-  geo:
-    latitude: 10.6908578
-    longitude: -61.4552213
-    min_latitude: 10.5499074
-    min_longitude: -61.5232609
-    max_latitude: 10.808898
-    max_longitude: -61.328297
-  name: San Juan-Laventille
-TUP:
+    lv: Sanvānas-Laventilas reģionālā pašvaldība
+    ceb: San Juan/Laventille
+    lt: San Chuano-Laventilės regioninė korporacija
+    fa: استان سن خوآن-لاونتویل
+    ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U0001112A\U00011120\U0001111A\U00011134-\U00011123\U00011127\U0001111E\U0001112C\U0001111A\U00011134\U00011111\U00011128\U00011123\U00011134"
+    uk: Регіон Сан-Хуан-Лавентіль
+  comments: 
+TUP: 
+  name: Tunapuna-Piarco
+  code: 
   unofficial_names: Tunapuna-Piarco
+  geo:
+    latitude: 10.6859096
+    longitude: -61.30352480000001
+    min_latitude: 10.560991
+    min_longitude: -61.4334169
+    max_latitude: 10.8057648
+    max_longitude: -61.151141
   translations:
     en: Tunapuna-Piarco
     ar: شركة تونابونا بياركو الإقليمية
@@ -612,18 +736,18 @@ TUP:
     tr: Tunapuna-Piarco Regional Corporation
     ur: ٹوناپونا-پیارکو علاقائی کارپوریشن
     vi: Khu liên kết chung Tunapuna-Piarco
-  geo:
-    latitude: 10.6859096
-    longitude: -61.30352480000001
-    min_latitude: 10.560991
-    min_longitude: -61.4334169
-    max_latitude: 10.8057648
-    max_longitude: -61.151141
-  name: Tunapuna-Piarco
-WTO:
+    lv: Tunapuna-Piarko reģionālā pašvaldība
+    ceb: Tunapuna/Piarco
+    lt: Tunapuna-Pijarko regioninė korporacija
+    zh: 麥高耶
+    fa: استان توناپونا-پیارکو
+    ccp: "\U00011111\U0001112A\U0001111A\U0001111B\U0001112A\U0001111A-\U0001111B\U00011128\U00011120\U00011122\U00011134\U00011107\U0001112E"
+    uk: Регіон Тунапуна-Піарко
+  comments: 
+WTO: 
+  name: Western Tobago
+  code: 
   unofficial_names: Western Tobago
-  translations:
-    en: Western Tobago
   geo:
     latitude: 11.1897072
     longitude: -60.7795452
@@ -631,8 +755,22 @@ WTO:
     min_longitude: -60.84010199999999
     max_latitude: 11.2928312
     max_longitude: -60.66802099999999
-  name: Western Tobago
-MRC:
+  translations:
+    en: Western Tobago
+    ccp: "\U00011124\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134
+      \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
+  comments: 
+MRC: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ريو كلارو مايارو الإقليمية
     bn: রিও ক্লারো-মায়ারো আঞ্চলিক কর্পোরেশন
@@ -664,7 +802,25 @@ MRC:
     tr: Rio Claro-Mayaro
     ur: ریو کلارو-مایارو علاقائی کارپوریشن
     vi: Khu liên kết chung Rio Claro-Mayaro
-TOB:
+    lv: Rioklaro-Majaro reģionālā pašvaldība
+    ceb: Mayaro
+    lt: Rio Klaro-Majaro regioninė korporacija
+    fa: استان ریو کلارو-مایارو
+    ccp: "\U0001111F\U00011120\U00011122\U0001112E-\U00011122\U00011128\U00011120\U0001112E
+      \U00011107\U00011133\U00011123\U00011122\U0001112E"
+    uk: Майаро-Ріо-Кларо
+  comments: 
+TOB: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: توباغو
     be: Востраў Табага
@@ -713,3 +869,12 @@ TOB:
     uk: Тобаго
     ur: ٹوباگو
     vi: Tobago
+    cy: Tobago
+    sr_Latn: Tobago
+    zh: 多巴哥岛
+    yue_Hans: 托巴哥岛
+    ccp: "\U00011111\U0001112E\U0001111D\U00011109\U0001112E"
+    ga: Tobága
+    yue: 托巴哥島
+    yo: Tòbágò
+  comments: 

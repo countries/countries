@@ -1,6 +1,15 @@
 ---
-'00':
+'00': 
+  name: Belgrade
+  code: 
   unofficial_names: Belgrade
+  geo:
+    latitude: 44.786568
+    longitude: 20.4489216
+    min_latitude: 44.6880454
+    min_longitude: 20.2217102
+    max_latitude: 44.9424453
+    max_longitude: 20.6189345
   translations:
     en: Beograd
     af: Belgrado
@@ -62,16 +71,35 @@
     ur: بلغراد
     vi: Beograd
     zh: 贝尔格莱德
-  geo:
-    latitude: 44.786568
-    longitude: 20.4489216
-    min_latitude: 44.6880454
-    min_longitude: 20.2217102
-    max_latitude: 44.9424453
-    max_longitude: 20.6189345
-  name: Belgrade
-'01':
+    cy: Beograd
+    ceb: Belgrado
+    sr_Latn: Beograd
+    yue_Hans: 贝尔格莱德
+    jv: Beograd
+    sq: Beogradi
+    ccp: "\U0001111D\U00011128\U00011103\U0001112E\U00011109\U00011133\U00011122\U00011116\U00011134"
+    ga: Béalgrád
+    ky: Белград
+    so: Belgaraad
+    pa: ਬੈਲਗ੍ਰਾਦ
+    kk: Белград
+    yue: 貝爾格萊德
+    yo: Belgrade
+    uz: Belgrad
+    bs: Beograd
+    mk: Белград
+  comments: 
+'01': 
+  name: Severna Backa
+  code: 
   unofficial_names: Severna Backa
+  geo:
+    latitude: 45.9803394
+    longitude: 19.5907
+    min_latitude: 45.6242571
+    min_longitude: 19.3011208
+    max_latitude: 46.1912459
+    max_longitude: 19.875136
   translations:
     en: North Bačka
     ar: مقاطعة شمال باكشتا
@@ -116,16 +144,26 @@
     uk: Північно-Бацький округ
     ur: شمالی باچکا ضلع
     vi: Quận Bắc Backa
-  geo:
-    latitude: 45.9803394
-    longitude: 19.5907
-    min_latitude: 45.6242571
-    min_longitude: 19.3011208
-    max_latitude: 46.1912459
-    max_longitude: 19.875136
-  name: Severna Backa
-'02':
+    lv: Ziemeļbačkas apgabals
+    sr_Latn: Severnobački upravni okrug
+    lt: Šiaurinis Bačkos regionas
+    zh: 北巴奇卡州
+    jv: Bačka Lor
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111D\U00011107"
+    mn: Умар Бачка аймаг
+  comments: 
+'02': 
+  name: Srednji Banat
+  code: 
   unofficial_names: Srednji Banat
+  geo:
+    latitude: 45.4788485
+    longitude: 20.6082522
+    min_latitude: 45.0783
+    min_longitude: 20.027785
+    max_latitude: 45.811237
+    max_longitude: 21.0307331
   translations:
     en: Central Banat
     ar: مقاطعة سنترال بانات
@@ -170,16 +208,25 @@
     uk: Середньо-Банатський округ
     ur: وسطی بانات ضلع
     vi: Quận Trung Banat
-  geo:
-    latitude: 45.4788485
-    longitude: 20.6082522
-    min_latitude: 45.0783
-    min_longitude: 20.027785
-    max_latitude: 45.811237
-    max_longitude: 21.0307331
-  name: Srednji Banat
-'03':
+    lv: Centrālbanatas apgabals
+    sr_Latn: Srednjobanatski upravni okrug
+    lt: Centrinio Banato apskritis
+    zh: 中巴納特州
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U0001111D\U0001111A\U00011116\U00011134"
+    mn: Төв Банат аймаг
+  comments: 
+'03': 
+  name: Severni Banat
+  code: 
   unofficial_names: Severni Banat
+  geo:
+    latitude: 45.906839
+    longitude: 19.9993417
+    min_latitude: 45.598248
+    min_longitude: 19.7715084
+    max_latitude: 46.178631
+    max_longitude: 20.665928
   translations:
     en: North Banat
     ar: شمال مقاطعة بانات
@@ -224,16 +271,26 @@
     uk: Північно-Банатський округ
     ur: شمالی بانات ضلع
     vi: Quận Bắc Banat
-  geo:
-    latitude: 45.906839
-    longitude: 19.9993417
-    min_latitude: 45.598248
-    min_longitude: 19.7715084
-    max_latitude: 46.178631
-    max_longitude: 20.665928
-  name: Severni Banat
-'04':
+    lv: Ziemeļbanatas apgabals
+    sr_Latn: Severnobanatski upravni okrug
+    lt: Šiaurės Banato apskritis
+    zh: 北巴納特州
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111D\U0001111A\U00011116\U00011134"
+    sk: Severobanátsky okres
+    be: Паўночна-Банацкая акруга
+  comments: 
+'04': 
+  name: Južni Banat
+  code: 
   unofficial_names: Južni Banat
+  geo:
+    latitude: 45.0027457
+    longitude: 21.0542509
+    min_latitude: 44.65840499999999
+    min_longitude: 20.41565
+    max_latitude: 45.334724
+    max_longitude: 21.56465
   translations:
     en: South Banat
     ar: مقاطعة جنوب بانات
@@ -279,16 +336,26 @@
     uk: Південно-Банатський округ
     ur: جنوبی بانات ضلع
     vi: Quận Nam Banat
-  geo:
-    latitude: 45.0027457
-    longitude: 21.0542509
-    min_latitude: 44.65840499999999
-    min_longitude: 20.41565
-    max_latitude: 45.334724
-    max_longitude: 21.56465
-  name: Južni Banat
-'05':
+    lv: Dienvidbanatas apgabals
+    sr_Latn: Južnobanatski upravni okrug
+    lt: Pietų Banato apskritis
+    zh: 南巴納特州
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111D\U0001111A\U00011116\U00011134"
+    mn: Өмнө Банат аймаг
+    bs: Južnobanatski upravni okrug
+    mk: Јужнобанатски округ
+  comments: 
+'05': 
+  name: Zapadna Backa
+  code: 
   unofficial_names: Zapadna Backa
+  geo:
+    latitude: 45.7355385
+    longitude: 19.1897364
+    min_latitude: 45.436847
+    min_longitude: 18.8493741
+    max_latitude: 46.0410499
+    max_longitude: 19.6157879
   translations:
     en: West Bačka
     ar: مقاطعة غرب باكشتا
@@ -332,16 +399,25 @@
     uk: Західно-Бацький округ
     ur: مغربی باچکا ضلع
     vi: Quận Tây Backa
-  geo:
-    latitude: 45.7355385
-    longitude: 19.1897364
-    min_latitude: 45.436847
-    min_longitude: 18.8493741
-    max_latitude: 46.0410499
-    max_longitude: 19.6157879
-  name: Zapadna Backa
-'06':
+    lv: Rietumbačkas apgabals
+    sr_Latn: Zapadnobački upravni okrug
+    lt: Vakarų Bačkos apskritis
+    zh: 西巴奇卡州
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111D\U00011107"
+    mn: Өрнө Бачка аймаг
+    bs: Zapadnobački upravni okrug
+  comments: 
+'06': 
+  name: Južna Backa
+  code: 
   unofficial_names: Južna Backa
+  geo:
+    latitude: 45.4890344
+    longitude: 19.6976187
+    min_latitude: 45.133575
+    min_longitude: 18.981784
+    max_latitude: 45.7750259
+    max_longitude: 20.313821
   translations:
     en: South Bačka
     ar: مقاطعة جنوب باتشكا
@@ -387,16 +463,24 @@
     uk: Південно-Бацький округ
     ur: جنوبی باچکا ضلع
     vi: Quận Nam Backa
-  geo:
-    latitude: 45.4890344
-    longitude: 19.6976187
-    min_latitude: 45.133575
-    min_longitude: 18.981784
-    max_latitude: 45.7750259
-    max_longitude: 20.313821
-  name: Južna Backa
-'07':
+    lv: Dienvidbačkas apgabals
+    sr_Latn: Južnobački upravni okrug
+    lt: Pietų Bačkos apskritis
+    zh: 南巴奇卡州
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111D\U00011107"
+    mn: Өмнө Бачка аймаг
+  comments: 
+'07': 
+  name: Srem
+  code: 
   unofficial_names: Srem
+  geo:
+    latitude: 45.0029171
+    longitude: 19.8013773
+    min_latitude: 44.6294639
+    min_longitude: 18.9884937
+    max_latitude: 45.21000900000001
+    max_longitude: 20.361306
   translations:
     en: Srem
     ar: مقاطعة سريم
@@ -441,16 +525,23 @@
     uk: Сремський округ
     ur: سریم ضلع
     vi: Syrmia
-  geo:
-    latitude: 45.0029171
-    longitude: 19.8013773
-    min_latitude: 44.6294639
-    min_longitude: 18.9884937
-    max_latitude: 45.21000900000001
-    max_longitude: 20.361306
-  name: Srem
-'08':
+    lv: Sremas apgabals
+    sr_Latn: Sremski upravni okrug
+    lt: Sremo apskritis
+    zh: 斯雷姆州
+    ccp: "\U00011125\U00011133\U00011122\U0001112C\U0001111F\U00011134"
+  comments: 
+'08': 
+  name: Macva
+  code: 
   unofficial_names: Macva
+  geo:
+    latitude: 44.5925314
+    longitude: 19.5082246
+    min_latitude: 44.1124741
+    min_longitude: 19.10721
+    max_latitude: 44.94040200000001
+    max_longitude: 20.000317
   translations:
     en: Mačva
     ar: مقاطعة ماتشفا
@@ -491,16 +582,25 @@
     tr: Maçva İlçesi
     ur: ماچوا ضلع
     vi: Quận Macva
-  geo:
-    latitude: 44.5925314
-    longitude: 19.5082246
-    min_latitude: 44.1124741
-    min_longitude: 19.10721
-    max_latitude: 44.94040200000001
-    max_longitude: 20.000317
-  name: Macva
-'09':
+    lv: Mačvas apgabals
+    sr_Latn: Mačvanski upravni okrug
+    lt: Mačvos apskritis
+    zh: 馬切萬州
+    ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011134\U0001111E"
+    uk: Район Мачва
+    bs: Mačvanski upravni okrug
+  comments: 
+'09': 
+  name: Kolubara
+  code: 
   unofficial_names: Kolubara
+  geo:
+    latitude: 44.2674361
+    longitude: 19.8980841
+    min_latitude: 44.26653839999999
+    min_longitude: 19.8946778
+    max_latitude: 44.2683338
+    max_longitude: 19.9014904
   translations:
     en: Kolubara
     ar: مقاطعة كولوبارا
@@ -542,16 +642,26 @@
     tr: Kolubara İlçesi
     ur: کولوبارا ضلع
     vi: Quận Kolubara
-  geo:
-    latitude: 44.2674361
-    longitude: 19.8980841
-    min_latitude: 44.26653839999999
-    min_longitude: 19.8946778
-    max_latitude: 44.2683338
-    max_longitude: 19.9014904
-  name: Kolubara
-'10':
+    lv: Kolubaras apgabals
+    sr_Latn: Kolubarski upravni okrug
+    lt: Kolubaros apskritis
+    zh: 科盧巴拉州
+    ccp: "\U00011107\U0001112E\U00011123\U0001112A\U0001111D\U00011122"
+    uk: Район Колубара
+    mn: Колубар аймаг
+    bs: Kolubarski upravni okrug
+  comments: 
+'10': 
+  name: Podunavlje
+  code: 
   unofficial_names: Podunavlje
+  geo:
+    latitude: 44.4729156
+    longitude: 20.9901426
+    min_latitude: 44.208296
+    min_longitude: 20.7518259
+    max_latitude: 44.7212919
+    max_longitude: 21.203335
   translations:
     en: Podunavlje
     ar: مقاطعة بودونافلي
@@ -592,16 +702,25 @@
     tr: Podunavlye İlçesi
     ur: پودوناولیے ضلع
     vi: Quận Podunavlje
-  geo:
-    latitude: 44.4729156
-    longitude: 20.9901426
-    min_latitude: 44.208296
-    min_longitude: 20.7518259
-    max_latitude: 44.7212919
-    max_longitude: 21.203335
-  name: Podunavlje
-'11':
+    lv: Podunavļes apgabals
+    sr_Latn: Podunavski upravni okrug
+    lt: Podunavlės apskritis
+    zh: 波杜那瓦州
+    ccp: "\U0001111B\U00011127\U00011113\U0001112A\U0001111A\U0001111B\U00011134\U0001110E\U0001112C"
+    uk: Подунайський Район
+    mk: Подунавски округ
+  comments: 
+'11': 
+  name: Branicevo
+  code: 
   unofficial_names: Branicevo
+  geo:
+    latitude: 44.705
+    longitude: 21.538333
+    min_latitude: 44.6723152
+    min_longitude: 21.5239334
+    max_latitude: 44.7191731
+    max_longitude: 21.5884781
   translations:
     en: Braničevo
     ar: مقاطعة برانيتشيفو
@@ -645,16 +764,24 @@
     tr: Braniçevo İlçesi
     ur: برانیچیوو ضلع
     vi: Quận Branicevo
-  geo:
-    latitude: 44.705
-    longitude: 21.538333
-    min_latitude: 44.6723152
-    min_longitude: 21.5239334
-    max_latitude: 44.7191731
-    max_longitude: 21.5884781
-  name: Branicevo
-'12':
+    lv: Braničevas apgabals
+    sr_Latn: Braničevski upravni okrug
+    lt: Braničevo apskritis
+    zh: 布蘭尼切夫州
+    ccp: "\U0001111D\U00011133\U00011122\U0001111A\U00011128\U00011125\U0001112C\U0001111E\U0001112E"
+    uk: Бранічевський район
+  comments: 
+'12': 
+  name: Šumadija
+  code: 
   unofficial_names: Šumadija
+  geo:
+    latitude: 44.20506779999999
+    longitude: 20.7856565
+    min_latitude: 43.796296
+    min_longitude: 20.410712
+    max_latitude: 44.441987
+    max_longitude: 21.159204
   translations:
     en: Šumadija
     ar: مقاطعة شوماديا
@@ -696,16 +823,26 @@
     tr: Šumadija İlçesi
     ur: شومادیا ضلع
     vi: Quận Sumadija
-  geo:
-    latitude: 44.20506779999999
-    longitude: 20.7856565
-    min_latitude: 43.796296
-    min_longitude: 20.410712
-    max_latitude: 44.441987
-    max_longitude: 21.159204
-  name: Šumadija
-'13':
+    lv: Šumadijas apgabals
+    sr_Latn: Šumadijski upravni okrug
+    lt: Šumadijos apskritis
+    zh: 舒馬迪亞州
+    ccp: "\U00011125\U0001112A\U0001111F\U00011113\U00011128\U0001110E"
+    uk: Район Шумадія
+    be: Шумадыйская акруга
+    bs: Šumadijski upravni okrug
+  comments: 
+'13': 
+  name: Pomoravlje
+  code: 
   unofficial_names: Pomoravlje
+  geo:
+    latitude: 43.95913789999999
+    longitude: 21.271353
+    min_latitude: 43.7114669
+    min_longitude: 20.929701
+    max_latitude: 44.310024
+    max_longitude: 21.839969
   translations:
     en: Pomoravlje
     ar: مقاطعة بومورافليه
@@ -745,16 +882,26 @@
     tr: Pomoravlje District
     ur: پوموراولیے ضلع
     vi: Quận Pomoravlje
-  geo:
-    latitude: 43.95913789999999
-    longitude: 21.271353
-    min_latitude: 43.7114669
-    min_longitude: 20.929701
-    max_latitude: 44.310024
-    max_longitude: 21.839969
-  name: Pomoravlje
-'14':
+    lv: Pomoravļes apgabals
+    sr_Latn: Pomoravski upravni okrug
+    lt: Pomoravlės apskritis
+    zh: 波莫拉夫列州
+    ccp: "\U0001111B\U00011127\U0001111F\U0001112E\U00011122\U0001111B\U00011134\U0001110E\U0001112C"
+    uk: Поморавський Район
+    mn: Поморав аймаг
+    bs: Pomoravski upravni okrug
+  comments: 
+'14': 
+  name: Bor
+  code: 
   unofficial_names: Bor
+  geo:
+    latitude: 44.0698918
+    longitude: 22.0985086
+    min_latitude: 44.0400952
+    min_longitude: 21.9936849
+    max_latitude: 44.1460006
+    max_longitude: 22.1439743
   translations:
     en: Bor
     ar: مقاطعة بور
@@ -797,16 +944,25 @@
     tr: Bor İlçesi
     ur: بور ضلع
     vi: Quận Bor
-  geo:
-    latitude: 44.0698918
-    longitude: 22.0985086
-    min_latitude: 44.0400952
-    min_longitude: 21.9936849
-    max_latitude: 44.1460006
-    max_longitude: 22.1439743
-  name: Bor
-'15':
+    lv: Boras apgabals
+    ceb: Borski Okrug
+    sr_Latn: Borski upravni okrug
+    lt: Boro apskritis
+    zh: 博爾州
+    ccp: "\U0001111D\U0001112E\U00011122\U00011134"
+    uk: Район Бор
+  comments: 
+'15': 
+  name: Zajecar
+  code: 
   unofficial_names: Zajecar
+  geo:
+    latitude: 43.9015048
+    longitude: 22.2738011
+    min_latitude: 43.8638665
+    min_longitude: 22.1834563
+    max_latitude: 43.9716926
+    max_longitude: 22.3112583
   translations:
     en: Zaječar
     ar: مقاطعة زاييتشار
@@ -846,16 +1002,25 @@
     tr: Zayeçar İlçesi
     ur: زایئچار ضلع
     vi: Quận Zajecar
-  geo:
-    latitude: 43.9015048
-    longitude: 22.2738011
-    min_latitude: 43.8638665
-    min_longitude: 22.1834563
-    max_latitude: 43.9716926
-    max_longitude: 22.3112583
-  name: Zajecar
-'16':
+    lv: Zaječaras apgabals
+    sr_Latn: Zaječarski upravni okrug
+    lt: Zaječaro apskritis
+    zh: 扎耶查爾州
+    ccp: "\U0001110E\U0001110E\U0001112C\U00011107\U00011122\U00011134"
+    uk: Заєчарський район
+    mn: Заечар аймаг
+  comments: 
+'16': 
+  name: Zlatibor
+  code: 
   unofficial_names: Zlatibor
+  geo:
+    latitude: 43.6554553
+    longitude: 19.6633226
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Zlatibor
     ar: مقاطعة زلاتيبور
@@ -898,16 +1063,26 @@
     tr: Zlatibor District
     ur: زلاتیبور ضلع
     vi: Quận Zlatibor
-  geo:
-    latitude: 43.6554553
-    longitude: 19.6633226
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Zlatibor
-'17':
+    lv: Zlatiboras apgabals
+    sr_Latn: Zlatiborski upravni okrug
+    lt: Zlatiboro apskritis
+    zh: 茲拉提波爾州
+    ccp: "\U0001110E\U00011133\U00011123\U00011111\U00011128\U0001111D\U0001112E\U00011122\U00011134"
+    uk: Район Златибор
+    be: Злацібарская акруга
+    bs: Zlatiborski upravni okrug
+  comments: 
+'17': 
+  name: Moravica
+  code: 
   unofficial_names: Moravica
+  geo:
+    latitude: 43.5393662
+    longitude: 21.7117215
+    min_latitude: 43.5364745
+    min_longitude: 21.7100169
+    max_latitude: 43.542258
+    max_longitude: 21.7134261
   translations:
     en: Moravica
     ar: مقاطعة مورافيكا
@@ -949,16 +1124,26 @@
     tr: Moravica District
     ur: موراویتسا ضلع
     vi: Quận Moravica
-  geo:
-    latitude: 43.5393662
-    longitude: 21.7117215
-    min_latitude: 43.5364745
-    min_longitude: 21.7100169
-    max_latitude: 43.542258
-    max_longitude: 21.7134261
-  name: Moravica
-'18':
+    lv: Moravicas apgabals
+    sr_Latn: Moravički upravni okrug
+    lt: Moravicos apskritis
+    zh: 莫拉瓦州
+    ccp: "\U0001111F\U0001112E\U00011122\U0001111E\U00011128\U00011107"
+    uk: Моравичський район
+    mn: Моравич аймаг
+    bs: Moravički upravni okrug
+  comments: 
+'18': 
+  name: Raška
+  code: 
   unofficial_names: Raška
+  geo:
+    latitude: 43.291944
+    longitude: 20.615556
+    min_latitude: 43.2702688
+    min_longitude: 20.5972195
+    max_latitude: 43.3038197
+    max_longitude: 20.6399633
   translations:
     en: Raška
     ar: مقاطعة راشكا
@@ -1000,16 +1185,25 @@
     tr: Raska District
     ur: راشکا ضلع
     vi: Quận Raska
-  geo:
-    latitude: 43.291944
-    longitude: 20.615556
-    min_latitude: 43.2702688
-    min_longitude: 20.5972195
-    max_latitude: 43.3038197
-    max_longitude: 20.6399633
-  name: Raška
-'19':
+    lv: Raškas apgabals
+    sr_Latn: Raški upravni okrug
+    lt: Raškos apskritis
+    zh: 拉什卡州
+    ccp: "\U00011122\U0001110C\U00011134\U00011107"
+    uk: Район Рашка
+    bs: Raški upravni okrug
+  comments: 
+'19': 
+  name: Rasina
+  code: 
   unofficial_names: Rasina
+  geo:
+    latitude: 43.5789182
+    longitude: 21.3484472
+    min_latitude: 43.5644288
+    min_longitude: 21.3434582
+    max_latitude: 43.5934076
+    max_longitude: 21.3534361
   translations:
     en: Rasina
     ar: مقاطعة راسينا
@@ -1050,16 +1244,26 @@
     tr: Rasina District
     ur: راسینا ضلع
     vi: Quận Rasina
-  geo:
-    latitude: 43.5789182
-    longitude: 21.3484472
-    min_latitude: 43.5644288
-    min_longitude: 21.3434582
-    max_latitude: 43.5934076
-    max_longitude: 21.3534361
-  name: Rasina
-'20':
+    lv: Rasinas apgabals
+    sr_Latn: Rasinski upravni okrug
+    lt: Rasinos apskritis
+    zh: 拉辛那州
+    ccp: "\U00011122\U00011125\U00011128\U0001111A"
+    uk: Район Расина
+    mn: Расин аймаг
+    bs: Rasinski okrug
+  comments: 
+'20': 
+  name: Nišava
+  code: 
   unofficial_names: Nišava
+  geo:
+    latitude: 43.3738902
+    longitude: 21.9322331
+    min_latitude: 43.075654
+    min_longitude: 21.4754701
+    max_latitude: 43.82438
+    max_longitude: 22.3710859
   translations:
     en: Nišava
     ar: مقاطعة نيشافا
@@ -1102,16 +1306,25 @@
     tr: Nišava İlçesi
     ur: نیشاوا ضلع
     vi: Quận Nisava
-  geo:
-    latitude: 43.3738902
-    longitude: 21.9322331
-    min_latitude: 43.075654
-    min_longitude: 21.4754701
-    max_latitude: 43.82438
-    max_longitude: 22.3710859
-  name: Nišava
-'21':
+    lv: Nišavas apgabals
+    ceb: Nišavski Okrug
+    sr_Latn: Nišavski upravni okrug
+    lt: Nišavos apskritis
+    zh: 尼沙瓦州
+    ccp: "\U0001111A\U00011128\U00011125\U0001111E"
+    uk: Нишавський район
+  comments: 
+'21': 
+  name: Toplica
+  code: 
   unofficial_names: Toplica
+  geo:
+    latitude: 43.1906592
+    longitude: 21.3407762
+    min_latitude: 42.868147
+    min_longitude: 20.9121709
+    max_latitude: 43.4087109
+    max_longitude: 21.836189
   translations:
     en: Toplica
     ar: مقاطعة توبليكا
@@ -1151,16 +1364,26 @@
     tr: Toplica Dstrict
     ur: توپلیتسا ضلع
     vi: Quận Toplica
-  geo:
-    latitude: 43.1906592
-    longitude: 21.3407762
-    min_latitude: 42.868147
-    min_longitude: 20.9121709
-    max_latitude: 43.4087109
-    max_longitude: 21.836189
-  name: Toplica
-'22':
+    lv: Toplicas apgabals
+    sr_Latn: Toplički upravni okrug
+    lt: Toplicos apskritis
+    zh: 托普利卡州
+    sq: Rrethi Toplica
+    ccp: "\U00011111\U00011127\U0001111B\U00011134\U00011123\U00011128\U00011107"
+    uk: Район Топліка
+    mn: Топлич аймаг
+  comments: 
+'22': 
+  name: Pirot
+  code: 
   unofficial_names: Pirot
+  geo:
+    latitude: 43.1557012
+    longitude: 22.5856812
+    min_latitude: 43.1039909
+    min_longitude: 22.5426578
+    max_latitude: 43.2034866
+    max_longitude: 22.6113225
   translations:
     en: Pirot
     ar: مقاطعة بيروت
@@ -1200,16 +1423,25 @@
     tr: Pirot İlçesi
     ur: پیروت ضلع
     vi: Quận Pirot
-  geo:
-    latitude: 43.1557012
-    longitude: 22.5856812
-    min_latitude: 43.1039909
-    min_longitude: 22.5426578
-    max_latitude: 43.2034866
-    max_longitude: 22.6113225
-  name: Pirot
-'23':
+    lv: Pirotas apgabals
+    sr_Latn: Pirotski upravni okrug
+    lt: Piroto apskritis
+    zh: 皮羅特州
+    ccp: "\U0001111B\U0001112D\U00011122\U00011127\U00011116\U00011134"
+    uk: Район Пірот
+    mn: Пирот аймаг
+  comments: 
+'23': 
+  name: Jablanica
+  code: 
   unofficial_names: Jablanica
+  geo:
+    latitude: 43.443889
+    longitude: 21.271389
+    min_latitude: 43.3905789
+    min_longitude: 21.2557983
+    max_latitude: 43.47304099999999
+    max_longitude: 21.3261795
   translations:
     en: Jablanica
     ar: محافظة يابلانيكا
@@ -1252,16 +1484,27 @@
     tr: Jablanica İlçesi
     ur: جبلانیکاضلع
     vi: Quận Jablanica
-  geo:
-    latitude: 43.443889
-    longitude: 21.271389
-    min_latitude: 43.3905789
-    min_longitude: 21.2557983
-    max_latitude: 43.47304099999999
-    max_longitude: 21.3261795
-  name: Jablanica
-'24':
+    lv: Jablanikas distrikts
+    sr_Latn: Jablanički upravni okrug
+    lt: Jablanikos apskritis
+    zh: 雅布蘭尼卡州
+    sq: Rrethi Jablanica
+    ccp: "\U0001110E\U0001111A\U00011134\U00011123\U0001111A\U00011128\U00011107"
+    uk: Район Ябланіка
+    mn: Ябланич аймаг
+    mk: Јабланички округ
+  comments: 
+'24': 
+  name: Pcinja
+  code: 
   unofficial_names: Pcinja
+  geo:
+    latitude: 42.5836362
+    longitude: 22.1430215
+    min_latitude: 42.2448299
+    min_longitude: 21.526959
+    max_latitude: 42.8436209
+    max_longitude: 22.5690361
   translations:
     en: Pčinja
     ar: مقاطعة باتشبنيا
@@ -1301,16 +1544,26 @@
     tr: Pčinja İlçesi
     ur: پچینیا ضلع
     vi: Quận Pcinja
-  geo:
-    latitude: 42.5836362
-    longitude: 22.1430215
-    min_latitude: 42.2448299
-    min_longitude: 21.526959
-    max_latitude: 42.8436209
-    max_longitude: 22.5690361
-  name: Pcinja
-'25':
+    lv: Pčiņas apgabals
+    sr_Latn: Pčinjski upravni okrug
+    lt: Pčinjos apskritis
+    zh: 普奇尼亞州
+    sq: Qarku i Pçinjës
+    ccp: "\U00011125\U00011128\U0001111A\U00011134\U0001110E"
+    uk: Район Пчінья
+    mk: Пчињски округ
+  comments: 
+'25': 
+  name: Kosovo
+  code: 
   unofficial_names: Kosovo
+  geo:
+    latitude: 44.016521
+    longitude: 21.005859
+    min_latitude: 42.231503
+    min_longitude: 18.8385221
+    max_latitude: 46.190032
+    max_longitude: 23.0063095
   translations:
     en: Kosovo
     ca: Districte de Kosovo
@@ -1328,16 +1581,23 @@
     sr: Косовски управни округ
     tr: Kosova İlçesi
     ur: کوسووہ ضلع
-  geo:
-    latitude: 44.016521
-    longitude: 21.005859
-    min_latitude: 42.231503
-    min_longitude: 18.8385221
-    max_latitude: 46.190032
-    max_longitude: 23.0063095
-  name: Kosovo
-'26':
+    sr_Latn: Kosovski upravni okrug
+    zh: 科索沃州
+    ccp: "\U00011107\U00011127\U00011125\U0001112E\U0001111E\U0001112E"
+    es: distrito de Kosovo
+    mn: Косов аймаг
+  comments: 
+'26': 
+  name: Pec´
+  code: 
   unofficial_names: Pec´
+  geo:
+    latitude: 43.5725
+    longitude: 19.8797222
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Peć
     ca: Districte de Peć
@@ -1349,16 +1609,23 @@
     sr: Пећки управни округ
     uk: Пецький округ
     ur: پیچ ضلع
+    sr_Latn: Pećki upravni okrug
+    ccp: "\U0001111B\U0001112C\U00011107\U00011134"
+    fr: Peć
+    mn: Печ аймаг
+    be: Печская акруга
+  comments: 
+'27': 
+  name: Prizren
+  code: 
+  unofficial_names: Prizren
   geo:
-    latitude: 43.5725
-    longitude: 19.8797222
+    latitude: 43.6930556
+    longitude: 19.28
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Pec´
-'27':
-  unofficial_names: Prizren
   translations:
     en: Prizren
     ca: Districte de Prizren (Sèrbia)
@@ -1373,16 +1640,21 @@
     sr: Призренски управни округ
     uk: Прізренський округ
     ur: پریزرین ضلع
-  geo:
-    latitude: 43.6930556
-    longitude: 19.28
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Prizren
-'28':
+    sr_Latn: Prizrenski upravni okrug
+    ccp: "\U0001111B\U00011133\U00011122\U0001112D\U0001110C\U00011134\U00011122\U0001112C\U0001111A\U00011134"
+    mn: Призрен аймаг
+  comments: 
+'28': 
+  name: Kosovska Mitrovica
+  code: 
   unofficial_names: Kosovska Mitrovica
+  geo:
+    latitude: 44.9980615
+    longitude: 19.8087171
+    min_latitude: 44.9979345
+    min_longitude: 19.8018674
+    max_latitude: 44.998271
+    max_longitude: 19.815715
   translations:
     en: Kosovska Mitrovica
     ca: Districte de Kosovska Mitrovica
@@ -1391,16 +1663,24 @@
     nl: Kosovskomitrovački upravni okrug
     sr: Косовскомитровачки управни округ
     ur: کوسووسکا میتروویتسا ضلع
-  geo:
-    latitude: 44.9980615
-    longitude: 19.8087171
-    min_latitude: 44.9979345
-    min_longitude: 19.8018674
-    max_latitude: 44.998271
-    max_longitude: 19.815715
-  name: Kosovska Mitrovica
-'29':
+    sr_Latn: Kosovskomitrovački upravni okrug
+    zh: 科索夫斯卡米特罗维察州
+    ccp: "\U00011107\U00011127\U00011125\U0001112E\U0001111B\U00011134\U0001110C\U00011133\U00011107
+      \U0001111F\U00011128\U00011111\U00011133\U00011122\U0001112E\U0001111E\U00011128\U00011107"
+    fr: Kosovska Mitrovica
+    mn: Косов-Митровиц аймаг
+  comments: 
+'29': 
+  name: Kosovo-Pomoravlje
+  code: 
   unofficial_names: Kosovo-Pomoravlje
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Kosovo-Pomoravlje
     ca: Districte de Kosovo-Pomoravlje
@@ -1414,6 +1694,16 @@
     ru: Косовско-Поморавский округ
     sr: Косовскопоморавски управни округ
     ur: کوسووہ پوموراولیے ضلع
+    sr_Latn: Kosovskopomoravski upravni okrug
+    zh: 科索沃-波莫拉夫列州
+    sq: Anamorava
+    ccp: "\U00011107\U00011127\U00011125\U0001112E\U0001111E\U0001112E \U0001111B\U00011127\U0001111F\U0001112E\U00011122\U0001111B\U00011134\U0001110E\U0001112C"
+    mn: Косов-Поморав аймаг
+  comments: 
+VO: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
     latitude: 
     longitude: 
@@ -1421,8 +1711,6 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Kosovo-Pomoravlje
-VO:
   translations:
     af: Vojvodina
     ar: فويفودينا
@@ -1471,7 +1759,31 @@ VO:
     uk: Воєводина
     ur: وئوودینا
     vi: Vojvodina
-KM:
+    cy: Vojvodina
+    ceb: Autonomna Pokrajina Vojvodina
+    sr_Latn: Vojvodina
+    ta: வொய்வொதீனா
+    zh: 伏伊伏丁那
+    jv: Vojvodina
+    sq: Vojvodina
+    ccp: "\U0001111E\U0001112E\U0001110C\U00011134\U0001111E\U0001112E\U00011113\U00011128\U0001111A"
+    ga: An Vóvaidín
+    yo: Vojvodina
+    uz: Voyevodina
+    bs: Vojvodina
+    mk: Војводина
+  comments: 
+KM: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Косава і Мятохія
     ca: Província autònoma de Kosovo i Metòkhia
@@ -1493,3 +1805,12 @@ KM:
     sr: Косово и Метохија
     tr: Kosova ve Metohiya Özerk Bölgesi
     uk: Автономний край Косово і Метохія
+    ar: مقاطعة كوسوفو وميتوهيا المتمتعة بالحكم الذاتي
+    sr_Latn: Kosovo i Metohija
+    zh: 科索沃和梅托希亚自治省
+    sq: Krahina Autonome e Kosovës dhe Metohisë
+    ccp: "\U00011107\U00011127\U00011125\U0001112E\U0001111E\U0001112C-\U0001111F\U0001112C\U00011111\U0001112E\U00011126\U00011128\U0001110E"
+    id: Kosovo dan Metohija
+    az: Kosova ve Metohiya muxtar vilayəti
+    mn: Косов-Метох
+  comments: 

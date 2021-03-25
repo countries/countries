@@ -1,9 +1,8 @@
 ---
-D:
+D: 
+  name: Diekirch
+  code: 
   unofficial_names: Diekirch
-  translations:
-    en: Diekirch²
-    de: Diekirch²
   geo:
     latitude: 49.8671784
     longitude: 6.159563299999999
@@ -11,12 +10,15 @@ D:
     min_longitude: 6.1175201
     max_latitude: 49.8987
     max_longitude: 6.180689999999999
-  name: Diekirch
-G:
-  unofficial_names: Grevenmacher
   translations:
-    en: Grevenmacher²
-    de: Grevenmacher
+    en: Diekirch²
+    de: Diekirch²
+    ccp: "\U00011113\U0001112D\U00011107\U00011128\U00011122\U00011134\U0001110C\U00011134"
+  comments: 
+G: 
+  name: Grevenmacher
+  code: 
+  unofficial_names: Grevenmacher
   geo:
     latitude: 49.680841
     longitude: 6.440759300000001
@@ -24,13 +26,16 @@ G:
     min_longitude: 6.3601101
     max_latitude: 49.6997
     max_longitude: 6.4610601
-  name: Grevenmacher
-L:
+  translations:
+    en: Grevenmacher²
+    de: Grevenmacher
+    ccp: "\U00011109\U00011133\U00011122\U0001112C\U0001111E\U0001112C\U0001111A\U00011134\U0001111F\U0001110C\U0001112C\U00011122\U00011134"
+  comments: 
+L: 
+  name: Luxembourg (fr)
+  code: 
   unofficial_names:
   - Luxemburg
-  translations:
-    en: Luxembourg²
-    de: Luxemburg²
   geo:
     latitude: 48.845577
     longitude: 2.339852
@@ -38,8 +43,22 @@ L:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Luxembourg (fr)
-LU:
+  translations:
+    en: Luxembourg²
+    de: Luxemburg²
+    ccp: "\U00011123\U0001112A\U00011107\U00011134\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011107\U00011134"
+  comments: 
+LU: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Люксембург
     ca: Cantó de Luxemburg
@@ -68,7 +87,20 @@ LU:
     tr: Lüksemburg kantonu
     ur: لگزمبرگ (صوبہ)
     vi: Luxembourg
-ME:
+    ceb: Canton de Luxembourg
+    ccp: "\U00011123\U0001112A\U00011107\U00011134\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011107\U00011134"
+  comments: 
+ME: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Мерш
     ca: Cantó de Mersch
@@ -93,7 +125,21 @@ ME:
     tr: Mersch kantonu
     uk: Люксембург
     vi: Mersch
-RD:
+    ceb: Canton de Mersch (kanton sa Luksemburgo)
+    ccp: "\U0001111F\U00011122\U00011134\U00011125\U00011134\U0001110C\U00011134"
+    az: Merş
+  comments: 
+RD: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: кантон Рэданж
     ca: Cantó de Redange
@@ -118,7 +164,20 @@ RD:
     tr: Redange kantonu
     uk: Реданж
     vi: Redange
-RM:
+    ceb: Canton de Redange
+    ccp: "\U00011122\U0001112C\U00011113\U0001110B\U00011134\U00011109\U0001112C"
+  comments: 
+RM: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Кантон Рэміх
     ca: Cantó de Remich
@@ -145,7 +204,20 @@ RM:
     uk: Реміх
     ur: ریمیش (صوبہ)
     vi: Remich
-CA:
+    ceb: Canton de Remich
+    ccp: "\U00011122\U0001112C\U0001111F\U00011128\U0001110C\U00011134"
+  comments: 
+CA: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Capellen
     cs: Kanton Capellen
@@ -169,7 +241,20 @@ CA:
     tr: Capellen kantonu
     uk: Капеллен
     vi: Capellen
-CL:
+    ceb: Canton de Capellen
+    ccp: "\U00011107\U0001111B\U0001112C\U00011123\U0001112C\U0001111A\U00011134"
+  comments: 
+CL: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Clervaux
     cs: Kanton Clerf
@@ -195,7 +280,22 @@ CL:
     uk: Клерво
     vi: Clervaux
     zh: 克莱沃县
-DI:
+    ceb: Clervaux
+    ccp: "\U00011107\U00011133\U00011123\U00011122\U00011134\U0001111E\U0001112F\U00011107\U00011134"
+    az: Klervo
+    be: Клерво
+  comments: 
+DI: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Diekirch
     cs: Kanton Diekirch
@@ -222,7 +322,21 @@ DI:
     uk: Дікірх
     ur: دیکیرش (صوبہ)
     vi: Diekirch
-EC:
+    ceb: Canton de Diekirch
+    zh: 迪基希县
+    ccp: "\U00011113\U0001112D\U00011107\U00011128\U00011122\U00011134\U0001110C\U00011134"
+  comments: 
+EC: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó d’Echternach
     cs: Kanton Echternach
@@ -249,7 +363,20 @@ EC:
     uk: Ехтернах
     ur: اشترناخ (صوبہ)
     vi: Echternach
-ES:
+    ceb: Canton d’Echternach
+    ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011122\U00011134\U0001111A\U0001110C\U00011134"
+  comments: 
+ES: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó d’Esch-sur-Alzette
     cs: Kanton Esch an der Alzette
@@ -276,12 +403,25 @@ ES:
     uk: Еш-сюр-Альзетт
     ur: اش-سور-الزیت (صوبہ)
     vi: Esch-sur-Alzette
-GR:
+    ceb: Canton d’Esch-sur-Alzette
+    ccp: "\U00011103\U00011128\U0001110C\U00011134-\U00011125\U00011122\U00011134-\U00011103\U00011123\U00011134\U0001110E\U0001112C\U00011111\U00011128"
+  comments: 
+GR: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Grevenmacher
     cs: Kanton Grevenmacher
     da: Grevenmacher
-    de: Grevenmacher²
+    de: Grevenmacher
     en: Grevenmacher
     es: Cantón de Grevenmacher
     fa: گرونماخر (ایالت)
@@ -303,7 +443,22 @@ GR:
     uk: Гревенмахер
     ur: گرونماخر (صوبہ)
     vi: Grevenmacher
-VD:
+    ceb: Grevenmacher (munisipyo)
+    ccp: "\U00011109\U00011133\U00011122\U0001112C\U0001111E\U0001112C\U0001111A\U00011134\U0001111F\U0001110C\U0001112C\U00011122\U00011134"
+    az: Qrevenmaxer
+    th: อำเภอเกรเวินมัคเคอร์
+  comments: 
+VD: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Vianden
     cs: Kanton Vianden
@@ -329,7 +484,20 @@ VD:
     uk: Віанден
     ur: ویاندن (صوبہ)
     vi: Vianden
-WI:
+    ceb: Canton de Vianden
+    ccp: "\U0001111E\U0001112D\U0001111A\U00011134\U00011113\U0001112C\U0001111A\U00011134"
+  comments: 
+WI: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ca: Cantó de Wiltz
     cs: Kanton Wiltz
@@ -355,3 +523,6 @@ WI:
     uk: Вільц
     ur: ولتز (صوبہ)
     vi: Wiltz
+    ceb: Canton de Wiltz
+    ccp: "\U00011105\U0001112A\U00011103\U00011128\U00011123\U00011134\U00011111\U00011134\U0001110E\U00011134"
+  comments: 

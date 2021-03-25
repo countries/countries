@@ -1,8 +1,8 @@
 ---
-'0':
+'0': 
+  name: Reykjavík
+  code: 
   unofficial_names: Reykjavík
-  translations:
-    en: Reykjavík
   geo:
     latitude: 64.133333
     longitude: -21.933333
@@ -10,9 +10,21 @@
     min_longitude: -21.9865021
     max_latitude: 64.1750702
     max_longitude: -21.7183826
-  name: Reykjavík
-'1':
+  translations:
+    en: Reykjavík
+    ccp: "\U00011122\U00011128\U00011120\U0001110E\U0001111E\U00011128\U00011107\U00011134"
+  comments: 
+'1': 
+  name: Höfuðborgarsvæði utan Reykjavíkur
+  code: 
   unofficial_names: Höfuðborgarsvæði utan Reykjavíkur
+  geo:
+    latitude: 64.1475182
+    longitude: -21.9428079
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Capital
     ar: إقليم العاصمة
@@ -62,16 +74,25 @@
     ur: دارالحکومت علاقہ
     vi: Khu vực Thủ đô
     zh: 大雷克雅未克区
-  geo:
-    latitude: 64.1475182
-    longitude: -21.9428079
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Höfuðborgarsvæði utan Reykjavíkur
-'2':
+    cy: Reykjavík Fawr
+    ceb: Höfuðborgarsvæði
+    sr_Latn: Rejkjavik
+    sq: Rajoni i Kryeqytetit
+    ccp: "\U00011107\U00011133\U00011120\U0001111B\U00011128\U00011111\U00011123\U00011134"
+    ga: Höfuðborgarsvæði
+    mk: Престолнински регион
+  comments: 
+'2': 
+  name: Suðurnes
+  code: 
   unofficial_names: Suðurnes
+  geo:
+    latitude: 63.91548030000001
+    longitude: -22.3649667
+    min_latitude: 63.8000178
+    min_longitude: -22.7544665
+    max_latitude: 64.08244680000001
+    max_longitude: -21.7119429
   translations:
     en: Southern Peninsula
     af: Suðurnes
@@ -119,16 +140,26 @@
     uk: Судурнес
     ur: جنوبی جزیرہ نما
     vi: Khu vực Phía Nam Peninsula
-  geo:
-    latitude: 63.91548030000001
-    longitude: -22.3649667
-    min_latitude: 63.8000178
-    min_longitude: -22.7544665
-    max_latitude: 64.08244680000001
-    max_longitude: -21.7119429
-  name: Suðurnes
-'3':
+    cy: Reykjanesskagi
+    ceb: Suðurnes
+    sr_Latn: Sidirnes
+    zh: 西南區
+    sq: Gadishulli Jugor
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112C\U0001111A\U00011128\U0001111A\U00011134\U00011125\U0001112A\U00011123"
+    ga: Suðurnes
+    mk: Јужен Полуостров
+  comments: 
+'3': 
+  name: Vesturland
+  code: 
   unofficial_names: Vesturland
+  geo:
+    latitude: 64.770434
+    longitude: -21.5341294
+    min_latitude: 64.302399
+    min_longitude: -24.0609395
+    max_latitude: 65.51733899999999
+    max_longitude: -19.7810714
   translations:
     en: Western
     ar: الإقليم الغربي
@@ -175,16 +206,27 @@
     uk: Вестурланд
     ur: مغربی علاقہ
     vi: Khu vực Phía Tây
-  geo:
-    latitude: 64.770434
-    longitude: -21.5341294
-    min_latitude: 64.302399
-    min_longitude: -24.0609395
-    max_latitude: 65.51733899999999
-    max_longitude: -19.7810714
-  name: Vesturland
-'4':
+    cy: Rhanbarth y Gorllewin
+    ceb: Vesturland
+    sr_Latn: Vestirtland
+    zh: 西部區
+    sq: Rajoni Perëndimor
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ga: Vesturland
+    mk: Западен регион
+    bg: Вестюрланд
+  comments: 
+'4': 
+  name: Vestfirðir
+  code: 
   unofficial_names: Vestfirðir
+  geo:
+    latitude: 65.91961500000001
+    longitude: -21.8811763
+    min_latitude: 64.96292199999999
+    min_longitude: -24.5465237
+    max_latitude: 66.46997069999999
+    max_longitude: -20.9746663
   translations:
     en: Westfjords
     ar: إقليم المضايق
@@ -234,16 +276,25 @@
     uk: Вестфірдір
     ur: ویستفجوردس ریجن
     vi: Khu vực Westfjords
-  geo:
-    latitude: 65.91961500000001
-    longitude: -21.8811763
-    min_latitude: 64.96292199999999
-    min_longitude: -24.5465237
-    max_latitude: 66.46997069999999
-    max_longitude: -20.9746663
-  name: Vestfirðir
-'5':
+    cy: Vestfirðir
+    sr_Latn: Vestfirdir (region)
+    zh: 西峽灣區
+    sq: Fjordet Perëndimore
+    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U0001110E\U0001112E\U00011122\U00011134\U00011113\U00011134\U00011125\U00011134"
+    ga: Vestfirðir
+    mk: Западни Фјордови
+  comments: 
+'5': 
+  name: Norðurland vestra
+  code: 
   unofficial_names: Norðurland vestra
+  geo:
+    latitude: 65.19625049999999
+    longitude: -19.2425804
+    min_latitude: 64.773222
+    min_longitude: -21.1190769
+    max_latitude: 66.1600471
+    max_longitude: -18.295774
   translations:
     en: Northwestern
     ar: الإقليم الشمالي الغربي
@@ -289,16 +340,26 @@
     uk: Нордурланд-Вестра
     ur: شمال مغربی علاقہ
     vi: Khu vực Tây Bắc
-  geo:
-    latitude: 65.19625049999999
-    longitude: -19.2425804
-    min_latitude: 64.773222
-    min_longitude: -21.1190769
-    max_latitude: 66.1600471
-    max_longitude: -18.295774
-  name: Norðurland vestra
-'6':
+    cy: Norðurland vestra
+    ceb: Norðurland Vestra
+    sr_Latn: Nordirtland Vestra
+    zh: 西北區
+    sq: Rajoni Veriperëndimor
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ga: Norðurland vestra
+    mk: Северозападен регион
+  comments: 
+'6': 
+  name: Norðurland eystra
+  code: 
   unofficial_names: Norðurland eystra
+  geo:
+    latitude: 65.4713712
+    longitude: -17.0280279
+    min_latitude: 64.4100729
+    min_longitude: -19.0427822
+    max_latitude: 66.5637741
+    max_longitude: -14.5419811
   translations:
     en: Northeastern
     ar: الإقليم الشمالي الشرقي
@@ -346,16 +407,26 @@
     uk: Нордурланд-Ейстра
     ur: شمال مشرقی علاقہ
     vi: Khu vực Đông Bắc
-  geo:
-    latitude: 65.4713712
-    longitude: -17.0280279
-    min_latitude: 64.4100729
-    min_longitude: -19.0427822
-    max_latitude: 66.5637741
-    max_longitude: -14.5419811
-  name: Norðurland eystra
-'7':
+    cy: Norðurland eystra
+    ceb: Norðurland Eystra
+    sr_Latn: Nordirtland Ejstra
+    zh: 東北區
+    sq: Rajoni Verilindor
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ga: Norðurland eystra
+    mk: Североисточен регион
+  comments: 
+'7': 
+  name: Austurland
+  code: 
   unofficial_names: Austurland
+  geo:
+    latitude: 64.8329974
+    longitude: -15.7433981
+    min_latitude: 63.77613830000001
+    min_longitude: -17.3681851
+    max_latitude: 66.1899378
+    max_longitude: -13.4958154
   translations:
     en: Eastern
     ar: الإقليم الشرقي
@@ -403,16 +474,26 @@
     uk: Аустурланд
     ur: مشرقی علاقہ
     vi: Khu vực Eastern
-  geo:
-    latitude: 64.8329974
-    longitude: -15.7433981
-    min_latitude: 63.77613830000001
-    min_longitude: -17.3681851
-    max_latitude: 66.1899378
-    max_longitude: -13.4958154
-  name: Austurland
-'8':
+    cy: Austurland
+    ceb: Austurland
+    sr_Latn: Ejstirtland
+    zh: 東部區
+    sq: Rajoni Lindor
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ga: Austurland
+    mk: Источен регион
+  comments: 
+'8': 
+  name: Suðurland
+  code: 
   unofficial_names: Suðurland
+  geo:
+    latitude: 64.2661426
+    longitude: -18.8158138
+    min_latitude: 63.2973824
+    min_longitude: -21.9220031
+    max_latitude: 64.87730599999999
+    max_longitude: -17.2659519
   translations:
     en: Southern
     ar: الإقليم الجنوبي
@@ -461,11 +542,12 @@
     uk: Судурланд
     ur: جنوبی علاقہ
     vi: Khu vực Southern
-  geo:
-    latitude: 64.2661426
-    longitude: -18.8158138
-    min_latitude: 63.2973824
-    min_longitude: -21.9220031
-    max_latitude: 64.87730599999999
-    max_longitude: -17.2659519
-  name: Suðurland
+    cy: Suðurland
+    ceb: Suðurland
+    sr_Latn: Sidirtland
+    zh: 南部區
+    sq: Rajoni Jugor
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ga: Suðurland
+    mk: Јужен регион
+  comments: 

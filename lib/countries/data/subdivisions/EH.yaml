@@ -1,13 +1,13 @@
 ---
-BOD:
+BOD: 
+  name: Boujdour
+  code: 
   unofficial_names:
   - Bojador
   - Boujdour
   - Bu Jaydur
   - Bujdur
   - Cabo Bojador
-  translations:
-    en: Boujdour
   geo:
     latitude: 26.1118596
     longitude: -14.4781532
@@ -15,8 +15,12 @@ BOD:
     min_longitude: -14.5005798
     max_latitude: 26.1565487
     max_longitude: -14.4467785
-  name: Boujdour
-ESM:
+  translations:
+    en: Boujdour
+  comments: 
+ESM: 
+  name: Es Semara
+  code: 
   unofficial_names:
   - Es-Smara
   - Essemara
@@ -24,8 +28,6 @@ ESM:
   - Smara
   - as-Samarah
   - as-Smara
-  translations:
-    en: Es Semara
   geo:
     latitude: 27.1725996
     longitude: -10.2600125
@@ -33,8 +35,12 @@ ESM:
     min_longitude: -12.57755
     max_latitude: 27.6751252
     max_longitude: -8.670276
-  name: Es Semara
-LAA:
+  translations:
+    en: Es Semara
+  comments: 
+LAA: 
+  name: Laayoune
+  code: 
   unofficial_names:
   - Aaiún
   - Al Ayūn
@@ -46,8 +52,6 @@ LAA:
   - Laʿyoun
   - Lâayoun
   - al-Ayun
-  translations:
-    en: Laayoune
   geo:
     latitude: 27.1252867
     longitude: -13.1625005
@@ -55,13 +59,15 @@ LAA:
     min_longitude: -13.2541466
     max_latitude: 27.1669433
     max_longitude: -13.0969906
-  name: Laayoune
-OUD:
+  translations:
+    en: Laayoune
+  comments: 
+OUD: 
+  name: Oued el Dahab
+  code: 
   unofficial_names:
   - Oued edh Dheheb
   - Wad adh-Dhahab
-  translations:
-    en: Oued el Dahab
   geo:
     latitude: 23.6989784
     longitude: -15.9322297
@@ -69,4 +75,6 @@ OUD:
     min_longitude: -15.9325378
     max_latitude: 23.6996106
     max_longitude: -15.9319948
-  name: Oued el Dahab
+  translations:
+    en: Oued el Dahab
+  comments: 

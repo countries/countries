@@ -1,11 +1,20 @@
 ---
-'11':
+'11': 
+  name: Tunis
+  code: 
   unofficial_names:
   - Toûnis
   - Tūnis
   - Tunis
   - Tunis
   - Túnez
+  geo:
+    latitude: 36.8064948
+    longitude: 10.1815316
+    min_latitude: 36.7184274
+    min_longitude: 10.0179433
+    max_latitude: 36.8713385
+    max_longitude: 10.2686119
   translations:
     en: Tunis
     ar: ولاية تونس
@@ -32,19 +41,25 @@
     uk: Туніс
     ur: تونس
     zh: 突尼斯省
-  geo:
-    latitude: 36.8064948
-    longitude: 10.1815316
-    min_latitude: 36.7184274
-    min_longitude: 10.0179433
-    max_latitude: 36.8713385
-    max_longitude: 10.2686119
-  name: Tunis
-'12':
+    cy: Tunis
+    ceb: Gouvernorat de Tunis
+    el: Κυβερνείο Τύνιδας
+    ccp: "\U00011111\U0001112A\U0001111A\U00011128\U0001110C\U00011134"
+  comments: 
+'12': 
+  name: L'Ariana
+  code: 
   unofficial_names:
   - Ariano
   - Iryanah
   - Ariana
+  geo:
+    latitude: 36.9922751
+    longitude: 10.1255164
+    min_latitude: 36.827762
+    min_longitude: 9.976983899999999
+    max_latitude: 37.1352458
+    max_longitude: 10.2448928
   translations:
     en: Ariana
     ar: ولاية أريانة
@@ -76,18 +91,25 @@
     uk: Арʼяна
     ur: آریانہ
     vi: Ariana
-  geo:
-    latitude: 36.9922751
-    longitude: 10.1255164
-    min_latitude: 36.827762
-    min_longitude: 9.976983899999999
-    max_latitude: 37.1352458
-    max_longitude: 10.2448928
-  name: L'Ariana
-'13':
+    cy: Ariana
+    ceb: Gouvernorat de l’Ariana
+    zh: 艾爾亞內省
+    ccp: "\U00011103\U00011122\U00011128\U00011120\U0001111A\U00011134"
+    az: Aryana vilayəti
+  comments: 
+'13': 
+  name: Ben Arous
+  code: 
   unofficial_names:
   - Bin Arus
   - Ben Arous
+  geo:
+    latitude: 36.7435003
+    longitude: 10.2319757
+    min_latitude: 36.7297301
+    min_longitude: 10.2090426
+    max_latitude: 36.7632374
+    max_longitude: 10.2602512
   translations:
     en: Ben Arous
     ar: ولاية بن عروس
@@ -129,17 +151,25 @@
     uk: Бен-Арус
     ur: بن عروس
     vi: Tỉnh Ben Arous
-  geo:
-    latitude: 36.7435003
-    longitude: 10.2319757
-    min_latitude: 36.7297301
-    min_longitude: 10.2090426
-    max_latitude: 36.7632374
-    max_longitude: 10.2602512
-  name: Ben Arous
-'14':
+    lv: Ben Aruso vilājets
+    cy: Ben Arous
+    ceb: Gouvernorat de Ben Arous
+    zh: 本阿魯斯省
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011134 \U00011103\U00011122\U0001112F\U0001110C\U00011134"
+    az: Ben Arus vilayəti
+  comments: 
+'14': 
+  name: La Manouba
+  code: 
   unofficial_names:
   - Manouba
+  geo:
+    latitude: 36.8446504
+    longitude: 9.8571416
+    min_latitude: 36.592011
+    min_longitude: 9.553794
+    max_latitude: 36.9795789
+    max_longitude: 10.081348
   translations:
     en: Manouba
     ar: ولاية منوبة
@@ -178,18 +208,27 @@
     uk: Мануба
     ur: منوبہ
     vi: Tỉnh Manouba
-  geo:
-    latitude: 36.8446504
-    longitude: 9.8571416
-    min_latitude: 36.592011
-    min_longitude: 9.553794
-    max_latitude: 36.9795789
-    max_longitude: 10.081348
-  name: La Manouba
-'21':
+    lv: Manūbas vilāja
+    cy: Manouba
+    ceb: Manouba (lalawigan)
+    lt: Manubos gubernija
+    zh: 馬努巴省
+    ccp: "\U0001111F\U0001111A\U0001112F\U0001111D"
+    az: Manuba vilayəti
+  comments: 
+'21': 
+  name: Nabeul
+  code: 
   unofficial_names:
   - Nabul
   - Nabeul
+  geo:
+    latitude: 36.454167
+    longitude: 10.734722
+    min_latitude: 36.4244781
+    min_longitude: 10.6720592
+    max_latitude: 36.4772055
+    max_longitude: 10.7524394
   translations:
     en: Nabeul
     ar: ولاية نابل
@@ -228,19 +267,28 @@
     uk: Набуль
     ur: نابل
     vi: Tỉnh Nabeul
-  geo:
-    latitude: 36.454167
-    longitude: 10.734722
-    min_latitude: 36.4244781
-    min_longitude: 10.6720592
-    max_latitude: 36.4772055
-    max_longitude: 10.7524394
-  name: Nabeul
-'22':
+    lv: Nābulas vilāja
+    cy: Nabeul
+    ceb: Gouvernorat de Nabeul
+    lt: Nabulo gubernija
+    zh: 納布勒省
+    ccp: "\U0001111A\U0001111D\U0001112C\U00011105\U0001112A\U00011123\U00011134"
+    az: Nabul vilayəti
+  comments: 
+'22': 
+  name: Zaghouan
+  code: 
   unofficial_names:
   - Zaghwan
   - Zagwan
   - Zaghouan
+  geo:
+    latitude: 36.4
+    longitude: 10.15
+    min_latitude: 36.3916477
+    min_longitude: 10.1144424
+    max_latitude: 36.4261047
+    max_longitude: 10.1580619
   translations:
     en: Zaghouan
     ar: ولاية زغوان
@@ -279,20 +327,28 @@
     uk: Загуан (вілаєт)
     ur: زغوان گوورنوراتے
     vi: Tỉnh Zaghouan
-  geo:
-    latitude: 36.4
-    longitude: 10.15
-    min_latitude: 36.3916477
-    min_longitude: 10.1144424
-    max_latitude: 36.4261047
-    max_longitude: 10.1580619
-  name: Zaghouan
-'23':
+    lv: Zagvānas vilāja
+    cy: Zaghouan
+    ceb: Gouvernorat de Zaghouan
+    lt: Zahvano gubernija
+    zh: 宰格萬省
+    ccp: "\U0001110E\U0001110A\U0001112F\U00011120\U0001111A\U00011134"
+  comments: 
+'23': 
+  name: Bizerte
+  code: 
   unofficial_names:
   - Banzart
   - Benzert
   - Bizerta
   - Bizerte
+  geo:
+    latitude: 37.266667
+    longitude: 9.866667
+    min_latitude: 37.2544257
+    min_longitude: 9.839630099999999
+    max_latitude: 37.2958372
+    max_longitude: 9.885862999999999
   translations:
     en: Bizerte
     ar: ولاية بنزرت
@@ -334,18 +390,26 @@
     uk: Бізерта
     ur: بنزرت
     vi: Tỉnh Bizerte
-  geo:
-    latitude: 37.266667
-    longitude: 9.866667
-    min_latitude: 37.2544257
-    min_longitude: 9.839630099999999
-    max_latitude: 37.2958372
-    max_longitude: 9.885862999999999
-  name: Bizerte
-'31':
+    lv: Bizertas vilāja
+    cy: Bizerte
+    ceb: Gouvernorat de Bizerte
+    zh: 比塞大省
+    ccp: "\U0001111D\U0001112D\U0001110E\U00011122\U00011134\U00011111\U0001112C"
+    az: Bizerta vilayəti
+  comments: 
+'31': 
+  name: Béja
+  code: 
   unofficial_names:
   - Bajah
   - Béja
+  geo:
+    latitude: 36.733333
+    longitude: 9.183333
+    min_latitude: 36.713096
+    min_longitude: 9.1621957
+    max_latitude: 36.7463238
+    max_longitude: 9.213008799999999
   translations:
     en: Béja
     ar: ولاية باجة
@@ -376,18 +440,25 @@
     tr: Bace ili
     uk: Беджа
     ur: باجہ
-  geo:
-    latitude: 36.733333
-    longitude: 9.183333
-    min_latitude: 36.713096
-    min_longitude: 9.1621957
-    max_latitude: 36.7463238
-    max_longitude: 9.213008799999999
-  name: Béja
-'32':
+    cy: Béja
+    ceb: Gouvernorat de Béja
+    zh: 巴傑省
+    ccp: "\U0001111D\U0001112C\U0001110E"
+    az: Beca vilayəti
+  comments: 
+'32': 
+  name: Jendouba
+  code: 
   unofficial_names:
   - Jundubah
   - Jendouba
+  geo:
+    latitude: 36.5
+    longitude: 8.783332999999999
+    min_latitude: 36.485349
+    min_longitude: 8.750782
+    max_latitude: 36.5212251
+    max_longitude: 8.807001099999999
   translations:
     en: Jendouba
     ar: ولاية جندوبة
@@ -427,18 +498,26 @@
     uk: Джендуба
     ur: جندوبہ
     vi: Tỉnh Jendouba
-  geo:
-    latitude: 36.5
-    longitude: 8.783332999999999
-    min_latitude: 36.485349
-    min_longitude: 8.750782
-    max_latitude: 36.5212251
-    max_longitude: 8.807001099999999
-  name: Jendouba
-'33':
+    lv: Džundūbas vilāja
+    cy: Jendouba
+    ceb: Gouvernorat de Jendouba
+    zh: 堅杜拜省
+    ccp: "\U0001110E\U0001112C\U0001111A\U00011134\U00011113\U0001112F\U0001111D"
+    az: Cenduba vilayəti
+  comments: 
+'33': 
+  name: Le Kef
+  code: 
   unofficial_names:
   - El Kef
   - Le Kef
+  geo:
+    latitude: 36.182222
+    longitude: 8.714722
+    min_latitude: 36.1414446
+    min_longitude: 8.670744899999999
+    max_latitude: 36.1922777
+    max_longitude: 8.7338974
   translations:
     en: Kef
     ar: ولاية الكاف
@@ -477,18 +556,27 @@
     uk: Ель-Кеф
     ur: کاف (صوبہ)
     vi: Tỉnh Kef
-  geo:
-    latitude: 36.182222
-    longitude: 8.714722
-    min_latitude: 36.1414446
-    min_longitude: 8.670744899999999
-    max_latitude: 36.1922777
-    max_longitude: 8.7338974
-  name: Le Kef
-'34':
+    lv: Kāfas vilāja
+    cy: El Kef
+    ceb: Gouvernorat de Kef
+    lt: Kefo gubernija
+    zh: 卡夫省
+    ccp: "\U00011107\U0001112C\U0001111B\U00011134"
+    az: Kef vilayəti
+  comments: 
+'34': 
+  name: Siliana
+  code: 
   unofficial_names:
   - Silyanah
   - Siliana
+  geo:
+    latitude: 36.08194400000001
+    longitude: 9.374722
+    min_latitude: 36.0747015
+    min_longitude: 9.349880200000001
+    max_latitude: 36.098909
+    max_longitude: 9.3806076
   translations:
     en: Siliana
     ar: ولاية سليانة
@@ -527,18 +615,26 @@
     uk: Сільяна
     ur: سلیانہ
     vi: Tỉnh Siliana
-  geo:
-    latitude: 36.08194400000001
-    longitude: 9.374722
-    min_latitude: 36.0747015
-    min_longitude: 9.349880200000001
-    max_latitude: 36.098909
-    max_longitude: 9.3806076
-  name: Siliana
-'41':
+    lv: Siljānas vilāja
+    cy: Siliana
+    ceb: Gouvernorat de Siliana
+    lt: Silianos gubernija
+    zh: 錫勒亞奈省
+    ccp: "\U00011125\U00011128\U00011123\U00011128\U00011120\U0001111A"
+  comments: 
+'41': 
+  name: Kairouan
+  code: 
   unofficial_names:
   - al-Qayrawan
   - Kairouan
+  geo:
+    latitude: 35.6759137
+    longitude: 10.0919243
+    min_latitude: 35.64132439999999
+    min_longitude: 10.0691415
+    max_latitude: 35.7072139
+    max_longitude: 10.1331712
   translations:
     en: Kairouan
     ar: ولاية القيروان
@@ -565,18 +661,25 @@
     tr: Kayravan
     uk: Кайруан
     ur: قیروان
-  geo:
-    latitude: 35.6759137
-    longitude: 10.0919243
-    min_latitude: 35.64132439999999
-    min_longitude: 10.0691415
-    max_latitude: 35.7072139
-    max_longitude: 10.1331712
-  name: Kairouan
-'42':
+    cy: Kairouan
+    ceb: Gouvernorat de Kairouan
+    zh: 凱魯萬省
+    ccp: "\U00011107\U0001112D\U00011122\U0001112F\U00011120\U0001111A\U00011134"
+    az: Kayruan vilayəti
+  comments: 
+'42': 
+  name: Kasserine
+  code: 
   unofficial_names:
   - Qasrayn
   - Kasserine
+  geo:
+    latitude: 35.166667
+    longitude: 8.833333
+    min_latitude: 35.1505123
+    min_longitude: 8.780908499999999
+    max_latitude: 35.1900134
+    max_longitude: 8.8686274
   translations:
     en: Kasserine
     ar: ولاية القصرين
@@ -615,18 +718,27 @@
     uk: Касерін
     ur: قصرین
     vi: Tỉnh Kasserine
-  geo:
-    latitude: 35.166667
-    longitude: 8.833333
-    min_latitude: 35.1505123
-    min_longitude: 8.780908499999999
-    max_latitude: 35.1900134
-    max_longitude: 8.8686274
-  name: Kasserine
-'43':
+    lv: Kasrainas vilāja
+    cy: Kasserine
+    ceb: Gouvernorat de Kasserine
+    lt: Kaserinės gubernija
+    zh: 卡塞林省
+    ccp: "\U00011107\U00011125\U0001112C\U00011122\U0001112D\U0001111A\U00011134"
+    az: Kasserin vilayəti
+  comments: 
+'43': 
+  name: Sidi Bouzid
+  code: 
   unofficial_names:
   - Sidi Bu Zayd
   - Sidi Bouzid
+  geo:
+    latitude: 35.033333
+    longitude: 9.5
+    min_latitude: 35.0233905
+    min_longitude: 9.4474748
+    max_latitude: 35.0493886
+    max_longitude: 9.506600599999999
   translations:
     en: Sidi Bouzid
     ar: ولاية سيدي بوزيد
@@ -665,18 +777,27 @@
     uk: Сіді-Бузід
     ur: سیدی بوزید
     vi: Tỉnh Sidi Bouzid
-  geo:
-    latitude: 35.033333
-    longitude: 9.5
-    min_latitude: 35.0233905
-    min_longitude: 9.4474748
-    max_latitude: 35.0493886
-    max_longitude: 9.506600599999999
-  name: Sidi Bouzid
-'51':
+    lv: Sīdī Bū Zeidas vilāja
+    cy: Sidi Bouzid
+    ceb: Gouvernorat de Sidi Bouzid
+    lt: Sidi Buzido gubernija
+    zh: 西迪布濟德省
+    ccp: "\U00011125\U00011128\U00011113\U00011128 \U0001111D\U0001112F\U0001110E\U00011128\U00011116\U00011134"
+    az: Sidi-Bu-Zid vilayəti
+  comments: 
+'51': 
+  name: Sousse
+  code: 
   unofficial_names:
   - Susah
   - Sousse
+  geo:
+    latitude: 35.825603
+    longitude: 10.608395
+    min_latitude: 35.7857109
+    min_longitude: 10.5743716
+    max_latitude: 35.8729782
+    max_longitude: 10.666535
   translations:
     en: Sousse
     ar: ولاية سوسة
@@ -717,18 +838,25 @@
     uk: Сус
     ur: سوسہ
     vi: Tỉnh Sousse
-  geo:
-    latitude: 35.825603
-    longitude: 10.608395
-    min_latitude: 35.7857109
-    min_longitude: 10.5743716
-    max_latitude: 35.8729782
-    max_longitude: 10.666535
-  name: Sousse
-'52':
+    lv: Sūsas vilāja
+    cy: Sousse
+    ceb: Gouvernorat de Sousse
+    zh: 蘇塞省
+    ccp: "\U00011125\U0001112F\U0001110C\U00011134"
+  comments: 
+'52': 
+  name: Monastir
+  code: 
   unofficial_names:
   - al-Munastir
   - Monastir
+  geo:
+    latitude: 35.783333
+    longitude: 10.833333
+    min_latitude: 35.7204547
+    min_longitude: 10.7770729
+    max_latitude: 35.788039
+    max_longitude: 10.8437093
   translations:
     en: Monastir
     ar: ولاية المنستير
@@ -768,19 +896,28 @@
     uk: Монастір
     ur: منستر
     vi: Tỉnh Monastir
-  geo:
-    latitude: 35.783333
-    longitude: 10.833333
-    min_latitude: 35.7204547
-    min_longitude: 10.7770729
-    max_latitude: 35.788039
-    max_longitude: 10.8437093
-  name: Monastir
-'53':
+    lv: Monastīras vilāja
+    cy: Monastir
+    ceb: Gouvernorat de Monastir
+    lt: Monastiro gubernija
+    zh: 莫納斯提爾省
+    ccp: "\U0001111F\U0001112E\U0001111A\U0001110C\U00011134\U00011111\U00011128\U00011122\U00011134"
+    az: Monastir vilayəti
+  comments: 
+'53': 
+  name: Mahdia
+  code: 
   unofficial_names:
   - Mahdia
   - al-Mahdiyah
   - Mehdia
+  geo:
+    latitude: 35.5024461
+    longitude: 11.045721
+    min_latitude: 35.4924656
+    min_longitude: 11.0219544
+    max_latitude: 35.516999
+    max_longitude: 11.0821596
   translations:
     en: Mahdia
     ar: ولاية المهدية
@@ -819,18 +956,27 @@
     uk: Махдія
     ur: مہدیہ
     vi: Tỉnh Mahdia
-  geo:
-    latitude: 35.5024461
-    longitude: 11.045721
-    min_latitude: 35.4924656
-    min_longitude: 11.0219544
-    max_latitude: 35.516999
-    max_longitude: 11.0821596
-  name: Mahdia
-'61':
+    lv: Mehdījas vilāja
+    cy: Mahdia
+    ceb: Gouvernorat de Mahdia
+    lt: Machdijos gubernija
+    zh: 馬赫迪耶省
+    ccp: "\U0001111F\U00011126\U00011134\U00011113\U00011128\U00011120"
+    az: Mahdiya vilayəti
+  comments: 
+'61': 
+  name: Sfax
+  code: 
   unofficial_names:
   - Safaqis
   - Sfax
+  geo:
+    latitude: 34.733333
+    longitude: 10.766667
+    min_latitude: 34.6996316
+    min_longitude: 10.677681
+    max_latitude: 34.8146488
+    max_longitude: 10.8035946
   translations:
     en: Sfax
     ar: ولاية صفاقس
@@ -871,16 +1017,25 @@
     uk: Сфакс
     ur: صفاقس
     vi: Tỉnh Sfax
-  geo:
-    latitude: 34.733333
-    longitude: 10.766667
-    min_latitude: 34.6996316
-    min_longitude: 10.677681
-    max_latitude: 34.8146488
-    max_longitude: 10.8035946
-  name: Sfax
-'71':
+    lv: Sfāksas vilāja
+    cy: Sfax
+    ceb: Gouvernorat de Sfax
+    lt: Sfakso gubernija
+    zh: 斯法克斯省
+    ccp: "\U0001111C\U00011133\U00011120\U00011107\U00011134"
+    az: Sfaqs vilayəti
+  comments: 
+'71': 
+  name: Gafsa
+  code: 
   unofficial_names: Gafsa
+  geo:
+    latitude: 34.416667
+    longitude: 8.783332999999999
+    min_latitude: 34.403907
+    min_longitude: 8.744003
+    max_latitude: 34.4532756
+    max_longitude: 8.8033181
   translations:
     en: Gafsa
     ar: ولاية قفصة
@@ -921,17 +1076,25 @@
     uk: Гафса
     ur: قفصہ
     vi: Tỉnh Gafsa
-  geo:
-    latitude: 34.416667
-    longitude: 8.783332999999999
-    min_latitude: 34.403907
-    min_longitude: 8.744003
-    max_latitude: 34.4532756
-    max_longitude: 8.8033181
-  name: Gafsa
-'72':
+    lv: Gafsas vilāja
+    cy: Gafsa
+    ceb: Gafsa Governorate
+    zh: 加夫薩省
+    ccp: "\U00011109\U0001111B\U00011134\U00011125"
+    az: Qafsa vilayəti
+  comments: 
+'72': 
+  name: Tozeur
+  code: 
   unofficial_names:
   - Tozeur
+  geo:
+    latitude: 33.916667
+    longitude: 8.133333
+    min_latitude: 33.8938586
+    min_longitude: 8.082332599999999
+    max_latitude: 33.9435024
+    max_longitude: 8.157348599999999
   translations:
     en: Tozeur
     ar: ولاية توزر
@@ -970,20 +1133,28 @@
     uk: Таузар
     ur: توزر
     vi: Tỉnh Tozeur
-  geo:
-    latitude: 33.916667
-    longitude: 8.133333
-    min_latitude: 33.8938586
-    min_longitude: 8.082332599999999
-    max_latitude: 33.9435024
-    max_longitude: 8.157348599999999
-  name: Tozeur
-'73':
+    lv: Tauzāras vilāja
+    cy: Tozeur
+    ceb: Gouvernorat de Tozeur
+    lt: Tozuro gubernija
+    zh: 托澤爾省
+    ccp: "\U00011111\U0001112E\U0001110E\U0001112C\U00011105\U0001112A\U00011122\U00011134"
+  comments: 
+'73': 
+  name: Kebili
+  code: 
   unofficial_names:
   - Qabili
   - Qabilī
   - Qibili
   - Kébili
+  geo:
+    latitude: 33.1245286
+    longitude: 8.8362755
+    min_latitude: 32.515911
+    min_longitude: 7.738455099999999
+    max_latitude: 34.209379
+    max_longitude: 9.998009099999999
   translations:
     en: Kebili
     ar: ولاية قبلي
@@ -1022,18 +1193,27 @@
     uk: Кебілі
     ur: قبلی
     vi: Tỉnh Kebili
-  geo:
-    latitude: 33.1245286
-    longitude: 8.8362755
-    min_latitude: 32.515911
-    min_longitude: 7.738455099999999
-    max_latitude: 34.209379
-    max_longitude: 9.998009099999999
-  name: Kebili
-'81':
+    lv: Kibilī vilāja
+    cy: Kébili
+    ceb: Gouvernorat de Kébili
+    lt: Kebilio gubernija
+    zh: 吉比利省
+    ccp: "\U00011107\U0001112C\U0001111D\U00011128\U00011123\U00011128"
+    az: Kebili vilayəti
+  comments: 
+'81': 
+  name: Gabès
+  code: 
   unofficial_names:
   - Qabis
   - Gabès
+  geo:
+    latitude: 33.883333
+    longitude: 10.116667
+    min_latitude: 33.8708076
+    min_longitude: 10.0854492
+    max_latitude: 33.9077505
+    max_longitude: 10.1198673
   translations:
     en: Gabès
     ar: ولاية قابس
@@ -1074,18 +1254,26 @@
     uk: Габес
     ur: گابس
     vi: Tỉnh Gabès
-  geo:
-    latitude: 33.883333
-    longitude: 10.116667
-    min_latitude: 33.8708076
-    min_longitude: 10.0854492
-    max_latitude: 33.9077505
-    max_longitude: 10.1198673
-  name: Gabès
-'82':
+    lv: Gābisas vilāja
+    cy: Gabès
+    ceb: Gouvernorat de Gabès
+    zh: 加貝斯省
+    ccp: "\U00011109\U0001111D\U0001112C\U0001110C\U00011134"
+    az: Qabes vilayəti
+  comments: 
+'82': 
+  name: Medenine
+  code: 
   unofficial_names:
   - Madaniyin
   - Medenine
+  geo:
+    latitude: 33.354722
+    longitude: 10.505278
+    min_latitude: 33.3227112
+    min_longitude: 10.4608726
+    max_latitude: 33.3705348
+    max_longitude: 10.5216409
   translations:
     en: Medenine
     ar: ولاية مدنين
@@ -1124,18 +1312,27 @@
     uk: Меденін
     ur: مدنین
     vi: Tỉnh Medenine
-  geo:
-    latitude: 33.354722
-    longitude: 10.505278
-    min_latitude: 33.3227112
-    min_longitude: 10.4608726
-    max_latitude: 33.3705348
-    max_longitude: 10.5216409
-  name: Medenine
-'83':
+    lv: Medenīnas vilāja
+    cy: Médenine
+    ceb: Gouvernorat de Médenine
+    lt: Medeninos gubernija
+    zh: 梅德寧省
+    ccp: "\U0001111F\U0001112C\U00011113\U0001112C\U0001111A\U0001112D\U0001111A\U00011134"
+    az: Medenin vilayəti
+  comments: 
+'83': 
+  name: Tataouine
+  code: 
   unofficial_names:
   - Tatawin
   - Tatouine
+  geo:
+    latitude: 32.933333
+    longitude: 10.45
+    min_latitude: 32.8872997
+    min_longitude: 10.4053402
+    max_latitude: 32.9618664
+    max_longitude: 10.4796697
   translations:
     en: Tataouine
     ar: ولاية تطاوين
@@ -1174,11 +1371,10 @@
     uk: Татауїн
     ur: تطاوین
     vi: Tỉnh Tataouine
-  geo:
-    latitude: 32.933333
-    longitude: 10.45
-    min_latitude: 32.8872997
-    min_longitude: 10.4053402
-    max_latitude: 32.9618664
-    max_longitude: 10.4796697
-  name: Tataouine
+    lv: Tatāvīnas vilāja
+    cy: Tataouine
+    ceb: Tataouine (lalawigan)
+    lt: Tatujino gubernija
+    zh: 泰塔溫省
+    ccp: "\U00011111\U00011111\U0001112F\U00011103\U00011128\U0001111A\U00011134"
+  comments: 

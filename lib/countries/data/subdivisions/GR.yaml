@@ -1,10 +1,10 @@
 ---
-'01':
+'01': 
+  name: Aitolia-Akarnania
+  code: 
   unofficial_names:
   - Aetolia and Acarnania
   - Áitoloakarnanía
-  translations:
-    en: Aetolia-Acarnania
   geo:
     latitude: 38.7084386
     longitude: 21.3798928
@@ -12,12 +12,15 @@
     min_longitude: 20.7186278
     max_latitude: 39.1746625
     max_longitude: 22.0265431
-  name: Aitolia-Akarnania
-'03':
+  translations:
+    en: Aetolia-Acarnania
+    ccp: "\U00011103\U00011103\U00011128\U00011111\U00011127\U00011123\U00011128\U00011120-\U00011103\U00011107\U00011122\U00011134\U0001111A\U0001111A\U00011128\U00011120"
+  comments: 
+'03': 
+  name: Voiotia
+  code: 
   unofficial_names:
   - Boeotia
-  translations:
-    en: Boeotia
   geo:
     latitude: 38.3663664
     longitude: 23.0965064
@@ -25,13 +28,16 @@
     min_longitude: 22.4874603
     max_latitude: 38.5958614
     max_longitude: 23.6925946
-  name: Voiotia
-'04':
+  translations:
+    en: Boeotia
+    ccp: "\U0001111D\U0001112E\U00011103\U00011128\U00011120\U0001112E\U00011111\U00011128\U00011120"
+  comments: 
+'04': 
+  name: Evvoia
+  code: 
   unofficial_names:
   - Euboea
   - Evvoia
-  translations:
-    en: Euboea
   geo:
     latitude: 38.5236036
     longitude: 23.8584737
@@ -39,12 +45,15 @@
     min_longitude: 22.8111273
     max_latitude: 39.0505681
     max_longitude: 24.685908
-  name: Evvoia
-'05':
+  translations:
+    en: Euboea
+    ccp: "\U00011103\U00011128\U00011105\U0001112A\U0001111D\U0001112E\U00011103\U00011129"
+  comments: 
+'05': 
+  name: Evrytania
+  code: 
   unofficial_names:
   - Evrytania
-  translations:
-    en: Evritania
   geo:
     latitude: 39.0032334
     longitude: 21.7137694
@@ -52,12 +61,15 @@
     min_longitude: 21.3743805
     max_latitude: 39.2567999
     max_longitude: 21.9463558
-  name: Evrytania
-'06':
+  translations:
+    en: Evritania
+    ccp: "\U00011103\U0001112C\U0001111B\U00011134\U00011122\U00011128\U00011111\U0001111A\U00011128\U00011120"
+  comments: 
+'06': 
+  name: Fthiotis
+  code: 
   unofficial_names:
   - Phtiotis
-  translations:
-    en: Phthiotis
   geo:
     latitude: 38.999785
     longitude: 22.3337769
@@ -65,13 +77,16 @@
     min_longitude: 21.8260028
     max_latitude: 39.273223
     max_longitude: 23.3779269
-  name: Fthiotis
-'07':
+  translations:
+    en: Phthiotis
+    ccp: "\U00011112\U00011128\U00011103\U0001112E\U00011111\U00011128\U0001110C\U00011134"
+  comments: 
+'07': 
+  name: Fokis
+  code: 
   unofficial_names:
   - Phocis
   - Phokis
-  translations:
-    en: Phocis
   geo:
     latitude: 38.5598641
     longitude: 22.1430215
@@ -79,11 +94,14 @@
     min_longitude: 21.8534652
     max_latitude: 38.8075967
     max_longitude: 22.6290539
-  name: Fokis
-'11':
-  unofficial_names: Argolis
   translations:
-    en: Argolis
+    en: Phocis
+    ccp: "\U0001111C\U0001112E\U00011125\U0001112D\U0001110C\U00011134"
+  comments: 
+'11': 
+  name: Argolis
+  code: 
+  unofficial_names: Argolis
   geo:
     latitude: 37.6525404
     longitude: 22.858217
@@ -91,12 +109,15 @@
     min_longitude: 22.3910963
     max_latitude: 37.8607841
     max_longitude: 23.4546164
-  name: Argolis
-'12':
+  translations:
+    en: Argolis
+    ccp: "\U00011103\U00011122\U00011134\U00011109\U0001112E\U00011123\U00011128\U0001110C\U00011134"
+  comments: 
+'12': 
+  name: Arkadia
+  code: 
   unofficial_names:
   - Arcadia
-  translations:
-    en: Arcadia
   geo:
     latitude: 37.5557825
     longitude: 22.3337769
@@ -104,13 +125,16 @@
     min_longitude: 21.7909335
     max_latitude: 37.8653285
     max_longitude: 22.9852154
-  name: Arkadia
-'13':
+  translations:
+    en: Arcadia
+    ccp: "\U00011103\U00011122\U00011134\U00011107\U00011113\U00011128\U00011120"
+  comments: 
+'13': 
+  name: Achaïa
+  code: 
   unofficial_names:
   - Achaia
   - Akhaia
-  translations:
-    en: Achaea
   geo:
     latitude: 38.1158729
     longitude: 21.9522491
@@ -118,12 +142,15 @@
     min_longitude: 21.3506248
     max_latitude: 38.34114890000001
     max_longitude: 22.3801523
-  name: Achaïa
-'14':
+  translations:
+    en: Achaea
+    ccp: "\U00011103\U0001110C\U00011128\U00011120"
+  comments: 
+'14': 
+  name: Ileia
+  code: 
   unofficial_names:
   - Elia
-  translations:
-    en: Ilia
   geo:
     latitude: 37.7045099
     longitude: 21.5706786
@@ -131,14 +158,17 @@
     min_longitude: 21.105044
     max_latitude: 38.1042772
     max_longitude: 21.9993968
-  name: Ileia
-'15':
+  translations:
+    en: Ilia
+    ccp: "\U00011103\U0001112D\U00011123\U00011128\U00011120"
+  comments: 
+'15': 
+  name: Korinthia
+  code: 
   unofficial_names:
   - Corinth
   - Korinth
   - Kórinthos
-  translations:
-    en: Corinthia
   geo:
     latitude: 38.0022977
     longitude: 22.5245093
@@ -146,12 +176,15 @@
     min_longitude: 22.2184583
     max_latitude: 38.1430037
     max_longitude: 23.1795243
-  name: Korinthia
-'16':
+  translations:
+    en: Corinthia
+    ccp: "\U00011107\U0001112E\U00011122\U00011128\U0001111A\U00011134\U00011117\U00011128\U00011120"
+  comments: 
+'16': 
+  name: Lakonia
+  code: 
   unofficial_names:
   - Laconia
-  translations:
-    en: Laconia
   geo:
     latitude: 37.0299087
     longitude: 22.5245093
@@ -159,12 +192,15 @@
     min_longitude: 22.2207465
     max_latitude: 37.3358025
     max_longitude: 23.2021446
-  name: Lakonia
-'17':
+  translations:
+    en: Laconia
+    ccp: "\U00011123\U00011107\U0001112E\U0001111A\U00011128\U00011120"
+  comments: 
+'17': 
+  name: Messinia
+  code: 
   unofficial_names:
   - Messenia
-  translations:
-    en: Messenia
   geo:
     latitude: 37.1424653
     longitude: 21.9522491
@@ -172,14 +208,17 @@
     min_longitude: 21.5389289
     max_latitude: 37.485153
     max_longitude: 22.4019497
-  name: Messinia
-'21':
+  translations:
+    en: Messenia
+    ccp: "\U0001111F\U0001112C\U00011125\U0001112C\U0001111A\U00011128\U00011120"
+  comments: 
+'21': 
+  name: Zakynthos
+  code: 
   unofficial_names:
   - Zakynthos
   - Zante
   - Zanti
-  translations:
-    en: Zakynthos
   geo:
     latitude: 37.7881604
     longitude: 20.8988271
@@ -187,14 +226,17 @@
     min_longitude: 20.8897211
     max_latitude: 37.8013779
     max_longitude: 20.9082835
-  name: Zakynthos
-'22':
+  translations:
+    en: Zakynthos
+    ccp: "\U0001110E\U00011107\U00011128\U0001111A\U00011134\U00011117\U0001112E\U0001110C\U00011134"
+  comments: 
+'22': 
+  name: Kerkyra
+  code: 
   unofficial_names:
   - Corfu
   - Kerkyra
   - Korfu
-  translations:
-    en: Corfu
   geo:
     latitude: 39.6249838
     longitude: 19.9223461
@@ -202,13 +244,16 @@
     min_longitude: 19.8859891
     max_latitude: 39.6335922
     max_longitude: 19.9329883
-  name: Kerkyra
-'23':
+  translations:
+    en: Corfu
+    ccp: "\U00011107\U0001112E\U00011122\U00011134\U0001111C\U0001112A"
+  comments: 
+'23': 
+  name: Kefallinia
+  code: 
   unofficial_names:
   - Cephalonia
   - Kefallinia
-  translations:
-    en: Kefalonia
   geo:
     latitude: 38.1753675
     longitude: 20.5692179
@@ -216,14 +261,17 @@
     min_longitude: 20.3367466
     max_latitude: 38.4754656
     max_longitude: 20.8160654
-  name: Kefallinia
-'24':
+  translations:
+    en: Kefalonia
+    ccp: "\U00011107\U0001112C\U0001111C\U00011123\U0001112E\U0001111A\U00011128\U00011120"
+  comments: 
+'24': 
+  name: Lefkas
+  code: 
   unofficial_names:
   - Leucas
   - Levkáda
   - Santa Maura
-  translations:
-    en: Lefkada
   geo:
     latitude: 38.7066464
     longitude: 20.64073
@@ -231,11 +279,14 @@
     min_longitude: 20.5409505
     max_latitude: 38.8523758
     max_longitude: 20.7331319
-  name: Lefkas
-'31':
-  unofficial_names: Arta
   translations:
-    en: Arta
+    en: Lefkada
+    ccp: "\U00011123\U0001112C\U0001111B\U00011134\U00011107\U00011113"
+  comments: 
+'31': 
+  name: Arta
+  code: 
+  unofficial_names: Arta
   geo:
     latitude: 39.1582421
     longitude: 20.9876839
@@ -243,11 +294,14 @@
     min_longitude: 20.975572
     max_latitude: 39.1668764
     max_longitude: 20.9993676
-  name: Arta
-'32':
-  unofficial_names: Thesprotia
   translations:
-    en: Thesprotia
+    en: Arta
+    ccp: "\U00011103\U00011122\U00011134\U00011111"
+  comments: 
+'32': 
+  name: Thesprotia
+  code: 
+  unofficial_names: Thesprotia
   geo:
     latitude: 39.4935011
     longitude: 20.3785438
@@ -255,12 +309,15 @@
     min_longitude: 20.0086771
     max_latitude: 39.8163986
     max_longitude: 20.682334
-  name: Thesprotia
-'33':
+  translations:
+    en: Thesprotia
+    ccp: "\U00011117\U0001112C\U0001110C\U00011134\U0001111B\U00011133\U00011122\U0001112E\U00011111\U00011128\U00011120"
+  comments: 
+'33': 
+  name: Ioannina
+  code: 
   unofficial_names:
   - Yannina
-  translations:
-    en: Ioannina
   geo:
     latitude: 39.66502880000001
     longitude: 20.8537466
@@ -268,11 +325,14 @@
     min_longitude: 20.8218806
     max_latitude: 39.6887974
     max_longitude: 20.8724933
-  name: Ioannina
-'34':
-  unofficial_names: Preveza
   translations:
-    en: Preveza
+    en: Ioannina
+    ccp: "\U00011123\U0001112E\U00011120\U0001111A\U00011128\U00011120"
+  comments: 
+'34': 
+  name: Preveza
+  code: 
+  unofficial_names: Preveza
   geo:
     latitude: 38.9592649
     longitude: 20.7517155
@@ -280,11 +340,14 @@
     min_longitude: 20.7315499
     max_latitude: 38.9759537
     max_longitude: 20.758962
-  name: Preveza
-'41':
-  unofficial_names: Karditsa
   translations:
-    en: Karditsa
+    en: Preveza
+    ccp: "\U0001111B\U00011133\U00011122\U0001112C\U0001111E\U0001112C\U0001110E"
+  comments: 
+'41': 
+  name: Karditsa
+  code: 
+  unofficial_names: Karditsa
   geo:
     latitude: 39.3640258
     longitude: 21.9214049
@@ -292,12 +355,15 @@
     min_longitude: 21.8997222
     max_latitude: 39.3806683
     max_longitude: 21.93962
-  name: Karditsa
-'42':
+  translations:
+    en: Karditsa
+    ccp: "\U00011107\U00011122\U00011134\U00011113\U00011128\U00011116\U00011134\U00011125"
+  comments: 
+'42': 
+  name: Larisa
+  code: 
   unofficial_names:
   - Larissa
-  translations:
-    en: Larissa
   geo:
     latitude: 39.63902239999999
     longitude: 22.4191254
@@ -305,13 +371,16 @@
     min_longitude: 22.3851797
     max_latitude: 39.66467799999999
     max_longitude: 22.4631126
-  name: Larisa
-'43':
+  translations:
+    en: Larissa
+    ccp: "\U00011123\U00011122\U00011128\U00011125"
+  comments: 
+'43': 
+  name: Magnisia
+  code: 
   unofficial_names:
   - Magnesia
   - Magnessia
-  translations:
-    en: Magnesia
   geo:
     latitude: 39.2686199
     longitude: 22.762883
@@ -319,13 +388,16 @@
     min_longitude: 22.4907616
     max_latitude: 39.6028892
     max_longitude: 23.351096
-  name: Magnisia
-'44':
+  translations:
+    en: Magnesia
+    ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011134\U0001111A\U0001112C\U00011125\U00011128\U00011120"
+  comments: 
+'44': 
+  name: Trikala
+  code: 
   unofficial_names:
   - Trikala
   - Trikkala
-  translations:
-    en: Trikala
   geo:
     latitude: 39.5557317
     longitude: 21.7678951
@@ -333,11 +405,14 @@
     min_longitude: 21.7456236
     max_latitude: 39.5778757
     max_longitude: 21.8004941
-  name: Trikala
-'51':
-  unofficial_names: Grevena
   translations:
-    en: Grevena
+    en: Trikala
+    ccp: "\U00011111\U00011133\U00011122\U00011128\U00011107\U00011123"
+  comments: 
+'51': 
+  name: Grevena
+  code: 
+  unofficial_names: Grevena
   geo:
     latitude: 40.0837626
     longitude: 21.4273299
@@ -345,11 +420,14 @@
     min_longitude: 21.4124213
     max_latitude: 40.0934072
     max_longitude: 21.4476789
-  name: Grevena
-'52':
-  unofficial_names: Drama
   translations:
-    en: Drama
+    en: Grevena
+    ccp: "\U00011109\U00011133\U00011122\U0001112C\U0001111E\U0001112C\U0001111A"
+  comments: 
+'52': 
+  name: Drama
+  code: 
+  unofficial_names: Drama
   geo:
     latitude: 41.149001
     longitude: 24.1470796
@@ -357,11 +435,14 @@
     min_longitude: 24.1154805
     max_latitude: 41.162381
     max_longitude: 24.1691269
-  name: Drama
-'53':
-  unofficial_names: Imathia
   translations:
-    en: Imathia
+    en: Drama
+    ccp: "\U00011113\U00011133\U00011122\U0001111F"
+  comments: 
+'53': 
+  name: Imathia
+  code: 
+  unofficial_names: Imathia
   geo:
     latitude: 40.60600669999999
     longitude: 22.1430215
@@ -369,15 +450,18 @@
     min_longitude: 21.8819464
     max_latitude: 40.734296
     max_longitude: 22.6815765
-  name: Imathia
-'54':
+  translations:
+    en: Imathia
+    ccp: "\U00011103\U00011128\U0001111F\U00011134\U00011117\U00011128\U00011120"
+  comments: 
+'54': 
+  name: Thessaloniki
+  code: 
   unofficial_names:
   - Salonika
   - Salonike
   - Saloniki
   - Thessalonike
-  translations:
-    en: Thessaloniki
   geo:
     latitude: 40.6400629
     longitude: 22.9444191
@@ -385,13 +469,16 @@
     min_longitude: 22.9019833
     max_latitude: 40.6560448
     max_longitude: 22.9900712
-  name: Thessaloniki
-'55':
+  translations:
+    en: Thessaloniki
+    ccp: "\U00011117\U0001112C\U00011125\U00011123\U0001112E\U0001111A\U00011128\U00011107\U00011128"
+  comments: 
+'55': 
+  name: Kavalla
+  code: 
   unofficial_names:
   - Cavalla
   - Kaválla
-  translations:
-    en: Kavala
   geo:
     latitude: 40.937607
     longitude: 24.412866
@@ -399,11 +486,14 @@
     min_longitude: 24.3727195
     max_latitude: 40.9551573
     max_longitude: 24.4424248
-  name: Kavalla
-'56':
-  unofficial_names: Kastoria
   translations:
-    en: Kastoria
+    en: Kavala
+    ccp: "\U00011107\U0001111E\U00011123"
+  comments: 
+'56': 
+  name: Kastoria
+  code: 
+  unofficial_names: Kastoria
   geo:
     latitude: 40.5192691
     longitude: 21.2687171
@@ -411,11 +501,14 @@
     min_longitude: 21.2481123
     max_latitude: 40.5273709
     max_longitude: 21.2782019
-  name: Kastoria
-'57':
-  unofficial_names: Kilkis
   translations:
-    en: Kilkis
+    en: Kastoria
+    ccp: "\U00011107\U0001112E\U0001110C\U00011134\U00011111\U0001112E\U00011122\U00011128\U00011120"
+  comments: 
+'57': 
+  name: Kilkis
+  code: 
+  unofficial_names: Kilkis
   geo:
     latitude: 40.99370709999999
     longitude: 22.8753674
@@ -423,11 +516,14 @@
     min_longitude: 22.8630763
     max_latitude: 41.0049011
     max_longitude: 22.8868592
-  name: Kilkis
-'58':
-  unofficial_names: Kozani
   translations:
-    en: Kozani
+    en: Kilkis
+    ccp: "\U00011107\U00011128\U00011123\U00011134\U00011107\U00011128\U0001110C\U00011134"
+  comments: 
+'58': 
+  name: Kozani
+  code: 
+  unofficial_names: Kozani
   geo:
     latitude: 40.3005808
     longitude: 21.7898132
@@ -435,11 +531,14 @@
     min_longitude: 21.7751894
     max_latitude: 40.3117685
     max_longitude: 21.8067249
-  name: Kozani
-'59':
-  unofficial_names: Pella
   translations:
-    en: Pella
+    en: Kozani
+    ccp: "\U00011107\U0001112E\U0001110E\U0001111A\U00011128"
+  comments: 
+'59': 
+  name: Pella
+  code: 
+  unofficial_names: Pella
   geo:
     latitude: 40.7632436
     longitude: 22.5260527
@@ -447,11 +546,14 @@
     min_longitude: 22.5207586
     max_latitude: 40.7662261
     max_longitude: 22.531415
-  name: Pella
-'61':
-  unofficial_names: Pieria
   translations:
-    en: Pieria
+    en: Pella
+    ccp: "\U0001111B\U0001112C\U00011123"
+  comments: 
+'61': 
+  name: Pieria
+  code: 
+  unofficial_names: Pieria
   geo:
     latitude: 40.26690990000001
     longitude: 22.4768287
@@ -459,12 +561,15 @@
     min_longitude: 22.103385
     max_latitude: 40.5484279
     max_longitude: 22.6784513
-  name: Pieria
-'62':
+  translations:
+    en: Pieria
+    ccp: "\U0001111B\U0001112D\U00011120\U0001112C\U00011122\U00011128\U00011120"
+  comments: 
+'62': 
+  name: Serrai
+  code: 
   unofficial_names:
   - Serres
-  translations:
-    en: Serres
   geo:
     latitude: 41.090923
     longitude: 23.5413198
@@ -472,11 +577,14 @@
     min_longitude: 23.5238672
     max_latitude: 41.0995376
     max_longitude: 23.5722419
-  name: Serrai
-'63':
-  unofficial_names: Florina
   translations:
-    en: Florina
+    en: Serres
+    ccp: "\U00011125\U00011122\U0001112C\U0001110C\U00011134"
+  comments: 
+'63': 
+  name: Florina
+  code: 
+  unofficial_names: Florina
   geo:
     latitude: 40.78452619999999
     longitude: 21.4131222
@@ -484,13 +592,16 @@
     min_longitude: 21.3817426
     max_latitude: 40.7941675
     max_longitude: 21.4287362
-  name: Florina
-'64':
+  translations:
+    en: Florina
+    ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U00011128\U0001111A"
+  comments: 
+'64': 
+  name: Chalkidiki
+  code: 
   unofficial_names:
   - Chalcidice
   - Khalkikdiki
-  translations:
-    en: Chalkidiki
   geo:
     latitude: 40.3694997
     longitude: 23.287085
@@ -498,8 +609,13 @@
     min_longitude: 23.0049865
     max_latitude: 40.6426162
     max_longitude: 24.3309672
-  name: Chalkidiki
-'69':
+  translations:
+    en: Chalkidiki
+    ccp: "\U0001110C\U00011107\U00011134\U00011107\U00011128\U00011113\U00011128\U00011107\U00011128"
+  comments: 
+'69': 
+  name: Agio Oros
+  code: 
   unofficial_names:
   - Aghion Oros
   - Agion Oros
@@ -507,6 +623,13 @@
   - Aktí
   - Athos
   - Mount Athos
+  geo:
+    latitude: 40.2644928
+    longitude: 24.2152731
+    min_latitude: 40.11453119999999
+    min_longitude: 23.993087
+    max_latitude: 40.451581
+    max_longitude: 24.3991418
   translations:
     en: Mount Athos
     af: Berg Athos
@@ -554,18 +677,21 @@
     ur: کوہ آتھوس
     vi: Núi Athos
     zh: 阿索斯山
-  geo:
-    latitude: 40.2644928
-    longitude: 24.2152731
-    min_latitude: 40.11453119999999
-    min_longitude: 23.993087
-    max_latitude: 40.451581
-    max_longitude: 24.3991418
-  name: Agio Oros
-'71':
+    cy: Mynydd Athos
+    ceb: Mount Athos
+    sr_Latn: Sveta gora
+    hi: एथोस पर्वत
+    jv: Mount Athos
+    sq: Mali i Shenjtë
+    ccp: "\U0001111F\U00011105\U0001112A\U0001111A\U00011133\U00011111\U00011134 \U00011103\U00011117\U0001112E\U0001110C\U00011134"
+    kk: Афон тауы
+    bs: Sveta Gora
+    mk: Света Гора
+  comments: 
+'71': 
+  name: Evros
+  code: 
   unofficial_names: Evros
-  translations:
-    en: Evros
   geo:
     latitude: 41.2443761
     longitude: 26.1359431
@@ -573,11 +699,14 @@
     min_longitude: 25.4433186
     max_latitude: 41.7490577
     max_longitude: 26.63482
-  name: Evros
-'72':
-  unofficial_names: Xanthi
   translations:
-    en: Xanthi
+    en: Evros
+    ccp: "\U00011103\U0001112C\U0001111B\U00011134\U00011122\U00011127\U0001110C\U00011134"
+  comments: 
+'72': 
+  name: Xanthi
+  code: 
+  unofficial_names: Xanthi
   geo:
     latitude: 41.1300361
     longitude: 24.8864902
@@ -585,12 +714,15 @@
     min_longitude: 24.8729232
     max_latitude: 41.1469748
     max_longitude: 24.9013272
-  name: Xanthi
-'73':
+  translations:
+    en: Xanthi
+    ccp: "\U0001110E\U0001111A\U00011134\U00011117\U00011129"
+  comments: 
+'73': 
+  name: Rodopi
+  code: 
   unofficial_names:
   - Rhodope
-  translations:
-    en: Rhodope
   geo:
     latitude: 41.0795681
     longitude: 25.5681084
@@ -598,13 +730,16 @@
     min_longitude: 25.0462171
     max_latitude: 41.3476982
     max_longitude: 25.9628848
-  name: Rodopi
-'81':
+  translations:
+    en: Rhodope
+    ccp: "\U00011122\U0001112E\U00011113\U0001112E\U0001111B\U00011134"
+  comments: 
+'81': 
+  name: Dodekanisos
+  code: 
   unofficial_names:
   - Dodecanese
   - Dodekanes
-  translations:
-    en: Dodecanese
   geo:
     latitude: 36
     longitude: 27
@@ -612,13 +747,16 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Dodekanisos
-'82':
+  translations:
+    en: Dodecanese
+    ccp: "\U00011113\U0001112E\U00011113\U0001112C\U00011107\U0001111A\U00011128\U0001110C\U00011134"
+  comments: 
+'82': 
+  name: Kyklades
+  code: 
   unofficial_names:
   - Cyclades
   - Kykladen
-  translations:
-    en: Cyclades
   geo:
     latitude: 37.007359
     longitude: 25.2573062
@@ -626,12 +764,15 @@
     min_longitude: 24.2644196
     max_latitude: 37.9996455
     max_longitude: 26.0861299
-  name: Kyklades
-'83':
+  translations:
+    en: Cyclades
+    ccp: "\U00011125\U0001112D\U00011107\U00011133\U00011123\U00011113\U00011128\U0001110C\U00011134"
+  comments: 
+'83': 
+  name: Lesvos
+  code: 
   unofficial_names:
   - Lesbos
-  translations:
-    en: Lesbos
   geo:
     latitude: 39.2645095
     longitude: 26.2777073
@@ -639,11 +780,14 @@
     min_longitude: 25.8315604
     max_latitude: 39.3901867
     max_longitude: 26.6158545
-  name: Lesvos
-'84':
-  unofficial_names: Samos
   translations:
-    en: Samos
+    en: Lesbos
+    ccp: "\U00011123\U0001112C\U0001110C\U00011134\U0001111D\U00011127\U0001110C\U00011134"
+  comments: 
+'84': 
+  name: Samos
+  code: 
+  unofficial_names: Samos
   geo:
     latitude: 37.7547857
     longitude: 26.9777701
@@ -651,13 +795,16 @@
     min_longitude: 26.5660585
     max_latitude: 37.8131289
     max_longitude: 27.0697659
-  name: Samos
-'85':
+  translations:
+    en: Samos
+    ccp: "\U00011125\U0001111F\U00011127\U0001110C\U00011134"
+  comments: 
+'85': 
+  name: Chios
+  code: 
   unofficial_names:
   - Chios
   - Khios
-  translations:
-    en: Chios
   geo:
     latitude: 38.3709813
     longitude: 26.1363457
@@ -665,16 +812,19 @@
     min_longitude: 26.1163861
     max_latitude: 38.3980793
     max_longitude: 26.1448242
-  name: Chios
-'91':
+  translations:
+    en: Chios
+    ccp: "\U0001110C\U00011128\U00011120\U0001112E\U0001110C\U00011134"
+  comments: 
+'91': 
+  name: Irakleion
+  code: 
   unofficial_names:
   - Candia
   - Herakleion
   - Heraklion
   - Iraclion
   - Iraklio
-  translations:
-    en: Heraklion region
   geo:
     latitude: 35.3387006
     longitude: 25.1443698
@@ -682,12 +832,16 @@
     min_longitude: 24.7224739
     max_latitude: 35.46693610000001
     max_longitude: 25.5503886
-  name: Irakleion
-'92':
+  translations:
+    en: Heraklion region
+    ccp: "\U00011126\U0001112C\U00011122\U00011107\U00011134\U00011123\U00011128\U00011120\U00011127\U0001111A\U00011134
+      \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+  comments: 
+'92': 
+  name: Lasithion
+  code: 
   unofficial_names:
   - Lassithi
-  translations:
-    en: Lasithi
   geo:
     latitude: 35.0811693
     longitude: 25.7101789
@@ -695,11 +849,14 @@
     min_longitude: 25.3984683
     max_latitude: 35.3838124
     max_longitude: 26.352476
-  name: Lasithion
-'93':
-  unofficial_names: Rethymnon
   translations:
-    en: Rethymno
+    en: Lasithi
+    ccp: "\U00011123\U00011125\U00011128\U00011117\U00011128\U00011120"
+  comments: 
+'93': 
+  name: Rethymnon
+  code: 
+  unofficial_names: Rethymnon
   geo:
     latitude: 35.3643615
     longitude: 24.4821552
@@ -707,15 +864,18 @@
     min_longitude: 24.452042
     max_latitude: 35.3739755
     max_longitude: 24.5385319
-  name: Rethymnon
-'94':
+  translations:
+    en: Rethymno
+    ccp: "\U00011122\U0001112C\U00011117\U0001112D\U0001111F\U00011134\U0001111A\U0001112E"
+  comments: 
+'94': 
+  name: Chania
+  code: 
   unofficial_names:
   - Canea
   - Chania
   - Khaniá
   - La Canée
-  translations:
-    en: Chania
   geo:
     latitude: 35.5138298
     longitude: 24.0180367
@@ -723,13 +883,16 @@
     min_longitude: 23.9921734
     max_latitude: 35.5234575
     max_longitude: 24.0573066
-  name: Chania
-A1:
+  translations:
+    en: Chania
+    ccp: "\U0001110C\U00011128\U0001111A\U00011128\U00011120"
+  comments: 
+A1: 
+  name: Attiki
+  code: 
   unofficial_names:
   - Attica
   - Attika
-  translations:
-    en: Attica Department
   geo:
     latitude: 38.0457568
     longitude: 23.8584737
@@ -737,8 +900,21 @@ A1:
     min_longitude: 22.8912482
     max_latitude: 38.34097939999999
     max_longitude: 24.1047417
-  name: Attiki
-A:
+  translations:
+    en: Attica Department
+    ccp: "\U00011103\U00011116\U00011134\U00011116\U00011128\U00011107 \U00011113\U00011128\U0001111B\U00011122\U00011134\U00011111\U00011134\U0001111F\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+  comments: 
+A: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقدونيا الشرقية وتراقيا
     az: Şərqi Makedoniya və Trakya
@@ -790,7 +966,27 @@ A:
     uk: Східна Македонія та Фракія
     ur: مشرقی مقدونیہ اور تھریس
     vi: Đông Macedonia và Thrace
-B:
+    lv: Austrumu Maķedonija un Trāķija
+    ceb: East Macedonia and Thrace
+    sr_Latn: Periferija Istočna Makedonija i Trakija
+    zh: 东马其顿-色雷斯
+    jv: Makedonia Wétan lan Trasia
+    sq: Maqedonia Lindore dhe Thrakia
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111F\U00011125\U0001112C\U00011113\U0001112E\U0001111A\U00011128\U00011120
+      \U00011103\U00011133\U00011103 \U00011112\U00011133\U00011122\U0001110C\U00011134"
+    mk: Источна Македонија и Тракија
+  comments: 
+B: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقدونيا الوسطى
     az: Orta Makedoniya
@@ -842,7 +1038,27 @@ B:
     uk: Центральна Македонія
     ur: وسطی مقدونیہ
     vi: Trung Macedonia
-C:
+    lv: Centrālās Maķedonijas perifērija
+    ceb: Central Macedonia
+    sr_Latn: Periferija Središnja Makedonija
+    zh: 中马其顿
+    jv: Makedonia Tengah
+    sq: Maqedonia Qendrore
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U0001111F\U00011125\U0001112C\U00011113\U0001112E\U0001111A\U00011128\U00011120"
+    mk: Централна Македонија
+  comments: 
+C: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقدونيا الغربية
     az: Qərbi Makedoniya
@@ -893,7 +1109,26 @@ C:
     uk: Західна Македонія
     ur: مغربی مقدونیہ
     vi: Tây Macedonia
-D:
+    lv: Rietummaķedonijas perifērija
+    ceb: West Macedonia
+    sr_Latn: Periferija Zapadna Makedonija
+    zh: 西马其顿
+    jv: Makedonia Kulon
+    sq: Maqedonia Perëndimore
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111F\U00011125\U0001112C\U00011113\U0001112E\U0001111A\U00011128\U00011120"
+    mk: Западна Македонија
+  comments: 
+D: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إبيروس
     be: Эпір
@@ -945,7 +1180,26 @@ D:
     uk: Епір
     ur: اپیروس (علاقہ)
     vi: Epirus
-E:
+    lv: Epīras perifērija
+    cy: Epiros
+    sr_Latn: Periferija Epir
+    zh: 伊庇鲁斯
+    jv: Epirus (periphery)
+    sq: Epiri (periferia)
+    ccp: "\U00011103\U00011128\U0001111B\U0001112D\U00011122\U0001110C\U00011134"
+    mk: Епир
+  comments: 
+E: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ثيساليا
     be: Фесалія
@@ -998,7 +1252,28 @@ E:
     uk: Фессалія
     ur: ثیسالیا
     vi: Thessaly
-F:
+    lv: Tesālija
+    cy: Thessalia
+    sr_Latn: Tesalija
+    zh: 色萨利
+    jv: Tesalonika
+    sq: Thesalia
+    ccp: "\U00011117\U0001112C\U00011125\U00011123\U00011128"
+    ga: An Teasáil
+    az: Fessaliya
+    mk: Тесалија
+  comments: 
+F: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الجزر الأيونية
     be: Перыферыя Іанічныя астравы
@@ -1024,7 +1299,27 @@ F:
     sr: Периферија Јонска острва
     uk: Іонічні острови
     ur: ایونی جزائر (علاقہ)
-G:
+    ceb: Ionian Islands
+    tr: İyonya Adaları
+    sr_Latn: Periferija Jonska ostrva
+    zh: 愛奧尼亞群島
+    sq: Ishujt e Jonit
+    ccp: "\U00011103\U00011128\U00011120\U0001112E\U0001111A\U00011128\U00011120\U00011127\U0001111A\U00011134
+      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U0001110C\U00011134"
+    ko: 이오니아 제도주
+    ca: Regió de les Illes Jòniques
+  comments: 
+G: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: غرب اليونان
     be: Заходняя Грэцыя
@@ -1074,7 +1369,25 @@ G:
     uk: Західна Греція
     ur: مغربی یونان
     vi: Tây Hy Lạp
-H:
+    lv: Rietumgrieķijas perifērija
+    ceb: West Greece
+    sr_Latn: Periferija Zapadna Grčka
+    zh: 西希腊
+    jv: Yunani Kulon
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011109\U00011133\U00011122\U00011128\U0001110C\U00011134"
+    mk: Западна Грција
+  comments: 
+H: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: وسط اليونان
     be: Цэнтральная Грэцыя
@@ -1112,7 +1425,28 @@ H:
     uk: Центральна Греція
     ur: وسطی یونان (علاقہ)
     vi: Trung Hy Lạp
-I:
+    lv: Centrālās Grieķijas perifērija
+    ceb: Central Greece
+    sr_Latn: Periferija Središnja Grčka
+    zh: 中希臘
+    hi: मध्य ग्रीस क्षेत्र
+    jv: Yunani Tengah
+    sq: Greqia Qendrore
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011109\U00011133\U00011122\U00011128\U0001110C\U00011134"
+    mk: Централна Грција
+  comments: 
+I: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: أتيكا
     be: Атыка
@@ -1159,7 +1493,26 @@ I:
     uk: периферія Аттика
     ur: اتیکا (علاقہ)
     vi: Khu vực Attica
-J:
+    lv: Atikas perifērija
+    ceb: Attica
+    sr_Latn: Periferija Atika
+    zh: 阿提卡 (地區)
+    sq: Atika
+    ccp: "\U00011103\U00011128\U00011111\U00011133\U00011126\U00011128\U00011107"
+    ro: Attica
+    eu: Atika
+  comments: 
+J: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بيلوبونيز
     be: Акруга Пелапанес
@@ -1205,7 +1558,28 @@ J:
     uk: Пелопоннес
     ur: پیلوپونیز (علاقہ)
     vi: Khu vực Peloponnese
-K:
+    lv: Peloponesas perifērija
+    ceb: Peloponnese
+    sr_Latn: Periferija Peloponez
+    zh: 伯罗奔尼撒
+    jv: Peloponnesa
+    ccp: "\U0001111B\U0001112C\U00011123\U0001112E\U0001111B\U00011127\U0001111A\U00011128\U0001110C\U00011134"
+    hy: Պելոպոնես
+    gl: Periferia do Peloponeso
+    ro: Peloponez
+    mk: Пелопонез
+  comments: 
+K: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: شمال إيجة
     be: Паўночныя Эгейскія астравы
@@ -1254,7 +1628,26 @@ K:
     uk: Північні Егейські острови
     ur: شمالی ایجیئن
     vi: Bắc Aegea
-L:
+    lv: Ziemeļegejas perifērija
+    ceb: North Aegean
+    sr_Latn: Periferija Severni Egej
+    zh: 北愛琴
+    jv: Aegea Lor
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011103\U00011103\U00011128\U0001110E\U00011129\U0001111A\U00011134"
+    mk: Северен Егеј
+  comments: 
+L: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جنوب إيجة
     be: Паўднёвыя Эгейскія астравы
@@ -1303,7 +1696,25 @@ L:
     uk: Південні Егейські острови
     ur: جنوبی ایجیئن
     vi: Nam Aegea
-M:
+    lv: Dienvidegeja
+    ceb: South Aegean
+    sr_Latn: Periferija Južni Egej
+    zh: 南愛琴
+    jv: Aegea Kidul
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011103\U00011103\U00011128\U0001110E\U00011129\U0001111A\U00011134"
+    mk: Јужен Егеј
+  comments: 
+M: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Акруга Крыт
     ca: Regió de Creta
@@ -1319,3 +1730,8 @@ M:
     pl: Region Kreta
     ru: Крит
     sr: Периферија Крит
+    sr_Latn: Periferija Krit
+    ccp: "\U00011107\U00011133\U00011122\U0001112C\U00011116\U00011134"
+    ko: 크레타주
+    de: Kreta
+  comments: 

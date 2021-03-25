@@ -1,9 +1,18 @@
 ---
-AN:
+AN: 
+  name: Andijon
+  code: 
   unofficial_names:
   - Andijon
   - Andizhan
   - Andižan
+  geo:
+    latitude: 40.8153561
+    longitude: 72.28375
+    min_latitude: 40.6814191
+    min_longitude: 72.2175981
+    max_latitude: 40.8773096
+    max_longitude: 72.4216927
   translations:
     en: Andijan
     ar: ولاية أنديجان
@@ -48,15 +57,18 @@ AN:
     ur: اندیجان صوبہ
     vi: Andijon
     zh: 安集延州
-  geo:
-    latitude: 40.8153561
-    longitude: 72.28375
-    min_latitude: 40.6814191
-    min_longitude: 72.2175981
-    max_latitude: 40.8773096
-    max_longitude: 72.4216927
-  name: Andijon
-BU:
+    lv: Andidžonas vilojats
+    jv: Andijon
+    ccp: "\U00011103\U0001111A\U00011134\U00011113\U00011128\U0001110E\U0001111A\U00011134"
+    ky: Андижан облусу
+    pa: ਅੰਦੀਜਾਨ ਪ੍ਰਾਂਤ
+    kk: Андижан облысы
+    uz: Andijon
+    mk: Андиџанска област
+  comments: 
+BU: 
+  name: Buxoro
+  code: 
   unofficial_names:
   - Boukhara
   - Buchara
@@ -64,6 +76,13 @@ BU:
   - Buhoro
   - Bukhara
   - Bukhoro
+  geo:
+    latitude: 39.7680827
+    longitude: 64.4555769
+    min_latitude: 39.7309658
+    min_longitude: 64.3438338
+    max_latitude: 39.8241068
+    max_longitude: 64.5017624
   translations:
     en: Bukhara
     ar: ولاية بخارى
@@ -104,20 +123,33 @@ BU:
     uk: Бухарська область
     ur: بخارا صوبہ
     vi: Buxoro
-  geo:
-    latitude: 39.7680827
-    longitude: 64.4555769
-    min_latitude: 39.7309658
-    min_longitude: 64.3438338
-    max_latitude: 39.8241068
-    max_longitude: 64.5017624
-  name: Buxoro
-FA:
+    lv: Buhāras vilojats
+    ceb: Bukhara Province
+    zh: 布哈拉州
+    jv: Buxoro
+    ccp: "\U0001111D\U0001112A\U00011108\U00011122"
+    hy: Բուխարայի մարզ
+    ky: Бухара облусу
+    pa: ਬੁਖਾਰਾ ਪ੍ਰਾਂਤ
+    kk: Бұхара облысы
+    uz: Buxoro viloyati
+    mk: Бухарска област
+  comments: 
+FA: 
+  name: Farg‘ona
+  code: 
   unofficial_names:
   - Farghona
   - Fergana
   - Ferghana
   - Ferghona
+  geo:
+    latitude: 40.386389
+    longitude: 71.786389
+    min_latitude: 40.3326582
+    min_longitude: 71.7195224
+    max_latitude: 40.4268914
+    max_longitude: 71.8614006
   translations:
     en: Fergana
     ar: ولاية فرغانة
@@ -160,15 +192,19 @@ FA:
     uk: Ферганська область
     ur: فرغانہ صوبہ
     vi: Farg’ona
-  geo:
-    latitude: 40.386389
-    longitude: 71.786389
-    min_latitude: 40.3326582
-    min_longitude: 71.7195224
-    max_latitude: 40.4268914
-    max_longitude: 71.8614006
-  name: Farg‘ona
-JI:
+    lv: Fergānas vilojats
+    ceb: Fergana
+    zh: 費爾干納州
+    ccp: "\U0001111C\U00011122\U00011134\U00011109\U0001111A"
+    ka: ფერღანის ოლქი
+    ky: Фергана облусу
+    pa: ਫ਼ਰਗਨਾ ਖੇਤਰ
+    uz: Fargʻona viloyati
+    mk: Ферганска област
+  comments: 
+JI: 
+  name: Jizzax
+  code: 
   unofficial_names:
   - Cizah
   - Cizak
@@ -176,6 +212,13 @@ JI:
   - Dzhizak
   - Džizak
   - Jizzakh
+  geo:
+    latitude: 40.11583299999999
+    longitude: 67.84222199999999
+    min_latitude: 40.0458832
+    min_longitude: 67.7763748
+    max_latitude: 40.1917254
+    max_longitude: 67.9324151
   translations:
     en: Jizzakh
     ar: ولاية جيزك
@@ -216,18 +259,28 @@ JI:
     uk: Джиззацька область
     ur: جیزخ صوبہ
     vi: Jizzax
-  geo:
-    latitude: 40.11583299999999
-    longitude: 67.84222199999999
-    min_latitude: 40.0458832
-    min_longitude: 67.7763748
-    max_latitude: 40.1917254
-    max_longitude: 67.9324151
-  name: Jizzax
-NG:
+    lv: Džizahas vilojats
+    ceb: Jizzakh Province
+    zh: 吉扎克州
+    ccp: "\U0001110E\U00011128\U0001110E\U00011133\U00011126\U00011107\U00011134"
+    ky: Жызак облусу
+    pa: ਜਿਜ਼ਾਖ ਸੂਬਾ
+    uz: Jizzax viloyati
+    mk: Џизачка област
+  comments: 
+NG: 
+  name: Namangan
+  code: 
   unofficial_names:
   - Namangan
   - Namaņgan
+  geo:
+    latitude: 41.001111
+    longitude: 71.66833299999999
+    min_latitude: 40.8836945
+    min_longitude: 71.5340768
+    max_latitude: 41.0572407
+    max_longitude: 71.7551683
   translations:
     en: Namangan
     ar: ولاية نمنغان
@@ -269,19 +322,30 @@ NG:
     uk: Наманганська область
     ur: نمنگان صوبہ
     vi: Namangan
-  geo:
-    latitude: 41.001111
-    longitude: 71.66833299999999
-    min_latitude: 40.8836945
-    min_longitude: 71.5340768
-    max_latitude: 41.0572407
-    max_longitude: 71.7551683
-  name: Namangan
-NW:
+    lv: Namanganas vilojats
+    ceb: Namangan Province
+    zh: 納曼干州
+    ccp: "\U0001111A\U0001111F\U0001111A\U00011134\U00011109\U0001111A\U00011134"
+    ky: Наманган облусу
+    pa: ਨਮਾਗਾਨ ਵਿਲੋਇਤੀ
+    be: Наманганскі вілает
+    uz: Namangan
+    mk: Наманганска област
+  comments: 
+NW: 
+  name: Navoiy
+  code: 
   unofficial_names:
   - Navoi
   - Navoj
   - Navoy
+  geo:
+    latitude: 40.084444
+    longitude: 65.379167
+    min_latitude: 40.0655921
+    min_longitude: 65.3061677
+    max_latitude: 40.130427
+    max_longitude: 65.4370594
   translations:
     en: Navoiy
     ar: ولاية نواوي
@@ -323,15 +387,19 @@ NW:
     uk: Навоїйська область
     ur: نوائی صوبہ
     vi: Navoiy
-  geo:
-    latitude: 40.084444
-    longitude: 65.379167
-    min_latitude: 40.0655921
-    min_longitude: 65.3061677
-    max_latitude: 40.130427
-    max_longitude: 65.4370594
-  name: Navoiy
-QA:
+    lv: Navoji vilojats
+    ceb: Navoiy Province
+    zh: 納沃伊州
+    ccp: "\U0001111A\U0001111E\U00011130\U00011120\U00011128"
+    ky: Навоий облусу
+    pa: ਨਵੋਈ ਵਿਲੋਇਤੀ
+    kk: Науаи облысы
+    uz: Navoiy viloyati
+    mk: Навојска област
+  comments: 
+QA: 
+  name: Qashqadaryo
+  code: 
   unofficial_names:
   - Kashkadar
   - Kashkadaria
@@ -341,6 +409,13 @@ QA:
   - Qasqadar
   - Qaşqadar
   - Ķaşķadar
+  geo:
+    latitude: 38.8986231
+    longitude: 66.0463534
+    min_latitude: 38.0266721
+    min_longitude: 64.331024
+    max_latitude: 39.5323751
+    max_longitude: 67.683914
   translations:
     en: Qashqadaryo
     ar: ولاية قشقداريا
@@ -382,19 +457,29 @@ QA:
     uk: Кашкадарʼїнська область
     ur: قشقہ دریا صوبہ
     vi: Qashqadaryo
-  geo:
-    latitude: 38.8986231
-    longitude: 66.0463534
-    min_latitude: 38.0266721
-    min_longitude: 64.331024
-    max_latitude: 39.5323751
-    max_longitude: 67.683914
-  name: Qashqadaryo
-QR:
+    lv: Kaškadarjas vilojats
+    ceb: Qashqadaryo Province
+    zh: 卡什卡達里亞州
+    ccp: "\U00011107\U00011127\U00011120\U0001110C\U00011134\U00011107\U00011113\U00011122\U00011128\U00011103\U0001112E"
+    ky: Кашкадарыя облусу
+    pa: ਕਸ਼ਕਾਦਰਯੋ ਵਿਲੋਇਤੀ
+    uz: Qashqadaryo viloyati
+    mk: Кашкадарјанска област
+  comments: 
+QR: 
+  name: Qoraqalpog‘iston Respublikasi
+  code: 
   unofficial_names:
   - Karakalpakistan
   - Qoraqalpoghiston
   - Qoraqalpogiston
+  geo:
+    latitude: 43.8041334
+    longitude: 59.4457988
+    min_latitude: 40.993829
+    min_longitude: 55.996635
+    max_latitude: 45.60519
+    max_longitude: 62.37159389999999
   translations:
     en: Karakalpakstan
     ar: قرقل باغستان
@@ -447,20 +532,32 @@ QR:
     uk: Каракалпакстан
     ur: کاراکالپکستان
     vi: Qaraqalpaqstan
-  geo:
-    latitude: 43.8041334
-    longitude: 59.4457988
-    min_latitude: 40.993829
-    min_longitude: 55.996635
-    max_latitude: 45.60519
-    max_longitude: 62.37159389999999
-  name: Qoraqalpog‘iston Respublikasi
-SA:
+    af: Karakalpakië
+    ceb: Karakalpakstan
+    sr_Latn: Karakalpakija
+    zh: 卡拉卡爾帕克斯坦自治共和國
+    ccp: "\U00011107\U00011122\U00011107\U00011123\U00011134\U0001111B\U00011107\U00011134\U00011111\U0001111A\U00011134"
+    ky: Каракалпакстан Республикасы
+    pa: ਕਰਾਕਲਪਕਸਤਾਨ
+    kk: Қарақалпақстан
+    uz: Qoraqalpogʻiston
+    mk: Каракалпакстан
+  comments: 
+SA: 
+  name: Samarqand
+  code: 
   unofficial_names:
   - Samarqand
   - Samarķand
   - Samarkand
   - Samarkand
+  geo:
+    latitude: 39.6542
+    longitude: 66.9597
+    min_latitude: 39.5408509
+    min_longitude: 66.8023682
+    max_latitude: 39.7405258
+    max_longitude: 67.1334059
   translations:
     en: Samarqand
     ar: ولاية سمرقند
@@ -504,19 +601,30 @@ SA:
     uk: Самаркандська область
     ur: سمرقند صوبہ
     vi: Samarqand
-  geo:
-    latitude: 39.6542
-    longitude: 66.9597
-    min_latitude: 39.5408509
-    min_longitude: 66.8023682
-    max_latitude: 39.7405258
-    max_longitude: 67.1334059
-  name: Samarqand
-SI:
+    lv: Samarkandas vilojats
+    ceb: Samarqand Viloyati
+    zh: 撒馬爾罕州
+    ccp: "\U00011125\U0001111F\U00011122\U00011134\U00011107\U0001111A\U00011133\U00011113\U00011134"
+    ky: Самарканд облусу
+    pa: ਸਮਰਕੰਦ ਵਿਲੋਇਤੀ
+    kk: Самарқан облысы
+    uz: Samarqand viloyati
+    mk: Самаркандска област
+  comments: 
+SI: 
+  name: Sirdaryo
+  code: 
   unofficial_names:
   - Sirdare
   - Syrdarja
   - Syrdarya
+  geo:
+    latitude: 40.85
+    longitude: 68.666667
+    min_latitude: 40.8027001
+    min_longitude: 68.642063
+    max_latitude: 40.8751355
+    max_longitude: 68.6985825
   translations:
     en: Sirdaryo
     ar: ولاية سرداريا
@@ -557,17 +665,27 @@ SI:
     uk: Сирдарʼїнська область
     ur: سیر دریا صوبہ
     vi: Sirdaryo
-  geo:
-    latitude: 40.85
-    longitude: 68.666667
-    min_latitude: 40.8027001
-    min_longitude: 68.642063
-    max_latitude: 40.8751355
-    max_longitude: 68.6985825
-  name: Sirdaryo
-SU:
+    lv: Sirdarjas vilojats
+    ceb: Sirdaryo (lalawigan)
+    zh: 錫爾河州
+    ccp: "\U00011125\U00011128\U00011122\U00011134\U00011113\U00011122\U00011128\U00011103\U0001112E"
+    ky: Сырдарыя облусу
+    pa: ਸਿਰਦਾਰਿਓ ਸੂਬਾ
+    uz: Sirdaryo viloyati
+    mk: Сирдарјанска област
+  comments: 
+SU: 
+  name: Surxondaryo
+  code: 
   unofficial_names:
   - Surkhondar
+  geo:
+    latitude: 37.9409005
+    longitude: 67.57085359999999
+    min_latitude: 37.1843299
+    min_longitude: 66.51777609999999
+    max_latitude: 39.078876
+    max_longitude: 68.402641
   translations:
     en: Surxondaryo
     ar: ولاية صرخنداريا
@@ -612,16 +730,26 @@ SU:
     uk: Сурхандарʼїнська область
     ur: سرخان دریا صوبہ
     vi: Surxondaryo
-  geo:
-    latitude: 37.9409005
-    longitude: 67.57085359999999
-    min_latitude: 37.1843299
-    min_longitude: 66.51777609999999
-    max_latitude: 39.078876
-    max_longitude: 68.402641
-  name: Surxondaryo
-TK:
+    lv: Surhondarjas vilojats
+    ceb: Surxondaryo Viloyati
+    zh: 蘇爾漢河州
+    ccp: "\U00011125\U00011122\U00011134\U0001110E\U00011127\U0001111A\U00011134\U00011113\U00011122\U00011128\U00011103\U0001112E"
+    ky: Сурхандарыя облусу
+    pa: ਸੁਰਖਾਨਦਰਿਆ ਸੂਬਾ
+    uz: Surxondaryo viloyati
+    mk: Сурхандарјанска област
+  comments: 
+TK: 
+  name: Toshkent City
+  code: 
   unofficial_names: Toshkent City
+  geo:
+    latitude: 41.266667
+    longitude: 69.216667
+    min_latitude: 41.166637
+    min_longitude: 69.1465116
+    max_latitude: 41.3985579
+    max_longitude: 69.41222189999999
   translations:
     en: Tashkent
     af: Tasjkent
@@ -666,7 +794,7 @@ TK:
     ne: ट्यासकेन्ट
     nl: Tasjkent
     pl: Taszkent
-    ps: تاشكند
+    ps: تاشکند
     pt: Tashkent
     ro: Tașkent
     ru: Ташкент
@@ -684,15 +812,26 @@ TK:
     uk: Ташкент
     ur: تاشقند
     vi: Tashkent
-  geo:
-    latitude: 41.266667
-    longitude: 69.216667
-    min_latitude: 41.166637
-    min_longitude: 69.1465116
-    max_latitude: 41.3985579
-    max_longitude: 69.41222189999999
-  name: Toshkent City
-TO:
+    cy: Tashkent
+    ceb: Toshkent Shahri
+    sr_Latn: Taškent
+    zh: 塔什干
+    yue_Hans: 塔什干
+    sq: Tashkenti
+    ccp: "\U00011111\U0001110C\U00011134\U00011107\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+    ga: Tashkent
+    ky: Ташкен
+    pa: ਤਾਸ਼ਕੰਦ
+    kk: Ташкент
+    yue: 塔什干
+    yo: Tashkent
+    uz: Toshkent
+    bs: Taškent
+    mk: Ташкент
+  comments: 
+TO: 
+  name: Toshkent
+  code: 
   unofficial_names:
   - Taškent
   - Toshkent
@@ -700,6 +839,13 @@ TO:
   - Toshkent
   - Taschkent
   - Tachkent
+  geo:
+    latitude: 41.266667
+    longitude: 69.216667
+    min_latitude: 41.166637
+    min_longitude: 69.1465116
+    max_latitude: 41.3985579
+    max_longitude: 69.41222189999999
   translations:
     en: Tashkent Province
     ar: ولاية طشقند
@@ -743,17 +889,29 @@ TO:
     uk: Ташкентська область
     ur: تاشقند صوبہ
     vi: Toshkent
-  geo:
-    latitude: 41.266667
-    longitude: 69.216667
-    min_latitude: 41.166637
-    min_longitude: 69.1465116
-    max_latitude: 41.3985579
-    max_longitude: 69.41222189999999
-  name: Toshkent
-XO:
+    lv: Taškentas vilojats
+    ceb: Toshkent Viloyati
+    zh: 塔什干州
+    ccp: "\U00011111\U0001110C\U00011134\U00011107\U0001112C\U0001111A\U00011134\U00011111\U00011134
+      \U0001111B\U00011133\U00011122\U0001112E\U0001111E\U00011128\U0001111A\U00011134\U0001110C\U00011134"
+    ky: Ташкент облусу
+    pa: ਤਾਸ਼ਕੇਂਤ ਸੂਬਾ
+    ca: Regió de Taixkent
+    uz: Toshkent viloyati
+    mk: Ташкентска област
+  comments: 
+XO: 
+  name: Xorazm
+  code: 
   unofficial_names:
   - Khorazm
+  geo:
+    latitude: 41.3565336
+    longitude: 60.8566686
+    min_latitude: 40.564991
+    min_longitude: 60.06019589999999
+    max_latitude: 42.004252
+    max_longitude: 62.35982399999999
   translations:
     en: Xorazm
     ar: ولاية خوارزم
@@ -794,11 +952,14 @@ XO:
     uk: Хорезмська область
     ur: خوارزم صوبہ
     vi: Xorazm
-  geo:
-    latitude: 41.3565336
-    longitude: 60.8566686
-    min_latitude: 40.564991
-    min_longitude: 60.06019589999999
-    max_latitude: 42.004252
-    max_longitude: 62.35982399999999
-  name: Xorazm
+    lv: Horezmas vilojats
+    ceb: Xorazm Viloyati
+    zh: 花拉子模州
+    ccp: "\U0001110E\U0001112E\U00011122\U0001110C\U00011134\U0001111F\U00011134"
+    ky: Хорезм облусу
+    pa: ਖੋਰੇਜਮ ਸੂਬਾ
+    kk: Хорезм облысы
+    be: Харэзмская вобласць
+    uz: Xorazm viloyati
+    mk: Хорезмска област
+  comments: 

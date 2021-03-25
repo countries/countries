@@ -1,6 +1,15 @@
 ---
-ALK:
+ALK: 
+  name: Ailuk
+  code: 
   unofficial_names: Ailuk
+  geo:
+    latitude: 10.304809
+    longitude: 169.9416549
+    min_latitude: 10.2110366
+    min_longitude: 169.8527981
+    max_latitude: 10.4770933
+    max_longitude: 169.9918842
   translations:
     en: Ailuk Atoll
     ca: Ailuk
@@ -21,17 +30,23 @@ ALK:
     sv: Ailuk
     vi: Đảo san hô vòng Ailuk
     zh: 艾盧克環礁
-  geo:
-    latitude: 10.304809
-    longitude: 169.9416549
-    min_latitude: 10.2110366
-    min_longitude: 169.8527981
-    max_latitude: 10.4770933
-    max_longitude: 169.9918842
-  name: Ailuk
-ALL:
+    ceb: Ailuk Atoll (munisipyo)
+    fa: آب‌سنگ حلقوی آئیلوک
+    ccp: "\U00011103\U0001112D\U00011123\U0001112A\U00011107\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Ајлук
+  comments: 
+ALL: 
+  name: Ailinglapalap
+  code: 
   unofficial_names:
   - Ailinglaplap
+  geo:
+    latitude: 7.283333300000001
+    longitude: 168.7833333
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Ailinglaplap Atoll
     de: Ailinglapalap
@@ -53,16 +68,24 @@ ALL:
     ru: Аилинглапалап
     sv: Ailinglapalap
     vi: Đảo san hô vòng Ailinglaplap
+    ceb: Ailinglaplap Atoll
+    zh: 埃林拉普拉普環礁
+    ccp: "\U00011103\U0001112D\U00011123\U00011128\U00011101\U00011123\U0001111B\U00011134\U00011123\U0001111B\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    da: Ailinglaplap
+    mk: Ајлинглаплап
+  comments: 
+ARN: 
+  name: Arno
+  code: 
+  unofficial_names: Arno
   geo:
-    latitude: 7.283333300000001
-    longitude: 168.7833333
+    latitude: 7.063888899999999
+    longitude: 171.5583332
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Ailinglapalap
-ARN:
-  unofficial_names: Arno
   translations:
     en: Arno
     de: Arno-Atoll
@@ -80,16 +103,24 @@ ARN:
     ru: Арно (атолл)
     sv: Arnoatollen
     vi: Đảo san hô vòng Arno
-  geo:
-    latitude: 7.063888899999999
-    longitude: 171.5583332
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Arno
-AUR:
+    ceb: Arno Atoll (munisipyo)
+    zh: 阿爾諾環礁
+    fa: آب‌سنگ حلقوی آرنو
+    ccp: "\U00011103\U00011122\U00011134\U0001111A\U0001112E"
+    es: Arno (isla)
+    mk: Арно (атол)
+  comments: 
+AUR: 
+  name: Aur
+  code: 
   unofficial_names: Aur
+  geo:
+    latitude: 8.2750905
+    longitude: 171.0975397
+    min_latitude: 8.1297458
+    min_longitude: 171.0095787
+    max_latitude: 8.3719296
+    max_longitude: 171.1815612
   translations:
     en: Aur Atoll
     de: Aur
@@ -108,17 +139,24 @@ AUR:
     pt: Aur
     ru: Аур
     sv: Aur
-  geo:
-    latitude: 8.2750905
-    longitude: 171.0975397
-    min_latitude: 8.1297458
-    min_longitude: 171.0095787
-    max_latitude: 8.3719296
-    max_longitude: 171.1815612
-  name: Aur
-EBO:
+    ceb: Aur Atoll
+    zh: 奧爾環礁
+    fa: آب‌سنگ حلقوی آئور
+    ccp: "\U00011103\U00011105\U0001112A\U00011122\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Аур
+  comments: 
+EBO: 
+  name: Ebon
+  code: 
   unofficial_names:
   - Epoon
+  geo:
+    latitude: 4.6166113
+    longitude: 168.7249469
+    min_latitude: 4.5729556
+    min_longitude: 168.645512
+    max_latitude: 4.679086
+    max_longitude: 168.771286
   translations:
     en: Ebon Atoll
     be: Атол Эбон
@@ -137,17 +175,26 @@ EBO:
     nl: Ebon Atoll
     ru: Эбон
     sv: Ebon
-  geo:
-    latitude: 4.6166113
-    longitude: 168.7249469
-    min_latitude: 4.5729556
-    min_longitude: 168.645512
-    max_latitude: 4.679086
-    max_longitude: 168.771286
-  name: Ebon
-ENI:
+    ceb: Ebon
+    zh: 埃崩環礁
+    fa: آب‌سنگ حلقوی ابون
+    pl: Ebon
+    ccp: "\U00011103\U0001112C\U0001111D\U00011127\U0001111A\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    da: Ebon
+    mk: Ебон
+  comments: 
+ENI: 
+  name: Eniwetok
+  code: 
   unofficial_names:
   - Eniwetok
+  geo:
+    latitude: 11.3415658
+    longitude: 162.3266731
+    min_latitude: 11.3357145
+    min_longitude: 162.3176258
+    max_latitude: 11.3603022
+    max_longitude: 162.3477857
   translations:
     en: Enewetak Atoll
     ca: Enewetak
@@ -176,17 +223,25 @@ ENI:
     tr: Enewetak Mercan Adaları
     uk: Еніветок
     vi: Đảo san hô vòng Enewetak
-  geo:
-    latitude: 11.3415658
-    longitude: 162.3266731
-    min_latitude: 11.3357145
-    min_longitude: 162.3176258
-    max_latitude: 11.3603022
-    max_longitude: 162.3477857
-  name: Eniwetok
-JAB:
+    ceb: Enewetak Atoll
+    zh: 埃內韋塔克環礁
+    ccp: "\U00011103\U0001112C\U0001111A\U00011128\U00011103\U0001112E\U00011120\U0001112C\U00011111\U00011107\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    id: Atol Enewetak
+    mk: Еневетак
+  comments: 
+JAB: 
+  name: Jabat
+  code: 
   unofficial_names:
   - Jabat
+  geo:
+    latitude: 7.7517
+    longitude: 168.9767
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Jabat Island
     cs: Jabat
@@ -204,17 +259,24 @@ JAB:
     pl: Jabwot
     ru: Джабат
     sv: Jabwot
-  geo:
-    latitude: 7.7517
-    longitude: 168.9767
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Jabat
-JAL:
+    ceb: Jabat Island (munisipyo)
+    zh: 賈普坦島
+    fa: جزیره جابات
+    ccp: "\U0001110E\U0001111D\U00011127\U00011116\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    mk: Џабат
+  comments: 
+JAL: 
+  name: Jaluit
+  code: 
   unofficial_names:
   - Jālwōj
+  geo:
+    latitude: 5.9092582
+    longitude: 169.6372575
+    min_latitude: 5.904506
+    min_longitude: 169.6336838
+    max_latitude: 5.9135236
+    max_longitude: 169.6408152
   translations:
     en: Jaluit Atoll
     ar: جالويت
@@ -238,17 +300,23 @@ JAL:
     ru: Джалуит
     sv: Jaluit
     vi: Đảo san hô vòng Jaluit
-  geo:
-    latitude: 5.9092582
-    longitude: 169.6372575
-    min_latitude: 5.904506
-    min_longitude: 169.6336838
-    max_latitude: 5.9135236
-    max_longitude: 169.6408152
-  name: Jaluit
-KIL:
+    ceb: Jaluit Atoll (munisipyo)
+    zh: 賈盧伊特環礁
+    ccp: "\U0001110E\U00011123\U00011128\U00011120\U0001112C\U00011116\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Џалуит
+  comments: 
+KIL: 
+  name: Kili
+  code: 
   unofficial_names:
   - Kōle
+  geo:
+    latitude: 5.6405493
+    longitude: 169.1181599
+    min_latitude: 5.637340099999999
+    min_longitude: 169.1113473
+    max_latitude: 5.6515189
+    max_longitude: 169.13229
   translations:
     en: Kili Island
     be: Востраў Кілі
@@ -266,17 +334,23 @@ KIL:
     nl: Kili Island
     pl: Kili
     ru: Кили
-  geo:
-    latitude: 5.6405493
-    longitude: 169.1181599
-    min_latitude: 5.637340099999999
-    min_longitude: 169.1113473
-    max_latitude: 5.6515189
-    max_longitude: 169.13229
-  name: Kili
-KWA:
+    zh: 吉利島
+    fa: جزیره کیلی
+    ccp: "\U00011107\U00011128\U00011123\U00011128 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    mk: Кили
+  comments: 
+KWA: 
+  name: Kwajalein
+  code: 
   unofficial_names:
   - Kuwajleen
+  geo:
+    latitude: 9.1898235
+    longitude: 167.4242972
+    min_latitude: 8.712679099999999
+    min_longitude: 166.8109131
+    max_latitude: 9.4097746
+    max_longitude: 167.7770233
   translations:
     en: Kwajalein
     be: Атол Кваджалейн
@@ -306,16 +380,23 @@ KWA:
     sv: Kwajalein
     uk: Кваджалейн
     vi: Kwajalein
-  geo:
-    latitude: 9.1898235
-    longitude: 167.4242972
-    min_latitude: 8.712679099999999
-    min_longitude: 166.8109131
-    max_latitude: 9.4097746
-    max_longitude: 167.7770233
-  name: Kwajalein
-LAE:
+    ceb: Kwajalein
+    ms: Kwajalein
+    zh: 瓜加林環礁
+    ccp: "\U00011107\U00011133\U00011126\U00011127\U0001110E\U00011123\U0001112C\U0001112D\U0001111A\U00011134"
+    mk: Кваџалејн
+  comments: 
+LAE: 
+  name: Lae
+  code: 
   unofficial_names: Lae
+  geo:
+    latitude: 8.9411081
+    longitude: 166.2363248
+    min_latitude: 8.9150051
+    min_longitude: 166.2089826
+    max_latitude: 8.967658199999999
+    max_longitude: 166.2777327
   translations:
     en: Lae Atoll
     de: Lae-Atoll
@@ -333,17 +414,24 @@ LAE:
     pt: Atol Lae
     ru: Лаэ
     sv: Lae
-  geo:
-    latitude: 8.9411081
-    longitude: 166.2363248
-    min_latitude: 8.9150051
-    min_longitude: 166.2089826
-    max_latitude: 8.967658199999999
-    max_longitude: 166.2777327
-  name: Lae
-LIB:
+    ceb: Lae
+    zh: 拉埃環礁
+    fa: آب‌سنگ حلقوی لائه
+    ccp: "\U00011123 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Лае
+  comments: 
+LIB: 
+  name: Lib
+  code: 
   unofficial_names:
   - Ellep
+  geo:
+    latitude: 8.3131833
+    longitude: 167.3758673
+    min_latitude: 8.311995399999999
+    min_longitude: 167.3744881
+    max_latitude: 8.3155625
+    max_longitude: 167.3767197
   translations:
     en: Lib Island
     de: Lib
@@ -360,16 +448,23 @@ LIB:
     pl: Lib
     ru: Либ
     sv: Lib
-  geo:
-    latitude: 8.3131833
-    longitude: 167.3758673
-    min_latitude: 8.311995399999999
-    min_longitude: 167.3744881
-    max_latitude: 8.3155625
-    max_longitude: 167.3767197
-  name: Lib
-LIK:
+    ceb: Lib Island (munisipyo)
+    zh: 里布島
+    fa: جزیره لیب
+    ccp: "\U00011122\U00011128\U0001111B\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    mk: Либ
+  comments: 
+LIK: 
+  name: Likiep
+  code: 
   unofficial_names: Likiep
+  geo:
+    latitude: 9.816944399999999
+    longitude: 169.3052778
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Likiep Atoll
     de: Likiep
@@ -385,17 +480,24 @@ LIK:
     pl: Likiep
     ru: Ликиеп
     sv: Likiep
-  geo:
-    latitude: 9.816944399999999
-    longitude: 169.3052778
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Likiep
-MAJ:
+    ceb: Likiep Atoll (munisipyo)
+    zh: 利基埃普環礁
+    ccp: "\U00011123\U00011128\U00011107\U00011128\U00011120\U0001112C\U0001111B\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Ликиеп
+  comments: 
+MAJ: 
+  name: Majuro
+  code: 
   unofficial_names:
   - Mājro
+  geo:
+    latitude: 7.1164214
+    longitude: 171.1857736
+    min_latitude: 7.0525503
+    min_longitude: 171.0259247
+    max_latitude: 7.2235615
+    max_longitude: 171.3849867
   translations:
     en: Majuro
     af: Majuro
@@ -453,16 +555,30 @@ MAJ:
     uk: Маджуро
     ur: ماجورو
     vi: Majuro
-  geo:
-    latitude: 7.1164214
-    longitude: 171.1857736
-    min_latitude: 7.0525503
-    min_longitude: 171.0259247
-    max_latitude: 7.2235615
-    max_longitude: 171.3849867
-  name: Majuro
-MAL:
+    cy: Majuro
+    ceb: Majuro Atoll (munisipyo)
+    sr_Latn: Madžuro
+    zh: 馬久羅
+    yue_Hans: 马祖卢
+    sq: Majuro
+    ccp: "\U0001111F\U0001110E\U0001112A\U00011122\U0001112E"
+    pa: ਮਾਜੁਰੋ
+    yue: 馬祖盧
+    uz: Majuro
+    bs: Majuro
+    mk: Маџуро
+  comments: 
+MAL: 
+  name: Maloelap
+  code: 
   unofficial_names: Maloelap
+  geo:
+    latitude: 8.7735171
+    longitude: 171.0312989
+    min_latitude: 8.4817105
+    min_longitude: 170.827446
+    max_latitude: 8.9118677
+    max_longitude: 171.2449265
   translations:
     en: Maloelap Atoll
     de: Maloelap
@@ -482,17 +598,25 @@ MAL:
     sv: Maloelap
     tr: maloelap atoll
     vi: Maloelap
-  geo:
-    latitude: 8.7735171
-    longitude: 171.0312989
-    min_latitude: 8.4817105
-    min_longitude: 170.827446
-    max_latitude: 8.9118677
-    max_longitude: 171.2449265
-  name: Maloelap
-MEJ:
+    ceb: Maloelap Atoll
+    zh: 馬洛埃拉普環礁
+    fa: آب‌سنگ حلقوی ماولاپ
+    ccp: "\U0001111F\U00011123\U0001112E\U00011120\U0001112C\U00011123\U0001111B\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Малоелап
+  comments: 
+MEJ: 
+  name: Mejit
+  code: 
   unofficial_names:
   - Mājeej
+  geo:
+    latitude: 10.2936198
+    longitude: 170.8709872
+    min_latitude: 10.2668883
+    min_longitude: 170.8581735
+    max_latitude: 10.306897
+    max_longitude: 170.8803177
   translations:
     en: Mejit Island
     de: Mejit
@@ -508,16 +632,24 @@ MEJ:
     pl: Mejit
     ru: Меджит
     sv: Mejit
-  geo:
-    latitude: 10.2936198
-    longitude: 170.8709872
-    min_latitude: 10.2668883
-    min_longitude: 170.8581735
-    max_latitude: 10.306897
-    max_longitude: 170.8803177
-  name: Mejit
-MIL:
+    ceb: Mejit Island
+    zh: 梅吉特島
+    fa: آب‌سنگ حلقوی میجیت
+    ccp: "\U0001111F\U0001112C\U0001110E\U00011128\U00011116\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ca: Mejit
+    mk: Меџит
+  comments: 
+MIL: 
+  name: Mili
+  code: 
   unofficial_names: Mili
+  geo:
+    latitude: 6.1339492
+    longitude: 171.909826
+    min_latitude: 5.9619976
+    min_longitude: 171.7130469
+    max_latitude: 6.263768799999999
+    max_longitude: 172.1221161
   translations:
     en: Mili Atoll
     de: Mili
@@ -535,16 +667,23 @@ MIL:
     pl: Mili
     ru: Мили
     sv: Mili
-  geo:
-    latitude: 6.1339492
-    longitude: 171.909826
-    min_latitude: 5.9619976
-    min_longitude: 171.7130469
-    max_latitude: 6.263768799999999
-    max_longitude: 172.1221161
-  name: Mili
-NMK:
+    ceb: Mili Atoll (pulong kagaangan)
+    zh: 米利環礁
+    fa: آب‌سنگ حلقوی میلی
+    ccp: "\U0001111F\U00011128\U00011122\U00011128 \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Мили
+  comments: 
+NMK: 
+  name: Namorik
+  code: 
   unofficial_names: Namorik
+  geo:
+    latitude: 5.6172553
+    longitude: 168.1293615
+    min_latitude: 5.5870997
+    min_longitude: 168.0974954
+    max_latitude: 5.6431987
+    max_longitude: 168.1334145
   translations:
     en: Namdrik Atoll
     de: Namorik
@@ -562,17 +701,25 @@ NMK:
     pt: Namorik
     ru: Наморик
     sv: Namorik
-  geo:
-    latitude: 5.6172553
-    longitude: 168.1293615
-    min_latitude: 5.5870997
-    min_longitude: 168.0974954
-    max_latitude: 5.6431987
-    max_longitude: 168.1334145
-  name: Namorik
-NMU:
+    ceb: Namdrik
+    zh: 納莫里克環礁
+    fa: آب‌سنگ حلقوی نامداریک
+    ccp: "\U0001111A\U0001111F\U00011134\U00011113\U00011133\U00011122\U00011128\U00011107\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Намдрик
+  comments: 
+NMU: 
+  name: Namu
+  code: 
   unofficial_names:
   - Namo
+  geo:
+    latitude: 7.900718800000001
+    longitude: 168.2248291
+    min_latitude: 7.744331799999999
+    min_longitude: 167.9631042
+    max_latitude: 8.2196454
+    max_longitude: 168.3132935
   translations:
     en: Namu Atoll
     cs: Namu
@@ -592,16 +739,23 @@ NMU:
     pt: Atol Namu
     ru: Наму
     sv: Namu
-  geo:
-    latitude: 7.900718800000001
-    longitude: 168.2248291
-    min_latitude: 7.744331799999999
-    min_longitude: 167.9631042
-    max_latitude: 8.2196454
-    max_longitude: 168.3132935
-  name: Namu
-RON:
+    ceb: Namu Atoll (munisipyo)
+    zh: 納木環礁
+    fa: آب‌سنگ حلقوی نامو
+    ccp: "\U0001111A\U0001111F\U0001112A \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Наму
+  comments: 
+RON: 
+  name: Rongelap
+  code: 
   unofficial_names: Rongelap
+  geo:
+    latitude: 11.3603915
+    longitude: 166.7798172
+    min_latitude: 11.1462347
+    min_longitude: 166.6118289
+    max_latitude: 11.5044166
+    max_longitude: 167.0652294
   translations:
     en: Rongelap Atoll
     be: Атол Рангелап
@@ -623,16 +777,24 @@ RON:
     ru: Ронгелап
     sv: Rongelap
     vi: Rongelap
-  geo:
-    latitude: 11.3603915
-    longitude: 166.7798172
-    min_latitude: 11.1462347
-    min_longitude: 166.6118289
-    max_latitude: 11.5044166
-    max_longitude: 167.0652294
-  name: Rongelap
-UJA:
+    ceb: Rongelap Atoll (munisipyo)
+    zh: 朗格拉普環礁
+    ccp: "\U00011122\U00011127\U0001111A\U00011134\U00011109\U0001112C\U00011123\U0001111B\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    uk: Атол Ронгелап
+    mk: Ронгелап
+  comments: 
+UJA: 
+  name: Ujae
+  code: 
   unofficial_names: Ujae
+  geo:
+    latitude: 9.0582174
+    longitude: 165.6440842
+    min_latitude: 8.922806
+    min_longitude: 165.5181098
+    max_latitude: 9.2262549
+    max_longitude: 165.7703877
   translations:
     en: Ujae Atoll
     de: Ujae
@@ -650,18 +812,16 @@ UJA:
     pl: Ujae
     ru: Уджаэ
     sv: Ujae
-  geo:
-    latitude: 9.0582174
-    longitude: 165.6440842
-    min_latitude: 8.922806
-    min_longitude: 165.5181098
-    max_latitude: 9.2262549
-    max_longitude: 165.7703877
-  name: Ujae
-UJL:
+    ceb: Ujae Atoll (munisipyo)
+    zh: 烏賈環礁
+    fa: آب‌سنگ حلقوی اوجائه
+    ccp: "\U00011105\U0001112A\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Уџае
+  comments: 
+UJL: 
+  name: Ujelang
+  code: 
   unofficial_names: Ujelang
-  translations:
-    en: Ujelang
   geo:
     latitude: 9.77
     longitude: 160.9752777
@@ -669,12 +829,23 @@ UJL:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Ujelang
-UTI:
+  translations:
+    en: Ujelang
+  comments: 
+UTI: 
+  name: Utirik
+  code: 
   unofficial_names:
   - Utirik
   - Utrōk
   - Utrōnk
+  geo:
+    latitude: 11.2226114
+    longitude: 169.8544701
+    min_latitude: 11.2214237
+    min_longitude: 169.8474976
+    max_latitude: 11.2233218
+    max_longitude: 169.8563474
   translations:
     en: Utirik Atoll
     be: Атол Утырык
@@ -694,17 +865,25 @@ UTI:
     pt: Atol Utirik
     ru: Утирик
     sv: Utirik
-  geo:
-    latitude: 11.2226114
-    longitude: 169.8544701
-    min_latitude: 11.2214237
-    min_longitude: 169.8474976
-    max_latitude: 11.2233218
-    max_longitude: 169.8563474
-  name: Utirik
-WTH:
+    ceb: Utrik
+    zh: 烏蒂里克環礁
+    fa: آب‌سنگ حلقوی اوتیریک
+    ccp: "\U00011105\U0001112A\U00011111\U00011128\U00011122\U00011128\U00011107\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Утирик
+  comments: 
+WTH: 
+  name: Wotho
+  code: 
   unofficial_names:
   - Wōtto
+  geo:
+    latitude: 10.1024946
+    longitude: 165.9811564
+    min_latitude: 10.0144328
+    min_longitude: 165.9193897
+    max_latitude: 10.1839202
+    max_longitude: 166.0299827
   translations:
     en: Wotho Atoll
     de: Wotho
@@ -722,16 +901,22 @@ WTH:
     pl: Wotho
     ru: Вото
     sv: Wotho
-  geo:
-    latitude: 10.1024946
-    longitude: 165.9811564
-    min_latitude: 10.0144328
-    min_longitude: 165.9193897
-    max_latitude: 10.1839202
-    max_longitude: 166.0299827
-  name: Wotho
-WTJ:
+    ceb: Wotho
+    zh: 沃特環礁
+    ccp: "\U00011124\U00011117\U0001112E \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Вото
+  comments: 
+WTJ: 
+  name: Wotje
+  code: 
   unofficial_names: Wotje
+  geo:
+    latitude: 9.452366999999999
+    longitude: 170.237213
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Wotje Atoll
     de: Wotje
@@ -749,15 +934,22 @@ WTJ:
     ru: Вотье
     sv: Wotje
     uk: Вотьє
+    ceb: Wotje Atoll
+    zh: 沃特傑環礁
+    ccp: "\U00011124\U00011116\U00011134\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Вотје
+  comments: 
+L: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 9.452366999999999
-    longitude: 170.237213
+    latitude: 
+    longitude: 
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Wotje
-L:
   translations:
     ar: راليك تشين
     bn: রালিকচেইন
@@ -796,7 +988,24 @@ L:
     uk: Ланцюг Ралік
     ur: رالیک چین
     vi: Chuỗi đảo Ralik
-T:
+    lv: Raliku salas
+    ceb: Ralik Chain
+    zh: 拉利克礁鏈
+    fa: زنجیره رالیک
+    ccp: "\U00011122\U00011123\U00011128\U00011107\U00011134 \U0001110C\U0001112C\U0001112D\U0001111A\U00011134"
+    mk: Ралички Острови
+  comments: 
+T: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سلسلة راتاك
     bn: রাতাক চেইন
@@ -836,3 +1045,10 @@ T:
     uk: Ланцюг Ратак
     ur: راتاک چین
     vi: Chuỗi đảo Ratak
+    lv: Rataku salas
+    ceb: Ratak Chain
+    zh: 拉塔克礁鏈
+    fa: زنجیره راتاک
+    ccp: "\U00011122\U00011111\U00011107\U00011134 \U0001110C\U0001112C\U0001112D\U0001111A\U00011134"
+    mk: Ратачки Острови
+  comments: 

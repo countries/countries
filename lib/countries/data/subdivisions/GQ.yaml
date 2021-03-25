@@ -1,6 +1,15 @@
 ---
-AN:
+AN: 
+  name: Annobón
+  code: 
   unofficial_names: Annobón
+  geo:
+    latitude: -1.4221087
+    longitude: 5.6195112
+    min_latitude: -1.457793
+    min_longitude: 5.6119729
+    max_latitude: -1.4041375
+    max_longitude: 5.635208
   translations:
     en: Annobón
     ar: محافظة أنوبون
@@ -40,16 +49,25 @@ AN:
     tr: Annobón Province
     ur: اننوبون صوبہ
     vi: Tỉnh Annobón
-  geo:
-    latitude: -1.4221087
-    longitude: 5.6195112
-    min_latitude: -1.457793
-    min_longitude: 5.6119729
-    max_latitude: -1.4041375
-    max_longitude: 5.635208
-  name: Annobón
-BN:
+    lv: Annobonas province
+    ceb: Provincia de Annobón
+    lt: Anobono provincija
+    ccp: "\U00011103\U0001111A\U00011133\U00011126\U0001112E\U0001111D\U00011127\U0001111A\U00011134"
+    he: אנובון
+    ml: അന്നോബോൺ
+    uk: Провінція Анобон
+  comments: 
+BN: 
+  name: Bioko Norte
+  code: 
   unofficial_names: Bioko Norte
+  geo:
+    latitude: 3.6595072
+    longitude: 8.7921836
+    min_latitude: 3.511882
+    min_longitude: 8.6119104
+    max_latitude: 3.7858361
+    max_longitude: 8.937981599999999
   translations:
     en: Bioko Norte
     ar: محافظة بيوكو نورت
@@ -92,16 +110,21 @@ BN:
     ur: بیوکو نورتی صوبہ
     vi: Tỉnh Bioko Norte
     zh: 北比奥科省
-  geo:
-    latitude: 3.6595072
-    longitude: 8.7921836
-    min_latitude: 3.511882
-    min_longitude: 8.6119104
-    max_latitude: 3.7858361
-    max_longitude: 8.937981599999999
-  name: Bioko Norte
-BS:
+    lv: Ziemeļbioko province
+    ceb: Provincia de Bioko Norte
+    ccp: "\U0001111D\U0001112D\U00011107\U0001112E \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
+  comments: 
+BS: 
+  name: Bioko Sur
+  code: 
   unofficial_names: Bioko Sur
+  geo:
+    latitude: 3.4209785
+    longitude: 8.6160674
+    min_latitude: 3.2099564
+    min_longitude: 8.423113899999999
+    max_latitude: 3.6476928
+    max_longitude: 8.850613899999999
   translations:
     en: Bioko Sur
     ar: مقاطعة بيوكو سور
@@ -142,16 +165,23 @@ BS:
     uk: Бйоко Сур
     ur: بیوکو سر صوبہ
     vi: Tỉnh Bioko Sur
-  geo:
-    latitude: 3.4209785
-    longitude: 8.6160674
-    min_latitude: 3.2099564
-    min_longitude: 8.423113899999999
-    max_latitude: 3.6476928
-    max_longitude: 8.850613899999999
-  name: Bioko Sur
-C:
+    lv: Dienvidbioko province
+    ceb: Provincia de Bioko Sur
+    zh: 南比奥科省
+    fa: استان بیوکو سور
+    ccp: "\U0001111D\U0001112D\U00011107\U0001112E \U00011125\U00011122\U00011134"
+  comments: 
+C: 
+  name: Región Continental
+  code: 
   unofficial_names: Región Continental
+  geo:
+    latitude: 51.2798759
+    longitude: 8.8744572
+    min_latitude: 51.2798269
+    min_longitude: 8.873045399999999
+    max_latitude: 51.28056
+    max_longitude: 8.8745578
   translations:
     en: Río Muni
     af: Rio Muni
@@ -177,16 +207,23 @@ C:
     sv: Río Muni
     uk: Ріо-Муні
     vi: Río Muni
-  geo:
-    latitude: 51.2798759
-    longitude: 8.8744572
-    min_latitude: 51.2798269
-    min_longitude: 8.873045399999999
-    max_latitude: 51.28056
-    max_longitude: 8.8745578
-  name: Región Continental
-CS:
+    ceb: Woleu
+    zh: 木尼河区
+    ccp: "\U00011122\U00011128\U00011103\U0001112E \U0001111F\U0001112A\U0001111A\U00011128"
+    ka: რიო-მუნი
+    he: ריו מוני
+  comments: 
+CS: 
+  name: Centro Sur
+  code: 
   unofficial_names: Centro Sur
+  geo:
+    latitude: 1.3436084
+    longitude: 10.439656
+    min_latitude: 0.9966689999999999
+    min_longitude: 9.9033
+    max_latitude: 2.1742861
+    max_longitude: 10.98445
   translations:
     en: Centro Sur
     ar: مقاطعة سينترو سور
@@ -227,16 +264,24 @@ CS:
     uk: Сентро-Сур
     ur: سینترو سر صوبہ
     vi: Tỉnh Centro Sur
-  geo:
-    latitude: 1.3436084
-    longitude: 10.439656
-    min_latitude: 0.9966689999999999
-    min_longitude: 9.9033
-    max_latitude: 2.1742861
-    max_longitude: 10.98445
-  name: Centro Sur
-I:
+    lv: Centrālā Dienvidu province
+    ceb: Provincia de Centro Sur
+    zh: 中南省
+    fa: استان سنترو سور
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U0001112E
+      \U00011125\U00011122\U00011134"
+  comments: 
+I: 
+  name: Región Insular
+  code: 
   unofficial_names: Región Insular
+  geo:
+    latitude: 49.662167
+    longitude: -125.746833
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Insular
     ca: Illes de Guinea Equatorial
@@ -247,16 +292,22 @@ I:
     nl: Insular Region
     pt: Região Insular
     ru: Инсуляр
-  geo:
-    latitude: 49.662167
-    longitude: -125.746833
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Región Insular
-KN:
+    zh: 海岛大区
+    ccp: "\U00011103\U00011128\U0001111A\U00011134\U00011125\U0001112A\U00011123\U00011122\U00011134"
+    ka: კუნძულოვანი რეგიონი
+    ko: 적도 기니 도서 지방
+  comments: 
+KN: 
+  name: Kie-Ntem
+  code: 
   unofficial_names: Kie-Ntem
+  geo:
+    latitude: 2.028093
+    longitude: 11.0711758
+    min_latitude: 1.7260761
+    min_longitude: 10.401541
+    max_latitude: 2.187128
+    max_longitude: 11.3356839
   translations:
     en: Kié-Ntem
     ar: محافظة كيي - نتم
@@ -297,16 +348,22 @@ KN:
     uk: Ке-Нтем
     ur: کیی-نتیم صوبہ
     vi: Tỉnh Kié-Ntem
-  geo:
-    latitude: 2.028093
-    longitude: 11.0711758
-    min_latitude: 1.7260761
-    min_longitude: 10.401541
-    max_latitude: 2.187128
-    max_longitude: 11.3356839
-  name: Kie-Ntem
-LI:
+    lv: Kē-Ntemas province
+    ceb: Provincia de Kié-Ntem
+    zh: 基埃恩特姆省
+    ccp: "\U00011107\U0001112D-\U00011111\U0001112C\U0001111F\U00011134"
+  comments: 
+LI: 
+  name: Litoral
+  code: 
   unofficial_names: Litoral
+  geo:
+    latitude: 1.5750244
+    longitude: 9.8124935
+    min_latitude: 0.8891347
+    min_longitude: 9.302264
+    max_latitude: 2.346989
+    max_longitude: 10.263524
   translations:
     en: Litoral
     ar: مقاطعة ليتورال
@@ -347,16 +404,22 @@ LI:
     uk: Літорал
     ur: لیتورال صوبہ
     vi: Tỉnh Litoral
-  geo:
-    latitude: 1.5750244
-    longitude: 9.8124935
-    min_latitude: 0.8891347
-    min_longitude: 9.302264
-    max_latitude: 2.346989
-    max_longitude: 10.263524
-  name: Litoral
-WN:
+    lv: Litorālā province
+    ceb: Provincia de Litoral
+    zh: 滨海省
+    ccp: "\U00011123\U00011128\U00011111\U0001112E\U00011122\U00011123\U00011134"
+  comments: 
+WN: 
+  name: Wele-Nzás
+  code: 
   unofficial_names: Wele-Nzás
+  geo:
+    latitude: 1.4166162
+    longitude: 11.0711758
+    min_latitude: 0.996211
+    min_longitude: 10.5228439
+    max_latitude: 1.994745
+    max_longitude: 11.3357239
   translations:
     en: Wele-Nzas
     ar: مقاطعة ويلي-نزاس
@@ -396,11 +459,8 @@ WN:
     uk: Веле-Нзас
     ur: ویلی-نزاس صوبہ
     vi: Tỉnh Wele-Nzas
-  geo:
-    latitude: 1.4166162
-    longitude: 11.0711758
-    min_latitude: 0.996211
-    min_longitude: 10.5228439
-    max_latitude: 1.994745
-    max_longitude: 11.3357239
-  name: Wele-Nzás
+    lv: Veles-Nzasas province
+    ceb: Provincia de Wele-Nzas
+    zh: 韦莱恩萨斯省
+    ccp: "\U00011124\U0001112C\U00011120\U0001112C \U0001111A\U0001110C\U00011134"
+  comments: 

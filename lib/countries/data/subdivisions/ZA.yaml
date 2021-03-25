@@ -1,7 +1,16 @@
 ---
-EC:
+EC: 
+  name: Eastern Cape
+  code: 
   unofficial_names:
   - Oos Kaap
+  geo:
+    latitude: -32.2968402
+    longitude: 26.419389
+    min_latitude: -34.2136378
+    min_longitude: 22.7357412
+    max_latitude: -30.0018012
+    max_longitude: 30.1947187
   translations:
     en: Eastern Cape
     af: Oos-Kaap
@@ -54,20 +63,35 @@ EC:
     vi: Đông Cape
     zh: 東開普省
     zu: KwaXhosa
-  geo:
-    latitude: -32.2968402
-    longitude: 26.419389
-    min_latitude: -34.2136378
-    min_longitude: 22.7357412
-    max_latitude: -30.0018012
-    max_longitude: 30.1947187
-  name: Eastern Cape
-FS:
+    ceb: Eastern Cape
+    sr_Latn: Istočni Kejp
+    yue_Hans: 东开普
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U00011107\U0001112C\U0001111B\U00011134"
+    hy: Արևելյան Քեյփ²
+    hu: Kelet-Fokföld
+    so: Eastern Cape Province
+    ml: കിഴക്കൻ കേപ്
+    yue: 東開普
+    az: Şərqi Burun vilayəti
+    yo: Eastern Cape
+    mk: Источен Кејп
+  comments: 
+FS: 
+  name: Free State
+  code: 
   unofficial_names:
   - Foreistata
   - Vrystaat
+  geo:
+    latitude: -28.4541105
+    longitude: 26.7967849
+    min_latitude: -30.69408
+    min_longitude: 24.3466211
+    max_latitude: -26.6687389
+    max_longitude: 29.7851298
   translations:
-    en: Free
+    en: Free State
     af: Vrystaat
     ar: فري ستيت
     bg: Фрайстат
@@ -118,17 +142,33 @@ FS:
     vi: Free State
     zh: 自由邦省
     zu: IFleyistata
-  geo:
-    latitude: -28.4541105
-    longitude: 26.7967849
-    min_latitude: -30.69408
-    min_longitude: 24.3466211
-    max_latitude: -26.6687389
-    max_longitude: 29.7851298
-  name: Free State
-GT:
+    cy: Free State
+    ceb: Free State
+    sr_Latn: Fri Stejt
+    yue_Hans: 自由邦
+    ccp: "\U0001111C\U00011133\U00011122\U00011128"
+    hu: Szabadállam
+    so: Free State Province
+    ml: ഫ്രീ സ്റ്റേറ്റ്
+    yue: 自由邦
+    az: Fri Steyt vilayəti
+    my: ဩရိန်းပြည်နယ်
+    be: Фры-Стэйт
+    yo: Free State
+    mk: Фристејт
+  comments: 
+GT: 
+  name: Gauteng
+  code: 
   unofficial_names:
   - Pretoria-Witwatersrand-Vereeniging
+  geo:
+    latitude: -26.2707593
+    longitude: 28.1122679
+    min_latitude: -26.9118973
+    min_longitude: 27.1563401
+    max_latitude: -25.1096099
+    max_longitude: 29.0984187
   translations:
     en: Gauteng
     af: Gauteng
@@ -181,16 +221,31 @@ GT:
     vi: Gauteng
     zh: 豪登省
     zu: IGauteng
-  geo:
-    latitude: -26.2707593
-    longitude: 28.1122679
-    min_latitude: -26.9118973
-    min_longitude: 27.1563401
-    max_latitude: -25.1096099
-    max_longitude: 29.0984187
-  name: Gauteng
-LP:
+    cy: Gauteng
+    ceb: Gauteng
+    sr_Latn: Hauteng
+    yue_Hans: 豪登
+    ccp: "\U00011109\U00011105\U0001112A\U00011111\U0001112C\U00011101"
+    hy: Գաուտենգ
+    so: Gauteng Province
+    kk: Гаутенг
+    ml: ഗൗറ്റെങ്
+    yue: 豪登
+    az: Qautenq vilayəti
+    yo: Gauteng
+    mk: Гаутенг
+  comments: 
+LP: 
+  name: Limpopo
+  code: 
   unofficial_names: Limpopo
+  geo:
+    latitude: -23.4012946
+    longitude: 29.4179324
+    min_latitude: -25.4227899
+    min_longitude: 26.4075388
+    max_latitude: -22.1250298
+    max_longitude: 31.8838412
   translations:
     en: Limpopo
     af: Limpopo
@@ -244,17 +299,30 @@ LP:
     vi: Limpopo
     zh: 林波波省
     zu: Limpopo
-  geo:
-    latitude: -23.4012946
-    longitude: 29.4179324
-    min_latitude: -25.4227899
-    min_longitude: 26.4075388
-    max_latitude: -22.1250298
-    max_longitude: 31.8838412
-  name: Limpopo
-MP:
+    ceb: Limpopo
+    sr_Latn: Limpopo
+    yue_Hans: 林波波
+    ccp: "\U00011123\U00011128\U0001111F\U00011134\U0001111B\U0001112E\U0001111B\U0001112E"
+    hy: Լիմպոպո
+    so: Limpopo Province
+    ml: ലിംപോപോ
+    yue: 林波波
+    az: Limpopo vilayəti
+    yo: Limpopo
+    mk: Лимпопо
+  comments: 
+MP: 
+  name: Mpumalanga
+  code: 
   unofficial_names:
   - eMpumalanga
+  geo:
+    latitude: -29.817
+    longitude: 30.637
+    min_latitude: -29.853415
+    min_longitude: 30.5890079
+    max_latitude: -29.7785889
+    max_longitude: 30.67445
   translations:
     en: Mpumalanga
     af: Mpumalanga
@@ -307,16 +375,29 @@ MP:
     vi: Mpumalanga
     zh: 普馬蘭加省
     zu: Mpumalanga
-  geo:
-    latitude: -29.817
-    longitude: 30.637
-    min_latitude: -29.853415
-    min_longitude: 30.5890079
-    max_latitude: -29.7785889
-    max_longitude: 30.67445
-  name: Mpumalanga
-NC:
+    ceb: Mpumalanga
+    sr_Latn: Mpumalanga
+    yue_Hans: 普马兰加
+    ccp: "\U0001111B\U0001112A\U0001111F\U00011123\U0001111A\U00011134\U00011109"
+    hy: Մպումալանգա
+    so: Mpumalanga Province
+    ml: പുമാലൻഗ
+    yue: 普馬蘭加
+    az: Mpumalanqa vilayəti
+    yo: Mpumalanga
+    mk: Мпумаланга
+  comments: 
+NC: 
+  name: Northern Cape
+  code: 
   unofficial_names: Northern Cape
+  geo:
+    latitude: -29.0466808
+    longitude: 21.8568586
+    min_latitude: -32.9449877
+    min_longitude: 16.451941
+    max_latitude: -24.76586
+    max_longitude: 25.54933
   translations:
     en: Northern Cape
     af: Noord-Kaap
@@ -371,16 +452,28 @@ NC:
     vi: Bắc Cape
     zh: 北開普省
     zu: IKipi laseNyakatho
-  geo:
-    latitude: -29.0466808
-    longitude: 21.8568586
-    min_latitude: -32.9449877
-    min_longitude: 16.451941
-    max_latitude: -24.76586
-    max_longitude: 25.54933
-  name: Northern Cape
-NL:
+    ceb: Province of Northern Cape
+    sr_Latn: Severni Kejp
+    yue_Hans: 北开普
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U00011107\U0001112C\U0001111B\U00011134"
+    sk: Severné Kapsko
+    so: Northern Cape Province
+    yue: 北開普
+    yo: Northern Cape
+    mk: Северен Кејп
+  comments: 
+NL: 
+  name: Kwazulu-Natal
+  code: 
   unofficial_names: Kwazulu-Natal
+  geo:
+    latitude: -28.5305539
+    longitude: 30.8958242
+    min_latitude: -31.0853648
+    min_longitude: 28.8734801
+    max_latitude: -26.80442
+    max_longitude: 32.8909911
   translations:
     en: KwaZulu-Natal
     af: KwaZulu-Natal
@@ -436,16 +529,29 @@ NL:
     vi: KwaZulu-Natal
     zh: 夸祖魯-納塔爾省
     zu: KwaZulu-Natal
-  geo:
-    latitude: -28.5305539
-    longitude: 30.8958242
-    min_latitude: -31.0853648
-    min_longitude: 28.8734801
-    max_latitude: -26.80442
-    max_longitude: 32.8909911
-  name: Kwazulu-Natal
-NW:
+    cy: KwaZulu-Natal
+    ceb: Province of KwaZulu-Natal
+    sr_Latn: Kvazulu-Natal
+    yue_Hans: 夸祖鲁-纳塔尔
+    ccp: "\U00011124\U0001110E\U0001112A\U00011123\U0001112A-\U0001111A\U00011111\U00011123\U00011134"
+    so: KwaZulu-Natal Province
+    ml: ക്വാസുളു-നറ്റാൽ
+    yue: 夸祖魯-納塔爾
+    az: Kvazulu-Natal vilayəti
+    yo: KwaZulu-Natal
+    mk: Натал
+  comments: 
+NW: 
+  name: North-West
+  code: 
   unofficial_names: North-West
+  geo:
+    latitude: -26.6638599
+    longitude: 25.2837585
+    min_latitude: -28.112206
+    min_longitude: 22.6290299
+    max_latitude: -24.6366288
+    max_longitude: 28.2983488
   translations:
     en: North West
     af: Noordwes
@@ -496,17 +602,33 @@ NW:
     vi: Tây Bắc
     zh: 西北省
     zu: Nyakatho-Ntshonalanga
-  geo:
-    latitude: -26.6638599
-    longitude: 25.2837585
-    min_latitude: -28.112206
-    min_longitude: 22.6290299
-    max_latitude: -24.6366288
-    max_longitude: 28.2983488
-  name: North-West
-WC:
+    lv: Ziemeļrietumi
+    ceb: Province of North West
+    yo_BJ: Àríwá-Ìwɔòrùn
+    sr_Latn: Severozapadna pokrajina
+    yue_Hans: 西北省
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+    hy: Հյուսիսարևմտյան նահանգ
+    hu: North West
+    so: North West Province
+    yue: 西北省
+    az: Şimal-Qərb vilayəti
+    yo: Àríwá-Ìwọòrùn
+    mk: Северозапад
+  comments: 
+WC: 
+  name: Western Cape
+  code: 
   unofficial_names:
   - Wes Kaap
+  geo:
+    latitude: -33.2277918
+    longitude: 21.8568586
+    min_latitude: -34.8330058
+    min_longitude: 17.7575637
+    max_latitude: -30.4302599
+    max_longitude: 24.22241
   translations:
     en: Western Cape
     af: Wes-Kaap
@@ -561,11 +683,38 @@ WC:
     vi: Tây Cape
     zh: 西開普省
     zu: IKipi laseNtshonalanga
+    ceb: Province of the Western Cape
+    sr_Latn: Zapadni Kejp
+    yue_Hans: 西开普
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U00011107\U0001112C\U0001111B\U00011134"
+    hu: Nyugat-Fokföld
+    sk: Západné Kapsko
+    so: Western Cape Province
+    ml: പടിഞ്ഞാറൻ കേപ്
+    yue: 西開普
+    yo: Western Cape
+    mk: Западен Кејп
+  comments: 
+GP: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Gauteng
+  comments: 
+KZN: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: -33.2277918
-    longitude: 21.8568586
-    min_latitude: -34.8330058
-    min_longitude: 17.7575637
-    max_latitude: -30.4302599
-    max_longitude: 24.22241
-  name: Western Cape
+    latitude: -28.5305539
+    longitude: 30.8958242
+    min_latitude: -31.0853648
+    min_longitude: 28.8734801
+    max_latitude: -26.80442
+    max_longitude: 32.8909911
+  translations:
+    en: Kwazulu-Natal
+  comments: 

@@ -1,11 +1,20 @@
 ---
-'13':
+'13': 
+  name: Al Manamah (Al ‘Asimah)
+  code: 
   unofficial_names:
   - Manāmah
   - al-Manāmah
   - Manama
   - Manama
   - Manama
+  geo:
+    latitude: 26.2285161
+    longitude: 50.5860497
+    min_latitude: 26.1945071
+    min_longitude: 50.51370679999999
+    max_latitude: 26.247324
+    max_longitude: 50.6259022
   translations:
     en: Capital
     ar: محافظة العاصمة
@@ -29,15 +38,15 @@
     uk: Столична мухафаза
     ur: محافظہ دارالحکومت، بحرین
     zh: 首都省
-  geo:
-    latitude: 26.2285161
-    longitude: 50.5860497
-    min_latitude: 26.1945071
-    min_longitude: 50.51370679999999
-    max_latitude: 26.247324
-    max_longitude: 50.6259022
-  name: Al Manamah (Al ‘Asimah)
-'14':
+    ceb: Capital Governorate
+    ccp: "\U00011107\U00011133\U00011120\U0001111B\U00011128\U00011111\U00011123\U00011134"
+    eu: Hiriburuaren eskualdea
+    de: Hauptstadt-Gouvernement
+    ca: Governació de la Capital
+  comments: 
+'14': 
+  name: Al Janubiyah
+  code: 
   unofficial_names:
   - Eastern
   - Hawa
@@ -45,6 +54,13 @@
   - Southern
   - ash Sharqiyah
   - aš-Šarqīyah
+  geo:
+    latitude: 25.9381018
+    longitude: 50.5756887
+    min_latitude: 25.5798401
+    min_longitude: 50.4545967
+    max_latitude: 26.138158
+    max_longitude: 50.8223101
   translations:
     en: Southern
     ar: جنوبية
@@ -67,16 +83,24 @@
     sv: Southern Governorate
     tr: Güney Valiliği
     ur: محافظہ جنوبیہ
-  geo:
-    latitude: 25.9381018
-    longitude: 50.5756887
-    min_latitude: 25.5798401
-    min_longitude: 50.4545967
-    max_latitude: 26.138158
-    max_longitude: 50.8223101
-  name: Al Janubiyah
-'15':
+    ceb: Southern Governorate
+    zh: 南方省
+    ccp: "\U00011125\U00011105\U0001112A\U00011118\U00011122\U00011133\U0001111A\U00011134"
+    hy: Հարավային մուհաֆազա
+    eu: Hegoaldeko eskualdea
+    ca: Governació del Sud
+  comments: 
+'15': 
+  name: Al Muharraq
+  code: 
   unofficial_names: Al Muharraq
+  geo:
+    latitude: 26.266941
+    longitude: 50.63839
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Muharraq
     ar: محافظة المحرق
@@ -115,20 +139,19 @@
     tr: Muharraq Yönetimi
     ur: محافظہ محرق
     vi: Tỉnh Muharraq
-  geo:
-    latitude: 26.266941
-    longitude: 50.63839
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Al Muharraq
-'16':
+    lv: Muharrakas muhāfaza
+    ceb: Muharraq Governorate
+    zh: 穆哈拉格省
+    ccp: "\U0001111F\U0001112A\U00011126\U00011122\U00011107\U00011134"
+    eu: Muharraq eskualdea
+    uk: Муніципалітет Мухаррак
+  comments: 
+'16': 
+  name: Al Wustá
+  code: 
   unofficial_names:
   - Central
   - al-Mintaqah al-Wusta
-  translations:
-    en: Central
   geo:
     latitude: 26.1426093
     longitude: 50.5653294
@@ -136,12 +159,24 @@
     min_longitude: 50.5095921
     max_latitude: 26.1932879
     max_longitude: 50.671664
-  name: Al Wustá
-'17':
+  translations:
+    en: Central
+    ccp: "\U00011125\U0001112C\U0001111A\U00011111\U00011133\U00011122\U00011123\U00011134"
+  comments: 
+'17': 
+  name: Ash Shamaliyah
+  code: 
   unofficial_names:
   - Northern
   - al-Mintaqa ash Shamaliyah
   - ash Shamaliyah
+  geo:
+    latitude: 26.1551914
+    longitude: 50.4825173
+    min_latitude: 26.04768
+    min_longitude: 50.3788254
+    max_latitude: 26.235592
+    max_longitude: 50.5664624
   translations:
     en: Northern
     ar: شمالية
@@ -164,11 +199,9 @@
     sv: Northern Governorate
     tr: Kuzey Valiliği
     ur: محافظہ شمالیہ
-  geo:
-    latitude: 26.1551914
-    longitude: 50.4825173
-    min_latitude: 26.04768
-    min_longitude: 50.3788254
-    max_latitude: 26.235592
-    max_longitude: 50.5664624
-  name: Ash Shamaliyah
+    ceb: Northern Governorate
+    zh: 北方省
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011118\U00011122\U00011133\U0001111A\U00011134"
+    eu: Iparraldeko eskualdea
+    ca: Governació del Nord
+  comments: 

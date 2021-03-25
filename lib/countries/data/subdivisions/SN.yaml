@@ -1,6 +1,15 @@
 ---
-DB:
+DB: 
+  name: Diourbel
+  code: 
   unofficial_names: Diourbel
+  geo:
+    latitude: 14.6561238
+    longitude: -16.2345633
+    min_latitude: 14.6305864
+    min_longitude: -16.2716103
+    max_latitude: 14.6780086
+    max_longitude: -16.1984396
   translations:
     en: Diourbel
     ar: إقليم ديوربيل
@@ -41,16 +50,22 @@ DB:
     ur: دیوربیل علاقہ
     vi: Khu vực Diourbel
     zh: 久尔贝勒区
-  geo:
-    latitude: 14.6561238
-    longitude: -16.2345633
-    min_latitude: 14.6305864
-    min_longitude: -16.2716103
-    max_latitude: 14.6780086
-    max_longitude: -16.1984396
-  name: Diourbel
-DK:
+    lv: Diūrbelas reģions
+    ceb: Diourbel
+    ccp: "\U00011113\U00011128\U00011120\U0001112E\U00011122\U00011134\U0001111D\U0001112C\U00011123\U00011134"
+    uk: Регіон Діурбель
+  comments: 
+DK: 
+  name: Dakar
+  code: 
   unofficial_names: Dakar
+  geo:
+    latitude: 14.7645042
+    longitude: -17.3660286
+    min_latitude: 14.6469399
+    min_longitude: -17.5298482
+    max_latitude: 14.8178645
+    max_longitude: -17.2463906
   translations:
     en: Dakar
     ar: داكار
@@ -89,16 +104,24 @@ DK:
     tr: Dakar
     ur: ڈاکار علاقہ
     vi: Dakar
-  geo:
-    latitude: 14.7645042
-    longitude: -17.3660286
-    min_latitude: 14.6469399
-    min_longitude: -17.5298482
-    max_latitude: 14.8178645
-    max_longitude: -17.2463906
-  name: Dakar
-FK:
+    lv: Dakara
+    ceb: Dakar
+    zh: 达喀尔区
+    ccp: "\U00011113\U00011107\U00011122\U00011134"
+    uk: Дакар
+    bs: Regija Dakar
+  comments: 
+FK: 
+  name: Fatick
+  code: 
   unofficial_names: Fatick
+  geo:
+    latitude: 14.333333
+    longitude: -16.406944
+    min_latitude: 14.3167832
+    min_longitude: -16.4239168
+    max_latitude: 14.3521257
+    max_longitude: -16.3943481
   translations:
     en: Fatick
     ar: اقليم فاتيك
@@ -136,16 +159,22 @@ FK:
     tr: Fatick
     ur: فاتیک علاقہ
     vi: Fatick
-  geo:
-    latitude: 14.333333
-    longitude: -16.406944
-    min_latitude: 14.3167832
-    min_longitude: -16.4239168
-    max_latitude: 14.3521257
-    max_longitude: -16.3943481
-  name: Fatick
-KD:
+    lv: Fatika
+    zh: 法蒂克区
+    ccp: "\U0001111C\U00011111\U00011128\U00011107\U00011134"
+    uk: Регіон Фатік
+  comments: 
+KD: 
+  name: Kolda
+  code: 
   unofficial_names: Kolda
+  geo:
+    latitude: 12.883333
+    longitude: -14.95
+    min_latitude: 12.8554019
+    min_longitude: -14.9931822
+    max_latitude: 12.9560481
+    max_longitude: -14.9008942
   translations:
     en: Kolda
     ar: كولدا
@@ -185,16 +214,23 @@ KD:
     tr: Kolda
     ur: کولدا علاقہ
     vi: Kolda
-  geo:
-    latitude: 12.883333
-    longitude: -14.95
-    min_latitude: 12.8554019
-    min_longitude: -14.9931822
-    max_latitude: 12.9560481
-    max_longitude: -14.9008942
-  name: Kolda
-KL:
+    lv: Kolda
+    ceb: Kolda
+    zh: 科爾達區
+    ccp: "\U00011107\U0001112E\U00011123\U00011134\U00011113"
+    uk: Регіон Колда
+  comments: 
+KL: 
+  name: Kaolack
+  code: 
   unofficial_names: Kaolack
+  geo:
+    latitude: 14.1652083
+    longitude: -16.0757749
+    min_latitude: 14.1218433
+    min_longitude: -16.1165143
+    max_latitude: 14.1926668
+    max_longitude: -16.0231304
   translations:
     en: Kaolack
     ar: كاولاك
@@ -233,16 +269,22 @@ KL:
     uk: Каолак
     ur: کاولاک علاقہ
     vi: Kaolack
-  geo:
-    latitude: 14.1652083
-    longitude: -16.0757749
-    min_latitude: 14.1218433
-    min_longitude: -16.1165143
-    max_latitude: 14.1926668
-    max_longitude: -16.0231304
-  name: Kaolack
-LG:
+    lv: Kaulaka
+    ceb: Kaolack
+    zh: 考拉克区
+    ccp: "\U00011107\U00011120\U0001112E\U00011123\U00011107\U00011134"
+  comments: 
+LG: 
+  name: Louga
+  code: 
   unofficial_names: Louga
+  geo:
+    latitude: 15.616667
+    longitude: -16.216667
+    min_latitude: 15.5760808
+    min_longitude: -16.273842
+    max_latitude: 15.6584121
+    max_longitude: -16.1677551
   translations:
     en: Louga
     ar: إقليم لوغا
@@ -282,16 +324,24 @@ LG:
     tr: Louga
     ur: لؤگا علاقہ
     vi: Louga
-  geo:
-    latitude: 15.616667
-    longitude: -16.216667
-    min_latitude: 15.5760808
-    min_longitude: -16.273842
-    max_latitude: 15.6584121
-    max_longitude: -16.1677551
-  name: Louga
-MT:
+    lv: Lugas reģions
+    ceb: Louga
+    zh: 盧加區
+    ccp: "\U00011123\U0001112F\U00011109"
+    uk: Регіон Луга
+    be: Луга
+  comments: 
+MT: 
+  name: Matam
+  code: 
   unofficial_names: Matam
+  geo:
+    latitude: 15.6600225
+    longitude: -13.2576906
+    min_latitude: 15.6390722
+    min_longitude: -13.2636738
+    max_latitude: 15.6690317
+    max_longitude: -13.2462503
   translations:
     en: Matam
     ar: ماتام
@@ -329,16 +379,23 @@ MT:
     tr: Matam
     ur: ماتام علاقہ
     vi: Matam
-  geo:
-    latitude: 15.6600225
-    longitude: -13.2576906
-    min_latitude: 15.6390722
-    min_longitude: -13.2636738
-    max_latitude: 15.6690317
-    max_longitude: -13.2462503
-  name: Matam
-SL:
+    lv: Matama
+    ceb: Matam
+    zh: 馬塔姆區
+    ccp: "\U0001111F\U00011111\U0001111F\U00011134"
+    uk: Регіон Матам
+  comments: 
+SL: 
+  name: Saint-Louis
+  code: 
   unofficial_names: Saint-Louis
+  geo:
+    latitude: 16.0326307
+    longitude: -16.4818167
+    min_latitude: 15.9638125
+    min_longitude: -16.5135574
+    max_latitude: 16.0760986
+    max_longitude: -16.403041
   translations:
     en: Saint-Louis
     ar: إقليم سانت لويس
@@ -376,16 +433,24 @@ SL:
     tr: Saint-Louis
     ur: سینٹ-لوئیس ریجن
     vi: Saint-Louis
-  geo:
-    latitude: 16.0326307
-    longitude: -16.4818167
-    min_latitude: 15.9638125
-    min_longitude: -16.5135574
-    max_latitude: 16.0760986
-    max_longitude: -16.403041
-  name: Saint-Louis
-TC:
+    lv: Senluisa
+    ceb: Saint-Louis
+    zh: 聖路易區
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134-\U00011123\U0001112A\U00011103\U00011128\U0001110C\U00011134"
+    uk: Регіон Сент-Луїс
+    ca: regió de Saint-Louis
+  comments: 
+TC: 
+  name: Tambacounda
+  code: 
   unofficial_names: Tambacounda
+  geo:
+    latitude: 13.768889
+    longitude: -13.667222
+    min_latitude: 13.7446376
+    min_longitude: -13.7030293
+    max_latitude: 13.7971567
+    max_longitude: -13.6352349
   translations:
     en: Tambacounda
     ar: إقليم تامباكوندا
@@ -425,16 +490,23 @@ TC:
     tr: Tambacounda Bölgesi
     ur: تامباکؤندا علاقہ
     vi: Khu vực Tambacounda
-  geo:
-    latitude: 13.768889
-    longitude: -13.667222
-    min_latitude: 13.7446376
-    min_longitude: -13.7030293
-    max_latitude: 13.7971567
-    max_longitude: -13.6352349
-  name: Tambacounda
-TH:
+    lv: Tambakundas reģions
+    ceb: Tambacounda
+    zh: 坦巴昆達區
+    ccp: "\U00011111\U0001111F\U00011134\U0001111D\U00011107\U0001112F\U00011105\U0001112A\U0001111A\U00011134\U00011113"
+    uk: Регіон Тамбакунда
+  comments: 
+TH: 
+  name: Thiès
+  code: 
   unofficial_names: Thiès
+  geo:
+    latitude: 14.766667
+    longitude: -16.9
+    min_latitude: 14.7351422
+    min_longitude: -16.9828215
+    max_latitude: 14.8497212
+    max_longitude: -16.8717166
   translations:
     en: Thiès
     ar: ثيس
@@ -473,16 +545,24 @@ TH:
     tr: Thiès
     ur: تھیس علاقہ
     vi: Thiès
-  geo:
-    latitude: 14.766667
-    longitude: -16.9
-    min_latitude: 14.7351422
-    min_longitude: -16.9828215
-    max_latitude: 14.8497212
-    max_longitude: -16.8717166
-  name: Thiès
-ZG:
+    lv: Tjesas reģions
+    ceb: Région de Thiès
+    zh: 捷斯區
+    fa: منطقه تی‌یس
+    ccp: "\U00011117\U0001112D\U0001110C\U00011134"
+    uk: Регіон Тієс
+  comments: 
+ZG: 
+  name: Ziguinchor
+  code: 
   unofficial_names: Ziguinchor
+  geo:
+    latitude: 12.583333
+    longitude: -16.266667
+    min_latitude: 12.5297862
+    min_longitude: -16.3063271
+    max_latitude: 12.5895155
+    max_longitude: -16.2420399
   translations:
     en: Ziguinchor
     ar: زينغشور
@@ -521,15 +601,24 @@ ZG:
     tr: Ziguinchor
     ur: زیگینچور علاقہ
     vi: Ziguinchor
+    lv: Ziginšora
+    ceb: Ziguinchor
+    zh: 济金绍尔区
+    fa: ناحیه زیگینچور
+    ccp: "\U0001110E\U00011128\U00011109\U0001112D\U0001112A\U0001111A\U00011134\U00011107\U0001112E\U00011122\U00011134"
+    uk: Регіон Зігіншор
+  comments: 
+KA: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 12.583333
-    longitude: -16.266667
-    min_latitude: 12.5297862
-    min_longitude: -16.3063271
-    max_latitude: 12.5895155
-    max_longitude: -16.2420399
-  name: Ziguinchor
-KA:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: اقليم كفرين
     bn: ক্যাফ্রিন
@@ -565,7 +654,23 @@ KA:
     tr: Kaffrine
     ur: کفرین علاقہ
     vi: Kaffrine
-KE:
+    lv: Kafrines reģions
+    lt: Kafrinė
+    zh: 卡夫林區
+    ccp: "\U00011107\U0001111C\U00011133\U00011122\U00011128\U0001111A\U00011134"
+    uk: Регіон Кафрін
+  comments: 
+KE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: كيدوغو
     bn: কেদুগো
@@ -601,7 +706,24 @@ KE:
     tr: Kédougou
     ur: کیدؤگؤ علاقہ
     vi: Kédougou
-SE:
+    lv: Kēdugu
+    ceb: Région de Kédougou
+    lt: Kedugu
+    zh: 凱杜古區
+    ccp: "\U00011107\U0001112C\U00011113\U0001112F\U00011109\U0001112F"
+    uk: Регіон Кедугу
+  comments: 
+SE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سيدهيو
     bn: সেধিউ
@@ -637,3 +759,12 @@ SE:
     tr: Sédhiou
     ur: سیدھیو علاقہ
     vi: Sédhiou
+    lv: Sēgu
+    ceb: Région de Sédhiou
+    lt: Sediju regionas
+    zh: 塞久區
+    sq: Rajoni Sédhiou
+    ccp: "\U00011125\U0001112C\U00011119\U00011128\U00011120\U0001112E"
+    uk: Регіон Седіу
+    be: рэгіён Седзіу
+  comments: 

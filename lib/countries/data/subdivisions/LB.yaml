@@ -1,8 +1,17 @@
 ---
-AS:
+AS: 
+  name: Loubnâne ech Chemâli
+  code: 
   unofficial_names:
   - Ash Shamal
   - North
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: North
     ar: الشمال
@@ -46,15 +55,14 @@ AS:
     ur: محافظہ شمالی
     vi: Tỉnh Bắc
     zh: 北部省
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Loubnâne ech Chemâli
-BA:
+    lv: Ziemeļlibānas muhāfaza
+    ceb: Mohafazat Liban-Nord
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134"
+    ka: ჩრდილოეთის მუჰაფაზა
+  comments: 
+BA: 
+  name: Beirut
+  code: 
   unofficial_names:
   - Bayrout
   - Bayrut
@@ -62,6 +70,13 @@ BA:
   - Beyrout
   - Beyrouth
   - Beyrût
+  geo:
+    latitude: 33.8886289
+    longitude: 35.4954794
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Beirut
     ar: بيروت
@@ -103,17 +118,24 @@ BA:
     uk: Бейрут (провінція)
     ur: محافظہ بیروت
     vi: Beirut
+    lv: Beirūtas muhāfaza
+    ceb: Beyrouth
+    zh: 贝鲁特省
+    ccp: "\U0001111D\U00011130\U00011122\U0001112A\U00011116\U00011134"
+    ka: ბეირუთის მუჰაფაზა
+  comments: 
+BI: 
+  name: El Béqaa
+  code: 
+  unofficial_names:
+  - Bekaa
   geo:
-    latitude: 33.8886289
-    longitude: 35.4954794
+    latitude: 33.7616036
+    longitude: 35.8835437
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Beirut
-BI:
-  unofficial_names:
-  - Bekaa
   translations:
     en: Beqaa
     ar: البقاع
@@ -148,17 +170,23 @@ BI:
     uk: Бекаа
     ur: محافظہ بقاع
     vi: Beqaa
+    ceb: Mohafazat Béqaa
+    zh: 貝卡省
+    ccp: "\U0001111D\U0001112C\U00011107"
+    ka: ბექაას მუჰაფაზა
+  comments: 
+JA: 
+  name: Loubnâne ej Jnoûbi
+  code: 
+  unofficial_names:
+  - South
   geo:
-    latitude: 33.7616036
-    longitude: 35.8835437
+    latitude: 
+    longitude: 
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: El Béqaa
-JA:
-  unofficial_names:
-  - South
   translations:
     en: South
     ar: محافظة الجنوب
@@ -192,17 +220,23 @@ JA:
     uk: Південний Ліван (провінція)
     ur: محافظہ جنوبی
     vi: Tỉnh Nam, Liban
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Loubnâne ej Jnoûbi
-JL:
+    ceb: Mohafazat Liban-Sud
+    zh: 南部省
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+    ka: სამხრეთის მუჰაფაზა
+  comments: 
+JL: 
+  name: Jabal Loubnâne
+  code: 
   unofficial_names:
   - Mount Lebanon
+  geo:
+    latitude: 33.9046635
+    longitude: 35.6969984
+    min_latitude: 33.4916836
+    min_longitude: 35.3858701
+    max_latitude: 34.2113502
+    max_longitude: 36.0150637
   translations:
     en: Mount Lebanon
     ar: جبل لبنان
@@ -245,17 +279,24 @@ JL:
     uk: Гірський Ліван
     ur: محافظہ جبل لبنان
     vi: Núi Liban
-  geo:
-    latitude: 33.9046635
-    longitude: 35.6969984
-    min_latitude: 33.4916836
-    min_longitude: 35.3858701
-    max_latitude: 34.2113502
-    max_longitude: 36.0150637
-  name: Jabal Loubnâne
-NA:
+    lv: Kalnu Libānas muhāfaza
+    zh: 黎巴嫩山省
+    ccp: "\U0001111F\U00011127\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011134
+      \U00011123\U0001112C\U0001111D\U0001111A\U00011127\U0001111A\U00011134"
+    ka: მთიანი ლიბანის მუჰაფაზა
+  comments: 
+NA: 
+  name: Nabatîyé
+  code: 
   unofficial_names:
   - Nabatiyeh
+  geo:
+    latitude: 33.285507
+    longitude: 35.5000999
+    min_latitude: 33.0549366
+    min_longitude: 35.2418835
+    max_latitude: 33.5112517
+    max_longitude: 35.86385569999999
   translations:
     en: Nabatieh
     ar: النبطية
@@ -300,22 +341,51 @@ NA:
     uk: Набатія (провінція)
     ur: محافظہ نبطیہ
     vi: Nabatieh
+    lv: Nabatijas muhāfaza
+    ceb: Mohafazat Nabatîyé
+    zh: 納巴泰省
+    ccp: "\U0001111A\U00011127\U0001111D\U00011127\U00011111\U00011128\U00011120\U00011126\U00011134"
+    ka: ნაბათიეს მუჰაფაზა
+  comments: 
+AK: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 33.285507
-    longitude: 35.5000999
-    min_latitude: 33.0549366
-    min_longitude: 35.2418835
-    max_latitude: 33.5112517
-    max_longitude: 35.86385569999999
-  name: Nabatîyé
-AK:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة عكار
     de: Gouvernement Akkar
     en: Akkar
     es: Gobernación de Akkar
     hu: Akkár kormányzóság
-BH:
+    ceb: Mohafazat Aakkâr
+    zh: 阿卡省
+    sv: Mohafazat Aakkâr
+    ja: アッカール県
+    ru: Аккар
+    ccp: "\U00011103\U00011127\U00011107\U00011134\U00011107\U00011127\U00011122\U00011134"
+    ka: აკარის მუჰაფაზა
+    ko: 아카르 주
+    he: מחוז עכאר
+    it: Governatorato di Akkar
+  comments: 
+BH: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة بعلبك الهرمل
     de: Gouvernement Baalbek-Hermel
@@ -323,3 +393,14 @@ BH:
     es: Gobernación de Baalbek - Hermel
     he: מחוז בעלבכ-הרמל
     hu: Baalbek-Hermel kormányzóság
+    ceb: Mohafazat Baalbek-Hermel
+    ur: محافظہ بعلبک الہرمل
+    zh: 巴勒貝克-希爾米勒省
+    sv: Mohafazat Baalbek-Hermel
+    ru: Баальбек-Хирмиль
+    ccp: "\U0001111D\U00011127\U00011123\U00011134\U0001111D\U0001112C\U00011107\U00011134-\U00011126\U00011122\U00011134\U0001111F\U0001112C\U00011123\U00011134"
+    ka: ბაალბექ-ჰერმელის მუჰაფაზა
+    fr: gouvernorat de Baalbek-Hermel
+    ko: 바알베크헤르멜 주
+    it: Governatorato di Baalbek-Hermel
+  comments: 

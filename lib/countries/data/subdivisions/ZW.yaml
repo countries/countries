@@ -1,9 +1,8 @@
 ---
-BU:
+BU: 
+  name: Bulawayo
+  code: 
   unofficial_names: Bulawayo
-  translations:
-    en: Bulawayo
-    ru: Булавайо
   geo:
     latitude: -20.1325066
     longitude: 28.626479
@@ -11,13 +10,18 @@ BU:
     min_longitude: 28.4270096
     max_latitude: -19.9920628
     max_longitude: 28.7632372
-  name: Bulawayo
-HA:
-  unofficial_names: Harare
   translations:
-    en: Harare
-    de: Provinz Harare
-    ru: Хараре
+    en: Bulawayo
+    ru: Булавайо
+    ceb: Bulawayo Province
+    ar: إقليم بولاوايو
+    ccp: "\U0001111D\U0001112A\U00011123\U00011124\U00011103\U0001112E"
+    be: Булавая
+  comments: 
+HA: 
+  name: Harare
+  code: 
+  unofficial_names: Harare
   geo:
     latitude: -17.863889
     longitude: 31.029722
@@ -25,9 +29,30 @@ HA:
     min_longitude: 30.8890352
     max_latitude: -17.6775542
     max_longitude: 31.2246813
-  name: Harare
-MA:
+  translations:
+    en: Harare
+    de: Provinz Harare
+    ru: Хараре
+    ceb: Harare Province
+    ar: إقليم هراري
+    ja: ハラレ州
+    ccp: "\U00011126\U00011122\U00011122\U0001112C"
+    ko: 하라레주
+    pt: Harare
+    nb: Harare Province
+    ne: हरारे प्रदेश
+  comments: 
+MA: 
+  name: Manicaland
+  code: 
   unofficial_names: Manicaland
+  geo:
+    latitude: -18.9216386
+    longitude: 32.174605
+    min_latitude: -21.328112
+    min_longitude: 31.23346299999999
+    max_latitude: -17.250581
+    max_longitude: 33.0563049
   translations:
     en: Manicaland
     af: Manicaland
@@ -73,16 +98,22 @@ MA:
     ur: مانیکالینڈ صوبہ
     vi: Tỉnh Manicaland
     zh: 馬尼卡蘭省
-  geo:
-    latitude: -18.9216386
-    longitude: 32.174605
-    min_latitude: -21.328112
-    min_longitude: 31.23346299999999
-    max_latitude: -17.250581
-    max_longitude: 33.0563049
-  name: Manicaland
-MC:
+    lv: Manikalandes province
+    ceb: Manicaland Province
+    sr_Latn: Manikalend
+    ccp: "\U0001111F\U00011127\U0001111A\U00011128\U00011107\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+  comments: 
+MC: 
+  name: Mashonaland Central
+  code: 
   unofficial_names: Mashonaland Central
+  geo:
+    latitude: -16.7644295
+    longitude: 31.0793705
+    min_latitude: -17.744136
+    min_longitude: 30.048639
+    max_latitude: -15.617567
+    max_longitude: 32.7613351
   translations:
     en: Mashonaland Central
     af: Masjonaland-Sentraal
@@ -127,16 +158,23 @@ MC:
     ur: ماشونالینڈ وسطی صوبہ
     vi: Tỉnh Miền Trung Mashonaland
     zh: 中馬紹納蘭省
-  geo:
-    latitude: -16.7644295
-    longitude: 31.0793705
-    min_latitude: -17.744136
-    min_longitude: 30.048639
-    max_latitude: -15.617567
-    max_longitude: 32.7613351
-  name: Mashonaland Central
-ME:
+    lv: Centrālās Mašonalendas province
+    ceb: Mashonaland Central Province
+    sr_Latn: Mašonalend Central
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+  comments: 
+ME: 
+  name: Mashonaland East
+  code: 
   unofficial_names: Mashonaland East
+  geo:
+    latitude: -18.5871642
+    longitude: 31.2626366
+    min_latitude: -19.2712461
+    min_longitude: 30.485893
+    max_latitude: -16.6989399
+    max_longitude: 32.9946659
   translations:
     en: Mashonaland East
     af: Masjonaland-Oos
@@ -181,16 +219,24 @@ ME:
     ur: ماشونالینڈ مشرقی صوبہ
     vi: Tỉnh Mashonaland East
     zh: 東馬紹納蘭省
-  geo:
-    latitude: -18.5871642
-    longitude: 31.2626366
-    min_latitude: -19.2712461
-    min_longitude: 30.485893
-    max_latitude: -16.6989399
-    max_longitude: 32.9946659
-  name: Mashonaland East
-MI:
+    lv: Austrummašonalendas province
+    ceb: Mashonaland East Province
+    sr_Latn: Mašonalend Istok
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U0001111B\U0001112A\U00011107\U00011134"
+    he: משונאלנד מזרח פרובינציה
+  comments: 
+MI: 
+  name: Midlands
+  code: 
   unofficial_names: Midlands
+  geo:
+    latitude: -19.0552009
+    longitude: 29.6035495
+    min_latitude: -21.045869
+    min_longitude: 27.989973
+    max_latitude: -17.132798
+    max_longitude: 30.8542231
   translations:
     en: Midlands
     af: Midlands
@@ -235,16 +281,22 @@ MI:
     ur: مڈلینڈز صوبہ
     vi: Tỉnh Midlands
     zh: 中部省
-  geo:
-    latitude: -19.0552009
-    longitude: 29.6035495
-    min_latitude: -21.045869
-    min_longitude: 27.989973
-    max_latitude: -17.132798
-    max_longitude: 30.8542231
-  name: Midlands
-MN:
+    lv: Midlendsas province
+    ceb: Midlands Province
+    sr_Latn: Midlends
+    ccp: "\U0001111F\U00011128\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
+  comments: 
+MN: 
+  name: Matabeleland North
+  code: 
   unofficial_names: Matabeleland North
+  geo:
+    latitude: -18.5331566
+    longitude: 27.5495846
+    min_latitude: -20.343325
+    min_longitude: 25.237028
+    max_latitude: -17.0204861
+    max_longitude: 29.2292519
   translations:
     en: Matabeleland North
     af: Matabeleland-Noord
@@ -290,16 +342,23 @@ MN:
     ur: ماتابیلےلینڈ شمالی صوبہ
     vi: Tỉnh Matabeleland North
     zh: 北馬塔貝萊蘭省
-  geo:
-    latitude: -18.5331566
-    longitude: 27.5495846
-    min_latitude: -20.343325
-    min_longitude: 25.237028
-    max_latitude: -17.0204861
-    max_longitude: 29.2292519
-  name: Matabeleland North
-MS:
+    lv: Ziemeļmatabelelendas province
+    ceb: Matabeleland North Province
+    sr_Latn: Matabelelend Sever
+    ccp: "\U0001111F\U00011111\U0001111D\U00011128\U00011123\U00011128\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134"
+  comments: 
+MS: 
+  name: Matabeleland South
+  code: 
   unofficial_names: Matabeleland South
+  geo:
+    latitude: -21.052337
+    longitude: 29.0459927
+    min_latitude: -22.351074
+    min_longitude: 26.6982439
+    max_latitude: -19.48262
+    max_longitude: 31.1148949
   translations:
     en: Matabeleland South
     af: Matabeleland-Suid
@@ -344,16 +403,23 @@ MS:
     ur: ماتابیلےلینڈ جنوبی صوبہ
     vi: Tỉnh Matabeleland South
     zh: 南馬塔貝萊蘭省
-  geo:
-    latitude: -21.052337
-    longitude: 29.0459927
-    min_latitude: -22.351074
-    min_longitude: 26.6982439
-    max_latitude: -19.48262
-    max_longitude: 31.1148949
-  name: Matabeleland South
-MV:
+    lv: Dienvidmatabelelendas province
+    ceb: Matabeleland South Province
+    sr_Latn: Matabelelend Jug
+    ccp: "\U0001111F\U00011111\U0001111D\U00011128\U00011123\U00011128\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+  comments: 
+MV: 
+  name: Masvingo
+  code: 
   unofficial_names: Masvingo
+  geo:
+    latitude: -20.074444
+    longitude: 30.83277799999999
+    min_latitude: -20.1076843
+    min_longitude: 30.7932604
+    max_latitude: -20.0377179
+    max_longitude: 30.86741769999999
   translations:
     en: Masvingo
     af: Masvingo
@@ -398,16 +464,22 @@ MV:
     ur: ماسونگو صوبہ
     vi: Tỉnh Masvingo
     zh: 馬斯溫戈省
-  geo:
-    latitude: -20.074444
-    longitude: 30.83277799999999
-    min_latitude: -20.1076843
-    min_longitude: 30.7932604
-    max_latitude: -20.0377179
-    max_longitude: 30.86741769999999
-  name: Masvingo
-MW:
+    lv: Masvingo province
+    ceb: Masvingo Province
+    sr_Latn: Mašvingo
+    ccp: "\U0001111F\U0001110C\U00011134\U0001111E\U00011128\U00011101\U00011109\U0001112E"
+  comments: 
+MW: 
+  name: Mashonaland West
+  code: 
   unofficial_names: Mashonaland West
+  geo:
+    latitude: -17.4851029
+    longitude: 29.7889248
+    min_latitude: -18.902802
+    min_longitude: 28.026284
+    max_latitude: -15.6088341
+    max_longitude: 30.993064
   translations:
     en: Mashonaland West
     af: Masjonaland-Wes
@@ -452,11 +524,9 @@ MW:
     ur: ماشونالینڈ مغربی صوبہ
     vi: Tỉnh Mashonaland West
     zh: 西馬紹納蘭省
-  geo:
-    latitude: -17.4851029
-    longitude: 29.7889248
-    min_latitude: -18.902802
-    min_longitude: 28.026284
-    max_latitude: -15.6088341
-    max_longitude: 30.993064
-  name: Mashonaland West
+    lv: Rietummašonalendas province
+    ceb: Mashonaland West Province
+    sr_Latn: Mašonalend Zapad
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+  comments: 

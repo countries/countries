@@ -1,6 +1,15 @@
 ---
-CE:
+CE: 
+  name: Central
+  code: 
   unofficial_names: Central
+  geo:
+    latitude: -9.0516057
+    longitude: 160.1693949
+    min_latitude: -9.287286
+    min_longitude: 158.730864
+    max_latitude: -8.84783
+    max_longitude: 160.4130619
   translations:
     en: Central
     ar: المقاطعة الوسطى
@@ -41,17 +50,24 @@ CE:
     ur: وسطی صوبہ
     vi: Tỉnh Miền Trung
     zh: 中部群島省
-  geo:
-    latitude: -9.0516057
-    longitude: 160.1693949
-    min_latitude: -9.287286
-    min_longitude: 158.730864
-    max_latitude: -8.84783
-    max_longitude: 160.4130619
-  name: Central
-CH:
+    lv: Centrālā province
+    ceb: Central Province (lalawigan sa Kapupud-ang Solomon)
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    uk: Центральна провінція
+    mk: Централна Провинција
+  comments: 
+CH: 
+  name: Choiseul
+  code: 
   unofficial_names:
   - Lauru
+  geo:
+    latitude: -7.0501494
+    longitude: 156.9511459
+    min_latitude: -7.486276999999999
+    min_longitude: 156.3830852
+    max_latitude: -6.5901809
+    max_longitude: 157.8805597
   translations:
     en: Choiseul
     ar: ضاحية شويزل
@@ -90,16 +106,23 @@ CH:
     tr: Choiseul Province
     ur: چویسیول صوبہ
     vi: Tỉnh Choiseul
-  geo:
-    latitude: -7.0501494
-    longitude: 156.9511459
-    min_latitude: -7.486276999999999
-    min_longitude: 156.3830852
-    max_latitude: -6.5901809
-    max_longitude: 157.8805597
-  name: Choiseul
-CT:
+    lv: Šuazelas province
+    ceb: Choiseul (lalawigan sa Kapupud-ang Solomon)
+    zh: 舒瓦瑟爾省
+    ccp: "\U00011107\U00011130\U00011131\U00011125\U00011128\U00011105\U0001112A\U00011123\U00011134"
+    uk: Провінція Шуазйоль
+  comments: 
+CT: 
+  name: Capital Territory (Honiara)
+  code: 
   unofficial_names: Capital Territory (Honiara)
+  geo:
+    latitude: -9.4343868
+    longitude: 159.9609892
+    min_latitude: -9.457228899999999
+    min_longitude: 159.9145083
+    max_latitude: -9.4211729
+    max_longitude: 160.0229509
   translations:
     en: Honiara
     af: Honiara
@@ -157,16 +180,32 @@ CT:
     uk: Хоніара
     ur: ہونیارا
     vi: Honiara
-  geo:
-    latitude: -9.4343868
-    longitude: 159.9609892
-    min_latitude: -9.457228899999999
-    min_longitude: 159.9145083
-    max_latitude: -9.4211729
-    max_longitude: 160.0229509
-  name: Capital Territory (Honiara)
-GU:
+    cy: Honiara
+    ceb: Honiara (ulohang dakbayan)
+    sr_Latn: Honijara
+    zh: 霍尼亚拉
+    yue_Hans: 康尼艾华
+    ccp: "\U00011126\U00011127\U0001111A\U00011128\U00011120\U00011122"
+    ga: Hóiniára
+    so: Honiara
+    pa: ਹੋਨੀਆਰਾ
+    yue: 康尼艾華
+    yo: Honiara
+    uz: Xoniara
+    bs: Honiara
+    mk: Хонијара
+  comments: 
+GU: 
+  name: Guadalcanal
+  code: 
   unofficial_names: Guadalcanal
+  geo:
+    latitude: -9.577328399999999
+    longitude: 160.1455805
+    min_latitude: -9.9442284
+    min_longitude: 159.5873199
+    max_latitude: -9.2508648
+    max_longitude: 160.8318648
   translations:
     en: Guadalcanal
     ar: مقاطعة غوادالكانال
@@ -205,16 +244,22 @@ GU:
     uk: Гуадалканал
     ur: گوادالکانال صوبہ
     vi: Tỉnh Guadalcanal
-  geo:
-    latitude: -9.577328399999999
-    longitude: 160.1455805
-    min_latitude: -9.9442284
-    min_longitude: 159.5873199
-    max_latitude: -9.2508648
-    max_longitude: 160.8318648
-  name: Guadalcanal
-IS:
+    lv: Gvadalkanāla province
+    ceb: Guadalcanal Province
+    zh: 瓜達爾卡納爾省
+    ccp: "\U00011109\U0001112A\U00011120\U00011113\U00011123\U00011134\U00011107\U0001111A\U00011123\U00011134"
+  comments: 
+IS: 
+  name: Isabel
+  code: 
   unofficial_names: Isabel
+  geo:
+    latitude: -8.0592353
+    longitude: 159.1447081
+    min_latitude: -8.5734088
+    min_longitude: 157.9629997
+    max_latitude: -7.359185999999998
+    max_longitude: 159.922843
   translations:
     en: Isabel
     ar: مقاطعة إيزابيل
@@ -253,17 +298,24 @@ IS:
     tr: Isabel Province
     ur: ایزابیل صوبہ
     vi: Tỉnh Isabel
-  geo:
-    latitude: -8.0592353
-    longitude: 159.1447081
-    min_latitude: -8.5734088
-    min_longitude: 157.9629997
-    max_latitude: -7.359185999999998
-    max_longitude: 159.922843
-  name: Isabel
-MK:
+    lv: Isabelas province
+    ceb: Isabel Province
+    zh: 伊莎貝爾省
+    ccp: "\U00011103\U00011128\U00011125\U0001111D\U0001112C\U00011123\U00011134"
+    uk: Провінція Ісабель
+  comments: 
+MK: 
+  name: Makira
+  code: 
   unofficial_names:
   - San Cristóbal
+  geo:
+    latitude: -10.5737447
+    longitude: 161.8096941
+    min_latitude: -10.9010735
+    min_longitude: 161.2639239
+    max_latitude: -9.714576899999999
+    max_longitude: 162.4842479
   translations:
     en: Makira-Ulawa
     de: Makira und Ulawa
@@ -284,17 +336,23 @@ MK:
     ru: Макира-Улава
     ur: ماکیرا-اولاوا صوبہ
     vi: Makira-Ulawa
-  geo:
-    latitude: -10.5737447
-    longitude: 161.8096941
-    min_latitude: -10.9010735
-    min_longitude: 161.2639239
-    max_latitude: -9.714576899999999
-    max_longitude: 162.4842479
-  name: Makira
-ML:
+    ceb: Makira-Ulawa Province
+    zh: 馬基拉-烏拉瓦省
+    ccp: "\U0001111F\U00011107\U00011128\U00011122-\U00011103\U00011123\U00011124"
+    uk: Макіра-Улава
+  comments: 
+ML: 
+  name: Malaita
+  code: 
   unofficial_names:
   - Mala
+  geo:
+    latitude: -8.9446168
+    longitude: 160.9071236
+    min_latitude: -9.729862299999999
+    min_longitude: 160.5585766
+    max_latitude: -8.3105853
+    max_longitude: 161.5823776
   translations:
     en: Malaita
     ar: محافظة مالايتا
@@ -332,16 +390,23 @@ ML:
     tr: Malaita Province
     ur: مالایتا صوبہ
     vi: Tỉnh Malaita
-  geo:
-    latitude: -8.9446168
-    longitude: 160.9071236
-    min_latitude: -9.729862299999999
-    min_longitude: 160.5585766
-    max_latitude: -8.3105853
-    max_longitude: 161.5823776
-  name: Malaita
-RB:
+    lv: Malaitas province
+    ceb: Malaita Province
+    zh: 馬萊塔省
+    ccp: "\U0001111F\U00011123\U0001112D\U00011111"
+    uk: Провінція Малаіта
+  comments: 
+RB: 
+  name: Rennell and Bellona
+  code: 
   unofficial_names: Rennell and Bellona
+  geo:
+    latitude: -11.6131435
+    longitude: 160.1693949
+    min_latitude: -11.8505741
+    min_longitude: 159.7519747
+    max_latitude: -11.2732136
+    max_longitude: 160.5820945
   translations:
     en: Rennell and Bellona
     ar: محافظة رينيل و بيلونا
@@ -380,17 +445,25 @@ RB:
     tr: Rennel and Bellona Province
     ur: رینل اور بیلونا صوبہ
     vi: Tỉnh Rennell và Bellona
-  geo:
-    latitude: -11.6131435
-    longitude: 160.1693949
-    min_latitude: -11.8505741
-    min_longitude: 159.7519747
-    max_latitude: -11.2732136
-    max_longitude: 160.5820945
-  name: Rennell and Bellona
-TE:
+    lv: Renelas un Belonas province
+    ceb: Rennell and Bellona
+    zh: 拉納爾和貝羅納省
+    ccp: "\U00011122\U0001112C\U0001111A\U0001112C\U00011123\U00011134 \U00011103\U00011133\U00011103
+      \U0001111D\U0001112C\U00011123\U0001112E\U0001111A"
+    uk: Провінція Реннелл та Беллона
+  comments: 
+TE: 
+  name: Temotu
+  code: 
   unofficial_names:
   - Eastern Islands
+  geo:
+    latitude: -10.686929
+    longitude: 166.0623979
+    min_latitude: -12.312529
+    min_longitude: 165.650482
+    max_latitude: -9.7597709
+    max_longitude: 168.8457699
   translations:
     en: Temotu
     ar: محافظة تيموتو
@@ -428,16 +501,23 @@ TE:
     tr: Temotu Province
     ur: تیموتو صوبہ
     vi: Temotu
-  geo:
-    latitude: -10.686929
-    longitude: 166.0623979
-    min_latitude: -12.312529
-    min_longitude: 165.650482
-    max_latitude: -9.7597709
-    max_longitude: 168.8457699
-  name: Temotu
-WE:
+    lv: Temotu province
+    ceb: Temotu Province
+    zh: 泰莫圖省
+    ccp: "\U00011111\U0001112C\U0001111F\U0001112E\U00011111\U0001112A"
+    uk: Провінція Темоту
+  comments: 
+WE: 
+  name: Western
+  code: 
   unofficial_names: Western
+  geo:
+    latitude: -8.128037299999999
+    longitude: 157.4278119
+    min_latitude: -8.829506
+    min_longitude: 155.513278
+    max_latitude: -6.673965
+    max_longitude: 158.2985577
   translations:
     en: Western
     ar: المحافظة الغربية
@@ -476,11 +556,10 @@ WE:
     tr: Western Province
     ur: مغربی صوبہ
     vi: Tỉnh Phía Tây
-  geo:
-    latitude: -8.128037299999999
-    longitude: 157.4278119
-    min_latitude: -8.829506
-    min_longitude: 155.513278
-    max_latitude: -6.673965
-    max_longitude: 158.2985577
-  name: Western
+    lv: Rietumu province
+    ceb: Western Province
+    zh: 西部省
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    uk: Західна провінція
+    ca: Província Occidental
+  comments: 

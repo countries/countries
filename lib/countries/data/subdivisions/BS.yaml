@@ -1,8 +1,8 @@
 ---
-AC:
+AC: 
+  name: Acklins and Crooked Islands
+  code: 
   unofficial_names: Acklins and Crooked Islands
-  translations:
-    en: Acklins and Crooked Islands
   geo:
     latitude: 22.6390982
     longitude: -74.006509
@@ -10,10 +10,21 @@ AC:
     min_longitude: -74.3925476
     max_latitude: 22.8505193
     max_longitude: -73.83293139999999
-  name: Acklins and Crooked Islands
-BI:
+  translations:
+    en: Acklins and Crooked Islands
+  comments: 
+BI: 
+  name: Bimini
+  code: 
   unofficial_names:
   - Bimini Islands
+  geo:
+    latitude: 25.7335838
+    longitude: -79.2730734
+    min_latitude: 23.5008488
+    min_longitude: -79.6230087
+    max_latitude: 25.7793547
+    max_longitude: -79.2407364
   translations:
     en: Bimini
     ar: بيميني
@@ -52,16 +63,25 @@ BI:
     tr: Brimini
     ur: بیمینی
     vi: Bimini
-  geo:
-    latitude: 25.7335838
-    longitude: -79.2730734
-    min_latitude: 23.5008488
-    min_longitude: -79.6230087
-    max_latitude: 25.7793547
-    max_longitude: -79.2407364
-  name: Bimini
-CI:
+    lv: Bimini
+    ceb: Bimini Islands
+    zh: 比米尼群島
+    ccp: "\U0001111D\U00011128\U0001111F\U00011128\U0001111A\U00011128"
+    eu: Bimini
+    uk: Біміні
+    ca: Birmini
+  comments: 
+CI: 
+  name: Cat Island
+  code: 
   unofficial_names: Cat Island
+  geo:
+    latitude: 24.213309
+    longitude: -75.36453689999999
+    min_latitude: 24.1143709
+    min_longitude: -75.972464
+    max_latitude: 24.6962691
+    max_longitude: -75.29468609999999
   translations:
     en: Cat Island
     ar: جزيرة كات
@@ -101,16 +121,26 @@ CI:
     tr: Cat Adası
     ur: جزیرہ کیٹ، بہاماس
     vi: Đảo Cat
-  geo:
-    latitude: 24.213309
-    longitude: -75.36453689999999
-    min_latitude: 24.1143709
-    min_longitude: -75.972464
-    max_latitude: 24.6962691
-    max_longitude: -75.29468609999999
-  name: Cat Island
-EX:
+    lv: Kata sala
+    ceb: Cat Island
+    sr_Latn: Ostrvo mačaka (Bahami)
+    zh: 卡特島
+    ccp: "\U00011107\U00011133\U00011120\U00011116\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Кет-Айленд
+    cs: Cat Island
+    mk: Мачкин Остров
+  comments: 
+EX: 
+  name: Exuma
+  code: 
   unofficial_names: Exuma
+  geo:
+    latitude: 23.5333333
+    longitude: -75.83333329999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Exuma
     ar: إكسوما
@@ -148,18 +178,17 @@ EX:
     tr: Exuma
     ur: جارج ٹاؤن، بہاماس
     vi: Exuma
-  geo:
-    latitude: 23.5333333
-    longitude: -75.83333329999999
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Exuma
-FC:
+    lv: Eksuma
+    ceb: Exuma District
+    zh: 埃克蘇馬
+    ccp: "\U00011103\U0001112C\U00011107\U00011134\U0001110E\U00011128\U00011105\U0001112A\U0001111F"
+    uk: Ексума
+    ca: Exuma
+  comments: 
+FC: 
+  name: Fresh Creek
+  code: 
   unofficial_names: Fresh Creek
-  translations:
-    en: Fresh Creek
   geo:
     latitude: 24.6983639
     longitude: -77.7952675
@@ -167,9 +196,20 @@ FC:
     min_longitude: -77.80328759999999
     max_latitude: 24.7005017
     max_longitude: -77.7866578
-  name: Fresh Creek
-FP:
+  translations:
+    en: Fresh Creek
+  comments: 
+FP: 
+  name: Freeport
+  code: 
   unofficial_names: Freeport
+  geo:
+    latitude: 26.528472
+    longitude: -78.69658299999999
+    min_latitude: 26.490017
+    min_longitude: -78.7320184
+    max_latitude: 26.5800838
+    max_longitude: -78.55659969999999
   translations:
     en: Freeport
     ar: فريبورت
@@ -209,18 +249,18 @@ FP:
     tr: Freeport
     ur: فری پورٹ، بہاماس
     vi: Freeport
-  geo:
-    latitude: 26.528472
-    longitude: -78.69658299999999
-    min_latitude: 26.490017
-    min_longitude: -78.7320184
-    max_latitude: 26.5800838
-    max_longitude: -78.55659969999999
-  name: Freeport
-GH:
+    lv: Frīporta
+    ceb: Freeport (kapital sa distrito)
+    zh: 自由港 (巴哈馬)
+    ccp: "\U0001111C\U00011133\U00011122\U00011128\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134"
+    et: Freeport
+    uk: Фріпорт
+    ca: Freeport
+  comments: 
+GH: 
+  name: Governor's Harbour
+  code: 
   unofficial_names: Governor's Harbour
-  translations:
-    en: Governor's Harbour
   geo:
     latitude: 25.1962025
     longitude: -76.2406701
@@ -228,11 +268,13 @@ GH:
     min_longitude: -76.2521727
     max_latitude: 25.2022619
     max_longitude: -76.2347746
-  name: Governor's Harbour
-GT:
-  unofficial_names: Green Turtle Cay
   translations:
-    en: Green Turtle Cay
+    en: Governor's Harbour
+  comments: 
+GT: 
+  name: Green Turtle Cay
+  code: 
+  unofficial_names: Green Turtle Cay
   geo:
     latitude: 26.7747107
     longitude: -77.3295708
@@ -240,9 +282,20 @@ GT:
     min_longitude: -77.3430633
     max_latitude: 26.7985953
     max_longitude: -77.30890269999999
-  name: Green Turtle Cay
-HI:
+  translations:
+    en: Green Turtle Cay
+  comments: 
+HI: 
+  name: Harbour Island
+  code: 
   unofficial_names: Harbour Island
+  geo:
+    latitude: 25.5282318
+    longitude: -76.63585619999999
+    min_latitude: 25.5254889
+    min_longitude: -76.63702880000001
+    max_latitude: 25.5310964
+    max_longitude: -76.6342567
   translations:
     en: Harbour Island
     ar: جزيرة هاربور
@@ -278,18 +331,19 @@ HI:
     tr: Harbour Adası
     ur: حاربوور آئی لینڈ
     vi: Đảo Harbour
-  geo:
-    latitude: 25.5282318
-    longitude: -76.63585619999999
-    min_latitude: 25.5254889
-    min_longitude: -76.63702880000001
-    max_latitude: 25.5310964
-    max_longitude: -76.6342567
-  name: Harbour Island
-HR:
+    lv: Hāborailenda
+    ceb: Harbour Island District
+    lt: Harboro sala
+    zh: 哈勃岛
+    ccp: "\U00011126\U00011122\U00011134\U0001111D\U00011122\U00011133\U00011113\U00011134
+      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Харбор-Айленд
+    ca: Illa Harbour
+  comments: 
+HR: 
+  name: High Rock
+  code: 
   unofficial_names: High Rock
-  translations:
-    en: High Rock
   geo:
     latitude: 26.6239333
     longitude: -78.2832069
@@ -297,9 +351,20 @@ HR:
     min_longitude: -78.288231
     max_latitude: 26.628432
     max_longitude: -78.2750559
-  name: High Rock
-IN:
+  translations:
+    en: High Rock
+  comments: 
+IN: 
+  name: Inagua
+  code: 
   unofficial_names: Inagua
+  geo:
+    latitude: 21.0656066
+    longitude: -73.323708
+    min_latitude: 20.9121311
+    min_longitude: -73.855476
+    max_latitude: 21.7022436
+    max_longitude: -72.913495
   translations:
     en: Inagua
     ar: إيناغوا
@@ -337,18 +402,18 @@ IN:
     tr: Inagua
     ur: اناگوا
     vi: Inagua
-  geo:
-    latitude: 21.0656066
-    longitude: -73.323708
-    min_latitude: 20.9121311
-    min_longitude: -73.855476
-    max_latitude: 21.7022436
-    max_longitude: -72.913495
-  name: Inagua
-KB:
+    lv: Inagua
+    ceb: Inagua
+    zh: 伊納瓜
+    ccp: "\U00011103\U00011128\U0001111A\U00011109\U0001112A\U00011120"
+    uk: Інагуа
+    cs: Inagua
+    be: Інагуа
+  comments: 
+KB: 
+  name: Kemps Bay
+  code: 
   unofficial_names: Kemps Bay
-  translations:
-    en: Kemps Bay
   geo:
     latitude: 24.0298132
     longitude: -76.36806960000001
@@ -356,9 +421,20 @@ KB:
     min_longitude: -76.3765669
     max_latitude: 24.0376458
     max_longitude: -76.3579845
-  name: Kemps Bay
-LI:
+  translations:
+    en: Kemps Bay
+  comments: 
+LI: 
+  name: Long Island
+  code: 
   unofficial_names: Long Island
+  geo:
+    latitude: 23.1764239
+    longitude: -75.0961549
+    min_latitude: 22.851203
+    min_longitude: -75.3465299
+    max_latitude: 23.6859532
+    max_longitude: -74.8284346
   translations:
     en: Long Island
     ar: جزيرة لونغ
@@ -397,16 +473,23 @@ LI:
     tr: Long Island
     ur: لانگ آئلینڈ، بہاماس
     vi: Long Island
-  geo:
-    latitude: 23.1764239
-    longitude: -75.0961549
-    min_latitude: 22.851203
-    min_longitude: -75.3465299
-    max_latitude: 23.6859532
-    max_longitude: -74.8284346
-  name: Long Island
-MG:
+    lv: Longailenda
+    zh: 長島
+    ccp: "\U00011123\U00011127\U00011101 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Лонг-Айленд
+    cs: Long Island
+  comments: 
+MG: 
+  name: Mayaguana
+  code: 
   unofficial_names: Mayaguana
+  geo:
+    latitude: 22.4017714
+    longitude: -73.06413959999999
+    min_latitude: 22.28255
+    min_longitude: -73.1706329
+    max_latitude: 22.456406
+    max_longitude: -72.712273
   translations:
     en: Mayaguana
     ar: ماياغوانا
@@ -441,18 +524,14 @@ MG:
     tr: Mayaguana
     ur: مایاجوانا
     vi: Mayaguana
-  geo:
-    latitude: 22.4017714
-    longitude: -73.06413959999999
-    min_latitude: 22.28255
-    min_longitude: -73.1706329
-    max_latitude: 22.456406
-    max_longitude: -72.712273
-  name: Mayaguana
-MH:
+    ceb: Mayaguana District
+    zh: 馬亞瓜納島
+    ccp: "\U0001111F\U00011120\U00011109\U0001112A\U00011120\U0001111A"
+  comments: 
+MH: 
+  name: Marsh Harbour
+  code: 
   unofficial_names: Marsh Harbour
-  translations:
-    en: Marsh Harbour
   geo:
     latitude: 26.5241653
     longitude: -77.09098089999999
@@ -460,11 +539,13 @@ MH:
     min_longitude: -77.1304088
     max_latitude: 26.5680653
     max_longitude: -77.0386218
-  name: Marsh Harbour
-NB:
-  unofficial_names: Nicholls Town and Berry Islands
   translations:
-    en: Nicholls Town and Berry Islands
+    en: Marsh Harbour
+  comments: 
+NB: 
+  name: Nicholls Town and Berry Islands
+  code: 
+  unofficial_names: Nicholls Town and Berry Islands
   geo:
     latitude: 25.7236234
     longitude: -77.8310104
@@ -472,11 +553,13 @@ NB:
     min_longitude: -77.92020400000001
     max_latitude: 25.8274544
     max_longitude: -77.7131778
-  name: Nicholls Town and Berry Islands
-NP:
-  unofficial_names: New Providence
   translations:
-    en: New Providence
+    en: Nicholls Town and Berry Islands
+  comments: 
+NP: 
+  name: New Providence
+  code: 
+  unofficial_names: New Providence
   geo:
     latitude: 25.0479835
     longitude: -77.355413
@@ -484,9 +567,20 @@ NP:
     min_longitude: -77.5558709
     max_latitude: 25.1255011
     max_longitude: -77.0867225
-  name: New Providence
-RI:
+  translations:
+    en: New Providence
+  comments: 
+RI: 
+  name: Ragged Island
+  code: 
   unofficial_names: Ragged Island
+  geo:
+    latitude: 22.1908067
+    longitude: -75.7342416
+    min_latitude: 22.169658
+    min_longitude: -75.7536111
+    max_latitude: 22.2313761
+    max_longitude: -75.7100789
   translations:
     en: Ragged Island
     ar: جزيرة راجد
@@ -521,18 +615,18 @@ RI:
     tr: Ragged Adassı
     ur: راججید آئی لینڈ
     vi: Đảo Ragged
-  geo:
-    latitude: 22.1908067
-    longitude: -75.7342416
-    min_latitude: 22.169658
-    min_longitude: -75.7536111
-    max_latitude: 22.2313761
-    max_longitude: -75.7100789
-  name: Ragged Island
-RS:
+    lv: Ragedas sala
+    ceb: Ragged Island District
+    lt: Dantytoji sala
+    zh: 拉吉德岛
+    ccp: "\U00011122\U00011107\U00011134\U00011113\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Реґед Айленд
+    ca: Illa Ragged
+  comments: 
+RS: 
+  name: Rock Sound
+  code: 
   unofficial_names: Rock Sound
-  translations:
-    en: Rock Sound
   geo:
     latitude: 24.879051
     longitude: -76.1580852
@@ -540,11 +634,13 @@ RS:
     min_longitude: -76.16486549999999
     max_latitude: 24.8982708
     max_longitude: -76.1470985
-  name: Rock Sound
-SP:
-  unofficial_names: Sandy Point
   translations:
-    en: Sandy Point
+    en: Rock Sound
+  comments: 
+SP: 
+  name: Sandy Point
+  code: 
+  unofficial_names: Sandy Point
   geo:
     latitude: 26.016667
     longitude: -77.39999999999999
@@ -552,11 +648,13 @@ SP:
     min_longitude: -77.403374
     max_latitude: 26.027315
     max_longitude: -77.3617744
-  name: Sandy Point
-SR:
-  unofficial_names: San Salvador and Rum Cay
   translations:
-    en: San Salvador and Rum Cay
+    en: Sandy Point
+  comments: 
+SR: 
+  name: San Salvador and Rum Cay
+  code: 
+  unofficial_names: San Salvador and Rum Cay
   geo:
     latitude: 23.6854676
     longitude: -74.8390162
@@ -564,8 +662,20 @@ SR:
     min_longitude: -75.13009
     max_latitude: 23.8559379
     max_longitude: -74.79217799999999
-  name: San Salvador and Rum Cay
-AK:
+  translations:
+    en: San Salvador and Rum Cay
+  comments: 
+AK: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: أكلينز
     bn: এক্লিংস
@@ -604,7 +714,24 @@ AK:
     ur: آکلینز
     vi: Acklins
     zh: 阿克林岛
-BP:
+    lv: Aklinsa
+    ceb: Acklins Island District
+    lt: Aklinsas
+    ccp: "\U00011103\U00011107\U00011134\U00011123\U00011128\U0001111A\U00011134\U00011125\U00011134"
+    uk: Аклінс
+    cs: Acklins
+  comments: 
+BP: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلاك بوينت
     bn: ব্ল্যাক পয়েন্ট
@@ -639,7 +766,24 @@ BP:
     tr: Black Point
     ur: بلیک پوائنٹ
     vi: Black Point
-BY:
+    lv: Blekpointa
+    ceb: Black Point District
+    lt: Blek Pointas
+    ccp: "\U00011107\U00011133\U00011123\U00011107\U00011134 \U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011133\U00011111\U00011134"
+    uk: Блек-Пойнт
+    ca: Black Point
+  comments: 
+BY: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جزر بيري
     bn: বেরি দ্বীপপুঞ্জ
@@ -676,7 +820,24 @@ BY:
     tr: Berry Adaları
     ur: جزائر بیری
     vi: Quần Đảo Berry
-CE:
+    lv: Berija salas
+    ceb: Berry Islands District
+    zh: 貝里群島
+    ccp: "\U0001111D\U0001112C\U00011122\U00011128 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
+    uk: Острови Бері
+    ca: Illes Berry
+  comments: 
+CE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سينترال إليوثيرا
     bn: সেন্ট্রাল এলিউথেরা
@@ -711,7 +872,25 @@ CE:
     tr: Orta Eleuthera
     ur: سینٹرل یلیوتحیرا
     vi: Miền Trung Eleuthera
-CK:
+    lv: Centrālilūtera
+    ceb: Central Eleuthera District
+    lt: Centrinė Eleutera
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011103\U00011128\U00011123\U0001112C\U00011105\U0001112A\U00011117\U0001112C\U00011122"
+    uk: Центральна Ельютера
+    ca: Central Eleuthera
+  comments: 
+CK: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جزيرة كروكد
     bn: ক্রুকেড আইল্যান্ড
@@ -746,7 +925,26 @@ CK:
     tr: Crooked Adası
     ur: جزیرہ کروکڈ، بہاماس
     vi: Đảo Crooked
-CO:
+    lv: Krukedailenda
+    ceb: Crooked Island
+    lt: Kreivoji sala
+    zh: 克魯克德島 (巴哈馬)
+    ccp: "\U00011107\U00011133\U00011122\U0001112A\U00011107\U00011134\U00011113\U00011134
+      \U00011103\U00011128\U0001110C\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Крукед-Айленд
+    ca: Illa de Crooked
+  comments: 
+CO: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سنترال أباكو
     bn: সেন্ট্রারাাল আবাকু
@@ -781,7 +979,26 @@ CO:
     tr: Orta Abako
     ur: سینٹرل اباکو
     vi: Miền Trung Abaco
-CS:
+    lv: Centrālā Abako
+    ceb: Central Abaco District
+    lt: Centrinis Abakas
+    zh: 中阿巴科
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011103\U0001111D\U00011107\U0001112E"
+    uk: Центральний Абако
+    ca: Central Abaco
+  comments: 
+CS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سنترال أندروس
     bn: সেন্ট্রারাল এন্ড্রোস
@@ -816,7 +1033,24 @@ CS:
     tr: Central Andros
     ur: سینٹرل اندروس
     vi: Miền Trung Andros
-EG:
+    lv: Centrālā Androsa
+    ceb: Central Andros District
+    lt: Centrinis Androsas
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011103\U00011125\U00011113\U00011133\U00011122\U00011127\U0001110C\U00011134"
+    uk: Центральний Андрос
+  comments: 
+EG: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: شرق غراند بهاما
     bn: ইস্ট গ্র্যান্ড বাহামা
@@ -851,7 +1085,25 @@ EG:
     tr: East Grand Bahama
     ur: ایسٹ گرینڈ ہہاما
     vi: Đông Grand Bahama
-GC:
+    lv: Austrumu Lielā Bahama
+    ceb: East Grand Bahama District
+    lt: Rytų Didžioji Bahama
+    zh: 東大巴哈馬區
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134
+      \U0001111D\U00011126\U0001111F"
+    uk: Східний Великий Багама
+  comments: 
+GC: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جراند كاي
     bn: গ্রান্ড কে
@@ -887,7 +1139,23 @@ GC:
     uk: Гранд-Кі
     ur: گرینڈ کای
     vi: Grand Cay
-HT:
+    lv: Grandkeja
+    ceb: Grand Cay District
+    lt: Grand Kėjus
+    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134 \U00011107\U00011133\U00011120\U0001112C"
+    ca: Grand Cay
+  comments: 
+HT: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: هوب تاون
     bn: হোপ টাউন
@@ -921,7 +1189,24 @@ HT:
     tr: Hope Town
     ur: ہوپ ٹاؤن
     vi: Hope Town
-MC:
+    lv: Hoptauna
+    lt: Houp Taunas
+    zh: 希望鎮
+    ccp: "\U00011126\U0001112E\U0001111B\U00011134 \U00011111\U00011105\U0001112A\U0001111A\U00011134"
+    uk: Хоуп-Таун
+    ca: Hope Town
+  comments: 
+MC: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مانغروف كاي
     bn: ম্যানগ্রোভ কে
@@ -957,7 +1242,25 @@ MC:
     tr: Mangrove Cay
     ur: مانجرووی کای
     vi: Mangrove Cay
-MI:
+    lv: Mangrovkeja
+    ceb: Mangrove Cay (distrito)
+    lt: Mangrovė Kėjus
+    ccp: "\U0001111F\U00011133\U00011120\U0001111A\U00011134\U00011109\U00011133\U00011122\U0001112A\U0001111B\U00011134
+      \U00011107\U00011133\U00011120\U0001112C"
+    uk: Мангров-Кі
+    ca: Illa de Mangrove
+  comments: 
+MI: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جزيرة مور
     da: Moore’s Island
@@ -989,7 +1292,25 @@ MI:
     th: เกาะมูเร่
     tr: Moore’s Adası
     vi: Đảo Moore’s
-NE:
+    lv: Mūra sala
+    ceb: Moore’s Island
+    lt: Muro sala
+    bn: মুর’স আইল্যান্ড
+    ccp: "\U0001111F\U0001112A\U00011122\U00011128\U0001110C\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    uk: Острів Мура
+    ca: Illa de Moore
+  comments: 
+NE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إليوثيرا الشمالية
     bn: নর্থ এলিউথেরা
@@ -1023,7 +1344,25 @@ NE:
     tr: Kuzey Eleuthra
     ur: نارتھ یلیوتحیرا
     vi: Bắc Eleuthera
-'NO':
+    lv: Ziemeļilūtera
+    ceb: North Eleuthera District
+    lt: Šiaurės Elutera
+    zh: 北伊柳塞拉
+    ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011117\U00011134 \U00011103\U00011128\U00011123\U00011128\U00011105\U0001112A\U00011117\U0001112C\U00011122"
+    uk: Північна Ельютера
+    ca: North Eleuthera
+  comments: 
+'NO': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: شمال أباكو
     bn: উত্তর অ্যাবাকো
@@ -1058,7 +1397,25 @@ NE:
     tr: Kuzey Abavo
     ur: نارتھ اباکو
     vi: Bắc Abaco
-NS:
+    lv: Ziemeļabako
+    ceb: North Abaco District
+    lt: Šiaurės Abakas
+    zh: 北阿巴科區
+    ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011117\U00011134 \U00011103\U0001111D\U00011107\U0001112E"
+    uk: Північний Абако
+    ca: North Abaco
+  comments: 
+NS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: شمال أندروس
     bn: উত্তর আন্ড্রস
@@ -1093,7 +1450,24 @@ NS:
     tr: Kuzey Andros
     ur: نارتھ اندروس
     vi: Bắc Andros
-RC:
+    lv: Ziemeļandrosa
+    ceb: North Andros District
+    lt: Šiaurės Androsas
+    ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011117\U00011134 \U00011103\U0001112C\U0001111A\U00011134\U00011113\U00011133\U00011122\U0001112E\U0001110C\U00011134"
+    uk: Північний Андрос
+    ca: North Andros
+  comments: 
+RC: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: روم كاي
     bn: রাম কে
@@ -1128,7 +1502,25 @@ RC:
     tr: Rum Cay
     ur: رم کای
     vi: Rum Cay
-SA:
+    lv: Ramkeja
+    ceb: Rum Cay
+    lt: Rum Kėjus
+    zh: 拉姆岛
+    ccp: "\U00011122\U0001111F\U00011134 \U00011107\U00011133\U00011120\U0001112C"
+    uk: Рам-Кі
+    ca: Illa de Rum
+  comments: 
+SA: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جنوب أندروس
     bn: দক্ষিন আন্ড্রস
@@ -1163,7 +1555,25 @@ SA:
     tr: Güney Andros
     ur: ساؤتھ اندروس
     vi: Nam Andros
-SE:
+    lv: Dienvidandrosa
+    ceb: South Andros
+    lt: Pietų Androsas
+    zh: 南安德羅斯
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011103\U0001112C\U0001111A\U00011134\U00011113\U00011133\U00011122\U0001112E\U0001110C\U00011134"
+    uk: Південний Андрос
+    ca: South Andros
+  comments: 
+SE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جنوب إليوثيرا
     bn: সাউথ এলিয়টেরা
@@ -1198,7 +1608,25 @@ SE:
     tr: South Eleuthera
     ur: ساؤتھ یلیوتحیرا
     vi: Nam Eleuthera
-SO:
+    lv: Dienvidilūtera
+    ceb: South Eleuthera
+    lt: Pietų Elutera
+    zh: 南伊柳塞拉
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011103\U00011128\U00011123\U00011128\U00011105\U0001112A\U00011117\U0001112C\U00011122"
+    uk: Південна Ельютера
+    ca: South Eleuthera
+  comments: 
+SO: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جنوب أباكو
     bn: দক্ষিন অ্যাবাকো
@@ -1234,7 +1662,24 @@ SO:
     tr: Güney Abaco
     ur: ساؤتھ اباکو
     vi: Nam Abaco
-SS:
+    lv: Dienvidabako
+    ceb: South Abaco District
+    zh: 南阿巴科區
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011103\U0001111D\U00011107\U0001112E"
+    uk: Південний Абако
+    ca: Sout Abaco
+  comments: 
+SS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جزيرة سان سلفادور
     be: Востраў Сан-Сальвадор
@@ -1277,7 +1722,22 @@ SS:
     uk: Сан-Сальвадор
     ur: جزیرہ سان سلواڈور
     vi: Đảo San Salvador
-SW:
+    lv: Sansalvadoras sala
+    ceb: San Salvador Island
+    zh: 圣萨尔瓦多岛
+    ccp: "\U00011125\U0001111A\U00011134 \U00011125\U00011133\U00011120\U00011123\U00011134\U0001111E\U00011113\U00011127\U00011122\U00011134"
+  comments: 
+SW: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سبانش، ويلز
     bn: স্প্যানিশ ওয়েলস
@@ -1312,7 +1772,24 @@ SW:
     tr: Spanish Wells
     ur: سپینش ویلز
     vi: Spanish Wells
-WG:
+    lv: Spenišvelsa
+    ceb: Spanish Wells District
+    lt: Ispanų Velsas
+    ccp: "\U0001110C\U00011133\U0001111B\U0001111A\U00011128\U0001110C\U00011134 \U00011103\U00011127\U00011120\U0001112C\U00011123\U00011134\U00011125\U00011134"
+    uk: Спеніш-Уеллс
+    ca: Spanish Wells
+  comments: 
+WG: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: ويست غراند بهاما
     bn: পশ্চিম গ্রান্ড বাহামা
@@ -1346,3 +1823,12 @@ WG:
     tr: West Grand Bahama
     ur: ویسٹ گرینڈ ہہاما
     vi: Tây Grand Bahama
+    lv: Rietumu Lielā Bahama
+    ceb: West Grand Bahama District
+    lt: Vakarų Didžioji Bahama
+    zh: 西大巴哈馬島區
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134
+      \U0001111D\U00011126\U0001111F"
+    uk: Вест-Гранд-Багама
+    ca: West Grand Bahama
+  comments: 

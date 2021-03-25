@@ -1,6 +1,15 @@
 ---
-BO:
+BO: 
+  name: Bonaire
+  code: 
   unofficial_names: Bonaire
+  geo:
+    latitude: 12.1783611
+    longitude: -68.2385339
+    min_latitude: 12.0245041
+    min_longitude: -68.4209633
+    max_latitude: 17.6502944
+    max_longitude: -62.9457767
   translations:
     en: Bonaire
     af: Bonaire
@@ -56,16 +65,28 @@ BO:
     ur: بونایر
     vi: Bonaire
     zh: 波内赫
-  geo:
-    latitude: 12.1783611
-    longitude: -68.2385339
-    min_latitude: 12.0245041
-    min_longitude: -68.4209633
-    max_latitude: 17.6502944
-    max_longitude: -62.9457767
-  name: Bonaire
-SA:
+    cy: Bonaire
+    ceb: Bonaire (pulo ug munisipyo espesyal)
+    sr_Latn: Boner
+    yue_Hans: 博奈尔岛
+    ccp: "\U0001111D\U00011127\U0001111A\U0001112D\U00011122\U00011128"
+    pa: ਬੋਨੇਅਰ
+    kk: Бонэйр
+    yue: 博奈爾島
+    yo: Bonaire
+    mk: Бонер
+  comments: 
+SA: 
+  name: Saba
+  code: 
   unofficial_names: Saba
+  geo:
+    latitude: 17.6354642
+    longitude: -63.2326763
+    min_latitude: 17.6143287
+    min_longitude: -63.2586893
+    max_latitude: 17.6502944
+    max_longitude: -63.21503169999999
   translations:
     en: Saba
     af: Saba
@@ -112,16 +133,28 @@ SA:
     uk: Саба
     ur: صبا
     vi: Saba
-  geo:
-    latitude: 17.6354642
-    longitude: -63.2326763
-    min_latitude: 17.6143287
-    min_longitude: -63.2586893
-    max_latitude: 17.6502944
-    max_longitude: -63.21503169999999
-  name: Saba
-SE:
+    ceb: Saba Island
+    sr_Latn: Saba
+    zh: 薩巴
+    yue_Hans: 萨巴岛
+    ccp: "\U00011125\U0001111D"
+    pa: ਸਾਬਾ
+    kk: Саба
+    yue: 薩巴島
+    bs: Saba
+    mk: Саба
+  comments: 
+SE: 
+  name: Sint Eustatius
+  code: 
   unofficial_names: Sint Eustatius
+  geo:
+    latitude: 17.4890306
+    longitude: -62.973555
+    min_latitude: 17.4645198
+    min_longitude: -63.002982
+    max_latitude: 17.5258551
+    max_longitude: -62.94606899999999
   translations:
     en: Sint Eustatius
     af: Sint Eustatius
@@ -175,11 +208,13 @@ SE:
     uk: Сінт-Естатіус
     ur: سینٹ ایوسٹائیس
     vi: Sint Eustatius
-  geo:
-    latitude: 17.4890306
-    longitude: -62.973555
-    min_latitude: 17.4645198
-    min_longitude: -63.002982
-    max_latitude: 17.5258551
-    max_longitude: -62.94606899999999
-  name: Sint Eustatius
+    ceb: Sint Eustatius
+    sr_Latn: Sveti Eustahije
+    zh: 圣尤斯特歇斯
+    yue_Hans: 圣犹士坦岛
+    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U00011103\U00011128\U00011105\U0001112A\U0001110C\U00011134\U00011111\U00011111\U00011128\U00011120\U0001110C\U00011134"
+    pa: ਸਿੰਟ ਯੂਸਟੇਸ਼ਸ
+    kk: Синт-Эстатиус
+    yue: 聖猶士坦島
+    mk: Свети Евстахиј
+  comments: 

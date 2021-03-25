@@ -1,6 +1,15 @@
 ---
-BA:
+BA: 
+  name: Baranya
+  code: 
   unofficial_names: Baranya
+  geo:
+    latitude: 46.0484585
+    longitude: 18.2719173
+    min_latitude: 45.7370889
+    min_longitude: 17.624765
+    max_latitude: 46.4172391
+    max_longitude: 18.868302
   translations:
     en: Baranya
     ar: مقاطعة بارانيا
@@ -42,16 +51,24 @@ BA:
     uk: Бараня
     ur: بارانیا کاؤنٹی
     zh: 巴蘭尼亞州
-  geo:
-    latitude: 46.0484585
-    longitude: 18.2719173
-    min_latitude: 45.7370889
-    min_longitude: 17.624765
-    max_latitude: 46.4172391
-    max_longitude: 18.868302
-  name: Baranya
-BC:
+    ceb: Baranya county
+    sr_Latn: Baranja
+    hi: बरानिया काउंटी
+    ccp: "\U0001111D\U00011122\U0001111A\U00011128\U00011120"
+    az: Baranya əyaləti
+    mk: Барања
+  comments: 
+BC: 
+  name: Békéscsaba
+  code: 
   unofficial_names: Békéscsaba
+  geo:
+    latitude: 46.6735939
+    longitude: 21.0877309
+    min_latitude: 46.61125999999999
+    min_longitude: 20.9300351
+    max_latitude: 46.7476239
+    max_longitude: 21.2357529
   translations:
     en: Békéscsaba
     ar: بيكيسكسابا
@@ -103,16 +120,26 @@ BC:
     uk: Бекешчаба
     ur: بیکیسکسابا
     vi: Békéscsaba
-  geo:
-    latitude: 46.6735939
-    longitude: 21.0877309
-    min_latitude: 46.61125999999999
-    min_longitude: 20.9300351
-    max_latitude: 46.7476239
-    max_longitude: 21.2357529
-  name: Békéscsaba
-BE:
+    lv: Bēkēščaba
+    ceb: Békéscsaba
+    sr_Latn: Bekeščaba
+    zh: 貝凱什喬包
+    ccp: "\U0001111D\U00011107\U0001112C\U0001110C\U00011134\U00011125\U0001111D"
+    az: Bekeşçaba
+    be: Бекешчаба
+    mk: Бекешчаба
+  comments: 
+BE: 
+  name: Békés
+  code: 
   unofficial_names: Békés
+  geo:
+    latitude: 46.7711185
+    longitude: 21.1289753
+    min_latitude: 46.715268
+    min_longitude: 21.04361
+    max_latitude: 46.845706
+    max_longitude: 21.2195859
   translations:
     en: Békés
     ar: مقاطعة بكيش
@@ -164,16 +191,24 @@ BE:
     uk: Бекеш
     ur: بیکیش کاؤنٹی
     vi: Hạt Békés
-  geo:
-    latitude: 46.7711185
-    longitude: 21.1289753
-    min_latitude: 46.715268
-    min_longitude: 21.04361
-    max_latitude: 46.845706
-    max_longitude: 21.2195859
-  name: Békés
-BK:
+    ceb: Bekes County
+    sr_Latn: Bekeš
+    zh: 貝凱什州
+    ccp: "\U0001111D\U00011107\U0001112C\U0001110C\U00011134"
+    be: медзье Бекеш
+    mk: Бекеш
+  comments: 
+BK: 
+  name: Bács-Kiskun
+  code: 
   unofficial_names: Bács-Kiskun
+  geo:
+    latitude: 46.5661437
+    longitude: 19.4272464
+    min_latitude: 45.904761
+    min_longitude: 18.7327931
+    max_latitude: 47.134105
+    max_longitude: 20.1599619
   translations:
     en: Bács-Kiskun
     ar: مقاطعة باتش-كيشكون
@@ -226,16 +261,24 @@ BK:
     uk: Бач-Кішкун
     ur: باتش-کیشکون کاؤنٹی
     vi: Hạt Bács-Kiskun
-  geo:
-    latitude: 46.5661437
-    longitude: 19.4272464
-    min_latitude: 45.904761
-    min_longitude: 18.7327931
-    max_latitude: 47.134105
-    max_longitude: 20.1599619
-  name: Bács-Kiskun
-BU:
+    ceb: Bács-Kiskun county
+    sr_Latn: Bač-Kiškun
+    zh: 巴奇-基什孔州
+    ccp: "\U0001111D\U00011133\U00011120\U00011107\U00011134\U00011125\U00011134-\U00011107\U00011128\U0001110C\U00011134\U00011107\U0001112A\U0001111A\U00011134"
+    az: Baç-Kişkun (medye)
+    mk: Бач-Кишкун
+  comments: 
+BU: 
+  name: Budapest
+  code: 
   unofficial_names: Budapest
+  geo:
+    latitude: 47.497912
+    longitude: 19.040235
+    min_latitude: 47.349415
+    min_longitude: 18.9261011
+    max_latitude: 47.6130119
+    max_longitude: 19.334505
   translations:
     en: Budapest
     af: Boedapest
@@ -299,16 +342,37 @@ BU:
     uk: Будапешт
     ur: بوداپست
     vi: Budapest
-  geo:
-    latitude: 47.497912
-    longitude: 19.040235
-    min_latitude: 47.349415
-    min_longitude: 18.9261011
-    max_latitude: 47.6130119
-    max_longitude: 19.334505
-  name: Budapest
-BZ:
+    cy: Budapest
+    ceb: Budapest
+    sr_Latn: Budimpešta
+    zh: 布达佩斯
+    yue_Hans: 布达佩斯
+    jv: Budapest
+    sq: Budapesti
+    ccp: "\U0001111D\U0001112A\U00011118\U0001111B\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ga: Búdaipeist
+    ky: Будапешт
+    so: Budapest
+    pa: ਬੁਦਾਪੈਸਤ
+    kk: Будапешт
+    yue: 布達佩斯
+    my: ဗူးဒပက်မြို့
+    yo: Budapest
+    uz: Budapesht
+    bs: Budimpešta
+    mk: Будимпешта
+  comments: 
+BZ: 
+  name: Borsod-Abaúj-Zemplén
+  code: 
   unofficial_names: Borsod-Abaúj-Zemplén
+  geo:
+    latitude: 48.2939401
+    longitude: 20.6934113
+    min_latitude: 47.64265
+    min_longitude: 20.0518941
+    max_latitude: 48.585234
+    max_longitude: 22.1292827
   translations:
     en: Borsod-Abaúj-Zemplén
     ar: مقاطعة بورسود-آبائوي-زمبلن
@@ -362,16 +426,23 @@ BZ:
     uk: Боршод-Абауй-Земплен
     ur: بورشود-اباوی-زیمپلین کاؤنٹی
     vi: Hạt Borsod-Abaúj-Zemplén
-  geo:
-    latitude: 48.2939401
-    longitude: 20.6934113
-    min_latitude: 47.64265
-    min_longitude: 20.0518941
-    max_latitude: 48.585234
-    max_longitude: 22.1292827
-  name: Borsod-Abaúj-Zemplén
-CS:
+    ceb: Borsod-Abauj Zemplen county
+    sr_Latn: Boršod-Abauj-Zemplen
+    zh: 包爾紹德-奧包烏伊-曾普倫州
+    ccp: "\U0001111D\U0001112E\U00011122\U00011134\U00011125\U0001112E\U00011116\U00011134-\U00011103\U0001111D\U00011105\U0001112A\U0001110C\U00011134-\U0001110E\U0001112C\U0001111F\U00011134\U0001111B\U00011133\U00011123\U0001112C\U0001111A\U00011134"
+    mk: Боршод-Абауј-Земплен
+  comments: 
+CS: 
+  name: Csongrád
+  code: 
   unofficial_names: Csongrád
+  geo:
+    latitude: 46.7084264
+    longitude: 20.1436061
+    min_latitude: 46.649019
+    min_longitude: 19.969219
+    max_latitude: 46.8063689
+    max_longitude: 20.221518
   translations:
     en: Csongrád
     ar: مقاطعة تشونغراد
@@ -424,16 +495,22 @@ CS:
     uk: Чонград
     ur: چونگراد کاؤنٹی
     vi: Hạt Csongrád
-  geo:
-    latitude: 46.7084264
-    longitude: 20.1436061
-    min_latitude: 46.649019
-    min_longitude: 19.969219
-    max_latitude: 46.8063689
-    max_longitude: 20.221518
-  name: Csongrád
-DE:
+    sr_Latn: Čongrad
+    zh: 瓊格拉德州
+    ccp: "\U00011125\U00011127\U00011101\U00011109\U00011133\U00011122\U00011116\U00011134"
+    mk: Чонград
+  comments: 
+DE: 
+  name: Debrecen
+  code: 
   unofficial_names: Debrecen
+  geo:
+    latitude: 47.5316049
+    longitude: 21.6273123
+    min_latitude: 47.4248649
+    min_longitude: 21.4366579
+    max_latitude: 47.6369639
+    max_longitude: 21.8837061
   translations:
     en: Debrecen
     af: Debrecen
@@ -491,16 +568,30 @@ DE:
     uk: Дебрецен
     ur: دیبریکین
     vi: Debrecen
-  geo:
-    latitude: 47.5316049
-    longitude: 21.6273123
-    min_latitude: 47.4248649
-    min_longitude: 21.4366579
-    max_latitude: 47.6369639
-    max_longitude: 21.8837061
-  name: Debrecen
-DU:
+    cy: Debrecen
+    ceb: Debrecen
+    sr_Latn: Debrecin
+    zh: 德布勒森
+    yue_Hans: 德布勒森
+    ccp: "\U00011113\U0001111D\U00011133\U00011122\U0001112C\U00011125\U0001112C\U0001111A\U00011134"
+    ky: Дебрецен
+    kk: Дебрецен
+    yue: 德布勒森
+    uz: Debretsen
+    bs: Debrecen
+    mk: Дебрецин
+  comments: 
+DU: 
+  name: Dunaújváros
+  code: 
   unofficial_names: Dunaújváros
+  geo:
+    latitude: 46.9619059
+    longitude: 18.9355227
+    min_latitude: 46.8897881
+    min_longitude: 18.860456
+    max_latitude: 47.001966
+    max_longitude: 18.9657249
   translations:
     en: Dunaújváros
     bg: Дунауйварош
@@ -537,16 +628,25 @@ DU:
     tr: Dunaújváros
     uk: Дунауйварош
     vi: Dunaújváros
-  geo:
-    latitude: 46.9619059
-    longitude: 18.9355227
-    min_latitude: 46.8897881
-    min_longitude: 18.860456
-    max_latitude: 47.001966
-    max_longitude: 18.9657249
-  name: Dunaújváros
-EG:
+    ceb: Dunaújváros
+    sr_Latn: Dunaujvaroš
+    zh: 多瑙新城
+    ccp: "\U00011113\U0001112A\U0001111A\U00011127\U00011105\U0001112A\U0001110C\U00011134\U0001111E\U00011122\U0001112E\U0001110C\U00011134"
+    ky: Дунауйварош
+    az: Dunauyvaroş
+    mk: Дунаујварош
+  comments: 
+EG: 
+  name: Eger
+  code: 
   unofficial_names: Eger
+  geo:
+    latitude: 47.9025348
+    longitude: 20.3772284
+    min_latitude: 47.857033
+    min_longitude: 20.3113128
+    max_latitude: 48.001331
+    max_longitude: 20.471507
   translations:
     en: Eger
     be: Горад Эгер
@@ -587,16 +687,27 @@ EG:
     tr: Eger
     uk: Еґер
     vi: Eger
-  geo:
-    latitude: 47.9025348
-    longitude: 20.3772284
-    min_latitude: 47.857033
-    min_longitude: 20.3113128
-    max_latitude: 48.001331
-    max_longitude: 20.471507
-  name: Eger
-ER:
+    cy: Eger
+    ceb: Eger (kapital sa lalawigan)
+    sr_Latn: Jegra
+    zh: 埃格爾
+    el: Έγκερ
+    ccp: "\U00011103\U00011109\U00011122\U00011134"
+    id: Eger
+    az: Eqer
+    mk: Егер
+  comments: 
+ER: 
+  name: Érd
+  code: 
   unofficial_names: Érd
+  geo:
+    latitude: 47.3919718
+    longitude: 18.904544
+    min_latitude: 47.314573
+    min_longitude: 18.833885
+    max_latitude: 47.430192
+    max_longitude: 18.96238
   translations:
     en: Érd
     be: Горад Эрд
@@ -631,16 +742,25 @@ ER:
     tr: Érd
     uk: Ерд
     vi: Érd
-  geo:
-    latitude: 47.3919718
-    longitude: 18.904544
-    min_latitude: 47.314573
-    min_longitude: 18.833885
-    max_latitude: 47.430192
-    max_longitude: 18.96238
-  name: Érd
-FE:
+    ceb: Érd
+    sr_Latn: Erd
+    lt: Erdris
+    zh: 埃爾德
+    ccp: "\U00011103\U00011128\U00011122\U00011134\U00011113\U00011134"
+    az: Erd
+    mk: Ерд
+  comments: 
+FE: 
+  name: Fejér
+  code: 
   unofficial_names: Fejér
+  geo:
+    latitude: 47.1217932
+    longitude: 18.5294815
+    min_latitude: 46.687195
+    min_longitude: 18.0337199
+    max_latitude: 47.57704589999999
+    max_longitude: 18.967485
   translations:
     en: Fejér
     ar: مقاطعة فيير
@@ -694,16 +814,24 @@ FE:
     uk: Феєр
     ur: فیئیر کاؤنٹی
     vi: Hạt Fejér
-  geo:
-    latitude: 47.1217932
-    longitude: 18.5294815
-    min_latitude: 46.687195
-    min_longitude: 18.0337199
-    max_latitude: 47.57704589999999
-    max_longitude: 18.967485
-  name: Fejér
-GS:
+    ceb: Fejér megye
+    sr_Latn: Fejer
+    zh: 費耶爾州
+    ccp: "\U0001111C\U0001112C\U0001110E\U00011122\U00011134"
+    mn: Фейер
+    mk: Фејер
+  comments: 
+GS: 
+  name: Győr-Moson-Sopron
+  code: 
   unofficial_names: Győr-Moson-Sopron
+  geo:
+    latitude: 47.6509285
+    longitude: 17.2505883
+    min_latitude: 47.272214
+    min_longitude: 16.4215489
+    max_latitude: 48.022446
+    max_longitude: 17.9364819
   translations:
     en: Győr-Moson-Sopron
     ar: مقاطعة ديور-موشون-سوبرون
@@ -756,16 +884,25 @@ GS:
     uk: Дьйор-Мошон-Шопрон
     ur: جیور-موشون-شوپرون کاؤنٹی
     vi: Hạt Gyor-Moson-Sopron
-  geo:
-    latitude: 47.6509285
-    longitude: 17.2505883
-    min_latitude: 47.272214
-    min_longitude: 16.4215489
-    max_latitude: 48.022446
-    max_longitude: 17.9364819
-  name: Győr-Moson-Sopron
-GY:
+    ceb: Győr-Moson-Sopron megye
+    sr_Latn: Đer-Mošon-Šopron
+    zh: 傑爾-莫雄-肖普朗州
+    ccp: "\U00011109\U0001112D\U00011120\U0001112E\U00011122\U00011134-\U0001111F\U0001112E\U00011125\U00011127\U0001111A\U00011134-\U00011125\U0001112E\U0001111B\U00011133\U00011122\U00011127\U0001111A\U00011134"
+    az: Dyör-Moşon-Şopron
+    mn: Дьёр-Мошон-Шопрон
+    mk: Ѓер-Мошон-Шопрон
+  comments: 
+GY: 
+  name: Győr
+  code: 
   unofficial_names: Győr
+  geo:
+    latitude: 47.6874569
+    longitude: 17.6503974
+    min_latitude: 47.591275
+    min_longitude: 17.50948
+    max_latitude: 47.747587
+    max_longitude: 17.80789
   translations:
     en: Győr
     af: Győr
@@ -820,16 +957,29 @@ GY:
     uk: Дьйор
     ur: جیور
     vi: Győr
-  geo:
-    latitude: 47.6874569
-    longitude: 17.6503974
-    min_latitude: 47.591275
-    min_longitude: 17.50948
-    max_latitude: 47.747587
-    max_longitude: 17.80789
-  name: Győr
-HB:
+    cy: Győr
+    ceb: Győr
+    sr_Latn: Đer
+    zh: 杰尔
+    jv: Győr
+    sq: Győr
+    ccp: "\U00011109\U0001112D\U00011120\U0001112E\U00011122\U00011134"
+    kk: Дьер
+    az: Dyor
+    uz: Dyor
+    mk: Ѓер
+  comments: 
+HB: 
+  name: Hajdú-Bihar
+  code: 
   unofficial_names: Hajdú-Bihar
+  geo:
+    latitude: 47.4688355
+    longitude: 21.5453228
+    min_latitude: 46.9412041
+    min_longitude: 20.82321
+    max_latitude: 47.964842
+    max_longitude: 22.1297241
   translations:
     en: Hajdú-Bihar
     ar: مقاطعة هايدو-بيهار
@@ -881,16 +1031,24 @@ HB:
     uk: Гайду-Бігар
     ur: ہایدو-بیہار کاؤنٹی
     vi: Hajdu-Bihar
-  geo:
-    latitude: 47.4688355
-    longitude: 21.5453228
-    min_latitude: 46.9412041
-    min_longitude: 20.82321
-    max_latitude: 47.964842
-    max_longitude: 22.1297241
-  name: Hajdú-Bihar
-HE:
+    ceb: Hajdú-Bihar
+    sr_Latn: Hajdu-Bihar
+    zh: 豪伊杜-比豪爾州
+    ccp: "\U00011126\U0001110C\U00011134\U00011113\U0001112A-\U0001111D\U00011128\U00011126\U00011122\U00011134"
+    be: Хайду-Біхар
+    mk: Хајду-Бихар
+  comments: 
+HE: 
+  name: Heves
+  code: 
   unofficial_names: Heves
+  geo:
+    latitude: 47.5971694
+    longitude: 20.280156
+    min_latitude: 47.528197
+    min_longitude: 20.208671
+    max_latitude: 47.67125799999999
+    max_longitude: 20.3831291
   translations:
     en: Heves
     ar: مقاطعة هفش
@@ -943,16 +1101,24 @@ HE:
     uk: Гевеш
     ur: ہیویش کاؤنٹی
     vi: Hạt Heves
-  geo:
-    latitude: 47.5971694
-    longitude: 20.280156
-    min_latitude: 47.528197
-    min_longitude: 20.208671
-    max_latitude: 47.67125799999999
-    max_longitude: 20.3831291
-  name: Heves
-HV:
+    ceb: Heves megye
+    sr_Latn: Heveš
+    zh: 赫維什州
+    ccp: "\U00011126\U0001112C\U0001111E\U0001112C\U0001110C\U00011134"
+    hy: Հևեշ
+    mk: Хевеш
+  comments: 
+HV: 
+  name: Hódmezővásárhely
+  code: 
   unofficial_names: Hódmezővásárhely
+  geo:
+    latitude: 46.4181262
+    longitude: 20.3300315
+    min_latitude: 46.2947919
+    min_longitude: 20.184785
+    max_latitude: 46.528218
+    max_longitude: 20.5828911
   translations:
     en: Hódmezővásárhely
     be: Хадмезёвашархей
@@ -991,16 +1157,26 @@ HV:
     tr: Hódmezővásárhely
     uk: Годмезевашаргей
     vi: Hódmezővásárhely
-  geo:
-    latitude: 46.4181262
-    longitude: 20.3300315
-    min_latitude: 46.2947919
-    min_longitude: 20.184785
-    max_latitude: 46.528218
-    max_longitude: 20.5828911
-  name: Hódmezővásárhely
-JN:
+    cy: Hódmezővásárhely
+    ceb: Hódmezővásárhely
+    sr_Latn: Hodmezevašarhelj
+    zh: 霍德梅澤瓦
+    ccp: "\U00011126\U0001112E\U00011116\U00011134\U0001111F\U0001112C\U0001110E\U0001112E\U0001111E\U00011125\U00011122\U00011134\U00011126\U0001112C\U00011123\U00011128"
+    id: Hódmezővásárhely
+    az: Xodmezövaşarxey
+    mk: Ходмезевашархељ
+  comments: 
+JN: 
+  name: Jász-Nagykun-Szolnok
+  code: 
   unofficial_names: Jász-Nagykun-Szolnok
+  geo:
+    latitude: 47.2555579
+    longitude: 20.5232456
+    min_latitude: 46.754459
+    min_longitude: 19.651048
+    max_latitude: 47.682564
+    max_longitude: 21.0302648
   translations:
     en: Jász-Nagykun-Szolnok
     ar: مقاطعة ياس-نادكون-سولنك
@@ -1053,16 +1229,25 @@ JN:
     uk: Яс-Надькун-Сольнок
     ur: جاسز-نگیکن-سزولنوک کاؤنٹی
     vi: Hạt Jász-Nagykun-Szolnok
-  geo:
-    latitude: 47.2555579
-    longitude: 20.5232456
-    min_latitude: 46.754459
-    min_longitude: 19.651048
-    max_latitude: 47.682564
-    max_longitude: 21.0302648
-  name: Jász-Nagykun-Szolnok
-KE:
+    ceb: Jász-Nagykun-Szolnok
+    sr_Latn: Jas-Nađkun-Solnok
+    zh: 亞斯-瑙吉孔-索爾諾克州
+    ccp: "\U0001110E\U0001110C\U00011134-\U0001111A\U00011109\U0001112D\U00011107\U0001112A\U0001111A\U00011134-\U00011125\U0001112A\U00011123\U00011134\U0001111A\U00011127\U00011107\U00011134"
+    az: Yas-Nadkun-Solnok
+    be: Яс-Надзькун-Сольнак
+    mk: Јас-Наѓкун-Солнок
+  comments: 
+KE: 
+  name: Komárom-Esztergom
+  code: 
   unofficial_names: Komárom-Esztergom
+  geo:
+    latitude: 47.7390852
+    longitude: 18.1267006
+    min_latitude: 47.68579099999999
+    min_longitude: 18.016753
+    max_latitude: 47.75665499999999
+    max_longitude: 18.2301799
   translations:
     en: Komárom-Esztergom
     ar: مقاطعة كوماروم-إستركوم
@@ -1115,16 +1300,24 @@ KE:
     uk: Комаром-Естерґом
     ur: کوماروم-ایسترگوم کاؤنٹی
     vi: Hạt Komárom-Esztergom
-  geo:
-    latitude: 47.7390852
-    longitude: 18.1267006
-    min_latitude: 47.68579099999999
-    min_longitude: 18.016753
-    max_latitude: 47.75665499999999
-    max_longitude: 18.2301799
-  name: Komárom-Esztergom
-KM:
+    ceb: Komárom-Esztergom
+    sr_Latn: Komarom-Estergom
+    zh: 科馬羅姆-埃斯泰爾戈姆州
+    ccp: "\U00011107\U0001112E\U0001111F\U00011122\U0001112A\U0001111A\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011109\U00011127\U0001111F\U00011134"
+    mn: Комаром-Эстергом
+    mk: Комаром-Естергом
+  comments: 
+KM: 
+  name: Kecskemét
+  code: 
   unofficial_names: Kecskemét
+  geo:
+    latitude: 46.8963711
+    longitude: 19.6896861
+    min_latitude: 46.769863
+    min_longitude: 19.5066109
+    max_latitude: 47.0012541
+    max_longitude: 19.8515029
   translations:
     en: Kecskemét
     ar: كيكسكيميت
@@ -1177,16 +1370,27 @@ KM:
     uk: Кечкемет
     ur: کیکسکیمیت
     vi: Kecskemét
-  geo:
-    latitude: 46.8963711
-    longitude: 19.6896861
-    min_latitude: 46.769863
-    min_longitude: 19.5066109
-    max_latitude: 47.0012541
-    max_longitude: 19.8515029
-  name: Kecskemét
-KV:
+    lv: Kečkemēta
+    ceb: Kecskemét
+    sr_Latn: Kečkemet
+    zh: 凯奇凯梅特
+    jv: Kecskemét
+    ccp: "\U00011107\U0001112C\U0001110C\U00011134\U00011107\U0001112C\U0001111F\U0001112C\U00011116\U00011134"
+    kk: Кечкемет
+    az: Keçkemet
+    mk: Кечкемет
+  comments: 
+KV: 
+  name: Kaposvár
+  code: 
   unofficial_names: Kaposvár
+  geo:
+    latitude: 46.3593606
+    longitude: 17.7967639
+    min_latitude: 46.290355
+    min_longitude: 17.741116
+    max_latitude: 46.45050699999999
+    max_longitude: 17.8911989
   translations:
     en: Kaposvár
     ar: كابوشفار
@@ -1239,16 +1443,27 @@ KV:
     uk: Капошвар
     ur: کیپوسوار
     vi: Kaposvár
-  geo:
-    latitude: 46.3593606
-    longitude: 17.7967639
-    min_latitude: 46.290355
-    min_longitude: 17.741116
-    max_latitude: 46.45050699999999
-    max_longitude: 17.8911989
-  name: Kaposvár
-MI:
+    lv: Kapošvāra
+    cy: Kaposvár
+    ceb: Kaposvár
+    sr_Latn: Kapošvar
+    zh: 考波什堡
+    ccp: "\U00011107\U0001111B\U0001112E\U0001110C\U00011134\U0001111E\U00011122\U00011134"
+    kk: Капошвар
+    az: Kapoşvar
+    mk: Капошвар
+  comments: 
+MI: 
+  name: Miskolc
+  code: 
   unofficial_names: Miskolc
+  geo:
+    latitude: 48.0963631
+    longitude: 20.762386
+    min_latitude: 48.0233119
+    min_longitude: 20.4817199
+    max_latitude: 48.154998
+    max_longitude: 20.8697789
   translations:
     en: Miskolc
     af: Miskolc
@@ -1303,16 +1518,27 @@ MI:
     uk: Мішкольц
     ur: مسکولک
     vi: Miskolc
-  geo:
-    latitude: 48.0963631
-    longitude: 20.762386
-    min_latitude: 48.0233119
-    min_longitude: 20.4817199
-    max_latitude: 48.154998
-    max_longitude: 20.8697789
-  name: Miskolc
-NK:
+    cy: Miskolc
+    ceb: Miskolc
+    sr_Latn: Miškolc
+    zh: 米什科尔茨
+    ccp: "\U0001111F\U00011128\U0001110C\U00011134\U00011107\U0001112E\U00011123\U00011134\U00011107\U00011134"
+    ky: Мишкольц
+    kk: Мишкольц
+    az: Mişkolç
+    mk: Мишколц
+  comments: 
+NK: 
+  name: Nagykanizsa
+  code: 
   unofficial_names: Nagykanizsa
+  geo:
+    latitude: 46.4590218
+    longitude: 16.9896796
+    min_latitude: 46.35871299999999
+    min_longitude: 16.919825
+    max_latitude: 46.543614
+    max_longitude: 17.0906941
   translations:
     en: Nagykanizsa
     ar: ناجيكانيزسا
@@ -1351,16 +1577,24 @@ NK:
     tr: Nagykanizsa
     uk: Надьканіжа
     vi: Nagykanizsa
-  geo:
-    latitude: 46.4590218
-    longitude: 16.9896796
-    min_latitude: 46.35871299999999
-    min_longitude: 16.919825
-    max_latitude: 46.543614
-    max_longitude: 17.0906941
-  name: Nagykanizsa
-'NO':
+    cy: Nagykanizsa
+    ceb: Nagykanizsa
+    sr_Latn: Velika Kaniža
+    zh: 瑙吉考尼饒
+    jv: Nagykanizsa
+    ccp: "\U0001111A\U00011109\U0001112D\U00011107\U0001111A\U00011128\U0001110C\U00011134\U00011125"
+  comments: 
+'NO': 
+  name: Nógrád
+  code: 
   unofficial_names: Nógrád
+  geo:
+    latitude: 47.90410310000001
+    longitude: 19.0498504
+    min_latitude: 47.867935
+    min_longitude: 18.9853318
+    max_latitude: 47.933664
+    max_longitude: 19.1055319
   translations:
     en: Nógrád
     ar: مقاطعة نوغراد
@@ -1412,16 +1646,25 @@ NK:
     uk: Ноґрад
     ur: نوگراد کاؤنٹی
     vi: Hạt Nógrád
-  geo:
-    latitude: 47.90410310000001
-    longitude: 19.0498504
-    min_latitude: 47.867935
-    min_longitude: 18.9853318
-    max_latitude: 47.933664
-    max_longitude: 19.1055319
-  name: Nógrád
-NY:
+    ceb: Nógrád megye
+    sr_Latn: Nograd
+    zh: 諾格拉德州
+    ccp: "\U0001111A\U00011127\U00011109\U00011133\U00011122\U00011116\U00011134"
+    az: Noqrad
+    be: Ноград
+    mk: Ноград
+  comments: 
+NY: 
+  name: Nyíregyháza
+  code: 
   unofficial_names: Nyíregyháza
+  geo:
+    latitude: 47.9495324
+    longitude: 21.7244053
+    min_latitude: 47.845661
+    min_longitude: 21.5576691
+    max_latitude: 48.03913
+    max_longitude: 21.844149
   translations:
     en: Nyíregyháza
     af: Nyíregyháza
@@ -1475,16 +1718,26 @@ NY:
     uk: Ньїредьгаза
     ur: نییریجیحازا
     vi: Nyíregyháza
-  geo:
-    latitude: 47.9495324
-    longitude: 21.7244053
-    min_latitude: 47.845661
-    min_longitude: 21.5576691
-    max_latitude: 48.03913
-    max_longitude: 21.844149
-  name: Nyíregyháza
-PE:
+    lv: Ņīreģhāza
+    cy: Nyíregyháza
+    ceb: Nyíregyháza
+    sr_Latn: Njiređhaza
+    zh: 尼賴吉哈佐
+    ccp: "\U0001111A\U0001112D\U00011122\U00011134\U00011122\U0001112C\U00011109\U0001112D\U00011126\U0001110E"
+    az: Niredxaza
+    mk: Њиреѓхаза
+  comments: 
+PE: 
+  name: Pest
+  code: 
   unofficial_names: Pest
+  geo:
+    latitude: 47.44800009999999
+    longitude: 19.4618128
+    min_latitude: 46.944111
+    min_longitude: 18.6884409
+    max_latitude: 48.05865989999999
+    max_longitude: 20.1127141
   translations:
     en: Pest
     ar: مقاطعة بشت
@@ -1527,16 +1780,23 @@ PE:
     tr: Pest ili
     uk: Пешт
     ur: پاشت کاؤنٹی
-  geo:
-    latitude: 47.44800009999999
-    longitude: 19.4618128
-    min_latitude: 46.944111
-    min_longitude: 18.6884409
-    max_latitude: 48.05865989999999
-    max_longitude: 20.1127141
-  name: Pest
-PS:
+    ceb: Pest megye
+    sr_Latn: Pešta
+    zh: 佩斯州
+    ccp: "\U0001111B\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    mk: Пешта
+  comments: 
+PS: 
+  name: Pécs
+  code: 
   unofficial_names: Pécs
+  geo:
+    latitude: 46.0727345
+    longitude: 18.232266
+    min_latitude: 45.994045
+    min_longitude: 18.13568
+    max_latitude: 46.161421
+    max_longitude: 18.3654829
   translations:
     en: Pécs
     af: Pécs
@@ -1591,16 +1851,27 @@ PS:
     uk: Печ
     ur: پیکس
     vi: Pécs
-  geo:
-    latitude: 46.0727345
-    longitude: 18.232266
-    min_latitude: 45.994045
-    min_longitude: 18.13568
-    max_latitude: 46.161421
-    max_longitude: 18.3654829
-  name: Pécs
-SD:
+    cy: Pécs
+    ceb: Pécs
+    sr_Latn: Pečuj
+    zh: 佩奇
+    sq: Pécs
+    ccp: "\U0001111B\U0001112C\U0001110C\U00011134\U00011125\U00011134"
+    az: Peç
+    bs: Pečuh
+    mk: Печ
+  comments: 
+SD: 
+  name: Szeged
+  code: 
   unofficial_names: Szeged
+  geo:
+    latitude: 46.2530102
+    longitude: 20.1414253
+    min_latitude: 46.115766
+    min_longitude: 19.97234
+    max_latitude: 46.349812
+    max_longitude: 20.3085971
   translations:
     en: Szeged
     af: Szeged
@@ -1656,16 +1927,25 @@ SD:
     uk: Сегед
     ur: سزیجید
     vi: Szeged
-  geo:
-    latitude: 46.2530102
-    longitude: 20.1414253
-    min_latitude: 46.115766
-    min_longitude: 19.97234
-    max_latitude: 46.349812
-    max_longitude: 20.3085971
-  name: Szeged
-SF:
+    cy: Szeged
+    sr_Latn: Segedin
+    zh: 塞格德
+    jv: Szeged
+    ccp: "\U0001110E\U0001110E\U0001112C\U00011116\U00011134"
+    az: Seqed
+    mk: Сегедин
+  comments: 
+SF: 
+  name: Székesfehérvár
+  code: 
   unofficial_names: Székesfehérvár
+  geo:
+    latitude: 47.18602620000001
+    longitude: 18.4221358
+    min_latitude: 47.107929
+    min_longitude: 18.3287498
+    max_latitude: 47.28114
+    max_longitude: 18.553754
   translations:
     en: Székesfehérvár
     ar: سيكشفهيرفار
@@ -1719,16 +1999,26 @@ SF:
     uk: Секешфегервар
     ur: سزیکیسفیحیروار
     vi: Székesfehérvár
-  geo:
-    latitude: 47.18602620000001
-    longitude: 18.4221358
-    min_latitude: 47.107929
-    min_longitude: 18.3287498
-    max_latitude: 47.28114
-    max_longitude: 18.553754
-  name: Székesfehérvár
-SH:
+    cy: Székesfehérvár
+    ceb: Székesfehérvár
+    sr_Latn: Stolni Beograd
+    zh: 塞克什白堡
+    ccp: "\U0001110E\U0001112C\U00011107\U0001112C\U0001110C\U00011134\U0001111C\U0001112C\U00011126\U0001112C\U00011122\U00011134\U0001111E\U00011122\U00011134"
+    kk: Секешфехервар
+    az: Sekeşfexervar
+    mk: Секешфехервар
+  comments: 
+SH: 
+  name: Szombathely
+  code: 
   unofficial_names: Szombathely
+  geo:
+    latitude: 47.2306851
+    longitude: 16.6218441
+    min_latitude: 47.154338
+    min_longitude: 16.5270979
+    max_latitude: 47.274314
+    max_longitude: 16.6982231
   translations:
     en: Szombathely
     ar: زومباثلي
@@ -1781,16 +2071,26 @@ SH:
     uk: Сомбатгей
     ur: سزومباتحیلی
     vi: Szombathely
-  geo:
-    latitude: 47.2306851
-    longitude: 16.6218441
-    min_latitude: 47.154338
-    min_longitude: 16.5270979
-    max_latitude: 47.274314
-    max_longitude: 16.6982231
-  name: Szombathely
-SK:
+    lv: Sombatheja
+    ceb: Szombathely
+    sr_Latn: Sombathelj
+    zh: 松博特海伊
+    sq: Szombathely
+    ccp: "\U0001110E\U0001112E\U0001111F\U00011134\U0001111D\U00011117\U0001112C\U00011123\U00011128"
+    az: Sombatxey
+    mk: Сомбатхељ
+  comments: 
+SK: 
+  name: Szolnok
+  code: 
   unofficial_names: Szolnok
+  geo:
+    latitude: 47.16213550000001
+    longitude: 20.1824712
+    min_latitude: 47.096289
+    min_longitude: 20.0710291
+    max_latitude: 47.264515
+    max_longitude: 20.296315
   translations:
     en: Szolnok
     ar: سزولنوك
@@ -1842,16 +2142,27 @@ SK:
     uk: Сольнок
     ur: سزولنوک
     vi: Szolnok
-  geo:
-    latitude: 47.16213550000001
-    longitude: 20.1824712
-    min_latitude: 47.096289
-    min_longitude: 20.0710291
-    max_latitude: 47.264515
-    max_longitude: 20.296315
-  name: Szolnok
-SN:
+    lv: Solnoka
+    cy: Szolnok
+    ceb: Szolnok (kapital sa lalawigan)
+    sr_Latn: Solnok
+    zh: 索尔诺克
+    ccp: "\U0001110E\U0001112E\U00011123\U00011134\U0001111A\U00011127\U00011107\U00011134"
+    hr: Szolnok
+    az: Solnok
+    mk: Солнок
+  comments: 
+SN: 
+  name: Sopron
+  code: 
   unofficial_names: Sopron
+  geo:
+    latitude: 47.68166189999999
+    longitude: 16.5844795
+    min_latitude: 47.6267501
+    min_longitude: 16.4215489
+    max_latitude: 47.7590711
+    max_longitude: 16.7462818
   translations:
     en: Sopron
     af: Sopron
@@ -1896,16 +2207,25 @@ SN:
     tr: Sopron
     uk: Шопрон
     vi: Sopron
-  geo:
-    latitude: 47.68166189999999
-    longitude: 16.5844795
-    min_latitude: 47.6267501
-    min_longitude: 16.4215489
-    max_latitude: 47.7590711
-    max_longitude: 16.7462818
-  name: Sopron
-SO:
+    ceb: Sopron
+    sr_Latn: Šopron
+    zh: 肖普朗
+    ccp: "\U00011125\U00011127\U0001111B\U00011133\U00011122\U00011127\U0001112E\U0001111A\U00011134"
+    kk: Шопрон
+    az: Şopron
+    mk: Шопрон
+  comments: 
+SO: 
+  name: Somogy
+  code: 
   unofficial_names: Somogy
+  geo:
+    latitude: 46.554859
+    longitude: 17.5866732
+    min_latitude: 45.848009
+    min_longitude: 16.8751449
+    max_latitude: 46.997146
+    max_longitude: 18.2128418
   translations:
     en: Somogy
     ar: مقاطعة شومود
@@ -1958,16 +2278,24 @@ SO:
     uk: Шомодь
     ur: شوموج کاؤنٹی
     vi: Hạt Somogy
-  geo:
-    latitude: 46.554859
-    longitude: 17.5866732
-    min_latitude: 45.848009
-    min_longitude: 16.8751449
-    max_latitude: 46.997146
-    max_longitude: 18.2128418
-  name: Somogy
-SS:
+    sr_Latn: Šomođ
+    zh: 紹莫吉州
+    ccp: "\U00011125\U0001112E\U0001111F\U0001112E\U00011109\U0001112D"
+    mn: Шомодь
+    be: медзье Шомадзь
+    mk: Шомоѓ
+  comments: 
+SS: 
+  name: Szekszárd
+  code: 
   unofficial_names: Szekszárd
+  geo:
+    latitude: 46.3474326
+    longitude: 18.7062293
+    min_latitude: 46.2943501
+    min_longitude: 18.6108151
+    max_latitude: 46.404041
+    max_longitude: 18.851653
   translations:
     en: Szekszárd
     ar: سكسارد
@@ -2019,16 +2347,26 @@ SS:
     uk: Сексард
     ur: زیکسارڈ
     vi: Szekszárd
-  geo:
-    latitude: 46.3474326
-    longitude: 18.7062293
-    min_latitude: 46.2943501
-    min_longitude: 18.6108151
-    max_latitude: 46.404041
-    max_longitude: 18.851653
-  name: Szekszárd
-ST:
+    lv: Seksārda
+    cy: Szekszárd
+    ceb: Szekszárd
+    sr_Latn: Seksard
+    zh: 塞克薩德
+    ccp: "\U0001110E\U0001112C\U00011107\U00011134\U0001110E\U00011122\U00011134\U00011113\U00011134"
+    az: Seksard
+    mk: Сексард
+  comments: 
+ST: 
+  name: Salgótarján
+  code: 
   unofficial_names: Salgótarján
+  geo:
+    latitude: 48.0935237
+    longitude: 19.7999813
+    min_latitude: 48.039501
+    min_longitude: 19.7267319
+    max_latitude: 48.178421
+    max_longitude: 19.9221181
   translations:
     en: Salgótarján
     ar: سالجوتارجان
@@ -2079,16 +2417,26 @@ ST:
     uk: Шалґотарʼян
     ur: سالجوتارجان
     vi: Salgótarján
-  geo:
-    latitude: 48.0935237
-    longitude: 19.7999813
-    min_latitude: 48.039501
-    min_longitude: 19.7267319
-    max_latitude: 48.178421
-    max_longitude: 19.9221181
-  name: Salgótarján
-SZ:
+    lv: Šalgotarjana
+    cy: Salgótarján
+    ceb: Salgótarján
+    sr_Latn: Šalgotarjan
+    zh: 紹爾戈陶爾揚
+    ccp: "\U00011125\U00011123\U00011134\U00011109\U0001112E\U00011111\U00011122\U00011134\U0001110E\U0001111A\U00011134"
+    az: Şalqotariyan
+    mk: Шалготарјан
+  comments: 
+SZ: 
+  name: Szabolcs-Szatmár-Bereg
+  code: 
   unofficial_names: Szabolcs-Szatmár-Bereg
+  geo:
+    latitude: 48.0394954
+    longitude: 22.00333
+    min_latitude: 47.5916749
+    min_longitude: 21.0789789
+    max_latitude: 48.4256611
+    max_longitude: 22.896544
   translations:
     en: Szabolcs-Szatmár-Bereg
     ar: مقاطعة زابولكس-زاتمار-بيريج
@@ -2140,16 +2488,26 @@ SZ:
     uk: Саболч-Сатмар-Береґ
     ur: سابولچ-ساتمار-بیریگ کاؤنٹی
     vi: Hạt Szabolcs-Szatmár-Bereg
-  geo:
-    latitude: 48.0394954
-    longitude: 22.00333
-    min_latitude: 47.5916749
-    min_longitude: 21.0789789
-    max_latitude: 48.4256611
-    max_longitude: 22.896544
-  name: Szabolcs-Szatmár-Bereg
-TB:
+    ceb: Szabolcs-Szatmár-Bereg
+    sr_Latn: Sabolč-Satmar-Bereg
+    zh: 索博爾奇-索特馬爾-貝拉格州
+    ccp: "\U0001110E\U0001111D\U0001112E\U00011123\U00011134\U00011107\U00011134-\U0001110E\U00011116\U00011134\U0001111F\U00011122\U00011134-\U0001111D\U0001112C\U00011122\U0001112C\U00011107\U00011134"
+    hy: Սաբոլճ-Սատմար-Բերեգ շրջան
+    az: Sabolç-Satmar-Bereq
+    be: Сабальч-Сатмар-Берэг
+    mk: Саболч-Сатмар-Берег
+  comments: 
+TB: 
+  name: Tatabánya
+  code: 
   unofficial_names: Tatabánya
+  geo:
+    latitude: 47.569246
+    longitude: 18.404818
+    min_latitude: 47.48642599999999
+    min_longitude: 18.3379901
+    max_latitude: 47.6096499
+    max_longitude: 18.4973549
   translations:
     en: Tatabánya
     ar: تاتابانيا
@@ -2200,16 +2558,28 @@ TB:
     uk: Татабанья
     ur: تاتابانیا
     vi: Tatabánya
-  geo:
-    latitude: 47.569246
-    longitude: 18.404818
-    min_latitude: 47.48642599999999
-    min_longitude: 18.3379901
-    max_latitude: 47.6096499
-    max_longitude: 18.4973549
-  name: Tatabánya
-TO:
+    lv: Tatabāņa
+    cy: Tatabánya
+    ceb: Tatabánya
+    sr_Latn: Tatabanja
+    zh: 陶陶巴尼奧
+    ccp: "\U00011111\U00011111\U0001111D\U0001111A\U00011128\U00011120"
+    hy: Թաթաբանյա
+    hr: Tatabánya
+    az: Tatabanya
+    mk: Татабања
+  comments: 
+TO: 
+  name: Tolna
+  code: 
   unofficial_names: Tolna
+  geo:
+    latitude: 46.4258265
+    longitude: 18.7752069
+    min_latitude: 46.3655339
+    min_longitude: 18.7066851
+    max_latitude: 46.5007989
+    max_longitude: 18.8259278
   translations:
     en: Tolna
     ar: مقاطعة تولنا
@@ -2262,16 +2632,23 @@ TO:
     uk: Толна
     ur: تولنا کاؤنٹی
     vi: Hạt Tolna
-  geo:
-    latitude: 46.4258265
-    longitude: 18.7752069
-    min_latitude: 46.3655339
-    min_longitude: 18.7066851
-    max_latitude: 46.5007989
-    max_longitude: 18.8259278
-  name: Tolna
-VA:
+    ceb: Tolna megye
+    sr_Latn: Tolna
+    zh: 托爾瑙州
+    ccp: "\U00011111\U0001112E\U00011123\U00011134\U0001111A"
+    mk: Толна
+  comments: 
+VA: 
+  name: Vas
+  code: 
   unofficial_names: Vas
+  geo:
+    latitude: 47.09291109999999
+    longitude: 16.6812183
+    min_latitude: 46.714203
+    min_longitude: 16.1138579
+    max_latitude: 47.460547
+    max_longitude: 17.295531
   translations:
     en: Vas
     ar: مقاطعة فاس
@@ -2325,16 +2702,24 @@ VA:
     uk: Ваш
     ur: واش کاؤنٹی
     vi: Hạt Vas
-  geo:
-    latitude: 47.09291109999999
-    longitude: 16.6812183
-    min_latitude: 46.714203
-    min_longitude: 16.1138579
-    max_latitude: 47.460547
-    max_longitude: 17.295531
-  name: Vas
-VE:
+    ceb: Vas megye
+    sr_Latn: Vaš
+    zh: 沃什州
+    ccp: "\U0001111E\U0001110C\U00011134"
+    mn: Ваш
+    mk: Ваш
+  comments: 
+VE: 
+  name: Veszprém
+  code: 
   unofficial_names: Veszprém
+  geo:
+    latitude: 47.1028087
+    longitude: 17.9093019
+    min_latitude: 47.0459651
+    min_longitude: 17.8207858
+    max_latitude: 47.205633
+    max_longitude: 17.9937111
   translations:
     en: Veszprém County
     ar: مقاطعة فسبرم
@@ -2387,6 +2772,17 @@ VE:
     uk: Веспрем
     ur: ویسپریم کاؤنٹی
     vi: Hạt Veszprém
+    ceb: Veszprém megye
+    sr_Latn: Vesprem
+    zh: 維斯普雷姆州
+    ccp: "\U0001111E\U0001112C\U0001110C\U00011134\U0001111B\U00011133\U00011122\U0001112C\U0001111F\U00011134
+      \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+    mk: Веспрем
+  comments: 
+VM: 
+  name: Veszprém
+  code: 
+  unofficial_names: Veszprém
   geo:
     latitude: 47.1028087
     longitude: 17.9093019
@@ -2394,9 +2790,6 @@ VE:
     min_longitude: 17.8207858
     max_latitude: 47.205633
     max_longitude: 17.9937111
-  name: Veszprém
-VM:
-  unofficial_names: Veszprém
   translations:
     en: Veszprém
     ar: فيسبرم
@@ -2450,16 +2843,25 @@ VM:
     uk: Веспрем²
     ur: ویسزپریم
     vi: Veszprém
-  geo:
-    latitude: 47.1028087
-    longitude: 17.9093019
-    min_latitude: 47.0459651
-    min_longitude: 17.8207858
-    max_latitude: 47.205633
-    max_longitude: 17.9937111
-  name: Veszprém
-ZA:
+    lv: Vesprēma
+    cy: Veszprém
+    ceb: Veszprém
+    sr_Latn: Vesprem²
+    zh: 維斯普雷姆
+    ccp: "\U0001111E\U0001112C\U0001110C\U00011134\U0001111B\U00011133\U00011122\U0001112C\U0001111F\U00011134"
+    mk: Веспрем²
+  comments: 
+ZA: 
+  name: Zala
+  code: 
   unofficial_names: Zala
+  geo:
+    latitude: 46.73844039999999
+    longitude: 16.9152252
+    min_latitude: 46.290997
+    min_longitude: 16.361846
+    max_latitude: 47.048693
+    max_longitude: 17.3809683
   translations:
     en: Zala
     ar: مقاطعة زالا
@@ -2511,16 +2913,24 @@ ZA:
     uk: Зала
     ur: زالا کاؤنٹی
     vi: Hạt Zala
-  geo:
-    latitude: 46.73844039999999
-    longitude: 16.9152252
-    min_latitude: 46.290997
-    min_longitude: 16.361846
-    max_latitude: 47.048693
-    max_longitude: 17.3809683
-  name: Zala
-ZE:
+    ceb: Zala megye
+    sr_Latn: Zala
+    zh: 佐洛州
+    ccp: "\U0001110E\U00011123"
+    mn: Зала
+    mk: Зала
+  comments: 
+ZE: 
+  name: Zalaegerszeg
+  code: 
   unofficial_names: Zalaegerszeg
+  geo:
+    latitude: 46.8416936
+    longitude: 16.8416322
+    min_latitude: 46.780261
+    min_longitude: 16.768593
+    max_latitude: 46.90018389999999
+    max_longitude: 16.90627
   translations:
     en: Zalaegerszeg
     ar: زالاجيرسيج
@@ -2573,11 +2983,12 @@ ZE:
     uk: Залаеґерсеґ
     ur: زالایجیرسزیج
     vi: Zalaegerszeg
-  geo:
-    latitude: 46.8416936
-    longitude: 16.8416322
-    min_latitude: 46.780261
-    min_longitude: 16.768593
-    max_latitude: 46.90018389999999
-    max_longitude: 16.90627
-  name: Zalaegerszeg
+    lv: Zalaegersega
+    cy: Zalaegerszeg
+    ceb: Zalaegerszeg
+    sr_Latn: Zalaegerseg
+    zh: 佐洛埃格塞格
+    ccp: "\U0001110E\U00011123\U0001110E\U0001112C\U00011122\U00011134\U0001110E\U0001112C\U00011107\U00011134"
+    az: Zalaeqerseq
+    mk: Залаегерсег
+  comments: 

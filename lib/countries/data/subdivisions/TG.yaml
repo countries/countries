@@ -1,6 +1,15 @@
 ---
-C:
+C: 
+  name: Centre
+  code: 
   unofficial_names: Centre
+  geo:
+    latitude: 8.6586029
+    longitude: 1.0586135
+    min_latitude: 7.9023141
+    min_longitude: 0.3816739
+    max_latitude: 9.296292
+    max_longitude: 1.650187
   translations:
     en: Centrale
     ar: الإقليم الأوسط
@@ -39,16 +48,21 @@ C:
     ur: سونترال علاقہ، ٹوگو
     vi: Centrale
     zh: 中部区
-  geo:
-    latitude: 8.6586029
-    longitude: 1.0586135
-    min_latitude: 7.9023141
-    min_longitude: 0.3816739
-    max_latitude: 9.296292
-    max_longitude: 1.650187
-  name: Centre
-K:
+    lv: Centrālais reģions
+    ceb: Centrale
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+  comments: 
+K: 
+  name: Kara
+  code: 
   unofficial_names: Kara
+  geo:
+    latitude: 9.548888999999999
+    longitude: 1.190556
+    min_latitude: 9.534310099999999
+    min_longitude: 1.1657524
+    max_latitude: 9.5661352
+    max_longitude: 1.2201691
   translations:
     en: Kara
     ar: إقليم كارا
@@ -87,16 +101,23 @@ K:
     uk: Регіон Кари
     ur: کارا علاقہ
     vi: Kara
-  geo:
-    latitude: 9.548888999999999
-    longitude: 1.190556
-    min_latitude: 9.534310099999999
-    min_longitude: 1.1657524
-    max_latitude: 9.5661352
-    max_longitude: 1.2201691
-  name: Kara
-M:
+    lv: Karas reģions
+    ceb: Kara
+    zh: 卡拉区
+    sq: Kara
+    ccp: "\U00011107\U00011122"
+  comments: 
+M: 
+  name: Maritime (Région)
+  code: 
   unofficial_names: Maritime (Région)
+  geo:
+    latitude: 6.4913504
+    longitude: 1.2891036
+    min_latitude: 6.109153399999999
+    min_longitude: 0.717368
+    max_latitude: 6.918175
+    max_longitude: 1.806693
   translations:
     en: Maritime
     ar: إقليم البحرية
@@ -137,16 +158,22 @@ M:
     uk: Марітіме
     ur: میری ٹائم علاقہ
     vi: Maritime
-  geo:
-    latitude: 6.4913504
-    longitude: 1.2891036
-    min_latitude: 6.109153399999999
-    min_longitude: 0.717368
-    max_latitude: 6.918175
-    max_longitude: 1.806693
-  name: Maritime (Région)
-P:
+    lv: Piejūras reģions
+    ceb: Maritime
+    zh: 濱海區
+    ccp: "\U0001111F\U0001112C\U00011122\U00011128\U00011111\U0001112D\U0001111F\U00011134"
+  comments: 
+P: 
+  name: Plateaux
+  code: 
   unofficial_names: Plateaux
+  geo:
+    latitude: 7.6101378
+    longitude: 1.0586135
+    min_latitude: 6.542187
+    min_longitude: 0.501813
+    max_latitude: 8.368130899999999
+    max_longitude: 1.677525
   translations:
     en: Plateaux
     ar: إقليم بلاتيوكس
@@ -183,16 +210,22 @@ P:
     uk: Регіон Плато
     ur: پلاٹوس علاقہ، ٹوگو
     vi: Plateaux
-  geo:
-    latitude: 7.6101378
-    longitude: 1.0586135
-    min_latitude: 6.542187
-    min_longitude: 0.501813
-    max_latitude: 8.368130899999999
-    max_longitude: 1.677525
-  name: Plateaux
-S:
+    lv: Plato reģions
+    ceb: Plateaux
+    zh: 高原區
+    ccp: "\U0001111B\U00011133\U00011123\U00011111\U00011128\U00011120\U00011107\U00011134"
+  comments: 
+S: 
+  name: Savannes
+  code: 
   unofficial_names: Savannes
+  geo:
+    latitude: 10.5291781
+    longitude: 0.5257822999999999
+    min_latitude: 9.879532
+    min_longitude: -0.1473239
+    max_latitude: 11.138977
+    max_longitude: 0.9969091000000001
   translations:
     en: Savanes
     ar: إقليم سافانس
@@ -230,11 +263,8 @@ S:
     uk: Регіон Саванн
     ur: ساوانیس علاقہ، ٹوگو
     vi: Savanes
-  geo:
-    latitude: 10.5291781
-    longitude: 0.5257822999999999
-    min_latitude: 9.879532
-    min_longitude: -0.1473239
-    max_latitude: 11.138977
-    max_longitude: 0.9969091000000001
-  name: Savannes
+    lv: Savanes reģions
+    ceb: Savanes
+    zh: 草原區
+    ccp: "\U00011125\U0001111D\U0001111A\U0001112C\U0001110C\U00011134"
+  comments: 

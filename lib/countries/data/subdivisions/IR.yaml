@@ -1,8 +1,17 @@
 ---
-'01':
+'01': 
+  name: Az¯arbayjan-e Sharqi
+  code: 
   unofficial_names:
   - Azarbayjān-e Khavari
   - East Azerbaijan
+  geo:
+    latitude: 38.4703541
+    longitude: 47.0571193
+    min_latitude: 38.46699479999999
+    min_longitude: 47.0525068
+    max_latitude: 38.473952
+    max_longitude: 47.060772
   translations:
     en: East Azerbaijan
     ar: محافظة أذربيجان الشرقية
@@ -54,18 +63,29 @@
     ur: صوبہ آذربائیجان شرقی
     vi: Đông Azarbaijan
     zh: 東亞塞拜疆省
-  geo:
-    latitude: 38.4703541
-    longitude: 47.0571193
-    min_latitude: 38.46699479999999
-    min_longitude: 47.0525068
-    max_latitude: 38.473952
-    max_longitude: 47.060772
-  name: Az¯arbayjan-e Sharqi
-'02':
+    ceb: Sidlakang Aserbayan
+    sr_Latn: Pokrajina Istočni Azerbejdžan
+    yue_Hans: 东亚塞拜疆省
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011103\U0001110E\U00011122\U00011134\U0001111D\U0001112D\U0001110E\U0001111A\U00011134"
+    ps: مشرقي ازربايجان
+    pa: ਪੂਰਬੀ ਅਜ਼ਰਬਾਈਜਾਨ ਸੂਬਾ
+    yue: 東亞塞拜疆省
+    uz: Sharqiy Ozarbayjon ustoni
+    mk: Источен Азербејџан
+  comments: 
+'02': 
+  name: Az¯arbayjan-e Gharbi
+  code: 
   unofficial_names:
   - Azarbayjān-e Bakhtari
   - West Azerbaijan
+  geo:
+    latitude: 34.0489281
+    longitude: -111.0937311
+    min_latitude: 31.3321771
+    min_longitude: -114.8165909
+    max_latitude: 37.0042599
+    max_longitude: -109.0452231
   translations:
     en: West Azarbaijan
     ar: محافظة أذربيجان الغربية
@@ -115,18 +135,28 @@
     uk: Західний Азербайджан
     ur: صوبہ آذربائیجان غربی
     vi: Tây Azerbaijan
-  geo:
-    latitude: 34.0489281
-    longitude: -111.0937311
-    min_latitude: 31.3321771
-    min_longitude: -114.8165909
-    max_latitude: 37.0042599
-    max_longitude: -109.0452231
-  name: Az¯arbayjan-e Gharbi
-'03':
+    ceb: Kasadpang Aserbayan
+    sr_Latn: Pokrajina Zapadni Azerbejdžan
+    zh: 西亞塞拜然省
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011103\U0001110E\U00011122\U00011134\U0001111D\U0001112D\U0001110E\U0001111A\U00011134"
+    ps: مغربي ازربايجان
+    kk: Батыс Әзірбайжан
+    uz: Gʻarbiy Ozarbayjon ustoni
+    mk: Западен Азербејџан
+  comments: 
+'03': 
+  name: Ardabil
+  code: 
   unofficial_names:
   - Ardabil
   - Ardebil
+  geo:
+    latitude: 38.25
+    longitude: 48.283333
+    min_latitude: 38.17842570000001
+    min_longitude: 48.2100678
+    max_latitude: 38.3550081
+    max_longitude: 48.4719989
   translations:
     en: Ardabil
     ar: محافظة أردبيل
@@ -179,17 +209,27 @@
     uk: Ардебіль
     ur: صوبہ اردبیل
     vi: Ardabil
-  geo:
-    latitude: 38.25
-    longitude: 48.283333
-    min_latitude: 38.17842570000001
-    min_longitude: 48.2100678
-    max_latitude: 38.3550081
-    max_longitude: 48.4719989
-  name: Ardabil
-'04':
+    ceb: Ardabil
+    sr_Latn: Pokrajina Ardabil
+    zh: 阿爾達比勒省
+    yue_Hans: 阿尔达比勒省
+    ccp: "\U00011103\U00011122\U00011134\U00011113\U0001111D\U00011128\U00011123\U00011134"
+    kk: Ардебил
+    yue: 阿爾達比勒省
+    mk: Ардабил
+  comments: 
+'04': 
+  name: Esfahan
+  code: 
   unofficial_names:
   - Isfahan
+  geo:
+    latitude: 32.6546275
+    longitude: 51.66798259999999
+    min_latitude: 32.5045501
+    min_longitude: 51.5254498
+    max_latitude: 32.8200277
+    max_longitude: 51.8486024
   translations:
     en: Isfahan
     ar: أصفهان
@@ -240,17 +280,28 @@
     uk: Ісфахан (остан)
     ur: صوبہ اصفہان
     vi: Isfahan (tỉnh)
-  geo:
-    latitude: 32.6546275
-    longitude: 51.66798259999999
-    min_latitude: 32.5045501
-    min_longitude: 51.5254498
-    max_latitude: 32.8200277
-    max_longitude: 51.8486024
-  name: Esfahan
-'05':
+    ceb: Esfahān
+    sr_Latn: Pokrajina Isfahan
+    zh: 伊斯法罕省
+    yue_Hans: 伊斯法罕省
+    ccp: "\U00011103\U00011128\U0001110C\U00011134\U0001111C\U00011126\U0001111A\U00011134"
+    kk: Исфаһан облысы
+    yue: 伊斯法罕省
+    bs: Isfahanska pokrajina
+    mk: Исфахан
+  comments: 
+'05': 
+  name: Ilam
+  code: 
   unofficial_names:
   - Ilam
+  geo:
+    latitude: 33.6375
+    longitude: 46.422778
+    min_latitude: 33.6210342
+    min_longitude: 46.3797726
+    max_latitude: 33.6528069
+    max_longitude: 46.44824269999999
   translations:
     en: Ilam
     ar: عيلام
@@ -292,16 +343,26 @@
     uk: Ілам
     ur: صوبہ ایلام
     vi: Ilam
-  geo:
-    latitude: 33.6375
-    longitude: 46.422778
-    min_latitude: 33.6210342
-    min_longitude: 46.3797726
-    max_latitude: 33.6528069
-    max_longitude: 46.44824269999999
-  name: Ilam
-'06':
+    ceb: Ilām
+    sr_Latn: Pokrajina Ilam
+    ta: இலாம் மாகாணம்
+    zh: 伊拉姆省
+    yue_Hans: 伊拉姆省
+    ccp: "\U00011103\U00011128\U00011123\U0001111F\U00011134"
+    yue: 伊拉姆省
+    mk: Илам
+  comments: 
+'06': 
+  name: Bushehr
+  code: 
   unofficial_names: Bushehr
+  geo:
+    latitude: 28.97802549999999
+    longitude: 50.8379918
+    min_latitude: 28.9775018
+    min_longitude: 50.8374439
+    max_latitude: 28.9784922
+    max_longitude: 50.8385061
   translations:
     en: Bushehr
     ar: بوشهر
@@ -344,17 +405,29 @@
     uk: Бушер
     ur: صوبہ بوشهر
     vi: Bushehr
-  geo:
-    latitude: 28.97802549999999
-    longitude: 50.8379918
-    min_latitude: 28.9775018
-    min_longitude: 50.8374439
-    max_latitude: 28.9784922
-    max_longitude: 50.8385061
-  name: Bushehr
-'07':
+    ceb: Bushehr
+    sr_Latn: Pokrajina Bušer
+    ta: புஷெர் மாகாணம்
+    zh: 布什爾省
+    yue_Hans: 布舍尔省
+    ccp: "\U0001111D\U0001112A\U00011125\U0001112C\U00011126\U00011134\U00011122\U00011134"
+    pa: ਬੁਸ਼ਹਿਰ ਸੂਬਾ
+    kk: Бушеһр
+    yue: 布舍爾省
+    mk: Бушер
+  comments: 
+'07': 
+  name: Tehran
+  code: 
   unofficial_names:
   - Teheran
+  geo:
+    latitude: 35.7006336
+    longitude: 51.4716563
+    min_latitude: 35.6910776
+    min_longitude: 51.4592261
+    max_latitude: 35.7107648
+    max_longitude: 51.4861434
   translations:
     en: Tehran
     ar: طهران
@@ -405,17 +478,26 @@
     uk: Тегеран
     ur: صوبہ تہران
     vi: Tehran
-  geo:
-    latitude: 35.7006336
-    longitude: 51.4716563
-    min_latitude: 35.6910776
-    min_longitude: 51.4592261
-    max_latitude: 35.7107648
-    max_longitude: 51.4861434
-  name: Tehran
-'08':
+    cy: Tehran
+    ceb: Tehrān
+    sr_Latn: Pokrajina Teheran
+    zh: 德黑蘭省
+    ccp: "\U00011116\U0001112C\U00011126\U00011134\U00011122\U0001111A\U00011134"
+    bs: Teheranska pokrajina
+    mk: Техеран
+  comments: 
+'08': 
+  name: Chahar Mah¸all va Bakhtiari
+  code: 
   unofficial_names:
   - Chaharmahal Bakhtiari
+  geo:
+    latitude: 31.9614348
+    longitude: 50.8456323
+    min_latitude: 31.112481
+    min_longitude: 49.76081509999999
+    max_latitude: 32.700775
+    max_longitude: 51.3524481
   translations:
     en: Chaharmahal and Bakhtiari
     ar: تشهارمحال وبختياري
@@ -463,19 +545,21 @@
     uk: Чехармехаль і Бахтиарія
     ur: صوبہ چہارمحال و بختیاری
     vi: Chaharmahal và Bakhtiari
-  geo:
-    latitude: 31.9614348
-    longitude: 50.8456323
-    min_latitude: 31.112481
-    min_longitude: 49.76081509999999
-    max_latitude: 32.700775
-    max_longitude: 51.3524481
-  name: Chahar Mah¸all va Bakhtiari
-'09':
+    ceb: Chahārmahāl o Bakhtiyāri
+    sr_Latn: Pokrajina Čahar Mahal i Baktijari
+    zh: 恰哈馬哈勒－巴赫蒂亞里省
+    yue_Hans: 恰哈马哈勒－巴赫蒂亚里省
+    ccp: "\U0001110C\U00011126\U00011122\U00011134\U0001111F\U00011127\U00011126\U00011127\U00011123\U00011134
+      \U00011103\U00011133\U00011103 \U0001111D\U00011107\U00011134\U00011111\U00011128\U00011120\U00011122\U00011128"
+    ps: چار محل و بختياري
+    yue: 恰哈馬哈勒－巴赫蒂亞里省
+    mk: Чахар Махал и Бахтијари
+  comments: 
+'09': 
+  name: Khorasan
+  code: 
   unofficial_names:
   - Khorasan
-  translations:
-    en: Khorasan
   geo:
     latitude: 26.5404213
     longitude: 54.0053666
@@ -483,10 +567,21 @@
     min_longitude: 54.0035775
     max_latitude: 26.543404
     max_longitude: 54.0069813
-  name: Khorasan
-'10':
+  translations:
+    en: Khorasan
+  comments: 
+'10': 
+  name: Khuzestan
+  code: 
   unofficial_names:
   - Arabistan
+  geo:
+    latitude: 31.4360149
+    longitude: 49.041312
+    min_latitude: 29.9426961
+    min_longitude: 47.614482
+    max_latitude: 33.09328
+    max_longitude: 50.433708
   translations:
     en: Khuzestan
     ar: خوزستان
@@ -536,16 +631,27 @@
     uk: Хузестан
     ur: صوبہ خوزستان
     vi: Khuzestan
-  geo:
-    latitude: 31.4360149
-    longitude: 49.041312
-    min_latitude: 29.9426961
-    min_longitude: 47.614482
-    max_latitude: 33.09328
-    max_longitude: 50.433708
-  name: Khuzestan
-'11':
+    cy: Khūzestān
+    ceb: Khuzestān
+    zh: 胡齊斯坦省
+    yue_Hans: 胡齐斯坦省
+    ccp: "\U00011108\U0001112A\U0001110E\U0001112C\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    pa: ਖੁਜਿਸਤਾਨ ਰਿਆਸਤ
+    yue: 胡齊斯坦省
+    uz: Xuziston ustoni
+    mk: Кузестан
+  comments: 
+'11': 
+  name: Zanjan
+  code: 
   unofficial_names: Zanjan
+  geo:
+    latitude: 36.666667
+    longitude: 48.48333299999999
+    min_latitude: 36.6359171
+    min_longitude: 48.384819
+    max_latitude: 36.726124
+    max_longitude: 48.6016273
   translations:
     en: Zanjan
     ar: زنجان
@@ -589,16 +695,26 @@
     uk: Зенджан (остан)
     ur: صوبہ زنجان
     vi: Zanjan (tỉnh)
-  geo:
-    latitude: 36.666667
-    longitude: 48.48333299999999
-    min_latitude: 36.6359171
-    min_longitude: 48.384819
-    max_latitude: 36.726124
-    max_longitude: 48.6016273
-  name: Zanjan
-'12':
+    ceb: Zanjān
+    sr_Latn: Pokrajina Zandžan
+    zh: 贊詹省
+    el: Ζαντζάν
+    ccp: "\U0001110E\U0001111A\U00011134\U0001110E\U0001111A\U00011134"
+    pa: ਜ਼ਨਜਾਨ ਸੂਬਾ
+    uz: Zanjon ustoni
+    mk: Занџан
+  comments: 
+'12': 
+  name: Semnan
+  code: 
   unofficial_names: Semnan
+  geo:
+    latitude: 35.572778
+    longitude: 53.397222
+    min_latitude: 35.5383726
+    min_longitude: 53.3312416
+    max_latitude: 35.6169769
+    max_longitude: 53.436985
   translations:
     en: Semnan
     ar: سمنان
@@ -641,17 +757,26 @@
     tr: Simnan Eyaleti
     uk: Семнан
     ur: صوبہ سمنان
-  geo:
-    latitude: 35.572778
-    longitude: 53.397222
-    min_latitude: 35.5383726
-    min_longitude: 53.3312416
-    max_latitude: 35.6169769
-    max_longitude: 53.436985
-  name: Semnan
-'13':
+    cy: Semnān
+    ceb: Semnān
+    sr_Latn: Pokrajina Semnan
+    zh: 塞姆南省
+    ccp: "\U00011125\U0001112C\U0001111F\U00011134\U0001111A\U0001111A\U00011134"
+    is: Semnan-hérað, Íran
+    mk: Семнан
+  comments: 
+'13': 
+  name: Sistan va Baluchestan
+  code: 
   unofficial_names:
   - Sistan-e Baluchistan
+  geo:
+    latitude: 27.2001559
+    longitude: 60.6392527
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sistan and Baluchestan
     ar: سيستان وبلوشستان
@@ -702,16 +827,26 @@
     uk: Систан і Белуджистан
     ur: صوبہ سیستان و بلوچستان
     vi: Tỉnh Sistan và Baluchestan
-  geo:
-    latitude: 27.2001559
-    longitude: 60.6392527
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Sistan va Baluchestan
-'14':
+    cy: Sistan a Baluchestan
+    ceb: Sistān o Baluchestān
+    sr_Latn: Pokrajina Sistan i Beludžistan
+    zh: 錫斯坦－俾路支斯坦省
+    ccp: "\U00011125\U00011128\U0001110C\U00011134\U00011111\U0001111A\U00011134 \U00011103\U00011133\U00011103
+      \U0001111D\U00011123\U0001112A\U0001110C\U0001112C\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    uz: Siston va Balujiston ustoni
+    mk: Систан и Балуџистан
+  comments: 
+'14': 
+  name: Fars
+  code: 
   unofficial_names: Fars
+  geo:
+    latitude: 29.1043813
+    longitude: 53.045893
+    min_latitude: 27.147872
+    min_longitude: 50.58247799999999
+    max_latitude: 31.763714
+    max_longitude: 55.6170359
   translations:
     en: Fars
     ar: فارس
@@ -762,16 +897,29 @@
     uk: Фарс (остан)
     ur: صوبہ فارس
     vi: Fars (tỉnh)
-  geo:
-    latitude: 29.1043813
-    longitude: 53.045893
-    min_latitude: 27.147872
-    min_longitude: 50.58247799999999
-    max_latitude: 31.763714
-    max_longitude: 55.6170359
-  name: Fars
-'15':
+    ceb: Fārs
+    sr_Latn: Pokrajina Fars
+    zh: 法爾斯省
+    yue_Hans: 法尔斯省
+    ccp: "\U0001111C\U00011122\U00011134\U00011125\U00011134"
+    pa: ਫ਼ਾਰਸ ਸੂਬਾ
+    kk: Фарс облысы
+    yue: 法爾斯省
+    uz: Fors
+    bs: Fars (provincija)
+    mk: Фарс
+  comments: 
+'15': 
+  name: Kerman
+  code: 
   unofficial_names: Kerman
+  geo:
+    latitude: 30.2839379
+    longitude: 57.0833628
+    min_latitude: 30.2001849
+    min_longitude: 56.9356155
+    max_latitude: 30.3459171
+    max_longitude: 57.1968843
   translations:
     en: Kerman
     ar: كرمان
@@ -821,18 +969,25 @@
     uk: Керман
     ur: صوبہ کرمان
     vi: Kerman
-  geo:
-    latitude: 30.2839379
-    longitude: 57.0833628
-    min_latitude: 30.2001849
-    min_longitude: 56.9356155
-    max_latitude: 30.3459171
-    max_longitude: 57.1968843
-  name: Kerman
-'16':
+    ceb: Kermān
+    sr_Latn: Pokrajina Kerman
+    zh: 克爾曼省
+    ccp: "\U00011107\U0001112C\U00011122\U00011134\U0001111F\U0001111A\U00011134"
+    mk: Керман
+  comments: 
+'16': 
+  name: Kordestan
+  code: 
   unofficial_names:
   - Kurdestan
   - Kurdistan
+  geo:
+    latitude: 34.3135711
+    longitude: 47.0535126
+    min_latitude: 34.3086925
+    min_longitude: 47.0484325
+    max_latitude: 34.3188878
+    max_longitude: 47.0581582
   translations:
     en: Kurdistan
     ar: كردستان
@@ -882,6 +1037,24 @@
     uk: Курдистан
     ur: صوبہ کردستان
     vi: Kurdistan
+    cy: Cyrdistan
+    ceb: Kordestān
+    sr_Latn: Kurdistan
+    zh: 庫爾德斯坦省
+    yue_Hans: 库尔德斯坦省
+    ccp: "\U00011107\U0001112A\U00011122\U00011134\U00011113\U00011128\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    ps: کردستان ولايت
+    pa: ਕੁਰਦਿਸਤਾਨ ਸੂਬਾ
+    yue: 庫爾德斯坦省
+    uz: Kurdiston ustoni
+    bs: Kurdistanska pokrajina
+    mk: Курдистан
+  comments: 
+'17': 
+  name: Kermanshah
+  code: 
+  unofficial_names:
+  - Bakhtaran
   geo:
     latitude: 34.3135711
     longitude: 47.0535126
@@ -889,10 +1062,6 @@
     min_longitude: 47.0484325
     max_latitude: 34.3188878
     max_longitude: 47.0581582
-  name: Kordestan
-'17':
-  unofficial_names:
-  - Bakhtaran
   translations:
     en: Kermanshah
     ar: كرمانشاه
@@ -941,18 +1110,27 @@
     uk: Керманшах
     ur: صوبہ کرمانشاہ
     vi: Kermanshah
-  geo:
-    latitude: 34.3135711
-    longitude: 47.0535126
-    min_latitude: 34.3086925
-    min_longitude: 47.0484325
-    max_latitude: 34.3188878
-    max_longitude: 47.0581582
-  name: Kermanshah
-'18':
+    ceb: Kermānshāh
+    sr_Latn: Pokrajina Kermanšah
+    zh: 克爾曼沙汗省
+    ccp: "\U00011107\U0001112C\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011125\U00011126\U00011134"
+    hy: Քերմանշահի նահանգ
+    ps: کرمانشاه ولايت
+    mk: Керманшах
+  comments: 
+'18': 
+  name: Kohkiluyeh va Buyer Ahmad
+  code: 
   unofficial_names:
   - Boyer Ahmad-e Kohkiluyeh
   - Kohkilouyeh
+  geo:
+    latitude: 30.724586
+    longitude: 50.8456323
+    min_latitude: 30.171534
+    min_longitude: 49.913279
+    max_latitude: 31.5126911
+    max_longitude: 51.69622409999999
   translations:
     en: Kohgiluyeh and Boyer-Ahmad
     ar: كهكيلويه وبوير أحمد
@@ -998,17 +1176,27 @@
     uk: Кохгілує і Бойєрахмед
     ur: صوبہ کہگیلویہ و بویراحمد
     vi: Tỉnh Kohgiluyeh và Boyer-Ahmad
-  geo:
-    latitude: 30.724586
-    longitude: 50.8456323
-    min_latitude: 30.171534
-    min_longitude: 49.913279
-    max_latitude: 31.5126911
-    max_longitude: 51.69622409999999
-  name: Kohkiluyeh va Buyer Ahmad
-'19':
+    ceb: Kohgiluyeh o Boyer-Ahmad
+    sr_Latn: Pokrajina Kohkilujeh i Bujer Ahmad
+    zh: 科吉盧耶－博韋艾哈邁德省
+    sq: Kohgiluje dhe Bojer-Ahmad
+    ccp: "\U00011107\U0001112E\U00011126\U00011134\U00011109\U00011128\U00011123\U0001112A\U00011120\U0001112C\U00011126\U00011134
+      \U00011103\U00011133\U00011103 \U0001111D\U00011127\U00011120\U00011122\U00011134-\U00011103\U00011126\U00011134\U0001111F\U0001112C\U00011116\U00011134"
+    ps: کهگلويه و بويراحمد
+    mk: Кохкилуех и Бујер Ахмад
+  comments: 
+'19': 
+  name: Gilan
+  code: 
   unofficial_names:
   - Gilan
+  geo:
+    latitude: 37.4651668
+    longitude: 49.4611697
+    min_latitude: 37.4634536
+    min_longitude: 49.4595517
+    max_latitude: 37.4669978
+    max_longitude: 49.4642952
   translations:
     en: Gilan
     ar: غیلان
@@ -1061,16 +1249,28 @@
     uk: Гілян
     ur: صوبہ جیلان
     vi: Gilan
-  geo:
-    latitude: 37.4651668
-    longitude: 49.4611697
-    min_latitude: 37.4634536
-    min_longitude: 49.4595517
-    max_latitude: 37.4669978
-    max_longitude: 49.4642952
-  name: Gilan
-'20':
+    cy: Gīlān
+    ceb: Gilān
+    sr_Latn: Pokrajina Gilan
+    zh: 吉蘭省
+    yue_Hans: 基兰省
+    ccp: "\U00011109\U00011128\U00011123\U0001111A\U00011134"
+    ky: Гилян
+    yue: 基蘭省
+    uz: Gilon
+    mk: Гилан
+  comments: 
+'20': 
+  name: Lorestan
+  code: 
   unofficial_names: Lorestan
+  geo:
+    latitude: 33.5818394
+    longitude: 48.3988186
+    min_latitude: 32.643707
+    min_longitude: 46.87204699999999
+    max_latitude: 34.412064
+    max_longitude: 50.0329071
   translations:
     en: Lorestan
     ar: لرستان
@@ -1120,17 +1320,26 @@
     uk: Лурестан
     ur: صوبہ لرستان
     vi: Lorestan (tỉnh)
-  geo:
-    latitude: 33.5818394
-    longitude: 48.3988186
-    min_latitude: 32.643707
-    min_longitude: 46.87204699999999
-    max_latitude: 34.412064
-    max_longitude: 50.0329071
-  name: Lorestan
-'21':
+    cy: Lorestān (talaith)
+    ceb: Lorestān
+    sr_Latn: Pokrajina Lorestan
+    zh: 洛雷斯坦省
+    ccp: "\U00011123\U0001112E\U00011122\U0001112C\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    uz: Luriston
+    mk: Лорестан
+  comments: 
+'21': 
+  name: Mazandaran
+  code: 
   unofficial_names:
   - Mazandaran
+  geo:
+    latitude: 36.2262393
+    longitude: 52.5318604
+    min_latitude: 35.774562
+    min_longitude: 50.308859
+    max_latitude: 36.9641991
+    max_longitude: 54.23243799999999
   translations:
     en: Mazandaran
     ar: مازندران
@@ -1181,16 +1390,25 @@
     uk: Мазендеран
     ur: ماژندران
     vi: Mazandaran
-  geo:
-    latitude: 36.2262393
-    longitude: 52.5318604
-    min_latitude: 35.774562
-    min_longitude: 50.308859
-    max_latitude: 36.9641991
-    max_longitude: 54.23243799999999
-  name: Mazandaran
-'22':
+    ceb: Māzandarān
+    sr_Latn: Pokrajina Mazandaran
+    zh: 馬贊德蘭省
+    ccp: "\U0001111F\U0001110E\U0001111A\U00011134\U00011118\U00011122\U0001111A\U00011134"
+    ps: مازندارن
+    uz: Mozandaron
+    mk: Мазендеран
+  comments: 
+'22': 
+  name: Markazi
+  code: 
   unofficial_names: Markazi
+  geo:
+    latitude: 34.612305
+    longitude: 49.8547266
+    min_latitude: 33.5383001
+    min_longitude: 48.889122
+    max_latitude: 35.710403
+    max_longitude: 51.0862229
   translations:
     en: Markazi
     ar: مركزي
@@ -1240,16 +1458,25 @@
     uk: Меркезі
     ur: مرکزی
     vi: Markazi
-  geo:
-    latitude: 34.612305
-    longitude: 49.8547266
-    min_latitude: 33.5383001
-    min_longitude: 48.889122
-    max_latitude: 35.710403
-    max_longitude: 51.0862229
-  name: Markazi
-'23':
+    cy: Markazi
+    ceb: Markazi
+    sr_Latn: Pokrajina Markazi
+    zh: 中央省
+    ccp: "\U0001111F\U00011122\U00011134\U00011107\U0001110E\U00011128"
+    pa: ਮਰਕਜ਼ੀ ਸੂਬਾ
+    mk: Маркази
+  comments: 
+'23': 
+  name: Hormozgan
+  code: 
   unofficial_names: Hormozgan
+  geo:
+    latitude: 27.1907825
+    longitude: 56.2635988
+    min_latitude: 27.1667586
+    min_longitude: 56.2467733
+    max_latitude: 27.1963352
+    max_longitude: 56.2897182
   translations:
     en: Hormozgan
     af: Hormozgan
@@ -1292,17 +1519,27 @@
     uk: Хормозган
     ur: صوبہ ہرمزگان
     vi: Hormozgan
-  geo:
-    latitude: 27.1907825
-    longitude: 56.2635988
-    min_latitude: 27.1667586
-    min_longitude: 56.2467733
-    max_latitude: 27.1963352
-    max_longitude: 56.2897182
-  name: Hormozgan
-'24':
+    ceb: Hormozgān
+    sr_Latn: Pokrajina Hormozgan
+    ta: ஹொர்மொஸ்கான் மாகாணம்
+    zh: 霍爾木茲甘省
+    yue_Hans: 霍尔木兹甘省
+    ccp: "\U00011126\U0001112E\U00011122\U0001111F\U0001112E\U0001110C\U00011134\U00011109\U00011133\U00011120\U0001111A\U00011134"
+    yue: 霍爾木茲甘省
+    mk: Хормозган
+  comments: 
+'24': 
+  name: Hamadan
+  code: 
   unofficial_names:
   - Hamedan
+  geo:
+    latitude: 34.8
+    longitude: 48.516667
+    min_latitude: 34.7421415
+    min_longitude: 48.4364891
+    max_latitude: 34.8825162
+    max_longitude: 48.5836458
   translations:
     en: Hamadan
     ar: همدان
@@ -1352,16 +1589,26 @@
     uk: Хамадан
     ur: صوبہ ہمدان
     vi: Hamadan
-  geo:
-    latitude: 34.8
-    longitude: 48.516667
-    min_latitude: 34.7421415
-    min_longitude: 48.4364891
-    max_latitude: 34.8825162
-    max_longitude: 48.5836458
-  name: Hamadan
-'25':
+    ceb: Hamadān
+    sr_Latn: Pokrajina Hamadan
+    zh: 哈馬丹省
+    yue_Hans: 哈马丹省
+    ccp: "\U00011126\U0001111F\U00011134\U00011118\U0001111A\U00011134"
+    ps: همدان ولايت
+    yue: 哈馬丹省
+    mk: Хамадан
+  comments: 
+'25': 
+  name: Yazd
+  code: 
   unofficial_names: Yazd
+  geo:
+    latitude: 31.8974232
+    longitude: 54.3568562
+    min_latitude: 31.7937011
+    min_longitude: 54.22456740000001
+    max_latitude: 31.9654157
+    max_longitude: 54.4530487
   translations:
     en: Yazd
     ar: يزد
@@ -1405,16 +1652,25 @@
     uk: Йєзд
     ur: یزد علاقہ
     vi: Yazd
-  geo:
-    latitude: 31.8974232
-    longitude: 54.3568562
-    min_latitude: 31.7937011
-    min_longitude: 54.22456740000001
-    max_latitude: 31.9654157
-    max_longitude: 54.4530487
-  name: Yazd
-'26':
+    ceb: Yazd
+    sr_Latn: Pokrajina Jazd
+    zh: 亞茲德省
+    el: Επαρχία Γιαζντ
+    ccp: "\U00011103\U00011128\U00011120\U0001110C\U00011134\U00011113\U00011134"
+    pa: ਯਜ਼ਦ ਸੂਬਾ
+    mk: Јазд
+  comments: 
+'26': 
+  name: Qom
+  code: 
   unofficial_names: Qom
+  geo:
+    latitude: 34.6399443
+    longitude: 50.8759419
+    min_latitude: 34.5336217
+    min_longitude: 50.7619858
+    max_latitude: 34.8156355
+    max_longitude: 50.9421444
   translations:
     en: Qom
     ar: قم
@@ -1464,16 +1720,25 @@
     uk: Кум
     ur: صوبہ قم
     vi: Qom
-  geo:
-    latitude: 34.6399443
-    longitude: 50.8759419
-    min_latitude: 34.5336217
-    min_longitude: 50.7619858
-    max_latitude: 34.8156355
-    max_longitude: 50.9421444
-  name: Qom
-'27':
+    cy: Qom
+    ceb: Qom
+    sr_Latn: Pokrajina Kom
+    zh: 庫姆省
+    ccp: "\U00011107\U0001112E\U00011120\U0001112E\U0001111F\U00011134"
+    hy: Ղոմի նահանգ
+    mk: Ком
+  comments: 
+'27': 
+  name: Golestan
+  code: 
   unofficial_names: Golestan
+  geo:
+    latitude: 34.3137505
+    longitude: 47.0536816
+    min_latitude: 34.3086925
+    min_longitude: 47.0484325
+    max_latitude: 34.3188878
+    max_longitude: 47.0581582
   translations:
     en: Golestan
     ar: غلستان
@@ -1524,16 +1789,27 @@
     uk: Голестан
     ur: صوبہ گلستان
     vi: Golestan
-  geo:
-    latitude: 34.3137505
-    longitude: 47.0536816
-    min_latitude: 34.3086925
-    min_longitude: 47.0484325
-    max_latitude: 34.3188878
-    max_longitude: 47.0581582
-  name: Golestan
-'28':
+    ceb: Golestān
+    sr_Latn: Pokrajina Golestan
+    zh: 戈勒斯坦省
+    yue_Hans: 戈勒斯坦省
+    ccp: "\U00011109\U0001112E\U00011123\U0001112C\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    ps: گلستان ولایت
+    yue: 戈勒斯坦省
+    uz: Guliston ustoni
+    mk: Голестан
+  comments: 
+'28': 
+  name: Qazvin
+  code: 
   unofficial_names: Qazvin
+  geo:
+    latitude: 36.1840731
+    longitude: 50.06737769999999
+    min_latitude: 36.1829514
+    min_longitude: 50.067299
+    max_latitude: 36.1854853
+    max_longitude: 50.06737769999999
   translations:
     en: Qazvin
     ar: قزوين
@@ -1582,16 +1858,22 @@
     uk: Казвін (остан)
     ur: صوبہ قزوین
     vi: Qazvin (tỉnh)
-  geo:
-    latitude: 36.1840731
-    longitude: 50.06737769999999
-    min_latitude: 36.1829514
-    min_longitude: 50.067299
-    max_latitude: 36.1854853
-    max_longitude: 50.06737769999999
-  name: Qazvin
-'29':
+    ceb: Qazvin
+    zh: 加茲溫省
+    ccp: "\U00011107\U0001112A\U00011120\U0001110C\U00011134\U0001111E\U00011128\U0001111A\U00011134"
+    mk: Газвин
+  comments: 
+'29': 
+  name: Khorasan-e Janubi
+  code: 
   unofficial_names: Khorasan-e Janubi
+  geo:
+    latitude: 32.5175643
+    longitude: 59.1041758
+    min_latitude: 30.389156
+    min_longitude: 55.306599
+    max_latitude: 35.1648275
+    max_longitude: 61.144714
   translations:
     en: South Khorasan
     ar: خراسان جنوبي
@@ -1641,16 +1923,25 @@
     uk: Південний Хорасан
     ur: صوبہ خراسان جنوبی
     vi: Tỉnh Nam Khorasan
-  geo:
-    latitude: 32.5175643
-    longitude: 59.1041758
-    min_latitude: 30.389156
-    min_longitude: 55.306599
-    max_latitude: 35.1648275
-    max_longitude: 61.144714
-  name: Khorasan-e Janubi
-'30':
+    ceb: Habagatang Khorāsān
+    sr_Latn: Pokrajina Južni Korasan
+    zh: 南呼羅珊省
+    sq: Horasani Jugor
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011108\U0001112E\U00011122\U00011134\U00011125\U0001111A\U00011134"
+    uz: Janubiy Xuroson ustoni
+    mk: Јужен Корасан
+  comments: 
+'30': 
+  name: Khorasan-e Razavi
+  code: 
   unofficial_names: Khorasan-e Razavi
+  geo:
+    latitude: 35.1020253
+    longitude: 59.1041758
+    min_latitude: 33.4001927
+    min_longitude: 56.4763309
+    max_latitude: 37.7905918
+    max_longitude: 61.282579
   translations:
     en: Razavi Khorasan
     ar: خراسان رضوي
@@ -1700,16 +1991,25 @@
     uk: Хорасан-Резаві
     ur: صوبہ خراسان رضوی
     vi: Razavi Khorasan
-  geo:
-    latitude: 35.1020253
-    longitude: 59.1041758
-    min_latitude: 33.4001927
-    min_longitude: 56.4763309
-    max_latitude: 37.7905918
-    max_longitude: 61.282579
-  name: Khorasan-e Razavi
-'31':
+    ceb: Khorāsān-e Razavi
+    sr_Latn: Pokrajina Razavi Korasan
+    zh: 礼萨呼罗珊省
+    sq: Razavi Horasan
+    ccp: "\U00011122\U0001110C\U00011134\U0001111E\U00011128 \U00011108\U0001112E\U00011122\U00011134\U00011125\U0001111A\U00011134"
+    uz: Xurosoni Rizoviy ustoni
+    mk: Разави Корасан
+  comments: 
+'31': 
+  name: Khorasan-e Shemali
+  code: 
   unofficial_names: Khorasan-e Shemali
+  geo:
+    latitude: 37.4710353
+    longitude: 57.10131879999999
+    min_latitude: 36.6166539
+    min_longitude: 55.805023
+    max_latitude: 38.2725939
+    max_longitude: 58.387249
   translations:
     en: North Khorasan
     ar: خراسان الشمالية
@@ -1757,15 +2057,27 @@
     uk: Північний Хорасан
     ur: صوبہ خراسان شمالی
     vi: Tỉnh Bắc Khorasan
+    ceb: Amihanang Khorāsān
+    sr_Latn: Pokrajina Severni Korasan
+    zh: 北呼羅珊省
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011108\U0001112E\U00011122\U00011134\U00011125\U0001111A\U00011134"
+    ps: خوراسان، شمالي
+    pa: ਉੱਤਰੀ ਖ਼ੁਰਾਸਾਨ ਸੂਬਾ
+    uz: Shimoliy Xuroson ustoni
+    mk: Северен Корасан
+  comments: 
+'32': 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 37.4710353
-    longitude: 57.10131879999999
-    min_latitude: 36.6166539
-    min_longitude: 55.805023
-    max_latitude: 38.2725939
-    max_longitude: 58.387249
-  name: Khorasan-e Shemali
-'32':
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة ألبرز
     az: Əlburz ostanı
@@ -1814,3 +2126,14 @@
     uk: Альборз
     ur: صوبہ البرز
     vi: Tỉnh Alborz
+    lv: Alborzas ostāns
+    ceb: Alborz (lalawigan)
+    sr_Latn: Pokrajina Alborz
+    lt: Alborzo provincija
+    zh: 厄尔布尔士省
+    yue_Hans: 厄尔布尔士省
+    ccp: "\U00011103\U00011123\U00011134\U0001111D\U0001112E\U00011122\U00011134\U0001110C\U00011134"
+    pa: ਅਲਬੁਰਜ਼ ਸੂਬਾ
+    yue: 厄爾布爾士省
+    mk: Алборз
+  comments: 

@@ -1,6 +1,15 @@
 ---
-B:
+B: 
+  name: Batken
+  code: 
   unofficial_names: Batken
+  geo:
+    latitude: 40.066667
+    longitude: 70.833333
+    min_latitude: 40.0316892
+    min_longitude: 70.7974435
+    max_latitude: 40.08343199999999
+    max_longitude: 70.8491994
   translations:
     en: Batken
     ar: باتكين أوبلاستي
@@ -46,20 +55,29 @@ B:
     ur: صوبہ بادکند
     vi: Khu vực Batken
     zh: 巴特肯州
-  geo:
-    latitude: 40.066667
-    longitude: 70.833333
-    min_latitude: 40.0316892
-    min_longitude: 70.7974435
-    max_latitude: 40.08343199999999
-    max_longitude: 70.8491994
-  name: Batken
-C:
+    ceb: Batken
+    ccp: "\U0001111D\U00011116\U00011134\U00011107\U0001112C\U0001111A\U00011134"
+    ky: Баткен облусу
+    ro: Regiunea Batken
+    kk: Баткен облысы
+    be: Баткенская вобласць
+    uz: Botken
+  comments: 
+C: 
+  name: Chü
+  code: 
   unofficial_names:
   - Chu
   - Chui
   - Chuy
   - Çüy
+  geo:
+    latitude: 42.5079313
+    longitude: 75.8302566
+    min_latitude: 42.505947
+    min_longitude: 75.82733019999999
+    max_latitude: 42.5099156
+    max_longitude: 75.83318299999999
   translations:
     en: Chuy
     ar: تشوي أوبلاستي
@@ -108,18 +126,28 @@ C:
     uk: Чуйська область
     ur: صوبہ چوئی
     vi: Chuy
-  geo:
-    latitude: 42.5079313
-    longitude: 75.8302566
-    min_latitude: 42.505947
-    min_longitude: 75.82733019999999
-    max_latitude: 42.5099156
-    max_longitude: 75.83318299999999
-  name: Chü
-GB:
+    ceb: Chuyskaya Oblast’
+    zh: 楚河州
+    ccp: "\U0001110C\U0001112A\U00011120\U00011128"
+    ky: Чүй облусу
+    kk: Шу облысы
+    be: Чуйская вобласць
+    uz: Chuy
+    mk: Чујска област
+  comments: 
+GB: 
+  name: Bishkek
+  code: 
   unofficial_names:
   - Bishkek
   - Kenesh Bishkek
+  geo:
+    latitude: 42.874722
+    longitude: 74.61222200000002
+    min_latitude: 42.8031469
+    min_longitude: 74.46490299999999
+    max_latitude: 42.9489859
+    max_longitude: 74.71767439999999
   translations:
     en: Bishkek
     af: Bisjkek
@@ -181,16 +209,36 @@ GB:
     uk: Бішкек
     ur: بشکیک
     vi: Bishkek
-  geo:
-    latitude: 42.874722
-    longitude: 74.61222200000002
-    min_latitude: 42.8031469
-    min_longitude: 74.46490299999999
-    max_latitude: 42.9489859
-    max_longitude: 74.71767439999999
-  name: Bishkek
-J:
+    cy: Bishkek
+    ceb: Gorod Bishkek
+    sr_Latn: Biškek
+    zh: 比什凯克
+    yue_Hans: 比什凯克
+    jv: Bishkek
+    sq: Bishkek
+    ccp: "\U0001111D\U00011128\U0001110C\U00011134\U00011107\U0001112C\U00011107\U00011134"
+    ky: Бишкек
+    pa: ਬਿਸ਼ਕੇਕ
+    kk: Бішкек
+    yue: 比什凱克
+    my: ဘီရှကက်မြို့
+    yo: Bishkek
+    uz: Bishkek
+    bs: Bishkek
+    mk: Бишкек
+    ne: विस्केक
+  comments: 
+J: 
+  name: Jalal-Abad
+  code: 
   unofficial_names: Jalal-Abad
+  geo:
+    latitude: 40.933333
+    longitude: 73
+    min_latitude: 40.9037825
+    min_longitude: 72.93934829999999
+    max_latitude: 40.97205719999999
+    max_longitude: 73.0214024
   translations:
     en: Jalal-Abad
     ar: جلال أباد أوبلاستي
@@ -234,17 +282,29 @@ J:
     uk: Жалалабатська область
     ur: صوبہ جلال-آباد
     vi: Jalal-Abad
-  geo:
-    latitude: 40.933333
-    longitude: 73
-    min_latitude: 40.9037825
-    min_longitude: 72.93934829999999
-    max_latitude: 40.97205719999999
-    max_longitude: 73.0214024
-  name: Jalal-Abad
-N:
+    ceb: Jalal-Abad oblast
+    zh: 賈拉拉巴德州
+    ccp: "\U0001110E\U00011123\U00011123\U00011134-\U00011103\U0001111D\U00011116\U00011134"
+    gl: Rexión de Jalal-Abad
+    ky: Жалал-Абад облусу
+    kk: Жалалабат облысы
+    cs: Džalalabadská oblast
+    mn: Жалалабат муж
+    be: Джалал-Абадская вобласць
+    uz: Jalolobod
+  comments: 
+N: 
+  name: Naryn
+  code: 
   unofficial_names:
   - Naryn
+  geo:
+    latitude: 41.433333
+    longitude: 76
+    min_latitude: 41.4142818
+    min_longitude: 75.89921939999999
+    max_latitude: 41.4369033
+    max_longitude: 76.0630704
   translations:
     en: Naryn
     ar: نارين أوبلاستي
@@ -292,17 +352,26 @@ N:
     uk: Наринська область
     ur: صوبہ نارین
     vi: Khu vực Naryn
-  geo:
-    latitude: 41.433333
-    longitude: 76
-    min_latitude: 41.4142818
-    min_longitude: 75.89921939999999
-    max_latitude: 41.4369033
-    max_longitude: 76.0630704
-  name: Naryn
-O:
+    cy: Ardal Naryn
+    zh: 納倫州
+    ccp: "\U0001111A\U00011122\U00011128\U0001111A\U00011134"
+    ky: Нарын облусу
+    kk: Нарын облысы
+    be: Нарынская вобласць
+    uz: Norin
+  comments: 
+O: 
+  name: Osh
+  code: 
   unofficial_names:
   - Osh
+  geo:
+    latitude: 40.53
+    longitude: 72.8
+    min_latitude: 40.4754848
+    min_longitude: 72.7557564
+    max_latitude: 40.5649378
+    max_longitude: 72.8613282
   translations:
     en: Osh Region
     ar: أوش أوبلاستي
@@ -349,16 +418,28 @@ O:
     uk: Ошська область
     ur: صوبہ اوش
     vi: Osh²
-  geo:
-    latitude: 40.53
-    longitude: 72.8
-    min_latitude: 40.4754848
-    min_longitude: 72.7557564
-    max_latitude: 40.5649378
-    max_longitude: 72.8613282
-  name: Osh
-T:
+    cy: Ardal Osh
+    ceb: Osh Oblasty
+    sr_Latn: Oška oblast
+    zh: 奧什州
+    ccp: "\U00011103\U0001112E\U0001110C\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    sr: Ошка област
+    ky: Ош облусу
+    kk: Ош облысы
+    cs: Ošská oblast
+    uz: Oʻsh²
+  comments: 
+T: 
+  name: Talas
+  code: 
   unofficial_names: Talas
+  geo:
+    latitude: 42.516667
+    longitude: 72.23333300000002
+    min_latitude: 42.5045029
+    min_longitude: 72.1606065
+    max_latitude: 42.5554828
+    max_longitude: 72.28523249999999
   translations:
     en: Talas
     ar: طلاس أوبلاستي
@@ -404,20 +485,29 @@ T:
     uk: Таласька область
     ur: صوبہ تراز
     vi: Talas
-  geo:
-    latitude: 42.516667
-    longitude: 72.23333300000002
-    min_latitude: 42.5045029
-    min_longitude: 72.1606065
-    max_latitude: 42.5554828
-    max_longitude: 72.28523249999999
-  name: Talas
-Y:
+    ceb: Talas (lalawigan)
+    zh: 塔拉斯州
+    ccp: "\U00011111\U00011123\U0001110C\U00011134"
+    ky: Талас облусу
+    eu: Talas probintzia
+    kk: Талас облысы
+    uz: Talas
+  comments: 
+Y: 
+  name: Ysyk-Köl
+  code: 
   unofficial_names:
   - Balikchi
   - Balykchy
   - Balıkçı
   - Issyk-Kul
+  geo:
+    latitude: 42.1859428
+    longitude: 77.5619419
+    min_latitude: 41.138474
+    min_longitude: 75.5835659
+    max_latitude: 42.951714
+    max_longitude: 80.2831801
   translations:
     en: Issyk-Kul
     ar: ايسيك كول أوبلاستي
@@ -463,15 +553,27 @@ Y:
     uk: Іссик-Кульська область
     ur: صوبہ ایسیک کول
     vi: Issyk Kul
+    cy: Ardal Issyk-Kul
+    ceb: Issyk-Kul’skaya Oblast’
+    zh: 伊塞克湖州
+    ccp: "\U00011103\U0001112D\U0001110E\U0001112C\U00011107\U00011134-\U00011107\U0001112A\U00011123\U00011134"
+    gl: Rexión de Isiq-Köl
+    ky: Ысык-Көл областы
+    kk: Ыстықкөл облысы
+    be: Ісык-Кульская вобласць
+    uz: Issiq-Koʻl
+  comments: 
+GO: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 42.1859428
-    longitude: 77.5619419
-    min_latitude: 41.138474
-    min_longitude: 75.5835659
-    max_latitude: 42.951714
-    max_longitude: 80.2831801
-  name: Ysyk-Köl
-GO:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: أوش
     az: Oş
@@ -526,3 +628,15 @@ GO:
     uk: Ош
     ur: اوش
     vi: Osh
+    cy: Osh, Kyrgyzstan
+    ceb: Osh (kapital sa lalawigan sa Kirgistan)
+    sr_Latn: Oš
+    zh: 奧什
+    sq: Osh
+    ccp: "\U00011103\U0001112E\U0001110C\U00011134"
+    ky: Ош
+    ro: Oș
+    kk: Ош
+    ml: ഓഷ്
+    uz: Oʻsh
+  comments: 

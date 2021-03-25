@@ -1,8 +1,8 @@
 ---
-X1~:
+X1~: 
+  name: Ile Saint-Paul et Ile Amsterdam
+  code: 
   unofficial_names: Ile Saint-Paul et Ile Amsterdam
-  translations:
-    en: Ile Saint-Paul et Ile Amsterdam
   geo:
     latitude: -38.7201976
     longitude: 77.5189458
@@ -10,11 +10,13 @@ X1~:
     min_longitude: 77.5017415
     max_latitude: -38.7012284
     max_longitude: 77.5487845
-  name: Ile Saint-Paul et Ile Amsterdam
-X2~:
-  unofficial_names: Crozet Islands
   translations:
-    en: Crozet Islands
+    en: Ile Saint-Paul et Ile Amsterdam
+  comments: 
+X2~: 
+  name: Crozet Islands
+  code: 
+  unofficial_names: Crozet Islands
   geo:
     latitude: -46.4166667
     longitude: 51
@@ -22,11 +24,13 @@ X2~:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Crozet Islands
-X3~:
-  unofficial_names: Kerguelen
   translations:
-    en: Kerguelen
+    en: Crozet Islands
+  comments: 
+X3~: 
+  name: Kerguelen
+  code: 
+  unofficial_names: Kerguelen
   geo:
     latitude: -49.3948275
     longitude: 69.35446259999999
@@ -34,11 +38,13 @@ X3~:
     min_longitude: 68.71810909999999
     max_latitude: -48.6605822
     max_longitude: 70.57617189999999
-  name: Kerguelen
-X4~:
-  unofficial_names: Iles Eparses
   translations:
-    en: Iles Eparses
+    en: Kerguelen
+  comments: 
+X4~: 
+  name: Iles Eparses
+  code: 
+  unofficial_names: Iles Eparses
   geo:
     latitude: 
     longitude: 
@@ -46,4 +52,16 @@ X4~:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Iles Eparses
+  translations:
+    en: Iles Eparses
+  comments: 
+'': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 45.876543
+    longitude: 3.116384
+  translations:
+    en: French Southern Territories
+  comments: 

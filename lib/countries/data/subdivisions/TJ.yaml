@@ -1,7 +1,16 @@
 ---
-GB:
+GB: 
+  name: Gorno-Badakhshan
+  code: 
   unofficial_names:
   - Gorno-Badahşan
+  geo:
+    latitude: 38.412732
+    longitude: 73.087749
+    min_latitude: 36.671535
+    min_longitude: 70.216537
+    max_latitude: 39.46881500000001
+    max_longitude: 75.1514831
   translations:
     en: Gorno-Badakhshan
     ar: جورنو
@@ -48,17 +57,26 @@ GB:
     uk: Гірський Бадахшан
     ur: گورنو بدخشاں خود مختار صوبہ
     vi: Gorno-Badakhshan
-  geo:
-    latitude: 38.412732
-    longitude: 73.087749
-    min_latitude: 36.671535
-    min_longitude: 70.216537
-    max_latitude: 39.46881500000001
-    max_longitude: 75.1514831
-  name: Gorno-Badakhshan
-KT:
+    ceb: Viloyati Mukhtori Kŭhistoni Badakhshon
+    sr_Latn: Gorno-Badahšan
+    zh: 戈爾諾—巴達赫尚自治州
+    ccp: "\U00011109\U0001112E\U00011122\U00011134\U0001111A\U0001112E-\U0001111D\U00011118\U00011128\U00011107\U00011134\U00011125\U0001111A\U00011134"
+    hy: Լեռնա-Բադախշանյան ինքնավար մարզ
+    ky: Тоолуу-Бадахшан автономиялуу облусу
+    uz: Togʻli-Badaxshon muxtor viloyati
+  comments: 
+KT: 
+  name: Khatlon
+  code: 
   unofficial_names:
   - Hatlon
+  geo:
+    latitude: 37.9113562
+    longitude: 69.097023
+    min_latitude: 36.9281721
+    min_longitude: 67.78614600000002
+    max_latitude: 38.783459
+    max_longitude: 70.34964699999999
   translations:
     en: Khatlon
     ar: محافظة خاتلون
@@ -100,15 +118,17 @@ KT:
     uk: Хатлонський вілоят
     ur: صوبہ ختلان
     vi: Khatlon
-  geo:
-    latitude: 37.9113562
-    longitude: 69.097023
-    min_latitude: 36.9281721
-    min_longitude: 67.78614600000002
-    max_latitude: 38.783459
-    max_longitude: 70.34964699999999
-  name: Khatlon
-SU:
+    ceb: Viloyati Khatlon
+    zh: 哈特隆州
+    ccp: "\U00011108\U00011116\U00011134\U00011123\U00011127\U0001111A\U00011134"
+    hu: Hatlon
+    cs: Chatlonský vilájet
+    be: Хатлонская вобласць
+    uz: Xatlon
+  comments: 
+SU: 
+  name: Sughd
+  code: 
   unofficial_names:
   - Chudjand
   - Hucand
@@ -118,6 +138,13 @@ SU:
   - Khodzhent
   - Khudzhand
   - Leninabad
+  geo:
+    latitude: 39.5155326
+    longitude: 69.097023
+    min_latitude: 38.926113
+    min_longitude: 67.3871309
+    max_latitude: 41.0422438
+    max_longitude: 70.984337
   translations:
     en: Sughd
     ar: صغد
@@ -165,15 +192,23 @@ SU:
     uk: Согдійська область
     ur: صوبہ سغد
     vi: Sughd
+    ceb: Viloyati Sughd
+    zh: 索格特州
+    ccp: "\U00011125\U0001112A\U00011107\U00011134\U00011126\U00011134"
+    be: Сагдыйская вобласць
+    uz: Sugʻd
+  comments: 
+DU: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 39.5155326
-    longitude: 69.097023
-    min_latitude: 38.926113
-    min_longitude: 67.3871309
-    max_latitude: 41.0422438
-    max_longitude: 70.984337
-  name: Sughd
-DU:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Doesjanbe
     am: ዱሻንቤ
@@ -236,7 +271,35 @@ DU:
     ur: دوشنبہ
     vi: Dushanbe
     zh: 杜尚别
-RA:
+    cy: Dushanbe
+    ceb: Dushanbe
+    sr_Latn: Dušanbe
+    yue_Hans: 杜尚别
+    jv: Dushanbe
+    sq: Dushanbe
+    ccp: "\U00011113\U0001112A\U00011125\U0001111A\U00011134\U0001111D\U0001112C"
+    ga: Dushanbe
+    ky: Душанбе
+    pa: ਦੁਸ਼ੰਬੇ
+    kk: Душанбе
+    yue: 杜尚別
+    yo: Dushanbe
+    uz: Dushanbe
+    bs: Dušanbe
+    mk: Душанбе
+    ne: दुशान्वे
+  comments: 
+RA: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعات التبعية الجمهوري
     bg: Райони на централно подчинение в Таджикистан
@@ -278,3 +341,10 @@ RA:
     uk: райони республіканського підпорядкування
     ur: جمہوریہ ماتحتی اضلاع
     vi: Các Quận của Republican Subordination
+    ceb: Region of Republican Subordination
+    zh: 國家直轄區
+    ccp: "\U0001111A\U0001112E\U00011126\U00011128\U00011120\U0001112E\U00011126\U00011130
+      \U00011111\U0001112E\U0001111D\U0001112C\U0001112D \U0001110E\U0001112A\U0001111F\U00011134\U00011126\U0001112A\U00011122\U00011128"
+    be: раёны рэспубліканскага падпарадкавання Таджыкістана
+    uz: Tojikistonning respublikaga boʻysunuvchi tumanlari
+  comments: 

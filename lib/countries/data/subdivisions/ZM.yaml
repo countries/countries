@@ -1,6 +1,15 @@
 ---
-'01':
+'01': 
+  name: Western
+  code: 
   unofficial_names: Western
+  geo:
+    latitude: -15.9454906
+    longitude: 23.3823545
+    min_latitude: -17.6392799
+    min_longitude: 21.999371
+    max_latitude: -13.709041
+    max_longitude: 25.52071
   translations:
     en: Western
     af: Westelike Provinsie
@@ -44,16 +53,22 @@
     ur: مغربی صوبہ، زیمبیا
     vi: Tỉnh Phía Tây
     zh: 西方省
-  geo:
-    latitude: -15.9454906
-    longitude: 23.3823545
-    min_latitude: -17.6392799
-    min_longitude: 21.999371
-    max_latitude: -13.709041
-    max_longitude: 25.52071
-  name: Western
-'02':
+    lv: Rietumu province
+    ceb: Western Province (lalawigan sa Zambia)
+    ccp: Western
+    hy: Արևմտյան պրովինցիա
+  comments: 
+'02': 
+  name: Central
+  code: 
   unofficial_names: Central
+  geo:
+    latitude: -14.3112263
+    longitude: 28.299435
+    min_latitude: -15.7121141
+    min_longitude: 25.350383
+    max_latitude: -12.0036589
+    max_longitude: 31.4494591
   translations:
     en: Central
     af: Sentrale Provinsie (Zambië)
@@ -97,16 +112,23 @@
     uk: Центральна провінція
     ur: وسطی صوبہ، زیمبیا
     vi: Tỉnh Miền Trung
-  geo:
-    latitude: -14.3112263
-    longitude: 28.299435
-    min_latitude: -15.7121141
-    min_longitude: 25.350383
-    max_latitude: -12.0036589
-    max_longitude: 31.4494591
-  name: Central
-'03':
+    lv: Centrālā province
+    ceb: Central Province
+    zh: 中央省 (赞比亚)
+    ccp: Central
+    cs: Centrální provincie (Zambie)
+  comments: 
+'03': 
+  name: Eastern
+  code: 
   unofficial_names: Eastern
+  geo:
+    latitude: -13.8056187
+    longitude: 31.99280779999999
+    min_latitude: -14.997233
+    min_longitude: 29.98652989999999
+    max_latitude: -10.3251301
+    max_longitude: 33.6895011
   translations:
     en: Eastern
     af: Oostelike Provinsie
@@ -148,16 +170,22 @@
     uk: Східна провінція
     ur: مشرقی صوبہ، زیمبیا
     vi: Tỉnh Phía Đông
-  geo:
-    latitude: -13.8056187
-    longitude: 31.99280779999999
-    min_latitude: -14.997233
-    min_longitude: 29.98652989999999
-    max_latitude: -10.3251301
-    max_longitude: 33.6895011
-  name: Eastern
-'04':
+    lv: Austrumu province
+    ceb: Eastern Province (lalawigan sa Zambia)
+    zh: 东方省
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+  comments: 
+'04': 
+  name: Luapula
+  code: 
   unofficial_names: Luapula
+  geo:
+    latitude: -11.564831
+    longitude: 29.0459927
+    min_latitude: -12.471966
+    min_longitude: 28.3809699
+    max_latitude: -8.375692899999999
+    max_longitude: 30.46612799999999
   translations:
     en: Luapula
     af: Luapula
@@ -199,16 +227,23 @@
     uk: Луапула
     ur: لواپولا صوبہ
     vi: Tỉnh Luapula
-  geo:
-    latitude: -11.564831
-    longitude: 29.0459927
-    min_latitude: -12.471966
-    min_longitude: 28.3809699
-    max_latitude: -8.375692899999999
-    max_longitude: 30.46612799999999
-  name: Luapula
-'05':
+    lv: Luapalas province
+    ceb: Luapula Province
+    zh: 卢阿普拉省
+    ccp: "\U00011123\U0001112A\U00011120\U0001111B\U0001112A\U00011123"
+    ca: província de Luapula
+  comments: 
+'05': 
+  name: Northern
+  code: 
   unofficial_names: Northern
+  geo:
+    latitude: -9.7670177
+    longitude: 30.8958242
+    min_latitude: -13.4275721
+    min_longitude: 29.10338
+    max_latitude: -8.251887
+    max_longitude: 33.705704
   translations:
     en: Northern
     af: Noordelike Provinsie
@@ -249,16 +284,22 @@
     uk: Північна провінція
     ur: شمالی صوبہ، زیمبیا
     vi: Tỉnh Phía Bắc
-  geo:
-    latitude: -9.7670177
-    longitude: 30.8958242
-    min_latitude: -13.4275721
-    min_longitude: 29.10338
-    max_latitude: -8.251887
-    max_longitude: 33.705704
-  name: Northern
-'06':
+    lv: Ziemeļu province
+    ceb: Northern Province
+    zh: 北方省
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+  comments: 
+'06': 
+  name: North-Western
+  code: 
   unofficial_names: North-Western
+  geo:
+    latitude: -13.0050258
+    longitude: 24.9042208
+    min_latitude: -14.72759
+    min_longitude: 21.999899
+    max_latitude: -10.885152
+    max_longitude: 27.6016581
   translations:
     en: North-Western
     af: Noordwestelike Provinsie
@@ -300,16 +341,24 @@
     uk: Північно-Західна провінція
     ur: شمال مغربی صوبہ، زیمبیا
     vi: Tỉnh Tây Bắc
-  geo:
-    latitude: -13.0050258
-    longitude: 24.9042208
-    min_latitude: -14.72759
-    min_longitude: 21.999899
-    max_latitude: -10.885152
-    max_longitude: 27.6016581
-  name: North-Western
-'07':
+    lv: Ziemeļrietumu province
+    ceb: North-Western Province
+    zh: 西北省
+    yue_Hans: 西北省
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134-\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    yue: 西北省
+  comments: 
+'07': 
+  name: Southern
+  code: 
   unofficial_names: Southern
+  geo:
+    latitude: -16.9620634
+    longitude: 26.419389
+    min_latitude: -18.079473
+    min_longitude: 24.9715499
+    max_latitude: -15.293982
+    max_longitude: 28.912453
   translations:
     en: Southern
     af: Suidelike Provinsie
@@ -352,16 +401,22 @@
     uk: Південна провінція
     ur: جنوبی صوبہ، زیمبیا
     vi: Tỉnh Phía Nam
-  geo:
-    latitude: -16.9620634
-    longitude: 26.419389
-    min_latitude: -18.079473
-    min_longitude: 24.9715499
-    max_latitude: -15.293982
-    max_longitude: 28.912453
-  name: Southern
-'08':
+    lv: Dienvidu province
+    ceb: Southern Province
+    zh: 南部省
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+  comments: 
+'08': 
+  name: Copperbelt
+  code: 
   unofficial_names: Copperbelt
+  geo:
+    latitude: -13.0570073
+    longitude: 27.5495846
+    min_latitude: -13.9245529
+    min_longitude: 26.801156
+    max_latitude: -12.218456
+    max_longitude: 29.0201341
   translations:
     en: Copperbelt
     af: Koperstreek
@@ -405,16 +460,23 @@
     uk: Коппербелт
     ur: کاپربیلٹ صوبہ
     vi: Tỉnh Copperbelt
-  geo:
-    latitude: -13.0570073
-    longitude: 27.5495846
-    min_latitude: -13.9245529
-    min_longitude: 26.801156
-    max_latitude: -12.218456
-    max_longitude: 29.0201341
-  name: Copperbelt
-'09':
+    lv: Koperbeltas province
+    ceb: Copperbelt Province
+    zh: 铜带省
+    ccp: "\U00011107\U0001112E\U0001111B\U0001112C\U00011122\U00011134\U0001111D\U0001112C\U00011123\U00011134\U00011111\U00011134"
+    ca: província de Copperbelt
+  comments: 
+'09': 
+  name: Lusaka
+  code: 
   unofficial_names: Lusaka
+  geo:
+    latitude: -15.416667
+    longitude: 28.283333
+    min_latitude: -15.5344065
+    min_longitude: 28.1987555
+    max_latitude: -15.2992532
+    max_longitude: 28.4887506
   translations:
     en: Lusaka
     af: Lusaka
@@ -455,15 +517,22 @@
     uk: Лусака
     ur: لوساکا صوبہ
     vi: Tỉnh Lusaka
+    lv: Lusakas province
+    ceb: Lusaka Province
+    zh: 卢萨卡省
+    ccp: "\U00011123\U0001112A\U00011125\U00011107"
+  comments: 
+'10': 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: -15.416667
-    longitude: 28.283333
-    min_latitude: -15.5344065
-    min_longitude: 28.1987555
-    max_latitude: -15.2992532
-    max_longitude: 28.4887506
-  name: Lusaka
-'10':
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة موتشينغا
     bn: মোসিঙ্গা প্রদেশ
@@ -498,3 +567,9 @@
     uk: Мучинга
     ur: موچنگا صوبہ
     vi: Tỉnh Muchinga
+    lv: Mučingas province
+    ceb: Muchinga Province
+    lt: Mučingos provincija
+    zh: 穆欽加省
+    ccp: "\U0001111F\U0001112A\U0001110C\U00011128\U00011101\U00011109"
+  comments: 

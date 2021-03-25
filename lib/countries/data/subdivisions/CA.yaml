@@ -1,7 +1,16 @@
 ---
-AB:
+AB: 
+  name: Alberta
+  code: 
   unofficial_names:
   - Alberta
+  geo:
+    latitude: 53.9332706
+    longitude: -116.5765035
+    min_latitude: 48.9966671
+    min_longitude: -120.0005219
+    max_latitude: 60.00006209999999
+    max_longitude: -109.9998551
   translations:
     en: Alberta
     af: Alberta
@@ -60,17 +69,37 @@ AB:
     ur: البرٹا
     vi: Alberta
     zh: 艾伯塔
-  geo:
-    latitude: 53.9332706
-    longitude: -116.5765035
-    min_latitude: 48.9966671
-    min_longitude: -120.0005219
-    max_latitude: 60.00006209999999
-    max_longitude: -109.9998551
-  name: Alberta
-BC:
+    cy: Alberta
+    ceb: Alberta
+    sr_Latn: Alberta
+    yue_Hans: 亚伯达
+    jv: Alberta
+    sq: Alberta
+    ccp: "\U00011103\U00011123\U00011134\U0001111D\U0001112C\U00011122\U00011134\U00011111"
+    ga: Alberta
+    so: Alberta
+    pa: ਐਲਬਰਟਾ
+    kk: Альберта
+    ml: ആൽബർട്ട
+    yue: 亞伯達
+    am: አልቤርታ
+    my: အယ်လဗားတားပြည်နယ်
+    uz: Alberta
+    bs: Alberta
+    mk: Алберта
+  comments: 
+BC: 
+  name: British Columbia
+  code: 
   unofficial_names:
   - Colombie-Britannique
+  geo:
+    latitude: 53.7266683
+    longitude: -127.6476206
+    min_latitude: 48.3089123
+    min_longitude: -139.0570702
+    max_latitude: 60.0001489
+    max_longitude: -114.0542211
   translations:
     en: British Columbia
     af: Brits-Columbië
@@ -128,17 +157,37 @@ BC:
     uk: Британська Колумбія
     ur: برٹش کولمبیا
     vi: British Columbia
-  geo:
-    latitude: 53.7266683
-    longitude: -127.6476206
-    min_latitude: 48.3089123
-    min_longitude: -139.0570702
-    max_latitude: 60.0001489
-    max_longitude: -114.0542211
-  name: British Columbia
-MB:
+    cy: British Columbia
+    ceb: British Columbia
+    sr_Latn: Britanska Kolumbija
+    zh: 不列颠哥伦比亚
+    yue_Hans: 卑诗省
+    jv: British Columbia
+    sq: Kolumbia Britanike
+    ccp: "\U0001111D\U00011133\U00011122\U00011128\U00011111\U00011128\U0001110C\U00011134
+      \U00011107\U00011127\U00011123\U00011127\U0001111F\U00011134\U0001111D\U00011128\U00011120"
+    ga: An Cholóim Bhriotanach
+    pa: ਬਰੀਟੀਸ਼ ਕੋਲੰਬਿਆ
+    ml: ബ്രിട്ടീഷ് കൊളമ്പിയ
+    yue: 卑詩省
+    am: ብሪቲሽ ኮለምቢያ
+    my: ဗြိတိသျှ ကိုလံဘီယာ ပြည်နယ်
+    uz: Britaniya Kolumbiyasi
+    bs: Britanska Kolumbija
+    mk: Британска Колумбија
+  comments: 
+MB: 
+  name: Manitoba
+  code: 
   unofficial_names:
   - Manitoba
+  geo:
+    latitude: 53.7608608
+    longitude: -98.81387629999999
+    min_latitude: 48.998861
+    min_longitude: -102.0000041
+    max_latitude: 60.0001031
+    max_longitude: -88.9852265
   translations:
     en: Manitoba
     af: Manitoba
@@ -196,17 +245,36 @@ MB:
     uk: Манітоба
     ur: مانیٹوبا
     vi: Manitoba
-  geo:
-    latitude: 53.7608608
-    longitude: -98.81387629999999
-    min_latitude: 48.998861
-    min_longitude: -102.0000041
-    max_latitude: 60.0001031
-    max_longitude: -88.9852265
-  name: Manitoba
-NB:
+    cy: Manitoba
+    ceb: Manitoba
+    sr_Latn: Manitoba
+    zh: 曼尼托巴
+    yue_Hans: 缅尼吐巴
+    sq: Manitoba
+    ccp: "\U0001111F\U0001111A\U00011128\U00011111\U00011127\U0001111D"
+    ga: Manitoba
+    pa: ਮਾਨੀਟੋਬਾ
+    kk: Манитоба
+    ml: മനിറ്റോബ
+    yue: 緬尼吐巴
+    am: ማኒቶባ
+    my: မနီတိုးဗားပြည်နယ်
+    uz: Manitoba (Kanada)
+    bs: Manitoba
+    mk: Манитоба
+  comments: 
+NB: 
+  name: New Brunswick
+  code: 
   unofficial_names:
   - Nouveau-Brunswick
+  geo:
+    latitude: 46.5653163
+    longitude: -66.46191639999999
+    min_latitude: 44.499574
+    min_longitude: -69.05339289999999
+    max_latitude: 48.1735157
+    max_longitude: -63.7706403
   translations:
     en: New Brunswick
     af: Nieu-Brunswyk
@@ -264,19 +332,35 @@ NB:
     uk: Нью-Брансвік
     ur: نیو برنزویک
     vi: New Brunswick
-  geo:
-    latitude: 46.5653163
-    longitude: -66.46191639999999
-    min_latitude: 44.499574
-    min_longitude: -69.05339289999999
-    max_latitude: 48.1735157
-    max_longitude: -63.7706403
-  name: New Brunswick
-NL:
+    cy: Brunswick Newydd
+    ceb: New Brunswick (lalawigan)
+    sr_Latn: Nju Bransvik
+    zh: 新不倫瑞克
+    yue_Hans: 纽宾士域省
+    sq: New Brunswick
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U0001111D\U00011133\U00011122\U0001111A\U00011134\U00011125\U0001112A\U00011103\U00011128\U00011107\U00011134"
+    ga: New Brunswick
+    pa: ਨਿਊ ਬਰੰਸਵਿਕ
+    yue: 紐賓士域省
+    am: ኒው ብረንዝውክ
+    uz: Nyu-bransuyk
+    bs: Novi Brunswick
+    mk: Њу Бранзвик
+  comments: 
+NL: 
+  name: Newfoundland and Labrador
+  code: 
   unofficial_names:
   - Terre-Neuve-et-Labrador
   - Newfoundland
   - Terre-Neuve
+  geo:
+    latitude: 53.1355091
+    longitude: -57.6604364
+    min_latitude: 46.6114571
+    min_longitude: -67.8216849
+    max_latitude: 60.37627010000001
+    max_longitude: -52.6194086
   translations:
     en: Newfoundland and Labrador
     af: Newfoundland en Labrador
@@ -334,17 +418,36 @@ NL:
     uk: Ньюфаундленд і Лабрадор
     ur: نیو فاؤنڈ لینڈ اور لیبراڈور
     vi: Newfoundland và Labrador
-  geo:
-    latitude: 53.1355091
-    longitude: -57.6604364
-    min_latitude: 46.6114571
-    min_longitude: -67.8216849
-    max_latitude: 60.37627010000001
-    max_longitude: -52.6194086
-  name: Newfoundland and Labrador
-NS:
+    cy: Newfoundland a Labrador
+    ceb: Newfoundland and Labrador
+    sr_Latn: Njufaundlend i Labrador
+    zh: 紐芬蘭與拉布拉多
+    yue_Hans: 纽芬兰与拉布拉多
+    sq: Toka e Re dhe Labradori
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U0001111C\U00011105\U0001112A\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011103\U00011133\U00011103 \U00011123\U0001111D\U00011133\U00011122\U00011113\U0001112E\U00011122\U00011134"
+    ga: Talamh an Éisc agus Labradar
+    pa: ਨਿਊਫ਼ੰਡਲੈਂਡ ਅਤੇ ਲਾਬਰਾਡੋਰ
+    yue: 紐芬蘭與拉布拉多
+    am: ኑፈንላንድና ላብረዶር
+    my: နယူးဖောင်လန် နှင့် လာဘရာဒေါ ပြည်နယ်
+    yo: Newfoundland àti Labrador
+    uz: Nyufaundlend va Labrador
+    bs: Newfoundland i Labrador
+    mk: Њуфаундленд и Лабрадор
+  comments: 
+NS: 
+  name: Nova Scotia
+  code: 
   unofficial_names:
   - Nouvelle-Écosse
+  geo:
+    latitude: 44.68198659999999
+    longitude: -63.744311
+    min_latitude: 43.3918805
+    min_longitude: -66.3948186
+    max_latitude: 47.2277438
+    max_longitude: -59.676914
   translations:
     en: Nova Scotia
     af: Nova Scotia
@@ -402,17 +505,35 @@ NS:
     uk: Нова Шотландія
     ur: نووا سکوشیا
     vi: Nova Scotia
-  geo:
-    latitude: 44.68198659999999
-    longitude: -63.744311
-    min_latitude: 43.3918805
-    min_longitude: -66.3948186
-    max_latitude: 47.2277438
-    max_longitude: -59.676914
-  name: Nova Scotia
-NT:
+    cy: Nova Scotia
+    ceb: Nova Scotia
+    sr_Latn: Nova Škotska
+    zh: 新斯科舍
+    yue_Hans: 诺华斯高沙
+    sq: Skocia e Re
+    ccp: "\U0001111A\U0001112E\U0001111E \U0001110C\U00011133\U00011107\U00011127\U00011111\U00011128\U00011120"
+    ga: Albain Nua
+    pa: ਨੋਵਾ ਸਕੋਸ਼ਾ
+    ml: നോവ സ്കോട്ടിയ
+    yue: 諾華斯高沙
+    am: ኖቫ ስኮሻ
+    my: နိုဗာစကိုးရှားပြည်နယ်
+    uz: Yangi Shotlandiya
+    bs: Nova Scotia
+    mk: Нова Шкотска
+  comments: 
+NT: 
+  name: Northwest Territories
+  code: 
   unofficial_names:
   - Territoires du Nord-Ouest
+  geo:
+    latitude: 64.8255441
+    longitude: -124.8457334
+    min_latitude: 59.99995399999999
+    min_longitude: -136.4687053
+    max_latitude: 78.7613421
+    max_longitude: -101.999999
   translations:
     en: Northwest Territories
     af: Noordwestelike gebiede
@@ -470,17 +591,34 @@ NT:
     uk: Північно-Західні території
     ur: شمال مغربی علاقہ جات، کینیڈا
     vi: Các Lãnh thổ Tây Bắc
-  geo:
-    latitude: 64.8255441
-    longitude: -124.8457334
-    min_latitude: 59.99995399999999
-    min_longitude: -136.4687053
-    max_latitude: 78.7613421
-    max_longitude: -101.999999
-  name: Northwest Territories
-NU:
+    cy: Tiriogaethau’r Gogledd-orllewin
+    ceb: Northwest Territories
+    sr_Latn: Severozapadne teritorije
+    zh: 西北地区
+    yue_Hans: 西北地区
+    sq: Territoret Veri-Perëndimore
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U0001112C\U00011118\U00011128
+      \U00011122\U0001112C\U0001110E\U00011133\U00011120\U00011127\U00011120\U0001111A\U00011128"
+    ga: Críocha an Iarthuaiscirt
+    pa: ਉੱਤਰ-ਪੱਛਮੀ ਰਾਜਖੇਤਰ
+    yue: 西北地區
+    am: ስሜን-ምዕራብ ግዛቶች
+    uz: Shimoli-Gʻarbiy hududlar
+    bs: Sjeverozapadne teritorije
+    mk: Северозападни Територии
+  comments: 
+NU: 
+  name: Nunavut
+  code: 
   unofficial_names:
   - Nunavut
+  geo:
+    latitude: 70.2997711
+    longitude: -83.1075769
+    min_latitude: 51.6406985
+    min_longitude: -121.0492491
+    max_latitude: 83.0956638
+    max_longitude: -61.1794384
   translations:
     en: Nunavut
     af: Nunavut
@@ -538,17 +676,35 @@ NU:
     uk: Нунавут
     ur: نناوت
     vi: Nunavut
-  geo:
-    latitude: 70.2997711
-    longitude: -83.1075769
-    min_latitude: 51.6406985
-    min_longitude: -121.0492491
-    max_latitude: 83.0956638
-    max_longitude: -61.1794384
-  name: Nunavut
-'ON':
+    cy: Nunavut
+    ceb: Nunavut
+    sr_Latn: Nunavut
+    zh: 努納武特
+    yue_Hans: 努那乌
+    sq: Nunavut
+    ccp: "\U0001111A\U0001112A\U0001111A\U0001111E\U00011116\U00011134"
+    ga: Nunavut
+    pa: ਨੂਨਾਵੁਤ
+    kk: Нунавут
+    ml: നുനാവട്
+    yue: 努那烏
+    am: ኑናቩት
+    uz: Nunavut
+    bs: Nunavut
+    mk: Нунавут
+  comments: 
+'ON': 
+  name: Ontario
+  code: 
   unofficial_names:
   - Ontario
+  geo:
+    latitude: 51.253775
+    longitude: -85.3232139
+    min_latitude: 41.68134879999999
+    min_longitude: -95.1562271
+    max_latitude: 56.8565279
+    max_longitude: -74.34388229999999
   translations:
     en: Ontario
     af: Ontario
@@ -607,17 +763,36 @@ NU:
     uk: Онтаріо
     ur: انٹاریو
     vi: Ontario
-  geo:
-    latitude: 51.253775
-    longitude: -85.3232139
-    min_latitude: 41.68134879999999
-    min_longitude: -95.1562271
-    max_latitude: 56.8565279
-    max_longitude: -74.34388229999999
-  name: Ontario
-PE:
+    cy: Ontario
+    ceb: Ontario
+    sr_Latn: Ontario
+    zh: 安大略
+    yue_Hans: 安大略
+    sq: Ontario
+    ccp: "\U00011103\U00011127\U0001111A\U00011134\U00011111\U00011122\U00011128\U00011103\U0001112E"
+    ga: Ontario
+    so: Ontario
+    pa: ਓਂਟਾਰਿਓ
+    yue: 安大略
+    am: ኦንቴሪዮ
+    my: အွန်တေးရီးယိုးပြည်နယ်
+    uz: Ontario
+    bs: Ontario
+    mk: Онтарио
+    ne: ओन्टारियो
+  comments: 
+PE: 
+  name: Prince Edward Island
+  code: 
   unofficial_names:
   - Île-du-Prince-Édouard
+  geo:
+    latitude: 46.510712
+    longitude: -63.41681359999999
+    min_latitude: 45.9481845
+    min_longitude: -64.5661238
+    max_latitude: 47.4416628
+    max_longitude: -61.97075460000001
   translations:
     en: Prince Edward Island
     af: Prins-Edward-Eiland
@@ -675,17 +850,35 @@ PE:
     uk: Острів Принца Едварда
     ur: پرنس ایڈورڈ آئی لینڈ
     vi: Đảo Hoàng tử Edward
-  geo:
-    latitude: 46.510712
-    longitude: -63.41681359999999
-    min_latitude: 45.9481845
-    min_longitude: -64.5661238
-    max_latitude: 47.4416628
-    max_longitude: -61.97075460000001
-  name: Prince Edward Island
-QC:
+    cy: Prince Edward Island
+    ceb: Prince Edward Island (lalawigan)
+    sr_Latn: Ostrvo Princa Edvarda
+    zh: 愛德華王子島
+    yue_Hans: 爱德华太子岛
+    sq: Ishulli i Princit Eduard
+    ccp: "\U0001111B\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011125\U00011134
+      \U00011103\U0001112C\U00011116\U00011134\U00011103\U0001112E\U00011120\U00011122\U00011134\U00011113\U00011134
+      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Oileán Phrionsa Éadbhard
+    pa: ਪ੍ਰਿੰਸ ਐਡਵਰਡ ਟਾਪੂ
+    yue: 愛德華太子島
+    am: ፕርንስ ኤድወርድ አይለንድ
+    uz: Shahzoda Eduard oroli
+    bs: Ostrvo Princa Edwarda
+    mk: Остров Принц Едвард
+  comments: 
+QC: 
+  name: Quebec
+  code: 
   unofficial_names:
   - Québec
+  geo:
+    latitude: 52.9399159
+    longitude: -73.5491361
+    min_latitude: 44.9913581
+    min_longitude: -79.7623371
+    max_latitude: 62.5830552
+    max_longitude: -57.1054859
   translations:
     en: Quebec
     af: Quebec
@@ -747,17 +940,37 @@ QC:
     uk: Квебек
     ur: کیوبیک
     vi: Québec
-  geo:
-    latitude: 52.9399159
-    longitude: -73.5491361
-    min_latitude: 44.9913581
-    min_longitude: -79.7623371
-    max_latitude: 62.5830552
-    max_longitude: -57.1054859
-  name: Quebec
-SK:
+    cy: Québec
+    ceb: Québec (lalawigan)
+    sr_Latn: Kvebek
+    zh: 魁北克
+    yue_Hans: 魁北克
+    jv: Quebec
+    sq: Quebec
+    ccp: "\U00011107\U0001112D\U0001112A\U0001111D\U0001112C\U00011107\U00011134"
+    ga: Québec
+    ha: Kebek
+    so: Quebec
+    pa: ਕੇਬੈਕ
+    kk: Квебек
+    yue: 魁北克
+    my: ကွီဗက်ပြည်နယ်
+    uz: Kvebek
+    bs: Quebec
+    mk: Квебек
+  comments: 
+SK: 
+  name: Saskatchewan
+  code: 
   unofficial_names:
   - Saskatchewan
+  geo:
+    latitude: 52.9399159
+    longitude: -106.4508639
+    min_latitude: 48.9988059
+    min_longitude: -110.0077549
+    max_latitude: 60.000063
+    max_longitude: -101.362305
   translations:
     en: Saskatchewan
     af: Saskatchewan
@@ -815,17 +1028,34 @@ SK:
     uk: Саскачеван
     ur: ساسکچیوان
     vi: Saskatchewan
-  geo:
-    latitude: 52.9399159
-    longitude: -106.4508639
-    min_latitude: 48.9988059
-    min_longitude: -110.0077549
-    max_latitude: 60.000063
-    max_longitude: -101.362305
-  name: Saskatchewan
-YT:
+    cy: Saskatchewan
+    ceb: Saskatchewan
+    sr_Latn: Saskačevan
+    zh: 薩斯喀徹溫
+    yue_Hans: 沙士加芝湾
+    sq: Saskatchewan
+    ccp: "\U00011125\U0001110C\U00011134\U00011107\U00011116\U00011134\U00011125\U0001112C\U00011120\U0001111A\U00011134"
+    ga: Saskatchewan
+    pa: ਸਸਕਾਚਵਾਨ
+    yue: 沙士加芝灣
+    am: ሰስካቸወን
+    my: ဆက်စကက်ချီဝမ်နယ်
+    uz: Saskachevan
+    bs: Saskatchewan
+    mk: Саскачеван
+  comments: 
+YT: 
+  name: Yukon
+  code: 
   unofficial_names:
   - Yukon Territory
+  geo:
+    latitude: 64.2823274
+    longitude: -135
+    min_latitude: 59.996889
+    min_longitude: -141.00187
+    max_latitude: 69.646498
+    max_longitude: -123.8009179
   translations:
     en: Yukon
     af: Yukon
@@ -881,13 +1111,21 @@ YT:
     th: ยูคอน
     tr: Yukon
     uk: Юкон
-    ur: يوكون
+    ur: يوکون
     vi: Yukon
-  geo:
-    latitude: 64.2823274
-    longitude: -135
-    min_latitude: 59.996889
-    min_longitude: -141.00187
-    max_latitude: 69.646498
-    max_longitude: -123.8009179
-  name: Yukon
+    cy: Yukon
+    ceb: Yukon (lalawigan)
+    sr_Latn: Jukon
+    zh: 育空
+    yue_Hans: 育空地区
+    sq: Yukon
+    ccp: "\U00011103\U00011128\U00011120\U00011107\U00011127\U0001111A\U00011134"
+    ga: Yukon
+    pa: ਯੂਕੋਨ
+    yue: 育空地區
+    am: ዩካን
+    my: ယူးကွန်းနယ်
+    uz: Yukon
+    bs: Yukon
+    mk: Јукон
+  comments: 

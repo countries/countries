@@ -1,6 +1,15 @@
 ---
-CA:
+CA: 
+  name: Zambezi
+  code: 
   unofficial_names: Zambezi
+  geo:
+    latitude: -17.8193419
+    longitude: 23.9536466
+    min_latitude: -18.5040471
+    min_longitude: 22.5141629
+    max_latitude: -17.476387
+    max_longitude: 25.256701
   translations:
     en: Zambezi
     af: Caprivi
@@ -45,16 +54,23 @@ CA:
     ur: زامبیزی علاقہ
     vi: Zambezi
     zh: 卡普里维区
-  geo:
-    latitude: -17.8193419
-    longitude: 23.9536466
-    min_latitude: -18.5040471
-    min_longitude: 22.5141629
-    max_latitude: -17.476387
-    max_longitude: 25.256701
-  name: Zambezi
-ER:
+    lv: Zambezi reģions
+    ceb: Zambezi Region
+    fa: منطقه زامبزی
+    ccp: "\U0001110E\U0001111F\U00011134\U0001111D\U0001112C\U0001110E\U00011128"
+    pa: ਕੈਪ੍ਰੀਵੀ
+  comments: 
+ER: 
+  name: Erongo
+  code: 
   unofficial_names: Erongo
+  geo:
+    latitude: -22.2565682
+    longitude: 15.4068079
+    min_latitude: -23.811575
+    min_longitude: 13.629421
+    max_latitude: -20.489704
+    max_longitude: 16.558625
   translations:
     en: Erongo
     af: Erongo
@@ -98,16 +114,24 @@ ER:
     uk: Еронго
     ur: عرونگو علاقہ
     vi: Khu vực Erongo
-  geo:
-    latitude: -22.2565682
-    longitude: 15.4068079
-    min_latitude: -23.811575
-    min_longitude: 13.629421
-    max_latitude: -20.489704
-    max_longitude: 16.558625
-  name: Erongo
-HA:
+    lv: Erongo reģions
+    ceb: Erongo
+    zh: 埃龍戈區
+    fa: منطقه ارونگو
+    ccp: "\U00011103\U00011128\U00011122\U0001112E\U0001111A\U00011134\U00011109\U0001112E"
+    cs: Erongo
+  comments: 
+HA: 
+  name: Hardap
+  code: 
   unofficial_names: Hardap
+  geo:
+    latitude: -24.2310134
+    longitude: 17.668887
+    min_latitude: -25.870015
+    min_longitude: 14.4522353
+    max_latitude: -23.165503
+    max_longitude: 20.000244
   translations:
     en: Hardap
     af: Hardap
@@ -150,16 +174,23 @@ HA:
     uk: Хардап
     ur: ہارداپ علاقہ
     vi: Khu vực Hardap
-  geo:
-    latitude: -24.2310134
-    longitude: 17.668887
-    min_latitude: -25.870015
-    min_longitude: 14.4522353
-    max_latitude: -23.165503
-    max_longitude: 20.000244
-  name: Hardap
-KA:
+    lv: Hardapas reģions
+    ceb: Hardap
+    zh: 哈達普區
+    fa: منطقه هارداپ
+    ccp: "\U00011126\U00011122\U00011134\U00011113\U0001111B\U00011134"
+  comments: 
+KA: 
+  name: Karas
+  code: 
   unofficial_names: Karas
+  geo:
+    latitude: -26.8429645
+    longitude: 17.2902839
+    min_latitude: -28.9714299
+    min_longitude: 14.8018954
+    max_latitude: -25.011831
+    max_longitude: 20
   translations:
     en: Karas
     af: Karas
@@ -202,16 +233,23 @@ KA:
     uk: Карас
     ur: کراس ریجن، نمبیا
     vi: Khu vực Karas
-  geo:
-    latitude: -26.8429645
-    longitude: 17.2902839
-    min_latitude: -28.9714299
-    min_longitude: 14.8018954
-    max_latitude: -25.011831
-    max_longitude: 20
-  name: Karas
-KE:
+    lv: Karasas reģions
+    ceb: Karas
+    zh: 卡拉斯區
+    fa: منطقه کاراس
+    ccp: "\U00011107\U00011122\U0001110C\U00011134"
+  comments: 
+KE: 
+  name: Kavango East
+  code: 
   unofficial_names: Kavango East
+  geo:
+    latitude: -18.271048
+    longitude: 18.4276047
+    min_latitude: -19.1762981
+    min_longitude: 17.995449
+    max_latitude: -17.393156
+    max_longitude: 22.522122
   translations:
     en: Kavango East
     af: Kawango-Oos
@@ -228,6 +266,15 @@ KE:
     ru: Восточное Каванго
     uk: Східне Каванго
     ur: کاوانگو شرقی
+    ceb: Kavango East Region
+    zh: 東卡萬戈區
+    fa: کاوانگو شرقی
+    ccp: "\U00011107\U0001111E\U0001111A\U00011134\U00011109\U0001112E \U0001111B\U00011107\U00011134"
+  comments: 
+KW: 
+  name: Kavango West
+  code: 
+  unofficial_names: Kavango West
   geo:
     latitude: -18.271048
     longitude: 18.4276047
@@ -235,9 +282,6 @@ KE:
     min_longitude: 17.995449
     max_latitude: -17.393156
     max_longitude: 22.522122
-  name: Kavango East
-KW:
-  unofficial_names: Kavango West
   translations:
     en: Kavango West
     af: Kawango-Wes
@@ -254,16 +298,21 @@ KW:
     ru: Западное Каванго
     uk: Західне Каванго
     ur: کاوانگو غربی
-  geo:
-    latitude: -18.271048
-    longitude: 18.4276047
-    min_latitude: -19.1762981
-    min_longitude: 17.995449
-    max_latitude: -17.393156
-    max_longitude: 22.522122
-  name: Kavango West
-KH:
+    ceb: Kavango West Region
+    fa: کاوانگو غربی
+    ccp: "\U00011107\U0001111E\U00011127\U0001111A\U00011134\U00011109\U0001112E \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+  comments: 
+KH: 
+  name: Khomas
+  code: 
   unofficial_names: Khomas
+  geo:
+    latitude: -22.6377854
+    longitude: 17.1011931
+    min_latitude: -24.090521
+    min_longitude: 15.723871
+    max_latitude: -21.7083171
+    max_longitude: 18.4967611
   translations:
     en: Khomas
     af: Khomas
@@ -305,16 +354,23 @@ KH:
     uk: Кхомас
     ur: خوماس علاقہ
     vi: Khomas
-  geo:
-    latitude: -22.6377854
-    longitude: 17.1011931
-    min_latitude: -24.090521
-    min_longitude: 15.723871
-    max_latitude: -21.7083171
-    max_longitude: 18.4967611
-  name: Khomas
-KU:
+    lv: Khomasas reģions
+    ceb: Khomas
+    zh: 霍馬斯區
+    fa: منطقه کوماس
+    ccp: "\U00011108\U0001112E\U0001111F\U0001110C\U00011134"
+  comments: 
+KU: 
+  name: Kunene
+  code: 
   unofficial_names: Kunene
+  geo:
+    latitude: -19.4086317
+    longitude: 13.914399
+    min_latitude: -21.1873635
+    min_longitude: 11.7242468
+    max_latitude: -16.959894
+    max_longitude: 16.72092
   translations:
     en: Kunene
     af: Kunene
@@ -357,16 +413,23 @@ KU:
     uk: Кунене
     ur: کونینے علاقہ
     vi: Khu vực Kunene
-  geo:
-    latitude: -19.4086317
-    longitude: 13.914399
-    min_latitude: -21.1873635
-    min_longitude: 11.7242468
-    max_latitude: -16.959894
-    max_longitude: 16.72092
-  name: Kunene
-OD:
+    lv: Kunenes reģions
+    ceb: Kunene
+    zh: 庫內內區
+    fa: منطقه کوننه
+    ccp: "\U00011107\U0001112A\U0001111A\U0001112C\U0001111A\U00011134"
+  comments: 
+OD: 
+  name: Otjozondjupa
+  code: 
   unofficial_names: Otjozondjupa
+  geo:
+    latitude: -20.5486916
+    longitude: 17.668887
+    min_latitude: -22.3778689
+    min_longitude: 15.5702269
+    max_latitude: -18.7453048
+    max_longitude: 20.997551
   translations:
     en: Otjozondjupa
     af: Otjozondjoepa
@@ -407,16 +470,24 @@ OD:
     uk: Очосондьюпа
     ur: اوتجوزوندجوپا علاقہ
     vi: Khu vực Otjozondjupa
-  geo:
-    latitude: -20.5486916
-    longitude: 17.668887
-    min_latitude: -22.3778689
-    min_longitude: 15.5702269
-    max_latitude: -18.7453048
-    max_longitude: 20.997551
-  name: Otjozondjupa
-OH:
+    lv: Očonzonķepas reģions
+    ceb: Otjozondjupa
+    lt: Očosondžiupos regionas
+    zh: 奧喬宗朱帕區
+    fa: منطقه اوتجوزوندجوپا
+    ccp: "\U00011103\U00011127\U00011116\U00011134\U0001110E\U0001112E\U0001110E\U0001112E\U0001111A\U00011133\U00011113\U00011134\U0001110E\U0001112A\U0001111B"
+  comments: 
+OH: 
+  name: Omaheke
+  code: 
   unofficial_names: Omaheke
+  geo:
+    latitude: -21.8466651
+    longitude: 19.1880047
+    min_latitude: -23.877103
+    min_longitude: 17.9521831
+    max_latitude: -20.2402009
+    max_longitude: 21.0017411
   translations:
     en: Omaheke
     af: Omaheke
@@ -445,16 +516,22 @@ OH:
     tr: Omaheke
     uk: Омахеке
     ur: اوماہیکے علاقہ
-  geo:
-    latitude: -21.8466651
-    longitude: 19.1880047
-    min_latitude: -23.877103
-    min_longitude: 17.9521831
-    max_latitude: -20.2402009
-    max_longitude: 21.0017411
-  name: Omaheke
-'ON':
+    ceb: Omaheke
+    zh: 奧馬海凱區
+    fa: منطقه اوماهکه
+    ccp: "\U00011103\U00011127\U0001111F\U00011126\U0001112C\U00011107\U0001112C"
+  comments: 
+'ON': 
+  name: Oshana
+  code: 
   unofficial_names: Oshana
+  geo:
+    latitude: -18.4305064
+    longitude: 15.6881788
+    min_latitude: -19.32805
+    min_longitude: 15.2764
+    max_latitude: -17.675126
+    max_longitude: 16.0409669
   translations:
     en: Oshana
     af: Osjana
@@ -493,16 +570,24 @@ OH:
     uk: Ошана
     ur: اوشانا علاقہ
     vi: Khu vực Oshana
-  geo:
-    latitude: -18.4305064
-    longitude: 15.6881788
-    min_latitude: -19.32805
-    min_longitude: 15.2764
-    max_latitude: -17.675126
-    max_longitude: 16.0409669
-  name: Oshana
-OS:
+    lv: Ošanas reģions
+    ceb: Oshana
+    lt: Ošanos regionas
+    zh: 奧沙納區
+    fa: منطقه اوشانا
+    ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011126\U0001111A"
+  comments: 
+OS: 
+  name: Omusati
+  code: 
   unofficial_names: Omusati
+  geo:
+    latitude: -18.4070294
+    longitude: 14.8454619
+    min_latitude: -19.4149837
+    min_longitude: 14.1303229
+    max_latitude: -17.3843629
+    max_longitude: 15.6579149
   translations:
     en: Omusati
     af: Omoesati
@@ -543,17 +628,27 @@ OS:
     uk: Омусаті
     ur: اوموساتی علاقہ
     vi: Khu vực Omusati
-  geo:
-    latitude: -18.4070294
-    longitude: 14.8454619
-    min_latitude: -19.4149837
-    min_longitude: 14.1303229
-    max_latitude: -17.3843629
-    max_longitude: 15.6579149
-  name: Omusati
-OT:
+    lv: Omusati reģions
+    ceb: Omusati
+    lt: Omusačio regionas
+    zh: 奧穆薩蒂區
+    fa: منطقه اوموساتی
+    ccp: "\U00011103\U00011127\U0001111F\U0001112A\U00011125\U00011111\U00011128"
+    pa: ਓਮੁਸਾਟੀ
+    ca: Omusati
+  comments: 
+OT: 
+  name: Oshikoto
+  code: 
   unofficial_names:
   - Otjikoto
+  geo:
+    latitude: -18.4152575
+    longitude: 16.912251
+    min_latitude: -19.520187
+    min_longitude: 15.8708732
+    max_latitude: -17.6955739
+    max_longitude: 18.2046669
   translations:
     en: Oshikoto
     af: Osjikoto
@@ -592,16 +687,24 @@ OT:
     uk: Ошикото
     ur: اوشیکوتو علاقہ
     vi: Khu vực Oshikoto
-  geo:
-    latitude: -18.4152575
-    longitude: 16.912251
-    min_latitude: -19.520187
-    min_longitude: 15.8708732
-    max_latitude: -17.6955739
-    max_longitude: 18.2046669
-  name: Oshikoto
-OW:
+    lv: Ošikoto reģions
+    ceb: Oshikoto
+    lt: Išikoto regionas
+    zh: 奧希科托區
+    fa: منطقه اوشیکوتو
+    ccp: "\U00011103\U00011127\U00011125\U00011128\U00011107\U0001112E\U00011111\U0001112E"
+  comments: 
+OW: 
+  name: Ohangwena
+  code: 
   unofficial_names: Ohangwena
+  geo:
+    latitude: -17.5979291
+    longitude: 16.8178377
+    min_latitude: -17.9292601
+    min_longitude: 15.5463691
+    max_latitude: -17.391181
+    max_longitude: 18.000832
   translations:
     en: Ohangwena
     af: Ohangwena
@@ -643,11 +746,9 @@ OW:
     uk: Охангвена
     ur: اوہانگوینا علاقہ
     vi: Khu vực Ohangwena
-  geo:
-    latitude: -17.5979291
-    longitude: 16.8178377
-    min_latitude: -17.9292601
-    min_longitude: 15.5463691
-    max_latitude: -17.391181
-    max_longitude: 18.000832
-  name: Ohangwena
+    lv: Ohanvenas reģions
+    ceb: Ohangwena
+    zh: 奧漢圭納區
+    fa: منطقه اوهانگونا
+    ccp: "\U00011103\U00011127\U00011126\U0001110B\U00011134\U00011120\U0001112C\U0001111A"
+  comments: 

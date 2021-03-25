@@ -1,7 +1,16 @@
 ---
-D:
+D: 
+  name: HaDarom
+  code: 
   unofficial_names:
   - Southern
+  geo:
+    latitude: 30.829562
+    longitude: 35.0388164
+    min_latitude: 29.4906471
+    min_longitude: 34.2673871
+    max_latitude: 31.8779508
+    max_longitude: 35.4549186
   translations:
     en: Southern District
     af: Suidelike distrik
@@ -42,21 +51,30 @@ D:
     ur: جنوبی ضلع (اسرائیل)
     vi: Quận Nam
     zh: 南部区
-  geo:
-    latitude: 30.829562
-    longitude: 35.0388164
-    min_latitude: 29.4906471
-    min_longitude: 34.2673871
-    max_latitude: 31.8779508
-    max_longitude: 35.4549186
-  name: HaDarom
-HA:
+    ceb: Southern District
+    sr_Latn: Južni okrug
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001110E\U0001112C\U00011123"
+    hu: Déli körzet
+    kk: Израильдің оңтүстік округі
+    mk: Јужен округ
+  comments: 
+HA: 
+  name: Haifa
+  code: 
   unofficial_names:
   - Hefa
   - H̱efa
   - Haifa
   - Haifa
   - Haifa
+  geo:
+    latitude: 32.7940463
+    longitude: 34.989571
+    min_latitude: 32.7565638
+    min_longitude: 34.954059
+    max_latitude: 32.842681
+    max_longitude: 35.079493
   translations:
     en: Haifa District
     af: Haifa distrik
@@ -106,21 +124,31 @@ HA:
     uk: Хайфський округ
     ur: حیفا ضلع
     vi: Quận Haifa
-  geo:
-    latitude: 32.7940463
-    longitude: 34.989571
-    min_latitude: 32.7565638
-    min_longitude: 34.954059
-    max_latitude: 32.842681
-    max_longitude: 35.079493
-  name: Haifa
-JM:
+    ceb: Haifa (distrito)
+    sr_Latn: Haifa
+    zh: 海法区
+    ccp: "\U00011126\U0001112D\U0001111C \U0001110E\U0001112C\U00011123"
+    hu: Haifai körzet
+    kk: Хайфа округі
+    be: Хайфская акруга
+    mk: Хаифа
+  comments: 
+JM: 
+  name: Yerushalayim
+  code: 
   unofficial_names:
   - al-Quds
   - Yerushalayim
   - Jerusalem
   - Jérusalem
   - Jerusalén
+  geo:
+    latitude: 31.768319
+    longitude: 35.21371
+    min_latitude: 31.7096771
+    min_longitude: 35.0854311
+    max_latitude: 31.8829601
+    max_longitude: 35.2652869
   translations:
     en: Jerusalem
     af: Jerusalem distrik
@@ -158,17 +186,28 @@ JM:
     uk: Єрусалимський округ
     ur: یروشلم ضلع
     vi: Quận Jerusalem
-  geo:
-    latitude: 31.768319
-    longitude: 35.21371
-    min_latitude: 31.7096771
-    min_longitude: 35.0854311
-    max_latitude: 31.8829601
-    max_longitude: 35.2652869
-  name: Yerushalayim
-M:
+    ceb: Jerusalem
+    sr_Latn: Jerusalim
+    zh: 耶路撒冷区
+    ccp: "\U0001110E\U0001112C\U00011122\U0001112A\U0001110E\U00011123\U0001112C\U0001111F\U00011134"
+    gl: Distrito de Xerusalén
+    hu: Jeruzsálemi körzet
+    kk: Иерусалим округі
+    be: Іерусалімская акруга
+    mk: Ерусалим
+  comments: 
+M: 
+  name: HaMerkaz
+  code: 
   unofficial_names:
   - Central
+  geo:
+    latitude: 31.9521108
+    longitude: 34.906551
+    min_latitude: 31.7571918
+    min_longitude: 34.66654279999999
+    max_latitude: 32.4126018
+    max_longitude: 35.051422
   translations:
     en: Central District
     af: Sentrale distrik
@@ -218,16 +257,26 @@ M:
     uk: Центральний округ
     ur: مرکزی ضلع (اسرائیل)
     vi: Quận Trung
-  geo:
-    latitude: 31.9521108
-    longitude: 34.906551
-    min_latitude: 31.7571918
-    min_longitude: 34.66654279999999
-    max_latitude: 32.4126018
-    max_longitude: 35.051422
-  name: HaMerkaz
-TA:
+    ceb: Central District
+    sr_Latn: Centralni okrug
+    zh: 中央区
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U0001110E\U0001112C\U00011123"
+    hu: Központi körzet
+    kk: Израильдің орталық округі
+    mk: Централен округ
+  comments: 
+TA: 
+  name: Tel-Aviv
+  code: 
   unofficial_names: Tel-Aviv
+  geo:
+    latitude: 32.0852999
+    longitude: 34.78176759999999
+    min_latitude: 32.0292531
+    min_longitude: 34.7425159
+    max_latitude: 32.1465073
+    max_longitude: 34.8519761
   translations:
     en: Tel Aviv District
     af: Tel Aviv distrik
@@ -266,17 +315,27 @@ TA:
     uk: Тель-Авівський округ
     ur: تل ابیب ضلع
     vi: Quận Tel Aviv
-  geo:
-    latitude: 32.0852999
-    longitude: 34.78176759999999
-    min_latitude: 32.0292531
-    min_longitude: 34.7425159
-    max_latitude: 32.1465073
-    max_longitude: 34.8519761
-  name: Tel-Aviv
-Z:
+    ceb: Tel Aviv District
+    sr_Latn: Tel Aviv
+    zh: 特拉维夫区
+    el: Διαμέρισμα του Τελ Αβίβ
+    ccp: "\U00011111\U0001112C\U00011123\U00011134 \U00011103\U0001111E\U00011128\U0001111B\U00011134
+      \U0001110E\U0001112C\U00011123"
+    kk: Тель-Авив округі
+    mk: Тел Авив
+  comments: 
+Z: 
+  name: HaZafon
+  code: 
   unofficial_names:
   - Northern
+  geo:
+    latitude: 32.8972246
+    longitude: 35.3027226
+    min_latitude: 32.3869671
+    min_longitude: 35.0272979
+    max_latitude: 33.33280500000001
+    max_longitude: 35.896244
   translations:
     en: Northern District
     af: Noordelike distrik
@@ -326,11 +385,12 @@ Z:
     uk: Північний округ
     ur: شمالی ضلع (اسرائیل)
     vi: Quận Bắc
-  geo:
-    latitude: 32.8972246
-    longitude: 35.3027226
-    min_latitude: 32.3869671
-    min_longitude: 35.0272979
-    max_latitude: 33.33280500000001
-    max_longitude: 35.896244
-  name: HaZafon
+    ceb: Northern District
+    sr_Latn: Severni okrug
+    zh: 北部区
+    ccp: "\U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001110E\U0001112C\U00011123"
+    hu: Északi körzet
+    kk: Израильдің солтүстік округі
+    mk: Северен округ
+  comments: 

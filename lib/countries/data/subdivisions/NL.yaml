@@ -1,6 +1,15 @@
 ---
-DR:
+DR: 
+  name: Drenthe
+  code: 
   unofficial_names: Drenthe
+  geo:
+    latitude: 52.9476012
+    longitude: 6.623058599999999
+    min_latitude: 52.6121857
+    min_longitude: 6.1198503
+    max_latitude: 53.2037415
+    max_longitude: 7.0929356
   translations:
     en: Drenthe
     af: Drenthe
@@ -55,16 +64,30 @@ DR:
     uk: Дренте
     ur: درینتے
     vi: Drenthe
-  geo:
-    latitude: 52.9476012
-    longitude: 6.623058599999999
-    min_latitude: 52.6121857
-    min_longitude: 6.1198503
-    max_latitude: 53.2037415
-    max_longitude: 7.0929356
-  name: Drenthe
-FL:
+    cy: Drenthe
+    ceb: Provincie Drenthe
+    sr_Latn: Drente
+    zh: 德伦特省
+    yue_Hans: 德伦特
+    jv: Drenthe
+    sq: Drenthe
+    ccp: "\U00011113\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011117\U0001112C"
+    ga: Drenthe
+    so: Drenthe
+    yue: 德倫特
+    mk: Дренте
+  comments: 
+FL: 
+  name: Flevoland
+  code: 
   unofficial_names: Flevoland
+  geo:
+    latitude: 52.5279781
+    longitude: 5.595350799999999
+    min_latitude: 52.2526254
+    min_longitude: 5.1221244
+    max_latitude: 52.8440468
+    max_longitude: 6.011667099999999
   translations:
     en: Flevoland
     af: Flevoland
@@ -119,16 +142,30 @@ FL:
     uk: Флеволанд
     ur: فلیولانت
     vi: Flevoland
-  geo:
-    latitude: 52.5279781
-    longitude: 5.595350799999999
-    min_latitude: 52.2526254
-    min_longitude: 5.1221244
-    max_latitude: 52.8440468
-    max_longitude: 6.011667099999999
-  name: Flevoland
-FR:
+    cy: Flevoland
+    ceb: Provincie Flevoland
+    sr_Latn: Flevoland
+    zh: 弗莱福兰省
+    yue_Hans: 傅利禾兰
+    jv: Flevoland
+    sq: Flevoland
+    ccp: "\U0001111C\U00011133\U00011122\U0001112C\U0001111E\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Flevoland
+    so: Flevoland
+    yue: 傅利禾蘭
+    mk: Флеволанд
+  comments: 
+FR: 
+  name: Friesland
+  code: 
   unofficial_names: Friesland
+  geo:
+    latitude: 53.1641642
+    longitude: 5.7817542
+    min_latitude: 52.8006928
+    min_longitude: 4.8455655
+    max_latitude: 53.5145975
+    max_longitude: 6.4274762
   translations:
     en: Friesland
     af: Friesland
@@ -182,17 +219,32 @@ FR:
     uk: Фрисландія
     ur: فریسلانت
     vi: Friesland
-  geo:
-    latitude: 53.1641642
-    longitude: 5.7817542
-    min_latitude: 52.8006928
-    min_longitude: 4.8455655
-    max_latitude: 53.5145975
-    max_longitude: 6.4274762
-  name: Friesland
-GE:
+    cy: Fryslân
+    ceb: Provincie Friesland
+    sr_Latn: Frizija
+    zh: 弗里斯兰省
+    yue_Hans: 菲士兰
+    jv: Friesland
+    sq: Friesland
+    ccp: "\U0001111C\U00011133\U00011122\U0001112D\U00011120\U0001112C\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Friesland
+    hy: Ֆրիսլանդիա
+    so: Friesland
+    yue: 菲士蘭
+    mk: Фризија
+  comments: 
+GE: 
+  name: Gelderland
+  code: 
   unofficial_names:
   - Gueldre
+  geo:
+    latitude: 52.045155
+    longitude: 5.871823399999999
+    min_latitude: 51.7336076
+    min_longitude: 4.9938809
+    max_latitude: 52.5220087
+    max_longitude: 6.833041799999999
   translations:
     en: Gelderland
     af: Gelderland
@@ -249,18 +301,32 @@ GE:
     uk: Гелдерланд
     ur: خیلدرلنت
     vi: Gelderland
-  geo:
-    latitude: 52.045155
-    longitude: 5.871823399999999
-    min_latitude: 51.7336076
-    min_longitude: 4.9938809
-    max_latitude: 52.5220087
-    max_longitude: 6.833041799999999
-  name: Gelderland
-GR:
+    cy: Gelderland
+    ceb: Provincie Gelderland
+    sr_Latn: Helderland
+    zh: 海尔德兰省
+    yue_Hans: 希德兰
+    jv: Gelderland
+    sq: Gelderland
+    ccp: "\U00011109\U0001112C\U00011123\U00011134\U00011113\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Gelderland
+    so: Gelderland
+    yue: 希德蘭
+    mk: Гелдерланд
+  comments: 
+GR: 
+  name: Groningen
+  code: 
   unofficial_names:
   - Groningue
   - Groninga
+  geo:
+    latitude: 53.2193835
+    longitude: 6.566501799999999
+    min_latitude: 53.1786842
+    min_longitude: 6.4625995
+    max_latitude: 53.26472589999999
+    max_longitude: 6.6669044
   translations:
     en: Groningen
     af: Groningen
@@ -316,16 +382,30 @@ GR:
     uk: Гронінген
     ur: خرونیگین
     vi: Groningen
-  geo:
-    latitude: 53.2193835
-    longitude: 6.566501799999999
-    min_latitude: 53.1786842
-    min_longitude: 6.4625995
-    max_latitude: 53.26472589999999
-    max_longitude: 6.6669044
-  name: Groningen
-LI:
+    cy: Groningen
+    ceb: Provincie Groningen
+    sr_Latn: Groningen
+    zh: 格罗宁根省
+    yue_Hans: 古罗宁亨
+    jv: Provinsi Groningen
+    sq: Groningen
+    ccp: "\U00011109\U00011133\U00011122\U0001112E\U0001111A\U00011128\U0001111A\U00011134\U0001110E\U0001112C\U0001111A\U00011134"
+    ga: Groningen
+    so: Groningen
+    yue: 古羅寧亨
+    mk: Гронинген
+  comments: 
+LI: 
+  name: Limburg
+  code: 
   unofficial_names: Limburg
+  geo:
+    latitude: 51.4427238
+    longitude: 6.0608726
+    min_latitude: 50.75038379999999
+    min_longitude: 5.5660666
+    max_latitude: 51.778577
+    max_longitude: 6.226801399999999
   translations:
     en: Limburg
     af: Limburg, Nederland
@@ -381,16 +461,29 @@ LI:
     uk: Лімбург
     ur: لمبرخ
     vi: Limburg
-  geo:
-    latitude: 51.4427238
-    longitude: 6.0608726
-    min_latitude: 50.75038379999999
-    min_longitude: 5.5660666
-    max_latitude: 51.778577
-    max_longitude: 6.226801399999999
-  name: Limburg
-NB:
+    cy: Limburg
+    sr_Latn: Limburg
+    zh: 林堡省
+    yue_Hans: 林堡
+    jv: Limburg
+    sq: Limburgu
+    ccp: "\U00011123\U00011128\U0001111F\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ga: Limburg
+    so: Limburg
+    yue: 林堡
+    mk: Лимбург
+  comments: 
+NB: 
+  name: Noord-Brabant
+  code: 
   unofficial_names: Noord-Brabant
+  geo:
+    latitude: 51.4826537
+    longitude: 5.2321687
+    min_latitude: 51.2209373
+    min_longitude: 4.190081
+    max_latitude: 51.8307142
+    max_longitude: 6.047724
   translations:
     en: North Brabant
     af: Noord-Brabant
@@ -447,16 +540,31 @@ NB:
     uk: Північний Брабант
     ur: شمالی برابانٹ
     vi: Noord-Brabant
-  geo:
-    latitude: 51.4826537
-    longitude: 5.2321687
-    min_latitude: 51.2209373
-    min_longitude: 4.190081
-    max_latitude: 51.8307142
-    max_longitude: 6.047724
-  name: Noord-Brabant
-NH:
+    cy: Noord-Brabant
+    ceb: Provincie Noord-Brabant
+    sr_Latn: Severni Brabant
+    zh: 北布拉班特省
+    yue_Hans: 北布拉班
+    jv: Brabant Lor
+    sq: Brabanta Veriore
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011134\U00011111\U00011134"
+    ga: Brabant Thuaidh
+    so: Waqooyiga Brabant
+    yue: 北布拉班
+    mk: Северен Брабант
+  comments: 
+NH: 
+  name: Noord-Holland
+  code: 
   unofficial_names: Noord-Holland
+  geo:
+    latitude: 52.5205869
+    longitude: 4.788474
+    min_latitude: 52.1657716
+    min_longitude: 4.4937415
+    max_latitude: 53.1833322
+    max_longitude: 5.328279999999999
   translations:
     en: North Holland
     af: Noord-Holland
@@ -514,16 +622,31 @@ NH:
     uk: Північна Голландія
     ur: شمالی ہولانت
     vi: Noord-Holland
-  geo:
-    latitude: 52.5205869
-    longitude: 4.788474
-    min_latitude: 52.1657716
-    min_longitude: 4.4937415
-    max_latitude: 53.1833322
-    max_longitude: 5.328279999999999
-  name: Noord-Holland
-OV:
+    cy: Noord-Holland
+    ceb: Provincie Noord-Holland
+    sr_Latn: Severna Holandija
+    zh: 北荷兰省
+    yue_Hans: 北荷兰
+    jv: Holland Lor
+    sq: Hollanda e Veriut
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011126\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: An Ollainn Thuaidh
+    so: Waqooyiga Holland
+    yue: 北荷蘭
+    mk: Северна Холандија
+  comments: 
+OV: 
+  name: Overijssel
+  code: 
   unofficial_names: Overijssel
+  geo:
+    latitude: 52.4387814
+    longitude: 6.5016411
+    min_latitude: 52.118023
+    min_longitude: 5.7778252
+    max_latitude: 52.85423489999999
+    max_longitude: 7.0727632
   translations:
     en: Overijssel
     af: Overijssel
@@ -578,16 +701,30 @@ OV:
     uk: Оверейсел
     ur: اوفریسل
     vi: Overijssel
-  geo:
-    latitude: 52.4387814
-    longitude: 6.5016411
-    min_latitude: 52.118023
-    min_longitude: 5.7778252
-    max_latitude: 52.85423489999999
-    max_longitude: 7.0727632
-  name: Overijssel
-UT:
+    cy: Overijssel
+    ceb: Provincie Overijssel
+    sr_Latn: Overejsel
+    zh: 上艾瑟尔省
+    yue_Hans: 上艾修
+    jv: Overijssel
+    sq: Overijssel
+    ccp: "\U00011103\U0001112E\U0001111E\U00011122\U00011128\U0001110C\U00011134\U00011125\U0001112C\U00011123\U00011134"
+    ga: Overijssel
+    so: Overijssel
+    yue: 上艾修
+    mk: Оверејсел
+  comments: 
+UT: 
+  name: Utrecht
+  code: 
   unofficial_names: Utrecht
+  geo:
+    latitude: 52.09073739999999
+    longitude: 5.1214201
+    min_latitude: 52.02611109999999
+    min_longitude: 4.9697758
+    max_latitude: 52.1422624
+    max_longitude: 5.1952072
   translations:
     en: Utrecht
     af: Utrecht
@@ -641,16 +778,32 @@ UT:
     uk: Утрехт
     ur: اوتریخت
     vi: Utrecht
-  geo:
-    latitude: 52.09073739999999
-    longitude: 5.1214201
-    min_latitude: 52.02611109999999
-    min_longitude: 4.9697758
-    max_latitude: 52.1422624
-    max_longitude: 5.1952072
-  name: Utrecht
-ZE:
+    cy: Utrecht
+    ceb: Provincie Utrecht
+    sr_Latn: Utreht
+    zh: 乌得勒支省
+    yue_Hans: 宇德历
+    jv: Provinsi Utrecht
+    sq: Utrecht
+    ccp: "\U00011105\U0001112A\U00011111\U00011133\U00011122\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ga: Utrecht
+    so: Utrecht
+    sl: Utrecht
+    yue: 宇德歷
+    az: Utrext vilayəti
+    mk: Утрехт
+  comments: 
+ZE: 
+  name: Zeeland
+  code: 
   unofficial_names: Zeeland
+  geo:
+    latitude: 51.4940309
+    longitude: 3.8496815
+    min_latitude: 51.2003318
+    min_longitude: 3.357962
+    max_latitude: 51.75842100000001
+    max_longitude: 4.279691
   translations:
     en: Zeeland
     af: Zeeland
@@ -705,16 +858,29 @@ ZE:
     uk: Зеландія
     ur: زی لینڈ
     vi: Zeeland
-  geo:
-    latitude: 51.4940309
-    longitude: 3.8496815
-    min_latitude: 51.2003318
-    min_longitude: 3.357962
-    max_latitude: 51.75842100000001
-    max_longitude: 4.279691
-  name: Zeeland
-ZH:
+    cy: Zeeland
+    ceb: Provincie Zeeland
+    sr_Latn: Zeland
+    zh: 泽兰省
+    yue_Hans: 西兰
+    sq: Zeeland
+    ccp: "\U0001110E\U00011129\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Zeeland
+    so: Zeeland
+    yue: 西蘭
+    mk: Зеланд
+  comments: 
+ZH: 
+  name: Zuid-Holland
+  code: 
   unofficial_names: Zuid-Holland
+  geo:
+    latitude: 52.0207975
+    longitude: 4.4937836
+    min_latitude: 51.656067
+    min_longitude: 3.8393205
+    max_latitude: 52.3282742
+    max_longitude: 5.1492625
   translations:
     en: South Holland
     af: Suid-Holland
@@ -772,15 +938,30 @@ ZH:
     uk: Південна Голландія
     ur: جنوبی ہولانت
     vi: Zuid-Holland
+    cy: Zuid-Holland
+    ceb: Provincie Zuid-Holland
+    sr_Latn: Južna Holandija
+    zh: 南荷蘭省
+    yue_Hans: 南荷兰
+    jv: Holland Kidul
+    sq: Hollanda e Jugut
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011126\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: An Ollainn Theas
+    so: Koofurta Holland
+    yue: 南荷蘭
+    mk: Јужна Холандија
+  comments: 
+BQ1: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 52.0207975
-    longitude: 4.4937836
-    min_latitude: 51.656067
-    min_longitude: 3.8393205
-    max_latitude: 52.3282742
-    max_longitude: 5.1492625
-  name: Zuid-Holland
-BQ1:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Bonaire
     ar: بونير
@@ -836,7 +1017,28 @@ BQ1:
     ur: بونایر
     vi: Bonaire
     zh: 波内赫
-BQ2:
+    cy: Bonaire
+    ceb: Bonaire (pulo ug munisipyo espesyal)
+    sr_Latn: Boner
+    yue_Hans: 博奈尔岛
+    ccp: "\U0001111D\U00011127\U0001111A\U0001112D\U00011120\U00011122\U00011134"
+    pa: ਬੋਨੇਅਰ
+    kk: Бонэйр
+    yue: 博奈爾島
+    yo: Bonaire
+    mk: Бонер
+  comments: 
+BQ2: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Saba
     ar: سابا
@@ -883,7 +1085,28 @@ BQ2:
     uk: Саба
     ur: صبا
     vi: Saba
-BQ3:
+    ceb: Saba Island
+    sr_Latn: Saba
+    zh: 薩巴
+    yue_Hans: 萨巴岛
+    ccp: "\U00011125\U0001111D"
+    pa: ਸਾਬਾ
+    kk: Саба
+    yue: 薩巴島
+    bs: Saba
+    mk: Саба
+  comments: 
+BQ3: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Sint Eustatius
     ar: سينت أوستاتيوس
@@ -937,12 +1160,58 @@ BQ3:
     uk: Сінт-Естатіус
     ur: سینٹ ایوسٹائیس
     vi: Sint Eustatius
-AW:
+    ceb: Sint Eustatius
+    sr_Latn: Sveti Eustahije
+    zh: 圣尤斯特歇斯
+    yue_Hans: 圣犹士坦岛
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011134 \U00011103\U00011128\U00011105\U0001112A\U0001110C\U00011134\U00011111\U00011111\U00011128\U00011120\U0001110C\U00011134"
+    pa: ਸਿੰਟ ਯੂਸਟੇਸ਼ਸ
+    kk: Синт-Эстатиус
+    yue: 聖猶士坦島
+    mk: Свети Евстахиј
+  comments: 
+AW: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Aruba
-CW:
+    ccp: "\U00011103\U00011122\U0001112A\U0001111D"
+  comments: 
+CW: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Curaçao
-SX:
+    ccp: "\U00011107\U00011128\U00011105\U0001112A\U00011122\U00011107\U00011103\U0001112E"
+  comments: 
+SX: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sint Maarten
+    ccp: "\U00011125\U00011128\U00011120\U0001111A\U00011134\U00011111\U00011134 \U0001111F\U00011122\U00011134\U00011111\U0001112C\U0001111A\U00011134"
+  comments: 

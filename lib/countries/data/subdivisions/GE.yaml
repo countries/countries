@@ -1,7 +1,16 @@
 ---
-AB:
+AB: 
+  name: Abkhazia
+  code: 
   unofficial_names:
   - Abhasia
+  geo:
+    latitude: 43.0015544
+    longitude: 41.023407
+    min_latitude: 42.4124548
+    min_longitude: 40.0075855
+    max_latitude: 43.586627
+    max_longitude: 42.149976
   translations:
     en: Abkhazia
     af: Abchasië
@@ -64,19 +73,25 @@ AB:
     ur: ابخازيا
     vi: Abkhazia
     zh: 阿布哈茲
-  geo:
-    latitude: 43.0015544
-    longitude: 41.023407
-    min_latitude: 42.4124548
-    min_longitude: 40.0075855
-    max_latitude: 43.586627
-    max_longitude: 42.149976
-  name: Abkhazia
-AJ:
+    sr_Latn: Abhazija
+    ccp: "\U00011103\U0001111B\U00011134\U00011108\U0001110E\U00011128\U00011120"
+    sd: ابخازيہ
+    kk: Абхазия Автономиялық Республикасы
+  comments: 
+AJ: 
+  name: Ajaria
+  code: 
   unofficial_names:
   - Achara
   - Adzharia
   - Adžaria
+  geo:
+    latitude: 41.6005626
+    longitude: 42.0688383
+    min_latitude: 41.4344289
+    min_longitude: 41.54839399999999
+    max_latitude: 41.9110457
+    max_longitude: 42.602322
   translations:
     en: Adjara
     af: Adzjarië
@@ -132,16 +147,31 @@ AJ:
     uk: Аджарія
     ur: ایجارا
     vi: Adjara
-  geo:
-    latitude: 41.6005626
-    longitude: 42.0688383
-    min_latitude: 41.4344289
-    min_longitude: 41.54839399999999
-    max_latitude: 41.9110457
-    max_longitude: 42.602322
-  name: Ajaria
-GU:
+    cy: Ajaria
+    ceb: Ajaria
+    sr_Latn: Adžarija
+    zh: 阿扎尔
+    yue_Hans: 阿查拉
+    jv: Ajaria
+    ccp: "\U00011103\U00011116\U00011134\U0001110E\U00011122"
+    ky: Ажария
+    yue: 阿查拉
+    yo: Adjara
+    uz: Ajariya
+    bs: Adžarija
+    mk: Аџарија
+  comments: 
+GU: 
+  name: Guria
+  code: 
   unofficial_names: Guria
+  geo:
+    latitude: 41.9442736
+    longitude: 42.0458091
+    min_latitude: 41.78135
+    min_longitude: 41.7136319
+    max_latitude: 42.16825499999999
+    max_longitude: 42.667122
   translations:
     en: Guria
     ar: غيوريا
@@ -188,16 +218,26 @@ GU:
     uk: Гурія
     ur: گوریا
     vi: Guria
-  geo:
-    latitude: 41.9442736
-    longitude: 42.0458091
-    min_latitude: 41.78135
-    min_longitude: 41.7136319
-    max_latitude: 42.16825499999999
-    max_longitude: 42.667122
-  name: Guria
-IM:
+    lv: Gurija
+    ceb: Guria
+    sr_Latn: Gurija
+    zh: 古利亞州
+    ccp: "\U00011109\U0001112A\U00011122\U00011128\U00011120"
+    eu: Guria
+    ml: ഗുരിയ
+    mk: Гурија
+  comments: 
+IM: 
+  name: Imereti
+  code: 
   unofficial_names: Imereti
+  geo:
+    latitude: 42.230108
+    longitude: 42.9008665
+    min_latitude: 41.808214
+    min_longitude: 42.2120039
+    max_latitude: 42.565433
+    max_longitude: 43.788536
   translations:
     en: Imereti
     ar: إيميريتي
@@ -246,17 +286,27 @@ IM:
     uk: Імереті
     ur: ایمرتی
     vi: Imereti
-  geo:
-    latitude: 42.230108
-    longitude: 42.9008665
-    min_latitude: 41.808214
-    min_longitude: 42.2120039
-    max_latitude: 42.565433
-    max_longitude: 43.788536
-  name: Imereti
-KA:
+    lv: Imeretija
+    ceb: Imereti
+    sr_Latn: Imeretija
+    zh: 伊梅列季亞州
+    ccp: "\U00011103\U00011128\U0001111F\U0001112C\U00011122\U0001112C\U00011111\U00011128"
+    eu: Imereti
+    kk: Имеретия патшалығы
+    mk: Имеретија
+  comments: 
+KA: 
+  name: Kakheti
+  code: 
   unofficial_names:
   - Kaheti
+  geo:
+    latitude: 41.6481602
+    longitude: 45.6905554
+    min_latitude: 41.03851299999999
+    min_longitude: 45.0147509
+    max_latitude: 42.564198
+    max_longitude: 46.7213589
   translations:
     en: Kakheti
     ar: كاخيتي
@@ -305,16 +355,25 @@ KA:
     uk: Кахеті
     ur: کاختی
     vi: Kakheti
-  geo:
-    latitude: 41.6481602
-    longitude: 45.6905554
-    min_latitude: 41.03851299999999
-    min_longitude: 45.0147509
-    max_latitude: 42.564198
-    max_longitude: 46.7213589
-  name: Kakheti
-KK:
+    lv: Kahetija
+    ceb: Kakheti
+    sr_Latn: Kahetija
+    zh: 卡赫季州
+    ccp: "\U00011107\U00011108\U0001112C\U00011111\U00011128"
+    ml: കാഖേറ്റി
+    mk: Кахетија
+  comments: 
+KK: 
+  name: Kvemo Kartli
+  code: 
   unofficial_names: Kvemo Kartli
+  geo:
+    latitude: 41.4791833
+    longitude: 44.65604510000001
+    min_latitude: 41.15626109999999
+    min_longitude: 43.669065
+    max_latitude: 41.858702
+    max_longitude: 45.3102412
   translations:
     en: Kvemo Kartli
     ar: كفيمو كارتلي
@@ -362,17 +421,26 @@ KK:
     uk: Квемо Картлі
     ur: کویمو کارتلی
     vi: Kvemo Kartli
-  geo:
-    latitude: 41.4791833
-    longitude: 44.65604510000001
-    min_latitude: 41.15626109999999
-    min_longitude: 43.669065
-    max_latitude: 41.858702
-    max_longitude: 45.3102412
-  name: Kvemo Kartli
-MM:
+    lv: Lejaskartlija
+    ceb: Kvemo Kartli
+    sr_Latn: Donji Kartli
+    zh: 克維莫-卡特利州
+    ccp: "\U0001111E\U0001112C\U0001111F\U0001112E \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
+    eu: Kvemo Kartli
+    mk: Долна Картли
+  comments: 
+MM: 
+  name: Mtskheta-Mtianeti
+  code: 
   unofficial_names:
   - Mcheta-Mtianeti
+  geo:
+    latitude: 42.16821849999999
+    longitude: 44.6506057
+    min_latitude: 41.68722899999999
+    min_longitude: 44.21798709999999
+    max_latitude: 42.752689
+    max_longitude: 45.30156299999999
   translations:
     en: Mtskheta-Mtianeti
     ar: متسخيتا-متيانيتي
@@ -417,18 +485,30 @@ MM:
     uk: Мцхета-Мтіанеті
     ur: متسختا-متیانتی
     vi: Mtskheta-Mtianeti
-  geo:
-    latitude: 42.16821849999999
-    longitude: 44.6506057
-    min_latitude: 41.68722899999999
-    min_longitude: 44.21798709999999
-    max_latitude: 42.752689
-    max_longitude: 45.30156299999999
-  name: Mtskheta-Mtianeti
-RL:
+    lv: Mcheta-Mtianeti
+    ceb: Mtskheta-Mtianeti
+    sr_Latn: Mcheta-Mtijanetija
+    zh: 姆茨赫塔-姆季阿涅季州
+    yue_Hans: 姆茨赫塔-姆季阿涅季州
+    ccp: "\U00011103\U0001112C\U0001111F\U00011134\U00011111\U00011128\U00011103\U0001112C\U0001110C\U00011134\U00011108\U0001112C\U00011111-\U00011111\U00011128\U00011120\U0001111A\U0001112C\U00011111\U00011128"
+    eu: Mtskheta-Mtianeti
+    ml: മ്റ്റിസ്ഖേറ്റ-മ്റ്റിയാനേറ്റി
+    yue: 姆茨赫塔-姆季阿涅季州
+    mk: Мцхета-Мтијанетија
+  comments: 
+RL: 
+  name: Racha-Lechkhumi [and] Kvemo Svaneti
+  code: 
   unofficial_names:
   - Racha
   - Racha-Lechkumi and Kverno Svaneti
+  geo:
+    latitude: 42.67188729999999
+    longitude: 43.0562836
+    min_latitude: 42.366172
+    min_longitude: 42.35788900000001
+    max_latitude: 42.9666309
+    max_longitude: 43.948078
   translations:
     en: Racha-Lechkhumi and Kvemo Svaneti
     ar: راتشا-ليخخومي وكفيمو سفانيتي
@@ -474,17 +554,26 @@ RL:
     uk: Рача-Лечхумі та Квемо Сванеті
     ur: راچا-لچخومی و کومو سوانتی
     vi: Racha-Lechkhumi và Kvemo Svaneti
-  geo:
-    latitude: 42.67188729999999
-    longitude: 43.0562836
-    min_latitude: 42.366172
-    min_longitude: 42.35788900000001
-    max_latitude: 42.9666309
-    max_longitude: 43.948078
-  name: Racha-Lechkhumi [and] Kvemo Svaneti
-SJ:
+    lv: Rača-Lečhumi un Lejassventija
+    ceb: Racha-Lechkhumi and Kvemo Svaneti
+    sr_Latn: Rača-Lečhumi i Donja Svanetija
+    zh: 拉恰-列其呼米-下斯瓦涅季亞州
+    ccp: "\U00011122\U0001110C-\U00011123\U0001112C\U0001110C\U00011134\U00011108\U0001112A\U0001111F\U00011128
+      \U00011103\U00011133\U00011103 \U0001111E\U0001112C\U0001111F\U0001112E \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
+    mk: Рача-Лечхуми и Долна Сванетија
+  comments: 
+SJ: 
+  name: Samtskhe-Javakheti
+  code: 
   unofficial_names:
   - Samche-Žavaheti
+  geo:
+    latitude: 41.5479296
+    longitude: 43.2776399
+    min_latitude: 41.111591
+    min_longitude: 42.492235
+    max_latitude: 41.941421
+    max_longitude: 43.9642531
   translations:
     en: Samtskhe-Javakheti
     ar: سامتسخه-جافاخيتي
@@ -530,17 +619,27 @@ SJ:
     uk: Самцхе-Джавахеті
     ur: سامتسخے-جاواختی
     vi: Samtskhe-Javakheti
-  geo:
-    latitude: 41.5479296
-    longitude: 43.2776399
-    min_latitude: 41.111591
-    min_longitude: 42.492235
-    max_latitude: 41.941421
-    max_longitude: 43.9642531
-  name: Samtskhe-Javakheti
-SK:
+    lv: Samche-Džavahetija
+    ceb: Samtskhe-Javakheti
+    sr_Latn: Samche-Džavahetija
+    zh: 薩姆茨赫-扎瓦赫季州
+    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011134\U00011108\U0001112C-\U0001110E\U0001111E\U00011108\U0001112C\U00011111\U00011128"
+    eu: Samtskhe-Javakheti
+    ml: സാംറ്റ്സ്കെ ജവാഖേറ്റി
+    mk: Самцхе-Џавахетија
+  comments: 
+SK: 
+  name: Shida Kartli
+  code: 
   unofficial_names:
   - Šida Kartli
+  geo:
+    latitude: 42.0756944
+    longitude: 43.9540462
+    min_latitude: 41.733082
+    min_longitude: 43.4199111
+    max_latitude: 42.633717
+    max_longitude: 44.569049
   translations:
     en: Shida Kartli
     ar: شيدا كارتلي
@@ -588,16 +687,25 @@ SK:
     uk: Шида Картлі
     ur: شیدا کارتلی
     vi: Shida Kartli
-  geo:
-    latitude: 42.0756944
-    longitude: 43.9540462
-    min_latitude: 41.733082
-    min_longitude: 43.4199111
-    max_latitude: 42.633717
-    max_longitude: 44.569049
-  name: Shida Kartli
-SZ:
+    lv: Iekšējā Kartlija
+    ceb: Shida Kartli
+    sr_Latn: Unutrašnji Kartli
+    zh: 什達-卡特利州
+    ccp: "\U00011125\U00011128\U00011113 \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
+    ml: ഷിദ കാർട്‌ലി
+    mk: Внатрешен Картли
+  comments: 
+SZ: 
+  name: Samegrelo-Zemo Svaneti
+  code: 
   unofficial_names: Samegrelo-Zemo Svaneti
+  geo:
+    latitude: 42.7352247
+    longitude: 42.1689362
+    min_latitude: 42.068348
+    min_longitude: 41.559906
+    max_latitude: 43.2542339
+    max_longitude: 43.152301
   translations:
     en: Samegrelo-Zemo Svaneti
     ar: سامغريلو زيمو سفانيتي
@@ -642,17 +750,27 @@ SZ:
     uk: Самеґрело-Земо Сванеті
     ur: سامگرلو-زمو سوانتی
     vi: Samegrelo-Zemo Svaneti
-  geo:
-    latitude: 42.7352247
-    longitude: 42.1689362
-    min_latitude: 42.068348
-    min_longitude: 41.559906
-    max_latitude: 43.2542339
-    max_longitude: 43.152301
-  name: Samegrelo-Zemo Svaneti
-TB:
+    lv: Megrelija-Augšvanetija
+    ceb: Samegrelo-Zemo Svanetis Mkhare
+    sr_Latn: Megrelija-Gornja Svanetija
+    zh: 薩梅格列羅-上斯瓦涅季亞州
+    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011134\U00011109\U00011133\U00011122\U0001112C\U00011123\U0001112E-\U0001110E\U0001112C\U0001111F\U0001112E
+      \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
+    ml: സാമെഗ്രെലോ-സെമോ സ്വാനെറ്റി
+    mk: Мегрелија-Горна Сванетија
+  comments: 
+TB: 
+  name: Tbilisi
+  code: 
   unofficial_names:
   - Tiflis
+  geo:
+    latitude: 41.716667
+    longitude: 44.783333
+    min_latitude: 41.6210248
+    min_longitude: 44.59650999999999
+    max_latitude: 41.8438937
+    max_longitude: 45.0176811
   translations:
     en: Tbilisi
     af: Tbilisi
@@ -716,11 +834,21 @@ TB:
     uk: Тбілісі
     ur: تبلیسی
     vi: Tbilisi
-  geo:
-    latitude: 41.716667
-    longitude: 44.783333
-    min_latitude: 41.6210248
-    min_longitude: 44.59650999999999
-    max_latitude: 41.8438937
-    max_longitude: 45.0176811
-  name: Tbilisi
+    cy: Tbilisi
+    ceb: K’alak’i T’bilisi
+    sr_Latn: Tbilisi
+    zh: 第比利斯
+    yue_Hans: 第比利斯
+    jv: Tbilisi
+    sq: Tbilisi
+    ccp: "\U0001111D\U00011128\U00011123\U00011128\U00011125\U00011128"
+    ga: Tbilisi
+    ky: Тбилиси
+    pa: ਤਬੀਲਿਸੀ
+    kk: Тбилиси
+    yue: 第比利斯
+    yo: Tbilisi
+    uz: Tbilisi
+    bs: Tbilisi
+    mk: Тбилиси
+  comments: 

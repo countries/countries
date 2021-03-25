@@ -1,8 +1,8 @@
 ---
-BA:
+BA: 
+  name: Al Batinah
+  code: 
   unofficial_names: Al Batinah
-  translations:
-    en: Al Batinah
   geo:
     latitude: 24.13316
     longitude: 56.65138529999999
@@ -10,10 +10,22 @@ BA:
     min_longitude: 56.188816
     max_latitude: 24.977919
     max_longitude: 57.4390539
-  name: Al Batinah
-DA:
+  translations:
+    en: Al Batinah
+    ccp: "\U00011103\U00011123\U00011134 \U0001111D\U00011111\U00011128\U0001111A\U00011126\U00011134"
+  comments: 
+DA: 
+  name: Ad Dakhiliyah
+  code: 
   unofficial_names:
   - Ad Dakhiliya
+  geo:
+    latitude: 22.3476325
+    longitude: 57.2818625
+    min_latitude: 20.904974
+    min_longitude: 56.576047
+    max_latitude: 23.5632319
+    max_longitude: 58.34188510000001
   translations:
     en: Ad Dakhiliyah
     ar: محافظة الداخلية
@@ -53,21 +65,17 @@ DA:
     uk: Ед-Дахілія
     ur: محافظہ الداخلیہ
     vi: Tỉnh Ad Dakhiliyah
-  geo:
-    latitude: 22.3476325
-    longitude: 57.2818625
-    min_latitude: 20.904974
-    min_longitude: 56.576047
-    max_latitude: 23.5632319
-    max_longitude: 58.34188510000001
-  name: Ad Dakhiliyah
-JA:
+    lv: Dāhilījas mintaka
+    zh: 內地省
+    ccp: "\U00011103\U00011116\U00011134 \U00011113\U00011108\U0001112D\U00011123\U00011128\U00011120\U00011126\U00011134"
+  comments: 
+JA: 
+  name: Dhofar
+  code: 
   unofficial_names:
   - Dhofar
   - Dhufar
   - Janubiyah
-  translations:
-    en: Dhofar
   geo:
     latitude: 18.3970348
     longitude: 54.4342138
@@ -75,12 +83,23 @@ JA:
     min_longitude: 52.0007019
     max_latitude: 20.0018369
     max_longitude: 56.3555997
-  name: Dhofar
-MA:
+  translations:
+    en: Dhofar
+  comments: 
+MA: 
+  name: Masqat
+  code: 
   unofficial_names:
   - Masqaţ
   - Maskat
   - Mascate
+  geo:
+    latitude: 23.61
+    longitude: 58.54
+    min_latitude: 23.5211218
+    min_longitude: 58.2283758
+    max_latitude: 23.6455689
+    max_longitude: 58.6189567
   translations:
     en: Muscat
     ar: محافظة مسقط
@@ -119,16 +138,24 @@ MA:
     uk: Маскат
     ur: محافظہ مسقط
     vi: Tỉnh Muscat
-  geo:
-    latitude: 23.61
-    longitude: 58.54
-    min_latitude: 23.5211218
-    min_longitude: 58.2283758
-    max_latitude: 23.6455689
-    max_longitude: 58.6189567
-  name: Masqat
-MU:
+    lv: Muskatas muhāfaza
+    lt: Muskato gubernija
+    zh: 馬斯喀特省
+    ccp: "\U0001111F\U0001110C\U00011134\U00011107\U00011116\U00011134"
+    ro: guvernoratul Muscat
+    eu: Maskat
+  comments: 
+MU: 
+  name: Musandam
+  code: 
   unofficial_names: Musandam
+  geo:
+    latitude: 25.9942638
+    longitude: 56.24822769999999
+    min_latitude: 25.2419609
+    min_longitude: 56.09789079999999
+    max_latitude: 26.385954
+    max_longitude: 56.5376924
   translations:
     en: Musandam
     ar: محافظة مسندم
@@ -175,19 +202,16 @@ MU:
     uk: Мусандам
     ur: محافظہ مسندم
     vi: Musandam
-  geo:
-    latitude: 25.9942638
-    longitude: 56.24822769999999
-    min_latitude: 25.2419609
-    min_longitude: 56.09789079999999
-    max_latitude: 26.385954
-    max_longitude: 56.5376924
-  name: Musandam
-SH:
+    lv: Musendemas muhāfaza
+    sr_Latn: Musandam
+    zh: 穆桑代姆省
+    ccp: "\U0001111F\U0001112A\U00011125\U0001111A\U00011134\U00011113\U0001111F\U00011134"
+  comments: 
+SH: 
+  name: Ash Sharqiyah
+  code: 
   unofficial_names:
   - Ash Sharqiyah
-  translations:
-    en: Ash Sharqiyah
   geo:
     latitude: 22.1186919
     longitude: 58.55438209999999
@@ -195,9 +219,21 @@ SH:
     min_longitude: 57.90900800000001
     max_latitude: 23.3408271
     max_longitude: 59.4309743
-  name: Ash Sharqiyah
-WU:
+  translations:
+    en: Ash Sharqiyah
+    ccp: "\U00011103\U0001110C\U00011134 \U00011125\U00011122\U00011134\U00011107\U0001112A\U00011103\U00011128\U00011126\U00011134"
+  comments: 
+WU: 
+  name: Al Wustá
+  code: 
   unofficial_names: Al Wustá
+  geo:
+    latitude: 20.1738655
+    longitude: 56.56164700000001
+    min_latitude: 17.9456731
+    min_longitude: 54.9999999
+    max_latitude: 21.420908
+    max_longitude: 58.3227421
   translations:
     en: Al Wusta
     ar: محافظة الوسطى
@@ -237,18 +273,14 @@ WU:
     uk: Ель-Вуста
     ur: محافظہ وسطی (عمان)
     vi: Tỉnh Al Wusta
-  geo:
-    latitude: 20.1738655
-    longitude: 56.56164700000001
-    min_latitude: 17.9456731
-    min_longitude: 54.9999999
-    max_latitude: 21.420908
-    max_longitude: 58.3227421
-  name: Al Wustá
-X1~:
+    lv: Vustas muhāfaza
+    zh: 中部省
+    ccp: "\U00011103\U00011123\U00011134 \U00011103\U0001112E\U00011105\U0001112A\U0001110C\U00011134\U00011111"
+  comments: 
+X1~: 
+  name: Al Buraymi
+  code: 
   unofficial_names: Al Buraymi
-  translations:
-    en: Al Buraymi
   geo:
     latitude: 24.25
     longitude: 55.7999
@@ -256,10 +288,21 @@ X1~:
     min_longitude: 55.75346949999999
     max_latitude: 24.3267637
     max_longitude: 55.8898545
-  name: Al Buraymi
-ZA:
+  translations:
+    en: Al Buraymi
+  comments: 
+ZA: 
+  name: Adh Dhahirah
+  code: 
   unofficial_names:
   - Adh Dhahirah
+  geo:
+    latitude: 22.5590272
+    longitude: 56.0249982
+    min_latitude: 21.2735939
+    min_longitude: 55.2069211
+    max_latitude: 24.019926
+    max_longitude: 57.116874
   translations:
     en: Ad Dhahirah
     ar: محافظة الظاهرة
@@ -300,15 +343,21 @@ ZA:
     uk: Ез-Захіра
     ur: محافظہ الظاہرہ
     vi: Tỉnh Ad Dhahirah
+    lv: Zāhiras mintaka
+    zh: 扎希拉省
+    ccp: "\U00011103\U00011116\U00011134 \U00011119\U00011126\U00011128\U00011122\U00011126\U00011134"
+  comments: 
+BJ: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 22.5590272
-    longitude: 56.0249982
-    min_latitude: 21.2735939
-    min_longitude: 55.2069211
-    max_latitude: 24.019926
-    max_longitude: 57.116874
-  name: Adh Dhahirah
-BJ:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة جنوب الباطنة
     bn: আল বাতিনাহ দক্ষিন গভর্নোরেট
@@ -343,7 +392,24 @@ BJ:
     tr: Al Batinah Güney Yönetimi
     ur: ال باتینہ ساؤتھ جوویرنوراتی
     vi: Tỉnh Al Batinah South
-BS:
+    lv: Dienvidbātinas muhāfaza
+    lt: Al Batino pietų gubernija
+    ccp: "\U0001110E\U0001111A\U0001112A\U0001111B\U00011134 \U00011103\U00011123\U00011134
+      \U0001111D\U00011111\U00011128\U0001111A\U00011126\U00011134"
+    eu: Hego Al Batinah
+    uk: Муніципалітет Південна Ель-Батіна
+  comments: 
+BS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة شمال الباطنة
     cs: Severní al-Batína
@@ -356,7 +422,25 @@ BS:
     ja: 北バーティナ地方
     ko: 북바티나 주
     nb: Nord-Al Batinah
-BU:
+    pl: Muhafazat Szamal al-Batina
+    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011127\U00011123\U00011134 \U00011103\U00011123\U00011134
+      \U0001111D\U00011111\U00011128\U0001111A\U00011126\U00011134"
+    fr: Al-Batina du Nord
+    es: Al Batinah Norte gobernación
+    eu: Ipar Al Batinah
+    pt: Batina Setentrional
+  comments: 
+BU: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة البريمي
     bn: আল বুরাইমি গভর্নোরেট
@@ -397,7 +481,21 @@ BU:
     ur: محافظہ البریمی
     vi: Buraimi
     zh: 布賴米省
-SJ:
+    lv: Buraimī muhāfaza
+    ccp: "\U00011103\U00011123\U00011134 \U0001111D\U0001112A\U00011122\U0001112D\U0001111F\U00011128"
+    eu: Al Buraimi
+  comments: 
+SJ: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة جنوب الشرقية
     bn: আশ শারকিয়া দক্ষিন গভর্নোরেট
@@ -432,7 +530,26 @@ SJ:
     tr: Ash Shargiyah Güney Yönetimi
     ur: عیش شارقیاح ساؤتھ جوویرنوراتی
     vi: Tỉnh Nam Ash Sharqiyah
-SS:
+    lv: Dienvidšerkījas muhāfaza
+    ceb: Ash Sharqiyah South
+    lt: Aš Šarkijos pietinė gubernija
+    zh: 東南省
+    ccp: "\U0001110E\U0001111A\U0001112A\U0001111B\U00011134 \U00011103\U0001110C\U00011134
+      \U00011125\U00011127\U00011122\U00011134\U00011107\U0001112A\U00011103\U00011128\U00011126\U00011134"
+    eu: Hego Ash Sharqiyah
+    uk: Південна Еш-Шаркія
+  comments: 
+SS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة شمال الشرقية
     bn: আশ শারকিয়াহ গভর্নোরেট
@@ -467,7 +584,25 @@ SS:
     tr: Ash Sharqiyah Kuzey Yönetimi
     ur: عیش شارقیاح نارتھ جوویرنوراتی
     vi: Tỉnh Bắc Ash Sharqiyah
-ZU:
+    lv: Aš Šarkijas ziemeļu muhāfaza
+    lt: Aš Šarkijos šiaurinė gubernija
+    zh: 東北省
+    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011127\U00011123\U00011134 \U00011103\U0001110C\U00011134
+      \U00011125\U00011122\U00011134\U00011107\U0001112A\U00011103\U00011128\U00011126\U00011134"
+    eu: Ipar Ash Sharqiyah
+    uk: Північно-Східна Провінція Еш-Шаркія
+  comments: 
+ZU: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة ظفار
     bn: ধোফার গভর্নোরেট
@@ -509,3 +644,7 @@ ZU:
     uk: Дофар
     ur: محافظہ ظفار
     vi: Tỉnh Dhofar
+    lv: Dofaras muhāfaza
+    zh: 佐法爾省
+    ccp: "\U00011119\U0001112E\U0001111C\U00011122\U00011134"
+  comments: 

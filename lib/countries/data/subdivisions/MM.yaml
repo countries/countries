@@ -1,6 +1,15 @@
 ---
-'01':
+'01': 
+  name: Sagaing
+  code: 
   unofficial_names: Sagaing
+  geo:
+    latitude: 21.9159702
+    longitude: 95.9621106
+    min_latitude: 21.8696635
+    min_longitude: 95.8791447
+    max_latitude: 21.9659415
+    max_longitude: 96.0088348
   translations:
     en: Sagaing
     ar: إقليم ساجينغ
@@ -39,17 +48,25 @@
     ur: ساگاینگ علاقہ
     vi: Vùng Sagaing
     zh: 實皆省
-  geo:
-    latitude: 21.9159702
-    longitude: 95.9621106
-    min_latitude: 21.8696635
-    min_longitude: 95.8791447
-    max_latitude: 21.9659415
-    max_longitude: 96.0088348
-  name: Sagaing
-'02':
+    lv: Sikainas reģions
+    ceb: Sagaing Region
+    ccp: "\U00011125\U00011109\U00011103\U00011128\U00011101"
+    cs: Sakainská oblast
+    my: စစ်ကိုင်းတိုင်း
+    mk: Сагаин
+  comments: 
+'02': 
+  name: Bago
+  code: 
   unofficial_names:
   - Pegu
+  geo:
+    latitude: 17.333333
+    longitude: 96.483333
+    min_latitude: 17.2299639
+    min_longitude: 96.4299202
+    max_latitude: 17.3624761
+    max_longitude: 96.51615849999999
   translations:
     en: Bago
     ar: باغو
@@ -87,17 +104,24 @@
     uk: Пегу
     ur: باگو علاقہ
     vi: Vùng Bago
-  geo:
-    latitude: 17.333333
-    longitude: 96.483333
-    min_latitude: 17.2299639
-    min_longitude: 96.4299202
-    max_latitude: 17.3624761
-    max_longitude: 96.51615849999999
-  name: Bago
-'03':
+    lv: Pegu
+    ceb: Bago Region
+    zh: 勃固省
+    ccp: "\U0001111D\U00011109\U0001112E"
+    my: ပဲခူးတိုင်း
+  comments: 
+'03': 
+  name: Magway
+  code: 
   unofficial_names:
   - Magwe
+  geo:
+    latitude: 20.15
+    longitude: 94.94999999999999
+    min_latitude: 20.1100737
+    min_longitude: 94.9161388
+    max_latitude: 20.1782538
+    max_longitude: 94.99182309999999
   translations:
     en: Magway
     ar: إقليم ماغواي
@@ -135,16 +159,24 @@
     uk: Магуе
     ur: ماگاوے علاقہ
     vi: Vùng Magway
-  geo:
-    latitude: 20.15
-    longitude: 94.94999999999999
-    min_latitude: 20.1100737
-    min_longitude: 94.9161388
-    max_latitude: 20.1782538
-    max_longitude: 94.99182309999999
-  name: Magway
-'04':
+    lv: Magves reģions
+    ceb: Magway Region
+    zh: 馬圭省
+    ccp: "\U0001111F\U00011107\U00011134\U00011103\U0001112E\U00011120\U0001112C"
+    cs: Makweiská oblast
+    my: မကွေးတိုင်း
+  comments: 
+'04': 
+  name: Mandalay
+  code: 
   unofficial_names: Mandalay
+  geo:
+    latitude: 21.975
+    longitude: 96.083333
+    min_latitude: 21.8545804
+    min_longitude: 96.0112381
+    max_latitude: 22.0261394
+    max_longitude: 96.14041019999999
   translations:
     en: Mandalay
     ar: إقليم ماندالاي
@@ -182,17 +214,26 @@
     uk: Мандалай
     ur: ماندالے علاقہ
     vi: Vùng Mandalay
-  geo:
-    latitude: 21.975
-    longitude: 96.083333
-    min_latitude: 21.8545804
-    min_longitude: 96.0112381
-    max_latitude: 22.0261394
-    max_longitude: 96.14041019999999
-  name: Mandalay
-'05':
+    lv: Mandalajas reģions
+    ceb: Mandalay Region
+    zh: 曼德勒省
+    ccp: "\U0001111F\U0001111A\U00011134\U00011113\U00011123\U0001112C"
+    cs: Mandalajská oblast
+    my: မန္တလေးတိုင်း
+    be: Мандалай
+  comments: 
+'05': 
+  name: Tanintharyi
+  code: 
   unofficial_names:
   - Tenasserim
+  geo:
+    latitude: 12.0896327
+    longitude: 99.0115113
+    min_latitude: 12.0778055
+    min_longitude: 99.0064103
+    max_latitude: 12.0926189
+    max_longitude: 99.020505
   translations:
     en: Tanintharyi
     ar: اقليم تانينثاري
@@ -231,20 +272,28 @@
     uk: Танінтаї
     ur: تانینتھارئی علاقہ
     vi: Vùng Tanintharyi
-  geo:
-    latitude: 12.0896327
-    longitude: 99.0115113
-    min_latitude: 12.0778055
-    min_longitude: 99.0064103
-    max_latitude: 12.0926189
-    max_longitude: 99.020505
-  name: Tanintharyi
-'06':
+    lv: Tanintaji reģions
+    ceb: Taninthayi Region
+    zh: 德林达依
+    ccp: "\U00011111\U0001111A\U00011128\U0001111A\U00011134\U00011117\U00011122\U00011128"
+    pa: ਤਨੀਂਥਾਰਾਈ ਮੰਡਲ
+    my: တနင်္သာရီတိုင်း
+  comments: 
+'06': 
+  name: Yangon
+  code: 
   unofficial_names:
   - Yangon
   - Rangun
   - Rangoun
   - Rangún
+  geo:
+    latitude: 16.780833
+    longitude: 96.149722
+    min_latitude: 16.7288268
+    min_longitude: 95.9957885
+    max_latitude: 17.0788151
+    max_longitude: 96.3432311
   translations:
     en: Yangon
     ar: إقليم يانغون
@@ -283,17 +332,26 @@
     uk: Янгон
     ur: یانگون رگوں
     vi: Vùng Yangon
-  geo:
-    latitude: 16.780833
-    longitude: 96.149722
-    min_latitude: 16.7288268
-    min_longitude: 95.9957885
-    max_latitude: 17.0788151
-    max_longitude: 96.3432311
-  name: Yangon
-'07':
+    lv: Jangonas reģions
+    ceb: Yangon Region
+    zh: 仰光省
+    ccp: "\U00011103\U00011128\U00011120\U00011101\U00011109\U0001112A\U0001111A\U00011134"
+    pa: ਯਾਂਗੋਨ ਖੇਤਰ
+    cs: Rangúnská oblast
+    my: ရန်ကုန်တိုင်း
+  comments: 
+'07': 
+  name: Ayeyarwady
+  code: 
   unofficial_names:
   - Irrawaddy
+  geo:
+    latitude: 17.0342125
+    longitude: 95.22666749999999
+    min_latitude: 13.9746695
+    min_longitude: 93.22602839999999
+    max_latitude: 18.4690619
+    max_longitude: 95.9665632
   translations:
     en: Ayeyarwady
     ar: مقاطعة أيياروادي
@@ -334,16 +392,27 @@
     uk: Іраваді
     ur: ایئیاروادی علاقہ
     vi: Vùng Ayeyarwady
-  geo:
-    latitude: 17.0342125
-    longitude: 95.22666749999999
-    min_latitude: 13.9746695
-    min_longitude: 93.22602839999999
-    max_latitude: 18.4690619
-    max_longitude: 95.9665632
-  name: Ayeyarwady
-'11':
+    lv: Ajejarvadžio reģions
+    af: Ayeyarwady Streek
+    ceb: Ayeyawady Region
+    zh: 伊洛瓦底省
+    yue_Hans: 爱耶也华地省
+    ccp: "\U00011103\U00011127\U00011120\U0001112C\U00011120\U00011122\U00011134\U00011103\U00011128\U00011120\U00011113\U00011128"
+    pa: ਏਯਾਰਵਾਡੀ ਮੰਡਲ
+    yue: 愛耶也華地省
+    be: Іравадзі
+  comments: 
+'11': 
+  name: Kachin
+  code: 
   unofficial_names: Kachin
+  geo:
+    latitude: 25.850904
+    longitude: 97.4381355
+    min_latitude: 23.641569
+    min_longitude: 95.8360589
+    max_latitude: 28.543259
+    max_longitude: 98.78279099999999
   translations:
     en: Kachin
     ar: ولاية كاشين
@@ -387,16 +456,27 @@
     uk: Качин
     ur: کاچین ریاست
     vi: Kachin
-  geo:
-    latitude: 25.850904
-    longitude: 97.4381355
-    min_latitude: 23.641569
-    min_longitude: 95.8360589
-    max_latitude: 28.543259
-    max_longitude: 98.78279099999999
-  name: Kachin
-'12':
+    lv: Kačinas pavalsts
+    cy: Talaith Kachin
+    ceb: Kachin State
+    as: কাচিন
+    sr_Latn: Kačin
+    zh: 克钦邦
+    ccp: "\U00011107\U0001110C\U00011128\U0001111A\U00011134"
+    pa: ਕਾਚੀਨ ਸੂਬਾ
+    my: ကချင်ပြည်နယ်
+  comments: 
+'12': 
+  name: Kayah
+  code: 
   unofficial_names: Kayah
+  geo:
+    latitude: 19.2342061
+    longitude: 97.26528580000002
+    min_latitude: 18.4917349
+    min_longitude: 96.833956
+    max_latitude: 19.9939339
+    max_longitude: 97.88789399999999
   translations:
     en: Kayah
     ar: ولاية كاياه
@@ -436,17 +516,27 @@
     uk: Кая
     ur: کایاہ ریاست
     vi: Kayah
-  geo:
-    latitude: 19.2342061
-    longitude: 97.26528580000002
-    min_latitude: 18.4917349
-    min_longitude: 96.833956
-    max_latitude: 19.9939339
-    max_longitude: 97.88789399999999
-  name: Kayah
-'13':
+    lv: Kajas pavalsts
+    ceb: Kayah State
+    sr_Latn: Kaja
+    zh: 克耶邦
+    ccp: "\U00011107\U0001112C\U00011120\U00011126\U00011134"
+    pa: ਕਾਇਆਹ ਰਾਜ
+    cs: Kajaský stát
+    my: ကယားပြည်နယ်
+  comments: 
+'13': 
+  name: Kayin
+  code: 
   unofficial_names:
   - Karen
+  geo:
+    latitude: 16.9459346
+    longitude: 97.9592863
+    min_latitude: 15.2195629
+    min_longitude: 96.39982189999999
+    max_latitude: 19.4953029
+    max_longitude: 98.91750309999999
   translations:
     en: Kayin
     ar: ولاية كايين
@@ -486,16 +576,25 @@
     uk: Карен
     ur: کایئن ریاست
     vi: Kayin
-  geo:
-    latitude: 16.9459346
-    longitude: 97.9592863
-    min_latitude: 15.2195629
-    min_longitude: 96.39982189999999
-    max_latitude: 19.4953029
-    max_longitude: 98.91750309999999
-  name: Kayin
-'14':
+    lv: Karenas pavalsts
+    ceb: Kayin State
+    sr_Latn: Karen
+    zh: 克倫邦
+    ccp: "\U00011107\U0001112C\U00011120\U00011103\U00011128\U0001111A\U00011134"
+    pa: ਕਾਇਨ
+    my: ကရင်ပြည်နယ်
+  comments: 
+'14': 
+  name: Chin
+  code: 
   unofficial_names: Chin
+  geo:
+    latitude: 22.3896751
+    longitude: 93.5812692
+    min_latitude: 20.6635458
+    min_longitude: 92.6037597
+    max_latitude: 24.0915281
+    max_longitude: 94.1857909
   translations:
     en: Chin
     ar: ولاية تشين
@@ -538,16 +637,24 @@
     uk: Чин
     ur: چن ریاست
     vi: Chin
-  geo:
-    latitude: 22.3896751
-    longitude: 93.5812692
-    min_latitude: 20.6635458
-    min_longitude: 92.6037597
-    max_latitude: 24.0915281
-    max_longitude: 94.1857909
-  name: Chin
-'15':
+    ceb: Chin State
+    sr_Latn: Čin
+    zh: 欽邦
+    ccp: "\U0001110C\U00011128\U0001111A\U00011134"
+    hy: Չին
+    ml: ചിൻ സംസ്ഥാനം
+  comments: 
+'15': 
+  name: Mon
+  code: 
   unofficial_names: Mon
+  geo:
+    latitude: 17.0626039
+    longitude: 97.35165579999999
+    min_latitude: 14.884192
+    min_longitude: 96.8755518
+    max_latitude: 17.7052629
+    max_longitude: 98.23783879999999
   translations:
     en: Mon
     ar: ولاية مون
@@ -586,17 +693,28 @@
     uk: Мон
     ur: مون ریاست
     vi: Mon
-  geo:
-    latitude: 17.0626039
-    longitude: 97.35165579999999
-    min_latitude: 14.884192
-    min_longitude: 96.8755518
-    max_latitude: 17.7052629
-    max_longitude: 98.23783879999999
-  name: Mon
-'16':
+    lv: Monas pavalsts
+    ceb: Mon State
+    sr_Latn: Mon
+    zh: 孟邦
+    ccp: "\U0001111F\U00011127\U0001111A\U00011134"
+    hy: Մոն
+    pa: ਮੋਨ ਸਟੇਟ
+    cs: Monský stát
+    my: မွန်ပြည်နယ်
+  comments: 
+'16': 
+  name: Rakhine
+  code: 
   unofficial_names:
   - Arakan
+  geo:
+    latitude: 19.810093
+    longitude: 93.9878427
+    min_latitude: 17.363218
+    min_longitude: 92.189278
+    max_latitude: 21.4735741
+    max_longitude: 94.909111
   translations:
     en: Rakhine
     ar: راخين
@@ -638,16 +756,26 @@
     uk: Ракхайн
     ur: راخائن ریاست
     vi: Rakhine
-  geo:
-    latitude: 19.810093
-    longitude: 93.9878427
-    min_latitude: 17.363218
-    min_longitude: 92.189278
-    max_latitude: 21.4735741
-    max_longitude: 94.909111
-  name: Rakhine
-'17':
+    lv: Rakhainas pavalsts
+    ceb: Rakhine State
+    sr_Latn: Rakajn
+    zh: 若開邦
+    jv: Rakhine
+    ccp: "\U00011122\U00011108\U0001112D\U0001111A\U00011134"
+    he: ראקין
+    my: ရခိုင်ပြည်နယ်
+  comments: 
+'17': 
+  name: Shan
+  code: 
   unofficial_names: Shan
+  geo:
+    latitude: 21.156717
+    longitude: 97.57347829999999
+    min_latitude: 21.1287002
+    min_longitude: 97.5539589
+    max_latitude: 21.1839317
+    max_longitude: 97.59275430000001
   translations:
     en: Shan
     ar: ولاية شان
@@ -688,15 +816,28 @@
     uk: Шан
     ur: ریاست شان
     vi: Shan
+    lv: Šanas pavalsts
+    ceb: Shan State
+    sr_Latn: Šan
+    zh: 掸邦
+    yue_Hans: 掸邦
+    ccp: "\U00011125\U0001111A\U00011134"
+    hy: Շան
+    ml: ഷാൻ സംസ്ഥാനം
+    yue: 撣邦
+    my: ရှမ်းပြည်နယ်
+  comments: 
+'18': 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 21.156717
-    longitude: 97.57347829999999
-    min_latitude: 21.1287002
-    min_longitude: 97.5539589
-    max_latitude: 21.1839317
-    max_longitude: 97.59275430000001
-  name: Shan
-'18':
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     de: Unionsterritorium Naypyidaw
     en: Naypyidaw
@@ -711,3 +852,10 @@
     th: ดินแดนสหภาพเนปยีดอ
     ur: نیپیداو متحدہ خطہ
     vi: Lãnh thổ Liên bang Naypyidaw
+    ta: நைப்பியிதா யூனியன் பிரதேசம்
+    zh: 内比都联邦区
+    el: Ενωσιακή Επικράτεια Νέπιντο
+    ccp: "\U0001111A\U0001112C\U0001111B\U0001112D\U00011103\U00011128\U00011113\U00011133\U00011126\U00011127"
+    my: နေပြည်တော် ပြည်ထောင်စုနယ်မြေ
+    ca: Territori de la Unió de Naypyidaw
+  comments: 

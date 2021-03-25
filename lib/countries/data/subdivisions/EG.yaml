@@ -1,5 +1,7 @@
 ---
-ALX:
+ALX: 
+  name: Al Iskandariyah
+  code: 
   unofficial_names:
   - El Iskandariya
   - al-Iskandariyah
@@ -7,6 +9,13 @@ ALX:
   - Alexandria
   - Alexandrie
   - Alexandria
+  geo:
+    latitude: 31.2000924
+    longitude: 29.9187387
+    min_latitude: 31.1173177
+    min_longitude: 29.8233701
+    max_latitude: 31.330904
+    max_longitude: 30.0864016
   translations:
     en: Alexandria
     ar: الإسكندرية
@@ -53,19 +62,27 @@ ALX:
     ur: محافظہ اسکندریہ
     vi: Alexandria
     zh: 亞歷山大省
-  geo:
-    latitude: 31.2000924
-    longitude: 29.9187387
-    min_latitude: 31.1173177
-    min_longitude: 29.8233701
-    max_latitude: 31.330904
-    max_longitude: 30.0864016
-  name: Al Iskandariyah
-ASN:
+    lv: Aleksandrijas muhāfaza
+    sr_Latn: Aleksandrija
+    ccp: "\U00011103\U00011123\U0001112C\U00011107\U00011134\U0001110E\U0001111A\U00011134\U00011113\U00011133\U00011122\U00011128\U00011120"
+    hu: Alexandria kormányzóság
+    he: מחוז אלכסנדריה
+    bs: Aleksandrija
+  comments: 
+ASN: 
+  name: Aswan
+  code: 
   unofficial_names:
   - Aswān
   - Assuan
   - Assouan
+  geo:
+    latitude: 24.088938
+    longitude: 32.8998293
+    min_latitude: 24.0714761
+    min_longitude: 32.8794385
+    max_latitude: 24.1131931
+    max_longitude: 32.9207739
   translations:
     en: Aswan
     ar: محافظة أسوان
@@ -101,15 +118,16 @@ ASN:
     uk: Асуан
     ur: محافظہ اسوان
     vi: Aswan
-  geo:
-    latitude: 24.088938
-    longitude: 32.8998293
-    min_latitude: 24.0714761
-    min_longitude: 32.8794385
-    max_latitude: 24.1131931
-    max_longitude: 32.9207739
-  name: Aswan
-AST:
+    sr_Latn: Asuan
+    zh: 阿斯旺省
+    ccp: "\U00011103\U00011125\U0001112E\U00011120\U0001111A\U00011134"
+    hy: Ասուան
+    hu: Asszuán kormányzóság
+    bs: Asuan
+  comments: 
+AST: 
+  name: Asyut
+  code: 
   unofficial_names:
   - Asiut
   - Assyût
@@ -117,6 +135,13 @@ AST:
   - Asyūţ
   - Assiut
   - Assiout
+  geo:
+    latitude: 27.1783117
+    longitude: 31.1859257
+    min_latitude: 27.1580509
+    min_longitude: 31.1566813
+    max_latitude: 27.1960162
+    max_longitude: 31.2121548
   translations:
     en: Asyut
     ar: أسيوط
@@ -161,17 +186,27 @@ AST:
     uk: Асьют
     ur: محافظہ اسیوط
     vi: Tỉnh Asyut
-  geo:
-    latitude: 27.1783117
-    longitude: 31.1859257
-    min_latitude: 27.1580509
-    min_longitude: 31.1566813
-    max_latitude: 27.1960162
-    max_longitude: 31.2121548
-  name: Asyut
-BA:
+    lv: Asjūtas muhāfaza
+    sr_Latn: Asjut
+    zh: 艾斯尤特省
+    ccp: "\U00011103\U00011125\U0001112D\U00011120\U0001112A\U00011116\U00011134"
+    hy: Ասյութ
+    hu: Aszjút kormányzóság
+    he: מחוז אסיוט
+    bs: Asyut
+  comments: 
+BA: 
+  name: Al Bahr al Ahmar
+  code: 
   unofficial_names:
   - El Bahr el Ahmar
+  geo:
+    latitude: 25.1076838
+    longitude: 33.7964613
+    min_latitude: 21.9996377
+    min_longitude: 30.741445
+    max_latitude: 29.3923378
+    max_longitude: 36.8945141
   translations:
     en: Red Sea
     ar: البحر الأحمر
@@ -217,18 +252,27 @@ BA:
     uk: Червоне Море
     ur: محافظہ بحر احمر
     vi: Biển Đỏ
-  geo:
-    latitude: 25.1076838
-    longitude: 33.7964613
-    min_latitude: 21.9996377
-    min_longitude: 30.741445
-    max_latitude: 29.3923378
-    max_longitude: 36.8945141
-  name: Al Bahr al Ahmar
-BH:
+    lv: Sarkanās jūras muhāfaza
+    ceb: Red Sea Governorate
+    sr_Latn: Crveno more
+    zh: 红海省
+    ccp: "\U00011122\U0001112C\U00011116\U00011134-\U00011125\U00011128"
+    he: הים האדום (מחוז)
+    bs: Crveno more
+  comments: 
+BH: 
+  name: Al Buhayrah
+  code: 
   unofficial_names:
   - El Buhayra
   - al-Buh̨ayrah
+  geo:
+    latitude: 30.8480986
+    longitude: 30.3435506
+    min_latitude: 29.9339286
+    min_longitude: 29.5338788
+    max_latitude: 31.4683007
+    max_longitude: 30.8513688
   translations:
     en: Beheira
     ar: محافظة البحيرة
@@ -274,18 +318,29 @@ BH:
     uk: Бухейра
     ur: محافظہ بحیرہ
     vi: Tỉnh Beheira
-  geo:
-    latitude: 30.8480986
-    longitude: 30.3435506
-    min_latitude: 29.9339286
-    min_longitude: 29.5338788
-    max_latitude: 31.4683007
-    max_longitude: 30.8513688
-  name: Al Buhayrah
-BNS:
+    lv: Buheirātas muhāfaza
+    ceb: Beheira Governorate
+    sr_Latn: Buhejra
+    zh: 布海拉省
+    ccp: "\U0001111D\U0001112C\U00011126\U0001112C\U00011103\U00011128\U00011122"
+    hy: Բուհեյրա
+    he: מחוז אל-בחירה
+    hr: Beheira
+    bs: Beheira
+  comments: 
+BNS: 
+  name: Bani Suwayf
+  code: 
   unofficial_names:
   - Bani Suwayf
   - Banī Suwayf
+  geo:
+    latitude: 29.0661274
+    longitude: 31.0993845
+    min_latitude: 29.0058847
+    min_longitude: 31.0616271
+    max_latitude: 29.0958994
+    max_longitude: 31.1423418
   translations:
     en: Beni Suef
     ar: بني سويف
@@ -329,15 +384,18 @@ BNS:
     uk: Бені-Суейф
     ur: محافظہ بنی سیوف
     vi: Tỉnh Beni Suef
-  geo:
-    latitude: 29.0661274
-    longitude: 31.0993845
-    min_latitude: 29.0058847
-    min_longitude: 31.0616271
-    max_latitude: 29.0958994
-    max_longitude: 31.1423418
-  name: Bani Suwayf
-C:
+    lv: Benī Sueifas muhāfaza
+    sr_Latn: Beni Suejf
+    zh: 贝尼苏韦夫省
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011128 \U00011125\U0001112A\U00011120\U0001112C\U0001111B\U00011134"
+    hy: Բենի Սուեյֆ
+    he: מחוז בני סויף
+    ml: ബനീ സുവൈഫ്
+    bs: Beni Suef
+  comments: 
+C: 
+  name: Al Qahirah
+  code: 
   unofficial_names:
   - El Qahira
   - Le Caire-sur-Mer
@@ -345,6 +403,13 @@ C:
   - Kairo
   - Caire
   - Cairo
+  geo:
+    latitude: 30.0444196
+    longitude: 31.2357116
+    min_latitude: 30.0083745
+    min_longitude: 31.2149558
+    max_latitude: 30.1106024
+    max_longitude: 31.3019729
   translations:
     en: Cairo
     ar: محافظة القاهرة
@@ -392,19 +457,25 @@ C:
     uk: Каїр
     ur: محافظہ قاہرہ
     vi: Cairo
-  geo:
-    latitude: 30.0444196
-    longitude: 31.2357116
-    min_latitude: 30.0083745
-    min_longitude: 31.2149558
-    max_latitude: 30.1106024
-    max_longitude: 31.3019729
-  name: Al Qahirah
-DK:
+    sr_Latn: Kairo
+    zh: 开罗省
+    ccp: "\U00011107\U0001112D\U00011122\U0001112E"
+    bs: Kairo
+  comments: 
+DK: 
+  name: Ad Daqahliyah
+  code: 
   unofficial_names:
   - Dakahlia
   - El Daqahliya
   - ad-Daqahliyah
+  geo:
+    latitude: 31.0832017
+    longitude: 31.4913182
+    min_latitude: 30.5769786
+    min_longitude: 31.2086064
+    max_latitude: 31.5452581
+    max_longitude: 32.0835976
   translations:
     en: Dakahlia
     ar: الدقهلية
@@ -448,20 +519,28 @@ DK:
     uk: Дакахлія
     ur: محافظہ دقہلیہ
     vi: Tỉnh Dakahlia
-  geo:
-    latitude: 31.0832017
-    longitude: 31.4913182
-    min_latitude: 30.5769786
-    min_longitude: 31.2086064
-    max_latitude: 31.5452581
-    max_longitude: 32.0835976
-  name: Ad Daqahliyah
-DT:
+    lv: Dekahlījas muhāfaza
+    sr_Latn: Dakahlija
+    zh: 代蓋赫利耶省
+    ccp: "\U00011113\U00011107\U00011126\U00011134\U00011123\U00011128\U00011120"
+    hy: Դակահլիա
+    bs: Dakahlia
+  comments: 
+DT: 
+  name: Dumyat
+  code: 
   unofficial_names:
   - Damiat
   - Dumyat
   - Dumyāţ
   - Damiette
+  geo:
+    latitude: 31.4175388
+    longitude: 31.81444339999999
+    min_latitude: 31.3934849
+    min_longitude: 31.7816078
+    max_latitude: 31.4417822
+    max_longitude: 31.8280067
   translations:
     en: Damietta
     ar: محافظة دمياط
@@ -505,19 +584,26 @@ DT:
     uk: Думʼят
     ur: محافظہ دمیاط
     vi: Tỉnh Damietta
-  geo:
-    latitude: 31.4175388
-    longitude: 31.81444339999999
-    min_latitude: 31.3934849
-    min_longitude: 31.7816078
-    max_latitude: 31.4417822
-    max_longitude: 31.8280067
-  name: Dumyat
-FYM:
+    lv: Dumjātas muhāfaza
+    sr_Latn: Damijeta
+    zh: 杜姆亞特省
+    ccp: "\U00011113\U0001111F\U0001112D\U00011120\U0001112C\U00011111"
+    bs: Damietta
+  comments: 
+FYM: 
+  name: Al Fayyum
+  code: 
   unofficial_names:
   - El Faiyūm
   - al-Fayyum
   - al-Fayyūm
+  geo:
+    latitude: 29.3084021
+    longitude: 30.8428497
+    min_latitude: 29.2918259
+    min_longitude: 30.8206875
+    max_latitude: 29.3299673
+    max_longitude: 30.86388549999999
   translations:
     en: Faiyum
     ar: محافظة الفيوم
@@ -552,20 +638,26 @@ FYM:
     tr: Feyyum
     uk: Ель-Файюм
     ur: محافظہ فیوم
-  geo:
-    latitude: 29.3084021
-    longitude: 30.8428497
-    min_latitude: 29.2918259
-    min_longitude: 30.8206875
-    max_latitude: 29.3299673
-    max_longitude: 30.86388549999999
-  name: Al Fayyum
-GH:
+    sr_Latn: Fajum
+    zh: 法尤姆省
+    ccp: "\U0001111C\U0001112D\U00011120\U0001112A\U0001111F\U00011134"
+    bs: Faiyum
+  comments: 
+GH: 
+  name: Al Gharbiyah
+  code: 
   unofficial_names:
   - El Gharbiya
   - Gharbiya
   - al-Garbiyah
   - al-Ġarbīyah
+  geo:
+    latitude: 30.8753556
+    longitude: 31.03351
+    min_latitude: 30.5747929
+    min_longitude: 30.7465372
+    max_latitude: 31.1583532
+    max_longitude: 31.3105264
   translations:
     en: Gharbia
     ar: الغربية
@@ -609,15 +701,17 @@ GH:
     uk: Гарбія
     ur: محافظہ غربیہ
     vi: Tỉnh Gharbia
-  geo:
-    latitude: 30.8753556
-    longitude: 31.03351
-    min_latitude: 30.5747929
-    min_longitude: 30.7465372
-    max_latitude: 31.1583532
-    max_longitude: 31.3105264
-  name: Al Gharbiyah
-GZ:
+    lv: Garbijas muhāfaza
+    cy: Gharbia Governorate
+    sr_Latn: Garbija
+    zh: 西部省
+    ccp: "\U0001110A\U00011122\U00011134\U0001111D\U00011128\U00011120"
+    he: מחוז אל-ע׳רביה
+    bs: Gharbia
+  comments: 
+GZ: 
+  name: Al Jizah
+  code: 
   unofficial_names:
   - El Giza
   - Gise
@@ -628,6 +722,13 @@ GZ:
   - al-Jīzah
   - Giseh
   - Gîza
+  geo:
+    latitude: 30.0130557
+    longitude: 31.2088526
+    min_latitude: 29.9621703
+    min_longitude: 31.1472406
+    max_latitude: 30.0714063
+    max_longitude: 31.2320457
   translations:
     en: Giza
     ar: محافظة الجيزة
@@ -674,20 +775,28 @@ GZ:
     uk: Гіза
     ur: محافظہ جیزہ
     vi: Giza
-  geo:
-    latitude: 30.0130557
-    longitude: 31.2088526
-    min_latitude: 29.9621703
-    min_longitude: 31.1472406
-    max_latitude: 30.0714063
-    max_longitude: 31.2320457
-  name: Al Jizah
-IS:
+    lv: Gīzas muhāfaza
+    sr_Latn: Giza
+    zh: 吉薩省
+    ccp: "\U0001110E\U00011128\U0001110E"
+    hy: Ալ-Գիզա
+    bs: Giza
+  comments: 
+IS: 
+  name: Al Ismā`īlīyah
+  code: 
   unofficial_names:
   - El Ismailia
   - Ismaʿiliya
   - al-Ismailiyah
   - al-Ismāīlīyah
+  geo:
+    latitude: 30.5830934
+    longitude: 32.2653887
+    min_latitude: 30.2436079
+    min_longitude: 31.6954456
+    max_latitude: 31.0059587
+    max_longitude: 32.7520118
   translations:
     en: Ismailia
     ar: الإسماعيلية
@@ -731,19 +840,28 @@ IS:
     uk: Ісмаїлія
     ur: محافظہ اسماعیلیہ
     vi: Tỉnh Ismailia
-  geo:
-    latitude: 30.5830934
-    longitude: 32.2653887
-    min_latitude: 30.2436079
-    min_longitude: 31.6954456
-    max_latitude: 31.0059587
-    max_longitude: 32.7520118
-  name: Al Ismā`īlīyah
-JS:
+    lv: Ismaīlījas muhāfaza
+    ceb: Ismailia Governorate
+    sr_Latn: Ismailija
+    zh: 伊斯梅利亚省
+    ccp: "\U00011103\U00011128\U0001110C\U00011134\U0001111F\U0001112D\U00011123\U00011128\U00011120"
+    he: מחוז אל-אסמאעיליה
+    bs: Ismailija
+  comments: 
+JS: 
+  name: Janub Sina'
+  code: 
   unofficial_names:
   - Sina al-Janūbīyah
   - Sinai al-Janubiyah
   - South Sinai
+  geo:
+    latitude: 29.3101828
+    longitude: 34.1531947
+    min_latitude: 27.7240277
+    min_longitude: 32.6094505
+    max_latitude: 29.9494465
+    max_longitude: 34.9076691
   translations:
     en: South Sinai
     ar: جنوب سيناء
@@ -790,18 +908,27 @@ JS:
     uk: Південний Синай
     ur: محافظہ جنوبی سینا
     vi: Tỉnh Nam Sinai
-  geo:
-    latitude: 29.3101828
-    longitude: 34.1531947
-    min_latitude: 27.7240277
-    min_longitude: 32.6094505
-    max_latitude: 29.9494465
-    max_longitude: 34.9076691
-  name: Janub Sina'
-KB:
+    lv: Dienvidsīnāja muhāfaza
+    ceb: South Sinai Governorate
+    sr_Latn: Južni Sinaj
+    zh: 南西奈省
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011125\U00011128\U0001111A\U0001112D"
+    bs: Južni Sinaj
+    mk: Јужен Синај
+  comments: 
+KB: 
+  name: Al Qalyubiyah
+  code: 
   unofficial_names:
   - El Qalubiya
   - al-Qalyubiyah
+  geo:
+    latitude: 30.3292368
+    longitude: 31.2168466
+    min_latitude: 30.1040552
+    min_longitude: 31.0542669
+    max_latitude: 30.6076595
+    max_longitude: 31.4157302
   translations:
     en: Qalyubia
     ar: محافظة القليوبية
@@ -844,18 +971,26 @@ KB:
     uk: Кальюбія
     ur: محافظہ قلیوبیہ
     vi: Tỉnh Qalyubia
-  geo:
-    latitude: 30.3292368
-    longitude: 31.2168466
-    min_latitude: 30.1040552
-    min_longitude: 31.0542669
-    max_latitude: 30.6076595
-    max_longitude: 31.4157302
-  name: Al Qalyubiyah
-KFS:
+    lv: Kaljūbījas muhāfaza
+    sr_Latn: Kaljubija
+    zh: 蓋盧比尤省
+    ccp: "\U00011107\U00011127\U00011120\U00011123\U0001112D\U00011120\U0001112A\U0001111D\U00011128\U00011120"
+    he: מחוז אל-קליוביה
+    bs: Qalyubia
+  comments: 
+KFS: 
+  name: Kafr ash Shaykh
+  code: 
   unofficial_names:
   - Kafr-ash-Shaykh
   - Kafr-aš-Šayẖ
+  geo:
+    latitude: 31.3085444
+    longitude: 30.8039474
+    min_latitude: 30.9942465
+    min_longitude: 30.3653976
+    max_latitude: 31.6016217
+    max_longitude: 31.3122298
   translations:
     en: Kafr el-Sheikh
     ar: محافظة كفر الشيخ
@@ -898,18 +1033,27 @@ KFS:
     uk: Кафр-еш-Шейх
     ur: محافظہ کفر الشیخ
     vi: Tỉnh Kafr el-Sheikh
-  geo:
-    latitude: 31.3085444
-    longitude: 30.8039474
-    min_latitude: 30.9942465
-    min_longitude: 30.3653976
-    max_latitude: 31.6016217
-    max_longitude: 31.3122298
-  name: Kafr ash Shaykh
-KN:
+    lv: Kefr eš Šeihas muhāfaza
+    ceb: Kafr ash Shaykh
+    sr_Latn: Kafr eš Šejh
+    zh: 謝赫村省
+    ccp: "\U00011107\U0001111B\U00011134\U00011122 \U00011103\U0001112C\U00011123\U00011134-\U00011125\U0001112C\U00011107\U00011134"
+    he: מחוז כפר א שיח׳
+    bs: Kafr el-Sheikh
+  comments: 
+KN: 
+  name: Qina
+  code: 
   unofficial_names:
   - Qina
   - Qinā
+  geo:
+    latitude: 26.155061
+    longitude: 32.7160121
+    min_latitude: 26.1320478
+    min_longitude: 32.6828284
+    max_latitude: 26.2104418
+    max_longitude: 32.7601361
   translations:
     en: Qena
     ar: محافظة قنا
@@ -954,20 +1098,28 @@ KN:
     uk: Кена
     ur: محافظہ قنا
     vi: Tỉnh Qena
-  geo:
-    latitude: 26.155061
-    longitude: 32.7160121
-    min_latitude: 26.1320478
-    min_longitude: 32.6828284
-    max_latitude: 26.2104418
-    max_longitude: 32.7601361
-  name: Qina
-LX:
+    lv: Kinas muhāfaza
+    sr_Latn: Kena
+    zh: 基納省
+    ccp: "\U00011107\U0001112A\U00011120\U0001112C\U0001111A"
+    he: מחוז קינא
+    bs: Qena
+  comments: 
+LX: 
+  name: al-Uqsur
+  code: 
   unofficial_names:
   - al-Uqsur
   - al-Uqşur
   - Luxor
   - Louxor
+  geo:
+    latitude: 25.6872431
+    longitude: 32.6396357
+    min_latitude: 25.6540777
+    min_longitude: 32.6225071
+    max_latitude: 25.7358046
+    max_longitude: 32.6964268
   translations:
     en: Luxor
     ar: محافظة الأقصر
@@ -1001,20 +1153,28 @@ LX:
     tr: Luksor
     uk: Луксор
     ur: محافظہ الاقصر
-  geo:
-    latitude: 25.6872431
-    longitude: 32.6396357
-    min_latitude: 25.6540777
-    min_longitude: 32.6225071
-    max_latitude: 25.7358046
-    max_longitude: 32.6964268
-  name: al-Uqsur
-MN:
+    sr_Latn: Luksor
+    zh: 盧克索省
+    ccp: "\U00011123\U00011107\U00011134\U0001110E\U0001112E\U00011122\U00011134"
+    hy: Լուքսոր
+    he: מחוז לוקסור
+    bs: Luxor
+  comments: 
+MN: 
+  name: Al Minya
+  code: 
   unofficial_names:
   - El Minya
   - Minia
   - al-Minya
   - al-Minyā
+  geo:
+    latitude: 28.0870967
+    longitude: 30.7618397
+    min_latitude: 28.058606
+    min_longitude: 30.7170696
+    max_latitude: 28.1318404
+    max_longitude: 30.7843728
   translations:
     en: Minya
     ar: المنيا
@@ -1060,20 +1220,28 @@ MN:
     uk: Мінья (губернаторство)
     ur: محافظہ منیا
     vi: Tỉnh Minya
-  geo:
-    latitude: 28.0870967
-    longitude: 30.7618397
-    min_latitude: 28.058606
-    min_longitude: 30.7170696
-    max_latitude: 28.1318404
-    max_longitude: 30.7843728
-  name: Al Minya
-MNF:
+    lv: Minjas muhāfaza
+    sr_Latn: Minja
+    zh: 明亞省
+    ccp: "\U0001111F\U00011128\U0001111A\U00011128\U00011120"
+    ky: Минья
+    bs: Minya
+  comments: 
+MNF: 
+  name: Al Minufiyah
+  code: 
   unofficial_names:
   - El Minufiya
   - Menufiya
   - al-Minufiyah
   - al-Minūfīyah
+  geo:
+    latitude: 30.5972455
+    longitude: 30.9876321
+    min_latitude: 30.1829009
+    min_longitude: 30.4745556
+    max_latitude: 30.7480879
+    max_longitude: 31.2559327
   translations:
     en: Monufia
     ar: محافظة المنوفية
@@ -1117,18 +1285,27 @@ MNF:
     uk: Мінуфія
     ur: محافظہ منوفیہ
     vi: Tỉnh Monufia
-  geo:
-    latitude: 30.5972455
-    longitude: 30.9876321
-    min_latitude: 30.1829009
-    min_longitude: 30.4745556
-    max_latitude: 30.7480879
-    max_longitude: 31.2559327
-  name: Al Minufiyah
-MT:
+    lv: Minūfījas muhāfaza
+    sr_Latn: Minufija
+    zh: 米努夫省
+    ccp: "\U0001111F\U00011127\U0001111A\U0001112A\U0001111C\U00011128\U00011120"
+    hy: Մինուֆիա
+    be: Мінуфія
+    bs: Monufia
+  comments: 
+MT: 
+  name: Matrūh
+  code: 
   unofficial_names:
   - Matrah
   - Matrūh
+  geo:
+    latitude: 31.3543445
+    longitude: 27.2373159
+    min_latitude: 31.2970958
+    min_longitude: 27.156232
+    max_latitude: 31.3761768
+    max_longitude: 27.3544331
   translations:
     en: Matrouh
     ar: محافظة مطروح
@@ -1172,18 +1349,28 @@ MT:
     uk: Матрух
     ur: محافظہ مطروح
     vi: Tỉnh Matrouh
-  geo:
-    latitude: 31.3543445
-    longitude: 27.2373159
-    min_latitude: 31.2970958
-    min_longitude: 27.156232
-    max_latitude: 31.3761768
-    max_longitude: 27.3544331
-  name: Matrūh
-PTS:
+    lv: Matrūhas muhāfaza
+    sr_Latn: Matruh
+    zh: 馬特魯省
+    ccp: "\U0001111F\U00011116\U00011133\U00011122\U0001112E\U00011126\U00011134"
+    he: מחוז מטרוח
+    ml: മത്രോഹ് ഗവർണ്ണറേറ്റ്
+    bs: Matrouh
+    mk: Матрух
+  comments: 
+PTS: 
+  name: Būr Sa`īd
+  code: 
   unofficial_names:
   - Bur Said
   - Būr Saʿīd
+  geo:
+    latitude: 31.2652893
+    longitude: 32.3018661
+    min_latitude: 31.1988856
+    min_longitude: 32.2490287
+    max_latitude: 31.2784705
+    max_longitude: 32.3213102
   translations:
     en: Port Said
     ar: بورسعيد
@@ -1226,21 +1413,29 @@ PTS:
     uk: Порт-Саїд
     ur: محافظہ پورٹ سعید
     vi: Tỉnh Port Said
-  geo:
-    latitude: 31.2652893
-    longitude: 32.3018661
-    min_latitude: 31.1988856
-    min_longitude: 32.2490287
-    max_latitude: 31.2784705
-    max_longitude: 32.3213102
-  name: Būr Sa`īd
-SHG:
+    lv: Portsaīdas muhāfaza
+    sr_Latn: Port Said
+    zh: 塞得港省
+    ccp: "\U0001111B\U00011127\U00011122\U00011133\U00011111\U00011134 \U00011125\U0001112C\U00011103\U00011128\U00011116\U00011134"
+    he: מחוז פורט סעיד
+    bs: Port Said
+  comments: 
+SHG: 
+  name: Suhaj
+  code: 
   unofficial_names:
   - Sawhaj
   - Suhag
   - Suhaj
   - Sūhaj
   - Sawhāj
+  geo:
+    latitude: 26.501348
+    longitude: 31.76513619999999
+    min_latitude: 26.1518194
+    min_longitude: 31.3415418
+    max_latitude: 26.9343956
+    max_longitude: 32.1707085
   translations:
     en: Sohag
     ar: محافظة سوهاج
@@ -1285,18 +1480,26 @@ SHG:
     uk: Согаґ
     ur: محافظہ سوہاج
     vi: Tỉnh Sohag
-  geo:
-    latitude: 26.501348
-    longitude: 31.76513619999999
-    min_latitude: 26.1518194
-    min_longitude: 31.3415418
-    max_latitude: 26.9343956
-    max_longitude: 32.1707085
-  name: Suhaj
-SHR:
+    lv: Sauhāgas muhāfaza
+    sr_Latn: Sohag
+    zh: 索哈傑省
+    ccp: "\U00011125\U0001112E\U00011126\U00011107\U00011134"
+    he: מחוז סוהאג
+    bs: Sohag
+  comments: 
+SHR: 
+  name: Ash Sharqiyah
+  code: 
   unofficial_names:
   - ash-Sharqiyah
   - aš-Šarqīyah
+  geo:
+    latitude: 30.7326622
+    longitude: 31.7195459
+    min_latitude: 30.2886886
+    min_longitude: 31.2607672
+    max_latitude: 31.168795
+    max_longitude: 32.1782565
   translations:
     en: Al Sharqia
     ar: الشرقية
@@ -1340,20 +1543,28 @@ SHR:
     uk: Шаркія
     ur: محافظہ الشرقیہ
     vi: Tỉnh Al Sharqia
-  geo:
-    latitude: 30.7326622
-    longitude: 31.7195459
-    min_latitude: 30.2886886
-    min_longitude: 31.2607672
-    max_latitude: 31.168795
-    max_longitude: 32.1782565
-  name: Ash Sharqiyah
-SIN:
+    lv: Šerkījas muhāfaza
+    sr_Latn: Šarkija
+    zh: 東部省
+    ccp: "\U00011103\U00011123\U00011134 \U00011125\U00011122\U00011134\U00011107\U0001112D\U0001112A\U00011120"
+    hy: Շարկիա
+    bs: Sharqia
+  comments: 
+SIN: 
+  name: Shamal Sina'
+  code: 
   unofficial_names:
   - Shamal Sina
   - Sina aš-Šamālīyah
   - Sinai ash-Shamaliyah
   - Šamāl Sīna
+  geo:
+    latitude: 30.6084723
+    longitude: 33.617577
+    min_latitude: 29.5932723
+    min_longitude: 32.554564
+    max_latitude: 31.3314092
+    max_longitude: 34.8774622
   translations:
     en: North Sinai
     ar: شمال سيناء
@@ -1399,18 +1610,27 @@ SIN:
     uk: Північний Синай
     ur: محافظہ شمالی سینا
     vi: Tỉnh Bắc Sinai
-  geo:
-    latitude: 30.6084723
-    longitude: 33.617577
-    min_latitude: 29.5932723
-    min_longitude: 32.554564
-    max_latitude: 31.3314092
-    max_longitude: 34.8774622
-  name: Shamal Sina'
-SUZ:
+    lv: Ziemeļu Sinajas muhāfaza
+    sr_Latn: Severni Sinaj
+    zh: 北西奈省
+    ccp: "\U00011103\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011125\U00011128\U0001111A\U0001112D"
+    bs: Sjeverni Sinaj
+    mk: Северен Синај
+  comments: 
+SUZ: 
+  name: As Suways
+  code: 
   unofficial_names:
   - El Suweiz
   - as-Suways
+  geo:
+    latitude: 29.9668343
+    longitude: 32.5498069
+    min_latitude: 29.9329452
+    min_longitude: 32.4374941
+    max_latitude: 30.0211813
+    max_longitude: 32.5854957
   translations:
     en: Suez
     ar: السويس
@@ -1453,18 +1673,27 @@ SUZ:
     uk: Суец
     ur: محافظہ سوئیز
     vi: Tỉnh Suez
-  geo:
-    latitude: 29.9668343
-    longitude: 32.5498069
-    min_latitude: 29.9329452
-    min_longitude: 32.4374941
-    max_latitude: 30.0211813
-    max_longitude: 32.5854957
-  name: As Suways
-WAD:
+    lv: Suecas muhāfaza
+    ceb: As Suways
+    sr_Latn: Suec
+    zh: 蘇伊士省
+    ccp: "\U00011125\U0001112A\U00011120\U0001112C\U0001110C\U00011134"
+    hy: Սուեզ
+    bs: Suez
+  comments: 
+WAD: 
+  name: Al Wadi al Jadid
+  code: 
   unofficial_names:
   - El Wadi el Jadid
   - El Wadi el Jedid
+  geo:
+    latitude: 24.5455638
+    longitude: 27.1735316
+    min_latitude: 21.9915523
+    min_longitude: 25.0003101
+    max_latitude: 27.6966292
+    max_longitude: 32.9224299
   translations:
     en: New Valley
     ar: محافظة الوادي الجديد
@@ -1509,11 +1738,11 @@ WAD:
     uk: Нова Долина
     ur: محافظہ وادی جدید
     vi: Tỉnh New Valley
-  geo:
-    latitude: 24.5455638
-    longitude: 27.1735316
-    min_latitude: 21.9915523
-    min_longitude: 25.0003101
-    max_latitude: 27.6966292
-    max_longitude: 32.9224299
-  name: Al Wadi al Jadid
+    lv: Vādīelgedīdas muhāfaza
+    sr_Latn: Nova Dolina
+    zh: 新河谷省
+    ccp: "\U0001111A\U00011131 \U0001111E\U0001112C\U00011123\U00011128"
+    he: מחוז אל-ואדי אל-ג׳דיד
+    hr: Al Wadi al Jadid
+    bs: Nova Dolina
+  comments: 

@@ -1,7 +1,16 @@
 ---
-AR:
+AR: 
+  name: Artibonite
+  code: 
   unofficial_names:
   - LʿArtibonite
+  geo:
+    latitude: 19.362902
+    longitude: -72.4258145
+    min_latitude: 18.8393919
+    min_longitude: -73.1348189
+    max_latitude: 19.81222
+    max_longitude: -72.18431079999999
   translations:
     en: Artibonite
     ar: إدارة أرتيبونيت
@@ -38,16 +47,23 @@ AR:
     ur: آرتیبونیتے محکمہ
     vi: Artibonite
     zh: 阿蒂博尼特省
-  geo:
-    latitude: 19.362902
-    longitude: -72.4258145
-    min_latitude: 18.8393919
-    min_longitude: -73.1348189
-    max_latitude: 19.81222
-    max_longitude: -72.18431079999999
-  name: Artibonite
-CE:
+    lv: Artibonita
+    ceb: Département de l’Artibonite
+    lt: Artibonitas
+    ccp: "\U00011103\U00011122\U00011134\U00011111\U00011128\U0001111D\U0001112E\U0001111A\U0001112D\U00011116\U00011134"
+    ca: Artibonite
+  comments: 
+CE: 
+  name: Centre
+  code: 
   unofficial_names: Centre
+  geo:
+    latitude: 18.9582742
+    longitude: -72.0468164
+    min_latitude: 18.6777091
+    min_longitude: -72.349538
+    max_latitude: 19.327567
+    max_longitude: -71.61335799999999
   translations:
     en: Centre
     ar: الإدارة الوسطى
@@ -82,17 +98,27 @@ CE:
     tr: Centre
     ur: سانت محکمہ
     vi: Centre
-  geo:
-    latitude: 18.9582742
-    longitude: -72.0468164
-    min_latitude: 18.6777091
-    min_longitude: -72.349538
-    max_latitude: 19.327567
-    max_longitude: -71.61335799999999
-  name: Centre
-GA:
+    lv: Centrs
+    ceb: Centre
+    lt: Centras
+    zh: 中央省
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+    uk: Центральний департамент Гаїті
+    ca: Centre
+    bs: Centre
+  comments: 
+GA: 
+  name: Grande-Anse
+  code: 
   unofficial_names:
   - Grande Anse
+  geo:
+    latitude: 18.5489259
+    longitude: -74.07701
+    min_latitude: 18.357681
+    min_longitude: -74.4768955
+    max_latitude: 18.6759873
+    max_longitude: -73.69869899999999
   translations:
     en: Grand’Anse
     ar: إدارة آنس الكبرى
@@ -127,16 +153,26 @@ GA:
     tr: Grand’Anse
     ur: گراند آنسے محکمہ
     vi: Grand’Anse
-  geo:
-    latitude: 18.5489259
-    longitude: -74.07701
-    min_latitude: 18.357681
-    min_longitude: -74.4768955
-    max_latitude: 18.6759873
-    max_longitude: -73.69869899999999
-  name: Grande-Anse
-ND:
+    lv: Granansa
+    ceb: Grandans
+    lt: Grand Ansė
+    zh: 大灣省
+    bn: গ্রান্ড’আন্সে
+    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134‘\U00011103\U0001111A\U00011134\U00011125\U0001112C"
+    uk: Регіон Гранд-Анс
+    ca: Grand’Anse
+  comments: 
+ND: 
+  name: Nord
+  code: 
   unofficial_names: Nord
+  geo:
+    latitude: 19.5687715
+    longitude: -72.189
+    min_latitude: 19.2473899
+    min_longitude: -72.6788249
+    max_latitude: 19.8828792
+    max_longitude: -71.96107099999999
   translations:
     en: Nord
     ar: الإدارة الشمالية
@@ -171,16 +207,25 @@ ND:
     tr: Nord
     ur: شمالی محکمہ
     vi: Nord
-  geo:
-    latitude: 19.5687715
-    longitude: -72.189
-    min_latitude: 19.2473899
-    min_longitude: -72.6788249
-    max_latitude: 19.8828792
-    max_longitude: -71.96107099999999
-  name: Nord
-NE:
+    lv: Ziemeļi
+    ceb: Nord
+    lt: Nordas
+    zh: 北部省
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134"
+    uk: Північний департамент Гаїті
+    ca: Nord
+  comments: 
+NE: 
+  name: Nord-Est
+  code: 
   unofficial_names: Nord-Est
+  geo:
+    latitude: 19.4889723
+    longitude: -71.8571331
+    min_latitude: 19.2588809
+    min_longitude: -72.11789
+    max_latitude: 19.7289295
+    max_longitude: -71.675034
   translations:
     en: Nord-Est
     ar: الإدارة الشمال شرقية
@@ -215,16 +260,25 @@ NE:
     tr: Nord-Est
     ur: شمالی-مشرقی محکمہ
     vi: Nord-Est
-  geo:
-    latitude: 19.4889723
-    longitude: -71.8571331
-    min_latitude: 19.2588809
-    min_longitude: -72.11789
-    max_latitude: 19.7289295
-    max_longitude: -71.675034
-  name: Nord-Est
-'NO':
+    lv: Ziemeļaustrumi
+    ceb: Département du Nord-Est
+    lt: Nord-Estas
+    zh: 东北省
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
+    uk: Північно-Східний департамент Гаїті
+    ca: Nord-Est
+  comments: 
+'NO': 
+  name: Nord-Ouest
+  code: 
   unofficial_names: Nord-Ouest
+  geo:
+    latitude: 19.8374009
+    longitude: -73.0405277
+    min_latitude: 19.625431
+    min_longitude: -73.451469
+    max_latitude: 20.0877688
+    max_longitude: -72.565755
   translations:
     en: Nord-Ouest
     ar: الإدارة الشمال غربية
@@ -259,16 +313,25 @@ NE:
     tr: Nord-Ouest
     ur: شمالی-مغربی محکمہ
     vi: Nord-Ouest
-  geo:
-    latitude: 19.8374009
-    longitude: -73.0405277
-    min_latitude: 19.625431
-    min_longitude: -73.451469
-    max_latitude: 20.0877688
-    max_longitude: -72.565755
-  name: Nord-Ouest
-OU:
+    lv: Ziemeļrietumi
+    ceb: Nord-Ouest (departamento sa Haiti)
+    lt: Nord Vestas
+    zh: 西北省
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011128-\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    uk: Північно-Західний регіон Гаїті
+    ca: Nord-Ouest
+  comments: 
+OU: 
+  name: Ouest
+  code: 
   unofficial_names: Ouest
+  geo:
+    latitude: 18.4957015
+    longitude: -72.4731529
+    min_latitude: 18.2460119
+    min_longitude: -73.299515
+    max_latitude: 18.9696918
+    max_longitude: -71.6928559
   translations:
     en: Ouest
     ar: الإدارة الغربية
@@ -305,16 +368,24 @@ OU:
     uk: Західний департамент
     ur: مغربی محکمہ
     vi: Ouest
-  geo:
-    latitude: 18.4957015
-    longitude: -72.4731529
-    min_latitude: 18.2460119
-    min_longitude: -73.299515
-    max_latitude: 18.9696918
-    max_longitude: -71.6928559
-  name: Ouest
-SD:
+    lv: Rietumi
+    ceb: Département de l’Ouest
+    lt: Vestas
+    zh: 西部省
+    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ca: Ouest
+  comments: 
+SD: 
+  name: Sud
+  code: 
   unofficial_names: Sud
+  geo:
+    latitude: 18.3320005
+    longitude: -73.7007088
+    min_latitude: 18.0220783
+    min_longitude: -74.446304
+    max_latitude: 18.423093
+    max_longitude: -72.9886701
   translations:
     en: Sud
     ar: الإدارة الجنوبية
@@ -350,16 +421,24 @@ SD:
     uk: Південний департамент
     ur: جنوبی محکمہ
     vi: Sud
-  geo:
-    latitude: 18.3320005
-    longitude: -73.7007088
-    min_latitude: 18.0220783
-    min_longitude: -74.446304
-    max_latitude: 18.423093
-    max_longitude: -72.9886701
-  name: Sud
-SE:
+    lv: Dienvidi
+    ceb: Sud (departamento sa Haiti)
+    lt: Sudas
+    zh: 南部省
+    ccp: "\U00011125\U00011116\U00011134"
+    ca: Sud
+  comments: 
+SE: 
+  name: Sud-Est
+  code: 
   unofficial_names: Sud-Est
+  geo:
+    latitude: 18.2783598
+    longitude: -72.35479149999999
+    min_latitude: 18.0301479
+    min_longitude: -73.01316489999999
+    max_latitude: 18.384912
+    max_longitude: -71.7241439
   translations:
     en: Sud-Est
     ar: الإدارة الجنوب شرقية
@@ -394,15 +473,25 @@ SE:
     tr: Sud-Est
     ur: جنوبی-مشرقی محکمہ
     vi: Sud-Est
+    lv: Dienvidaustrumi
+    ceb: Sud-Est
+    lt: Sed Estas
+    zh: 東南省
+    ccp: "\U00011125\U00011116\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
+    uk: Південно-Східний департамент Гаїті
+    ca: Sud-Est
+  comments: 
+NI: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 18.2783598
-    longitude: -72.35479149999999
-    min_latitude: 18.0301479
-    min_longitude: -73.01316489999999
-    max_latitude: 18.384912
-    max_longitude: -71.7241439
-  name: Sud-Est
-NI:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: إدارة نيبيس
     bn: নিপেস
@@ -437,3 +526,11 @@ NI:
     tr: Nippes
     ur: نیپ محکمہ
     vi: Nippes
+    lv: Nipesa
+    ceb: Département de Nippes
+    lt: Nipesas
+    zh: 尼普斯省
+    ccp: "\U0001111A\U00011128\U0001111B\U0001112C\U0001110C\U00011134"
+    uk: Ніп
+    ca: Nippes
+  comments: 

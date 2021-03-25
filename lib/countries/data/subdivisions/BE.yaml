@@ -1,11 +1,20 @@
 ---
-BRU:
+BRU: 
+  name: Brussels
+  code: 
   unofficial_names:
   - Brussels Hoofdstedelijk Gewest
   - Région de Bruxelles-Capitale
   - Brussel
   - Brüssel
   - Bruxelles
+  geo:
+    latitude: 50.8503396
+    longitude: 4.3517103
+    min_latitude: 50.7962401
+    min_longitude: 4.3138
+    max_latitude: 50.91370999999999
+    max_longitude: 4.4369799
   translations:
     en: Brussels
     af: Brusselse Hoofstedelike Gewes
@@ -68,18 +77,35 @@ BRU:
     ur: برسلز
     vi: Bruxelles
     zh: 布魯塞爾首都大區市鎮
-  geo:
-    latitude: 50.8503396
-    longitude: 4.3517103
-    min_latitude: 50.7962401
-    min_longitude: 4.3138
-    max_latitude: 50.91370999999999
-    max_longitude: 4.4369799
-  name: Brussels
-VAN:
+    cy: Rhanbarth Brwsel-Prifddinas
+    ceb: Bruxelles-Capitale
+    sr_Latn: Region glavnog grada Brisela
+    yue_Hans: 布鲁塞尔首都区
+    sq: Brukseli
+    ccp: "\U0001111D\U00011133\U00011122\U00011125\U0001112C\U00011123\U00011134\U00011125\U00011134"
+    ga: An Bhruiséil
+    pa: ਬਰੂਸਲ
+    kk: Брюссель
+    yue: 布魯塞爾首都區
+    my: ဘရပ်ဆဲလ်မြို့
+    yo: Brussels
+    uz: Brussel Poytaxt Regioni
+    bs: Regija glavnog grada Bruxellesa
+    mk: Брисел
+  comments: 
+VAN: 
+  name: Antwerpen (nl)
+  code: 
   unofficial_names:
   - Antwerpen
   - Anvers
+  geo:
+    latitude: 51.2194475
+    longitude: 4.4024643
+    min_latitude: 51.14333999999999
+    min_longitude: 4.217600099999999
+    max_latitude: 51.3774301
+    max_longitude: 4.49784
   translations:
     en: Antwerp
     af: Antwerpen
@@ -132,20 +158,29 @@ VAN:
     uk: Антверпен
     ur: اینٹورپ
     vi: Antwerp
-  geo:
-    latitude: 51.2194475
-    longitude: 4.4024643
-    min_latitude: 51.14333999999999
-    min_longitude: 4.217600099999999
-    max_latitude: 51.3774301
-    max_longitude: 4.49784
-  name: Antwerpen (nl)
-VBR:
+    cy: Antwerp
+    ceb: Provincie Antwerpen
+    sr_Latn: Provincija Antverpen
+    zh: 安特衛普省
+    ccp: "\U00011103\U0001111A\U00011133\U00011111\U00011134\U00011103\U0001112E\U00011120\U0001112C\U00011122\U00011134\U0001111B\U00011134"
+    bs: Antwerpen
+    mk: Антверпен
+  comments: 
+VBR: 
+  name: Vlaams Brabant (nl)
+  code: 
   unofficial_names:
   - Brabant-Vlanderen
   - Vlaams-Brabant
   - Flämisch Brabant
   - Brabant-Flamand
+  geo:
+    latitude: 51.3663862
+    longitude: 5.615708800000001
+    min_latitude: 51.3563098
+    min_longitude: 5.6001346
+    max_latitude: 51.378742
+    max_longitude: 5.625843
   translations:
     en: Flemish Brabant
     af: Vlaams-Brabant
@@ -197,17 +232,28 @@ VBR:
     uk: Фламандський Брабант
     ur: فلیمش برابنٹ
     vi: Vlaams-Brabant
-  geo:
-    latitude: 51.3663862
-    longitude: 5.615708800000001
-    min_latitude: 51.3563098
-    min_longitude: 5.6001346
-    max_latitude: 51.378742
-    max_longitude: 5.625843
-  name: Vlaams Brabant (nl)
-VLI:
+    cy: Brabant Fflandrysaidd
+    ceb: Provincie Vlaams-Brabant
+    sr_Latn: Flamanski Brabant
+    zh: 弗拉芒-布拉班特省
+    ccp: "\U0001111C\U00011133\U00011123\U0001112C\U0001111F\U00011128\U0001110C\U00011134
+      \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011133\U00011111\U00011134"
+    he: ברבנט הפלמית
+    bs: Flamanski Brabant
+    mk: Фламански Брабант
+  comments: 
+VLI: 
+  name: Limburg (nl)
+  code: 
   unofficial_names:
   - Limbourg
+  geo:
+    latitude: 51.4427238
+    longitude: 6.0608726
+    min_latitude: 50.75038379999999
+    min_longitude: 5.5660666
+    max_latitude: 51.778577
+    max_longitude: 6.226801399999999
   translations:
     en: Limburg
     af: Limburg, België
@@ -260,20 +306,30 @@ VLI:
     uk: Лімбург
     ur: لمبرگ
     vi: Limburg
-  geo:
-    latitude: 51.4427238
-    longitude: 6.0608726
-    min_latitude: 50.75038379999999
-    min_longitude: 5.5660666
-    max_latitude: 51.778577
-    max_longitude: 6.226801399999999
-  name: Limburg (nl)
-VOV:
+    cy: Limburg
+    ceb: Provincie Limburg (lalawigan)
+    sr_Latn: Provincija Limburg
+    zh: 林堡省
+    jv: Limburg
+    ccp: "\U00011123\U00011128\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    he: לימבורג (בלגיה)
+    mk: Лимбург
+  comments: 
+VOV: 
+  name: Oost-Vlaanderen (nl)
+  code: 
   unofficial_names:
   - Oos-Vlanderen
   - Oost-Vlaanderen
   - Ost-Flandern
   - Flandre-Orientale
+  geo:
+    latitude: 51.0362101
+    longitude: 3.7373124
+    min_latitude: 50.72094999999999
+    min_longitude: 3.3312501
+    max_latitude: 51.35284
+    max_longitude: 4.3301
   translations:
     en: East Flanders
     af: Oos-Vlaandere
@@ -326,20 +382,29 @@ VOV:
     uk: Східна Фландрія
     ur: مشرقی فلانڈرز
     vi: Oost-Vlaanderen
-  geo:
-    latitude: 51.0362101
-    longitude: 3.7373124
-    min_latitude: 50.72094999999999
-    min_longitude: 3.3312501
-    max_latitude: 51.35284
-    max_longitude: 4.3301
-  name: Oost-Vlaanderen (nl)
-VWV:
+    cy: Dwyrain Fflandrys
+    ceb: Provincie Oost-Vlaanderen
+    sr_Latn: Istočna Flandrija
+    zh: 东弗兰德省
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    az: Şərqi Flandiriya
+    mk: Источна Фландрија
+  comments: 
+VWV: 
+  name: West-Vlaanderen (nl)
+  code: 
   unofficial_names:
   - Wes-Vlanderen
   - West-Vlaanderen
   - West-Flandern
   - Flandre-Occidentale
+  geo:
+    latitude: 51.0536024
+    longitude: 3.1457942
+    min_latitude: 50.7081601
+    min_longitude: 2.5449401
+    max_latitude: 51.3685479
+    max_longitude: 3.5232999
   translations:
     en: West Flanders
     af: Wes-Vlaandere
@@ -393,19 +458,28 @@ VWV:
     uk: Західна Фландрія
     ur: مغربی فلانڈرز
     vi: West-Vlaanderen
-  geo:
-    latitude: 51.0536024
-    longitude: 3.1457942
-    min_latitude: 50.7081601
-    min_longitude: 2.5449401
-    max_latitude: 51.3685479
-    max_longitude: 3.5232999
-  name: West-Vlaanderen (nl)
-WBR:
+    cy: Gorllewin Fflandrys
+    ceb: Provincie West-Vlaanderen
+    sr_Latn: Zapadna Flandrija
+    zh: 西弗兰德省
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    az: Qərbi Flandiriya
+    mk: Западна Фландрија
+  comments: 
+WBR: 
+  name: Brabant Wallon (fr)
+  code: 
   unofficial_names:
   - Waals-Brabant
   - Wallonisch Brabant
   - Walloon Brabant
+  geo:
+    latitude: 50.633241
+    longitude: 4.524315
+    min_latitude: 50.52542
+    min_longitude: 4.0911501
+    max_latitude: 50.80735
+    max_longitude: 5.02037
   translations:
     en: Walloon Brabant
     af: Waals-Brabant
@@ -459,18 +533,27 @@ WBR:
     uk: Валлонський Брабант
     ur: والون برابنٹ
     vi: Walloon Brabant
-  geo:
-    latitude: 50.633241
-    longitude: 4.524315
-    min_latitude: 50.52542
-    min_longitude: 4.0911501
-    max_latitude: 50.80735
-    max_longitude: 5.02037
-  name: Brabant Wallon (fr)
-WHT:
+    cy: Brabant Walonaidd
+    ceb: Province du Brabant Wallon
+    sr_Latn: Valonski Brabant
+    zh: 瓦隆-布拉班特省
+    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112A\U0001111A\U00011134 \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011133\U00011111\U00011134"
+    he: ברבנט הוולונית
+    az: Vallonskiy Brabant
+  comments: 
+WHT: 
+  name: Hainaut (fr)
+  code: 
   unofficial_names:
   - Henegouwen
   - Hennegau
+  geo:
+    latitude: 50.5257076
+    longitude: 4.062101699999999
+    min_latitude: 49.94183
+    min_longitude: 2.8421299
+    max_latitude: 50.81077
+    max_longitude: 4.6171299
   translations:
     en: Hainaut
     af: Hainaut
@@ -524,18 +607,27 @@ WHT:
     uk: Ено
     ur: ہائنو
     vi: Hainaut
-  geo:
-    latitude: 50.5257076
-    longitude: 4.062101699999999
-    min_latitude: 49.94183
-    min_longitude: 2.8421299
-    max_latitude: 50.81077
-    max_longitude: 4.6171299
-  name: Hainaut (fr)
-WLG:
+    cy: Hainaut
+    ceb: Province du Hainaut
+    sr_Latn: Provincija Eno
+    zh: 埃諾省
+    ccp: "\U00011126\U0001112D\U0001111A\U00011105\U0001112A\U00011116\U00011134"
+    az: Eno
+    mk: Ено
+  comments: 
+WLG: 
+  name: Liège (fr)
+  code: 
   unofficial_names:
   - Luik
   - Lüttich
+  geo:
+    latitude: 50.6325574
+    longitude: 5.5796662
+    min_latitude: 50.56109010000001
+    min_longitude: 5.5230701
+    max_latitude: 50.68819
+    max_longitude: 5.675110099999999
   translations:
     en: Liège
     af: Luik
@@ -589,18 +681,27 @@ WLG:
     uk: Льєж
     ur: لییج
     vi: Liège
-  geo:
-    latitude: 50.6325574
-    longitude: 5.5796662
-    min_latitude: 50.56109010000001
-    min_longitude: 5.5230701
-    max_latitude: 50.68819
-    max_longitude: 5.675110099999999
-  name: Liège (fr)
-WLX:
+    cy: Liège
+    ceb: Province de Liège
+    sr_Latn: Provincija Lijež
+    zh: 列日省
+    ccp: "\U00011123\U0001112D\U0001110E\U0001112C"
+    az: Lej
+    mk: Лиеж
+  comments: 
+WLX: 
+  name: Luxembourg (fr)
+  code: 
   unofficial_names:
   - Luxembourg
   - Luxemburg
+  geo:
+    latitude: 50.0546886
+    longitude: 5.467698299999999
+    min_latitude: 49.49701
+    min_longitude: 4.9683901
+    max_latitude: 50.4306101
+    max_longitude: 6.034400000000001
   translations:
     en: Luxembourg
     af: Luxemburg
@@ -654,17 +755,25 @@ WLX:
     uk: Люксембург
     ur: لکسمبرگ
     vi: Luxembourg
-  geo:
-    latitude: 50.0546886
-    longitude: 5.467698299999999
-    min_latitude: 49.49701
-    min_longitude: 4.9683901
-    max_latitude: 50.4306101
-    max_longitude: 6.034400000000001
-  name: Luxembourg (fr)
-WNA:
+    cy: Luxembourg
+    ceb: Province du Luxembourg
+    sr_Latn: Provincija Luksemburg
+    zh: 盧森堡省
+    ccp: "\U00011123\U0001112A\U00011107\U00011134\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    mk: Луксембург
+  comments: 
+WNA: 
+  name: Namur (fr)
+  code: 
   unofficial_names:
   - Namen
+  geo:
+    latitude: 50.4673883
+    longitude: 4.8719854
+    min_latitude: 50.38738
+    min_longitude: 4.7229
+    max_latitude: 50.5312201
+    max_longitude: 4.98398
   translations:
     en: Namur
     af: Namur
@@ -716,15 +825,24 @@ WNA:
     uk: Намюр
     ur: نامور
     vi: Namur
+    cy: Namur
+    ceb: Province de Namur
+    sr_Latn: Provincija Namir
+    zh: 那慕爾省
+    ccp: "\U0001111A\U0001111F\U0001112A\U00011122\U00011134"
+    az: Namyur
+  comments: 
+WAL: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 50.4673883
-    longitude: 4.8719854
-    min_latitude: 50.38738
-    min_longitude: 4.7229
-    max_latitude: 50.5312201
-    max_longitude: 4.98398
-  name: Namur (fr)
-WAL:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Wallonië
     ar: والونيا
@@ -775,7 +893,29 @@ WAL:
     uk: Валлонія
     ur: والونیا
     vi: Wallonie
-VLG:
+    cy: Walonia
+    ceb: Wallonia
+    sr_Latn: Valonija
+    zh: 瓦隆
+    yue_Hans: 华隆
+    hi: वालोनिया
+    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112E\U0001111A\U00011128\U00011120"
+    ga: An Vallóin
+    yue: 華隆
+    bs: Valonija
+    mk: Валонија
+  comments: 
+VLG: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الإقليم الفلامندي
     be: Фламандскі рэгіён
@@ -804,3 +944,39 @@ VLG:
     uk: Фламандській регіон
     ur: فلیمش علاقہ
     vi: Vùng Flemish
+    lv: Flandrija
+    mr: फ्लांडर्स
+    cy: Fflandrys
+    af: Vlaandere
+    ceb: Flanders
+    ms: Flanders
+    sr_Latn: Flandrija
+    ta: பிலான்டர்ஸ்
+    zh: 弗拉芒大區
+    fa: منطقه فلمیش
+    sw: Flandria
+    yue_Hans: 法兰德斯
+    sv: Flandern
+    ccp: "\U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    sr: Фландрија
+    ga: Flóndras
+    gl: Flandres - Vlaanderen
+    da: Flandern
+    fi: Flanderi
+    hu: Flandria
+    is: Flæmingjaland
+    id: Flandria
+    ro: Flandra
+    he: פלנדריה
+    hr: Flandrija
+    eu: Flandria
+    pt: Flandres
+    sl: Flanders
+    kk: Фландрия
+    yue: 法蘭德斯
+    az: Flandriya
+    nb: Flandern
+    bs: Flandrija
+    mk: Фламански регион
+    ne: फ्लेमिस क्षेत्र
+  comments: 

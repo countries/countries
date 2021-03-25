@@ -1,6 +1,15 @@
 ---
-AJ:
+AJ: 
+  name: "'Ajmān"
+  code: 
   unofficial_names: "-إمارة عجمانّ - Ujman"
+  geo:
+    latitude: 25.3995
+    longitude: 55.4796
+    min_latitude: 25.3488018
+    min_longitude: 55.4239777
+    max_latitude: 25.450004
+    max_longitude: 55.6371712
   translations:
     en: Ajman
     ar: عجمان
@@ -53,16 +62,19 @@ AJ:
     ur: عجمان
     vi: Ajman
     zh: 阿吉曼
-  geo:
-    latitude: 25.3995
-    longitude: 55.4796
-    min_latitude: 25.3488018
-    min_longitude: 55.4239777
-    max_latitude: 25.450004
-    max_longitude: 55.6371712
-  name: "'Ajmān"
+    ceb: "‘Ajmān"
+    sr_Latn: Adžman
+    sw: Ajmān
+    yue_Hans: 阿治曼酋长国
+    ccp: "\U00011103\U0001110C\U00011134\U0001111F\U0001111A\U00011134"
+    pa: ਅਜਮਾਨ
+    kk: Аджман
+    yue: 阿治曼酋長國
+    yo: Ajman
   comments: 
-AZ:
+AZ: 
+  name: Abū Z̧aby [Abu Dhabi]
+  code: 
   unofficial_names:
   - أبو ظبي
   - Abu Zabi
@@ -70,6 +82,13 @@ AZ:
   - Abū Z̨abī
   - Abu Dhabi
   - Abu Dhabi
+  geo:
+    latitude: 24.466667
+    longitude: 54.36666700000001
+    min_latitude: 24.1517661
+    min_longitude: 54.268856
+    max_latitude: 24.6213301
+    max_longitude: 54.8509598
   translations:
     en: Abu Dhabi
     af: Aboe Dhabi
@@ -124,19 +143,30 @@ AZ:
     uk: Абу-Дабі
     ur: ابوظہبی
     vi: Abu Dhabi
-  geo:
-    latitude: 24.466667
-    longitude: 54.36666700000001
-    min_latitude: 24.1517661
-    min_longitude: 54.268856
-    max_latitude: 24.6213301
-    max_longitude: 54.8509598
-  name: Abū Z̧aby [Abu Dhabi]
+    sr_Latn: Abu Dabi
+    zh: 阿布扎比
+    yue_Hans: 阿布扎比酋长国
+    jv: Abu Dhabi
+    ccp: "\U00011103\U0001111D\U0001112A \U00011119\U0001111D\U00011128"
+    ky: Абу-Даби
+    pa: ਅਬੂ ਧਾਬੀ
+    kk: Абу-Даби
+    yue: 阿布扎比酋長國
+    mk: Абу Даби
   comments: 
-DU:
+DU: 
+  name: Dubayy
+  code: 
   unofficial_names:
   - دبي
   - Dubai
+  geo:
+    latitude: 25.2048493
+    longitude: 55.2707828
+    min_latitude: 24.7914099
+    min_longitude: 54.895991
+    max_latitude: 25.356306
+    max_longitude: 55.56369770000001
   translations:
     en: Dubai
     af: Doebai
@@ -183,20 +213,35 @@ DU:
     uk: Дубай
     ur: امارت دبئی
     vi: Dubai
-  geo:
-    latitude: 25.2048493
-    longitude: 55.2707828
-    min_latitude: 24.7914099
-    min_longitude: 54.895991
-    max_latitude: 25.356306
-    max_longitude: 55.56369770000001
-  name: Dubayy
+    ceb: Dubai
+    sr_Latn: Dubai
+    zh: 迪拜酋长国
+    yue_Hans: 杜拜酋长国
+    sq: Emirati i Dubait
+    ccp: "\U00011118\U0001112A\U0001111D\U0001112D"
+    da: Dubai
+    fi: Dubai
+    ky: Дубай
+    id: Keamiran Dubai
+    kk: Дубай
+    yue: 杜拜酋長國
+    uz: Dubay
+    bs: Dubai
   comments: 
-FU:
+FU: 
+  name: Al Fujayrah
+  code: 
   unofficial_names:
   - الفجيرة
   - Al Fujayrah
   - Fujairah
+  geo:
+    latitude: 25.4110762
+    longitude: 56.24822769999999
+    min_latitude: 24.907855
+    min_longitude: 55.96323
+    max_latitude: 25.667782
+    max_longitude: 56.3760899
   translations:
     en: Fujairah
     ar: الفجيرة
@@ -246,19 +291,31 @@ FU:
     uk: Фуджейра
     ur: فجیرہ
     vi: Fujairah
-  geo:
-    latitude: 25.4110762
-    longitude: 56.24822769999999
-    min_latitude: 24.907855
-    min_longitude: 55.96323
-    max_latitude: 25.667782
-    max_longitude: 56.3760899
-  name: Al Fujayrah
+    ceb: Al Fujayrah
+    sr_Latn: Fudžejra
+    zh: 富吉拉
+    sw: Fujairah
+    yue_Hans: 富查伊拉酋长国
+    sq: Fuxhaira
+    ccp: "\U0001111C\U0001110E\U0001112D\U00011122\U00011126\U00011134"
+    pa: ਫ਼ੁਜੈਰਾ
+    yue: 富查伊拉酋長國
+    az: Əl-Füceyrə əmirliyi
+    yo: Fujairah
   comments: 
-RK:
+RK: 
+  name: Ra's al Khaymah
+  code: 
   unofficial_names:
   - إمارة رأس الخيمة
   - Ras al-Khaimah
+  geo:
+    latitude: 25.8006926
+    longitude: 55.9761994
+    min_latitude: 25.540431
+    min_longitude: 55.8637944
+    max_latitude: 25.9116106
+    max_longitude: 56.0727597
   translations:
     en: Ras al-Khaimah
     ar: رأس الخيمة
@@ -309,19 +366,30 @@ RK:
     uk: Рас-ель-Хайма
     ur: راس الخیمہ
     vi: Ras al-Khaimah
-  geo:
-    latitude: 25.8006926
-    longitude: 55.9761994
-    min_latitude: 25.540431
-    min_longitude: 55.8637944
-    max_latitude: 25.9116106
-    max_longitude: 56.0727597
-  name: Ra's al Khaymah
+    ceb: Ras al-Khaimah
+    sr_Latn: Ras el Hajma
+    zh: 拉斯海玛
+    yue_Hans: 拉斯海玛酋长国
+    sq: Ras el-Haime
+    ccp: "\U00011122\U0001110C\U00011134 \U00011103\U00011123\U00011134-\U00011108\U0001112D\U0001111F\U00011126\U00011134"
+    pa: ਰਾਸ ਅਲ-ਖ਼ੈਮਾ
+    yue: 拉斯海瑪酋長國
+    yo: Ras al Khaimah
+    mk: Рас ел-Хајма
   comments: 
-SH:
+SH: 
+  name: Ash Shariqah [Sharjah]
+  code: 
   unofficial_names:
   - إمارة الشارقةّ
   - Ash Shariqah
+  geo:
+    latitude: 25.3575
+    longitude: 55.390833
+    min_latitude: 25.2344614
+    min_longitude: 55.34973
+    max_latitude: 25.3988264
+    max_longitude: 55.6726397
   translations:
     en: Sharjah
     ar: إمارة الشارقة
@@ -374,19 +442,29 @@ SH:
     uk: Шарджа
     ur: شارجہ
     vi: Sharjah
-  geo:
-    latitude: 25.3575
-    longitude: 55.390833
-    min_latitude: 25.2344614
-    min_longitude: 55.34973
-    max_latitude: 25.3988264
-    max_longitude: 55.6726397
-  name: Ash Shariqah [Sharjah]
+    lv: Šārdžas emirāts
+    ceb: Ash Shāriqah
+    sr_Latn: Šardža
+    zh: 夏尔迦
+    yue_Hans: 沙迦酋长国
+    ccp: "\U00011125\U00011122\U00011134\U0001110E\U00011126\U00011134"
+    pa: ਸ਼ਾਰਜਾ
+    yue: 沙迦酋長國
+    yo: Sharjah
   comments: 
-UQ:
+UQ: 
+  name: Umm al Qaywayn
+  code: 
   unofficial_names:
   - أمّ القيوين
   - Umm al-Quwain
+  geo:
+    latitude: 25.5204824
+    longitude: 55.7133909
+    min_latitude: 25.323967
+    min_longitude: 55.5175201
+    max_latitude: 25.6954771
+    max_longitude: 55.953869
   translations:
     en: Umm al-Quwain
     ar: أم القيوين
@@ -437,12 +515,13 @@ UQ:
     uk: Умм-ель-Кувейн
     ur: ام القوین
     vi: Umm al-Quwain
-  geo:
-    latitude: 25.5204824
-    longitude: 55.7133909
-    min_latitude: 25.323967
-    min_longitude: 55.5175201
-    max_latitude: 25.6954771
-    max_longitude: 55.953869
-  name: Umm al Qaywayn
+    lv: Ummelkaivainas emirāts
+    ceb: Umm al Qaywayn
+    sr_Latn: Um el Kajvejn
+    zh: 欧姆古温
+    yue_Hans: 欧姆古温酋长国
+    ccp: "\U00011105\U0001112A\U0001111F\U00011134 \U00011103\U00011123\U00011134-\U00011107\U0001112A\U00011120\U00011103\U00011128\U0001111A\U00011134"
+    pa: ਉਮ ਅਲ-ਕਿਵੇਨ
+    yue: 歐姆古溫酋長國
+    yo: Um Al Quwain
   comments: 

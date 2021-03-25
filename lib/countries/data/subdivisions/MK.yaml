@@ -1,8 +1,8 @@
 ---
-AD:
+AD: 
+  name: Aerodrom *
+  code: 
   unofficial_names: Aerodrom *
-  translations:
-    en: Aerodrom *
   geo:
     latitude: 41.94643629999999
     longitude: 21.4931713
@@ -10,11 +10,13 @@ AD:
     min_longitude: 21.437095
     max_latitude: 41.9776741
     max_longitude: 21.554503
-  name: Aerodrom *
-AJ:
-  unofficial_names: Saraj *
   translations:
-    en: Saraj *
+    en: Aerodrom *
+  comments: 
+AJ: 
+  name: Saraj *
+  code: 
+  unofficial_names: Saraj *
   geo:
     latitude: 41.477778
     longitude: 22.7025
@@ -22,11 +24,13 @@ AJ:
     min_longitude: 22.6946086
     max_latitude: 41.4809557
     max_longitude: 22.7108663
-  name: Saraj *
-AR:
-  unofficial_names: Aracinovo
   translations:
-    en: Aracinovo
+    en: Saraj *
+  comments: 
+AR: 
+  name: Aracinovo
+  code: 
+  unofficial_names: Aracinovo
   geo:
     latitude: 42.0247381
     longitude: 21.5766407
@@ -34,11 +38,13 @@ AR:
     min_longitude: 21.53742
     max_latitude: 42.07069389999999
     max_longitude: 21.633435
-  name: Aracinovo
-AV:
-  unofficial_names: Kavadarci
   translations:
-    en: Kavadarci
+    en: Aracinovo
+  comments: 
+AV: 
+  name: Kavadarci
+  code: 
+  unofficial_names: Kavadarci
   geo:
     latitude: 41.4329364
     longitude: 22.0088861
@@ -46,11 +52,13 @@ AV:
     min_longitude: 21.9955194
     max_latitude: 41.4443026
     max_longitude: 22.026397
-  name: Kavadarci
-BG:
-  unofficial_names: Bogdanci
   translations:
-    en: Bogdanci
+    en: Kavadarci
+  comments: 
+BG: 
+  name: Bogdanci
+  code: 
+  unofficial_names: Bogdanci
   geo:
     latitude: 41.203138
     longitude: 22.5754421
@@ -58,11 +66,13 @@ BG:
     min_longitude: 22.5654031
     max_latitude: 41.2095342
     max_longitude: 22.5874615
-  name: Bogdanci
-BN:
-  unofficial_names: Brvenica
   translations:
-    en: Brvenica
+    en: Bogdanci
+  comments: 
+BN: 
+  name: Brvenica
+  code: 
+  unofficial_names: Brvenica
   geo:
     latitude: 41.9672
     longitude: 20.9808
@@ -70,11 +80,13 @@ BN:
     min_longitude: 20.9733618
     max_latitude: 41.97606649999999
     max_longitude: 20.9886396
-  name: Brvenica
-BR:
-  unofficial_names: Berovo
   translations:
-    en: Berovo
+    en: Brvenica
+  comments: 
+BR: 
+  name: Berovo
+  code: 
+  unofficial_names: Berovo
   geo:
     latitude: 41.71
     longitude: 22.85
@@ -82,11 +94,13 @@ BR:
     min_longitude: 22.8312957
     max_latitude: 41.7220225
     max_longitude: 22.8621305
-  name: Berovo
-BS:
-  unofficial_names: Bosilovo
   translations:
-    en: Bosilovo
+    en: Berovo
+  comments: 
+BS: 
+  name: Bosilovo
+  code: 
+  unofficial_names: Bosilovo
   geo:
     latitude: 41.4406
     longitude: 22.7278
@@ -94,11 +108,13 @@ BS:
     min_longitude: 22.7187556
     max_latitude: 41.4443203
     max_longitude: 22.743305
-  name: Bosilovo
-BU:
-  unofficial_names: Butel *
   translations:
-    en: Butel *
+    en: Bosilovo
+  comments: 
+BU: 
+  name: Butel *
+  code: 
+  unofficial_names: Butel *
   geo:
     latitude: 42.0895068
     longitude: 21.463361
@@ -106,11 +122,13 @@ BU:
     min_longitude: 21.376825
     max_latitude: 42.1423902
     max_longitude: 21.511645
-  name: Butel *
-CA:
-  unofficial_names: Caška
   translations:
-    en: Caška
+    en: Butel *
+  comments: 
+CA: 
+  name: Caška
+  code: 
+  unofficial_names: Caška
   geo:
     latitude: 41.647438
     longitude: 21.6914115
@@ -118,11 +136,13 @@ CA:
     min_longitude: 21.6835701
     max_latitude: 41.6554159
     max_longitude: 21.697113
-  name: Caška
-CE:
-  unofficial_names: Centar *
   translations:
-    en: Centar *
+    en: Caška
+  comments: 
+CE: 
+  name: Centar *
+  code: 
+  unofficial_names: Centar *
   geo:
     latitude: 41.9953628
     longitude: 21.4246078
@@ -130,11 +150,13 @@ CE:
     min_longitude: 21.4058088
     max_latitude: 42.0143879
     max_longitude: 21.4509344
-  name: Centar *
-CH:
-  unofficial_names: Cešinovo-Obleševo
   translations:
-    en: Cešinovo-Obleševo
+    en: Centar *
+  comments: 
+CH: 
+  name: Cešinovo-Obleševo
+  code: 
+  unofficial_names: Cešinovo-Obleševo
   geo:
     latitude: 41.8639316
     longitude: 22.262246
@@ -142,11 +164,13 @@ CH:
     min_longitude: 22.187428
     max_latitude: 41.948915
     max_longitude: 22.39093
-  name: Cešinovo-Obleševo
-CI:
-  unofficial_names: Cair *
   translations:
-    en: Cair *
+    en: Cešinovo-Obleševo
+  comments: 
+CI: 
+  name: Cair *
+  code: 
+  unofficial_names: Cair *
   geo:
     latitude: 41.9930355
     longitude: 21.4365318
@@ -154,11 +178,13 @@ CI:
     min_longitude: 21.4271271
     max_latitude: 41.998022
     max_longitude: 21.4460089
-  name: Cair *
-CS:
-  unofficial_names: Cucer Sandevo
   translations:
-    en: Cucer Sandevo
+    en: Cair *
+  comments: 
+CS: 
+  name: Cucer Sandevo
+  code: 
+  unofficial_names: Cucer Sandevo
   geo:
     latitude: 42.0974773
     longitude: 21.3877179
@@ -166,11 +192,13 @@ CS:
     min_longitude: 21.3779903
     max_latitude: 42.1044702
     max_longitude: 21.3955476
-  name: Cucer Sandevo
-CZ:
-  unofficial_names: Centar Župa
   translations:
-    en: Centar Župa
+    en: Cucer Sandevo
+  comments: 
+CZ: 
+  name: Centar Župa
+  code: 
+  unofficial_names: Centar Župa
   geo:
     latitude: 41.47852779999999
     longitude: 20.5602793
@@ -178,11 +206,13 @@ CZ:
     min_longitude: 20.5503664
     max_latitude: 41.48230540000001
     max_longitude: 20.5659829
-  name: Centar Župa
-DA:
-  unofficial_names: Debarca
   translations:
-    en: Debarca
+    en: Centar Župa
+  comments: 
+DA: 
+  name: Debarca
+  code: 
+  unofficial_names: Debarca
   geo:
     latitude: 42.0010109
     longitude: 21.4201574
@@ -190,11 +220,13 @@ DA:
     min_longitude: 21.4180968
     max_latitude: 42.0021113
     max_longitude: 21.4216447
-  name: Debarca
-DB:
-  unofficial_names: Debar
   translations:
-    en: Debar
+    en: Debarca
+  comments: 
+DB: 
+  name: Debar
+  code: 
+  unofficial_names: Debar
   geo:
     latitude: 41.5266768
     longitude: 20.5239064
@@ -202,11 +234,13 @@ DB:
     min_longitude: 20.4922057
     max_latitude: 41.54387060000001
     max_longitude: 20.5436398
-  name: Debar
-DE:
-  unofficial_names: Dolneni
   translations:
-    en: Dolneni
+    en: Debar
+  comments: 
+DE: 
+  name: Dolneni
+  code: 
+  unofficial_names: Dolneni
   geo:
     latitude: 41.425278
     longitude: 21.454444
@@ -214,11 +248,13 @@ DE:
     min_longitude: 21.4454475
     max_latitude: 41.4306496
     max_longitude: 21.459623
-  name: Dolneni
-DK:
-  unofficial_names: Demir Kapija
   translations:
-    en: Demir Kapija
+    en: Dolneni
+  comments: 
+DK: 
+  name: Demir Kapija
+  code: 
+  unofficial_names: Demir Kapija
   geo:
     latitude: 41.411389
     longitude: 22.242222
@@ -226,11 +262,13 @@ DK:
     min_longitude: 22.2329164
     max_latitude: 41.4142979
     max_longitude: 22.2562623
-  name: Demir Kapija
-DL:
-  unofficial_names: Delcevo
   translations:
-    en: Delcevo
+    en: Demir Kapija
+  comments: 
+DL: 
+  name: Delcevo
+  code: 
+  unofficial_names: Delcevo
   geo:
     latitude: 41.9764
     longitude: 22.7674
@@ -238,12 +276,14 @@ DL:
     min_longitude: 22.7602601
     max_latitude: 41.9899275
     max_longitude: 22.7877689
-  name: Delcevo
-DM:
+  translations:
+    en: Delcevo
+  comments: 
+DM: 
+  name: Demir Hisar
+  code: 
   unofficial_names:
   - Murgaševo
-  translations:
-    en: Demir Hisar
   geo:
     latitude: 41.22136039999999
     longitude: 21.2025287
@@ -251,11 +291,13 @@ DM:
     min_longitude: 21.1942202
     max_latitude: 41.2294553
     max_longitude: 21.2090261
-  name: Demir Hisar
-DR:
-  unofficial_names: Drugovo
   translations:
-    en: Drugovo
+    en: Demir Hisar
+  comments: 
+DR: 
+  name: Drugovo
+  code: 
+  unofficial_names: Drugovo
   geo:
     latitude: 41.4408153
     longitude: 20.9268201
@@ -263,11 +305,13 @@ DR:
     min_longitude: 20.6818601
     max_latitude: 41.616372
     max_longitude: 21.138616
-  name: Drugovo
-ET:
-  unofficial_names: Tetovo
   translations:
-    en: Tetovo
+    en: Drugovo
+  comments: 
+ET: 
+  name: Tetovo
+  code: 
+  unofficial_names: Tetovo
   geo:
     latitude: 42
     longitude: 20.966667
@@ -275,11 +319,13 @@ ET:
     min_longitude: 20.9485246
     max_latitude: 42.0259693
     max_longitude: 20.9893371
-  name: Tetovo
-GB:
-  unofficial_names: Gazi Baba *
   translations:
-    en: Gazi Baba *
+    en: Tetovo
+  comments: 
+GB: 
+  name: Gazi Baba *
+  code: 
+  unofficial_names: Gazi Baba *
   geo:
     latitude: 42.0162961
     longitude: 21.4991334
@@ -287,11 +333,13 @@ GB:
     min_longitude: 21.44421
     max_latitude: 42.1012791
     max_longitude: 21.582676
-  name: Gazi Baba *
-GP:
-  unofficial_names: Gjorce Petrov *
   translations:
-    en: Gjorce Petrov *
+    en: Gazi Baba *
+  comments: 
+GP: 
+  name: Gjorce Petrov *
+  code: 
+  unofficial_names: Gjorce Petrov *
   geo:
     latitude: 42.0606374
     longitude: 21.3202736
@@ -299,11 +347,13 @@ GP:
     min_longitude: 21.242506
     max_latitude: 42.1126457
     max_longitude: 21.360891
-  name: Gjorce Petrov *
-GR:
-  unofficial_names: Gradsko
   translations:
-    en: Gradsko
+    en: Gjorce Petrov *
+  comments: 
+GR: 
+  name: Gradsko
+  code: 
+  unofficial_names: Gradsko
   geo:
     latitude: 41.5750625
     longitude: 21.9494531
@@ -311,11 +361,13 @@ GR:
     min_longitude: 21.9327078
     max_latitude: 41.5846933
     max_longitude: 21.9661031
-  name: Gradsko
-GT:
-  unofficial_names: Gostivar
   translations:
-    en: Gostivar
+    en: Gradsko
+  comments: 
+GT: 
+  name: Gostivar
+  code: 
+  unofficial_names: Gostivar
   geo:
     latitude: 41.8
     longitude: 20.916667
@@ -323,11 +375,13 @@ GT:
     min_longitude: 20.8848596
     max_latitude: 41.81792859999999
     max_longitude: 20.9324742
-  name: Gostivar
-GV:
-  unofficial_names: Gevgelija
   translations:
-    en: Gevgelija
+    en: Gostivar
+  comments: 
+GV: 
+  name: Gevgelija
+  code: 
+  unofficial_names: Gevgelija
   geo:
     latitude: 41.140278
     longitude: 22.502778
@@ -335,11 +389,13 @@ GV:
     min_longitude: 22.4868571
     max_latitude: 41.1520004
     max_longitude: 22.5183677
-  name: Gevgelija
-IL:
-  unofficial_names: Ilinden
   translations:
-    en: Ilinden
+    en: Gevgelija
+  comments: 
+IL: 
+  name: Ilinden
+  code: 
+  unofficial_names: Ilinden
   geo:
     latitude: 41.98999999999999
     longitude: 21.58
@@ -347,11 +403,13 @@ IL:
     min_longitude: 21.5397289
     max_latitude: 42.0042037
     max_longitude: 21.5856242
-  name: Ilinden
-JG:
-  unofficial_names: Jegunovce
   translations:
-    en: Jegunovce
+    en: Ilinden
+  comments: 
+JG: 
+  name: Jegunovce
+  code: 
+  unofficial_names: Jegunovce
   geo:
     latitude: 42.07407200000001
     longitude: 21.1220478
@@ -359,11 +417,13 @@ JG:
     min_longitude: 21.1171566
     max_latitude: 42.0776731
     max_longitude: 21.128905
-  name: Jegunovce
-KB:
-  unofficial_names: Karbinci
   translations:
-    en: Karbinci
+    en: Jegunovce
+  comments: 
+KB: 
+  name: Karbinci
+  code: 
+  unofficial_names: Karbinci
   geo:
     latitude: 41.8180159
     longitude: 22.2324758
@@ -371,11 +431,13 @@ KB:
     min_longitude: 22.2270155
     max_latitude: 41.822406
     max_longitude: 22.2458124
-  name: Karbinci
-KG:
-  unofficial_names: Krivogaštani
   translations:
-    en: Krivogaštani
+    en: Karbinci
+  comments: 
+KG: 
+  name: Krivogaštani
+  code: 
+  unofficial_names: Krivogaštani
   geo:
     latitude: 41.30823059999999
     longitude: 21.3679689
@@ -383,11 +445,13 @@ KG:
     min_longitude: 21.3069439
     max_latitude: 41.3876829
     max_longitude: 21.428434
-  name: Krivogaštani
-KH:
-  unofficial_names: Kicevo
   translations:
-    en: Kicevo
+    en: Krivogaštani
+  comments: 
+KH: 
+  name: Kicevo
+  code: 
+  unofficial_names: Kicevo
   geo:
     latitude: 41.5158412
     longitude: 20.9586619
@@ -395,11 +459,13 @@ KH:
     min_longitude: 20.9361862
     max_latitude: 41.5350852
     max_longitude: 20.973544
-  name: Kicevo
-KN:
-  unofficial_names: Konce
   translations:
-    en: Konce
+    en: Kicevo
+  comments: 
+KN: 
+  name: Konce
+  code: 
+  unofficial_names: Konce
   geo:
     latitude: 41.4965779
     longitude: 22.3829526
@@ -407,11 +473,13 @@ KN:
     min_longitude: 22.3740407
     max_latitude: 41.4997406
     max_longitude: 22.3924967
-  name: Konce
-KS:
-  unofficial_names: Kruševo
   translations:
-    en: Kruševo
+    en: Konce
+  comments: 
+KS: 
+  name: Kruševo
+  code: 
+  unofficial_names: Kruševo
   geo:
     latitude: 41.3801216
     longitude: 21.2435597
@@ -419,11 +487,13 @@ KS:
     min_longitude: 21.2435457
     max_latitude: 41.3801311
     max_longitude: 21.2442461
-  name: Kruševo
-KX:
-  unofficial_names: Karpoš *
   translations:
-    en: Karpoš *
+    en: Kruševo
+  comments: 
+KX: 
+  name: Karpoš *
+  code: 
+  unofficial_names: Karpoš *
   geo:
     latitude: 42.156389
     longitude: 21.741111
@@ -431,11 +501,13 @@ KX:
     min_longitude: 21.727438
     max_latitude: 42.1677295
     max_longitude: 21.7596245
-  name: Karpoš *
-KY:
-  unofficial_names: Kratovo
   translations:
-    en: Kratovo
+    en: Karpoš *
+  comments: 
+KY: 
+  name: Kratovo
+  code: 
+  unofficial_names: Kratovo
   geo:
     latitude: 42.0800379
     longitude: 22.1802799
@@ -443,11 +515,13 @@ KY:
     min_longitude: 22.1586944
     max_latitude: 42.0853964
     max_longitude: 22.1919322
-  name: Kratovo
-KZ:
-  unofficial_names: Kriva Palanka
   translations:
-    en: Kriva Palanka
+    en: Kratovo
+  comments: 
+KZ: 
+  name: Kriva Palanka
+  code: 
+  unofficial_names: Kriva Palanka
   geo:
     latitude: 42.2058454
     longitude: 22.3307965
@@ -455,11 +529,13 @@ KZ:
     min_longitude: 22.3109686
     max_latitude: 42.2233612
     max_longitude: 22.3575425
-  name: Kriva Palanka
-LI:
-  unofficial_names: Lipkovo
   translations:
-    en: Lipkovo
+    en: Kriva Palanka
+  comments: 
+LI: 
+  name: Lipkovo
+  code: 
+  unofficial_names: Lipkovo
   geo:
     latitude: 42.1561352
     longitude: 21.5870744
@@ -467,11 +543,13 @@ LI:
     min_longitude: 21.5788866
     max_latitude: 42.1622105
     max_longitude: 21.5949798
-  name: Lipkovo
-LO:
-  unofficial_names: Lozovo
   translations:
-    en: Lozovo
+    en: Lipkovo
+  comments: 
+LO: 
+  name: Lozovo
+  code: 
+  unofficial_names: Lozovo
   geo:
     latitude: 41.780833
     longitude: 21.901111
@@ -479,11 +557,13 @@ LO:
     min_longitude: 21.8945146
     max_latitude: 41.7860898
     max_longitude: 21.9099512
-  name: Lozovo
-MD:
-  unofficial_names: Makedonski Brod
   translations:
-    en: Makedonski Brod
+    en: Lozovo
+  comments: 
+MD: 
+  name: Makedonski Brod
+  code: 
+  unofficial_names: Makedonski Brod
   geo:
     latitude: 41.5133088
     longitude: 21.2174329
@@ -491,11 +571,13 @@ MD:
     min_longitude: 21.2085485
     max_latitude: 41.5210334
     max_longitude: 21.2262081
-  name: Makedonski Brod
-MG:
-  unofficial_names: Mogila
   translations:
-    en: Mogila
+    en: Makedonski Brod
+  comments: 
+MG: 
+  name: Mogila
+  code: 
+  unofficial_names: Mogila
   geo:
     latitude: 41.108056
     longitude: 21.378333
@@ -503,11 +585,13 @@ MG:
     min_longitude: 21.3631968
     max_latitude: 41.1192271
     max_longitude: 21.3925414
-  name: Mogila
-MK:
-  unofficial_names: Makedonska Kamenica
   translations:
-    en: Makedonska Kamenica
+    en: Mogila
+  comments: 
+MK: 
+  name: Makedonska Kamenica
+  code: 
+  unofficial_names: Makedonska Kamenica
   geo:
     latitude: 42.019722
     longitude: 22.591667
@@ -515,11 +599,13 @@ MK:
     min_longitude: 22.5755525
     max_latitude: 42.0301294
     max_longitude: 22.5955296
-  name: Makedonska Kamenica
-MR:
-  unofficial_names: Mavrovo-i-Rostuša
   translations:
-    en: Mavrovo-i-Rostuša
+    en: Makedonska Kamenica
+  comments: 
+MR: 
+  name: Mavrovo-i-Rostuša
+  code: 
+  unofficial_names: Mavrovo-i-Rostuša
   geo:
     latitude: 41.65
     longitude: 20.733333
@@ -527,11 +613,13 @@ MR:
     min_longitude: 20.7295946
     max_latitude: 41.6620718
     max_longitude: 20.7384775
-  name: Mavrovo-i-Rostuša
-NA:
-  unofficial_names: Staro Nagoricane
   translations:
-    en: Staro Nagoricane
+    en: Mavrovo-i-Rostuša
+  comments: 
+NA: 
+  name: Staro Nagoricane
+  code: 
+  unofficial_names: Staro Nagoricane
   geo:
     latitude: 42.2
     longitude: 21.833333
@@ -539,11 +627,13 @@ NA:
     min_longitude: 21.8216873
     max_latitude: 42.2047782
     max_longitude: 21.8368701
-  name: Staro Nagoricane
-NG:
-  unofficial_names: Negotino
   translations:
-    en: Negotino
+    en: Staro Nagoricane
+  comments: 
+NG: 
+  name: Negotino
+  code: 
+  unofficial_names: Negotino
   geo:
     latitude: 41.4989985
     longitude: 22.0953297
@@ -551,11 +641,13 @@ NG:
     min_longitude: 21.9803289
     max_latitude: 41.6542421
     max_longitude: 22.3007181
-  name: Negotino
-NI:
-  unofficial_names: Vinica
   translations:
-    en: Vinica
+    en: Negotino
+  comments: 
+NI: 
+  name: Vinica
+  code: 
+  unofficial_names: Vinica
   geo:
     latitude: 49.233083
     longitude: 28.468217
@@ -563,11 +655,13 @@ NI:
     min_longitude: 28.3681799
     max_latitude: 49.27902
     max_longitude: 28.5710879
-  name: Vinica
-NS:
-  unofficial_names: Novo Selo
   translations:
-    en: Novo Selo
+    en: Vinica
+  comments: 
+NS: 
+  name: Novo Selo
+  code: 
+  unofficial_names: Novo Selo
   geo:
     latitude: 41.413889
     longitude: 22.880833
@@ -575,11 +669,13 @@ NS:
     min_longitude: 22.8698898
     max_latitude: 41.4201658
     max_longitude: 22.8911822
-  name: Novo Selo
-NV:
-  unofficial_names: Novaci
   translations:
-    en: Novaci
+    en: Novo Selo
+  comments: 
+NV: 
+  name: Novaci
+  code: 
+  unofficial_names: Novaci
   geo:
     latitude: 45.18
     longitude: 23.67
@@ -587,11 +683,13 @@ NV:
     min_longitude: 23.6471701
     max_latitude: 45.2153314
     max_longitude: 23.6997415
-  name: Novaci
-OC:
-  unofficial_names: Kocani
   translations:
-    en: Kocani
+    en: Novaci
+  comments: 
+OC: 
+  name: Kocani
+  code: 
+  unofficial_names: Kocani
   geo:
     latitude: 41.91680480000001
     longitude: 22.4082849
@@ -599,11 +697,13 @@ OC:
     min_longitude: 22.3931301
     max_latitude: 41.93393890000001
     max_longitude: 22.4394573
-  name: Kocani
-OD:
-  unofficial_names: Ohrid
   translations:
-    en: Ohrid
+    en: Kocani
+  comments: 
+OD: 
+  name: Ohrid
+  code: 
+  unofficial_names: Ohrid
   geo:
     latitude: 41.1230977
     longitude: 20.8016481
@@ -611,11 +711,13 @@ OD:
     min_longitude: 20.7540128
     max_latitude: 41.148656
     max_longitude: 20.8305932
-  name: Ohrid
-OS:
-  unofficial_names: Oslomej
   translations:
-    en: Oslomej
+    en: Ohrid
+  comments: 
+OS: 
+  name: Oslomej
+  code: 
+  unofficial_names: Oslomej
   geo:
     latitude: 41.5758391
     longitude: 21.022196
@@ -623,11 +725,13 @@ OS:
     min_longitude: 20.9666249
     max_latitude: 41.648807
     max_longitude: 21.1034419
-  name: Oslomej
-PE:
-  unofficial_names: Petrovec
   translations:
-    en: Petrovec
+    en: Oslomej
+  comments: 
+PE: 
+  name: Petrovec
+  code: 
+  unofficial_names: Petrovec
   geo:
     latitude: 41.933333
     longitude: 21.616667
@@ -635,11 +739,13 @@ PE:
     min_longitude: 21.5950228
     max_latitude: 41.946245
     max_longitude: 21.6286469
-  name: Petrovec
-PH:
-  unofficial_names: Pehcevo
   translations:
-    en: Pehcevo
+    en: Petrovec
+  comments: 
+PH: 
+  name: Pehcevo
+  code: 
+  unofficial_names: Pehcevo
   geo:
     latitude: 41.76
     longitude: 22.88
@@ -647,11 +753,13 @@ PH:
     min_longitude: 22.8748494
     max_latitude: 41.7662424
     max_longitude: 22.8996384
-  name: Pehcevo
-PN:
-  unofficial_names: Plasnica
   translations:
-    en: Plasnica
+    en: Pehcevo
+  comments: 
+PN: 
+  name: Plasnica
+  code: 
+  unofficial_names: Plasnica
   geo:
     latitude: 41.45463489999999
     longitude: 21.1056539
@@ -659,11 +767,13 @@ PN:
     min_longitude: 21.038705
     max_latitude: 41.48252400000001
     max_longitude: 21.1960519
-  name: Plasnica
-PP:
-  unofficial_names: Prilep
   translations:
-    en: Prilep
+    en: Plasnica
+  comments: 
+PP: 
+  name: Prilep
+  code: 
+  unofficial_names: Prilep
   geo:
     latitude: 41.344444
     longitude: 21.552778
@@ -671,11 +781,13 @@ PP:
     min_longitude: 21.5153933
     max_latitude: 41.36455429999999
     max_longitude: 21.5810538
-  name: Prilep
-PT:
-  unofficial_names: Probištip
   translations:
-    en: Probištip
+    en: Prilep
+  comments: 
+PT: 
+  name: Probištip
+  code: 
+  unofficial_names: Probištip
   geo:
     latitude: 41.9948176
     longitude: 22.1877315
@@ -683,11 +795,13 @@ PT:
     min_longitude: 22.1594237
     max_latitude: 42.0117575
     max_longitude: 22.1926832
-  name: Probištip
-RE:
-  unofficial_names: Resen
   translations:
-    en: Resen
+    en: Probištip
+  comments: 
+RE: 
+  name: Resen
+  code: 
+  unofficial_names: Resen
   geo:
     latitude: 41.0889
     longitude: 21.0122
@@ -695,11 +809,13 @@ RE:
     min_longitude: 20.9988428
     max_latitude: 41.0996959
     max_longitude: 21.0292053
-  name: Resen
-RM:
-  unofficial_names: Rosoman
   translations:
-    en: Rosoman
+    en: Resen
+  comments: 
+RM: 
+  name: Rosoman
+  code: 
+  unofficial_names: Rosoman
   geo:
     latitude: 41.4848006
     longitude: 21.8807064
@@ -707,11 +823,13 @@ RM:
     min_longitude: 21.8100951
     max_latitude: 41.555479
     max_longitude: 21.984525
-  name: Rosoman
-RN:
-  unofficial_names: Rankovce
   translations:
-    en: Rankovce
+    en: Rosoman
+  comments: 
+RN: 
+  name: Rankovce
+  code: 
+  unofficial_names: Rankovce
   geo:
     latitude: 42.1695387
     longitude: 22.116195
@@ -719,11 +837,13 @@ RN:
     min_longitude: 22.1079684
     max_latitude: 42.17991079999999
     max_longitude: 22.1322583
-  name: Rankovce
-RU:
-  unofficial_names: Strumica
   translations:
-    en: Strumica
+    en: Rankovce
+  comments: 
+RU: 
+  name: Strumica
+  code: 
+  unofficial_names: Strumica
   geo:
     latitude: 41.4378004
     longitude: 22.6427428
@@ -731,11 +851,13 @@ RU:
     min_longitude: 22.6253986
     max_latitude: 41.45609169999999
     max_longitude: 22.6640654
-  name: Strumica
-RV:
-  unofficial_names: Radoviš
   translations:
-    en: Radoviš
+    en: Strumica
+  comments: 
+RV: 
+  name: Radoviš
+  code: 
+  unofficial_names: Radoviš
   geo:
     latitude: 41.636111
     longitude: 22.466667
@@ -743,11 +865,13 @@ RV:
     min_longitude: 22.4439095
     max_latitude: 41.64887359999999
     max_longitude: 22.4798942
-  name: Radoviš
-SD:
-  unofficial_names: Dojran
   translations:
-    en: Dojran
+    en: Radoviš
+  comments: 
+SD: 
+  name: Dojran
+  code: 
+  unofficial_names: Dojran
   geo:
     latitude: 41.2436672
     longitude: 22.6913764
@@ -755,11 +879,13 @@ SD:
     min_longitude: 22.5653611
     max_latitude: 41.2946641
     max_longitude: 22.7681351
-  name: Dojran
-SL:
-  unofficial_names: Sveti Nikole
   translations:
-    en: Sveti Nikole
+    en: Dojran
+  comments: 
+SL: 
+  name: Sveti Nikole
+  code: 
+  unofficial_names: Sveti Nikole
   geo:
     latitude: 41.866667
     longitude: 21.95
@@ -767,11 +893,13 @@ SL:
     min_longitude: 21.9269728
     max_latitude: 41.8749934
     max_longitude: 21.9508554
-  name: Sveti Nikole
-SO:
-  unofficial_names: Šuto Orizari *
   translations:
-    en: Šuto Orizari *
+    en: Sveti Nikole
+  comments: 
+SO: 
+  name: Šuto Orizari *
+  code: 
+  unofficial_names: Šuto Orizari *
   geo:
     latitude: 42.0290416
     longitude: 21.4097027
@@ -779,11 +907,13 @@ SO:
     min_longitude: 21.388165
     max_latitude: 42.0519889
     max_longitude: 21.4261011
-  name: Šuto Orizari *
-SS:
-  unofficial_names: Sopište
   translations:
-    en: Sopište
+    en: Šuto Orizari *
+  comments: 
+SS: 
+  name: Sopište
+  code: 
+  unofficial_names: Sopište
   geo:
     latitude: 41.9500453
     longitude: 21.4201362
@@ -791,11 +921,13 @@ SS:
     min_longitude: 21.4102507
     max_latitude: 41.9634592
     max_longitude: 21.4390469
-  name: Sopište
-ST:
-  unofficial_names: Štip
   translations:
-    en: Štip
+    en: Sopište
+  comments: 
+ST: 
+  name: Štip
+  code: 
+  unofficial_names: Štip
   geo:
     latitude: 41.737503
     longitude: 22.193558
@@ -803,11 +935,13 @@ ST:
     min_longitude: 22.167642
     max_latitude: 41.7626373
     max_longitude: 22.2150422
-  name: Štip
-SU:
-  unofficial_names: Studenicani
   translations:
-    en: Studenicani
+    en: Štip
+  comments: 
+SU: 
+  name: Studenicani
+  code: 
+  unofficial_names: Studenicani
   geo:
     latitude: 41.9225639
     longitude: 21.5363965
@@ -815,11 +949,13 @@ SU:
     min_longitude: 21.5259503
     max_latitude: 41.9318797
     max_longitude: 21.5444898
-  name: Studenicani
-TL:
-  unofficial_names: Bitola
   translations:
-    en: Bitola
+    en: Studenicani
+  comments: 
+TL: 
+  name: Bitola
+  code: 
+  unofficial_names: Bitola
   geo:
     latitude: 41.031944
     longitude: 21.334722
@@ -827,11 +963,13 @@ TL:
     min_longitude: 21.2948782
     max_latitude: 41.048879
     max_longitude: 21.3622927
-  name: Bitola
-TR:
-  unofficial_names: Tearce
   translations:
-    en: Tearce
+    en: Bitola
+  comments: 
+TR: 
+  name: Tearce
+  code: 
+  unofficial_names: Tearce
   geo:
     latitude: 42.0777511
     longitude: 21.0534923
@@ -839,11 +977,13 @@ TR:
     min_longitude: 21.0445913
     max_latitude: 42.0861885
     max_longitude: 21.0603228
-  name: Tearce
-UG:
-  unofficial_names: Struga
   translations:
-    en: Struga
+    en: Tearce
+  comments: 
+UG: 
+  name: Struga
+  code: 
+  unofficial_names: Struga
   geo:
     latitude: 41.1778353
     longitude: 20.6783258
@@ -851,11 +991,13 @@ UG:
     min_longitude: 20.6343199
     max_latitude: 41.1973695
     max_longitude: 20.7272307
-  name: Struga
-UM:
-  unofficial_names: Kumanovo
   translations:
-    en: Kumanovo
+    en: Struga
+  comments: 
+UM: 
+  name: Kumanovo
+  code: 
+  unofficial_names: Kumanovo
   geo:
     latitude: 42.135833
     longitude: 21.718056
@@ -863,11 +1005,13 @@ UM:
     min_longitude: 21.6693091
     max_latitude: 42.170783
     max_longitude: 21.7575538
-  name: Kumanovo
-VA:
-  unofficial_names: Valandovo
   translations:
-    en: Valandovo
+    en: Kumanovo
+  comments: 
+VA: 
+  name: Valandovo
+  code: 
+  unofficial_names: Valandovo
   geo:
     latitude: 41.316944
     longitude: 22.561111
@@ -875,11 +1019,13 @@ VA:
     min_longitude: 22.5510478
     max_latitude: 41.3221053
     max_longitude: 22.5714327
-  name: Valandovo
-VC:
-  unofficial_names: Vraneštica
   translations:
-    en: Vraneštica
+    en: Valandovo
+  comments: 
+VC: 
+  name: Vraneštica
+  code: 
+  unofficial_names: Vraneštica
   geo:
     latitude: 41.4453257
     longitude: 21.0259217
@@ -887,11 +1033,13 @@ VC:
     min_longitude: 21.0224727
     max_latitude: 41.4484842
     max_longitude: 21.0308243
-  name: Vraneštica
-VD:
-  unofficial_names: Kisela Voda *
   translations:
-    en: Kisela Voda *
+    en: Vraneštica
+  comments: 
+VD: 
+  name: Kisela Voda *
+  code: 
+  unofficial_names: Kisela Voda *
   geo:
     latitude: 41.92748
     longitude: 21.4931713
@@ -899,11 +1047,13 @@ VD:
     min_longitude: 21.425928
     max_latitude: 41.9678721
     max_longitude: 21.5344229
-  name: Kisela Voda *
-VE:
-  unofficial_names: Veles
   translations:
-    en: Veles
+    en: Kisela Voda *
+  comments: 
+VE: 
+  name: Veles
+  code: 
+  unofficial_names: Veles
   geo:
     latitude: 41.7138462
     longitude: 21.7704092
@@ -911,11 +1061,13 @@ VE:
     min_longitude: 21.7434913
     max_latitude: 41.737505
     max_longitude: 21.7968535
-  name: Veles
-VH:
-  unofficial_names: Vrapcište
   translations:
-    en: Vrapcište
+    en: Veles
+  comments: 
+VH: 
+  name: Vrapcište
+  code: 
+  unofficial_names: Vrapcište
   geo:
     latitude: 41.83841779999999
     longitude: 20.8858003
@@ -923,11 +1075,13 @@ VH:
     min_longitude: 20.8794765
     max_latitude: 41.8453661
     max_longitude: 20.890842
-  name: Vrapcište
-VJ:
-  unofficial_names: Bogovinje
   translations:
-    en: Bogovinje
+    en: Vrapcište
+  comments: 
+VJ: 
+  name: Bogovinje
+  code: 
+  unofficial_names: Bogovinje
   geo:
     latitude: 41.9236371
     longitude: 20.9163887
@@ -935,11 +1089,13 @@ VJ:
     min_longitude: 20.9023664
     max_latitude: 41.9338751
     max_longitude: 20.9272813
-  name: Bogovinje
-VL:
-  unofficial_names: Vasilevo
   translations:
-    en: Vasilevo
+    en: Bogovinje
+  comments: 
+VL: 
+  name: Vasilevo
+  code: 
+  unofficial_names: Vasilevo
   geo:
     latitude: 41.5201985
     longitude: 22.6437026
@@ -947,11 +1103,13 @@ VL:
     min_longitude: 22.499725
     max_latitude: 41.631592
     max_longitude: 22.731699
-  name: Vasilevo
-VV:
-  unofficial_names: Vevcani
   translations:
-    en: Vevcani
+    en: Vasilevo
+  comments: 
+VV: 
+  name: Vevcani
+  code: 
+  unofficial_names: Vevcani
   geo:
     latitude: 41.2403
     longitude: 20.5931
@@ -959,11 +1117,13 @@ VV:
     min_longitude: 20.5857504
     max_latitude: 41.25057229999999
     max_longitude: 20.6043006
-  name: Vevcani
-X1~:
-  unofficial_names: Skopje
   translations:
-    en: Skopje
+    en: Vevcani
+  comments: 
+X1~: 
+  name: Skopje
+  code: 
+  unofficial_names: Skopje
   geo:
     latitude: 41.9973462
     longitude: 21.4279956
@@ -971,11 +1131,13 @@ X1~:
     min_longitude: 21.3120283
     max_latitude: 42.0531486
     max_longitude: 21.5377522
-  name: Skopje
-ZA:
-  unofficial_names: Zajas
   translations:
-    en: Zajas
+    en: Skopje
+  comments: 
+ZA: 
+  name: Zajas
+  code: 
+  unofficial_names: Zajas
   geo:
     latitude: 41.6030328
     longitude: 20.8791343
@@ -983,11 +1145,13 @@ ZA:
     min_longitude: 20.7818541
     max_latitude: 41.664541
     max_longitude: 20.9886531
-  name: Zajas
-ZE:
-  unofficial_names: Želino
   translations:
-    en: Želino
+    en: Zajas
+  comments: 
+ZE: 
+  name: Želino
+  code: 
+  unofficial_names: Želino
   geo:
     latitude: 41.98034190000001
     longitude: 21.0609438
@@ -995,11 +1159,13 @@ ZE:
     min_longitude: 21.0548639
     max_latitude: 41.9876251
     max_longitude: 21.0698751
-  name: Želino
-ZK:
-  unofficial_names: Zelenikovo
   translations:
-    en: Zelenikovo
+    en: Želino
+  comments: 
+ZK: 
+  name: Zelenikovo
+  code: 
+  unofficial_names: Zelenikovo
   geo:
     latitude: 41.8733812
     longitude: 21.602725
@@ -1007,11 +1173,13 @@ ZK:
     min_longitude: 21.5935826
     max_latitude: 41.8769431
     max_longitude: 21.6099306
-  name: Zelenikovo
-ZR:
-  unofficial_names: Zrnovci
   translations:
-    en: Zrnovci
+    en: Zelenikovo
+  comments: 
+ZR: 
+  name: Zrnovci
+  code: 
+  unofficial_names: Zrnovci
   geo:
     latitude: 41.8228221
     longitude: 22.4172256
@@ -1019,8 +1187,20 @@ ZR:
     min_longitude: 22.354366
     max_latitude: 41.8693271
     max_longitude: 22.4490741
-  name: Zrnovci
-'85':
+  translations:
+    en: Zrnovci
+  comments: 
+'85': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Skopje
     am: ስኮፕዬ
@@ -1081,7 +1261,35 @@ ZR:
     uk: Скопʼє
     ur: اسکوپیہ
     vi: Skopje
-'02':
+    cy: Skopje
+    ceb: Skopje
+    sr_Latn: Veliko Skoplje
+    zh: 斯科普里
+    yue_Hans: 斯科普里
+    jv: Skopje
+    sq: Qyteti i Shkupit
+    ccp: "\U0001110C\U00011133\U00011107\U00011127\U0001111B\U00011134\U0001110E\U0001112C"
+    ga: Scóipé
+    ky: Скопье
+    pa: ਸਕੋਪੀਏ
+    kk: Скопье
+    yue: 斯科普里
+    yo: Skopje
+    uz: Skopye
+    bs: Skoplje
+    mk: Град Скопје
+  comments: 
+'02': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية أراتسينوفو
     bg: Арачиново
@@ -1122,7 +1330,25 @@ ZR:
     ur: بلدیہ آراچینوو
     vi: Đô thị tự trị Aracinovo
     zh: 阿拉津诺沃区
-'03':
+    lv: Aračinovo pašvaldība
+    ceb: Opština Aračinovo
+    sr_Latn: Opština Aračinovo
+    lt: Aračinovo savivaldybė
+    sq: Komuna e Haraçinës
+    ccp: "\U00011103\U00011122\U00011125\U0001112C\U0001111A\U0001112E\U0001111E\U0001112E"
+    mk: Општина Арачиново
+  comments: 
+'03': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بيروفو
     bg: Берово (община)
@@ -1161,7 +1387,26 @@ ZR:
     uk: Берово
     ur: بیروو بلدیہ
     vi: Đô thị tự trị Berovo
-'04':
+    lv: Berovo pašvaldība
+    ceb: Berovo
+    sr_Latn: Opština Berovo
+    lt: Berovo savivaldybė
+    zh: 贝罗沃区
+    sq: Komuna e Berovës
+    ccp: "\U0001111D\U0001112C\U00011122\U0001112E\U0001111E\U0001112E"
+    mk: Општина Берово
+  comments: 
+'04': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بيتولا
     bg: Битоля
@@ -1200,7 +1445,25 @@ ZR:
     uk: Бітола
     ur: بیتولا بلدیہ
     vi: Đô thị tự trị Bitola
-'05':
+    lv: Bitolas pašvaldība
+    sr_Latn: Opština Bitolj
+    lt: Bitolos savivaldybė
+    zh: 比托拉区
+    sq: Komuna e Manastirit
+    ccp: "\U0001111D\U00011128\U00011111\U0001112E\U00011123"
+    mk: Општина Битола
+  comments: 
+'05': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بوجدانسى
     bg: Богданци
@@ -1239,7 +1502,26 @@ ZR:
     uk: Богданці
     ur: بوگدانتسی بلدیہ
     vi: Đô thị tự trị Bogdanci
-'06':
+    lv: Bogdancu pašvaldība
+    ceb: Bogdanci (munisipyo)
+    sr_Latn: Opština Bogdanci
+    lt: Bogdancio savivaldybė
+    zh: 博格丹奇区
+    sq: Komuna e Bogdancës
+    ccp: "\U0001111D\U00011127\U00011107\U00011134\U00011113\U0001111A\U00011134\U00011125\U00011128"
+    mk: Општина Богданци
+  comments: 
+'06': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بوغوفينج
     bg: Боговине
@@ -1277,7 +1559,26 @@ ZR:
     uk: Боговинє (община)
     ur: بوگووینیہ بلدیہ
     vi: Đô thị tự trị Bogovinje
-'07':
+    lv: Bogovinjes pašvaldība
+    ceb: Bogovinje
+    sr_Latn: Opština Bogovinje
+    lt: Bogovinjės savivaldybė
+    zh: 博戈维涅区
+    sq: Komuna e Bogovinës
+    ccp: "\U0001111D\U0001112E\U00011109\U0001112E\U0001111E\U00011128\U0001111A\U00011134\U0001110E\U0001112C"
+    mk: Општина Боговиње
+  comments: 
+'07': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بوسيلوفو
     bg: Босилово
@@ -1316,7 +1617,26 @@ ZR:
     uk: Босилово
     ur: بوسیلوو بلدیہ
     vi: Đô thị tự trị Bosilovo
-'08':
+    lv: Bosilovo pašvaldība
+    ceb: Bosilovo
+    sr_Latn: Opština Bosiljovo
+    lt: Bosiolovo savivaldybė
+    zh: 博西洛沃区
+    sq: Komuna e Bosilovës
+    ccp: "\U0001111D\U0001112E\U00011125\U00011128\U00011123\U0001112E\U0001111E\U0001112E"
+    mk: Општина Босилово
+  comments: 
+'08': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية برفينيتسا
     bg: Бървеница
@@ -1355,7 +1675,26 @@ ZR:
     uk: Брвениця
     ur: بروینیسا بلدیہ
     vi: Đô thị tự trị Brvenica
-'11':
+    lv: Brvenicas pašvaldība
+    ceb: Brvenica
+    sr_Latn: Opština Brvenica
+    lt: Brvenicos savivaldybė
+    zh: 布尔韦尼察区
+    sq: Komuna e Bërvenicës
+    ccp: "\U0001111D\U00011133\U00011122\U0001111E\U0001112C\U0001111A\U00011128\U00011107"
+    mk: Општина Брвеница
+  comments: 
+'11': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: فاسيليفو
     bg: Василево
@@ -1396,7 +1735,26 @@ ZR:
     uk: Василево
     ur: واسیلیوو بلدیہ
     vi: Đô thị tự trị Vasilevo
-'14':
+    lv: Vasilevo pašvaldība
+    ceb: Vasilevo
+    sr_Latn: Opština Vasiljevo
+    lt: Vasilevo savivaldybė
+    zh: 瓦西列沃區
+    sq: Komuna e Vasilevës
+    ccp: "\U0001111E\U00011125\U00011128\U00011123\U0001112C\U0001111E\U0001112E"
+    mk: Општина Василево
+  comments: 
+'14': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية فينيتسا
     bg: Виница
@@ -1434,7 +1792,26 @@ ZR:
     uk: Виниця
     ur: وینیتسا بلدیہ، مقدونیہ
     vi: Đô thị tự trị Vinica
-'19':
+    lv: Vinicas pašvaldība
+    ceb: Vinica
+    sr_Latn: Opština Vinica
+    lt: Vinicos savivaldybė, Makedonija
+    zh: 维尼察区
+    sq: Komuna e Vinicës
+    ccp: "\U0001111E\U00011128\U0001111A\U00011128\U00011107"
+    mk: Општина Виница
+  comments: 
+'19': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية غوستيفار
     bg: Гостивар
@@ -1473,7 +1850,27 @@ ZR:
     uk: Гостивар (община)
     ur: گوستیوار بلدیہ
     vi: Đô thị tự trị Gostivar
-'20':
+    lv: Gostivaras pašvaldība
+    ceb: Gostivar (munisipyo)
+    sr_Latn: Opština Gostivar
+    lt: Gostivaro savivaldybė
+    zh: 戈斯蒂瓦区
+    sq: Komuna e Gostivarit
+    ccp: "\U00011109\U0001112E\U0001110C\U00011134\U00011111\U00011128\U0001111E\U00011122\U00011134"
+    hu: Gosztivari járás
+    mk: Општина Гостивар
+  comments: 
+'20': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية غرادسكو
     bg: Градско
@@ -1512,7 +1909,26 @@ ZR:
     uk: Градсько
     ur: گرادسکو بلدیہ
     vi: Đô thị tự trị Gradsko
-'21':
+    lv: Gradsko pašvaldība
+    ceb: Gradsko
+    sr_Latn: Opština Gradsko
+    lt: Gradsko savivaldybė
+    zh: 格拉茲科區
+    sq: Komuna e Grackës
+    ccp: "\U00011109\U00011133\U00011122\U00011116\U00011134\U00011125\U00011134\U00011107\U0001112E"
+    mk: Општина Градско
+  comments: 
+'21': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ديبار
     bg: Дебър
@@ -1550,7 +1966,26 @@ ZR:
     uk: Дебар
     ur: دیبار بلدیہ
     vi: Đô thị tự trị Debar
-'22':
+    lv: Debaras pašvaldība
+    ceb: Debar
+    sr_Latn: Opština Debar
+    lt: Debaro savivaldybė
+    zh: 德巴尔区
+    sq: Komuna e Dibrës
+    ccp: "\U00011113\U0001112C\U0001111D\U00011127\U00011122\U00011134"
+    mk: Општина Дебар
+  comments: 
+'22': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ديباركا
     bg: Дебърца
@@ -1589,7 +2024,27 @@ ZR:
     uk: Дебарця
     ur: دیبرسا بلدیہ
     vi: Đô thị tự trị Debarca
-'23':
+    lv: Debarcas pašvaldība
+    ceb: Debarca
+    sr_Latn: Opština Debarca
+    lt: Debarcos savivaldybė
+    zh: 德巴尔查区
+    sq: Komuna e Debarcës
+    ccp: "\U00011113\U0001112C\U0001111D\U00011127\U00011122\U00011134\U00011107"
+    ro: Comuna Debarca
+    mk: Општина Дебарца
+  comments: 
+'23': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ديلتشيفو
     bg: Царево село
@@ -1628,7 +2083,26 @@ ZR:
     uk: Делчево
     ur: بلدیہ دیلچیوو
     vi: Đô thị tự trị Delcevo
-'27':
+    lv: Delčevo pašvaldība
+    ceb: Opština Delčevo
+    sr_Latn: Opština Delčevo
+    lt: Delčevo savivaldybė
+    zh: 德尔塞沃区
+    sq: Komuna e Dellçevës
+    ccp: "\U00011113\U0001112C\U00011123\U00011134\U00011125\U00011128\U0001111A\U0001112E"
+    mk: Општина Делчево
+  comments: 
+'27': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية دولنيني
     bg: Долнени
@@ -1667,7 +2141,26 @@ ZR:
     uk: Долнени
     ur: دولنینی بلدیہ
     vi: Đô thị tự trị Dolneni
-'30':
+    lv: Dolnenu pašvaldība
+    ceb: Dolneni
+    sr_Latn: Opština Dolneni
+    lt: Dolnenio savivaldybė
+    zh: 多尔涅尼区
+    sq: Komuna e Dollnenit
+    ccp: "\U00011113\U0001112E\U00011123\U00011134\U0001111A\U0001112C\U0001111A\U00011128"
+    mk: Општина Долнени
+  comments: 
+'30': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تزيلينو
     bg: Желино
@@ -1705,7 +2198,26 @@ ZR:
     uk: Желино
     ur: بلدیہ ژیلینو
     vi: Đô thị tự trị Zelino
-'32':
+    lv: Želino pašvaldība
+    ceb: Opština Želino
+    sr_Latn: Opština Želino
+    lt: Želino savivaldybė
+    zh: 熱利諾區
+    sq: Komuna e Zhelinës
+    ccp: "\U0001110E\U0001112C\U00011123\U00011128\U0001111A\U0001112E"
+    mk: Општина Желино
+  comments: 
+'32': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية زيلينيكوفو
     bg: Община Зелениково
@@ -1744,7 +2256,26 @@ ZR:
     uk: Зелениково
     ur: زیلینیکوو بلدیہ
     vi: Đô thị tự trị Zelenikovo
-'33':
+    lv: Zelenikovo pašvaldība
+    ceb: Zelenikovo
+    sr_Latn: Opština Zelenikovo
+    lt: Zelenikovo savivaldybė
+    zh: 澤倫尼科沃區
+    sq: Komuna e Zelenikovës
+    ccp: "\U0001110E\U0001112C\U00011123\U0001112C\U0001111A\U00011128\U00011107\U0001112E\U0001111E\U0001112E"
+    mk: Општина Зелениково
+  comments: 
+'33': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية زرنوفتشي
     bg: Зърновци
@@ -1782,7 +2313,26 @@ ZR:
     uk: Зрновці (община)
     ur: زرنووتسی بلدیہ
     vi: Đô thị tự trị Zrnovci
-'34':
+    lv: Zrnovci pašvaldība
+    ceb: Zrnovci
+    sr_Latn: Opština Zrnovci
+    lt: Zrnovcio savivaldybė
+    zh: 日尔诺维奇区
+    sq: Komuna e Zërnocit
+    ccp: "\U0001111A\U0001112E\U0001111B\U00011134\U00011125\U00011128"
+    mk: Општина Зрновци
+  comments: 
+'34': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية إليندن
     bg: Белимбегово
@@ -1821,7 +2371,26 @@ ZR:
     uk: Ілинден (община)
     ur: ایلندن بلدیہ
     vi: Đô thị tự trị Ilinden
-'35':
+    lv: Ilindenas pašvaldība
+    ceb: Ilinden
+    sr_Latn: Opština Ilinden
+    lt: Ilindeno savivaldybė
+    zh: 伊林登區
+    sq: Komuna e Belimbegut
+    ccp: "\U00011103\U00011128\U00011123\U00011128\U0001111A\U00011134\U00011113\U0001112C\U0001111A\U00011134"
+    mk: Општина Илинден
+  comments: 
+'35': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية جيغونوفس
     bg: Йегуновце
@@ -1859,7 +2428,26 @@ ZR:
     uk: Єгуновце (община)
     ur: یگونووتسہ بلدیہ
     vi: Đô thị tự trị Jegunovce
-'36':
+    lv: Jegunovces municipalitāte
+    ceb: Jegunovce
+    sr_Latn: Opština Jegunovce
+    lt: Jegunovcės savivaldybė
+    zh: 耶古诺夫策区
+    sq: Komuna e Jegunocit
+    ccp: "\U0001110E\U0001112C\U00011109\U0001112A\U0001111A\U0001112E\U0001111B\U00011134"
+    mk: Општина Јегуновце
+  comments: 
+'36': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كافادارتسي
     bg: Кавадарци
@@ -1897,7 +2485,27 @@ ZR:
     uk: Кавадарці
     ur: کاوادارتسی بلدیہ
     vi: Đô thị tự trị Kavadarci
-'37':
+    lv: Kavadarci pašvaldība
+    ceb: Kavadarci
+    sr_Latn: Opština Kavadarci
+    lt: Kavadarčio savivaldybė
+    zh: 卡瓦達爾齊區
+    sq: Komuna e Kavadarit
+    ccp: "\U00011107\U0001111E\U00011113\U00011122\U00011134\U00011125\U00011128"
+    ca: Kavadarci
+    mk: Општина Кавадарци
+  comments: 
+'37': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: كاربينتسي
     bg: Карбинци
@@ -1936,7 +2544,26 @@ ZR:
     uk: Карбинці
     ur: کاربنتسی بلدیہ
     vi: Karbinci
-'40':
+    lv: Karbinci
+    ceb: Karbinci
+    sr_Latn: Opština Karbinci
+    lt: Karbinčio savivaldybė
+    zh: 卡尔宾奇区
+    sq: Komuna e Karbincës
+    ccp: "\U00011107\U00011122\U00011134\U0001111D\U00011128\U0001111A\U00011134\U00011125\U00011128"
+    mk: Општина Карбинци
+  comments: 
+'40': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كيتشيفو
     be: абшчына Кічава
@@ -1975,7 +2602,26 @@ ZR:
     uk: Кичево
     ur: کیچیوو بلدیہ
     vi: Đô thị tự trị Kicevo
-'41':
+    lv: Kičevo pasvaldība
+    ceb: Opština Kičevo
+    sr_Latn: Opština Kičevo
+    lt: Kičevo savivaldybė
+    zh: 基切沃區
+    sq: Komuna e Kërçovës
+    ccp: "\U00011107\U00011128\U00011125\U0001112C\U0001111E\U0001112E"
+    mk: Општина Кичево
+  comments: 
+'41': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كونتشه
     bg: Конче
@@ -2013,7 +2659,26 @@ ZR:
     uk: Конче
     ur: کونچے بلدیہ
     vi: Đô thị tự trị Konce
-'42':
+    lv: Končes pašvaldība
+    ceb: Opština Konče
+    sr_Latn: Opština Konče
+    lt: Končės savivaldybė
+    zh: 孔切區
+    sq: Komuna e Konçës
+    ccp: "\U00011107\U00011127\U0001111A\U00011134"
+    mk: Општина Конче
+  comments: 
+'42': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كوتشاني
     bg: Кочани
@@ -2051,7 +2716,26 @@ ZR:
     uk: Кочани (община)
     ur: بلدیہ کوچانی
     vi: Đô thị tự trị Kocani
-'43':
+    lv: Kočanu pašvaldība
+    ceb: Opština Kočani
+    sr_Latn: Opština Kočani
+    lt: Kočanio savivaldybė
+    zh: 科查尼區
+    sq: Komuna e Koçanit
+    ccp: "\U00011107\U0001112E\U00011125\U0001111A\U00011128"
+    mk: Општина Кочани
+  comments: 
+'43': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كراتوفو
     bg: Кратово
@@ -2090,7 +2774,26 @@ ZR:
     uk: Кратово
     ur: کارتوو بلدیہ
     vi: Đô thị tự trị Kratovo
-'44':
+    lv: Kratovo pašvaldība
+    ceb: Kratovo Opština
+    sr_Latn: Opština Kratovo
+    lt: Kratovo savivaldybė
+    zh: 克拉托沃區
+    sq: Komuna e Kratovës
+    ccp: "\U00011107\U00011133\U00011122\U00011111\U0001112E\U0001111E\U0001112E"
+    mk: Општина Кратово
+  comments: 
+'44': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كريفا بالانكا
     bg: Крива паланка
@@ -2129,7 +2832,26 @@ ZR:
     uk: Крива Паланка
     ur: کریوا پالانکا بلدیہ
     vi: Đô thị tự trị Kriva Palanka
-'45':
+    lv: Kriva Palankas pašvaldība
+    ceb: Kriva Palanka
+    sr_Latn: Opština Kriva Palanka
+    lt: Kriva Palankos savivaldybė
+    zh: 克里瓦帕蘭卡區
+    sq: Komuna e Kriva Pallankës
+    ccp: "\U00011107\U00011133\U00011122\U00011128\U0001111E \U0001111B\U00011123\U0001111A\U00011134\U00011107"
+    mk: Општина Крива Паланка
+  comments: 
+'45': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كريفوغاشتاني
     bg: Кривогащани
@@ -2167,7 +2889,26 @@ ZR:
     uk: Кривогаштани
     ur: بلدیہ کریووگاشتانی
     vi: Đô thị tự trị Krivogastani
-'46':
+    lv: Krivogaštanu pašvaldība
+    ceb: Opština Krivogaštani
+    sr_Latn: Opština Krivogaštani
+    lt: Krivogaštanio savivaldybė
+    zh: 克里沃加什塔尼区
+    sq: Komuna e Krivogashtanit
+    ccp: "\U00011107\U00011133\U00011122\U00011128\U0001111E\U0001112E\U00011109\U0001110C\U00011134\U00011111\U0001111A\U00011128"
+    mk: Општина Кривогаштани
+  comments: 
+'46': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كروشيفو
     bg: Крушево
@@ -2207,7 +2948,26 @@ ZR:
     uk: Крушево
     ur: بلدیہ کروشیوو
     vi: Đô thị tự trị Krusevo
-'47':
+    lv: Kruševo pašvaldība
+    ceb: Opština Kruševo
+    sr_Latn: Opština Kruševo
+    lt: Kruševo savivaldybė
+    zh: 克鲁舍沃区
+    sq: Komuna e Krushevës
+    ccp: "\U00011107\U00011133\U00011122\U0001112A\U00011125\U0001112C\U0001111E\U0001112E"
+    mk: Општина Крушево
+  comments: 
+'47': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية كومانوفو
     bg: Куманово
@@ -2247,7 +3007,27 @@ ZR:
     uk: Куманово
     ur: کومانوو بلدیہ
     vi: Đô thị tự trị Kumanovo
-'48':
+    lv: Kumanovo pašvaldība
+    ceb: Kumanovo
+    sr_Latn: Opština Kumanovo
+    lt: Kumanovo savivaldybė
+    zh: 库马诺沃区
+    sq: Komuna e Kumanovës
+    ccp: "\U00011107\U0001112A\U0001111F\U00011134\U0001111A\U0001112E\U0001111E\U0001112E"
+    be: абшчына Куманава
+    mk: Општина Куманово
+  comments: 
+'48': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ليبكوفو
     bg: Липково
@@ -2286,7 +3066,26 @@ ZR:
     uk: Липково
     ur: لیپکوو بلدیہ
     vi: Đô thị tự trị Lipkovo
-'49':
+    lv: Lipkovo pašvaldība
+    ceb: Opština Lipkovo
+    sr_Latn: Opština Lipkovo
+    lt: Lipkovo savivaldybė
+    zh: 里普科沃區
+    sq: Komuna e Likovës
+    ccp: "\U00011123\U00011128\U0001111B\U00011134\U00011107\U0001112E\U0001111E\U0001112E"
+    mk: Општина Липково
+  comments: 
+'49': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية لوزوفو
     bg: Джумайлия
@@ -2325,7 +3124,26 @@ ZR:
     uk: Лозово
     ur: لوزوو بلدیہ
     vi: Đô thị tự trị Lozovo
-'50':
+    lv: Lozovo pašvaldība
+    ceb: Lozovo
+    sr_Latn: Opština Lozovo
+    lt: Lozovo savivaldybė
+    zh: 洛佐沃區
+    sq: Komuna e Llozovës
+    ccp: "\U00011123\U0001112E\U0001110E\U0001112E\U0001111E\U0001112E"
+    mk: Општина Лозово
+  comments: 
+'50': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية مارفوفو و روستيشا
     bg: Маврово и Ростуша
@@ -2364,7 +3182,27 @@ ZR:
     uk: Маврово і Ростуша
     ur: بلدیہ ماوروو اور روستوشا
     vi: Đô thị tự trị Mavrovo và Rostusa
-'51':
+    lv: Mavrovo un Rostušas pašvaldība
+    ceb: Opština Mavrovo i Rostuša
+    sr_Latn: Opština Mavrovo i Rostuša
+    lt: Marvrovo ir Rostušos savivaldybė
+    zh: 馬夫羅沃和羅斯圖沙區
+    sq: Komuna e Mavrovës dhe Radostushës
+    ccp: "\U0001111F\U0001111B\U00011134\U00011122\U0001112E\U0001111E\U0001112E \U00011103\U00011133\U00011103
+      \U00011122\U0001112E\U0001110C\U00011134\U00011111\U00011128\U00011105\U0001112A\U00011125"
+    mk: Општина Маврово и Ростуша
+  comments: 
+'51': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ماكيدونسكا كامينيكا
     bg: Каменица
@@ -2402,7 +3240,27 @@ ZR:
     uk: Македонська-Камениця
     ur: ماکیدونسکا کامینیتسا بلدیہ
     vi: Đô thị tự trị Makedonska Kamenica
-'52':
+    lv: Maķedonijas Kamenicas province
+    ceb: Makedonska Kamenica
+    sr_Latn: Opština Makedonska Kamenica
+    lt: Makedonijos Kamenicos provincija
+    zh: 馬其頓卡梅尼察區
+    sq: Komuna e Kamenicës
+    ccp: "\U0001111F\U00011107\U0001112C\U00011113\U0001112E\U0001111A\U00011134\U00011107
+      \U00011107\U0001111F\U0001112C\U0001111A\U00011128\U00011107"
+    mk: Општина Македонска Каменица
+  comments: 
+'52': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ماكيدونسكي برود
     bg: Брод (община)
@@ -2440,7 +3298,27 @@ ZR:
     uk: Македонський Брод (община)
     ur: ماکیدونسکی برود بلدیہ
     vi: Đô thị tự trị Makedonski Brod
-'54':
+    lv: Makedonskij-Brodas pašvaldība
+    ceb: Makedonski Brod
+    sr_Latn: Opština Makedonski Brod
+    lt: Makedonijos Brodo savivaldybė
+    zh: 馬其頓布羅德區
+    sq: Komuna e Brodit
+    ccp: "\U0001111F\U0001112C\U00011107\U00011113\U0001112E\U0001111A\U00011134\U00011107
+      \U0001111D\U00011133\U00011122\U0001112E\U00011116\U00011134"
+    mk: Општина Македонски Брод
+  comments: 
+'54': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية نيغوتينو
     bg: Неготино
@@ -2479,7 +3357,26 @@ ZR:
     uk: Неготино
     ur: نیگوتینو بلدیہ
     vi: Đô thị tự trị Negotino
-'56':
+    lv: Negotino pašvaldība
+    ceb: Negotino
+    sr_Latn: Opština Negotino
+    lt: Negotino savivaldybė
+    zh: 內戈蒂諾區
+    sq: Komuna e Negotinës
+    ccp: "\U0001111A\U0001112C\U00011109\U0001112E\U00011111\U00011128\U0001111A\U0001112E"
+    mk: Општина Неготино
+  comments: 
+'56': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية نوفو سيلو
     bg: Ново село
@@ -2518,7 +3415,26 @@ ZR:
     uk: Ново-Село
     ur: نوو سیلو بلدیہ
     vi: Novo Selo
-'58':
+    lv: Novo Selo pašvaldība
+    ceb: Novo Selo
+    sr_Latn: Opština Novo Selo
+    lt: Novo Selo savivaldybė
+    zh: 諾沃塞洛區
+    sq: Komuna e Novosellës
+    ccp: "\U0001111A\U0001112E\U0001111E\U0001112E \U00011125\U0001112C\U00011123\U0001112E"
+    mk: Општина Ново Село
+  comments: 
+'58': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية أوهريد
     bg: Охрид
@@ -2557,7 +3473,27 @@ ZR:
     uk: Охрид (община)
     ur: اوخرید بلدیہ
     vi: Đô thị tự trị Ohrid
-'60':
+    lv: Ohridas pašvaldība
+    ceb: Ohrid
+    sr_Latn: Opština Ohrid
+    lt: Ochrido savivaldybė
+    zh: 奧赫里德區
+    sq: Komuna e Ohrit
+    ccp: "\U00011103\U0001112E\U00011126\U00011134\U00011122\U00011128\U00011116\U00011134"
+    be: Охрыд
+    mk: Општина Охрид
+  comments: 
+'60': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بيتسيفو
     bg: Пехчево
@@ -2595,7 +3531,26 @@ ZR:
     uk: Пехчево (община)
     ur: بلدیہ پیخچوو
     vi: Đô thị tự trị Pehcevo
-'61':
+    lv: Pehčevo pašvaldība
+    ceb: Opština Pehčevo
+    sr_Latn: Opština Pehčevo
+    lt: Pechčevo savivaldybė
+    zh: 佩赫塞沃區
+    sq: Komuna e Peçevës
+    ccp: "\U0001111B\U0001112C\U00011126\U00011134\U00011125\U0001112C\U0001111E\U0001112E"
+    mk: Општина Пехчево
+  comments: 
+'61': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بلاسنيكا
     bg: Пласница
@@ -2633,7 +3588,26 @@ ZR:
     uk: Пласниця
     ur: پلاسنیتسا بلدیہ
     vi: Đô thị tự trị Plasnica
-'62':
+    lv: Plasnicas pašvaldība
+    ceb: Plasnica
+    sr_Latn: Opština Plasnica
+    lt: Plasnicos savivaldybė
+    zh: 普拉斯尼察區
+    sq: Komuna e Plasnicës
+    ccp: "\U0001111B\U00011133\U00011123\U0001110C\U00011134\U0001111A\U00011128\U00011107"
+    mk: Општина Пласница
+  comments: 
+'62': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بريليب
     bg: Прилеп (община)
@@ -2672,7 +3646,27 @@ ZR:
     uk: Прилеп (община)
     ur: پریلپ بلدیہ
     vi: Đô thị tự trị Prilep
-'63':
+    lv: Prilepas pašvaldība
+    ceb: Prilep (munisipyo)
+    sr_Latn: Opština Prilep
+    lt: Prilepo savivaldybė
+    zh: 普里萊普區
+    sq: Komuna e Prilepit
+    ccp: "\U0001111B\U00011133\U00011122\U00011128\U00011123\U0001112C\U0001111B\U00011134"
+    hy: Պրիլեպ մունիցիպիալիտետ
+    mk: Општина Прилеп
+  comments: 
+'63': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية بروتشتيب
     bg: Пробищип
@@ -2710,7 +3704,26 @@ ZR:
     uk: Пробиштип
     ur: بلدیہ پوربیشتیپ
     vi: Probistip Đô thị tự trị
-'64':
+    lv: Probištipas pašvaldība
+    ceb: Opština Probištip
+    sr_Latn: Opština Probištip
+    lt: Probištipo savivaldybė
+    zh: 普羅比什蒂普區
+    sq: Komuna e Probishtipit
+    ccp: "\U0001111B\U00011133\U00011122\U0001112E\U0001111D\U00011128\U0001110C\U00011134\U00011111\U00011128\U0001111B\U00011134"
+    mk: Општина Пробиштип
+  comments: 
+'64': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية رادوفيتش
     bg: Радовиш
@@ -2748,7 +3761,26 @@ ZR:
     uk: Радовиш
     ur: رادوویش بلدیہ
     vi: Đô thị tự trị Radovis
-'65':
+    lv: Radovišas pašvaldība
+    ceb: Opština Radoviš
+    sr_Latn: Opština Radoviš
+    lt: Radovišo savivaldybė
+    zh: 拉多維什區
+    sq: Komuna e Radovishtit
+    ccp: "\U00011122\U00011113\U0001112E\U0001111E\U00011128\U0001110C\U00011134"
+    mk: Општина Радовиш
+  comments: 
+'65': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية رانكوفيتسه
     bg: Ранковце
@@ -2787,7 +3819,27 @@ ZR:
     uk: Ранковце
     ur: رانکووتسے بلدیہ
     vi: Đô thị tự trị Rankovce
-'66':
+    lv: Rankovces pašvaldība
+    ceb: Opština Rankovce
+    sr_Latn: Opština Rankovce
+    lt: Rankovcės savivaldybė
+    zh: 蘭科夫采區
+    sq: Komuna e Rankocit
+    ccp: "\U00011122\U0001111A\U00011134\U0001111E\U0001112E\U0001111B\U00011134"
+    hu: Rankovce község
+    mk: Општина Ранковце
+  comments: 
+'66': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ريسن
     bg: Ресен
@@ -2826,7 +3878,26 @@ ZR:
     uk: Ресен
     ur: ریسن بلدیہ
     vi: Đô thị tự trị Resen
-'69':
+    lv: Reseņas pašvaldība
+    ceb: Resen (munisipyo)
+    sr_Latn: Opština Resan
+    lt: Reseno savivaldybė
+    zh: 里森区
+    sq: Komuna e Resnjës
+    ccp: "\U00011122\U0001112C\U00011125\U0001112C\U0001111A\U00011134"
+    mk: Општина Ресен
+  comments: 
+'69': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية سفيتي نيكولا
     bg: Свети Никола
@@ -2864,7 +3935,26 @@ ZR:
     uk: Светий Николе
     ur: سویتی نیلولے بلدیہ
     vi: Đô thị tự trị Sveti Nikole
-'70':
+    lv: Sveti Nikole pašvaldība
+    ceb: Sveti Nikole
+    sr_Latn: Opština Sveti Nikola
+    lt: Šventosios Nikolės savivaldybė
+    zh: 聖尼古萊區
+    sq: Komuna e Sveti Nikollës
+    ccp: "\U00011125\U00011133\U0001111E\U0001112C\U00011111\U00011128 \U0001111A\U00011128\U00011107\U0001112E\U00011123\U00011134"
+    mk: Општина Свети Николе
+  comments: 
+'70': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية سوبيتشه
     bg: Сопище
@@ -2902,7 +3992,26 @@ ZR:
     uk: Сопиште
     ur: بلدیہ سوپیشتے
     vi: Đô thị tự trị Sopiste
-'72':
+    lv: Sopištes pašvaldība
+    ceb: Opština Sopište
+    sr_Latn: Opština Sopište
+    lt: Sopištės savivaldybė
+    zh: 蘇皮什特區
+    sq: Komuna e Sopishtit
+    ccp: "\U00011125\U0001112E\U0001111B\U00011128\U0001110C\U00011134\U00011111\U0001112C"
+    mk: Општина Сопиште
+  comments: 
+'72': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة ستروغا
     bg: Струга
@@ -2940,7 +4049,27 @@ ZR:
     uk: Струга
     ur: ستوگا بلدیہ
     vi: Đô thị tự trị Struga
-'73':
+    lv: Strugas pašvaldība
+    ceb: Struga
+    sr_Latn: Opština Struga
+    lt: Strugos savivaldybė
+    zh: 斯特魯加區
+    sq: Komuna e Strugës
+    ccp: "\U00011111\U00011133\U00011122\U0001112A\U00011109"
+    hu: Sztruga község
+    mk: Општина Струга
+  comments: 
+'73': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ستروميتسا
     bg: Струмица
@@ -2979,7 +4108,26 @@ ZR:
     uk: Струмиця
     ur: سترومیتسا بلدیہ
     vi: Đô thị tự trị Strumica
-'74':
+    lv: Strumicas pašvaldība
+    ceb: Strumica
+    sr_Latn: Opština Strumica
+    lt: Strumicos savivaldybė
+    zh: 斯特魯米察區
+    sq: Komuna e Strumicës
+    ccp: "\U00011111\U00011133\U00011122\U0001112A\U0001111F\U00011128\U00011107"
+    mk: Општина Струмица
+  comments: 
+'74': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية ستودنيتشاني
     bg: Студеничани
@@ -3017,7 +4165,26 @@ ZR:
     uk: Студеничани
     ur: بلدیہ ستودینیچانی
     vi: Đô thị tự trị Studenicani
-'75':
+    lv: Studeničanu pašvaldība
+    ceb: Opština Studeničani
+    sr_Latn: Opština Studeničani
+    lt: Studeničanio savivaldybė
+    zh: 斯圖登尼查尼區
+    sq: Komuna e Studeniçanit
+    ccp: "\U0001110C\U00011133\U00011111\U0001112A\U0001112A\U00011113\U0001112C\U0001111A\U00011128\U00011107\U0001111A\U00011128"
+    mk: Општина Студеничани
+  comments: 
+'75': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تيارس
     bg: Теарце
@@ -3055,7 +4222,26 @@ ZR:
     uk: Теарце
     ur: تیارتسے بلدیہ
     vi: Đô thị tự trị Tearce
-'76':
+    lv: Tearces pašvaldība
+    ceb: Tearce
+    sr_Latn: Opština Tearce
+    lt: Tercės savivaldybė
+    zh: 特阿爾塞區
+    sq: Komuna e Tearcës
+    ccp: "\U00011111\U00011128\U00011120\U00011122\U00011134\U0001110C\U00011134"
+    mk: Општина Теарце
+  comments: 
+'76': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تيتوفو
     bg: Тетово (община)
@@ -3094,7 +4280,26 @@ ZR:
     uk: Тетово (община)
     ur: تیتوو بلدیہ
     vi: Đô thị tự trị Tetovo
-'78':
+    lv: Tetovo pašvaldība
+    ceb: Tetovo
+    sr_Latn: Opština Tetovo
+    lt: Tetovo savivaldybė
+    zh: 特托沃區
+    sq: Komuna e Tetovës
+    ccp: "\U00011111\U0001112C\U00011111\U0001112E\U0001111E\U0001112E"
+    mk: Општина Тетово
+  comments: 
+'78': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية سنتار جوبا
     bg: Вапа
@@ -3132,7 +4337,26 @@ ZR:
     uk: Центр-Жупа
     ur: سینتر ژوپا بلدیہ
     vi: Đô thị tự trị Centar Zupa
-'80':
+    lv: Centaras Župas pašvaldība
+    ceb: Opština Centar Župa
+    sr_Latn: Opština Centar Župa
+    lt: Centrinės Župos savivaldybė
+    zh: 辛塔尔祖帕区
+    sq: Komuna e Qendrës Zhupa
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134 \U0001110E\U0001112A\U0001111B"
+    mk: Општина Центар Жупа
+  comments: 
+'80': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تشاشكا
     bg: Чашка
@@ -3172,7 +4396,26 @@ ZR:
     uk: Чашка
     ur: چاشکا بلدیہ
     vi: Đô thị tự trị Caska
-'81':
+    lv: Čaškas pašvaldība
+    ceb: Opština Čaška
+    sr_Latn: Opština Čaška
+    lt: Čaškos savivaldybė
+    zh: 查什卡区
+    sq: Komuna e Çashkës
+    ccp: "\U00011107\U0001110C\U00011134\U00011107"
+    mk: Општина Чашка
+  comments: 
+'81': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تشيشينوفو- أبليشيفو
     bg: Чешиново-Облешево
@@ -3207,7 +4450,27 @@ ZR:
     uk: Чешиново-Облешево (община)
     ur: بلدیہ چیشینوو-وبلیشوو
     vi: Đô thị tự trị Cesinovo-Oblesevo
-'82':
+    lv: Češinovo-Obleševo pašvaldība
+    ceb: Češinovo-Obleševo
+    sr_Latn: Opština Češinovo-Obleševo
+    lt: Češinovo-Oblešovo savivaldybė
+    zh: 切希诺沃-奥布莱舍沃区
+    sq: Komuna e Çeshinovo-Obleshevës
+    ccp: "\U00011125\U0001112C\U0001110C\U00011128\U0001111A\U0001112E\U0001111E\U0001112E-\U00011103\U00011127\U0001111B\U00011134\U00011123\U0001112C\U00011125\U0001112E\U0001111E\U0001112E"
+    hu: Csesinovo-Oblesevo
+    mk: Општина Чешиново-Облешево
+  comments: 
+'82': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية تشوتشر سانديفو
     bg: Чучер
@@ -3246,7 +4509,26 @@ ZR:
     uk: Чучер-Сандево (община)
     ur: بلدیہ چوچر-ساندوو
     vi: Đô thị tự trị Cucer-Sandevo
-'83':
+    lv: Čučer-Sandevo pašvaldība
+    ceb: Opština Čučer-Sandevo
+    sr_Latn: Opština Čučer-Sandevo
+    lt: Čučer-Sandevo savivaldybė
+    zh: 楚塞尔桑德沃区
+    sq: Komuna e Çuçer-Sandevës
+    ccp: "\U00011125\U0001112A\U00011125\U0001112C\U00011122\U00011134-\U00011125\U0001111A\U00011134\U00011113\U0001112C\U0001111E\U0001112E"
+    mk: Општина Чучер-Сандево
+  comments: 
+'83': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بلدية شتيب
     bg: Щип
@@ -3284,7 +4566,26 @@ ZR:
     uk: Штип
     ur: بلدیہ شتیپ
     vi: Đô thị tự trị Stip
-'10':
+    lv: Štipas pašvaldība
+    ceb: Opština Štip
+    sr_Latn: Opština Štip
+    lt: Štipo savivaldybė
+    zh: 什提普區
+    sq: Komuna e Shtipit
+    ccp: "\U0001110C\U00011133\U00011111\U00011128\U0001111B\U00011134"
+    mk: Општина Штип
+  comments: 
+'10': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Валандово
     de: Opština Valandovo
@@ -3303,7 +4604,24 @@ ZR:
     tr: Valandova Belediyesi
     uk: Валандово
     ur: والاندوو بلدیہ
-'13':
+    ceb: Valandovo
+    sr_Latn: Opština Valandovo
+    zh: 瓦蘭多沃區
+    sq: Komuna e Vallandovës
+    ccp: "\U0001111E\U00011123\U0001111A\U00011134\U00011113\U0001112E\U0001111E\U0001112E"
+    mk: Општина Валандово
+  comments: 
+'13': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Велес
     de: Opština Veles
@@ -3323,7 +4641,24 @@ ZR:
     sv: Titov Veles Opština
     uk: Велес
     ur: ویلیس بلدیہ
-'16':
+    ceb: Titov Veles Opština
+    sr_Latn: Opština Veles
+    zh: 韋萊斯區
+    sq: Komuna e Velesit
+    ccp: "\U0001111E\U00011123\U0001112C\U0001110C\U00011134"
+    mk: Општина Велес
+  comments: 
+'16': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Врабчище
     de: Opština Vrapčište
@@ -3342,7 +4677,24 @@ ZR:
     tr: Vrapçişte Belediyesi
     uk: Врапчиште
     ur: بلدیہ وراپچیشتے
-'18':
+    ceb: Opština Vrapčište
+    sr_Latn: Opština Vrapčište
+    zh: 弗拉普契什泰區
+    sq: Komuna e Vrapçishtit
+    ccp: "\U0001111E\U00011133\U00011122\U0001111B\U00011134\U00011125\U00011128\U0001110C\U00011134\U00011111\U0001112C"
+    mk: Општина Врапчиште
+  comments: 
+'18': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Гевгели
     de: Opština Gevgelija
@@ -3361,7 +4713,26 @@ ZR:
     tr: Gevgeli Belediyesi
     uk: Гевгелія
     ur: گیوگیلیا بلدیہ
-'24':
+    ceb: Gevgelija
+    sr_Latn: Opština Đevđelija
+    zh: 蓋夫蓋利亞區
+    sq: Komuna e Gjevgjelisë
+    ccp: "\U00011109\U0001112C\U0001111B\U00011134\U00011109\U0001112C\U00011123\U00011128\U0001110E"
+    fr: Gevgelija
+    pt: Município de Gevgelija
+    mk: Општина Гевгелија
+  comments: 
+'24': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Демир Капия
     de: Opština Demir Kapija
@@ -3379,7 +4750,26 @@ ZR:
     tr: Demir Kapı Belediyesi
     uk: Демир-Капія
     ur: دیمیر کاپیا بلدیہ
-'25':
+    ceb: Demir Kapija
+    sr_Latn: Opština Demir Kapija
+    zh: 德米尔卡皮雅区
+    sq: Komuna e Demir Kapisë
+    ccp: "\U00011113\U0001112C\U0001111F\U00011128\U00011122\U00011134 \U00011107\U0001111B\U00011128\U0001110E"
+    fr: Demir Kapija
+    pt: Município de Demir Kapija
+    mk: Општина Демир Капија
+  comments: 
+'25': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Демир Хисар
     de: Opština Demir Hisar
@@ -3400,7 +4790,27 @@ ZR:
     tr: Demir Hisar Belediyesi
     uk: Демир-Хисар
     ur: دیمیر حسار بلدیہ
-'26':
+    ceb: Demir Hisar
+    sr_Latn: Opština Demir Hisar
+    zh: 德米尔希萨尔区
+    el: Δήμος του Ντεμίρ Χισάρ
+    sq: Komuna e Demir Hisarit
+    ccp: "\U00011113\U0001112C\U0001111F\U00011128\U00011122\U00011134 \U00011126\U00011128\U00011125\U00011122\U00011134"
+    fr: Demir Hisar
+    pt: Município de Demir Hisar
+    mk: Општина Демир Хисар
+  comments: 
+'26': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Дойран
     cs: Dojran
@@ -3421,7 +4831,26 @@ ZR:
     tr: Doyran Belediyesi
     uk: Дойран
     ur: دویران بلدیہ
-'53':
+    ceb: Opština Dojran
+    sr_Latn: Opština Dojran
+    zh: 多伊兰区
+    sq: Komuna e Dojranit
+    ccp: "\U00011113\U00011127\U0001110C\U00011134\U00011122\U0001111A\U00011134"
+    fr: Dojran
+    pt: Município de Dojran
+    mk: Општина Дојран
+  comments: 
+'53': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Могила
     de: Opština Mogila
@@ -3439,7 +4868,25 @@ ZR:
     sv: Mogila
     uk: Могила (община)
     ur: موگیلا بلدیہ
-'55':
+    ceb: Mogila
+    sr_Latn: Opština Mogila
+    zh: 莫吉拉區
+    sq: Komuna e Mogillës
+    ru: Могила
+    ccp: "\U0001111F\U0001112E\U00011109\U00011128\U00011123"
+    mk: Општина Могила
+  comments: 
+'55': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Новаци
     de: Opština Novaci
@@ -3456,7 +4903,24 @@ ZR:
     sv: Novaci
     uk: Новаці
     ur: نواتسی بلدیہ
-'59':
+    ceb: Novaci (munisipyo)
+    sr_Latn: Opština Novaci
+    zh: 諾瓦濟區
+    sq: Komuna e Novacit
+    ccp: "\U0001111A\U0001112E\U0001111E\U00011125\U00011128"
+    mk: Општина Новаци
+  comments: 
+'59': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Петровец
     de: Opština Petrovec
@@ -3473,7 +4937,25 @@ ZR:
     sv: Petrovec
     uk: Петровець
     ur: پیتروویتس بلدیہ
-'67':
+    ceb: Petrovec
+    sr_Latn: Opština Petrovec
+    zh: 彼得羅韋茨區
+    el: Δήμος του Πέτροβετς
+    sq: Komuna e Petrovecit
+    ccp: "\U0001111B\U0001112C\U00011111\U00011133\U00011122\U0001112E\U0001111E\U0001112C\U00011107\U00011134"
+    mk: Општина Петровец
+  comments: 
+'67': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Росоман
     cs: Opština Rosoman
@@ -3491,7 +4973,25 @@ ZR:
     sv: Rosoman
     uk: Росоман
     ur: روسومان بلدیہ
-'71':
+    ceb: Rosoman
+    sr_Latn: Opština Rosoman
+    zh: 羅索曼區
+    el: Δήμος του Ρόσομαν
+    sq: Komuna e Rosomanit
+    ccp: "\U00011122\U0001112E\U00011125\U0001112E\U0001111F\U0001111A\U00011134"
+    mk: Општина Росоман
+  comments: 
+'71': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Старо Нагоричане
     cs: Opština Staro Nagoričane
@@ -3509,7 +5009,24 @@ ZR:
     sv: Staro Nagoricane
     uk: Старо-Нагоричане (община)
     ur: بلدیہ ستارو ناگوریچانے
-'12':
+    ceb: Opština Staro Nagoricane
+    sr_Latn: Opština Staro Nagoričano
+    zh: 斯塔羅納戈里查內區
+    sq: Komuna e Nagoriçit të Vjetër
+    ccp: "\U0001110C\U00011133\U00011111\U00011122\U0001112E \U0001111A\U00011109\U0001112E\U00011122\U00011128\U00011107\U0001112C\U0001111A\U00011134"
+    mk: Општина Старо Нагоричане
+  comments: 
+'12': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     de: Opština Vevčani
     en: Vevčani
@@ -3526,45 +5043,1186 @@ ZR:
     sv: Vevčani
     uk: Вевчани (община)
     ur: ویوچانی بلدیہ
-'01':
+    ceb: Opština Vevčani
+    sr_Latn: Opština Vevčani
+    zh: 維夫查尼區
+    sq: Komuna e Veçanit
+    ccp: "\U0001111E\U0001112C\U0001111B\U00011134\U00011107\U0001111A\U00011128"
+    mk: Општина Вевчани
+  comments: 
+'01': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Aerodrom
-'09':
+    ccp: "\U00011103\U00011120\U0001112C\U00011122\U0001112E\U00011113\U00011133\U00011122\U0001112E\U0001111F\U00011134"
+  comments: 
+'09': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Butel
-'15':
+    ccp: "\U0001111D\U0001112A\U00011111\U0001112C\U00011123\U00011134"
+  comments: 
+'15': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Vraneštica
-'17':
+    ccp: "\U0001111E\U00011133\U00011122\U0001111A\U0001112C\U0001110C\U00011134\U00011111\U00011128\U00011107"
+  comments: 
+'17': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gazi Baba
-'28':
+    ccp: "\U00011109\U0001110E\U00011128 \U0001111D\U0001111D"
+  comments: 
+'28': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Drugovo
-'29':
+    ccp: "\U00011113\U00011133\U00011122\U0001112A\U00011109\U0001112E\U0001111E\U0001112E"
+  comments: 
+'29': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gjorče Petrov
-'31':
+    ccp: "\U0001110E\U0001112E\U00011122\U00011134 \U0001111B\U0001112C\U00011111\U00011133\U00011122\U0001112E\U0001111B\U00011134"
+  comments: 
+'31': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Zajas
-'38':
+    ccp: "\U0001110E\U0001110E\U0001110C\U00011134"
+  comments: 
+'38': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Karpoš
-'39':
+    ccp: "\U00011107\U00011122\U00011134\U0001111B\U0001112E\U0001110C\U00011134"
+  comments: 
+'39': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Kisela Voda
-'57':
+    ccp: "\U00011107\U00011128\U00011125\U0001112C\U00011123 \U00011123\U0001112E\U00011113"
+  comments: 
+'57': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Oslomej
-'68':
+    ccp: "\U00011103\U0001112E\U0001110C\U00011134\U00011123\U0001112E\U0001111F\U0001112C\U0001110C\U00011134"
+  comments: 
+'68': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Saraj
-'77':
+    ccp: "\U00011125\U00011122\U0001110C\U00011134"
+  comments: 
+'77': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Centar
-'79':
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+  comments: 
+'79': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Čair
-'84':
+    ccp: "\U00011125\U00011128\U00011120\U00011122\U00011134"
+  comments: 
+'84': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Šuto Orizari
+    ccp: "\U00011125\U0001112A\U00011111\U0001112E \U00011103\U00011127\U00011122\U00011128\U0001110E\U00011122\U00011128"
+  comments: 
+'101': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Veles
+  comments: 
+'102': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.9963004
+    longitude: 21.4987981
+  translations:
+    en: Gradsko
+  comments: 
+'103': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Demir Kapija
+  comments: 
+'104': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.7104777
+    longitude: 21.7635459
+  translations:
+    en: Kavadarci
+  comments: 
+'105': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.9070447
+    longitude: 20.9081294
+  translations:
+    en: Lozovo
+  comments: 
+'106': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 42.0008403
+    longitude: 20.9661102
+  translations:
+    en: Negotino
+  comments: 
+'107': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Rosoman
+  comments: 
+'108': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Sveti Nikole
+  comments: 
+'109': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Čaška
+  comments: 
+'201': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Berovo
+  comments: 
+'202': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Vinica
+  comments: 
+'203': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Delčevo
+  comments: 
+'204': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Zrnovci
+  comments: 
+'205': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Karbinci
+  comments: 
+'206': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Kočani
+  comments: 
+'207': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Makedonska Kamenica
+  comments: 
+'208': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Pehčevo
+  comments: 
+'209': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Probištip
+  comments: 
+'210': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Češinovo-Obleševo
+  comments: 
+'211': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Štip
+  comments: 
+'301': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Vevčani
+  comments: 
+'303': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Debar
+  comments: 
+'304': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Debrca
+  comments: 
+'307': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Kičevo
+  comments: 
+'308': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Makedonski Brod
+  comments: 
+'310': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Ohrid
+  comments: 
+'311': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Plasnica
+  comments: 
+'312': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Struga
+  comments: 
+'313': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Centar Župa
+  comments: 
+'401': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Bogdanci
+  comments: 
+'402': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Bosilovo
+  comments: 
+'403': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Valandovo
+  comments: 
+'404': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Vasilevo
+  comments: 
+'405': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Gevgelija
+  comments: 
+'406': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Dojran
+  comments: 
+'407': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Konče
+  comments: 
+'408': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Novo Selo
+  comments: 
+'409': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Radoviš
+  comments: 
+'410': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Strumica
+  comments: 
+'501': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Bitola
+  comments: 
+'502': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Demir Hisar
+  comments: 
+'503': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Dolneni
+  comments: 
+'504': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Krivogaštani
+  comments: 
+'505': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Kruševo
+  comments: 
+'506': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Mogila
+  comments: 
+'507': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Novaci
+  comments: 
+'508': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Prilep
+  comments: 
+'509': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Resen
+  comments: 
+'601': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Bogovinje
+  comments: 
+'602': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Brvenica
+  comments: 
+'603': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Vrapčište
+  comments: 
+'604': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Gostivar
+  comments: 
+'605': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Želino
+  comments: 
+'606': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Jegunovce
+  comments: 
+'607': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Mavrovo i Rostuše
+  comments: 
+'608': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Tearce
+  comments: 
+'609': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Tetovo
+  comments: 
+'701': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Kratovo
+  comments: 
+'702': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Kriva Palanka
+  comments: 
+'703': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Kumanovo
+  comments: 
+'704': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Lipkovo
+  comments: 
+'705': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Rankovce
+  comments: 
+'706': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Staro Nagoričane
+  comments: 
+'801': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Aerodrom †
+  comments: 
+'802': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Aračinovo
+  comments: 
+'803': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Butel †
+  comments: 
+'804': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Gazi Baba †
+  comments: 
+'805': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Gjorče Petrov †
+  comments: 
+'806': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Zelenikovo
+  comments: 
+'807': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Ilinden
+  comments: 
+'808': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Karpoš †
+  comments: 
+'809': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Kisela Voda †
+  comments: 
+'810': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Petrovec
+  comments: 
+'811': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Saraj †
+  comments: 
+'812': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Sopište
+  comments: 
+'813': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Studeničani
+  comments: 
+'814': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Centar †
+  comments: 
+'815': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Čair †
+  comments: 
+'816': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Čučer-Sandevo
+  comments: 
+'817': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 41.608635
+    longitude: 21.745275
+    min_latitude: 40.8537826
+    min_longitude: 20.452423
+    max_latitude: 42.373646
+    max_longitude: 23.0340441
+  translations:
+    en: Šuto Orizari †
+  comments: 

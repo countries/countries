@@ -1,6 +1,15 @@
 ---
-AA:
+AA: 
+  name: Adis Abeba
+  code: 
   unofficial_names: Adis Abeba
+  geo:
+    latitude: 8.9806034
+    longitude: 38.7577605
+    min_latitude: 8.8406988
+    min_longitude: 38.6560823
+    max_latitude: 9.0856549
+    max_longitude: 38.90020730000001
   translations:
     en: Addis Ababa
     af: Addis Abeba
@@ -62,17 +71,39 @@ AA:
     ur: ادیس ابابا
     vi: Addis Ababa
     zh: 亚的斯亚贝巴
-  geo:
-    latitude: 8.9806034
-    longitude: 38.7577605
-    min_latitude: 8.8406988
-    min_longitude: 38.6560823
-    max_latitude: 9.0856549
-    max_longitude: 38.90020730000001
-  name: Adis Abeba
-AF:
+    cy: Addis Ababa
+    ceb: Addis Ababa
+    sr_Latn: Adis Abeba
+    yue_Hans: 阿迪斯阿贝巴
+    jv: Addis Ababa
+    sq: Addis Abeba
+    ccp: "\U00011103\U00011113\U00011128\U0001110C\U00011134 \U00011103\U0001111D\U0001111D"
+    ga: Adas Ababa
+    ig: Addis Ababa
+    ky: Аддис-Абеба
+    ha: Addis Ababa
+    so: Addis Abeba
+    pa: ਆਦਿਸ ਆਬਬਾ
+    kk: Аддис-Абеба
+    yue: 阿迪斯阿貝巴
+    my: အာဒစ် အာဘာဘာမြို့
+    yo: Addis Ababa
+    uz: Addis-Abeba
+    bs: Adis Abeba
+    mk: Адис Абеба
+  comments: 
+AF: 
+  name: Afar
+  code: 
   unofficial_names:
   - Affar
+  geo:
+    latitude: 11.7559388
+    longitude: 40.958688
+    min_latitude: 8.840217899999999
+    min_longitude: 39.6713659
+    max_latitude: 14.46638
+    max_longitude: 42.397425
   translations:
     en: Afar
     am: አፋር
@@ -120,16 +151,23 @@ AF:
     uk: Афар
     ur: افار علاقہ
     vi: Afar (vùng)
-  geo:
-    latitude: 11.7559388
-    longitude: 40.958688
-    min_latitude: 8.840217899999999
-    min_longitude: 39.6713659
-    max_latitude: 14.46638
-    max_longitude: 42.397425
-  name: Afar
-AM:
+    lv: Afaras kiliks
+    ceb: Afar Region
+    sr_Latn: Afar
+    zh: 阿法尔州
+    ccp: "\U00011103\U0001111C\U00011122\U00011134"
+  comments: 
+AM: 
+  name: Amara
+  code: 
   unofficial_names: Amara
+  geo:
+    latitude: 11.3494247
+    longitude: 37.9784585
+    min_latitude: 8.728584
+    min_longitude: 35.275204
+    max_latitude: 13.7641961
+    max_longitude: 40.206138
   translations:
     en: Amhara
     am: አማራ
@@ -178,16 +216,24 @@ AM:
     uk: Амхара
     ur: امہارا علاقہ
     vi: Amhara (vùng)
-  geo:
-    latitude: 11.3494247
-    longitude: 37.9784585
-    min_latitude: 8.728584
-    min_longitude: 35.275204
-    max_latitude: 13.7641961
-    max_longitude: 40.206138
-  name: Amara
-BE:
+    lv: Amharas kiliks
+    ceb: Amhara Region
+    sr_Latn: Amhara
+    zh: 阿姆哈拉州
+    ccp: "\U00011103\U0001111F\U00011134\U00011126\U00011122"
+    eu: Amhara eskualdea
+  comments: 
+BE: 
+  name: Binshangul Gumuz
+  code: 
   unofficial_names: Binshangul Gumuz
+  geo:
+    latitude: 10.7802889
+    longitude: 35.5657862
+    min_latitude: 8.783433
+    min_longitude: 34.106831
+    max_latitude: 12.054975
+    max_longitude: 37.0327991
   translations:
     en: Benishangul-Gumuz
     am: ቤንሻንጉል-ጉምዝ ክልል
@@ -233,16 +279,24 @@ BE:
     uk: Бенішангул-Гумуз
     ur: بینشانگول-گوموز علاقہ
     vi: Benishangul-Gumuz
-  geo:
-    latitude: 10.7802889
-    longitude: 35.5657862
-    min_latitude: 8.783433
-    min_longitude: 34.106831
-    max_latitude: 12.054975
-    max_longitude: 37.0327991
-  name: Binshangul Gumuz
-DD:
+    lv: Benišangulas Gumizas kiliks
+    ceb: Benishangul-Gumuz Region
+    sr_Latn: Benišangul-Gumuz
+    zh: 本尚古勒-古馬茲州
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011128\U00011125\U00011101\U00011109\U0001112A\U00011123\U00011134-\U00011109\U0001112A\U0001111A\U0001110C\U00011134"
+    zu: Benishangul-Gumaz
+  comments: 
+DD: 
+  name: Dire Dawa
+  code: 
   unofficial_names: Dire Dawa
+  geo:
+    latitude: 9.6008747
+    longitude: 41.850142
+    min_latitude: 9.5719003
+    min_longitude: 41.8213534
+    max_latitude: 9.6381812
+    max_longitude: 41.88992349999999
   translations:
     en: Dire Dawa
     am: ድሬዳዋ
@@ -292,17 +346,28 @@ DD:
     uk: Дире-Дауа
     ur: دیرہ داوا
     vi: Dire Dawa
-  geo:
-    latitude: 9.6008747
-    longitude: 41.850142
-    min_latitude: 9.5719003
-    min_longitude: 41.8213534
-    max_latitude: 9.6381812
-    max_longitude: 41.88992349999999
-  name: Dire Dawa
-GA:
+    lv: Dire Dava
+    ceb: Dire Dawa Zone
+    sr_Latn: Dire Dava
+    zh: 德雷达瓦
+    ccp: "\U00011113\U00011120\U00011122\U00011134 \U00011113\U00011127\U00011120"
+    ha: Dire Dawa
+    eu: Dire Dawa
+    so: Diridhabe
+    uz: Diredava
+  comments: 
+GA: 
+  name: Gambela Hizboch
+  code: 
   unofficial_names:
   - Gambela
+  geo:
+    latitude: 7.9219687
+    longitude: 34.1531947
+    min_latitude: 7.0030869
+    min_longitude: 32.999939
+    max_latitude: 8.6091941
+    max_longitude: 35.364433
   translations:
     en: Gambela
     am: ጋምቤላ ሕዝቦች ክልል
@@ -349,16 +414,23 @@ GA:
     uk: Гамбела
     ur: گامبیلا علاقہ
     vi: Gambela
-  geo:
-    latitude: 7.9219687
-    longitude: 34.1531947
-    min_latitude: 7.0030869
-    min_longitude: 32.999939
-    max_latitude: 8.6091941
-    max_longitude: 35.364433
-  name: Gambela Hizboch
-HA:
+    lv: Gambelas kiliks
+    ceb: Gambela Region
+    sr_Latn: Region Gambela
+    zh: 甘貝拉州
+    ccp: "\U00011109\U0001111F\U00011134\U0001111D\U0001112C\U00011123"
+  comments: 
+HA: 
+  name: Hareri Hizb
+  code: 
   unofficial_names: Hareri Hizb
+  geo:
+    latitude: 9.314866
+    longitude: 42.1967716
+    min_latitude: 9.174386
+    min_longitude: 42.07599099999999
+    max_latitude: 9.378494
+    max_longitude: 42.2893491
   translations:
     en: Harari
     am: ሐረሪ ሕዝብ ክልል
@@ -404,16 +476,24 @@ HA:
     uk: Харарі
     ur: ہراری علاقہ
     vi: Harari (vùng)
-  geo:
-    latitude: 9.314866
-    longitude: 42.1967716
-    min_latitude: 9.174386
-    min_longitude: 42.07599099999999
-    max_latitude: 9.378494
-    max_longitude: 42.2893491
-  name: Hareri Hizb
-OR:
+    lv: Harari kiliks
+    ceb: Harari Region
+    sr_Latn: Region Harari
+    zh: 哈勒爾州
+    ccp: "\U00011126\U00011122\U00011122\U00011128"
+    eu: Harari
+  comments: 
+OR: 
+  name: Oromiya
+  code: 
   unofficial_names: Oromiya
+  geo:
+    latitude: 7.546037699999999
+    longitude: 40.6346851
+    min_latitude: 3.402422
+    min_longitude: 34.13031
+    max_latitude: 10.3866009
+    max_longitude: 42.933914
   translations:
     en: Oromia
     am: ኦሮሚያ ክልል
@@ -459,16 +539,26 @@ OR:
     uk: Оромія
     ur: اورومیا علاقہ
     vi: Oromia
-  geo:
-    latitude: 7.546037699999999
-    longitude: 40.6346851
-    min_latitude: 3.402422
-    min_longitude: 34.13031
-    max_latitude: 10.3866009
-    max_longitude: 42.933914
-  name: Oromiya
-SN:
+    lv: Oromijas kiliks
+    ceb: Oromiya Region
+    sr_Latn: Oromija
+    zh: 奧羅米亞州
+    jv: Region Oromia
+    ccp: "\U00011103\U00011127\U00011122\U0001112E\U0001111F\U00011128\U00011120"
+    eu: Oromia
+    be: Аромія
+  comments: 
+SN: 
+  name: YeDebub Biheroch Bihereseboch na Hizboch
+  code: 
   unofficial_names: YeDebub Biheroch Bihereseboch na Hizboch
+  geo:
+    latitude: 6.5156911
+    longitude: 36.954107
+    min_latitude: 4.440267
+    min_longitude: 34.187561
+    max_latitude: 8.455644999999999
+    max_longitude: 39.143376
   translations:
     en: Southern Nations, Nationalities, and Peoples
     am: ደቡብ ብሔሮች ብሔረሰቦችና ሕዝቦች ክልል
@@ -516,16 +606,26 @@ SN:
     uk: Регіон Народів і народностей півдня
     ur: جنوبی اقوام، قومیتیں، اور عوامی علاقہ
     vi: Vùng Các dân tộc Phương Nam
-  geo:
-    latitude: 6.5156911
-    longitude: 36.954107
-    min_latitude: 4.440267
-    min_longitude: 34.187561
-    max_latitude: 8.455644999999999
-    max_longitude: 39.143376
-  name: YeDebub Biheroch Bihereseboch na Hizboch
-SO:
+    lv: Dienvidu Nāciju, Nacionalitāšu un Tautību reģions
+    ceb: Southern Nations
+    sr_Latn: Region južnih nacija
+    zh: 南方各族州
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001110E\U00011116\U00011134, \U0001110E\U00011116\U00011128\U00011120\U00011127\U00011116
+      \U00011103\U00011133\U00011103 \U0001110E\U00011127\U0001111A\U00011127\U00011109\U00011127\U0001111A\U00011134"
+    eu: Hegoaldeko Nazioen, Nazionalitateen eta Herrien Eskualdea
+  comments: 
+SO: 
+  name: Sumale
+  code: 
   unofficial_names: Sumale
+  geo:
+    latitude: 6.6612293
+    longitude: 43.7908453
+    min_latitude: 3.938105999999999
+    min_longitude: 40.6923869
+    max_latitude: 11.088964
+    max_longitude: 47.9861791
   translations:
     en: Somali
     am: ሶማሌ ክልል
@@ -573,16 +673,24 @@ SO:
     uk: Сомалі
     ur: صومالی علاقہ
     vi: Vùng Somali
-  geo:
-    latitude: 6.6612293
-    longitude: 43.7908453
-    min_latitude: 3.938105999999999
-    min_longitude: 40.6923869
-    max_latitude: 11.088964
-    max_longitude: 47.9861791
-  name: Sumale
-TI:
+    lv: Somāli kiliks
+    ceb: Somali Region
+    sr_Latn: Region Somali
+    zh: 索馬里州
+    ccp: "\U00011125\U00011127\U0001111F\U00011123\U00011128"
+    so: Soomaali Galbeed
+  comments: 
+TI: 
+  name: Tigray
+  code: 
   unofficial_names: Tigray
+  geo:
+    latitude: 14.0323336
+    longitude: 38.3165725
+    min_latitude: 12.246681
+    min_longitude: 36.45191190000001
+    max_latitude: 14.89155
+    max_longitude: 39.989845
   translations:
     en: Tigray
     af: Tigray-streek
@@ -631,11 +739,8 @@ TI:
     uk: Тиграй
     ur: تیگراے علاقہ
     vi: Tigray (vùng)
-  geo:
-    latitude: 14.0323336
-    longitude: 38.3165725
-    min_latitude: 12.246681
-    min_longitude: 36.45191190000001
-    max_latitude: 14.89155
-    max_longitude: 39.989845
-  name: Tigray
+    lv: Tigrajas kiliks
+    sr_Latn: Region Tigraj
+    zh: 提格里州
+    ccp: "\U00011111\U0001112D\U00011109\U00011133\U00011122\U0001112C"
+  comments: 

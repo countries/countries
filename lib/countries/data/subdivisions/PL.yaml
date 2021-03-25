@@ -1,8 +1,17 @@
 ---
-DS:
+DS: 
+  name: Dolnośląskie
+  code: 
   unofficial_names:
   - dolnośląskie
   - Dolnośląskie
+  geo:
+    latitude: 51.13398609999999
+    longitude: 16.8841961
+    min_latitude: 50.09634
+    min_longitude: 14.816831
+    max_latitude: 51.8047592
+    max_longitude: 17.798917
   translations:
     en: Lower Silesian
     ar: محافظة سيليزيا السفلى
@@ -55,18 +64,21 @@ DS:
     ur: زیریں سیلیزیا صوبہ
     vi: Dolnośląskie
     zh: 下西里西亚省
-  geo:
-    latitude: 51.13398609999999
-    longitude: 16.8841961
-    min_latitude: 50.09634
-    min_longitude: 14.816831
-    max_latitude: 51.8047592
-    max_longitude: 17.798917
-  name: Dolnośląskie
-KP:
+    ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120\U0001111A\U00011134"
+  comments: 
+KP: 
+  name: Kujawsko-pomorskie
+  code: 
   unofficial_names:
   - kujawsko-pomorskie
   - Kujawsko-pomorskie
+  geo:
+    latitude: 53.1648363
+    longitude: 18.4834224
+    min_latitude: 52.33079
+    min_longitude: 17.2472674
+    max_latitude: 53.7809987
+    max_longitude: 19.7618466
   translations:
     en: Kuyavian-Pomerania
     af: Woiwodskap Kujawië-Pommere
@@ -119,18 +131,21 @@ KP:
     uk: Куявсько-Поморське воєводство
     ur: کویاوی-پومرانیا صوبہ
     vi: Kujawsko-Pomorskie
-  geo:
-    latitude: 53.1648363
-    longitude: 18.4834224
-    min_latitude: 52.33079
-    min_longitude: 17.2472674
-    max_latitude: 53.7809987
-    max_longitude: 19.7618466
-  name: Kujawsko-pomorskie
-LU:
+    ccp: "\U00011107\U0001112A\U00011120\U0001111E\U00011128\U00011120\U0001112C\U0001111A\U00011134-\U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
+  comments: 
+LU: 
+  name: Lubelskie
+  code: 
   unofficial_names:
   - lubelskie
   - Lubelskie
+  geo:
+    latitude: 51.2493519
+    longitude: 23.1011392
+    min_latitude: 50.251603
+    min_longitude: 21.6171249
+    max_latitude: 52.2879201
+    max_longitude: 24.1458931
   translations:
     en: Lublin
     af: Woiwodskap Lublin
@@ -184,18 +199,21 @@ LU:
     uk: Люблінське воєводство
     ur: لوبلین صوبہ
     vi: Lubelskie
-  geo:
-    latitude: 51.2493519
-    longitude: 23.1011392
-    min_latitude: 50.251603
-    min_longitude: 21.6171249
-    max_latitude: 52.2879201
-    max_longitude: 24.1458931
-  name: Lubelskie
-LB:
+    ccp: "\U00011123\U0001112A\U0001111B\U00011134\U00011123\U00011128\U0001111A\U00011134"
+  comments: 
+LB: 
+  name: Lubuskie
+  code: 
   unofficial_names:
   - lubuskie
   - Lubuskie
+  geo:
+    latitude: 52.2274612
+    longitude: 15.2559103
+    min_latitude: 51.363138
+    min_longitude: 14.534127
+    max_latitude: 53.1239582
+    max_longitude: 16.4163811
   translations:
     en: Lubusz
     ar: محافظة لوبوسكي
@@ -248,18 +266,21 @@ LB:
     uk: Любуське воєводство
     ur: لوبوش صوبہ
     vi: Lubuskie
-  geo:
-    latitude: 52.2274612
-    longitude: 15.2559103
-    min_latitude: 51.363138
-    min_longitude: 14.534127
-    max_latitude: 53.1239582
-    max_longitude: 16.4163811
-  name: Lubuskie
-LD:
+    ccp: "\U00011123\U0001111D\U0001112A\U0001110C\U00011134"
+  comments: 
+LD: 
+  name: Łódzkie
+  code: 
   unofficial_names:
   - łódzkie
   - Łódzkie
+  geo:
+    latitude: 51.4634771
+    longitude: 19.1726974
+    min_latitude: 50.8430329
+    min_longitude: 18.0750521
+    max_latitude: 52.3940561
+    max_longitude: 20.6591903
   translations:
     en: Łódź
     ar: محافظة وودج
@@ -310,18 +331,21 @@ LD:
     uk: Лодзинське воєводство
     ur: ووچ صوبہ
     vi: Łódzkie
-  geo:
-    latitude: 51.4634771
-    longitude: 19.1726974
-    min_latitude: 50.8430329
-    min_longitude: 18.0750521
-    max_latitude: 52.3940561
-    max_longitude: 20.6591903
-  name: Łódzkie
-MA:
+    ccp: "\U00011123\U00011127\U00011116\U00011134"
+  comments: 
+MA: 
+  name: Małopolskie
+  code: 
   unofficial_names:
   - małopolskie
   - Małopolskie
+  geo:
+    latitude: 49.72253060000001
+    longitude: 20.2503359
+    min_latitude: 49.1785791
+    min_longitude: 19.083192
+    max_latitude: 50.5200442
+    max_longitude: 21.4213826
   translations:
     en: Lesser Poland
     af: Woiwodskap Klein-Pole
@@ -374,18 +398,21 @@ MA:
     uk: Малопольське воєводство
     ur: اصغر پولینڈ صوبہ
     vi: Małopolskie
-  geo:
-    latitude: 49.72253060000001
-    longitude: 20.2503359
-    min_latitude: 49.1785791
-    min_longitude: 19.083192
-    max_latitude: 50.5200442
-    max_longitude: 21.4213826
-  name: Małopolskie
-MZ:
+    ccp: "\U00011123\U0001112C\U00011125\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+  comments: 
+MZ: 
+  name: Mazowieckie
+  code: 
   unofficial_names:
   - mazowieckie
   - Mazowieckie
+  geo:
+    latitude: 51.8927182
+    longitude: 21.0021679
+    min_latitude: 51.0132082
+    min_longitude: 19.2592569
+    max_latitude: 53.4818919
+    max_longitude: 23.1283212
   translations:
     en: Mazovia
     af: Woiwodskap Masowië
@@ -438,18 +465,21 @@ MZ:
     uk: Мазовецьке воєводство
     ur: صوبہ ماسووی
     vi: Mazowieckie
-  geo:
-    latitude: 51.8927182
-    longitude: 21.0021679
-    min_latitude: 51.0132082
-    min_longitude: 19.2592569
-    max_latitude: 53.4818919
-    max_longitude: 23.1283212
-  name: Mazowieckie
-OP:
+    ccp: "\U0001111F\U0001110E\U0001112E\U0001111E\U00011128\U00011120"
+  comments: 
+OP: 
+  name: Opolskie
+  code: 
   unofficial_names:
   - opolskie
   - Opolskie
+  geo:
+    latitude: 50.8003761
+    longitude: 17.937989
+    min_latitude: 49.9725265
+    min_longitude: 16.9087264
+    max_latitude: 51.1945111
+    max_longitude: 18.6957862
   translations:
     en: Opole
     ar: محافظة أوبولي
@@ -501,18 +531,21 @@ OP:
     uk: Опольське воєводство
     ur: اوپولے صوبہ
     vi: Opolskie
-  geo:
-    latitude: 50.8003761
-    longitude: 17.937989
-    min_latitude: 49.9725265
-    min_longitude: 16.9087264
-    max_latitude: 51.1945111
-    max_longitude: 18.6957862
-  name: Opolskie
-PK:
+    ccp: "\U00011103\U0001112E\U0001111B\U0001112E\U00011123\U00011134"
+  comments: 
+PK: 
+  name: Podkarpackie
+  code: 
   unofficial_names:
   - podkarpackie
   - Podkarpackie
+  geo:
+    latitude: 50.0574749
+    longitude: 22.0895691
+    min_latitude: 49.0020252
+    min_longitude: 21.1423457
+    max_latitude: 50.8181161
+    max_longitude: 23.5476409
   translations:
     en: Subcarpathia
     af: Woiwodskap Subkarpate
@@ -565,18 +598,21 @@ PK:
     uk: Підкарпатське воєводство
     ur: پودکرپاسکیہ صوبہ
     vi: Podkarpackie
-  geo:
-    latitude: 50.0574749
-    longitude: 22.0895691
-    min_latitude: 49.0020252
-    min_longitude: 21.1423457
-    max_latitude: 50.8181161
-    max_longitude: 23.5476409
-  name: Podkarpackie
-PD:
+    ccp: "\U00011125\U0001111B\U00011134\U00011107\U00011122\U00011134\U0001111B\U00011117\U00011128\U00011120"
+  comments: 
+PD: 
+  name: Podlaskie
+  code: 
   unofficial_names:
   - podlaskie
   - Podlaskie
+  geo:
+    latitude: 53.0697159
+    longitude: 22.9674639
+    min_latitude: 52.2800528
+    min_longitude: 21.5942443
+    max_latitude: 54.409889
+    max_longitude: 23.9462697
   translations:
     en: Podlaskie
     af: Woiwodskap Podlachië
@@ -629,18 +665,21 @@ PD:
     uk: Підляське воєводство
     ur: پودلاسکیہ صوبہ
     vi: Podlaskie
-  geo:
-    latitude: 53.0697159
-    longitude: 22.9674639
-    min_latitude: 52.2800528
-    min_longitude: 21.5942443
-    max_latitude: 54.409889
-    max_longitude: 23.9462697
-  name: Podlaskie
-PM:
+    ccp: "\U0001111B\U00011116\U00011134\U00011123\U0001110C\U00011134\U00011107\U00011128"
+  comments: 
+PM: 
+  name: Pomorskie
+  code: 
   unofficial_names:
   - pomorskie
   - Pomorskie
+  geo:
+    latitude: 54.2944252
+    longitude: 18.1531164
+    min_latitude: 53.49067179999999
+    min_longitude: 16.699129
+    max_latitude: 54.83572969999999
+    max_longitude: 19.6493699
   translations:
     en: Federal Capital Territory
     af: Woiwodskap Pommere
@@ -692,18 +731,22 @@ PM:
     uk: Поморське воєводство
     ur: پومرانیا صوبہ
     vi: Pomorskie
-  geo:
-    latitude: 54.2944252
-    longitude: 18.1531164
-    min_latitude: 53.49067179999999
-    min_longitude: 16.699129
-    max_latitude: 54.83572969999999
-    max_longitude: 19.6493699
-  name: Pomorskie
-SL:
+    ccp: "\U0001111C\U0001112C\U00011113\U00011122\U0001112C\U00011123\U00011134 \U00011107\U00011133\U00011120\U0001111B\U00011128\U00011111\U00011123\U00011134
+      \U00011111\U0001112C\U00011122\U00011128\U00011111\U00011127\U00011122\U00011128"
+  comments: 
+SL: 
+  name: Śląskie
+  code: 
   unofficial_names:
   - śląskie
   - Śląskie
+  geo:
+    latitude: 50.5716595
+    longitude: 19.3219768
+    min_latitude: 49.393975
+    min_longitude: 18.03475
+    max_latitude: 51.0993559
+    max_longitude: 19.9739915
   translations:
     en: Silesia
     ar: محافظة سيليزيا
@@ -755,18 +798,21 @@ SL:
     uk: Сілезьке воєводство
     ur: سیلیزیا صوبہ
     vi: Śląskie
-  geo:
-    latitude: 50.5716595
-    longitude: 19.3219768
-    min_latitude: 49.393975
-    min_longitude: 18.03475
-    max_latitude: 51.0993559
-    max_longitude: 19.9739915
-  name: Śląskie
-SK:
+    ccp: "\U00011125\U0001112D\U00011123\U0001112C\U00011125\U00011128\U00011120"
+  comments: 
+SK: 
+  name: Świętokrzyskie
+  code: 
   unofficial_names:
   - świętokrzyskie
   - Świętokrzyskie
+  geo:
+    latitude: 50.6261041
+    longitude: 20.9406279
+    min_latitude: 50.1855379
+    min_longitude: 19.7044002
+    max_latitude: 51.3421558
+    max_longitude: 21.8703061
   translations:
     en: Świętokrzyskie
     ar: محافظة شفينتوكشيسكي
@@ -817,18 +863,21 @@ SK:
     uk: Свентокшиське воєводство
     ur: شوئینتوشوسکیہ صوبہ
     vi: Świętokrzyskie
-  geo:
-    latitude: 50.6261041
-    longitude: 20.9406279
-    min_latitude: 50.1855379
-    min_longitude: 19.7044002
-    max_latitude: 51.3421558
-    max_longitude: 21.8703061
-  name: Świętokrzyskie
-WN:
+    ccp: "\U00011125\U0001112A\U00011103\U00011128\U00011111\U0001112E\U00011107\U00011133\U00011122\U0001112D\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011128"
+  comments: 
+WN: 
+  name: Warmińsko-mazurskie
+  code: 
   unofficial_names:
   - warmińsko-mazurskie
   - Warmińsko-mazurskie
+  geo:
+    latitude: 53.8671117
+    longitude: 20.702786
+    min_latitude: 53.1399971
+    min_longitude: 19.128516
+    max_latitude: 54.4533097
+    max_longitude: 22.8058724
   translations:
     en: Warmian-Masuria
     ar: محافظة فارميا-مازوريا
@@ -879,18 +928,21 @@ WN:
     uk: Вармінсько-Мазурське воєводство
     ur: وارمیا-ماسوریا صوبہ
     vi: Warmińsko-Mazurskie
-  geo:
-    latitude: 53.8671117
-    longitude: 20.702786
-    min_latitude: 53.1399971
-    min_longitude: 19.128516
-    max_latitude: 54.4533097
-    max_longitude: 22.8058724
-  name: Warmińsko-mazurskie
-WP:
+    ccp: "\U00011124\U00011122\U00011134\U0001111F\U00011128\U00011120\U0001111A\U00011134-\U0001111F\U00011125\U0001112A\U00011122\U00011128\U00011120"
+  comments: 
+WP: 
+  name: Wielkopolskie
+  code: 
   unofficial_names:
   - wielkopolskie
   - Wielkopolskie
+  geo:
+    latitude: 52.279986
+    longitude: 17.3522939
+    min_latitude: 51.1037882
+    min_longitude: 15.7789647
+    max_latitude: 53.6559175
+    max_longitude: 19.103349
   translations:
     en: Greater Poland
     af: Woiwodskap Groot-Pole
@@ -943,18 +995,21 @@ WP:
     uk: Великопольське воєводство
     ur: اکبر پولینڈ صوبہ
     vi: Wielkopolskie
-  geo:
-    latitude: 52.279986
-    longitude: 17.3522939
-    min_latitude: 51.1037882
-    min_longitude: 15.7789647
-    max_latitude: 53.6559175
-    max_longitude: 19.103349
-  name: Wielkopolskie
-ZP:
+    ccp: "\U00011109\U00011133\U00011122\U0001112C\U00011111\U00011122\U00011134 \U0001111B\U0001112E\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+  comments: 
+ZP: 
+  name: Zachodniopomorskie
+  code: 
   unofficial_names:
   - zachodniopomorskie
   - Zachodniopomorskie
+  geo:
+    latitude: 53.46578909999999
+    longitude: 15.1822581
+    min_latitude: 52.62466939999999
+    min_longitude: 14.1223531
+    max_latitude: 54.5690916
+    max_longitude: 16.9822089
   translations:
     en: West Pomerania
     af: Woiwodskap Wes-Pommere
@@ -1008,11 +1063,974 @@ ZP:
     uk: Західнопоморське воєводство
     ur: مغربی پومرانیا صوبہ
     vi: Zachodniopomorskie
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111B\U00011127\U0001111F\U0001112C\U00011122\U0001111A\U00011128\U00011120"
+  comments: 
+'02': 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 53.46578909999999
-    longitude: 15.1822581
-    min_latitude: 52.62466939999999
-    min_longitude: 14.1223531
-    max_latitude: 54.5690916
-    max_longitude: 16.9822089
-  name: Zachodniopomorskie
+    latitude: 52.1568773
+    longitude: 21.0046175
+  translations:
+    lv: Lejassilēzijas vojevodiste
+    mr: डॉल्नोश्लोंस्का प्रांत
+    ms: Wilayah Dolnoslaskie
+    ar: محافظة سيليزيا السفلى
+    te: లోయర్ సిలేసియన్ వాయివోడెషిప్
+    tr: Aşağı Silezya Voyvodalığı
+    sr_Latn: Vojvodstvo Donje Šlesko
+    lt: Žemutinės Silezijos vaivadija
+    ta: லோவெர் சிலேசியன் ஓய்வோடேஷிப்
+    vi: Dolnośląskie
+    ur: زیریں سیلیزیا صوبہ
+    nl: Neder-Silezië
+    zh: 下西里西亚省
+    bn: লোয়ার সিলেসিয়ান ভৈভেডেশিপ
+    fa: استان سلیزیا سفلی
+    pl: województwo dolnośląskie
+    sv: Nedre Schlesiens vojvodskap
+    el: Κάτω Σιλεσία
+    hi: निचला सिलेसियन वोइवोडीशिप
+    ja: ドルヌィ・シロンスク県
+    en: Lower Silesia
+    ru: Нижнесилезское воеводство
+    gu: લોઅર સિલેસિઅન વોઈવોડેશીપ
+    ka: ქვემო სილეზიის სავოევოდო
+    sr: Војводство Доње Шлеско
+    fr: Voïvodie de Basse-Silésie
+    ko: 돌니실롱스크 주
+    gl: Baixa Silesia
+    es: Baja Silesia
+    si: පහල සිලෙසියන් වෞඉවොදෙශිප්
+    da: Województwo dolnośląskie
+    fi: Ala-Sleesian voivodikunta
+    hu: Alsó-sziléziai vajdaság
+    kn: ಲೋವರ್ ಸೈಲ್ಸಿಯನ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Neðri-Slesía
+    id: Provinsi Dolnośląskie
+    sk: Dolnosliezske vojvodstvo
+    ro: Silezia Inferioară
+    he: שלזיה תחתית
+    hr: Donjošlesko vojvodstvo
+    eu: Silesia Behereko voivoderria
+    pt: Voivodia da Baixa Silésia
+    et: Alam-Sileesia vojevoodkond
+    de: Woiwodschaft Niederschlesien
+    it: voivodato della Bassa Slesia
+    uk: Нижньосілезьке воєводство
+    cs: Dolnoslezské vojvodství
+    nb: Nederschlesiske voivodskap
+    ca: Voivodat de Baixa Silèsia
+    be: Ніжнесілезскае ваяводства
+    th: จังหวัดดอลนือชล็อนสก์
+    bg: Долносилезко войводство
+  comments: 
+'04': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    lv: Kujāvijas-Pomožes vojevodiste
+    mr: कुयास्को-पोमोर्स्का प्रांत
+    af: Woiwodskap Kujawië-Pommere
+    ms: Wilayah Kujawsko-Pomorskie
+    ar: محافظة كويافيا-بوميرانيا
+    te: కుయావియన్-పొమరేనియన్ వోయివోడెషిప్
+    tr: Kuyavya-Pomeranya Voyvodalığı
+    sr_Latn: Vojvodstvo Kujavsko-Pomorje
+    lt: Kujavijos Pamario vaivadija
+    ta: குய்யாவின்-போமெரனின் ஓய்வோடேஷிப்
+    vi: Kujawsko-Pomorskie
+    ur: کویاوی-پومرانیا صوبہ
+    nl: Koejavië-Pommeren
+    zh: 庫亞維-波美拉尼亞省
+    bn: কুয়েভিয়ান-পোমারানিয়ান ভয়ভোডেশিপ
+    fa: استان کویاوی-پومرانیا
+    pl: województwo kujawsko-pomorskie
+    sv: Kujavien-Pommerns vojvodskap
+    el: Κουγιαβιανό-Πομεράνιο Βοϊβοδάτο
+    hi: कुआवियन-पोमरेनियन वोईवोडशिप
+    en: Kuyavia-Pomerania
+    ru: Куявско-Поморское воеводство
+    gu: કુઆવિયન-, પોમેરેનિયન , વોઈવોદેશીપ
+    ka: კუიავო-პომერანიის სავოევოდო
+    sr: Војводство Кујавско-Поморје
+    fr: Voïvodie de Couïavie-Poméranie
+    ko: 쿠야비포모제 주
+    gl: Cuiavia-Pomerania
+    es: Cuyavia y Pomerania
+    si: කුයවියන්-පොමරෙනියන් ප්‍රාන්තය
+    da: Województwo kujawsko-pomorskie
+    fi: Kujavia-Pommerin voivodikunta
+    hu: Kujávia-Pomerániai vajdaság
+    kn: ಕ್ಯುವಿಯನ್-ಪೊಮೆರೇನಿಯನ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Kujavíska-Pommern
+    id: Provinsi Kujawy-Pomorze
+    sk: Kujavsko-pomoranské vojvodstvo
+    ro: Voievodatul Cuiavia și Pomerania
+    he: קויאוויה-פומרניה
+    hr: Kujavsko-pomeransko vojvodstvo
+    eu: Kujavia-Pomeraniako voivoderria
+    pt: Voivodia da Cujávia-Pomerânia
+    et: Kujawy-Pomorze vojevoodkond
+    de: Woiwodschaft Kujawien-Pommern
+    sl: Kujavsko-Pomorjansko vojvodstvo
+    it: voivodato della Cuiavia-Pomerania
+    uk: Куявсько-Поморське воєводство
+    cs: Kujavsko-pomořské vojvodství
+    nb: Kujaviskpommerske voivodskap
+    ca: Voivodat de Cuiàvia i Pomerània
+    be: Куяўска-Паморскае ваяводства
+    th: จังหวัดกูยาวือ-ปอมอแช
+  comments: 
+'06': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.2143217
+    longitude: 21.0210792
+  translations:
+    lv: Ļubļinas vojevodiste
+    mr: लुबेल्स्का प्रांत
+    af: Woiwodskap Lublin
+    ms: Wilayah Lublin
+    ar: محافظة لوبلين
+    te: లుబ్లిన్ వోయివోడెషిప్
+    tr: Lublin Voyvodalığı
+    sr_Latn: Vojvodstvo Lublin
+    lt: Liublino vaivadija
+    ta: லுபிளின் ஓய்வோடேஷிப்
+    vi: Lubelskie
+    ur: لوبلین صوبہ
+    nl: Lublin
+    zh: 卢布林省
+    bn: লুব্লিন ভয়ভোডেশিপ
+    fa: استان لوبلین
+    pl: województwo lubelskie
+    sv: Lublins vojvodskap
+    el: Λούμπλιν
+    hi: लुब्लिन
+    ja: ルブリン県
+    en: Lublin
+    ru: Люблинское воеводство
+    gu: લુબ્લિન વિઓવોદેશીપ
+    ka: ლუბლინის სავოევოდო
+    sr: Војводство Лублин
+    fr: Voïvodie de Lublin
+    hy: Լյուբլինի վոևոդություն
+    ko: 루블린 주
+    gl: Voivodato de Lublin
+    es: Lublin
+    si: ලබ්ලින් පළාත
+    da: Województwo lubelskie
+    fi: Lublinin voivodikunta
+    hu: Lublini vajdaság
+    kn: ಲುಬ್ಲಿನ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Lublin
+    id: Provinsi Lublin
+    sk: Lubelské vojvodstvo
+    ro: Voievodatul Lublin
+    he: לובלסקי
+    hr: Lublinsko vojvodstvo
+    eu: Lublingo voivoderria
+    pt: Voivodia de Lublin
+    et: Lublini vojevoodkond
+    de: Woiwodschaft Lublin
+    it: voivodato di Lublino
+    uk: Люблінське воєводство
+    cs: Lublinské vojvodství
+    nb: Lublin voivodskap
+    ca: Voivodat de Lublin
+    be: Люблінскае ваяводства
+    th: จังหวัดลูบลิน
+  comments: 
+'08': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    lv: Lubušas vojevodiste
+    mr: लुबुस्का प्रांत
+    ms: Wilayah Lubusz
+    ar: محافظة لوبوسكي
+    te: లూబస్ వోయివోడెషిప్
+    tr: Lubusz Voyvodalığı
+    sr_Latn: Vojvodstvo Lubuš
+    lt: Liubušo vaivadija
+    ta: லூபஸ்ஸ் ஓய்வொடேஷிப்
+    vi: Lubuskie
+    ur: لوبوش صوبہ
+    nl: Woiwodschap Lubusz
+    zh: 盧布斯卡省
+    bn: লুবুজ ভয়ভোডেশিপ
+    fa: استان لوبوسکی
+    pl: województwo lubuskie
+    sv: Lubusz vojvodskap
+    el: Λουμπούζ Βοϊβοδάτο
+    hi: लुबुस वोइवोडीशिप
+    ja: ルブシュ県
+    en: Lubusz
+    ru: Любушское воеводство
+    gu: લુબુઝ વોઈવોડેશિપ
+    ka: ლუბუშის სავოევოდო
+    sr: Војводство Лубуш
+    fr: Voïvodie de Lubusz
+    ko: 루부시 주
+    gl: Voivodato de Lubusz
+    es: Voivodato de Lubusz
+    si: ලුබුස් ප්‍රාන්තය
+    da: Województwo lubuskie
+    fi: Lubuszin voivodikunta
+    hu: Lubusi vajdaság
+    kn: ಲುಬಸ್ಜ್ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Lubusz
+    id: Provinsi Lubusz
+    sk: Lubuské vojvodstvo
+    ro: Voievodatul Lubusz
+    he: לובוסקי
+    hr: Lubusko vojvodstvo
+    eu: Lubuszeko voivoderria
+    pt: Voivodia da Lubúsquia
+    et: Lubuszi vojevoodkond
+    de: Woiwodschaft Lebus
+    sl: Lubuško vojvodstvo
+    it: voivodato di Lubusz
+    uk: Любуське воєводство
+    cs: Lubušské vojvodství
+    nb: Lubusz voivodskap
+    ca: Voivodat de Lubusz
+    be: Любушскае ваяводства
+    th: จังหวัดลูบุช
+  comments: 
+'10': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.78816550000001
+    longitude: 19.3379
+  translations:
+    lv: Lodzas vojevodiste
+    mr: वूत्श्का प्रांत
+    ms: Wilayah Lodzkie
+    ar: محافظة وودج
+    te: లోడ్జ్ వోయివోడెషిప్
+    tr: Łódź Voyvodalığı
+    sr_Latn: Vojvodstvo Lođ
+    lt: Lodzės vaivadija
+    ta: லொட்ஸ் ஓய்வோடேஷிப்
+    vi: Łódzkie
+    ur: ووچ صوبہ
+    nl: Woiwodschap Łódź
+    zh: 罗兹省
+    bn: লোজ ভয়ভোডেশিপ
+    fa: استان ووتسکی
+    pl: województwo łódzkie
+    sv: Łódź vojvodskap
+    el: Λοτζ
+    hi: लौड्ज़ वोईवोडीशिप
+    ja: ウッチ県
+    en: Łódź
+    ru: Лодзинское воеводство
+    gu: લોડ્ઝ વોઈવોદેશીપ
+    ka: ლოძის სავოევოდო
+    sr: Војводство Лођ
+    fr: Voïvodie de Łódź
+    ko: 우치 주
+    es: Voivodato de Łódź
+    si: ලෝඩ්ස් ප්‍රාන්තය
+    da: Województwo łódzkie
+    fi: Łódźin voivodikunta
+    hu: Łódźi vajdaság
+    kn: ಲೋಡ್ಜ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Łódź
+    id: Provinsi Łódź
+    sk: Lodžské vojvodstvo
+    ro: Voievodatul Łódź
+    he: לודז׳
+    hr: Vojvodstvo Lodz
+    eu: Lodzeko voivoderria
+    pt: Voivodia de Łódź
+    et: Łódźi vojevoodkond
+    de: Woiwodschaft Łódź
+    it: voivodato di Łódź
+    uk: Лодзинське воєводство
+    cs: Lodžské vojvodství
+    nb: Łódź voivodskap
+    ca: Voivodat de Łódź
+    be: Лодзьскае ваяводства
+    th: จังหวัดวูช
+  comments: 
+'12': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.8581059
+    longitude: 19.3839453
+  translations:
+    lv: Mazpolijas vojevodiste
+    mr: मावोपोल्स्का प्रांत
+    af: Woiwodskap Klein-Pole
+    ms: Wilayah Malopolskie
+    ar: محافظة بولندا الصغرى
+    te: లెస్సర్ పోలండ్ వోయివోడెషిప్
+    tr: Küçük Polonya Voyvodalığı
+    sr_Latn: Vojvodstvo Malopoljsko
+    lt: Mažosios Lenkijos vaivadija
+    ta: லெஸ்ஸர் போலந்து ஓய்வோடேஷிப்
+    vi: Małopolskie
+    ur: اصغر پولینڈ صوبہ
+    nl: Woiwodschap Klein-Polen
+    zh: 小波兰省
+    bn: লেসার পোল্যান্ড ভয়ভোডেশিপ
+    fa: استان لهستان کوچک‌تر
+    pl: województwo małopolskie
+    sv: Lillpolens vojvodskap
+    el: Μαλοπόλσκιε
+    hi: लघुतर पोलैंड वोइवोडीशिप
+    ja: マウォポルスカ県
+    en: Lesser Poland
+    ru: Малопольское воеводство
+    gu: લેસર પોલેન્ડ વોઈવાવોદેશીપ
+    ka: მალოპოლსკის სავოევოდო
+    sr: Војводство Малопољско
+    fr: Voïvodie de Petite-Pologne
+    ko: 마워폴스카 주
+    gl: Voivodato da Pequena Polonia
+    es: Voivodato de Pequeña Polonia
+    si: ලෙසර් පෝලන්ත පළාත
+    da: Województwo małopolskie
+    fi: Vähä-Puolan voivodikunta
+    hu: Kis-lengyelországi vajdaság
+    kn: ಕಡಿಮೆ ಪೋಲೆಂಡ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Litla-Pólland
+    id: Provinsi Polandia Kecil
+    sk: Malopoľské vojvodstvo
+    ro: Polonia Mică
+    he: מלופולסקה
+    hr: Malopoljsko vojvodstvo
+    eu: Polonia Txikiko voivoderria
+    pt: Voivodia da Pequena Polónia
+    et: Väike-Poola vojevoodkond
+    de: Woiwodschaft Kleinpolen
+    it: voivodato della Piccola Polonia
+    uk: Малопольське воєводство
+    cs: Malopolské vojvodství
+    nb: Lillepolske voivodskap
+    ca: Voivodat de Petita Polònia
+    be: Малапольскае ваяводства
+    th: จังหวัดมาวอปอลสกา
+  comments: 
+'14': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.178726
+    longitude: 20.998474
+  translations:
+    lv: Mazovijas vojevodiste
+    mr: माझोव्येत्स्का प्रांत
+    af: Woiwodskap Masowië
+    ms: Wilayah Mazowieckie
+    ar: محافظة مازوفيا
+    te: మాసోవియన్ వాయివోడెషిప్
+    tr: Mazovya Voyvodalığı
+    sr_Latn: Vojvodstvo Mazovsko
+    lt: Mazovijos vaivadija
+    ta: மசோவின் ஓய்வோடேஷிப்
+    vi: Mazowieckie
+    ur: صوبہ ماسووی
+    nl: Woiwodschap Mazovië
+    zh: 馬佐夫舍省
+    bn: মেসোভিয়ান ভয়ভোডেশিপ
+    fa: ماسوویان وویوودشیپ
+    pl: województwo mazowieckie
+    sv: Masoviens vojvodskap
+    el: Μασοβία
+    hi: मासोवियन वोईवोडीशिप
+    ja: マゾフシェ県
+    en: Mazovia
+    ru: Мазовецкое воеводство
+    gu: મેસોવિઆન વોઈવોદેશીપ
+    ka: მაზოვიეცის სავოევოდო
+    sr: Војводство Мазовско
+    fr: Voïvodie de Mazovie
+    hy: Մազովեցի վոյեվոդություն
+    ko: 마조프셰 주
+    es: Voivodato de Mazovia
+    si: මැසොවියා පළාත
+    da: Województwo mazowieckie
+    fi: Masovian voivodikunta
+    hu: Mazóviai vajdaság
+    kn: ಮಾವೋವಿಯನ್ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Masóvía
+    id: Provinsi Mazowsze
+    sk: Mazovské vojvodstvo
+    ro: Mazovia
+    he: מזוביה
+    hr: Mazovjecko vojvodstvo
+    eu: Mazoviako voivoderria
+    pt: Voivodia da Mazóvia
+    et: Masoovia vojevoodkond
+    de: Woiwodschaft Masowien
+    it: voivodato della Masovia
+    uk: Мазовецьке воєводство
+    cs: Mazovské vojvodství
+    nb: Masoviske voivodskap
+    ca: Voivodat de Masòvia
+    be: Мазавецкае ваяводства
+    th: จังหวัดมาซอฟแช
+  comments: 
+'16': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.720944
+    longitude: 19.481547
+  translations:
+    lv: Opoles vojevodiste
+    mr: ओपोल्स्का प्रांत
+    ms: Wilayah Opole
+    ar: محافظة أوبولي
+    te: ఓపోల్ వోయివోడెషిప్
+    tr: Opole Voyvodalığı
+    sr_Latn: Vojvodstvo Opolje
+    lt: Opolės vaivadija
+    ta: ஓபோலே ஓய்வோடேஷிப்
+    vi: Opolskie
+    ur: اوپولے صوبہ
+    nl: Opole
+    zh: 奧波萊省
+    bn: ওপোল ভয়ভোডেশিপ
+    fa: استان اوپوله
+    pl: województwo opolskie
+    sv: Opole vojvodskap
+    el: Βοϊβοδάτο Οπόλε
+    hi: ऑपोल
+    ja: オポーレ県
+    en: Opole
+    ru: Опольское воеводство
+    gu: ઑપોલ વોઈવોડેશીપ
+    ka: ოპოლეს სავოევოდო
+    sr: Војводство Опоље
+    fr: Voïvodie d’Opole
+    ko: 오폴레 주
+    gl: Opole
+    es: Opole
+    si: ඔපොලේ ප්‍රාන්තය
+    da: Województwo opolskie
+    fi: Opolen voivodikunta
+    hu: Opolei vajdaság
+    kn: ಒಪೋಲ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Opole
+    id: Provinsi Opole
+    sk: Opolské vojvodstvo
+    ro: Voievodatul Opole
+    he: אופולסקי
+    hr: Opolsko vojvodstvo
+    eu: Opoleko voivoderria
+    pt: Voivodia de Opole
+    et: Opole vojevoodkond
+    de: Woiwodschaft Opole
+    it: voivodato di Opole
+    uk: Опольське воєводство
+    cs: Opolské vojvodství
+    nb: Opole voivodskap
+    ca: Voivodat d’Opole
+    be: Апольскае ваяводства
+    th: จังหวัดออปอแล
+  comments: 
+'18': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.849173
+    longitude: 16.604505
+  translations:
+    lv: Piekarpatu vojevodiste
+    mr: पोट्कर्पाट्स्का प्रांत
+    af: Woiwodskap Subkarpate
+    ms: Wilayah Podkarpacie
+    ar: محافظة بودكارباتسكي
+    te: పోడ్కార్పాకీ వోయివోడెషిప్
+    tr: Alt Karpatya Voyvodalığı
+    sr_Latn: Vojvodstvo potkarpatsko
+    lt: Pakarpatės vaivadija
+    ta: போத்கர்ப்பாக்கியே ஓய்வோடேஷிப்
+    vi: Podkarpackie
+    ur: پودکرپاسکیہ صوبہ
+    nl: Woiwodschap Subkarpaten
+    zh: 喀尔巴阡山省
+    bn: পোডকারপ্যাকি ভয়ভোডেশিপ
+    fa: استان پودکارپاکیه
+    pl: województwo podkarpackie
+    sv: Nedre Karpaternas vojvodskap
+    el: Ποντκαρπάκιε
+    hi: पॉडकारपैकी वोइवोडीशिप
+    ja: ポトカルパチェ県
+    en: Subcarpathia
+    ru: Подкарпатское воеводство
+    gu: પોડકારપેકી વોઈવોડેશીપ
+    ka: კარპატების სავოევოდო
+    sr: Војводство поткарпатско
+    fr: Voïvodie des Basses-Carpates
+    ko: 포드카르파츠키에 주
+    es: Voivodato de Subcarpacia
+    si: පොඩ්කර්පැකි පළාත
+    da: Województwo podkarpackie
+    fi: Ala-Karpatian voivodikunta
+    hu: Kárpátaljai vajdaság
+    kn: ಪೋಡ್ಕಾರ್ಪಕ್ಕಿ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Neðri-Karpatía
+    id: Provinsi Podkarpacie
+    sk: Podkarpatské vojvodstvo
+    ro: Voievodatul Subcarpatia
+    he: פודקרפאטי
+    hr: Potkarpatsko vojvodstvo
+    eu: Behe Karpatoetako voivoderria
+    pt: Voivodia da Subcarpácia
+    et: Podkarpacie vojevoodkond
+    de: Woiwodschaft Karpatenvorland
+    sl: Podkarpatsko vojvodstvo
+    it: voivodato della Precarpazia
+    uk: Підкарпатське воєводство
+    cs: Podkarpatské vojvodství
+    nb: Subkarpatiske voivodskap
+    ca: Voivodat de Subcarpàcia
+    be: Падкарпацкае ваяводства
+    th: จังหวัดปอตการ์ปาแช
+  comments: 
+'20': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.76589269999999
+    longitude: 19.463583
+  translations:
+    lv: Podlases vojevodiste
+    mr: पोडाल्स्का प्रांत
+    af: Woiwodskap Podlachië
+    ms: Wilayah Podlasie
+    ar: محافظة بودلاسكي
+    te: పోడ్లాస్కీ వోయివోడెషిప్
+    tr: Podlakya Voyvodalığı
+    sr_Latn: Vojvodstvo Podlasko
+    lt: Palenkės vaivadija
+    ta: போட்லஸ்கியே ஓய்வோடேஷிப்
+    vi: Podlaskie
+    ur: پودلاسکیہ صوبہ
+    nl: Woiwodschap Podlachië
+    zh: 波德拉謝省
+    bn: পোদলাস্কি ভয়ভোডেশিপ
+    fa: استان پودلاسکی
+    pl: województwo podlaskie
+    sv: Podlasiens vojvodskap
+    el: Ποντλάσκιε
+    hi: पॉडलास्की वोईवोडीशिप
+    ja: ポドラシェ県
+    en: Podlachia
+    ru: Подляское воеводство
+    gu: પોડ્લાસ્કી વોઇવોદેશીપ
+    ka: პოდლასის სავოევოდო
+    sr: Војводство Подласко
+    fr: Voïvodie de Podlachie
+    ko: 포들라스키에 주
+    es: Voivodato de Podlaquia
+    si: පොඩ්ලස්කි පළාත
+    da: Województwo podlaskie
+    fi: Podlasian voivodikunta
+    hu: Podlasiei vajdaság
+    kn: ಪೊಡ್ಲಾಸ್ಕಿ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Podlasía
+    id: Provinsi Podlasie
+    sk: Podleské vojvodstvo
+    ro: Voievodatul Podlasia
+    he: פודלסיה
+    hr: Podlasko vojvodstvo
+    eu: Podlasiako voivoderria
+    pt: Voivodia da Podláquia
+    et: Podlaasia vojevoodkond
+    de: Woiwodschaft Podlachien
+    sl: Podlaško vojvodstvo
+    it: voivodato della Podlachia
+    uk: Підляське воєводство
+    cs: Podleské vojvodství
+    nb: Podlasie voivodskap
+    ca: Voivodat de Podlàquia
+    be: Падляскае ваяводства
+    th: จังหวัดปอดลาแช
+  comments: 
+'22': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 50.8711835
+    longitude: 20.6459998
+  translations:
+    lv: Pomožes vojevodiste
+    mr: पोमोर्स्का प्रांत
+    af: Woiwodskap Pommere
+    ms: Wilayah Pomerania
+    ar: محافظة بوميرانيا
+    te: పోమరేనియన్ వోయివోడెషిప్
+    tr: Pomeranya Voyvodalığı
+    sr_Latn: Vojvodstvo Pomorje
+    lt: Pamario vaivadija
+    ta: போமெரனின் ஓய்வோடேஷிப்
+    vi: Pomorskie
+    ur: پومرانیا صوبہ
+    nl: Woiwodschap Pommeren
+    zh: 濱海省
+    bn: পোমেরানিয়ান ভয়ভোডেশিপ
+    fa: استان پومرانی
+    pl: województwo pomorskie
+    sv: Pommerns vojvodskap
+    el: Πομερανία
+    hi: पोमरेनियन वोइवोडीशिप
+    ja: ポモージェ県
+    en: Pomerania
+    ru: Поморское воеводство
+    gu: પોમેરેનિયન વોઈવોડેશીપ
+    ka: პომერანიის სავოევოდო
+    sr: Војводство Поморје
+    fr: Voïvodie de Poméranie
+    ko: 포모제 주
+    es: Voivodato de Pomerania
+    si: පොමරෙනියන් පළාත
+    da: Województwo pomorskie
+    fi: Pommerin voivodikunta
+    hu: Pomerániai vajdaság
+    kn: ಪೋಮರೇನಿಯನ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Pommern (hérað)
+    id: Provinsi Pomerania
+    sk: Pomoranské vojvodstvo
+    ro: Voievodatul Pomerania
+    he: פומורסקיה
+    hr: Pomeransko vojvodstvo
+    eu: Pomeraniako voivoderria
+    pt: Voivodia da Pomerânia
+    et: Pomorze vojevoodkond
+    de: Woiwodschaft Pommern
+    it: voivodato della Pomerania
+    uk: Поморське воєводство
+    cs: Pomořské vojvodství
+    nb: Pommerske voivodskap
+    ca: Voivodat de Pomerània
+    be: Паморскае ваяводства
+    th: จังหวัดปอมอแช
+  comments: 
+'24': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.4666001
+    longitude: 21.8176671
+  translations:
+    lv: Silēzijas vojevodiste
+    mr: श्लोंस्का प्रांत
+    ms: Wilayah Silesia
+    ar: محافظة سيليزيا
+    te: సిలేసియన్ వోయవోడెషిప్
+    tr: Silezya Voyvodalığı
+    sr_Latn: Vojvodstvo Šlesko
+    lt: Silezijos vaivadija
+    ta: சிலேசியான் ஓய்வொதேஷிப்
+    vi: Śląskie
+    ur: سیلیزیا صوبہ
+    nl: Woiwodschap Silezië
+    zh: 西里西亚省
+    bn: সিলেসিয়ান ভয়ভোডেশিপ
+    fa: استان سیلسیان
+    pl: województwo śląskie
+    sv: Schlesiens vojvodskap
+    el: Σιλεσία
+    hi: सिलेसियन वोईवोडीशिप
+    ja: シロンスク県
+    en: Silesia
+    ru: Силезское воеводство
+    gu: સિલેસિઅન વોઈવોડેશિપ
+    ka: სილეზიის სავოევოდო
+    sr: Војводство Шлеско
+    fr: Voïvodie de Silésie
+    ko: 실롱스크 주
+    gl: Voivodato de Silesia
+    es: Voivodato de Silesia
+    si: සෙලෙසියන් ප්‍රාන්තය
+    da: Województwo śląskie
+    fi: Sleesian voivodikunta
+    hu: Sziléziai vajdaság
+    kn: ಸೈಲ್ಸಿಯನ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Slesía
+    id: Provinsi Silesia
+    sk: Sliezske vojvodstvo
+    ro: Voievodatul Silezia
+    he: שלזיה
+    hr: Šlesko vojvodstvo
+    eu: Silesiako voivoderria
+    pt: Voivodia da Silésia
+    et: Sileesia vojevoodkond
+    de: Woiwodschaft Schlesien
+    it: voivodato della Slesia
+    uk: Сілезьке воєводство
+    cs: Slezské vojvodství
+    nb: Schlesiske voivodskap
+    ca: Voivodat de Silèsia
+    be: Сілезскае ваяводства
+    th: จังหวัดชล็อนสก์
+  comments: 
+'26': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 52.0598782
+    longitude: 19.2015636
+  translations:
+    lv: Sventokšiskas vojevodiste
+    mr: श्वेंतोकशिस्का प्रांत
+    ms: Wilayah Święty Krzyż
+    ar: محافظة شفينتوكشيسكي
+    te: స్వయిటోకోజిస్కీ వోయివోడెషిప్
+    tr: Świętokrzyskie Voyvodalığı
+    sr_Latn: Vojvodstvo Svetokriško
+    lt: Švento Kryžiaus vaivadija
+    ta: ஸ்விட்ஓக்கறயசகியே ஓய்வோடேஷிப்
+    vi: Świętokrzyskie
+    ur: شوئینتوشوسکیہ صوبہ
+    nl: Święty Krzyż
+    zh: 聖十字省
+    bn: সুইটোকিজিস্কি ভয়ভোডেশিপ
+    fa: استان اشوی‌داشکسیه
+    pl: województwo świętokrzyskie
+    sv: Święty Krzyż vojvodskap
+    el: βοϊβοδάτο Σβιετοκρίσκιε
+    hi: स्वेतोक्रझिस्की वोइवोडीशिप
+    ja: シフィェンティクシシュ県
+    en: Holy Cross
+    ru: Свентокшиское воеводство
+    gu: સ્વેતોક્ર્ઝીસ્કી
+    ka: სვიეტოკშის სავოევოდო
+    sr: Војводство Светокришко
+    fr: Voïvodie de Sainte-Croix
+    ko: 시비엥토크시스키에 주
+    es: Voivodato de Santa Cruz
+    si: ස්වයිටොක්ර්සයිකි ප්‍රාන්තය
+    da: Województwo świętokrzyskie
+    fi: Świętokrzyskin voivodikunta
+    hu: Szentkereszt vajdaság
+    kn: ಶ್ವೇಟೋಕ್ರೋಜ್ಕಿ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Święty Krzyż
+    id: Provinsi Święty Krzyż
+    sk: Svätokrížske vojvodstvo
+    ro: Voievodatul Sfintei Cruci
+    he: שוויינטוקז׳יסקיה
+    hr: Svetokriško vojvodstvo
+    eu: Gurutze Santuko voivoderria
+    pt: Voivodia de Santa Cruz
+    et: Święty Krzyżi vojevoodkond
+    de: Woiwodschaft Heiligkreuz
+    it: voivodato della Santacroce
+    uk: Свентокшиське воєводство
+    cs: Svatokřížské vojvodství
+    nb: Helligkorsvoivodskapet
+    ca: Voivodat de Santa Creu
+    be: Свентакшыскае ваяводства
+    th: จังหวัดชฟีแยนตือ-กชึช
+  comments: 
+'28': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9304476
+    longitude: 19.4454161
+  translations:
+    lv: Varmijas-Mazūrijas vojevodiste
+    mr: वार्मिन्स्को-माझुर्स्का प्रांत
+    ms: Wilayah Warminsko-Mazurskie
+    ar: محافظة فارميا-مازوريا
+    te: వార్మిమాయన్-మాసూరియన్ వోయివోడెషిప్
+    tr: Varmiya-Mazurya Voyvodalığı
+    sr_Latn: Varminsko-mazursko vojvodstvo
+    lt: Varmijos Mozūrų vaivadija
+    ta: வார்மிங் -மைசூரின் ஓய்வொடேஷிப்
+    vi: Warmińsko-Mazurskie
+    ur: وارمیا-ماسوریا صوبہ
+    nl: Ermland-Mazurië
+    zh: 瓦爾米亞-馬祖里省
+    bn: ওয়ারমিয়া-মাসুরিয়ান ভয়ভোডেশিপ
+    fa: استان وارمی-ماسوری
+    pl: województwo warmińsko-mazurskie
+    sv: Ermland-Masuriens vojvodskap
+    el: βοϊβοδάτο Βαρμίας-Μαζουρίας
+    hi: वार्मियन-मसुरियन वाइवोडीशिप
+    en: Warmia-Masuria
+    ru: Варминско-Мазурское воеводство
+    gu: વાર્મિયન-મસૂરિયન વોઈવોડેશિપ
+    ka: ვარმინო-მაზურის სავოევოდო
+    sr: Варминско-мазурско војводство
+    fr: Voïvodie de Varmie-Mazurie
+    ko: 바르미아마주리 주
+    gl: Varmia e Masuria
+    es: Voivodato de Varmia y Masuria
+    si: වාර්මියන්මසුරියන් ප්‍රාන්තය
+    da: Województwo warmińsko-mazurskie
+    fi: Warmia-Masurian voivodikunta
+    hu: Varmia-Mazúriai vajdaság
+    kn: ವಾರ್ಮಿಯನ್-ಮಸ್ಯರಿಯನ್ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Ermland-Masúría
+    id: Provinsi Warmia-Mazury
+    sk: Varmsko-mazurské vojvodstvo
+    ro: Voievodatul Varmia și Mazuria
+    he: ורמיה-מזוריה
+    hr: Varminsko-mazursko vojvodstvo
+    eu: Varmia-Mazuriako voivoderria
+    pt: Voivodia da Vármia-Masúria
+    et: Warmia-Masuuria vojevoodkond
+    de: Woiwodschaft Ermland-Masuren
+    it: voivodato della Varmia-Masuria
+    uk: Вармінсько-Мазурське воєводство
+    cs: Varmijsko-mazurské vojvodství
+    nb: Ermlandskmasuriske voivodskap
+    ca: Voivodat de Warmia i Mazury
+    be: Вармінска-Мазурскае ваяводства
+    th: จังหวัดวาร์เมีย-มาซูรือ
+  comments: 
+'30': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9588171
+    longitude: 19.289346
+  translations:
+    lv: Lielpolijas vojevodiste
+    mr: व्यील्कोपाल्स्का प्रांत
+    af: Woiwodskap Groot-Pole
+    ms: Wilayah Wielkopolskie
+    ar: بولندا الكبرى
+    te: గ్రోటర్ పోలండ్ వాయివోడెషిప్
+    tr: Büyük Polonya Voyvodalığı
+    sr_Latn: Vojvodstvo Velikopoljsko
+    lt: Didžiosios Lenkijos vaivadija
+    ta: கிரேட்டர் பொலன்ட் ஓய்வொதேஷிப்
+    vi: Wielkopolskie
+    ur: اکبر پولینڈ صوبہ
+    nl: Woiwodschap Groot-Polen
+    zh: 大波兰省
+    bn: গ্রেটার পোল্যান্ড ভয়ভোডেশিপ
+    fa: استان لهستان بزرگ‌تر
+    pl: województwo wielkopolskie
+    sv: Storpolens vojvodskap
+    el: Ευρύτερη Πολωνία
+    de_CH: Woiwodschaft Grosspolen
+    hi: बृहत्तर पोलैंड वोईवोडीशिप
+    ja: ヴィエルコポルスカ県
+    en: Greater Poland
+    ru: Великопольское воеводство
+    gu: ગ્રેટર પોલેન્ડ વીઓવોડેશિપ
+    ka: ველიკოპოლსკის სავოევოდო
+    sr: Војводство Великопољско
+    fr: Voïvodie de Grande-Pologne
+    ko: 비엘코폴스카 주
+    gl: Voivodato de Gran Polonia
+    es: Voivodato de Gran Polonia
+    si: මහා පෝලන්ත පළාත
+    da: Województwo wielkopolskie
+    fi: Ison-Puolan voivodikunta
+    hu: Nagy-Lengyelországi vajdaság
+    kn: ಗ್ರೇಟರ್ ಪೋಲೆಂಡ್ ವಾಯಿವೊಡೆಶಿಪ್
+    is: Stóra-Pólland
+    id: Provinsi Polandia Besar
+    sk: Veľkopoľské vojvodstvo
+    ro: Voievodatul Polonia Mare
+    he: פולין גדול
+    hr: Velikopoljsko vojvodstvo
+    eu: Polonia Handiko voivoderria
+    pt: Voivodia da Grande Polônia
+    et: Suur-Poola vojevoodkond
+    de: Woiwodschaft Großpolen
+    it: voivodato della Grande Polonia
+    uk: Великопольське воєводство
+    cs: Velkopolské vojvodství
+    nb: Storpolske voivodskap
+    mn: Их Польш
+    ca: Voivodat de Gran Polònia
+    be: Велікапольскае ваяводства
+    th: จังหวัดวีแยลกอปอลสกา
+  comments: 
+'32': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 51.9588171
+    longitude: 19.289346
+  translations:
+    lv: Rietumpomožes vojevodiste
+    mr: झाखोज्ञोपोमोर्स्का प्रांत
+    af: Woiwodskap Wes-Pommere
+    ms: Wilayah Barat Pomerania
+    ar: محافظة غرب بوميرانيا
+    te: పశ్చిమ పొమెరేనియన్ వోయివోడెషిప్
+    tr: Batı Pomeranya Voyvodalığı
+    sr_Latn: Vojvodstvo Zapadno Pomorje
+    lt: Vakarų Pamario vaivadija
+    ta: மேற்கு போமெரனின் ஓய்வோடேஷிப்
+    vi: Zachodniopomorskie
+    ur: مغربی پومرانیا صوبہ
+    nl: Woiwodschap West-Pommeren
+    zh: 西波美拉尼亚省
+    bn: পশ্চিম পেমারানিয়ান ভয়ভোডেশিপ
+    fa: استان پومرانی غربی
+    pl: województwo zachodniopomorskie
+    sv: Västpommerns vojvodskap
+    el: Δυτική Πομερανία
+    hi: पश्चिम पोमेररेनियन वोइवोडीशिप
+    ja: 西ポモージェ県
+    en: West Pomerania
+    ru: Западно-Поморское воеводство
+    gu: વેસ્ટ પોમેરેનિયન વીઓવોડેશીપ
+    ka: დასავლეთ პომერანიის სავოევოდო
+    sr: Војводство Западно Поморје
+    fr: Voïvodie de Poméranie occidentale
+    hy: Արևմտյան Պոմորիեի վոեվոդություն
+    ko: 서포모제 주
+    gl: Voivodato de Pomerania Occidental
+    es: Voivodato de Pomerania Occidental
+    si: බටහිර පොමරෙනියන්
+    da: Województwo zachodniopomorskie
+    fi: Länsi-Pommerin voivodikunta
+    hu: Nyugat-Pomerániai vajdaság
+    kn: ವೆಸ್ಟ್ ಪೊಮೆರನಿಯನ್ ವಾಯಿವೋಡೆಶಿಪ್
+    is: Vestur-Pommern
+    id: Provinsi Pomerania Barat
+    sk: Západopomoranské vojvodstvo
+    ro: Pomerania Occidentală
+    he: פומרניה המערבית
+    hr: Zapadnopomeransko vojvodstvo
+    eu: Mendebaldeko Pomeraniako voivoderria
+    pt: Voivodia da Pomerânia Ocidental
+    et: Lääne-Pomorze vojevoodkond
+    de: Woiwodschaft Westpommern
+    sl: Zahodnopomorjansko vojvodstvo
+    it: voivodato della Pomerania Occidentale
+    uk: Західнопоморське воєводство
+    cs: Západopomořanské vojvodství
+    nb: Vestpommerske voivodskap
+    mn: Өрнөд Померан
+    ca: Voivodat de Pomerània Occidental
+    be: Заходнепаморскае ваяводства
+    th: จังหวัดปอมอแชซาคอดแญ
+  comments: 

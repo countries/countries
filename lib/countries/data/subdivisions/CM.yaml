@@ -1,7 +1,16 @@
 ---
-AD:
+AD: 
+  name: Adamaoua
+  code: 
   unofficial_names:
   - Adamawa
+  geo:
+    latitude: 6.9181954
+    longitude: 12.8054753
+    min_latitude: 5.992985
+    min_longitude: 11.173742
+    max_latitude: 8.1690449
+    max_longitude: 15.2492441
   translations:
     en: Adamawa
     ar: محافظة آداماوا
@@ -44,16 +53,23 @@ AD:
     ur: آداماوا علاقہ
     vi: Adamawa
     zh: 阿达马瓦区
-  geo:
-    latitude: 6.9181954
-    longitude: 12.8054753
-    min_latitude: 5.992985
-    min_longitude: 11.173742
-    max_latitude: 8.1690449
-    max_longitude: 15.2492441
-  name: Adamaoua
-CE:
+    ceb: Adamaoua Region
+    ccp: "\U00011103\U00011113\U0001111F\U00011124"
+    ka: ადამავის რეგიონი
+    he: מחוז אדמאווה
+    uk: Адамава
+  comments: 
+CE: 
+  name: Centre
+  code: 
   unofficial_names: Centre
+  geo:
+    latitude: 4.6298411
+    longitude: 11.7068294
+    min_latitude: 3.139809
+    min_longitude: 10.2618951
+    max_latitude: 6.262233999999999
+    max_longitude: 13.248086
   translations:
     en: Centre
     ar: سنتر
@@ -95,16 +111,24 @@ CE:
     uk: Центральний регіон
     ur: وسطی علاقہ
     vi: Vùng Miền Trung
-  geo:
-    latitude: 4.6298411
-    longitude: 11.7068294
-    min_latitude: 3.139809
-    min_longitude: 10.2618951
-    max_latitude: 6.262233999999999
-    max_longitude: 13.248086
-  name: Centre
-EN:
+    ceb: Centre Region
+    zh: 中部区
+    fa: منطقه مرکز
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+    ka: ცენტრალური რეგიონი
+    yo: àárín
+  comments: 
+EN: 
+  name: Far North
+  code: 
   unofficial_names: Far North
+  geo:
+    latitude: 10.6315589
+    longitude: 14.6587821
+    min_latitude: 9.9244931
+    min_longitude: 13.363565
+    max_latitude: 12.9797045
+    max_longitude: 15.683687
   translations:
     en: Far North
     ar: الشمال الأقصى
@@ -144,16 +168,25 @@ EN:
     tr: Far North Bölgesi
     ur: بعید شمالی علاقہ
     vi: Far North
-  geo:
-    latitude: 10.6315589
-    longitude: 14.6587821
-    min_latitude: 9.9244931
-    min_longitude: 13.363565
-    max_latitude: 12.9797045
-    max_longitude: 15.683687
-  name: Far North
-ES:
+    ceb: Far North Region
+    zh: 極北區
+    fa: منطقه شمال دور
+    ccp: "\U0001111C\U00011122\U00011134 \U0001111A\U00011127\U00011122\U00011133\U00011117\U00011134"
+    ka: უკიდურესი ჩრდილოეთის რეგიონი
+    he: מחוז הצפון הרחוק
+    uk: Крайньопівнічний регіон
+  comments: 
+ES: 
+  name: East
+  code: 
   unofficial_names: East
+  geo:
+    latitude: 3.950512799999999
+    longitude: 13.914399
+    min_latitude: 1.6525479
+    min_longitude: 12.5253721
+    max_latitude: 6.0856641
+    max_longitude: 16.1921161
   translations:
     en: East
     ar: الشرق
@@ -193,16 +226,27 @@ ES:
     tr: Doğu Bölgesi
     ur: مشرقی علاقہ
     vi: East
-  geo:
-    latitude: 3.950512799999999
-    longitude: 13.914399
-    min_latitude: 1.6525479
-    min_longitude: 12.5253721
-    max_latitude: 6.0856641
-    max_longitude: 16.1921161
-  name: East
-LT:
+    ceb: East Region
+    zh: 东部区
+    fa: منطقه شرق
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134"
+    ka: აღმოსავლეთის რეგიონი
+    hy: Արևելյան շրջան
+    he: מחוז המזרח
+    uk: Східний Регіон
+    yo: ilà oòrùn
+  comments: 
+LT: 
+  name: Littoral
+  code: 
   unofficial_names: Littoral
+  geo:
+    latitude: 4.1682138
+    longitude: 10.0807298
+    min_latitude: 3.2601088
+    min_longitude: 9.328249399999999
+    max_latitude: 5.3471799
+    max_longitude: 11.133462
   translations:
     en: Littoral
     ar: ليتورال
@@ -243,17 +287,26 @@ LT:
     uk: Прибережний регіон
     ur: لیتورال علاقہ
     vi: Littoral
-  geo:
-    latitude: 4.1682138
-    longitude: 10.0807298
-    min_latitude: 3.2601088
-    min_longitude: 9.328249399999999
-    max_latitude: 5.3471799
-    max_longitude: 11.133462
-  name: Littoral
-'NO':
+    ceb: Littoral Region
+    zh: 濱海區
+    fa: منطقه لیتورال
+    ccp: "\U00011123\U00011128\U00011111\U0001112E\U00011122\U00011123\U00011134"
+    ka: სანაპირო რეგიონი
+    hy: Լիտտորալ
+    he: מחוז החוף
+  comments: 
+'NO': 
+  name: North
+  code: 
   unofficial_names:
   - Bénoué
+  geo:
+    latitude: 8.580901299999999
+    longitude: 13.914399
+    min_latitude: 7.029078999999999
+    min_longitude: 12.2255
+    max_latitude: 10.219281
+    max_longitude: 15.598204
   translations:
     en: North
     ar: المنطقة الشمالية، الكاميرون
@@ -293,16 +346,26 @@ LT:
     tr: Kuzey Bölgesi
     ur: شمالی علاقہ
     vi: Phía Bắc
-  geo:
-    latitude: 8.580901299999999
-    longitude: 13.914399
-    min_latitude: 7.029078999999999
-    min_longitude: 12.2255
-    max_latitude: 10.219281
-    max_longitude: 15.598204
-  name: North
-NW:
+    ceb: North Region
+    zh: 北部區
+    fa: منطقه شمال
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+    ka: ჩრდილოეთის რეგიონი
+    he: מחוז הצפון
+    uk: Північний регіон
+    yo: Àríwá
+  comments: 
+NW: 
+  name: North-West
+  code: 
   unofficial_names: North-West
+  geo:
+    latitude: 6.470373899999999
+    longitude: 10.439656
+    min_latitude: 5.733760999999999
+    min_longitude: 9.6307759
+    max_latitude: 7.1616911
+    max_longitude: 11.194967
   translations:
     en: Northwest
     ar: إقليم الشمال الغربي
@@ -342,16 +405,25 @@ NW:
     tr: Kuzeybatı Bölgesi
     ur: شمال مغربی علاقہ
     vi: Vùng Tây Bắc
-  geo:
-    latitude: 6.470373899999999
-    longitude: 10.439656
-    min_latitude: 5.733760999999999
-    min_longitude: 9.6307759
-    max_latitude: 7.1616911
-    max_longitude: 11.194967
-  name: North-West
-OU:
+    ceb: North-West Region
+    zh: 西北區
+    fa: منطقه شمال غربی
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U0001112E\U00011118\U00011128"
+    ka: ჩრდილო-დასავლეთის რეგიონი
+    he: מחוז צפון-מערב
+    uk: Північно-Західний регіон
+  comments: 
+OU: 
+  name: West
+  code: 
   unofficial_names: West
+  geo:
+    latitude: 5.4638158
+    longitude: 10.8000051
+    min_latitude: 4.897807999999999
+    min_longitude: 9.881679
+    max_latitude: 6.2716239
+    max_longitude: 11.3210561
   translations:
     en: West
     ar: الغرب
@@ -390,16 +462,28 @@ OU:
     tr: Batı Bölgesi
     ur: مغربی علاقہ
     vi: Khu vực Phía Tây
-  geo:
-    latitude: 5.4638158
-    longitude: 10.8000051
-    min_latitude: 4.897807999999999
-    min_longitude: 9.881679
-    max_latitude: 6.2716239
-    max_longitude: 11.3210561
-  name: West
-SU:
+    ceb: West Region
+    yo_BJ: ìwɔ̀ oòrùn
+    zh: 西部区
+    fa: منطقه غرب
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+    ka: დასავლეთის რეგიონი
+    hy: Արևմտյան շրջան
+    he: מחוז המערב
+    uk: Західний регіон
+    yo: ìwọ̀ oòrùn
+  comments: 
+SU: 
+  name: South
+  code: 
   unofficial_names: South
+  geo:
+    latitude: 2.7202832
+    longitude: 11.7068294
+    min_latitude: 2.1588319
+    min_longitude: 9.820998
+    max_latitude: 3.6768781
+    max_longitude: 13.681523
   translations:
     en: South
     ar: جنوب
@@ -437,16 +521,27 @@ SU:
     tr: Güney Bölgesi
     ur: جنوبی علاقہ
     vi: Khu vực Phía Nam
-  geo:
-    latitude: 2.7202832
-    longitude: 11.7068294
-    min_latitude: 2.1588319
-    min_longitude: 9.820998
-    max_latitude: 3.6768781
-    max_longitude: 13.681523
-  name: South
-SW:
+    ceb: South Region
+    zh: 南部区
+    bn: দক্ষিন/সাউথ
+    fa: منطقه جنوب
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+    ka: სამხრეთის რეგიონი
+    he: מחוז הדרום
+    uk: Південий регіон
+    yo: Gúúsù
+  comments: 
+SW: 
+  name: South-West
+  code: 
   unofficial_names: South-West
+  geo:
+    latitude: 5.1573493
+    longitude: 9.367308399999999
+    min_latitude: 3.9221987
+    min_longitude: 8.4947634
+    max_latitude: 6.530783899999999
+    max_longitude: 10.15105
   translations:
     en: Southwest
     ar: جنوب غرب
@@ -485,11 +580,12 @@ SW:
     tr: Güneybatı Bölgesi
     ur: جنوب مغربی علاقہ
     vi: Vùng Tây Nam
-  geo:
-    latitude: 5.1573493
-    longitude: 9.367308399999999
-    min_latitude: 3.9221987
-    min_longitude: 8.4947634
-    max_latitude: 6.530783899999999
-    max_longitude: 10.15105
-  name: South-West
+    ceb: South-West Region
+    zh: 西南区
+    fa: منطقه جنوب غربی
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U0001112E\U00011118\U00011128"
+    ka: სამხრეთ-დასავლეთის რეგიონი
+    hy: Հարավարևմտյան շրջան
+    he: מחוז דרום-מערב
+    uk: Південно-Західний регіон
+  comments: 

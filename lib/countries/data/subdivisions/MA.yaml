@@ -1,6 +1,15 @@
 ---
-AGD:
+AGD: 
+  name: Agadir*
+  code: 
   unofficial_names: Agadir*
+  geo:
+    latitude: 30.4277547
+    longitude: -9.5981072
+    min_latitude: 30.3692836
+    min_longitude: -9.6682679
+    max_latitude: 30.4702104
+    max_longitude: -9.4871341
   translations:
     en: Agadir-Ida Ou Tanane
     ar: أكادير
@@ -49,16 +58,30 @@ AGD:
     uk: Агадір
     ur: اغادیر
     vi: Agadir
-  geo:
-    latitude: 30.4277547
-    longitude: -9.5981072
-    min_latitude: 30.3692836
-    min_longitude: -9.6682679
-    max_latitude: 30.4702104
-    max_longitude: -9.4871341
-  name: Agadir*
-AOU:
+    cy: Agadir
+    ceb: Agadir
+    sr_Latn: Agadir
+    zh: 阿加迪尔
+    sq: Agadir
+    ccp: "\U00011103\U00011109\U00011113\U00011128\U00011122\U00011134-\U00011103\U00011128\U00011113
+      \U00011103\U0001112F \U00011111\U0001111A\U0001111A\U0001112C"
+    ka: აგადირი
+    kk: Агадир қаласы
+    be: Агадыр
+    uz: Agadir
+    mk: Агадир
+  comments: 
+AOU: 
+  name: Aousserd
+  code: 
   unofficial_names: Aousserd
+  geo:
+    latitude: 30.3920338
+    longitude: -9.564496499999999
+    min_latitude: 30.39160919999999
+    min_longitude: -9.5660522
+    max_latitude: 30.3923136
+    max_longitude: -9.5620805
   translations:
     en: Aousserd
     ar: إقليم أوسرد
@@ -70,16 +93,21 @@ AOU:
     ja: アウサード州
     nl: Aousserd
     sv: Aousserd (provins)
-  geo:
-    latitude: 30.3920338
-    longitude: -9.564496499999999
-    min_latitude: 30.39160919999999
-    min_longitude: -9.5660522
-    max_latitude: 30.3923136
-    max_longitude: -9.5620805
-  name: Aousserd
-ASZ:
+    ceb: Aousserd (lalawigan)
+    zh: 奧塞爾德省
+    ccp: "\U00011103\U00011103\U0001112F\U00011125\U0001112C\U00011122\U00011134\U00011113\U00011134"
+  comments: 
+ASZ: 
+  name: Assa-Zag
+  code: 
   unofficial_names: Assa-Zag
+  geo:
+    latitude: 28.1402395
+    longitude: -9.7232673
+    min_latitude: 27.662115
+    min_longitude: -10.7308961
+    max_latitude: 28.8133365
+    max_longitude: -8.670276
   translations:
     en: Assa-Zag
     ar: إقليم آسا الزاك
@@ -93,16 +121,21 @@ ASZ:
     nl: Assa-Zag
     pt: Assa-Zag
     sv: Assa-Zag
-  geo:
-    latitude: 28.1402395
-    longitude: -9.7232673
-    min_latitude: 27.662115
-    min_longitude: -10.7308961
-    max_latitude: 28.8133365
-    max_longitude: -8.670276
-  name: Assa-Zag
-AZI:
+    ceb: Assa-Zag
+    zh: 阿薩-扎格省
+    ccp: "\U00011103\U0001110C\U00011133\U00011126\U00011134-\U0001110E\U00011107\U00011134"
+  comments: 
+AZI: 
+  name: Azilal
+  code: 
   unofficial_names: Azilal
+  geo:
+    latitude: 31.966944
+    longitude: -6.569444
+    min_latitude: 31.9387247
+    min_longitude: -6.6000795
+    max_latitude: 31.9825259
+    max_longitude: -6.5521861
   translations:
     en: Azilal
     ar: إقليم أزيلال
@@ -115,18 +148,14 @@ AZI:
     nl: Azilal
     pt: Azilal (província)
     sv: Azilal Province
-  geo:
-    latitude: 31.966944
-    longitude: -6.569444
-    min_latitude: 31.9387247
-    min_longitude: -6.6000795
-    max_latitude: 31.9825259
-    max_longitude: -6.5521861
-  name: Azilal
-BAH:
+    ceb: Azilal Province
+    zh: 艾濟拉勒省
+    ccp: "\U00011103\U0001110E\U00011128\U00011123\U00011123\U00011134"
+  comments: 
+BAH: 
+  name: Aït Baha
+  code: 
   unofficial_names: Aït Baha
-  translations:
-    en: Aït Baha
   geo:
     latitude: 30.0688758
     longitude: -9.152534
@@ -134,9 +163,20 @@ BAH:
     min_longitude: -9.166395699999999
     max_latitude: 30.0738757
     max_longitude: -9.1488218
-  name: Aït Baha
-BEM:
+  translations:
+    en: Aït Baha
+  comments: 
+BEM: 
+  name: Beni Mellal
+  code: 
   unofficial_names: Beni Mellal
+  geo:
+    latitude: 32.339444
+    longitude: -6.360833
+    min_latitude: 32.2941706
+    min_longitude: -6.4301777
+    max_latitude: 32.367638
+    max_longitude: -6.3162803
   translations:
     en: Béni-Mellal
     ar: إقليم بني ملال
@@ -149,16 +189,21 @@ BEM:
     nl: Béni-Mellal
     pt: Beni Mellal (província)
     sv: Beni-Mellal
-  geo:
-    latitude: 32.339444
-    longitude: -6.360833
-    min_latitude: 32.2941706
-    min_longitude: -6.4301777
-    max_latitude: 32.367638
-    max_longitude: -6.3162803
-  name: Beni Mellal
-BER:
+    ceb: Beni-Mellal
+    zh: 貝尼邁拉勒省
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011128-\U0001111F\U0001112C\U00011123\U00011123\U00011134"
+  comments: 
+BER: 
+  name: Berkane
+  code: 
   unofficial_names: Berkane
+  geo:
+    latitude: 34.916667
+    longitude: -2.316667
+    min_latitude: 34.8987438
+    min_longitude: -2.3526192
+    max_latitude: 34.9551815
+    max_longitude: -2.2930527
   translations:
     en: Berkane
     ar: إقليم بركان
@@ -171,16 +216,22 @@ BER:
     nl: Berkane
     sv: Berkane-Taourirt
     ur: برکان صوبہ
-  geo:
-    latitude: 34.916667
-    longitude: -2.316667
-    min_latitude: 34.8987438
-    min_longitude: -2.3526192
-    max_latitude: 34.9551815
-    max_longitude: -2.2930527
-  name: Berkane
-BES:
+    ceb: Berkane-Taourirt
+    zh: 貝爾坎省
+    fa: استان برکان
+    ccp: "\U0001111D\U0001112C\U00011122\U00011134\U00011107\U0001111A\U00011134"
+  comments: 
+BES: 
+  name: Ben Slimane
+  code: 
   unofficial_names: Ben Slimane
+  geo:
+    latitude: 33.616667
+    longitude: -7.116667
+    min_latitude: 33.5937142
+    min_longitude: -7.1562243
+    max_latitude: 33.6338072
+    max_longitude: -7.1013782
   translations:
     en: Ben Slimane
     ar: إقليم بنسليمان
@@ -193,16 +244,21 @@ BES:
     nl: Ben Slimane
     ru: Бен-Слиман
     sv: Benslimane (provins)
-  geo:
-    latitude: 33.616667
-    longitude: -7.116667
-    min_latitude: 33.5937142
-    min_longitude: -7.1562243
-    max_latitude: 33.6338072
-    max_longitude: -7.1013782
-  name: Ben Slimane
-BOD:
+    ceb: Benslimane (lalawigan)
+    zh: 本蘇萊曼省
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011134 \U00011125\U00011133\U00011123\U00011128\U0001111F\U0001111A\U00011134"
+  comments: 
+BOD: 
+  name: Boujdour (EH)
+  code: 
   unofficial_names: Boujdour (EH)
+  geo:
+    latitude: 27.8521664
+    longitude: -12.1632718
+    min_latitude: 27.6665817
+    min_longitude: -13.1729662
+    max_latitude: 28.2162268
+    max_longitude: -11.50715
   translations:
     en: Boujdour
     ar: إقليم بوجدور
@@ -214,16 +270,21 @@ BOD:
     ja: ブジュール州
     nl: Boujdour
     sv: Boujdour (provins)
-  geo:
-    latitude: 27.8521664
-    longitude: -12.1632718
-    min_latitude: 27.6665817
-    min_longitude: -13.1729662
-    max_latitude: 28.2162268
-    max_longitude: -11.50715
-  name: Boujdour (EH)
-BOM:
+    ceb: Boujdour (lalawigan)
+    zh: 布支杜爾省
+    ccp: "\U0001111D\U0001112F\U0001110C\U00011134\U00011113\U0001112F\U00011122\U00011134"
+  comments: 
+BOM: 
+  name: Boulemane
+  code: 
   unofficial_names: Boulemane
+  geo:
+    latitude: 33.3625159
+    longitude: -4.7303397
+    min_latitude: 33.3536884
+    min_longitude: -4.7400855
+    max_latitude: 33.3740471
+    max_longitude: -4.720602
   translations:
     en: Boulemane
     ar: إقليم بولمان
@@ -235,16 +296,21 @@ BOM:
     ja: ブルマーヌ州
     nl: Boulmane
     sv: Boulemane (provins)
-  geo:
-    latitude: 33.3625159
-    longitude: -4.7303397
-    min_latitude: 33.3536884
-    min_longitude: -4.7400855
-    max_latitude: 33.3740471
-    max_longitude: -4.720602
-  name: Boulemane
-CAS:
+    ceb: Boulemane (lalawigan)
+    zh: 布勒曼省
+    ccp: "\U0001111D\U0001112F\U00011123\U0001112C\U0001111F\U0001111A\U00011134"
+  comments: 
+CAS: 
+  name: Casablanca [Dar el Beïda]*
+  code: 
   unofficial_names: Casablanca [Dar el Beïda]*
+  geo:
+    latitude: 33.5731104
+    longitude: -7.589843399999999
+    min_latitude: 33.495279
+    min_longitude: -7.7164613
+    max_latitude: 33.649659
+    max_longitude: -7.4582757
   translations:
     en: Casablanca
     af: Casablanca
@@ -306,16 +372,34 @@ CAS:
     uk: Касабланка
     ur: دار البیضاء
     vi: Casablanca
-  geo:
-    latitude: 33.5731104
-    longitude: -7.589843399999999
-    min_latitude: 33.495279
-    min_longitude: -7.7164613
-    max_latitude: 33.649659
-    max_longitude: -7.4582757
-  name: Casablanca [Dar el Beïda]*
-CHE:
+    cy: Casablanca
+    sr_Latn: Kazablanka
+    zh: 卡萨布兰卡
+    yue_Hans: 卡萨布兰卡
+    sq: Kasablanka
+    ccp: "\U00011107\U00011125\U0001111D\U00011133\U00011123\U00011101\U00011107"
+    ky: Касабланка
+    ha: Casablanca
+    pa: ਕਾਸਾਬਲਾਂਕਾ
+    kk: Касабланка
+    yue: 卡薩布蘭卡
+    my: ကာဆာဘလန်ကာမြို့
+    yo: Casablanca
+    uz: Kasablanka
+    bs: Casablanca
+    mk: Казабланка
+  comments: 
+CHE: 
+  name: Chefchaouene
+  code: 
   unofficial_names: Chefchaouene
+  geo:
+    latitude: 35.171389
+    longitude: -5.269722000000001
+    min_latitude: 35.152179
+    min_longitude: -5.287148999999999
+    max_latitude: 35.185559
+    max_longitude: -5.2556705
   translations:
     en: Chefchaouen
     ar: إقليم شفشاون
@@ -328,16 +412,21 @@ CHE:
     nl: Chefchaouen
     sv: Chefchaouen Province
     ur: شفشاون صوبہ
-  geo:
-    latitude: 35.171389
-    longitude: -5.269722000000001
-    min_latitude: 35.152179
-    min_longitude: -5.287148999999999
-    max_latitude: 35.185559
-    max_longitude: -5.2556705
-  name: Chefchaouene
-CHI:
+    ceb: Chefchaouen Province
+    zh: 謝夫沙萬省
+    ccp: "\U0001110C\U0001112C\U0001111B\U00011134\U0001110C\U0001112C\U00011120\U0001112F\U00011120\U0001112C\U0001111A\U00011134"
+  comments: 
+CHI: 
+  name: Chichaoua
+  code: 
   unofficial_names: Chichaoua
+  geo:
+    latitude: 31.533333
+    longitude: -8.766667
+    min_latitude: 31.5162154
+    min_longitude: -8.779620999999999
+    max_latitude: 31.5541463
+    max_longitude: -8.7405252
   translations:
     en: Chichaoua
     ar: إقليم شيشاوة
@@ -351,16 +440,22 @@ CHI:
     pt: Chichaoua (província)
     sv: Chichaoua (provins)
     ur: شیشاوہ صوبہ
-  geo:
-    latitude: 31.533333
-    longitude: -8.766667
-    min_latitude: 31.5162154
-    min_longitude: -8.779620999999999
-    max_latitude: 31.5541463
-    max_longitude: -8.7405252
-  name: Chichaoua
-CHT:
+    ceb: Chichaoua
+    zh: 希沙瓦省
+    fa: استان شیشاوه
+    ccp: "\U0001110C\U00011128\U0001110C\U0001112F\U00011124"
+  comments: 
+CHT: 
+  name: Chtouka-Ait Baha
+  code: 
   unofficial_names: Chtouka-Ait Baha
+  geo:
+    latitude: 30.0688758
+    longitude: -9.152534
+    min_latitude: 30.0648089
+    min_longitude: -9.166395699999999
+    max_latitude: 30.0738757
+    max_longitude: -9.1488218
   translations:
     en: Chtouka Aït Baha
     ar: إقليم شتوكة آيت باها
@@ -374,16 +469,22 @@ CHT:
     nl: Chtouka-Aït Baha
     pt: Chtouka-Aït Baha
     sv: Chtouka-Ait-Baha
-  geo:
-    latitude: 30.0688758
-    longitude: -9.152534
-    min_latitude: 30.0648089
-    min_longitude: -9.166395699999999
-    max_latitude: 30.0738757
-    max_longitude: -9.1488218
-  name: Chtouka-Ait Baha
-ERR:
+    ceb: Chtouka-Ait-Baha
+    zh: 希圖卡阿伊特巴哈省
+    ccp: "\U00011111\U0001112E\U00011107 \U00011103\U00011103\U00011128\U00011116\U00011134
+      \U0001111D\U00011126"
+  comments: 
+ERR: 
+  name: Errachidia
+  code: 
   unofficial_names: Errachidia
+  geo:
+    latitude: 31.931944
+    longitude: -4.424443999999999
+    min_latitude: 31.9077638
+    min_longitude: -4.4768859
+    max_latitude: 31.9623573
+    max_longitude: -4.3753052
   translations:
     en: Errachidia
     ar: إقليم الرشيدية
@@ -395,16 +496,22 @@ ERR:
     ja: エルラシディア州
     nl: Errachidia
     sv: Errachidia
-  geo:
-    latitude: 31.931944
-    longitude: -4.424443999999999
-    min_latitude: 31.9077638
-    min_longitude: -4.4768859
-    max_latitude: 31.9623573
-    max_longitude: -4.3753052
-  name: Errachidia
-ESI:
+    ceb: Errachidia
+    zh: 拉希迪耶省
+    fa: استان رشیدیه
+    ccp: "\U00011103\U00011129\U00011122\U0001110C\U00011128\U00011118\U00011128\U00011120"
+  comments: 
+ESI: 
+  name: Essaouira
+  code: 
   unofficial_names: Essaouira
+  geo:
+    latitude: 31.5084926
+    longitude: -9.7595041
+    min_latitude: 31.4950698
+    min_longitude: -9.7755215
+    max_latitude: 31.5268173
+    max_longitude: -9.7492435
   translations:
     en: Essaouira
     ar: إقليم الصويرة
@@ -418,16 +525,22 @@ ESI:
     nl: Essaouira
     pt: Essaouira (província)
     ur: صویرہ صوبہ
-  geo:
-    latitude: 31.5084926
-    longitude: -9.7595041
-    min_latitude: 31.4950698
-    min_longitude: -9.7755215
-    max_latitude: 31.5268173
-    max_longitude: -9.7492435
-  name: Essaouira
-ESM:
+    ceb: Essaouira
+    zh: 索維拉省
+    fa: استان صویره
+    ccp: "\U00011103\U00011128\U00011125\U0001112F\U00011103\U00011128\U00011122"
+  comments: 
+ESM: 
+  name: Es Smara (EH)
+  code: 
   unofficial_names: Es Smara (EH)
+  geo:
+    latitude: 28.7082053
+    longitude: -9.5450974
+    min_latitude: 27.6666665
+    min_longitude: -11.1281028
+    max_latitude: 30.4073509
+    max_longitude: -6.263147
   translations:
     en: Es Semara
     ar: إقليم السمارة
@@ -439,16 +552,21 @@ ESM:
     ja: スマラ州
     nl: Es-Semara
     sv: Es-Semara (provins)
-  geo:
-    latitude: 28.7082053
-    longitude: -9.5450974
-    min_latitude: 27.6666665
-    min_longitude: -11.1281028
-    max_latitude: 30.4073509
-    max_longitude: -6.263147
-  name: Es Smara (EH)
-FAH:
+    ceb: Es-Semara (lalawigan)
+    zh: 塞馬拉省
+    ccp: "\U00011103\U00011128\U0001110C\U00011134 \U00011125\U0001112C\U0001111F\U00011122"
+  comments: 
+FAH: 
+  name: Fahs-Beni Makada
+  code: 
   unofficial_names: Fahs-Beni Makada
+  geo:
+    latitude: 35.757668
+    longitude: -5.8109107
+    min_latitude: 35.757346
+    min_longitude: -5.8115019
+    max_latitude: 35.7583864
+    max_longitude: -5.8102681
   translations:
     en: Fahs-Beni Makada
     ar: إقليم فحص أنجرة
@@ -461,16 +579,24 @@ FAH:
     nl: Fahs-Bni Mkada
     sv: Fahs-Anjra
     ur: فاہس انجرا
-  geo:
-    latitude: 35.757668
-    longitude: -5.8109107
-    min_latitude: 35.757346
-    min_longitude: -5.8115019
-    max_latitude: 35.7583864
-    max_longitude: -5.8102681
-  name: Fahs-Beni Makada
-FES:
+    ceb: Fahs-Anjra
+    zh: 法斯-安傑拉省
+    fa: استان فحص انجره
+    pl: prowincja Fahs Anjra
+    ccp: "\U0001111C\U00011126\U00011134\U00011125\U00011134-\U0001111D\U0001112C\U0001111A\U00011128
+      \U0001111F\U00011116\U00011113"
+  comments: 
+FES: 
+  name: Fès*
+  code: 
   unofficial_names: Fès*
+  geo:
+    latitude: 34.033333
+    longitude: -5
+    min_latitude: 33.9725487
+    min_longitude: -5.0755978
+    max_latitude: 34.075377
+    max_longitude: -4.927883
   translations:
     en: Fès-Dar-Dbibegh
     af: Fes
@@ -520,16 +646,29 @@ FES:
     uk: Фес
     ur: فاس
     vi: Fes
-  geo:
-    latitude: 34.033333
-    longitude: -5
-    min_latitude: 33.9725487
-    min_longitude: -5.0755978
-    max_latitude: 34.075377
-    max_longitude: -4.927883
-  name: Fès*
-FIG:
+    cy: Fès
+    ceb: Fès
+    sr_Latn: Fes
+    zh: 非斯
+    hi: फेज़
+    ccp: "\U0001111C\U0001112C\U0001110C\U00011134-\U00011113\U00011122\U00011134-\U0001111D\U00011128\U0001111D\U0001112C\U00011107\U00011134"
+    ky: Фес
+    pa: ਫ਼ਾਸ
+    kk: Фес (Фез) қаласы
+    bs: Fes
+    mk: Фес
+  comments: 
+FIG: 
+  name: Figuig
+  code: 
   unofficial_names: Figuig
+  geo:
+    latitude: 32.1092613
+    longitude: -1.229806
+    min_latitude: 32.082611
+    min_longitude: -1.2536429
+    max_latitude: 32.1282694
+    max_longitude: -1.1983252
   translations:
     en: Figuig
     ar: إقليم فكيك
@@ -542,16 +681,22 @@ FIG:
     nl: Figuig
     sv: Figuig
     ur: فکیک صوبہ
-  geo:
-    latitude: 32.1092613
-    longitude: -1.229806
-    min_latitude: 32.082611
-    min_longitude: -1.2536429
-    max_latitude: 32.1282694
-    max_longitude: -1.1983252
-  name: Figuig
-GUE:
+    ceb: Figuig (lalawigan)
+    zh: 菲吉格省
+    fa: استان فکیک
+    ccp: "\U0001111C\U00011128\U00011109\U0001112A\U00011103\U00011128\U00011107\U00011134"
+  comments: 
+GUE: 
+  name: Guelmim
+  code: 
   unofficial_names: Guelmim
+  geo:
+    latitude: 28.98333299999999
+    longitude: -10.066667
+    min_latitude: 28.9644067
+    min_longitude: -10.0787115
+    max_latitude: 29.0155338
+    max_longitude: -10.0353242
   translations:
     en: Guelmim
     ar: إقليم كلميم
@@ -585,16 +730,24 @@ GUE:
     tr: Guelmim Province
     ur: جویلمیم صوبہ
     vi: Tỉnh Guelmim
-  geo:
-    latitude: 28.98333299999999
-    longitude: -10.066667
-    min_latitude: 28.9644067
-    min_longitude: -10.0787115
-    max_latitude: 29.0155338
-    max_longitude: -10.0353242
-  name: Guelmim
-HAJ:
+    lv: Guelmimas province
+    ceb: Guelmim (lalawigan)
+    lt: Guelmimo provincija
+    zh: 蓋勒敏省
+    ccp: "\U00011109\U0001112A\U00011120\U0001112C\U00011123\U00011134\U0001111F\U00011128\U0001111F\U00011134"
+    uk: Гельмім
+  comments: 
+HAJ: 
+  name: El Hajeb
+  code: 
   unofficial_names: El Hajeb
+  geo:
+    latitude: 33.692778
+    longitude: -5.371111
+    min_latitude: 33.6618291
+    min_longitude: -5.3847214
+    max_latitude: 33.7026764
+    max_longitude: -5.358757
   translations:
     en: El Hajeb
     ar: إقليم الحاجب
@@ -605,16 +758,21 @@ HAJ:
     it: Provincia di El Hajeb
     ja: ハジェブ州
     nl: El Hajeb
-  geo:
-    latitude: 33.692778
-    longitude: -5.371111
-    min_latitude: 33.6618291
-    min_longitude: -5.3847214
-    max_latitude: 33.7026764
-    max_longitude: -5.358757
-  name: El Hajeb
-HAO:
+    ceb: El-Hajeb
+    zh: 哈傑卜省
+    ccp: "\U00011103\U0001112C\U00011123\U00011134 \U0001111D\U0001110E\U00011128\U0001111B\U00011134"
+  comments: 
+HAO: 
+  name: Al Haouz
+  code: 
   unofficial_names: Al Haouz
+  geo:
+    latitude: 31.2956729
+    longitude: -7.872159999999999
+    min_latitude: 30.862742
+    min_longitude: -8.5580064
+    max_latitude: 31.7052412
+    max_longitude: -7.0889282
   translations:
     en: Al Haouz
     ar: إقليم الحوز
@@ -629,16 +787,22 @@ HAO:
     pt: Al Haouz
     sv: Al-Haouz
     ur: الحوز صوبہ
-  geo:
-    latitude: 31.2956729
-    longitude: -7.872159999999999
-    min_latitude: 30.862742
-    min_longitude: -8.5580064
-    max_latitude: 31.7052412
-    max_longitude: -7.0889282
-  name: Al Haouz
-HOC:
+    ceb: Al-Haouz
+    zh: 豪茲省
+    pl: prowincja Al Haouz
+    ccp: "\U00011103\U00011123\U00011134 \U00011126\U00011105\U0001112A\U0001110C\U00011134"
+  comments: 
+HOC: 
+  name: Al Hoceïma
+  code: 
   unofficial_names: Al Hoceïma
+  geo:
+    latitude: 35.25
+    longitude: -3.933333
+    min_latitude: 35.2178035
+    min_longitude: -3.9659865
+    max_latitude: 35.2618515
+    max_longitude: -3.9094573
   translations:
     en: Al Hoceïma
     ar: إقليم الحسيمة
@@ -652,16 +816,22 @@ HOC:
     ru: Эль-Хосейма (провинция)
     sv: Al-Hoceima (provins i Marocko)
     ur: الحسیمہ صوبہ
-  geo:
-    latitude: 35.25
-    longitude: -3.933333
-    min_latitude: 35.2178035
-    min_longitude: -3.9659865
-    max_latitude: 35.2618515
-    max_longitude: -3.9094573
-  name: Al Hoceïma
-IFR:
+    ceb: Al-Hoceima
+    zh: 胡塞馬省
+    ccp: "\U00011103\U00011123\U00011134 \U00011126\U0001112E\U00011125\U0001112C\U0001112D\U0001111F"
+    gl: Provincia de Al-Hoceima
+  comments: 
+IFR: 
+  name: Ifrane
+  code: 
   unofficial_names: Ifrane
+  geo:
+    latitude: 33.5228062
+    longitude: -5.1109552
+    min_latitude: 33.4804938
+    min_longitude: -5.169239
+    max_latitude: 33.5549144
+    max_longitude: -5.086154899999999
   translations:
     en: Ifrane
     ar: إقليم إفران
@@ -674,16 +844,21 @@ IFR:
     nl: Ifrane
     ru: Ифран (провинция)
     sv: Ifrane
-  geo:
-    latitude: 33.5228062
-    longitude: -5.1109552
-    min_latitude: 33.4804938
-    min_longitude: -5.169239
-    max_latitude: 33.5549144
-    max_longitude: -5.086154899999999
-  name: Ifrane
-JDI:
+    ceb: Ifrane (lalawigan)
+    zh: 伊夫蘭省
+    ccp: "\U00011103\U00011128\U0001111C\U00011133\U00011122\U0001112D\U0001111A\U00011134"
+  comments: 
+JDI: 
+  name: El Jadida
+  code: 
   unofficial_names: El Jadida
+  geo:
+    latitude: 33.233333
+    longitude: -8.5
+    min_latitude: 33.202792
+    min_longitude: -8.5413515
+    max_latitude: 33.2641124
+    max_longitude: -8.4659775
   translations:
     en: El Jadida
     ar: إقليم الجديدة
@@ -695,16 +870,21 @@ JDI:
     ja: アル・ジャディーダ州
     nl: El Jadida
     sv: El-Jadida
-  geo:
-    latitude: 33.233333
-    longitude: -8.5
-    min_latitude: 33.202792
-    min_longitude: -8.5413515
-    max_latitude: 33.2641124
-    max_longitude: -8.4659775
-  name: El Jadida
-JRA:
+    ceb: El-Jadida (lalawigan)
+    zh: 傑迪代省
+    ccp: "\U00011103\U0001112C\U00011123\U00011134 \U0001110E\U00011113\U00011128\U00011118"
+  comments: 
+JRA: 
+  name: Jerada
+  code: 
   unofficial_names: Jerada
+  geo:
+    latitude: 34.311667
+    longitude: -2.163611
+    min_latitude: 34.2897364
+    min_longitude: -2.2159766
+    max_latitude: 34.3264968
+    max_longitude: -2.1487284
   translations:
     en: Jerada
     ar: إقليم جرادة
@@ -717,16 +897,22 @@ JRA:
     nl: Jerada
     sv: Jerada (provins)
     ur: جرادہ صوبہ
-  geo:
-    latitude: 34.311667
-    longitude: -2.163611
-    min_latitude: 34.2897364
-    min_longitude: -2.2159766
-    max_latitude: 34.3264968
-    max_longitude: -2.1487284
-  name: Jerada
-KEN:
+    ceb: Jerada (lalawigan)
+    zh: 傑拉達省
+    fa: استان جراده
+    ccp: "\U0001110E\U0001112C\U00011122\U00011113"
+  comments: 
+KEN: 
+  name: Kénitra
+  code: 
   unofficial_names: Kénitra
+  geo:
+    latitude: 34.25
+    longitude: -6.583333
+    min_latitude: 34.2233904
+    min_longitude: -6.682949
+    max_latitude: 34.310032
+    max_longitude: -6.5178107
   translations:
     en: Kénitra
     ar: إقليم القنيطرة
@@ -740,16 +926,22 @@ KEN:
     ru: провинция Кенитра
     sv: Kenitra Province
     ur: قنیطرہ صوبہ
-  geo:
-    latitude: 34.25
-    longitude: -6.583333
-    min_latitude: 34.2233904
-    min_longitude: -6.682949
-    max_latitude: 34.310032
-    max_longitude: -6.5178107
-  name: Kénitra
-KES:
+    ceb: Kenitra Province
+    zh: 蓋尼特拉省
+    fa: استان قنیطره
+    ccp: "\U00011107\U0001112C\U0001111A\U00011128\U00011111\U00011133\U00011122"
+  comments: 
+KES: 
+  name: Kelaat Sraghna
+  code: 
   unofficial_names: Kelaat Sraghna
+  geo:
+    latitude: 32.048056
+    longitude: -7.408333000000001
+    min_latitude: 32.0310284
+    min_longitude: -7.431478500000001
+    max_latitude: 32.0710322
+    max_longitude: -7.3746578
   translations:
     en: Kelaat Sraghna
     ar: إقليم قلعة السراغنة
@@ -763,16 +955,22 @@ KES:
     pt: El Kelâat Es-Sraghna
     sv: Kelaa-Des-Sraghna
     ur: القعہ سراغنہ صوبہ
-  geo:
-    latitude: 32.048056
-    longitude: -7.408333000000001
-    min_latitude: 32.0310284
-    min_longitude: -7.431478500000001
-    max_latitude: 32.0710322
-    max_longitude: -7.3746578
-  name: Kelaat Sraghna
-KHE:
+    ceb: Kelaa-Des-Sraghna
+    zh: 斯拉格奈堡省
+    fa: استان قلعه سراغنه
+    ccp: "\U00011107\U0001112C\U00011123\U00011116\U00011134 \U00011125\U00011133\U00011122\U00011107\U00011134\U0001111A"
+  comments: 
+KHE: 
+  name: Khemisset
+  code: 
   unofficial_names: Khemisset
+  geo:
+    latitude: 33.816667
+    longitude: -6.066667
+    min_latitude: 33.7989952
+    min_longitude: -6.1040727
+    max_latitude: 33.848522
+    max_longitude: -6.0419214
   translations:
     en: Khemisset
     ar: إقليم الخميسات
@@ -784,16 +982,21 @@ KHE:
     ja: ケミセット州
     nl: Khémisset
     sv: Khemisset (provins i Marocko)
-  geo:
-    latitude: 33.816667
-    longitude: -6.066667
-    min_latitude: 33.7989952
-    min_longitude: -6.1040727
-    max_latitude: 33.848522
-    max_longitude: -6.0419214
-  name: Khemisset
-KHN:
+    ceb: Khemisset (lalawigan)
+    zh: 海米薩特省
+    ccp: "\U00011108\U0001112C\U0001111F\U00011128\U00011125\U0001112C\U00011116\U00011134"
+  comments: 
+KHN: 
+  name: Khenifra
+  code: 
   unofficial_names: Khenifra
+  geo:
+    latitude: 32.939444
+    longitude: -5.6675
+    min_latitude: 32.9063255
+    min_longitude: -5.691261300000001
+    max_latitude: 32.9613621
+    max_longitude: -5.6215668
   translations:
     en: Khénifra
     ar: إقليم خنيفرة
@@ -804,16 +1007,21 @@ KHN:
     it: Provincia di Khenifra
     ja: ヘニフラ州
     nl: Khénifra
-  geo:
-    latitude: 32.939444
-    longitude: -5.6675
-    min_latitude: 32.9063255
-    min_longitude: -5.691261300000001
-    max_latitude: 32.9613621
-    max_longitude: -5.6215668
-  name: Khenifra
-KHO:
+    ceb: Khenifra (lalawigan)
+    zh: 海尼夫拉省
+    ccp: "\U00011108\U0001112C\U0001111A\U00011128\U0001111C\U00011133\U00011122"
+  comments: 
+KHO: 
+  name: Khouribga
+  code: 
   unofficial_names: Khouribga
+  geo:
+    latitude: 32.886023
+    longitude: -6.9208655
+    min_latitude: 32.8434018
+    min_longitude: -6.963607000000001
+    max_latitude: 32.9182217
+    max_longitude: -6.8709799
   translations:
     en: Khouribga
     ar: إقليم خريبكة
@@ -825,16 +1033,21 @@ KHO:
     ja: クーリブカ州
     nl: Khouribga (provincie)
     sv: Khouribga Province
-  geo:
-    latitude: 32.886023
-    longitude: -6.9208655
-    min_latitude: 32.8434018
-    min_longitude: -6.963607000000001
-    max_latitude: 32.9182217
-    max_longitude: -6.8709799
-  name: Khouribga
-LAA:
+    ceb: Khouribga Province
+    zh: 胡里卜蓋省
+    ccp: "\U00011108\U0001112F\U00011122\U00011128\U0001111B\U00011134\U00011109"
+  comments: 
+LAA: 
+  name: Laâyoune* (EH)
+  code: 
   unofficial_names: Laâyoune* (EH)
+  geo:
+    latitude: 27.1252867
+    longitude: -13.1625005
+    min_latitude: 27.0811371
+    min_longitude: -13.2541466
+    max_latitude: 27.1669433
+    max_longitude: -13.0969906
   translations:
     en: Laâyoune
     ar: إقليم العيون
@@ -847,16 +1060,21 @@ LAA:
     nl: Laâyoune
     pt: Laâyoune
     sv: Laayoune (provins)
-  geo:
-    latitude: 27.1252867
-    longitude: -13.1625005
-    min_latitude: 27.0811371
-    min_longitude: -13.2541466
-    max_latitude: 27.1669433
-    max_longitude: -13.0969906
-  name: Laâyoune* (EH)
-LAR:
+    ceb: Laayoune (lalawigan)
+    zh: 阿尤恩省
+    ccp: "\U00011123\U0001112C\U00011103\U0001112F\U0001111A\U00011134"
+  comments: 
+LAR: 
+  name: Larache
+  code: 
   unofficial_names: Larache
+  geo:
+    latitude: 35.183333
+    longitude: -6.15
+    min_latitude: 35.1456698
+    min_longitude: -6.1814405
+    max_latitude: 35.2061451
+    max_longitude: -6.129512800000001
   translations:
     en: Larache
     ar: إقليم العرائش
@@ -870,18 +1088,15 @@ LAR:
     ru: Лараш
     sv: Larache (provins)
     ur: العرائش صوبہ
-  geo:
-    latitude: 35.183333
-    longitude: -6.15
-    min_latitude: 35.1456698
-    min_longitude: -6.1814405
-    max_latitude: 35.2061451
-    max_longitude: -6.129512800000001
-  name: Larache
-MAR:
+    ceb: Larache (lalawigan)
+    zh: 拉臘什省
+    ccp: "\U00011123\U00011122\U00011134\U00011125\U0001112C"
+    be: Лараш
+  comments: 
+MAR: 
+  name: Marrakech*
+  code: 
   unofficial_names: Marrakech*
-  translations:
-    en: Marrakech*
   geo:
     latitude: 31.63
     longitude: -8.008889
@@ -889,9 +1104,20 @@ MAR:
     min_longitude: -8.1280804
     max_latitude: 31.7162668
     max_longitude: -7.887625799999999
-  name: Marrakech*
-MED:
+  translations:
+    en: Marrakech
+  comments: 
+MED: 
+  name: Médiouna
+  code: 
   unofficial_names: Médiouna
+  geo:
+    latitude: 33.4525
+    longitude: -7.514722
+    min_latitude: 33.44092
+    min_longitude: -7.526265299999999
+    max_latitude: 33.4622099
+    max_longitude: -7.508552099999999
   translations:
     en: Médiouna
     ar: إقليم مديونة
@@ -902,16 +1128,21 @@ MED:
     it: Provincia di Mediouna
     ja: メディウナ州
     nl: Médiouna
-  geo:
-    latitude: 33.4525
-    longitude: -7.514722
-    min_latitude: 33.44092
-    min_longitude: -7.526265299999999
-    max_latitude: 33.4622099
-    max_longitude: -7.508552099999999
-  name: Médiouna
-MEK:
+    ceb: Mediouna
+    zh: 梅久那省
+    ccp: "\U0001111F\U0001112C\U00011113\U00011128\U00011103\U0001112F\U0001111A"
+  comments: 
+MEK: 
+  name: Meknès*
+  code: 
   unofficial_names: Meknès*
+  geo:
+    latitude: 33.895
+    longitude: -5.554722
+    min_latitude: 33.8338915
+    min_longitude: -5.6096258
+    max_latitude: 33.9281185
+    max_longitude: -5.466414599999999
   translations:
     en: Meknès
     ar: مكناس
@@ -960,18 +1191,20 @@ MEK:
     uk: Мекнес
     ur: مکناس
     vi: Meknes
-  geo:
-    latitude: 33.895
-    longitude: -5.554722
-    min_latitude: 33.8338915
-    min_longitude: -5.6096258
-    max_latitude: 33.9281185
-    max_longitude: -5.466414599999999
-  name: Meknès*
-MEL:
+    lv: Meknesa
+    cy: Meknès
+    ceb: Meknès
+    sr_Latn: Meknes
+    zh: 梅克内斯
+    ccp: "\U0001111F\U0001112C\U00011107\U00011134\U0001111A\U00011128\U0001110C\U00011134"
+    kk: Мекнес қаласы
+    uz: Miknas
+    mk: Мекнес
+  comments: 
+MEL: 
+  name: Aït Melloul
+  code: 
   unofficial_names: Aït Melloul
-  translations:
-    en: Aït Melloul
   geo:
     latitude: 30.334167
     longitude: -9.497221999999999
@@ -979,9 +1212,20 @@ MEL:
     min_longitude: -9.5496081
     max_latitude: 30.3755411
     max_longitude: -9.4401741
-  name: Aït Melloul
-MOU:
+  translations:
+    en: Aït Melloul
+  comments: 
+MOU: 
+  name: Moulay Yacoub
+  code: 
   unofficial_names: Moulay Yacoub
+  geo:
+    latitude: 34.0878
+    longitude: -5.1811
+    min_latitude: 34.0821661
+    min_longitude: -5.1857186
+    max_latitude: 34.0926153
+    max_longitude: -5.1716422
   translations:
     en: Moulay Yacoub
     ar: إقليم مولاي يعقوب
@@ -993,16 +1237,21 @@ MOU:
     ja: ムーレイ・ヤコブ州
     nl: Moulay Yacoub
     sv: Moulay-Yacoub
-  geo:
-    latitude: 34.0878
-    longitude: -5.1811
-    min_latitude: 34.0821661
-    min_longitude: -5.1857186
-    max_latitude: 34.0926153
-    max_longitude: -5.1716422
-  name: Moulay Yacoub
-NAD:
+    ceb: Moulay-Yacoub
+    zh: 穆雷省
+    ccp: "\U0001111F\U0001112F\U00011123\U0001112C \U00011103\U00011128\U00011120\U00011107\U0001112A\U0001111B\U00011134"
+  comments: 
+NAD: 
+  name: Nador
+  code: 
   unofficial_names: Nador
+  geo:
+    latitude: 35.166667
+    longitude: -2.933333
+    min_latitude: 35.1237717
+    min_longitude: -2.9779407
+    max_latitude: 35.2065182
+    max_longitude: -2.9002642
   translations:
     en: Nador
     ar: إقليم الناظور
@@ -1016,16 +1265,24 @@ NAD:
     ru: Надор
     sv: Nador (provins)
     ur: ناظور صوبہ
-  geo:
-    latitude: 35.166667
-    longitude: -2.933333
-    min_latitude: 35.1237717
-    min_longitude: -2.9779407
-    max_latitude: 35.2065182
-    max_longitude: -2.9002642
-  name: Nador
-NOU:
+    af: Nador (provinsie)
+    ceb: Nador (lalawigan)
+    zh: 納祖爾省
+    fa: استان ناظور
+    el: Επαρχία του Ναντόρ
+    ccp: "\U0001111A\U00011113\U00011127\U00011122\U00011134"
+  comments: 
+NOU: 
+  name: Nouaceur
+  code: 
   unofficial_names: Nouaceur
+  geo:
+    latitude: 33.3721834
+    longitude: -7.547006599999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Nouaceur
     ar: إقليم النواصر
@@ -1036,16 +1293,22 @@ NOU:
     it: Provincia di Nouaceur
     ja: ノウアセウル州
     nl: Nouaceur
-  geo:
-    latitude: 33.3721834
-    longitude: -7.547006599999999
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Nouaceur
-OUA:
+    ceb: Nouaceur (lalawigan)
+    ur: صوبہ نواصر
+    zh: 諾瓦瑟爾省
+    ccp: "\U0001111A\U0001112F\U00011103\U00011125\U0001112C\U00011105\U0001112A\U00011122\U00011134"
+  comments: 
+OUA: 
+  name: Ouarzazate
+  code: 
   unofficial_names: Ouarzazate
+  geo:
+    latitude: 30.9335436
+    longitude: -6.937016
+    min_latitude: 30.915294
+    min_longitude: -6.99224
+    max_latitude: 30.9557508
+    max_longitude: -6.8729387
   translations:
     en: Ouarzazate
     ar: إقليم ورززات
@@ -1057,16 +1320,23 @@ OUA:
     ja: ワルザザート州
     nl: Ouarzazate
     pt: Ouarzazate
-  geo:
-    latitude: 30.9335436
-    longitude: -6.937016
-    min_latitude: 30.915294
-    min_longitude: -6.99224
-    max_latitude: 30.9557508
-    max_longitude: -6.8729387
-  name: Ouarzazate
-OUD:
+    ceb: Ouarzazate
+    zh: 瓦爾扎扎特省
+    fa: استان ورززات
+    pl: prowincja Ouarzazate
+    ccp: "\U00011107\U0001112F\U00011122\U00011134\U0001110E\U0001110E\U00011116\U00011134"
+  comments: 
+OUD: 
+  name: Oued ed Dahab (EH)
+  code: 
   unofficial_names: Oued ed Dahab (EH)
+  geo:
+    latitude: 21.369212
+    longitude: -16.9570741
+    min_latitude: 21.3686192
+    min_longitude: -16.9578964
+    max_latitude: 21.3696659
+    max_longitude: -16.9564694
   translations:
     en: Oued Ed-Dahab
     ar: إقليم وادي الذهب
@@ -1099,16 +1369,24 @@ OUD:
     tr: Oued Ed-Dahab Province
     ur: ووید ید-داحاب صوبہ
     vi: Oued Ed-Dahab Tỉnh
-  geo:
-    latitude: 21.369212
-    longitude: -16.9570741
-    min_latitude: 21.3686192
-    min_longitude: -16.9578964
-    max_latitude: 21.3696659
-    max_longitude: -16.9564694
-  name: Oued ed Dahab (EH)
-OUJ:
+    lv: Oued Ed-Dahabas province
+    ceb: Oued Ed-Dahab-Lagouira
+    lt: Ued Ed-Dahabas
+    zh: 黃金谷地省
+    ccp: "\U00011107\U0001112A\U00011120\U0001112C\U00011116\U00011134 \U00011103\U00011128\U00011116\U00011134-\U00011113\U00011126\U0001111B\U00011134"
+    uk: Провінція Уед-Ед-Дахаб
+  comments: 
+OUJ: 
+  name: Oujda*
+  code: 
   unofficial_names: Oujda*
+  geo:
+    latitude: 34.686667
+    longitude: -1.911389
+    min_latitude: 34.6418294
+    min_longitude: -1.963159
+    max_latitude: 34.7273116
+    max_longitude: -1.8517972
   translations:
     en: Oujda-Angad
     ar: وجدة
@@ -1154,18 +1432,20 @@ OUJ:
     uk: Уджда
     ur: وجدہ
     vi: Oujda
-  geo:
-    latitude: 34.686667
-    longitude: -1.911389
-    min_latitude: 34.6418294
-    min_longitude: -1.963159
-    max_latitude: 34.7273116
-    max_longitude: -1.8517972
-  name: Oujda*
-RBA:
+    lv: Udždza
+    cy: Oujda
+    ceb: Oujda (kapital sa rehiyon)
+    zh: 乌季达
+    sq: Oujda
+    ccp: "\U00011103\U0001112F\U0001110C\U00011134\U00011113-\U00011103\U0001111A\U00011134\U00011109\U00011116\U00011134"
+    gl: Oujda
+    kk: Уджда қаласы
+    mk: Уџда
+  comments: 
+RBA: 
+  name: Rabat-Salé*
+  code: 
   unofficial_names: Rabat-Salé*
-  translations:
-    en: Rabat-Salé*
   geo:
     latitude: 33.9715904
     longitude: -6.8498129
@@ -1173,9 +1453,20 @@ RBA:
     min_longitude: -6.9228836
     max_latitude: 34.0348239
     max_longitude: -6.791642
-  name: Rabat-Salé*
-SAF:
+  translations:
+    en: Rabat-Salé*
+  comments: 
+SAF: 
+  name: Safi
+  code: 
   unofficial_names: Safi
+  geo:
+    latitude: 32.3008151
+    longitude: -9.2272033
+    min_latitude: 32.2431484
+    min_longitude: -9.2796346
+    max_latitude: 32.3430063
+    max_longitude: -9.1936504
   translations:
     en: Safi
     ar: إقليم آسفي
@@ -1187,16 +1478,22 @@ SAF:
     ja: サフィ州
     nl: Safi
     sv: Safi (provins)
-  geo:
-    latitude: 32.3008151
-    longitude: -9.2272033
-    min_latitude: 32.2431484
-    min_longitude: -9.2796346
-    max_latitude: 32.3430063
-    max_longitude: -9.1936504
-  name: Safi
-SAL:
+    ceb: Safi (lalawigan)
+    zh: 薩非省
+    el: επαρχία Σάφι
+    ccp: "\U00011125\U0001111C\U00011128"
+  comments: 
+SAL: 
+  name: Salé
+  code: 
   unofficial_names: Salé
+  geo:
+    latitude: 34.0336969
+    longitude: -6.770813800000001
+    min_latitude: 33.9791132
+    min_longitude: -6.834943
+    max_latitude: 34.0964405
+    max_longitude: -6.709358600000001
   translations:
     en: Salé
     ar: سلا
@@ -1241,16 +1538,28 @@ SAL:
     uk: Сале
     ur: سلا
     vi: Salé
-  geo:
-    latitude: 34.0336969
-    longitude: -6.770813800000001
-    min_latitude: 33.9791132
-    min_longitude: -6.834943
-    max_latitude: 34.0964405
-    max_longitude: -6.709358600000001
-  name: Salé
-SEF:
+    lv: Sale
+    cy: Salé
+    ceb: Sale
+    sr_Latn: Sale
+    zh: 塞拉
+    ccp: "\U00011125\U00011123\U0001112C"
+    sr: Сале
+    kk: Сале
+    cs: Salé
+    mk: Сале
+  comments: 
+SEF: 
+  name: Sefrou
+  code: 
   unofficial_names: Sefrou
+  geo:
+    latitude: 33.8305244
+    longitude: -4.835315400000001
+    min_latitude: 33.8098898
+    min_longitude: -4.854927099999999
+    max_latitude: 33.8492472
+    max_longitude: -4.802141199999999
   translations:
     en: Sefrou
     ar: إقليم صفرو
@@ -1262,16 +1571,21 @@ SEF:
     ja: セフル州
     nl: Sefrou
     sv: Sefrou (provins)
-  geo:
-    latitude: 33.8305244
-    longitude: -4.835315400000001
-    min_latitude: 33.8098898
-    min_longitude: -4.854927099999999
-    max_latitude: 33.8492472
-    max_longitude: -4.802141199999999
-  name: Sefrou
-SET:
+    ceb: Sefrou (lalawigan)
+    zh: 塞夫勞省
+    ccp: "\U00011125\U0001112C\U0001111C\U00011133\U00011122\U00011127\U0001112E"
+  comments: 
+SET: 
+  name: Settat
+  code: 
   unofficial_names: Settat
+  geo:
+    latitude: 33
+    longitude: -7.6167
+    min_latitude: 32.9683838
+    min_longitude: -7.663727499999998
+    max_latitude: 33.0173469
+    max_longitude: -7.575590699999998
   translations:
     en: Settat
     ar: إقليم سطات
@@ -1283,16 +1597,21 @@ SET:
     ja: セタト州
     nl: Settat
     sv: Settat Province
-  geo:
-    latitude: 33
-    longitude: -7.6167
-    min_latitude: 32.9683838
-    min_longitude: -7.663727499999998
-    max_latitude: 33.0173469
-    max_longitude: -7.575590699999998
-  name: Settat
-SIK:
+    ceb: Settat Province
+    zh: 塞塔特省
+    ccp: "\U00011125\U0001112C\U00011116\U00011134\U00011111\U00011116\U00011134"
+  comments: 
+SIK: 
+  name: Sidi Kacem
+  code: 
   unofficial_names: Sidi Kacem
+  geo:
+    latitude: 34.216667
+    longitude: -5.7
+    min_latitude: 34.2092469
+    min_longitude: -5.7565785
+    max_latitude: 34.2702685
+    max_longitude: -5.6877422
   translations:
     en: Sidi Kacem
     ar: إقليم سيدي قاسم
@@ -1305,16 +1624,22 @@ SIK:
     nl: Sidi Kacem
     sv: Sidi-Kacem (provins i Marocko)
     ur: سیدی قاسم صوبہ
-  geo:
-    latitude: 34.216667
-    longitude: -5.7
-    min_latitude: 34.2092469
-    min_longitude: -5.7565785
-    max_latitude: 34.2702685
-    max_longitude: -5.6877422
-  name: Sidi Kacem
-SKH:
+    ceb: Sidi-Kacem (lalawigan)
+    zh: 西迪卡塞姆省
+    fa: استان سیدی قاسم
+    ccp: "\U00011125\U00011128\U00011113\U00011128 \U00011107\U00011125\U0001112C\U0001111F\U00011134"
+  comments: 
+SKH: 
+  name: Skhirate-Témara
+  code: 
   unofficial_names: Skhirate-Témara
+  geo:
+    latitude: 33.9278354
+    longitude: -6.9051819
+    min_latitude: 33.8619702
+    min_longitude: -7.0053398
+    max_latitude: 33.9586252
+    max_longitude: -6.877097999999999
   translations:
     en: Skhirat-Témara
     ar: تمارة
@@ -1350,16 +1675,24 @@ SKH:
     tr: Temara
     ur: تمارہ
     vi: Temara
-  geo:
-    latitude: 33.9278354
-    longitude: -6.9051819
-    min_latitude: 33.8619702
-    min_longitude: -7.0053398
-    max_latitude: 33.9586252
-    max_longitude: -6.877097999999999
-  name: Skhirate-Témara
-SYB:
+    lv: Temara
+    ceb: Temara (kapital sa munisipyo)
+    zh: 特马拉
+    ccp: "\U00011108\U00011128\U00011122\U00011116\U00011134-\U00011111\U0001112C\U0001111F\U00011122"
+    uk: Темара
+    cs: Temara
+  comments: 
+SYB: 
+  name: Sidi Youssef Ben Ali
+  code: 
   unofficial_names: Sidi Youssef Ben Ali
+  geo:
+    latitude: 31.6084373
+    longitude: -7.965306699999999
+    min_latitude: 31.5528848
+    min_longitude: -7.978788499999999
+    max_latitude: 31.6256135
+    max_longitude: -7.920498799999999
   translations:
     en: Sidi Youssef Ben Ali
     af: Marrakesj³
@@ -1416,16 +1749,22 @@ SYB:
     uk: Марракеш³
     ur: مراکش (شہر)³
     vi: Marrakech³
-  geo:
-    latitude: 31.6084373
-    longitude: -7.965306699999999
-    min_latitude: 31.5528848
-    min_longitude: -7.978788499999999
-    max_latitude: 31.6256135
-    max_longitude: -7.920498799999999
-  name: Sidi Youssef Ben Ali
-TAI:
+    sr_Latn: Marakeš³
+    zh: 马拉喀什³
+    ccp: "\U00011125\U00011128\U00011113\U00011128 \U00011103\U00011128\U00011105\U0001112A\U00011125\U0001112C\U0001111B\U00011134
+      \U0001111D\U0001112C\U0001111A\U00011134 \U00011103\U00011123\U00011128"
+  comments: 
+TAI: 
+  name: Taourirt
+  code: 
   unofficial_names: Taourirt
+  geo:
+    latitude: 34.3983716
+    longitude: -2.8935028
+    min_latitude: 34.3875042
+    min_longitude: -2.9234147
+    max_latitude: 34.4237263
+    max_longitude: -2.8746414
   translations:
     en: Taourirt
     ar: إقليم تاوريرت
@@ -1438,16 +1777,21 @@ TAI:
     nl: Taourirt
     pl: Taurirt
     ur: تاوریرت صوبہ
-  geo:
-    latitude: 34.3983716
-    longitude: -2.8935028
-    min_latitude: 34.3875042
-    min_longitude: -2.9234147
-    max_latitude: 34.4237263
-    max_longitude: -2.8746414
-  name: Taourirt
-TAO:
+    zh: 陶里爾特省
+    fa: استان تاوریرت
+    ccp: "\U00011111\U0001112F\U00011122\U00011128\U00011122\U00011134\U00011111\U00011134"
+  comments: 
+TAO: 
+  name: Taounate
+  code: 
   unofficial_names: Taounate
+  geo:
+    latitude: 34.535833
+    longitude: -4.64
+    min_latitude: 34.5246897
+    min_longitude: -4.6587909
+    max_latitude: 34.555448
+    max_longitude: -4.6242773
   translations:
     en: Taounate
     ar: إقليم تاونات
@@ -1459,16 +1803,21 @@ TAO:
     ja: タウナト州
     nl: Taounate
     sv: Taounate (provins)
-  geo:
-    latitude: 34.535833
-    longitude: -4.64
-    min_latitude: 34.5246897
-    min_longitude: -4.6587909
-    max_latitude: 34.555448
-    max_longitude: -4.6242773
-  name: Taounate
-TAR:
+    ceb: Taounate
+    zh: 陶納特省
+    ccp: "\U00011111\U0001112F\U0001111A\U00011116\U00011134"
+  comments: 
+TAR: 
+  name: Taroudannt
+  code: 
   unofficial_names: Taroudannt
+  geo:
+    latitude: 30.466944
+    longitude: -8.879999999999999
+    min_latitude: 30.459809
+    min_longitude: -8.9028739
+    max_latitude: 30.497608
+    max_longitude: -8.8509464
   translations:
     en: Taroudant
     ar: إقليم تارودانت
@@ -1482,16 +1831,21 @@ TAR:
     nl: Taroudant
     pt: Tarudante
     sv: Taroudannt (provins)
-  geo:
-    latitude: 30.466944
-    longitude: -8.879999999999999
-    min_latitude: 30.459809
-    min_longitude: -8.9028739
-    max_latitude: 30.497608
-    max_longitude: -8.8509464
-  name: Taroudannt
-TAT:
+    ceb: Taroudannt
+    zh: 塔魯丹特省
+    ccp: "\U00011111\U00011122\U0001112F\U00011113\U0001111A\U00011134\U00011111\U00011134"
+  comments: 
+TAT: 
+  name: Tata
+  code: 
   unofficial_names: Tata
+  geo:
+    latitude: 29.742778
+    longitude: -7.972499999999998
+    min_latitude: 29.7337501
+    min_longitude: -7.996587799999999
+    max_latitude: 29.7831515
+    max_longitude: -7.9531574
   translations:
     en: Tata
     ar: إقليم طاطا
@@ -1503,16 +1857,21 @@ TAT:
     ja: タタ州
     nl: Tata
     sv: Tata (provins)
-  geo:
-    latitude: 29.742778
-    longitude: -7.972499999999998
-    min_latitude: 29.7337501
-    min_longitude: -7.996587799999999
-    max_latitude: 29.7831515
-    max_longitude: -7.9531574
-  name: Tata
-TAZ:
+    ceb: Tata
+    zh: 塔塔省
+    ccp: "\U00011111\U00011111"
+  comments: 
+TAZ: 
+  name: Taza
+  code: 
   unofficial_names: Taza
+  geo:
+    latitude: 34.216667
+    longitude: -4.016667
+    min_latitude: 34.1945525
+    min_longitude: -4.0451144
+    max_latitude: 34.2452976
+    max_longitude: -3.9336206
   translations:
     en: Taza
     ar: إقليم تازة
@@ -1524,16 +1883,21 @@ TAZ:
     ja: ターザ州
     nl: Taza
     sv: Taza (provins)
-  geo:
-    latitude: 34.216667
-    longitude: -4.016667
-    min_latitude: 34.1945525
-    min_longitude: -4.0451144
-    max_latitude: 34.2452976
-    max_longitude: -3.9336206
-  name: Taza
-TET:
+    ceb: Taza (lalawigan)
+    zh: 塔扎省
+    ccp: "\U00011111\U0001110E"
+  comments: 
+TET: 
+  name: Tétouan*
+  code: 
   unofficial_names: Tétouan*
+  geo:
+    latitude: 35.566667
+    longitude: -5.366667
+    min_latitude: 35.5562292
+    min_longitude: -5.4377174
+    max_latitude: 35.6139067
+    max_longitude: -5.2952385
   translations:
     en: Tétouan
     ar: إقليم تطوان
@@ -1546,16 +1910,21 @@ TET:
     nl: Tétouan
     sv: Tetouan (provins i Marocko)
     ur: تطوان صوبہ
-  geo:
-    latitude: 35.566667
-    longitude: -5.366667
-    min_latitude: 35.5562292
-    min_longitude: -5.4377174
-    max_latitude: 35.6139067
-    max_longitude: -5.2952385
-  name: Tétouan*
-TIZ:
+    ceb: Tetouan
+    zh: 得土安省
+    ccp: "\U00011111\U0001112C\U00011111\U0001112F\U00011120\U0001111A\U00011134"
+  comments: 
+TIZ: 
+  name: Tiznit
+  code: 
   unofficial_names: Tiznit
+  geo:
+    latitude: 29.693392
+    longitude: -9.732156999999999
+    min_latitude: 29.67264399999999
+    min_longitude: -9.7581326
+    max_latitude: 29.7290494
+    max_longitude: -9.702920899999999
   translations:
     en: Tiznit
     ar: إقليم تيزنيت
@@ -1568,16 +1937,22 @@ TIZ:
     nl: Tiznit
     pt: Tiznit
     sv: Tiznit (provins)
-  geo:
-    latitude: 29.693392
-    longitude: -9.732156999999999
-    min_latitude: 29.67264399999999
-    min_longitude: -9.7581326
-    max_latitude: 29.7290494
-    max_longitude: -9.702920899999999
-  name: Tiznit
-TNG:
+    ceb: Tiznit (lalawigan)
+    zh: 提茲尼特省
+    ru: Тизнит
+    ccp: "\U00011111\U00011128\U0001110C\U00011134\U0001111A\U00011128\U00011116\U00011134"
+  comments: 
+TNG: 
+  name: Tanger
+  code: 
   unofficial_names: Tanger
+  geo:
+    latitude: 35.7594651
+    longitude: -5.833954299999999
+    min_latitude: 35.7008015
+    min_longitude: -5.9487488
+    max_latitude: 35.8257368
+    max_longitude: -5.718555500000001
   translations:
     en: Tangier-Assilah
     af: Tangier
@@ -1631,16 +2006,31 @@ TNG:
     uk: Танжер
     ur: طنجہ
     vi: Tangier
-  geo:
-    latitude: 35.7594651
-    longitude: -5.833954299999999
-    min_latitude: 35.7008015
-    min_longitude: -5.9487488
-    max_latitude: 35.8257368
-    max_longitude: -5.718555500000001
-  name: Tanger
-TNT:
+    cy: Tanger
+    ceb: Tanger-Assilah
+    sr_Latn: Tanger
+    zh: 丹吉尔
+    yue_Hans: 丹吉尔
+    ccp: "\U00011111\U0001111A\U00011134\U00011109\U00011128\U00011120\U00011122\U00011134-\U00011103\U00011125\U00011128\U00011123\U00011126\U00011134"
+    gl: Tánxer
+    et: Tanger
+    kk: Танжер қаласы
+    yue: 丹吉爾
+    my: တန်ဂျီးယားမြို့
+    bs: Tanger
+    mk: Тангер
+  comments: 
+TNT: 
+  name: Tan-Tan
+  code: 
   unofficial_names: Tan-Tan
+  geo:
+    latitude: 28.4380408
+    longitude: -11.0987374
+    min_latitude: 28.4089164
+    min_longitude: -11.125803
+    max_latitude: 28.4523924
+    max_longitude: -11.0713005
   translations:
     en: Tan-Tan
     ar: إقليم طانطان
@@ -1652,18 +2042,15 @@ TNT:
     ja: タンタン州
     nl: Tan-Tan
     sv: Tan-Tan (provins)
-  geo:
-    latitude: 28.4380408
-    longitude: -11.0987374
-    min_latitude: 28.4089164
-    min_longitude: -11.125803
-    max_latitude: 28.4523924
-    max_longitude: -11.0713005
-  name: Tan-Tan
-X1~:
+    ceb: Tan-Tan (lalawigan)
+    zh: 坦坦省
+    ru: Тан-Тан
+    ccp: "\U00011111\U0001111A\U00011134-\U00011111\U0001111A\U00011134"
+  comments: 
+X1~: 
+  name: Laayoune-Boujdour-Sakia El Hamra
+  code: 
   unofficial_names: Laayoune-Boujdour-Sakia El Hamra
-  translations:
-    en: Laayoune-Boujdour-Sakia El Hamra
   geo:
     latitude: 27.8521664
     longitude: -12.1632718
@@ -1671,9 +2058,20 @@ X1~:
     min_longitude: -13.1729662
     max_latitude: 28.2162268
     max_longitude: -11.50715
-  name: Laayoune-Boujdour-Sakia El Hamra
-ZAG:
+  translations:
+    en: Laayoune-Boujdour-Sakia El Hamra
+  comments: 
+ZAG: 
+  name: Zagora
+  code: 
   unofficial_names: Zagora
+  geo:
+    latitude: 30.330556
+    longitude: -5.838056
+    min_latitude: 30.3173955
+    min_longitude: -5.8603477
+    max_latitude: 30.3685246
+    max_longitude: -5.8262927
   translations:
     en: Zagora
     ar: إقليم زاكورة
@@ -1685,15 +2083,21 @@ ZAG:
     ja: ザゴラ州
     nl: Zagora
     pt: Zagora
+    ceb: Zagora (lalawigan)
+    zh: 扎古拉省
+    ccp: "\U0001110E\U00011109\U0001112E\U00011122"
+  comments: 
+MMD: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 30.330556
-    longitude: -5.838056
-    min_latitude: 30.3173955
-    min_longitude: -5.8603477
-    max_latitude: 30.3685246
-    max_longitude: -5.8262927
-  name: Zagora
-MMD:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Marrakesj
     ar: مراكش
@@ -1750,7 +2154,21 @@ MMD:
     uk: Марракеш
     ur: مراکش (شہر)
     vi: Marrakech
-MMN:
+    sr_Latn: Marakeš
+    zh: 马拉喀什
+    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U00011113\U00011128\U0001111A"
+  comments: 
+MMN: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Marrakesj²
     ar: مراكش²
@@ -1807,7 +2225,21 @@ MMN:
     uk: Марракеш²
     ur: مراکش (شہر)²
     vi: Marrakech²
-RAB:
+    sr_Latn: Marakeš²
+    zh: 马拉喀什²
+    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U0001111A\U00011122"
+  comments: 
+RAB: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Rabat
     am: ራባት
@@ -1870,7 +2302,36 @@ RAB:
     uk: Рабат
     ur: رباط
     vi: Rabat
-'01':
+    cy: Rabat
+    sr_Latn: Rabat
+    zh: 拉巴特
+    yue_Hans: 剌八
+    jv: Rabat
+    sq: Rabati
+    ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134"
+    ga: Rabat
+    ky: Рабат
+    ha: Rabat
+    so: Rabat
+    pa: ਰਬਾਤ
+    ml: റാബത്ത്
+    yue: 剌八
+    yo: Rabat
+    uz: Rabot
+    bs: Rabat
+    mk: Рабат
+  comments: 
+'01': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: طنجة تطوان
     bg: Танжер - Тетуан
@@ -1911,7 +2372,20 @@ RAB:
     ur: طنجہ تطوان
     vi: Tangier-Tetouan
     zh: 丹吉爾-得土安大區
-'02':
+    lv: Tanžera-Tetuāna
+    ccp: "\U00011111\U0001111A\U00011134\U00011109\U00011128\U00011120\U00011122\U00011134-\U00011111\U0001112C\U00011111\U0001112A\U00011120\U0001111A\U00011134"
+  comments: 
+'02': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الغرب شراردة بني حسين
     be: Вобласць Гарб-Шрарда-Бені-Хсен
@@ -1952,7 +2426,29 @@ RAB:
     uk: Гарб-Шрарда-Бені-Хсен
     ur: غرب شراردہ بنی حسین
     vi: Gharb-Chrarda-Béni Hssen
-'03':
+    lv: Garba-Šrarda-Beni-Hsena
+    cy: Gharb-Chrarda-Beni Hssen
+    ceb: Gharb-Chrarda-Beni Hssen
+    zh: 西部-舍拉拉德-貝尼赫森大區
+    jv: Gharb-Chrarda-Béni Hssen
+    ja: オリアンタル地方²
+    ccp: "\U0001110A\U00011122\U00011134\U0001111B\U00011134-\U0001110C\U00011133\U00011122\U00011122\U00011134\U00011113-\U0001111D\U0001112C\U0001111A\U00011128
+      \U00011125\U0001112C\U0001111A\U00011134"
+    he: אוריינטל
+    kk: Гарб-Шрарда-Бени-Хсен
+    bs: Gharb-Chrarda-Béni Hssen
+  comments: 
+'03': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة تازة الحسيمة تاونات
     bg: Таза - Ал-Хосейма - Таунат
@@ -1992,7 +2488,26 @@ RAB:
     uk: Таза-ель-Хосейма-Таунат
     ur: تازہ الحسیمہ تاونات
     vi: Taza-Al Hoceima-Taounate
-'04':
+    lv: Taza-Al-Hoseima-Taunata
+    cy: Taza-Al Hoceima-Taounate
+    ceb: Taza-Al Hoceima-Taounate
+    zh: 塔扎-胡塞馬-陶納特大區
+    jv: Taza-Al Hoceima-Taounate
+    ccp: "\U00011111\U0001110E-\U00011103\U00011123\U00011134 \U0001111D\U00011125\U0001112C\U0001111F-\U00011111\U0001112F\U0001111A\U00011116\U00011134"
+    kk: Таза-Әл-Хосейма-Таунат
+    bs: Taza-Al Hoceima-Taounate
+  comments: 
+'04': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الجهة الشرقية
     bg: Източен регион
@@ -2032,7 +2547,26 @@ RAB:
     uk: Східна область
     ur: جھہ شرقیہ
     vi: Oriental
-'05':
+    lv: Austrumu reģions
+    cy: L’Oriental
+    ceb: Oriental Region
+    zh: 東部大區
+    fa: رباط سلا قنیطره
+    jv: Oriental Region
+    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
+    bs: Oriental
+  comments: 
+'05': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة فاس بولمان
     bg: Фес - Булман
@@ -2072,7 +2606,27 @@ RAB:
     tr: Fès-Boulemane
     ur: فاس بولمان
     vi: Fès-Boulemane
-'06':
+    lv: Fes-Bulmane
+    cy: Fès-Boulemane
+    ceb: Région de Fès-Boulemane
+    zh: 非斯-布勒曼大區
+    jv: Fès-Boulemane
+    ccp: "\U0001111C\U0001112C\U0001110C\U00011134-\U0001111D\U0001112F\U00011123\U0001112C\U0001111F\U00011133\U00011120\U0001111A\U00011134"
+    gl: Béni Mellal-Khénifra
+    uk: Фес-Бульман
+    bs: Fès-Boulemane
+  comments: 
+'06': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مكناس تافيلالت
     bg: Мекнес - Тафилалет
@@ -2111,7 +2665,26 @@ RAB:
     tr: Meknès-Tafilalet
     ur: مکناس تافیلالت
     vi: Meknès-Tafilalet
-'07':
+    lv: Miknēsa-Tafilaleta
+    cy: Meknès-Tafilalet
+    ceb: Région de Meknès-Tafilalet
+    zh: 梅克內斯-塔菲拉勒特大區
+    jv: Meknès-Tafilalet
+    ccp: "\U0001111F\U0001112C\U00011107\U00011134\U0001111A\U0001112C\U0001110C\U00011134-\U00011111\U0001111C\U00011128\U00011123\U00011123\U0001112C\U00011116\U00011134"
+    uk: Мекнес-Тафілалет
+    bs: Meknès-Tafilalet
+  comments: 
+'07': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الرباط سلا زمور زعير
     bg: Рабат - Сале - Замур - Заер
@@ -2150,7 +2723,27 @@ RAB:
     tr: Rabat-Salé-Zemmour-Zaer
     ur: رباط سلا زمور زعیر
     vi: Rabat-Salé-Zemmour-Zaer
-'08':
+    lv: Rabāta-Salē-Zammura-Zaera
+    cy: Rabat-Salé-Zemmour-Zaer
+    ceb: Région de Rabat-Salé-Zemmour-Zaër
+    zh: 拉巴特-薩累-宰穆爾-扎埃爾大區
+    jv: Rabat-Salé-Zemmour-Zaer
+    ccp: "\U00011122\U00011127\U0001111D\U00011127\U00011116\U00011134-\U00011125\U00011123\U0001112C-\U0001110E\U0001112C\U0001111F\U0001112F\U00011122\U00011134-\U0001110E\U00011128\U00011120\U00011122\U00011134"
+    kk: Рабат-Сале-Заммур-Заер
+    uk: Рабат-Сале-Заммур-Заер
+    bs: Rabat-Salé-Zemmour-Zaer
+  comments: 
+'08': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة الدار البيضاء الكبرى
     bg: Голяма Казабланка
@@ -2190,7 +2783,26 @@ RAB:
     tr: Grand Casablanca
     ur: دار البیضاء الکبری
     vi: Grand Casablanca
-'09':
+    lv: Grand-Kasablanka
+    cy: Grand Casablanca
+    ceb: Région du Grand Casablanca
+    zh: 大卡薩布蘭卡大區
+    jv: Grand Casablanca
+    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134 \U00011107\U00011125\U0001111D\U00011133\U00011123\U00011101\U00011107"
+    uk: Велика Касабланка
+    bs: Grand Casablanca
+  comments: 
+'09': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: الشاوية ورديغة
     bg: Шауя - Уардига
@@ -2229,7 +2841,27 @@ RAB:
     tr: Chaouia-Ouardigha
     ur: شاویہ وردیغہ
     vi: Chaouia-Ouardigha
-'10':
+    lv: Šaoija Uardigna
+    cy: Chaouia-Ouardigha
+    ceb: Chaouia-Ouardigha
+    zh: 沙維雅-瓦拉迪格大區
+    jv: Chaouia-Ouardigha
+    ccp: "\U00011107\U00011103\U0001112F\U00011103\U00011128-\U00011103\U0001112E\U00011122\U00011134\U00011113\U00011128\U0001110A"
+    kk: Шавия-Уардига
+    uk: Регіон Шавія-Уардіга
+    bs: Chaouia-Ouardigha
+  comments: 
+'10': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: دكالة عبدة
     be: Вобласць Дукала-Абда
@@ -2269,7 +2901,27 @@ RAB:
     tr: Doukkala-Abda
     ur: دکالہ عبدہ
     vi: Doukkala-Abda
-'11':
+    lv: Dukkala-Abda
+    cy: Doukhala-Abda
+    ceb: Doukkala-Abda
+    zh: 杜卡拉-阿卜達大區
+    jv: Doukkala-Abda
+    ccp: "\U00011113\U0001112F\U00011107\U00011133\U00011126\U00011134\U00011123 \U00011103\U0001111B\U00011134\U00011113"
+    kk: Дуккала-Абда
+    uk: Дукала-Абда
+    bs: Doukkala-Abda
+  comments: 
+'11': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة مراكش تانسيفت الحوز
     bg: Маракеш - Тенсифт - Ел-Ауз
@@ -2308,7 +2960,27 @@ RAB:
     tr: Marrakech-Tensift-El Haouz
     ur: مراکش تانسیف الحوز
     vi: Marrakesh-Tensift-El Haouz
-'12':
+    lv: Marrākeša-Tensifta-Elhauza
+    cy: Marrakech-Tensift-El Haouz
+    ceb: Marrakech-Tensift-Al Haouz
+    zh: 馬拉喀什-坦西夫特-豪茲大區
+    jv: Marrakech-Tensift-El Haouz
+    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U00011111\U0001111A\U00011134\U00011125\U00011128\U0001111B\U00011134\U00011111\U00011134-\U00011103\U0001112C\U00011123\U00011134
+      \U00011126\U00011105\U0001112A\U0001110C\U00011134"
+    uk: Регіон Марракеш-Тенсіфт-Ель-Хауз
+    bs: Marrakech-Tensift-El Haouz
+  comments: 
+'12': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة تادلة أزيلال
     bg: Тадла - Азилал
@@ -2347,7 +3019,27 @@ RAB:
     tr: Tadla-Azilal
     ur: تادلہ ازیال
     vi: Tadla-Azilal
-'13':
+    lv: Tadla-Azilalas reģions
+    cy: Tadla-Azilal
+    ceb: Tadla-Azilal
+    zh: 塔德萊-艾濟拉勒大區
+    jv: Tadla-Azilal
+    ccp: "\U00011111\U00011116\U00011134\U00011123-\U00011103\U0001110E\U00011128\U00011123\U00011123\U00011134"
+    kk: Тадла-Азилаль
+    uk: Регіон Тадла-Азілаль
+    bs: Tadla-Azilal
+  comments: 
+'13': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: سوس ماسة درعة
     bg: Сус - Маса - Драа
@@ -2386,7 +3078,20 @@ RAB:
     tr: Souss-Massa-Draâ
     ur: سوس ماسہ درعہ
     vi: Souss-Massa-Draa
-'14':
+    zh: 蘇斯-馬塞-德拉大區
+    ccp: "\U00011125\U0001112F\U0001110C\U00011134-\U0001111F\U00011125-\U00011113\U00011133\U00011122"
+  comments: 
+'14': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: كلميم السمارة
     be: Вобласць Гулімім-Эс-Смара
@@ -2426,7 +3131,21 @@ RAB:
     tr: Guelmim-Es Semara
     ur: کلمیم السمارہ
     vi: Guelmim-Es Semara
-'15':
+    zh: 蓋勒敏-塞馬拉大區
+    ccp: "\U0001110E\U0001112A\U00011120\U0001112C\U00011123\U00011134\U0001111F\U0001111F\U00011134-\U00011103\U00011128\U0001110C\U00011134
+      \U00011125\U00011128\U0001111F\U00011122"
+  comments: 
+'15': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: العيون بوجدور
     bg: Лааюн - Буждур - Сакиа Ел-Хамра
@@ -2464,7 +3183,21 @@ RAB:
     tr: Laâyoune-Boujdour-Sakia El Hamra
     ur: لایونی-بوجڈور-ساکیا الحمراء
     vi: Laâyoune-Boujdour-Sakia El Hamra
-'16':
+    zh: 阿尤恩-布支杜爾-薩基亞-阿姆拉大區
+    ccp: "\U00011123\U00011120\U0001112C\U00011103\U0001112F\U0001111A\U00011134-\U0001111D\U0001112F\U0001110C\U00011134\U00011113\U0001112E\U00011122\U00011134-\U00011125\U00011107\U00011128\U00011120
+      \U00011103\U0001112C\U00011123\U00011134 \U00011126\U0001111F\U00011134\U00011122"
+  comments: 
+'16': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جهة وادي الذهب الكويرة
     bg: Уед Ед-Дахаб - Лагуира
@@ -2488,7 +3221,20 @@ RAB:
     sv: Oued Ed-Dahab-Lagouira
     tr: Oued Ed-Dahab-Lagouira
     ur: وادی ذہب لکویرہ
-INE:
+    zh: 達赫拉-黃金谷地大區
+    ccp: "\U00011107\U0001112E\U00011120\U0001112C\U00011116\U00011134 \U00011103\U00011128\U00011116\U00011134-\U00011118\U00011126\U0001111B\U00011134-\U00011123\U00011109\U00011130\U00011131\U00011122"
+  comments: 
+INE: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: عمالة إنزكان آيت ملول
     ca: Prefectura d’Inezgane-Aït Melloul
@@ -2501,7 +3247,24 @@ INE:
     pt: Inezgane-Aït Melloul
     sv: Inezgane-Ait Mellou
     ur: انزکان آیت ملول
-MOH:
+    ceb: Inezgane-Ait Mellou
+    zh: 因茲甘-阿伊特邁盧勒省
+    ja: イネガーヌ・アイト・メロウル県
+    ccp: "\U00011103\U00011128\U0001111A\U0001112C\U0001110C\U00011134\U00011109\U0001111A\U00011134-\U00011103\U00011103\U00011128\U00011116\U00011134
+      \U0001111F\U00011123\U00011103\U0001112F\U00011123\U00011134"
+    eu: Inezgane-Ait Melloul prefektura
+  comments: 
+MOH: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: المحمدية
     az: Məhəmmədiyyə
@@ -2541,3 +3304,165 @@ MOH:
     tr: Muhammediye
     ur: محمدیہ
     vi: Mohammedia
+    lv: Mohamedija
+    cy: Mohammédia
+    ceb: Mohammedia
+    zh: 穆罕默迪耶
+    sq: Mohammedia
+    ccp: "\U0001111F\U0001112E\U00011126\U0001111F\U00011134\U0001111F\U00011127\U00011118\U00011128\U00011120"
+    uk: Мохаммедія
+  comments: 
+BRR: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Berrechid
+  comments: 
+DRI: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Driouch
+  comments: 
+FQH: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Fquih Ben Salah
+  comments: 
+GUF: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 39.5059889
+    longitude: 2.5307101
+    min_latitude: 39.5016927
+    min_longitude: 2.5269251
+    max_latitude: 39.5128789
+    max_longitude: 2.5327309
+  translations:
+    en: Guercif
+  comments: 
+MDF: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 33.5521196
+    longitude: -7.4780258
+  translations:
+    en: M’diq-Fnideq
+  comments: 
+MID: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Midelt
+  comments: 
+OUZ: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Ouezzane
+  comments: 
+REH: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Rehamna
+  comments: 
+SIB: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Sidi Bennour
+  comments: 
+SIF: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 26.660768
+    longitude: 49.8393179
+    min_latitude: 26.6544679
+    min_longitude: 49.81823420000001
+    max_latitude: 26.6660987
+    max_longitude: 49.8596116
+  translations:
+    en: Sidi Ifni
+  comments: 
+SIL: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 37.147821
+    longitude: -8.5584885
+  translations:
+    en: Sidi Slimane
+  comments: 
+TAF: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 31.6360026
+    longitude: -8.057429899999999
+    min_latitude: 31.5600339
+    min_longitude: -8.1314279
+    max_latitude: 31.72042849999999
+    max_longitude: -8.0045699
+  translations:
+    en: Tarfaya (EH-partial)
+  comments: 
+TIN: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 30.9263125
+    longitude: -6.9072676
+  translations:
+    en: Tinghir
+  comments: 
+YUS: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    en: Youssoufia
+  comments: 

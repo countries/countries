@@ -1,6 +1,15 @@
 ---
-BA:
+BA: 
+  name: Bafatá
+  code: 
   unofficial_names: Bafatá
+  geo:
+    latitude: 12.171944
+    longitude: -14.6575
+    min_latitude: 12.1559758
+    min_longitude: -14.6747733
+    max_latitude: 12.2007357
+    max_longitude: -14.6261502
   translations:
     en: Bafatá
     ar: محافظة بافاتا
@@ -40,16 +49,21 @@ BA:
     ur: بافاتا ریجن
     vi: Khu vực Bafatá
     zh: 巴法塔區
-  geo:
-    latitude: 12.171944
-    longitude: -14.6575
-    min_latitude: 12.1559758
-    min_longitude: -14.6747733
-    max_latitude: 12.2007357
-    max_longitude: -14.6261502
-  name: Bafatá
-BL:
+    lv: Bafatas reģions
+    ceb: Bafatá
+    ccp: "\U0001111D\U0001111C\U00011111"
+  comments: 
+BL: 
+  name: Bolama
+  code: 
   unofficial_names: Bolama
+  geo:
+    latitude: 11.5770712
+    longitude: -15.4800382
+    min_latitude: 11.5640396
+    min_longitude: -15.4946602
+    max_latitude: 11.5904801
+    max_longitude: -15.4710599
   translations:
     en: Bolama
     ar: إقليم بولاما
@@ -89,16 +103,22 @@ BL:
     uk: Болама
     ur: بولاما ریجن
     vi: Khu vực Bolama
-  geo:
-    latitude: 11.5770712
-    longitude: -15.4800382
-    min_latitude: 11.5640396
-    min_longitude: -15.4946602
-    max_latitude: 11.5904801
-    max_longitude: -15.4710599
-  name: Bolama
-BM:
+    lv: Bolamas reģions
+    ceb: Bolama
+    zh: 博拉馬區
+    ccp: "\U0001111D\U00011127\U00011123\U0001111F"
+  comments: 
+BM: 
+  name: Biombo
+  code: 
   unofficial_names: Biombo
+  geo:
+    latitude: 11.8529061
+    longitude: -15.7351171
+    min_latitude: 11.7364393
+    min_longitude: -15.9681988
+    max_latitude: 12.026648
+    max_longitude: -15.6145911
   translations:
     en: Biombo
     ar: إقليم بيومبو
@@ -137,16 +157,22 @@ BM:
     uk: Біомбо
     ur: بیومبو ریجن
     vi: Khu vực Biombo
-  geo:
-    latitude: 11.8529061
-    longitude: -15.7351171
-    min_latitude: 11.7364393
-    min_longitude: -15.9681988
-    max_latitude: 12.026648
-    max_longitude: -15.6145911
-  name: Biombo
-BS:
+    lv: Biombo reģions
+    ceb: Biombo
+    zh: 比翁博區
+    ccp: "\U0001111D\U0001112D\U00011103\U0001112E\U0001111F\U00011134\U0001111D\U0001112E"
+  comments: 
+BS: 
+  name: Bissau
+  code: 
   unofficial_names: Bissau
+  geo:
+    latitude: 11.8816553
+    longitude: -15.6177942
+    min_latitude: 11.8207819
+    min_longitude: -15.6621402
+    max_latitude: 11.9180031
+    max_longitude: -15.5579567
   translations:
     en: Bissau
     af: Bissau
@@ -206,17 +232,37 @@ BS:
     uk: Бісау
     ur: بساؤ
     vi: Bissau
-  geo:
-    latitude: 11.8816553
-    longitude: -15.6177942
-    min_latitude: 11.8207819
-    min_longitude: -15.6621402
-    max_latitude: 11.9180031
-    max_longitude: -15.5579567
-  name: Bissau
-CA:
+    cy: Bissau
+    ceb: Bissau Region
+    sr_Latn: Bisao
+    zh: 比绍
+    yue_Hans: 比绍
+    jv: Bissau
+    sq: Bissau
+    ccp: "\U0001111D\U00011128\U00011125\U0001112A\U00011105\U0001112A"
+    ga: Bissau
+    ky: Бисау
+    so: Bissau
+    pa: ਬਿਸਾਊ
+    kk: Бисау
+    yue: 比紹
+    yo: Bissau
+    uz: Bisau
+    bs: Bissau
+    mk: Бисао
+  comments: 
+CA: 
+  name: Cacheu
+  code: 
   unofficial_names:
   - Cacheo
+  geo:
+    latitude: 12.2732631
+    longitude: -16.1669156
+    min_latitude: 12.2542116
+    min_longitude: -16.1758661
+    max_latitude: 12.2793106
+    max_longitude: -16.1526919
   translations:
     en: Cacheu
     ar: اقليم كاشيو
@@ -254,16 +300,23 @@ CA:
     tr: Cacheu
     ur: کاشیو علاقہ
     vi: Khu vực Cacheu
-  geo:
-    latitude: 12.2732631
-    longitude: -16.1669156
-    min_latitude: 12.2542116
-    min_longitude: -16.1758661
-    max_latitude: 12.2793106
-    max_longitude: -16.1526919
-  name: Cacheu
-GA:
+    lv: Kašeu reģions
+    ceb: Cacheu Region
+    zh: 卡謝烏區
+    ccp: "\U00011107\U0001112C\U0001110C\U0001112C\U00011105\U0001112A"
+    uk: Регіон Кашеу
+  comments: 
+GA: 
+  name: Gabú
+  code: 
   unofficial_names: Gabú
+  geo:
+    latitude: 11.8962488
+    longitude: -14.1001326
+    min_latitude: 11.56273
+    min_longitude: -14.570715
+    max_latitude: 12.6777339
+    max_longitude: -13.6365221
   translations:
     en: Gabú
     ar: لإقلين غابو
@@ -301,16 +354,22 @@ GA:
     tr: Gabu Bölgesi
     ur: گابو علاقہ
     vi: Khu vực Gabú
-  geo:
-    latitude: 11.8962488
-    longitude: -14.1001326
-    min_latitude: 11.56273
-    min_longitude: -14.570715
-    max_latitude: 12.6777339
-    max_longitude: -13.6365221
-  name: Gabú
-OI:
+    lv: Gabu reģions
+    zh: 加布區
+    ccp: "\U00011109\U0001111D\U0001112A"
+    uk: Регіон Габу
+  comments: 
+OI: 
+  name: Oio
+  code: 
   unofficial_names: Oio
+  geo:
+    latitude: 12.2760709
+    longitude: -15.3131185
+    min_latitude: 11.890556
+    min_longitude: -15.765291
+    max_latitude: 12.680788
+    max_longitude: -14.841685
   translations:
     en: Oio
     ar: إقليم أويو
@@ -349,16 +408,23 @@ OI:
     tr: Oio Bölgesi
     ur: ویو ریجن
     vi: Khu vực Oio
-  geo:
-    latitude: 12.2760709
-    longitude: -15.3131185
-    min_latitude: 11.890556
-    min_longitude: -15.765291
-    max_latitude: 12.680788
-    max_longitude: -14.841685
-  name: Oio
-QU:
+    lv: Oio reģions
+    ceb: Oio Region
+    zh: 奧約區
+    ccp: "\U00011103\U0001112E\U00011103\U00011130"
+    uk: Ойо
+  comments: 
+QU: 
+  name: Quinara
+  code: 
   unofficial_names: Quinara
+  geo:
+    latitude: 11.795562
+    longitude: -15.1726816
+    min_latitude: 11.3275232
+    min_longitude: -15.6142401
+    max_latitude: 11.9419759
+    max_longitude: -14.8287029
   translations:
     en: Quinara
     ar: إقليم كوينارا
@@ -397,16 +463,23 @@ QU:
     tr: Quinara Bölgesi
     ur: کوینارا علاقہ
     vi: Khu vực Quinara
-  geo:
-    latitude: 11.795562
-    longitude: -15.1726816
-    min_latitude: 11.3275232
-    min_longitude: -15.6142401
-    max_latitude: 11.9419759
-    max_longitude: -14.8287029
-  name: Quinara
-TO:
+    lv: Kinaras reģions
+    ceb: Quinara
+    zh: 基納拉區
+    ccp: "\U00011107\U0001112D\U0001112A\U0001111A\U00011122"
+    uk: Регіон Кінара
+  comments: 
+TO: 
+  name: Tombali
+  code: 
   unofficial_names: Tombali
+  geo:
+    latitude: 11.300838
+    longitude: -15.409939
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Tombali
     ar: إقليم تومبالي
@@ -444,20 +517,57 @@ TO:
     tr: Tombali Bölgesi
     ur: تومبالی ریجن
     vi: Khu vực Tombali
+    lv: Tombali reģions
+    ceb: Tombali
+    zh: 通巴利區
+    ccp: "\U00011111\U0001111F\U00011134\U0001111D\U00011123\U00011128"
+    uk: Район Томбалі
+  comments: 
+L: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 11.300838
-    longitude: -15.409939
+    latitude: 
+    longitude: 
     min_latitude: 
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Tombali
-L:
   translations:
     en: Leste
-N:
+    ccp: "\U00011123\U0001112C\U0001110C\U00011134\U00011111\U0001112C"
+    de: Provinz Leste
+  comments: 
+N: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Norte
-S:
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
+    de: Provinz Norte
+  comments: 
+S: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sul
+    ccp: "\U00011125\U00011123\U00011134"
+    de: Provinz Sul
+  comments: 

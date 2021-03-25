@@ -1,6 +1,15 @@
 ---
-BA:
+BA: 
+  name: Baluchistan (en)
+  code: 
   unofficial_names: Baluchistan (en)
+  geo:
+    latitude: 28.4907332
+    longitude: 65.0957792
+    min_latitude: 24.890663
+    min_longitude: 60.87859700000001
+    max_latitude: 32.064602
+    max_longitude: 70.259517
   translations:
     en: Balochistan
     ar: بلوشستان
@@ -56,16 +65,25 @@ BA:
     ur: بلوچستان
     vi: Balochistan
     zh: 俾路支省
-  geo:
-    latitude: 28.4907332
-    longitude: 65.0957792
-    min_latitude: 24.890663
-    min_longitude: 60.87859700000001
-    max_latitude: 32.064602
-    max_longitude: 70.259517
-  name: Baluchistan (en)
-IS:
+    sr_Latn: Beludžistan
+    yue_Hans: 俾路支省
+    ccp: "\U0001111D\U00011123\U0001112A\U0001110C\U00011128\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    ga: An Bhalúcastáin
+    pa: ਬਲੋਚਿਸਤਾਨ
+    yue: 俾路支省
+    uz: Balujiston
+  comments: 
+IS: 
+  name: Islamabad
+  code: 
   unofficial_names: Islamabad
+  geo:
+    latitude: 33.7293882
+    longitude: 73.0931461
+    min_latitude: 33.5993931
+    min_longitude: 72.7928352
+    max_latitude: 33.7566789
+    max_longitude: 73.1771194
   translations:
     en: Islamabad
     ar: ناحية بايتختي اسلام‌آباد
@@ -89,16 +107,27 @@ IS:
     uk: Федеральна столична територія
     ur: وفاقی دارالحکومت
     vi: Lãnh thổ Thủ đô Islamabad
-  geo:
-    latitude: 33.7293882
-    longitude: 73.0931461
-    min_latitude: 33.5993931
-    min_longitude: 72.7928352
-    max_latitude: 33.7566789
-    max_longitude: 73.1771194
-  name: Islamabad
-JK:
+    ceb: Islāmābād Capital Territory
+    zh: 伊斯兰堡首都区
+    bn: ইসলামাবাদ রাজধানী অঞ্চল
+    ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011123\U0001111F\U0001111D\U00011116\U00011134"
+    ka: ისლამაბადის ფედერალური ტერიტორია
+    id: Wilayah Ibu Kota Islamabad
+    ml: ഇസ്ലാമബാദ് തലസ്ഥാന പ്രദേശം
+    be: Федэральная сталічная тэрыторыя
+    th: ดินแดนนครหลวงอิสลามาบัด
+  comments: 
+JK: 
+  name: Azad Kashmir
+  code: 
   unofficial_names: Azad Kashmir
+  geo:
+    latitude: 33.8866588
+    longitude: 73.93598209999999
+    min_latitude: 32.766542
+    min_longitude: 73.394989
+    max_latitude: 35.1311
+    max_longitude: 75.2642401
   translations:
     en: Azad Kashmir
     ar: آزاد كشمير
@@ -148,18 +177,18 @@ JK:
     uk: Азад Кашмір
     ur: آزاد کشمیر
     vi: Azad Kashmir
-  geo:
-    latitude: 33.8866588
-    longitude: 73.93598209999999
-    min_latitude: 32.766542
-    min_longitude: 73.394989
-    max_latitude: 35.1311
-    max_longitude: 75.2642401
-  name: Azad Kashmir
-NA:
+    ceb: Azad Kashmir
+    sr_Latn: Azad Kašmir
+    zh: 自由克什米爾
+    ccp: "\U00011103\U0001110E\U00011116\U00011134 \U00011107\U0001110C\U00011134\U0001111F\U00011128\U00011122\U00011134"
+    ka: აზად-ქაშმირი
+    ky: Азад Кашмир
+    pa: ਅਜ਼ਾਦ ਕਸ਼ਮੀਰ
+  comments: 
+NA: 
+  name: Northern Areas
+  code: 
   unofficial_names: Northern Areas
-  translations:
-    en: Northern Areas
   geo:
     latitude: 35.952035
     longitude: 74.5931921
@@ -167,11 +196,13 @@ NA:
     min_longitude: 72.5046598
     max_latitude: 37.0841069
     max_longitude: 77.8293242
-  name: Northern Areas
-NW:
-  unofficial_names: North-West Frontier
   translations:
-    en: North-West Frontier
+    en: Northern Areas
+  comments: 
+NW: 
+  name: North-West Frontier
+  code: 
+  unofficial_names: North-West Frontier
   geo:
     latitude: 34.9526205
     longitude: 72.331113
@@ -179,9 +210,20 @@ NW:
     min_longitude: 70.0552089
     max_latitude: 36.91116
     max_longitude: 74.13702099999999
-  name: North-West Frontier
-PB:
+  translations:
+    en: North-West Frontier
+  comments: 
+PB: 
+  name: Punjab
+  code: 
   unofficial_names: Punjab
+  geo:
+    latitude: 31.1704063
+    longitude: 72.7097161
+    min_latitude: 27.705111
+    min_longitude: 69.33357699999999
+    max_latitude: 34.016032
+    max_longitude: 75.3818661
   translations:
     en: Punjab
     ar: البنجاب
@@ -235,16 +277,29 @@ PB:
     uk: Пенджаб
     ur: پنجاب
     vi: Punjab
-  geo:
-    latitude: 31.1704063
-    longitude: 72.7097161
-    min_latitude: 27.705111
-    min_longitude: 69.33357699999999
-    max_latitude: 34.016032
-    max_longitude: 75.3818661
-  name: Punjab
-SD:
+    cy: Punjab
+    ceb: Punjab
+    sr_Latn: Pandžab
+    zh: 旁遮普省
+    yue_Hans: 频渣别省
+    sq: Panxhab, Pakistan
+    ccp: "\U0001111B\U0001111A\U00011134\U0001110E\U0001111B\U00011134"
+    hy: Փենջաբ
+    sk: Pandžáb (Pakistan)
+    pa: ਪੰਜਾਬ
+    yue: 頻渣別省
+  comments: 
+SD: 
+  name: Sind (en)
+  code: 
   unofficial_names: Sind (en)
+  geo:
+    latitude: 25.8943018
+    longitude: 68.52471489999999
+    min_latitude: 23.6946945
+    min_longitude: 66.6546894
+    max_latitude: 28.5015481
+    max_longitude: 71.12440509999999
   translations:
     en: Sindh
     ar: السند
@@ -299,16 +354,33 @@ SD:
     uk: Сінд
     ur: سندھ
     vi: Sindh
-  geo:
-    latitude: 25.8943018
-    longitude: 68.52471489999999
-    min_latitude: 23.6946945
-    min_longitude: 66.6546894
-    max_latitude: 28.5015481
-    max_longitude: 71.12440509999999
-  name: Sind (en)
-TA:
+    ceb: Sindh
+    sr_Latn: Sind
+    zh: 信德省
+    yue_Hans: 信德省
+    sq: Sind
+    ccp: "\U00011125\U00011128\U0001111A\U00011134\U00011119\U00011134"
+    ga: An tSind
+    hy: Սինդ
+    is: Sind
+    so: Sind
+    pa: ਸਿੰਧ
+    yue: 信德省
+    yo: Sindh
+    uz: Sind
+    mk: Синд
+  comments: 
+TA: 
+  name: Federally Administered Tribal Areas
+  code: 
   unofficial_names: Federally Administered Tribal Areas
+  geo:
+    latitude: 32.667476
+    longitude: 69.8597406
+    min_latitude: 31.0572999
+    min_longitude: 69.238777
+    max_latitude: 34.9716801
+    max_longitude: 71.85027509999999
   translations:
     en: Federally Administered Tribal Areas
     ar: المناطق القبلية الخاضعة للإدارة الاتحادية
@@ -351,15 +423,32 @@ TA:
     uk: Федерально керовані племінні території
     ur: قبائلی علاقہ جات
     vi: Các khu vực Hành chính Bộ lạc Liên bang
+    lv: Federāli pārvaldītie cilšu apgabali
+    ceb: Federally Administered Tribal Areas
+    sr_Latn: Plemenska područja pod federalnom upravom
+    zh: 联邦直辖部落地区
+    ccp: "\U0001111C\U0001112C\U00011113\U0001112C\U00011122\U00011127\U00011123\U00011129
+      \U00011103\U00011116\U00011134\U0001111F\U00011128\U0001111A\U00011128\U0001110C\U00011134\U00011111\U00011122\U0001112C\U00011116\U00011134
+      \U00011111\U00011133\U00011122\U0001112D\U0001111D\U0001112C\U00011123\U00011134
+      \U00011103\U0001112C\U00011122\U00011128\U00011120\U0001110C\U00011134"
+    ka: ტომების ტერიტორიების ფედერალური მმართველობა
+    hy: Ֆեդերալ կառավարվող ցեղային տարածքներ
+    he: השבטים המנוהלים באופן פדרלי
+    pa: ਸੰਘ-ਸੰਚਾਲਤ ਕਬਾਇਲੀ ਖੇਤਰ
+    ml: ഫെഡറൽ ഭരണത്തിലുള്ള ട്രൈബൽ പ്രദേശം
+    be: Федэральна кіраваныя племянныя тэрыторыі
+  comments: 
+GB: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 32.667476
-    longitude: 69.8597406
-    min_latitude: 31.0572999
-    min_longitude: 69.238777
-    max_latitude: 34.9716801
-    max_longitude: 71.85027509999999
-  name: Federally Administered Tribal Areas
-GB:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: غلغت-بلتستان
     bg: Северна провинция
@@ -407,7 +496,27 @@ GB:
     uk: Гілгіт-Балтистан
     ur: گلگت بلتستان
     vi: Gilgit-Baltistan
-KP:
+    lv: Gilgita-Baltistāna
+    cy: Ardaloedd y Gogledd
+    ceb: Northern Areas
+    sr_Latn: Gilgit-Baltistan
+    zh: 吉尔吉特-巴尔蒂斯坦
+    ccp: "\U00011109\U00011128\U00011123\U00011134\U00011109\U00011128\U00011116\U00011134-\U0001111D\U00011123\U00011134\U00011111\U00011128\U0001110C\U00011134\U00011111\U0001111A\U00011134"
+    pa: ਗਿਲਗਿਤ-ਬਾਲਤਿਸਤਾਨ
+    az: Gilgit-Baltistan
+    be: Гілгіт-Балтыстан
+  comments: 
+KP: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: خیبر بختونخوا
     bg: Северозападна погранична провинция
@@ -450,3 +559,16 @@ KP:
     uk: Хайбер-Пахтунхва
     ur: خیبر پختونخوا
     vi: Khyber Pakhtunkhwa
+    lv: Haibara Pahtūnhva
+    cy: Khyber Pakhtunkhwa
+    ceb: Khyber Pakhtunkhwa Province
+    sr_Latn: Hajber-Pahtunva
+    zh: 开伯尔－普赫图赫瓦省
+    yue_Hans: 西北边境省
+    ccp: "\U00011108\U0001112D\U0001111D\U0001112C\U00011122\U00011134 \U0001111B\U00011107\U00011134\U00011111\U0001112A\U0001111A\U00011134\U00011108\U00011127\U00011124"
+    pa: ਖ਼ੈਬਰ ਪਖ਼ਤੋਨਖ਼ਵਾ
+    yue: 西北邊境省
+    be: Хайбер-Пахтунхва
+    uz: Shimoliy-gʻarbiy chegara viloyati
+    ne: खैबर पख्तुनख्वा
+  comments: 

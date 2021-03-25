@@ -1,7 +1,16 @@
 ---
-'01':
+'01': 
+  name: Bandarban zila
+  code: 
   unofficial_names:
   - Bandarban
+  geo:
+    latitude: 21.7444268
+    longitude: 92.38136209999999
+    min_latitude: 21.1972562
+    min_longitude: 92.06628789999999
+    max_latitude: 22.3738885
+    max_longitude: 92.6736258
   translations:
     en: Bandarban
     bn: বান্দরবান জেলা
@@ -24,16 +33,21 @@
     ur: بندربان ضلع
     vi: Huyện Bandarban
     zh: 班多爾班縣
-  geo:
-    latitude: 21.7444268
-    longitude: 92.38136209999999
-    min_latitude: 21.1972562
-    min_longitude: 92.06628789999999
-    max_latitude: 22.3738885
-    max_longitude: 92.6736258
-  name: Bandarban zila
-'02':
+    ceb: Bandarban
+    te: బండార్బన్ జిల్లా
+    ccp: "\U0001111D\U0001111A\U00011134\U00011118\U00011127\U00011122\U00011134\U0001111D\U0001111A\U00011134"
+  comments: 
+'02': 
+  name: Barguna zila
+  code: 
   unofficial_names: Barguna zila
+  geo:
+    latitude: 22.0952915
+    longitude: 90.11206960000001
+    min_latitude: 21.8602242
+    min_longitude: 89.9018097
+    max_latitude: 22.4833355
+    max_longitude: 90.3753377
   translations:
     en: Barguna
     bn: বরগুনা জেলা
@@ -53,19 +67,27 @@
     ta: பர்குனா மாவட்டம்
     ur: برگونا ضلع
     vi: Huyện Barguna
-  geo:
-    latitude: 22.0952915
-    longitude: 90.11206960000001
-    min_latitude: 21.8602242
-    min_longitude: 89.9018097
-    max_latitude: 22.4833355
-    max_longitude: 90.3753377
-  name: Barguna zila
-'03':
+    ceb: Barguna
+    te: బార్గున జిల్లా
+    zh: 博爾古納縣
+    ccp: "\U0001111D\U00011127\U00011122\U00011134\U00011109\U0001112A\U0001111A"
+    ml: ബർഗുണ ജില്ല
+    az: Barquna (dairə, Banqladeş)
+  comments: 
+'03': 
+  name: Bogra zila
+  code: 
   unofficial_names:
   - Bogora
   - Bogra
   - Borga Thana
+  geo:
+    latitude: 24.8473899
+    longitude: 89.37714079999999
+    min_latitude: 24.8471496
+    min_longitude: 89.37668409999999
+    max_latitude: 24.8477604
+    max_longitude: 89.3775746
   translations:
     en: Bogra
     bn: বগুড়া জেলা
@@ -82,18 +104,27 @@
     ta: போக்ரா மாவட்டம்
     ur: بوگرا ضلع
     vi: Huyện Bogra
-  geo:
-    latitude: 24.8473899
-    longitude: 89.37714079999999
-    min_latitude: 24.8471496
-    min_longitude: 89.37668409999999
-    max_latitude: 24.8477604
-    max_longitude: 89.3775746
-  name: Bogra zila
-'04':
+    ceb: Bogra (distrito)
+    te: బోగ్రా జిల్లా
+    zh: 博格拉县
+    ccp: "\U0001111D\U00011127\U00011109\U0001112A\U00011122"
+    ml: ബോഗ്ര ജില്ല
+    az: Boqra (dairə, Banqladeş)
+    ne: बगुडा जिल्ला
+  comments: 
+'04': 
+  name: Brahmanbaria zila
+  code: 
   unofficial_names:
   - Brahman Bariya
   - Brahmanbaria
+  geo:
+    latitude: 24.0446149
+    longitude: 91.13530200000001
+    min_latitude: 23.6473547
+    min_longitude: 90.7208058
+    max_latitude: 24.2700489
+    max_longitude: 91.329775
   translations:
     en: Brahmanbaria
     bn: ব্রাহ্মণবাড়ীয়া জেলা
@@ -110,21 +141,29 @@
     uk: Брахманбарія
     ur: برہمنباریا ضلع
     vi: Huyện Brahmanbaria
-  geo:
-    latitude: 24.0446149
-    longitude: 91.13530200000001
-    min_latitude: 23.6473547
-    min_longitude: 90.7208058
-    max_latitude: 24.2700489
-    max_longitude: 91.329775
-  name: Brahmanbaria zila
-'05':
+    ar: مديرية برهمن‌ بريه
+    te: బ్రాహ్మంబరియా జిల్లా
+    ta: பிரம்மன்பரியா மாவட்டம்
+    zh: 婆羅門巴里亞縣
+    ccp: "\U0001111D\U00011133\U00011122\U00011126\U00011134\U0001111F\U00011127\U0001111A\U00011134\U0001111D\U00011122\U00011128\U00011120"
+    ml: ബ്രഹ്മാൻബറിയ ജില്ല
+  comments: 
+'05': 
+  name: Bagerhat zila
+  code: 
   unofficial_names:
   - Bagarhat
   - Bagerhat
   - Bagherhat
   - Basabari
   - Bāsābāri
+  geo:
+    latitude: 22.3336224
+    longitude: 89.77553379999999
+    min_latitude: 21.7142542
+    min_longitude: 89.5296264
+    max_latitude: 22.9821798
+    max_longitude: 89.9644057
   translations:
     en: Bagerhat
     bn: বাগেরহাট জেলা
@@ -142,17 +181,25 @@
     ta: பேகர்காட் மாவட்டம்
     ur: باگرہٹ ضلع
     vi: Huyện Bagerhat
-  geo:
-    latitude: 22.3336224
-    longitude: 89.77553379999999
-    min_latitude: 21.7142542
-    min_longitude: 89.5296264
-    max_latitude: 22.9821798
-    max_longitude: 89.9644057
-  name: Bagerhat zila
-'06':
+    ceb: Bagerhat
+    te: బగర్హాట్ జిల్లా
+    zh: 巴盖尔哈德县
+    ccp: "\U0001111D\U00011109\U0001112C\U00011122\U00011134\U00011126\U00011116\U00011134"
+    ml: ബഗെർഹറ്റ് ജില്ല
+    ne: बागेरहाट जिल्ला
+  comments: 
+'06': 
+  name: Barisal zila
+  code: 
   unofficial_names:
   - Barisal
+  geo:
+    latitude: 22.8578618
+    longitude: 90.3371889
+    min_latitude: 22.4542665
+    min_longitude: 90.01811029999999
+    max_latitude: 23.0715591
+    max_longitude: 90.6517982
   translations:
     en: Barisal Division
     ar: مقاطعة باريسال
@@ -189,17 +236,25 @@
     uk: Барісал (округ)
     ur: باریسال ضلع
     vi: Huyện Barisal
-  geo:
-    latitude: 22.8578618
-    longitude: 90.3371889
-    min_latitude: 22.4542665
-    min_longitude: 90.01811029999999
-    max_latitude: 23.0715591
-    max_longitude: 90.6517982
-  name: Barisal zila
-'07':
+    lv: Barisālas apgabals
+    ceb: Barisal
+    lt: Barisalio apskritis
+    zh: 巴里薩爾縣
+    ccp: "\U0001111D\U00011127\U00011122\U00011128\U00011125\U00011123\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    ml: ബാരിസൽ ജില്ല
+  comments: 
+'07': 
+  name: Bhola zila
+  code: 
   unofficial_names:
   - Bhola
+  geo:
+    latitude: 22.6851314
+    longitude: 90.6471553
+    min_latitude: 22.6847416
+    min_longitude: 90.64671279999999
+    max_latitude: 22.6855212
+    max_longitude: 90.64759780000001
   translations:
     en: Bhola
     bn: ভোলা জেলা
@@ -219,18 +274,25 @@
     ta: போலா மாவட்டம்
     ur: بھولا ضلع
     vi: Huyện Bhola
-  geo:
-    latitude: 22.6851314
-    longitude: 90.6471553
-    min_latitude: 22.6847416
-    min_longitude: 90.64671279999999
-    max_latitude: 22.6855212
-    max_longitude: 90.64759780000001
-  name: Bhola zila
-'08':
+    ceb: Bhola
+    te: భోలా జిల్లా
+    zh: 波拉縣
+    ccp: "\U0001111E\U0001112E\U00011123"
+    ml: ബോള ജില്ല
+  comments: 
+'08': 
+  name: Comilla zila
+  code: 
   unofficial_names:
   - Comilla
   - Komilla
+  geo:
+    latitude: 23.4628949
+    longitude: 91.1817394
+    min_latitude: 23.4615535
+    min_longitude: 91.1800995
+    max_latitude: 23.4636252
+    max_longitude: 91.18206289999999
   translations:
     en: Comilla
     bn: কুমিল্লা জেলা
@@ -250,18 +312,25 @@
     uk: Комілла
     ur: کومیلا ضلع
     vi: Huyện Comilla
-  geo:
-    latitude: 23.4628949
-    longitude: 91.1817394
-    min_latitude: 23.4615535
-    min_longitude: 91.1800995
-    max_latitude: 23.4636252
-    max_longitude: 91.18206289999999
-  name: Comilla zila
-'09':
+    ceb: Comilla
+    te: కొమిల్ల జిల్లా
+    zh: 庫米拉縣
+    ccp: "\U00011107\U0001112A\U0001111F\U00011128\U00011123\U00011133\U00011126\U00011134"
+    ml: കോമില ജില്ല
+  comments: 
+'09': 
+  name: Chandpur zila
+  code: 
   unofficial_names:
   - Chandipur
   - Chandpur
+  geo:
+    latitude: 23.2246765
+    longitude: 90.6562431
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Chandpur
     bn: চাঁদপুর জেলা
@@ -279,18 +348,25 @@
     uk: Чандпур
     ur: چاندپور ضلع
     vi: Huyện Chandpur
-  geo:
-    latitude: 23.2246765
-    longitude: 90.6562431
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Chandpur zila
-'10':
+    ceb: Chandpur
+    ta: சந்திரபூர் மாவட்டம், வங்காளதேசம்
+    zh: 堅德布爾縣
+    ccp: "\U0001110C\U00011116\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    ml: ചാന്ദ്പുർ ജില്ല
+  comments: 
+'10': 
+  name: Chittagong zila
+  code: 
   unofficial_names:
   - Chattagam
   - Chittagong
+  geo:
+    latitude: 22.3417825
+    longitude: 91.8368089
+    min_latitude: 22.3378577
+    min_longitude: 91.8367609
+    max_latitude: 22.3421259
+    max_longitude: 91.8377062
   translations:
     en: Chittagong
     bn: চট্টগ্রাম জেলা
@@ -310,18 +386,28 @@
     uk: Читтагонг
     ur: چٹاگانگ ضلع
     vi: Huyện Chittagong
-  geo:
-    latitude: 22.3417825
-    longitude: 91.8368089
-    min_latitude: 22.3378577
-    min_longitude: 91.8367609
-    max_latitude: 22.3421259
-    max_longitude: 91.8377062
-  name: Chittagong zila
-'11':
+    ceb: Chittagong
+    te: చిట్టగాంగ్ జిల్లా
+    ta: சிட்டகாங் மாவட்டம்
+    zh: 吉大港縣
+    ccp: "\U0001110C\U00011118\U00011128\U00011109\U0001110B\U00011134"
+    id: Distrik Chattagram
+    ro: Chittagong
+    ml: ചിറ്റഗോങ് ജില്ല
+  comments: 
+'11': 
+  name: Cox's Bazar zila
+  code: 
   unofficial_names:
   - Coxʿs Bazar
   - Koks Bazar
+  geo:
+    latitude: 21.4404015
+    longitude: 91.9743392
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Cox’s Bazar
     bn: কক্সবাজার জেলা
@@ -340,17 +426,24 @@
     uk: Коксс-Базар
     ur: کاکس بازار ضلع
     vi: Huyện Cox’s Bazar
-  geo:
-    latitude: 21.4404015
-    longitude: 91.9743392
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Cox's Bazar zila
-'12':
+    ceb: Cox’s Bazar
+    te: కాక్స్ బజార్ డిస్ట్రిక్ట్
+    zh: 科克斯巴扎爾縣
+    ccp: "\U00011107\U00011127\U00011107\U00011134\U00011125\U00011127 \U0001111D\U0001110E\U00011122\U00011134"
+    ml: കോസ്സ് ബസാർ ജില്ല
+  comments: 
+'12': 
+  name: Chuadanga zila
+  code: 
   unofficial_names:
   - Chuadanga
+  geo:
+    latitude: 23.6160512
+    longitude: 88.8263006
+    min_latitude: 23.3713321
+    min_longitude: 88.62422
+    max_latitude: 23.839448
+    max_longitude: 89.0196419
   translations:
     en: Chuadanga
     bn: চুয়াডাঙ্গা জেলা
@@ -367,19 +460,25 @@
     ta: சௌதங்கா மாவட்டம்
     ur: چوادانگا ضلع
     vi: Huyện Chuadanga
-  geo:
-    latitude: 23.6160512
-    longitude: 88.8263006
-    min_latitude: 23.3713321
-    min_longitude: 88.62422
-    max_latitude: 23.839448
-    max_longitude: 89.0196419
-  name: Chuadanga zila
-'13':
+    te: చుడంగా జిల్లా
+    zh: 朱瓦当加县
+    ccp: "\U0001110C\U0001112A\U00011120\U00011113\U0001110B\U00011134\U00011109"
+    ml: ചുണ്ടങ്ങ ജില്ല
+  comments: 
+'13': 
+  name: Dhaka zila
+  code: 
   unofficial_names:
   - Dacca
   - Dakka
   - Dhaka
+  geo:
+    latitude: 24.5239682
+    longitude: 90.2995785
+    min_latitude: 22.844598
+    min_longitude: 89.312214
+    max_latitude: 25.409475
+    max_longitude: 91.276907
   translations:
     en: Dhaka
     bn: ঢাকা জেলা
@@ -397,17 +496,27 @@
     sv: Dhaka
     ur: ڈھاکہ ضلع
     vi: Huyện Dhaka
-  geo:
-    latitude: 24.5239682
-    longitude: 90.2995785
-    min_latitude: 22.844598
-    min_longitude: 89.312214
-    max_latitude: 25.409475
-    max_longitude: 91.276907
-  name: Dhaka zila
-'14':
+    ceb: Dhaka
+    te: ఢాకా జిల్లా
+    ta: டாக்கா மாவட்டம்
+    zh: 达卡县
+    ccp: "\U00011114\U00011107"
+    de: Distrikt Dhaka
+    ml: ധാക്ക ജില്ല
+    be: Дака
+  comments: 
+'14': 
+  name: Dinajpur zila
+  code: 
   unofficial_names:
   - Dinajpur
+  geo:
+    latitude: 25.6220932
+    longitude: 88.63703009999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Dinajpur
     bn: দিনাজপুর জেলা
@@ -426,17 +535,28 @@
     sv: Dinajpur
     uk: Дінаджпур
     ur: دیناج پور ضلع، بنگلہ دیش
-  geo:
-    latitude: 25.6220932
-    longitude: 88.63703009999999
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Dinajpur zila
-'15':
+    ceb: Dinājpur
+    te: దినాజ్పూర్ జిల్లా
+    ta: தினஜ்பூர் மாவட்டம், வங்காளதேசம்
+    zh: 迪纳杰布尔县
+    el: Επαρχία Ντινατζπούρ
+    ccp: "\U00011118\U00011128\U0001111A\U0001110C\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    ml: ദിനാജ്പുർ ജില്ല
+    az: Dinacpur (dairə, Banqladeş)
+    ne: दिनाजपुर जिल्ला
+  comments: 
+'15': 
+  name: Faridpur zila
+  code: 
   unofficial_names:
   - Faridpur
+  geo:
+    latitude: 23.6085755
+    longitude: 89.84325969999999
+    min_latitude: 23.608268
+    min_longitude: 89.84295929999999
+    max_latitude: 23.6090422
+    max_longitude: 89.84357089999999
   translations:
     en: Faridpur
     bn: ফরিদপুর জেলা
@@ -453,17 +573,24 @@
     ta: பரித்பூர் மாவட்டம்
     ur: فرید پور ضلع
     vi: Huyện Faridpur
-  geo:
-    latitude: 23.6085755
-    longitude: 89.84325969999999
-    min_latitude: 23.608268
-    min_longitude: 89.84295929999999
-    max_latitude: 23.6090422
-    max_longitude: 89.84357089999999
-  name: Faridpur zila
-'16':
+    ceb: Faridpur
+    te: ఫరీద్పూర్ జిల్లా
+    zh: 福里德布尔县
+    ccp: "\U0001111C\U00011127\U00011122\U00011128\U00011116\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    ml: ഫരീദ്പൂർ ജില്ല
+  comments: 
+'16': 
+  name: Feni zila
+  code: 
   unofficial_names:
   - Feni
+  geo:
+    latitude: 22.9473563
+    longitude: 91.4048249
+    min_latitude: 22.7720662
+    min_longitude: 91.2493516
+    max_latitude: 23.2796693
+    max_longitude: 91.5834905
   translations:
     en: Feni
     bn: ফেনী জেলা
@@ -482,17 +609,24 @@
     uk: Фені
     ur: فینی ضلع
     vi: Huyện Feni
-  geo:
-    latitude: 22.9473563
-    longitude: 91.4048249
-    min_latitude: 22.7720662
-    min_longitude: 91.2493516
-    max_latitude: 23.2796693
-    max_longitude: 91.5834905
-  name: Feni zila
-'17':
+    ceb: Feni
+    te: ఫెని జిల్లా
+    zh: 費尼縣
+    ccp: "\U0001111C\U0001112C\U0001111A\U00011128"
+    ml: ഫെനി ജില്ല
+  comments: 
+'17': 
+  name: Gopalganj zila
+  code: 
   unofficial_names:
   - Gopalganj
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Gopalganj
     bn: গোপালগঞ্জ জেলা
@@ -506,17 +640,27 @@
     ru: Гопалгандж (округ, Бангладеш)
     sv: Gopalganj (distrikt i Bangladesh)
     ur: گوپال گنج ضلع، بنگلہ دیش
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Gopalganj zila
-'18':
+    ceb: Gopalganj (distrito sa Bangladesh)
+    te: గోపల్గంజ్ జిల్లా
+    ta: கோபால்கஞ்ச் மாவட்டம், வங்காளதேசம்
+    zh: 戈巴尔甘尼县
+    ccp: "\U00011109\U0001112E\U0001111B\U00011123\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    it: distretto di Gopalganj
+    ml: ഗോപാൽഗഞ്ച് ജില്ല
+    be: Гапалгандж
+  comments: 
+'18': 
+  name: Gazipur zila
+  code: 
   unofficial_names:
   - Gajipur
+  geo:
+    latitude: 24.0958171
+    longitude: 90.4125181
+    min_latitude: 23.882777
+    min_longitude: 90.15131939999999
+    max_latitude: 24.3391985
+    max_longitude: 90.7003785
   translations:
     en: Gazipur
     bn: গাজীপুর জেলা
@@ -532,21 +676,30 @@
     ru: Газипур
     ur: غازی پور ضلع
     vi: Huyện Gazipur
-  geo:
-    latitude: 24.0958171
-    longitude: 90.4125181
-    min_latitude: 23.882777
-    min_longitude: 90.15131939999999
-    max_latitude: 24.3391985
-    max_longitude: 90.7003785
-  name: Gazipur zila
-'19':
+    ceb: Gazipur
+    te: గజిపూర్ జిల్లా
+    ta: காஜிபூர் மாவட்டம்
+    zh: 加济布尔县
+    sv: Gazipur
+    ccp: "\U00011109\U0001110E\U00011128\U0001111B\U0001112A\U00011122\U00011134"
+    ml: ഗസിപ്പൂർ ജില്ല
+  comments: 
+'19': 
+  name: Gaibandha zila
+  code: 
   unofficial_names:
   - Gaibanda
   - Gaibandah
   - Gaibandha
   - Gaybanda
   - Gaybandah
+  geo:
+    latitude: 25.1879868
+    longitude: 89.4742177
+    min_latitude: 25.0351387
+    min_longitude: 89.18460850000001
+    max_latitude: 25.6440024
+    max_longitude: 89.7584724
   translations:
     en: Gaibandha
     bn: গাইবান্ধা জেলা
@@ -563,19 +716,28 @@
     ta: காய்பாந்தா மாவட்டம்
     ur: گائے بندھا ضلع
     vi: Huyện Gaibandha
-  geo:
-    latitude: 25.1879868
-    longitude: 89.4742177
-    min_latitude: 25.0351387
-    min_longitude: 89.18460850000001
-    max_latitude: 25.6440024
-    max_longitude: 89.7584724
-  name: Gaibandha zila
-'20':
+    ceb: Gaibandha
+    te: గైబంధ జిల్లా
+    zh: 戈伊班达县
+    el: Επαρχία Γκαϊμπάντα
+    ccp: "\U00011109\U0001112D\U0001111D\U0001111A\U00011134\U00011119"
+    ml: ഗൈബന്ധ ജില്ല
+    ne: गाईबान्धा जिल्ला
+  comments: 
+'20': 
+  name: Habiganj zila
+  code: 
   unofficial_names:
   - Habiganj
   - Hobiganj
   - Hobigonj
+  geo:
+    latitude: 24.372963
+    longitude: 91.4165201
+    min_latitude: 24.3727258
+    min_longitude: 91.41626819999999
+    max_latitude: 24.3734684
+    max_longitude: 91.41687689999999
   translations:
     en: Habiganj
     bn: হবিগঞ্জ জেলা
@@ -595,17 +757,24 @@
     uk: Хабігандж
     ur: حبی گنج ضلع
     vi: Huyện Habiganj
-  geo:
-    latitude: 24.372963
-    longitude: 91.4165201
-    min_latitude: 24.3727258
-    min_longitude: 91.41626819999999
-    max_latitude: 24.3734684
-    max_longitude: 91.41687689999999
-  name: Habiganj zila
-'21':
+    ceb: Habiganj
+    te: హబీగావ్ జిల్లా
+    zh: 霍比甘傑縣
+    ccp: "\U00011126\U00011127\U0001111D\U00011128\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: ഹബീബ്ഗഞ്ച് ജില്ല
+  comments: 
+'21': 
+  name: Jamalpur zila
+  code: 
   unofficial_names:
   - Jamalpur
+  geo:
+    latitude: 24.9377671
+    longitude: 89.93422799999999
+    min_latitude: 24.9371815
+    min_longitude: 89.93349189999999
+    max_latitude: 24.9386408
+    max_longitude: 89.9348223
   translations:
     en: Jamalpur
     bn: জামালপুর জেলা
@@ -623,18 +792,27 @@
     ta: ஜமால்பூர் மாவட்டம்
     ur: جمالپور ضلع
     vi: Huyện Jamalpur
-  geo:
-    latitude: 24.9377671
-    longitude: 89.93422799999999
-    min_latitude: 24.9371815
-    min_longitude: 89.93349189999999
-    max_latitude: 24.9386408
-    max_longitude: 89.9348223
-  name: Jamalpur zila
-'22':
+    ceb: Jamalpur
+    te: జమల్పూర్ జిల్లా
+    zh: 杰马勒布尔县
+    el: Επαρχία Τζαμαλπούρ
+    ccp: "\U0001110E\U0001111F\U00011123\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    de: Jamalpur (Distrikt)
+    ml: ജമൽപുർ ജില്ല
+  comments: 
+'22': 
+  name: Jessore zila
+  code: 
   unofficial_names:
   - Jessore
   - Jessur
+  geo:
+    latitude: 23.0943403
+    longitude: 89.1705998
+    min_latitude: 22.7923247
+    min_longitude: 88.8516283
+    max_latitude: 23.3734594
+    max_longitude: 89.5698166
   translations:
     en: Jessore
     bn: যশোর জেলা
@@ -652,21 +830,31 @@
     ta: ஜெஸ்சூர் மாவட்டம்
     ur: جیسور ضلع
     vi: Huyện Jessore
-  geo:
-    latitude: 23.0943403
-    longitude: 89.1705998
-    min_latitude: 22.7923247
-    min_longitude: 88.8516283
-    max_latitude: 23.3734594
-    max_longitude: 89.5698166
-  name: Jessore zila
-'23':
+    ceb: Jessore
+    te: జెస్సోర్ జిల్లా
+    zh: 杰索尔县
+    sv: Jessore
+    ccp: "\U0001110E\U00011127\U00011125\U0001112E\U00011122\U00011134"
+    ml: ജെസ്സോർ ജില്ല
+    az: Cessur
+    ne: जशोर जिल्ला
+  comments: 
+'23': 
+  name: Jhenaidah zila
+  code: 
   unofficial_names:
   - Jhanaydah
   - Jhanidah
   - Jhanīdāh
   - Jhenaida
   - Jhenida
+  geo:
+    latitude: 23.4754162
+    longitude: 89.1705998
+    min_latitude: 23.2157123
+    min_longitude: 88.6967468
+    max_latitude: 23.7696749
+    max_longitude: 89.3786287
   translations:
     en: Jhenaidah
     bn: ঝিনাইদহ জেলা
@@ -683,19 +871,27 @@
     ta: ஜெனிதக் மாவட்டம்
     ur: جھینایداہ ضلع
     vi: Huyện Jhenaidah
-  geo:
-    latitude: 23.4754162
-    longitude: 89.1705998
-    min_latitude: 23.2157123
-    min_longitude: 88.6967468
-    max_latitude: 23.7696749
-    max_longitude: 89.3786287
-  name: Jhenaidah zila
-'24':
+    ceb: Jhenaidah
+    te: జెనీడా జిల్లా
+    zh: 切尼达县
+    ccp: "\U0001110F\U00011128\U00011123\U0001112D\U00011113\U00011126\U00011134"
+    ml: ജെനൈദഹ് ജില്ല
+    ne: झिनाइदह जिल्ला
+  comments: 
+'24': 
+  name: Jaipurhat zila
+  code: 
   unofficial_names:
   - Jaipur Hat
   - Jaipurhat
   - Joypurhat
+  geo:
+    latitude: 25.138494
+    longitude: 89.0561532
+    min_latitude: 24.8552882
+    min_longitude: 88.9223099
+    max_latitude: 25.2799365
+    max_longitude: 89.2781638
   translations:
     en: Joypurhat
     bn: জয়পুরহাট জেলা
@@ -711,18 +907,26 @@
     ta: ஜெய்பூர்ஹட் மாவட்டம்
     ur: جیپرحت ضلع
     vi: Huyện Jaipurhat
-  geo:
-    latitude: 25.138494
-    longitude: 89.0561532
-    min_latitude: 24.8552882
-    min_longitude: 88.9223099
-    max_latitude: 25.2799365
-    max_longitude: 89.2781638
-  name: Jaipurhat zila
-'25':
+    ceb: Joypurhat
+    te: జోయ్ పూర్ జిల్లా
+    zh: 焦伊布尔哈德县
+    el: Επαρχία Τζαϊπουρχάτ
+    ccp: "\U0001110E\U00011127\U00011120\U00011134\U0001111B\U0001112A\U00011122\U00011134\U00011126\U00011116\U00011134"
+    ml: ജയ്യ്പർഹത് ജില്ല
+  comments: 
+'25': 
+  name: Jhalakati zila
+  code: 
   unofficial_names:
   - Jhalakati
   - Jhalokati
+  geo:
+    latitude: 22.57208
+    longitude: 90.1869644
+    min_latitude: 22.3446776
+    min_longitude: 90.0208569
+    max_latitude: 22.7844511
+    max_longitude: 90.39070129999999
   translations:
     en: Jhalokati
     bn: ঝালকাঠি জেলা
@@ -738,17 +942,25 @@
     sv: Jhalokati
     ur: جھالوکاٹی ضلع
     vi: Huyện Jhalakati
-  geo:
-    latitude: 22.57208
-    longitude: 90.1869644
-    min_latitude: 22.3446776
-    min_longitude: 90.0208569
-    max_latitude: 22.7844511
-    max_longitude: 90.39070129999999
-  name: Jhalakati zila
-'26':
+    ceb: Jhalokati
+    te: ఝలాకటి జిల్లా
+    zh: 恰洛加蒂縣
+    ccp: "\U0001110F\U00011123\U00011127\U00011107\U00011111\U00011128"
+    id: Distrik Jhalakathi
+    ml: ജലലോക്കതി ജില്ല
+  comments: 
+'26': 
+  name: Kishoreganj zila
+  code: 
   unofficial_names:
   - Kishoreganj
+  geo:
+    latitude: 24.4260457
+    longitude: 90.9820668
+    min_latitude: 24.0383905
+    min_longitude: 90.57661069999999
+    max_latitude: 24.6345348
+    max_longitude: 91.2555313
   translations:
     en: Kishoreganj
     bn: কিশোরগঞ্জ জেলা
@@ -765,17 +977,23 @@
     uk: Кішоргандж
     ur: کشور گنج ضلع
     vi: Huyện Kishoreganj
-  geo:
-    latitude: 24.4260457
-    longitude: 90.9820668
-    min_latitude: 24.0383905
-    min_longitude: 90.57661069999999
-    max_latitude: 24.6345348
-    max_longitude: 91.2555313
-  name: Kishoreganj zila
-'27':
+    te: కిషోర్గేంజ్ జిల్లా
+    zh: 吉绍尔甘杰县
+    ccp: "\U00011107\U00011128\U00011125\U0001112E\U00011122\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: കിഷോർഗഞ്ച് ജില്ല
+  comments: 
+'27': 
+  name: Khulna zila
+  code: 
   unofficial_names:
   - Khulna
+  geo:
+    latitude: 22.8146371
+    longitude: 89.5705569
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Khulna
     bn: খুলনা জেলা
@@ -793,17 +1011,25 @@
     ta: குல்னா மாவட்டம்
     ur: ضلع کھلنا
     vi: Huyện Khulna
-  geo:
-    latitude: 22.8146371
-    longitude: 89.5705569
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Khulna zila
-'28':
+    ceb: Khulna
+    te: ఖుల్నా జిల్లా
+    zh: 庫爾納縣
+    ccp: "\U00011108\U0001112A\U00011123\U00011134\U0001111A"
+    ml: ഖുൽന ജില്ല
+    ne: खुलना जिल्ला
+  comments: 
+'28': 
+  name: Kurigram zila
+  code: 
   unofficial_names:
   - Kurigram
+  geo:
+    latitude: 25.7570397
+    longitude: 89.62516459999999
+    min_latitude: 25.3801294
+    min_longitude: 89.458022
+    max_latitude: 26.2355339
+    max_longitude: 89.8903942
   translations:
     en: Kurigram
     bn: কুড়িগ্রাম জেলা
@@ -820,16 +1046,25 @@
     ta: குரிகிராம் மாவட்டம்
     ur: کوریگرام ضلع
     vi: Huyện Kurigram
-  geo:
-    latitude: 25.7570397
-    longitude: 89.62516459999999
-    min_latitude: 25.3801294
-    min_longitude: 89.458022
-    max_latitude: 26.2355339
-    max_longitude: 89.8903942
-  name: Kurigram zila
-'29':
+    ceb: Kurigram
+    te: కురిగ్రామ్ జిల్లా
+    zh: 古里格拉姆县
+    el: Επαρχία Κουριγκράμ
+    ccp: "\U00011107\U0001112A\U00011122\U00011128\U00011109\U00011133\U00011122\U0001111F\U00011134"
+    ml: കുറിഗ്രം ജില്ല
+    ne: कुडिग्राम जिल्ला
+  comments: 
+'29': 
+  name: Khagrachari zila
+  code: 
   unofficial_names: Khagrachari zila
+  geo:
+    latitude: 23.1321751
+    longitude: 91.949021
+    min_latitude: 22.693101
+    min_longitude: 91.7165709
+    max_latitude: 23.7311798
+    max_longitude: 92.17374799999999
   translations:
     en: Khagrachari
     bn: খাগড়াছড়ি জেলা
@@ -850,18 +1085,26 @@
     uk: Кхаграчхарі
     ur: کھاگراچاری ضلع
     vi: Huyện Khagrachari
-  geo:
-    latitude: 23.1321751
-    longitude: 91.949021
-    min_latitude: 22.693101
-    min_longitude: 91.7165709
-    max_latitude: 23.7311798
-    max_longitude: 92.17374799999999
-  name: Khagrachari zila
-'30':
+    ceb: Khagrachhari
+    te: ఖగ్రచారీ జిల్లా
+    zh: 科格拉焦里縣
+    ccp: "\U00011108\U00011107\U00011134\U00011122\U0001110D\U00011127\U00011122\U00011128"
+    it: distretto di Khagrachhari
+    ml: ഖഘ്രചാരി ജില്ല
+  comments: 
+'30': 
+  name: Kushtia zila
+  code: 
   unofficial_names:
   - Kushtia
   - Kushtiya
+  geo:
+    latitude: 23.9031823
+    longitude: 89.0561532
+    min_latitude: 23.6899617
+    min_longitude: 88.6941719
+    max_latitude: 24.2097079
+    max_longitude: 89.3705176
   translations:
     en: Kushtia
     bn: কুষ্টিয়া জেলা
@@ -882,18 +1125,26 @@
     uk: Куштія
     ur: کوشتیا ضلع
     vi: Huyện Kushtia
-  geo:
-    latitude: 23.9031823
-    longitude: 89.0561532
-    min_latitude: 23.6899617
-    min_longitude: 88.6941719
-    max_latitude: 24.2097079
-    max_longitude: 89.3705176
-  name: Kushtia zila
-'31':
+    ceb: Kushtia
+    te: కుష్టియా జిల్లా
+    zh: 库什蒂亚县
+    ccp: "\U00011107\U0001112A\U0001110C\U00011134\U00011112\U00011128\U00011120"
+    pa: ਕੂਸ਼ਟੀਆ ਜ਼ਿਲ੍ਹਾ
+    ne: कुष्टिया जिल्ला
+  comments: 
+'31': 
+  name: Lakshmipur zila
+  code: 
   unofficial_names:
   - Lakshmipur
   - Laksmipur
+  geo:
+    latitude: 22.9339332
+    longitude: 90.83216879999999
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Lakshmipur
     bn: লক্ষ্মীপুর জেলা
@@ -913,18 +1164,26 @@
     uk: Лакшміпур
     ur: لکشمی پور ضلع
     vi: Huyện Lakshmipur
-  geo:
-    latitude: 22.9339332
-    longitude: 90.83216879999999
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Lakshmipur zila
-'32':
+    ceb: Lakshmipur
+    te: లక్ష్మీపూర్ జిల్లా
+    zh: 羅基布爾縣
+    el: Επαρχία Λακσμιπούρ
+    ccp: "\U00011123\U00011127\U00011107\U00011134\U00011108\U00011128\U0001111B\U0001112A\U00011122\U00011134"
+    ml: ലക്ഷ്മിപൂർ ജില്ല
+  comments: 
+'32': 
+  name: Lalmonirhat zila
+  code: 
   unofficial_names:
   - Lalmanir Hat
   - Lalmonirhat
+  geo:
+    latitude: 25.9923398
+    longitude: 89.28472510000002
+    min_latitude: 25.7903088
+    min_longitude: 88.9110662
+    max_latitude: 26.4629664
+    max_longitude: 89.56303609999999
   translations:
     en: Lalmonirhat
     bn: লালমনিরহাট জেলা
@@ -941,17 +1200,26 @@
     ta: லால்முனிர்காட் மாவட்டம்
     ur: لال مینار ہٹ ضلع
     vi: Huyện Lalmonirhat
-  geo:
-    latitude: 25.9923398
-    longitude: 89.28472510000002
-    min_latitude: 25.7903088
-    min_longitude: 88.9110662
-    max_latitude: 26.4629664
-    max_longitude: 89.56303609999999
-  name: Lalmonirhat zila
-'33':
+    ceb: Lalmonirhat (distrito sa Bangladesh)
+    te: లల్మోనిరాట్ జిల్లా
+    zh: 拉尔莫尼哈德县
+    el: Επαρχία Λαλμονιρχάτ
+    ccp: "\U00011123\U00011123\U00011134\U0001111F\U00011127\U0001111A\U00011128\U00011122\U00011134\U00011126\U00011116\U00011134"
+    ml: ലാൽമൊനിർഹറ്റ് ജില്ല
+    ne: लालमनिरहाट जिल्ला
+  comments: 
+'33': 
+  name: Manikganj zila
+  code: 
   unofficial_names:
   - Manikganj
+  geo:
+    latitude: 23.8584557
+    longitude: 89.9253233
+    min_latitude: 23.6303708
+    min_longitude: 89.6924686
+    max_latitude: 24.0301595
+    max_longitude: 90.25637619999999
   translations:
     en: Manikganj
     bn: মানিকগঞ্জ জেলা
@@ -968,19 +1236,27 @@
     ta: மணிகஞ்ச் மாவட்டம்
     ur: مانک گنج ضلع
     vi: Huyện Manikganj
-  geo:
-    latitude: 23.8584557
-    longitude: 89.9253233
-    min_latitude: 23.6303708
-    min_longitude: 89.6924686
-    max_latitude: 24.0301595
-    max_longitude: 90.25637619999999
-  name: Manikganj zila
-'34':
+    ceb: Manikganj
+    te: బహదియ
+    zh: 马尼格甘杰县
+    ccp: "\U0001111F\U0001111A\U00011128\U00011107\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    da: Manikganj
+    ml: ബഹദിയ ജില്ല
+  comments: 
+'34': 
+  name: Mymensingh zila
+  code: 
   unofficial_names:
   - Mymensingh
   - Nasirabad
   - Nasirābād
+  geo:
+    latitude: 24.6188256
+    longitude: 90.37483540000001
+    min_latitude: 24.2478058
+    min_longitude: 90.08703229999999
+    max_latitude: 25.1973305
+    max_longitude: 90.81951149999999
   translations:
     en: Mymensingh
     bn: ময়মনসিংহ জেলা
@@ -998,16 +1274,24 @@
     uk: Міменсінгх
     ur: میمن سنگھ ضلع
     vi: Huyện Mymensingh
-  geo:
-    latitude: 24.6188256
-    longitude: 90.37483540000001
-    min_latitude: 24.2478058
-    min_longitude: 90.08703229999999
-    max_latitude: 25.1973305
-    max_longitude: 90.81951149999999
-  name: Mymensingh zila
-'35':
+    ceb: Mymensingh (distrito)
+    te: మైమెన్సింగ్ జిల్లా
+    zh: 迈门辛县
+    el: Επαρχία Μίμενσινγκ
+    ccp: "\U0001111F\U00011127\U00011120\U00011134\U0001111F\U00011127\U0001111A\U00011134\U00011125\U00011128\U00011101\U00011126\U00011134"
+    ml: മൈസെന്സിങ് ജില്ല
+  comments: 
+'35': 
+  name: Munshiganj zila
+  code: 
   unofficial_names: Munshiganj zila
+  geo:
+    latitude: 23.5248687
+    longitude: 90.3371889
+    min_latitude: 23.3773986
+    min_longitude: 90.1798152
+    max_latitude: 23.6743985
+    max_longitude: 90.71299549999999
   translations:
     en: Munshiganj
     bn: মুন্সিগঞ্জ জেলা
@@ -1026,17 +1310,26 @@
     uk: Муншигандж
     ur: منشی گنج ضلع
     vi: Huyện Munshiganj
-  geo:
-    latitude: 23.5248687
-    longitude: 90.3371889
-    min_latitude: 23.3773986
-    min_longitude: 90.1798152
-    max_latitude: 23.6743985
-    max_longitude: 90.71299549999999
-  name: Munshiganj zila
-'36':
+    ceb: Munshiganj
+    te: మున్షియంగజ్ జిల్లా
+    zh: 蒙希甘杰县
+    el: Επαρχία Μουνσιγκάντζ
+    ccp: "\U0001111F\U0001112A\U0001111A\U00011134\U00011125\U00011128\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    it: distretto di Munshiganj
+    ml: മുന്ഷിഗഞ്ച് ജില്ല
+  comments: 
+'36': 
+  name: Madaripur zila
+  code: 
   unofficial_names:
   - Madaripur
+  geo:
+    latitude: 23.1666835
+    longitude: 90.20494169999999
+    min_latitude: 23.1665025
+    min_longitude: 90.2048202
+    max_latitude: 23.1668738
+    max_longitude: 90.20507769999999
   translations:
     en: Madaripur
     bn: মাদারীপুর জেলা
@@ -1053,17 +1346,25 @@
     ta: மதாரிபூர் மாவட்டம்
     ur: مداری پور ضلع
     vi: Huyện Madaripur
-  geo:
-    latitude: 23.1666835
-    longitude: 90.20494169999999
-    min_latitude: 23.1665025
-    min_longitude: 90.2048202
-    max_latitude: 23.1668738
-    max_longitude: 90.20507769999999
-  name: Madaripur zila
-'37':
+    ceb: Madaripur (distrito sa Bangladesh)
+    te: మదరిపుర్ జిల్లా
+    zh: 马达里布尔县
+    ccp: "\U0001111F\U00011118\U00011122\U00011128\U0001111B\U0001112A\U00011122\U00011134"
+    kk: Мадарипур
+    ml: മദാരിപൂർ ജില്ല
+  comments: 
+'37': 
+  name: Magura zila
+  code: 
   unofficial_names:
   - Magura
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Magura
     bn: মাগুরা জেলা
@@ -1082,18 +1383,26 @@
     ta: மகுரா மாவட்டம்
     ur: ماگورا ضلع
     vi: Huyện Magura
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Magura zila
-'38':
+    ceb: Magura
+    te: మగుర జిల్లా
+    zh: 马古拉县
+    ccp: "\U0001111F\U00011109\U0001112A\U00011122"
+    ml: മഗുര ജില്ല
+    ne: मागुरा जिल्ला
+  comments: 
+'38': 
+  name: Moulvibazar zila
+  code: 
   unofficial_names:
   - Maulvi Bazar
   - Moulvi Bazar
+  geo:
+    latitude: 24.4191069
+    longitude: 91.7538817
+    min_latitude: 24.1370805
+    min_longitude: 91.59713760000001
+    max_latitude: 24.8346482
+    max_longitude: 92.29768759999999
   translations:
     en: Maulvi Bazar
     bn: মৌলভীবাজার জেলা
@@ -1114,16 +1423,24 @@
     uk: Маулвібазар
     ur: مولوی بازار ضلع
     vi: Huyện Moulvibazar
-  geo:
-    latitude: 24.4191069
-    longitude: 91.7538817
-    min_latitude: 24.1370805
-    min_longitude: 91.59713760000001
-    max_latitude: 24.8346482
-    max_longitude: 92.29768759999999
-  name: Moulvibazar zila
-'39':
+    ceb: Maulvibazar
+    te: మౌల్విబాజర్ జిల్లా
+    zh: 毛爾維巴扎爾縣
+    ccp: "\U0001111F\U0001112F\U00011123\U00011127\U0001111E\U00011129 \U0001111D\U0001110E\U00011122\U00011134"
+    pa: ਮੌਲਵੀ ਬਾਜ਼ਾਰ ਜ਼ਿਲਾ
+    ml: മൗൽവിബാസർ ജില്ല
+  comments: 
+'39': 
+  name: Meherpur zila
+  code: 
   unofficial_names: Meherpur zila
+  geo:
+    latitude: 23.8051991
+    longitude: 88.6723578
+    min_latitude: 23.5995035
+    min_longitude: 88.5595894
+    max_latitude: 23.978685
+    max_longitude: 88.8895656
   translations:
     en: Meherpur
     bn: মেহেরপুর জেলা
@@ -1142,17 +1459,25 @@
     ta: மெகர்பூர் மாவட்டம்
     ur: مہر پور ضلع
     vi: Huyện Meherpur
-  geo:
-    latitude: 23.8051991
-    longitude: 88.6723578
-    min_latitude: 23.5995035
-    min_longitude: 88.5595894
-    max_latitude: 23.978685
-    max_longitude: 88.8895656
-  name: Meherpur zila
-'40':
+    ceb: Meherpur
+    te: మెహర్పూర్ జిల్లా
+    zh: 梅黑尔布尔县
+    ccp: "\U0001111F\U0001112C\U00011126\U0001112C\U00011122\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    ml: മേഹർപൂർ ജില്ല
+    ne: मेहेरपुर जिल्ला
+  comments: 
+'40': 
+  name: Narayanganj zila
+  code: 
   unofficial_names:
   - Narayanganj
+  geo:
+    latitude: 23.7146601
+    longitude: 90.563609
+    min_latitude: 23.5425862
+    min_longitude: 90.4319429
+    max_latitude: 23.9584895
+    max_longitude: 90.757885
   translations:
     en: Narayanganj
     bn: নারায়ণগঞ্জ জেলা
@@ -1167,18 +1492,26 @@
     sv: Narayanganj (distrikt)
     ur: نارائن گنج ضلع
     vi: Huyện Narayanganj
-  geo:
-    latitude: 23.7146601
-    longitude: 90.563609
-    min_latitude: 23.5425862
-    min_longitude: 90.4319429
-    max_latitude: 23.9584895
-    max_longitude: 90.757885
-  name: Narayanganj zila
-'41':
+    ceb: Narayanganj (distrito sa Bangladesh)
+    te: నారాయణాంజ్ జిల్లా
+    ta: நாராயண்கஞ்ச் மாவட்டம்
+    zh: 纳拉扬甘杰县
+    ccp: "\U0001111A\U00011122\U00011120\U00011127\U0001111A\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: നാരായൺഗഞ്ച് ജില്ല
+  comments: 
+'41': 
+  name: Netrakona zila
+  code: 
   unofficial_names:
   - Netrakona
   - Netrokana
+  geo:
+    latitude: 24.8834972
+    longitude: 90.7312453
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Netrokona
     bn: নেত্রকোনা জেলা
@@ -1195,17 +1528,26 @@
     ta: நேத்ரோகோனா மாவட்டம்
     ur: نیتورکونا ضلع
     vi: Huyện Netrakona
-  geo:
-    latitude: 24.8834972
-    longitude: 90.7312453
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Netrakona zila
-'42':
+    ceb: Netrakona (distrito)
+    te: నెట్కోనో జిల్లా
+    zh: 内德罗戈纳县
+    pl: dystrykt Netrokona
+    el: Επαρχία Νετροκόνα
+    ccp: "\U0001111A\U0001112C\U00011116\U00011133\U00011122\U00011127\U00011107\U00011127\U0001111A"
+    ml: നെറ്റ്രൊകൊന ജില്ല
+  comments: 
+'42': 
+  name: Narsingdi zila
+  code: 
   unofficial_names:
   - Narsinghdi
+  geo:
+    latitude: 23.9991955
+    longitude: 90.7913227
+    min_latitude: 23.7841667
+    min_longitude: 90.56034559999999
+    max_latitude: 24.2503296
+    max_longitude: 90.9857498
   translations:
     en: Narsingdi
     bn: নরসিংদী জেলা
@@ -1222,18 +1564,24 @@
     ta: நரசிங்கடி மாவட்டம்
     ur: نارسینگدی ضلع
     vi: Huyện Narsingdi
-  geo:
-    latitude: 23.9991955
-    longitude: 90.7913227
-    min_latitude: 23.7841667
-    min_longitude: 90.56034559999999
-    max_latitude: 24.2503296
-    max_longitude: 90.9857498
-  name: Narsingdi zila
-'43':
+    te: నర్సింగి జిల్లా
+    zh: 诺尔辛迪县
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011125\U00011128\U00011101\U00011118\U00011128"
+    ml: നരസിംഗഡി ജില്ല
+  comments: 
+'43': 
+  name: Narail zila
+  code: 
   unofficial_names:
   - Narail
   - Naral
+  geo:
+    latitude: 23.1436191
+    longitude: 89.5874819
+    min_latitude: 22.9538884
+    min_longitude: 89.37712669999999
+    max_latitude: 23.3145922
+    max_longitude: 89.7925473
   translations:
     en: Narail
     bn: নড়াইল জেলা
@@ -1252,18 +1600,26 @@
     ta: நராய்ல் மாவட்டம்
     ur: نارائل ضلع
     vi: Huyện Narail
-  geo:
-    latitude: 23.1436191
-    longitude: 89.5874819
-    min_latitude: 22.9538884
-    min_longitude: 89.37712669999999
-    max_latitude: 23.3145922
-    max_longitude: 89.7925473
-  name: Narail zila
-'44':
+    ceb: Narail (distrito)
+    te: నారాయిల్ డిస్ట్రిక్ట్
+    zh: 诺拉尔县
+    ccp: "\U0001111A\U00011122\U0001112D\U00011123\U00011134"
+    ml: നാറെയിൽ ജില്ല
+    ne: नडाइल जिल्ला
+  comments: 
+'44': 
+  name: Natore zila
+  code: 
   unofficial_names:
   - Nator
   - Natore
+  geo:
+    latitude: 24.4260457
+    longitude: 89.0179332
+    min_latitude: 24.105237
+    min_longitude: 88.84579169999999
+    max_latitude: 24.6554422
+    max_longitude: 89.3405628
   translations:
     en: Natore
     bn: নাটোর জেলা
@@ -1281,18 +1637,26 @@
     ta: நத்தோர் மாவட்டம்
     ur: نتور ضلع
     vi: Huyện Natore
-  geo:
-    latitude: 24.4260457
-    longitude: 89.0179332
-    min_latitude: 24.105237
-    min_longitude: 88.84579169999999
-    max_latitude: 24.6554422
-    max_longitude: 89.3405628
-  name: Natore zila
-'45':
+    ceb: Natore
+    te: నాటోర్ జిల్లా
+    zh: 诺多尔县
+    ccp: "\U0001111A\U00011111\U0001112E\U00011122\U00011134"
+    ml: നാറ്റോർ ജില്ല
+    ne: नाटोर जिल्ला
+  comments: 
+'45': 
+  name: Nawabganj zila
+  code: 
   unofficial_names:
   - Nawabganj
   - Nawabgonj
+  geo:
+    latitude: 29.9688
+    longitude: 77.5495
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Nawabganj
     bn: চাঁপাইনবাবগঞ্জ জেলা
@@ -1311,17 +1675,25 @@
     ta: சபாய் நவாப்கஞ்ச் மாவட்டம்
     ur: چپائی نواب گنج ضلع
     vi: Huyện Nawabganj
-  geo:
-    latitude: 29.9688
-    longitude: 77.5495
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Nawabganj zila
-'46':
+    ceb: Chapai Nababganj
+    te: చపాయ్ నవాబ్గంజ్ జిల్లా
+    zh: 诺瓦布甘杰县
+    ccp: "\U0001111A\U00011127\U00011103\U0001112E\U00011120\U0001111B\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: ചാപായ് നവാബ്ഗഞ്ച് ജില്ല
+    ne: चाँपाइनबाबगञ्ज जिल्ला
+  comments: 
+'46': 
+  name: Nilphamari zila
+  code: 
   unofficial_names:
   - Nilphamari
+  geo:
+    latitude: 25.989962
+    longitude: 88.90306
+    min_latitude: 25.7392149
+    min_longitude: 88.7379457
+    max_latitude: 26.3130356
+    max_longitude: 89.1966248
   translations:
     en: Nilphamari
     bn: নীলফামারী জেলা
@@ -1338,17 +1710,27 @@
     ta: நீல்பமரி மாவட்டம்
     ur: نیلپھاماری ضلع
     vi: Huyện Nilphamari
-  geo:
-    latitude: 25.989962
-    longitude: 88.90306
-    min_latitude: 25.7392149
-    min_longitude: 88.7379457
-    max_latitude: 26.3130356
-    max_longitude: 89.1966248
-  name: Nilphamari zila
-'47':
+    ceb: Nilphamari Zila
+    te: నిల్ఫామారి జిల్లా
+    as: নীলফামাৰী জিলা
+    zh: 尼尔帕马里县
+    el: Επαρχία Νιλφαμάρι
+    ccp: "\U0001111A\U00011129\U00011123\U00011134\U0001111C\U0001111F\U00011122\U00011128"
+    ml: നിൽഫമാറി ജില്ല
+    ne: नीलफामारी जिल्ला
+  comments: 
+'47': 
+  name: Noakhali zila
+  code: 
   unofficial_names:
   - Noakhali
+  geo:
+    latitude: 22.5205292
+    longitude: 91.13530200000001
+    min_latitude: 22.0278874
+    min_longitude: 90.8422743
+    max_latitude: 23.1329408
+    max_longitude: 91.4192964
   translations:
     en: Noakhali
     bn: নোয়াখালী জেলা
@@ -1371,18 +1753,23 @@
     uk: Ноакхалі
     ur: نواکھالی ضلع
     vi: Huyện Noakhali
-  geo:
-    latitude: 22.5205292
-    longitude: 91.13530200000001
-    min_latitude: 22.0278874
-    min_longitude: 90.8422743
-    max_latitude: 23.1329408
-    max_longitude: 91.4192964
-  name: Noakhali zila
-'48':
+    te: నోహాళీ జిల్లా
+    zh: 諾阿卡利縣
+    ccp: "\U0001111A\U00011131\U00011108\U00011123\U00011128"
+  comments: 
+'48': 
+  name: Naogaon zila
+  code: 
   unofficial_names:
   - Naogaon
   - Naugaon
+  geo:
+    latitude: 24.8127781
+    longitude: 88.9415362
+    min_latitude: 24.8123151
+    min_longitude: 88.94079579999999
+    max_latitude: 24.8134302
+    max_longitude: 88.94238349999999
   translations:
     en: Naogaon
     bn: নওগাঁ জেলা
@@ -1398,17 +1785,27 @@
     ta: நவகோன் மாவட்டம்
     ur: ناو گاؤں ضلع
     vi: Huyện Naogaon
-  geo:
-    latitude: 24.8127781
-    longitude: 88.9415362
-    min_latitude: 24.8123151
-    min_longitude: 88.94079579999999
-    max_latitude: 24.8134302
-    max_longitude: 88.94238349999999
-  name: Naogaon zila
-'49':
+    ceb: Naogaon
+    te: నాగాన్ జిల్లా
+    zh: 瑙冈县
+    sv: Naogaon District
+    hi: नौगाँव जिला
+    ccp: "\U0001111A\U00011127\U00011103\U0001112E\U00011109"
+    ml: നഒഗോൺ ജില്ല
+    ne: नउगाँ जिल्ला
+  comments: 
+'49': 
+  name: Pabna zila
+  code: 
   unofficial_names:
   - Pabna
+  geo:
+    latitude: 24.0021069
+    longitude: 89.2332005
+    min_latitude: 24.0016952
+    min_longitude: 89.23269499999999
+    max_latitude: 24.0029743
+    max_longitude: 89.2340201
   translations:
     en: Pabna
     bn: পাবনা জেলা
@@ -1425,18 +1822,26 @@
     uk: Пабна
     ur: پبنا ضلع
     vi: Huyện Pabna
-  geo:
-    latitude: 24.0021069
-    longitude: 89.2332005
-    min_latitude: 24.0016952
-    min_longitude: 89.23269499999999
-    max_latitude: 24.0029743
-    max_longitude: 89.2340201
-  name: Pabna zila
-'50':
+    ceb: Pabna (distrito sa Bangladesh)
+    te: పాబ్నా జిల్లా
+    zh: 巴布纳县
+    ccp: "\U0001111B\U0001111B\U00011134\U0001111A"
+    ml: പബ്നാ ജില്ല
+    ne: पाबना जिल्ला
+  comments: 
+'50': 
+  name: Pirojpur zila
+  code: 
   unofficial_names:
   - Perojpur
   - Pirojpur
+  geo:
+    latitude: 25.6657924
+    longitude: 88.1364591
+    min_latitude: 25.6537201
+    min_longitude: 88.1259999
+    max_latitude: 25.6812
+    max_longitude: 88.1489501
   translations:
     en: Pirojpur
     bn: পিরোজপুর জেলা
@@ -1454,17 +1859,25 @@
     ta: பிரோஜ்பூர் மாவட்டம்
     ur: پیروجپور ضلع
     vi: Huyện Pirojpur
-  geo:
-    latitude: 25.6657924
-    longitude: 88.1364591
-    min_latitude: 25.6537201
-    min_longitude: 88.1259999
-    max_latitude: 25.6812
-    max_longitude: 88.1489501
-  name: Pirojpur zila
-'51':
+    ceb: Pirojpur
+    te: పిరోజ్పూర్ జిల్లా
+    zh: 比羅傑布爾縣
+    hi: पीरोजपुर जिला
+    ccp: "\U0001111B\U00011128\U00011122\U0001112E\U0001110C\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    ml: പിരോജ്പൂർ ജില്ല
+  comments: 
+'51': 
+  name: Patuakhali zila
+  code: 
   unofficial_names:
   - Patukhali
+  geo:
+    latitude: 21.951824
+    longitude: 90.37483540000001
+    min_latitude: 21.8004674
+    min_longitude: 90.0830841
+    max_latitude: 22.6105247
+    max_longitude: 90.66673279999999
   translations:
     en: Patuakhali
     bn: পটুয়াখালী জেলা
@@ -1482,16 +1895,23 @@
     ta: பதுவாகாளி மாவட்டம்
     ur: پاتواکھاکی ضلع
     vi: Huyện Patuakhali
-  geo:
-    latitude: 21.951824
-    longitude: 90.37483540000001
-    min_latitude: 21.8004674
-    min_longitude: 90.0830841
-    max_latitude: 22.6105247
-    max_longitude: 90.66673279999999
-  name: Patuakhali zila
-'52':
+    ceb: Patuakhali
+    te: పతువాలి జిల్లా
+    zh: 博杜阿卡利縣
+    ccp: "\U0001111B\U00011127\U00011111\U0001112A\U00011120\U00011108\U00011123\U00011128"
+    ml: പറ്റുഖലി ജില്ല
+  comments: 
+'52': 
+  name: Panchagarh zila
+  code: 
   unofficial_names: Panchagarh zila
+  geo:
+    latitude: 26.335376
+    longitude: 88.551698
+    min_latitude: 26.3172288
+    min_longitude: 88.5441398
+    max_latitude: 26.3444988
+    max_longitude: 88.5685159
   translations:
     en: Panchagarh
     bn: পঞ্চগড় জেলা
@@ -1508,17 +1928,26 @@
     ta: பஞ்சகர் மாவட்டம்
     ur: پنچھاگڑھ ضلع
     vi: Huyện Panchagarh
-  geo:
-    latitude: 26.335376
-    longitude: 88.551698
-    min_latitude: 26.3172288
-    min_longitude: 88.5441398
-    max_latitude: 26.3444988
-    max_longitude: 88.5685159
-  name: Panchagarh zila
-'53':
+    ceb: Panchagarh (distrito)
+    te: పంచగర్ జిల్లా
+    zh: 班乔戈尔县
+    el: Επαρχία Παντσαγκάρ
+    ccp: "\U0001111B\U00011127\U0001111A\U00011134\U0001110C\U00011127\U00011109\U00011127\U00011122\U00011134"
+    ml: പഞ്ചഗർഹ് ജില്ല
+    ne: पञ्चगढ जिल्ला
+  comments: 
+'53': 
+  name: Rajbari zila
+  code: 
   unofficial_names:
   - Rajbari
+  geo:
+    latitude: 23.715134
+    longitude: 89.5874819
+    min_latitude: 23.567016
+    min_longitude: 89.2988491
+    max_latitude: 23.908124
+    max_longitude: 89.8695803
   translations:
     en: Rajbari
     bn: রাজবাড়ী জেলা
@@ -1536,18 +1965,26 @@
     ta: ராஜ்பாரி மாவட்டம்
     ur: راج باڑی ضلع
     vi: Huyện Rajbari
-  geo:
-    latitude: 23.715134
-    longitude: 89.5874819
-    min_latitude: 23.567016
-    min_longitude: 89.2988491
-    max_latitude: 23.908124
-    max_longitude: 89.8695803
-  name: Rajbari zila
-'54':
+    ceb: Rajbari
+    te: రాజ్బరి జిల్లా
+    zh: 拉杰巴里县
+    el: Επαρχία Ρατζμπάρι
+    ccp: "\U00011122\U0001110C\U00011134\U0001111D\U00011122\U00011128"
+    ml: രാജ്ബാഡി ജില്ല
+  comments: 
+'54': 
+  name: Rajshahi zila
+  code: 
   unofficial_names:
   - Rajshahi
   - Rampur Boalia
+  geo:
+    latitude: 24.4130584
+    longitude: 88.9822586
+    min_latitude: 24.4116991
+    min_longitude: 88.9815109
+    max_latitude: 24.4145705
+    max_longitude: 88.9830614
   translations:
     en: Rajshahi
     ar: مقاطعة رايشاهي
@@ -1582,17 +2019,27 @@
     tr: Rajshahi District
     ur: راجشاہی ضلع
     vi: Huyện Rajshahi
-  geo:
-    latitude: 24.4130584
-    longitude: 88.9822586
-    min_latitude: 24.4116991
-    min_longitude: 88.9815109
-    max_latitude: 24.4145705
-    max_longitude: 88.9830614
-  name: Rajshahi zila
-'55':
+    lv: Rādžšāhī apgabals
+    ceb: Rajshahi
+    lt: Radžšachio apskritis
+    zh: 拉傑沙希縣
+    ccp: "\U00011122\U0001110C\U00011134\U00011125\U00011126\U00011128"
+    ml: രാജ്ഷാഹി ജില്ല
+    uk: Район Раджшагі
+    or: ରାଜସାହୀ ଜିଲ୍ଲା
+  comments: 
+'55': 
+  name: Rangpur zila
+  code: 
   unofficial_names:
   - Rangpur
+  geo:
+    latitude: 25.7588
+    longitude: 89.24337700000001
+    min_latitude: 25.7585418
+    min_longitude: 89.2431368
+    max_latitude: 25.758965
+    max_longitude: 89.2436118
   translations:
     en: Rangpur
     ar: مقاطعة رانجبور
@@ -1629,17 +2076,25 @@
     uk: Рангпур
     ur: رنگ پور ضلع
     vi: Huyện Rangpur
-  geo:
-    latitude: 25.7588
-    longitude: 89.24337700000001
-    min_latitude: 25.7585418
-    min_longitude: 89.2431368
-    max_latitude: 25.758965
-    max_longitude: 89.2436118
-  name: Rangpur zila
-'56':
+    lv: Rangpura
+    ceb: Rangpur
+    lt: Rangpuro apskritis
+    zh: 朗布尔县
+    ccp: "\U00011122\U00011127\U00011101\U0001111B\U0001112A\U00011122\U00011134"
+    ml: രംഗ്പൂർ ജില്ല
+  comments: 
+'56': 
+  name: Rangamati zila
+  code: 
   unofficial_names:
   - Rangamati
+  geo:
+    latitude: 25.158978
+    longitude: 91.685097
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Rangamati Hill
     bn: রাঙামাটি জেলা
@@ -1657,17 +2112,26 @@
     ta: ரங்கமதி மாவட்டம்
     uk: Рангаматі
     ur: رنگامتی ضلع
-  geo:
-    latitude: 25.158978
-    longitude: 91.685097
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Rangamati zila
-'57':
+    ceb: Rangamati
+    te: రంగమతి హిల్ డిస్ట్రిక్ట్
+    vi: Huyện Rangamati
+    zh: 蘭加馬蒂縣
+    pl: dystrykt Rangamati
+    ccp: "\U00011122\U0001110B\U0001111F\U00011116\U00011133\U00011120\U0001112C \U00011126\U00011128\U00011123\U00011134"
+    ml: രംഗമതി ഹിൽ ജില്ല
+  comments: 
+'57': 
+  name: Sherpur zila
+  code: 
   unofficial_names:
   - Sherpur
+  geo:
+    latitude: 25.0465571
+    longitude: 90.11206960000001
+    min_latitude: 24.8837113
+    min_longitude: 89.8807812
+    max_latitude: 25.3026742
+    max_longitude: 90.3096772
   translations:
     en: Sherpur
     bn: শেরপুর জেলা
@@ -1685,17 +2149,26 @@
     ta: செர்பூர் மாவட்டம்
     ur: شیر پور ضلع
     vi: Huyện Sherpur
-  geo:
-    latitude: 25.0465571
-    longitude: 90.11206960000001
-    min_latitude: 24.8837113
-    min_longitude: 89.8807812
-    max_latitude: 25.3026742
-    max_longitude: 90.3096772
-  name: Sherpur zila
-'58':
+    ceb: Sherpur
+    te: షేర్పూర్ జిల్లా
+    zh: 谢尔布尔县
+    el: Επαρχία Σερπούρ
+    ccp: "\U00011125\U0001112C\U00011122\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    it: distretto di Sherpur
+    ml: ഷേർപ്പൂർ ജില്ല
+  comments: 
+'58': 
+  name: Satkhira zila
+  code: 
   unofficial_names:
   - Satkhira
+  geo:
+    latitude: 21.9501677
+    longitude: 89.1705998
+    min_latitude: 21.6379626
+    min_longitude: 88.90323389999999
+    max_latitude: 22.9491463
+    max_longitude: 89.3596172
   translations:
     en: Satkhira
     bn: সাতক্ষীরা জেলা
@@ -1715,18 +2188,26 @@
     ta: சத்கீரா மாவட்டம்
     ur: ساتخیرا ضلع
     vi: Huyện Satkhira
-  geo:
-    latitude: 21.9501677
-    longitude: 89.1705998
-    min_latitude: 21.6379626
-    min_longitude: 88.90323389999999
-    max_latitude: 22.9491463
-    max_longitude: 89.3596172
-  name: Satkhira zila
-'59':
+    ceb: Satkhira
+    te: సత్ఖిర జిల్లా
+    zh: 萨德基拉县
+    ccp: "\U00011125\U00011116\U00011134\U00011108\U00011128\U00011122"
+    ml: സത്ഖിറ ജില്ല
+    ne: सातखीरा जिल्ला
+  comments: 
+'59': 
+  name: Sirajganj zila
+  code: 
   unofficial_names:
   - Serajgonj
   - Sirajganj
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     en: Sirajganj
     bn: সিরাজগঞ্জ জেলা
@@ -1741,18 +2222,25 @@
     ta: சிராஜ்கஞ்ச் மாவட்டம்
     ur: سراج گنج ضلع
     vi: Huyện Sirajganj
-  geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
-  name: Sirajganj zila
-'60':
+    ceb: Sirajganj (distrito sa Bangladesh)
+    te: సిరాజ్గంజ్ జిల్లా
+    zh: 锡拉杰甘杰县
+    ccp: "\U00011125\U00011128\U00011122\U0001110C\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: സിറാജ്ഗഞ്ച് ജില്ല
+  comments: 
+'60': 
+  name: Sylhet zila
+  code: 
   unofficial_names:
   - Silhat
   - Sylhet
+  geo:
+    latitude: 24.8902772
+    longitude: 91.86371419999999
+    min_latitude: 24.8900448
+    min_longitude: 91.8633924
+    max_latitude: 24.8905095
+    max_longitude: 91.864036
   translations:
     en: Sylhet
     ar: مقاطعة سيلهيت
@@ -1788,18 +2276,26 @@
     uk: Сілхет
     ur: سلہٹ ضلع
     vi: Huyện Sylhet
-  geo:
-    latitude: 24.8902772
-    longitude: 91.86371419999999
-    min_latitude: 24.8900448
-    min_longitude: 91.8633924
-    max_latitude: 24.8905095
-    max_longitude: 91.864036
-  name: Sylhet zila
-'61':
+    lv: Siletas apgabals
+    ceb: Sylhet
+    lt: Sileto apskritis
+    zh: 錫爾赫特縣
+    ccp: "\U00011125\U00011128\U00011123\U0001112C\U00011116\U00011134"
+    ml: സിൽഹെഡ് ജില്ല
+  comments: 
+'61': 
+  name: Sunamganj zila
+  code: 
   unofficial_names:
   - Shunamganj
   - Sunamganj
+  geo:
+    latitude: 24.993592
+    longitude: 91.28910359999999
+    min_latitude: 24.5661716
+    min_longitude: 90.93542579999999
+    max_latitude: 25.2041646
+    max_longitude: 91.739831
   translations:
     en: Sunamganj
     bn: সুনামগঞ্জ জেলা
@@ -1818,17 +2314,23 @@
     uk: Сунамгандж
     ur: سونم گنج ضلع
     vi: Huyện Sunamganj
-  geo:
-    latitude: 24.993592
-    longitude: 91.28910359999999
-    min_latitude: 24.5661716
-    min_longitude: 90.93542579999999
-    max_latitude: 25.2041646
-    max_longitude: 91.739831
-  name: Sunamganj zila
-'62':
+    te: సునంగంజ్ జిల్లా
+    zh: 蘇納姆甘傑縣
+    ccp: "\U00011125\U0001112A\U0001111A\U0001111F\U00011134\U00011109\U00011127\U0001111A\U00011134\U0001110E\U00011127"
+    ml: സുനാമ്ഗഞ്ച് ജില്ല
+  comments: 
+'62': 
+  name: Shariatpur zila
+  code: 
   unofficial_names:
   - Shariatpur
+  geo:
+    latitude: 23.2866398
+    longitude: 90.37483540000001
+    min_latitude: 23.0103863
+    min_longitude: 90.2019596
+    max_latitude: 23.4635612
+    max_longitude: 90.6138611
   translations:
     en: Shariatpur
     bn: শরিয়তপুর জেলা
@@ -1843,18 +2345,27 @@
     ta: சரியத்பூர் மாவட்டம்
     ur: شریعت پور ضلع
     vi: Huyện Shariatpur
-  geo:
-    latitude: 23.2866398
-    longitude: 90.37483540000001
-    min_latitude: 23.0103863
-    min_longitude: 90.2019596
-    max_latitude: 23.4635612
-    max_longitude: 90.6138611
-  name: Shariatpur zila
-'63':
+    ceb: Shariatpur
+    te: షరియత్పూర్ జిల్లా
+    zh: 沙里亚德布尔县
+    sv: Shariatpur
+    ccp: "\U00011125\U00011127\U00011122\U00011128\U00011120\U00011127\U00011116\U00011134\U0001111B\U0001112A\U00011122\U00011134"
+    it: distretto di Shariatpur
+    ml: ശരിയത്പൂർ ജില്ല
+  comments: 
+'63': 
+  name: Tangail zila
+  code: 
   unofficial_names:
   - Tangail
   - Tangayal
+  geo:
+    latitude: 24.2574606
+    longitude: 89.9172914
+    min_latitude: 24.2489937
+    min_longitude: 89.9137585
+    max_latitude: 24.2642256
+    max_longitude: 89.9231774
   translations:
     en: Tangail
     ar: منطقة تانغيل
@@ -1872,17 +2383,27 @@
     uk: Тангайл
     ur: تنگیل ضلع
     vi: Huyện Tangail
-  geo:
-    latitude: 24.2574606
-    longitude: 89.9172914
-    min_latitude: 24.2489937
-    min_longitude: 89.9137585
-    max_latitude: 24.2642256
-    max_longitude: 89.9231774
-  name: Tangail zila
-'64':
+    ceb: Tangail
+    te: తంగైల్ జిల్లా
+    zh: 坦盖尔县
+    yue_Hans: 坦盖尔县
+    ccp: "\U00011111\U0001110B\U00011134\U00011109\U0001112D\U00011123\U00011134"
+    it: distretto di Tangail
+    ml: ടംഗൈൽ ജില്ല
+    yue: 坦蓋爾縣
+  comments: 
+'64': 
+  name: Thakurgaon zila
+  code: 
   unofficial_names:
   - Thakurgaon
+  geo:
+    latitude: 25.9848836
+    longitude: 88.362785
+    min_latitude: 25.6658205
+    min_longitude: 88.0882072
+    max_latitude: 26.2147449
+    max_longitude: 88.64207259999999
   translations:
     en: Thakurgaon
     bn: ঠাকুরগাঁও জেলা
@@ -1898,15 +2419,26 @@
     sv: Thakurgaon (distrikt i Bangladesh)
     ur: ٹھاکر گاؤں ضلع
     vi: Huyện Thakurgaon
+    ceb: Thakurgaon (distrito sa Bangladesh)
+    te: థాకుర్గావ్ జిల్లా
+    ta: தாகுர்காவ்ன் மாவட்டம்
+    zh: 塔古尔冈县
+    el: Επαρχία Θακουργκαόν
+    ccp: "\U00011112\U00011107\U0001112A\U00011122\U00011134\U00011109\U00011100\U00011103\U0001112E"
+    ml: തകുർഗോൺ ജില്ല
+    ne: ठाकुरगाँउ जिल्ला
+  comments: 
+A: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 25.9848836
-    longitude: 88.362785
-    min_latitude: 25.6658205
-    min_longitude: 88.0882072
-    max_latitude: 26.2147449
-    max_longitude: 88.64207259999999
-  name: Thakurgaon zila
-A:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة باريسال
     bg: Барисал
@@ -1937,7 +2469,24 @@ A:
     uk: Барісал
     ur: باریسال ڈویژن
     vi: Barisal
-B:
+    ceb: Barisal Division
+    zh: 巴里薩爾專區
+    el: Διαίρεση Μπαρισάλ
+    ccp: "\U0001111D\U00011127\U00011122\U00011128\U00011125\U00011123\U00011134"
+    eu: Barisal dibisioa
+    az: Barisal (əyalət, Banqladeş)
+  comments: 
+B: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة تشيتاغونغ
     bg: Читагонг
@@ -1969,7 +2518,25 @@ B:
     uk: Чіттаґонґ
     ur: چٹاگانگ ڈویژن
     vi: Chittagong
-C:
+    ceb: Chittagong²
+    tr: Chittagong İli
+    zh: 吉大港專區
+    el: Διαίρεση Τσιταγκόνγκ
+    ccp: "\U0001110C\U00011118\U00011128\U00011109\U0001110B\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    ro: Chittagong²
+    eu: Chittagong dibisioa
+  comments: 
+C: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة داكا
     bg: Дака
@@ -2009,7 +2576,26 @@ C:
     uk: Дака
     ur: ڈھاکہ ڈویژن
     vi: Dhaka
-D:
+    lv: Dakas apgabals
+    ceb: Dhaka Division
+    zh: 達卡專區
+    yue_Hans: 达卡专区
+    ccp: "\U00011114\U00011107 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    eu: Dhaka dibisioa
+    yue: 達卡專區
+    be: Дака²
+  comments: 
+D: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: قسم خولنا
     bg: Кхулна
@@ -2049,7 +2635,23 @@ D:
     uk: Кхулна
     ur: کھلنا ڈویژن
     vi: Khulna
-F:
+    lv: Khulnas apgabals
+    ceb: Khulna Division
+    zh: 庫爾納專區
+    ccp: "\U00011108\U0001112A\U00011123\U00011134\U0001111A \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    eu: Khulna dibisioa
+  comments: 
+F: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     be: Рангпур²
     bg: Рангпур
@@ -2077,7 +2679,24 @@ F:
     uk: Рангпур²
     ur: رنگپور ڈویژن
     vi: Rangpur
-E:
+    ceb: Rangpur Division
+    zh: 朗布尔专区
+    el: Διαίρεση Ρανγκπούρ
+    ccp: "\U00011122\U00011127\U00011101\U0001111B\U0001112A\U00011122\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    eu: Rangpur dibisioa
+    ca: Divisió de Rangpur
+  comments: 
+E: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Раджшахи
     bn: রাজশাহী বিভাগ
@@ -2105,7 +2724,23 @@ E:
     uk: Раджшахі
     ur: راجشاہی ڈویژن
     vi: Rajshahi
-G:
+    ceb: Rājshāhi Division
+    zh: 拉傑沙希專區
+    el: Διαίρεση Ρατζσάχι
+    ccp: "\U00011122\U0001110C\U00011134\U00011125\U00011126\U00011128 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    eu: Rajshahi dibisioa
+  comments: 
+G: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bg: Силхет
     bn: সিলেট বিভাগ
@@ -2134,7 +2769,22 @@ G:
     uk: Сілет
     ur: سلہٹ ڈویژن
     vi: Sylhet
-H:
+    ceb: Sylhet Division
+    zh: 錫爾赫特專區
+    ccp: "\U00011125\U00011128\U00011123\U0001112C\U00011116\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    eu: Sylhet dibisioa
+  comments: 
+H: 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     bn: ময়মনসিংহ বিভাগ
     de: Maimansingh²
@@ -2148,3 +2798,14 @@ H:
     ru: Маймансингх
     ta: மைமன்சிங் கோட்டம்
     ur: میمن سنگھ ڈویژن
+    vi: Mymensingh
+    zh: 迈门辛专区
+    el: Διαίρεση Μίμενσινγκ
+    ccp: "\U0001111F\U00011127\U00011120\U00011134\U0001111F\U00011127\U0001111A\U00011134\U00011125\U00011128\U00011101\U00011126\U00011134
+      \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    es: Mymensingh²
+    eu: Mymensingh dibisioa
+    uk: Майменсінгх
+    ca: Divisió de Mymensingh
+    mk: Мајмансинг
+  comments: 

@@ -1,6 +1,15 @@
 ---
-E:
+E: 
+  name: Eastern
+  code: 
   unofficial_names: Eastern
+  geo:
+    latitude: 8.247377499999999
+    longitude: -10.8903099
+    min_latitude: 7.341372000000001
+    min_longitude: -11.5805801
+    max_latitude: 9.069968
+    max_longitude: -10.2842381
   translations:
     en: Eastern
     ar: المحافظة الشرقية
@@ -39,16 +48,23 @@ E:
     ur: مشرقی صوبہ، سیرالیون
     vi: Tỉnh Phía Đông
     zh: 東方省
-  geo:
-    latitude: 8.247377499999999
-    longitude: -10.8903099
-    min_latitude: 7.341372000000001
-    min_longitude: -11.5805801
-    max_latitude: 9.069968
-    max_longitude: -10.2842381
-  name: Eastern
-N:
+    lv: Austrumu province
+    ceb: Eastern Province (lalawigan sa Sierra Leone)
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    hr: Istočna provincija
+    uk: Східна провінція
+  comments: 
+N: 
+  name: Northern
+  code: 
   unofficial_names: Northern
+  geo:
+    latitude: 9.3500888
+    longitude: -11.7068294
+    min_latitude: 8.241974899999999
+    min_longitude: -13.3032624
+    max_latitude: 10.0004329
+    max_longitude: -10.5848049
   translations:
     en: Northern
     ar: المحافظة الشمالية
@@ -87,16 +103,23 @@ N:
     uk: Північна провінція (Сьєрра-Леоне)
     ur: شمالی صوبہ، سیرالیون
     vi: Tỉnh Phía Bắc
-  geo:
-    latitude: 9.3500888
-    longitude: -11.7068294
-    min_latitude: 8.241974899999999
-    min_longitude: -13.3032624
-    max_latitude: 10.0004329
-    max_longitude: -10.5848049
-  name: Northern
-S:
+    lv: Ziemeļu province
+    ceb: Northern Province (lalawigan sa Sierra Leone)
+    zh: 北方省
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    hr: Sjeverna provincija
+  comments: 
+S: 
+  name: Southern
+  code: 
   unofficial_names: Southern
+  geo:
+    latitude: 7.790662499999999
+    longitude: -11.8891721
+    min_latitude: 6.9296111
+    min_longitude: -13.0692559
+    max_latitude: 8.507107
+    max_longitude: -11.1348019
   translations:
     en: Southern
     ar: المحافظة الجنوبية
@@ -134,16 +157,24 @@ S:
     tr: Southern Province
     ur: جنوبی صوبہ، سیرالیون
     vi: Tỉnh Phía Nam
-  geo:
-    latitude: 7.790662499999999
-    longitude: -11.8891721
-    min_latitude: 6.9296111
-    min_longitude: -13.0692559
-    max_latitude: 8.507107
-    max_longitude: -11.1348019
-  name: Southern
-W:
+    lv: Dienvidu province
+    ceb: Southern Province
+    zh: 南方省
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    hr: Južna provincija
+    uk: Південна провінція
+  comments: 
+W: 
+  name: Western Area (Freetown)
+  code: 
   unofficial_names: Western Area (Freetown)
+  geo:
+    latitude: 8.484444
+    longitude: -13.234444
+    min_latitude: 8.4091211
+    min_longitude: -13.2985468
+    max_latitude: 8.4996723
+    max_longitude: -13.1487465
   translations:
     en: Western Area
     ar: المقاطعة الغربية
@@ -181,11 +212,25 @@ W:
     tr: Western Area
     ur: مغربی علاقہ
     vi: Khu vực Phía Tây
+    lv: Rietumu apgabals
+    ceb: Western Area
+    zh: 西部區
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001110E\U00011109"
+    hr: Zapadna zona
+    uk: Західний регіон
+  comments: 
+NW: 
+  name: 
+  code: 
+  unofficial_names: 
   geo:
-    latitude: 8.484444
-    longitude: -13.234444
-    min_latitude: 8.4091211
-    min_longitude: -13.2985468
-    max_latitude: 8.4996723
-    max_longitude: -13.1487465
-  name: Western Area (Freetown)
+    latitude: 8.460555
+    longitude: -11.779889
+    min_latitude: 6.8446
+    min_longitude: -13.4032999
+    max_latitude: 9.9999737
+    max_longitude: -10.2716829
+  translations:
+    en: North Western
+  comments: 

@@ -1,10 +1,10 @@
 ---
-CHA:
+CHA: 
+  name: Chagang-do
+  code: 
   unofficial_names:
   - Chagang
   - Jagang
-  translations:
-    en: Chagang-do
   geo:
     latitude: 40.7202809
     longitude: 126.5621137
@@ -12,13 +12,15 @@ CHA:
     min_longitude: 125.4260387
     max_latitude: 41.80851699999999
     max_longitude: 127.495489
-  name: Chagang-do
-HAB:
+  translations:
+    en: Chagang-do
+  comments: 
+HAB: 
+  name: Hamgyongbuk-do
+  code: 
   unofficial_names:
   - Hamgyongbukto
   - North Hamgyong
-  translations:
-    en: Hamgyongbuk-do
   geo:
     latitude: 
     longitude: 
@@ -26,13 +28,15 @@ HAB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hamgyongbuk-do
-HAN:
+  translations:
+    en: Hamgyongbuk-do
+  comments: 
+HAN: 
+  name: Hamgyongnam-do
+  code: 
   unofficial_names:
   - Hamgyongnamdo
   - South Hamgyong
-  translations:
-    en: Hamgyongnam-do
   geo:
     latitude: 40.37253390000001
     longitude: 128.2988839
@@ -40,12 +44,14 @@ HAN:
     min_longitude: 126.665308
     max_latitude: 41.188465
     max_longitude: 129.1677549
-  name: Hamgyongnam-do
-HWB:
+  translations:
+    en: Hamgyongnam-do
+  comments: 
+HWB: 
+  name: Hwanghaebuk-do
+  code: 
   unofficial_names:
   - North Hwanghae
-  translations:
-    en: Hwanghaebuk-do
   geo:
     latitude: 
     longitude: 
@@ -53,12 +59,14 @@ HWB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Hwanghaebuk-do
-HWN:
+  translations:
+    en: Hwanghaebuk-do
+  comments: 
+HWN: 
+  name: Hwanghaenam-do
+  code: 
   unofficial_names:
   - South Hwanghae
-  translations:
-    en: Hwanghaenam-do
   geo:
     latitude: 38.2007215
     longitude: 125.4781926
@@ -66,11 +74,13 @@ HWN:
     min_longitude: 124.6092129
     max_latitude: 38.70929
     max_longitude: 126.436103
-  name: Hwanghaenam-do
-KAE:
-  unofficial_names: Kaesong-si
   translations:
-    en: Kaesong-si
+    en: Hwanghaenam-do
+  comments: 
+KAE: 
+  name: Kaesong-si
+  code: 
+  unofficial_names: Kaesong-si
   geo:
     latitude: 37.9381943
     longitude: 126.5877948
@@ -78,14 +88,16 @@ KAE:
     min_longitude: 126.5048218
     max_latitude: 38.0156401
     max_longitude: 126.6957091
-  name: Kaesong-si
-KAN:
+  translations:
+    en: Kaesong-si
+  comments: 
+KAN: 
+  name: Kangwon-do
+  code: 
   unofficial_names:
   - Gangweon
   - Kangweon
   - Kangwon
-  translations:
-    en: Kangwon-do
   geo:
     latitude: 38.8432393
     longitude: 127.5597067
@@ -93,11 +105,13 @@ KAN:
     min_longitude: 126.6763261
     max_latitude: 39.4075279
     max_longitude: 128.3629369
-  name: Kangwon-do
-NAJ:
-  unofficial_names: Najin Sonbong-si
   translations:
-    en: Najin Sonbong-si
+    en: Kangwon-do
+  comments: 
+NAJ: 
+  name: Najin Sonbong-si
+  code: 
+  unofficial_names: Najin Sonbong-si
   geo:
     latitude: 42.3383958
     longitude: 130.3874889
@@ -105,11 +119,13 @@ NAJ:
     min_longitude: 130.3696491
     max_latitude: 42.3605417
     max_longitude: 130.4083801
-  name: Najin Sonbong-si
-NAM:
-  unofficial_names: Nampo-si
   translations:
-    en: Nampo-si
+    en: Najin Sonbong-si
+  comments: 
+NAM: 
+  name: Nampo-si
+  code: 
+  unofficial_names: Nampo-si
   geo:
     latitude: 36.3045591
     longitude: 126.605081
@@ -117,14 +133,16 @@ NAM:
     min_longitude: 126.5072223
     max_latitude: 36.3317793
     max_longitude: 126.6347802
-  name: Nampo-si
-PYB:
+  translations:
+    en: Nampo-si
+  comments: 
+PYB: 
+  name: Pyonganbuk-do
+  code: 
   unofficial_names:
   - North Phyongan
   - North Pyongan
   - Pyonganbukto
-  translations:
-    en: Pyonganbuk-do
   geo:
     latitude: 
     longitude: 
@@ -132,14 +150,16 @@ PYB:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Pyonganbuk-do
-PYN:
+  translations:
+    en: Pyonganbuk-do
+  comments: 
+PYN: 
+  name: Pyongannam-do
+  code: 
   unofficial_names:
   - Pyongannamdo
   - South Phyongan
   - South Pyongan
-  translations:
-    en: Pyongannam-do
   geo:
     latitude: 39.3539178
     longitude: 126.168271
@@ -147,12 +167,14 @@ PYN:
     min_longitude: 125.1250314
     max_latitude: 40.3443871
     max_longitude: 127.180768
-  name: Pyongannam-do
-PYO:
+  translations:
+    en: Pyongannam-do
+  comments: 
+PYO: 
+  name: Pyongyang-si
+  code: 
   unofficial_names:
   - Pyongyang
-  translations:
-    en: Pyongyang-si
   geo:
     latitude: 39.0392193
     longitude: 125.7625241
@@ -160,11 +182,13 @@ PYO:
     min_longitude: 125.5908966
     max_latitude: 39.1064777
     max_longitude: 125.893327
-  name: Pyongyang-si
-X1~:
-  unofficial_names: Rason
   translations:
-    en: Rason
+    en: Pyongyang-si
+  comments: 
+X1~: 
+  name: Rason
+  code: 
+  unofficial_names: Rason
   geo:
     latitude: 42.2569063
     longitude: 130.2977186
@@ -172,12 +196,14 @@ X1~:
     min_longitude: 130.2705528
     max_latitude: 42.27367659999999
     max_longitude: 130.332437
-  name: Rason
-YAN:
+  translations:
+    en: Rason
+  comments: 
+YAN: 
+  name: Yanggang-do
+  code: 
   unofficial_names:
   - Ryanggang
-  translations:
-    en: Yanggang-do
   geo:
     latitude: 41.2318921
     longitude: 128.5076359
@@ -185,8 +211,20 @@ YAN:
     min_longitude: 126.902531
     max_latitude: 42.095005
     max_longitude: 129.050376
-  name: Yanggang-do
-'01':
+  translations:
+    en: Yanggang-do
+  comments: 
+'01': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     af: Pjongjang
     am: ፕዮንግያንግ
@@ -251,7 +289,36 @@ YAN:
     ur: پیانگ یانگ
     vi: Bình Nhưỡng
     zh: 平壤
-'02':
+    cy: P’yŏngyang
+    ceb: Pyongyang (lalawigan)
+    sr_Latn: Pjongjang
+    yue_Hans: 平壤
+    jv: Pyongyang
+    sq: Pjongian
+    ccp: "\U0001111B\U00011128\U00011120\U00011127\U00011101\U00011103\U00011128\U00011120\U00011127\U00011101"
+    ga: Pyongyang
+    ky: Пхеньян
+    km: ព្យុងយ៉ាង
+    pa: ਪਿਓਂਗਯਾਂਗ
+    kk: Пхеньян
+    yue: 平壤
+    my: ပြုံယမ်းမြို့
+    yo: Pyongyang
+    uz: Pxenyan
+    bs: Pjongjang
+    mk: Пјонгјанг
+  comments: 
+'02': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة بيونغان الجنوبية
     bg: Южен Пхьонан
@@ -293,7 +360,25 @@ YAN:
     uk: Південна провінція Пхьонан
     ur: جنوبی پیونگان صوبہ
     vi: Pyongan Nam
-'03':
+    lv: Phjonannamdo province
+    ceb: P’yŏngan-namdo
+    zh: 平安南道
+    yue_Hans: 平安南道
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U00011128\U00011120\U00011127\U00011101\U00011109\U0001111A\U00011134"
+    eu: Hego Pyongan
+    yue: 平安南道
+  comments: 
+'03': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: بيونغان الشمالية
     bg: Северен Пхьонан
@@ -335,7 +420,26 @@ YAN:
     uk: Північна провінція Пхьонан
     ur: شمالی پیونگان صوبہ
     vi: Pyongan Bắc
-'04':
+    lv: Phjonanpukto province
+    ceb: P’yŏngan-bukto
+    zh: 平安北道
+    yue_Hans: 平安北道
+    ccp: "\U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111B\U00011128\U00011120\U00011127\U00011101\U00011109\U0001111A\U00011134"
+    eu: Ipar Pyongan
+    yue: 平安北道
+  comments: 
+'04': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: تشاغانغ
     bg: Чаган
@@ -376,7 +480,27 @@ YAN:
     uk: Провінція Чаган
     ur: چانگانگ صوبہ
     vi: Chagang
-'05':
+    lv: Čagando province
+    cy: Talaith Chagang
+    ceb: Chagang-do
+    zh: 慈江道
+    yue_Hans: 慈江
+    ccp: "\U00011107\U00011109\U00011133\U00011120\U0001110B\U00011134"
+    ro: Provincia Chagang
+    eu: Chagang
+    yue: 慈江
+  comments: 
+'05': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: جنوب مقاطعة هوانغاي
     bg: Южен Хванхе
@@ -417,7 +541,26 @@ YAN:
     uk: Південна провінція Хванхе
     ur: جنوبی ہوانگہائے صوبہ
     vi: Hwanghae Nam
-'06':
+    lv: Hvanhenamdo province
+    ceb: Hwanghae-namdo
+    zh: 黄海南道
+    yue_Hans: 黄海南道
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011126\U00011127\U00011105\U0001112A\U0001111A\U00011134\U0001110A"
+    ro: Provincia Hwanghae de Sud
+    eu: Hego Hwanghae
+    yue: 黃海南道
+  comments: 
+'06': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: هوانغهاي الشمالية
     bg: Северен Хванхе
@@ -458,7 +601,27 @@ YAN:
     uk: Північна провінція Хванхе
     ur: شمالی ہوانگہائے صوبہ
     vi: Hwanghae Bắc
-'07':
+    lv: Hvanhepukto province
+    ceb: Hwanghae-bukto
+    zh: 黄海北道
+    yue_Hans: 黄海北道
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011126\U00011127\U00011105\U0001112A\U0001111A\U00011134\U0001110A"
+    ro: Provincia Hwanghae de Nord
+    eu: Ipar Hwanghae
+    yue: 黃海北道
+  comments: 
+'07': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة كانغوون
     bg: Кануън
@@ -501,7 +664,25 @@ YAN:
     uk: Провінція Канвон
     ur: کانگوون صوبہ
     vi: Kangwon
-'08':
+    lv: Kanvondo province
+    ceb: Kangwŏn-do
+    zh: 江原道
+    yue_Hans: 江原道
+    ccp: "\U00011107\U00011127\U00011101\U00011124\U0001111A\U00011134"
+    eu: Kangwon
+    yue: 江原道
+  comments: 
+'08': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: محافظة هامغيونغ الجنوبية
     bg: Южен Хамгьон
@@ -544,7 +725,25 @@ YAN:
     uk: Південна провінція Хамгьон
     ur: جنوبی ہامگیونگ صوبہ
     vi: Hamgyong Nam
-'09':
+    lv: Hamgjonnamdo province
+    ceb: Hamnam
+    zh: 咸镜南道
+    yue_Hans: 咸镜南道
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011126\U0001111F\U00011134\U0001110E\U00011128\U00011120\U00011127\U00011101"
+    eu: Hego Hamgyong
+    yue: 咸鏡南道
+  comments: 
+'09': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: منطقة شمال هامغيونغ
     bg: Северен Хамгьон
@@ -576,7 +775,29 @@ YAN:
     uk: Північна провінція Хамгьон
     ur: شمالی ہامگیونگ صوبہ
     vi: Hamgyong Bắc
-'10':
+    cy: Talaith Gogledd Hamgyong
+    ceb: Hambuk
+    zh: 咸镜北道
+    yue_Hans: 咸镜北道
+    ccp: "\U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011126\U0001111F\U00011134\U0001110E\U00011128\U00011120\U00011127\U00011101"
+    ro: Provincia Hamgyong de Nord
+    eu: Ipar Hamgyong
+    yue: 咸鏡北道
+    az: Hamqyon-Pukto
+    be: Хамгён-Пукта
+  comments: 
+'10': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: مقاطعة ريانغانغ
     bg: Рянган
@@ -618,7 +839,26 @@ YAN:
     uk: Провінція Янган
     ur: ریانگگانگ صوبہ
     vi: Ryanggang
-'13':
+    lv: Rjangando province
+    cy: Talaith Ryanggang
+    ceb: Yanggang-do
+    zh: 两江道
+    yue_Hans: 两江道
+    ccp: "\U00011122\U00011128\U00011120\U00011101\U00011109\U00011127\U00011101"
+    eu: Ryanggang
+    yue: 兩江道
+  comments: 
+'13': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
   translations:
     ar: راسون
     bg: Расън
@@ -660,3 +900,57 @@ YAN:
     uk: Насон
     ur: راسون
     vi: Rason
+    lv: Rasona
+    ceb: Rason
+    zh: 羅先特別市
+    yue_Hans: 罗先
+    ccp: "\U00011122\U00011125\U00011127\U0001111A\U00011134"
+    ga: Rason
+    yue: 羅先
+    az: Rason
+  comments: 
+'14': 
+  name: 
+  code: 
+  unofficial_names: 
+  geo: 
+  translations:
+    ceb: Namp’o
+    ms: Nampo
+    ar: نامبو
+    tr: Nampo
+    lt: Nampo
+    vi: Nampho
+    ur: نامپو
+    nl: Namp’o
+    zh: 南浦特別市
+    fa: نامپو
+    pl: Namp’o
+    sw: Nampho
+    yue_Hans: 南浦特别市
+    sv: Nampo
+    ja: 南浦特別市
+    en: Nampho
+    ru: Нампхо
+    fr: Nampo
+    ko: 남포특별시
+    es: Namp’o
+    da: Nampho
+    fi: Namp’o
+    hu: Nampho
+    ro: Namp’o
+    he: נאמפו
+    eu: Nampo
+    pt: Nampo
+    et: Namp’o
+    de: Namp’o
+    it: Namp’o
+    uk: Нампхо
+    cs: Nampcho
+    yue: 南浦特別市
+    az: Nampxo
+    nb: Nampo
+    mn: Нампу
+    ca: Namp’o
+    th: นัมโพ
+  comments: 

@@ -1,6 +1,15 @@
 ---
-'01':
+'01': 
+  name: Ville de Kigali
+  code: 
   unofficial_names: Ville de Kigali
+  geo:
+    latitude: -1.943889
+    longitude: 30.059444
+    min_latitude: -2.0237232
+    min_longitude: 30.0249481
+    max_latitude: -1.8858746
+    max_longitude: 30.1841457
   translations:
     en: Kigali
     af: Kigali
@@ -59,16 +68,36 @@
     ur: کیگالی
     vi: Kigali
     zh: 吉佳利
-  geo:
-    latitude: -1.943889
-    longitude: 30.059444
-    min_latitude: -2.0237232
-    min_longitude: 30.0249481
-    max_latitude: -1.8858746
-    max_longitude: 30.1841457
-  name: Ville de Kigali
-'02':
+    cy: Kigali
+    ceb: Kigali
+    sr_Latn: Kigali
+    yue_Hans: 基加利
+    jv: Kigali
+    sq: Kigali
+    ccp: "\U00011107\U00011128\U00011109\U00011123\U00011128"
+    ga: Kigali
+    ky: Кигали
+    ha: Kigali
+    so: Kigali
+    pa: ਕਿਗਾਲੀ
+    ml: കിഗാലി
+    yue: 基加利
+    yo: Kigali
+    uz: Kigali
+    bs: Kigali
+    mk: Кигали
+  comments: 
+'02': 
+  name: Est
+  code: 
   unofficial_names: Est
+  geo:
+    latitude: -1.9174872
+    longitude: 30.4357631
+    min_latitude: -2.4370115
+    min_longitude: 29.957893
+    max_latitude: -1.0534809
+    max_longitude: 30.895958
   translations:
     en: Eastern
     ar: المحافظة الشرقية، رواندا
@@ -112,16 +141,24 @@
     uk: Східна провінція
     ur: مشرقی صوبہ، روانڈا
     vi: Tỉnh Miền Đông
-  geo:
-    latitude: -1.9174872
-    longitude: 30.4357631
-    min_latitude: -2.4370115
-    min_longitude: 29.957893
-    max_latitude: -1.0534809
-    max_longitude: 30.895958
-  name: Est
-'03':
+    lv: Austrumu province
+    ceb: Eastern Province
+    zh: 东部省
+    sw: Mkoa wa Mashariki
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    mk: Источна покраина
+  comments: 
+'03': 
+  name: Nord
+  code: 
   unofficial_names: Nord
+  geo:
+    latitude: -1.656166
+    longitude: 29.8815203
+    min_latitude: -1.9085041
+    min_longitude: 29.454336
+    max_latitude: -1.3148709
+    max_longitude: 30.274553
   translations:
     en: Northern
     ar: المقاطعة الشمالية
@@ -163,16 +200,25 @@
     uk: Північна провінція
     ur: شمالی صوبہ، روانڈا
     vi: Tỉnh Phía Bắc
-  geo:
-    latitude: -1.656166
-    longitude: 29.8815203
-    min_latitude: -1.9085041
-    min_longitude: 29.454336
-    max_latitude: -1.3148709
-    max_longitude: 30.274553
-  name: Nord
-'04':
+    lv: Ziemeļu province
+    ceb: Northern Province (lalawigan sa Rwanda)
+    zh: 北部省
+    sw: Mkoa wa Kaskazini
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ca: Província del Nord
+    mk: Северна покраина
+  comments: 
+'04': 
+  name: Ouest
+  code: 
   unofficial_names: Ouest
+  geo:
+    latitude: -2.07649
+    longitude: 29.3250347
+    min_latitude: -2.749662
+    min_longitude: 28.856794
+    max_latitude: -1.501001
+    max_longitude: 29.671675
   translations:
     en: Western
     ar: المحافظة الغربية
@@ -214,16 +260,25 @@
     uk: Західна провінція
     ur: مغربی صوبہ، روانڈا
     vi: Tỉnh Phía Tây
-  geo:
-    latitude: -2.07649
-    longitude: 29.3250347
-    min_latitude: -2.749662
-    min_longitude: 28.856794
-    max_latitude: -1.501001
-    max_longitude: 29.671675
-  name: Ouest
-'05':
+    lv: Rietumu province
+    ceb: Western Province
+    zh: 西部省
+    sw: Mkoa wa Magharibi
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ca: Província de l’Oest
+    mk: Западна покраина
+  comments: 
+'05': 
+  name: Sud
+  code: 
   unofficial_names: Sud
+  geo:
+    latitude: -2.5546618
+    longitude: 29.6035495
+    min_latitude: -2.840679
+    min_longitude: 29.26116
+    max_latitude: -1.7338349
+    max_longitude: 30.0145421
   translations:
     en: Southern
     ar: المحافظة الجنوبية، رواندا
@@ -266,11 +321,11 @@
     uk: Південна провінція
     ur: جنوبی صوبہ، روانڈا
     vi: Tỉnh Miền Nam
-  geo:
-    latitude: -2.5546618
-    longitude: 29.6035495
-    min_latitude: -2.840679
-    min_longitude: 29.26116
-    max_latitude: -1.7338349
-    max_longitude: 30.0145421
-  name: Sud
+    lv: Dienvidu province
+    ceb: Southern Province
+    zh: 南部省
+    sw: Mkoa wa Kusini
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ca: Província del Sud
+    mk: Јужна покраина
+  comments: 

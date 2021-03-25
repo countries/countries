@@ -1,8 +1,8 @@
 ---
-AA:
+AA: 
+  name: Armed Forces Americas
+  code: 
   unofficial_names: Armed Forces Americas
-  translations:
-    en: Armed Forces Americas
   geo:
     latitude: 33.8934985
     longitude: -117.2732567
@@ -10,11 +10,13 @@ AA:
     min_longitude: -117.2985014
     max_latitude: 33.9460679
     max_longitude: -117.2498013
-  name: Armed Forces Americas
-AE:
-  unofficial_names: Armed Forces Europe
   translations:
-    en: Armed Forces Europe
+    en: Armed Forces Americas
+  comments: 
+AE: 
+  name: Armed Forces Europe
+  code: 
+  unofficial_names: Armed Forces Europe
   geo:
     latitude: 59.90441850000001
     longitude: 10.7408094
@@ -22,9 +24,20 @@ AE:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Armed Forces Europe
-AK:
+  translations:
+    en: Armed Forces Europe
+  comments: 
+AK: 
+  name: Alaska
+  code: 
   unofficial_names: Alaska
+  geo:
+    latitude: 64.2008413
+    longitude: -149.4936733
+    min_latitude: 51.214766
+    min_longitude: 172.4445167
+    max_latitude: 71.3868712
+    max_longitude: -129.9945562
   translations:
     en: Alaska
     af: Alaska
@@ -88,16 +101,39 @@ AK:
     ur: الاسکا
     vi: Alaska
     zh: 阿拉斯加州
-  geo:
-    latitude: 64.2008413
-    longitude: -149.4936733
-    min_latitude: 51.214766
-    min_longitude: 172.4445167
-    max_latitude: 71.3868712
-    max_longitude: -129.9945562
-  name: Alaska
-AL:
+    cy: Alaska
+    ceb: Alaska
+    sr_Latn: Aljaska
+    yue_Hans: 阿拉斯加州
+    jv: Alaska
+    sq: Alaska
+    ccp: "\U00011103\U00011123\U0001110C\U00011134\U00011107"
+    sd: الاسڪا
+    ga: Alasca
+    ig: Àláskà
+    ky: Аляска
+    ha: Alaska
+    so: Alaska
+    pa: ਅਲਾਸਕਾ
+    kk: Аляска штаты
+    yue: 阿拉斯加州
+    my: အလက်စကာပြည်နယ်
+    yo: Alaska
+    uz: Alyaska
+    bs: Alaska
+    mk: Алјаска
+  comments: 
+AL: 
+  name: Alabama
+  code: 
   unofficial_names: Alabama
+  geo:
+    latitude: 32.3182314
+    longitude: -86.902298
+    min_latitude: 30.1941334
+    min_longitude: -88.4732269
+    max_latitude: 35.007889
+    max_longitude: -84.888246
   translations:
     en: Alabama
     af: Alabama
@@ -160,18 +196,32 @@ AL:
     ur: الاباما
     vi: Alabama
     zh: 亚拉巴马州
-  geo:
-    latitude: 32.3182314
-    longitude: -86.902298
-    min_latitude: 30.1941334
-    min_longitude: -88.4732269
-    max_latitude: 35.007889
-    max_longitude: -84.888246
-  name: Alabama
-AP:
+    cy: Alabama
+    ceb: Alabama
+    yo_BJ: Ìpínlɛ̀ Alabama
+    sr_Latn: Alabama
+    yue_Hans: 阿拉巴马州
+    jv: Alabama
+    sq: Alabama
+    ccp: "\U00011103\U00011123\U0001111D\U0001111F"
+    sd: الاباما
+    ga: Alabama
+    ig: Alabama
+    ha: Alabama
+    so: Alabama
+    pa: ਅਲਾਬਾਮਾ
+    kk: Алабама
+    yue: 阿拉巴馬州
+    my: အလာဘားမားပြည်နယ်
+    yo: Ìpínlẹ̀ Alabama
+    uz: Alabama
+    bs: Alabama
+    mk: Алабама
+  comments: 
+AP: 
+  name: Armed Forces Pacific
+  code: 
   unofficial_names: Armed Forces Pacific
-  translations:
-    en: Armed Forces Pacific
   geo:
     latitude: 
     longitude: 
@@ -179,9 +229,20 @@ AP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  name: Armed Forces Pacific
-AR:
+  translations:
+    en: Armed Forces Pacific
+  comments: 
+AR: 
+  name: Arkansas
+  code: 
   unofficial_names: Arkansas
+  geo:
+    latitude: 35.20105
+    longitude: -91.8318334
+    min_latitude: 33.0041059
+    min_longitude: -94.61791900000001
+    max_latitude: 36.4997491
+    max_longitude: -89.64483790000001
   translations:
     en: Arkansas
     af: Arkansas
@@ -243,18 +304,31 @@ AR:
     ur: آرکنساس
     vi: Arkansas
     zh: 阿肯色州
-  geo:
-    latitude: 35.20105
-    longitude: -91.8318334
-    min_latitude: 33.0041059
-    min_longitude: -94.61791900000001
-    max_latitude: 36.4997491
-    max_longitude: -89.64483790000001
-  name: Arkansas
-AS:
+    cy: Arkansas
+    ceb: Arkansas
+    sr_Latn: Arkanzas
+    yue_Hans: 阿肯色州
+    jv: Arkansas
+    sq: Arkansas
+    ccp: "\U00011103\U00011122\U00011134\U00011107\U0001111A\U00011134\U00011125\U0001110C\U00011134"
+    sd: ارڪنساس
+    ga: Arkansas
+    ig: Arkinsọ
+    ha: Arkansas
+    so: Arkansas
+    pa: ਆਰਕੰਸਾ
+    kk: Арканзас
+    yue: 阿肯色州
+    my: အာကင်ဆောပြည်နယ်
+    yo: Arkansas
+    uz: Arkanzas
+    bs: Arkansas
+    mk: Арканзас
+  comments: 
+AS: 
+  name: American Samoa
+  code: 
   unofficial_names: American Samoa
-  translations:
-    en: American Samoa
   geo:
     latitude: 21.3239718
     longitude: -157.876498
@@ -262,10 +336,22 @@ AS:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: American Samoa
+    ccp: "\U00011103\U0001111F\U0001112C\U00011122\U00011128\U00011107\U0001111A\U00011134
+      \U00011125\U0001112A\U0001111F\U0001112E\U00011120"
   comments: see also separate entry under AS
-  name: American Samoa
-AZ:
+AZ: 
+  name: Arizona
+  code: 
   unofficial_names: Arizona
+  geo:
+    latitude: 34.0489281
+    longitude: -111.0937311
+    min_latitude: 31.3321771
+    min_longitude: -114.8165909
+    max_latitude: 37.0042599
+    max_longitude: -109.0452231
   translations:
     en: Arizona
     af: Arizona
@@ -328,16 +414,38 @@ AZ:
     vi: Arizona
     zh: 亞利桑那州
     zu: Arizona
-  geo:
-    latitude: 34.0489281
-    longitude: -111.0937311
-    min_latitude: 31.3321771
-    min_longitude: -114.8165909
-    max_latitude: 37.0042599
-    max_longitude: -109.0452231
-  name: Arizona
-CA:
+    cy: Arizona
+    ceb: Arizona
+    sr_Latn: Arizona
+    yue_Hans: 亚利桑拿州
+    jv: Arizona
+    sq: Arizona
+    ccp: "\U00011103\U0001112C\U00011122\U00011128\U0001110E\U0001112E\U0001111A"
+    sd: ايرزونا
+    ga: Arizona
+    ig: Arizona
+    ha: Arizona
+    so: Arizona
+    pa: ਐਰੀਜ਼ੋਨਾ
+    kk: Аризона
+    yue: 亞利桑拿州
+    my: အရီဇိုးနားပြည်နယ်
+    yo: Arizona
+    uz: Arizona
+    bs: Arizona
+    mk: Аризона
+  comments: 
+CA: 
+  name: California
+  code: 
   unofficial_names: California
+  geo:
+    latitude: 36.778261
+    longitude: -119.4179324
+    min_latitude: 32.5342321
+    min_longitude: -124.4096196
+    max_latitude: 42.0095169
+    max_longitude: -114.131211
   translations:
     en: California
     af: Kalifornië
@@ -401,16 +509,42 @@ CA:
     ur: کیلی فورنیا
     vi: California
     zh: 加利福尼亚州
-  geo:
-    latitude: 36.778261
-    longitude: -119.4179324
-    min_latitude: 32.5342321
-    min_longitude: -124.4096196
-    max_latitude: 42.0095169
-    max_longitude: -114.131211
-  name: California
-CO:
+    cy: Califfornia
+    ceb: California
+    yo_BJ: Kalifɔ́rníà
+    sr_Latn: Kalifornija
+    yue_Hans: 加利福尼亚州
+    jv: California
+    sq: Kaliforni
+    ccp: "\U00011107\U00011133\U00011120\U00011123\U00011128\U0001111C\U0001112E\U00011122\U00011134\U0001111A\U00011128\U00011120"
+    sd: ڪيليفورنيا
+    ga: California
+    ig: California
+    ky: Калифорния
+    ha: California
+    km: កាលីហ្វញ៉ា
+    so: Kalifornia
+    pa: ਕੈਲੀਫ਼ੋਰਨੀਆ
+    kk: Калифорния
+    yue: 加利福尼亞州
+    my: ကယ်လီဖိုးနီးယားပြည်နယ်
+    yo: Kalifọ́rníà
+    zu: California
+    uz: Kaliforniya
+    bs: Kalifornija
+    mk: Калифорнија
+  comments: 
+CO: 
+  name: Colorado
+  code: 
   unofficial_names: Colorado
+  geo:
+    latitude: 39.5500507
+    longitude: -105.7820674
+    min_latitude: 36.992424
+    min_longitude: -109.060256
+    max_latitude: 41.0034439
+    max_longitude: -102.040878
   translations:
     en: Colorado
     af: Colorado
@@ -473,16 +607,38 @@ CO:
     ur: کولوراڈو
     vi: Colorado
     zh: 科羅拉多州
-  geo:
-    latitude: 39.5500507
-    longitude: -105.7820674
-    min_latitude: 36.992424
-    min_longitude: -109.060256
-    max_latitude: 41.0034439
-    max_longitude: -102.040878
-  name: Colorado
-CT:
+    cy: Colorado
+    ceb: Colorado
+    sr_Latn: Kolorado
+    yue_Hans: 科罗拉多州
+    jv: Colorado
+    sq: Colorado
+    ccp: "\U00011107\U00011127\U00011123\U00011127\U00011122\U00011113\U0001112E"
+    sd: ڪولراڊو
+    ga: Colorado
+    ig: Colorado
+    ha: Colorado
+    pa: ਕੋਲੋਰਾਡੋ
+    kk: Колорадо
+    yue: 科羅拉多州
+    my: ကော်လိုရာဒိုပြည်နယ်
+    yo: Colorado
+    zu: Colorado
+    uz: Kolorado
+    bs: Colorado
+    mk: Колорадо
+  comments: 
+CT: 
+  name: Connecticut
+  code: 
   unofficial_names: Connecticut
+  geo:
+    latitude: 41.6032207
+    longitude: -73.087749
+    min_latitude: 40.9869801
+    min_longitude: -73.727775
+    max_latitude: 42.050587
+    max_longitude: -71.787239
   translations:
     en: Connecticut
     af: Connecticut
@@ -544,16 +700,36 @@ CT:
     ur: کنیکٹیکٹ
     vi: Connecticut
     zh: 康乃狄克州
-  geo:
-    latitude: 41.6032207
-    longitude: -73.087749
-    min_latitude: 40.9869801
-    min_longitude: -73.727775
-    max_latitude: 42.050587
-    max_longitude: -71.787239
-  name: Connecticut
-DC:
+    cy: Connecticut
+    ceb: Connecticut
+    sr_Latn: Konektikat
+    yue_Hans: 康湼狄格州
+    jv: Connecticut
+    sq: Connecticut
+    ccp: "\U00011107\U0001111A\U0001112C\U00011107\U00011134\U00011111\U00011128\U00011107\U0001112A\U00011116\U00011134"
+    ga: Connecticut
+    ig: Kónétíkùt
+    ha: Connecticut
+    pa: ਕਨੈਟੀਕਟ
+    kk: Коннектикут
+    yue: 康湼狄格州
+    yo: Connecticut
+    zu: Connecticut
+    uz: Konnektikut
+    bs: Connecticut
+    mk: Конектикат
+  comments: 
+DC: 
+  name: District of Columbia
+  code: 
   unofficial_names: District of Columbia
+  geo:
+    latitude: 38.9071923
+    longitude: -77.0368707
+    min_latitude: 38.8031495
+    min_longitude: -77.11974
+    max_latitude: 38.995548
+    max_longitude: -76.909393
   translations:
     en: Washington DC
     af: Washington
@@ -617,16 +793,23 @@ DC:
     ur: واشنگٹن ڈی سی
     vi: Washington
     zh: 華盛頓哥倫比亞特區
-  geo:
-    latitude: 38.9071923
-    longitude: -77.0368707
-    min_latitude: 38.8031495
-    min_longitude: -77.11974
-    max_latitude: 38.995548
-    max_longitude: -76.909393
-  name: District of Columbia
-DE:
+    ceb: District of Columbia
+    sr_Latn: Vašington
+    ccp: "\U00011124\U00011125\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134
+      \U00011113\U00011128\U00011125\U00011128"
+    uz: Kolumbiya okrugi
+  comments: 
+DE: 
+  name: Delaware
+  code: 
   unofficial_names: Delaware
+  geo:
+    latitude: 38.9108325
+    longitude: -75.52766989999999
+    min_latitude: 38.451018
+    min_longitude: -75.78914790000002
+    max_latitude: 39.8394839
+    max_longitude: -75.04869339999999
   translations:
     en: Delaware
     af: Delaware
@@ -688,16 +871,36 @@ DE:
     ur: ڈیلاویئر
     vi: Delaware
     zh: 特拉华州
-  geo:
-    latitude: 38.9108325
-    longitude: -75.52766989999999
-    min_latitude: 38.451018
-    min_longitude: -75.78914790000002
-    max_latitude: 39.8394839
-    max_longitude: -75.04869339999999
-  name: Delaware
-FL:
+    cy: Delaware
+    ceb: Delaware (estado)
+    sr_Latn: Delaver
+    yue_Hans: 特拉华州
+    jv: Delaware
+    sq: Delaware
+    ccp: "\U00011113\U0001112C\U00011123\U00011134\U00011124\U00011122\U00011134"
+    ga: Delaware
+    ig: Déláwè
+    ha: Delaware
+    pa: ਡੇਲਾਵੇਅਰ
+    kk: Делавэр
+    yue: 特拉華州
+    my: ဒယ်လာဝဲပြည်နယ်
+    yo: Delaware
+    uz: Delaver
+    bs: Delaware
+    mk: Делавер
+  comments: 
+FL: 
+  name: Florida
+  code: 
   unofficial_names: Florida
+  geo:
+    latitude: 27.6648274
+    longitude: -81.5157535
+    min_latitude: 24.5210795
+    min_longitude: -87.634896
+    max_latitude: 31.000968
+    max_longitude: -80.0311371
   translations:
     en: Florida
     af: Florida
@@ -760,16 +963,38 @@ FL:
     ur: فلوریڈا
     vi: Florida
     zh: 佛罗里达州
-  geo:
-    latitude: 27.6648274
-    longitude: -81.5157535
-    min_latitude: 24.5210795
-    min_longitude: -87.634896
-    max_latitude: 31.000968
-    max_longitude: -80.0311371
-  name: Florida
-GA:
+    cy: Florida
+    ceb: Florida
+    sr_Latn: Florida
+    yue_Hans: 科利打省
+    jv: Florida
+    sq: Florida
+    ccp: "\U0001111C\U00011133\U00011123\U0001112E\U00011122\U00011128\U00011113"
+    ga: Florida
+    ig: Flórídạ
+    ha: Florida
+    so: Florida
+    pa: ਫ਼ਲੌਰਿਡਾ
+    kk: Флорида
+    yue: 科利打省
+    my: ဖလော်ရီဒါပြည်နယ်
+    yo: Florida
+    zu: Florida
+    uz: Florida
+    bs: Florida
+    mk: Флорида
+  comments: 
+GA: 
+  name: Georgia
+  code: 
   unofficial_names: Georgia
+  geo:
+    latitude: 32.1656221
+    longitude: -82.9000751
+    min_latitude: 30.3555908
+    min_longitude: -85.6051649
+    max_latitude: 35.0006589
+    max_longitude: -80.8407866
   translations:
     en: Georgia
     af: Georgia
@@ -831,18 +1056,31 @@ GA:
     ur: ریاست جارجیا
     vi: Georgia
     zh: 喬治亞州
-  geo:
-    latitude: 32.1656221
-    longitude: -82.9000751
-    min_latitude: 30.3555908
-    min_longitude: -85.6051649
-    max_latitude: 35.0006589
-    max_longitude: -80.8407866
-  name: Georgia
-GU:
+    cy: Georgia
+    ceb: Georgia
+    yo_BJ: Ìpínlɛ̀ Georgia
+    sr_Latn: Džordžija
+    yue_Hans: 乔治亚州
+    jv: Georgia
+    sq: Georgia
+    ccp: "\U0001110E\U00011127\U00011122\U00011134\U0001110E\U00011128\U00011120"
+    ga: Georgia
+    ig: Jorjiạ
+    ky: Жоржия
+    pa: ਜਾਰਜੀਆ
+    kk: Джорджия
+    yue: 喬治亞州
+    my: ဂျော်ဂျီယာပြည်နယ်
+    yo: Ìpínlẹ̀ Georgia
+    uz: Jorjiya
+    bs: Georgia
+    mk: Џорџија
+    tk: Jorjiýa
+  comments: 
+GU: 
+  name: Guam
+  code: 
   unofficial_names: Guam
-  translations:
-    en: Guam
   geo:
     latitude: 36.90194
     longitude: -89.82361
@@ -850,10 +1088,21 @@ GU:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Guam
+    ccp: "\U00011109\U0001112A\U00011120\U0001111F\U00011134"
   comments: see also separate entry under GU
-  name: Guam
-HI:
+HI: 
+  name: Hawaii
+  code: 
   unofficial_names: Hawaii
+  geo:
+    latitude: 19.8967662
+    longitude: -155.5827818
+    min_latitude: 18.9108109
+    min_longitude: -178.3059168
+    max_latitude: 28.4014611
+    max_longitude: -154.8067783
   translations:
     en: Hawaii
     af: Hawaii
@@ -916,16 +1165,39 @@ HI:
     ur: ہوائی
     vi: Hawaii
     zh: 夏威夷州
-  geo:
-    latitude: 19.8967662
-    longitude: -155.5827818
-    min_latitude: 18.9108109
-    min_longitude: -178.3059168
-    max_latitude: 28.4014611
-    max_longitude: -154.8067783
-  name: Hawaii
-IA:
+    cy: Hawaii
+    ceb: Hawaii
+    sr_Latn: Havaji
+    yue_Hans: 夏威夷州
+    jv: Hawaii
+    sq: Hawaii
+    ccp: "\U00011126\U00011127\U00011124\U00011103\U00011129"
+    ga: Haváí
+    ig: Hawaii
+    ky: Гавайи
+    ha: Hawaii
+    so: Hawaay
+    pa: ਹਵਾਈ
+    kk: Гавайи
+    yue: 夏威夷州
+    my: ဟာဝိုင်ယီပြည်နယ်
+    yo: Hawaii
+    zu: Hawaii
+    uz: Gavayi
+    bs: Hawaii
+    mk: Хаваи
+  comments: 
+IA: 
+  name: Iowa
+  code: 
   unofficial_names: Iowa
+  geo:
+    latitude: 41.8780025
+    longitude: -93.097702
+    min_latitude: 40.375437
+    min_longitude: -96.639535
+    max_latitude: 43.5011961
+    max_longitude: -90.1400609
   translations:
     en: Iowa
     af: Iowa
@@ -987,16 +1259,37 @@ IA:
     ur: آئیووا
     vi: Iowa
     zh: 艾奥瓦州
-  geo:
-    latitude: 41.8780025
-    longitude: -93.097702
-    min_latitude: 40.375437
-    min_longitude: -96.639535
-    max_latitude: 43.5011961
-    max_longitude: -90.1400609
-  name: Iowa
-ID:
+    cy: Iowa
+    ceb: Iowa
+    sr_Latn: Ajova
+    yue_Hans: 埃奥华省
+    jv: Iowa
+    sq: Iowa
+    ccp: "\U00011103\U0001112D\U00011124"
+    ga: Iowa
+    ig: Áyowạ
+    ha: Iowa
+    so: Iowa
+    pa: ਆਇਓਵਾ
+    kk: Айова
+    yue: 埃奧華省
+    my: အိုင်အိုဝါပြည်နယ်
+    yo: Iowa
+    uz: Ayova
+    bs: Iowa
+    mk: Ајова
+  comments: 
+ID: 
+  name: Idaho
+  code: 
   unofficial_names: Idaho
+  geo:
+    latitude: 44.0682019
+    longitude: -114.7420408
+    min_latitude: 41.9880051
+    min_longitude: -117.2413657
+    max_latitude: 49.0011461
+    max_longitude: -111.043495
   translations:
     en: Idaho
     af: Idaho
@@ -1058,16 +1351,36 @@ ID:
     ur: ایڈاہو
     vi: Idaho
     zh: 爱达荷州
-  geo:
-    latitude: 44.0682019
-    longitude: -114.7420408
-    min_latitude: 41.9880051
-    min_longitude: -117.2413657
-    max_latitude: 49.0011461
-    max_longitude: -111.043495
-  name: Idaho
-IL:
+    cy: Idaho
+    ceb: Idaho
+    sr_Latn: Ajdaho
+    yue_Hans: 爱达荷州
+    jv: Idaho
+    sq: Idaho
+    ccp: "\U00011103\U0001112D\U00011113\U00011126\U0001112E"
+    ga: Idaho
+    ig: Idaho
+    pa: ਆਇਡਾਹੋ
+    kk: Айдахо
+    yue: 愛達荷州
+    my: အိုင်ဒါဟိုပြည်နယ်
+    yo: Idaho
+    zu: Idaho
+    uz: Aydaho
+    bs: Idaho
+    mk: Ајдахо
+  comments: 
+IL: 
+  name: Illinois
+  code: 
   unofficial_names: Illinois
+  geo:
+    latitude: 40.6331249
+    longitude: -89.3985283
+    min_latitude: 36.970298
+    min_longitude: -91.5130789
+    max_latitude: 42.5083379
+    max_longitude: -87.4951991
   translations:
     en: Illinois
     af: Illinois
@@ -1129,16 +1442,37 @@ IL:
     ur: الینوائے
     vi: Illinois
     zh: 伊利诺伊州
-  geo:
-    latitude: 40.6331249
-    longitude: -89.3985283
-    min_latitude: 36.970298
-    min_longitude: -91.5130789
-    max_latitude: 42.5083379
-    max_longitude: -87.4951991
-  name: Illinois
-IN:
+    cy: Illinois
+    ceb: Illinois
+    sr_Latn: Ilinois
+    yue_Hans: 伊利奈省
+    jv: Illinois
+    sq: Illinois
+    ccp: "\U00011123\U00011128\U00011123\U00011133\U00011126\U00011128\U0001111A\U0001112E\U00011103\U00011128\U0001110C\U00011134"
+    ga: Illinois
+    ig: Ilinoi
+    ky: Иллинойс
+    so: Illinois
+    pa: ਇਲੀਨਾਏ
+    kk: Иллинойс
+    yue: 伊利奈省
+    my: အီလီနွိုင်းပြည်နယ်
+    yo: Illinois
+    uz: Illinoys
+    bs: Illinois
+    mk: Илиноис
+  comments: 
+IN: 
+  name: Indiana
+  code: 
   unofficial_names: Indiana
+  geo:
+    latitude: 40.2671941
+    longitude: -86.1349019
+    min_latitude: 37.7717419
+    min_longitude: -88.097892
+    max_latitude: 41.7606971
+    max_longitude: -84.784662
   translations:
     en: Indiana
     af: Indiana
@@ -1200,16 +1534,37 @@ IN:
     ur: انڈیانا
     vi: Indiana
     zh: 印第安纳州
-  geo:
-    latitude: 40.2671941
-    longitude: -86.1349019
-    min_latitude: 37.7717419
-    min_longitude: -88.097892
-    max_latitude: 41.7606971
-    max_longitude: -84.784662
-  name: Indiana
-KS:
+    cy: Indiana
+    ceb: Indiana (estado)
+    sr_Latn: Indijana
+    yue_Hans: 印第安纳州
+    jv: Indiana
+    sq: Indiana
+    ccp: "\U00011103\U00011128\U0001111A\U00011134\U00011113\U00011128\U00011120\U0001111A"
+    ga: Indiana
+    ig: Ndiánà
+    ha: Indiana
+    pa: ਇੰਡਿਆਨਾ
+    kk: Индиана
+    yue: 印第安納州
+    my: အင်ဒီယားနားပြည်နယ်
+    yo: Indiana
+    zu: Indiana
+    uz: Indiana
+    bs: Indiana
+    mk: Индијана
+  comments: 
+KS: 
+  name: Kansas
+  code: 
   unofficial_names: Kansas
+  geo:
+    latitude: 39.011902
+    longitude: -98.4842465
+    min_latitude: 36.9930159
+    min_longitude: -102.0517688
+    max_latitude: 40.0045419
+    max_longitude: -94.588387
   translations:
     en: Kansas
     af: Kansas
@@ -1271,16 +1626,35 @@ KS:
     ur: کنساس
     vi: Kansas
     zh: 堪薩斯州
-  geo:
-    latitude: 39.011902
-    longitude: -98.4842465
-    min_latitude: 36.9930159
-    min_longitude: -102.0517688
-    max_latitude: 40.0045419
-    max_longitude: -94.588387
-  name: Kansas
-KY:
+    cy: Kansas
+    ceb: Kansas
+    sr_Latn: Kanzas
+    yue_Hans: 干沙省
+    jv: Kansas
+    sq: Kansas
+    ccp: "\U00011107\U0001111A\U00011134\U00011125\U0001110C\U00011134"
+    ga: Kansas
+    ig: Kánzạs
+    pa: ਕਾਂਸਸ
+    kk: Канзас
+    yue: 干沙省
+    my: ကန်းဆပ်ပြည်နယ်
+    yo: Kansas
+    uz: Kanzas
+    bs: Kansas
+    mk: Канзас
+  comments: 
+KY: 
+  name: Kentucky
+  code: 
   unofficial_names: Kentucky
+  geo:
+    latitude: 37.8393332
+    longitude: -84.2700179
+    min_latitude: 36.4971289
+    min_longitude: -89.5715089
+    max_latitude: 39.147458
+    max_longitude: -81.9649708
   translations:
     en: Kentucky
     af: Kentucky
@@ -1342,16 +1716,35 @@ KY:
     ur: کینٹکی
     vi: Kentucky
     zh: 肯塔基州
-  geo:
-    latitude: 37.8393332
-    longitude: -84.2700179
-    min_latitude: 36.4971289
-    min_longitude: -89.5715089
-    max_latitude: 39.147458
-    max_longitude: -81.9649708
-  name: Kentucky
-LA:
+    cy: Kentucky
+    ceb: Kentucky
+    sr_Latn: Kentaki
+    yue_Hans: 肯塔基州
+    jv: Kentucky
+    sq: Kentucky
+    ccp: "\U00011107\U0001112C\U0001111A\U00011134\U00011111\U0001112A\U00011107\U00011128"
+    ga: Kentucky
+    ig: Kentórkị
+    pa: ਕਿੰਟਕੀ
+    kk: Кентукки
+    yue: 肯塔基州
+    my: ကင်တပ်ကီပြည်နယ်
+    yo: Kentucky
+    uz: Kentukki
+    bs: Kentucky
+    mk: Кентаки
+  comments: 
+LA: 
+  name: Louisiana
+  code: 
   unofficial_names: Louisiana
+  geo:
+    latitude: 30.9842977
+    longitude: -91.96233269999999
+    min_latitude: 28.9254296
+    min_longitude: -94.043352
+    max_latitude: 33.019544
+    max_longitude: -88.8162401
   translations:
     en: Louisiana
     af: Louisiana
@@ -1413,16 +1806,35 @@ LA:
     ur: لوزیانا
     vi: Louisiana
     zh: 路易斯安那州
-  geo:
-    latitude: 30.9842977
-    longitude: -91.96233269999999
-    min_latitude: 28.9254296
-    min_longitude: -94.043352
-    max_latitude: 33.019544
-    max_longitude: -88.8162401
-  name: Louisiana
-MA:
+    cy: Louisiana
+    ceb: Louisiana (estado)
+    sr_Latn: Luizijana
+    yue_Hans: 路易斯安那州
+    jv: Louisiana
+    sq: Louisiana
+    ccp: "\U00011123\U0001112D\U0001112A\U0001110E\U00011128\U00011120\U0001111A"
+    ga: Louisiana
+    ig: Luwisiánà
+    pa: ਲੂਈਜ਼ੀਆਨਾ
+    kk: Луизиана
+    yue: 路易斯安那州
+    my: လူဝီစီယားနားပြည်နယ်
+    yo: Louisiana
+    uz: Luiziana
+    bs: Louisiana
+    mk: Луизијана
+  comments: 
+MA: 
+  name: Massachusetts
+  code: 
   unofficial_names: Massachusetts
+  geo:
+    latitude: 42.4072107
+    longitude: -71.3824374
+    min_latitude: 41.2390448
+    min_longitude: -73.5081419
+    max_latitude: 42.88679
+    max_longitude: -69.92855109999999
   translations:
     en: Massachusetts
     af: Massachusetts
@@ -1484,16 +1896,38 @@ MA:
     ur: میساچوسٹس
     vi: Massachusetts
     zh: 麻薩諸塞州
-  geo:
-    latitude: 42.4072107
-    longitude: -71.3824374
-    min_latitude: 41.2390448
-    min_longitude: -73.5081419
-    max_latitude: 42.88679
-    max_longitude: -69.92855109999999
-  name: Massachusetts
-MD:
+    cy: Massachusetts
+    ceb: Massachusetts
+    sr_Latn: Masačusets
+    yue_Hans: 麻省
+    jv: Massachusetts
+    sq: Massachusetts
+    ccp: "\U0001111F\U00011125\U0001110C\U0001112A\U00011125\U0001112C\U00011116\U00011134\U0001110C\U00011134"
+    sd: مئسچوسٽس
+    ga: Massachusetts
+    ig: Másáchusẹts
+    ky: Массачусетс
+    pa: ਮੈਸਾਚੂਸਟਸ
+    kk: Массачусетс
+    yue: 麻省
+    my: မက်ဆာချူးဆက်ပြည်နယ်
+    yo: Massachusetts
+    zu: Massachusetts
+    uz: Massachusetts
+    bs: Massachusetts
+    mk: Масачусетс
+  comments: 
+MD: 
+  name: Maryland
+  code: 
   unofficial_names: Maryland
+  geo:
+    latitude: 39.0457549
+    longitude: -76.64127119999999
+    min_latitude: 37.8895135
+    min_longitude: -79.4876511
+    max_latitude: 39.723037
+    max_longitude: -75.04918119999999
   translations:
     en: Maryland
     af: Maryland
@@ -1555,16 +1989,36 @@ MD:
     ur: میری لینڈ
     vi: Maryland
     zh: 马里兰州
-  geo:
-    latitude: 39.0457549
-    longitude: -76.64127119999999
-    min_latitude: 37.8895135
-    min_longitude: -79.4876511
-    max_latitude: 39.723037
-    max_longitude: -75.04918119999999
-  name: Maryland
-ME:
+    cy: Maryland
+    ceb: Maryland (estado)
+    sr_Latn: Merilend
+    yue_Hans: 马利兰州
+    jv: Maryland
+    sq: Maryland
+    ccp: "\U0001111F\U0001112C\U00011122\U00011128\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Maryland
+    ig: Mérílạnd
+    pa: ਮੈਰੀਲੈਂਡ
+    kk: Мэриленд
+    yue: 馬利蘭州
+    my: မေရီလန်းပြည်နယ်
+    yo: Maryland
+    zu: Maryland
+    uz: Maryland
+    bs: Maryland
+    mk: Мериленд
+  comments: 
+ME: 
+  name: Maine
+  code: 
   unofficial_names: Maine
+  geo:
+    latitude: 45.253783
+    longitude: -69.4454689
+    min_latitude: 42.9747059
+    min_longitude: -71.08433409999999
+    max_latitude: 47.4596734
+    max_longitude: -66.94539720000002
   translations:
     en: Maine
     af: Maine
@@ -1626,16 +2080,35 @@ ME:
     ur: مینے
     vi: Maine
     zh: 缅因州
-  geo:
-    latitude: 45.253783
-    longitude: -69.4454689
-    min_latitude: 42.9747059
-    min_longitude: -71.08433409999999
-    max_latitude: 47.4596734
-    max_longitude: -66.94539720000002
-  name: Maine
-MI:
+    cy: Maine
+    ceb: Maine
+    sr_Latn: Mejn
+    yue_Hans: 缅因州
+    jv: Maine
+    sq: Maine
+    ccp: "\U0001111F\U0001112D\U0001111A\U0001112C"
+    ga: Maine
+    ig: Mën
+    pa: ਮੇਨ
+    kk: Мэн
+    yue: 緬因州
+    my: မိန်းပြည်နယ်
+    yo: Maine
+    uz: Meyn
+    bs: Maine
+    mk: Мејн
+  comments: 
+MI: 
+  name: Michigan
+  code: 
   unofficial_names: Michigan
+  geo:
+    latitude: 44.3148443
+    longitude: -85.60236429999999
+    min_latitude: 41.696118
+    min_longitude: -90.4181358
+    max_latitude: 48.1986461
+    max_longitude: -82.3990376
   translations:
     en: Michigan
     af: Michigan
@@ -1698,16 +2171,35 @@ MI:
     ur: مشی گن
     vi: Michigan
     zh: 密歇根州
-  geo:
-    latitude: 44.3148443
-    longitude: -85.60236429999999
-    min_latitude: 41.696118
-    min_longitude: -90.4181358
-    max_latitude: 48.1986461
-    max_longitude: -82.3990376
-  name: Michigan
-MN:
+    cy: Michigan
+    ceb: Michigan
+    sr_Latn: Mičigen
+    yue_Hans: 密芝根州
+    jv: Michigan
+    sq: Michigan
+    ccp: "\U0001111F\U00011128\U00011125\U00011128\U00011109\U0001111A\U00011134"
+    ga: Michigan
+    ig: Michigan
+    pa: ਮਿਸ਼ੀਗਨ
+    kk: Мичиган
+    yue: 密芝根州
+    my: မီချီဂန်ပြည်နယ်
+    yo: Michigan
+    uz: Michigan
+    bs: Michigan
+    mk: Мичиген
+  comments: 
+MN: 
+  name: Minnesota
+  code: 
   unofficial_names: Minnesota
+  geo:
+    latitude: 46.729553
+    longitude: -94.6858998
+    min_latitude: 43.499361
+    min_longitude: -97.23919579999999
+    max_latitude: 49.3828204
+    max_longitude: -89.49183339999999
   translations:
     en: Minnesota
     af: Minnesota
@@ -1769,16 +2261,36 @@ MN:
     ur: مینیسوٹا
     vi: Minnesota
     zh: 明尼蘇達州
-  geo:
-    latitude: 46.729553
-    longitude: -94.6858998
-    min_latitude: 43.499361
-    min_longitude: -97.23919579999999
-    max_latitude: 49.3828204
-    max_longitude: -89.49183339999999
-  name: Minnesota
-MO:
+    cy: Minnesota
+    ceb: Minnesota
+    sr_Latn: Minesota
+    yue_Hans: 明尼苏达州
+    jv: Minnesota
+    sq: Minnesota
+    ccp: "\U0001111F\U00011128\U0001111A\U0001112C\U00011125\U0001112E\U00011111"
+    ga: Minnesota
+    ig: Minésótạ
+    so: Minnesota
+    pa: ਮਿਨੇਸੋਟਾ
+    kk: Миннесота
+    yue: 明尼蘇達州
+    my: မင်နီဆိုးတားပြည်နယ်
+    yo: Minnesota
+    uz: Minnesota
+    bs: Minnesota
+    mk: Минесота
+  comments: 
+MO: 
+  name: Missouri
+  code: 
   unofficial_names: Missouri
+  geo:
+    latitude: 37.9642529
+    longitude: -91.8318334
+    min_latitude: 35.9956829
+    min_longitude: -95.774704
+    max_latitude: 40.61364
+    max_longitude: -89.09949399999999
   translations:
     en: Missouri
     af: Missouri
@@ -1840,18 +2352,29 @@ MO:
     ur: مسوری
     vi: Missouri
     zh: 密蘇里州
-  geo:
-    latitude: 37.9642529
-    longitude: -91.8318334
-    min_latitude: 35.9956829
-    min_longitude: -95.774704
-    max_latitude: 40.61364
-    max_longitude: -89.09949399999999
-  name: Missouri
-MP:
+    cy: Missouri
+    ceb: Missouri
+    yo_BJ: Ìpínlɛ̀ Missouri
+    sr_Latn: Misuri
+    yue_Hans: 美疏利省
+    jv: Missouri
+    sq: Missouri
+    ccp: "\U0001111F\U00011128\U00011125\U0001112F\U00011122\U00011128"
+    ga: Missouri
+    ig: Mizurị
+    pa: ਮਿਜ਼ੂਰੀ
+    kk: Миссури
+    yue: 美疏利省
+    my: မစ်ဆိုရီပြည်နယ်
+    yo: Ìpínlẹ̀ Missouri
+    uz: Missuri
+    bs: Missouri
+    mk: Мисури
+  comments: 
+MP: 
+  name: Northern Mariana Islands
+  code: 
   unofficial_names: Northern Mariana Islands
-  translations:
-    en: Northern Mariana Islands
   geo:
     latitude: 15.1466435
     longitude: 145.7023038
@@ -1859,10 +2382,22 @@ MP:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Northern Mariana Islands
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001111F\U0001112C\U00011122\U00011128\U00011120\U0001111A \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
   comments: see also separate entry under MP
-  name: Northern Mariana Islands
-MS:
+MS: 
+  name: Mississippi
+  code: 
   unofficial_names: Mississippi
+  geo:
+    latitude: 32.3546679
+    longitude: -89.3985283
+    min_latitude: 30.1741032
+    min_longitude: -91.6550089
+    max_latitude: 34.9961091
+    max_longitude: -88.0994303
   translations:
     en: Mississippi
     af: Mississippi
@@ -1924,16 +2459,36 @@ MS:
     ur: مسیسپی
     vi: Mississippi
     zh: 密西西比州
-  geo:
-    latitude: 32.3546679
-    longitude: -89.3985283
-    min_latitude: 30.1741032
-    min_longitude: -91.6550089
-    max_latitude: 34.9961091
-    max_longitude: -88.0994303
-  name: Mississippi
-MT:
+    cy: Mississippi
+    ceb: Mississippi
+    yo_BJ: Ìpínlɛ̀ Mississippi
+    sr_Latn: Misisipi
+    yue_Hans: 密西西比州
+    jv: Mississippi
+    sq: Mississippi
+    ccp: "\U0001111F\U00011128\U00011125\U00011128\U00011125\U00011128\U0001111B\U00011128"
+    ga: Mississippi
+    ig: Mississippi
+    pa: ਮਿਸੀਸਿੱਪੀ
+    kk: Миссисипи
+    yue: 密西西比州
+    my: မစ္စစ္စပီပြည်နယ်
+    yo: Ìpínlẹ̀ Mississippi
+    uz: Mississippi
+    bs: Mississippi
+    mk: Мисисипи
+  comments: 
+MT: 
+  name: Montana
+  code: 
   unofficial_names: Montana
+  geo:
+    latitude: 46.8796822
+    longitude: -110.3625658
+    min_latitude: 44.3582089
+    min_longitude: -116.050003
+    max_latitude: 49.00139
+    max_longitude: -104.039563
   translations:
     en: Montana
     af: Montana
@@ -1994,16 +2549,37 @@ MT:
     ur: مونٹانا
     vi: Montana
     zh: 蒙大拿州
-  geo:
-    latitude: 46.8796822
-    longitude: -110.3625658
-    min_latitude: 44.3582089
-    min_longitude: -116.050003
-    max_latitude: 49.00139
-    max_longitude: -104.039563
-  name: Montana
-NC:
+    cy: Montana
+    ceb: Montana (estado)
+    sr_Latn: Montana
+    yue_Hans: 望丹拿省
+    jv: Montana
+    sq: Montana
+    ccp: "\U0001111F\U00011127\U0001111A\U00011134\U00011111\U0001111A"
+    ga: Montana
+    ig: Montana
+    ky: Монтана
+    ha: Montana
+    pa: ਮੋਂਟਾਨਾ
+    kk: Монтана
+    yue: 望丹拿省
+    my: မွန်တားနားပြည်နယ်
+    yo: Montana
+    uz: Montana
+    bs: Montana
+    mk: Монтана
+  comments: 
+NC: 
+  name: North Carolina
+  code: 
   unofficial_names: North Carolina
+  geo:
+    latitude: 35.7595731
+    longitude: -79.01929969999999
+    min_latitude: 33.8409689
+    min_longitude: -84.32186899999999
+    max_latitude: 36.5881568
+    max_longitude: -75.4599515
   translations:
     en: North Carolina
     af: Noord-Carolina
@@ -2064,16 +2640,36 @@ NC:
     ur: شمالی کیرولینا
     vi: Bắc Carolina
     zh: 北卡罗来纳州
-  geo:
-    latitude: 35.7595731
-    longitude: -79.01929969999999
-    min_latitude: 33.8409689
-    min_longitude: -84.32186899999999
-    max_latitude: 36.5881568
-    max_longitude: -75.4599515
-  name: North Carolina
-ND:
+    cy: Gogledd Carolina
+    ceb: North Carolina
+    sr_Latn: Severna Karolina
+    yue_Hans: 北卡罗莱纳州
+    jv: North Carolina
+    sq: North Carolina
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011107\U00011133\U00011120\U00011122\U0001112E\U00011123\U00011128\U0001111A"
+    ga: Carolina Thuaidh
+    ig: Nort Kárólínạ
+    pa: ਉੱਤਰੀ ਕੈਰੋਲੀਨਾ
+    kk: Солтүстік Каролина
+    yue: 北卡羅萊納州
+    my: မြောက်ကယ်ရိုလိုင်းနားပြည်နယ်
+    yo: Àríwá Carolina
+    uz: Shimoliy Karolina
+    bs: Sjeverna Karolina
+    mk: Северна Каролина
+  comments: 
+ND: 
+  name: North Dakota
+  code: 
   unofficial_names: North Dakota
+  geo:
+    latitude: 47.5514926
+    longitude: -101.0020119
+    min_latitude: 45.9350719
+    min_longitude: -104.05004
+    max_latitude: 49.000692
+    max_longitude: -96.554491
   translations:
     en: North Dakota
     af: Noord-Dakota
@@ -2135,16 +2731,37 @@ ND:
     ur: شمالی ڈکوٹا
     vi: Bắc Dakota
     zh: 北达科他州
-  geo:
-    latitude: 47.5514926
-    longitude: -101.0020119
-    min_latitude: 45.9350719
-    min_longitude: -104.05004
-    max_latitude: 49.000692
-    max_longitude: -96.554491
-  name: North Dakota
-NE:
+    cy: Gogledd Dakota
+    ceb: North Dakota
+    sr_Latn: Severna Dakota
+    yue_Hans: 北得高打省
+    jv: North Dakota
+    sq: North Dakota
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011113\U00011107\U0001112E\U00011111"
+    ga: Dakota Thuaidh
+    ig: North Dakota
+    ha: North Dakota
+    pa: ਉੱਤਰੀ ਡਕੋਟਾ
+    kk: Солтүстік Дакота
+    yue: 北得高打省
+    my: မြောက်ဒါကိုတာပြည်နယ်
+    yo: Àríwá Dakota
+    uz: Shimoliy Dakota
+    bs: Sjeverna Dakota
+    mk: Северна Дакота
+  comments: 
+NE: 
+  name: Nebraska
+  code: 
   unofficial_names: Nebraska
+  geo:
+    latitude: 41.4925374
+    longitude: -99.9018131
+    min_latitude: 39.999932
+    min_longitude: -104.053514
+    max_latitude: 43.00170689999999
+    max_longitude: -95.30829000000001
   translations:
     en: Nebraska
     af: Nebraska
@@ -2206,16 +2823,36 @@ NE:
     ur: نیبراسکا
     vi: Nebraska
     zh: 內布拉斯加州
-  geo:
-    latitude: 41.4925374
-    longitude: -99.9018131
-    min_latitude: 39.999932
-    min_longitude: -104.053514
-    max_latitude: 43.00170689999999
-    max_longitude: -95.30829000000001
-  name: Nebraska
-NH:
+    cy: Nebraska
+    ceb: Nebraska
+    sr_Latn: Nebraska
+    yue_Hans: 内布拉斯加州
+    jv: Nebraska
+    sq: Nebraska
+    ccp: "\U0001111A\U0001112C\U0001111D\U00011133\U00011122\U0001110C\U00011134\U00011107"
+    ga: Nebraska
+    ig: Nebraska
+    ha: Nebraska
+    pa: ਨਬਰਾਸਕਾ
+    kk: Небраска
+    yue: 內布拉斯加州
+    my: နီဘရားစကားပြည်နယ်
+    yo: Nebraska
+    uz: Nebraska
+    bs: Nebraska
+    mk: Небраска
+  comments: 
+NH: 
+  name: New Hampshire
+  code: 
   unofficial_names: New Hampshire
+  geo:
+    latitude: 43.1938516
+    longitude: -71.5723953
+    min_latitude: 42.696985
+    min_longitude: -72.55718499999999
+    max_latitude: 45.3054761
+    max_longitude: -70.602656
   translations:
     en: New Hampshire
     af: New Hampshire
@@ -2277,16 +2914,36 @@ NH:
     ur: نیو ہیمپشائر
     vi: New Hampshire
     zh: 新罕布什尔州
-  geo:
-    latitude: 43.1938516
-    longitude: -71.5723953
-    min_latitude: 42.696985
-    min_longitude: -72.55718499999999
-    max_latitude: 45.3054761
-    max_longitude: -70.602656
-  name: New Hampshire
-NJ:
+    cy: New Hampshire
+    ceb: New Hampshire
+    sr_Latn: Nju Hempšir
+    yue_Hans: 纽咸西州
+    jv: New Hampshire
+    sq: New Hampshire
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011126\U0001111F\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ga: New Hampshire
+    ig: Hampshire Ohúrú
+    ky: Нью-Хемпшир
+    pa: ਨਿਊ ਹੈਂਪਸ਼ਰ
+    kk: Нью-Гэмпшир
+    yue: 紐咸西州
+    my: နယူးဟမ်ရှိုင်းယားပြည်နယ်
+    yo: New Hampshire
+    uz: Nyu-Xempshir
+    bs: New Hampshire
+    mk: Њу Хемпшир
+  comments: 
+NJ: 
+  name: New Jersey
+  code: 
   unofficial_names: New Jersey
+  geo:
+    latitude: 40.0583238
+    longitude: -74.4056612
+    min_latitude: 38.9285589
+    min_longitude: -75.5597921
+    max_latitude: 41.357423
+    max_longitude: -73.9024391
   translations:
     en: New Jersey
     af: New Jersey
@@ -2347,16 +3004,37 @@ NJ:
     ur: نیو جرسی
     vi: New Jersey
     zh: 新泽西州
-  geo:
-    latitude: 40.0583238
-    longitude: -74.4056612
-    min_latitude: 38.9285589
-    min_longitude: -75.5597921
-    max_latitude: 41.357423
-    max_longitude: -73.9024391
-  name: New Jersey
-NM:
+    cy: New Jersey
+    ceb: New Jersey
+    sr_Latn: Nju Džerzi
+    yue_Hans: 纽泽西州
+    jv: New Jersey
+    sq: New Jersey
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U0001110E\U00011122\U00011134\U00011125\U00011128"
+    ga: New Jersey
+    ig: Nú Jezị
+    ky: Нью-Джерси
+    pa: ਨਿਊ ਜਰਸੀ
+    kk: Нью-Джерси
+    yue: 紐澤西州
+    my: နယူးဂျာစီပြည်နယ်
+    yo: New Jersey
+    zu: New Jersey
+    uz: Nʼyu-Jersi
+    bs: New Jersey
+    mk: Њу Џерси
+  comments: 
+NM: 
+  name: New Mexico
+  code: 
   unofficial_names: New Mexico
+  geo:
+    latitude: 34.5199402
+    longitude: -105.8700901
+    min_latitude: 31.332172
+    min_longitude: -109.050173
+    max_latitude: 37.0002931
+    max_longitude: -103.001964
   translations:
     en: New Mexico
     af: Nieu-Meksiko
@@ -2418,16 +3096,38 @@ NM:
     ur: نیو میکسیکو
     vi: New Mexico
     zh: 新墨西哥州
-  geo:
-    latitude: 34.5199402
-    longitude: -105.8700901
-    min_latitude: 31.332172
-    min_longitude: -109.050173
-    max_latitude: 37.0002931
-    max_longitude: -103.001964
-  name: New Mexico
-NV:
+    cy: New Mexico
+    ceb: New Mexico
+    yo_BJ: Ìpínlɛ̀ Titun Mɛ́ksíkò
+    sr_Latn: Novi Meksiko
+    yue_Hans: 新墨西哥州
+    jv: New Mexico
+    sq: New Mexico
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U0001111F\U0001112C\U00011107\U00011134\U00011125\U00011128\U00011107\U0001112E"
+    ga: Nua-Mheicsiceo
+    ig: Nú Mézíkọ
+    ky: Нью-Мексико
+    ha: New Mexico
+    pa: ਨਿਊ ਮੈਕਸੀਕੋ
+    kk: Нью-Мексико
+    yue: 新墨西哥州
+    my: နယူးမက္ကဆီကိုပြည်နယ်
+    yo: Ìpínlẹ̀ Titun Mẹ́ksíkò
+    uz: Nʼyu-Meksiko
+    bs: New Mexico
+    mk: Ново Мексико
+  comments: 
+NV: 
+  name: Nevada
+  code: 
   unofficial_names: Nevada
+  geo:
+    latitude: 38.8026097
+    longitude: -116.419389
+    min_latitude: 35.001857
+    min_longitude: -120.0064729
+    max_latitude: 42.002207
+    max_longitude: -114.0396479
   translations:
     en: Nevada
     af: Nevada
@@ -2489,16 +3189,37 @@ NV:
     ur: نیواڈا
     vi: Nevada
     zh: 内华达州
-  geo:
-    latitude: 38.8026097
-    longitude: -116.419389
-    min_latitude: 35.001857
-    min_longitude: -120.0064729
-    max_latitude: 42.002207
-    max_longitude: -114.0396479
-  name: Nevada
-NY:
+    cy: Nevada
+    ceb: Nevada
+    sr_Latn: Nevada
+    yue_Hans: 内华达州
+    jv: Nevada
+    sq: Nevada
+    ccp: "\U0001111A\U0001112C\U0001111E\U00011113"
+    ga: Nevada
+    ig: Náevadạ
+    ha: Nevada
+    pa: ਨਵਾਡਾ
+    kk: Невада
+    yue: 內華達州
+    my: နီဗားဒါးပြည်နယ်
+    yo: Nevada
+    zu: Nevada
+    uz: Nevada
+    bs: Nevada
+    mk: Невада
+  comments: 
+NY: 
+  name: New York
+  code: 
   unofficial_names: New York
+  geo:
+    latitude: 43.2994285
+    longitude: -74.21793260000001
+    min_latitude: 40.4913686
+    min_longitude: -79.76214379999999
+    max_latitude: 45.015865
+    max_longitude: -71.8562755
   translations:
     en: New York
     af: New York
@@ -2566,16 +3287,39 @@ NY:
     ur: نیویارک
     vi: Tiểu bang New York
     zh: 纽约州
-  geo:
-    latitude: 43.2994285
-    longitude: -74.21793260000001
-    min_latitude: 40.4913686
-    min_longitude: -79.76214379999999
-    max_latitude: 45.015865
-    max_longitude: -71.8562755
-  name: New York
-OH:
+    cy: Efrog Newydd
+    ceb: New York
+    yo_BJ: Ìpínlɛ̀ New York
+    sr_Latn: Njujork
+    yue_Hans: 纽约州
+    jv: New York
+    sq: New York
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011103\U00011128\U00011120\U00011127\U00011122\U00011134\U00011107\U00011134"
+    ga: Nua-Eabhrac
+    ig: Nú Yọk
+    ha: New York (jiha)
+    so: New York
+    pa: ਨਿਊਯਾਰਕ
+    kk: Нью-Йорк
+    yue: 紐約州
+    my: နယူးယောက်ပြည်နယ်
+    yo: Ìpínlẹ̀ New York
+    zu: New York Isifunda
+    uz: Nyu York
+    bs: New York
+    mk: Њујорк
+  comments: 
+OH: 
+  name: Ohio
+  code: 
   unofficial_names: Ohio
+  geo:
+    latitude: 40.4172871
+    longitude: -82.90712300000001
+    min_latitude: 38.4034229
+    min_longitude: -84.8203049
+    max_latitude: 41.9773019
+    max_longitude: -80.5182
   translations:
     en: Ohio
     af: Ohio
@@ -2637,16 +3381,36 @@ OH:
     ur: اوہائیو
     vi: Ohio
     zh: 俄亥俄州
-  geo:
-    latitude: 40.4172871
-    longitude: -82.90712300000001
-    min_latitude: 38.4034229
-    min_longitude: -84.8203049
-    max_latitude: 41.9773019
-    max_longitude: -80.5182
-  name: Ohio
-OK:
+    cy: Ohio
+    ceb: Ohio
+    sr_Latn: Ohajo
+    yue_Hans: 俄亥俄州
+    jv: Ohio
+    sq: Ohio
+    ccp: "\U00011103\U0001112E\U00011126\U00011128\U00011103\U0001112E"
+    ga: Ohio
+    ig: Ohaïyo
+    ha: Ohio
+    pa: ਓਹਾਇਓ
+    kk: Огайо
+    yue: 俄亥俄州
+    my: အိုဟိုင်းယိုးပြည်နယ်
+    yo: Ohio
+    uz: Ogayo
+    bs: Ohio
+    mk: Охајо
+  comments: 
+OK: 
+  name: Oklahoma
+  code: 
   unofficial_names: Oklahoma
+  geo:
+    latitude: 35.0077519
+    longitude: -97.092877
+    min_latitude: 33.615787
+    min_longitude: -103.002455
+    max_latitude: 37.0023119
+    max_longitude: -94.430662
   translations:
     en: Oklahoma
     af: Oklahoma
@@ -2708,16 +3472,37 @@ OK:
     ur: اوکلاہوما
     vi: Oklahoma
     zh: 奧克拉荷馬州
-  geo:
-    latitude: 35.0077519
-    longitude: -97.092877
-    min_latitude: 33.615787
-    min_longitude: -103.002455
-    max_latitude: 37.0023119
-    max_longitude: -94.430662
-  name: Oklahoma
-OR:
+    cy: Oclahoma
+    ceb: Oklahoma
+    sr_Latn: Oklahoma
+    yue_Hans: 奥克拉何马州
+    jv: Oklahoma
+    sq: Oklahoma
+    ccp: "\U00011103\U00011107\U00011134\U00011123\U00011126\U0001112E\U0001111F"
+    ga: Oklahoma
+    ig: Oklahoma
+    ky: Оклахома
+    ha: Oklahoma
+    pa: ਓਕਲਾਹੋਮਾ
+    kk: Оклахома
+    yue: 奧克拉何馬州
+    my: ဥက္ကလာဟိုးမားပြည်နယ်
+    yo: Oklahoma
+    uz: Oklaxoma
+    bs: Oklahoma
+    mk: Оклахома
+  comments: 
+OR: 
+  name: Oregon
+  code: 
   unofficial_names: Oregon
+  geo:
+    latitude: 43.8041334
+    longitude: -120.5542012
+    min_latitude: 41.9917941
+    min_longitude: -124.6129365
+    max_latitude: 46.2920157
+    max_longitude: -116.463262
   translations:
     en: Oregon
     af: Oregon
@@ -2779,16 +3564,36 @@ OR:
     ur: اوریگون
     vi: Oregon
     zh: 俄勒冈州
-  geo:
-    latitude: 43.8041334
-    longitude: -120.5542012
-    min_latitude: 41.9917941
-    min_longitude: -124.6129365
-    max_latitude: 46.2920157
-    max_longitude: -116.463262
-  name: Oregon
-PA:
+    cy: Oregon
+    ceb: Oregon
+    sr_Latn: Oregon
+    yue_Hans: 柯利近省
+    jv: Oregon
+    sq: Oregon
+    ccp: "\U00011103\U00011122\U00011128\U00011109\U00011127\U0001111A\U00011134"
+    ga: Oregon
+    ig: Oregon
+    ha: Oregon
+    pa: ਔਰੇਗਨ
+    kk: Орегон
+    yue: 柯利近省
+    my: အိုရီဂွန်ပြည်နယ်
+    yo: Oregon
+    uz: Oregon
+    bs: Oregon
+    mk: Орегон
+  comments: 
+PA: 
+  name: Pennsylvania
+  code: 
   unofficial_names: Pennsylvania
+  geo:
+    latitude: 41.2033216
+    longitude: -77.1945247
+    min_latitude: 39.7197989
+    min_longitude: -80.51989499999999
+    max_latitude: 42.2693866
+    max_longitude: -74.6895018
   translations:
     en: Pennsylvania
     af: Pennsilvanië
@@ -2850,18 +3655,30 @@ PA:
     ur: پنسلوانیا
     vi: Pennsylvania
     zh: 宾夕法尼亚州
-  geo:
-    latitude: 41.2033216
-    longitude: -77.1945247
-    min_latitude: 39.7197989
-    min_longitude: -80.51989499999999
-    max_latitude: 42.2693866
-    max_longitude: -74.6895018
-  name: Pennsylvania
-PR:
+    cy: Pennsylvania
+    ceb: Pennsylvania
+    sr_Latn: Pensilvanija
+    yue_Hans: 宾夕凡尼亚州
+    jv: Pennsylvania
+    sq: Pennsylvania
+    ccp: "\U0001111B\U0001112C\U0001111A\U00011128\U0001111A\U00011134\U00011125\U00011128\U00011123\U00011134\U0001111E\U0001111A\U00011128\U00011120"
+    ga: Pennsylvania
+    ig: Pensílvéníyạ
+    ky: Пенсильвания
+    pa: ਪੈੱਨਸਿਲਵੇਨੀਆ
+    kk: Пенсильвания
+    yue: 賓夕凡尼亞州
+    my: ပင်ဆယ်ဗေးနီးယားပြည်နယ်
+    yo: Pennsylvania
+    zu: Pennsylvania
+    uz: Pennsilvaniya
+    bs: Pennsylvania
+    mk: Пенсилванија
+  comments: 
+PR: 
+  name: Puerto Rico
+  code: 
   unofficial_names: Puerto Rico
-  translations:
-    en: Puerto Rico
   geo:
     latitude: 32.7290818
     longitude: -117.1517016
@@ -2869,10 +3686,21 @@ PR:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: Puerto Rico
+    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U0001112E \U00011122\U00011128\U00011107\U0001112E"
   comments: see also separate entry under PR
-  name: Puerto Rico
-RI:
+RI: 
+  name: Rhode Island
+  code: 
   unofficial_names: Rhode Island
+  geo:
+    latitude: 41.5800945
+    longitude: -71.4774291
+    min_latitude: 41.1466563
+    min_longitude: -71.8923425
+    max_latitude: 42.0188
+    max_longitude: -71.1205471
   translations:
     en: Rhode Island
     af: Rhode Island
@@ -2934,16 +3762,36 @@ RI:
     ur: رہوڈ آئی لینڈ
     vi: Rhode Island
     zh: 羅德島州
-  geo:
-    latitude: 41.5800945
-    longitude: -71.4774291
-    min_latitude: 41.1466563
-    min_longitude: -71.8923425
-    max_latitude: 42.0188
-    max_longitude: -71.1205471
-  name: Rhode Island
-SC:
+    cy: Rhode Island
+    ceb: Rhode Island
+    yo_BJ: Erékùshù Rhode
+    sr_Latn: Roud Ajland
+    yue_Hans: 罗德岛州
+    jv: Rhode Island
+    sq: Rhode Island
+    ccp: "\U00011122\U0001112E\U00011116\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ga: Oileán Rhode
+    ig: Àlá mmírí Rhode
+    pa: ਰੋਡ ਟਾਪੂ
+    kk: Род-Айленд
+    yue: 羅德島州
+    my: ရုဒ်အိုင်းလန်းပြည်နယ်
+    yo: Erékùṣù Rhode
+    uz: Rod-Aylend
+    bs: Rhode Island
+    mk: Род Ајленд
+  comments: 
+SC: 
+  name: South Carolina
+  code: 
   unofficial_names: South Carolina
+  geo:
+    latitude: 33.836081
+    longitude: -81.1637245
+    min_latitude: 32.0345599
+    min_longitude: -83.35325879999999
+    max_latitude: 35.2155401
+    max_longitude: -78.5408175
   translations:
     en: South Carolina
     af: Suid-Carolina
@@ -3004,16 +3852,35 @@ SC:
     ur: جنوبی کیرولینا
     vi: Nam Carolina
     zh: 南卡罗来纳州
-  geo:
-    latitude: 33.836081
-    longitude: -81.1637245
-    min_latitude: 32.0345599
-    min_longitude: -83.35325879999999
-    max_latitude: 35.2155401
-    max_longitude: -78.5408175
-  name: South Carolina
-SD:
+    cy: De Carolina
+    ceb: South Carolina
+    sr_Latn: Južna Karolina
+    yue_Hans: 南卡罗莱纳州
+    jv: South Carolina
+    sq: South Carolina
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U00011133\U00011120\U00011122\U0001112E\U00011123\U00011128\U0001111A"
+    ga: Carolina Theas
+    ig: Nleda anyanwu Kàròlina
+    pa: ਦੱਖਣੀ ਕੈਰੋਲੀਨਾ
+    kk: Оңтүстік Каролина
+    yue: 南卡羅萊納州
+    my: တောင်ကယ်ရိုလိုင်းနားပြည်နယ်
+    yo: Gúúsù Carolina
+    uz: Janubiy Karolina
+    bs: Južna Karolina
+    mk: Јужна Каролина
+  comments: 
+SD: 
+  name: South Dakota
+  code: 
   unofficial_names: South Dakota
+  geo:
+    latitude: 43.9695148
+    longitude: -99.9018131
+    min_latitude: 42.479686
+    min_longitude: -104.0577391
+    max_latitude: 45.945713
+    max_longitude: -96.436589
   translations:
     en: South Dakota
     af: Suid-Dakota
@@ -3075,16 +3942,36 @@ SD:
     ur: جنوبی ڈکوٹا
     vi: Nam Dakota
     zh: 南达科他州
-  geo:
-    latitude: 43.9695148
-    longitude: -99.9018131
-    min_latitude: 42.479686
-    min_longitude: -104.0577391
-    max_latitude: 45.945713
-    max_longitude: -96.436589
-  name: South Dakota
-TN:
+    cy: De Dakota
+    ceb: South Dakota
+    sr_Latn: Južna Dakota
+    yue_Hans: 南达科他州
+    jv: South Dakota
+    sq: South Dakota
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011113\U00011107\U0001112E\U00011111"
+    ga: Dakota Theas
+    ig: Sawt Dakótạ
+    ha: South Dakota
+    pa: ਦੱਖਣੀ ਡਕੋਟਾ
+    kk: Оңтүстік Дакота
+    yue: 南達科他州
+    my: တောင်ဒါကိုတာပြည်နယ်
+    yo: Gúúsù Dakota
+    uz: Janubiy Dakota
+    bs: Južna Dakota
+    mk: Јужна Дакота
+  comments: 
+TN: 
+  name: Tennessee
+  code: 
   unofficial_names: Tennessee
+  geo:
+    latitude: 35.5174913
+    longitude: -86.5804473
+    min_latitude: 34.9829239
+    min_longitude: -90.3102978
+    max_latitude: 36.678118
+    max_longitude: -81.6469
   translations:
     en: Tennessee
     af: Tennessee
@@ -3146,16 +4033,35 @@ TN:
     ur: ٹینیسی
     vi: Tennessee
     zh: 田纳西州
-  geo:
-    latitude: 35.5174913
-    longitude: -86.5804473
-    min_latitude: 34.9829239
-    min_longitude: -90.3102978
-    max_latitude: 36.678118
-    max_longitude: -81.6469
-  name: Tennessee
-TX:
+    cy: Tennessee
+    ceb: Tennessee
+    sr_Latn: Tenesi
+    yue_Hans: 田纳西州
+    jv: Tennessee
+    sq: Tennessee
+    ccp: "\U00011111\U0001112C\U0001111A\U00011129\U00011125\U00011129"
+    ga: Tennessee
+    ig: Tennessee
+    pa: ਟੈਨੇਸੀ
+    kk: Теннесси
+    yue: 田納西州
+    my: တင်နက်ဆီပြည်နယ်
+    yo: Tennessee
+    uz: Tennessi
+    bs: Tennessee
+    mk: Тенеси
+  comments: 
+TX: 
+  name: Texas
+  code: 
   unofficial_names: Texas
+  geo:
+    latitude: 31.9685988
+    longitude: -99.9018131
+    min_latitude: 25.8371638
+    min_longitude: -106.6456461
+    max_latitude: 36.5007041
+    max_longitude: -93.5080389
   translations:
     en: Texas
     af: Texas
@@ -3218,18 +4124,31 @@ TX:
     ur: ٹیکساس
     vi: Texas
     zh: 得克萨斯州
-  geo:
-    latitude: 31.9685988
-    longitude: -99.9018131
-    min_latitude: 25.8371638
-    min_longitude: -106.6456461
-    max_latitude: 36.5007041
-    max_longitude: -93.5080389
-  name: Texas
-UM:
+    cy: Texas
+    ceb: Texas
+    sr_Latn: Teksas
+    yue_Hans: 德州
+    jv: Texas
+    sq: Texas
+    ccp: "\U00011111\U0001112C\U00011107\U00011134\U00011125\U0001110C\U00011134"
+    ga: Texas
+    ig: Texas
+    ha: Texas
+    so: Texas
+    pa: ਟੈਕਸਸ
+    kk: Техас
+    yue: 德州
+    my: တက္ကဆပ်ပြည်နယ်
+    yo: Texas
+    zu: Texas
+    uz: Texas
+    bs: Texas
+    mk: Тексас
+  comments: 
+UM: 
+  name: United States Minor Outlying Islands
+  code: 
   unofficial_names: United States Minor Outlying Islands
-  translations:
-    en: U.S. Outlying Islands
   geo:
     latitude: 28.2021222
     longitude: -177.3804525
@@ -3237,10 +4156,23 @@ UM:
     min_longitude: -177.3946094
     max_latitude: 28.2150965
     max_longitude: -177.3695147
+  translations:
+    en: U.S. Outlying Islands
+    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134.
+      \U00011103\U00011105\U0001112A\U00011116\U00011134\U00011123\U0001112D\U00011103\U00011128\U00011101
+      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: see also separate entry under UM
-  name: United States Minor Outlying Islands
-UT:
+UT: 
+  name: Utah
+  code: 
   unofficial_names: Utah
+  geo:
+    latitude: 39.3209801
+    longitude: -111.0937311
+    min_latitude: 36.99790309999999
+    min_longitude: -114.0529979
+    max_latitude: 42.001618
+    max_longitude: -109.0410581
   translations:
     en: Utah
     af: Utah
@@ -3302,16 +4234,37 @@ UT:
     ur: یوٹاہ
     vi: Utah
     zh: 犹他州
-  geo:
-    latitude: 39.3209801
-    longitude: -111.0937311
-    min_latitude: 36.99790309999999
-    min_longitude: -114.0529979
-    max_latitude: 42.001618
-    max_longitude: -109.0410581
-  name: Utah
-VA:
+    cy: Utah
+    ceb: Utah
+    sr_Latn: Juta
+    yue_Hans: 犹他州
+    jv: Utah
+    sq: Utah
+    ccp: "\U00011105\U0001112A\U00011111\U00011126\U00011134"
+    ga: Utah
+    ig: Yútạh
+    ha: Utah
+    pa: ਯੂਟਾ
+    kk: Юта
+    yue: 猶他州
+    my: ယူးတားပြည်နယ်
+    yo: Utah
+    zu: Utah
+    uz: Yuta
+    bs: Utah
+    mk: Јута
+  comments: 
+VA: 
+  name: Virginia
+  code: 
   unofficial_names: Virginia
+  geo:
+    latitude: 37.4315734
+    longitude: -78.6568942
+    min_latitude: 36.5407589
+    min_longitude: -83.675415
+    max_latitude: 39.466012
+    max_longitude: -75.2421573
   translations:
     en: Virginia
     af: Virginië
@@ -3373,18 +4326,31 @@ VA:
     ur: ورجینیا
     vi: Virginia
     zh: 弗吉尼亚州
-  geo:
-    latitude: 37.4315734
-    longitude: -78.6568942
-    min_latitude: 36.5407589
-    min_longitude: -83.675415
-    max_latitude: 39.466012
-    max_longitude: -75.2421573
-  name: Virginia
-VI:
+    cy: Virginia
+    ceb: Virginia
+    sr_Latn: Virdžinija
+    yue_Hans: 维珍尼亚州
+    jv: Virginia
+    sq: Virginia
+    ccp: "\U0001111E\U00011122\U00011134\U0001110E\U00011128\U0001111A\U00011128\U00011120"
+    ga: Virginia
+    ig: Végíníyà
+    ky: Виргиния штаты
+    ha: Virginia
+    pa: ਵਰਜਿਨੀਆ
+    kk: Виргиния
+    yue: 維珍尼亞州
+    my: ဗာဂျီးနီးယားပြည်နယ်
+    yo: Firginia
+    zu: Virginia
+    uz: Virjiniya
+    bs: Virginia
+    mk: Вирџинија
+  comments: 
+VI: 
+  name: Virgin Islands, U.S.
+  code: 
   unofficial_names: Virgin Islands, U.S.
-  translations:
-    en: U.S. Virgin Islands
   geo:
     latitude: 33.8569878
     longitude: -84.5904089
@@ -3392,10 +4358,22 @@ VI:
     min_longitude: 
     max_latitude: 
     max_longitude: 
+  translations:
+    en: U.S. Virgin Islands
+    ccp: "\U00011103\U00011128\U00011105\U0001112A. \U00011103\U0001112C\U0001110C\U00011134
+      \U0001111E\U00011122\U00011134\U0001110E\U00011128\U0001111A\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
   comments: see also separate entry under VI
-  name: Virgin Islands, U.S.
-VT:
+VT: 
+  name: Vermont
+  code: 
   unofficial_names: Vermont
+  geo:
+    latitude: 44.5588028
+    longitude: -72.57784149999999
+    min_latitude: 42.7268499
+    min_longitude: -73.43055980000001
+    max_latitude: 45.0166591
+    max_longitude: -71.46503899999999
   translations:
     en: Vermont
     af: Vermont
@@ -3457,16 +4435,37 @@ VT:
     ur: ورمونٹ
     vi: Vermont
     zh: 佛蒙特州
-  geo:
-    latitude: 44.5588028
-    longitude: -72.57784149999999
-    min_latitude: 42.7268499
-    min_longitude: -73.43055980000001
-    max_latitude: 45.0166591
-    max_longitude: -71.46503899999999
-  name: Vermont
-WA:
+    cy: Vermont
+    ceb: Vermont
+    sr_Latn: Vermont
+    yue_Hans: 佛蒙特州
+    jv: Vermont
+    sq: Vermont
+    ccp: "\U0001111E\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011111\U00011134"
+    ga: Vermont
+    ig: Vermont
+    ha: Vermont
+    pa: ਵਰਮਾਂਟ
+    kk: Вермонт
+    yue: 佛蒙特州
+    my: ဗားမောင့်ပြည်နယ်
+    yo: Fermont
+    zu: Vermont
+    uz: Vermont
+    bs: Vermont
+    mk: Вермонт
+  comments: 
+WA: 
+  name: Washington
+  code: 
   unofficial_names: Washington
+  geo:
+    latitude: 47.7510741
+    longitude: -120.7401386
+    min_latitude: 45.5485987
+    min_longitude: -124.7857167
+    max_latitude: 49.0024305
+    max_longitude: -116.91558
   translations:
     en: Washington
     af: Washington²
@@ -3527,16 +4526,40 @@ WA:
     ur: ریاست واشنگٹن
     vi: Washington²
     zh: 华盛顿州
-  geo:
-    latitude: 47.7510741
-    longitude: -120.7401386
-    min_latitude: 45.5485987
-    min_longitude: -124.7857167
-    max_latitude: 49.0024305
-    max_longitude: -116.91558
-  name: Washington
-WI:
+    cy: Washington
+    ceb: Washington
+    yo_BJ: Ìpínlɛ̀ Washington
+    sr_Latn: Vašington²
+    yue_Hans: 华盛顿州
+    jv: Washington
+    sq: Washington
+    ccp: "\U00011124\U00011125\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134"
+    sd: واشنگٽن رياست
+    ga: Washington
+    ig: Washington
+    so: Washington
+    pa: ਵਾਸ਼ਿੰਗਟਨ
+    kk: Вашингтон
+    yue: 華盛頓州
+    my: ဝါရှင်တန်ပြည်နယ်
+    yo: Ìpínlẹ̀ Washington
+    zu: Washington
+    uz: Vashington shtati
+    bs: Washington
+    mk: Вашингтон
+    ne: वाशिङ्गटन डि.सि.
+  comments: 
+WI: 
+  name: Wisconsin
+  code: 
   unofficial_names: Wisconsin
+  geo:
+    latitude: 43.7844397
+    longitude: -88.7878678
+    min_latitude: 42.491864
+    min_longitude: -92.88943309999999
+    max_latitude: 47.0807296
+    max_longitude: -86.7639767
   translations:
     en: Wisconsin
     af: Wisconsin
@@ -3599,16 +4622,37 @@ WI:
     ur: وسکونسن
     vi: Wisconsin
     zh: 威斯康辛州
-  geo:
-    latitude: 43.7844397
-    longitude: -88.7878678
-    min_latitude: 42.491864
-    min_longitude: -92.88943309999999
-    max_latitude: 47.0807296
-    max_longitude: -86.7639767
-  name: Wisconsin
-WV:
+    cy: Wisconsin
+    ceb: Wisconsin (estado)
+    sr_Latn: Viskonsin
+    yue_Hans: 威斯康辛州
+    jv: Wisconsin
+    sq: Wisconsin
+    ccp: "\U00011105\U0001112A\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011127\U0001111A\U00011134\U00011125\U00011128\U0001111A\U00011134"
+    ga: Wisconsin
+    ig: Wiskonsin
+    ky: Висконсин
+    ha: Wisconsin
+    pa: ਵਿਸਕਾਂਸਨ
+    kk: Висконсин
+    yue: 威斯康辛州
+    my: ဝစ္စကွန်းဆင်းပြည်နယ်
+    yo: Wisconsin
+    uz: Viskonsin
+    bs: Wisconsin
+    mk: Висконсин
+  comments: 
+WV: 
+  name: West Virginia
+  code: 
   unofficial_names: West Virginia
+  geo:
+    latitude: 38.5976262
+    longitude: -80.4549026
+    min_latitude: 37.2015399
+    min_longitude: -82.644413
+    max_latitude: 40.638801
+    max_longitude: -77.7189679
   translations:
     en: West Virginia
     af: Wes-Virginië
@@ -3670,16 +4714,35 @@ WV:
     ur: مغربی ورجینیا
     vi: Tây Virginia
     zh: 西維吉尼亞州
-  geo:
-    latitude: 38.5976262
-    longitude: -80.4549026
-    min_latitude: 37.2015399
-    min_longitude: -82.644413
-    max_latitude: 40.638801
-    max_longitude: -77.7189679
-  name: West Virginia
-WY:
+    cy: Gorllewin Virginia
+    ceb: West Virginia
+    yo_BJ: Ìwɔ̀orùn Firginia
+    sr_Latn: Zapadna Virdžinija
+    yue_Hans: 西维珍尼亚州
+    jv: West Virginia
+    sq: West Virginia
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111E\U00011122\U00011134\U0001110E\U00011128\U0001111A\U00011128\U00011120"
+    ga: Virginia Thiar
+    ig: West Virginia
+    pa: ਪੱਛਮੀ ਵਰਜਿਨੀਆ
+    kk: Батыс Виргиния
+    yue: 西維珍尼亞州
+    my: အနောက် ဗာဂျီးနီးယားပြည်နယ်
+    yo: Ìwọ̀orùn Firginia
+    bs: Zapadna Virginia
+    mk: Западна Вирџинија
+  comments: 
+WY: 
+  name: Wyoming
+  code: 
   unofficial_names: Wyoming
+  geo:
+    latitude: 43.0759678
+    longitude: -107.2902839
+    min_latitude: 40.994746
+    min_longitude: -111.056889
+    max_latitude: 45.005904
+    max_longitude: -104.0522449
   translations:
     en: Wyoming
     af: Wyoming
@@ -3742,11 +4805,23 @@ WY:
     ur: وائیومنگ
     vi: Wyoming
     zh: 怀俄明州
-  geo:
-    latitude: 43.0759678
-    longitude: -107.2902839
-    min_latitude: 40.994746
-    min_longitude: -111.056889
-    max_latitude: 45.005904
-    max_longitude: -104.0522449
-  name: Wyoming
+    cy: Wyoming
+    ceb: Wyoming
+    sr_Latn: Vajoming
+    yue_Hans: 怀俄明州
+    jv: Wyoming
+    sq: Wyoming
+    ccp: "\U00011103\U00011128\U00011120\U0001112E\U0001111F\U00011128\U00011101"
+    ga: Wyoming
+    ig: Waịómịn
+    ha: Wyoming
+    pa: ਵਾਇਓਮਿੰਗ
+    kk: Вайоминг
+    yue: 懷俄明州
+    my: ဝိုင်အိုးမင်းပြည်နယ်
+    yo: Wyoming
+    zu: Wyoming
+    uz: Vayoming
+    bs: Wyoming
+    mk: Вајоминг
+  comments: 

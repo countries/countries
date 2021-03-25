@@ -1,6 +1,15 @@
 ---
-B:
+B: 
+  name: Banjul
+  code: 
   unofficial_names: Banjul
+  geo:
+    latitude: 13.453056
+    longitude: -16.5775
+    min_latitude: 13.4424473
+    min_longitude: -16.5906966
+    max_latitude: 13.4625844
+    max_longitude: -16.5703587
   translations:
     en: Banjul
     af: Banjul
@@ -59,17 +68,38 @@ B:
     ur: بانجول
     vi: Banjul
     zh: 班竹
-  geo:
-    latitude: 13.453056
-    longitude: -16.5775
-    min_latitude: 13.4424473
-    min_longitude: -16.5906966
-    max_latitude: 13.4625844
-    max_longitude: -16.5703587
-  name: Banjul
-L:
+    cy: Banjul
+    ceb: City of Banjul
+    sr_Latn: Bandžul
+    yue_Hans: 班珠尔
+    jv: Banjul
+    sq: Banjul
+    ccp: "\U0001111D\U0001111A\U00011134\U0001110E\U0001112A\U00011123\U00011134"
+    ga: Banjul
+    ky: Банжул
+    ha: Banjul
+    so: Banjul
+    pa: ਬੰਜੁਲ
+    kk: Банжул
+    ml: ബഞ്ജുൾ
+    yue: 班珠爾
+    yo: Banjul
+    uz: Banjul
+    bs: Banjul
+    mk: Банџул
+  comments: 
+L: 
+  name: Lower River
+  code: 
   unofficial_names:
   - Lower River
+  geo:
+    latitude: 13.3553306
+    longitude: -15.92299
+    min_latitude: 13.237656
+    min_longitude: -16.2310245
+    max_latitude: 13.554205
+    max_longitude: -15.1831621
   translations:
     en: Lower River Division
     ar: شعبة النهر السفلى
@@ -110,16 +140,26 @@ L:
     tr: Lower River Bölgesi
     ur: لوئر ریور ڈویژن
     vi: Phân vùng Hạ nguồn Sông
-  geo:
-    latitude: 13.3553306
-    longitude: -15.92299
-    min_latitude: 13.237656
-    min_longitude: -16.2310245
-    max_latitude: 13.554205
-    max_longitude: -15.1831621
-  name: Lower River
-M:
+    lv: Lejupupes daļa
+    ceb: Lower River Division
+    sr_Latn: Donja Reka
+    zh: 下河區
+    ccp: "\U00011123\U0001112E\U00011120\U00011122\U00011134 \U00011122\U00011128\U0001111E\U00011122\U00011134
+      \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    uk: Округ Нижня Річка
+    mk: Долна Река
+  comments: 
+M: 
+  name: MacCarthy Island
+  code: 
   unofficial_names: MacCarthy Island
+  geo:
+    latitude: 13.5336211
+    longitude: -14.7695962
+    min_latitude: 13.5242635
+    min_longitude: -14.8049354
+    max_latitude: 13.5551381
+    max_longitude: -14.7130108
   translations:
     en: Central River Division
     ar: شعبة النهر المركزي
@@ -160,17 +200,26 @@ M:
     uk: Центральна Ріка
     ur: سینٹرل ریور ڈویژن
     vi: Khu vực Trung lưu Sông
-  geo:
-    latitude: 13.5336211
-    longitude: -14.7695962
-    min_latitude: 13.5242635
-    min_longitude: -14.8049354
-    max_latitude: 13.5551381
-    max_longitude: -14.7130108
-  name: MacCarthy Island
-N:
+    lv: Centrālā upes daļa
+    ceb: Central River Division
+    sr_Latn: Srednja Reka
+    zh: 中河區
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011122\U00011128\U0001111E\U00011122\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    mk: Средна Река
+  comments: 
+N: 
+  name: North Bank
+  code: 
   unofficial_names:
   - North Bank
+  geo:
+    latitude: 13.5285436
+    longitude: -16.0169971
+    min_latitude: 13.3289472
+    min_longitude: -16.5492739
+    max_latitude: 13.644219
+    max_longitude: -15.309071
   translations:
     en: North Bank Division
     ar: شعبة الضفة الشمالية
@@ -210,17 +259,27 @@ N:
     tr: North Bank Bölgesi
     ur: نارتھ بینک ڈویژن
     vi: Phân vùng North Bank
-  geo:
-    latitude: 13.5285436
-    longitude: -16.0169971
-    min_latitude: 13.3289472
-    min_longitude: -16.5492739
-    max_latitude: 13.644219
-    max_longitude: -15.309071
-  name: North Bank
-U:
+    lv: Ziemeļkrasta daļa
+    ceb: North Bank Division
+    sr_Latn: Severna Obala
+    zh: 北岸區
+    ccp: "\U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001111D\U00011133\U00011120\U00011101\U00011107\U00011134 \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    uk: Північний Берег
+    mk: Северен Брег
+  comments: 
+U: 
+  name: Upper River
+  code: 
   unofficial_names:
   - Upper River
+  geo:
+    latitude: 13.4257366
+    longitude: -14.0072348
+    min_latitude: 13.2156891
+    min_longitude: -14.5469159
+    max_latitude: 13.5734001
+    max_longitude: -13.7977931
   translations:
     en: Upper River Division
     ar: شعبة النهر العليا
@@ -261,17 +320,26 @@ U:
     uk: Верхня Ріка
     ur: اپر ریور ڈویژن
     vi: Phân vùng Thượng nguồn Sông
-  geo:
-    latitude: 13.4257366
-    longitude: -14.0072348
-    min_latitude: 13.2156891
-    min_longitude: -14.5469159
-    max_latitude: 13.5734001
-    max_longitude: -13.7977931
-  name: Upper River
-W:
+    lv: Augšteces daļa
+    ceb: Upper River Division
+    sr_Latn: Gornja Reka
+    zh: 上河區
+    ccp: "\U00011103\U0001111B\U00011122\U00011134 \U00011122\U00011128\U0001111E\U00011122\U00011134
+      \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    mk: Горна Река
+  comments: 
+W: 
+  name: Western
+  code: 
   unofficial_names:
   - Western
+  geo:
+    latitude: 13.2229202
+    longitude: -16.5819789
+    min_latitude: 13.0668175
+    min_longitude: -16.8136312
+    max_latitude: 13.4525822
+    max_longitude: -15.8103241
   translations:
     en: West Coast Division
     ar: قسم الساحل الغربي
@@ -312,11 +380,11 @@ W:
     uk: Західний берег
     ur: ویسٹ کوسٹ ڈویژن
     vi: Phân Vùng West Coast
-  geo:
-    latitude: 13.2229202
-    longitude: -16.5819789
-    min_latitude: 13.0668175
-    min_longitude: -16.8136312
-    max_latitude: 13.4525822
-    max_longitude: -15.8103241
-  name: Western
+    lv: Rietumu daļa
+    ceb: Western Division
+    sr_Latn: Zapadni okrug
+    zh: 西部區
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011107\U0001112E\U0001110C\U00011133\U00011111\U00011134
+      \U00011113\U00011128\U0001111E\U00011128\U00011125\U00011127\U0001111A\U00011134"
+    mk: Западен Округ
+  comments: 
