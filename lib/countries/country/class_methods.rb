@@ -1,4 +1,3 @@
-require 'unicode_utils/downcase'
 require 'sixarm_ruby_unaccent'
 
 module ISO3166
@@ -106,7 +105,7 @@ module ISO3166
       if v.is_a?(Regexp)
         Regexp.new(v.source.unaccent, 'i')
       else
-        UnicodeUtils.downcase(v.to_s.unaccent)
+        v.to_s.unaccent.downcase
       end
     end
 

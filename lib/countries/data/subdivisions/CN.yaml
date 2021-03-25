@@ -1,17 +1,8 @@
 ---
-'11': 
-  name: Beijing
-  code: 
+BJ:
   unofficial_names:
   - Beijing
   - Pekín
-  geo:
-    latitude: 39.904211
-    longitude: 116.407395
-    min_latitude: 39.4427581
-    min_longitude: 115.4234115
-    max_latitude: 41.0608158
-    max_longitude: 117.5146251
   translations:
     en: Beijing
     af: Beijing
@@ -79,19 +70,16 @@
     ur: بیجنگ
     vi: Bắc Kinh
     zh: 北京市
-    ccp: "\U0001111D\U0001112C\U0001112D\U0001110E\U00011128\U00011101"
-  comments: 
-'12': 
-  name: Tianjin
-  code: 
-  unofficial_names: Tianjin
   geo:
-    latitude: 39.084158
-    longitude: 117.200983
-    min_latitude: 38.5555781
-    min_longitude: 116.7080286
-    max_latitude: 40.2532141
-    max_longitude: 118.0656116
+    latitude: 39.904211
+    longitude: 116.407395
+    min_latitude: 39.4427581
+    min_longitude: 115.4234115
+    max_latitude: 41.0608158
+    max_longitude: 117.5146251
+  name: Beijing
+TJ:
+  unofficial_names: Tianjin
   translations:
     en: Tianjin
     af: Tianjin
@@ -150,19 +138,16 @@
     ur: تیانجین
     vi: Thiên Tân
     zh: 天津市
-    ccp: "\U00011111\U0001112D\U0001111A\U00011134\U0001110E\U00011128\U0001111A\U00011134"
-  comments: 
-'13': 
-  name: Hebei
-  code: 
-  unofficial_names: Hebei
   geo:
-    latitude: 38.037057
-    longitude: 114.468665
-    min_latitude: 36.0482067
-    min_longitude: 113.4653687
-    max_latitude: 42.6197178
-    max_longitude: 119.8710782
+    latitude: 39.084158
+    longitude: 117.200983
+    min_latitude: 38.5555781
+    min_longitude: 116.7080286
+    max_latitude: 40.2532141
+    max_longitude: 118.0656116
+  name: Tianjin
+HE:
+  unofficial_names: Hebei
   translations:
     en: Hebei
     af: Hebei
@@ -218,19 +203,16 @@
     ur: ہیبئی
     vi: Hà Bắc
     zh: 河北省
-    ccp: "\U00011126\U0001111D\U0001112C\U0001112D"
-  comments: 
-'14': 
-  name: Shanxi
-  code: 
-  unofficial_names: Shanxi
   geo:
-    latitude: 37.873532
-    longitude: 112.562398
-    min_latitude: 34.5819351
-    min_longitude: 110.2302481
-    max_latitude: 40.7373522
-    max_longitude: 114.5689224
+    latitude: 38.037057
+    longitude: 114.468665
+    min_latitude: 36.0482067
+    min_longitude: 113.4653687
+    max_latitude: 42.6197178
+    max_longitude: 119.8710782
+  name: Hebei
+SX:
+  unofficial_names: Shanxi
   translations:
     en: Shanxi
     af: Shanxi
@@ -285,21 +267,18 @@
     ur: شنسی
     vi: Sơn Tây
     zh: 山西省
-    ccp: "\U00011125\U0001111A\U00011134\U00011125\U00011133\U00011126\U00011128"
-  comments: 
-'15': 
-  name: Nei Mongol (mn)
-  code: 
+  geo:
+    latitude: 37.873532
+    longitude: 112.562398
+    min_latitude: 34.5819351
+    min_longitude: 110.2302481
+    max_latitude: 40.7373522
+    max_longitude: 114.5689224
+  name: Shanxi
+NM:
   unofficial_names:
   - Inner Mongolia
   - Nei Monggol
-  geo:
-    latitude: 40.81739
-    longitude: 111.76629
-    min_latitude: 37.4067797
-    min_longitude: 97.17276269999999
-    max_latitude: 53.33717799999999
-    max_longitude: 126.0755856
   translations:
     en: Inner Mongolia
     af: Binne-Mongolië
@@ -357,19 +336,16 @@
     ur: اندرونی منگولیا
     vi: Nội Mông
     zh: 内蒙古自治区
-    ccp: "\U00011103\U00011128\U0001111A\U00011122\U00011134 \U0001111F\U00011127\U00011101\U00011109\U0001112E\U00011123\U00011128\U00011120"
-  comments: 
-'21': 
-  name: Liaoning
-  code: 
-  unofficial_names: Liaoning
   geo:
-    latitude: 41.836175
-    longitude: 123.431383
-    min_latitude: 38.7224309
-    min_longitude: 118.845467
-    max_latitude: 43.4909841
-    max_longitude: 125.7914594
+    latitude: 40.81739
+    longitude: 111.76629
+    min_latitude: 37.4067797
+    min_longitude: 97.17276269999999
+    max_latitude: 53.33717799999999
+    max_longitude: 126.0755856
+  name: Nei Mongol (mn)
+LN:
+  unofficial_names: Liaoning
   translations:
     en: Liaoning
     af: Liaoning
@@ -425,19 +401,16 @@
     ur: لیاؤننگ
     vi: Liêu Ninh
     zh: 辽宁省
-    ccp: "\U00011123\U0001112D\U00011103\U0001112E\U0001111A\U00011128\U00011101"
-  comments: 
-'22': 
-  name: Jilin
-  code: 
-  unofficial_names: Jilin
   geo:
-    latitude: 43.837883
-    longitude: 126.549572
-    min_latitude: 42.5614763
-    min_longitude: 125.6457386
-    max_latitude: 44.6481581
-    max_longitude: 127.9247254
+    latitude: 41.836175
+    longitude: 123.431383
+    min_latitude: 38.7224309
+    min_longitude: 118.845467
+    max_latitude: 43.4909841
+    max_longitude: 125.7914594
+  name: Liaoning
+JL:
+  unofficial_names: Jilin
   translations:
     en: Jilin
     af: Jilin
@@ -492,19 +465,16 @@
     ur: جیلن
     vi: Cát Lâm
     zh: 吉林省
-    ccp: "\U0001110E\U00011128\U00011123\U00011128\U0001111A\U00011134"
-  comments: 
-'23': 
-  name: Heilongjiang
-  code: 
-  unofficial_names: Heilongjiang
   geo:
-    latitude: 45.74236699999999
-    longitude: 126.661665
-    min_latitude: 43.4257985
-    min_longitude: 121.1817531
-    max_latitude: 53.5636239
-    max_longitude: 135.0956699
+    latitude: 43.837883
+    longitude: 126.549572
+    min_latitude: 42.5614763
+    min_longitude: 125.6457386
+    max_latitude: 44.6481581
+    max_longitude: 127.9247254
+  name: Jilin
+HL:
+  unofficial_names: Heilongjiang
   translations:
     en: Heilongjiang
     af: Heilongjiang
@@ -559,20 +529,17 @@
     ur: ہیلونگجیانگ
     vi: Hắc Long Giang
     zh: 黑龙江省
-    ccp: "\U00011126\U0001112C\U0001112D\U00011123\U00011127\U00011101\U0001110E\U00011128\U00011120\U0001111A\U00011134"
-  comments: 
-'31': 
-  name: Shanghai
-  code: 
+  geo:
+    latitude: 45.74236699999999
+    longitude: 126.661665
+    min_latitude: 43.4257985
+    min_longitude: 121.1817531
+    max_latitude: 53.5636239
+    max_longitude: 135.0956699
+  name: Heilongjiang
+SH:
   unofficial_names:
   - Schanghai
-  geo:
-    latitude: 31.230416
-    longitude: 121.473701
-    min_latitude: 30.68027
-    min_longitude: 120.8582174
-    max_latitude: 31.868217
-    max_longitude: 122.2470663
   translations:
     en: Shanghai
     af: Sjanghai
@@ -638,19 +605,16 @@
     ur: شنگھائی
     vi: Thượng Hải
     zh: 上海市
-    ccp: "\U00011125\U00011101\U00011126\U0001112D"
-  comments: 
-'32': 
-  name: Jiangsu
-  code: 
-  unofficial_names: Jiangsu
   geo:
-    latitude: 32.061707
-    longitude: 118.763232
-    min_latitude: 30.7578406
-    min_longitude: 116.3619604
-    max_latitude: 35.1245136
-    max_longitude: 121.9627784
+    latitude: 31.230416
+    longitude: 121.473701
+    min_latitude: 30.68027
+    min_longitude: 120.8582174
+    max_latitude: 31.868217
+    max_longitude: 122.2470663
+  name: Shanghai
+JS:
+  unofficial_names: Jiangsu
   translations:
     en: Jiangsu
     af: Jiangsu
@@ -706,19 +670,16 @@
     ur: جیانگسو
     vi: Giang Tô
     zh: 江苏省
-    ccp: "\U0001110E\U00011128\U00011120\U0001110B\U00011134\U00011125\U0001112A"
-  comments: 
-'33': 
-  name: Zhejiang
-  code: 
-  unofficial_names: Zhejiang
   geo:
-    latitude: 30.267443
-    longitude: 120.152792
-    min_latitude: 27.041518
-    min_longitude: 118.028279
-    max_latitude: 31.1787821
-    max_longitude: 122.9494378
+    latitude: 32.061707
+    longitude: 118.763232
+    min_latitude: 30.7578406
+    min_longitude: 116.3619604
+    max_latitude: 35.1245136
+    max_longitude: 121.9627784
+  name: Jiangsu
+ZJ:
+  unofficial_names: Zhejiang
   translations:
     en: Zhejiang
     af: Zhejiang
@@ -774,19 +735,16 @@
     ur: ژجیانگ
     vi: Chiết Giang
     zh: 浙江省
-    ccp: "\U0001110F\U0001112C\U0001110E\U00011128\U00011120\U00011101"
-  comments: 
-'34': 
-  name: Anhui
-  code: 
-  unofficial_names: Anhui
   geo:
-    latitude: 31.861184
-    longitude: 117.284923
-    min_latitude: 29.3930379
-    min_longitude: 114.8827517
-    max_latitude: 34.6542338
-    max_longitude: 119.6491442
+    latitude: 30.267443
+    longitude: 120.152792
+    min_latitude: 27.041518
+    min_longitude: 118.028279
+    max_latitude: 31.1787821
+    max_longitude: 122.9494378
+  name: Zhejiang
+AH:
+  unofficial_names: Anhui
   translations:
     en: Anhui
     af: Anhui
@@ -843,19 +801,16 @@
     ur: انہوئی
     vi: An Huy
     zh: 安徽省
-    ccp: "\U00011103\U0001111A\U00011134\U00011126\U0001112D\U0001112A"
-  comments: 
-'35': 
-  name: Fujian
-  code: 
-  unofficial_names: Fujian
   geo:
-    latitude: 26.10078
-    longitude: 119.295144
-    min_latitude: 23.528783
-    min_longitude: 115.8522901
-    max_latitude: 28.3129013
-    max_longitude: 120.7270943
+    latitude: 31.861184
+    longitude: 117.284923
+    min_latitude: 29.3930379
+    min_longitude: 114.8827517
+    max_latitude: 34.6542338
+    max_longitude: 119.6491442
+  name: Anhui
+FJ:
+  unofficial_names: Fujian
   translations:
     en: Fujian
     af: Foekien
@@ -906,19 +861,16 @@
     ur: فوجیان
     vi: Phúc Kiến
     zh: 福建省
-    ccp: "\U0001111C\U0001112A\U0001110E\U00011128\U00011120\U0001111A\U00011134"
-  comments: 
-'36': 
-  name: Jiangxi
-  code: 
-  unofficial_names: Jiangxi
   geo:
-    latitude: 28.675697
-    longitude: 115.909228
-    min_latitude: 24.4862522
-    min_longitude: 113.5781862
-    max_latitude: 30.0749464
-    max_longitude: 118.4871059
+    latitude: 26.10078
+    longitude: 119.295144
+    min_latitude: 23.528783
+    min_longitude: 115.8522901
+    max_latitude: 28.3129013
+    max_longitude: 120.7270943
+  name: Fujian
+JX:
+  unofficial_names: Jiangxi
   translations:
     en: Jiangxi
     af: Jiangsji
@@ -973,19 +925,16 @@
     ur: جیانگشی
     vi: Giang Tây
     zh: 江西省
-    ccp: "\U0001110E\U00011128\U00011120\U0001110B\U00011134\U0001110E\U00011133\U00011126\U00011128"
-  comments: 
-'37': 
-  name: Shandong
-  code: 
-  unofficial_names: Shandong
   geo:
-    latitude: 36.66853
-    longitude: 117.020359
-    min_latitude: 34.3773522
-    min_longitude: 114.8246302
-    max_latitude: 38.4011447
-    max_longitude: 122.7100401
+    latitude: 28.675697
+    longitude: 115.909228
+    min_latitude: 24.4862522
+    min_longitude: 113.5781862
+    max_latitude: 30.0749464
+    max_longitude: 118.4871059
+  name: Jiangxi
+SD:
+  unofficial_names: Shandong
   translations:
     en: Shandong
     af: Sjandong
@@ -1040,19 +989,16 @@
     ur: شانڈونگ
     vi: Sơn Đông
     zh: 山东省
-    ccp: "\U00011125\U0001111A\U00011134\U00011113\U00011127\U00011101"
-  comments: 
-'41': 
-  name: Henan
-  code: 
-  unofficial_names: Henan
   geo:
-    latitude: 34.765515
-    longitude: 113.753602
-    min_latitude: 31.382371
-    min_longitude: 110.3604761
-    max_latitude: 36.3665602
-    max_longitude: 116.6522322
+    latitude: 36.66853
+    longitude: 117.020359
+    min_latitude: 34.3773522
+    min_longitude: 114.8246302
+    max_latitude: 38.4011447
+    max_longitude: 122.7100401
+  name: Shandong
+HA:
+  unofficial_names: Henan
   translations:
     en: Henan
     af: Henan
@@ -1108,19 +1054,16 @@
     ur: ہینان
     vi: Hà Nam
     zh: 河南省
-    ccp: "\U00011126\U0001112C\U0001111A\U0001111A\U00011134"
-  comments: 
-'42': 
-  name: Hubei
-  code: 
-  unofficial_names: Hubei
   geo:
-    latitude: 30.546498
-    longitude: 114.341862
-    min_latitude: 29.0294884
-    min_longitude: 108.3669646
-    max_latitude: 33.2756161
-    max_longitude: 116.1345773
+    latitude: 34.765515
+    longitude: 113.753602
+    min_latitude: 31.382371
+    min_longitude: 110.3604761
+    max_latitude: 36.3665602
+    max_longitude: 116.6522322
+  name: Henan
+HB:
+  unofficial_names: Hubei
   translations:
     en: Hubei
     af: Hubei
@@ -1174,19 +1117,16 @@
     ur: ہوبئی
     vi: Hồ Bắc
     zh: 湖北省
-    ccp: "\U00011126\U0001112A\U0001111D\U0001112C\U0001112D"
-  comments: 
-'43': 
-  name: Hunan
-  code: 
-  unofficial_names: Hunan
   geo:
-    latitude: 28.112449
-    longitude: 112.98381
-    min_latitude: 24.6363234
-    min_longitude: 108.7908413
-    max_latitude: 30.126363
-    max_longitude: 114.2612647
+    latitude: 30.546498
+    longitude: 114.341862
+    min_latitude: 29.0294884
+    min_longitude: 108.3669646
+    max_latitude: 33.2756161
+    max_longitude: 116.1345773
+  name: Hubei
+HN:
+  unofficial_names: Hunan
   translations:
     en: Hunan
     af: Hunan
@@ -1241,19 +1181,16 @@
     ur: ہونان
     vi: Hồ Nam
     zh: 湖南省
-    ccp: "\U00011126\U0001112A\U0001111A\U0001111A\U00011134"
-  comments: 
-'44': 
-  name: Guangdong
-  code: 
-  unofficial_names: Guangdong
   geo:
-    latitude: 23.132191
-    longitude: 113.266531
-    min_latitude: 20.2209735
-    min_longitude: 109.668994
-    max_latitude: 25.5167714
-    max_longitude: 117.3185073
+    latitude: 28.112449
+    longitude: 112.98381
+    min_latitude: 24.6363234
+    min_longitude: 108.7908413
+    max_latitude: 30.126363
+    max_longitude: 114.2612647
+  name: Hunan
+GD:
+  unofficial_names: Guangdong
   translations:
     en: Guangdong
     af: Kwangdong
@@ -1309,20 +1246,17 @@
     ur: گوانگڈونگ
     vi: Quảng Đông
     zh: 广东省
-    ccp: "\U00011109\U00011105\U0001112A\U0001110B\U00011134\U00011113\U00011127\U00011101"
-  comments: 
-'45': 
-  name: Guangxi
-  code: 
+  geo:
+    latitude: 23.132191
+    longitude: 113.266531
+    min_latitude: 20.2209735
+    min_longitude: 109.668994
+    max_latitude: 25.5167714
+    max_longitude: 117.3185073
+  name: Guangdong
+GX:
   unofficial_names:
   - Guangxi Zhuang
-  geo:
-    latitude: 22.815478
-    longitude: 108.327546
-    min_latitude: 20.8998362
-    min_longitude: 104.4501321
-    max_latitude: 26.3855658
-    max_longitude: 112.0618507
   translations:
     en: Guangxi
     af: Guangxi
@@ -1378,19 +1312,16 @@
     ur: گوانگشی
     vi: Quảng Tây
     zh: 广西壮族自治区
-    ccp: "\U00011109\U00011105\U0001112A\U0001110B\U00011134\U0001110E\U00011133\U00011126\U00011128"
-  comments: 
-'46': 
-  name: Hainan
-  code: 
-  unofficial_names: Hainan
   geo:
-    latitude: 20.017378
-    longitude: 110.349229
-    min_latitude: 18.1576157
-    min_longitude: 108.6164681
-    max_latitude: 20.1589349
-    max_longitude: 111.2785748
+    latitude: 22.815478
+    longitude: 108.327546
+    min_latitude: 20.8998362
+    min_longitude: 104.4501321
+    max_latitude: 26.3855658
+    max_longitude: 112.0618507
+  name: Guangxi
+HI:
+  unofficial_names: Hainan
   translations:
     en: Hainan
     af: Hainan
@@ -1447,19 +1378,16 @@
     ur: ہائنان
     vi: Hải Nam
     zh: 海南省
-    ccp: "\U00011126\U0001112D\U0001111A\U0001111A\U00011134"
-  comments: 
-'50': 
-  name: Chongqing
-  code: 
-  unofficial_names: Chongqing
   geo:
-    latitude: 29.56301
-    longitude: 106.551557
-    min_latitude: 28.1602253
-    min_longitude: 105.2897606
-    max_latitude: 32.2011871
-    max_longitude: 110.1998582
+    latitude: 20.017378
+    longitude: 110.349229
+    min_latitude: 18.1576157
+    min_longitude: 108.6164681
+    max_latitude: 20.1589349
+    max_longitude: 111.2785748
+  name: Hainan
+CQ:
+  unofficial_names: Chongqing
   translations:
     en: Chongqing
     af: Tsjongtsjing
@@ -1518,19 +1446,16 @@
     ur: چونگ کینگ
     vi: Trùng Khánh
     zh: 重庆市
-    ccp: "\U00011125\U00011127\U00011101\U00011107\U0001112A\U00011103\U00011128\U00011101"
-  comments: 
-'51': 
-  name: Sichuan
-  code: 
-  unofficial_names: Sichuan
   geo:
-    latitude: 30.651652
-    longitude: 104.075931
-    min_latitude: 26.0458656
-    min_longitude: 97.34808160000001
-    max_latitude: 34.313
-    max_longitude: 108.5467123
+    latitude: 29.56301
+    longitude: 106.551557
+    min_latitude: 28.1602253
+    min_longitude: 105.2897606
+    max_latitude: 32.2011871
+    max_longitude: 110.1998582
+  name: Chongqing
+SC:
+  unofficial_names: Sichuan
   translations:
     en: Sichuan
     af: Sitsjuan
@@ -1588,19 +1513,16 @@
     ur: سیچوان
     vi: Tứ Xuyên
     zh: 四川省
-    ccp: "\U00011125\U00011128\U00011125\U0001112A\U00011120\U0001111A\U00011134"
-  comments: 
-'52': 
-  name: Guizhou
-  code: 
-  unofficial_names: Guizhou
   geo:
-    latitude: 26.598194
-    longitude: 106.70741
-    min_latitude: 24.6199195
-    min_longitude: 103.6014388
-    max_latitude: 29.2212757
-    max_longitude: 109.5977559
+    latitude: 30.651652
+    longitude: 104.075931
+    min_latitude: 26.0458656
+    min_longitude: 97.34808160000001
+    max_latitude: 34.313
+    max_longitude: 108.5467123
+  name: Sichuan
+GZ:
+  unofficial_names: Guizhou
   translations:
     en: Guizhou
     af: Guizhou
@@ -1654,19 +1576,16 @@
     ur: گوئیژو
     vi: Quý Châu
     zh: 贵州省
-    ccp: "\U00011109\U0001112D\U0001112A\U0001110F\U0001112F"
-  comments: 
-'53': 
-  name: Yunnan
-  code: 
-  unofficial_names: Yunnan
   geo:
-    latitude: 25.045806
-    longitude: 102.710002
-    min_latitude: 21.1417698
-    min_longitude: 97.5279786
-    max_latitude: 29.2233271
-    max_longitude: 106.1977227
+    latitude: 26.598194
+    longitude: 106.70741
+    min_latitude: 24.6199195
+    min_longitude: 103.6014388
+    max_latitude: 29.2212757
+    max_longitude: 109.5977559
+  name: Guizhou
+YN:
+  unofficial_names: Yunnan
   translations:
     en: Yunnan
     af: Yunnan
@@ -1723,20 +1642,17 @@
     ur: یوننان
     vi: Vân Nam
     zh: 云南省
-    ccp: "\U00011103\U00011128\U00011120\U0001111A\U0001111A\U00011134"
-  comments: 
-'54': 
-  name: Xizang
-  code: 
+  geo:
+    latitude: 25.045806
+    longitude: 102.710002
+    min_latitude: 21.1417698
+    min_longitude: 97.5279786
+    max_latitude: 29.2233271
+    max_longitude: 106.1977227
+  name: Yunnan
+XZ:
   unofficial_names:
   - Tibet
-  geo:
-    latitude: 29.646923
-    longitude: 91.117212
-    min_latitude: 26.8548157
-    min_longitude: 78.3955448
-    max_latitude: 36.4833345
-    max_longitude: 99.116241
   translations:
     en: Tibet
     af: Tibet
@@ -1792,19 +1708,16 @@
     ur: تبت خود مختار علاقہ
     vi: Khu tự trị Tây Tạng
     zh: 西藏自治区
-    ccp: "\U00011111\U0001111D\U0001112C\U00011116\U00011134"
-  comments: 
-'61': 
-  name: Shaanxi
-  code: 
-  unofficial_names: Shaanxi
   geo:
-    latitude: 34.265472
-    longitude: 108.954239
-    min_latitude: 31.7050598
-    min_longitude: 105.491949
-    max_latitude: 39.5870105
-    max_longitude: 111.2480544
+    latitude: 29.646923
+    longitude: 91.117212
+    min_latitude: 26.8548157
+    min_longitude: 78.3955448
+    max_latitude: 36.4833345
+    max_longitude: 99.116241
+  name: Xizang
+SN:
+  unofficial_names: Shaanxi
   translations:
     en: Shaanxi
     af: Sjaanxi
@@ -1859,19 +1772,16 @@
     ur: شانسی
     vi: Thiểm Tây
     zh: 陕西省
-    ccp: "\U00011125\U0001111A\U00011134\U0001110E\U00011133\U00011126\U00011128"
-  comments: 
-'62': 
-  name: Gansu
-  code: 
-  unofficial_names: Gansu
   geo:
-    latitude: 36.059561
-    longitude: 103.826447
-    min_latitude: 32.5941106
-    min_longitude: 92.33914659999999
-    max_latitude: 42.7951629
-    max_longitude: 108.7123363
+    latitude: 34.265472
+    longitude: 108.954239
+    min_latitude: 31.7050598
+    min_longitude: 105.491949
+    max_latitude: 39.5870105
+    max_longitude: 111.2480544
+  name: Shaanxi
+GS:
+  unofficial_names: Gansu
   translations:
     en: Gansu
     af: Gansu
@@ -1926,19 +1836,16 @@
     ur: گانسو
     vi: Cam Túc
     zh: 甘肃省
-    ccp: "\U00011109\U0001111A\U00011134\U00011125\U0001112A"
-  comments: 
-'63': 
-  name: Qinghai
-  code: 
-  unofficial_names: Qinghai
   geo:
-    latitude: 36.620938
-    longitude: 101.780251
-    min_latitude: 31.5986623
-    min_longitude: 89.40442469999999
-    max_latitude: 39.2083444
-    max_longitude: 103.0709708
+    latitude: 36.059561
+    longitude: 103.826447
+    min_latitude: 32.5941106
+    min_longitude: 92.33914659999999
+    max_latitude: 42.7951629
+    max_longitude: 108.7123363
+  name: Gansu
+QH:
+  unofficial_names: Qinghai
   translations:
     en: Qinghai
     af: Qinghai
@@ -1993,20 +1900,17 @@
     ur: چنگھائی
     vi: Thanh Hải
     zh: 青海省
-    ccp: "\U00011107\U0001112A\U00011103\U00011128\U0001111A\U00011134\U0001110A\U0001112D"
-  comments: 
-'64': 
-  name: Ningxia
-  code: 
+  geo:
+    latitude: 36.620938
+    longitude: 101.780251
+    min_latitude: 31.5986623
+    min_longitude: 89.40442469999999
+    max_latitude: 39.2083444
+    max_longitude: 103.0709708
+  name: Qinghai
+NX:
   unofficial_names:
   - Ningxia Hui
-  geo:
-    latitude: 38.471318
-    longitude: 106.258754
-    min_latitude: 35.2383034
-    min_longitude: 104.2870392
-    max_latitude: 39.3815692
-    max_longitude: 107.6592744
   translations:
     en: Ningxia
     af: Ningxia
@@ -2063,21 +1967,18 @@
     ur: نینگشیا
     vi: Ninh Hạ
     zh: 宁夏回族自治区
-    ccp: "\U0001111A\U0001111A\U00011128\U00011101\U0001110E\U00011133\U00011126\U00011128\U00011120"
-  comments: 
-'65': 
-  name: Xinjiang
-  code: 
+  geo:
+    latitude: 38.471318
+    longitude: 106.258754
+    min_latitude: 35.2383034
+    min_longitude: 104.2870392
+    max_latitude: 39.3815692
+    max_longitude: 107.6592744
+  name: Ningxia
+XJ:
   unofficial_names:
   - Uighur
   - Uygur
-  geo:
-    latitude: 43.793026
-    longitude: 87.627704
-    min_latitude: 34.334503
-    min_longitude: 73.502355
-    max_latitude: 49.1823419
-    max_longitude: 96.38619419999999
   translations:
     en: Xinjiang
     af: Xinjiang
@@ -2133,12 +2034,19 @@
     ur: سنکیانگ
     vi: Tân Cương
     zh: 新疆维吾尔自治区
-    ccp: "\U0001110E\U00011128\U00011101\U0001110E\U00011128\U00011120\U0001110B\U00011134"
-  comments: 
-'71': 
-  name: Taiwan *
-  code: 
+  geo:
+    latitude: 43.793026
+    longitude: 87.627704
+    min_latitude: 34.334503
+    min_longitude: 73.502355
+    max_latitude: 49.1823419
+    max_longitude: 96.38619419999999
+  name: Xinjiang
+TW:
   unofficial_names: Taiwan *
+  translations:
+    en: Taiwan
+    zh: 台湾省
   geo:
     latitude: 23.69781
     longitude: 120.960515
@@ -2146,17 +2054,14 @@
     min_longitude: 116.7118602
     max_latitude: 26.3836884
     max_longitude: 123.4934282
-  translations:
-    en: Taiwan
-    zh: 台湾省
-    ccp: "\U00011111\U0001112D\U00011124\U0001111A\U00011134"
-  comments: 
-'91': 
-  name: Xianggang (zh) **
-  code: 
+  name: Taiwan *
+HK:
   unofficial_names:
   - Xianggang
   - Hongkong
+  translations:
+    en: Hong Kong SAR China
+    zh: 香港特别行政区
   geo:
     latitude: 
     longitude: 
@@ -2164,16 +2069,12 @@
     min_longitude: 
     max_latitude: 
     max_longitude: 
-  translations:
-    en: Hong Kong SAR China
-    zh: 香港特别行政区
-    ccp: "\U00011126\U00011127\U00011101 \U00011107\U00011127\U00011101 \U00011125\U00011122\U00011134
-      \U0001110C\U00011128\U0001111A"
-  comments: 
-'92': 
-  name: Aomen (zh) ***
-  code: 
+  name: Xianggang (zh) **
+MO:
   unofficial_names: Aomen (zh) ***
+  translations:
+    en: Macau SAR China
+    zh: 澳门特别行政区
   geo:
     latitude: 52.07663429999999
     longitude: 4.313052
@@ -2181,2603 +2082,4 @@
     min_longitude: 4.3130354
     max_latitude: 52.0766395
     max_longitude: 4.313068599999999
-  translations:
-    en: Macao SAR China
-    zh: 澳门特别行政区
-    ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011105\U0001112A \U00011125\U00011122\U00011134
-      \U0001110C\U00011128\U0001111A"
-  comments: 
-AH: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 30.6006773
-    longitude: 117.9249002
-    min_latitude: 29.3930378
-    min_longitude: 114.8827514
-    max_latitude: 34.6542336
-    max_longitude: 119.6491438
-  translations:
-    lv: Aņhui
-    mr: आंह्वी
-    cy: Anhui
-    af: Anhui
-    ceb: Anhui Sheng
-    ms: Anhui
-    ar: آنهوي
-    te: అన్హూయి
-    tr: Anhui
-    sr_Latn: Anhuej
-    lt: Anhui
-    ta: அன்ஹுயி மாகாணம்
-    vi: An Huy
-    ur: انہوئی
-    nl: Anhui
-    zh: 安徽省
-    bn: আনহুয়েই
-    fa: آن‌هوئی
-    pl: Anhui
-    sw: Anhui
-    yue_Hans: 安徽
-    sv: Anhui
-    el: Ανχουί
-    hi: अनहुइ
-    ja: 安徽省
-    en: Anhui
-    ru: Аньхой
-    gu: અનહુઇ
-    ka: ანხოი
-    sr: Анхуеј
-    fr: Anhui
-    ga: Anhui
-    hy: Անհոյ
-    ko: 안후이 성
-    gl: Anhui
-    es: Anhui
-    si: අන්හුයි
-    da: Anhui
-    fi: Anhui
-    hu: Anhuj
-    kn: ಅನ್ಹುಯಿ
-    id: Anhui
-    sk: An-chuej
-    ro: Anhui
-    he: אנחווי
-    hr: Anhui
-    eu: Anhui
-    pt: Anhui
-    et: Anhui
-    de: Anhui
-    pa: ਅਨਹੁਈ
-    it: Anhui
-    kk: Аньхой
-    ml: ആൻഹുയി
-    uk: Аньхой
-    cs: An-chuej
-    yue: 安徽
-    az: Anhoy
-    my: အန်းဟွေးပြည်နယ်
-    nb: Anhui
-    mn: Аньхуй муж
-    ca: Anhui
-    be: Правінцыя Аньхой
-    th: มณฑลอานฮุย
-    uz: Anxoy
-    bs: Anhui
-    mk: Анхуеј
-    bg: Анхуей
-  comments: 
-BJ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Pekina
-    mr: बीजिंग
-    cy: Beijing
-    af: Beijing
-    ceb: Beijing
-    ms: Beijing
-    ar: بكين
-    te: బీజింగ్
-    tr: Pekin
-    as: বেইজিং
-    sr_Latn: Peking
-    lt: Pekinas
-    ta: பெய்ஜிங்
-    vi: Bắc Kinh
-    ur: بیجنگ
-    nl: Peking
-    zh: 北京市
-    bn: বেইজিং
-    fa: پکن
-    pl: Pekin
-    sw: Beijing
-    yue_Hans: 北京
-    sv: Peking
-    el: Πεκίνο
-    hi: बीजिंग
-    jv: Beijing
-    ja: 北京市
-    en: Beijing
-    sq: Pekini
-    ru: Пекин
-    gu: બેઇજિંગ
-    ka: პეკინი
-    sr: Пекинг
-    fr: Pékin
-    ga: Béising
-    hy: Պեկին
-    ko: 베이징 시
-    gl: Pequín
-    es: Pekín
-    si: බෙයිජිං
-    ps: بېجنګ
-    da: Beijing
-    fi: Peking
-    ky: Бейжин
-    hu: Peking
-    kn: ಬೀಜಿಂಗ್
-    is: Beijing
-    id: Beijing
-    sk: Peking
-    ro: Beijing
-    ha: Beijing
-    km: ប៉េកាំង
-    he: בייג׳ינג
-    hr: Peking
-    eu: Pekin
-    so: Beijing
-    pt: Pequim
-    et: Peking
-    de: Peking
-    sl: Peking
-    pa: ਬੀਜਿੰਗ
-    it: Pechino
-    kk: Бейжің
-    ml: ബെയ്‌ജിങ്ങ്‌
-    uk: Пекін
-    or: ବେଜିଂ
-    cs: Peking
-    yue: 北京
-    az: Pekin
-    am: ቤዪጂንግ
-    my: ပေကျင်းမြို့
-    nb: Beijing
-    mn: Бээжин
-    ca: Pequín
-    be: Пекін
-    th: ปักกิ่ง
-    yo: Beijing
-    zu: Beijing
-    uz: Pekin
-    bs: Peking
-    mk: Пекинг
-    lo: ປັກກິ່ງ
-    ne: बेइजिङ
-    tk: Pekin
-  comments: 
-CQ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 29.4315861
-    longitude: 106.912251
-    min_latitude: 28.1602251
-    min_longitude: 105.2897606
-    max_latitude: 32.2011872
-    max_longitude: 110.1998581
-  translations:
-    lv: Čuncjina
-    mr: चोंगछिंग
-    cy: Chongqing
-    af: Tsjongtsjing
-    ceb: Chongqing Shi
-    ms: Chongqing
-    ar: تشونغتشينغ
-    te: చాంగ్ కింగ్
-    tr: Çongçing
-    sr_Latn: Čungking
-    lt: Čongčingas
-    ta: சோங்கிங்
-    vi: Trùng Khánh
-    ur: چونگ کینگ
-    nl: Chongqing
-    zh: 重庆市
-    bn: ছোংছিং
-    fa: چونگ‌کینگ
-    pl: Chongqing
-    yue_Hans: 重庆
-    sv: Chongqing
-    el: Τσονγκίνγκ
-    hi: चोंग्किंग
-    ja: 重慶市
-    en: Chongqing
-    sq: Çongqing
-    ru: Чунцин
-    gu: ચૉંગકિંગ
-    ka: ჩუნცინი
-    sr: Чунгкинг
-    fr: Chongqing
-    ga: Chongqing
-    ko: 충칭 시
-    gl: Chongqing
-    es: Chongqing
-    si: චොන්කින්
-    da: Chongqing
-    fi: Chongqing
-    hu: Csungking
-    kn: ಚಾಂಗ್‍ಕಿಂಗ್
-    is: Chongqing
-    id: Chongqing
-    sk: Čchung-čching
-    ro: Chongqing
-    ha: Chongqing
-    he: צ׳ונגצ׳ינג
-    hr: Chongqing
-    eu: Chongqing
-    pt: Chongqing
-    et: Chongqing Shi
-    de: Chongqing
-    sl: Chongqing
-    pa: ਚੌਂਗਕਿੰਗ
-    it: Chongqing
-    ml: ചോങ്ചിങ്
-    uk: Чунцін
-    cs: Čchung-čching
-    yue: 重慶
-    az: Çuntsin
-    am: ቾንግጪንግ
-    my: ချုံချင့်မြို့
-    nb: Chongqing
-    mn: Чунцин
-    ca: Txungking
-    be: Горад Чунцын
-    th: ฉงชิ่ง
-    uz: Chunsin
-    bs: Chongqing
-    mk: Чунгќинг
-    tk: Çunszin
-  comments: 
-FJ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 26.4836842
-    longitude: 117.9249002
-    min_latitude: 23.5285469
-    min_longitude: 115.85229
-    max_latitude: 28.3129012
-    max_longitude: 120.7273215
-  translations:
-    lv: Fudzjaņa
-    mr: फूच्यान
-    cy: Fujian
-    af: Foekien
-    ceb: Fujian Sheng
-    ms: Fujian
-    ar: فوجيان
-    tr: Fujian
-    sr_Latn: Fuđen
-    lt: Fudzianas
-    ta: புஜியான் மாகாணம்
-    vi: Phúc Kiến
-    ur: فوجیان
-    nl: Fujian
-    zh: 福建省
-    bn: ফুচিয়েন
-    fa: فوجیان
-    pl: Fujian
-    sw: Fujian
-    yue_Hans: 福建
-    sv: Fujian
-    el: Φουτσιάν
-    hi: फ़ूज्यान
-    jv: Fujian
-    ja: 福建省
-    en: Fujian
-    ru: Фуцзянь
-    ka: ფუძიანი
-    sr: Фуђен
-    fr: Fujian
-    ga: Fujian
-    hy: Ֆուցզյան
-    ko: 푸젠 성
-    es: Fujian
-    da: Fujian
-    fi: Fujian
-    hu: Fucsien
-    id: Fujian
-    ro: Fujian
-    he: פוג׳יין
-    hr: Fujian
-    eu: Fujian
-    pt: Fujian
-    et: Fujian
-    de: Fujian
-    pa: ਫੂਜਾਨ
-    it: Fujian
-    uk: Фуцзянь
-    cs: Fu-ťien
-    yue: 福建
-    az: Fucyen
-    my: ဖူကျန့်ပြည်နယ်
-    nb: Fujian
-    mn: Фужянь муж
-    ca: Fujian
-    be: Правінцыя Фуцзянь
-    th: มณฑลฝูเจี้ยน
-    uz: Futszyan
-    bs: Fujian
-    mk: Фуѓен
-  comments: 
-GD: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 23.3790333
-    longitude: 113.7632828
-    min_latitude: 20.2117179
-    min_longitude: 109.6549363
-    max_latitude: 25.5167711
-    max_longitude: 117.3186209
-  translations:
-    lv: Guanduna
-    mr: क्वांगतोंग
-    cy: Guangdong
-    af: Kwangdong
-    ceb: Guangdong Sheng
-    ms: Guangdong
-    ar: غوانغدونغ
-    te: గ్వాంగ్‌డాంగ్
-    tr: Guangdong
-    sr_Latn: Guangdung
-    lt: Guangdongas
-    ta: குவாங்டாங்
-    vi: Quảng Đông
-    ur: گوانگڈونگ
-    nl: Guangdong
-    zh: 广东省
-    bn: কুয়াংতুঙ
-    fa: گوانگ‌دونگ
-    pl: Guangdong
-    sw: Guangdong
-    yue_Hans: 广东
-    sv: Guangdong
-    el: Κουανγκτόνγκ
-    hi: गुआंगदोंग
-    ja: 広東省
-    en: Guangdong
-    ru: Гуандун
-    gu: ગુઆંગડોંગ
-    ka: გუანდუნი
-    sr: Гуангдунг
-    fr: Guangdong
-    ga: Guangdong
-    hy: Գուանդուն
-    ko: 광둥 성
-    es: Provincia de Cantón
-    si: ගුවන්ග්ඩොන්ග්
-    da: Guangdong
-    fi: Guangdong
-    hu: Kuangtung
-    kn: ಗುವಾಂಗ್ಡಾಂಗ್
-    is: Guangdong
-    id: Guangdong
-    ro: Guangdong
-    he: גואנגדונג
-    hr: Guangdong
-    eu: Guangdong
-    pt: Guangdong
-    et: Guangdong
-    de: Guangdong
-    sl: Guangdong
-    pa: ਗੁਆਂਗਦੋਂਗ
-    it: Guangdong
-    kk: Гуандун
-    ml: ഗ്വാങ്‌ഡോങ്
-    uk: Гуандун
-    cs: Kuang-tung
-    yue: 廣東
-    my: ကွမ်တုန်းပြည်နယ်
-    nb: Guangdong
-    mn: Гуандун муж
-    ca: Guangdong
-    be: Правінцыя Гуандун
-    th: มณฑลกวางตุ้ง
-    uz: Guangun
-    bs: Guangdong
-    mk: Гуангдунг
-  comments: 
-GS: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 21.0136888
-    longitude: 105.8536291
-  translations:
-    lv: Gaņsu
-    mr: कान्सू
-    cy: Gansu
-    af: Gansu
-    ceb: Gansu Sheng
-    ms: Gansu
-    ar: قانسو
-    te: గాన్సు
-    tr: Kansu
-    sr_Latn: Gansu
-    lt: Gansu
-    ta: கான்சு
-    vi: Cam Túc
-    ur: گانسو
-    nl: Gansu
-    zh: 甘肃省
-    bn: কানসু
-    fa: گانسو
-    pl: Gansu
-    sw: Gansu
-    yue_Hans: 甘肃
-    sv: Gansu
-    el: Γκανσού
-    hi: गांसू
-    ja: 甘粛省
-    en: Gansu
-    ru: Ганьсу
-    gu: ગન્સુ
-    ka: განსუ
-    sr: Гансу
-    fr: Gansu
-    ga: Gansu
-    ko: 간쑤 성
-    es: Gansu
-    si: ගන්සූ
-    da: Gansu
-    fi: Gansu
-    hu: Kanszu
-    kn: ಗ್ಯಾನ್ಸು
-    id: Gansu
-    ro: Gansu
-    he: גאנסו
-    hr: Gansu
-    eu: Gansu
-    pt: Gansu
-    et: Gansu
-    de: Gansu
-    sl: Gansu
-    it: Gansu
-    kk: Ганьсу
-    uk: Ґаньсу
-    cs: Kan-su
-    yue: 甘肅
-    az: Qansu
-    my: ကန်းစုပြည်နယ်
-    nb: Gansu
-    mn: Ганьсү
-    ca: Gansu
-    be: Правінцыя Ганьсу
-    th: มณฑลกานซู่
-    uz: Gansu
-    bs: Gansu
-    mk: Гансу
-  comments: 
-GX: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 23.7247599
-    longitude: 108.8076195
-    min_latitude: 20.8984479
-    min_longitude: 104.4501319
-    max_latitude: 26.3855656
-    max_longitude: 112.0618506
-  translations:
-    lv: Guansji Džuanu autonomais reģions
-    mr: क्वांग्शी
-    cy: Guangxi
-    af: Guangxi
-    ceb: Guangxi Zhuangzu Zizhiqu
-    ms: Guangxi
-    ar: قوانغشي
-    te: గువాంగ్జీ జువాంగ్ అటానమస్ ప్రాంతం
-    tr: Guangxi Zhuang Özerk Bölgesi
-    sr_Latn: Guangsi
-    lt: Guangsi
-    ta: குவாங்ஷி
-    vi: Quảng Tây
-    ur: گوانگشی
-    nl: Guangxi
-    zh: 广西壮族自治区
-    bn: কুয়াংশি
-    fa: گوانگشی
-    pl: Kuangsi
-    sw: Guangxi
-    yue_Hans: 广西
-    sv: Guangxi
-    el: Κουανγκσί
-    hi: गुआंगशी
-    ja: 広西チワン族自治区
-    en: Guangxi
-    ru: Гуанси-Чжуанский автономный район
-    gu: ગુઆન્ક્સી ઝુઆંગ ઓટોનોમસ પ્રદેશ
-    ka: გუანსი-ჯუანი
-    sr: Гуангси
-    fr: Guangxi
-    ga: Guangxi
-    hy: Գուանսի-Չժոունի ինքնավար շրջան
-    ko: 광시 좡족 자치구
-    gl: Guangxi
-    es: Guangxi
-    si: ගුඅන්ක්සි සුආන්ග් ස්වාධීන කලාපය
-    da: Guangxi
-    fi: Guangxi
-    hu: Kuanghszi-Csuang Autonóm Terület
-    kn: ಗುವಾಂಗ್ಕ್ಸಿ ಝುವಾಂಗ್ ಸ್ವಾಯತ್ತ ಪ್ರದೇಶ
-    id: Guangxi
-    ro: Guangxi
-    he: גואנגשי
-    hr: Guangxi
-    eu: Guangxi
-    pt: Guangxi
-    et: Guangxi
-    de: Guangxi
-    it: Guangxi
-    ml: ഗുവാങ്ക്സി
-    uk: Гуансі-Чжуанський автономний район
-    cs: Kuang-si
-    yue: 廣西
-    az: Quansi-Çjuan muxtar rayonu
-    nb: Guangxi
-    ca: Guangxi
-    be: Гуансі-Чжуанскі аўтаномны раён
-    th: เขตปกครองตนเองกว่างซีจ้วง
-    uz: Guansi-chjuan muxtor rayoni
-    bs: Guangxi
-    mk: Гуангси
-  comments: 
-GZ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 23.12911
-    longitude: 113.264385
-    min_latitude: 22.5143604
-    min_longitude: 112.9585067
-    max_latitude: 23.9329877
-    max_longitude: 114.059957
-  translations:
-    lv: Guidžou
-    mr: क्वीचौ
-    cy: Guizhou
-    af: Guizhou
-    ceb: Guizhou Sheng
-    ms: Guizhou
-    ar: قويتشو
-    te: గుయిజో
-    tr: Guizhou
-    sr_Latn: Guejdžou
-    lt: Guidžou
-    ta: குயிசூ
-    vi: Quý Châu
-    ur: گوئیژو
-    nl: Guizhou
-    zh: 贵州省
-    bn: কুয়েইচৌ
-    fa: گوئیژو
-    pl: Kuejczou
-    sw: Guizhou
-    yue_Hans: 贵州
-    sv: Guizhou
-    el: Κουιτσού
-    hi: गुइझोऊ
-    ja: 貴州省
-    en: Guizhou
-    ru: Гуйчжоу
-    gu: ગુઇઝોઉ
-    ka: გუიჯოუ
-    sr: Гуејџоу
-    fr: Guizhou
-    ga: Guizhou
-    hy: Գույչժոու
-    ko: 구이저우 성
-    es: Guizhou
-    si: ගුයිෂු
-    da: Guizhou
-    fi: Guizhou
-    hu: Kujcsou
-    kn: ಗುಯಿಝೌ
-    id: Guizhou
-    ro: Guizhou
-    he: גוויג׳ואו
-    hr: Guizhou
-    eu: Guizhou
-    pt: Guizhou
-    et: Guizhou
-    de: Guizhou
-    it: Guizhou
-    uk: Ґуйчжоу
-    cs: Kuej-čou
-    yue: 貴州
-    nb: Guizhou
-    mn: Гуйжоу муж
-    ca: Guizhou
-    be: Правінцыя Гуйчжоу
-    th: มณฑลกุ้ยโจว
-    uz: Guychjou
-    mk: Гуејџоу
-  comments: 
-HA: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 20.541591
-    longitude: 105.8942729
-  translations:
-    lv: Henaņa
-    mr: हनान
-    cy: Henan
-    af: Henan
-    ceb: Henan Sheng
-    ms: Henan
-    ar: خنان
-    te: హెనాన్
-    tr: Henan
-    sr_Latn: Henan
-    lt: Henanas
-    ta: ஹெய்நான்
-    vi: Hà Nam
-    ur: ہینان
-    nl: Henan
-    zh: 河南省
-    bn: হ্যনান
-    fa: استان هنان
-    pl: Henan
-    sw: Henan
-    yue_Hans: 河南
-    sv: Henan
-    el: Χενάν
-    hi: हेनान
-    ja: 河南省
-    en: Henan
-    ru: Хэнань
-    gu: હેનન
-    ka: ხენანი
-    sr: Хенан
-    fr: Henan
-    ga: Henan
-    hy: Հենան
-    ko: 허난 성
-    gl: Henan
-    es: Henan
-    si: හෙනන්
-    da: Henan
-    fi: He’nan
-    hu: Honan
-    kn: ಹೆನಾನ್
-    id: Henan
-    ro: Henan
-    he: חנאן
-    hr: Henan
-    eu: Henan
-    pt: Henan
-    et: Henan
-    de: Henan
-    sl: Henan
-    pa: ਹੇਨਾਨ
-    it: Henan
-    kk: Хэнань
-    ml: ഹെനാൻ
-    uk: Хенань
-    cs: Che-nan
-    yue: 河南
-    nb: Henan
-    mn: Хэнань
-    ca: Henan
-    be: Правінцыя Хэнань
-    th: มณฑลเหอหนาน
-    uz: Xenan
-    mk: Хенан
-  comments: 
-HB: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 30.7378118
-    longitude: 112.2384017
-    min_latitude: 29.0294881
-    min_longitude: 108.3669642
-    max_latitude: 33.275616
-    max_longitude: 116.1351876
-  translations:
-    lv: Hubei
-    mr: हूपै
-    cy: Hubei
-    af: Hubei
-    ceb: Hubei Sheng
-    ms: Hubei
-    ar: خوبي
-    te: హుబే
-    tr: Hubei
-    sr_Latn: Hubej
-    lt: Hubėjus
-    ta: ஹுபேய் மாகாணம்
-    vi: Hồ Bắc
-    ur: ہوبئی
-    nl: Hubei
-    zh: 湖北省
-    bn: হুপেই
-    fa: هوبئی
-    pl: Hubei
-    sw: Hubei
-    yue_Hans: 湖北
-    sv: Hubei
-    el: Χουπέι
-    hi: हूबेई
-    ja: 湖北省
-    en: Hubei
-    ru: Хубэй
-    gu: હુબેઇ
-    ka: ხუბეი
-    sr: Хубеј
-    fr: Hubei
-    ga: Hubei
-    ko: 후베이 성
-    es: Hubei
-    si: හුබෙයි
-    da: Hubei
-    fi: Hubei
-    hu: Hupej
-    kn: ಹುಬೈ
-    is: Hubei
-    id: Hubei
-    ro: Hubei
-    he: חוביי
-    hr: Hubei
-    eu: Hubei
-    pt: Hubei
-    et: Hubei
-    de: Hubei
-    sl: Hubei
-    pa: ਹੂਬੇਈ
-    it: Hubei
-    kk: Хубэй
-    uk: Хубей
-    cs: Chu-pej
-    yue: 湖北
-    nb: Hubei
-    ca: Hubei
-    be: Правінцыя Хубэй
-    th: มณฑลหูเป่ย์
-    uz: Xubey
-    mk: Хубеј
-  comments: 
-HE: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 37.8956594
-    longitude: 114.9042208
-    min_latitude: 36.0482063
-    min_longitude: 113.4653687
-    max_latitude: 42.6197176
-    max_longitude: 119.8725768
-  translations:
-    lv: Hebei
-    mr: हपै
-    cy: Hebei
-    af: Hebei
-    ceb: Hebei Sheng
-    ms: Hebei
-    ar: خبي
-    te: హెబీ
-    tr: Hebei
-    sr_Latn: Hebej
-    lt: Hebei
-    ta: ஏபெய் மாகாணம்
-    vi: Hà Bắc
-    ur: ہیبئی
-    nl: Hebei
-    zh: 河北省
-    bn: হ্যপেই
-    fa: هبئی
-    pl: Hebei
-    sw: Hebei
-    yue_Hans: 河北
-    sv: Hebei
-    el: Χεπέι
-    hi: हेबेई
-    ja: 河北省
-    en: Hebei
-    ru: Хэбэй
-    gu: હેબી
-    ka: ხებეი
-    sr: Хебеј
-    fr: Hebei
-    ga: Hebei
-    hy: Հեբեյ
-    ko: 허베이 성
-    es: Hebei
-    si: හෙබෙයි
-    da: Hebei
-    fi: Hebei
-    hu: Hopej
-    kn: ಹೆಬಿ
-    id: Hebei
-    ro: Hebei
-    he: חביי
-    hr: Hebei
-    eu: Hebei
-    pt: Hebei
-    et: Hebei
-    de: Hebei
-    sl: Hebei
-    it: Hebei
-    ml: ഹെബെയ്
-    uk: Хебей
-    cs: Che-pej
-    yue: 河北
-    az: Hebei
-    nb: Hebei
-    mn: Хэбэй
-    ca: Hebei
-    be: Правінцыя Хэбэй
-    th: มณฑลเหอเป่ย์
-    uz: Xebey
-    mk: Хебеј
-  comments: 
-HI: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Hainaņa
-    mr: हाइनान
-    cy: Hainan
-    af: Hainan
-    ceb: Hainan Sheng
-    ms: Hainan
-    ar: هاينان
-    te: హైనన్
-    tr: Hainan
-    sr_Latn: Hajnan
-    lt: Hainanas
-    ta: ஆய்னான்
-    vi: Hải Nam
-    ur: ہائنان
-    nl: Hainan
-    zh: 海南省
-    bn: হাইনান
-    fa: هاینان
-    pl: Hajnan
-    sw: Hainan
-    yue_Hans: 海南
-    sv: Hainan
-    el: Χαϊνάν
-    hi: हाइनान
-    ja: 海南省
-    en: Hainan
-    ru: Хайнань
-    gu: હૈનન
-    ka: ხაინანი
-    sr: Хајнан
-    fr: Hainan
-    ga: Hainan
-    ko: 하이난 성
-    gl: Hainan
-    es: Hainan
-    si: හයිනන්
-    da: Hainan
-    fi: Hainan
-    ky: Хайнань
-    hu: Hajnan
-    kn: ಹೈನಾನ್
-    is: Hainan
-    id: Hainan
-    sk: Chaj-nan
-    ro: Hainan
-    he: האינאן
-    hr: Hainan
-    eu: Hainan
-    pt: Hainan
-    et: Hainan
-    de: Hainan
-    pa: ਹਾਈਨਾਨ
-    it: Hainan
-    kk: Хайнань аралы
-    uk: Хайнань
-    cs: Chaj-nan
-    yue: 海南
-    az: Haynan
-    am: ሃይናን
-    nb: Hainan
-    mn: Хайнань
-    ca: Hainan
-    be: Правінцыя Хайнань
-    th: มณฑลไหหลำ
-    uz: Xaynan
-    mk: Хајнан
-  comments: 
-HK: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 22.3193039
-    longitude: 114.1693611
-    min_latitude: 22.1435
-    min_longitude: 113.8259001
-    max_latitude: 22.5619469
-    max_longitude: 114.4294999
-  translations:
-    lv: Honkonga
-    mr: हाँग काँग
-    cy: Hong Cong
-    af: Hongkong
-    ceb: Hong Kong
-    yo_BJ: Hɔ́ng Kɔng
-    ms: Hong Kong
-    ar: هونغ كونغ
-    te: హాంగ్‌కాంగ్
-    tr: Hong Kong
-    as: হংকং
-    sr_Latn: Hongkong
-    lt: Honkongas
-    ta: ஃகொங்கொங்
-    vi: Hồng Kông
-    ur: ہانگ کانگ
-    nl: Hongkong
-    zh: 香港
-    bn: হংকং
-    fa: هنگ کنگ
-    pl: Hongkong
-    sw: Hong Kong
-    yue_Hans: 香港
-    sv: Hongkong
-    el: Χονγκ Κονγκ
-    hi: हांगकांग
-    jv: Hong Kong
-    ja: 香港
-    en: Hong Kong
-    sq: Hong Kong
-    ru: Гонконг
-    gu: હોંગકોંગ
-    ka: ჰონგ-კონგი
-    sr: Хонгконг
-    fr: Hong Kong
-    ga: Hong Cong
-    hy: Հոնկոնգ
-    ko: 홍콩
-    ig: Hong Kong
-    gl: Hong Kong
-    es: Hong Kong
-    si: හොංකොං
-    ps: هانګ کانګ
-    da: Hongkong
-    fi: Hongkong
-    ky: Гонконг
-    hu: Hongkong
-    kn: ಹಾಂಗ್ ಕಾಂಗ್
-    is: Hong Kong
-    id: Hong Kong
-    sk: Hongkong
-    ro: Hong Kong
-    ha: Hong Kong
-    km: ហុងកុង
-    he: הונג קונג
-    hr: Hong Kong
-    eu: Hong Kong
-    so: Hong Kong
-    pt: Hong Kong
-    et: Hongkong
-    de: Hongkong
-    sl: Hong Kong
-    pa: ਹਾਂਗ ਕਾਂਗ
-    it: Hong Kong
-    kk: Гонконг
-    ml: ഹോങ്കോങ്
-    uk: Гонконг
-    or: ହଂକଂ
-    cs: Hongkong
-    yue: 香港
-    az: Honkonq
-    am: ሆንግ ኮንግ
-    my: ဟောင်ကောင်
-    nb: Hongkong
-    mn: Хонг Конг
-    ca: Hong Kong
-    be: Ганконг
-    th: เขตบริหารพิเศษฮ่องกง
-    yo: Họ́ng Kọng
-    zu: Hong Kong
-    uz: Gonkong
-    bs: Hong Kong
-    mk: Хонгконг
-    lo: ຮົງກົງ
-    ne: हङकङ
-    tk: Gonkong
-  comments: 
-HL: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 47.12164720000001
-    longitude: 128.738231
-    min_latitude: 43.4257982
-    min_longitude: 121.1817528
-    max_latitude: 53.5636239
-    max_longitude: 135.0956696
-  translations:
-    lv: Heilundzjana
-    mr: हैलोंगच्यांग
-    cy: Heilongjiang
-    af: Heilongjiang
-    ceb: Heilongjiang Sheng
-    ms: Heilongjiang
-    ar: هيلونغجيانغ
-    te: హీలాంగ్‌జియాంగ్
-    tr: Heilongjiang
-    sr_Latn: Hejlungđang
-    lt: Heilongdziangas
-    ta: கெய்லோங்சியாங்
-    vi: Hắc Long Giang
-    ur: ہیلونگجیانگ
-    nl: Heilongjiang
-    zh: 黑龙江省
-    bn: হেইলোংচিয়াং
-    fa: هیلونگ‌جیانگ
-    pl: Heilongjiang
-    sw: Heilongjiang
-    yue_Hans: 黑龙江
-    sv: Heilongjiang
-    el: Χεϊλονγκτσιάνγκ
-    hi: हेइलोंगजियांग
-    ja: 黒竜江省
-    en: Heilongjiang
-    ru: Хэйлунцзян
-    gu: હેયલોંગજિયાંગ
-    ka: ხეილუნძიანი
-    sr: Хејлунгђанг
-    fr: Heilongjiang
-    ga: Heilongjiang
-    hy: Հեյլունցզյան
-    ko: 헤이룽장 성
-    gl: Heilongjiang
-    es: Heilongjiang
-    si: හෙලිඔන්ග්ජියාන්ග්
-    da: Heilongjiang
-    fi: Heilongjiang
-    hu: Hejlungcsiang
-    kn: ಹೀಲೋಂಗ್ಜಿಯಾಂಗ್
-    id: Heilongjiang
-    ro: Heilongjiang
-    he: חיילונגג׳יאנג
-    hr: Heilongjiang
-    eu: Heilongjiang
-    pt: Heilongjiang
-    et: Heilongjiang
-    de: Heilongjiang
-    it: Heilongjiang
-    uk: Провінція Хейлунцзян
-    cs: Chej-lung-ťiang
-    yue: 黑龍江
-    nb: Heilongjiang
-    mn: Хармөрөн
-    ca: Heilongjiang
-    be: Правінцыя Хэйлунцзян
-    th: มณฑลเฮย์หลงเจียง
-    uz: Xeylunszyan
-    mk: Хејлунгѓанг
-  comments: 
-HN: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 27.6252995
-    longitude: 111.8568586
-    min_latitude: 24.6363232
-    min_longitude: 108.7908408
-    max_latitude: 30.1263628
-    max_longitude: 114.2612646
-  translations:
-    lv: Hunaņa
-    mr: हूनान
-    cy: Hunan
-    af: Hunan
-    ceb: Hunan Sheng
-    ms: Hunan
-    ar: خونان
-    te: హునాన్
-    tr: Hunan
-    sr_Latn: Hunan
-    lt: Hunanas
-    ta: ஹுனான் மாகாணம்
-    vi: Hồ Nam
-    ur: ہونان
-    nl: Hunan
-    zh: 湖南省
-    bn: হুনান
-    fa: هونان
-    pl: Hunan
-    sw: Hunan
-    yue_Hans: 湖南
-    sv: Hunan
-    el: Χουνάν
-    hi: हूनान
-    ja: 湖南省
-    en: Hunan
-    ru: Хунань
-    gu: હુનાન
-    ka: ხუნანი
-    sr: Хунан
-    fr: Hunan
-    ga: Hunan
-    ko: 후난 성
-    es: Hunan
-    si: හුනාන්
-    da: Hunan
-    fi: Hunan
-    hu: Hunan
-    kn: ಹುನಾನ್
-    id: Hunan
-    ro: Hunan
-    he: חונאן
-    hr: Hunan
-    eu: Hunan
-    pt: Hunan
-    et: Hunan
-    de: Hunan
-    sl: Hunan
-    it: Hunan
-    ml: ഹുനാൻ
-    uk: Хунань
-    cs: Chu-nan
-    yue: 湖南
-    az: Xunan
-    nb: Hunan
-    mn: Хүнань
-    ca: Hunan
-    be: Правінцыя Хунань
-    th: มณฑลหูหนาน
-    uz: Xunan
-    mk: Хунан
-  comments: 
-JL: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Dzjiliņa
-    mr: चीलिन
-    cy: Jilin
-    af: Jilin
-    ceb: Jilin Sheng
-    ms: Jilin
-    ar: جيلين
-    te: జిలిన్
-    tr: Jilin
-    sr_Latn: Đilin
-    lt: Dzilinas
-    ta: சிலின் மாகாணம்
-    vi: Cát Lâm
-    ur: جیلن
-    nl: Jilin
-    zh: 吉林省
-    bn: চিলিন
-    fa: جی‌لین
-    pl: Jilin
-    sw: Jilin
-    yue_Hans: 吉林
-    sv: Jilin
-    el: Τζιλίν
-    hi: जीलिन
-    jv: Jilin
-    ja: 吉林省
-    en: Jilin
-    ru: Гирин
-    gu: જિલિન
-    ka: გირინი
-    sr: Ђилин
-    fr: Jilin
-    ga: Jilin
-    hy: Գիրին
-    ko: 지린 성
-    gl: Jilin
-    es: Jilin
-    si: ජිලින්
-    da: Jilin
-    fi: Jilin
-    hu: Csilin
-    kn: ಜಿಲಿನ್
-    id: Jilin
-    ro: Jilin
-    he: ג׳ילין
-    hr: Jilin
-    eu: Jilin
-    pt: Jilin
-    et: Jilini provints
-    de: Jilin
-    pa: ਜੀਲਿਨ
-    it: Jilin
-    uk: Цзілінь
-    cs: Ťi-lin
-    yue: 吉林
-    nb: Jilin
-    mn: Гирин
-    ca: Jilin
-    be: Правінцыя Гірын
-    th: มณฑลจี๋หลิน
-    uz: Girin
-    mk: Ѓилин
-  comments: 
-JS: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Dzjansu
-    mr: च्यांग्सू
-    cy: Jiangsu
-    af: Jiangsu
-    ceb: Jiangsu Sheng
-    ms: Jiangsu
-    ar: جيانغسو
-    te: జియాంగ్సు
-    tr: Jiangsu
-    sr_Latn: Đangsu
-    lt: Dziangsu
-    ta: சியாங்சு
-    vi: Giang Tô
-    ur: جیانگسو
-    nl: Jiangsu
-    zh: 江苏省
-    bn: চিয়াংসু
-    fa: جیانگسو
-    pl: Jiangsu
-    sw: Jiangsu
-    yue_Hans: 江苏
-    sv: Jiangsu
-    el: Τσιανγκσού
-    hi: जिआंगसू
-    ja: 江蘇省
-    en: Jiangsu
-    ru: Цзянсу
-    gu: જિઆંગ્સુ
-    ka: ძიანსუ
-    sr: Ђангсу
-    fr: Jiangsu
-    ga: Jiangsu
-    hy: Ցզյանսու
-    ko: 장쑤 성
-    es: Jiangsu
-    si: ජියන්ග්සු
-    da: Jiangsu
-    fi: Jiangsu
-    hu: Csiangszu
-    kn: ಜಿಯಾಂಗ್ಸು
-    id: Jiangsu
-    ro: Jiangsu
-    he: ג׳יאנגסו
-    hr: Jiangsu
-    eu: Jiangsu
-    pt: Jiangsu
-    et: Jiangsu
-    de: Jiangsu
-    sl: Džiangsu
-    it: Jiangsu
-    ml: ജാങ്സൂ
-    uk: Цзянсу
-    cs: Ťiang-su
-    yue: 江蘇
-    az: Cianqsu
-    nb: Jiangsu
-    mn: Жянсү
-    ca: Jiangsu
-    be: Правінцыя Цзянсу
-    th: มณฑลเจียงซู
-    uz: Szyansu
-    mk: Ѓангсу
-  comments: 
-JX: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Dzjansji
-    mr: च्यांग्शी
-    cy: Jiangxi
-    af: Jiangsji
-    ceb: Jiangxi Sheng
-    ms: Jiangxi
-    ar: جيانغشي
-    te: జియాంగ్సీ
-    tr: Jiangxi
-    sr_Latn: Đangsi
-    lt: Dziangsi
-    ta: ஜியாங்சி மாகாணம்
-    vi: Giang Tây
-    ur: جیانگشی
-    nl: Jiangxi
-    zh: 江西省
-    bn: চিয়াংশি
-    fa: جیانگشی
-    pl: Jiangxi
-    sw: Jiangxi
-    yue_Hans: 江西
-    sv: Jiangxi
-    el: Τσιανγκσί
-    hi: जिआंगशी
-    ja: 江西省
-    en: Jiangxi
-    ru: Цзянси
-    gu: જીએન્ક્સી
-    ka: ძიანსი
-    sr: Ђангси
-    fr: Jiangxi
-    ga: Jiangxi
-    hy: Ցզյանսի
-    ko: 장시 성
-    es: Jiangxi
-    si: ජියන්ග්ක්සි
-    da: Jiangxi
-    fi: Jiangxi
-    hu: Csianghszi
-    kn: ಜಿಯಾಂಗ್ಕ್ಸಿ
-    id: Jiangxi
-    ro: Jiangxi
-    he: ג׳יאנגשי
-    hr: Jiangxi
-    eu: Jiangxi
-    pt: Jiangxi
-    et: Jiangxi
-    de: Jiangxi
-    it: Jiangxi
-    uk: Цзянсі
-    cs: Ťiang-si
-    yue: 江西
-    az: Jianqxi
-    nb: Jiangxi
-    mn: Жянши муж
-    ca: Jiangxi
-    be: Правінцыя Цзянсі
-    th: มณฑลเจียงซี
-    uz: Szyansi
-    mk: Ѓангси
-  comments: 
-LN: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 41.9436543
-    longitude: 122.5290376
-    min_latitude: 38.7198325
-    min_longitude: 118.8454669
-    max_latitude: 43.4909838
-    max_longitude: 125.7914592
-  translations:
-    lv: Liaonina
-    mr: ल्याओनिंग
-    cy: Liaoning
-    af: Liaoning
-    ceb: Liaoning Sheng
-    ms: Liaoning
-    ar: لياونينغ
-    te: లియోవానింగ్
-    tr: Liaoning
-    sr_Latn: Ljaoning
-    lt: Liaoningas
-    ta: லியாவோனிங்
-    vi: Liêu Ninh
-    ur: لیاؤننگ
-    nl: Liaoning
-    zh: 辽宁省
-    bn: লিয়াওনিং
-    fa: لیائونینگ
-    pl: Liaoning
-    sw: Liaoning
-    yue_Hans: 辽宁
-    sv: Liaoning
-    el: Λιαόνινγκ
-    hi: लियाओनिंग
-    ja: 遼寧省
-    en: Liaoning
-    ru: Ляонин
-    gu: લિયોનિંગ
-    ka: ლიაონინი
-    sr: Љаонинг
-    fr: Liaoning
-    ga: Liaoning
-    hy: Լյաոնին
-    ko: 랴오닝 성
-    gl: Liaoning
-    es: Liaoning
-    si: ලියෝනින්ග්
-    da: Liaoning
-    fi: Liaoning
-    hu: Liaoning
-    kn: ಲಿಯಾನಿಂಗ್
-    id: Liaoning
-    ro: Liaoning
-    he: ליאונינג
-    hr: Liaoning
-    eu: Liaoning
-    pt: Liaoning
-    et: Liaoning
-    de: Liaoning
-    sl: Liaoning
-    pa: ਲੀਆਓਨਿੰਗ
-    it: Liaoning
-    uk: Ляонін
-    cs: Liao-ning
-    yue: 遼寧
-    my: လျောင်းနင်ပြည်နယ်
-    nb: Liaoning
-    mn: Ляонин
-    ca: Liaoning
-    be: Правінцыя Ляанін
-    th: มณฑลเหลียวหนิง
-    uz: Lyaonin
-    mk: Љаонинг
-  comments: 
-MO: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Makao
-    mr: मकाओ
-    cy: Macau
-    af: Macau
-    ceb: Macau
-    ms: Makau
-    ar: ماكاو
-    te: మకావు
-    tr: Makao
-    as: মাকাও
-    sr_Latn: Makao
-    lt: Makao
-    ta: மக்காவு
-    vi: Ma Cao
-    ur: مکاؤ
-    nl: Macau
-    zh: 澳門
-    bn: মাকাও
-    fa: ماکائو
-    pl: Makau
-    sw: Macau
-    yue_Hans: 澳门
-    sv: Macao
-    el: Μακάου
-    hi: मकाउ
-    jv: Makau
-    ja: マカオ
-    en: Macau
-    sq: Makao
-    ru: Макао
-    gu: મકાઉ
-    ka: მაკაო
-    sr: Макао
-    fr: Macao
-    ga: Macau
-    hy: Մակաու
-    ko: 마카오
-    es: Macao
-    si: මකාවෝ
-    da: Macao
-    fi: Macao
-    ky: Макао
-    hu: Makaó
-    kn: ಮಕಾವು
-    is: Makaó
-    id: Makau
-    sk: Macao
-    ro: Macao
-    ha: Macau
-    km: ម៉ាកាវ
-    he: מקאו
-    hr: Makao
-    eu: Macao
-    so: Makaw
-    pt: Macau
-    et: Macau
-    de: Macau
-    sl: Macao
-    pa: ਮਕਾਉ
-    it: Macao
-    kk: Аумын
-    ml: മകൗ
-    uk: Аоминь
-    or: ମକାଉ
-    cs: Macao
-    yue: 澳門
-    az: Makao
-    am: ማካው
-    my: မကာအို
-    nb: Macao
-    mn: Макао
-    ca: Macau
-    be: Макаа
-    th: มาเก๊า
-    yo: Màkáù
-    uz: Makao
-    bs: Makao
-    mk: Макао
-    ne: मकाउ
-    tk: Makao
-  comments: 
-NM: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 34.5199402
-    longitude: -105.8700901
-    min_latitude: 31.3322529
-    min_longitude: -109.050173
-    max_latitude: 37.0002931
-    max_longitude: -103.001964
-  translations:
-    lv: Iekšējā Mongolija
-    mr: आंतरिक मंगोलिया
-    cy: Mongolia Fewnol
-    af: Binne-Mongolië
-    ceb: Inner Mongolia Autonomous Region
-    ms: Mongolia Dalam
-    ar: منغوليا الداخلية
-    te: ఇన్నర్ మంగోలియా
-    tr: İç Moğolistan
-    sr_Latn: Unutrašnja Mongolija
-    lt: Vidinė Mongolija
-    ta: உள் மங்கோலியா
-    vi: Nội Mông
-    ur: اندرونی منگولیا
-    nl: Binnen-Mongolië
-    zh: 内蒙古自治区
-    bn: অন্তর্দেশীয় মঙ্গোলিয়া
-    fa: مغولستان داخلی
-    pl: Mongolia Wewnętrzna
-    sw: Mongolia ya Kichina
-    yue_Hans: 内蒙古
-    sv: Inre Mongoliet
-    el: Εσωτερική Μογγολία
-    hi: भीतरी मंगोलिया
-    ja: 内モンゴル自治区
-    en: Inner Mongolia
-    ru: Внутренняя Монголия
-    gu: ઇનર મંગોલિયા
-    ka: შიგა მონღოლეთი
-    sr: Унутрашња Монголија
-    fr: Mongolie-Intérieure
-    ga: An Ion-Mhongóil
-    ko: 내몽골 자치구
-    gl: Mongolia Interior
-    es: Mongolia Interior
-    si: ඇතුල් මොන්ගෝලියාව
-    da: Indre Mongoliet
-    fi: Sisä-Mongolia
-    hu: Belső-Mongólia Autonóm Terület
-    kn: ಇನ್ನರ್ ಮಂಗೋಲಿಯಾ
-    id: Mongolia Dalam
-    sk: Vnútorné Mongolsko
-    ro: Mongolia Interioară
-    he: מונגוליה הפנימית
-    hr: Unutarnja Mongolija
-    eu: Barne Mongolia
-    pt: Mongólia Interior
-    et: Sise-Mongoolia
-    de: Innere Mongolei
-    pa: ਅੰਦਰੂਨੀ ਮੰਗੋਲੀਆ
-    it: Mongolia Interna
-    kk: Ішкі Моңғолия
-    ml: ഇന്നർ മംഗോളിയ
-    uk: Внутрішня Монголія
-    cs: Vnitřní Mongolsko
-    yue: 內蒙古
-    az: Daxili Monqolustan Muxtar Rayonu
-    nb: Indre Mongolia
-    mn: Өвөр Монголын Өөртөө Засах Орон
-    ca: Mongòlia Interior
-    be: Унутраная Манголія
-    th: เขตปกครองตนเองมองโกเลียใน
-    uz: Ichki Mongoliya
-    bs: Unutrašnja Mongolija
-    mk: Внатрешна Монголија
-    ne: भित्री मङ्गोलिया
-  comments: 
-NX: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Ninsjas Hueju autonomais reģions
-    mr: निंग्स्या
-    cy: Ningxia
-    af: Ningxia
-    ceb: Ningxia Huizu Zizhiqu
-    ms: Ningxia
-    ar: نينغشيا
-    te: నింజీియా హూయి అటానమస్ ప్రాంతం
-    tr: Ningxia Huizu Özerk Bölgesi
-    sr_Latn: Ningsja
-    lt: Ningsia
-    ta: நின்ஷியா தன்னாட்சிப் பகுதி
-    vi: Ninh Hạ
-    ur: نینگشیا
-    nl: Ningxia
-    zh: 宁夏回族自治区
-    bn: নিংশিয়া
-    fa: نینگ‌شیا
-    pl: Ningxia
-    sw: Ningxia
-    yue_Hans: 宁夏
-    sv: Ningxia
-    el: Νινγκσιά
-    hi: निंगशिया
-    jv: Ningxia
-    ja: 寧夏回族自治区
-    en: Ningxia
-    ru: Нинся-Хуэйский автономный район
-    gu: નિંગઝિયા હુઈ ઓટોનોમસ પ્રદેશ
-    ka: ნინსია-ხუეი
-    sr: Нингсја
-    fr: Níngxià
-    ga: Ningxia
-    hy: Նինսյա-Խուեյ
-    ko: 닝샤 후이족 자치구
-    gl: Ningxia
-    es: Ningxia
-    si: නින්ග්ක්සියා හුයි ස්‌වාධීන කලාපය
-    da: Ningxia
-    fi: Ningxia
-    hu: Ninghszia-Huj Autonóm Terület
-    kn: ನಿಂಗ್ಕ್ಸಿಯಾ ಹುಯಿ ಸ್ವಾಯತ್ತ ಪ್ರದೇಶ
-    id: Ningxia
-    ro: Ningxia
-    he: נינגשיה
-    hr: Ningxia
-    eu: Ningxia
-    pt: Ningxia
-    et: Ningxia
-    de: Ningxia
-    it: Ningsia
-    kk: Нинся
-    ml: നിൻഗ്സിയ
-    uk: Нінся-Хуейський автономний район
-    cs: Ning-sia
-    yue: 寧夏
-    az: Ninsya-Huey Muxtar Rayonu
-    nb: Ningxia
-    mn: Ниншя - Хотонгийн өөртөө засах орон
-    ca: Ningxia
-    be: Нінся-Хуэйскі аўтаномны раён
-    th: เขตปกครองตนเองหนิงเซี่ยหุย
-    uz: Ninsya-Xuey muxtor rayoni
-    mk: Нингсја
-  comments: 
-QH: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Cjinhai
-    mr: छिंगहाय
-    cy: Qinghai
-    af: Qinghai
-    ceb: Qinghai Sheng
-    ms: Qinghai
-    ar: تشينغهاي
-    te: ఖింగాయ్
-    tr: Çinghay
-    sr_Latn: Ćinghaj
-    lt: Činghai
-    ta: கிங்ஹாய் மாகாணம்
-    vi: Thanh Hải
-    ur: چنگھائی
-    nl: Qinghai
-    zh: 青海省
-    bn: ছিংহাই
-    fa: چینگهای
-    pl: Qinghai
-    sw: Qinghai
-    yue_Hans: 青海
-    sv: Qinghai
-    el: Κινγκχάι
-    hi: चिंगहई
-    ja: 青海省
-    en: Qinghai
-    ru: Цинхай
-    gu: ક્વિઘાઈ
-    ka: ცინხაი
-    sr: Ћингхај
-    fr: Qinghai
-    ga: Qinghai
-    hy: Ցինհայ
-    ko: 칭하이 성
-    gl: Qinghai
-    es: Qinghai
-    si: කින්ග්හයි
-    da: Qinghai
-    fi: Qinghai
-    hu: Csinghaj
-    kn: ಕ್ವಿಂಗ್ಹೈ
-    id: Qinghai
-    ro: Qinghai
-    he: צ׳ינגהאי
-    hr: Qinghai
-    eu: Qinghai
-    pt: Qinghai
-    et: Qinghai
-    de: Qinghai
-    it: Qinghai
-    uk: Цінхай
-    cs: Čching-chaj
-    yue: 青海
-    nb: Qinghai
-    mn: Хөхнуур
-    ca: Qinghai
-    be: Правінцыя Цынхай
-    th: มณฑลชิงไห่
-    uz: Sinxay
-    mk: Ќингхај
-  comments: 
-SC: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Sičuaņa
-    mr: स-च्वान
-    cy: Sichuan
-    af: Sitsjuan
-    ceb: Sichuan Sheng
-    ms: Sichuan
-    ar: سيتشوان
-    te: సిచువాన్
-    tr: Siçuan
-    sr_Latn: Sičuan
-    lt: Sičuanas
-    ta: சிச்சுவான்
-    vi: Tứ Xuyên
-    ur: سیچوان
-    nl: Sichuan
-    zh: 四川省
-    bn: সিছুয়ান
-    fa: سیچوآن
-    pl: Syczuan
-    sw: Sichuan
-    yue_Hans: 四川
-    sv: Sichuan
-    el: Σιτσουάν
-    hi: सिचुआन
-    ja: 四川省
-    en: Sichuan
-    ru: Сычуань
-    gu: સિચુઆન
-    ka: სიჩუანი
-    sr: Сичуан
-    fr: Sichuan
-    ga: Sichuan
-    hy: Սիչուան
-    ko: 쓰촨 성
-    es: Sichuan
-    si: සිචුවාන්
-    da: Sichuan
-    fi: Sichuan
-    hu: Szecsuan
-    kn: ಸಿಚುವಾನ್
-    is: Sesúan
-    id: Sichuan
-    sk: S’-čchuan
-    ro: Sichuan
-    he: סצ׳ואן
-    hr: Sečuan
-    eu: Sichuan
-    pt: Sichuan
-    et: Sichuan
-    de: Sichuan
-    sl: Sečuan
-    it: Sichuan
-    kk: Сычуань
-    ml: സിഷ്വാൻ
-    uk: Сичуань
-    cs: S’-čchuan
-    yue: 四川
-    az: Sıçuan
-    nb: Sichuan
-    mn: Сычуань муж
-    ca: Sichuan
-    be: Правінцыя Сычуань
-    th: มณฑลเสฉวน
-    uz: Sichuan
-    bs: Sečuan
-    mk: Сечуан
-  comments: 
-SD: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.8939566
-    longitude: 117.9249002
-    min_latitude: 34.377352
-    min_longitude: 114.8192544
-    max_latitude: 38.4022475
-    max_longitude: 122.7159596
-  translations:
-    lv: Šaņduna
-    mr: षांतोंग
-    cy: Shandong
-    af: Sjandong
-    ceb: Shandong Sheng
-    ms: Shandong
-    ar: شاندونغ
-    te: షాండాంగ్
-    tr: Şantung
-    sr_Latn: Šandung
-    lt: Šandongas
-    ta: சாண்டோங்
-    vi: Sơn Đông
-    ur: شانڈونگ
-    nl: Shandong
-    zh: 山东省
-    bn: শানতুং
-    fa: شاندونگ
-    pl: Szantung
-    sw: Shandong
-    yue_Hans: 山东
-    sv: Shandong
-    el: Σαν-τούνγκ
-    hi: शानदोंग
-    ja: 山東省
-    en: Shandong
-    ru: Шаньдун
-    gu: શાનડોંગ
-    ka: შანდუნი
-    sr: Шандунг
-    fr: Shandong
-    ga: Shandong
-    hy: Շանդուն
-    ko: 산둥 성
-    es: Shandong
-    si: ශැන්ඩොන්ග්
-    da: Shandong
-    fi: Shandong
-    hu: Santung
-    kn: ಷಾಂಡಾಂಗ್
-    id: Shandong
-    ro: Shandong
-    he: שאנדונג
-    hr: Shandong
-    eu: Shandong
-    pt: Shandong
-    et: Shandong
-    de: Shandong
-    sl: Šandong
-    it: Shandong
-    ml: ശാൻഡോങ്
-    uk: Шаньдун
-    cs: Šan-tung
-    yue: 山東
-    nb: Shandong
-    mn: Шаньдун
-    ca: Shandong
-    be: Правінцыя Шаньдун
-    th: มณฑลซานตง
-    uz: Shandun
-    mk: Шандунг
-  comments: 
-SH: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 31.230416
-    longitude: 121.473701
-    min_latitude: 30.6755933
-    min_longitude: 120.8568044
-    max_latitude: 31.8727163
-    max_longitude: 122.2471487
-  translations:
-    lv: Šanhaja
-    mr: शांघाय
-    cy: Shanghai
-    af: Sjanghai
-    ceb: Shanghai
-    ms: Shanghai
-    ar: شانغهاي
-    te: షాంఘై
-    tr: Şanghay
-    as: ছাংহাই
-    sr_Latn: Šangaj
-    lt: Šanchajus
-    ta: சாங்காய்
-    vi: Thượng Hải
-    ur: شنگھائی
-    nl: Shanghai
-    zh: 上海市
-    bn: সাংহাই
-    fa: شانگهای
-    pl: Szanghaj
-    sw: Shanghai
-    yue_Hans: 上海
-    sv: Shanghai
-    el: Σαγκάη
-    hi: शंघाई
-    jv: Shanghai
-    ja: 上海市
-    en: Shanghai
-    sq: Shangai
-    ru: Шанхай
-    gu: શંઘાઈ
-    ka: შანხაი
-    sr: Шангај
-    fr: Shanghai
-    ga: Shang-hai
-    hy: Շանհայ
-    ko: 상하이 시
-    gl: Shanghai
-    es: Shanghái
-    si: ෂැංහයි
-    ps: شانګهای
-    da: Shanghai
-    fi: Shanghai
-    ky: Шанхай
-    hu: Sanghaj
-    kn: ಶಾಂಘೈ
-    is: Sjanghæ
-    id: Shanghai
-    sk: Šanghaj
-    ro: Shanghai
-    ha: Shanghai
-    he: שאנגחאי
-    hr: Šangaj
-    eu: Shanghai
-    pt: Xangai
-    et: Shanghai
-    de: Shanghai
-    sl: Šanghaj
-    pa: ਸ਼ੰਘਾਈ
-    it: Shanghai
-    kk: Шанхай
-    ml: ഷാങ്ഹായ്
-    uk: Шанхай
-    cs: Šanghaj
-    yue: 上海
-    az: Şanxay
-    am: ሻንግሃይ
-    my: ရှန်ဟိုင်းမြို့
-    nb: Shanghai
-    mn: Шанхай
-    ca: Xangai
-    be: Шанхай
-    th: เซี่ยงไฮ้
-    zu: Shanghai
-    uz: Shanxay
-    bs: Šangaj
-    mk: Шангај
-    lo: ຊຽງໄຮ້
-    ne: शाङ्घाई
-    tk: Şanhaý
-  comments: 
-SN: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Šaaņsji
-    mr: षा‘न्शी
-    cy: Shaanxi
-    af: Sjaanxi
-    ceb: Shaanxi
-    ms: Shaanxi
-    ar: شنشي
-    te: షాంక్సి²
-    tr: Şensi
-    sr_Latn: Šensi
-    lt: Šaansi
-    ta: சென்சி மாகாணம்
-    vi: Thiểm Tây
-    ur: شانسی
-    nl: Shaanxi
-    zh: 陕西省
-    bn: শ্যানসি
-    fa: شاآنشی
-    pl: Shaanxi
-    sw: Shaanxi
-    yue_Hans: 陕西
-    sv: Shaanxi
-    el: Σαάνξι
-    hi: शान्शी
-    ja: 陝西省
-    en: Shaanxi
-    ru: Шэньси
-    gu: શાંક્ષી
-    ka: შენსი
-    sr: Шенси
-    fr: Shaanxi
-    ga: Shaanxi
-    hy: Շենսի
-    ko: 산시 성²
-    es: Shaanxi
-    si: ශාන්ක්සි
-    da: Shaanxi
-    fi: Shaanxi
-    hu: Senhszi
-    kn: ಶಾಂಕ್ಸಿ²
-    id: Shaanxi
-    ro: Shaanxi
-    he: שאאנשי
-    hr: Shaanxi
-    eu: Shaanxi
-    pt: Shaanxi
-    et: Shaanxi
-    de: Shaanxi
-    pa: ਸ਼ੈਨਸ਼ੀ
-    it: Shaanxi
-    ml: ഷാങ്സി
-    uk: Шеньсі
-    cs: Šen-si
-    yue: 陝西
-    nb: Shaanxi
-    mn: Шэньси муж
-    ca: Shaanxi
-    be: Правінцыя Шэньсі
-    th: มณฑลส่านซี
-    uz: Shensi
-    bs: Shaanxi
-    mk: Шенси
-  comments: 
-SX: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo: 
-  translations:
-    lv: Šaņsji
-    mr: षान्शी
-    cy: Shanxi
-    af: Shanxi
-    ceb: Shanxi Sheng
-    ms: Shanxi
-    ar: شانسي
-    te: షాంక్సి
-    tr: Şansi
-    sr_Latn: Šansi
-    lt: Šansi
-    ta: சான்சி
-    vi: Sơn Tây
-    ur: شنسی
-    nl: Shanxi
-    zh: 山西省
-    bn: শানসি
-    fa: شانشی
-    pl: Shanxi
-    sw: Shanxi
-    yue_Hans: 山西
-    sv: Shanxi
-    el: Σανσί
-    hi: शन्शी
-    ja: 山西省
-    en: Shanxi
-    ru: Шаньси
-    gu: શાન્ક્સી
-    ka: შანსი
-    sr: Шанси
-    fr: Shanxi
-    ga: Shanxi
-    hy: Շանսի
-    ko: 산시 성
-    es: Shanxi
-    si: ශන්ක්සි
-    da: Shanxi
-    fi: Shanxi
-    hu: Sanhszi
-    kn: ಶಾಂಕ್ಸಿ
-    id: Shanxi
-    ro: Shanxi
-    he: שאנשי
-    hr: Shanxi
-    eu: Shanxi
-    pt: Shanxi
-    et: Shanxi
-    de: Shanxi
-    sl: Shanxi
-    pa: ਸ਼ਾਨਸ਼ੀ
-    it: Shanxi
-    uk: Шаньсі
-    cs: Šan-si
-    yue: 山西
-    nb: Shanxi
-    mn: Шаньси муж
-    ca: Shanxi
-    be: Правінцыя Шаньсі
-    th: มณฑลซานซี
-    uz: Shansi
-    mk: Шанси
-  comments: 
-TJ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 39.3433574
-    longitude: 117.3616476
-    min_latitude: 38.5555782
-    min_longitude: 116.7080284
-    max_latitude: 40.253214
-    max_longitude: 118.0656115
-  translations:
-    lv: Tjaņdziņa
-    mr: त्यांजिन
-    cy: Tianjin
-    af: Tianjin
-    ceb: Tianjin Shi
-    ms: Tianjin
-    ar: تيانجين
-    te: టియాంజిన్
-    tr: Tientsin
-    sr_Latn: Tjencin
-    lt: Tiandzinas
-    ta: தியான்ஜின்
-    vi: Thiên Tân
-    ur: تیانجین
-    nl: Tianjin
-    zh: 天津市
-    bn: থিয়েনচিন
-    fa: تیانجین
-    pl: Tiencin
-    yue_Hans: 天津
-    sv: Tianjin
-    el: Τιαντσίν
-    hi: तिआंजिन
-    ja: 天津市
-    en: Tianjin
-    sq: Tianxhin
-    ru: Тяньцзинь
-    gu: તિયાન્જીન
-    ka: ტიანძინი
-    sr: Тјенцин
-    fr: Tianjin
-    ga: Tianjin
-    hy: Տյանցզին
-    ko: 톈진 시
-    gl: Tianjin
-    es: Tianjin
-    si: ටියන්ජින්
-    da: Tianjin
-    fi: Tianjin
-    hu: Tiencsin
-    kn: ಟಿಯಾಂಜಿನ್
-    is: Tianjin
-    id: Tianjin
-    sk: Tiencin
-    ro: Tianjin
-    ha: Tianjin
-    he: טיינג׳ין
-    hr: Tianjin
-    eu: Tianjin
-    pt: Tianjin
-    et: Tianjin Shi
-    de: Tianjin
-    sl: Tjandžin
-    pa: ਥਿਆਨਚਿਨ
-    it: Tientsin
-    kk: Тяньцзинь
-    ml: ടിയാൻജിൻ
-    uk: Тяньцзінь
-    cs: Tchien-ťin
-    yue: 天津
-    az: Tyantszin
-    am: ትየንጂን
-    my: ထျန်းကျင်းမြို့
-    nb: Tianjin
-    mn: Тяньжинь
-    ca: Tientsin
-    th: เทียนจิน
-    uz: Tyantszin
-    bs: Tianjin
-    mk: Тјенѓин
-    tk: Týanszin
-  comments: 
-XJ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 35.86166
-    longitude: 104.195397
-    min_latitude: 17.9996
-    min_longitude: 73.4994136
-    max_latitude: 53.5609739
-    max_longitude: 134.7754563
-  translations:
-    lv: Siņdzjana
-    mr: शिंच्यांग
-    cy: Xinjiang
-    af: Xinjiang
-    ceb: Xinjiang Uygur Zizhiqu
-    ms: Xinjiang
-    ar: سنجان
-    te: జింజియాంగ్
-    tr: Sincan Uygur Özerk Bölgesi
-    sr_Latn: Sikjang
-    lt: Sindziangas
-    ta: சிஞ்சியாங்
-    vi: Tân Cương
-    ur: سنکیانگ
-    nl: Sinkiang
-    zh: 新疆维吾尔自治区
-    bn: শিনচিয়াং
-    fa: سین‌کیانگ
-    pl: Sinciang
-    yue_Hans: 新疆
-    sv: Xinjiang
-    el: Σιντζιάνγκ
-    hi: शिंजियांग
-    jv: Xinjiang
-    ja: 新疆ウイグル自治区
-    en: Xinjiang
-    sq: Sinkiang
-    ru: Синьцзян-Уйгурский автономный район
-    gu: ઝિંજિયાંગ
-    ka: სინძიანი
-    sr: Сикјанг
-    fr: Xinjiang
-    ga: Xinjiang
-    ko: 신장 위구르 자치구
-    gl: Xinjiang
-    es: Sinkiang
-    si: ක්සින්ග්ජියන්ග්
-    da: Xinjiang
-    fi: Xinjiang
-    ky: Шинжаң-Уйгур автоном району
-    hu: Hszincsiang-Ujgur Autonóm Terület
-    kn: ಕ್ಸಿನ್ಜಿಯಾಂಗ್
-    is: Xinjiang
-    id: Xinjiang
-    sk: Sin-ťiang
-    ro: Xinjiang
-    he: שינג׳יאנג
-    hr: Xinjiang
-    eu: Xinjiang
-    pt: Xinjiang
-    et: Xinjiang
-    de: Xinjiang
-    pa: ਸ਼ਿਨਚਿਆਂਙ
-    it: Sinkiang
-    kk: Шыңжаң Ұйғыр аутономиялық ауданы
-    ml: സിൻജിയാങ്
-    uk: Сіньцзян-Уйгурський автономний район
-    cs: Sin-ťiang
-    yue: 新疆
-    am: ሢንጅያንግ
-    nb: Xinjiang
-    mn: Шиньжян - Уйгурын өөртөө засах орон
-    ca: Xinjiang
-    be: Сіньцзян-Уйгурскі аўтаномны раён
-    th: เขตปกครองตนเองซินเจียงอุยกูร์
-    uz: Sinszyan-Uygʻur muxtor rayoni
-    mk: Синѓанг
-    tk: Hinjiýan uýgur awtonom etraby
-  comments: 
-XZ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 30.1533605
-    longitude: 88.7878678
-    min_latitude: 26.8548154
-    min_longitude: 78.3955447
-    max_latitude: 36.4833342
-    max_longitude: 99.1162409
-  translations:
-    lv: Tibetas autonomais reģions
-    mr: तिबेट स्वायत्त प्रदेश
-    cy: Ardal hunanlywodraethol Tibet
-    af: Tibet
-    ceb: Tibet Autonomous Region
-    ms: Kawasan Autonomi Tibet
-    ar: منطقة التبت ذاتية الحكم
-    te: టిబెట్ స్వాధికార ప్రాంతం
-    tr: Tibet Özerk Bölgesi
-    as: তিব্বত স্বায়ত্তশাসিত অঞ্চল
-    sr_Latn: Tibet
-    lt: Tibeto autonominis regionas
-    ta: திபெத் தன்னாட்சிப் பகுதி
-    vi: Khu tự trị Tây Tạng
-    ur: تبت خود مختار علاقہ
-    nl: Tibetaanse Autonome Regio
-    zh: 西藏自治区
-    bn: তিব্বত স্বায়ত্তশাসিত অঞ্চল
-    fa: منطقه خودمختار تبت
-    pl: Tybetański Region Autonomiczny
-    yue_Hans: 西藏
-    sv: Autonoma regionen Tibet
-    el: Θιβέτ
-    hi: बोड स्वायत्त क्षेत्र
-    ja: チベット自治区
-    en: Tibet
-    sq: Tibet
-    ru: Тибетский автономный район
-    ka: ტიბეტის ავტონომიური რეგიონი
-    sr: Тибет
-    fr: Région autonome du Tibet
-    hy: Տիբեթի ինքնավար շրջան
-    ko: 티베트 자치구
-    gl: Rexión Autónoma do Tíbet
-    es: Tíbet
-    da: Autonom Region Tibet
-    fi: Tiibetin autonominen alue
-    hu: Tibeti Autonóm Terület
-    is: Tíbet
-    id: Tibet
-    sk: Tibet
-    ro: Regiunea autonomă Tibet
-    he: המחוז האוטונומי הטיבטי
-    hr: Tibet
-    eu: Tibeteko eskualde autonomoa
-    pt: Região Autônoma do Tibete
-    et: Tiibeti autonoomne piirkond
-    de: Autonomes Gebiet Tibet
-    pa: ਤਿੱਬਤ ਖ਼ੁਦਮੁਖ਼ਤਿਆਰ ਸੂਬਾ
-    it: regione autonoma del Tibet
-    ml: തിബെത്ത് സ്വയംഭരണപ്രദേശം
-    uk: Тибетський автономний район
-    or: ତିବ୍ବତ
-    cs: Tibetská autonomní oblast
-    yue: 西藏
-    az: Tibet muxtar rayonu
-    nb: Tibet
-    mn: Төвөдийн өөртөө засах орон
-    ca: Regió Autònoma del Tibet
-    be: Тыбецкі аўтаномны раён
-    th: เขตปกครองตนเองทิเบต
-    yo: Agbègbè Aladawa Tibet
-    uz: Tibet muxtor rayoni
-    bs: Tibet
-    mk: Тибет
-  comments: 
-YN: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 24.4752847
-    longitude: 101.3431058
-    min_latitude: 21.1417696
-    min_longitude: 97.5279781
-    max_latitude: 29.2233268
-    max_longitude: 106.1977222
-  translations:
-    lv: Juņnaņa
-    mr: युइन्नान
-    cy: Yunnan
-    af: Yunnan
-    ceb: Yunnan Sheng
-    ms: Yunan
-    ar: يونان
-    te: యునాన్
-    tr: Yünnan
-    sr_Latn: Junan
-    lt: Junanas
-    ta: யுன்னான்
-    vi: Vân Nam
-    ur: یوننان
-    nl: Yunnan
-    zh: 云南省
-    bn: ইউনান
-    fa: یون‌نان
-    pl: Junnan
-    sw: Yunnan
-    yue_Hans: 云南
-    sv: Yunnan
-    el: Γιουνάν
-    hi: युन्नान
-    ja: 雲南省
-    en: Yunnan
-    ru: Юньнань
-    gu: યુન્નન
-    ka: იუნანი
-    sr: Јунан
-    fr: Yunnan
-    ga: Yunnan
-    hy: Յունան
-    ko: 윈난 성
-    es: Yunnan
-    si: යුනාන්
-    da: Yunnan
-    fi: Yunnan
-    hu: Jünnan
-    kn: ಯುನ್ನಾನ್
-    is: Yunnan
-    id: Yunnan
-    sk: Jün-nan
-    ro: Yunnan
-    he: יונאן
-    hr: Yunnan
-    eu: Yunnan
-    pt: Yunnan
-    et: Yunnan
-    de: Yunnan
-    sl: Yunnan
-    it: Yunnan
-    ml: യുന്നാൻ
-    uk: Юньнань
-    cs: Jün-nan
-    yue: 雲南
-    my: ယူနန်ပြည်နယ်
-    nb: Yunnan
-    mn: Юньнань муж
-    ca: Yunnan
-    be: Правінцыя Юньнань
-    th: มณฑลยูนนาน
-    uz: Yunnan
-    mk: Јунан
-  comments: 
-ZJ: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 29.1416432
-    longitude: 119.7889248
-    min_latitude: 27.0413557
-    min_longitude: 118.0282788
-    max_latitude: 31.1787819
-    max_longitude: 122.9495085
-  translations:
-    lv: Džedzjana
-    mr: च-च्यांग
-    cy: Zhejiang
-    af: Zhejiang
-    ceb: Zhejiang Sheng
-    ms: Zhejiang
-    ar: تشيجيانغ
-    te: జీజంగ్
-    tr: Zhejiang
-    sr_Latn: Džeđang
-    lt: Džedziangas
-    ta: செஜியாங் மாகாணம்
-    vi: Chiết Giang
-    ur: ژجیانگ
-    nl: Zhejiang
-    zh: 浙江省
-    bn: চেচিয়াং
-    fa: چجیانگ
-    pl: Zhejiang
-    sw: Zhejiang
-    yue_Hans: 浙江
-    sv: Zhejiang
-    el: Τσετσιάνγκ
-    hi: झेजियांग
-    ja: 浙江省
-    en: Zhejiang
-    ru: Чжэцзян
-    gu: ઝેજીઆંગ
-    ka: ჯეძიანი
-    sr: Џеђанг
-    fr: Zhejiang
-    ga: Zhejiang
-    hy: Չժեցզյան
-    ko: 저장 성
-    es: Zhejiang
-    si: සෙජියාන්ග්
-    da: Zhejiang
-    fi: Zhejiang
-    hu: Csöcsiang
-    kn: ಝೆಜಿಯಾಂಗ್
-    id: Zhejiang
-    sk: Če-ťiang
-    ro: Zhejiang
-    he: ג׳ג׳יאנג
-    hr: Zhejiang
-    eu: Zhejiang
-    pt: Zhejiang
-    et: Zhejiang
-    de: Zhejiang
-    sl: Žeijang
-    it: Zhejiang
-    uk: Чжецзян
-    cs: Če-ťiang
-    yue: 浙江
-    az: Çjetszyan
-    nb: Zhejiang
-    mn: Жөжян
-    ca: Zhejiang
-    be: Правінцыя Чжэцзян
-    th: มณฑลเจ้อเจียง
-    uz: Chjetszyan
-    mk: Џеѓанг
-    ne: झेजिआङ
-  comments: 
-TW: 
-  name: 
-  code: 
-  unofficial_names: 
-  geo:
-    latitude: 19.8117586
-    longitude: 105.7760614
-  translations:
-    ar: مقاطعة تايوان، جمهورية الصين الشعبية
-    tr: Tayvan
-    sr_Latn: Tajvan (pokrajina)
-    vi: Đài Loan
-    ur: صوبہ تائیوان، عوامی جمہوریہ چین
-    nl: Taiwan Province (Volksrepubliek China)
-    zh: 台湾省 (中华人民共和国)
-    bn: তাইওয়ান প্রদেশ
-    fa: استان تایوان
-    pl: Tajwan (Chińska Republika Ludowa)
-    yue_Hans: 台湾省 (中华人民共和国)
-    sv: Taiwan-provinsen i Folkrepubliken Kina
-    el: Επαρχία Ταϊβάν (Λαϊκή Δημοκρατία της Κίνας)
-    ja: 台湾省
-    en: Taiwan
-    ru: Тайвань
-    sr: Тајван (покрајина)
-    fr: province de Taiwan
-    ko: 타이완성
-    es: Provincia de Taiwán
-    id: Provinsi Taiwan, Republik Rakyat Tiongkok
-    pt: Província de Taiwan
-    de: Provinz Taiwan
-    it: provincia di Taiwan (Repubblica Popolare Cinese)
-    uk: Тайвань (провінція Китайської Народної Республіки)
-    cs: Tchaj-wan (Čínská lidová republika)
-    yue: 臺灣省 (中華人民共和國)
-    ca: Taiwan
-    th: มณฑลไต้หวัน
-    mk: Тајван (покрајина)
-  comments: 
+  name: Aomen (zh) ***
