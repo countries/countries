@@ -49,7 +49,7 @@ gem 'countries', require: 'countries/global'
 
 ## Upgrading to 3.x
 
-We dropped currency support via money by default, see [instructions](README.markdown#Currencies) if you are using currency featues
+We dropped currency support via money by default, read these [instructions](README.markdown#Currencies) if you are using currency features.
 
 ## Upgrading Country Helper to > 1.2.0
 ``` ruby
