@@ -31,6 +31,7 @@ c = ISO3166::Country.new('US')
 ## Configuration
 
 ### Country Helper
+
 Some apps might not want to constantly call `ISO3166::Country` this gem has a
 helper that can provide a `Country` class
 
@@ -52,6 +53,7 @@ gem 'countries', require: 'countries/global'
 We dropped currency support via money by default, read these [instructions](README.markdown#Currencies) if you are using currency features.
 
 ## Upgrading Country Helper to > 1.2.0
+
 ```ruby
 gem 'countries', require: 'global'
 ```
@@ -107,7 +109,7 @@ c.alpha3 # => "USA"
 c.gec    # => "US"
 ```
 
-###  Names & Translations
+### Names & Translations
 
 ```ruby
 c.name # => "United States"
@@ -261,6 +263,7 @@ british_things.first.country.name    # => "United Kingdom"
 british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
 british_things.first.country.name    # => "United Kingdom"
 ```
+
 Saving:
 
 ```ruby
