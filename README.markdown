@@ -308,7 +308,7 @@ If you need to correct an upstream translation please add it to the lib/countrie
 ```
 
 Any corrections can be applied in translations_corrections.yaml these will be injected during
-the next ```rake update_cache```
+the next `rake update_cache`.
 
 * Fork the project.
 * Make your feature addition or bug fix.
