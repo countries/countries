@@ -30,7 +30,7 @@ c = ISO3166::Country.new('US')
 
 ## Configuration
 
-#### Country Helper
+### Country Helper
 Some apps might not want to constantly call `ISO3166::Country` this gem has a
 helper that can provide a `Country` class
 
