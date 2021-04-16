@@ -15,13 +15,13 @@ jobs:
     strategy:
       matrix:
          include:
-         - ruby-version: 2.5.8
+         - ruby-version: 2.5.9
            bundler-version: default
-         - ruby-version: 2.6.6
+         - ruby-version: 2.6.7
            bundler-version: default
-         - ruby-version: 2.7.2
+         - ruby-version: 2.7.3
            bundler-version: default
-         - ruby-version: 3.0.0 
+         - ruby-version: 3.0.1
            bundler-version: default
     steps:
     - uses: actions/checkout@v2
@@ -29,7 +29,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby-version }}
-        bundler: ${{ matrix.bundler-version }} 
+        bundler: ${{ matrix.bundler-version }}
         bundler-cache: true
     - name: Install dependencies
       run: bundle install
