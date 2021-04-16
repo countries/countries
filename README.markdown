@@ -6,7 +6,7 @@ Countries is a collection of all sorts of useful information for every country i
 
 ## Installation
 
-``` bash
+```bash
 gem install countries
 ```
 
@@ -24,17 +24,18 @@ And then execute:
 
 Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
 
-``` ruby
+```ruby
 c = ISO3166::Country.new('US')
 ```
 
 ## Configuration
 
-#### Country Helper
+### Country Helper
+
 Some apps might not want to constantly call `ISO3166::Country` this gem has a
 helper that can provide a `Country` class
 
-``` ruby
+```ruby
 # With global Country Helper
 c = Country['US']
 ```
@@ -43,21 +44,22 @@ c = Country['US']
 
 To Use
 
-``` ruby
+```ruby
 gem 'countries', require: 'countries/global'
 ```
 
 ## Upgrading to 3.x
 
-We dropped currency support via money by default, see [instructions](README.markdown#Currencies) if you are using currency featues
+We dropped currency support via money by default, read these [instructions](README.markdown#Currencies) if you are using currency features.
 
 ## Upgrading Country Helper to > 1.2.0
-``` ruby
+
+```ruby
 gem 'countries', require: 'global'
 ```
 
 has become
-``` ruby
+```ruby
 gem 'countries', require: 'countries/global'
 ```
 
@@ -69,14 +71,14 @@ By default we load I18n.available_locales if I18n is present, otherwise only [:e
 
 You can add all the locales like this.
 
-``` ruby
+```ruby
 ISO3166.configure do |config|
   config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
 end
 ```
 
 or something a bit more simple
-``` ruby
+```ruby
 ISO3166.configure do |config|
   config.locales = [:en, :de, :fr, :es]
 end
@@ -86,7 +88,7 @@ end
 
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
-``` ruby
+```ruby
 c    = ISO3166::Country.find_country_by_name('united states')
 h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
@@ -107,7 +109,7 @@ c.alpha3 # => "USA"
 c.gec    # => "US"
 ```
 
-###  Names & Translations
+### Names & Translations
 
 ```ruby
 c.name # => "United States"
@@ -130,14 +132,14 @@ ISO3166::Country.all_translated('DE') # ['Deutschland', ...]
 
 ### Subdivisions & States
 
-``` ruby
+```ruby
 c.subdivisions # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 ```
 
 ### Location
 
-``` ruby
+```ruby
 c.latitude # => "38 00 N"
 c.longitude # => "97 00 W"
 c.latitude_dec # => 39.44325637817383
@@ -155,7 +157,7 @@ Add `tzinfo` to your Gemfile and ensure it's required, Countries will not do thi
 gem 'tzinfo', '~> 1.2', '>= 1.2.2'
 ```
 
-``` ruby
+```ruby
 c.timezones.zone_identifiers # => ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
 c.timezones.zone_info  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
 c.timezones # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
@@ -163,7 +165,7 @@ c.timezones # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Coun
 
 ### Telephone Routing (E164)
 
-``` ruby
+```ruby
 c.country_code # => "1"
 c.national_destination_code_lengths # => 3
 c.national_number_lengths # => 10
@@ -173,7 +175,7 @@ c.national_prefix # => "1"
 
 ### Boundary Boxes
 
-``` ruby
+```ruby
 c.min_longitude # => '45'
 c.min_latitude # => '22.166667'
 c.max_longitude # => '58'
@@ -182,7 +184,7 @@ c.max_latitude # => '26.133333'
 
 ### European Union Membership
 
-``` ruby
+```ruby
 c.in_eu? # => false
 ```
 
@@ -190,13 +192,13 @@ c.in_eu? # => false
 
 To enable currencies extension please add the following to countries initializer.
 
-``` ruby
+```ruby
 ISO3166.configuration.enable_currency_extension!
 ```
 
 Please note that it requires you to add "money" dependency to your gemfile.
 
-``` ruby
+```ruby
 gem "money", "~> 6.9"
 ```
 
@@ -204,7 +206,7 @@ gem "money", "~> 6.9"
 
 Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
 
-``` ruby
+```ruby
 c = ISO3166::Country['us']
 c.currency.iso_code # => 'USD'
 c.currency.name # => 'United States Dollar'
@@ -215,7 +217,7 @@ c.currency.symbol # => '$'
 
 A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
 
-``` ruby
+```ruby
 c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
 ```
 
@@ -225,7 +227,7 @@ As of 2.0 countries supports loading custom countries / overriding data in its d
 
 Any country registered this way will have its data available for searching etc... If you are overriding an existing country, for cultural reasons, our code uses a simple merge, not a deep merge so you will need to __bring in all data you wish to be available__.  Bringing in an existing country will also remove it from the internal management of translations, __all registered countries will remain in memory__.
 
-``` ruby
+```ruby
 ISO3166::Data.register(
   alpha2: 'LOL',
   name: 'Happy Country',
@@ -261,6 +263,7 @@ british_things.first.country.name    # => "United Kingdom"
 british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
 british_things.first.country.name    # => "United Kingdom"
 ```
+
 Saving:
 
 ```ruby
@@ -277,7 +280,7 @@ british_thing.country.name    # => "United Kingdom"
 
 Note that the database stores only the alpha2 code and rebuilds the object when queried. To return the country name by default you can override the reader method in your model:
 
-``` ruby
+```ruby
 def country
   super.name
 end
@@ -285,7 +288,7 @@ end
 
 ## Country Code in Emoji
 
-``` ruby
+```ruby
 c = Country['MY']
 c.emoji_flag # => "🇲🇾"
 ```
@@ -308,7 +311,7 @@ If you need to correct an upstream translation please add it to the lib/countrie
 ```
 
 Any corrections can be applied in translations_corrections.yaml these will be injected during
-the next ```rake update_cache```
+the next `rake update_cache`.
 
 * Fork the project.
 * Make your feature addition or bug fix.
