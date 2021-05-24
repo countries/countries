@@ -6,22 +6,22 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 **Closed issues:**
 
-  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633]
+  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633](https://github.com/countries/countries/issues/663)
 
 **Merged pull requests:**
 
  - `make_cache_thread_safe` ([factorialco](https://github.com/factorialco))
- - Update i18n_data to 0.13.0 and drop support for rubies <2.5 [\#650] ([pmor](https://github.com/pmor))
- - Fixes [\#633] and updates geocoder searches [\#634] ([mezza](https://github.com/mezza))
- - `translation_corrections.yaml`: Fix broken link [\#664] ([henrik](https://github.com/henrik))
- - Correct Danish translation of CZ [\#661] ([JanMSP](https://github.com/JanMSP))
- - Swedish translation correction: RU = "Ryssland" [\#665] ([henrik](https://github.com/henrik))
- - Update gemspec metadata with new repo url [\#672] ([pmor](https://github.com/pmor))
- - Fix typo and lint in README.markdown [\#675] ([DigiPie](https://github.com/DigiPie))
- - Update CI to the latests ruby point versions [\#677] ([pmor](https://github.com/pmor))
- - Adds North Korea to list of unofficial names of KP [\#681] ([talha-akram ](https://github.com/talha-akram ))
- - Update Vietnam subdivisions with current ISO_3166-2:VN [\#673] ([keymastervn](https://github.com/keymastervn))
- - Add custom countries to translation lists [\#595] ([phylor](https://github.com/phylor))
+ - Update i18n_data to 0.13.0 and drop support for rubies <2.5 [\#650](https://github.com/countries/countries/pull/650) ([pmor](https://github.com/pmor))
+ - Fixes [\#633] and updates geocoder searches [\#634](https://github.com/countries/countries/pull/634) ([mezza](https://github.com/mezza))
+ - `translation_corrections.yaml`: Fix broken link [\#664](https://github.com/countries/countries/pull/664) ([henrik](https://github.com/henrik))
+ - Correct Danish translation of CZ [\#661](https://github.com/countries/countries/pull/661) ([JanMSP](https://github.com/JanMSP))
+ - Swedish translation correction: RU = "Ryssland" [\#665](https://github.com/countries/countries/pull/665) ([henrik](https://github.com/henrik))
+ - Update gemspec metadata with new repo url [\#672](https://github.com/countries/countries/pull/672) ([pmor](https://github.com/pmor))
+ - Fix typo and lint in README.markdown [\#675](https://github.com/countries/countries/pull/675) ([DigiPie](https://github.com/DigiPie))
+ - Update CI to the latests ruby point versions [\#677](https://github.com/countries/countries/pull/677) ([pmor](https://github.com/pmor))
+ - Adds North Korea to list of unofficial names of KP [\#681](https://github.com/countries/countries/pull/681) ([talha-akram ](https://github.com/talha-akram ))
+ - Update Vietnam subdivisions with current ISO_3166-2:VN [\#673](https://github.com/countries/countries/pull/673) ([keymastervn](https://github.com/keymastervn))
+ - Add custom countries to translation lists [\#595](https://github.com/countries/countries/pull/595) ([phylor](https://github.com/phylor))
 
 ## [3.1.0](https://github.com/countries/countries/releases/tag/v3.1.0) (2021/03/24 00:01 +05:00)
 
