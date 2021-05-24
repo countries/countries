@@ -28,7 +28,7 @@ module ISO3166
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = deep_stringify_keys(data)
         @@registered_data[alpha2]['translations'] = \
-          Translations.new.merge(data[:translations] || {})
+          Translations.new.merge(data['translations'] || {})
         @@cache = cache.merge(@@registered_data)
       end
 

@@ -116,8 +116,8 @@ describe ISO3166::Data do
       expect(subject.name).to eq 'NEW Taiwan'
       expect(subject.translations).to eq('en' => 'NEW Taiwan',
                                          'de' => 'NEW Taiwan')
-      expect(subject.subdivisions).to eq(CHA: ISO3166::Subdivision.new({name: 'New Changhua'}),
-                                         CYI: ISO3166::Subdivision.new({name: 'New Municipality'}))
+      expect(subject.subdivisions).to eq('CHA' => ISO3166::Subdivision.new({name: 'New Changhua'}),
+                                         'CYI' => ISO3166::Subdivision.new({name: 'New Municipality'}))
     end
   end
 
@@ -143,8 +143,8 @@ describe ISO3166::Data do
       data = ISO3166::Data.new('LOL').call
       expect(data['name']).to eq 'Happy Country'
       expect(subject.name).to eq 'Happy Country'
-      expect(subject.subdivisions).to eq(LOL1: ISO3166::Subdivision.new({name: 'Happy sub1'}),
-                                         LOL2: ISO3166::Subdivision.new({name: 'Happy sub2'}))
+      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({name: 'Happy sub1'}),
+                                         'LOL2' => ISO3166::Subdivision.new({name: 'Happy sub2'}))
     end
 
     it 'detect a stale cache' do
