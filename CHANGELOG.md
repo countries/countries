@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+**Closed issues:**
+
+  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633]
+
+**Merged pull requests:**
+
+ - `make_cache_thread_safe` ([factorialco](https://github.com/factorialco))
+ - Update i18n_data to 0.13.0 and drop support for rubies <2.5 [\#650] ([pmor](https://github.com/pmor))
+ - Fixes [\#633] and updates geocoder searches [\#634] ([mezza](https://github.com/mezza))
+ - `translation_corrections.yaml`: Fix broken link [\#664] ([henrik](https://github.com/henrik))
+ - Correct Danish translation of CZ [\#661] ([JanMSP](https://github.com/JanMSP))
+ - Swedish translation correction: RU = "Ryssland" [\#665] ([henrik](https://github.com/henrik))
+ - Update gemspec metadata with new repo url [\#672] ([pmor](https://github.com/pmor))
+ - Fix typo and lint in README.markdown [\#675] ([DigiPie](https://github.com/DigiPie))
+ - Update CI to the latests ruby point versions [\#677] ([pmor](https://github.com/pmor))
+ - Adds North Korea to list of unofficial names of KP [\#681] ([talha-akram ](https://github.com/talha-akram ))
+ - Update Vietnam subdivisions with current ISO_3166-2:VN [\#673] ([keymastervn](https://github.com/keymastervn))
+ - Add custom countries to translation lists [\#595] ([phylor](https://github.com/phylor))
+
 ## [3.1.0](https://github.com/countries/countries/releases/tag/v3.1.0) (2021/03/24 00:01 +05:00)
 
 [Full Changelog](https://github.com/countries/countries/compare/v3.0.1...v3.1.0)
@@ -25,7 +46,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 **Merged pull requests:**
 
 - add find\_all\_by example to readme [\#667](https://github.com/countries/countries/pull/667) ([glaucocustodio](https://github.com/glaucocustodio))
-- Add address\_format for Vietnam, fixes \#652 [\#653](https://github.com/countries/countries/pull/653) ([pmor](https://github.com/pmor))
+- Add address\_format for Vietnam, fixes [\#652] [\#653](https://github.com/countries/countries/pull/653) ([pmor](https://github.com/pmor))
 - "The United Kingdom" is an unofficial name for Great Britain [\#651](https://github.com/countries/countries/pull/651) ([RogerPodacter](https://github.com/RogerPodacter))
 - UK is an unofficial name for Great Britain [\#648](https://github.com/countries/countries/pull/648) ([RogerPodacter](https://github.com/RogerPodacter))
 - \[French\] Bad encoding for new zealand [\#643](https://github.com/countries/countries/pull/643) ([waghanza](https://github.com/waghanza))
