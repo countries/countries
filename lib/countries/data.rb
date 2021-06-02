@@ -26,10 +26,9 @@ module ISO3166
 
       def register(data)
         alpha2 = data[:alpha2].upcase
-        @@registered_data[alpha2] = \
-          data.each_with_object({}) { |(k, v), a| a[k.to_s] = v }
+        @@registered_data[alpha2] = deep_stringify_keys(data)
         @@registered_data[alpha2]['translations'] = \
-          Translations.new.merge(data[:translations] || {})
+          Translations.new.merge(data['translations'] || {})
         @@cache = cache.merge(@@registered_data)
       end
 
@@ -161,6 +160,14 @@ module ISO3166
 
       def datafile_path(file_array)
         File.join([@@cache_dir] + file_array)
+      end
+
+      def deep_stringify_keys(data)
+        data.transform_keys!(&:to_s)
+        data.transform_values! do |v|
+          v.is_a?(Hash) ? deep_stringify_keys(v) : v
+        end
+        return data
       end
     end
   end
