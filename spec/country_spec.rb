@@ -858,6 +858,23 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_esm?' do
+    let(:netherlands) { ISO3166::Country.search('NL') }
+    let(:switzerland) { ISO3166::Country.search('CH') }
+
+    it 'should return false for countries without esm_member or eea_member flag' do
+      expect(country.in_esm?).to be_falsey
+    end
+
+    it 'should return true for countries with eea_member flag set to true' do
+      expect(netherlands.in_esm?).to be_truthy
+    end
+
+    it 'should return true for countries with esm_member flag set to true' do
+      expect(switzerland.in_esm?).to be_truthy
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'

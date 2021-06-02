@@ -78,6 +78,10 @@ module ISO3166
       data['eea_member'].nil? ? false : data['eea_member']
     end
 
+    def in_esm?
+      data['esm_member'].nil? ? in_eea? : data['esm_member']
+    end
+
     def to_s
       data['name']
     end
