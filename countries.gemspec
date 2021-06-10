@@ -2,8 +2,8 @@
 require File.expand_path('../lib/countries/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ['Josh Robinson', 'Joe Corcoran', 'Russell Osborne']
-  gem.email         = ['hexorx@gmail.com', 'russell@burningpony.com']
+  gem.authors       = ['Josh Robinson', 'Joe Corcoran', 'Russell Osborne', 'Pedro Moreira']
+  gem.email         = ['hexorx@gmail.com', 'russell@burningpony.com', 'pedro@codecreations.tech']
   gem.description   = 'All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166'
   gem.summary       = 'Gives you a country object full of all sorts of useful information.'
   gem.homepage      = 'http://github.com/countries/countries'
