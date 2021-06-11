@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [3.1.1](https://github.com/countries/countries/releases/tag/v3.1.1) (2021/06/11 09:47 +01:00)
+## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
 **Closed issues:**
 
