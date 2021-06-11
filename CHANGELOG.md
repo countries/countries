@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [3.1.1](https://github.com/countries/countries/releases/tag/v3.1.1) (2021/06/11 10:00 +01:00)
+## [3.1.1](https://github.com/countries/countries/releases/tag/v3.1.1) (2021/06/11 09:47 +01:00)
 
 **Closed issues:**
 
@@ -26,6 +26,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
  - Adds North Korea to list of unofficial names of KP [\#681](https://github.com/countries/countries/pull/681) ([talha-akram ](https://github.com/talha-akram ))
  - Update Vietnam subdivisions with current ISO_3166-2:VN [\#673](https://github.com/countries/countries/pull/673) ([keymastervn](https://github.com/keymastervn))
  - Add custom countries to translation lists [\#595](https://github.com/countries/countries/pull/595) ([phylor](https://github.com/phylor))
+ - Fix ISO3166::Data.register loading of nested hashes, eg: geo data. [\#683](https://github.com/countries/countries/pull/683) ([pmor](https://github.com/pmor))
+ - Remove Travis CI configuration. [\#685](https://github.com/countries/countries/pull/683) ([pmor](https://github.com/pmor))
 
 ## [3.1.0](https://github.com/countries/countries/releases/tag/v3.1.0) (2021/03/24 00:01 +05:00)
 
