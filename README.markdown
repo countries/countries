@@ -188,6 +188,19 @@ c.max_latitude # => '26.133333'
 c.in_eu? # => false
 ```
 
+### European Economic Area Membership
+
+```ruby
+c.in_eea? # => false
+```
+
+
+### European Single Market Membership
+
+```ruby
+c.in_esm? # => false
+```
+
 ## Currencies
 
 To enable currencies extension please add the following to countries initializer.
@@ -215,7 +228,7 @@ c.currency.symbol # => '$'
 
 ## Address Formatting
 
-A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid][] template system.
+A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid](http://www.liquidmarkup.org/) template system.
 
 ```ruby
 c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
@@ -326,10 +339,3 @@ the next `rake update_cache`.
 
 Copyright (c) 2016 hexorx. See LICENSE for details.
 
-[Teliax]: http://teliax.com
-[Centrex]: http://en.wikipedia.org/wiki/Centrex
-[CommonDataHub]: http://commondatahub.com
-[Currencies]: http://gemcutter.org/gems/currencies
-[Money]: http://gemcutter.org/gems/money
-[Liquid]: http://www.liquidmarkup.org/
-[country_select]: https://github.com/stefanpenner/country_select
