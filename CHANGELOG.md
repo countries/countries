@@ -6,9 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
+[Full changelog](https://github.com/countries/countries/compare/v3.1.0...v4.0.0)
+
 **Closed issues:**
 
-  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633](https://github.com/countries/countries/issues/663)
+  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633](https://github.com/countries/countries/issues/633)
   - Fix ISO3166::Data.register loading of nested hashes (from https://github.com/countries/countries/pull/397#issuecomment-846543094)
   - Angola's bounds is the same as Austria? [\#682](https://github.com/countries/countries/issues/682)
 
