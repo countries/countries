@@ -4,14 +4,18 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.1](https://github.com/countries/countries/releases/tag/v4.0.1) (2021/07/19 14:47 +01:00)
+
 **Closed issues:**
 
 - ISO Country Code for Czechia/Czech Republic should be updated. [\#688](https://github.com/countries/countries/issues/688)
+- Regression in 4.0.0: ISO3166::Country.translations(:en) with symbol arg raises [\#691](https://github.com/countries/countries/issues/691)
 
 **Merged pull requests:**
 
  - Updating Norway subdivision codes to match late 2020 ISO change [\#666](https://github.com/countries/countries/pull/666) and [\#689](https://github.com/countries/countries/pull/689) ([thomascrumrine](https://github.com/thomascrumrine))
 - Update CZ.yaml: Czechia is the ISO short name for the Czech Republic [\#690](https://github.com/countries/countries/pull/690) ([pmor](https://github.com/pmor))
+- Fix regression in `ISO3166::Country.translations` with symbols [\#692](https://github.com/countries/countries/pull/692) ([pmor](https://github.com/pmor))
 
 ## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
