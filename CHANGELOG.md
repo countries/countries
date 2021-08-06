@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+ - Ensure Moscow Oblast translations reference the "province" [\#694](https://github.com/countries/countries/pull/694) ([carlesjove](https://github.com/carlesjove))
+ - Update NL reduced VAT rate [\#693](https://github.com/countries/countries/pull/693) ([oscaredel](https://github.com/oscaredel))
+
 ## [4.0.1](https://github.com/countries/countries/releases/tag/v4.0.1) (2021/07/19 14:47 +01:00)
 
 **Closed issues:**
