@@ -1,7 +1,7 @@
 ---
-BRU: 
+BRU:
   name: Brussels
-  code: 
+  code:
   unofficial_names:
   - Brussels Hoofdstedelijk Gewest
   - Région de Bruxelles-Capitale
@@ -92,10 +92,12 @@ BRU:
     uz: Brussel Poytaxt Regioni
     bs: Regija glavnog grada Bruxellesa
     mk: Брисел
-  comments: 
-VAN: 
+    'no': Brussel
+    yo_BJ: Brussels
+  comments:
+VAN:
   name: Antwerpen (nl)
-  code: 
+  code:
   unofficial_names:
   - Antwerpen
   - Anvers
@@ -165,10 +167,11 @@ VAN:
     ccp: "\U00011103\U0001111A\U00011133\U00011111\U00011134\U00011103\U0001112E\U00011120\U0001112C\U00011122\U00011134\U0001111B\U00011134"
     bs: Antwerpen
     mk: Антверпен
-  comments: 
-VBR: 
+    'no': Antwerpen
+  comments:
+VBR:
   name: Vlaams Brabant (nl)
-  code: 
+  code:
   unofficial_names:
   - Brabant-Vlanderen
   - Vlaams-Brabant
@@ -241,10 +244,11 @@ VBR:
     he: ברבנט הפלמית
     bs: Flamanski Brabant
     mk: Фламански Брабант
-  comments: 
-VLI: 
+    'no': Flamsk Brabant
+  comments:
+VLI:
   name: Limburg (nl)
-  code: 
+  code:
   unofficial_names:
   - Limbourg
   geo:
@@ -314,10 +318,11 @@ VLI:
     ccp: "\U00011123\U00011128\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
     he: לימבורג (בלגיה)
     mk: Лимбург
-  comments: 
-VOV: 
+    'no': Limburg
+  comments:
+VOV:
   name: Oost-Vlaanderen (nl)
-  code: 
+  code:
   unofficial_names:
   - Oos-Vlanderen
   - Oost-Vlaanderen
@@ -389,10 +394,11 @@ VOV:
     ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
     az: Şərqi Flandiriya
     mk: Источна Фландрија
-  comments: 
-VWV: 
+    'no': Øst-Flandern
+  comments:
+VWV:
   name: West-Vlaanderen (nl)
-  code: 
+  code:
   unofficial_names:
   - Wes-Vlanderen
   - West-Vlaanderen
@@ -465,10 +471,11 @@ VWV:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
     az: Qərbi Flandiriya
     mk: Западна Фландрија
-  comments: 
-WBR: 
+    'no': Vest-Flandern
+  comments:
+WBR:
   name: Brabant Wallon (fr)
-  code: 
+  code:
   unofficial_names:
   - Waals-Brabant
   - Wallonisch Brabant
@@ -540,10 +547,11 @@ WBR:
     ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112A\U0001111A\U00011134 \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011133\U00011111\U00011134"
     he: ברבנט הוולונית
     az: Vallonskiy Brabant
-  comments: 
-WHT: 
+    'no': Vallonsk Brabant
+  comments:
+WHT:
   name: Hainaut (fr)
-  code: 
+  code:
   unofficial_names:
   - Henegouwen
   - Hennegau
@@ -614,10 +622,11 @@ WHT:
     ccp: "\U00011126\U0001112D\U0001111A\U00011105\U0001112A\U00011116\U00011134"
     az: Eno
     mk: Ено
-  comments: 
-WLG: 
+    'no': Hainaut
+  comments:
+WLG:
   name: Liège (fr)
-  code: 
+  code:
   unofficial_names:
   - Luik
   - Lüttich
@@ -688,10 +697,11 @@ WLG:
     ccp: "\U00011123\U0001112D\U0001110E\U0001112C"
     az: Lej
     mk: Лиеж
-  comments: 
-WLX: 
+    'no': Liège
+  comments:
+WLX:
   name: Luxembourg (fr)
-  code: 
+  code:
   unofficial_names:
   - Luxembourg
   - Luxemburg
@@ -761,10 +771,11 @@ WLX:
     zh: 盧森堡省
     ccp: "\U00011123\U0001112A\U00011107\U00011134\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
     mk: Луксембург
-  comments: 
-WNA: 
+    'no': Luxembourg
+  comments:
+WNA:
   name: Namur (fr)
-  code: 
+  code:
   unofficial_names:
   - Namen
   geo:
@@ -831,18 +842,19 @@ WNA:
     zh: 那慕爾省
     ccp: "\U0001111A\U0001111F\U0001112A\U00011122\U00011134"
     az: Namyur
-  comments: 
-WAL: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Namur
+  comments:
+WAL:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Wallonië
     ar: والونيا
@@ -904,18 +916,19 @@ WAL:
     yue: 華隆
     bs: Valonija
     mk: Валонија
-  comments: 
-VLG: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Vallonia
+  comments:
+VLG:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     ar: الإقليم الفلامندي
     be: Фламандскі рэгіён
@@ -979,4 +992,5 @@ VLG:
     bs: Flandrija
     mk: Фламански регион
     ne: फ्लेमिस क्षेत्र
-  comments: 
+    'no': Flandern
+  comments:
