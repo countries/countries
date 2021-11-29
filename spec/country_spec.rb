@@ -248,6 +248,10 @@ describe ISO3166::Country do
       expect(virginia.name).to eq('Virginia')
     end
 
+    it 'should have a code' do
+      expect(virginia.code).to eq('VA')
+    end
+
     it 'should behave like a hash' do
       expect(virginia['name']).to eq('Virginia')
     end
