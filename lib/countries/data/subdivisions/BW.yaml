@@ -1,7 +1,7 @@
 ---
-CE: 
+CE:
   name: Central
-  code: 
+  code:
   unofficial_names: Central
   geo:
     latitude: -21.1672276
@@ -56,10 +56,11 @@ CE:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     ca: Districte Central
     mk: Централен округ
-  comments: 
-GH: 
+    'no': Central
+  comments:
+GH:
   name: Ghanzi
-  code: 
+  code:
   unofficial_names:
   - Ghansi
   - Khanzi
@@ -116,10 +117,11 @@ GH:
     ccp: "\U0001110A\U0001111A\U00011134\U0001110E\U00011128"
     ca: Districte de Ghanzi
     mk: Ганзи
-  comments: 
-KG: 
+    'no': Ghanzi
+  comments:
+KG:
   name: Kgalagadi
-  code: 
+  code:
   unofficial_names: Kgalagadi
   geo:
     latitude: -24.7550285
@@ -174,10 +176,11 @@ KG:
     ccp: "\U00011109\U00011123\U00011109\U00011113\U00011128"
     ca: Districte de Kgalagadi
     mk: Кгалагади
-  comments: 
-KL: 
+    'no': Kgalagadi
+  comments:
+KL:
   name: Kgatleng
-  code: 
+  code:
   unofficial_names: Kgatleng
   geo:
     latitude: -24.1970445
@@ -233,10 +236,11 @@ KL:
     ccp: "\U00011109\U00011116\U00011134\U00011123\U0001112C\U00011101"
     ca: Districte de Kgatleng
     mk: Кгатленг
-  comments: 
-KW: 
+    'no': Kgatleng
+  comments:
+KW:
   name: Kweneng
-  code: 
+  code:
   unofficial_names: Kweneng
   geo:
     latitude: -23.8367249
@@ -291,10 +295,11 @@ KW:
     ccp: "\U00011107\U0001112A\U00011120\U0001112C\U0001111A\U0001112C\U00011101"
     ca: Districte de Kweneng
     mk: Квененг
-  comments: 
-NE: 
+    'no': Kweneng
+  comments:
+NE:
   name: North-East
-  code: 
+  code:
   unofficial_names: North-East
   geo:
     latitude: -20.9030555
@@ -349,10 +354,11 @@ NE:
       \U0001111B\U0001112A\U00011107\U00011134"
     ca: Districte del Nord-est
     mk: Североисточен округ
-  comments: 
-NW: 
+    'no': North-East
+  comments:
+NW:
   name: North-West
-  code: 
+  code:
   unofficial_names: North-West
   geo:
     latitude: -19.1905321
@@ -408,10 +414,11 @@ NW:
       \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     ca: Districte del Nord-oest
     mk: Северозападен округ
-  comments: 
-SE: 
+    'no': North-West
+  comments:
+SE:
   name: South-East
-  code: 
+  code:
   unofficial_names: South-East
   geo:
     latitude: -24.9366094
@@ -467,10 +474,11 @@ SE:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
     ca: Districte del Sud-est
     mk: Југоисточен округ
-  comments: 
-SO: 
+    'no': South-East
+  comments:
+SO:
   name: Southern
-  code: 
+  code:
   unofficial_names: Southern
   geo:
     latitude: -24.823384
@@ -526,18 +534,19 @@ SO:
     az: Cənubi dairə
     ca: Districte del Sud
     mk: Јужен округ
-  comments: 
-FR: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Southern
+  comments:
+FR:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Francistown
     ar: فرانسيس
@@ -589,18 +598,19 @@ FR:
     cs: Francistown
     ca: Francistown
     mk: Франсистаун
-  comments: 
-GA: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Francistown
+  comments:
+GA:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Gaborone
     am: ጋበሮኔ
@@ -680,18 +690,21 @@ GA:
     uz: Gaborone
     bs: Gaborone
     mk: Габороне
-  comments: 
-JW: 
-  name: 
-  code: 
-  unofficial_names: 
+    ha_NE: Gaborone
+    'no': Gaborone
+    yo_BJ: Gaborone
+  comments:
+JW:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Jwaneng
     ar: غوانينغ
@@ -735,18 +748,19 @@ JW:
     uk: Джваненг
     az: Cvanenq
     ca: Jwaneng
-  comments: 
-LO: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Jwaneng
+  comments:
+LO:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Lobatse
     ar: لوباتس
@@ -793,18 +807,19 @@ LO:
     ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134\U00011125\U0001112C"
     uk: Лобаце
     ca: Lobatse
-  comments: 
-SP: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lobatse
+  comments:
+SP:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Selebi-Phikwe
     ar: سيليبي-فيكوي
@@ -848,18 +863,19 @@ SP:
     ceb: Selebi-Phikwe
     zh: 塞莱比-皮奎
     ccp: "\U00011125\U0001112C\U00011123\U00011128\U0001111D\U0001112C \U0001111C\U00011128\U00011107\U0001112E\U00011120\U0001112C"
-  comments: 
-ST: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Selebi-Phikwe
+  comments:
+ST:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     af: Sowa, Botswana
     ar: سوا، بوتسوانا
@@ -899,18 +915,19 @@ ST:
     ccp: "\U00011125\U00011131 \U00011111\U00011105\U0001112A\U0001111A\U00011134"
     uk: Сова
     ca: Sowa
-  comments: 
-CH: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Sowa
+  comments:
+CH:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     de: Chobe District
     en: Chobe
@@ -923,4 +940,5 @@ CH:
     ur: چوبے ضلع
     zh: 乔贝区
     ccp: "\U00011107\U0001112E\U0001111D\U0001112C"
-  comments: 
+    'no': Chobe
+  comments:

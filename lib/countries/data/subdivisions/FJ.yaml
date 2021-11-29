@@ -1,7 +1,7 @@
 ---
-C: 
+C:
   name: Central
-  code: 
+  code:
   unofficial_names: Central
   geo:
     latitude: -17.9453123
@@ -52,10 +52,11 @@ C:
     ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     uk: Центральний округ
     ca: Divisió Central
-  comments: 
-E: 
+    'no': Central
+  comments:
+E:
   name: Eastern
-  code: 
+  code:
   unofficial_names: Eastern
   geo:
     latitude: -17.688972
@@ -105,10 +106,11 @@ E:
     ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     uk: Східний округ
     ca: Divisió Est
-  comments: 
-N: 
+    'no': Eastern
+  comments:
+N:
   name: Northern
-  code: 
+  code:
   unofficial_names: Northern
   geo:
     latitude: -16.6268225
@@ -158,10 +160,11 @@ N:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     uk: Північний округ
     ca: Divisió Nord
-  comments: 
-R: 
+    'no': Northern
+  comments:
+R:
   name: Rotuma
-  code: 
+  code:
   unofficial_names: Rotuma
   geo:
     latitude: -12.5025069
@@ -223,10 +226,12 @@ R:
     yo: Rotuma
     mk: Ротума
     bg: Ротума
-  comments: 
-W: 
+    'no': Rotuma
+    yo_BJ: Rotuma
+  comments:
+W:
   name: Western
-  code: 
+  code:
   unofficial_names: Western
   geo:
     latitude: -17.7510845
@@ -276,18 +281,19 @@ W:
     ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     uk: Західний округ
     ca: Divisió Oest
-  comments: 
-'03': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Western
+  comments:
+'03':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     ar: كاكاودروف
     en: Cakaudrove
@@ -306,18 +312,19 @@ W:
     ceb: Thakaundrove Province
     zh: 卡考德罗韦省
     ccp: "\U00011107\U0001112C\U00011107\U00011105\U0001112A\U00011113\U00011133\U00011122\U0001112E\U0001111B\U00011134"
-  comments: 
-'14': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Cakaudrove Province
+  comments:
+'14':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     da: Tailevu Province
     en: Tailevu
@@ -337,18 +344,19 @@ W:
     zh: 泰萊武省
     ccp: "\U00011111\U0001112D\U00011123\U0001112C\U0001111E\U0001112A"
     nb: Tailevu Province
-  comments: 
-'01': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Tailevu Province
+  comments:
+'01':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     de: Ba (Provinz)
     en: Ba
@@ -371,18 +379,19 @@ W:
     ceb: Ba Province
     ar: با
     ccp: "\U0001111D"
-  comments: 
-'02': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Ba Province
+  comments:
+'02':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Bua
     fr: province de Bua
@@ -402,18 +411,19 @@ W:
     ru: Мбуа
     ccp: "\U0001111D\U00011131"
     nb: Bua Province
-  comments: 
-'04': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Bua Province
+  comments:
+'04':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Kadavu
     es: Kadavu
@@ -431,18 +441,19 @@ W:
     ru: Кандаву
     ccp: "\U00011107\U00011127\U00011113\U0001111E\U0001112A"
     nb: Kadavu Province
-  comments: 
-'05': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Kadavu Province
+  comments:
+'05':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Lau
     fr: province de Lau
@@ -460,18 +471,19 @@ W:
     zh: 劳省
     ru: Лау
     ccp: "\U00011123\U00011105\U0001112A"
-  comments: 
-'06': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lau Province
+  comments:
+'06':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Lomaiviti
     es: Lomaiviti
@@ -491,18 +503,19 @@ W:
     ccp: "\U00011123\U0001112E\U0001111F\U0001112D\U0001111E\U00011128\U00011111\U00011128"
     uk: Ломаївіті
     nb: Lomaiviti Province
-  comments: 
-'07': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lomaiviti Province
+  comments:
+'07':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Macuata
     es: Macuata
@@ -521,18 +534,19 @@ W:
     zh: 馬庫阿塔省
     ccp: "\U0001111F\U00011133\U00011120\U00011107\U00011131\U00011111"
     nb: Macuata Province
-  comments: 
-'08': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Macuata Province
+  comments:
+'08':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Nadroga-Navosa
     es: Nadroga-Navosa
@@ -552,18 +566,19 @@ W:
     zh: 那德羅加諾沃薩省
     ru: Нандронга-Навоса (провинция)
     ccp: "\U0001111A\U00011113\U00011133\U00011122\U0001112E\U00011109-\U0001111A\U0001111E\U0001112E\U00011125"
-  comments: 
-'09': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Nadroga-Navosa Province
+  comments:
+'09':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Naitasiri
     es: Naitasiri
@@ -583,18 +598,19 @@ W:
     zh: 奈塔西里省
     ccp: "\U0001111A\U0001112D\U00011111\U00011125\U00011128\U00011122\U00011128"
     nb: Naitasiri Province
-  comments: 
-'10': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Naitasiri Province
+  comments:
+'10':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Namosi
     es: Namosi
@@ -613,18 +629,19 @@ W:
     zh: 納莫西省
     ccp: "\U0001111A\U0001111F\U0001112E\U00011125\U00011128"
     nb: Namosi Province
-  comments: 
-'11': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Namosi Province
+  comments:
+'11':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Ra
     es: Ra
@@ -645,18 +662,19 @@ W:
     ru: Ра
     ccp: "\U00011122"
     nb: Ra Province
-  comments: 
-'12': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Ra Province
+  comments:
+'12':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Rewa
     es: Rewa (Fiyi)
@@ -676,18 +694,19 @@ W:
     ceb: Rewa Province
     zh: 雷瓦省
     ccp: "\U00011122\U0001112C\U00011124"
-  comments: 
-'13': 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Rewa Province
+  comments:
+'13':
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Serua
     es: Serua
@@ -708,4 +727,5 @@ W:
     zh: 塞魯阿省
     ccp: "\U00011125\U0001112C\U00011122\U0001112A\U00011120"
     nb: Serua Province
-  comments: 
+    'no': Serua Province
+  comments:

@@ -1,7 +1,7 @@
 ---
-BC: 
+BC:
   name: Bas-Congo
-  code: 
+  code:
   unofficial_names:
   - Bas-Zaire
   geo:
@@ -62,10 +62,11 @@ BC:
     hy: Ներքին Կոնգո
     ca: Província del Baix Congo
     mk: Долно Конго
-  comments: 
-BN: 
+    'no': Bas-Congo
+  comments:
+BN:
   name: Bandundu
-  code: 
+  code:
   unofficial_names: Bandundu
   geo:
     latitude: -3.316667
@@ -77,10 +78,10 @@ BN:
   translations:
     en: Bandundu
     ccp: "\U0001111D\U0001111A\U00011134\U00011118\U0001112A\U0001111A\U00011134\U00011113\U0001112A"
-  comments: 
-EQ: 
+  comments:
+EQ:
   name: Équateur
-  code: 
+  code:
   unofficial_names: Équateur
   geo:
     latitude: 0.5640035999999999
@@ -134,10 +135,11 @@ EQ:
     fa: ایکواته
     ccp: "\U00011103\U00011128\U00011107\U00011131\U00011111\U0001112C\U00011105\U0001112A\U00011122\U00011134"
     uk: Екватор (Екваторіальна провінція)
-  comments: 
-KA: 
+    'no': Équateur (provins)
+  comments:
+KA:
   name: Katanga
-  code: 
+  code:
   unofficial_names:
   - Shaba
   geo:
@@ -150,10 +152,10 @@ KA:
   translations:
     en: Katanga
     ccp: "\U00011107\U00011111\U0001110B\U00011134\U00011109"
-  comments: 
-KE: 
+  comments:
+KE:
   name: Kasai-Oriental
-  code: 
+  code:
   unofficial_names: Kasai-Oriental
   geo:
     latitude: -2.8437453
@@ -210,10 +212,11 @@ KE:
     fa: کاسای
     ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
     hy: Արևելյան Կասայ
-  comments: 
-KN: 
+    'no': Kasaï-Oriental
+  comments:
+KN:
   name: Kinshasa
-  code: 
+  code:
   unofficial_names: Kinshasa
   geo:
     latitude: -4.325
@@ -302,10 +305,13 @@ KN:
     uz: Kinshasa
     bs: Kinshasa
     mk: Киншаса
-  comments: 
-KW: 
+    ha_NE: Kinshasa
+    'no': Kinshasa
+    yo_BJ: Kinshasa
+  comments:
+KW:
   name: Kasai-Occidental
-  code: 
+  code:
   unofficial_names: Kasai-Occidental
   geo:
     latitude: -5.320547299999999
@@ -317,10 +323,10 @@ KW:
   translations:
     en: Kasaï-Occidental
     ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
-  comments: 
-MA: 
+  comments:
+MA:
   name: Maniema
-  code: 
+  code:
   unofficial_names: Maniema
   geo:
     latitude: -3.0730929
@@ -377,10 +383,11 @@ MA:
     zh: 马涅马省
     ccp: "\U0001111F\U0001111A\U00011128\U00011120\U0001112C\U0001111F"
     he: מניימה
-  comments: 
-NK: 
+    'no': Maniema
+  comments:
+NK:
   name: Nord-Kivu
-  code: 
+  code:
   unofficial_names: Nord-Kivu
   geo:
     latitude: -0.7917729
@@ -440,10 +447,11 @@ NK:
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
       \U00011107\U00011128\U0001111E\U0001112A"
     az: Şimali Kivu
-  comments: 
-OR: 
+    'no': Nord-Kivu
+  comments:
+OR:
   name: Orientale
-  code: 
+  code:
   unofficial_names:
   - Haut-Zaire
   - Orientale
@@ -457,10 +465,10 @@ OR:
   translations:
     en: Orientale
     ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
-  comments: 
-SK: 
+  comments:
+SK:
   name: Sud-Kivu
-  code: 
+  code:
   unofficial_names: Sud-Kivu
   geo:
     latitude: -3.011658
@@ -518,18 +526,19 @@ SK:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011107\U00011128\U0001111E\U0001112A"
     uz: Janubiy Kivu
     mk: Јужно Киву
-  comments: 
-BU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Sud-Kivu
+  comments:
+BU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Ніжняе Уэле
     bg: Ба Уеле
@@ -556,18 +565,19 @@ BU:
     zh: 下韦莱省
     ccp: "\U0001111D\U0001110C\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
     he: מחוז אואלה תחתית
-  comments: 
-HK: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Bas-Uele
+  comments:
+HK:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Верхняя Катанга
     bg: О Катанга
@@ -595,18 +605,19 @@ HK:
     zh: 上加丹加省
     ccp: "\U00011126\U00011116\U00011134-\U00011107\U00011111\U00011101\U00011109"
     hy: Վերին Կատանգա
-  comments: 
-HL: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Haut-Katanga
+  comments:
+HL:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Верхняе Ламамі
     bg: О Ломами
@@ -633,18 +644,19 @@ HL:
     zh: 上洛马米省
     ccp: "\U00011126\U00011116\U00011134-\U00011123\U00011127\U0001111F\U0001111F\U00011128"
     hy: Վերին Լոմամի
-  comments: 
-HU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Haut-Lomami
+  comments:
+HU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Верхняе Уэле
     bg: О Уеле
@@ -671,18 +683,19 @@ HU:
     zh: 上韦莱省
     ccp: "\U00011126\U00011116\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
     hy: Վերին Ուելե
-  comments: 
-KC: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Haut-Uele
+  comments:
+KC:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Лулуа
     bg: Лулуа
@@ -709,18 +722,19 @@ KC:
     ka: ლულუის პროვინცია
     fi: Keski-Kasai
     it: Provincia del Kasai Centrale
-  comments: 
-KG: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lulua
+  comments:
+KG:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Кванго
     bg: Кванго
@@ -740,18 +754,19 @@ KG:
     uk: Кванго
     zh: 宽果省
     ccp: "\U00011107\U00011127\U00011120\U0001112A\U00011101\U00011109\U0001112E"
-  comments: 
-KL: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Kwango
+  comments:
+KL:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Квілу
     bg: Квилу
@@ -778,18 +793,19 @@ KL:
     zh: 奎卢省
     ccp: "\U00011107\U00011127\U00011103\U00011128\U00011123\U0001112A"
     hy: Կվիլու
-  comments: 
-LO: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Kwilu
+  comments:
+LO:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Ламамі
     bg: Ломами
@@ -813,18 +829,19 @@ LO:
     zh: 洛马米省
     ccp: "\U00011123\U00011127\U0001111F\U0001111F\U00011128"
     ka: ლომამის პროვინცია
-  comments: 
-LU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lomami
+  comments:
+LU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Луалаба
     bg: Луалаба
@@ -850,18 +867,19 @@ LU:
     uk: Луалаба
     zh: 卢阿拉巴省
     ccp: "\U00011123\U0001112A\U00011120\U00011123\U0001111D"
-  comments: 
-MN: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Lualaba (provins)
+  comments:
+MN:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Маі-Ндамбэ
     bg: Ме Ндомбе
@@ -884,18 +902,19 @@ MN:
     uk: Маї-Ндомбе
     zh: 马伊恩东贝省
     ccp: "\U0001111F\U0001112D-\U00011113\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
-  comments: 
-MO: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Mai-Ndombe
+  comments:
+MO:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Мангала
     bg: Монгала
@@ -921,18 +940,19 @@ MO:
     zh: 蒙加拉省
     ccp: "\U0001111F\U00011127\U00011101\U00011109\U00011127\U00011123"
     nb: Mongala
-  comments: 
-NU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Mongala
+  comments:
+NU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Паўночнае Убангі
     bg: Нор Убанги
@@ -958,18 +978,19 @@ NU:
     zh: 北乌班吉省
     ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011113\U00011134-\U00011103\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
     nb: Nord-Ubangi
-  comments: 
-SA: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Nord-Ubangi
+  comments:
+SA:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Санкуру
     bg: Санкуру
@@ -994,18 +1015,19 @@ SA:
     zh: 桑库鲁省
     ccp: "\U00011125\U00011101\U00011107\U0001112A\U00011122\U0001112A"
     nb: Sankuru
-  comments: 
-SU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Sankuru
+  comments:
+SU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Паўднёвае Убангі
     bg: Сюд Убанги
@@ -1030,18 +1052,19 @@ SU:
     zh: 南乌班吉省
     ccp: "\U00011125\U00011116\U00011134-\U00011105\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
     nb: Sud-Ubangi
-  comments: 
-TA: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Sud-Ubangi
+  comments:
+TA:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Танганьіка
     bg: Танганика
@@ -1067,18 +1090,19 @@ TA:
     ceb: Kongolo Tanganyika District
     zh: 坦噶尼喀省
     ccp: "\U00011111\U0001110B\U00011134\U00011109\U0001111A\U00011128\U00011120\U00011107"
-  comments: 
-TO: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Tanganyika
+  comments:
+TO:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Чапо
     bg: Чопо
@@ -1104,18 +1128,19 @@ TO:
     ceb: Tshopo
     zh: 乔波省
     ccp: "\U00011125\U0001112E\U0001111B\U0001112E"
-  comments: 
-TU: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Tshopo
+  comments:
+TU:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     be: Правінцыя Чуапа
     bg: Чуапа
@@ -1141,34 +1166,35 @@ TU:
     ceb: Tshuapa
     zh: 楚阿帕省
     ccp: "\U00011125\U0001112A\U00011120\U0001111B"
-  comments: 
-IT: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Tshuapa
+  comments:
+IT:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Ituri
     zh: 伊图里临时行政区
     ccp: "\U00011103\U0001112D\U00011111\U0001112A\U00011122\U00011128"
-  comments: 
-KS: 
-  name: 
-  code: 
-  unofficial_names: 
+  comments:
+KS:
+  name:
+  code:
+  unofficial_names:
   geo:
-    latitude: 
-    longitude: 
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Kasaï
     fr: Kasaï
@@ -1183,4 +1209,5 @@ KS:
     sv: Kasaï
     uk: Касаї
     ccp: "\U00011107\U00011125\U0001112D"
-  comments: 
+    'no': Kasaï
+  comments:

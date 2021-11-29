@@ -1,7 +1,7 @@
 ---
-DI: 
+DI:
   name: Dimashq
-  code: 
+  code:
   unofficial_names:
   - Dimashq
   - Madīnat Dimašq
@@ -45,10 +45,11 @@ DI:
     pl: Damaszek-Miasto
     ccp: "\U00011113\U0001111F\U0001110C\U00011134\U00011107\U0001110C\U00011134"
     de: Gouvernement Damaskus
-  comments: 
-DR: 
+    'no': Damaskus
+  comments:
+DR:
   name: Dar'ā
-  code: 
+  code:
   unofficial_names:
   - Dara
   - Darā
@@ -99,10 +100,10 @@ DR:
     sr_Latn: Dara (pokrajina)
     zh: 德拉省
     ccp: "\U00011113\U00011122\U00011133\U00011103"
-  comments: 
-DY: 
+  comments:
+DY:
   name: Dayr az Zawr
-  code: 
+  code:
   unofficial_names:
   - Deir El-Zor
   - Deir-ez-Zor
@@ -164,10 +165,11 @@ DY:
     sr_Latn: Dajr ez Zaur (pokrajina)
     zh: 代尔祖尔省
     ccp: "\U00011113\U00011120\U0001112C\U00011122\U00011134 \U00011103\U0001112C\U0001110C\U00011134-\U0001110E\U0001112E\U00011122\U00011134"
-  comments: 
-HA: 
+    'no': Dayr az-Zawr
+  comments:
+HA:
   name: Al Ḩasakah
-  code: 
+  code:
   unofficial_names:
   - El Haseke
   - Hassetche
@@ -231,20 +233,21 @@ HA:
     sr_Latn: Hasaka (pokrajina)
     zh: 哈塞克省
     ccp: "\U00011103\U00011123\U00011134-\U0001111D\U00011125\U00011107\U00011134\U00011126\U00011134"
-  comments: 
-HI: 
+    'no': Al-Hasakah
+  comments:
+HI:
   name: Ḩimş
-  code: 
+  code:
   unofficial_names:
   - Hims
   - Homs
   geo:
     latitude: 33.7348116
     longitude: -117.9947778
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Homs
     ar: محافظة حمص
@@ -298,10 +301,11 @@ HI:
     sr_Latn: Homs (pokrajina)
     zh: 霍姆斯省
     ccp: "\U00011126\U00011127\U0001111F\U00011134\U0001110C\U00011134"
-  comments: 
-HL: 
+    'no': Homs
+  comments:
+HL:
   name: Ḩalab
-  code: 
+  code:
   unofficial_names:
   - Halab
   - Haleb
@@ -310,10 +314,10 @@ HL:
   geo:
     latitude: 33.9166667
     longitude: 38.3
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Aleppo
     ar: محافظة حلب
@@ -356,20 +360,21 @@ HL:
     zh: 阿勒颇省
     ccp: "\U00011103\U00011123\U00011128\U0001111B\U00011133\U00011126\U00011127"
     be: Халеб
-  comments: 
-HM: 
+    'no': Aleppo
+  comments:
+HM:
   name: Ḩamāh
-  code: 
+  code:
   unofficial_names:
   - Hama
   - Hamah
   geo:
     latitude: 32.8947222
     longitude: 37.12527780000001
-    min_latitude: 
-    min_longitude: 
-    max_latitude: 
-    max_longitude: 
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
     en: Hama
     ar: محافظة حماة
@@ -422,10 +427,11 @@ HM:
     sr_Latn: Hama (pokrajina)
     zh: 哈馬省
     ccp: "\U00011126\U0001111F"
-  comments: 
-ID: 
+    'no': Guvernementet Hama
+  comments:
+ID:
   name: Idlib
-  code: 
+  code:
   unofficial_names: Idlib
   geo:
     latitude: 35.933333
@@ -485,10 +491,11 @@ ID:
     sr_Latn: Idlib (pokrajina)
     zh: 伊德利卜省
     ccp: "\U00011103\U00011128\U00011116\U00011134\U00011123\U00011128\U0001111B\U00011134"
-  comments: 
-LA: 
+    'no': Idlib
+  comments:
+LA:
   name: Al Ladhiqiyah
-  code: 
+  code:
   unofficial_names:
   - Latakia
   - Lattakia
@@ -542,10 +549,11 @@ LA:
     sr_Latn: Latakija (pokrajina)
     zh: 拉塔基亚省
     ccp: "\U00011123\U00011111\U00011107\U00011128\U00011120"
-  comments: 
-QU: 
+    'no': Latakia
+  comments:
+QU:
   name: Al Qunaytirah
-  code: 
+  code:
   unofficial_names:
   - Quneitra
   - al-Qunaytirah
@@ -605,10 +613,11 @@ QU:
     zh: 库奈特拉省
     ccp: "\U00011107\U0001112A\U00011120\U0001111A\U00011134\U00011103\U0001112D\U00011111\U00011133\U00011122"
     ca: governació de Quneitra
-  comments: 
-RA: 
+    'no': Al-Qunaytirah
+  comments:
+RA:
   name: Ar Raqqah
-  code: 
+  code:
   unofficial_names:
   - Raqqah
   - al-Rakka
@@ -659,10 +668,11 @@ RA:
     zh: 拉卡省
     ccp: "\U00011103\U00011122\U00011134-\U00011122\U00011107\U00011133\U00011126"
     mk: Рака
-  comments: 
-RD: 
+    'no': Ar-Raqqah
+  comments:
+RD:
   name: Rif Dimashq
-  code: 
+  code:
   unofficial_names:
   - Dimashq
   - Dimašq
@@ -726,10 +736,11 @@ RD:
     sr_Latn: Damask (pokrajina)
     zh: 大马士革农村省
     ccp: "\U00011122\U00011128\U0001111B\U00011134 \U00011113\U00011128\U0001111F\U0001110C\U00011134\U00011107\U00011134"
-  comments: 
-SU: 
+    'no': Rif Dimashq
+  comments:
+SU:
   name: As Suwayda'
-  code: 
+  code:
   unofficial_names:
   - as-Suwayda
   geo:
@@ -789,10 +800,11 @@ SU:
     sr_Latn: Suvajda (pokrajina)
     zh: 苏韦达省
     ccp: "\U00011103\U0001110C\U00011134-\U00011125\U0001112A\U00011120\U0001112C\U00011113"
-  comments: 
-TA: 
+    'no': as-Suwayda
+  comments:
+TA:
   name: Tartus
-  code: 
+  code:
   unofficial_names:
   - Tartoûs
   - Tartus
@@ -854,4 +866,5 @@ TA:
     sr_Latn: Tartus (pokrajina)
     zh: 塔尔图斯省
     ccp: "\U00011111\U00011122\U00011134\U00011111\U0001110C\U00011134"
-  comments: 
+    'no': Tartus
+  comments:

@@ -1,7 +1,7 @@
 ---
-E: 
+E:
   name: Eastern
-  code: 
+  code:
   unofficial_names: Eastern
   geo:
     latitude: 8.247377499999999
@@ -53,10 +53,11 @@ E:
     ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     hr: Istočna provincija
     uk: Східна провінція
-  comments: 
-N: 
+    'no': Eastern
+  comments:
+N:
   name: Northern
-  code: 
+  code:
   unofficial_names: Northern
   geo:
     latitude: 9.3500888
@@ -108,10 +109,11 @@ N:
     zh: 北方省
     ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     hr: Sjeverna provincija
-  comments: 
-S: 
+    'no': Northern
+  comments:
+S:
   name: Southern
-  code: 
+  code:
   unofficial_names: Southern
   geo:
     latitude: 7.790662499999999
@@ -163,10 +165,11 @@ S:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
     hr: Južna provincija
     uk: Південна провінція
-  comments: 
-W: 
+    'no': Southern
+  comments:
+W:
   name: Western Area (Freetown)
-  code: 
+  code:
   unofficial_names: Western Area (Freetown)
   geo:
     latitude: 8.484444
@@ -219,11 +222,12 @@ W:
       \U0001110E\U00011109"
     hr: Zapadna zona
     uk: Західний регіон
-  comments: 
-NW: 
-  name: 
-  code: 
-  unofficial_names: 
+    'no': Western
+  comments:
+NW:
+  name:
+  code:
+  unofficial_names:
   geo:
     latitude: 8.460555
     longitude: -11.779889
@@ -233,4 +237,4 @@ NW:
     max_longitude: -10.2716829
   translations:
     en: North Western
-  comments: 
+  comments:
