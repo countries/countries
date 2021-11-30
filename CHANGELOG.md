@@ -18,7 +18,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 **Merged pull requests:**
 
-- Set the code when creating subdivisions [\#658](https://github.com/countries/countries/pull/692) ([IamDavidovich](https://github.com/IamDavidovich))
+- Set the code when creating subdivisions [\#658](https://github.com/countries/countries/pull/658) ([IamDavidovich](https://github.com/IamDavidovich))
 - Refresh subdivision data from CLDR  [\#704](https://github.com/countries/countries/pull/704) ([pmor](https://github.com/pmor))
 - Update I18nData gem to 0.13.1 and fix MK translation in `mk` locale [\#705](https://github.com/countries/countries/pull/705) ([pmor](https://github.com/pmor))
 
