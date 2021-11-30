@@ -201,6 +201,12 @@ c.in_eea? # => false
 c.in_esm? # => false
 ```
 
+### Plucking multiple attributes
+
+```ruby
+ISO3166::Country.pluck(:alpha2, :name) # => [["AD", "Andorra"], ["AE", "United Arab Emirates"], ...
+```
+
 ## Currencies
 
 To enable currencies extension please add the following to countries initializer.
