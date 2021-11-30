@@ -33,12 +33,6 @@ module ISO3166
 
     alias countries all
 
-    def pluck(*attributes)
-      all.map(&:data).map do |country|
-        attributes.map { |attribute| country.fetch(attribute.to_s) }
-      end
-    end
-
     def all_translated(locale = 'en')
       translations(locale).values
     end
@@ -48,6 +42,12 @@ module ISO3166
         lc = (c.translation(locale) || c.name)
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
       end.sort
+    end
+
+    def pluck(*attributes)
+      all.map do |country|
+        attributes.map { |attribute| country.data.fetch(attribute.to_s) }
+      end
     end
 
     def translations(locale = 'en')
