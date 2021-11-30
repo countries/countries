@@ -972,4 +972,24 @@ describe ISO3166::Country do
       expect(countries.all? { |country| country.un_locode.length == 2 }).to be
     end
   end
+
+  describe '.pluck' do
+    let(:args) { [] }
+
+    subject { ISO3166::Country.pluck(*args) }
+
+    it "returns empty arrays" do
+      expect(subject.first).to be_empty
+      expect(subject.last).to be_empty
+    end
+
+    context "when asking for alpha2, alpha3 and name" do
+      let(:args) { [:alpha2, :alpha3, :name] }
+
+      it "returns the correct values" do
+        expect(subject.first).to eq(["AD", "AND", "Andorra"])
+        expect(subject.last).to eq(["ZW", "ZWE", "Zimbabwe"])
+      end
+    end
+  end
 end
