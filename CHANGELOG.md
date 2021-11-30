@@ -4,8 +4,23 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.1.0](https://github.com/countries/countries/releases/tag/v4.1.0) (2021/11/30 09:44 +00:00)
+
+**New features:**
+
+- `Country.pluck` [\#706](https://github.com/countries/countries/pull/706) ([dorianmariefr](https://github.com/dorianmariefr))
+
+**Closed issues:**
+
  - Ensure Moscow Oblast translations reference the "province" [\#694](https://github.com/countries/countries/pull/694) ([carlesjove](https://github.com/carlesjove))
  - Update NL reduced VAT rate [\#693](https://github.com/countries/countries/pull/693) ([oscaredel](https://github.com/oscaredel))
+ - Serbian translation for North Macedonia is incorrect [\#703](https://github.com/countries/countries/issues/703)
+
+**Merged pull requests:**
+
+- Set the code when creating subdivisions [\#658](https://github.com/countries/countries/pull/692) ([IamDavidovich](https://github.com/IamDavidovich))
+- Refresh subdivision data from CLDR  [\#704](https://github.com/countries/countries/pull/704) ([pmor](https://github.com/pmor))
+- Update I18nData gem to 0.13.1 and fix MK translation in `mk` locale [\#705](https://github.com/countries/countries/pull/705) ([pmor](https://github.com/pmor))
 
 ## [4.0.1](https://github.com/countries/countries/releases/tag/v4.0.1) (2021/07/19 14:47 +01:00)
 
@@ -13,16 +28,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - ISO Country Code for Czechia/Czech Republic should be updated. [\#688](https://github.com/countries/countries/issues/688)
 - Regression in 4.0.0: ISO3166::Country.translations(:en) with symbol arg raises [\#691](https://github.com/countries/countries/issues/691)
-- Serbian translation for North Macedonia is incorrect [\#703](https://github.com/countries/countries/issues/703)
 
 **Merged pull requests:**
 
-- Set the code when creating subdivisions [\#658](https://github.com/countries/countries/pull/692) ([IamDavidovich](https://github.com/IamDavidovich))
  - Updating Norway subdivision codes to match late 2020 ISO change [\#666](https://github.com/countries/countries/pull/666) and [\#689](https://github.com/countries/countries/pull/689) ([thomascrumrine](https://github.com/thomascrumrine))
 - Update CZ.yaml: Czechia is the ISO short name for the Czech Republic [\#690](https://github.com/countries/countries/pull/690) ([pmor](https://github.com/pmor))
 - Fix regression in `ISO3166::Country.translations` with symbols [\#692](https://github.com/countries/countries/pull/692) ([pmor](https://github.com/pmor))
-- Refresh subdivision data from CLDR  [\#704](https://github.com/countries/countries/pull/704) ([pmor](https://github.com/pmor))
-- Update I18nData gem to 0.13.1 and fix MK translation in `mk` locale [\#705](https://github.com/countries/countries/pull/705) ([pmor](https://github.com/pmor))
+
 
 ## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
