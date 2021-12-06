@@ -804,6 +804,45 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'finder methods respond_to_missing?' do
+    subject { ISO3166::Country.respond_to?(method_name) }
+    describe 'find_all_by' do
+      context 'find by a valid Country attribute' do
+        let(:method_name) { :find_all_by_currency }
+        it { is_expected.to be true }
+      end
+
+      context 'find by an invalid attribute' do
+        let(:method_name) { :find_all_by_invalid }
+        it { is_expected.to be false }
+      end
+    end
+
+    describe 'hash finder methods' do
+      context 'find by a valid Country attribute' do
+        let(:method_name) { :find_by_name }
+        it { is_expected.to be true }
+      end
+
+      context 'find by an invalid attribute' do
+        let(:method_name) { :find_by_invalid }
+        it { is_expected.to be false }
+      end
+    end
+
+    describe 'country finder methods' do
+      context 'find country by a valid Country attribute' do
+        let(:method_name) { :find_country_by_alpha3 }
+        it { is_expected.to be true }
+      end
+
+      context 'find by an invalid attribute' do
+        let(:method_name) { :find_country_by_invalid }
+        it { is_expected.to be false }
+      end
+    end
+  end
+
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
       names = ISO3166::Data.cache.map do |_k, v|

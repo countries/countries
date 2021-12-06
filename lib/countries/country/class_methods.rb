@@ -83,7 +83,7 @@ module ISO3166
     def respond_to_missing?(method_name, include_private = false)
       matches = method_name.to_s.match(FIND_BY_REGEX)
       if matches && matches[3]
-        matches[3].all? { |a| instance_methods.include?(a.to_sym) }
+        instance_methods.include?(matches[3].to_sym)
       else
         super
       end
