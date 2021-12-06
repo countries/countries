@@ -4,6 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+
+## [4.1.1](https://github.com/countries/countries/releases/tag/v4.1.1) (2021/12/06 13:31 +00:00)
+
+**Merged pull requests:**
+
+* Fix ISO3166::Country respond_to_missing? by @biinari in https://github.com/countries/countries/pull/625
+* Revert subdivision changes to NO.yaml by @pmor in https://github.com/countries/countries/pull/709
+
 ## [4.1.0](https://github.com/countries/countries/releases/tag/v4.1.0) (2021/11/30 09:44 +00:00)
 
 **New features:**
