@@ -1,6 +1,5 @@
 ---
 US:
-  continent: North America
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,36 +7,10 @@ US:
     {{country}}
   alpha2: US
   alpha3: USA
+  continent: North America
   country_code: '1'
-  international_prefix: '011'
-  ioc: USA
+  currency_code: USD
   gec: US
-  name: United States of America
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '840'
-  region: Americas
-  subregion: Northern America
-  world_region: AMER
-  un_locode: US
-  nationality: American
-  postal_code: true
-  postal_code_format: "(\\d{5})(?:[ \\-](\\d{4}))?"
-  unofficial_names:
-  - United States
-  - Murica
-  - Vereinigte Staaten von Amerika
-  - États-Unis
-  - Estados Unidos
-  - アメリカ合衆国
-  - Verenigde Staten
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 37.09024
     latitude_dec: '39.44325637817383'
@@ -54,5 +27,33 @@ US:
       southwest:
         lat: 18.7763
         lng: 170.5957
-  currency_code: USD
+  international_prefix: '011'
+  ioc: USA
+  iso_long_name: The United States of America
+  iso_short_name: United States of America
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: American
+  number: '840'
+  postal_code: true
+  postal_code_format: "(\\d{5})(?:[ \\-](\\d{4}))?"
+  region: Americas
   start_of_week: sunday
+  subregion: Northern America
+  un_locode: US
+  unofficial_names:
+  - United States
+  - Murica
+  - Vereinigte Staaten von Amerika
+  - États-Unis
+  - Estados Unidos
+  - アメリカ合衆国
+  - Verenigde Staten
+  world_region: AMER
