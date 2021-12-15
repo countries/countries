@@ -19,36 +19,6 @@ end
 
 task default: [:spec]
 
-task :update_yaml_structure do
-
-  d = Dir['lib/countries/data/subdivisions/*.yaml']
-  d.each do |file|
-    puts "checking : #{file}"
-    data = YAML.load_file(file)
-
-    data = data.each_with_object({}) do |(k, subd), a|
-      a[k] ||= {}
-      a[k]['unofficial_names'] = subd.delete('names')
-      a[k]['translations'] = { 'en' => subd['name'] }
-      a[k]['geo'] = {
-        'latitude' => subd.delete('latitude'),
-        'longitude' => subd.delete('longitude'),
-        'min_latitude' => subd.delete('min_latitude'),
-        'min_longitude' => subd.delete('min_longitude'),
-        'max_latitude' => subd.delete('max_latitude'),
-        'max_longitude' => subd.delete('max_longitude')
-      }
-
-      a[k] = a[k].merge(subd)
-    end
-    File.open(file, 'w') { |f| f.write data.to_yaml }
-    begin
-  rescue
-    puts "failed to read #{file}: #{$ERROR_INFO}"
-  end
-  end
-end
-
 desc 'Update CLDR subdivison data set'
 task :update_cldr_subdivison_data do
   require_relative './lib/countries/sources'
@@ -90,4 +60,27 @@ task :update_cache do
   end
 
   File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json'), 'wb') { |f| f.write(data.to_json) }
+end
+
+
+
+task :update_iso_names do
+  require 'csv'
+  isodata = CSV.read 'isonames.csv', headers: true
+
+  d = Dir['lib/countries/data/countries/*.yaml']
+  d.each do |file|
+    puts "checking : #{file}"
+    data = YAML.load_file(file)
+
+    country_code = data.keys.first
+    iso_country = isodata.find {|c| c['cc'] == country_code}
+
+    data.values.first['iso_long_name'] = iso_country['iso_full_name']
+    data.values.first['iso_short_name'] = data.values.first.delete('name')
+
+    data[country_code.upcase] = data[country_code.upcase].sort.to_h
+
+    File.open(file, 'w') { |f| f.write data.to_yaml }
+  end
 end
