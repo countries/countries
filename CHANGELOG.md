@@ -2,15 +2,21 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [Future 5.0 release]
 
+- Drop support for Ruby 2.5 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+
+## [Unreleased - Next release]
+
+* Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
+* Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
 
 ## [4.1.1](https://github.com/countries/countries/releases/tag/v4.1.1) (2021/12/06 13:31 +00:00)
 
 **Merged pull requests:**
 
-* Fix ISO3166::Country respond_to_missing? by @biinari in https://github.com/countries/countries/pull/625
-* Revert subdivision changes to NO.yaml by @pmor in https://github.com/countries/countries/pull/709
+* Fix ISO3166::Country respond_to_missing? [\#625](https://github.com/countries/countries/pull/625) ([biinari](https://github.com/biinari))
+* Revert subdivision changes to NO.yaml [\#709](https://github.com/countries/countries/pull/709) ([pmor](https://github.com/pmor))
 
 ## [4.1.0](https://github.com/countries/countries/releases/tag/v4.1.0) (2021/11/30 09:44 +00:00)
 
