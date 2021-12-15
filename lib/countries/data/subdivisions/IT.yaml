@@ -2508,7 +2508,7 @@ FI:
 FM:
   name: Fermo
   code:
-  unofficial_names
+  unofficial_names:
   - Province of Fermo
   geo:
     latitude: 43.1588734
@@ -3499,7 +3499,7 @@ MC:
     min_longitude: 13.4161256
     max_latitude: 43.3133078
     max_longitude: 13.4876283
-  translations
+  translations:
     ar: مقاطعة ماشيراتا
     be: Правінцыя Мачэрата
     bg: Мачерата
@@ -4068,7 +4068,9 @@ NA:
 'NO':
   name: Novara
   code:
-  unofficial_names: Novara
+  unofficial_names:
+  - Novara
+  - Province of Novara
   geo:
     latitude: 45.44692999999999
     longitude: 8.622161199999999
@@ -4076,11 +4078,6 @@ NA:
     min_longitude: 8.573948399999999
     max_latitude: 45.4884906
     max_longitude: 8.6576135
-  name: Napoli
-NO:
-  unofficial_names:
-  - Novara
-  - Province of Novara
   translations:
     ar: مقاطعة نوفارا
     bg: Новара
@@ -4211,7 +4208,7 @@ NU:
     hy: Նուորո
     uz: Nuoro
     'no': Provinsen Nuoro
-  comments
+  comments:
 OR:
   name: Oristano
   code:
@@ -7552,8 +7549,7 @@ VV:
     yue_Hans: 图灵天诺－南铁罗
     jv: Trentino-Alto Adige
     sq: Trentino-Tiroli Jugor
-    ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011111\U00011128\U0001111A\U0001112E-\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134
-      \U00011111\U0001112D\U00011122\U0001112E\U00011123\U00011134"
+    ccp: "\U00011111\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011111\U00011128\U0001111A\U0001112E-\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011111\U0001112D\U00011122\U0001112E\U00011123\U00011134"
     ga: Trentino-Tirol Theas
     kk: Трентино — Альто-Адидже
     yue: 圖靈天諾－南鐵羅
@@ -8054,7 +8050,7 @@ VV:
     ur: مارکے
     vi: Marche
 '62':
-name: Lazio
+  name: Lazio
   unofficial_names:
   -  Latium
   geo:
@@ -8209,7 +8205,7 @@ name: Lazio
     mk: Абруцо
     'no': Abruzzo
   comments:
-'72':
+'67':
   name: Molise
   code:
   unofficial_names:
@@ -8331,7 +8327,7 @@ name: Lazio
     ur: کمپانیہ
     vi: Campania
     cy: Campania
-   ceb: Campania
+    ceb: Campania
     sr_Latn: Kampanija
     zh: 坎帕尼亚
     yue_Hans: 甘帕尼亚
@@ -8410,7 +8406,7 @@ name: Lazio
     uk: Апулія
     ur: پلیہ
     vi: Apulia
-comments:
+  comments:
 '77':
   name: Basilicata
   code:
@@ -8473,7 +8469,7 @@ comments:
     uk: Базиліката
     ur: بازیلیکاتا
 '78':
-  name Calabria
+  name: Calabria
   unofficial_names:
   - Calavría
   - Calàbbria
