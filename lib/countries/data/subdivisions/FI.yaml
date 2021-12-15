@@ -1,11 +1,9 @@
 ---
-'01':
+01:
   unofficial_names:
-  - Åland
+    - Åland
   translations:
-    en: Ahvenanmaan lääni
-    fi: Ahvenanmaan maakunta
-    sv: Landskapet Åland
+    en: Åland Islands
   geo:
     latitude: 60.177002
     longitude: 19.915002
@@ -13,10 +11,10 @@
     min_longitude: 19.4613939
     max_latitude: 60.6547739
     max_longitude: 21.1111317
-  name:  Åland Islands
-'02':
+  name: Ahvenanmaan maakunta
+02:
   unofficial_names:
-  - Etelä-Karjala
+    - Södra Karelen
   translations:
     ar: كاريليا الجنوبية
     bn: দক্ষিন কারেলিয়া
@@ -53,7 +51,7 @@
     ro: Carelia de Sud
     ru: Южная Карелия
     si: දකුණු කරෙලියා
-    sk: Južná Karélia
+    sk: Etelä-Karjala
     sr: Јужна Карелија
     sv: Södra Karelen
     ta: தெற்கு கரேலியா
@@ -64,17 +62,10 @@
     ur: جنوبی کاریلیا
     vi: Nam Karelia
     zh: 南卡累利阿區
-  geo:
-    latitude: 61.265491
-    longitude: 28.632299
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: South Karelia
-'03':
+  name: Etelä-Karjala
+03:
   unofficial_names:
-  - Etelä-Pohjanmaa
+    - Södra Österbotten
   translations:
     ar: بوهيانما الجنوبية
     be: Паўднёвая Астработнія
@@ -120,17 +111,10 @@
     uk: Південна Погʼянмаа
     ur: جنوبی اوستروبوثنیہ
     vi: Phía Nam Ostrobothnia
-  geo:
-    latitude: 62.739070
-    longitude: 23.048160
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: South Ostrobothnia
-'04':
+  name: Etelä-Pohjanmaa
+04:
   unofficial_names:
-  - Etelä-Savo
+    - Södra Savolax
   translations:
     ar: سافو الجنوبية
     be: Паўднёвае Сава
@@ -177,17 +161,10 @@
     uk: Південна Савонія
     ur: سدرن ساوونیا
     vi: Phía Nam Savonia
-  geo:
-    latitude: 61.903549
-    longitude: 27.957041
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Southern Savonia
-'05':
+  name: Etelä-Savo
+05:
   unofficial_names:
-  - Kainuun
+    - Kajanaland
   translations:
     ar: كاينو
     be: Кайнуу
@@ -236,18 +213,10 @@
     uk: Кайнуу
     ur: کاینو
     vi: Kainuu
-  geo:
-    latitude: 64.594841
-    longitude: 28.650909
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Kainuu
-'06':
+06:
   unofficial_names:
-  - Tavastia Proper
-  - Kanta-Hämeen
+    - Egentliga Tavastland
   translations:
     ar: كانتا هامي
     bn: তাস্তিয়া প্রপার
@@ -291,17 +260,10 @@
     uk: Канта-Гяме
     ur: تاواستیا پروپر
     vi: Tavastia Proper
-  geo:
-    latitude: 60.938759
-    longitude: 24.202391
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Kanta-Häme
-'07':
+07:
   unofficial_names:
-  - Keski-Pohjanmaa
+    - Mellersta Österbotten
   translations:
     ar: بوهيانما الوسطى
     bn: সেন্ট্রাল অস্ট্রোবোথনিয়া
@@ -347,17 +309,10 @@
     uk: Центральна Погʼянмаа
     ur: وسطی اوستروبوثنیہ
     vi: Miền Trung Ostrobothnia
-  geo:
-    latitude: 63.616619
-    longitude: 23.895479
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Central Ostrobothnia
-'08':
+  name: Keski-Pohjanmaa
+08:
   unofficial_names:
-  - Keski-Suomi
+    - Mellersta Finland
   translations:
     ar: فنلندا الوسطى
     bn: সেন্ট্রাল ফিনল্যান্ড
@@ -402,17 +357,10 @@
     uk: Центральна Фінляндія
     ur: وسطی فن لینڈ
     vi: Miền Trung Phần Lan
-  geo:
-    latitude: 62.531620
-    longitude: 25.392920
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Central Finland
-'09':
+  name: Keski-Suomi
+09:
   unofficial_names:
-  - Kymi Valley
+    - Kymmenedalen
   translations:
     ar: كومنلاكسو
     bg: Кйменлаксо
@@ -458,18 +406,13 @@
     uk: Кюменлааксо
     ur: کومنلاکسو
     vi: Kymenlaakso
-  geo:
-    latitude: 60.854800
-    longitude: 27.015510
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Kymenlaakso
-'10':
+10:
   unofficial_names:
-  - Laplandiya
-  - Lappi
+    - Lappland
+    - Lappi
+    - Lappland
+    - Laponie
   translations:
     ar: إقليم لابي
     be: Лапландыя
@@ -492,7 +435,6 @@
     ja: ラッピ県
     ka: ლაპლანდია
     ko: 라피 지역
-    la: Lapponia
     lt: Lapija
     lv: Lapzeme
     ms: Lapland, Finland
@@ -502,7 +444,6 @@
     pt: Lapônia
     ro: Laponia
     ru: Лапландия
-    se: Sápmi
     sk: Laponsko
     sr: Лапонија
     sv: Lappland
@@ -511,17 +452,16 @@
     ur: لاپلند
     vi: Lapland
   geo:
-    latitude: 67.922234
-    longitude: 26.504644
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Lapland
-'11':
+    latitude: 67.9222304
+    longitude: 26.5046438
+    min_latitude: 65.497126
+    min_longitude: 20.5489762
+    max_latitude: 70.092444
+    max_longitude: 30.016886
+  name: Lappi
+11:
   unofficial_names:
-  - Tampere Region
-  - Pirkanmaan
+    - Birkaland
   translations:
     ar: بيركنما
     bg: Пирканма
@@ -568,17 +508,10 @@
     uk: Пірканмаа
     ur: پیرکانما
     vi: Pirkanmaa
-  geo:
-    latitude: 61.716709
-    longitude: 23.701851
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Pirkanmaa
-'12':
+12:
   unofficial_names:
-  - Pohjanmaa
+    - Österbotten
   translations:
     ar: بوهيانما
     be: Астработнія
@@ -612,17 +545,9 @@
     tr: Ostrobothnia
     uk: Погʼянмаа
     ur: اوستروبوثنیہ
-  geo:
-    latitude: 62.940540
-    longitude: 22.160919
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Ostrobothnia
-'13':
-  unofficial_names:
-  - Pohjois-Karjala
+  name: Pohjanmaa
+13:
+  unofficial_names: Norra Karelen
   translations:
     ar: كاريليا الشمالية
     bn: কারেলিয়া
@@ -670,17 +595,9 @@
     uk: Північна Карелія
     ur: شمالی کاریلیا
     vi: Bắc Karelia
-  geo:
-    latitude: 62.802670
-    longitude: 29.973249
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: North Karelia
-'14':
-  unofficial_names:
-  - Pohjois-Pohjanmaa
+  name: Pohjois-Karjala
+14:
+  unofficial_names: Norra Österbotten
   translations:
     ar: بوهيانما الشمالية
     bn: নর্দান ওস্ট্রোবোথনিয়া
@@ -728,17 +645,9 @@
     uk: Північна Погʼянмаа
     ur: شمالی اوستروبوثنیہ
     vi: Phía Bắc Ostrobothnia
-  geo:
-    latitude: 64.957520
-    longitude: 26.859380
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: North Ostrobothnia
-'15':
-  unofficial_names:
-  - Northern Savonia
+  name: Pohjois-Pohjanmaa
+15:
+  unofficial_names: Norra Savolax
   translations:
     ar: سافو الشمالية
     be: Паўночнае Сава
@@ -748,7 +657,7 @@
     da: Norra Savolax
     de: Nordsavo
     el: Βόρεια Σαβονία²
-    en: North Savo
+    en: Northern Savonia
     es: Savonia del Norte
     et: Põhja-Savo
     eu: Ipar Savonia
@@ -787,18 +696,9 @@
     uk: Північна Савонія
     ur: شمالی ساوونیا
     vi: Phía Bắc Savonia
-  geo:
-    latitude: 63.089100
-    longitude: 27.568990
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: North Savo
-'16':
-  unofficial_names:
-  - Päijänne Tavastia
-  - Päijät-Häme
+  name: Pohjois-Savo
+16:
+  unofficial_names: Päijänne-Tavastland
   translations:
     ar: بايات هامي
     be: Пяят-Хямэ
@@ -808,7 +708,7 @@
     da: Päijänne-Tavastland
     de: Päijät-Häme
     el: Παϊτζάνε Ταβάστια
-    en: Päijät-Häme
+    en: Päijänne Tavastia
     es: Päijänne Tavastia
     et: Päijät-Häme
     eu: Päijänne Tavastia
@@ -843,17 +743,9 @@
     uk: Пяйят-Гяме
     ur: پائینے تاواستیا
     vi: Päijänne Tavastia
-  geo:
-    latitude: 61.237160
-    longitude: 25.680790
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Päijät-Häme
-'17':
-  unofficial_names:
-  - Satakunnan
+17:
+  unofficial_names: Satakunda
   translations:
     ar: ستاكونتا
     bg: Сатакунта
@@ -880,7 +772,6 @@
     ka: სატაკუნტა
     kn: ಸತಕುಂತ
     ko: 사타쿤타 지역
-    la: Satagundia tai Finlandia
     lt: Satakunta
     mr: सातकुंडा
     ms: Satakunta
@@ -901,17 +792,9 @@
     uk: Сатакунта
     ur: ساتاکونتا
     vi: Satakunta
-  geo:
-    latitude: 61.591480
-    longitude: 22.094400
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Satakunta
-'18':
-  unofficial_names:
-  - Uudenmaan
+18:
+  unofficial_names: Nyland
   translations:
     af: Uusimaa
     ar: أوسيما
@@ -961,17 +844,9 @@
     uk: Уусімаа
     ur: وسیما
     vi: Uusimaa
-  geo:
-    latitude: 60.287609
-    longitude: 24.744949
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   name: Uusimaa
-'19':
-  unofficial_names:
-  - Finland Proper
+19:
+  unofficial_names: Egentliga Finland
   translations:
     ar: فارسينايس سوومي
     be: Паўднёва-Заходняя Фінляндыя
@@ -1001,7 +876,7 @@
     mr: फिनलंड प्रॉपर
     ms: Finland Proper
     nb: Egentliga Finland
-    nl: Varsinais-Suomi
+    nl: Varsinais-Suomiapplicant_information_controller
     pl: Varsinais-Suomi
     pt: Finlândia Própria
     ro: Finlanda Propriu-Zisă
@@ -1017,11 +892,4 @@
     uk: Південно-західна Фінляндія
     ur: جنوب مغربی فن لینڈ
     vi: Finland Proper
-  geo:
-    latitude: 60.594960
-    longitude: 22.608260
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  name: Southwest Finland
+  name: Varsinais-Suomi
