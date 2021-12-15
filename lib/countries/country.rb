@@ -106,6 +106,11 @@ module ISO3166
       @local_name ||= local_names.first
     end
 
+    def name
+      warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change."
+      iso_short_name
+    end
+
     def reload
       @data = if @country_data_or_code.is_a?(Hash)
                 @country_data_or_code
