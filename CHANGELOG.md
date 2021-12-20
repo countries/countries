@@ -6,10 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Drop support for Ruby 2.5 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
-## [Unreleased - Next release]
+## [4.1.2](https://github.com/countries/countries/releases/tag/v4.1.2) (2021/12/20 17:06 +00:00)
 
 * Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
 * Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
+* Update NZ subdivision data and fix Chatham Island entry [\#712](https://github.com/countries/countries/pull/712) ([pmor](https://github.com/pmor))
+* Update translation corrections for Occitan.[\#713](https://github.com/countries/countries/pull/713) ([pmor](https://github.com/pmor))
+* Update i18n_data to 0.15.0 [\#715](https://github.com/countries/countries/pull/715) ([pmor](https://github.com/pmor))
 
 ## [4.1.1](https://github.com/countries/countries/releases/tag/v4.1.1) (2021/12/06 13:31 +00:00)
 
