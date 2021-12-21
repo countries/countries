@@ -83,7 +83,7 @@ module ISO3166
     end
 
     def to_s
-      data['name']
+      data['iso_short_name']
     end
 
     def translated_names
@@ -92,6 +92,11 @@ module ISO3166
 
     def translation(locale = 'en')
       data['translations'][locale.to_s.downcase]
+    end
+
+    def common_name
+      ISO3166.configuration.locales = ISO3166.configuration.locales.append(:en).uniq
+      translation('en')
     end
 
     # TODO: Looping through locale langs could be be very slow across multiple countries
@@ -107,7 +112,7 @@ module ISO3166
     end
 
     def name
-      warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change."
+      warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2, category: :deprecated
       iso_short_name
     end
 

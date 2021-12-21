@@ -39,7 +39,7 @@ module ISO3166
 
     def all_names_with_codes(locale = 'en')
       Country.all.map do |c|
-        lc = (c.translation(locale) || c.name)
+        lc = (c.translation(locale) || c.iso_short_name)
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
       end.sort
     end
@@ -55,7 +55,7 @@ module ISO3166
 
       custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
         country = ISO3166::Country[code]
-        translation = country.translations[locale] || country.name
+        translation = country.translations[locale] || country.iso_short_name
         [code, translation]
       end.to_h
 
@@ -127,11 +127,13 @@ module ISO3166
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
 
+      # 'find_by_name' and 'find_*_by_name' will be changed for 5.0
+      # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
       attributes = Array(attribute.to_s)
-      if attributes == ['name']
+      if attribute.to_s == 'name'
+        attributes << 'iso_short_name'
         attributes << 'unofficial_names'
-        # TODO: Revisit when better data from i18n_data
-        # attributes << 'translated_names'
+        attributes << 'translated_names'
       end
 
       [attributes, parse_value(val)]

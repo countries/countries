@@ -43,7 +43,7 @@ namespace :geocode do
       # Load unmutated yaml file.
       data = load_country_yaml(country.alpha2)
 
-      next unless (result = geocode(country.name, {region: country.alpha2}))
+      next unless (result = geocode(country.iso_short_name, {region: country.alpha2}))
       puts "WARNING:: Geocoder returned something that was not a country for #{country.alpha2}" unless result.types.include?('country')
       geometry = result.geometry
 

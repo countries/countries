@@ -48,20 +48,15 @@ To Use
 gem 'countries', require: 'countries/global'
 ```
 
-## Upgrading to 3.x
+## Upgrading to 4.2 and 5.x
 
-We dropped currency support via money by default, read these [instructions](README.markdown#Currencies) if you are using currency features.
+In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_name` and we added `#iso_long_name`, to make it clear that these attributes use the ISO3166 names, and are not the "common names" most people might expect, eg: The ISO name for "United Kingdom" is "United Kingdom of Great Britain and Northern Ireland", but if you're building a dropdown box to select a country, you're likely expecting to see "United Kingdom" instead.
 
-## Upgrading Country Helper to > 1.2.0
+The `#name` attribute will be removed in 5.0.
 
-```ruby
-gem 'countries', require: 'global'
-```
+For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
 
-has become
-```ruby
-gem 'countries', require: 'countries/global'
-```
+
 
 ## Selective Loading of Locales
 
@@ -98,6 +93,9 @@ c    = ISO3166::Country.find_country_by_alpha3('can')
 For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
 Note: searches are *case insensitive and ignore accents*.
 
+_Please note that `find_by_name` and `find_*_by_name` behaviour will be changed in version 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above_
+
+
 ## Country Info
 
 ### Identification Codes
@@ -112,7 +110,8 @@ c.gec    # => "US"
 ### Names & Translations
 
 ```ruby
-c.name # => "United States"
+c.iso_long_name # => "The United States of America"
+c.iso_short_name # => "United States of America"
 c.unofficial_names # => ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
 # Get the names for a country translated to its local languages
@@ -275,33 +274,33 @@ Searching:
 
 ```ruby
 # By alpha2
-british_things = Things.where(country: 'GB')
-british_things.first.country.name    # => "United Kingdom"
+spanish_things = Things.where(country: 'ES')
+spanish_things.first.country.iso_short_name    # => "Spain"
 
 # By object
-british_things = Things.where(country: Country.find_by_name('United Kingdom')[1])
-british_things.first.country.name    # => "United Kingdom"
+spanish_things = Things.where(country: Country.find_by_name('Spain')[1])
+spanish_things.first.country.iso_short_name    # => "Spain"
 ```
 
 Saving:
 
 ```ruby
 # By alpha2
-british_thing = Thing.new(country: 'GB')
-british_thing.save!
-british_thing.country.name    # => "United Kingdom"
+spanish_things = Thing.new(country: 'ES')
+spanish_things.save!
+spanish_things.country.iso_short_name    # => "Spain"
 
 # By object
-british_thing = Thing.new(country: Country.find_by_name('United Kingdom')[1])
-british_thing.save!
-british_thing.country.name    # => "United Kingdom"
+spanish_things = Thing.new(country: Country.find_by_name('Spain')[1])
+spanish_things.save!
+spanish_things.country.iso_short_name    # => "Spain"
 ```
 
 Note that the database stores only the alpha2 code and rebuilds the object when queried. To return the country name by default you can override the reader method in your model:
 
 ```ruby
 def country
-  super.name
+  super.iso_short_name
 end
 ```
 
@@ -318,7 +317,7 @@ c.emoji_flag # => "🇲🇾"
 
 Any additions should be directed upstream to [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes)
 
-New Bugs can be filed upstream here https://salsa.debian.org/iso-codes-team/iso-codes/issues
+Localized country name data is sourced from https://github.com/grosser/i18n_data (which is based on https://salsa.debian.org/iso-codes-team/iso-codes/). Issues regarding localized country names can be reported to https://github.com/grosser/i18n_data/issues or https://salsa.debian.org/iso-codes-team/iso-codes/issues
 If you need to correct an upstream translation please add it to the lib/countries/data/translations_corrections.yaml
 
 ```
