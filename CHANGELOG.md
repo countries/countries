@@ -57,6 +57,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 [Full changelog](https://github.com/countries/countries/compare/v3.1.0...v4.0.0)
 
+**Breaking changes:**
+
+  - None
+
 **Closed issues:**
 
   - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633](https://github.com/countries/countries/issues/633)
