@@ -112,7 +112,11 @@ module ISO3166
     end
 
     def name
-      warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2, category: :deprecated
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2
+      end
       iso_short_name
     end
 
