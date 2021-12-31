@@ -131,9 +131,7 @@ module ISO3166
       # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
       attributes = Array(attribute.to_s)
       if attribute.to_s == 'name'
-        attributes << 'iso_short_name'
-        attributes << 'unofficial_names'
-        attributes << 'translated_names'
+        attributes = %w[iso_short_name unofficial_names translated_names]
       end
 
       [attributes, parse_value(val)]
