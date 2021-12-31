@@ -62,8 +62,7 @@ task :update_cache do
   File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json'), 'wb') { |f| f.write(data.to_json) }
 end
 
-
-
+# Temporary task to update YAML file structure with iso_long_name and iso_short_name attributes
 task :update_iso_names do
   require 'csv'
   isodata = CSV.read 'isonames.csv', headers: true
