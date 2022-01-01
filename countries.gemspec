@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.version       = Countries::VERSION.dup
   gem.license       = 'MIT'
 
-  gem.required_ruby_version = '>= 2.6'
+  gem.required_ruby_version = '>= 2.7'
 
   gem.add_dependency('i18n_data', '~> 0.13.1')
   gem.add_dependency('sixarm_ruby_unaccent', '~> 1.1')
