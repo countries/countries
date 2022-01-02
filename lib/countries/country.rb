@@ -30,7 +30,6 @@ module ISO3166
     alias postal_code? postal_code
     alias zip_format postal_code_format
     alias languages languages_official
-    alias names unofficial_names
 
     def ==(other)
       other.respond_to?(:alpha2) && other.alpha2 == alpha2
@@ -113,11 +112,20 @@ module ISO3166
 
     def name
       if RUBY_VERSION =~ /^3\.\d\.\d/
-        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2, category: :deprecated
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
       else
-        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 2
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1
       end
       iso_short_name
+    end
+
+    def names
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1
+      end
+      unofficial_names
     end
 
     def reload

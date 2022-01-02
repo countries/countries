@@ -50,9 +50,13 @@ gem 'countries', require: 'countries/global'
 
 ## Upgrading to 4.2 and 5.x
 
-In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_name` and we added `#iso_long_name`, to make it clear that these attributes use the ISO3166 names, and are not the "common names" most people might expect, eg: The ISO name for "United Kingdom" is "United Kingdom of Great Britain and Northern Ireland", but if you're building a dropdown box to select a country, you're likely expecting to see "United Kingdom" instead.
+In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_name` and we added the `#iso_long_name` attribute, to make it clear that these attributes use the ISO3166 names, and are not the "common names" most people might expect, eg: The ISO name for "United Kingdom" is "United Kingdom of Great Britain and Northern Ireland", but if you're building a dropdown box to select a country, you're likely expecting to see "United Kingdom" instead.
 
-The `#name` attribute will be removed in 5.0.
+"Common names" in English have been available in the translation data, via `#translation('en')`. As of release 4.2, a shortcut method has been added for simplicity, `#common_name`, which delegates to `#translation('en')`.
+
+For additional clarity, the `#names` method, which was an alias to `#unofficial_names` has also been deprecated, together with the finder methods that use `name` or `names` attributes.
+
+The `#name` and `#names` attributes, and corresponding finder methods will be removed in 5.0.
 
 For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
 
@@ -84,7 +88,7 @@ end
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
 ```ruby
-c    = ISO3166::Country.find_country_by_name('united states')
+c    = ISO3166::Country.find_country_by_iso_short_name('united states')
 h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
 c    = ISO3166::Country.find_country_by_alpha3('can')
@@ -93,7 +97,7 @@ c    = ISO3166::Country.find_country_by_alpha3('can')
 For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
 Note: searches are *case insensitive and ignore accents*.
 
-_Please note that `find_by_name` and `find_*_by_name` behaviour will be changed in version 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above_
+_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods are deprecated and will be removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above_
 
 
 ## Country Info
@@ -112,6 +116,7 @@ c.gec    # => "US"
 ```ruby
 c.iso_long_name # => "The United States of America"
 c.iso_short_name # => "United States of America"
+c.common_name # => "United States" (This is a shortcut for c.translations('en'))
 c.unofficial_names # => ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
 # Get the names for a country translated to its local languages
@@ -203,7 +208,7 @@ c.in_esm? # => false
 ### Plucking multiple attributes
 
 ```ruby
-ISO3166::Country.pluck(:alpha2, :name) # => [["AD", "Andorra"], ["AE", "United Arab Emirates"], ...
+ISO3166::Country.pluck(:alpha2, :iso_short_name) # => [["AD", "Andorra"], ["AE", "United Arab Emirates"], ...
 ```
 
 ## Currencies
@@ -248,14 +253,14 @@ Any country registered this way will have its data available for searching etc..
 ```ruby
 ISO3166::Data.register(
   alpha2: 'LOL',
-  name: 'Happy Country',
+  iso_short_name: 'Happy Country',
   translations: {
     'en' => 'Happy Country',
     'de' => 'glückliches Land'
   }
 )
 
-ISO3166::Country.new('LOL').name == 'Happy Country'
+ISO3166::Country.new('LOL').iso_short_name == 'Happy Country'
 ```
 
 ## Mongoid
@@ -278,7 +283,7 @@ spanish_things = Things.where(country: 'ES')
 spanish_things.first.country.iso_short_name    # => "Spain"
 
 # By object
-spanish_things = Things.where(country: Country.find_by_name('Spain')[1])
+spanish_things = Things.where(country: Country.find_by_iso_short_name('Spain')[1])
 spanish_things.first.country.iso_short_name    # => "Spain"
 ```
 
@@ -291,7 +296,7 @@ spanish_things.save!
 spanish_things.country.iso_short_name    # => "Spain"
 
 # By object
-spanish_things = Thing.new(country: Country.find_by_name('Spain')[1])
+spanish_things = Thing.new(country: Country.find_by_iso_short_name('Spain')[1])
 spanish_things.save!
 spanish_things.country.iso_short_name    # => "Spain"
 ```
