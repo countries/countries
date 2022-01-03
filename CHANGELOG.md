@@ -6,7 +6,19 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Drop support for Ruby 2.5 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
+## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
+
+**Merged pull requests:**
+
+* Fix empty translations in LV subdivisions [\#719](https://github.com/countries/countries/pull/719) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Subdivision translations for some latvian subdivisions nil in countries 4.1.2 [\#718](https://github.com/countries/countries/issues/718)
+
 ## [4.1.2](https://github.com/countries/countries/releases/tag/v4.1.2) (2021/12/20 17:06 +00:00)
+
+**Merged pull requests:**
 
 * Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
 * Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
