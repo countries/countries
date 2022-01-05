@@ -2,9 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Future 5.0 release]
+### [Future 5.0 release]
 
-- Drop support for Ruby 2.5 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+**Breaking Changes**
+
+- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+
+### Unreleased
+
+**Merged pull requests:**
+
+* Remove non-ISO US subdivisions [\#720](https://github.com/countries/countries/pull/720) ([pmor](https://github.com/pmor))
+* Update MK subdivisions [\#721](https://github.com/countries/countries/pull/721) ([pmor](https://github.com/pmor))
+* Update Kenya subdivision data [\#722](https://github.com/countries/countries/pull/722) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Update Kenya subdivisions/states [\#318](https://github.com/countries/countries/issues/318)
+* North Macedonia updates (2020-03-02) [\#674](https://github.com/countries/countries/issues/674)
+
 
 ## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
 
