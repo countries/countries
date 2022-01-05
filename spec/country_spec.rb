@@ -233,11 +233,11 @@ describe ISO3166::Country do
     end
 
     it 'should return a hash with all sub divisions' do
-      expect(country.subdivisions.size).to eq(60)
+      expect(country.subdivisions.size).to eq(57)
     end
 
     it 'should be available through states' do
-      expect(country.states.size).to eq(60)
+      expect(country.states.size).to eq(57)
     end
 
     it 'should be a subdivision object' do
