@@ -221,9 +221,7 @@ Please note that it requires you to add "money" dependency to your gemfile.
 gem "money", "~> 6.9"
 ```
 
-**WARNING** if you have a top level class named `Money` you will conflict with this gem.  If this is a large issue we will add a feature to turn currency features off.
-
-Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
+Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a `Money::Currency` object that gives you access to all the currency information.
 
 ```ruby
 c = ISO3166::Country['us']

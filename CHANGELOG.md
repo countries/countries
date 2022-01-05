@@ -2,13 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-### [Future 5.0 release]
+## [Future 5.0 release]
 
 **Breaking Changes**
 
 - Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
-### Unreleased
+## Unreleased
 
 **Merged pull requests:**
 
