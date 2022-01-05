@@ -32,6 +32,24 @@ module ISO3166
     alias languages languages_official
     alias names unofficial_names
 
+    def latitude_dec
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#latitude_dec method has been deprecated and will be removed in 5.0. Please use Country#latitude instead.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#latitude_dec method has been deprecated and will be removed in 5.0. Please use Country#latitude instead.", uplevel: 1
+      end
+      latitude
+    end
+
+    def longitude_dec
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#longitude_dec method has been deprecated and will be removed in 5.0. Please use Country#longitude instead.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#longitude_dec method has been deprecated and will be removed in 5.0. Please use Country#longitude instead.", uplevel: 1
+      end
+      longitude
+    end
+
     def ==(other)
       other.respond_to?(:alpha2) && other.alpha2 == alpha2
     end

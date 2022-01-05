@@ -68,14 +68,6 @@ describe ISO3166::Country do
     expect(country.bounds['northeast']['lat']).to eq(71.5388001)
   end
 
-  it 'should return the decimal Latitude' do
-    expect(country.latitude_dec).to eq('39.44325637817383')
-  end
-
-  it 'should return the decimal Longitude' do
-    expect(country.longitude_dec).to eq('-98.95733642578125')
-  end
-
   it 'should return continent' do
     expect(country.continent).to eq('North America')
   end
