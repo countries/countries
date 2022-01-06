@@ -145,6 +145,7 @@ c.longitude # => "97 00 W"
 c.latitude_dec # => 39.44325637817383
 c.longitude_dec # => -98.95733642578125
 
+c.world_region # => "AMER"
 c.region # => "Americas"
 c.subregion # => "Northern America"
 ```
