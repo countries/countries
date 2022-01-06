@@ -15,12 +15,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Remove non-ISO US subdivisions [\#720](https://github.com/countries/countries/pull/720) ([pmor](https://github.com/pmor))
 * Update MK subdivisions [\#721](https://github.com/countries/countries/pull/721) ([pmor](https://github.com/pmor))
 * Update Kenya subdivision data [\#722](https://github.com/countries/countries/pull/722) ([pmor](https://github.com/pmor))
+* Fix French Southern Territories continent and region data [\#725](https://github.com/countries/countries/pull/725) ([pmor](https://github.com/pmor))
+* Fix SG subdivision data [\#726](https://github.com/countries/countries/pull/726) ([pmor](https://github.com/pmor))
+* Remove FO subdivisions [\#727](https://github.com/countries/countries/pull/727) ([pmor](https://github.com/pmor))
 
 **Closed issues:**
 
 * Update Kenya subdivisions/states [\#318](https://github.com/countries/countries/issues/318)
 * North Macedonia updates (2020-03-02) [\#674](https://github.com/countries/countries/issues/674)
-
+* Singapore wrong subdivision codes (SG-SG-0x) [\#663](https://github.com/countries/countries/issues/663)
+* Remove Faroe Islands subdivisions [\#606](https://github.com/countries/countries/issues/606)
 
 ## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
 
