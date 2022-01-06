@@ -24,6 +24,19 @@ module ISO3166
       @loaded_locales = []
     end
 
+    # Enables the integration with the {Money}[https://github.com/RubyMoney/money] gem
+    #
+    # Please note that it requires you to add "money" gem to your gemfile.
+    #
+    #   gem "money", "~> 6.9"
+    #
+    # *WARNING* if you have a top level class named +Money+ you will conflict with this gem.
+    #
+    # @example
+    #   c = ISO3166::Country['us']
+    #   c.currency.iso_code # => 'USD'
+    #   c.currency.name # => 'United States Dollar'
+    #   c.currency.symbol # => '$'
     def enable_currency_extension!
       require 'countries/country/currency_methods'
       ISO3166::Country.prepend(ISO3166::CountryCurrencyMethods)

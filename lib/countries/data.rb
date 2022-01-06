@@ -1,5 +1,4 @@
 module ISO3166
-  ##
   # Handles building the in memory store of countries data
   class Data
     @@cache_dir = [File.dirname(__FILE__), 'cache']
@@ -24,6 +23,9 @@ module ISO3166
         @@cache_dir = value
       end
 
+      # Registers a new Country with custom data.
+      # If you are overriding an existing country, this does not perform a deep merge so you will need to __bring in all data you wish to be available__.
+      # Overriding an existing country will also remove it from the internal management of translations.
       def register(data)
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = deep_stringify_keys(data)
@@ -32,6 +34,7 @@ module ISO3166
         @@cache = cache.merge(@@registered_data)
       end
 
+      # Removes a country from the loaded data
       def unregister(alpha2)
         alpha2 = alpha2.to_s.upcase
         @@cache.delete(alpha2)
@@ -42,6 +45,7 @@ module ISO3166
         update_cache
       end
 
+      # Resets the loaded data and cache
       def reset
         @@cache = {}
         @@registered_data = {}

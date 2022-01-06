@@ -1,5 +1,6 @@
 module Sources
   module CLDR
+    # Auxiliary Subdivision class to support loading Unicode CLDR data to update local files
     class Subdivision
       attr_reader :xml, :language_code
       def initialize(language_code:, xml:)

@@ -2,7 +2,7 @@
 
 Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers). I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
-[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml) [![Code Climate](https://codeclimate.com/github/hexorx/countries.svg)](https://codeclimate.com/github/hexorx/countries)
+[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml) [![Code Climate](https://codeclimate.com/github/countries/countries.svg)](https://codeclimate.com/github/countries/countries)
 
 ## Installation
 
@@ -60,13 +60,11 @@ The `#name` and `#names` attributes, and corresponding finder methods will be re
 
 For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
 
-
-
 ## Selective Loading of Locales
 
 As of 2.0 you can selectively load locales to reduce memory usage in production.
 
-By default we load I18n.available_locales if I18n is present, otherwise only [:en]. This means almost any rails environment will only bring in its supported translations.
+By default we load `I18n.available_locales` if I18n is present, otherwise only `[:en]`. This means almost any Rails environment will only bring in its supported translations.
 
 You can add all the locales like this.
 
@@ -94,7 +92,7 @@ list = ISO3166::Country.find_all_countries_by_region('Americas')
 c    = ISO3166::Country.find_country_by_alpha3('can')
 ```
 
-For a list of available attributes please see ISO3166::DEFAULT_COUNTRY_HASH.
+For a list of available attributes please see `ISO3166::DEFAULT_COUNTRY_HASH`.
 Note: searches are *case insensitive and ignore accents*.
 
 _Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods are deprecated and will be removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above_
@@ -132,6 +130,9 @@ ISO3166::Country.translations         # {"DE"=>"Germany",...}
 ISO3166::Country.translations('DE')   # {"DE"=>"Deutschland",...}
 ISO3166::Country.all_translated       # ['Germany', ...]
 ISO3166::Country.all_translated('DE') # ['Deutschland', ...]
+
+# Nationality
+c.nationality # => "American"
 ```
 
 ### Subdivisions & States
