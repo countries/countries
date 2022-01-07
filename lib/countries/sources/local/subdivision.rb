@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 module Sources
   module Local
     class Subdivision
       attr_reader :code
+
       def initialize(code)
         @code = code
       end
@@ -15,8 +18,8 @@ module Sources
       end
 
       def save(data)
-        File.open(file_path, 'w') { |f| f.write data.to_yaml }
-      rescue
+        File.write(file_path, data.to_yaml)
+      rescue StandardError
         puts "failed to read #{file}: #{$ERROR_INFO}"
       end
 

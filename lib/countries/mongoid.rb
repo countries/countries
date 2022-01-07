@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ISO3166
   class Country
     def mongoize

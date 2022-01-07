@@ -1,5 +1,4 @@
-#!/bin/env ruby
-# encoding: utf-8
+# frozen_string_literal: true
 
 module ISO3166
   module Emoji
@@ -33,7 +32,7 @@ module ISO3166
     }.freeze
 
     def emoji_flag
-      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join('')
+      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join
     end
   end
 end

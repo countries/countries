@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 module Sources
   module Local
     class CachedLoader
       attr_reader :klass
+
       def initialize(klass)
         @klass = klass
         @loaded_countries = {}

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ISO3166
   # Handles building the in memory store of countries data
   class Data
@@ -54,8 +56,9 @@ module ISO3166
 
       def load_data!
         return @@cache unless load_required?
+
         synchronized do
-          @@cache = load_cache %w(countries.json)
+          @@cache = load_cache %w[countries.json]
           @@_country_codes = @@cache.keys
           @@cache = @@cache.merge(@@registered_data)
           @@cache
@@ -158,7 +161,8 @@ module ISO3166
         data.transform_values! do |v|
           v.is_a?(Hash) ? deep_stringify_keys(v) : v
         end
-        return data
+
+        data
       end
     end
   end

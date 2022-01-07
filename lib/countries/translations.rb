@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ISO3166
   # Extend the hash class to allow locale lookup fall back behavior
   #

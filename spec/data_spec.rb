@@ -1,4 +1,5 @@
-# encoding: utf-8
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'benchmark'
 
@@ -10,13 +11,13 @@ describe ISO3166::Data do
 
   it 'can load selective locales' do
     # ISO3166::Data.update_cache
-    ISO3166.configuration.locales = [:es, :de, :en]
+    ISO3166.configuration.locales = %i[es de en]
     data = ISO3166::Data.new('US').call
     expect(data['translated_names'].size).to eq 3
   end
 
   it 'can load selective locales and reload efficiently' do
-    ISO3166.configuration.locales = [:es, :de, :en]
+    ISO3166.configuration.locales = %i[es de en]
     data = ISO3166::Data.new('US').call
     expect(data['translations']).to eq('de' => 'Vereinigte Staaten', 'es' => 'Estados Unidos', 'en' => 'United States')
     expect(data['translated_names'].sort).to eq ['Vereinigte Staaten', 'Estados Unidos', 'United States'].sort
@@ -35,7 +36,7 @@ describe ISO3166::Data do
 
   it 'locales will load prior to return results' do
     # require 'memory_profiler'
-    ISO3166.configuration.locales = [:es, :de, :en]
+    ISO3166.configuration.locales = %i[es de en]
     # report = MemoryProfiler.report do
     ISO3166::Data.update_cache
     # end
@@ -44,7 +45,12 @@ describe ISO3166::Data do
     ISO3166::Data.update_cache
 
     ISO3166.configure do |config|
-      config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+      config.locales = %i[af am ar as az be bg bn br bs ca cs cy da de dz el en
+                          eo es et eu fa fi fo fr ga gl gu he hi hr hu hy ia id
+                          is it ja ka kk km kn ko ku lt lv mi mk ml mn mr ms mt
+                          nb ne nl nn oc or pa pl ps pt ro ru rw si sk sl so sq
+                          sr sv sw ta te th ti tk tl tr tt ug uk ve vi wa wo xh
+                          zh zu]
     end
     # puts Benchmark.measure {ISO3166::Data.update_cache}
 
@@ -61,32 +67,32 @@ describe ISO3166::Data do
 
   it 'locales will load prior and be cached' do
     ISO3166.reset
-    ISO3166.configuration.locales = [:es, :de, :en]
-    expect(ISO3166::Data.send(:locales_to_load)).to eql(%w(es de en))
+    ISO3166.configuration.locales = %i[es de en]
+    expect(ISO3166::Data.send(:locales_to_load)).to eql(%w[es de en])
     ISO3166::Data.update_cache
-    ISO3166.configuration.locales = [:es, :de, :en]
+    ISO3166.configuration.locales = %i[es de en]
     expect(ISO3166::Data.send(:locales_to_load)).to eql([])
   end
 
   it 'locales will load prior and be cached' do
     ISO3166.reset
-    ISO3166.configuration.locales = [:es, :de, :en]
+    ISO3166.configuration.locales = %i[es de en]
     expect(ISO3166::Data.send(:locales_to_remove)).to eql([])
     expect(ISO3166::Country.new('DE').translation('de')).to eq 'Deutschland'
     ISO3166::Data.update_cache
-    ISO3166.configuration.locales = [:es, :en]
+    ISO3166.configuration.locales = %i[es en]
     expect(ISO3166::Data.send(:locales_to_remove)).to eql(['de'])
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 
   describe '#load_cache' do
     it 'will return an empty hash for an unsupported locale' do
-      file_array = %w(locales unsupported.json)
+      file_array = %w[locales unsupported.json]
       expect(ISO3166::Data.send(:load_cache, file_array)).to eql({})
     end
 
     it 'will return json for a supported locale' do
-      file_array = %w(locales en.json)
+      file_array = %w[locales en.json]
       expect(ISO3166::Data.send(:load_cache, file_array)).not_to be_empty
     end
   end
@@ -97,8 +103,8 @@ describe ISO3166::Data do
         alpha2: 'TW',
         name: 'NEW Taiwan',
         subdivisions: {
-          CHA: {name: 'New Changhua'},
-          CYI: {name: 'New Municipality'}
+          CHA: { name: 'New Changhua' },
+          CYI: { name: 'New Municipality' }
         },
         translations: {
           'en' => 'NEW Taiwan',
@@ -111,13 +117,13 @@ describe ISO3166::Data do
 
     it 'can be done' do
       data = ISO3166::Data.new('TW').call
-      ISO3166.configuration.locales = [:es, :de, :de]
+      ISO3166.configuration.locales = %i[es de en]
       expect(data['name']).to eq 'NEW Taiwan'
       expect(subject.name).to eq 'NEW Taiwan'
       expect(subject.translations).to eq('en' => 'NEW Taiwan',
                                          'de' => 'NEW Taiwan')
-      expect(subject.subdivisions).to eq('CHA' => ISO3166::Subdivision.new({name: 'New Changhua', code: 'CHA'}),
-                                         'CYI' => ISO3166::Subdivision.new({name: 'New Municipality', code: 'CYI'}))
+      expect(subject.subdivisions).to eq('CHA' => ISO3166::Subdivision.new({ name: 'New Changhua', code: 'CHA' }),
+                                         'CYI' => ISO3166::Subdivision.new({ name: 'New Municipality', code: 'CYI' }))
     end
   end
 
@@ -127,8 +133,8 @@ describe ISO3166::Data do
         alpha2: 'LOL',
         name: 'Happy Country',
         subdivisions: {
-          LOL1: {name: 'Happy sub1'},
-          LOL2: {name: 'Happy sub2'}
+          LOL1: { name: 'Happy sub1' },
+          LOL2: { name: 'Happy sub2' }
         },
         translations: {
           'en' => 'Happy Country',
@@ -143,8 +149,8 @@ describe ISO3166::Data do
       data = ISO3166::Data.new('LOL').call
       expect(data['name']).to eq 'Happy Country'
       expect(subject.name).to eq 'Happy Country'
-      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({name: 'Happy sub1', code: 'LOL1'}),
-                                         'LOL2' => ISO3166::Subdivision.new({name: 'Happy sub2', code: 'LOL2'}))
+      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({ name: 'Happy sub1', code: 'LOL1' }),
+                                         'LOL2' => ISO3166::Subdivision.new({ name: 'Happy sub2', code: 'LOL2' }))
     end
 
     it 'detect a stale cache' do

@@ -1,4 +1,6 @@
 #!/usr/bin/env rake
+# frozen_string_literal: true
+
 require 'bundler/gem_tasks'
 
 require 'rake'
@@ -20,7 +22,6 @@ end
 task default: [:spec]
 
 task :update_yaml_structure do
-
   d = Dir['lib/countries/data/subdivisions/*.yaml']
   d.each do |file|
     puts "checking : #{file}"
@@ -41,11 +42,9 @@ task :update_yaml_structure do
 
       a[k] = a[k].merge(subd)
     end
-    File.open(file, 'w') { |f| f.write data.to_yaml }
-    begin
-  rescue
+    File.write(file, data.to_yaml)
+  rescue StandardError
     puts "failed to read #{file}: #{$ERROR_INFO}"
-  end
   end
 end
 
@@ -64,9 +63,10 @@ task :update_cache do
   codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq.sort
   data = {}
 
-  corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
+  corrections_file = File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')
+  corrections = YAML.load_file(corrections_file) || {}
 
-  language_keys = I18nData.languages.keys + ['zh_CN', 'zh_TW', 'zh_HK','bn_IN','pt_BR']
+  language_keys = I18nData.languages.keys + %w[zh_CN zh_TW zh_HK bn_IN pt_BR]
   language_keys.each do |locale|
     locale = locale.downcase
     begin
@@ -76,18 +76,19 @@ task :update_cache do
     end
 
     # Apply any known corrections to i18n_data
-    unless corrections[locale].nil?
-      corrections[locale].each do |alpha2, localized_name|
-        local_names[alpha2] = localized_name
-      end
+    corrections[locale].each do |alpha2, localized_name|
+      local_names[alpha2] = localized_name
     end
 
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json"), 'wb') { |f| f.write(local_names.to_json) }
+    out = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json")
+    File.binwrite(out, local_names.to_json)
   end
 
   codes.each do |alpha2|
-    data[alpha2] ||= YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
+    country_file = File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml")
+    data[alpha2] ||= YAML.load_file(country_file)[alpha2]
   end
 
-  File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json'), 'wb') { |f| f.write(data.to_json) }
+  out_file = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json')
+  File.binwrite(out_file, data.to_json)
 end
