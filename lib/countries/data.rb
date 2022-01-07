@@ -1,5 +1,4 @@
 module ISO3166
-  ##
   # Handles building the in memory store of countries data
   class Data
     @@cache_dir = [File.dirname(__FILE__), 'cache']
@@ -16,14 +15,6 @@ module ISO3166
     end
 
     class << self
-      def cache_dir
-        @@cache_dir
-      end
-
-      def cache_dir=(value)
-        @@cache_dir = value
-      end
-
       def register(data)
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = deep_stringify_keys(data)
@@ -59,6 +50,8 @@ module ISO3166
         @@cache
       end
 
+      private
+
       def load_data!
         return @@cache unless load_required?
         synchronized do
@@ -80,8 +73,6 @@ module ISO3166
           load_translations(locale)
         end
       end
-
-      private
 
       def synchronized(&block)
         if use_mutex?
