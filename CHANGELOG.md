@@ -20,7 +20,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Remove FO subdivisions [\#727](https://github.com/countries/countries/pull/727) ([pmor](https://github.com/pmor))
 * JE and IM currencies should be GBP [\#728](https://github.com/countries/countries/pull/728) ([pmor](https://github.com/pmor))
 * Fix US translations in nb and no locales [\#729](https://github.com/countries/countries/pull/729) ([pmor](https://github.com/pmor))
-* Missing alternative names for GB and US [\##724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
+* Missing alternative names for GB and US [\#724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
+* Deprecate latitude_dec and longitude_dec, delegate to latitude [\#723](https://github.com/countries/countries/pull/#723) ([dima4p](https://github.com/dima4p)
 
 **Closed issues:**
 
@@ -30,6 +31,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Remove Faroe Islands subdivisions [\#606](https://github.com/countries/countries/issues/606)
 * Jersey uses GBP instead of JEP currency [\#492](https://github.com/countries/countries/issues/492)
 * USA in Norwegian translation should be 'USA' instead of 'De forente stater' [\#564](https://github.com/countries/countries/issues/564)
+* Geographic bounds for UK includes all of Europe [\#535](https://github.com/countries/countries/issues/535)
+* Wrong min_longitude for United States of America? [\#698](https://github.com/countries/countries/issues/698)
+
 
 ## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
 
