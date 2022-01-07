@@ -140,15 +140,15 @@ c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 ### Location
 
 ```ruby
-c.latitude # => "38 00 N"
-c.longitude # => "97 00 W"
-c.latitude_dec # => 39.44325637817383
-c.longitude_dec # => -98.95733642578125
+c.latitude # => "37.09024"
+c.longitude # => "-95.712891"
 
 c.world_region # => "AMER"
 c.region # => "Americas"
 c.subregion # => "Northern America"
 ```
+
+Please note that `latitude_dec` and `longitude_dec` will be deprecated on release 4.2 and deleted in 5.0. These attribues have been redundant for several years, since the `latitude` and `longitude` fields have been switched decimal coordinates.
 
 ### Timezones **(optional)**
 
@@ -181,6 +181,8 @@ c.min_longitude # => '45'
 c.min_latitude # => '22.166667'
 c.max_longitude # => '58'
 c.max_latitude # => '26.133333'
+
+c.bounds #> {"northeast"=>{"lat"=>22.166667, "lng"=>58}, "southwest"=>{"lat"=>26.133333, "lng"=>45}}
 ```
 
 ### European Union Membership
