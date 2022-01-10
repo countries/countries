@@ -11,9 +11,7 @@ module ISO3166
     'gec' => nil,
     'geo' => {
       'latitude' => nil,
-      'latitude_dec' => nil,
       'longitude' => nil,
-      'longitude_dec' => nil,
       'max_latitude' => nil,
       'max_longitude' => nil,
       'min_latitude' => nil,
@@ -64,9 +62,7 @@ module ISO3166
     'translations' => {},
     'geo' => {
       'latitude' => nil,
-      'latitude_dec' => nil,
       'longitude' => nil,
-      'longitude_dec' => nil,
       'max_latitude' => nil,
       'max_longitude' => nil,
       'min_latitude' => nil,

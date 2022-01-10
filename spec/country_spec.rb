@@ -48,7 +48,7 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    expect(country.unofficial_names).to eq(['United States', 'Murica', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
+    expect(country.unofficial_names).to eq(['United States', 'USA', 'Murica', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
   end
 
   it 'should return translations' do
@@ -66,14 +66,6 @@ describe ISO3166::Country do
 
   it 'should return bounds' do
     expect(country.bounds['northeast']['lat']).to eq(71.5388001)
-  end
-
-  it 'should return the decimal Latitude' do
-    expect(country.latitude_dec).to eq('39.44325637817383')
-  end
-
-  it 'should return the decimal Longitude' do
-    expect(country.longitude_dec).to eq('-98.95733642578125')
   end
 
   it 'should return continent' do
@@ -233,11 +225,11 @@ describe ISO3166::Country do
     end
 
     it 'should return a hash with all sub divisions' do
-      expect(country.subdivisions.size).to eq(60)
+      expect(country.subdivisions.size).to eq(57)
     end
 
     it 'should be available through states' do
-      expect(country.states.size).to eq(60)
+      expect(country.states.size).to eq(57)
     end
 
     it 'should be a subdivision object' do

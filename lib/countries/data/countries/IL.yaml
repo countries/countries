@@ -13,9 +13,7 @@ IL:
   gec: IS
   geo:
     latitude: 31.046051
-    latitude_dec: '31.814193725585938'
     longitude: 34.851612
-    longitude_dec: '34.75337219238281'
     max_latitude: 33.33280500000001
     max_longitude: 35.896244
     min_latitude: 29.47969999999999
@@ -52,6 +50,13 @@ IL:
   start_of_week: sunday
   subregion: Western Asia
   un_locode: IL
+  vat_rates:
+    standard: 17
+    reduced: []
+    super_reduced:
+    parking:
+  postal_code: true
+  postal_code_format: "\\d{5}(?:\\d{2})?"
   unofficial_names:
   - Israel
   - Israël

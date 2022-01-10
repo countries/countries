@@ -2,7 +2,7 @@
 
 Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers). I will add any country based data I can get access to. I hope this to be a repository for all country based information.
 
-[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml) [![Code Climate](https://codeclimate.com/github/hexorx/countries.svg)](https://codeclimate.com/github/hexorx/countries)
+[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml) [![Code Climate](https://codeclimate.com/github/countries/countries.svg)](https://codeclimate.com/github/countries/countries)
 
 ## Installation
 
@@ -144,14 +144,15 @@ c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 ### Location
 
 ```ruby
-c.latitude # => "38 00 N"
-c.longitude # => "97 00 W"
-c.latitude_dec # => 39.44325637817383
-c.longitude_dec # => -98.95733642578125
+c.latitude # => "37.09024"
+c.longitude # => "-95.712891"
 
+c.world_region # => "AMER"
 c.region # => "Americas"
 c.subregion # => "Northern America"
 ```
+
+Please note that `latitude_dec` and `longitude_dec` will be deprecated on release 4.2 and deleted in 5.0. These attribues have been redundant for several years, since the `latitude` and `longitude` fields have been switched decimal coordinates.
 
 ### Timezones **(optional)**
 
@@ -184,6 +185,8 @@ c.min_longitude # => '45'
 c.min_latitude # => '22.166667'
 c.max_longitude # => '58'
 c.max_latitude # => '26.133333'
+
+c.bounds #> {"northeast"=>{"lat"=>22.166667, "lng"=>58}, "southwest"=>{"lat"=>26.133333, "lng"=>45}}
 ```
 
 ### European Union Membership
@@ -225,9 +228,7 @@ Please note that it requires you to add "money" dependency to your gemfile.
 gem "money", "~> 6.9"
 ```
 
-**WARNING** if you have a top level class named `Money` you will conflict with this gem.  If this is a large issue we will add a feature to turn currency features off.
-
-Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a Money::Currency object that gives you access to all the currency information.
+Countries now uses the [Money](https://github.com/RubyMoney/money) gem. What this means is you now get back a `Money::Currency` object that gives you access to all the currency information.
 
 ```ruby
 c = ISO3166::Country['us']

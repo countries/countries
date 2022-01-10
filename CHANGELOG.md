@@ -4,9 +4,52 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Future 5.0 release]
 
-- Drop support for Ruby 2.5 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+**Breaking Changes**
+
+- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+
+## Unreleased
+
+**Merged pull requests:**
+
+* Remove non-ISO US subdivisions [\#720](https://github.com/countries/countries/pull/720) ([pmor](https://github.com/pmor))
+* Update MK subdivisions [\#721](https://github.com/countries/countries/pull/721) ([pmor](https://github.com/pmor))
+* Update Kenya subdivision data [\#722](https://github.com/countries/countries/pull/722) ([pmor](https://github.com/pmor))
+* Fix French Southern Territories continent and region data [\#725](https://github.com/countries/countries/pull/725) ([pmor](https://github.com/pmor))
+* Fix SG subdivision data [\#726](https://github.com/countries/countries/pull/726) ([pmor](https://github.com/pmor))
+* Remove FO subdivisions [\#727](https://github.com/countries/countries/pull/727) ([pmor](https://github.com/pmor))
+* JE and IM currencies should be GBP [\#728](https://github.com/countries/countries/pull/728) ([pmor](https://github.com/pmor))
+* Fix US translations in nb and no locales [\#729](https://github.com/countries/countries/pull/729) ([pmor](https://github.com/pmor))
+* Missing alternative names for GB and US [\#724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
+* Deprecate latitude_dec and longitude_dec, delegate to latitude [\#723](https://github.com/countries/countries/pull/#723) ([dima4p](https://github.com/dima4p)
+* add VAT for Israel and Saudi Arabia [\#730](https://github.com/countries/countries/pull/#723) ([Venca24](https://github.com/Venca24)
+* Remove non-ISO KY subdivisions [\#731](https://github.com/countries/countries/pull/731) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Update Kenya subdivisions/states [\#318](https://github.com/countries/countries/issues/318)
+* North Macedonia updates (2020-03-02) [\#674](https://github.com/countries/countries/issues/674)
+* Singapore wrong subdivision codes (SG-SG-0x) [\#663](https://github.com/countries/countries/issues/663)
+* Remove Faroe Islands subdivisions [\#606](https://github.com/countries/countries/issues/606)
+* Jersey uses GBP instead of JEP currency [\#492](https://github.com/countries/countries/issues/492)
+* USA in Norwegian translation should be 'USA' instead of 'De forente stater' [\#564](https://github.com/countries/countries/issues/564)
+* Geographic bounds for UK includes all of Europe [\#535](https://github.com/countries/countries/issues/535)
+* Wrong min_longitude for United States of America? [\#698](https://github.com/countries/countries/issues/698)
+
+
+## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
+
+**Merged pull requests:**
+
+* Fix empty translations in LV subdivisions [\#719](https://github.com/countries/countries/pull/719) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Subdivision translations for some latvian subdivisions nil in countries 4.1.2 [\#718](https://github.com/countries/countries/issues/718)
 
 ## [4.1.2](https://github.com/countries/countries/releases/tag/v4.1.2) (2021/12/20 17:06 +00:00)
+
+**Merged pull requests:**
 
 * Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
 * Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
@@ -56,6 +99,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
 [Full changelog](https://github.com/countries/countries/compare/v3.1.0...v4.0.0)
+
+**Breaking changes:**
+
+  - None
 
 **Closed issues:**
 
