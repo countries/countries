@@ -65,7 +65,7 @@ describe ISO3166::Country do
   end
 
   it 'should return bounds' do
-    expect(country.bounds['northeast']['lat']).to eq(71.5388001)
+    expect(country.bounds['northeast']['lat']).to eq(71.3577635769)
   end
 
   it 'should return continent' do
