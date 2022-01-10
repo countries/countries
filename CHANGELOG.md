@@ -23,6 +23,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * Missing alternative names for GB and US [\#724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
 * Deprecate latitude_dec and longitude_dec, delegate to latitude [\#723](https://github.com/countries/countries/pull/#723) ([dima4p](https://github.com/dima4p)
 * add VAT for Israel and Saudi Arabia [\#730](https://github.com/countries/countries/pull/#723) ([Venca24](https://github.com/Venca24)
+* Remove non-ISO KY subdivisions [\#731](https://github.com/countries/countries/pull/731) ([pmor](https://github.com/pmor))
 
 **Closed issues:**
 
