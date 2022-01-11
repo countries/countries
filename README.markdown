@@ -61,7 +61,6 @@ The `#name` and `#names` attributes, and corresponding finder methods will be re
 For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
 
 
-
 ## Selective Loading of Locales
 
 As of 2.0 you can selectively load locales to reduce memory usage in production.
@@ -132,6 +131,9 @@ ISO3166::Country.translations         # {"DE"=>"Germany",...}
 ISO3166::Country.translations('DE')   # {"DE"=>"Deutschland",...}
 ISO3166::Country.all_translated       # ['Germany', ...]
 ISO3166::Country.all_translated('DE') # ['Deutschland', ...]
+
+# Nationality
+c.nationality # => "American"
 ```
 
 ### Subdivisions & States
