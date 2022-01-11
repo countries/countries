@@ -8,6 +8,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
+## [4.2.1](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 12:39 +00:00)
+
+- Missing update to cache files on release 4.2.0
+- Update postal code regexes from rake task [\#734 ](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
+
+
 ## [4.2.0](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 11:04 +00:00)
 
 **Deprecations**
