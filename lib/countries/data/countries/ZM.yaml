@@ -1,35 +1,11 @@
 ---
 ZM:
-  continent: Africa
   alpha2: ZM
   alpha3: ZMB
+  continent: Africa
   country_code: '260'
-  international_prefix: '00'
-  ioc: ZAM
+  currency_code: ZMW
   gec: ZA
-  name: Zambia
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '894'
-  region: Africa
-  subregion: Eastern Africa
-  world_region: EMEA
-  un_locode: ZM
-  nationality: Zambian
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Zambia
-  - Sambia
-  - Zambie
-  - ザンビア
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: -13.133897
     longitude: 27.849332
@@ -44,5 +20,30 @@ ZM:
       southwest:
         lat: -18.0774179
         lng: 21.999351
-  currency_code: ZMW
+  international_prefix: '00'
+  ioc: ZAM
+  iso_long_name: The Republic of Zambia
+  iso_short_name: Zambia
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: Zambian
+  number: '894'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: ZM
+  unofficial_names:
+  - Zambia
+  - Sambia
+  - Zambie
+  - ザンビア
+  world_region: EMEA

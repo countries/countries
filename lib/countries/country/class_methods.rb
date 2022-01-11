@@ -39,7 +39,7 @@ module ISO3166
 
     def all_names_with_codes(locale = 'en')
       Country.all.map do |c|
-        lc = (c.translation(locale) || c.name)
+        lc = (c.translation(locale) || c.iso_short_name)
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
       end.sort
     end
@@ -55,7 +55,7 @@ module ISO3166
 
       custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
         country = ISO3166::Country[code]
-        translation = country.translations[locale] || country.name
+        translation = country.translations[locale] || country.iso_short_name
         [code, translation]
       end.to_h
 
@@ -75,6 +75,14 @@ module ISO3166
       matches = method_name.to_s.match(FIND_BY_REGEX)
       return_all = matches[1]
       super unless matches
+
+      if matches[3] == 'names'
+        if RUBY_VERSION =~ /^3\.\d\.\d/
+          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
+        else
+          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
+        end
+      end
 
       countries = find_by(matches[3], arguments[0], matches[2])
       return_all ? countries : countries.last
@@ -128,10 +136,15 @@ module ISO3166
       raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
-      if attributes == ['name']
-        attributes << 'unofficial_names'
-        # TODO: Revisit when better data from i18n_data
-        # attributes << 'translated_names'
+      if attribute.to_s == 'name'
+        if RUBY_VERSION =~ /^3\.\d\.\d/
+          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
+        else
+          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
+        end
+        # 'find_by_name' and 'find_*_by_name' will be changed for 5.0
+        # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
+        attributes = %w[iso_short_name unofficial_names translated_names]
       end
 
       [attributes, parse_value(val)]
