@@ -4,8 +4,11 @@ require 'nokogiri'
 require 'fileutils'
 require 'json'
 
+# Support code to allow updating subdivision data from the Unicode CLDR repository
 module Sources
+  # Support code to allow updating subdivision data from the Unicode CLDR repository
   module CLDR
+    # Downloads data from the Unicode CLDR repository
     module Downloader
       module_function
 
