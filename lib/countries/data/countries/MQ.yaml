@@ -1,39 +1,14 @@
 ---
 MQ:
-  continent: North America
   alpha2: MQ
   alpha3: MTQ
+  continent: North America
   country_code: '596'
-  international_prefix: '00'
-  ioc: 
+  currency_code: EUR
   gec: MB
-  name: Martinique
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: None
-  number: '474'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: MQ
-  nationality: French
-  postal_code: true
-  postal_code_format: 9[78]2\d{2}
-  unofficial_names:
-  - Martinique
-  - Martinica
-  - マルティニーク
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: 14.641528
-    latitude_dec: '14.642807960510254'
     longitude: -61.024174
-    longitude_dec: "-60.97755432128906"
     max_latitude: 14.8973451
     max_longitude: -60.7856368
     min_latitude: 14.370834
@@ -45,5 +20,29 @@ MQ:
       southwest:
         lat: 14.370834
         lng: -61.24191279999999
-  currency_code: EUR
+  international_prefix: '00'
+  ioc:
+  iso_long_name: Martinique
+  iso_short_name: Martinique
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: None
+  nationality: French
+  number: '474'
+  postal_code: true
+  postal_code_format: 9[78]2\d{2}
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: MQ
+  unofficial_names:
+  - Martinique
+  - Martinica
+  - マルティニーク
+  world_region: AMER

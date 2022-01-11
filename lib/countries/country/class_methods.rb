@@ -34,7 +34,7 @@ module ISO3166
 
     def all_names_with_codes(locale = 'en')
       Country.all.map do |c|
-        lc = (c.translation(locale) || c.name)
+        lc = (c.translation(locale) || c.iso_short_name)
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
       end.sort
     end
@@ -54,7 +54,7 @@ module ISO3166
 
       custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
         country = ISO3166::Country[code]
-        translation = country.translations[locale] || country.name
+        translation = country.translations[locale] || country.iso_short_name
         [code, translation]
       end.to_h
 

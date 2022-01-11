@@ -1,42 +1,14 @@
 ---
 WF:
-  continent: Australia
   alpha2: WF
   alpha3: WLF
+  continent: Australia
   country_code: '681'
-  international_prefix: '19'
-  ioc: 
+  currency_code: XPF
   gec: WF
-  name: Wallis and Futuna
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 6
-  national_prefix: None
-  number: '876'
-  region: Oceania
-  subregion: Polynesia
-  world_region: APAC
-  un_locode: WF
-  nationality: Wallis and Futuna Islander
-  postal_code: true
-  postal_code_format: 986\d{2}
-  unofficial_names:
-  - Wallis and Futuna
-  - Wallis und Futuna
-  - Wallis et Futuna
-  - Wallis y Futuna
-  - ウォリス・フツナ
-  - Wallis en Futuna
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: -14.2938
-    latitude_dec: "-13.299612045288086"
     longitude: -178.1165
-    longitude_dec: "-176.1701202392578"
     max_latitude: -13.1303042
     max_longitude: -176.0971068
     min_latitude: -14.4187203
@@ -48,5 +20,32 @@ WF:
       southwest:
         lat: -14.4187203
         lng: -178.2284546
-  currency_code: XPF
+  international_prefix: '19'
+  ioc:
+  iso_long_name: The Territory of the Wallis and Futuna Islands
+  iso_short_name: Wallis and Futuna
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 6
+  national_prefix: None
+  nationality: Wallis and Futuna Islander
+  number: '876'
+  postal_code: true
+  postal_code_format: 986\d{2}
+  region: Oceania
   start_of_week: monday
+  subregion: Polynesia
+  un_locode: WF
+  unofficial_names:
+  - Wallis and Futuna
+  - Wallis und Futuna
+  - Wallis et Futuna
+  - Wallis y Futuna
+  - ウォリス・フツナ
+  - Wallis en Futuna
+  world_region: APAC

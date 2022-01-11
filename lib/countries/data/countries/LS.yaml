@@ -1,41 +1,15 @@
 ---
 LS:
-  continent: Africa
   alpha2: LS
   alpha3: LSO
   alt_currency: ZAR
+  continent: Africa
   country_code: '266'
-  international_prefix: '00'
-  ioc: LES
+  currency_code: LSL
   gec: LT
-  name: Lesotho
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '426'
-  region: Africa
-  subregion: Southern Africa
-  world_region: EMEA
-  un_locode: LS
-  nationality: Mosotho
-  postal_code: true
-  postal_code_format: "\\d{3}"
-  unofficial_names:
-  - Lesotho
-  - レソト
-  languages_official:
-  - en
-  - st
-  languages_spoken:
-  - en
-  - st
   geo:
     latitude: -29.609988
-    latitude_dec: "-29.58175277709961"
     longitude: 28.233608
-    longitude_dec: '28.246612548828125'
     max_latitude: -28.5708011
     max_longitude: 29.4557087
     min_latitude: -30.6755788
@@ -47,5 +21,30 @@ LS:
       southwest:
         lat: -30.6755788
         lng: 27.011231
-  currency_code: LSL
+  international_prefix: '00'
+  ioc: LES
+  iso_long_name: The Kingdom of Lesotho
+  iso_short_name: Lesotho
+  languages_official:
+  - en
+  - st
+  languages_spoken:
+  - en
+  - st
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Mosotho
+  number: '426'
+  postal_code: true
+  postal_code_format: "\\d{3}"
+  region: Africa
   start_of_week: monday
+  subregion: Southern Africa
+  un_locode: LS
+  unofficial_names:
+  - Lesotho
+  - レソト
+  world_region: EMEA

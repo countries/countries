@@ -1,39 +1,14 @@
 ---
 BS:
-  continent: North America
   alpha2: BS
   alpha3: BHS
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1242'
-  international_prefix: '011'
-  ioc: BAH
+  currency_code: BSD
   gec: BF
-  name: Bahamas
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '044'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: BS
-  nationality: Bahamian
-  postal_code: false
-  unofficial_names:
-  - Bahamas
-  - バハマ
-  - Bahama’s
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 25.03428
-    latitude_dec: '25.035648345947266'
     longitude: -77.39627999999999
-    longitude_dec: "-77.39512634277344"
     max_latitude: 27.263412
     max_longitude: -72.70975390000001
     min_latitude: 20.9082735
@@ -45,5 +20,29 @@ BS:
       southwest:
         lat: 20.9082735
         lng: -80.4775603
-  currency_code: BSD
+  international_prefix: '011'
+  ioc: BAH
+  iso_long_name: The Commonwealth of The Bahamas
+  iso_short_name: Bahamas
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  nanp_prefix: '1242'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Bahamian
+  number: '044'
+  postal_code: false
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: BS
+  unofficial_names:
+  - Bahamas
+  - バハマ
+  - Bahama’s
+  world_region: AMER

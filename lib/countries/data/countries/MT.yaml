@@ -1,50 +1,16 @@
 ---
 MT:
-  continent: Europe
   alpha2: MT
   alpha3: MLT
+  continent: Europe
   country_code: '356'
-  international_prefix: '00'
-  ioc: MLT
-  gec: MT
-  name: Malta
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '21'
-  number: '470'
-  region: Europe
-  subregion: Southern Europe
-  world_region: EMEA
-  un_locode: MT
-  nationality: Maltese
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 18
-    reduced:
-    - 5
-    - 7
-    super_reduced:
-    parking:
-  postal_code: true
-  postal_code_format: "[A-Z]{3} ?\\d{2,4}"
-  unofficial_names:
-  - Malta
-  - Malte
-  - マルタ
-  languages_official:
-  - mt
-  - en
-  languages_spoken:
-  - mt
-  - en
+  eu_member: true
+  gec: MT
   geo:
     latitude: 35.937496
-    latitude_dec: '35.93336486816406'
     longitude: 14.375416
-    longitude_dec: '14.381033897399902'
     max_latitude: 36.0853
     max_longitude: 14.5765999
     min_latitude: 35.79960000000001
@@ -56,5 +22,38 @@ MT:
       southwest:
         lat: 35.79960000000001
         lng: 14.1801001
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: MLT
+  iso_long_name: The Republic of Malta
+  iso_short_name: Malta
+  languages_official:
+  - mt
+  - en
+  languages_spoken:
+  - mt
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '21'
+  nationality: Maltese
+  number: '470'
+  postal_code: true
+  postal_code_format: "[A-Z]{3} ?\\d{2,4}"
+  region: Europe
   start_of_week: monday
+  subregion: Southern Europe
+  un_locode: MT
+  unofficial_names:
+  - Malta
+  - Malte
+  - マルタ
+  vat_rates:
+    standard: 18
+    reduced:
+    - 5
+    - 7
+    super_reduced:
+    parking:
+  world_region: EMEA

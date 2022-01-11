@@ -1,6 +1,5 @@
 ---
 DK:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -9,47 +8,15 @@ DK:
     {{country}}
   alpha2: DK
   alpha3: DNK
+  continent: Europe
   country_code: '45'
-  international_prefix: '00'
-  ioc: DEN
-  gec: DA
-  name: Denmark
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '208'
-  region: Europe
-  subregion: Northern Europe
-  world_region: EMEA
-  un_locode: DK
-  nationality: Danish
-  eu_member: true
+  currency_code: DKK
   eea_member: true
-  vat_rates:
-    standard: 25
-    reduced: []
-    super_reduced:
-    parking:
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Denmark
-  - Dänemark
-  - Danemark
-  - Dinamarca
-  - デンマーク
-  - Denemarken
-  languages_official:
-  - da
-  languages_spoken:
-  - da
+  eu_member: true
+  gec: DA
   geo:
     latitude: 56.26392
-    latitude_dec: '56.10176086425781'
     longitude: 9.501785
-    longitude_dec: '9.555907249450684'
     max_latitude: 58.02846
     max_longitude: 15.2298
     min_latitude: 54.4317001
@@ -61,5 +28,37 @@ DK:
       southwest:
         lat: 54.4317001
         lng: 7.855200099999999
-  currency_code: DKK
+  international_prefix: '00'
+  ioc: DEN
+  iso_long_name: The Kingdom of Denmark
+  iso_short_name: Denmark
+  languages_official:
+  - da
+  languages_spoken:
+  - da
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Danish
+  number: '208'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Europe
   start_of_week: monday
+  subregion: Northern Europe
+  un_locode: DK
+  unofficial_names:
+  - Denmark
+  - Dänemark
+  - Danemark
+  - Dinamarca
+  - デンマーク
+  - Denemarken
+  vat_rates:
+    standard: 25
+    reduced: []
+    super_reduced:
+    parking:
+  world_region: EMEA

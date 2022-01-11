@@ -1,40 +1,14 @@
 ---
 SX:
-  continent: North America
   alpha2: SX
   alpha3: SXM
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1721'
-  international_prefix: '011'
-  ioc: 
+  currency_code: ANG
   gec: NN
-  name: Sint Maarten (Dutch part)
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '0'
-  number: '534'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: SX
-  nationality: Dutch
-  postal_code: false
-  unofficial_names:
-  - Sint Maarten
-  - セント・マーチン島
-  languages_official:
-  - nl
-  - en
-  languages_spoken:
-  - nl
-  - en
   geo:
     latitude: 18.04248
-    latitude_dec: '18.042224884033203'
     longitude: -63.05483
-    longitude_dec: "-63.06623458862305"
     max_latitude: 18.0641707
     max_longitude: -62.9784
     min_latitude: 17.9941
@@ -46,5 +20,30 @@ SX:
       southwest:
         lat: 17.9941
         lng: -63.13979990000001
-  currency_code: ANG
+  international_prefix: '011'
+  ioc:
+  iso_long_name: Sint Maarten
+  iso_short_name: Sint Maarten (Dutch part)
+  languages_official:
+  - nl
+  - en
+  languages_spoken:
+  - nl
+  - en
+  nanp_prefix: '1721'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  nationality: Dutch
+  number: '534'
+  postal_code: false
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: SX
+  unofficial_names:
+  - Sint Maarten
+  - セント・マーチン島
+  world_region: AMER

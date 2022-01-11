@@ -1,6 +1,5 @@
 ---
 IT:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,49 +7,15 @@ IT:
     {{country}}
   alpha2: IT
   alpha3: ITA
+  continent: Europe
   country_code: '39'
-  international_prefix: '00'
-  ioc: ITA
-  gec: IT
-  name: Italy
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 9
-  - 11
-  national_prefix: None
-  number: '380'
-  region: Europe
-  subregion: Southern Europe
-  world_region: EMEA
-  un_locode: IT
-  nationality: Italian
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 22
-    reduced:
-    - 10
-    super_reduced: 4
-    parking:
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Italy
-  - Italien
-  - Italie
-  - Italia
-  - イタリア
-  - Italië
-  languages_official:
-  - it
-  languages_spoken:
-  - it
+  eu_member: true
+  gec: IT
   geo:
     latitude: 41.87194
-    latitude_dec: '42.7669792175293'
     longitude: 12.56738
-    longitude_dec: '12.493823051452637'
     max_latitude: 47.092
     max_longitude: 18.7975999
     min_latitude: 35.4897
@@ -62,5 +27,39 @@ IT:
       southwest:
         lat: 35.4897
         lng: 6.6267201
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: ITA
+  iso_long_name: The Italian Republic
+  iso_short_name: Italy
+  languages_official:
+  - it
+  languages_spoken:
+  - it
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 9
+  - 11
+  national_prefix: None
+  nationality: Italian
+  number: '380'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Europe
   start_of_week: monday
+  subregion: Southern Europe
+  un_locode: IT
+  unofficial_names:
+  - Italy
+  - Italien
+  - Italie
+  - Italia
+  - イタリア
+  - Italië
+  vat_rates:
+    standard: 22
+    reduced:
+    - 10
+    super_reduced: 4
+    parking:
+  world_region: EMEA

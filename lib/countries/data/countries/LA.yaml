@@ -1,39 +1,14 @@
 ---
 LA:
-  continent: Asia
   alpha2: LA
   alpha3: LAO
+  continent: Asia
   country_code: '856'
-  international_prefix: '00'
-  ioc: LAO
+  currency_code: LAK
   gec: LA
-  name: Lao People's Democratic Republic
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '0'
-  number: '418'
-  region: Asia
-  subregion: South-Eastern Asia
-  world_region: APAC
-  un_locode: LA
-  nationality: Laotian
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Laos
-  - ラオス人民民主共和国
-  - Lao People s Democratic Republic
-  languages_official:
-  - lo
-  languages_spoken:
-  - lo
   geo:
     latitude: 19.85627
-    latitude_dec: '18.65074920654297'
     longitude: 102.495496
-    longitude_dec: '104.15293884277344'
     max_latitude: 22.5090449
     max_longitude: 107.635094
     min_latitude: 13.9097198
@@ -45,5 +20,29 @@ LA:
       southwest:
         lat: 13.9097198
         lng: 100.0832139
-  currency_code: LAK
+  international_prefix: '00'
+  ioc: LAO
+  iso_long_name: The Lao People's Democratic Republic
+  iso_short_name: Lao People's Democratic Republic
+  languages_official:
+  - lo
+  languages_spoken:
+  - lo
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  nationality: Laotian
+  number: '418'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Asia
   start_of_week: monday
+  subregion: South-Eastern Asia
+  un_locode: LA
+  unofficial_names:
+  - Laos
+  - ラオス人民民主共和国
+  - Lao People s Democratic Republic
+  world_region: APAC

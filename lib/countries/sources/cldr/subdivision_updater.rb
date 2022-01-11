@@ -7,6 +7,7 @@ require 'pry'
 
 module Sources
   module CLDR
+    # Updates local subdivision files with data from the Unicode CLDR repository
     class SubdivisionUpdater
       def call
         d = Dir['./tmp/cldr/trunk/common/subdivisions/*.xml']

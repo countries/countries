@@ -43,8 +43,8 @@ describe ISO3166::Country do
     expect(country.alpha3).to eq('USA')
   end
 
-  it 'should return 3166 name' do
-    expect(country.name).to eq('United States of America')
+  it 'should return 3166 iso_short_name' do
+    expect(country.iso_short_name).to eq('United States of America')
   end
 
   it 'should return alternate names' do
@@ -67,15 +67,7 @@ describe ISO3166::Country do
   end
 
   it 'should return bounds' do
-    expect(country.bounds['northeast']['lat']).to eq(71.5388001)
-  end
-
-  it 'should return the decimal Latitude' do
-    expect(country.latitude_dec).to eq('39.44325637817383')
-  end
-
-  it 'should return the decimal Longitude' do
-    expect(country.longitude_dec).to eq('-98.95733642578125')
+    expect(country.bounds['northeast']['lat']).to eq(71.3577635769)
   end
 
   it 'should return continent' do
@@ -146,8 +138,8 @@ describe ISO3166::Country do
       before do
         ISO3166::Data.register(
           alpha2: 'BR2',
-          name: 'Brazil',
-          languages_official: %w[pt-BR],
+          iso_short_name: 'Brazil',
+          languages_official: %w(pt-BR),
           translations: {
             'pt-BR' => 'Translation for pt-BR',
             'pt' => 'Translation for pt'
@@ -170,8 +162,8 @@ describe ISO3166::Country do
       before do
         ISO3166::Data.register(
           alpha2: 'BR2',
-          name: 'Brazil',
-          languages_official: %w[pt-BR],
+          iso_short_name: 'Brazil',
+          languages_official: %w(pt-BR),
           translations: {
             'pt' => 'Translation for pt'
           }
@@ -325,7 +317,7 @@ describe ISO3166::Country do
     end
 
     it 'should allow to customize each country representation passing a block to the method' do
-      countries = ISO3166::Country.all { |country, data| [data['name'], country, data['country_code']] }
+      countries = ISO3166::Country.all { |country, data| [data['iso_short_name'], country, data['country_code']] }
       expect(countries).to be_an(Array)
       expect(countries.first).to be_an(Array)
       expect(countries.first.size).to eq(3)
@@ -356,7 +348,7 @@ describe ISO3166::Country do
       before do
         ISO3166::Data.register(
           alpha2: 'XX',
-          name: 'Custom Country',
+          iso_short_name: 'Custom Country',
           translations: { 'en' => 'Custom Country' }
         )
       end
@@ -364,7 +356,7 @@ describe ISO3166::Country do
       it 'should include custom registered countries' do
         custom_country = ISO3166::Country.find_by_alpha2('XX')[1]
         countries = ISO3166::Country.all_translated
-        expect(countries).to include(custom_country['name'])
+        expect(countries).to include(custom_country['iso_short_name'])
       end
 
       after do
@@ -551,7 +543,7 @@ describe ISO3166::Country do
     end
 
     it 'also performs searches with regexps and forces it to ignore case' do
-      spain_data = ISO3166::Country.find_all_by(:names, /Españ/)
+      spain_data = ISO3166::Country.find_all_by(:unofficial_names, /Españ/)
       expect(spain_data).to be_a Hash
       expect(spain_data.keys).to eq(['ES'])
     end
@@ -563,7 +555,7 @@ describe ISO3166::Country do
         case lookup.length
         when 2 then ISO3166::Country.find_all_by(:alpha2, lookup)
         when 3 then ISO3166::Country.find_all_by(:alpha3, lookup)
-        else ISO3166::Country.find_all_by(:name, lookup)
+        else ISO3166::Country.find_all_by(:iso_short_name, lookup)
         end
       end
       expect(Time.now - start).to be < 1
@@ -571,22 +563,22 @@ describe ISO3166::Country do
   end
 
   describe 'hash finder methods' do
-    context "when search name in 'name'" do
-      subject { ISO3166::Country.find_by_name('Poland') }
+    context "when search name in 'iso_short_name'" do
+      subject { ISO3166::Country.find_by_iso_short_name('Poland') }
       it 'should return' do
         expect(subject.first).to eq('PL')
       end
     end
 
-    context "when search lowercase name in 'name'" do
-      subject { ISO3166::Country.find_by_name('poland') }
+    context "when search lowercase name in 'iso_short_name'" do
+      subject { ISO3166::Country.find_by_iso_short_name('poland') }
       it 'should return' do
         expect(subject.first).to eq('PL')
       end
     end
 
-    context "when search name with comma in 'name'" do
-      subject { ISO3166::Country.find_by_name(country_name) }
+    context "when search name with comma in 'iso_short_name'" do
+      subject { ISO3166::Country.find_by_iso_short_name(country_name) }
 
       context 'with Republic of Korea' do
         let(:country_name) { 'Korea, Republic of' }
@@ -611,7 +603,7 @@ describe ISO3166::Country do
     end
 
     context 'when search lowercase multibyte name found' do
-      subject { ISO3166::Country.find_country_by_name('россия') }
+      subject { ISO3166::Country.find_country_by_unofficial_names('россия') }
 
       it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
@@ -620,7 +612,7 @@ describe ISO3166::Country do
     end
 
     context 'when search lowercase multibyte name found' do
-      subject { ISO3166::Country.find_country_by_name(/россия/) }
+      subject { ISO3166::Country.find_country_by_unofficial_names(/россия/) }
 
       it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
@@ -629,7 +621,7 @@ describe ISO3166::Country do
     end
 
     context 'when accents are not used' do
-      subject { ISO3166::Country.find_country_by_name('emirats Arabes Unis') }
+      subject { ISO3166::Country.find_country_by_unofficial_names('emirats Arabes Unis') }
 
       it 'should be a country instance' do
         expect(subject).to be_a(ISO3166::Country)
@@ -637,8 +629,20 @@ describe ISO3166::Country do
       end
     end
 
-    context "when search name in 'names'" do
-      subject { ISO3166::Country.find_by_name('Polonia') }
+    context "when search name in 'unofficial_names'" do
+      subject { ISO3166::Country.find_by_unofficial_names('Polonia') }
+      it 'should return' do
+        expect(subject.first).to eq('PL')
+      end
+    end
+
+    context "when search name in 'translated_names'" do
+      before do
+        ISO3166.configure do |config|
+          config.locales = [:bs]
+        end
+      end
+      subject { ISO3166::Country.find_by_translated_names('Poljska') }
       it 'should return' do
         expect(subject.first).to eq('PL')
       end
@@ -673,7 +677,7 @@ describe ISO3166::Country do
 
   describe 'country finder methods' do
     context 'when search name found' do
-      let(:uk) { ISO3166::Country.find_country_by_name('United Kingdom') }
+      let(:uk) { ISO3166::Country.find_country_by_unofficial_names('United Kingdom') }
 
       it 'should be a country instance' do
         expect(uk).to be_a(ISO3166::Country)
@@ -682,7 +686,7 @@ describe ISO3166::Country do
     end
 
     context 'when search lowercase name found' do
-      let(:uk) { ISO3166::Country.find_country_by_name('united kingdom') }
+      let(:uk) { ISO3166::Country.find_country_by_unofficial_names('united kingdom') }
 
       it 'should be a country instance' do
         expect(uk).to be_a(ISO3166::Country)
@@ -691,7 +695,7 @@ describe ISO3166::Country do
     end
 
     context 'when the search term contains comma' do
-      let(:korea) { ISO3166::Country.find_country_by_name('Korea, Republic of') }
+      let(:korea) { ISO3166::Country.find_country_by_unofficial_names('Korea, Republic of') }
 
       it 'should be a country instance' do
         expect(korea).to be_a(ISO3166::Country)
@@ -730,7 +734,7 @@ describe ISO3166::Country do
       end
     end
     context 'when search name not found' do
-      let(:bogus) { ISO3166::Country.find_country_by_name('Does not exist') }
+      let(:bogus) { ISO3166::Country.find_country_by_unofficial_names('Does not exist') }
 
       it 'should be a country instance' do
         expect(bogus).to eq(nil)
@@ -739,7 +743,7 @@ describe ISO3166::Country do
 
     # Spot checks #243
     context 'when search name not found' do
-      let(:belgium) { ISO3166::Country.find_country_by_name('Belgium') }
+      let(:belgium) { ISO3166::Country.find_country_by_unofficial_names('Belgium') }
 
       it 'should be a country instance' do
         expect(belgium.alpha2).to eq('BE')
@@ -748,7 +752,7 @@ describe ISO3166::Country do
 
     # Spot checks #240
     context 'when search name not found' do
-      let(:canada) { ISO3166::Country.find_country_by_name('Canada') }
+      let(:canada) { ISO3166::Country.find_country_by_unofficial_names('Canada') }
 
       it 'should be a country instance' do
         expect(canada.alpha2).to eq('CA')
@@ -757,7 +761,7 @@ describe ISO3166::Country do
 
     # Spot checks #241
     context 'when search name not found' do
-      let(:israel) { ISO3166::Country.find_country_by_name('Israel') }
+      let(:israel) { ISO3166::Country.find_country_by_unofficial_names('Israel') }
 
       it 'should be a country instance' do
         expect(israel.alpha2).to eq('IL')
@@ -766,7 +770,7 @@ describe ISO3166::Country do
 
     # Spot checks #241
     context 'when search name not found' do
-      let(:israel) { ISO3166::Country.find_by_name('Israel') }
+      let(:israel) { ISO3166::Country.find_by_iso_short_name('Israel') }
 
       it 'should be a country instance' do
         expect(israel[0]).to eq('IL')
@@ -775,7 +779,7 @@ describe ISO3166::Country do
 
     # Spot checks #241
     context 'when search name not found' do
-      let(:israel) { ISO3166::Country.find_all_by(:name, 'Israel') }
+      let(:israel) { ISO3166::Country.find_all_by(:iso_short_name, 'Israel') }
 
       it 'should be a country instance' do
         expect(israel.size).to eq(1)
@@ -825,7 +829,7 @@ describe ISO3166::Country do
 
     describe 'hash finder methods' do
       context 'find by a valid Country attribute' do
-        let(:method_name) { :find_by_name }
+        let(:method_name) { :find_by_iso_short_name }
         it { is_expected.to be true }
       end
 
@@ -851,7 +855,7 @@ describe ISO3166::Country do
   describe 'names in Data' do
     it 'should be unique (to allow .find_by_name work properly)' do
       names = ISO3166::Data.cache.map do |_k, v|
-        [v['name'], v['unofficial_names']].flatten.uniq
+        [v['iso_short_name'], v['unofficial_names']].flatten.uniq
       end.flatten
 
       expect(names.size).to eq(names.uniq.size)
@@ -934,7 +938,7 @@ describe ISO3166::Country do
   end
 
   describe 'to_s' do
-    it 'should return the country name' do
+    it 'should return the country iso_short_name' do
       expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
     end
   end
@@ -975,30 +979,30 @@ describe ISO3166::Country do
 
   describe 'Added country names to search by' do
     it 'should return country code for Democratic Republic of the Congo' do
-      expect(ISO3166::Country.find_country_by_name('Democratic Republic of the Congo').alpha2).to eq 'CD'
+      expect(ISO3166::Country.find_country_by_unofficial_names('Democratic Republic of the Congo').alpha2).to eq 'CD'
     end
     it 'should return country code for Ivory Coast' do
-      expect(ISO3166::Country.find_country_by_name('Ivory Coast').alpha2).to eq 'CI'
+      expect(ISO3166::Country.find_country_by_unofficial_names('Ivory Coast').alpha2).to eq 'CI'
     end
     it 'should return Pakistan code for Guinea Bissau' do
-      expect(ISO3166::Country.find_country_by_name('Guinea Bissau').alpha2).to eq 'GW'
+      expect(ISO3166::Country.find_country_by_unofficial_names('Guinea Bissau').alpha2).to eq 'GW'
     end
     it 'should return Pakistan code for St Kitts and Nevis' do
-      expect(ISO3166::Country.find_country_by_name('St Kitts and Nevis').alpha2).to eq 'KN'
+      expect(ISO3166::Country.find_country_by_unofficial_names('St Kitts and Nevis').alpha2).to eq 'KN'
     end
     it 'should return Pakistan code for St Lucia' do
-      expect(ISO3166::Country.find_country_by_name('St Lucia').alpha2).to eq 'LC'
-      expect(ISO3166::Country.find_country_by_name('St. Lucia').alpha2).to eq 'LC'
+      expect(ISO3166::Country.find_country_by_unofficial_names('St Lucia').alpha2).to eq 'LC'
+      expect(ISO3166::Country.find_country_by_unofficial_names('St. Lucia').alpha2).to eq 'LC'
     end
     it 'should return Pakistan code for Turks and Caicos' do
-      expect(ISO3166::Country.find_country_by_name('Turks and Caicos').alpha2).to eq 'TC'
+      expect(ISO3166::Country.find_country_by_unofficial_names('Turks and Caicos').alpha2).to eq 'TC'
     end
     it 'should return Pakistan code for St Vincent Grenadines' do
-      expect(ISO3166::Country.find_country_by_name('St Vincent Grenadines').alpha2).to eq 'VC'
-      expect(ISO3166::Country.find_country_by_name('St. Vincent Grenadines').alpha2).to eq 'VC'
+      expect(ISO3166::Country.find_country_by_unofficial_names('St Vincent Grenadines').alpha2).to eq 'VC'
+      expect(ISO3166::Country.find_country_by_unofficial_names('St. Vincent Grenadines').alpha2).to eq 'VC'
     end
     it 'should return country code for Palestinian Authority' do
-      expect(ISO3166::Country.find_country_by_name('Palestinian Authority').alpha2).to eq 'PS'
+      expect(ISO3166::Country.find_country_by_unofficial_names('Palestinian Authority').alpha2).to eq 'PS'
     end
   end
 
@@ -1027,8 +1031,8 @@ describe ISO3166::Country do
       expect(subject.last).to be_empty
     end
 
-    context 'when asking for alpha2, alpha3 and name' do
-      let(:args) { %i[alpha2 alpha3 name] }
+    context "when asking for alpha2, alpha3 and iso_short_name" do
+      let(:args) { [:alpha2, :alpha3, :iso_short_name] }
 
       it 'returns the correct values' do
         expect(subject.first).to eq(%w[AD AND Andorra])

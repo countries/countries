@@ -1,6 +1,5 @@
 ---
 VN:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -9,40 +8,13 @@ VN:
     {{country}}
   alpha2: VN
   alpha3: VNM
+  continent: Asia
   country_code: '84'
-  international_prefix: '00'
-  ioc: VIE
+  currency_code: VND
   gec: VM
-  name: Viet Nam
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  - 9
-  - 10
-  national_prefix: '0'
-  number: '704'
-  region: Asia
-  subregion: South-Eastern Asia
-  world_region: APAC
-  un_locode: VN
-  nationality: Vietnamese
-  postal_code: true
-  postal_code_format: "\\d{5}\\d?"
-  unofficial_names:
-  - Vietnam
-  - ベトナム
-  - Viet Nam
-  languages_official:
-  - vi
-  languages_spoken:
-  - vi
   geo:
     latitude: 14.058324
-    latitude_dec: '16.9404296875'
     longitude: 108.277199
-    longitude_dec: '106.8164291381836'
     max_latitude: 23.3926504
     max_longitude: 109.6765
     min_latitude: 8.1952001
@@ -54,5 +26,32 @@ VN:
       southwest:
         lat: 8.1952001
         lng: 102.1439156
-  currency_code: VND
+  international_prefix: '00'
+  ioc: VIE
+  iso_long_name: The Socialist Republic of Viet Nam
+  iso_short_name: Viet Nam
+  languages_official:
+  - vi
+  languages_spoken:
+  - vi
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  - 9
+  - 10
+  national_prefix: '0'
+  nationality: Vietnamese
+  number: '704'
+  postal_code: true
+  postal_code_format: "\\d{5}\\d?"
+  region: Asia
   start_of_week: monday
+  subregion: South-Eastern Asia
+  un_locode: VN
+  unofficial_names:
+  - Vietnam
+  - ベトナム
+  - Viet Nam
+  world_region: APAC

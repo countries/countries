@@ -1,41 +1,14 @@
 ---
 MV:
-  continent: Asia
   alpha2: MV
   alpha3: MDV
+  continent: Asia
   country_code: '960'
-  international_prefix: '00'
-  ioc: MDV
+  currency_code: MVR
   gec: MV
-  name: Maldives
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '462'
-  region: Asia
-  subregion: Southern Asia
-  world_region: APAC
-  un_locode: MV
-  nationality: Maldivan
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Maldives
-  - Malediven
-  - Maldivas
-  - モルディブ
-  - Maldiven
-  languages_official:
-  - dv
-  languages_spoken:
-  - dv
   geo:
     latitude: 3.202778
-    latitude_dec: '4.185884952545166'
     longitude: 73.22068
-    longitude_dec: '73.53071594238281'
     max_latitude: 7.5149809
     max_longitude: 74.7290038
     min_latitude: -1.2907844
@@ -47,5 +20,31 @@ MV:
       southwest:
         lat: -1.2907844
         lng: 71.75170899999999
-  currency_code: MVR
+  international_prefix: '00'
+  ioc: MDV
+  iso_long_name: The Republic of Maldives
+  iso_short_name: Maldives
+  languages_official:
+  - dv
+  languages_spoken:
+  - dv
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Maldivan
+  number: '462'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Asia
   start_of_week: sunday
+  subregion: Southern Asia
+  un_locode: MV
+  unofficial_names:
+  - Maldives
+  - Malediven
+  - Maldivas
+  - モルディブ
+  - Maldiven
+  world_region: APAC

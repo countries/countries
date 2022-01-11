@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-# Extend Country class with support for timezones
 module ISO3166
-  # Extend Country class with support for timezones
+  # Extend Country class with support for timezones. Requires the  {tzinfo}[https://github.com/tzinfo/tzinfo] gem
+  #
+  #   gem 'tzinfo'
+  #
   module TimezoneExtensions
     # TODO: rename method to tz_country or something similar
     def timezones

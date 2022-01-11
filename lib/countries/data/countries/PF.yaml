@@ -1,42 +1,14 @@
 ---
 PF:
-  continent: Australia
   alpha2: PF
   alpha3: PYF
+  continent: Australia
   country_code: '689'
-  international_prefix: '00'
-  ioc: 
+  currency_code: XPF
   gec: FP
-  name: French Polynesia
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 6
-  national_prefix: None
-  number: '258'
-  region: Oceania
-  subregion: Polynesia
-  world_region: APAC
-  un_locode: PF
-  nationality: French Polynesian
-  postal_code: true
-  postal_code_format: 987\d{2}
-  unofficial_names:
-  - French Polynesia
-  - Französisch-Polynesien
-  - Polynésie Française
-  - Polinesia Francesa
-  - フランス領ポリネシア
-  - Frans-Polynesië
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: -17.679742
-    latitude_dec: "-17.648122787475586"
     longitude: -149.406843
-    longitude_dec: "-149.4647216796875"
     max_latitude: -6.4682
     max_longitude: -134.0551932
     min_latitude: -28.61346
@@ -48,5 +20,32 @@ PF:
       southwest:
         lat: -28.61346
         lng: -155.125483
-  currency_code: XPF
+  international_prefix: '00'
+  ioc:
+  iso_long_name: French Polynesia
+  iso_short_name: French Polynesia
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 6
+  national_prefix: None
+  nationality: French Polynesian
+  number: '258'
+  postal_code: true
+  postal_code_format: 987\d{2}
+  region: Oceania
   start_of_week: monday
+  subregion: Polynesia
+  un_locode: PF
+  unofficial_names:
+  - French Polynesia
+  - Französisch-Polynesien
+  - Polynésie Française
+  - Polinesia Francesa
+  - フランス領ポリネシア
+  - Frans-Polynesië
+  world_region: APAC

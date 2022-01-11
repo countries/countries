@@ -1,42 +1,14 @@
 ---
 AG:
-  continent: North America
   alpha2: AG
   alpha3: ATG
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1268'
-  international_prefix: '011'
-  ioc: ANT
+  currency_code: XCD
   gec: AC
-  name: Antigua and Barbuda
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '028'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: AG
-  nationality: Antiguan, Barbudan
-  postal_code: false
-  unofficial_names:
-  - Antigua and Barbuda
-  - Antigua und Barbuda
-  - Antigua et Barbuda
-  - Antigua y Barbuda
-  - アンティグア・バーブーダ
-  - Antigua en Barbuda
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 17.060816
-    latitude_dec: '17.09273910522461'
     longitude: -61.796428
-    longitude_dec: "-61.81040954589844"
     max_latitude: 17.7499946
     max_longitude: -61.6394
     min_latitude: 16.9018
@@ -48,5 +20,32 @@ AG:
       southwest:
         lat: 16.9018
         lng: -62.38100009999999
-  currency_code: XCD
+  international_prefix: '011'
+  ioc: ANT
+  iso_long_name: Antigua and Barbuda
+  iso_short_name: Antigua and Barbuda
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  nanp_prefix: '1268'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Antiguan, Barbudan
+  number: '028'
+  postal_code: false
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: AG
+  unofficial_names:
+  - Antigua and Barbuda
+  - Antigua und Barbuda
+  - Antigua et Barbuda
+  - Antigua y Barbuda
+  - アンティグア・バーブーダ
+  - Antigua en Barbuda
+  world_region: AMER

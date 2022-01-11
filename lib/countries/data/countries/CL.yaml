@@ -1,45 +1,14 @@
 ---
 CL:
-  continent: South America
   alpha2: CL
   alpha3: CHL
+  continent: South America
   country_code: '56'
-  international_prefix: '00'
-  ioc: CHI
+  currency_code: CLP
   gec: CI
-  name: Chile
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '152'
-  region: Americas
-  subregion: South America
-  world_region: AMER
-  un_locode: CL
-  nationality: Chilean
-  vat_rates:
-    standard: 19
-    reduced: []
-    super_reduced:
-    parking:
-  postal_code: true
-  postal_code_format: "\\d{7}"
-  unofficial_names:
-  - Chile
-  - チリ
-  - Chili
-  languages_official:
-  - es
-  languages_spoken:
-  - es
   geo:
     latitude: -35.675147
-    latitude_dec: "-35.78622817993164"
     longitude: -71.542969
-    longitude_dec: "-71.67467498779297"
     max_latitude: -17.4983291
     max_longitude: -66.3327
     min_latitude: -56.1455
@@ -51,5 +20,35 @@ CL:
       southwest:
         lat: -56.1455
         lng: -110.0281
-  currency_code: CLP
+  international_prefix: '00'
+  ioc: CHI
+  iso_long_name: The Republic of Chile
+  iso_short_name: Chile
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Chilean
+  number: '152'
+  postal_code: true
+  postal_code_format: "\\d{7}"
+  region: Americas
   start_of_week: monday
+  subregion: South America
+  un_locode: CL
+  unofficial_names:
+  - Chile
+  - チリ
+  - Chili
+  vat_rates:
+    standard: 19
+    reduced: []
+    super_reduced:
+    parking:
+  world_region: AMER

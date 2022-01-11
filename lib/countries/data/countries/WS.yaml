@@ -1,40 +1,14 @@
 ---
 WS:
-  continent: Australia
   alpha2: WS
   alpha3: WSM
+  continent: Australia
   country_code: '685'
-  international_prefix: '00'
-  ioc: SAM
+  currency_code: WST
   gec: WS
-  name: Samoa
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 6
-  - 7
-  national_prefix: None
-  number: '882'
-  region: Oceania
-  subregion: Polynesia
-  world_region: APAC
-  un_locode: WS
-  nationality: Samoan
-  postal_code: false
-  unofficial_names:
-  - Samoa
-  - サモア
-  languages_official:
-  - sm
-  - en
-  languages_spoken:
-  - sm
-  - en
   geo:
     latitude: -13.759029
-    latitude_dec: "-13.668972969055176"
     longitude: -172.104629
-    longitude_dec: "-172.322021484375"
     max_latitude: -13.4203449
     max_longitude: -171.3950515
     min_latitude: -14.0833012
@@ -46,5 +20,30 @@ WS:
       southwest:
         lat: -14.0833012
         lng: -172.8108215
-  currency_code: WST
+  international_prefix: '00'
+  ioc: SAM
+  iso_long_name: The Independent State of Samoa
+  iso_short_name: Samoa
+  languages_official:
+  - sm
+  - en
+  languages_spoken:
+  - sm
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 6
+  - 7
+  national_prefix: None
+  nationality: Samoan
+  number: '882'
+  postal_code: false
+  region: Oceania
   start_of_week: monday
+  subregion: Polynesia
+  un_locode: WS
+  unofficial_names:
+  - Samoa
+  - サモア
+  world_region: APAC

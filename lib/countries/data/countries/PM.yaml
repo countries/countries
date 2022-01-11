@@ -1,42 +1,14 @@
 ---
 PM:
-  continent: North America
   alpha2: PM
   alpha3: SPM
+  continent: North America
   country_code: '508'
-  international_prefix: '00'
-  ioc: 
+  currency_code: EUR
   gec: SB
-  name: Saint Pierre and Miquelon
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 6
-  national_prefix: '0'
-  number: '666'
-  region: Americas
-  subregion: Northern America
-  world_region: AMER
-  un_locode: PM
-  nationality: French
-  postal_code: true
-  postal_code_format: 9[78]5\d{2}
-  unofficial_names:
-  - Saint Pierre and Miquelon
-  - Saint-Pierre und Miquelon
-  - Saint-Pierre-et-Miquelon
-  - San Pedro y Miquelón
-  - サンピエール島・ミクロン島
-  - Saint Pierre en Miquelon
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: 46.8852
-    latitude_dec: '46.90594482421875'
     longitude: -56.3159
-    longitude_dec: "-56.336585998535156"
     max_latitude: 47.21579999999999
     max_longitude: -55.98249999999999
     min_latitude: 46.7003
@@ -48,5 +20,32 @@ PM:
       southwest:
         lat: 46.7003
         lng: -56.5233
-  currency_code: EUR
+  international_prefix: '00'
+  ioc:
+  iso_long_name: The Overseas Collectivity of Saint-Pierre and Miquelon
+  iso_short_name: Saint Pierre and Miquelon
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 6
+  national_prefix: '0'
+  nationality: French
+  number: '666'
+  postal_code: true
+  postal_code_format: 9[78]5\d{2}
+  region: Americas
   start_of_week: monday
+  subregion: Northern America
+  un_locode: PM
+  unofficial_names:
+  - Saint Pierre and Miquelon
+  - Saint-Pierre und Miquelon
+  - Saint-Pierre-et-Miquelon
+  - San Pedro y Miquelón
+  - サンピエール島・ミクロン島
+  - Saint Pierre en Miquelon
+  world_region: AMER

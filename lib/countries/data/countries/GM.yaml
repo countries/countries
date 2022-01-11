@@ -1,37 +1,14 @@
 ---
 GM:
-  continent: Africa
   alpha2: GM
   alpha3: GMB
+  continent: Africa
   country_code: '220'
-  international_prefix: '00'
-  ioc: GAM
+  currency_code: GMD
   gec: GA
-  name: Gambia
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '270'
-  region: Africa
-  subregion: Western Africa
-  world_region: EMEA
-  un_locode: GM
-  nationality: Gambian
-  postal_code: false
-  unofficial_names:
-  - Gambia
-  - ガンビア
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 13.443182
-    latitude_dec: '13.440265655517578'
     longitude: -15.310139
-    longitude_dec: "-15.490884780883789"
     max_latitude: 13.825058
     max_longitude: -13.7913862
     min_latitude: 13.0098999
@@ -43,5 +20,27 @@ GM:
       southwest:
         lat: 13.0098999
         lng: -16.9464001
-  currency_code: GMD
+  international_prefix: '00'
+  ioc: GAM
+  iso_long_name: The Republic of The Gambia
+  iso_short_name: Gambia
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Gambian
+  number: '270'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Western Africa
+  un_locode: GM
+  unofficial_names:
+  - Gambia
+  - ガンビア
+  world_region: EMEA

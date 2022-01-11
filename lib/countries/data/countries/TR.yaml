@@ -1,6 +1,5 @@
 ---
 TR:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,40 +7,13 @@ TR:
     {{country}}
   alpha2: TR
   alpha3: TUR
+  continent: Europe
   country_code: '90'
-  international_prefix: '00'
-  ioc: TUR
+  currency_code: TRY
   gec: TU
-  name: Turkey
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 10
-  national_prefix: '0'
-  number: '792'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: TR
-  nationality: Turkish
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Turkey
-  - Türkei
-  - Turquie
-  - Turquía
-  - トルコ
-  - Turkije
-  languages_official:
-  - tr
-  languages_spoken:
-  - tr
   geo:
     latitude: 38.963745
-    latitude_dec: '39.05101013183594'
     longitude: 35.243322
-    longitude_dec: '34.93033981323242'
     max_latitude: 42.3666999
     max_longitude: 44.8178449
     min_latitude: 35.808592
@@ -53,5 +25,32 @@ TR:
       southwest:
         lat: 35.808592
         lng: 25.5377
-  currency_code: TRY
+  international_prefix: '00'
+  ioc: TUR
+  iso_long_name: The Republic of Turkey
+  iso_short_name: Turkey
+  languages_official:
+  - tr
+  languages_spoken:
+  - tr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  nationality: Turkish
+  number: '792'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Asia
   start_of_week: monday
+  subregion: Western Asia
+  un_locode: TR
+  unofficial_names:
+  - Turkey
+  - Türkei
+  - Turquie
+  - Turquía
+  - トルコ
+  - Turkije
+  world_region: EMEA

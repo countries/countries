@@ -1,40 +1,14 @@
 ---
 MC:
-  continent: Europe
   alpha2: MC
   alpha3: MCO
+  continent: Europe
   country_code: '377'
-  international_prefix: '00'
-  ioc: MON
+  currency_code: EUR
   gec: MN
-  name: Monaco
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '492'
-  region: Europe
-  subregion: Western Europe
-  world_region: EMEA
-  un_locode: MC
-  nationality: Monegasque
-  postal_code: true
-  postal_code_format: 980\d{2}
-  unofficial_names:
-  - Monaco
-  - Mónaco
-  - モナコ
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: 43.73841760000001
-    latitude_dec: '43.738929748535156'
     longitude: 7.424615799999999
-    longitude_dec: '7.425483226776123'
     max_latitude: 43.7519029
     max_longitude: 7.4426
     min_latitude: 43.7237999
@@ -46,5 +20,30 @@ MC:
       southwest:
         lat: 43.7237999
         lng: 7.4091049
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: MON
+  iso_long_name: The Principality of Monaco
+  iso_short_name: Monaco
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Monegasque
+  number: '492'
+  postal_code: true
+  postal_code_format: 980\d{2}
+  region: Europe
   start_of_week: monday
+  subregion: Western Europe
+  un_locode: MC
+  unofficial_names:
+  - Monaco
+  - Mónaco
+  - モナコ
+  world_region: EMEA

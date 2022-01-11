@@ -1,37 +1,14 @@
 ---
 CW:
-  continent: North America
   alpha2: CW
   alpha3: CUW
+  continent: North America
   country_code: '599'
-  international_prefix: '00'
-  ioc: 
+  currency_code: ANG
   gec: UC
-  name: Curaçao
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: '0'
-  number: '531'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: CW
-  nationality: Dutch
-  postal_code: false
-  unofficial_names:
-  - Curaçao
-  - キュラソー島
-  languages_official:
-  - nl
-  languages_spoken:
-  - nl
   geo:
     latitude: 12.16957
-    latitude_dec: '12.163220405578613'
     longitude: -68.99002
-    longitude_dec: "-68.94505310058594"
     max_latitude: 12.4941999
     max_longitude: -68.5670001
     min_latitude: 11.9224
@@ -43,5 +20,27 @@ CW:
       southwest:
         lat: 11.9224
         lng: -69.29899999999999
-  currency_code: ANG
+  international_prefix: '00'
+  ioc:
+  iso_long_name: The Country of Curaçao
+  iso_short_name: Curaçao
+  languages_official:
+  - nl
+  languages_spoken:
+  - nl
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: '0'
+  nationality: Dutch
+  number: '531'
+  postal_code: false
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: CW
+  unofficial_names:
+  - Curaçao
+  - キュラソー島
+  world_region: AMER

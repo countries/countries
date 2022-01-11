@@ -1,37 +1,14 @@
 ---
 TV:
-  continent: Australia
   alpha2: TV
   alpha3: TUV
+  continent: Australia
   country_code: '688'
-  international_prefix: '00'
-  ioc: TUV
+  currency_code: AUD
   gec: TV
-  name: Tuvalu
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 5
-  national_prefix: None
-  number: '798'
-  region: Oceania
-  subregion: Polynesia
-  world_region: APAC
-  un_locode: TV
-  nationality: Tuvaluan
-  postal_code: false
-  unofficial_names:
-  - Tuvalu
-  - ツバル
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: -7.109534999999999
-    latitude_dec: "-7.471305847167969"
     longitude: 177.64933
-    longitude_dec: '178.6740264892578'
     max_latitude: -5.4300853
     max_longitude: 179.9999999
     min_latitude: -11.1891797
@@ -43,5 +20,27 @@ TV:
       southwest:
         lat: -11.1891797
         lng: 175.5615234
-  currency_code: AUD
+  international_prefix: '00'
+  ioc: TUV
+  iso_long_name: Tuvalu
+  iso_short_name: Tuvalu
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 5
+  national_prefix: None
+  nationality: Tuvaluan
+  number: '798'
+  postal_code: false
+  region: Oceania
   start_of_week: monday
+  subregion: Polynesia
+  un_locode: TV
+  unofficial_names:
+  - Tuvalu
+  - ツバル
+  world_region: APAC

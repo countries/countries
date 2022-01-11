@@ -1,6 +1,5 @@
 ---
 BE:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,54 +7,15 @@ BE:
     {{country}}
   alpha2: BE
   alpha3: BEL
+  continent: Europe
   country_code: '32'
-  international_prefix: '00'
-  ioc: BEL
-  gec: BE
-  name: Belgium
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '056'
-  region: Europe
-  subregion: Western Europe
-  world_region: EMEA
-  un_locode: BE
-  nationality: Belgian
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 21
-    reduced:
-    - 6
-    - 12
-    super_reduced:
-    parking: 12
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Belgium
-  - Belgien
-  - Belgique
-  - Bélgica
-  - ベルギー
-  - België
-  languages_official:
-  - nl
-  - fr
-  - de
-  languages_spoken:
-  - nl
-  - fr
-  - de
+  eu_member: true
+  gec: BE
   geo:
     latitude: 50.503887
-    latitude_dec: '50.648963928222656'
     longitude: 4.469936
-    longitude_dec: '4.641502380371094'
     max_latitude: 51.5051449
     max_longitude: 6.408124099999999
     min_latitude: 49.497013
@@ -67,5 +27,44 @@ BE:
       southwest:
         lat: 49.497013
         lng: 2.5240999
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: BEL
+  iso_long_name: The Kingdom of Belgium
+  iso_short_name: Belgium
+  languages_official:
+  - nl
+  - fr
+  - de
+  languages_spoken:
+  - nl
+  - fr
+  - de
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Belgian
+  number: '056'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Europe
   start_of_week: monday
+  subregion: Western Europe
+  un_locode: BE
+  unofficial_names:
+  - Belgium
+  - Belgien
+  - Belgique
+  - Bélgica
+  - ベルギー
+  - België
+  vat_rates:
+    standard: 21
+    reduced:
+    - 6
+    - 12
+    super_reduced:
+    parking: 12
+  world_region: EMEA

@@ -101,7 +101,7 @@ describe ISO3166::Data do
     before do
       ISO3166::Data.register(
         alpha2: 'TW',
-        name: 'NEW Taiwan',
+        iso_short_name: 'NEW Taiwan',
         subdivisions: {
           CHA: { name: 'New Changhua' },
           CYI: { name: 'New Municipality' }
@@ -117,9 +117,9 @@ describe ISO3166::Data do
 
     it 'can be done' do
       data = ISO3166::Data.new('TW').call
-      ISO3166.configuration.locales = %i[es de en]
-      expect(data['name']).to eq 'NEW Taiwan'
-      expect(subject.name).to eq 'NEW Taiwan'
+      ISO3166.configuration.locales = [:es, :de, :de]
+      expect(data['iso_short_name']).to eq 'NEW Taiwan'
+      expect(subject.iso_short_name).to eq 'NEW Taiwan'
       expect(subject.translations).to eq('en' => 'NEW Taiwan',
                                          'de' => 'NEW Taiwan')
       expect(subject.subdivisions).to eq('CHA' => ISO3166::Subdivision.new({ name: 'New Changhua', code: 'CHA' }),
@@ -131,7 +131,7 @@ describe ISO3166::Data do
     before do
       ISO3166::Data.register(
         alpha2: 'LOL',
-        name: 'Happy Country',
+        iso_short_name: 'Happy Country',
         subdivisions: {
           LOL1: { name: 'Happy sub1' },
           LOL2: { name: 'Happy sub2' }
@@ -147,17 +147,17 @@ describe ISO3166::Data do
 
     it 'can be done' do
       data = ISO3166::Data.new('LOL').call
-      expect(data['name']).to eq 'Happy Country'
-      expect(subject.name).to eq 'Happy Country'
-      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({ name: 'Happy sub1', code: 'LOL1' }),
-                                         'LOL2' => ISO3166::Subdivision.new({ name: 'Happy sub2', code: 'LOL2' }))
+      expect(data['iso_short_name']).to eq 'Happy Country'
+      expect(subject.iso_short_name).to eq 'Happy Country'
+      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({name: 'Happy sub1', code: 'LOL1'}),
+                                         'LOL2' => ISO3166::Subdivision.new({name: 'Happy sub2', code: 'LOL2'}))
     end
 
     it 'detect a stale cache' do
-      ISO3166::Data.register(alpha2: 'SAD', name: 'Sad Country')
+      ISO3166::Data.register(alpha2: 'SAD', iso_short_name: 'Sad Country')
       data = ISO3166::Data.new('SAD').call
-      expect(data['name']).to eq 'Sad Country'
-      expect(ISO3166::Country.new('SAD').name).to eq 'Sad Country'
+      expect(data['iso_short_name']).to eq 'Sad Country'
+      expect(ISO3166::Country.new('SAD').iso_short_name).to eq 'Sad Country'
       ISO3166::Data.unregister('SAD')
     end
 

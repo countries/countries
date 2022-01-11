@@ -1,6 +1,5 @@
 ---
 LU:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,51 +7,15 @@ LU:
     {{country}}
   alpha2: LU
   alpha3: LUX
+  continent: Europe
   country_code: '352'
-  international_prefix: '00'
-  ioc: LUX
-  gec: LU
-  name: Luxembourg
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: None
-  number: '442'
-  region: Europe
-  subregion: Western Europe
-  world_region: EMEA
-  un_locode: LU
-  nationality: Luxembourger
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 17
-    reduced:
-    - 8
-    - 14
-    super_reduced: 3
-    parking: 12
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Luxembourg
-  - Luxemburg
-  - Luxemburgo
-  - ルクセンブルク
-  languages_official:
-  - fr
-  - de
-  - lb
-  languages_spoken:
-  - fr
-  - de
-  - lb
+  eu_member: true
+  gec: LU
   geo:
     latitude: 49.815273
-    latitude_dec: '49.77788162231445'
     longitude: 6.129582999999999
-    longitude_dec: '6.094746112823486'
     max_latitude: 50.18282
     max_longitude: 6.530970099999999
     min_latitude: 49.447779
@@ -64,5 +27,41 @@ LU:
       southwest:
         lat: 49.447779
         lng: 5.7356699
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: LUX
+  iso_long_name: The Grand Duchy of Luxembourg
+  iso_short_name: Luxembourg
+  languages_official:
+  - fr
+  - de
+  - lb
+  languages_spoken:
+  - fr
+  - de
+  - lb
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  nationality: Luxembourger
+  number: '442'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Europe
   start_of_week: monday
+  subregion: Western Europe
+  un_locode: LU
+  unofficial_names:
+  - Luxembourg
+  - Luxemburg
+  - Luxemburgo
+  - ルクセンブルク
+  vat_rates:
+    standard: 17
+    reduced:
+    - 8
+    - 14
+    super_reduced: 3
+    parking: 12
+  world_region: EMEA

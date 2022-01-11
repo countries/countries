@@ -2,6 +2,7 @@
 
 module Sources
   module Local
+    # Auxiliary Subdivision class to support loading the local subdivision data to be updated with Unicode CLDR data
     class Subdivision
       attr_reader :code
 

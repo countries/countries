@@ -1,42 +1,14 @@
 ---
 PK:
-  continent: Asia
   alpha2: PK
   alpha3: PAK
+  continent: Asia
   country_code: '92'
-  international_prefix: '00'
-  ioc: PAK
+  currency_code: PKR
   gec: PK
-  name: Pakistan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  - 10
-  national_prefix: '0'
-  number: '586'
-  region: Asia
-  subregion: Southern Asia
-  world_region: APAC
-  un_locode: PK
-  nationality: Pakistani
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Pakistan
-  - Paquistán
-  - パキスタン
-  languages_official:
-  - en
-  - ur
-  languages_spoken:
-  - en
-  - ur
   geo:
     latitude: 30.375321
-    latitude_dec: '29.923219680786133'
     longitude: 69.34511599999999
-    longitude_dec: '69.35774230957031'
     max_latitude: 37.0841069
     max_longitude: 77.8231711
     min_latitude: 23.6344999
@@ -48,5 +20,32 @@ PK:
       southwest:
         lat: 23.6344999
         lng: 60.8729721
-  currency_code: PKR
+  international_prefix: '00'
+  ioc: PAK
+  iso_long_name: The Islamic Republic of Pakistan
+  iso_short_name: Pakistan
+  languages_official:
+  - en
+  - ur
+  languages_spoken:
+  - en
+  - ur
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  - 10
+  national_prefix: '0'
+  nationality: Pakistani
+  number: '586'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Asia
   start_of_week: monday
+  subregion: Southern Asia
+  un_locode: PK
+  unofficial_names:
+  - Pakistan
+  - Paquistán
+  - パキスタン
+  world_region: APAC
