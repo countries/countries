@@ -42,7 +42,7 @@ TW:
   nationality: Taiwanese
   number: '158'
   postal_code: true
-  postal_code_format: "\\d{3}(?:\\d{2})?"
+  postal_code_format: "\\d{3}(?:\\d{2,3})?"
   region: Asia
   start_of_week: monday
   subregion: Eastern Asia
