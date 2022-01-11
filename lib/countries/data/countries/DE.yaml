@@ -1,6 +1,5 @@
 ---
 DE:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,51 +7,12 @@ DE:
     {{country}}
   alpha2: DE
   alpha3: DEU
+  continent: Europe
   country_code: '49'
-  international_prefix: '00'
-  ioc: GER
-  gec: GM
-  name: Germany
-  national_destination_code_lengths:
-  - 2
-  - 3
-  - 4
-  - 5
-  national_number_lengths:
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  national_prefix: '0'
-  number: '276'
-  region: Europe
-  subregion: Western Europe
-  world_region: EMEA
-  un_locode: DE
-  nationality: German
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 19
-    reduced:
-    - 7
-    super_reduced:
-    parking:
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Germany
-  - Deutschland
-  - Allemagne
-  - Alemania
-  - ドイツ
-  - Duitsland
-  languages_official:
-  - de
-  languages_spoken:
-  - de
+  eu_member: true
+  gec: GM
   geo:
     latitude: 51.165691
     longitude: 10.451526
@@ -67,5 +27,46 @@ DE:
       southwest:
         lat: 47.2701115
         lng: 5.8663425
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: GER
+  iso_long_name: The Federal Republic of Germany
+  iso_short_name: Germany
+  languages_official:
+  - de
+  languages_spoken:
+  - de
+  national_destination_code_lengths:
+  - 2
+  - 3
+  - 4
+  - 5
+  national_number_lengths:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  national_prefix: '0'
+  nationality: German
+  number: '276'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Europe
   start_of_week: monday
+  subregion: Western Europe
+  un_locode: DE
+  unofficial_names:
+  - Germany
+  - Deutschland
+  - Allemagne
+  - Alemania
+  - ドイツ
+  - Duitsland
+  vat_rates:
+    standard: 19
+    reduced:
+    - 7
+    super_reduced:
+    parking:
+  world_region: EMEA

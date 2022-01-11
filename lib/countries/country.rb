@@ -30,7 +30,6 @@ module ISO3166
     alias postal_code? postal_code
     alias zip_format postal_code_format
     alias languages languages_official
-    alias names unofficial_names
 
     def latitude_dec
       if RUBY_VERSION =~ /^3\.\d\.\d/
@@ -101,7 +100,7 @@ module ISO3166
     end
 
     def to_s
-      data['name']
+      data['iso_short_name']
     end
 
     def translated_names
@@ -110,6 +109,11 @@ module ISO3166
 
     def translation(locale = 'en')
       data['translations'][locale.to_s.downcase]
+    end
+
+    def common_name
+      ISO3166.configuration.locales = ISO3166.configuration.locales.append(:en).uniq
+      translation('en')
     end
 
     # TODO: Looping through locale langs could be be very slow across multiple countries
@@ -122,6 +126,24 @@ module ISO3166
 
     def local_name
       @local_name ||= local_names.first
+    end
+
+    def name
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1
+      end
+      iso_short_name
+    end
+
+    def names
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1
+      end
+      unofficial_names
     end
 
     def reload

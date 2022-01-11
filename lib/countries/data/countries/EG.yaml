@@ -1,6 +1,5 @@
 ---
 EG:
-  continent: Africa
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,36 +7,10 @@ EG:
     {{country}}
   alpha2: EG
   alpha3: EGY
+  continent: Africa
   country_code: '20'
-  international_prefix: '00'
-  ioc: EGY
+  currency_code: EGP
   gec: EG
-  name: Egypt
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '818'
-  region: Africa
-  subregion: Northern Africa
-  world_region: EMEA
-  un_locode: EG
-  nationality: Egyptian
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Egypt
-  - مصر
-  - Ägypten
-  - Égypte
-  - Egipto
-  - エジプト
-  - Egypte
-  languages_official:
-  - ar
-  languages_spoken:
-  - ar
   geo:
     latitude: 26.820553
     longitude: 30.802498
@@ -52,5 +25,33 @@ EG:
       southwest:
         lat: 21.9999999
         lng: 24.696775
-  currency_code: EGP
+  international_prefix: '00'
+  ioc: EGY
+  iso_long_name: The Arab Republic of Egypt
+  iso_short_name: Egypt
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: Egyptian
+  number: '818'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Africa
   start_of_week: sunday
+  subregion: Northern Africa
+  un_locode: EG
+  unofficial_names:
+  - Egypt
+  - مصر
+  - Ägypten
+  - Égypte
+  - Egipto
+  - エジプト
+  - Egypte
+  world_region: EMEA

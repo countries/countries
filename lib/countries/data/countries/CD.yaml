@@ -1,46 +1,11 @@
 ---
 CD:
-  continent: Africa
   alpha2: CD
   alpha3: COD
+  continent: Africa
   country_code: '243'
-  international_prefix: '00'
-  ioc: COD
+  currency_code: CDF
   gec: CG
-  name: Congo (Democratic Republic of the)
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '180'
-  region: Africa
-  subregion: Middle Africa
-  world_region: EMEA
-  un_locode: CD
-  nationality: Congolese
-  postal_code: false
-  unofficial_names:
-  - Congo (Dem. Rep.)
-  - Kongo (Dem. Rep.)
-  - Congo (Rep. Dem.)
-  - コンゴ民主共和国
-  - Congo [DRC]
-  - Congo (The Democratic Republic Of The)
-  - Democratic Republic of the Congo
-  - Congo, Democratic Republic of
-  languages_official:
-  - fr
-  - ln
-  - kg
-  - sw
-  - lu
-  languages_spoken:
-  - fr
-  - ln
-  - kg
-  - sw
-  - lu
   geo:
     latitude: -4.038333
     longitude: 21.758664
@@ -55,5 +20,41 @@ CD:
       southwest:
         lat: -13.4590349
         lng: 12.1454
-  currency_code: CDF
+  international_prefix: '00'
+  ioc: COD
+  iso_long_name: The Democratic Republic of the Congo
+  iso_short_name: Congo (Democratic Republic of the)
+  languages_official:
+  - fr
+  - ln
+  - kg
+  - sw
+  - lu
+  languages_spoken:
+  - fr
+  - ln
+  - kg
+  - sw
+  - lu
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Congolese
+  number: '180'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Middle Africa
+  un_locode: CD
+  unofficial_names:
+  - Congo (Dem. Rep.)
+  - Kongo (Dem. Rep.)
+  - Congo (Rep. Dem.)
+  - コンゴ民主共和国
+  - Congo [DRC]
+  - Congo (The Democratic Republic Of The)
+  - Democratic Republic of the Congo
+  - Congo, Democratic Republic of
+  world_region: EMEA

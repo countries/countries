@@ -1,37 +1,11 @@
 ---
 GN:
-  continent: Africa
   alpha2: GN
   alpha3: GIN
+  continent: Africa
   country_code: '224'
-  international_prefix: '00'
-  ioc: GUI
+  currency_code: GNF
   gec: GV
-  name: Guinea
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '324'
-  region: Africa
-  subregion: Western Africa
-  world_region: EMEA
-  un_locode: GN
-  nationality: Guinean
-  postal_code: true
-  postal_code_format: "\\d{3}"
-  unofficial_names:
-  - Guinea
-  - Guinée
-  - ギニア
-  - Guinee
-  languages_official:
-  - fr
-  - ff
-  languages_spoken:
-  - fr
-  - ff
   geo:
     latitude: 9.945587
     longitude: -9.696645
@@ -46,5 +20,32 @@ GN:
       southwest:
         lat: 7.190909099999999
         lng: -15.282
-  currency_code: GNF
+  international_prefix: '00'
+  ioc: GUI
+  iso_long_name: The Republic of Guinea
+  iso_short_name: Guinea
+  languages_official:
+  - fr
+  - ff
+  languages_spoken:
+  - fr
+  - ff
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Guinean
+  number: '324'
+  postal_code: true
+  postal_code_format: "\\d{3}"
+  region: Africa
   start_of_week: monday
+  subregion: Western Africa
+  un_locode: GN
+  unofficial_names:
+  - Guinea
+  - Guinée
+  - ギニア
+  - Guinee
+  world_region: EMEA
