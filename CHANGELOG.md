@@ -1,6 +1,7 @@
 # Change Log
+
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Future 5.0 release]
 
@@ -12,7 +13,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Missing update to cache files on release 4.2.0
 - Update postal code regexes from rake task [\#734 ](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
-
 
 ## [4.2.0](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 11:04 +00:00)
 

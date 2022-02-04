@@ -165,8 +165,8 @@ gem 'tzinfo', '~> 1.2', '>= 1.2.2'
 
 ```ruby
 c.timezones.zone_identifiers # => ["America/New_York", "America/Detroit", "America/Kentucky/Louisville", ...]
-c.timezones.zone_info  # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/CountryInfo)
-c.timezones # see [tzinfo docs]( http://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
+c.timezones.zone_info  # see [tzinfo docs](https://www.rubydoc.info/gems/tzinfo/TZInfo/CountryTimezone)
+c.timezones # see [tzinfo docs](https://www.rubydoc.info/gems/tzinfo/TZInfo/Country)
 ```
 
 ### Telephone Routing (E164)
@@ -240,7 +240,7 @@ c.currency.symbol # => '$'
 
 ## Address Formatting
 
-A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid](http://www.liquidmarkup.org/) template system.
+A template for formatting addresses is available through the address_format method. These templates are compatible with the [Liquid](https://shopify.github.io/liquid/) template system.
 
 ```ruby
 c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
