@@ -1,38 +1,14 @@
 ---
 NI:
-  continent: North America
   alpha2: NI
   alpha3: NIC
+  continent: North America
   country_code: '505'
-  international_prefix: '00'
-  ioc: NCA
+  currency_code: NIO
   gec: NU
-  name: Nicaragua
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '558'
-  region: Americas
-  subregion: Central America
-  world_region: AMER
-  un_locode: NI
-  nationality: Nicaraguan
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Nicaragua
-  - ニカラグア
-  languages_official:
-  - es
-  languages_spoken:
-  - es
   geo:
     latitude: 12.865416
-    latitude_dec: '12.903773307800293'
     longitude: -85.207229
-    longitude_dec: "-84.92182159423828"
     max_latitude: 15.0297369
     max_longitude: -82.2766
     min_latitude: 10.7080549
@@ -44,5 +20,28 @@ NI:
       southwest:
         lat: 10.7080549
         lng: -87.7588
-  currency_code: NIO
+  international_prefix: '00'
+  ioc: NCA
+  iso_long_name: The Republic of Nicaragua
+  iso_short_name: Nicaragua
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Nicaraguan
+  number: '558'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Americas
   start_of_week: monday
+  subregion: Central America
+  un_locode: NI
+  unofficial_names:
+  - Nicaragua
+  - ニカラグア
+  world_region: AMER

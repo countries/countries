@@ -1,47 +1,14 @@
 ---
 TH:
-  continent: Asia
   alpha2: TH
   alpha3: THA
+  continent: Asia
   country_code: '66'
-  international_prefix: '001'
-  ioc: THA
+  currency_code: THB
   gec: TH
-  name: Thailand
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  - 10
-  national_prefix: '0'
-  number: '764'
-  region: Asia
-  subregion: South-Eastern Asia
-  world_region: APAC
-  un_locode: TH
-  nationality: Thai
-  vat_rates:
-    standard: 7
-    reduced:
-    - 0
-    super_reduced: 
-    parking: 
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Thailand
-  - Thaïlande
-  - Tailandia
-  - タイ
-  languages_official:
-  - th
-  languages_spoken:
-  - th
   geo:
     latitude: 15.870032
-    latitude_dec: '14.48458194732666'
     longitude: 100.992541
-    longitude_dec: '100.85191345214844'
     max_latitude: 20.465143
     max_longitude: 105.636812
     min_latitude: 5.613038
@@ -53,5 +20,37 @@ TH:
       southwest:
         lat: 5.613038
         lng: 97.343396
-  currency_code: THB
+  international_prefix: '001'
+  ioc: THA
+  iso_long_name: The Kingdom of Thailand
+  iso_short_name: Thailand
+  languages_official:
+  - th
+  languages_spoken:
+  - th
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  - 10
+  national_prefix: '0'
+  nationality: Thai
+  number: '764'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Asia
   start_of_week: monday
+  subregion: South-Eastern Asia
+  un_locode: TH
+  unofficial_names:
+  - Thailand
+  - Thaïlande
+  - Tailandia
+  - タイ
+  vat_rates:
+    standard: 7
+    reduced:
+    - 0
+    super_reduced:
+    parking:
+  world_region: APAC

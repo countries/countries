@@ -1,45 +1,14 @@
 ---
 AZ:
-  continent: Asia
   alpha2: AZ
   alpha3: AZE
+  continent: Asia
   country_code: '994'
-  international_prefix: '810'
-  ioc: AZE
+  currency_code: AZN
   gec: AJ
-  name: Azerbaijan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '8'
-  number: '031'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: AZ
-  nationality: Azerbaijani
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Azerbaijan
-  - Aserbaidschan
-  - Azerbaïdjan
-  - Azerbaiyán
-  - アゼルバイジャン
-  - Azerbeidzjan
-  languages_official:
-  - az
-  - hy
-  languages_spoken:
-  - az
-  - hy
   geo:
     latitude: 40.143105
-    latitude_dec: '40.33100509643555'
     longitude: 47.576927
-    longitude_dec: '47.80820083618164'
     max_latitude: 41.9594999
     max_longitude: 50.7458001
     min_latitude: 38.3922171
@@ -51,5 +20,35 @@ AZ:
       southwest:
         lat: 38.3922171
         lng: 44.7632599
-  currency_code: AZN
+  international_prefix: '810'
+  ioc: AZE
+  iso_long_name: The Republic of Azerbaijan
+  iso_short_name: Azerbaijan
+  languages_official:
+  - az
+  - hy
+  languages_spoken:
+  - az
+  - hy
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '8'
+  nationality: Azerbaijani
+  number: '031'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Asia
   start_of_week: monday
+  subregion: Western Asia
+  un_locode: AZ
+  unofficial_names:
+  - Azerbaijan
+  - Aserbaidschan
+  - Azerbaïdjan
+  - Azerbaiyán
+  - アゼルバイジャン
+  - Azerbeidzjan
+  world_region: EMEA

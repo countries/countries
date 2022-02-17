@@ -1,40 +1,14 @@
 ---
 PY:
-  continent: South America
   alpha2: PY
   alpha3: PRY
+  continent: South America
   country_code: '595'
-  international_prefix: '002'
-  ioc: PAR
+  currency_code: PYG
   gec: PA
-  name: Paraguay
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '600'
-  region: Americas
-  subregion: South America
-  world_region: AMER
-  un_locode: PY
-  nationality: Paraguayan
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Paraguay
-  - パラグアイ
-  languages_official:
-  - es
-  - gn
-  languages_spoken:
-  - es
-  - gn
   geo:
     latitude: -23.442503
-    latitude_dec: "-23.24028968811035"
     longitude: -58.443832
-    longitude_dec: "-58.395172119140625"
     max_latitude: -19.2876589
     max_longitude: -54.258562
     min_latitude: -27.5817594
@@ -46,5 +20,30 @@ PY:
       southwest:
         lat: -27.5817594
         lng: -62.63895230000001
-  currency_code: PYG
+  international_prefix: '002'
+  ioc: PAR
+  iso_long_name: The Republic of Paraguay
+  iso_short_name: Paraguay
+  languages_official:
+  - es
+  - gn
+  languages_spoken:
+  - es
+  - gn
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: Paraguayan
+  number: '600'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Americas
   start_of_week: monday
+  subregion: South America
+  un_locode: PY
+  unofficial_names:
+  - Paraguay
+  - パラグアイ
+  world_region: AMER

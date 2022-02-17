@@ -1,6 +1,5 @@
 ---
 CN:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,41 +7,13 @@ CN:
     {{country}}
   alpha2: CN
   alpha3: CHN
+  continent: Asia
   country_code: '86'
-  international_prefix: '00'
-  ioc: CHN
+  currency_code: CNY
   gec: CH
-  name: China
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  national_prefix: '0'
-  number: '156'
-  region: Asia
-  subregion: Eastern Asia
-  world_region: APAC
-  un_locode: CN
-  nationality: Chinese
-  postal_code: true
-  postal_code_format: "\\d{6}"
-  unofficial_names:
-  - China
-  - Chine
-  - 中国
-  languages_official:
-  - zh
-  languages_spoken:
-  - zh
   geo:
     latitude: 35.86166
-    latitude_dec: '36.55308532714844'
     longitude: 104.195397
-    longitude_dec: '103.97543334960938'
     max_latitude: 53.5609739
     max_longitude: 134.7754563
     min_latitude: 17.9996
@@ -54,5 +25,33 @@ CN:
       southwest:
         lat: 17.9996
         lng: 73.4994136
-  currency_code: CNY
+  international_prefix: '00'
+  ioc: CHN
+  iso_long_name: The People's Republic of China
+  iso_short_name: China
+  languages_official:
+  - zh
+  languages_spoken:
+  - zh
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  national_prefix: '0'
+  nationality: Chinese
+  number: '156'
+  postal_code: true
+  postal_code_format: "\\d{6}"
+  region: Asia
   start_of_week: monday
+  subregion: Eastern Asia
+  un_locode: CN
+  unofficial_names:
+  - China
+  - Chine
+  - 中国
+  world_region: APAC

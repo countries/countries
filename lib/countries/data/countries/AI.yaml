@@ -1,39 +1,14 @@
 ---
 AI:
-  continent: North America
   alpha2: AI
   alpha3: AIA
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1264'
-  international_prefix: '011'
-  ioc: 
+  currency_code: XCD
   gec: AV
-  name: Anguilla
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '660'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: AI
-  nationality: Anguillian
-  postal_code: true
-  postal_code_format: "(?:AI-)?2640"
-  unofficial_names:
-  - Anguilla
-  - アンギラ
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 18.220554
-    latitude_dec: '18.22646713256836'
     longitude: -63.06861499999999
-    longitude_dec: "-63.0473518371582"
     max_latitude: 18.6332326
     max_longitude: -62.91999999999999
     min_latitude: 18.1465043
@@ -45,5 +20,29 @@ AI:
       southwest:
         lat: 18.1465043
         lng: -63.4803
-  currency_code: XCD
+  international_prefix: '011'
+  ioc:
+  iso_long_name: Anguilla
+  iso_short_name: Anguilla
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  nanp_prefix: '1264'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Anguillian
+  number: '660'
+  postal_code: true
+  postal_code_format: "(?:AI-)?2640"
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: AI
+  unofficial_names:
+  - Anguilla
+  - アンギラ
+  world_region: AMER

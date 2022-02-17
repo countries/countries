@@ -1,40 +1,14 @@
 ---
 TF:
-  continent: Antarctica
   alpha2: TF
   alpha3: ATF
+  continent: Africa
   country_code: '262'
-  international_prefix: ''
-  ioc: 
+  currency_code: EUR
   gec: FS
-  name: French Southern Territories
-  national_destination_code_lengths: []
-  national_number_lengths: []
-  national_prefix: ''
-  number: '260'
-  region: ''
-  subregion: ''
-  un_locode: TF
-  nationality: French
-  postal_code: false
-  world_region: APAC
-  unofficial_names:
-  - French Southern Territories
-  - Französische Süd- und Antarktisgebiete
-  - Terres Australes Françaises
-  - Territorios Franceses del Sur
-  - フランス領南方・南極地域
-  - Franse Gebieden in de zuidelijke Indische Oceaan
-  - French Southern and Antarctic Lands
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: -49.280366
-    latitude_dec: "-49.563865661621094"
     longitude: 69.3485571
-    longitude_dec: '69.54277801513672'
     max_latitude: -45.7567331
     max_longitude: 70.6558228
     min_latitude: -50.0641918
@@ -46,5 +20,30 @@ TF:
       southwest:
         lat: -50.0641918
         lng: 49.8519168
-  currency_code: EUR
+  international_prefix: ''
+  ioc:
+  iso_long_name: The French Southern and Antarctic Lands
+  iso_short_name: French Southern Territories
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths: []
+  national_number_lengths: []
+  national_prefix: ''
+  nationality: French
+  number: '260'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: TF
+  unofficial_names:
+  - French Southern Territories
+  - Französische Süd- und Antarktisgebiete
+  - Terres Australes Françaises
+  - Territorios Franceses del Sur
+  - フランス領南方・南極地域
+  - Franse Gebieden in de zuidelijke Indische Oceaan
+  - French Southern and Antarctic Lands
+  world_region: EMEA

@@ -1,42 +1,14 @@
 ---
 DO:
-  continent: North America
   alpha2: DO
   alpha3: DOM
+  continent: North America
   country_code: '1'
-  international_prefix: '011'
-  ioc: DOM
+  currency_code: DOP
   gec: DR
-  name: Dominican Republic
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '214'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: DO
-  nationality: Dominican
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Dominican Republic
-  - Dominikanische Republik
-  - République Dominicaine
-  - República Dominicana
-  - ドミニカ共和国
-  - Dominicaanse Republiek
-  languages_official:
-  - es
-  languages_spoken:
-  - es
   geo:
     latitude: 18.735693
-    latitude_dec: '19.019824981689453'
     longitude: -70.162651
-    longitude_dec: "-70.79285430908203"
     max_latitude: 19.9786989
     max_longitude: -68.25260010000001
     min_latitude: 17.3611001
@@ -48,5 +20,32 @@ DO:
       southwest:
         lat: 17.3611001
         lng: -72.0075099
-  currency_code: DOP
+  international_prefix: '011'
+  ioc: DOM
+  iso_long_name: The Dominican Republic
+  iso_short_name: Dominican Republic
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Dominican
+  number: '214'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: DO
+  unofficial_names:
+  - Dominican Republic
+  - Dominikanische Republik
+  - République Dominicaine
+  - República Dominicana
+  - ドミニカ共和国
+  - Dominicaanse Republiek
+  world_region: AMER

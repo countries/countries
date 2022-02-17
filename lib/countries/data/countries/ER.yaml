@@ -1,43 +1,14 @@
 ---
 ER:
-  continent: Africa
   alpha2: ER
   alpha3: ERI
+  continent: Africa
   country_code: '291'
-  international_prefix: '00'
-  ioc: ERI
+  currency_code: ETB
   gec: ER
-  name: Eritrea
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: '0'
-  number: '232'
-  region: Africa
-  subregion: Eastern Africa
-  world_region: EMEA
-  un_locode: ER
-  nationality: Eritrean
-  postal_code: false
-  unofficial_names:
-  - Eritrea
-  - إريتريا
-  - Érythrée
-  - エリトリア
-  languages_official:
-  - en
-  - ar
-  - ti
-  languages_spoken:
-  - en
-  - ar
-  - ti
   geo:
     latitude: 15.179384
-    latitude_dec: '15.397199630737305'
     longitude: 39.782334
-    longitude_dec: '39.087188720703125'
     max_latitude: 18.0204137
     max_longitude: 43.2312
     min_latitude: 12.354723
@@ -49,5 +20,33 @@ ER:
       southwest:
         lat: 12.354723
         lng: 36.433348
-  currency_code: ETB
+  international_prefix: '00'
+  ioc: ERI
+  iso_long_name: The State of Eritrea
+  iso_short_name: Eritrea
+  languages_official:
+  - en
+  - ar
+  - ti
+  languages_spoken:
+  - en
+  - ar
+  - ti
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: '0'
+  nationality: Eritrean
+  number: '232'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: ER
+  unofficial_names:
+  - Eritrea
+  - إريتريا
+  - Érythrée
+  - エリトリア
+  world_region: EMEA

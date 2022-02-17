@@ -1,6 +1,5 @@
 ---
 ES:
-  continent: Europe
   address_format: |-
     {{recipient}}
     {{street}}
@@ -9,48 +8,15 @@ ES:
     {{country}}
   alpha2: ES
   alpha3: ESP
+  continent: Europe
   country_code: '34'
-  international_prefix: '00'
-  ioc: ESP
-  gec: SP
-  name: Spain
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: None
-  number: '724'
-  region: Europe
-  subregion: Southern Europe
-  world_region: EMEA
-  un_locode: ES
-  nationality: Spanish
-  eu_member: true
+  currency_code: EUR
   eea_member: true
-  vat_rates:
-    standard: 21
-    reduced:
-    - 10
-    super_reduced: 4
-    parking:
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Spain
-  - Spanien
-  - Espagne
-  - España
-  - スペイン
-  - Spanje
-  languages_official:
-  - es
-  languages_spoken:
-  - es
+  eu_member: true
+  gec: SP
   geo:
     latitude: 40.46366700000001
-    latitude_dec: '40.396026611328125'
     longitude: -3.74922
-    longitude_dec: "-3.550692558288574"
     max_latitude: 43.8504
     max_longitude: 4.6362
     min_latitude: 27.4985
@@ -62,5 +28,38 @@ ES:
       southwest:
         lat: 27.4985
         lng: -18.2648001
-  currency_code: EUR
+  international_prefix: '00'
+  ioc: ESP
+  iso_long_name: The Kingdom of Spain
+  iso_short_name: Spain
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: None
+  nationality: Spanish
+  number: '724'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Europe
   start_of_week: monday
+  subregion: Southern Europe
+  un_locode: ES
+  unofficial_names:
+  - Spain
+  - Spanien
+  - Espagne
+  - España
+  - スペイン
+  - Spanje
+  vat_rates:
+    standard: 21
+    reduced:
+    - 10
+    super_reduced: 4
+    parking:
+  world_region: EMEA

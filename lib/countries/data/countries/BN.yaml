@@ -1,38 +1,14 @@
 ---
 BN:
-  continent: Asia
   alpha2: BN
   alpha3: BRN
+  continent: Asia
   country_code: '673'
-  international_prefix: '00'
-  ioc: BRU
+  currency_code: BND
   gec: BX
-  name: Brunei Darussalam
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: '0'
-  number: '096'
-  region: Asia
-  subregion: South-Eastern Asia
-  world_region: APAC
-  un_locode: BN
-  nationality: Bruneian
-  postal_code: true
-  postal_code_format: "[A-Z]{2} ?\\d{4}"
-  unofficial_names:
-  - Brunei
-  - ブルネイ・ダルサラーム
-  languages_official:
-  - ms
-  languages_spoken:
-  - ms
   geo:
     latitude: 4.535277
-    latitude_dec: '4.5703840255737305'
     longitude: 114.727669
-    longitude_dec: '114.74818420410156'
     max_latitude: 5.0978001
     max_longitude: 115.3639552
     min_latitude: 4.002460999999999
@@ -44,5 +20,28 @@ BN:
       southwest:
         lat: 4.002460999999999
         lng: 114.0752
-  currency_code: BND
+  international_prefix: '00'
+  ioc: BRU
+  iso_long_name: The Nation of Brunei, the Abode of Peace
+  iso_short_name: Brunei Darussalam
+  languages_official:
+  - ms
+  languages_spoken:
+  - ms
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: '0'
+  nationality: Bruneian
+  number: '096'
+  postal_code: true
+  postal_code_format: "[A-Z]{2} ?\\d{4}"
+  region: Asia
   start_of_week: monday
+  subregion: South-Eastern Asia
+  un_locode: BN
+  unofficial_names:
+  - Brunei
+  - ブルネイ・ダルサラーム
+  world_region: APAC

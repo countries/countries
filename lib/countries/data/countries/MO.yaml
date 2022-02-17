@@ -1,40 +1,14 @@
 ---
 MO:
-  continent: Asia
   alpha2: MO
   alpha3: MAC
+  continent: Asia
   country_code: '853'
-  international_prefix: '00'
-  ioc: 
+  currency_code: MOP
   gec: MC
-  name: Macao
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '0'
-  number: '446'
-  region: Asia
-  subregion: Eastern Asia
-  world_region: APAC
-  un_locode: MO
-  nationality: Chinese
-  postal_code: false
-  unofficial_names:
-  - Macao
-  - Macau
-  - マカオ
-  languages_official:
-  - zh
-  - pt
-  languages_spoken:
-  - zh
-  - pt
   geo:
     latitude: 22.198745
-    latitude_dec: '22.140748977661133'
     longitude: 113.543873
-    longitude_dec: '113.56034088134766'
     max_latitude: 22.2170639
     max_longitude: 113.6127001
     min_latitude: 22.1066001
@@ -46,5 +20,30 @@ MO:
       southwest:
         lat: 22.1066001
         lng: 113.5276053
-  currency_code: MOP
+  international_prefix: '00'
+  ioc:
+  iso_long_name: The Macao Special Administrative Region of China
+  iso_short_name: Macao
+  languages_official:
+  - zh
+  - pt
+  languages_spoken:
+  - zh
+  - pt
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  nationality: Chinese
+  number: '446'
+  postal_code: false
+  region: Asia
   start_of_week: monday
+  subregion: Eastern Asia
+  un_locode: MO
+  unofficial_names:
+  - Macao
+  - Macau
+  - マカオ
+  world_region: APAC

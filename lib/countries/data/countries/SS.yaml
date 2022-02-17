@@ -1,41 +1,14 @@
 ---
 SS:
-  continent: Africa
   alpha2: SS
   alpha3: SSD
+  continent: Africa
   country_code: '211'
-  international_prefix: '0'
-  ioc: 
+  currency_code: SSP
   gec: OD
-  name: South Sudan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '728'
-  region: Africa
-  subregion: Northern Africa
-  world_region: EMEA
-  un_locode: SS
-  nationality: South Sudanese
-  postal_code: false
-  unofficial_names:
-  - South Sudan
-  - Südsudan
-  - 南スーダン
-  - Zuid-Soedan
-  languages_official:
-  - ar
-  - en
-  languages_spoken:
-  - ar
-  - en
   geo:
     latitude: 6.876991899999999
-    latitude_dec: '7.303858280181885'
     longitude: 31.3069788
-    longitude_dec: '30.280752182006836'
     max_latitude: 12.236389
     max_longitude: 35.9489971
     min_latitude: 3.48898
@@ -47,5 +20,31 @@ SS:
       southwest:
         lat: 3.48898
         lng: 23.4408491
-  currency_code: SSP
+  international_prefix: '0'
+  ioc:
+  iso_long_name: The Republic of South Sudan
+  iso_short_name: South Sudan
+  languages_official:
+  - ar
+  - en
+  languages_spoken:
+  - ar
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: South Sudanese
+  number: '728'
+  postal_code: false
+  region: Africa
   start_of_week: sunday
+  subregion: Northern Africa
+  un_locode: SS
+  unofficial_names:
+  - South Sudan
+  - Südsudan
+  - 南スーダン
+  - Zuid-Soedan
+  world_region: EMEA

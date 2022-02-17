@@ -1,45 +1,15 @@
 ---
 TJ:
-  continent: Asia
   alpha2: TJ
   alpha3: TJK
   alt_currency: RUB
+  continent: Asia
   country_code: '992'
-  international_prefix: '810'
-  ioc: TJK
+  currency_code: TJS
   gec: TI
-  name: Tajikistan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '8'
-  number: '762'
-  region: Asia
-  subregion: Central Asia
-  world_region: EMEA
-  un_locode: TJ
-  nationality: Tadzhik
-  postal_code: true
-  postal_code_format: "\\d{6}"
-  unofficial_names:
-  - Tajikistan
-  - Tadschikistan
-  - Tayikistán
-  - タジキスタン
-  - Tadzjikistan
-  - Tajikstan
-  languages_official:
-  - tg
-  - ru
-  languages_spoken:
-  - tg
-  - ru
   geo:
     latitude: 38.861034
-    latitude_dec: '38.879764556884766'
     longitude: 71.276093
-    longitude_dec: '70.89906311035156'
     max_latitude: 41.044367
     max_longitude: 75.1539564
     min_latitude: 36.6719898
@@ -51,5 +21,34 @@ TJ:
       southwest:
         lat: 36.6719898
         lng: 67.34201209999999
-  currency_code: TJS
+  international_prefix: '810'
+  ioc: TJK
+  iso_long_name: The Republic of Tajikistan
+  iso_short_name: Tajikistan
+  languages_official:
+  - tg
+  - ru
+  languages_spoken:
+  - tg
+  - ru
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '8'
+  nationality: Tadzhik
+  number: '762'
+  postal_code: true
+  postal_code_format: "\\d{6}"
+  region: Asia
   start_of_week: monday
+  subregion: Central Asia
+  un_locode: TJ
+  unofficial_names:
+  - Tajikistan
+  - Tadschikistan
+  - Tayikistán
+  - タジキスタン
+  - Tadzjikistan
+  - Tajikstan
+  world_region: EMEA

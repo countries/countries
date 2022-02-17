@@ -1,40 +1,14 @@
 ---
 JM:
-  continent: North America
   alpha2: JM
   alpha3: JAM
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1876'
-  international_prefix: '011'
-  ioc: JAM
+  currency_code: JMD
   gec: JM
-  name: Jamaica
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '388'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: JM
-  nationality: Jamaican
-  postal_code: false
-  unofficial_names:
-  - Jamaica
-  - Jamaika
-  - Jamaïque
-  - ジャマイカ
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 18.109581
-    latitude_dec: '18.143444061279297'
     longitude: -77.297508
-    longitude_dec: "-77.34654998779297"
     max_latitude: 18.5697821
     max_longitude: -76.1448669
     min_latitude: 17.6688854
@@ -46,5 +20,30 @@ JM:
       southwest:
         lat: 17.6688854
         lng: -78.4073639
-  currency_code: JMD
+  international_prefix: '011'
+  ioc: JAM
+  iso_long_name: Jamaica
+  iso_short_name: Jamaica
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  nanp_prefix: '1876'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Jamaican
+  number: '388'
+  postal_code: false
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: JM
+  unofficial_names:
+  - Jamaica
+  - Jamaika
+  - Jamaïque
+  - ジャマイカ
+  world_region: AMER

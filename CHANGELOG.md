@@ -1,8 +1,99 @@
 # Change Log
-All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](https://semver.org/).
+
+## [Future 5.0 release]
+
+**Breaking Changes**
+
+- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+
+## [4.2.2](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/02/17 13:52 +00:00)
+
+**IMPORTANT NOTE: This should be be the last release of the 4.x series, and the last one to support Ruby 2.5 and 2.6**
+
+**Merged pull requests:**
+
+* http:// -> https:// by [\#737](https://github.com/countries/countries/pull/737) ([biow0lf](https://github.com/biow0lf))
+* Update AE start_of_week to monday. [\#739](https://github.com/countries/countries/pull/739) ([pmor](https://github.com/pmor))
+* Fix Subdivision data by [\#740](https://github.com/countries/countries/pull/740) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Change on UAE Value.start_of_week [\#738](https://github.com/countries/countries/issues/738)
+
+
+**Full Changelog**: https://github.com/countries/countries/compare/v4.2.1...v4.2.2
+
+## [4.2.1](https://github.com/countries/countries/releases/tag/v4.2.1) (2022/01/11 12:39 +00:00)
+
+- Missing update to cache files on release 4.2.0
+- Update postal code regexes from rake task [\#734](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
+
+## [4.2.0](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 11:04 +00:00)
+
+**Deprecations**
+
+- `Country#name`, `Country#names` and the finders using these attributes. See README ('Upgrading to 4.2 and 5.x')
+- `latitude_dec` and `longitude_dec` attributes
+
+**Merged pull requests:**
+
+* Name methods refactor [\#717](https://github.com/countries/countries/pull/717) ([pmor](https://github.com/pmor))
+* Remove non-ISO US subdivisions [\#720](https://github.com/countries/countries/pull/720) ([pmor](https://github.com/pmor))
+* Update MK subdivisions [\#721](https://github.com/countries/countries/pull/721) ([pmor](https://github.com/pmor))
+* Update Kenya subdivision data [\#722](https://github.com/countries/countries/pull/722) ([pmor](https://github.com/pmor))
+* Fix French Southern Territories continent and region data [\#725](https://github.com/countries/countries/pull/725) ([pmor](https://github.com/pmor))
+* Fix SG subdivision data [\#726](https://github.com/countries/countries/pull/726) ([pmor](https://github.com/pmor))
+* Remove FO subdivisions [\#727](https://github.com/countries/countries/pull/727) ([pmor](https://github.com/pmor))
+* JE and IM currencies should be GBP [\#728](https://github.com/countries/countries/pull/728) ([pmor](https://github.com/pmor))
+* Fix US translations in nb and no locales [\#729](https://github.com/countries/countries/pull/729) ([pmor](https://github.com/pmor))
+* Missing alternative names for GB and US [\#724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
+* Deprecate latitude_dec and longitude_dec, delegate to latitude [\#723](https://github.com/countries/countries/pull/#723) ([pmor](https://github.com/pmor)
+* add VAT for Israel and Saudi Arabia [\#730](https://github.com/countries/countries/pull/#723) ([Venca24](https://github.com/Venca24)
+* Remove non-ISO KY subdivisions [\#731](https://github.com/countries/countries/pull/731) ([pmor](https://github.com/pmor))
+* Fix duplicated translations of CZ-10 subdivision [\#733](https://github.com/countries/countries/pull/733) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Update Kenya subdivisions/states [\#318](https://github.com/countries/countries/issues/318)
+* North Macedonia updates (2020-03-02) [\#674](https://github.com/countries/countries/issues/674)
+* Singapore wrong subdivision codes (SG-SG-0x) [\#663](https://github.com/countries/countries/issues/663)
+* Remove Faroe Islands subdivisions [\#606](https://github.com/countries/countries/issues/606)
+* Jersey uses GBP instead of JEP currency [\#492](https://github.com/countries/countries/issues/492)
+* USA in Norwegian translation should be 'USA' instead of 'De forente stater' [\#564](https://github.com/countries/countries/issues/564)
+* Geographic bounds for UK includes all of Europe [\#535](https://github.com/countries/countries/issues/535)
+* Wrong min_longitude for United States of America? [\#698](https://github.com/countries/countries/issues/698)
+* Translations for CZ-10 are defined twice [\#732](https://github.com/countries/countries/issues/732)
+
+
+## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
+
+**Merged pull requests:**
+
+* Fix empty translations in LV subdivisions [\#719](https://github.com/countries/countries/pull/719) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Subdivision translations for some latvian subdivisions nil in countries 4.1.2 [\#718](https://github.com/countries/countries/issues/718)
+
+## [4.1.2](https://github.com/countries/countries/releases/tag/v4.1.2) (2021/12/20 17:06 +00:00)
+
+**Merged pull requests:**
+
+* Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
+* Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
+* Update NZ subdivision data and fix Chatham Island entry [\#712](https://github.com/countries/countries/pull/712) ([pmor](https://github.com/pmor))
+* Update translation corrections for Occitan.[\#713](https://github.com/countries/countries/pull/713) ([pmor](https://github.com/pmor))
+* Update i18n_data to 0.15.0 [\#715](https://github.com/countries/countries/pull/715) ([pmor](https://github.com/pmor))
+
+## [4.1.1](https://github.com/countries/countries/releases/tag/v4.1.1) (2021/12/06 13:31 +00:00)
+
+**Merged pull requests:**
+
+* Fix ISO3166::Country respond_to_missing? [\#625](https://github.com/countries/countries/pull/625) ([biinari](https://github.com/biinari))
+* Revert subdivision changes to NO.yaml [\#709](https://github.com/countries/countries/pull/709) ([pmor](https://github.com/pmor))
 
 ## [4.1.0](https://github.com/countries/countries/releases/tag/v4.1.0) (2021/11/30 09:44 +00:00)
 
@@ -39,6 +130,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
 
 [Full changelog](https://github.com/countries/countries/compare/v3.1.0...v4.0.0)
+
+**Breaking changes:**
+
+  - None
 
 **Closed issues:**
 

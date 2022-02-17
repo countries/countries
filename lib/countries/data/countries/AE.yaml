@@ -1,6 +1,5 @@
 ---
 AE:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,47 +7,13 @@ AE:
     {{country}}
   alpha2: AE
   alpha3: ARE
+  continent: Asia
   country_code: '971'
-  international_prefix: '00'
-  ioc: UAE
+  currency_code: AED
   gec: AE
-  name: United Arab Emirates
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '784'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: AE
-  nationality: Emirian
-  vat_rates:
-    standard: 5
-    reduced: []
-    super_reduced: 
-    parking: 
-  postal_code: false
-  unofficial_names:
-  - United Arab Emirates
-  - الإمارات العربية المتحدة
-  - Vereinigte Arabische Emirate
-  - Émirats Arabes Unis
-  - Emiratos Árabes Unidos
-  - アラブ首長国連邦
-  - Verenigde Arabische Emiraten
-  languages_official:
-  - ar
-  languages_spoken:
-  - ar
   geo:
     latitude: 23.424076
-    latitude_dec: '23.684776306152344'
     longitude: 53.847818
-    longitude_dec: '54.536643981933594'
     max_latitude: 26.0765
     max_longitude: 56.4395001
     min_latitude: 22.6315138
@@ -60,5 +25,39 @@ AE:
       southwest:
         lat: 22.6315138
         lng: 51.4723
-  currency_code: AED
-  start_of_week: sunday
+  international_prefix: '00'
+  ioc: UAE
+  iso_long_name: The United Arab Emirates
+  iso_short_name: United Arab Emirates
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Emirian
+  number: '784'
+  postal_code: false
+  region: Asia
+  start_of_week: monday
+  subregion: Western Asia
+  un_locode: AE
+  unofficial_names:
+  - United Arab Emirates
+  - الإمارات العربية المتحدة
+  - Vereinigte Arabische Emirate
+  - Émirats Arabes Unis
+  - Emiratos Árabes Unidos
+  - アラブ首長国連邦
+  - Verenigde Arabische Emiraten
+  vat_rates:
+    standard: 5
+    reduced: []
+    super_reduced:
+    parking:
+  world_region: EMEA

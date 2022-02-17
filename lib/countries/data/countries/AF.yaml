@@ -1,44 +1,14 @@
 ---
 AF:
-  continent: Asia
   alpha2: AF
   alpha3: AFG
+  continent: Asia
   country_code: '93'
-  international_prefix: '00'
-  ioc: AFG
+  currency_code: AFN
   gec: AF
-  name: Afghanistan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '004'
-  region: Asia
-  subregion: Southern Asia
-  world_region: APAC
-  un_locode: AF
-  nationality: Afghan
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Afghanistan
-  - Afganistán
-  - アフガニスタン
-  languages_official:
-  - ps
-  - uz
-  - tk
-  languages_spoken:
-  - ps
-  - uz
-  - tk
   geo:
     latitude: 33.93911
-    latitude_dec: '33.833248138427734'
     longitude: 67.709953
-    longitude_dec: '66.02528381347656'
     max_latitude: 38.49087670000001
     max_longitude: 74.8898619
     min_latitude: 29.3772
@@ -50,5 +20,34 @@ AF:
       southwest:
         lat: 29.3772
         lng: 60.5170005
-  currency_code: AFN
+  international_prefix: '00'
+  ioc: AFG
+  iso_long_name: The Islamic Republic of Afghanistan
+  iso_short_name: Afghanistan
+  languages_official:
+  - ps
+  - uz
+  - tk
+  languages_spoken:
+  - ps
+  - uz
+  - tk
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Afghan
+  number: '004'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Asia
   start_of_week: monday
+  subregion: Southern Asia
+  un_locode: AF
+  unofficial_names:
+  - Afghanistan
+  - Afganistán
+  - アフガニスタン
+  world_region: APAC

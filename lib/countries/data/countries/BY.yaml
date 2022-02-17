@@ -1,45 +1,14 @@
 ---
 BY:
-  continent: Europe
   alpha2: BY
   alpha3: BLR
+  continent: Europe
   country_code: '375'
-  international_prefix: '810'
-  ioc: BLR
+  currency_code: BYN
   gec: BO
-  name: Belarus
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '8'
-  number: '112'
-  region: Europe
-  subregion: Eastern Europe
-  world_region: EMEA
-  un_locode: BY
-  nationality: Belarusian
-  postal_code: true
-  postal_code_format: "\\d{6}"
-  unofficial_names:
-  - Belarus
-  - Weißrussland
-  - Biélorussie
-  - Bielorrusia
-  - ベラルーシ
-  - Wit-Rusland
-  - Беларусь
-  languages_official:
-  - be
-  - ru
-  languages_spoken:
-  - be
-  - ru
   geo:
     latitude: 53.709807
-    latitude_dec: '53.54347229003906'
     longitude: 27.953389
-    longitude_dec: '28.054094314575195'
     max_latitude: 56.1718719
     max_longitude: 32.7768202
     min_latitude: 51.26201100000001
@@ -51,5 +20,35 @@ BY:
       southwest:
         lat: 51.26201100000001
         lng: 23.1783377
-  currency_code: BYN
+  international_prefix: '810'
+  ioc: BLR
+  iso_long_name: The Republic of Belarus
+  iso_short_name: Belarus
+  languages_official:
+  - be
+  - ru
+  languages_spoken:
+  - be
+  - ru
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '8'
+  nationality: Belarusian
+  number: '112'
+  postal_code: true
+  postal_code_format: "\\d{6}"
+  region: Europe
   start_of_week: monday
+  subregion: Eastern Europe
+  un_locode: BY
+  unofficial_names:
+  - Belarus
+  - Weißrussland
+  - Biélorussie
+  - Bielorrusia
+  - ベラルーシ
+  - Wit-Rusland
+  - Беларусь
+  world_region: EMEA

@@ -1,6 +1,5 @@
 ---
 TW:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,38 +7,13 @@ TW:
     {{country}}
   alpha2: TW
   alpha3: TWN
+  continent: Asia
   country_code: '886'
-  international_prefix: '002'
-  ioc: TPE
+  currency_code: TWD
   gec: TW
-  name: Taiwan, Province of China
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  national_prefix: '0'
-  number: '158'
-  region: Asia
-  subregion: Eastern Asia
-  world_region: APAC
-  un_locode: TW
-  nationality: Taiwanese
-  postal_code: true
-  postal_code_format: "\\d{3}(?:\\d{2})?"
-  unofficial_names:
-  - Taiwan
-  - Taiwán
-  - 台湾
-  languages_official:
-  - zh
-  languages_spoken:
-  - zh
   geo:
     latitude: 23.69781
-    latitude_dec: '23.685789108276367'
     longitude: 120.960515
-    longitude_dec: '120.89749145507812'
     max_latitude: 26.4545
     max_longitude: 123.5021012
     min_latitude: 20.5170001
@@ -51,5 +25,30 @@ TW:
       southwest:
         lat: 20.5170001
         lng: 116.6665
-  currency_code: TWD
+  international_prefix: '002'
+  ioc: TPE
+  iso_long_name: The Republic of China
+  iso_short_name: Taiwan, Province of China
+  languages_official:
+  - zh
+  languages_spoken:
+  - zh
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  national_prefix: '0'
+  nationality: Taiwanese
+  number: '158'
+  postal_code: true
+  postal_code_format: "\\d{3}(?:\\d{2,3})?"
+  region: Asia
   start_of_week: monday
+  subregion: Eastern Asia
+  un_locode: TW
+  unofficial_names:
+  - Taiwan
+  - Taiwán
+  - 台湾
+  world_region: APAC

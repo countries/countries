@@ -1,42 +1,14 @@
 ---
 SZ:
-  continent: Africa
   alpha2: SZ
   alpha3: SWZ
+  continent: Africa
   country_code: '268'
-  international_prefix: '00'
-  ioc: SWZ
+  currency_code: SZL
   gec: WZ
-  name: eSwatini
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '748'
-  region: Africa
-  subregion: Southern Africa
-  world_region: EMEA
-  un_locode: SZ
-  nationality: Swazi
-  postal_code: true
-  postal_code_format: "[HLMS]\\d{3}"
-  unofficial_names:
-  - Swaziland
-  - Swasiland
-  - Suazilandia
-  - スワジランド
-  languages_official:
-  - en
-  - ss
-  languages_spoken:
-  - en
-  - ss
   geo:
     latitude: -26.522503
-    latitude_dec: "-26.565134048461914"
     longitude: 31.465866
-    longitude_dec: '31.49811363220215'
     max_latitude: -25.71792
     max_longitude: 32.1349067
     min_latitude: -27.317402
@@ -48,5 +20,32 @@ SZ:
       southwest:
         lat: -27.317402
         lng: 30.79064
-  currency_code: SZL
+  international_prefix: '00'
+  ioc: SWZ
+  iso_long_name: The Kingdom of Eswatini
+  iso_short_name: Eswatini
+  languages_official:
+  - en
+  - ss
+  languages_spoken:
+  - en
+  - ss
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Swazi
+  number: '748'
+  postal_code: true
+  postal_code_format: "[HLMS]\\d{3}"
+  region: Africa
   start_of_week: monday
+  subregion: Southern Africa
+  un_locode: SZ
+  unofficial_names:
+  - Swaziland
+  - Swasiland
+  - Suazilandia
+  - スワジランド
+  world_region: EMEA

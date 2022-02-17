@@ -1,38 +1,14 @@
 ---
 PW:
-  continent: Australia
   alpha2: PW
   alpha3: PLW
+  continent: Australia
   country_code: '680'
-  international_prefix: '00'
-  ioc: PLW
+  currency_code: USD
   gec: PS
-  name: Palau
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '585'
-  region: Oceania
-  subregion: Micronesia
-  world_region: APAC
-  un_locode: PW
-  nationality: Palauan
-  postal_code: true
-  postal_code_format: "(969(?:39|40))(?:[ \\-](\\d{4}))?"
-  unofficial_names:
-  - Palau
-  - パラオ
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 7.514979999999999
-    latitude_dec: '7.441900730133057'
     longitude: 134.58252
-    longitude_dec: '134.54205322265625'
     max_latitude: 8.238674
     max_longitude: 135.0769
     min_latitude: 2.6394
@@ -44,5 +20,28 @@ PW:
       southwest:
         lat: 2.6394
         lng: 131.0115
-  currency_code: USD
+  international_prefix: '00'
+  ioc: PLW
+  iso_long_name: The Republic of Palau
+  iso_short_name: Palau
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Palauan
+  number: '585'
+  postal_code: true
+  postal_code_format: "(969(?:39|40))(?:[ \\-](\\d{4}))?"
+  region: Oceania
   start_of_week: monday
+  subregion: Micronesia
+  un_locode: PW
+  unofficial_names:
+  - Palau
+  - パラオ
+  world_region: APAC

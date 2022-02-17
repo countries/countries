@@ -1,6 +1,5 @@
 ---
 IL:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,41 +7,13 @@ IL:
     {{country}}
   alpha2: IL
   alpha3: ISR
+  continent: Asia
   country_code: '972'
-  international_prefix: '00'
-  ioc: ISR
+  currency_code: ILS
   gec: IS
-  name: Israel
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '376'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: IL
-  nationality: Israeli
-  postal_code: true
-  postal_code_format: "\\d{5}(?:\\d{2})?"
-  unofficial_names:
-  - Israel
-  - Israël
-  - イスラエル
-  languages_official:
-  - he
-  - ar
-  languages_spoken:
-  - he
-  - ar
   geo:
     latitude: 31.046051
-    latitude_dec: '31.814193725585938'
     longitude: 34.851612
-    longitude_dec: '34.75337219238281'
     max_latitude: 33.33280500000001
     max_longitude: 35.896244
     min_latitude: 29.47969999999999
@@ -54,5 +25,38 @@ IL:
       southwest:
         lat: 29.47969999999999
         lng: 34.2673871
-  currency_code: ILS
+  international_prefix: '00'
+  ioc: ISR
+  iso_long_name: The State of Israel
+  iso_short_name: Israel
+  languages_official:
+  - he
+  - ar
+  languages_spoken:
+  - he
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Israeli
+  number: '376'
+  postal_code: true
+  postal_code_format: "\\d{5}(?:\\d{2})?"
+  region: Asia
   start_of_week: sunday
+  subregion: Western Asia
+  un_locode: IL
+  vat_rates:
+    standard: 17
+    reduced: []
+    super_reduced:
+    parking:
+  unofficial_names:
+  - Israel
+  - Israël
+  - イスラエル
+  world_region: EMEA

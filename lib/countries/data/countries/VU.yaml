@@ -1,43 +1,14 @@
 ---
 VU:
-  continent: Australia
   alpha2: VU
   alpha3: VUT
+  continent: Australia
   country_code: '678'
-  international_prefix: '00'
-  ioc: VAN
+  currency_code: VUV
   gec: NH
-  name: Vanuatu
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 5
-  - 6
-  - 7
-  national_prefix: None
-  number: '548'
-  region: Oceania
-  subregion: Melanesia
-  world_region: APAC
-  un_locode: VU
-  nationality: Ni-Vanuatu
-  postal_code: false
-  unofficial_names:
-  - Vanuatu
-  - バヌアツ
-  languages_official:
-  - bi
-  - en
-  - fr
-  languages_spoken:
-  - bi
-  - en
-  - fr
   geo:
     latitude: -15.376706
-    latitude_dec: "-16.376684188842773"
     longitude: 166.959158
-    longitude_dec: '167.5625'
     max_latitude: -12.8064449
     max_longitude: 170.5023193
     min_latitude: -20.5350773
@@ -49,5 +20,33 @@ VU:
       southwest:
         lat: -20.5350773
         lng: 166.0583495
-  currency_code: VUV
+  international_prefix: '00'
+  ioc: VAN
+  iso_long_name: The Republic of Vanuatu
+  iso_short_name: Vanuatu
+  languages_official:
+  - bi
+  - en
+  - fr
+  languages_spoken:
+  - bi
+  - en
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 5
+  - 6
+  - 7
+  national_prefix: None
+  nationality: Ni-Vanuatu
+  number: '548'
+  postal_code: false
+  region: Oceania
   start_of_week: monday
+  subregion: Melanesia
+  un_locode: VU
+  unofficial_names:
+  - Vanuatu
+  - バヌアツ
+  world_region: APAC

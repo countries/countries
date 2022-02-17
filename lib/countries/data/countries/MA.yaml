@@ -1,42 +1,14 @@
 ---
 MA:
-  continent: Africa
   alpha2: MA
   alpha3: MAR
+  continent: Africa
   country_code: '212'
-  international_prefix: '00'
-  ioc: MAR
+  currency_code: MAD
   gec: MO
-  name: Morocco
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '0'
-  number: '504'
-  region: Africa
-  subregion: Northern Africa
-  world_region: EMEA
-  un_locode: MA
-  nationality: Moroccan
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Morocco
-  - المغرب
-  - Marokko
-  - Maroc
-  - Marruecos
-  - モロッコ
-  languages_official:
-  - ar
-  languages_spoken:
-  - ar
   geo:
     latitude: 31.791702
-    latitude_dec: '29.14059066772461'
     longitude: -7.092619999999999
-    longitude_dec: "-8.953388214111328"
     max_latitude: 35.9344
     max_longitude: -0.9969759
     min_latitude: 27.6672693
@@ -48,5 +20,32 @@ MA:
       southwest:
         lat: 27.6672693
         lng: -13.3044001
-  currency_code: MAD
+  international_prefix: '00'
+  ioc: MAR
+  iso_long_name: The Kingdom of Morocco
+  iso_short_name: Morocco
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  nationality: Moroccan
+  number: '504'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Africa
   start_of_week: monday
+  subregion: Northern Africa
+  un_locode: MA
+  unofficial_names:
+  - Morocco
+  - المغرب
+  - Marokko
+  - Maroc
+  - Marruecos
+  - モロッコ
+  world_region: EMEA

@@ -1,43 +1,14 @@
 ---
 GU:
-  continent: Australia
   alpha2: GU
   alpha3: GUM
+  continent: Australia
   country_code: '1'
-  nanp_prefix: '1671'
-  international_prefix: '011'
-  ioc: GUM
+  currency_code: USD
   gec: GQ
-  name: Guam
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '316'
-  region: Oceania
-  subregion: Micronesia
-  world_region: APAC
-  un_locode: GU
-  nationality: Guamanian
-  postal_code: true
-  postal_code_format: "(969(?:[12]\\d|3[12]))(?:[ \\-](\\d{4}))?"
-  unofficial_names:
-  - Guam
-  - グアム
-  languages_official:
-  - en
-  - ch
-  - es
-  languages_spoken:
-  - en
-  - ch
-  - es
   geo:
     latitude: 13.444304
-    latitude_dec: '13.42112922668457'
     longitude: 144.793731
-    longitude_dec: '144.73971557617188'
     max_latitude: 13.7994072
     max_longitude: 145.112915
     min_latitude: 13.1022175
@@ -49,5 +20,33 @@ GU:
       southwest:
         lat: 13.1022175
         lng: 144.4647218
-  currency_code: USD
+  international_prefix: '011'
+  ioc: GUM
+  iso_long_name: The Territory of Guam
+  iso_short_name: Guam
+  languages_official:
+  - en
+  - ch
+  - es
+  languages_spoken:
+  - en
+  - ch
+  - es
+  nanp_prefix: '1671'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Guamanian
+  number: '316'
+  postal_code: true
+  postal_code_format: "(969(?:[12]\\d|3[12]))(?:[ \\-](\\d{4}))?"
+  region: Oceania
   start_of_week: monday
+  subregion: Micronesia
+  un_locode: GU
+  unofficial_names:
+  - Guam
+  - グアム
+  world_region: APAC

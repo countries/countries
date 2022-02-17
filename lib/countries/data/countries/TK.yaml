@@ -1,39 +1,14 @@
 ---
 TK:
-  continent: Australia
   alpha2: TK
   alpha3: TKL
+  continent: Australia
   country_code: '690'
-  international_prefix: '00'
-  ioc: 
+  currency_code: NZD
   gec: TL
-  name: Tokelau
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 4
-  national_prefix: None
-  number: '772'
-  region: Oceania
-  subregion: Polynesia
-  world_region: APAC
-  un_locode: TK
-  nationality: Tokelauan
-  postal_code: false
-  unofficial_names:
-  - Tokelau
-  - Îles Tokelau
-  - Islas Tokelau
-  - トケラウ
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: -9.200199999999999
-    latitude_dec: "-8.979207992553711"
     longitude: -171.8484
-    longitude_dec: "-172.2017059326172"
     max_latitude: -8.4221116
     max_longitude: -171.0928346
     min_latitude: -9.5059527
@@ -45,5 +20,29 @@ TK:
       southwest:
         lat: -9.5059527
         lng: -172.6625061
-  currency_code: NZD
+  international_prefix: '00'
+  ioc:
+  iso_long_name: Tokelau
+  iso_short_name: Tokelau
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 4
+  national_prefix: None
+  nationality: Tokelauan
+  number: '772'
+  postal_code: false
+  region: Oceania
   start_of_week: monday
+  subregion: Polynesia
+  un_locode: TK
+  unofficial_names:
+  - Tokelau
+  - Îles Tokelau
+  - Islas Tokelau
+  - トケラウ
+  world_region: APAC

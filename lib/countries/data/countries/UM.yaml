@@ -1,40 +1,14 @@
 ---
 UM:
-  continent: Australia
   alpha2: UM
   alpha3: UMI
+  continent: Australia
   country_code: '1'
-  international_prefix: ''
-  ioc: 
-  gec: 
-  name: United States Minor Outlying Islands
-  national_destination_code_lengths: []
-  national_number_lengths: []
-  national_prefix: ''
-  number: '581'
-  region: Americas
-  subregion: Northern America
-  world_region: AMER
-  un_locode: UM
-  nationality: American
-  postal_code: true
-  postal_code_format: '96898'
-  unofficial_names:
-  - United States Minor Outlying Islands
-  - US-Amerikanische Hoheitsgebiete
-  - Dépendances américaines
-  - Islas menores de Estados Unidos
-  - 合衆国領有小離島
-  - Kleine afgelegen eilanden van de Verenigde Staten
-  languages_official:
-  - en
-  languages_spoken:
-  - en
+  currency_code: USD
+  gec:
   geo:
     latitude: 19.2823192
-    latitude_dec: '19.282319'
     longitude: 166.647047
-    longitude_dec: '166.647047'
     max_latitude: 28.3977184
     max_longitude: -159.9849071
     min_latitude: -0.3824678
@@ -46,5 +20,30 @@ UM:
       southwest:
         lat: -0.3824678
         lng: 166.5989221
-  currency_code: USD
+  international_prefix: ''
+  ioc:
+  iso_long_name: United States Minor Outlying Islands
+  iso_short_name: United States Minor Outlying Islands
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths: []
+  national_number_lengths: []
+  national_prefix: ''
+  nationality: American
+  number: '581'
+  postal_code: true
+  postal_code_format: '96898'
+  region: Americas
   start_of_week: monday
+  subregion: Northern America
+  un_locode: UM
+  unofficial_names:
+  - United States Minor Outlying Islands
+  - US-Amerikanische Hoheitsgebiete
+  - Dépendances américaines
+  - Islas menores de Estados Unidos
+  - 合衆国領有小離島
+  - Kleine afgelegen eilanden van de Verenigde Staten
+  world_region: AMER

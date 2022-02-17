@@ -1,42 +1,14 @@
 ---
 CG:
-  continent: Africa
   alpha2: CG
   alpha3: COG
+  continent: Africa
   country_code: '242'
-  international_prefix: '00'
-  ioc: CGO
+  currency_code: XAF
   gec: CF
-  name: Congo
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '178'
-  region: Africa
-  subregion: Middle Africa
-  world_region: EMEA
-  un_locode: CG
-  nationality: Congolese
-  postal_code: false
-  unofficial_names:
-  - Congo
-  - Kongo
-  - コンゴ共和国
-  - Congo [Republiek]
-  - Congo, Republic of
-  languages_official:
-  - fr
-  - ln
-  languages_spoken:
-  - fr
-  - ln
   geo:
     latitude: -0.228021
-    latitude_dec: "-2.879866123199463"
     longitude: 15.827659
-    longitude_dec: '23.6563777923584'
     max_latitude: 3.707791
     max_longitude: 18.650421
     min_latitude: -5.0964
@@ -48,5 +20,32 @@ CG:
       southwest:
         lat: -5.0964
         lng: 11.1182001
-  currency_code: XAF
+  international_prefix: '00'
+  ioc: CGO
+  iso_long_name: The Republic of the Congo
+  iso_short_name: Congo
+  languages_official:
+  - fr
+  - ln
+  languages_spoken:
+  - fr
+  - ln
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Congolese
+  number: '178'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Middle Africa
+  un_locode: CG
+  unofficial_names:
+  - Congo
+  - Kongo
+  - コンゴ共和国
+  - Congo [Republiek]
+  - Congo, Republic of
+  world_region: EMEA

@@ -1,40 +1,14 @@
 ---
 PR:
-  continent: North America
   alpha2: PR
   alpha3: PRI
+  continent: North America
   country_code: '1'
-  international_prefix: '011'
-  ioc: PUR
+  currency_code: USD
   gec: RQ
-  name: Puerto Rico
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '630'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: PR
-  nationality: Puerto Rican
-  postal_code: true
-  postal_code_format: "(00[679]\\d{2})(?:[ \\-](\\d{4}))?"
-  unofficial_names:
-  - Puerto Rico
-  - プエルトリコ
-  languages_official:
-  - es
-  - en
-  languages_spoken:
-  - es
-  - en
   geo:
     latitude: 18.220833
-    latitude_dec: '18.2491397857666'
     longitude: -66.590149
-    longitude_dec: "-66.62803649902344"
     max_latitude: 18.5720479
     max_longitude: -65.2105715
     min_latitude: 17.8449191
@@ -46,5 +20,30 @@ PR:
       southwest:
         lat: 17.8449191
         lng: -67.9611844
-  currency_code: USD
+  international_prefix: '011'
+  ioc: PUR
+  iso_long_name: The Commonwealth of Puerto Rico
+  iso_short_name: Puerto Rico
+  languages_official:
+  - es
+  - en
+  languages_spoken:
+  - es
+  - en
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Puerto Rican
+  number: '630'
+  postal_code: true
+  postal_code_format: "(00[679]\\d{2})(?:[ \\-](\\d{4}))?"
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: PR
+  unofficial_names:
+  - Puerto Rico
+  - プエルトリコ
+  world_region: AMER

@@ -1,44 +1,14 @@
 ---
 MP:
-  continent: Australia
   alpha2: MP
   alpha3: MNP
+  continent: Australia
   country_code: '1'
-  international_prefix: '011'
-  ioc: 
+  currency_code: USD
   gec: CQ
-  name: Northern Mariana Islands
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '580'
-  region: Oceania
-  subregion: Micronesia
-  world_region: APAC
-  un_locode: MP
-  nationality: American
-  postal_code: true
-  postal_code_format: "(9695[012])(?:[ \\-](\\d{4}))?"
-  unofficial_names:
-  - Northern Mariana Islands
-  - Nördliche Marianen
-  - Mariannes du Nord
-  - Islas Marianas del Norte
-  - 北マリアナ諸島
-  - Noordelijke Marianeneilanden
-  languages_official:
-  - en
-  - ch
-  languages_spoken:
-  - en
-  - ch
   geo:
     latitude: 15.0979
-    latitude_dec: '15.262779235839844'
     longitude: 145.6739
-    longitude_dec: '145.8045654296875'
     max_latitude: 20.6584862
     max_longitude: 146.2060546
     min_latitude: 13.9713848
@@ -50,5 +20,34 @@ MP:
       southwest:
         lat: 13.9713848
         lng: 144.7668457
-  currency_code: USD
+  international_prefix: '011'
+  ioc:
+  iso_long_name: The Commonwealth of the Northern Mariana Islands
+  iso_short_name: Northern Mariana Islands
+  languages_official:
+  - en
+  - ch
+  languages_spoken:
+  - en
+  - ch
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: American
+  number: '580'
+  postal_code: true
+  postal_code_format: "(9695[012])(?:[ \\-](\\d{4}))?"
+  region: Oceania
   start_of_week: monday
+  subregion: Micronesia
+  un_locode: MP
+  unofficial_names:
+  - Northern Mariana Islands
+  - Nördliche Marianen
+  - Mariannes du Nord
+  - Islas Marianas del Norte
+  - 北マリアナ諸島
+  - Noordelijke Marianeneilanden
+  world_region: APAC

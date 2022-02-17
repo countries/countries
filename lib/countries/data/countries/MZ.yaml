@@ -1,40 +1,14 @@
 ---
 MZ:
-  continent: Africa
   alpha2: MZ
   alpha3: MOZ
+  continent: Africa
   country_code: '258'
-  international_prefix: '00'
-  ioc: MOZ
+  currency_code: MZN
   gec: MZ
-  name: Mozambique
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '508'
-  region: Africa
-  subregion: Eastern Africa
-  world_region: EMEA
-  un_locode: MZ
-  nationality: Mozambican
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Mozambique
-  - Mosambik
-  - モザンビーク
-  languages_official:
-  - pt
-  languages_spoken:
-  - pt
   geo:
     latitude: -18.665695
-    latitude_dec: "-17.555864334106445"
     longitude: 35.529562
-    longitude_dec: '35.955692291259766'
     max_latitude: -10.3128929
     max_longitude: 41.3965
     min_latitude: -26.9612
@@ -46,5 +20,30 @@ MZ:
       southwest:
         lat: -26.9612
         lng: 30.2155501
-  currency_code: MZN
+  international_prefix: '00'
+  ioc: MOZ
+  iso_long_name: The Republic of Mozambique
+  iso_short_name: Mozambique
+  languages_official:
+  - pt
+  languages_spoken:
+  - pt
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Mozambican
+  number: '508'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: MZ
+  unofficial_names:
+  - Mozambique
+  - Mosambik
+  - モザンビーク
+  world_region: EMEA

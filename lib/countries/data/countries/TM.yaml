@@ -1,42 +1,14 @@
 ---
 TM:
-  continent: Asia
   alpha2: TM
   alpha3: TKM
+  continent: Asia
   country_code: '993'
-  international_prefix: '810'
-  ioc: TKM
+  currency_code: TMT
   gec: TX
-  name: Turkmenistan
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '8'
-  number: '795'
-  region: Asia
-  subregion: Central Asia
-  world_region: EMEA
-  un_locode: TM
-  nationality: Turkmen
-  postal_code: true
-  postal_code_format: "\\d{6}"
-  unofficial_names:
-  - Turkmenistan
-  - Turkménistan
-  - Turkmenistán
-  - トルクメニスタン
-  languages_official:
-  - tk
-  - ru
-  languages_spoken:
-  - tk
-  - ru
   geo:
     latitude: 38.969719
-    latitude_dec: '39.2012825012207'
     longitude: 59.556278
-    longitude_dec: '59.082252502441406'
     max_latitude: 42.798844
     max_longitude: 66.70735309999999
     min_latitude: 35.12876
@@ -48,5 +20,32 @@ TM:
       southwest:
         lat: 35.12876
         lng: 52.3169
-  currency_code: TMT
+  international_prefix: '810'
+  ioc: TKM
+  iso_long_name: Turkmenistan
+  iso_short_name: Turkmenistan
+  languages_official:
+  - tk
+  - ru
+  languages_spoken:
+  - tk
+  - ru
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '8'
+  nationality: Turkmen
+  number: '795'
+  postal_code: true
+  postal_code_format: "\\d{6}"
+  region: Asia
   start_of_week: monday
+  subregion: Central Asia
+  un_locode: TM
+  unofficial_names:
+  - Turkmenistan
+  - Turkménistan
+  - Turkmenistán
+  - トルクメニスタン
+  world_region: EMEA

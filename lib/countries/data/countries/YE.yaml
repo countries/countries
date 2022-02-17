@@ -1,6 +1,5 @@
 ---
 YE:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,40 +7,13 @@ YE:
     {{country}}
   alpha2: YE
   alpha3: YEM
+  continent: Asia
   country_code: '967'
-  international_prefix: '00'
-  ioc: YEM
+  currency_code: YER
   gec: YM
-  name: Yemen
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '887'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: YE
-  nationality: Yemeni
-  postal_code: false
-  unofficial_names:
-  - Yemen
-  - اليمن
-  - Jemen
-  - Yémen
-  - イエメン
-  languages_official:
-  - ar
-  languages_spoken:
-  - ar
   geo:
     latitude: 15.552727
-    latitude_dec: '15.888387680053711'
     longitude: 48.516388
-    longitude_dec: '47.48988723754883'
     max_latitude: 18.9996331
     max_longitude: 54.67899999999999
     min_latitude: 11.7975
@@ -53,5 +25,32 @@ YE:
       southwest:
         lat: 11.7975
         lng: 41.70959999999999
-  currency_code: YER
+  international_prefix: '00'
+  ioc: YEM
+  iso_long_name: The Republic of Yemen
+  iso_short_name: Yemen
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: Yemeni
+  number: '887'
+  postal_code: false
+  region: Asia
   start_of_week: sunday
+  subregion: Western Asia
+  un_locode: YE
+  unofficial_names:
+  - Yemen
+  - اليمن
+  - Jemen
+  - Yémen
+  - イエメン
+  world_region: EMEA

@@ -1,42 +1,14 @@
 ---
 ST:
-  continent: Africa
   alpha2: ST
   alpha3: STP
+  continent: Africa
   country_code: '239'
-  international_prefix: '00'
-  ioc: STP
+  currency_code: STD
   gec: TP
-  name: Sao Tome and Principe
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 6
-  - 7
-  national_prefix: '0'
-  number: '678'
-  region: Africa
-  subregion: Middle Africa
-  world_region: EMEA
-  un_locode: ST
-  nationality: Sao Tomean
-  postal_code: false
-  unofficial_names:
-  - São Tomé and Príncipe
-  - São Tomé und Príncipe
-  - São Tomé et Príncipe
-  - Santo Tomé y Príncipe
-  - サントメ・プリンシペ
-  - Sao Tomé en Principe
-  languages_official:
-  - pt
-  languages_spoken:
-  - pt
   geo:
     latitude: 0.18636
-    latitude_dec: '0.275555282831192'
     longitude: 6.613080999999999
-    longitude_dec: '6.631628036499023'
     max_latitude: 1.8961687
     max_longitude: 7.658843900000001
     min_latitude: -0.09887689999999999
@@ -48,5 +20,32 @@ ST:
       southwest:
         lat: -0.09887689999999999
         lng: 6.328125
-  currency_code: STD
+  international_prefix: '00'
+  ioc: STP
+  iso_long_name: The Democratic Republic of São Tomé and Príncipe
+  iso_short_name: Sao Tome and Principe
+  languages_official:
+  - pt
+  languages_spoken:
+  - pt
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 6
+  - 7
+  national_prefix: '0'
+  nationality: Sao Tomean
+  number: '678'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Middle Africa
+  un_locode: ST
+  unofficial_names:
+  - São Tomé and Príncipe
+  - São Tomé und Príncipe
+  - São Tomé et Príncipe
+  - Santo Tomé y Príncipe
+  - サントメ・プリンシペ
+  - Sao Tomé en Principe
+  world_region: EMEA

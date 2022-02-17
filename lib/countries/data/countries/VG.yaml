@@ -1,44 +1,14 @@
 ---
 VG:
-  continent: North America
   alpha2: VG
   alpha3: VGB
+  continent: North America
   country_code: '1'
-  nanp_prefix: '1284'
-  international_prefix: '011'
-  ioc: IVB
+  currency_code: USD
   gec: VI
-  name: Virgin Islands (British)
-  national_destination_code_lengths:
-  - 3
-  national_number_lengths:
-  - 10
-  national_prefix: '1'
-  number: '092'
-  region: Americas
-  subregion: Caribbean
-  world_region: AMER
-  un_locode: VG
-  nationality: Virgin Islander
-  postal_code: true
-  postal_code_format: VG\d{4}
-  unofficial_names:
-  - British Virgin Islands
-  - Britische Jungferninseln
-  - Îles Vierges britanniques
-  - Islas Vírgenes del Reino Unido
-  - イギリス領ヴァージン諸島
-  - Britse Maagdeneilanden
-  - Virgin Islands (British)
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: 18.420695
-    latitude_dec: '18.443071365356445'
     longitude: -64.639968
-    longitude_dec: "-64.57130432128906"
     max_latitude: 18.7539999
     max_longitude: -64.2651999
     min_latitude: 18.2899998
@@ -50,5 +20,34 @@ VG:
       southwest:
         lat: 18.2899998
         lng: -64.8775
-  currency_code: USD
+  international_prefix: '011'
+  ioc: IVB
+  iso_long_name: The Virgin Islands
+  iso_short_name: Virgin Islands (British)
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  nanp_prefix: '1284'
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  nationality: Virgin Islander
+  number: '092'
+  postal_code: true
+  postal_code_format: VG\d{4}
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: VG
+  unofficial_names:
+  - British Virgin Islands
+  - Britische Jungferninseln
+  - Îles Vierges britanniques
+  - Islas Vírgenes del Reino Unido
+  - イギリス領ヴァージン諸島
+  - Britse Maagdeneilanden
+  - Virgin Islands (British)
+  world_region: AMER

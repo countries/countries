@@ -1,6 +1,5 @@
 ---
 AU:
-  continent: Australia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,44 +7,13 @@ AU:
     {{country}}
   alpha2: AU
   alpha3: AUS
+  continent: Australia
   country_code: '61'
-  international_prefix: '0011'
-  ioc: AUS
+  currency_code: AUD
   gec: AS
-  name: Australia
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '036'
-  region: Oceania
-  subregion: Australia and New Zealand
-  world_region: APAC
-  un_locode: AU
-  nationality: Australian
-  vat_rates:
-    standard: 10
-    reduced: []
-    super_reduced: 
-    parking: 
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Australia
-  - Australien
-  - Australie
-  - オーストラリア
-  - Australië
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: -25.274398
-    latitude_dec: "-25.585241317749023"
     longitude: 133.775136
-    longitude_dec: '134.50411987304688'
     max_latitude: -9.187026399999999
     max_longitude: 159.2872223
     min_latitude: -54.83376579999999
@@ -57,5 +25,36 @@ AU:
       southwest:
         lat: -54.83376579999999
         lng: 110.9510339
-  currency_code: AUD
+  international_prefix: '0011'
+  ioc: AUS
+  iso_long_name: The Commonwealth of Australia
+  iso_short_name: Australia
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: Australian
+  number: '036'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Oceania
   start_of_week: monday
+  subregion: Australia and New Zealand
+  un_locode: AU
+  unofficial_names:
+  - Australia
+  - Australien
+  - Australie
+  - オーストラリア
+  - Australië
+  vat_rates:
+    standard: 10
+    reduced: []
+    super_reduced:
+    parking:
+  world_region: APAC

@@ -1,42 +1,14 @@
 ---
 CV:
-  continent: Africa
   alpha2: CV
   alpha3: CPV
+  continent: Africa
   country_code: '238'
-  international_prefix: '00'
-  ioc: CPV
+  currency_code: CVE
   gec: CV
-  name: Cabo Verde
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 7
-  national_prefix: None
-  number: '132'
-  region: Africa
-  subregion: Western Africa
-  world_region: EMEA
-  un_locode: CV
-  nationality: Cape Verdian
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Cape Verde
-  - Kap Verde
-  - Cap Vert
-  - Cabo Verde
-  - カーボベルデ
-  - Kaapverdië
-  languages_official:
-  - pt
-  languages_spoken:
-  - pt
   geo:
     latitude: 16.5388
-    latitude_dec: '15.183002471923828'
     longitude: -23.0418
-    longitude_dec: "-23.70345115661621"
     max_latitude: 17.3191764
     max_longitude: -22.5933839
     min_latitude: 14.7270733
@@ -48,5 +20,32 @@ CV:
       southwest:
         lat: 14.7270733
         lng: -25.383911
-  currency_code: CVE
+  international_prefix: '00'
+  ioc: CPV
+  iso_long_name: The Republic of Cabo Verde
+  iso_short_name: Cabo Verde
+  languages_official:
+  - pt
+  languages_spoken:
+  - pt
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  nationality: Cape Verdian
+  number: '132'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Africa
   start_of_week: monday
+  subregion: Western Africa
+  un_locode: CV
+  unofficial_names:
+  - Cape Verde
+  - Kap Verde
+  - Cap Vert
+  - Cabo Verde
+  - カーボベルデ
+  - Kaapverdië
+  world_region: EMEA

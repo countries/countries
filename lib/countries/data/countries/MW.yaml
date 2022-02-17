@@ -1,39 +1,14 @@
 ---
 MW:
-  continent: Africa
   alpha2: MW
   alpha3: MWI
+  continent: Africa
   country_code: '265'
-  international_prefix: '00'
-  ioc: MAW
+  currency_code: MWK
   gec: MI
-  name: Malawi
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: None
-  number: '454'
-  region: Africa
-  subregion: Eastern Africa
-  world_region: EMEA
-  un_locode: MW
-  nationality: Malawian
-  postal_code: false
-  unofficial_names:
-  - Malawi
-  - マラウイ
-  languages_official:
-  - en
-  - ny
-  languages_spoken:
-  - en
-  - ny
   geo:
     latitude: -13.254308
-    latitude_dec: "-13.523577690124512"
     longitude: 34.301525
-    longitude_dec: '33.83546447753906'
     max_latitude: -9.3672272
     max_longitude: 35.91857299999999
     min_latitude: -17.1295216
@@ -45,5 +20,29 @@ MW:
       southwest:
         lat: -17.1295216
         lng: 32.6725205
-  currency_code: MWK
+  international_prefix: '00'
+  ioc: MAW
+  iso_long_name: The Republic of Malawi
+  iso_short_name: Malawi
+  languages_official:
+  - en
+  - ny
+  languages_spoken:
+  - en
+  - ny
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  nationality: Malawian
+  number: '454'
+  postal_code: false
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: MW
+  unofficial_names:
+  - Malawi
+  - マラウイ
+  world_region: EMEA

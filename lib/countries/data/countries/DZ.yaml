@@ -1,43 +1,14 @@
 ---
 DZ:
-  continent: Africa
   alpha2: DZ
   alpha3: DZA
+  continent: Africa
   country_code: '213'
-  international_prefix: '00'
-  ioc: ALG
+  currency_code: DZD
   gec: AG
-  name: Algeria
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '7'
-  number: '012'
-  region: Africa
-  subregion: Northern Africa
-  world_region: EMEA
-  un_locode: DZ
-  nationality: Algerian
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Algeria
-  - الجزائر
-  - Algerien
-  - Algérie
-  - Argelia
-  - アルジェリア
-  - Algerije
-  languages_official:
-  - ar
-  languages_spoken:
-  - ar
   geo:
     latitude: 28.033886
-    latitude_dec: '28.213645935058594'
     longitude: 1.659626
-    longitude_dec: '2.6547281742095947'
     max_latitude: 37.2216
     max_longitude: 11.9999992
     min_latitude: 18.9681469
@@ -49,5 +20,33 @@ DZ:
       southwest:
         lat: 18.9681469
         lng: -8.6676111
-  currency_code: DZD
+  international_prefix: '00'
+  ioc: ALG
+  iso_long_name: The People's Democratic Republic of Algeria
+  iso_short_name: Algeria
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '7'
+  nationality: Algerian
+  number: '012'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Africa
   start_of_week: sunday
+  subregion: Northern Africa
+  un_locode: DZ
+  unofficial_names:
+  - Algeria
+  - الجزائر
+  - Algerien
+  - Algérie
+  - Argelia
+  - アルジェリア
+  - Algerije
+  world_region: EMEA

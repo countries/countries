@@ -1,6 +1,5 @@
 ---
 LB:
-  continent: Asia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -8,42 +7,13 @@ LB:
     {{country}}
   alpha2: LB
   alpha3: LBN
+  continent: Asia
   country_code: '961'
-  international_prefix: '00'
-  ioc: LIB
+  currency_code: LBP
   gec: LE
-  name: Lebanon
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 8
-  national_prefix: '0'
-  number: '422'
-  region: Asia
-  subregion: Western Asia
-  world_region: EMEA
-  un_locode: LB
-  nationality: Lebanese
-  postal_code: true
-  postal_code_format: "(?:\\d{4})(?: ?(?:\\d{4}))?"
-  unofficial_names:
-  - Lebanon
-  - لبنان
-  - Libanon
-  - Liban
-  - Líbano
-  - レバノン
-  languages_official:
-  - ar
-  - fr
-  languages_spoken:
-  - ar
-  - fr
   geo:
     latitude: 33.854721
-    latitude_dec: '33.925411224365234'
     longitude: 35.862285
-    longitude_dec: '35.89972686767578'
     max_latitude: 34.69209
     max_longitude: 36.62372
     min_latitude: 33.0550256
@@ -55,5 +25,34 @@ LB:
       southwest:
         lat: 33.0550256
         lng: 35.0711001
-  currency_code: LBP
+  international_prefix: '00'
+  ioc: LIB
+  iso_long_name: The Lebanese Republic
+  iso_short_name: Lebanon
+  languages_official:
+  - ar
+  - fr
+  languages_spoken:
+  - ar
+  - fr
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  nationality: Lebanese
+  number: '422'
+  postal_code: true
+  postal_code_format: "(?:\\d{4})(?: ?(?:\\d{4}))?"
+  region: Asia
   start_of_week: monday
+  subregion: Western Asia
+  un_locode: LB
+  unofficial_names:
+  - Lebanon
+  - لبنان
+  - Libanon
+  - Liban
+  - Líbano
+  - レバノン
+  world_region: EMEA

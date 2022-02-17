@@ -1,38 +1,14 @@
 ---
 VE:
-  continent: South America
   alpha2: VE
   alpha3: VEN
+  continent: South America
   country_code: '58'
-  international_prefix: '00'
-  ioc: VEN
+  currency_code: VES
   gec: VE
-  name: Venezuela (Bolivarian Republic of)
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 10
-  national_prefix: '0'
-  number: '862'
-  region: Americas
-  subregion: South America
-  world_region: AMER
-  un_locode: VE
-  nationality: Venezuelan
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - Venezuela
-  - ベネズエラ・ボリバル共和国
-  languages_official:
-  - es
-  languages_spoken:
-  - es
   geo:
     latitude: 6.42375
-    latitude_dec: '7.665388584136963'
     longitude: -66.58973
-    longitude_dec: "-66.14541625976562"
     max_latitude: 12.6886
     max_longitude: -59.805666
     min_latitude: 0.6475291
@@ -44,5 +20,28 @@ VE:
       southwest:
         lat: 0.6475291
         lng: -73.36703899999999
-  currency_code: VES
+  international_prefix: '00'
+  ioc: VEN
+  iso_long_name: The Bolivarian Republic of Venezuela
+  iso_short_name: Venezuela (Bolivarian Republic of)
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  nationality: Venezuelan
+  number: '862'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Americas
   start_of_week: monday
+  subregion: South America
+  un_locode: VE
+  unofficial_names:
+  - Venezuela
+  - ベネズエラ・ボリバル共和国
+  world_region: AMER

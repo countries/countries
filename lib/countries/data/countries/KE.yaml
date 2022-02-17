@@ -1,41 +1,14 @@
 ---
 KE:
-  continent: Africa
   alpha2: KE
   alpha3: KEN
+  continent: Africa
   country_code: '254'
-  international_prefix: '000'
-  ioc: KEN
+  currency_code: KES
   gec: KE
-  name: Kenya
-  national_destination_code_lengths:
-  - 2
-  national_number_lengths:
-  - 9
-  national_prefix: '0'
-  number: '404'
-  region: Africa
-  subregion: Eastern Africa
-  world_region: EMEA
-  un_locode: KE
-  nationality: Kenyan
-  postal_code: true
-  postal_code_format: "\\d{5}"
-  unofficial_names:
-  - Kenya
-  - Kenia
-  - ケニア
-  languages_official:
-  - en
-  - sw
-  languages_spoken:
-  - en
-  - sw
   geo:
     latitude: -0.023559
-    latitude_dec: '0.5765031576156616'
     longitude: 37.906193
-    longitude_dec: '37.83988952636719'
     max_latitude: 5.033420899999999
     max_longitude: 41.9069449
     min_latitude: -4.724299999999999
@@ -47,5 +20,31 @@ KE:
       southwest:
         lat: -4.724299999999999
         lng: 33.90982109999999
-  currency_code: KES
+  international_prefix: '000'
+  ioc: KEN
+  iso_long_name: The Republic of Kenya
+  iso_short_name: Kenya
+  languages_official:
+  - en
+  - sw
+  languages_spoken:
+  - en
+  - sw
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  nationality: Kenyan
+  number: '404'
+  postal_code: true
+  postal_code_format: "\\d{5}"
+  region: Africa
   start_of_week: monday
+  subregion: Eastern Africa
+  un_locode: KE
+  unofficial_names:
+  - Kenya
+  - Kenia
+  - ケニア
+  world_region: EMEA

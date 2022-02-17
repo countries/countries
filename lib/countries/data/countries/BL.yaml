@@ -1,37 +1,14 @@
 ---
 BL:
-  continent: North America
   alpha2: BL
   alpha3: BLM
+  continent: North America
   country_code: '590'
-  international_prefix: ''
-  ioc: 
+  currency_code: EUR
   gec: TB
-  name: Saint Barthélemy
-  national_destination_code_lengths: []
-  national_number_lengths: []
-  national_prefix: ''
-  number: '652'
-  region: Americas
-  subregion: Caribbean
-  world_region: APAC
-  un_locode: BL
-  nationality: Saint Barthélemy Islander
-  postal_code: true
-  postal_code_format: 9[78][01]\d{2}
-  unofficial_names:
-  - Saint Barthélemy
-  - Saint-Barthélemy
-  - サン・バルテルミー
-  languages_official:
-  - fr
-  languages_spoken:
-  - fr
   geo:
     latitude: 17.9
-    latitude_dec: '17.89626121520996'
     longitude: -62.833333
-    longitude_dec: "-62.83061218261719"
     max_latitude: 17.978
     max_longitude: -62.7869
     min_latitude: 17.8663
@@ -43,5 +20,27 @@ BL:
       southwest:
         lat: 17.8663
         lng: -62.9559999
-  currency_code: EUR
+  international_prefix: ''
+  ioc:
+  iso_long_name: The Collectivity of Saint-Barthélemy
+  iso_short_name: Saint Barthélemy
+  languages_official:
+  - fr
+  languages_spoken:
+  - fr
+  national_destination_code_lengths: []
+  national_number_lengths: []
+  national_prefix: ''
+  nationality: Saint Barthélemy Islander
+  number: '652'
+  postal_code: true
+  postal_code_format: 9[78][01]\d{2}
+  region: Americas
   start_of_week: monday
+  subregion: Caribbean
+  un_locode: BL
+  unofficial_names:
+  - Saint Barthélemy
+  - Saint-Barthélemy
+  - サン・バルテルミー
+  world_region: APAC

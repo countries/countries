@@ -1,6 +1,5 @@
 ---
 NZ:
-  continent: Australia
   address_format: |-
     {{recipient}}
     {{street}}
@@ -9,47 +8,13 @@ NZ:
     {{country}}
   alpha2: NZ
   alpha3: NZL
+  continent: Australia
   country_code: '64'
-  international_prefix: '00'
-  ioc: NZL
+  currency_code: NZD
   gec: NZ
-  name: New Zealand
-  national_destination_code_lengths:
-  - 1
-  national_number_lengths:
-  - 8
-  - 9
-  national_prefix: '0'
-  number: '554'
-  region: Oceania
-  subregion: Australia and New Zealand
-  world_region: APAC
-  un_locode: NZ
-  nationality: New Zealander
-  vat_rates:
-    standard: 15
-    reduced:
-    - 9
-    super_reduced: 
-    parking: 
-  postal_code: true
-  postal_code_format: "\\d{4}"
-  unofficial_names:
-  - New Zealand
-  - Neuseeland
-  - Nouvelle Zélande
-  - Nueva Zelanda
-  - ニュージーランド
-  - Nieuw-Zeeland
-  languages_official:
-  - en
-  languages_spoken:
-  - en
   geo:
     latitude: -40.900557
-    latitude_dec: "-44.05629348754883"
     longitude: 174.885971
-    longitude_dec: '170.35415649414062'
     max_latitude: -28.8773225
     max_longitude: -175.1235077
     min_latitude: -52.7224663
@@ -61,5 +26,39 @@ NZ:
       southwest:
         lat: -52.7224663
         lng: 165.7437641
-  currency_code: NZD
+  international_prefix: '00'
+  ioc: NZL
+  iso_long_name: New Zealand
+  iso_short_name: New Zealand
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  national_destination_code_lengths:
+  - 1
+  national_number_lengths:
+  - 8
+  - 9
+  national_prefix: '0'
+  nationality: New Zealander
+  number: '554'
+  postal_code: true
+  postal_code_format: "\\d{4}"
+  region: Oceania
   start_of_week: monday
+  subregion: Australia and New Zealand
+  un_locode: NZ
+  unofficial_names:
+  - New Zealand
+  - Neuseeland
+  - Nouvelle Zélande
+  - Nueva Zelanda
+  - ニュージーランド
+  - Nieuw-Zeeland
+  vat_rates:
+    standard: 15
+    reduced:
+    - 9
+    super_reduced:
+    parking:
+  world_region: APAC
