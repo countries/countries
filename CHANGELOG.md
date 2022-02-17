@@ -9,10 +9,27 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 - Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
-## [4.2.1](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 12:39 +00:00)
+## [4.2.2](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/02/17 13:52 +00:00)
+
+**IMPORTANT NOTE: This should be be the last release of the 4.x series, and the last one to support Ruby 2.5 and 2.6**
+
+**Merged pull requests:**
+
+* http:// -> https:// by [\#737](https://github.com/countries/countries/pull/737) ([biow0lf](https://github.com/biow0lf))
+* Update AE start_of_week to monday. [\#739](https://github.com/countries/countries/pull/739) ([pmor](https://github.com/pmor))
+* Fix Subdivision data by [\#740](https://github.com/countries/countries/pull/740) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Change on UAE Value.start_of_week [\#738](https://github.com/countries/countries/issues/738)
+
+
+**Full Changelog**: https://github.com/countries/countries/compare/v4.2.1...v4.2.2
+
+## [4.2.1](https://github.com/countries/countries/releases/tag/v4.2.1) (2022/01/11 12:39 +00:00)
 
 - Missing update to cache files on release 4.2.0
-- Update postal code regexes from rake task [\#734 ](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
+- Update postal code regexes from rake task [\#734](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
 
 ## [4.2.0](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 11:04 +00:00)
 
