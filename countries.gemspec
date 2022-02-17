@@ -7,8 +7,8 @@ Gem::Specification.new do |gem|
   gem.email         = ['hexorx@gmail.com', 'russell@burningpony.com', 'pedro@codecreations.tech']
   gem.description   = 'All sorts of useful information about every country packaged as pretty little country objects. It includes data from ISO 3166'
   gem.summary       = 'Gives you a country object full of all sorts of useful information.'
-  gem.homepage      = 'http://github.com/countries/countries'
-  gem.metadata      = { 'bug_tracker_uri' => 'http://github.com/countries/countries/issues',
+  gem.homepage      = 'https://github.com/countries/countries'
+  gem.metadata      = { 'bug_tracker_uri' => 'https://github.com/countries/countries/issues',
                         'changelog_uri' => 'https://github.com/countries/countries/blob/master/CHANGELOG.md',
                         'source_code_uri' => 'https://github.com/countries/countries',
                         'wiki_uri' => 'https://github.com/countries/countries/wiki',
