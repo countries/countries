@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.5'
 
-  gem.add_dependency('i18n_data', '~> 0.15.0')
+  gem.add_dependency('i18n_data', '~> 0.16.0')
   gem.add_dependency('sixarm_ruby_unaccent', '~> 1.1')
   gem.add_development_dependency('rspec', '>= 3')
   gem.add_development_dependency('activesupport', '>= 3')
