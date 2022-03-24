@@ -37,6 +37,8 @@ task :update_cache do
   corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
 
   language_keys = I18nData.languages.keys + ['zh_CN', 'zh_TW', 'zh_HK','bn_IN','pt_BR']
+  # Ignore locales that have bad data in i18n_data 0.16.0
+  language_keys -= %w[AY AM BA]
   language_keys.each do |locale|
     locale = locale.downcase
     begin
