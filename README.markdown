@@ -7,18 +7,8 @@ Countries is a collection of all sorts of useful information for every country i
 ## Installation
 
 ```bash
-gem install countries
+bundle add countries
 ```
-
-Or you can install via Bundler if you are using Rails. Add this line to your application's Gemfile:
-
-```ruby
-gem 'countries'
-```
-
-And then execute:
-
-    $ bundle
 
 ## Basic Usage
 
