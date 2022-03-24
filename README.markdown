@@ -7,6 +7,12 @@ Countries is a collection of all sorts of useful information for every country i
 ## Installation
 
 ```bash
+ gem install countries
+ ```
+
+ Or you can install via Bundler if you are using Rails:
+
+```bash
 bundle add countries
 ```
 
@@ -339,5 +345,8 @@ the next `rake update_cache`.
 
 ## Copyright
 
-Copyright (c) 2016 hexorx. See LICENSE for details.
+Copyright (c) 2012-2015 hexorx
+Copyright (c) 2015-2021 hexorx, rposborne
+Copyright (c) 2022 hexorx, rposborne, pmor
 
+See LICENSE for details.
