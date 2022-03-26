@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 - Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
 
-## [4.2.2](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/02/17 13:52 +00:00)
 
-**IMPORTANT NOTE: This should be be the last release of the 4.x series, and the last one to support Ruby 2.5 and 2.6**
+## [4.2.3](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/03/24 11:00 +00:00)
+
+**IMPORTANT NOTE: This will be be the last release of the 4.x series, and the last one to support Ruby 2.5 and 2.6**
+
+* Use bundle add instead [\#743](https://github.com/countries/countries/pull/743) ([glaucocustodio](https://github.com/glaucocustodio))
+* update i18n_data [\#742](https://github.com/countries/countries/pull/742) ([bonekost](https://github.com/bonekost))
+
+## [4.2.2](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/02/17 13:52 +00:00)
 
 **Merged pull requests:**
 
-* http:// -> https:// by [\#737](https://github.com/countries/countries/pull/737) ([biow0lf](https://github.com/biow0lf))
+* http:// -> https:// [\#737](https://github.com/countries/countries/pull/737) ([biow0lf](https://github.com/biow0lf))
 * Update AE start_of_week to monday. [\#739](https://github.com/countries/countries/pull/739) ([pmor](https://github.com/pmor))
 * Fix Subdivision data by [\#740](https://github.com/countries/countries/pull/740) ([pmor](https://github.com/pmor))
 

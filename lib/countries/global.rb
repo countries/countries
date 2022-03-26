@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'countries'
 
 # Some apps might not want to constantly call +ISO3166::Country+. This gem has a helper that can provide a Country class

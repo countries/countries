@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe 'timezone Country class' do
   context "when loaded via 'timezone'" do
     require 'tzinfo'

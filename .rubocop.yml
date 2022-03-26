@@ -1,1 +1,40 @@
 inherit_from: .rubocop_todo.yml
+
+AllCops:
+  NewCops: enable
+
+Layout/LineLength:
+  Exclude:
+    - countries.gemspec
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - Rakefile
+    - 'spec/**/*'
+    - 'lib/countries/tasks/*'
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/CaseEquality:
+  Exclude:
+    - 'lib/countries/country/finder_methods.rb'
+
+Style/IfUnlessModifier:
+  Exclude:
+    - 'spec/thread_safety_spec.rb'
+
+Naming/MethodName:
+  Exclude:
+    - 'lib/countries/country/class_methods.rb'
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/perf_spec.rb'
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/ClassLength:
+  Max: 130

@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'sixarm_ruby_unaccent'
 
 module ISO3166
   UNSEARCHABLE_METHODS = [:translations].freeze
 
-  def self::Country(country_data_or_country)
+  def self.Country(country_data_or_country)
     case country_data_or_country
     when ISO3166::Country
       country_data_or_country
@@ -15,9 +17,6 @@ module ISO3166
   end
 
   module CountryClassMethods
-    FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
-    SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
-
     def new(country_data)
       super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
     end
@@ -33,10 +32,6 @@ module ISO3166
 
     alias countries all
 
-    def all_translated(locale = 'en')
-      translations(locale).values
-    end
-
     def all_names_with_codes(locale = 'en')
       Country.all.map do |c|
         lc = (c.translation(locale) || c.iso_short_name)
@@ -50,6 +45,10 @@ module ISO3166
       end
     end
 
+    def all_translated(locale = 'en')
+      translations(locale).values
+    end
+
     def translations(locale = 'en')
       i18n_data_countries = I18nData.countries(locale.upcase)
 
@@ -60,54 +59,6 @@ module ISO3166
       end.to_h
 
       i18n_data_countries.merge(custom_countries)
-    end
-
-    def search(query)
-      country = new(query.to_s.upcase)
-      country && country.valid? ? country : nil
-    end
-
-    def [](query)
-      search(query)
-    end
-
-    def method_missing(method_name, *arguments)
-      matches = method_name.to_s.match(FIND_BY_REGEX)
-      return_all = matches[1]
-      super unless matches
-
-      if matches[3] == 'names'
-        if RUBY_VERSION =~ /^3\.\d\.\d/
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-        else
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
-        end
-      end
-
-      countries = find_by(matches[3], arguments[0], matches[2])
-      return_all ? countries : countries.last
-    end
-
-    def respond_to_missing?(method_name, include_private = false)
-      matches = method_name.to_s.match(FIND_BY_REGEX)
-      if matches && matches[3]
-        instance_methods.include?(matches[3].to_sym)
-      else
-        super
-      end
-    end
-
-    def find_all_by(attribute, val)
-      attributes, lookup_value = parse_attributes(attribute, val)
-
-      ISO3166::Data.cache.select do |_, v|
-        country = Country.new(v)
-        attributes.any? do |attr|
-          Array(country.send(attr)).any? do |n|
-            lookup_value === cached(n) { parse_value(n) }
-          end
-        end
-      end
     end
 
     def subdivisions(alpha2)
@@ -124,49 +75,12 @@ module ISO3166
 
     protected
 
-    def strip_accents(v)
-      if v.is_a?(Regexp)
-        Regexp.new(v.source.unaccent, 'i')
+    def strip_accents(string)
+      if string.is_a?(Regexp)
+        Regexp.new(string.source.unaccent, 'i')
       else
-        v.to_s.unaccent.downcase
+        string.to_s.unaccent.downcase
       end
-    end
-
-    def parse_attributes(attribute, val)
-      raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
-
-      attributes = Array(attribute.to_s)
-      if attribute.to_s == 'name'
-        if RUBY_VERSION =~ /^3\.\d\.\d/
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-        else
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
-        end
-        # 'find_by_name' and 'find_*_by_name' will be changed for 5.0
-        # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
-        attributes = %w[iso_short_name unofficial_names translated_names]
-      end
-
-      [attributes, parse_value(val)]
-    end
-
-    def searchable_attribute?(attribute)
-      searchable_attributes.include?(attribute.to_sym)
-    end
-
-    def searchable_attributes
-      instance_methods - UNSEARCHABLE_METHODS
-    end
-
-    def find_by(attribute, value, obj = nil)
-      find_all_by(attribute.downcase, value).map do |country|
-        obj.nil? ? country : new(country.last)
-      end
-    end
-
-    def parse_value(value)
-      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
-      strip_accents(value)
     end
 
     def subdivision_data(alpha2)
@@ -190,6 +104,7 @@ module ISO3166
     def cached(value)
       @_parsed_values_cache ||= {}
       return @_parsed_values_cache[value] if @_parsed_values_cache[value]
+
       @_parsed_values_cache[value] = yield
     end
   end

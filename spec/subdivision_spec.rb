@@ -1,4 +1,4 @@
-# coding: utf-8
+# frozen_string_literal: true
 
 require 'spec_helper'
 
@@ -23,9 +23,11 @@ describe ISO3166::Subdivision do
   describe 'state codes' do
     it 'should all be strings' do
       countries.each do |country|
-        expect(country.subdivisions.keys).to all(be_a(String)), \
-          "Expected #{country.alpha2.inspect} to have string subdivision" \
-          "codes but had #{country.subdivisions.keys.inspect}"
+        expect(country.subdivisions.keys).to(
+          all(be_a(String)),
+          "Expected #{country.alpha2.inspect} to have string subdivision \
+           codes but had #{country.subdivisions.keys.inspect}"
+        )
       end
     end
   end

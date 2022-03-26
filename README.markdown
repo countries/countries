@@ -7,18 +7,14 @@ Countries is a collection of all sorts of useful information for every country i
 ## Installation
 
 ```bash
-gem install countries
+ gem install countries
+ ```
+
+ Or you can install via Bundler if you are using Rails:
+
+```bash
+bundle add countries
 ```
-
-Or you can install via Bundler if you are using Rails. Add this line to your application's Gemfile:
-
-```ruby
-gem 'countries'
-```
-
-And then execute:
-
-    $ bundle
 
 ## Basic Usage
 
@@ -86,7 +82,7 @@ end
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
 ```ruby
-c    = ISO3166::Country.find_country_by_iso_short_name('united states')
+c    = ISO3166::Country.find_country_by_iso_short_name('Italy')
 h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
 c    = ISO3166::Country.find_country_by_alpha3('can')
@@ -349,5 +345,8 @@ the next `rake update_cache`.
 
 ## Copyright
 
-Copyright (c) 2016 hexorx. See LICENSE for details.
+Copyright (c) 2012-2015 hexorx
+Copyright (c) 2015-2021 hexorx, rposborne
+Copyright (c) 2022 hexorx, rposborne, pmor
 
+See LICENSE for details.

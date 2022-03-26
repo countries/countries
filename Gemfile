@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
-gem 'rake'
 gem 'geocoder'
+gem 'money'
+gem 'rake'
 gem 'retryable'
 gem 'tzinfo'
-gem 'money'
 
 # Specify your gem's dependencies in countries.gemspec
 gemspec
