@@ -82,6 +82,8 @@ module ISO3166
         else
           warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
         end
+        matches = matches.to_a
+        matches[3] = 'unofficial_names'
       end
 
       countries = find_by(matches[3], arguments[0], matches[2])
@@ -155,7 +157,8 @@ module ISO3166
     end
 
     def searchable_attributes
-      instance_methods - UNSEARCHABLE_METHODS
+      # Add name and names until we complete the deprecation of the finders
+      instance_methods - UNSEARCHABLE_METHODS + [:name, :names]
     end
 
     def find_by(attribute, value, obj = nil)

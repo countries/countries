@@ -118,28 +118,6 @@ module ISO3166
       @local_name ||= local_names.first
     end
 
-    # @return [String] This Country's ISO Short Name
-    # @deprecated Use {#iso_short_name} instead.
-    def name
-      if RUBY_VERSION =~ /^3\.\d\.\d/
-        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-      else
-        warn "DEPRECATION WARNING: The Country#name method has been deprecated. Please use Country#iso_short_name instead or refer to the README file for more information on this change.", uplevel: 1
-      end
-      iso_short_name
-    end
-
-    # @return [Array<String>] Array of unofficial, slang names or aliases for this Country
-    # @deprecated Use {#unofficial_names} instead.
-    def names
-      if RUBY_VERSION =~ /^3\.\d\.\d/
-        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-      else
-        warn "DEPRECATION WARNING: The Country#names method has been deprecated. Please use Country#unofficial_names instead or refer to the README file for more information on this change.", uplevel: 1
-      end
-      unofficial_names
-    end
-
     # @!attribute alpha2
     #   @return [String] the ISO3166 alpha-2 code for this Country
     #
