@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 namespace :postal_codes do
   desc 'Retrieve and update postal codes and their format'
   task :update do
@@ -20,13 +22,13 @@ namespace :postal_codes do
       json = JSON.parse(response) rescue {}
       puts ' - Returned empty data. Skipping ' and next if json.empty?
 
-      postal_code = ['postal_code', !!json['zip']]
+      postal_code = ['postal_code', !json['zip'].nil?]
       postal_code_format = ['postal_code_format', json['zip']]
 
       if postal_code_index
         data[postal_code_index] = postal_code
       else
-        postal_code_index = data.find_index { |d| d[0] == 'nationality' } + 1 || data.size
+        postal_code_index = (data.find_index { |d| d[0] == 'nationality' } + 1) || data.size
         data.insert(postal_code_index, postal_code)
       end
 
@@ -42,7 +44,7 @@ namespace :postal_codes do
 
       yaml[country_code] = data.to_h
 
-      File.open(country_file, 'w') { |file| file.write(yaml.to_yaml) }
+      File.write(country_file, yaml.to_yaml)
     end
   end
 end

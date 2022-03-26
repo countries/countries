@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-#
+
 module ISO3166
   DEFAULT_COUNTRY_HASH = {
     'address_format' => nil,

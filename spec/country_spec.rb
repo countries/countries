@@ -1,4 +1,4 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
 require 'spec_helper'
 NUM_OF_COUNTRIES = 249
@@ -48,7 +48,9 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    expect(country.unofficial_names).to eq(['United States', 'USA', 'Murica', 'Vereinigte Staaten von Amerika', 'États-Unis', 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
+    expect(country.names).to eq(['United States', 'USA', 'Murica',
+                                 'Vereinigte Staaten von Amerika', 'États-Unis',
+                                 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
   end
 
   it 'should return translations' do
@@ -85,7 +87,7 @@ describe ISO3166::Country do
     expect(country.postal_code_format).to_not be_nil
 
     regex = Regexp.new(country.postal_code_format)
-    expect(regex).to match("12345-6789")
+    expect(regex).to match('12345-6789')
 
     antarctica = ISO3166::Country.search('AQ')
     expect(antarctica.postal_code_format).to be_nil
@@ -123,7 +125,7 @@ describe ISO3166::Country do
     let(:country) { ISO3166::Country.search('BE') }
 
     it 'should return its local names based on its languages' do
-      expect(country.local_names).to match_array(%w(België Belgique Belgien))
+      expect(country.local_names).to match_array(%w[België Belgique Belgien])
     end
 
     it 'should return its first local name' do
@@ -259,7 +261,7 @@ describe ISO3166::Country do
     end
 
     it 'should return an alphabetized list of subdivision names translated to current locale with codes' do
-      ISO3166.configuration.locales = [:es, :de, :en]
+      ISO3166.configuration.locales = %i[es de en]
 
       subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes(:es)
       expect(subdivisions).to be_an(Array)
@@ -371,11 +373,11 @@ describe ISO3166::Country do
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afghanistan')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
-      expect(countries.any?{|pair| !pair[0].html_safe?}).to eq(false)
+      expect(countries.any? { |pair| !pair[0].html_safe? }).to eq(false)
     end
 
     it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
-      ISO3166.configuration.locales = [:es, :de, :en]
+      ISO3166.configuration.locales = %i[es de en]
 
       countries = ISO3166::Country.all_names_with_codes(:es)
       expect(countries).to be_an(Array)
@@ -395,7 +397,7 @@ describe ISO3166::Country do
     end
 
     it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha2' do
-      ISO3166.configuration.locales = [:es, :de, :en]
+      ISO3166.configuration.locales = %i[es de en]
 
       countries = ISO3166::Country.all_names_with_codes(:es)
       expect(countries).to be_an(Array)
@@ -407,7 +409,7 @@ describe ISO3166::Country do
 
   describe 'translation' do
     it 'should return the localized name for a country to the selected locale' do
-      ISO3166.configuration.locales = [:es, :de, :en]
+      ISO3166.configuration.locales = %i[es de en]
       countries = ISO3166::Country.new(:de).translation('de')
       expect(countries).to be_an(String)
       expect(countries).to eq('Deutschland')
@@ -426,7 +428,7 @@ describe ISO3166::Country do
 
     context 'should return variant locales' do
       it 'should return different value for Chinese variants' do
-        ISO3166.configuration.locales = [:'zh-cn', :'zh-hk', :'zh-tw']
+        ISO3166.configuration.locales = %i[zh-cn zh-hk zh-tw]
         name_cn = ISO3166::Country['TW'].translation('zh-cn')
         name_hk = ISO3166::Country['TW'].translation('zh-hk')
         name_tw = ISO3166::Country['TW'].translation('zh-tw')
@@ -434,7 +436,7 @@ describe ISO3166::Country do
       end
 
       it 'should return different value for Portuguese variants' do
-        ISO3166.configuration.locales = [:pt, :'pt-br']
+        ISO3166.configuration.locales = %i[pt pt-br]
         name_pt = ISO3166::Country['SG'].translation('pt')
         name_br = ISO3166::Country['SG'].translation('pt-br')
         expect([name_pt, name_br].uniq.size).to eql 2
@@ -447,7 +449,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.translations('fr')
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AW')
-      expect(countries.first).to eq(%w(AW Aruba))
+      expect(countries.first).to eq(%w[AW Aruba])
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
@@ -457,7 +459,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.translations
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AW')
-      expect(countries.first).to eq(%w(AW Aruba))
+      expect(countries.first).to eq(%w[AW Aruba])
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
@@ -648,7 +650,9 @@ describe ISO3166::Country do
 
     context 'when finding by invalid attribute' do
       it 'should raise an error' do
-        expect { ISO3166::Country.find_by_invalid('invalid') }.to raise_error(RuntimeError, "Invalid attribute name 'invalid'")
+        expect { ISO3166::Country.find_by_invalid('invalid') }.to(
+          raise_error(RuntimeError, "Invalid attribute name 'invalid'")
+        )
       end
     end
 
@@ -785,8 +789,9 @@ describe ISO3166::Country do
 
     context 'when finding by invalid attribute' do
       it 'should raise an error' do
-        expect { ISO3166::Country.find_country_by_invalid('invalid') }.to raise_error(RuntimeError,
-                                                                                      "Invalid attribute name 'invalid'")
+        expect { ISO3166::Country.find_country_by_invalid('invalid') }.to(
+          raise_error(RuntimeError, "Invalid attribute name 'invalid'")
+        )
       end
     end
 
@@ -947,7 +952,7 @@ describe ISO3166::Country do
 
     it 'should contain all keys for vat_rates' do
       expect(belgium.vat_rates).to be_a(Hash)
-      expect(belgium.vat_rates.keys).to eq(%w(standard reduced super_reduced parking))
+      expect(belgium.vat_rates.keys).to eq(%w[standard reduced super_reduced parking])
     end
 
     it 'should return an array of reduced vat rates' do
@@ -1021,7 +1026,7 @@ describe ISO3166::Country do
 
     subject { ISO3166::Country.pluck(*args) }
 
-    it "returns empty arrays" do
+    it 'returns empty arrays' do
       expect(subject.first).to be_empty
       expect(subject.last).to be_empty
     end
@@ -1029,9 +1034,9 @@ describe ISO3166::Country do
     context "when asking for alpha2, alpha3 and iso_short_name" do
       let(:args) { [:alpha2, :alpha3, :iso_short_name] }
 
-      it "returns the correct values" do
-        expect(subject.first).to eq(["AD", "AND", "Andorra"])
-        expect(subject.last).to eq(["ZW", "ZWE", "Zimbabwe"])
+      it 'returns the correct values' do
+        expect(subject.first).to eq(%w[AD AND Andorra])
+        expect(subject.last).to eq(%w[ZW ZWE Zimbabwe])
       end
     end
   end

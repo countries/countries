@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 module ISO3166
   class Country
     extend CountryClassMethods
+    extend CountryFinderMethods
     include Emoji
     attr_reader :data
 

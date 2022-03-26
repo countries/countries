@@ -1,5 +1,4 @@
-#!/bin/env ruby
-# encoding: utf-8
+# frozen_string_literal: true
 
 module ISO3166
   module Emoji
@@ -36,7 +35,7 @@ module ISO3166
     #
     # The emoji flag for this country, using Unicode Regional Indicator characters. e.g: "U+1F1FA U+1F1F8" for 🇺🇸
     def emoji_flag
-      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join('')
+      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join
     end
   end
 end
