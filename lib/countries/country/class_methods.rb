@@ -147,6 +147,8 @@ module ISO3166
         # 'find_by_name' and 'find_*_by_name' will be changed for 5.0
         # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
         attributes = %w[iso_short_name unofficial_names translated_names]
+      elsif attribute.to_s == 'any_name'
+        attributes = %w[iso_long_name iso_short_name unofficial_names translated_names]
       end
 
       [attributes, parse_value(val)]
@@ -158,7 +160,7 @@ module ISO3166
 
     def searchable_attributes
       # Add name and names until we complete the deprecation of the finders
-      instance_methods - UNSEARCHABLE_METHODS + [:name, :names]
+      instance_methods - UNSEARCHABLE_METHODS + [:name, :names, :any_name]
     end
 
     def find_by(attribute, value, obj = nil)

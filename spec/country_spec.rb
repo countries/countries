@@ -713,6 +713,49 @@ describe ISO3166::Country do
       end
     end
 
+    describe '#find_country_by_any_name' do
+      context 'when search name found' do
+        let(:uk) { ISO3166::Country.find_country_by_any_name('United Kingdom') }
+
+        it 'should be a country instance' do
+          expect(uk).to be_a(ISO3166::Country)
+          expect(uk.alpha2).to eq('GB')
+        end
+      end
+
+      context 'when search lowercase name found' do
+        let(:uk) { ISO3166::Country.find_country_by_any_name('united kingdom') }
+
+        it 'should be a country instance' do
+          expect(uk).to be_a(ISO3166::Country)
+          expect(uk.alpha2).to eq('GB')
+        end
+      end
+
+      context 'when the search term contains comma' do
+        let(:korea) { ISO3166::Country.find_country_by_any_name('Korea, Republic of') }
+
+        it 'should be a country instance' do
+          expect(korea).to be_a(ISO3166::Country)
+          expect(korea.alpha2).to eq('KR')
+        end
+      end
+
+      context 'when search translation found' do
+        before do
+          ISO3166.configure do |config|
+            config.locales = [:bs]
+          end
+        end
+        let(:uk) { ISO3166::Country.find_country_by_any_name('Velika Britanija') }
+
+        it 'should be a country instance' do
+          expect(uk).to be_a(ISO3166::Country)
+          expect(uk.alpha2).to eq('GB')
+        end
+      end
+    end
+
     context 'regression test for #388' do
       let(:no_country) { ISO3166::Country.find_country_by_translated_names(nil) }
 
@@ -729,6 +772,7 @@ describe ISO3166::Country do
         expect { uk }.to raise_error(RuntimeError)
       end
     end
+
     context 'when search name not found' do
       let(:bogus) { ISO3166::Country.find_country_by_unofficial_names('Does not exist') }
 
