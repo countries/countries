@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'countries'
 RSpec.configure do |config|
   config.filter_run :focus

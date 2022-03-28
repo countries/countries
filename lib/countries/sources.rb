@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './sources/local/cached_loader'
 require_relative './sources/local/subdivision'
 
