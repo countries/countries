@@ -54,7 +54,7 @@ In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_nam
 
 For additional clarity, the `#names` method, which was an alias to `#unofficial_names` has also been deprecated, together with the finder methods that use `name` or `names` attributes.
 
-The `#name` and `#names` attributes will be removed in 5.0, and the deprecated finders will be removed in 5.1.
+The `#name` and `#names` attributes, and corresponding finder methods were removed in 5.0.
 
 The replacement finders added in 5.0 are:
 
@@ -70,6 +70,8 @@ With the addition of the new name attributes, there are now also the following f
 - `#find_by_iso_long_name`/`#find_*_by_iso_long_name`
 
 For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
+
+The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-03-31)
 
 ## Selective Loading of Locales
 
@@ -107,8 +109,7 @@ c    = ISO3166::Country.find_country_by_alpha3('can')
 For a list of available attributes please see `ISO3166::DEFAULT_COUNTRY_HASH`.
 Note: searches are *case insensitive and ignore accents*.
 
-_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods are deprecated and will be removed in 5.1. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above for the new methods_
-
+_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above for the new methods_
 
 ## Country Info
 
