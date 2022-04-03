@@ -51,7 +51,7 @@ task :update_cache do
     end
 
     # Apply any known corrections to i18n_data
-    corrections[locale].each do |alpha2, localized_name|
+    corrections[locale]&.each do |alpha2, localized_name|
       local_names[alpha2] = localized_name
     end
 
