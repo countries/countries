@@ -3,12 +3,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [Future 5.0 release]
+## [5.0.0] Upcoming
 
 **Breaking Changes**
 
-- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+- Drop support for Ruby 2.5 and 2.6. (EOL in 2021-03-31 and 2022-03-31, respectively)
+- Remove deprecated attributes; Add new `#find_by_any_name` finder
 
+**Merged pull requests:**
+
+- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+- Remove deprecated attributes; Add new `#find_by_any_name` finder
 
 ## [4.2.3](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/03/24 11:00 +00:00)
 

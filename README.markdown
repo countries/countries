@@ -54,9 +54,24 @@ In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_nam
 
 For additional clarity, the `#names` method, which was an alias to `#unofficial_names` has also been deprecated, together with the finder methods that use `name` or `names` attributes.
 
-The `#name` and `#names` attributes, and corresponding finder methods will be removed in 5.0.
+The `#name` and `#names` attributes, and corresponding finder methods were removed in 5.0.
+
+The replacement finders added in 5.0 are:
+
+- `#find_by_name` => `#find_by_any_name` - Searches all the name attributes, same as before
+- `#find_by_names` => `#find_by_unofficial_names`
+- `#find_*_by_name` => `#find_*_by_any_name`
+- `#find_*_by_names` => `#find_*_by_unofficial_names`
+
+With the addition of the new name attributes, there are now also the following finders:
+
+- `#find_by_common_name`/`#find_*_by_common_name`
+- `#find_by_iso_short_name`/`#find_*_by_iso_short_name`
+- `#find_by_iso_long_name`/`#find_*_by_iso_long_name`
 
 For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
+
+The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-03-31)
 
 ## Selective Loading of Locales
 
@@ -84,7 +99,8 @@ end
 You can lookup a country or an array of countries using any of the data attributes via the find\_country\_by_*attribute* dynamic methods:
 
 ```ruby
-c    = ISO3166::Country.find_country_by_iso_short_name('Italy')
+c    = ISO3166::Country.find_country_by_iso_short_name('italy')
+c    = ISO3166::Country.find_country_by_any_name('united states')
 h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
 c    = ISO3166::Country.find_country_by_alpha3('can')
@@ -93,8 +109,7 @@ c    = ISO3166::Country.find_country_by_alpha3('can')
 For a list of available attributes please see `ISO3166::DEFAULT_COUNTRY_HASH`.
 Note: searches are *case insensitive and ignore accents*.
 
-_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods are deprecated and will be removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above_
-
+_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above for the new methods_
 
 ## Country Info
 
@@ -151,7 +166,7 @@ c.region # => "Americas"
 c.subregion # => "Northern America"
 ```
 
-Please note that `latitude_dec` and `longitude_dec` was be deprecated on release 4.2 and will be deleted in 5.0. These attributes have been redundant for several years, since the `latitude` and `longitude` fields have been switched decimal coordinates.
+Please note that `latitude_dec` and `longitude_dec` were deprecated on release 4.2 and removed in 5.0. These attributes have been redundant for several years, since the `latitude` and `longitude` fields have been switched decimal coordinates.
 
 ### Timezones **(optional)**
 

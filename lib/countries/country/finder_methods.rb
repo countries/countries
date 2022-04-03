@@ -32,14 +32,6 @@ module ISO3166
       return_all = matches[1]
       super unless matches
 
-      if matches[3] == 'names'
-        if RUBY_VERSION =~ /^3\.\d\.\d/
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-        else
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
-        end
-      end
-
       countries = find_by(matches[3], arguments[0], matches[2])
       return_all ? countries : countries.last
     end
@@ -65,15 +57,8 @@ module ISO3166
       raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
-      if attribute.to_s == 'name'
-        if RUBY_VERSION =~ /^3\.\d\.\d/
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1, category: :deprecated
-        else
-          warn "DEPRECATION WARNING: 'find_by_name' and 'find_*_by_name' methods are deprecated, please refer to the README file for more information on this change.", uplevel: 1
-        end
-        # 'find_by_name' and 'find_*_by_name' will be changed for 5.0
-        # The addition of 'iso_short_name' here ensures the behaviour of 4.1 is kept for 4.2
-        attributes = %w[iso_short_name unofficial_names translated_names]
+      if attribute.to_s == 'any_name'
+        attributes = %w[iso_long_name iso_short_name unofficial_names translated_names]
       end
 
       [attributes, parse_value(val)]
@@ -89,7 +74,8 @@ module ISO3166
     end
 
     def searchable_attributes
-      instance_methods - UNSEARCHABLE_METHODS
+      # Add name and names until we complete the deprecation of the finders
+      instance_methods - UNSEARCHABLE_METHODS + [:name, :names, :any_name]
     end
   end
 end
