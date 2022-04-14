@@ -15,11 +15,11 @@ jobs:
     strategy:
       matrix:
          include:
-         - ruby-version: 2.7.5
+         - ruby-version: 2.7.6
            bundler-version: default
-         - ruby-version: 3.0.3
+         - ruby-version: 3.0.4
            bundler-version: default
-         - ruby-version: 3.1.1
+         - ruby-version: 3.1.2
            bundler-version: default
     steps:
     - uses: actions/checkout@v2
