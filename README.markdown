@@ -153,6 +153,9 @@ c.nationality # => "American"
 ```ruby
 c.subdivisions # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+
+# Get specific translations for the country subdivisions
+c.subdivision_names_with_codes('es') #=> [ ..., ["Nuevo Hampshire", "NH"], ["Nueva Jersey", "NJ"], ... ]
 ```
 
 ### Location
