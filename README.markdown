@@ -52,7 +52,7 @@ Release 4.2.0 introduced changes to name attributes and finders and deprecated s
 
 The 5.0 release removed these deprecated methods and also removed support for Ruby 2.5 and 2.6
 
-Plase see [UPGRADE.md](../blob/master/UPGRADE.md) for more information
+Plase see [UPGRADE.md](../master/UPGRADE.md) for more information
 
 ## Attribute-Based Finder Methods
 
