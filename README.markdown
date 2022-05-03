@@ -48,51 +48,11 @@ gem 'countries', require: 'countries/global'
 
 ## Upgrading to 4.2 and 5.x
 
-In release 4.2 the `#name` attribute was deprecated in favour of `#iso_short_name` and we added the `#iso_long_name` attribute, to make it clear that these attributes use the ISO3166 names, and are not the "common names" most people might expect, eg: The ISO name for "United Kingdom" is "United Kingdom of Great Britain and Northern Ireland", but if you're building a dropdown box to select a country, you're likely expecting to see "United Kingdom" instead.
+Release 4.2.0 introduced changes to name attributes and finders and deprecated several methods to resolve some existing confusion regardign official ISO country names vs. the "common names" that are commonly used.
 
-"Common names" in English have been available in the translation data, via `#translation('en')`. As of release 4.2, a shortcut method has been added for simplicity, `#common_name`, which delegates to `#translation('en')`.
+The 5.0 release removed these deprecated methods and also removed support for Ruby 2.5 and 2.6
 
-For additional clarity, the `#names` method, which was an alias to `#unofficial_names` has also been deprecated, together with the finder methods that use `name` or `names` attributes.
-
-The `#name` and `#names` attributes, and corresponding finder methods were removed in 5.0.
-
-The replacement finders added in 5.0 are:
-
-- `#find_by_name` => `#find_by_any_name` - Searches all the name attributes, same as before
-- `#find_by_names` => `#find_by_unofficial_names`
-- `#find_*_by_name` => `#find_*_by_any_name`
-- `#find_*_by_names` => `#find_*_by_unofficial_names`
-
-With the addition of the new name attributes, there are now also the following finders:
-
-- `#find_by_common_name`/`#find_*_by_common_name`
-- `#find_by_iso_short_name`/`#find_*_by_iso_short_name`
-- `#find_by_iso_long_name`/`#find_*_by_iso_long_name`
-
-For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
-
-The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-03-31)
-
-## Selective Loading of Locales
-
-As of 2.0 you can selectively load locales to reduce memory usage in production.
-
-By default we load `I18n.available_locales` if I18n is present, otherwise only `[:en]`. This means almost any Rails environment will only bring in its supported translations.
-
-You can add all the locales like this.
-
-```ruby
-ISO3166.configure do |config|
-  config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
-end
-```
-
-or something a bit more simple
-```ruby
-ISO3166.configure do |config|
-  config.locales = [:en, :de, :fr, :es]
-end
-```
+Plase see [UPGRADE.md](../blob/master/UPGRADE.md) for more information
 
 ## Attribute-Based Finder Methods
 
@@ -103,13 +63,13 @@ c    = ISO3166::Country.find_country_by_iso_short_name('italy')
 c    = ISO3166::Country.find_country_by_any_name('united states')
 h    = ISO3166::Country.find_all_by(:translated_names, 'França')
 list = ISO3166::Country.find_all_countries_by_region('Americas')
-c    = ISO3166::Country.find_country_by_alpha3('can')
+c    = ISO3166::Country.find_country_by_alpha2("FR")
 ```
 
 For a list of available attributes please see `ISO3166::DEFAULT_COUNTRY_HASH`.
 Note: searches are *case insensitive and ignore accents*.
 
-_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [Upgrading to 4.2 and 5.x](#upgrading-to-4-2-and-5-x) above for the new methods_
+_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [UPGRADE.md](../blob/master/UPGRADE.md) for more information_
 
 ## Country Info
 
@@ -218,11 +178,17 @@ c.in_eu? # => false
 c.in_eea? # => false
 ```
 
-
 ### European Single Market Membership
 
 ```ruby
 c.in_esm? # => false
+```
+
+## Country Code in Emoji
+
+```ruby
+c = Country['MY']
+c.emoji_flag # => "🇲🇾"
 ```
 
 ### Plucking multiple attributes
@@ -260,6 +226,27 @@ A template for formatting addresses is available through the address_format meth
 
 ```ruby
 c.address_format # => "{{recipient}}\n{{street}}\n{{city}} {{region}} {{postalcode}}\n{{country}}"
+```
+
+## Selective Loading of Locales
+
+As of 2.0 you can selectively load locales to reduce memory usage in production.
+
+By default we load `I18n.available_locales` if I18n is present, otherwise only `[:en]`. This means almost any Rails environment will only bring in its supported translations.
+
+You can add all the locales like this.
+
+```ruby
+ISO3166.configure do |config|
+  config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+end
+```
+
+or something a bit more simple
+```ruby
+ISO3166.configure do |config|
+  config.locales = [:en, :de, :fr, :es]
+end
 ```
 
 ## Loading Custom Data
@@ -325,13 +312,6 @@ Note that the database stores only the alpha2 code and rebuilds the object when 
 def country
   super.iso_short_name
 end
-```
-
-## Country Code in Emoji
-
-```ruby
-c = Country['MY']
-c.emoji_flag # => "🇲🇾"
 ```
 
 ## Note on Patches/Pull Requests
