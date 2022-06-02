@@ -3,12 +3,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.0.2](https://github.com/countries/countries/releases/tag/v5.0.2') (2022/06/02 20:01 +00:00)
+
+**Merged pull requests:**
+
+* Fix common name for IR [\#754](https://github.com/countries/countries/pull/754) ([pmor](https://github.com/pmor))
+* Update MX subdivisions: Remove DIF and update some unofficial names [\#755](https://github.com/countries/countries/pull/755) ([pmor](https://github.com/pmor))
+
 ## [5.0.1](https://github.com/countries/countries/releases/tag/v5.0.1') (2022/05/02 12:03 +00:00)
 
 **Merged pull requests:**
 
 * Added subdivision_names_with_codes method in documentation [\#747](https://github.com/countries/countries/pull/747) ([arymoraes](https://github.com/arymoraes))
-* Corrected Portuguese subdivision names by @FilipaDurao in [\#748](https://github.com/countries/countries/pull/748) ([FilipaDurao](https://github.com/FilipaDurao))
+* Corrected Portuguese subdivision names [\#748](https://github.com/countries/countries/pull/748) ([FilipaDurao](https://github.com/FilipaDurao))
 
 ## [5.0.0](https://github.com/countries/countries/releases/tag/v5.0.0') (2022/04/03 17:44 +00:00)
 
