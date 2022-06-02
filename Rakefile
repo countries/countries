@@ -31,29 +31,13 @@ end
 desc 'Update Cache'
 task :update_cache do
   require 'yaml'
-  require 'i18n_data'
 
   codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq.sort
   data = {}
 
-  corrections_file = File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')
-  corrections = YAML.load_file(corrections_file) || {}
-
-  language_keys = I18nData.languages.keys + %w[zh_CN zh_TW zh_HK bn_IN pt_BR]
-  # Ignore locales that have bad data in i18n_data 0.16.0
-  language_keys -= %w[AY AM BA]
-  language_keys.each do |locale|
-    locale = locale.downcase
-    begin
-      local_names = I18nData.countries(locale)
-    rescue I18nData::NoTranslationAvailable
-      next
-    end
-
-    # Apply any known corrections to i18n_data
-    corrections[locale]&.each do |alpha2, localized_name|
-      local_names[alpha2] = localized_name
-    end
+  Dir['lib/countries/data/translations/countries-*.yaml'].each do |locale_file|
+    locale = locale_file.split('-').last.split('.').first.downcase
+    local_names = YAML.load_file(locale_file)
 
     out = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json")
     File.binwrite(out, local_names.to_json)

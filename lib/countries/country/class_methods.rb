@@ -50,15 +50,17 @@ module ISO3166
     end
 
     def translations(locale = 'en')
-      i18n_data_countries = I18nData.countries(locale.upcase)
+      file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
+      translations = JSON.parse(File.read(file_path))
 
-      custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
+      custom_countries = {}
+      (ISO3166::Data.codes - ISO3166::Data.loaded_codes).each do |code|
         country = ISO3166::Country[code]
         translation = country.translations[locale] || country.iso_short_name
-        [code, translation]
-      end.to_h
+        custom_countries[code] = translation
+      end
 
-      i18n_data_countries.merge(custom_countries)
+      translations.merge(custom_countries)
     end
 
     def subdivisions(alpha2)

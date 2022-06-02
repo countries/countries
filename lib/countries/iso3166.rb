@@ -2,7 +2,6 @@
 
 require 'yaml'
 require 'json'
-require 'i18n_data'
 
 require 'countries/kwarg_struct'
 require 'countries/configuration'

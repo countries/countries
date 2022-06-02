@@ -330,7 +330,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all_translated('fr')
       expect(countries).to be_an(Array)
       expect(countries.first).to be_a(String)
-      expect(countries.first).to eq('Aruba')
+      expect(countries.first).to eq('Andorre')
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
@@ -340,7 +340,7 @@ describe ISO3166::Country do
       countries = ISO3166::Country.all_translated
       expect(countries).to be_an(Array)
       expect(countries.first).to be_a(String)
-      expect(countries.first).to eq('Aruba')
+      expect(countries.first).to eq('Andorra')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
@@ -448,8 +448,8 @@ describe ISO3166::Country do
     it 'should return an hash of all country names translated to the selected locale' do
       countries = ISO3166::Country.translations('fr')
       expect(countries).to be_an(Hash)
-      expect(countries.first[0]).to eq('AW')
-      expect(countries.first).to eq(%w[AW Aruba])
+      expect(countries.first[0]).to eq('AD')
+      expect(countries.first).to eq(%w[AD Andorre])
       # countries missing the desired locale will not be added to the list
       # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
@@ -458,8 +458,8 @@ describe ISO3166::Country do
     it 'should return an hash of all country names in English if no locale is passed' do
       countries = ISO3166::Country.translations
       expect(countries).to be_an(Hash)
-      expect(countries.first[0]).to eq('AW')
-      expect(countries.first).to eq(%w[AW Aruba])
+      expect(countries.first[0]).to eq('AD')
+      expect(countries.first).to eq(%w[AD Andorra])
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end

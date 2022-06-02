@@ -5,6 +5,7 @@ module ISO3166
   class Data
     @cache_dir = [File.dirname(__FILE__), 'cache']
     @cache = {}
+    @loaded_country_codes = []
     @registered_data = {}
     @mutex = Mutex.new
 
@@ -49,13 +50,22 @@ module ISO3166
 
       def codes
         load_data!
-        loaded_codes
+        cached_codes
       end
 
       def update_cache
         load_data!
         sync_translations!
         @cache
+      end
+
+      def loaded_codes
+        load_data!
+        @loaded_country_codes
+      end
+
+      def datafile_path(file_array)
+        File.join([@cache_dir] + file_array)
       end
 
       private
@@ -65,7 +75,7 @@ module ISO3166
 
         synchronized do
           @cache = load_cache %w[countries.json]
-          @_country_codes = @cache.keys
+          @loaded_country_codes = @cache.keys
           @cache = @cache.merge(@registered_data)
           @cache
         end
@@ -102,13 +112,13 @@ module ISO3166
         end
       end
 
-      def loaded_codes
+      def cached_codes
         @cache.keys
       end
 
       # Codes that we have translations for in dataset
       def internal_codes
-        @_country_codes - @registered_data.keys
+        @loaded_country_codes - @registered_data.keys
       end
 
       def cache_flush_required?
@@ -156,10 +166,6 @@ module ISO3166
       def load_cache(file_array)
         file_path = datafile_path(file_array)
         File.exist?(file_path) ? JSON.parse(File.binread(file_path)) : {}
-      end
-
-      def datafile_path(file_array)
-        File.join([@cache_dir] + file_array)
       end
 
       def deep_stringify_keys(data)
