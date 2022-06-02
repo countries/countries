@@ -21,6 +21,6 @@ With the addition of the new name attributes, there are now also the following f
 - `#find_by_iso_short_name`/`#find_*_by_iso_short_name`
 - `#find_by_iso_long_name`/`#find_*_by_iso_long_name`
 
-For translated country names, we use data from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". These names and the corresponding methods have not been changed.
+For translated country names, we use data originally sourced from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". Some corrections have been applied to these localized names. The methods to access translated names have not been changed.
 
 The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-03-31)
