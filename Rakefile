@@ -30,8 +30,6 @@ end
 
 desc 'Update Cache'
 task :update_cache do
-  require 'yaml'
-
   codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq.sort
   data = {}
 
