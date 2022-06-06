@@ -122,8 +122,12 @@ describe ISO3166::Data do
       expect(subject.iso_short_name).to eq 'NEW Taiwan'
       expect(subject.translations).to eq('en' => 'NEW Taiwan',
                                          'de' => 'NEW Taiwan')
-      expect(subject.subdivisions).to eq('CHA' => ISO3166::Subdivision.new({ name: 'New Changhua', code: 'CHA' }),
-                                         'CYI' => ISO3166::Subdivision.new({ name: 'New Municipality', code: 'CYI' }))
+      expect(subject.subdivisions.keys).to eq(%w[CHA CYI])
+      expect(subject.subdivisions.values.map(&:name)).to eq(['New Changhua', 'New Municipality'])
+    end
+
+    after do
+      ISO3166.reset
     end
   end
 
@@ -149,8 +153,8 @@ describe ISO3166::Data do
       data = ISO3166::Data.new('LOL').call
       expect(data['iso_short_name']).to eq 'Happy Country'
       expect(subject.iso_short_name).to eq 'Happy Country'
-      expect(subject.subdivisions).to eq('LOL1' => ISO3166::Subdivision.new({name: 'Happy sub1', code: 'LOL1'}),
-                                         'LOL2' => ISO3166::Subdivision.new({name: 'Happy sub2', code: 'LOL2'}))
+      expect(subject.subdivisions.keys).to eq(%w[LOL1 LOL2])
+      expect(subject.subdivisions.values.map(&:name)).to eq(['Happy sub1', 'Happy sub2'])
     end
 
     it 'detect a stale cache' do
@@ -181,7 +185,26 @@ describe ISO3166::Data do
     end
 
     after do
-      ISO3166::Data.unregister('lol')
+      ISO3166.reset
+    end
+  end
+
+  describe 'data checks' do
+    context 'subdivision YAML files' do
+      it 'has a non-blank code for all subdivisions' do
+        Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
+          data = YAML.load_file(file)
+          expect(data.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{file}"
+        end
+      end
+    end
+
+    context 'cached country subdivision data' do
+      it 'has a non-blank code for all subdivisions' do
+        ISO3166::Country.all.each do |country|
+          expect(country.subdivisions.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{country}"
+        end
+      end
     end
   end
 end
