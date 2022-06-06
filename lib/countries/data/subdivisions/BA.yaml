@@ -65,6 +65,7 @@ BIH:
     mk: Федерација Босна и Херцеговина
     'no': Føderasjonen av Bosnia og Hercegovina
   comments:
+  type: entity
 SRP:
   name: Republika Srpska
   code: SRP
@@ -138,6 +139,7 @@ SRP:
     mk: Република Српска
     'no': Republika Srpska
   comments:
+  type: entity
 BRC:
   name: Brčko Distrikt
   code: BRC
@@ -211,154 +213,4 @@ BRC:
     mk: Брчко
     'no': Brčko-distriktet
   comments:
-'01':
-  name: Una-Sana
-  code: '01'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Una-Sana
-    ccp: "\U00011105\U0001112A\U0001111A-\U00011125\U0001111A"
-  comments:
-'02':
-  name: Posavina
-  code: '02'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Posavina
-    ccp: "\U0001111B\U00011127\U00011125\U0001111E\U00011128\U0001111A"
-  comments:
-'03':
-  name: Tuzlanski
-  code: '03'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Tuzlanski
-    ccp: "\U00011111\U0001112A\U0001110C\U00011134\U00011123\U0001111A\U00011134\U00011107\U00011128"
-  comments:
-'04':
-  name: Zenica-Doboj
-  code: '04'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Zenica-Doboj
-    ccp: "\U0001110E\U0001112C\U0001111A\U00011128\U00011107-\U00011113\U00011127\U0001111D\U00011127\U0001110C\U00011134"
-  comments:
-'05':
-  name: Bosnian Podrinje
-  code: '05'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Bosnian Podrinje
-    ccp: "\U0001111D\U00011127\U0001110C\U00011134\U0001111A\U00011128\U00011120\U0001111A\U00011134
-      \U0001111B\U00011127\U00011116\U00011134\U00011122\U00011128\U0001111A\U00011134\U0001110E\U0001112C"
-  comments:
-'06':
-  name: Central Bosnia
-  code: '06'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Central Bosnia
-    ccp: "\U0001111F\U00011127\U0001110C\U00011134\U00011119\U00011133\U00011120 \U0001111D\U00011127\U0001110C\U00011134\U0001111A\U00011128\U00011120"
-  comments:
-'07':
-  name: Herzegovina-Neretva
-  code: '07'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Herzegovina-Neretva
-    ccp: "\U00011126\U00011122\U00011134\U0001110E\U0001112C\U00011109\U00011127\U0001111E\U00011128\U0001111A-\U0001111A\U0001112C\U00011122\U0001112C\U00011116\U00011134\U0001111E"
-  comments:
-'08':
-  name: West Herzegovina
-  code: '08'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: West Herzegovina
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011126\U00011122\U00011134\U0001110E\U0001112C\U00011109\U00011127\U0001111E\U00011128\U0001111A"
-  comments:
-'09':
-  name: Sarajevo
-  code: '09'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Sarajevo
-    ccp: "\U00011125\U00011122\U0001110E\U0001112C\U0001111E\U0001112E"
-  comments:
-'10':
-  name: Livanjski
-  code: '10'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Livanjski
-    ccp: "\U00011123\U00011128\U0001111E\U00011127\U0001111A\U00011134\U00011107\U00011128"
-  comments:
+  type: district_with_special_status
