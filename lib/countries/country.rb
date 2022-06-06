@@ -64,6 +64,12 @@ module ISO3166
                         end
     end
 
+    # @param types [Array<String>] The locale to use for translations.
+    # @return [Array<ISO3166::Subdivision>] the list of subdivisions of the given type(s) for this Country.
+    def subdivisions_of_types(types)
+      subdivisions.select{|k,v| types.include?(v.type)}
+    end
+
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
     def subdivision_names_with_codes(locale = 'en')
@@ -204,8 +210,6 @@ module ISO3166
     #
     # @!attribute world_region
     #   @return [String] The "World Region" this country is in: +"AMER"+ , +"APAC"+ or +"EMEA"+
-
-
 
     private
 
