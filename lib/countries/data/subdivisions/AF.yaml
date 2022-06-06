@@ -69,6 +69,7 @@ BAL:
     pa: ਬਲਖ ਸੂਬਾ
     'no': Balkh
   comments:
+  type: province
 BAM:
   name: Bamian
   code: BAM
@@ -143,6 +144,7 @@ BAM:
     ml: ബാമിയാൻ പ്രവിശ്യ
     'no': Bamiyan
   comments:
+  type: province
 BDG:
   name: Badghis
   code: BDG
@@ -215,6 +217,7 @@ BDG:
     ccp: "\U0001111D\U00011116\U00011134\U0001110A\U00011128\U0001110C\U00011134"
     'no': Badghis
   comments:
+  type: province
 BDS:
   name: Badakhshan
   code: BDS
@@ -288,6 +291,7 @@ BDS:
     pa: ਸੂਬਾ ਬਦਖ਼ਸ਼ਾਂ
     'no': Badakhshan
   comments:
+  type: province
 BGL:
   name: Baghlan
   code: BGL
@@ -358,6 +362,7 @@ BGL:
     ccp: "\U0001111D\U00011107\U00011134\U00011123\U0001111A\U00011134"
     'no': Baghlan
   comments:
+  type: province
 DAY:
   name: Daykondi
   code: DAY
@@ -419,6 +424,7 @@ DAY:
     ccp: "\U00011113\U0001112C\U00011107\U0001112A\U0001111A\U00011134\U00011118\U00011128"
     'no': Daikondi
   comments:
+  type: province
 FRA:
   name: Farah
   code: FRA
@@ -486,6 +492,7 @@ FRA:
     ccp: "\U0001111C\U00011122\U00011126\U00011134"
     'no': Farah
   comments:
+  type: province
 FYB:
   name: Faryab
   code: FYB
@@ -555,6 +562,7 @@ FYB:
     uz: Foryob (viloyat)
     'no': Faryab
   comments:
+  type: province
 GHA:
   name: Ghazni
   code: GHA
@@ -626,6 +634,7 @@ GHA:
     pa: ਗਜ਼ਨੀ ਸੂਬਾ
     'no': Ghazni
   comments:
+  type: province
 GHO:
   name: Ghowr
   code: GHO
@@ -697,6 +706,7 @@ GHO:
     pa: ਗ਼ੋਰ ਸੂਬਾ
     'no': Ghowr
   comments:
+  type: province
 HEL:
   name: Helmand
   code: HEL
@@ -769,6 +779,7 @@ HEL:
     pa: ਹੇਲਮੰਦ ਸੂਬਾ
     'no': Helmand
   comments:
+  type: province
 HER:
   name: Herat
   code: HER
@@ -836,6 +847,7 @@ HER:
     ccp: "\U00011126\U0001112C\U00011122\U00011116\U00011134"
     'no': Herat
   comments:
+  type: province
 JOW:
   name: Jowzjan
   code: JOW
@@ -909,6 +921,7 @@ JOW:
     uz: Joʻzjon
     'no': Jowzjan
   comments:
+  type: province
 KAB:
   name: Kabul [Kabol]
   code: KAB
@@ -980,6 +993,7 @@ KAB:
     tk: Kabul welaýaty
     'no': Kabul
   comments:
+  type: province
 KAN:
   name: Kandahar
   code: KAN
@@ -1049,6 +1063,7 @@ KAN:
     ccp: "\U00011107\U0001111A\U00011134\U00011118\U00011126\U00011122\U00011134"
     'no': Kandahar
   comments:
+  type: province
 KAP:
   name: Kapisa
   code: KAP
@@ -1119,6 +1134,7 @@ KAP:
     pa: ਕਾਪੀਸਾ
     'no': Kapisa
   comments:
+  type: province
 KDZ:
   name: Kondoz [Kunduz]
   code: KDZ
@@ -1191,6 +1207,7 @@ KDZ:
     ccp: "\U00011107\U0001112A\U0001111A\U00011134\U00011113\U0001112A\U0001110C\U00011134"
     'no': Kunduz
   comments:
+  type: province
 KHO:
   name: Khowst
   code: KHO
@@ -1264,6 +1281,7 @@ KHO:
     pa: ਖੋਸਤ
     'no': Khost
   comments:
+  type: province
 KNR:
   name: Konar [Kunar]
   code: KNR
@@ -1332,6 +1350,7 @@ KNR:
     pa: ਕੁਨੜ ਸੂਬਾ
     'no': Konar
   comments:
+  type: province
 LAG:
   name: Laghman
   code: LAG
@@ -1401,25 +1420,7 @@ LAG:
     pa: ਲਗਮਾਨ
     'no': Laghman
   comments:
-LOW:
-  name: Lowgar
-  code: LOW
-  unofficial_names:
-  - Lawgar
-  - Logar
-  - Loghar
-  - Lowgar
-  - Lowghar
-  geo:
-    latitude: 34.0145518
-    longitude: 69.1923916
-    min_latitude: 33.602526
-    min_longitude: 68.716335
-    max_latitude: 34.366983
-    max_longitude: 69.8876531
-  translations:
-    en: Lowgar
-  comments:
+  type: province
 NAN:
   name: Nangrahar [Nangarhar]
   code: NAN
@@ -1490,6 +1491,7 @@ NAN:
     pa: ਨੰਗਰਹਾਰ ਸੂਬਾ
     'no': Nangarhar
   comments:
+  type: province
 NIM:
   name: Nimruz
   code: NIM
@@ -1562,6 +1564,7 @@ NIM:
     pa: ਨੀਮਰੋਜ਼ ਸੂਬਾ
     'no': Nimruz
   comments:
+  type: province
 NUR:
   name: Nurestan
   code: NUR
@@ -1635,26 +1638,7 @@ NUR:
     uz: Nuriston
     'no': Nuristān
   comments:
-ORU:
-  name: Oruzgan [Uruzgan]
-  code: ORU
-  unofficial_names:
-  - Oruzgan
-  - Oruzghan
-  - Orūzghān
-  - Uruzgan
-  - Uruzghan
-  - Urūzghān
-  geo:
-    latitude: 32.93021
-    longitude: 66.63642899999999
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Oruzgan [Uruzgan]
-  comments:
+  type: province
 PAN:
   name: Panjshir
   code: PAN
@@ -1713,6 +1697,7 @@ PAN:
     pa: ਪੰਜਸ਼ਿਰ
     'no': Panjshir
   comments:
+  type: province
 PAR:
   name: Parwan
   code: PAR
@@ -1783,6 +1768,7 @@ PAR:
     pa: ਪਰਵਾਨ
     'no': Parvan
   comments:
+  type: province
 PIA:
   name: Paktia
   code: PIA
@@ -1852,6 +1838,7 @@ PIA:
     pa: ਪਕਤੀਆ
     'no': Paktia
   comments:
+  type: province
 PKA:
   name: Paktika
   code: PKA
@@ -1919,6 +1906,7 @@ PKA:
     pa: ਪਕਤੀਕਾ
     'no': Paktika
   comments:
+  type: province
 SAM:
   name: Samangan
   code: SAM
@@ -1986,6 +1974,7 @@ SAM:
     pa: ਸਮੰਗਾਨ ਸੂਬਾ
     'no': Samangan
   comments:
+  type: province
 SAR:
   name: Sar-e Pol
   code: SAR
@@ -2055,6 +2044,7 @@ SAR:
     pa: ਸਰੇ ਪੋਲ
     'no': Sar-e Pol
   comments:
+  type: province
 TAK:
   name: Takhar
   code: TAK
@@ -2125,6 +2115,7 @@ TAK:
     pa: ਤਖਾਰ ਸੂਬਾ
     'no': Takhar
   comments:
+  type: province
 WAR:
   name: Wardak [Wardag]
   code: WAR
@@ -2194,6 +2185,7 @@ WAR:
     pa: ਵਾਰਦਾਕ
     'no': Vardak
   comments:
+  type: province
 ZAB:
   name: Zabol [Zabul]
   code: ZAB
@@ -2263,6 +2255,7 @@ ZAB:
     pa: ਜ਼ਾਬੁਲ ਸੂਬਾ
     'no': Zabol
   comments:
+  type: province
 LOG:
   name: لوګر ولايت
   code: LOG
@@ -2330,6 +2323,7 @@ LOG:
     uz: Luvgar
     'no': Lowgar
   comments:
+  type: province
 URU:
   name: روزګان ولايت
   code: URU
@@ -2397,3 +2391,4 @@ URU:
     ml: ഉറോസ്ഗാൻ പ്രവിശ്യ
     'no': Uruzgan
   comments:
+  type: province
