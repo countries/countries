@@ -197,6 +197,14 @@ describe ISO3166::Data do
           expect(data.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{file}"
         end
       end
+
+      it 'has a non-blank type for all subdivisions' do
+        Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
+          data = YAML.load_file(file)
+          no_type = data.select{|k,v| v['type'].nil? }
+          expect(no_type).to be_empty, "empty subdivision type in #{file} - #{no_type.keys}"
+        end
+      end
     end
 
     context 'cached country subdivision data' do
