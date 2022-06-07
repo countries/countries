@@ -1,18 +1,4 @@
 ---
-AB:
-  name: Äli Bayramli
-  code: AB
-  unofficial_names: Äli Bayramli
-  geo:
-    latitude: 39.931944
-    longitude: 48.920278
-    min_latitude: 39.8688393
-    min_longitude: 48.867445
-    max_latitude: 39.983434
-    max_longitude: 48.9807415
-  translations:
-    en: Äli Bayramli
-  comments:
 ABS:
   name: Abseron
   code: ABS
@@ -75,6 +61,7 @@ ABS:
     mk: Апшерон
     'no': Abşeron
   comments:
+  type: rayon
 AGA:
   name: Agstafa
   code: AGA
@@ -136,6 +123,7 @@ AGA:
     mk: Агстафа
     'no': Ağstafa
   comments:
+  type: rayon
 AGC:
   name: Agcabädi
   code: AGC
@@ -197,6 +185,7 @@ AGC:
     mk: Агџабеди
     'no': Aghjabadi distrikt
   comments:
+  type: rayon
 AGM:
   name: Agdam
   code: AGM
@@ -259,6 +248,7 @@ AGM:
     mk: Агдам
     'no': Ağdam
   comments:
+  type: rayon
 AGS:
   name: Agdas
   code: AGS
@@ -320,6 +310,7 @@ AGS:
     mk: Агдаш
     'no': Ağdaş
   comments:
+  type: rayon
 AGU:
   name: Agsu
   code: AGU
@@ -381,6 +372,7 @@ AGU:
     mk: Агсу
     'no': Ağsu
   comments:
+  type: rayon
 AST:
   name: Astara
   code: AST
@@ -442,6 +434,7 @@ AST:
     mk: Астара
     'no': Astara
   comments:
+  type: rayon
 BA:
   name: Baki
   code: BA
@@ -537,6 +530,7 @@ BA:
     'no': Baku
     yo_BJ: Baku
   comments:
+  type: municipality
 BAB:
   name: Babäk
   code: BAB
@@ -595,6 +589,7 @@ BAB:
     mk: Бабек
     'no': Babək
   comments:
+  type: rayon
 BAL:
   name: Balakän
   code: BAL
@@ -656,6 +651,7 @@ BAL:
     mk: Балакен
     'no': Balakən
   comments:
+  type: rayon
 BAR:
   name: Bärdä
   code: BAR
@@ -716,6 +712,7 @@ BAR:
     mk: Барда
     'no': Bərdə
   comments:
+  type: rayon
 BEY:
   name: Beyläqan
   code: BEY
@@ -776,6 +773,7 @@ BEY:
     mk: Бејлеган
     'no': Beyləqan
   comments:
+  type: rayon
 BIL:
   name: Biläsuvar
   code: BIL
@@ -834,6 +832,7 @@ BIL:
     mk: Биљасувар
     'no': Biləsuvar
   comments:
+  type: rayon
 CAB:
   name: Cäbrayil
   code: CAB
@@ -893,6 +892,7 @@ CAB:
     mk: Џебраил
     'no': Cəbrayıl
   comments:
+  type: rayon
 CAL:
   name: Cälilabab
   code: CAL
@@ -953,6 +953,7 @@ CAL:
     mk: Џелилабад
     'no': Cəlilabab
   comments:
+  type: rayon
 CUL:
   name: Culfa
   code: CUL
@@ -1012,6 +1013,7 @@ CUL:
     mk: Џулфа
     'no': Culfa
   comments:
+  type: rayon
 DAS:
   name: Daskäsän
   code: DAS
@@ -1073,20 +1075,7 @@ DAS:
     mk: Дашкесен
     'no': Daşkəsən
   comments:
-DAV:
-  name: Däväçi
-  code: DAV
-  unofficial_names: Däväçi
-  geo:
-    latitude: 41.2872222
-    longitude: 49.0747222
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Däväçi
-  comments:
+  type: rayon
 FUZ:
   name: Füzuli
   code: FUZ
@@ -1147,6 +1136,7 @@ FUZ:
     mk: Физули
     'no': Füzuli
   comments:
+  type: rayon
 GA:
   name: Gäncä
   code: GA
@@ -1221,6 +1211,7 @@ GA:
     uz: Ganja
     'no': Gandsja
   comments:
+  type: municipality
 GAD:
   name: Gädäbäy
   code: GAD
@@ -1282,6 +1273,7 @@ GAD:
     mk: Гедебеј
     'no': Gədəbəy
   comments:
+  type: rayon
 GOR:
   name: Goranboy
   code: GOR
@@ -1342,6 +1334,7 @@ GOR:
     mk: Горанбој
     'no': Goranboy
   comments:
+  type: rayon
 GOY:
   name: Göyçay
   code: GOY
@@ -1400,6 +1393,7 @@ GOY:
     mk: Ѓојчај
     'no': Göyçay
   comments:
+  type: rayon
 HAC:
   name: Haciqabul
   code: HAC
@@ -1460,6 +1454,7 @@ HAC:
     mk: Аџикабул
     'no': Hacıqabul
   comments:
+  type: rayon
 IMI:
   name: Imisli
   code: IMI
@@ -1518,6 +1513,7 @@ IMI:
     mk: Имишли (округ)
     'no': İmişli (distrikt)
   comments:
+  type: rayon
 ISM:
   name: Ismayilli
   code: ISM
@@ -1576,6 +1572,7 @@ ISM:
     mk: Исмаили (округ)
     'no': İsmayıllı (distrikt)
   comments:
+  type: rayon
 KAL:
   name: Kälbäcär
   code: KAL
@@ -1636,6 +1633,7 @@ KAL:
     mk: Келбеџер
     'no': Kəlbəcər
   comments:
+  type: rayon
 KUR:
   name: Kürdämir
   code: KUR
@@ -1693,6 +1691,7 @@ KUR:
     mk: Ќурдемир
     'no': Kürdəmir
   comments:
+  type: rayon
 LA:
   name: Länkäran City
   code: LA
@@ -1751,6 +1750,7 @@ LA:
     mk: Ленкеран
     'no': Lənkəran
   comments:
+  type: municipality
 LAC:
   name: Laçin
   code: LAC
@@ -1795,6 +1795,7 @@ LAC:
     mk: Лачин
     'no': Laçın
   comments:
+  type: rayon
 LAN:
   name: Länkäran
   code: LAN
@@ -1863,6 +1864,7 @@ LAN:
     uz: Lenkoran
     'no': Lənkəran²
   comments:
+  type: rayon
 LER:
   name: Lerik
   code: LER
@@ -1920,6 +1922,7 @@ LER:
     mk: Лерик
     'no': Lerik
   comments:
+  type: rayon
 MAS:
   name: Masalli
   code: MAS
@@ -1977,6 +1980,7 @@ MAS:
     mk: Масали
     'no': Masallı
   comments:
+  type: rayon
 MI:
   name: Mingäçevir
   code: MI
@@ -2043,6 +2047,7 @@ MI:
     be: Мінгечаур
     'no': Mingachevir
   comments:
+  type: municipality
 NA:
   name: Naftalan
   code: NA
@@ -2061,6 +2066,7 @@ NA:
     ceb: Naftalan
     ccp: "\U0001111A\U0001111B\U00011134\U00011111\U00011123\U00011127\U0001111A\U00011134"
   comments:
+  type: municipality
 NEF:
   name: Neftçala
   code: NEF
@@ -2118,6 +2124,7 @@ NEF:
     mk: Нефтчала
     'no': Neftçala
   comments:
+  type: rayon
 NX:
   name: Naxçivan
   code: NX
@@ -2195,6 +2202,7 @@ NX:
     bs: Nahičevan
     'no': Nakhitsjevan
   comments:
+  type: autonomous_republic
 OGU:
   name: Oguz
   code: OGU
@@ -2254,6 +2262,7 @@ OGU:
     mk: Огуз
     'no': Oğuz
   comments:
+  type: rayon
 ORD:
   name: Ordubad
   code: ORD
@@ -2313,6 +2322,7 @@ ORD:
     mk: Ордубад
     'no': Ordubad
   comments:
+  type: rayon
 QAB:
   name: Qäbälä
   code: QAB
@@ -2375,6 +2385,7 @@ QAB:
     mk: Кабала
     'no': Qəbələ
   comments:
+  type: rayon
 QAX:
   name: Qax
   code: QAX
@@ -2434,6 +2445,7 @@ QAX:
     mk: Ках
     'no': Qax
   comments:
+  type: rayon
 QAZ:
   name: Qazax
   code: QAZ
@@ -2496,6 +2508,7 @@ QAZ:
     mk: Казах
     'no': Qazax
   comments:
+  type: rayon
 QBA:
   name: Quba
   code: QBA
@@ -2556,6 +2569,7 @@ QBA:
     mk: Куба
     'no': Quba
   comments:
+  type: rayon
 QBI:
   name: Qubadli
   code: QBI
@@ -2615,6 +2629,7 @@ QBI:
     mk: Кубадли
     'no': Qubadlı
   comments:
+  type: rayon
 QOB:
   name: Qobustan
   code: QOB
@@ -2674,6 +2689,7 @@ QOB:
     mk: Гобустан
     'no': Qobustan
   comments:
+  type: rayon
 QUS:
   name: Qusar
   code: QUS
@@ -2733,6 +2749,7 @@ QUS:
     mk: Кусар
     'no': Qusar
   comments:
+  type: rayon
 SA:
   name: Säki City
   code: SA
@@ -2801,6 +2818,7 @@ SA:
     uz: Sheki
     'no': Şəki
   comments:
+  type: municipality
 SAB:
   name: Sabirabad
   code: SAB
@@ -2862,6 +2880,7 @@ SAB:
     bg: Сабирабад (район)
     'no': Sabirabad
   comments:
+  type: rayon
 SAD:
   name: Sädäräk
   code: SAD
@@ -2920,6 +2939,7 @@ SAD:
     mk: Седерек
     'no': Sədərək
   comments:
+  type: rayon
 SAH:
   name: Sahbuz
   code: SAH
@@ -2976,6 +2996,7 @@ SAH:
     mk: Шахбуз (округ)
     'no': Şahbuz (distrikt)
   comments:
+  type: rayon
 SAK:
   name: Säki
   code: SAK
@@ -3036,6 +3057,7 @@ SAK:
     mk: Шеки
     'no': Şəki²
   comments:
+  type: rayon
 SAL:
   name: Salyan
   code: SAL
@@ -3093,6 +3115,7 @@ SAL:
     mk: Саљан
     'no': Salyan
   comments:
+  type: rayon
 SAR:
   name: Särur
   code: SAR
@@ -3137,6 +3160,7 @@ SAR:
     mk: Шерур
     'no': Şərur (distrikt)
   comments:
+  type: rayon
 SAT:
   name: Saatli
   code: SAT
@@ -3194,6 +3218,7 @@ SAT:
     mk: Саатли
     'no': Saatlı
   comments:
+  type: rayon
 SIY:
   name: Siyäzän
   code: SIY
@@ -3252,6 +3277,7 @@ SIY:
     mk: Сијезен
     'no': Siyəzən
   comments:
+  type: rayon
 SKR:
   name: Sämkir
   code: SKR
@@ -3313,6 +3339,7 @@ SKR:
     mk: Шемкир
     'no': Şəmkir
   comments:
+  type: rayon
 SM:
   name: Sumqayit
   code: SM
@@ -3388,6 +3415,7 @@ SM:
     mk: Сумгајит
     'no': Sumqayit
   comments:
+  type: municipality
 SMI:
   name: Samaxi
   code: SMI
@@ -3435,6 +3463,7 @@ SMI:
     mk: Шамахи
     'no': Şamaxı
   comments:
+  type: rayon
 SMX:
   name: Samux
   code: SMX
@@ -3493,20 +3522,7 @@ SMX:
     mk: Самух
     'no': Samux
   comments:
-SS:
-  name: Susa City
-  code: SS
-  unofficial_names: Susa City
-  geo:
-    latitude: 39.7537438
-    longitude: 46.7464755
-    min_latitude: 39.7456061
-    min_longitude: 46.7307758
-    max_latitude: 39.7725926
-    max_longitude: 46.765623
-  translations:
-    en: Susa City
-  comments:
+  type: rayon
 SUS:
   name: Susa
   code: SUS
@@ -3567,6 +3583,7 @@ SUS:
     mk: Шуша
     'no': Şuşa
   comments:
+  type: rayon
 TAR:
   name: Tärtär
   code: TAR
@@ -3626,6 +3643,7 @@ TAR:
     mk: Тертер
     'no': Tərtər
   comments:
+  type: rayon
 TOV:
   name: Tovuz
   code: TOV
@@ -3685,6 +3703,7 @@ TOV:
     mk: Товуз
     'no': Tovuz
   comments:
+  type: rayon
 UCA:
   name: Ucar
   code: UCA
@@ -3742,6 +3761,7 @@ UCA:
     mk: Уџар
     'no': Ucar
   comments:
+  type: rayon
 XA:
   name: Xankändi
   code: XA
@@ -3818,6 +3838,7 @@ XA:
     mk: Степанакерт
     'no': Stepanakert
   comments:
+  type: municipality
 XAC:
   name: Xaçmaz
   code: XAC
@@ -3877,20 +3898,7 @@ XAC:
     mk: Хачмаз
     'no': Xaçmaz
   comments:
-XAN:
-  name: Xanlar
-  code: XAN
-  unofficial_names: Xanlar
-  geo:
-    latitude: 40.5008523
-    longitude: 46.3454855
-    min_latitude: 40.274401
-    min_longitude: 46.0786468
-    max_latitude: 40.841456
-    max_longitude: 46.51906
-  translations:
-    en: Xanlar
-  comments:
+  type: rayon
 XCI:
   name: Xocali
   code: XCI
@@ -3953,6 +3961,7 @@ XCI:
     mk: Хоџали
     'no': Xocalı
   comments:
+  type: rayon
 XIZ:
   name: Xizi
   code: XIZ
@@ -3995,6 +4004,7 @@ XIZ:
     mk: Хизи
     'no': Xızı
   comments:
+  type: rayon
 XVD:
   name: Xocavänd
   code: XVD
@@ -4038,6 +4048,7 @@ XVD:
     mk: Хоџавенд
     'no': Xocavənd
   comments:
+  type: rayon
 YAR:
   name: Yardimli
   code: YAR
@@ -4096,6 +4107,7 @@ YAR:
     mk: Јардимли
     'no': Yardımlı
   comments:
+  type: rayon
 YE:
   name: Yevlax City
   code: YE
@@ -4142,6 +4154,7 @@ YE:
     ccp: "\U00011103\U00011128\U00011120\U0001112C\U0001111B\U00011134\U00011123\U00011107\U00011134"
     be: Еўлах
   comments:
+  type: municipality
 YEV:
   name: Yevlax
   code: YEV
@@ -4201,6 +4214,7 @@ YEV:
     mk: Јевлах
     'no': Yevlax
   comments:
+  type: rayon
 ZAN:
   name: Zängilan
   code: ZAN
@@ -4259,6 +4273,7 @@ ZAN:
     mk: Зенгилан (округ)
     'no': Zəngilan (distrikt)
   comments:
+  type: rayon
 ZAQ:
   name: Zaqatala
   code: ZAQ
@@ -4320,6 +4335,7 @@ ZAQ:
     mk: Закатала (округ)
     'no': Zaqatala (distrikt)
   comments:
+  type: rayon
 ZAR:
   name: Zärdab
   code: ZAR
@@ -4377,6 +4393,7 @@ ZAR:
     mk: Зердаб
     'no': Zərdab (distrikt)
   comments:
+  type: rayon
 NV:
   name: Naxçıvan
   code: NV
@@ -4450,6 +4467,7 @@ NV:
     uz: Naxichevan (shahar)
     'no': Nachitjevan
   comments:
+  type: municipality
 KAN:
   name: Kəngərli
   code: KAN
@@ -4507,6 +4525,7 @@ KAN:
     mk: Кенгерли
     'no': Kəngərli
   comments:
+  type: rayon
 SBN:
   name: Şabran (rayon)
   code: SBN
@@ -4566,6 +4585,7 @@ SBN:
     mk: Шабран
     'no': Şabran
   comments:
+  type: rayon
 SR:
   name: Şirvan
   code: SR
@@ -4617,6 +4637,7 @@ SR:
     ccp: "\U00011125\U00011128\U00011122\U0001111E\U00011127\U0001111A\U00011134"
     mk: Ширван
   comments:
+  type: municipality
 GYG:
   name: Göygöl
   code: GYG
@@ -4660,3 +4681,4 @@ GYG:
     mk: Ѓојѓол
     'no': Göygöl
   comments:
+  type: rayon

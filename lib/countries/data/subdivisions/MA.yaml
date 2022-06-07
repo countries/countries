@@ -72,6 +72,7 @@ AGD:
     mk: Агадир
     'no': Agadir
   comments:
+  type: prefecture
 AOU:
   name: Aousserd
   code: AOU
@@ -98,6 +99,7 @@ AOU:
     zh: 奧塞爾德省
     ccp: "\U00011103\U00011103\U0001112F\U00011125\U0001112C\U00011122\U00011134\U00011113\U00011134"
   comments:
+  type: province
 ASZ:
   name: Assa-Zag
   code: ASZ
@@ -126,6 +128,7 @@ ASZ:
     zh: 阿薩-扎格省
     ccp: "\U00011103\U0001110C\U00011133\U00011126\U00011134-\U0001110E\U00011107\U00011134"
   comments:
+  type: province
 AZI:
   name: Azilal
   code: AZI
@@ -153,6 +156,7 @@ AZI:
     zh: 艾濟拉勒省
     ccp: "\U00011103\U0001110E\U00011128\U00011123\U00011123\U00011134"
   comments:
+  type: province
 BAH:
   name: Aït Baha
   code: BAH
@@ -167,6 +171,7 @@ BAH:
   translations:
     en: Aït Baha
   comments:
+  type: province
 BEM:
   name: Beni Mellal
   code: BEM
@@ -194,6 +199,7 @@ BEM:
     zh: 貝尼邁拉勒省
     ccp: "\U0001111D\U0001112C\U0001111A\U00011128-\U0001111F\U0001112C\U00011123\U00011123\U00011134"
   comments:
+  type: province
 BER:
   name: Berkane
   code: BER
@@ -222,6 +228,7 @@ BER:
     fa: استان برکان
     ccp: "\U0001111D\U0001112C\U00011122\U00011134\U00011107\U0001111A\U00011134"
   comments:
+  type: province
 BES:
   name: Ben Slimane
   code: BES
@@ -249,6 +256,7 @@ BES:
     zh: 本蘇萊曼省
     ccp: "\U0001111D\U0001112C\U0001111A\U00011134 \U00011125\U00011133\U00011123\U00011128\U0001111F\U0001111A\U00011134"
   comments:
+  type: province
 BOD:
   name: Boujdour (EH)
   code: BOD
@@ -275,6 +283,7 @@ BOD:
     zh: 布支杜爾省
     ccp: "\U0001111D\U0001112F\U0001110C\U00011134\U00011113\U0001112F\U00011122\U00011134"
   comments:
+  type: province
 BOM:
   name: Boulemane
   code: BOM
@@ -301,10 +310,11 @@ BOM:
     zh: 布勒曼省
     ccp: "\U0001111D\U0001112F\U00011123\U0001112C\U0001111F\U0001111A\U00011134"
   comments:
+  type: province
 CAS:
-  name: Casablanca [Dar el Beïda]*
+  name: Casablanca [Dar el Beïda]
   code: CAS
-  unofficial_names: Casablanca [Dar el Beïda]*
+  unofficial_names: Casablanca [Dar el Beïda]
   geo:
     latitude: 33.5731104
     longitude: -7.589843399999999
@@ -393,6 +403,7 @@ CAS:
     'no': Casablanca
     yo_BJ: Casablanca
   comments:
+  type: prefecture
 CHE:
   name: Chefchaouene
   code: CHE
@@ -420,6 +431,7 @@ CHE:
     zh: 謝夫沙萬省
     ccp: "\U0001110C\U0001112C\U0001111B\U00011134\U0001110C\U0001112C\U00011120\U0001112F\U00011120\U0001112C\U0001111A\U00011134"
   comments:
+  type: province
 CHI:
   name: Chichaoua
   code: CHI
@@ -449,6 +461,7 @@ CHI:
     fa: استان شیشاوه
     ccp: "\U0001110C\U00011128\U0001110C\U0001112F\U00011124"
   comments:
+  type: province
 CHT:
   name: Chtouka-Ait Baha
   code: CHT
@@ -478,6 +491,7 @@ CHT:
     ccp: "\U00011111\U0001112E\U00011107 \U00011103\U00011103\U00011128\U00011116\U00011134
       \U0001111D\U00011126"
   comments:
+  type: province
 ERR:
   name: Errachidia
   code: ERR
@@ -505,6 +519,7 @@ ERR:
     fa: استان رشیدیه
     ccp: "\U00011103\U00011129\U00011122\U0001110C\U00011128\U00011118\U00011128\U00011120"
   comments:
+  type: province
 ESI:
   name: Essaouira
   code: ESI
@@ -534,6 +549,7 @@ ESI:
     fa: استان صویره
     ccp: "\U00011103\U00011128\U00011125\U0001112F\U00011103\U00011128\U00011122"
   comments:
+  type: province
 ESM:
   name: Es Smara (EH)
   code: ESM
@@ -560,6 +576,7 @@ ESM:
     zh: 塞馬拉省
     ccp: "\U00011103\U00011128\U0001110C\U00011134 \U00011125\U0001112C\U0001111F\U00011122"
   comments:
+  type: province
 FAH:
   name: Fahs-Beni Makada
   code: FAH
@@ -590,10 +607,11 @@ FAH:
     ccp: "\U0001111C\U00011126\U00011134\U00011125\U00011134-\U0001111D\U0001112C\U0001111A\U00011128
       \U0001111F\U00011116\U00011113"
   comments:
+  type: province
 FES:
-  name: Fès*
+  name: Fès
   code: FES
-  unofficial_names: Fès*
+  unofficial_names: Fès
   geo:
     latitude: 34.033333
     longitude: -5
@@ -663,6 +681,7 @@ FES:
     mk: Фес
     'no': Fès
   comments:
+  type: prefecture
 FIG:
   name: Figuig
   code: FIG
@@ -691,6 +710,7 @@ FIG:
     fa: استان فکیک
     ccp: "\U0001111C\U00011128\U00011109\U0001112A\U00011103\U00011128\U00011107\U00011134"
   comments:
+  type: province
 GUE:
   name: Guelmim
   code: GUE
@@ -743,6 +763,7 @@ GUE:
     uk: Гельмім
     'no': Guelmim Kommune
   comments:
+  type: province
 HAJ:
   name: El Hajeb
   code: HAJ
@@ -768,6 +789,7 @@ HAJ:
     zh: 哈傑卜省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U0001111D\U0001110E\U00011128\U0001111B\U00011134"
   comments:
+  type: province
 HAO:
   name: Al Haouz
   code: HAO
@@ -798,6 +820,7 @@ HAO:
     pl: prowincja Al Haouz
     ccp: "\U00011103\U00011123\U00011134 \U00011126\U00011105\U0001112A\U0001110C\U00011134"
   comments:
+  type: province
 HOC:
   name: Al Hoceïma
   code: HOC
@@ -827,6 +850,7 @@ HOC:
     ccp: "\U00011103\U00011123\U00011134 \U00011126\U0001112E\U00011125\U0001112C\U0001112D\U0001111F"
     gl: Provincia de Al-Hoceima
   comments:
+  type: province
 IFR:
   name: Ifrane
   code: IFR
@@ -854,6 +878,7 @@ IFR:
     zh: 伊夫蘭省
     ccp: "\U00011103\U00011128\U0001111C\U00011133\U00011122\U0001112D\U0001111A\U00011134"
   comments:
+  type: province
 JDI:
   name: El Jadida
   code: JDI
@@ -880,6 +905,7 @@ JDI:
     zh: 傑迪代省
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U0001110E\U00011113\U00011128\U00011118"
   comments:
+  type: province
 JRA:
   name: Jerada
   code: JRA
@@ -908,6 +934,7 @@ JRA:
     fa: استان جراده
     ccp: "\U0001110E\U0001112C\U00011122\U00011113"
   comments:
+  type: province
 KEN:
   name: Kénitra
   code: KEN
@@ -937,6 +964,7 @@ KEN:
     fa: استان قنیطره
     ccp: "\U00011107\U0001112C\U0001111A\U00011128\U00011111\U00011133\U00011122"
   comments:
+  type: province
 KES:
   name: Kelaat Sraghna
   code: KES
@@ -966,6 +994,7 @@ KES:
     fa: استان قلعه سراغنه
     ccp: "\U00011107\U0001112C\U00011123\U00011116\U00011134 \U00011125\U00011133\U00011122\U00011107\U00011134\U0001111A"
   comments:
+  type: province
 KHE:
   name: Khemisset
   code: KHE
@@ -992,6 +1021,7 @@ KHE:
     zh: 海米薩特省
     ccp: "\U00011108\U0001112C\U0001111F\U00011128\U00011125\U0001112C\U00011116\U00011134"
   comments:
+  type: province
 KHN:
   name: Khenifra
   code: KHN
@@ -1017,6 +1047,7 @@ KHN:
     zh: 海尼夫拉省
     ccp: "\U00011108\U0001112C\U0001111A\U00011128\U0001111C\U00011133\U00011122"
   comments:
+  type: province
 KHO:
   name: Khouribga
   code: KHO
@@ -1043,6 +1074,7 @@ KHO:
     zh: 胡里卜蓋省
     ccp: "\U00011108\U0001112F\U00011122\U00011128\U0001111B\U00011134\U00011109"
   comments:
+  type: province
 LAA:
   name: Laâyoune* (EH)
   code: LAA
@@ -1070,6 +1102,7 @@ LAA:
     zh: 阿尤恩省
     ccp: "\U00011123\U0001112C\U00011103\U0001112F\U0001111A\U00011134"
   comments:
+  type: province
 LAR:
   name: Larache
   code: LAR
@@ -1099,10 +1132,11 @@ LAR:
     ccp: "\U00011123\U00011122\U00011134\U00011125\U0001112C"
     be: Лараш
   comments:
+  type: province
 MAR:
-  name: Marrakech*
+  name: Marrakech
   code: MAR
-  unofficial_names: Marrakech*
+  unofficial_names: Marrakech
   geo:
     latitude: 31.63
     longitude: -8.008889
@@ -1113,6 +1147,7 @@ MAR:
   translations:
     en: Marrakech
   comments:
+  type: prefecture
 MED:
   name: Médiouna
   code: MED
@@ -1138,6 +1173,7 @@ MED:
     zh: 梅久那省
     ccp: "\U0001111F\U0001112C\U00011113\U00011128\U00011103\U0001112F\U0001111A"
   comments:
+  type: province
 MEK:
   name: Meknès*
   code: MEK
@@ -1208,6 +1244,7 @@ MEK:
     mk: Мекнес
     'no': Meknes
   comments:
+  type: prefecture
 MEL:
   name: Aït Melloul
   code: MEL
@@ -1222,6 +1259,7 @@ MEL:
   translations:
     en: Aït Melloul
   comments:
+  type: province
 MOU:
   name: Moulay Yacoub
   code: MOU
@@ -1248,6 +1286,7 @@ MOU:
     zh: 穆雷省
     ccp: "\U0001111F\U0001112F\U00011123\U0001112C \U00011103\U00011128\U00011120\U00011107\U0001112A\U0001111B\U00011134"
   comments:
+  type: province
 NAD:
   name: Nador
   code: NAD
@@ -1279,6 +1318,7 @@ NAD:
     el: Επαρχία του Ναντόρ
     ccp: "\U0001111A\U00011113\U00011127\U00011122\U00011134"
   comments:
+  type: province
 NOU:
   name: Nouaceur
   code: NOU
@@ -1305,6 +1345,7 @@ NOU:
     zh: 諾瓦瑟爾省
     ccp: "\U0001111A\U0001112F\U00011103\U00011125\U0001112C\U00011105\U0001112A\U00011122\U00011134"
   comments:
+  type: province
 OUA:
   name: Ouarzazate
   code: OUA
@@ -1333,6 +1374,7 @@ OUA:
     pl: prowincja Ouarzazate
     ccp: "\U00011107\U0001112F\U00011122\U00011134\U0001110E\U0001110E\U00011116\U00011134"
   comments:
+  type: province
 OUD:
   name: Oued ed Dahab (EH)
   code: OUD
@@ -1384,10 +1426,11 @@ OUD:
     uk: Провінція Уед-Ед-Дахаб
     'no': Oued ed-Dahab provins
   comments:
+  type: province
 OUJ:
-  name: Oujda*
+  name: Oujda-Angad
   code: OUJ
-  unofficial_names: Oujda*
+  unofficial_names: Oujda
   geo:
     latitude: 34.686667
     longitude: -1.911389
@@ -1451,20 +1494,7 @@ OUJ:
     mk: Уџда
     'no': Oujda
   comments:
-RBA:
-  name: Rabat-Salé*
-  code: RBA
-  unofficial_names: Rabat-Salé*
-  geo:
-    latitude: 33.9715904
-    longitude: -6.8498129
-    min_latitude: 33.9034914
-    min_longitude: -6.9228836
-    max_latitude: 34.0348239
-    max_longitude: -6.791642
-  translations:
-    en: Rabat-Salé*
-  comments:
+  type: prefecture
 SAF:
   name: Safi
   code: SAF
@@ -1492,6 +1522,7 @@ SAF:
     el: επαρχία Σάφι
     ccp: "\U00011125\U0001111C\U00011128"
   comments:
+  type: province
 SAL:
   name: Salé
   code: SAL
@@ -1559,6 +1590,7 @@ SAL:
     mk: Сале
     'no': Sale
   comments:
+  type: prefecture
 SEF:
   name: Sefrou
   code: SEF
@@ -1585,6 +1617,7 @@ SEF:
     zh: 塞夫勞省
     ccp: "\U00011125\U0001112C\U0001111C\U00011133\U00011122\U00011127\U0001112E"
   comments:
+  type: province
 SET:
   name: Settat
   code: SET
@@ -1611,6 +1644,7 @@ SET:
     zh: 塞塔特省
     ccp: "\U00011125\U0001112C\U00011116\U00011134\U00011111\U00011116\U00011134"
   comments:
+  type: province
 SIK:
   name: Sidi Kacem
   code: SIK
@@ -1639,6 +1673,7 @@ SIK:
     fa: استان سیدی قاسم
     ccp: "\U00011125\U00011128\U00011113\U00011128 \U00011107\U00011125\U0001112C\U0001111F\U00011134"
   comments:
+  type: province
 SKH:
   name: Skhirate-Témara
   code: SKH
@@ -1693,6 +1728,7 @@ SKH:
     cs: Temara
     'no': Témara
   comments:
+  type: prefecture
 SYB:
   name: Sidi Youssef Ben Ali
   code: SYB
@@ -1766,6 +1802,7 @@ SYB:
       \U0001111D\U0001112C\U0001111A\U00011134 \U00011103\U00011123\U00011128"
     'no': Marrakech³
   comments:
+  type: province
 TAI:
   name: Taourirt
   code: TAI
@@ -1793,6 +1830,7 @@ TAI:
     fa: استان تاوریرت
     ccp: "\U00011111\U0001112F\U00011122\U00011128\U00011122\U00011134\U00011111\U00011134"
   comments:
+  type: province
 TAO:
   name: Taounate
   code: TAO
@@ -1819,6 +1857,7 @@ TAO:
     zh: 陶納特省
     ccp: "\U00011111\U0001112F\U0001111A\U00011116\U00011134"
   comments:
+  type: province
 TAR:
   name: Taroudannt
   code: TAR
@@ -1847,6 +1886,7 @@ TAR:
     zh: 塔魯丹特省
     ccp: "\U00011111\U00011122\U0001112F\U00011113\U0001111A\U00011134\U00011111\U00011134"
   comments:
+  type: province
 TAT:
   name: Tata
   code: TAT
@@ -1873,6 +1913,7 @@ TAT:
     zh: 塔塔省
     ccp: "\U00011111\U00011111"
   comments:
+  type: province
 TAZ:
   name: Taza
   code: TAZ
@@ -1899,6 +1940,7 @@ TAZ:
     zh: 塔扎省
     ccp: "\U00011111\U0001110E"
   comments:
+  type: province
 TET:
   name: Tétouan*
   code: TET
@@ -1926,6 +1968,7 @@ TET:
     zh: 得土安省
     ccp: "\U00011111\U0001112C\U00011111\U0001112F\U00011120\U0001111A\U00011134"
   comments:
+  type: province
 TIZ:
   name: Tiznit
   code: TIZ
@@ -1954,8 +1997,9 @@ TIZ:
     ru: Тизнит
     ccp: "\U00011111\U00011128\U0001110C\U00011134\U0001111A\U00011128\U00011116\U00011134"
   comments:
+  type: province
 TNG:
-  name: Tanger
+  name: Tanger-Assilah
   code: TNG
   unofficial_names: Tanger
   geo:
@@ -2033,6 +2077,7 @@ TNG:
     mk: Тангер
     'no': Tanger
   comments:
+  type: prefecture
 TNT:
   name: Tan-Tan
   code: TNT
@@ -2060,6 +2105,7 @@ TNT:
     ru: Тан-Тан
     ccp: "\U00011111\U0001111A\U00011134-\U00011111\U0001111A\U00011134"
   comments:
+  type: province
 X1~:
   name: Laayoune-Boujdour-Sakia El Hamra
   code: X1~
@@ -2074,6 +2120,7 @@ X1~:
   translations:
     en: Laayoune-Boujdour-Sakia El Hamra
   comments:
+  type: province
 ZAG:
   name: Zagora
   code: ZAG
@@ -2100,6 +2147,7 @@ ZAG:
     zh: 扎古拉省
     ccp: "\U0001110E\U00011109\U0001112E\U00011122"
   comments:
+  type: province
 MMD:
   name: مراكش
   code: MMD
@@ -2172,6 +2220,7 @@ MMD:
     ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U00011113\U00011128\U0001111A"
     'no': Marrakech
   comments:
+  type: province
 MMN:
   name: مراكش²
   code: MMN
@@ -2244,6 +2293,7 @@ MMN:
     ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U0001111A\U00011122"
     'no': Marrakech²
   comments:
+  type: province
 RAB:
   name: الرباط
   code: RAB
@@ -2339,924 +2389,7 @@ RAB:
     'no': Rabat
     yo_BJ: Rabat
   comments:
-'01':
-  name: طنجة تطوان
-  code: '01'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: طنجة تطوان
-    bg: Танжер - Тетуан
-    bn: টাঙ্গিয়ের-টেটুয়াং
-    ca: Tànger-Tetuan
-    da: Tanger-Tétouan
-    de: Tanger-Tétouan
-    el: Τάνγκιερ-Τετούαν
-    en: Tangier-Tétouan
-    es: Tánger-Tetuán
-    eu: Tanger-Tetuan
-    fa: طنجه تطوان
-    fi: Tangier-Tetouan
-    fr: Tanger-Tétouan
-    gu: ટૅંજિયર-ટેતૌઆન
-    hi: टैनजिअर-टीटूअन
-    hr: Tangier-Tetouan
-    id: Tangier-Tétouan
-    it: Tangeri-Tétouan
-    kn: ಟ್ಯಾಂಜಿಯರ್-ಟೆಟೌನ್
-    ko: 탕헤르테투안 지방
-    lt: Tanžero-Tetuano regionas
-    mr: टॅन्जियर-टेटौऑन
-    ms: Tangier-Tetouan
-    nb: Tanger-Tétouan
-    nl: Tanger-Tétouan
-    pl: Tanger-Tetuan
-    pt: Tânger-Tetuão
-    ro: Regiunea Tanger-Tétouan
-    ru: Танжер-Тетуан
-    si: ටැන්ජියර්-ටෙටොඋවාන්
-    sv: Tanger-Tétouan
-    ta: டஞ்சியேர்-டெடௌவான்
-    te: టాంగియర్-టెటోవాన్
-    th: แทนเจียร์ เทโตอัน
-    tr: Tangier-Tétouan
-    uk: Танжер-Тетуан
-    ur: طنجہ تطوان
-    vi: Tangier-Tetouan
-    zh: 丹吉爾-得土安大區
-    lv: Tanžera-Tetuāna
-    ccp: "\U00011111\U0001111A\U00011134\U00011109\U00011128\U00011120\U00011122\U00011134-\U00011111\U0001112C\U00011111\U0001112A\U00011120\U0001111A\U00011134"
-    'no': Tanger-Tétouan
-  comments:
-'02':
-  name: الغرب شراردة بني حسين
-  code: '02'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: الغرب شراردة بني حسين
-    be: Вобласць Гарб-Шрарда-Бені-Хсен
-    bg: Гарб - Шрарда - Бени Хсен
-    bn: ঘাারব-ছারদা-বেনি হসেন
-    ca: Gharb-Chrarda-Béni Hssen
-    da: Gharb-Chrarda-Béni Hssen
-    de: Gharb-Chrarda-Béni Hsen
-    el: Γκαρμπ-Κχράρντα-Μπένι Χσεν
-    en: Gharb-Chrarda-Béni Hssen
-    es: Garb-Chrarda-Beni Hsen
-    eu: Gharb-Chrarda-Beni Hssen
-    fa: غرب شرارده بنی حسین
-    fi: Gharb-Chrarda-Béni Hssen
-    fr: Gharb-Chrarda-Beni Hssen
-    gu: ઘર્બ-ચરારદા-બેની હસ્સેન
-    hi: गर्ब-श्रार्दा-बिने-हसेन
-    hr: Gharb-Chrarda-Béni Hssen
-    id: Gharb-Chrarda-Béni Hssen
-    it: Gharb-Chrarda-Béni Hssen
-    kn: ಘರ್ಬ್-ಕ್ರಿರ್ಡಾ-ಬೆನಿ ಹಸ್ಸೆನ್
-    ko: 가르브슈라르다베니흐센 지방
-    lt: Garb-Šrarda-Beni Chseno regionas
-    mr: घरब-चर्दा-बेनी हस्सेन
-    ms: Gharb-Chrarda-Beni Hssen
-    nb: Gharb Chrarda Beni Hssen
-    nl: Gharb-Chrarda-Béni Hsen
-    pl: Al-Gharb-Szararda-Bani Ahsin
-    pt: Gharb-Chrarda-Beni Hssen
-    ro: Regiunea Gharb-Chrarda-Béni Hssen
-    ru: Гарб-Шрарда-Бени-Хсен
-    si: ඝර්බ් -ච්රර්දා -බේනි හ්ස්සෙන්
-    sv: Gharb-Chrarda-Béni Hssen
-    ta: கார்ப் -ச்ரர்டா-பெனி ஹஸ்ஸன்
-    te: ఘాాార్బ్-చరార్డా-బేని హసెన్
-    th: การ์บ ชรารดา เบนิ ฮัสเซน
-    tr: Gharb-Chrarda-Béni Hssen
-    uk: Гарб-Шрарда-Бені-Хсен
-    ur: غرب شراردہ بنی حسین
-    vi: Gharb-Chrarda-Béni Hssen
-    lv: Garba-Šrarda-Beni-Hsena
-    cy: Gharb-Chrarda-Beni Hssen
-    ceb: Gharb-Chrarda-Beni Hssen
-    zh: 西部-舍拉拉德-貝尼赫森大區
-    jv: Gharb-Chrarda-Béni Hssen
-    ja: オリアンタル地方²
-    ccp: "\U0001110A\U00011122\U00011134\U0001111B\U00011134-\U0001110C\U00011133\U00011122\U00011122\U00011134\U00011113-\U0001111D\U0001112C\U0001111A\U00011128
-      \U00011125\U0001112C\U0001111A\U00011134"
-    he: אוריינטל
-    kk: Гарб-Шрарда-Бени-Хсен
-    bs: Gharb-Chrarda-Béni Hssen
-    'no': Gharb Chrarda Beni Hssen
-  comments:
-'03':
-  name: جهة تازة الحسيمة تاونات
-  code: '03'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة تازة الحسيمة تاونات
-    bg: Таза - Ал-Хосейма - Таунат
-    bn: তাজা-আল হোসেইমা তাউনাত
-    ca: Taza-Al Hoceima-Taounate
-    da: Taza-Al Hoceïma-Taounate
-    de: Taza-Al Hoceïma-Taounate
-    el: Τάζα-Αλ Χοκέιμα-Ταουνάτε
-    en: Taza-Al Hoceima-Taounate
-    es: Taza-Alhucemas-Taunat
-    eu: Taza-Al-Hoceima-Taounate
-    fa: تازه الحسیمه تاونات
-    fi: Taza-Al Hoceima-Taounate
-    fr: Taza-Al Hoceïma-Taounate
-    gu: તાઝા-અલ હોસીમા-તૌનેટે
-    hi: तजा-अल होसीमा-तेउनेट
-    hr: Taza-Al Hoceima-Taounate
-    id: Taza-Al Hoceima-Taounate
-    it: Taza-Al Hoceima-Taounate
-    kn: ತಾಝಾ-ಅಲ್ ಹೋಸಿಮಾ-ಟೌನೆಟ್
-    ko: 타자알호세이마타우나트 지방
-    lt: Tazo-Alhoseimo-Taunato regionas
-    mr: ताजा-अल होसीमा-तेउनेट
-    ms: Taza-Al Hoceima-Taounate
-    nb: Taza-Al Hoceima-Taounate
-    nl: Taza-Al Hoceïma-Taounate
-    pl: Taza-Al-Husajma-Taunat
-    pt: Taza-Al Hoceima-Taounate
-    ro: Regiunea Taza-Al Hoceima-Taounate
-    ru: Таза-Эль-Хосейма-Таунат
-    si: ටසා-අල් හොසිමා ටඋනෙට්
-    sv: Taza-Al Hoceïma-Taounate
-    ta: தசா -அல் ஹோஸிமா -நகரம்டே
-    te: టాజా-అల్ హోసీమా-టావోనేట్
-    th: ทาซา อัล โฮเซยมา เทาเนท
-    tr: Taza-Al Hoceima-Taounate
-    uk: Таза-ель-Хосейма-Таунат
-    ur: تازہ الحسیمہ تاونات
-    vi: Taza-Al Hoceima-Taounate
-    lv: Taza-Al-Hoseima-Taunata
-    cy: Taza-Al Hoceima-Taounate
-    ceb: Taza-Al Hoceima-Taounate
-    zh: 塔扎-胡塞馬-陶納特大區
-    jv: Taza-Al Hoceima-Taounate
-    ccp: "\U00011111\U0001110E-\U00011103\U00011123\U00011134 \U0001111D\U00011125\U0001112C\U0001111F-\U00011111\U0001112F\U0001111A\U00011116\U00011134"
-    kk: Таза-Әл-Хосейма-Таунат
-    bs: Taza-Al Hoceima-Taounate
-    'no': Taza-Al Hoceima-Taounate
-  comments:
-'04':
-  name: الجهة الشرقية
-  code: '04'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: الجهة الشرقية
-    bg: Източен регион
-    bn: ওরিয়েন্টাল
-    ca: L’Oriental
-    da: Oriental
-    de: Oriental
-    el: Οριένταλ
-    en: Oriental
-    es: La Oriental
-    eu: Ekialdea
-    fi: Oriental
-    fr: Oriental
-    gu: ઓરિએન્ટલ
-    hi: ओरिएंटल
-    hr: Oriental
-    id: Oriental Region
-    it: Regione Orientale
-    ja: オリアンタル地方
-    kn: ಓರಿಯಂಟಲ್
-    ko: 오리앙탈 지방
-    lt: Rytų regionas
-    mr: ओरिएन्टल
-    ms: Oriental
-    nb: Oriental
-    nl: Oriental
-    pl: Region Wschodni
-    pt: Região Oriental
-    ro: Regiunea Oriental
-    ru: Восточная область
-    si: ඔරියන්ටල්
-    sv: Oriental
-    ta: ஒரிஎண்டல்
-    te: ఓరియంటల్
-    th: โอเรียนทอล
-    tr: Oriental
-    uk: Східна область
-    ur: جھہ شرقیہ
-    vi: Oriental
-    lv: Austrumu reģions
-    cy: L’Oriental
-    ceb: Oriental Region
-    zh: 東部大區
-    fa: رباط سلا قنیطره
-    jv: Oriental Region
-    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
-    bs: Oriental
-    'no': Oriental
-  comments:
-'05':
-  name: جهة فاس بولمان
-  code: '05'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة فاس بولمان
-    bg: Фес - Булман
-    bn: ফ্রোস-বুলেমান
-    ca: Fès-Boulemane
-    da: Fès-Boulemane
-    de: Fès-Boulemane
-    el: Φες-Μπουλεμάνε
-    en: Fès-Boulemane
-    es: Fez-Bulmán
-    eu: Fez-Bulemane
-    fa: فاس بولمان
-    fi: Fès-Boulemane
-    fr: Fès-Boulemane
-    gu: ફેસ-બોલેમેન
-    hi: फ़ेश-बुलमेन
-    hr: Fès-Boulemane
-    id: Fès-Boulemane
-    it: Fes-Boulemane
-    ja: フェズ・ブルマーヌ地方
-    kn: ಫೆಸ್-ಬೌಲೆಮೆನ್
-    ko: 페스불만 지방
-    lt: Feso-Bulmano regionas
-    mr: फास-बुलमेन
-    ms: Fes-Boulemane
-    nb: Fes-Boulemane
-    nl: Fez-Boulmane
-    pl: Fez-Bulman
-    pt: Fez-Boulemane
-    ro: Regiunea Fès-Boulemane
-    ru: Фес-Бульман
-    si: ෆෙස් බොලෙමනේ
-    sv: Fès-Boulemane
-    ta: பஸ் -பௌலோமன்
-    te: ఫెస్-బౌలెమేన్
-    th: เฟส โบวเลเมน
-    tr: Fès-Boulemane
-    ur: فاس بولمان
-    vi: Fès-Boulemane
-    lv: Fes-Bulmane
-    cy: Fès-Boulemane
-    ceb: Région de Fès-Boulemane
-    zh: 非斯-布勒曼大區
-    jv: Fès-Boulemane
-    ccp: "\U0001111C\U0001112C\U0001110C\U00011134-\U0001111D\U0001112F\U00011123\U0001112C\U0001111F\U00011133\U00011120\U0001111A\U00011134"
-    gl: Béni Mellal-Khénifra
-    uk: Фес-Бульман
-    bs: Fès-Boulemane
-    'no': Fes-Boulemane
-  comments:
-'06':
-  name: مكناس تافيلالت
-  code: '06'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: مكناس تافيلالت
-    bg: Мекнес - Тафилалет
-    bn: মেকনেস-টাফিলালেট
-    ca: Meknès-Tafilalet
-    da: Meknès-Tafilalet
-    de: Meknès-Tafilalet
-    el: Μεκνές-Ταφιλαλέτ
-    en: Meknès-Tafilalet
-    es: Mequinez-Tafilalet
-    eu: Meknes-Tafilalet
-    fa: مکناس تافیلالت
-    fi: Meknès-Tafilalet
-    fr: Meknès-Tafilalet
-    gu: મેક્નેસ-તફિલાલેટ
-    hi: मेक्नेस-तफिलालेट
-    hr: Meknès-Tafilalet
-    id: Meknès-Tafilalet
-    it: Meknès-Tafilalet
-    kn: ಮೆಕ್ನೆಸ್-ಟಫಿಲಾಲೆಟ್
-    ko: 메크네스타필랄레트 지방
-    lt: Mekneso-Tafilaleto regionas
-    mr: मेकेनेस-तफिलालेट
-    ms: Meknes-Tafilalet
-    nb: Meknes Tafilalet
-    nl: Meknès-Tafilalet
-    pl: Meknes-Tafilalt
-    pt: Meknès-Tafilalet
-    ro: Regiunea Meknès-Tafilalet
-    ru: Мекнес-Тафилалет
-    si: මෙක්නිස්-ටෆිලාලෙට්
-    sv: Meknès-Tafilalet
-    ta: மேக்னெஸ் -டேபிள்லேட்
-    te: మెక్నెస్-టఫిలాలెట్
-    th: กามูลิ
-    tr: Meknès-Tafilalet
-    ur: مکناس تافیلالت
-    vi: Meknès-Tafilalet
-    lv: Miknēsa-Tafilaleta
-    cy: Meknès-Tafilalet
-    ceb: Région de Meknès-Tafilalet
-    zh: 梅克內斯-塔菲拉勒特大區
-    jv: Meknès-Tafilalet
-    ccp: "\U0001111F\U0001112C\U00011107\U00011134\U0001111A\U0001112C\U0001110C\U00011134-\U00011111\U0001111C\U00011128\U00011123\U00011123\U0001112C\U00011116\U00011134"
-    uk: Мекнес-Тафілалет
-    bs: Meknès-Tafilalet
-    'no': Meknes Tafilalet
-  comments:
-'07':
-  name: الرباط سلا زمور زعير
-  code: '07'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: الرباط سلا زمور زعير
-    bg: Рабат - Сале - Замур - Заер
-    bn: রাবাত সালি জেমুর জায়ে
-    ca: Rabat-Salé-Zemmour-Zaer
-    da: Rabat-Salé-Zemmour-Zaēr
-    de: Rabat-Salé-Zemmour-Zaer
-    el: Ραμπάτ-Σαλέ-Ζεμμούρ-Ζαέρ
-    en: Rabat-Salé-Zemmour-Zaer
-    es: Rabat-Salé-Zemur-Zaer
-    eu: Rabat-Sale-Zemmour-Zaer
-    fa: رباط سلا زمور زعیر
-    fi: Rabat-Salé-Zemmour-Zaer
-    fr: Rabat-Salé-Zemmour-Zaër
-    gu: રબાત-સાલે-, ઝેમૌર-ઝાએર
-    hi: रबात-सले-ज़मोर-ज़ैर
-    hr: Rabat-Salé-Zemmour-Zaer
-    id: Rabat-Salé-Zemmour-Zaer
-    it: Rabat-Salé-Zemmour-Zaer
-    kn: ರಬತ್-ಸಲೆ-ಝೆಮೌರ್-ಝಾಯರ್
-    ko: 라바트살레젬무르자에르 지방
-    lt: Rabato-Sale-Zamuro-Zearo regionas
-    mr: रबात-सेल-झिमॉर-झार
-    ms: Rabat-Sale-Zemmour-Zaer
-    nb: Rabat Sale Zemmer Zaer
-    nl: Rabat-Salé-Zemmour-Zaer
-    pl: Rabat-Sala-Zammur-Za’ir
-    pt: Rabat-Salé-Zemmour-Zaer
-    ro: Regiunea Rabat-Salé-Zemmour-Zaer
-    ru: Рабат-Сале-Заммур-Заер
-    si: රැබට්-සාලේ සෙමොර් සයිර්
-    sv: Rabat-Salé-Zemmour-Zaēr
-    ta: ரோபாட் -சலே -ஸிமமெர்-சார்
-    te: రాబట్-సేలె-జెమ్మోర్-జాయర్
-    th: ราบัต-เซล-เซมมัว-เซีย
-    tr: Rabat-Salé-Zemmour-Zaer
-    ur: رباط سلا زمور زعیر
-    vi: Rabat-Salé-Zemmour-Zaer
-    lv: Rabāta-Salē-Zammura-Zaera
-    cy: Rabat-Salé-Zemmour-Zaer
-    ceb: Région de Rabat-Salé-Zemmour-Zaër
-    zh: 拉巴特-薩累-宰穆爾-扎埃爾大區
-    jv: Rabat-Salé-Zemmour-Zaer
-    ccp: "\U00011122\U00011127\U0001111D\U00011127\U00011116\U00011134-\U00011125\U00011123\U0001112C-\U0001110E\U0001112C\U0001111F\U0001112F\U00011122\U00011134-\U0001110E\U00011128\U00011120\U00011122\U00011134"
-    kk: Рабат-Сале-Заммур-Заер
-    uk: Рабат-Сале-Заммур-Заер
-    bs: Rabat-Salé-Zemmour-Zaer
-    'no': Rabat Sale Zemmer Zaer
-  comments:
-'08':
-  name: جهة الدار البيضاء الكبرى
-  code: '08'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة الدار البيضاء الكبرى
-    bg: Голяма Казабланка
-    bn: গ্রান্ড কাসাব্লাঙ্কা
-    ca: Gran Casablanca
-    da: Grand Casablanca
-    de: Grand Casablanca
-    el: Γκραντ Καζαμπλάνκα
-    en: Grand Casablanca
-    es: Gran Casablanca
-    eu: Casablanca Handia
-    fa: کازابلانکای بزرگ
-    fi: Grand Casablanca
-    fr: Grand Casablanca
-    gu: ગ્રાન્ડ કેસાબ્લાન્કા
-    hi: ग्रैंड कैसाब्लांका
-    hr: Grand Casablanca
-    id: Grand Casablanca
-    it: Grande Casablanca
-    ja: グラン・カサブランカ地方
-    kn: ಗ್ರ್ಯಾಂಡ್ ಕಾಸಾಬ್ಲಾಂಕಾ
-    ko: 대카사블랑카 지방
-    lt: Didžioji Kasablanka
-    mr: ग्रँड कॅसब्लान्का
-    ms: Grand Casablanca
-    nb: Grand Casablanca
-    nl: Grand Casablanca
-    pl: Wielka Casablanca
-    pt: Grande Casablanca
-    ro: Regiunea Grand Casablanca
-    ru: Большая Касабланка
-    si: ග්‍රෑන්ඩ් කසබ්ලන්සා
-    sv: Grand Casablanca
-    ta: கிராண்ட் கேசப்ளான்க்கா
-    te: గ్రాండ్ కాసబ్లాంకా
-    th: แกรนด์ คาซาบลังก้า
-    tr: Grand Casablanca
-    ur: دار البیضاء الکبری
-    vi: Grand Casablanca
-    lv: Grand-Kasablanka
-    cy: Grand Casablanca
-    ceb: Région du Grand Casablanca
-    zh: 大卡薩布蘭卡大區
-    jv: Grand Casablanca
-    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134 \U00011107\U00011125\U0001111D\U00011133\U00011123\U00011101\U00011107"
-    uk: Велика Касабланка
-    bs: Grand Casablanca
-    'no': Grand Casablanca
-  comments:
-'09':
-  name: الشاوية ورديغة
-  code: '09'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: الشاوية ورديغة
-    bg: Шауя - Уардига
-    bn: চাঁওউইয়া ওয়ারডিগা
-    ca: Chaouia-Ouardigha
-    da: Chaouia-Ouardigha
-    de: Chaouia-Ouardigha
-    el: Τσαουία-Ουαρντίγκα
-    en: Chaouia-Ouardigha
-    es: Chauía-Uardiga
-    eu: Chaoia-Oardigha
-    fa: شاویه وردیغه
-    fi: Chaouia-Ouardigha
-    fr: Chaouia-Ouardigha
-    gu: ચાઓઇઆ-ઔર્ડીઘા
-    hi: कैउइया-आउरदिघा
-    hr: Chaouia-Ouardigha
-    id: Chaouia-Ouardigha
-    it: Chaouia-Ouardigha
-    kn: ಚೌಯಿಯ-ಓವಾರ್ಡಿಘಾ
-    ko: 샤위야와르디가 지방
-    lt: Šauijos-Urdigo regionas
-    mr: चाऊईआ-औअर्डीघा
-    ms: Chaouia-Ouardigha
-    nb: Chaouia-Ouardigha
-    nl: Chaouia-Ouardigha
-    pl: Asz-Szawija-Wardigha
-    pt: Chaouia-Ouardigha
-    ro: Regiunea Chaouia-Ouardigha
-    ru: Шавия-Уардига
-    si: චාඖඉයා-ඖඅර්ඩිඝා
-    sv: Chaouia-Ouardigha
-    ta: சவுஇஆ -ஓவர்டிஜிஹா
-    te: చేవో-ఆర్డిహా
-    th: เชียวเอีย อัวดิกฮา
-    tr: Chaouia-Ouardigha
-    ur: شاویہ وردیغہ
-    vi: Chaouia-Ouardigha
-    lv: Šaoija Uardigna
-    cy: Chaouia-Ouardigha
-    ceb: Chaouia-Ouardigha
-    zh: 沙維雅-瓦拉迪格大區
-    jv: Chaouia-Ouardigha
-    ccp: "\U00011107\U00011103\U0001112F\U00011103\U00011128-\U00011103\U0001112E\U00011122\U00011134\U00011113\U00011128\U0001110A"
-    kk: Шавия-Уардига
-    uk: Регіон Шавія-Уардіга
-    bs: Chaouia-Ouardigha
-    'no': Chaouia-Ouardigha
-  comments:
-'10':
-  name: دكالة عبدة
-  code: '10'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: دكالة عبدة
-    be: Вобласць Дукала-Абда
-    bg: Дукала - Абда
-    bn: দৌক্কালা-আব্দা
-    ca: Doukkala-Abda
-    da: Doukala-Abda
-    de: Doukkala-Abda
-    el: Ντουκάλα-Άμπντα
-    en: Doukkala-Abda
-    es: Dukala-Abda
-    eu: Dukala-Abda
-    fa: دکاله عبده
-    fi: Doukkala-Abda
-    fr: Doukkala-Abda
-    gu: ડોકકાલા-અબડા
-    hi: डुकाला-एब्डा
-    hr: Doukkala-Abda
-    id: Doukkala-Abda
-    it: Doukkala-Abda
-    kn: ಡೌಕಲಾ-ಅಬ್ಡಾ
-    ko: 두칼라압다 지방
-    lt: Dukalo-Abdo regionas
-    mr: डोगकेला-अबदा
-    ms: Doukkala-Abda
-    nb: Doukkala-Abda
-    nl: Doukala-Abda
-    pl: Dukkala-Abda
-    pt: Doukkala-Abda
-    ro: Regiunea Doukkala-Abda
-    ru: Дуккала-Абда
-    si: ඩුක්කලා-ඇබ්ඩා
-    sv: Doukala-Abda
-    ta: டௌக்கலா-அப்டா
-    te: డౌకాలా-అబ్డా
-    th: เดาค์คาลา อับดา
-    tr: Doukkala-Abda
-    ur: دکالہ عبدہ
-    vi: Doukkala-Abda
-    lv: Dukkala-Abda
-    cy: Doukhala-Abda
-    ceb: Doukkala-Abda
-    zh: 杜卡拉-阿卜達大區
-    jv: Doukkala-Abda
-    ccp: "\U00011113\U0001112F\U00011107\U00011133\U00011126\U00011134\U00011123 \U00011103\U0001111B\U00011134\U00011113"
-    kk: Дуккала-Абда
-    uk: Дукала-Абда
-    bs: Doukkala-Abda
-    'no': Doukkala-Abda
-  comments:
-'11':
-  name: جهة مراكش تانسيفت الحوز
-  code: '11'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة مراكش تانسيفت الحوز
-    bg: Маракеш - Тенсифт - Ел-Ауз
-    bn: মারাকেশ টেন্সিফট এল হাঊজ
-    ca: Marràqueix-Tensift-El-Haouz
-    da: Marrakech-Tensift-Al Haouz
-    de: Marrakesch-Tensift-Al Haouz
-    el: Μαρακές-Τενσίφτ-Ελ Χαούζ
-    en: Marrakesh-Tensift-El Haouz
-    es: Marrakech-Tensift-Al Hauz
-    eu: Marrakex-Tensift-El Haouz
-    fa: مراکش تانسیفت الحوز
-    fi: Marrakech-Tensift-Al Haouz
-    fr: Marrakech-Tensift-Al Haouz
-    gu: મર્રાકેશ-ટેન્સિફ્ટ-અલ હૌઝ
-    hi: मारकेश-तेंसिफ्ट-एल हाओज़
-    hr: Marrakesh-Tensift-El Haouz
-    id: Marrakech-Tensift-El Haouz
-    it: Marrakech-Tensift-El Haouz
-    kn: ಮಾರಕೆಶ್-ಟೆನ್ಶಿಫ್ಟ್-ಎಲ್ ಹಾವ್ಜ್
-    ko: 마라케시텐시프트엘하우즈 지방
-    lt: Marakešo-Tensifto-Alhauzo regionas
-    mr: मारकेश-तेंसिस्ट-अल हौझ
-    ms: Marrakesh-Tensift-El Haouz
-    nb: Marrakech-Tensift-El Haouz
-    nl: Marrakech-Tensift-Al Haouz
-    pl: Marrakesz-Tansift-Al-Hauz
-    pt: Marraquexe-Tensift-Al Haouz
-    ro: Regiunea Marrakech-Tensift-Al Haouz
-    ru: Марракеш-Тенсифт-Эль-Хауз
-    si: මර්රකෙෂ් -ටෙන්සිෆ්ට් -එල් හඋස්
-    sv: Marrakech-Tensift-Al Haouz
-    ta: மரராகேஷ் -டென்சிப்ட் -எல் ஹொயூஸ்
-    te: మరాకేశ్-టెన్సిఫ్ట్-ఎల్ హావుజ్
-    th: มากาเรท-เทนซิฟ-อัลหาว
-    tr: Marrakech-Tensift-El Haouz
-    ur: مراکش تانسیف الحوز
-    vi: Marrakesh-Tensift-El Haouz
-    lv: Marrākeša-Tensifta-Elhauza
-    cy: Marrakech-Tensift-El Haouz
-    ceb: Marrakech-Tensift-Al Haouz
-    zh: 馬拉喀什-坦西夫特-豪茲大區
-    jv: Marrakech-Tensift-El Haouz
-    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U00011111\U0001111A\U00011134\U00011125\U00011128\U0001111B\U00011134\U00011111\U00011134-\U00011103\U0001112C\U00011123\U00011134
-      \U00011126\U00011105\U0001112A\U0001110C\U00011134"
-    uk: Регіон Марракеш-Тенсіфт-Ель-Хауз
-    bs: Marrakech-Tensift-El Haouz
-    'no': Marrakech-Tensift-El Haouz
-  comments:
-'12':
-  name: جهة تادلة أزيلال
-  code: '12'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة تادلة أزيلال
-    bg: Тадла - Азилал
-    bn: তাডলা-আজিলাল
-    ca: Tadla-Azilal
-    da: Tadla-Azilal
-    de: Tadla-Azilal
-    el: Τάντλα-Αζίλαλ
-    en: Tadla-Azilal
-    es: Tadla-Azilal
-    eu: Tadla-Azilal
-    fa: تادله ازیلال
-    fi: Tadla-Azilal
-    fr: Tadla-Azilal
-    gu: ટૅડલા-એઝાઈલાલ
-    hi: तद्ला-एज़लल
-    hr: Tadla-Azilal
-    id: Tadla-Azilal
-    it: Tadla-Azilal
-    kn: ತದ್ಲಾ-ಅಝಿಲಾಲ್
-    ko: 타들라아질랄 지방
-    lt: Tadlo-Azilalo regionas
-    mr: ताडा-अझलल
-    ms: Tadla-Azilal
-    nb: Tadla-Azilal
-    nl: Tadla-Azilal
-    pl: Tadila-Azilal
-    pt: Tadla-Azilal
-    ro: Regiunea Tadla-Azilal
-    ru: Тадла-Азилаль
-    si: ටඩ්ලා-අසිලාල්
-    sv: Tadla-Azilal
-    ta: டேட்ல-ஷீலால்
-    te: టాడ్లా-అజిలాల్
-    th: ทัดลา-อซิลัล
-    tr: Tadla-Azilal
-    ur: تادلہ ازیال
-    vi: Tadla-Azilal
-    lv: Tadla-Azilalas reģions
-    cy: Tadla-Azilal
-    ceb: Tadla-Azilal
-    zh: 塔德萊-艾濟拉勒大區
-    jv: Tadla-Azilal
-    ccp: "\U00011111\U00011116\U00011134\U00011123-\U00011103\U0001110E\U00011128\U00011123\U00011123\U00011134"
-    kk: Тадла-Азилаль
-    uk: Регіон Тадла-Азілаль
-    bs: Tadla-Azilal
-    'no': Tadla-Azilal
-  comments:
-'13':
-  name: سوس ماسة درعة
-  code: '13'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: سوس ماسة درعة
-    bg: Сус - Маса - Драа
-    bn: সৌচ-মাচা-দ্রায
-    ca: Souss-Massa-Draâ
-    da: Souss-Massa-Draâ
-    de: Souss-Massa-Draâ
-    el: Σούς-Μάσσα-Ντράα
-    en: Souss-Massa-Drâa
-    es: Sus-Masa-Draa
-    eu: Souss-Massa-Draa
-    fa: سوس ماسه درعه
-    fi: Souss-Massa-Drâa
-    fr: Souss-Massa-Drâa
-    gu: સોસ-માસા-ડ્રા
-    hi: सोउस-मसा-ड्रा
-    hr: Souss-Massa-Drâa
-    id: Souss-Massa-Draâ
-    it: Souss-Massa-Draâ
-    kn: ಸೌಸ್-ಮಾಸಾ-ಡ್ರಯಾ
-    ko: 수스마사드라 지방
-    lt: Suso-Masa-Dra regionas
-    mr: सॉस-मसा-ड्रांचा
-    ms: Souss-Massa-Draa
-    nb: Souss-Massa-Drâa
-    nl: Souss-Massa-Daraâ
-    pl: Sus-Masa-Dara
-    pt: Souss-Massa-Drâa
-    ro: Regiunea Souss-Massa-Draâ
-    ru: Сус-Масса-Драа
-    si: සොඋස් -මස්සා -ඩ්රා
-    sv: Souss-Massa-Draâ
-    ta: சோயூஸ் -மாஸ்ஸா -டிரா
-    te: సౌస్-మాస్సా-డ్రా
-    th: ซูส-มาสซา-ดรา
-    tr: Souss-Massa-Draâ
-    ur: سوس ماسہ درعہ
-    vi: Souss-Massa-Draa
-    zh: 蘇斯-馬塞-德拉大區
-    ccp: "\U00011125\U0001112F\U0001110C\U00011134-\U0001111F\U00011125-\U00011113\U00011133\U00011122"
-    'no': Souss-Massa-Drâa
-  comments:
-'14':
-  name: كلميم السمارة
-  code: '14'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: كلميم السمارة
-    be: Вобласць Гулімім-Эс-Смара
-    bg: Гелмин - Ес-Семара
-    bn: গোয়েল্মিম এস সেমারা
-    ca: Guelmim-Es Semara
-    da: Guelmim-Es-Smara
-    de: Guelmim-Es Semara
-    el: Γκουελμίμ-Ες Σεμάρα
-    en: Guelmim-Es Semara
-    es: Guelmim-Esmara
-    eu: Guelmim-Es Semara
-    fa: کلمیم السماره
-    fi: Guelmim-Es Semara
-    fr: Guelmim-Es Semara
-    gu: ગુએલમીમ-એસ સેમારા
-    hi: ग्वेल्मिम-एस सेमारा
-    hr: Guelmim-Es Semara
-    id: Guelmim-Es Semara
-    it: Guelmim-Es Semara
-    kn: ಗುಲ್ಮಿಮ್-ಎಸ್ ಸೆಮಾರಾ
-    ko: 겔밈에스스마라 지방
-    lt: Gelimimo-Es Semaros regionas
-    mr: गेलमिम-एस सेमारा
-    ms: Guelmim-Es Semara
-    nb: Guelmim es Semara
-    nl: Guelmim-Es Semara
-    pl: Kulmim-Asmara
-    pt: Guelmim-Es Semara
-    ro: Regiunea Guelmim-Esmara
-    ru: Гулимим-Эс-Смара
-    si: ගුඑල්මිම්-එස් සේමාරා
-    sv: Guelmim-Es-Smara
-    ta: குயில்மீம் -எஸ் செமயா
-    te: గ్వెల్మిమ్-ఎస్ సెమారా
-    th: กูเอลมิม เอส เซมาลา
-    tr: Guelmim-Es Semara
-    ur: کلمیم السمارہ
-    vi: Guelmim-Es Semara
-    zh: 蓋勒敏-塞馬拉大區
-    ccp: "\U0001110E\U0001112A\U00011120\U0001112C\U00011123\U00011134\U0001111F\U0001111F\U00011134-\U00011103\U00011128\U0001110C\U00011134
-      \U00011125\U00011128\U0001111F\U00011122"
-    'no': Guelmim es Semara
-  comments:
-'15':
-  name: العيون بوجدور
-  code: '15'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: العيون بوجدور
-    bg: Лааюн - Буждур - Сакиа Ел-Хамра
-    bn: লয়োনি বুজদোর সাকিয়া এল হামরা
-    ca: Laâyoune-Boujdour-Sakia El Hamra
-    da: Laâyoune-Boujdour-Sakia El Hamra
-    de: Laâyoune-Boujdour
-    el: Λααγιούν-Μπουζντούρ-Σάκια Ελ Χάμρα
-    en: Laâyoune-Boujdour-Sakia El Hamra
-    es: El Aaiún-Bojador-Saguia el Hamra
-    eu: Aaiun-Bojador-Sakia El Hamra
-    fa: عیون بوجذور - ساقیه الحمراء
-    fi: Laâyoune-Boujdour-Sakia El Hamra
-    fr: Laâyoune-Boujdour-Sakia el Hamra
-    gu: લાયૌને-બૌજડોર-, સકિઆ અલ હામ્રા
-    hi: लायून-बुडूर-सकिया एल हम्रा
-    hr: Laâyoune-Boujdour-Sakia El Hamra
-    id: Laâyoune-Boujdour-Sakia El Hamra
-    it: Laâyoune-Boujdour-Sakia El Hamra
-    kn: ಲಯೌನೆ-ಬೌಜಡೋರ್-ಸಕಿಯ ಎಲ್ ಹಮ್ರಾ
-    ko: 라윤부즈두르사키아엘함라 지방
-    lt: Alujuno-Budžduro-Sakija Alhamro regionas
-    mr: लायेयने-बुजदोर-साकिया एल हामरा
-    ms: Laayoune-Boujdour-Sakia El Hamra
-    nb: Laayoune Boujdoor-Sakia El Harma
-    nl: Laâyoune-Boujdour
-    pl: Al-Ujun-Budżdur-Sakija al-Hamra
-    pt: Laâyoune-Boujdour-Sakia El Hamra
-    ru: Эль-Аюн — Буждур — Сегиет-эль-Хамра
-    si: ලායොඋනේ බොඋජ්දෝර්-සකියා එල් හම්රා
-    sv: Laâyoune-Boujdour-Sakia El Hamra
-    ta: லாயூன்-பௌஜிடௌர் -சாக்கிய எல் ஹம்ரா
-    te: లాయోన్-బోజ్‌డోర్-సాకియా ఎల్ హమ్రా
-    th: เอลอายูน โบวเดอ ซาเกีย แอล แฮมรา
-    tr: Laâyoune-Boujdour-Sakia El Hamra
-    ur: لایونی-بوجڈور-ساکیا الحمراء
-    vi: Laâyoune-Boujdour-Sakia El Hamra
-    zh: 阿尤恩-布支杜爾-薩基亞-阿姆拉大區
-    ccp: "\U00011123\U00011120\U0001112C\U00011103\U0001112F\U0001111A\U00011134-\U0001111D\U0001112F\U0001110C\U00011134\U00011113\U0001112E\U00011122\U00011134-\U00011125\U00011107\U00011128\U00011120
-      \U00011103\U0001112C\U00011123\U00011134 \U00011126\U0001111F\U00011134\U00011122"
-    'no': Laayoune Boujdoor-Sakia El Harma
-  comments:
-'16':
-  name: جهة وادي الذهب الكويرة
-  code: '16'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: جهة وادي الذهب الكويرة
-    bg: Уед Ед-Дахаб - Лагуира
-    ca: Oued Ed-Dahab-Lagouira
-    da: Oued Ed-Dahab-Lagouira
-    de: Oued ed Dahab-Lagouira
-    en: Oued Ed-Dahab-Lagouira
-    es: Río de Oro-La Güera
-    eu: Oued Ed-Dahab-Lagouira
-    fa: وادی الذهب لکویره
-    fr: Oued Ed-Dahab-Lagouira
-    hr: Oued Ed-Dahab-Lagouira
-    id: Oued Ed-Dahab-Lagouira
-    it: Oued Ed-Dahab-Lagouira
-    ko: 웨드에드다하브라구이라 지방
-    lt: Vadi ad-Dahabo-Alkuviro regionas
-    nl: Oued ed Dahab-Lagouira
-    pl: Wadi az-Zahab-Al-Kuwira
-    pt: Oued Ed-Dahab-Lagouira
-    ru: Вади-эд-Дахаб-эль-Кувира
-    sv: Oued Ed-Dahab-Lagouira
-    tr: Oued Ed-Dahab-Lagouira
-    ur: وادی ذہب لکویرہ
-    zh: 達赫拉-黃金谷地大區
-    ccp: "\U00011107\U0001112E\U00011120\U0001112C\U00011116\U00011134 \U00011103\U00011128\U00011116\U00011134-\U00011118\U00011126\U0001111B\U00011134-\U00011123\U00011109\U00011130\U00011131\U00011122"
-  comments:
+  type: prefecture
 INE:
   name: عمالة إنزكان آيت ملول
   code: INE
@@ -3287,6 +2420,7 @@ INE:
       \U0001111F\U00011123\U00011103\U0001112F\U00011123\U00011134"
     eu: Inezgane-Ait Melloul prefektura
   comments:
+  type: prefecture
 MOH:
   name: المحمدية
   code: MOH
@@ -3346,6 +2480,7 @@ MOH:
     uk: Мохаммедія
     'no': Mohammedia
   comments:
+  type: prefecture
 BRR:
   name: Berrechid
   code: BRR
@@ -3354,6 +2489,7 @@ BRR:
   translations:
     en: Berrechid
   comments:
+  type: province
 DRI:
   name: Driouch
   code: DRI
@@ -3362,6 +2498,7 @@ DRI:
   translations:
     en: Driouch
   comments:
+  type: province
 FQH:
   name: Fquih Ben Salah
   code: FQH
@@ -3376,6 +2513,7 @@ FQH:
   translations:
     en: Fquih Ben Salah
   comments:
+  type: province
 GUF:
   name: Guercif
   code: GUF
@@ -3390,6 +2528,7 @@ GUF:
   translations:
     en: Guercif
   comments:
+  type: province
 MDF:
   name: M’diq-Fnideq
   code: MDF
@@ -3400,6 +2539,7 @@ MDF:
   translations:
     en: M’diq-Fnideq
   comments:
+  type: prefecture
 MID:
   name: Midelt
   code: MID
@@ -3414,6 +2554,7 @@ MID:
   translations:
     en: Midelt
   comments:
+  type: province
 OUZ:
   name: Ouezzane
   code: OUZ
@@ -3428,6 +2569,7 @@ OUZ:
   translations:
     en: Ouezzane
   comments:
+  type: province
 REH:
   name: Rehamna
   code: REH
@@ -3436,6 +2578,7 @@ REH:
   translations:
     en: Rehamna
   comments:
+  type: province
 SIB:
   name: Sidi Bennour
   code: SIB
@@ -3444,6 +2587,7 @@ SIB:
   translations:
     en: Sidi Bennour
   comments:
+  type: province
 SIF:
   name: Sidi Ifni
   code: SIF
@@ -3458,6 +2602,7 @@ SIF:
   translations:
     en: Sidi Ifni
   comments:
+  type: province
 SIL:
   name: Sidi Slimane
   code: SIL
@@ -3468,6 +2613,7 @@ SIL:
   translations:
     en: Sidi Slimane
   comments:
+  type: province
 TAF:
   name: Tarfaya (EH-partial)
   code: TAF
@@ -3482,6 +2628,7 @@ TAF:
   translations:
     en: Tarfaya (EH-partial)
   comments:
+  type: province
 TIN:
   name: Tinghir
   code: TIN
@@ -3492,6 +2639,7 @@ TIN:
   translations:
     en: Tinghir
   comments:
+  type: province
 YUS:
   name: Youssoufia
   code: YUS
@@ -3500,3 +2648,76 @@ YUS:
   translations:
     en: Youssoufia
   comments:
+  type: province
+'01':
+  name: Tanger-Tétouan-Al Hoceïma
+  code: '01'
+  type: region
+  translations:
+    ar: طنجة - تطوان - الحسيمة
+'02':
+  name: L'Oriental
+  code: '02'
+  type: region
+  translations:
+    ar: الشرق
+'03':
+  name: Fès-Meknès
+  code: '03'
+  type: region
+  translations:
+    ar: فاس-مكناس
+'04':
+  name: Rabat-Salé-Kénitra
+  code: '04'
+  type: region
+  translations:
+    ar: الرباط-سلا-القنيطرة
+'05':
+  name: Béni Mellal-Khénifra
+  code: '05'
+  type: region
+  translations:
+    ar: بني ملال - خنيفرة
+'06':
+  name: Casablanca-Settat
+  code: '06'
+  type: region
+  translations:
+    ar: الدار البيضاء - سطات
+'07':
+  name: Marrakech-Safi
+  code: '07'
+  type: region
+  translations:
+    ar: مراكش آسفي
+'08':
+  name: Drâa-Tafilalet
+  code: '08'
+  type: region
+  translations:
+    ar: درعة - تافيلالت
+'09':
+  name: Souss-Massa
+  code: '09'
+  type: region
+  translations:
+    ar: سوس ماسة
+'10':
+  name: Guelmim-Oued Noun (EH-partial)
+  code: '10'
+  type: region
+  translations:
+    ar: ڭلميم-وادي نون
+'11':
+  name: Laâyoune-Sakia El Hamra (EH-partial)
+  code: '11'
+  type: region
+  translations:
+    ar: العيون - الساقية الحمراء
+'12':
+  name: Dakhla-Oued Ed-Dahab (EH)
+  code: '12'
+  type: region
+  translations:
+    ar: الداخلة - وادي الذهب

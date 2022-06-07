@@ -79,6 +79,7 @@ BR:
     bs: Brestska oblast
     'no': Brest
   comments:
+  type: oblast
 HO:
   name: Homyel'skaya voblasts' (be) Gomel'skaya oblast' (ru)
   code: HO
@@ -159,6 +160,7 @@ HO:
     mk: Гомељска област
     'no': Homjel
   comments:
+  type: oblast
 HR:
   name: Hrodzenskaya voblasts' (be) Grodnenskaya oblast' (ru)
   code: HR
@@ -238,6 +240,7 @@ HR:
     mk: Гродненска област
     'no': Hrodna
   comments:
+  type: oblast
 MA:
   name: Mahilyowskaya voblasts' (be) Mogilevskaya oblast' (ru)
   code: MA
@@ -325,6 +328,7 @@ MA:
     bs: Mogiljovska oblast
     'no': Mahiljow
   comments:
+  type: oblast
 MI:
   name: Minskaya voblasts' (be) Minskaya oblast' (ru)
   code: MI
@@ -403,6 +407,7 @@ MI:
     mk: Минска област
     'no': Minsk²
   comments:
+  type: oblast
 VI:
   name: Vitsyebskaya voblasts' (be) Vitebskaya oblast' (ru)
   code: VI
@@ -483,23 +488,7 @@ VI:
     mk: Витепска област
     'no': Vitebsk
   comments:
-X1~:
-  name: Horad Minsk
-  code: X1~
-  unofficial_names:
-  - Gorod Minsk
-  - Horad Minsk
-  - Mensk
-  geo:
-    latitude: 53.9029742
-    longitude: 27.5549986
-    min_latitude: 53.9003892
-    min_longitude: 27.5486845
-    max_latitude: 53.9069628
-    max_longitude: 27.5616665
-  translations:
-    en: Horad Minsk
-  comments:
+  type: oblast
 HM:
   name: Мінск
   code: HM
@@ -593,3 +582,4 @@ HM:
     'no': Minsk
     yo_BJ: Minsk
   comments:
+  type: city

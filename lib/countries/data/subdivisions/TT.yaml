@@ -53,6 +53,7 @@ ARI:
     uk: Аріма
     'no': Arima
   comments:
+  type: borough
 CHA:
   name: Chaguanas
   code: CHA
@@ -116,6 +117,7 @@ CHA:
     ro: Chaguanas
     'no': Chaguanas
   comments:
+  type: borough
 CTT:
   name: Couva-Tabaquite-Talparo
   code: CTT
@@ -166,6 +168,7 @@ CTT:
     uk: Регіон Кува-Табакіте-Тальпаро
     'no': Couva Tabaquite Talparo
   comments:
+  type: region
 DMN:
   name: Diego Martin
   code: DMN
@@ -217,22 +220,7 @@ DMN:
     uk: Регіон Діего-Мартін
     'no': Diego Martin
   comments:
-ETO:
-  name: Eastern Tobago
-  code: ETO
-  unofficial_names: Eastern Tobago
-  geo:
-    latitude: 11.2979348
-    longitude: -60.55885240000001
-    min_latitude: 11.179728
-    min_longitude: -60.7451771
-    max_latitude: 11.3467941
-    max_longitude: -60.49331209999999
-  translations:
-    en: Eastern Tobago
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
-  comments:
+  type: region
 PED:
   name: Penal-Debe
   code: PED
@@ -284,6 +272,7 @@ PED:
     uk: Регіон Пенал-Дебе
     'no': Penal Debe
   comments:
+  type: region
 POS:
   name: Port of Spain
   code: POS
@@ -372,6 +361,7 @@ POS:
     'no': Port of Spain
     yo_BJ: Port of Spain
   comments:
+  type: city
 PRT:
   name: Princes Town
   code: PRT
@@ -425,6 +415,7 @@ PRT:
     uk: Регіон Прінсес-Таун
     'no': Princes Tiwn Regional Corpoation
   comments:
+  type: region
 PTF:
   name: Point Fortin
   code: PTF
@@ -480,21 +471,7 @@ PTF:
     ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011134\U00011111 \U0001111C\U0001112E\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
     'no': Point Fortin
   comments:
-RCM:
-  name: Rio Claro-Mayaro
-  code: RCM
-  unofficial_names: Rio Claro-Mayaro
-  geo:
-    latitude: 10.2412832
-    longitude: -61.09372059999999
-    min_latitude: 10.0748818
-    min_longitude: -61.23980999999999
-    max_latitude: 10.4406099
-    max_longitude: -60.97031769999999
-  translations:
-    en: Rio Claro-Mayaro
-    ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011107\U00011133\U00011123\U00011122\U0001112E-\U0001111F\U0001112C\U00011120\U00011122\U0001112E"
-  comments:
+  type: borough
 SFO:
   name: San Fernando
   code: SFO
@@ -554,6 +531,7 @@ SFO:
     'no': San Fernando
     yo_BJ: San Fernando
   comments:
+  type: city
 SGE:
   name: Sangre Grande
   code: SGE
@@ -605,6 +583,7 @@ SGE:
     uk: Регіон Сангре-Гранде
     'no': Sangre Grande regional
   comments:
+  type: region
 SIP:
   name: Siparia
   code: SIP
@@ -657,6 +636,7 @@ SIP:
     uk: Регіон Сіпарія
     'no': Siparia
   comments:
+  type: region
 SJL:
   name: San Juan-Laventille
   code: SJL
@@ -707,6 +687,7 @@ SJL:
     uk: Регіон Сан-Хуан-Лавентіль
     'no': San Juan-Laventille region
   comments:
+  type: region
 TUP:
   name: Tunapuna-Piarco
   code: TUP
@@ -759,22 +740,7 @@ TUP:
     uk: Регіон Тунапуна-Піарко
     'no': Tunapuna Piarco
   comments:
-WTO:
-  name: Western Tobago
-  code: WTO
-  unofficial_names: Western Tobago
-  geo:
-    latitude: 11.1897072
-    longitude: -60.7795452
-    min_latitude: 11.1388369
-    min_longitude: -60.84010199999999
-    max_latitude: 11.2928312
-    max_longitude: -60.66802099999999
-  translations:
-    en: Western Tobago
-    ccp: "\U00011124\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134
-      \U00011111\U0001112E\U0001111D\U00011109\U0001112E"
-  comments:
+  type: region
 MRC:
   name: Mayaro-Rio Claro
   code: MRC
@@ -826,6 +792,7 @@ MRC:
     uk: Майаро-Ріо-Кларо
     'no': Rio Claro-Mayaro
   comments:
+  type: region
 TOB:
   name: Tobago
   code: TOB
@@ -896,3 +863,4 @@ TOB:
     'no': Tobago
     yo_BJ: Tòbágò
   comments:
+  type: ward

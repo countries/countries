@@ -101,6 +101,7 @@ BJ:
     max_longitude: 117.5146251
   name: Beijing
   code: BJ
+  type: municipality
 TJ:
   unofficial_names: Tianjin
   translations:
@@ -187,6 +188,7 @@ TJ:
     max_longitude: 118.0656116
   name: Tianjin
   code: TJ
+  type: municipality
 HE:
   unofficial_names: Hebei
   translations:
@@ -263,6 +265,7 @@ HE:
     max_longitude: 119.8710782
   name: Hebei
   code: HE
+  type: province
 SX:
   unofficial_names: Shanxi
   translations:
@@ -338,6 +341,7 @@ SX:
     max_longitude: 114.5689224
   name: Shanxi
   code: SX
+  type: province
 NM:
   unofficial_names:
   - Inner Mongolia
@@ -420,6 +424,7 @@ NM:
     max_longitude: 126.0755856
   name: Nei Mongol (mn)
   code: NM
+  type: autonomous_region
 LN:
   unofficial_names: Liaoning
   translations:
@@ -497,6 +502,7 @@ LN:
     max_longitude: 125.7914594
   name: Liaoning
   code: LN
+  type: province
 JL:
   unofficial_names: Jilin
   translations:
@@ -573,6 +579,7 @@ JL:
     max_longitude: 127.9247254
   name: Jilin
   code: JL
+  type: province
 HL:
   unofficial_names: Heilongjiang
   translations:
@@ -647,6 +654,7 @@ HL:
     max_longitude: 135.0956699
   name: Heilongjiang
   code: HL
+  type: province
 SH:
   unofficial_names:
   - Schanghai
@@ -742,6 +750,7 @@ SH:
     max_longitude: 122.2470663
   name: Shanghai
   code: SH
+  type: municipality
 JS:
   unofficial_names: Jiangsu
   translations:
@@ -818,6 +827,7 @@ JS:
     max_longitude: 121.9627784
   name: Jiangsu
   code: JS
+  type: province
 ZJ:
   unofficial_names: Zhejiang
   translations:
@@ -895,6 +905,7 @@ ZJ:
     max_longitude: 122.9494378
   name: Zhejiang
   code: ZJ
+  type: province
 AH:
   unofficial_names: Anhui
   translations:
@@ -976,6 +987,7 @@ AH:
     max_longitude: 119.6491442
   name: Anhui
   code: AH
+  type: province
 FJ:
   unofficial_names: Fujian
   translations:
@@ -1050,6 +1062,7 @@ FJ:
     max_longitude: 120.7270943
   name: Fujian
   code: FJ
+  type: province
 JX:
   unofficial_names: Jiangxi
   translations:
@@ -1124,6 +1137,7 @@ JX:
     max_longitude: 118.4871059
   name: Jiangxi
   code: JX
+  type: province
 SD:
   unofficial_names: Shandong
   translations:
@@ -1199,6 +1213,7 @@ SD:
     max_longitude: 122.7100401
   name: Shandong
   code: SD
+  type: province
 HA:
   unofficial_names: Henan
   translations:
@@ -1277,6 +1292,7 @@ HA:
     max_longitude: 116.6522322
   name: Henan
   code: HA
+  type: province
 HB:
   unofficial_names: Hubei
   translations:
@@ -1352,6 +1368,7 @@ HB:
     max_longitude: 116.1345773
   name: Hubei
   code: HB
+  type: province
 HN:
   unofficial_names: Hunan
   translations:
@@ -1427,6 +1444,7 @@ HN:
     max_longitude: 114.2612647
   name: Hunan
   code: HN
+  type: province
 GD:
   unofficial_names: Guangdong
   translations:
@@ -1507,6 +1525,7 @@ GD:
     max_longitude: 117.3185073
   name: Guangdong
   code: GD
+  type: province
 GX:
   unofficial_names:
   - Guangxi Zhuang
@@ -1584,6 +1603,7 @@ GX:
     max_longitude: 112.0618507
   name: Guangxi
   code: GX
+  type: autonomous_region
 HI:
   unofficial_names: Hainan
   translations:
@@ -1664,6 +1684,7 @@ HI:
     max_longitude: 111.2785748
   name: Hainan
   code: HI
+  type: province
 CQ:
   unofficial_names: Chongqing
   translations:
@@ -1749,6 +1770,7 @@ CQ:
     max_longitude: 110.1998582
   name: Chongqing
   code: CQ
+  type: municipality
 SC:
   unofficial_names: Sichuan
   translations:
@@ -1829,6 +1851,7 @@ SC:
     max_longitude: 108.5467123
   name: Sichuan
   code: SC
+  type: province
 GZ:
   unofficial_names: Guizhou
   translations:
@@ -1902,6 +1925,7 @@ GZ:
     max_longitude: 109.5977559
   name: Guizhou
   code: GZ
+  type: province
 YN:
   unofficial_names: Yunnan
   translations:
@@ -1980,6 +2004,7 @@ YN:
     max_longitude: 106.1977227
   name: Yunnan
   code: YN
+  type: province
 XZ:
   unofficial_names:
   - Tibet
@@ -2061,6 +2086,7 @@ XZ:
     max_longitude: 99.116241
   name: Xizang
   code: XZ
+  type: autonomous_region
 SN:
   unofficial_names: Shaanxi
   translations:
@@ -2137,6 +2163,7 @@ SN:
     max_longitude: 111.2480544
   name: Shaanxi
   code: SN
+  type: province
 GS:
   unofficial_names: Gansu
   translations:
@@ -2214,6 +2241,7 @@ GS:
     max_longitude: 108.7123363
   name: Gansu
   code: GS
+  type: province
 QH:
   unofficial_names: Qinghai
   translations:
@@ -2288,6 +2316,7 @@ QH:
     max_longitude: 103.0709708
   name: Qinghai
   code: QH
+  type: province
 NX:
   unofficial_names:
   - Ningxia Hui
@@ -2367,6 +2396,7 @@ NX:
     max_longitude: 107.6592744
   name: Ningxia
   code: NX
+  type: autonomous_region
 XJ:
   unofficial_names:
   - Uighur
@@ -2451,6 +2481,7 @@ XJ:
     max_longitude: 96.38619419999999
   name: Xinjiang
   code: XJ
+  type: autonomous_region
 TW:
   unofficial_names: Taiwan *
   translations:
@@ -2493,6 +2524,7 @@ TW:
     max_longitude: 123.4934282
   name: Taiwan *
   code: TW
+  type: province
 HK:
   unofficial_names:
   - Xianggang
@@ -2594,6 +2626,7 @@ HK:
     max_longitude:
   name: Xianggang (zh) **
   code: HK
+  type: special_administrative_region
 MO:
   unofficial_names: Aomen (zh) ***
   translations:
@@ -2689,3 +2722,4 @@ MO:
     max_longitude: 4.313068599999999
   name: Aomen (zh) ***
   code: MO
+  type: special_administrative_region

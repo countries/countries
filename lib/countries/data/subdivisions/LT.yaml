@@ -67,6 +67,7 @@ AL:
     mk: Алитушки округ
     'no': Alytus fylke
   comments:
+  type: county
 KL:
   name: Klaipedos Apskritis
   code: KL
@@ -127,6 +128,7 @@ KL:
     mk: Клајпедски округ
     'no': Klaipėda fylke
   comments:
+  type: county
 KU:
   name: Kauno Apskritis
   code: KU
@@ -195,6 +197,7 @@ KU:
     mk: Каунашки округ
     'no': Kaunas fylke
   comments:
+  type: county
 MR:
   name: Marijampoles Apskritis
   code: MR
@@ -265,6 +268,7 @@ MR:
     mk: Маријамполски округ
     'no': Marijampolė fylke
   comments:
+  type: county
 PN:
   name: Panevežio Apskritis
   code: PN
@@ -336,6 +340,7 @@ PN:
     mk: Паневешки округ
     'no': Panevėžys fylke
   comments:
+  type: county
 SA:
   name: Šiauliu Apskritis
   code: SA
@@ -405,6 +410,7 @@ SA:
     mk: Шјауљајски округ
     'no': Šiauliai fylke
   comments:
+  type: county
 TA:
   name: Taurages Apskritis
   code: TA
@@ -475,6 +481,7 @@ TA:
     mk: Таурашки округ
     'no': Tauragė fylke
   comments:
+  type: county
 TE:
   name: Telšiu Apskritis
   code: TE
@@ -544,6 +551,7 @@ TE:
     mk: Телшјајски округ
     'no': Telšiai fylke
   comments:
+  type: county
 UT:
   name: Utenos Apskritis
   code: UT
@@ -613,6 +621,7 @@ UT:
     mk: Утенски округ
     'no': Utena fylke
   comments:
+  type: county
 VL:
   name: Vilniaus Apskritis
   code: VL
@@ -683,6 +692,7 @@ VL:
     mk: Вилнушки округ
     'no': Vilnius fylke
   comments:
+  type: county
 '49':
   name: Švenčionių rajono savivaldybė
   code: '49'
@@ -719,6 +729,7 @@ VL:
     ccp: "\U0001110C\U00011133\U0001111E\U0001112C\U0001111A\U00011134\U00011125\U00011128\U00011103\U0001112E\U0001111A\U00011128\U0001110C\U00011134"
     'no': Švenčionys kommune
   comments:
+  type: district_municipality
 '04':
   name: Anykščių rajono savivaldybė
   code: '04'
@@ -755,6 +766,7 @@ VL:
     hy: Անիկշչայի շրջան
     es: Distrito de Anykščiai
   comments:
+  type: district_municipality
 '01':
   name: Akmenės rajono savivaldybė
   code: '01'
@@ -790,6 +802,7 @@ VL:
     ceb: Akmenės Rajonas
     ccp: "\U00011103\U00011107\U00011134\U0001111F\U0001112C\U0001111A\U0001112C"
   comments:
+  type: district_municipality
 '03':
   name: Alytaus rajono savivaldybė
   code: '03'
@@ -830,6 +843,7 @@ VL:
     et: Alytuse rajoon
     'no': Alytus landkommune
   comments:
+  type: district_municipality
 '06':
   name: Biržų rajono savivaldybė
   code: '06'
@@ -868,6 +882,7 @@ VL:
     da: Biržai Distriktkommune
     hu: Biržai község
   comments:
+  type: district_municipality
 '07':
   name: Druskininkų savivaldybė
   code: '07'
@@ -899,6 +914,7 @@ VL:
     zh: 德魯斯基寧凱區
     ccp: "\U00011113\U00011133\U00011122\U0001112A\U0001110C\U00011134\U00011107\U00011128\U0001111A\U00011128\U0001111A\U00011134\U00011107\U0001112D"
   comments:
+  type: municipality
 '09':
   name: Ignalinos rajono savivaldybė
   code: '09'
@@ -935,6 +951,7 @@ VL:
     ccp: "\U00011103\U00011128\U00011107\U00011134\U0001111A\U00011123\U00011128\U0001111A"
     es: Distrito de Ignalina
   comments:
+  type: district_municipality
 '10':
   name: Jonavos rajono savivaldybė
   code: '10'
@@ -973,6 +990,7 @@ VL:
     ccp: "\U0001110E\U00011127\U0001111A\U0001111E"
     hu: Jonava község
   comments:
+  type: district_municipality
 '14':
   name: Kalvarijos savivaldybė
   code: '14'
@@ -1006,6 +1024,7 @@ VL:
     zh: 卡爾瓦里亞區
     ccp: "\U00011107\U00011123\U00011134\U0001111E\U00011122\U00011128\U0001110E"
   comments:
+  type: municipality
 '15':
   name: Kauno miesto savivaldybė
   code: '15'
@@ -1032,6 +1051,7 @@ VL:
     ccp: "\U00011107\U0001112F\U0001111A\U0001112E \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
     uk: Каунаський міський муніципалітет
   comments:
+  type: city_municipality
 '16':
   name: Kauno rajono savivaldybė
   code: '16'
@@ -1067,6 +1087,7 @@ VL:
     zh: 考那斯地區
     ccp: "\U00011107\U0001112F\U0001111A\U0001110C\U00011134"
   comments:
+  type: district_municipality
 '18':
   name: Kėdainių rajono savivaldybė
   code: '18'
@@ -1102,6 +1123,7 @@ VL:
     zh: 凱代尼艾地區
     ccp: "\U00011107\U0001112C\U00011113\U0001112D\U0001111A\U00011128\U00011103\U0001112D"
   comments:
+  type: district_municipality
 '19':
   name: Kelmės rajono savivaldybė
   code: '19'
@@ -1134,6 +1156,7 @@ VL:
     zh: 凱爾梅地區
     ccp: "\U00011107\U0001112C\U00011123\U00011134\U0001111F\U0001112C"
   comments:
+  type: district_municipality
 '21':
   name: Klaipėdos rajono savivaldybė
   code: '21'
@@ -1171,6 +1194,7 @@ VL:
     ccp: "\U00011107\U00011133\U00011123\U0001112D\U0001111B\U0001112C\U00011113"
     'no': Klaipeda landkommune
   comments:
+  type: district_municipality
 '22':
   name: Kretingos rajono savivaldybė
   code: '22'
@@ -1208,6 +1232,7 @@ VL:
     ccp: "\U00011107\U00011133\U00011122\U0001112C\U00011111\U00011128\U00011101\U00011109"
     'no': Kretinga kommune
   comments:
+  type: district_municipality
 '23':
   name: Kupiškio rajono savivaldybė
   code: '23'
@@ -1242,6 +1267,7 @@ VL:
     ccp: "\U00011107\U0001112A\U0001111B\U00011128\U0001110C\U00011134\U00011107\U00011128\U0001110C\U00011134"
     es: Distrito de Kupiškis
   comments:
+  type: district_municipality
 '25':
   name: Marijampolės savivaldybė
   code: '25'
@@ -1274,6 +1300,7 @@ VL:
     zh: 馬里揚泊列區
     ccp: "\U0001111F\U00011122\U00011128\U0001110E\U0001111F\U00011134\U0001111B\U00011127\U00011123\U0001112C"
   comments:
+  type: district_municipality
 '26':
   name: Mažeikių rajono savivaldybė
   code: '26'
@@ -1307,6 +1334,7 @@ VL:
     zh: 馬爾熱基艾地區
     ccp: "\U0001111F\U0001110E\U0001112C\U00011107\U00011128\U00011103\U0001112D"
   comments:
+  type: district_municipality
 '29':
   name: Pagėgių savivaldybė
   code: '29'
@@ -1339,6 +1367,7 @@ VL:
     zh: 帕蓋吉艾區
     ccp: "\U0001111B\U0001112C\U00011103\U00011128\U0001110C\U00011134\U00011109\U0001112D"
   comments:
+  type: municipality
 '30':
   name: Pakruojo rajono savivaldybė
   code: '30'
@@ -1373,6 +1402,7 @@ VL:
     zh: 帕克魯奧伊斯地區
     ccp: "\U0001111B\U00011107\U00011134\U00011122\U0001112F\U0001110E\U00011128\U0001110C\U00011134"
   comments:
+  type: district_municipality
 '33':
   name: Panevėžio rajono savivaldybė
   code: '33'
@@ -1410,6 +1440,7 @@ VL:
     ccp: "\U0001111B\U00011127\U0001111A\U0001112C\U0001111E\U0001112C\U0001110E\U00011128\U0001110C\U00011134"
     es: Distrito de Panevėžys
   comments:
+  type: district_municipality
 '34':
   name: Pasvalio rajono savivaldybė
   code: '34'
@@ -1445,6 +1476,7 @@ VL:
     ccp: "\U0001111B\U0001110C\U00011134\U0001111E\U00011123\U00011128\U0001110C\U00011134"
     es: Distrito de Pasvalys
   comments:
+  type: district_municipality
 '36':
   name: Prienų rajono savivaldybė
   code: '36'
@@ -1478,6 +1510,7 @@ VL:
     ccp: "\U0001111B\U00011133\U00011122\U0001112D\U00011120\U0001112C\U0001111A\U0001112D"
     et: Prienai rajoon
   comments:
+  type: district_municipality
 '37':
   name: Radviliškio rajono savivaldybė
   code: '37'
@@ -1513,6 +1546,7 @@ VL:
     ccp: "\U00011122\U00011116\U00011134\U0001111E\U00011128\U00011123\U00011128\U0001110C\U00011134\U00011107\U00011128\U0001110C\U00011134"
     'no': Radviliškis storkommune
   comments:
+  type: district_municipality
 '38':
   name: Raseinių rajono savivaldybė
   code: '38'
@@ -1548,6 +1582,7 @@ VL:
     zh: 拉塞尼艾地區
     ccp: "\U00011122\U00011125\U0001112C\U0001112D\U0001111A\U00011128\U00011103\U0001112D"
   comments:
+  type: district_municipality
 '40':
   name: Rokiškio rajono savivaldybė
   code: '40'
@@ -1582,6 +1617,7 @@ VL:
     ccp: "\U00011122\U00011127\U00011107\U00011128\U0001110C\U00011134\U00011107\U00011128\U0001110C\U00011134"
     es: Distrito de Rokiškis
   comments:
+  type: district_municipality
 '44':
   name: Šiaulių rajono savivaldybė
   code: '44'
@@ -1615,6 +1651,7 @@ VL:
     zh: 希奧利艾地區
     ccp: "\U00011125\U0001112D\U00011103\U0001112F\U00011123\U00011128\U00011103\U0001112D"
   comments:
+  type: district_municipality
 '46':
   name: Šilutės rajono savivaldybė
   code: '46'
@@ -1647,6 +1684,7 @@ VL:
     zh: 錫盧泰地區
     ccp: "\U00011125\U00011128\U00011123\U00011105\U0001112A\U00011116\U00011134"
   comments:
+  type: district_municipality
 '47':
   name: Širvintų rajono savivaldybė
   code: '47'
@@ -1683,6 +1721,7 @@ VL:
     et: Širvintose rajoon
     'no': Širvintos kommune
   comments:
+  type: district_municipality
 '50':
   name: Tauragės rajono savivaldybė
   code: '50'
@@ -1715,6 +1754,7 @@ VL:
     zh: 陶拉格地區
     ccp: "\U00011111\U00011127\U00011105\U0001112A\U00011122\U00011107\U00011134"
   comments:
+  type: district_municipality
 '51':
   name: Telšių rajono savivaldybė
   code: '51'
@@ -1749,6 +1789,7 @@ VL:
     zh: 特爾希艾地區
     ccp: "\U00011111\U0001112C\U00011123\U00011134\U00011125\U00011128\U00011103\U0001112D"
   comments:
+  type: district_municipality
 '52':
   name: Trakų rajono savivaldybė
   code: '52'
@@ -1782,6 +1823,7 @@ VL:
     zh: 特拉開地區
     ccp: "\U00011111\U00011133\U00011122\U00011107\U0001112D"
   comments:
+  type: district_municipality
 '53':
   name: Ukmergės rajono savivaldybė
   code: '53'
@@ -1818,6 +1860,7 @@ VL:
     ccp: "\U00011103\U00011107\U00011134\U0001111F\U00011122\U00011134\U00011107\U00011134"
     et: Ukmergė rajoon
   comments:
+  type: district_municipality
 '55':
   name: Varėnos rajono savivaldybė
   code: '55'
@@ -1852,6 +1895,7 @@ VL:
     zh: 瓦雷納地區
     ccp: "\U0001111E\U00011122\U0001112C\U0001111A"
   comments:
+  type: district_municipality
 '57':
   name: Vilniaus miesto savivaldybė
   code: '57'
@@ -1881,6 +1925,7 @@ VL:
     ccp: "\U0001111E\U00011128\U00011123\U00011134\U0001111A\U00011128\U00011124\U0001110C\U00011134
       \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
   comments:
+  type: city_municipality
 '58':
   name: Vilniaus rajono savivaldybė
   code: '58'
@@ -1918,6 +1963,7 @@ VL:
     ccp: "\U0001111E\U00011128\U00011123\U00011134\U0001111A\U00011128\U00011120\U0001110C\U00011134"
     'no': Vilnius landkommune
   comments:
+  type: district_municipality
 '60':
   name: Zarasų rajono savivaldybė
   code: '60'
@@ -1951,6 +1997,7 @@ VL:
     ccp: "\U0001110E\U00011122\U00011125\U0001112D"
     es: Distrito de Zarasai
   comments:
+  type: district_municipality
 '05':
   name: Birštono savivaldybė
   code: '05'
@@ -1983,6 +2030,7 @@ VL:
     ccp: "\U0001111D\U00011128\U00011122\U00011134\U0001110C\U00011133\U00011111\U00011127\U0001111A\U0001110C\U00011134"
     et: Birštonase omavalitsus
   comments:
+  type: municipality
 '08':
   name: Elektrėnų savivaldybė
   code: '08'
@@ -2018,6 +2066,7 @@ VL:
     be: Эляктрэнайскае самакіраванне
     'no': Elektrėnai kommune
   comments:
+  type: municipality
 '11':
   name: Joniškio rajono savivaldybė
   code: '11'
@@ -2050,6 +2099,7 @@ VL:
     ccp: "\U0001110E\U00011127\U0001111A\U00011128\U0001110C\U00011134\U00011107\U00011128\U0001110C\U00011134"
     be: Ёнішкіскі раён
   comments:
+  type: district_municipality
 '12':
   name: Jurbarko rajono savivaldybė
   code: '12'
@@ -2083,6 +2133,7 @@ VL:
     zh: 尤爾巴爾卡斯地區
     ccp: "\U0001110E\U00011122\U00011134\U0001111D\U00011122\U00011134\U00011107\U0001110C\U00011134"
   comments:
+  type: district_municipality
 '13':
   name: Kaišiadorių rajono savivaldybė
   code: '13'
@@ -2115,6 +2166,7 @@ VL:
     ccp: "\U00011107\U0001112D\U00011125\U00011128\U00011120\U00011113\U00011127\U00011122\U00011128\U0001110C\U00011134"
     et: Kaišiadorysi rajoon
   comments:
+  type: district_municipality
 '17':
   name: Kazlų Rūdos savivaldybė
   code: '17'
@@ -2148,6 +2200,7 @@ VL:
     ccp: "\U00011107\U0001110C\U00011134\U00011123\U0001112A \U00011122\U0001112A\U00011113"
     be: Казлурудскае самакіраванне
   comments:
+  type: municipality
 '24':
   name: Lazdijų rajono savivaldybė
   code: '24'
@@ -2183,6 +2236,7 @@ VL:
     be: Лаздзіяйскі раён
     'no': Lazdijai kommune
   comments:
+  type: district_municipality
 '27':
   name: Molėtų rajono savivaldybė
   code: '27'
@@ -2218,6 +2272,7 @@ VL:
     es: Distrito de Molėtai
     be: Малетайскі раён
   comments:
+  type: district_municipality
 '35':
   name: Plungės rajono savivaldybė
   code: '35'
@@ -2251,6 +2306,7 @@ VL:
     ccp: "\U0001111B\U00011133\U00011123\U00011101\U00011109\U0001112C"
     be: Плунгскі раён
   comments:
+  type: district_municipality
 '39':
   name: Rietavo savivaldybė
   code: '39'
@@ -2286,6 +2342,7 @@ VL:
     ccp: "\U00011122\U0001112D\U00011120\U0001112C\U00011111\U0001111E\U0001110C\U00011134"
     be: Рыетаваскае самакіраванне
   comments:
+  type: municipality
 '41':
   name: Šakių rajono savivaldybė
   code: '41'
@@ -2317,6 +2374,7 @@ VL:
     ccp: "\U00011125\U00011107\U00011128\U00011103\U0001112D"
     be: Шакейскі раён
   comments:
+  type: district_municipality
 '42':
   name: Šalčininkų rajono savivaldybė
   code: '42'
@@ -2352,6 +2410,7 @@ VL:
     ccp: "\U00011125\U00011123\U00011134\U00011125\U00011128\U0001111A\U00011128\U0001111A\U00011134\U00011107\U0001112D"
     'no': Šalčininkai kommune
   comments:
+  type: district_municipality
 '45':
   name: Šilalės rajono savivaldybė
   code: '45'
@@ -2383,6 +2442,7 @@ VL:
     zh: 錫拉萊地區
     ccp: "\U00011125\U00011128\U00011123\U00011123\U0001112C"
   comments:
+  type: district_municipality
 '48':
   name: Skuodo rajono savivaldybė
   code: '48'
@@ -2415,6 +2475,7 @@ VL:
     zh: 斯庫奧達斯地區
     ccp: "\U0001110C\U00011133\U00011107\U0001112A\U0001112A\U00011103\U0001112F\U00011113\U0001110C\U00011134"
   comments:
+  type: district_municipality
 '54':
   name: Utenos rajono savivaldybė
   code: '54'
@@ -2448,6 +2509,7 @@ VL:
     es: Distrito de Utena
     be: Уцянскі раён
   comments:
+  type: district_municipality
 '56':
   name: Vilkaviškio rajono savivaldybė
   code: '56'
@@ -2480,6 +2542,7 @@ VL:
     ccp: "\U0001111E\U00011128\U00011123\U00011134\U00011107\U0001111E\U00011128\U0001110C\U00011134\U00011107\U00011128\U0001110C\U00011134"
     be: Вілкавішкіскі раён
   comments:
+  type: district_municipality
 '59':
   name: Visagino savivaldybė
   code: '59'
@@ -2509,6 +2572,7 @@ VL:
     fr: Municipalité de Visaginas
     uk: муніципалітет Висагінас
   comments:
+  type: municipality
 '43':
   name: Šiaulių miesto savivaldybė
   code: '43'
@@ -2529,6 +2593,7 @@ VL:
     ccp: "\U00011125\U0001112D\U00011103\U0001112F\U00011123\U00011128\U00011105\U0001112A
       \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
   comments:
+  type: city_municipality
 '02':
   name: Alytaus miesto savivaldybė
   code: '02'
@@ -2550,6 +2615,7 @@ VL:
     pl: Olita (rejon miejski)
     ccp: "\U00011103\U00011123\U00011128\U00011120\U00011111\U0001110C\U00011134 \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
   comments:
+  type: city_municipality
 '20':
   name: Klaipėdos miesto savivaldybė
   code: '20'
@@ -2568,6 +2634,7 @@ VL:
     ccp: "\U00011107\U00011133\U00011123\U0001112D\U0001111B\U00011128\U00011113\U0001112E\U0001110C\U00011134
       \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
   comments:
+  type: city_municipality
 '28':
   name: Neringos savivaldybė
   code: '28'
@@ -2598,6 +2665,7 @@ VL:
     nb: Neringa kommune
     'no': Neringa kommune
   comments:
+  type: municipality
 '31':
   name: Palangos miesto savivaldybė
   code: '31'
@@ -2618,6 +2686,7 @@ VL:
     ceb: Palanga
     ccp: "\U0001111B\U00011127\U00011123\U00011101\U00011109"
   comments:
+  type: city_municipality
 '32':
   name: Panevėžio miesto savivaldybė
   code: '32'
@@ -2640,3 +2709,4 @@ VL:
     ccp: "\U0001111B\U00011127\U0001111A\U0001112C\U0001111E\U0001112C\U0001110E\U00011128\U00011103\U0001112E
       \U0001111F\U00011128\U00011105\U0001112A\U0001111A\U00011128\U00011125\U00011128\U0001111B\U00011123\U00011128\U00011111\U00011128"
   comments:
+  type: city_municipality

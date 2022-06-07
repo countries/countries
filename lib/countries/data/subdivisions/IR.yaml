@@ -1,7 +1,7 @@
 ---
-'01':
+'03':
   name: Az¯arbayjan-e Sharqi
-  code: '01'
+  code: '03'
   unofficial_names:
   - Azarbayjān-e Khavari
   - East Azerbaijan
@@ -74,9 +74,10 @@
     mk: Источен Азербејџан
     'no': Øst-Aserbajdsjan
   comments:
-'02':
+  type: province
+'04':
   name: Az¯arbayjan-e Gharbi
-  code: '02'
+  code: '04'
   unofficial_names:
   - Azarbayjān-e Bakhtari
   - West Azerbaijan
@@ -146,9 +147,10 @@
     mk: Западен Азербејџан
     'no': Vest-Aserbajdsjan
   comments:
-'03':
+  type: province
+'24':
   name: Ardabil
-  code: '03'
+  code: '24'
   unofficial_names:
   - Ardabil
   - Ardebil
@@ -221,9 +223,10 @@
     mk: Ардабил
     'no': Ardabil
   comments:
-'04':
+  type: province
+'10':
   name: Esfahan
-  code: '04'
+  code: '10'
   unofficial_names:
   - Isfahan
   geo:
@@ -294,9 +297,10 @@
     mk: Исфахан
     'no': Isfahan (provins)
   comments:
-'05':
+  type: province
+'16':
   name: Ilam
-  code: '05'
+  code: '16'
   unofficial_names:
   - Ilam
   geo:
@@ -357,9 +361,10 @@
     mk: Илам
     'no': Ilam
   comments:
-'06':
+  type: province
+'18':
   name: Bushehr
-  code: '06'
+  code: '18'
   unofficial_names: Bushehr
   geo:
     latitude: 28.97802549999999
@@ -422,9 +427,10 @@
     mk: Бушер
     'no': Bushehr
   comments:
-'07':
+  type: province
+'23':
   name: Tehran
-  code: '07'
+  code: '23'
   unofficial_names:
   - Teheran
   geo:
@@ -493,9 +499,10 @@
     mk: Техеран
     'no': Teheran
   comments:
-'08':
+  type: province
+'14':
   name: Chahar Mah¸all va Bakhtiari
-  code: '08'
+  code: '14'
   unofficial_names:
   - Chaharmahal Bakhtiari
   geo:
@@ -563,24 +570,10 @@
     mk: Чахар Махал и Бахтијари
     'no': Chahar Mahaal og Bakhtiari
   comments:
-'09':
-  name: Khorasan
-  code: '09'
-  unofficial_names:
-  - Khorasan
-  geo:
-    latitude: 26.5404213
-    longitude: 54.0053666
-    min_latitude: 26.5371531
-    min_longitude: 54.0035775
-    max_latitude: 26.543404
-    max_longitude: 54.0069813
-  translations:
-    en: Khorāsān-e Raẕavī
-  comments:
-'10':
+  type: province
+'06':
   name: Khuzestan
-  code: '10'
+  code: '06'
   unofficial_names:
   - Arabistan
   geo:
@@ -650,9 +643,10 @@
     mk: Кузестан
     'no': Khuzestan
   comments:
-'11':
+  type: province
+'19':
   name: Zanjan
-  code: '11'
+  code: '19'
   unofficial_names: Zanjan
   geo:
     latitude: 36.666667
@@ -714,9 +708,10 @@
     mk: Занџан
     'no': Zanjan
   comments:
-'12':
+  type: province
+'20':
   name: Semnan
-  code: '12'
+  code: '20'
   unofficial_names: Semnan
   geo:
     latitude: 35.572778
@@ -776,9 +771,10 @@
     mk: Семнан
     'no': Semnan
   comments:
-'13':
+  type: province
+'11':
   name: Sistan va Baluchestan
-  code: '13'
+  code: '11'
   unofficial_names:
   - Sistan-e Baluchistan
   geo:
@@ -848,9 +844,10 @@
     mk: Систан и Балуџистан
     'no': Sistan og Balutsjistan
   comments:
-'14':
+  type: province
+'07':
   name: Fars
-  code: '14'
+  code: '07'
   unofficial_names: Fars
   geo:
     latitude: 29.1043813
@@ -922,9 +919,10 @@
     mk: Фарс
     'no': Fars
   comments:
-'15':
+  type: province
+'08':
   name: Kerman
-  code: '15'
+  code: '08'
   unofficial_names: Kerman
   geo:
     latitude: 30.2839379
@@ -989,9 +987,10 @@
     mk: Керман
     'no': Kermān
   comments:
-'16':
+  type: province
+'12':
   name: Kordestan
-  code: '16'
+  code: '12'
   unofficial_names:
   - Kurdestan
   - Kurdistan
@@ -1065,9 +1064,10 @@
     mk: Курдистан
     'no': Kurdistan
   comments:
-'17':
+  type: province
+'05':
   name: Kermanshah
-  code: '17'
+  code: '05'
   unofficial_names:
   - Bakhtaran
   geo:
@@ -1134,9 +1134,10 @@
     mk: Керманшах
     'no': Kermanshah
   comments:
-'18':
+  type: province
+'17':
   name: Kohkiluyeh va Buyer Ahmad
-  code: '18'
+  code: '17'
   unofficial_names:
   - Boyer Ahmad-e Kohkiluyeh
   - Kohkilouyeh
@@ -1202,9 +1203,10 @@
     mk: Кохкилуех и Бујер Ахмад
     'no': Kohkiluyeh og Buyer Ahmad
   comments:
-'19':
+  type: province
+'01':
   name: Gilan
-  code: '19'
+  code: '01'
   unofficial_names:
   - Gilan
   geo:
@@ -1278,9 +1280,10 @@
     mk: Гилан
     'no': Gilan
   comments:
-'20':
+  type: province
+'15':
   name: Lorestan
-  code: '20'
+  code: '15'
   unofficial_names: Lorestan
   geo:
     latitude: 33.5818394
@@ -1347,9 +1350,10 @@
     mk: Лорестан
     'no': Luristan
   comments:
-'21':
+  type: province
+'02':
   name: Mazandaran
-  code: '21'
+  code: '02'
   unofficial_names:
   - Mazandaran
   geo:
@@ -1418,9 +1422,10 @@
     mk: Мазендеран
     'no': Mazandaran
   comments:
-'22':
+  type: province
+'00':
   name: Markazi
-  code: '22'
+  code: '00'
   unofficial_names: Markazi
   geo:
     latitude: 34.612305
@@ -1487,9 +1492,10 @@
     mk: Маркази
     'no': Markazi
   comments:
-'23':
+  type: province
+'22':
   name: Hormozgan
-  code: '23'
+  code: '22'
   unofficial_names: Hormozgan
   geo:
     latitude: 27.1907825
@@ -1550,9 +1556,10 @@
     mk: Хормозган
     'no': Hormozgan
   comments:
-'24':
+  type: province
+'13':
   name: Hamadan
-  code: '24'
+  code: '13'
   unofficial_names:
   - Hamedan
   geo:
@@ -1621,9 +1628,10 @@
     mk: Хамадан
     'no': Hamadan
   comments:
-'25':
+  type: province
+'21':
   name: Yazd
-  code: '25'
+  code: '21'
   unofficial_names: Yazd
   geo:
     latitude: 31.8974232
@@ -1684,9 +1692,10 @@
     mk: Јазд
     'no': Yazd
   comments:
-'26':
+  type: province
+'25':
   name: Qom
-  code: '26'
+  code: '25'
   unofficial_names: Qom
   geo:
     latitude: 34.6399443
@@ -1753,6 +1762,7 @@
     mk: Ком
     'no': Qom
   comments:
+  type: province
 '27':
   name: Golestan
   code: '27'
@@ -1825,9 +1835,10 @@
     mk: Голестан
     'no': Golestan
   comments:
-'28':
+  type: province
+'26':
   name: Qazvin
-  code: '28'
+  code: '26'
   unofficial_names: Qazvin
   geo:
     latitude: 36.1840731
@@ -1890,6 +1901,7 @@
     mk: Газвин
     'no': Qazvin (provins)
   comments:
+  type: province
 '29':
   name: Khorasan-e Janubi
   code: '29'
@@ -1959,7 +1971,8 @@
     mk: Јужен Корасан
     'no': Sør-Khorasan
   comments:
-'30':
+  type: province
+'09':
   name: Khorasan-e Razavi
   code: '30'
   unofficial_names: Khorasan-e Razavi
@@ -2028,9 +2041,10 @@
     mk: Разави Корасан
     'no': Razavi-Khorasan
   comments:
-'31':
+  type: province
+'28':
   name: Khorasan-e Shemali
-  code: '31'
+  code: '28'
   unofficial_names: Khorasan-e Shemali
   geo:
     latitude: 37.4710353
@@ -2097,9 +2111,10 @@
     mk: Северен Корасан
     'no': Nord-Khorasan
   comments:
-'32':
+  type: province
+'30':
   name: استان البرز
-  code: '32'
+  code: '30'
   unofficial_names:
   geo:
     latitude:
@@ -2168,8 +2183,4 @@
     mk: Алборз
     'no': Alborz Kommune
   comments:
-'00':
-  translations:
-    en: Markazī
-  name: Markazī
-  code: '00'
+  type: province

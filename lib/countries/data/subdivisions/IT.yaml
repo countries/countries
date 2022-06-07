@@ -72,6 +72,7 @@ AG:
     uz: Agrigento
     'no': Provinsen Agrigento
   comments:
+  type: free_municipal_consortium
 AL:
   name: Alessandria
   code: AL
@@ -145,6 +146,7 @@ AL:
     mk: Алесандрија
     'no': Provinsen Alessandria
   comments:
+  type: province
 AN:
   name: Ancona
   code: AN
@@ -217,74 +219,7 @@ AN:
     uz: Ancona
     'no': Provinsen Ancona
   comments:
-AO:
-  name: Aosta
-  code: AO
-  unofficial_names:
-  geo:
-    latitude: 45.7349551
-    longitude: 7.313076199999999
-    min_latitude: 45.7262497
-    min_longitude: 7.283380699999999
-    max_latitude: 45.7614425
-    max_longitude: 7.347974499999999
-  translations:
-    en: Aosta
-    ar: أوستا
-    az: Aosta
-    bg: Аоста
-    bn: আওস্তা
-    ca: Aosta
-    cs: Aosta
-    da: Aosta
-    de: Aosta
-    el: Αόστα
-    es: Aosta
-    eu: Aosta
-    fa: ائوستا
-    fi: Aosta
-    fr: Aoste
-    gl: Aosta
-    gu: ઓઓસ્તા
-    he: אאוסטה
-    hi: आओसता
-    hr: Aosta
-    hu: Aosta
-    hy: Աոստա
-    id: Aosta
-    it: Aosta
-    ja: アオスタ
-    ka: აოსტა
-    kn: ಅಯೋಸ್ತಾ
-    ko: 아오스타
-    lt: Aosta
-    lv: Aosta
-    mr: ओस्ता
-    ms: Aosta
-    nb: Aosta
-    nl: Aosta
-    pl: Aosta
-    pt: Aosta
-    ro: Aosta
-    ru: Аоста
-    si: අඕස්ටා
-    sk: Aosta
-    sl: Aosta
-    sr: Аоста
-    sv: Aosta
-    sw: Aosta
-    ta: அவ்ஸ்டா
-    te: ఆఓస్తా
-    th: ออสตา
-    tr: Aosta
-    uk: Аоста
-    ur: آئوستا
-    vi: Aosta
-    sr_Latn: Aosta
-    zh: 奥斯塔
-    ccp: "\U00011103\U00011127\U00011120\U0001112E\U0001110C\U00011134\U00011111"
-    'no': Aosta
-  comments:
+  type: province
 AP:
   name: Ascoli Piceno
   unofficial_names:
@@ -357,6 +292,7 @@ AP:
     mk: Асколи-Пичено
     'no': Provinsen Ascoli Piceno
   comments:
+  type: province
 AQ:
   name: L'Aquila
   code: AQ
@@ -420,6 +356,7 @@ AQ:
     uz: L’Aquila
     'no': Provinsen L’Aquila
   comments:
+  type: province
 AR:
   name: Arezzo
   code: AR
@@ -495,6 +432,7 @@ AR:
     uz: Arezzo
     'no': Arezzo
   comments:
+  type: province
 AT:
   name: Asti
   code: AT
@@ -568,6 +506,7 @@ AT:
     mk: Асти
     'no': Provinsen Asti
   comments:
+  type: province
 AV:
   name: Avellino
   code: AV
@@ -589,7 +528,7 @@ AV:
     da: Avellino
     de: Provinz Avellino
     el: Αβελλίνο
-    en: Bari
+    en: Avellino
     es: Avellino
     et: Avellino provints
     eu: Avellinoko probintzia
@@ -640,6 +579,7 @@ AV:
     mk: Авелино
     'no': Provinsen Avellino
   comments:
+  type: province
 BA:
   name: Bari
   code: BA
@@ -657,40 +597,40 @@ BA:
     ar: مقاطعة باري
     be: правінцыя Бары
     bg: Бари
-    ca: Bari
-    cs: Bari
-    de: Metropolitanstadt Bari
-    el: Μητροπολιτική Πόλη της Μπάρι
+    ca: Província de Bari
+    cs: Provincie Bari
+    de: Provinz Bari
+    el: Μπάρι
     en: Bari
-    es: Ciudad metropolitana de Bari
-    et: Bari
-    eu: Bariko
+    es: Bari
+    et: Bari provints
+    eu: Bariko probintzia
     fa: استان باری
-    fi: Barin metropolikaupunki
-    fr: Ville métropolitaine de Bari
-    gl: Bari
+    fi: Barin maakunta
+    fr: province de Bari
+    gl: Provincia de Bari
     he: בארי
-    hu: Bari
+    hu: Bari megye
     hy: Բարի
-    id: Bari
-    it: Bari
+    id: Provinsi Bari
+    it: provincia di Bari
     ja: バーリ県
     ka: ბარის პროვინცია
-    ko: 바리 광역시
+    ko: 바리 현
     lt: Bario provincija
     lv: Bari province
     ms: Wilayah Bari
     nb: Bari
     nl: Bari
-    pl: Bari
+    pl: Prowincja Bari
     pt: Bari
-    ro: Bari
+    ro: Provincia Bari
     ru: Бари
     sl: Bari
     sr: Бари
     sv: Bari
     tr: Bari ili
-    uk: Метрополійне місто Барі
+    uk: Провінція Барі
     vi: Bari
     mr: बारी महानगरीय शहर
     ceb: Bari
@@ -714,6 +654,7 @@ BA:
     mk: Бари
     'no': Provinsen Bari
   comments:
+  type: metropolitan_city
 BG:
   name: Bergamo
   code: BG
@@ -787,6 +728,7 @@ BG:
     mk: Бергамо
     'no': Provinsen Bergamo
   comments:
+  type: province
 BI:
   name: Biella
   code: BI
@@ -858,6 +800,7 @@ BI:
     uz: Biella
     'no': Provinsen Biella
   comments:
+  type: province
 BL:
   name: Belluno
   code: BL
@@ -931,6 +874,7 @@ BL:
     mk: Белуно
     'no': Provinsen Belluno
   comments:
+  type: province
 BN:
   name: Benevento
   code: BN
@@ -1003,6 +947,7 @@ BN:
     mk: Беневенто
     'no': Provinsen Benevento
   comments:
+  type: province
 BO:
   name: Bologna
   code: BO
@@ -1019,30 +964,30 @@ BO:
     ar: مقاطعة بولونيا
     be: Правінцыя Балоння
     bg: Болоня
-    ca: Bolonya
-    cs: Bologna
+    ca: Província de Bolonya
+    cs: Provincie Bologna
     da: Bologna
-    de: Metropolitanstadt Bologna
-    el: Μητροπολιτική Πόλη της Μπολόνια
+    de: Provinz Bologna
+    el: Μπολόνια
     en: Bologna
     es: Bolonia
-    et: Città metropolitana di Bologna
-    eu: Boloniako
+    et: Bologna provints
+    eu: Boloniako probintzia
     fa: استان بولونیا
-    fi: Bolognan
-    fr: Ville métropolitaine de Bologne
-    gl: Boloña
+    fi: Bolognan maakunta
+    fr: Province de Bologne
+    gl: Provincia de Boloña
     he: בולוניה
-    hu: Bologna
+    hu: Bologna megye
     hy: Բոլոնյա գավառ
-    id: Bologna
-    it: Città metropolitana di Bologna
+    id: Provinsi Bologna
+    it: provincia di Bologna
     ja: ボローニャ県
     ka: ბოლონიის პროვინცია
-    ko: 볼로냐 광역시
-    lt: Bolonijos
-    lv: Boloņas
-    ms: Bologna
+    ko: 볼로냐 현
+    lt: Bolonijos provincija
+    lv: Boloņas province
+    ms: Wilayah Bologna
     nb: Bologna
     nl: Bologna
     pl: Prowincja Bolonia
@@ -1052,8 +997,8 @@ BO:
     sl: Bologna
     sr: Болоња
     sv: Bologna
-    tr: Bologna
-    uk: Метрополі́йне мі́сто Боло́нья
+    tr: Bologna ili
+    uk: Провінція Болонья
     ur: صوبہ بولونیا
     vi: Bologna
     mr: बोलोन्याचे महानगरीय शहर
@@ -1078,6 +1023,7 @@ BO:
     mk: Болоња
     'no': Provinsen Bologna
   comments:
+  type: metropolitan_city
 BR:
   name: Brindisi
   code: BR
@@ -1149,6 +1095,7 @@ BR:
     uz: Brindisi
     'no': Provinsen Brindisi
   comments:
+  type: province
 BS:
   name: Brescia
   code: BS
@@ -1224,6 +1171,7 @@ BS:
     mk: Бреша
     'no': Provinsen Brescia
   comments:
+  type: province
 BT:
   name: Barletta-Andria-Trani
   code: BT
@@ -1294,6 +1242,7 @@ BT:
     uz: Barletta-Andria-Trani
     'no': Provinsen Barletta-Andria-Trani
   comments:
+  type: province
 BZ:
   name: Bolzano
   code: BZ
@@ -1363,6 +1312,7 @@ BZ:
     mk: Јужен Тирол
     'no': Sør-Tirol
   comments:
+  type: autonomous_province
 CA:
   name: Cagliari
   code: CA
@@ -1380,39 +1330,39 @@ CA:
     ar: مقاطعة كالياري
     bg: Каляри
     bn: ক্যাগ্লিয়ারি প্রদেশ
-    ca: Metropolitan City of Cagliari
-    cs: Metropolitní město Cagliari
+    ca: Província de Càller
+    cs: Provincie Cagliari
     da: Cagliari
-    de: Metropolitanstadt Cagliari
-    el: Μητροπολιτική Πόλη του Κάλαρι
+    de: Provinz Cagliari
+    el: Κάλιαρι
     en: Cagliari
-    es: Cáller
-    et: Città metropolitana di Cagliari
-    eu: Cagliariko
+    es: Cagliari
+    et: Cagliari provints
+    eu: Cagliariko probintzia
     fa: استان کالیاری
-    fi: Cagliarin
-    fr: ville métropolitaine de Cagliari
-    gl: Cagliari
+    fi: Cagliarin maakunta
+    fr: Province de Cagliari
+    gl: Provincia de Cagliari
     gu: કેગ્લિઆરી પ્રાંત
     he: קליארי
     hi: कैगलिअरी प्रांत
-    hu: Cagliari
-    id: Cagliari
-    it: Cagliari
+    hu: Cagliari megye
+    id: Provinsi Cagliari
+    it: provincia di Cagliari
     ja: カリャリ県
     ka: კალიარის პროვინცია
     kn: ಕ್ಯಾಗ್ಲಿಯಾರಿ ಪ್ರಾಂತ್ಯ
     ko: 칼리아리 현
-    lt: Kaljario
-    lv: Kaljāri
+    lt: Kaljario provincija
+    lv: Kaljāri province
     mr: कॅग्लियारी प्रांत
-    ms: Cagliari
+    ms: Wilayah Cagliari
     nb: Cagliari
-    nl: metropolitane stad Cagliari
-    pl: Miasto metropolitalne Cagliari
+    nl: Cagliari
+    pl: Prowincja Cagliari
     pt: Cagliari
-    ro: Orașul metropolitan Cagliari
-    ru: Метрополия города Кальяри
+    ro: Provincia Cagliari
+    ru: Кальяри
     si: කග්ලියාරි පළාත
     sl: Cagliari
     sr: Каљари
@@ -1435,6 +1385,7 @@ CA:
     uz: Cagliari
     'no': Provinsen Cagliari
   comments:
+  type: metropolitan_city
 CB:
   name: Campobasso
   code: CB
@@ -1507,6 +1458,7 @@ CB:
     mk: Кампобасо
     'no': Provinsen Campobasso
   comments:
+  type: province
 CE:
   name: Caserta
   code: CE
@@ -1579,6 +1531,7 @@ CE:
     mk: Казерта
     'no': Provinsen Caserta
   comments:
+  type: province
 CH:
   name: Chieti
   code: CH
@@ -1651,6 +1604,7 @@ CH:
     mk: Кјети
     'no': Provinsen Chieti
   comments:
+  type: province
 CL:
   name: Caltanissetta
   code: CL
@@ -1723,6 +1677,7 @@ CL:
     uz: Caltanissetta
     'no': Provinsen Caltanissetta
   comments:
+  type: free_municipal_consortium
 CN:
   name: Cuneo
   code: CN
@@ -1795,6 +1750,7 @@ CN:
     mk: Кунео
     'no': Provinsen Cuneo
   comments:
+  type: province
 CO:
   name: Como
   code: CO
@@ -1869,6 +1825,7 @@ CO:
     mk: Комо
     'no': Provinsen Como
   comments:
+  type: province
 CR:
   name: Cremona
   code: CR
@@ -1941,6 +1898,7 @@ CR:
     uz: Cremona
     'no': Provinsen Cremona
   comments:
+  type: province
 CS:
   name: Cosenza
   code: CS
@@ -2014,6 +1972,7 @@ CS:
     uz: Cosenza
     'no': Provinsen Cosenza
   comments:
+  type: province
 CT:
   name: Catania
   code: CT
@@ -2031,34 +1990,34 @@ CT:
     be: Катанія
     bg: Катания
     bn: ক্যাটানিয়ার প্রদেশ
-    ca: Ciutat metropolitana de Catània
-    cs: Metropolitní město Katánie
-    da: Catania
-    de: Metropolitanstadt Catania
-    el: Μητροπολιτική Πόλη της Κατάνιας
+    ca: Província de Catània
+    cs: Provincie Catania
+    da: Province of Catania
+    de: Provinz Catania
+    el: Κατάνια
     en: Catania
-    es: Ciudad metropolitana de Catania
+    es: Catania
     et: Catania provints
     eu: Cataniako probintzia
     fa: استان کاتانیا
     fi: Catanian maakunta
-    fr: ville métropolitaine de Catane
+    fr: Province de Catane
     gl: Provincia de Catania
     gu: કેટેનિયાના પ્રાંત
     he: קטניה
     hi: कटानिया प्रांत
     hr: Catania
-    hu: Catania
-    id: Catania
-    it: Città metropolitana di Catania
+    hu: Catania megye
+    id: Provinsi Catania
+    it: provincia di Catania
     ja: カターニア県
     ka: კატანიის პროვინცია
     kn: ಕೆಟಾನಿಯ ಪ್ರಾಂತ್ಯ
-    ko: 카타니아 광역시
-    lt: Katanijos
-    lv: Katānijas
+    ko: 카타니아 현
+    lt: Katanijos provincija
+    lv: Katānijas province
     mr: केटेनियाचा प्रांत
-    ms: Catania
+    ms: Wilayah Catania
     nb: Catania
     nl: Catania
     pl: Prowincja Katania
@@ -2073,8 +2032,8 @@ CT:
     ta: கேதனியா மாகாணம்
     te: కటానియా ప్రావిన్స్
     th: จังหวัดกาตาเนีย
-    tr: Katanya
-    uk: Метрополійне місто Катанія
+    tr: Katanya ili
+    uk: Провінція Катанія
     ur: صوبہ کاتانیا
     vi: Catania
     ceb: Catania (lalawigan)
@@ -2090,6 +2049,7 @@ CT:
     mk: Катанија
     'no': Provinsen Catania
   comments:
+  type: metropolitan_city
 CZ:
   name: Catanzaro
   code: CZ
@@ -2152,6 +2112,7 @@ CZ:
     uz: Catanzaro
     'no': Provinsen Catanzaro
   comments:
+  type: province
 EN:
   name: Enna
   code: EN
@@ -2223,6 +2184,7 @@ EN:
     uz: Enna
     'no': Provinsen Enna
   comments:
+  type: free_municipal_consortium
 FC:
   name: Forlì-Cesena
   unofficial_names:
@@ -2277,6 +2239,13 @@ FC:
     uk: Провінція Форлі-Чезена
     ur: صوبہ فورلی-چیزینا
     vi: Forlì-Cesena
+    ccp: "\U0001111C\U0001112E\U00011122\U00011134\U00011123\U00011128-\U00011125\U0001112C\U00011125\U0001112C\U0001111A"
+    ceb: Forlì-Cesena
+    jv: Provinsi Forlì-Cesena
+    mk: Форли-Чезена
+    'no': Provinsen Forlì-Cesena
+    sr_Latn: Forli-Čezena
+    uz: Forlì-Cesena
   geo:
     latitude: 43.99476809999999
     longitude: 11.9804613
@@ -2285,6 +2254,7 @@ FC:
     max_latitude: 44.3307907
     max_longitude: 12.4574107
   comments:
+  type: province
   code: FC
 FE:
   name: Ferrara
@@ -2357,6 +2327,7 @@ FE:
     mk: Ферара
     'no': Provinsen Ferrara
   comments:
+  type: province
 FG:
   name: Foggia
   code: FG
@@ -2431,6 +2402,7 @@ FG:
     mk: Фоџа
     'no': Provinsen Foggia
   comments:
+  type: province
 FI:
   name: Firenze
   code: FI
@@ -2448,41 +2420,41 @@ FI:
     be: правінцыя Фларэнцыя
     bg: Флоренция
     bn: ফ্লোরেন্স-র প্রদেশ
-    ca: Florència
-    cs: Firenze
+    ca: Província de Florència
+    cs: Provincie Firenze
     da: Firenze
-    de: Florenz
+    de: Provinz Florenz
     el: Φλωρεντία
     en: Florence
     es: Florencia
-    et: Firenze
-    eu: Florentziako
+    et: Firenze provints
+    eu: Florentziako probintzia
     fa: استان فلورانس
-    fi: Firenzen
-    fr: Province
-    gl: Provincia
+    fi: Firenzen maakunta
+    fr: Province de Florence
+    gl: Provincia de Florencia
     gu: ફ્લોરેન્સ પ્રાંત
     he: פירנצה
     hi: फ्लोरेंस प्रांत
     hr: Firenca
-    hu: Firenze
+    hu: Firenze megye
     hy: Ֆլորենցիա
-    id: Firenze
+    id: Provinsi Firenze
     is: Flórens
-    it: provincia
+    it: provincia di Firenze
     ja: フィレンツェ県
     ka: ფლორენციის პროვინცია
     kn: ಫ್ಲಾರೆನ್ಸ್ ಪ್ರಾಂತ್ಯ
     ko: 피렌체 현
-    lt: Florencijos
-    lv: Florences
+    lt: Florencijos provincija
+    lv: Florences province
     mr: फ्लॉरेन्स प्रांत
-    ms: Firenze
+    ms: Wilayah Firenze
     nb: Firenze
     nl: Florence
-    pl: Florencja
+    pl: Prowincja Florencja
     pt: Florença
-    ro: Florența
+    ro: Provincia Florența
     ru: Флоренция
     si: ෆ්ලොරන්ස් පළාත
     sk: Florencia
@@ -2492,7 +2464,7 @@ FI:
     ta: பிளாரென்ஸ் மாகாணம்
     te: ఫ్లోరెన్స్ ప్రావిన్స్
     th: จังหวัดฟลอเรนซ์
-    tr: Firenze
+    tr: Firenze ili
     uk: Провінція Флоренція
     ur: صوبہ فلورنس
     vi: Firenze
@@ -2506,6 +2478,7 @@ FI:
     mk: Фиренца
     'no': Firenze
   comments:
+  type: metropolitan_city
 FM:
   name: Fermo
   code: FM
@@ -2578,6 +2551,7 @@ FM:
     uz: Fermo
     'no': Provinsen Fermo
   comments:
+  type: province
 FR:
   name: Frosinone
   code: FR
@@ -2650,6 +2624,7 @@ FR:
     mk: Фрозиноне
     'no': Provinsen Frosinone
   comments:
+  type: province
 GE:
   name: Genova
   code: GE
@@ -2705,6 +2680,7 @@ GE:
     be: метрапольны горад Генуя
     'no': Genoa kommune
   comments:
+  type: metropolitan_city
 GR:
   name: Grosseto
   code: GR
@@ -2767,6 +2743,7 @@ GR:
     uz: Grosseto
     'no': Grosseto
   comments:
+  type: province
 IM:
   name: Imperia
   code: IM
@@ -2839,6 +2816,7 @@ IM:
     mk: Империја
     'no': Provinsen Imperia
   comments:
+  type: province
 IS:
   name: Isernia
   code: IS
@@ -2909,6 +2887,7 @@ IS:
     uz: Isernia
     'no': Provinsen Isernia
   comments:
+  type: province
 KR:
   name: Crotone
   code: KR
@@ -2985,6 +2964,7 @@ KR:
     bs: Crotone
     'no': Provinsen Crotone
   comments:
+  type: province
 LC:
   name: Lecco
   code: LC
@@ -3059,6 +3039,7 @@ LC:
     mk: Леко
     'no': Provinsen Lecco
   comments:
+  type: province
 LE:
   name: Lecce
   code: LE
@@ -3130,6 +3111,7 @@ LE:
     uz: Lecce
     'no': Provinsen Lecce
   comments:
+  type: province
 LI:
   name: Livorno
   code: LI
@@ -3202,6 +3184,7 @@ LI:
     mk: Ливорно
     'no': Livorno
   comments:
+  type: province
 LO:
   name: Lodi
   code: LO
@@ -3274,6 +3257,7 @@ LO:
     uz: Lodi
     'no': Provinsen Lodi
   comments:
+  type: province
 LT:
   name: Latina
   code: LT
@@ -3347,6 +3331,7 @@ LT:
     mk: Латина
     'no': Provinsen Latina
   comments:
+  type: province
 LU:
   name: Lucca
   code: LU
@@ -3418,6 +3403,7 @@ LU:
     uz: Lucca
     'no': Lucca
   comments:
+  type: province
 MB:
   name: Monza e Brianza
   code: MB
@@ -3488,6 +3474,7 @@ MB:
       \U0001111D\U00011133\U00011122\U00011128\U0001111A\U00011134\U0001110E"
     'no': Provinsen Monza og Brianza
   comments:
+  type: province
 MC:
   name: Macerata
   code: MC
@@ -3559,6 +3546,7 @@ MC:
     uz: Macerata
     'no': Provinsen Macerata
   comments:
+  type: province
 ME:
   name: Messina
   code: ME
@@ -3639,6 +3627,7 @@ ME:
     mk: Месина
     'no': Provinsen Messina
   comments:
+  type: metropolitan_city
 MI:
   name: Milano
   code: MI
@@ -3714,6 +3703,7 @@ MI:
     mk: Милано
     'no': Provinsen Milano
   comments:
+  type: metropolitan_city
 MN:
   name: Mantova
   code: MN
@@ -3787,6 +3777,7 @@ MN:
     uz: Mantuya
     'no': Provinsen Mantova
   comments:
+  type: province
 MO:
   name: Modena
   code: MO
@@ -3858,6 +3849,7 @@ MO:
     uz: Modena
     'no': Provinsen Modena
   comments:
+  type: province
 MS:
   name: Massa-Carrara
   code: MS
@@ -3928,6 +3920,7 @@ MS:
     mk: Маса-Карара
     'no': Massa-Carrara
   comments:
+  type: province
 MT:
   name: Matera
   code: MT
@@ -3991,6 +3984,7 @@ MT:
     uz: Matera
     'no': Provinsen Matera
   comments:
+  type: province
 NA:
   name: Napoli
   code: NA
@@ -4066,6 +4060,7 @@ NA:
     mk: Неапол
     'no': Provinsen Napoli
   comments:
+  type: metropolitan_city
 'NO':
   name: Novara
   code: 'NO'
@@ -4140,6 +4135,7 @@ NA:
     uz: Novara
     'no': Provinsen Novara
   comments:
+  type: province
 NU:
   name: Nuoro
   code: NU
@@ -4210,6 +4206,7 @@ NU:
     uz: Nuoro
     'no': Provinsen Nuoro
   comments:
+  type: province
 OR:
   name: Oristano
   code: OR
@@ -4280,6 +4277,7 @@ OR:
     mk: Ористано
     'no': Provinsen Oristano
   comments:
+  type: province
 PA:
   name: Palermo
   code: PA
@@ -4344,6 +4342,7 @@ PA:
     uz: Palermo
     'no': Provinsen Palermo
   comments:
+  type: metropolitan_city
 PC:
   name: Piacenza
   code: PC
@@ -4405,6 +4404,7 @@ PC:
     uz: Piacenza
     'no': Provinsen Piacenza
   comments:
+  type: province
 PD:
   name: Padova
   code: PD
@@ -4479,6 +4479,7 @@ PD:
     mk: Падова
     'no': Provinsen Padova
   comments:
+  type: province
 PE:
   name: Pescara
   code: PE
@@ -4550,6 +4551,7 @@ PE:
     uz: Pescara
     'no': Provinsen Pescara
   comments:
+  type: province
 PG:
   name: Perugia
   code: PG
@@ -4623,6 +4625,7 @@ PG:
     mk: Перуџа
     'no': Provinsen Perugia
   comments:
+  type: province
 PI:
   name: Pisa
   code: PI
@@ -4695,6 +4698,7 @@ PI:
     uz: Pisa
     'no': Pisa
   comments:
+  type: province
 PO:
   name: Prato
   code: PO
@@ -4765,6 +4769,7 @@ PO:
     uz: Prato
     'no': Prato
   comments:
+  type: province
 PR:
   name: Parma
   code: PR
@@ -4826,6 +4831,7 @@ PR:
     uz: Parma
     'no': Provinsen Parma
   comments:
+  type: province
 PT:
   name: Pistoia
   unofficial_names:
@@ -4886,7 +4892,16 @@ PT:
     uk: Провінція Пістоя
     ur: صوبہ پستویا
     vi: Pistoia
+    ccp: "\U0001111B\U00011128\U00011120\U0001110C\U00011134\U00011111\U00011130\U00011120"
+    ceb: Provincia di Pistoia
+    hy: Պիստոիա
+    jv: Provinsi Pistoia
+    mk: Пистоја
+    'no': Pistoia
+    sr_Latn: Pistoja
+    uz: Pistoia
   comments:
+  type: province
   code: PT
 PU:
   name: Pesaro e Urbino
@@ -4959,6 +4974,7 @@ PU:
     mk: Пезаро и Урбино
     'no': Provinsen Pesaro og Urbino
   comments:
+  type: province
 PV:
   name: Pavia
   code: PV
@@ -5031,6 +5047,7 @@ PV:
     uz: Pavia
     'no': Provinsen Pavia
   comments:
+  type: province
 PZ:
   name: Potenza
   code: PZ
@@ -5102,6 +5119,7 @@ PZ:
     uz: Potenza
     'no': Provinsen Potenza
   comments:
+  type: province
 RA:
   name: Ravenna
   code: RA
@@ -5175,6 +5193,7 @@ RA:
     mk: Равена
     'no': Provinsen Ravenna
   comments:
+  type: province
 RC:
   name: Reggio Calabria
   code: RC
@@ -5192,39 +5211,39 @@ RC:
     be: Рэджа-Калабрыя
     bg: Реджо Калабрия
     bn: রেজ্জিও ক্যালাব্রিয়া-এর প্রদেশ
-    ca: Reggio de Calàbria
-    cs: Reggio Calabria
-    da: Reggio Calabria
-    de: Metropolitanstadt Reggio Calabria
-    el: Μητροπολιτική Πόλη της Ρέτζο-Καλάμπρια
+    ca: Província de Reggio de Calàbria
+    cs: Provincie Reggio Calabria
+    da: Province of Reggio Calabria
+    de: Provinz Reggio Calabria
+    el: Ρέτζο-Καλάμπρια
     en: Reggio Calabria
-    es: Ciudad metropolitana de Reggio Calabria
-    et: Reggio Calabria
-    eu: Reggio di Calabriako
+    es: Reggio Calabria
+    et: Reggio Calabria provints
+    eu: Reggio di Calabriako probintzia
     fa: استان رجیو کالابریا
-    fi: Reggio Calabrian metropolikaupunki
-    fr: Ville métropolitaine de Reggio de Calabre
-    gl: Reggio Calabria
+    fi: Reggio Calabrian maakunta
+    fr: Province de Reggio de Calabre
+    gl: Provincia de Reggio Calabria
     gu: રેજિયો કેલેબ્રિયા પ્રાંત
     he: רג׳ו די קלבריה
     hi: रेजियो कैलाब्रिया प्रांत
-    hu: Reggio Calabria
+    hu: Reggio Calabria megye
     hy: Ռեջիո Կալաբրիա
-    id: Reggio Calabria
-    it: Città Metropolitana di Reggio Calabria
+    id: Provinsi Reggio Calabria
+    it: provincia di Reggio Calabria
     ja: レッジョ・カラブリア県
     ka: რეჯო-კალაბრიის პროვინცია
     kn: ರೆಗ್ಗಿಯೋ ಕ್ಯಾಲಬ್ರಿಯಾ ಪ್ರಾಂತ್ಯ
     ko: 레조칼라브리아 현
-    lt: Kalabrijos Redžo
+    lt: Kalabrijos Redžo provincija
     lv: Redžo di Kalabrijas province
     mr: रेजिओ कॅलब्रिया प्रांत
-    ms: Reggio Calabria
+    ms: Wilayah Reggio Calabria
     nb: Reggio Calabria
     nl: Reggio Calabria
-    pl: Reggio di Calabria
+    pl: Prowincja Reggio di Calabria
     pt: Reggio Calabria
-    ro: Reggio Calabria
+    ro: Provincia Reggio Calabria
     ru: Реджо-Калабрия
     si: රෙජියෝ පළාත ,කලබ්‍රියා
     sl: Reggio Calabria
@@ -5233,8 +5252,8 @@ RC:
     ta: ரெஜிஓ கலாப்ரியா மாகாணம்
     te: రెగియో కలాబ్రియా ప్రావిన్స్
     th: จังหวัดเรจจิโอ คาราเบรีย
-    tr: Reggio Calabria
-    uk: Метрополійне місто Реджо-Калабрія
+    tr: Reggio Calabria ili
+    uk: Провінція Реджо-Калабрія
     ur: صوبہ رجیو کلابریا
     vi: Reggio Calabria
     ceb: Reggio Calabria
@@ -5248,6 +5267,7 @@ RC:
     uz: Reggio Calabria
     'no': Provinsen Reggio Calabria
   comments:
+  type: metropolitan_city
 RE:
   name: Reggio Emilia
   code: RE
@@ -5318,6 +5338,7 @@ RE:
     uz: Reggio Emilia
     'no': Provinsen Reggio Emilia
   comments:
+  type: province
 RG:
   name: Ragusa
   code: RG
@@ -5391,6 +5412,7 @@ RG:
     mk: Рагуза
     'no': Provinsen Ragusa
   comments:
+  type: free_municipal_consortium
 RI:
   name: Rieti
   code: RI
@@ -5462,6 +5484,7 @@ RI:
     uz: Rieti
     'no': Provinsen Rieti
   comments:
+  type: province
 RM:
   name: Roma
   code: RM
@@ -5479,43 +5502,43 @@ RM:
     ar: مقاطعة روما
     be: правінцыя Рым
     bg: Рим
-    ca: Roma
-    cs: Roma
-    da: Rom
-    de: Metropolitanstadt Rom
-    el: Μητροπολιτική Πόλη της Ρώμης
-    es: Ciudad metropolitana de Roma
-    et: Rooma
-    eu: Erromako
+    ca: Província de Roma
+    cs: Provincie Roma
+    da: Provinsen Rom
+    de: Provinz Rom
+    el: Επαρχία της Ρώμης
+    es: Roma
+    et: Rooma provints
+    eu: Erromako probintzia
     fa: استان رم
-    fi: Rooman metropolikaupunki
-    fr: Ville métropolitaine de Rome
-    gl: Roma
+    fi: Rooman maakunta
+    fr: Province de Rome
+    gl: Provincia de Roma
     he: רומא
     hr: Rim
-    hu: Róma
+    hu: Róma megye
     hy: Հռոմ
-    id: Roma
-    it: Città metropolitana di Roma Capitale
+    id: Provinsi Roma
+    it: provincia di Roma
     ja: ローマ県
-    ka: რომის
-    ko: 로마 수도 광역시
-    lt: Romos
-    lv: Romas
+    ka: რომის პროვინცია
+    ko: 로마 현
+    lt: Romos provincija
+    lv: Romas province
     mn: Ром аймаг
-    ms: Rom
+    ms: Wilayah Rom
     nb: Roma
     nl: Rome
-    pl: Rzym
+    pl: Prowincja Rzym
     pt: Roma
-    ro: Roma
+    ro: Provincia Roma
     ru: Рим
-    sk: Rím
+    sk: provincia Rím
     sl: Roma
     sr: Рим
     sv: Rom
-    tr: Roma
-    uk: Метрополійне місто Рим
+    tr: Roma ili
+    uk: Провінція Рим
     ur: صوبہ روما
     vi: Roma
     ceb: Roma
@@ -5532,6 +5555,7 @@ RM:
     mk: Рим
     'no': Provinsen Roma
   comments:
+  type: metropolitan_city
 RN:
   name: Rimini
   code: RN
@@ -5602,6 +5626,7 @@ RN:
     uz: Rimini
     'no': Provinsen Rimini
   comments:
+  type: province
 RO:
   name: Rovigo
   code: RO
@@ -5675,6 +5700,7 @@ RO:
     mk: Ровиго
     'no': Provinsen Rovigo
   comments:
+  type: province
 SA:
   name: Salerno
   code: SA
@@ -5747,6 +5773,7 @@ SA:
     mk: Салерно
     'no': Provinsen Salerno
   comments:
+  type: province
 SI:
   name: Siena
   code: SI
@@ -5820,6 +5847,7 @@ SI:
     mk: Сиена
     'no': Siena
   comments:
+  type: free_municipal_consortium
 SO:
   name: Sondrio
   code: SO
@@ -5893,6 +5921,7 @@ SO:
     uz: Sondrio
     'no': Provinsen Sondrio
   comments:
+  type: province
 SP:
   name: La Spezia
   code: SP
@@ -5964,6 +5993,7 @@ SP:
     mk: Ла Специја
     'no': Provinsen La Spezia
   comments:
+  type: province
 SR:
   name: Siracusa
   code: SR
@@ -6038,6 +6068,7 @@ SR:
     mk: Сиракуза
     'no': Provinsen Siracusa
   comments:
+  type: province
 SS:
   name: Sassari
   code: SS
@@ -6108,6 +6139,16 @@ SS:
     uz: Sassari
     'no': Provinsen Sassari
   comments:
+  type: province
+SU:
+  name: Sud Sardegna
+  code: SU
+  unofficial_names:
+  - Province of Sud Sardegna
+  comments:
+  type: province
+  translations:
+    en: Sud Sardegna
 SV:
   name: Savona
   code: SV
@@ -6180,6 +6221,7 @@ SV:
     mk: Савона
     'no': Provinsen Savona
   comments:
+  type: province
 TA:
   name: Taranto
   code: TA
@@ -6251,6 +6293,7 @@ TA:
     uz: Taranto
     'no': Provinsen Taranto
   comments:
+  type: province
 TE:
   name: Teramo
   code: TE
@@ -6322,6 +6365,7 @@ TE:
     uz: Teramo
     'no': Provinsen Teramo
   comments:
+  type: province
 TN:
   name: Trento
   code: TN
@@ -6385,6 +6429,7 @@ TN:
     mk: Трентино
     'no': Trentino
   comments:
+  type: autonomous_province
 TO:
   name: Torino
   code: TO
@@ -6399,34 +6444,34 @@ TO:
     max_longitude: 7.7623282
   translations:
     ar: مقاطعة تورينو
-    be: Турын
+    be: правінцыя Турын
     bg: Торино
     bn: তুরিণ-এর প্রদেশ
-    ca: Torí
-    cs: Torino
+    ca: província de Torí
+    cs: Provincie Torino
     da: Torino
-    de: Metropolitanstadt Turin
-    el: Μητροπολιτική Πόλη της Τορίνο
+    de: Provinz Turin
+    el: Τορίνο
     en: Turin
-    es: Ciudad metropolitana de Turín
-    et: Torino
-    eu: Turingo
+    es: Turín
+    et: Torino provints
+    eu: Turingo probintzia
     fa: استان تورین
-    fi: Torinon metropolikaupunki
-    fr: Ville métropolitaine de Turin
-    gl: Turín
+    fi: Torinon maakunta
+    fr: province de Turin
+    gl: Provincia de Turín
     gu: ટ્યુરિન પ્રાંત
     hi: ट्यूरिन प्रांत
-    hu: Torino
+    hu: Torino megye
     hy: Թուրին
-    id: Torino
+    id: Provinsi Torino
     is: Tórínó
-    it: Torino
+    it: provincia di Torino
     ja: トリノ県
     ka: ტურინის პროვინცია
     kn: ಟುರಿನ್ ಪ್ರಾಂತ್ಯ
     ko: 토리노 현
-    lt: Turino
+    lt: Turino provincija
     lv: Turīnas province
     mr: ट्यूरिन प्रांत
     ms: Wilayah Turin
@@ -6443,8 +6488,8 @@ TO:
     ta: டுரின் மாகாணம்
     te: టురిన్ ప్రావిన్స్
     th: เซมนาน
-    tr: Torino
-    uk: Метрополійне місто Турин
+    tr: Torino ili
+    uk: Провінція Турин
     ur: صوبہ تورینو
     vi: Torino
     cy: Talaith Torino
@@ -6461,6 +6506,7 @@ TO:
     mk: Торино
     'no': Provinsen Torino
   comments:
+  type: metropolitan_city
 TP:
   name: Trapani
   code: TP
@@ -6533,6 +6579,7 @@ TP:
     uz: Trapani
     'no': Provinsen Trapani
   comments:
+  type: free_municipal_consortium
 TR:
   name: Terni
   code: TR
@@ -6606,6 +6653,7 @@ TR:
     mk: Терни
     'no': Provinsen Terni
   comments:
+  type: province
 TV:
   name: Treviso
   code: TV
@@ -6680,6 +6728,7 @@ TV:
     mk: Тревизо
     'no': Provinsen Treviso
   comments:
+  type: province
 VA:
   name: Varese
   code: VA
@@ -6753,6 +6802,7 @@ VA:
     uz: Varese
     'no': Provinsen Varese
   comments:
+  type: province
 VB:
   name: Verbano-Cusio-Ossola
   code: VB
@@ -6824,6 +6874,7 @@ VB:
     uz: Verbano-Cusio-Ossola
     'no': Provinsen Verbano Cusio Ossola
   comments:
+  type: province
 VC:
   name: Vercelli
   code: VC
@@ -6895,6 +6946,7 @@ VC:
     uz: Vercelli
     'no': Provinsen Vercelli
   comments:
+  type: province
 VE:
   name: Venezia
   code: VE
@@ -6969,6 +7021,7 @@ VE:
     mk: Венеција
     'no': Provinsen Venezia
   comments:
+  type: metropolitan_city
 VI:
   name: Vicenza
   code: VI
@@ -6986,49 +7039,49 @@ VI:
     be: правінцыя Вічэнца
     bg: Виченца
     bn: ভিচেঞ্জার প্রদেশ
-    ca: Vicenza
-    cs: Vicenza
+    ca: Província de Vicenza
+    cs: Provincie Vicenza
     da: Vicenza
-    de: Metropolitanstadt Vicenza
-    el: Μητροπολιτική Πόλη της Βιτσέντσα
+    de: Provinz Vicenza
+    el: Βιτσέντσα
     en: Vicenza
-    es: Ciudad metropolitana de Vicenza
-    et: Vicenza
-    eu: Vicenzako
-    fa: منطقه کلان‌شهری ونیز
-    fi: Vicenzan metropolikaupunki
-    fr: Ville métropolitaine de Vicence
-    gl: Vicenza
+    es: Vicenza
+    et: Vicenza provints
+    eu: Vicenzako probintzia
+    fa: استان ویچنزا
+    fi: Vicenzan maakunta
+    fr: province de Vicence
+    gl: Provincia de Vicenza
     gu: વિસેન્ઝા પ્રાંત
     he: ויצ׳נצה
     hi: विकेंज़ा प्रांत
-    hr: Vicenza
-    hu: Vicenza
-    id: Vicenza
-    it: Vicenza
+    hr: Vicenza (pokrajina)
+    hu: Vicenza megye
+    id: Provinsi Vicenza
+    it: provincia di Vicenza
     ja: ヴィチェンツァ県
     ka: ვიჩენცის პროვინცია
     kn: ವಿಸೆಂಜದ ಪ್ರಾಂತ್ಯ
-    ko: 베네치아 광역시
-    lt: Vičencos
-    lv: Vičencas
+    ko: 비첸차 현
+    lt: Vičencos provincija
+    lv: Vičencas province
     mr: व्हिसेना प्रांत
-    ms: Wilayah
+    ms: Wilayah Vicenza
     nb: Provinsen
     nl: Vicenza
-    pl: Prowincja
+    pl: Prowincja Vicenza
     pt: Vicenza
-    ro: Provincia
+    ro: Provincia Vicenza
     ru: Виченца
     si: විසේන්සා පළාත
     sl: Vicenza
-    sr: Виченца
+    sr: Виченца (округ)
     sv: Vicenza
     ta: விசென்சர் மாகாணம்
     te: విసెంజా ప్రావిన్స్
     th: จังหวัดวิเซนซา
     tr: Vicenza ili
-    uk: Метрополійне місто Віченца
+    uk: Провінція Віченца
     ur: صوبہ ویچینسا
     vi: Vicenza
     ceb: Provincia di Vicenza
@@ -7042,6 +7095,7 @@ VI:
     mk: Виченца
     'no': Provinsen Vicenza
   comments:
+  type: province
 VR:
   name: Verona
   code: VR
@@ -7115,6 +7169,7 @@ VR:
     mk: Верона
     'no': Provinsen Verona
   comments:
+  type: province
 VT:
   name: Viterbo
   code: VT
@@ -7187,6 +7242,7 @@ VT:
     uz: Viterbo
     'no': Provinsen Viterbo
   comments:
+  type: province
 VV:
   name: Vibo Valentia
   code: VV
@@ -7258,6 +7314,7 @@ VV:
     uz: Vibo Valentia
     'no': Provinsen Vibo Valentia
   comments:
+  type: province
 '21':
   name: Piemonte
   code: '21'
@@ -7339,6 +7396,7 @@ VV:
     mk: Пиемонт
     'no': Piemonte
   comments:
+  type: region
 '23':
   name: Valle d'Aosta
   unofficial_names:
@@ -7422,6 +7480,7 @@ VV:
     mk: Аостинска Долина
     'no': Aostadalen
   code: '23'
+  type: autonomous_region
 '25':
   name: Lombardia
   unofficial_names:
@@ -7452,7 +7511,7 @@ VV:
     fa: لمباردی
     fi: Lombardia
     fr: Lombardie
-    gl: Lombardía
+    gl: Lombardía - Lombardia
     he: לומברדיה
     hr: Lombardija
     hu: Lombardia
@@ -7485,7 +7544,26 @@ VV:
     uk: Ломбардія
     ur: لومباردیہ
     vi: Lombardia
+    af: Lombardye
+    am: ሎምባርዲያ
+    bs: Lombardija
+    ccp: "\U00011123\U0001112E\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011113\U00011128"
+    ceb: Lombardia
+    cy: Lombardia
+    ga: An Lombaird
+    hi: लोम्बार्डी
+    jv: Lombardia
+    kk: Ломбардия
+    mk: Ломбардија
+    'no': Lombardia
+    pa: ਲੋਂਬਾਰਦੀਆ
+    so: Lombardia
+    sq: Lombardia
+    sr_Latn: Lombardija
+    yue: 倫巴第大區
+    yue_Hans: 伦巴第大区
   code: '25'
+  type: region
 '32':
   name: Trentino-Alto Adige
   unofficial_names:
@@ -7564,6 +7642,7 @@ VV:
     'no': Trentino-Alto Adige
   comments:
   code: '32'
+  type: autonomous_region
 '34':
   name: Veneto
   unofficial_names:
@@ -7623,7 +7702,26 @@ VV:
     uk: Венето
     ur: وینیتو
     vi: Veneto
+    af: Veneto
+    am: ቨኔቶ
+    az: Veneto
+    bs: Veneto
+    ccp: "\U0001111E\U0001112C\U0001111A\U0001112C\U00011111\U0001112E"
+    ceb: Veneto
+    cy: Veneto
+    ga: Veneto
+    hi: वैनेतो
+    jv: Veneto
+    kk: Венето
+    mk: Венето
+    'no': Veneto
+    pa: ਵੈਨੇਤੋ
+    sq: Veneto
+    sr_Latn: Veneto
+    yue: 威尼托
+    yue_Hans: 威尼托
   code: '34'
+  type: region
 '36':
   name: Friuli Venezia Giulia
   unofficial_names:
@@ -7647,7 +7745,7 @@ VV:
     da: Friuli-Venezia Giulia
     de: Friaul-Julisch Venetien
     el: Φρίουλι-Βενέτσια Τζούλια
-    en: Friuli Venezia Giulia
+    en: Friuli–Venezia Giulia
     es: Friuli-Venecia Julia
     et: Friuli-Venezia Giulia
     eu: Friuli-Venezia-Julia
@@ -7685,7 +7783,24 @@ VV:
     uk: Фріулі-Венеція-Джулія
     ur: فریولی وینیزیا جولیا
     vi: Friuli–Venezia Giulia
+    af: Friuli-Venezia Giulia
+    am: ፍሪዩሊ ቬነጽያ ጁልያ
+    bs: Furlanija-Julijska Krajina
+    ccp: "\U0001111C\U00011133\U00011122\U0001112D\U00011105\U0001112A\U00011123\U00011128\U00011120-\U0001111E\U0001112C\U0001111A\U0001112C\U0001110E\U00011128\U00011120
+      \U00011109\U0001112D\U00011105\U0001112A\U00011123\U00011128\U00011120"
+    ceb: Friuli-Venezia Giulia
+    cy: Friuli-Venezia Giulia
+    ga: Friuli-Venezia Giulia
+    jv: Friuli-Venezia Giulia
+    kk: Фриули-Венеция-Джулия
+    mk: Фурланија-Јулиска краина
+    'no': Friuli-Venezia Giulia
+    sq: Friuli-Venecia Xhulia
+    sr_Latn: Furlanija-Julijska krajina
+    yue: 傅遼利－威尼斯朱利亞
+    yue_Hans: 傅辽利－威尼斯朱利亚
   code: '36'
+  type: autonomous_region
 '42':
   name: Liguria
   unofficial_names:
@@ -7765,6 +7880,7 @@ VV:
     'no': Liguria
   comments:
   code: '42'
+  type: region
 '45':
   name: Emilia-Romagna
   code: '45'
@@ -7843,6 +7959,7 @@ VV:
     mk: Емилија-Ромања
     'no': Emilia-Romagna
   comments:
+  type: region
 '52':
   name: Toscana
   code: '52'
@@ -7924,6 +8041,7 @@ VV:
     mk: Тоскана
     'no': Toscana
   comments:
+  type: region
 '55':
   name: Umbria
   code: '55'
@@ -8000,6 +8118,7 @@ VV:
     bs: Umbrija
     mk: Умбрија
     'no': Umbria
+  type: region
 '57':
   name: Marche
   unofficial_names:
@@ -8058,7 +8177,23 @@ VV:
     uk: Марке
     ur: مارکے
     vi: Marche
+    am: ማርኬ
+    bs: Marche
+    ccp: "\U0001111F\U00011122\U00011134\U0001110C\U0001112C"
+    ceb: Marche
+    cy: Marche
+    ga: Marche
+    hi: मार्श
+    jv: Marche
+    mk: Марке
+    'no': Marche
+    pa: ਮਾਰਕੇ
+    sq: Marke
+    sr_Latn: Marke
+    yue: 馬其
+    yue_Hans: 马其
   code: '57'
+  type: region
 '62':
   name: Lazio
   unofficial_names:
@@ -8139,6 +8274,7 @@ VV:
     'no': Latium
   comments:
   code: '62'
+  type: region
 '65':
   name: Abruzzo
   code: '65'
@@ -8216,6 +8352,7 @@ VV:
     mk: Абруцо
     'no': Abruzzo
   comments:
+  type: region
 '67':
   name: Molise
   code: '67'
@@ -8275,6 +8412,21 @@ VV:
     uk: Молізе
     ur: مولیزے
     vi: Molise
+    am: ሞሊዜ
+    bs: Molise
+    ccp: "\U0001111F\U00011127\U00011123\U0001112D\U0001110C\U00011134"
+    ceb: Molise
+    cy: Molise
+    ga: Molise
+    jv: Molise
+    kk: Молизе
+    mk: Молизе
+    'no': Molise
+    sq: Molize
+    sr_Latn: Molize
+    yue: 摩列謝
+    yue_Hans: 摩列谢
+  type: region
 '72':
   name: Campania
   code: '72'
@@ -8353,6 +8505,7 @@ VV:
     bs: Kampanija
     mk: Кампанија
     'no': Campania
+  type: region
 '75':
   name: Puglia
   unofficial_names:
@@ -8417,8 +8570,24 @@ VV:
     uk: Апулія
     ur: پلیہ
     vi: Apulia
+    af: Apulië
+    am: አፑሊያ
+    bs: Apulija
+    ccp: "\U00011103\U0001112C\U0001111B\U0001112A\U00011123\U00011128\U00011120"
+    ceb: Apulia
+    cy: Puglia
+    ga: Puglia
+    jv: Puglia
+    kk: Апулия
+    mk: Апулија
+    'no': Puglia
+    pa: ਪੂਲੀਆ
+    sr_Latn: Apulija
+    yue: 蒲利亞
+    yue_Hans: 蒲利亚
   comments:
   code: '75'
+  type: region
 '77':
   name: Basilicata
   code: '77'
@@ -8480,6 +8649,23 @@ VV:
     tr: Basilicata
     uk: Базиліката
     ur: بازیلیکاتا
+    am: ባሲሊካታ
+    bs: Basilicata
+    ccp: "\U0001111D\U00011125\U00011128\U00011123\U00011128\U00011107\U00011111"
+    ceb: Basilicata
+    cy: Basilicata
+    ga: Basilicata
+    jv: Basilicata
+    kk: Базиликата
+    mk: Базиликата
+    'no': Basilicata
+    pa: ਬਾਜ਼ਿਲੀਕਾਤਾ
+    sq: Bazilikata
+    sr_Latn: Bazilikata
+    vi: Basilicata
+    yue: 巴斯利卡塔
+    yue_Hans: 巴斯利卡塔
+  type: region
 '78':
   name: Calabria
   unofficial_names:
@@ -8487,7 +8673,7 @@ VV:
   - Calàbbria
   - Kalavrì
   translations:
-    ar: كالابريا
+    ar: قلورية
     be: Калабрыя
     bg: Калабрия
     ca: Calàbria
@@ -8509,23 +8695,23 @@ VV:
     hu: Calabria
     hy: Կալաբրիա
     id: Calabria
-    is: Calabria
+    is: Kalabría
     it: Calabria
-    ja: カラブリア
+    ja: カラブリア州
     ka: კალაბრია
-    ko: 칼라브리아
+    ko: 칼라브리아 주
     lt: Kalabrija
     lv: Kalabrija
-    mr: बाझिलिकाता
+    mr: कालाब्रिया
     ms: Calabria
     ne: कालाब्रिआ
-    nl: Calabria
+    nl: Calabrië
     pa: ਕਾਲਾਬਰੀਆ
     pl: Kalabria
-    pt: Calabria
+    pt: Calábria
     ro: Calabria
-    ru: Calabria
-    sk: Calabria
+    ru: Калабрия
+    sk: Kalábria
     sl: Kalabrija
     sq: Kalabria
     sr: Калабрија
@@ -8534,7 +8720,7 @@ VV:
     ta: கலபிரியா
     th: แคว้นคาลาเบรีย
     tr: Calabria
-    uk: Calabria
+    uk: Калабрія
     ur: کلابریا
     vi: Calabria
     cy: Calabria
@@ -8553,8 +8739,10 @@ VV:
     bs: Kalabrija
     mk: Калабрија
     'no': Calabria
+    af: Kalabrië
   comments:
   code: '78'
+  type: region
 '82':
   name: Sicilia
   code: '82'
@@ -8644,6 +8832,7 @@ VV:
     'no': Sicilia
     yo_BJ: Sicily
   comments:
+  type: autonomous_region
 '88':
   name: Sardegna
   code: '88'
@@ -8736,3 +8925,250 @@ VV:
     ha_NE: Sardiniya
     'no': Sardinia
   comments:
+  type: autonomous_region
+GO:
+  name: Gorizia
+  code: GO
+  unofficial_names:
+  comments:
+  type: decentralized_regional_entity
+  translations:
+    ar: مقاطعة غوريتسيا
+    be: правінцыя Гарыцыя
+    bg: Гориция
+    ca: Província de Gorizia
+    ccp: "\U00011109\U00011127\U00011122\U00011128\U0001110E\U00011128\U00011120"
+    ceb: Gorizia
+    cs: Provincie Gorizia
+    da: Gorizia
+    de: Provinz Görz
+    el: Γκορίτσια
+    en: Gorizia
+    es: Gorizia
+    et: Gorizia provints
+    eu: Goriziako probintzia
+    fa: استان گوریتزیا
+    fi: Gorizian maakunta
+    fr: Province de Gorizia
+    gl: Provincia de Gorizia
+    he: גוריציה
+    hr: Gorica
+    hu: Gorizia megye
+    hy: Կաղապար:Գորիցիայի գավառ
+    id: Provinsi Gorizia
+    it: provincia di Gorizia
+    ja: ゴリツィア県
+    jv: Provinsi Gorizia
+    ka: გორიციის პროვინცია
+    ko: 고리치아 현
+    lt: Goricijos provincija
+    lv: Gorīcijas province
+    mk: Горица
+    ms: Wilayah Gorizia
+    nl: Gorizia
+    'no': Provinsen Gorizia
+    pl: Prowincja Gorycja
+    pt: Gorizia
+    ro: Provincia Gorizia
+    ru: Гориция
+    sl: Goriška pokrajina
+    sq: Provinca e Goricias
+    sr: Горица
+    sr_Latn: Gorica
+    sv: Gorizia
+    tr: Gorizia ili
+    uk: Провінція Горіція
+    ur: صوبہ گوریتسیا
+    uz: Gorizia
+    vi: Gorizia
+PN:
+  name: Pordenone
+  code: PN
+  unofficial_names:
+  comments:
+  type: decentralized_regional_entity
+  translations:
+    ar: مقاطعة بوردينوني
+    be: правінцыя Пардэнонэ
+    bg: Порденоне
+    bn: পোর্ডেনোন-এর প্রদেশ
+    ca: Província de Pordenone
+    ccp: "\U0001111B\U00011127\U00011122\U00011134\U00011113\U0001112C\U0001111A\U00011127\U0001111A\U00011134"
+    ceb: Pordenone
+    cs: Provincie Pordenone
+    da: Pordenone
+    de: Provinz Pordenone
+    el: Πορντενόνε
+    en: Pordenone
+    es: Pordenone
+    et: Pordenone provints
+    eu: Pordenoneko probintzia
+    fa: استان پوردنونه
+    fi: Pordenonen maakunta
+    fr: Province de Pordenone
+    gl: Provincia de Pordenone
+    gu: પોર્ડેનોન પ્રાંત
+    he: פורדנונה
+    hi: पोरदेनोन प्रांत
+    hr: Pordenone
+    hu: Pordenone megye
+    hy: Պորդենոնե
+    id: Provinsi Pordenone
+    it: provincia di Pordenone
+    ja: ポルデノーネ県
+    jv: Provinsi Pordenone
+    ka: პორდენონეს პროვინცია
+    kn: ಪೋರ್ಡೆನೊನ್ ಪ್ರಾಂತ್ಯ
+    ko: 포르데노네 현
+    lt: Pordenonės provincija
+    lv: Pordenones province
+    mk: Порденоне
+    mr: पॉर्नडेनोन प्रांत
+    ms: Wilayah Pordenone
+    nl: Pordenone
+    'no': Provinsen Pordenone
+    pl: Prowincja Pordenone
+    pt: Pordenone
+    ro: Provincia Pordenone
+    ru: Порденоне
+    si: පොර්ඩෙනොනේ පළාත
+    sl: Pordenone
+    sq: Provinca e Pordenones
+    sr: Порденоне (округ)
+    sr_Latn: Pordenone (okrug)
+    sv: Pordenone
+    ta: போர்டேனானே மாகாணம்
+    te: ప్రావిన్స్ ఆప్ ట్రెవిసో
+    th: จังหวัดปอร์เดโนนี
+    tr: Pordenone ili
+    uk: Провінція Порденоне
+    ur: صوبہ پوردینونے
+    uz: Pordenone
+    vi: Pordenone
+TS:
+  name: Trieste
+  code: TS
+  unofficial_names:
+  comments:
+  type: decentralized_regional_entity
+  translations:
+    ar: مقاطعة ترييستي
+    be: правінцыя Трыест
+    bg: Триест
+    bn: ট্রীস্টের প্রদেশ
+    ca: Província de Trieste
+    ccp: "\U00011111\U00011133\U00011122\U0001112D\U00011103\U0001112C\U0001110C\U00011134\U00011111\U00011128"
+    ceb: Trieste
+    cs: Provincie Trieste
+    da: Trieste
+    de: Provinz Triest
+    el: Τεργέστη
+    en: Trieste
+    es: Trieste
+    et: Trieste provints
+    eu: Triesteko probintzia
+    fa: استان تریسته
+    fi: Triesten maakunta
+    fr: Province de Trieste
+    gl: Provincia de Trieste
+    gu: ટ્રીએસ્ટ પ્રાંત
+    he: טריאסטה
+    hi: त्रिएस्ते प्रांत
+    hr: Trst
+    hu: Trieszt megye
+    id: Provinsi Trieste
+    it: provincia di Trieste
+    ja: トリエステ県
+    jv: Provinsi Trieste
+    ka: ტრიესტის პროვინცია
+    kn: ಟ್ರೀಸ್ಟೆ ಪ್ರಾಂತ್ಯ
+    ko: 트리에스테 현
+    lt: Triesto provincija
+    lv: Triestes province
+    mk: Трст
+    mr: ट्राएस्टे प्रांत
+    ms: Wilayah Trieste
+    nl: Triëst
+    'no': Provinsen Trieste
+    pl: Prowincja Triest
+    pt: Trieste
+    ro: Provincia Trieste
+    ru: Триест
+    si: ට්‍රියෙස්ටේ පළාත
+    sl: Tržaška pokrajina
+    sq: Provinca e Triestes
+    sr: Трст
+    sr_Latn: Trst
+    sv: Trieste
+    ta: ட்ரிஸ்ட் மாகாணம்
+    te: ట్రీస్టె ప్రావిన్స్
+    th: จังหวัดทรีเอสต์
+    tr: Trieste ili
+    uk: Провінція Трієст
+    ur: صوبہ تریستے
+    uz: Trieste
+    vi: Trieste
+UD:
+  name: Udine
+  code: UD
+  unofficial_names:
+  comments:
+  type: decentralized_regional_entity
+  translations:
+    ar: مقاطعة أوديني
+    be: правінцыя Удзінэ
+    bg: Удине
+    bn: উদিনে প্রদেশ
+    ca: Província d’Udine
+    ccp: "\U00011103\U0001112A\U00011113\U0001112D\U0001111A\U00011134"
+    ceb: Udine
+    cs: Provincie Udine
+    da: Udine
+    de: Provinz Udine
+    el: Ούντινε
+    en: Udine
+    es: Udine
+    et: Udine provints
+    eu: Udineko probintzia
+    fa: استان اودینه
+    fi: Udinen maakunta
+    fr: Province d’Udine
+    gl: Provincia de Udine
+    gu: ઉડીન પ્રાંત
+    he: אודינה
+    hi: यूडाइन प्रांत
+    hr: Udine
+    hu: Udine megye
+    hy: Ուդինե
+    id: Provinsi Udine
+    it: provincia di Udine
+    ja: ウーディネ県
+    jv: Provinsi Udine
+    ka: უდინეს პროვინცია
+    kn: ಉಡೈನ್ ಪ್ರಾಂತ್ಯ
+    ko: 우디네 현
+    lt: Udinės provincija
+    lv: Udīnes province
+    mk: Удине
+    mr: उडीन प्रांत
+    ms: Wilayah Udine
+    nl: Udine
+    'no': Provinsen Udine
+    pl: Prowincja Udine
+    pt: Udine
+    ro: Provincia Udine
+    ru: Удине
+    si: උඩිනේ පළාත
+    sl: Videmska pokrajina
+    sq: Provinca e Udines
+    sr: Удине
+    sr_Latn: Udine
+    sv: Udine
+    ta: உடைனே மாகாணம்
+    te: ఉడిన్ ప్రావిన్స్
+    th: เมืองอูดิเน
+    tr: Udine ili
+    uk: Провінція Удіне
+    ur: صوبہ اودینے
+    uz: Udine
+    vi: Udine

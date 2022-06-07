@@ -58,6 +58,22 @@ AA:
     ha_NE: Yankin Greater Accra
     'no': Greater Accra
   comments:
+  type: region
+AF:
+  name: Ahafo
+  code: AF
+  unofficial_names:
+  geo:
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
+  translations:
+    en: Ahafo
+  comments:
+  type: region
 AH:
   name: Ashanti
   code: AH
@@ -121,63 +137,37 @@ AH:
     'no': Ashanti
     yo_BJ: Agbègbè Ashanti
   comments:
-BA:
-  name: Brong-Ahafo
-  code: BA
-  unofficial_names: Brong-Ahafo
+  type: region
+BE:
+  name: Bono East
+  code: BE
+  unofficial_names:
   geo:
-    latitude: 7.9559247
-    longitude: -1.6760691
-    min_latitude: 6.386344999999999
-    min_longitude: -3.091438
-    max_latitude: 8.778668099999999
-    max_longitude: 0.1875014
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
   translations:
-    en: Brong-Ahafo
-    ar: إقليم برونغ - أهافو
-    be: Рэгіён Бронг Ахафо
-    bg: Бронг Ахафо
-    bn: ব্রুং আহফু অঞ্চল
-    ca: Brong-Ahafo
-    da: Brong-Ahafo
-    de: Brong-Ahafo Region
-    el: Μπρόνγκ-Αχάφο
-    es: Brong-Ahafo
-    fa: منطقه بارونگ-آهافو
-    fi: Brong-Ahafo
-    fr: Région de Brong Ahafo
-    gu: બ્રૉંગ-અહાફો પ્રદેશ
-    hi: ब्रोंग-अहाफो क्षेत्र
-    id: Region Brong-Ahafo
-    it: regione di Brong-Ahafo
-    kn: ಬ್ರಾಂಗ್-ಆಫಫೋ ಪ್ರದೇಶ
-    ko: 브롱아하포 주
-    lt: Brongų–Ahafų regionas
-    mr: ब्रोंग-अहफो प्रदेश
-    ms: Kawasan Brong-Ahafo
-    nb: Brong-Ahafo
-    nl: Brong-Ahafo
-    pl: Region Brong-Ahafo
-    pt: Brong-Ahafo
-    ro: Regiunea Brong-Ahafo
-    ru: Бронг-Ахафо
-    si: බ්‍රොන්ග්-අහෆෝ කලාපය
-    sv: Brong-Ahaforegionen
-    ta: பிராங் -காபியோ பகுதி
-    te: బ్రాంగ్-అహాఫో ప్రాంతం
-    th: เขตบรอง-อฮาโฟ
-    tr: Brong-Ahafo Bölgesi
-    uk: Бронг-Ахафо
-    ur: برونج-احافو ریجن
-    vi: Khu vực Brong-Ahafo
-    lv: Brongahafo reģions
-    ceb: Brong-Ahafo Region
-    zh: 布朗阿哈福地區
-    ccp: "\U0001111D\U00011133\U00011122\U00011127\U00011101-\U00011103\U00011126\U0001111C\U0001112E"
-    ha: Yankin Brong-Ahafo
-    ha_NE: Yankin Brong-Ahafo
-    'no': Brong-Ahafo
+    en: Bono East
   comments:
+  type: region
+BO:
+  name: Bono
+  code: BO
+  unofficial_names:
+  geo:
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
+  translations:
+    en: Bono
+  comments:
+  type: region
 CP:
   name: Central
   code: CP
@@ -237,6 +227,7 @@ CP:
     ha_NE: Yankin Tsakiya (Ghana)
     'no': Central
   comments:
+  type: region
 EP:
   name: Eastern
   code: EP
@@ -295,6 +286,22 @@ EP:
     ha_NE: Yankin Gabashi (Ghana)
     'no': Eastern
   comments:
+  type: region
+NE:
+  name: North East
+  code: NE
+  unofficial_names:
+  geo:
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
+  translations:
+    en: North East
+  comments:
+  type: region
 NP:
   name: Northern
   code: NP
@@ -353,6 +360,31 @@ NP:
     ha_NE: Yankin Arewaci (Ghana)
     'no': Northern
   comments:
+  type: region
+OT:
+  name: Oti
+  code: OT
+  unofficial_names:
+  geo:
+  translations:
+    en: Oti
+  comments:
+  type: region
+SV:
+  name: Savannah
+  code: SV
+  unofficial_names:
+  geo:
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
+  translations:
+    en: Savannah
+  comments:
+  type: region
 TV:
   name: Volta
   code: TV
@@ -412,6 +444,7 @@ TV:
     ha_NE: Yankin Volta
     'no': Volta
   comments:
+  type: region
 UE:
   name: Upper East
   code: UE
@@ -470,6 +503,7 @@ UE:
     ha_NE: Yankin Upper East
     'no': Upper East
   comments:
+  type: region
 UW:
   name: Upper West
   code: UW
@@ -528,6 +562,22 @@ UW:
     ha_NE: Yankin Upper West
     'no': Upper West
   comments:
+  type: region
+WN:
+  name: Western North
+  code: WN
+  unofficial_names:
+  geo:
+    latitude: 7.946527
+    longitude: -1.023194
+    min_latitude: 4.6339001
+    min_longitude: -3.2607859
+    max_latitude: 11.1750308
+    max_longitude: 1.199972
+  translations:
+    en: Western North
+  comments:
+  type: region
 WP:
   name: Western
   code: WP
@@ -586,95 +636,4 @@ WP:
     ha_NE: Yankin Yammaci, Ghana
     'no': Western
   comments:
-AF:
-  name: Ahafo
-  code: AF
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: Ahafo
-  comments:
-BE:
-  name: Bono East
-  code: BE
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: Bono East
-  comments:
-BO:
-  name: Bono
-  code: BO
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: Bono
-  comments:
-NE:
-  name: North East
-  code: NE
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: North East
-  comments:
-OT:
-  name: Oti
-  code: OT
-  unofficial_names:
-  geo:
-  translations:
-    en: Oti
-  comments:
-SV:
-  name: Savannah
-  code: SV
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: Savannah
-  comments:
-WN:
-  name: Western North
-  code: WN
-  unofficial_names:
-  geo:
-    latitude: 7.946527
-    longitude: -1.023194
-    min_latitude: 4.6339001
-    min_longitude: -3.2607859
-    max_latitude: 11.1750308
-    max_longitude: 1.199972
-  translations:
-    en: Western North
-  comments:
+  type: region

@@ -64,21 +64,7 @@ BC:
     mk: Долно Конго
     'no': Bas-Congo
   comments:
-BN:
-  name: Bandundu
-  code: BN
-  unofficial_names: Bandundu
-  geo:
-    latitude: -3.316667
-    longitude: 17.366667
-    min_latitude: -3.3406136
-    min_longitude: 17.3576054
-    max_latitude: -3.2987836
-    max_longitude: 17.4044975
-  translations:
-    en: Bandundu
-    ccp: "\U0001111D\U0001111A\U00011134\U00011118\U0001112A\U0001111A\U00011134\U00011113\U0001112A"
-  comments:
+  type: province
 EQ:
   name: Équateur
   code: EQ
@@ -137,22 +123,7 @@ EQ:
     uk: Екватор (Екваторіальна провінція)
     'no': Équateur (provins)
   comments:
-KA:
-  name: Katanga
-  code: KA
-  unofficial_names:
-  - Shaba
-  geo:
-    latitude: -8.8851145
-    longitude: 26.419389
-    min_latitude: -13.455676
-    min_longitude: 21.744753
-    max_latitude: -4.999066
-    max_longitude: 30.5928848
-  translations:
-    en: Katanga
-    ccp: "\U00011107\U00011111\U0001110B\U00011134\U00011109"
-  comments:
+  type: province
 KE:
   name: Kasai-Oriental
   code: KE
@@ -214,6 +185,7 @@ KE:
     hy: Արևելյան Կասայ
     'no': Kasaï-Oriental
   comments:
+  type: province
 KN:
   name: Kinshasa
   code: KN
@@ -309,21 +281,7 @@ KN:
     'no': Kinshasa
     yo_BJ: Kinshasa
   comments:
-KW:
-  name: Kasai-Occidental
-  code: KW
-  unofficial_names: Kasai-Occidental
-  geo:
-    latitude: -5.320547299999999
-    longitude: 21.8568586
-    min_latitude: -7.9022269
-    min_longitude: 19.6801381
-    max_latitude: -2.338351
-    max_longitude: 23.742881
-  translations:
-    en: Kasaï-Occidental
-    ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
-  comments:
+  type: city
 MA:
   name: Maniema
   code: MA
@@ -385,6 +343,7 @@ MA:
     he: מניימה
     'no': Maniema
   comments:
+  type: province
 NK:
   name: Nord-Kivu
   code: NK
@@ -449,23 +408,7 @@ NK:
     az: Şimali Kivu
     'no': Nord-Kivu
   comments:
-OR:
-  name: Orientale
-  code: OR
-  unofficial_names:
-  - Haut-Zaire
-  - Orientale
-  geo:
-    latitude: 1.6406296
-    longitude: 26.419389
-    min_latitude: -2.1170779
-    min_longitude: 22.2904529
-    max_latitude: 5.386098
-    max_longitude: 31.2769461
-  translations:
-    en: Orientale
-    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
-  comments:
+  type: province
 SK:
   name: Sud-Kivu
   code: SK
@@ -528,6 +471,7 @@ SK:
     mk: Јужно Киву
     'no': Sud-Kivu
   comments:
+  type: province
 BU:
   name: Bas-Uele
   code: BU
@@ -567,6 +511,7 @@ BU:
     he: מחוז אואלה תחתית
     'no': Bas-Uele
   comments:
+  type: province
 HK:
   name: Haut-Katanga
   code: HK
@@ -607,6 +552,7 @@ HK:
     hy: Վերին Կատանգա
     'no': Haut-Katanga
   comments:
+  type: province
 HL:
   name: Haut-Lomami
   code: HL
@@ -646,6 +592,7 @@ HL:
     hy: Վերին Լոմամի
     'no': Haut-Lomami
   comments:
+  type: province
 HU:
   name: Haut-Uele
   code: HU
@@ -685,6 +632,7 @@ HU:
     hy: Վերին Ուելե
     'no': Haut-Uele
   comments:
+  type: province
 KC:
   name: Lulua
   code: KC
@@ -724,6 +672,7 @@ KC:
     it: Provincia del Kasai Centrale
     'no': Lulua
   comments:
+  type: province
 KG:
   name: Kwango
   code: KG
@@ -756,6 +705,7 @@ KG:
     ccp: "\U00011107\U00011127\U00011120\U0001112A\U00011101\U00011109\U0001112E"
     'no': Kwango
   comments:
+  type: province
 KL:
   name: Kwilu
   code: KL
@@ -795,6 +745,7 @@ KL:
     hy: Կվիլու
     'no': Kwilu
   comments:
+  type: province
 LO:
   name: Kabinda
   code: LO
@@ -831,6 +782,7 @@ LO:
     ka: ლომამის პროვინცია
     'no': Lomami
   comments:
+  type: province
 LU:
   name: Lualaba
   code: LU
@@ -869,6 +821,7 @@ LU:
     ccp: "\U00011123\U0001112A\U00011120\U00011123\U0001111D"
     'no': Lualaba (provins)
   comments:
+  type: province
 MN:
   name: Mai-Ndombe
   code: MN
@@ -904,6 +857,7 @@ MN:
     ccp: "\U0001111F\U0001112D-\U00011113\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
     'no': Mai-Ndombe
   comments:
+  type: province
 MO:
   name: Mongala
   code: MO
@@ -942,6 +896,7 @@ MO:
     nb: Mongala
     'no': Mongala
   comments:
+  type: province
 NU:
   name: Nord-Ubangi
   code: NU
@@ -980,6 +935,7 @@ NU:
     nb: Nord-Ubangi
     'no': Nord-Ubangi
   comments:
+  type: province
 SA:
   name: Sankuru
   code: SA
@@ -1017,6 +973,7 @@ SA:
     nb: Sankuru
     'no': Sankuru
   comments:
+  type: province
 SU:
   name: Sud-Ubangi
   code: SU
@@ -1054,6 +1011,7 @@ SU:
     nb: Sud-Ubangi
     'no': Sud-Ubangi
   comments:
+  type: province
 TA:
   name: Tanganyika
   code: TA
@@ -1092,6 +1050,7 @@ TA:
     ccp: "\U00011111\U0001110B\U00011134\U00011109\U0001111A\U00011128\U00011120\U00011107"
     'no': Tanganyika
   comments:
+  type: province
 TO:
   name: Tshopo
   code: TO
@@ -1130,6 +1089,7 @@ TO:
     ccp: "\U00011125\U0001112E\U0001111B\U0001112E"
     'no': Tshopo
   comments:
+  type: province
 TU:
   name: Tshuapa
   code: TU
@@ -1168,6 +1128,7 @@ TU:
     ccp: "\U00011125\U0001112A\U00011120\U0001111B"
     'no': Tshuapa
   comments:
+  type: province
 IT:
   name: Ituri
   code: IT
@@ -1184,6 +1145,7 @@ IT:
     zh: 伊图里临时行政区
     ccp: "\U00011103\U0001112D\U00011111\U0001112A\U00011122\U00011128"
   comments:
+  type: province
 KS:
   name: Kasaï
   code: KS
@@ -1211,3 +1173,4 @@ KS:
     ccp: "\U00011107\U00011125\U0001112D"
     'no': Kasaï
   comments:
+  type: province

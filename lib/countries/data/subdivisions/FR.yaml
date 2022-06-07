@@ -93,7 +93,7 @@
     af: Aisne
     ar: أيسن
     be: Дэпартамент Эна
-    bg: Ен
+    bg: Ен²
     bn: আইস্নে
     ca: Aisne
     cs: Aisne
@@ -109,7 +109,7 @@
     fr: Aisne
     gl: Aisne
     gu: એશને
-    he: אן
+    he: אן²
     hi: एयेन
     hu: Aisne
     hy: Էնա
@@ -120,7 +120,7 @@
     kn: ಐಸ್ನೆ
     ko: 엔 주
     lt: Ena
-    lv: Ēna
+    lv: Ēna²
     mr: अएन
     ms: Aisne
     nb: Aisne
@@ -132,7 +132,7 @@
     si: අයිස්නේ
     sk: Aisne
     sl: Aisne
-    sr: Ен
+    sr: Ен²
     sv: Aisne
     sw: Aisne
     ta: ஐஸின்
@@ -5510,7 +5510,7 @@
   type: european_collectivity
   translations:
     fr: Alsace
-    en: European Collectivity of Alsace
+    en: Alsace
 '70':
   name: Haute-Saône
   code: '70'
@@ -5899,9 +5899,9 @@
     yo_BJ: Haute-Savoie
   comments:
   type: metropolitan_department
-'75C':
+75C:
   name: Paris
-  code: '75C'
+  code: 75C
   unofficial_names: Paris
   geo:
     latitude: 48.856614
@@ -7836,6 +7836,19 @@ BRE:
     ur: بریتانیہ
     vi: Bretagne
     zh: 布列塔尼
+    am: ብረታኝ
+    bs: Bretanja
+    ccp: "\U0001111D\U00011133\U00011122\U00011111\U0001112C\U00011107\U00011134"
+    ceb: Bretagne
+    cy: Bretagne
+    jv: Bretagne
+    mk: Бретања
+    'no': Bretagne
+    sq: Bretagne
+    sr_Latn: Bretanja
+    uz: Bretan
+    yue: 布禮斯大區
+    yue_Hans: 布礼斯大区
   type: metropolitan_region
 CP:
   name: Clipperton
@@ -7910,6 +7923,19 @@ CVL:
     ur: سانتر-وال دو لوار
     vi: Centre
     zh: 中央
+    bs: Centre
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134-\U0001111E\U00011127\U00011123\U00011134
+      \U00011113\U0001112C \U00011123\U00011130\U00011122\U0001112C"
+    ceb: Centre
+    cy: Centre
+    hi: सेंटर-वैल दे लोयर
+    jv: Centre
+    mk: Центар-Долина на Лоара
+    'no': Centre
+    pa: ਸੌਂਤਰ
+    sq: Centre
+    yue: 中央－盧華爾山谷大區
+    yue_Hans: 中央－卢华尔山谷大区
   geo:
     latitude: 47.64405
     longitude: 1.59046
@@ -7978,6 +8004,7 @@ HDF:
     be: рэгіён О-дэ-Франс
     mk: Горна Франција
     'no': Hauts-de-France
+    cy: Nord-Pas-de-Calais-Picardie
   comments:
   type: metropolitan_region
 IDF:
@@ -8125,7 +8152,7 @@ MF:
   - St. Martin
   - Saint Martin
   translations:
-    en: Saint Martin
+    en: St. Martin
     fr: Saint-Martin
     ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
   geo:
@@ -8532,7 +8559,7 @@ PM:
   - Saint Pierre et Miquelon
   - St. Pierre and Miquelon
   translations:
-    en: Saint Pierre and Miquelon
+    en: St. Pierre & Miquelon
     fr: Saint Pierre et Miquelon
     ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U0001111B\U00011128\U00011122\U0001112C
       & \U0001111F\U00011128\U00011107\U0001112D\U0001112A\U00011123\U00011127\U0001111A\U00011134"

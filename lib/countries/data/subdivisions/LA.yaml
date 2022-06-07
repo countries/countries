@@ -61,6 +61,7 @@ AT:
     ca: província d’Attapeu
     'no': Attapeu
   comments:
+  type: province
 BK:
   name: Bokèo
   code: BK
@@ -117,6 +118,7 @@ BK:
     ccp: "\U0001111D\U00011127\U00011107\U00011128\U00011103\U0001112E"
     'no': Bokeo
   comments:
+  type: province
 BL:
   name: Bolikhamxai [Borikhane]
   code: BL
@@ -176,6 +178,7 @@ BL:
     ccp: "\U0001111D\U00011127\U00011123\U00011128\U00011108\U0001111F\U00011134\U00011125\U0001112D"
     'no': Bolikhamsai
   comments:
+  type: province
 CH:
   name: Champasak [Champassak]
   code: CH
@@ -235,6 +238,7 @@ CH:
     ccp: "\U0001110C\U0001111F\U00011134\U0001111B\U00011125\U00011107\U00011134"
     'no': Champasack
   comments:
+  type: province
 HO:
   name: Houaphan
   code: HO
@@ -293,6 +297,7 @@ HO:
     ccp: "\U00011126\U0001112F\U00011120\U0001111C\U0001111A\U00011134"
     'no': Hua Phan
   comments:
+  type: province
 KH:
   name: Khammouan
   code: KH
@@ -350,6 +355,7 @@ KH:
     uk: Провінція Кхамуан
     'no': Khammuan
   comments:
+  type: province
 LM:
   name: Louang Namtha
   code: LM
@@ -411,6 +417,7 @@ LM:
     uk: Провінція Луанг-Намта
     'no': Luang Namtha
   comments:
+  type: province
 LP:
   name: Louangphabang [Louang Prabang]
   code: LP
@@ -473,6 +480,7 @@ LP:
     be: Луангпхабанг
     'no': Luang Prabang
   comments:
+  type: province
 OU:
   name: Oudômxai [Oudomsai]
   code: OU
@@ -533,6 +541,7 @@ OU:
     ccp: "\U00011103\U0001112F\U00011113\U00011127\U0001111F\U00011134\U0001110E\U00011133\U00011120\U0001112C"
     'no': Udomxai
   comments:
+  type: province
 PH:
   name: Phôngsali [Phong Saly]
   code: PH
@@ -592,6 +601,7 @@ PH:
     ccp: "\U0001111B\U00011127\U00011101\U00011125\U00011123\U00011128"
     'no': Phongsali
   comments:
+  type: province
 SL:
   name: Salavan [Saravane]
   code: SL
@@ -649,6 +659,7 @@ SL:
     ccp: "\U00011125\U00011123\U00011134\U0001111E\U00011127\U00011123\U00011134"
     'no': Saravane
   comments:
+  type: province
 SV:
   name: Savannakhét
   code: SV
@@ -707,6 +718,7 @@ SV:
     be: Саванакхет
     'no': Savannakhet
   comments:
+  type: province
 VI:
   name: Vientiane
   code: VI
@@ -752,6 +764,7 @@ VI:
       \U0001111B\U00011133\U00011122\U00011127\U0001111E\U00011128\U0001111A\U00011134\U00011125\U00011134"
     'no': Vientiane
   comments:
+  type: province
 VT:
   name: Vientiane Prefecture
   code: VT
@@ -794,6 +807,7 @@ VT:
     zh: 永珍市
     ccp: "\U0001111E\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011128\U00011120\U0001112C\U0001111A\U00011134"
   comments:
+  type: prefecture
 XA:
   name: Xaignabouli [Sayaboury]
   code: XA
@@ -855,6 +869,7 @@ XA:
     ml: സൈന്യാബുലി പ്രവിശ്യ
     'no': Sainyabuli
   comments:
+  type: province
 XE:
   name: Xékong [Sékong]
   code: XE
@@ -912,6 +927,7 @@ XE:
     hy: Սեկոնգ
     'no': Sekong
   comments:
+  type: province
 XI:
   name: Xiangkhoang [Xieng Khouang]
   code: XI
@@ -972,22 +988,7 @@ XI:
     ccp: "\U0001110E\U00011128\U00011120\U00011101\U00011107\U0001112F\U00011101"
     'no': Xieng Khouang
   comments:
-XN:
-  name: Xaisômboun
-  code: XN
-  unofficial_names:
-  - Xaisômboun
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Xaisomboun
-    ccp: "\U0001110E\U0001112D\U00011125\U00011127\U0001111F\U00011134\U0001111D\U0001112F\U0001111A\U00011134"
-  comments:
+  type: province
 XS:
   name: ແຂວງໄຊສົມບູນ
   code: XS
@@ -1015,3 +1016,4 @@ XS:
     fr: Province de Xaisomboun
     ko: 싸이솜분 주
   comments:
+  type: province

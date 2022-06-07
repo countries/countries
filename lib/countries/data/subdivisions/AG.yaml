@@ -54,6 +54,7 @@
     ca: Parròquia de Saint George
     'no': Saint George prestegjeld
   comments:
+  type: parish
 '04':
   name: Saint John’s
   code: '04'
@@ -94,6 +95,7 @@
     ca: Parròquia de Saint John
     'no': Saint John prestegjeld
   comments:
+  type: parish
 '05':
   name: Saint Mary
   code: '05'
@@ -150,6 +152,7 @@
     ca: Parròquia de Saint Mary
     'no': Saint Mary prestegjeld
   comments:
+  type: parish
 '06':
   name: Saint Paul
   code: '06'
@@ -205,6 +208,7 @@
     ca: Parròquia de Saint Paul
     'no': Saint Paul prestegjeld
   comments:
+  type: parish
 '07':
   name: Saint Peter
   code: '07'
@@ -260,6 +264,7 @@
     ca: Parròquia de Saint Peter
     'no': Saint Peter prestegjeld
   comments:
+  type: parish
 '08':
   name: Saint Philip
   code: '08'
@@ -315,6 +320,7 @@
     ca: Parròquia de Saint Philip
     'no': Saint Philip prestegjeld
   comments:
+  type: parish
 '10':
   name: Barbuda
   code: '10'
@@ -386,20 +392,7 @@
     'no': Barbuda
     yo_BJ: Bàrbúdà
   comments:
-X2~:
-  name: Redonda
-  code: X2~
-  unofficial_names: Redonda
-  geo:
-    latitude: 16.938416
-    longitude: -62.3455148
-    min_latitude: 16.9325319
-    min_longitude: -62.347657
-    max_latitude: 16.9430241
-    max_longitude: -62.342078
-  translations:
-    en: Redonda
-  comments:
+  type: dependency
 '11':
   name: Redonda
   code: '11'
@@ -465,3 +458,4 @@ X2~:
     mk: Редонда
     'no': Redonda
   comments:
+  type: dependency
