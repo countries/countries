@@ -198,11 +198,15 @@ describe ISO3166::Data do
         end
       end
 
-      it 'has a non-blank type for all subdivisions' do
+      it 'has a non-blank, lowercase and snake_case type for all subdivisions' do
         Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
           data = YAML.load_file(file)
           no_type = data.select{|k,v| v['type'].nil? }
           expect(no_type).to be_empty, "empty subdivision type in #{file} - #{no_type.keys}"
+          uppercase = data.select{|k,v| v['type'] =~ /[A-Z]/ }
+          expect(uppercase).to be_empty, "uppercase characters in subdivision type in #{file} - #{uppercase.keys}"
+          spaces = data.select{|k,v| v['type'] =~ /\s/ }
+          expect(spaces).to be_empty, "whitespace characters in subdivision type in #{file} - #{spaces.keys}"
         end
       end
     end
