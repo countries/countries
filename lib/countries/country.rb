@@ -70,6 +70,11 @@ module ISO3166
       subdivisions.select{|k,v| types.include?(v.type)}
     end
 
+    # @return [Array<String>] the list of subdivisions types for this country
+    def subdivisions_types
+      subdivisions.map{|k,v| v['type']}.uniq
+    end
+
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
     def subdivision_names_with_codes(locale = 'en')
