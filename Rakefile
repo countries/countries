@@ -49,3 +49,15 @@ task :update_cache do
   out_file = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'countries.json')
   File.binwrite(out_file, data.to_json)
 end
+
+desc 'Sort subdivision YAML by code and translations by locale'
+task :cleanup_subdivision_yaml do
+  ISO3166::Country.codes.each do |c_code|
+    sd = Sources::Local::Subdivision.new(c_code)
+    data = sd.load
+    next if data.nil? || data == {}
+    data = data.sort.to_h
+    data['translations'] = data['translations'].sort.to_h unless data['translations'].nil?
+    sd.save(data)
+  end
+end
