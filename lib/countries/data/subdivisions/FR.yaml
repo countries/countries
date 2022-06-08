@@ -1089,7 +1089,6 @@
     'no': Calvados
   comments:
   type: metropolitan_department
-  type: metropolitan_department
 '15':
   name: Cantal
   code: '15'
@@ -5487,9 +5486,9 @@
     'no': Rhône
   comments:
   type: metropolitan_department
-'69M':
+69M:
   name: Métropole de Lyon
-  code: '69M'
+  code: 69M
   unofficial_names: Métropole de Lyon
   geo:
     latitude: 45.7351456
@@ -7945,6 +7944,70 @@ CVL:
     max_longitude:
   code: CVL
   type: metropolitan_region
+GES:
+  name: Grand Est
+  code: GES
+  unofficial_names:
+  - Grand Est
+  geo:
+    latitude: 49.92086
+    longitude: 4.41123
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Grand Est
+    ar: غراند إيست
+    bg: Гранд Ест
+    ca: Gran Est
+    cs: Grand Est
+    da: Alsace-Champagne-Ardenne-Lorraine
+    de: der Große Osten
+    el: Αλσατία-Καμπανία-Αρδέννες-Λωρραίνη
+    en: Grand-Est
+    es: Gran Este
+    eu: Grand Est
+    fa: آلزاس-شامپاین-آردن-لورن
+    fi: Alsace-Champagne-Ardenne-Lorraine
+    fr: Grand Est
+    gl: Alsacia-Champaña-Ardenas-Lorena
+    he: גראנד אסט
+    id: Timur Raya
+    it: Grand Est
+    ja: グラン・テスト地域圏
+    ko: 그랑테스트
+    lb: de Grouss Osten
+    nl: Grand Est
+    pl: Grand Est
+    pt: Alsácia-Champanha-Ardenas-Lorena
+    ru: Гранд-Эст
+    sk: Alsasko-Champagne-Ardenne-Lotrinsko
+    sr: Гран ест
+    sv: Alsace-Champagne-Ardenne-Lorraine
+    th: แคว้นกร็องแต็สต์
+    uk: Гранд-Ест
+    ur: گرایت است
+    zh: 阿爾薩斯-香檳-阿登-洛林
+    cy: Dwyrain Mawr
+    ceb: Grand Est
+    tr: Grand Est
+    sr_Latn: Gran est
+    vi: Grand Est
+    yue_Hans: 大东部
+    hi: ग्रांड एस्ट
+    sq: Lindja e madhe
+    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
+    ga: Alsace-Champagne-Ardenne-Lorraine
+    hy: Գրանդ Էստ
+    yue: 大東部
+    az: Qrand Est
+    nb: Grand Est
+    be: Гранд Эст
+    mk: Голем Исток
+    'no': Grand Est
+  comments:
+  type: metropolitan_region
 HDF:
   name: Hauts-de-France
   code: HDF
@@ -8089,62 +8152,6 @@ IDF:
   comments:
   code: IDF
   type: metropolitan_region
-NOR:
-  name: Normandie
-  code: NOR
-  unofficial_names:
-  - Normandie
-  - Normaundie
-  geo:
-    latitude: 48.8499
-    longitude: 2.637
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Normandië
-    ar: نورماندي
-    az: Normandiya
-    be: Рэгіён Нармандыя
-    bg: Нормандия
-    ca: Normandia
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011113\U0001112D"
-    cs: Normandie
-    cy: Normandi
-    da: Normandie
-    de: Normandie
-    el: Νορμανδία
-    en: Normandie
-    es: Normandía
-    eu: Normandia
-    fa: نرماندی
-    fi: Normandia
-    fr: Normandie
-    gl: Normandía
-    he: נורמנדי
-    hi: नोर्मंडी
-    it: Normandia
-    ja: ノルマンディー地域圏
-    ka: ნორმანდია
-    ko: 노르망디
-    mk: Нормандија
-    nl: Normandië
-    pl: Normandia
-    pt: Normandia
-    ru: Нормандия
-    sk: Normandia
-    sq: Normandia
-    sv: Normandie (region)
-    th: แคว้นนอร์ม็องดี
-    tr: Normandiya
-    uk: Нормандія
-    ur: نورمینڈی
-    vi: Normandie
-    yue_Hans: 诺曼第
-    yue: 諾曼第
-    zh: 诺曼底大区
-  type: metropolitan_region
 MF:
   name: Saint-Martin
   code: MF
@@ -8247,6 +8254,62 @@ NC:
     max_latitude: 36.5881568
     max_longitude: -75.4599515
   comments:
+  type: metropolitan_region
+NOR:
+  name: Normandie
+  code: NOR
+  unofficial_names:
+  - Normandie
+  - Normaundie
+  geo:
+    latitude: 48.8499
+    longitude: 2.637
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Normandië
+    ar: نورماندي
+    az: Normandiya
+    be: Рэгіён Нармандыя
+    bg: Нормандия
+    ca: Normandia
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U0001111F\U0001111A\U00011134\U00011113\U0001112D"
+    cs: Normandie
+    cy: Normandi
+    da: Normandie
+    de: Normandie
+    el: Νορμανδία
+    en: Normandie
+    es: Normandía
+    eu: Normandia
+    fa: نرماندی
+    fi: Normandia
+    fr: Normandie
+    gl: Normandía
+    he: נורמנדי
+    hi: नोर्मंडी
+    it: Normandia
+    ja: ノルマンディー地域圏
+    ka: ნორმანდია
+    ko: 노르망디
+    mk: Нормандија
+    nl: Normandië
+    pl: Normandia
+    pt: Normandia
+    ru: Нормандия
+    sk: Normandia
+    sq: Normandia
+    sv: Normandie (region)
+    th: แคว้นนอร์ม็องดี
+    tr: Normandiya
+    uk: Нормандія
+    ur: نورمینڈی
+    vi: Normandie
+    yue_Hans: 诺曼第
+    yue: 諾曼第
+    zh: 诺曼底大区
   type: metropolitan_region
 OCC:
   name: Occitanie
@@ -8466,70 +8529,6 @@ PDL:
     yue: 盧華爾河區
     mk: Лоарски Крај
     'no': Pays de la Loire
-  comments:
-  type: metropolitan_region
-GES:
-  name: Grand Est
-  code: GES
-  unofficial_names:
-  - Grand Est
-  geo:
-    latitude: 49.92086
-    longitude: 4.41123
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Grand Est
-    ar: غراند إيست
-    bg: Гранд Ест
-    ca: Gran Est
-    cs: Grand Est
-    da: Alsace-Champagne-Ardenne-Lorraine
-    de: der Große Osten
-    el: Αλσατία-Καμπανία-Αρδέννες-Λωρραίνη
-    en: Grand-Est
-    es: Gran Este
-    eu: Grand Est
-    fa: آلزاس-شامپاین-آردن-لورن
-    fi: Alsace-Champagne-Ardenne-Lorraine
-    fr: Grand Est
-    gl: Alsacia-Champaña-Ardenas-Lorena
-    he: גראנד אסט
-    id: Timur Raya
-    it: Grand Est
-    ja: グラン・テスト地域圏
-    ko: 그랑테스트
-    lb: de Grouss Osten
-    nl: Grand Est
-    pl: Grand Est
-    pt: Alsácia-Champanha-Ardenas-Lorena
-    ru: Гранд-Эст
-    sk: Alsasko-Champagne-Ardenne-Lotrinsko
-    sr: Гран ест
-    sv: Alsace-Champagne-Ardenne-Lorraine
-    th: แคว้นกร็องแต็สต์
-    uk: Гранд-Ест
-    ur: گرایت است
-    zh: 阿爾薩斯-香檳-阿登-洛林
-    cy: Dwyrain Mawr
-    ceb: Grand Est
-    tr: Grand Est
-    sr_Latn: Gran est
-    vi: Grand Est
-    yue_Hans: 大东部
-    hi: ग्रांड एस्ट
-    sq: Lindja e madhe
-    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
-    ga: Alsace-Champagne-Ardenne-Lorraine
-    hy: Գրանդ Էստ
-    yue: 大東部
-    az: Qrand Est
-    nb: Grand Est
-    be: Гранд Эст
-    mk: Голем Исток
-    'no': Grand Est
   comments:
   type: metropolitan_region
 PF:

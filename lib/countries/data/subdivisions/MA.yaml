@@ -1,4 +1,76 @@
 ---
+'01':
+  name: Tanger-Tétouan-Al Hoceïma
+  code: '01'
+  type: region
+  translations:
+    ar: طنجة - تطوان - الحسيمة
+'02':
+  name: L'Oriental
+  code: '02'
+  type: region
+  translations:
+    ar: الشرق
+'03':
+  name: Fès-Meknès
+  code: '03'
+  type: region
+  translations:
+    ar: فاس-مكناس
+'04':
+  name: Rabat-Salé-Kénitra
+  code: '04'
+  type: region
+  translations:
+    ar: الرباط-سلا-القنيطرة
+'05':
+  name: Béni Mellal-Khénifra
+  code: '05'
+  type: region
+  translations:
+    ar: بني ملال - خنيفرة
+'06':
+  name: Casablanca-Settat
+  code: '06'
+  type: region
+  translations:
+    ar: الدار البيضاء - سطات
+'07':
+  name: Marrakech-Safi
+  code: '07'
+  type: region
+  translations:
+    ar: مراكش آسفي
+'08':
+  name: Drâa-Tafilalet
+  code: '08'
+  type: region
+  translations:
+    ar: درعة - تافيلالت
+'09':
+  name: Souss-Massa
+  code: '09'
+  type: region
+  translations:
+    ar: سوس ماسة
+'10':
+  name: Guelmim-Oued Noun (EH-partial)
+  code: '10'
+  type: region
+  translations:
+    ar: ڭلميم-وادي نون
+'11':
+  name: Laâyoune-Sakia El Hamra (EH-partial)
+  code: '11'
+  type: region
+  translations:
+    ar: العيون - الساقية الحمراء
+'12':
+  name: Dakhla-Oued Ed-Dahab (EH)
+  code: '12'
+  type: region
+  translations:
+    ar: الداخلة - وادي الذهب
 AGD:
   name: Agadir*
   code: AGD
@@ -311,6 +383,15 @@ BOM:
     ccp: "\U0001111D\U0001112F\U00011123\U0001112C\U0001111F\U0001111A\U00011134"
   comments:
   type: province
+BRR:
+  name: Berrechid
+  code: BRR
+  unofficial_names:
+  geo:
+  translations:
+    en: Berrechid
+  comments:
+  type: province
 CAS:
   name: Casablanca [Dar el Beïda]
   code: CAS
@@ -490,6 +571,15 @@ CHT:
     zh: 希圖卡阿伊特巴哈省
     ccp: "\U00011111\U0001112E\U00011107 \U00011103\U00011103\U00011128\U00011116\U00011134
       \U0001111D\U00011126"
+  comments:
+  type: province
+DRI:
+  name: Driouch
+  code: DRI
+  unofficial_names:
+  geo:
+  translations:
+    en: Driouch
   comments:
   type: province
 ERR:
@@ -711,6 +801,21 @@ FIG:
     ccp: "\U0001111C\U00011128\U00011109\U0001112A\U00011103\U00011128\U00011107\U00011134"
   comments:
   type: province
+FQH:
+  name: Fquih Ben Salah
+  code: FQH
+  unofficial_names:
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Fquih Ben Salah
+  comments:
+  type: province
 GUE:
   name: Guelmim
   code: GUE
@@ -762,6 +867,21 @@ GUE:
     ccp: "\U00011109\U0001112A\U00011120\U0001112C\U00011123\U00011134\U0001111F\U00011128\U0001111F\U00011134"
     uk: Гельмім
     'no': Guelmim Kommune
+  comments:
+  type: province
+GUF:
+  name: Guercif
+  code: GUF
+  unofficial_names:
+  geo:
+    latitude: 39.5059889
+    longitude: 2.5307101
+    min_latitude: 39.5016927
+    min_longitude: 2.5269251
+    max_latitude: 39.5128789
+    max_longitude: 2.5327309
+  translations:
+    en: Guercif
   comments:
   type: province
 HAJ:
@@ -879,6 +999,37 @@ IFR:
     ccp: "\U00011103\U00011128\U0001111C\U00011133\U00011122\U0001112D\U0001111A\U00011134"
   comments:
   type: province
+INE:
+  name: عمالة إنزكان آيت ملول
+  code: INE
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: عمالة إنزكان آيت ملول
+    ca: Prefectura d’Inezgane-Aït Melloul
+    de: Inezgane-Aït Melloul
+    en: Inezgane-Aït Melloul
+    es: Prefectura Inezgane-Aït Melloul
+    fr: préfecture d’Inezgane-Aït Melloul
+    it: Prefettura di Inezgane-Aït Melloul
+    nl: Inezgane-Aït Melloul
+    pt: Inezgane-Aït Melloul
+    sv: Inezgane-Ait Mellou
+    ur: انزکان آیت ملول
+    ceb: Inezgane-Ait Mellou
+    zh: 因茲甘-阿伊特邁盧勒省
+    ja: イネガーヌ・アイト・メロウル県
+    ccp: "\U00011103\U00011128\U0001111A\U0001112C\U0001110C\U00011134\U00011109\U0001111A\U00011134-\U00011103\U00011103\U00011128\U00011116\U00011134
+      \U0001111F\U00011123\U00011103\U0001112F\U00011123\U00011134"
+    eu: Inezgane-Ait Melloul prefektura
+  comments:
+  type: prefecture
 JDI:
   name: El Jadida
   code: JDI
@@ -1148,6 +1299,17 @@ MAR:
     en: Marrakech
   comments:
   type: prefecture
+MDF:
+  name: M’diq-Fnideq
+  code: MDF
+  unofficial_names:
+  geo:
+    latitude: 33.5521196
+    longitude: -7.4780258
+  translations:
+    en: M’diq-Fnideq
+  comments:
+  type: prefecture
 MED:
   name: Médiouna
   code: MED
@@ -1260,6 +1422,227 @@ MEL:
     en: Aït Melloul
   comments:
   type: province
+MID:
+  name: Midelt
+  code: MID
+  unofficial_names:
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Midelt
+  comments:
+  type: province
+MMD:
+  name: مراكش
+  code: MMD
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Marrakesj
+    ar: مراكش
+    be: Маракеш
+    bg: Маракеш
+    bn: মারাক্কেশ
+    ca: Marràqueix
+    cs: Marrákeš
+    da: Marrakech
+    de: Marrakesch
+    el: Μαρακές
+    en: Marrakech-Medina
+    es: Marrakech
+    et: Marrakech
+    eu: Marrakex
+    fa: مراکش
+    fi: Marrakech
+    fr: Marrakech
+    gl: Marrakech
+    gu: મારાકેશ
+    he: מרקש
+    hi: मराकेश
+    hr: Marrakech
+    hu: Marrákes
+    hy: Մառակեշ
+    id: Marrakesh
+    is: Marrakess
+    it: Marrakech
+    ja: マラケシュ
+    ka: მარაკეში
+    kn: ಮಾರಕೇಶ್
+    ko: 마라케시
+    lt: Marakešas
+    lv: Marrākeša
+    ml: മരാക്കേഷ്
+    mr: माराकेश
+    ms: Marrakesh
+    nb: Marrakech
+    ne: मर्राकेशको मदिना
+    nl: Marrakesh
+    pl: Marrakesz
+    pt: Marraquexe
+    ro: Marrakech
+    ru: Марракеш
+    si: මරකෙෂ්
+    sk: Murrákuš
+    sl: Marakeš, Maroko
+    sr: Маракеш
+    sv: Marrakech
+    ta: மரராகேஷ்
+    te: మరాకేశ్
+    th: มาร์ราคิช
+    tr: Marakeş
+    uk: Марракеш
+    ur: مراکش (شہر)
+    vi: Marrakech
+    sr_Latn: Marakeš
+    zh: 马拉喀什
+    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U00011113\U00011128\U0001111A"
+    'no': Marrakech
+  comments:
+  type: province
+MMN:
+  name: مراكش²
+  code: MMN
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Marrakesj²
+    ar: مراكش²
+    be: Маракеш²
+    bg: Маракеш²
+    bn: মারাক্কেশ²
+    ca: Marràqueix²
+    cs: Marrákeš²
+    da: Marrakech²
+    de: Marrakesch²
+    el: Μαρακές²
+    en: Marrakech-Menara
+    es: Marrakech²
+    et: Marrakech²
+    eu: Marrakex²
+    fa: مراکش²
+    fi: Marrakech²
+    fr: Marrakech²
+    gl: Marrakech²
+    gu: મારાકેશ²
+    he: מרקש²
+    hi: मराकेश²
+    hr: Marrakech²
+    hu: Marrákes²
+    hy: Մառակեշ²
+    id: Marrakesh²
+    is: Marrakess²
+    it: Marrakech²
+    ja: マラケシュ²
+    ka: მარაკეში²
+    kn: ಮಾರಕೇಶ್²
+    ko: 마라케시²
+    lt: Marakešas²
+    lv: Marrākeša²
+    ml: മരാക്കേഷ്²
+    mr: माराकेश²
+    ms: Marrakesh²
+    nb: Marrakech²
+    ne: मर्राकेशको मदिना²
+    nl: Marrakesh²
+    pl: Marrakesz²
+    pt: Marraquexe²
+    ro: Marrakech²
+    ru: Марракеш²
+    si: මරකෙෂ්²
+    sk: Murrákuš²
+    sl: Marakeš, Maroko²
+    sr: Маракеш²
+    sv: Marrakech²
+    ta: மரராகேஷ்²
+    te: మరాకేశ్²
+    th: มาร์ราคิช²
+    tr: Marakeş²
+    uk: Марракеш²
+    ur: مراکش (شہر)²
+    vi: Marrakech²
+    sr_Latn: Marakeš²
+    zh: 马拉喀什²
+    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U0001111A\U00011122"
+    'no': Marrakech²
+  comments:
+  type: province
+MOH:
+  name: المحمدية
+  code: MOH
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: المحمدية
+    az: Məhəmmədiyyə
+    bn: মোহাম্মাদিয়া
+    ca: Mohammedia
+    da: Mohammédia
+    de: Mohammedia
+    el: Μοχαμέντια
+    en: Mohammedia
+    es: Mohammédia
+    eu: Mohammedia
+    fa: محمدیه
+    fi: Mohammedia
+    fr: Mohammédia
+    gu: મોહમ્મદિયા
+    he: מוחמדיה
+    hi: मोहम्मदिया
+    id: Mohammedia
+    it: Mohammedia
+    ja: フェドハラ（モハメディア）
+    kn: ಮೊಹಮ್ಮದಿಯಾ
+    ko: 모하메디아
+    lt: Mohamedija
+    mr: मोहम्मदिया
+    ms: Mohammedia
+    nb: Mohammedia
+    nl: Mohammedia
+    pl: Al-Muhammadijja
+    pt: Mohammedia
+    ro: Mohammedia
+    ru: Мохаммедия
+    si: මෝහමෙදියා
+    sv: Mohammedia
+    ta: மொஹம்மீடியா
+    te: మొహమ్మెదియా
+    th: มูฮัมเมดิอา
+    tr: Muhammediye
+    ur: محمدیہ
+    vi: Mohammedia
+    lv: Mohamedija
+    cy: Mohammédia
+    ceb: Mohammedia
+    zh: 穆罕默迪耶
+    sq: Mohammedia
+    ccp: "\U0001111F\U0001112E\U00011126\U0001111F\U00011134\U0001111F\U00011127\U00011118\U00011128\U00011120"
+    uk: Мохаммедія
+    'no': Mohammedia
+  comments:
+  type: prefecture
 MOU:
   name: Moulay Yacoub
   code: MOU
@@ -1495,6 +1878,126 @@ OUJ:
     'no': Oujda
   comments:
   type: prefecture
+OUZ:
+  name: Ouezzane
+  code: OUZ
+  unofficial_names:
+  geo:
+    latitude: 31.791702
+    longitude: -7.092619999999999
+    min_latitude: 27.6672693
+    min_longitude: -13.3044001
+    max_latitude: 35.9344
+    max_longitude: -0.9969759
+  translations:
+    en: Ouezzane
+  comments:
+  type: province
+RAB:
+  name: الرباط
+  code: RAB
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Rabat
+    am: ራባት
+    ar: الرباط
+    az: Rabat
+    be: Горад Рабат
+    bg: Рабат
+    bn: রাবাত
+    ca: Rabat
+    cs: Rabat
+    da: Rabat
+    de: Rabat
+    el: Ραμπάτ
+    en: Rabat
+    es: Rabat
+    et: Rabat
+    eu: Rabat
+    fa: رباط
+    fi: Rabat
+    fr: Rabat
+    gl: Rabat
+    gu: રબાટ
+    he: רבאט
+    hi: रबत
+    hr: Rabat
+    hu: Rabat
+    hy: Ռաբաթ
+    id: Rabat
+    is: Rabat
+    it: Rabat
+    ja: ラバト
+    ka: რაბატი
+    kn: ರಬಾಟ್
+    ko: 라바트
+    lt: Rabatas
+    lv: Rabāta
+    mn: Рабат
+    mr: रबात
+    ms: Rabat
+    nb: Rabat
+    ne: रबाट
+    nl: Rabat
+    or: ରବୋଟ
+    pl: Rabat
+    ps: ربات
+    pt: Rabat
+    ro: Rabat
+    ru: Рабат
+    si: රබාත්
+    sk: Rabat
+    sl: Rabat
+    sr: Рабат
+    sv: Rabat
+    sw: Rabat
+    ta: ரபாத்
+    te: రాబట్
+    th: ราบัต
+    tk: Rabat
+    tr: Rabat
+    uk: Рабат
+    ur: رباط
+    vi: Rabat
+    cy: Rabat
+    sr_Latn: Rabat
+    zh: 拉巴特
+    yue_Hans: 剌八
+    jv: Rabat
+    sq: Rabati
+    ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134"
+    ga: Rabat
+    ky: Рабат
+    ha: Rabat
+    so: Rabat
+    pa: ਰਬਾਤ
+    ml: റാബത്ത്
+    yue: 剌八
+    yo: Rabat
+    uz: Rabot
+    bs: Rabat
+    mk: Рабат
+    ha_NE: Rabat
+    'no': Rabat
+    yo_BJ: Rabat
+  comments:
+  type: prefecture
+REH:
+  name: Rehamna
+  code: REH
+  unofficial_names:
+  geo:
+  translations:
+    en: Rehamna
+  comments:
+  type: province
 SAF:
   name: Safi
   code: SAF
@@ -1645,6 +2148,30 @@ SET:
     ccp: "\U00011125\U0001112C\U00011116\U00011134\U00011111\U00011116\U00011134"
   comments:
   type: province
+SIB:
+  name: Sidi Bennour
+  code: SIB
+  unofficial_names:
+  geo:
+  translations:
+    en: Sidi Bennour
+  comments:
+  type: province
+SIF:
+  name: Sidi Ifni
+  code: SIF
+  unofficial_names:
+  geo:
+    latitude: 26.660768
+    longitude: 49.8393179
+    min_latitude: 26.6544679
+    min_longitude: 49.81823420000001
+    max_latitude: 26.6660987
+    max_longitude: 49.8596116
+  translations:
+    en: Sidi Ifni
+  comments:
+  type: province
 SIK:
   name: Sidi Kacem
   code: SIK
@@ -1672,6 +2199,17 @@ SIK:
     zh: 西迪卡塞姆省
     fa: استان سیدی قاسم
     ccp: "\U00011125\U00011128\U00011113\U00011128 \U00011107\U00011125\U0001112C\U0001111F\U00011134"
+  comments:
+  type: province
+SIL:
+  name: Sidi Slimane
+  code: SIL
+  unofficial_names:
+  geo:
+    latitude: 37.147821
+    longitude: -8.5584885
+  translations:
+    en: Sidi Slimane
   comments:
   type: province
 SKH:
@@ -1801,6 +2339,21 @@ SYB:
     ccp: "\U00011125\U00011128\U00011113\U00011128 \U00011103\U00011128\U00011105\U0001112A\U00011125\U0001112C\U0001111B\U00011134
       \U0001111D\U0001112C\U0001111A\U00011134 \U00011103\U00011123\U00011128"
     'no': Marrakech³
+  comments:
+  type: province
+TAF:
+  name: Tarfaya (EH-partial)
+  code: TAF
+  unofficial_names:
+  geo:
+    latitude: 31.6360026
+    longitude: -8.057429899999999
+    min_latitude: 31.5600339
+    min_longitude: -8.1314279
+    max_latitude: 31.72042849999999
+    max_longitude: -8.0045699
+  translations:
+    en: Tarfaya (EH-partial)
   comments:
   type: province
 TAI:
@@ -1969,6 +2522,17 @@ TET:
     ccp: "\U00011111\U0001112C\U00011111\U0001112F\U00011120\U0001111A\U00011134"
   comments:
   type: province
+TIN:
+  name: Tinghir
+  code: TIN
+  unofficial_names:
+  geo:
+    latitude: 30.9263125
+    longitude: -6.9072676
+  translations:
+    en: Tinghir
+  comments:
+  type: province
 TIZ:
   name: Tiznit
   code: TIZ
@@ -2121,6 +2685,15 @@ X1~:
     en: Laayoune-Boujdour-Sakia El Hamra
   comments:
   type: province
+YUS:
+  name: Youssoufia
+  code: YUS
+  unofficial_names:
+  geo:
+  translations:
+    en: Youssoufia
+  comments:
+  type: province
 ZAG:
   name: Zagora
   code: ZAG
@@ -2148,576 +2721,3 @@ ZAG:
     ccp: "\U0001110E\U00011109\U0001112E\U00011122"
   comments:
   type: province
-MMD:
-  name: مراكش
-  code: MMD
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Marrakesj
-    ar: مراكش
-    be: Маракеш
-    bg: Маракеш
-    bn: মারাক্কেশ
-    ca: Marràqueix
-    cs: Marrákeš
-    da: Marrakech
-    de: Marrakesch
-    el: Μαρακές
-    en: Marrakech-Medina
-    es: Marrakech
-    et: Marrakech
-    eu: Marrakex
-    fa: مراکش
-    fi: Marrakech
-    fr: Marrakech
-    gl: Marrakech
-    gu: મારાકેશ
-    he: מרקש
-    hi: मराकेश
-    hr: Marrakech
-    hu: Marrákes
-    hy: Մառակեշ
-    id: Marrakesh
-    is: Marrakess
-    it: Marrakech
-    ja: マラケシュ
-    ka: მარაკეში
-    kn: ಮಾರಕೇಶ್
-    ko: 마라케시
-    lt: Marakešas
-    lv: Marrākeša
-    ml: മരാക്കേഷ്
-    mr: माराकेश
-    ms: Marrakesh
-    nb: Marrakech
-    ne: मर्राकेशको मदिना
-    nl: Marrakesh
-    pl: Marrakesz
-    pt: Marraquexe
-    ro: Marrakech
-    ru: Марракеш
-    si: මරකෙෂ්
-    sk: Murrákuš
-    sl: Marakeš, Maroko
-    sr: Маракеш
-    sv: Marrakech
-    ta: மரராகேஷ்
-    te: మరాకేశ్
-    th: มาร์ราคิช
-    tr: Marakeş
-    uk: Марракеш
-    ur: مراکش (شہر)
-    vi: Marrakech
-    sr_Latn: Marakeš
-    zh: 马拉喀什
-    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U00011113\U00011128\U0001111A"
-    'no': Marrakech
-  comments:
-  type: province
-MMN:
-  name: مراكش²
-  code: MMN
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Marrakesj²
-    ar: مراكش²
-    be: Маракеш²
-    bg: Маракеш²
-    bn: মারাক্কেশ²
-    ca: Marràqueix²
-    cs: Marrákeš²
-    da: Marrakech²
-    de: Marrakesch²
-    el: Μαρακές²
-    en: Marrakech-Menara
-    es: Marrakech²
-    et: Marrakech²
-    eu: Marrakex²
-    fa: مراکش²
-    fi: Marrakech²
-    fr: Marrakech²
-    gl: Marrakech²
-    gu: મારાકેશ²
-    he: מרקש²
-    hi: मराकेश²
-    hr: Marrakech²
-    hu: Marrákes²
-    hy: Մառակեշ²
-    id: Marrakesh²
-    is: Marrakess²
-    it: Marrakech²
-    ja: マラケシュ²
-    ka: მარაკეში²
-    kn: ಮಾರಕೇಶ್²
-    ko: 마라케시²
-    lt: Marakešas²
-    lv: Marrākeša²
-    ml: മരാക്കേഷ്²
-    mr: माराकेश²
-    ms: Marrakesh²
-    nb: Marrakech²
-    ne: मर्राकेशको मदिना²
-    nl: Marrakesh²
-    pl: Marrakesz²
-    pt: Marraquexe²
-    ro: Marrakech²
-    ru: Марракеш²
-    si: මරකෙෂ්²
-    sk: Murrákuš²
-    sl: Marakeš, Maroko²
-    sr: Маракеш²
-    sv: Marrakech²
-    ta: மரராகேஷ்²
-    te: మరాకేశ్²
-    th: มาร์ราคิช²
-    tr: Marakeş²
-    uk: Марракеш²
-    ur: مراکش (شہر)²
-    vi: Marrakech²
-    sr_Latn: Marakeš²
-    zh: 马拉喀什²
-    ccp: "\U0001111F\U00011122\U00011107\U0001112C\U0001110C\U00011134-\U0001111F\U0001112C\U0001111A\U00011122"
-    'no': Marrakech²
-  comments:
-  type: province
-RAB:
-  name: الرباط
-  code: RAB
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Rabat
-    am: ራባት
-    ar: الرباط
-    az: Rabat
-    be: Горад Рабат
-    bg: Рабат
-    bn: রাবাত
-    ca: Rabat
-    cs: Rabat
-    da: Rabat
-    de: Rabat
-    el: Ραμπάτ
-    en: Rabat
-    es: Rabat
-    et: Rabat
-    eu: Rabat
-    fa: رباط
-    fi: Rabat
-    fr: Rabat
-    gl: Rabat
-    gu: રબાટ
-    he: רבאט
-    hi: रबत
-    hr: Rabat
-    hu: Rabat
-    hy: Ռաբաթ
-    id: Rabat
-    is: Rabat
-    it: Rabat
-    ja: ラバト
-    ka: რაბატი
-    kn: ರಬಾಟ್
-    ko: 라바트
-    lt: Rabatas
-    lv: Rabāta
-    mn: Рабат
-    mr: रबात
-    ms: Rabat
-    nb: Rabat
-    ne: रबाट
-    nl: Rabat
-    or: ରବୋଟ
-    pl: Rabat
-    ps: ربات
-    pt: Rabat
-    ro: Rabat
-    ru: Рабат
-    si: රබාත්
-    sk: Rabat
-    sl: Rabat
-    sr: Рабат
-    sv: Rabat
-    sw: Rabat
-    ta: ரபாத்
-    te: రాబట్
-    th: ราบัต
-    tk: Rabat
-    tr: Rabat
-    uk: Рабат
-    ur: رباط
-    vi: Rabat
-    cy: Rabat
-    sr_Latn: Rabat
-    zh: 拉巴特
-    yue_Hans: 剌八
-    jv: Rabat
-    sq: Rabati
-    ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134"
-    ga: Rabat
-    ky: Рабат
-    ha: Rabat
-    so: Rabat
-    pa: ਰਬਾਤ
-    ml: റാബത്ത്
-    yue: 剌八
-    yo: Rabat
-    uz: Rabot
-    bs: Rabat
-    mk: Рабат
-    ha_NE: Rabat
-    'no': Rabat
-    yo_BJ: Rabat
-  comments:
-  type: prefecture
-INE:
-  name: عمالة إنزكان آيت ملول
-  code: INE
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: عمالة إنزكان آيت ملول
-    ca: Prefectura d’Inezgane-Aït Melloul
-    de: Inezgane-Aït Melloul
-    en: Inezgane-Aït Melloul
-    es: Prefectura Inezgane-Aït Melloul
-    fr: préfecture d’Inezgane-Aït Melloul
-    it: Prefettura di Inezgane-Aït Melloul
-    nl: Inezgane-Aït Melloul
-    pt: Inezgane-Aït Melloul
-    sv: Inezgane-Ait Mellou
-    ur: انزکان آیت ملول
-    ceb: Inezgane-Ait Mellou
-    zh: 因茲甘-阿伊特邁盧勒省
-    ja: イネガーヌ・アイト・メロウル県
-    ccp: "\U00011103\U00011128\U0001111A\U0001112C\U0001110C\U00011134\U00011109\U0001111A\U00011134-\U00011103\U00011103\U00011128\U00011116\U00011134
-      \U0001111F\U00011123\U00011103\U0001112F\U00011123\U00011134"
-    eu: Inezgane-Ait Melloul prefektura
-  comments:
-  type: prefecture
-MOH:
-  name: المحمدية
-  code: MOH
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: المحمدية
-    az: Məhəmmədiyyə
-    bn: মোহাম্মাদিয়া
-    ca: Mohammedia
-    da: Mohammédia
-    de: Mohammedia
-    el: Μοχαμέντια
-    en: Mohammedia
-    es: Mohammédia
-    eu: Mohammedia
-    fa: محمدیه
-    fi: Mohammedia
-    fr: Mohammédia
-    gu: મોહમ્મદિયા
-    he: מוחמדיה
-    hi: मोहम्मदिया
-    id: Mohammedia
-    it: Mohammedia
-    ja: フェドハラ（モハメディア）
-    kn: ಮೊಹಮ್ಮದಿಯಾ
-    ko: 모하메디아
-    lt: Mohamedija
-    mr: मोहम्मदिया
-    ms: Mohammedia
-    nb: Mohammedia
-    nl: Mohammedia
-    pl: Al-Muhammadijja
-    pt: Mohammedia
-    ro: Mohammedia
-    ru: Мохаммедия
-    si: මෝහමෙදියා
-    sv: Mohammedia
-    ta: மொஹம்மீடியா
-    te: మొహమ్మెదియా
-    th: มูฮัมเมดิอา
-    tr: Muhammediye
-    ur: محمدیہ
-    vi: Mohammedia
-    lv: Mohamedija
-    cy: Mohammédia
-    ceb: Mohammedia
-    zh: 穆罕默迪耶
-    sq: Mohammedia
-    ccp: "\U0001111F\U0001112E\U00011126\U0001111F\U00011134\U0001111F\U00011127\U00011118\U00011128\U00011120"
-    uk: Мохаммедія
-    'no': Mohammedia
-  comments:
-  type: prefecture
-BRR:
-  name: Berrechid
-  code: BRR
-  unofficial_names:
-  geo:
-  translations:
-    en: Berrechid
-  comments:
-  type: province
-DRI:
-  name: Driouch
-  code: DRI
-  unofficial_names:
-  geo:
-  translations:
-    en: Driouch
-  comments:
-  type: province
-FQH:
-  name: Fquih Ben Salah
-  code: FQH
-  unofficial_names:
-  geo:
-    latitude: 31.791702
-    longitude: -7.092619999999999
-    min_latitude: 27.6672693
-    min_longitude: -13.3044001
-    max_latitude: 35.9344
-    max_longitude: -0.9969759
-  translations:
-    en: Fquih Ben Salah
-  comments:
-  type: province
-GUF:
-  name: Guercif
-  code: GUF
-  unofficial_names:
-  geo:
-    latitude: 39.5059889
-    longitude: 2.5307101
-    min_latitude: 39.5016927
-    min_longitude: 2.5269251
-    max_latitude: 39.5128789
-    max_longitude: 2.5327309
-  translations:
-    en: Guercif
-  comments:
-  type: province
-MDF:
-  name: M’diq-Fnideq
-  code: MDF
-  unofficial_names:
-  geo:
-    latitude: 33.5521196
-    longitude: -7.4780258
-  translations:
-    en: M’diq-Fnideq
-  comments:
-  type: prefecture
-MID:
-  name: Midelt
-  code: MID
-  unofficial_names:
-  geo:
-    latitude: 31.791702
-    longitude: -7.092619999999999
-    min_latitude: 27.6672693
-    min_longitude: -13.3044001
-    max_latitude: 35.9344
-    max_longitude: -0.9969759
-  translations:
-    en: Midelt
-  comments:
-  type: province
-OUZ:
-  name: Ouezzane
-  code: OUZ
-  unofficial_names:
-  geo:
-    latitude: 31.791702
-    longitude: -7.092619999999999
-    min_latitude: 27.6672693
-    min_longitude: -13.3044001
-    max_latitude: 35.9344
-    max_longitude: -0.9969759
-  translations:
-    en: Ouezzane
-  comments:
-  type: province
-REH:
-  name: Rehamna
-  code: REH
-  unofficial_names:
-  geo:
-  translations:
-    en: Rehamna
-  comments:
-  type: province
-SIB:
-  name: Sidi Bennour
-  code: SIB
-  unofficial_names:
-  geo:
-  translations:
-    en: Sidi Bennour
-  comments:
-  type: province
-SIF:
-  name: Sidi Ifni
-  code: SIF
-  unofficial_names:
-  geo:
-    latitude: 26.660768
-    longitude: 49.8393179
-    min_latitude: 26.6544679
-    min_longitude: 49.81823420000001
-    max_latitude: 26.6660987
-    max_longitude: 49.8596116
-  translations:
-    en: Sidi Ifni
-  comments:
-  type: province
-SIL:
-  name: Sidi Slimane
-  code: SIL
-  unofficial_names:
-  geo:
-    latitude: 37.147821
-    longitude: -8.5584885
-  translations:
-    en: Sidi Slimane
-  comments:
-  type: province
-TAF:
-  name: Tarfaya (EH-partial)
-  code: TAF
-  unofficial_names:
-  geo:
-    latitude: 31.6360026
-    longitude: -8.057429899999999
-    min_latitude: 31.5600339
-    min_longitude: -8.1314279
-    max_latitude: 31.72042849999999
-    max_longitude: -8.0045699
-  translations:
-    en: Tarfaya (EH-partial)
-  comments:
-  type: province
-TIN:
-  name: Tinghir
-  code: TIN
-  unofficial_names:
-  geo:
-    latitude: 30.9263125
-    longitude: -6.9072676
-  translations:
-    en: Tinghir
-  comments:
-  type: province
-YUS:
-  name: Youssoufia
-  code: YUS
-  unofficial_names:
-  geo:
-  translations:
-    en: Youssoufia
-  comments:
-  type: province
-'01':
-  name: Tanger-Tétouan-Al Hoceïma
-  code: '01'
-  type: region
-  translations:
-    ar: طنجة - تطوان - الحسيمة
-'02':
-  name: L'Oriental
-  code: '02'
-  type: region
-  translations:
-    ar: الشرق
-'03':
-  name: Fès-Meknès
-  code: '03'
-  type: region
-  translations:
-    ar: فاس-مكناس
-'04':
-  name: Rabat-Salé-Kénitra
-  code: '04'
-  type: region
-  translations:
-    ar: الرباط-سلا-القنيطرة
-'05':
-  name: Béni Mellal-Khénifra
-  code: '05'
-  type: region
-  translations:
-    ar: بني ملال - خنيفرة
-'06':
-  name: Casablanca-Settat
-  code: '06'
-  type: region
-  translations:
-    ar: الدار البيضاء - سطات
-'07':
-  name: Marrakech-Safi
-  code: '07'
-  type: region
-  translations:
-    ar: مراكش آسفي
-'08':
-  name: Drâa-Tafilalet
-  code: '08'
-  type: region
-  translations:
-    ar: درعة - تافيلالت
-'09':
-  name: Souss-Massa
-  code: '09'
-  type: region
-  translations:
-    ar: سوس ماسة
-'10':
-  name: Guelmim-Oued Noun (EH-partial)
-  code: '10'
-  type: region
-  translations:
-    ar: ڭلميم-وادي نون
-'11':
-  name: Laâyoune-Sakia El Hamra (EH-partial)
-  code: '11'
-  type: region
-  translations:
-    ar: العيون - الساقية الحمراء
-'12':
-  name: Dakhla-Oued Ed-Dahab (EH)
-  code: '12'
-  type: region
-  translations:
-    ar: الداخلة - وادي الذهب
