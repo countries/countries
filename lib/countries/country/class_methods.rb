@@ -50,6 +50,7 @@ module ISO3166
     end
 
     def translations(locale = 'en')
+      locale = locale.downcase
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
       translations = JSON.parse(File.read(file_path))
 
