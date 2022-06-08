@@ -81,7 +81,15 @@ module ISO3166
       subdivisions.map { |k, v| [v.translations[locale] || v.name, k] }
     end
 
-    alias states subdivisions
+    def states
+      if RUBY_VERSION =~ /^3\.\d\.\d/
+        warn "DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.", uplevel: 1, category: :deprecated
+      else
+        warn "DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.", uplevel: 1
+      end
+
+      subdivisions
+    end
 
     # +true+ if this country is a member of the European Union.
     def in_eu?
