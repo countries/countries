@@ -1,7 +1,7 @@
 ---
-NO-03:
+'03':
   name: Oslo
-  code: NO-03
+  code: '03'
   unofficial_names: Oslo
   geo:
     latitude: 59.9138688
@@ -73,9 +73,10 @@ NO-03:
     uk: Осло
     ur: اوسلو
     vi: Oslo
-NO-11:
+  type: county
+'11':
   name: Rogaland
-  code: NO-11
+  code: '11'
   unofficial_names: Rogaland
   geo:
     latitude: 59.1489544
@@ -126,9 +127,10 @@ NO-11:
     uk: Руґалан
     ur: روگالان
     vi: Rogaland
-NO-15:
+  type: county
+'15':
   name: Møre og Romsdal
-  code: NO-15
+  code: '15'
   unofficial_names: Møre og Romsdal
   geo:
     latitude: 62.9760369
@@ -177,9 +179,10 @@ NO-15:
     uk: Мере-ог-Ромсдал
     ur: مورہ او رومسدال
     vi: Møre og Romsdal
-NO-18:
+  type: county
+'18':
   name: Nordland
-  code: NO-18
+  code: '18'
   unofficial_names: Nordland
   translations:
     af: Nordland
@@ -240,7 +243,8 @@ NO-18:
     min_longitude:
     max_latitude:
     max_longitude:
-NO-21:
+  type: county
+'21':
   name: Svalbard (Arctic Region)
   unofficial_names: Svalbard (Arctic Region)
   translations:
@@ -308,8 +312,9 @@ NO-21:
     max_latitude:
     max_longitude:
   comments: See also country code SJ
-  code: NO-21
-NO-22:
+  code: '21'
+  type: arctic_region
+'22':
   name: Jan Mayen (Arctic Region)
   unofficial_names: Jan Mayen (Arctic Region)
   translations:
@@ -371,8 +376,9 @@ NO-22:
     max_latitude:
     max_longitude:
   comments: See also country code SJ
-  code: NO-22
-NO-30:
+  code: '22'
+  type: arctic_region
+'30':
   name: Viken
   translations:
     ast: Viken
@@ -408,8 +414,9 @@ NO-30:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-30
-NO-34:
+  code: '30'
+  type: county
+'34':
   name: Innlandet
   translations:
     aa: Innlandet
@@ -647,8 +654,9 @@ NO-34:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-34
-NO-38:
+  code: '34'
+  type: county
+'38':
   name: Vestfold og Telemark
   translations:
     ast: Vestfold og Telemark
@@ -683,8 +691,9 @@ NO-38:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-38
-NO-42:
+  code: '38'
+  type: county
+'42':
   name: Agder
   translations:
     af: Agder
@@ -726,8 +735,9 @@ NO-42:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-42
-NO-46:
+  code: '42'
+  type: county
+'46':
   name: Vestland
   translations:
     af: Vestland
@@ -762,8 +772,9 @@ NO-46:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-46
-NO-50:
+  code: '46'
+  type: county
+'50':
   name: Trøndelag
   translations:
     ang: Þrondham
@@ -831,8 +842,9 @@ NO-50:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-50
-NO-54:
+  code: '50'
+  type: county
+'54':
   name: Troms og Finnmark
   translations:
     ast: Troms og Finnmark
@@ -873,4 +885,5 @@ NO-54:
     min_longitude:
     max_latitude:
     max_longitude:
-  code: NO-54
+  code: '54'
+  type: county

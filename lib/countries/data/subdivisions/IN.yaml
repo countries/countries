@@ -87,6 +87,7 @@ AN:
     mk: Андамани и Никобари
     'no': Andamanene og Nikobarene
   comments:
+  type: state
 AP:
   name: Andhra Pradesh
   code: AP
@@ -179,6 +180,7 @@ AP:
     'no': Andhra Pradesh
     yo_BJ: Andhra Pradesh
   comments:
+  type: state
 AR:
   name: Arunachal Pradesh
   code: AR
@@ -268,6 +270,7 @@ AR:
     'no': Arunachal Pradesh
     yo_BJ: Arunachal Pradesh
   comments:
+  type: state
 AS:
   name: Assam
   code: AS
@@ -361,6 +364,7 @@ AS:
     'no': Assam
     yo_BJ: Assam
   comments:
+  type: state
 BR:
   name: Bihar
   code: BR
@@ -450,6 +454,7 @@ BR:
     'no': Bihar
     yo_BJ: Bihar
   comments:
+  type: state
 CH:
   name: Chandigarh
   code: CH
@@ -532,6 +537,7 @@ CH:
     'no': Chandigarh
     yo_BJ: Chandigarh
   comments:
+  type: union_territory
 CT:
   name: Chhattisgarh
   code: CT
@@ -617,85 +623,13 @@ CT:
     'no': Chhattisgarh
     yo_BJ: Chhattisgarh
   comments:
-DD:
-  name: Daman and Diu
-  code: DD
-  unofficial_names: Daman and Diu
-  geo:
-    latitude: 20.428283
-    longitude: 72.8397317
-    min_latitude: 20.3672191
-    min_longitude: 70.8734812
-    max_latitude: 20.743124
-    max_longitude: 72.9067969
+  type: state
+DH:
   translations:
-    en: Daman and Diu
-    ar: دمن وديو
-    be: Даман і Дыу
-    bg: Даман и Диу
-    bn: দমন ও দিউ
-    ca: Daman i Diu
-    cs: Daman a Díu
-    da: Daman og Diu
-    de: Daman und Diu
-    el: Νταμάν και Ντιού
-    es: Damán y Diu
-    et: Daman ja Diu
-    eu: Daman eta Diu
-    fa: دامان و دیو
-    fi: Daman ja Diu
-    fr: Daman et Diu
-    gu: દમણ અને દીવ
-    he: דאמאן ודיו
-    hi: दमन और दीव
-    hr: Daman i Diu
-    hu: Daman és Diu
-    id: Daman dan Diu
-    is: Daman og Diu
-    it: Daman e Diu
-    ja: ダマン・ディーウ連邦直轄領
-    ka: დამანი და დიუ
-    kn: ದಮನ್ ಮತ್ತು ದಿಯು
-    ko: 다만 디우
-    lt: Damanas ir Diu
-    lv: Damāna un Diu
-    ml: ദമൻ, ദിയു
-    mr: दमण आणि दीव
-    ms: Daman dan Diu
-    nb: Daman og Diu
-    ne: दमन दिउ
-    nl: Daman en Diu
-    or: ଡାମନ ଓ ଡିଉ
-    pl: Daman i Diu
-    pt: Damão e Diu
-    ro: Daman și Diu
-    ru: Даман и Диу
-    si: ඩමන් සහ ඩියු
-    sk: Daman a Diú
-    sr: Даман и Диу
-    sv: Daman och Diu
-    sw: Daman na Diu
-    ta: தமன் மற்றும் தியூ
-    te: దమన్ దియు
-    th: ดามันและดีอู
-    tr: Daman ve Diu
-    uk: Даман і Діу
-    ur: دمن و دیو
-    vi: Daman và Diu
-    ceb: Union Territory of Damān and Diu
-    sr_Latn: Daman i Diu
-    zh: 达曼-第乌
-    yue_Hans: 达曼-第乌
-    ccp: "\U00011118\U00011127\U0001111F\U00011127\U0001111A\U00011134 \U00011103\U00011133\U00011103
-      \U00011113\U00011128\U00011105\U0001112A"
-    pa: ਦਮਨ ਅਤੇ ਦਿਉ
-    yue: 達曼-第烏
-    yo: Daman àti Diu
-    uz: Daman va diu
-    mk: Даман и Диу
-    'no': Daman og Diu
-    yo_BJ: Daman àti Diu
-  comments:
+    en: Dādra and Nagar Haveli and Damān and Diu
+  name: Dādra and Nagar Haveli and Damān and Diu
+  code: DH
+  type: union_territory
 DL:
   name: Delhi
   code: DL
@@ -790,87 +724,7 @@ DL:
     'no': Delhi
     yo_BJ: Delhi
   comments:
-DN:
-  name: Dadra and Nagar Haveli
-  code: DN
-  unofficial_names: Dadra and Nagar Haveli
-  geo:
-    latitude: 20.1808672
-    longitude: 73.0169135
-    min_latitude: 20.052287
-    min_longitude: 72.921629
-    max_latitude: 20.3625029
-    max_longitude: 73.2258921
-  translations:
-    en: Dadra and Nagar Haveli
-    ar: دادرا وناجار هافلي
-    be: Дадра і Нагархавелі
-    bg: Дадра и Нагар Хавели
-    bn: দাদরা ও নগর হাভেলি
-    ca: Dadra i Nagar Haveli
-    cs: Dádra a Nágar Havélí
-    da: Dadra og Nagar Haveli
-    de: Dadra und Nagar Haveli
-    el: Ντάντρα και Ναγκάρ Χαβέλι
-    es: Dadra y Nagar Haveli
-    et: Dadra ja Nagar Haveli
-    eu: Dadra eta Nagar Haveli
-    fa: دادرا و ناگار هاولی
-    fi: Dadra ja Nagar Haveli
-    fr: Dadra et Nagar Haveli
-    gl: Dadra e Nagar Haveli
-    gu: દાદરા અને નગરહવેલી
-    he: דאדרה ונאגר הבלי
-    hi: दादर और नागर हवेली
-    hr: Dadra i Nagar Haveli
-    hu: Dadra és Nagar Haveli
-    id: Dadra dan Nagar Haveli
-    is: Dadra og Nagar Haveli
-    it: Dadra e Nagar Haveli
-    ja: ダードラー及びナガル・ハヴェーリー連邦直轄領
-    ka: დადრა და ნაგარ-ჰაველი
-    kn: ದಾದ್ರ ಮತ್ತು ನಗರ್ ಹವೆಲಿ
-    ko: 다드라 나가르하벨리
-    lt: Dadra ir Nagar Havelis
-    lv: Dādra un Nagarhaveli
-    ml: ദാദ്ര, നഗർ ഹവേലി
-    mr: दादरा आणि नगर-हवेली
-    ms: Dadra dan Nagar Haveli
-    nb: Dadra og Nagar Haveli
-    ne: दादरा र नगर हवेली
-    nl: Dadra en Nagar Haveli
-    or: ଦାଦ୍ରା ଓ ନଗର ହବେଳୀ
-    pl: Dadra i Nagarhaweli
-    pt: Dadrá e Nagar-Aveli
-    ro: Dadra și Nagar Haveli
-    ru: Дадра и Нагар-Хавели
-    si: දඩ්රා සග නගර් හවේලි
-    sk: Dádra a Nagar Havelí
-    sr: Дадра и Нагар Хавели
-    sv: Dadra och Nagar Haveli
-    sw: Dadra na Nagar Haveli
-    ta: தாத்ரா மற்றும் நகர் அவேலி
-    te: దాద్రా నగరు హవేలీ
-    th: ดาดราและนครหเวลี
-    tr: Dadra ve Nagar Haveli
-    uk: Дадра і Нагар-Хавелі
-    ur: دادرا و نگر حویلی
-    vi: Dadra và Nagar Haveli
-    cy: Dadra a Nagar Haveli
-    ceb: Union Territory of Dādra and Nagar Haveli
-    sr_Latn: Dadra i Nagar Haveli
-    zh: 达德拉-纳加尔哈维利
-    yue_Hans: 达德拉-纳加尔哈维利
-    ccp: "\U00011118\U00011113\U00011133\U00011122 \U00011103\U00011133\U00011103
-      \U0001111A\U00011127\U00011109\U00011127\U00011122\U00011134 \U00011126\U0001111E\U0001112C\U00011123\U00011128"
-    pa: ਦਾਦਰ ਅਤੇ ਨਗਰ ਹਵੇਲੀ
-    yue: 達德拉-納加爾哈維利
-    yo: Dadra àti Nagar Haveli
-    uz: Dadra va nagarhaveli
-    mk: Дадра и Нагар Хавели
-    'no': Dadra og Nagar Haveli
-    yo_BJ: Dadra àti Nagar Haveli
-  comments:
+  type: union_territory
 GA:
   name: Goa
   code: GA
@@ -963,6 +817,7 @@ GA:
     'no': Goa
     yo_BJ: Goa
   comments:
+  type: state
 GJ:
   name: Gujarat
   code: GJ
@@ -1054,6 +909,7 @@ GJ:
     'no': Gujarat
     yo_BJ: Gujarat
   comments:
+  type: state
 HP:
   name: Himachal Pradesh
   code: HP
@@ -1142,6 +998,7 @@ HP:
     'no': Himachal Pradesh
     yo_BJ: Himachal Pradesh
   comments:
+  type: state
 HR:
   name: Haryana
   code: HR
@@ -1228,6 +1085,7 @@ HR:
     'no': Haryana
     yo_BJ: Haryana
   comments:
+  type: state
 JH:
   name: Jharkhand
   code: JH
@@ -1312,6 +1170,7 @@ JH:
     'no': Jharkhand
     yo_BJ: Jharkhand
   comments:
+  type: state
 JK:
   name: Jammu and Kashmir
   code: JK
@@ -1401,6 +1260,7 @@ JK:
     'no': Jammu og Kashmir
     yo_BJ: Jammu àti Kashmir
   comments:
+  type: union_territory
 KA:
   name: Karnataka
   code: KA
@@ -1488,6 +1348,7 @@ KA:
     'no': Karnataka
     yo_BJ: Karnataka
   comments:
+  type: state
 KL:
   name: Kerala
   code: KL
@@ -1577,6 +1438,22 @@ KL:
     'no': Kerala
     yo_BJ: Kerala
   comments:
+  type: state
+LA:
+  name: Ladakh
+  code: LA
+  unofficial_names:
+  geo:
+    latitude: 34.0522342
+    longitude: -118.2436849
+    min_latitude: 33.7036519
+    min_longitude: -118.6681759
+    max_latitude: 34.3373061
+    max_longitude: -118.1552891
+  translations:
+    en: Ladakh
+  comments:
+  type: union_territory
 LD:
   name: Lakshadweep
   code: LD
@@ -1657,6 +1534,7 @@ LD:
     'no': Lakkadivene
     yo_BJ: Lakshadweep
   comments:
+  type: union_territory
 MH:
   name: Maharashtra
   code: MH
@@ -1747,6 +1625,7 @@ MH:
     'no': Maharashtra
     yo_BJ: Maharashtra
   comments:
+  type: state
 ML:
   name: Meghalaya
   code: ML
@@ -1831,6 +1710,7 @@ ML:
     'no': Meghalaya
     yo_BJ: Meghalaya
   comments:
+  type: state
 MN:
   name: Manipur
   code: MN
@@ -1920,6 +1800,7 @@ MN:
     'no': Manipur
     yo_BJ: Manipur
   comments:
+  type: state
 MP:
   name: Madhya Pradesh
   code: MP
@@ -2010,6 +1891,7 @@ MP:
     'no': Madhya Pradesh
     yo_BJ: Madhya Pradesh
   comments:
+  type: state
 MZ:
   name: Mizoram
   code: MZ
@@ -2094,6 +1976,7 @@ MZ:
     'no': Mizoram
     yo_BJ: Mizoram
   comments:
+  type: state
 NL:
   name: Nagaland
   code: NL
@@ -2181,6 +2064,7 @@ NL:
     'no': Nagaland
     yo_BJ: Nagaland
   comments:
+  type: state
 OR:
   name: Orissa
   code: OR
@@ -2272,6 +2156,7 @@ OR:
     'no': Odisha
     yo_BJ: Odisha
   comments:
+  type: state
 PB:
   name: Punjab
   code: PB
@@ -2357,6 +2242,7 @@ PB:
     'no': Punjab
     yo_BJ: Punjab
   comments:
+  type: state
 PY:
   name: Pondicherry
   code: PY
@@ -2437,6 +2323,7 @@ PY:
     'no': Puducherry
     yo_BJ: Puducherry
   comments:
+  type: union_territory
 RJ:
   name: Rajasthan
   code: RJ
@@ -2527,6 +2414,7 @@ RJ:
     'no': Rajasthan
     yo_BJ: Rajasthan
   comments:
+  type: state
 SK:
   name: Sikkim
   code: SK
@@ -2617,6 +2505,83 @@ SK:
     'no': Sikkim
     yo_BJ: Sikkim
   comments:
+  type: state
+TG:
+  name: तेलंगाना
+  code: TG
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: تيلانغانا
+    as: তেলেংগানা
+    az: Telanqana
+    bg: Телангана
+    bn: তেলঙ্গানা
+    ca: Telangana
+    cs: Telangána
+    da: Telangana
+    de: Telangana
+    el: Τελανγκάνα
+    en: Telangana
+    es: Telingana
+    et: Telangana
+    fa: تلنگانا
+    fi: Telangana
+    fr: Telangana
+    gl: Telangana
+    gu: તેલંગાણા
+    he: טלנגאנה
+    hi: तेलंगाना
+    hu: Telangána
+    id: Telangana
+    it: Telangana
+    ja: テランガナ
+    ka: ტელანგანა
+    kn: ತೆಲಂಗಾಣ
+    ko: 텔랑가나 주
+    lt: Telangana
+    lv: Telangāna
+    ml: തെലങ്കാന
+    mn: Телангана
+    mr: तेलंगणा
+    ms: Telangana
+    nb: Telangana
+    ne: तेलंगाना
+    nl: Telangana
+    or: ତେଲେଙ୍ଗାନା
+    pl: Telangana
+    pt: Telangana
+    ro: Telangana
+    ru: Телангана
+    sr: Телангана
+    sv: Telangana
+    sw: Telangana
+    ta: தெலுங்கானா
+    te: తెలంగాణ
+    th: รัฐเตลันกานา
+    uk: Телангана
+    ur: تیلنگانا
+    vi: Telangana
+    cy: Telangana
+    ceb: Telangana
+    tr: Telangana
+    sr_Latn: Telangana
+    zh: 特伦甘纳邦
+    yue_Hans: 泰伦加纳邦
+    ccp: "\U00011111\U0001112C\U00011123\U0001111A\U00011134\U00011109\U0001111A"
+    ga: Telangana
+    pa: ਤੇਲੰਗਾਨਾ
+    yue: 泰倫加納邦
+    mk: Телангана
+    'no': Telangana
+  comments:
+  type: state
 TN:
   name: Tamil Nadu
   code: TN
@@ -2708,6 +2673,7 @@ TN:
     'no': Tamil Nadu
     yo_BJ: Tamil Nadu
   comments:
+  type: state
 TR:
   name: Tripura
   code: TR
@@ -2797,34 +2763,7 @@ TR:
     'no': Tripura
     yo_BJ: Tripura
   comments:
-TS:
-  name: Telangana
-  code: TS
-  unofficial_names: Telangana
-  geo:
-    latitude: 18.1124372
-    longitude: 79.01929969999999
-    min_latitude: 15.83535
-    min_longitude: 77.23791299999999
-    max_latitude: 19.916715
-    max_longitude: 81.3075465
-  translations:
-    en: Telangana
-  comments:
-UL:
-  name: Uttaranchal
-  code: UL
-  unofficial_names: Uttaranchal
-  geo:
-    latitude: 30.066753
-    longitude: 79.01929969999999
-    min_latitude: 28.710125
-    min_longitude: 77.57860889999999
-    max_latitude: 31.45461499999999
-    max_longitude: 81.05566379999999
-  translations:
-    en: Uttaranchal
-  comments:
+  type: state
 UP:
   name: Uttar Pradesh
   code: UP
@@ -2917,6 +2856,92 @@ UP:
     'no': Uttar Pradesh
     yo_BJ: Uttar Pradesh
   comments:
+  type: state
+UT:
+  name: उत्तराखण्ड
+  code: UT
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: أوتاراخند
+    as: উত্তৰাখণ্ড
+    be: Утаракханд
+    bg: Утаракханд
+    bn: উত্তরাখণ্ড
+    ca: Uttarakhand
+    cs: Uttarákhand
+    da: Uttarakhand
+    de: Uttarakhand
+    el: Ουταράχαντ
+    en: Uttarakhand
+    es: Uttarakhand
+    et: Uttarakhand
+    eu: Uttarakhand
+    fa: اوتاراکند
+    fi: Uttarakhand
+    fr: Uttarakhand
+    gu: ઉત્તરાખંડ
+    he: אוטראקהאנד
+    hi: उत्तराखण्ड
+    hr: Uttarakhand
+    hu: Uttarakhand
+    id: Uttarakhand
+    is: Uttarakhand
+    it: Uttarakhand
+    ja: ウッタラーカンド州
+    ka: უტარაკჰანდი
+    kn: ಉತ್ತರಾಖಂಡ
+    ko: 우타라칸드 주
+    lt: Utarakhandas
+    lv: Utarakhanda
+    ml: ഉത്തരാഖണ്ഡ്
+    mn: Уттараканд
+    mr: उत्तराखंड
+    ms: Uttarakhand
+    nb: Uttarakhand
+    ne: उत्तराखण्ड
+    nl: Uttarakhand
+    or: ଉତ୍ତରାଖଣ୍ଡ
+    pl: Uttarakhand
+    ps: اتر کنډ
+    pt: Uttarakhand
+    ro: Uttarakhand
+    ru: Уттаракханд
+    si: උට්ටරඛාන්ඩ්
+    sk: Uttarákhand
+    sr: Утараханд
+    sv: Uttarakhand
+    sw: Uttarakhand
+    ta: உத்தராகண்டம்
+    te: ఉత్తరాఖండ్
+    th: รัฐอุตตราขัณฑ์
+    tr: Uttarakhand
+    uk: Уттаракханд
+    ur: اتراکھنڈ
+    vi: Uttarakhand
+    cy: Uttarakhand
+    ceb: State of Uttarakhand
+    sr_Latn: Utarahand
+    zh: 北阿坎德邦
+    yue_Hans: 北阿坎德邦
+    sq: Uttarakand
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U00011103\U00011108\U00011127\U0001111A\U00011134\U00011113\U00011127"
+    ga: Uttarakhand
+    pa: ਉੱਤਰਖੰਡ
+    yue: 北阿坎德邦
+    am: ኡተራኸንድ
+    yo: Uttarakhand
+    mk: Утараканд
+    'no': Uttarakhand
+    yo_BJ: Uttarakhand
+  comments:
+  type: state
 WB:
   name: West Bengal
   code: WB
@@ -3010,181 +3035,4 @@ WB:
     mk: Западен Бенгал
     'no': Vest-Bengal
   comments:
-TG:
-  name: तेलंगाना
-  code: TG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: تيلانغانا
-    as: তেলেংগানা
-    az: Telanqana
-    bg: Телангана
-    bn: তেলঙ্গানা
-    ca: Telangana
-    cs: Telangána
-    da: Telangana
-    de: Telangana
-    el: Τελανγκάνα
-    en: Telangana
-    es: Telingana
-    et: Telangana
-    fa: تلنگانا
-    fi: Telangana
-    fr: Telangana
-    gl: Telangana
-    gu: તેલંગાણા
-    he: טלנגאנה
-    hi: तेलंगाना
-    hu: Telangána
-    id: Telangana
-    it: Telangana
-    ja: テランガナ
-    ka: ტელანგანა
-    kn: ತೆಲಂಗಾಣ
-    ko: 텔랑가나 주
-    lt: Telangana
-    lv: Telangāna
-    ml: തെലങ്കാന
-    mn: Телангана
-    mr: तेलंगणा
-    ms: Telangana
-    nb: Telangana
-    ne: तेलंगाना
-    nl: Telangana
-    or: ତେଲେଙ୍ଗାନା
-    pl: Telangana
-    pt: Telangana
-    ro: Telangana
-    ru: Телангана
-    sr: Телангана
-    sv: Telangana
-    sw: Telangana
-    ta: தெலுங்கானா
-    te: తెలంగాణ
-    th: รัฐเตลันกานา
-    uk: Телангана
-    ur: تیلنگانا
-    vi: Telangana
-    cy: Telangana
-    ceb: Telangana
-    tr: Telangana
-    sr_Latn: Telangana
-    zh: 特伦甘纳邦
-    yue_Hans: 泰伦加纳邦
-    ccp: "\U00011111\U0001112C\U00011123\U0001111A\U00011134\U00011109\U0001111A"
-    ga: Telangana
-    pa: ਤੇਲੰਗਾਨਾ
-    yue: 泰倫加納邦
-    mk: Телангана
-    'no': Telangana
-  comments:
-UT:
-  name: उत्तराखण्ड
-  code: UT
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: أوتاراخند
-    as: উত্তৰাখণ্ড
-    be: Утаракханд
-    bg: Утаракханд
-    bn: উত্তরাখণ্ড
-    ca: Uttarakhand
-    cs: Uttarákhand
-    da: Uttarakhand
-    de: Uttarakhand
-    el: Ουταράχαντ
-    en: Uttarakhand
-    es: Uttarakhand
-    et: Uttarakhand
-    eu: Uttarakhand
-    fa: اوتاراکند
-    fi: Uttarakhand
-    fr: Uttarakhand
-    gu: ઉત્તરાખંડ
-    he: אוטראקהאנד
-    hi: उत्तराखण्ड
-    hr: Uttarakhand
-    hu: Uttarakhand
-    id: Uttarakhand
-    is: Uttarakhand
-    it: Uttarakhand
-    ja: ウッタラーカンド州
-    ka: უტარაკჰანდი
-    kn: ಉತ್ತರಾಖಂಡ
-    ko: 우타라칸드 주
-    lt: Utarakhandas
-    lv: Utarakhanda
-    ml: ഉത്തരാഖണ്ഡ്
-    mn: Уттараканд
-    mr: उत्तराखंड
-    ms: Uttarakhand
-    nb: Uttarakhand
-    ne: उत्तराखण्ड
-    nl: Uttarakhand
-    or: ଉତ୍ତରାଖଣ୍ଡ
-    pl: Uttarakhand
-    ps: اتر کنډ
-    pt: Uttarakhand
-    ro: Uttarakhand
-    ru: Уттаракханд
-    si: උට්ටරඛාන්ඩ්
-    sk: Uttarákhand
-    sr: Утараханд
-    sv: Uttarakhand
-    sw: Uttarakhand
-    ta: உத்தராகண்டம்
-    te: ఉత్తరాఖండ్
-    th: รัฐอุตตราขัณฑ์
-    tr: Uttarakhand
-    uk: Уттаракханд
-    ur: اتراکھنڈ
-    vi: Uttarakhand
-    cy: Uttarakhand
-    ceb: State of Uttarakhand
-    sr_Latn: Utarahand
-    zh: 北阿坎德邦
-    yue_Hans: 北阿坎德邦
-    sq: Uttarakand
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U00011103\U00011108\U00011127\U0001111A\U00011134\U00011113\U00011127"
-    ga: Uttarakhand
-    pa: ਉੱਤਰਖੰਡ
-    yue: 北阿坎德邦
-    am: ኡተራኸንድ
-    yo: Uttarakhand
-    mk: Утараканд
-    'no': Uttarakhand
-    yo_BJ: Uttarakhand
-  comments:
-LA:
-  name: Ladakh
-  code: LA
-  unofficial_names:
-  geo:
-    latitude: 34.0522342
-    longitude: -118.2436849
-    min_latitude: 33.7036519
-    min_longitude: -118.6681759
-    max_latitude: 34.3373061
-    max_longitude: -118.1552891
-  translations:
-    en: Ladakh
-  comments:
-DH:
-  translations:
-    en: Dādra and Nagar Haveli and Damān and Diu
-  name: Dādra and Nagar Haveli and Damān and Diu
-  code: DH
+  type: state

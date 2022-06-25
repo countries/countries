@@ -197,6 +197,25 @@ describe ISO3166::Data do
           expect(data.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{file}"
         end
       end
+
+      it 'has a non-blank, lowercase and snake_case type for all subdivisions' do
+        Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
+          data = YAML.load_file(file)
+          no_type = data.select{|k,v| v['type'].nil? }
+          expect(no_type).to be_empty, "empty subdivision type in #{file} - #{no_type.keys}"
+          uppercase = data.select{|k,v| v['type'] =~ /[A-Z]/ }
+          expect(uppercase).to be_empty, "uppercase characters in subdivision type in #{file} - #{uppercase.keys}"
+          spaces = data.select{|k,v| v['type'] =~ /\s/ }
+          expect(spaces).to be_empty, "whitespace characters in subdivision type in #{file} - #{spaces.keys}"
+        end
+      end
+
+      it 'has a non-blank name for all subdivisions' do
+        Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
+          data = YAML.load_file(file)
+          expect(data.values.none?{|s| s['name'].nil? }).to be_truthy, "empty subdivision name in #{file}"
+        end
+      end
     end
 
     context 'cached country subdivision data' do
@@ -204,6 +223,22 @@ describe ISO3166::Data do
         ISO3166::Country.all.each do |country|
           expect(country.subdivisions.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{country}"
         end
+      end
+
+      it 'has a non-blank name for all subdivisions' do
+        ISO3166::Country.all.each do |country|
+          expect(country.subdivisions.values.none?{|s| s['name'].nil? }).to be_truthy, "empty subdivision name in #{country}"
+        end
+      end
+    end
+
+    context 'names in Data' do
+      it 'should be unique (to allow .find_by_any_name work properly)' do
+        names = ISO3166::Data.cache.map do |_k, v|
+          [v['iso_short_name'], v['unofficial_names']].flatten.uniq
+        end.flatten
+
+        expect(names.size).to eq(names.uniq.size)
       end
     end
   end

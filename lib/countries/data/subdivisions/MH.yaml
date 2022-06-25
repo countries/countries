@@ -35,6 +35,7 @@ ALK:
     ccp: "\U00011103\U0001112D\U00011123\U0001112A\U00011107\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Ајлук
   comments:
+  type: municipality
 ALL:
   name: Ailinglapalap
   code: ALL
@@ -76,6 +77,7 @@ ALL:
     mk: Ајлинглаплап
     'no': Ailinglaplap
   comments:
+  type: municipality
 ARN:
   name: Arno
   code: ARN
@@ -111,6 +113,7 @@ ARN:
     es: Arno (isla)
     mk: Арно (атол)
   comments:
+  type: municipality
 AUR:
   name: Aur
   code: AUR
@@ -146,6 +149,7 @@ AUR:
     ccp: "\U00011103\U00011105\U0001112A\U00011122\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Аур
   comments:
+  type: municipality
 EBO:
   name: Ebon
   code: EBO
@@ -184,6 +188,7 @@ EBO:
     da: Ebon
     mk: Ебон
   comments:
+  type: municipality
 ENI:
   name: Eniwetok
   code: ENI
@@ -232,6 +237,7 @@ ENI:
     mk: Еневетак
     'no': Enewetakatollen
   comments:
+  type: municipality
 JAB:
   name: Jabat
   code: JAB
@@ -267,6 +273,7 @@ JAB:
     ccp: "\U0001110E\U0001111D\U00011127\U00011116\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Џабат
   comments:
+  type: municipality
 JAL:
   name: Jaluit
   code: JAL
@@ -307,6 +314,7 @@ JAL:
     ccp: "\U0001110E\U00011123\U00011128\U00011120\U0001112C\U00011116\U00011134 \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Џалуит
   comments:
+  type: municipality
 KIL:
   name: Kili
   code: KIL
@@ -341,6 +349,7 @@ KIL:
     ccp: "\U00011107\U00011128\U00011123\U00011128 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Кили
   comments:
+  type: municipality
 KWA:
   name: Kwajalein
   code: KWA
@@ -389,6 +398,65 @@ KWA:
     mk: Кваџалејн
     'no': Kwajalein
   comments:
+  type: municipality
+L:
+  name: Ralik Chain
+  code: L
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: راليك تشين
+    bn: রালিকচেইন
+    da: Ralik Chain
+    de: Ralik-Kette
+    el: Ράλικ Τσέιν
+    en: Ralik Chain
+    es: Ralik Cadena
+    et: Raliki saared
+    fi: Ralik
+    fr: Îles Ralik
+    gu: રાલિક ચેઇન
+    he: שרשרת רליק
+    hi: रालिक चेन
+    hr: Ralik
+    id: Ralik Chain
+    it: Ralik
+    ja: ラリック列島
+    ka: რალიკის ჯაჭვი
+    kn: ರಾಲಿಕ್ ಚೈನ್
+    ko: 랄리크 열도
+    lt: Raliko salos
+    mr: रालिक चेन
+    ms: Ralik Chain
+    nb: Ralik-kjeden
+    nl: Ralik Chain
+    pl: Ralik Chain
+    pt: Cadeia Ralik
+    ru: Цепь Ралик
+    si: රලික් චේන්
+    sv: Raliköarna
+    ta: ராலிக் செயின்
+    te: రాలిక్ చైన్
+    th: ลาลิก เชน
+    tr: Ralik Chain
+    uk: Ланцюг Ралік
+    ur: رالیک چین
+    vi: Chuỗi đảo Ralik
+    lv: Raliku salas
+    ceb: Ralik Chain
+    zh: 拉利克礁鏈
+    fa: زنجیره رالیک
+    ccp: "\U00011122\U00011123\U00011128\U00011107\U00011134 \U0001110C\U0001112C\U0001112D\U0001111A\U00011134"
+    mk: Ралички Острови
+    'no': Ralik-kjeden
+  comments:
+  type: chain_of_islands
 LAE:
   name: Lae
   code: LAE
@@ -423,6 +491,7 @@ LAE:
     ccp: "\U00011123 \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Лае
   comments:
+  type: municipality
 LIB:
   name: Lib
   code: LIB
@@ -457,6 +526,7 @@ LIB:
     ccp: "\U00011122\U00011128\U0001111B\U00011134 \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     mk: Либ
   comments:
+  type: municipality
 LIK:
   name: Likiep
   code: LIK
@@ -489,6 +559,7 @@ LIK:
       \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Ликиеп
   comments:
+  type: municipality
 MAJ:
   name: Majuro
   code: MAJ
@@ -572,6 +643,7 @@ MAJ:
     mk: Маџуро
     'no': Majuro
   comments:
+  type: municipality
 MAL:
   name: Maloelap
   code: MAL
@@ -609,6 +681,7 @@ MAL:
       \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Малоелап
   comments:
+  type: municipality
 MEJ:
   name: Mejit
   code: MEJ
@@ -643,6 +716,7 @@ MEJ:
     ca: Mejit
     mk: Меџит
   comments:
+  type: municipality
 MIL:
   name: Mili
   code: MIL
@@ -677,6 +751,7 @@ MIL:
     ccp: "\U0001111F\U00011128\U00011122\U00011128 \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Мили
   comments:
+  type: municipality
 NMK:
   name: Namorik
   code: NMK
@@ -712,6 +787,7 @@ NMK:
       \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Намдрик
   comments:
+  type: municipality
 NMU:
   name: Namu
   code: NMU
@@ -749,6 +825,7 @@ NMU:
     ccp: "\U0001111A\U0001111F\U0001112A \U00011103\U00011111\U0001112E\U00011123\U00011134"
     mk: Наму
   comments:
+  type: municipality
 RON:
   name: Rongelap
   code: RON
@@ -789,218 +866,7 @@ RON:
     mk: Ронгелап
     'no': Rongelap
   comments:
-UJA:
-  name: Ujae
-  code: UJA
-  unofficial_names: Ujae
-  geo:
-    latitude: 9.0582174
-    longitude: 165.6440842
-    min_latitude: 8.922806
-    min_longitude: 165.5181098
-    max_latitude: 9.2262549
-    max_longitude: 165.7703877
-  translations:
-    en: Ujae Atoll
-    de: Ujae
-    es: Ujae
-    fi: Ujae
-    fr: Ujae
-    gl: Atol Ujae
-    hr: Ujae
-    id: Atol Ujae
-    it: Ujae
-    ja: ウジャエ環礁
-    ko: 우자에 환초
-    lt: Udžaė
-    nl: Ujae Atoll
-    pl: Ujae
-    ru: Уджаэ
-    sv: Ujae
-    ceb: Ujae Atoll (munisipyo)
-    zh: 烏賈環礁
-    fa: آب‌سنگ حلقوی اوجائه
-    ccp: "\U00011105\U0001112A\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
-    mk: Уџае
-  comments:
-UJL:
-  name: Ujelang
-  code: UJL
-  unofficial_names: Ujelang
-  geo:
-    latitude: 9.77
-    longitude: 160.9752777
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Ujelang
-  comments:
-UTI:
-  name: Utirik
-  code: UTI
-  unofficial_names:
-  - Utirik
-  - Utrōk
-  - Utrōnk
-  geo:
-    latitude: 11.2226114
-    longitude: 169.8544701
-    min_latitude: 11.2214237
-    min_longitude: 169.8474976
-    max_latitude: 11.2233218
-    max_longitude: 169.8563474
-  translations:
-    en: Utirik Atoll
-    be: Атол Утырык
-    ca: Utirik
-    de: Utirik
-    es: Utirik
-    eu: Utirik
-    fi: Utirik
-    fr: Utirik
-    gl: Atol Utirik
-    it: Utirik
-    ja: ウチリック環礁
-    ko: 우티리크 환초
-    lt: Utirikas
-    nl: Utirik Atoll
-    pl: Utirik
-    pt: Atol Utirik
-    ru: Утирик
-    sv: Utirik
-    ceb: Utrik
-    zh: 烏蒂里克環礁
-    fa: آب‌سنگ حلقوی اوتیریک
-    ccp: "\U00011105\U0001112A\U00011111\U00011128\U00011122\U00011128\U00011107\U00011134
-      \U00011103\U00011111\U0001112E\U00011123\U00011134"
-    mk: Утирик
-  comments:
-WTH:
-  name: Wotho
-  code: WTH
-  unofficial_names:
-  - Wōtto
-  geo:
-    latitude: 10.1024946
-    longitude: 165.9811564
-    min_latitude: 10.0144328
-    min_longitude: 165.9193897
-    max_latitude: 10.1839202
-    max_longitude: 166.0299827
-  translations:
-    en: Wotho Atoll
-    de: Wotho
-    es: Wotho
-    fi: Wotho
-    fr: Wotho
-    gl: Atol Wotho
-    hr: Wotho
-    id: Atol Wotho
-    it: Wotho
-    ja: オトー環礁
-    ko: 워토 환초
-    lt: Votas
-    nl: Wotho Atoll
-    pl: Wotho
-    ru: Вото
-    sv: Wotho
-    ceb: Wotho
-    zh: 沃特環礁
-    ccp: "\U00011124\U00011117\U0001112E \U00011103\U00011111\U0001112E\U00011123\U00011134"
-    mk: Вото
-  comments:
-WTJ:
-  name: Wotje
-  code: WTJ
-  unofficial_names: Wotje
-  geo:
-    latitude: 9.452366999999999
-    longitude: 170.237213
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Wotje Atoll
-    de: Wotje
-    es: Wotje
-    fi: Wotje
-    fr: Wotje
-    gl: Atol Wotje
-    it: Wotje
-    ja: ウォッジェ環礁
-    ko: 웟제 환초
-    lt: Votjė
-    nl: Wotje Atoll
-    pl: Wotje
-    pt: Atol Wotje
-    ru: Вотье
-    sv: Wotje
-    uk: Вотьє
-    ceb: Wotje Atoll
-    zh: 沃特傑環礁
-    ccp: "\U00011124\U00011116\U00011134\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
-    mk: Вотје
-  comments:
-L:
-  name: Ralik Chain
-  code: L
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: راليك تشين
-    bn: রালিকচেইন
-    da: Ralik Chain
-    de: Ralik-Kette
-    el: Ράλικ Τσέιν
-    en: Ralik Chain
-    es: Ralik Cadena
-    et: Raliki saared
-    fi: Ralik
-    fr: Îles Ralik
-    gu: રાલિક ચેઇન
-    he: שרשרת רליק
-    hi: रालिक चेन
-    hr: Ralik
-    id: Ralik Chain
-    it: Ralik
-    ja: ラリック列島
-    ka: რალიკის ჯაჭვი
-    kn: ರಾಲಿಕ್ ಚೈನ್
-    ko: 랄리크 열도
-    lt: Raliko salos
-    mr: रालिक चेन
-    ms: Ralik Chain
-    nb: Ralik-kjeden
-    nl: Ralik Chain
-    pl: Ralik Chain
-    pt: Cadeia Ralik
-    ru: Цепь Ралик
-    si: රලික් චේන්
-    sv: Raliköarna
-    ta: ராலிக் செயின்
-    te: రాలిక్ చైన్
-    th: ลาลิก เชน
-    tr: Ralik Chain
-    uk: Ланцюг Ралік
-    ur: رالیک چین
-    vi: Chuỗi đảo Ralik
-    lv: Raliku salas
-    ceb: Ralik Chain
-    zh: 拉利克礁鏈
-    fa: زنجیره رالیک
-    ccp: "\U00011122\U00011123\U00011128\U00011107\U00011134 \U0001110C\U0001112C\U0001112D\U0001111A\U00011134"
-    mk: Ралички Острови
-    'no': Ralik-kjeden
-  comments:
+  type: municipality
 T:
   name: Ratak Chain
   code: T
@@ -1059,3 +925,164 @@ T:
     mk: Ратачки Острови
     'no': Ratak Chain
   comments:
+  type: chain_of_islands
+UJA:
+  name: Ujae
+  code: UJA
+  unofficial_names: Ujae
+  geo:
+    latitude: 9.0582174
+    longitude: 165.6440842
+    min_latitude: 8.922806
+    min_longitude: 165.5181098
+    max_latitude: 9.2262549
+    max_longitude: 165.7703877
+  translations:
+    en: Ujae Atoll
+    de: Ujae
+    es: Ujae
+    fi: Ujae
+    fr: Ujae
+    gl: Atol Ujae
+    hr: Ujae
+    id: Atol Ujae
+    it: Ujae
+    ja: ウジャエ環礁
+    ko: 우자에 환초
+    lt: Udžaė
+    nl: Ujae Atoll
+    pl: Ujae
+    ru: Уджаэ
+    sv: Ujae
+    ceb: Ujae Atoll (munisipyo)
+    zh: 烏賈環礁
+    fa: آب‌سنگ حلقوی اوجائه
+    ccp: "\U00011105\U0001112A\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Уџае
+  comments:
+  type: municipality
+UJL:
+  name: Ujelang
+  code: UJL
+  unofficial_names: Ujelang
+  geo:
+    latitude: 9.77
+    longitude: 160.9752777
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    en: Ujelang
+  comments:
+  type: municipality
+UTI:
+  name: Utirik
+  code: UTI
+  unofficial_names:
+  - Utirik
+  - Utrōk
+  - Utrōnk
+  geo:
+    latitude: 11.2226114
+    longitude: 169.8544701
+    min_latitude: 11.2214237
+    min_longitude: 169.8474976
+    max_latitude: 11.2233218
+    max_longitude: 169.8563474
+  translations:
+    en: Utirik Atoll
+    be: Атол Утырык
+    ca: Utirik
+    de: Utirik
+    es: Utirik
+    eu: Utirik
+    fi: Utirik
+    fr: Utirik
+    gl: Atol Utirik
+    it: Utirik
+    ja: ウチリック環礁
+    ko: 우티리크 환초
+    lt: Utirikas
+    nl: Utirik Atoll
+    pl: Utirik
+    pt: Atol Utirik
+    ru: Утирик
+    sv: Utirik
+    ceb: Utrik
+    zh: 烏蒂里克環礁
+    fa: آب‌سنگ حلقوی اوتیریک
+    ccp: "\U00011105\U0001112A\U00011111\U00011128\U00011122\U00011128\U00011107\U00011134
+      \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Утирик
+  comments:
+  type: municipality
+WTH:
+  name: Wotho
+  code: WTH
+  unofficial_names:
+  - Wōtto
+  geo:
+    latitude: 10.1024946
+    longitude: 165.9811564
+    min_latitude: 10.0144328
+    min_longitude: 165.9193897
+    max_latitude: 10.1839202
+    max_longitude: 166.0299827
+  translations:
+    en: Wotho Atoll
+    de: Wotho
+    es: Wotho
+    fi: Wotho
+    fr: Wotho
+    gl: Atol Wotho
+    hr: Wotho
+    id: Atol Wotho
+    it: Wotho
+    ja: オトー環礁
+    ko: 워토 환초
+    lt: Votas
+    nl: Wotho Atoll
+    pl: Wotho
+    ru: Вото
+    sv: Wotho
+    ceb: Wotho
+    zh: 沃特環礁
+    ccp: "\U00011124\U00011117\U0001112E \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Вото
+  comments:
+  type: municipality
+WTJ:
+  name: Wotje
+  code: WTJ
+  unofficial_names: Wotje
+  geo:
+    latitude: 9.452366999999999
+    longitude: 170.237213
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    en: Wotje Atoll
+    de: Wotje
+    es: Wotje
+    fi: Wotje
+    fr: Wotje
+    gl: Atol Wotje
+    it: Wotje
+    ja: ウォッジェ環礁
+    ko: 웟제 환초
+    lt: Votjė
+    nl: Wotje Atoll
+    pl: Wotje
+    pt: Atol Wotje
+    ru: Вотье
+    sv: Wotje
+    uk: Вотьє
+    ceb: Wotje Atoll
+    zh: 沃特傑環礁
+    ccp: "\U00011124\U00011116\U00011134\U0001110E\U0001112C \U00011103\U00011111\U0001112E\U00011123\U00011134"
+    mk: Вотје
+  comments:
+  type: municipality

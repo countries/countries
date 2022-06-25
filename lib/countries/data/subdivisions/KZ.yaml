@@ -74,6 +74,7 @@ AKM:
     mk: Акмола
     'no': Akmola region
   comments:
+  type: region
 AKT:
   name: Aqtöbe oblysy
   code: AKT
@@ -147,6 +148,7 @@ AKT:
     mk: Актобе
     'no': Aqtöbe
   comments:
+  type: region
 ALA:
   name: Almaty
   code: ALA
@@ -241,6 +243,7 @@ ALA:
     'no': Almaty
     yo_BJ: Almaty
   comments:
+  type: city
 ALM:
   name: Almaty oblysy
   code: ALM
@@ -313,6 +316,7 @@ ALM:
     mk: Алмати²
     'no': Almaty region
   comments:
+  type: region
 AST:
   name: Astana
   code: AST
@@ -407,6 +411,7 @@ AST:
     'no': Astana
     yo_BJ: Astana
   comments:
+  type: city
 ATY:
   name: Atyrau oblysy
   code: ATY
@@ -482,78 +487,7 @@ ATY:
     mk: Атирау
     'no': Atyrau oblast
   comments:
-BAY:
-  name: Bayqongyr
-  code: BAY
-  unofficial_names: Bayqongyr
-  geo:
-    latitude: 45.6232258
-    longitude: 63.31398289999999
-    min_latitude: 45.6036048
-    min_longitude: 63.2785679
-    max_latitude: 45.6437181
-    max_longitude: 63.3368253
-  translations:
-    en: Bayqongyr
-    ar: بايكونور
-    az: Baykonur
-    be: Горад Байканур
-    bg: Байконур
-    bn: বাইকুনোর
-    ca: Baikonur
-    cs: Bajkonur
-    da: Bajkonur
-    de: Baikonur
-    el: Μπαϊκονούρ
-    es: Baikonur
-    et: Bajkongõr
-    eu: Baikonur
-    fa: بایقونور، قزاقستان
-    fi: Baikonur
-    fr: Baïkonour
-    gl: Baikonur
-    gu: બેકોનુર
-    he: בייקונור
-    hi: बायकोनूर
-    hr: Bajkonur
-    hu: Bajkonur
-    id: Baykonur
-    it: Bayqoñyr
-    ja: バイコヌール
-    ka: ბაიკონური
-    kn: ಬೈಕೊನೂರ್
-    ko: 바이코누르
-    lt: Baikonyras
-    lv: Baikonura
-    mr: बैकोनूर
-    ms: Baikonur
-    nb: Bajkonur
-    nl: Bajkonoer
-    pl: Bajkonur
-    pt: Baikonur
-    ro: Baikonur
-    ru: Байконур
-    si: බයිකොනුර්
-    sk: Bajkonur
-    sr: Бајконур
-    sv: Bajkonur
-    ta: பைகோனுர்
-    te: బైకోనూర్
-    th: เซวตา
-    tr: Baykonur
-    uk: Байконур
-    ur: بایکونور
-    vi: Baikonur
-    zh: 拜科努爾
-    ceb: Bayqongyr Qalasy
-    sr_Latn: Bajkonur
-    ccp: "\U0001111D\U0001112C\U00011107\U00011127\U00011101\U00011109\U00011120\U00011122\U00011134"
-    pa: ਬਾਈਕੋਨਰ
-    kk: Байқоңыр
-    uz: Boyqoʻngʻir
-    mk: Бајконур
-    'no': Bajkonur
-  comments:
+  type: region
 KAR:
   name: Qaraghandy oblysy
   code: KAR
@@ -630,6 +564,7 @@ KAR:
     mk: Караганди
     'no': Karagandy region
   comments:
+  type: region
 KUS:
   name: Qostanay oblysy
   code: KUS
@@ -707,6 +642,7 @@ KUS:
     mk: Костанај
     'no': Kostanay region
   comments:
+  type: region
 KZY:
   name: Qyzylorda oblysy
   code: KZY
@@ -784,6 +720,7 @@ KZY:
     mk: Кизилорда
     'no': Qızılorda
   comments:
+  type: region
 MAN:
   name: Mangghystau oblysy
   code: MAN
@@ -857,6 +794,7 @@ MAN:
     mk: Мангистау
     'no': Mangystau oblast
   comments:
+  type: region
 PAV:
   name: Pavlodar oblysy
   code: PAV
@@ -928,6 +866,7 @@ PAV:
     mk: Павлодар
     'no': Pavlodar provins
   comments:
+  type: region
 SEV:
   name: Soltüstik Qazaqstan oblysy
   code: SEV
@@ -1002,6 +941,22 @@ SEV:
     mk: Северен Казахстан
     'no': Nord Kazakhstan provins
   comments:
+  type: region
+SHY:
+  name: Shymkent
+  code: SHY
+  unofficial_names:
+  geo:
+    latitude: 48.019573
+    longitude: 66.923684
+    min_latitude: 40.5685841
+    min_longitude: 46.493672
+    max_latitude: 55.4419839
+    max_longitude: 87.315415
+  translations:
+    en: Shymkent
+  comments:
+  type: city
 VOS:
   name: Shyghys Qazaqstan oblysy
   code: VOS
@@ -1074,6 +1029,7 @@ VOS:
     mk: Источен Казахстан
     'no': Vest Kazakhstan region
   comments:
+  type: region
 YUZ:
   name: Ongtüstik Qazaqstan oblysy
   code: YUZ
@@ -1148,6 +1104,7 @@ YUZ:
     mk: Јужен Казахстан
     'no': Sør Kazakhstan region
   comments:
+  type: region
 ZAP:
   name: Batys Qazaqstan oblysy
   code: ZAP
@@ -1223,6 +1180,7 @@ ZAP:
     mk: Западноказахстанска област
     'no': Vest-Kasakhstan oblast
   comments:
+  type: region
 ZHA:
   name: Zhambyl oblysy
   code: ZHA
@@ -1291,17 +1249,4 @@ ZHA:
     uz: Jambul viloyati
     mk: Жамбил
   comments:
-SHY:
-  name: Shymkent
-  code: SHY
-  unofficial_names:
-  geo:
-    latitude: 48.019573
-    longitude: 66.923684
-    min_latitude: 40.5685841
-    min_longitude: 46.493672
-    max_latitude: 55.4419839
-    max_longitude: 87.315415
-  translations:
-    en: Shymkent
-  comments:
+  type: region

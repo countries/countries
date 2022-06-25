@@ -63,6 +63,7 @@ AMA:
     mk: Амазон
     'no': Amazonas
   comments:
+  type: region
 ANC:
   name: Ancash
   code: ANC
@@ -128,6 +129,7 @@ ANC:
     mk: Анкаш
     'no': Ancash
   comments:
+  type: region
 APU:
   name: Apurímac
   code: APU
@@ -191,6 +193,7 @@ APU:
     mk: Апуримак
     'no': Apurímac
   comments:
+  type: region
 ARE:
   name: Arequipa
   code: ARE
@@ -255,6 +258,7 @@ ARE:
     mk: Арекипа
     'no': Arequipa
   comments:
+  type: region
 AYA:
   name: Ayacucho
   code: AYA
@@ -319,6 +323,7 @@ AYA:
     mk: Ајакучо
     'no': Ayacucho
   comments:
+  type: region
 CAJ:
   name: Cajamarca
   code: CAJ
@@ -379,6 +384,7 @@ CAJ:
     mk: Кахамарка
     'no': Cajamarca
   comments:
+  type: region
 CAL:
   name: El Callao
   code: CAL
@@ -415,6 +421,7 @@ CAL:
     ccp: "\U00011103\U0001112C\U00011123\U00011134 \U00011107\U00011123\U00011103\U0001112E"
     'no': Callao
   comments:
+  type: region
 CUS:
   name: Cuzco [Cusco]
   code: CUS
@@ -478,6 +485,7 @@ CUS:
     mk: Куско
     'no': Cusco
   comments:
+  type: region
 HUC:
   name: Huánuco
   code: HUC
@@ -537,6 +545,7 @@ HUC:
     mk: Уануко
     'no': Huánuco
   comments:
+  type: region
 HUV:
   name: Huancavelica
   code: HUV
@@ -598,6 +607,7 @@ HUV:
     mk: Уанкавелика
     'no': Huancavelica
   comments:
+  type: region
 ICA:
   name: Ica
   code: ICA
@@ -657,6 +667,7 @@ ICA:
     mk: Ика
     'no': Ica
   comments:
+  type: region
 JUN:
   name: Junín
   code: JUN
@@ -717,6 +728,7 @@ JUN:
     mk: Хунин
     'no': Junín
   comments:
+  type: region
 LAL:
   name: La Libertad
   code: LAL
@@ -776,6 +788,7 @@ LAL:
     mk: Ла Либертад
     'no': La Libertad
   comments:
+  type: region
 LAM:
   name: Lambayeque
   code: LAM
@@ -835,6 +848,7 @@ LAM:
     mk: Ламбајеке
     'no': Lambayeque
   comments:
+  type: region
 LIM:
   name: Lima
   code: LIM
@@ -893,6 +907,64 @@ LIM:
     mk: Лима
     'no': Lima
   comments:
+  type: region
+LMA:
+  name: Lima Metropolitana
+  code: LMA
+  unofficial_names: Lima Metropolitana
+  geo:
+    latitude: -12.046374
+    longitude: -77.0427934
+    min_latitude: -12.0798252
+    min_longitude: -77.0883395
+    max_latitude: -12.0308632
+    max_longitude: -77.0020311
+  translations:
+    ar: محافظة ليما
+    be: правінцыя Ліма
+    bn: লিমা প্রদেশ
+    ca: Província de Lima
+    da: Lima²
+    de: Provinz Lima
+    el: Επαρχία Λίμας
+    en: Lima
+    es: Provincia de Lima
+    fi: Liman metropolialue
+    fr: province de Lima
+    gl: Provincia de Lima
+    gu: લિમા પ્રાંત
+    hi: लीमा प्रांत
+    id: Provinsi Lima
+    it: provincia di Lima
+    ja: リマ郡
+    ka: ლიმა²
+    kn: ಲಿಮಾ ಪ್ರಾಂತ್ಯ
+    ko: 리마 군
+    lt: Limos provincija
+    mr: लिमा प्रांत
+    ms: Lima Province
+    nb: Lima provins
+    nl: Lima²
+    pl: Prowincja Lima
+    pt: Lima²
+    ro: Provincia Lima
+    ru: Лима²
+    si: ලිමා පළාත²
+    sv: Lima²
+    ta: லிமா மாகாணம்
+    te: లిమా ప్రావిన్స్
+    th: จังหวัดลิมา
+    tr: Lima ili
+    uk: Ліма²
+    ur: لیما صوبہ
+    vi: Tỉnh Lima
+    lv: Limas province
+    ceb: Provincia de Lima
+    zh: 利馬省
+    ccp: "\U00011123\U00011128\U0001111F"
+    'no': Lima provins
+  comments:
+  type: municipality
 LOR:
   name: Loreto
   code: LOR
@@ -955,6 +1027,7 @@ LOR:
     mk: Лорето
     'no': Loreto
   comments:
+  type: region
 MDD:
   name: Madre de Dios
   code: MDD
@@ -1015,6 +1088,7 @@ MDD:
     mk: Мадре де Диос
     'no': Madre de Dios
   comments:
+  type: region
 MOQ:
   name: Moquegua
   code: MOQ
@@ -1075,6 +1149,7 @@ MOQ:
     mk: Мокегва
     'no': Moquegua
   comments:
+  type: region
 PAS:
   name: Pasco
   code: PAS
@@ -1135,6 +1210,7 @@ PAS:
     mk: Паско
     'no': Pasco
   comments:
+  type: region
 PIU:
   name: Piura
   code: PIU
@@ -1194,6 +1270,7 @@ PIU:
     mk: Пиура
     'no': Piura
   comments:
+  type: region
 PUN:
   name: Puno
   code: PUN
@@ -1245,6 +1322,7 @@ PUN:
     mk: Пуно
     'no': Puno
   comments:
+  type: region
 SAM:
   name: San Martín
   code: SAM
@@ -1306,6 +1384,7 @@ SAM:
     mk: Сан Мартин
     'no': San Martín
   comments:
+  type: region
 TAC:
   name: Tacna
   code: TAC
@@ -1367,6 +1446,7 @@ TAC:
     mk: Такна
     'no': Tacna
   comments:
+  type: region
 TUM:
   name: Tumbes
   code: TUM
@@ -1426,6 +1506,7 @@ TUM:
     mk: Тумбес
     'no': Tumbes
   comments:
+  type: region
 UCA:
   name: Ucayali
   code: UCA
@@ -1488,59 +1569,4 @@ UCA:
     mk: Укајали
     'no': Ucayali
   comments:
-LMA:
-  name: Lima Metropolitana
-  code: LMA
-  unofficial_names: Lima Metropolitana
-  geo:
-    latitude: -12.046374
-    longitude: -77.0427934
-    min_latitude: -12.0798252
-    min_longitude: -77.0883395
-    max_latitude: -12.0308632
-    max_longitude: -77.0020311
-  translations:
-    ar: محافظة ليما
-    be: правінцыя Ліма
-    bn: লিমা প্রদেশ
-    ca: Província de Lima
-    da: Lima²
-    de: Provinz Lima
-    el: Επαρχία Λίμας
-    en: Lima
-    es: Provincia de Lima
-    fi: Liman metropolialue
-    fr: province de Lima
-    gl: Provincia de Lima
-    gu: લિમા પ્રાંત
-    hi: लीमा प्रांत
-    id: Provinsi Lima
-    it: provincia di Lima
-    ja: リマ郡
-    ka: ლიმა²
-    kn: ಲಿಮಾ ಪ್ರಾಂತ್ಯ
-    ko: 리마 군
-    lt: Limos provincija
-    mr: लिमा प्रांत
-    ms: Lima Province
-    nb: Lima provins
-    nl: Lima²
-    pl: Prowincja Lima
-    pt: Lima²
-    ro: Provincia Lima
-    ru: Лима²
-    si: ලිමා පළාත²
-    sv: Lima²
-    ta: லிமா மாகாணம்
-    te: లిమా ప్రావిన్స్
-    th: จังหวัดลิมา
-    tr: Lima ili
-    uk: Ліма²
-    ur: لیما صوبہ
-    vi: Tỉnh Lima
-    lv: Limas province
-    ceb: Provincia de Lima
-    zh: 利馬省
-    ccp: "\U00011123\U00011128\U0001111F"
-    'no': Lima provins
-  comments:
+  type: region

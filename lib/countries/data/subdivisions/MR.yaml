@@ -56,6 +56,7 @@
     uk: Регіон Год-еш-Шарґі
     'no': Hodh Ech Chargui
   comments:
+  type: region
 '02':
   name: Hodh el Gharbi
   code: '02'
@@ -113,6 +114,7 @@
     uk: Регіон Ход-Ель-Гарбі
     'no': Hodh El Gharbi
   comments:
+  type: region
 '03':
   name: Assaba
   code: '03'
@@ -169,6 +171,7 @@
     uk: Регіон Асаба
     'no': Assaba
   comments:
+  type: region
 '04':
   name: Gorgol
   code: '04'
@@ -223,6 +226,7 @@
     uk: Регіон Горголь
     'no': Gorgol
   comments:
+  type: region
 '05':
   name: Brakna
   code: '05'
@@ -278,6 +282,7 @@
     uk: Регіон Бракна
     'no': Brakna
   comments:
+  type: region
 '06':
   name: Trarza
   code: '06'
@@ -333,6 +338,7 @@
     cs: Trarza
     'no': Trarza
   comments:
+  type: region
 '07':
   name: Adrar
   code: '07'
@@ -389,6 +395,7 @@
     uk: Адрар
     'no': Adrar
   comments:
+  type: region
 '08':
   name: Dakhlet Nouâdhibou
   code: '08'
@@ -445,6 +452,7 @@
     uk: Регіон Дахлет-Нуадібу
     'no': Dakhlet Nouadhibou
   comments:
+  type: region
 '09':
   name: Tagant
   code: '09'
@@ -500,6 +508,7 @@
     uk: Регіон Тагант
     'no': Tagant
   comments:
+  type: region
 '10':
   name: Guidimaka
   code: '10'
@@ -555,6 +564,7 @@
     uk: Регіон Ґідімака (Кудимага)
     'no': Guidimaka
   comments:
+  type: region
 '11':
   name: Tiris Zemmour
   code: '11'
@@ -611,6 +621,7 @@
     uk: Регіон Тіріс-Земур
     'no': Tiris Zemmour
   comments:
+  type: region
 '12':
   name: Inchiri
   code: '12'
@@ -667,25 +678,7 @@
     ccp: "\U00011103\U00011128\U0001111A\U00011134\U0001110C\U00011128\U00011122\U00011128"
     'no': Inchiri
   comments:
-NKC:
-  name: Nouakchott
-  code: NKC
-  unofficial_names:
-  - Anwāksūţ
-  - Nawakshut
-  - Nawākšūţ
-  - Nouakchott
-  geo:
-    latitude: 18.1
-    longitude: -15.95
-    min_latitude: 17.9728548
-    min_longitude: -16.0267681
-    max_latitude: 18.1614863
-    max_longitude: -15.8803537
-  translations:
-    en: Nouakchott
-    ccp: "\U0001111A\U0001112F\U00011120\U0001112E\U00011107\U00011134\U0001110C\U0001112E\U00011116\U00011134"
-  comments:
+  type: region
 '13':
   name: Nouakchott Ouest
   code: '13'
@@ -705,6 +698,7 @@ NKC:
       \U00011103\U00011127\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
     fr: Nouakchott-Ouest
   comments:
+  type: region
 '14':
   name: نواكشوط الشمالية
   code: '14'
@@ -726,6 +720,7 @@ NKC:
       \U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134"
     fr: Nouakchott-Nord
   comments:
+  type: region
 '15':
   name: نواكشوط الجنوبية
   code: '15'
@@ -747,3 +742,4 @@ NKC:
       \U00011125\U00011116\U00011134"
     fr: Nouakchott-Sud
   comments:
+  type: region

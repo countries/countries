@@ -45,6 +45,7 @@
     ca: Governació de la Capital
     'no': Hovedstadsguvernementet
   comments:
+  type: governorate
 '14':
   name: Al Janubiyah
   code: '14'
@@ -92,6 +93,7 @@
     ca: Governació del Sud
     'no': Sørlige guvernement
   comments:
+  type: governorate
 '15':
   name: Al Muharraq
   code: '15'
@@ -149,23 +151,7 @@
     uk: Муніципалітет Мухаррак
     'no': Muharraq guvernement
   comments:
-'16':
-  name: Al Wustá
-  code: '16'
-  unofficial_names:
-  - Central
-  - al-Mintaqah al-Wusta
-  geo:
-    latitude: 26.1426093
-    longitude: 50.5653294
-    min_latitude: 26.096567
-    min_longitude: 50.5095921
-    max_latitude: 26.1932879
-    max_longitude: 50.671664
-  translations:
-    en: Central
-    ccp: "\U00011125\U0001112C\U0001111A\U00011111\U00011133\U00011122\U00011123\U00011134"
-  comments:
+  type: governorate
 '17':
   name: Ash Shamaliyah
   code: '17'
@@ -209,3 +195,4 @@
     ca: Governació del Nord
     'no': Nordlige guvernement
   comments:
+  type: governorate

@@ -104,50 +104,7 @@ DA:
     'no': Doha
     yo_BJ: Doha
   comments:
-GH:
-  name: Al Ghuwayriyah
-  code: GH
-  unofficial_names:
-  - al-Ghuwayriyah
-  geo:
-    latitude: 25.8447931
-    longitude: 51.2453739
-    min_latitude: 25.8219899
-    min_longitude: 51.2385179
-    max_latitude: 25.851963
-    max_longitude: 51.2548255
-  translations:
-    en: Al Ghuwayriyah
-  comments:
-JB:
-  name: Jariyan al Batnah
-  code: JB
-  unofficial_names: Jariyan al Batnah
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Jariyan al Batnah
-  comments:
-JU:
-  name: Al Jumayliyah
-  code: JU
-  unofficial_names:
-  - al-Jumayliyah
-  geo:
-    latitude: 25.6218514
-    longitude: 51.0835811
-    min_latitude: 25.6071655
-    min_longitude: 51.0743236
-    max_latitude: 25.6417585
-    max_longitude: 51.1042785
-  translations:
-    en: Al Jumayliyah
-  comments:
+  type: municipality
 KH:
   name: Al Khawr
   code: KH
@@ -205,6 +162,7 @@ KH:
     mk: Хор
     'no': Al Khor
   comments:
+  type: municipality
 MS:
   name: Madinat ash Shamal
   code: MS
@@ -259,6 +217,7 @@ MS:
     mk: Шамал
     'no': Ash Shamal
   comments:
+  type: municipality
 RA:
   name: Ar Rayyan
   code: RA
@@ -319,6 +278,20 @@ RA:
     mk: Рајан
     'no': Al Rayyan kommune
   comments:
+  type: municipality
+SH:
+  name: الشحانية
+  code: SH
+  unofficial_names:
+  geo:
+  translations:
+    ar: الشحانية
+    fa: شحانیه
+    ja: シャハーニーヤ
+    en: Ash Shīḩānīyah
+    gl: Al Shahaniya
+  comments:
+  type: municipality
 US:
   name: Umm Salal
   code: US
@@ -372,6 +345,7 @@ US:
     mk: Ум Салал
     'no': Umm Salal Kommune
   comments:
+  type: municipality
 WA:
   name: Al Wakrah
   code: WA
@@ -430,21 +404,7 @@ WA:
     mk: Вакра
     'no': Al Wakrah
   comments:
-X1~:
-  name: Umm Sa'id
-  code: X1~
-  unofficial_names:
-  - Mesaieed
-  geo:
-    latitude: 24.9909255
-    longitude: 51.5493483
-    min_latitude: 24.886986
-    min_longitude: 51.5258231
-    max_latitude: 25.0202494
-    max_longitude: 51.6018392
-  translations:
-    en: Umm Sa'id
-  comments:
+  type: municipality
 ZA:
   name: بلدية الضعاين
   code: ZA
@@ -496,15 +456,4 @@ ZA:
     mk: Дајен
     'no': Al Daayen
   comments:
-SH:
-  name: الشحانية
-  code: SH
-  unofficial_names:
-  geo:
-  translations:
-    ar: الشحانية
-    fa: شحانیه
-    ja: シャハーニーヤ
-    en: Ash Shīḩānīyah
-    gl: Al Shahaniya
-  comments:
+  type: municipality

@@ -61,6 +61,7 @@ C:
     mk: Конахт
     'no': Connacht
   comments:
+  type: province
 CE:
   name: Clare
   code: CE
@@ -133,6 +134,7 @@ CE:
     mk: Клер
     'no': Clare
   comments:
+  type: county
 CN:
   name: Cavan
   code: CN
@@ -148,7 +150,7 @@ CN:
   translations:
     ar: مقاطعة كافان
     bg: Каван
-    bn: কাউন্টি কর্ক
+    bn: কাউন্টি কভেন
     ca: Comtat de Cavan
     cs: Hrabství Cavan
     da: County Cavan
@@ -205,6 +207,7 @@ CN:
     mk: Каван
     'no': Cavan
   comments:
+  type: county
 CO:
   name: Cork
   code: CO
@@ -281,6 +284,7 @@ CO:
     vi: Hạt Cork
     zh: 科克郡
   comments:
+  type: county
 CW:
   name: Carlow
   code: CW
@@ -354,11 +358,13 @@ CW:
     vi: Hạt Carlow
     zh: 卡洛郡
   comments:
+  type: county
 D:
   name: Dublin
   code: D
   unofficial_names:
   - Átha Cliath
+  - Baile Átha Cliath
   geo:
     latitude: 53.3498053
     longitude: -6.2603097
@@ -412,6 +418,7 @@ D:
     ur: کاؤنٹی ڈبلن
     zh: 都柏林地區
   comments:
+  type: county
 DL:
   name: Donegal
   code: DL
@@ -485,6 +492,7 @@ DL:
     vi: Hạt Donegal
     zh: 多尼戈爾郡
   comments:
+  type: county
 G:
   name: Galway
   code: G
@@ -557,6 +565,7 @@ G:
     vi: Hạt Galway
     zh: 戈尔韦郡
   comments:
+  type: county
 KE:
   name: Kildare
   code: KE
@@ -630,6 +639,7 @@ KE:
     vi: Hạt Kildare
     zh: 基尔代尔郡
   comments:
+  type: county
 KK:
   name: Kilkenny
   code: KK
@@ -703,6 +713,7 @@ KK:
     vi: Hạt Kilkenny
     zh: 基爾肯尼郡
   comments:
+  type: county
 KY:
   name: Kerry
   code: KY
@@ -775,6 +786,7 @@ KY:
     vi: Hạt Kerry
     zh: 凱里郡
   comments:
+  type: county
 L:
   name: Leinster
   code: L
@@ -837,6 +849,7 @@ L:
     yue: 利揚省
     zh: 倫斯特省
   comments:
+  type: province
 LD:
   name: Longford
   code: LD
@@ -909,6 +922,7 @@ LD:
     vi: Hạt Longford
     zh: 朗福德郡
   comments:
+  type: county
 LH:
   name: Louth
   code: LH
@@ -982,6 +996,7 @@ LH:
     vi: Hạt Louth
     zh: 劳斯郡
   comments:
+  type: county
 LK:
   name: Limerick
   code: LK
@@ -1054,6 +1069,7 @@ LK:
     vi: Hạt Limerick
     zh: 利默里克郡
   comments:
+  type: county
 LM:
   name: Leitrim
   code: LM
@@ -1124,6 +1140,7 @@ LM:
     vi: Hạt Leitrim
     zh: 利特里姆郡
   comments:
+  type: county
 LS:
   name: Laois
   code: LS
@@ -1195,6 +1212,7 @@ LS:
     vi: Hạt Laois
     zh: 萊伊什郡
   comments:
+  type: county
 M:
   name: Munster
   code: M
@@ -1258,6 +1276,7 @@ M:
     yue: 莫雲省
     zh: 芒斯特省
   comments:
+  type: province
 MH:
   name: Meath
   code: MH
@@ -1331,6 +1350,7 @@ MH:
     yue: 中土郡
     zh: 米斯郡
   comments:
+  type: county
 MN:
   name: Monaghan
   code: MN
@@ -1401,6 +1421,7 @@ MN:
     vi: Hạt Monaghan
     zh: 莫纳亨郡
   comments:
+  type: county
 MO:
   name: Mayo
   code: MO
@@ -1473,6 +1494,7 @@ MO:
     vi: Hạt Mayo
     zh: 梅奧郡
   comments:
+  type: county
 OY:
   name: Offaly
   code: OY
@@ -1547,6 +1569,7 @@ OY:
     vi: Hạt Offaly
     zh: 奧法利郡
   comments:
+  type: county
 RN:
   name: Roscommon
   code: RN
@@ -1618,6 +1641,7 @@ RN:
     vi: Hạt Roscommon
     zh: 羅斯康芒郡
   comments:
+  type: county
 SO:
   name: Sligo
   code: SO
@@ -1691,6 +1715,7 @@ SO:
     vi: Hạt Sligo
     zh: 斯萊戈郡
   comments:
+  type: county
 TA:
   name: Tipperary
   code: TA
@@ -1760,6 +1785,75 @@ TA:
     vi: Hạt Tipperary
     zh: 蒂珀雷里郡
   comments:
+  type: county
+U:
+  name: Ulster
+  code: U
+  unofficial_names:
+  geo:
+    latitude: 54.7617
+    longitude: 6.9612
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    'no': Ulster
+    af: Ulster
+    ar: أولستر
+    az: Olster
+    be: Ольстэр
+    bg: Ълстър
+    bs: Ulster
+    ca: Ulster
+    ccp: "\U00011103\U00011123\U00011134\U0001110C\U00011133\U00011111\U00011122\U00011134"
+    ceb: Ulster
+    cs: Ulster
+    cy: Ulster
+    da: Ulster
+    de: Provinz Ulster
+    el: Άλστερ
+    en: Ulster
+    es: Úlster
+    et: Ulster
+    eu: Ulster
+    fa: اولستر
+    fi: Ulster
+    fr: Ulster
+    ga: Cúige Uladh
+    gl: Úlster - Cúige Uladh
+    he: אלסטר
+    hr: Cúige Uladh
+    hy: Օլսթեր
+    id: Ulster
+    is: Ulster
+    it: Ulster
+    ja: アルスター
+    ka: ოლსტერი
+    ko: 얼스터
+    lt: Alsteris
+    lv: Olstera
+    mk: Алстер
+    nb: Ulster
+    nl: Ulster
+    pl: Ulster
+    pt: Ulster
+    ro: Ulster
+    ru: Ольстер
+    sk: Ulster
+    sr_Latn: Alster
+    sr: Алстер
+    sv: Ulster
+    th: อัลสเตอร์
+    tr: Ulster
+    uk: Ольстер
+    ur: السٹر
+    vi: Ulster
+    yue_Hans: 乌勒省
+    yue: 烏勒省
+    zh: 阿爾斯特省
+  comments:
+  type: province
 WD:
   name: Waterford
   code: WD
@@ -1831,6 +1925,7 @@ WD:
     vi: Hạt Waterford
     zh: 沃特福德郡
   comments:
+  type: county
 WH:
   name: Westmeath
   code: WH
@@ -1900,6 +1995,7 @@ WH:
     vi: Hạt Westmeath
     zh: 韋斯特米斯郡
   comments:
+  type: county
 WW:
   name: Wicklow
   code: WW
@@ -1973,6 +2069,7 @@ WW:
     vi: Hạt Wicklow
     zh: 威克洛郡
   comments:
+  type: county
 WX:
   name: Wexford
   code: WX
@@ -2043,70 +2140,4 @@ WX:
     vi: Wexford
     zh: 韦克斯福德郡
   comments:
-U:
-  name: Ulster
-  code: U
-  unofficial_names:
-  geo:
-    latitude: 54.7617
-    longitude: 6.9612
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    'no': Ulster
-    af: Ulster
-    ar: أولستر
-    az: Olster
-    be: Ольстэр
-    bg: Ълстър
-    bs: Ulster
-    ca: Ulster
-    ccp: "\U00011103\U00011123\U00011134\U0001110C\U00011133\U00011111\U00011122\U00011134"
-    ceb: Ulster
-    cs: Ulster
-    cy: Ulster
-    da: Ulster
-    de: Provinz Ulster
-    el: Άλστερ
-    en: Ulster
-    es: Úlster
-    et: Ulster
-    eu: Ulster
-    fa: اولستر
-    fi: Ulster
-    fr: Ulster
-    ga: Cúige Uladh
-    gl: Úlster - Cúige Uladh
-    he: אלסטר
-    hr: Cúige Uladh
-    hy: Օլսթեր
-    id: Ulster
-    is: Ulster
-    it: Ulster
-    ja: アルスター
-    ka: ოლსტერი
-    ko: 얼스터
-    lt: Alsteris
-    lv: Olstera
-    mk: Алстер
-    nb: Ulster
-    nl: Ulster
-    pl: Ulster
-    pt: Ulster
-    ro: Ulster
-    ru: Ольстер
-    sk: Ulster
-    sr_Latn: Alster
-    sr: Алстер
-    sv: Ulster
-    th: อัลสเตอร์
-    tr: Ulster
-    uk: Ольстер
-    ur: السٹر
-    vi: Ulster
-    yue_Hans: 乌勒省
-    yue: 烏勒省
-    zh: 阿爾斯特省
-  comments:
+  type: county

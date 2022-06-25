@@ -58,6 +58,7 @@ CHA:
     yue: 彰化縣
     'no': Changhua Fylke
   comments:
+  type: county
 CYI:
   name: Chiayi Municipality
   code: CYI
@@ -116,6 +117,7 @@ CYI:
     mn: Жяи шянь
     'no': Chiayi Fylke
   comments:
+  type: city
 CYQ:
   name: Chiayi
   code: CYQ
@@ -175,6 +177,7 @@ CYQ:
     yue: 嘉義市
     'no': Chiayi
   comments:
+  type: county
 HSQ:
   name: Hsinchu
   code: HSQ
@@ -232,6 +235,7 @@ HSQ:
     yue: 新竹縣
     'no': Hsinchu Fylke
   comments:
+  type: county
 HSZ:
   name: Hsinchu Municipality
   code: HSZ
@@ -293,6 +297,7 @@ HSZ:
     be: Сіньчжу
     'no': Hsinchu
   comments:
+  type: city
 HUA:
   name: Hualien
   code: HUA
@@ -352,6 +357,7 @@ HUA:
     yue: 花蓮縣
     'no': Hualien Fylke
   comments:
+  type: county
 ILA:
   name: Ilan
   code: ILA
@@ -410,6 +416,7 @@ ILA:
     yue: 宜蘭縣
     'no': Yilan Fylke
   comments:
+  type: county
 KEE:
   name: Keelung Municipality
   code: KEE
@@ -471,6 +478,7 @@ KEE:
     yue: 基隆
     'no': Chilung
   comments:
+  type: city
 KHH:
   name: Kaohsiung Special Municipality
   code: KHH
@@ -544,22 +552,99 @@ KHH:
     mk: Гаосјунг
     'no': Kaohsiung
   comments:
-KHQ:
-  name: Kaohsiung
-  code: KHQ
-  unofficial_names: Kaohsiung
+  type: special_municipality
+KIN:
+  name: 金門縣
+  code: KIN
+  unofficial_names:
   geo:
-    latitude: 22.6272784
-    longitude: 120.3014353
-    min_latitude: 20.5862202
-    min_longitude: 116.7118602
-    max_latitude: 23.4717267
-    max_longitude: 121.0490147
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
-    en: Kaohsiung County
-    ccp: "\U00011107\U00011103\U0001112E\U00011126\U00011125\U00011128\U00011105\U0001112A\U00011101
-      \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+    ar: كنمن
+    az: Szinmınsyundao
+    bn: কোয়েময়
+    ca: Kinmen
+    cs: Okres Ťin-men
+    da: Kinmen
+    de: Kinmen
+    el: Κίνμεν
+    en: Kinmen
+    es: Kinmen
+    et: Jinmen
+    eu: Kinmen
+    fa: کینمن
+    fi: Kinmen
+    fr: Jinmen
+    gu: કિનમેન
+    he: קואמוי
+    hi: किन्मेन
+    hu: Csinmen-szigetek
+    id: Kabupaten Kinmen
+    it: Kinmen
+    ja: 金門県
+    kn: ಕಿನ್ಮೆನ್
+    ko: 진먼 현
+    lt: Dzinmenas
+    ml: കിന്മെൻ
+    mn: Жиньмэнь
+    mr: किमेन
+    ms: Kinmen
+    nb: Kinmen
+    nl: Kinmen
+    pl: Kinmen
+    pt: Kinmen
+    ru: Цзиньмэнь
+    si: කින්මෙන්
+    sv: Kinmen
+    ta: கின்மேன்
+    te: కిన్మెన్
+    th: หมู่เกาะจินเหมิน
+    tr: Kinmen
+    ur: کنمن
+    vi: Kim Môn
+    lv: Dzjiņmeņa
+    ceb: Kinmen (lalawigan sa Republika sa Tsina)
+    zh: 金門縣
+    yue_Hans: 金门
+    ccp: "\U00011107\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U0001111A\U00011134"
+    uk: Цзіньмень
+    yue: 金門
+    yo: Kinmen
+    'no': Kinmen
+    yo_BJ: Kinmen
   comments:
+  type: county
+LIE:
+  name: 連江縣
+  code: LIE
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    cs: Okres Lien-ťiang
+    en: Lienchiang
+    fr: comté de Lienchiang
+    id: Kepulauan Lienchiang
+    ja: 連江県
+    ko: 롄장 현
+    cy: Sir Lienchiang
+    ceb: Lienchiang
+    zh: 連江縣
+    yue_Hans: 连江
+    ccp: "\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U0001110C\U00011128\U00011120\U0001112C\U00011101"
+    yue: 連江
+  comments:
+  type: county
 MIA:
   name: Miaoli
   code: MIA
@@ -618,6 +703,7 @@ MIA:
     yue: 苗栗縣
     'no': Miaoli Fylke
   comments:
+  type: county
 NAN:
   name: Nantou
   code: NAN
@@ -675,6 +761,23 @@ NAN:
     yue: 南投縣
     'no': Nantou fylk
   comments:
+  type: county
+NWT:
+  name: New Taipei
+  code: NWT
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    en: New Taipei
+    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C"
+  comments:
+  type: special_municipality
 PEN:
   name: Penghu
   code: PEN
@@ -718,6 +821,7 @@ PEN:
     yo: Penghu
     yo_BJ: Penghu
   comments:
+  type: county
 PIF:
   name: Pingtung
   code: PIF
@@ -779,6 +883,7 @@ PIF:
     be: Піндун
     'no': Pingtung fylke
   comments:
+  type: county
 TAO:
   name: Taoyuan
   code: TAO
@@ -839,6 +944,7 @@ TAO:
     mk: Тоајуен
     'no': Toayuan By
   comments:
+  type: special_municipality
 TNN:
   name: Tainan Municipality
   code: TNN
@@ -903,21 +1009,7 @@ TNN:
     mk: Тајнан
     'no': Tainan
   comments:
-TNQ:
-  name: Tainan
-  code: TNQ
-  unofficial_names: Tainan
-  geo:
-    latitude: 22.9998999
-    longitude: 120.2268758
-    min_latitude: 22.8874908
-    min_longitude: 120.0354791
-    max_latitude: 23.4137568
-    max_longitude: 120.6562596
-  translations:
-    en: Tainan County
-    ccp: "\U00011111\U0001112D\U0001111A\U0001111A\U00011134 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
-  comments:
+  type: special_municipality
 TPE:
   name: Taipei Special Municipality
   code: TPE
@@ -1015,22 +1107,7 @@ TPE:
     'no': Taipei
     yo_BJ: Taipei
   comments:
-TPQ:
-  name: Taipei
-  code: TPQ
-  unofficial_names: Taipei
-  geo:
-    latitude: 25.0329694
-    longitude: 121.5654177
-    min_latitude: 24.7900797
-    min_longitude: 121.2826735
-    max_latitude: 25.2443731
-    max_longitude: 121.7300824
-  translations:
-    en: New Taipei City
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C
-      \U00011125\U00011128\U00011111\U00011128"
-  comments:
+  type: special_municipality
 TTT:
   name: Taitung
   code: TTT
@@ -1090,6 +1167,7 @@ TTT:
     yue: 臺東縣
     'no': Taitung Fylke
   comments:
+  type: county
 TXG:
   name: Taichung Municipality
   code: TXG
@@ -1153,21 +1231,7 @@ TXG:
     mk: Тајџунг
     'no': Taichung
   comments:
-TXQ:
-  name: Taichung
-  code: TXQ
-  unofficial_names: Taichung
-  geo:
-    latitude: 24.1477358
-    longitude: 120.6736482
-    min_latitude: 23.9985086
-    min_longitude: 120.4607975
-    max_latitude: 24.4416976
-    max_longitude: 121.4509512
-  translations:
-    en: Taichung County
-    ccp: "\U00011111\U0001112D\U0001110C\U0001112A\U00011101 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
-  comments:
+  type: special_municipality
 YUN:
   name: Yunlin
   code: YUN
@@ -1226,108 +1290,4 @@ YUN:
     yue: 雲林縣
     'no': Yunlin County
   comments:
-KIN:
-  name: 金門縣
-  code: KIN
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: كنمن
-    az: Szinmınsyundao
-    bn: কোয়েময়
-    ca: Kinmen
-    cs: Okres Ťin-men
-    da: Kinmen
-    de: Kinmen
-    el: Κίνμεν
-    en: Kinmen
-    es: Kinmen
-    et: Jinmen
-    eu: Kinmen
-    fa: کینمن
-    fi: Kinmen
-    fr: Jinmen
-    gu: કિનમેન
-    he: קואמוי
-    hi: किन्मेन
-    hu: Csinmen-szigetek
-    id: Kabupaten Kinmen
-    it: Kinmen
-    ja: 金門県
-    kn: ಕಿನ್ಮೆನ್
-    ko: 진먼 현
-    lt: Dzinmenas
-    ml: കിന്മെൻ
-    mn: Жиньмэнь
-    mr: किमेन
-    ms: Kinmen
-    nb: Kinmen
-    nl: Kinmen
-    pl: Kinmen
-    pt: Kinmen
-    ru: Цзиньмэнь
-    si: කින්මෙන්
-    sv: Kinmen
-    ta: கின்மேன்
-    te: కిన్మెన్
-    th: หมู่เกาะจินเหมิน
-    tr: Kinmen
-    ur: کنمن
-    vi: Kim Môn
-    lv: Dzjiņmeņa
-    ceb: Kinmen (lalawigan sa Republika sa Tsina)
-    zh: 金門縣
-    yue_Hans: 金门
-    ccp: "\U00011107\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U0001111A\U00011134"
-    uk: Цзіньмень
-    yue: 金門
-    yo: Kinmen
-    'no': Kinmen
-    yo_BJ: Kinmen
-  comments:
-LIE:
-  name: 連江縣
-  code: LIE
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    cs: Okres Lien-ťiang
-    en: Lienchiang
-    fr: comté de Lienchiang
-    id: Kepulauan Lienchiang
-    ja: 連江県
-    ko: 롄장 현
-    cy: Sir Lienchiang
-    ceb: Lienchiang
-    zh: 連江縣
-    yue_Hans: 连江
-    ccp: "\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U0001110C\U00011128\U00011120\U0001112C\U00011101"
-    yue: 連江
-  comments:
-NWT:
-  name: New Taipei
-  code: NWT
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: New Taipei
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C"
-  comments:
+  type: county

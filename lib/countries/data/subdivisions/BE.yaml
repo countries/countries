@@ -95,6 +95,7 @@ BRU:
     'no': Brussel
     yo_BJ: Brussels
   comments:
+  type: region
 VAN:
   name: Antwerpen (nl)
   code: VAN
@@ -169,6 +170,7 @@ VAN:
     mk: Антверпен
     'no': Antwerpen
   comments:
+  type: province
 VBR:
   name: Vlaams Brabant (nl)
   code: VBR
@@ -246,6 +248,84 @@ VBR:
     mk: Фламански Брабант
     'no': Flamsk Brabant
   comments:
+  type: province
+VLG:
+  name: Vlaams Gewest
+  code: VLG
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: الإقليم الفلامندي
+    be: Фламандскі рэгіён
+    bg: Фламандски регион
+    ca: regió Flamenca
+    cs: Vlámský region
+    de: Flandern
+    el: Φλαμανδική Περιοχή
+    en: Flanders
+    es: Región Flamenca
+    et: Flandria
+    fr: Région flamande
+    hi: फ्लेमिश क्षेत्र
+    hy: Ֆլանդրիա
+    it: Fiandre
+    ja: フランデレン地域
+    ka: ფლანდრია
+    ko: 플라망 지역
+    lt: Flandrija
+    nl: Vlaams Gewest
+    pl: Region Flamandzki
+    ru: Фламандский регион
+    sk: Flámsky región
+    th: เขตฟลามส์
+    tr: Flaman Bölgesi
+    uk: Фламандській регіон
+    ur: فلیمش علاقہ
+    vi: Vùng Flemish
+    lv: Flandrija
+    mr: फ्लांडर्स
+    cy: Fflandrys
+    af: Vlaandere
+    ceb: Flanders
+    ms: Flanders
+    sr_Latn: Flandrija
+    ta: பிலான்டர்ஸ்
+    zh: 弗拉芒大區
+    fa: منطقه فلمیش
+    sw: Flandria
+    yue_Hans: 法兰德斯
+    sv: Flandern
+    ccp: "\U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    sr: Фландрија
+    ga: Flóndras
+    gl: Flandres - Vlaanderen
+    da: Flandern
+    fi: Flanderi
+    hu: Flandria
+    is: Flæmingjaland
+    id: Flandria
+    ro: Flandra
+    he: פלנדריה
+    hr: Flandrija
+    eu: Flandria
+    pt: Flandres
+    sl: Flanders
+    kk: Фландрия
+    yue: 法蘭德斯
+    az: Flandriya
+    nb: Flandern
+    bs: Flandrija
+    mk: Фламански регион
+    ne: फ्लेमिस क्षेत्र
+    'no': Flandern
+  comments:
+  type: region
 VLI:
   name: Limburg (nl)
   code: VLI
@@ -320,6 +400,7 @@ VLI:
     mk: Лимбург
     'no': Limburg
   comments:
+  type: province
 VOV:
   name: Oost-Vlaanderen (nl)
   code: VOV
@@ -396,6 +477,7 @@ VOV:
     mk: Источна Фландрија
     'no': Øst-Flandern
   comments:
+  type: province
 VWV:
   name: West-Vlaanderen (nl)
   code: VWV
@@ -473,6 +555,82 @@ VWV:
     mk: Западна Фландрија
     'no': Vest-Flandern
   comments:
+  type: province
+WAL:
+  name: Wallonië
+  code: WAL
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    af: Wallonië
+    ar: والونيا
+    be: Валонія
+    bg: Валония
+    ca: Valònia
+    cs: Valonsko
+    da: Vallonien
+    de: Wallonien
+    el: Βαλλωνία
+    en: Wallonia
+    es: Valonia
+    et: Valloonia
+    eu: Valonia
+    fa: والونیا
+    fi: Vallonia
+    fr: Wallonie
+    gl: Valonia
+    he: ולוניה
+    hr: Valonija
+    hu: Vallónia
+    hy: Վալոնիա
+    id: Walonia
+    is: Vallónía
+    it: Vallonia
+    ja: ワロン地域
+    ka: ვალონია
+    ko: 왈롱
+    lt: Valonija
+    lv: Valonija
+    mr: वालोनी
+    ms: Walonia
+    nb: Vallonia
+    ne: वालुन क्षेत्र
+    nl: Wallonië
+    pl: Walonia
+    pt: Valônia
+    ro: Valonia
+    ru: Валлония
+    sk: Valónsko
+    sl: Valonija
+    sr: Валонија
+    sv: Vallonien
+    sw: Wallonia
+    ta: வால்லொனியா
+    th: เขตวัลลูน
+    tr: Valonya
+    uk: Валлонія
+    ur: والونیا
+    vi: Wallonie
+    cy: Walonia
+    ceb: Wallonia
+    sr_Latn: Valonija
+    zh: 瓦隆
+    yue_Hans: 华隆
+    hi: वालोनिया
+    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112E\U0001111A\U00011128\U00011120"
+    ga: An Vallóin
+    yue: 華隆
+    bs: Valonija
+    mk: Валонија
+    'no': Vallonia
+  comments:
+  type: region
 WBR:
   name: Brabant Wallon (fr)
   code: WBR
@@ -549,6 +707,7 @@ WBR:
     az: Vallonskiy Brabant
     'no': Vallonsk Brabant
   comments:
+  type: province
 WHT:
   name: Hainaut (fr)
   code: WHT
@@ -624,6 +783,7 @@ WHT:
     mk: Ено
     'no': Hainaut
   comments:
+  type: province
 WLG:
   name: Liège (fr)
   code: WLG
@@ -699,6 +859,7 @@ WLG:
     mk: Лиеж
     'no': Liège
   comments:
+  type: province
 WLX:
   name: Luxembourg (fr)
   code: WLX
@@ -773,6 +934,7 @@ WLX:
     mk: Луксембург
     'no': Luxembourg
   comments:
+  type: province
 WNA:
   name: Namur (fr)
   code: WNA
@@ -844,153 +1006,4 @@ WNA:
     az: Namyur
     'no': Namur
   comments:
-WAL:
-  name: Wallonië
-  code: WAL
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    af: Wallonië
-    ar: والونيا
-    be: Валонія
-    bg: Валония
-    ca: Valònia
-    cs: Valonsko
-    da: Vallonien
-    de: Wallonien
-    el: Βαλλωνία
-    en: Wallonia
-    es: Valonia
-    et: Valloonia
-    eu: Valonia
-    fa: والونیا
-    fi: Vallonia
-    fr: Wallonie
-    gl: Valonia
-    he: ולוניה
-    hr: Valonija
-    hu: Vallónia
-    hy: Վալոնիա
-    id: Walonia
-    is: Vallónía
-    it: Vallonia
-    ja: ワロン地域
-    ka: ვალონია
-    ko: 왈롱
-    lt: Valonija
-    lv: Valonija
-    mr: वालोनी
-    ms: Walonia
-    nb: Vallonia
-    ne: वालुन क्षेत्र
-    nl: Wallonië
-    pl: Walonia
-    pt: Valônia
-    ro: Valonia
-    ru: Валлония
-    sk: Valónsko
-    sl: Valonija
-    sr: Валонија
-    sv: Vallonien
-    sw: Wallonia
-    ta: வால்லொனியா
-    th: เขตวัลลูน
-    tr: Valonya
-    uk: Валлонія
-    ur: والونیا
-    vi: Wallonie
-    cy: Walonia
-    ceb: Wallonia
-    sr_Latn: Valonija
-    zh: 瓦隆
-    yue_Hans: 华隆
-    hi: वालोनिया
-    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112E\U0001111A\U00011128\U00011120"
-    ga: An Vallóin
-    yue: 華隆
-    bs: Valonija
-    mk: Валонија
-    'no': Vallonia
-  comments:
-VLG:
-  name: Vlaams Gewest
-  code: VLG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: الإقليم الفلامندي
-    be: Фламандскі рэгіён
-    bg: Фламандски регион
-    ca: regió Flamenca
-    cs: Vlámský region
-    de: Flandern
-    el: Φλαμανδική Περιοχή
-    en: Flanders
-    es: Región Flamenca
-    et: Flandria
-    fr: Région flamande
-    hi: फ्लेमिश क्षेत्र
-    hy: Ֆլանդրիա
-    it: Fiandre
-    ja: フランデレン地域
-    ka: ფლანდრია
-    ko: 플라망 지역
-    lt: Flandrija
-    nl: Vlaams Gewest
-    pl: Region Flamandzki
-    ru: Фламандский регион
-    sk: Flámsky región
-    th: เขตฟลามส์
-    tr: Flaman Bölgesi
-    uk: Фламандській регіон
-    ur: فلیمش علاقہ
-    vi: Vùng Flemish
-    lv: Flandrija
-    mr: फ्लांडर्स
-    cy: Fflandrys
-    af: Vlaandere
-    ceb: Flanders
-    ms: Flanders
-    sr_Latn: Flandrija
-    ta: பிலான்டர்ஸ்
-    zh: 弗拉芒大區
-    fa: منطقه فلمیش
-    sw: Flandria
-    yue_Hans: 法兰德斯
-    sv: Flandern
-    ccp: "\U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
-    sr: Фландрија
-    ga: Flóndras
-    gl: Flandres - Vlaanderen
-    da: Flandern
-    fi: Flanderi
-    hu: Flandria
-    is: Flæmingjaland
-    id: Flandria
-    ro: Flandra
-    he: פלנדריה
-    hr: Flandrija
-    eu: Flandria
-    pt: Flandres
-    sl: Flanders
-    kk: Фландрия
-    yue: 法蘭德斯
-    az: Flandriya
-    nb: Flandern
-    bs: Flandrija
-    mk: Фламански регион
-    ne: फ्लेमिस क्षेत्र
-    'no': Flandern
-  comments:
+  type: province

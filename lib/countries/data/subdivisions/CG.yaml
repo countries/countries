@@ -54,6 +54,7 @@
     uk: Регіон Буенза
     'no': Bouenza
   comments:
+  type: department
 '12':
   name: Pool
   code: '12'
@@ -109,6 +110,7 @@
     uk: Регіон Пул
     'no': Pool
   comments:
+  type: department
 '13':
   name: Sangha
   code: '13'
@@ -163,6 +165,7 @@
     uk: Регіон Санга
     'no': Sangha
   comments:
+  type: department
 '14':
   name: Plateaux
   code: '14'
@@ -219,6 +222,7 @@
     yue: 高原省
     'no': Plateaux
   comments:
+  type: department
 '15':
   name: Cuvette-Ouest
   code: '15'
@@ -275,6 +279,25 @@
     uk: Регіон Західний Кювет
     'no': Cuvette-Ouest
   comments:
+  type: department
+'16':
+  name: Pointe-Noire
+  code: '16'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    en: Pointe-Noire
+    ceb: Pointe-Noire (distrito)
+    sv: Pointe-Noire
+    ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011133\U00011111\U00011134-\U0001111A\U00011127\U00011120\U00011128\U00011122\U00011134"
+  comments:
+  type: department
 '2':
   name: Lékoumou
   code: '2'
@@ -331,6 +354,7 @@
     yue: 萊庫穆省
     'no': Lékoumou
   comments:
+  type: department
 '5':
   name: Kouilou
   code: '5'
@@ -385,6 +409,7 @@
     uk: Куілу
     'no': Kouilou
   comments:
+  type: department
 '7':
   name: Likouala
   code: '7'
@@ -440,6 +465,7 @@
     uk: Регіон Лікуала
     'no': Likouala
   comments:
+  type: department
 '8':
   name: Cuvette
   code: '8'
@@ -496,6 +522,7 @@
     yue: 盆地省
     'no': Cuvette
   comments:
+  type: department
 '9':
   name: Niari
   code: '9'
@@ -552,6 +579,7 @@
     yue: 尼阿里省
     'no': Niari
   comments:
+  type: department
 BZV:
   name: Brazzaville
   code: BZV
@@ -646,20 +674,4 @@ BZV:
     'no': Brazzaville
     yo_BJ: Brazzaville
   comments:
-'16':
-  name: Pointe-Noire
-  code: '16'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Pointe-Noire
-    ceb: Pointe-Noire (distrito)
-    sv: Pointe-Noire
-    ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011133\U00011111\U00011134-\U0001111A\U00011127\U00011120\U00011128\U00011122\U00011134"
-  comments:
+  type: department

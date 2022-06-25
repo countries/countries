@@ -55,6 +55,7 @@ E:
     uk: Східна провінція
     'no': Eastern
   comments:
+  type: province
 N:
   name: Northern
   code: N
@@ -111,6 +112,22 @@ N:
     hr: Sjeverna provincija
     'no': Northern
   comments:
+  type: province
+NW:
+  name: North Western
+  code: NW
+  unofficial_names:
+  geo:
+    latitude: 8.460555
+    longitude: -11.779889
+    min_latitude: 6.8446
+    min_longitude: -13.4032999
+    max_latitude: 9.9999737
+    max_longitude: -10.2716829
+  translations:
+    en: North Western
+  comments:
+  type: province
 S:
   name: Southern
   code: S
@@ -167,6 +184,7 @@ S:
     uk: Південна провінція
     'no': Southern
   comments:
+  type: province
 W:
   name: Western Area (Freetown)
   code: W
@@ -224,17 +242,4 @@ W:
     uk: Західний регіон
     'no': Western
   comments:
-NW:
-  name: North Western
-  code: NW
-  unofficial_names:
-  geo:
-    latitude: 8.460555
-    longitude: -11.779889
-    min_latitude: 6.8446
-    min_longitude: -13.4032999
-    max_latitude: 9.9999737
-    max_longitude: -10.2716829
-  translations:
-    en: North Western
-  comments:
+  type: area

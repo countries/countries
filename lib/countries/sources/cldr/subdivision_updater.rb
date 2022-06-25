@@ -19,7 +19,7 @@ module Sources
         language_data = Nokogiri::XML(File.read(file_path))
         language_code = File.basename(file_path, '.*')
         subdivisions = language_data.css('subdivision')
-        next if subdivisions.empty?
+        return if subdivisions.empty?
 
         last_country_code_seen = nil
 

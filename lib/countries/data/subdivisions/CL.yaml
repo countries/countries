@@ -66,6 +66,7 @@ AI:
     yue: 艾森大區
     'no': Aisén
   comments:
+  type: region
 AN:
   name: Antofagasta
   code: AN
@@ -132,6 +133,58 @@ AN:
     be: вобласць Антафагаста
     'no': Antofagasta
   comments:
+  type: region
+AP:
+  name: Arica y Parinacota
+  code: AP
+  unofficial_names: Arica y Parinacota
+  geo:
+    latitude: -18.5940485
+    longitude: -69.4784541
+    min_latitude: -19.2302791
+    min_longitude: -70.37963309999999
+    max_latitude: -17.5008571
+    max_longitude: -68.9160989
+  translations:
+    en: Arica y Parinacota
+    ar: إقليم أريكا وبارينكوتا
+    bg: Арика и Паринакота
+    ca: Regió d’Arica i Parinacota
+    cs: Region Arica y Parinacota
+    da: Arica og Parinacota-regionen
+    de: Región de Arica y Parinacota
+    es: Región de Arica y Parinacota
+    et: Arica y Parinacota
+    eu: Arica eta Parinacota eskualdea
+    fa: منطقه آریکا و پاریناکوتا
+    fi: Arica-Parinacota
+    fr: Région d’Arica et Parinacota
+    gl: Rexión de Arica e Parinacota
+    hr: XV. regija Arica i Parinacota
+    hy: Արիկա և Պարինակոտա
+    it: regione di Arica e Parinacota
+    ja: アリカ・イ・パリナコータ州
+    ka: არიკა და პარინაკოტა
+    ko: 아리카 이 파리나코타 주
+    lt: Arikos ir Parinakotos regionas
+    nb: Arica y Parinacota
+    nl: Arica y Parinacota
+    pl: Arica y Parinacota
+    pt: Região de Arica e Parinacota
+    ro: Regiunea Arica și Parinacota
+    ru: Арика-и-Паринакота
+    sk: Arica y Parinacota
+    sv: Región de Arica y Parinacota
+    sw: Mkoa wa Arica na Parinacota
+    tr: Arica ve Parinacota bölgesi
+    vi: Arica và Parinacota
+    ceb: Región de Arica y Parinacota
+    zh: 阿里卡和帕里纳科塔大区
+    ccp: "\U00011103\U00011122\U00011128\U00011107 \U00011124\U00011120\U0001112D
+      \U0001111B\U00011122\U00011128\U0001111A\U00011107\U0001112E\U00011111"
+    'no': Arica y Parinacota
+  comments:
+  type: region
 AR:
   name: Araucanía
   code: AR
@@ -198,56 +251,7 @@ AR:
     ccp: "\U00011103\U00011122\U00011105\U0001112A\U00011107\U0001111A\U00011128\U00011120"
     'no': Araucanía
   comments:
-AP:
-  name: Arica y Parinacota
-  code: AP
-  unofficial_names: Arica y Parinacota
-  geo:
-    latitude: -18.5940485
-    longitude: -69.4784541
-    min_latitude: -19.2302791
-    min_longitude: -70.37963309999999
-    max_latitude: -17.5008571
-    max_longitude: -68.9160989
-  translations:
-    en: Arica y Parinacota
-    ar: إقليم أريكا وبارينكوتا
-    bg: Арика и Паринакота
-    ca: Regió d’Arica i Parinacota
-    cs: Region Arica y Parinacota
-    da: Arica og Parinacota-regionen
-    de: Región de Arica y Parinacota
-    es: Región de Arica y Parinacota
-    et: Arica y Parinacota
-    eu: Arica eta Parinacota eskualdea
-    fa: منطقه آریکا و پاریناکوتا
-    fi: Arica-Parinacota
-    fr: Région d’Arica et Parinacota
-    gl: Rexión de Arica e Parinacota
-    hr: XV. regija Arica i Parinacota
-    hy: Արիկա և Պարինակոտա
-    it: regione di Arica e Parinacota
-    ja: アリカ・イ・パリナコータ州
-    ka: არიკა და პარინაკოტა
-    ko: 아리카 이 파리나코타 주
-    lt: Arikos ir Parinakotos regionas
-    nb: Arica y Parinacota
-    nl: Arica y Parinacota
-    pl: Arica y Parinacota
-    pt: Região de Arica e Parinacota
-    ro: Regiunea Arica și Parinacota
-    ru: Арика-и-Паринакота
-    sk: Arica y Parinacota
-    sv: Región de Arica y Parinacota
-    sw: Mkoa wa Arica na Parinacota
-    tr: Arica ve Parinacota bölgesi
-    vi: Arica và Parinacota
-    ceb: Región de Arica y Parinacota
-    zh: 阿里卡和帕里纳科塔大区
-    ccp: "\U00011103\U00011122\U00011128\U00011107 \U00011124\U00011120\U0001112D
-      \U0001111B\U00011122\U00011128\U0001111A\U00011107\U0001112E\U00011111"
-    'no': Arica y Parinacota
-  comments:
+  type: region
 AT:
   name: Atacama
   code: AT
@@ -310,6 +314,7 @@ AT:
     ccp: "\U00011103\U00011111\U00011107\U0001111F"
     'no': Atacama
   comments:
+  type: region
 BI:
   name: Bío-Bío
   code: BI
@@ -383,6 +388,7 @@ BI:
     mk: Биобио
     'no': Biobío
   comments:
+  type: region
 CO:
   name: Coquimbo
   code: CO
@@ -446,6 +452,7 @@ CO:
     mk: Кокимбо
     'no': Coquimbo
   comments:
+  type: region
 LI:
   name: Libertador General Bernardo O'Higgins
   code: LI
@@ -508,6 +515,7 @@ LI:
       \U00011103\U0001112E‘\U00011126\U0001112D\U0001110E\U00011128\U0001111A\U00011134\U00011125\U00011134"
     'no': O’Higgins
   comments:
+  type: region
 LL:
   name: Los Lagos
   code: LL
@@ -573,6 +581,7 @@ LL:
     ccp: "\U00011123\U00011127\U0001110C\U00011134 \U00011123\U00011109\U0001112E\U0001110C\U00011134"
     'no': Los Lagos
   comments:
+  type: region
 LR:
   name: Los Ríos
   code: LR
@@ -639,6 +648,7 @@ LR:
     ccp: "\U00011123\U00011127\U0001110C\U00011134 \U00011122\U00011128\U00011120\U0001112E\U0001110C\U00011134"
     'no': Los Ríos
   comments:
+  type: region
 MA:
   name: Magallanes
   code: MA
@@ -706,6 +716,7 @@ MA:
     be: Магальянес і Чылійская Антарктыка
     'no': Magallanes y de la Antártica Chilena
   comments:
+  type: region
 ML:
   name: Maule
   code: ML
@@ -771,6 +782,7 @@ ML:
     he: מאולה
     'no': Maule
   comments:
+  type: region
 NB:
   name: Región de Ñuble
   code: NB
@@ -811,6 +823,7 @@ NB:
     tr: Ñuble bölgesi
     'no': Ñuble
   comments:
+  type: region
 RM:
   name: Región Metropolitana de Santiago
   code: RM
@@ -877,6 +890,7 @@ RM:
     az: Santyaqo Metropolitan bölgəsi
     'no': Región Metropolitana de Santiago
   comments:
+  type: region
 TA:
   name: Tarapacá
   code: TA
@@ -942,6 +956,7 @@ TA:
     mk: Тарапака
     'no': Tarapacá
   comments:
+  type: region
 VS:
   name: Valparaíso
   code: VS
@@ -1006,3 +1021,4 @@ VS:
     ccp: "\U0001111E\U00011127\U00011123\U00011134\U0001111B\U00011122\U0001112D\U00011125\U0001112E"
     'no': Valparaíso
   comments:
+  type: region

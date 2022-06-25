@@ -24,3 +24,16 @@ With the addition of the new name attributes, there are now also the following f
 For translated country names, we use data originally sourced from [pkg-isocodes](https://salsa.debian.org/iso-codes-team/iso-codes), via the [i18n_data](https://github.com/grosser/i18n_data) gem, and these generally correspond to the expected "common names". Some corrections have been applied to these localized names. The methods to access translated names have not been changed.
 
 The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-03-31)
+
+# Upgrading to 5.1
+
+In release 5.1 a `type` attribute was added to the subdivisions object, to allow filtering the collection of subdivisions.
+
+- `Country#subdivision_types` returns a list of subdivision types for that country (lowercase, snake_cased)
+- `#subdivisions_of_types(types)` accepts an array of subdivision types and returns the subdivisions for those types
+
+The `#states` method is deprecated to avoid confusion, as this method is an alias to `#subdivisions` and returns all subdivisions, regardless of type.
+
+To get a list of `state` subdivisions (something that was not possible before 5.1), use `subdivisions_of_types(['state'])`
+
+Please note that the subdivision types are obtained from ISO data, and each country defines its own subdivision types, eg: `state`, `district`, `region`, `municipality` and many others types exist.

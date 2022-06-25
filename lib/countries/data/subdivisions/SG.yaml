@@ -1,7 +1,7 @@
 ---
-SG-01:
+'01':
   name: Central Singapore
-  code: SG-01
+  code: '01'
   unofficial_names: Central Singapore
   geo:
     latitude: 1.3418329
@@ -23,9 +23,10 @@ SG-01:
       \U00011125\U00011128\U00011101\U00011109\U0001111B\U0001112A\U00011122\U00011134"
     fr: Singapour central
   comments:
-SG-02:
+  type: district
+'02':
   name: North East
-  code: SG-02
+  code: '02'
   unofficial_names: North East
   geo:
     latitude: 1.352083
@@ -48,9 +49,10 @@ SG-02:
       \U0001111B\U0001112A\U00011107\U00011134"
     fr: District du Nord-Est
   comments:
-SG-03:
+  type: district
+'03':
   name: North West
-  code: SG-03
+  code: '03'
   unofficial_names: North West
   geo:
     latitude: 1.3537604
@@ -71,9 +73,10 @@ SG-03:
       \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     fr: District du Nord-Ouest
   comments:
-SG-04:
+  type: district
+'04':
   name: South East
-  code: SG-04
+  code: '04'
   unofficial_names: South East
   geo:
     latitude: 1.352083
@@ -94,9 +97,10 @@ SG-04:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
     fr: District du Sud-Est
   comments:
-SG-05:
+  type: district
+'05':
   name: South West
-  code: SG-05
+  code: '05'
   unofficial_names: South West
   geo:
     latitude: 1.352083
@@ -117,3 +121,4 @@ SG-05:
     ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     fr: District du Sud-Ouest
   comments:
+  type: district

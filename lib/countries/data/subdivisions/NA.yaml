@@ -61,6 +61,7 @@ CA:
     pa: ਕੈਪ੍ਰੀਵੀ
     'no': Caprivi
   comments:
+  type: region
 ER:
   name: Erongo
   code: ER
@@ -123,6 +124,7 @@ ER:
     cs: Erongo
     'no': Erongo
   comments:
+  type: region
 HA:
   name: Hardap
   code: HA
@@ -183,6 +185,7 @@ HA:
     ccp: "\U00011126\U00011122\U00011134\U00011113\U0001111B\U00011134"
     'no': Hardap
   comments:
+  type: region
 KA:
   name: Karas
   code: KA
@@ -243,6 +246,7 @@ KA:
     ccp: "\U00011107\U00011122\U0001110C\U00011134"
     'no': Karas
   comments:
+  type: region
 KE:
   name: Kavango East
   code: KE
@@ -275,37 +279,7 @@ KE:
     fa: کاوانگو شرقی
     ccp: "\U00011107\U0001111E\U0001111A\U00011134\U00011109\U0001112E \U0001111B\U00011107\U00011134"
   comments:
-KW:
-  name: Kavango West
-  code: KW
-  unofficial_names: Kavango West
-  geo:
-    latitude: -18.271048
-    longitude: 18.4276047
-    min_latitude: -19.1762981
-    min_longitude: 17.995449
-    max_latitude: -17.393156
-    max_longitude: 22.522122
-  translations:
-    en: Kavango West
-    af: Kawango-Wes
-    de: Kavango-West
-    es: Kavango del Oeste
-    fr: Kavango West
-    it: Regione del Kavango Occidentale
-    ja: 西カバンゴ州
-    ka: დასავლეთი კავანგო
-    ko: 서카방고 주
-    nl: Kavango West
-    pl: Okawango Zachodnie
-    pt: Kavango Ocidental
-    ru: Западное Каванго
-    uk: Західне Каванго
-    ur: کاوانگو غربی
-    ceb: Kavango West Region
-    fa: کاوانگو غربی
-    ccp: "\U00011107\U0001111E\U00011127\U0001111A\U00011134\U00011109\U0001112E \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
-  comments:
+  type: region
 KH:
   name: Khomas
   code: KH
@@ -365,6 +339,7 @@ KH:
     ccp: "\U00011108\U0001112E\U0001111F\U0001110C\U00011134"
     'no': Khomas
   comments:
+  type: region
 KU:
   name: Kunene
   code: KU
@@ -425,6 +400,39 @@ KU:
     ccp: "\U00011107\U0001112A\U0001111A\U0001112C\U0001111A\U00011134"
     'no': Kunene
   comments:
+  type: region
+KW:
+  name: Kavango West
+  code: KW
+  unofficial_names: Kavango West
+  geo:
+    latitude: -18.271048
+    longitude: 18.4276047
+    min_latitude: -19.1762981
+    min_longitude: 17.995449
+    max_latitude: -17.393156
+    max_longitude: 22.522122
+  translations:
+    en: Kavango West
+    af: Kawango-Wes
+    de: Kavango-West
+    es: Kavango del Oeste
+    fr: Kavango West
+    it: Regione del Kavango Occidentale
+    ja: 西カバンゴ州
+    ka: დასავლეთი კავანგო
+    ko: 서카방고 주
+    nl: Kavango West
+    pl: Okawango Zachodnie
+    pt: Kavango Ocidental
+    ru: Западное Каванго
+    uk: Західне Каванго
+    ur: کاوانگو غربی
+    ceb: Kavango West Region
+    fa: کاوانگو غربی
+    ccp: "\U00011107\U0001111E\U00011127\U0001111A\U00011134\U00011109\U0001112E \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+  comments:
+  type: region
 OD:
   name: Otjozondjupa
   code: OD
@@ -484,6 +492,7 @@ OD:
     ccp: "\U00011103\U00011127\U00011116\U00011134\U0001110E\U0001112E\U0001110E\U0001112E\U0001111A\U00011133\U00011113\U00011134\U0001110E\U0001112A\U0001111B"
     'no': Otjozondjupa
   comments:
+  type: region
 OH:
   name: Omaheke
   code: OH
@@ -529,6 +538,7 @@ OH:
     ccp: "\U00011103\U00011127\U0001111F\U00011126\U0001112C\U00011107\U0001112C"
     'no': Omaheke
   comments:
+  type: region
 'ON':
   name: Oshana
   code: 'ON'
@@ -586,6 +596,7 @@ OH:
     ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011126\U0001111A"
     'no': Oshana
   comments:
+  type: region
 OS:
   name: Omusati
   code: OS
@@ -647,6 +658,7 @@ OS:
     ca: Omusati
     'no': Omusati
   comments:
+  type: region
 OT:
   name: Oshikoto
   code: OT
@@ -705,6 +717,7 @@ OT:
     ccp: "\U00011103\U00011127\U00011125\U00011128\U00011107\U0001112E\U00011111\U0001112E"
     'no': Oshikoto
   comments:
+  type: region
 OW:
   name: Ohangwena
   code: OW
@@ -764,3 +777,4 @@ OW:
     ccp: "\U00011103\U00011127\U00011126\U0001110B\U00011134\U00011120\U0001112C\U0001111A"
     'no': Ohangwena
   comments:
+  type: region

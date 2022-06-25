@@ -59,6 +59,40 @@
       \U00011111\U0001112E\U00011122\U0001112E"
     'no': Bocas del Toro
   comments:
+  type: province
+'10':
+  name: Panamá Oeste
+  code: '10'
+  unofficial_names: Panamá Oeste
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    cs: Západní Panama
+    de: Provinz Panamá Oeste
+    en: West Panamá
+    es: Provincia de Panamá Oeste
+    fr: Panama Ouest
+    ja: 西パナマ県
+    ko: 서파나마 주
+    lv: Rietumpanama
+    nl: Panama Oeste
+    pl: Panama Zachodnia
+    ru: Западная Панама
+    ur: پاناما غربی صوبہ
+    zh: 西巴拿馬省
+    fa: استان پاناما اوسته
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111B\U0001111A\U0001111F"
+    hy: Արևմտյան Պանամա
+    eu: Mendebaldeko Panama
+    uk: Західна Панама
+    bg: Панама Оесте
+  comments:
+  type: province
 '2':
   name: Coclé
   code: '2'
@@ -117,6 +151,7 @@
     ccp: "\U00011107\U0001112E\U00011107\U00011134\U00011123\U0001112C"
     'no': Cocle provins
   comments:
+  type: province
 '3':
   name: Colón
   code: '3'
@@ -177,6 +212,7 @@
     be: Калон
     'no': Colon provins
   comments:
+  type: province
 '4':
   name: Chiriquí
   code: '4'
@@ -235,6 +271,7 @@
     ccp: "\U00011125\U00011128\U00011122\U00011128\U00011107\U0001112D\U0001112A"
     'no': Chiriqui Prrvins
   comments:
+  type: province
 '5':
   name: Darién
   code: '5'
@@ -295,6 +332,7 @@
     ccp: "\U00011113\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134"
     'no': Darien provins
   comments:
+  type: province
 '6':
   name: Herrera
   code: '6'
@@ -353,6 +391,7 @@
     ccp: "\U00011126\U0001112C\U00011122\U00011122"
     'no': Herrera Kommune
   comments:
+  type: province
 '7':
   name: Los Santos
   code: '7'
@@ -411,6 +450,7 @@
     ccp: "\U00011123\U00011127\U0001110C\U00011134 \U00011125\U0001111A\U00011134\U00011111\U0001112E\U0001110C\U00011134"
     'no': Los Santos Provins
   comments:
+  type: province
 '8':
   name: Panamá
   code: '8'
@@ -459,6 +499,7 @@
     th: จังหวัดปานามา
     'no': Panamá
   comments:
+  type: province
 '9':
   name: Veraguas
   code: '9'
@@ -518,38 +559,7 @@
     eu: Veraguas
     'no': Veraguas provins
   comments:
-'10':
-  name: Panamá Oeste
-  code: '10'
-  unofficial_names: Panamá Oeste
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    cs: Západní Panama
-    de: Provinz Panamá Oeste
-    en: West Panamá
-    es: Provincia de Panamá Oeste
-    fr: Panama Ouest
-    ja: 西パナマ県
-    ko: 서파나마 주
-    lv: Rietumpanama
-    nl: Panama Oeste
-    pl: Panama Zachodnia
-    ru: Западная Панама
-    ur: پاناما غربی صوبہ
-    zh: 西巴拿馬省
-    fa: استان پاناما اوسته
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111B\U0001111A\U0001111F"
-    hy: Արևմտյան Պանամա
-    eu: Mendebaldeko Panama
-    uk: Західна Панама
-    bg: Панама Оесте
-  comments:
+  type: province
 EM:
   name: Emberá-Wounaan
   code: EM
@@ -608,6 +618,7 @@ EM:
     eu: Emberá-Wounaan
     'no': Embera Wounaan Comarca
   comments:
+  type: indigenous_region
 KY:
   name: Guna Yala
   code: KY
@@ -667,6 +678,7 @@ KY:
     eu: Guna Yala
     'no': Kuna Yala
   comments:
+  type: indigenous_region
 NB:
   name: Ngäbe-Buglé
   code: NB
@@ -725,3 +737,4 @@ NB:
     eu: Ngäbe-Buglé
     'no': Ngobe-Bugle Comarca
   comments:
+  type: indigenous_region

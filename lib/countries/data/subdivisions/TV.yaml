@@ -74,6 +74,7 @@ FUN:
     mk: Фунафути
     'no': Funafuti
   comments:
+  type: town_council
 NIT:
   name: Niutao
   code: NIT
@@ -118,20 +119,7 @@ NIT:
     mk: Ниутао
     'no': Niutao
   comments:
-NIU:
-  name: Nui
-  code: NIU
-  unofficial_names: Nui
-  geo:
-    latitude: -7.2426288
-    longitude: 177.1485716
-    min_latitude: -7.246044599999999
-    min_longitude: 177.1461329
-    max_latitude: -7.1889099
-    max_longitude: 177.16564
-  translations:
-    en: Nui
-  comments:
+  type: island_council
 NKF:
   name: Nukufetau
   code: NKF
@@ -175,6 +163,7 @@ NKF:
     mk: Нукуфетау
     'no': Nukufetau
   comments:
+  type: island_council
 NKL:
   name: Nukulaelae
   code: NKL
@@ -222,6 +211,7 @@ NKL:
     mk: Нукулаелае
     'no': Nukulaelae
   comments:
+  type: island_council
 NMA:
   name: Nanumea
   code: NMA
@@ -269,6 +259,7 @@ NMA:
     mk: Нанумеја
     'no': Nanumea
   comments:
+  type: island_council
 NMG:
   name: Nanumanga
   code: NMG
@@ -313,6 +304,50 @@ NMG:
     mk: Нануманга
     'no': Nanumanga
   comments:
+  type: island_council
+NUI:
+  name: Nui
+  code: NUI
+  unofficial_names:
+  geo:
+    latitude: -7.2426288
+    longitude: 177.1485716
+    min_latitude: -7.246044599999999
+    min_longitude: 177.1461329
+    max_latitude: -7.1889099
+    max_longitude: 177.16564
+  translations:
+    be: Атол Нуі
+    ca: Nui
+    cs: Nui
+    de: Nui
+    en: Nui
+    es: Nui
+    fa: نوئی (آب‌سنگ حلقوی)
+    fi: Nui
+    fr: Nui
+    gl: Nui
+    hu: Nui
+    it: Nui
+    ja: ヌイ環礁
+    ka: ნუი
+    ko: 누이 환초
+    lt: Nui
+    nb: Nui
+    nl: Nui
+    pl: Nui
+    pt: Nui
+    ro: Nui
+    ru: Нуи
+    sk: Nui
+    sv: Nui
+    ur: نوئی
+    zh: 努伊環礁
+    ccp: "\U0001111A\U0001112D\U0001112A"
+    mk: Нуи
+    'no': Nui
+  comments:
+  type: island_council
 VAI:
   name: Vaitupu
   code: VAI
@@ -357,45 +392,4 @@ VAI:
     mk: Ваитупу
     'no': Vaitupu
   comments:
-NUI:
-  name: Nui
-  code: NUI
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Атол Нуі
-    ca: Nui
-    cs: Nui
-    de: Nui
-    en: Nui
-    es: Nui
-    fa: نوئی (آب‌سنگ حلقوی)
-    fi: Nui
-    fr: Nui
-    gl: Nui
-    hu: Nui
-    it: Nui
-    ja: ヌイ環礁
-    ka: ნუი
-    ko: 누이 환초
-    lt: Nui
-    nb: Nui
-    nl: Nui
-    pl: Nui
-    pt: Nui
-    ro: Nui
-    ru: Нуи
-    sk: Nui
-    sv: Nui
-    ur: نوئی
-    zh: 努伊環礁
-    ccp: "\U0001111A\U0001112D\U0001112A"
-    mk: Нуи
-    'no': Nui
-  comments:
+  type: island_council

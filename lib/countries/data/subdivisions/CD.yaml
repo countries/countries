@@ -64,21 +64,47 @@ BC:
     mk: Долно Конго
     'no': Bas-Congo
   comments:
-BN:
-  name: Bandundu
-  code: BN
-  unofficial_names: Bandundu
+  type: province
+BU:
+  name: Bas-Uele
+  code: BU
+  unofficial_names:
   geo:
-    latitude: -3.316667
-    longitude: 17.366667
-    min_latitude: -3.3406136
-    min_longitude: 17.3576054
-    max_latitude: -3.2987836
-    max_longitude: 17.4044975
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
-    en: Bandundu
-    ccp: "\U0001111D\U0001111A\U00011134\U00011118\U0001112A\U0001111A\U00011134\U00011113\U0001112A"
+    be: Правінцыя Ніжняе Уэле
+    bg: Ба Уеле
+    de: Bas-Uele
+    en: Bas-Uélé
+    es: Bajo Uele
+    fi: Ala-Uele
+    fr: Bas-Uele
+    hu: Alsó-Uele tartomány
+    it: Provincia del Basso Uele
+    ja: 低ウエレ州
+    ka: ქვემო უელე
+    ko: 바스우엘레 주
+    nb: Bas-Uele
+    nl: Bas-Uele
+    pl: Dolne Uele
+    pt: Bas-Uele
+    ro: Provincia Bas-Uele
+    ru: Нижнее Уэле
+    sv: Bas-Uele
+    sw: Mkoa wa Wele Chini
+    uk: Нижнє Уеле
+    ceb: Bas Uele
+    zh: 下韦莱省
+    ccp: "\U0001111D\U0001110C\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
+    he: מחוז אואלה תחתית
+    'no': Bas-Uele
   comments:
+  type: province
 EQ:
   name: Équateur
   code: EQ
@@ -137,22 +163,185 @@ EQ:
     uk: Екватор (Екваторіальна провінція)
     'no': Équateur (provins)
   comments:
-KA:
-  name: Katanga
-  code: KA
+  type: province
+HK:
+  name: Haut-Katanga
+  code: HK
   unofficial_names:
-  - Shaba
   geo:
-    latitude: -8.8851145
-    longitude: 26.419389
-    min_latitude: -13.455676
-    min_longitude: 21.744753
-    max_latitude: -4.999066
-    max_longitude: 30.5928848
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
-    en: Katanga
-    ccp: "\U00011107\U00011111\U0001110B\U00011134\U00011109"
+    be: Правінцыя Верхняя Катанга
+    bg: О Катанга
+    ca: Província d’Alt Katanga
+    de: Haut-Katanga
+    en: Haut-Katanga
+    es: Alto Katanga
+    fi: Ylä-Katanga
+    fr: Haut-Katanga
+    hu: Felső-Katanga tartomány
+    it: Provincia dell’Alto Katanga
+    ja: 上カタンガ州
+    ka: ზემო კატანგის პროვინცია
+    ko: 오트카탕가 주
+    nb: Haut-Katanga
+    nl: Haut-Katanga
+    pl: Górna Katanga
+    pt: Haut-Katanga
+    ro: Provincia Haut-Katanga
+    ru: Верхняя Катанга
+    sv: Haut-Katanga
+    sw: Mkoa wa Katanga Juu
+    uk: Верхня Катанга
+    ceb: Haut Katanga
+    zh: 上加丹加省
+    ccp: "\U00011126\U00011116\U00011134-\U00011107\U00011111\U00011101\U00011109"
+    hy: Վերին Կատանգա
+    'no': Haut-Katanga
   comments:
+  type: province
+HL:
+  name: Haut-Lomami
+  code: HL
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Верхняе Ламамі
+    bg: О Ломами
+    de: Haut-Lomami
+    en: Haut-Lomami
+    es: Alto Lomami
+    fi: Ylä-Lomami
+    fr: Haut-Lomami
+    hu: Felső-Lomami tartomány
+    it: Provincia dell’Alto Lomami
+    ja: 上ロマミ州
+    ka: ზემო ლომამის პროვინცია
+    ko: 오트로마미 주
+    nb: Haut-Lomami
+    nl: Haut-Lomami
+    pl: Górne Lomami
+    pt: Haut-Lomami
+    ro: Provincia Haut-Lomami
+    ru: Верхнее Ломами
+    sv: Haut-Lomami
+    sw: Mkoa wa Lomami Juu
+    uk: Верхнє Ломамі
+    ceb: Haut Lomami
+    zh: 上洛马米省
+    ccp: "\U00011126\U00011116\U00011134-\U00011123\U00011127\U0001111F\U0001111F\U00011128"
+    hy: Վերին Լոմամի
+    'no': Haut-Lomami
+  comments:
+  type: province
+HU:
+  name: Haut-Uele
+  code: HU
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Верхняе Уэле
+    bg: О Уеле
+    de: Haut-Uele
+    en: Haut-Uélé
+    es: Alto Uele
+    fi: Ylä-Uele
+    fr: Haut-Uele
+    hu: Felső-Uele tartomány
+    it: Haut-Uélé
+    ja: 高ウエレ州
+    ka: ზემო უელეს პროვინცია
+    ko: 오트우엘레 주
+    nb: Haut-Uele
+    nl: Haut-Uele
+    pl: Górne Uele
+    pt: Haut-Uele
+    ro: Provincia Haut-Uele
+    ru: Верхнее Уэле
+    sv: Haut-Uele
+    sw: Mkoa wa Wele Juu
+    uk: Верхнє Уеле
+    ceb: Haut Uele
+    zh: 上韦莱省
+    ccp: "\U00011126\U00011116\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
+    hy: Վերին Ուելե
+    'no': Haut-Uele
+  comments:
+  type: province
+IT:
+  name: Ituri
+  code: IT
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    en: Ituri
+    zh: 伊图里临时行政区
+    ccp: "\U00011103\U0001112D\U00011111\U0001112A\U00011122\U00011128"
+  comments:
+  type: province
+KC:
+  name: Lulua
+  code: KC
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Лулуа
+    bg: Лулуа
+    cs: Lulua
+    de: Kasaï-Central
+    en: Kasaï Central
+    es: Lulua
+    fr: Lulua
+    hu: Lulua tartomány
+    ja: ルルア州
+    ko: 룰루아 주
+    nb: Lulua
+    nl: Lulua
+    pl: Lulua
+    pt: Lulua
+    ro: Provincia Lulua
+    ru: Лулуа
+    sv: Lulua
+    sw: Mkoa wa Lulua
+    uk: Лулуа
+    ceb: Lulua District
+    zh: 卢卢阿省
+    ccp: "\U00011107\U00011125\U0001112D \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    ka: ლულუის პროვინცია
+    fi: Keski-Kasai
+    it: Provincia del Kasai Centrale
+    'no': Lulua
+  comments:
+  type: province
 KE:
   name: Kasai-Oriental
   code: KE
@@ -214,6 +403,80 @@ KE:
     hy: Արևելյան Կասայ
     'no': Kasaï-Oriental
   comments:
+  type: province
+KG:
+  name: Kwango
+  code: KG
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Кванго
+    bg: Кванго
+    de: Kwango
+    en: Kwango
+    es: Kwango
+    fr: Kwango
+    hu: Kwango tartomány
+    ja: クワンゴ州
+    nb: Kwango
+    nl: Kwango
+    pl: Kwango
+    pt: Kwango
+    ro: Provincia Kwango
+    ru: Кванго
+    sv: Kwango
+    uk: Кванго
+    zh: 宽果省
+    ccp: "\U00011107\U00011127\U00011120\U0001112A\U00011101\U00011109\U0001112E"
+    'no': Kwango
+  comments:
+  type: province
+KL:
+  name: Kwilu
+  code: KL
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Квілу
+    bg: Квилу
+    ca: Kwilu
+    de: Kwilu
+    en: Kwilu
+    es: Kwilu
+    fi: Kwilu
+    fr: Kwilu
+    hu: Kwilu tartomány
+    it: Provincia di Kwilu
+    ja: クウィル州
+    ka: კვილუს პროვინცია
+    ko: 퀼루 주
+    nb: Kwilu
+    nl: Kwilu
+    pl: Kwilu
+    pt: Kwilu
+    ro: Provincia Kwilu
+    ru: Квилу
+    sv: Kwilu
+    uk: Квілу
+    ceb: Kwilu (distrito)
+    zh: 奎卢省
+    ccp: "\U00011107\U00011127\U00011103\U00011128\U00011123\U0001112A"
+    hy: Կվիլու
+    'no': Kwilu
+  comments:
+  type: province
 KN:
   name: Kinshasa
   code: KN
@@ -309,21 +572,111 @@ KN:
     'no': Kinshasa
     yo_BJ: Kinshasa
   comments:
-KW:
-  name: Kasai-Occidental
-  code: KW
-  unofficial_names: Kasai-Occidental
+  type: city
+KS:
+  name: Kasaï
+  code: KS
+  unofficial_names:
   geo:
-    latitude: -5.320547299999999
-    longitude: 21.8568586
-    min_latitude: -7.9022269
-    min_longitude: 19.6801381
-    max_latitude: -2.338351
-    max_longitude: 23.742881
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
-    en: Kasaï-Occidental
-    ccp: "\U00011107\U00011125\U0001112D-\U00011103\U00011127\U00011125\U00011128\U00011113\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
+    en: Kasaï
+    fr: Kasaï
+    it: Kasai
+    ja: カサイ州
+    nb: Kasaï
+    nl: Kasaï
+    pl: Kasai
+    pt: Kasaï
+    ro: Provincia Kasaï
+    ru: Касаи
+    sv: Kasaï
+    uk: Касаї
+    ccp: "\U00011107\U00011125\U0001112D"
+    'no': Kasaï
   comments:
+  type: province
+LO:
+  name: Kabinda
+  code: LO
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Ламамі
+    bg: Ломами
+    de: Lomami
+    en: Lomami
+    es: Lomami
+    fi: Lomami
+    fr: Kabinda
+    hu: Lomami tartomány
+    it: Provincia di Lomami
+    ja: カビンダ州
+    ko: 로마미 주
+    nb: Lomami
+    nl: Lomami
+    pl: Lomami
+    pt: Lomami
+    ro: Provincia Lomami
+    ru: Ломами
+    sv: Lomami
+    uk: Ломамі
+    zh: 洛马米省
+    ccp: "\U00011123\U00011127\U0001111F\U0001111F\U00011128"
+    ka: ლომამის პროვინცია
+    'no': Lomami
+  comments:
+  type: province
+LU:
+  name: Lualaba
+  code: LU
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Луалаба
+    bg: Луалаба
+    ca: Lualaba (Província)
+    de: Lualaba
+    en: Lualaba
+    es: Lualaba (provincia)
+    fi: Lualaba
+    fr: Lualaba
+    hu: Lualaba tartomány
+    it: Provincia di Lualaba
+    ja: ルアラバ州
+    ka: ლუალაბის პროვინცია
+    ko: 루알라바 주
+    nb: Lualaba (provins)
+    nl: Lualaba
+    pl: Lualaba (prowincja)
+    pt: Lualaba (província)
+    ro: Provincia Lualaba
+    ru: Луалаба (провинция)
+    sv: Lualaba (provins)
+    sw: Mkoa wa Lualaba
+    uk: Луалаба
+    zh: 卢阿拉巴省
+    ccp: "\U00011123\U0001112A\U00011120\U00011123\U0001111D"
+    'no': Lualaba (provins)
+  comments:
+  type: province
 MA:
   name: Maniema
   code: MA
@@ -385,6 +738,82 @@ MA:
     he: מניימה
     'no': Maniema
   comments:
+  type: province
+MN:
+  name: Mai-Ndombe
+  code: MN
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Маі-Ндамбэ
+    bg: Ме Ндомбе
+    de: Mai-Ndombe
+    en: Mai-Ndombe
+    es: Mai-Ndombe
+    fi: Mai-Ndombe
+    fr: Mai-Ndombe
+    hu: Mai-Ndombe tartomány
+    it: Provincia di Mai-Ndombe
+    ka: მაი-ნდომბეს პროვინცია
+    ko: 마이은돔베 주
+    nb: Mai-Ndombe
+    nl: Mai-Ndombe
+    pl: Mai-Ndombe
+    pt: Mai-Ndombe
+    ro: Provincia Mai-Ndombe
+    ru: Маи-Ндомбе (провинция)
+    sv: Mai-Ndombe
+    uk: Маї-Ндомбе
+    zh: 马伊恩东贝省
+    ccp: "\U0001111F\U0001112D-\U00011113\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
+    'no': Mai-Ndombe
+  comments:
+  type: province
+MO:
+  name: Mongala
+  code: MO
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Мангала
+    bg: Монгала
+    de: Mongala
+    en: Mongala
+    es: Mongala
+    fi: Mongala
+    fr: Mongala
+    hu: Mongala tartomány
+    it: Provincia di Mongala
+    ja: モンガラ州
+    ka: მონგალის პროვინცია
+    ko: 몽갈라 주
+    nl: Mongala
+    pl: Mongala
+    pt: Mongala
+    ro: Provincia Mongala
+    ru: Монгала
+    sv: Mongala
+    sw: Mkoa wa Mongala
+    uk: Монгала
+    ceb: Mongala
+    zh: 蒙加拉省
+    ccp: "\U0001111F\U00011127\U00011101\U00011109\U00011127\U00011123"
+    nb: Mongala
+    'no': Mongala
+  comments:
+  type: province
 NK:
   name: Nord-Kivu
   code: NK
@@ -449,23 +878,84 @@ NK:
     az: Şimali Kivu
     'no': Nord-Kivu
   comments:
-OR:
-  name: Orientale
-  code: OR
+  type: province
+NU:
+  name: Nord-Ubangi
+  code: NU
   unofficial_names:
-  - Haut-Zaire
-  - Orientale
   geo:
-    latitude: 1.6406296
-    longitude: 26.419389
-    min_latitude: -2.1170779
-    min_longitude: 22.2904529
-    max_latitude: 5.386098
-    max_longitude: 31.2769461
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
   translations:
-    en: Orientale
-    ccp: "\U00011103\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U00011123\U00011134"
+    be: Правінцыя Паўночнае Убангі
+    bg: Нор Убанги
+    de: Nord-Ubangi
+    en: Nord-Ubangi
+    es: Ubangi del Norte
+    fi: Pohjois-Ubangi
+    fr: Nord-Ubangi
+    hu: Észak-Ubangi tartomány
+    id: Nord-Ubangi
+    it: Provincia del Nord Ubangi
+    ja: 北ウバンギ州
+    ka: ჩრდილოეთი უბანგის პროვინცია
+    ko: 북우방기 주
+    nl: Noord-Ubangi
+    pl: Ubangi Północne
+    pt: Nord-Ubangi
+    ro: Provincia Nord-Ubangi
+    ru: Северное Убанги
+    sv: Nord-Ubangi
+    uk: Північне Убангі
+    ceb: Nord Ubangi
+    zh: 北乌班吉省
+    ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011113\U00011134-\U00011103\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
+    nb: Nord-Ubangi
+    'no': Nord-Ubangi
   comments:
+  type: province
+SA:
+  name: Sankuru
+  code: SA
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Правінцыя Санкуру
+    bg: Санкуру
+    de: Sankuru
+    en: Sankuru
+    es: Sankuru
+    fi: Sankuru
+    fr: Sankuru
+    hu: Sankuru tartomány
+    it: Provincia di Sankuru
+    ja: サンクル州
+    ka: სანკურუს პროვინცია
+    ko: 상쿠루 주
+    nl: Sankuru
+    pl: Sankuru
+    pt: Sankuru
+    ru: Санкуру
+    sv: Sankuru
+    sw: Mkoa wa Sankuru
+    uk: Санкуру
+    ceb: Sankuru
+    zh: 桑库鲁省
+    ccp: "\U00011125\U00011101\U00011107\U0001112A\U00011122\U0001112A"
+    nb: Sankuru
+    'no': Sankuru
+  comments:
+  type: province
 SK:
   name: Sud-Kivu
   code: SK
@@ -528,495 +1018,7 @@ SK:
     mk: Јужно Киву
     'no': Sud-Kivu
   comments:
-BU:
-  name: Bas-Uele
-  code: BU
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Ніжняе Уэле
-    bg: Ба Уеле
-    de: Bas-Uele
-    en: Bas-Uélé
-    es: Bajo Uele
-    fi: Ala-Uele
-    fr: Bas-Uele
-    hu: Alsó-Uele tartomány
-    it: Provincia del Basso Uele
-    ja: 低ウエレ州
-    ka: ქვემო უელე
-    ko: 바스우엘레 주
-    nb: Bas-Uele
-    nl: Bas-Uele
-    pl: Dolne Uele
-    pt: Bas-Uele
-    ro: Provincia Bas-Uele
-    ru: Нижнее Уэле
-    sv: Bas-Uele
-    sw: Mkoa wa Wele Chini
-    uk: Нижнє Уеле
-    ceb: Bas Uele
-    zh: 下韦莱省
-    ccp: "\U0001111D\U0001110C\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
-    he: מחוז אואלה תחתית
-    'no': Bas-Uele
-  comments:
-HK:
-  name: Haut-Katanga
-  code: HK
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Верхняя Катанга
-    bg: О Катанга
-    ca: Província d’Alt Katanga
-    de: Haut-Katanga
-    en: Haut-Katanga
-    es: Alto Katanga
-    fi: Ylä-Katanga
-    fr: Haut-Katanga
-    hu: Felső-Katanga tartomány
-    it: Provincia dell’Alto Katanga
-    ja: 上カタンガ州
-    ka: ზემო კატანგის პროვინცია
-    ko: 오트카탕가 주
-    nb: Haut-Katanga
-    nl: Haut-Katanga
-    pl: Górna Katanga
-    pt: Haut-Katanga
-    ro: Provincia Haut-Katanga
-    ru: Верхняя Катанга
-    sv: Haut-Katanga
-    sw: Mkoa wa Katanga Juu
-    uk: Верхня Катанга
-    ceb: Haut Katanga
-    zh: 上加丹加省
-    ccp: "\U00011126\U00011116\U00011134-\U00011107\U00011111\U00011101\U00011109"
-    hy: Վերին Կատանգա
-    'no': Haut-Katanga
-  comments:
-HL:
-  name: Haut-Lomami
-  code: HL
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Верхняе Ламамі
-    bg: О Ломами
-    de: Haut-Lomami
-    en: Haut-Lomami
-    es: Alto Lomami
-    fi: Ylä-Lomami
-    fr: Haut-Lomami
-    hu: Felső-Lomami tartomány
-    it: Provincia dell’Alto Lomami
-    ja: 上ロマミ州
-    ka: ზემო ლომამის პროვინცია
-    ko: 오트로마미 주
-    nb: Haut-Lomami
-    nl: Haut-Lomami
-    pl: Górne Lomami
-    pt: Haut-Lomami
-    ro: Provincia Haut-Lomami
-    ru: Верхнее Ломами
-    sv: Haut-Lomami
-    sw: Mkoa wa Lomami Juu
-    uk: Верхнє Ломамі
-    ceb: Haut Lomami
-    zh: 上洛马米省
-    ccp: "\U00011126\U00011116\U00011134-\U00011123\U00011127\U0001111F\U0001111F\U00011128"
-    hy: Վերին Լոմամի
-    'no': Haut-Lomami
-  comments:
-HU:
-  name: Haut-Uele
-  code: HU
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Верхняе Уэле
-    bg: О Уеле
-    de: Haut-Uele
-    en: Haut-Uélé
-    es: Alto Uele
-    fi: Ylä-Uele
-    fr: Haut-Uele
-    hu: Felső-Uele tartomány
-    it: Haut-Uélé
-    ja: 高ウエレ州
-    ka: ზემო უელეს პროვინცია
-    ko: 오트우엘레 주
-    nb: Haut-Uele
-    nl: Haut-Uele
-    pl: Górne Uele
-    pt: Haut-Uele
-    ro: Provincia Haut-Uele
-    ru: Верхнее Уэле
-    sv: Haut-Uele
-    sw: Mkoa wa Wele Juu
-    uk: Верхнє Уеле
-    ceb: Haut Uele
-    zh: 上韦莱省
-    ccp: "\U00011126\U00011116\U00011134-\U00011103\U0001112A\U00011120\U0001112C\U00011123\U0001112C"
-    hy: Վերին Ուելե
-    'no': Haut-Uele
-  comments:
-KC:
-  name: Lulua
-  code: KC
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Лулуа
-    bg: Лулуа
-    cs: Lulua
-    de: Kasaï-Central
-    en: Kasaï Central
-    es: Lulua
-    fr: Lulua
-    hu: Lulua tartomány
-    ja: ルルア州
-    ko: 룰루아 주
-    nb: Lulua
-    nl: Lulua
-    pl: Lulua
-    pt: Lulua
-    ro: Provincia Lulua
-    ru: Лулуа
-    sv: Lulua
-    sw: Mkoa wa Lulua
-    uk: Лулуа
-    ceb: Lulua District
-    zh: 卢卢阿省
-    ccp: "\U00011107\U00011125\U0001112D \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
-    ka: ლულუის პროვინცია
-    fi: Keski-Kasai
-    it: Provincia del Kasai Centrale
-    'no': Lulua
-  comments:
-KG:
-  name: Kwango
-  code: KG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Кванго
-    bg: Кванго
-    de: Kwango
-    en: Kwango
-    es: Kwango
-    fr: Kwango
-    hu: Kwango tartomány
-    ja: クワンゴ州
-    nb: Kwango
-    nl: Kwango
-    pl: Kwango
-    pt: Kwango
-    ro: Provincia Kwango
-    ru: Кванго
-    sv: Kwango
-    uk: Кванго
-    zh: 宽果省
-    ccp: "\U00011107\U00011127\U00011120\U0001112A\U00011101\U00011109\U0001112E"
-    'no': Kwango
-  comments:
-KL:
-  name: Kwilu
-  code: KL
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Квілу
-    bg: Квилу
-    ca: Kwilu
-    de: Kwilu
-    en: Kwilu
-    es: Kwilu
-    fi: Kwilu
-    fr: Kwilu
-    hu: Kwilu tartomány
-    it: Provincia di Kwilu
-    ja: クウィル州
-    ka: კვილუს პროვინცია
-    ko: 퀼루 주
-    nb: Kwilu
-    nl: Kwilu
-    pl: Kwilu
-    pt: Kwilu
-    ro: Provincia Kwilu
-    ru: Квилу
-    sv: Kwilu
-    uk: Квілу
-    ceb: Kwilu (distrito)
-    zh: 奎卢省
-    ccp: "\U00011107\U00011127\U00011103\U00011128\U00011123\U0001112A"
-    hy: Կվիլու
-    'no': Kwilu
-  comments:
-LO:
-  name: Kabinda
-  code: LO
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Ламамі
-    bg: Ломами
-    de: Lomami
-    en: Lomami
-    es: Lomami
-    fi: Lomami
-    fr: Kabinda
-    hu: Lomami tartomány
-    it: Provincia di Lomami
-    ja: カビンダ州
-    ko: 로마미 주
-    nb: Lomami
-    nl: Lomami
-    pl: Lomami
-    pt: Lomami
-    ro: Provincia Lomami
-    ru: Ломами
-    sv: Lomami
-    uk: Ломамі
-    zh: 洛马米省
-    ccp: "\U00011123\U00011127\U0001111F\U0001111F\U00011128"
-    ka: ლომამის პროვინცია
-    'no': Lomami
-  comments:
-LU:
-  name: Lualaba
-  code: LU
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Луалаба
-    bg: Луалаба
-    ca: Lualaba (Província)
-    de: Lualaba
-    en: Lualaba
-    es: Lualaba (provincia)
-    fi: Lualaba
-    fr: Lualaba
-    hu: Lualaba tartomány
-    it: Provincia di Lualaba
-    ja: ルアラバ州
-    ka: ლუალაბის პროვინცია
-    ko: 루알라바 주
-    nb: Lualaba (provins)
-    nl: Lualaba
-    pl: Lualaba (prowincja)
-    pt: Lualaba (província)
-    ro: Provincia Lualaba
-    ru: Луалаба (провинция)
-    sv: Lualaba (provins)
-    sw: Mkoa wa Lualaba
-    uk: Луалаба
-    zh: 卢阿拉巴省
-    ccp: "\U00011123\U0001112A\U00011120\U00011123\U0001111D"
-    'no': Lualaba (provins)
-  comments:
-MN:
-  name: Mai-Ndombe
-  code: MN
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Маі-Ндамбэ
-    bg: Ме Ндомбе
-    de: Mai-Ndombe
-    en: Mai-Ndombe
-    es: Mai-Ndombe
-    fi: Mai-Ndombe
-    fr: Mai-Ndombe
-    hu: Mai-Ndombe tartomány
-    it: Provincia di Mai-Ndombe
-    ka: მაი-ნდომბეს პროვინცია
-    ko: 마이은돔베 주
-    nb: Mai-Ndombe
-    nl: Mai-Ndombe
-    pl: Mai-Ndombe
-    pt: Mai-Ndombe
-    ro: Provincia Mai-Ndombe
-    ru: Маи-Ндомбе (провинция)
-    sv: Mai-Ndombe
-    uk: Маї-Ндомбе
-    zh: 马伊恩东贝省
-    ccp: "\U0001111F\U0001112D-\U00011113\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
-    'no': Mai-Ndombe
-  comments:
-MO:
-  name: Mongala
-  code: MO
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Мангала
-    bg: Монгала
-    de: Mongala
-    en: Mongala
-    es: Mongala
-    fi: Mongala
-    fr: Mongala
-    hu: Mongala tartomány
-    it: Provincia di Mongala
-    ja: モンガラ州
-    ka: მონგალის პროვინცია
-    ko: 몽갈라 주
-    nl: Mongala
-    pl: Mongala
-    pt: Mongala
-    ro: Provincia Mongala
-    ru: Монгала
-    sv: Mongala
-    sw: Mkoa wa Mongala
-    uk: Монгала
-    ceb: Mongala
-    zh: 蒙加拉省
-    ccp: "\U0001111F\U00011127\U00011101\U00011109\U00011127\U00011123"
-    nb: Mongala
-    'no': Mongala
-  comments:
-NU:
-  name: Nord-Ubangi
-  code: NU
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Паўночнае Убангі
-    bg: Нор Убанги
-    de: Nord-Ubangi
-    en: Nord-Ubangi
-    es: Ubangi del Norte
-    fi: Pohjois-Ubangi
-    fr: Nord-Ubangi
-    hu: Észak-Ubangi tartomány
-    id: Nord-Ubangi
-    it: Provincia del Nord Ubangi
-    ja: 北ウバンギ州
-    ka: ჩრდილოეთი უბანგის პროვინცია
-    ko: 북우방기 주
-    nl: Noord-Ubangi
-    pl: Ubangi Północne
-    pt: Nord-Ubangi
-    ro: Provincia Nord-Ubangi
-    ru: Северное Убанги
-    sv: Nord-Ubangi
-    uk: Північне Убангі
-    ceb: Nord Ubangi
-    zh: 北乌班吉省
-    ccp: "\U0001111A\U00011127\U00011122\U00011133\U00011113\U00011134-\U00011103\U0001112A\U0001111D\U0001110B\U00011134\U00011109\U00011128"
-    nb: Nord-Ubangi
-    'no': Nord-Ubangi
-  comments:
-SA:
-  name: Sankuru
-  code: SA
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Правінцыя Санкуру
-    bg: Санкуру
-    de: Sankuru
-    en: Sankuru
-    es: Sankuru
-    fi: Sankuru
-    fr: Sankuru
-    hu: Sankuru tartomány
-    it: Provincia di Sankuru
-    ja: サンクル州
-    ka: სანკურუს პროვინცია
-    ko: 상쿠루 주
-    nl: Sankuru
-    pl: Sankuru
-    pt: Sankuru
-    ru: Санкуру
-    sv: Sankuru
-    sw: Mkoa wa Sankuru
-    uk: Санкуру
-    ceb: Sankuru
-    zh: 桑库鲁省
-    ccp: "\U00011125\U00011101\U00011107\U0001112A\U00011122\U0001112A"
-    nb: Sankuru
-    'no': Sankuru
-  comments:
+  type: province
 SU:
   name: Sud-Ubangi
   code: SU
@@ -1054,6 +1056,7 @@ SU:
     nb: Sud-Ubangi
     'no': Sud-Ubangi
   comments:
+  type: province
 TA:
   name: Tanganyika
   code: TA
@@ -1092,6 +1095,7 @@ TA:
     ccp: "\U00011111\U0001110B\U00011134\U00011109\U0001111A\U00011128\U00011120\U00011107"
     'no': Tanganyika
   comments:
+  type: province
 TO:
   name: Tshopo
   code: TO
@@ -1130,6 +1134,7 @@ TO:
     ccp: "\U00011125\U0001112E\U0001111B\U0001112E"
     'no': Tshopo
   comments:
+  type: province
 TU:
   name: Tshuapa
   code: TU
@@ -1168,46 +1173,4 @@ TU:
     ccp: "\U00011125\U0001112A\U00011120\U0001111B"
     'no': Tshuapa
   comments:
-IT:
-  name: Ituri
-  code: IT
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Ituri
-    zh: 伊图里临时行政区
-    ccp: "\U00011103\U0001112D\U00011111\U0001112A\U00011122\U00011128"
-  comments:
-KS:
-  name: Kasaï
-  code: KS
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    en: Kasaï
-    fr: Kasaï
-    it: Kasai
-    ja: カサイ州
-    nb: Kasaï
-    nl: Kasaï
-    pl: Kasai
-    pt: Kasaï
-    ro: Provincia Kasaï
-    ru: Касаи
-    sv: Kasaï
-    uk: Касаї
-    ccp: "\U00011107\U00011125\U0001112D"
-    'no': Kasaï
-  comments:
+  type: province

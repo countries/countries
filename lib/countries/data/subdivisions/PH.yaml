@@ -1,4 +1,814 @@
 ---
+'00':
+  name: National Capital Region
+  code: '00'
+  unofficial_names:
+  - National Capital Region
+  - Pambansang Punong Rehiyon
+  geo:
+    latitude: 14.6090537
+    longitude: 121.0222565
+    min_latitude: 14.3493861
+    min_longitude: 120.9172569
+    max_latitude: 14.781217
+    max_longitude: 121.132012
+  translations:
+    en: Metro Manila
+    be: Сталічны Рэгіён
+    ca: Metro Manila
+    de: Metro Manila
+    es: Gran Manila
+    fa: کلانشهر مانیل
+    fi: Metro Manila
+    fr: Grand Manille
+    hi: मेट्रो मनिला
+    hr: Metro Manila
+    id: Metro Manila
+    it: Regione Capitale Nazionale
+    ja: マニラ首都圏
+    ko: 마닐라 대도시
+    lt: Manilos metropolija
+    ms: Metro Manila
+    nb: Metro Manila
+    nl: National Capital Region
+    pl: Region Stołeczny
+    pt: Grande Manila
+    ru: Столичный Регион
+    sl: Metro Manila
+    sr: Метро Манила
+    sv: Metro Manila
+    ta: மணிலா பெருநகரம்
+    th: เมโทรมะนิลา
+    tr: Metro Manila
+    uk: Столичний регіон (Філіппіни)
+    ur: میٹرو منیلا
+    vi: Vùng đô thị Manila
+    zh: 馬尼拉大都會
+    ceb: Manila
+    sr_Latn: Metro Manila
+    bn: মেট্রো মানিলা
+    yue_Hans: 马尼拉大都会
+    ccp: "\U0001111F\U0001112C\U00011111\U00011133\U00011122\U0001112E \U0001111F\U0001112C\U0001111A\U00011128\U00011123"
+    he: אזור מנילה רבתי
+    eu: Manila Handia
+    ml: മെട്രോ മനില
+    cs: Metro Manila
+    yue: 馬尼拉大都會
+    my: မက်ထရို မနီလာ
+    mk: Метро Манила
+    'no': Metro Manila
+  comments:
+  type: region
+'01':
+  name: Ilocos
+  code: '01'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Regió d’Ilocos
+    de: Ilocos Region
+    en: Ilocos
+    es: Ilocos
+    fi: Ilocosin alue
+    fr: Région d’Ilocos
+    hi: इलोकोस क्षेत्र
+    hr: Ilocos
+    id: Ilocos
+    it: Ilocos
+    ja: イロコス地方
+    ko: 일로코스 지방
+    lt: Ilokoso regionas
+    nb: Ilocos Region
+    nl: Ilocos Region
+    pl: Ilocos
+    pt: Ilocos
+    ru: Илокос
+    sv: Ilocosregionen
+    ta: இலோகொஸ் பிராந்தியம்
+    tr: Ilocos Bölgesi
+    uk: Ілокос
+    ur: ایلوکوس علاقہ
+    vi: Ilocos
+    ceb: Rehiyon sa Ilocos
+    zh: 伊羅戈
+    yue_Hans: 伊罗戈
+    ccp: "\U00011103\U00011128\U00011123\U0001112E\U00011107\U0001112E\U0001110C\U00011134"
+    eu: Ilocos
+    yue: 伊羅戈
+    th: เขตอีโลโคส
+    mk: Илокос
+    'no': Ilocos Region
+  comments:
+  type: region
+'02':
+  name: Cagayan Valley
+  code: '02'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Vall de Cagayan
+    de: Cagayan Valley
+    en: Cagayan Valley
+    es: Valle del Cagayán
+    fi: Cagayan Valley
+    fr: Vallée de Cagayan
+    hi: कागायान घाटी
+    hr: Cagayan Valley
+    id: Lembah Cagayan
+    it: Valle di Cagayan
+    ja: カガヤン・バレー地方
+    ko: 카가얀밸리 지방
+    lt: Kagajano Slėnis
+    nb: Cagayan Valley
+    nl: Cagayan Valley
+    pl: Cagayan Valley
+    ru: Долина Кагаян
+    sv: Cagayandalen
+    ta: ககயன் பள்ளத்தாக்கு
+    uk: Долина Кагаян
+    ur: کاگایان وادی
+    vi: Thung lũng Cagayan
+    ceb: Lupot sa Cagayan
+    ms: Lembah Cagayan
+    ar: وادي كاغيان
+    zh: 卡加延河谷
+    yue_Hans: 卡加延谷
+    ccp: "\U00011107\U0001112C\U00011109\U0001112C\U00011103\U00011128\U00011120\U0001111A\U00011134
+      \U0001111E\U0001112C\U00011123\U00011129"
+    eu: Cagayan Harana
+    yue: 卡加延谷
+    th: เขตลัมบักนางคากายัน
+    mk: Кагајанска Долина
+    'no': Cagayan Valley
+  comments:
+  type: region
+'03':
+  name: Central Luzon
+  code: '03'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Luzon Central
+    de: Central Luzon
+    en: Central Luzon
+    es: Luzón Central
+    fi: Keski-Luzon
+    fr: Luçon centrale
+    hi: मध्य लूज़ोन
+    hr: Središnji Luzon
+    id: Luzon Tengah
+    it: Luzon Centrale
+    ja: 中部ルソン地方
+    ko: 중앙루손 지방
+    lt: Centrinis Lusonas
+    nb: Central Luzon
+    nl: Central Luzon
+    pl: Luzon Środkowy
+    ru: Центральный Лусон
+    sv: Centrala Luzon
+    ta: மத்திய லூசோன்
+    tr: Merkez Luzon
+    uk: Центральний Лусон
+    ur: وسطی لوزون
+    vi: Trung Luzon
+    ceb: Tunga-tungang Luzon
+    zh: 中央吕宋
+    yue_Hans: 中吕宋
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U00011123\U0001112A\U0001110E\U00011127\U0001111A\U00011134"
+    eu: Erdialdeko Luzon
+    yue: 中呂宋
+    th: เขตกิตนางลูโซน
+    mk: Централен Лузон
+    'no': Central Luzon
+  comments:
+  type: region
+'05':
+  name: Bicol
+  code: '05'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Regió de Bicol
+    de: Bicol Region
+    en: Bicol
+    es: Bicolandia
+    fi: Bicolin alue
+    fr: Bicol
+    hi: बिकोल क्षेत्र
+    hr: Bicol
+    it: Bicol
+    ja: ビコル地方
+    ko: 비콜 지방
+    lt: Bikolo regionas
+    nb: Bicol Region
+    nl: Bicol Region
+    pl: Bicol Region
+    ru: Бикольский Регион
+    sv: Bikolregionen
+    ta: பிகோல் பிராந்தியம்
+    uk: Бікол
+    ur: بیکول علاقہ
+    vi: Bicol
+    ceb: Bikol
+    zh: 比科爾
+    yue_Hans: 比科尔
+    ccp: "\U0001111D\U00011128\U00011107\U0001112E\U00011123\U00011134"
+    hy: Բիկոլի շրջան
+    eu: Bicolgo eskualdea
+    yue: 比科爾
+    th: เขตบีโคล
+    mk: Бикол
+    'no': Bicol Region
+  comments:
+  type: region
+'06':
+  name: Western Visayas
+  code: '06'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Visayas Occidentals
+    de: Western Visayas
+    en: Western Visayas
+    es: Bisayas Occidentales
+    fi: Länsi-Visayas
+    fr: Visayas occidentales
+    gl: Visayas Occidental
+    he: מערב ויסאיאס
+    hi: पश्चिमी विसाया
+    hr: Zapadni Visayas
+    it: Visayas Occidentale
+    ja: 西ヴィサヤ地方
+    ko: 서비사야 지방
+    lt: Vakarų Visajai
+    nl: Western Visayas
+    pl: Western Visayas
+    ru: Западные Висайи
+    sv: Västra Visayas
+    ta: மேற்கு விசயாசு
+    tr: Batı Visayas
+    uk: Західні Вісаї
+    ur: مغربی ویسایا
+    vi: Tây Visayas
+    ceb: Kasadpang Kabisay-an
+    ar: بيسايا الغربية
+    zh: 西米沙鄢
+    yue_Hans: 西维萨亚斯
+    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
+    eu: Mendebaldeko Bisayak
+    yue: 西維薩亞斯
+    nb: Western Visayas
+    th: เขตคันลูรังคาบีซายาอัน
+    mk: Западни Висаи
+    'no': Western Visayas
+  comments:
+  type: region
+'07':
+  name: Central Visayas
+  code: '07'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Visayas Centrals
+    de: Central Visayas
+    en: Central Visayas
+    es: Bisayas Centrales
+    fi: Keski-Visayas
+    fr: Visayas centrales
+    hi: मध्य विसाया
+    hr: Središnji Visayas
+    hy: Կենտրոնական Վիսարյա
+    id: Bisaya Tengah
+    it: Visayas Centrale
+    ja: 中部ヴィサヤ地方
+    ko: 중앙비사야 지방
+    lt: Centriniai Visajai
+    nl: Central Visayas
+    pl: Central Visayas
+    pt: Visayas Centrais
+    ru: Центральные Висайи
+    sv: Centrala Visayas
+    ta: மத்திய விசயாசு
+    tr: Merkez Visayas
+    uk: Центральні Вісаї
+    ur: وسطی ویسایا
+    vi: Trung Visayas
+    ceb: Tunga-tungang Kabisay-an
+    ar: بيسايا الوسطى
+    zh: 中米沙鄢
+    yue_Hans: 中维萨亚斯
+    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
+      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
+    eu: Erdialdeko Bisayak
+    yue: 中維薩亞斯
+    th: เขตกิตนางคาบีซายาอัน
+    mk: Централни Висаи
+  comments:
+  type: region
+'08':
+  name: Eastern Visayas
+  code: '08'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    be: Усходнія Вісаі
+    ca: Visayas Orientals
+    de: Eastern Visayas
+    en: Eastern Visayas
+    es: Bisayas Orientales
+    fi: Itä-Visayas
+    fr: Visayas orientales
+    he: מזרח ויסאיאס
+    hi: पूर्वी विसाया
+    hr: Istočni Visayas
+    it: Visayas Orientale
+    ja: 東ヴィサヤ地方
+    ko: 동비사야 지방
+    lt: Rytų Visajai
+    nl: Eastern Visayas
+    pl: Eastern Visayas
+    ru: Восточные Висайи
+    sv: Östra Visayas
+    ta: கிழக்கு விசயாசு
+    uk: Східні Вісаї
+    ur: مشرقی ویسایا
+    vi: Đông Visayas
+    ceb: Sidlakang Kabisay-an
+    zh: 東米沙鄢
+    yue_Hans: 东维萨亚斯
+    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
+    eu: Ekialdeko Bisayak
+    ml: കിഴക്കൻ വിസായസ്
+    yue: 東維薩亞斯
+    th: เขตซีลางังคาบีซายาอัน
+    mk: Источни Висаи
+  comments:
+  type: region
+'09':
+  name: Zamboanga Peninsula
+  code: '09'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Península de Zamboanga
+    de: Zamboanga Peninsula
+    en: Zamboanga Peninsula
+    es: Península de Zamboanga
+    fi: Zamboangan niemimaa
+    fr: péninsule de Zamboanga
+    hi: ज़म्बोआंगा प्रायद्वीप
+    hr: Poluotok Zamboanga
+    id: Semenanjung Zamboanga
+    it: Penisola di Zamboanga
+    ja: サンボアンガ半島地方
+    ko: 삼보앙가 반도 지방
+    lt: Zamboangos pusiasalis
+    nb: Zamboangahalvøya
+    nl: Zamboanga Peninsula
+    pl: Zamboanga Peninsula
+    pt: Península de Zamboanga
+    ru: Полуостров Замбоанга
+    sv: Zamboangahalvön
+    ta: சம்பொவாங்கா தீபகற்பம்
+    tr: Zamboanga Yarımadası
+    uk: Півострів Замбоанга
+    ur: زامبوانگا جزیرہ نما
+    vi: Bán đảo Zamboanga
+    ceb: Zamboanga
+    ar: شبه جزيرة زامبوانجا
+    zh: 三宝颜半岛
+    yue_Hans: 三宝颜半岛
+    ccp: "\U0001110E\U0001111F\U00011134\U0001111D\U0001112E\U00011120\U00011101\U00011109
+      \U0001111B\U0001112C\U0001111A\U00011128\U0001111A\U00011134\U00011125\U0001112A\U00011123"
+    eu: Zamboangako penintsula
+    cs: Poloostrov Zamboanga
+    yue: 三寶顏半島
+    th: เขตตังไวนางซัมบวงกา
+    mk: Полуостров Замбоанга
+    'no': Zamboangahalvøya
+  comments:
+  type: region
+'10':
+  name: Northern Mindanao
+  code: '10'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Mindanao Septentrional
+    de: Northern Mindanao
+    en: Northern Mindanao
+    es: Mindanao del Norte
+    fi: Pohjois-Mindanaon alue
+    fr: Mindanao du Nord
+    hi: उत्तरी मिन्दनाओ
+    hr: Sjeverni Mindanao
+    it: Mindanao Settentrionale
+    ja: 北ミンダナオ地方
+    ko: 북민다나오 지방
+    lt: Šiaurinis Mindanao
+    nb: Northern Mindanao
+    nl: Northern Mindanao
+    pl: Mindanao Północne
+    ru: Северный Минданао
+    sv: Norra Mindanao
+    ta: வடக்கு மின்டனவு
+    uk: Північне Мінданао
+    ur: شمالی مینداناؤ
+    vi: Bắc Mindanao
+    ceb: Amihanang Mindanao
+    zh: 北棉兰老
+    yue_Hans: 北棉兰老
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
+      \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001111A\U00011103\U0001112E"
+    eu: Iparraldeko Mindanao
+    yue: 北棉蘭老
+    th: เขตฮีลากังมินดาเนา
+    mk: Северен Минданао
+    'no': Northern Mindanao
+  comments:
+  type: region
+'11':
+  name: Davao
+  code: '11'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    bn: দাভাও অঞ্চল
+    ca: Regió de Davao
+    de: Davao Region
+    en: Davao
+    es: Región de Davao
+    fi: Davaon alue
+    fr: région de Davao
+    hi: दावाओ क्षेत्र
+    hr: Davao (regija)
+    it: Davao
+    ja: ダバオ地方
+    ko: 다바오 지방
+    lt: Davao regionas
+    ms: Daerah Davao
+    nl: Davao Region
+    pl: Davao
+    ru: Давао (регион)
+    sv: Davaoregionen
+    ta: டவாவோ பிராந்தியம்
+    tr: Davao Bölgesi
+    uk: Давао
+    ur: داوائو علاقہ
+    vi: Vùng Davao
+    ceb: Davao
+    zh: 达沃区
+    yue_Hans: 达沃区
+    ccp: "\U00011113\U0001111E\U00011103\U0001112E"
+    eu: Davaoko eskualdea
+    yue: 達沃區
+    th: เขตดาเบา
+    mk: Давао
+  comments:
+  type: region
+'12':
+  name: Soccsksargen
+  code: '12'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: SOCCSKSARGEN
+    cs: Soccsksargen
+    de: SOCCSKSARGEN
+    en: Soccsksargen
+    es: Región XII
+    fi: SOCCSKSARGEN
+    fr: SOCCSKSARGEN
+    hi: सोकसारजेन
+    hr: SOCCSKSARGEN
+    it: SOCCSKSARGEN
+    ja: ソクサージェン地方
+    ko: 소크사르젠 지방
+    lt: SOCCSKSARGEN
+    nl: SOCCSKSARGEN
+    pl: SOCCSKSARGEN
+    ru: СОККСКСАРХЕН
+    sv: SOCCSKSARGEN
+    ta: சொக்ஸ்சர்ஜென்
+    uk: Сокксксарген
+    ur: سوکسارگین
+    vi: SOCCSKSARGEN
+    ceb: SOCCSKSARGEN
+    yue_Hans: 中棉兰老
+    ccp: "\U00011125\U00011127\U0001110C\U00011134\U00011125\U00011122\U00011134\U00011109\U0001112C\U0001111A\U00011134"
+    eu: Soccsksargen
+    yue: 中棉蘭老
+    th: เขตโซกซาร์เจน
+    mk: Сокксксархен
+  comments:
+  type: region
+'13':
+  name: Caraga
+  code: '13'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Caraga
+    de: Caraga
+    en: Caraga
+    es: Caraga
+    fi: Caraga
+    fr: Caraga
+    hi: कारागा
+    hr: Caraga
+    it: Caraga
+    ja: カラガ地方
+    ko: 카라가 지방
+    lt: Karaga
+    nl: Caraga
+    pl: Caraga
+    ru: Карага
+    sv: Caraga
+    ta: கரகா
+    uk: Карага
+    ur: کاراگا
+    vi: Caraga
+    ceb: Caraga
+    zh: 卡拉加区
+    yue_Hans: 卡拉加
+    ccp: "\U00011125\U00011122\U00011134\U00011109"
+    eu: Caraga
+    yue: 卡拉加
+    nb: Caraga
+    th: เขตคารากา
+    mk: Карага
+    'no': Caraga
+  comments:
+  type: region
+'14':
+  name: Muslim Mindanao
+  code: '14'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    az: Müsəlman Mindanao muxtar regionu
+    be: Аўтаномны рэгіён у Мусульманскім Мінданаа
+    ca: Regió Autònoma del Mindanao Musulmà
+    cs: Autonomní region Muslimské Mindanao
+    de: Autonomous Region in Muslim Mindanao
+    en: Muslim Mindanao
+    es: Mindanao Musulmán
+    eu: Mindanao Musulmaneko Eskualde Autonomoa
+    fi: Mindanaon autonominen alue
+    fr: région autonome en Mindanao musulmane
+    gl: Rexión Autónoma do Mindanao Musulmán
+    hi: मुस्लिम मिन्दनाओ में स्वशासित क्षेत्र
+    hr: Autonomna regija Muslimanski Mindanao
+    id: Region Otonomi Muslim Mindanao
+    it: regione autonoma nel Mindanao Musulmano
+    ja: イスラム教徒ミンダナオ自治地域
+    ko: 무슬림 민다나오 자치구
+    lt: Mindanao musulmonų autonominis regionas
+    ms: Wilayah Autonomi Islam Mindanao
+    nl: Autonomous Region in Muslim Mindanao
+    pl: Muzułmańskie Mindanao
+    pt: Região Autónoma do Mindanau Muçulmano
+    ru: Автономный регион в Мусульманском Минданао
+    sr: Муслимански Минданао
+    sv: Muslimska Mindanao
+    ta: முசுலிம் மிண்டனாவோ தன்னாட்சிப் பகுதி
+    tr: Müslüman Mindanao Özerk Bölgesi
+    uk: Автономний регіон в Мусульманському Мінданао
+    ur: مسلم مینداناؤ کا خود مختار علاقہ
+    vi: Khu tự trị Hồi giáo Mindanao
+    ceb: Mindanawng Muslim
+    sr_Latn: Muslimanski Mindanao
+    zh: 棉兰老穆斯林自治区
+    fa: ناحیه خودمختار مسلمانان میندانائو
+    yue_Hans: 棉兰老穆斯林自治区
+    ccp: "\U0001111F\U0001112A\U0001110C\U00011134\U00011123\U00011128\U0001111F\U00011134
+      \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001111A\U00011103\U0001112E"
+    yue: 棉蘭老穆斯林自治區
+    nb: Autonomous Region in Muslim Mindanao
+    th: เขตปกครองตนเองในมินดาเนามุสลิม
+    mk: Автономен регион во Муслимански Минданао
+    'no': Autonomous Region in Muslim Mindanao
+  comments:
+  type: region
+'15':
+  name: Cordillera Administrative
+  code: '15'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: Regió Administrativa de la Cordillera
+    de: Cordillera Administrative Region
+    en: Cordillera Administrative
+    es: La Cordillera
+    fi: Cordilleran hallinnollinen alue
+    fr: région administrative de la Cordillère
+    hi: कोर्दिल्येरा प्रशासनिक क्षेत्र
+    hr: Administrativna regija Cordillera
+    it: Regione amministrativa Cordillera
+    ja: コルディリェラ行政地域
+    ko: 코르디예라 행정구
+    lt: Kordiljeros administracinis regionas
+    nl: Cordillera Administrative Region
+    pl: Cordillera Administrative Region
+    pt: Região Administrativa de Cordillera
+    ru: Кордильерский административный регион
+    sv: Kordiljärernas administrativa region
+    ta: கோர்டில்லெரா நிர்வாகப் பிராந்தியம்
+    uk: Кордильєрський адміністративний регіон
+    ur: کوردیلیرا انتظامی علاقہ
+    vi: Vùng Hành chính Cordillera
+    ceb: Administratibong Rehiyon sa Cordillera
+    zh: 科迪勒拉行政區
+    yue_Hans: 科迪勒拉
+    ccp: "\U00011107\U00011127\U00011122\U00011134\U00011113\U00011128\U00011123\U0001112C\U00011122
+      \U00011103\U0001112C\U00011116\U00011134\U0001111F\U00011128\U0001111A\U00011128\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011111\U00011128\U0001111B\U00011134"
+    eu: Cordillerako Eskualde Administratiboa
+    yue: 科迪勒拉
+    nb: Cordillera Administrative Region
+    th: เขตบริหารคอร์ดิลเยรา
+    mk: Кордилјера
+    'no': Cordillera Administrative Region
+  comments:
+  type: region
+'40':
+  name: Calabarzon
+  code: '40'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ca: CALABARZON
+    de: Calabarzon
+    en: Calabarzon
+    es: Región IV-A
+    fi: Calabarzon
+    fr: Calabarzon
+    hi: कालाबारज़ोन
+    hr: CALABARZON
+    id: CALABARZON
+    it: CALABARZON
+    ja: カラバルソン地方
+    ko: 칼라바르손 지방
+    lt: CALABARZON
+    ms: CALABARZON
+    nb: Calabarzon
+    nl: Calabarzon
+    pl: CALABARZON
+    ru: КАЛАБАРСОН
+    sv: CALABARZON
+    ta: கலபர்சொன்
+    tr: CALABARZON
+    uk: Калабарсон
+    ur: کالابارزون
+    vi: CALABARZON
+    ceb: CALABARZON
+    zh: 卡拉巴松
+    yue_Hans: 卡拉巴松
+    ccp: "\U00011107\U00011123\U0001111D\U00011122\U00011134\U0001110E\U00011127\U0001111A\U00011134"
+    eu: Calabarzon
+    yue: 卡拉巴鬆
+    th: เขตคาลาบาร์โซน
+    mk: Калабарзон
+    'no': Calabarzon
+  comments:
+  type: region
+'41':
+  name: Mimaropa
+  code: '41'
+  unofficial_names:
+  geo:
+    latitude:
+    longitude:
+    min_latitude:
+    min_longitude:
+    max_latitude:
+    max_longitude:
+  translations:
+    ar: ميماروبا
+    ca: MIMAROPA
+    de: MIMAROPA
+    en: Mimaropa
+    es: Región IV-B
+    fi: Mimaropa
+    fr: MIMAROPA
+    hi: मिमारोपा
+    hr: MIMAROPA
+    it: MIMARO
+    ja: ミマロパ地方
+    ko: 미마로파 지방
+    lt: MIMAROPA
+    nl: MIMAROPA
+    pl: MIMAROPA
+    ru: МИМАРОПА
+    sv: MIMAROPA
+    ta: மிமரோபா
+    uk: Мімаропа
+    ur: میماپورا
+    vi: MIMAROPA
+    ceb: MIMAROPA
+    zh: 民马罗巴区
+    yue_Hans: 民马罗巴
+    ccp: "\U0001111F\U00011128\U0001111F\U00011122\U0001112E\U0001111B"
+    eu: Mimaropa
+    yue: 民馬羅巴
+    nb: MIMAROPA
+    th: เขตมีมาโรปา
+    mk: Мимаропа
+    'no': MIMAROPA
+  comments:
+  type: region
 ABR:
   name: Abra
   code: ABR
@@ -53,6 +863,7 @@ ABR:
     mk: Абра
     'no': Abra
   comments:
+  type: province
 AGN:
   name: Agusan del Norte
   code: AGN
@@ -108,6 +919,7 @@ AGN:
     mk: Северен Агусан
     'no': Agusan del Norte
   comments:
+  type: province
 AGS:
   name: Agusan del Sur
   code: AGS
@@ -162,6 +974,7 @@ AGS:
     mk: Јужен Агусан
     'no': Agusan del Sur
   comments:
+  type: province
 AKL:
   name: Aklan
   code: AKL
@@ -218,6 +1031,7 @@ AKL:
     mk: Аклан
     'no': Aklan
   comments:
+  type: province
 ALB:
   name: Albay
   code: ALB
@@ -273,6 +1087,7 @@ ALB:
     mk: Албај
     'no': Albay
   comments:
+  type: province
 ANT:
   name: Antique
   code: ANT
@@ -327,6 +1142,7 @@ ANT:
     mk: Антике
     'no': Antique
   comments:
+  type: province
 APA:
   name: Apayao
   code: APA
@@ -381,6 +1197,7 @@ APA:
     mk: Апајао
     'no': Apayao
   comments:
+  type: province
 AUR:
   name: Aurora
   code: AUR
@@ -436,6 +1253,7 @@ AUR:
     mk: Аурора
     'no': Aurora
   comments:
+  type: province
 BAN:
   name: Bataan
   code: BAN
@@ -490,6 +1308,7 @@ BAN:
     mk: Батаан
     'no': Bataan
   comments:
+  type: province
 BAS:
   name: Basilan
   code: BAS
@@ -546,6 +1365,7 @@ BAS:
     mk: Басилан
     'no': Basilan
   comments:
+  type: province
 BEN:
   name: Benguet
   code: BEN
@@ -600,6 +1420,7 @@ BEN:
     mk: Бенгет
     'no': Benguet
   comments:
+  type: province
 BIL:
   name: Biliran
   code: BIL
@@ -657,6 +1478,7 @@ BIL:
     mk: Билиран
     'no': Biliran
   comments:
+  type: province
 BOH:
   name: Bohol
   code: BOH
@@ -722,6 +1544,7 @@ BOH:
     mk: Бохол
     'no': Bohol
   comments:
+  type: province
 BTG:
   name: Batangas
   code: BTG
@@ -777,6 +1600,7 @@ BTG:
     mk: Батангас
     'no': Batangas
   comments:
+  type: province
 BTN:
   name: Batanes
   code: BTN
@@ -834,6 +1658,7 @@ BTN:
     mk: Батанес
     'no': Batanes
   comments:
+  type: province
 BUK:
   name: Bukidnon
   code: BUK
@@ -889,6 +1714,7 @@ BUK:
     mk: Букиднон
     'no': Bukidnon
   comments:
+  type: province
 BUL:
   name: Bulacan
   code: BUL
@@ -944,6 +1770,7 @@ BUL:
     mk: Булакан
     'no': Bulacan
   comments:
+  type: province
 CAG:
   name: Cagayan
   code: CAG
@@ -999,6 +1826,7 @@ CAG:
     mk: Кагајан
     'no': Cagayan
   comments:
+  type: province
 CAM:
   name: Camiguin
   code: CAM
@@ -1054,6 +1882,7 @@ CAM:
     mk: Камигин
     'no': Camiguin
   comments:
+  type: province
 CAN:
   name: Camarines Norte
   code: CAN
@@ -1109,6 +1938,7 @@ CAN:
     mk: Северен Камаринес
     'no': Camarines Norte
   comments:
+  type: province
 CAP:
   name: Capiz
   code: CAP
@@ -1162,6 +1992,7 @@ CAP:
     mk: Капиз
     'no': Capiz
   comments:
+  type: province
 CAS:
   name: Camarines Sur
   code: CAS
@@ -1219,6 +2050,7 @@ CAS:
     mk: Јужен Камаринес
     'no': Camarines Sur
   comments:
+  type: province
 CAT:
   name: Catanduanes
   code: CAT
@@ -1276,6 +2108,7 @@ CAT:
     mk: Катандуанес
     'no': Catanduanes
   comments:
+  type: province
 CAV:
   name: Cavite
   code: CAV
@@ -1331,6 +2164,7 @@ CAV:
     mk: Кавите
     'no': Cavite
   comments:
+  type: province
 CEB:
   name: Cebu
   code: CEB
@@ -1394,6 +2228,7 @@ CEB:
     mk: Себу
     'no': Cebu
   comments:
+  type: province
 COM:
   name: Compostela Valley
   code: COM
@@ -1448,6 +2283,7 @@ COM:
     mk: Долина Компостела
     'no': Compostela Valley
   comments:
+  type: province
 DAO:
   name: Davao Oriental
   code: DAO
@@ -1501,6 +2337,7 @@ DAO:
     mk: Источен Давао
     'no': Davao Oriental
   comments:
+  type: province
 DAS:
   name: Davao del Sur
   code: DAS
@@ -1555,6 +2392,7 @@ DAS:
     mk: Јужен Давао
     'no': Davao del Sur
   comments:
+  type: province
 DAV:
   name: Davao del Norte
   code: DAV
@@ -1610,6 +2448,7 @@ DAV:
     mk: Северен Давао
     'no': Davao del Norte
   comments:
+  type: province
 DIN:
   name: Dinagat Islands
   code: DIN
@@ -1648,6 +2487,7 @@ DIN:
     mk: Динагат
     'no': Dinagat Islands
   comments:
+  type: province
 DVO:
   name: Davao Occidental
   code: DVO
@@ -1678,6 +2518,7 @@ DVO:
     th: จังหวัดคันลูรังดาเบา
     mk: Западен Давао
   comments:
+  type: province
 EAS:
   name: Eastern Samar
   code: EAS
@@ -1733,6 +2574,7 @@ EAS:
     mk: Источен Самар
     'no': Eastern Samar
   comments:
+  type: province
 GUI:
   name: Guimaras
   code: GUI
@@ -1788,6 +2630,7 @@ GUI:
     mk: Гимарас
     'no': Guimaras
   comments:
+  type: province
 IFU:
   name: Ifugao
   code: IFU
@@ -1842,6 +2685,7 @@ IFU:
     mk: Ифугао
     'no': Ifugao
   comments:
+  type: province
 ILI:
   name: Iloilo
   code: ILI
@@ -1897,6 +2741,7 @@ ILI:
     mk: Илоило
     'no': Iloilo
   comments:
+  type: province
 ILN:
   name: Ilocos Norte
   code: ILN
@@ -1953,6 +2798,7 @@ ILN:
     mk: Северен Илокос
     'no': Ilocos Norte
   comments:
+  type: province
 ILS:
   name: Ilocos Sur
   code: ILS
@@ -2008,6 +2854,7 @@ ILS:
     mk: Јужен Илокос
     'no': Ilocos Sur
   comments:
+  type: province
 ISA:
   name: Isabela
   code: ISA
@@ -2061,6 +2908,7 @@ ISA:
     mk: Изабела
     'no': Isabela
   comments:
+  type: province
 KAL:
   name: Kalinga
   code: KAL
@@ -2116,6 +2964,7 @@ KAL:
     mk: Калинга
     'no': Kalinga
   comments:
+  type: province
 LAG:
   name: Laguna
   code: LAG
@@ -2172,6 +3021,7 @@ LAG:
     mk: Лагуна
     'no': Laguna
   comments:
+  type: province
 LAN:
   name: Lanao del Norte
   code: LAN
@@ -2226,6 +3076,7 @@ LAN:
     mk: Северен Ланао
     'no': Lanao del Norte
   comments:
+  type: province
 LAS:
   name: Lanao del Sur
   code: LAS
@@ -2280,6 +3131,7 @@ LAS:
     mk: Јужен Ланао
     'no': Lanao del Sur
   comments:
+  type: province
 LEY:
   name: Leyte
   code: LEY
@@ -2334,6 +3186,7 @@ LEY:
     mk: Лејте
     'no': Leyte
   comments:
+  type: province
 LUN:
   name: La Union
   code: LUN
@@ -2388,6 +3241,7 @@ LUN:
     mk: Ла Унион
     'no': La Union
   comments:
+  type: province
 MAD:
   name: Marinduque
   code: MAD
@@ -2446,6 +3300,7 @@ MAD:
     mk: Мариндуке
     'no': Marinduque
   comments:
+  type: province
 MAG:
   name: Maguindanao
   code: MAG
@@ -2501,6 +3356,7 @@ MAG:
     mk: Магинданао
     'no': Maguindanao
   comments:
+  type: province
 MAS:
   name: Masbate
   code: MAS
@@ -2559,6 +3415,7 @@ MAS:
     mk: Масбате
     'no': Masbate
   comments:
+  type: province
 MDC:
   name: Mindoro Occidental
   code: MDC
@@ -2614,6 +3471,7 @@ MDC:
     mk: Западен Миндоро
     'no': Occidental Mindoro
   comments:
+  type: province
 MDR:
   name: Mindoro Oriental
   code: MDR
@@ -2669,6 +3527,7 @@ MDR:
     mk: Источен Миндоро
     'no': Oriental Mindoro
   comments:
+  type: province
 MOU:
   name: Mountain Province
   code: MOU
@@ -2723,6 +3582,7 @@ MOU:
     mk: Планинска покраина
     'no': Bergsprovinsen
   comments:
+  type: province
 MSC:
   name: Misamis Occidental
   code: MSC
@@ -2777,6 +3637,7 @@ MSC:
     mk: Западен Мисамис
     'no': Misamis Occidental
   comments:
+  type: province
 MSR:
   name: Misamis Oriental
   code: MSR
@@ -2831,6 +3692,7 @@ MSR:
     mk: Источен Мисамис
     'no': Misamis Oriental
   comments:
+  type: province
 NCO:
   name: North Cotabato
   code: NCO
@@ -2886,6 +3748,7 @@ NCO:
     mk: Котабато
     'no': Cotabato
   comments:
+  type: province
 NEC:
   name: Negros Occidental
   code: NEC
@@ -2941,6 +3804,7 @@ NEC:
     mk: Западен Негрос
     'no': Negros Occidental
   comments:
+  type: province
 NER:
   name: Negros Oriental
   code: NER
@@ -2997,6 +3861,7 @@ NER:
     mk: Источен Негрос
     'no': Negros Oriental
   comments:
+  type: province
 NSA:
   name: Northern Samar
   code: NSA
@@ -3052,6 +3917,7 @@ NSA:
     mk: Северен Самар
     'no': Northern Samar
   comments:
+  type: province
 NUE:
   name: Nueva Ecija
   code: NUE
@@ -3107,6 +3973,7 @@ NUE:
     mk: Нова Есиха
     'no': Nueva Ecija
   comments:
+  type: province
 NUV:
   name: Nueva Vizcaya
   code: NUV
@@ -3162,6 +4029,7 @@ NUV:
     mk: Нова Вискаја
     'no': Nueva Vizcaya
   comments:
+  type: province
 PAM:
   name: Pampanga
   code: PAM
@@ -3216,6 +4084,7 @@ PAM:
     mk: Пампанга
     'no': Pampanga
   comments:
+  type: province
 PAN:
   name: Pangasinan
   code: PAN
@@ -3271,6 +4140,7 @@ PAN:
     mk: Пангасинан
     'no': Pangasinan
   comments:
+  type: province
 PLW:
   name: Palawan
   code: PLW
@@ -3337,6 +4207,7 @@ PLW:
     mk: Палаван
     'no': Palawan
   comments:
+  type: province
 QUE:
   name: Quezon
   code: QUE
@@ -3391,6 +4262,7 @@ QUE:
     mk: Кезон
     'no': Quezon
   comments:
+  type: province
 QUI:
   name: Quirino
   code: QUI
@@ -3446,6 +4318,7 @@ QUI:
     mk: Кирино
     'no': Quirino
   comments:
+  type: province
 RIZ:
   name: Rizal
   code: RIZ
@@ -3500,6 +4373,7 @@ RIZ:
     mk: Ризал
     'no': Rizal
   comments:
+  type: province
 ROM:
   name: Romblon
   code: ROM
@@ -3554,6 +4428,7 @@ ROM:
     mk: Ромблон
     'no': Romblon
   comments:
+  type: province
 SAR:
   name: Sarangani
   code: SAR
@@ -3609,6 +4484,7 @@ SAR:
     mk: Сарангани
     'no': Sarangani
   comments:
+  type: province
 SCO:
   name: South Cotabato
   code: SCO
@@ -3662,6 +4538,7 @@ SCO:
     mk: Јужен Котабато
     'no': South Cotabato
   comments:
+  type: province
 SIG:
   name: Siquijor
   code: SIG
@@ -3717,6 +4594,7 @@ SIG:
     mk: Сикихор
     'no': Siquijor
   comments:
+  type: province
 SLE:
   name: Southern Leyte
   code: SLE
@@ -3774,6 +4652,7 @@ SLE:
     mk: Јужен Лејте
     'no': Southern Leyte
   comments:
+  type: province
 SLU:
   name: Sulu
   code: SLU
@@ -3828,6 +4707,7 @@ SLU:
     mk: Сулу
     'no': Sulu
   comments:
+  type: province
 SOR:
   name: Sorsogon
   code: SOR
@@ -3884,6 +4764,7 @@ SOR:
     mk: Сорсогон
     'no': Sorsogon
   comments:
+  type: province
 SUK:
   name: Sultan Kudarat
   code: SUK
@@ -3938,6 +4819,7 @@ SUK:
     mk: Султан Кударат
     'no': Sultan Kudarat
   comments:
+  type: province
 SUN:
   name: Surigao del Norte
   code: SUN
@@ -3992,6 +4874,7 @@ SUN:
     mk: Северен Суригао
     'no': Surigao del Norte
   comments:
+  type: province
 SUR:
   name: Surigao del Sur
   code: SUR
@@ -4046,6 +4929,7 @@ SUR:
     mk: Јужен Суригао
     'no': Surigao del Sur
   comments:
+  type: province
 TAR:
   name: Tarlac
   code: TAR
@@ -4101,6 +4985,7 @@ TAR:
     mk: Тарлак
     'no': Tarlac
   comments:
+  type: province
 TAW:
   name: Tawi-Tawi
   code: TAW
@@ -4157,6 +5042,7 @@ TAW:
     mk: Тави-Тави
     'no': Tawi-Tawi
   comments:
+  type: province
 WSA:
   name: Western Samar
   code: WSA
@@ -4214,34 +5100,7 @@ WSA:
     mk: Самар
     'no': Samar
   comments:
-X1~:
-  name: Dinagat
-  code: X1~
-  unofficial_names: Dinagat
-  geo:
-    latitude: 10.1281816
-    longitude: 125.6095474
-    min_latitude: 9.8547497
-    min_longitude: 125.465279
-    max_latitude: 10.4716027
-    max_longitude: 125.7067526
-  translations:
-    en: Dinagat
-  comments:
-X2~:
-  name: Shariff Kabunsuan
-  code: X2~
-  unofficial_names: Shariff Kabunsuan
-  geo:
-    latitude: 7.214106399999999
-    longitude: 124.2535718
-    min_latitude: 7.2127832
-    min_longitude: 124.2530217
-    max_latitude: 7.2155299
-    max_longitude: 124.2541869
-  translations:
-    en: Shariff Kabunsuan
-  comments:
+  type: province
 ZAN:
   name: Zamboanga del Norte
   code: ZAN
@@ -4296,6 +5155,7 @@ ZAN:
     mk: Северна Замбоанга
     'no': Zamboanga del Norte
   comments:
+  type: province
 ZAS:
   name: Zamboanga del Sur
   code: ZAS
@@ -4350,6 +5210,7 @@ ZAS:
     mk: Јужна Замбоанга
     'no': Zamboanga del Sur
   comments:
+  type: province
 ZMB:
   name: Zambales
   code: ZMB
@@ -4406,6 +5267,7 @@ ZMB:
     mk: Замбалес
     'no': Zambales
   comments:
+  type: province
 ZSI:
   name: Zamboanga Sibuguey [Zamboanga Sibugay]
   code: ZSI
@@ -4461,796 +5323,4 @@ ZSI:
     mk: Замбоанга Сибугај
     'no': Zamboanga Sibugay
   comments:
-'00':
-  name: National Capital Region
-  code: '00'
-  unofficial_names:
-  - National Capital Region
-  - Pambansang Punong Rehiyon
-  geo:
-    latitude: 14.6090537
-    longitude: 121.0222565
-    min_latitude: 14.3493861
-    min_longitude: 120.9172569
-    max_latitude: 14.781217
-    max_longitude: 121.132012
-  translations:
-    en: Metro Manila
-    be: Сталічны Рэгіён
-    ca: Metro Manila
-    de: Metro Manila
-    es: Gran Manila
-    fa: کلانشهر مانیل
-    fi: Metro Manila
-    fr: Grand Manille
-    hi: मेट्रो मनिला
-    hr: Metro Manila
-    id: Metro Manila
-    it: Regione Capitale Nazionale
-    ja: マニラ首都圏
-    ko: 마닐라 대도시
-    lt: Manilos metropolija
-    ms: Metro Manila
-    nb: Metro Manila
-    nl: National Capital Region
-    pl: Region Stołeczny
-    pt: Grande Manila
-    ru: Столичный Регион
-    sl: Metro Manila
-    sr: Метро Манила
-    sv: Metro Manila
-    ta: மணிலா பெருநகரம்
-    th: เมโทรมะนิลา
-    tr: Metro Manila
-    uk: Столичний регіон (Філіппіни)
-    ur: میٹرو منیلا
-    vi: Vùng đô thị Manila
-    zh: 馬尼拉大都會
-    ceb: Manila
-    sr_Latn: Metro Manila
-    bn: মেট্রো মানিলা
-    yue_Hans: 马尼拉大都会
-    ccp: "\U0001111F\U0001112C\U00011111\U00011133\U00011122\U0001112E \U0001111F\U0001112C\U0001111A\U00011128\U00011123"
-    he: אזור מנילה רבתי
-    eu: Manila Handia
-    ml: മെട്രോ മനില
-    cs: Metro Manila
-    yue: 馬尼拉大都會
-    my: မက်ထရို မနီလာ
-    mk: Метро Манила
-    'no': Metro Manila
-  comments:
-'41':
-  name: Mimaropa
-  code: '41'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ar: ميماروبا
-    ca: MIMAROPA
-    de: MIMAROPA
-    en: Mimaropa
-    es: Región IV-B
-    fi: Mimaropa
-    fr: MIMAROPA
-    hi: मिमारोपा
-    hr: MIMAROPA
-    it: MIMARO
-    ja: ミマロパ地方
-    ko: 미마로파 지방
-    lt: MIMAROPA
-    nl: MIMAROPA
-    pl: MIMAROPA
-    ru: МИМАРОПА
-    sv: MIMAROPA
-    ta: மிமரோபா
-    uk: Мімаропа
-    ur: میماپورا
-    vi: MIMAROPA
-    ceb: MIMAROPA
-    zh: 民马罗巴区
-    yue_Hans: 民马罗巴
-    ccp: "\U0001111F\U00011128\U0001111F\U00011122\U0001112E\U0001111B"
-    eu: Mimaropa
-    yue: 民馬羅巴
-    nb: MIMAROPA
-    th: เขตมีมาโรปา
-    mk: Мимаропа
-    'no': MIMAROPA
-  comments:
-'14':
-  name: Muslim Mindanao
-  code: '14'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    az: Müsəlman Mindanao muxtar regionu
-    be: Аўтаномны рэгіён у Мусульманскім Мінданаа
-    ca: Regió Autònoma del Mindanao Musulmà
-    cs: Autonomní region Muslimské Mindanao
-    de: Autonomous Region in Muslim Mindanao
-    en: Muslim Mindanao
-    es: Mindanao Musulmán
-    eu: Mindanao Musulmaneko Eskualde Autonomoa
-    fi: Mindanaon autonominen alue
-    fr: région autonome en Mindanao musulmane
-    gl: Rexión Autónoma do Mindanao Musulmán
-    hi: मुस्लिम मिन्दनाओ में स्वशासित क्षेत्र
-    hr: Autonomna regija Muslimanski Mindanao
-    id: Region Otonomi Muslim Mindanao
-    it: regione autonoma nel Mindanao Musulmano
-    ja: イスラム教徒ミンダナオ自治地域
-    ko: 무슬림 민다나오 자치구
-    lt: Mindanao musulmonų autonominis regionas
-    ms: Wilayah Autonomi Islam Mindanao
-    nl: Autonomous Region in Muslim Mindanao
-    pl: Muzułmańskie Mindanao
-    pt: Região Autónoma do Mindanau Muçulmano
-    ru: Автономный регион в Мусульманском Минданао
-    sr: Муслимански Минданао
-    sv: Muslimska Mindanao
-    ta: முசுலிம் மிண்டனாவோ தன்னாட்சிப் பகுதி
-    tr: Müslüman Mindanao Özerk Bölgesi
-    uk: Автономний регіон в Мусульманському Мінданао
-    ur: مسلم مینداناؤ کا خود مختار علاقہ
-    vi: Khu tự trị Hồi giáo Mindanao
-    ceb: Mindanawng Muslim
-    sr_Latn: Muslimanski Mindanao
-    zh: 棉兰老穆斯林自治区
-    fa: ناحیه خودمختار مسلمانان میندانائو
-    yue_Hans: 棉兰老穆斯林自治区
-    ccp: "\U0001111F\U0001112A\U0001110C\U00011134\U00011123\U00011128\U0001111F\U00011134
-      \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001111A\U00011103\U0001112E"
-    yue: 棉蘭老穆斯林自治區
-    nb: Autonomous Region in Muslim Mindanao
-    th: เขตปกครองตนเองในมินดาเนามุสลิม
-    mk: Автономен регион во Муслимански Минданао
-    'no': Autonomous Region in Muslim Mindanao
-  comments:
-'08':
-  name: Eastern Visayas
-  code: '08'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    be: Усходнія Вісаі
-    ca: Visayas Orientals
-    de: Eastern Visayas
-    en: Eastern Visayas
-    es: Bisayas Orientales
-    fi: Itä-Visayas
-    fr: Visayas orientales
-    he: מזרח ויסאיאס
-    hi: पूर्वी विसाया
-    hr: Istočni Visayas
-    it: Visayas Orientale
-    ja: 東ヴィサヤ地方
-    ko: 동비사야 지방
-    lt: Rytų Visajai
-    nl: Eastern Visayas
-    pl: Eastern Visayas
-    ru: Восточные Висайи
-    sv: Östra Visayas
-    ta: கிழக்கு விசயாசு
-    uk: Східні Вісаї
-    ur: مشرقی ویسایا
-    vi: Đông Visayas
-    ceb: Sidlakang Kabisay-an
-    zh: 東米沙鄢
-    yue_Hans: 东维萨亚斯
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
-    eu: Ekialdeko Bisayak
-    ml: കിഴക്കൻ വിസായസ്
-    yue: 東維薩亞斯
-    th: เขตซีลางังคาบีซายาอัน
-    mk: Источни Висаи
-  comments:
-'11':
-  name: Davao
-  code: '11'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    bn: দাভাও অঞ্চল
-    ca: Regió de Davao
-    de: Davao Region
-    en: Davao
-    es: Región de Davao
-    fi: Davaon alue
-    fr: région de Davao
-    hi: दावाओ क्षेत्र
-    hr: Davao (regija)
-    it: Davao
-    ja: ダバオ地方
-    ko: 다바오 지방
-    lt: Davao regionas
-    ms: Daerah Davao
-    nl: Davao Region
-    pl: Davao
-    ru: Давао (регион)
-    sv: Davaoregionen
-    ta: டவாவோ பிராந்தியம்
-    tr: Davao Bölgesi
-    uk: Давао
-    ur: داوائو علاقہ
-    vi: Vùng Davao
-    ceb: Davao
-    zh: 达沃区
-    yue_Hans: 达沃区
-    ccp: "\U00011113\U0001111E\U00011103\U0001112E"
-    eu: Davaoko eskualdea
-    yue: 達沃區
-    th: เขตดาเบา
-    mk: Давао
-  comments:
-'01':
-  name: Ilocos
-  code: '01'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Regió d’Ilocos
-    de: Ilocos Region
-    en: Ilocos
-    es: Ilocos
-    fi: Ilocosin alue
-    fr: Région d’Ilocos
-    hi: इलोकोस क्षेत्र
-    hr: Ilocos
-    id: Ilocos
-    it: Ilocos
-    ja: イロコス地方
-    ko: 일로코스 지방
-    lt: Ilokoso regionas
-    nb: Ilocos Region
-    nl: Ilocos Region
-    pl: Ilocos
-    pt: Ilocos
-    ru: Илокос
-    sv: Ilocosregionen
-    ta: இலோகொஸ் பிராந்தியம்
-    tr: Ilocos Bölgesi
-    uk: Ілокос
-    ur: ایلوکوس علاقہ
-    vi: Ilocos
-    ceb: Rehiyon sa Ilocos
-    zh: 伊羅戈
-    yue_Hans: 伊罗戈
-    ccp: "\U00011103\U00011128\U00011123\U0001112E\U00011107\U0001112E\U0001110C\U00011134"
-    eu: Ilocos
-    yue: 伊羅戈
-    th: เขตอีโลโคส
-    mk: Илокос
-    'no': Ilocos Region
-  comments:
-'02':
-  name: Cagayan Valley
-  code: '02'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Vall de Cagayan
-    de: Cagayan Valley
-    en: Cagayan Valley
-    es: Valle del Cagayán
-    fi: Cagayan Valley
-    fr: Vallée de Cagayan
-    hi: कागायान घाटी
-    hr: Cagayan Valley
-    id: Lembah Cagayan
-    it: Valle di Cagayan
-    ja: カガヤン・バレー地方
-    ko: 카가얀밸리 지방
-    lt: Kagajano Slėnis
-    nb: Cagayan Valley
-    nl: Cagayan Valley
-    pl: Cagayan Valley
-    ru: Долина Кагаян
-    sv: Cagayandalen
-    ta: ககயன் பள்ளத்தாக்கு
-    uk: Долина Кагаян
-    ur: کاگایان وادی
-    vi: Thung lũng Cagayan
-    ceb: Lupot sa Cagayan
-    ms: Lembah Cagayan
-    ar: وادي كاغيان
-    zh: 卡加延河谷
-    yue_Hans: 卡加延谷
-    ccp: "\U00011107\U0001112C\U00011109\U0001112C\U00011103\U00011128\U00011120\U0001111A\U00011134
-      \U0001111E\U0001112C\U00011123\U00011129"
-    eu: Cagayan Harana
-    yue: 卡加延谷
-    th: เขตลัมบักนางคากายัน
-    mk: Кагајанска Долина
-    'no': Cagayan Valley
-  comments:
-'03':
-  name: Central Luzon
-  code: '03'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Luzon Central
-    de: Central Luzon
-    en: Central Luzon
-    es: Luzón Central
-    fi: Keski-Luzon
-    fr: Luçon centrale
-    hi: मध्य लूज़ोन
-    hr: Središnji Luzon
-    id: Luzon Tengah
-    it: Luzon Centrale
-    ja: 中部ルソン地方
-    ko: 중앙루손 지방
-    lt: Centrinis Lusonas
-    nb: Central Luzon
-    nl: Central Luzon
-    pl: Luzon Środkowy
-    ru: Центральный Лусон
-    sv: Centrala Luzon
-    ta: மத்திய லூசோன்
-    tr: Merkez Luzon
-    uk: Центральний Лусон
-    ur: وسطی لوزون
-    vi: Trung Luzon
-    ceb: Tunga-tungang Luzon
-    zh: 中央吕宋
-    yue_Hans: 中吕宋
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
-      \U00011123\U0001112A\U0001110E\U00011127\U0001111A\U00011134"
-    eu: Erdialdeko Luzon
-    yue: 中呂宋
-    th: เขตกิตนางลูโซน
-    mk: Централен Лузон
-    'no': Central Luzon
-  comments:
-'05':
-  name: Bicol
-  code: '05'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Regió de Bicol
-    de: Bicol Region
-    en: Bicol
-    es: Bicolandia
-    fi: Bicolin alue
-    fr: Bicol
-    hi: बिकोल क्षेत्र
-    hr: Bicol
-    it: Bicol
-    ja: ビコル地方
-    ko: 비콜 지방
-    lt: Bikolo regionas
-    nb: Bicol Region
-    nl: Bicol Region
-    pl: Bicol Region
-    ru: Бикольский Регион
-    sv: Bikolregionen
-    ta: பிகோல் பிராந்தியம்
-    uk: Бікол
-    ur: بیکول علاقہ
-    vi: Bicol
-    ceb: Bikol
-    zh: 比科爾
-    yue_Hans: 比科尔
-    ccp: "\U0001111D\U00011128\U00011107\U0001112E\U00011123\U00011134"
-    hy: Բիկոլի շրջան
-    eu: Bicolgo eskualdea
-    yue: 比科爾
-    th: เขตบีโคล
-    mk: Бикол
-    'no': Bicol Region
-  comments:
-'06':
-  name: Western Visayas
-  code: '06'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Visayas Occidentals
-    de: Western Visayas
-    en: Western Visayas
-    es: Bisayas Occidentales
-    fi: Länsi-Visayas
-    fr: Visayas occidentales
-    gl: Visayas Occidental
-    he: מערב ויסאיאס
-    hi: पश्चिमी विसाया
-    hr: Zapadni Visayas
-    it: Visayas Occidentale
-    ja: 西ヴィサヤ地方
-    ko: 서비사야 지방
-    lt: Vakarų Visajai
-    nl: Western Visayas
-    pl: Western Visayas
-    ru: Западные Висайи
-    sv: Västra Visayas
-    ta: மேற்கு விசயாசு
-    tr: Batı Visayas
-    uk: Західні Вісаї
-    ur: مغربی ویسایا
-    vi: Tây Visayas
-    ceb: Kasadpang Kabisay-an
-    ar: بيسايا الغربية
-    zh: 西米沙鄢
-    yue_Hans: 西维萨亚斯
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
-    eu: Mendebaldeko Bisayak
-    yue: 西維薩亞斯
-    nb: Western Visayas
-    th: เขตคันลูรังคาบีซายาอัน
-    mk: Западни Висаи
-    'no': Western Visayas
-  comments:
-'07':
-  name: Central Visayas
-  code: '07'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Visayas Centrals
-    de: Central Visayas
-    en: Central Visayas
-    es: Bisayas Centrales
-    fi: Keski-Visayas
-    fr: Visayas centrales
-    hi: मध्य विसाया
-    hr: Središnji Visayas
-    hy: Կենտրոնական Վիսարյա
-    id: Bisaya Tengah
-    it: Visayas Centrale
-    ja: 中部ヴィサヤ地方
-    ko: 중앙비사야 지방
-    lt: Centriniai Visajai
-    nl: Central Visayas
-    pl: Central Visayas
-    pt: Visayas Centrais
-    ru: Центральные Висайи
-    sv: Centrala Visayas
-    ta: மத்திய விசயாசு
-    tr: Merkez Visayas
-    uk: Центральні Вісаї
-    ur: وسطی ویسایا
-    vi: Trung Visayas
-    ceb: Tunga-tungang Kabisay-an
-    ar: بيسايا الوسطى
-    zh: 中米沙鄢
-    yue_Hans: 中维萨亚斯
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
-      \U0001111E\U00011128\U00011125\U0001112C\U00011120\U0001110C\U00011134"
-    eu: Erdialdeko Bisayak
-    yue: 中維薩亞斯
-    th: เขตกิตนางคาบีซายาอัน
-    mk: Централни Висаи
-  comments:
-'09':
-  name: Zamboanga Peninsula
-  code: '09'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Península de Zamboanga
-    de: Zamboanga Peninsula
-    en: Zamboanga Peninsula
-    es: Península de Zamboanga
-    fi: Zamboangan niemimaa
-    fr: péninsule de Zamboanga
-    hi: ज़म्बोआंगा प्रायद्वीप
-    hr: Poluotok Zamboanga
-    id: Semenanjung Zamboanga
-    it: Penisola di Zamboanga
-    ja: サンボアンガ半島地方
-    ko: 삼보앙가 반도 지방
-    lt: Zamboangos pusiasalis
-    nb: Zamboangahalvøya
-    nl: Zamboanga Peninsula
-    pl: Zamboanga Peninsula
-    pt: Península de Zamboanga
-    ru: Полуостров Замбоанга
-    sv: Zamboangahalvön
-    ta: சம்பொவாங்கா தீபகற்பம்
-    tr: Zamboanga Yarımadası
-    uk: Півострів Замбоанга
-    ur: زامبوانگا جزیرہ نما
-    vi: Bán đảo Zamboanga
-    ceb: Zamboanga
-    ar: شبه جزيرة زامبوانجا
-    zh: 三宝颜半岛
-    yue_Hans: 三宝颜半岛
-    ccp: "\U0001110E\U0001111F\U00011134\U0001111D\U0001112E\U00011120\U00011101\U00011109
-      \U0001111B\U0001112C\U0001111A\U00011128\U0001111A\U00011134\U00011125\U0001112A\U00011123"
-    eu: Zamboangako penintsula
-    cs: Poloostrov Zamboanga
-    yue: 三寶顏半島
-    th: เขตตังไวนางซัมบวงกา
-    mk: Полуостров Замбоанга
-    'no': Zamboangahalvøya
-  comments:
-'10':
-  name: Northern Mindanao
-  code: '10'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Mindanao Septentrional
-    de: Northern Mindanao
-    en: Northern Mindanao
-    es: Mindanao del Norte
-    fi: Pohjois-Mindanaon alue
-    fr: Mindanao du Nord
-    hi: उत्तरी मिन्दनाओ
-    hr: Sjeverni Mindanao
-    it: Mindanao Settentrionale
-    ja: 北ミンダナオ地方
-    ko: 북민다나오 지방
-    lt: Šiaurinis Mindanao
-    nb: Northern Mindanao
-    nl: Northern Mindanao
-    pl: Mindanao Północne
-    ru: Северный Минданао
-    sv: Norra Mindanao
-    ta: வடக்கு மின்டனவு
-    uk: Північне Мінданао
-    ur: شمالی مینداناؤ
-    vi: Bắc Mindanao
-    ceb: Amihanang Mindanao
-    zh: 北棉兰老
-    yue_Hans: 北棉兰老
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U0001111F\U00011128\U0001111A\U00011134\U00011113\U0001111A\U00011103\U0001112E"
-    eu: Iparraldeko Mindanao
-    yue: 北棉蘭老
-    th: เขตฮีลากังมินดาเนา
-    mk: Северен Минданао
-    'no': Northern Mindanao
-  comments:
-'12':
-  name: Soccsksargen
-  code: '12'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: SOCCSKSARGEN
-    cs: Soccsksargen
-    de: SOCCSKSARGEN
-    en: Soccsksargen
-    es: Región XII
-    fi: SOCCSKSARGEN
-    fr: SOCCSKSARGEN
-    hi: सोकसारजेन
-    hr: SOCCSKSARGEN
-    it: SOCCSKSARGEN
-    ja: ソクサージェン地方
-    ko: 소크사르젠 지방
-    lt: SOCCSKSARGEN
-    nl: SOCCSKSARGEN
-    pl: SOCCSKSARGEN
-    ru: СОККСКСАРХЕН
-    sv: SOCCSKSARGEN
-    ta: சொக்ஸ்சர்ஜென்
-    uk: Сокксксарген
-    ur: سوکسارگین
-    vi: SOCCSKSARGEN
-    ceb: SOCCSKSARGEN
-    yue_Hans: 中棉兰老
-    ccp: "\U00011125\U00011127\U0001110C\U00011134\U00011125\U00011122\U00011134\U00011109\U0001112C\U0001111A\U00011134"
-    eu: Soccsksargen
-    yue: 中棉蘭老
-    th: เขตโซกซาร์เจน
-    mk: Сокксксархен
-  comments:
-'13':
-  name: Caraga
-  code: '13'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Caraga
-    de: Caraga
-    en: Caraga
-    es: Caraga
-    fi: Caraga
-    fr: Caraga
-    hi: कारागा
-    hr: Caraga
-    it: Caraga
-    ja: カラガ地方
-    ko: 카라가 지방
-    lt: Karaga
-    nl: Caraga
-    pl: Caraga
-    ru: Карага
-    sv: Caraga
-    ta: கரகா
-    uk: Карага
-    ur: کاراگا
-    vi: Caraga
-    ceb: Caraga
-    zh: 卡拉加区
-    yue_Hans: 卡拉加
-    ccp: "\U00011125\U00011122\U00011134\U00011109"
-    eu: Caraga
-    yue: 卡拉加
-    nb: Caraga
-    th: เขตคารากา
-    mk: Карага
-    'no': Caraga
-  comments:
-'15':
-  name: Cordillera Administrative
-  code: '15'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: Regió Administrativa de la Cordillera
-    de: Cordillera Administrative Region
-    en: Cordillera Administrative
-    es: La Cordillera
-    fi: Cordilleran hallinnollinen alue
-    fr: région administrative de la Cordillère
-    hi: कोर्दिल्येरा प्रशासनिक क्षेत्र
-    hr: Administrativna regija Cordillera
-    it: Regione amministrativa Cordillera
-    ja: コルディリェラ行政地域
-    ko: 코르디예라 행정구
-    lt: Kordiljeros administracinis regionas
-    nl: Cordillera Administrative Region
-    pl: Cordillera Administrative Region
-    pt: Região Administrativa de Cordillera
-    ru: Кордильерский административный регион
-    sv: Kordiljärernas administrativa region
-    ta: கோர்டில்லெரா நிர்வாகப் பிராந்தியம்
-    uk: Кордильєрський адміністративний регіон
-    ur: کوردیلیرا انتظامی علاقہ
-    vi: Vùng Hành chính Cordillera
-    ceb: Administratibong Rehiyon sa Cordillera
-    zh: 科迪勒拉行政區
-    yue_Hans: 科迪勒拉
-    ccp: "\U00011107\U00011127\U00011122\U00011134\U00011113\U00011128\U00011123\U0001112C\U00011122
-      \U00011103\U0001112C\U00011116\U00011134\U0001111F\U00011128\U0001111A\U00011128\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011111\U00011128\U0001111B\U00011134"
-    eu: Cordillerako Eskualde Administratiboa
-    yue: 科迪勒拉
-    nb: Cordillera Administrative Region
-    th: เขตบริหารคอร์ดิลเยรา
-    mk: Кордилјера
-    'no': Cordillera Administrative Region
-  comments:
-'40':
-  name: Calabarzon
-  code: '40'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
-  translations:
-    ca: CALABARZON
-    de: Calabarzon
-    en: Calabarzon
-    es: Región IV-A
-    fi: Calabarzon
-    fr: Calabarzon
-    hi: कालाबारज़ोन
-    hr: CALABARZON
-    id: CALABARZON
-    it: CALABARZON
-    ja: カラバルソン地方
-    ko: 칼라바르손 지방
-    lt: CALABARZON
-    ms: CALABARZON
-    nb: Calabarzon
-    nl: Calabarzon
-    pl: CALABARZON
-    ru: КАЛАБАРСОН
-    sv: CALABARZON
-    ta: கலபர்சொன்
-    tr: CALABARZON
-    uk: Калабарсон
-    ur: کالابارزون
-    vi: CALABARZON
-    ceb: CALABARZON
-    zh: 卡拉巴松
-    yue_Hans: 卡拉巴松
-    ccp: "\U00011107\U00011123\U0001111D\U00011122\U00011134\U0001110E\U00011127\U0001111A\U00011134"
-    eu: Calabarzon
-    yue: 卡拉巴鬆
-    th: เขตคาลาบาร์โซน
-    mk: Калабарзон
-    'no': Calabarzon
-  comments:
+  type: province
