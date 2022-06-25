@@ -75,6 +75,15 @@ module ISO3166
       subdivisions.map{|k,v| v['type']}.uniq
     end
 
+    # @return [Array<String>] the list of humanized subdivision types for this country. Uses ActiveSupport's `#humanize` if available
+    def humanized_subdivision_types
+      if String.instance_methods.include?(:humanize)
+        subdivisions.map{|k,v| v['type'].humanize}.uniq
+      else
+        subdivisions.map{|k,v| v['type'][0].upcase + v['type'].tr('_', ' ')[1..-1]}.uniq
+      end
+    end
+
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
     def subdivision_names_with_codes(locale = 'en')
