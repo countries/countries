@@ -209,12 +209,25 @@ describe ISO3166::Data do
           expect(spaces).to be_empty, "whitespace characters in subdivision type in #{file} - #{spaces.keys}"
         end
       end
+
+      it 'has a non-blank name for all subdivisions' do
+        Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|
+          data = YAML.load_file(file)
+          expect(data.values.none?{|s| s['name'].nil? }).to be_truthy, "empty subdivision name in #{file}"
+        end
+      end
     end
 
     context 'cached country subdivision data' do
       it 'has a non-blank code for all subdivisions' do
         ISO3166::Country.all.each do |country|
           expect(country.subdivisions.values.none?{|s| s['code'].nil? }).to be_truthy, "empty subdivision code in #{country}"
+        end
+      end
+
+      it 'has a non-blank name for all subdivisions' do
+        ISO3166::Country.all.each do |country|
+          expect(country.subdivisions.values.none?{|s| s['name'].nil? }).to be_truthy, "empty subdivision name in #{country}"
         end
       end
     end
