@@ -266,6 +266,30 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'subdivisions_of_types' do
+    it "given a single type, should return an array of subdivisions that match the type" do
+      us_states = country.subdivisions_of_types(%w[state])
+      expect(us_states.size).to eq(50)
+      dc = country.subdivisions_of_types(%w[district])
+      expect(dc.size).to eq(1)
+    end
+
+    it "given multiple types, should return an array of subdivisions matching the types" do
+      us_states_plus_dc = country.subdivisions_of_types(%w[state district])
+      expect(us_states_plus_dc.size).to eq(51)
+    end
+
+    it "given multiple types where at least one does not exist for that country, should work without issue" do
+      us_states_plus_dc = country.subdivisions_of_types(%w[state district governorate])
+      expect(us_states_plus_dc.size).to eq(51)
+    end
+
+    it "given only types that do not exist for that country, should return an empty collection" do
+      should_be_empty = ISO3166::Country['PT'].subdivisions_of_types(%w[state county])
+      expect(should_be_empty).to be_empty
+    end
+  end
+
   describe 'humanized_subdivision_types' do
     it "should return an array of humanized subdivision types" do
       expect(country.humanized_subdivision_types).to contain_exactly('District', 'State', 'Outlying area')
