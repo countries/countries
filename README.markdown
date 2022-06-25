@@ -114,8 +114,8 @@ c.nationality # => "American"
 ```ruby
 c.subdivisions # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 c.subdivision_types # => ["state", "outlying_area", "district"]
-c.humanized_subdivision_types # => ["State", "Outlying area", "District"]
 c.subdivisions_of_types(['state']) # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
+c.humanized_subdivision_types # => ["State", "Outlying area", "District"]
 
 # This is now deprecated. #states is an alias of #subdivisions and returns all subdivisions regardless of type
 c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }

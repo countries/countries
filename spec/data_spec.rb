@@ -231,5 +231,15 @@ describe ISO3166::Data do
         end
       end
     end
+
+    context 'names in Data' do
+      it 'should be unique (to allow .find_by_any_name work properly)' do
+        names = ISO3166::Data.cache.map do |_k, v|
+          [v['iso_short_name'], v['unofficial_names']].flatten.uniq
+        end.flatten
+
+        expect(names.size).to eq(names.uniq.size)
+      end
+    end
   end
 end

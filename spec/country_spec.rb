@@ -221,7 +221,7 @@ describe ISO3166::Country do
   end
 
   describe 'subdivisions' do
-    let(:virginia) { country.states['VA'] }
+    let(:virginia) { country.subdivisions['VA'] }
     it 'should return an empty hash for a country with no ISO3166-2' do
       expect(ISO3166::Country.search('VA').subdivisions.size).to eq(0)
     end
@@ -230,8 +230,8 @@ describe ISO3166::Country do
       expect(country.subdivisions.size).to eq(57)
     end
 
-    it 'should be available through states' do
-      expect(country.states.size).to eq(57)
+    it '#states should be deprecated' do
+      expect {country.states}.to output.to_stderr
     end
 
     it 'should be a subdivision object' do
@@ -248,6 +248,36 @@ describe ISO3166::Country do
 
     it 'should behave like a hash' do
       expect(virginia['name']).to eq('Virginia')
+    end
+  end
+
+  describe 'subdivision_types' do
+    it "should return an array of subdivision types" do
+      expect(country.subdivision_types).to contain_exactly('district', 'state', 'outlying_area')
+    end
+
+    it "should return an array of subdivision types even if there is only a single type" do
+      expect(ISO3166::Country['LI'].subdivision_types).to contain_exactly('commune')
+    end
+
+    it "should return an empty array if country has no subdivisions" do
+      expect(ISO3166::Country['AS'].subdivisions?).to be_falsey
+      expect(ISO3166::Country['AS'].subdivision_types).to eq([])
+    end
+  end
+
+  describe 'humanized_subdivision_types' do
+    it "should return an array of humanized subdivision types" do
+      expect(country.humanized_subdivision_types).to contain_exactly('District', 'State', 'Outlying area')
+    end
+
+    it "should return an array of subdivision types even if there is only a single type" do
+      expect(ISO3166::Country['LI'].humanized_subdivision_types).to contain_exactly('Commune')
+    end
+
+    it "should return an empty array if country has no subdivisions" do
+      expect(ISO3166::Country['AS'].subdivisions?).to be_falsey
+      expect(ISO3166::Country['AS'].humanized_subdivision_types).to eq([])
     end
   end
 
@@ -893,16 +923,6 @@ describe ISO3166::Country do
         let(:method_name) { :find_country_by_invalid }
         it { is_expected.to be false }
       end
-    end
-  end
-
-  describe 'names in Data' do
-    it 'should be unique (to allow .find_by_any_name work properly)' do
-      names = ISO3166::Data.cache.map do |_k, v|
-        [v['iso_short_name'], v['unofficial_names']].flatten.uniq
-      end.flatten
-
-      expect(names.size).to eq(names.uniq.size)
     end
   end
 
