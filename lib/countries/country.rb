@@ -70,8 +70,8 @@ module ISO3166
       subdivisions.select{|k,v| types.include?(v.type)}
     end
 
-    # @return [Array<String>] the list of subdivisions types for this country
-    def subdivisions_types
+    # @return [Array<String>] the list of subdivision types for this country
+    def subdivision_types
       subdivisions.map{|k,v| v['type']}.uniq
     end
 

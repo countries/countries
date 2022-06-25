@@ -29,7 +29,7 @@ The 5.0 release removed support for Ruby 2.5 (EOL 2021-03-01) and 2.6 (EOL 2022-
 
 In release 5.1 a `type` attribute was added to the subdivisions object, to allow filtering the collection of subdivisions.
 
-- `Country#subdivisions_types` returns a list of subdivision types for that country (lowercase, snake_cased)
+- `Country#subdivision_types` returns a list of subdivision types for that country (lowercase, snake_cased)
 - `#subdivisions_of_types(types)` accepts an array of subdivision types and returns the subdivisions for those types
 
 The `#states` method is deprecated to avoid confusion, as this method is an alias to `#subdivisions` and returns all subdivisions, regardless of type.
