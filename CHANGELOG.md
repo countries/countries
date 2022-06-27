@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.0](https://github.com/countries/countries/releases/tag/v5.1.0') (2022/06/27 07:50 +00:00)
+
+**Important changes**
+- `Subdivision` now has a `type` attribute obtained from ISO3166-2 subdivision types. `type` is a _lowercase_ and _snake_cased_ string.
+- Adds `Country#subdivision_types` and `#humanized_subdivision_types` to list a country's subdivision types
+- Adds `Country#subdivisions_of_types(types)` to allow getting subdivisions of given type(s)
+- `Country#states` is now deprecated to avoid confusion (this method was just an alias to `#subdivisions` and retuns all subdivisions, regarless of type)
+
+**Merged pull requests:**
+
+* Remove i18n_data dependency [\#755](https://github.com/countries/countries/pull/755) ([pmor](https://github.com/pmor))
+* Update subdivision YAML with codes [\#757](https://github.com/countries/countries/pull/757) ([pmor](https://github.com/pmor))
+* Add subdivision types from ISO3166-2 [\#758](https://github.com/countries/countries/pull/758) ([pmor](https://github.com/pmor))
+
 ## [5.0.2](https://github.com/countries/countries/releases/tag/v5.0.2') (2022/06/02 20:01 +00:00)
 
 **Merged pull requests:**
