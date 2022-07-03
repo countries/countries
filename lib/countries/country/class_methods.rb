@@ -64,17 +64,6 @@ module ISO3166
       translations.merge(custom_countries)
     end
 
-    def subdivisions(alpha2)
-      @subdivisions ||= {}
-      @subdivisions[alpha2] ||= create_subdivisions(subdivision_data(alpha2))
-    end
-
-    def create_subdivisions(subdivision_data)
-      subdivision_data.each_with_object({}) do |(k, v), hash|
-        hash[k] = Subdivision.new(v)
-      end
-    end
-
     protected
 
     def strip_accents(string)
@@ -83,15 +72,6 @@ module ISO3166
       else
         string.to_s.unaccent.downcase
       end
-    end
-
-    def subdivision_data(alpha2)
-      file = subdivision_file_path(alpha2)
-      File.exist?(file) ? YAML.load_file(file) : {}
-    end
-
-    def subdivision_file_path(alpha2)
-      File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")
     end
 
     # Some methods like parse_value are expensive in that they

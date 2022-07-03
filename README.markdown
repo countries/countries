@@ -256,6 +256,9 @@ ISO3166.configure do |config|
 end
 ```
 
+If you change the value of `ISO3166.configuration.locales` after initialization, you should call `ISO3166::Data.reset` to reset the data cache, or you may end up with inconsistently loaded locales.
+As of 5.1.1, subdivision translations also respect this and will only load the selected locales.
+
 ## Loading Custom Data
 
 As of 2.0 countries supports loading custom countries / overriding data in its data set, though if you choose to do this please contribute back to the upstream repo!

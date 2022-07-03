@@ -8,6 +8,7 @@ module ISO3166
     @loaded_country_codes = []
     @registered_data = {}
     @mutex = Mutex.new
+    @subdivisions = {}
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
@@ -44,6 +45,7 @@ module ISO3166
       # Resets the loaded data and cache
       def reset
         @cache = {}
+        @subdivisions = {}
         @registered_data = {}
         ISO3166.configuration.loaded_locales = []
       end
@@ -66,6 +68,26 @@ module ISO3166
 
       def datafile_path(file_array)
         File.join([@cache_dir] + file_array)
+      end
+
+      def subdivision_data(alpha2)
+        file = subdivision_file_path(alpha2)
+        data = File.exist?(file) ? YAML.load_file(file) : {}
+        locales = ISO3166.configuration.locales.map(&:to_s)
+        data.each_value{ |v| v['translations'] = v['translations'].slice(*locales)}
+
+        return data
+      end
+
+      def subdivisions(alpha2)
+        @subdivisions ||= {}
+        @subdivisions[alpha2] ||= create_subdivisions(ISO3166::Data.subdivision_data(alpha2))
+      end
+
+      def create_subdivisions(subdivision_data)
+        subdivision_data.each_with_object({}) do |(k, v), hash|
+          hash[k] = Subdivision.new(v)
+        end
       end
 
       private
@@ -175,6 +197,10 @@ module ISO3166
         end
 
         data
+      end
+
+      def subdivision_file_path(alpha2)
+        File.join(File.dirname(__FILE__), 'data', 'subdivisions', "#{alpha2}.yaml")
       end
     end
   end

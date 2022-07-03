@@ -58,9 +58,9 @@ module ISO3166
     # @return [Array<ISO3166::Subdivision>] the list of subdivisions for this Country.
     def subdivisions
       @subdivisions ||= if data['subdivisions']
-                          self.class.create_subdivisions(data['subdivisions'])
+                          ISO3166::Data.create_subdivisions(data['subdivisions'])
                         else
-                          self.class.subdivisions(alpha2)
+                          ISO3166::Data.subdivisions(alpha2)
                         end
     end
 
