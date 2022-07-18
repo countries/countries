@@ -26,6 +26,17 @@ describe ISO3166::Data do
     expect(data['translated_names'].size).to eq 1
   end
 
+  it 'only loads subdivision translations for the configured locales' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.reset
+    subdivisions = ISO3166::Data.subdivisions('US')
+    expect(subdivisions.values.first['translations'].keys).to eq(%w[en])
+    ISO3166.configuration.locales = %i[es de en]
+    ISO3166::Data.reset
+    subdivisions = ISO3166::Data.subdivisions('US')
+    expect(subdivisions.values.first['translations'].keys).to eq(%w[es de en])
+  end
+
   describe '#codes' do
     it 'returns an array' do
       data = ISO3166::Data.codes
