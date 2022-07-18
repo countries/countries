@@ -3,9 +3,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.1](https://github.com/countries/countries/releases/tag/v5.1.1') (2022/07/18 09:10 +00:00)
+
+**Important changes**
+
+- Subdivision loading now respects the configured locales and will only load subdivision translations for the configured locales instead of loading all translations. This fixes [\#580](https://github.com/countries/countries/issues/580)
+
+**Merged pull requests:**
+
+* Refactor subdivision loading to respect the configured locales. [\#762](https://github.com/countries/countries/pull/762) ([pmor](https://github.com/pmor))
+* Add an alternative name for USVI lookup [\#763](https://github.com/countries/countries/pull/763) ([tadejm](https://github.com/tadejm))
+
+
 ## [5.1.0](https://github.com/countries/countries/releases/tag/v5.1.0') (2022/06/27 07:50 +00:00)
 
 **Important changes**
+
 - `Subdivision` now has a `type` attribute obtained from ISO3166-2 subdivision types. `type` is a _lowercase_ and _snake_cased_ string.
 - Adds `Country#subdivision_types` and `#humanized_subdivision_types` to list a country's subdivision types
 - Adds `Country#subdivisions_of_types(types)` to allow getting subdivisions of given type(s)
