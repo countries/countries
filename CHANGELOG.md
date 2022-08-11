@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.2](https://github.com/countries/countries/releases/tag/v5.1.1') (2022/08/11 14:35 +00:00)
+
+* Missing unofficial translations, addresses the remaining translations in [\#580](https://github.com/countries/countries/issues/580) -  [\#764](https://github.com/countries/countries/pull/764) ([pmor](https://github.com/pmor))
+
+
 ## [5.1.1](https://github.com/countries/countries/releases/tag/v5.1.1') (2022/07/18 09:10 +00:00)
 
 **Important changes**
