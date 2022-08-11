@@ -48,9 +48,11 @@ describe ISO3166::Country do
   end
 
   it 'should return alternate names' do
-    expect(country.unofficial_names).to eq(['United States', 'USA', 'Murica',
-                                 'Vereinigte Staaten von Amerika', 'États-Unis',
-                                 'Estados Unidos', 'アメリカ合衆国', 'Verenigde Staten'])
+    expect(country.unofficial_names).to eq(["United States", "USA",
+                                            "Vereinigte Staaten von Amerika",
+                                            "États-Unis", "Estados Unidos",
+                                            "アメリカ合衆国", "Verenigde Staten",
+                                            "Соединенные Штаты Америки"])
   end
 
   it 'should return translations' do
