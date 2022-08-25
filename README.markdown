@@ -69,7 +69,7 @@ c    = ISO3166::Country.find_country_by_alpha2("FR")
 For a list of available attributes please see `ISO3166::DEFAULT_COUNTRY_HASH`.
 Note: searches are *case insensitive and ignore accents*.
 
-_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [UPGRADE.md](../blob/master/UPGRADE.md) for more information_
+_Please note that `find_by_name`, `find_by_names`, `find_*_by_name` and `find_*_by_names`  methods were removed in 5.0. See [UPGRADE.md](../master/UPGRADE.md) for more information_
 
 ## Country Info
 
