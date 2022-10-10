@@ -22,7 +22,7 @@ jobs:
          - ruby-version: 3.1.2
            bundler-version: default
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Ruby ${{ matrix.ruby-version }}
       uses: ruby/setup-ruby@v1
       with:
