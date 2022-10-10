@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'sixarm_ruby_unaccent'
+require 'unaccent'
 
 module ISO3166
   UNSEARCHABLE_METHODS = [:translations].freeze
@@ -68,9 +68,9 @@ module ISO3166
 
     def strip_accents(string)
       if string.is_a?(Regexp)
-        Regexp.new(string.source.unaccent, 'i')
+        Regexp.new(Unaccent.unaccent(string.source), 'i')
       else
-        string.to_s.unaccent.downcase
+        Unaccent.unaccent(string.to_s).downcase
       end
     end
 

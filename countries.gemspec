@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.7'
 
-  gem.add_dependency('sixarm_ruby_unaccent', '~> 1.1')
+  gem.add_dependency('unaccent', '~> 0.3')
   gem.add_development_dependency('activesupport', '>= 3')
   gem.add_development_dependency('nokogiri', '>= 1.8')
   gem.add_development_dependency('rspec', '>= 3')
