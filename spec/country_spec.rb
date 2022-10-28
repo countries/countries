@@ -824,10 +824,19 @@ describe ISO3166::Country do
       end
     end
 
+    context 'sanity check for #771' do
+      let(:turkey) { ISO3166::Country.find_country_by_any_name('Turkey') }
+
+      it 'should be a country instance' do
+        expect(turkey).to be_a(ISO3166::Country)
+        expect(turkey.alpha2).to eq('TR')
+      end
+    end
+
     context 'regression test for #746' do
       let(:no_country) { ISO3166::Country.find_country_by_any_name(nil) }
 
-      it 'should be a country instance' do
+      it 'should not be a country instance' do
         expect(no_country).to_not be_a(ISO3166::Country)
         expect(no_country).to eq nil
       end
@@ -843,7 +852,7 @@ describe ISO3166::Country do
       let(:no_country) { ISO3166::Country.find_country_by_translated_names(nil) }
       let(:zimbabwe) { ISO3166::Country['ZW'] }
 
-      it 'should be a country instance' do
+      it 'should not be a country instance' do
         expect(no_country).to_not be_a(ISO3166::Country)
         expect(no_country).to eq nil
       end
