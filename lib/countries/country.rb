@@ -121,7 +121,7 @@ module ISO3166
 
     # @return [Array<String>] the list of names for this Country in all loaded locales.
     def translated_names
-      data['translations'].values
+      data['translations'].values.compact
     end
 
     # @param locale [String] The locale to use for translations.

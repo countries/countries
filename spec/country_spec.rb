@@ -816,12 +816,33 @@ describe ISO3166::Country do
       end
     end
 
-    context 'regression test for #388' do
-      let(:no_country) { ISO3166::Country.find_country_by_translated_names(nil) }
+    context 'regression test for #746' do
+      let(:no_country) { ISO3166::Country.find_country_by_any_name(nil) }
 
       it 'should be a country instance' do
         expect(no_country).to_not be_a(ISO3166::Country)
         expect(no_country).to eq nil
+      end
+    end
+
+    context 'regression test for #388/#746/#776' do
+      before do
+        ISO3166.configure do |config|
+          config.locales = [:af, :am, :ar, :as, :az, :be, :bg, :bn, :br, :bs, :ca, :cs, :cy, :da, :de, :dz, :el, :en, :eo, :es, :et, :eu, :fa, :fi, :fo, :fr, :ga, :gl, :gu, :he, :hi, :hr, :hu, :hy, :ia, :id, :is, :it, :ja, :ka, :kk, :km, :kn, :ko, :ku, :lt, :lv, :mi, :mk, :ml, :mn, :mr, :ms, :mt, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :ps, :pt, :ro, :ru, :rw, :si, :sk, :sl, :so, :sq, :sr, :sv, :sw, :ta, :te, :th, :ti, :tk, :tl, :tr, :tt, :ug, :uk, :ve, :vi, :wa, :wo, :xh, :zh, :zu]
+        end
+      end
+
+      let(:no_country) { ISO3166::Country.find_country_by_translated_names(nil) }
+      let(:zimbabwe) { ISO3166::Country['ZW'] }
+
+      it 'should be a country instance' do
+        expect(no_country).to_not be_a(ISO3166::Country)
+        expect(no_country).to eq nil
+      end
+
+      it 'translated_names should not include nil values' do
+        expect(zimbabwe.translation('no')).to be_nil
+        expect(zimbabwe.translated_names).not_to include(nil)
       end
     end
 
