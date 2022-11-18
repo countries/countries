@@ -52,7 +52,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 **Merged pull requests:**
 
-* Remove i18n_data dependency [\#755](https://github.com/countries/countries/pull/755) ([pmor](https://github.com/pmor))
+* Remove i18n_data dependency [\#756](https://github.com/countries/countries/pull/756) ([pmor](https://github.com/pmor))
 * Update subdivision YAML with codes [\#757](https://github.com/countries/countries/pull/757) ([pmor](https://github.com/pmor))
 * Add subdivision types from ISO3166-2 [\#758](https://github.com/countries/countries/pull/758) ([pmor](https://github.com/pmor))
 
