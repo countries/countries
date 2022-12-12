@@ -26,6 +26,13 @@ Simply load a new country object using Country.new(*alpha2*) or the shortcut Cou
 c = ISO3166::Country.new('US')
 ```
 
+Get all country codes (*alpha2*).
+
+```ruby
+ISO3166::Country.codes
+#  ["TJ", "JM", "HT",...]
+```
+
 ## Configuration
 
 ### Country Helper
