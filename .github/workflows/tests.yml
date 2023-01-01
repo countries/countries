@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
          include:
-         - ruby-version: 2.7.6
+         - ruby-version: 2.7.7
            bundler-version: default
          - ruby-version: 3.0.5
            bundler-version: default
