@@ -3,7 +3,31 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [5.2.0](https://github.com/countries/countries/releases/tag/v5.1.3') (2022/10/28 14:35 +00:00)
+## [5.2.1](https://github.com/countries/countries/releases/tag/v5.2.1') (2022/12/22 15:29 +00:00)
+
+**Important changes**
+
+* The Republic of Croatia will join the Eurozone and switch currency to `EUR` in Jan 1 2023. If you update this gem before that date and need to have correct currency codes as of 2022, I recommend using an initializer to re-register Croatia with `HRK`, which you could wrap with a check of the current date, eg:
+
+  ```ruby
+    # In an initializer
+    if Date.today.year == 2022
+      new_data = ISO3166::Country['HR'].data
+      new_data.transform_keys! &:to_sym
+      new_data[:currency_code] = 'HRK'
+      ISO3166::Data.register new_data
+    end
+  ```
+
+**Merged pull requests:**
+
+* Fix changelog to point to correct PR [\#778](https://github.com/countries/countries/pull/778) ([carlosantoniodasilva](https://github.com/carlosantoniodasilva))
+* Document how to get country codes (alpha2) [ci skip] [\#781](https://github.com/countries/countries/pull/781) ([jean-francois-labbe](https://github.com/carlosantoniodasilva))
+* Update Croatia's currency to EUR [\#784](https://github.com/countries/countries/pull/784) ([pmor](https://github.com/pmor))
+* Duplicate `I18n.available_locales` into `default_locales` [\#785](https://github.com/countries/countries/pull/785) ([pmor](https://github.com/pmor))
+
+
+## [5.2.0](https://github.com/countries/countries/releases/tag/v5.2.0') (2022/10/28 14:35 +00:00)
 
 **Important changes**
 

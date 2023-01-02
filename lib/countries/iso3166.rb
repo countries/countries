@@ -3,7 +3,6 @@
 require 'yaml'
 require 'json'
 
-require 'countries/kwarg_struct'
 require 'countries/configuration'
 require 'countries/data'
 require 'countries/structure'
