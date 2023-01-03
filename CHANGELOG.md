@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.3.0](https://github.com/countries/countries/releases/tag/v5.3.0') (2023/01/03 17:02 +00:00)
+
+**Merged pull requests:**
+
+* Remove dead code: KwargStruct [\#787](https://github.com/countries/countries/pull/787) ([pmor](https://github.com/pmor))
+* Update data for Turkmenistan and add Turkmen translation [\#789](https://github.com/countries/countries/pull/789) ([msuliq](https://github.com/msuliq))
+* Add Country#subdivision_names method [\#788](https://github.com/countries/countries/pull/788) ([pmor](https://github.com/pmor))
+
 ## [5.2.1](https://github.com/countries/countries/releases/tag/v5.2.1') (2022/12/22 15:29 +00:00)
 
 **Important changes**
