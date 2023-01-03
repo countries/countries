@@ -335,6 +335,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'subdivision_names' do
+    it 'should return an alphabetized list of all subdivisions names' do
+      subdivisions = ISO3166::Country.search('EG').subdivision_names
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first).to eq('Alexandria')
+    end
+
+    it 'should return an alphabetized list of subdivision names translated to current locale with codes' do
+      ISO3166.configuration.locales = %i[es de en]
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names(:es)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first).to eq('Al Iskandariyah')
+    end
+  end
+
   describe 'valid?' do
     it 'should return true if country is valid' do
       expect(ISO3166::Country.new('US')).to be_valid
@@ -612,6 +632,12 @@ describe ISO3166::Country do
       expect(spain_data.keys).to eq(['ES'])
     end
 
+    it 'finds country from a subdivision name' do
+      gb_data = ISO3166::Country.find_all_by(:subdivision_names, 'Scotland')
+      expect(gb_data).to be_a Hash
+      expect(gb_data.keys).to eq(['GB'])
+    end
+
     it 'performs reasonably' do
       start = Time.now
       250.times do
@@ -697,6 +723,13 @@ describe ISO3166::Country do
       subject { ISO3166::Country.find_by_unofficial_names('Polonia') }
       it 'should return' do
         expect(subject.first).to eq('PL')
+      end
+    end
+
+    context "when search name in 'subdivision_names'" do
+      subject { ISO3166::Country.find_by_subdivision_names('Scotland') }
+      it 'should return' do
+        expect(subject.first).to eq('GB')
       end
     end
 
