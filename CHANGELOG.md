@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [5.3.1](https://github.com/countries/countries/releases/tag/v5.3.1') (2023/01/26 14:05 +00:00)
 
 * Update countries-th.yaml [\#792](https://github.com/countries/countries/pull/792) ([worrawutp](https://github.com/worrawutp))
-* Fix [\#792](https://github.com/countries/countries/issues/792) - Restore `Australia` as first unnoficial name for Australia ([pmor](https://github.com/pmor))
+* Fix [\#765](https://github.com/countries/countries/issues/765) - Restore `Australia` as first unnoficial name for Australia ([pmor](https://github.com/pmor))
 
 
 **Full Changelog**: https://github.com/countries/countries/compare/v5.3.0...v5.3.1
