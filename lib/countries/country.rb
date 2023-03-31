@@ -121,6 +121,11 @@ module ISO3166
       data['esm_member'].nil? ? in_eea? : data['esm_member']
     end
 
+    # +true+ if this country is a member of the EU VAT Area.
+    def in_eu_vat?
+      data['euvat_member'].nil? ? in_eu? : data['euvat_member']
+    end
+
     def to_s
       data['iso_short_name']
     end
