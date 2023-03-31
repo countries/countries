@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.3.2](https://github.com/countries/countries/releases/tag/v5.3.2') (2023/03/31 13:46 +00:00)
+
+* Add Japanese translation for Czechia, North Macedonia and Eswatini [\#792](https://github.com/countries/countries/pull/795) ([nmbakfm](https://github.com/nmbakfm))
 
 ## [5.3.1](https://github.com/countries/countries/releases/tag/v5.3.1') (2023/01/26 14:05 +00:00)
 
