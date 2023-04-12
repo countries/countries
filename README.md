@@ -200,6 +200,12 @@ c.in_eea? # => false
 c.in_esm? # => false
 ```
 
+### EU VAT Area membership
+
+```ruby
+c.in_eu_vat? # => false
+```
+
 ## Country Code in Emoji
 
 ```ruby
