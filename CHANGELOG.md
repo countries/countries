@@ -3,9 +3,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.4.0](https://github.com/countries/countries/releases/tag/v5.4.0') (2023/04/12 12:44 +00:00)
+
+* fix: RUP are part of the European Union [\#794](https://github.com/countries/countries/pull/794) ([btrd](https://github.com/btrd))
+* Fix wrong translation of MY in gn locale [\#798](https://github.com/countries/countries/pull/798) ([pmor](https://github.com/pmor))
+* Add EU VAT Area membership [\#796](https://github.com/countries/countries/pull/796) ([pmor](https://github.com/pmor))
+
 ## [5.3.2](https://github.com/countries/countries/releases/tag/v5.3.2') (2023/03/31 13:46 +00:00)
 
-* Add Japanese translation for Czechia, North Macedonia and Eswatini [\#792](https://github.com/countries/countries/pull/795) ([nmbakfm](https://github.com/nmbakfm))
+* Add Japanese translation for Czechia, North Macedonia and Eswatini [\#795](https://github.com/countries/countries/pull/795) ([nmbakfm](https://github.com/nmbakfm))
 
 ## [5.3.1](https://github.com/countries/countries/releases/tag/v5.3.1') (2023/01/26 14:05 +00:00)
 
