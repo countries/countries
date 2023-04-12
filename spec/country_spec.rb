@@ -1088,6 +1088,28 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_eu_vat?' do
+    let(:netherlands) { ISO3166::Country.search('NL') }
+    let(:guadeloupe) { ISO3166::Country.search('GP') }
+    let(:monaco) { ISO3166::Country.search('MC') }
+
+    it 'should return false for countries without euvat_member or eu_member flag' do
+      expect(country.in_eu_vat?).to be_falsey
+    end
+
+    it 'should return true for countries with eu_member flag set to true' do
+      expect(netherlands.in_eu_vat?).to be_truthy
+    end
+
+    it 'should return false for countries with euvat_member flag set to false' do
+      expect(guadeloupe.in_eu_vat?).to be_falsey
+    end
+
+    it 'should return true for countries with euvat_member flag set to true' do
+      expect(monaco.in_eu_vat?).to be_truthy
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'
