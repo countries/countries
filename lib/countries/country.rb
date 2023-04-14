@@ -111,11 +111,12 @@ module ISO3166
       data['eu_member'].nil? ? false : data['eu_member']
     end
 
-    
+    # +true+ if this country is a member of the G7.
     def in_g7?
       data['g7_member'].nil? ? false : data['g7_member']
     end
 
+    # +true+ if this country is a member of the G20.
     def in_g20?
       data['g20_member'].nil? ? false : data['g20_member']
     end
