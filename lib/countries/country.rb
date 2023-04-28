@@ -170,10 +170,12 @@ module ISO3166
       @local_name ||= local_names.first
     end
 
-    # @param subdivision_str [String] A subdivision name to search for. Search includes translated subdivision names.
+    # @param subdivision_str [String] A subdivision name or code to search for. Search includes translated subdivision names.
     # @return [Subdivision] The first subdivision matching the provided string
     def find_subdivision_by_name(subdivision_str)
-      subdivisions.select {|k,v| subdivision_str == k || v.translations.values.include?(subdivision_str)}.values.first
+      subdivisions.select do |k,v|
+        subdivision_str == k || v.name == subdivision_str || v.translations.values.include?(subdivision_str)
+      end.values.first
     end
 
     # @!attribute alpha2

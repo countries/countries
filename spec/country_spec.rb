@@ -1223,4 +1223,25 @@ describe ISO3166::Country do
       end
     end
   end
+
+  describe 'find_subdivision_by_name' do
+    let(:italy) { ISO3166::Country.new('IT') }
+    let(:napoli) { italy.subdivisions['NA'] }
+
+    before do
+      ISO3166.configuration.locales = %i[pt]
+    end
+
+    it 'should find a subdivision using the official name' do
+      expect(ISO3166::Country.new("IT").find_subdivision_by_name("Napoli")).to eq napoli
+    end
+
+    it 'should find a subdivision using the code' do
+      expect(ISO3166::Country.new("IT").find_subdivision_by_name("NA")).to eq napoli
+    end
+
+    it 'should find a subdivision using a translated name' do
+      expect(ISO3166::Country.new("IT").find_subdivision_by_name("Nápoles")).to eq napoli
+    end
+  end
 end
