@@ -11,6 +11,6 @@ gem 'tzinfo'
 gemspec
 
 group :development, :test do
-  gem 'pry'
+  gem 'debug'
   gem 'yaml'
 end
