@@ -69,9 +69,9 @@ module ISO3166
       all.select{|i| i.send(query_method).include? query_val}.collect{|e| e.send(result_method)}
     end
 
-    def collect_likely_states(state_str, result_method=:itself)
+    def collect_likely_subdivisions(subdivision_str, result_method=:itself)
       return nil unless method_defined? result_method
-      all.reject{|e| e.subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| state_str == k or state_str.in? v.values}.blank?}.map{|e| e.send(result_method)}
+      all.reject{|e| e.subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| subdivision_str == k or subdivision_str.in? v.values}.blank?}.map{|e| e.send(result_method)}
     end
 
     protected
