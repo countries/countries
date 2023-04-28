@@ -170,6 +170,12 @@ module ISO3166
       @local_name ||= local_names.first
     end
 
+    # @param subdivision_str [String] A subdivision name to search for. Search includes translated subdivision names.
+    # @return [Subdivision] The first subdivision matching the provided string
+    def find_subdivision_by_name(subdivision_str)
+      subdivisions.select {|k,v| subdivision_str == k || v.translations.values.include?(subdivision_str)}.values.first
+    end
+
     # @!attribute alpha2
     #   @return [String] the ISO3166 alpha-2 code for this Country
     #
@@ -263,11 +269,6 @@ module ISO3166
                 ISO3166::Data.new(@country_data_or_code).call
               end
     end
-
-    def find_subdivision_with(subdivision_str)
-      subdivisions.select{|k,v| subdivision_str == k or subdivision_str.in? v.translations.values}.values.shift
-    end
-
     def find_subdivision_code_with_translations(subdivision_str)
       subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| subdivision_str == k or subdivision_str.in? v.values}
     end
