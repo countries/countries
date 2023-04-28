@@ -269,9 +269,5 @@ module ISO3166
                 ISO3166::Data.new(@country_data_or_code).call
               end
     end
-    def find_subdivision_code_with_translations(subdivision_str)
-      subdivisions.map{|k,v| [k,v.translations]}.to_h.select{|k,v| subdivision_str == k or subdivision_str.in? v.values}
-    end
-
   end
 end
