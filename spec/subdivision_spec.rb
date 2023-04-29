@@ -31,4 +31,12 @@ describe ISO3166::Subdivision do
       end
     end
   end
+
+  describe 'code_with_translations' do
+    before { ISO3166.configuration.locales = %i[en pt] }
+    it 'returns a hash' do
+      expect(ISO3166::Country.new('IT').subdivisions['NA'].code_with_translations).to eq({ 'NA' => { 'en' => 'Naples',
+                                                                                                     'pt' => 'Nápoles' } })
+    end
+  end
 end

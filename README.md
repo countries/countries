@@ -132,6 +132,18 @@ c.states # => {"CO" => {"name" => "Colorado", "names" => "Colorado"}, ... }
 
 # Get specific translations for the country subdivisions
 c.subdivision_names_with_codes('es') #=> [ ..., ["Nuevo Hampshire", "NH"], ["Nueva Jersey", "NJ"], ... ]
+
+# Subdivision code with translations for all loaded locales
+c.subdivisions['NY'].code_with_translations #=> {"NY"=>{"en"=>"New York"}, ...}
+```
+
+`#find_subdivision_by_name` Find a country's state using its code or name in any translation
+
+```ruby
+> ISO3166::Country.new("IT").find_subdivision_by_name("Toscana").geo
+ => {"latitude"=>43.771389, "longitude"=>11.254167, ... }
+> ISO3166::Country.new("IT").find_subdivision_by_name("Tuscany").geo
+ => {"latitude"=>43.771389, "longitude"=>11.254167, ... }
 ```
 
 ### Location
@@ -206,7 +218,7 @@ c.in_esm? # => false
 c.in_eu_vat? # => false
 ```
 
-## Country Code in Emoji
+### Country Code in Emoji
 
 ```ruby
 c = Country['MY']
@@ -218,6 +230,28 @@ c.emoji_flag # => "🇲🇾"
 ```ruby
 ISO3166::Country.pluck(:alpha2, :iso_short_name) # => [["AD", "Andorra"], ["AE", "United Arab Emirates"], ...
 ```
+
+`.collect_countries_with` allows to collect various countries' informations using any valid method and query value:
+```ruby
+> ISO3166::Country.collect_countries_with("VR",:subdivisions,:common_name)
+ => ["Italy", "Monaco"]
+> ISO3166::Country.collect_countries_with("Caribbean",:subregion,:languages_spoken).flatten.uniq
+ => ["en", "fr", "es", "ht", "nl"]
+> ISO3166::Country.collect_countries_with("Oceania",:region,:international_prefix).uniq
+ => ["00", "011", "0011", "19", "05"]
+> ISO3166::Country.collect_countries_with("Antarctica",:continent,:emoji_flag)
+ => ["🇦🇶", "🇬🇸", "🇧🇻", "🇹🇫", "🇭🇲"]
+> ISO3166::Country.collect_countries_with("🇸🇨",:emoji_flag,:common_name)
+ => ["Seychelles"]
+```
+
+`.collect_likely_countries_by_subdivision_name` allows to lookup all countries having the given state code or state name (in any translation)
+
+```ruby
+ISO3166::Country.collect_likely_countries_by_subdivision_name("San José",:common_name)
+ => ["Costa Rica", "Uruguay"]
+```
+
 
 ## Currencies
 

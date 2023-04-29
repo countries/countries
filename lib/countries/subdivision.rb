@@ -19,5 +19,10 @@ module ISO3166
     def [](attr_name)
       send attr_name
     end
+
+    # @return [Hash] A hash with the subdivision code as key and the hash of translated subdivision names ( locale => name ) as value.
+    def code_with_translations
+      { code => translations }
+    end
   end
 end

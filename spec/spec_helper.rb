@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'countries'
+require 'debug'
 require 'simplecov'
 SimpleCov.start
 

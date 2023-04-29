@@ -3,7 +3,11 @@
 require 'spec_helper'
 NUM_OF_COUNTRIES = 249
 describe ISO3166::Country do
-  before { ISO3166.configuration.enable_currency_extension! }
+  before do
+    ISO3166::Data.reset
+    ISO3166.configuration.enable_currency_extension!
+  end
+
   let(:country) { ISO3166::Country.search('US') }
 
   it 'allows to create a country object from a symbol representation of the alpha2 code' do
@@ -1236,6 +1240,65 @@ describe ISO3166::Country do
           raise_error(KeyError, 'key not found: "bad_attribute"')
         )
       end
+    end
+  end
+
+  describe 'find_subdivision_by_name' do
+    let(:italy) { ISO3166::Country.new('IT') }
+    let(:napoli) { italy.subdivisions['NA'] }
+
+    before do
+      ISO3166.configuration.locales = %i[pt]
+    end
+
+    it 'should find a subdivision using the official name' do
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('Napoli')).to eq napoli
+    end
+
+    it 'should find a subdivision using the code' do
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('NA')).to eq napoli
+    end
+
+    it 'should find a subdivision using a translated name' do
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('Nápoles')).to eq napoli
+    end
+  end
+
+  describe 'collect_countries_with' do
+    let(:italy) { ISO3166::Country.new('IT') }
+    let(:vatican) { ISO3166::Country.new('VA') }
+    let(:san_marino) { ISO3166::Country.new('SM') }
+    let(:switzerland) { ISO3166::Country.new('CH') }
+    let(:seychelles) { ISO3166::Country.new('SC') }
+
+    it 'defaults to querying alpha2 and returning the countries' do
+      expect(ISO3166::Country.collect_countries_with('IT')).to eq [italy]
+    end
+
+    it 'allows querying by other attributes' do
+      expect(ISO3166::Country.collect_countries_with('🇸🇨', :emoji_flag)).to eq [seychelles]
+      expect(ISO3166::Country.collect_countries_with('it',
+                                                     :languages_spoken)).to eq [switzerland, italy, san_marino, vatican]
+    end
+
+    it 'allows applying a method to the result set' do
+      expect(ISO3166::Country.collect_countries_with('Caribbean', :subregion,
+                                                     :languages_spoken).flatten.uniq).to eq %w[en nl fr es ht]
+    end
+  end
+
+  describe 'collect_likely_countries_by_subdivision_name' do
+    let(:costa_rica) { ISO3166::Country.new('CR') }
+    let(:uruguay) { ISO3166::Country.new('UY') }
+
+    it 'defaults to returning the countries' do
+      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name('San José')).to eq [costa_rica, uruguay]
+    end
+
+    it 'allows applying a method to the result set' do
+      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name('San José',
+                                                                           :iso_short_name)).to eq ['Costa Rica',
+                                                                                                    'Uruguay']
     end
   end
 end
