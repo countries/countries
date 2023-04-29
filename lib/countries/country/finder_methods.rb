@@ -57,9 +57,7 @@ module ISO3166
       raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
 
       attributes = Array(attribute.to_s)
-      if attribute.to_s == 'any_name'
-        attributes = %w[iso_long_name iso_short_name unofficial_names translated_names]
-      end
+      attributes = %w[iso_long_name iso_short_name unofficial_names translated_names] if attribute.to_s == 'any_name'
 
       [attributes, parse_value(val)]
     end
@@ -75,7 +73,7 @@ module ISO3166
 
     def searchable_attributes
       # Add name and names until we complete the deprecation of the finders
-      instance_methods - UNSEARCHABLE_METHODS + [:name, :names, :any_name]
+      instance_methods - UNSEARCHABLE_METHODS + %i[name names any_name]
     end
   end
 end

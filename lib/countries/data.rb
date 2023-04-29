@@ -3,6 +3,9 @@
 module ISO3166
   # Handles building the in memory store of countries data
   class Data
+    extend SubdivisionMethods
+    extend LocalesMethods
+
     @cache_dir = [File.dirname(__FILE__), 'cache']
     @cache = {}
     @loaded_country_codes = []
@@ -19,14 +22,13 @@ module ISO3166
     end
 
     class << self
-
       # Registers a new Country with custom data.
       # If you are overriding an existing country, this does not perform a deep merge so you will need to __bring in all data you wish to be available__.
       # Overriding an existing country will also remove it from the internal management of translations.
       def register(data)
         alpha2 = data[:alpha2].upcase
         @registered_data[alpha2] = deep_stringify_keys(data)
-        @registered_data[alpha2]['translations'] = \
+        @registered_data[alpha2]['translations'] =
           Translations.new.merge(data['translations'] || {})
         @cache = cache.merge(@registered_data)
       end
@@ -68,26 +70,6 @@ module ISO3166
 
       def datafile_path(file_array)
         File.join([@cache_dir] + file_array)
-      end
-
-      def subdivision_data(alpha2)
-        file = subdivision_file_path(alpha2)
-        data = File.exist?(file) ? YAML.load_file(file) : {}
-        locales = ISO3166.configuration.locales.map(&:to_s)
-        data.each_value{ |v| v['translations'] = v['translations'].slice(*locales)}
-
-        return data
-      end
-
-      def subdivisions(alpha2)
-        @subdivisions ||= {}
-        @subdivisions[alpha2] ||= create_subdivisions(ISO3166::Data.subdivision_data(alpha2))
-      end
-
-      def create_subdivisions(subdivision_data)
-        subdivision_data.each_with_object({}) do |(k, v), hash|
-          hash[k] = Subdivision.new(v)
-        end
       end
 
       private
@@ -145,22 +127,6 @@ module ISO3166
 
       def cache_flush_required?
         !locales_to_load.empty? || !locales_to_remove.empty?
-      end
-
-      def locales_to_load
-        requested_locales - loaded_locales
-      end
-
-      def locales_to_remove
-        loaded_locales - requested_locales
-      end
-
-      def requested_locales
-        ISO3166.configuration.locales.map { |l| l.to_s.downcase }
-      end
-
-      def loaded_locales
-        ISO3166.configuration.loaded_locales.map { |l| l.to_s.downcase }
       end
 
       def load_translations(locale)

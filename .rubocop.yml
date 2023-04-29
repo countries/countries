@@ -1,21 +1,28 @@
-inherit_from: .rubocop_todo.yml
 
 AllCops:
   NewCops: enable
+  TargetRubyVersion: 2.7
 
 Layout/LineLength:
+  Max: 120
+  AllowedPatterns: ['^ *# ']
   Exclude:
     - countries.gemspec
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
 
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - Rakefile
-    - 'spec/**/*'
     - 'lib/countries/tasks/*'
-
-Style/RescueModifier:
-  Enabled: false
 
 Style/CaseEquality:
   Exclude:
@@ -32,9 +39,6 @@ Naming/MethodName:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/perf_spec.rb'
-
-Metrics/MethodLength:
-  Max: 20
 
 Metrics/ClassLength:
   Max: 130

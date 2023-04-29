@@ -67,20 +67,20 @@ module ISO3166
     # @param types [Array<String>] The locale to use for translations.
     # @return [Array<ISO3166::Subdivision>] the list of subdivisions of the given type(s) for this Country.
     def subdivisions_of_types(types)
-      subdivisions.select{|k,v| types.include?(v.type)}
+      subdivisions.select { |_k, v| types.include?(v.type) }
     end
 
     # @return [Array<String>] the list of subdivision types for this country
     def subdivision_types
-      subdivisions.map{|k,v| v['type']}.uniq
+      subdivisions.map { |_k, v| v['type'] }.uniq
     end
 
     # @return [Array<String>] the list of humanized subdivision types for this country. Uses ActiveSupport's `#humanize` if available
     def humanized_subdivision_types
       if String.instance_methods.include?(:humanize)
-        subdivisions.map{|k,v| v['type'].humanize}.uniq
+        subdivisions.map { |_k, v| v['type'].humanize }.uniq
       else
-        subdivisions.map{|k,v| v['type'][0].upcase + v['type'].tr('_', ' ')[1..-1]}.uniq
+        subdivisions.map { |_k, v| v['type'][0].upcase + v['type'].tr('_', ' ')[1..] }.uniq
       end
     end
 
@@ -93,14 +93,16 @@ module ISO3166
     # @param locale [String] The locale to use for translations.
     # @return [Array<String>] A list of subdivision names for this country.
     def subdivision_names(locale = 'en')
-      subdivisions.map { |k, v| v.translations[locale] || v.name }
+      subdivisions.map { |_k, v| v.translations[locale] || v.name }
     end
 
     def states
       if RUBY_VERSION =~ /^3\.\d\.\d/
-        warn "DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.", uplevel: 1, category: :deprecated
+        warn 'DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.',
+             uplevel: 1, category: :deprecated
       else
-        warn "DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.", uplevel: 1
+        warn 'DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.',
+             uplevel: 1
       end
 
       subdivisions

@@ -4,6 +4,8 @@ require 'yaml'
 require 'json'
 
 require 'countries/configuration'
+require 'countries/data/locales_methods'
+require 'countries/data/subdivision_methods'
 require 'countries/data'
 require 'countries/structure'
 require 'countries/translations'
