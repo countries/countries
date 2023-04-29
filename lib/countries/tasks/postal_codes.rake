@@ -19,7 +19,11 @@ namespace :postal_codes do
       postal_code_format_index = data.find_index { |d| d[0] == 'postal_code_format' }
 
       response = URI.open("https://chromium-i18n.appspot.com/ssl-address/data/#{country_code}").read
-      json = JSON.parse(response) rescue {}
+      json = begin
+        JSON.parse(response)
+      rescue StandardError
+        {}
+      end
       puts ' - Returned empty data. Skipping ' and next if json.empty?
 
       postal_code = ['postal_code', !json['zip'].nil?]

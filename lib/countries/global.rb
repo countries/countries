@@ -15,5 +15,4 @@ require 'countries'
 #   gem 'countries', require: 'countries/global'
 #
 class Country < ISO3166::Country
-
 end
