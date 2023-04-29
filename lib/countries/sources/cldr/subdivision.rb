@@ -20,7 +20,7 @@ module Sources
       end
 
       def code
-        type[2..-1].upcase
+        type[2..].upcase
       end
 
       def type
