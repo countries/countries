@@ -28,8 +28,7 @@ module ISO3166
       def register(data)
         alpha2 = data[:alpha2].upcase
         @registered_data[alpha2] = deep_stringify_keys(data)
-        @registered_data[alpha2]['translations'] =
-          Translations.new.merge(data['translations'] || {})
+        @registered_data[alpha2]['translations'] = Translations.new.merge(data['translations'] || {})
         @cache = cache.merge(@registered_data)
       end
 
@@ -111,9 +110,7 @@ module ISO3166
       end
 
       def load_required?
-        synchronized do
-          @cache.empty?
-        end
+        synchronized { @cache.empty? }
       end
 
       def cached_codes
@@ -133,12 +130,16 @@ module ISO3166
         synchronized do
           locale_names = load_cache(['locales', "#{locale}.json"])
           internal_codes.each do |alpha2|
-            @cache[alpha2]['translations'] ||= Translations.new
-            @cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
-            @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
+            load_alpha2_translation_for_locale(alpha2, locale, locale_names)
           end
           ISO3166.configuration.loaded_locales << locale
         end
+      end
+
+      def load_alpha2_translation_for_locale(alpha2, locale, locale_names)
+        @cache[alpha2]['translations'] ||= Translations.new
+        @cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
+        @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
       end
 
       def unload_translations(locale)
@@ -158,9 +159,7 @@ module ISO3166
 
       def deep_stringify_keys(data)
         data.transform_keys!(&:to_s)
-        data.transform_values! do |v|
-          v.is_a?(Hash) ? deep_stringify_keys(v) : v
-        end
+        data.transform_values! { |v| v.is_a?(Hash) ? deep_stringify_keys(v) : v }
 
         data
       end

@@ -42,3 +42,7 @@ Lint/AmbiguousBlockAssociation:
 
 Metrics/ClassLength:
   Max: 130
+
+Metrics/AbcSize:
+  Exclude:
+    - 'lib/countries/sources/cldr/*'

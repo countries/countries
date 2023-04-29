@@ -80,7 +80,7 @@ module ISO3166
       if String.instance_methods.include?(:humanize)
         subdivisions.map { |_k, v| v['type'].humanize }.uniq
       else
-        subdivisions.map { |_k, v| v['type'][0].upcase + v['type'].tr('_', ' ')[1..] }.uniq
+        subdivisions.map { |_k, v| humanize_string(v['type']) }.uniq
       end
     end
 
@@ -264,6 +264,10 @@ module ISO3166
               else
                 ISO3166::Data.new(@country_data_or_code).call
               end
+    end
+
+    def humanize_string(str)
+      str[0].upcase + str.tr('_', ' ')[1..]
     end
   end
 end
