@@ -208,9 +208,5 @@ module ISO3166
                 ISO3166::Data.new(@country_data_or_code).call
               end
     end
-
-    def humanize_string(str)
-      str[0].upcase + str.tr('_', ' ')[1..]
-    end
   end
 end

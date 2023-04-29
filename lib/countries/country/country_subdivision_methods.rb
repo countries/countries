@@ -72,5 +72,11 @@ module ISO3166
 
       subdivisions
     end
+
+    private
+
+    def humanize_string(str)
+      str[0].upcase + str.tr('_', ' ')[1..]
+    end
   end
 end

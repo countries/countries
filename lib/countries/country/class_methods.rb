@@ -71,7 +71,8 @@ module ISO3166
     def collect_countries_with(query_val, query_method = :alpha2, result_method = :itself)
       return nil unless [query_method, result_method].map { |e| method_defined? e }.all?
 
-      all.select { |i| i.send(query_method).include? query_val }.collect { |e| e.send(result_method) }
+      all.select { |country| country.send(query_method).include? query_val }
+         .map { |country| country.send(result_method) }
     end
 
     # @param subdivision_str [String] A subdivision name or code to search for. Search includes translated subdivision names.
@@ -80,7 +81,8 @@ module ISO3166
     def collect_likely_countries_by_subdivision_name(subdivision_str, result_method = :itself)
       return nil unless method_defined? result_method
 
-      all.select { |country| country.subdivision_for_string?(subdivision_str) }.map { |e| e.send(result_method) }
+      all.select { |country| country.subdivision_for_string?(subdivision_str) }
+         .map { |country| country.send(result_method) }
     end
 
     protected
