@@ -19,7 +19,6 @@ Gem::Specification.new do |gem|
                         'rubygems_mfa_required' => 'true' }
 
   gem.files         = `git ls-files`.split($OUTPUT_RECORD_SEPARATOR)
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
   gem.required_ruby_version = '>= 2.7'

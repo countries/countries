@@ -56,6 +56,7 @@ task :cleanup_subdivision_yaml do
     sd = Sources::Local::Subdivision.new(c_code)
     data = sd.load
     next if data.nil? || data == {}
+
     data = data.sort.to_h
     data['translations'] = data['translations'].sort.to_h unless data['translations'].nil?
     sd.save(data)
