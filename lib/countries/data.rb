@@ -145,11 +145,15 @@ module ISO3166
       def unload_translations(locale)
         synchronized do
           internal_codes.each do |alpha2|
-            @cache[alpha2]['translations'].delete(locale)
-            @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
+            unload_alpha2_translation_for_locale(alpha2, locale)
           end
           ISO3166.configuration.loaded_locales.delete(locale)
         end
+      end
+
+      def unload_alpha2_translation_for_locale(alpha2, locale)
+        @cache[alpha2]['translations'].delete(locale)
+        @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
       end
 
       def load_cache(file_array)

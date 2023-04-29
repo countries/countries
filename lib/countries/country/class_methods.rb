@@ -40,9 +40,7 @@ module ISO3166
     end
 
     def pluck(*attributes)
-      all.map do |country|
-        attributes.map { |attribute| country.data.fetch(attribute.to_s) }
-      end
+      all.map { |country| country.data.fetch_values(*attributes.map(&:to_s)) }
     end
 
     def all_translated(locale = 'en')

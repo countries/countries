@@ -1227,5 +1227,15 @@ describe ISO3166::Country do
         expect(subject.last).to eq(%w[ZW ZWE Zimbabwe])
       end
     end
+
+    context 'with invalid attributes' do
+      let(:args) { %i[alpha2 bad_attribute] }
+
+      it 'should raise an error' do
+        expect { subject }.to(
+          raise_error(KeyError, 'key not found: "bad_attribute"')
+        )
+      end
+    end
   end
 end
