@@ -9,9 +9,6 @@ require 'yaml'
 
 ISO3166_ROOT_PATH = File.dirname(__FILE__)
 
-# Enter your API Key enabled for Geocoding API and Places API
-GOOGLE_API_KEY = 'ENTER API KEY'
-
 Dir.glob('lib/countries/tasks/*.rake').each { |r| load r }
 
 desc 'Run all examples'
