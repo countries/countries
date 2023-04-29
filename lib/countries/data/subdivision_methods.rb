@@ -6,7 +6,8 @@ module ISO3166
       file = subdivision_file_path(alpha2)
       data = File.exist?(file) ? YAML.load_file(file) : {}
       locales = ISO3166.configuration.locales.map(&:to_s)
-      data.each_value { |v| v['translations'] = v['translations'].slice(*locales) }
+
+      data.each_value { |subdivision| subdivision['translations'] = subdivision['translations'].slice(*locales) }
 
       data
     end
@@ -17,8 +18,8 @@ module ISO3166
     end
 
     def create_subdivisions(subdivision_data)
-      subdivision_data.transform_values do |v|
-        Subdivision.new(v)
+      subdivision_data.transform_values do |subdivision|
+        Subdivision.new(subdivision)
       end
     end
   end
