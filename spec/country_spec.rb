@@ -1242,15 +1242,15 @@ describe ISO3166::Country do
     end
 
     it 'should find a subdivision using the official name' do
-      expect(ISO3166::Country.new("IT").find_subdivision_by_name("Napoli")).to eq napoli
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('Napoli')).to eq napoli
     end
 
     it 'should find a subdivision using the code' do
-      expect(ISO3166::Country.new("IT").find_subdivision_by_name("NA")).to eq napoli
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('NA')).to eq napoli
     end
 
     it 'should find a subdivision using a translated name' do
-      expect(ISO3166::Country.new("IT").find_subdivision_by_name("Nápoles")).to eq napoli
+      expect(ISO3166::Country.new('IT').find_subdivision_by_name('Nápoles')).to eq napoli
     end
   end
 
@@ -1266,12 +1266,14 @@ describe ISO3166::Country do
     end
 
     it 'allows querying by other attributes' do
-      expect(ISO3166::Country.collect_countries_with("🇸🇨",:emoji_flag)).to eq [seychelles]
-      expect(ISO3166::Country.collect_countries_with("it",:languages_spoken)).to eq [switzerland, italy, san_marino, vatican]
+      expect(ISO3166::Country.collect_countries_with('🇸🇨', :emoji_flag)).to eq [seychelles]
+      expect(ISO3166::Country.collect_countries_with('it',
+                                                     :languages_spoken)).to eq [switzerland, italy, san_marino, vatican]
     end
 
     it 'allows applying a method to the result set' do
-      expect(ISO3166::Country.collect_countries_with("Caribbean",:subregion,:languages_spoken).flatten.uniq).to eq %w[en nl fr es ht]
+      expect(ISO3166::Country.collect_countries_with('Caribbean', :subregion,
+                                                     :languages_spoken).flatten.uniq).to eq %w[en nl fr es ht]
     end
   end
 
@@ -1280,11 +1282,13 @@ describe ISO3166::Country do
     let(:uruguay) { ISO3166::Country.new('UY') }
 
     it 'defaults to returning the countries' do
-      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name("San José")).to eq [costa_rica, uruguay]
+      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name('San José')).to eq [costa_rica, uruguay]
     end
 
     it 'allows applying a method to the result set' do
-      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name("San José", :iso_short_name)).to eq ["Costa Rica", "Uruguay"]
+      expect(ISO3166::Country.collect_likely_countries_by_subdivision_name('San José',
+                                                                           :iso_short_name)).to eq ['Costa Rica',
+                                                                                                    'Uruguay']
     end
   end
 end

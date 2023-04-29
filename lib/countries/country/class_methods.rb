@@ -68,20 +68,19 @@ module ISO3166
     # @param query_method [Symbol] An optional query method, defaults to Country#alpha2
     # @param result_method [Symbol] An optional method of `Country` to apply to the result set.
     # @return [Array] An array of countries matching the provided query, or the result of applying `result_method` to the array of `Country` objects
-    def collect_countries_with(query_val, query_method=:alpha2, result_method=:itself)
-      return nil unless [query_method, result_method].map{|e| method_defined? e}.all?
-      all.select{|i| i.send(query_method).include? query_val}.collect{|e| e.send(result_method)}
+    def collect_countries_with(query_val, query_method = :alpha2, result_method = :itself)
+      return nil unless [query_method, result_method].map { |e| method_defined? e }.all?
+
+      all.select { |i| i.send(query_method).include? query_val }.collect { |e| e.send(result_method) }
     end
 
     # @param subdivision_str [String] A subdivision name or code to search for. Search includes translated subdivision names.
     # @param result_method [Symbol] An optional method of `Country` to apply to the result set.
     # @return [Array] An array of countries with subdivisions matching the provided name, or the result of applying `result_method` to the array of `Country` objects
-    def collect_likely_countries_by_subdivision_name(subdivision_str, result_method=:itself)
+    def collect_likely_countries_by_subdivision_name(subdivision_str, result_method = :itself)
       return nil unless method_defined? result_method
 
-      all.reject{ |e| e.subdivisions.map{ |k,v| [k,v.translations] }.to_h
-                                    .select{ |k,v| subdivision_str == k || v.values.include?(subdivision_str) }.empty?
-                }.map{|e| e.send(result_method)}
+      all.select { |country| country.subdivision_for_string?(subdivision_str) }.map { |e| e.send(result_method) }
     end
 
     protected
