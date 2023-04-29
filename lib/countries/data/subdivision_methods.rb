@@ -3,13 +3,17 @@
 module ISO3166
   module SubdivisionMethods
     def subdivision_data(alpha2)
-      file = subdivision_file_path(alpha2)
-      data = File.exist?(file) ? YAML.load_file(file) : {}
+      data = load_data_for_alpha2(alpha2)
       locales = ISO3166.configuration.locales.map(&:to_s)
 
       data.each_value { |subdivision| subdivision['translations'] = subdivision['translations'].slice(*locales) }
 
       data
+    end
+
+    def load_data_for_alpha2(alpha2)
+      file = subdivision_file_path(alpha2)
+      File.exist?(file) ? YAML.load_file(file) : {}
     end
 
     def subdivisions(alpha2)
