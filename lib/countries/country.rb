@@ -66,6 +66,11 @@ module ISO3166
       data['g20_member'].nil? ? false : data['g20_member']
     end
 
+    # +true+ if this country is a member of the European Economic Area or it is UK
+    def gdpr_compliant
+      in_eea? || alpha2 == 'GB'
+    end
+
     # +true+ if this country is a member of the European Economic Area.
     def in_eea?
       data['eea_member'].nil? ? false : data['eea_member']
