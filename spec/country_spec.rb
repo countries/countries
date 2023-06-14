@@ -1080,21 +1080,21 @@ describe ISO3166::Country do
     end
   end
 
-  describe 'gdpr_compliant' do
+  describe 'gdpr_compliant?' do
     let(:united_kigndom) { ISO3166::Country.search('GB') }
     let(:france) { ISO3166::Country.search('FR') }
     let(:mexico) { ISO3166::Country.search('MX') }
 
     it 'should return false for countries without eea_member flag' do
-      expect(mexico.gdpr_compliant).to be_falsey
+      expect(mexico.gdpr_compliant?).to be_falsey
     end
 
     it 'should return true for countries with eea_member flag set to true' do
-      expect(france.gdpr_compliant).to be_truthy
+      expect(france.gdpr_compliant?).to be_truthy
     end
 
     it 'should return true for UK' do
-      expect(united_kigndom.gdpr_compliant).to be_truthy
+      expect(united_kigndom.gdpr_compliant?).to be_truthy
     end
   end
 

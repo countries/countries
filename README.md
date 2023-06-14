@@ -221,7 +221,7 @@ c.in_eu_vat? # => false
 ### GDPR Compliant (European Economic Area Membership or UK)
 
 ```ruby
-c.gdpr_compliant # => false
+c.gdpr_compliant? # => false
 ```
 
 ### Country Code in Emoji
