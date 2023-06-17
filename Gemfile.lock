@@ -1,49 +1,49 @@
 PATH
   remote: .
   specs:
-    countries (5.4.0)
+    countries (5.5.0)
       unaccent (~> 0.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4.3)
+    activesupport (7.0.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     concurrent-ruby (1.2.2)
-    debug (1.7.2)
+    debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
     docile (1.4.0)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.6.0)
-    irb (1.6.4)
+    irb (1.7.0)
       reline (>= 0.3.0)
-    minitest (5.18.0)
+    minitest (5.18.1)
     money (6.16.0)
       i18n (>= 0.6.4, <= 2)
-    nokogiri (1.14.2-arm64-darwin)
+    nokogiri (1.15.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-darwin)
+    nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-linux)
+    nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
-    racc (1.6.2)
+    racc (1.7.1)
     rake (13.0.6)
-    reline (0.3.3)
+    reline (0.3.5)
       io-console (~> 0.5)
     retryable (3.0.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
       rspec-mocks (~> 3.12.0)
-    rspec-core (3.12.1)
+    rspec-core (3.12.2)
       rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.2)
+    rspec-expectations (3.12.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-mocks (3.12.5)
@@ -81,4 +81,4 @@ DEPENDENCIES
   yaml
 
 BUNDLED WITH
-   2.3.10
+   2.4.12

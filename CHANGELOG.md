@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.5.0](https://github.com/countries/countries/releases/tag/v5.5.0') (2023/06/17 16:20 +00:00)
+
+* Added G20 and G7 member fields [\#799](https://github.com/countries/countries/pull/799) ([AndromedaSugar](https://github.com/AndromedaSugar))
+* Update subdivision translations from CLDR [\#802](https://github.com/countries/countries/pull/802) ([pmor](https://github.com/pmor))
+* Adds Country#collect_countries_with, Country#collect_likely_subdivisions, Country.find_subdivision_with, Country.find_subdivision_code_with_translations [\#800](https://github.com/countries/countries/pull/800) ([pmor](https://github.com/pmor))
+* Add Japanese translation to subdivisions data  [\#804](https://github.com/countries/countries/pull/804) ([shucream-p](https://github.com/shucream-p))
+* Adding gdpr_compliant method to check if a country is regulated by GDPR [\#807](https://github.com/countries/countries/pull/807) ([yeseniamolinab](https://github.com/yeseniamolinab))
+
 ## [5.4.0](https://github.com/countries/countries/releases/tag/v5.4.0') (2023/04/12 12:44 +00:00)
 
 * fix: RUP are part of the European Union [\#794](https://github.com/countries/countries/pull/794) ([btrd](https://github.com/btrd))

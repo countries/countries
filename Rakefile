@@ -6,6 +6,7 @@ require 'bundler/gem_tasks'
 require 'rake'
 require 'rspec/core/rake_task'
 require 'yaml'
+require 'json'
 
 ISO3166_ROOT_PATH = File.dirname(__FILE__)
 
