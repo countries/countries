@@ -86,6 +86,11 @@ module ISO3166
       data['euvat_member'].nil? ? in_eu? : data['euvat_member']
     end
 
+    # @return [String] The regex for valid postal codes in this Country
+    def postal_code_format
+      "\\A#{data['postal_code_format']}\\Z" if postal_code
+    end
+
     def to_s
       data['iso_short_name']
     end
@@ -179,9 +184,6 @@ module ISO3166
     #
     # @!attribute postal_code
     #   @return [Boolean] Does this Country uses postal codes in addresses
-    #
-    # @!attribute postal_code_format
-    #   @return [String] The regex for valid postal codes in this Country
     #
     # @!attribute region
     #   @return [String] The Region this country is in. Approximately matches the United Nations geoscheme

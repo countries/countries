@@ -94,6 +94,7 @@ describe ISO3166::Country do
 
     regex = Regexp.new(country.postal_code_format)
     expect(regex).to match('12345-6789')
+    expect(regex).not_to match('12345-67890')
 
     antarctica = ISO3166::Country.search('AQ')
     expect(antarctica.postal_code_format).to be_nil
