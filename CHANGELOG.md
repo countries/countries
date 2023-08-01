@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.6.0](https://github.com/countries/countries/releases/tag/v5.6.0') (2023/08/01 14:00 +00:00)
+
+* Fix Taiwan's iso_long_name not matching ISO data. [\#810](https://github.com/countries/countries/pull/810) ([pmor](https://github.com/pmor))
+* Wrap postal code format regex in anchors [\#814](https://github.com/countries/countries/pull/814) ([pmor](https://github.com/pmor))
+
 ## [5.5.0](https://github.com/countries/countries/releases/tag/v5.5.0') (2023/06/17 16:20 +00:00)
 
 * Added G20 and G7 member fields [\#799](https://github.com/countries/countries/pull/799) ([AndromedaSugar](https://github.com/AndromedaSugar))
