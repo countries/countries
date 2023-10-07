@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.7.0](https://github.com/countries/countries/releases/tag/v5.7.0') (2023/10/07 10:57 +00:00)
+
+**New Feature:**
+* Add distance_unit attribute to countries data [\#820](https://github.com/countries/countries/pull/820) ([dwtong](https://github.com/dwtong))
+
+**Fixes:**
+* North Macedonia LT translation [\#821](https://github.com/countries/countries/pull/821) ([tomukas](https://github.com/tomukas))
+* Fix Azerbaijão wording in pt-BR [\#819](https://github.com/countries/countries/pull/819) ([duduribeiro](https://github.com/duduribeiro))
+* Remove duplicate key in subdivisions/US.yaml [\#822](https://github.com/countries/countries/pull/822) ([pioz](https://github.com/pioz))
+
+
 ## [5.6.0](https://github.com/countries/countries/releases/tag/v5.6.0') (2023/08/01 14:00 +00:00)
 
 * Fix Taiwan's iso_long_name not matching ISO data. [\#810](https://github.com/countries/countries/pull/810) ([pmor](https://github.com/pmor))
