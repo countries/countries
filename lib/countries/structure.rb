@@ -8,6 +8,7 @@ module ISO3166
     'continent' => nil,
     'country_code' => nil,
     'currency_code' => nil,
+    'distance_unit' => nil,
     'gec' => nil,
     'geo' => {
       'latitude' => nil,

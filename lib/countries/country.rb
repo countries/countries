@@ -143,6 +143,9 @@ module ISO3166
     # @!attribute currency_code
     #   @return [String] the ISO 4217 currency code for this Country
     #
+    # @!attribute distance_unit
+    #   @return [String] the unit for roading distance and speed for this Country
+    #
     # @!attribute gec
     #   @return [String] the "Geopolitical Entities and Codes", formerly FIPS 10-4 code for this Country
     #

@@ -80,6 +80,10 @@ describe ISO3166::Country do
     expect(country.continent).to eq('North America')
   end
 
+  it 'should return distance unit' do
+    expect(country.distance_unit).to eq('MI')
+  end
+
   it 'knows about whether or not the country uses postal codes' do
     expect(country.zip).to be_truthy
   end

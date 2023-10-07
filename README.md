@@ -231,6 +231,12 @@ c = Country['MY']
 c.emoji_flag # => "🇲🇾"
 ```
 
+### Country Distance Unit (miles/kilometres)
+
+```ruby
+c.distance_unit # => "MI"
+```
+
 ### Plucking multiple attributes
 
 ```ruby
