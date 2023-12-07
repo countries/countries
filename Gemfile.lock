@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    countries (5.7.0)
+    countries (5.7.1)
       unaccent (~> 0.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.0)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -17,7 +17,7 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    base64 (0.1.1)
+    base64 (0.2.0)
     bigdecimal (3.1.4)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
@@ -26,31 +26,31 @@ GEM
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
     docile (1.4.0)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.6.0)
-    irb (1.8.1)
+    irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
     minitest (5.20.0)
     money (6.16.0)
       i18n (>= 0.6.4, <= 2)
-    mutex_m (0.1.2)
-    nokogiri (1.15.4-arm64-darwin)
+    mutex_m (0.2.0)
+    nokogiri (1.15.5-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.4-x86_64-darwin)
+    nokogiri (1.15.5-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.4-x86_64-linux)
+    nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
-    psych (5.1.0)
+    psych (5.1.1.1)
       stringio
-    racc (1.7.1)
-    rake (13.0.6)
-    rdoc (6.5.0)
+    racc (1.7.3)
+    rake (13.1.0)
+    rdoc (6.6.1)
       psych (>= 4.0.0)
-    reline (0.3.9)
+    reline (0.4.1)
       io-console (~> 0.5)
     retryable (3.0.5)
     rspec (3.12.0)
@@ -73,11 +73,11 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    stringio (3.0.8)
+    stringio (3.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unaccent (0.4.0)
-    yaml (0.2.1)
+    yaml (0.3.0)
 
 PLATFORMS
   arm64-darwin-22

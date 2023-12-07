@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.7.1](https://github.com/countries/countries/releases/tag/v5.7.0') (2023/12/07 15:59 +00:00)
+
+**Fixes:**
+* Only include /lib in package [\#828](https://github.com/countries/countries/pull/820) ([patrickarnett](https://github.com/patrickarnett))
+* add more national length to PS [\#828](https://github.com/countries/countries/pull/828) ([shuaibzahda](https://github.com/shuaibzahda))
+* Fix wrong subdivision code for IR-09 [\#825](https://github.com/countries/countries/pull/825) ([pmor](https://github.com/pmor))
+
 ## [5.7.0](https://github.com/countries/countries/releases/tag/v5.7.0') (2023/10/07 10:57 +00:00)
 
 **New Feature:**
