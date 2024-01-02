@@ -7,7 +7,7 @@ namespace :postal_codes do
     require 'open-uri'
     require 'yaml'
 
-    country_files = Dir['lib/countries/data/countries/*.yaml'].sort
+    country_files = Dir['lib/countries/data/countries/*.yaml']
 
     country_files.each do |country_file|
       yaml = YAML.load_file(country_file)
