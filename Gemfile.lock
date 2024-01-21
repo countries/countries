@@ -52,7 +52,6 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.1)
       io-console (~> 0.5)
-    retryable (3.0.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -80,6 +79,7 @@ GEM
     yaml (0.3.0)
 
 PLATFORMS
+  aarch64-darwin
   arm64-darwin-22
   x86_64-darwin-21
   x86_64-darwin-22
@@ -92,7 +92,6 @@ DEPENDENCIES
   money
   nokogiri (>= 1.8)
   rake
-  retryable
   rspec (>= 3)
   simplecov (~> 0.22)
   tzinfo
