@@ -35,7 +35,7 @@ module ISO3166
     #
     # The emoji flag for this country, using Unicode Regional Indicator characters. e.g: "U+1F1FA U+1F1F8" for 🇺🇸
     def emoji_flag
-      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join
+      alpha2.downcase.chars.map { |c| CODE_POINTS[c] }.join.freeze
     end
   end
 end

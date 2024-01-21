@@ -43,7 +43,7 @@ module ISO3166
     # @return [Array<String>] the list of humanized subdivision types for this country. Uses ActiveSupport's `#humanize` if available
     def humanized_subdivision_types
       if String.instance_methods.include?(:humanize)
-        subdivisions.map { |_k, v| v['type'].humanize }.uniq
+        subdivisions.map { |_k, v| v['type'].humanize.freeze }.uniq
       else
         subdivisions.map { |_k, v| humanize_string(v['type']) }.uniq
       end
@@ -76,7 +76,7 @@ module ISO3166
     private
 
     def humanize_string(str)
-      str[0].upcase + str.tr('_', ' ')[1..]
+      (str[0].upcase + str.tr('_', ' ')[1..]).freeze
     end
   end
 end
