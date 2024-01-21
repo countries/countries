@@ -34,13 +34,15 @@ GEM
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
-    mini_portile2 (2.8.5)
     minitest (5.20.0)
     money (6.16.0)
       i18n (>= 0.6.4, <= 2)
     mutex_m (0.2.0)
-    nokogiri (1.16.0)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.15.5-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.1.1)
       stringio
