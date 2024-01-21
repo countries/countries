@@ -63,7 +63,7 @@ module ISO3166
     end
 
     def parse_value(value)
-      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
+      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '').freeze if value.respond_to?(:gsub)
       strip_accents(value)
     end
 
