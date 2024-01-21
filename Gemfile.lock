@@ -34,15 +34,13 @@ GEM
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
+    mini_portile2 (2.8.5)
     minitest (5.20.0)
     money (6.16.0)
       i18n (>= 0.6.4, <= 2)
     mutex_m (0.2.0)
-    nokogiri (1.15.5-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.15.5-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.15.5-x86_64-linux)
+    nokogiri (1.16.0)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     psych (5.1.1.1)
       stringio
@@ -52,7 +50,6 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.1)
       io-console (~> 0.5)
-    retryable (3.0.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -80,6 +77,7 @@ GEM
     yaml (0.3.0)
 
 PLATFORMS
+  aarch64-darwin
   arm64-darwin-22
   x86_64-darwin-21
   x86_64-darwin-22
@@ -92,7 +90,6 @@ DEPENDENCIES
   money
   nokogiri (>= 1.8)
   rake
-  retryable
   rspec (>= 3)
   simplecov (~> 0.22)
   tzinfo
