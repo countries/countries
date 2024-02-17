@@ -45,10 +45,12 @@ module ISO3166
 
       # Resets the loaded data and cache
       def reset
-        @cache = {}
-        @subdivisions = {}
-        @registered_data = {}
-        ISO3166.configuration.loaded_locales = []
+        synchronized do
+          @cache = {}
+          @subdivisions = {}
+          @registered_data = {}
+          ISO3166.configuration.loaded_locales = []
+        end
       end
 
       def codes

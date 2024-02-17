@@ -4,6 +4,7 @@ require 'spec_helper'
 NUM_OF_COUNTRIES = 249
 describe ISO3166::Country do
   before do
+    ISO3166.configuration.locales = %i[en]
     ISO3166::Data.reset
     ISO3166.configuration.enable_currency_extension!
   end
@@ -335,6 +336,7 @@ describe ISO3166::Country do
 
     it 'should return an alphabetized list of subdivision names translated to current locale with codes' do
       ISO3166.configuration.locales = %i[es de en]
+      ISO3166::Data.reset
 
       subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes(:es)
       expect(subdivisions).to be_an(Array)
@@ -355,6 +357,7 @@ describe ISO3166::Country do
 
     it 'should return an alphabetized list of subdivision names translated to current locale with codes' do
       ISO3166.configuration.locales = %i[es de en]
+      ISO3166::Data.reset
 
       subdivisions = ISO3166::Country.search('EG').subdivision_names(:es)
       expect(subdivisions).to be_an(Array)
@@ -1272,6 +1275,7 @@ describe ISO3166::Country do
 
     before do
       ISO3166.configuration.locales = %i[pt]
+      ISO3166::Data.reset
     end
 
     it 'should find a subdivision using the official name' do
