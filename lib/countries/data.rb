@@ -97,16 +97,7 @@ module ISO3166
       end
 
       def synchronized(&block)
-        if use_mutex?
-          @mutex.synchronize(&block)
-        else
-          block.call
-        end
-      end
-
-      def use_mutex?
-        # Stubbed in testing
-        true
+        @mutex.synchronize(&block)
       end
 
       def load_required?
