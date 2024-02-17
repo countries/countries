@@ -5,8 +5,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [6.0.0](https://github.com/countries/countries/releases/tag/v6.0.0') (2024/02/17 17:33 +00:00)
 
-**Changes**
-* Drop support for ruby 2.7 and add 3.3 to test matrix [\#830](https://github.com/countries/countries/pull/830) ([pmor](https://github.com/pmor))
+**Breaking Changes**
+
+* Drop support for ruby 2.7 (EOL 2023-03-31) and add 3.3 to test matrix [\#830](https://github.com/countries/countries/pull/830) ([pmor](https://github.com/pmor))
 
 ## [5.7.2](https://github.com/countries/countries/releases/tag/v5.7.2') (2024/02/17 11:09 +00:00)
 
