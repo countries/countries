@@ -10,13 +10,13 @@ module ISO3166
 
     ISO3166::DEFAULT_COUNTRY_HASH.each do |method_name, _type|
       define_method method_name do
-        data[method_name.to_s].freeze
+        data[method_name.to_s]
       end
     end
 
     ISO3166::DEFAULT_COUNTRY_HASH['geo'].each do |method_name, _type|
       define_method method_name do
-        data['geo'][method_name.to_s].freeze
+        data['geo'][method_name.to_s]
       end
     end
 

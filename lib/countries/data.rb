@@ -45,10 +45,12 @@ module ISO3166
 
       # Resets the loaded data and cache
       def reset
-        @cache = {}
-        @subdivisions = {}
-        @registered_data = {}
-        ISO3166.configuration.loaded_locales = []
+        synchronized do
+          @cache = {}
+          @subdivisions = {}
+          @registered_data = {}
+          ISO3166.configuration.loaded_locales = []
+        end
       end
 
       def codes
@@ -97,16 +99,7 @@ module ISO3166
       end
 
       def synchronized(&block)
-        if use_mutex?
-          @mutex.synchronize(&block)
-        else
-          block.call
-        end
-      end
-
-      def use_mutex?
-        # Stubbed in testing
-        true
+        @mutex.synchronize(&block)
       end
 
       def load_required?

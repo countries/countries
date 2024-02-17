@@ -46,13 +46,9 @@ describe ISO3166::Data do
   end
 
   it 'locales will load prior to return results' do
-    # require 'memory_profiler'
     ISO3166.configuration.locales = %i[es de en]
-    # report = MemoryProfiler.report do
     ISO3166::Data.update_cache
-    # end
 
-    # report.pretty_print(to_file: 'tmp/memory/3_locales')
     ISO3166::Data.update_cache
 
     ISO3166.configure do |config|
@@ -63,13 +59,8 @@ describe ISO3166::Data do
                           sr sv sw ta te th ti tk tl tr tt ug uk ve vi wa wo xh
                           zh zu]
     end
-    # puts Benchmark.measure {ISO3166::Data.update_cache}
 
-    # report = MemoryProfiler.report do
     ISO3166::Data.update_cache
-    # end
-
-    # report.pretty_print(to_file: 'tmp/memory/all_locales')
 
     expect(ISO3166::Country.new('DE').translations.size).to eq 92
 

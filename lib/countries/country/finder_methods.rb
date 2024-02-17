@@ -2,8 +2,8 @@
 
 module ISO3166
   module CountryFinderMethods
-    FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/.freeze
-    SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/.freeze
+    FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
+    SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
 
     def search(query)
       country = new(query.to_s.upcase)

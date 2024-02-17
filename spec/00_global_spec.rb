@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe 'global Country class', order: :defined do
+describe 'global Country class', custom_order: :first do
   context "when loaded via 'iso3166' existence" do
     subject { defined?(Country) }
 
