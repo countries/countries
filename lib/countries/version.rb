@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module Countries
-  VERSION = '5.7.2'
+  VERSION = '6.0.0'
 end
