@@ -3,6 +3,7 @@
 module ISO3166
   class Country
     extend CountryClassMethods
+    extend ConversionMethods
     extend CountryFinderMethods
     include Emoji
     include CountrySubdivisionMethods

@@ -264,6 +264,14 @@ ISO3166::Country.collect_likely_countries_by_subdivision_name("San José",:commo
  => ["Costa Rica", "Uruguay"]
 ```
 
+### Conversions
+
+```ruby
+ISO3166::Country.from_alpha3_to_alpha2('USA') # => "US"
+ISO3166::Country.from_alpha2_to_alpha3('US') # => "USA"
+
+ISO3166::Country.from_alpha2_to_alpha3('--') # => nil
+```
 
 ## Currencies
 
