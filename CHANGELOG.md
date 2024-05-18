@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [6.0.1](https://github.com/countries/countries/releases/tag/v6.0.1') (2024/05/18 11:35 +00:00)
+
+* Adds the unofficial localized name of Bulgaria in Bulgarian [\#844](https://github.com/countries/countries/pull/844) ([itay-grudev](https://github.com/itay-grudev))
+* Update GT subdivisions [\#839](https://github.com/countries/countries/pull/839) ([sineed](https://github.com/sineed))
+* Update Estonia standard VAT from 20% to 22% (January 1st 2024 change) [\#849](https://github.com/countries/countries/pull/849) ([jarthod](https://github.com/jarthod))
+* Add fy language to NL, fixes #843 [\#846](https://github.com/countries/countries/pull/846) ([pmor](https://github.com/pmor))
+* Add conversion methods for country codes [\#847](https://github.com/countries/countries/pull/847) ([mechnicov](https://github.com/mechnicov))
+
 ## [6.0.0](https://github.com/countries/countries/releases/tag/v6.0.0') (2024/02/17 17:33 +00:00)
 
 **Breaking Changes**
