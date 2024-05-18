@@ -664,6 +664,40 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'conversion methods' do
+    describe 'from_alpha2_to_alpha3' do
+      subject { ISO3166::Country.from_alpha2_to_alpha3(alpha2) }
+
+      context 'when country exists' do
+        let(:alpha2) { 'US' }
+
+        it { is_expected.to eq('USA') }
+      end
+
+      context 'when country does not exist' do
+        let(:alpha2) { '..' }
+
+        it { is_expected.to be_nil }
+      end
+    end
+
+    describe 'from_alpha3_to_alpha2' do
+      subject { ISO3166::Country.from_alpha3_to_alpha2(alpha3) }
+
+      context 'when country exists' do
+        let(:alpha3) { 'USA' }
+
+        it { is_expected.to eq('US') }
+      end
+
+      context 'when country does not exist' do
+        let(:alpha3) { '...' }
+
+        it { is_expected.to be_nil }
+      end
+    end
+  end
+
   describe 'hash finder methods' do
     context "when search name in 'iso_short_name'" do
       subject { ISO3166::Country.find_by_iso_short_name('Poland') }
