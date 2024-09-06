@@ -4,6 +4,10 @@ require 'spec_helper'
 require 'i18n'
 
 describe 'ISO3166.configuration' do
+  it 'has a configuration' do
+    expect(ISO3166.configuration).to be_a ISO3166::Configuration
+  end
+
   it 'locales can be changed' do
     ISO3166.configuration.locales = [:es]
     ISO3166.configuration.locales << :de
