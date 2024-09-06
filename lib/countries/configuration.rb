@@ -10,7 +10,7 @@ module ISO3166
   end
 
   def self.reset
-    @configuration = nil
+    @configuration = Configuration.new
     Data.reset
   end
 
