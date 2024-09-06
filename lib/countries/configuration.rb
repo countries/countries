@@ -10,7 +10,7 @@ module ISO3166
   end
 
   def self.reset
-    @configuration = Configuration.new
+    @configuration = nil
     Data.reset
   end
 
@@ -19,11 +19,15 @@ module ISO3166
   end
 
   class Configuration
-    attr_accessor :locales, :loaded_locales
+    attr_accessor :loaded_locales
+    attr_writer :locales
 
     def initialize
-      @locales = default_locales
       @loaded_locales = []
+    end
+
+    def locales
+      @locales ||= default_locales
     end
 
     # Enables the integration with the {Money}[https://github.com/RubyMoney/money] gem

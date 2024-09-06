@@ -4,10 +4,6 @@ require 'spec_helper'
 require 'i18n'
 
 describe 'ISO3166.configuration' do
-  it 'has a configuration' do
-    expect(ISO3166.configuration).to be_a ISO3166::Configuration
-  end
-
   it 'locales can be changed' do
     ISO3166.configuration.locales = [:es]
     ISO3166.configuration.locales << :de
@@ -56,5 +52,19 @@ describe 'ISO3166.configuration' do
     expect(ISO3166::Country.new('DE').translations.size).to eq 92
 
     expect(ISO3166.configuration.loaded_locales.size).to eq 92
+  end
+
+  context 'lazy load default locales' do
+    it 'does not load default locales during initialization' do
+      expect(I18n).to receive(:available_locales).never
+
+      ISO3166::Configuration.new
+    end
+
+    it 'loads default locales when calling #locales for the first time' do
+      expect(I18n).to receive(:available_locales).once.and_return([:test])
+
+      expect(ISO3166::Configuration.new.locales).to eq([:test])
+    end
   end
 end
