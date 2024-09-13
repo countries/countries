@@ -29,8 +29,8 @@ module ISO3166
 
     def method_missing(method_name, *arguments)
       matches = method_name.to_s.match(FIND_BY_REGEX)
-      return_all = matches[1]
       super unless matches
+      return_all = matches[1]
 
       countries = find_by(matches[3], arguments[0], matches[2])
       return_all ? countries : countries.last

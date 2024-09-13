@@ -1033,6 +1033,19 @@ describe ISO3166::Country do
         expect(country).to be_a(ISO3166::Country)
       end
     end
+
+    context 'regressions for #863' do
+      context 'method_missing' do
+        it 'does not provide a red herring error message' do
+          expect { ISO3166::Country.undefined_method }.to raise_error(NoMethodError) do |error|
+            expect(error.message).to_not match Regexp.new("undefined method `#{Regexp.escape('[]')}' for nil:NilClass")
+          end
+        end
+        it 'provides the expected error message' do
+          expect { ISO3166::Country.undefined }.to raise_error(NoMethodError, /undefined method `undefined'/)
+        end
+      end
+    end
   end
 
   describe 'finder methods respond_to_missing?' do
