@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.0](https://github.com/countries/countries/releases/tag/v7.0.0') (2024/09/29 19:40 +00:00)
+
+Changing CHANGELOG entry format to use GitHub's generated release notes.
+
+**Breaking Changes**
+* Remove support for Ruby 3.0 (EOL 2024-04-23) by @pmor in https://github.com/countries/countries/pull/868
+* Remove deprecated `#state` method  (Deprecated since 5.1.0 - 2022-06-27) by @pmor in https://github.com/countries/countries/pull/869
+
+**What's Changed**
+* Update PY.yaml by @jaredwindover in https://github.com/countries/countries/pull/853
+* Languages updates by @pmor in https://github.com/countries/countries/pull/854
+* Change VAT rates for CH valid from 2024-01-01 by @phylor in https://github.com/countries/countries/pull/850
+* Add Great Britain as an Unofficial Name for GB by @djpremier in https://github.com/countries/countries/pull/855
+* Update CD.yaml and CG.yaml by @gabrielgaraujo in https://github.com/countries/countries/pull/857
+* Update MM.yaml by @gabrielgaraujo in https://github.com/countries/countries/pull/858
+* Correct Peterborough by @kylewelsby in https://github.com/countries/countries/pull/860
+* Fix ER currency code by @pmor in https://github.com/countries/countries/pull/861
+* VAT rate for Finland changed to 25.5% as of 2024-09-01 by @JanMSP in https://github.com/countries/countries/pull/864
+* Lazy load default locales by @lacco in https://github.com/countries/countries/pull/865
+* fix and tests by @CoderMiguel in https://github.com/countries/countries/pull/866
+
 ## [6.0.1](https://github.com/countries/countries/releases/tag/v6.0.1') (2024/05/18 11:35 +00:00)
 
 * Adds the unofficial localized name of Bulgaria in Bulgarian [\#844](https://github.com/countries/countries/pull/844) ([itay-grudev](https://github.com/itay-grudev))
