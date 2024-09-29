@@ -57,4 +57,18 @@ describe 'ISO3166.configuration' do
 
     expect(ISO3166.configuration.loaded_locales.size).to eq 92
   end
+
+  context 'lazy load default locales' do
+    it 'does not load default locales during initialization' do
+      expect(I18n).to receive(:available_locales).never
+
+      ISO3166::Configuration.new
+    end
+
+    it 'loads default locales when calling #locales for the first time' do
+      expect(I18n).to receive(:available_locales).once.and_return([:test])
+
+      expect(ISO3166::Configuration.new.locales).to eq([:test])
+    end
+  end
 end
