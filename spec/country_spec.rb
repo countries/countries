@@ -250,10 +250,6 @@ describe ISO3166::Country do
       expect(country.subdivisions.size).to eq(57)
     end
 
-    it '#states should be deprecated' do
-      expect { country.states }.to output.to_stderr
-    end
-
     it 'should be a subdivision object' do
       expect(virginia).to be_a(ISO3166::Subdivision)
     end

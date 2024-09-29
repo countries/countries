@@ -16,7 +16,7 @@ describe 'Accessing ISO3166::Country instances data in multiple threads' do
 
     alpha2_codes = %w[us es nl ca de fr mx ru ch jp]
 
-    nthreads.times do |i|
+    nthreads.times do |_i|
       threads << Thread.new do
         alpha2_codes.each do |a2|
           country = ISO3166::Country[a2]

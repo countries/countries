@@ -9,13 +9,13 @@ module ISO3166
     include CountrySubdivisionMethods
     attr_reader :data
 
-    ISO3166::DEFAULT_COUNTRY_HASH.each do |method_name, _type|
+    ISO3166::DEFAULT_COUNTRY_HASH.each_key do |method_name|
       define_method method_name do
         data[method_name.to_s]
       end
     end
 
-    ISO3166::DEFAULT_COUNTRY_HASH['geo'].each do |method_name, _type|
+    ISO3166::DEFAULT_COUNTRY_HASH['geo'].each_key do |method_name|
       define_method method_name do
         data['geo'][method_name.to_s]
       end

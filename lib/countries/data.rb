@@ -98,8 +98,8 @@ module ISO3166
         end
       end
 
-      def synchronized(&block)
-        @mutex.synchronize(&block)
+      def synchronized(&)
+        @mutex.synchronize(&)
       end
 
       def load_required?
