@@ -34,7 +34,7 @@ module ISO3166
 
     def all_names_with_codes(locale = 'en')
       Country.all.map do |c|
-        lc = (c.translation(locale) || c.iso_short_name)
+        lc = c.translation(locale) || c.iso_short_name
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
       end.sort
     end

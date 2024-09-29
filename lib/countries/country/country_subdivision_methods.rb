@@ -11,8 +11,8 @@ module ISO3166
     end
 
     def subdivision_for_string?(subdivision_str)
-      !subdivisions.transform_values(&:translations)
-                   .select { |k, v| subdivision_str == k || v.values.include?(subdivision_str) }.empty?
+      subdivisions.transform_values(&:translations)
+                  .any? { |k, v| subdivision_str == k || v.values.include?(subdivision_str) }
     end
 
     #  +true+ if this Country has any Subdivisions.
@@ -59,18 +59,6 @@ module ISO3166
     # @return [Array<String>] A list of subdivision names for this country.
     def subdivision_names(locale = 'en')
       subdivisions.map { |_k, v| v.translations[locale] || v.name }
-    end
-
-    def states
-      if RUBY_VERSION =~ /^3\.\d\.\d/
-        warn 'DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.',
-             uplevel: 1, category: :deprecated
-      else
-        warn 'DEPRECATION WARNING: The Country#states method has been deprecated and will be removed in 6.0. Please use Country#subdivisions instead.',
-             uplevel: 1
-      end
-
-      subdivisions
     end
 
     private

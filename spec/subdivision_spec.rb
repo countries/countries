@@ -13,7 +13,7 @@ describe ISO3166::Subdivision do
   describe 'translations' do
     it 'should be hash or nil' do
       countries.each do |country|
-        country.subdivisions.each do |_, region|
+        country.subdivisions.each_value do |region|
           expect(available_types).to include(region.translations.class)
         end
       end

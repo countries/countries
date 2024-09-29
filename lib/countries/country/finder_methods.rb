@@ -72,8 +72,7 @@ module ISO3166
     end
 
     def searchable_attributes
-      # Add name and names until we complete the deprecation of the finders
-      instance_methods - UNSEARCHABLE_METHODS + %i[name names any_name]
+      instance_methods - UNSEARCHABLE_METHODS + %i[any_name]
     end
   end
 end

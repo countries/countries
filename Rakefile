@@ -21,7 +21,7 @@ task default: [:spec]
 
 desc 'Update CLDR subdivison data set'
 task :update_cldr_subdivison_data do
-  require_relative './lib/countries/sources'
+  require_relative 'lib/countries/sources'
   Sources::CLDR::Downloader.subdivisions
   Sources::CLDR::SubdivisionUpdater.new.call
 end
@@ -35,7 +35,7 @@ task :update_cache do
     locale = locale_file.split('-').last.split('.').first.downcase
     local_names = YAML.load_file(locale_file)
 
-    out = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json")
+    out = File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub('_', '-')}.json")
     File.binwrite(out, local_names.to_json)
   end
 

@@ -37,3 +37,7 @@ The `#states` method is deprecated to avoid confusion, as this method is an alia
 To get a list of `state` subdivisions (something that was not possible before 5.1), use `subdivisions_of_types(['state'])`
 
 Please note that the subdivision types are obtained from ISO data, and each country defines its own subdivision types, eg: `state`, `district`, `region`, `municipality` and many others types exist.
+
+# Upgrading to 7.0
+
+In release 7.0, the long-deprecated `#states` method has been removed. More information above (Upgrading to 5.1)

@@ -24,7 +24,7 @@ module Sources
         last_country_code_seen = nil
 
         subdivisions.each_with_index do |subdivision, index|
-          subdivision = Sources::CLDR::Subdivision.new(language_code: language_code, xml: subdivision)
+          subdivision = Sources::CLDR::Subdivision.new(language_code:, xml: subdivision)
           data = @loader.load(subdivision.country_code)
           data[subdivision.code] ||= {}
           data[subdivision.code] = data[subdivision.code].deep_merge(subdivision.to_h)
