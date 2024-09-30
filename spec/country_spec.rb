@@ -1231,7 +1231,7 @@ describe ISO3166::Country do
       expect(ISO3166::Country('us')).to eq country
     end
 
-    it 'should return country if not convertable input given' do
+    it 'should return country if not convertible input given' do
       expect do
         ISO3166::Country(42)
       end.to raise_error(TypeError, /can't convert ([A-z]+) into ISO3166::Country/)
