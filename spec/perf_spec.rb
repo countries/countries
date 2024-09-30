@@ -60,7 +60,7 @@ describe ISO3166::Data, perf: true, order: :defined do
     report.pretty_print(to_file: 'tmp/all_locales.txt')
   end
 
-  it 'loades a specfic country quickly' do
+  it 'loades a specific country quickly' do
     codes = Dir['lib/countries/data/countries/*.yaml'].map { |x| File.basename(x, File.extname(x)) }.uniq
     Benchmark.bmbm do |bm|
       bm.report('find_by_alpha2') do

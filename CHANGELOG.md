@@ -175,7 +175,7 @@ Changing CHANGELOG entry format to use GitHub's generated release notes.
 - `Subdivision` now has a `type` attribute obtained from ISO3166-2 subdivision types. `type` is a _lowercase_ and _snake_cased_ string.
 - Adds `Country#subdivision_types` and `#humanized_subdivision_types` to list a country's subdivision types
 - Adds `Country#subdivisions_of_types(types)` to allow getting subdivisions of given type(s)
-- `Country#states` is now deprecated to avoid confusion (this method was just an alias to `#subdivisions` and retuns all subdivisions, regarless of type)
+- `Country#states` is now deprecated to avoid confusion (this method was just an alias to `#subdivisions` and returns all subdivisions, regardless of type)
 
 **Merged pull requests:**
 
@@ -428,7 +428,7 @@ Changing CHANGELOG entry format to use GitHub's generated release notes.
 - Add Ñuble region [\#598](https://github.com/hexorx/countries/pull/598) ([mbirman](https://github.com/mbirman))
 - Update Ireland Subdivision Formatting and Connacht and \(County\) Cork Data [\#596](https://github.com/hexorx/countries/pull/596) ([anastasiastowers](https://github.com/anastasiastowers))
 - Change the name of Macedonia to North Macedonia [\#585](https://github.com/hexorx/countries/pull/585) ([svetliomihailov](https://github.com/svetliomihailov))
-- Add Murica to United States unoffical names [\#577](https://github.com/hexorx/countries/pull/577) ([mikeyduece](https://github.com/mikeyduece))
+- Add Murica to United States unofficial names [\#577](https://github.com/hexorx/countries/pull/577) ([mikeyduece](https://github.com/mikeyduece))
 - Fix state codes from being returned as false [\#574](https://github.com/hexorx/countries/pull/574) ([akiellor](https://github.com/akiellor))
 - Update i18n\_data version [\#572](https://github.com/hexorx/countries/pull/572) ([tatarsky-v](https://github.com/tatarsky-v))
 - remove bin/console from gemspec [\#571](https://github.com/hexorx/countries/pull/571) ([patleb](https://github.com/patleb))
@@ -481,7 +481,7 @@ Changing CHANGELOG entry format to use GitHub's generated release notes.
 - Memoize subdivision YAML loading [\#510](https://github.com/hexorx/countries/pull/510) ([mdehoog](https://github.com/mdehoog))
 - Update CZ country name [\#509](https://github.com/hexorx/countries/pull/509) ([minvs1](https://github.com/minvs1))
 - Add Ukraine vat rates [\#507](https://github.com/hexorx/countries/pull/507) ([jgrau](https://github.com/jgrau))
-- Corrected swedish transation for GB [\#505](https://github.com/hexorx/countries/pull/505) ([pidu](https://github.com/pidu))
+- Corrected swedish translation for GB [\#505](https://github.com/hexorx/countries/pull/505) ([pidu](https://github.com/pidu))
 - Remove empty :geo key and misspelled latitude [\#504](https://github.com/hexorx/countries/pull/504) ([normancapule](https://github.com/normancapule))
 - Update README.markdown [\#502](https://github.com/hexorx/countries/pull/502) ([gssbzn](https://github.com/gssbzn))
 
