@@ -54,6 +54,7 @@ module ISO3166
       'super_reduced' => nil,
       'parking' => nil
     },
+    'vehicle_registration_code' => nil,
     'world_region' => nil
   }.freeze
 

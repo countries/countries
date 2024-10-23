@@ -113,6 +113,10 @@ describe ISO3166::Country do
     expect(country.subregion).to eq('Northern America')
   end
 
+  it 'should return vehicle registration code' do
+    expect(country.vehicle_registration_code).to eq('USA')
+  end
+
   it 'should return world region' do
     expect(country.world_region).to eq('AMER')
   end
