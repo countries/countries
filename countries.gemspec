@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
                         'changelog_uri' => 'https://github.com/countries/countries/blob/master/CHANGELOG.md',
                         'source_code_uri' => 'https://github.com/countries/countries',
                         'wiki_uri' => 'https://github.com/countries/countries/wiki',
+                        'funding_uri' => 'https://github.com/sponsors/pmor',
                         'rubygems_mfa_required' => 'true' }
 
   gem.files         = `git ls-files lib`.split($OUTPUT_RECORD_SEPARATOR)
