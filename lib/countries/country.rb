@@ -87,6 +87,11 @@ module ISO3166
       data['euvat_member'].nil? ? in_eu? : data['euvat_member']
     end
 
+    # +true+ if this country is a member of the United Nations.
+    def in_un?
+      data['un_member'].nil? ? false : data['un_member']
+    end
+
     # @return [String] The regex for valid postal codes in this Country
     def postal_code_format
       "\\A#{data['postal_code_format']}\\Z" if postal_code
