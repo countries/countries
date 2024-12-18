@@ -218,6 +218,12 @@ c.in_esm? # => false
 c.in_eu_vat? # => false
 ```
 
+### UN membership
+
+```ruby
+c.in_un? # false
+```
+
 ### GDPR Compliant (European Economic Area Membership or UK)
 
 ```ruby
