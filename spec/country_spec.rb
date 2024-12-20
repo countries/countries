@@ -1188,6 +1188,20 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_un?' do
+    let(:united_states) { ISO3166::Country.search('US') }
+    let(:kiribati) { ISO3166::Country.search('KI') }
+    let(:norfolk_island) { ISO3166::Country.search('NF') }
+
+    it 'should return true for countries with un_member flag set to true' do
+      expect(united_states.in_un?).to be_truthy
+    end
+
+    it 'should return false for countries with un_member flag set to false' do
+      expect(norfolk_island.in_un?).to be_falsey
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'
