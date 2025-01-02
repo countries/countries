@@ -212,6 +212,9 @@ module ISO3166
     # @!attribute vat_rates
     #   @return [Hash] the hash of VAT Rates for this Country
     #
+    # @!attribute vehicle_registration_code
+    #   @return [String] The vehicle registration code for this Country
+    #
     # @!attribute world_region
     #   @return [String] The "World Region" this country is in: +"AMER"+ , +"APAC"+ or +"EMEA"+
 

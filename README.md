@@ -243,6 +243,12 @@ c.emoji_flag # => "🇲🇾"
 c.distance_unit # => "MI"
 ```
 
+### Country Vehicle Registration Code
+
+```ruby
+c.vehicle_registration_code # => "D"
+```
+
 ### Plucking multiple attributes
 
 ```ruby
