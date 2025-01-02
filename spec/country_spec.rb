@@ -1038,7 +1038,7 @@ describe ISO3166::Country do
           end
         end
         it 'provides the expected error message' do
-          expect { ISO3166::Country.undefined }.to raise_error(NoMethodError, /undefined method `undefined'/)
+          expect { ISO3166::Country.undefined }.to raise_error(NoMethodError, /undefined method (`||')undefined'/)
         end
       end
     end
