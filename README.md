@@ -61,7 +61,7 @@ Release 4.2.0 introduced changes to name attributes and finders and deprecated s
 
 The 5.0 release removed these deprecated methods and also removed support for Ruby 2.5 and 2.6
 
-Plase see [UPGRADE.md](../master/UPGRADE.md) for more information
+Please see [UPGRADE.md](../master/UPGRADE.md) for more information
 
 ## Attribute-Based Finder Methods
 
@@ -218,6 +218,12 @@ c.in_esm? # => false
 c.in_eu_vat? # => false
 ```
 
+### UN membership
+
+```ruby
+c.in_un? # false
+```
+
 ### GDPR Compliant (European Economic Area Membership or UK)
 
 ```ruby
@@ -249,7 +255,7 @@ c.vehicle_registration_code # => "D"
 ISO3166::Country.pluck(:alpha2, :iso_short_name) # => [["AD", "Andorra"], ["AE", "United Arab Emirates"], ...
 ```
 
-`.collect_countries_with` allows to collect various countries' informations using any valid method and query value:
+`.collect_countries_with` allows to collect various countries' information using any valid method and query value:
 ```ruby
 > ISO3166::Country.collect_countries_with("VR",:subdivisions,:common_name)
  => ["Italy", "Monaco"]

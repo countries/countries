@@ -1042,7 +1042,7 @@ describe ISO3166::Country do
           end
         end
         it 'provides the expected error message' do
-          expect { ISO3166::Country.undefined }.to raise_error(NoMethodError, /undefined method `undefined'/)
+          expect { ISO3166::Country.undefined }.to raise_error(NoMethodError, /undefined method (`||')undefined'/)
         end
       end
     end
@@ -1192,6 +1192,20 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_un?' do
+    let(:united_states) { ISO3166::Country.search('US') }
+    let(:kiribati) { ISO3166::Country.search('KI') }
+    let(:norfolk_island) { ISO3166::Country.search('NF') }
+
+    it 'should return true for countries with un_member flag set to true' do
+      expect(united_states.in_un?).to be_truthy
+    end
+
+    it 'should return false for countries with un_member flag set to false' do
+      expect(norfolk_island.in_un?).to be_falsey
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'
@@ -1235,7 +1249,7 @@ describe ISO3166::Country do
       expect(ISO3166::Country('us')).to eq country
     end
 
-    it 'should return country if not convertable input given' do
+    it 'should return country if not convertible input given' do
       expect do
         ISO3166::Country(42)
       end.to raise_error(TypeError, /can't convert ([A-z]+) into ISO3166::Country/)
