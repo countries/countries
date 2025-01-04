@@ -116,8 +116,15 @@ module ISO3166
 
     # @param locale [String] The locale to use for translations.
     # @return [String] the name of this Country in the selected locale.
-    def translation(locale = 'en')
-      data['translations'][locale.to_s.downcase]
+    def translation(locale = :en)
+      case locale
+      when Symbol
+        locale = locale.downcase
+      when String
+        locale = locale.downcase if locale.match?(/[A-Z]/)
+        locale = locale.to_sym
+      end
+      data['translations'][locale]
     end
 
     # @return [String] the “common name” of this Country in English.

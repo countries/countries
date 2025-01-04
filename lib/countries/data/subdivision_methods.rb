@@ -5,8 +5,10 @@ module ISO3166
     def subdivision_data(alpha2)
       data = load_data_for_alpha2(alpha2)
       locales = ISO3166.configuration.locales.map(&:to_s)
-
-      data.each_value { |subdivision| subdivision['translations'] = subdivision['translations'].slice(*locales) }
+      data.each_value do |subdivision|
+        subdivision['translations'] = subdivision['translations'].slice(*locales)
+                                                                 .transform_keys(&:to_sym)
+      end
 
       data
     end
