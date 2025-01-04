@@ -18,7 +18,12 @@ module ISO3166
 
   module CountryClassMethods
     def new(country_data)
-      super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
+      unless country_data.is_a?(Hash)
+        country_data = country_data.to_s if country_data.is_a?(Symbol)
+        country_data = country_data.upcase if country_data.match?(/[a-z]/)
+      end
+
+      super if country_data.is_a?(Hash) || codes.include?(country_data)
     end
 
     def codes
@@ -32,7 +37,7 @@ module ISO3166
 
     alias countries all
 
-    def all_names_with_codes(locale = 'en')
+    def all_names_with_codes(locale = :en)
       Country.all.map do |c|
         lc = c.translation(locale) || c.iso_short_name
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
@@ -43,12 +48,14 @@ module ISO3166
       all.map { |country| country.data.fetch_values(*attributes.map(&:to_s)) }
     end
 
-    def all_translated(locale = 'en')
+    def all_translated(locale = :en)
       translations(locale).values
     end
 
-    def translations(locale = 'en')
-      locale = locale.downcase.freeze
+    def translations(locale = :en)
+      locale = locale.downcase if locale.match?(/[A-Z]/)
+      locale = locale.to_sym if locale.is_a?(String)
+
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
       translations = JSON.parse(File.read(file_path))
 

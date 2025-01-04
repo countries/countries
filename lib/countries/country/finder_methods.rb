@@ -6,7 +6,10 @@ module ISO3166
     SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
 
     def search(query)
-      country = new(query.to_s.upcase)
+      query = query.to_s if query.is_a?(Symbol)
+      query = query.upcase if query.match?(/[a-z]/)
+
+      country = new(query)
       country&.valid? ? country : nil
     end
 
