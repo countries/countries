@@ -61,7 +61,6 @@ describe ISO3166::Country do
   end
 
   it 'should return translations' do
-    expect(country.translations).to be
     expect(country.translations['en']).to eq('United States')
   end
 
@@ -342,6 +341,17 @@ describe ISO3166::Country do
       expect(subdivisions).to be_an(Array)
       expect(subdivisions.first[0]).to be_a(String)
       expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first[0]).to eq('Alejandría')
+    end
+
+    it 'falls back to the base subdivision name if the translation is missing' do
+      ISO3166.configuration.locales = %i[af]
+      ISO3166::Data.reset
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes(:af)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first[0]).to be_a(String)
+      expect(subdivisions.size).to eq(27)
       expect(subdivisions.first[0]).to eq('Al Iskandariyah')
     end
   end
@@ -360,6 +370,17 @@ describe ISO3166::Country do
       ISO3166::Data.reset
 
       subdivisions = ISO3166::Country.search('EG').subdivision_names(:es)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first).to eq('Alejandría')
+    end
+
+    it 'falls back to the base subdivision name if the translation is missing' do
+      ISO3166.configuration.locales = %i[af]
+      ISO3166::Data.reset
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names(:af)
       expect(subdivisions).to be_an(Array)
       expect(subdivisions.first).to be_a(String)
       expect(subdivisions.size).to eq(27)

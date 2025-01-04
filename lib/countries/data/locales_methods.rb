@@ -13,11 +13,11 @@ module ISO3166
     end
 
     def requested_locales
-      ISO3166.configuration.locales.map { |locale| locale.to_s.downcase }
+      ISO3166.configuration.locales.map { |locale| locale.match?(/[A-Z]/) ? locale.downcase : locale }
     end
 
     def loaded_locales
-      ISO3166.configuration.loaded_locales.map { |locale| locale.to_s.downcase }
+      ISO3166.configuration.loaded_locales.map { |locale| locale.match?(/[A-Z]/) ? locale.downcase : locale }
     end
   end
 end
