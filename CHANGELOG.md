@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.1.0](https://github.com/countries/countries/releases/tag/v7.1.0') (2025/01/04 17:16 +00:00)
+
+## What's Changed
+* Add UN membership by @will-gant in https://github.com/countries/countries/pull/882
+* Add vehicle_registration_code attribute to countries data by @ch000 in https://github.com/countries/countries/pull/871
+* Add Ruby 3.4 to the test matrix by @pmor in https://github.com/countries/countries/pull/883
+* Add funding_uri to gemspec by @andrew in https://github.com/countries/countries/pull/873
+* Update Federal Subdivisions of Nepal with New Provinces by @himalayan-sanjeev in https://github.com/countries/countries/pull/874
+* Fix typos by @tagliala in https://github.com/countries/countries/pull/870
+* Add funding_uri to gemspec by @andrew in https://github.com/countries/countries/pull/873
+* Add nanp_prefix to DO by @vanniktech in https://github.com/countries/countries/pull/880
+* Add nanp_prefix to VA by @vanniktech in https://github.com/countries/countries/pull/879
+* Add nanp_prefix to VI by @vanniktech in https://github.com/countries/countries/pull/878
+* Add nanp_prefix to UM by @vanniktech in https://github.com/countries/countries/pull/877
+* Add nanp_prefix to PR by @vanniktech in https://github.com/countries/countries/pull/876
+* Add nanp_prefix to MP by @vanniktech in https://github.com/countries/countries/pull/875
+* nanp_prefix should be a String and not a List. by @vanniktech in https://github.com/countries/countries/pull/881
+
 ## [7.0.0](https://github.com/countries/countries/releases/tag/v7.0.0') (2024/09/29 19:40 +00:00)
 
 Changing CHANGELOG entry format to use GitHub's generated release notes.
