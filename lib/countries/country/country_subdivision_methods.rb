@@ -51,13 +51,13 @@ module ISO3166
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
-    def subdivision_names_with_codes(locale = 'en')
+    def subdivision_names_with_codes(locale = :en)
       subdivisions.map { |k, v| [v.translations[locale] || v.name, k] }
     end
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<String>] A list of subdivision names for this country.
-    def subdivision_names(locale = 'en')
+    def subdivision_names(locale = :en)
       subdivisions.map { |_k, v| v.translations[locale] || v.name }
     end
 
