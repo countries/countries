@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.1.1](https://github.com/countries/countries/releases/tag/v7.1.1') (2025/02/08 18:07 +00:00)
+
+## What's Changed
+
+* Update SK VAT rates for 2025 by @bobmaerten in https://github.com/countries/countries/pull/885
+
 ## [7.1.0](https://github.com/countries/countries/releases/tag/v7.1.0') (2025/01/04 17:16 +00:00)
 
 ## What's Changed
