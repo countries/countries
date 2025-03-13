@@ -2,7 +2,8 @@
 '03':
   name: Saint George
   code: '03'
-  unofficial_names: Saint George
+  unofficial_names:
+  - Saint George
   geo:
     latitude: 17.1078489
     longitude: -61.7882743
@@ -50,16 +51,16 @@
     zh: 聖喬治區
     ceb: Parish of Saint George
     sr_Latn: Sent Džordž
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U00011122\U00011133\U0001110E\U00011134"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄎𑄧𑄢𑄳𑄎𑄴"
     uk: Парафія Сент-Джордж
     ca: Parròquia de Saint George
     'no': Saint George prestegjeld
-  comments:
   type: parish
 '04':
   name: Saint John’s
   code: '04'
-  unofficial_names: Saint John’s
+  unofficial_names:
+  - Saint John’s
   geo:
     latitude: 17.116667
     longitude: -61.84999999999999
@@ -93,18 +94,18 @@
     sr_Latn: Sent Džon
     zh: 圣约翰区
     ja: セント・ジョン教区
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001110E\U00011127\U0001111A\U00011134"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄎𑄧𑄚𑄴"
     ca: Parròquia de Saint John
     'no': Saint John prestegjeld
     fa: پاریس سنت جان (آنتیگوا و باربودا)
     fi: Saint John (Antigua ja Barbuda)
     ru: Сент-Джон
-  comments:
   type: parish
 '05':
   name: Saint Mary
   code: '05'
-  unofficial_names: Saint Mary
+  unofficial_names:
+  - Saint Mary
   geo:
     latitude: 17.0512064
     longitude: -61.87602829999999
@@ -153,16 +154,16 @@
     ceb: Parish of Saint Mary
     sr_Latn: Sent Meri
     zh: 聖瑪麗區
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111F\U0001112C\U00011122\U00011128"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄟𑄬𑄢𑄨"
     uk: Парафія Сент-Мері
     ca: Parròquia de Saint Mary
     'no': Saint Mary prestegjeld
-  comments:
   type: parish
 '06':
   name: Saint Paul
   code: '06'
-  unofficial_names: Saint Paul
+  unofficial_names:
+  - Saint Paul
   geo:
     latitude: 17.0371588
     longitude: -61.7824256
@@ -210,18 +211,18 @@
     ceb: Parish of Saint Paul
     sr_Latn: Sent Pol
     zh: 聖保羅區
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111B\U00011127\U00011123\U00011134"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄛𑄧𑄣𑄴"
     uk: Парафія Сент-Пол
     ca: Parròquia de Saint Paul
     'no': Saint Paul prestegjeld
     az: Sent Pol səmti
     fa: پاریس سنت پل (آنتیگوا و باربودا)
-  comments:
   type: parish
 '07':
   name: Saint Peter
   code: '07'
-  unofficial_names: Saint Peter
+  unofficial_names:
+  - Saint Peter
   geo:
     latitude: 17.0980665
     longitude: -61.75903289999999
@@ -269,17 +270,17 @@
     ceb: Parish of Saint Peter
     sr_Latn: Sent Piter
     zh: 聖彼得區
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111B\U00011128\U00011111\U00011122\U00011134"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄛𑄨𑄑𑄢𑄴"
     uk: Парафія Сент-Пітер
     ca: Parròquia de Saint Peter
     'no': Saint Peter prestegjeld
     fa: پریش سنت پیتر (آنتیگوا و باربودا)
-  comments:
   type: parish
 '08':
   name: Saint Philip
   code: '08'
-  unofficial_names: Saint Philip
+  unofficial_names:
+  - Saint Philip
   geo:
     latitude: 17.0480636
     longitude: -61.71225699999999
@@ -327,16 +328,16 @@
     ceb: Parish of Saint Philip
     sr_Latn: Sent Filip
     zh: 聖菲利普區
-    ccp: "\U00011125\U0001112C\U0001111A\U00011133\U00011111\U00011134 \U0001111C\U00011128\U00011123\U00011128\U0001111B\U00011134"
+    ccp: "𑄥𑄬𑄚𑄳𑄑𑄴 𑄜𑄨𑄣𑄨𑄛𑄴"
     uk: Парафія Сент-Філіп
     ca: Parròquia de Saint Philip
     'no': Saint Philip prestegjeld
-  comments:
   type: parish
 '10':
   name: Barbuda
   code: '10'
-  unofficial_names: Barbuda
+  unofficial_names:
+  - Barbuda
   geo:
     latitude: 17.626798
     longitude: -61.7707288
@@ -397,7 +398,7 @@
     sr_Latn: Barbuda
     zh: 巴布達島
     yue_Hans: 巴布达岛
-    ccp: "\U0001111D\U00011122\U00011134\U0001111D\U0001112A\U00011118"
+    ccp: "𑄝𑄢𑄴𑄝𑄪𑄘"
     hu: Barbuda
     yue: 巴布達島
     yo: Bàrbúdà
@@ -407,19 +408,10 @@
     hy: Բարբուդա կղզի
     ky: Барбуда
     ps: باربودا
-  comments:
   type: dependency
 '11':
   name: Redonda
   code: '11'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: ريدوندا
     be: Востраў Рэдонда
@@ -469,10 +461,9 @@
     ceb: Redonda
     sr_Latn: Redonda
     zh: 雷東達島
-    ccp: "\U00011122\U0001112C\U00011113\U0001112E\U0001111A\U00011134\U00011118"
+    ccp: "𑄢𑄬𑄓𑄮𑄚𑄴𑄘"
     ga: Redonda
     kk: Редонда
     mk: Редонда
     'no': Redonda
-  comments:
   type: dependency

@@ -74,12 +74,11 @@ AB:
     vi: Abkhazia
     zh: 阿布哈茲
     sr_Latn: Abhazija
-    ccp: "\U00011103\U0001111B\U00011134\U00011108\U0001110E\U00011128\U00011120"
+    ccp: "𑄃𑄛𑄴𑄈𑄎𑄨𑄠"
     sd: ابخازيہ
     kk: Абхазия Автономиялық Республикасы
     'no': Abkhasia
     cy: Gweriniaeth Ymreolaethol Abchasia
-  comments:
   type: autonomous_republic
 AJ:
   name: Ajaria
@@ -156,7 +155,7 @@ AJ:
     zh: 阿扎尔
     yue_Hans: 阿查拉
     jv: Ajaria
-    ccp: "\U00011103\U00011116\U00011134\U0001110E\U00011122"
+    ccp: "𑄃𑄖𑄴𑄎𑄢"
     ky: Ажария
     yue: 阿查拉
     yo: Adjara
@@ -167,12 +166,12 @@ AJ:
     yo_BJ: Adjara
     ha: Adjara
     ha_NE: Adjara
-  comments:
   type: autonomous_republic
 GU:
   name: Guria
   code: GU
-  unofficial_names: Guria
+  unofficial_names:
+  - Guria
   geo:
     latitude: 41.9442736
     longitude: 42.0458091
@@ -230,7 +229,7 @@ GU:
     ceb: Guria
     sr_Latn: Gurija
     zh: 古利亞州
-    ccp: "\U00011109\U0001112A\U00011122\U00011128\U00011120"
+    ccp: "𑄉𑄪𑄢𑄨𑄠"
     eu: Guria
     ml: ഗുരിയ
     mk: Гурија
@@ -239,12 +238,12 @@ GU:
     ha_NE: Guria
     hr: Gurija
     uz: Guria
-  comments:
   type: region
 IM:
   name: Imereti
   code: IM
-  unofficial_names: Imereti
+  unofficial_names:
+  - Imereti
   geo:
     latitude: 42.230108
     longitude: 42.9008665
@@ -304,7 +303,7 @@ IM:
     ceb: Imereti
     sr_Latn: Imeretija
     zh: 伊梅列季亞州
-    ccp: "\U00011103\U00011128\U0001111F\U0001112C\U00011122\U0001112C\U00011111\U00011128"
+    ccp: "𑄃𑄨𑄟𑄬𑄢𑄬𑄑𑄨"
     eu: Imereti
     kk: Имеретия патшалығы
     mk: Имеретија
@@ -314,7 +313,6 @@ IM:
     ha_NE: Imereti
     hr: Imeretija
     ro: Imeresia
-  comments:
   type: region
 KA:
   name: Kakheti
@@ -380,7 +378,7 @@ KA:
     ceb: Kakheti
     sr_Latn: Kahetija
     zh: 卡赫季州
-    ccp: "\U00011107\U00011108\U0001112C\U00011111\U00011128"
+    ccp: "𑄇𑄈𑄬𑄑𑄨"
     ml: കാഖേറ്റി
     mk: Кахетија
     'no': Kakheti
@@ -388,12 +386,12 @@ KA:
     ro: Kakhesia
     sl: Kaheti
     uz: Kaxeti
-  comments:
   type: region
 KK:
   name: Kvemo Kartli
   code: KK
-  unofficial_names: Kvemo Kartli
+  unofficial_names:
+  - Kvemo Kartli
   geo:
     latitude: 41.4791833
     longitude: 44.65604510000001
@@ -452,13 +450,12 @@ KK:
     ceb: Kvemo Kartli
     sr_Latn: Donji Kartli
     zh: 克維莫-卡特利州
-    ccp: "\U0001111E\U0001112C\U0001111F\U0001112E \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
+    ccp: "𑄞𑄬𑄟𑄮 𑄇𑄢𑄴𑄑𑄴𑄣𑄨"
     eu: Kvemo Kartli
     mk: Долна Картли
     'no': Kvemo Kartli
     ml: ക്വെമോ കാർട്ട്ലി
     ro: Kartli Inferior
-  comments:
   type: region
 MM:
   name: Mtskheta-Mtianeti
@@ -522,7 +519,7 @@ MM:
     sr_Latn: Mcheta-Mtijanetija
     zh: 姆茨赫塔-姆季阿涅季州
     yue_Hans: 姆茨赫塔-姆季阿涅季州
-    ccp: "\U00011103\U0001112C\U0001111F\U00011134\U00011111\U00011128\U00011103\U0001112C\U0001110C\U00011134\U00011108\U0001112C\U00011111-\U00011111\U00011128\U00011120\U0001111A\U0001112C\U00011111\U00011128"
+    ccp: "𑄃𑄬𑄟𑄴𑄑𑄨𑄃𑄬𑄌𑄴𑄈𑄬𑄑-𑄑𑄨𑄠𑄚𑄬𑄑𑄨"
     eu: Mtskheta-Mtianeti
     ml: മ്റ്റിസ്ഖേറ്റ-മ്റ്റിയാനേറ്റി
     yue: 姆茨赫塔-姆季阿涅季州
@@ -530,7 +527,6 @@ MM:
     'no': Mtskheta-Mtianeti
     ca: Mtskheta-Mtianeti
     ro: Mtskheta-Mtianeti
-  comments:
   type: region
 RL:
   name: Racha-Lechkhumi [and] Kvemo Svaneti
@@ -595,14 +591,12 @@ RL:
     ceb: Racha-Lechkhumi and Kvemo Svaneti
     sr_Latn: Rača-Lečhumi i Donja Svanetija
     zh: 拉恰-列其呼米-下斯瓦涅季亞州
-    ccp: "\U00011122\U0001110C-\U00011123\U0001112C\U0001110C\U00011134\U00011108\U0001112A\U0001111F\U00011128
-      \U00011103\U00011133\U00011103 \U0001111E\U0001112C\U0001111F\U0001112E \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
+    ccp: "𑄢𑄌-𑄣𑄬𑄌𑄴𑄈𑄪𑄟𑄨 𑄃𑄳𑄃 𑄞𑄬𑄟𑄮 𑄞𑄚𑄬𑄑𑄨"
     mk: Рача-Лечхуми и Долна Сванетија
     'no': Racha-Lechkhumi og Kvemo Svaneti
     ca: Ratxa-Letxkhumi i Baixa Svanètia
     ml: റച്ച-ലെച്ച്കുമി ആൻഡ് ക്വെമൊ സ്വനെറ്റി
     ro: Racia-Lecihumi și Svanesia Inferioară
-  comments:
   type: region
 SJ:
   name: Samtskhe-Javakheti
@@ -666,13 +660,12 @@ SJ:
     ceb: Samtskhe-Javakheti
     sr_Latn: Samche-Džavahetija
     zh: 薩姆茨赫-扎瓦赫季州
-    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011134\U00011108\U0001112C-\U0001110E\U0001111E\U00011108\U0001112C\U00011111\U00011128"
+    ccp: "𑄥𑄳𑄠𑄟𑄴𑄈𑄬-𑄎𑄞𑄈𑄬𑄑𑄨"
     eu: Samtskhe-Javakheti
     ml: സാംറ്റ്സ്കെ ജവാഖേറ്റി
     mk: Самцхе-Џавахетија
     'no': Samtskhe-Javakheti
     ro: Samtskhe-Javakheti
-  comments:
   type: region
 SK:
   name: Shida Kartli
@@ -737,18 +730,18 @@ SK:
     ceb: Shida Kartli
     sr_Latn: Unutrašnji Kartli
     zh: 什達-卡特利州
-    ccp: "\U00011125\U00011128\U00011113 \U00011107\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128"
+    ccp: "𑄥𑄨𑄓 𑄇𑄢𑄴𑄑𑄴𑄣𑄨"
     ml: ഷിദ കാർട്‌ലി
     mk: Внатрешен Картли
     'no': Shida Kartli
     hr: Unutarnji Kartli
     ro: Kartli Interior
-  comments:
   type: region
 SZ:
   name: Samegrelo-Zemo Svaneti
   code: SZ
-  unofficial_names: Samegrelo-Zemo Svaneti
+  unofficial_names:
+  - Samegrelo-Zemo Svaneti
   geo:
     latitude: 42.7352247
     longitude: 42.1689362
@@ -805,15 +798,13 @@ SZ:
     ceb: Samegrelo-Zemo Svanetis Mkhare
     sr_Latn: Megrelija-Gornja Svanetija
     zh: 薩梅格列羅-上斯瓦涅季亞州
-    ccp: "\U00011125\U00011133\U00011120\U0001111F\U00011134\U00011109\U00011133\U00011122\U0001112C\U00011123\U0001112E-\U0001110E\U0001112C\U0001111F\U0001112E
-      \U0001111E\U0001111A\U0001112C\U00011111\U00011128"
+    ccp: "𑄥𑄳𑄠𑄟𑄴𑄉𑄳𑄢𑄬𑄣𑄮-𑄎𑄬𑄟𑄮 𑄞𑄚𑄬𑄑𑄨"
     ml: സാമെഗ്രെലോ-സെമോ സ്വാനെറ്റി
     mk: Мегрелија-Горна Сванетија
     'no': Samegrelo-Zemo Svaneti
     ca: Mingrèlia - Alta Svanètia
     et: Samegrelo–Zemo Svanethi
     ro: Megrelia-Svanesia Superioară
-  comments:
   type: region
 TB:
   name: Tbilisi
@@ -897,7 +888,7 @@ TB:
     yue_Hans: 第比利斯
     jv: Tbilisi
     sq: Tbilisi
-    ccp: "\U0001111D\U00011128\U00011123\U00011128\U00011125\U00011128"
+    ccp: "𑄝𑄨𑄣𑄨𑄥𑄨"
     ga: Tbilisi
     ky: Тбилиси
     pa: ਤਬੀਲਿਸੀ
@@ -910,5 +901,4 @@ TB:
     'no': Tbilisi
     yo_BJ: Tbilisi
     ps: تفلیس
-  comments:
   type: city

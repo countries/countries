@@ -2,7 +2,8 @@
 CE:
   name: Central
   code: CE
-  unofficial_names: Central
+  unofficial_names:
+  - Central
   geo:
     latitude: -21.1672276
     longitude: 26.419389
@@ -53,7 +54,7 @@ CE:
     zh: 中部區
     lv: Centrālais distrikts
     ceb: Central District (distrito sa Botswana)
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴"
     ca: Districte Central
     mk: Централен округ
     'no': Central
@@ -61,19 +62,10 @@ CE:
     hy: Կենտրոնական շրջան
     sw: Wilaya ya Central (Botswana)
     zu: Central District, Butswana
-  comments:
   type: district
 CH:
   name: Chobe
   code: CH
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Chobe District
     en: Chobe
@@ -85,26 +77,17 @@ CH:
     sv: Chobe
     ur: چوبے ضلع
     zh: 乔贝区
-    ccp: "\U00011107\U0001112E\U0001111D\U0001112C"
+    ccp: "𑄇𑄮𑄝𑄬"
     'no': Chobe
     af: Chobedistrik
     fa: ناحیه چوبه
     id: Distrik Chobe
     pt: Chobe
     ru: Чобе
-  comments:
   type: district
 FR:
   name: Francistown
   code: FR
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Francistown
     ar: فرانسيس
@@ -152,7 +135,7 @@ FR:
     lv: Frensistauna
     ceb: Francistown
     zh: 弗朗西斯敦
-    ccp: "\U0001111C\U00011133\U00011122\U0001111A\U00011134\U00011125\U00011128\U0001110C\U00011134\U00011111\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄜𑄳𑄢𑄚𑄴𑄥𑄨𑄌𑄴𑄑𑄅𑄪𑄚𑄴"
     cs: Francistown
     ca: Francistown
     mk: Франсистаун
@@ -161,19 +144,10 @@ FR:
     hy: Ֆրանսիսթաուն
     sr: Франсистаун
     sr_Latn: Fransistaun
-  comments:
   type: city
 GA:
   name: Gaborone
   code: GA
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Gaborone
     am: ጋበሮኔ
@@ -240,7 +214,7 @@ GA:
     yue_Hans: 嘉波隆里
     jv: Gaborone
     sq: Gaborone
-    ccp: "\U00011109\U00011133\U00011120\U0001111D\U00011127\U00011122\U00011127\U0001111A\U00011134"
+    ccp: "𑄉𑄳𑄠𑄝𑄧𑄢𑄧𑄚𑄴"
     ga: Gaborone
     ky: Габороне
     ha: Gaborone
@@ -258,7 +232,6 @@ GA:
     yo_BJ: Gaborone
     my: ဂါဘိုရိုနေမြို့
     ps: ګابورون
-  comments:
   type: city
 GH:
   name: Ghanzi
@@ -316,24 +289,15 @@ GH:
     lv: Ganzi distrikts
     ceb: Ghanzi District
     zh: 杭濟區
-    ccp: "\U0001110A\U0001111A\U00011134\U0001110E\U00011128"
+    ccp: "𑄊𑄚𑄴𑄎𑄨"
     ca: Districte de Ghanzi
     mk: Ганзи
     'no': Ghanzi
     fa: منطقه قانزی
-  comments:
   type: district
 JW:
   name: Jwaneng
   code: JW
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Jwaneng
     ar: غوانينغ
@@ -373,17 +337,17 @@ JW:
     ceb: Jwaneng
     lt: Džvanengas
     zh: 朱瓦能
-    ccp: "\U0001110E\U00011133\U0001111D\U00011127\U0001111A\U0001112C\U00011101"
+    ccp: "𑄎𑄳𑄝𑄧𑄚𑄬𑄁"
     uk: Джваненг
     az: Cvanenq
     ca: Jwaneng
     'no': Jwaneng
-  comments:
   type: town
 KG:
   name: Kgalagadi
   code: KG
-  unofficial_names: Kgalagadi
+  unofficial_names:
+  - Kgalagadi
   geo:
     latitude: -24.7550285
     longitude: 21.8568586
@@ -434,18 +398,18 @@ KG:
     lv: Khalahadi distrikts
     ceb: Kgalagadi District
     zh: 卡拉哈迪區
-    ccp: "\U00011109\U00011123\U00011109\U00011113\U00011128"
+    ccp: "𑄉𑄣𑄉𑄓𑄨"
     ca: Districte de Kgalagadi
     mk: Кгалагади
     'no': Kgalagadi
     fa: منطقه کگالاگادی
     hy: Կգալագադի
-  comments:
   type: district
 KL:
   name: Kgatleng
   code: KL
-  unofficial_names: Kgatleng
+  unofficial_names:
+  - Kgatleng
   geo:
     latitude: -24.1970445
     longitude: 26.2304616
@@ -497,17 +461,17 @@ KL:
     lv: Khatlenas distrikts
     ceb: Kgatleng District
     zh: 卡特倫區
-    ccp: "\U00011109\U00011116\U00011134\U00011123\U0001112C\U00011101"
+    ccp: "𑄉𑄖𑄴𑄣𑄬𑄁"
     ca: Districte de Kgatleng
     mk: Кгатленг
     'no': Kgatleng
     hy: Կգատլենգ
-  comments:
   type: district
 KW:
   name: Kweneng
   code: KW
-  unofficial_names: Kweneng
+  unofficial_names:
+  - Kweneng
   geo:
     latitude: -23.8367249
     longitude: 25.2837585
@@ -558,24 +522,15 @@ KW:
     lv: Kvenenas distrikts
     ceb: Kweneng District
     zh: 奎嫩區
-    ccp: "\U00011107\U0001112A\U00011120\U0001112C\U0001111A\U0001112C\U00011101"
+    ccp: "𑄇𑄪𑄠𑄬𑄚𑄬𑄁"
     ca: Districte de Kweneng
     mk: Квененг
     'no': Kweneng
     fa: منطقه کوئننگ
-  comments:
   type: district
 LO:
   name: Lobatse
   code: LO
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Lobatse
     ar: لوباتس
@@ -619,16 +574,16 @@ LO:
     ceb: Lobatse
     lt: Lobatsė
     zh: 洛巴策
-    ccp: "\U00011122\U00011127\U0001111D\U00011116\U00011134\U00011125\U0001112C"
+    ccp: "𑄢𑄧𑄝𑄖𑄴𑄥𑄬"
     uk: Лобаце
     ca: Lobatse
     'no': Lobatse
-  comments:
   type: town
 NE:
   name: North-East
   code: NE
-  unofficial_names: North-East
+  unofficial_names:
+  - North-East
   geo:
     latitude: -20.9030555
     longitude: 27.4556388
@@ -678,18 +633,17 @@ NE:
     lv: Ziemeļaustrumu distrikts
     ceb: North East District (distrito sa Botswana)
     zh: 東北區
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U0001112A\U00011107\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄪𑄇𑄴"
     ca: Districte del Nord-est
     mk: Североисточен округ
     'no': North-East
     fa: ناحیه شمال شرقی (بوتسوانا)
-  comments:
   type: district
 NW:
   name: North-West
   code: NW
-  unofficial_names: North-West
+  unofficial_names:
+  - North-West
   geo:
     latitude: -19.1905321
     longitude: 23.0011989
@@ -740,18 +694,17 @@ NW:
     lv: Ziemeļrietumu distrikts
     ceb: North West District
     zh: 西北區
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄧𑄏𑄨𑄟𑄴"
     ca: Districte del Nord-oest
     mk: Северозападен округ
     'no': North-West
     fa: ناحیه شمال غربی (بوتسوانا)
-  comments:
   type: district
 SE:
   name: South-East
   code: SE
-  unofficial_names: South-East
+  unofficial_names:
+  - South-East
   geo:
     latitude: -24.9366094
     longitude: 25.8048521
@@ -803,16 +756,16 @@ SE:
     lv: Dienvidaustrumu distrikts
     ceb: South East District
     zh: 東南區
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄛𑄪𑄇𑄴"
     ca: Districte del Sud-est
     mk: Југоисточен округ
     'no': South-East
-  comments:
   type: district
 SO:
   name: Southern
   code: SO
-  unofficial_names: Southern
+  unofficial_names:
+  - Southern
   geo:
     latitude: -24.823384
     longitude: 24.7142918
@@ -863,25 +816,16 @@ SO:
     lv: Dienvidu distrikts
     ceb: Southern District
     zh: 南部區
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U0001112E\U00011118\U00011128"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄮𑄘𑄨"
     az: Cənubi dairə
     ca: Districte del Sud
     mk: Јужен округ
     'no': Southern
     fa: بخش جنوبی (بوتسوانا)
-  comments:
   type: district
 SP:
   name: Selibe Phikwe
   code: SP
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Selebi-Phikwe
     ar: سيليبي-فيكوي
@@ -924,22 +868,13 @@ SP:
     lv: Selebi-Phikve
     ceb: Selebi-Phikwe
     zh: 塞莱比-皮奎
-    ccp: "\U00011125\U0001112C\U00011123\U00011128\U0001111D\U0001112C \U0001111C\U00011128\U00011107\U0001112E\U00011120\U0001112C"
+    ccp: "𑄥𑄬𑄣𑄨𑄝𑄬 𑄜𑄨𑄇𑄮𑄠𑄬"
     'no': Selebi-Phikwe
     eu: Selebi-Phikwe
-  comments:
   type: town
 ST:
   name: Sowa Town
   code: ST
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Sowa, Botswana
     ar: سوا، بوتسوانا
@@ -976,9 +911,8 @@ ST:
     vi: Sowa, Botswana
     lv: Sova, Botsvana
     lt: Sova, Botsvana
-    ccp: "\U00011125\U00011131 \U00011111\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄥𑄱 𑄑𑄅𑄪𑄚𑄴"
     uk: Сова
     ca: Sowa
     'no': Sowa
-  comments:
   type: town
