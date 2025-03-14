@@ -2,7 +2,8 @@
 B:
   name: Batken
   code: B
-  unofficial_names: Batken
+  unofficial_names:
+  - Batken
   geo:
     latitude: 40.066667
     longitude: 70.833333
@@ -56,7 +57,7 @@ B:
     vi: Khu vực Batken
     zh: 巴特肯州
     ceb: Batken
-    ccp: "\U0001111D\U00011116\U00011134\U00011107\U0001112C\U0001111A\U00011134"
+    ccp: "𑄝𑄖𑄴𑄇𑄬𑄚𑄴"
     ky: Баткен облусу
     ro: Regiunea Batken
     kk: Баткен облысы
@@ -66,7 +67,6 @@ B:
     eu: Batken
     sr: Баткенска област
     sr_Latn: Batkenska oblast
-  comments:
   type: region
 C:
   name: Chü
@@ -133,7 +133,7 @@ C:
     vi: Chuy
     ceb: Chuyskaya Oblast’
     zh: 楚河州
-    ccp: "\U0001110C\U0001112A\U00011120\U00011128"
+    ccp: "𑄌𑄪𑄠𑄨"
     ky: Чүй облусу
     kk: Шу облысы
     be: Чуйская вобласць
@@ -142,7 +142,6 @@ C:
     'no': Tjuj
     sr: Чујска област
     sr_Latn: Čujska oblast
-  comments:
   type: region
 GB:
   name: Bishkek
@@ -225,7 +224,7 @@ GB:
     yue_Hans: 比什凯克
     jv: Bishkek
     sq: Bishkek
-    ccp: "\U0001111D\U00011128\U0001110C\U00011134\U00011107\U0001112C\U00011107\U00011134"
+    ccp: "𑄝𑄨𑄌𑄴𑄇𑄬𑄇𑄴"
     ky: Бишкек
     pa: ਬਿਸ਼ਕੇਕ
     kk: Бішкек
@@ -241,19 +240,10 @@ GB:
     ga: Bishkek
     ha: Bishkek
     ha_NE: Bishkek
-  comments:
   type: city
 GO:
   name: Ош
   code: GO
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: أوش
     az: Oş
@@ -313,7 +303,7 @@ GO:
     sr_Latn: Oš
     zh: 奧什
     sq: Osh
-    ccp: "\U00011103\U0001112E\U0001110C\U00011134"
+    ccp: "𑄃𑄮𑄌𑄴"
     ky: Ош
     ro: Oș
     kk: Ош
@@ -321,12 +311,12 @@ GO:
     uz: Oʻsh
     'no': Osj
     ga: Osh
-  comments:
   type: city
 J:
   name: Jalal-Abad
   code: J
-  unofficial_names: Jalal-Abad
+  unofficial_names:
+  - Jalal-Abad
   geo:
     latitude: 40.933333
     longitude: 73
@@ -379,7 +369,7 @@ J:
     vi: Jalal-Abad
     ceb: Jalal-Abad oblast
     zh: 賈拉拉巴德州
-    ccp: "\U0001110E\U00011123\U00011123\U00011134-\U00011103\U0001111D\U00011116\U00011134"
+    ccp: "𑄎𑄣𑄣𑄴-𑄃𑄝𑄖𑄴"
     gl: Rexión de Jalal-Abad
     ky: Жалал-Абад облусу
     kk: Жалалабат облысы
@@ -393,7 +383,6 @@ J:
     ro: Regiunea Jalal-Abad
     sr: Џалал-Абадска област
     sr_Latn: Džalal-Abadska oblast
-  comments:
   type: region
 N:
   name: Naryn
@@ -456,7 +445,7 @@ N:
     vi: Khu vực Naryn
     cy: Ardal Naryn
     zh: 納倫州
-    ccp: "\U0001111A\U00011122\U00011128\U0001111A\U00011134"
+    ccp: "𑄚𑄢𑄨𑄚𑄴"
     ky: Нарын облусу
     kk: Нарын облысы
     be: Нарынская вобласць
@@ -466,7 +455,6 @@ N:
     eu: Naryn
     sr: Наринска област
     sr_Latn: Narinska oblast
-  comments:
   type: region
 O:
   name: Osh
@@ -530,7 +518,7 @@ O:
     ceb: Osh Oblasty
     sr_Latn: Oška oblast
     zh: 奧什州
-    ccp: "\U00011103\U0001112E\U0001110C\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄃𑄮𑄌𑄴 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     sr: Ошка област
     ky: Ош облусу
     kk: Ош облысы
@@ -541,12 +529,12 @@ O:
     he: אוש²
     ps: اوش ولایت
     ro: Regiunea Oș
-  comments:
   type: region
 T:
   name: Talas
   code: T
-  unofficial_names: Talas
+  unofficial_names:
+  - Talas
   geo:
     latitude: 42.516667
     longitude: 72.23333300000002
@@ -601,7 +589,7 @@ T:
     vi: Talas
     ceb: Talas (lalawigan)
     zh: 塔拉斯州
-    ccp: "\U00011111\U00011123\U0001110C\U00011134"
+    ccp: "𑄑𑄣𑄌𑄴"
     ky: Талас облусу
     eu: Talas probintzia
     kk: Талас облысы
@@ -610,7 +598,6 @@ T:
     ro: Regiunea Talas
     sr: Таласка област
     sr_Latn: Talaska oblast
-  comments:
   type: region
 Y:
   name: Ysyk-Köl
@@ -675,7 +662,7 @@ Y:
     cy: Ardal Issyk-Kul
     ceb: Issyk-Kul’skaya Oblast’
     zh: 伊塞克湖州
-    ccp: "\U00011103\U0001112D\U0001110E\U0001112C\U00011107\U00011134-\U00011107\U0001112A\U00011123\U00011134"
+    ccp: "𑄃𑄭𑄎𑄬𑄇𑄴-𑄇𑄪𑄣𑄴"
     gl: Rexión de Isiq-Köl
     ky: Ысык-Көл областы
     kk: Ыстықкөл облысы
@@ -685,5 +672,4 @@ Y:
     eu: Issyk-Kul eskualdea
     sr: Исик-Кулска област
     sr_Latn: Isik-Kulska oblast
-  comments:
   type: region

@@ -54,19 +54,19 @@ AD:
     vi: Adamawa
     zh: 阿达马瓦区
     ceb: Adamaoua Region
-    ccp: "\U00011103\U00011113\U0001111F\U00011124"
+    ccp: "𑄃𑄓𑄟𑄤"
     ka: ადამავის რეგიონი
     he: מחוז אדמאווה
     uk: Адамава
     'no': Adamawa
     eu: Adamawa (Kamerungo probintzia)
     sw: Mkoa wa Adamawa
-  comments:
   type: region
 CE:
   name: Centre
   code: CE
-  unofficial_names: Centre
+  unofficial_names:
+  - Centre
   geo:
     latitude: 4.6298411
     longitude: 11.7068294
@@ -118,19 +118,19 @@ CE:
     ceb: Centre Region
     zh: 中部区
     fa: منطقه مرکز
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄢𑄴"
     ka: ცენტრალური რეგიონი
     yo: àárín
     'no': Centre
     yo_BJ: àárín
     eu: Erdialdea (Kamerun)
     sw: Mkoa wa Kati, Kamerun
-  comments:
   type: region
 EN:
   name: Far North
   code: EN
-  unofficial_names: Far North
+  unofficial_names:
+  - Far North
   geo:
     latitude: 10.6315589
     longitude: 14.6587821
@@ -180,19 +180,19 @@ EN:
     ceb: Far North Region
     zh: 極北區
     fa: منطقه شمال دور
-    ccp: "\U0001111C\U00011122\U00011134 \U0001111A\U00011127\U00011122\U00011133\U00011117\U00011134"
+    ccp: "𑄜𑄢𑄴 𑄚𑄧𑄢𑄳𑄗𑄴"
     ka: უკიდურესი ჩრდილოეთის რეგიონი
     he: מחוז הצפון הרחוק
     uk: Крайньопівнічний регіон
     'no': Extrême-Nord
     eu: Iparralde Urruna (Kamerun)
     sw: Mkoa wa Kaskazini ya Mbali, Kamerun
-  comments:
   type: region
 ES:
   name: East
   code: ES
-  unofficial_names: East
+  unofficial_names:
+  - East
   geo:
     latitude: 3.950512799999999
     longitude: 13.914399
@@ -242,7 +242,7 @@ ES:
     ceb: East Region
     zh: 东部区
     fa: منطقه شرق
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴"
     ka: აღმოსავლეთის რეგიონი
     hy: Արևելյան շրջան
     he: מחוז המזרח
@@ -252,12 +252,12 @@ ES:
     yo_BJ: ilà oòrùn
     eu: Ekialdea (Kamerun)
     sw: Mkoa wa Mashariki, Kamerun
-  comments:
   type: region
 LT:
   name: Littoral
   code: LT
-  unofficial_names: Littoral
+  unofficial_names:
+  - Littoral
   geo:
     latitude: 4.1682138
     longitude: 10.0807298
@@ -308,14 +308,13 @@ LT:
     ceb: Littoral Region
     zh: 濱海區
     fa: منطقه لیتورال
-    ccp: "\U00011123\U00011128\U00011111\U0001112E\U00011122\U00011123\U00011134"
+    ccp: "𑄣𑄨𑄑𑄮𑄢𑄣𑄴"
     ka: სანაპირო რეგიონი
     hy: Լիտտորալ
     he: מחוז החוף
     'no': Littoral
     eu: Kostaldea (Kamerun)
     sw: Mkoa wa Pwani, Kamerun
-  comments:
   type: region
 'NO':
   name: North
@@ -371,7 +370,7 @@ LT:
     ceb: North Region
     zh: 北部區
     fa: منطقه شمال
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴"
     ka: ჩრდილოეთის რეგიონი
     he: מחוז הצפון
     uk: Північний регіон
@@ -380,12 +379,12 @@ LT:
     yo_BJ: Àríwá
     eu: Iparraldea (Kamerun)
     sw: Mkoa wa Kaskazini, Kamerun
-  comments:
   type: region
 NW:
   name: North-West
   code: NW
-  unofficial_names: North-West
+  unofficial_names:
+  - North-West
   geo:
     latitude: 6.470373899999999
     longitude: 10.439656
@@ -435,19 +434,19 @@ NW:
     ceb: North-West Region
     zh: 西北區
     fa: منطقه شمال غربی
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U0001112E\U00011118\U00011128"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄮𑄘𑄨"
     ka: ჩრდილო-დასავლეთის რეგიონი
     he: מחוז צפון-מערב
     uk: Північно-Західний регіон
     'no': Nord-Ouest
     eu: Ipar-mendebaldea (Kamerun)
     sw: Mkoa wa Kaskazini-Magharibi, Kamerun
-  comments:
   type: region
 OU:
   name: West
   code: OU
-  unofficial_names: West
+  unofficial_names:
+  - West
   geo:
     latitude: 5.4638158
     longitude: 10.8000051
@@ -497,7 +496,7 @@ OU:
     yo_BJ: ìwɔ̀ oòrùn
     zh: 西部区
     fa: منطقه غرب
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴"
     ka: დასავლეთის რეგიონი
     hy: Արևմտյան շրջան
     he: מחוז המערב
@@ -506,12 +505,12 @@ OU:
     'no': Ouest
     eu: Mendebaldea (Kamerun)
     sw: Mkoa wa Magharibi, Kamerun
-  comments:
   type: region
 SU:
   name: South
   code: SU
-  unofficial_names: South
+  unofficial_names:
+  - South
   geo:
     latitude: 2.7202832
     longitude: 11.7068294
@@ -560,7 +559,7 @@ SU:
     zh: 南部区
     bn: দক্ষিন/সাউথ
     fa: منطقه جنوب
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴"
     ka: სამხრეთის რეგიონი
     he: מחוז הדרום
     uk: Південий регіон
@@ -570,12 +569,12 @@ SU:
     az: Cənub bölgəsi
     eu: Hegoaldea (Kamerun)
     sw: Mkoa wa Kusini, Kamerun
-  comments:
   type: region
 SW:
   name: South-West
   code: SW
-  unofficial_names: South-West
+  unofficial_names:
+  - South-West
   geo:
     latitude: 5.1573493
     longitude: 9.367308399999999
@@ -624,7 +623,7 @@ SW:
     ceb: South-West Region
     zh: 西南区
     fa: منطقه جنوب غربی
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U0001112E\U00011118\U00011128"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄮𑄘𑄨"
     ka: სამხრეთ-დასავლეთის რეგიონი
     hy: Հարավարևմտյան շրջան
     he: מחוז דרום-מערב
@@ -633,5 +632,4 @@ SW:
     az: Cənub-qərb bölgəsi
     eu: Hego-mendebaldea (Kamerun)
     sw: Mkoa wa Kusini-Magharibi, Kamerun
-  comments:
   type: region

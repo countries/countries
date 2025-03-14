@@ -2,7 +2,8 @@
 '1':
   name: Estuaire
   code: '1'
-  unofficial_names: Estuaire
+  unofficial_names:
+  - Estuaire
   geo:
     latitude: 0.4432864
     longitude: 10.0807298
@@ -57,18 +58,18 @@
     lv: Estuāras province
     ceb: Estuaire
     yue_Hans: 河口省
-    ccp: "\U00011103\U0001112C\U0001110C\U00011134\U00011111\U0001112A\U00011120\U00011122\U00011134"
+    ccp: "𑄃𑄬𑄌𑄴𑄑𑄪𑄠𑄢𑄴"
     yue: 河口省
     'no': Estuaire
     cy: Talaith Estuaire
     fa: استان استیوایر
     zu: Estuaire Province
-  comments:
   type: province
 '2':
   name: Haut-Ogooué
   code: '2'
-  unofficial_names: Haut-Ogooué
+  unofficial_names:
+  - Haut-Ogooué
   geo:
     latitude: -1.4762544
     longitude: 13.914399
@@ -121,19 +122,19 @@
     ceb: Province du Haut-Ogooué
     zh: 上奥果韦省
     yue_Hans: 上奥果韦省
-    ccp: "\U00011126\U00011105\U0001112A\U00011116\U00011134-\U00011103\U00011127\U00011109\U0001112B\U00011103\U00011128"
+    ccp: "𑄦𑄅𑄪𑄖𑄴-𑄃𑄧𑄉𑄫𑄃𑄨"
     uk: Провінція Верхнє Огове
     yue: 上奧果韋省
     'no': Haut-Ogooué
     cy: Talaith Haut-Ogooué
     fa: استان هاوت اوگوئه
     he: אוט-אוגואה
-  comments:
   type: province
 '3':
   name: Moyen-Ogooué
   code: '3'
-  unofficial_names: Moyen-Ogooué
+  unofficial_names:
+  - Moyen-Ogooué
   geo:
     latitude: -0.442784
     longitude: 10.439656
@@ -185,13 +186,12 @@
     ceb: Province du Moyen-Ogooué
     zh: 中奧果韋省
     yue_Hans: 中奥果韦省
-    ccp: "\U0001111F\U00011127\U00011120\U0001112C\U0001111A\U00011134-\U00011103\U00011127\U00011109\U0001112B\U00011103\U00011128"
+    ccp: "𑄟𑄧𑄠𑄬𑄚𑄴-𑄃𑄧𑄉𑄫𑄃𑄨"
     uk: Провінція Середнє Огове
     yue: 中奧果韋省
     'no': Moyen-Ogooué
     cy: Talaith Moyen-Ogooué
     fa: استان مویان-اوگوئه
-  comments:
   type: province
 '4':
   name: Ngounié
@@ -249,18 +249,18 @@
     ceb: Province de la Ngounié
     zh: 恩古涅省
     yue_Hans: 恩古涅省
-    ccp: "\U00011109\U0001112E\U00011105\U0001112A\U00011103\U00011128\U0001111A\U00011134"
+    ccp: "𑄉𑄮𑄅𑄪𑄃𑄨𑄚𑄴"
     uk: Провінція Нгуньє
     yue: 恩古涅省
     'no': Ngounié
     cy: Talaith Ngounié
     he: מחוז נגוני
-  comments:
   type: province
 '5':
   name: Nyanga
   code: '5'
-  unofficial_names: Nyanga
+  unofficial_names:
+  - Nyanga
   geo:
     latitude: -2.8821033
     longitude: 11.1617356
@@ -312,19 +312,19 @@
     ceb: Province de la Nyanga
     zh: 尼揚加省
     yue_Hans: 尼扬加省
-    ccp: "\U0001111A\U0001112D\U00011120\U0001110B\U00011134\U00011109"
+    ccp: "𑄚𑄭𑄠𑄋𑄴𑄉"
     uk: Провінція Ньянга
     yue: 尼揚加省
     'no': Nyanga
     cy: Talaith Nyanga
     fa: استان نیانگا
     he: מחוז ניאנגה
-  comments:
   type: province
 '6':
   name: Ogooué-Ivindo
   code: '6'
-  unofficial_names: Ogooué-Ivindo
+  unofficial_names:
+  - Ogooué-Ivindo
   geo:
     latitude: 0.8818311
     longitude: 13.1740348
@@ -376,19 +376,19 @@
     ceb: Province de l’Ogooué-Ivindo
     zh: 奧果韋-伊溫多省
     yue_Hans: 奥果韦-伊温多省
-    ccp: "\U00011103\U00011127\U00011109\U0001112B\U00011103\U00011128 -\U00011103\U0001112D\U0001111E\U00011128\U0001111A\U00011134\U00011113\U0001112E"
+    ccp: "𑄃𑄧𑄉𑄫𑄃𑄨 -𑄃𑄭𑄞𑄨𑄚𑄴𑄓𑄮"
     uk: Провінція Огове-Івіндо
     yue: 奧果韋-伊溫多省
     'no': Ogooué-Ivindo
     cy: Talaith Ogooué-Ivindo
     fa: استان اوگوئه-ایویندو
     he: אוגואה-איווינדו
-  comments:
   type: province
 '7':
   name: Ogooué-Lolo
   code: '7'
-  unofficial_names: Ogooué-Lolo
+  unofficial_names:
+  - Ogooué-Lolo
   geo:
     latitude: -0.8844093
     longitude: 12.4380581
@@ -440,7 +440,7 @@
     ceb: Province de l’Ogooué-Lolo
     zh: 奧果韋-洛洛省
     yue_Hans: 奥果韦-洛洛省
-    ccp: "\U00011103\U00011127\U00011109\U0001112B\U00011103\U00011128-\U00011123\U0001112E\U00011123\U0001112E"
+    ccp: "𑄃𑄧𑄉𑄫𑄃𑄨-𑄣𑄮𑄣𑄮"
     uk: Провінція Огове-Лоло
     yue: 奧果韋-洛洛省
     'no': Ogooué-Lolo
@@ -448,12 +448,12 @@
     fa: استان اوگوئه-لولو
     he: אוגואה-לולו
     hy: Օգուվե-Լոլո
-  comments:
   type: province
 '8':
   name: Ogooué-Maritime
   code: '8'
-  unofficial_names: Ogooué-Maritime
+  unofficial_names:
+  - Ogooué-Maritime
   geo:
     latitude: -1.3465975
     longitude: 9.7232673
@@ -506,13 +506,12 @@
     ceb: Province de l’Ogooué-Maritime
     zh: 濱海奧果韋省
     yue_Hans: 滨海奥果韦省
-    ccp: "\U00011103\U00011127\U00011109\U0001112B\U00011103\U00011128-\U0001111F\U0001112C\U00011122\U00011128\U00011111\U0001112D\U0001111F\U00011134"
+    ccp: "𑄃𑄧𑄉𑄫𑄃𑄨-𑄟𑄬𑄢𑄨𑄑𑄭𑄟𑄴"
     uk: Провінція Огове-Марітім
     yue: 濱海奧果韋省
     'no': Ogooué-Maritime
     cy: Talaith Ogooué-Maritime
     fa: استان اوگوئه-مارتینتایم
-  comments:
   type: province
 '9':
   name: Woleu-Ntem
@@ -571,10 +570,9 @@
     ceb: Province du Woleu-Ntem
     zh: 沃勒-恩特姆省
     yue_Hans: 禾勒-恩特姆省
-    ccp: "\U00011124\U00011123\U00011128\U00011105\U0001112A-\U00011111\U0001112C\U0001111F\U00011134"
+    ccp: "𑄤𑄣𑄨𑄅𑄪-𑄑𑄬𑄟𑄴"
     yue: 禾勒-恩特姆省
     'no': Woleu-Ntem
     cy: Talaith Woleu-Ntem
     he: וולו-נטם
-  comments:
   type: province

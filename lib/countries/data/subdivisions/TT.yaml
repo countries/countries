@@ -2,7 +2,8 @@
 ARI:
   name: Arima
   code: ARI
-  unofficial_names: Arima
+  unofficial_names:
+  - Arima
   geo:
     latitude: 10.616667
     longitude: -61.26666699999999
@@ -49,19 +50,19 @@ ARI:
     vi: Arima
     lv: Arima
     ceb: Arima
-    ccp: "\U00011103\U00011122\U00011128\U0001111F"
+    ccp: "𑄃𑄢𑄨𑄟"
     uk: Аріма
     'no': Arima
     ca: Arima
     sr: Арима
     sr_Latn: Arima
     zh: 阿里马
-  comments:
   type: borough
 CHA:
   name: Chaguanas
   code: CHA
-  unofficial_names: Chaguanas
+  unofficial_names:
+  - Chaguanas
   geo:
     latitude: 10.5168387
     longitude: -61.4114482
@@ -116,17 +117,17 @@ CHA:
     zh: 查瓜納斯
     lv: Čaguanasa
     ceb: Ward of Chaguanas
-    ccp: "\U0001110C\U00011109\U0001112A\U00011120\U0001111A\U0001110C\U00011134"
+    ccp: "𑄌𑄉𑄪𑄠𑄚𑄌𑄴"
     ga: Chaguanas
     ro: Chaguanas
     'no': Chaguanas
     he: צ׳אגואנאס
-  comments:
   type: borough
 CTT:
   name: Couva-Tabaquite-Talparo
   code: CTT
-  unofficial_names: Couva-Tabaquite-Talparo
+  unofficial_names:
+  - Couva-Tabaquite-Talparo
   geo:
     latitude: 10.4297145
     longitude: -61.373521
@@ -170,15 +171,15 @@ CTT:
     ceb: Couva-Tabaquite-Talparo
     lt: Kuva-Tabakite-Talparo regioninė federacija
     fa: استان کووا-تاپاکیته-تالپبارو
-    ccp: "\U00011107\U0001112F\U0001111E-\U00011111\U0001111D\U00011107\U0001112A\U00011103\U00011128\U00011116\U00011134-\U00011111\U00011123\U00011134\U0001111B\U00011122\U0001112E"
+    ccp: "𑄇𑄯𑄞-𑄑𑄝𑄇𑄪𑄃𑄨𑄖𑄴-𑄑𑄣𑄴𑄛𑄢𑄮"
     uk: Регіон Кува-Табакіте-Тальпаро
     'no': Couva Tabaquite Talparo
-  comments:
   type: region
 DMN:
   name: Diego Martin
   code: DMN
-  unofficial_names: Diego Martin
+  unofficial_names:
+  - Diego Martin
   geo:
     latitude: 10.7137264
     longitude: -61.5836897
@@ -222,22 +223,13 @@ DMN:
     ceb: Diego Martin
     lt: Diego Martino regioninė korporacija
     fa: استان دیگو مارتین
-    ccp: "\U00011113\U00011128\U00011120\U0001112C\U00011109\U0001112E \U0001111F\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
+    ccp: "𑄓𑄨𑄠𑄬𑄉𑄮 𑄟𑄢𑄴𑄑𑄨𑄚𑄴"
     uk: Регіон Діего-Мартін
     'no': Diego Martin
-  comments:
   type: region
 MRC:
   name: Mayaro-Rio Claro
   code: MRC
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: ريو كلارو مايارو الإقليمية
     bn: রিও ক্লারো-মায়ারো আঞ্চলিক কর্পোরেশন
@@ -274,16 +266,15 @@ MRC:
     ceb: Mayaro
     lt: Rio Klaro-Majaro regioninė korporacija
     fa: استان ریو کلارو-مایارو
-    ccp: "\U0001111F\U00011120\U00011122\U0001112E-\U00011122\U00011128\U00011120\U0001112E
-      \U00011107\U00011133\U00011123\U00011122\U0001112E"
+    ccp: "𑄟𑄠𑄢𑄮-𑄢𑄨𑄠𑄮 𑄇𑄳𑄣𑄢𑄮"
     uk: Майаро-Ріо-Кларо
     'no': Rio Claro-Mayaro
-  comments:
   type: region
 PED:
   name: Penal-Debe
   code: PED
-  unofficial_names: Penal-Debe
+  unofficial_names:
+  - Penal-Debe
   geo:
     latitude: 10.1337402
     longitude: -61.44354740000001
@@ -328,15 +319,15 @@ PED:
     lt: Penal-Debės regioninė korporacija
     zh: 皮納爾-德貝郡
     fa: استان پنیال دبه
-    ccp: "\U0001111B\U0001112C\U0001111A\U00011123\U00011134-\U00011113\U0001112C\U0001111D\U0001112C"
+    ccp: "𑄛𑄬𑄚𑄣𑄴-𑄓𑄬𑄝𑄬"
     uk: Регіон Пенал-Дебе
     'no': Penal Debe
-  comments:
   type: region
 POS:
   name: Port of Spain
   code: POS
-  unofficial_names: Port of Spain
+  unofficial_names:
+  - Port of Spain
   geo:
     latitude: 10.666667
     longitude: -61.51666700000001
@@ -407,8 +398,7 @@ POS:
     zh: 西班牙港
     yue_Hans: 西班牙港
     sq: Port-of-Spain
-    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134 \U00011103\U00011127\U0001111B\U00011134
-      \U0001110C\U00011133\U0001111B\U0001112C\U0001111A\U00011134"
+    ccp: "𑄛𑄮𑄢𑄴𑄑𑄴 𑄃𑄧𑄛𑄴 𑄌𑄳𑄛𑄬𑄚𑄴"
     ga: Port of Spain
     ky: Порт-Оф-Спейн
     pa: ਪੋਰਟ ਆਫ਼ ਸਪੇਨ
@@ -423,12 +413,12 @@ POS:
     ha: Port of Spain
     ha_NE: Port of Spain
     sw: Port of Spain
-  comments:
   type: city
 PRT:
   name: Princes Town
   code: PRT
-  unofficial_names: Princes Town
+  unofficial_names:
+  - Princes Town
   geo:
     latitude: 10.2659505
     longitude: -61.37643809999999
@@ -473,16 +463,15 @@ PRT:
     lt: Prinses Taunas
     zh: 王子城郡
     fa: استان پرنسس تاون
-    ccp: "\U0001111B\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011125\U0001112C\U0001110C\U00011134
-      \U00011111\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄛𑄳𑄢𑄨𑄚𑄴𑄥𑄬𑄌𑄴 𑄑𑄅𑄪𑄚𑄴"
     uk: Регіон Прінсес-Таун
     'no': Princes Tiwn Regional Corpoation
-  comments:
   type: region
 PTF:
   name: Point Fortin
   code: PTF
-  unofficial_names: Point Fortin
+  unofficial_names:
+  - Point Fortin
   geo:
     latitude: 10.166667
     longitude: -61.666667
@@ -531,16 +520,16 @@ PTF:
     lv: Pointfortina
     ceb: Point Fortin (kapital sa rehiyon)
     zh: 波因特福廷
-    ccp: "\U0001111B\U00011127\U00011120\U0001112C\U0001111A\U00011134\U00011111 \U0001111C\U0001112E\U00011122\U00011134\U00011111\U00011128\U0001111A\U00011134"
+    ccp: "𑄛𑄧𑄠𑄬𑄚𑄴𑄑 𑄜𑄮𑄢𑄴𑄑𑄨𑄚𑄴"
     'no': Point Fortin
     ca: Point Fortin
     hy: Փոյնթ Ֆորթին
-  comments:
   type: borough
 SFO:
   name: San Fernando
   code: SFO
-  unofficial_names: San Fernando
+  unofficial_names:
+  - San Fernando
   geo:
     latitude: 10.2804924
     longitude: -61.4493842
@@ -588,7 +577,7 @@ SFO:
     lv: Sanfernando
     ceb: San Fernando (kapital sa rehiyon)
     zh: 聖費爾南多
-    ccp: "\U00011125\U0001111A\U00011134 \U0001111C\U0001112C\U00011122\U00011134\U0001111A\U0001111A\U00011134\U00011113\U0001112E"
+    ccp: "𑄥𑄚𑄴 𑄜𑄬𑄢𑄴𑄚𑄚𑄴𑄓𑄮"
     ga: San Fernando
     uk: Сан-Фернандо
     cs: San Fernando
@@ -598,12 +587,12 @@ SFO:
     ca: San Fernando
     sr: Сан Фернандо (Тринидад и Тобаго)
     sr_Latn: San Fernando (Trinidad i Tobago)
-  comments:
   type: city
 SGE:
   name: Sangre Grande
   code: SGE
-  unofficial_names: Sangre Grande
+  unofficial_names:
+  - Sangre Grande
   geo:
     latitude: 10.5852939
     longitude: -61.1315813
@@ -647,15 +636,15 @@ SGE:
     ceb: Sangre Grande
     lt: Sangre Grandės regioninė korporacija
     fa: استان سانگره گرانده
-    ccp: "\U00011125\U0001111A\U00011134\U0001111B\U00011133\U00011122\U0001112C \U0001111B\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C"
+    ccp: "𑄥𑄚𑄴𑄛𑄳𑄢𑄬 𑄛𑄳𑄢𑄚𑄴𑄓𑄬"
     uk: Регіон Сангре-Гранде
     'no': Sangre Grande regional
-  comments:
   type: region
 SIP:
   name: Siparia
   code: SIP
-  unofficial_names: Siparia
+  unofficial_names:
+  - Siparia
   geo:
     latitude: 10.133333
     longitude: -61.50000000000001
@@ -700,17 +689,17 @@ SIP:
     lt: Siparijos regioninė korporacija
     zh: 錫帕里亞郡
     fa: استان سیپاریا
-    ccp: "\U00011125\U00011128\U0001111B\U00011122\U00011128\U00011120"
+    ccp: "𑄥𑄨𑄛𑄢𑄨𑄠"
     uk: Регіон Сіпарія
     'no': Siparia
     ca: Siparia
     eu: Siparia
-  comments:
   type: region
 SJL:
   name: San Juan-Laventille
   code: SJL
-  unofficial_names: San Juan-Laventille
+  unofficial_names:
+  - San Juan-Laventille
   geo:
     latitude: 10.6908578
     longitude: -61.4552213
@@ -754,23 +743,14 @@ SJL:
     ceb: San Juan/Laventille
     lt: San Chuano-Laventilės regioninė korporacija
     fa: استان سن خوآن-لاونتویل
-    ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U0001112A\U00011120\U0001111A\U00011134-\U00011123\U00011127\U0001111E\U0001112C\U0001111A\U00011134\U00011111\U00011128\U00011123\U00011134"
+    ccp: "𑄥𑄚𑄴 𑄎𑄪𑄠𑄚𑄴-𑄣𑄧𑄞𑄬𑄚𑄴𑄑𑄨𑄣𑄴"
     uk: Регіон Сан-Хуан-Лавентіль
     'no': San Juan-Laventille region
     be: Сан-Хуан-Лавентыль
-  comments:
   type: region
 TOB:
   name: Tobago
   code: TOB
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: توباغو
     be: Востраў Табага
@@ -823,7 +803,7 @@ TOB:
     sr_Latn: Tobago
     zh: 多巴哥岛
     yue_Hans: 托巴哥岛
-    ccp: "\U00011111\U0001112E\U0001111D\U00011109\U0001112E"
+    ccp: "𑄑𑄮𑄝𑄉𑄮"
     ga: Tobága
     yue: 托巴哥島
     yo: Tòbágò
@@ -834,12 +814,12 @@ TOB:
     is: Tóbagó
     sw: Tobago
     uz: Tobago
-  comments:
   type: ward
 TUP:
   name: Tunapuna-Piarco
   code: TUP
-  unofficial_names: Tunapuna-Piarco
+  unofficial_names:
+  - Tunapuna-Piarco
   geo:
     latitude: 10.6859096
     longitude: -61.30352480000001
@@ -884,8 +864,7 @@ TUP:
     lt: Tunapuna-Pijarko regioninė korporacija
     zh: 麥高耶
     fa: استان توناپونا-پیارکو
-    ccp: "\U00011111\U0001112A\U0001111A\U0001111B\U0001112A\U0001111A-\U0001111B\U00011128\U00011120\U00011122\U00011134\U00011107\U0001112E"
+    ccp: "𑄑𑄪𑄚𑄛𑄪𑄚-𑄛𑄨𑄠𑄢𑄴𑄇𑄮"
     uk: Регіон Тунапуна-Піарко
     'no': Tunapuna Piarco
-  comments:
   type: region

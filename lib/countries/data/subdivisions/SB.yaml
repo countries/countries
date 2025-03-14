@@ -2,7 +2,8 @@
 CE:
   name: Central
   code: CE
-  unofficial_names: Central
+  unofficial_names:
+  - Central
   geo:
     latitude: -9.0516057
     longitude: 160.1693949
@@ -52,12 +53,11 @@ CE:
     zh: 中部群島省
     lv: Centrālā province
     ceb: Central Province (lalawigan sa Kapupud-ang Solomon)
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴"
     uk: Центральна провінція
     mk: Централна Провинција
     'no': Sentral provins
     cs: Centrální provincie
-  comments:
   type: province
 CH:
   name: Choiseul
@@ -112,16 +112,16 @@ CH:
     lv: Šuazelas province
     ceb: Choiseul (lalawigan sa Kapupud-ang Solomon)
     zh: 舒瓦瑟爾省
-    ccp: "\U00011107\U00011130\U00011131\U00011125\U00011128\U00011105\U0001112A\U00011123\U00011134"
+    ccp: "𑄇𑄰𑄱𑄥𑄨𑄅𑄪𑄣𑄴"
     uk: Провінція Шуазйоль
     'no': Chosieul provins
     cy: Talaith Choiseul
-  comments:
   type: province
 CT:
   name: Capital Territory (Honiara)
   code: CT
-  unofficial_names: Capital Territory (Honiara)
+  unofficial_names:
+  - Capital Territory (Honiara)
   geo:
     latitude: -9.4343868
     longitude: 159.9609892
@@ -191,7 +191,7 @@ CT:
     sr_Latn: Honijara
     zh: 霍尼亚拉
     yue_Hans: 康尼艾华
-    ccp: "\U00011126\U00011127\U0001111A\U00011128\U00011120\U00011122"
+    ccp: "𑄦𑄧𑄚𑄨𑄠𑄢"
     ga: Hóiniára
     so: Honiara
     pa: ਹੋਨੀਆਰਾ
@@ -204,12 +204,12 @@ CT:
     yo_BJ: Honiara
     ml: ഹോണിയറ
     ps: هونیارا
-  comments:
   type: capital_territory
 GU:
   name: Guadalcanal
   code: GU
-  unofficial_names: Guadalcanal
+  unofficial_names:
+  - Guadalcanal
   geo:
     latitude: -9.577328399999999
     longitude: 160.1455805
@@ -258,15 +258,15 @@ GU:
     lv: Gvadalkanāla province
     ceb: Guadalcanal Province
     zh: 瓜達爾卡納爾省
-    ccp: "\U00011109\U0001112A\U00011120\U00011113\U00011123\U00011134\U00011107\U0001111A\U00011123\U00011134"
+    ccp: "𑄉𑄪𑄠𑄓𑄣𑄴𑄇𑄚𑄣𑄴"
     'no': Guadalcanal provins
     ca: província de Guadalcanal
-  comments:
   type: province
 IS:
   name: Isabel
   code: IS
-  unofficial_names: Isabel
+  unofficial_names:
+  - Isabel
   geo:
     latitude: -8.0592353
     longitude: 159.1447081
@@ -315,11 +315,10 @@ IS:
     lv: Isabelas province
     ceb: Isabel Province
     zh: 伊莎貝爾省
-    ccp: "\U00011103\U00011128\U00011125\U0001111D\U0001112C\U00011123\U00011134"
+    ccp: "𑄃𑄨𑄥𑄝𑄬𑄣𑄴"
     uk: Провінція Ісабель
     'no': Isabel provins
     cy: Talaith Isabel
-  comments:
   type: province
 MK:
   name: Makira
@@ -355,9 +354,8 @@ MK:
     vi: Makira-Ulawa
     ceb: Makira-Ulawa Province
     zh: 馬基拉-烏拉瓦省
-    ccp: "\U0001111F\U00011107\U00011128\U00011122-\U00011103\U00011123\U00011124"
+    ccp: "𑄟𑄇𑄨𑄢-𑄃𑄣𑄤"
     uk: Макіра-Улава
-  comments:
   type: province
 ML:
   name: Malaita
@@ -411,17 +409,17 @@ ML:
     lv: Malaitas province
     ceb: Malaita Province
     zh: 馬萊塔省
-    ccp: "\U0001111F\U00011123\U0001112D\U00011111"
+    ccp: "𑄟𑄣𑄭𑄑"
     uk: Провінція Малаіта
     'no': Malaita provins
     ca: Malaita
     cy: Talaith Malaita
-  comments:
   type: province
 RB:
   name: Rennell and Bellona
   code: RB
-  unofficial_names: Rennell and Bellona
+  unofficial_names:
+  - Rennell and Bellona
   geo:
     latitude: -11.6131435
     longitude: 160.1693949
@@ -470,12 +468,10 @@ RB:
     lv: Renelas un Belonas province
     ceb: Rennell and Bellona
     zh: 拉納爾和貝羅納省
-    ccp: "\U00011122\U0001112C\U0001111A\U0001112C\U00011123\U00011134 \U00011103\U00011133\U00011103
-      \U0001111D\U0001112C\U00011123\U0001112E\U0001111A"
+    ccp: "𑄢𑄬𑄚𑄬𑄣𑄴 𑄃𑄳𑄃 𑄝𑄬𑄣𑄮𑄚"
     uk: Провінція Реннелл та Беллона
     'no': Rennell and Bellona provins
     eu: Rennell eta Bellonako probintzia
-  comments:
   type: province
 TE:
   name: Temotu
@@ -529,17 +525,17 @@ TE:
     lv: Temotu province
     ceb: Temotu Province
     zh: 泰莫圖省
-    ccp: "\U00011111\U0001112C\U0001111F\U0001112E\U00011111\U0001112A"
+    ccp: "𑄑𑄬𑄟𑄮𑄑𑄪"
     uk: Провінція Темоту
     'no': Temotu-provinsen
     cy: Talaith Temotu
     he: מחוז טמוטו
-  comments:
   type: province
 WE:
   name: Western
   code: WE
-  unofficial_names: Western
+  unofficial_names:
+  - Western
   geo:
     latitude: -8.128037299999999
     longitude: 157.4278119
@@ -588,9 +584,8 @@ WE:
     lv: Rietumu province
     ceb: Western Province
     zh: 西部省
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     uk: Західна провінція
     ca: Província Occidental
     'no': Vest provinsen
-  comments:
   type: province

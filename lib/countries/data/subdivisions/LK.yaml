@@ -2,14 +2,6 @@
 '1':
   name: බස්නාහිර පළාත, ශ් රී ලංකාව
   code: '1'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Западна провинция
     de: Westprovinz
@@ -37,7 +29,7 @@
     zh: 西部省
     ceb: Western Province
     ar: المقاطعة الغربية (سريلانكا)
-    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U0001111A\U00011134"
+    ccp: "𑄃𑄮𑄠𑄬𑄌𑄴𑄑𑄢𑄴𑄚𑄴"
     be: Заходняя правінцыя
     bn: পশ্চিমাঞ্চল প্রদেশ
     ca: província de l’Oest
@@ -45,7 +37,6 @@
     hy: Արևմտյան նահանգ
     pt: Província Ocidental
     tr: Batı Eyaleti
-  comments:
   type: province
 '11':
   name: Colombo
@@ -87,7 +78,7 @@
     ar: مديرية كولومبو
     zh: 可倫坡區
     el: Διαμέρισμα του Κολόμπο
-    ccp: "\U00011107\U00011127\U00011123\U00011127\U0001111F\U00011134\U0001111D\U0001112E"
+    ccp: "𑄇𑄧𑄣𑄧𑄟𑄴𑄝𑄮"
     id: Distrik Kolombo
     be: Каломба
     mk: Коломбо
@@ -96,12 +87,12 @@
     cy: Ardal Colombo
     ml: കൊളംബോ ജില്ല
     pl: Kolombo (dystrykt)
-  comments:
   type: district
 '12':
   name: Gampaha
   code: '12'
-  unofficial_names: Gampaha
+  unofficial_names:
+  - Gampaha
   geo:
     latitude: 7.0873101
     longitude: 80.01436559999999
@@ -148,15 +139,15 @@
     ceb: Gampaha District
     lt: Gampachos sritis
     zh: 加姆珀哈區
-    ccp: "\U00011109\U0001111F\U00011134\U0001111B\U00011126"
+    ccp: "𑄉𑄟𑄴𑄛𑄦"
     'no': Gampaha distrikt
     ml: ഗമ്പഹ ജില്ല
-  comments:
   type: district
 '13':
   name: Kalutara
   code: '13'
-  unofficial_names: Kalutara
+  unofficial_names:
+  - Kalutara
   geo:
     latitude: 6.5894162
     longitude: 79.98081429999999
@@ -203,22 +194,13 @@
     ceb: Kalutara District
     lt: Kalutaros apskritis
     zh: 卡盧特勒區
-    ccp: "\U00011107\U00011123\U0001112A\U00011111\U00011122"
+    ccp: "𑄇𑄣𑄪𑄑𑄢"
     'no': Kalutara
     ml: കലുതാര ജില്ല
-  comments:
   type: district
 '2':
   name: මධ්‍යම පළාත, ශ්‍රී ලංකාව
   code: '2'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Централна провинция (Шри Ланка)
     ca: Província Central
@@ -249,10 +231,9 @@
     ceb: Central Province
     ar: المقاطعة الوسطى (سريلانكا)
     zh: 中央省 (斯里蘭卡)
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴"
     id: Provinsi Tengah, Sri Lanka
     bn: মধ্যাঞ্চল প্রদেশ
-  comments:
   type: province
 '21':
   name: Kandy
@@ -291,16 +272,16 @@
     ar: مديرية كاندي
     zh: 康提區
     hi: कैंडी जिला
-    ccp: "\U00011107\U0001111A\U00011134\U00011113\U00011128"
+    ccp: "𑄇𑄚𑄴𑄓𑄨"
     id: Distrik Kandy
     ca: Kandy
     ml: കൗണ്ടി ജില്ല
-  comments:
   type: district
 '22':
   name: Matale
   code: '22'
-  unofficial_names: Matale
+  unofficial_names:
+  - Matale
   geo:
     latitude: 7.467465
     longitude: 80.6234161
@@ -347,17 +328,17 @@
     ceb: Matale District
     lt: Matalės apskritis
     zh: 馬特萊區
-    ccp: "\U0001111F\U00011116\U00011123\U0001112C"
+    ccp: "𑄟𑄖𑄣𑄬"
     'no': Matale distrikt
     ca: Matale
     ml: മാതലെ ജില്ല
     sl: Okrožje Matale
-  comments:
   type: district
 '23':
   name: Nuwara Eliya
   code: '23'
-  unofficial_names: Nuwara Eliya
+  unofficial_names:
+  - Nuwara Eliya
   geo:
     latitude: 6.9543992
     longitude: 80.7824012
@@ -404,23 +385,14 @@
     ceb: Nuwara Eliya District
     lt: Nuvara Elijos apskritis
     zh: 努沃勒埃利耶區
-    ccp: "\U0001111A\U00011127\U00011124\U00011122 \U00011103\U00011128\U00011123\U00011128\U00011120"
+    ccp: "𑄚𑄧𑄤𑄢 𑄃𑄨𑄣𑄨𑄠"
     'no': Nuware Eliya Distrikt
     ca: Nuwara Eliya
     ml: നുവാര ഏലിയ ജില്ല
-  comments:
   type: district
 '3':
   name: දකුණු පළාත
   code: '3'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Южна провинция
     de: Südprovinz
@@ -449,10 +421,9 @@
     ceb: Southern Province
     ar: المقاطعة الجنوبية (سريلانكا)
     zh: 南部省
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     id: Provinsi Selatan, Sri Lanka
     bn: দক্ষিণাঞ্চল প্রদেশ
-  comments:
   type: province
 '31':
   name: Galle
@@ -505,16 +476,16 @@
     ceb: Galle District
     lt: Galės apskritis
     zh: 加勒區
-    ccp: "\U00011109\U00011123\U0001112C"
+    ccp: "𑄉𑄣𑄬"
     'no': Galle
     ca: Galle
     ml: ഗാലി ജില്ല
-  comments:
   type: district
 '32':
   name: Matara
   code: '32'
-  unofficial_names: Matara
+  unofficial_names:
+  - Matara
   geo:
     latitude: 5.95492
     longitude: 80.5549561
@@ -561,15 +532,15 @@
     ceb: Matara District
     lt: Mataros apskritis
     zh: 馬特勒區
-    ccp: "\U0001111F\U00011116\U00011122"
+    ccp: "𑄟𑄖𑄢"
     'no': Matara
     ml: മാത്താര ജില്ല
-  comments:
   type: district
 '33':
   name: Hambantota
   code: '33'
-  unofficial_names: Hambantota
+  unofficial_names:
+  - Hambantota
   geo:
     latitude: 6.131742099999999
     longitude: 81.1085744
@@ -616,23 +587,14 @@
     ceb: Hambantota District
     lt: Hambantotos apskritis
     zh: 漢班托特區
-    ccp: "\U00011126\U0001111F\U00011134\U0001111D\U0001111A\U00011134\U00011111\U0001112E\U00011111"
+    ccp: "𑄦𑄟𑄴𑄝𑄚𑄴𑄑𑄮𑄑"
     'no': Hambantota
     ca: Hambantota
     ml: ഹംമ്പൻതോട്ട ജില്ല
-  comments:
   type: district
 '4':
   name: උතුරු පළාත
   code: '4'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Северна провинция
     de: Nordprovinz
@@ -662,12 +624,11 @@
     ceb: Northern Province (lalawigan sa Sri Lanka)
     ar: المقاطعة الشمالية (سريلانكا)
     zh: 北部省
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     id: Provinsi Utara, Sri Lanka
     bn: উত্তরাঞ্চল প্রদেশ
     ca: Província del Nord
     he: מחוז הצפון
-  comments:
   type: province
 '41':
   name: Jaffna
@@ -707,17 +668,17 @@
     ceb: Jaffna District
     ar: مديرية جافنا
     zh: 賈夫納區
-    ccp: "\U0001110E\U0001111B\U00011134\U0001111A"
+    ccp: "𑄎𑄛𑄴𑄚"
     pt: Distrito de Jaffna
     'no': Jaffna
     ca: Districte de Jaffna
     ml: ജാഫ്ന ജില്ല
-  comments:
   type: district
 '42':
   name: Kilinochchi
   code: '42'
-  unofficial_names: Kilinochchi
+  unofficial_names:
+  - Kilinochchi
   geo:
     latitude: 9.3802886
     longitude: 80.3769999
@@ -764,10 +725,9 @@
     ceb: Kilinochchi District
     lt: Kilinočio apskritis
     zh: 基利諾奇區
-    ccp: "\U00011107\U00011128\U00011123\U00011128\U0001111A\U0001112E\U0001110C\U00011134\U0001110C\U00011128"
+    ccp: "𑄇𑄨𑄣𑄨𑄚𑄮𑄌𑄴𑄌𑄨"
     'no': Kilinochchi
     ml: കില്ലിനോച്ചി ജില്ല
-  comments:
   type: district
 '43':
   name: Mannar
@@ -822,10 +782,9 @@
     ceb: Mannar District
     lt: Manaro apskritis
     zh: 馬納爾區
-    ccp: "\U0001111F\U0001111A\U00011122\U00011134"
+    ccp: "𑄟𑄚𑄢𑄴"
     'no': Mannar distrikt
     ml: മന്നാർ ജില്ല
-  comments:
   type: district
 '44':
   name: Vavuniya
@@ -864,10 +823,9 @@
     ar: مديرية فافونيا
     zh: 瓦武尼亞區
     el: Επαρχία Βαβουνίγια
-    ccp: "\U0001111E\U0001111E\U0001112A\U0001111A\U00011128\U00011120"
+    ccp: "𑄞𑄞𑄪𑄚𑄨𑄠"
     id: Distrik Vavuniya
     ml: വാവുനിയ ജില്ല
-  comments:
   type: district
 '45':
   name: Mullaittivu
@@ -920,23 +878,14 @@
     ceb: Mullaitivu District
     lt: Mulaitivo apskritis
     zh: 穆萊蒂武區
-    ccp: "\U0001111F\U0001112A\U00011123\U0001112D\U00011111\U00011128\U0001111E\U0001112A"
+    ccp: "𑄟𑄪𑄣𑄭𑄑𑄨𑄞𑄪"
     'no': Mullaittivu
     ca: Mullaitivu
     ml: മുല്ലൈടിവ് ജില്ല
-  comments:
   type: district
 '5':
   name: නැගෙනහිර පළාත, ශ් රී ලංකාව
   code: '5'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Източна провинция
     de: Ostprovinz
@@ -965,12 +914,11 @@
     ceb: Eastern Province (lalawigan sa Sri Lanka)
     ar: المقاطعة الشرقية (سريلانكا)
     zh: 東部省
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄛𑄪𑄇𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     id: Provinsi Timur, Sri Lanka
     bn: পূর্বাঞ্চল প্রদেশ
     he: מחוז המזרח
     ro: Provincia de Est
-  comments:
   type: province
 '51':
   name: Batticaloa
@@ -1010,11 +958,10 @@
     ceb: Batticaloa District
     ar: مديرية باتيكالوا
     zh: 拜蒂克洛區
-    ccp: "\U0001111D\U00011116\U00011133\U00011126\U00011128\U00011107\U00011123\U00011131"
+    ccp: "𑄝𑄖𑄳𑄦𑄨𑄇𑄣𑄱"
     id: Distrik Batticaloa
     'no': Batticaloa (distrikt)
     ca: Batticaloa
-  comments:
   type: district
 '52':
   name: Ampara
@@ -1067,11 +1014,10 @@
     ceb: Ampara District
     lt: Amparos apskritis
     zh: 安帕賴區
-    ccp: "\U00011103\U0001111F\U00011134\U0001111B\U00011122"
+    ccp: "𑄃𑄟𑄴𑄛𑄢"
     'no': Ampara
     ca: Amparai
     ml: അമ്പാറ ജില്ല
-  comments:
   type: district
 '53':
   name: Trincomalee
@@ -1111,23 +1057,14 @@
     ceb: Trincomalee District
     ar: مديرية ترينكومالي
     zh: 亭可馬里區
-    ccp: "\U00011111\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011107\U0001112E\U0001111F\U00011123\U00011128"
+    ccp: "𑄑𑄳𑄢𑄨𑄚𑄴𑄇𑄮𑄟𑄣𑄨"
     'no': Trincomalee
     ca: Trincomalee
     ml: ട്രിങ്കോമാലി ജില്ല
-  comments:
   type: district
 '6':
   name: වයඹ පළාත, ශ්‍රී ලංකාව
   code: '6'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Северозападна провинция
     de: Nordwestprovinz
@@ -1155,16 +1092,15 @@
     ceb: North Western Province
     ar: المقاطعة الشمالية الغربية (سريلانكا)
     zh: 西北省
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄧𑄏𑄨𑄟𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     id: Provinsi Barat Laut, Sri Lanka
     bn: উত্তর পশ্চিমাঞ্চল প্রদেশ
-  comments:
   type: province
 '61':
   name: Kurunegala
   code: '61'
-  unofficial_names: Kurunegala
+  unofficial_names:
+  - Kurunegala
   geo:
     latitude: 7.472981299999999
     longitude: 80.3547286
@@ -1211,10 +1147,9 @@
     ceb: Kurunegala District
     lt: Kurunegalos apskritis
     zh: 庫魯內格勒區
-    ccp: "\U00011107\U0001112A\U00011122\U0001112A\U0001111A\U0001112C\U00011109\U00011123"
+    ccp: "𑄇𑄪𑄢𑄪𑄚𑄬𑄉𑄣"
     'no': Kurunegala distrikt
     ml: കുറുനേഗല ജില്ല
-  comments:
   type: district
 '62':
   name: Puttalam
@@ -1267,22 +1202,13 @@
     ceb: Puttalam District
     lt: Putalamo apskritis
     zh: 普塔勒姆區
-    ccp: "\U0001111B\U0001112A\U00011111\U00011123\U0001111F\U00011134"
+    ccp: "𑄛𑄪𑄑𑄣𑄟𑄴"
     'no': Puttalam distrikt
     ml: പുത്തലം ജില്ല
-  comments:
   type: district
 '7':
   name: උතුරු මැද පළාත
   code: '7'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Северна централна провинция
     de: Nördliche Zentralprovinz
@@ -1311,11 +1237,9 @@
     ar: المقاطعة الشمالية الوسطى (سريلانكا)
     zh: 北中省
     el: Βορειοκεντρική επαρχία
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴"
     bn: উত্তর মধ্যাঞ্চল প্রদেশ
     id: Provinsi Tengah Utara, Sri Lanka
-  comments:
   type: province
 '71':
   name: Anuradhapura
@@ -1355,9 +1279,8 @@
     ceb: Anuradhapura District
     ar: مديرية انورادهابورا
     zh: 阿努拉德普勒區
-    ccp: "\U00011103\U0001111A\U0001112A\U00011122\U00011119\U0001111B\U0001112A\U00011122\U00011134"
+    ccp: "𑄃𑄚𑄪𑄢𑄙𑄛𑄪𑄢𑄴"
     ca: Anuradhapura
-  comments:
   type: district
 '72':
   name: Polonnaruwa
@@ -1411,24 +1334,15 @@
     ceb: Polonnaruwa District
     lt: Plonaruvos apskritis
     zh: 波隆納魯沃區
-    ccp: "\U0001111B\U00011127\U00011123\U00011127\U0001111A\U00011122\U0001112A\U00011124"
+    ccp: "𑄛𑄧𑄣𑄧𑄚𑄢𑄪𑄤"
     'no': Polinnaruwa distrikt
     ca: Polonnaruwa
     he: נפת פולונארווה
     ml: പോളൊന്നാരുവ ജില്ല
-  comments:
   type: district
 '8':
   name: ඌව පළාත
   code: '8'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Ува
     ca: Província de Uva
@@ -1457,17 +1371,17 @@
     ceb: Province of Uva
     ar: مقاطعة يوفا
     zh: 烏沃省
-    ccp: "\U00011105\U0001112A\U0001111E"
+    ccp: "𑄅𑄪𑄞"
     id: Provinsi Uva
     bn: উভা প্রদেশ
     cy: Talaith Uva
     he: מחוז אובה
-  comments:
   type: province
 '81':
   name: Badulla
   code: '81'
-  unofficial_names: Badulla
+  unofficial_names:
+  - Badulla
   geo:
     latitude: 6.993400899999999
     longitude: 81.0549815
@@ -1514,11 +1428,10 @@
     ceb: Badulla District
     lt: Badulos apskritis
     zh: 巴杜勒區
-    ccp: "\U0001111D\U00011113\U0001112A\U00011123\U00011133\U00011126"
+    ccp: "𑄝𑄓𑄪𑄣𑄳𑄦"
     'no': Badulla distrikt
     ca: Badulla
     ml: ബഡുല്ല ജില്ല
-  comments:
   type: district
 '82':
   name: Monaragala
@@ -1556,24 +1469,15 @@
     ceb: Moneragala District
     ar: مديرية موناراغالا
     zh: 莫訥勒格勒區
-    ccp: "\U0001111F\U00011127\U0001111A\U00011122\U00011109\U00011123"
+    ccp: "𑄟𑄧𑄚𑄢𑄉𑄣"
     id: Distrik Monaragala
     ca: Districte de Monaragala
     ml: മോണരാഗല ജില്ല
     pl: Monaragala (dystrykt)
-  comments:
   type: district
 '9':
   name: සබරගමුව පළාත
   code: '9'
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     bg: Сабарагамува
     ca: Província de Sabaragamuwa
@@ -1602,12 +1506,11 @@
     ceb: Province of Sabaragamuwa
     ar: مقاطعة ساباراغاموا (سريلانكا)
     zh: 薩伯勒格穆沃省
-    ccp: "\U00011125\U0001111D\U00011122\U00011107\U00011134\U0001111F\U0001112A\U00011124"
+    ccp: "𑄥𑄝𑄢𑄇𑄴𑄟𑄪𑄤"
     id: Provinsi Sabaragamuwa
     bn: সাবরাগমুওয়া প্রদেশ
     cy: Talaith Sabaragamuwa
     he: מחוז סבראגמובה
-  comments:
   type: province
 '91':
   name: Ratnapura
@@ -1660,11 +1563,10 @@
     ceb: Ratnapura District
     lt: Ratnapuros apskritis
     zh: 拉特納普勒區
-    ccp: "\U00011122\U00011116\U00011134\U0001111A\U00011127\U0001111B\U0001112A\U00011122\U00011134"
+    ccp: "𑄢𑄖𑄴𑄚𑄧𑄛𑄪𑄢𑄴"
     'no': Ratnapura distrikt
     ca: Ratnapura
     ml: രത്നപുര ജില്ല
-  comments:
   type: district
 '92':
   name: Kegalla
@@ -1717,8 +1619,7 @@
     ceb: Kegalle District
     lt: Kegaės apskritis
     zh: 凱格勒區
-    ccp: "\U00011107\U00011128\U00011109\U00011123\U00011128"
+    ccp: "𑄇𑄨𑄉𑄣𑄨"
     'no': Kegalle distrikt
     ml: കെഗല്ലെ ജില്ല
-  comments:
   type: district

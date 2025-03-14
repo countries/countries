@@ -50,16 +50,16 @@ AR:
     lv: Artibonita
     ceb: Département de l’Artibonite
     lt: Artibonitas
-    ccp: "\U00011103\U00011122\U00011134\U00011111\U00011128\U0001111D\U0001112E\U0001111A\U0001112D\U00011116\U00011134"
+    ccp: "𑄃𑄢𑄴𑄑𑄨𑄝𑄮𑄚𑄭𑄖𑄴"
     ca: Artibonite
     'no': Artibonite
     az: Artibonit
-  comments:
   type: department
 CE:
   name: Centre
   code: CE
-  unofficial_names: Centre
+  unofficial_names:
+  - Centre
   geo:
     latitude: 18.9582742
     longitude: -72.0468164
@@ -105,13 +105,12 @@ CE:
     ceb: Centre
     lt: Centras
     zh: 中央省
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄢𑄴"
     uk: Центральний департамент Гаїті
     ca: Centre
     bs: Centre
     'no': Centre
     az: Haitinin Mərkəzi departamenti
-  comments:
   type: department
 GA:
   name: Grande-Anse
@@ -164,17 +163,17 @@ GA:
     lt: Grand Ansė
     zh: 大灣省
     bn: গ্রান্ড’আন্সে
-    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011133\U00011113\U00011134‘\U00011103\U0001111A\U00011134\U00011125\U0001112C"
+    ccp: "𑄉𑄳𑄢𑄚𑄳𑄓𑄴‘𑄃𑄚𑄴𑄥𑄬"
     uk: Регіон Гранд-Анс
     ca: Grand’Anse
     'no': Grand’Anse
     az: Qrand-Ans
-  comments:
   type: department
 ND:
   name: Nord
   code: ND
-  unofficial_names: Nord
+  unofficial_names:
+  - Nord
   geo:
     latitude: 19.5687715
     longitude: -72.189
@@ -220,18 +219,18 @@ ND:
     ceb: Nord
     lt: Nordas
     zh: 北部省
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄓𑄴"
     uk: Північний департамент Гаїті
     ca: Nord
     'no': Nord
     az: Haitinin Şimal departamenti
     hy: Նորդ
-  comments:
   type: department
 NE:
   name: Nord-Est
   code: NE
-  unofficial_names: Nord-Est
+  unofficial_names:
+  - Nord-Est
   geo:
     latitude: 19.4889723
     longitude: -71.8571331
@@ -277,24 +276,15 @@ NE:
     ceb: Département du Nord-Est
     lt: Nord-Estas
     zh: 东北省
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄓𑄴-𑄃𑄨𑄌𑄴𑄑𑄴"
     uk: Північно-Східний департамент Гаїті
     ca: Nord-Est
     'no': Nord-Est
     az: Haitinin Şimal-Şərq departamenti
-  comments:
   type: department
 NI:
   name: Nippes
   code: NI
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إدارة نيبيس
     bn: নিপেস
@@ -333,18 +323,18 @@ NI:
     ceb: Département de Nippes
     lt: Nipesas
     zh: 尼普斯省
-    ccp: "\U0001111A\U00011128\U0001111B\U0001112C\U0001110C\U00011134"
+    ccp: "𑄚𑄨𑄛𑄬𑄌𑄴"
     uk: Ніп
     ca: Nippes
     'no': Nippes
     az: Nip
     he: ניפס
-  comments:
   type: department
 'NO':
   name: Nord-Ouest
   code: 'NO'
-  unofficial_names: Nord-Ouest
+  unofficial_names:
+  - Nord-Ouest
   geo:
     latitude: 19.8374009
     longitude: -73.0405277
@@ -390,17 +380,17 @@ NI:
     ceb: Nord-Ouest (departamento sa Haiti)
     lt: Nord Vestas
     zh: 西北省
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011128-\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄓𑄨-𑄃𑄮𑄠𑄬𑄌𑄴𑄑𑄴"
     uk: Північно-Західний регіон Гаїті
     ca: Nord-Ouest
     'no': Nord-Ouest
     az: Haitinin Şimal-Qərb departamenti
-  comments:
   type: department
 OU:
   name: Ouest
   code: OU
-  unofficial_names: Ouest
+  unofficial_names:
+  - Ouest
   geo:
     latitude: 18.4957015
     longitude: -72.4731529
@@ -448,17 +438,17 @@ OU:
     ceb: Département de l’Ouest
     lt: Vestas
     zh: 西部省
-    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ccp: "𑄃𑄮𑄠𑄬𑄌𑄴𑄑𑄴"
     ca: Ouest
     'no': Ouest
     az: Haitinin Qərb departamenti
     hy: Քուեսթ
-  comments:
   type: department
 SD:
   name: Sud
   code: SD
-  unofficial_names: Sud
+  unofficial_names:
+  - Sud
   geo:
     latitude: 18.3320005
     longitude: -73.7007088
@@ -505,17 +495,17 @@ SD:
     ceb: Sud (departamento sa Haiti)
     lt: Sudas
     zh: 南部省
-    ccp: "\U00011125\U00011116\U00011134"
+    ccp: "𑄥𑄖𑄴"
     ca: Sud
     'no': Sud
     az: Haitinin Cənub departamenti
     be: Паўднёвы дэпартамент
-  comments:
   type: department
 SE:
   name: Sud-Est
   code: SE
-  unofficial_names: Sud-Est
+  unofficial_names:
+  - Sud-Est
   geo:
     latitude: 18.2783598
     longitude: -72.35479149999999
@@ -561,10 +551,9 @@ SE:
     ceb: Sud-Est
     lt: Sed Estas
     zh: 東南省
-    ccp: "\U00011125\U00011116\U00011134-\U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134"
+    ccp: "𑄥𑄖𑄴-𑄃𑄨𑄌𑄴𑄑𑄴"
     uk: Південно-Східний департамент Гаїті
     ca: Sud-Est
     'no': Sud-Est
     az: Haitinin Cənub-Şərq departamenti
-  comments:
   type: department

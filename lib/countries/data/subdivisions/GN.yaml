@@ -2,14 +2,6 @@
 B:
   name: Région de Boké
   code: B
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إقليم بوكيه
     be: Рэгіён Баке
@@ -49,19 +41,19 @@ B:
     zh: 博凱大區
     lv: Bokes reģions
     ceb: Boke Region
-    ccp: "\U0001111D\U0001112E\U00011107\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄝𑄮𑄇𑄴 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Bokéko eskualdea
     uk: Регіон Боке
     ca: Regió de Boké
     'no': Boké
     fa: ناحیه بوکه
     hy: Բոկե
-  comments:
   type: administrative_region
 BE:
   name: Beyla
   code: BE
-  unofficial_names: Beyla
+  unofficial_names:
+  - Beyla
   geo:
     latitude: 8.683333
     longitude: -8.633333
@@ -106,17 +98,17 @@ BE:
     ceb: Beyla Prefecture
     lt: Beilos prefektūra
     zh: 貝拉省
-    ccp: "\U0001111D\U0001112C\U00011123"
+    ccp: "𑄝𑄬𑄣"
     uk: Префектура Бейла
     'no': Beyla
     ca: Beyla
     fa: استان بیلا
-  comments:
   type: prefecture
 BF:
   name: Boffa
   code: BF
-  unofficial_names: Boffa
+  unofficial_names:
+  - Boffa
   geo:
     latitude: 10.1808254
     longitude: -14.0391615
@@ -160,16 +152,16 @@ BF:
     ceb: Boffa (prepektura)
     lt: Bofos prefektūra
     zh: 博法省
-    ccp: "\U0001111D\U0001112E\U0001111C"
+    ccp: "𑄝𑄮𑄜"
     uk: Префектура Бофа
     'no': Boffa
     fa: استان بوفا
-  comments:
   type: prefecture
 BK:
   name: Boké
   code: BK
-  unofficial_names: Boké
+  unofficial_names:
+  - Boké
   geo:
     latitude: 11.1864672
     longitude: -14.1001326
@@ -192,17 +184,17 @@ BK:
     ceb: Boke Prefecture
     ar: بریفيكجور بوكه
     zh: 博凱省
-    ccp: "\U0001111D\U00011127\U00011107\U00011134"
+    ccp: "𑄝𑄧𑄇𑄴"
     es: Boké²
     pt: Boké²
     'no': Boké²
     fa: استان بوکه
-  comments:
   type: prefecture
 C:
   name: Conakry
   code: C
-  unofficial_names: Conakry
+  unofficial_names:
+  - Conakry
   geo:
     latitude: 9.509167
     longitude: -13.712222
@@ -276,7 +268,7 @@ C:
     yue_Hans: 康纳克立
     jv: Conakry
     sq: Konakri
-    ccp: "\U00011107\U00011127\U0001111A\U00011107\U00011133\U00011122\U00011128"
+    ccp: "𑄇𑄧𑄚𑄇𑄳𑄢𑄨"
     ga: Conacraí
     ky: Конакри
     ha: Conakry
@@ -292,12 +284,12 @@ C:
     'no': Conakry
     yo_BJ: Conakry
     ps: کوناکری
-  comments:
   type: governorate
 CO:
   name: Coyah
   code: CO
-  unofficial_names: Coyah
+  unofficial_names:
+  - Coyah
   geo:
     latitude: 9.7
     longitude: -13.383333
@@ -341,24 +333,15 @@ CO:
     ceb: Coyah
     lt: Kojos Prefektūra
     zh: 科亞省
-    ccp: "\U00011107\U0001112E\U00011120\U00011126\U00011134"
+    ccp: "𑄇𑄮𑄠𑄦𑄴"
     uk: Префектура Койя
     'no': Coyah
     ca: Coyah
     fa: استان کویا
-  comments:
   type: prefecture
 D:
   name: Région de Kindia
   code: D
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إقليم كينديا
     be: Рэгіён Кіндыя
@@ -400,18 +383,18 @@ D:
     lv: Kindijas reģions
     ceb: Kindia Region
     zh: 金迪亞大區
-    ccp: "\U00011107\U00011128\U0001111A\U00011134\U00011113\U00011128\U00011120 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄇𑄨𑄚𑄴𑄓𑄨𑄠 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Kindiako eskualdea
     'no': Kindia
     fa: ناحیه کیندیا
     he: קינדייה
     hy: Կինդիա
-  comments:
   type: administrative_region
 DB:
   name: Dabola
   code: DB
-  unofficial_names: Dabola
+  unofficial_names:
+  - Dabola
   geo:
     latitude: 10.75
     longitude: -11.116667
@@ -455,17 +438,17 @@ DB:
     ceb: Dabola (prepektura)
     lt: Dabolos prefektūra
     zh: 達波拉省
-    ccp: "\U00011113\U0001111D\U0001112E\U00011123"
+    ccp: "𑄓𑄝𑄮𑄣"
     uk: Префектура Дабола
     ca: prefactura de Dabola
     'no': Dabola
     fa: استان دابولا
-  comments:
   type: prefecture
 DI:
   name: Dinguiraye
   code: DI
-  unofficial_names: Dinguiraye
+  unofficial_names:
+  - Dinguiraye
   geo:
     latitude: 11.3
     longitude: -10.716667
@@ -509,23 +492,19 @@ DI:
     ceb: Dinguiraye Prefecture
     lt: Dingirajės prefektūra
     zh: 丁吉拉伊省
-    ccp: "\U00011113\U00011128\U00011101\U00011109\U0001112D\U0001112A\U00011122\U00011120\U0001112C"
+    ccp: "𑄓𑄨𑄁𑄉𑄭𑄪𑄢𑄠𑄬"
     uk: Префектура Дінгірае
     'no': Dinguiraye
     fa: استان دوگینیرای
-  comments:
   type: prefecture
 DL:
   name: Dalaba
   code: DL
-  unofficial_names: Dalaba
+  unofficial_names:
+  - Dalaba
   geo:
     latitude: 10.166667
     longitude: -9.383333
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Dalaba
     ar: محافظة دالابا
@@ -562,16 +541,16 @@ DL:
     ceb: Dalaba (prepektura)
     lt: Dalabos prefektūra
     zh: 達拉巴省
-    ccp: "\U00011113\U00011123\U0001111D"
+    ccp: "𑄓𑄣𑄝"
     uk: Префектура Далаба
     'no': Dalaba
     fa: استان دالابا
-  comments:
   type: prefecture
 DU:
   name: Dubréka
   code: DU
-  unofficial_names: Dubréka
+  unofficial_names:
+  - Dubréka
   geo:
     latitude: 9.783332999999999
     longitude: -13.516667
@@ -615,23 +594,14 @@ DU:
     ceb: Préfecture de Dubréka
     lt: Dubrekos prefektūra
     zh: 杜布雷卡省
-    ccp: "\U00011113\U0001112A\U0001111D\U00011133\U00011122\U0001112C\U00011107"
+    ccp: "𑄓𑄪𑄝𑄳𑄢𑄬𑄇"
     uk: Префектура Дубрека
     'no': Dubréka
     fa: استان دوبریکا
-  comments:
   type: prefecture
 F:
   name: Région de Faranah
   code: F
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     be: Рэгіён Фарана
     bg: Фарана
@@ -655,7 +625,7 @@ F:
     ur: فاراناہ علاقہ
     ceb: Faranah Region
     zh: 法拉納大區
-    ccp: "\U0001111C\U00011122\U00011134\U0001111A\U00011126\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄜𑄢𑄴𑄚𑄦𑄴 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Faranahko eskualdea
     ca: Faranah
     'no': Faranah
@@ -663,12 +633,12 @@ F:
     hy: Ֆարանա
     id: Region Faranah
     uk: Фарана
-  comments:
   type: administrative_region
 FA:
   name: Faranah
   code: FA
-  unofficial_names: Faranah
+  unofficial_names:
+  - Faranah
   geo:
     latitude: 10.033333
     longitude: -10.733333
@@ -690,12 +660,11 @@ FA:
     ur: فاراناہ پریفیکچور
     ceb: Faranah Prefecture
     zh: 法拉納省
-    ccp: "\U0001111C\U00011122\U0001111A\U00011126\U00011134"
+    ccp: "𑄜𑄢𑄚𑄦𑄴"
     es: Faranah²
     'no': Faranah²
     fa: استان فرانه
     pt: Faranah²
-  comments:
   type: prefecture
 FO:
   name: Forécariah
@@ -723,17 +692,17 @@ FO:
     ur: فوریکاریاہ پریفیکچور
     ceb: Préfecture de Forécariah
     zh: 福雷卡里亞省
-    ccp: "\U0001111C\U0001112E\U00011122\U00011134\U00011107\U0001112C\U00011122\U00011128\U00011120\U00011126\U00011134"
+    ccp: "𑄜𑄮𑄢𑄴𑄇𑄬𑄢𑄨𑄠𑄦𑄴"
     es: Forécariah
     'no': Forécariah
     ar: محافظة فوريكاريا
     fa: استان فورکاریا
-  comments:
   type: prefecture
 FR:
   name: Fria
   code: FR
-  unofficial_names: Fria
+  unofficial_names:
+  - Fria
   geo:
     latitude: 10.3674543
     longitude: -13.5841871
@@ -777,17 +746,17 @@ FR:
     ceb: Fria
     lt: Frijos prefektūra
     zh: 弗里亞省
-    ccp: "\U0001111C\U00011133\U00011122\U0001112D\U00011120"
+    ccp: "𑄜𑄳𑄢𑄭𑄠"
     uk: Префектура Фріа
     'no': Fria
     be: прэфектура Фрыя
     fa: استان فریا
-  comments:
   type: prefecture
 GA:
   name: Gaoual
   code: GA
-  unofficial_names: Gaoual
+  unofficial_names:
+  - Gaoual
   geo:
     latitude: 11.75
     longitude: -13.2
@@ -831,16 +800,16 @@ GA:
     ceb: Gaoual Prefecture
     lt: Gauvalo prefektūra
     zh: 加瓦爾省
-    ccp: "\U00011109\U00011105\U0001112A\U00011120\U00011123\U00011134"
+    ccp: "𑄉𑄅𑄪𑄠𑄣𑄴"
     uk: Префектура Гауаль
     'no': Gaoual
     fa: استان گائول
-  comments:
   type: prefecture
 GU:
   name: Guékédou
   code: GU
-  unofficial_names: Guékédou
+  unofficial_names:
+  - Guékédou
   geo:
     latitude: 8.566666999999999
     longitude: -10.133333
@@ -885,23 +854,14 @@ GU:
     ceb: Préfecture de Guékédou
     lt: Gekedo prefektūra
     zh: 蓋凱杜省
-    ccp: "\U00011109\U0001112A\U00011107\U0001112C\U00011113\U0001112F"
+    ccp: "𑄉𑄪𑄇𑄬𑄓𑄯"
     uk: Гекеду
     'no': Guéckédou
     fa: استان گوکدو
-  comments:
   type: prefecture
 K:
   name: Région de Kankan
   code: K
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إقليم كانكان
     be: Рэгіён Канкан
@@ -941,7 +901,7 @@ K:
     lv: Kankanas reģions
     ceb: Kankan Region
     zh: 康康大區
-    ccp: "\U00011107\U0001111A\U00011134\U00011107\U0001111A\U00011134 \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄇𑄚𑄴𑄇𑄚𑄴 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Kankango eskualdea
     uk: Канкан
     'no': Kankan
@@ -950,12 +910,12 @@ K:
     fa: ناحیه کانکان
     he: קאנקאן (מחוז)
     hy: Կանկան
-  comments:
   type: administrative_region
 KA:
   name: Kankan
   code: KA
-  unofficial_names: Kankan
+  unofficial_names:
+  - Kankan
   geo:
     latitude: 10.120923
     longitude: -9.5450974
@@ -977,18 +937,18 @@ KA:
     ur: کانکان پریفیکچور
     ceb: Kankan Prefecture
     zh: 康康省
-    ccp: "\U00011107\U0001111A\U00011134\U00011107\U0001111A\U00011134"
+    ccp: "𑄇𑄚𑄴𑄇𑄚𑄴"
     es: Kankan²
     'no': Kankan²
     ar: محافظة كانكان
     fa: استان کانکان
     he: קאנקאן (נפה)
-  comments:
   type: prefecture
 KB:
   name: Koubia
   code: KB
-  unofficial_names: Koubia
+  unofficial_names:
+  - Koubia
   geo:
     latitude: 11.583333
     longitude: -11.9
@@ -1032,17 +992,17 @@ KB:
     ceb: Koubia
     lt: Kubijos prefektūra
     zh: 庫比亞省
-    ccp: "\U00011107\U0001112F\U0001111D\U00011128\U00011120"
+    ccp: "𑄇𑄯𑄝𑄨𑄠"
     uk: Префектура Кубія
     'no': Koubia
     ca: Koubia
     fa: استان کوبیا
-  comments:
   type: prefecture
 KD:
   name: Kindia
   code: KD
-  unofficial_names: Kindia
+  unofficial_names:
+  - Kindia
   geo:
     latitude: 10.066667
     longitude: -12.85
@@ -1062,7 +1022,7 @@ KD:
     pl: Prefektura Kindia
     ur: کیندیا پریفیکچور
     zh: 金迪亞省
-    ccp: "\U00011107\U00011128\U0001111A\U00011134\U00011113\U00011128\U00011120"
+    ccp: "𑄇𑄨𑄚𑄴𑄓𑄨𑄠"
     es: Kindia²
     pt: Quindia (prefeitura)
     'no': Kindia²
@@ -1070,12 +1030,12 @@ KD:
     ceb: Kindia (prepektura)
     fa: استان کیندیا
     sv: Kindia (prefektur)
-  comments:
   type: prefecture
 KE:
   name: Kérouané
   code: KE
-  unofficial_names: Kérouané
+  unofficial_names:
+  - Kérouané
   geo:
     latitude: 9.266667
     longitude: -9.016667
@@ -1119,17 +1079,17 @@ KE:
     ceb: Kerouane Prefecture
     lt: Kervano prefektūra
     zh: 凱魯阿內省
-    ccp: "\U00011107\U0001112C\U00011122\U0001112F\U00011120\U0001111A\U00011128"
+    ccp: "𑄇𑄬𑄢𑄯𑄠𑄚𑄨"
     uk: Префектура Керуане
     'no': Kérouané
     ca: Kérouané
     fa: استان کاروانه
-  comments:
   type: prefecture
 KN:
   name: Koundara
   code: KN
-  unofficial_names: Koundara
+  unofficial_names:
+  - Koundara
   geo:
     latitude: 12.483333
     longitude: -13.3
@@ -1173,18 +1133,18 @@ KN:
     ceb: Koundara Prefecture
     lt: Koundaros prefektūra
     zh: 孔達拉省
-    ccp: "\U00011107\U0001112F\U0001111A\U00011134\U00011113\U00011122"
+    ccp: "𑄇𑄯𑄚𑄴𑄓𑄢"
     uk: Префектура Кундара
     'no': Koundara
     be: прэфектура Кундара
     ca: Koundara
     fa: استان کوندره
-  comments:
   type: prefecture
 KO:
   name: Kouroussa
   code: KO
-  unofficial_names: Kouroussa
+  unofficial_names:
+  - Kouroussa
   geo:
     latitude: 10.65
     longitude: -9.883333
@@ -1228,17 +1188,17 @@ KO:
     ceb: Kouroussa
     lt: Kurusos prefektūra
     zh: 庫魯薩省
-    ccp: "\U00011107\U0001112F\U00011122\U0001112F\U00011125\U00011133\U00011126"
+    ccp: "𑄇𑄯𑄢𑄯𑄥𑄳𑄦"
     uk: Префектура Куруса
     'no': Kouroussa
     ca: Kouroussa
     fa: استان کوروسا
-  comments:
   type: prefecture
 KS:
   name: Kissidougou
   code: KS
-  unofficial_names: Kissidougou
+  unofficial_names:
+  - Kissidougou
   geo:
     latitude: 9.183333
     longitude: -10.1
@@ -1282,24 +1242,15 @@ KS:
     ceb: Kissidougou (prepektura)
     lt: Kisidugo prefektūra
     zh: 基西杜古省
-    ccp: "\U00011107\U00011128\U00011125\U00011128\U00011113\U0001112F\U00011109\U0001112F"
+    ccp: "𑄇𑄨𑄥𑄨𑄓𑄯𑄉𑄯"
     uk: Префектура Кісідугу
     ca: prefectura de Kissidougou
     'no': Kissidougou
     fa: استان کیسیدوگو
-  comments:
   type: prefecture
 L:
   name: Région de Labé
   code: L
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     be: Рэгіён Лабэ
     bg: Лабе
@@ -1323,7 +1274,7 @@ L:
     ur: لابی ریجن
     ceb: Labé Region
     zh: 拉貝大區
-    ccp: "\U00011123\U0001111D\U0001112C \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄣𑄝𑄬 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Labéko eskualdea
     uk: Лабе²
     'no': Labé
@@ -1331,12 +1282,12 @@ L:
     he: לאבה
     hy: Լաբե
     id: Region Labé
-  comments:
   type: administrative_region
 LA:
   name: Labé
   code: LA
-  unofficial_names: Labé
+  unofficial_names:
+  - Labé
   geo:
     latitude: 11.641159
     longitude: -11.8891721
@@ -1380,16 +1331,16 @@ LA:
     ceb: Labe Prefecture
     lt: Labės prefektūra
     zh: 拉貝省
-    ccp: "\U00011123\U00011127\U0001111D\U0001112C"
+    ccp: "𑄣𑄧𑄝𑄬"
     uk: Лабе
     'no': Labé²
     fa: استان لابی
-  comments:
   type: prefecture
 LE:
   name: Lélouma
   code: LE
-  unofficial_names: Lélouma
+  unofficial_names:
+  - Lélouma
   geo:
     latitude: 11.4739967
     longitude: -12.6675575
@@ -1433,15 +1384,15 @@ LE:
     ceb: Lelouma Prefecture
     lt: Lelumos prefektūra
     zh: 萊盧馬省
-    ccp: "\U00011123\U0001112C\U00011123\U0001112F\U0001111F"
+    ccp: "𑄣𑄬𑄣𑄯𑄟"
     uk: Префектура Лелоума
     'no': Lélouma
-  comments:
   type: prefecture
 LO:
   name: Lola
   code: LO
-  unofficial_names: Lola
+  unofficial_names:
+  - Lola
   geo:
     latitude: 7.8
     longitude: -8.533332999999999
@@ -1485,23 +1436,14 @@ LO:
     ceb: Lola (prepektura)
     lt: Lolos prefektūra
     zh: 洛拉省
-    ccp: "\U00011123\U00011127\U00011123"
+    ccp: "𑄣𑄧𑄣"
     uk: Префектура Лола
     'no': Lola
     ca: Lola
-  comments:
   type: prefecture
 M:
   name: Région de Mamou
   code: M
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة مامو
     be: Рэгіён Маму
@@ -1541,18 +1483,18 @@ M:
     lv: Mamū reģions
     ceb: Mamou Region
     zh: 馬木大區
-    ccp: "\U0001111F\U0001111F\U0001112F \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄟𑄟𑄯 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Mamouko eskualdea
     uk: Ругіон Маму
     'no': Mamou
     fa: ناحیه مامو
     hy: Մամու
-  comments:
   type: administrative_region
 MC:
   name: Macenta
   code: MC
-  unofficial_names: Macenta
+  unofficial_names:
+  - Macenta
   geo:
     latitude: 8.549999999999999
     longitude: -9.466667
@@ -1596,16 +1538,16 @@ MC:
     ceb: Macenta (prepektura)
     lt: Macentos prefektūra
     zh: 馬桑塔省
-    ccp: "\U0001111F\U00011125\U0001112C\U0001111A\U00011134\U00011111"
+    ccp: "𑄟𑄥𑄬𑄚𑄴𑄑"
     uk: Масента
     'no': Macenta
     ca: Macenta
-  comments:
   type: prefecture
 MD:
   name: Mandiana
   code: MD
-  unofficial_names: Mandiana
+  unofficial_names:
+  - Mandiana
   geo:
     latitude: 10.6172827
     longitude: -8.6985716
@@ -1649,15 +1591,15 @@ MD:
     ceb: Mandiana Prefecture
     lt: Mandijanos prefektūra
     zh: 芒賈納省
-    ccp: "\U0001111F\U00011133\U00011120\U0001111A\U00011134\U00011113\U00011128\U00011120\U0001111A"
+    ccp: "𑄟𑄳𑄠𑄚𑄴𑄓𑄨𑄠𑄚"
     uk: Префектура Мандіана
     'no': Mandiana
-  comments:
   type: prefecture
 ML:
   name: Mali
   code: ML
-  unofficial_names: Mali
+  unofficial_names:
+  - Mali
   geo:
     latitude: 12.083333
     longitude: -12.3
@@ -1701,15 +1643,15 @@ ML:
     ceb: Mali Prefecture
     lt: Malio prefektūra
     zh: 馬里省
-    ccp: "\U0001111F\U00011123\U00011128"
+    ccp: "𑄟𑄣𑄨"
     uk: Префектура Малі
     'no': Mali
-  comments:
   type: prefecture
 MM:
   name: Mamou
   code: MM
-  unofficial_names: Mamou
+  unofficial_names:
+  - Mamou
   geo:
     latitude: 10.5736024
     longitude: -11.8891721
@@ -1732,24 +1674,15 @@ MM:
     ceb: Mamou Prefecture
     zh: 馬木省
     ru: Маму²
-    ccp: "\U0001111F\U0001111F\U0001112F"
+    ccp: "𑄟𑄟𑄯"
     es: Mamou²
     pt: Mamou²
     'no': Mamou²
     ar: محافظة مامو
-  comments:
   type: prefecture
 N:
   name: Région de Nzérékoré
   code: N
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إقليم نزيريكوري
     be: Рэгіён Нзерэкарэ
@@ -1789,18 +1722,17 @@ N:
     lv: Nzerekores reģions
     ceb: Nzerekore Region
     zh: 恩澤雷科雷大區
-    ccp: "\U0001110E\U0001112C\U00011122\U0001112C\U00011107\U0001112E\U00011122\U0001112C
-      \U00011122\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄎𑄬𑄢𑄬𑄇𑄮𑄢𑄬 𑄢𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     eu: Nzérékoréko eskualdea
     uk: Регіон Нзерекоре
     'no': Nzérékoré
     hy: Նզերեկորե
-  comments:
   type: administrative_region
 NZ:
   name: Nzérékoré
   code: NZ
-  unofficial_names: Nzérékoré
+  unofficial_names:
+  - Nzérékoré
   geo:
     latitude: 7.75
     longitude: -8.816666999999999
@@ -1822,16 +1754,16 @@ NZ:
     ur: نزیریکورے پریفیکچور
     ceb: Nzerekore Prefecture
     zh: 恩澤雷科雷省
-    ccp: "\U0001110E\U0001112C\U00011122\U0001112C\U00011107\U0001112E\U00011122\U0001112C"
+    ccp: "𑄎𑄬𑄢𑄬𑄇𑄮𑄢𑄬"
     es: Nzérékoré²
     'no': Nzérékoré²
     ar: محافظة نزريكوري
-  comments:
   type: prefecture
 PI:
   name: Pita
   code: PI
-  unofficial_names: Pita
+  unofficial_names:
+  - Pita
   geo:
     latitude: 11.059568
     longitude: -12.395582
@@ -1875,16 +1807,16 @@ PI:
     ceb: Pita
     lt: Pitos prefektūra
     zh: 皮塔省
-    ccp: "\U0001111B\U00011128\U00011111"
+    ccp: "𑄛𑄨𑄑"
     uk: Префектура Піта
     'no': Pita
     ca: Pita
-  comments:
   type: prefecture
 SI:
   name: Siguiri
   code: SI
-  unofficial_names: Siguiri
+  unofficial_names:
+  - Siguiri
   geo:
     latitude: 11.416667
     longitude: -9.166667
@@ -1929,15 +1861,15 @@ SI:
     ceb: Siguiri Prefecture
     lt: Siguirio prefektūra
     zh: 錫吉里省
-    ccp: "\U00011125\U00011128\U00011109\U0001112D\U0001112A\U00011122\U00011128"
+    ccp: "𑄥𑄨𑄉𑄭𑄪𑄢𑄨"
     uk: Префектура Сігірі
     'no': Siguiri
-  comments:
   type: prefecture
 TE:
   name: Télimélé
   code: TE
-  unofficial_names: Télimélé
+  unofficial_names:
+  - Télimélé
   geo:
     latitude: 10.9
     longitude: -13.033333
@@ -1982,16 +1914,16 @@ TE:
     ceb: Telimele Prefecture
     lt: Telimelės prefektūra
     zh: 泰利梅萊省
-    ccp: "\U00011111\U0001112C\U00011123\U00011128\U0001111F\U0001112C\U00011123\U0001112C"
+    ccp: "𑄑𑄬𑄣𑄨𑄟𑄬𑄣𑄬"
     uk: Префектура Телімеле
     'no': Télimélé
     ca: Télimélé
-  comments:
   type: prefecture
 TO:
   name: Tougué
   code: TO
-  unofficial_names: Tougué
+  unofficial_names:
+  - Tougué
   geo:
     latitude: 11.4464221
     longitude: -11.6641388
@@ -2035,16 +1967,16 @@ TO:
     ceb: Tougue Prefecture
     lt: Togės prefektūra
     zh: 圖蓋省
-    ccp: "\U00011112\U0001110B\U00011134"
+    ccp: "𑄒𑄋𑄴"
     uk: Префектура Туге
     'no': Tougué
     ca: Tougué
-  comments:
   type: prefecture
 YO:
   name: Yomou
   code: YO
-  unofficial_names: Yomou
+  unofficial_names:
+  - Yomou
   geo:
     latitude: 7.566000000000001
     longitude: -9.2533
@@ -2088,8 +2020,7 @@ YO:
     ceb: Yomou
     lt: Jumou prefektūra
     zh: 約穆省
-    ccp: "\U00011103\U00011128\U00011120\U0001111F\U0001112F"
+    ccp: "𑄃𑄨𑄠𑄟𑄯"
     uk: Префектура Йому
     'no': Yomou
-  comments:
   type: prefecture

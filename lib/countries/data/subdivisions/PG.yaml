@@ -57,11 +57,10 @@ CPK:
     lv: Simbu (Čimbu) province
     ceb: Chimbu Province
     lt: Čimbu provincija
-    ccp: "\U0001110C\U00011128\U0001111F\U00011134\U0001111D\U0001112A"
+    ccp: "𑄌𑄨𑄟𑄴𑄝𑄪"
     'no': Simbu provins
     ca: Chimbu
     cy: Talaith Chimbu
-  comments:
   type: province
 CPM:
   name: Central
@@ -121,7 +120,6 @@ CPM:
     lt: Centrinė provincija
     zh: 中央省
     'no': Central
-  comments:
   type: province
 EBR:
   name: East New Britain
@@ -178,11 +176,10 @@ EBR:
     ceb: East New Britain Province
     lt: Rytinė Naujosios Britanijos provincija
     zh: 東新不列顛省
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111A\U00011131 \U0001111D\U00011133\U00011122\U00011128\U00011111\U0001112C\U0001111A\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄚𑄱 𑄝𑄳𑄢𑄨𑄑𑄬𑄚𑄴"
     mk: Источна Нова Британија
     'no': Øst Ny Britland
     ca: East New Britain
-  comments:
   type: province
 EHG:
   name: Eastern Highlands
@@ -239,16 +236,15 @@ EHG:
     ceb: Eastern Highlands Province
     lt: Rytų Kanų provincija
     zh: 東高地省
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄦𑄭𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄥𑄴"
     'no': Øst høylands provins
     ca: Eastern Highlands
-  comments:
   type: province
 EPW:
   name: Enga
   code: EPW
-  unofficial_names: Enga
+  unofficial_names:
+  - Enga
   geo:
     latitude: -5.3005849
     longitude: 143.5635637
@@ -299,12 +295,11 @@ EPW:
     ceb: Enga Province
     lt: Engos provincija
     zh: 恩加省
-    ccp: "\U00011103\U0001112C\U0001111A\U00011134\U00011109"
+    ccp: "𑄃𑄬𑄚𑄴𑄉"
     'no': Enga provins
     bs: Enga
     ca: Enga
     cy: Talaith Enga
-  comments:
   type: province
 ESW:
   name: East Sepik
@@ -361,11 +356,10 @@ ESW:
     ceb: East Sepik Province
     lt: Rytų Sepiko provincija
     zh: 东塞皮克省
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011125\U0001112C\U0001111B\U0001112D\U00011107\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄥𑄬𑄛𑄭𑄇𑄴"
     'no': East Sepik
     ca: East Sepik
     cy: Talaith Dwyrain Sepik
-  comments:
   type: province
 GPK:
   name: Gulf
@@ -421,22 +415,13 @@ GPK:
     ceb: Gulf Province
     lt: Galfas
     zh: 海灣省
-    ccp: "\U00011109\U00011127\U00011123\U00011134\U0001111B\U00011134"
+    ccp: "𑄉𑄧𑄣𑄴𑄛𑄴"
     et: Gulfi provints
     'no': Gulf
-  comments:
   type: province
 HLA:
   name: Hela
   code: HLA
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Hela Province
     en: Hela
@@ -455,24 +440,15 @@ HLA:
     ceb: Hela (lalawigan)
     zh: 赫拉省
     pl: Hela
-    ccp: "\U00011126\U0001112C\U00011123"
+    ccp: "𑄦𑄬𑄣"
     fi: Hela (maakunta)
     pt: Hela
     et: Hela provints
     bs: Hela
-  comments:
   type: province
 JWK:
   name: Jiwaka
   code: JWK
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Jiwaka Province
     en: Jiwaka
@@ -491,18 +467,18 @@ JWK:
     ceb: Jiwaka
     zh: 吉瓦卡省
     pl: Jiwaka
-    ccp: "\U0001110E\U00011128\U00011124\U00011107"
+    ccp: "𑄎𑄨𑄤𑄇"
     fi: Jiwaka
     pt: Jiwaka
     et: Jiwaka provints
     bs: Jiwaka
     cy: Talaith Jiwaka
-  comments:
   type: province
 MBA:
   name: Milne Bay
   code: MBA
-  unofficial_names: Milne Bay
+  unofficial_names:
+  - Milne Bay
   geo:
     latitude: -10.4460842
     longitude: 150.7214362
@@ -552,16 +528,16 @@ MBA:
     ceb: Milne Bay Province
     lt: Milne Bėjaus provincija
     zh: 米爾恩灣省
-    ccp: "\U0001111F\U00011128\U00011123\U00011134\U0001111A\U0001112C \U0001111D\U0001112C"
+    ccp: "𑄟𑄨𑄣𑄴𑄚𑄬 𑄝𑄬"
     'no': Milne Bay
     ca: Milne Bay
     et: Milne Bay provints
-  comments:
   type: province
 MPL:
   name: Morobe
   code: MPL
-  unofficial_names: Morobe
+  unofficial_names:
+  - Morobe
   geo:
     latitude: -6.801373700000001
     longitude: 146.561647
@@ -612,16 +588,16 @@ MPL:
     ceb: Morobe Province
     lt: Morobės provincija
     zh: 莫雷贝省
-    ccp: "\U0001111F\U00011127\U00011122\U0001112E\U0001111D\U0001112C"
+    ccp: "𑄟𑄧𑄢𑄮𑄝𑄬"
     'no': Morobe provins
     ca: Morobe
     cy: Talaith Morobe
-  comments:
   type: province
 MPM:
   name: Madang
   code: MPM
-  unofficial_names: Madang
+  unofficial_names:
+  - Madang
   geo:
     latitude: -5.216667
     longitude: 145.8
@@ -673,11 +649,10 @@ MPM:
     ceb: Madang Province
     lt: Madango provincija
     zh: 馬當省
-    ccp: "\U0001111F\U0001112C\U00011113\U0001110B\U00011134"
+    ccp: "𑄟𑄬𑄓𑄋𑄴"
     'no': Madang provins
     ca: Madang
     cy: Talaith Madang
-  comments:
   type: province
 MRL:
   name: Manus
@@ -735,17 +710,17 @@ MRL:
     lt: Manuso provincija
     zh: 馬努斯省
     jv: Provinsi Manus
-    ccp: "\U0001111F\U0001111A\U0001112A\U0001110C\U00011134"
+    ccp: "𑄟𑄚𑄪𑄌𑄴"
     'no': Manus provins
     ca: Província de Manus
     cy: Talaith Manus
     et: Manusi provints
-  comments:
   type: province
 NCD:
   name: National Capital District (Port Moresby)
   code: NCD
-  unofficial_names: National Capital District (Port Moresby)
+  unofficial_names:
+  - National Capital District (Port Moresby)
   geo:
     latitude: -9.443800399999999
     longitude: 147.1802671
@@ -820,7 +795,7 @@ NCD:
     yue_Hans: 莫士比港
     jv: Port Moresby
     sq: Port Moresbi
-    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134 \U0001111F\U0001112E\U00011122\U00011134\U0001111D\U0001112D"
+    ccp: "𑄛𑄮𑄢𑄴𑄑𑄴 𑄟𑄮𑄢𑄴𑄝𑄭"
     ga: Port Moresby
     ky: Порт-Морсби
     pa: ਪੋਰਟ ਮੋਰੈਸਬੀ
@@ -835,7 +810,6 @@ NCD:
     yo_BJ: Port Moresby
     ps: پورټ مورسب
     so: Port Moresby
-  comments:
   type: district
 NIK:
   name: New Ireland
@@ -892,10 +866,9 @@ NIK:
     ceb: New Ireland Province
     lt: Naujosios Airijos provincija
     zh: 新愛爾蘭省
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011103\U00011120\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄚𑄨𑄅𑄪 𑄃𑄠𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     'no': Ny Irland provins
     ca: Província de Nova Irlanda
-  comments:
   type: province
 NPP:
   name: Northern
@@ -953,24 +926,15 @@ NPP:
     ceb: Northern Province (lalawigan sa Papua New Guinea)
     lt: Oro provincija
     zh: 北部省
-    ccp: "\U00011103\U00011127\U00011122\U0001112E"
+    ccp: "𑄃𑄧𑄢𑄮"
     'no': Oro
     ca: Província d’Oro
     cy: Talaith Oro
     he: פרובינציית אורו
-  comments:
   type: province
 NSB:
   name: Bougainville
   code: NSB
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بوغانفيل ذات الحكم الذاتي
     bg: Автономен регион Бугенвил
@@ -1015,7 +979,7 @@ NSB:
     ceb: Bougainville (lalawigan)
     lt: Bugenvilis
     zh: 布干维尔省
-    ccp: "\U0001111D\U0001112F\U00011109\U0001112C\U0001112D\U0001111A\U00011134\U0001111E\U00011128\U00011123\U0001112C"
+    ccp: "𑄝𑄯𑄉𑄬𑄭𑄚𑄴𑄞𑄨𑄣𑄬"
     'no': Bougainville
     az: Bugenvil muxtar ərazisi
     be: Аўтаномны рэгіён Бугенвіль
@@ -1027,7 +991,6 @@ NSB:
     mk: Бугенвил
     sr: Аутономна покрајина Богенвил
     sr_Latn: Autonomna pokrajina Bogenvil
-  comments:
   type: autonomous_region
 SAN:
   name: Sandaun [West Sepik]
@@ -1085,13 +1048,12 @@ SAN:
     ceb: West Sepik Province
     lt: Sandauno provincija
     zh: 桑道恩省
-    ccp: "\U00011125\U0001111A\U00011134\U00011113\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄥𑄚𑄴𑄓𑄅𑄪𑄚𑄴"
     'no': Sandaun provins
     ca: West Sepik
     cy: Talaith Sandaun
     ha: Sandaun Province
     ha_NE: Sandaun Province
-  comments:
   type: province
 SHM:
   name: Southern Highlands
@@ -1147,11 +1109,9 @@ SHM:
     ceb: Southern Highlands Province
     lt: Pietinis Kalnų regionas
     zh: 南高地省
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄦𑄭𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄥𑄴"
     'no': Sør høylands provins
     eu: Hegoaldeko Lur Garaiak
-  comments:
   type: province
 WBK:
   name: West New Britain
@@ -1208,13 +1168,11 @@ WBK:
     ceb: West New Britain Province
     lt: Rytų Naujosios Britanijos provincija
     zh: 西新不列顛省
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111A\U00011131
-      \U0001111D\U00011133\U00011122\U00011128\U00011111\U0001112C\U0001111A\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄚𑄱 𑄝𑄳𑄢𑄨𑄑𑄬𑄚𑄴"
     mk: Западна Нова Британија
     'no': Vest Nye Britiske provins
     ca: West New Britain
     cs: Západní Nová Británie
-  comments:
   type: province
 WHM:
   name: Western Highlands
@@ -1271,11 +1229,9 @@ WHM:
     ceb: Western Highlands Province
     lt: Rytų Kalniečių provincija
     zh: 西高地省
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄦𑄭𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄥𑄴"
     'no': Vest Høyland provins
     ca: Western Highlands
-  comments:
   type: province
 WPD:
   name: Western
@@ -1316,8 +1272,7 @@ WPD:
     ceb: Western Province (lalawigan sa Papua New Guinea)
     sr_Latn: Zapadna pokrajina
     zh: 西部省
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴𑄟𑄬𑄇𑄴𑄈𑄬"
     fi: Western Province
     ca: Western
-  comments:
   type: province

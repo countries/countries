@@ -2,7 +2,8 @@
 AC:
   name: Acre
   code: AC
-  unofficial_names: Acre
+  unofficial_names:
+  - Acre
   geo:
     latitude: -9.0237964
     longitude: -70.81199529999999
@@ -71,7 +72,7 @@ AC:
     sr_Latn: Akre
     yue_Hans: 阿克里州
     sq: Acre
-    ccp: "\U00011103\U0001112C\U00011107\U00011127\U00011122\U00011134"
+    ccp: "𑄃𑄬𑄇𑄧𑄢𑄴"
     ga: Acre
     yue: 阿克里州
     yo: Acre
@@ -81,12 +82,12 @@ AC:
     'no': Acre
     yo_BJ: Acre
     hy: Ակրի
-  comments:
   type: state
 AL:
   name: Alagoas
   code: AL
-  unofficial_names: Alagoas
+  unofficial_names:
+  - Alagoas
   geo:
     latitude: -9.5713058
     longitude: -36.7819505
@@ -156,7 +157,7 @@ AL:
     zh: 阿拉戈斯州
     yue_Hans: 阿拉瓜斯州
     sq: Alagoas
-    ccp: "\U00011103\U00011123\U00011109\U00011103\U0001112E\U0001110C\U00011134"
+    ccp: "𑄃𑄣𑄉𑄃𑄮𑄌𑄴"
     ga: Alagoas
     kk: Алагоас
     yue: 阿拉瓜斯州
@@ -166,12 +167,12 @@ AL:
     mk: Алагоас
     'no': Alagoas
     yo_BJ: Alagoas
-  comments:
   type: state
 AM:
   name: Amazonas
   code: AM
-  unofficial_names: Amazonas
+  unofficial_names:
+  - Amazonas
   geo:
     latitude: -3.4168427
     longitude: -65.8560646
@@ -240,7 +241,7 @@ AM:
     zh: 亚马孙州
     yue_Hans: 亚马逊州
     sq: Amazonas
-    ccp: "\U00011103\U0001111F\U0001110E\U00011127\U0001111A\U0001110C\U00011134"
+    ccp: "𑄃𑄟𑄎𑄧𑄚𑄌𑄴"
     ga: Amazonas
     yue: 亞馬遜州
     yo: Amazonas
@@ -249,19 +250,15 @@ AM:
     mk: Амазон
     'no': Amazonas
     yo_BJ: Amazonas
-  comments:
   type: state
 AP:
   name: Amapá
   code: AP
-  unofficial_names: Amapá
+  unofficial_names:
+  - Amapá
   geo:
     latitude: 2.0447397
     longitude: -50.78742219999999
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Amapá
     af: Amapá
@@ -322,7 +319,7 @@ AP:
     zh: 阿马帕
     yue_Hans: 阿马帕州
     sq: Amapá
-    ccp: "\U00011103\U0001111F\U00011134\U0001111B"
+    ccp: "𑄃𑄟𑄴𑄛"
     ga: Amapá
     kk: Амапа
     yue: 阿馬帕州
@@ -333,12 +330,12 @@ AP:
     yo_BJ: Amapá
     ml: അമാപാ
     uz: Amapá
-  comments:
   type: state
 BA:
   name: Bahia
   code: BA
-  unofficial_names: Bahia
+  unofficial_names:
+  - Bahia
   geo:
     latitude: -12.579738
     longitude: -41.7007272
@@ -407,7 +404,7 @@ BA:
     zh: 巴伊亚
     yue_Hans: 巴伊亚州
     sq: Bahia
-    ccp: "\U0001111D\U00011126\U00011128\U00011120"
+    ccp: "𑄝𑄦𑄨𑄠"
     ga: Bahia
     pa: ਬਾਹੀਆ
     kk: Баия
@@ -420,12 +417,12 @@ BA:
     yo_BJ: Bahia
     ml: ബാഹിയ
     ps: باهيا
-  comments:
   type: state
 CE:
   name: Ceará
   code: CE
-  unofficial_names: Ceará
+  unofficial_names:
+  - Ceará
   geo:
     latitude: -5.4983977
     longitude: -39.3206241
@@ -492,7 +489,7 @@ CE:
     sr_Latn: Seara
     zh: 塞阿腊
     yue_Hans: 塞阿拉州
-    ccp: "\U00011125\U00011128\U00011120\U0001112C\U00011122"
+    ccp: "𑄥𑄨𑄠𑄬𑄢"
     ga: Ceará
     kk: Сеара
     yue: 塞阿拉州
@@ -503,12 +500,12 @@ CE:
     'no': Ceará
     yo_BJ: Ceará
     hy: Սեարա
-  comments:
   type: state
 DF:
   name: Distrito Federal
   code: DF
-  unofficial_names: Distrito Federal
+  unofficial_names:
+  - Distrito Federal
   geo:
     latitude: -15.826691
     longitude: -47.92182039999999
@@ -574,7 +571,7 @@ DF:
     zh: 聯邦區
     yue_Hans: 联邦区
     sq: Distrikti Federal i Brazilit
-    ccp: "\U0001111C\U0001112C\U00011113\U0001112C\U00011122\U00011123\U00011134 \U0001110E\U0001112C\U00011123"
+    ccp: "𑄜𑄬𑄓𑄬𑄢𑄣𑄴 𑄎𑄬𑄣"
     yue: 聯邦區
     yo: Brazilian Federal District
     uz: Federal okrug
@@ -583,12 +580,12 @@ DF:
     yo_BJ: Brazilian Federal District
     is: Distrito Federal
     sw: Distrito Federal (Brazil)
-  comments:
   type: federal_district
 ES:
   name: Espírito Santo
   code: ES
-  unofficial_names: Espírito Santo
+  unofficial_names:
+  - Espírito Santo
   geo:
     latitude: -19.1834229
     longitude: -40.3088626
@@ -654,8 +651,7 @@ ES:
     sr_Latn: Espirito Santo
     zh: 圣埃斯皮里图州
     yue_Hans: 圣埃斯皮里图州
-    ccp: "\U00011103\U0001112C\U0001110C\U00011134\U0001111B\U00011128\U00011122\U00011128\U00011111\U0001112E
-      \U00011125\U0001111A\U00011134\U00011111\U0001112E"
+    ccp: "𑄃𑄬𑄌𑄴𑄛𑄨𑄢𑄨𑄑𑄮 𑄥𑄚𑄴𑄑𑄮"
     ga: Espírito Santo
     hy: Էսպիրիտո Սանտո
     yue: 聖埃斯皮里圖州
@@ -665,12 +661,12 @@ ES:
     mk: Еспирито Санто
     'no': Espírito Santo
     yo_BJ: Espírito Santo
-  comments:
   type: state
 GO:
   name: Goiás
   code: GO
-  unofficial_names: Goiás
+  unofficial_names:
+  - Goiás
   geo:
     latitude: -15.93397
     longitude: -50.1403832
@@ -737,7 +733,7 @@ GO:
     sr_Latn: Gojas
     zh: 戈亚斯
     yue_Hans: 戈亚斯州
-    ccp: "\U00011109\U0001112E\U00011120\U0001110C\U00011134"
+    ccp: "𑄉𑄮𑄠𑄌𑄴"
     ga: Goiás
     yue: 戈亞斯州
     yo: Goiás
@@ -746,12 +742,12 @@ GO:
     mk: Гојас
     'no': Goiás
     yo_BJ: Goiás
-  comments:
   type: state
 MA:
   name: Maranhão
   code: MA
-  unofficial_names: Maranhão
+  unofficial_names:
+  - Maranhão
   geo:
     latitude: -4.9609498
     longitude: -45.2744159
@@ -818,7 +814,7 @@ MA:
     sr_Latn: Maranjao
     zh: 马拉尼昂州
     yue_Hans: 马拉尼昂州
-    ccp: "\U0001111F\U00011122\U0001111A\U00011134\U00011126\U00011103\U0001112E"
+    ccp: "𑄟𑄢𑄚𑄴𑄦𑄃𑄮"
     ga: Maranhão
     kk: Мараньян
     yue: 馬拉尼昂州
@@ -828,12 +824,12 @@ MA:
     mk: Марањао
     'no': Maranhão
     yo_BJ: Maranhão
-  comments:
   type: state
 MG:
   name: Minas Gerais
   code: MG
-  unofficial_names: Minas Gerais
+  unofficial_names:
+  - Minas Gerais
   geo:
     latitude: -18.512178
     longitude: -44.5550308
@@ -902,7 +898,7 @@ MG:
     zh: 米纳斯吉拉斯
     yue_Hans: 米纳吉拉斯州
     sq: Minas Gerais
-    ccp: "\U0001111F\U0001112D\U0001111A\U0001110C\U00011134 \U0001110E\U0001112C\U00011122\U0001112D\U0001110C\U00011134"
+    ccp: "𑄟𑄭𑄚𑄌𑄴 𑄎𑄬𑄢𑄭𑄌𑄴"
     ga: Minas Gerais
     kk: Минас-Жерайс
     yue: 米納吉拉斯州
@@ -912,12 +908,12 @@ MG:
     mk: Минас Жераис
     'no': Minas Gerais
     yo_BJ: Minas Gerais
-  comments:
   type: state
 MS:
   name: Mato Grosso do Sul
   code: MS
-  unofficial_names: Mato Grosso do Sul
+  unofficial_names:
+  - Mato Grosso do Sul
   geo:
     latitude: -20.7722295
     longitude: -54.7851531
@@ -985,8 +981,7 @@ MS:
     zh: 南马托格罗索州
     yue_Hans: 南马托格罗索州
     sq: Mato Grosso do Sul
-    ccp: "\U0001111F\U00011111\U0001112E \U00011109\U00011133\U00011122\U00011125\U0001112E
-      \U00011113\U0001112E \U00011125\U0001112A\U00011123\U00011134"
+    ccp: "𑄟𑄑𑄮 𑄉𑄳𑄢𑄥𑄮 𑄓𑄮 𑄥𑄪𑄣𑄴"
     ga: Mato Grosso do Sul
     yue: 南馬托格羅索州
     yo: Mato Grosso do Sul
@@ -995,12 +990,12 @@ MS:
     mk: Јужно Мато Гросо
     'no': Mato Grosso do Sul
     yo_BJ: Mato Grosso do Sul
-  comments:
   type: state
 MT:
   name: Mato Grosso
   code: MT
-  unofficial_names: Mato Grosso
+  unofficial_names:
+  - Mato Grosso
   geo:
     latitude: -12.6818712
     longitude: -56.921099
@@ -1067,7 +1062,7 @@ MT:
     sr_Latn: Mato Groso
     zh: 马托格罗索州
     yue_Hans: 马托格罗索州
-    ccp: "\U0001111F\U00011111\U0001112E \U00011109\U00011133\U00011122\U00011125\U0001112E"
+    ccp: "𑄟𑄑𑄮 𑄉𑄳𑄢𑄥𑄮"
     ga: Mato Grosso
     kk: Мату-Гроссу
     yue: 馬托格羅索州
@@ -1077,12 +1072,12 @@ MT:
     mk: Мато Гросо
     'no': Mato Grosso
     yo_BJ: Mato Grosso
-  comments:
   type: state
 PA:
   name: Pará
   code: PA
-  unofficial_names: Pará
+  unofficial_names:
+  - Pará
   geo:
     latitude: -1.9981271
     longitude: -54.9306152
@@ -1150,7 +1145,7 @@ PA:
     zh: 帕拉
     yue_Hans: 帕拉州
     sq: Pará
-    ccp: "\U0001111B\U00011122"
+    ccp: "𑄛𑄢"
     ga: Pará
     pa: ਪਾਰਾ
     yue: 帕拉州
@@ -1161,12 +1156,12 @@ PA:
     'no': Pará
     yo_BJ: Pará
     ml: പാര (ബ്രസീൽ)
-  comments:
   type: state
 PB:
   name: Paraíba
   code: PB
-  unofficial_names: Paraíba
+  unofficial_names:
+  - Paraíba
   geo:
     latitude: -7.239960900000001
     longitude: -36.7819505
@@ -1234,7 +1229,7 @@ PB:
     sr_Latn: Paraiba
     zh: 帕拉伊巴
     yue_Hans: 帕拉巴州
-    ccp: "\U0001111B\U00011127\U00011122\U0001112D\U0001111D"
+    ccp: "𑄛𑄧𑄢𑄭𑄝"
     ga: Paraíba
     kk: Параиба
     yue: 帕拉巴州
@@ -1244,12 +1239,12 @@ PB:
     mk: Параиба
     'no': Paraíba
     yo_BJ: Paraíba
-  comments:
   type: state
 PE:
   name: Pernambuco
   code: PE
-  unofficial_names: Pernambuco
+  unofficial_names:
+  - Pernambuco
   geo:
     latitude: -8.8137173
     longitude: -36.954107
@@ -1319,7 +1314,7 @@ PE:
     zh: 伯南布哥
     yue_Hans: 帕南布哥州
     sq: Pernambuco
-    ccp: "\U0001111B\U00011122\U00011134\U0001111A\U0001111F\U00011134\U0001111D\U0001112A\U00011107\U0001112E"
+    ccp: "𑄛𑄢𑄴𑄚𑄟𑄴𑄝𑄪𑄇𑄮"
     ga: Pernambuco
     kk: Пернамбуку
     yue: 帕南布哥州
@@ -1329,12 +1324,12 @@ PE:
     mk: Пернамбуко
     'no': Pernambuco
     yo_BJ: Pernambuco
-  comments:
   type: state
 PI:
   name: Piauí
   code: PI
-  unofficial_names: Piauí
+  unofficial_names:
+  - Piauí
   geo:
     latitude: -7.718340100000001
     longitude: -42.72892359999999
@@ -1402,7 +1397,7 @@ PI:
     sr_Latn: Pjaui
     zh: 皮奧伊州
     yue_Hans: 皮奥伊州
-    ccp: "\U0001111B\U0001112D\U00011105\U0001112A\U00011103\U00011128"
+    ccp: "𑄛𑄭𑄅𑄪𑄃𑄨"
     ga: Piauí
     kk: Пиауи
     yue: 皮奧伊州
@@ -1412,12 +1407,12 @@ PI:
     mk: Пјауи
     'no': Piauí
     yo_BJ: Piauí
-  comments:
   type: state
 PR:
   name: Paraná
   code: PR
-  unofficial_names: Paraná
+  unofficial_names:
+  - Paraná
   geo:
     latitude: -25.2520888
     longitude: -52.0215415
@@ -1485,7 +1480,7 @@ PR:
     sr_Latn: Parana
     zh: 巴拉那州
     yue_Hans: 巴拉那州
-    ccp: "\U0001111B\U00011127\U00011122\U0001111A\U00011133\U00011126"
+    ccp: "𑄛𑄧𑄢𑄚𑄳𑄦"
     ga: Paraná
     yue: 巴拉那州
     yo: Paraná
@@ -1495,12 +1490,12 @@ PR:
     'no': Paraná
     yo_BJ: Paraná
     ml: പരാന
-  comments:
   type: state
 RJ:
   name: Rio de Janeiro
   code: RJ
-  unofficial_names: Rio de Janeiro
+  unofficial_names:
+  - Rio de Janeiro
   geo:
     latitude: -22.9068467
     longitude: -43.1728965
@@ -1563,7 +1558,7 @@ RJ:
     zh: 里約熱內盧州
     yue_Hans: 里约热内卢州
     hi: रियो डि जेनेरो, प्रांत
-    ccp: "\U00011122\U00011103\U0001112E \U00011113\U00011128 \U0001110E\U0001112C\U0001111A\U0001112C\U0001112D\U00011122\U0001112E"
+    ccp: "𑄢𑄃𑄮 𑄓𑄨 𑄎𑄬𑄚𑄬𑄭𑄢𑄮"
     ga: Rio de Janeiro
     yue: 里約熱內盧州
     yo: Ìpínlẹ̀ Rio de Janeiro
@@ -1571,12 +1566,12 @@ RJ:
     bs: Rio de Janeiro
     mk: Рио де Жанеиро
     'no': Rio de Janeiro
-  comments:
   type: state
 RN:
   name: Rio Grande do Norte
   code: RN
-  unofficial_names: Rio Grande do Norte
+  unofficial_names:
+  - Rio Grande do Norte
   geo:
     latitude: -5.402580299999999
     longitude: -36.954107
@@ -1645,8 +1640,7 @@ RN:
     zh: 北里约格朗德
     yue_Hans: 北大河州
     sq: Rio Grande do Norte
-    ccp: "\U00011122\U00011103\U0001112E \U00011109\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C
-      \U00011113\U0001112E \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
+    ccp: "𑄢𑄃𑄮 𑄉𑄳𑄢𑄚𑄴𑄓𑄬 𑄓𑄮 𑄚𑄧𑄢𑄴𑄑𑄬"
     ga: Rio Grande do Norte
     yue: 北大河州
     yo: Rio Grande do Norte
@@ -1656,12 +1650,12 @@ RN:
     'no': Rio Grande do Norte
     yo_BJ: Rio Grande do Norte
     kk: Риу-Гранди-ду-Норти
-  comments:
   type: state
 RO:
   name: Rondônia
   code: RO
-  unofficial_names: Rondônia
+  unofficial_names:
+  - Rondônia
   geo:
     latitude: -11.5057341
     longitude: -63.580611
@@ -1727,7 +1721,7 @@ RO:
     sr_Latn: Rondonija
     zh: 朗多尼亚州
     yue_Hans: 朗多尼亚州
-    ccp: "\U00011122\U00011127\U0001111A\U00011133\U00011113\U00011134\U00011113\U0001112E\U0001111A\U00011128\U00011120"
+    ccp: "𑄢𑄧𑄚𑄳𑄓𑄴𑄓𑄮𑄚𑄨𑄠"
     ga: Rondônia
     hy: Ռոնդոնիա
     yue: 朗多尼亞州
@@ -1737,12 +1731,12 @@ RO:
     mk: Рондонија
     'no': Rondônia
     yo_BJ: Rondônia
-  comments:
   type: state
 RR:
   name: Roraima
   code: RR
-  unofficial_names: Roraima
+  unofficial_names:
+  - Roraima
   geo:
     latitude: 2.7375971
     longitude: -62.0750998
@@ -1810,7 +1804,7 @@ RR:
     zh: 羅賴馬州
     yue_Hans: 罗赖马州
     sq: Roraima
-    ccp: "\U00011122\U00011127\U00011122\U0001112D\U0001111F"
+    ccp: "𑄢𑄧𑄢𑄭𑄟"
     ga: Roraima
     ml: റൊറൈമ പർവ്വതം
     yue: 羅賴馬州
@@ -1821,12 +1815,12 @@ RR:
     'no': Roraima
     yo_BJ: Roraima
     hy: Ռորայմա
-  comments:
   type: state
 RS:
   name: Rio Grande do Sul
   code: RS
-  unofficial_names: Rio Grande do Sul
+  unofficial_names:
+  - Rio Grande do Sul
   geo:
     latitude: -30.0346316
     longitude: -51.2176986
@@ -1896,8 +1890,7 @@ RS:
     yue_Hans: 南大河州
     jv: BR-RS
     sq: BR-RS
-    ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011109\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C
-      \U00011113\U0001112E \U00011125\U0001112A\U00011123\U00011134"
+    ccp: "𑄢𑄨𑄃𑄮 𑄉𑄳𑄢𑄚𑄴𑄓𑄬 𑄓𑄮 𑄥𑄪𑄣𑄴"
     ga: Rio Grande do Sul
     ig: BR-RS
     so: BR-RS
@@ -1911,12 +1904,12 @@ RS:
     mk: Јужно Рио Гранде
     'no': Rio Grande do Sul
     yo_BJ: Rio Grande do Sul
-  comments:
   type: state
 SC:
   name: Santa Catarina
   code: SC
-  unofficial_names: Santa Catarina
+  unofficial_names:
+  - Santa Catarina
   geo:
     latitude: -27.2423392
     longitude: -50.2188556
@@ -1984,7 +1977,7 @@ SC:
     sr_Latn: Santa Katarina
     zh: 圣卡塔琳娜州
     yue_Hans: 圣卡塔莲娜州
-    ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011107\U00011133\U00011120\U00011111\U00011122\U00011128\U0001111A"
+    ccp: "𑄥𑄚𑄴𑄑 𑄇𑄳𑄠𑄑𑄢𑄨𑄚"
     ga: Santa Catarina
     kk: Санта Катарина
     yue: 聖卡塔蓮娜州
@@ -1994,12 +1987,12 @@ SC:
     mk: Санта Катарина
     'no': Santa Catarina
     yo_BJ: Santa Catarina
-  comments:
   type: state
 SE:
   name: Sergipe
   code: SE
-  unofficial_names: Sergipe
+  unofficial_names:
+  - Sergipe
   geo:
     latitude: -10.5740934
     longitude: -37.3856581
@@ -2067,7 +2060,7 @@ SE:
     sr_Latn: Seržipe
     zh: 塞尔希培州
     yue_Hans: 沙治比州
-    ccp: "\U00011125\U0001112C\U00011122\U00011134\U00011109\U0001112D\U0001111B\U00011134"
+    ccp: "𑄥𑄬𑄢𑄴𑄉𑄭𑄛𑄴"
     ga: Sergipe
     kk: Сержипи
     yue: 沙治比州
@@ -2077,12 +2070,12 @@ SE:
     mk: Сержипе
     'no': Sergipe
     yo_BJ: Sergipe
-  comments:
   type: state
 SP:
   name: São Paulo
   code: SP
-  unofficial_names: São Paulo
+  unofficial_names:
+  - São Paulo
   geo:
     latitude: -23.5505199
     longitude: -46.63330939999999
@@ -2153,7 +2146,7 @@ SP:
     zh: 圣保罗州
     yue_Hans: 圣保罗州
     sq: Sao Paulo
-    ccp: "\U00011125\U00011103\U0001112E \U0001111B\U00011105\U0001112A\U00011123\U0001112E"
+    ccp: "𑄥𑄃𑄮 𑄛𑄅𑄪𑄣𑄮"
     ga: São Paulo
     so: São Paulo
     yue: 聖保羅州
@@ -2164,12 +2157,12 @@ SP:
     'no': São Paulo
     yo_BJ: Sao Paulo
     my: ဆောပိုလိုမြို့
-  comments:
   type: state
 TO:
   name: Tocantins
   code: TO
-  unofficial_names: Tocantins
+  unofficial_names:
+  - Tocantins
   geo:
     latitude: -10.17528
     longitude: -48.2982474
@@ -2235,7 +2228,7 @@ TO:
     sr_Latn: Tokantins
     zh: 托坎廷斯
     yue_Hans: 托坎廷斯州
-    ccp: "\U00011111\U00011127\U00011107\U00011133\U00011120\U0001111A\U00011134\U00011111\U00011128\U0001111A\U00011134"
+    ccp: "𑄑𑄧𑄇𑄳𑄠𑄚𑄴𑄑𑄨𑄚𑄴"
     ga: Tocantins
     kk: Токантинс
     yue: 托坎廷斯州
@@ -2246,5 +2239,4 @@ TO:
     'no': Tocantins
     yo_BJ: Tocantins
     hy: Տոկանտինս
-  comments:
   type: state

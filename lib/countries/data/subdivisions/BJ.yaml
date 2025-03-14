@@ -53,7 +53,7 @@ AK:
     zh: 阿塔科拉省
     lv: Atakoras departaments
     ceb: Atakora Department
-    ccp: "\U00011103\U00011111\U00011107\U0001112E\U00011122"
+    ccp: "𑄃𑄑𑄇𑄮𑄢"
     az: Ataqora departamenti
     yo: Apá Atakora
     'no': Atakora
@@ -61,12 +61,12 @@ AK:
     fa: ناحیه آتاکورا
     he: אטאקורה
     sw: Atakora
-  comments:
   type: departments
 AL:
   name: Alibori
   code: AL
-  unofficial_names: Alibori
+  unofficial_names:
+  - Alibori
   geo:
     latitude: 10.9681093
     longitude: 2.7779813
@@ -116,7 +116,7 @@ AL:
     lv: Alibori departaments
     ceb: Alibori (departamento)
     zh: 阿黎博里省
-    ccp: "\U00011103\U00011123\U00011128\U0001111D\U00011127\U00011122\U00011128"
+    ccp: "𑄃𑄣𑄨𑄝𑄧𑄢𑄨"
     uk: Регіон Аліборі
     az: Alibori departamenti
     yo: Apá Alibori
@@ -124,12 +124,12 @@ AL:
     yo_BJ: Apá Alibori
     he: אליבורי
     sw: Alibori
-  comments:
   type: departments
 AQ:
   name: Atlantique
   code: AQ
-  unofficial_names: Atlantique
+  unofficial_names:
+  - Atlantique
   geo:
     latitude: 6.6588391
     longitude: 2.2236667
@@ -179,19 +179,19 @@ AQ:
     lv: Atlantikas departaments
     ceb: Atlantique Department
     zh: 大西洋省
-    ccp: "\U00011103\U00011116\U00011134\U00011123\U0001111A\U00011134\U00011111\U00011128\U00011107\U00011134"
+    ccp: "𑄃𑄖𑄴𑄣𑄚𑄴𑄑𑄨𑄇𑄴"
     uk: Атлантичний Регіон
     az: Atlantiq departamenti
     yo: Apá Atlantique
     'no': Atlantique
     yo_BJ: Apá Atlantique
     sw: Atlantique (Benin)
-  comments:
   type: departments
 BO:
   name: Borgou
   code: BO
-  unofficial_names: Borgou
+  unofficial_names:
+  - Borgou
   geo:
     latitude: 9.5340864
     longitude: 2.7779813
@@ -242,18 +242,18 @@ BO:
     lv: Borgu departaments
     ceb: Borgou Department
     zh: 博爾古省
-    ccp: "\U0001111D\U00011127\U00011122\U00011134\U00011109\U0001112F"
+    ccp: "𑄝𑄧𑄢𑄴𑄉𑄯"
     az: Borqu departamenti
     yo: Apá Borgou
     'no': Borgou
     yo_BJ: Apá Borgou
     sw: Borgou
-  comments:
   type: departments
 CO:
   name: Collines
   code: CO
-  unofficial_names: Collines
+  unofficial_names:
+  - Collines
   geo:
     latitude: 8.3022297
     longitude: 2.302446
@@ -304,18 +304,18 @@ CO:
     lv: Kolinzas departaments
     ceb: Collines Department
     zh: 丘陵省
-    ccp: "\U00011107\U00011127\U00011123\U00011128\U0001111A\U00011133\U0001110E\U00011134"
+    ccp: "𑄇𑄧𑄣𑄨𑄚𑄳𑄎𑄴"
     az: Kollins departamenti
     yo: Apá Collines
     'no': Collines
     yo_BJ: Apá Collines
     sw: Collines (Benin)
-  comments:
   type: departments
 DO:
   name: Donga
   code: DO
-  unofficial_names: Donga
+  unofficial_names:
+  - Donga
   geo:
     latitude: 9.7191867
     longitude: 1.6760691
@@ -365,14 +365,13 @@ DO:
     lv: Dongas departaments
     ceb: Donga (departamento)
     zh: 峽谷省
-    ccp: "\U00011113\U00011127\U00011101\U00011109"
+    ccp: "𑄓𑄧𑄁𑄉"
     uk: Регіон Донга
     az: Donqa departamenti
     yo: Apá Donga
     'no': Donga
     yo_BJ: Apá Donga
     sw: Donga
-  comments:
   type: departments
 KO:
   name: Kouffo
@@ -427,7 +426,7 @@ KO:
     lv: Kufo departaments
     ceb: Kouffo Department
     zh: 庫福省
-    ccp: "\U00011107\U0001112F\U0001111C\U0001112E"
+    ccp: "𑄇𑄯𑄜𑄮"
     uk: Муніципалітет Куфо
     az: Kuffo departamenti
     yo: Apá Kouffo
@@ -435,12 +434,12 @@ KO:
     yo_BJ: Apá Kouffo
     eu: Kouffo
     sw: Couffo
-  comments:
   type: departments
 LI:
   name: Littoral
   code: LI
-  unofficial_names: Littoral
+  unofficial_names:
+  - Littoral
   geo:
     latitude: 6.3806973
     longitude: 2.4406387
@@ -489,7 +488,7 @@ LI:
     lv: Litorālais departaments
     ceb: Littoral
     zh: 濱海省
-    ccp: "\U00011123\U00011128\U00011111\U00011133\U00011126\U00011127\U00011122\U00011123\U00011134"
+    ccp: "𑄣𑄨𑄑𑄳𑄦𑄧𑄢𑄣𑄴"
     uk: Регіон Літораль (Береговий Регіон)
     az: Litoral departamenti
     yo: Apá Littoral
@@ -497,12 +496,12 @@ LI:
     yo_BJ: Apá Littoral
     eu: Littoral
     sw: Mkoa wa Pwani (Benin)
-  comments:
   type: departments
 MO:
   name: Mono
   code: MO
-  unofficial_names: Mono
+  unofficial_names:
+  - Mono
   geo:
     latitude: 6.6607182
     longitude: 1.7538817
@@ -551,7 +550,7 @@ MO:
     lv: Mono departaments
     ceb: Mono
     zh: 莫諾省
-    ccp: "\U0001111F\U00011127\U0001111A\U0001112E"
+    ccp: "𑄟𑄧𑄚𑄮"
     uk: Регіон Моно
     az: Mono departamenti
     yo: Apá Mono
@@ -560,12 +559,12 @@ MO:
     eu: Mono
     he: מחוז מונו
     sw: Mono (Benin)
-  comments:
   type: departments
 OU:
   name: Ouémé
   code: OU
-  unofficial_names: Ouémé
+  unofficial_names:
+  - Ouémé
   geo:
     latitude: 6.6148152
     longitude: 2.4999918
@@ -614,7 +613,7 @@ OU:
     lv: Uemes departaments
     ceb: Département de l’Ouémé
     zh: 韋梅省
-    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001111F\U0001112C"
+    ccp: "𑄃𑄮𑄠𑄬𑄟𑄬"
     uk: Регіон Веме
     az: Veme departamenti
     yo: Apá Ouémé
@@ -622,12 +621,12 @@ OU:
     yo_BJ: Apá Ouémé
     eu: Ouémé
     sw: Ouémé
-  comments:
   type: departments
 PL:
   name: Plateau
   code: PL
-  unofficial_names: Plateau
+  unofficial_names:
+  - Plateau
   geo:
     latitude: 7.3445141
     longitude: 2.539603
@@ -676,7 +675,7 @@ PL:
     lv: Plato departaments
     ceb: Plateau Department
     zh: 高原省
-    ccp: "\U0001111B\U00011133\U00011123\U00011127\U00011111\U0001112E"
+    ccp: "𑄛𑄳𑄣𑄧𑄑𑄮"
     uk: Регіон Плато
     az: Plato departamenti
     yo: Apá Plateau
@@ -684,12 +683,12 @@ PL:
     yo_BJ: Apá Plateau
     eu: Plateau
     sw: Plateau (Benin)
-  comments:
   type: departments
 ZO:
   name: Zou
   code: ZO
-  unofficial_names: Zou
+  unofficial_names:
+  - Zou
   geo:
     latitude: 7.346926799999999
     longitude: 2.0665197
@@ -738,7 +737,7 @@ ZO:
     lv: Zu departaments
     ceb: Zou Department
     zh: 祖省
-    ccp: "\U0001110E\U0001112F"
+    ccp: "𑄎𑄯"
     he: מחוז זאו
     uk: Регіон Зу
     az: Zu departamenti
@@ -748,5 +747,4 @@ ZO:
     yo_BJ: Apá Zou
     eu: Zou
     sw: Zou
-  comments:
   type: departments

@@ -8,10 +8,6 @@
   geo:
     latitude: 44
     longitude: 143
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Hokkaidō
     ja: 北海道
@@ -76,16 +72,16 @@
     sr_Latn: Hokaido
     yue_Hans: 北海道
     jv: Hokkaido
-    ccp: "\U00011126\U00011127\U00011107\U00011134\U00011107\U0001112D\U00011113\U0001112E"
+    ccp: "𑄦𑄧𑄇𑄴𑄇𑄭𑄓𑄮"
     yue: 北海道
     'no': Hokkaido
     ga: Maoracht Hokkaido
-  comments:
   type: prefecture
 '02':
   name: Aomori
   code: '02'
-  unofficial_names: Aomori
+  unofficial_names:
+  - Aomori
   geo:
     latitude: 40.822072
     longitude: 140.7473647
@@ -154,7 +150,7 @@
     sr_Latn: Aomori
     yue_Hans: 青森县
     jv: Prefektur Aomori
-    ccp: "\U00011103\U0001111F\U0001112E\U00011122\U00011128"
+    ccp: "𑄃𑄟𑄮𑄢𑄨"
     ga: Maoracht Aomori
     yue: 青森縣
     my: အအိုမိုရိခရိုင်
@@ -162,12 +158,12 @@
     mk: Аомори
     'no': Aomori
     km: ខេត្តអាអូម៉ូរី
-  comments:
   type: prefecture
 '03':
   name: Iwate
   code: '03'
-  unofficial_names: Iwate
+  unofficial_names:
+  - Iwate
   geo:
     latitude: 39.7036194
     longitude: 141.1526839
@@ -237,17 +233,17 @@
     sr_Latn: Ivate
     yue_Hans: 岩手县
     jv: Prefektur Iwate
-    ccp: "\U00011103\U0001112D\U00011103\U0001112E\U00011120\U00011116\U00011134"
+    ccp: "𑄃𑄭𑄃𑄮𑄠𑄖𑄴"
     ga: Maoracht Iwate
     yue: 岩手縣
     mk: Ивате
     'no': Iwate
-  comments:
   type: prefecture
 '04':
   name: Miyagi
   code: '04'
-  unofficial_names: Miyagi
+  unofficial_names:
+  - Miyagi
   geo:
     latitude: 38.2688373
     longitude: 140.8721
@@ -315,7 +311,7 @@
     ceb: Miyagi-ken
     sr_Latn: Mijagi
     yue_Hans: 宫城县
-    ccp: "\U0001111F\U00011128\U00011120\U00011109\U00011128"
+    ccp: "𑄟𑄨𑄠𑄉𑄨"
     ga: Maoracht Miyagi
     yue: 宮城縣
     be: прэфектура Міягі
@@ -323,12 +319,12 @@
     'no': Miyagi
     km: ខេត្តមីយ៉ាហ្គិ
     uz: Miyagi prefekturasi
-  comments:
   type: prefecture
 '05':
   name: Akita
   code: '05'
-  unofficial_names: Akita
+  unofficial_names:
+  - Akita
   geo:
     latitude: 39.7200079
     longitude: 140.1025642
@@ -398,19 +394,19 @@
     sr_Latn: Akita
     yue_Hans: 秋田县
     jv: Prefektur Akita
-    ccp: "\U00011103\U00011107\U00011128\U00011111"
+    ccp: "𑄃𑄇𑄨𑄑"
     ga: Maoracht Akita
     pa: ਅਕਿਤਾ ਪ੍ਰੀਫੇਕਚਰ
     yue: 秋田縣
     be: Акіта
     mk: Акита
     'no': Akita
-  comments:
   type: prefecture
 '06':
   name: Yamagata
   code: '06'
-  unofficial_names: Yamagata
+  unofficial_names:
+  - Yamagata
   geo:
     latitude: 38.2554388
     longitude: 140.3396017
@@ -478,13 +474,12 @@
     ceb: Yamagata-ken
     sr_Latn: Jamagata
     yue_Hans: 山形县
-    ccp: "\U00011103\U00011128\U00011120\U0001111F\U00011109\U00011111"
+    ccp: "𑄃𑄨𑄠𑄟𑄉𑄑"
     ga: Maoracht Yamagata
     yue: 山形縣
     mk: Јамагата
     'no': Yamagata
     sl: Jamagata
-  comments:
   type: prefecture
 '07':
   name: Fukushima
@@ -561,18 +556,18 @@
     sr_Latn: Fukušima
     yue_Hans: 福岛县
     jv: Prefektur Fukushima
-    ccp: "\U0001111C\U0001112A\U00011107\U0001112A\U00011125\U00011128\U0001111F"
+    ccp: "𑄜𑄪𑄇𑄪𑄥𑄨𑄟"
     ga: Maoracht Fukushima
     yue: 福島縣
     mk: Фукушима
     'no': Fukushima
     km: ខេត្តហ្វូគូស៊ីម៉ា
-  comments:
   type: prefecture
 '08':
   name: Ibaraki
   code: '08'
-  unofficial_names: Ibaraki
+  unofficial_names:
+  - Ibaraki
   geo:
     latitude: 36.3418112
     longitude: 140.4467935
@@ -642,12 +637,11 @@
     sr_Latn: Ibaraki
     yue_Hans: 茨城县
     jv: Prefektur Ibaraki
-    ccp: "\U00011103\U0001112D\U0001111D\U00011122\U00011107\U00011128"
+    ccp: "𑄃𑄭𑄝𑄢𑄇𑄨"
     ga: Maoracht Ibaraki
     yue: 茨城縣
     mk: Ибараки
     'no': Ibaraki
-  comments:
   type: prefecture
 '09':
   name: Tochigi
@@ -720,18 +714,18 @@
     ceb: Tochigi-ken
     sr_Latn: Točigi
     yue_Hans: 栃木县
-    ccp: "\U00011111\U0001112E\U0001110C\U00011128\U00011109\U00011128"
+    ccp: "𑄑𑄮𑄌𑄨𑄉𑄨"
     ga: Maoracht Tochigi
     yue: 栃木縣
     mk: Точиги
     'no': Tochigi
     ka: ტოტიგის პრეფექტურა
-  comments:
   type: prefecture
 '10':
   name: Gunma
   code: '10'
-  unofficial_names: Gunma
+  unofficial_names:
+  - Gunma
   geo:
     latitude: 36.3906675
     longitude: 139.0604061
@@ -800,17 +794,17 @@
     sr_Latn: Gunma
     yue_Hans: 群马县
     jv: Prefektur Gunma
-    ccp: "\U00011109\U0001112A\U0001111A\U00011134\U0001111F"
+    ccp: "𑄉𑄪𑄚𑄴𑄟"
     ga: Maoracht Gunma
     yue: 群馬縣
     mk: Гунма
     'no': Gunma
-  comments:
   type: prefecture
 '11':
   name: Saitama
   code: '11'
-  unofficial_names: Saitama
+  unofficial_names:
+  - Saitama
   geo:
     latitude: 35.8617292
     longitude: 139.6454822
@@ -879,14 +873,13 @@
     ceb: Saitama-ken
     sr_Latn: Saitama
     yue_Hans: 埼玉县
-    ccp: "\U00011125\U0001112D\U00011111\U00011127\U0001111F"
+    ccp: "𑄥𑄭𑄑𑄧𑄟"
     ga: Maoracht Saitama
     yue: 埼玉縣
     uz: Saitama
     mk: Сајтама
     'no': Saitama
     ka: საიტამის პრეფექტურა
-  comments:
   type: prefecture
 '12':
   name: Chiba
@@ -963,12 +956,11 @@
     sr_Latn: Čiba
     yue_Hans: 千叶县
     jv: Prefektur Chiba
-    ccp: "\U0001110C\U00011128\U0001111D"
+    ccp: "𑄌𑄨𑄝"
     ga: Maoracht Chiba
     yue: 千葉縣
     mk: Чиба
     'no': Chiba
-  comments:
   type: prefecture
 '13':
   name: Tokyo
@@ -1057,7 +1049,7 @@
     yue_Hans: 东京都
     jv: Tokyo
     sq: Tokjo
-    ccp: "\U00011111\U0001112E\U00011107\U00011128\U00011103\U0001112E"
+    ccp: "𑄑𑄮𑄇𑄨𑄃𑄮"
     ga: Tóiceo
     ky: Токио
     ha: Tokyo
@@ -1074,12 +1066,12 @@
     'no': Tokyo
     yo_BJ: Tokyo
     sd: ٽوڪيو
-  comments:
   type: prefecture
 '14':
   name: Kanagawa
   code: '14'
-  unofficial_names: Kanagawa
+  unofficial_names:
+  - Kanagawa
   geo:
     latitude: 35.4769011
     longitude: 139.6294307
@@ -1150,17 +1142,17 @@
     sr_Latn: Kanagava
     yue_Hans: 神奈川县
     sq: Kanagawa
-    ccp: "\U00011107\U0001111A\U00011134\U00011109\U00011103\U0001112E\U00011120"
+    ccp: "𑄇𑄚𑄴𑄉𑄃𑄮𑄠"
     ga: Maoracht Kanagawa
     yue: 神奈川縣
     mk: Канагава
     'no': Kanagawa
-  comments:
   type: prefecture
 '15':
   name: Niigata
   code: '15'
-  unofficial_names: Niigata
+  unofficial_names:
+  - Niigata
   geo:
     latitude: 37.9161924
     longitude: 139.0364126
@@ -1228,19 +1220,19 @@
     sr_Latn: Niigata
     yue_Hans: 新潟县
     jv: Prefektur Niigata
-    ccp: "\U0001111A\U00011129\U00011109\U00011116"
+    ccp: "𑄚𑄩𑄉𑄖"
     ga: Maoracht Niigata
     yue: 新潟縣
     mk: Ниигата
     'no': Niigata
     ka: ნიიგატის პრეფექტურა
     sl: prefektura Nigata
-  comments:
   type: prefecture
 '16':
   name: Toyama
   code: '16'
-  unofficial_names: Toyama
+  unofficial_names:
+  - Toyama
   geo:
     latitude: 36.6959518
     longitude: 137.2136768
@@ -1307,13 +1299,12 @@
     ceb: Toyama-ken
     sr_Latn: Tojama
     yue_Hans: 富山县
-    ccp: "\U00011111\U0001112E\U00011120\U0001111F"
+    ccp: "𑄑𑄮𑄠𑄟"
     ga: Maoracht Toyama
     yue: 富山縣
     be: прэфектура Таяма
     mk: Тојама
     'no': Toyama
-  comments:
   type: prefecture
 '17':
   name: Ishikawa
@@ -1387,12 +1378,11 @@
     ceb: Ishikawa-ken
     sr_Latn: Išikava
     yue_Hans: 石川县
-    ccp: "\U00011103\U00011128\U00011125\U00011128\U00011107\U00011124"
+    ccp: "𑄃𑄨𑄥𑄨𑄇𑄤"
     ga: Maoracht Ishikawa
     yue: 石川縣
     mk: Ишикава
     'no': Ishikawa
-  comments:
   type: prefecture
 '18':
   name: Fukui
@@ -1464,7 +1454,7 @@
     sr_Latn: Fukuj
     yue_Hans: 福井县
     jv: Prefektur Fukui
-    ccp: "\U0001111C\U0001112A\U00011107\U0001112D"
+    ccp: "𑄜𑄪𑄇𑄭"
     ga: Maoracht Fukui
     yue: 福井縣
     mk: Фукуи
@@ -1472,7 +1462,6 @@
     be: Фукуі (прэфектура)
     ka: ფუკუის პრეფექტურა
     sl: prefektura Fukui
-  comments:
   type: prefecture
 '19':
   name: Yamanashi
@@ -1546,18 +1535,18 @@
     ceb: Yamanashi-ken
     sr_Latn: Jamanaši
     yue_Hans: 山梨县
-    ccp: "\U00011103\U00011128\U00011120\U0001111F\U0001111A\U00011134\U00011125\U00011128"
+    ccp: "𑄃𑄨𑄠𑄟𑄚𑄴𑄥𑄨"
     ga: Maoracht Yamanashi
     yue: 山梨縣
     be: прэфектура Яманасі
     mk: Јаманаши
     'no': Yamanashi
-  comments:
   type: prefecture
 '20':
   name: Nagano
   code: '20'
-  unofficial_names: Nagano
+  unofficial_names:
+  - Nagano
   geo:
     latitude: 36.6485496
     longitude: 138.1942432
@@ -1624,13 +1613,12 @@
     ceb: Nagano-ken
     sr_Latn: Nagano
     yue_Hans: 长野县
-    ccp: "\U0001111A\U00011109\U0001111A\U0001112E"
+    ccp: "𑄚𑄉𑄚𑄮"
     ga: Maoracht Nagano
     yue: 長野縣
     be: прэфектура Нагана
     mk: Нагано
     'no': Nagano
-  comments:
   type: prefecture
 '21':
   name: Gifu
@@ -1703,14 +1691,13 @@
     sr_Latn: Gifu
     yue_Hans: 岐阜县
     jv: Prefektur Gifu
-    ccp: "\U0001110E\U00011128\U0001111C\U0001112A"
+    ccp: "𑄎𑄨𑄜𑄪"
     ga: Maoracht Gifu
     yue: 岐阜縣
     mk: Гифу
     'no': Gifu
     ka: გიფუს პრეფექტურა
     sl: prefektura Gifu
-  comments:
   type: prefecture
 '22':
   name: Shizuoka
@@ -1785,13 +1772,12 @@
     sr_Latn: Šizuoka
     yue_Hans: 静冈县
     jv: Prefektur Shizuoka
-    ccp: "\U00011125\U00011128\U0001110E\U0001112A\U00011124\U00011107"
+    ccp: "𑄥𑄨𑄎𑄪𑄤𑄇"
     ga: Maoracht Shizuoka
     yue: 靜岡縣
     mk: Шизуока
     'no': Shizuoka
     ka: სიძუოკის პრეფექტურა
-  comments:
   type: prefecture
 '23':
   name: Aichi
@@ -1869,19 +1855,19 @@
     sr_Latn: Aiči
     yue_Hans: 爱知县
     jv: Prefektur Aichi
-    ccp: "\U00011103\U0001112D\U00011125\U00011128"
+    ccp: "𑄃𑄭𑄥𑄨"
     ga: Maoracht Aichi
     pa: ਆਇਚੀ ਪ੍ਰੀਫ਼ੈਕਚਰ
     yue: 愛知縣
     mk: Ајчи
     'no': Aichi
     or: ଆଇଚି ରାଜ୍ଯ
-  comments:
   type: prefecture
 '24':
   name: Mie
   code: '24'
-  unofficial_names: Mie
+  unofficial_names:
+  - Mie
   geo:
     latitude: 34.7302829
     longitude: 136.5085883
@@ -1947,7 +1933,7 @@
     ceb: Mie-ken
     sr_Latn: Mije
     yue_Hans: 三重县
-    ccp: "\U0001111F\U0001112D\U00011120\U0001112C"
+    ccp: "𑄟𑄭𑄠𑄬"
     ga: Maoracht Mie
     hy: Միե
     yue: 三重縣
@@ -1956,7 +1942,6 @@
     'no': Mie
     gu: મિએ પ્રીફેકચર
     ka: მიეს პრეფექტურა
-  comments:
   type: prefecture
 '25':
   name: Shiga
@@ -2031,14 +2016,13 @@
     sr_Latn: Šiga
     yue_Hans: 滋贺县
     jv: Prefektur Shiga
-    ccp: "\U00011125\U00011128\U00011109"
+    ccp: "𑄥𑄨𑄉"
     ga: Maoracht Shiga
     yue: 滋賀縣
     mk: Шига
     'no': Shiga
     ka: სიგის პრეფექტურა
     my: ရှိဂါ့စီရင်စု
-  comments:
   type: prefecture
 '26':
   name: Kyoto
@@ -2111,13 +2095,12 @@
     ceb: Kyōto-fu
     sr_Latn: Kjoto
     yue_Hans: 京都府
-    ccp: "\U00011107\U0001112D\U00011120\U00011128\U00011111\U0001112E"
+    ccp: "𑄇𑄭𑄠𑄨𑄑𑄮"
     ga: Maoracht Kyoto
     yue: 京都府
     mk: Кјото
     'no': Kyoto
     ka: კიოტოს პრეფექტურა
-  comments:
   type: prefecture
 '27':
   name: Osaka
@@ -2191,14 +2174,13 @@
     sr_Latn: Osaka
     yue_Hans: 大坂府
     jv: Prefektur Osaka
-    ccp: "\U00011103\U0001112E\U00011125\U00011107"
+    ccp: "𑄃𑄮𑄥𑄇"
     ga: Maoracht Osaka
     hy: Օսակայի պրեֆեկտուրա
     yue: 大阪府
     mk: Осака
     'no': Osaka
     ka: ოსაკის პრეფექტურა
-  comments:
   type: prefecture
 '28':
   name: Hyogo
@@ -2272,18 +2254,18 @@
     sr_Latn: Hjogo
     yue_Hans: 兵库县
     jv: Prefektur Hyogo
-    ccp: "\U00011126\U0001112D\U00011103\U0001112E\U00011109\U0001112E"
+    ccp: "𑄦𑄭𑄃𑄮𑄉𑄮"
     ga: Maoracht Hyōgo
     yue: 兵庫縣
     mk: Хјого
     'no': Hyōgo
     ka: ჰიოგოს პრეფექტურა
-  comments:
   type: prefecture
 '29':
   name: Nara
   code: '29'
-  unofficial_names: Nara
+  unofficial_names:
+  - Nara
   geo:
     latitude: 34.6850869
     longitude: 135.8050002
@@ -2351,19 +2333,19 @@
     sr_Latn: Nara
     yue_Hans: 奈良县
     jv: Prefektur Nara
-    ccp: "\U0001111A\U00011122"
+    ccp: "𑄚𑄢"
     ga: Maoracht Nara
     yue: 奈良縣
     be: Нара
     mk: Нара
     'no': Nara
     hy: Նարա պրեֆեկտուրա
-  comments:
   type: prefecture
 '30':
   name: Wakayama
   code: '30'
-  unofficial_names: Wakayama
+  unofficial_names:
+  - Wakayama
   geo:
     latitude: 34.2305113
     longitude: 135.1708083
@@ -2431,19 +2413,19 @@
     sr_Latn: Vakajama
     yue_Hans: 和歌山县
     jv: Prefektur Wakayama
-    ccp: "\U00011124\U00011107\U0001112C\U00011120\U0001111F"
+    ccp: "𑄤𑄇𑄬𑄠𑄟"
     ga: Maoracht Wakayama
     yue: 和歌山縣
     be: прэфектура Вакаяма
     mk: Вакајама
     'no': Wakayama
     ka: ვაკაიამის პრეფექტურა
-  comments:
   type: prefecture
 '31':
   name: Tottori
   code: '31'
-  unofficial_names: Tottori
+  unofficial_names:
+  - Tottori
   geo:
     latitude: 35.5011326
     longitude: 134.2350914
@@ -2508,7 +2490,7 @@
     sr_Latn: Totori
     yue_Hans: 鸟取县
     jv: Prefektur Tottori
-    ccp: "\U00011111\U0001112E\U00011116\U00011134\U00011116\U0001112E\U00011122\U00011128"
+    ccp: "𑄑𑄮𑄖𑄴𑄖𑄮𑄢𑄨"
     ga: Maoracht Tottori
     yue: 鳥取縣
     be: прэфектура Таторы
@@ -2516,7 +2498,6 @@
     'no': Tottori
     hy: Տոթթորի
     ka: ტოტორის პრეფექტურა
-  comments:
   type: prefecture
 '32':
   name: Shimane
@@ -2589,19 +2570,19 @@
     ceb: Shimane-ken
     sr_Latn: Šimane
     yue_Hans: 岛根县
-    ccp: "\U00011125\U00011128\U0001111F\U0001111A\U0001112C"
+    ccp: "𑄥𑄨𑄟𑄚𑄬"
     ga: Maoracht Shimane
     yue: 島根縣
     be: прэфектура Сіманэ
     mk: Шимане
     'no': Shimane
     ka: სიმანეს პრეფექტურა
-  comments:
   type: prefecture
 '33':
   name: Okayama
   code: '33'
-  unofficial_names: Okayama
+  unofficial_names:
+  - Okayama
   geo:
     latitude: 34.6551456
     longitude: 133.9195019
@@ -2667,7 +2648,7 @@
     sr_Latn: Okajama
     yue_Hans: 冈山县
     jv: Prefektur Okayama
-    ccp: "\U00011103\U0001112E\U00011107\U0001112C\U00011120\U0001111F"
+    ccp: "𑄃𑄮𑄇𑄬𑄠𑄟"
     ga: Maoracht Okayama
     yue: 岡山縣
     be: прэфектура Акаяма
@@ -2675,7 +2656,6 @@
     'no': Okayama
     ka: ოკაიამის პრეფექტურა
     sl: Okajama
-  comments:
   type: prefecture
 '34':
   name: Hiroshima
@@ -2750,12 +2730,11 @@
     ceb: Hiroshima-ken
     sr_Latn: Hirošima
     yue_Hans: 广岛县
-    ccp: "\U00011126\U00011128\U00011122\U0001112E\U00011125\U00011128\U0001111F"
+    ccp: "𑄦𑄨𑄢𑄮𑄥𑄨𑄟"
     ga: Maoracht Hiroshima
     yue: 廣島縣
     mk: Хирошима
     'no': Hiroshima
-  comments:
   type: prefecture
 '35':
   name: Yamaguchi
@@ -2831,12 +2810,11 @@
     ceb: Yamaguchi-ken
     sr_Latn: Jamaguči
     yue_Hans: 山口县
-    ccp: "\U00011103\U00011128\U00011120\U0001111F\U00011109\U0001112A\U00011125\U00011128"
+    ccp: "𑄃𑄨𑄠𑄟𑄉𑄪𑄥𑄨"
     ga: Maoracht Yamaguchi
     yue: 山口縣
     mk: Јамагучи
     'no': Yamaguchi
-  comments:
   type: prefecture
 '36':
   name: Tokushima
@@ -2909,18 +2887,18 @@
     sr_Latn: Tokušima
     yue_Hans: 德岛县
     jv: Prefektur Tokushima
-    ccp: "\U00011111\U0001112E\U00011107\U0001112A\U00011125\U00011128\U0001111F"
+    ccp: "𑄑𑄮𑄇𑄪𑄥𑄨𑄟"
     ga: Maoracht Tokushima
     yue: 德島縣
     mk: Токушима
     'no': Tokushima
     sq: Prefektura Tokushima
-  comments:
   type: prefecture
 '37':
   name: Kagawa
   code: '37'
-  unofficial_names: Kagawa
+  unofficial_names:
+  - Kagawa
   geo:
     latitude: 34.3401491
     longitude: 134.0434436
@@ -2986,18 +2964,18 @@
     ceb: Kagawa-ken
     sr_Latn: Kagava
     yue_Hans: 香川县
-    ccp: "\U00011107\U00011127\U00011109\U00011124"
+    ccp: "𑄇𑄧𑄉𑄤"
     ga: Maoracht Kagawa
     yue: 香川縣
     mk: Кагава
     'no': Kagawa
     km: ខេត្តកាហ្គាវ៉ា
-  comments:
   type: prefecture
 '38':
   name: Ehime
   code: '38'
-  unofficial_names: Ehime
+  unofficial_names:
+  - Ehime
   geo:
     latitude: 33.8416238
     longitude: 132.7656808
@@ -3064,13 +3042,12 @@
     sr_Latn: Ehime
     yue_Hans: 爱媛县
     jv: Prefektur Ehime
-    ccp: "\U00011103\U00011128\U00011126\U0001112D\U0001111F\U00011134"
+    ccp: "𑄃𑄨𑄦𑄭𑄟𑄴"
     ga: Maoracht Ehime
     yue: 愛媛縣
     be: прэфектура Эхімэ
     mk: Ехиме
     'no': Ehime
-  comments:
   type: prefecture
 '39':
   name: Kochi
@@ -3143,12 +3120,11 @@
     ceb: Kōchi-ken
     sr_Latn: Koči
     yue_Hans: 高知县
-    ccp: "\U00011107\U0001112E\U0001110C\U00011128"
+    ccp: "𑄇𑄮𑄌𑄨"
     ga: Maoracht Kōchi
     yue: 高知縣
     mk: Кочи
     'no': Kōchi
-  comments:
   type: prefecture
 '40':
   name: Fukuoka
@@ -3223,17 +3199,17 @@
     sr_Latn: Fukuoka
     yue_Hans: 福冈县
     jv: Prefektur Fukuoka
-    ccp: "\U0001111C\U0001112A\U00011107\U0001112A\U00011103\U0001112E\U00011107"
+    ccp: "𑄜𑄪𑄇𑄪𑄃𑄮𑄇"
     ga: Maoracht Fukuoka
     yue: 福岡縣
     mk: Фукуока
     'no': Fukuoka
-  comments:
   type: prefecture
 '41':
   name: Saga
   code: '41'
-  unofficial_names: Saga
+  unofficial_names:
+  - Saga
   geo:
     latitude: 33.2494416
     longitude: 130.2997942
@@ -3298,19 +3274,19 @@
     ceb: Saga-ken
     sr_Latn: Saga
     yue_Hans: 佐贺县
-    ccp: "\U00011125\U00011109"
+    ccp: "𑄥𑄉"
     ga: Maoracht Saga
     yue: 佐賀縣
     be: прэфектура Сага
     mk: Сага
     'no': Saga
     ka: საგის პრეფექტურა
-  comments:
   type: prefecture
 '42':
   name: Nagasaki
   code: '42'
-  unofficial_names: Nagasaki
+  unofficial_names:
+  - Nagasaki
   geo:
     latitude: 32.7502856
     longitude: 129.877667
@@ -3378,18 +3354,18 @@
     ceb: Nagasaki (prepektura sa Hapon)
     sr_Latn: Nagasaki
     yue_Hans: 长崎县
-    ccp: "\U0001111A\U00011109\U00011125\U00011107\U00011128"
+    ccp: "𑄚𑄉𑄥𑄇𑄨"
     ga: Maoracht Nagasaki
     yue: 長崎縣
     mk: Нагасаки
     'no': Nagasaki
     ka: ნაგასაკის პრეფექტურა
-  comments:
   type: prefecture
 '43':
   name: Kumamoto
   code: '43'
-  unofficial_names: Kumamoto
+  unofficial_names:
+  - Kumamoto
   geo:
     latitude: 32.8031004
     longitude: 130.7078911
@@ -3456,13 +3432,12 @@
     ceb: Kumamoto-ken
     sr_Latn: Kumamoto
     yue_Hans: 熊本县
-    ccp: "\U00011107\U0001112A\U0001111F\U0001111F\U0001112E\U00011111\U0001112E"
+    ccp: "𑄇𑄪𑄟𑄟𑄮𑄑𑄮"
     ga: Maoracht Kumamoto
     yue: 熊本縣
     mk: Кумамото
     'no': Kumamoto
     ka: კუმამოტოს პრეფექტურა
-  comments:
   type: prefecture
 '44':
   name: Oita
@@ -3535,18 +3510,18 @@
     ceb: Ōita Prefecture
     sr_Latn: Oita
     yue_Hans: 大分县
-    ccp: "\U00011103\U00011130\U00011111"
+    ccp: "𑄃𑄰𑄑"
     ga: Maoracht Ōita
     yue: 大分縣
     mk: Оита
     'no': Ōita
     ka: ოიტის პრეფექტურა
-  comments:
   type: prefecture
 '45':
   name: Miyazaki
   code: '45'
-  unofficial_names: Miyazaki
+  unofficial_names:
+  - Miyazaki
   geo:
     latitude: 31.9076736
     longitude: 131.4202411
@@ -3613,13 +3588,12 @@
     ceb: Miyazaki-ken
     sr_Latn: Mijazaki
     yue_Hans: 宫崎县
-    ccp: "\U0001111F\U00011128\U00011120\U0001110E\U00011107\U00011128"
+    ccp: "𑄟𑄨𑄠𑄎𑄇𑄨"
     ga: Maoracht Miyazaki
     yue: 宮崎縣
     mk: Мијазаки
     'no': Miyazaki
     ka: მიაძაკის პრეფექტურა
-  comments:
   type: prefecture
 '46':
   name: Kagoshima
@@ -3695,19 +3669,19 @@
     sr_Latn: Kagošima
     yue_Hans: 鹿儿岛县
     jv: Prefektur Kagoshima
-    ccp: "\U00011107\U00011109\U0001112E\U00011125\U00011128\U0001111F"
+    ccp: "𑄇𑄉𑄮𑄥𑄨𑄟"
     ga: Maoracht Kagoshima
     yue: 鹿兒島縣
     mk: Кагошима
     'no': Kagoshima
     ka: კაგოსიმის პრეფექტურა
     ky: Кагошима
-  comments:
   type: prefecture
 '47':
   name: Okinawa
   code: '47'
-  unofficial_names: Okinawa
+  unofficial_names:
+  - Okinawa
   geo:
     latitude: 26.2124013
     longitude: 127.6809317
@@ -3775,11 +3749,10 @@
     sr_Latn: Okinava
     yue_Hans: 冲绳县
     jv: Prefektur Okinawa
-    ccp: "\U00011103\U0001112E\U00011107\U00011128\U0001111A\U00011124"
+    ccp: "𑄃𑄮𑄇𑄨𑄚𑄤"
     ga: Maoracht Okinawa
     yue: 沖繩縣
     mk: Окинава
     'no': Okinawa
     mn: Окинава
-  comments:
   type: prefecture

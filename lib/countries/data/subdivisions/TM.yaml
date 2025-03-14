@@ -61,18 +61,18 @@ A:
     lv: Ahala vilajets
     ceb: Ahal
     sr_Latn: Pokrajina Ahal
-    ccp: "\U00011103\U00011126\U00011123\U00011134"
+    ccp: "𑄃𑄦𑄣𑄴"
     ky: Ашгабат облусу
     be: Ахалскі велаят
     uz: Ahal viloyati
     'no': Ahal provins
     he: מחוז אהאל
-  comments:
   type: region
 B:
   name: Balkan
   code: B
-  unofficial_names: Balkan
+  unofficial_names:
+  - Balkan
   geo:
     latitude: 40.9468884
     longitude: 54.4952432
@@ -133,13 +133,12 @@ B:
     ceb: Balkan
     sr_Latn: Pokrajina Balkan
     zh: 巴爾坎州
-    ccp: "\U0001111D\U00011127\U00011123\U00011134\U00011107\U0001111A\U00011134"
+    ccp: "𑄝𑄧𑄣𑄴𑄇𑄚𑄴"
     ps: بلخان ولايت
     be: Балканскі велаят
     uz: Bolqon viloyati
     'no': Belkan provins
     he: מחוז בלקן
-  comments:
   type: region
 D:
   name: Dasoguz
@@ -199,7 +198,7 @@ D:
     ceb: Daşoguz Welaýaty
     sr_Latn: Pokrajina Dašoguz
     zh: 達沙古茲州
-    ccp: "\U00011113\U00011125\U0001112E\U00011109\U0001112A\U0001110C\U00011134"
+    ccp: "𑄓𑄥𑄮𑄉𑄪𑄌𑄴"
     ky: Ташауз областы
     uz: Dashoguz viloyati
     be: Дашагузскі велаят
@@ -207,12 +206,12 @@ D:
     he: מחוז דשחובוז
     ta: தகோகுஸ் மாகாணம்
     th: จังหวัดดาโชกุซ
-  comments:
   type: region
 L:
   name: Lebap
   code: L
-  unofficial_names: Lebap
+  unofficial_names:
+  - Lebap
   geo:
     latitude: 38.12724619999999
     longitude: 64.7162415
@@ -258,14 +257,13 @@ L:
     ceb: Lebap
     sr_Latn: Pokrajina Lebap
     zh: 列巴普州
-    ccp: "\U00011123\U0001112C\U0001111D\U0001111B\U00011134"
+    ccp: "𑄣𑄬𑄝𑄛𑄴"
     uz: Lebap viloyati
     ar: ولاية لباب
     bn: লেবাপ প্রদেশ
     he: מחוז לבפ
     ta: லெபாப் மாகாணம்
     th: จังหวัดเลบัป
-  comments:
   type: region
 M:
   name: Mary
@@ -330,25 +328,16 @@ M:
     ceb: Mary
     sr_Latn: Pokrajina Mari
     zh: 馬雷州
-    ccp: "\U0001111F\U0001112C\U00011122\U00011128"
+    ccp: "𑄟𑄬𑄢𑄨"
     kk: Мары уәлаяты
     be: Марыйскі велаят
     uz: Mari viloyati
     'no': Mary provins
     he: מחוז מרי
-  comments:
   type: region
 S:
   name: Aşgabat
   code: S
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Asjchabat
     am: አሽጋባት
@@ -415,7 +404,7 @@ S:
     zh: 阿什哈巴德
     yue_Hans: 阿什哈巴德
     sq: Aschgabat
-    ccp: "\U00011103\U0001110C\U00011134\U00011109\U0001111D\U00011116\U00011134"
+    ccp: "𑄃𑄌𑄴𑄉𑄝𑄖𑄴"
     ga: Ashgabat
     ky: Ашхабад
     pa: ਅਸ਼ਗਾਬਾਦ
@@ -430,5 +419,4 @@ S:
     yo_BJ: Ashgabat
     ceb: Aşgabat Şäheri
     my: အက်ရှ်ဂါဘတ်မြို့
-  comments:
   type: capital_city

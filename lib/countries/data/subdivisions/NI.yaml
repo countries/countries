@@ -58,13 +58,11 @@ AN:
     lv: Ziemeļatlantijas autonomais reģions
     ceb: North Atlantic Autonomous Region
     sr_Latn: Atlantiko Norte
-    ccp: "\U00011103\U00011116\U00011134\U00011123\U0001111A\U00011134\U00011111\U00011128\U00011107\U0001112E
-      \U0001111A\U00011127\U00011122\U00011134\U00011111\U0001112C"
+    ccp: "𑄃𑄖𑄴𑄣𑄚𑄴𑄑𑄨𑄇𑄮 𑄚𑄧𑄢𑄴𑄑𑄬"
     mk: Северноатлантски автономен регион
     'no': Región Autónoma del Atlántico Norte
     be: Аўтаномны рэгіён паўночна-карыбскага ўзбярэжжа
     fa: ناحیه خودمختار ساحل کارائیب شمالی
-  comments:
   type: autonomous_region
 AS:
   name: Atlántico Sur*
@@ -126,18 +124,17 @@ AS:
     ceb: Región Autónoma Atlántico Sur
     sr_Latn: Atlantiko Sur
     zh: 南大西洋自治區
-    ccp: "\U00011103\U00011116\U00011134\U00011123\U0001111A\U00011134\U00011111\U00011128\U00011107\U0001112E
-      \U00011125\U00011122\U00011134"
+    ccp: "𑄃𑄖𑄴𑄣𑄚𑄴𑄑𑄨𑄇𑄮 𑄥𑄢𑄴"
     mk: Јужноатлантски автономен регион
     'no': Región Autónoma del Atlántico Sur
     be: Аўтаномны рэгіён паўднёва-карыбскага ўзбярэжжа
     fa: ناحیه خودمختار ساحل کارائیب جنوبی
-  comments:
   type: autonomous_region
 BO:
   name: Boaco
   code: BO
-  unofficial_names: Boaco
+  unofficial_names:
+  - Boaco
   geo:
     latitude: 12.492724
     longitude: -85.52002399999999
@@ -192,14 +189,14 @@ BO:
     lv: Boako departaments
     ceb: Departamento de Boaco
     zh: 博阿科省
-    ccp: "\U0001111D\U0001112F\U00011107\U0001112E"
+    ccp: "𑄝𑄯𑄇𑄮"
     'no': Boaco
-  comments:
   type: department
 CA:
   name: Carazo
   code: CA
-  unofficial_names: Carazo
+  unofficial_names:
+  - Carazo
   geo:
     latitude: 11.7274729
     longitude: -86.21584969999999
@@ -253,15 +250,15 @@ CA:
     lv: Karaso departaments
     ceb: Departamento de Carazo
     zh: 卡拉索省
-    ccp: "\U00011107\U00011122\U0001110E\U0001112E"
+    ccp: "𑄇𑄢𑄎𑄮"
     'no': Carazo
     fa: بخش کارازو
-  comments:
   type: department
 CI:
   name: Chinandega
   code: CI
-  unofficial_names: Chinandega
+  unofficial_names:
+  - Chinandega
   geo:
     latitude: 12.8820062
     longitude: -87.14228949999999
@@ -315,15 +312,15 @@ CI:
     lv: Činandegas departaments
     ceb: Departamento de Chinandega
     zh: 奇南德加省
-    ccp: "\U0001110C\U00011128\U0001111A\U0001111A\U00011134\U00011113\U0001112C\U00011109"
+    ccp: "𑄌𑄨𑄚𑄚𑄴𑄓𑄬𑄉"
     'no': Chinandega
     fa: دپارتمان چیناندگا
-  comments:
   type: department
 CO:
   name: Chontales
   code: CO
-  unofficial_names: Chontales
+  unofficial_names:
+  - Chontales
   geo:
     latitude: 11.9394717
     longitude: -85.1894045
@@ -377,15 +374,15 @@ CO:
     lv: Čontalesas departaments
     ceb: Departamento de Chontales
     zh: 瓊塔萊斯省
-    ccp: "\U0001110C\U0001112E\U0001111A\U00011134\U00011111\U00011123\U0001112C\U0001110C\U00011134"
+    ccp: "𑄌𑄮𑄚𑄴𑄑𑄣𑄬𑄌𑄴"
     'no': Chontales
     az: Çontales departamenti
-  comments:
   type: department
 ES:
   name: Estelí
   code: ES
-  unofficial_names: Estelí
+  unofficial_names:
+  - Estelí
   geo:
     latitude: 13.083333
     longitude: -86.35
@@ -439,15 +436,15 @@ ES:
     lv: Esteli departaments
     ceb: Departamento de Estelí
     zh: 埃斯特利省
-    ccp: "\U00011103\U00011128\U0001110C\U00011111\U0001112C\U00011123\U00011128"
+    ccp: "𑄃𑄨𑄌𑄑𑄬𑄣𑄨"
     'no': Estelí
     fa: ناحیه استلی
-  comments:
   type: department
 GR:
   name: Granada
   code: GR
-  unofficial_names: Granada
+  unofficial_names:
+  - Granada
   geo:
     latitude: 11.933333
     longitude: -85.95
@@ -486,17 +483,17 @@ GR:
     ur: گرینادا محکمہ
     ceb: Departamento de Granada
     zh: 格拉納達省
-    ccp: "\U00011109\U00011133\U00011122\U0001111A\U00011113"
+    ccp: "𑄉𑄳𑄢𑄚𑄓"
     'no': Granada
     ar: إدارة غرناطة
     fa: بخش گرانادا
     th: จังหวัดกรานาดา
-  comments:
   type: department
 JI:
   name: Jinotega
   code: JI
-  unofficial_names: Jinotega
+  unofficial_names:
+  - Jinotega
   geo:
     latitude: 13.1
     longitude: -86
@@ -550,15 +547,15 @@ JI:
     lv: Hinotegas departaments
     ceb: Departamento de Jinotega
     zh: 希諾特加省
-    ccp: "\U0001110E\U00011128\U0001111A\U0001112E\U00011111\U0001112C\U00011109"
+    ccp: "𑄎𑄨𑄚𑄮𑄑𑄬𑄉"
     'no': Jinotega
     fa: بخش جینوتگا
-  comments:
   type: department
 LE:
   name: León
   code: LE
-  unofficial_names: León
+  unofficial_names:
+  - León
   geo:
     latitude: 12.5092037
     longitude: -86.6611083
@@ -599,19 +596,19 @@ LE:
     ur: لیون محکمہ
     ceb: Departamento de León
     zh: 萊昂省
-    ccp: "\U00011123\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄣𑄨𑄠𑄧𑄚𑄴"
     mk: Леон
     'no': León
     ar: إدارة ليون
     fa: بخش لئون
     th: จังหวัดเลออน
     tr: León (il)
-  comments:
   type: department
 MD:
   name: Madriz
   code: MD
-  unofficial_names: Madriz
+  unofficial_names:
+  - Madriz
   geo:
     latitude: 13.4726005
     longitude: -86.4592091
@@ -665,15 +662,15 @@ MD:
     lv: Madrisas departaments
     ceb: Departamento de Madriz
     zh: 馬德里斯省
-    ccp: "\U0001111F\U00011113\U00011133\U00011122\U00011128\U0001110C\U00011134"
+    ccp: "𑄟𑄓𑄳𑄢𑄨𑄌𑄴"
     'no': Madriz
     fa: بخش مدریز
-  comments:
   type: department
 MN:
   name: Managua
   code: MN
-  unofficial_names: Managua
+  unofficial_names:
+  - Managua
   geo:
     latitude: 12.136389
     longitude: -86.251389
@@ -727,16 +724,16 @@ MN:
     lv: Managvas departaments
     ceb: Departamento de Managua
     zh: 馬拿瓜省
-    ccp: "\U0001111F\U0001111A\U00011109\U0001112A\U00011120"
+    ccp: "𑄟𑄚𑄉𑄪𑄠"
     mk: Манагва
     'no': Managua
     fa: بخش ماناگوا
-  comments:
   type: department
 MS:
   name: Masaya
   code: MS
-  unofficial_names: Masaya
+  unofficial_names:
+  - Masaya
   geo:
     latitude: 11.966667
     longitude: -86.1
@@ -790,15 +787,15 @@ MS:
     lv: Masajas departaments
     ceb: Departamento de Masaya
     zh: 馬薩亞省
-    ccp: "\U0001111F\U00011125\U00011120\U0001112C"
+    ccp: "𑄟𑄥𑄠𑄬"
     'no': Masaya
     fa: بخش ماسایا
-  comments:
   type: department
 MT:
   name: Matagalpa
   code: MT
-  unofficial_names: Matagalpa
+  unofficial_names:
+  - Matagalpa
   geo:
     latitude: 12.916667
     longitude: -85.91666699999999
@@ -853,14 +850,14 @@ MT:
     lv: Matagalpas departaments
     ceb: Departamento de Matagalpa
     zh: 馬塔加爾帕省
-    ccp: "\U0001111F\U00011111\U00011109\U00011123\U00011134\U0001111B"
+    ccp: "𑄟𑄑𑄉𑄣𑄴𑄛"
     'no': Matagalpa
-  comments:
   type: department
 NS:
   name: Nueva Segovia
   code: NS
-  unofficial_names: Nueva Segovia
+  unofficial_names:
+  - Nueva Segovia
   geo:
     latitude: 13.7894404
     longitude: -86.0121573
@@ -914,15 +911,15 @@ NS:
     lv: Nuevasegovijas departaments
     ceb: Departamento de Nueva Segovia
     zh: 新塞哥維亞省
-    ccp: "\U0001111A\U0001112E\U00011120\U0001112C\U0001111E \U00011125\U0001112C\U00011109\U0001112E\U0001111E\U00011128\U00011120"
+    ccp: "𑄚𑄮𑄠𑄬𑄞 𑄥𑄬𑄉𑄮𑄞𑄨𑄠"
     'no': Nueva Segovia
     fa: بخش نوئوا سگوویا
-  comments:
   type: department
 RI:
   name: Rivas
   code: RI
-  unofficial_names: Rivas
+  unofficial_names:
+  - Rivas
   geo:
     latitude: 11.402349
     longitude: -85.684578
@@ -962,17 +959,17 @@ RI:
     ur: ریواز محکمہ
     ceb: Departamento de Rivas
     zh: 里瓦斯省
-    ccp: "\U00011122\U00011128\U0001111E\U0001110C\U00011134"
+    ccp: "𑄢𑄨𑄞𑄌𑄴"
     'no': Rivas
     fa: بخش ریواس
     th: จังหวัดริบัส
     tr: Rivas (il)
-  comments:
   type: department
 SJ:
   name: Río San Juan
   code: SJ
-  unofficial_names: Río San Juan
+  unofficial_names:
+  - Río San Juan
   geo:
     latitude: 10.9324722
     longitude: -83.69159719999999
@@ -1026,10 +1023,8 @@ SJ:
     lv: Riosanhuanas departaments
     ceb: Departamento de Río San Juan
     zh: 聖胡安河省
-    ccp: "\U00011122\U00011128\U00011103\U0001112E \U00011125\U0001111A\U00011134
-      \U0001110E\U0001112A\U00011120\U0001111A\U00011134"
+    ccp: "𑄢𑄨𑄃𑄮 𑄥𑄚𑄴 𑄎𑄪𑄠𑄚𑄴"
     'no': Río San Juan
     fa: بخش ریو سان خوان
     he: ריו סן חואן
-  comments:
   type: department

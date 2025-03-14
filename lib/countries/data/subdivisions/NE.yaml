@@ -2,7 +2,8 @@
 '1':
   name: Agadez
   code: '1'
-  unofficial_names: Agadez
+  unofficial_names:
+  - Agadez
   geo:
     latitude: 16.966667
     longitude: 7.983333
@@ -49,19 +50,19 @@
     lv: Agadesas reģions
     ceb: Agadez
     lt: Agadezo regionas
-    ccp: "\U00011103\U00011109\U00011113\U0001112C\U0001110C\U00011134"
+    ccp: "𑄃𑄉𑄓𑄬𑄌𑄴"
     ka: აგადესის რეგიონი
     ha: Yankin Agadez
     uk: Регіон Агадес
     ha_NE: Yankin Agadez
     'no': Agadez (region)
     fa: منطقه آگادز
-  comments:
   type: region
 '2':
   name: Diffa
   code: '2'
-  unofficial_names: Diffa
+  unofficial_names:
+  - Diffa
   geo:
     latitude: 13.316667
     longitude: 12.616667
@@ -108,19 +109,19 @@
     ceb: Diffa
     lt: Difos regionas
     zh: 迪法大区
-    ccp: "\U00011113\U00011128\U0001111C\U00011133\U00011126"
+    ccp: "𑄓𑄨𑄜𑄳𑄦"
     ka: დიფის რეგიონი
     ha: Yankin Diffa
     uk: Регіон Діффа
     ha_NE: Yankin Diffa
     'no': Diffa
     fa: ناحیه دیفا
-  comments:
   type: region
 '3':
   name: Dosso
   code: '3'
-  unofficial_names: Dosso
+  unofficial_names:
+  - Dosso
   geo:
     latitude: 13.05
     longitude: 3.2
@@ -168,19 +169,19 @@
     ceb: Dosso Region
     lt: Doso regionas
     zh: 多索大区
-    ccp: "\U00011113\U0001112E\U00011125\U0001112E"
+    ccp: "𑄓𑄮𑄥𑄮"
     ka: დოსოს რეგიონი
     ha: Yankin Dosso
     uk: Регіон Досо
     ha_NE: Yankin Dosso
     'no': Dosso
     fa: ناحیه دوسو
-  comments:
   type: region
 '4':
   name: Maradi
   code: '4'
-  unofficial_names: Maradi
+  unofficial_names:
+  - Maradi
   geo:
     latitude: 13.483333
     longitude: 7.1
@@ -227,19 +228,19 @@
     ceb: Maradi
     lt: Maradžio regionas
     zh: 马拉迪大区
-    ccp: "\U0001111F\U00011122\U00011113\U00011128"
+    ccp: "𑄟𑄢𑄓𑄨"
     ka: მარადის რეგიონი
     ha: Yankin Maradi
     uk: Мараді
     ha_NE: Yankin Maradi
     'no': Maradi
     fa: ناحیه مارادی
-  comments:
   type: region
 '5':
   name: Tahoua
   code: '5'
-  unofficial_names: Tahoua
+  unofficial_names:
+  - Tahoua
   geo:
     latitude: 14.883333
     longitude: 5.266667
@@ -286,14 +287,13 @@
     ceb: Tahoua
     lt: Tahovos regionas
     zh: 塔瓦大区
-    ccp: "\U00011111\U00011126\U0001112A\U00011120"
+    ccp: "𑄑𑄦𑄪𑄠"
     ka: ტაჰუის რეგიონი
     ha: Yankin Tahoua
     uk: Регіон Тахуа
     ha_NE: Yankin Tahoua
     'no': Tahoua
     fa: ناحیه تاهوآ
-  comments:
   type: region
 '6':
   name: Tillabéri
@@ -346,19 +346,19 @@
     ceb: Tillaberi Region
     lt: Tilaberio regionas
     zh: 蒂拉贝里大区
-    ccp: "\U00011111\U00011123\U00011133\U00011126\U0001111D\U0001112C\U00011122\U00011128"
+    ccp: "𑄑𑄣𑄳𑄦𑄝𑄬𑄢𑄨"
     ka: ტილაბერის რეგიონი
     ha: Tillabéri
     uk: Регіон Тіллабері
     ha_NE: Tillabéri
     'no': Tillabéri
     fa: ناحیه تیلابری
-  comments:
   type: region
 '7':
   name: Zinder
   code: '7'
-  unofficial_names: Zinder
+  unofficial_names:
+  - Zinder
   geo:
     latitude: 13.805278
     longitude: 8.988332999999999
@@ -404,19 +404,19 @@
     ceb: Zinder
     lt: Zinderio regionas
     zh: 津德尔大区
-    ccp: "\U0001110E\U00011128\U0001111A\U00011134\U00011113\U00011122\U00011134"
+    ccp: "𑄎𑄨𑄚𑄴𑄓𑄢𑄴"
     ka: ზინდერის რეგიონი
     ha: Yankin Zinder
     uk: Зіндер
     ha_NE: Yankin Zinder
     'no': Zinder
     ca: Zinder
-  comments:
   type: region
 '8':
   name: Niamey
   code: '8'
-  unofficial_names: Niamey
+  unofficial_names:
+  - Niamey
   geo:
     latitude: 13.521389
     longitude: 2.105278
@@ -489,7 +489,7 @@
     zh: 尼亞美
     yue_Hans: 尼亚美
     sq: Niamey
-    ccp: "\U0001111A\U00011128\U00011120\U0001111F\U0001112C"
+    ccp: "𑄚𑄨𑄠𑄟𑄬"
     ga: Niamey
     ky: Ниамей
     ha: Niamey
@@ -506,5 +506,4 @@
     yo_BJ: Niamey
     ml: നയാമെ
     ps: نیامی
-  comments:
   type: urban_community

@@ -43,7 +43,7 @@ DI:
     zh: 大馬士革省 (敘利亞)
     ceb: Damascus Governorate
     pl: Damaszek-Miasto
-    ccp: "\U00011113\U0001111F\U0001110C\U00011134\U00011107\U0001110C\U00011134"
+    ccp: "𑄓𑄟𑄌𑄴𑄇𑄌𑄴"
     de: Gouvernement Damaskus
     'no': Damaskus
     cy: Rhaglawiaeth Damascus
@@ -51,7 +51,6 @@ DI:
     hr: Damask (pokrajina)
     ta: டமாஸ்கஸ் ஆளுநரகம்
     th: เขตผู้ว่าการดามัสกัส
-  comments:
   type: province
 DR:
   name: Dar'ā
@@ -105,14 +104,13 @@ DR:
     ceb: Daraa Governorate
     sr_Latn: Dara (pokrajina)
     zh: 德拉省
-    ccp: "\U00011113\U00011122\U00011133\U00011103"
+    ccp: "𑄓𑄢𑄳𑄃"
     az: Dəra mühafəzəsi
     hr: Daraa (pokrajina)
     ta: தாரா ஆளுநரகம்
     th: เขตผู้ว่าการดัรอา
     yue: 德拉 (省)
     yue_Hans: 德拉 (省)
-  comments:
   type: province
 DY:
   name: Dayr az Zawr
@@ -177,12 +175,11 @@ DY:
     ceb: Deir ez-Zor Governorate
     sr_Latn: Dajr ez Zaur (pokrajina)
     zh: 代尔祖尔省
-    ccp: "\U00011113\U00011120\U0001112C\U00011122\U00011134 \U00011103\U0001112C\U0001110C\U00011134-\U0001110E\U0001112E\U00011122\U00011134"
+    ccp: "𑄓𑄠𑄬𑄢𑄴 𑄃𑄬𑄌𑄴-𑄎𑄮𑄢𑄴"
     'no': Dayr az-Zawr
     be: мухафаза Дэйр-эз-Зор
     yue: 代爾祖爾 (省)
     yue_Hans: 代尔祖尔 (省)
-  comments:
   type: province
 HA:
   name: Al Ḩasakah
@@ -249,11 +246,10 @@ HA:
     ceb: Al-Hasakah Governorate
     sr_Latn: Hasaka (pokrajina)
     zh: 哈塞克省
-    ccp: "\U00011103\U00011123\U00011134-\U0001111D\U00011125\U00011107\U00011134\U00011126\U00011134"
+    ccp: "𑄃𑄣𑄴-𑄝𑄥𑄇𑄴𑄦𑄴"
     'no': Al-Hasakah
     yue: 哈塞克 (省)
     yue_Hans: 哈塞克 (省)
-  comments:
   type: province
 HI:
   name: Ḩimş
@@ -264,10 +260,6 @@ HI:
   geo:
     latitude: 33.7348116
     longitude: -117.9947778
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Homs
     ar: محافظة حمص
@@ -320,12 +312,11 @@ HI:
     ceb: Homs Governorate
     sr_Latn: Homs (pokrajina)
     zh: 霍姆斯省
-    ccp: "\U00011126\U00011127\U0001111F\U00011134\U0001110C\U00011134"
+    ccp: "𑄦𑄧𑄟𑄴𑄌𑄴"
     'no': Homs
     hr: Homs (pokrajina)
     yue: 荷姆斯 (省)
     yue_Hans: 荷姆斯 (省)
-  comments:
   type: province
 HL:
   name: Ḩalab
@@ -338,10 +329,6 @@ HL:
   geo:
     latitude: 33.9166667
     longitude: 38.3
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Aleppo
     ar: محافظة حلب
@@ -382,7 +369,7 @@ HL:
     ceb: Aleppo Governorate
     sr_Latn: Alep (pokrajina)
     zh: 阿勒颇省
-    ccp: "\U00011103\U00011123\U00011128\U0001111B\U00011133\U00011126\U00011127"
+    ccp: "𑄃𑄣𑄨𑄛𑄳𑄦𑄧"
     be: Халеб
     'no': Aleppo
     hr: Pokrajina Alep
@@ -391,7 +378,6 @@ HL:
     th: เขตผู้ว่าการอะเลปโป
     yue: 阿勒頗 (省)
     yue_Hans: 阿勒颇 (省)
-  comments:
   type: province
 HM:
   name: Ḩamāh
@@ -402,10 +388,6 @@ HM:
   geo:
     latitude: 32.8947222
     longitude: 37.12527780000001
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Hama
     ar: محافظة حماة
@@ -457,17 +439,17 @@ HM:
     ceb: Hama Governorate
     sr_Latn: Hama (pokrajina)
     zh: 哈馬省
-    ccp: "\U00011126\U0001111F"
+    ccp: "𑄦𑄟"
     'no': Guvernementet Hama
     hr: Hama (pokrajina)
     yue: 哈馬 (省)
     yue_Hans: 哈马 (省)
-  comments:
   type: province
 ID:
   name: Idlib
   code: ID
-  unofficial_names: Idlib
+  unofficial_names:
+  - Idlib
   geo:
     latitude: 35.933333
     longitude: 36.633333
@@ -525,12 +507,11 @@ ID:
     ceb: Idlib Governorate
     sr_Latn: Idlib (pokrajina)
     zh: 伊德利卜省
-    ccp: "\U00011103\U00011128\U00011116\U00011134\U00011123\U00011128\U0001111B\U00011134"
+    ccp: "𑄃𑄨𑄖𑄴𑄣𑄨𑄛𑄴"
     'no': Idlib
     hr: Idlib (pokrajina)
     yue: 伊德利卜 (省)
     yue_Hans: 伊德利卜 (省)
-  comments:
   type: province
 LA:
   name: Al Ladhiqiyah
@@ -587,14 +568,13 @@ LA:
     ceb: Latakia Governorate
     sr_Latn: Latakija (pokrajina)
     zh: 拉塔基亚省
-    ccp: "\U00011123\U00011111\U00011107\U00011128\U00011120"
+    ccp: "𑄣𑄑𑄇𑄨𑄠"
     'no': Latakia
     hr: Latakija (pokrajina)
     ta: லடாகியா ஆளுநரகம்
     th: เขตผู้ว่าการอัลลาษิกียะฮ์
     yue: 拉塔基亞 (省)
     yue_Hans: 拉塔基亚 (省)
-  comments:
   type: province
 QU:
   name: Al Qunaytirah
@@ -656,14 +636,13 @@ QU:
     ceb: Quneitra Governorate
     sr_Latn: Kunejtra (pokrajina)
     zh: 库奈特拉省
-    ccp: "\U00011107\U0001112A\U00011120\U0001111A\U00011134\U00011103\U0001112D\U00011111\U00011133\U00011122"
+    ccp: "𑄇𑄪𑄠𑄚𑄴𑄃𑄭𑄑𑄳𑄢"
     ca: governació de Quneitra
     'no': Al-Qunaytirah
     hi: क़ुनेइत्राह प्रान्त
     hr: Quneitra (pokrajina)
     yue: 古奈特拉 (省)
     yue_Hans: 古奈特拉 (省)
-  comments:
   type: province
 RA:
   name: Ar Raqqah
@@ -716,7 +695,7 @@ RA:
     ceb: Ar-Raqqah Governorate
     sr_Latn: Raka (pokrajina)
     zh: 拉卡省
-    ccp: "\U00011103\U00011122\U00011134-\U00011122\U00011107\U00011133\U00011126"
+    ccp: "𑄃𑄢𑄴-𑄢𑄇𑄳𑄦"
     mk: Рака
     'no': Ar-Raqqah
     hi: अर-रक़्क़ाह प्रान्त
@@ -724,7 +703,6 @@ RA:
     th: เขตผู้ว่าการอัรร็อกเกาะฮ์
     yue: 拉卡 (省)
     yue_Hans: 拉卡 (省)
-  comments:
   type: province
 RD:
   name: Rif Dimashq
@@ -791,12 +769,11 @@ RD:
     lv: Damaskas muhāfaza
     sr_Latn: Damask (pokrajina)
     zh: 大马士革农村省
-    ccp: "\U00011122\U00011128\U0001111B\U00011134 \U00011113\U00011128\U0001111F\U0001110C\U00011134\U00011107\U00011134"
+    ccp: "𑄢𑄨𑄛𑄴 𑄓𑄨𑄟𑄌𑄴𑄇𑄴"
     'no': Rif Dimashq
     hr: Rif Dimashq
     yue: 大馬士革 (省)
     yue_Hans: 大马士革 (省)
-  comments:
   type: province
 SU:
   name: As Suwayda'
@@ -859,11 +836,10 @@ SU:
     ceb: As-Suwayda Governorate
     sr_Latn: Suvajda (pokrajina)
     zh: 苏韦达省
-    ccp: "\U00011103\U0001110C\U00011134-\U00011125\U0001112A\U00011120\U0001112C\U00011113"
+    ccp: "𑄃𑄌𑄴-𑄥𑄪𑄠𑄬𑄓"
     'no': as-Suwayda
     yue: 蘇韋達 (省)
     yue_Hans: 苏韦达 (省)
-  comments:
   type: province
 TA:
   name: Tartus
@@ -928,10 +904,9 @@ TA:
     ceb: Tartus Governorate
     sr_Latn: Tartus (pokrajina)
     zh: 塔尔图斯省
-    ccp: "\U00011111\U00011122\U00011134\U00011111\U0001110C\U00011134"
+    ccp: "𑄑𑄢𑄴𑄑𑄌𑄴"
     'no': Tartus
     hr: Tartus (pokrajina)
     yue: 他圖斯 (省)
     yue_Hans: 他图斯 (省)
-  comments:
   type: province

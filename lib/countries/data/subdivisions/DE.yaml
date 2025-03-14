@@ -80,7 +80,7 @@ BB:
     yue_Hans: 勃兰登堡
     jv: Brandenburg
     sq: Brandenburg
-    ccp: "\U0001111D\U00011133\U00011122\U0001111A\U00011134\U00011113\U0001112C\U0001111A\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ccp: "𑄝𑄳𑄢𑄚𑄴𑄓𑄬𑄚𑄴𑄝𑄢𑄴𑄉𑄴"
     sd: برانڊن برگ
     ga: Brandenburg
     pa: ਬ੍ਰਾਂਡਨਬੁਰਗ
@@ -93,7 +93,6 @@ BB:
     'no': Brandenburg
     yo_BJ: Brandenburg
     ml: ബ്രാൻഡൻബർഗ്
-  comments:
   type: state
 BE:
   name: Berlin
@@ -177,7 +176,7 @@ BE:
     yue_Hans: 柏林
     jv: Berlin
     sq: Berlin
-    ccp: "\U0001111D\U00011122\U00011134\U00011123\U00011128\U0001111A\U00011134"
+    ccp: "𑄝𑄢𑄴𑄣𑄨𑄚𑄴"
     ga: Beirlín
     ky: Берлин
     ha: Berlin
@@ -195,12 +194,12 @@ BE:
     'no': Berlin
     yo_BJ: Berlin
     km: ប៊ែរឡាំង
-  comments:
   type: state
 BW:
   name: Baden-Württemberg
   code: BW
-  unofficial_names: Baden-Württemberg
+  unofficial_names:
+  - Baden-Württemberg
   geo:
     latitude: 48.6616037
     longitude: 9.3501336
@@ -275,7 +274,7 @@ BW:
     yue_Hans: 巴登－乌腾堡
     jv: Baden-Württemberg
     sq: Baden-Vyrtemberg
-    ccp: "\U0001111D\U00011113\U0001112C\U0001111A\U00011134-\U00011124\U00011122\U00011134\U00011111\U00011113\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ccp: "𑄝𑄓𑄬𑄚𑄴-𑄤𑄢𑄴𑄑𑄓𑄟𑄴𑄝𑄢𑄴𑄉𑄴"
     sd: بيڊن ورٽمبرگ
     ga: Baden-Württemberg
     pa: ਬਾਡਨ-ਵਰਟਮਬਰਕ
@@ -291,7 +290,6 @@ BW:
     ky: Баден-Вюртемберг
     ml: ബാഡൻ-വ്യൂർട്ടംബർഗ്
     ne: बाडेन-वुर्टेम्बर्ग
-  comments:
   type: state
 BY:
   name: Bayern
@@ -375,7 +373,7 @@ BY:
     yue_Hans: 拜仁
     jv: Bayern
     sq: Bavaria
-    ccp: "\U0001111D\U00011127\U0001111E\U00011122\U00011128\U00011120"
+    ccp: "𑄝𑄧𑄞𑄢𑄨𑄠"
     sd: بويريا
     ga: An Bhaváir
     ky: Бавария
@@ -390,7 +388,6 @@ BY:
     yo_BJ: Bavaria
     my: ဘာဗေးရီးယားပြည်နယ်
     ps: بایرن
-  comments:
   type: state
 HB:
   name: Bremen
@@ -467,7 +464,7 @@ HB:
     yue_Hans: 不来梅汉莎自由市
     jv: Bremen
     sq: Bremen
-    ccp: "\U0001111D\U00011133\U00011122\U0001112C\U0001111F\U0001112C\U0001111A\U00011134"
+    ccp: "𑄝𑄳𑄢𑄬𑄟𑄬𑄚𑄴"
     ga: Bremen
     pa: ਬ੍ਰੈਮਨ
     kk: Бремен
@@ -482,7 +479,6 @@ HB:
     hy: Բրեմեն
     is: Bremen (sambandsríki)
     sw: Jimbo la Bremen
-  comments:
   type: state
 HE:
   name: Hessen
@@ -563,7 +559,7 @@ HE:
     yue_Hans: 黑森
     jv: Hessen
     sq: Hesia
-    ccp: "\U00011126\U0001112C\U00011125\U0001112C"
+    ccp: "𑄦𑄬𑄥𑄬"
     sd: ھيسن
     ga: Hessen
     ky: Гессен
@@ -578,7 +574,6 @@ HE:
     'no': Hessen
     yo_BJ: Hesse
     ps: هسن
-  comments:
   type: state
 HH:
   name: Hamburg
@@ -662,7 +657,7 @@ HH:
     yue_Hans: 汉堡
     jv: Hamburg
     sq: Hamburgu
-    ccp: "\U00011126\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ccp: "𑄦𑄟𑄴𑄝𑄢𑄴𑄉𑄴"
     sd: ھئمبرگ(شھر)
     ga: Hamburg
     ky: Гамбург
@@ -680,7 +675,6 @@ HH:
     'no': Hamburg
     yo_BJ: Hamburg
     ps: هامبورگ
-  comments:
   type: state
 MV:
   name: Mecklenburg-Vorpommern
@@ -758,7 +752,7 @@ MV:
     yue_Hans: 美伦堡－前波玛恩
     jv: Mecklenburg-Vorpommern
     sq: Mecklenburg-Vorpommern
-    ccp: "\U0001111F\U0001112C\U00011107\U00011134\U00011123\U0001112C\U0001111A\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134-\U0001111E\U0001112E\U00011122\U00011134\U0001111B\U00011127\U0001111F\U0001112C\U0001111A\U00011134"
+    ccp: "𑄟𑄬𑄇𑄴𑄣𑄬𑄚𑄴𑄝𑄢𑄴𑄉𑄴-𑄞𑄮𑄢𑄴𑄛𑄧𑄟𑄬𑄚𑄴"
     sd: ميڪلن برگ فرو پامرن
     ga: Mecklenburg-Vorpommern
     kk: Мекленбург-Алдыңғы Померания
@@ -772,7 +766,6 @@ MV:
     'no': Mecklenburg-Vorpommern
     yo_BJ: Mecklenburg-Vorpommern
     ml: മെക്ക്ലെൻബുർഗ്-ഫൊർപ്പോമേൻ
-  comments:
   type: state
 NI:
   name: Niedersachsen
@@ -850,7 +843,7 @@ NI:
     yue_Hans: 下萨克逊
     jv: Niedersachsen
     sq: Saksonia e Ulët
-    ccp: "\U00011123\U00011131\U00011122\U00011134 \U00011125\U0001112C\U00011107\U00011134\U00011125\U0001112E\U0001111A\U00011128"
+    ccp: "𑄣𑄱𑄢𑄴 𑄥𑄬𑄇𑄴𑄥𑄮𑄚𑄨"
     sd: لوئر سئڪسني
     ga: An tSacsain Íochtarach
     so: Niedersachsen
@@ -865,7 +858,6 @@ NI:
     yo_BJ: Lower Saxony
     ml: ലോവർ സാക്സണി
     ps: نیدرزاخسن
-  comments:
   type: state
 NW:
   name: Nordrhein-Westfalen
@@ -946,8 +938,7 @@ NW:
     yue_Hans: 北莱茵－西法伦
     jv: Nordrhein-Westfalen
     sq: Nordrhein-Westfalen
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011122\U0001112D\U0001111A\U00011134-\U00011124\U0001112C\U0001110C\U00011134\U0001111C\U00011123\U00011128\U00011120"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄢𑄭𑄚𑄴-𑄤𑄬𑄌𑄴𑄜𑄣𑄨𑄠"
     sd: نارٿ رائن وستڦيليا
     ga: Tuaisceart na Réine agus an Viostfáil
     pa: ਉੱਤਰੀ ਰਾਈਨ-ਪੱਛਮੀ ਫ਼ਾਲਨ
@@ -960,7 +951,6 @@ NW:
     'no': Nordrhein-Westfalen
     yo_BJ: Nordrhein-Westfalen
     ml: നോർത്ത് റൈൻ-വെസ്റ്റ്ഫാലിയ
-  comments:
   type: state
 RP:
   name: Rheinland-Pfalz
@@ -1041,7 +1031,7 @@ RP:
     yue_Hans: 莱茵－普法茨
     jv: Rheinland-Pfalz
     sq: Rheinland-Pfalz
-    ccp: "\U00011122\U0001112D\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134-\U0001111B\U00011123\U00011111\U00011128\U0001111A\U0001112C\U00011116\U00011134"
+    ccp: "𑄢𑄭𑄚𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴-𑄛𑄣𑄑𑄨𑄚𑄬𑄖𑄴"
     sd: رائن لينڊ پئليٽينيٽ
     ga: Tír na Réine agus an Phalaitíneacht
     kk: Рейнланд-Пфальц
@@ -1053,12 +1043,12 @@ RP:
     'no': Rheinland-Pfalz
     yo_BJ: Rhineland-Palatinate
     ml: റൈൻലാൻഡ്-പലാറ്റിനേറ്റ്
-  comments:
   type: state
 SH:
   name: Schleswig-Holstein
   code: SH
-  unofficial_names: Schleswig-Holstein
+  unofficial_names:
+  - Schleswig-Holstein
   geo:
     latitude: 54.21936720000001
     longitude: 9.696116700000001
@@ -1131,7 +1121,7 @@ SH:
     yue_Hans: 舒勒斯维－荷斯泰因
     jv: Schleswig-Holstein
     sq: Schleswig-Holstein
-    ccp: "\U0001110C\U00011133\U00011107\U0001112C\U0001110C\U00011134\U00011103\U0001112A\U00011103\U00011128\U00011107\U00011134-\U00011126\U0001112E\U00011123\U00011134\U0001110C\U00011133\U00011111\U0001112C\U00011103\U00011128\U0001111A\U00011134"
+    ccp: "𑄌𑄳𑄇𑄬𑄌𑄴𑄃𑄪𑄃𑄨𑄇𑄴-𑄦𑄮𑄣𑄴𑄌𑄳𑄑𑄬𑄃𑄨𑄚𑄴"
     sd: شليس وگ ھوليسٽن
     ga: Schleswig-Holstein
     kk: Шлезвиг-Гольштейн
@@ -1145,12 +1135,12 @@ SH:
     yo_BJ: Schleswig-Holstein
     ky: Шлесвик-Гөлштейн
     ml: ഷ്ലെസ്വിഗ്-ഹോൾസ്റ്റൈൻ
-  comments:
   type: state
 SL:
   name: Saarland
   code: SL
-  unofficial_names: Saarland
+  unofficial_names:
+  - Saarland
   geo:
     latitude: 49.3964234
     longitude: 7.0229607
@@ -1224,7 +1214,7 @@ SL:
     yue_Hans: 沙亚
     jv: Saarland
     sq: Saarland
-    ccp: "\U00011125\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄥𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     sd: سارلنڊ
     ga: An tSárlainn
     ky: Саар
@@ -1239,7 +1229,6 @@ SL:
     'no': Saarland
     yo_BJ: Saarland
     ml: സാർലാൻഡ്
-  comments:
   type: state
 SN:
   name: Sachsen
@@ -1318,7 +1307,7 @@ SN:
     yue_Hans: 萨克逊
     jv: Sachsen
     sq: Saksonia
-    ccp: "\U00011125\U0001112C\U00011107\U00011134\U00011125\U0001112E\U0001111A\U00011128"
+    ccp: "𑄥𑄬𑄇𑄴𑄥𑄮𑄚𑄨"
     sd: سئڪسني
     ga: An tSacsain
     pa: ਜ਼ਾਕਸਨ
@@ -1333,12 +1322,12 @@ SN:
     yo_BJ: Saxony
     ml: സാക്സണി
     ps: زاخسن
-  comments:
   type: state
 ST:
   name: Sachsen-Anhalt
   code: ST
-  unofficial_names: Sachsen-Anhalt
+  unofficial_names:
+  - Sachsen-Anhalt
   geo:
     latitude: 51.9502649
     longitude: 11.6922735
@@ -1410,7 +1399,7 @@ ST:
     yue_Hans: 萨克逊－雁候
     jv: Sachsen-Anhalt
     sq: Saksonia Anhalt
-    ccp: "\U00011125\U0001112C\U00011107\U00011134\U00011125\U0001112E\U0001111A\U00011128-\U00011131\U00011103\U0001111A\U00011134\U00011126\U00011123\U00011133\U00011111\U00011134"
+    ccp: "𑄥𑄬𑄇𑄴𑄥𑄮𑄚𑄨-𑄱𑄃𑄚𑄴𑄦𑄣𑄳𑄑𑄴"
     sd: سئڪسني اينھالٽ
     ga: An tSacsain-Anhalt
     kk: Саксония-Анхальт
@@ -1423,7 +1412,6 @@ ST:
     'no': Sachsen-Anhalt
     yo_BJ: Saxony-Anhalt
     ml: സാക്സണി-അൻഹാൾട്ട്
-  comments:
   type: state
 TH:
   name: Thüringen
@@ -1502,7 +1490,7 @@ TH:
     yue_Hans: 脱灵根
     jv: Thüringen
     sq: Turingia
-    ccp: "\U00011117\U0001112A\U00011122\U00011128\U00011101\U00011109\U00011128\U00011120"
+    ccp: "𑄗𑄪𑄢𑄨𑄁𑄉𑄨𑄠"
     sd: ٿرينجيا
     ga: Thüringen
     ky: Тюрингия
@@ -1517,5 +1505,4 @@ TH:
     yo_BJ: Thuringia
     ml: തുറിഞ്ചിയ
     ps: تورینګن
-  comments:
   type: state

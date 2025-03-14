@@ -2,7 +2,8 @@
 '1':
   name: Burgenland
   code: '1'
-  unofficial_names: Burgenland
+  unofficial_names:
+  - Burgenland
   geo:
     latitude: 47.15371649999999
     longitude: 16.2688797
@@ -71,7 +72,7 @@
     ceb: Burgenland
     sr_Latn: Burgenland
     yue_Hans: 布尔根兰
-    ccp: "\U0001111D\U0001112A\U00011122\U00011134\U00011109\U00011133\U00011120\U0001111A\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011134\U00011113\U00011134"
+    ccp: "𑄝𑄪𑄢𑄴𑄉𑄳𑄠𑄚𑄴𑄣𑄳𑄠𑄚𑄴𑄓𑄴"
     ga: Burgenland
     yue: 布爾根蘭
     bs: Gradišće
@@ -82,7 +83,6 @@
     sd: برجنلينڊ
     sq: Burgenland
     sw: Burgenland
-  comments:
   type: state
 '2':
   name: Kärnten
@@ -159,7 +159,7 @@
     sr_Latn: Koruška
     zh: 克恩顿州
     yue_Hans: 克恩滕
-    ccp: "\U00011107\U00011133\U00011120\U00011122\U00011128\U0001111A\U00011134\U00011111\U00011128\U00011120"
+    ccp: "𑄇𑄳𑄠𑄢𑄨𑄚𑄴𑄑𑄨𑄠"
     ga: Carinthia
     yue: 克恩滕
     bs: Koruška
@@ -168,7 +168,6 @@
     az: Karintiya
     sd: ڪرينٿيا
     sq: Kärnten
-  comments:
   type: state
 '3':
   name: Niederösterreich
@@ -244,8 +243,7 @@
     sr_Latn: Donja Austrija
     zh: 下奧地利州
     yue_Hans: 下奥地利
-    ccp: "\U00011111\U00011127\U00011123\U00011134\U0001111F\U0001112A\U00011107\U00011134\U00011108\U0001112C
-      \U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011128\U00011120"
+    ccp: "𑄑𑄧𑄣𑄴𑄟𑄪𑄇𑄴𑄈𑄬 𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄨𑄠"
     kk: Төмеңгі Австрия
     yue: 下奧地利
     bs: Donja Austrija
@@ -255,7 +253,6 @@
     ga: An Ostair Íochtarach
     sd: لوئر آسٽريا
     sq: Austria e Poshtme
-  comments:
   type: state
 '4':
   name: Oberösterreich
@@ -331,8 +328,7 @@
     sr_Latn: Gornja Austrija
     zh: 上奧地利
     yue_Hans: 上奥地利
-    ccp: "\U00011105\U0001112A\U00011109\U0001112A\U00011122\U0001112C \U0001111F\U0001112A\U00011107\U00011134\U00011108\U0001112C
-      \U00011103\U00011127\U0001110C\U00011134\U00011111\U00011133\U00011122\U00011128\U00011120"
+    ccp: "𑄅𑄪𑄉𑄪𑄢𑄬 𑄟𑄪𑄇𑄴𑄈𑄬 𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄨𑄠"
     yue: 上奧地利
     bs: Gornja Austrija
     mk: Горна Австрија
@@ -341,7 +337,6 @@
     ga: An Ostair Uachtarach
     sd: اپر آسٽريا
     sq: Austria e Epërme
-  comments:
   type: state
 '5':
   name: Salzburg
@@ -416,7 +411,7 @@
     sr_Latn: Salcburg
     zh: 萨尔茨堡州
     yue_Hans: 萨尔斯堡邦
-    ccp: "\U00011125\U00011123\U00011134\U0001111D\U00011122\U00011133\U00011109\U00011134"
+    ccp: "𑄥𑄣𑄴𑄝𑄢𑄳𑄉𑄴"
     ga: Salzburg
     yue: 薩爾斯堡邦
     bs: Salzburg
@@ -425,7 +420,6 @@
     az: Zalsburq
     sd: سلزبرگ (رياست)
     sq: Salzburgu (shteti federal)
-  comments:
   type: state
 '6':
   name: Steiermark
@@ -502,7 +496,7 @@
     sr_Latn: Štajerska
     zh: 施蒂利亞州
     yue_Hans: 施泰尔马克
-    ccp: "\U00011103\U0001112C\U0001110C\U00011134\U00011111\U0001112D\U00011122\U00011128\U00011120"
+    ccp: "𑄃𑄬𑄌𑄴𑄑𑄭𑄢𑄨𑄠"
     ga: Styria
     yue: 施泰爾馬克
     bs: Štajerska
@@ -510,7 +504,6 @@
     'no': Steiermark
     sd: اسٽيريا
     sq: Stiria
-  comments:
   type: state
 '7':
   name: Tirol
@@ -585,7 +578,7 @@
     sr_Latn: Tirol
     zh: 蒂罗尔州
     yue_Hans: 蒂罗尔
-    ccp: "\U00011111\U0001112D\U00011122\U00011127\U00011123\U00011134"
+    ccp: "𑄑𑄭𑄢𑄧𑄣𑄴"
     ga: An Tioróil
     yue: 蒂羅爾
     bs: Tirol
@@ -595,12 +588,12 @@
     ky: Тирол (Австрия)
     sd: ٽرول (رياست)
     sq: Tiroli
-  comments:
   type: state
 '8':
   name: Vorarlberg
   code: '8'
-  unofficial_names: Vorarlberg
+  unofficial_names:
+  - Vorarlberg
   geo:
     latitude: 47.2497427
     longitude: 9.9797373
@@ -671,7 +664,7 @@
     zh: 福拉尔贝格州
     yue_Hans: 福拉尔贝格
     sq: Vorarlberg
-    ccp: "\U0001111E\U00011127\U00011122\U00011122\U00011134\U00011123\U00011134\U0001111D\U00011122\U00011133\U00011109\U00011134"
+    ccp: "𑄞𑄧𑄢𑄢𑄴𑄣𑄴𑄝𑄢𑄳𑄉𑄴"
     ga: Vorarlberg
     yue: 福拉爾貝格
     bs: Vorarlberg
@@ -679,7 +672,6 @@
     'no': Vorarlberg
     az: Forarlberq
     sd: وورارلبرگ
-  comments:
   type: state
 '9':
   name: Wien
@@ -763,7 +755,7 @@
     yue_Hans: 维也纳
     jv: Wina
     sq: Vjena
-    ccp: "\U0001111E\U00011128\U00011120\U0001112C\U0001111A"
+    ccp: "𑄞𑄨𑄠𑄬𑄚"
     ga: Vín
     ky: Вена
     ha: Vienna
@@ -781,5 +773,4 @@
     'no': Wien
     yo_BJ: Fienna
     sd: ويانا
-  comments:
   type: state

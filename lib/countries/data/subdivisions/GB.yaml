@@ -2,14 +2,6 @@
 ABC:
   name: Armagh City, Banbridge and Craigavon
   code: ABC
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Armagh, Banbridge and Craigavon
     en: Armagh, Banbridge and Craigavon
@@ -24,14 +16,12 @@ ABC:
     nl: Armagh, Banbridge and Craigavon
     bn: আর্মা
     fa: آرما، بنبریج و کریگ‌آوون
-    ccp: "\U00011103\U00011122\U00011134\U0001111F\U00011107\U00011134, \U0001111D\U0001111A\U00011134\U0001111D\U00011133\U00011122\U00011128\U0001110C\U00011134
-      \U00011103\U00011133\U00011103 \U00011107\U00011133\U00011122\U0001112D\U00011109\U0001111E\U00011127\U0001111A\U00011134"
+    ccp: "𑄃𑄢𑄴𑄟𑄇𑄴, 𑄝𑄚𑄴𑄝𑄳𑄢𑄨𑄌𑄴 𑄃𑄳𑄃 𑄇𑄳𑄢𑄭𑄉𑄞𑄧𑄚𑄴"
     gu: અર્માઘ
     ko: 아마 구 밴브리지와 크레이가본
     es: Armagh
     kn: ಅರ್ಮಗ್ಹ್
     pt: Armagh
-  comments:
   type: district
 ABD:
   name: Aberdeenshire
@@ -81,7 +71,7 @@ ABD:
     ta: அபெர்டீன்ஷிர்
     ur: ابیردینشائر
     bn: স্কটল্যান্ড-
-    ccp: "\U00011103\U0001111D\U0001112C\U00011122\U00011134\U00011113\U00011128\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄃𑄝𑄬𑄢𑄴𑄓𑄨𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: એબરડિનશાયર
     ga: Contae Obar Deathain
     kn: ಆಬರ್ಡೀನ್ಸ್ಶೈರ್
@@ -94,7 +84,6 @@ ABD:
     he: אברדינשייר
     yue: 鴨巴甸郡
     yue_Hans: 鸭巴甸郡
-  comments:
   type: council_area
 ABE:
   name: Aberdeen City
@@ -172,7 +161,7 @@ ABE:
     sr_Latn: Aberdin
     yue_Hans: 鸭巴甸
     sq: Aberdeen
-    ccp: "\U00011103\U0001111D\U0001112C\U00011122\U00011134\U00011113\U00011128\U0001111A\U00011134"
+    ccp: "𑄃𑄝𑄬𑄢𑄴𑄓𑄨𑄚𑄴"
     ga: Obar Dheathain
     kk: Абердин
     yue: 鴨巴甸
@@ -184,12 +173,12 @@ ABE:
     'no': Aberdeen
     yo_BJ: Aberdeen
     sd: ايبرڊين
-  comments:
   type: council_area
 AGB:
   name: Argyll and Bute
   code: AGB
-  unofficial_names: Argyll and Bute
+  unofficial_names:
+  - Argyll and Bute
   geo:
     latitude: 56.37004630000001
     longitude: -5.0318965
@@ -230,8 +219,7 @@ AGB:
     te: ఆర్గిల్ అండ్ బుట్
     ta: அகில் & பூட்
     bn: আর্জেল ও বুট
-    ccp: "\U00011103\U00011109\U00011133\U00011122\U00011128\U00011123\U00011134 \U00011103\U00011133\U00011103
-      \U0001111D\U0001112A\U00011111\U0001112C"
+    ccp: "𑄃𑄉𑄳𑄢𑄨𑄣𑄴 𑄃𑄳𑄃 𑄝𑄪𑄑𑄬"
     gu: આર્ગીલ અને બૂટ
     ga: Earra-Ghaidheal agus Bód
     gl: Argyll and Bute
@@ -240,7 +228,6 @@ AGB:
     az: Arqayl-end-Büt
     'no': Argyll and Bute
     ar: أرغيل وبوت
-  comments:
   type: council_area
 AGY:
   name: Isle of Anglesey [Sir Ynys Môn GB-YNM]
@@ -300,26 +287,17 @@ AGY:
     sr_Latn: Anglsi
     yue_Hans: 安格尔西岛
     hi: एंग्लेसी
-    ccp: "\U00011103\U00011101\U00011123\U0001112C\U00011125\U00011128"
+    ccp: "𑄃𑄁𑄣𑄬𑄥𑄨"
     ga: Ynys Môn
     da: Anglesey
     yue: 安格爾西島
     th: แองเกิลซีย์
     'no': Anglesey
     ur: انگلسی
-  comments:
   type: unitary_authority
 AND:
   name: Ards and North Down
   code: AND
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Ards and North Down
     en: Ards and North Down
@@ -334,27 +312,17 @@ AND:
     bn: আর্ডস
     fa: آردس و نورث داون
     ru: Ардс и Норф-Даун
-    ccp: "\U00011103\U00011122\U00011134\U00011113\U00011134\U00011125\U00011134 \U00011103\U00011133\U00011103
-      \U0001111A\U00011127\U00011122\U00011134\U00011116\U00011134 \U00011113\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄃𑄢𑄴𑄓𑄴𑄥𑄴 𑄃𑄳𑄃 𑄚𑄧𑄢𑄴𑄖𑄴 𑄓𑄅𑄪𑄚𑄴"
     gu: આર્ડ્સ અને ઉત્તર ડાઉન
     ko: 아르즈
     es: Ards and North Down
     kn: ಆರ್ಡ್ಸ್ ಮತ್ತು ನಾರ್ತ್ ಡೌನ್
     pt: Ards and North Down
     az: Ards və Norf-Daun
-  comments:
   type: district
 ANN:
   name: Antrim and Newtownabbey
   code: ANN
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Antrim and Newtownabbey
     en: Antrim and Newtownabbey
@@ -365,14 +333,13 @@ ANN:
     zh: 安特里姆與紐頓阿比區
     nl: Antrim and Newtownabbey
     fa: انتریم و نیوتاون‌ابی
-    ccp: "\U00011103\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011128\U0001111F\U00011134
-      \U00011103\U00011133\U00011103 \U0001111A\U00011128\U00011105\U0001112A\U00011111\U0001112D\U00011105\U0001112A\U0001111A\U00011134\U0001111D\U0001112C"
-  comments:
+    ccp: "𑄃𑄚𑄴𑄑𑄳𑄢𑄨𑄟𑄴 𑄃𑄳𑄃 𑄚𑄨𑄅𑄪𑄑𑄭𑄅𑄪𑄚𑄴𑄝𑄬"
   type: district
 ANS:
   name: Angus
   code: ANS
-  unofficial_names: Angus
+  unofficial_names:
+  - Angus
   geo:
     latitude: 56.7969965
     longitude: -2.9206818
@@ -420,7 +387,7 @@ ANS:
     ur: انجوس
     bn: অ্যাঙ্গাস
     yue_Hans: 安格斯
-    ccp: "\U00011103\U00011101\U00011109\U0001112A\U0001110C\U00011134"
+    ccp: "𑄃𑄁𑄉𑄪𑄌𑄴"
     gu: એંગસ
     ga: Aonghas
     gl: Angus
@@ -431,12 +398,12 @@ ANS:
     az: Angus
     my: အားအန်ဂက်စ်၊ စကော့တလန်
     sk: Angus
-  comments:
   type: council_area
 BAS:
   name: Bath and North East Somerset
   code: BAS
-  unofficial_names: Bath and North East Somerset
+  unofficial_names:
+  - Bath and North East Somerset
   geo:
     latitude: 51.36362930000001
     longitude: -2.4399987
@@ -469,8 +436,7 @@ BAS:
     te: బాత్ మరియు తూర్పు సోమర్ సెట్
     ta: பாத் அண்ட் வட கிழக்கு சொமேர்செட்
     bn: বাথ ও উত্তর পূর্ব সমারসেট
-    ccp: "\U0001111D\U00011116\U00011134 \U00011103\U00011133\U00011103 \U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U0001112A\U00011107\U00011134 \U00011125\U00011127\U0001111F\U00011122\U00011134\U00011125\U0001112C\U00011116\U00011134"
+    ccp: "𑄝𑄖𑄴 𑄃𑄳𑄃 𑄅𑄧𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄪𑄇𑄴 𑄥𑄧𑄟𑄢𑄴𑄥𑄬𑄖𑄴"
     gu: બાથ અને ઉત્તર પૂર્વ સોમરસેટ
     kn: ಬಾತ್ ಮತ್ತು ಈಶಾನ್ಯ ಸೊಮರ್ಸೆಟ್
     pt: Bath and North East Somerset
@@ -480,12 +446,12 @@ BAS:
     fi: Bath ja North East Somerset
     he: באת׳ וצפון מזרח סומרסט
     hy: Բաթ և Հյուսիս-արևելյան Սոմերսեթ
-  comments:
   type: unitary_authority
 BBD:
   name: Blackburn with Darwen
   code: BBD
-  unofficial_names: Blackburn with Darwen
+  unofficial_names:
+  - Blackburn with Darwen
   geo:
     latitude: 53.68985960000001
     longitude: -2.4678625
@@ -516,8 +482,7 @@ BBD:
     te: బ్లాక్ బర్న్ విత్ డార్విన్
     ta: ப்ளாக்கபூரின் வித் டாரவென்
     bn: ব্ল্যাকবার্ন-ও-ডারওয়েন
-    ccp: "\U00011107\U00011133\U00011123\U00011133\U00011120\U00011107\U00011134\U0001111D\U00011122\U00011134\U0001111A\U00011134
-      \U00011103\U0001112A\U00011103\U00011128\U00011116\U00011134 \U00011113\U00011122\U00011134\U00011103\U0001112A\U00011103\U00011128\U0001111A\U00011134"
+    ccp: "𑄇𑄳𑄣𑄳𑄠𑄇𑄴𑄝𑄢𑄴𑄚𑄴 𑄃𑄪𑄃𑄨𑄖𑄴 𑄓𑄢𑄴𑄃𑄪𑄃𑄨𑄚𑄴"
     gu: બ્લેકબર્ન વિથ ડાર્વેન
     es: Blackburn with Darwen
     kn: ಡಾರ್ವೆನ್ನೊಂದಿಗೆ ಬ್ಲ್ಯಾಕ್ಬರ್ನ್
@@ -526,7 +491,6 @@ BBD:
     cy: Bwrdeistref Blackburn gyda Darwen
     yue: 布力般-達溫
     yue_Hans: 布力般-达温
-  comments:
   type: unitary_authority
 BCP:
   translations:
@@ -551,7 +515,8 @@ BCP:
 BDF:
   name: Bedfordshire
   code: BDF
-  unofficial_names: Bedfordshire
+  unofficial_names:
+  - Bedfordshire
   geo:
     latitude: 52.1359735
     longitude: -0.4666565
@@ -577,17 +542,17 @@ BDF:
     zh: 貝德福德區
     ceb: Bedford (kondado)
     fa: بدفورد بورو
-    ccp: "\U0001111D\U0001112C\U00011116\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄝𑄬𑄖𑄴𑄜𑄮𑄢𑄴𑄓𑄴"
     es: Bedford
     'no': Bedford (distrikt)
     cy: Bwrdeistref Bedford
     ga: Bedford
-  comments:
   type: unitary_authority
 BDG:
   name: Barking and Dagenham
   code: BDG
-  unofficial_names: Barking and Dagenham
+  unofficial_names:
+  - Barking and Dagenham
   geo:
     latitude: 51.5464828
     longitude: 0.1293497
@@ -636,19 +601,18 @@ BDG:
     sr_Latn: Londonska opština Barking i Dagenam
     ta: லண்டன் பாரூக்ஹ் ஆப் பார்க்கிங் & டகென்ஹாம்
     bn: বার্কিং ও ডেগেনহ্যাম
-    ccp: "\U0001111D\U00011122\U00011134\U00011107\U00011128\U00011101 \U00011103\U00011133\U00011103
-      \U00011113\U00011127\U00011109\U0001112C\U0001111A\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄝𑄢𑄴𑄇𑄨𑄁 𑄃𑄳𑄃 𑄓𑄧𑄉𑄬𑄚𑄴𑄦𑄟𑄴"
     gu: લંડન બોરો ઓફ બાર્કિંગ અને ડગેનહામ
     ga: Buirg Londan Barking agus Dagenham
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಬಾರ್ಕಿಂಗ್ ಮತ್ತು ಡೇಗೆನ್ಹ್ಯಾಮ್
     'no': Barking and Dagenham
     et: Barking and Dagenham
-  comments:
   type: london_borough
 BEN:
   name: Brent
   code: BEN
-  unofficial_names: Brent
+  unofficial_names:
+  - Brent
   geo:
     latitude: 51.5672808
     longitude: -0.2710568
@@ -697,19 +661,19 @@ BEN:
     sr_Latn: Londonska opština Brent
     ta: லண்டன் பாரூக்ஹ் ஆப் ப்ரெண்ட்
     bn: বেন্ট
-    ccp: "\U0001111D\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+    ccp: "𑄝𑄳𑄢𑄬𑄚𑄴𑄑𑄴"
     gu: લંડન બોરો ઓફ બ્રેન્ટ
     ga: Buirg Londan Brent
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಬ್ರೆಂಟ್
     mk: Брент
     'no': Brent
     hy: Բրենտ
-  comments:
   type: london_borough
 BEX:
   name: Bexley
   code: BEX
-  unofficial_names: Bexley
+  unofficial_names:
+  - Bexley
   geo:
     latitude: 51.439933
     longitude: 0.154327
@@ -756,16 +720,16 @@ BEX:
     ceb: Bexley (distrito)
     tr: Bexley
     sr_Latn: Londonska opština Beksli
-    ccp: "\U0001111D\U0001112C\U00011107\U00011133\U00011125\U00011134\U00011123\U0001112C"
+    ccp: "𑄝𑄬𑄇𑄳𑄥𑄴𑄣𑄬"
     ga: London Borough of Bexley
     et: Bexley linnaosa
     'no': Bexley
-  comments:
   type: london_borough
 BFS:
   name: Belfast
   code: BFS
-  unofficial_names: Belfast
+  unofficial_names:
+  - Belfast
   geo:
     latitude: 54.59728500000001
     longitude: -5.93012
@@ -785,10 +749,9 @@ BFS:
     ru: Белфаст
     uk: Белфаст
     zh: 貝爾法斯特區
-    ccp: "\U0001111D\U0001112C\U00011123\U00011134\U0001111C\U0001110C\U00011133\U00011111\U00011134"
+    ccp: "𑄝𑄬𑄣𑄴𑄜𑄌𑄳𑄑𑄴"
     cy: Ardal Belffast
     ga: ceantar Bhéal Feirste
-  comments:
   type: council_area
 BGE:
   name: Bridgend [Pen-y-bont ar Ogwr GB-POG]
@@ -833,19 +796,19 @@ BGE:
     te: బ్రిడ్జెండ్ కౌంటీ బోరో
     ta: பிரிட்ஜென்ட் கவுண்டி பாரூக்ஹ்
     bn: ব্রিজেন্ড কাউন্টি বরো
-    ccp: "\U0001111D\U00011133\U00011122\U00011128\U00011116\U00011134\U0001110E\U0001112C\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄝𑄳𑄢𑄨𑄖𑄴𑄎𑄬𑄚𑄳𑄓𑄴"
     gu: બ્રિજેન્ડ કાઉન્ટી બોરો
     ga: Pen-y-bont ar Ogwr
     kn: ಬ್ರಿಡ್ಜೆಂಡ್ ಕೌಂಟಿ ಬರೋ
     pt: Bridgend County Borough
     'no': Bridgend
     ps: بریډ جند
-  comments:
   type: unitary_authority
 BGW:
   name: Blaenau Gwent
   code: BGW
-  unofficial_names: Blaenau Gwent
+  unofficial_names:
+  - Blaenau Gwent
   geo:
     latitude: 51.7875779
     longitude: -3.2043931
@@ -883,18 +846,18 @@ BGW:
     te: బ్లెనావు గ్వెంట్ కౌంటీ బోరో
     ta: பிளேனு குவென்ட் கவுண்டி பாரூக்ஹ்
     bn: ব্লেইনউ গ্যেন্ট কাউন্টি বরো
-    ccp: "\U0001111D\U00011133\U00011123\U0001112C\U0001111A\U00011105\U0001112A \U00011109\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+    ccp: "𑄝𑄳𑄣𑄬𑄚𑄅𑄪 𑄉𑄬𑄚𑄴𑄑𑄴"
     gu: બ્લેનો ગ્વેંટ કાઉન્ટી બોરો
     ga: Blaenau Gwent
     kn: ಬ್ಲೇನೌ ಗ್ವೆಂಟ್ ಕೌಂಟಿ ಬರೋ
     'no': Blaenau Gwent
     da: Blaenau Gwent
-  comments:
   type: unitary_authority
 BIR:
   name: Birmingham
   code: BIR
-  unofficial_names: Birmingham
+  unofficial_names:
+  - Birmingham
   geo:
     latitude: 52.48624299999999
     longitude: -1.890401
@@ -965,16 +928,16 @@ BIR:
     zu: Birmingham
     ceb: City and Borough of Birmingham
     sr_Latn: Birmingem
-    ccp: "\U0001111D\U00011122\U00011134\U0001111F\U00011128\U00011101\U00011126\U0001111F\U00011134"
+    ccp: "𑄝𑄢𑄴𑄟𑄨𑄁𑄦𑄟𑄴"
     'no': Birmingham
     cy: Dinas Birmingham
     ga: Birmingham
-  comments:
   type: metropolitan_district
 BKM:
   name: Buckinghamshire
   code: BKM
-  unofficial_names: Buckinghamshire
+  unofficial_names:
+  - Buckinghamshire
   geo:
     latitude: 51.8072204
     longitude: -0.8127664
@@ -1035,7 +998,7 @@ BKM:
     ta: புக்கிங்ஹம்ஷிர்
     bn: বাকিংহামশায়ার
     yue_Hans: 白金汉郡
-    ccp: "\U0001111D\U00011107\U00011128\U00011101\U00011126\U0001111F\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄝𑄇𑄨𑄁𑄦𑄟𑄴𑄥𑄠𑄢𑄴"
     gu: બકિંગહામશાયર
     ka: ბაკინგემშირი
     ga: Buckinghamshire
@@ -1044,12 +1007,12 @@ BKM:
     mk: Бакингемшир
     'no': Buckinghamshire
     az: Bakingemşir
-  comments:
   type: two-tier_county
 BNE:
   name: Barnet
   code: BNE
-  unofficial_names: Barnet
+  unofficial_names:
+  - Barnet
   geo:
     latitude: 51.6569225
     longitude: -0.1949252
@@ -1103,19 +1066,19 @@ BNE:
     bn: বারনেট
     yue_Hans: 班列特
     el: Λονδρέζικο Προάστιο του Μπαρνέτ
-    ccp: "\U0001111D\U00011122\U00011134\U0001111A\U0001112C\U00011116\U00011134"
+    ccp: "𑄝𑄢𑄴𑄚𑄬𑄖𑄴"
     gu: લંડન બોરો ઓફ બાર્નેટ
     ga: Buirg Londan Barnet
     kn: ಬಾರ್ನೆಟ್ನ ಲಂಡನ್ ಬರೋ
     yue: 班列特
     mk: Барнет
     'no': Barnet
-  comments:
   type: london_borough
 BNH:
   name: Brighton and Hove
   code: BNH
-  unofficial_names: Brighton and Hove
+  unofficial_names:
+  - Brighton and Hove
   geo:
     latitude: 50.83516050000001
     longitude: -0.1261028
@@ -1161,8 +1124,7 @@ BNH:
     ta: பிரைட்டன் அண்ட் ஹொவ்
     bn: ব্রাইটন ও হোভ
     el: Μπράιτον εντ Χόουβ
-    ccp: "\U0001111D\U00011133\U00011122\U0001112D\U00011111\U00011127\U0001111A\U00011134
-      \U00011103\U00011133\U00011103 \U00011126\U0001112E\U0001111B\U00011134"
+    ccp: "𑄝𑄳𑄢𑄭𑄑𑄧𑄚𑄴 𑄃𑄳𑄃 𑄦𑄮𑄛𑄴"
     gu: બ્રાઇટન અને હોવ
     ga: Brighton & Hove
     kn: ಬ್ರೈಟನ್ ಮತ್ತು ಹೋವ್
@@ -1175,12 +1137,12 @@ BNH:
     is: Brighton og Hove
     yue: 白禮頓-賀夫
     yue_Hans: 白礼顿-贺夫
-  comments:
   type: unitary_authority
 BNS:
   name: Barnsley
   code: BNS
-  unofficial_names: Barnsley
+  unofficial_names:
+  - Barnsley
   geo:
     latitude: 53.55263
     longitude: -1.479726
@@ -1206,19 +1168,19 @@ BNS:
     zh: 巴恩斯利都市自治市
     ceb: Barnsley (kondado)
     fa: کلان‌شهر مستقل بارنزلی
-    ccp: "\U0001111D\U00011122\U00011134\U0001111A\U00011134\U0001110C\U00011133\U00011123\U0001112C"
+    ccp: "𑄝𑄢𑄴𑄚𑄴𑄌𑄳𑄣𑄬"
     uk: Барнслі
     be: Муніцыпальны раён Барнслі
     'no': Barnsley
     cy: Bwrdeistref Fetropolitan Barnsley
     fi: Barnsley
     ga: Barnsley
-  comments:
   type: metropolitan_district
 BOL:
   name: Bolton
   code: BOL
-  unofficial_names: Bolton
+  unofficial_names:
+  - Bolton
   geo:
     latitude: 53.57686469999999
     longitude: -2.4282192
@@ -1247,18 +1209,18 @@ BOL:
     zh: 博爾頓都市自治市
     ceb: Borough of Bolton
     fa: کلان‌شهر مستقل بولتون
-    ccp: "\U0001111D\U0001112E\U00011123\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄝𑄮𑄣𑄴𑄑𑄧𑄚𑄴"
     be: раён Болтан
     'no': Bolton
     cy: Bwrdeistref Fetropolitan Bolton
     ga: Bolton
     uk: Болтон
-  comments:
   type: metropolitan_district
 BPL:
   name: Blackpool
   code: BPL
-  unofficial_names: Blackpool
+  unofficial_names:
+  - Blackpool
   geo:
     latitude: 53.8175053
     longitude: -3.0356748
@@ -1318,7 +1280,7 @@ BPL:
     sr_Latn: Blekpul
     ta: ப்ளாக்ப்பூள்
     yue_Hans: 布力浦
-    ccp: "\U0001111D\U00011133\U00011123\U00011133\U00011120\U00011107\U00011134\U0001111B\U0001112A\U00011123\U00011134"
+    ccp: "𑄝𑄳𑄣𑄳𑄠𑄇𑄴𑄛𑄪𑄣𑄴"
     gu: બ્લેકપુલ
     ga: Blackpool
     ky: Блэкпул шаары
@@ -1328,12 +1290,12 @@ BPL:
     uz: Blekpul
     mk: Блекпул
     'no': Blackpool
-  comments:
   type: unitary_authority
 BRC:
   name: Bracknell Forest
   code: BRC
-  unofficial_names: Bracknell Forest
+  unofficial_names:
+  - Bracknell Forest
   geo:
     latitude: 51.4076953
     longitude: -0.729976
@@ -1365,8 +1327,7 @@ BRC:
     ta: பிரேக்கனெல்ல போரெஸ்ட்
     bn: ব্র্র্যাকনেল ফরেস্ট
     fa: برکنل فورست
-    ccp: "\U0001111D\U00011133\U00011122\U00011107\U00011134\U0001111A\U0001112C\U00011123\U00011134
-      \U0001111C\U00011127\U00011122\U0001112C\U00011125\U00011133\U00011111\U00011134"
+    ccp: "𑄝𑄳𑄢𑄇𑄴𑄚𑄬𑄣𑄴 𑄜𑄧𑄢𑄬𑄥𑄳𑄑𑄴"
     gu: બ્રેકનેલ ફોરેસ્ટ
     es: Bracknell Forest
     kn: ಬ್ರಾಕ್ನೆಲ್ ಫಾರೆಸ್ಟ್
@@ -1374,12 +1335,12 @@ BRC:
     cy: Bwrdeistref Bracknell Forest
     ga: Bracknell Forest
     hy: Բրեքնել Ֆորեսթ
-  comments:
   type: unitary_authority
 BRD:
   name: Bradford
   code: BRD
-  unofficial_names: Bradford
+  unofficial_names:
+  - Bradford
   geo:
     latitude: 53.795984
     longitude: -1.759398
@@ -1406,19 +1367,19 @@ BRD:
     ur: بریڈفورڈ شہر
     zh: 布拉德福德市
     ceb: Bradford
-    ccp: "\U0001111D\U00011133\U00011122\U00011116\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄝𑄳𑄢𑄖𑄴𑄜𑄮𑄢𑄴𑄓𑄴"
     hy: Բրադֆորդ
     es: Ciudad de Bradford
     uk: Брадфорд
     'no': City of Bradford
     cy: Dinas Bradford
     ga: Bradford
-  comments:
   type: metropolitan_district
 BRY:
   name: Bromley
   code: BRY
-  unofficial_names: Bromley
+  unofficial_names:
+  - Bromley
   geo:
     latitude: 51.406025
     longitude: 0.013156
@@ -1473,12 +1434,11 @@ BRY:
     ar: منطقة بروملي
     sr_Latn: Londonska opština Bromli
     sq: Bromley
-    ccp: "\U0001111D\U00011133\U00011122\U0001112E\U0001111F\U00011134\U00011123\U00011128"
+    ccp: "𑄝𑄳𑄢𑄮𑄟𑄴𑄣𑄨"
     ga: Bromley
     bs: Bromley
     mk: Бромли
     'no': Bromley
-  comments:
   type: london_borough
 BST:
   name: Bristol, City of
@@ -1555,7 +1515,7 @@ BST:
     sr_Latn: Bristol
     yue_Hans: 碧仙桃
     sq: Bristol
-    ccp: "\U0001111D\U00011133\U00011122\U00011128\U0001110C\U00011134\U00011111\U00011127\U00011123\U00011134"
+    ccp: "𑄝𑄳𑄢𑄨𑄌𑄴𑄑𑄧𑄣𑄴"
     ga: Briostó
     ha: Bristol
     pa: ਬਰਿਸਟਲ
@@ -1569,12 +1529,12 @@ BST:
     ha_NE: Bristol
     'no': Bristol
     yo_BJ: Bristol
-  comments:
   type: unitary_authority
 BUR:
   name: Bury
   code: BUR
-  unofficial_names: Bury
+  unofficial_names:
+  - Bury
   geo:
     latitude: 53.5933498
     longitude: -2.2966054
@@ -1600,19 +1560,19 @@ BUR:
     zh: 貝里都市自治市
     ceb: Borough of Bury
     fa: کلان‌شهر مستقل بری
-    ccp: "\U0001111D\U00011122\U00011128"
+    ccp: "𑄝𑄢𑄨"
     uk: Бері
     be: Беры
     'no': Bury
     cy: Bwrdeisdref Fetropolitan Bury
     ga: Bury
     hy: Բյուրի
-  comments:
   type: metropolitan_district
 CAM:
   name: Cambridgeshire
   code: CAM
-  unofficial_names: Cambridgeshire
+  unofficial_names:
+  - Cambridgeshire
   geo:
     latitude: 52.2052973
     longitude: 0.1218195
@@ -1671,7 +1631,7 @@ CAM:
     ta: கேம்பிறிட்ஜ்ஷிர்
     bn: কেমব্রিজশায়ার
     yue_Hans: 剑桥郡
-    ccp: "\U0001111D\U00011133\U00011120\U0001111F\U00011134\U0001111D\U00011133\U00011122\U00011128\U0001110C\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄝𑄳𑄠𑄟𑄴𑄝𑄳𑄢𑄨𑄌𑄴𑄥𑄠𑄢𑄴"
     gu: કેમ્બ્રિજશાયર
     ka: კემბრიჯშირი
     ga: Cambridgeshire
@@ -1681,7 +1641,6 @@ CAM:
     mk: Кембриџшир
     'no': Cambridgeshire
     az: Kembricşir
-  comments:
   type: two-tier_county
 CAY:
   name: Caerphilly [Caerffili GB-CAF]
@@ -1722,23 +1681,14 @@ CAY:
     cy: Bwrdeistref Sirol Caerffili
     ceb: Caerphilly County Borough
     fa: شهرستان مستقل کرفیلی
-    ccp: "\U00011107\U00011120\U0001112C\U00011122\U00011134\U0001111C\U00011128\U00011123\U00011128"
+    ccp: "𑄇𑄠𑄬𑄢𑄴𑄜𑄨𑄣𑄨"
     ga: Caerffili
     be: Кайрфілі
     'no': Caerphilly
-  comments:
   type: unitary_authority
 CBF:
   name: Central Bedfordshire
   code: CBF
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     da: Central Bedfordshire
     de: Central Bedfordshire
@@ -1761,8 +1711,7 @@ CBF:
     fa: بدفوردشر مرکزی
     yue_Hans: 中百福郡
     ja: ベッドフォードシャー中心部
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134
-      \U0001111D\U0001112C\U00011116\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴 𑄝𑄬𑄖𑄴𑄜𑄮𑄢𑄴𑄓𑄴𑄥𑄠𑄢𑄴"
     gu: સેન્ટ્રલ બેડફોર્ડશાયર
     es: Central Bedfordshire
     kn: ಸೆಂಟ್ರಲ್ ಬೆಡ್ಫೋರ್ಡ್ಶೈರ್
@@ -1771,19 +1720,10 @@ CBF:
     be: Цэнтральны Бедфардшыр
     ca: Central Bedfordshire
     cy: Canol Swydd Bedford
-  comments:
   type: unitary_authority
 CCG:
   name: Causeway Coast and Glens
   code: CCG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Causeway Coast and Glens
     en: Causeway Coast and Glens
@@ -1798,26 +1738,21 @@ CCG:
     bn: কোসওয়ে কোস্ট ও গ্লেনস
     fa: کازوی کوست و گلنز
     ru: Косвей-Кост и Гленс
-    ccp: "\U00011107\U00011127\U0001110C\U00011134\U00011124\U00011120\U0001112C \U00011107\U0001112E\U0001110C\U00011134\U00011111\U00011134
-      \U00011103\U00011133\U00011103 \U00011109\U00011133\U00011123\U0001112C\U0001111A\U00011134\U00011125\U00011134"
+    ccp: "𑄇𑄧𑄌𑄴𑄤𑄠𑄬 𑄇𑄮𑄌𑄴𑄑𑄴 𑄃𑄳𑄃 𑄉𑄳𑄣𑄬𑄚𑄴𑄥𑄴"
     gu: કોઝવે કોસ્ટ અને ગ્લેન્સ
     ko: 코즈웨이 연안과 글렌스
     es: Causeway Coast and Glens
     kn: ಕಾಸ್ವೇ ಕೋಸ್ಟ್ ಮತ್ತು ಗ್ಲೆನ್ಸ್
     pt: Causeway Coast and Glens
-  comments:
   type: district
 CGN:
   name: Ceredigion [Sir Ceredigion]
   code: CGN
-  unofficial_names: Ceredigion [Sir Ceredigion]
+  unofficial_names:
+  - Ceredigion [Sir Ceredigion]
   geo:
     latitude: 52.40728799999999
     longitude: -4.069603
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Ceredigion
     bg: Керъдигиън
@@ -1852,7 +1787,7 @@ CGN:
     ur: کیریدیجیون
     bn: কেরেডিজন
     fa: کردیگیون
-    ccp: "\U00011107\U0001112C\U00011122\U0001112C\U00011113\U00011128\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
+    ccp: "𑄇𑄬𑄢𑄬𑄓𑄨𑄎𑄨𑄠𑄧𑄚𑄴"
     gu: કેરેડિગિયોન
     ga: Ceredigion
     kn: ಸೆರೆಡಿಜನ್
@@ -1860,19 +1795,10 @@ CGN:
     'no': Ceredigion
     da: Ceredigion
     tr: Ceredigion
-  comments:
   type: unitary_authority
 CHE:
   name: Cheshire East
   code: CHE
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     be: Усходні Чэшыр
     de: Cheshire East
@@ -1893,7 +1819,7 @@ CHE:
     ta: கிழக்கு சேஸீர்
     bn: চেশায়ার ইস্ট
     fa: چشر شرقی
-    ccp: "\U00011107\U0001112C\U00011125\U00011120\U00011122\U00011134 \U0001111B\U0001112A\U00011107\U00011134"
+    ccp: "𑄇𑄬𑄥𑄠𑄢𑄴 𑄛𑄪𑄇𑄴"
     gu: ચેશાયર પૂર્વ
     hy: Արևելյան Չեշիր
     es: Cheshire East
@@ -1902,19 +1828,10 @@ CHE:
     ar: تشيشير إيست
     cy: Dwyrain Swydd Gaer
     ga: Cheshire Thoir
-  comments:
   type: unitary_authority
 CHW:
   name: Cheshire West and Chester
   code: CHW
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Cheshire West and Chester
     en: Cheshire West and Chester
@@ -1933,8 +1850,7 @@ CHW:
     bn: চেশায়ার ওয়েস্ট ও চেস্টার
     fa: چشر غربی و چستر
     ja: チェシャーウェスト・アンド・チェスター
-    ccp: "\U00011107\U0001112C\U00011125\U00011120\U00011122\U00011134 \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134
-      \U00011103\U00011133\U00011103 \U00011107\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄇𑄬𑄥𑄠𑄢𑄴 𑄛𑄧𑄏𑄨𑄟𑄴 𑄃𑄳𑄃 𑄇𑄬𑄌𑄴𑄑𑄢𑄴"
     gu: ચેશાયર પશ્ચિમ અને ચેસ્ટર
     gl: Cheshire West and Chester
     es: Cheshire West and Chester
@@ -1944,19 +1860,15 @@ CHW:
     cy: Gorllewin Swydd Gaer a Chaer
     fi: Cheshire West ja Chester
     hy: Չեստեր և Արևմտյան Չեշիր
-  comments:
   type: unitary_authority
 CLD:
   name: Calderdale
   code: CLD
-  unofficial_names: Calderdale
+  unofficial_names:
+  - Calderdale
   geo:
     latitude: 53.716157
     longitude: -1.85846
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Calderdale
     be: Калдэрдэйл
@@ -1978,19 +1890,19 @@ CLD:
     zh: 卡爾德達爾
     ceb: Calderdale
     fa: کالدردیل
-    ccp: "\U00011107\U00011133\U00011120\U00011123\U00011134\U00011113\U00011122\U00011134\U00011113\U00011123\U0001112C"
+    ccp: "𑄇𑄳𑄠𑄣𑄴𑄓𑄢𑄴𑄓𑄣𑄬"
     eu: Calderdale
     'no': Calderdale
     az: Kolderdeyl
     cy: Calderdale
     ga: Calderdale
     hy: Կալդերդեյլ
-  comments:
   type: metropolitan_district
 CLK:
   name: Clackmannanshire
   code: CLK
-  unofficial_names: Clackmannanshire
+  unofficial_names:
+  - Clackmannanshire
   geo:
     latitude: 56.1241394
     longitude: -3.758379
@@ -2030,18 +1942,18 @@ CLK:
     ta: கிளாக்க்மனிஷிர்
     ur: کلاکماننانشائر
     bn: ক্ল্যাকমান্নানশ্যার
-    ccp: "\U00011107\U00011133\U00011123\U00011133\U00011120\U0001110C\U00011134\U0001111F\U00011133\U00011120\U0001111A\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄇𑄳𑄣𑄳𑄠𑄌𑄴𑄟𑄳𑄠𑄚𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: ક્લેકમેનશાયર
     ga: Clach Mhanainn
     kn: ಕ್ಲಾಕ್ಮನ್ಶೈರ್
     'no': Clackmannanshire
     az: Klakmannanşir
-  comments:
   type: council_area
 CMA:
   name: Cumbria
   code: CMA
-  unofficial_names: Cumbria
+  unofficial_names:
+  - Cumbria
   geo:
     latitude: 54.5772323
     longitude: -2.7974835
@@ -2103,7 +2015,7 @@ CMA:
     ta: கும்பரியா
     bn: কাম্ব্রিয়া
     yue_Hans: 金巴伦郡
-    ccp: "\U00011107\U0001111F\U00011134\U0001111D\U00011133\U00011122\U00011128\U00011120"
+    ccp: "𑄇𑄟𑄴𑄝𑄳𑄢𑄨𑄠"
     gu: કમ્બ્રિયા
     ga: Cumbria
     kn: ಕುಂಬ್ರಿಯಾ
@@ -2111,12 +2023,12 @@ CMA:
     mk: Камбрија
     'no': Cumbria
     az: Kambriya
-  comments:
   type: two-tier_county
 CMD:
   name: Camden
   code: CMD
-  unofficial_names: Camden
+  unofficial_names:
+  - Camden
   geo:
     latitude: 51.55170589999999
     longitude: -0.1588255
@@ -2165,7 +2077,7 @@ CMD:
     ta: லண்டன் பாரூக்ஹ் கேம்டன்
     bn: ক্যামডেন
     yue_Hans: 剑顿区
-    ccp: "\U00011107\U00011133\U00011120\U0001111F\U00011134\U00011113\U0001112C\U0001111A\U00011134"
+    ccp: "𑄇𑄳𑄠𑄟𑄴𑄓𑄬𑄚𑄴"
     gu: લંડન બોરો ઓફ કેમડેન
     ga: Buirg Londan Camden
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಕ್ಯಾಮ್ಡೆನ್
@@ -2174,7 +2086,6 @@ CMD:
     'no': Camden
     ceb: Camden
     th: ลอนดอนโบโรออฟคามเดิน
-  comments:
   type: london_borough
 CMN:
   name: Carmarthenshire [Sir Gaerfyrddin GB-GFY]
@@ -2224,7 +2135,7 @@ CMN:
     ur: کارمارتھینشائر
     bn: কার্মাদেনশায়ার
     fa: کارمارتنشر
-    ccp: "\U00011107\U00011122\U00011134\U0001111F\U00011122\U00011134\U00011117\U0001112C\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄇𑄢𑄴𑄟𑄢𑄴𑄗𑄬𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: કાર્માથેનશાયર
     ga: Sir Gaerfyrddin
     kn: ಕಾರ್ಮರ್ಥನ್ಶೈರ್
@@ -2232,7 +2143,6 @@ CMN:
     be: Кармартэншыр
     'no': Carmarthenshire
     hy: Կարմարթենշիր
-  comments:
   type: unitary_authority
 CON:
   name: Cornwall
@@ -2300,19 +2210,19 @@ CON:
     ceb: Cornwall
     te: కార్న్వాల్
     sr_Latn: Kornvol
-    ccp: "\U00011107\U00011127\U00011122\U00011134\U0001111A\U00011134\U00011124\U00011123\U00011134"
+    ccp: "𑄇𑄧𑄢𑄴𑄚𑄴𑄤𑄣𑄴"
     gu: કોર્નવોલ
     ka: კორნუოლი
     kn: ಕಾರ್ನ್ವಾಲ್
     'no': Cornwall
     az: Kornuoll
     ga: Corn na Breataine
-  comments:
   type: unitary_authority
 COV:
   name: Coventry
   code: COV
-  unofficial_names: Coventry
+  unofficial_names:
+  - Coventry
   geo:
     latitude: 52.406822
     longitude: -1.519693
@@ -2379,11 +2289,10 @@ COV:
     zh: 考文垂
     ceb: Coventry
     sr_Latn: Koventri
-    ccp: "\U00011107\U0001112E\U0001111E\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011128"
+    ccp: "𑄇𑄮𑄞𑄬𑄚𑄴𑄑𑄳𑄢𑄨"
     'no': Coventry
     cy: Dinas Coventry
     ga: Coventry
-  comments:
   type: metropolitan_district
 CRF:
   name: Cardiff [Caerdydd GB-CRD]
@@ -2464,7 +2373,7 @@ CRF:
     yue_Hans: 卡迪夫
     jv: Cardiff
     sq: Kardif
-    ccp: "\U00011107\U00011122\U00011134\U00011113\U00011128\U0001111B\U00011134"
+    ccp: "𑄇𑄢𑄴𑄓𑄨𑄛𑄴"
     ga: Caerdydd
     ky: Кардифф
     pa: ਕਾਰਡਿਫ਼
@@ -2475,12 +2384,12 @@ CRF:
     bs: Cardiff
     mk: Кардиф
     'no': Cardiff
-  comments:
   type: unitary_authority
 CRY:
   name: Croydon
   code: CRY
-  unofficial_names: Croydon
+  unofficial_names:
+  - Croydon
   geo:
     latitude: 51.376165
     longitude: -0.098234
@@ -2524,12 +2433,11 @@ CRY:
     cy: Croydon
     ceb: Croydon
     tr: Croydon
-    ccp: "\U00011107\U00011133\U00011122\U00011130\U00011113\U00011127\U0001111A\U00011134"
+    ccp: "𑄇𑄳𑄢𑄰𑄓𑄧𑄚𑄴"
     ga: Buirg Londan Croydon
     hy: Քրոյդոն
     be: бора Кройдан
     'no': Croydon
-  comments:
   type: london_borough
 CWY:
   name: Conwy
@@ -2570,18 +2478,18 @@ CWY:
     cy: Bwrdeistref Sirol Conwy
     ceb: Conwy
     fa: شهرستان مستقل کانوی
-    ccp: "\U00011107\U00011127\U0001111A\U00011134\U00011103\U0001112A\U00011103\U00011128"
+    ccp: "𑄇𑄧𑄚𑄴𑄃𑄪𑄃𑄨"
     ga: Conwy
     cs: Conwy
     'no': Conwy
     da: Conwy County Borough
     pt: Conwy County Borough
-  comments:
   type: unitary_authority
 DAL:
   name: Darlington
   code: DAL
-  unofficial_names: Darlington
+  unofficial_names:
+  - Darlington
   geo:
     latitude: 54.52361
     longitude: -1.559458
@@ -2605,15 +2513,15 @@ DAL:
     uk: Дарлінгтон (район)
     zh: 達靈頓區
     ceb: Darlington (kondado)
-    ccp: "\U00011113\U00011122\U00011134\U00011123\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄓𑄢𑄴𑄣𑄨𑄁𑄑𑄧𑄚𑄴"
     'no': Darlington
     cy: Bwrdeistref Darlington
-  comments:
   type: unitary_authority
 DBY:
   name: Derbyshire
   code: DBY
-  unofficial_names: Derbyshire
+  unofficial_names:
+  - Derbyshire
   geo:
     latitude: 53.122322
     longitude: -1.5136821
@@ -2674,7 +2582,7 @@ DBY:
     sr_Latn: Darbišir
     ta: தேர்ப்யஷிர்
     yue_Hans: 打比郡
-    ccp: "\U00011113\U00011122\U00011134\U0001111D\U0001112D\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄓𑄢𑄴𑄝𑄭𑄥𑄠𑄢𑄴"
     gu: ડર્બિશાયર
     ga: Derbyshire
     kn: ಡರ್ಬಿಶೈರ್
@@ -2683,20 +2591,12 @@ DBY:
     'no': Derbyshire
     az: Derbişir
     my: ဒါဘီရှိုင်းယား
-  comments:
   type: two-tier_county
 DEN:
   name: Denbighshire [Sir Ddinbych GB-DDB]
   code: DEN
   unofficial_names:
   - Sir Ddinbych
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Denbighshire
     be: графства Дэнбішыр
@@ -2734,7 +2634,7 @@ DEN:
     ur: دینبیگھشائر
     bn: ডেনবিগশায়ার
     fa: دنبیشر
-    ccp: "\U00011113\U0001111A\U00011134\U0001111D\U0001112D\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄓𑄚𑄴𑄝𑄭𑄥𑄠𑄢𑄴"
     gu: ડેનબિઘશાયર
     ga: Sir Ddinbych
     kn: ಡೆನ್ಬಿಘೈರ್
@@ -2742,12 +2642,12 @@ DEN:
     'no': Denbighshire
     ar: دنبيشير
     da: Denbighshire
-  comments:
   type: unitary_authority
 DER:
   name: Derby
   code: DER
-  unofficial_names: Derby
+  unofficial_names:
+  - Derby
   geo:
     latitude: 52.9225301
     longitude: -1.4746186
@@ -2815,18 +2715,18 @@ DER:
     yue_Hans: 打比市
     jv: Derby
     sq: Derby
-    ccp: "\U00011113\U00011122\U00011134\U0001111D\U0001112D"
+    ccp: "𑄓𑄢𑄴𑄝𑄭"
     ga: Derby
     pa: ਡਰਬੀ
     yue: 打比市
     mk: Дарби
     'no': Derby
-  comments:
   type: unitary_authority
 DEV:
   name: Devon
   code: DEV
-  unofficial_names: Devon
+  unofficial_names:
+  - Devon
   geo:
     latitude: 50.77721349999999
     longitude: -3.999461
@@ -2890,7 +2790,7 @@ DEV:
     ta: டேவன்
     bn: ডেভন
     yue_Hans: 德云 （行政郡）
-    ccp: "\U00011113\U0001112C\U0001111E\U00011127\U0001111A\U00011134"
+    ccp: "𑄓𑄬𑄞𑄧𑄚𑄴"
     gu: ડેવોન
     ga: Devon
     kn: ಡೆವೊನ್
@@ -2898,12 +2798,12 @@ DEV:
     mk: Девон
     'no': Devon
     sq: Devon (Angli)
-  comments:
   type: two-tier_county
 DGY:
   name: Dumfries and Galloway
   code: DGY
-  unofficial_names: Dumfries and Galloway
+  unofficial_names:
+  - Dumfries and Galloway
   geo:
     latitude: 54.988285
     longitude: -3.8577839
@@ -2944,19 +2844,18 @@ DGY:
     te: డంఫ్రీస్ మరియు గాల్లోవే
     ta: டுமிபிரிஸ் & கல்லோவாய்
     bn: ডাম্ফ্রাই ও গালোভেই
-    ccp: "\U00011113\U0001112A\U0001111F\U00011134\U0001111C\U00011133\U00011122\U0001112D\U0001110C\U00011134
-      \U00011103\U00011133\U00011103 \U00011109\U00011133\U00011120\U00011123\U0001112E\U00011120\U0001112C"
+    ccp: "𑄓𑄪𑄟𑄴𑄜𑄳𑄢𑄭𑄌𑄴 𑄃𑄳𑄃 𑄉𑄳𑄠𑄣𑄮𑄠𑄬"
     gu: ડમફ્રીઝ અને ગેલોવે
     ga: Comhairle Dhún Phrís is Gall-Ghaidhealaibh
     kn: ಡಮ್ಫ್ರೀಸ್ ಮತ್ತು ಗ್ಯಾಲೋವೆ
     'no': Dumfries and Galloway
     hy: Դամֆրիս ընդ Գալոուեյ
-  comments:
   type: council_area
 DNC:
   name: Doncaster
   code: DNC
-  unofficial_names: Doncaster
+  unofficial_names:
+  - Doncaster
   geo:
     latitude: 53.52282
     longitude: -1.128462
@@ -2984,13 +2883,12 @@ DNC:
     ceb: Doncaster (kondado)
     fa: کلان‌شهر مستقل دانکستر
     ja: メトロポリタン・バラ・オブ・ドンカスター
-    ccp: "\U00011113\U00011127\U0001111A\U00011134\U00011107\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄓𑄧𑄚𑄴𑄇𑄌𑄴𑄑𑄢𑄴"
     'no': Doncaster (distrikt)
     az: Donkaster
     cy: Bwrdeistref Fetropolitan Doncaster
     fi: Doncaster
     ga: Doncaster
-  comments:
   type: metropolitan_district
 DND:
   name: Dundee City
@@ -3063,7 +2961,7 @@ DND:
     ceb: Dundee
     sr_Latn: Dandi
     yue_Hans: 登地
-    ccp: "\U00011113\U0001111A\U00011134\U00011113\U00011129"
+    ccp: "𑄓𑄚𑄴𑄓𑄩"
     ga: Dún Déagh
     ky: Данди
     kk: Данди
@@ -3071,12 +2969,12 @@ DND:
     uz: Dandi
     mk: Данди
     'no': Dundee
-  comments:
   type: council_area
 DOR:
   name: Dorset
   code: DOR
-  unofficial_names: Dorset
+  unofficial_names:
+  - Dorset
   geo:
     latitude: 50.7390661
     longitude: -2.3382346
@@ -3137,7 +3035,7 @@ DOR:
     ta: டோர்செட்
     bn: ডরসেট
     yue_Hans: 多实郡
-    ccp: "\U00011113\U00011127\U00011122\U00011134\U00011125\U0001112C\U00011116\U00011134"
+    ccp: "𑄓𑄧𑄢𑄴𑄥𑄬𑄖𑄴"
     gu: ડોરસેટ
     hy: Դորսետ
     kn: ಡಾರ್ಸೆಟ್
@@ -3145,19 +3043,10 @@ DOR:
     be: Дорсет
     mk: Дорсет
     'no': Dorset
-  comments:
   type: two-tier_county
 DRS:
   name: Derry and Strabane
   code: DRS
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Derry and Strabane
     en: Derry and Strabane
@@ -3169,16 +3058,15 @@ DRS:
     nl: Derry and Strabane
     zh: 德里城和斯特拉班
     fa: دری و استرابن
-    ccp: "\U00011113\U0001112C\U00011122\U00011128 \U00011103\U00011133\U00011103
-      \U0001110C\U00011133\U00011111\U00011133\U00011122\U00011133\U00011122\U00011133\U00011122\U00011127\U0001111D\U0001111A\U00011128"
+    ccp: "𑄓𑄬𑄢𑄨 𑄃𑄳𑄃 𑄌𑄳𑄑𑄳𑄢𑄳𑄢𑄳𑄢𑄧𑄝𑄚𑄨"
     es: Distrito de Derry y Strabane
     ga: Cathair Dhoire agus an Srath Bán
-  comments:
   type: district
 DUD:
   name: Dudley
   code: DUD
-  unofficial_names: Dudley
+  unofficial_names:
+  - Dudley
   geo:
     latitude: 52.512255
     longitude: -2.081112
@@ -3202,16 +3090,16 @@ DUD:
     zh: 達德利區
     ceb: Dudley
     fa: کلان‌شهر مستقل دادلی
-    ccp: "\U00011113\U0001112A\U00011116\U00011134\U00011123\U0001112C"
+    ccp: "𑄓𑄪𑄖𑄴𑄣𑄬"
     'no': Dudley
     cy: Bwrdeistref Fetropolitan Dudley
     ga: Dudley
-  comments:
   type: metropolitan_district
 DUR:
   name: Durham
   code: DUR
-  unofficial_names: Durham
+  unofficial_names:
+  - Durham
   geo:
     latitude: 54.77525
     longitude: -1.584852
@@ -3269,19 +3157,19 @@ DUR:
     ta: கவுண்டி டர்ஹாம்
     vi: Durham
     bn: কাউন্টি ডারহাম
-    ccp: "\U00011113\U0001112A\U00011122\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄓𑄪𑄢𑄴𑄦𑄟𑄴"
     gu: કાઉન્ટી ડરહામ
     gl: Condado de Durham
     kn: ಕೌಂಟಿ ಡರ್ಹಾಮ್
     'no': Durham
     el: κομητεία Ντέραμ
     ga: Contae Durham
-  comments:
   type: unitary_authority
 EAL:
   name: Ealing
   code: EAL
-  unofficial_names: Ealing
+  unofficial_names:
+  - Ealing
   geo:
     latitude: 51.5250257
     longitude: -0.3415002
@@ -3327,17 +3215,17 @@ EAL:
     ceb: Ealing
     tr: Ealing
     sr_Latn: Londonska opština Iling
-    ccp: "\U00011103\U00011128\U00011120\U00011122\U00011134\U00011123\U00011128\U00011101"
+    ccp: "𑄃𑄨𑄠𑄢𑄴𑄣𑄨𑄁"
     ga: Buirg Londan Ealing
     'no': Ealing
     it: Ealing
     th: ลอนดอนโบโรออฟอีลิง
-  comments:
   type: london_borough
 EAY:
   name: East Ayrshire
   code: EAY
-  unofficial_names: East Ayrshire
+  unofficial_names:
+  - East Ayrshire
   geo:
     latitude: 55.45923149999999
     longitude: -4.3338032
@@ -3382,13 +3270,12 @@ EAY:
     te: తూర్పు అయిర్షైర్
     ta: கிழக்கு அயர்ஸிர்
     bn: ইস্ট আরশায়ার
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011103\U00011120\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄃𑄠𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: પૂર્વ આયરશાયર
     ga: Comhairle Shiorrachd Áir an Ear
     kn: ಈಸ್ಟ್ ಐರ್ಶೈರ್
     kk: Ист-Эршир
     'no': East Ayrshire
-  comments:
   type: council_area
 EDH:
   name: Edinburgh, City of
@@ -3470,7 +3357,7 @@ EDH:
     sr_Latn: Edinburg
     yue_Hans: 爱丁堡
     sq: Edinburg
-    ccp: "\U00011103\U0001112C\U00011113\U0001111A\U00011134\U0001111D\U0001112A\U00011122\U00011126\U00011134"
+    ccp: "𑄃𑄬𑄓𑄚𑄴𑄝𑄪𑄢𑄦𑄴"
     ga: Dún Éideann
     pa: ਐਡਿਨਬਰਾ
     kk: Эдинбург
@@ -3482,12 +3369,12 @@ EDH:
     'no': Edinburgh
     jv: Edinburgh
     ky: Эдинбург
-  comments:
   type: council_area
 EDU:
   name: East Dunbartonshire
   code: EDU
-  unofficial_names: East Dunbartonshire
+  unofficial_names:
+  - East Dunbartonshire
   geo:
     latitude: 55.9755216
     longitude: -4.2105149
@@ -3529,17 +3416,17 @@ EDU:
     ta: கிழக்கு டான்பார்டோன்ஷிர்
     ur: ایسٹ دونبارٹنشائر
     bn: ইস্ট ডানবার্টনশায়ার
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011113\U0001112A\U0001111A\U00011134\U0001111D\U00011122\U00011134\U00011111\U0001112A\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄓𑄪𑄚𑄴𑄝𑄢𑄴𑄑𑄪𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: પૂર્વ ડનબર્ટનશાયર
     ga: Siorrachd Dhún Bhreatainn an Ear
     kn: ಈಸ್ಟ್ ಡನ್ಬಾರ್ಟನ್ಶೈರ್
     'no': East Dunbartonshire
-  comments:
   type: council_area
 ELN:
   name: East Lothian
   code: ELN
-  unofficial_names: East Lothian
+  unofficial_names:
+  - East Lothian
   geo:
     latitude: 55.9493383
     longitude: -2.7704464
@@ -3581,7 +3468,7 @@ ELN:
     ta: கிழக்கு லோதியன்
     ur: ایسٹ لوتھیان
     bn: ইস্ট লোথিয়ান
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011123\U0001112E\U00011111\U00011128\U00011120\U0001111A\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄣𑄮𑄑𑄨𑄠𑄚𑄴"
     gu: પૂર્વ લોથીયાન
     ga: Lodainn an Ear
     kn: ಪೂರ್ವ ಲೋಥಿಯನ್
@@ -3590,7 +3477,6 @@ ELN:
     hy: Արևելյան Լոթիան
     yue: 東洛錫安
     yue_Hans: 东洛锡安
-  comments:
   type: council_area
 ELS:
   name: Eilean Siar
@@ -3600,10 +3486,6 @@ ELS:
   geo:
     latitude: 57.76
     longitude: -7.02
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Outer Hebrides
     af: Buite-Hebride
@@ -3641,7 +3523,7 @@ ELS:
     ceb: Outer Hebrides
     sr_Latn: Spoljni Hebridi
     de_CH: Äussere Hebriden
-    ccp: "\U00011103\U0001112F\U00011111\U00011122\U00011134 \U00011126\U0001111D\U00011133\U00011122\U0001112D\U00011116\U00011134\U0001110C\U00011134"
+    ccp: "𑄃𑄯𑄑𑄢𑄴 𑄦𑄝𑄳𑄢𑄭𑄖𑄴𑄌𑄴"
     ga: Na hOileáin Siar
     da: Ydre Hebrider
     is: Ytri Suðureyjar
@@ -3652,12 +3534,12 @@ ELS:
     el: Εξωτερικές Εβρίδες
     he: ההיברידים החיצוניים
     th: เอาเตอร์เฮบริดีส
-  comments:
   type: council_area
 ENF:
   name: Enfield
   code: ENF
-  unofficial_names: Enfield
+  unofficial_names:
+  - Enfield
   geo:
     latitude: 51.6522994
     longitude: -0.0807119
@@ -3708,24 +3590,15 @@ ENF:
     sr_Latn: Londonska opština Enfild
     ta: லண்டன் பாரூக்ஹ் என்பீல்ட்
     bn: এনফিল্ড
-    ccp: "\U00011103\U0001112C\U0001111A\U00011134\U0001111C\U00011128\U00011123\U00011133\U00011113\U00011134"
+    ccp: "𑄃𑄬𑄚𑄴𑄜𑄨𑄣𑄳𑄓𑄴"
     gu: લંડન બોરો ઓફ એનફિલ્ડ
     ga: London Borough of Enfield
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಎನ್ಫೀಲ್ಡ್
     'no': Enfield
-  comments:
   type: london_borough
 ENG:
   name: England
   code: ENG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Engeland
     am: እንግሊዝ
@@ -3814,12 +3687,12 @@ ENG:
     yo_BJ: Ilɛ̀gɛ̀ɛ́sì
     yue: 英倫
     yue_Hans: 英伦
-  comments:
   type: country
 ERW:
   name: East Renfrewshire
   code: ERW
-  unofficial_names: East Renfrewshire
+  unofficial_names:
+  - East Renfrewshire
   geo:
     latitude: 55.74765
     longitude: -4.351420399999999
@@ -3855,10 +3728,9 @@ ERW:
     zh: 东伦弗鲁郡
     cy: Dwyrain Swydd Renfrew
     ceb: East Renfrewshire
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011122\U0001112C\U0001111A\U00011134\U0001111C\U00011133\U00011122\U0001112C\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄢𑄬𑄚𑄴𑄜𑄳𑄢𑄬𑄥𑄠𑄢𑄴"
     ga: Comhairle Shiorrachd Rinn Friú an Ear
     'no': East Renfrewshire
-  comments:
   type: council_area
 ERY:
   name: East Riding of Yorkshire
@@ -3919,8 +3791,7 @@ ERY:
     ta: கிழக்கு யோரக்ஷிர் ரைடிங்
     bn: ইয়র্কশায়ার ইস্ট রাইডিং
     yue_Hans: 东约郡
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011122\U0001112D\U00011113\U00011128\U00011101
-      \U00011103\U00011127\U0001111B\U00011134 \U00011103\U00011128\U00011120\U0001112E\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄢𑄭𑄓𑄨𑄁 𑄃𑄧𑄛𑄴 𑄃𑄨𑄠𑄮𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: ઇસ્ટ રાઇડિંગ ઓફ યોર્કશાયર
     ga: East Riding of Yorkshire
     kn: ಈಸ್ಟ್ ರೈಡಿಂಗ್ ಆಫ್ ಯಾರ್ಕ್ಷೈರ್
@@ -3928,12 +3799,12 @@ ERY:
     be: Усходні райдынг Ёркшыра
     mk: Источен Рајдинг Јоркшир
     'no': East Riding of Yorkshire
-  comments:
   type: unitary_authority
 ESS:
   name: Essex
   code: ESS
-  unofficial_names: Essex
+  unofficial_names:
+  - Essex
   geo:
     latitude: 51.76683689999999
     longitude: 0.4757762
@@ -3995,7 +3866,7 @@ ESS:
     ta: எஸ்ஸேஸ்
     bn: এসেক্স
     yue_Hans: 雅息士郡
-    ccp: "\U00011103\U00011128\U00011125\U0001112C\U00011107\U00011134"
+    ccp: "𑄃𑄨𑄥𑄬𑄇𑄴"
     gu: એસેક્સ
     ga: Essex
     kn: ಎಸ್ಸೆಕ್ಸ್
@@ -4005,12 +3876,12 @@ ESS:
     az: Esseks
     hr: Essex (grofovija)
     uz: Essex
-  comments:
   type: two-tier_county
 ESX:
   name: East Sussex
   code: ESX
-  unofficial_names: East Sussex
+  unofficial_names:
+  - East Sussex
   geo:
     latitude: 50.9285982
     longitude: 0.2764899
@@ -4070,7 +3941,7 @@ ESX:
     ta: கிழக்கு சுஸெஸ்
     bn: ইস্ট সাসেক্স
     yue_Hans: 东修适士
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U00011125\U00011125\U0001112C\U00011107\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄥𑄥𑄬𑄇𑄴"
     gu: પૂર્વ સુસેક્સ
     ka: აღმოსავლეთი სასექსი
     hy: Արևելյան Սասիքս
@@ -4082,12 +3953,12 @@ ESX:
     ga: Sussex Thoir
     hr: Istočni Sussex
     my: အိစက်စက်
-  comments:
   type: two-tier_county
 FAL:
   name: Falkirk
   code: FAL
-  unofficial_names: Falkirk
+  unofficial_names:
+  - Falkirk
   geo:
     latitude: 56.00187750000001
     longitude: -3.7839131
@@ -4124,7 +3995,7 @@ FAL:
     te: ఫాల్కిర్క్
     ta: பாலகிர்க்
     bn: ফলকার্ক
-    ccp: "\U0001111C\U00011127\U00011123\U00011134\U00011107\U00011128\U00011122\U00011134\U00011107\U00011134"
+    ccp: "𑄜𑄧𑄣𑄴𑄇𑄨𑄢𑄴𑄇𑄴"
     gu: ફેલકિર્ક
     ga: Comhairle na h-Eaglaise Brice
     es: Falkirk
@@ -4133,12 +4004,12 @@ FAL:
     ar: فالكيرك
     az: Falkerk
     he: פולקרק
-  comments:
   type: council_area
 FIF:
   name: Fife
   code: FIF
-  unofficial_names: Fife
+  unofficial_names:
+  - Fife
   geo:
     latitude: 56.2082078
     longitude: -3.1495175
@@ -4186,7 +4057,7 @@ FIF:
     ta: பைவ்
     bn: ফিফে
     yue_Hans: 快富
-    ccp: "\U0001111C\U0001112D\U0001111B\U00011134"
+    ccp: "𑄜𑄭𑄛𑄴"
     gu: ફાઈફ
     ga: Foibhe
     hy: Ֆայֆ
@@ -4198,7 +4069,6 @@ FIF:
     ar: فايف
     az: Fayf
     gl: Fife, Escocia
-  comments:
   type: council_area
 FLN:
   name: Flintshire [Sir y Fflint GB-FFL]
@@ -4248,26 +4118,17 @@ FLN:
     ur: فلینتشائر
     bn: স্যার ওয়াই ফ্লিন্ট
     fa: فلینتشر
-    ccp: "\U0001111C\U00011133\U00011123\U00011128\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄜𑄳𑄣𑄨𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: ફ્લિંટશાયર
     ga: Sir y Fflint
     kn: ಫ್ಲಿಂಟ್ಸ್ಶೈರ್
     'no': Flintshire
     az: Flintşir
     da: Flintshire
-  comments:
   type: unitary_authority
 FMO:
   name: Fermanagh and Omagh
   code: FMO
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Fermanagh and Omagh
     en: Fermanagh and Omagh
@@ -4277,15 +4138,14 @@ FMO:
     ur: فیرمانہ اور اوما
     nl: Fermanagh and Omagh
     fa: فرمانا و اوما
-    ccp: "\U0001111C\U00011122\U00011134\U0001111F\U0001111A\U00011107\U00011134 \U00011103\U00011133\U00011103
-      \U00011103\U0001112E\U0001111F\U00011107\U00011134"
+    ccp: "𑄜𑄢𑄴𑄟𑄚𑄇𑄴 𑄃𑄳𑄃 𑄃𑄮𑄟𑄇𑄴"
     ga: Fhear Manach agus na hÓmaí
-  comments:
   type: district
 GAT:
   name: Gateshead
   code: GAT
-  unofficial_names: Gateshead
+  unofficial_names:
+  - Gateshead
   geo:
     latitude: 54.95268
     longitude: -1.603411
@@ -4310,14 +4170,13 @@ GAT:
     ceb: Gateshead (kondado)
     fa: کلان‌شهر مستقل گیتس‌هد
     ja: メトロポリタン・バラ・オブ・ゲーツヘッド
-    ccp: "\U00011109\U0001112C\U00011116\U00011134\U00011125\U0001112C\U00011116\U00011134"
+    ccp: "𑄉𑄬𑄖𑄴𑄥𑄬𑄖𑄴"
     'no': Gateshead
     ca: Gateshead
     cy: Bwrdeistref Fetropolitan Gateshead
     ga: Gateshead
     he: גייטסהד
     uk: Метропольне бюро в Гейтсхеді
-  comments:
   type: metropolitan_district
 GLG:
   name: Glasgow City
@@ -4395,7 +4254,7 @@ GLG:
     yue_Hans: 格拉斯哥
     jv: Glasgow
     sq: Glasgow
-    ccp: "\U00011109\U00011133\U00011123\U0001110C\U00011134\U00011109\U0001112E"
+    ccp: "𑄉𑄳𑄣𑄌𑄴𑄉𑄮"
     ga: Glaschú
     ky: Глазго
     ha: Glasgow
@@ -4414,12 +4273,12 @@ GLG:
     mn: Глазгоу
     ps: ګلاسګو
     sd: گلاسگو
-  comments:
   type: council_area
 GLS:
   name: Gloucestershire
   code: GLS
-  unofficial_names: Gloucestershire
+  unofficial_names:
+  - Gloucestershire
   geo:
     latitude: 51.8642112
     longitude: -2.2380335
@@ -4479,7 +4338,7 @@ GLS:
     ta: க்ளோஸ்ஸ்டேர்ஷிர்
     bn: গ্লোচেস্টারশায়ার
     yue_Hans: 告罗士打郡
-    ccp: "\U00011109\U00011133\U00011123\U0001112E\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄉𑄳𑄣𑄮𑄥𑄬𑄌𑄴𑄑𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: ગ્લોસટરશાયર
     ka: გლოსტერშირი
     ga: Gloucestershire
@@ -4489,19 +4348,15 @@ GLS:
     az: Qlosterşir
     mk: Глостершир
     'no': Gloucestershire
-  comments:
   type: two-tier_county
 GRE:
   name: Greenwich
   code: GRE
-  unofficial_names: Greenwich
+  unofficial_names:
+  - Greenwich
   geo:
     latitude: 51.48257659999999
     longitude: -0.0076589
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Greenwich
     az: Qrinviç borosu
@@ -4540,19 +4395,19 @@ GRE:
     ceb: Greenwich (distrito)
     sr_Latn: Londonska opština Grinič
     yue_Hans: 格林尼治区
-    ccp: "\U00011109\U00011133\U00011122\U00011128\U0001111A\U00011134\U00011103\U0001112A\U00011103\U00011128\U0001110C\U00011134"
+    ccp: "𑄉𑄳𑄢𑄨𑄚𑄴𑄃𑄪𑄃𑄨𑄌𑄴"
     yue: 格林尼治區
     uz: Grinvich
     mk: Гринич
     'no': Greenwich
     fi: Royal Borough of Greenwich
     ga: Buirg Ríoga Greenwich
-  comments:
   type: london_borough
 GWN:
   name: Gwynedd
   code: GWN
-  unofficial_names: Gwynedd
+  unofficial_names:
+  - Gwynedd
   geo:
     latitude: 52.8928932
     longitude: -3.9958464
@@ -4601,7 +4456,7 @@ GWN:
     ur: جوینید
     bn: গেনেড
     el: Γκουίνεθ
-    ccp: "\U00011109\U0001112D\U0001111A\U0001112C\U00011116\U00011134"
+    ccp: "𑄉𑄭𑄚𑄬𑄖𑄴"
     gu: ગ્વિનેડ
     ga: Gwynedd
     kn: ಗ್ವಿನೆಡ್
@@ -4613,12 +4468,12 @@ GWN:
     sr: Гвинет
     sr_Latn: Gvinet
     tr: Gwynedd
-  comments:
   type: unitary_authority
 HAL:
   name: Halton
   code: HAL
-  unofficial_names: Halton
+  unofficial_names:
+  - Halton
   geo:
     latitude: 53.34902719999999
     longitude: -2.7136913
@@ -4650,7 +4505,7 @@ HAL:
     ta: ஹால்டன்
     bn: হাল্টন
     fa: هالتون
-    ccp: "\U00011126\U00011127\U00011123\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄦𑄧𑄣𑄴𑄑𑄧𑄚𑄴"
     gu: હોલ્ટન
     es: Halton
     kn: ಹ್ಯಾಲ್ಟನ್
@@ -4659,12 +4514,12 @@ HAL:
     'no': Halton
     cy: Bwrdeistref Halton
     ga: Halton
-  comments:
   type: unitary_authority
 HAM:
   name: Hampshire
   code: HAM
-  unofficial_names: Hampshire
+  unofficial_names:
+  - Hampshire
   geo:
     latitude: 51.0895203
     longitude: -1.216844
@@ -4727,7 +4582,7 @@ HAM:
     bn: হ্যাম্পশায়ার
     yue_Hans: 衡州郡
     jv: Hampshire
-    ccp: "\U00011126\U0001111F\U00011133\U0001111B\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄦𑄟𑄳𑄛𑄴𑄥𑄠𑄢𑄴"
     gu: હેમ્પશાયર
     ga: Hampshire
     kn: ಹ್ಯಾಂಪ್ಶೈರ್
@@ -4735,12 +4590,12 @@ HAM:
     mk: Хемпшир
     'no': Hampshire
     az: Hempşir
-  comments:
   type: two-tier_county
 HAV:
   name: Havering
   code: HAV
-  unofficial_names: Havering
+  unofficial_names:
+  - Havering
   geo:
     latitude: 51.577924
     longitude: 0.2120829
@@ -4788,24 +4643,20 @@ HAV:
     sr_Latn: Londonska opština Hejvering
     ta: லண்டன் பாரூக்ஹ் ஹாவேரிங்
     bn: হ্যাভারিং
-    ccp: "\U00011126\U0001111E\U0001112C\U00011122\U00011128\U00011101"
+    ccp: "𑄦𑄞𑄬𑄢𑄨𑄁"
     gu: લંડન બોરો ઓફ હેવરિંગ
     ga: Buirg Londan Havering
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಹಾವೆರಿಂಗ್
     'no': Havering
-  comments:
   type: london_borough
 HCK:
   name: Hackney
   code: HCK
-  unofficial_names: Hackney
+  unofficial_names:
+  - Hackney
   geo:
     latitude: 53.1563141
     longitude: -1.5750216
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Hackney
     af: London Borough of Hackney
@@ -4848,11 +4699,10 @@ HCK:
     ar: حي هكني في لندن
     tr: Hackney
     sr_Latn: Londoska opština Hekni
-    ccp: "\U00011126\U00011107\U00011134\U0001111A\U0001112C"
+    ccp: "𑄦𑄇𑄴𑄚𑄬"
     ga: London Borough of Hackney
     mk: Хакни
     'no': Hackney
-  comments:
   type: london_borough
 HEF:
   name: Herefordshire, County of
@@ -4918,7 +4768,7 @@ HEF:
     bn: হেয়ারফোর্ডশায়ার
     yue_Hans: 禧福郡
     el: Χέρεφορντσαϊρ
-    ccp: "\U00011126\U0001112C\U00011120\U00011122\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄦𑄬𑄠𑄢𑄴𑄜𑄮𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: હિયરફૉર્ડશાયર
     ka: ჰერეფორდშირი
     ga: Herefordshire
@@ -4927,12 +4777,12 @@ HEF:
     mk: Херефордшир
     'no': Herefordshire
     az: Herefordşir qraflığı
-  comments:
   type: unitary_authority
 HIL:
   name: Hillingdon
   code: HIL
-  unofficial_names: Hillingdon
+  unofficial_names:
+  - Hillingdon
   geo:
     latitude: 51.5351832
     longitude: -0.4481378
@@ -4982,18 +4832,18 @@ HIL:
     ar: ناحية هيلينغدون في لندن
     tr: Hillingdon
     sr_Latn: Londonska opština Hilingdon
-    ccp: "\U00011126\U00011128\U00011123\U00011128\U00011101\U00011113\U00011127\U0001111A\U00011134"
+    ccp: "𑄦𑄨𑄣𑄨𑄁𑄓𑄧𑄚𑄴"
     gu: હીલીંગડન બરો
     ga: Buirg Londan Hillingdon
     bs: Londonska općina Hillingdon
     mk: Хилингдон
     'no': Hillingdon
-  comments:
   type: london_borough
 HLD:
   name: Highland
   code: HLD
-  unofficial_names: Highland
+  unofficial_names:
+  - Highland
   geo:
     latitude: 57.3596139
     longitude: -5.0992763
@@ -5035,7 +4885,7 @@ HLD:
     ta: ஹயிலன்ட்
     ur: ہائی لینڈ
     bn: হাইল্যান্ড
-    ccp: "\U00011126\U0001112D\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄦𑄭𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     gu: હાઇલેન્ડ
     ga: Comhairle na Gáidhealtachd
     hu: Highland
@@ -5045,12 +4895,12 @@ HLD:
     'no': Highland
     he: היילנד
     hy: Հայլենդ
-  comments:
   type: council_area
 HMF:
   name: Hammersmith and Fulham
   code: HMF
-  unofficial_names: Hammersmith and Fulham
+  unofficial_names:
+  - Hammersmith and Fulham
   geo:
     latitude: 51.49901699999999
     longitude: -0.2291497
@@ -5096,8 +4946,7 @@ HMF:
     tr: Hammersmith ve Fulham
     sr_Latn: Londonska opština Hamersmit i Fulam
     yue_Hans: 咸默史密夫及富咸区
-    ccp: "\U00011126\U00011127\U0001111F\U00011122\U00011134\U0001110C\U00011133\U0001111F\U00011128\U00011116\U00011134
-      \U00011103\U00011133\U00011103 \U0001111C\U0001112A\U00011123\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄦𑄧𑄟𑄢𑄴𑄌𑄳𑄟𑄨𑄖𑄴 𑄃𑄳𑄃 𑄜𑄪𑄣𑄴𑄦𑄟𑄴"
     ga: Buirg Londan Hammersmith agus Fulham
     hy: Համերսմիթ և Ֆուլեմ
     hu: London Borough of Hammersmith and Fulham
@@ -5105,12 +4954,12 @@ HMF:
     be: Хамерсміт і Фулем
     mk: Хамерсмит и Фулам
     'no': Hammersmith and Fulham
-  comments:
   type: london_borough
 HNS:
   name: Hounslow
   code: HNS
-  unofficial_names: Hounslow
+  unofficial_names:
+  - Hounslow
   geo:
     latitude: 51.46092179999999
     longitude: -0.373149
@@ -5154,15 +5003,15 @@ HNS:
     ceb: Hounslow
     tr: Hounslow
     sr_Latn: Londonska opština Haunzlov
-    ccp: "\U00011126\U00011127\U00011105\U0001112A\U0001111A\U00011134\U00011125\U00011133\U00011123\U0001112E"
+    ccp: "𑄦𑄧𑄅𑄪𑄚𑄴𑄥𑄳𑄣𑄮"
     ga: Buirg Londan Hounslow
     'no': Hounslow
-  comments:
   type: london_borough
 HPL:
   name: Hartlepool
   code: HPL
-  unofficial_names: Hartlepool
+  unofficial_names:
+  - Hartlepool
   geo:
     latitude: 54.691745
     longitude: -1.212926
@@ -5190,7 +5039,7 @@ HPL:
     te: హార్ట్లిపూల్
     ta: ஹார்ட்லெபோல்
     bn: হার্টলপুল
-    ccp: "\U00011126\U00011122\U00011134\U00011111\U00011134\U00011123\U00011128\U0001111B\U0001112A\U00011123\U00011134"
+    ccp: "𑄦𑄢𑄴𑄑𑄴𑄣𑄨𑄛𑄪𑄣𑄴"
     gu: હાર્ટલપૂલ
     es: Hartlepool
     kn: ಹಾರ್ಟ್ಲೆಪಲ್
@@ -5198,12 +5047,12 @@ HPL:
     be: Хартлпул
     cy: Bwrdeistref Hartlepool
     hy: Հարթլփուլ
-  comments:
   type: unitary_authority
 HRT:
   name: Hertfordshire
   code: HRT
-  unofficial_names: Hertfordshire
+  unofficial_names:
+  - Hertfordshire
   geo:
     latitude: 51.80978229999999
     longitude: -0.2376744
@@ -5266,19 +5115,19 @@ HRT:
     ta: ஹெர்ட்போர்டஷிர்
     bn: হার্টফোর্ডশায়ার
     yue_Hans: 赫福郡
-    ccp: "\U00011126\U00011122\U00011134\U00011111\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄦𑄢𑄴𑄑𑄴𑄜𑄮𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: હર્ટફોર્ડશાયર
     ga: Hertfordshire
     kn: ಹರ್ಟ್ಫೋರ್ಡ್ಶೈರ್
     yue: 赫福郡
     mk: Хартфордшир
     'no': Hertfordshire
-  comments:
   type: two-tier_county
 HRW:
   name: Harrow
   code: HRW
-  unofficial_names: Harrow
+  unofficial_names:
+  - Harrow
   geo:
     latitude: 51.580559
     longitude: -0.341995
@@ -5323,15 +5172,15 @@ HRW:
     ceb: Harrow (distrito sa Hiniusang Gingharian)
     ar: حي هرو لندن
     sr_Latn: Londonska opština Harou
-    ccp: "\U00011126\U00011122\U0001112A"
+    ccp: "𑄦𑄢𑄪"
     ga: Buirg Londan Harrow
     'no': Harrow
-  comments:
   type: london_borough
 HRY:
   name: Haringey
   code: HRY
-  unofficial_names: Haringey
+  unofficial_names:
+  - Haringey
   geo:
     latitude: 51.5906113
     longitude: -0.1109709
@@ -5377,18 +5226,18 @@ HRY:
     tr: Haringey
     sr_Latn: Londonska opština Haringej
     el: Χάριγκεϋ
-    ccp: "\U00011126\U00011122\U00011128\U00011101\U00011109\U00011133\U00011120"
+    ccp: "𑄦𑄢𑄨𑄁𑄉𑄳𑄠"
     ga: Buirg Londan Haringey
     mk: Харинги
     'no': Haringey
     yue: 夏靈基
     yue_Hans: 夏灵基
-  comments:
   type: london_borough
 IOS:
   name: Isles of Scilly
   code: IOS
-  unofficial_names: Isles of Scilly
+  unofficial_names:
+  - Isles of Scilly
   geo:
     latitude: 49.925002
     longitude: -6.298672000000001
@@ -5446,8 +5295,7 @@ IOS:
     sr_Latn: Sili
     bn: স্কিলি দ্বীপসমূহ
     yue_Hans: 锡利群岛
-    ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011123\U0001112C\U0001110C\U00011134
-      \U00011103\U00011127\U0001111B\U00011134 \U00011125\U00011128\U00011123\U00011133\U00011126\U00011128"
+    ccp: "𑄃𑄨𑄌𑄴𑄣𑄬𑄌𑄴 𑄃𑄧𑄛𑄴 𑄥𑄨𑄣𑄳𑄦𑄨"
     gu: આઇલ્સ ઓફ સ્કીલી
     ga: Na Scillí
     kn: ಐಲ್ಸ್ ಆಫ್ ಸಿಲ್ಲಿ
@@ -5456,12 +5304,12 @@ IOS:
     'no': Scillyøyene
     gl: Illas Scilly
     lv: Sili salas
-  comments:
   type: unitary_authority
 IOW:
   name: Isle of Wight
   code: IOW
-  unofficial_names: Isle of Wight
+  unofficial_names:
+  - Isle of Wight
   geo:
     latitude: 50.69271759999999
     longitude: -1.3167103
@@ -5526,8 +5374,7 @@ IOW:
     bn: ইসল-অব-উইট
     sw: Kisiwa cha Wight
     yue_Hans: 威特岛
-    ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011123\U0001112C \U00011103\U00011127\U0001111B\U00011134
-      \U00011103\U0001112E\U00011120\U00011116\U00011134"
+    ccp: "𑄃𑄨𑄌𑄴𑄣𑄬 𑄃𑄧𑄛𑄴 𑄃𑄮𑄠𑄖𑄴"
     gu: આઇલ ઓફ વાઈટ
     ga: Inis Iocht
     kn: ಐಲ್ ಆಫ್ ವಿಟ್
@@ -5538,12 +5385,12 @@ IOW:
     'no': Wight
     hr: Otok Wight
     my: အယ်လော့ဝိုက်
-  comments:
   type: unitary_authority
 ISL:
   name: Islington
   code: ISL
-  unofficial_names: Islington
+  unofficial_names:
+  - Islington
   geo:
     latitude: 51.5465063
     longitude: -0.1058058
@@ -5588,18 +5435,18 @@ ISL:
     cy: Islington
     ceb: Islington
     sr_Latn: Londonska opština Izlington
-    ccp: "\U00011103\U00011128\U0001110C\U00011134\U00011123\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄃𑄨𑄌𑄴𑄣𑄨𑄁𑄑𑄧𑄚𑄴"
     ga: Buirg Londan Islington
     be: Ізлінгтан
     mk: Излингтон
     'no': Islington
     bg: Ислингтън
-  comments:
   type: london_borough
 IVC:
   name: Inverclyde
   code: IVC
-  unofficial_names: Inverclyde
+  unofficial_names:
+  - Inverclyde
   geo:
     latitude: 55.9118089
     longitude: -4.7359063
@@ -5640,17 +5487,17 @@ IVC:
     ur: انویرکلیدی
     bn: ইনভিরক্লাইড
     sq: Inverclyde
-    ccp: "\U00011103\U00011128\U0001111A\U00011134\U0001111E\U00011122\U00011134\U00011107\U00011133\U00011123\U0001112D\U00011113\U00011128"
+    ccp: "𑄃𑄨𑄚𑄴𑄞𑄢𑄴𑄇𑄳𑄣𑄭𑄓𑄨"
     gu: ઈન્વરક્લાઇડ
     ga: Comhairle Inbhir Chluaidh
     kn: ಇನ್ವರ್ಕ್ಲೈಡ್
     'no': Inverclyde
-  comments:
   type: council_area
 KEC:
   name: Kensington and Chelsea
   code: KEC
-  unofficial_names: Kensington and Chelsea
+  unofficial_names:
+  - Kensington and Chelsea
   geo:
     latitude: 51.4990805
     longitude: -0.1938253
@@ -5703,8 +5550,7 @@ KEC:
     sr_Latn: Londonska opština Kensington i Čelsi
     ta: ராயல் பாரூக்ஹ் ஆப் கென்சிங்டன் & செல்சியா
     bn: কেনসিংটন ও চেলসি
-    ccp: "\U00011107\U0001112C\U0001111A\U00011134\U00011125\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134
-      \U00011103\U00011133\U00011103 \U0001110C\U0001112C\U00011123\U00011134\U0001110C\U00011128"
+    ccp: "𑄇𑄬𑄚𑄴𑄥𑄨𑄁𑄑𑄧𑄚𑄴 𑄃𑄳𑄃 𑄌𑄬𑄣𑄴𑄌𑄨"
     gu: રોયલ બોરો ઓફ કેન્સિંગ્ટન અને ચેલ્સી
     ga: Buirg Ríoga Kensington agus Chelsea
     kn: ರಾಯಲ್ ಬರೋ ಆಫ್ ಕೆನ್ಸಿಂಗ್ಟನ್ ಮತ್ತು ಚೆಲ್ಸಿಯಾ
@@ -5713,12 +5559,12 @@ KEC:
     az: Kensinqton və Çelsi
     el: Βασιλικός Δήμος του Κένσινγκτον και Τσέλσι
     th: รอยัลโบโรออฟเคนซิงทันแอนด์เชลซี
-  comments:
   type: london_borough
 KEN:
   name: Kent
   code: KEN
-  unofficial_names: Kent
+  unofficial_names:
+  - Kent
   geo:
     latitude: 51.2787075
     longitude: 0.5217254000000001
@@ -5781,7 +5627,7 @@ KEN:
     ta: கென்ட்
     bn: কেন্ট
     yue_Hans: 根德郡 (行政郡)
-    ccp: "\U00011107\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+    ccp: "𑄇𑄬𑄚𑄴𑄑𑄴"
     gu: કેન્ટ
     ga: Kent
     kn: ಕೆಂಟ್
@@ -5792,7 +5638,6 @@ KEN:
     'no': Kent
     hr: Kent, grofovija
     ne: केन्ट
-  comments:
   type: two-tier_county
 KHL:
   name: Kingston upon Hull, City of
@@ -5865,19 +5710,18 @@ KHL:
     ceb: City of Kingston upon Hull
     sr_Latn: Kingston na Halu
     yue_Hans: 侯城
-    ccp: "\U00011107\U00011128\U00011101\U0001110C\U00011133\U00011111\U00011127\U0001111A\U00011134
-      \U00011103\U0001111B\U00011127\U0001111A\U00011134 \U00011126\U0001112A\U00011123\U00011134"
+    ccp: "𑄇𑄨𑄁𑄌𑄳𑄑𑄧𑄚𑄴 𑄃𑄛𑄧𑄚𑄴 𑄦𑄪𑄣𑄴"
     ga: Kingston upon Hull
     yue: 侯城
     mk: Кингстон на Хал
     'no': Kingston upon Hull
     ky: Кингстон-Апон-Халл
-  comments:
   type: unitary_authority
 KIR:
   name: Kirklees
   code: KIR
-  unofficial_names: Kirklees
+  unofficial_names:
+  - Kirklees
   geo:
     latitude: 52.6020536
     longitude: 1.2803263
@@ -5907,7 +5751,7 @@ KIR:
     zh: 柯克利斯
     ceb: Kirklees
     fa: کیرکلیس
-    ccp: "\U00011107\U00011128\U00011122\U00011134\U00011107\U00011134\U00011123\U00011128\U0001110C\U00011134"
+    ccp: "𑄇𑄨𑄢𑄴𑄇𑄴𑄣𑄨𑄌𑄴"
     hy: Կիրկլիս
     uk: Кірклісс
     'no': Kirklees
@@ -5917,12 +5761,12 @@ KIR:
     el: Κέρκλις
     fi: Kirklees
     ga: Kirklees
-  comments:
   type: metropolitan_district
 KTT:
   name: Kingston upon Thames
   code: KTT
-  unofficial_names: Kingston upon Thames
+  unofficial_names:
+  - Kingston upon Thames
   geo:
     latitude: 51.41233
     longitude: -0.300689
@@ -5965,18 +5809,17 @@ KTT:
     ceb: Royal Kingston upon Thames
     tr: Kingston upon Thames
     sr_Latn: Londonska opština Kingston na Temzi
-    ccp: "\U00011107\U00011128\U00011101\U0001110C\U00011133\U00011111\U00011127\U0001111A\U00011134
-      \U00011103\U0001111B\U00011127\U0001111A\U00011134 \U00011117\U0001112C\U0001111F\U00011134\U0001110C\U00011134"
+    ccp: "𑄇𑄨𑄁𑄌𑄳𑄑𑄧𑄚𑄴 𑄃𑄛𑄧𑄚𑄴 𑄗𑄬𑄟𑄴𑄌𑄴"
     ka: კინგსტონ-აპონ-თემზი
     ga: Ríoga Buirg an Kingston ar Tamais
     mk: Кралски реон Кингстон на Темза
     'no': Kingston upon Thames
-  comments:
   type: london_borough
 KWL:
   name: Knowsley
   code: KWL
-  unofficial_names: Knowsley
+  unofficial_names:
+  - Knowsley
   geo:
     latitude: 53.454594
     longitude: -2.852907
@@ -6007,7 +5850,7 @@ KWL:
     ta: கினோவ்ஸ்லே
     bn: নোজলে
     fa: کلان‌شهر مستقل نوزلی
-    ccp: "\U0001111A\U0001112E\U0001110C\U00011134\U00011123\U00011128"
+    ccp: "𑄚𑄮𑄌𑄴𑄣𑄨"
     gu: નોસ્લી
     es: Knowsley
     kn: ನೋಸ್ಲೇ
@@ -6018,12 +5861,12 @@ KWL:
     cy: Bwrdeistref Fetropolitan Knowsley
     ga: Knowsley
     hu: Knowsley
-  comments:
   type: metropolitan_district
 LAN:
   name: Lancashire
   code: LAN
-  unofficial_names: Lancashire
+  unofficial_names:
+  - Lancashire
   geo:
     latitude: 53.9690089
     longitude: -2.6276908
@@ -6085,7 +5928,7 @@ LAN:
     ta: லேன்கஷீர்
     bn: ল্যাঙ্কাশায়ার
     yue_Hans: 兰开夏郡
-    ccp: "\U00011123\U00011133\U00011120\U0001111A\U00011134\U00011107\U0001112C\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄣𑄳𑄠𑄚𑄴𑄇𑄬𑄥𑄠𑄢𑄴"
     gu: લન્કાશાયર
     ga: Lancashire
     kn: ಲಂಕಾಷೈರ್
@@ -6093,19 +5936,10 @@ LAN:
     be: Ланкашыр
     mk: Ланкашир
     'no': Lancashire
-  comments:
   type: two-tier_county
 LBC:
   name: Lisburn and Castlereagh
   code: LBC
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Lisburn and Castlereagh
     en: Lisburn and Castlereagh
@@ -6115,15 +5949,14 @@ LBC:
     ur: لسبرن اور کیسلرے
     nl: Lisburn and Castlereagh
     fa: لیسبورن و کاسلری
-    ccp: "\U00011123\U00011128\U0001110C\U00011134\U0001111D\U00011122\U00011134\U0001111A\U00011134
-      \U00011103\U00011133\U00011103 \U00011107\U00011133\U00011120\U00011125\U00011127\U00011123\U00011134\U00011122\U00011128\U00011107\U00011134"
+    ccp: "𑄣𑄨𑄌𑄴𑄝𑄢𑄴𑄚𑄴 𑄃𑄳𑄃 𑄇𑄳𑄠𑄥𑄧𑄣𑄴𑄢𑄨𑄇𑄴"
     ru: Лисберн и Каслри
-  comments:
   type: district
 LBH:
   name: Lambeth
   code: LBH
-  unofficial_names: Lambeth
+  unofficial_names:
+  - Lambeth
   geo:
     latitude: 51.4571477
     longitude: -0.1230681
@@ -6171,7 +6004,7 @@ LBH:
     ceb: Lambeth (distrito)
     tr: Lambeth
     sr_Latn: Londonska opština Lambet
-    ccp: "\U00011123\U0001111F\U00011134\U0001111D\U0001112C\U00011116\U00011134"
+    ccp: "𑄣𑄟𑄴𑄝𑄬𑄖𑄴"
     ga: Buirg Londan Lambeth
     hu: London Borough of Lambeth
     'no': Lambeth
@@ -6179,12 +6012,12 @@ LBH:
     ka: ლამბეთი
     yue: 琳寶區
     yue_Hans: 琳宝区
-  comments:
   type: london_borough
 LCE:
   name: Leicester
   code: LCE
-  unofficial_names: Leicester
+  unofficial_names:
+  - Leicester
   geo:
     latitude: 52.6368778
     longitude: -1.1397592
@@ -6251,16 +6084,16 @@ LCE:
     zh: 莱斯特
     ceb: City of Leicester
     sr_Latn: Lester
-    ccp: "\U00011123\U0001112C\U0001112D\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄣𑄬𑄭𑄥𑄬𑄌𑄴𑄑𑄢𑄴"
     'no': Leicester
     cy: Dinas Caerlŷr
     ga: Cathair Leicester
-  comments:
   type: unitary_authority
 LDS:
   name: Leeds
   code: LDS
-  unofficial_names: Leeds
+  unofficial_names:
+  - Leeds
   geo:
     latitude: 53.8007554
     longitude: -1.5490774
@@ -6290,7 +6123,7 @@ LDS:
     ur: لیڈز شہر
     zh: 里茲市
     fa: سیتی لیدز
-    ccp: "\U00011123\U00011129\U00011116\U00011134\U0001110C\U00011134"
+    ccp: "𑄣𑄩𑄖𑄴𑄌𑄴"
     uk: Сіті-оф-Лідс
     az: Lids
     mk: Град Лидс
@@ -6301,12 +6134,12 @@ LDS:
     cy: Dinas Leeds
     ga: Leeds
     hy: Սիթի օֆ Լիդս
-  comments:
   type: metropolitan_district
 LEC:
   name: Leicestershire
   code: LEC
-  unofficial_names: Leicestershire
+  unofficial_names:
+  - Leicestershire
   geo:
     latitude: 52.74012279999999
     longitude: -1.1405925
@@ -6370,7 +6203,7 @@ LEC:
     el: Λέστερσαϊρ
     jv: Leicestershire
     sq: Leicestershire
-    ccp: "\U00011123\U0001112C\U0001112D\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄣𑄬𑄭𑄥𑄬𑄌𑄴𑄑𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: લીકેસ્ટરશાયર
     ka: ლესტერშირი
     ga: Leicestershire
@@ -6380,12 +6213,12 @@ LEC:
     mk: Лестершир
     'no': Leicestershire
     az: Lesterşir
-  comments:
   type: two-tier_county
 LEW:
   name: Lewisham
   code: LEW
-  unofficial_names: Lewisham
+  unofficial_names:
+  - Lewisham
   geo:
     latitude: 51.4414579
     longitude: -0.0117006
@@ -6430,17 +6263,17 @@ LEW:
     ceb: Lewisham
     ar: لويشام
     sr_Latn: Londonska opština Luišam
-    ccp: "\U00011123\U0001112C\U00011103\U0001112A\U00011103\U00011128\U00011125\U00011133\U00011120\U0001111F\U00011134"
+    ccp: "𑄣𑄬𑄃𑄪𑄃𑄨𑄥𑄳𑄠𑄟𑄴"
     ga: Buirg Londan Lewisham
     be: Луішэм
     mk: Луишам
     'no': Lewisham
-  comments:
   type: london_borough
 LIN:
   name: Lincolnshire
   code: LIN
-  unofficial_names: Lincolnshire
+  unofficial_names:
+  - Lincolnshire
   geo:
     latitude: 53.2178821
     longitude: -0.1999702
@@ -6503,7 +6336,7 @@ LIN:
     bn: লিংকনশায়ার
     yue_Hans: 林肯郡
     sq: Lincolnshire
-    ccp: "\U00011123\U00011128\U0001111A\U00011134\U00011107\U0001112E\U00011123\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄣𑄨𑄚𑄴𑄇𑄮𑄣𑄴𑄥𑄠𑄢𑄴"
     gu: લિંકનશાયર
     ka: ლინკოლნშირი
     ga: Lincolnshire
@@ -6512,12 +6345,12 @@ LIN:
     az: Linkolnşir
     mk: Линколншир
     'no': Lincolnshire
-  comments:
   type: two-tier_county
 LIV:
   name: Liverpool
   code: LIV
-  unofficial_names: Liverpool
+  unofficial_names:
+  - Liverpool
   geo:
     latitude: 53.4083714
     longitude: -2.9915726
@@ -6588,16 +6421,16 @@ LIV:
     zh: 利物浦
     ceb: Liverpool (kondado sa Hiniusang Gingharian, Inglatera, lat 53,42, long -2,92)
     sr_Latn: Liverpul
-    ccp: "\U00011123\U00011128\U0001111E\U00011122\U00011134\U0001111B\U0001112A\U00011123\U00011134"
+    ccp: "𑄣𑄨𑄞𑄢𑄴𑄛𑄪𑄣𑄴"
     'no': Liverpool
     cy: Dinas Lerpwl
     ga: Learpholl
-  comments:
   type: metropolitan_district
 LND:
   name: London, City of
   code: LND
-  unofficial_names: London, City of
+  unofficial_names:
+  - London, City of
   geo:
     latitude: 51.5073509
     longitude: -0.1277583
@@ -6667,7 +6500,7 @@ LND:
     yue_Hans: 伦敦市
     jv: London
     sq: Londra
-    ccp: "\U00011123\U00011127\U0001111A\U00011134\U00011113\U00011127\U0001111A\U00011134"
+    ccp: "𑄣𑄧𑄚𑄴𑄓𑄧𑄚𑄴"
     sd: لنڊن
     ga: Cathair Londan
     ig: London
@@ -6696,12 +6529,12 @@ LND:
     tk: London
     ha_NE: Landan
     'no': City of London
-  comments:
   type: city_corporation
 LUT:
   name: Luton
   code: LUT
-  unofficial_names: Luton
+  unofficial_names:
+  - Luton
   geo:
     latitude: 51.8786707
     longitude: -0.4200255
@@ -6755,7 +6588,7 @@ LUT:
     ta: லூடன்
     bn: লুটন
     yue_Hans: 卢顿
-    ccp: "\U00011123\U00011128\U00011105\U0001112A\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄣𑄨𑄅𑄪𑄑𑄧𑄚𑄴"
     gu: લ્યુટોન
     ga: Luton
     kn: ಲುಟನ್
@@ -6764,12 +6597,12 @@ LUT:
     yue: 盧頓
     mk: Лутон
     'no': Luton
-  comments:
   type: unitary_authority
 MAN:
   name: Manchester
   code: MAN
-  unofficial_names: Manchester
+  unofficial_names:
+  - Manchester
   geo:
     latitude: 53.4807593
     longitude: -2.2426305
@@ -6840,16 +6673,16 @@ MAN:
     zh: 曼彻斯特
     ceb: Manchester
     sr_Latn: Mančester
-    ccp: "\U0001111F\U00011133\U00011120\U0001111A\U00011134\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄟𑄳𑄠𑄚𑄴𑄥𑄬𑄌𑄴𑄑𑄢𑄴"
     'no': Manchester
     cy: Dinas Manceinion
     ga: Manchain
-  comments:
   type: metropolitan_district
 MDB:
   name: Middlesbrough
   code: MDB
-  unofficial_names: Middlesbrough
+  unofficial_names:
+  - Middlesbrough
   geo:
     latitude: 54.574227
     longitude: -1.234956
@@ -6909,7 +6742,7 @@ MDB:
     ta: மிட்ட்லேஸ்ப்ரவுக்ஹ்
     bn: মিডলসব্রো
     yue_Hans: 米杜士堡
-    ccp: "\U0001111F\U00011128\U00011113\U00011127\U00011123\U00011134\U0001110C\U00011134\U0001111D\U00011133\U00011122\U0001112F"
+    ccp: "𑄟𑄨𑄓𑄧𑄣𑄴𑄌𑄴𑄝𑄳𑄢𑄯"
     gu: મીડલ્સબ્રો
     ga: Middlesbrough
     kn: ಮಿಡಲ್ಸ್ಬರೋ
@@ -6919,12 +6752,12 @@ MDB:
     yue: 米杜士堡
     bs: Middlesbrough
     'no': Middlesbrough
-  comments:
   type: unitary_authority
 MDW:
   name: Medway
   code: MDW
-  unofficial_names: Medway
+  unofficial_names:
+  - Medway
   geo:
     latitude: 51.4084923
     longitude: 0.5878457
@@ -6957,7 +6790,7 @@ MDW:
     ar: ميدواي
     te: మిడ్ వే
     bn: মেডওয়ে
-    ccp: "\U0001111F\U00011128\U00011116\U00011134\U00011124\U0001112C"
+    ccp: "𑄟𑄨𑄖𑄴𑄤𑄬"
     gu: મેડવે
     ga: Medway
     kn: ಮೆಡ್ವೇ
@@ -6971,19 +6804,10 @@ MDW:
     hr: Medway, Kent
     id: Medway
     is: Medway
-  comments:
   type: unitary_authority
 MEA:
   name: Mid and East Antrim
   code: MEA
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Mid and East Antrim
     en: Mid and East Antrim
@@ -6998,19 +6822,18 @@ MEA:
     nl: Mid and East Antrim
     bn: মিড এবং ইস্ট এন্ট্রাম
     fa: مید و انتریم شرقی
-    ccp: "\U0001111F\U00011128\U00011116\U00011134 \U00011103\U00011133\U00011103
-      \U00011103\U00011128\U0001110C\U00011134\U00011111\U00011134 \U00011103\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011128\U0001111F\U00011134"
+    ccp: "𑄟𑄨𑄖𑄴 𑄃𑄳𑄃 𑄃𑄨𑄌𑄴𑄑𑄴 𑄃𑄚𑄴𑄑𑄳𑄢𑄨𑄟𑄴"
     gu: મધ્ય અને પૂર્વ ઍન્ટ્રિમ
     ko: 중부와 동부 앤트림
     es: Mid and East Antrim
     kn: ಮಿಡ್ ಮತ್ತು ಈಸ್ಟ್ ಆಂಟ್ರಿಮ್
     pt: Mid and East Antrim
-  comments:
   type: district
 MIK:
   name: Milton Keynes
   code: MIK
-  unofficial_names: Milton Keynes
+  unofficial_names:
+  - Milton Keynes
   geo:
     latitude: 52.0406224
     longitude: -0.7594171
@@ -7038,8 +6861,7 @@ MIK:
     te: మిల్టన్ కీన్స్
     ta: மில்டன் கேயனெஸ்
     bn: মিল্টন কিনস
-    ccp: "\U0001111F\U00011128\U00011123\U00011134\U00011111\U00011127\U0001111A\U00011134
-      \U00011107\U00011128\U0001111A\U0001112C\U0001110C\U00011134"
+    ccp: "𑄟𑄨𑄣𑄴𑄑𑄧𑄚𑄴 𑄇𑄨𑄚𑄬𑄌𑄴"
     gu: મિલ્ટન કેઇન્સ
     kn: ಮಿಲ್ಟನ್ ಕೀನ್ಸ್
     pt: Milton Keynes
@@ -7049,12 +6871,12 @@ MIK:
     el: Μίλτον Κινζ
     fi: Milton Keynes
     zh: 米尔顿凯恩斯区
-  comments:
   type: unitary_authority
 MLN:
   name: Midlothian
   code: MLN
-  unofficial_names: Midlothian
+  unofficial_names:
+  - Midlothian
   geo:
     latitude: 55.8292247
     longitude: -3.1338428
@@ -7097,7 +6919,7 @@ MLN:
     ta: மிடலோதியான்
     ur: میدلوتھیان
     bn: মিডলোথিয়ান
-    ccp: "\U0001111F\U00011128\U00011116\U00011134\U00011123\U0001112E\U00011117\U00011128\U00011120\U0001111A\U00011134"
+    ccp: "𑄟𑄨𑄖𑄴𑄣𑄮𑄗𑄨𑄠𑄚𑄴"
     gu: મિડલોથિઆન
     ga: Labhaidh Láir
     kn: ಮಿಡ್ಲೊಥಿಯನ್
@@ -7105,7 +6927,6 @@ MLN:
     'no': Midlothian
     he: מידלוטיאן
     tr: Midlothian
-  comments:
   type: council_area
 MON:
   name: Monmouthshire [Sir Fynwy GB-FYN]
@@ -7156,7 +6977,7 @@ MON:
     ta: மொன்மொஉத்க்ஷிர்
     ur: مونمووتھشائر
     fa: مونموت‌شر
-    ccp: "\U0001111F\U0001111A\U00011134\U0001111F\U00011105\U0001112A\U00011116\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄟𑄚𑄴𑄟𑄅𑄪𑄖𑄴𑄥𑄠𑄢𑄴"
     gu: મોનમાઉથશાયર
     ga: Sir Fynwy
     kn: ಮೊನ್ಮೌತ್ಶೈರ್
@@ -7165,19 +6986,15 @@ MON:
     hy: Մոնմութշիր
     sq: Monmouthshire
     tr: Monmouthshire
-  comments:
   type: unitary_authority
 MRT:
   name: Merton
   code: MRT
-  unofficial_names: Merton
+  unofficial_names:
+  - Merton
   geo:
     latitude: 50.891854
     longitude: -4.095316
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Merton
     ca: Merton
@@ -7218,18 +7035,18 @@ MRT:
     ta: லண்டன் பாரூக்ஹ் ஆப் மெர்டோன்
     bn: মেটন
     el: Λονδρέζικος Δήμος του Μέρτον
-    ccp: "\U0001111F\U0001112C\U00011122\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄟𑄬𑄢𑄴𑄑𑄧𑄚𑄴"
     gu: લંડન બોરો ઓફ મેર્ટન
     ga: Buirg Londan Merton
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ಮೆರ್ಟನ್
     be: Мертан
     'no': Merton
-  comments:
   type: london_borough
 MRY:
   name: Moray
   code: MRY
-  unofficial_names: Moray
+  unofficial_names:
+  - Moray
   geo:
     latitude: 57.511548
     longitude: -3.2483773
@@ -7268,7 +7085,7 @@ MRY:
     ta: முறை
     ur: موڑے
     bn: মোরে
-    ccp: "\U0001111F\U00011127\U00011122\U0001112C"
+    ccp: "𑄟𑄧𑄢𑄬"
     gu: મોરે
     ga: Comhairle Mhoireibh
     kn: ಮೊರೇ
@@ -7277,7 +7094,6 @@ MRY:
     'no': Moray
     yue: 慕禮
     yue_Hans: 慕礼
-  comments:
   type: council_area
 MTY:
   name: Merthyr Tydfil [Merthyr Tudful GB-MTU]
@@ -7308,27 +7124,17 @@ MTY:
     bn: মার্থার টিডভিল
     fa: شهرستان مستقل مرثر تیدویل
     pl: Merthyr Tydfil
-    ccp: "\U0001111F\U0001112C\U00011122\U00011134\U00011117\U00011120\U00011122\U00011134
-      \U00011111\U0001112D\U00011116\U00011134\U0001111C\U00011128\U00011123\U00011134"
+    ccp: "𑄟𑄬𑄢𑄴𑄗𑄠𑄢𑄴 𑄑𑄭𑄖𑄴𑄜𑄨𑄣𑄴"
     gu: મેર્થીર ટાઇદફિલ કાઉન્ટી બોરો
     es: Merthyr Tydfil
     kn: ಮೆರ್ಥಿರ್ ಟೈಡ್ಫಿಲ್ ಕೌಂಟಿ ಬರೋ
     eu: Merthyr Tydfil
     pt: Merthyr Tydfil County Borough
     de: Merthyr Tydfil
-  comments:
   type: unitary_authority
 MUL:
   name: Mid Ulster
   code: MUL
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Mid Ulster
     en: Mid Ulster
@@ -7342,19 +7148,19 @@ MUL:
     bn: মিড-উলস্টার
     fa: بخش مید-اولستر
     ru: Мидлсбро²
-    ccp: "\U0001111F\U00011128\U00011116\U00011134 \U00011103\U00011123\U00011134\U00011111\U00011122\U00011134"
+    ccp: "𑄟𑄨𑄖𑄴 𑄃𑄣𑄴𑄑𑄢𑄴"
     gu: મિડ-અલ્સ્ટર
     ga: Lár Uladh
     ko: 중부 얼스터
     es: Mid Ulster
     kn: ಮಿಡ್-ಅಲ್ಸ್ಟರ್
     pt: Mid-Ulster
-  comments:
   type: district
 NAY:
   name: North Ayrshire
   code: NAY
-  unofficial_names: North Ayrshire
+  unofficial_names:
+  - North Ayrshire
   geo:
     latitude: 55.7113902
     longitude: -4.729983400000001
@@ -7397,20 +7203,19 @@ NAY:
     te: ఉత్తర ఆయర్షైర్
     ta: வடக்கு அயர்ஸிர்
     bn: নর্থ আয়ারশায়ার
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011103\U00011120\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄃𑄠𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તર આયરશાયર
     ga: Comhairle Shiorrachd Áir a Tuath
     kn: ಉತ್ತರ ಐರ್ಶೈರ್
     kk: Норт-Эршир
     'no': North Ayrshire
     hy: Նորթ Էրշիր
-  comments:
   type: council_area
 NBL:
   name: Northumberland
   code: NBL
-  unofficial_names: Northumberland
+  unofficial_names:
+  - Northumberland
   geo:
     latitude: 55.2082542
     longitude: -2.0784138
@@ -7470,7 +7275,7 @@ NBL:
     ta: நோர்த்தும்பேர்லண்ட்
     bn: নদামবারল্যান্ড
     yue_Hans: 诺森伯伦郡
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011117\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄗𑄟𑄴𑄝𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     gu: ઉત્તરઅમ્બરલેન્ડ
     sd: نارٿمبر لينڊ
     ga: Northumberland
@@ -7481,12 +7286,12 @@ NBL:
     az: Nortamberlend qraflığı
     gl: Northumberland
     sw: Northumberland
-  comments:
   type: unitary_authority
 NEL:
   name: North East Lincolnshire
   code: NEL
-  unofficial_names: North East Lincolnshire
+  unofficial_names:
+  - North East Lincolnshire
   geo:
     latitude: 53.5418558
     longitude: -0.1263736
@@ -7515,8 +7320,7 @@ NEL:
     te: నార్త్ ఈస్ట్ లింకన్ షైర్
     ta: வட கிழக்கு லிஙகான்ஷிரா
     bn: উত্তর পূর্ব লিঙ্কনশায়ার
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U0001112A\U00011107\U00011134 \U00011123\U00011128\U0001111A\U00011134\U00011107\U0001112E\U00011123\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄪𑄇𑄴 𑄣𑄨𑄚𑄴𑄇𑄮𑄣𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તર પૂર્વ લિંકનશાયર
     kn: ನಾರ್ತ್ ಈಸ್ಟ್ ಲಿಂಕನ್ಷೈರ್
     pt: North East Lincolnshire
@@ -7524,12 +7328,12 @@ NEL:
     'no': North East Lincolnshire
     cy: Bwrdeistref Gogledd-ddwyrain Swydd Lincoln
     eu: North East Lincolnshire
-  comments:
   type: unitary_authority
 NET:
   name: Newcastle upon Tyne
   code: NET
-  unofficial_names: Newcastle upon Tyne
+  unofficial_names:
+  - Newcastle upon Tyne
   geo:
     latitude: 54.978252
     longitude: -1.61778
@@ -7597,17 +7401,16 @@ NET:
     zh: 泰恩河畔纽卡斯尔
     ceb: Newcastle upon Tyne
     sr_Latn: Njukasl na Tajnu
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U00011107\U00011133\U00011120\U00011125\U00011127\U00011123\U00011134
-      \U00011103\U0001111B\U00011127\U0001111A\U00011134 \U00011111\U0001112D\U0001111A\U00011134"
+    ccp: "𑄚𑄨𑄅𑄪𑄇𑄳𑄠𑄥𑄧𑄣𑄴 𑄃𑄛𑄧𑄚𑄴 𑄑𑄭𑄚𑄴"
     'no': Newcastle upon Tyne
     cy: Dinas Newcastle upon Tyne
     ga: Newcastle upon Tyne
-  comments:
   type: metropolitan_district
 NFK:
   name: Norfolk
   code: NFK
-  unofficial_names: Norfolk
+  unofficial_names:
+  - Norfolk
   geo:
     latitude: 52.6139686
     longitude: 0.8864021
@@ -7670,7 +7473,7 @@ NFK:
     ta: நாரபோல்க்
     bn: নরফোক
     yue_Hans: 诺福郡
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U0001111B\U0001112E\U00011107\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄛𑄮𑄇𑄴"
     gu: નોર્ફોલ્ક
     ka: ნორფოლკი
     ga: Norfolk
@@ -7678,12 +7481,12 @@ NFK:
     yue: 諾福郡
     mk: Норфолк
     'no': Norfolk
-  comments:
   type: two-tier_county
 NGM:
   name: Nottingham
   code: NGM
-  unofficial_names: Nottingham
+  unofficial_names:
+  - Nottingham
   geo:
     latitude: 52.95478319999999
     longitude: -1.1581086
@@ -7755,7 +7558,7 @@ NGM:
     ceb: City of Nottingham
     sr_Latn: Notingem
     yue_Hans: 诺定咸
-    ccp: "\U0001111A\U00011127\U00011111\U00011133\U00011126\U00011128\U00011101\U00011126\U0001111F\U00011134"
+    ccp: "𑄚𑄧𑄑𑄳𑄦𑄨𑄁𑄦𑄟𑄴"
     ga: Nottingham
     ha: Nottingham
     yue: 諾定咸
@@ -7764,19 +7567,10 @@ NGM:
     mk: Нотингем
     ha_NE: Nottingham
     'no': Nottingham
-  comments:
   type: unitary_authority
 NIR:
   name: Northern Ireland
   code: NIR
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Noord-Ierland
     am: ስሜን አየርላንድ
@@ -7846,8 +7640,7 @@ NIR:
     yue_Hans: 北爱尔兰
     jv: Irlandia Lor
     sq: Irlanda Veriore
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011103\U00011120\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄃𑄠𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     ga: Tuaisceart Éireann
     ky: Түндүк Ирландия
     so: Waqooyiga Ayrland
@@ -7862,12 +7655,12 @@ NIR:
     my: မြောက်အိုင်ယာလန်နိုင်ငံ
     sd: اتر آئرلينڊ
     tk: Demirgazyk Irlandiýa
-  comments:
   type: province
 NLK:
   name: North Lanarkshire
   code: NLK
-  unofficial_names: North Lanarkshire
+  unofficial_names:
+  - North Lanarkshire
   geo:
     latitude: 55.8289139
     longitude: -3.9221958
@@ -7909,20 +7702,19 @@ NLK:
     te: ఉత్తర లానర్క్ షైర్
     ta: வடக்கு லானார்க்ஷிர்
     bn: উত্তর লারনাকশায়ার
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011123\U00011127\U0001111A\U00011122\U00011134\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄣𑄧𑄚𑄢𑄴𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તર લેનાર્કશાયર
     ga: Comhairle Shiorrachd Lannraig a Tuath
     kn: ನಾರ್ತ್ ಲ್ಯಾನಾರ್ಕ್ಶೈರ್
     'no': North Lanarkshire
     az: Nort-Lanarkşir
     mk: Северен Ланаркшир
-  comments:
   type: council_area
 NLN:
   name: North Lincolnshire
   code: NLN
-  unofficial_names: North Lincolnshire
+  unofficial_names:
+  - North Lincolnshire
   geo:
     latitude: 53.60555919999999
     longitude: -0.5596582
@@ -7954,8 +7746,7 @@ NLN:
     te: ఉత్తర లింకన్షైర్
     ta: வடக்கு லிஙகான்ஷிர்
     bn: উত্তর লিংকনশায়ার
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011123\U00011128\U0001111A\U00011134\U00011107\U0001112E\U00011123\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄣𑄨𑄚𑄴𑄇𑄮𑄣𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તર લિંકનશાયર
     kn: ಉತ್ತರ ಲಿಂಕನ್ಷೈರ್
     pt: North Lincolnshire
@@ -7963,19 +7754,10 @@ NLN:
     cy: Bwrdeistref Gogledd Swydd Lincoln
     ga: Lincolnshire Thuaidh
     hy: Հյուսիսային Լինքոլնշիր
-  comments:
   type: unitary_authority
 NMD:
   name: Newry, Mourne and Down
   code: NMD
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Newry, Mourne and Down
     en: Newry, Mourne and Down
@@ -7990,20 +7772,19 @@ NMD:
     nl: Newry, Mourne and Down
     bn: নিউরি
     fa: نیوری، مورن و داون
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U00011122\U00011128, \U0001111F\U0001112F\U00011122\U00011134
-      \U00011103\U00011133\U00011103 \U00011113\U00011105\U0001112A\U0001111A\U00011134"
+    ccp: "𑄚𑄨𑄅𑄪𑄢𑄨, 𑄟𑄯𑄢𑄴 𑄃𑄳𑄃 𑄓𑄅𑄪𑄚𑄴"
     gu: ન્યૂરી
     ko: 뉴리
     es: Newry
     kn: ನ್ಯೂರಿ
     pt: Newry
     ca: Newry, Mourne and Down
-  comments:
   type: district
 NSM:
   name: North Somerset
   code: NSM
-  unofficial_names: North Somerset
+  unofficial_names:
+  - North Somerset
   geo:
     latitude: 51.4409659
     longitude: -2.7426528
@@ -8037,19 +7818,18 @@ NSM:
     te: ఉత్తర సోమర్సెట్
     ta: வட சொமேர்செட்
     bn: নর্থ সমারসেট
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011125\U00011127\U0001111F\U00011122\U00011134\U00011125\U0001112C\U00011116\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄥𑄧𑄟𑄢𑄴𑄥𑄬𑄖𑄴"
     gu: ઉત્તર સોમરસેટ
     hy: Հյուսիսային Սոմերսեթ
     kn: ಉತ್ತರ ಸಾಮರ್ಸೆಟ್
     be: Паўночны Сомерсет
     'no': North Somerset
-  comments:
   type: unitary_authority
 NTH:
   name: Northamptonshire
   code: NTH
-  unofficial_names: Northamptonshire
+  unofficial_names:
+  - Northamptonshire
   geo:
     latitude: 52.27299439999999
     longitude: -0.8755514999999999
@@ -8111,7 +7891,7 @@ NTH:
     bn: নর্থাম্পটনশায়ার
     yue_Hans: 诺咸顿郡
     el: Νορθάμπτονσαϊρ
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011117\U0001111F\U00011134\U00011111\U00011127\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄗𑄟𑄴𑄑𑄧𑄚𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તરહેમ્પ્ટશાયર
     ga: Northamptonshire
     kn: ನಾರ್ಥಾಂಪ್ಟನ್ಶೈರ್
@@ -8121,7 +7901,6 @@ NTH:
     az: Northemptonşir qraflığı
     hr: Northamptonshire (grofovija)
     ms: Northamptonshire
-  comments:
   type: two-tier_county
 NTL:
   name: Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]
@@ -8167,8 +7946,7 @@ NTL:
     te: నీత్ పోర్ట్ టాల్బోట్ కౌంటీ బోరో
     ta: நீத் போர்ட் டால்போட் கவுண்டி பாரூக்ஹ்
     bn: নিথ পোর্ট তালবোট কাউন্টি বোরো
-    ccp: "\U0001111A\U00011128\U00011116\U00011134 \U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134
-      \U00011111\U00011123\U00011134\U0001111D\U0001112E\U00011116\U00011134"
+    ccp: "𑄚𑄨𑄖𑄴 𑄛𑄮𑄢𑄴𑄑𑄴 𑄑𑄣𑄴𑄝𑄮𑄖𑄴"
     gu: નીથ પોર્ટ ટેલબોટ કાઉન્ટી બોરો
     ga: Castell-nedd Port Talbot
     kn: ನೀತ್ ಪೋರ್ಟ್ ಟಾಲ್ಬೋಟ್ ಕೌಂಟಿ ಬರೋ
@@ -8178,12 +7956,12 @@ NTL:
     az: Nit-Port-Tolbot
     da: Neath Port Talbot
     el: Νιθ Ποτ Τόλμποτ
-  comments:
   type: unitary_authority
 NTT:
   name: Nottinghamshire
   code: NTT
-  unofficial_names: Nottinghamshire
+  unofficial_names:
+  - Nottinghamshire
   geo:
     latitude: 53.1285044
     longitude: -0.9030999
@@ -8243,7 +8021,7 @@ NTT:
     ta: நோட்டிங்ஹம்ஷிர்
     bn: নটিংহ্যামশায়ারে
     yue_Hans: 诺定咸郡
-    ccp: "\U0001111A\U00011127\U00011111\U00011133\U00011126\U00011128\U00011101\U00011126\U0001111F\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄚𑄧𑄑𑄳𑄦𑄨𑄁𑄦𑄟𑄴𑄥𑄠𑄢𑄴"
     gu: નોટિંગહામશાયર
     ka: ნოტინგემშირი
     ga: Nottinghamshire
@@ -8255,19 +8033,15 @@ NTT:
     'no': Nottinghamshire
     az: Nottinqemşir
     gl: Nottinghamshire
-  comments:
   type: two-tier_county
 NTY:
   name: North Tyneside
   code: NTY
-  unofficial_names: North Tyneside
+  unofficial_names:
+  - North Tyneside
   geo:
     latitude: 55.008
     longitude: -1.546
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: North Tyneside
     ca: North Tyneside
@@ -8294,8 +8068,7 @@ NTY:
     ta: வடக்கு டினேசைடு
     bn: নর্থ টাইনিসাইড
     fa: تاینساید شمالی
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011111\U0001112D\U0001111A\U00011134\U00011125\U0001112D\U00011116\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄑𑄭𑄚𑄴𑄥𑄭𑄖𑄴"
     gu: ઉત્તર ટાઇનીસાઇડ
     kn: ನಾರ್ತ್ ಟೈನೆಸೈಡ್
     pt: North Tyneside
@@ -8304,12 +8077,12 @@ NTY:
     cy: Gogledd Tyneside
     ga: Tyneside Thuaidh
     he: צפון טיינסייד
-  comments:
   type: metropolitan_district
 NWM:
   name: Newham
   code: NWM
-  unofficial_names: Newham
+  unofficial_names:
+  - Newham
   geo:
     latitude: 51.5255162
     longitude: 0.0352163
@@ -8359,7 +8132,7 @@ NWM:
     ta: லண்டன் பாரூக்ஹ் நியூஹாம்
     bn: নিউহ্যাম
     yue_Hans: 纽咸区
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U00011126\U0001111F\U00011134"
+    ccp: "𑄚𑄨𑄅𑄪𑄦𑄟𑄴"
     gu: લંડન બોરો ઓફ ન્યૂહામ
     ga: Buirg Londan Newham
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ನ್ಯೂಹಾಮ್
@@ -8368,7 +8141,6 @@ NWM:
     az: Nyuem
     be: Ньюэм
     mk: Њуам
-  comments:
   type: london_borough
 NWP:
   name: Newport [Casnewydd GB-CNW]
@@ -8391,18 +8163,18 @@ NWP:
     ceb: Newport
     pl: Newport
     ru: Ньюпорт
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134"
+    ccp: "𑄚𑄨𑄅𑄪𑄛𑄮𑄢𑄴𑄑𑄴"
     fr: Newport
     de: Newport
     be: Ньюпарт
     ga: Casnewydd
     ja: シティ・オヴ・ニューポート
-  comments:
   type: unitary_authority
 NYK:
   name: North Yorkshire
   code: NYK
-  unofficial_names: North Yorkshire
+  unofficial_names:
+  - North Yorkshire
   geo:
     latitude: 54.25035949999999
     longitude: -1.4708553
@@ -8458,8 +8230,7 @@ NYK:
     ta: வடக்கு யோர்க்ஷிர்
     bn: উত্তর ইয়র্কশায়ার
     yue_Hans: 北约郡
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U00011103\U00011128\U00011120\U0001112E\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄃𑄨𑄠𑄮𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: ઉત્તર યોર્કશાયર
     ga: Yorkshire Thuaidh
     hy: Նորթ Յորքշիր
@@ -8470,12 +8241,12 @@ NYK:
     'no': North Yorkshire
     az: Nort-Yorkşir
     sd: نارٿ يارڪ شائر
-  comments:
   type: two-tier_county
 OLD:
   name: Oldham
   code: OLD
-  unofficial_names: Oldham
+  unofficial_names:
+  - Oldham
   geo:
     latitude: 53.5409298
     longitude: -2.1113659
@@ -8501,19 +8272,19 @@ OLD:
     ceb: Borough of Oldham
     tr: Oldham Metropoliten Borough
     fa: کلان‌شهر مستقل اولدهام
-    ccp: "\U00011103\U0001112E\U00011123\U00011133\U00011113\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄃𑄮𑄣𑄳𑄓𑄴𑄦𑄟𑄴"
     uk: Олдем
     be: Олдэм
     'no': Oldham
     ca: Oldham
     cy: Bwrdeistref Fetropolitan Oldham
     ga: Oldham
-  comments:
   type: metropolitan_district
 ORK:
   name: Orkney Islands
   code: ORK
-  unofficial_names: Orkney Islands
+  unofficial_names:
+  - Orkney Islands
   geo:
     latitude: 59.04291250000001
     longitude: -3.1542155
@@ -8574,8 +8345,7 @@ ORK:
     sw: Visiwa vya Orkney
     yue_Hans: 奥克尼
     hi: ओर्कने
-    ccp: "\U00011103\U00011127\U00011122\U00011134\U00011107\U00011134\U0001111A\U0001112C
-      \U00011103\U00011128\U0001110C\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U0001110C\U00011134"
+    ccp: "𑄃𑄧𑄢𑄴𑄇𑄴𑄚𑄬 𑄃𑄨𑄌𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄌𑄴"
     gu: ઓર્કની આઇલેન્ડ્સ
     ga: Inse Orc
     ps: اورکني
@@ -8585,12 +8355,12 @@ ORK:
     yue: 奧克尼
     mk: Оркниски Острови
     'no': Orknøyene
-  comments:
   type: council_area
 OXF:
   name: Oxfordshire
   code: OXF
-  unofficial_names: Oxfordshire
+  unofficial_names:
+  - Oxfordshire
   geo:
     latitude: 51.7612056
     longitude: -1.2464674
@@ -8657,7 +8427,7 @@ OXF:
     yue_Hans: 牛津郡
     jv: Oxford
     sq: Oksford
-    ccp: "\U00011103\U00011127\U00011107\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄃𑄧𑄇𑄴𑄜𑄮𑄢𑄴𑄓𑄴𑄥𑄠𑄢𑄴"
     gu: ઓક્ષફર્ડ
     ga: Oxford
     si: ඔක්ස්ෆර්ඩ්
@@ -8676,7 +8446,6 @@ OXF:
     'no': Oxfordshire
     ml: ഓക്സ്ഫോഡ്
     sd: آڪسفورڊ
-  comments:
   type: two-tier_county
 PEM:
   name: Pembrokeshire [Sir Benfro GB-BNF]
@@ -8728,7 +8497,7 @@ PEM:
     ur: پیمبروکشائر
     bn: পেমব্রোকশায়ার
     fa: پمبروکشر
-    ccp: "\U0001111B\U0001112C\U0001111F\U00011134\U0001111D\U00011133\U00011122\U0001112E\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄬𑄟𑄴𑄝𑄳𑄢𑄮𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: પેમ્બ્રોકશાયર
     ga: Sir Benfro
     kn: ಪೆಂಬ್ರೋಕ್ಶೈರ್
@@ -8740,12 +8509,12 @@ PEM:
     id: Pembrokeshire
     mk: Пембрукшир
     tr: Pembrokeshire
-  comments:
   type: unitary_authority
 PKN:
   name: Perth and Kinross
   code: PKN
-  unofficial_names: Perth and Kinross
+  unofficial_names:
+  - Perth and Kinross
   geo:
     latitude: 56.5917369
     longitude: -3.8557348
@@ -8785,8 +8554,7 @@ PKN:
     te: పెర్త్ మరియు కిన్రోస్
     ta: பெர்த் & கிந்த்ரோஸ்
     bn: পার্থ ও কিনরোস
-    ccp: "\U0001111B\U00011127\U00011122\U00011134\U00011116\U00011134 \U00011103\U00011133\U00011103
-      \U00011107\U00011128\U0001111A\U00011134\U00011122\U0001112E\U0001110C\U00011134"
+    ccp: "𑄛𑄧𑄢𑄴𑄖𑄴 𑄃𑄳𑄃 𑄇𑄨𑄚𑄴𑄢𑄮𑄌𑄴"
     gu: પર્થ અને કિનરોસ
     ga: Comhairle Pheairt is Cheann Rois
     hy: Փերթ և Կինրոս
@@ -8797,12 +8565,12 @@ PKN:
     be: Перт-энд-Кінрос
     mk: Перт и Кинрос
     'no': Perth and Kinross
-  comments:
   type: council_area
 PLY:
   name: Plymouth
   code: PLY
-  unofficial_names: Plymouth
+  unofficial_names:
+  - Plymouth
   geo:
     latitude: 50.3754565
     longitude: -4.1426565
@@ -8868,16 +8636,16 @@ PLY:
     zh: 普利茅斯
     ceb: Plymouth (kondado)
     sr_Latn: Plimut
-    ccp: "\U0001111B\U00011133\U00011123\U0001112D\U0001111F\U00011105\U0001112A\U00011116\U00011134"
+    ccp: "𑄛𑄳𑄣𑄭𑄟𑄅𑄪𑄖𑄴"
     'no': Plymouth
     cy: Dinas Plymouth
     ga: Cathair Plymouth
-  comments:
   type: unitary_authority
 POR:
   name: Portsmouth
   code: POR
-  unofficial_names: Portsmouth
+  unofficial_names:
+  - Portsmouth
   geo:
     latitude: 50.816667
     longitude: -1.083333
@@ -8947,7 +8715,7 @@ POR:
     sr_Latn: Portsmut
     yue_Hans: 朴茨茅夫
     jv: Portsmouth
-    ccp: "\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134\U0001111F\U00011105\U0001112A\U00011116\U00011134"
+    ccp: "𑄛𑄮𑄢𑄴𑄑𑄴𑄟𑄅𑄪𑄖𑄴"
     ga: Portsmouth
     ha: Portsmouth
     kk: Портсмунт
@@ -8956,12 +8724,12 @@ POR:
     mk: Портсмут
     ha_NE: Portsmouth
     'no': Portsmouth
-  comments:
   type: unitary_authority
 POW:
   name: Powys
   code: POW
-  unofficial_names: Powys
+  unofficial_names:
+  - Powys
   geo:
     latitude: 52.1430868
     longitude: -3.3736821
@@ -9005,7 +8773,7 @@ POW:
     bn: পয়েজ
     fa: پویس
     el: Πόουις
-    ccp: "\U0001111B\U00011127\U00011103\U0001112E\U00011103\U00011128\U0001110C\U00011134"
+    ccp: "𑄛𑄧𑄃𑄮𑄃𑄨𑄌𑄴"
     gu: પોવીસ
     ga: Powys
     hu: Powys
@@ -9015,12 +8783,12 @@ POW:
     da: Powys
     gl: Powys
     tr: Powys
-  comments:
   type: unitary_authority
 PTE:
   name: Peterborough
   code: PTE
-  unofficial_names: Peterborough
+  unofficial_names:
+  - Peterborough
   geo:
     latitude: 52.56949849999999
     longitude: -0.2405299
@@ -9081,16 +8849,16 @@ PTE:
     zh: 彼得伯勒
     ceb: City of Peterborough
     sr_Latn: Piterboro
-    ccp: "\U0001111B\U00011128\U00011111\U00011122\U00011134"
+    ccp: "𑄛𑄨𑄑𑄢𑄴"
     'no': Peterborough
     be: Пітэрбара
     cy: Dinas Peterborough
-  comments:
   type: unitary_authority
 RCC:
   name: Redcar and Cleveland
   code: RCC
-  unofficial_names: Redcar and Cleveland
+  unofficial_names:
+  - Redcar and Cleveland
   geo:
     latitude: 54.5393369
     longitude: -1.0310219
@@ -9119,8 +8887,7 @@ RCC:
     te: రెడ్ కార్ మరియు క్లేవ్ ల్యాండ్
     ta: ரெட்க்கார் ஆன் கிளீவ்லன்ட்
     bn: রেডকার ও ক্লিভল্যান্ড
-    ccp: "\U00011122\U0001112C\U00011116\U00011134\U00011107\U00011122\U00011134 \U00011103\U00011133\U00011103
-      \U00011107\U00011133\U00011123\U00011128\U0001111B\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄢𑄬𑄖𑄴𑄇𑄢𑄴 𑄃𑄳𑄃 𑄇𑄳𑄣𑄨𑄛𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     gu: રેડકાર અને ક્લેવલેન્ડ
     es: Redcar and Cleveland
     kn: ರೆಡ್ಕಾರ್ ಮತ್ತು ಕ್ಲೀವ್ಲ್ಯಾಂಡ್
@@ -9129,12 +8896,12 @@ RCC:
     cy: Bwrdeistref Redcar a Cleveland
     fi: Redcar ja Cleveland
     ga: Redcar agus Cleveland
-  comments:
   type: unitary_authority
 RCH:
   name: Rochdale
   code: RCH
-  unofficial_names: Rochdale
+  unofficial_names:
+  - Rochdale
   geo:
     latitude: 53.6097136
     longitude: -2.1561
@@ -9161,12 +8928,11 @@ RCH:
     zh: 羅奇代爾都市自治市
     ceb: Borough of Rochdale
     fa: کلان‌شهر مستقل روچدیل
-    ccp: "\U00011122\U0001112E\U0001110C\U00011134\U00011113\U00011123\U0001112C"
+    ccp: "𑄢𑄮𑄌𑄴𑄓𑄣𑄬"
     'no': Rochdale
     ca: Rochdale
     cy: Bwrdeistref Fetropolitan Rochdale
     ga: Rochdale
-  comments:
   type: metropolitan_district
 RCT:
   name: Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]
@@ -9176,10 +8942,6 @@ RCT:
   geo:
     latitude: 51.6035773
     longitude: -3.3411765
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Rhondda Cynon Taf
     be: Ронта-Кінан-Тав
@@ -9209,17 +8971,16 @@ RCT:
     ar: روندا كينون تاف
     fa: روندا کنون تاو
     el: Ρόντα Σίνον Ταφ
-    ccp: "\U0001111B\U0001112E\U0001111A\U00011134\U00011113\U00011133\U00011126 \U00011125\U0001112D\U00011120\U00011127\U0001111A\U00011134
-      \U00011111\U0001111B\U00011134"
+    ccp: "𑄛𑄮𑄚𑄴𑄓𑄳𑄦 𑄥𑄭𑄠𑄧𑄚𑄴 𑄑𑄛𑄴"
     ga: Rhondda Cynon Taf
     cs: Rhondda Cynon Taf
     'no': Rhondda Cynon Taf
-  comments:
   type: unitary_authority
 RDB:
   name: Redbridge
   code: RDB
-  unofficial_names: Redbridge
+  unofficial_names:
+  - Redbridge
   geo:
     latitude: 51.58861
     longitude: 0.0823976
@@ -9267,18 +9028,18 @@ RDB:
     ta: லண்டன் பாரூக்ஹ் ரெட்ப்பிரிட்ஜ்
     bn: রেডব্রিজ
     yue_Hans: 红桥
-    ccp: "\U00011122\U0001112C\U00011116\U00011134\U0001111D\U00011133\U00011122\U00011128\U0001110C\U00011134"
+    ccp: "𑄢𑄬𑄖𑄴𑄝𑄳𑄢𑄨𑄌𑄴"
     gu: લંડન બોરો ઓફ રેડબ્રિજ
     ga: London Borough of Redbridge
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ರೆಡ್ಬ್ರಿಡ್ಜ್
     yue: 紅橋
     'no': Redbridge
-  comments:
   type: london_borough
 RDG:
   name: Reading
   code: RDG
-  unofficial_names: Reading
+  unofficial_names:
+  - Reading
   geo:
     latitude: 51.4542645
     longitude: -0.9781303
@@ -9340,19 +9101,19 @@ RDG:
     ta: ரீடிங்
     bn: রিডিং
     yue_Hans: 雷丁
-    ccp: "\U00011122\U00011128\U00011113\U00011128\U00011101"
+    ccp: "𑄢𑄨𑄓𑄨𑄁"
     gu: રીડિંગ
     ga: Reading
     kn: ರೀಡಿಂಗ್
     yue: 雷丁
     mk: Рединг
     'no': Reading
-  comments:
   type: unitary_authority
 RFW:
   name: Renfrewshire
   code: RFW
-  unofficial_names: Renfrewshire
+  unofficial_names:
+  - Renfrewshire
   geo:
     latitude: 55.8298581
     longitude: -4.5428385
@@ -9393,7 +9154,7 @@ RFW:
     ta: ரேண்பிரயூஷிர்
     ur: رینفریوشائر
     bn: রেনফ্রিউশায়ার
-    ccp: "\U00011122\U0001112C\U0001111A\U00011134\U0001111C\U00011133\U00011122\U0001112C\U00011105\U0001112A\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄢𑄬𑄚𑄴𑄜𑄳𑄢𑄬𑄅𑄪𑄥𑄠𑄢𑄴"
     gu: રેનફ્ર્યુશાયર
     ga: Comhairle Shiorrachd Rinn Friú
     kn: ರೆನ್ಫ್ರೂಷೈರ್
@@ -9403,12 +9164,12 @@ RFW:
     vi: Renfrewshire
     yue: 聯福郡
     yue_Hans: 联福郡
-  comments:
   type: council_area
 RIC:
   name: Richmond upon Thames
   code: RIC
-  unofficial_names: Richmond upon Thames
+  unofficial_names:
+  - Richmond upon Thames
   geo:
     latitude: 51.46131099999999
     longitude: -0.303742
@@ -9454,19 +9215,18 @@ RIC:
     tr: Richmond upon Thames
     sr_Latn: Londonska opština Ričmond na Temzi
     el: Ρίτσμοντ
-    ccp: "\U00011122\U00011128\U0001110C\U00011134\U0001111F\U00011127\U0001111A\U00011133\U00011113\U00011134
-      \U00011103\U0001111B\U00011127\U0001111A\U00011134 \U00011117\U0001111F\U00011134"
+    ccp: "𑄢𑄨𑄌𑄴𑄟𑄧𑄚𑄳𑄓𑄴 𑄃𑄛𑄧𑄚𑄴 𑄗𑄟𑄴"
     ga: Buirg Londan Richmond ar Tamais
     hy: Ռիչմոնդ ափոն Թեմզա
     mk: Ричмонд на Темза
     'no': Richmond upon Thames
     az: Riçmond-apon-Tems
-  comments:
   type: london_borough
 ROT:
   name: Rotherham
   code: ROT
-  unofficial_names: Rotherham
+  unofficial_names:
+  - Rotherham
   geo:
     latitude: 53.4326035
     longitude: -1.3635009
@@ -9492,18 +9252,18 @@ ROT:
     zh: 羅瑟勒姆都市自治市
     ceb: Rotherham (kondado)
     fa: کلان‌شهر مستقل راترهام
-    ccp: "\U00011122\U0001112E\U00011117\U00011122\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄢𑄮𑄗𑄢𑄴𑄦𑄟𑄴"
     uk: Ротергем
     'no': Rotherham
     cy: Bwrdeistref Fetropolitan Rotherham
     fi: Rotherham
     ga: Rotherham
-  comments:
   type: metropolitan_district
 RUT:
   name: Rutland
   code: RUT
-  unofficial_names: Rutland
+  unofficial_names:
+  - Rutland
   geo:
     latitude: 52.6583014
     longitude: -0.639643
@@ -9558,7 +9318,7 @@ RUT:
     ta: ரூட்லண்ட்
     bn: রাটল্যান্ড
     yue_Hans: 律伦郡
-    ccp: "\U00011122\U0001112A\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄢𑄪𑄖𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     gu: રુટલેન્ડ
     ga: Rutland
     kn: ರುಟ್ಲ್ಯಾಂಡ್
@@ -9568,12 +9328,12 @@ RUT:
     az: Ratlend qraflığı
     be: Ратленд
     tr: Rutland
-  comments:
   type: unitary_authority
 SAW:
   name: Sandwell
   code: SAW
-  unofficial_names: Sandwell
+  unofficial_names:
+  - Sandwell
   geo:
     latitude: 52.5361674
     longitude: -2.010793
@@ -9601,7 +9361,7 @@ SAW:
     ar: ساندويل
     fa: کلان‌شهر مستقل ساندول
     yue_Hans: 山威
-    ccp: "\U00011125\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011103\U0001112E\U00011120\U0001112C\U00011123\U00011134"
+    ccp: "𑄥𑄳𑄠𑄚𑄳𑄓𑄴𑄃𑄮𑄠𑄬𑄣𑄴"
     yue: 山威
     'no': Sandwell
     be: бора Сандуэл
@@ -9609,12 +9369,12 @@ SAW:
     fi: Sandwell
     ga: Sandwell
     uk: Сандвелл
-  comments:
   type: metropolitan_district
 SAY:
   name: South Ayrshire
   code: SAY
-  unofficial_names: South Ayrshire
+  unofficial_names:
+  - South Ayrshire
   geo:
     latitude: 55.2701113
     longitude: -4.6524183
@@ -9655,14 +9415,13 @@ SAY:
     te: దక్షణ అయిర్షైర్
     ta: தெற்கு அயர்ஸிர்
     bn: সাউথ আরশায়ার
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011103\U00011120\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄃𑄠𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: દક્ષિણ આયરશાયર
     kn: ದಕ್ಷಿಣ ಐರ್ಶೈರ್
     kk: Саут-Эршир
     'no': South Ayrshire
     ga: Comhairle Shiorrachd Áir a Deas
     he: סאות׳ איירשייר
-  comments:
   type: council_area
 SCB:
   name: Scottish Borders, The
@@ -9708,8 +9467,7 @@ SCB:
     ta: ஸ்காட்டிஷ் பார்டர்ஸ்
     ur: سکاٹش بارڈرز
     bn: স্কটিশ বর্ডার
-    ccp: "\U0001110C\U00011133\U00011107\U00011127\U00011111\U00011128\U0001110C\U00011134
-      \U0001111D\U00011127\U00011122\U00011134\U00011113\U00011122\U00011134"
+    ccp: "𑄌𑄳𑄇𑄧𑄑𑄨𑄌𑄴 𑄝𑄧𑄢𑄴𑄓𑄢𑄴"
     gu: સ્કોટિશ બોર્ડર્સ
     ga: Comhairle nan Críochan
     kn: ಸ್ಕಾಟಿಷ್ ಬಾರ್ಡರ್ಸ್
@@ -9720,19 +9478,10 @@ SCB:
     ka: სკოტიშ-ბორდერსი
     yue: 蘇格蘭邊區
     yue_Hans: 苏格兰边区
-  comments:
   type: council_area
 SCT:
   name: Scotland
   code: SCT
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Skotland
     am: ስኮትላንድ
@@ -9819,12 +9568,12 @@ SCT:
     yo_BJ: Skɔ́tlándì
     yue: 蘇格蘭
     yue_Hans: 苏格兰
-  comments:
   type: country
 SFK:
   name: Suffolk
   code: SFK
-  unofficial_names: Suffolk
+  unofficial_names:
+  - Suffolk
   geo:
     latitude: 52.1872472
     longitude: 0.9707800999999999
@@ -9887,7 +9636,7 @@ SFK:
     ta: சஃபோல்க்
     bn: সাফোক
     yue_Hans: 修福郡
-    ccp: "\U00011125\U0001111C\U0001112E\U00011107\U00011134"
+    ccp: "𑄥𑄜𑄮𑄇𑄴"
     gu: સફોલ્ક
     ga: Suffolk
     kn: ಸಫೊಲ್ಕ್
@@ -9896,19 +9645,15 @@ SFK:
     'no': Suffolk
     az: Saffolk qraflığı
     hy: Սուֆոլք
-  comments:
   type: two-tier_county
 SFT:
   name: Sefton
   code: SFT
-  unofficial_names: Sefton
+  unofficial_names:
+  - Sefton
   geo:
     latitude: 53.503445
     longitude: -2.970359
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Sefton
     da: Metropolitan Borough of Sefton
@@ -9930,7 +9675,7 @@ SFT:
     zh: 塞夫頓都會自治市
     ceb: Sefton
     fa: کلان‌شهر مستقل سفتون
-    ccp: "\U00011125\U0001112C\U0001111B\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄥𑄬𑄛𑄴𑄑𑄧𑄚𑄴"
     hy: Սեֆթոն
     uk: Сефтон
     be: Сефтан
@@ -9938,12 +9683,12 @@ SFT:
     ca: Sefton
     cy: Bwrdeistref Fetropolitan Sefton
     ga: Sefton
-  comments:
   type: metropolitan_district
 SGC:
   name: South Gloucestershire
   code: SGC
-  unofficial_names: South Gloucestershire
+  unofficial_names:
+  - South Gloucestershire
   geo:
     latitude: 51.531456
     longitude: -2.4547158
@@ -9976,7 +9721,7 @@ SGC:
     lt: Saut Glosteršyras
     ta: தெற்கு க்ளோஸ்ஸ்டேர்ஷிர்
     bn: সাউথ গ্লৌচেস্টারশায়ার
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011109\U00011133\U00011123\U0001112E\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄉𑄳𑄣𑄮𑄥𑄬𑄌𑄴𑄑𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: સાઉથ ગ્લોસેસ્ટરશાયર
     hy: Հարավային Գլուսթերշիր
     hu: South Gloucestershire
@@ -9986,12 +9731,12 @@ SGC:
     cy: De Swydd Gaerloyw
     el: Σάουθ Γκλόστερσιρ
     ga: Gloucestershire Theas
-  comments:
   type: unitary_authority
 SHF:
   name: Sheffield
   code: SHF
-  unofficial_names: Sheffield
+  unofficial_names:
+  - Sheffield
   geo:
     latitude: 53.38112899999999
     longitude: -1.470085
@@ -10059,16 +9804,16 @@ SHF:
     zh: 谢菲尔德
     ceb: Sheffield
     sr_Latn: Šefild
-    ccp: "\U00011125\U0001112C\U0001111C\U00011128\U00011123\U00011133\U00011113\U00011134"
+    ccp: "𑄥𑄬𑄜𑄨𑄣𑄳𑄓𑄴"
     'no': Sheffield
     cy: Dinas Sheffield
     ga: Sheffield
-  comments:
   type: metropolitan_district
 SHN:
   name: St. Helens
   code: SHN
-  unofficial_names: St. Helens
+  unofficial_names:
+  - St. Helens
   geo:
     latitude: 53.456307
     longitude: -2.737095
@@ -10094,19 +9839,19 @@ SHN:
     zh: 聖海倫斯都會自治市
     ceb: St. Helens
     fa: کلان‌شهر مستقل سنت هلنز
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134 \U00011126\U0001112C\U00011123\U0001112C\U0001111A\U00011134\U0001110C\U00011134"
+    ccp: "𑄥𑄬𑄚𑄴 𑄦𑄬𑄣𑄬𑄚𑄴𑄌𑄴"
     'no': St. Helens
     be: Сент-Хеленс
     cs: St. Helens (Merseyside, England)
     cy: Bwrdeistref Fetropolitan St Helens
     fi: St Helens
     ga: St Helens
-  comments:
   type: metropolitan_district
 SHR:
   name: Shropshire
   code: SHR
-  unofficial_names: Shropshire
+  unofficial_names:
+  - Shropshire
   geo:
     latitude: 52.5864845
     longitude: -2.7037501
@@ -10164,19 +9909,19 @@ SHR:
     ta: ஷ்ரோபஷிர்
     yue_Hans: 史乐郡
     el: Σρόπσαϊρ
-    ccp: "\U00011125\U00011133\U00011122\U0001112E\U0001111B\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄥𑄳𑄢𑄮𑄛𑄴𑄥𑄠𑄢𑄴"
     gu: શ્રોપશાયર
     ga: Shropshire
     kn: ಶ್ರೊಪ್ಶೈರ್
     yue: 史樂郡
     mk: Шропшир
     'no': Shropshire
-  comments:
   type: unitary_authority
 SKP:
   name: Stockport
   code: SKP
-  unofficial_names: Stockport
+  unofficial_names:
+  - Stockport
   geo:
     latitude: 53.41063159999999
     longitude: -2.1575332
@@ -10201,19 +9946,19 @@ SKP:
     zh: 斯托克波特都市自治市
     ceb: Borough of Stockport
     fa: کلان‌شهر مستقل استکپورت
-    ccp: "\U0001110C\U00011133\U00011111\U00011127\U00011107\U00011134\U0001111B\U0001112E\U00011122\U00011134\U00011111\U00011134"
+    ccp: "𑄌𑄳𑄑𑄧𑄇𑄴𑄛𑄮𑄢𑄴𑄑𑄴"
     uk: Стокпорт
     be: Стокпарт
     'no': Stockport
     ca: Stockport
     cy: Bwrdeistref Fetropolitan Stockport
     ga: Stockport
-  comments:
   type: metropolitan_district
 SLF:
   name: Salford
   code: SLF
-  unofficial_names: Salford
+  unofficial_names:
+  - Salford
   geo:
     latitude: 53.48752349999999
     longitude: -2.2901264
@@ -10246,19 +9991,19 @@ SLF:
     zh: 索爾福德市
     ceb: City and Borough of Salford
     ar: سالفورد
-    ccp: "\U00011125\U00011123\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄥𑄣𑄴𑄜𑄮𑄢𑄴𑄓𑄴"
     be: Солфард
     'no': City of Salford
     ca: Salford
     cy: Dinas Salford
     ga: Salford
     uk: Солфорд
-  comments:
   type: metropolitan_district
 SLG:
   name: Slough
   code: SLG
-  unofficial_names: Slough
+  unofficial_names:
+  - Slough
   geo:
     latitude: 51.51053839999999
     longitude: -0.5950405999999999
@@ -10303,15 +10048,15 @@ SLG:
     zh: 斯劳
     ceb: Slough
     sr_Latn: Slau
-    ccp: "\U00011125\U00011133\U00011123\U0001112E\U00011105\U0001112A"
+    ccp: "𑄥𑄳𑄣𑄮𑄅𑄪"
     'no': Slough
     cy: Bwrdeistref Slough
-  comments:
   type: unitary_authority
 SLK:
   name: South Lanarkshire
   code: SLK
-  unofficial_names: South Lanarkshire
+  unofficial_names:
+  - South Lanarkshire
   geo:
     latitude: 55.5243038
     longitude: -3.7035077
@@ -10353,7 +10098,7 @@ SLK:
     ta: தெற்கு லானார்க்ஷிர்
     bn: সাউথ ল্যানার্কশায়ার
     hi: दक्षिण लैनार्कशायर
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011123\U00011133\U00011120\U0001111A\U00011122\U00011134\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄣𑄳𑄠𑄚𑄢𑄴𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: દક્ષિણ લેનાર્કશેર
     ga: Comhairle Shiorrachd Lannraig a Deas
     kn: ಸೌತ್ ಲನಾರ್ಕ್ಶೈರ್
@@ -10364,12 +10109,12 @@ SLK:
     az: Saut-Lanarkşir
     he: דרום לאנארקשייר
     mk: Јужен Ланаркшир
-  comments:
   type: council_area
 SND:
   name: Sunderland
   code: SND
-  unofficial_names: Sunderland
+  unofficial_names:
+  - Sunderland
   geo:
     latitude: 54.906869
     longitude: -1.383801
@@ -10394,7 +10139,7 @@ SND:
     zh: 桑德蘭市
     cy: Dinas Sunderland
     ceb: Sunderland
-    ccp: "\U00011125\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄥𑄚𑄴𑄓𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     hy: Սանդերլենդ
     uk: Сандерленд
     'no': City of Sunderland
@@ -10402,12 +10147,12 @@ SND:
     el: Δήμος του Σάντερλαντ
     ga: Sunderland
     he: הסיטי של סנדרלנד
-  comments:
   type: metropolitan_district
 SOL:
   name: Solihull
   code: SOL
-  unofficial_names: Solihull
+  unofficial_names:
+  - Solihull
   geo:
     latitude: 52.411811
     longitude: -1.77761
@@ -10432,17 +10177,17 @@ SOL:
     zh: 索利赫爾區
     ceb: Solihull
     fa: کلان‌شهر مستقل سولیهال
-    ccp: "\U00011125\U0001112E\U00011123\U00011128\U00011126\U00011123\U00011134"
+    ccp: "𑄥𑄮𑄣𑄨𑄦𑄣𑄴"
     'no': Solihull (distrikt)
     ca: Solihull
     cy: Bwrdeistref Fetropolitan Solihull
     ga: Solihull
-  comments:
   type: metropolitan_district
 SOM:
   name: Somerset
   code: SOM
-  unofficial_names: Somerset
+  unofficial_names:
+  - Somerset
   geo:
     latitude: 51.0587013
     longitude: -2.9499066
@@ -10506,7 +10251,7 @@ SOM:
     ta: சொமேர்செட்
     bn: সমারসেট
     yue_Hans: 森麻锡郡
-    ccp: "\U00011125\U00011127\U0001111F\U00011122\U00011134\U00011125\U0001112C\U00011116\U00011134"
+    ccp: "𑄥𑄧𑄟𑄢𑄴𑄥𑄬𑄖𑄴"
     gu: સોમરસેટ
     ga: Somerset
     kn: ಸಾಮರ್ಸೆಟ್
@@ -10515,12 +10260,12 @@ SOM:
     'no': Somerset
     my: ဆမ်းမားဆတ်
     pa: ਸਮਰਸੈੱਟ
-  comments:
   type: two-tier_county
 SOS:
   name: Southend-on-Sea
   code: SOS
-  unofficial_names: Southend-on-Sea
+  unofficial_names:
+  - Southend-on-Sea
   geo:
     latitude: 51.5459269
     longitude: 0.7077123
@@ -10567,7 +10312,7 @@ SOS:
     ta: சௌதென்ட்-ஆன் -கடல்
     bn: সাউথএন্ড-অন-সী
     yue_Hans: 修安
-    ccp: "\U00011125\U00011105\U0001112A\U00011118\U00011122\U00011134\U0001111A\U00011134-\U00011103\U00011127\U0001111A\U00011134-\U00011125\U00011128"
+    ccp: "𑄥𑄅𑄪𑄘𑄢𑄴𑄚𑄴-𑄃𑄧𑄚𑄴-𑄥𑄨"
     gu: સાઉથએન્ડ-ઓન-સી
     ga: Southend-on-Sea
     kn: ಸೌಥೆಂಡ್-ಆನ್-ಸೀ
@@ -10577,12 +10322,12 @@ SOS:
     yue: 修安
     ca: Southend-on-Sea
     'no': Southend-on-Sea
-  comments:
   type: unitary_authority
 SRY:
   name: Surrey
   code: SRY
-  unofficial_names: Surrey
+  unofficial_names:
+  - Surrey
   geo:
     latitude: 51.31475930000001
     longitude: -0.5599501
@@ -10647,7 +10392,7 @@ SRY:
     ur: سرے
     bn: সারে
     yue_Hans: 舒梨郡
-    ccp: "\U00011125\U00011122\U0001112C"
+    ccp: "𑄥𑄢𑄬"
     gu: સરે
     ga: Surrey
     kk: Суррей
@@ -10657,12 +10402,12 @@ SRY:
     'no': Surrey
     yo_BJ: Surrey
     hr: Surrey (grofovija)
-  comments:
   type: two-tier_county
 STE:
   name: Stoke-on-Trent
   code: STE
-  unofficial_names: Stoke-on-Trent
+  unofficial_names:
+  - Stoke-on-Trent
   geo:
     latitude: 53.002668
     longitude: -2.179404
@@ -10724,16 +10469,16 @@ STE:
     zh: 特倫特河畔斯托克
     ceb: City of Stoke-on-Trent
     sr_Latn: Stouk na Trentu
-    ccp: "\U0001110C\U00011133\U00011111\U00011127\U00011107\U00011134-\U00011103\U00011127\U0001111A\U00011134-\U00011111\U00011133\U00011122\U0001112C\U0001111A\U00011134\U00011111\U00011134"
+    ccp: "𑄌𑄳𑄑𑄧𑄇𑄴-𑄃𑄧𑄚𑄴-𑄑𑄳𑄢𑄬𑄚𑄴𑄑𑄴"
     'no': Stoke-on-Trent
     cy: Dinas Stoke-on-Trent
     ga: Stoke-on-Trent
-  comments:
   type: unitary_authority
 STG:
   name: Stirling
   code: STG
-  unofficial_names: Stirling
+  unofficial_names:
+  - Stirling
   geo:
     latitude: 56.1165227
     longitude: -3.9369029
@@ -10770,18 +10515,18 @@ STG:
     zh: 史特灵
     cy: Stirling
     ceb: Stirling
-    ccp: "\U0001110C\U00011133\U00011111\U00011122\U00011134\U00011123\U00011128\U00011101"
+    ccp: "𑄌𑄳𑄑𑄢𑄴𑄣𑄨𑄁"
     ga: Comhairle Shruighlea
     'no': Stirling
     az: Sterlinq
     ca: Stirling
     hu: Stirling
-  comments:
   type: council_area
 STH:
   name: Southampton
   code: STH
-  unofficial_names: Southampton
+  unofficial_names:
+  - Southampton
   geo:
     latitude: 50.90970040000001
     longitude: -1.4043509
@@ -10850,7 +10595,7 @@ STH:
     ceb: City of Southampton
     sr_Latn: Sauthempton
     yue_Hans: 修咸顿
-    ccp: "\U00011125\U00011105\U0001112A\U00011117\U0001111F\U00011134\U0001111B\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄥𑄅𑄪𑄗𑄟𑄴𑄛𑄴𑄑𑄧𑄚𑄴"
     ga: Southampton
     ha: Southampton
     pa: ਸਾਊਥਹੈਂਪਟਨ
@@ -10861,12 +10606,12 @@ STH:
     mk: Саутхемптон
     ha_NE: Southampton
     'no': Southampton
-  comments:
   type: unitary_authority
 STN:
   name: Sutton
   code: STN
-  unofficial_names: Sutton
+  unofficial_names:
+  - Sutton
   geo:
     latitude: 51.3614279
     longitude: -0.193961
@@ -10904,21 +10649,20 @@ STN:
     ur: سٹن بورو
     zh: 薩頓區
     cy: Sutton
-    ceb: Sutton (distrito sa Hiniusang Gingharian, Inglatera, Greater London, lat
-      51,36, long -0,19)
+    ceb: Sutton (distrito sa Hiniusang Gingharian, Inglatera, Greater London, lat 51,36, long -0,19)
     ar: منطقة ساتون
     sr_Latn: Londonska opština Saton
-    ccp: "\U00011125\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄥𑄑𑄧𑄚𑄴"
     'no': Sutton
     fi: Sutton
     ga: Buirg Londan Sutton
     hy: Սաթն
-  comments:
   type: london_borough
 STS:
   name: Staffordshire
   code: STS
-  unofficial_names: Staffordshire
+  unofficial_names:
+  - Staffordshire
   geo:
     latitude: 52.7697957
     longitude: -2.1045243
@@ -10979,7 +10723,7 @@ STS:
     ta: ஸ்டாப்பிபோர்டஷிர்
     bn: স্ট্যাফোর্ডশায়ার
     yue_Hans: 史德福郡
-    ccp: "\U0001110C\U00011133\U00011111\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄌𑄳𑄑𑄜𑄮𑄢𑄴𑄓𑄴𑄥𑄠𑄢𑄴"
     gu: સ્ટેફોર્ડશાયર
     ga: Staffordshire
     kn: ಸ್ಟಾಫರ್ಡ್ಶೈರ್
@@ -10988,12 +10732,12 @@ STS:
     'no': Staffordshire
     az: Staffordşir qraflığı
     ne: स्टाफोर्डशायर
-  comments:
   type: two-tier_county
 STT:
   name: Stockton-on-Tees
   code: STT
-  unofficial_names: Stockton-on-Tees
+  unofficial_names:
+  - Stockton-on-Tees
   geo:
     latitude: 54.5704551
     longitude: -1.3289821
@@ -11023,18 +10767,18 @@ STT:
     lt: Stoktonas
     ta: ஸ்டாக்டன் -ஆன் டீஸ்
     bn: স্টকটন-অন-টিজ
-    ccp: "\U0001110C\U00011133\U00011111\U00011127\U00011107\U00011134\U00011111\U00011127\U0001111A\U00011134-\U00011103\U00011127\U0001111A\U00011134-\U00011111\U00011128\U0001110C\U00011134"
+    ccp: "𑄌𑄳𑄑𑄧𑄇𑄴𑄑𑄧𑄚𑄴-𑄃𑄧𑄚𑄴-𑄑𑄨𑄌𑄴"
     gu: સ્ટોકટન-ઑન-ટીઝ
     kn: ಸ್ಟಾಕ್ಟನ್-ಆನ್-ಟೀಸ್
     pt: Stockton-on-Tees
     'no': Stockton-on-Tees (distrikt)
     cy: Bwrdeistref Stockton-on-Tees
-  comments:
   type: unitary_authority
 STY:
   name: South Tyneside
   code: STY
-  unofficial_names: South Tyneside
+  unofficial_names:
+  - South Tyneside
   geo:
     latitude: 54.9636693
     longitude: -1.4418634
@@ -11062,13 +10806,12 @@ STY:
     zh: 南泰因賽德
     ceb: South Tyneside
     fa: تاینساید جنوبی
-    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U00011111\U0001112D\U0001111B\U00011134\U00011125\U0001112D\U00011116\U00011134"
+    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄑𑄭𑄛𑄴𑄥𑄭𑄖𑄴"
     uk: Саут-Тайнсайд
     mk: Јужен Тајнсајд
     'no': South Tyneside
     cy: Cyngor De Tyneside
     ga: Tyneside Theas
-  comments:
   type: metropolitan_district
 SWA:
   name: Swansea [Abertawe GB-ATA]
@@ -11140,19 +10883,19 @@ SWA:
     ceb: City and County of Swansea
     sr_Latn: Svonzi
     yue_Hans: 史云斯
-    ccp: "\U00011125\U00011127\U00011120\U0001111A\U00011134\U00011125\U00011128"
+    ccp: "𑄥𑄧𑄠𑄚𑄴𑄥𑄨"
     ga: Abertawe
     yue: 史雲斯
     be: Суонсі
     bs: Swansea
     mk: Свонзи
     'no': Swansea
-  comments:
   type: unitary_authority
 SWD:
   name: Swindon
   code: SWD
-  unofficial_names: Swindon
+  unofficial_names:
+  - Swindon
   geo:
     latitude: 51.55577390000001
     longitude: -1.7797176
@@ -11182,26 +10925,22 @@ SWD:
     ta: ஸ்விண்டோன்
     bn: সুইন্ডোন
     yue_Hans: 史云顿区
-    ccp: "\U00011125\U0001112D\U0001112A\U0001111A\U00011134\U00011113\U00011127\U0001111A\U00011134"
+    ccp: "𑄥𑄭𑄪𑄚𑄴𑄓𑄧𑄚𑄴"
     gu: સ્વિન્ડન
     es: Swindon
     kn: ಸ್ವಿಂಡನ್
     yue: 史雲頓區
     'no': Swindon
     cy: Bwrdeistref Swindon
-  comments:
   type: unitary_authority
 SWK:
   name: Southwark
   code: SWK
-  unofficial_names: Southwark
+  unofficial_names:
+  - Southwark
   geo:
     latitude: 51.502781
     longitude: -0.087738
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Southwark
     ca: Southwark
@@ -11239,19 +10978,19 @@ SWK:
     cy: Southwark
     ceb: Southwark
     sr_Latn: Londonska opština Sadark
-    ccp: "\U00011125\U00011105\U0001112A\U00011116\U00011134\U00011103\U0001112E\U00011120\U00011122\U00011134\U00011107\U00011134"
+    ccp: "𑄥𑄅𑄪𑄖𑄴𑄃𑄮𑄠𑄢𑄴𑄇𑄴"
     ga: Buirg Londan Southwark
     be: Саўтуарк
     mk: Савак
     'no': Southwark
     az: Sautark
     bg: Съдърк
-  comments:
   type: london_borough
 TAM:
   name: Tameside
   code: TAM
-  unofficial_names: Tameside
+  unofficial_names:
+  - Tameside
   geo:
     latitude: 53.4805828
     longitude: -2.0809891
@@ -11279,16 +11018,16 @@ TAM:
     zh: 坦姆赛德
     cy: Tameside
     ceb: Borough of Tameside
-    ccp: "\U00011111\U0001112C\U0001111F\U00011134\U00011125\U0001112D\U00011116\U00011134"
+    ccp: "𑄑𑄬𑄟𑄴𑄥𑄭𑄖𑄴"
     ga: Tameside
     'no': Tameside
     ca: Tameside
-  comments:
   type: metropolitan_district
 TFW:
   name: Telford and Wrekin
   code: TFW
-  unofficial_names: Telford and Wrekin
+  unofficial_names:
+  - Telford and Wrekin
   geo:
     latitude: 52.7409916
     longitude: -2.4868586
@@ -11318,8 +11057,7 @@ TFW:
     te: టెల్ఫోర్డ్ మరియు వర్కిన్
     ta: டெலிபோர்ட் & ரக்கின்
     bn: টেলফোর্ড ও রেকিন
-    ccp: "\U00011111\U0001112C\U00011123\U00011134\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134
-      \U00011103\U00011133\U00011103 \U00011122\U0001112C\U00011107\U00011128\U0001111A\U00011134"
+    ccp: "𑄑𑄬𑄣𑄴𑄜𑄮𑄢𑄴𑄓𑄴 𑄃𑄳𑄃 𑄢𑄬𑄇𑄨𑄚𑄴"
     gu: ટેલફોર્ડ અને વ્રેકીન
     kn: ಟೆಲ್ಫೋರ್ಡ್ ಮತ್ತು ವ್ರೆಕಿನ್
     pt: Telford and Wrekin
@@ -11327,12 +11065,12 @@ TFW:
     ar: تلفورد وريكين
     fi: Telford ja Wrekin
     ga: Telford agus Wrekin
-  comments:
   type: unitary_authority
 THR:
   name: Thurrock
   code: THR
-  unofficial_names: Thurrock
+  unofficial_names:
+  - Thurrock
   geo:
     latitude: 51.4934557
     longitude: 0.3529197
@@ -11364,7 +11102,7 @@ THR:
     ta: துரராக்
     bn: থুররক
     yue_Hans: 土洛克
-    ccp: "\U00011117\U0001112A\U00011122\U0001112E\U00011107\U00011134"
+    ccp: "𑄗𑄪𑄢𑄮𑄇𑄴"
     gu: થુરોક
     es: Thurrock
     kn: ಥುರಾಕ್
@@ -11374,12 +11112,12 @@ THR:
     cy: Bwrdeistref Thurrock
     el: Θάροκ
     ga: Thurrock
-  comments:
   type: unitary_authority
 TOB:
   name: Torbay
   code: TOB
-  unofficial_names: Torbay
+  unofficial_names:
+  - Torbay
   geo:
     latitude: 50.4619209
     longitude: -3.525315
@@ -11413,7 +11151,7 @@ TOB:
     lt: Torbajus
     ta: டார்பாய்
     bn: তেবে
-    ccp: "\U00011111\U00011127\U00011122\U00011134\U0001111D\U0001112C"
+    ccp: "𑄑𑄧𑄢𑄴𑄝𑄬"
     gu: ટોર્બે
     kn: ಟೊರ್ಬೇ
     pt: Torbay
@@ -11424,7 +11162,6 @@ TOB:
     fa: توربی
     ga: Torbay
     he: טורביי
-  comments:
   type: unitary_authority
 TOF:
   name: Torfaen [Tor-faen]
@@ -11434,10 +11171,6 @@ TOF:
   geo:
     latitude: 51.696
     longitude: -3.063
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Torfaen
     bg: Торвайн
@@ -11469,18 +11202,18 @@ TOF:
     ta: டோரபாயின் கவுண்டி பாரூக்ஹ்
     bn: টরফেন কাউন্টি বরো
     fa: تورواین
-    ccp: "\U00011111\U00011127\U00011122\U00011134\U0001111C\U0001112C\U0001111A\U00011134"
+    ccp: "𑄑𑄧𑄢𑄴𑄜𑄬𑄚𑄴"
     gu: ટોરફાએન કાઉન્ટી બોરો
     ga: Tor-faen
     kn: ಟೊರ್ಫಾನ್ ಕೌಂಟಿ ಬರೋ
     'no': Torfaen
     hy: Տորվայն
-  comments:
   type: unitary_authority
 TRF:
   name: Trafford
   code: TRF
-  unofficial_names: Trafford
+  unofficial_names:
+  - Trafford
   geo:
     latitude: 53.4215132
     longitude: -2.3517263
@@ -11516,18 +11249,18 @@ TRF:
     vi: Trafford
     zh: 特拉福德
     ceb: Trafford
-    ccp: "\U00011111\U00011133\U00011122\U0001111C\U0001112E\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄑𑄳𑄢𑄜𑄮𑄢𑄴𑄓𑄴"
     ga: Trafford
     'no': Trafford
     cy: Bwrdeistref Fetropolitan Trafford
     he: טראפורד
     hy: Թրաֆորդ
-  comments:
   type: metropolitan_district
 TWH:
   name: Tower Hamlets
   code: TWH
-  unofficial_names: Tower Hamlets
+  unofficial_names:
+  - Tower Hamlets
   geo:
     latitude: 51.52026069999999
     longitude: -0.0293396
@@ -11574,7 +11307,7 @@ TWH:
     te: లండన్ బోరోగ్ అఫ్ టవర్ హమ్లెట్స్
     tr: Tower Hamlets
     ta: லண்டன் பாரூக்ஹ் ஆப் டவர் ஹாம்லெட்ஸ்
-    ccp: "\U00011111\U00011124\U00011122\U00011134 \U00011126\U0001111F\U00011134\U00011123\U0001112C\U00011116\U00011134\U0001110C\U00011134"
+    ccp: "𑄑𑄤𑄢𑄴 𑄦𑄟𑄴𑄣𑄬𑄖𑄴𑄌𑄴"
     gu: લંડન બોરો ઓફ ટાવર હેમ્લેટ્સ
     ga: Buirg Londan Tower Hamlets
     hu: London Borough of Tower Hamlets
@@ -11583,7 +11316,6 @@ TWH:
     az: Tauer-Hemlets
     yue: 塔村區
     yue_Hans: 塔村区
-  comments:
   type: london_borough
 VGL:
   name: Vale of Glamorgan, The [Bro Morgannwg GB-BMG]
@@ -11627,20 +11359,19 @@ VGL:
     bn: ভেল অব গ্ল্যামারগান
     fa: ویل آو گلامورگن
     el: κοιλάδα του Γκλαμόργκαν
-    ccp: "\U0001111E\U00011123\U00011134 \U00011103\U00011127\U0001111B\U00011134
-      \U00011109\U00011133\U00011123\U0001111F\U00011127\U00011122\U00011134\U00011109\U00011133\U00011120\U0001111A\U00011134"
+    ccp: "𑄞𑄣𑄴 𑄃𑄧𑄛𑄴 𑄉𑄳𑄣𑄟𑄧𑄢𑄴𑄉𑄳𑄠𑄚𑄴"
     gu: વેલ ઓફ ગ્લેમોર્ગન
     ga: Bro Morgannwg
     kn: ವೇಲ್ ಆಫ್ ಗ್ಲಾಮೊರ್ಗನ್
     'no': Vale of Glamorgan
     be: Вейл-оф-Гламарган
     da: Vale of Glamorgan
-  comments:
   type: unitary_authority
 WAR:
   name: Warwickshire
   code: WAR
-  unofficial_names: Warwickshire
+  unofficial_names:
+  - Warwickshire
   geo:
     latitude: 52.2671353
     longitude: -1.4675216
@@ -11698,7 +11429,7 @@ WAR:
     ta: வரவிக்க்ஷிர்
     bn: ওয়ারউইকশায়ার
     yue_Hans: 窝域郡
-    ccp: "\U00011124\U00011122\U00011134\U00011103\U0001112A\U00011103\U00011128\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄤𑄢𑄴𑄃𑄪𑄃𑄨𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: વોરવિકશાયર
     ka: უორუიკშირი
     ga: Warwickshire
@@ -11708,12 +11439,12 @@ WAR:
     az: Uorvikşir
     mk: Ворикшир
     'no': Warwickshire
-  comments:
   type: two-tier_county
 WBK:
   name: West Berkshire
   code: WBK
-  unofficial_names: West Berkshire
+  unofficial_names:
+  - West Berkshire
   geo:
     latitude: 51.4659863
     longitude: -1.2814014
@@ -11748,7 +11479,7 @@ WBK:
     ta: மேற்கு பேர்க்ஷிர்
     bn: ওয়েস্ট বার্কশায়ার
     fa: بارکشر غربی
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111D\U00011122\U00011134\U00011107\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄝𑄢𑄴𑄇𑄴𑄥𑄠𑄢𑄴"
     gu: પશ્ચિમ બર્કશાયર
     es: West Berkshire
     kn: ವೆಸ್ಟ್ ಬರ್ಕ್ಷೈರ್
@@ -11756,12 +11487,12 @@ WBK:
     'no': West Berkshire
     cy: Gorllewin Berkshire
     ga: Berkshire Thiar
-  comments:
   type: unitary_authority
 WDU:
   name: West Dunbartonshire
   code: WDU
-  unofficial_names: West Dunbartonshire
+  unofficial_names:
+  - West Dunbartonshire
   geo:
     latitude: 55.9650641
     longitude: -4.5063596
@@ -11802,17 +11533,17 @@ WDU:
     cy: Gorllewin Swydd Dunbarton
     ceb: West Dunbartonshire
     ar: دونبارتونشير الغربية
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011113\U0001111A\U00011134\U0001111D\U00011122\U00011134\U00011111\U00011127\U0001111A\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄓𑄚𑄴𑄝𑄢𑄴𑄑𑄧𑄚𑄴𑄥𑄠𑄢𑄴"
     ga: Comhairle Dhún Breatainn an Iar
     he: דאמברטון מערב
     'no': West Dunbartonshire
     az: Uest Danbartonşir
-  comments:
   type: council_area
 WFT:
   name: Waltham Forest
   code: WFT
-  unofficial_names: Waltham Forest
+  unofficial_names:
+  - Waltham Forest
   geo:
     latitude: 51.5886383
     longitude: -0.0117625
@@ -11858,18 +11589,18 @@ WFT:
     sr_Latn: Londonska opština Voltam Forest
     ta: லண்டன் பாரூக்ஹ் ஆப் வாள்தாம் போரஸ்ட்
     bn: ওয়ালথম ফরেস্ট
-    ccp: "\U00011124\U00011123\U00011134\U00011117\U0001111F\U00011134 \U0001111C\U00011127\U00011122\U0001112C\U0001110C\U00011134\U00011111\U00011134"
+    ccp: "𑄤𑄣𑄴𑄗𑄟𑄴 𑄜𑄧𑄢𑄬𑄌𑄴𑄑𑄴"
     gu: લંડન બોરો ઓફ વોલ્થમ ફોરેસ્ટ
     ga: Buirg Londan Waltham Forest
     kn: ಲಂಡನ್ ಬರೋ ಆಫ್ ವಾಲ್ತ್ ಫಾರೆಸ್ಟ್
     'no': Waltham Forest
     ar: ناحية غابة والثام في لندن
-  comments:
   type: london_borough
 WGN:
   name: Wigan
   code: WGN
-  unofficial_names: Wigan
+  unofficial_names:
+  - Wigan
   geo:
     latitude: 53.5450645
     longitude: -2.6325074
@@ -11896,18 +11627,18 @@ WGN:
     ceb: Borough of Wigan
     fa: کلان‌شهر مستقل ویگان
     el: Μητροπολιτικός Δήμος του Γουίγκαν
-    ccp: "\U00011103\U0001112A\U00011103\U00011128\U00011109\U00011127\U0001111A\U00011134"
+    ccp: "𑄃𑄪𑄃𑄨𑄉𑄧𑄚𑄴"
     'no': Wigan
     cy: Bwrdeisdref Fetropolitan Wigan
     ga: Wigan
     yue: 韋根都市自治市
     yue_Hans: 韦根都市自治市
-  comments:
   type: metropolitan_district
 WIL:
   name: Wiltshire
   code: WIL
-  unofficial_names: Wiltshire
+  unofficial_names:
+  - Wiltshire
   geo:
     latitude: 51.2462714
     longitude: -1.9922127
@@ -11962,7 +11693,7 @@ WIL:
     zh: 威爾特郡
     ceb: Wiltshire
     sr_Latn: Viltšir
-    ccp: "\U00011103\U0001112A\U00011103\U00011128\U00011123\U00011133\U00011111\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄃𑄪𑄃𑄨𑄣𑄳𑄑𑄴𑄥𑄠𑄢𑄴"
     ka: უილტშირი
     'no': Wiltshire
     az: Uiltşir
@@ -11977,12 +11708,12 @@ WIL:
     te: విల్ట్షైర్
     yue: 渭州郡
     yue_Hans: 渭州郡
-  comments:
   type: unitary_authority
 WKF:
   name: Wakefield
   code: WKF
-  unofficial_names: Wakefield
+  unofficial_names:
+  - Wakefield
   geo:
     latitude: 53.683298
     longitude: -1.505924
@@ -12014,7 +11745,7 @@ WKF:
     ur: ویکفیلڈ شہر
     zh: 韋克菲爾德市
     ceb: City and Borough of Wakefield
-    ccp: "\U00011124\U00011120\U0001112C\U00011107\U00011134\U0001111C\U00011128\U00011123\U00011133\U00011113\U00011134"
+    ccp: "𑄤𑄠𑄬𑄇𑄴𑄜𑄨𑄣𑄳𑄓𑄴"
     he: וייקפילד
     be: Уэйкфілд
     'no': City of Wakefield
@@ -12022,12 +11753,12 @@ WKF:
     cy: Dinas Wakefield
     el: Γουέικφιλντ
     ga: Wakefield
-  comments:
   type: metropolitan_district
 WLL:
   name: Walsall
   code: WLL
-  unofficial_names: Walsall
+  unofficial_names:
+  - Walsall
   geo:
     latitude: 52.586214
     longitude: -1.982919
@@ -12057,7 +11788,7 @@ WLL:
     fa: کلان‌شهر مستقل والسال
     el: Μητροπολιτικός Δήμος του Γουόλσολ
     ja: ワルサル
-    ccp: "\U00011124\U00011123\U00011134\U00011125\U00011127\U00011123\U00011134"
+    ccp: "𑄤𑄣𑄴𑄥𑄧𑄣𑄴"
     gu: વોલસોલ
     es: Walsall
     kn: ವಾಲ್ಸಾಲ್
@@ -12066,12 +11797,12 @@ WLL:
     cy: Bwrdeistref Fetropolitan Walsall
     ga: Walsall
     uk: Волсолл
-  comments:
   type: metropolitan_district
 WLN:
   name: West Lothian
   code: WLN
-  unofficial_names: West Lothian
+  unofficial_names:
+  - West Lothian
   geo:
     latitude: 55.9070198
     longitude: -3.5517167
@@ -12114,7 +11845,7 @@ WLN:
     te: పశ్చిమ లోథియన్²
     ta: மேற்கு லோதியன்
     bn: ওয়েস্ট লোথিয়ান
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011123\U0001112E\U00011117\U00011128\U00011120\U0001111A\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄣𑄮𑄗𑄨𑄠𑄚𑄴"
     gu: પશ્ચિમ લોથીયાન
     ga: Labhaidh Thoir
     kn: ವೆಸ್ಟ್ ಲೋಥಿಯನ್
@@ -12122,19 +11853,10 @@ WLN:
     'no': West Lothian
     az: Uest-Lotian
     hy: Ուեսթ Լոտիան
-  comments:
   type: council_area
 WLS:
   name: Wales
   code: WLS
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Wales
     am: ዌልስ
@@ -12221,12 +11943,12 @@ WLS:
     yo_BJ: Wélsì
     yue: 威爾斯
     yue_Hans: 威尔斯
-  comments:
   type: country
 WLV:
   name: Wolverhampton
   code: WLV
-  unofficial_names: Wolverhampton
+  unofficial_names:
+  - Wolverhampton
   geo:
     latitude: 52.586973
     longitude: -2.12882
@@ -12290,16 +12012,16 @@ WLV:
     zh: 伍爾弗漢普頓
     ceb: City of Wolverhampton
     sr_Latn: Vulverhempton
-    ccp: "\U00011124\U00011120\U0001112E\U00011123\U00011134\U0001111E\U00011122\U00011134\U00011126\U0001111F\U00011134\U0001111B\U00011134\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄤𑄠𑄮𑄣𑄴𑄞𑄢𑄴𑄦𑄟𑄴𑄛𑄴𑄑𑄧𑄚𑄴"
     'no': Wolverhampton
     cy: Dinas Wolverhampton
     ga: Wolverhampton
-  comments:
   type: metropolitan_district
 WND:
   name: Wandsworth
   code: WND
-  unofficial_names: Wandsworth
+  unofficial_names:
+  - Wandsworth
   geo:
     latitude: 51.4570716
     longitude: -0.1817824
@@ -12345,17 +12067,17 @@ WND:
     cy: Wandsworth
     ceb: Wandsworth
     tr: Wandsworth
-    ccp: "\U00011124\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U0001112E\U00011122\U00011134\U00011116\U00011134"
+    ccp: "𑄤𑄠𑄚𑄳𑄓𑄴𑄥𑄮𑄢𑄴𑄖𑄴"
     ga: London Borough of Wandsworth
     hu: London Borough of Wandsworth
     be: Уондсуэрт
     'no': Wandsworth
-  comments:
   type: london_borough
 WNM:
   name: Windsor and Maidenhead
   code: WNM
-  unofficial_names: Windsor and Maidenhead
+  unofficial_names:
+  - Windsor and Maidenhead
   geo:
     latitude: 51.4917059
     longitude: -0.7321755000000001
@@ -12390,8 +12112,7 @@ WNM:
     ta: வின்ட்சர் & மைடேன்ஹெட்
     bn: উইন্ডসর ও মেইডেনল্যান্ড
     fa: شهر سلطنتی ویندسور و میدنهد
-    ccp: "\U00011103\U0001112A\U00011103\U00011128\U0001111A\U00011133\U00011113\U00011134\U00011125\U0001112E\U00011122\U00011134
-      \U00011103\U00011133\U00011103 \U0001111F\U0001112D\U00011113\U0001112C\U0001111A\U00011134\U00011126\U0001112C\U00011116\U00011134"
+    ccp: "𑄃𑄪𑄃𑄨𑄚𑄳𑄓𑄴𑄥𑄮𑄢𑄴 𑄃𑄳𑄃 𑄟𑄭𑄓𑄬𑄚𑄴𑄦𑄬𑄖𑄴"
     gu: વિન્ડસર અને મૈડનહેડ
     hy: Վինձոր և Մեյդենհեդ
     es: Windsor and Maidenhead
@@ -12403,12 +12124,12 @@ WNM:
     cy: Bwrdeistref Frenhinol Windsor a Maidenhead
     fi: Windsor ja Maidenhead
     ga: Windsor agus Maidenhead
-  comments:
   type: unitary_authority
 WOK:
   name: Wokingham
   code: WOK
-  unofficial_names: Wokingham
+  unofficial_names:
+  - Wokingham
   geo:
     latitude: 51.410457
     longitude: -0.833861
@@ -12438,7 +12159,7 @@ WOK:
     ta: ஒக்கிங்ஹம்
     bn: ওকিংহাম
     ja: ウォーキンハム
-    ccp: "\U00011103\U0001112E\U00011107\U00011128\U00011101\U00011126\U0001111F\U00011134"
+    ccp: "𑄃𑄮𑄇𑄨𑄁𑄦𑄟𑄴"
     gu: વોકિંગહામ
     es: Wokingham
     kn: ವೋಕಿಂಗ್ಹ್ಯಾಮ್
@@ -12446,12 +12167,12 @@ WOK:
     mk: Вокингем
     'no': Wokingham
     cy: Bwrdeistref Wokingham
-  comments:
   type: unitary_authority
 WOR:
   name: Worcestershire
   code: WOR
-  unofficial_names: Worcestershire
+  unofficial_names:
+  - Worcestershire
   geo:
     latitude: 52.2545225
     longitude: -2.2668382
@@ -12509,7 +12230,7 @@ WOR:
     ta: ஒரஸ்ஸ்டேர்ஷிர்
     bn: ওরচেস্টারশায়ার
     yue_Hans: 窝士打郡
-    ccp: "\U00011103\U0001112E\U00011120\U00011122\U00011134\U00011125\U0001112C\U0001110C\U00011134\U00011111\U00011122\U00011134\U00011125\U00011120\U00011122\U00011134"
+    ccp: "𑄃𑄮𑄠𑄢𑄴𑄥𑄬𑄌𑄴𑄑𑄢𑄴𑄥𑄠𑄢𑄴"
     gu: વોર્કેસ્ટરશાયર
     ga: Worcestershire
     kn: ವರ್ಸೆಸ್ಟರ್ಶೈರ್
@@ -12519,19 +12240,15 @@ WOR:
     'no': Worcestershire
     az: Vusterşir
     el: Γούστερσιρ
-  comments:
   type: council_area
 WRL:
   name: Wirral
   code: WRL
-  unofficial_names: Wirral
+  unofficial_names:
+  - Wirral
   geo:
     latitude: 53.3333333
     longitude: -3.0833333
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Wirral
     be: раён Уірал
@@ -12554,7 +12271,7 @@ WRL:
     ceb: Metropolitan Borough of Wirral
     lt: Viralas
     fa: کلان‌شهر مستقل ویرال
-    ccp: "\U00011103\U0001112E\U00011120\U00011122\U0001112C\U00011123\U00011134"
+    ccp: "𑄃𑄮𑄠𑄢𑄬𑄣𑄴"
     uk: Віррал
     'no': Wirral
     ar: ويرال
@@ -12563,12 +12280,12 @@ WRL:
     fi: Wirral
     ga: Wirral
     hy: Ուիրրալ
-  comments:
   type: metropolitan_district
 WRT:
   name: Warrington
   code: WRT
-  unofficial_names: Warrington
+  unofficial_names:
+  - Warrington
   geo:
     latitude: 53.3900441
     longitude: -2.5969501
@@ -12610,13 +12327,12 @@ WRT:
     lt: Varingtonas
     ta: வாரிங்க்டோன்
     bn: ওয়ারিংটন
-    ccp: "\U00011103\U0001112E\U00011120\U00011122\U00011128\U00011101\U00011111\U00011127\U0001111A\U00011134"
+    ccp: "𑄃𑄮𑄠𑄢𑄨𑄁𑄑𑄧𑄚𑄴"
     gu: વોરિંગટન
     kn: ವಾರಿಂಗ್ಟನ್
     be: Уорынгтан
     'no': Warrington
     cy: Bwrdeistref Warrington
-  comments:
   type: unitary_authority
 WRX:
   name: Wrexham [Wrecsam GB-WRC]
@@ -12658,7 +12374,7 @@ WRX:
     bn: রেক্সহাম কাউন্টি বোরো
     fa: شهرستان مستقل ورکسام
     el: Κομητειακός Δήμος Ρέξαμ
-    ccp: "\U00011122\U0001112C\U00011107\U00011134\U00011126\U0001111F\U00011134"
+    ccp: "𑄢𑄬𑄇𑄴𑄦𑄟𑄴"
     gu: વ્રેક્શેમ કાઉન્ટી બોરો
     kn: ವ್ರೆಕ್ಸ್ಹ್ಯಾಮ್ ಕೌಂಟಿ ಬರೋ
     pt: Wrexham County Borough
@@ -12666,12 +12382,12 @@ WRX:
     'no': Wrexham
     ceb: Wrexham
     ga: Contaebhuirg Wrecsam
-  comments:
   type: unitary_authority
 WSM:
   name: Westminster
   code: WSM
-  unofficial_names: Westminster
+  unofficial_names:
+  - Westminster
   geo:
     latitude: 51.5001754
     longitude: -0.1332326
@@ -12735,7 +12451,7 @@ WSM:
     ceb: City of Westminster
     lt: Vestminsterio miestas
     yue_Hans: 西敏市
-    ccp: "\U00011103\U0001112E\U00011120\U0001112C\U0001110C\U00011134\U0001111F\U00011128\U0001111A\U00011134\U0001110C\U00011133\U00011111\U00011122\U00011134"
+    ccp: "𑄃𑄮𑄠𑄬𑄌𑄴𑄟𑄨𑄚𑄴𑄌𑄳𑄑𑄢𑄴"
     ga: Cathair Westminster
     yue: 西敏市
     mk: Вестминстер
@@ -12744,12 +12460,12 @@ WSM:
     sq: Westminster
     sr: Град Вестминстер
     sr_Latn: Grad Vestminster
-  comments:
   type: london_borough
 WSX:
   name: West Sussex
   code: WSX
-  unofficial_names: West Sussex
+  unofficial_names:
+  - West Sussex
   geo:
     latitude: 50.9280143
     longitude: -0.4617075
@@ -12811,7 +12527,7 @@ WSX:
     ta: மேற்கு சுஸெஸ்
     bn: ওয়েস্ট সাসেক্স
     yue_Hans: 西修适士
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U00011125\U00011125\U0001112C\U00011107\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄥𑄥𑄬𑄇𑄴"
     gu: પશ્ચિમ સુસેક્સ
     ga: Sussex Thiar
     kn: ಪಶ್ಚಿಮ ಸಸೆಕ್ಸ್
@@ -12819,12 +12535,12 @@ WSX:
     mk: Западен Сасекс
     bg: Западен Съсекс
     'no': West Sussex
-  comments:
   type: two-tier_county
 YOR:
   name: York
   code: YOR
-  unofficial_names: York
+  unofficial_names:
+  - York
   geo:
     latitude: 53.95996510000001
     longitude: -1.0872979
@@ -12891,16 +12607,16 @@ YOR:
     zh: 約克
     ceb: City of York
     sr_Latn: Jork
-    ccp: "\U00011103\U00011128\U00011120\U00011127\U00011122\U00011134\U00011107\U00011134"
+    ccp: "𑄃𑄨𑄠𑄧𑄢𑄴𑄇𑄴"
     'no': York
     cy: Dinas Efrog
     ga: Cathair Eabhrac
-  comments:
   type: unitary_authority
 ZET:
   name: Shetland Islands
   code: ZET
-  unofficial_names: Shetland Islands
+  unofficial_names:
+  - Shetland Islands
   geo:
     latitude: 60.5296507
     longitude: -1.2659408
@@ -12960,7 +12676,7 @@ ZET:
     bn: শেটল্যান্ড
     sw: Visiwa vya Shetland
     yue_Hans: 昔德兰
-    ccp: "\U00011125\U0001112C\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄥𑄬𑄖𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     gu: શેટલેન્ડ
     ga: Inse Shealtainn
     ps: شټلنډ
@@ -12973,5 +12689,4 @@ ZET:
     'no': Shetland
     ml: ഷെറ്റ്ലാൻഡ്
     mr: शेटलँड
-  comments:
   type: council_area

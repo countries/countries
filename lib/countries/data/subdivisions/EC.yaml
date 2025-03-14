@@ -2,7 +2,8 @@
 A:
   name: Azuay
   code: A
-  unofficial_names: Azuay
+  unofficial_names:
+  - Azuay
   geo:
     latitude: -2.9633245
     longitude: -79.1096901
@@ -54,7 +55,7 @@ A:
     zh: 阿苏艾省
     lv: Asvajas province
     ceb: Provincia del Azuay
-    ccp: "\U00011103\U0001110E\U0001112A\U00011120\U0001112C"
+    ccp: "𑄃𑄎𑄪𑄠𑄬"
     hy: Ասուայ
     mk: Азуај
     'no': Azuay
@@ -62,12 +63,12 @@ A:
     eu: Azuay probintzia
     gl: Azuay
     ps: ازوای ولایت
-  comments:
   type: province
 B:
   name: Bolívar
   code: B
-  unofficial_names: Bolívar
+  unofficial_names:
+  - Bolívar
   geo:
     latitude: -1.5696244
     longitude: -79.1096901
@@ -118,18 +119,18 @@ B:
     lv: Bolivara province
     ceb: Provincia de Bolívar (lalawigan)
     zh: 玻利瓦尔省
-    ccp: "\U0001111D\U00011127\U00011123\U00011128\U0001111E\U00011122\U00011134"
+    ccp: "𑄝𑄧𑄣𑄨𑄞𑄢𑄴"
     hy: Բոլիվար
     'no': Bolívar
     cs: provincie Bolívar
     cy: Talaith Bolívar
     eu: Bolívar probintzia
-  comments:
   type: province
 C:
   name: Carchi
   code: C
-  unofficial_names: Carchi
+  unofficial_names:
+  - Carchi
   geo:
     latitude: 0.6625532
     longitude: -78.0195387
@@ -181,18 +182,18 @@ C:
     lv: Karči province
     ceb: Provincia del Carchi
     zh: 卡尔奇省
-    ccp: "\U00011107\U00011122\U00011134\U0001110C\U00011128"
+    ccp: "𑄇𑄢𑄴𑄌𑄨"
     hy: Կարչի
     he: מחוז קארצ׳י
     'no': Carchi
     cy: Talaith Carchi
     eu: Carchi probintzia
-  comments:
   type: province
 D:
   name: Orellana
   code: D
-  unofficial_names: Orellana
+  unofficial_names:
+  - Orellana
   geo:
     latitude: -0.7112664999999999
     longitude: -77.15426839999999
@@ -243,17 +244,17 @@ D:
     ceb: Provincia de Francisco de Orellana
     zh: 奥雷亚纳省
     fa: استان اوریانا
-    ccp: "\U00011103\U00011127\U00011122\U0001112C\U00011123\U0001111A"
+    ccp: "𑄃𑄧𑄢𑄬𑄣𑄚"
     hy: Օրելյանա
     'no': Orellana
     cy: Talaith Orellana
     eu: Orellana probintzia
-  comments:
   type: province
 E:
   name: Esmeraldas
   code: E
-  unofficial_names: Esmeraldas
+  unofficial_names:
+  - Esmeraldas
   geo:
     latitude: 0.9681789
     longitude: -79.6517202
@@ -304,17 +305,17 @@ E:
     lv: Esmeraldasas province
     ceb: Provincia de Esmeraldas
     zh: 埃斯梅拉达斯省
-    ccp: "\U00011103\U0001112C\U0001110C\U00011134\U0001111F\U00011122\U00011123\U00011134\U00011113\U0001110C\U00011134"
+    ccp: "𑄃𑄬𑄌𑄴𑄟𑄢𑄣𑄴𑄓𑄌𑄴"
     hy: Էսմերալդաս
     he: מחוז אסמרלדס
     'no': Esmeraldas
     eu: Esmeraldas probintzia
-  comments:
   type: province
 F:
   name: Cañar
   code: F
-  unofficial_names: Cañar
+  unofficial_names:
+  - Cañar
   geo:
     latitude: -2.555695
     longitude: -78.9344814
@@ -365,17 +366,17 @@ F:
     ceb: Provincia del Cañar
     zh: 卡尼亞爾省
     bn: কানার প্রদেশ’
-    ccp: "\U00011107\U0001112C\U0001111A\U00011122\U00011134"
+    ccp: "𑄇𑄬𑄚𑄢𑄴"
     'no': Cañar
     cy: Talaith Cañar
     eu: Cañar probintzia
     hy: Կանյար
-  comments:
   type: province
 G:
   name: Guayas
   code: G
-  unofficial_names: Guayas
+  unofficial_names:
+  - Guayas
   geo:
     latitude: -1.9574839
     longitude: -79.9192702
@@ -428,26 +429,22 @@ G:
     lv: Gvajasas province
     ceb: Provincia del Guayas
     zh: 瓜亚斯省
-    ccp: "\U00011109\U0001112A\U00011120\U00011120\U0001112C\U0001110C\U00011134"
+    ccp: "𑄉𑄪𑄠𑄠𑄬𑄌𑄴"
     'no': Guayas
     az: Quayas
     cy: Talaith Guayas
     eu: Guayas probintzia
     he: מחוז גואייס
     hy: Գուայաս
-  comments:
   type: province
 H:
   name: Chimborazo
   code: H
-  unofficial_names: Chimborazo
+  unofficial_names:
+  - Chimborazo
   geo:
     latitude: -1.4693018
     longitude: -78.8169396
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Chimborazo
     ar: مقاطعة تشيمبورازو
@@ -492,19 +489,19 @@ H:
     lv: Čimbaraso province
     ceb: Provincia del Chimborazo
     zh: 钦博拉索省
-    ccp: "\U0001110C\U00011128\U0001111F\U00011134\U0001111D\U00011127\U00011122\U0001110E\U0001112E"
+    ccp: "𑄌𑄨𑄟𑄴𑄝𑄧𑄢𑄎𑄮"
     kk: Чимборасо
     mk: Чимборасо
     'no': Chimborazo
     cy: Talaith Chimborazo
     eu: Chimborazo probintzia
     he: מחוז צ׳ימבורסו
-  comments:
   type: province
 I:
   name: Imbabura
   code: I
-  unofficial_names: Imbabura
+  unofficial_names:
+  - Imbabura
   geo:
     latitude: 0.367159
     longitude: -78.3842227
@@ -555,19 +552,19 @@ I:
     lv: Imbaburas province
     ceb: Provincia de Imbabura
     zh: 因巴布拉省
-    ccp: "\U00011103\U00011128\U0001111F\U00011134\U0001111D\U0001111D\U0001112A\U00011122"
+    ccp: "𑄃𑄨𑄟𑄴𑄝𑄝𑄪𑄢"
     hy: Իմբաբուրա
     he: מחוז אימבאבורה
     'no': Imbabura
     cy: Talaith Imbabura
     eu: Imbabura probintzia
     sd: امبابورا صوبو
-  comments:
   type: province
 L:
   name: Loja
   code: L
-  unofficial_names: Loja
+  unofficial_names:
+  - Loja
   geo:
     latitude: -3.983333
     longitude: -79.2
@@ -618,19 +615,19 @@ L:
     af: Loja
     ceb: Provincia de Loja
     zh: 洛哈省
-    ccp: "\U00011123\U0001112E\U0001110E"
+    ccp: "𑄣𑄮𑄎"
     'no': Loja
     cy: Talaith Loja
     eu: Loja probintzia
     fa: استان لوخا
     he: מחוז לוחה
     hy: Լոխա
-  comments:
   type: province
 M:
   name: Manabí
   code: M
-  unofficial_names: Manabí
+  unofficial_names:
+  - Manabí
   geo:
     latitude: -0.7416532
     longitude: -79.9192702
@@ -682,18 +679,18 @@ M:
     ceb: Provincia de Manabí
     zh: 马纳比省
     fa: استان مانابی
-    ccp: "\U0001111F\U0001111A\U0001111D\U00011128"
+    ccp: "𑄟𑄚𑄝𑄨"
     he: מחוז מנבי
     cs: Manabí
     'no': Manabí
     cy: Talaith Manabí
     eu: Manabí probintzia
-  comments:
   type: province
 N:
   name: Napo
   code: N
-  unofficial_names: Napo
+  unofficial_names:
+  - Napo
   geo:
     latitude: -0.7371233
     longitude: -78.11082789999999
@@ -745,19 +742,19 @@ N:
     lv: Napo province
     ceb: Provincia de Napo
     zh: 纳波省
-    ccp: "\U0001111A\U0001111B\U0001112E"
+    ccp: "𑄚𑄛𑄮"
     he: מחוז נפו
     'no': Napo
     cy: Talaith Napo
     eu: Napo probintzia
     gl: Provincia de Napo
     hy: Նապո
-  comments:
   type: province
 O:
   name: El Oro
   code: O
-  unofficial_names: El Oro
+  unofficial_names:
+  - El Oro
   geo:
     latitude: -3.4454787
     longitude: -79.8296743
@@ -808,18 +805,18 @@ O:
     lv: Eloro province
     ceb: Provincia de El Oro
     zh: 埃爾奧羅省
-    ccp: "\U00011103\U0001112C\U00011123\U00011134 \U00011103\U00011127\U00011122\U0001112E"
+    ccp: "𑄃𑄬𑄣𑄴 𑄃𑄧𑄢𑄮"
     hy: Էլ Օրո
     'no': El Oro
     cy: Talaith El Oro
     eu: El Oro probintzia
     he: מחוז אל אורו
-  comments:
   type: province
 P:
   name: Pichincha
   code: P
-  unofficial_names: Pichincha
+  unofficial_names:
+  - Pichincha
   geo:
     latitude: -0.1464847
     longitude: -78.4751945
@@ -871,17 +868,17 @@ P:
     ceb: Provincia de Pichincha
     zh: 皮欽查省
     fa: استان پیچینچا
-    ccp: "\U0001111B\U00011128\U0001110C\U00011128\U0001111A\U00011134\U0001110C"
+    ccp: "𑄛𑄨𑄌𑄨𑄚𑄴𑄌"
     hy: Պիչինչա
     'no': Pichincha
     cy: Talaith Pichincha
     eu: Pichincha probintzia
-  comments:
   type: province
 R:
   name: Los Ríos
   code: R
-  unofficial_names: Los Ríos
+  unofficial_names:
+  - Los Ríos
   geo:
     latitude: -1.4191719
     longitude: -79.4703885
@@ -932,17 +929,17 @@ R:
     lv: Losriosas province
     ceb: Provincia de Los Ríos
     zh: 洛斯里奧斯省
-    ccp: "\U00011123\U00011127\U0001110C\U00011134 \U00011122\U00011128\U00011120\U0001112E\U0001110C\U00011134"
+    ccp: "𑄣𑄧𑄌𑄴 𑄢𑄨𑄠𑄮𑄌𑄴"
     hy: Լոս Ռիո
     'no': Los Ríos
     cy: Talaith Los Ríos
     eu: Los Ríos probintzia
-  comments:
   type: province
 S:
   name: Morona-Santiago
   code: S
-  unofficial_names: Morona-Santiago
+  unofficial_names:
+  - Morona-Santiago
   geo:
     latitude: -2.5628216
     longitude: -78.11082789999999
@@ -992,18 +989,18 @@ S:
     lv: Moronas Santjago province
     ceb: Provincia de Morona-Santiago
     zh: 莫罗纳-圣地亚哥省
-    ccp: "\U0001111F\U00011127\U00011122\U0001112E\U0001111A-\U00011125\U0001111A\U00011134\U00011111\U00011128\U00011120\U00011109\U0001112E"
+    ccp: "𑄟𑄧𑄢𑄮𑄚-𑄥𑄚𑄴𑄑𑄨𑄠𑄉𑄮"
     hy: Մորոնա Սանտյագո
     'no': Morona Santiago
     cy: Talaith Morona-Santiago
     eu: Morona Santiago probintzia
     he: מחוז מורונה-סנטיאגו
-  comments:
   type: province
 SD:
   name: Santo Domingo de los Tsachilas
   code: SD
-  unofficial_names: Santo Domingo de los Tsachilas
+  unofficial_names:
+  - Santo Domingo de los Tsachilas
   geo:
     latitude: -0.2205563
     longitude: -79.29021329999999
@@ -1051,20 +1048,19 @@ SD:
     lv: Santodomingo de los Cačilasas province
     ceb: Provincia de Santo Domingo de los Tsáchilas
     zh: 聖多明各-德洛斯查奇拉斯省
-    ccp: "\U00011125\U0001111A\U00011134\U00011111\U0001112E \U00011113\U0001112E\U0001111F\U00011128\U0001111A\U00011134\U00011109\U0001112E
-      \U00011113\U0001112C \U00011123\U00011127\U0001110C\U00011134 \U00011125\U0001110C\U00011128\U00011123\U0001110C\U00011134"
+    ccp: "𑄥𑄚𑄴𑄑𑄮 𑄓𑄮𑄟𑄨𑄚𑄴𑄉𑄮 𑄓𑄬 𑄣𑄧𑄌𑄴 𑄥𑄌𑄨𑄣𑄌𑄴"
     hy: Սանտա Դոմինգո դե լոս Տսաչիլաս
     'no': Santo Domingo de las Tsachilas provins
     ca: Província de Santo Domingo de los Tsáchilas
     cy: Talaith Santo Domingo de los Tsáchilas
     eu: Santo Domingo de los Tsáchilas probintzia
     fa: استان سانتو دومینگو د لوس تساچیلاس
-  comments:
   type: province
 SE:
   name: Santa Elena
   code: SE
-  unofficial_names: Santa Elena
+  unofficial_names:
+  - Santa Elena
   geo:
     latitude: -2.1934804
     longitude: -80.54384499999999
@@ -1113,18 +1109,18 @@ SE:
     lv: Santaelenas province
     ceb: Provincia de Santa Elena
     zh: 聖埃倫娜省
-    ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011103\U0001112C\U00011123\U0001112C\U0001111A"
+    ccp: "𑄥𑄚𑄴𑄑 𑄃𑄬𑄣𑄬𑄚"
     mk: Санта Елена
     'no': Santa Elena provins
     ca: Província de Santa Elena
     cy: Talaith Santa Elena
     eu: Santa Elena probintzia
-  comments:
   type: province
 T:
   name: Tungurahua
   code: T
-  unofficial_names: Tungurahua
+  unofficial_names:
+  - Tungurahua
   geo:
     latitude: -1.2635284
     longitude: -78.5660852
@@ -1174,19 +1170,19 @@ T:
     lv: Tunguravas province
     ceb: Provincia del Tungurahua
     zh: 通古拉瓦省
-    ccp: "\U00011111\U0001112A\U0001110B\U00011134\U00011109\U0001112A\U00011122\U00011126\U0001112A\U00011120"
+    ccp: "𑄑𑄪𑄋𑄴𑄉𑄪𑄢𑄦𑄪𑄠"
     hy: Տունգուրահուա
     'no': Tungurahua
     cy: Talaith Tungurahua
     eu: Tungurahua probintzia
     he: מחוז טונגוראווה
     jv: Tungurahua
-  comments:
   type: province
 U:
   name: Sucumbíos
   code: U
-  unofficial_names: Sucumbíos
+  unofficial_names:
+  - Sucumbíos
   geo:
     latitude: -0.1452276
     longitude: -76.2710833
@@ -1236,19 +1232,19 @@ U:
     lv: Sukumbiosas province
     ceb: Provincia de Sucumbíos
     zh: 苏昆比奥斯省
-    ccp: "\U00011125\U00011107\U0001112A\U0001111F\U00011134\U0001111D\U00011120\U0001112E\U0001110C\U00011134"
+    ccp: "𑄥𑄇𑄪𑄟𑄴𑄝𑄠𑄮𑄌𑄴"
     he: מחוז סוקומביוס
     'no': Sucumbíos
     cy: Talaith Sucumbíos
     eu: Sucumbíos probintzia
     gl: Provincia de Sucumbíos
     hy: Սուկումբիոս
-  comments:
   type: province
 W:
   name: Galápagos
   code: W
-  unofficial_names: Galápagos
+  unofficial_names:
+  - Galápagos
   geo:
     latitude: -0.8292784
     longitude: -90.9820668
@@ -1298,17 +1294,17 @@ W:
     lv: Galapagu province
     ceb: Provincia de Galápagos
     zh: 加拉帕戈斯省
-    ccp: "\U00011109\U00011133\U00011120\U00011123\U0001111B\U00011134\U0001111B\U00011109\U0001112E\U0001110C\U00011134"
+    ccp: "𑄉𑄳𑄠𑄣𑄛𑄴𑄛𑄉𑄮𑄌𑄴"
     'no': Galapagos provins
     cy: Talaith Galápagos
     eu: Galapagoak probintzia
     he: מחוז גלאפגוס
-  comments:
   type: province
 X:
   name: Cotopaxi
   code: X
-  unofficial_names: Cotopaxi
+  unofficial_names:
+  - Cotopaxi
   geo:
     latitude: -0.8139666999999999
     longitude: -78.9288242
@@ -1359,17 +1355,17 @@ X:
     lv: Kotopaksi province
     ceb: Provincia de Cotopaxi
     zh: 科托帕希省
-    ccp: "\U00011107\U00011127\U00011111\U0001112E\U0001111B\U00011107\U00011134\U00011125\U00011128"
+    ccp: "𑄇𑄧𑄑𑄮𑄛𑄇𑄴𑄥𑄨"
     hy: Կոտոպախի
     'no': Cotopaxi
     cy: Talaith Cotopaxi
     eu: Cotopaxi probintzia
-  comments:
   type: province
 Y:
   name: Pastaza
   code: Y
-  unofficial_names: Pastaza
+  unofficial_names:
+  - Pastaza
   geo:
     latitude: -1.6332034
     longitude: -77.010385
@@ -1420,17 +1416,17 @@ Y:
     ceb: Provincia del Pastaza
     zh: 帕斯塔薩省
     fa: استان پاستاسا
-    ccp: "\U0001111B\U0001110C\U00011134\U00011111\U0001110E"
+    ccp: "𑄛𑄌𑄴𑄑𑄎"
     hy: Պաստասա
     'no': Pastaza
     cy: Talaith Pastaza
     eu: Pastaza probintzia
-  comments:
   type: province
 Z:
   name: Zamora-Chinchipe
   code: Z
-  unofficial_names: Zamora-Chinchipe
+  unofficial_names:
+  - Zamora-Chinchipe
   geo:
     latitude: -4.1535434
     longitude: -78.8382644
@@ -1480,10 +1476,9 @@ Z:
     lv: Samoras Činčipes province
     ceb: Provincia de Zamora-Chinchipe
     zh: 萨莫拉-钦奇佩省
-    ccp: "\U0001110E\U0001111F\U0001112E\U00011122-\U0001110C\U00011128\U0001111A\U00011134\U0001110C\U00011128\U0001111B\U0001112C"
+    ccp: "𑄎𑄟𑄮𑄢-𑄌𑄨𑄚𑄴𑄌𑄨𑄛𑄬"
     'no': Zamora Chinchipe
     cy: Talaith Zamora-Chinchipe
     eu: Zamora Chinchipe probintzia
     hy: Սամորա Չինչիպե
-  comments:
   type: province

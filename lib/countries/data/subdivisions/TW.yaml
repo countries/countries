@@ -53,13 +53,12 @@ CHA:
     cy: Sir Changhua
     ceb: Changhua
     yue_Hans: 彰化县
-    ccp: "\U0001110C\U0001111A\U00011134\U0001110A\U0001112A\U00011120"
+    ccp: "𑄌𑄚𑄴𑄊𑄪𑄠"
     uk: Округ Чжанхуа
     yue: 彰化縣
     'no': Changhua Fylke
     ca: Changhua
     fa: شهرستان جانگوآ
-  comments:
   type: county
 CYI:
   name: Chiayi Municipality
@@ -69,10 +68,6 @@ CYI:
   geo:
     latitude: 23.4871898
     longitude: 120.4516708
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Chiayi County
     ar: مقاطعة شياي
@@ -113,7 +108,7 @@ CYI:
     ceb: Chiayi
     zh: 嘉義縣
     yue_Hans: 嘉义县
-    ccp: "\U0001110C\U00011128\U00011120\U00011103\U00011128 \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+    ccp: "𑄌𑄨𑄠𑄃𑄨 𑄇𑄅𑄪𑄚𑄴𑄑𑄨"
     uk: Округ Цзяі
     yue: 嘉義縣
     mn: Жяи шянь
@@ -121,12 +116,12 @@ CYI:
     fa: چیایای²
     he: ג׳יאיי²
     hu: Csiaji²
-  comments:
   type: city
 CYQ:
   name: Chiayi
   code: CYQ
-  unofficial_names: Chiayi
+  unofficial_names:
+  - Chiayi
   geo:
     latitude: 23.4518428
     longitude: 120.2554615
@@ -178,17 +173,17 @@ CYQ:
     ceb: Chiayi (lalawigan sa Republika sa Tsina, lat 23,48, long 120,45)
     zh: 嘉義市
     yue_Hans: 嘉义市
-    ccp: "\U0001110C\U00011128\U00011120\U00011103\U00011128"
+    ccp: "𑄌𑄨𑄠𑄃𑄨"
     yue: 嘉義市
     'no': Chiayi
     ca: Comarca de Txiayi
     cy: Sir Chiayi²
-  comments:
   type: county
 HSQ:
   name: Hsinchu
   code: HSQ
-  unofficial_names: Hsinchu
+  unofficial_names:
+  - Hsinchu
   geo:
     latitude: 24.8066493
     longitude: 120.9669257
@@ -236,19 +231,19 @@ HSQ:
     cy: Sir Hsinchu
     zh: 新竹縣
     yue_Hans: 新竹县
-    ccp: "\U00011125\U00011128\U0001111A\U00011134\U0001110C\U0001112A \U00011107\U00011105\U0001112A\U0001111A\U00011134\U00011111\U00011128"
+    ccp: "𑄥𑄨𑄚𑄴𑄌𑄪 𑄇𑄅𑄪𑄚𑄴𑄑𑄨"
     ml: ഹ്സിഞ്ചു കൗണ്ടി
     uk: Округ Сіньчжу
     yue: 新竹縣
     'no': Hsinchu Fylke
     ca: Comarca de Xintxu
     fa: شهرستان هسینچو
-  comments:
   type: county
 HSZ:
   name: Hsinchu Municipality
   code: HSZ
-  unofficial_names: Hsinchu Municipality
+  unofficial_names:
+  - Hsinchu Municipality
   geo:
     latitude: 24.9330791
     longitude: 121.0093188
@@ -299,7 +294,7 @@ HSZ:
     ceb: Hsinchu (kapital sa lalawigan)
     zh: 新竹市
     yue_Hans: 新竹市
-    ccp: "\U00011125\U00011128\U0001111A\U00011134\U0001110C\U0001112A"
+    ccp: "𑄥𑄨𑄚𑄴𑄌𑄪"
     kk: Синьчжу
     yue: 新竹市
     ca: Hsinchu
@@ -308,7 +303,6 @@ HSZ:
     af: Hsinchu
     cy: Hsinchu
     ga: Hsinchu
-  comments:
   type: city
 HUA:
   name: Hualien
@@ -364,18 +358,18 @@ HUA:
     ceb: Hualien (lalawigan sa Republika sa Tsina)
     zh: 花蓮縣
     yue_Hans: 花莲县
-    ccp: "\U00011126\U0001112A\U00011120\U00011123\U00011128\U00011120\U0001112C\U0001111A\U00011134"
+    ccp: "𑄦𑄪𑄠𑄣𑄨𑄠𑄬𑄚𑄴"
     uk: Округ Гуалянь
     yue: 花蓮縣
     'no': Hualien Fylke
     ca: comtat de Hualien
     ml: ഹുവാലിയെൻ കൗണ്ടി
-  comments:
   type: county
 ILA:
   name: Ilan
   code: ILA
-  unofficial_names: Ilan
+  unofficial_names:
+  - Ilan
   geo:
     latitude: 24.7021073
     longitude: 121.7377502
@@ -425,11 +419,10 @@ ILA:
     ceb: Yilan
     zh: 宜蘭縣
     yue_Hans: 宜兰县
-    ccp: "\U00011103\U00011128\U00011123\U0001111A\U00011134"
+    ccp: "𑄃𑄨𑄣𑄚𑄴"
     uk: Округ Ілань
     yue: 宜蘭縣
     'no': Yilan Fylke
-  comments:
   type: county
 KEE:
   name: Keelung Municipality
@@ -439,10 +432,6 @@ KEE:
   geo:
     latitude: 25.1313701
     longitude: 121.7488675
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Keelung
     ar: كي لنغ
@@ -487,18 +476,18 @@ KEE:
     ceb: Keelung
     zh: 基隆市
     yue_Hans: 基隆
-    ccp: "\U00011107\U00011129\U00011123\U0001112A\U00011101"
+    ccp: "𑄇𑄩𑄣𑄪𑄁"
     uk: Цзилун
     yue: 基隆
     'no': Chilung
     ca: Keelung
     ga: Keelung
-  comments:
   type: city
 KHH:
   name: Kaohsiung Special Municipality
   code: KHH
-  unofficial_names: Kaohsiung Special Municipality
+  unofficial_names:
+  - Kaohsiung Special Municipality
   geo:
     latitude: 22.6272784
     longitude: 120.3014353
@@ -560,7 +549,7 @@ KHH:
     ceb: Kaohsiung (kapital sa lalawigan)
     zh: 高雄市
     yue_Hans: 高雄市
-    ccp: "\U00011107\U00011103\U0001112E\U00011126\U00011134\U00011125\U00011128\U00011105\U0001112A\U00011101"
+    ccp: "𑄇𑄃𑄮𑄦𑄴𑄥𑄨𑄅𑄪𑄁"
     ky: Гаосун
     pa: ਕਾਓਸੀਅੰਗ
     yue: 高雄市
@@ -574,19 +563,10 @@ KHH:
     is: Kaohsiung
     ml: കൗഷ്യിംഗ്
     so: Kaohsiung
-  comments:
   type: special_municipality
 KIN:
   name: 金門縣
   code: KIN
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: كنمن
     az: Szinmınsyundao
@@ -634,25 +614,16 @@ KIN:
     ceb: Kinmen (lalawigan sa Republika sa Tsina)
     zh: 金門縣
     yue_Hans: 金门
-    ccp: "\U00011107\U00011128\U0001111A\U00011134\U0001111F\U0001112C\U0001111A\U00011134"
+    ccp: "𑄇𑄨𑄚𑄴𑄟𑄬𑄚𑄴"
     uk: Цзіньмень
     yue: 金門
     yo: Kinmen
     'no': Kinmen
     yo_BJ: Kinmen
-  comments:
   type: county
 LIE:
   name: 連江縣
   code: LIE
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     cs: Okres Lien-ťiang
     en: Lienchiang
@@ -664,17 +635,17 @@ LIE:
     ceb: Lienchiang
     zh: 連江縣
     yue_Hans: 连江
-    ccp: "\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U0001110C\U00011128\U00011120\U0001112C\U00011101"
+    ccp: "𑄢𑄨𑄠𑄬𑄚𑄴𑄌𑄨𑄠𑄬𑄁"
     yue: 連江
     el: Λιέντζιανγκ Κάουντι
     it: contea di Lianjiang
     ru: Ляньцзян
-  comments:
   type: county
 MIA:
   name: Miaoli
   code: MIA
-  unofficial_names: Miaoli
+  unofficial_names:
+  - Miaoli
   geo:
     latitude: 24.560159
     longitude: 120.8214265
@@ -723,18 +694,18 @@ MIA:
     ceb: Miaoli (lalawigan)
     zh: 苗栗縣
     yue_Hans: 苗栗县
-    ccp: "\U0001111F\U0001112D\U00011103\U0001112E\U00011123\U00011128"
+    ccp: "𑄟𑄭𑄃𑄮𑄣𑄨"
     ml: മിയോലി കൗണ്ടി
     uk: Округ Мяолі
     yue: 苗栗縣
     'no': Miaoli Fylke
     ca: comtat de Miaoli
-  comments:
   type: county
 NAN:
   name: Nantou
   code: NAN
-  unofficial_names: Nantou
+  unofficial_names:
+  - Nantou
   geo:
     latitude: 23.9609981
     longitude: 120.9718638
@@ -783,28 +754,19 @@ NAN:
     ceb: Nantou (lalawigan)
     zh: 南投縣
     yue_Hans: 南投县
-    ccp: "\U0001111A\U0001111A\U00011134\U00011111\U0001112F"
+    ccp: "𑄚𑄚𑄴𑄑𑄯"
     uk: Округ Наньтоу
     yue: 南投縣
     'no': Nantou fylk
     he: מחוז נאנטו
     ml: നാൻറ്റൗ കൗണ്ടി
-  comments:
   type: county
 NWT:
   name: New Taipei
   code: NWT
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: New Taipei
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A \U00011111\U0001112D\U0001111B\U0001112C"
+    ccp: "𑄚𑄨𑄅𑄪 𑄑𑄭𑄛𑄬"
     af: Nieu-Taipei
     ar: تايبيه الجديدة
     be: Новы Тайбэй
@@ -857,12 +819,12 @@ NWT:
     vi: Tân Bắc
     yue: 新北市
     yue_Hans: 新北市
-  comments:
   type: special_municipality
 PEN:
   name: Penghu
   code: PEN
-  unofficial_names: Penghu
+  unofficial_names:
+  - Penghu
   geo:
     latitude: 23.5711899
     longitude: 119.5793157
@@ -888,7 +850,7 @@ PEN:
     zh: 澎湖縣
     fa: پنگهو
     yue_Hans: 澎湖县
-    ccp: "\U0001111B\U0001112C\U0001111A\U00011134\U0001110A\U0001112A"
+    ccp: "𑄛𑄬𑄚𑄴𑄊𑄪"
     es: Islas Pescadores
     da: Pescadorerne
     fi: Peskadorit
@@ -906,12 +868,12 @@ PEN:
     eu: Penghu konderria
     he: פנגחו
     ur: پینگہو
-  comments:
   type: county
 PIF:
   name: Pingtung
   code: PIF
-  unofficial_names: Pingtung
+  unofficial_names:
+  - Pingtung
   geo:
     latitude: 22.5519759
     longitude: 120.5487597
@@ -962,19 +924,19 @@ PIF:
     ceb: Pingtung
     zh: 屏東縣
     yue_Hans: 屏东县
-    ccp: "\U0001111B\U00011128\U00011101\U00011111\U00011101"
+    ccp: "𑄛𑄨𑄁𑄑𑄁"
     ml: പിങ്ടങ് കൗണ്ടി
     uk: Округ Пінтун
     yue: 屏東縣
     be: Піндун
     'no': Pingtung fylke
     he: מחוז פינגטונג
-  comments:
   type: county
 TAO:
   name: Taoyuan
   code: TAO
-  unofficial_names: Taoyuan
+  unofficial_names:
+  - Taoyuan
   geo:
     latitude: 24.9936281
     longitude: 121.3009798
@@ -1025,7 +987,7 @@ TAO:
     ceb: Taoyuan
     zh: 桃園市
     yue_Hans: 桃园县
-    ccp: "\U00011111\U00011103\U0001112E\U00011105\U0001112A\U00011120\U0001111A\U00011134"
+    ccp: "𑄑𑄃𑄮𑄅𑄪𑄠𑄚𑄴"
     uk: Таоюань
     yue: 桃園縣
     mk: Тоајуен
@@ -1034,19 +996,15 @@ TAO:
     ga: Taoyuan
     ha: Taoyuan
     ha_NE: Taoyuan
-  comments:
   type: special_municipality
 TNN:
   name: Tainan Municipality
   code: TNN
-  unofficial_names: Tainan Municipality
+  unofficial_names:
+  - Tainan Municipality
   geo:
     latitude: 23.0038497
     longitude: 120.212227
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Tainan
     af: Tainan
@@ -1094,7 +1052,7 @@ TNN:
     lv: Tainana
     zh: 臺南市
     yue_Hans: 台南
-    ccp: "\U00011111\U0001112D\U0001111A\U0001111A\U00011134"
+    ccp: "𑄑𑄭𑄚𑄚𑄴"
     ga: Tainan
     yue: 臺南
     mk: Тајнан
@@ -1107,12 +1065,12 @@ TNN:
     ro: Tainan
     sk: Tainan
     sl: Tajnan
-  comments:
   type: special_municipality
 TPE:
   name: Taipei Special Municipality
   code: TPE
-  unofficial_names: Taipei Special Municipality
+  unofficial_names:
+  - Taipei Special Municipality
   geo:
     latitude: 25.0329694
     longitude: 121.5654177
@@ -1189,7 +1147,7 @@ TPE:
     yue_Hans: 台北市
     jv: Taipei
     sq: Taipei
-    ccp: "\U00011111\U0001112D\U0001111B\U0001112C"
+    ccp: "𑄑𑄭𑄛𑄬"
     ga: Taipei
     ky: Тайбэй
     ha: Taipei
@@ -1206,7 +1164,6 @@ TPE:
     'no': Taipei
     yo_BJ: Taipei
     ps: تایپي
-  comments:
   type: special_municipality
 TTT:
   name: Taitung
@@ -1262,24 +1219,20 @@ TTT:
     ceb: Taitung
     zh: 臺東縣
     yue_Hans: 台东县
-    ccp: "\U00011111\U0001112D\U00011111\U0001112A\U00011101"
+    ccp: "𑄑𑄭𑄑𑄪𑄁"
     uk: Округ Тайдун
     yue: 臺東縣
     'no': Taitung Fylke
     he: מחוז טייטונג
-  comments:
   type: county
 TXG:
   name: Taichung Municipality
   code: TXG
-  unofficial_names: Taichung Municipality
+  unofficial_names:
+  - Taichung Municipality
   geo:
     latitude: 24.301983
     longitude: 120.5854674
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Taichung
     af: Taichung
@@ -1324,7 +1277,7 @@ TXG:
     lv: Taidžuna
     zh: 臺中市
     yue_Hans: 台中市
-    ccp: "\U00011111\U0001112D\U0001110C\U0001112A\U00011101"
+    ccp: "𑄑𑄭𑄌𑄪𑄁"
     ga: Taichung
     ky: Тайчжун
     yue: 臺中市
@@ -1335,12 +1288,12 @@ TXG:
     ha: Taichung
     ha_NE: Taichung
     hr: Taichung
-  comments:
   type: special_municipality
 YUN:
   name: Yunlin
   code: YUN
-  unofficial_names: Yunlin
+  unofficial_names:
+  - Yunlin
   geo:
     latitude: 23.7092033
     longitude: 120.4313373
@@ -1390,10 +1343,9 @@ YUN:
     ceb: Yunlin
     zh: 雲林縣
     yue_Hans: 云林县
-    ccp: "\U00011103\U00011128\U00011105\U0001112A\U0001111A\U00011134\U00011123\U00011128\U0001111A\U00011134"
+    ccp: "𑄃𑄨𑄅𑄪𑄚𑄴𑄣𑄨𑄚𑄴"
     uk: Округ Юньлінь
     yue: 雲林縣
     'no': Yunlin County
     ca: Comarca de Yunlin
-  comments:
   type: county
