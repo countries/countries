@@ -11,8 +11,8 @@ module ISO3166
                   :type
 
     def initialize(attrs)
-      attrs.each_pair do |k, v|
-        send "#{k}=", v
+      attrs.each_pair do |key, value|
+        send "#{key}=", value
       end
     end
 

@@ -14,7 +14,7 @@ module ISO3166
 
     def subdivision_for_string?(subdivision_str)
       subdivisions.transform_values(&:translations)
-                  .any? { |k, v| subdivision_str == k || v.values.include?(subdivision_str) }
+                  .any? { |key, value| subdivision_str == key || value.values.include?(subdivision_str) }
     end
 
     #  +true+ if this Country has any Subdivisions.
@@ -34,37 +34,38 @@ module ISO3166
     # @param types [Array<String>] The locale to use for translations.
     # @return [Array<ISO3166::Subdivision>] the list of subdivisions of the given type(s) for this Country.
     def subdivisions_of_types(types)
-      subdivisions.select { |_k, v| types.include?(v.type) }
+      subdivisions.select { |_k, value| types.include?(value.type) }
     end
 
     # @return [Array<String>] the list of subdivision types for this country
     def subdivision_types
-      subdivisions.map { |_k, v| v['type'] }.uniq
+      subdivisions.map { |_k, value| value['type'] }.uniq
     end
 
     # @return [Array<String>] the list of humanized subdivision types for this country. Uses ActiveSupport's `#humanize` if available
     def humanized_subdivision_types
       if String.instance_methods.include?(:humanize)
-        subdivisions.map { |_k, v| v['type'].humanize.freeze }.uniq
+        subdivisions.map { |_k, value| value['type'].humanize.freeze }.uniq
       else
-        subdivisions.map { |_k, v| humanize_string(v['type']) }.uniq
+        subdivisions.map { |_k, value| humanize_string(value['type']) }.uniq
       end
     end
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
     def subdivision_names_with_codes(locale = 'en')
-      subdivisions.map { |k, v| [v.translations[locale] || v.name, k] }
+      subdivisions.map { |key, value| [value.translations[locale] || value.name, key] }
     end
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<String>] A list of subdivision names for this country.
     def subdivision_names(locale = 'en')
-      subdivisions.map { |_k, v| v.translations[locale] || v.name }
+      subdivisions.map { |_k, value| value.translations[locale] || value.name }
     end
 
     private
 
+    # :reek:UtilityFunction
     def humanize_string(str)
       (str[0].upcase + str.tr('_', ' ')[1..]).freeze
     end

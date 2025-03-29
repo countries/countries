@@ -21,21 +21,23 @@ module ISO3166
       super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
     end
 
+    # :reek:UtilityFunction
     def codes
       ISO3166::Data.codes
     end
 
-    def all(&blk)
-      blk ||= proc { |_alpha2, d| ISO3166::Country.new(d) }
-      ISO3166::Data.cache.map(&blk)
+    def all(&block)
+      block ||= proc { |_alpha2, data| ISO3166::Country.new(data) }
+      ISO3166::Data.cache.map(&block)
     end
 
     alias countries all
 
+    # :reek:UtilityFunction
     def all_names_with_codes(locale = 'en')
-      Country.all.map do |c|
-        lc = c.translation(locale) || c.iso_short_name
-        [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
+      Country.all.map do |country|
+        lc = country.translation(locale) || country.iso_short_name
+        [lc.respond_to?('html_safe') ? lc.html_safe : lc, country.alpha2]
       end.sort
     end
 
@@ -47,6 +49,7 @@ module ISO3166
       translations(locale).values
     end
 
+    # :reek:UtilityFunction
     def translations(locale = 'en')
       locale = locale.downcase.freeze
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
@@ -67,7 +70,7 @@ module ISO3166
     # @param result_method [Symbol] An optional method of `Country` to apply to the result set.
     # @return [Array] An array of countries matching the provided query, or the result of applying `result_method` to the array of `Country` objects
     def collect_countries_with(query_val, query_method = :alpha2, result_method = :itself)
-      return nil unless [query_method, result_method].map { |e| method_defined? e }.all?
+      return nil unless [query_method, result_method].map { |method| method_defined? method }.all?
 
       all.select { |country| country.send(query_method).include? query_val }
          .map { |country| country.send(result_method) }
@@ -85,6 +88,7 @@ module ISO3166
 
     protected
 
+    # :reek:UtilityFunction
     def strip_accents(string)
       if string.is_a?(Regexp)
         Regexp.new(Unaccent.unaccent(string.source), 'i')

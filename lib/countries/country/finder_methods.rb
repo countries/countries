@@ -17,11 +17,11 @@ module ISO3166
     def find_all_by(attribute, val)
       attributes, lookup_value = parse_attributes(attribute, val)
 
-      ISO3166::Data.cache.select do |_, v|
-        country = Country.new(v)
+      ISO3166::Data.cache.select do |_k, value|
+        country = Country.new(value)
         attributes.any? do |attr|
-          Array(country.send(attr)).any? do |n|
-            lookup_value === cached(n) { parse_value(n) }
+          Array(country.send(attr)).any? do |attr_value|
+            lookup_value === cached(attr_value) { parse_value(attr_value) }
           end
         end
       end
@@ -36,6 +36,7 @@ module ISO3166
       return_all ? countries : countries.last
     end
 
+    # :reek:BooleanParameter
     def respond_to_missing?(method_name, include_private = false)
       matches = method_name.to_s.match(FIND_BY_REGEX)
       if matches && matches[3]
@@ -49,7 +50,7 @@ module ISO3166
 
     def find_by(attribute, value, obj = nil)
       find_all_by(attribute.downcase, value).map do |country|
-        obj.nil? ? country : new(country.last)
+        obj ? new(country.last) : country
       end
     end
 
@@ -62,6 +63,7 @@ module ISO3166
       [attributes, parse_value(val)]
     end
 
+    # :reek:ManualDispatch
     def parse_value(value)
       value = value.gsub(SEARCH_TERM_FILTER_REGEX, '').freeze if value.respond_to?(:gsub)
       strip_accents(value)

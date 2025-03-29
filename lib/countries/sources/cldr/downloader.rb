@@ -26,9 +26,9 @@ module Sources
         path_listing.each do |path|
           next unless path['name'] =~ /\.xml$/
 
-          File.open(File.join(folder, path['name']), 'w') do |f|
+          File.open(File.join(folder, path['name']), 'w') do |file|
             raw_url = URI.parse(path['download_url'])
-            f.write(Net::HTTP.get_response(raw_url).body)
+            file.write(Net::HTTP.get_response(raw_url).body)
           end
         end
       end
