@@ -66,8 +66,7 @@ EC:
     ceb: Eastern Cape
     sr_Latn: Istočni Kejp
     yue_Hans: 东开普
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011107\U0001112C\U0001111B\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄇𑄬𑄛𑄴"
     hy: Արևելյան Քեյփ²
     hu: Kelet-Fokföld
     so: Eastern Cape Province
@@ -78,7 +77,6 @@ EC:
     mk: Источен Кејп
     'no': Eastern Cape
     yo_BJ: Eastern Cape
-  comments:
   type: province
 FS:
   name: Free State
@@ -149,7 +147,7 @@ FS:
     ceb: Free State
     sr_Latn: Fri Stejt
     yue_Hans: 自由邦
-    ccp: "\U0001111C\U00011133\U00011122\U00011128"
+    ccp: "𑄜𑄳𑄢𑄨"
     hu: Szabadállam
     so: Free State Province
     ml: ഫ്രീ സ്റ്റേറ്റ്
@@ -162,12 +160,10 @@ FS:
     'no': Free State
     yo_BJ: Free State
     ga: an Saorstát Oráisteach
-  comments:
   type: province
 GP:
   name: Gauteng
   code: GP
-  unofficial_names:
   geo:
     latitude: -26.2707593
     longitude: 28.1122679
@@ -231,7 +227,7 @@ GP:
     ceb: Gauteng
     sr_Latn: Hauteng
     yue_Hans: 豪登
-    ccp: "\U00011109\U00011105\U0001112A\U00011111\U0001112C\U00011101"
+    ccp: "𑄉𑄅𑄪𑄑𑄬𑄁"
     hy: Գաուտենգ
     so: Gauteng Province
     kk: Гаутенг
@@ -243,12 +239,12 @@ GP:
     'no': Gauteng
     yo_BJ: Gauteng
     hu: Gauteng
-  comments:
   type: province
 LP:
   name: Limpopo
   code: LP
-  unofficial_names: Limpopo
+  unofficial_names:
+  - Limpopo
   geo:
     latitude: -23.4012946
     longitude: 29.4179324
@@ -312,7 +308,7 @@ LP:
     ceb: Limpopo
     sr_Latn: Limpopo
     yue_Hans: 林波波
-    ccp: "\U00011123\U00011128\U0001111F\U00011134\U0001111B\U0001112E\U0001111B\U0001112E"
+    ccp: "𑄣𑄨𑄟𑄴𑄛𑄮𑄛𑄮"
     hy: Լիմպոպո
     so: Limpopo Province
     ml: ലിംപോപോ
@@ -323,7 +319,6 @@ LP:
     'no': Limpopo
     yo_BJ: Limpopo
     hu: Limpopo (tartomány)
-  comments:
   type: province
 MP:
   name: Mpumalanga
@@ -392,7 +387,7 @@ MP:
     ceb: Mpumalanga
     sr_Latn: Mpumalanga
     yue_Hans: 普马兰加
-    ccp: "\U0001111B\U0001112A\U0001111F\U00011123\U0001111A\U00011134\U00011109"
+    ccp: "𑄛𑄪𑄟𑄣𑄚𑄴𑄉"
     hy: Մպումալանգա
     so: Mpumalanga Province
     ml: പുമാലൻഗ
@@ -403,12 +398,12 @@ MP:
     'no': Mpumalanga
     yo_BJ: Mpumalanga
     hu: Mpumalanga
-  comments:
   type: province
 NC:
   name: Northern Cape
   code: NC
-  unofficial_names: Northern Cape
+  unofficial_names:
+  - Northern Cape
   geo:
     latitude: -29.0466808
     longitude: 21.8568586
@@ -473,8 +468,7 @@ NC:
     ceb: Province of Northern Cape
     sr_Latn: Severni Kejp
     yue_Hans: 北开普
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011107\U0001112C\U0001111B\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄇𑄬𑄛𑄴"
     sk: Severné Kapsko
     so: Northern Cape Province
     yue: 北開普
@@ -483,12 +477,12 @@ NC:
     'no': Northern Cape
     yo_BJ: Northern Cape
     gl: Cabo Setentrional
-  comments:
   type: province
 NW:
   name: North-West
   code: NW
-  unofficial_names: North-West
+  unofficial_names:
+  - North-West
   geo:
     latitude: -26.6638599
     longitude: 25.2837585
@@ -551,8 +545,7 @@ NW:
     yo_BJ: Àríwá-Ìwɔòrùn
     sr_Latn: Severozapadna pokrajina
     yue_Hans: 西北省
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
-      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
+    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄛𑄧𑄏𑄨𑄟𑄴"
     hy: Հյուսիսարևմտյան նահանգ
     hu: North West
     so: North West Province
@@ -561,7 +554,6 @@ NW:
     yo: Àríwá-Ìwọòrùn
     mk: Северозапад
     'no': North West
-  comments:
   type: province
 WC:
   name: Western Cape
@@ -632,8 +624,7 @@ WC:
     ceb: Province of the Western Cape
     sr_Latn: Zapadni Kejp
     yue_Hans: 西开普
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C
-      \U00011107\U0001112C\U0001111B\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴𑄟𑄬𑄇𑄴𑄈𑄬 𑄇𑄬𑄛𑄴"
     hu: Nyugat-Fokföld
     sk: Západné Kapsko
     so: Western Cape Province
@@ -643,12 +634,10 @@ WC:
     mk: Западен Кејп
     'no': Western Cape
     yo_BJ: Western Cape
-  comments:
   type: province
 ZN:
   name: KwaZulu-Natal
   code: ZN
-  unofficial_names:
   geo:
     latitude: -28.5305539
     longitude: 30.8958242
@@ -715,7 +704,7 @@ ZN:
     ceb: Province of KwaZulu-Natal
     sr_Latn: Kvazulu-Natal
     yue_Hans: 夸祖鲁-纳塔尔
-    ccp: "\U00011124\U0001110E\U0001112A\U00011123\U0001112A-\U0001111A\U00011111\U00011123\U00011134"
+    ccp: "𑄤𑄎𑄪𑄣𑄪-𑄚𑄑𑄣𑄴"
     so: KwaZulu-Natal Province
     ml: ക്വാസുളു-നറ്റാൽ
     yue: 夸祖魯-納塔爾
@@ -724,5 +713,4 @@ ZN:
     mk: Натал
     'no': KwaZulu-Natal
     yo_BJ: KwaZulu-Natal
-  comments:
   type: province

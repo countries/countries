@@ -82,7 +82,7 @@ BRU:
     sr_Latn: Region glavnog grada Brisela
     yue_Hans: 布鲁塞尔首都区
     sq: Brukseli
-    ccp: "\U0001111D\U00011133\U00011122\U00011125\U0001112C\U00011123\U00011134\U00011125\U00011134"
+    ccp: "𑄝𑄳𑄢𑄥𑄬𑄣𑄴𑄥𑄴"
     ga: An Bhruiséil
     pa: ਬਰੂਸਲ
     kk: Брюссель
@@ -94,7 +94,6 @@ BRU:
     mk: Брисел
     'no': Brussel
     yo_BJ: Brussels
-  comments:
   type: region
 VAN:
   name: Antwerpen (nl)
@@ -165,7 +164,7 @@ VAN:
     ceb: Provincie Antwerpen
     sr_Latn: Provincija Antverpen
     zh: 安特衛普省
-    ccp: "\U00011103\U0001111A\U00011133\U00011111\U00011134\U00011103\U0001112E\U00011120\U0001112C\U00011122\U00011134\U0001111B\U00011134"
+    ccp: "𑄃𑄚𑄳𑄑𑄴𑄃𑄮𑄠𑄬𑄢𑄴𑄛𑄴"
     bs: Antwerpen
     mk: Антверпен
     'no': Antwerpen
@@ -173,7 +172,6 @@ VAN:
     ga: Cúige Antuairp
     he: פרובינציית אנטוורפן
     sq: Provinca Antwerp
-  comments:
   type: province
 VBR:
   name: Vlaams Brabant (nl)
@@ -246,27 +244,17 @@ VBR:
     ceb: Provincie Vlaams-Brabant
     sr_Latn: Flamanski Brabant
     zh: 弗拉芒-布拉班特省
-    ccp: "\U0001111C\U00011133\U00011123\U0001112C\U0001111F\U00011128\U0001110C\U00011134
-      \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011133\U00011111\U00011134"
+    ccp: "𑄜𑄳𑄣𑄬𑄟𑄨𑄌𑄴 𑄝𑄳𑄢𑄝𑄚𑄳𑄑𑄴"
     he: ברבנט הפלמית
     bs: Flamanski Brabant
     mk: Фламански Брабант
     'no': Flamsk Brabant
     ga: Brabant Fhlóndras
     sq: Brabanti Flamand
-  comments:
   type: province
 VLG:
   name: Vlaams Gewest
   code: VLG
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: الإقليم الفلامندي
     be: Фламандскі рэгіён
@@ -308,7 +296,7 @@ VLG:
     sw: Flandria
     yue_Hans: 法兰德斯
     sv: Flandern
-    ccp: "\U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    ccp: "𑄜𑄳𑄣𑄚𑄴𑄓𑄢𑄴𑄥𑄴"
     sr: Фландрија
     ga: Flóndras
     gl: Flandres - Vlaanderen
@@ -334,7 +322,6 @@ VLG:
     ky: Фламанд аймагы
     sq: Flandria
     uz: Flamand regioni
-  comments:
   type: region
 VLI:
   name: Limburg (nl)
@@ -405,13 +392,12 @@ VLI:
     sr_Latn: Provincija Limburg
     zh: 林堡省
     jv: Limburg
-    ccp: "\U00011123\U00011128\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ccp: "𑄣𑄨𑄟𑄴𑄝𑄢𑄴𑄉𑄴"
     he: לימבורג (בלגיה)
     mk: Лимбург
     'no': Limburg
     ga: Limburg
     sq: Limburg (Belgjikë)
-  comments:
   type: province
 VOV:
   name: Oost-Vlaanderen (nl)
@@ -485,13 +471,12 @@ VOV:
     ceb: Provincie Oost-Vlaanderen
     sr_Latn: Istočna Flandrija
     zh: 东弗兰德省
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    ccp: "𑄛𑄪𑄇𑄴 𑄜𑄳𑄣𑄚𑄴𑄓𑄢𑄴𑄥𑄴"
     az: Şərqi Flandiriya
     mk: Источна Фландрија
     'no': Øst-Flandern
     ga: Flóndras Thoir
     sq: Flandria Lindore
-  comments:
   type: province
 VWV:
   name: West-Vlaanderen (nl)
@@ -566,25 +551,16 @@ VWV:
     ceb: Provincie West-Vlaanderen
     sr_Latn: Zapadna Flandrija
     zh: 西弗兰德省
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134 \U0001111C\U00011133\U00011123\U0001111A\U00011134\U00011113\U00011122\U00011134\U00011125\U00011134"
+    ccp: "𑄛𑄧𑄏𑄨𑄟𑄴 𑄜𑄳𑄣𑄚𑄴𑄓𑄢𑄴𑄥𑄴"
     az: Qərbi Flandiriya
     mk: Западна Фландрија
     'no': Vest-Flandern
     ga: Flóndras Thiar
     sq: Flandria Perëndimore
-  comments:
   type: province
 WAL:
   name: Wallonië
   code: WAL
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     af: Wallonië
     ar: والونيا
@@ -641,7 +617,7 @@ WAL:
     zh: 瓦隆
     yue_Hans: 华隆
     hi: वालोनिया
-    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112E\U0001111A\U00011128\U00011120"
+    ccp: "𑄃𑄮𑄠𑄣𑄮𑄚𑄨𑄠"
     ga: An Vallóin
     yue: 華隆
     bs: Valonija
@@ -650,7 +626,6 @@ WAL:
     az: Valloniya
     ky: Валлониа
     sq: Valonia
-  comments:
   type: region
 WBR:
   name: Brabant Wallon (fr)
@@ -723,14 +698,13 @@ WBR:
     ceb: Province du Brabant Wallon
     sr_Latn: Valonski Brabant
     zh: 瓦隆-布拉班特省
-    ccp: "\U00011103\U0001112E\U00011120\U00011123\U0001112A\U0001111A\U00011134 \U0001111D\U00011133\U00011122\U0001111D\U0001111A\U00011133\U00011111\U00011134"
+    ccp: "𑄃𑄮𑄠𑄣𑄪𑄚𑄴 𑄝𑄳𑄢𑄝𑄚𑄳𑄑𑄴"
     he: ברבנט הוולונית
     az: Vallonskiy Brabant
     'no': Vallonsk Brabant
     ga: Brabant Vallúnach
     mk: Валонски Брабант
     sq: Brabanti Valonas
-  comments:
   type: province
 WHT:
   name: Hainaut (fr)
@@ -802,13 +776,12 @@ WHT:
     ceb: Province du Hainaut
     sr_Latn: Provincija Eno
     zh: 埃諾省
-    ccp: "\U00011126\U0001112D\U0001111A\U00011105\U0001112A\U00011116\U00011134"
+    ccp: "𑄦𑄭𑄚𑄅𑄪𑄖𑄴"
     az: Eno
     mk: Ено
     'no': Hainaut
     ga: Hainaut
     sq: Provinca Hainaut
-  comments:
   type: province
 WLG:
   name: Liège (fr)
@@ -880,14 +853,13 @@ WLG:
     ceb: Province de Liège
     sr_Latn: Provincija Lijež
     zh: 列日省
-    ccp: "\U00011123\U0001112D\U0001110E\U0001112C"
+    ccp: "𑄣𑄭𑄎𑄬"
     az: Lej
     mk: Лиеж
     'no': Liège
     ga: Cúige Liege
     he: לייז׳
     sq: Provinca Liège
-  comments:
   type: province
 WLX:
   name: Luxembourg (fr)
@@ -959,12 +931,11 @@ WLX:
     ceb: Province du Luxembourg
     sr_Latn: Provincija Luksemburg
     zh: 盧森堡省
-    ccp: "\U00011123\U0001112A\U00011107\U00011134\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011122\U00011134\U00011109\U00011134"
+    ccp: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴"
     mk: Луксембург
     'no': Luxembourg
     ga: Lucsamburg
     sq: Luksemburg (Belgjikë)
-  comments:
   type: province
 WNA:
   name: Namur (fr)
@@ -1033,11 +1004,10 @@ WNA:
     ceb: Province de Namur
     sr_Latn: Provincija Namir
     zh: 那慕爾省
-    ccp: "\U0001111A\U0001111F\U0001112A\U00011122\U00011134"
+    ccp: "𑄚𑄟𑄪𑄢𑄴"
     az: Namyur
     'no': Namur
     ga: Namur
     mk: Намир (покраина)
     sq: Provinca Namur
-  comments:
   type: province

@@ -2,7 +2,8 @@
 BIH:
   name: Federacija Bosna i Hercegovina
   code: BIH
-  unofficial_names: Federacija Bosna i Hercegovina
+  unofficial_names:
+  - Federacija Bosna i Hercegovina
   geo:
     latitude: 43.8874897
     longitude: 17.842793
@@ -57,9 +58,7 @@ BIH:
     sr_Latn: Federacija Bosne i Hercegovine
     jv: Federasi Bosnia Herzegovina
     sq: Federata e Bosnjës dhe Hercegovinës
-    ccp: "\U0001111C\U0001112C\U00011113\U00011122\U0001112C\U00011125\U00011127\U0001111A\U00011134
-      \U00011103\U00011127\U0001111B\U00011134 \U0001111D\U00011127\U0001110C\U00011134\U0001111A\U00011128\U00011120
-      \U00011103\U0001112C\U0001111A\U00011133\U00011113\U00011134 \U00011126\U00011122\U00011134\U0001110E\U0001112E\U00011109\U00011127\U0001111E\U00011128\U0001111A"
+    ccp: "𑄜𑄬𑄓𑄢𑄬𑄥𑄧𑄚𑄴 𑄃𑄧𑄛𑄴 𑄝𑄧𑄌𑄴𑄚𑄨𑄠 𑄃𑄬𑄚𑄳𑄓𑄴 𑄦𑄢𑄴𑄎𑄮𑄉𑄧𑄞𑄨𑄚"
     hy: Բոսնիա և Հերցեգովինա ֆեդերացիա
     kk: Босния және Герцеговина федерациясы
     bs: Federacija Bosne i Hercegovine
@@ -68,19 +67,10 @@ BIH:
     da: Føderationen af Bosnien og Hercegovina
     ky: Босния жана Герцеговина Федерациясы
     lv: Bosnijas un Hercegovinas Federācija
-  comments:
   type: entity
 BRC:
   name: Brčko Distrikt
   code: BRC
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة برتشو
     be: Акруга Брчко
@@ -137,18 +127,17 @@ BRC:
     fa: بخش برچکو
     jv: Distrik Brčko
     sq: Distrikti i Brçkos
-    ccp: "\U0001111D\U00011133\U00011122\U00011127\U00011107\U00011134\U00011107\U0001112E
-      \U0001110E\U0001112C\U00011123"
+    ccp: "𑄝𑄳𑄢𑄧𑄇𑄴𑄇𑄮 𑄎𑄬𑄣"
     sl: Distrikt Brčko
     bs: Brčko Distrikt
     mk: Брчко
     'no': Brčko-distriktet
-  comments:
   type: district_with_special_status
 SRP:
   name: Republika Srpska
   code: SRP
-  unofficial_names: Republika Srpska
+  unofficial_names:
+  - Republika Srpska
   geo:
     latitude: 44.7280186
     longitude: 17.3148136
@@ -211,8 +200,7 @@ SRP:
     zh: 塞族共和國
     jv: Republika Srpska
     sq: Republika Serbe
-    ccp: "\U00011122\U0001112C\U0001111B\U0001111B\U00011134\U00011123\U00011128\U00011107
-      \U00011103\U0001112C\U0001110C\U00011134\U00011103\U00011122\U00011134\U0001111B\U00011128\U00011103\U00011128\U0001110C\U00011134\U00011107\U00011133\U00011103"
+    ccp: "𑄢𑄬𑄛𑄛𑄴𑄣𑄨𑄇 𑄃𑄬𑄌𑄴𑄃𑄢𑄴𑄛𑄨𑄃𑄨𑄌𑄴𑄇𑄳𑄃"
     ky: Серб Республикасы
     yo: Sérbíà Orílẹ̀-èdè Olómìnira
     bs: Republika Srpska
@@ -220,5 +208,4 @@ SRP:
     'no': Republika Srpska
     af: Serwiese Republiek
     my: ဆာ့ပ်စ်ကာသမ္မတနိုင်ငံ
-  comments:
   type: entity

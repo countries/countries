@@ -2,7 +2,8 @@
 '03':
   name: Oslo
   code: '03'
-  unofficial_names: Oslo
+  unofficial_names:
+  - Oslo
   geo:
     latitude: 59.9138688
     longitude: 10.7522454
@@ -74,7 +75,7 @@
     ur: اوسلو
     vi: Oslo
     bs: Oslo
-    ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011123\U0001112E"
+    ccp: "𑄃𑄧𑄌𑄴𑄣𑄮"
     ceb: Oslo
     cy: Oslo
     ga: Osló
@@ -100,7 +101,8 @@
 '11':
   name: Rogaland
   code: '11'
-  unofficial_names: Rogaland
+  unofficial_names:
+  - Rogaland
   geo:
     latitude: 59.1489544
     longitude: 6.0143431
@@ -152,7 +154,7 @@
     vi: Rogaland
     az: Ruqalann
     bs: Rogaland
-    ccp: "\U00011122\U00011127\U00011109\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄢𑄧𑄉𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     ceb: Rogaland Fylke
     cy: Rogaland
     el: Ρόγκαλαντ
@@ -168,7 +170,8 @@
 '15':
   name: Møre og Romsdal
   code: '15'
-  unofficial_names: Møre og Romsdal
+  unofficial_names:
+  - Møre og Romsdal
   geo:
     latitude: 62.9760369
     longitude: 8.018272399999999
@@ -217,8 +220,7 @@
     ur: مورہ او رومسدال
     vi: Møre og Romsdal
     bs: Møre og Romsdal
-    ccp: "\U0001111F\U0001112E\U00011122\U00011134 \U00011103\U0001112E\U00011107\U00011134
-      \U00011122\U0001112E\U0001111F\U00011134\U00011113\U00011123\U00011134"
+    ccp: "𑄟𑄮𑄢𑄴 𑄃𑄮𑄇𑄴 𑄢𑄮𑄟𑄴𑄓𑄣𑄴"
     ceb: Møre og Romsdal fylke
     el: Μέρε ογκ Ρόμσνταλ
     he: מרה ורומסדל
@@ -236,7 +238,8 @@
 '18':
   name: Nordland
   code: '18'
-  unofficial_names: Nordland
+  unofficial_names:
+  - Nordland
   translations:
     af: Nordland
     ar: نورلان
@@ -291,7 +294,7 @@
     vi: Nordland
     az: Nurlann
     bs: Nordland
-    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
+    ccp: "𑄚𑄧𑄢𑄴𑄓𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
     ceb: Nordland Fylke
     cy: Norland
     he: נורדלנד
@@ -307,14 +310,11 @@
   geo:
     latitude: 67.69167019999999
     longitude: 12.7019476
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   type: county
 '21':
   name: Svalbard (Arctic Region)
-  unofficial_names: Svalbard (Arctic Region)
+  unofficial_names:
+  - Svalbard (Arctic Region)
   translations:
     af: Svalbard
     ar: سفالبارد
@@ -374,7 +374,7 @@
     vi: Svalbard
     am: ስቫልባር
     bs: Svalbard
-    ccp: "\U0001111E\U00011123\U00011134\U0001111D\U00011122\U00011134\U00011113\U00011134"
+    ccp: "𑄞𑄣𑄴𑄝𑄢𑄴𑄓𑄴"
     ceb: Svalbard (dapit sa Svalbard and Jan Mayen)
     cy: Svalbard
     ga: Oileánra Svalbard
@@ -392,19 +392,13 @@
     yue: 斯瓦爾巴群島
     yue_Hans: 斯瓦尔巴群岛
     zh: 斯瓦尔巴群岛
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   comments: See also country code SJ
   code: '21'
   type: arctic_region
 '22':
   name: Jan Mayen (Arctic Region)
-  unofficial_names: Jan Mayen (Arctic Region)
+  unofficial_names:
+  - Jan Mayen (Arctic Region)
   translations:
     af: Jan Mayen
     ar: جان ماين
@@ -459,7 +453,7 @@
     az: Yan Mayen
     bn: ইয়ান মায়েন
     bs: Jan Majen
-    ccp: "\U0001110E\U0001111A\U00011134 \U0001111F\U0001112C\U00011120\U0001112C\U0001111A\U00011134"
+    ccp: "𑄎𑄚𑄴 𑄟𑄬𑄠𑄬𑄚𑄴"
     ceb: Jan Mayen
     cy: Jan Mayen
     ga: Jan Mayen
@@ -475,13 +469,6 @@
     yue: 揚馬延島
     yue_Hans: 扬马延岛
     zh: 揚馬延島
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   comments: See also country code SJ
   code: '22'
   type: arctic_region
@@ -520,13 +507,6 @@
     pt: Viken (condado)
     ru: Викен
     tr: Viken
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '30'
   type: county
 '34':
@@ -765,13 +745,6 @@
     fa: اینلاندت
     ha_NE: Innlandet
     yo_BJ: Innlandet
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '34'
   type: county
 '38':
@@ -808,13 +781,6 @@
     ro: Vestfold og Telemark
     ru: Вестфолл-ог-Телемарк
     tr: Vestfold og Telemark
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '38'
   type: county
 '42':
@@ -857,13 +823,6 @@
     pt: Agder
     ro: Agder
     tr: Agder
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '42'
   type: county
 '46':
@@ -897,13 +856,6 @@
     ar: فيستلاند (مقاطعة)
     el: Βέστλαντ
     tr: Vestland
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '46'
   type: county
 '50':
@@ -968,13 +920,6 @@
     zh-sg: 特伦德拉格
     zh-tw: 特倫德拉格
     id: Trøndelag
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '50'
   type: county
 '54':
@@ -1015,12 +960,5 @@
     ca: Troms og Finnmark
     fa: ترومس اوگ فینمارک
     tr: Troms og Finnmark
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   code: '54'
   type: county

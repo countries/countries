@@ -2,7 +2,8 @@
 BA:
   name: Banghazi
   code: BA
-  unofficial_names: Banghazi
+  unofficial_names:
+  - Banghazi
   geo:
     latitude: 32.116667
     longitude: 20.066667
@@ -69,7 +70,7 @@ BA:
     sr_Latn: Bengazi
     yue_Hans: 班加西
     sq: Bengazi
-    ccp: "\U0001111D\U0001112C\U0001111A\U00011134\U0001110A\U0001110E\U00011128"
+    ccp: "𑄝𑄬𑄚𑄴𑄊𑄎𑄨"
     ga: Benghazi
     is: Benghazi
     pa: ਬਨਗ਼ਾਜ਼ੀ
@@ -83,12 +84,12 @@ BA:
     ps: بنغازی
     sw: Benghazi
     zu: Benghazi
-  comments:
   type: popularate
 BU:
   name: Al Butnan
   code: BU
-  unofficial_names: Al Butnan
+  unofficial_names:
+  - Al Butnan
   geo:
     latitude: 29.7579854
     longitude: 23.7632828
@@ -141,15 +142,15 @@ BU:
     lv: Butnānas šebīja
     ceb: Sha‘bīyat al Buţnān
     zh: 布特南省
-    ccp: "\U0001111D\U0001112A\U00011116\U00011134\U0001111A\U0001111A\U00011134"
+    ccp: "𑄝𑄪𑄖𑄴𑄚𑄚𑄴"
     be: Эль-Бутнан
     'no': Al Butnan
-  comments:
   type: popularate
 DR:
   name: Darnah
   code: DR
-  unofficial_names: Darnah
+  unofficial_names:
+  - Darnah
   geo:
     latitude: 32.766667
     longitude: 22.633333
@@ -186,14 +187,14 @@ DR:
     ur: درنہ ضلع
     ceb: Darnah
     zh: 德爾納省
-    ccp: "\U00011113\U00011122\U00011134\U0001111A"
+    ccp: "𑄓𑄢𑄴𑄚"
     'no': Darnah
-  comments:
   type: popularate
 GT:
   name: Ghat
   code: GT
-  unofficial_names: Ghat
+  unofficial_names:
+  - Ghat
   geo:
     latitude: 24.9640371
     longitude: 10.1759285
@@ -243,15 +244,15 @@ GT:
     lv: Gātas šebīja
     ceb: Sha‘bīyat Ghāt
     zh: 加特省
-    ccp: "\U0001110A\U00011116\U00011134"
+    ccp: "𑄊𑄖𑄴"
     'no': Ghat
     ca: Districte de Ghat
-  comments:
   type: popularate
 JA:
   name: Al Jabal al Akhḑar
   code: JA
-  unofficial_names: Al Jabal al Akhḑar
+  unofficial_names:
+  - Al Jabal al Akhḑar
   geo:
     latitude: 32.4032332
     longitude: 21.6660725
@@ -301,24 +302,16 @@ JA:
     lv: Džabala al Ahdara
     ceb: Sha‘bīyat al Jabal al Akhḑar
     zh: 綠山省
-    ccp: "\U0001110E\U0001111D\U00011123\U00011134 \U00011103\U00011123\U00011134
-      \U00011103\U00011107\U00011134\U00011113\U00011122\U00011134"
+    ccp: "𑄎𑄝𑄣𑄴 𑄃𑄣𑄴 𑄃𑄇𑄴𑄓𑄢𑄴"
     'no': Al Jabal al Akhdar
     az: Əl-Cəbəl əl-Əxdar
     fa: الجبل الاخضر
-  comments:
   type: popularate
 JG:
   name: Al Jabal al Gharbī
   code: JG
-  unofficial_names: Al Jabal al Gharbī
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+  unofficial_names:
+  - Al Jabal al Gharbī
   translations:
     en: Jabal al Gharbi
     ar: شعبية الجبل الغربي
@@ -342,15 +335,14 @@ JG:
     ur: جبل الغربی ضلع
     ceb: Sha‘bīyat al Jabal al Gharbī
     zh: 西山省
-    ccp: "\U0001110E\U0001111D\U00011123\U00011134 \U00011103\U00011123\U00011134
-      \U0001110A\U00011122\U00011134\U0001111D\U00011128"
+    ccp: "𑄎𑄝𑄣𑄴 𑄃𑄣𑄴 𑄊𑄢𑄴𑄝𑄨"
     pt: Jabal Algarbi
-  comments:
   type: popularate
 JI:
   name: Al Jifarah
   code: JI
-  unofficial_names: Al Jifarah
+  unofficial_names:
+  - Al Jifarah
   geo:
     latitude: 32.4525904
     longitude: 12.9435536
@@ -401,10 +393,9 @@ JI:
     lv: Džifāra
     ceb: Sha‘bīyat al Jafārah
     zh: 吉法拉省
-    ccp: "\U0001110E\U0001111C\U00011127\U00011122\U00011134"
+    ccp: "𑄎𑄜𑄧𑄢𑄴"
     'no': Al Jfara
     fa: الجفاره
-  comments:
   type: popularate
 JU:
   name: Al Jufrah
@@ -464,9 +455,8 @@ JU:
     lv: Džufras šebīja
     ceb: Al Jufrah (distrito)
     zh: 朱夫拉省
-    ccp: "\U0001110E\U0001112A\U0001111C\U00011133\U00011122"
+    ccp: "𑄎𑄪𑄜𑄳𑄢"
     'no': Al Jufrah
-  comments:
   type: popularate
 KF:
   name: Al Kufrah
@@ -528,11 +518,10 @@ KF:
     lv: Kufras šebīja
     ceb: Al Kufrah
     zh: 庫夫拉省
-    ccp: "\U00011107\U0001112A\U0001111C\U00011133\U00011122"
+    ccp: "𑄇𑄪𑄜𑄳𑄢"
     'no': Al Kufrah
     he: מחוז כופרה
     ps: کفره
-  comments:
   type: popularate
 MB:
   name: Al Murqub
@@ -592,9 +581,8 @@ MB:
     lv: Murgūbas šebīja
     ceb: Al Marqab
     zh: 迈尔盖卜省
-    ccp: "\U0001111F\U0001112A\U00011122\U00011134\U00011107\U0001112A\U0001111B\U00011134"
+    ccp: "𑄟𑄪𑄢𑄴𑄇𑄪𑄛𑄴"
     'no': Al Murgub
-  comments:
   type: popularate
 MI:
   name: Mişrātah
@@ -654,9 +642,8 @@ MI:
     lv: Misrātas šebīja
     ceb: Sha‘bīyat Mişrātah
     zh: 米蘇拉塔省
-    ccp: "\U0001111F\U00011128\U00011125\U00011133\U00011122\U00011127\U00011116"
+    ccp: "𑄟𑄨𑄥𑄳𑄢𑄧𑄖"
     'no': Misrata distrikt
-  comments:
   type: popularate
 MJ:
   name: Al Marj
@@ -715,14 +702,14 @@ MJ:
     lv: Mardžas šebīja
     ceb: Al Marj
     zh: 邁爾季省
-    ccp: "\U0001111F\U00011122\U00011134\U0001110E\U00011134"
+    ccp: "𑄟𑄢𑄴𑄎𑄴"
     'no': Al Marj
-  comments:
   type: popularate
 MQ:
   name: Murzuq
   code: MQ
-  unofficial_names: Murzuq
+  unofficial_names:
+  - Murzuq
   geo:
     latitude: 25.9182262
     longitude: 13.9260001
@@ -774,15 +761,15 @@ MQ:
     lv: Murzūkas šebīja
     ceb: Murzuq
     zh: 邁爾祖格省
-    ccp: "\U0001111F\U0001112A\U00011122\U00011134\U0001110E\U0001112A\U00011107\U00011134"
+    ccp: "𑄟𑄪𑄢𑄴𑄎𑄪𑄇𑄴"
     hy: Մարզուկ
     'no': Murzuq distrikt
-  comments:
   type: popularate
 NL:
   name: Nālūt
   code: NL
-  unofficial_names: Nālūt
+  unofficial_names:
+  - Nālūt
   geo:
     latitude: 31.868333
     longitude: 10.9825
@@ -818,9 +805,8 @@ NL:
     ur: نالوت ضلع
     ceb: Sha‘bīyat Nālūt
     zh: 納盧特省
-    ccp: "\U0001111A\U00011123\U0001112A\U00011116\U00011134"
+    ccp: "𑄚𑄣𑄪𑄖𑄴"
     'no': Nalut
-  comments:
   type: popularate
 NQ:
   name: An Nuqaţ al Khams
@@ -880,15 +866,14 @@ NQ:
     lv: Nukāta al Hamsa
     ceb: Sha‘bīyat an Nuqāţ al Khams
     zh: 努加特海姆斯省
-    ccp: "\U0001111A\U0001112A\U00011107\U00011116\U00011134 \U00011103\U00011123\U00011134
-      \U00011108\U0001111F\U00011134\U0001110C\U00011134"
+    ccp: "𑄚𑄪𑄇𑄖𑄴 𑄃𑄣𑄴 𑄈𑄟𑄴𑄌𑄴"
     'no': An Nuqat al Khams
-  comments:
   type: popularate
 SB:
   name: Sabhā
   code: SB
-  unofficial_names: Sabhā
+  unofficial_names:
+  - Sabhā
   geo:
     latitude: 27.038889
     longitude: 14.426389
@@ -939,9 +924,8 @@ SB:
     lv: Sebhas šebīja
     ceb: Sha‘bīyat Sabhā
     zh: 塞卜哈省
-    ccp: "\U00011125\U0001111E"
+    ccp: "𑄥𑄞"
     'no': Sabha
-  comments:
   type: popularate
 SR:
   name: Sirte
@@ -985,10 +969,9 @@ SR:
     ur: سرت ضلع
     ceb: Surt (distrito sa Libya)
     zh: 蘇爾特省
-    ccp: "\U00011125\U00011128\U00011122\U00011134\U00011111\U0001112C"
+    ccp: "𑄥𑄨𑄢𑄴𑄑𑄬"
     'no': Surt
     eu: Surt
-  comments:
   type: popularate
 TB:
   name: Tarabulus
@@ -1027,12 +1010,11 @@ TB:
     uk: Триполі
     ur: طرابلس ضلع، لیبیا
     zh: 的黎波里省
-    ccp: "\U00011111\U00011133\U00011122\U00011128\U0001111B\U00011127\U00011123\U00011128"
+    ccp: "𑄑𑄳𑄢𑄨𑄛𑄧𑄣𑄨"
     hy: Տարաբուլուս
     pt: Trípoli
     et: Tripoli omavalitsus
     fa: ناحیه طرابلس (لیبی)
-  comments:
   type: popularate
 WA:
   name: Al Wahat
@@ -1078,15 +1060,15 @@ WA:
     ur: الواحات ضلع
     ceb: Sha‘bīyat al Wāḩāt
     zh: 绿洲省
-    ccp: "\U00011103\U00011123\U00011134 \U00011124\U00011126\U00011116\U00011134"
+    ccp: "𑄃𑄣𑄴 𑄤𑄦𑄖𑄴"
     'no': Al Wahat
     he: מחוז אל-ואחאת
-  comments:
   type: popularate
 WD:
   name: Wādī al Ḩayāt
   code: WD
-  unofficial_names: Wādī al Ḩayāt
+  unofficial_names:
+  - Wādī al Ḩayāt
   geo:
     latitude: 29.5240753
     longitude: 31.2912463
@@ -1137,21 +1119,14 @@ WD:
     lv: Vādī el Hajātas šebīja
     ceb: Sha‘bīyat Wādī al Ḩayāt
     zh: 瓦迪哈耶特省
-    ccp: "\U00011124\U00011113\U00011128 \U00011103\U00011123\U00011134 \U00011126\U00011120"
+    ccp: "𑄤𑄓𑄨 𑄃𑄣𑄴 𑄦𑄠"
     'no': Wadi Al Hayaa
-  comments:
   type: popularate
 WS:
   name: Wādī ash Shāţiʾ
   code: WS
-  unofficial_names: Wādī ash Shāţiʾ
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+  unofficial_names:
+  - Wādī ash Shāţiʾ
   translations:
     en: Wadi al Shatii
     ar: شعبية وادي الشاطئ
@@ -1194,16 +1169,16 @@ WS:
     lv: Vādī el Šati šebīja
     ceb: Sha‘bīyat Wādī ash Shāţi’
     zh: 沙提省
-    ccp: "\U00011124\U00011113\U00011128 \U00011103\U00011123\U00011134 \U00011125\U00011111\U00011133\U00011126\U00011128"
+    ccp: "𑄤𑄓𑄨 𑄃𑄣𑄴 𑄥𑄑𑄳𑄦𑄨"
     hy: Վադի ալ-Շատի
     'no': Wadi al Shatii distrikt
     fa: استان وادیالشاطئ
-  comments:
   type: popularate
 ZA:
   name: Az Zawiyah
   code: ZA
-  unofficial_names: Az Zawiyah
+  unofficial_names:
+  - Az Zawiyah
   geo:
     latitude: 32.5394906
     longitude: 12.5298028
@@ -1254,7 +1229,6 @@ ZA:
     lv: Zāvijas šebīja
     ceb: Sha‘bīyat az Zāwiyah
     zh: 扎維耶省
-    ccp: "\U0001110E\U00011103\U00011128\U00011120"
+    ccp: "𑄎𑄃𑄨𑄠"
     'no': Az Zawiyah
-  comments:
   type: popularate
