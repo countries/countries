@@ -26,6 +26,7 @@ module ISO3166
       reload
     end
 
+    # :reek:NilCheck
     def valid?
       !(data.nil? || data.empty?)
     end
@@ -53,16 +54,19 @@ module ISO3166
     end
 
     # +true+ if this country is a member of the European Union.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_eu?
       data['eu_member'].nil? ? false : data['eu_member']
     end
 
     # +true+ if this country is a member of the G7.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_g7?
       data['g7_member'].nil? ? false : data['g7_member']
     end
 
     # +true+ if this country is a member of the G20.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_g20?
       data['g20_member'].nil? ? false : data['g20_member']
     end
@@ -73,21 +77,25 @@ module ISO3166
     end
 
     # +true+ if this country is a member of the European Economic Area.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_eea?
       data['eea_member'].nil? ? false : data['eea_member']
     end
 
     # +true+ if this country is a member of the European Single Market.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_esm?
       data['esm_member'].nil? ? in_eea? : data['esm_member']
     end
 
     # +true+ if this country is a member of the EU VAT Area.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_eu_vat?
       data['euvat_member'].nil? ? in_eu? : data['euvat_member']
     end
 
     # +true+ if this country is a member of the United Nations.
+    # :reek:NilCheck :reek:DuplicateMethodCall
     def in_un?
       data['un_member'].nil? ? false : data['un_member']
     end

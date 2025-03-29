@@ -10,9 +10,9 @@ module Sources
     # Updates local subdivision files with data from the Unicode CLDR repository
     class SubdivisionUpdater
       def call
-        d = Dir['./tmp/cldr/trunk/common/subdivisions/*.xml']
+        dirs = Dir['./tmp/cldr/trunk/common/subdivisions/*.xml']
         @loader = Sources::Local::CachedLoader.new(Sources::Local::Subdivision)
-        d.each { |file_path| update_locale(file_path) }
+        dirs.each { |file_path| update_locale(file_path) }
       end
 
       def update_locale(file_path)
