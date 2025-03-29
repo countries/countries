@@ -8,6 +8,7 @@ module ISO3166
 
     class << self
       # Convert an +ISO3166::Country+ to the data that is stored by Mongoid.
+      # :reek:NilCheck
       def mongoize(country)
         if country.is_a?(self) && !country.data.nil?
           country.alpha2
@@ -28,6 +29,7 @@ module ISO3166
 
       private
 
+      # :reek:NilCheck
       def valid_alpha2?(country)
         country.is_a?(String) && !ISO3166::Country.new(country).nil?
       end

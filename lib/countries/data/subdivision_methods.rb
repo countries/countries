@@ -21,6 +21,7 @@ module ISO3166
       @subdivisions[alpha2] ||= create_subdivisions(subdivision_data(alpha2))
     end
 
+    # :reek:UtilityFunction
     def create_subdivisions(subdivision_data)
       subdivision_data.transform_values do |subdivision|
         Subdivision.new(subdivision)
