@@ -39,4 +39,15 @@ describe ISO3166::Subdivision do
                                                                                                      'pt' => 'Nápoles' } })
     end
   end
+
+  describe 'match?' do
+    before { ISO3166.configuration.locales = %i[en pt] }
+
+    it 'returns true if the name or any translation matches' do
+      napoli = ISO3166::Country.new('IT').subdivisions['NA']
+      expect(napoli.match?('Naples')).to be true
+      expect(napoli.match?('Nápoles')).to be true
+      expect(napoli.match?('Nápoles!')).to be false
+    end
+  end
 end
