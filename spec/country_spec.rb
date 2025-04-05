@@ -1335,7 +1335,7 @@ describe ISO3166::Country do
     let(:napoli) { italy.subdivisions['NA'] }
 
     before do
-      ISO3166.configuration.locales = %i[pt]
+      ISO3166.configuration.locales = %i[pt en]
       ISO3166::Data.reset
     end
 
@@ -1349,6 +1349,14 @@ describe ISO3166::Country do
 
     it 'should find a subdivision using a translated name' do
       expect(ISO3166::Country.new('IT').find_subdivision_by_name('Nápoles')).to eq napoli
+    end
+
+    it 'should prioritize state over district' do
+      country = ISO3166::Country.new('US')
+      expect(country.find_subdivision_by_name('Washington').code).to eq 'WA'
+      code = country.find_subdivision_by_name('Washington DC').code
+      expect(code).to eq 'DC'
+      expect(country.find_subdivision_by_name('District of Columbia').code).to eq 'DC'
     end
   end
 
