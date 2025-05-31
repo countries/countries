@@ -550,8 +550,8 @@ describe ISO3166::Country do
 
       it 'should return different value for Portuguese variants' do
         ISO3166.configuration.locales = %i[pt pt-br]
-        name_pt = ISO3166::Country['SG'].translation('pt')
-        name_br = ISO3166::Country['SG'].translation('pt-br')
+        name_pt = ISO3166::Country['BY'].translation('pt')
+        name_br = ISO3166::Country['BY'].translation('pt-br')
         expect([name_pt, name_br].uniq.size).to eql 2
       end
     end
@@ -1268,7 +1268,7 @@ describe ISO3166::Country do
 
     it 'should contain all keys for vat_rates' do
       expect(belgium.vat_rates).to be_a(Hash)
-      expect(belgium.vat_rates.keys).to eq(%w[standard reduced super_reduced parking])
+      expect(belgium.vat_rates.keys).to eq(%w[standard reduced parking])
     end
 
     it 'should return an array of reduced vat rates' do
