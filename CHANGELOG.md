@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.1](https://github.com/countries/countries/releases/tag/v8.0.1') (2025/05/31 15:34 +00:00)
+
+* Fix error in collect_countries_with and update specs by @pmor in https://github.com/countries/countries/pull/911
+
 ## [8.0.0](https://github.com/countries/countries/releases/tag/v8.0.0') (2025/05/31 14:35 +00:00)
 
 **Breaking Changes**
