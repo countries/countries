@@ -5,9 +5,11 @@ module ISO3166
     # @param subdivision_str [String] A subdivision name or code to search for. Search includes translated subdivision names.
     # @return [Subdivision] The first subdivision matching the provided string
     def find_subdivision_by_name(subdivision_str)
-      subdivisions.select do |k, v|
-        subdivision_str == k || v.name == subdivision_str || v.translations.values.include?(subdivision_str)
-      end.values.first
+      matched_subdivisions = subdivisions.select do |k, v|
+        subdivision_str == k || v.match?(subdivision_str)
+      end.values
+
+      matched_subdivisions.min_by { |subdivision| subdivision_types.index(subdivision.type) }
     end
 
     def subdivision_for_string?(subdivision_str)

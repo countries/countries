@@ -24,5 +24,10 @@ module ISO3166
     def code_with_translations
       { code => translations }
     end
+
+    def match?(subdivision_str)
+      name == subdivision_str ||
+        translations.values.include?(subdivision_str)
+    end
   end
 end
