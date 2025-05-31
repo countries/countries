@@ -5,8 +5,12 @@ module ISO3166
     FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
     SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
 
+    # :reek:FeatureEnvy
     def search(query)
-      country = new(query.to_s.upcase)
+      query = query.to_s if query.is_a?(Symbol)
+      query = query.upcase if query.match?(/[a-z]/)
+
+      country = new(query)
       country&.valid? ? country : nil
     end
 

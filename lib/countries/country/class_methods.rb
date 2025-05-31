@@ -18,7 +18,12 @@ module ISO3166
 
   module CountryClassMethods
     def new(country_data)
-      super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
+      return super if country_data.is_a?(Hash)
+
+      country_code = country_data.to_s
+      country_code = country_code.upcase if country_code.match?(/[a-z]/)
+
+      super if codes.include?(country_code)
     end
 
     # :reek:UtilityFunction
@@ -35,7 +40,7 @@ module ISO3166
 
     # :reek:UtilityFunction
     # :reek:ManualDispatch
-    def all_names_with_codes(locale = 'en')
+    def all_names_with_codes(locale = :en)
       Country.all.map do |country|
         lc = country.translation(locale) || country.iso_short_name
         [lc.respond_to?('html_safe') ? lc.html_safe : lc, country.alpha2]
@@ -46,13 +51,16 @@ module ISO3166
       all.map { |country| country.data.fetch_values(*attributes.map(&:to_s)) }
     end
 
-    def all_translated(locale = 'en')
+    def all_translated(locale = :en)
       translations(locale).values
     end
 
     # :reek:UtilityFunction
-    def translations(locale = 'en')
-      locale = locale.downcase.freeze
+    # :reek:FeatureEnvy
+    def translations(locale = :en)
+      locale = locale.to_sym if locale.is_a?(String)
+      locale = locale.downcase if locale.match?(/[A-Z]/)
+
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
       translations = JSON.parse(File.read(file_path))
 

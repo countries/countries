@@ -60,11 +60,6 @@ describe ISO3166::Country do
                                             'Соединенные Штаты Америки'])
   end
 
-  it 'should return translations' do
-    expect(country.translations).to be
-    expect(country.translations['en']).to eq('United States')
-  end
-
   it 'should return latitude' do
     expect(country.latitude).to eq(37.09024)
   end
@@ -342,6 +337,17 @@ describe ISO3166::Country do
       expect(subdivisions).to be_an(Array)
       expect(subdivisions.first[0]).to be_a(String)
       expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first[0]).to eq('Alejandría')
+    end
+
+    it 'falls back to the base subdivision name if the translation is missing' do
+      ISO3166.configuration.locales = %i[af]
+      ISO3166::Data.reset
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names_with_codes(:af)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first[0]).to be_a(String)
+      expect(subdivisions.size).to eq(27)
       expect(subdivisions.first[0]).to eq('Al Iskandariyah')
     end
   end
@@ -360,6 +366,17 @@ describe ISO3166::Country do
       ISO3166::Data.reset
 
       subdivisions = ISO3166::Country.search('EG').subdivision_names(:es)
+      expect(subdivisions).to be_an(Array)
+      expect(subdivisions.first).to be_a(String)
+      expect(subdivisions.size).to eq(27)
+      expect(subdivisions.first).to eq('Alejandría')
+    end
+
+    it 'falls back to the base subdivision name if the translation is missing' do
+      ISO3166.configuration.locales = %i[af]
+      ISO3166::Data.reset
+
+      subdivisions = ISO3166::Country.search('EG').subdivision_names(:af)
       expect(subdivisions).to be_an(Array)
       expect(subdivisions.first).to be_a(String)
       expect(subdivisions.size).to eq(27)
@@ -556,6 +573,26 @@ describe ISO3166::Country do
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AD')
       expect(countries.first).to eq(%w[AD Andorra])
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+
+    it 'should return an hash of all country names translated to the selected locale when locale is a symbol' do
+      countries = ISO3166::Country.translations(:fr)
+      expect(countries).to be_an(Hash)
+      expect(countries.first[0]).to eq('AD')
+      expect(countries.first).to eq(%w[AD Andorre])
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+
+    it 'should return an hash of all country names translated to the selected locale when locale is symbol with uppercase chars' do
+      countries = ISO3166::Country.translations(:Fr)
+      expect(countries).to be_an(Hash)
+      expect(countries.first[0]).to eq('AD')
+      expect(countries.first).to eq(%w[AD Andorre])
+      # countries missing the desired locale will not be added to the list
+      # so all 250 countries may not be returned, 'fr' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end

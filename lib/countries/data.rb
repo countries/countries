@@ -14,7 +14,10 @@ module ISO3166
     @subdivisions = {}
 
     def initialize(alpha2)
-      @alpha2 = alpha2.to_s.upcase
+      alpha2 = alpha2.to_s if alpha2.is_a?(Symbol)
+      alpha2 = alpha2.upcase if alpha2.match?(/[a-z]/)
+
+      @alpha2 = alpha2
     end
 
     def call
@@ -27,8 +30,10 @@ module ISO3166
       # Overriding an existing country will also remove it from the internal management of translations.
       def register(data)
         alpha2 = data[:alpha2].upcase
-        @registered_data[alpha2] = deep_stringify_keys(data)
-        @registered_data[alpha2]['translations'] = Translations.new.merge(data['translations'] || {})
+        @registered_data[alpha2] = deep_stringify_keys(data.except('translations', :translations))
+        translations = data['translations'] || data[:translations] || {}
+        translations.transform_keys!(&:to_sym)
+        @registered_data[alpha2]['translations'] = Translations.new.merge(translations)
         @cache = cache.merge(@registered_data)
       end
 
