@@ -11,4 +11,5 @@ gemspec
 group :development, :test do
   gem 'debug'
   gem 'yaml'
+  gem 'memory_profiler'
 end
