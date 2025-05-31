@@ -3,15 +3,43 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.0](https://github.com/countries/countries/releases/tag/v8.0.0') (2025/05/31 14:35 +00:00)
+
+**Breaking Changes**
+
+* Drop support for Ruby 3.1 (EOL 2025-03-26) by @pmor in https://github.com/countries/countries/pull/909
+* Experiment with symbol-keyed translation hashes to reduce string allocations by @pmor in https://github.com/countries/countries/pull/884
+
+  This is a potentially breaking change because some translation-related methods return the translation hashes, which now have symbol keys instead of string keys
+
+* Find correct subdivision when searching for Washington by @hieuk09 in https://github.com/countries/countries/pull/900
+
+  This is a potentially breaking change because the behaviour of `find_subdivision_by_name` has changed to fix https://github.com/countries/countries/issues/888
+
+**What's Changed**
+
+* update CR translations by @daviddinis in https://github.com/countries/countries/pull/892
+* fix(data): DK `address_format` by @mroach in https://github.com/countries/countries/pull/890
+* fix: the spec breakage in SK by @sabify in https://github.com/countries/countries/pull/893
+* fix: currency code of Sierra Leone and Sao Tome and Principe by @sabify in https://github.com/countries/countries/pull/895
+* fix: normalizing data files by @sabify in https://github.com/countries/countries/pull/894
+* Fix Spanish translation of DZ (Algeria). Fixes #889 by @pmor in https://github.com/countries/countries/pull/896
+* fix: currency of Curacao and Saint Maarten by @sabify in https://github.com/countries/countries/pull/899
+* Fix SG - Singapore country name in pt-BR by @stephannv in https://github.com/countries/countries/pull/904
+* Correct ZA province name by @yenshirak in https://github.com/countries/countries/pull/906
+* Cleanup some reek issues by @pmor in https://github.com/countries/countries/pull/897
+
+
 ## [7.1.1](https://github.com/countries/countries/releases/tag/v7.1.1') (2025/02/08 18:07 +00:00)
 
-## What's Changed
+**What's Changed**
 
 * Update SK VAT rates for 2025 by @bobmaerten in https://github.com/countries/countries/pull/885
 
 ## [7.1.0](https://github.com/countries/countries/releases/tag/v7.1.0') (2025/01/04 17:16 +00:00)
 
-## What's Changed
+**What's Changed**
+
 * Add UN membership by @will-gant in https://github.com/countries/countries/pull/882
 * Add vehicle_registration_code attribute to countries data by @ch000 in https://github.com/countries/countries/pull/871
 * Add Ruby 3.4 to the test matrix by @pmor in https://github.com/countries/countries/pull/883
