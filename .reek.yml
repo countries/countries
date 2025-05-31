@@ -1,0 +1,24 @@
+exclude_paths:
+  - spec
+detectors:
+  IrresponsibleModule:
+    enabled: false
+  UncommunicativeModuleName:
+    accept:
+      - ISO3166
+  UncommunicativeParameterName:
+    accept:
+      - alpha2
+      - alpha3
+  UncommunicativeVariableName:
+    accept:
+      - alpha2
+      - alpha3
+  UncommunicativeMethodName:
+    accept:
+      - Country
+      - from_alpha2_to_alpha3
+      - from_alpha3_to_alpha2
+      - load_data_for_alpha2
+  TooManyStatements:
+    max_statements: 7

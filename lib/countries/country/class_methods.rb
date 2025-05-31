@@ -34,6 +34,7 @@ module ISO3166
     alias countries all
 
     # :reek:UtilityFunction
+    # :reek:ManualDispatch
     def all_names_with_codes(locale = 'en')
       Country.all.map do |country|
         lc = country.translation(locale) || country.iso_short_name
@@ -55,14 +56,7 @@ module ISO3166
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
       translations = JSON.parse(File.read(file_path))
 
-      custom_countries = {}
-      (ISO3166::Data.codes - ISO3166::Data.loaded_codes).each do |code|
-        country = ISO3166::Country[code]
-        translation = country.translations[locale] || country.iso_short_name
-        custom_countries[code] = translation
-      end
-
-      translations.merge(custom_countries)
+      translations.merge(custom_countries_translations(locale))
     end
 
     # @param query_val [String] A value to query using `query_method`
@@ -106,11 +100,26 @@ module ISO3166
     # NB: We only want to use this cache for values coming from the JSON
     # file or our own code, caching user-generated data could be dangerous
     # since the cache would continually grow.
+    # :reek:DuplicateMethodCall
     def cached(value)
       @_parsed_values_cache ||= {}
       return @_parsed_values_cache[value] if @_parsed_values_cache[value]
 
       @_parsed_values_cache[value] = yield
+    end
+
+    private
+
+    # :reek:UtilityFunction
+    def custom_countries_translations(locale)
+      custom_countries = {}
+      (ISO3166::Data.codes - ISO3166::Data.loaded_codes).each do |code|
+        country = ISO3166::Country[code]
+        translation = country.translations[locale] || country.iso_short_name
+        custom_countries[code] = translation
+      end
+
+      custom_countries
     end
   end
 end

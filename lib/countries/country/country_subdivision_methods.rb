@@ -5,8 +5,8 @@ module ISO3166
     # @param subdivision_str [String] A subdivision name or code to search for. Search includes translated subdivision names.
     # @return [Subdivision] The first subdivision matching the provided string
     def find_subdivision_by_name(subdivision_str)
-      matched_subdivisions = subdivisions.select do |k, v|
-        subdivision_str == k || v.match?(subdivision_str)
+      matched_subdivisions = subdivisions.select do |key, value|
+        subdivision_str == key || value.match?(subdivision_str)
       end.values
 
       matched_subdivisions.min_by { |subdivision| subdivision_types.index(subdivision.type) }
@@ -23,6 +23,7 @@ module ISO3166
     end
 
     # @return [Array<ISO3166::Subdivision>] the list of subdivisions for this Country.
+    # :reek:DuplicateMethodCall
     def subdivisions
       @subdivisions ||= if data['subdivisions']
                           ISO3166::Data.create_subdivisions(data['subdivisions'])
@@ -43,6 +44,7 @@ module ISO3166
     end
 
     # @return [Array<String>] the list of humanized subdivision types for this country. Uses ActiveSupport's `#humanize` if available
+    # :reek:DuplicateMethodCall
     def humanized_subdivision_types
       if String.instance_methods.include?(:humanize)
         subdivisions.map { |_k, value| value['type'].humanize.freeze }.uniq
@@ -53,12 +55,14 @@ module ISO3166
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<Array>] This Country's subdivision pairs of names and codes.
+    # :reek:FeatureEnvy
     def subdivision_names_with_codes(locale = 'en')
       subdivisions.map { |key, value| [value.translations[locale] || value.name, key] }
     end
 
     # @param locale [String] The locale to use for translations.
     # @return [Array<String>] A list of subdivision names for this country.
+    # :reek:FeatureEnvy
     def subdivision_names(locale = 'en')
       subdivisions.map { |_k, value| value.translations[locale] || value.name }
     end
