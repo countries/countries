@@ -50,6 +50,7 @@ module ISO3166
 
     private
 
+    # :reek:UtilityFunction
     def default_locales
       locales = if Object.const_defined?('I18n') && I18n.respond_to?(:available_locales)
                   I18n.available_locales.dup

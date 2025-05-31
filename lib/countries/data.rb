@@ -156,7 +156,7 @@ module ISO3166
 
       def deep_stringify_keys(data)
         data.transform_keys!(&:to_s)
-        data.transform_values! { |v| v.is_a?(Hash) ? deep_stringify_keys(v) : v }
+        data.transform_values! { |value| value.is_a?(Hash) ? deep_stringify_keys(value) : value }
 
         data
       end
