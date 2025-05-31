@@ -74,7 +74,7 @@ module ISO3166
     def collect_countries_with(query_val, query_method = :alpha2, result_method = :itself)
       return nil unless [query_method, result_method].map { |method| method_defined? method }.all?
 
-      all.select { |country| country.send(query_method).include? query_val }
+      all.select { |country| country.send(query_method)&.include? query_val }
          .map { |country| country.send(result_method) }
     end
 
