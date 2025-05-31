@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module ISO3166
+  # :reek:TooManyMethods
   class Country
     extend CountryClassMethods
     extend ConversionMethods
@@ -37,6 +38,8 @@ module ISO3166
     alias zip_format postal_code_format
     alias languages languages_official
 
+    # :reek:FeatureEnvy
+    # :reek:ManualDispatch
     def ==(other)
       other.respond_to?(:alpha2) && other.alpha2 == alpha2
     end
@@ -116,14 +119,11 @@ module ISO3166
 
     # @param locale [String] The locale to use for translations.
     # @return [String] the name of this Country in the selected locale.
+    # :reek:FeatureEnvy
     def translation(locale = :en)
-      case locale
-      when Symbol
-        locale = locale.downcase
-      when String
-        locale = locale.downcase if locale.match?(/[A-Z]/)
-        locale = locale.to_sym
-      end
+      locale = locale.to_sym if locale.is_a?(String)
+      locale = locale.downcase if locale.match?(/[A-Z]/)
+
       data['translations'][locale]
     end
 

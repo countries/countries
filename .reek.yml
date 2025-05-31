@@ -22,3 +22,5 @@ detectors:
       - load_data_for_alpha2
   TooManyStatements:
     max_statements: 7
+  DuplicateMethodCall:
+    max_calls: 2

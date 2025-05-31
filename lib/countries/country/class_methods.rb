@@ -18,12 +18,12 @@ module ISO3166
 
   module CountryClassMethods
     def new(country_data)
-      unless country_data.is_a?(Hash)
-        country_data = country_data.to_s if country_data.is_a?(Symbol)
-        country_data = country_data.upcase if country_data.match?(/[a-z]/)
-      end
+      return super if country_data.is_a?(Hash)
 
-      super if country_data.is_a?(Hash) || codes.include?(country_data)
+      country_code = country_data.to_s
+      country_code = country_code.upcase if country_code.match?(/[a-z]/)
+
+      super if codes.include?(country_code)
     end
 
     # :reek:UtilityFunction
@@ -56,9 +56,10 @@ module ISO3166
     end
 
     # :reek:UtilityFunction
+    # :reek:FeatureEnvy
     def translations(locale = :en)
-      locale = locale.downcase if locale.match?(/[A-Z]/)
       locale = locale.to_sym if locale.is_a?(String)
+      locale = locale.downcase if locale.match?(/[A-Z]/)
 
       file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
       translations = JSON.parse(File.read(file_path))
