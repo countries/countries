@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    countries (8.0.1)
+    countries (8.0.2)
       unaccent (~> 0.3)
 
 GEM
@@ -48,11 +48,21 @@ GEM
     nokogiri (1.18.8)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.18.8-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm-linux-musl)
+      racc (~> 1.4)
     nokogiri (1.18.8-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
     pp (0.6.2)
       prettyprint
@@ -95,12 +105,16 @@ GEM
 
 PLATFORMS
   aarch64-darwin
-  arm64-darwin-22
-  arm64-darwin-23
-  arm64-darwin-24
-  x86_64-darwin-21
-  x86_64-darwin-22
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  ruby
+  x86_64-darwin
   x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   activesupport (>= 3, < 8)
