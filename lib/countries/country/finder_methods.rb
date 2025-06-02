@@ -8,7 +8,7 @@ module ISO3166
     # :reek:FeatureEnvy
     def search(query)
       query = query.to_s if query.is_a?(Symbol)
-      query = query.upcase if query.match?(/[a-z]/)
+      query = query.upcase if query&.match?(/[a-z]/)
 
       country = new(query)
       country&.valid? ? country : nil

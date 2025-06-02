@@ -958,6 +958,12 @@ describe ISO3166::Country do
       end
     end
 
+    context 'regression test for #912' do
+      it 'should return nil and not raise an error when searching with nil' do
+        expect(ISO3166::Country[nil]).to be_nil
+      end
+    end
+
     context 'regression test for #388/#746/#776' do
       before do
         ISO3166.configure do |config|
