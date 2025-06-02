@@ -100,19 +100,22 @@ c.common_name # => "United States" (This is a shortcut for c.translations('en'))
 c.unofficial_names # => ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
 # Get the names for a country translated to its local languages
-c = Country[:BE]
+c = ISO3166::Country[:BE]
 c.local_names # => ["België", "Belgique", "Belgien"]
 c.local_name # => "België"
 
 # Get a specific translation
+# `translation` method works with string or symbol locales
 c.translation('de') # => 'Vereinigte Staaten von Amerika'
-c.translations['fr'] # => "États-Unis"
+c.translation(:de) # => 'Vereinigte Staaten von Amerika'
+# `translations` method returns a symbol-keyed hash of translations
+c.translations[:fr] # => "États-Unis"
 
 # Get all translations for a locale, defaults to 'en'
-ISO3166::Country.translations         # {"DE"=>"Germany",...}
+ISO3166::Country.translations         # {"de:"Germany",...}
 ISO3166::Country.translations('de')   # {"DE"=>"Deutschland",...}
 ISO3166::Country.all_translated       # ['Germany', ...]
-ISO3166::Country.all_translated('de') # ['Deutschland', ...]
+q # ['Deutschland', ...]
 
 # Nationality
 c.nationality # => "American"
@@ -350,7 +353,7 @@ Any country registered this way will have its data available for searching etc..
 ISO3166::Data.register(
   alpha2: 'LOL',
   iso_short_name: 'Happy Country',
-  translations: {
+  translations: {  # Can use string or symbol keys
     'en' => 'Happy Country',
     'de' => 'glückliches Land'
   }
