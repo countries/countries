@@ -29,7 +29,7 @@ describe 'global Country class', custom_order: :first do
 
     describe 'to_s' do
       it 'should return the country name' do
-        expect(Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland (the)')
+        expect(Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
       end
     end
 
