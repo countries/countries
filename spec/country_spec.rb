@@ -52,6 +52,12 @@ describe ISO3166::Country do
     expect(country.iso_short_name).to eq('United States of America')
   end
 
+  it 'should return 3166 iso_short_name_lower_case if available' do
+    expect(country.iso_short_name_lower_case).to eq('United States of America (the)')
+    portugal = ISO3166::Country.new('PT')
+    expect(portugal.iso_short_name_lower_case).to eq('Portugal')
+  end
+
   it 'should return alternate names' do
     expect(country.unofficial_names).to eq(['United States', 'USA',
                                             'Vereinigte Staaten von Amerika',
