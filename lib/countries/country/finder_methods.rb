@@ -51,7 +51,9 @@ module ISO3166
 
       method = matches[3]
 
-      instance_methods.include?(method.to_sym) if method
+      return false unless method
+
+      instance_methods.include?(method.to_sym)
     end
 
     protected
