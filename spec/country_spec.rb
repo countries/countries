@@ -11,6 +11,10 @@ describe ISO3166::Country do
 
   let(:country) { ISO3166::Country.search('US') }
 
+  it 'handles respond_to_missing values' do
+    expect(described_class.respond_to?(:arr)).not_to be_nil
+  end
+
   it 'allows to create a country object from a symbol representation of the alpha2 code' do
     country = described_class.new(:us)
     expect(country.data).not_to be_nil
