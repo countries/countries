@@ -46,12 +46,11 @@ module ISO3166
     # :reek:BooleanParameter
     def respond_to_missing?(method_name, include_private = false)
       matches = method_name.to_s.match(FIND_BY_REGEX)
-
-      return super unless matches
+      return super unless matches && matches[3]
 
       method = matches[3]
 
-      instance_methods.include?(method.to_sym) if method
+      instance_methods.include?(method.to_sym)
     end
 
     protected
