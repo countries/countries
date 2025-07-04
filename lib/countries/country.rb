@@ -103,6 +103,11 @@ module ISO3166
       data['un_member'].nil? ? false : data['un_member']
     end
 
+    # @return [String] The ISO 3166-1 "Short name lower case" value for this Country.
+    def iso_short_name_lower_case
+      data['iso_short_name_lower_case'].nil? ? data['iso_short_name'] : data['iso_short_name_lower_case']
+    end
+
     # @return [String] The regex for valid postal codes in this Country
     def postal_code_format
       "\\A#{data['postal_code_format']}\\Z" if postal_code
