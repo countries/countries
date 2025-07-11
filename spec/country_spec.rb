@@ -53,7 +53,7 @@ describe ISO3166::Country do
   end
 
   it 'should return 3166 iso_short_name' do
-    expect(country.iso_short_name).to eq('United States of America')
+    expect(country.iso_short_name).to eq('United States of America (the)')
   end
 
   it 'should return alternate names' do
@@ -444,12 +444,12 @@ describe ISO3166::Country do
 
   describe 'all_translated' do
     it 'should return an alphabetized list of all country names translated to the selected locale' do
-      countries = ISO3166::Country.all_translated('fr')
+      countries = ISO3166::Country.all_translated('pt')
       expect(countries).to be_an(Array)
       expect(countries.first).to be_a(String)
-      expect(countries.first).to eq('Andorre')
+      expect(countries.first).to eq('Andorra')
       # countries missing the desired locale will not be added to the list
-      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      # so all 250 countries may not be returned, 'pt' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
@@ -563,12 +563,12 @@ describe ISO3166::Country do
 
   describe 'translations' do
     it 'should return an hash of all country names translated to the selected locale' do
-      countries = ISO3166::Country.translations('fr')
+      countries = ISO3166::Country.translations('pt')
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AD')
-      expect(countries.first).to eq(%w[AD Andorre])
+      expect(countries.first).to eq(%w[AD Andorra])
       # countries missing the desired locale will not be added to the list
-      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      # so all 250 countries may not be returned, 'pt' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
@@ -581,22 +581,22 @@ describe ISO3166::Country do
     end
 
     it 'should return an hash of all country names translated to the selected locale when locale is a symbol' do
-      countries = ISO3166::Country.translations(:fr)
+      countries = ISO3166::Country.translations(:pt)
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AD')
-      expect(countries.first).to eq(%w[AD Andorre])
+      expect(countries.first).to eq(%w[AD Andorra])
       # countries missing the desired locale will not be added to the list
-      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      # so all 250 countries may not be returned, 'pt' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
     it 'should return an hash of all country names translated to the selected locale when locale is symbol with uppercase chars' do
-      countries = ISO3166::Country.translations(:Fr)
+      countries = ISO3166::Country.translations(:Pt)
       expect(countries).to be_an(Hash)
       expect(countries.first[0]).to eq('AD')
-      expect(countries.first).to eq(%w[AD Andorre])
+      expect(countries.first).to eq(%w[AD Andorra])
       # countries missing the desired locale will not be added to the list
-      # so all 250 countries may not be returned, 'fr' returns 249, for example
+      # so all 250 countries may not be returned, 'pt' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
@@ -758,7 +758,7 @@ describe ISO3166::Country do
       subject { ISO3166::Country.find_by_iso_short_name(country_name) }
 
       context 'with Republic of Korea' do
-        let(:country_name) { 'Korea, Republic of' }
+        let(:country_name) { 'Korea (the Republic of)' }
         it 'should return' do
           expect(subject.first).to eq('KR')
         end
@@ -1265,7 +1265,7 @@ describe ISO3166::Country do
 
   describe 'to_s' do
     it 'should return the country iso_short_name' do
-      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
+      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland (the)')
     end
   end
 
