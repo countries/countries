@@ -3,7 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [8.0.2](https://github.com/countries/countries/releases/tag/v8.0.1') (2025/06/01 13:30 +00:00)
+## [8.0.3](https://github.com/countries/countries/releases/tag/v8.0.3') (2025/07/11 14:25 +00:00)
+* fix: change french name of France subdivisions by @Bertrand-Bichat in https://github.com/countries/countries/pull/919
+* fix: add guard clause to check if matches is nil by @ratheeshaditya in https://github.com/countries/countries/pull/917
+* Update Estonia standard VAT from 22% to 24% (July 1st 2025 change)  by @jarthod in https://github.com/countries/countries/pull/922
+
+
+## [8.0.2](https://github.com/countries/countries/releases/tag/v8.0.2') (2025/06/01 13:30 +00:00)
 
 * fix: iso short names by @sabify in https://github.com/countries/countries/pull/907
 * Fix error when searching `ISO3166::Country[nil]`. Fixes #912 by @pmor in https://github.com/countries/countries/pull/913
