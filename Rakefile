@@ -48,8 +48,11 @@ task :update_cache do
   File.binwrite(out_file, data.to_json)
 end
 
-desc 'Sort subdivision YAML by code and translations by locale'
+desc 'Canonically orders subdivision YAML and removes incomplete entries'
 task :cleanup_subdivision_yaml do
+  require_relative 'lib/countries'
+  require_relative 'lib/countries/sources'
+
   ISO3166::Country.codes.each do |c_code|
     sd = Sources::Local::Subdivision.new(c_code)
     data = sd.load
@@ -57,6 +60,18 @@ task :cleanup_subdivision_yaml do
 
     data = data.sort.to_h
     data['translations'] = data['translations'].sort.to_h unless data['translations'].nil?
-    sd.save(data)
+
+    # Remove incomplete entries
+    cleaned_data = data.select do |_, props|
+      props['name'] && props['code'] && props['type']
+    end
+    
+    removed = data.size - cleaned_data.size
+
+    if removed > 0
+      puts "Removed #{removed} incomplete entries from #{c_code}.yaml"
+    end
+
+    sd.save(cleaned_data)
   end
 end
