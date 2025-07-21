@@ -3,7 +3,6 @@
 require 'active_support'
 require 'active_support/core_ext/hash/deep_merge'
 require 'nokogiri'
-require 'pry'
 
 module Sources
   module CLDR
