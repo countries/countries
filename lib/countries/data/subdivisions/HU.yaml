@@ -61,6 +61,8 @@ BA:
     cy: Sir Baranya
     hy: Բարանյա
     th: เทศมณฑลบอรอญอ
+    ga: Contae Baranya
+    mn: Баранья
   type: county
 BC:
   name: Békéscsaba
@@ -134,6 +136,8 @@ BC:
     be: Бекешчаба
     mk: Бекешчаба
     'no': Békéscsaba
+    ga: Békéscsaba
+    uz: Bekeshchaba
   type: city_with_county_rights
 BE:
   name: Békés
@@ -207,6 +211,7 @@ BE:
     'no': Bekes Fylke
     az: Bekeş medyesi
     cy: Sir Békés
+    hy: Բեքեշ
   type: county
 BK:
   name: Bács-Kiskun
@@ -381,6 +386,7 @@ BU:
     yo_BJ: Budapest
     ha: Budapest
     ha_NE: Budapest
+    sd: بوڊاپيسٽ
   type: capital_city
 BZ:
   name: Borsod-Abaúj-Zemplén
@@ -672,6 +678,8 @@ DU:
     ar: دوناوجفاروس
     be: Дунауйвараш
     el: Ντούναουϊβαρος
+    ga: Dunaújváros
+    uz: Dunaújváros
   type: city_with_county_rights
 EG:
   name: Eger
@@ -737,6 +745,8 @@ EG:
     'no': Eger
     ar: ايغر
     kk: Эгер
+    ga: Eger
+    uz: Eger
   type: city_with_county_rights
 ER:
   name: Érd
@@ -794,6 +804,8 @@ ER:
     ar: إيرد
     hy: Էրդ
     kk: Эрд
+    el: Ερντ
+    ga: Érd
   type: city_with_county_rights
 FE:
   name: Fejér
@@ -1101,6 +1113,7 @@ HB:
     'no': Hajdu-Bihar Fylke
     az: Haydu-Bihar medyesi
     cy: Sir Hajdú-Bihar
+    ha: Hajdú-Bihar County
   type: county
 HE:
   name: Heves
@@ -1237,6 +1250,7 @@ HV:
     'no': Hódmezővásárhely
     ar: هدمزوفازارهلي
     fi: Hódmezővásárhely
+    ga: Hódmezővásárhely
   type: city_with_county_rights
 JN:
   name: Jász-Nagykun-Szolnok
@@ -1464,6 +1478,7 @@ KM:
     'no': Kecskemet
     ga: Kecskemét
     ps: کچکمیت
+    uz: Kecskemét
   type: city_with_county_rights
 KV:
   name: Kaposvár
@@ -1541,6 +1556,7 @@ KV:
     'no': Kaposvár
     bs: Kaposvár
     uz: Kaposhvar
+    ga: Kaposvár
   type: city_with_county_rights
 MI:
   name: Miskolc
@@ -1623,6 +1639,7 @@ MI:
     sq: Miskolc
     yue: 米什科爾茨
     yue_Hans: 米什科尔茨
+    uz: Mishkols
   type: city_with_county_rights
 NK:
   name: Nagykanizsa
@@ -1684,6 +1701,10 @@ NK:
     az: Nadkanija
     lv: Naģkaniža
     mk: Велика Канижа
+    ga: Nagykanizsa
+    hy: Նադկանիժա
+    is: Nagykanizsa
+    ko: 너지커니저
   type: city_with_county_rights
 'NO':
   name: Nógrád
@@ -1834,6 +1855,7 @@ NY:
     'no': Nyíregyháza
     ga: Nyíregyháza
     ps: نیرګهزا
+    uz: Niredxaza
   type: city_with_county_rights
 PE:
   name: Pest
@@ -1897,6 +1919,7 @@ PE:
     'no': Pest
     az: Peşt medyesi
     cy: Sir Pest
+    mn: Пешт
   type: county
 PS:
   name: Pécs
@@ -1979,6 +2002,7 @@ PS:
     uz: Pech
     yue: 佩奇
     yue_Hans: 佩奇
+    kk: Пежш
   type: city_with_county_rights
 SD:
   name: Szeged
@@ -2061,6 +2085,7 @@ SD:
     sq: Szeged
     yue: 塞格德
     yue_Hans: 塞格德
+    uz: Seged
   type: city_with_county_rights
 SF:
   name: Székesfehérvár
@@ -2138,6 +2163,7 @@ SF:
     'no': Székesfehérvár
     ga: Székesfehérvár
     ps: سیکشفهروار
+    uz: Sekeshfexervar
   type: city_with_county_rights
 SH:
   name: Szombathely
@@ -2214,6 +2240,8 @@ SH:
     'no': Szombathely
     kk: Сомбатхей
     ps: سمباتهي
+    ga: Szombathely
+    uz: Sombatxey
   type: city_with_county_rights
 SK:
   name: Szolnok
@@ -2290,6 +2318,8 @@ SK:
     'no': Szolnok
     yue: 蘇諾
     yue_Hans: 苏诺
+    ga: Szolnok
+    uz: Solnok
   type: city_with_county_rights
 SN:
   name: Sopron
@@ -2356,6 +2386,8 @@ SN:
     mk: Шопрон
     'no': Sopron
     cy: Sopron
+    ga: Sopron
+    ha: Sopron
   type: city_with_county_rights
 SO:
   name: Somogy
@@ -2430,6 +2462,7 @@ SO:
     'no': Saomogy fylke
     az: Şomod
     cy: Sir Somogy
+    ceb: Somogy megye
   type: county
 SS:
   name: Szekszárd
@@ -2503,6 +2536,7 @@ SS:
     az: Seksard
     mk: Сексард
     'no': Szekszárd
+    ga: Szekszárd
   type: city_with_county_rights
 ST:
   name: Salgótarján
@@ -2575,6 +2609,7 @@ ST:
     az: Şalqotariyan
     mk: Шалготарјан
     'no': Salgótarján
+    ga: Salgótarján
   type: city_with_county_rights
 SZ:
   name: Szabolcs-Szatmár-Bereg
@@ -2724,6 +2759,8 @@ TB:
     mk: Татабања
     'no': Tatabanya
     kk: Татабанья
+    ga: Tatabánya
+    uz: Tatabanya
   type: city_with_county_rights
 TO:
   name: Tolna
@@ -2797,6 +2834,8 @@ TO:
     'no': Tolna Fylke
     az: Tolna
     cy: Sir Tolna
+    hy: Թոլնա
+    mn: Тольна
   type: county
 VA:
   name: Vas
@@ -2946,6 +2985,7 @@ VE:
     az: Vesprem²
     cy: Sir Veszprém
     hy: Վեսպրեմ²
+    mn: Веспрем хошуу
   type: county
 VM:
   name: Veszprém
@@ -3020,6 +3060,8 @@ VM:
     ccp: "𑄞𑄬𑄌𑄴𑄛𑄳𑄢𑄬𑄟𑄴"
     mk: Веспрем²
     'no': Veszprém²
+    ga: Veszprém
+    uz: Vesprem
   type: city_with_county_rights
 ZA:
   name: Zala
@@ -3168,4 +3210,6 @@ ZE:
     az: Zalaeqerseq
     mk: Залаегерсег
     'no': Zalaegerszeg
+    ga: Zalaegerszeg
+    uz: Zalaegerseg
   type: city_with_county_rights
