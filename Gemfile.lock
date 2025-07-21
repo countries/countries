@@ -90,6 +90,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.5)
+    rubyzip (2.4.1)
     securerandom (0.4.1)
     simplecov (0.22.0)
       docile (~> 1.1)
@@ -125,6 +126,7 @@ DEPENDENCIES
   nokogiri (>= 1.8)
   rake
   rspec (>= 3)
+  rubyzip (>= 2.3)
   simplecov (~> 0.22)
   tzinfo
   yaml
