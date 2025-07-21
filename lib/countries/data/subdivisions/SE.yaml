@@ -73,6 +73,8 @@ AB:
     az: Stokholm leni
     cy: Sir Stockholm
     ga: Contae Stócólm
+    sk: Štokholmský kraj
+    sl: Stockholms län
   type: county
 AC:
   name: Västerbottens län
@@ -290,6 +292,7 @@ C:
     mk: Упсала
     'no': Uppsala län
     az: Uppsala dairəsi
+    sl: Uppsala län
   type: county
 D:
   name: Södermanlands län
@@ -364,6 +367,7 @@ D:
     az: Södermanland
     cy: Sir Södermanland
     ga: Contae Södermanland
+    sl: Södermanlands län
   type: county
 E:
   name: Östergötlands län
@@ -436,6 +440,7 @@ E:
     mk: Естерјетланд
     'no': Östergötlands län
     cy: Sir Östergötland
+    sl: Östergötlands län
   type: county
 F:
   name: Jönköpings län
@@ -580,6 +585,7 @@ G:
     'no': Kronobergs län
     cy: Kronoberg
     hy: Կրունուբերգ
+    sl: Kronobergs län
   type: county
 H:
   name: Kalmar län
@@ -651,6 +657,7 @@ H:
     'no': Kalmar län
     cy: Sir Kalmar
     hy: Կալմար
+    sl: Okrožje Kalmar
   type: county
 I:
   name: Gotlands län
@@ -794,6 +801,7 @@ K:
     'no': Blekinge län
     az: Blekinqe leni
     cy: Sir Blekinge
+    sl: Blekinge län
   type: county
 M:
   name: Skåne län
@@ -868,10 +876,11 @@ M:
     'no': Skåne län
     cy: Sir Skåne
     hy: Սկոնե
+    sl: Skåne län
   type: county
-N:
+"N":
   name: Hallands län
-  code: N
+  code: "N"
   unofficial_names:
   - Hallands län
   geo:
@@ -1016,6 +1025,8 @@ O:
     mk: Вестра Јеталанд
     'no': Västra Götalands län
     az: Vestra-Qetaland
+    hy: Վեստրա Գյոթալանդ
+    sl: Västra Götalands län
   type: county
 S:
   name: Värmlands län
@@ -1088,6 +1099,8 @@ S:
     'no': Värmlands län
     cy: Sir Värmland
     hy: Վերմլանդ
+    az: Varmland vilayəti
+    sl: Värmlands län
   type: county
 T:
   name: Örebro län
@@ -1161,6 +1174,7 @@ T:
     mk: Еребру
     'no': Örebro län
     az: Erebru
+    sl: Örebro län
   type: county
 U:
   name: Västmanlands län
@@ -1232,6 +1246,7 @@ U:
     'no': Västmanlands län
     cy: Sir Västmanland
     hy: Վեսթմանլանդ
+    sl: Västmanlands län
   type: county
 W:
   name: Dalarnas län
@@ -1306,6 +1321,8 @@ W:
     'no': Dalarnas län
     cy: Sir Dalarna
     hy: Դալարնա
+    is: Dalir (Svíþjóð)
+    sl: Dalarnas län
   type: county
 X:
   name: Gävleborgs län
@@ -1378,9 +1395,9 @@ X:
     az: Evleborq
     cy: Sir Gävleborg
   type: county
-Y:
+"Y":
   name: Västernorrlands län
-  code: Y
+  code: "Y"
   unofficial_names:
   - Västernorrlands län
   geo:
@@ -1448,6 +1465,7 @@ Y:
     az: Verternorrland
     cy: Sir Västernorrland
     hy: Վեսթերնորլանդ
+    sl: Västernorrlands län
   type: county
 Z:
   name: Jämtlands län
@@ -1519,4 +1537,6 @@ Z:
     'no': Jämtlands län
     cy: Sir Jämtland
     hy: Եմտլանդ լեն
+    cs: Jämtland
+    sl: Jämtlands län
   type: county
