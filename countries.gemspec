@@ -26,6 +26,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('unaccent', '~> 0.3')
   gem.add_development_dependency('activesupport', '>= 3', '< 8')
   gem.add_development_dependency('nokogiri', '>= 1.8')
+  gem.add_development_dependency('rubyzip', '>= 2.3')
   gem.add_development_dependency('rspec', '>= 3')
   gem.add_development_dependency('simplecov', '~> 0.22')
 end

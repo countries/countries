@@ -43,10 +43,14 @@ BTH:
     vi: Tỉnh Bethlehem
     zh: 伯利恒省
     lv: Bētlemes muhāfaza
-    ccp: "𑄝𑄬𑄗𑄬𑄣𑄴𑄦𑄟𑄴"
+    ccp: "\U0001111D\U0001112C\U00011117\U0001112C\U00011123\U00011134\U00011126\U0001111F\U00011134"
     be: Віфлеем
     'no': Bethlehem Governorate
     cy: Llywodraethiaeth Bethlehem
+    eu: Betleemgo Gobernazioa
+    gl: Gobernación de Belén
+    sk: Betlehemský governorát
+    sl: Guvernat Betlehem
   type: governorate
 DEB:
   name: الوسطى
@@ -90,10 +94,13 @@ DEB:
     ceb: Deir Al Balah
     lt: Deir al-Bachalo gubernija
     zh: 代尔拜莱赫省
-    ccp: "𑄓𑄬𑄃𑄨𑄢𑄴 𑄃𑄣𑄴 𑄝𑄣𑄦𑄴"
+    ccp: "\U00011113\U0001112C\U00011103\U00011128\U00011122\U00011134 \U00011103\U00011123\U00011134
+      \U0001111D\U00011123\U00011126\U00011134"
     he: דיר אל-בלח (נפה)
     uk: Муніципалітет Дейр-ель-Балах
     cy: Llywodraethiaeth Deir al-Balah
+    eu: Deir al-Balahko Gobernazioa
+    sl: Guvernat Dair Al Balah
   type: governorate
 GZA:
   name: محافظة غزة
@@ -118,7 +125,7 @@ GZA:
     ur: محافظہ غزہ
     zh: 加沙省
     pl: Gaza
-    ccp: "𑄉𑄎"
+    ccp: "\U00011109\U0001110E"
     he: עזה (נפה)
     it: governatorato di Gaza
     uk: мугафаза Ґаза
@@ -126,6 +133,12 @@ GZA:
     cy: Llywodraethiaeth Gaza
     el: Κυβερνείο Γάζας
     ta: காசா ஆளுநரகம்
+    az: Qəzzə mühafəzəsi
+    eu: Gazako Gobernazioa
+    lt: Gazos muchafaza
+    ms: Kawasan Pentadbiran Gaza
+    sl: Guvernat Gaza
+    uz: Gʼazo gubernatorligi
   type: governorate
 HBN:
   name: محافظة الخليل
@@ -171,10 +184,13 @@ HBN:
     vi: Tỉnh Hebron
     lv: Hebronas muhāfaza
     zh: 希布伦省
-    ccp: "𑄦𑄬𑄝𑄳𑄢𑄧𑄚𑄴"
+    ccp: "\U00011126\U0001112C\U0001111D\U00011133\U00011122\U00011127\U0001111A\U00011134"
     'no': Herbron Governorate
     ceb: Al Khalil
     cy: Llywodraethiaeth Hebron
+    eu: Hebrongo Gobernazioa
+    sk: Hebronský governorát
+    sl: Guvernat Hebron
   type: governorate
 JEM:
   name: القدس
@@ -200,12 +216,16 @@ JEM:
     ur: محافظہ یروشلم
     zh: 耶路撒冷省
     pl: Jerozolima
-    ccp: "𑄎𑄬𑄢𑄪𑄎𑄣𑄬𑄟𑄴"
+    ccp: "\U0001110E\U0001112C\U00011122\U0001112A\U0001110E\U00011123\U0001112C\U0001111F\U00011134"
     de: Gouvernement Jerusalem
     be: Іерусалім
     cy: Llywodraethiaeth Jeriwsalem
     id: Kegubernuran Yerusalem
     tr: Kudüs valiliği
+    cs: Kudský guvernorát
+    eu: Jerusalemgo Gobernazioa
+    ms: Kegabenoran Baitulmaqdis
+    sl: Guvernat Jeruzalem
   type: governorate
 JEN:
   name: جنين
@@ -233,11 +253,16 @@ JEN:
     ur: محافظہ جنین
     zh: 杰宁省
     pl: Dżanin
-    ccp: "𑄎𑄬𑄚𑄨𑄚𑄴"
+    ccp: "\U0001110E\U0001112C\U0001111A\U00011128\U0001111A\U00011134"
     cy: Llywodraethiaeth Jenin
     el: Κυβερνείο Τζενίν
     ta: ஜெனின் ஆளுநரகம்
     th: เขตผู้ว่าการญินีน
+    eu: Jeningo Gobernazioa
+    gl: Gobernación de Xinin
+    ms: Kawasan Pentadbiran Jenin
+    sl: Guvernat Dženin
+    uk: Джанін (провінція)
   type: governorate
 JRH:
   name: أريحا
@@ -261,12 +286,19 @@ JRH:
     ur: محافظہ اریحا
     zh: 杰里科省
     pl: Jerycho
-    ccp: "𑄎𑄬𑄢𑄨𑄇𑄮"
+    ccp: "\U0001110E\U0001112C\U00011122\U00011128\U00011107\U0001112E"
     cy: Llywodraethiaeth Jericho
     de: Gouvernement Jericho
     el: Κυβερνείο Ιεριχούς
     ta: எரிக்கோ ஆளுநரகம்
     tr: Eriha valiliği
+    be: Іерыхон
+    eu: Jerikoko gobernazioa
+    gl: Gobernación de Xericó
+    id: Kegubernuran Yerikho
+    ms: Kegabenoran Jericho
+    sk: Governorát Jericha
+    sl: Guvernat Jeriho
   type: governorate
 KYS:
   name: محافظة خان يونس
@@ -292,12 +324,16 @@ KYS:
     ceb: Khan Yunis Governorate
     zh: 汉尤尼斯省
     pl: Chan Junus
-    ccp: "𑄈𑄚𑄴 𑄃𑄨𑄅𑄪𑄚𑄪𑄌𑄴"
+    ccp: "\U00011108\U0001111A\U00011134 \U00011103\U00011128\U00011105\U0001112A\U0001111A\U0001112A\U0001110C\U00011134"
     he: ח׳אן יונס (נפה)
     it: governatorato di Khan Yunis
     cy: Llywodraethiaeth Khan Yunis
     el: Κυβερνείο Χαν Γιουνίς
     ta: கான் யூனிஸ் ஆளுநரகம்
+    eu: Khan Yunisko Gobernazioa
+    ms: Kawasan Pentadbiran Khan Yunis
+    sl: Guvernat Han Junis
+    uz: Xon Yunis gubernatorligi
   type: governorate
 NBS:
   name: محافظة نابلس
@@ -343,11 +379,13 @@ NBS:
     vi: Tỉnh Nablus
     lv: Nablusas muhāfaza
     zh: 纳布卢斯省
-    ccp: "𑄚𑄛𑄴𑄣𑄌𑄴"
+    ccp: "\U0001111A\U0001111B\U00011134\U00011123\U0001110C\U00011134"
     uk: Муніципалітет Наблус
     'no': Nablus Governorate
     cy: Llywodraethiaeth Nablus
     hy: Նաբլուս
+    eu: Nablusko Gobernazioa
+    sl: Guvernat Nablus
   type: governorate
 NGZ:
   name: شمال غزة
@@ -392,11 +430,15 @@ NGZ:
     lv: Ziemeļgazas muhāfaza
     lt: Šiaurinė Gazos gubernija
     zh: 北加沙省
-    ccp: "𑄅𑄧𑄖𑄳𑄦𑄧𑄢𑄴 𑄉𑄎"
+    ccp: "\U00011105\U00011127\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U00011109\U0001110E"
     he: צפון עזה (נפה)
     uk: Муніципалітет Північна Газа
     'no': Nord Gaza Governorate
     cy: Llywodraethiaeth Gogledd Gaza
+    ceb: North Gaza
+    eu: Ipar Gazako Gobernazioa
+    sl: Guvernat Severna Gaza
   type: governorate
 QQA:
   name: محافظة قلقيلية
@@ -441,11 +483,13 @@ QQA:
     vi: Tỉnh Qalqilya
     lv: Kalkīljas muhāfaza
     zh: 盖勒吉利耶省
-    ccp: "𑄇𑄪𑄠𑄣𑄴𑄇𑄪𑄣𑄨𑄠"
+    ccp: "\U00011107\U0001112A\U00011120\U00011123\U00011134\U00011107\U0001112A\U00011123\U00011128\U00011120"
     uk: Муніципалітет Калькілія
     'no': Qalqilya
     ceb: Qalqilya
     cy: Llywodraethiaeth Qalqilya
+    eu: Qalqilyako Gobernazioa
+    sl: Guvernat Kalkilja
   type: governorate
 RBH:
   name: رام الله والبيرة
@@ -490,10 +534,14 @@ RBH:
     vi: Tỉnh Ramallah và al-Bireh
     lv: Rāmallas un Bīras muhāfaza
     zh: 拉马拉和比雷赫省
-    ccp: "𑄢𑄟𑄣𑄳𑄣𑄦𑄴 𑄃𑄳𑄃 𑄃𑄣𑄴-𑄝𑄨𑄢𑄬𑄦𑄴"
+    ccp: "\U00011122\U0001111F\U00011123\U00011133\U00011123\U00011126\U00011134 \U00011103\U00011133\U00011103
+      \U00011103\U00011123\U00011134-\U0001111D\U00011128\U00011122\U0001112C\U00011126\U00011134"
     uk: Муніципалітет Рамалла та ель-Біра
     'no': Ramallah og al-Bireh
     cy: Llywodraethiaeth Ramal-lâh ac Al-Bireh
+    eu: Ramala eta Al Birehko Gobernazioa
+    gl: Gobernación de Ramala e Al Bireh
+    sl: Goverat Ramala in Al Bireh
   type: governorate
 RFH:
   name: محافظة رفح الفلسطينية
@@ -520,12 +568,17 @@ RFH:
     ur: محافظہ رفح
     zh: 拉法省
     pl: Rafah
-    ccp: "𑄢𑄜𑄦𑄴"
+    ccp: "\U00011122\U0001111C\U00011126\U00011134"
     it: governatorato di Rafah
     cy: Llywodraethiaeth Rafah
     el: Κυβερνείο Ράφαχ
     ta: ரஃபா ஆளுநரகம்
     tr: Refah valiliği
+    eu: Rafahko Gobernazioa
+    gl: Gobernación de Rafa
+    ms: Kawasan Pentadbiran Rafah
+    sl: Guvernat Rafa
+    uz: Rafah gubernatorligi
   type: governorate
 SLT:
   name: محافظة سلفيت
@@ -570,10 +623,12 @@ SLT:
     vi: Tỉnh Salfit
     lv: Selfītas muhāfaza
     zh: 萨尔费特省
-    ccp: "𑄥𑄣𑄴𑄜𑄨𑄖𑄴"
+    ccp: "\U00011125\U00011123\U00011134\U0001111C\U00011128\U00011116\U00011134"
     uk: Муніципалітет Салфіт
     'no': Salfit Governorate
     cy: Llywodraethiaeth Salfit
+    eu: Salfitko Gobernazioa
+    sl: Guvernat Salfit
   type: governorate
 TBS:
   name: محافظة طوباس
@@ -599,13 +654,16 @@ TBS:
     ur: محافظہ طوباس
     zh: 图巴斯省
     pl: Tubas
-    ccp: "𑄑𑄪𑄝𑄌𑄴"
+    ccp: "\U00011111\U0001112A\U0001111D\U0001110C\U00011134"
     it: governatorato di Tubas
     bn: তুবাস গভর্নরেট
     cy: Rhanbarth Tubas
     de: Gouvernement Tubas
     el: Κυβερνείο Τουμπάς
     ta: துபாஸ் ஆளுநரகம்
+    eu: Tubasko Gobernazioa
+    ms: Kawasan Pentadbiran Tubas dan Lembah Utara
+    sl: Guvernat Tubas
   type: governorate
 TKM:
   name: محافظة طولكرم
@@ -650,8 +708,11 @@ TKM:
     vi: Tỉnh Tulkarm
     lv: Tūlkarmas muhāfaza
     zh: 图勒凯尔姆省
-    ccp: "𑄑𑄪𑄣𑄴𑄇𑄢𑄴𑄟𑄴"
+    ccp: "\U00011111\U0001112A\U00011123\U00011134\U00011107\U00011122\U00011134\U0001111F\U00011134"
     uk: Муніципалітет Тулькарм
     'no': Tulkarm
     cy: Rhanbarth Tulkarm
+    eu: Tulkaremgo Gobernazioa
+    sl: Guvernat Tulkarm
+    uz: Tulkarm gubernatorligi
   type: governorate

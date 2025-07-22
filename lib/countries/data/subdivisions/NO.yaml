@@ -75,7 +75,7 @@
     ur: اوسلو
     vi: Oslo
     bs: Oslo
-    ccp: "𑄃𑄧𑄌𑄴𑄣𑄮"
+    ccp: "\U00011103\U00011127\U0001110C\U00011134\U00011123\U0001112E"
     ceb: Oslo
     cy: Oslo
     ga: Osló
@@ -97,6 +97,7 @@
     yue: 奧斯陸
     yue_Hans: 奥斯陆
     zh: 奥斯陆
+    sd: اوسلو
   type: county
 '11':
   name: Rogaland
@@ -154,7 +155,7 @@
     vi: Rogaland
     az: Ruqalann
     bs: Rogaland
-    ccp: "𑄢𑄧𑄉𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
+    ccp: "\U00011122\U00011127\U00011109\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     ceb: Rogaland Fylke
     cy: Rogaland
     el: Ρόγκαλαντ
@@ -166,6 +167,8 @@
     sr_Latn: Rogaland
     th: เทศมณฑลรูกาลัน
     zh: 罗加兰郡
+    yue: 羅加蘭
+    yue_Hans: 罗加兰
   type: county
 '15':
   name: Møre og Romsdal
@@ -220,7 +223,8 @@
     ur: مورہ او رومسدال
     vi: Møre og Romsdal
     bs: Møre og Romsdal
-    ccp: "𑄟𑄮𑄢𑄴 𑄃𑄮𑄇𑄴 𑄢𑄮𑄟𑄴𑄓𑄣𑄴"
+    ccp: "\U0001111F\U0001112E\U00011122\U00011134 \U00011103\U0001112E\U00011107\U00011134
+      \U00011122\U0001112E\U0001111F\U00011134\U00011113\U00011123\U00011134"
     ceb: Møre og Romsdal fylke
     el: Μέρε ογκ Ρόμσνταλ
     he: מרה ורומסדל
@@ -234,6 +238,8 @@
     sr_Latn: Mere og Romsdal
     th: เทศมณฑลเมอเรอและรุมส์ดาล
     zh: 默勒-鲁姆斯达尔郡
+    yue: 默勒魯姆斯達爾
+    yue_Hans: 默勒鲁姆斯达尔
   type: county
 '18':
   name: Nordland
@@ -294,7 +300,7 @@
     vi: Nordland
     az: Nurlann
     bs: Nordland
-    ccp: "𑄚𑄧𑄢𑄴𑄓𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
+    ccp: "\U0001111A\U00011127\U00011122\U00011134\U00011113\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     ceb: Nordland Fylke
     cy: Norland
     he: נורדלנד
@@ -307,6 +313,7 @@
     yue: 諾蘭郡
     yue_Hans: 诺兰郡
     zh: 诺尔兰郡
+    ga: Nordland
   geo:
     latitude: 67.69167019999999
     longitude: 12.7019476
@@ -374,7 +381,7 @@
     vi: Svalbard
     am: ስቫልባር
     bs: Svalbard
-    ccp: "𑄞𑄣𑄴𑄝𑄢𑄴𑄓𑄴"
+    ccp: "\U0001111E\U00011123\U00011134\U0001111D\U00011122\U00011134\U00011113\U00011134"
     ceb: Svalbard (dapit sa Svalbard and Jan Mayen)
     cy: Svalbard
     ga: Oileánra Svalbard
@@ -453,7 +460,7 @@
     az: Yan Mayen
     bn: ইয়ান মায়েন
     bs: Jan Majen
-    ccp: "𑄎𑄚𑄴 𑄟𑄬𑄠𑄬𑄚𑄴"
+    ccp: "\U0001110E\U0001111A\U00011134 \U0001111F\U0001112C\U00011120\U0001112C\U0001111A\U00011134"
     ceb: Jan Mayen
     cy: Jan Mayen
     ga: Jan Mayen
@@ -469,6 +476,7 @@
     yue: 揚馬延島
     yue_Hans: 扬马延岛
     zh: 揚馬延島
+    uz: Yan Mayen
   comments: See also country code SJ
   code: '22'
   type: arctic_region
@@ -477,7 +485,7 @@
   translations:
     ast: Viken
     be-tarask: Вікен
-    ca: Viken (comtat)
+    ca: Viken
     cs: Viken
     da: Viken
     de: Viken
@@ -507,6 +515,10 @@
     pt: Viken (condado)
     ru: Викен
     tr: Viken
+    hy: Վիկեն
+    lv: Vikene
+    ro: Viken
+    sl: Viken
   code: '30'
   type: county
 '34':
@@ -745,6 +757,8 @@
     fa: اینلاندت
     ha_NE: Innlandet
     yo_BJ: Innlandet
+    yue: 內陸郡
+    yue_Hans: 内陆郡
   code: '34'
   type: county
 '38':
@@ -781,6 +795,9 @@
     ro: Vestfold og Telemark
     ru: Вестфолл-ог-Телемарк
     tr: Vestfold og Telemark
+    fi: Vestfoldin ja Telemarkin lääni
+    lv: Vestfolla un Tēlemarka
+    sl: Vestfold og Telemark
   code: '38'
   type: county
 '42':
@@ -823,6 +840,13 @@
     pt: Agder
     ro: Agder
     tr: Agder
+    eu: Agder
+    lv: Agdere
+    mk: Агдер
+    ru: Агдер
+    sl: Agder
+    yue: 阿格德爾
+    yue_Hans: 阿格德尔
   code: '42'
   type: county
 '46':
@@ -856,6 +880,15 @@
     ar: فيستلاند (مقاطعة)
     el: Βέστλαντ
     tr: Vestland
+    eu: Hornelen
+    fi: Vestlandin lääni
+    lv: Vestlanne
+    mk: Вестлан
+    ro: Vestland
+    sl: Vestland
+    uz: Vestland
+    yue: 韋斯特蘭
+    yue_Hans: 韦斯特兰
   code: '46'
   type: county
 '50':
@@ -920,6 +953,9 @@
     zh-sg: 特伦德拉格
     zh-tw: 特倫德拉格
     id: Trøndelag
+    eu: Trøndelag
+    yue: 特倫德拉格
+    yue_Hans: 特伦德拉格
   code: '50'
   type: county
 '54':
@@ -931,14 +967,14 @@
     de: Troms og Finnmark
     de-ch: Troms og Finnmark
     el: Τρομς ογκ Φίνμαρκ
-    en: Troms og Finnmark fylke
+    en: Tromssan ja Finmarkun
     en-ca: Troms og Finnmark
     en-gb: Troms og Finnmark
-    es: Provincia de Troms y Finnmark
+    es: Troms og Finnmark
     et: Troms og Finnmargi maakond
     fi: Tromssan ja Finnmarkin lääni
     fkv: Tromssa ja Finmarkku
-    fr: Comté de Troms et Finnmark
+    fr: Troms og Finnmark
     he: טרומס ופינמרק
     hu: Troms og Finnmark
     is: Troms og Finnmörk
@@ -950,7 +986,7 @@
     nn: Troms og Finnmark
     pl: Troms og Finnmark
     pt: Troms og Finnmark
-    ru: Тромс и Финнмарк
+    ru: Тромс-ог-Финнмарк
     se: Romsa ja Finnmárku
     sv: Troms og Finnmark
     th: เทศมณฑลทรุมส์และฟินมาร์ก
@@ -960,5 +996,10 @@
     ca: Troms og Finnmark
     fa: ترومس اوگ فینمارک
     tr: Troms og Finnmark
+    hr: Troms i Finnmark
+    id: Troms og Finnmark
+    lv: Trumse un Finnmarka
+    ro: Troms og Finnmark
+    sl: Troms og Finnmark
   code: '54'
   type: county

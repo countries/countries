@@ -60,12 +60,14 @@ B:
     zh: 贝尼省
     ceb: El Beni
     sr_Latn: Beni
-    ccp: "𑄝𑄬𑄚𑄨"
+    ccp: "\U0001111D\U0001112C\U0001111A\U00011128"
     mk: Бени
     'no': Beni
     he: מחוז בני
     yue: 啤尼省
     yue_Hans: 啤尼省
+    cs: Departement Beni
+    sl: Departamento Beni
   type: department
 C:
   name: Cochabamba
@@ -128,7 +130,7 @@ C:
     sr_Latn: Kočabamba
     zh: 科恰班巴省
     fa: شهرستان کوچوبامبا
-    ccp: "𑄇𑄧𑄌𑄝𑄟𑄴𑄝"
+    ccp: "\U00011107\U00011127\U0001110C\U0001111D\U0001111F\U00011134\U0001111D"
     mk: Кочабамба
     'no': Cochabamba
     az: Koçabamba
@@ -136,6 +138,8 @@ C:
     he: מחוז קוצ׳במבה
     yue: 哥茶班巴省
     yue_Hans: 哥茶班巴省
+    cs: Departement Cochabamba
+    sl: Departamento Cochabamba
   type: department
 H:
   name: Chuquisaca
@@ -197,13 +201,14 @@ H:
     sr_Latn: Čukisaka
     zh: 丘基萨卡省
     fa: شهرستان چوکیساکا
-    ccp: "𑄥𑄇𑄭𑄪𑄥𑄇"
+    ccp: "\U00011125\U00011107\U0001112D\U0001112A\U00011125\U00011107"
     mk: Чукисака
     'no': Chuquisaca
     be: дэпартамент Чукісака
     he: מחוז צ׳וקיסאקה
     yue: 朱基薩卡省
     yue_Hans: 朱基萨卡省
+    cs: Departement Chuquisaca
   type: department
 L:
   name: La Paz
@@ -265,7 +270,7 @@ L:
     sr_Latn: La Paz
     zh: 拉巴斯省
     fa: شهرستان لاپاز
-    ccp: "𑄣 𑄛𑄌𑄴"
+    ccp: "\U00011123 \U0001111B\U0001110C\U00011134"
     mk: Ла Паз
     'no': La Paz
     az: La-Pas departamenti
@@ -273,10 +278,12 @@ L:
     he: מחוז לה פאס
     yue: 拉巴士省 (玻利維亞)
     yue_Hans: 拉巴士省 (玻利维亚)
+    hy: Լա Պազ վարչություն
+    sl: Departamento La Paz
   type: department
-N:
+"N":
   name: Pando
-  code: N
+  code: "N"
   unofficial_names:
   - Pando
   geo:
@@ -334,13 +341,14 @@ N:
     sr_Latn: Pando
     zh: 潘多省
     fa: شهرستان پاندو
-    ccp: "𑄛𑄚𑄴𑄓𑄮"
+    ccp: "\U0001111B\U0001111A\U00011134\U00011113\U0001112E"
     mk: Пандо
     'no': Pando
     et: Pando departemang
     he: מחוז פנדו
     yue: 攀多省
     yue_Hans: 攀多省
+    cs: Departement Pando
   type: department
 O:
   name: Oruro
@@ -402,7 +410,7 @@ O:
     sr_Latn: Oruro
     zh: 奥鲁罗省
     fa: شهرستان اورورو
-    ccp: "𑄃𑄧𑄢𑄪𑄢𑄮"
+    ccp: "\U00011103\U00011127\U00011122\U0001112A\U00011122\U0001112E"
     mk: Оруро
     'no': Oruro
     cs: Departement Oruro
@@ -411,6 +419,7 @@ O:
     hy: Օրուրո
     yue: 柯魯羅省
     yue_Hans: 柯鲁罗省
+    sl: Oruro
   type: department
 P:
   name: Potosí
@@ -473,13 +482,14 @@ P:
     zh: 波托西省
     fa: شهرستان پوتوسی
     yue_Hans: 波托西省
-    ccp: "𑄛𑄧𑄑𑄮𑄥𑄨"
+    ccp: "\U0001111B\U00011127\U00011111\U0001112E\U00011125\U00011128"
     yue: 波托西省
     mk: Потоси
     'no': Potosí
     cs: Departement Potosí
     et: Potosí departemang
     he: מחוז פוטוסי
+    sl: Departamento Potosí
   type: department
 S:
   name: Santa Cruz
@@ -545,13 +555,14 @@ S:
     zh: 聖克魯斯省 (玻利維亞)
     fa: شهرستان سانتا کروز
     yue_Hans: 圣克鲁斯省 (玻利维亚)
-    ccp: "𑄥𑄚𑄴𑄑 𑄇𑄳𑄢𑄪𑄌𑄴"
+    ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011107\U00011133\U00011122\U0001112A\U0001110C\U00011134"
     yue: 聖克魯斯省 (玻利維亞)
     mk: Санта Круз
     'no': Santa Cruz
     cs: departement Santa Cruz
     he: מחלקת סנטה קרוז
     hy: Սանտա Կրուզ
+    sl: Departamento Santa Cruz
   type: department
 T:
   name: Tarija
@@ -615,10 +626,11 @@ T:
     zh: 塔里哈省
     fa: شهرستان تاریزا
     yue_Hans: 塔里哈省
-    ccp: "𑄑𑄢𑄨𑄎"
+    ccp: "\U00011111\U00011122\U00011128\U0001110E"
     yue: 塔里哈省
     mk: Тариха
     'no': Tarija
     et: Tarija departemang
     he: מחוז טאריחה
+    cs: Departement Tarija
   type: department

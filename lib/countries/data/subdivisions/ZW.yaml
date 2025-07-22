@@ -17,11 +17,14 @@ BU:
     ceb: Bulawayo Province
     ar: إقليم بولاوايو
     ja: ブラワヨ
-    ccp: "𑄝𑄪𑄣𑄤𑄃𑄮"
+    ccp: "\U0001111D\U0001112A\U00011123\U00011124\U00011103\U0001112E"
     be: Булавая
     cy: Talaith Bulawayo
     fr: province de Bulawayo
     zh: 布拉瓦约省
+    ca: província de Bulawayo
+    pt: Bulavaio
+    sl: Provinca Bulawayo
   type: province
 HA:
   name: Harare
@@ -42,7 +45,7 @@ HA:
     ceb: Harare Province
     ar: إقليم هراري
     ja: ハラレ州
-    ccp: "𑄦𑄢𑄢𑄬"
+    ccp: "\U00011126\U00011122\U00011122\U0001112C"
     ko: 하라레주
     pt: Harare
     nb: Harare Province
@@ -54,6 +57,7 @@ HA:
     uk: Хараре
     zh: 哈拉雷省
     zu: Harare, Isifundazwe
+    hy: Հարարե
   type: province
 MA:
   name: Manicaland
@@ -115,9 +119,12 @@ MA:
     lv: Manikalandes province
     ceb: Manicaland Province
     sr_Latn: Manikalend
-    ccp: "𑄟𑄧𑄚𑄨𑄇𑄣𑄳𑄠𑄚𑄳𑄓𑄴"
+    ccp: "\U0001111F\U00011127\U0001111A\U00011128\U00011107\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134"
     'no': Manicaland
     zu: Manicaland
+    be: Манікаленд
+    sl: Manicaland
+    sw: Manicaland
   type: province
 MC:
   name: Mashonaland Central
@@ -178,9 +185,12 @@ MC:
     lv: Centrālās Mašonalendas province
     ceb: Mashonaland Central Province
     sr_Latn: Mašonalend Central
-    ccp: "𑄟𑄥𑄮𑄚𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄥𑄬𑄚𑄴𑄑𑄳𑄢𑄣𑄴"
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011123\U00011134"
     'no': Mashonaland Central
     zu: Mashonaland Central
+    be: Цэнтральны Машаналенд
+    sw: Mashonaland ya Kati
   type: province
 ME:
   name: Mashonaland East
@@ -241,10 +251,14 @@ ME:
     lv: Austrummašonalendas province
     ceb: Mashonaland East Province
     sr_Latn: Mašonalend Istok
-    ccp: "𑄟𑄥𑄮𑄚𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄛𑄪𑄇𑄴"
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U0001111B\U0001112A\U00011107\U00011134"
     he: משונאלנד מזרח פרובינציה
     'no': Mashonaland East
     zu: Mashonaland East
+    be: Усходні Машаналенд
+    sl: Mashonaland East
+    sw: Mashonaland Mashariki
   type: province
 MI:
   name: Midlands
@@ -305,9 +319,12 @@ MI:
     lv: Midlendsas province
     ceb: Midlands Province
     sr_Latn: Midlends
-    ccp: "𑄟𑄨𑄖𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄥𑄴"
+    ccp: "\U0001111F\U00011128\U00011116\U00011134\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134\U00011125\U00011134"
     'no': Midlands
     zu: Midlands (Isifundazwe)
+    be: Мідлендс (Зімбабвэ)
+    sl: Midlands
+    sw: Midlands, Zimbabwe
   type: province
 MN:
   name: Matabeleland North
@@ -369,9 +386,12 @@ MN:
     lv: Ziemeļmatabelelendas province
     ceb: Matabeleland North Province
     sr_Latn: Matabelelend Sever
-    ccp: "𑄟𑄑𑄝𑄨𑄣𑄨𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴"
+    ccp: "\U0001111F\U00011111\U0001111D\U00011128\U00011123\U00011128\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134"
     'no': Matabeleland North
     zu: Matabeleland North
+    be: Паўночны Матабелеленд
+    sl: Provinca Matabeleland North
   type: province
 MS:
   name: Matabeleland South
@@ -432,10 +452,14 @@ MS:
     lv: Dienvidmatabelelendas province
     ceb: Matabeleland South Province
     sr_Latn: Matabelelend Jug
-    ccp: "𑄟𑄑𑄝𑄨𑄣𑄨𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄘𑄧𑄊𑄨𑄚𑄴"
+    ccp: "\U0001111F\U00011111\U0001111D\U00011128\U00011123\U00011128\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134"
     'no': Matabeleland South
     hy: Հարավային Մատաբելելենդ
     zu: Matabeleland South
+    be: Паўднёвы Матабелеленд
+    sl: Matabeleland South
+    sw: Matabeleland Kusini
   type: province
 MV:
   name: Masvingo
@@ -496,10 +520,13 @@ MV:
     lv: Masvingo province
     ceb: Masvingo Province
     sr_Latn: Mašvingo
-    ccp: "𑄟𑄌𑄴𑄞𑄨𑄁𑄉𑄮"
+    ccp: "\U0001111F\U0001110C\U00011134\U0001111E\U00011128\U00011101\U00011109\U0001112E"
     'no': Masvingo
     hy: Մասվինգո
     zu: Masvingo (Isifundazwe)
+    be: Масвінга (правінцыя)
+    sl: Masvingo
+    sw: Mkoa wa Masvingo
   type: province
 MW:
   name: Mashonaland West
@@ -560,8 +587,12 @@ MW:
     lv: Rietummašonalendas province
     ceb: Mashonaland West Province
     sr_Latn: Mašonalend Zapad
-    ccp: "𑄟𑄥𑄮𑄚𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄛𑄧𑄏𑄨𑄟𑄴"
+    ccp: "\U0001111F\U00011125\U0001112E\U0001111A\U00011123\U00011133\U00011120\U0001111A\U00011133\U00011113\U00011134
+      \U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134"
     'no': Mashonaland West
     he: משונלנד-מערב
     zu: Mashonaland West
+    be: Заходні Машаналенд
+    sl: Mashonaland West
+    sw: Mashonaland Magharibi
   type: province
