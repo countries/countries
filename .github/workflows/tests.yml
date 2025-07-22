@@ -28,5 +28,5 @@ jobs:
         bundler-cache: true
     - name: Run tests
       run: bundle exec rake
-    - name: Publish code coverage
-      uses: paambaati/codeclimate-action@v9.0.0
+    # - name: Publish code coverage
+    #   uses: paambaati/codeclimate-action@v9.0.0
