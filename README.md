@@ -4,7 +4,7 @@ Countries is a collection of all sorts of useful information for every country i
 
 The data used in this gem is also available as git submodules in [YAML](https://github.com/countries/countries-data-yaml) and [JSON](https://github.com/countries/countries-data-json) files.
 
-[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml) [![Code Climate](https://codeclimate.com/github/countries/countries.svg)](https://codeclimate.com/github/countries/countries)
+[![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml)
  [![CodeQL](https://github.com/countries/countries/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/codeql-analysis.yml)
 
 
