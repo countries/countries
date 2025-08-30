@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.4](https://github.com/countries/countries/releases/tag/v8.0.4') (2025/08/30 14:36 +00:00)
+* Add the old iso_short_names as unofficial_names. Fixes #923 by @pmor in https://github.com/countries/countries/pull/926
+* Revert removal of empty keys from country data files. by @pmor in https://github.com/countries/countries/pull/927
+
+
 ## [8.0.3](https://github.com/countries/countries/releases/tag/v8.0.3') (2025/07/11 14:25 +00:00)
 * fix: change french name of France subdivisions by @Bertrand-Bichat in https://github.com/countries/countries/pull/919
 * fix: add guard clause to check if matches is nil by @ratheeshaditya in https://github.com/countries/countries/pull/917
