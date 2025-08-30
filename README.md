@@ -96,6 +96,7 @@ c.gec    # => "US"
 ```ruby
 c.iso_long_name # => "The United States of America"
 c.iso_short_name # => "United States of America"
+c.iso_short_name_lower_case # => "United States of America (the)"
 c.common_name # => "United States" (This is a shortcut for c.translations('en'))
 c.unofficial_names # => ["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos"]
 
