@@ -1278,7 +1278,7 @@ describe ISO3166::Country do
 
     it 'should contain all keys for vat_rates' do
       expect(belgium.vat_rates).to be_a(Hash)
-      expect(belgium.vat_rates.keys).to eq(%w[standard reduced parking])
+      expect(belgium.vat_rates.keys).to eq(%w[standard reduced super_reduced parking])
     end
 
     it 'should return an array of reduced vat rates' do
@@ -1373,6 +1373,17 @@ describe ISO3166::Country do
         expect { subject }.to(
           raise_error(KeyError, 'key not found: "bad_attribute"')
         )
+      end
+    end
+
+    context 'with attributes that may be empty' do
+      # https://github.com/countries/countries/issues/925
+      let(:args) { %i[region languages_spoken] }
+
+
+      it 'returns the correct values' do
+        expect(subject.first).to eq(["Europe", ["ca"]])
+        expect(subject.last).to eq(["Africa", ["en", "sn", "nd"]])
       end
     end
   end
