@@ -53,7 +53,13 @@ describe ISO3166::Country do
   end
 
   it 'should return 3166 iso_short_name' do
-    expect(country.iso_short_name).to eq('United States of America (the)')
+    expect(country.iso_short_name).to eq('United States of America')
+  end
+
+  it 'should return 3166 iso_short_name_lower_case if available' do
+    expect(country.iso_short_name_lower_case).to eq('United States of America (the)')
+    portugal = ISO3166::Country.new('PT')
+    expect(portugal.iso_short_name_lower_case).to eq('Portugal')
   end
 
   it 'should return alternate names' do
@@ -759,7 +765,7 @@ describe ISO3166::Country do
       subject { ISO3166::Country.find_by_iso_short_name(country_name) }
 
       context 'with Republic of Korea' do
-        let(:country_name) { 'Korea (the Republic of)' }
+        let(:country_name) { 'Korea (Republic of)' }
         it 'should return' do
           expect(subject.first).to eq('KR')
         end
@@ -1266,7 +1272,7 @@ describe ISO3166::Country do
 
   describe 'to_s' do
     it 'should return the country iso_short_name' do
-      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland (the)')
+      expect(ISO3166::Country.new('GB').to_s).to eq('United Kingdom of Great Britain and Northern Ireland')
     end
   end
 
