@@ -84,7 +84,7 @@
     yue_Hans: 首尔
     jv: Seoul
     sq: Seoul
-    ccp: "𑄥𑄨𑄅𑄪𑄣𑄴"
+    ccp: "\U00011125\U00011128\U00011105\U0001112A\U00011123\U00011134"
     ga: Seoul
     ky: Сеул
     ha: Seoul
@@ -101,6 +101,7 @@
     'no': Seoul
     yo_BJ: Seoul
     lo: ໂຊລ
+    sd: سيئول
   type: special_city
 '26':
   name: Busan Gwang'yeogsi [Pusan-Kwangyokshi]
@@ -177,7 +178,7 @@
     yue_Hans: 釜山
     jv: Busan
     sq: Busan
-    ccp: "𑄝𑄪𑄥𑄚𑄴"
+    ccp: "\U0001111D\U0001112A\U00011125\U0001111A\U00011134"
     ga: Busan
     ky: Пусан
     is: Busan
@@ -264,7 +265,7 @@
     sr_Latn: Tegu
     zh: 大邱廣域市
     yue_Hans: 大邱
-    ccp: "𑄓𑄠𑄬𑄉𑄪"
+    ccp: "\U00011113\U00011120\U0001112C\U00011109\U0001112A"
     ka: ტეგუ
     ha: Daegu
     hr: Daegu
@@ -275,6 +276,8 @@
     az: Tequ
     ga: Daegu
     km: ដែហ្គូ
+    my: ဒယ်ဂူမြို့
+    uz: Degu
   type: metropolitan_city
 '28':
   name: Incheon Gwang'yeogsi [Inch'n-Kwangyokshi]
@@ -348,7 +351,7 @@
     zh: 仁川廣域市
     yue_Hans: 仁川
     jv: Incheon
-    ccp: "𑄃𑄨𑄚𑄴𑄥𑄨𑄠𑄧𑄚𑄴"
+    ccp: "\U00011103\U00011128\U0001111A\U00011134\U00011125\U00011128\U00011120\U00011127\U0001111A\U00011134"
     ky: Инчхон
     ha: Incheon
     pa: ਇਨਚਨ
@@ -361,6 +364,7 @@
     az: İnçxon
     ga: Incheon
     km: អ៊ីនឆុន
+    sl: Inčon
   type: metropolitan_city
 '29':
   name: Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]
@@ -433,7 +437,7 @@
     zh: 光州廣域市
     yue_Hans: 光州
     jv: Gwangju
-    ccp: "𑄉𑄧𑄁𑄎𑄪 𑄥𑄨𑄑𑄨"
+    ccp: "\U00011109\U00011127\U00011101\U0001110E\U0001112A \U00011125\U00011128\U00011111\U00011128"
     ky: Кванже
     kk: Кванджу
     yue: 光州
@@ -443,6 +447,8 @@
     hr: Gwangju
     km: ក្វាងជូ
     uz: Kvanju
+    my: ဂွမ်းဂျူမြို့
+    ne: ग्वांन्जु
   type: metropolitan_city
 '30':
   name: Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]
@@ -514,7 +520,7 @@
     zh: 大田广域市
     yue_Hans: 大田
     jv: Daejeon
-    ccp: "𑄓𑄬𑄎𑄨𑄠𑄧𑄚𑄴"
+    ccp: "\U00011113\U0001112C\U0001110E\U00011128\U00011120\U00011127\U0001111A\U00011134"
     ha: Daejeon
     hr: Daejeon
     kk: Тэджон
@@ -527,6 +533,9 @@
     cy: Daejeon
     ga: Daejeon
     km: ដែចន់
+    be: Тэджон
+    ky: Тэжон
+    my: ဒယ်ဂျောန်မြို့
   type: metropolitan_city
 '31':
   name: Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]
@@ -593,7 +602,7 @@
     sr_Latn: Ulsan
     zh: 蔚山广域市
     yue_Hans: 蔚山
-    ccp: "𑄃𑄣𑄴𑄥𑄚𑄴"
+    ccp: "\U00011103\U00011123\U00011134\U00011125\U0001111A\U00011134"
     kk: Ульсан
     yue: 蔚山
     az: Ulsan
@@ -603,6 +612,8 @@
     ga: Ulsan
     hr: Ulsan
     km: អ៊ុលសាន
+    be: Ульсан
+    sl: Ulsan
   type: metropolitan_city
 '41':
   name: Gyeonggido [Kyonggi-do]
@@ -667,13 +678,17 @@
     ceb: Gyeonggi-do
     zh: 京畿道
     yue_Hans: 京畿道
-    ccp: "𑄉𑄭𑄠𑄮𑄚𑄴𑄉𑄨"
+    ccp: "\U00011109\U0001112D\U00011120\U0001112E\U0001111A\U00011134\U00011109\U00011128"
     ka: კიონგიდო
     eu: Gyeonggi
     kk: Кёңгидо
     yue: 京畿道
     'no': Gyeonggi
     az: Köngido vilayəti
+    be: Кёнгідо
+    km: ខេត្តក្យុងគី
+    my: ဂယောင်းဂီတိုင်း
+    sl: Gjeongi
   type: province
 '42':
   name: Gang'weondo [Kang-won-do]
@@ -731,7 +746,7 @@
     ceb: Gangwon-do
     zh: 江原道
     yue_Hans: 江原道
-    ccp: "𑄉𑄳𑄠𑄁𑄤𑄚𑄴"
+    ccp: "\U00011109\U00011133\U00011120\U00011101\U00011124\U0001111A\U00011134"
     eu: Gangwon
     kk: Канвондо
     yue: 江原道
@@ -739,6 +754,7 @@
     mk: Кангвон
     'no': Gangwon
     az: Kanvondo
+    km: ខេត្ដកាំងវ៉ុន(ប្រទេសកូរ៉េខាងត្បូង)
   type: province
 '43':
   name: Chungcheongbugdo [Ch'ungch'ongbuk-do]
@@ -796,12 +812,15 @@
     zh: 忠清北道
     yue_Hans: 忠清北道
     jv: Chungcheong Utara
-    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄌𑄪𑄁𑄌𑄨𑄠𑄧𑄁"
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001110C\U0001112A\U00011101\U0001110C\U00011128\U00011120\U00011127\U00011101"
     eu: Ipar Chungcheong
     yue: 忠清北道
     be: Чхунчхон-Пукто
     'no': Nord-Chungcheong
     ro: Chungcheong de Nord
+    km: ខេត្តឈុងឆងខាងជើង
+    sl: Severni Čungčeong
   type: province
 '44':
   name: Chungcheongnamdo [Ch'ungch'ongnam-do]
@@ -865,12 +884,16 @@
     ceb: Chungcheongnam-do
     zh: 忠清南道
     yue_Hans: 忠清南道
-    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄌𑄪𑄁𑄌𑄨𑄠𑄧𑄁"
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001110C\U0001112A\U00011101\U0001110C\U00011128\U00011120\U00011127\U00011101"
     eu: Hego Chungcheong
     kk: Чхуңчхоң-Намдо
     yue: 忠清南道
     'no': Sør-Chungcheong
     ro: Chungcheong de Sud
+    az: Çxunçxon-Namdo
+    be: Чхунчхон-Намда
+    km: ខេត្តឈុងឆងខាងត្បូង
+    sl: Južni Čungčeong
   type: province
 '45':
   name: Jeonrabugdo[Chollabuk-do]
@@ -929,12 +952,15 @@
     zh: 全羅北道
     yue_Hans: 全罗北道
     jv: Jeollabuk-do
-    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄎𑄨𑄠𑄮𑄣𑄳𑄦"
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001110E\U00011128\U00011120\U0001112E\U00011123\U00011133\U00011126"
     eu: Ipar Jeolla
     kk: Чолла-Пукто
     yue: 全羅北道
     'no': Nord-Jeolla
     ro: Jeolla de Nord
+    km: ខេត្តចុលឡាខាងជើង
+    sl: Džeolabuk
   type: province
 '46':
   name: Jeonranamdo [Chollanam-do]
@@ -992,12 +1018,15 @@
     ceb: Jeollanam-do
     zh: 全羅南道
     yue_Hans: 全罗南道
-    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄎𑄨𑄠𑄮𑄣𑄳𑄦"
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001110E\U00011128\U00011120\U0001112E\U00011123\U00011133\U00011126"
     eu: Hego Jeolla
     kk: Чолла-Намдо
     yue: 全羅南道
     'no': Sør-Jeolla
     ro: Jeolla de Sud
+    km: ខេត្តចុលឡាខាងត្បូង
+    mk: Јужна Чола
+    sl: Južna Jeolla
   type: province
 '47':
   name: Gyeongsangbugdo [Kyongsangbuk-do]
@@ -1061,13 +1090,16 @@
     ceb: Gyeongsangbuk-do
     zh: 庆尚北道
     yue_Hans: 庆尚北道
-    ccp: "𑄅𑄪𑄖𑄳𑄦𑄧𑄢𑄴 𑄎𑄨𑄠𑄧𑄁𑄥𑄁"
+    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134
+      \U0001110E\U00011128\U00011120\U00011127\U00011101\U00011125\U00011101"
     eu: Ipar Gyeongsang
     kk: Кёңсаң-Пукто
     yue: 慶尚北道
     be: Кёнсан-Пукта
     'no': Nord-Gyeongsang
     az: Könsan-Pukto
+    km: ខេត្តក្យងសាំងខាងជើង
+    sl: Severni Gjeongsang
   type: province
 '48':
   name: Gyeongsangnamdo [Kyongsangnam-do]
@@ -1131,13 +1163,17 @@
     ceb: Gyeongsangnam-do
     zh: 庆尚南道
     yue_Hans: 庆尚南道
-    ccp: "𑄘𑄧𑄊𑄨𑄚𑄴 𑄎𑄨𑄠𑄧𑄁𑄥𑄁"
+    ccp: "\U00011118\U00011127\U0001110A\U00011128\U0001111A\U00011134 \U0001110E\U00011128\U00011120\U00011127\U00011101\U00011125\U00011101"
     eu: Hego Gyeongsang
     kk: Кёнсан-Намдо
     yue: 慶尚南道
     'no': Sør-Gyeongsang
     be: Кёнсан-Намда
     ro: Gyeongsang de Sud
+    az: Kyonsan-Namdo
+    km: ខេត្តក្យុងសាំងខាងត្បូង
+    mk: Јужен Кјонсанг
+    sl: Južni Gjeongsang
   type: province
 '49':
   name: Jejudo [Cheju-do]
@@ -1208,7 +1244,7 @@
     zh: 濟州特別自治道
     yue_Hans: 济州特别自治道
     jv: Jejudo
-    ccp: "𑄎𑄬𑄎𑄪"
+    ccp: "\U0001110E\U0001112C\U0001110E\U0001112A"
     kk: Чеджудо
     yue: 濟州特別自治道
     az: Çejudo adası
@@ -1217,6 +1253,8 @@
     cy: Talaith Jeju
     ka: ჩეჯუს პროვინცია
     ky: Жежу (Корея)
+    km: ខេត្តជេជូ
+    sl: Čedžu
   type: special_self-governing_province
 '50':
   name: 세종특별자치시
@@ -1262,7 +1300,7 @@
     ceb: Sejong-si
     zh: 世宗特別自治市
     yue_Hans: 世宗特别自治市
-    ccp: "𑄥𑄬𑄎𑄧𑄁"
+    ccp: "\U00011125\U0001112C\U0001110E\U00011127\U00011101"
     hy: Սեջոնգ
     eu: Sejong
     kk: Сечжон
@@ -1274,4 +1312,7 @@
     ga: Cathair Sejong
     ky: Седжоң (шаар)
     ro: Sejong-si
+    be: Сэджон
+    km: ទីក្រុងសេចុង
+    my: ဆဲဂျွံမြို့
   type: special_self-governing_city
