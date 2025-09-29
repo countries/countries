@@ -20,7 +20,6 @@ module ISO3166
 
   class Configuration
     attr_accessor :loaded_locales
-    attr_writer :locales
 
     def initialize
       @loaded_locales = []
@@ -28,6 +27,14 @@ module ISO3166
 
     def locales
       @locales ||= default_locales
+    end
+
+    def locales=(value)
+      if value.is_a?(Array)
+        @locales = value.map(&:to_sym).uniq
+      else
+        raise ArgumentError, "Expected an Array of locales, got #{value.class}"
+      end
     end
 
     # Enables the integration with the {Money}[https://github.com/RubyMoney/money] gem

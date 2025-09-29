@@ -71,4 +71,17 @@ describe 'ISO3166.configuration' do
       expect(ISO3166::Configuration.new.locales).to eq([:test])
     end
   end
+
+  context 'locales can be set with strings' do
+    it 'allows setting locales with strings' do
+      ISO3166.configuration.locales = ['de', 'en']
+      expect(ISO3166::Country.new('DE').translation(:de)).to eq 'Deutschland'
+      expect(ISO3166::Country.new('DE').translation(:en)).to eq 'Germany'
+    end
+
+    it 'converts string locales to symbols' do
+      ISO3166.configuration.locales = ['de', 'en']
+      expect(ISO3166.configuration.locales).to eq [:de, :en]
+    end
+  end
 end
