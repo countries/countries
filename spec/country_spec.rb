@@ -1462,4 +1462,29 @@ describe ISO3166::Country do
                                                                                                     'Uruguay']
     end
   end
+
+  describe '#pluck support' do
+    require 'active_support/core_ext/enumerable'
+
+    it 'supports plucking attributes on an array of countries' do
+      array = [ISO3166::Country['US'], ISO3166::Country['FR']]
+
+      expect(array.pluck(:iso_short_name)).to eq ['United States of America', 'France']
+      expect(array.pluck(:alpha2, :alpha3)).to eq [%w[US USA], %w[FR FRA]]
+    end
+
+    it 'supports plucking methods on an array of countries' do
+      array = [ISO3166::Country['US'], ISO3166::Country['FR']]
+
+      expect(array.pluck(:in_eu?)).to eq [false, true]
+      expect(array.pluck(:in_eu?, :in_eea?)).to eq [[false, false], [true, true]]
+    end
+
+    it 'supports plucking a mix of attributes and methods on an array of countries' do
+      array = [ISO3166::Country['US'], ISO3166::Country['FR']]
+
+      expect(array.pluck(:alpha2, :in_eu?)).to eq [['US', false], ['FR', true]]
+      expect(array.pluck(:in_eea?, :iso_short_name)).to eq [[false, 'United States of America'], [true, 'France']]
+    end
+  end
 end
