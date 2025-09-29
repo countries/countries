@@ -56,6 +56,13 @@ module ISO3166
       to_s <=> other.to_s
     end
 
+    # Access country data by key, symbol or string.
+    # :reek:ManualDispatch
+    def [](key)
+      key = key.to_s if key.is_a?(Symbol)
+      data[key] || send(key)
+    end
+
     # +true+ if this country is a member of the European Union.
     # :reek:NilCheck :reek:DuplicateMethodCall
     def in_eu?
