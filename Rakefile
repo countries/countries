@@ -50,6 +50,9 @@ end
 
 desc 'Sort subdivision YAML by code and translations by locale'
 task :cleanup_subdivision_yaml do
+  require_relative 'lib/countries'
+  require_relative 'lib/countries/sources'
+
   ISO3166::Country.codes.each do |c_code|
     sd = Sources::Local::Subdivision.new(c_code)
     data = sd.load
