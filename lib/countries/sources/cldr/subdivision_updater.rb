@@ -25,8 +25,18 @@ module Sources
         subdivisions.each_with_index do |subdivision, index|
           subdivision = Sources::CLDR::Subdivision.new(language_code:, xml: subdivision)
           data = @loader.load(subdivision.country_code)
-          data[subdivision.code] ||= {}
+
+          # The CLDR keeps deprecated subdivision codes in the repository for
+          # data stability. To prevent pulling in codes that have been removed,
+          # let the presence of existing data for the subdivision code dictate whether
+          # whether or not to pull in translations.
+          if data[subdivision.code].nil?
+            puts "Skipping subdivision #{subdivision.code} for country #{subdivision.country_code}"
+            next  
+          end
+                    
           data[subdivision.code] = data[subdivision.code].deep_merge(subdivision.to_h)
+
           if (last_country_code_seen && last_country_code_seen != subdivision.country_code) ||
              index == subdivisions.size - 1
             puts "Updated #{subdivision.country_code} with language_code #{language_code}"
