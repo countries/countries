@@ -75,7 +75,7 @@ module ISO3166
       end
 
       def datafile_path(file_array)
-        File.join([@cache_dir] + file_array)
+        File.join(*(@cache_dir + file_array))
       end
 
       private
