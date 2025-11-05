@@ -47,6 +47,13 @@ module ISO3166
       end.sort
     end
 
+    def all_names_with_alpha_3_codes(locale = 'en')
+      Country.all.map do |c|
+        lc = (c.translation(locale) || c.iso_short_name)
+        [lc.respond_to?(:html_safe) ? lc.html_safe : lc, c.alpha3]
+      end.sort
+    end
+
     def pluck(*attributes)
       all.map { |country| country.data.fetch_values(*attributes.map(&:to_s)) }
     end
