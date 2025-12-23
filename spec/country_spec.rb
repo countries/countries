@@ -1310,6 +1310,18 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Searching by Nationality' do
+     it 'should return Italy for Italian' do
+      expect(ISO3166::Country.find_country_by_nationality('Italian').alpha2).to eq 'IT'
+    end
+    it 'should return Pakistan for Pakistani' do
+      expect(ISO3166::Country.find_country_by_nationality('Pakistani').alpha2).to eq 'PK' 
+    end
+    it 'should return United States for American' do
+      expect(ISO3166::Country.find_country_by_nationality('American').alpha2).to eq 'US'
+    end
+  end
+
   describe 'Added country names to search by' do
     it 'should return country code for Democratic Republic of the Congo' do
       expect(ISO3166::Country.find_country_by_unofficial_names('Democratic Republic of the Congo').alpha2).to eq 'CD'
