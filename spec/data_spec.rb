@@ -222,6 +222,18 @@ describe ISO3166::Data do
   end
 
   describe 'data checks' do
+    context 'all YAML files' do
+      # For files that are generated, libyaml may inject escaped unicode for certain character sequences.
+      # See https://github.com/yaml/libyaml/blob/2c891fc7a770e8ba2fec34fc6b545c672beb37e6/src/yaml_private.h#L261-L277
+      it 'does not contain escaped unicode' do
+        Dir['lib/countries/data/**/*.yaml'].each do |file|
+          content = File.read(file)
+          unicode_match = content =~ /\\U[0-9A-F]{4,8}/i
+          expect(unicode_match).to be_falsy, "#{file} contains escaped unicode"
+        end
+      end
+    end
+
     context 'subdivision YAML files' do
       it 'has a non-blank code for all subdivisions' do
         Dir['lib/countries/data/subdivisions/*.yaml'].each do |file|

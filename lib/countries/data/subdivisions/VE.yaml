@@ -58,6 +58,7 @@ A:
     'no': Hovedstad
     fa: بخش کاپیتال (ونزوئلا)
     hr: Caracas
+    sl: Distrito Capital
   type: capital_district
 B:
   name: Anzoátegui
@@ -402,6 +403,8 @@ F:
     mk: Боливар
     'no': Bolívar
     az: Bolivar
+    cs: Bolívar
+    sl: Bolívar
   type: state
 G:
   name: Carabobo
@@ -470,6 +473,7 @@ G:
     mk: Карабобо
     'no': Carabobo
     hr: Carabobo
+    sl: Carabobo
   type: state
 H:
   name: Cojedes
@@ -800,6 +804,7 @@ L:
     mk: Мерида
     'no': Mérida
     hr: Mérida
+    sl: Mérida
   type: state
 M:
   name: Miranda
@@ -868,10 +873,11 @@ M:
     'no': Miranda
     gl: Estado Miranda
     hr: Miranda
+    sl: Miranda
   type: state
-N:
+"N":
   name: Monagas
-  code: N
+  code: "N"
   unofficial_names:
   - Monagas
   geo:
@@ -1001,6 +1007,7 @@ O:
     mk: Нуева Еспарта
     'no': Nueva Esparta
     hr: Nueva Esparta
+    sl: Nueva Esparta
   type: state
 P:
   name: Portuguesa
@@ -1198,6 +1205,8 @@ S:
     mk: Тачира
     'no': Táchira
     ps: تاچیرا آیالات
+    cy: Táchira
+    hy: Տաչիրա
   type: state
 T:
   name: Trujillo
@@ -1460,6 +1469,10 @@ W:
     gl: Dependencias Federais
     hr: Savezni teritoriji Venezuele
     mk: Федерални Владенија
+    ga: Spleáchais Feidearálacha
+    hy: Վենեսուելայի դաշնային տիրույթներ
+    ps: فدرالي انحصاري سيمې
+    sl: Dependencias Federales
   type: federal_dependency
 X:
   name: Vargas
@@ -1526,9 +1539,9 @@ X:
     'no': Vargas
     hr: Vargas
   type: state
-Y:
+"Y":
   name: Delta Amacuro
-  code: Y
+  code: "Y"
   unofficial_names:
   - Delta Amacuro
   geo:
@@ -1664,4 +1677,5 @@ Z:
     bs: Amazonas
     mk: Амазон
     'no': Amazonas
+    sl: Amazonas
   type: state
