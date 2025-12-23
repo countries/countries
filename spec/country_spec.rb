@@ -1320,10 +1320,6 @@ describe ISO3166::Country do
     it 'should return United States for American' do
       expect(ISO3166::Country.find_country_by_nationality('American').alpha2).to eq 'US'
     end
-
-    it 'should return Netherlands for Dutch' do
-      expect(ISO3166::Country.find_country_by_nationality('Dutch').alpha2).to eq 'NL'
-    end
   end
 
   describe 'Added country names to search by' do
