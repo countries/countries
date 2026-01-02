@@ -3,12 +3,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.1.0](https://github.com/countries/countries/releases/tag/v8.1.0') (2026/01/02 09:14 +00:00)
+
+* Update Romania standard VAT from 19% to 21% + single reduced rate to 11% (Aug 1st 2025 change) by @jarthod in https://github.com/countries/countries/pull/930
+* Remove CP code from FR translations. Fixes #928 by @pmor in https://github.com/countries/countries/pull/932
+* Add `iso_short_name_lower_case` attribute as an alternative to #907 by @pmor in https://github.com/countries/countries/pull/915
+* Allow locales to be set with strings. Fixes #916 by @pmor in https://github.com/countries/countries/pull/931
+* Add #pluck support by @pmor in https://github.com/countries/countries/pull/933
+* Fix misuse of File.join with nested array by @marksmith in https://github.com/countries/countries/pull/936
+* Adds translations in Bulgarian for MK, CZ, CV, SZ by @kirichkov in https://github.com/countries/countries/pull/935
+* Update BG to EUR (effective 1 Jan 26) by @pmor in https://github.com/countries/countries/pull/940
+* Update vatican nationality by @pmor in https://github.com/countries/countries/pull/941
+* Add ruby 4.0.0 to test matrix and update gems by @pmor in https://github.com/countries/countries/pull/942
+
 ## [8.0.4](https://github.com/countries/countries/releases/tag/v8.0.4') (2025/08/30 14:36 +00:00)
+
 * Add the old iso_short_names as unofficial_names. Fixes #923 by @pmor in https://github.com/countries/countries/pull/926
 * Revert removal of empty keys from country data files. by @pmor in https://github.com/countries/countries/pull/927
 
 
 ## [8.0.3](https://github.com/countries/countries/releases/tag/v8.0.3') (2025/07/11 14:25 +00:00)
+
 * fix: change french name of France subdivisions by @Bertrand-Bichat in https://github.com/countries/countries/pull/919
 * fix: add guard clause to check if matches is nil by @ratheeshaditya in https://github.com/countries/countries/pull/917
 * Update Estonia standard VAT from 22% to 24% (July 1st 2025 change)  by @jarthod in https://github.com/countries/countries/pull/922
