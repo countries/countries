@@ -496,6 +496,8 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AF')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
       expect(countries.any? { |pair| !pair[0].html_safe? }).to eq(false)
     end
@@ -507,6 +509,8 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AF')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
@@ -517,6 +521,8 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AF')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
 
@@ -527,6 +533,58 @@ describe ISO3166::Country do
       expect(countries).to be_an(Array)
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AF')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+  end
+
+  describe 'all_names_with_alpha_3_codes' do
+    require 'active_support/core_ext/string/output_safety'
+    it 'should return an alphabetized list of all country names with ISOCODE alpha3' do
+      countries = ISO3166::Country.all_names_with_alpha_3_codes
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AFG')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+      expect(countries.any? { |pair| !pair[0].html_safe? }).to eq(false)
+    end
+
+    it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha3' do
+      ISO3166.configuration.locales = %i[es de en]
+
+      countries = ISO3166::Country.all_names_with_alpha_3_codes(:es)
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AFG')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+  end
+
+  describe 'all_names_with_alpha_3_codes_without_active_support' do
+    it 'should return an alphabetized list of all country names with ISOCODE alpha3' do
+      countries = ISO3166::Country.all_names_with_alpha_3_codes
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afghanistan')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AFG')
+      expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+
+    it 'should return an alphabetized list of all country names translated to current locale with ISOCODE alpha3' do
+      ISO3166.configuration.locales = %i[es de en]
+
+      countries = ISO3166::Country.all_names_with_alpha_3_codes(:es)
+      expect(countries).to be_an(Array)
+      expect(countries.first[0]).to be_a(String)
+      expect(countries.first[0]).to eq('Afganistán')
+      expect(countries.first[1]).to be_a(String)
+      expect(countries.first[1]).to eq('AFG')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
   end
