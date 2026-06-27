@@ -6,7 +6,8 @@ The data used in this gem is also available as git submodules in [YAML](https://
 
 [![Gem Version](https://badge.fury.io/rb/countries.svg)](https://badge.fury.io/rb/countries) [![Tests](https://github.com/countries/countries/actions/workflows/tests.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/tests.yml)
  [![CodeQL](https://github.com/countries/countries/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/countries/countries/actions/workflows/codeql-analysis.yml)
-
+ [![Maintainability](https://qlty.sh/gh/countries/projects/countries/maintainability.svg)](https://qlty.sh/gh/countries/projects/countries)
+ [![Code Coverage](https://qlty.sh/gh/countries/projects/countries/coverage.svg)](https://qlty.sh/gh/countries/projects/countries)
 
 ## Installation
 
