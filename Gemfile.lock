@@ -69,6 +69,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-musl)
       racc (~> 1.4)
+    ostruct (0.6.3)
     pp (0.6.4)
       prettyprint
     prettyprint (0.2.0)
@@ -99,6 +100,9 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.7)
+    ruby-prof (2.0.5)
+      base64
+      ostruct
     securerandom (0.4.1)
     simplecov (0.22.0)
       docile (~> 1.1)
@@ -136,6 +140,7 @@ DEPENDENCIES
   nokogiri (>= 1.8)
   rake
   rspec (>= 3)
+  ruby-prof
   simplecov (~> 0.22)
   tzinfo
   yaml
