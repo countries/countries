@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+* Anchor `postal_code_format` with `\z` instead of `\Z` so the generated regex no longer accepts a trailing newline (e.g. `"123456\n"` is now correctly rejected). Fixes #902
+
 ## [8.1.0](https://github.com/countries/countries/releases/tag/v8.1.0') (2026/01/02 09:14 +00:00)
 
 * Update Romania standard VAT from 19% to 21% + single reduced rate to 11% (Aug 1st 2025 change) by @jarthod in https://github.com/countries/countries/pull/930

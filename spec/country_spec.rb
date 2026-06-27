@@ -106,6 +106,8 @@ describe ISO3166::Country do
     regex = Regexp.new(country.postal_code_format)
     expect(regex).to match('12345-6789')
     expect(regex).not_to match('12345-67890')
+    # Anchored with \z (not \Z) so a trailing newline is rejected. Fixes #902
+    expect(regex).not_to match("12345-6789\n")
 
     antarctica = ISO3166::Country.search('AQ')
     expect(antarctica.postal_code_format).to be_nil

@@ -117,7 +117,7 @@ module ISO3166
 
     # @return [String] The regex for valid postal codes in this Country
     def postal_code_format
-      "\\A#{data['postal_code_format']}\\Z" if postal_code
+      "\\A#{data['postal_code_format']}\\z" if postal_code
     end
 
     def to_s
