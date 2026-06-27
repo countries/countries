@@ -31,8 +31,7 @@ module ISO3166
       def register(data)
         alpha2 = data[:alpha2].upcase
         @registered_data[alpha2] = deep_stringify_keys(data.except('translations', :translations))
-        translations = data['translations'] || data[:translations] || {}
-        translations.transform_keys!(&:to_sym)
+        translations = (data['translations'] || data[:translations] || {}).transform_keys(&:to_sym)
         @registered_data[alpha2]['translations'] = Translations.new.merge(translations)
         @cache = cache.merge(@registered_data)
       end
