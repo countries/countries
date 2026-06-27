@@ -1357,7 +1357,7 @@ describe ISO3166::Country do
     it 'should return country if not convertible input given' do
       expect do
         ISO3166::Country(42)
-      end.to raise_error(TypeError, /can't convert ([A-z]+) into ISO3166::Country/)
+      end.to raise_error(TypeError, /can't convert ([A-Za-z]+) into ISO3166::Country/)
     end
   end
 
