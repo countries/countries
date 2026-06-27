@@ -72,6 +72,17 @@ describe 'ISO3166.configuration' do
     end
   end
 
+  it 'raises an ArgumentError when locales is not an Array' do
+    expect { ISO3166.configuration.locales = :en }
+      .to raise_error(ArgumentError, /Expected an Array of locales/)
+  end
+
+  it 'falls back to [:en] when I18n is not available' do
+    allow(Object).to receive(:const_defined?).and_call_original
+    allow(Object).to receive(:const_defined?).with('I18n').and_return(false)
+    expect(ISO3166::Configuration.new.locales).to eq([:en])
+  end
+
   context 'locales can be set with strings' do
     it 'allows setting locales with strings' do
       ISO3166.configuration.locales = ['de', 'en']

@@ -331,6 +331,14 @@ describe ISO3166::Country do
       expect(ISO3166::Country['AS'].subdivisions?).to be_falsey
       expect(ISO3166::Country['AS'].humanized_subdivision_types).to eq([])
     end
+
+    it 'uses String#humanize when it is available (e.g. ActiveSupport)' do
+      added = !String.method_defined?(:humanize)
+      String.class_eval { def humanize = tr('_', ' ').capitalize } if added
+      expect(country.humanized_subdivision_types).to contain_exactly('District', 'State', 'Outlying area')
+    ensure
+      String.send(:remove_method, :humanize) if added
+    end
   end
 
   describe 'subdivision_names_with_codes' do
@@ -530,6 +538,27 @@ describe ISO3166::Country do
       expect(countries.first[0]).to be_a(String)
       expect(countries.first[0]).to eq('Afganistán')
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
+    end
+  end
+
+  describe 'common_name' do
+    it 'returns the English common name for the country' do
+      expect(ISO3166::Country['US'].common_name).to eq('United States')
+      expect(ISO3166::Country['DE'].common_name).to eq('Germany')
+    end
+
+    it 'adds :en to the configured locales' do
+      ISO3166.configuration.locales = %i[de]
+      ISO3166::Country['US'].common_name
+      expect(ISO3166.configuration.locales).to include(:en)
+    end
+
+    # common_name mutates the configured locales but does not reload,
+    # so :en is not yet loaded within the same call.
+    it 'returns nil when :en was not already loaded' do
+      ISO3166.configuration.locales = %i[de]
+      ISO3166::Data.reset
+      expect(ISO3166::Country['US'].common_name).to be_nil
     end
   end
 
@@ -1262,6 +1291,26 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'in_g7?' do
+    it 'should return true for G7 members' do
+      expect(ISO3166::Country.search('US').in_g7?).to be_truthy
+    end
+
+    it 'should return false for non G7 members' do
+      expect(ISO3166::Country.search('BR').in_g7?).to be_falsey
+    end
+  end
+
+  describe 'in_g20?' do
+    it 'should return true for G20 members' do
+      expect(ISO3166::Country.search('BR').in_g20?).to be_truthy
+    end
+
+    it 'should return false for non G20 members' do
+      expect(ISO3166::Country.search('VA').in_g20?).to be_falsey
+    end
+  end
+
   describe 'gec' do
     it 'should return the country\'s GEC code' do
       expect(ISO3166::Country.new('NA').gec).to eql 'WA'
@@ -1317,7 +1366,7 @@ describe ISO3166::Country do
       expect(ISO3166::Country.find_country_by_nationality('Italian').alpha2).to eq 'IT'
     end
     it 'should return Pakistan for Pakistani' do
-      expect(ISO3166::Country.find_country_by_nationality('Pakistani').alpha2).to eq 'PK' 
+      expect(ISO3166::Country.find_country_by_nationality('Pakistani').alpha2).to eq 'PK'
     end
     it 'should return United States for American' do
       expect(ISO3166::Country.find_country_by_nationality('American').alpha2).to eq 'US'
