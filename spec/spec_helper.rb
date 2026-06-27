@@ -1,9 +1,14 @@
 # frozen_string_literal: true
 
+# SimpleCov must start before the library is required, otherwise the
+# already-loaded lib files are not instrumented
+require 'simplecov'
+SimpleCov.start do
+  add_filter '/spec/'
+end
+
 require 'countries'
 require 'debug'
-require 'simplecov'
-SimpleCov.start
 
 RSpec.configure do |config|
   config.filter_run :focus
