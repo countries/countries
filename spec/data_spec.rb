@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require 'benchmark'
 
 describe ISO3166::Data do
   it 'responds to call' do

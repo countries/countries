@@ -9,6 +9,7 @@ gem 'tzinfo'
 gemspec
 
 group :development, :test do
+  gem 'benchmark' # no longer a default gem as of Ruby 4.0; used by spec/perf_spec.rb
   gem 'debug'
   gem 'yaml'
   gem 'memory_profiler'
