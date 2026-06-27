@@ -209,6 +209,12 @@ describe ISO3166::Data do
       expect(data).to include('subregion')
     end
 
+    it 'does not mutate the translations hash passed by the caller' do
+      translations = { 'en' => 'Happy Country', 'de' => 'glückliches Land' }
+      ISO3166::Data.register(alpha2: 'LOL', iso_short_name: 'Happy Country', translations: translations)
+      expect(translations.keys).to eq(%w[en de])
+    end
+
     it 'can be undone' do
       ISO3166::Data.unregister('lol')
       data = ISO3166::Data.new('LOL').call
