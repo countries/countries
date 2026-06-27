@@ -17,18 +17,14 @@ describe ISO3166::Data, perf: true, order: :defined do
     require 'benchmark'
     require 'memory_profiler'
     require 'ruby-prof'
-    # profile the code
-    RubyProf.start
 
-    100.times do
-      yield if block_given?
+    # profile the code (RubyProf 2.0 API)
+    result = RubyProf::Profile.profile do
+      100.times { yield if block_given? }
     end
 
-    result = RubyProf.stop
-
     # print a flat profile to text
-    printer = RubyProf::FlatPrinter.new(result)
-    printer.print($stdout)
+    RubyProf::FlatPrinter.new(result).print($stdout)
   end
 
   it 'responds to call' do
