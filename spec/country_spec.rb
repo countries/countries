@@ -637,6 +637,69 @@ describe ISO3166::Country do
       # so all 250 countries may not be returned, 'pt' returns 249, for example
       expect(countries.size).to eq(NUM_OF_COUNTRIES)
     end
+
+    context 'with caching' do
+      before do
+        ISO3166::Country.reset_translations_cache
+      end
+
+      it 'should read and parse the locale file only once for repeated calls' do
+        allow(File).to receive(:read).and_call_original
+        3.times { ISO3166::Country.translations('pt') }
+        expect(File).to have_received(:read).with(end_with('pt.json')).once
+      end
+
+      it 'should use one cache entry for all spellings of the same locale' do
+        allow(File).to receive(:read).and_call_original
+        ISO3166::Country.translations('pt')
+        ISO3166::Country.translations(:pt)
+        ISO3166::Country.translations(:Pt)
+        expect(File).to have_received(:read).with(end_with('pt.json')).once
+      end
+
+      it 'should return a copy so callers cannot mutate the cached translations' do
+        countries = ISO3166::Country.translations('pt')
+        countries['AD'] = 'Mutated'
+        countries.delete('AF')
+        expect(ISO3166::Country.translations('pt')['AD']).to eq('Andorra')
+        expect(ISO3166::Country.translations('pt')).to have_key('AF')
+      end
+
+      it 'should read the locale file again after a reset' do
+        ISO3166::Country.translations('pt')
+        ISO3166::Data.reset
+        allow(File).to receive(:read).and_call_original
+        ISO3166::Country.translations('pt')
+        expect(File).to have_received(:read).with(end_with('pt.json')).once
+      end
+
+      context 'with custom countries' do
+        after do
+          ISO3166::Data.unregister('XX')
+        end
+
+        it 'should include countries registered after the cache was warmed' do
+          expect(ISO3166::Country.translations).not_to have_key('XX')
+          ISO3166::Data.register(
+            alpha2: 'XX',
+            iso_short_name: 'Custom Country',
+            translations: { 'en' => 'Custom Country' }
+          )
+          expect(ISO3166::Country.translations['XX']).to eq('Custom Country')
+        end
+
+        it 'should exclude countries unregistered after the cache was warmed' do
+          ISO3166::Data.register(
+            alpha2: 'XX',
+            iso_short_name: 'Custom Country',
+            translations: { 'en' => 'Custom Country' }
+          )
+          expect(ISO3166::Country.translations).to have_key('XX')
+          ISO3166::Data.unregister('XX')
+          expect(ISO3166::Country.translations).not_to have_key('XX')
+        end
+      end
+    end
   end
 
   describe 'countries' do

@@ -36,6 +36,10 @@ module ISO3166
       @_country_instance_cache = {}
     end
 
+    def reset_translations_cache
+      @_translations_cache = {}
+    end
+
     # :reek:UtilityFunction
     def codes
       ISO3166::Data.codes
@@ -65,16 +69,14 @@ module ISO3166
       translations(locale).values
     end
 
-    # :reek:UtilityFunction
-    # :reek:FeatureEnvy
     def translations(locale = :en)
       locale = locale.to_sym if locale.is_a?(String)
       locale = locale.downcase if locale.match?(/[A-Z]/)
 
-      file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
-      translations = JSON.parse(File.read(file_path))
+      @_translations_cache ||= {}
+      translations = @_translations_cache[locale] ||= load_translations(locale)
 
-      translations.merge(custom_countries_translations(locale))
+      translations.dup
     end
 
     # @param query_val [String] A value to query using `query_method`
@@ -127,6 +129,15 @@ module ISO3166
     end
 
     private
+
+    # :reek:UtilityFunction
+    # :reek:FeatureEnvy
+    def load_translations(locale)
+      file_path = ISO3166::Data.datafile_path(%W[locales #{locale}.json])
+      translations = JSON.parse(File.read(file_path))
+
+      translations.merge(custom_countries_translations(locale))
+    end
 
     # :reek:UtilityFunction
     def custom_countries_translations(locale)

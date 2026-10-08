@@ -34,6 +34,7 @@ module ISO3166
         translations = (data['translations'] || data[:translations] || {}).transform_keys(&:to_sym)
         @registered_data[alpha2]['translations'] = Translations.new.merge(translations)
         @cache = cache.merge(@registered_data)
+        ISO3166::Country.reset_translations_cache
       end
 
       # Removes a country from the loaded data
@@ -41,6 +42,7 @@ module ISO3166
         alpha2 = alpha2.to_s.upcase
         @cache.delete(alpha2)
         @registered_data.delete(alpha2)
+        ISO3166::Country.reset_translations_cache
       end
 
       def cache
@@ -55,6 +57,7 @@ module ISO3166
           @registered_data = {}
           ISO3166.configuration.loaded_locales = []
           ISO3166::Country.reset_country_cache
+          ISO3166::Country.reset_translations_cache
         end
       end
 
