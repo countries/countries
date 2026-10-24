@@ -34,6 +34,22 @@ describe ISO3166::Data do
     expect(ISO3166::Data.new('US').call['translated_names']).to eq ['Vereinigte Staaten']
   end
 
+  it 'skips the sync when another thread completed it while waiting for the lock' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    allow(ISO3166::Data).to receive(:cache_flush_required?).and_return(true)
+    expect(ISO3166::Data).not_to receive(:refresh_translated_names)
+    ISO3166::Data.update_cache
+  end
+
+  it 'lists loaded locales in the configured order' do
+    ISO3166.configuration.locales = %i[de]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales = %i[en de]
+    ISO3166::Data.update_cache
+    expect(ISO3166.configuration.loaded_locales).to eq %i[en de]
+  end
+
   it 'only loads subdivision translations for the configured locales' do
     ISO3166.configuration.locales = %i[en]
     ISO3166::Data.reset

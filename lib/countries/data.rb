@@ -97,12 +97,14 @@ module ISO3166
         synchronized do
           removed_locales = locales_to_remove
           added_locales = locales_to_load
+          next if removed_locales.empty? && added_locales.empty?
+
           removed_locales.each { |locale| unload_translations(locale) }
           added_locales.each { |locale| load_translations(locale) }
           refresh_translated_names
 
           # Publish the new locales last: lookups stop syncing as soon as they see them
-          mark_locales_loaded(removed_locales, added_locales)
+          ISO3166.configuration.loaded_locales = requested_locales
         end
       end
 
