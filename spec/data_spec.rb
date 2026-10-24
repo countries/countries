@@ -86,6 +86,37 @@ describe ISO3166::Data do
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 
+  it 'shares one frozen string per distinct name' do
+    ISO3166.configuration.locales = %i[en es]
+    ISO3166::Data.reset
+    andorra = ISO3166::Country.new('AD')
+    expect(andorra.translation(:en)).to be_frozen
+    expect(andorra.translation(:en)).to equal andorra.translation(:es)
+    expect(andorra.unofficial_names).to be_frozen
+
+    ain = ISO3166::Country.new('FR').subdivisions['01']
+    expect(ain.translations[:en]).to equal ain.translations[:es]
+    expect(ain.name).to equal ain.translations[:en]
+  end
+
+  it 'registers a country copied from an existing one' do
+    new_zealand = ISO3166::Country['NZ']
+    ISO3166::Data.register(new_zealand.data.transform_keys(&:to_sym).merge(alpha2: 'XN', iso_short_name: 'Copy'))
+    expect(ISO3166::Country['XN'].iso_short_name).to eq 'Copy'
+    expect(ISO3166::Country['XN'].latitude).to eq new_zealand.latitude
+  ensure
+    ISO3166::Data.unregister('XN')
+  end
+
+  it 'leaves the nested hashes passed to register untouched' do
+    geo = { latitude: 1.0 }
+    ISO3166::Data.register(alpha2: 'XX', iso_short_name: 'Custom Country', geo: geo)
+    expect(geo).to eq(latitude: 1.0)
+    expect(ISO3166::Country['XX'].latitude).to eq 1.0
+  ensure
+    ISO3166::Data.unregister('XX')
+  end
+
   describe '#load_cache' do
     it 'will return an empty hash for an unsupported locale' do
       file_array = %w[locales unsupported.json]
