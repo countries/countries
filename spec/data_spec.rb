@@ -51,6 +51,22 @@ describe ISO3166::Data do
     expect(ISO3166::Country.new('XX')).to be_nil
   end
 
+  it 'skips the locale diff once mixed-case locales are loaded' do
+    ISO3166.configuration.locales = %i[en pt-BR]
+    expect(ISO3166::Country.new('BR').translation('pt-BR')).to eq 'Brasil'
+    expect(ISO3166::Data).not_to receive(:locales_to_load)
+    ISO3166::Country.new('BR')
+  end
+
+  it 'skips the locale diff once locales loaded in another order are synced' do
+    ISO3166.configuration.locales = %i[de]
+    ISO3166::Country.new('US')
+    ISO3166.configuration.locales = %i[en de]
+    expect(ISO3166::Country.new('US').translation(:en)).to eq 'United States'
+    expect(ISO3166::Data).not_to receive(:locales_to_load)
+    ISO3166::Country.new('US')
+  end
+
   it 'loads locales appended in place to the configured locales' do
     ISO3166.configuration.locales = %i[en]
     ISO3166::Data.update_cache

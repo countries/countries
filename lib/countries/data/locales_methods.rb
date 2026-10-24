@@ -5,10 +5,11 @@ module ISO3166
     private
 
     def cache_flush_required?
-      # Runs on every country lookup: skip building the locale diffs when nothing changed
-      return false if ISO3166.configuration.locales == ISO3166.configuration.loaded_locales
+      return false if ISO3166.configuration.locales == @synced_locales
 
-      !locales_to_load.empty? || !locales_to_remove.empty?
+      flush_required = !locales_to_load.empty? || !locales_to_remove.empty?
+      @synced_locales = ISO3166.configuration.locales.dup unless flush_required
+      flush_required
     end
 
     def locales_to_load
