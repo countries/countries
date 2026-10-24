@@ -161,10 +161,7 @@ module ISO3166
       end
 
       def deep_stringify_keys(data)
-        data.transform_keys!(&:to_s)
-        data.transform_values! { |value| value.is_a?(Hash) ? deep_stringify_keys(value) : value }
-
-        data
+        data.to_h { |key, value| [key.to_s, value.is_a?(Hash) ? deep_stringify_keys(value) : value] }
       end
 
       def subdivision_file_path(alpha2)
