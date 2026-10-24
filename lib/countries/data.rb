@@ -12,7 +12,7 @@ module ISO3166
     @registered_data = {}
     @mutex = Mutex.new
     @subdivisions = {}
-    @synced_locales = nil
+    @synced_snapshot = nil
 
     def initialize(alpha2)
       alpha2 = alpha2.to_s if alpha2.is_a?(Symbol)
@@ -55,7 +55,7 @@ module ISO3166
           @subdivisions = {}
           @registered_data = {}
           ISO3166.configuration.loaded_locales = []
-          @synced_locales = nil
+          @synced_snapshot = nil
           ISO3166::Country.reset_country_cache
         end
       end
