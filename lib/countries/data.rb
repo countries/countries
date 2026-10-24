@@ -94,12 +94,15 @@ module ISO3166
       def sync_translations!
         return unless cache_flush_required?
 
-        locales_to_remove.each do |locale|
-          unload_translations(locale)
-        end
+        synchronized do
+          removed_locales = locales_to_remove
+          added_locales = locales_to_load
+          removed_locales.each { |locale| unload_translations(locale) }
+          added_locales.each { |locale| load_translations(locale) }
+          refresh_translated_names
 
-        locales_to_load.each do |locale|
-          load_translations(locale)
+          # Publish the new locales last: lookups stop syncing as soon as they see them
+          mark_locales_loaded(removed_locales, added_locales)
         end
       end
 
@@ -125,33 +128,31 @@ module ISO3166
       end
 
       def load_translations(locale)
-        synchronized do
-          locale_names = load_cache(['locales', "#{locale}.json"])
-          internal_codes.each do |alpha2|
-            load_alpha2_translation_for_locale(alpha2, locale, locale_names)
-          end
-          ISO3166.configuration.loaded_locales << locale
+        locale_names = load_cache(['locales', "#{locale}.json"])
+        internal_codes.each do |alpha2|
+          load_alpha2_translation_for_locale(alpha2, locale, locale_names)
         end
       end
 
       def load_alpha2_translation_for_locale(alpha2, locale, locale_names)
         @cache[alpha2]['translations'] ||= Translations.new
         @cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
-        @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
       end
 
       def unload_translations(locale)
-        synchronized do
-          internal_codes.each do |alpha2|
-            unload_alpha2_translation_for_locale(alpha2, locale)
-          end
-          ISO3166.configuration.loaded_locales.delete(locale)
+        internal_codes.each do |alpha2|
+          unload_alpha2_translation_for_locale(alpha2, locale)
         end
       end
 
       def unload_alpha2_translation_for_locale(alpha2, locale)
         @cache[alpha2]['translations'].delete(locale)
-        @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
+      end
+
+      def refresh_translated_names
+        internal_codes.each do |alpha2|
+          @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
+        end
       end
 
       def load_cache(file_array)

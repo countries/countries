@@ -25,6 +25,15 @@ describe ISO3166::Data do
     expect(data['translated_names'].size).to eq 1
   end
 
+  it 'keeps translated_names in sync when locales are added and removed' do
+    ISO3166.configuration.locales = %i[en]
+    expect(ISO3166::Data.new('US').call['translated_names']).to eq ['United States']
+    ISO3166.configuration.locales = %i[en de]
+    expect(ISO3166::Data.new('US').call['translated_names']).to eq ['United States', 'Vereinigte Staaten']
+    ISO3166.configuration.locales = %i[de]
+    expect(ISO3166::Data.new('US').call['translated_names']).to eq ['Vereinigte Staaten']
+  end
+
   it 'only loads subdivision translations for the configured locales' do
     ISO3166.configuration.locales = %i[en]
     ISO3166::Data.reset

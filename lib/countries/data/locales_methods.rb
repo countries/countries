@@ -13,6 +13,13 @@ module ISO3166
     end
 
     # :reek:UtilityFunction
+    def mark_locales_loaded(removed_locales, added_locales)
+      loaded_locales = ISO3166.configuration.loaded_locales
+      removed_locales.each { |locale| loaded_locales.delete(locale) }
+      loaded_locales.concat(added_locales)
+    end
+
+    # :reek:UtilityFunction
     def requested_locales
       ISO3166.configuration.locales.map { |locale| locale.match?(/[A-Z]/) ? locale.downcase : locale }
     end
