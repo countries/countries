@@ -67,6 +67,29 @@ describe ISO3166::Data do
     ISO3166::Country.new('US')
   end
 
+  it 'still loads locales assigned by another thread while the diff is computed' do
+    ISO3166::Data.reset
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    allow(ISO3166::Data).to receive(:locales_to_remove).and_wrap_original do |original|
+      original.call.tap { ISO3166.configuration.locales = %i[en de] }
+    end
+    ISO3166::Data.update_cache
+    expect(ISO3166::Country.new('US').translation(:de)).to eq 'Vereinigte Staaten'
+  end
+
+  it 'syncs locales again after the configuration object is replaced' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Country.new('US')
+    ISO3166.configuration = ISO3166::Configuration.new
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Country.new('US')
+    ISO3166.configuration.locales = %i[de]
+    expect(ISO3166::Country.new('US').data['translated_names']).to eq ['Vereinigte Staaten']
+  ensure
+    ISO3166.reset
+  end
+
   it 'loads locales appended in place to the configured locales' do
     ISO3166.configuration.locales = %i[en]
     ISO3166::Data.update_cache

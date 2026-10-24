@@ -5,10 +5,16 @@ module ISO3166
     private
 
     def cache_flush_required?
-      return false if ISO3166.configuration.locales == @synced_locales
+      configuration = ISO3166.configuration
+      return false if configuration.equal?(@synced_configuration) && configuration.locales == @synced_locales
 
+      # Copied before the diff: locales assigned meanwhile by another thread must not be marked as synced
+      candidate_locales = configuration.locales.dup
       flush_required = !locales_to_load.empty? || !locales_to_remove.empty?
-      @synced_locales = ISO3166.configuration.locales.dup unless flush_required
+      unless flush_required
+        @synced_locales = candidate_locales
+        @synced_configuration = configuration
+      end
       flush_required
     end
 
