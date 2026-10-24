@@ -12,6 +12,7 @@ module ISO3166
     @registered_data = {}
     @mutex = Mutex.new
     @subdivisions = {}
+    @synced_snapshot = nil
 
     def initialize(alpha2)
       alpha2 = alpha2.to_s if alpha2.is_a?(Symbol)
@@ -54,6 +55,7 @@ module ISO3166
           @subdivisions = {}
           @registered_data = {}
           ISO3166.configuration.loaded_locales = []
+          @synced_snapshot = nil
           ISO3166::Country.reset_country_cache
         end
       end
@@ -118,10 +120,6 @@ module ISO3166
       # Codes that we have translations for in dataset
       def internal_codes
         @loaded_country_codes - @registered_data.keys
-      end
-
-      def cache_flush_required?
-        !locales_to_load.empty? || !locales_to_remove.empty?
       end
 
       def load_translations(locale)

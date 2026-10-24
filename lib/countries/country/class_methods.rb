@@ -23,7 +23,7 @@ module ISO3166
       country_code = country_data.to_s
       country_code = country_code.upcase if country_code.match?(/[a-z]/)
 
-      super if codes.include?(country_code)
+      super if ISO3166::Data.cache.key?(country_code)
     end
 
     def cached_instance(country_data)

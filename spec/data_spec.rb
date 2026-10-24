@@ -44,6 +44,90 @@ describe ISO3166::Data do
     end
   end
 
+  it 'finds registered countries until they are unregistered' do
+    ISO3166::Data.register(alpha2: 'XX', iso_short_name: 'Custom Country')
+    expect(ISO3166::Country.new('XX').iso_short_name).to eq 'Custom Country'
+    ISO3166::Data.unregister('XX')
+    expect(ISO3166::Country.new('XX')).to be_nil
+  end
+
+  it 'skips the locale diff once mixed-case locales are loaded' do
+    ISO3166.configuration.locales = %i[en pt-BR]
+    expect(ISO3166::Country.new('BR').translation('pt-BR')).to eq 'Brasil'
+    expect(ISO3166::Data).not_to receive(:locales_to_load)
+    ISO3166::Country.new('BR')
+  end
+
+  it 'skips the locale diff once locales loaded in another order are synced' do
+    ISO3166.configuration.locales = %i[de]
+    ISO3166::Country.new('US')
+    ISO3166.configuration.locales = %i[en de]
+    expect(ISO3166::Country.new('US').translation(:en)).to eq 'United States'
+    expect(ISO3166::Data).not_to receive(:locales_to_load)
+    ISO3166::Country.new('US')
+  end
+
+  it 'still loads locales assigned by another thread while the diff is computed' do
+    ISO3166::Data.reset
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    allow(ISO3166::Data).to receive(:locales_synced?).and_wrap_original do |original, locales|
+      original.call(locales).tap { ISO3166.configuration.locales = %i[en de] }
+    end
+    ISO3166::Data.update_cache
+    expect(ISO3166::Country.new('US').translation(:de)).to eq 'Vereinigte Staaten'
+  end
+
+  it 'keeps no stale snapshot when another thread switches locales during the diff' do
+    ISO3166::Data.reset
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    main_thread = Thread.current
+    switcher = nil
+    allow(ISO3166::Data).to receive(:locales_synced?).and_wrap_original do |original, locales|
+      if Thread.current == main_thread && switcher.nil?
+        switcher = Thread.new do
+          ISO3166.configuration.locales = %i[de]
+          ISO3166::Data.update_cache
+        end
+        Thread.pass until switcher.stop?
+      end
+      original.call(locales)
+    end
+    ISO3166::Data.update_cache
+    switcher.join
+    ISO3166.configuration.locales = %i[en]
+    expect(ISO3166::Data.update_cache['US']['translated_names']).to eq ['United States']
+  end
+
+  it 'syncs locales again after the configuration object is replaced' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Country.new('US')
+    ISO3166.configuration = ISO3166::Configuration.new
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Country.new('US')
+    ISO3166.configuration.locales = %i[de]
+    expect(ISO3166::Country.new('US').data['translated_names']).to eq ['Vereinigte Staaten']
+  ensure
+    ISO3166.reset
+  end
+
+  it 'syncs again when switching back to locales synced before another sync' do
+    ISO3166.configuration.locales = %i[en]
+    2.times { ISO3166::Data.update_cache }
+    ISO3166.configuration.locales = %i[de]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales = %i[en]
+    expect(ISO3166::Data.update_cache['US']['translated_names']).to eq ['United States']
+  end
+
+  it 'loads locales appended in place to the configured locales' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales << :de
+    expect(ISO3166::Country.new('US').translation(:de)).to eq 'Vereinigte Staaten'
+  end
+
   it 'locales will load prior to return results' do
     ISO3166.configuration.locales = %i[es de en]
     ISO3166::Data.update_cache
