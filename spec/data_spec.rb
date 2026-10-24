@@ -86,6 +86,19 @@ describe ISO3166::Data do
     expect(ISO3166::Country.new('DE').translation('de')).to eq nil
   end
 
+  it 'shares one frozen string per distinct name' do
+    ISO3166.configuration.locales = %i[en es]
+    ISO3166::Data.reset
+    andorra = ISO3166::Country.new('AD')
+    expect(andorra.translation(:en)).to be_frozen
+    expect(andorra.translation(:en)).to equal andorra.translation(:es)
+    expect(andorra.unofficial_names).to be_frozen
+
+    ain = ISO3166::Country.new('FR').subdivisions['01']
+    expect(ain.translations[:en]).to equal ain.translations[:es]
+    expect(ain.name).to equal ain.translations[:en]
+  end
+
   describe '#load_cache' do
     it 'will return an empty hash for an unsupported locale' do
       file_array = %w[locales unsupported.json]

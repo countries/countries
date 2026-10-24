@@ -84,7 +84,8 @@ module ISO3166
         return @cache unless load_required?
 
         synchronized do
-          @cache = load_cache %w[countries.json]
+          # Each country hash stays mutable to receive its translations, its values stay frozen and deduplicated
+          @cache = load_cache(%w[countries.json]).transform_values(&:dup)
           @loaded_country_codes = @cache.keys
           @cache = @cache.merge(@registered_data)
           @cache
@@ -156,7 +157,7 @@ module ISO3166
 
       def load_cache(file_array)
         file_path = datafile_path(file_array)
-        File.exist?(file_path) ? JSON.parse(File.binread(file_path)) : {}
+        File.exist?(file_path) ? JSON.parse(File.binread(file_path), freeze: true) : {}
       end
 
       def deep_stringify_keys(data)
