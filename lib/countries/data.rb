@@ -120,10 +120,6 @@ module ISO3166
         @loaded_country_codes - @registered_data.keys
       end
 
-      def cache_flush_required?
-        !locales_to_load.empty? || !locales_to_remove.empty?
-      end
-
       def load_translations(locale)
         synchronized do
           locale_names = load_cache(['locales', "#{locale}.json"])

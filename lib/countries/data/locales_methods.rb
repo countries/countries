@@ -4,6 +4,13 @@ module ISO3166
   module LocalesMethods
     private
 
+    def cache_flush_required?
+      # Runs on every country lookup: skip building the locale diffs when nothing changed
+      return false if ISO3166.configuration.locales == ISO3166.configuration.loaded_locales
+
+      !locales_to_load.empty? || !locales_to_remove.empty?
+    end
+
     def locales_to_load
       requested_locales - loaded_locales
     end

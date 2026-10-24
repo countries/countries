@@ -44,6 +44,20 @@ describe ISO3166::Data do
     end
   end
 
+  it 'finds registered countries until they are unregistered' do
+    ISO3166::Data.register(alpha2: 'XX', iso_short_name: 'Custom Country')
+    expect(ISO3166::Country.new('XX').iso_short_name).to eq 'Custom Country'
+    ISO3166::Data.unregister('XX')
+    expect(ISO3166::Country.new('XX')).to be_nil
+  end
+
+  it 'loads locales appended in place to the configured locales' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales << :de
+    expect(ISO3166::Country.new('US').translation(:de)).to eq 'Vereinigte Staaten'
+  end
+
   it 'locales will load prior to return results' do
     ISO3166.configuration.locales = %i[es de en]
     ISO3166::Data.update_cache
