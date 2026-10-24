@@ -95,8 +95,9 @@ module ISO3166
         return unless cache_flush_required?
 
         synchronized do
-          removed_locales = locales_to_remove
-          added_locales = locales_to_load
+          # Read the configuration once: locales assigned meanwhile are left to the next sync
+          requested = requested_locales
+          removed_locales, added_locales = locale_changes(requested)
           next if removed_locales.empty? && added_locales.empty?
 
           removed_locales.each { |locale| unload_translations(locale) }
@@ -104,7 +105,7 @@ module ISO3166
           refresh_translated_names
 
           # Publish the new locales last: lookups stop syncing as soon as they see them
-          ISO3166.configuration.loaded_locales = requested_locales
+          ISO3166.configuration.loaded_locales = requested
         end
       end
 

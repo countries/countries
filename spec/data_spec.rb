@@ -42,6 +42,19 @@ describe ISO3166::Data do
     ISO3166::Data.update_cache
   end
 
+  it 'loads locales assigned by another thread during a sync' do
+    ISO3166.configuration.locales = %i[en]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales = %i[en fr]
+    allow(ISO3166::Data).to receive(:load_cache).and_wrap_original do |original, file_array|
+      original.call(file_array).tap do
+        ISO3166.configuration.locales = %i[en fr de] if file_array.first == 'locales'
+      end
+    end
+    ISO3166::Data.update_cache
+    expect(ISO3166::Country.new('US').translation(:de)).to eq 'Vereinigte Staaten'
+  end
+
   it 'lists loaded locales in the configured order' do
     ISO3166.configuration.locales = %i[de]
     ISO3166::Data.update_cache

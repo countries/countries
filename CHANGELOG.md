@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 * Anchor `postal_code_format` with `\z` instead of `\Z` so the generated regex no longer accepts a trailing newline (e.g. `"123456\n"` is now correctly rejected). Fixes #902
 * `ISO3166::Data.register` no longer mutates the `translations` hash passed by the caller (it was transforming the caller's keys to symbols in place)
-* Build each country's `translated_names` once per locale change instead of once per loaded locale, under a single lock (syncing 92 locales allocates 4.9 MB instead of 15.7 MB)
+* Build each country's `translated_names` once per locale change instead of once per loaded locale, under a single lock (syncing 92 locales allocates 4.9 MB instead of 15.7 MB). `ISO3166.configuration.loaded_locales` now lists the locales in the configured order (downcased) instead of the order they were loaded in
 
 ## [8.1.0](https://github.com/countries/countries/releases/tag/v8.1.0') (2026/01/02 09:14 +00:00)
 
