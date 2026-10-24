@@ -90,6 +90,15 @@ describe ISO3166::Data do
     ISO3166.reset
   end
 
+  it 'syncs again when switching back to locales synced before another sync' do
+    ISO3166.configuration.locales = %i[en]
+    2.times { ISO3166::Data.update_cache }
+    ISO3166.configuration.locales = %i[de]
+    ISO3166::Data.update_cache
+    ISO3166.configuration.locales = %i[en]
+    expect(ISO3166::Data.update_cache['US']['translated_names']).to eq ['United States']
+  end
+
   it 'loads locales appended in place to the configured locales' do
     ISO3166.configuration.locales = %i[en]
     ISO3166::Data.update_cache

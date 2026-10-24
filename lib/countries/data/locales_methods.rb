@@ -11,10 +11,8 @@ module ISO3166
       # Copied before the diff: locales assigned meanwhile by another thread must not be marked as synced
       candidate_locales = configuration.locales.dup
       flush_required = !locales_to_load.empty? || !locales_to_remove.empty?
-      unless flush_required
-        @synced_locales = candidate_locales
-        @synced_configuration = configuration
-      end
+      @synced_locales = flush_required ? nil : candidate_locales
+      @synced_configuration = configuration
       flush_required
     end
 
