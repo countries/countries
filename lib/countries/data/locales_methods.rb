@@ -12,6 +12,12 @@ module ISO3166
       loaded_locales - requested_locales
     end
 
+    # @return [Array(Array<Symbol>, Array<Symbol>)] the locales to unload and to load to reach +requested+
+    def locale_changes(requested)
+      loaded = loaded_locales
+      [loaded - requested, requested - loaded]
+    end
+
     # :reek:UtilityFunction
     def requested_locales
       ISO3166.configuration.locales.map { |locale| locale.match?(/[A-Z]/) ? locale.downcase : locale }
