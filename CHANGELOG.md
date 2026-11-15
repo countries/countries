@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## Unreleased
 
+* Add Norway reduced VAT rates 12% and 15% (`vat_rates.reduced` was empty)
 * Anchor `postal_code_format` with `\z` instead of `\Z` so the generated regex no longer accepts a trailing newline (e.g. `"123456\n"` is now correctly rejected). Fixes #902
 * `ISO3166::Data.register` no longer mutates the `translations` hash passed by the caller (it was transforming the caller's keys to symbols in place)
 
