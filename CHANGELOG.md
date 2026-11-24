@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 * Anchor `postal_code_format` with `\z` instead of `\Z` so the generated regex no longer accepts a trailing newline (e.g. `"123456\n"` is now correctly rejected). Fixes #902
 * `ISO3166::Data.register` no longer mutates the `translations` hash passed by the caller (it was transforming the caller's keys to symbols in place)
+* Update South Korean subdivisions: KR-42 is now `Gangwon-teukbyeoljachido` (강원특별자치도, special self-governing province), KR-45's Korean name is now 전북특별자치도, and KR-50's `name` is the romanized `Sejong`. This changes lookups: `find_subdivision_by_name` no longer finds KR-42 by `Gang'weondo [Kang-won-do]` or `강원도`, or KR-45 by `전라북도`. The former names are kept in `unofficial_names`, which `find_subdivision_by_name` does not search. KR-42's `type` changed from `province` to `special_self-governing_province`, so `subdivisions_of_types(%w[province])` no longer includes it; add `special_self-governing_province` to such filters.
 
 ## [8.1.0](https://github.com/countries/countries/releases/tag/v8.1.0') (2026/01/02 09:14 +00:00)
 
