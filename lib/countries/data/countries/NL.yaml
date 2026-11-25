@@ -46,7 +46,8 @@ NL:
   nationality: Dutch
   number: '528'
   postal_code: true
-  postal_code_format: "\\d{4} ?[A-Z]{2}"
+  postal_code_format: "[1-9]\\d{3} ?(?:[A-RT-Z][A-Z]|S[BCE-RT-Z])"
+  postal_code_example: 1234 AB
   region: Europe
   start_of_week: monday
   subregion: Western Europe

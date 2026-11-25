@@ -37,7 +37,9 @@ TT:
   national_prefix: '1'
   nationality: Trinidadian
   number: '780'
-  postal_code: false
+  postal_code: true
+  postal_code_format: "\\d{6}"
+  postal_code_example: '500234'
   region: Americas
   start_of_week: monday
   subregion: Caribbean

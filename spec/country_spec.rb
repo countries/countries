@@ -113,6 +113,20 @@ describe ISO3166::Country do
     expect(antarctica.postal_code_format).to be_nil
   end
 
+  it 'knows an example of the country postal code' do
+    expect(country.postal_code_example).to eq('95014')
+    expect(ISO3166::Country.search('NL').postal_code_example).to eq('1234 AB')
+
+    antarctica = ISO3166::Country.search('AQ')
+    expect(antarctica.postal_code_example).to be_nil
+  end
+
+  it 'gives postal code examples matching their country postal code format' do
+    ISO3166::Country.all.select(&:postal_code_example).each do |country|
+      expect(country.postal_code_example).to match(Regexp.new(country.postal_code_format)), country.alpha2
+    end
+  end
+
   it 'should return region' do
     expect(country.region).to eq('Americas')
   end

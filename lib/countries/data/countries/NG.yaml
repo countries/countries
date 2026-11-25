@@ -38,7 +38,8 @@ NG:
   nationality: Nigerian
   number: '566'
   postal_code: true
-  postal_code_format: "\\d{6}"
+  postal_code_format: "[A-Z]{2}[ -]?(?:0[1-9]|[1-9]\\d)[ -]?[A-Z\\d]{3}[ -]?[A-Z]{2}[ -]?(?:0[1-9]|[1-9]\\d)|\\d{6}"
+  postal_code_example: FC 02 A09 DB 09
   region: Africa
   start_of_week: monday
   subregion: Western Africa
