@@ -23,7 +23,10 @@ namespace :postal_codes do
       rescue StandardError
         {}
       end
-      puts ' - Returned empty data. Skipping ' and next if json.empty?
+      if json.empty?
+        puts ' - Returned empty data. Skipping'
+        next
+      end
 
       postal_code = ['postal_code', !json['zip'].nil?]
 
@@ -37,7 +40,7 @@ namespace :postal_codes do
       # zipex lists several examples separated by commas: keep the first one
       postal_code_details = {
         'postal_code_format' => json['zip'],
-        'postal_code_example' => json['zip'] && json['zipex']&.split(',')&.first
+        'postal_code_example' => json['zip'] && json['zipex']&.split(',').first
       }
       postal_code_details.each.with_index(1) do |(key, value), offset|
         index = data.find_index { |d| d[0] == key }

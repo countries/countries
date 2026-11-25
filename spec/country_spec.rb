@@ -122,8 +122,10 @@ describe ISO3166::Country do
   end
 
   it 'gives postal code examples matching their country postal code format' do
-    ISO3166::Country.all.select(&:postal_code_example).each do |country|
-      expect(country.postal_code_example).to match(Regexp.new(country.postal_code_format)), country.alpha2
+    ISO3166::Country.all.select(&:postal_code_example).each do |country_with_example|
+      # Grouped here: postal_code_format leaves a top-level alternation anchored on one side only (EG "\d{7}|\d{5}")
+      whole_format = /\A(?:#{country_with_example.data['postal_code_format']})\z/
+      expect(country_with_example.postal_code_example).to match(whole_format), country_with_example.alpha2
     end
   end
 
