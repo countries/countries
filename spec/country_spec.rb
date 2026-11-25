@@ -120,6 +120,13 @@ describe ISO3166::Country do
     expect(costa_rica_format).to match('101-1000')
     expect(costa_rica_format).not_to match('10101-anything')
     expect(costa_rica_format).not_to match('anything 101-1000')
+
+    united_kingdom_format = Regexp.new(ISO3166::Country.search('GB').postal_code_format)
+    expect(united_kingdom_format).to match('SW1A 1AA')
+    expect(united_kingdom_format).not_to match('SW1A 1AAx')
+    expect(united_kingdom_format).not_to match('xxBFPO 12')
+
+    expect(Regexp.new(ISO3166::Country.search('LI').postal_code_format)).not_to match('94851')
   end
 
   it 'should return region' do
