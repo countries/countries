@@ -43,6 +43,7 @@ module ISO3166
     'translations' => {},
     'postal_code' => nil,
     'postal_code_format' => nil,
+    'postal_code_example' => nil,
     'region' => nil,
     'unofficial_names' => [],
     'start_of_week' => 'monday',

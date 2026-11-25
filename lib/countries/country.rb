@@ -221,6 +221,9 @@ module ISO3166
     # @!attribute postal_code
     #   @return [Boolean] Does this Country uses postal codes in addresses
     #
+    # @!attribute postal_code_example
+    #   @return [String] A valid postal code of this Country, as given by Google's Address Data Service (e.g. +'1234 AB'+)
+    #
     # @!attribute region
     #   @return [String] The Region this country is in. Approximately matches the United Nations geoscheme
     #
