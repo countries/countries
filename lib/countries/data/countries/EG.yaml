@@ -42,7 +42,8 @@ EG:
   nationality: Egyptian
   number: '818'
   postal_code: true
-  postal_code_format: "\\d{5}"
+  postal_code_format: "\\d{7}|\\d{5}"
+  postal_code_example: '4460232'
   region: Africa
   start_of_week: sunday
   subregion: Northern Africa

@@ -6,6 +6,13 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## Unreleased
 
 * Anchor `postal_code_format` with `\z` instead of `\Z` so the generated regex no longer accepts a trailing newline (e.g. `"123456\n"` is now correctly rejected). Fixes #902
+* Add `postal_code_example` (alias `zip_example`), imported from Google's Address Data Service next to `postal_code_format`, and refresh the postal code data from that service. The refresh changes what some formats accept:
+  * AR requires the full CPA (`C1070AAM`): bare 4-digit codes such as `1636` no longer match
+  * NL rejects a leading zero and the SA, SD and SS suffixes, which PostNL doesn't issue
+  * SV drops the `CP ` prefix: `1101` matches, `CP 1101` no longer does
+  * EG, KZ, NG and BH accept their newer formats next to the old ones
+  * TT now has postal codes (`\d{6}`)
+* `rake postal_codes:update` skips a country whose data isn't valid JSON instead of erasing its postal code fields
 * `ISO3166::Data.register` no longer mutates the `translations` hash passed by the caller (it was transforming the caller's keys to symbols in place)
 
 ## [8.1.0](https://github.com/countries/countries/releases/tag/v8.1.0') (2026/01/02 09:14 +00:00)

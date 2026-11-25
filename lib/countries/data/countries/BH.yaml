@@ -42,7 +42,8 @@ BH:
   nationality: Bahraini
   number: '048'
   postal_code: true
-  postal_code_format: "(?:\\d|1[0-2])\\d{2}"
+  postal_code_format: "(?:^|\\b)(?:1[0-2]|[1-9])\\d{2}(?:$|\\b)"
+  postal_code_example: '317'
   region: Asia
   start_of_week: monday
   subregion: Western Asia

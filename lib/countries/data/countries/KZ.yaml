@@ -39,7 +39,8 @@ KZ:
   nationality: Kazakhstani
   number: '398'
   postal_code: true
-  postal_code_format: "\\d{6}"
+  postal_code_format: "[A-Z]\\d{2}[A-Z0-9]{4}|\\d{6}"
+  postal_code_example: '040900'
   region: Asia
   start_of_week: monday
   subregion: Central Asia

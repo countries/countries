@@ -48,7 +48,8 @@ AR:
   nationality: Argentinean
   number: '032'
   postal_code: true
-  postal_code_format: "((?:[A-HJ-NP-Z])?\\d{4})([A-Z]{3})?"
+  postal_code_format: "[A-HJ-NP-Z]\\d{4}[A-Z]{3}"
+  postal_code_example: C1070AAM
   region: Americas
   start_of_week: monday
   subregion: South America

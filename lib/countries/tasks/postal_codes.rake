@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 namespace :postal_codes do
-  desc 'Retrieve and update postal codes and their format'
+  desc 'Retrieve and update postal codes, their format and an example'
   task :update do
     require 'json'
     require 'open-uri'
@@ -16,7 +16,6 @@ namespace :postal_codes do
 
       data = yaml[country_code].to_a
       postal_code_index = data.find_index { |d| d[0] == 'postal_code' }
-      postal_code_format_index = data.find_index { |d| d[0] == 'postal_code_format' }
 
       response = URI.open("https://chromium-i18n.appspot.com/ssl-address/data/#{country_code}").read
       json = begin
@@ -24,10 +23,12 @@ namespace :postal_codes do
       rescue StandardError
         {}
       end
-      puts ' - Returned empty data. Skipping ' and next if json.empty?
+      if json.empty?
+        puts ' - Returned empty data. Skipping'
+        next
+      end
 
       postal_code = ['postal_code', !json['zip'].nil?]
-      postal_code_format = ['postal_code_format', json['zip']]
 
       if postal_code_index
         data[postal_code_index] = postal_code
@@ -36,19 +37,26 @@ namespace :postal_codes do
         data.insert(postal_code_index, postal_code)
       end
 
-      if json['zip']
-        if postal_code_format_index
-          data[postal_code_format_index] = postal_code_format
+      # zipex lists several examples separated by commas: keep the first one
+      postal_code_details = {
+        'postal_code_format' => json['zip'],
+        'postal_code_example' => json['zip'] && json['zipex']&.split(',').first
+      }
+      postal_code_details.each.with_index(1) do |(key, value), offset|
+        index = data.find_index { |d| d[0] == key }
+
+        if value.nil?
+          data.delete_at(index) if index
+        elsif index
+          data[index] = [key, value]
         else
-          data.insert(postal_code_index + 1, postal_code_format)
+          data.insert(postal_code_index + offset, [key, value])
         end
-      elsif postal_code_format_index
-        data.delete_at(postal_code_format_index)
       end
 
       yaml[country_code] = data.to_h
 
-      File.write(country_file, yaml.to_yaml)
+      File.write(country_file, yaml.to_yaml(line_width: -1))
     end
   end
 end
