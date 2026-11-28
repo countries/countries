@@ -318,6 +318,29 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Indonesian provinces' do
+    let(:indonesia) { ISO3166::Country['ID'] }
+
+    it 'includes the 38 provinces, counting the capital and special regions' do
+      provinces = indonesia.subdivisions_of_types(%w[province capital_region special_region])
+      expect(provinces.size).to eq(38)
+    end
+
+    it 'includes the four provinces created in 2022' do
+      {
+        'PD' => 'Papua Barat Daya',
+        'PE' => 'Papua Pegunungan',
+        'PS' => 'Papua Selatan',
+        'PT' => 'Papua Tengah'
+      }.each do |code, name|
+        subdivision = indonesia.subdivisions[code]
+        expect(subdivision.name).to eq(name)
+        expect(subdivision.type).to eq('province')
+        expect(indonesia.find_subdivision_by_name(name).code).to eq(code)
+      end
+    end
+  end
+
   describe 'humanized_subdivision_types' do
     it 'should return an array of humanized subdivision types' do
       expect(country.humanized_subdivision_types).to contain_exactly('District', 'State', 'Outlying area')
