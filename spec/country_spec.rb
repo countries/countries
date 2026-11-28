@@ -318,6 +318,27 @@ describe ISO3166::Country do
     end
   end
 
+  describe 'Philippine provinces' do
+    let(:philippines) { ISO3166::Country['PH'] }
+
+    it 'includes Maguindanao del Norte and Maguindanao del Sur' do
+      {
+        'MGN' => 'Maguindanao del Norte',
+        'MGS' => 'Maguindanao del Sur'
+      }.each do |code, name|
+        subdivision = philippines.subdivisions[code]
+        expect(subdivision.name).to eq(name)
+        expect(subdivision.type).to eq('province')
+        expect(philippines.find_subdivision_by_name(name).code).to eq(code)
+      end
+    end
+
+    it 'uses Davao de Oro as the name of COM and still finds it by its old name' do
+      expect(philippines.subdivisions['COM'].name).to eq('Davao de Oro')
+      expect(philippines.find_subdivision_by_name('Compostela Valley').code).to eq('COM')
+    end
+  end
+
   describe 'humanized_subdivision_types' do
     it 'should return an array of humanized subdivision types' do
       expect(country.humanized_subdivision_types).to contain_exactly('District', 'State', 'Outlying area')
